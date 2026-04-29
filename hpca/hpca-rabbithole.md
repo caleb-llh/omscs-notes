@@ -12,7 +12,7 @@
 
 ### hardware paradigm
 - transistors -> logic gates -> combinational circuits -> sequential circuits -> registers -> datapath -> control unit -> cpu -> computer. how do these abstractions build on each other? what are the design principles at each layer that enable the next layer of abstraction?
-- what actually happens inside transistors and registers during a clock cycle? edge-triggered vs level-triggered? flipflop vs latch? combinational (stateless) vs sequential (stateful) circuits? what resolves analog physical properties into deterministic digital state transitions? how do resistors, capacitors, and inductors that manage signal timing, filter noise, and stabilize the electrical environment so the logic gates can do their job? does the clock signal actually prevent race conditions if the signal propagation delay is longer than a clock cycle? how are metastability and bit flips eliminated? 
+- what actually happens inside transistors and registers during a clock cycle? edge-triggered vs level-triggered? flipflop vs latch? CMOS vs NMOS vs PMOS? multiplexer vs decoder? combinational (stateless) vs sequential (stateful) circuits? what resolves analog physical properties into deterministic digital state transitions? how do resistors, capacitors, and inductors that manage signal timing, filter noise, and stabilize the electrical environment so the logic gates can do their job? does the clock signal actually prevent race conditions if the signal propagation delay is longer than a clock cycle? how are metastability and bit flips eliminated? 
 - do all cores in a multi-core processor share the same clock signal? how do they synchronize if they don't? how do they maintain cache coherence and memory consistency if they don't?
 - what do "in flight" instructions look like at the hardware level? what actually happens when an instruction cannot complete in a single cycle, in terms of the transistor and registers state? what happens to these state if the machine shuts off abruptly - how do we recreate it if nothing is persisted? how does hardware know an instruction is "done"?
 - what does hardware interrupts look like at this level? how are complex tasks like broadcast, scheduling, implemented as hardware logic that happens in a clock tick? How does memory access and device io look like at the hardware level? 
@@ -133,21 +133,31 @@ Review:
 - what kind of statistics and profiling does the compiler need to do to be able to schedule instructions effectively? how does it get this information? 
 
 
-
-
----
 ### caches
-- How is the cache address mapped to memory address if the memory address space is significantly larger?
-- does the CPU write-through the cache or write-back to the cache? is it part of the instruction or is it done asynchronously? how does it interact with the ROB and LSQ?
+- SRAM vs latch vs flip-flop vs registers? why differentiate between instruction cache and data cache and TLB?
+- does the CPU write-through the cache or write-back to the cache? is it part of the instruction or is it done asynchronously? how does it interact with the ROB and LSQ? how does a load/store instruction in the CPU get to the cache controller to be executed and then returned to CPU while it executes other instructions out of order?
+- how does cache associativity look like at the hardware level? how does snooping look like at the hardware level? is it combinational? how do they interact with the cache controller and memory controller? why does inclusion property simplify writebacks and snooping?
+- what is a bi-stable circuit and how does a tri-state buffer allow multiple devices to share the same data bus without interference?  
+-  autonomus state machines in a processor: CPU, cache controller, MMU, snoop controllers, NoC - what else? are they all wired to the same clock signal? if not, how do they synchronize and communicate with each other? 
+- how is the reorder buffer and load-store queue related to ILP and MLP? is the LSQ and MSHR essentially the same thing but in different places?
+- what are the problems with inclusion/non-inclusion/NINE property? what is a non-temporal conflict miss?
 
 ### virtual memory
+- essence/philosophy of keeping a single state across the memory hierarchy and across mulitple cores?
 - how do registers, cache, memory, SSDs, HDDs differ physically and logically? what are the patterns as we move down the hierarchy? what does a read or write miss look like under the hood across these layers?
 - how do the cache/memory/storage controllers communicate/interact with each other? do they operate asynchronously with their own clock cycles? how do they maintain consistency and coherency across the hierarchy?
+- example of how the CPU, TLB, MMU, L1 cache and memory controller work together to access a memory address, and what happens when there is a TLB miss or a cache miss? do they operate as autonomous state machines wired to the same clock? and do they communicate with each other? how do they interact with the ROB and LSQ in this process? 
+- how does the MMU and OS work together? are MSHRs used for TLBs too? Is page size decided by the OS or the hardware? 
+- how does the MSHR data structure look like at the hardware level? how does it handle multiple outstanding misses to the same cache line or memory page?
+- data bus vs interconnect vs NoC?
+
+
+
+
+
 
 
 ---
-
-
 
 # Cheatsheet
 - 1 word = 32 bits = 4 bytes 

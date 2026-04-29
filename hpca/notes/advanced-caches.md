@@ -1,6 +1,6 @@
 # Advanced Caches
 
-#### **Part 1: Performance Fundamentals, Hierarchies, and Addressing**
+## **Part 1: Performance Fundamentals, Hierarchies, and Addressing**
 
 ---
 
@@ -93,7 +93,7 @@ Aliasing occurs if two different virtual addresses refer to the same physical lo
 
 ***
 
-#### **Part 2: Optimization Categorization, Miss Reduction, and Hit Time Acceleration**
+## **Part 2: Optimization Categorization, Miss Reduction, and Hit Time Acceleration**
 
 ---
 
@@ -188,7 +188,7 @@ Pseudo-LRU uses one bit per line to track "recently accessed" status.
 
 ***
 
-#### **Part 3: Data Prefetching, Quantitative AMAT Analysis, and Replacement Policy Implementation**
+## **Part 3: Data Prefetching, Quantitative AMAT Analysis, and Replacement Policy Implementation**
 
 ---
 
@@ -255,7 +255,7 @@ PLRU offers a middle ground between NMRU and LRU by using one "bit of history" p
 
 ***
 
-#### **Part 4: Prefetching Mechanics, Non-Blocking Systems, and Advanced Hardware Logic**
+## **Part 4: Prefetching Mechanics, Non-Blocking Systems, and Advanced Hardware Logic**
 
 ---
 

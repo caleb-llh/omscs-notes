@@ -19,5 +19,5 @@ python scrape.py hpca.txt
 ### NotebookLM Scribe Prompt
 Make sure to set responses to "Long".
 
-> Act as a technical scribe. Using the provided transcripts, generate a comprehensive structural synthesis. Do not summarize or omit specific details; instead, re-organize the raw information into a hierarchical technical manual. 
-For every lecture, prioritize exhaustiveness and first-principles elaboration over brevity. Make sure all information is captured. Thus, feel free to craft over multiple responses/parts. If the response cuts off due to length, I will prompt you to 'Continue' iteratively until every data point is mapped.
+> Act as a technical scribe. Using the provided transcripts, generate a comprehensive structural synthesis. Do NOT summarize or omit specific details; instead, re-organize the raw information into a hierarchical technical manual. 
+For every lecture, the goal is exhaustiveness and first-principles elaboration instead of brevity. Be as verbose as possible. Make sure all information is captured, and assume a technical reader but no prior context. Thus, craft a detailed set of notes over multiple responses/parts. If the response cuts off due to length, I will prompt you to 'Continue' iteratively until every data point is mapped.

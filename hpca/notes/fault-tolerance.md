@@ -2,7 +2,7 @@
 
 ---
 
-#### **Part 1: Fundamental Theory and Taxonomy**
+## **Part 1: Fundamental Theory and Taxonomy**
 
 ---
 
@@ -108,7 +108,7 @@ Three primary methods are used to improve system metrics:
 
 ---
 
-#### **Part 2: Fault Tolerance Techniques and Redundancy Models**
+## **Part 2: Fault Tolerance Techniques and Redundancy Models**
 
 ---
 
@@ -206,7 +206,7 @@ RAID allows a collection of disks to act as a single logical unit to improve per
 
 ---
 
-#### **Part 3: Quantitative Reliability, Availability, and RAID Performance Analysis**
+## **Part 3: Quantitative Reliability, Availability, and RAID Performance Analysis**
 
 ---
 
@@ -307,7 +307,7 @@ While independent probability suggests RAID 5 is sufficient, RAID 6 is used to p
 ---
 
 
-#### **Part 4: Advanced Logic Mechanics, Implementation Decisions, and Case Study Synthesis**
+## **Part 4: Advanced Logic Mechanics, Implementation Decisions, and Case Study Synthesis**
 
 ---
 
