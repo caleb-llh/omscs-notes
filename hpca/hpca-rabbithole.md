@@ -141,6 +141,8 @@ Review:
 -  autonomus state machines in a processor: CPU, cache controller, MMU, snoop controllers, NoC - what else? are they all wired to the same clock signal? if not, how do they synchronize and communicate with each other? 
 - how is the reorder buffer and load-store queue related to ILP and MLP? is the LSQ and MSHR essentially the same thing but in different places?
 - what are the problems with inclusion/non-inclusion/NINE property? what is a non-temporal conflict miss?
+- how does the directory-based cache coherence protocol look like at the hardware level? Where is the directory located and how does it interact with the cache controller and memory controller? 
+
 
 ### virtual memory
 - essence/philosophy of keeping a single state across the memory hierarchy and across mulitple cores?
@@ -152,8 +154,23 @@ Review:
 - data bus vs interconnect vs NoC?
 
 
+### storage.   
+- what is NVMe, PCIe, SATA, SCSI, SAS, RAID, ZFS, filesystems, block storage vs object storage vs file storage? what problems do they solve, how do they differ in terms of hardware and software architecture? what are the tradeoffs between them? how do they interact with the memory hierarchy and the CPU?
 
 
+### fault tolerance
+- how do ECC, parity bits, checksums, RAID, hamming codes, reed-solomon codes, SECDED work? are fault-tolerance mechanisms implemented only on storage and network devices or also in memory and CPU? 
+- Why is XOR used for parity bits? how does reading, writing and recovery look like at the hardware level with RAID 5 and RAID 6? why does writing involve so much more work than reading in RAID 5 (four accesses) and RAID 6 (six accesses)? why does RAID 6 need to use a different Q-parity scheme? what does each level solve that the previous level doesn't? 
+- How does checkpointing and rollback recovery work in the context of a CPU? how does it interact with the ROB and register renaming? how does it differ from misprediction flush? 
+- How does NMR (triple modular redundancy) work in each component of a CPU? how does it interact with the clock cycle and the combinatorial logic? how does it differ from checkpointing and rollback recovery?
+
+> The Magic: If you have $A \oplus B = C$, then $A \oplus C$ will always equal $B$. The Application: If Disk 2 (containing "B") dies, the controller takes the data from Disk 1 ("A") and the Parity from Disk 3 ("C"), XORs them together, and "reincarnates" the missing data from Disk 2 in real-time.
+
+
+
+### multi-core
+- What exactly makes multi-core favourable over wider processors if both are attempts at parallelism?
+- Key differences between FGMT and SMT? Is UMA and SMP the same -  can SMP be NUMA or AMP be UMA? How does Flynn's taxonomy of parallelism relate to these architectures? Multi-Core (SMP) CPU and a Many-Core GPU?
 
 
 
@@ -239,3 +256,20 @@ Review:
 
 
 
+### testable topics (finals)
+- cache coherence protocols, coherence strategies
+- memory consistency models
+- fault tolerance mechanisms, RAID levels (MTTF and read/write performance calculations)
+- cache misses and optimisation, associativity and addressing and translation, replacement policies, inclusion property
+- virtual memory and address translation
+
+
+### TODO
+- [ ] finish first pass of all topics in second half of the course
+- [ ] prepare cheatsheet
+
+- [ ] second pass of focus areas that are more likely to be tested, and areas that are less clear
+- [ ] look through quiz questions
+- [ ] generate notes for first half of the course
+
+> In future, generate first cut of notes, read and annotate through markdown, then generate second cut of notes to make sure all information is captured and well-organized.

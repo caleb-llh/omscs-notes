@@ -266,6 +266,7 @@ The reliability of RAID 1 increases exponentially if failed disks are replaced i
     $$\text{MTTF}_{\text{RAID1}} = \frac{(\text{MTTF}_{\text{disk}})^2}{2 \times \text{MTTR}}$$.
     *   *Case Example:* A 100,000-hour MTTF disk with a 24-hour repair time results in a system MTTF of over 208 million hours (~24,000 years).
 
+> $$\text{MTTF}_{\text{System}} = \frac{\text{Expected time to 1st failure}}{\text{Probability of 2nd failure during repair}}$$
 ---
 
 ### **Section 12: Quantitative Analysis of RAID 4 and RAID 5**
