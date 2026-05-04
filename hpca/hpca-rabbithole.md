@@ -142,7 +142,13 @@ Review:
 - how is the reorder buffer and load-store queue related to ILP and MLP? is the LSQ and MSHR essentially the same thing but in different places?
 - what are the problems with inclusion/non-inclusion/NINE property? what is a non-temporal conflict miss?
 - how does the directory-based cache coherence protocol look like at the hardware level? Where is the directory located and how does it interact with the cache controller and memory controller? 
+- how to guarantee transaction consistency for these coherence protocols?
 
+- why does L2 cache have higher associativity and higher latency if it is made of SRAM like L1 cache?
+- what are the tradeoffs between the 3 Cs - compulsory, capacity, conflict misses?
+- does prefetching and branch prediction use similar mechanisms? how does prefetching relate to OoO processing and how are the prefetch instructions issued and handled in the pipeline stages? are prefetchers hardware or software? is prefetching done by the CPU or cache controller?
+- Pipeline dynamics - it is always better to chop a sequential task to as many small stages as possible because once the pipeline is filled, the latency is equal to the size of each stage. Making a bubble “official” as a stage is better than a unexpected stall? Because the latency is hidden when the pipeline is full
+- How does AMAT relate to iron law of performance?
 
 ### virtual memory
 - essence/philosophy of keeping a single state across the memory hierarchy and across mulitple cores?
@@ -156,7 +162,9 @@ Review:
 
 ### storage.   
 - what is NVMe, PCIe, SATA, SCSI, SAS, RAID, ZFS, filesystems, block storage vs object storage vs file storage? what problems do they solve, how do they differ in terms of hardware and software architecture? what are the tradeoffs between them? how do they interact with the memory hierarchy and the CPU?
-
+- For dual-ported cells, doesn't it lead to some race conditions？how are bank conflicts handled？does the memory controller care about data dependencies or is it “dumb”? how does the CPU or cache controller prevent dual-ported race conditions if they are not running synchronously?
+- what is chip-level parallelism in memory access?
+- is the row buffer an SRAM?
 
 ### fault tolerance
 - how do ECC, parity bits, checksums, RAID, hamming codes, reed-solomon codes, SECDED work? are fault-tolerance mechanisms implemented only on storage and network devices or also in memory and CPU? 
@@ -172,6 +180,10 @@ Review:
 - What exactly makes multi-core favourable over wider processors if both are attempts at parallelism?
 - Key differences between FGMT and SMT? Is UMA and SMP the same -  can SMP be NUMA or AMP be UMA? How does Flynn's taxonomy of parallelism relate to these architectures? Multi-Core (SMP) CPU and a Many-Core GPU?
 
+### synchronisation
+- how does coherence enable consistency? are coherence protocols atomic such that synchronisation primitives can only be in one state at a time? 
+- is the load-linked internal link register a shared register by all cores? how is it's coherence guaranteed? why does the link being a register separate from the cache line make it more robust? 
+- what do the different consistency models mean for the programmer
 
 
 ---
