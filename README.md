@@ -36,10 +36,12 @@ Act as a technical scribe. Using the provided material, generate a comprehensive
 
 > Group them based on the modules/lessons specified in the syllabus
 
-> Supplement the notes where necessary to make it more readable and friendly. e.g. via background contexts, purpose, connective information, intuitions, philosophy/gist, conceptual mental-models/frameworks, dichotomy/tradeoffs, hypotheticals/first-principles (what if i changed this aspect), common examples, common confusions (what it is not), etc. Do NOT lose information, only add.
+> Supplement the notes where necessary to make it more readable and friendly.
+> Examples of block comments to add:
+> background contexts, purpose (problem it is solving), connective information, intuitions, philosophy/gist, conceptual mental-models/frameworks, dichotomy/tradeoffs, hypotheticals/first-principles (what if i changed this aspect), common examples, common confusions (what it is not), etc. Do NOT lose information, only add.
 
 > Do a few passes to enrich and refine the notes to achieve the high readability, density and quality of information. Do NOT lose information.
 
-> Do NOT lose information, only add. Parallelize with multiple sub-agents to speed up the process.
+> Do NOT lose information, only add. To ensure quality is not compromised due to context window limitations, feel free to do multiple passes. Parallelize with multiple sub-agents to speed up the process. Edit the file directly, do not write scripts to modify the file.
 
 > Consolidate all the modules in this course into a course summary markdown file, walking through all the modules with a connective thread, including key insights along the way. Focus on the conceptual gist/intution instead of the actual details, like a textbook introduction so i know the shape of this course and why it is relevant to me. To ensure quality is not compromised due to context window limitations, feel free to do multiple passes. Parallelize with multiple sub-agents to speed up the process.

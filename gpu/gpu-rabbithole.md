@@ -52,7 +52,7 @@ https://lowyx.com/posts/gt-gpu-M11/
 ### m12 - ml acceleration
 https://lowyx.com/posts/gt-gpu-M12/
 - Give me the gist of how distributed machine learning work and how does multi-GPU setup enable it.
-- why do you need different data format like TF32 (TensorFloat-32), BF16 (Bfloat16), and INT4?
+- why does ML statistical computing model a good fit for GPU's underlying execution model e.g. GPUs have weak memory consistency model and do not provide precise exceptions? why do you need different data format like TF32 (TensorFloat-32), BF16 (Bfloat16), and INT4? what is the number of FLOPS in GEMM using FMA and why? how is a big matrix multiplication split among several tensor cores?
 
 
 
@@ -62,6 +62,7 @@ https://lowyx.com/posts/gt-gpu-M12/
 - 
 - algorithm and formula for reaching definitions
 - algorithm and formula for liveness analysis
+- arithmetic intensity formula
 
 |Feature|Reaching Definitions|Live Variables|
 |---|---|---|
