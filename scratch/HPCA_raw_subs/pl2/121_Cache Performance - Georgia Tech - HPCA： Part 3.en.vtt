@@ -1,0 +1,512 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:03.030 align:start position:0%
+ 
+So<00:00:00.640><c> let's</c><00:00:00.960><c> see</c><00:00:01.439><c> what</c><00:00:01.680><c> does</c><00:00:01.839><c> it</c><00:00:02.080><c> take</c><00:00:02.240><c> to</c><00:00:02.560><c> have</c><00:00:02.720><c> a</c>
+
+00:00:03.030 --> 00:00:03.040 align:start position:0%
+So let's see what does it take to have a
+ 
+
+00:00:03.040 --> 00:00:05.670 align:start position:0%
+So let's see what does it take to have a
+good<00:00:03.280><c> cache</c><00:00:04.000><c> or</c><00:00:04.319><c> what</c><00:00:04.640><c> are</c><00:00:04.799><c> the</c><00:00:05.040><c> properties</c><00:00:05.440><c> of</c>
+
+00:00:05.670 --> 00:00:05.680 align:start position:0%
+good cache or what are the properties of
+ 
+
+00:00:05.680 --> 00:00:09.910 align:start position:0%
+good cache or what are the properties of
+a<00:00:05.839><c> good</c><00:00:06.200><c> cache.</c><00:00:07.200><c> We</c><00:00:07.520><c> want</c><00:00:08.400><c> our</c><00:00:08.720><c> system</c><00:00:09.040><c> to</c><00:00:09.360><c> have</c>
+
+00:00:09.910 --> 00:00:09.920 align:start position:0%
+a good cache. We want our system to have
+ 
+
+00:00:09.920 --> 00:00:13.749 align:start position:0%
+a good cache. We want our system to have
+a<00:00:10.240><c> good</c><00:00:10.559><c> average</c><00:00:11.040><c> memory</c><00:00:11.440><c> access</c><00:00:11.840><c> time</c><00:00:12.160><c> or</c><00:00:12.759><c> AAT</c>
+
+00:00:13.749 --> 00:00:13.759 align:start position:0%
+a good average memory access time or AAT
+ 
+
+00:00:13.759 --> 00:00:17.430 align:start position:0%
+a good average memory access time or AAT
+and<00:00:14.080><c> this</c><00:00:14.320><c> is</c><00:00:14.480><c> the</c><00:00:15.120><c> access</c><00:00:15.519><c> time</c><00:00:16.160><c> to</c><00:00:16.480><c> memory</c><00:00:17.119><c> as</c>
+
+00:00:17.430 --> 00:00:17.440 align:start position:0%
+and this is the access time to memory as
+ 
+
+00:00:17.440 --> 00:00:19.790 align:start position:0%
+and this is the access time to memory as
+seen<00:00:17.680><c> by</c><00:00:17.920><c> the</c><00:00:18.080><c> processor.</c><00:00:19.039><c> The</c>
+
+00:00:19.790 --> 00:00:19.800 align:start position:0%
+seen by the processor. The
+ 
+
+00:00:19.800 --> 00:00:23.910 align:start position:0%
+seen by the processor. The
+AAT<00:00:20.800><c> is</c><00:00:21.039><c> equal</c><00:00:21.359><c> to</c><00:00:21.920><c> the</c><00:00:22.160><c> cach's</c><00:00:22.640><c> hit</c><00:00:22.960><c> time.</c><00:00:23.680><c> How</c>
+
+00:00:23.910 --> 00:00:23.920 align:start position:0%
+AAT is equal to the cach's hit time. How
+ 
+
+00:00:23.920 --> 00:00:25.910 align:start position:0%
+AAT is equal to the cach's hit time. How
+quickly<00:00:24.240><c> can</c><00:00:24.480><c> it</c><00:00:24.640><c> return</c><00:00:24.960><c> the</c><00:00:25.199><c> data</c><00:00:25.519><c> when</c><00:00:25.760><c> we</c>
+
+00:00:25.910 --> 00:00:25.920 align:start position:0%
+quickly can it return the data when we
+ 
+
+00:00:25.920 --> 00:00:29.189 align:start position:0%
+quickly can it return the data when we
+do<00:00:26.080><c> have</c><00:00:26.240><c> a</c><00:00:26.400><c> cash</c><00:00:26.720><c> hit</c><00:00:27.439><c> plus</c><00:00:28.320><c> how</c><00:00:28.560><c> often</c><00:00:28.800><c> do</c><00:00:29.039><c> we</c>
+
+00:00:29.189 --> 00:00:29.199 align:start position:0%
+do have a cash hit plus how often do we
+ 
+
+00:00:29.199 --> 00:00:32.950 align:start position:0%
+do have a cash hit plus how often do we
+have<00:00:29.279><c> a</c><00:00:29.439><c> miss</c><00:00:30.320><c> times</c><00:00:31.199><c> the</c><00:00:31.439><c> miss</c><00:00:31.760><c> penalty.</c><00:00:32.719><c> We</c>
+
+00:00:32.950 --> 00:00:32.960 align:start position:0%
+have a miss times the miss penalty. We
+ 
+
+00:00:32.960 --> 00:00:35.270 align:start position:0%
+have a miss times the miss penalty. We
+want<00:00:33.120><c> the</c><00:00:33.280><c> AAT</c><00:00:33.840><c> to</c><00:00:34.000><c> be</c><00:00:34.160><c> very</c><00:00:34.399><c> low.</c><00:00:34.800><c> The</c><00:00:35.040><c> lower</c>
+
+00:00:35.270 --> 00:00:35.280 align:start position:0%
+want the AAT to be very low. The lower
+ 
+
+00:00:35.280 --> 00:00:38.069 align:start position:0%
+want the AAT to be very low. The lower
+the<00:00:35.600><c> better.</c><00:00:36.320><c> This</c><00:00:36.559><c> means</c><00:00:37.280><c> that</c><00:00:37.520><c> we</c><00:00:37.760><c> want</c><00:00:37.840><c> the</c>
+
+00:00:38.069 --> 00:00:38.079 align:start position:0%
+the better. This means that we want the
+ 
+
+00:00:38.079 --> 00:00:41.430 align:start position:0%
+the better. This means that we want the
+hit<00:00:38.320><c> time</c><00:00:38.559><c> to</c><00:00:38.719><c> be</c><00:00:39.000><c> low</c><00:00:40.000><c> which</c><00:00:40.320><c> means</c><00:00:40.879><c> we</c><00:00:41.120><c> want</c><00:00:41.280><c> a</c>
+
+00:00:41.430 --> 00:00:41.440 align:start position:0%
+hit time to be low which means we want a
+ 
+
+00:00:41.440 --> 00:00:43.190 align:start position:0%
+hit time to be low which means we want a
+small<00:00:41.600><c> and</c><00:00:41.840><c> fast</c><00:00:42.160><c> cache</c><00:00:42.559><c> because</c><00:00:42.800><c> that</c><00:00:43.040><c> will</c>
+
+00:00:43.190 --> 00:00:43.200 align:start position:0%
+small and fast cache because that will
+ 
+
+00:00:43.200 --> 00:00:47.110 align:start position:0%
+small and fast cache because that will
+contribute<00:00:43.920><c> to</c><00:00:44.160><c> having</c><00:00:45.000><c> this</c><00:00:46.000><c> be</c><00:00:46.160><c> low.</c><00:00:46.800><c> We</c>
+
+00:00:47.110 --> 00:00:47.120 align:start position:0%
+contribute to having this be low. We
+ 
+
+00:00:47.120 --> 00:00:49.990 align:start position:0%
+contribute to having this be low. We
+want<00:00:47.440><c> a</c><00:00:47.760><c> low</c><00:00:48.000><c> miss</c><00:00:48.320><c> rate,</c><00:00:49.039><c> which</c><00:00:49.360><c> means</c><00:00:49.760><c> we</c>
+
+00:00:49.990 --> 00:00:50.000 align:start position:0%
+want a low miss rate, which means we
+ 
+
+00:00:50.000 --> 00:00:53.910 align:start position:0%
+want a low miss rate, which means we
+want<00:00:50.160><c> our</c><00:00:50.399><c> cash</c><00:00:50.640><c> to</c><00:00:50.879><c> be</c><00:00:51.200><c> large</c><00:00:51.920><c> and/or</c><00:00:52.920><c> smart.</c>
+
+00:00:53.910 --> 00:00:53.920 align:start position:0%
+want our cash to be large and/or smart.
+ 
+
+00:00:53.920 --> 00:00:55.830 align:start position:0%
+want our cash to be large and/or smart.
+If<00:00:54.079><c> it's</c><00:00:54.320><c> a</c><00:00:54.480><c> large</c><00:00:54.719><c> cache,</c><00:00:55.120><c> more</c><00:00:55.360><c> stuff</c><00:00:55.600><c> will</c>
+
+00:00:55.830 --> 00:00:55.840 align:start position:0%
+If it's a large cache, more stuff will
+ 
+
+00:00:55.840 --> 00:00:58.869 align:start position:0%
+If it's a large cache, more stuff will
+fit<00:00:56.000><c> in</c><00:00:56.239><c> it.</c><00:00:56.559><c> So,</c><00:00:56.800><c> we</c><00:00:57.039><c> will</c><00:00:57.360><c> miss</c><00:00:57.760><c> less</c><00:00:58.079><c> often.</c>
+
+00:00:58.869 --> 00:00:58.879 align:start position:0%
+fit in it. So, we will miss less often.
+ 
+
+00:00:58.879 --> 00:01:00.709 align:start position:0%
+fit in it. So, we will miss less often.
+Or<00:00:59.039><c> if</c><00:00:59.280><c> it's</c><00:00:59.440><c> smart,</c><00:00:59.920><c> it</c><00:01:00.079><c> will</c><00:01:00.239><c> know</c><00:01:00.480><c> better</c>
+
+00:01:00.709 --> 00:01:00.719 align:start position:0%
+Or if it's smart, it will know better
+ 
+
+00:01:00.719 --> 00:01:03.270 align:start position:0%
+Or if it's smart, it will know better
+what<00:01:00.960><c> to</c><00:01:01.120><c> keep</c><00:01:01.480><c> inside.</c><00:01:02.480><c> So,</c><00:01:02.640><c> again,</c><00:01:02.879><c> we</c><00:01:03.120><c> will</c>
+
+00:01:03.270 --> 00:01:03.280 align:start position:0%
+what to keep inside. So, again, we will
+ 
+
+00:01:03.280 --> 00:01:06.310 align:start position:0%
+what to keep inside. So, again, we will
+have<00:01:03.440><c> fewer</c><00:01:03.799><c> misses.</c><00:01:04.799><c> The</c><00:01:05.040><c> miss</c><00:01:05.360><c> penalty</c><00:01:06.080><c> for</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+have fewer misses. The miss penalty for
+ 
+
+00:01:06.320 --> 00:01:08.550 align:start position:0%
+have fewer misses. The miss penalty for
+simple<00:01:06.720><c> caches</c><00:01:07.200><c> is</c><00:01:07.439><c> simply</c><00:01:07.680><c> the</c><00:01:07.920><c> main</c><00:01:08.159><c> memory</c>
+
+00:01:08.550 --> 00:01:08.560 align:start position:0%
+simple caches is simply the main memory
+ 
+
+00:01:08.560 --> 00:01:11.670 align:start position:0%
+simple caches is simply the main memory
+access<00:01:09.320><c> time.</c><00:01:10.320><c> This</c><00:01:10.560><c> is</c><00:01:10.799><c> going</c><00:01:10.960><c> to</c><00:01:11.119><c> be</c><00:01:11.280><c> very</c>
+
+00:01:11.670 --> 00:01:11.680 align:start position:0%
+access time. This is going to be very
+ 
+
+00:01:11.680 --> 00:01:14.390 align:start position:0%
+access time. This is going to be very
+large,<00:01:12.320><c> usually</c><00:01:12.960><c> tens</c><00:01:13.360><c> or</c><00:01:13.520><c> even</c><00:01:13.840><c> hundreds</c><00:01:14.240><c> of</c>
+
+00:01:14.390 --> 00:01:14.400 align:start position:0%
+large, usually tens or even hundreds of
+ 
+
+00:01:14.400 --> 00:01:17.270 align:start position:0%
+large, usually tens or even hundreds of
+processor<00:01:14.880><c> cycles.</c><00:01:16.240><c> So</c><00:01:16.560><c> really</c><00:01:16.799><c> when</c><00:01:17.040><c> we're</c>
+
+00:01:17.270 --> 00:01:17.280 align:start position:0%
+processor cycles. So really when we're
+ 
+
+00:01:17.280 --> 00:01:19.109 align:start position:0%
+processor cycles. So really when we're
+designing<00:01:17.680><c> caches,</c><00:01:18.400><c> we're</c><00:01:18.720><c> trying</c><00:01:18.880><c> to</c>
+
+00:01:19.109 --> 00:01:19.119 align:start position:0%
+designing caches, we're trying to
+ 
+
+00:01:19.119 --> 00:01:21.230 align:start position:0%
+designing caches, we're trying to
+balance<00:01:19.439><c> the</c><00:01:19.680><c> hit</c><00:01:19.840><c> time</c><00:01:20.000><c> and</c><00:01:20.240><c> the</c><00:01:20.320><c> miss</c>
+
+00:01:21.230 --> 00:01:21.240 align:start position:0%
+balance the hit time and the miss
+ 
+
+00:01:21.240 --> 00:01:25.030 align:start position:0%
+balance the hit time and the miss
+rate.<00:01:22.240><c> Small</c><00:01:22.479><c> and</c><00:01:22.799><c> fast</c><00:01:23.560><c> versus</c><00:01:24.560><c> large</c><00:01:24.799><c> and</c>
+
+00:01:25.030 --> 00:01:25.040 align:start position:0%
+rate. Small and fast versus large and
+ 
+
+00:01:25.040 --> 00:01:27.270 align:start position:0%
+rate. Small and fast versus large and
+intelligent.<00:01:25.680><c> And</c><00:01:25.920><c> intelligent</c><00:01:26.720><c> typically</c>
+
+00:01:27.270 --> 00:01:27.280 align:start position:0%
+intelligent. And intelligent typically
+ 
+
+00:01:27.280 --> 00:01:28.590 align:start position:0%
+intelligent. And intelligent typically
+means<00:01:27.600><c> slightly</c>
+
+00:01:28.590 --> 00:01:28.600 align:start position:0%
+means slightly
+ 
+
+00:01:28.600 --> 00:01:33.510 align:start position:0%
+means slightly
+slower.<00:01:29.600><c> So</c><00:01:30.400><c> some</c><00:01:30.840><c> caches</c><00:01:31.840><c> can</c><00:01:32.079><c> be</c><00:01:32.960><c> extremely</c>
+
+00:01:33.510 --> 00:01:33.520 align:start position:0%
+slower. So some caches can be extremely
+ 
+
+00:01:33.520 --> 00:01:36.230 align:start position:0%
+slower. So some caches can be extremely
+small<00:01:33.759><c> and</c><00:01:34.079><c> fast,</c><00:01:34.720><c> have</c><00:01:34.880><c> very</c><00:01:35.200><c> good</c><00:01:35.360><c> hit</c><00:01:35.680><c> time,</c>
+
+00:01:36.230 --> 00:01:36.240 align:start position:0%
+small and fast, have very good hit time,
+ 
+
+00:01:36.240 --> 00:01:37.990 align:start position:0%
+small and fast, have very good hit time,
+but<00:01:36.560><c> sometimes</c><00:01:36.880><c> that's</c><00:01:37.119><c> at</c><00:01:37.360><c> the</c><00:01:37.439><c> expense</c><00:01:37.680><c> of</c>
+
+00:01:37.990 --> 00:01:38.000 align:start position:0%
+but sometimes that's at the expense of
+ 
+
+00:01:38.000 --> 00:01:40.469 align:start position:0%
+but sometimes that's at the expense of
+having<00:01:38.240><c> a</c><00:01:38.400><c> larger</c><00:01:38.799><c> miss</c><00:01:39.040><c> rate.</c><00:01:39.759><c> Some</c><00:01:40.000><c> caches</c>
+
+00:01:40.469 --> 00:01:40.479 align:start position:0%
+having a larger miss rate. Some caches
+ 
+
+00:01:40.479 --> 00:01:42.630 align:start position:0%
+having a larger miss rate. Some caches
+will<00:01:40.720><c> have</c><00:01:40.880><c> a</c><00:01:41.200><c> relatively</c><00:01:41.759><c> large</c><00:01:42.079><c> hit</c><00:01:42.320><c> time</c>
+
+00:01:42.630 --> 00:01:42.640 align:start position:0%
+will have a relatively large hit time
+ 
+
+00:01:42.640 --> 00:01:45.190 align:start position:0%
+will have a relatively large hit time
+but<00:01:42.960><c> extremely</c><00:01:43.439><c> low</c><00:01:43.680><c> miss</c><00:01:44.000><c> rates</c><00:01:44.640><c> so</c><00:01:44.799><c> that</c><00:01:44.960><c> we</c>
+
+00:01:45.190 --> 00:01:45.200 align:start position:0%
+but extremely low miss rates so that we
+ 
+
+00:01:45.200 --> 00:01:47.429 align:start position:0%
+but extremely low miss rates so that we
+can<00:01:45.280><c> reduce</c><00:01:45.600><c> the</c><00:01:45.840><c> overall</c><00:01:46.240><c> contribution</c><00:01:47.119><c> of</c>
+
+00:01:47.429 --> 00:01:47.439 align:start position:0%
+can reduce the overall contribution of
+ 
+
+00:01:47.439 --> 00:01:49.830 align:start position:0%
+can reduce the overall contribution of
+main<00:01:47.759><c> memory</c><00:01:48.079><c> accesses</c><00:01:48.880><c> that</c><00:01:49.119><c> contribute</c><00:01:49.600><c> a</c>
+
+00:01:49.830 --> 00:01:49.840 align:start position:0%
+main memory accesses that contribute a
+ 
+
+00:01:49.840 --> 00:01:52.069 align:start position:0%
+main memory accesses that contribute a
+lot<00:01:50.000><c> each</c><00:01:50.240><c> time</c><00:01:50.399><c> we</c><00:01:50.640><c> have</c><00:01:50.799><c> them.</c><00:01:51.439><c> Sometimes</c><00:01:51.840><c> we</c>
+
+00:01:52.069 --> 00:01:52.079 align:start position:0%
+lot each time we have them. Sometimes we
+ 
+
+00:01:52.079 --> 00:01:54.710 align:start position:0%
+lot each time we have them. Sometimes we
+also<00:01:52.320><c> talk</c><00:01:52.560><c> about</c><00:01:52.880><c> miss</c><00:01:53.200><c> time</c><00:01:54.000><c> which</c><00:01:54.240><c> is</c><00:01:54.479><c> the</c>
+
+00:01:54.710 --> 00:01:54.720 align:start position:0%
+also talk about miss time which is the
+ 
+
+00:01:54.720 --> 00:01:56.550 align:start position:0%
+also talk about miss time which is the
+overall<00:01:55.119><c> time</c><00:01:55.360><c> it</c><00:01:55.600><c> takes</c><00:01:55.840><c> to</c><00:01:56.000><c> have</c><00:01:56.079><c> a</c><00:01:56.240><c> cache</c>
+
+00:01:56.550 --> 00:01:56.560 align:start position:0%
+overall time it takes to have a cache
+ 
+
+00:01:56.560 --> 00:02:00.069 align:start position:0%
+overall time it takes to have a cache
+miss.<00:01:57.360><c> A</c><00:01:57.600><c> miss</c><00:01:57.920><c> time</c><00:01:58.399><c> is</c><00:01:58.719><c> simply</c><00:01:59.119><c> the</c><00:01:59.360><c> hit</c><00:01:59.680><c> time</c>
+
+00:02:00.069 --> 00:02:00.079 align:start position:0%
+miss. A miss time is simply the hit time
+ 
+
+00:02:00.079 --> 00:02:02.469 align:start position:0%
+miss. A miss time is simply the hit time
+followed<00:02:00.479><c> by</c><00:02:00.640><c> the</c><00:02:00.880><c> miss</c><00:02:01.119><c> penalty</c><00:02:02.000><c> because</c><00:02:02.240><c> we</c>
+
+00:02:02.469 --> 00:02:02.479 align:start position:0%
+followed by the miss penalty because we
+ 
+
+00:02:02.479 --> 00:02:04.230 align:start position:0%
+followed by the miss penalty because we
+try<00:02:02.640><c> to</c><00:02:02.799><c> find</c><00:02:03.040><c> what</c><00:02:03.280><c> we</c><00:02:03.439><c> have</c><00:02:03.520><c> in</c><00:02:03.680><c> the</c><00:02:03.840><c> cache</c>
+
+00:02:04.230 --> 00:02:04.240 align:start position:0%
+try to find what we have in the cache
+ 
+
+00:02:04.240 --> 00:02:06.069 align:start position:0%
+try to find what we have in the cache
+but<00:02:04.560><c> fail</c><00:02:04.880><c> and</c><00:02:05.119><c> then</c><00:02:05.280><c> we</c><00:02:05.520><c> still</c><00:02:05.680><c> have</c><00:02:05.840><c> to</c><00:02:05.920><c> pay</c>
+
+00:02:06.069 --> 00:02:06.079 align:start position:0%
+but fail and then we still have to pay
+ 
+
+00:02:06.079 --> 00:02:08.070 align:start position:0%
+but fail and then we still have to pay
+the<00:02:06.240><c> miss</c><00:02:06.479><c> penalty.</c><00:02:07.200><c> We</c><00:02:07.439><c> can</c><00:02:07.600><c> also</c><00:02:07.920><c> think</c>
+
+00:02:08.070 --> 00:02:08.080 align:start position:0%
+the miss penalty. We can also think
+ 
+
+00:02:08.080 --> 00:02:11.350 align:start position:0%
+the miss penalty. We can also think
+about<00:02:08.879><c> miss</c><00:02:09.200><c> time</c><00:02:10.160><c> is</c><00:02:10.399><c> the</c><00:02:10.640><c> memory</c><00:02:10.959><c> access</c>
+
+00:02:11.350 --> 00:02:11.360 align:start position:0%
+about miss time is the memory access
+ 
+
+00:02:11.360 --> 00:02:14.390 align:start position:0%
+about miss time is the memory access
+time<00:02:12.160><c> when</c><00:02:12.879><c> we</c><00:02:13.120><c> are</c><00:02:13.280><c> missing.</c><00:02:13.760><c> So</c><00:02:13.920><c> miss</c><00:02:14.160><c> rate</c>
+
+00:02:14.390 --> 00:02:14.400 align:start position:0%
+time when we are missing. So miss rate
+ 
+
+00:02:14.400 --> 00:02:16.229 align:start position:0%
+time when we are missing. So miss rate
+is<00:02:14.560><c> one.</c><00:02:14.879><c> So</c><00:02:15.040><c> again</c><00:02:15.280><c> it</c><00:02:15.440><c> would</c><00:02:15.520><c> be</c><00:02:15.680><c> hit</c><00:02:15.920><c> time</c>
+
+00:02:16.229 --> 00:02:16.239 align:start position:0%
+is one. So again it would be hit time
+ 
+
+00:02:16.239 --> 00:02:19.190 align:start position:0%
+is one. So again it would be hit time
+plus<00:02:16.560><c> the</c><00:02:16.879><c> miss</c><00:02:17.319><c> penalty.</c><00:02:18.319><c> So</c><00:02:18.560><c> another</c><00:02:18.879><c> way</c><00:02:19.040><c> to</c>
+
+00:02:19.190 --> 00:02:19.200 align:start position:0%
+plus the miss penalty. So another way to
+ 
+
+00:02:19.200 --> 00:02:21.350 align:start position:0%
+plus the miss penalty. So another way to
+write<00:02:19.440><c> the</c><00:02:19.599><c> amat</c><00:02:20.239><c> expression</c><00:02:20.800><c> would</c><00:02:21.040><c> be</c><00:02:21.200><c> to</c>
+
+00:02:21.350 --> 00:02:21.360 align:start position:0%
+write the amat expression would be to
+ 
+
+00:02:21.360 --> 00:02:24.790 align:start position:0%
+write the amat expression would be to
+say<00:02:21.520><c> that</c><00:02:21.760><c> it</c><00:02:22.280><c> is</c><00:02:23.280><c> 1</c><00:02:23.440><c> minus</c><00:02:23.840><c> miss</c><00:02:24.160><c> rate</c><00:02:24.560><c> times</c>
+
+00:02:24.790 --> 00:02:24.800 align:start position:0%
+say that it is 1 minus miss rate times
+ 
+
+00:02:24.800 --> 00:02:27.270 align:start position:0%
+say that it is 1 minus miss rate times
+the<00:02:24.959><c> hit</c><00:02:25.200><c> time.</c><00:02:25.920><c> So</c><00:02:26.080><c> this</c><00:02:26.319><c> is</c><00:02:26.480><c> how</c><00:02:26.720><c> often</c><00:02:26.959><c> do</c><00:02:27.120><c> we</c>
+
+00:02:27.270 --> 00:02:27.280 align:start position:0%
+the hit time. So this is how often do we
+ 
+
+00:02:27.280 --> 00:02:30.070 align:start position:0%
+the hit time. So this is how often do we
+have<00:02:27.360><c> the</c><00:02:27.599><c> hits</c><00:02:28.080><c> times</c><00:02:28.319><c> the</c><00:02:28.480><c> time</c><00:02:28.720><c> for</c><00:02:28.879><c> the</c><00:02:29.080><c> hit</c>
+
+00:02:30.070 --> 00:02:30.080 align:start position:0%
+have the hits times the time for the hit
+ 
+
+00:02:30.080 --> 00:02:32.790 align:start position:0%
+have the hits times the time for the hit
+plus<00:02:30.879><c> how</c><00:02:31.120><c> often</c><00:02:31.360><c> do</c><00:02:31.520><c> we</c><00:02:31.680><c> have</c><00:02:31.760><c> the</c><00:02:32.000><c> misses</c>
+
+00:02:32.790 --> 00:02:32.800 align:start position:0%
+plus how often do we have the misses
+ 
+
+00:02:32.800 --> 00:02:36.150 align:start position:0%
+plus how often do we have the misses
+times<00:02:33.040><c> the</c><00:02:33.280><c> miss</c><00:02:33.519><c> time.</c><00:02:34.720><c> Usually</c><00:02:35.599><c> we</c><00:02:35.840><c> want</c><00:02:36.000><c> to</c>
+
+00:02:36.150 --> 00:02:36.160 align:start position:0%
+times the miss time. Usually we want to
+ 
+
+00:02:36.160 --> 00:02:39.030 align:start position:0%
+times the miss time. Usually we want to
+use<00:02:36.319><c> this</c><00:02:36.640><c> expression</c><00:02:37.519><c> simply</c><00:02:38.000><c> because</c><00:02:38.800><c> the</c>
+
+00:02:39.030 --> 00:02:39.040 align:start position:0%
+use this expression simply because the
+ 
+
+00:02:39.040 --> 00:02:41.190 align:start position:0%
+use this expression simply because the
+miss<00:02:39.280><c> time</c><00:02:39.599><c> typically</c><00:02:40.080><c> includes</c><00:02:40.800><c> checking</c>
+
+00:02:41.190 --> 00:02:41.200 align:start position:0%
+miss time typically includes checking
+ 
+
+00:02:41.200 --> 00:02:42.869 align:start position:0%
+miss time typically includes checking
+whether<00:02:41.519><c> what</c><00:02:41.760><c> we</c><00:02:41.840><c> have</c><00:02:42.000><c> is</c><00:02:42.160><c> in</c><00:02:42.319><c> the</c><00:02:42.480><c> cache</c>
+
+00:02:42.869 --> 00:02:42.879 align:start position:0%
+whether what we have is in the cache
+ 
+
+00:02:42.879 --> 00:02:44.949 align:start position:0%
+whether what we have is in the cache
+followed<00:02:43.200><c> by</c><00:02:43.360><c> whatever</c><00:02:43.760><c> we</c><00:02:44.000><c> need</c><00:02:44.160><c> to</c><00:02:44.319><c> do</c><00:02:44.480><c> on</c><00:02:44.720><c> a</c>
+
+00:02:44.949 --> 00:02:44.959 align:start position:0%
+followed by whatever we need to do on a
+ 
+
+00:02:44.959 --> 00:02:48.390 align:start position:0%
+followed by whatever we need to do on a
+miss.<00:02:45.599><c> So</c><00:02:46.280><c> somehow</c><00:02:47.280><c> every</c><00:02:47.599><c> time</c><00:02:47.760><c> we</c><00:02:48.000><c> will</c><00:02:48.160><c> have</c>
+
+00:02:48.390 --> 00:02:48.400 align:start position:0%
+miss. So somehow every time we will have
+ 
+
+00:02:48.400 --> 00:02:50.390 align:start position:0%
+miss. So somehow every time we will have
+the<00:02:48.720><c> time</c><00:02:48.879><c> it</c><00:02:49.040><c> takes</c><00:02:49.200><c> to</c><00:02:49.440><c> hit</c><00:02:49.680><c> but</c><00:02:50.000><c> sometimes</c>
+
+00:02:50.390 --> 00:02:50.400 align:start position:0%
+the time it takes to hit but sometimes
+ 
+
+00:02:50.400 --> 00:02:54.400 align:start position:0%
+the time it takes to hit but sometimes
+we<00:02:50.560><c> will</c><00:02:50.720><c> also</c><00:02:51.040><c> pay</c><00:02:51.200><c> the</c><00:02:51.440><c> miss</c><00:02:51.680><c> penalty.</c>
+

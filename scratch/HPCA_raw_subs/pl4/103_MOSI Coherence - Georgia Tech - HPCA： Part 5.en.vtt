@@ -1,0 +1,344 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.540 align:start position:0%
+ 
+so<00:00:00.450><c> now</c><00:00:00.659><c> we</c><00:00:00.719><c> have</c><00:00:01.079><c> what</c><00:00:01.350><c> is</c><00:00:01.500><c> called</c><00:00:01.709><c> a</c><00:00:01.920><c> mozi</c>
+
+00:00:02.540 --> 00:00:02.550 align:start position:0%
+so now we have what is called a mozi
+ 
+
+00:00:02.550 --> 00:00:06.320 align:start position:0%
+so now we have what is called a mozi
+coherence<00:00:03.419><c> protocol</c><00:00:03.990><c> M</c><00:00:04.440><c> s</c><00:00:04.980><c> and</c><00:00:05.549><c> I</c><00:00:05.790><c> are</c><00:00:06.150><c> the</c>
+
+00:00:06.320 --> 00:00:06.330 align:start position:0%
+coherence protocol M s and I are the
+ 
+
+00:00:06.330 --> 00:00:08.480 align:start position:0%
+coherence protocol M s and I are the
+same<00:00:06.359><c> as</c><00:00:06.750><c> before</c><00:00:06.779><c> but</c><00:00:07.440><c> now</c><00:00:07.770><c> there</c><00:00:08.069><c> is</c><00:00:08.189><c> a</c><00:00:08.220><c> new</c>
+
+00:00:08.480 --> 00:00:08.490 align:start position:0%
+same as before but now there is a new
+ 
+
+00:00:08.490 --> 00:00:12.410 align:start position:0%
+same as before but now there is a new
+old<00:00:08.790><c> state</c><00:00:09.360><c> so</c><00:00:10.260><c> the</c><00:00:10.380><c> Moche</c><00:00:10.830><c> protocol</c><00:00:11.400><c> is</c><00:00:11.940><c> like</c>
+
+00:00:12.410 --> 00:00:12.420 align:start position:0%
+old state so the Moche protocol is like
+ 
+
+00:00:12.420 --> 00:00:16.189 align:start position:0%
+old state so the Moche protocol is like
+MSI<00:00:13.219><c> except</c><00:00:14.219><c> when</c><00:00:15.000><c> we</c><00:00:15.179><c> are</c><00:00:15.269><c> in</c><00:00:15.420><c> the</c><00:00:15.540><c> m</c><00:00:15.719><c> state</c>
+
+00:00:16.189 --> 00:00:16.199 align:start position:0%
+MSI except when we are in the m state
+ 
+
+00:00:16.199 --> 00:00:19.730 align:start position:0%
+MSI except when we are in the m state
+and<00:00:16.529><c> we</c><00:00:17.220><c> snoopeh</c><00:00:17.730><c> read</c><00:00:17.940><c> from</c><00:00:18.210><c> another</c><00:00:18.539><c> core</c><00:00:18.930><c> we</c>
+
+00:00:19.730 --> 00:00:19.740 align:start position:0%
+and we snoopeh read from another core we
+ 
+
+00:00:19.740 --> 00:00:22.700 align:start position:0%
+and we snoopeh read from another core we
+provide<00:00:20.279><c> the</c><00:00:20.460><c> data</c><00:00:20.640><c> as</c><00:00:21.029><c> before</c><00:00:21.480><c> but</c><00:00:22.350><c> we</c><00:00:22.560><c> now</c>
+
+00:00:22.700 --> 00:00:22.710 align:start position:0%
+provide the data as before but we now
+ 
+
+00:00:22.710 --> 00:00:26.230 align:start position:0%
+provide the data as before but we now
+move<00:00:22.920><c> into</c><00:00:23.189><c> the</c><00:00:23.460><c> off</c><00:00:23.939><c> state</c><00:00:24.390><c> not</c><00:00:25.289><c> the</c><00:00:25.320><c> s</c><00:00:25.680><c> state</c>
+
+00:00:26.230 --> 00:00:26.240 align:start position:0%
+move into the off state not the s state
+ 
+
+00:00:26.240 --> 00:00:29.269 align:start position:0%
+move into the off state not the s state
+when<00:00:27.240><c> we</c><00:00:27.269><c> are</c><00:00:27.510><c> providing</c><00:00:27.750><c> the</c><00:00:28.199><c> data</c><00:00:28.439><c> the</c>
+
+00:00:29.269 --> 00:00:29.279 align:start position:0%
+when we are providing the data the
+ 
+
+00:00:29.279 --> 00:00:32.359 align:start position:0%
+when we are providing the data the
+memory<00:00:29.670><c> now</c><00:00:29.880><c> doesn't</c><00:00:30.420><c> get</c><00:00:30.599><c> accessed</c><00:00:31.170><c> in</c><00:00:31.619><c> MSI</c>
+
+00:00:32.359 --> 00:00:32.369 align:start position:0%
+memory now doesn't get accessed in MSI
+ 
+
+00:00:32.369 --> 00:00:34.430 align:start position:0%
+memory now doesn't get accessed in MSI
+the<00:00:32.820><c> memory</c><00:00:33.210><c> would</c><00:00:33.450><c> now</c><00:00:33.630><c> need</c><00:00:33.899><c> to</c><00:00:34.079><c> be</c><00:00:34.230><c> written</c>
+
+00:00:34.430 --> 00:00:34.440 align:start position:0%
+the memory would now need to be written
+ 
+
+00:00:34.440 --> 00:00:37.580 align:start position:0%
+the memory would now need to be written
+with<00:00:34.800><c> the</c><00:00:34.829><c> data</c><00:00:35.329><c> here</c><00:00:36.329><c> we</c><00:00:36.510><c> simply</c><00:00:37.079><c> provide</c><00:00:37.559><c> the</c>
+
+00:00:37.580 --> 00:00:37.590 align:start position:0%
+with the data here we simply provide the
+ 
+
+00:00:37.590 --> 00:00:40.310 align:start position:0%
+with the data here we simply provide the
+data<00:00:38.010><c> to</c><00:00:38.460><c> the</c><00:00:38.700><c> requester</c><00:00:39.450><c> move</c><00:00:39.899><c> to</c><00:00:40.140><c> the</c><00:00:40.290><c> O</c>
+
+00:00:40.310 --> 00:00:40.320 align:start position:0%
+data to the requester move to the O
+ 
+
+00:00:40.320 --> 00:00:44.180 align:start position:0%
+data to the requester move to the O
+state<00:00:40.790><c> without</c><00:00:41.790><c> updating</c><00:00:42.239><c> the</c><00:00:42.809><c> memory</c><00:00:43.190><c> while</c>
+
+00:00:44.180 --> 00:00:44.190 align:start position:0%
+state without updating the memory while
+ 
+
+00:00:44.190 --> 00:00:46.459 align:start position:0%
+state without updating the memory while
+the<00:00:44.489><c> block</c><00:00:44.760><c> is</c><00:00:44.940><c> in</c><00:00:44.969><c> the</c><00:00:45.239><c> O</c><00:00:45.270><c> state</c><00:00:45.809><c> in</c><00:00:46.110><c> a</c><00:00:46.200><c> cache</c>
+
+00:00:46.459 --> 00:00:46.469 align:start position:0%
+the block is in the O state in a cache
+ 
+
+00:00:46.469 --> 00:00:49.569 align:start position:0%
+the block is in the O state in a cache
+it<00:00:47.129><c> behaves</c><00:00:47.610><c> similarly</c><00:00:48.180><c> to</c><00:00:48.329><c> the</c><00:00:48.660><c> S</c><00:00:48.809><c> state</c>
+
+00:00:49.569 --> 00:00:49.579 align:start position:0%
+it behaves similarly to the S state
+ 
+
+00:00:49.579 --> 00:00:53.209 align:start position:0%
+it behaves similarly to the S state
+except<00:00:50.579><c> that</c><00:00:51.570><c> if</c><00:00:51.780><c> we</c><00:00:51.960><c> snoop</c><00:00:52.289><c> a</c><00:00:52.500><c> read</c><00:00:52.680><c> we</c>
+
+00:00:53.209 --> 00:00:53.219 align:start position:0%
+except that if we snoop a read we
+ 
+
+00:00:53.219 --> 00:00:55.910 align:start position:0%
+except that if we snoop a read we
+continue<00:00:53.850><c> to</c><00:00:54.030><c> provide</c><00:00:54.300><c> the</c><00:00:54.660><c> data</c><00:00:54.870><c> just</c><00:00:55.739><c> like</c>
+
+00:00:55.910 --> 00:00:55.920 align:start position:0%
+continue to provide the data just like
+ 
+
+00:00:55.920 --> 00:00:58.670 align:start position:0%
+continue to provide the data just like
+we<00:00:56.219><c> did</c><00:00:56.399><c> in</c><00:00:56.579><c> the</c><00:00:56.699><c> M</c><00:00:56.820><c> State</c><00:00:57.180><c> and</c><00:00:57.510><c> that</c><00:00:58.320><c> we</c><00:00:58.500><c> need</c>
+
+00:00:58.670 --> 00:00:58.680 align:start position:0%
+we did in the M State and that we need
+ 
+
+00:00:58.680 --> 00:01:01.639 align:start position:0%
+we did in the M State and that we need
+to<00:00:58.710><c> write</c><00:00:59.100><c> the</c><00:00:59.309><c> data</c><00:00:59.520><c> back</c><00:00:59.910><c> to</c><00:01:00.180><c> memory</c><00:01:00.539><c> if</c><00:01:00.870><c> the</c>
+
+00:01:01.639 --> 00:01:01.649 align:start position:0%
+to write the data back to memory if the
+ 
+
+00:01:01.649 --> 00:01:04.009 align:start position:0%
+to write the data back to memory if the
+block<00:01:01.920><c> in</c><00:01:02.160><c> the</c><00:01:02.309><c> O</c><00:01:02.340><c> state</c><00:01:02.730><c> is</c><00:01:03.030><c> replaced</c><00:01:03.600><c> from</c>
+
+00:01:04.009 --> 00:01:04.019 align:start position:0%
+block in the O state is replaced from
+ 
+
+00:01:04.019 --> 00:01:06.530 align:start position:0%
+block in the O state is replaced from
+that<00:01:04.199><c> cache</c><00:01:04.439><c> and</c><00:01:04.769><c> that's</c><00:01:05.580><c> because</c><00:01:05.970><c> all</c><00:01:06.240><c> of</c><00:01:06.270><c> the</c>
+
+00:01:06.530 --> 00:01:06.540 align:start position:0%
+that cache and that's because all of the
+ 
+
+00:01:06.540 --> 00:01:08.870 align:start position:0%
+that cache and that's because all of the
+other<00:01:06.570><c> caches</c><00:01:07.290><c> will</c><00:01:08.040><c> have</c><00:01:08.280><c> the</c><00:01:08.460><c> Block</c><00:01:08.700><c> in</c>
+
+00:01:08.870 --> 00:01:08.880 align:start position:0%
+other caches will have the Block in
+ 
+
+00:01:08.880 --> 00:01:10.730 align:start position:0%
+other caches will have the Block in
+either<00:01:09.030><c> invalid</c><00:01:09.570><c> or</c><00:01:09.689><c> shared</c><00:01:10.049><c> state</c><00:01:10.350><c> so</c><00:01:10.590><c> they</c>
+
+00:01:10.730 --> 00:01:10.740 align:start position:0%
+either invalid or shared state so they
+ 
+
+00:01:10.740 --> 00:01:12.620 align:start position:0%
+either invalid or shared state so they
+don't<00:01:10.950><c> know</c><00:01:11.130><c> that</c><00:01:11.430><c> the</c><00:01:11.670><c> block</c><00:01:11.880><c> is</c><00:01:12.060><c> dirty</c><00:01:12.360><c> and</c>
+
+00:01:12.620 --> 00:01:12.630 align:start position:0%
+don't know that the block is dirty and
+ 
+
+00:01:12.630 --> 00:01:14.920 align:start position:0%
+don't know that the block is dirty and
+needs<00:01:12.810><c> to</c><00:01:12.869><c> be</c><00:01:13.080><c> replaced</c><00:01:13.380><c> so</c><00:01:14.040><c> the</c><00:01:14.220><c> M</c><00:01:14.400><c> state</c>
+
+00:01:14.920 --> 00:01:14.930 align:start position:0%
+needs to be replaced so the M state
+ 
+
+00:01:14.930 --> 00:01:17.480 align:start position:0%
+needs to be replaced so the M state
+indicated<00:01:15.930><c> both</c><00:01:16.140><c> that</c><00:01:16.500><c> we</c><00:01:16.650><c> have</c><00:01:16.860><c> exclusive</c>
+
+00:01:17.480 --> 00:01:17.490 align:start position:0%
+indicated both that we have exclusive
+ 
+
+00:01:17.490 --> 00:01:19.190 align:start position:0%
+indicated both that we have exclusive
+readwrite<00:01:17.880><c> access</c><00:01:18.060><c> to</c><00:01:18.420><c> the</c><00:01:18.540><c> block</c><00:01:18.780><c> nobody</c>
+
+00:01:19.190 --> 00:01:19.200 align:start position:0%
+readwrite access to the block nobody
+ 
+
+00:01:19.200 --> 00:01:21.679 align:start position:0%
+readwrite access to the block nobody
+else<00:01:19.380><c> has</c><00:01:19.590><c> it</c><00:01:19.830><c> and</c><00:01:20.100><c> that</c><00:01:20.729><c> the</c><00:01:20.850><c> block</c><00:01:21.090><c> is</c><00:01:21.299><c> dirty</c>
+
+00:01:21.679 --> 00:01:21.689 align:start position:0%
+else has it and that the block is dirty
+ 
+
+00:01:21.689 --> 00:01:24.350 align:start position:0%
+else has it and that the block is dirty
+as<00:01:22.490><c> indicated</c><00:01:23.490><c> that</c><00:01:23.580><c> we</c><00:01:23.729><c> have</c><00:01:23.909><c> the</c><00:01:24.030><c> shared</c>
+
+00:01:24.350 --> 00:01:24.360 align:start position:0%
+as indicated that we have the shared
+ 
+
+00:01:24.360 --> 00:01:26.420 align:start position:0%
+as indicated that we have the shared
+read<00:01:24.659><c> access</c><00:01:25.080><c> to</c><00:01:25.140><c> the</c><00:01:25.290><c> block</c><00:01:25.590><c> others</c><00:01:26.040><c> may</c><00:01:26.220><c> also</c>
+
+00:01:26.420 --> 00:01:26.430 align:start position:0%
+read access to the block others may also
+ 
+
+00:01:26.430 --> 00:01:29.179 align:start position:0%
+read access to the block others may also
+have<00:01:26.759><c> it</c><00:01:26.880><c> in</c><00:01:26.970><c> shared</c><00:01:27.240><c> state</c><00:01:27.540><c> and</c><00:01:28.009><c> that</c><00:01:29.009><c> the</c>
+
+00:01:29.179 --> 00:01:29.189 align:start position:0%
+have it in shared state and that the
+ 
+
+00:01:29.189 --> 00:01:31.340 align:start position:0%
+have it in shared state and that the
+block<00:01:29.430><c> is</c><00:01:29.640><c> clean</c><00:01:30.030><c> the</c><00:01:30.600><c> memory</c><00:01:30.960><c> has</c><00:01:31.170><c> an</c>
+
+00:01:31.340 --> 00:01:31.350 align:start position:0%
+block is clean the memory has an
+ 
+
+00:01:31.350 --> 00:01:35.179 align:start position:0%
+block is clean the memory has an
+up-to-date<00:01:31.680><c> copy</c><00:01:32.210><c> now</c><00:01:33.210><c> all</c><00:01:33.890><c> combines</c><00:01:34.890><c> the</c>
+
+00:01:35.179 --> 00:01:35.189 align:start position:0%
+up-to-date copy now all combines the
+ 
+
+00:01:35.189 --> 00:01:37.520 align:start position:0%
+up-to-date copy now all combines the
+properties<00:01:35.729><c> of</c><00:01:35.759><c> M</c><00:01:36.180><c> and</c><00:01:36.360><c> s</c><00:01:36.479><c> States</c><00:01:36.780><c> in</c><00:01:37.020><c> that</c><00:01:37.290><c> it</c>
+
+00:01:37.520 --> 00:01:37.530 align:start position:0%
+properties of M and s States in that it
+ 
+
+00:01:37.530 --> 00:01:40.969 align:start position:0%
+properties of M and s States in that it
+is<00:01:37.770><c> a</c><00:01:37.799><c> shared</c><00:01:38.340><c> read</c><00:01:38.970><c> access</c><00:01:39.509><c> state</c><00:01:39.810><c> but</c><00:01:40.740><c> the</c>
+
+00:01:40.969 --> 00:01:40.979 align:start position:0%
+is a shared read access state but the
+ 
+
+00:01:40.979 --> 00:01:43.039 align:start position:0%
+is a shared read access state but the
+block<00:01:41.250><c> is</c><00:01:41.430><c> dirty</c><00:01:41.729><c> and</c><00:01:42.060><c> we</c><00:01:42.299><c> are</c><00:01:42.450><c> responsible</c>
+
+00:01:43.039 --> 00:01:43.049 align:start position:0%
+block is dirty and we are responsible
+ 
+
+00:01:43.049 --> 00:01:45.710 align:start position:0%
+block is dirty and we are responsible
+for<00:01:43.320><c> putting</c><00:01:43.530><c> the</c><00:01:44.070><c> data</c><00:01:44.280><c> in</c><00:01:44.460><c> memory</c><00:01:44.670><c> and</c><00:01:45.119><c> also</c>
+
+00:01:45.710 --> 00:01:45.720 align:start position:0%
+for putting the data in memory and also
+ 
+
+00:01:45.720 --> 00:01:47.840 align:start position:0%
+for putting the data in memory and also
+because<00:01:46.049><c> there</c><00:01:46.290><c> is</c><00:01:46.409><c> only</c><00:01:46.619><c> one</c><00:01:46.829><c> cache</c><00:01:47.490><c> with</c><00:01:47.820><c> the</c>
+
+00:01:47.840 --> 00:01:47.850 align:start position:0%
+because there is only one cache with the
+ 
+
+00:01:47.850 --> 00:01:50.300 align:start position:0%
+because there is only one cache with the
+Block<00:01:48.149><c> in</c><00:01:48.360><c> the</c><00:01:48.479><c> O</c><00:01:48.509><c> state</c><00:01:48.869><c> that</c><00:01:49.619><c> cache</c><00:01:50.009><c> knows</c>
+
+00:01:50.300 --> 00:01:50.310 align:start position:0%
+Block in the O state that cache knows
+ 
+
+00:01:50.310 --> 00:01:52.399 align:start position:0%
+Block in the O state that cache knows
+that<00:01:50.549><c> it</c><00:01:50.759><c> can</c><00:01:50.820><c> respond</c><00:01:51.540><c> to</c><00:01:51.869><c> all</c><00:01:52.079><c> the</c><00:01:52.259><c> read</c>
+
+00:01:52.399 --> 00:01:52.409 align:start position:0%
+that it can respond to all the read
+ 
+
+00:01:52.409 --> 00:01:54.139 align:start position:0%
+that it can respond to all the read
+accesses<00:01:52.979><c> to</c><00:01:53.009><c> the</c><00:01:53.130><c> data</c><00:01:53.430><c> so</c><00:01:53.670><c> that</c><00:01:53.700><c> the</c><00:01:53.939><c> memory</c>
+
+00:01:54.139 --> 00:01:54.149 align:start position:0%
+accesses to the data so that the memory
+ 
+
+00:01:54.149 --> 00:01:56.720 align:start position:0%
+accesses to the data so that the memory
+doesn't
+

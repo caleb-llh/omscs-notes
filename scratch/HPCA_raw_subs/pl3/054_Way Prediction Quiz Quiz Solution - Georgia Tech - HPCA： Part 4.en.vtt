@@ -1,0 +1,168 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.730 align:start position:0%
+ 
+let's<00:00:00.299><c> look</c><00:00:00.510><c> at</c><00:00:00.630><c> the</c><00:00:00.750><c> answer</c><00:00:01.140><c> for</c><00:00:01.380><c> our</c><00:00:01.560><c> way</c>
+
+00:00:01.730 --> 00:00:01.740 align:start position:0%
+let's look at the answer for our way
+ 
+
+00:00:01.740 --> 00:00:03.679 align:start position:0%
+let's look at the answer for our way
+prediction<00:00:01.979><c> quiz</c><00:00:02.520><c> we</c><00:00:03.060><c> can</c><00:00:03.270><c> use</c><00:00:03.449><c> way</c>
+
+00:00:03.679 --> 00:00:03.689 align:start position:0%
+prediction quiz we can use way
+ 
+
+00:00:03.689 --> 00:00:06.530 align:start position:0%
+prediction quiz we can use way
+prediction<00:00:03.929><c> in</c><00:00:04.620><c> any</c><00:00:04.950><c> cache</c><00:00:05.279><c> that</c><00:00:06.060><c> has</c><00:00:06.299><c> more</c>
+
+00:00:06.530 --> 00:00:06.540 align:start position:0%
+prediction in any cache that has more
+ 
+
+00:00:06.540 --> 00:00:09.500 align:start position:0%
+prediction in any cache that has more
+than<00:00:06.600><c> one</c><00:00:06.779><c> block</c><00:00:07.109><c> in</c><00:00:07.560><c> a</c><00:00:07.830><c> set</c><00:00:08.099><c> a</c><00:00:08.370><c> direct</c><00:00:09.240><c> mapped</c>
+
+00:00:09.500 --> 00:00:09.510 align:start position:0%
+than one block in a set a direct mapped
+ 
+
+00:00:09.510 --> 00:00:13.070 align:start position:0%
+than one block in a set a direct mapped
+cache<00:00:09.630><c> has</c><00:00:10.320><c> only</c><00:00:10.800><c> one</c><00:00:10.980><c> block</c><00:00:11.280><c> in</c><00:00:11.519><c> a</c><00:00:11.610><c> set</c><00:00:11.880><c> so</c><00:00:12.090><c> we</c>
+
+00:00:13.070 --> 00:00:13.080 align:start position:0%
+cache has only one block in a set so we
+ 
+
+00:00:13.080 --> 00:00:15.829 align:start position:0%
+cache has only one block in a set so we
+cannot<00:00:13.349><c> use</c><00:00:13.590><c> way</c><00:00:13.860><c> prediction</c><00:00:14.630><c> basically</c><00:00:15.630><c> a</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+cannot use way prediction basically a
+ 
+
+00:00:15.839 --> 00:00:18.769 align:start position:0%
+cannot use way prediction basically a
+direct<00:00:16.470><c> mapped</c><00:00:16.710><c> cache</c><00:00:16.800><c> already</c><00:00:17.699><c> knows</c><00:00:18.000><c> which</c>
+
+00:00:18.769 --> 00:00:18.779 align:start position:0%
+direct mapped cache already knows which
+ 
+
+00:00:18.779 --> 00:00:20.929 align:start position:0%
+direct mapped cache already knows which
+one<00:00:19.170><c> block</c><00:00:19.470><c> to</c><00:00:19.680><c> access</c><00:00:20.100><c> without</c><00:00:20.460><c> having</c><00:00:20.789><c> to</c>
+
+00:00:20.929 --> 00:00:20.939 align:start position:0%
+one block to access without having to
+ 
+
+00:00:20.939 --> 00:00:23.240 align:start position:0%
+one block to access without having to
+guess<00:00:21.150><c> in</c><00:00:21.539><c> any</c><00:00:21.990><c> set</c><00:00:22.410><c> associative</c><00:00:22.740><c> or</c><00:00:22.949><c> fully</c>
+
+00:00:23.240 --> 00:00:23.250 align:start position:0%
+guess in any set associative or fully
+ 
+
+00:00:23.250 --> 00:00:25.070 align:start position:0%
+guess in any set associative or fully
+associative<00:00:23.519><c> cache</c><00:00:23.580><c> we</c><00:00:24.119><c> can</c><00:00:24.330><c> benefit</c><00:00:24.720><c> from</c><00:00:24.900><c> a</c>
+
+00:00:25.070 --> 00:00:25.080 align:start position:0%
+associative cache we can benefit from a
+ 
+
+00:00:25.080 --> 00:00:26.660 align:start position:0%
+associative cache we can benefit from a
+prediction<00:00:25.590><c> for</c><00:00:25.769><c> example</c><00:00:26.160><c> in</c><00:00:26.250><c> a</c><00:00:26.340><c> 2-way</c>
+
+00:00:26.660 --> 00:00:26.670 align:start position:0%
+prediction for example in a 2-way
+ 
+
+00:00:26.670 --> 00:00:28.670 align:start position:0%
+prediction for example in a 2-way
+set-associative<00:00:27.150><c> cache</c><00:00:27.180><c> we</c><00:00:27.990><c> can</c><00:00:28.199><c> guess</c><00:00:28.380><c> which</c>
+
+00:00:28.670 --> 00:00:28.680 align:start position:0%
+set-associative cache we can guess which
+ 
+
+00:00:28.680 --> 00:00:32.330 align:start position:0%
+set-associative cache we can guess which
+one<00:00:28.980><c> of</c><00:00:29.130><c> the</c><00:00:29.789><c> two</c><00:00:30.000><c> is</c><00:00:30.900><c> more</c><00:00:31.230><c> likely</c><00:00:31.560><c> to</c><00:00:31.769><c> have</c>
+
+00:00:32.330 --> 00:00:32.340 align:start position:0%
+one of the two is more likely to have
+ 
+
+00:00:32.340 --> 00:00:34.520 align:start position:0%
+one of the two is more likely to have
+the<00:00:32.460><c> block</c><00:00:32.640><c> in</c><00:00:33.300><c> an</c><00:00:33.510><c> 8</c><00:00:33.719><c> way</c><00:00:33.989><c> set</c><00:00:34.020><c> associative</c>
+
+00:00:34.520 --> 00:00:34.530 align:start position:0%
+the block in an 8 way set associative
+ 
+
+00:00:34.530 --> 00:00:35.930 align:start position:0%
+the block in an 8 way set associative
+cache<00:00:34.649><c> we</c><00:00:34.980><c> are</c><00:00:35.040><c> guessing</c><00:00:35.340><c> which</c><00:00:35.489><c> one</c><00:00:35.700><c> of</c><00:00:35.730><c> the</c>
+
+00:00:35.930 --> 00:00:35.940 align:start position:0%
+cache we are guessing which one of the
+ 
+
+00:00:35.940 --> 00:00:37.970 align:start position:0%
+cache we are guessing which one of the
+eight<00:00:36.090><c> and</c><00:00:36.420><c> in</c><00:00:36.960><c> a</c><00:00:37.050><c> fully</c><00:00:37.320><c> associative</c><00:00:37.649><c> cache</c>
+
+00:00:37.970 --> 00:00:37.980 align:start position:0%
+eight and in a fully associative cache
+ 
+
+00:00:37.980 --> 00:00:40.040 align:start position:0%
+eight and in a fully associative cache
+we<00:00:38.160><c> are</c><00:00:38.219><c> guessing</c><00:00:38.579><c> which</c><00:00:39.120><c> block</c><00:00:39.450><c> in</c><00:00:39.690><c> the</c><00:00:39.870><c> whole</c>
+
+00:00:40.040 --> 00:00:40.050 align:start position:0%
+we are guessing which block in the whole
+ 
+
+00:00:40.050 --> 00:00:41.930 align:start position:0%
+we are guessing which block in the whole
+cache<00:00:40.320><c> is</c><00:00:40.649><c> the</c><00:00:40.980><c> most</c><00:00:41.190><c> likely</c><00:00:41.399><c> to</c><00:00:41.640><c> have</c><00:00:41.790><c> the</c>
+
+00:00:41.930 --> 00:00:41.940 align:start position:0%
+cache is the most likely to have the
+ 
+
+00:00:41.940 --> 00:00:44.060 align:start position:0%
+cache is the most likely to have the
+block<00:00:42.120><c> so</c><00:00:42.840><c> the</c><00:00:42.960><c> correct</c><00:00:43.320><c> answer</c><00:00:43.500><c> is</c><00:00:43.770><c> that</c>
+
+00:00:44.060 --> 00:00:44.070 align:start position:0%
+block so the correct answer is that
+ 
+
+00:00:44.070 --> 00:00:46.970 align:start position:0%
+block so the correct answer is that
+these<00:00:44.640><c> should</c><00:00:45.390><c> be</c><00:00:45.539><c> selected</c><00:00:45.750><c> and</c><00:00:46.230><c> this</c><00:00:46.710><c> one</c>
+
+00:00:46.970 --> 00:00:46.980 align:start position:0%
+these should be selected and this one
+ 
+
+00:00:46.980 --> 00:00:49.550 align:start position:0%
+these should be selected and this one
+should<00:00:47.309><c> not</c>
+

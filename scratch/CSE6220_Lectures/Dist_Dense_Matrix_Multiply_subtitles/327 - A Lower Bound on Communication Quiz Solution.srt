@@ -1,0 +1,36 @@
+1
+00:00:00,260 --> 00:00:03,430
+ Remember the main idea of the lower bound analysis.
+
+2
+00:00:03,430 --> 00:00:07,930
+ You computed the minimum volume of data sent by at least one node.
+
+3
+00:00:07,930 --> 00:00:12,400
+ So if a node sends n squared over root p words, how many messages is that?
+
+4
+00:00:12,400 --> 00:00:15,570
+ Well remember every node has a memory of size M, so
+
+5
+00:00:15,570 --> 00:00:19,920
+ that means the largest message that a node can send is M.
+
+6
+00:00:19,920 --> 00:00:24,840
+ That means the number of messages is at least the total volume divided by M.
+
+7
+00:00:24,840 --> 00:00:27,020
+ So simplifying, you'll get this.
+
+8
+00:00:27,020 --> 00:00:30,340
+ Since that's the minimum number of messages that the node can send,
+
+9
+00:00:30,340 --> 00:00:30,340
+ that becomes the alpha term.
+

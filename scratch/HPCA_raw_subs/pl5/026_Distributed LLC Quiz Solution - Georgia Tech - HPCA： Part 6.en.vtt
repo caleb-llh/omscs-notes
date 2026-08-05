@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.400 --> 00:00:01.990 align:start position:0%
+ 
+let's<00:00:00.640><c> look</c><00:00:00.880><c> at</c><00:00:00.960><c> the</c><00:00:01.120><c> solution</c><00:00:01.680><c> to</c><00:00:01.839><c> our</c>
+
+00:00:01.990 --> 00:00:02.000 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:02.000 --> 00:00:04.870 align:start position:0%
+let's look at the solution to our
+distributed<00:00:02.639><c> last</c><00:00:02.879><c> level</c><00:00:03.280><c> cache</c><00:00:04.000><c> we</c><00:00:04.160><c> have</c><00:00:04.400><c> 16</c>
+
+00:00:04.870 --> 00:00:04.880 align:start position:0%
+distributed last level cache we have 16
+ 
+
+00:00:04.880 --> 00:00:07.430 align:start position:0%
+distributed last level cache we have 16
+cores<00:00:05.279><c> in</c><00:00:05.359><c> a</c><00:00:05.520><c> four</c><00:00:05.759><c> by</c><00:00:05.920><c> four</c><00:00:06.160><c> mesh</c><00:00:06.960><c> it</c><00:00:07.120><c> doesn't</c>
+
+00:00:07.430 --> 00:00:07.440 align:start position:0%
+cores in a four by four mesh it doesn't
+ 
+
+00:00:07.440 --> 00:00:09.430 align:start position:0%
+cores in a four by four mesh it doesn't
+really<00:00:07.680><c> matter</c><00:00:08.080><c> what</c><00:00:08.240><c> the</c><00:00:08.720><c> organization</c><00:00:09.360><c> of</c>
+
+00:00:09.430 --> 00:00:09.440 align:start position:0%
+really matter what the organization of
+ 
+
+00:00:09.440 --> 00:00:10.870 align:start position:0%
+really matter what the organization of
+the<00:00:09.519><c> network</c><00:00:09.920><c> is</c><00:00:10.160><c> we</c><00:00:10.240><c> need</c><00:00:10.400><c> to</c><00:00:10.559><c> know</c><00:00:10.719><c> that</c>
+
+00:00:10.870 --> 00:00:10.880 align:start position:0%
+the network is we need to know that
+ 
+
+00:00:10.880 --> 00:00:13.110 align:start position:0%
+the network is we need to know that
+there<00:00:11.040><c> are</c><00:00:11.200><c> really</c><00:00:11.519><c> 16</c><00:00:12.000><c> tiles</c>
+
+00:00:13.110 --> 00:00:13.120 align:start position:0%
+there are really 16 tiles
+ 
+
+00:00:13.120 --> 00:00:15.350 align:start position:0%
+there are really 16 tiles
+numbered<00:00:13.519><c> 0</c><00:00:13.840><c> through</c><00:00:14.000><c> 15</c>
+
+00:00:15.350 --> 00:00:15.360 align:start position:0%
+numbered 0 through 15
+ 
+
+00:00:15.360 --> 00:00:17.109 align:start position:0%
+numbered 0 through 15
+and<00:00:15.519><c> that</c><00:00:15.759><c> we</c><00:00:15.839><c> have</c><00:00:15.920><c> an</c><00:00:16.080><c> 8</c><00:00:16.320><c> megabyte</c><00:00:16.880><c> cache</c>
+
+00:00:17.109 --> 00:00:17.119 align:start position:0%
+and that we have an 8 megabyte cache
+ 
+
+00:00:17.119 --> 00:00:19.670 align:start position:0%
+and that we have an 8 megabyte cache
+with<00:00:17.279><c> 256</c><00:00:18.240><c> byte</c><00:00:18.480><c> block</c><00:00:18.880><c> 16</c><00:00:19.279><c> way</c><00:00:19.439><c> set</c>
+
+00:00:19.670 --> 00:00:19.680 align:start position:0%
+with 256 byte block 16 way set
+ 
+
+00:00:19.680 --> 00:00:22.150 align:start position:0%
+with 256 byte block 16 way set
+associative<00:00:20.560><c> distributed</c><00:00:21.279><c> round</c><00:00:21.520><c> robin</c><00:00:21.920><c> by</c>
+
+00:00:22.150 --> 00:00:22.160 align:start position:0%
+associative distributed round robin by
+ 
+
+00:00:22.160 --> 00:00:26.150 align:start position:0%
+associative distributed round robin by
+set<00:00:22.640><c> so</c><00:00:22.960><c> set</c><00:00:23.279><c> 0</c><00:00:24.160><c> will</c><00:00:24.400><c> be</c><00:00:24.560><c> in</c><00:00:24.640><c> slice</c><00:00:25.039><c> 0</c><00:00:25.600><c> set</c><00:00:25.920><c> 1</c>
+
+00:00:26.150 --> 00:00:26.160 align:start position:0%
+set so set 0 will be in slice 0 set 1
+ 
+
+00:00:26.160 --> 00:00:28.870 align:start position:0%
+set so set 0 will be in slice 0 set 1
+will<00:00:26.400><c> be</c><00:00:26.480><c> in</c><00:00:26.640><c> slice</c><00:00:27.039><c> 1</c><00:00:27.359><c> etc</c><00:00:28.240><c> and</c><00:00:28.320><c> then</c><00:00:28.560><c> it</c><00:00:28.640><c> just</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+will be in slice 1 etc and then it just
+ 
+
+00:00:28.880 --> 00:00:31.990 align:start position:0%
+will be in slice 1 etc and then it just
+wraps<00:00:29.199><c> around</c><00:00:30.240><c> so</c><00:00:30.560><c> let's</c><00:00:30.880><c> look</c><00:00:31.199><c> at</c>
+
+00:00:31.990 --> 00:00:32.000 align:start position:0%
+wraps around so let's look at
+ 
+
+00:00:32.000 --> 00:00:34.549 align:start position:0%
+wraps around so let's look at
+what<00:00:32.399><c> this</c><00:00:32.719><c> address</c><00:00:33.200><c> maps</c><00:00:33.600><c> to</c>
+
+00:00:34.549 --> 00:00:34.559 align:start position:0%
+what this address maps to
+ 
+
+00:00:34.559 --> 00:00:36.389 align:start position:0%
+what this address maps to
+the<00:00:34.719><c> least</c><00:00:35.040><c> significant</c>
+
+00:00:36.389 --> 00:00:36.399 align:start position:0%
+the least significant
+ 
+
+00:00:36.399 --> 00:00:39.190 align:start position:0%
+the least significant
+8<00:00:36.800><c> bits</c><00:00:37.600><c> are</c><00:00:37.760><c> telling</c><00:00:38.160><c> us</c><00:00:38.399><c> what</c><00:00:38.640><c> the</c><00:00:38.719><c> block</c>
+
+00:00:39.190 --> 00:00:39.200 align:start position:0%
+8 bits are telling us what the block
+ 
+
+00:00:39.200 --> 00:00:40.709 align:start position:0%
+8 bits are telling us what the block
+offset<00:00:39.760><c> is</c>
+
+00:00:40.709 --> 00:00:40.719 align:start position:0%
+offset is
+ 
+
+00:00:40.719 --> 00:00:43.030 align:start position:0%
+offset is
+the<00:00:40.960><c> next</c><00:00:41.360><c> so</c><00:00:41.600><c> many</c><00:00:42.000><c> bits</c><00:00:42.399><c> are</c><00:00:42.559><c> going</c><00:00:42.719><c> to</c><00:00:42.879><c> be</c>
+
+00:00:43.030 --> 00:00:43.040 align:start position:0%
+the next so many bits are going to be
+ 
+
+00:00:43.040 --> 00:00:45.750 align:start position:0%
+the next so many bits are going to be
+the<00:00:43.360><c> index</c><00:00:44.320><c> and</c><00:00:44.480><c> the</c><00:00:44.640><c> least</c><00:00:44.879><c> significant</c><00:00:45.520><c> bits</c>
+
+00:00:45.750 --> 00:00:45.760 align:start position:0%
+the index and the least significant bits
+ 
+
+00:00:45.760 --> 00:00:47.590 align:start position:0%
+the index and the least significant bits
+of<00:00:45.840><c> the</c><00:00:46.079><c> index</c><00:00:46.480><c> are</c><00:00:46.640><c> going</c><00:00:46.719><c> to</c><00:00:46.879><c> tell</c><00:00:47.039><c> us</c><00:00:47.280><c> which</c>
+
+00:00:47.590 --> 00:00:47.600 align:start position:0%
+of the index are going to tell us which
+ 
+
+00:00:47.600 --> 00:00:49.270 align:start position:0%
+of the index are going to tell us which
+tile<00:00:47.920><c> to</c><00:00:48.160><c> look</c><00:00:48.399><c> at</c>
+
+00:00:49.270 --> 00:00:49.280 align:start position:0%
+tile to look at
+ 
+
+00:00:49.280 --> 00:00:51.430 align:start position:0%
+tile to look at
+there<00:00:49.520><c> are</c><00:00:49.760><c> 16</c><00:00:50.320><c> tiles</c>
+
+00:00:51.430 --> 00:00:51.440 align:start position:0%
+there are 16 tiles
+ 
+
+00:00:51.440 --> 00:00:53.990 align:start position:0%
+there are 16 tiles
+so<00:00:51.680><c> the</c><00:00:51.920><c> next</c><00:00:52.399><c> digit</c><00:00:52.879><c> is</c><00:00:53.120><c> really</c><00:00:53.440><c> the</c><00:00:53.600><c> tile</c>
+
+00:00:53.990 --> 00:00:54.000 align:start position:0%
+so the next digit is really the tile
+ 
+
+00:00:54.000 --> 00:00:55.029 align:start position:0%
+so the next digit is really the tile
+number
+
+00:00:55.029 --> 00:00:55.039 align:start position:0%
+number
+ 
+
+00:00:55.039 --> 00:00:56.549 align:start position:0%
+number
+and<00:00:55.280><c> that</c><00:00:55.520><c> means</c>
+
+00:00:56.549 --> 00:00:56.559 align:start position:0%
+and that means
+ 
+
+00:00:56.559 --> 00:00:59.270 align:start position:0%
+and that means
+that<00:00:56.800><c> we</c><00:00:56.960><c> go</c><00:00:57.199><c> to</c><00:00:57.440><c> tile</c><00:00:57.760><c> number</c><00:00:58.239><c> six</c>
+
+00:00:59.270 --> 00:00:59.280 align:start position:0%
+that we go to tile number six
+ 
+
+00:00:59.280 --> 00:01:01.430 align:start position:0%
+that we go to tile number six
+note<00:00:59.520><c> that</c><00:00:59.760><c> we</c><00:01:00.000><c> don't</c><00:01:00.239><c> really</c><00:01:00.640><c> need</c><00:01:00.960><c> to</c><00:01:01.120><c> even</c>
+
+00:01:01.430 --> 00:01:01.440 align:start position:0%
+note that we don't really need to even
+ 
+
+00:01:01.440 --> 00:01:03.590 align:start position:0%
+note that we don't really need to even
+compute<00:01:01.920><c> what</c><00:01:02.320><c> exactly</c><00:01:02.800><c> is</c><00:01:02.960><c> the</c><00:01:03.120><c> index</c>
+
+00:01:03.590 --> 00:01:03.600 align:start position:0%
+compute what exactly is the index
+ 
+
+00:01:03.600 --> 00:01:05.750 align:start position:0%
+compute what exactly is the index
+because<00:01:04.080><c> the</c><00:01:04.239><c> least</c><00:01:04.559><c> significant</c><00:01:05.280><c> bits</c><00:01:05.680><c> in</c>
+
+00:01:05.750 --> 00:01:05.760 align:start position:0%
+because the least significant bits in
+ 
+
+00:01:05.760 --> 00:01:07.670 align:start position:0%
+because the least significant bits in
+this<00:01:06.000><c> case</c><00:01:06.320><c> are</c><00:01:06.479><c> telling</c><00:01:06.880><c> us</c>
+
+00:01:07.670 --> 00:01:07.680 align:start position:0%
+this case are telling us
+ 
+
+00:01:07.680 --> 00:01:11.200 align:start position:0%
+this case are telling us
+what<00:01:07.840><c> we</c><00:01:08.000><c> need</c><00:01:08.240><c> to</c><00:01:08.320><c> know</c>
+

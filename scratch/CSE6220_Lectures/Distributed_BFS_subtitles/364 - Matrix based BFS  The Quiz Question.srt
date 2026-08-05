@@ -1,0 +1,28 @@
+1
+00:00:00,190 --> 00:00:03,220
+ Here’s a graph and its corresponding adjacency matrix.
+
+2
+00:00:03,220 --> 00:00:05,910
+ Now suppose 1 and 6 are in the frontier.
+
+3
+00:00:05,910 --> 00:00:08,670
+ Which vertices might need to be updated?
+
+4
+00:00:08,670 --> 00:00:10,150
+ Here’s an update vector.
+
+5
+00:00:10,150 --> 00:00:12,760
+ I want you to mark the entries of the update vector u
+
+6
+00:00:12,760 --> 00:00:15,140
+ that might become part of the next frontier.
+
+7
+00:00:15,140 --> 00:00:15,140
+ Do that by typing a 1 in the appropriate entries.
+

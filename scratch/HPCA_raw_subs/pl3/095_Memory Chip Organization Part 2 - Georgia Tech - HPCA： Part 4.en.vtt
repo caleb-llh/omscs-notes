@@ -1,0 +1,744 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.440 --> 00:00:04.550 align:start position:0%
+ 
+so<00:00:00.680><c> we</c><00:00:00.840><c> just</c><00:00:01.120><c> described</c><00:00:01.719><c> how</c><00:00:01.880><c> to</c><00:00:02.159><c> read</c><00:00:03.159><c> a</c><00:00:03.560><c> row</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+so we just described how to read a row
+ 
+
+00:00:04.560 --> 00:00:06.309 align:start position:0%
+so we just described how to read a row
+into<00:00:04.880><c> the</c><00:00:05.040><c> sense</c><00:00:05.400><c> amplifier</c><00:00:05.879><c> and</c><00:00:05.960><c> the</c><00:00:06.080><c> row</c>
+
+00:00:06.309 --> 00:00:06.319 align:start position:0%
+into the sense amplifier and the row
+ 
+
+00:00:06.319 --> 00:00:08.430 align:start position:0%
+into the sense amplifier and the row
+buffer<00:00:06.839><c> and</c><00:00:06.960><c> then</c><00:00:07.160><c> get</c><00:00:07.399><c> one</c><00:00:07.640><c> bit</c><00:00:07.879><c> out</c><00:00:08.120><c> of</c><00:00:08.280><c> that</c>
+
+00:00:08.430 --> 00:00:08.440 align:start position:0%
+buffer and then get one bit out of that
+ 
+
+00:00:08.440 --> 00:00:10.549 align:start position:0%
+buffer and then get one bit out of that
+row<00:00:08.960><c> so</c><00:00:09.200><c> let's</c><00:00:09.440><c> suppose</c><00:00:09.800><c> that</c><00:00:09.960><c> the</c><00:00:10.120><c> bits</c><00:00:10.400><c> we</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+row so let's suppose that the bits we
+ 
+
+00:00:10.559 --> 00:00:13.789 align:start position:0%
+row so let's suppose that the bits we
+had<00:00:10.880><c> here</c><00:00:11.120><c> were</c><00:00:11.519><c> one</c><00:00:12.240><c> one1</c><00:00:13.240><c> and</c><00:00:13.400><c> let's</c><00:00:13.599><c> say</c>
+
+00:00:13.789 --> 00:00:13.799 align:start position:0%
+had here were one one1 and let's say
+ 
+
+00:00:13.799 --> 00:00:16.550 align:start position:0%
+had here were one one1 and let's say
+this<00:00:13.960><c> was</c><00:00:14.240><c> theam</c><00:00:15.040><c> so</c><00:00:15.320><c> these</c><00:00:15.519><c> bits</c><00:00:16.000><c> drained</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+this was theam so these bits drained
+ 
+
+00:00:16.560 --> 00:00:18.750 align:start position:0%
+this was theam so these bits drained
+into<00:00:16.840><c> the</c><00:00:17.000><c> bit</c><00:00:17.279><c> line</c><00:00:17.560><c> the</c><00:00:17.680><c> sense</c><00:00:18.080><c> amplifier</c>
+
+00:00:18.750 --> 00:00:18.760 align:start position:0%
+into the bit line the sense amplifier
+ 
+
+00:00:18.760 --> 00:00:23.550 align:start position:0%
+into the bit line the sense amplifier
+amplifies<00:00:19.480><c> them</c><00:00:19.840><c> outputs</c><00:00:20.359><c> here</c><00:00:20.640><c> one</c><00:00:21.480><c> 1</c><00:00:21.760><c> 1</c><00:00:22.560><c> 1</c>
+
+00:00:23.550 --> 00:00:23.560 align:start position:0%
+amplifies them outputs here one 1 1 1
+ 
+
+00:00:23.560 --> 00:00:25.790 align:start position:0%
+amplifies them outputs here one 1 1 1
+the<00:00:23.680><c> row</c><00:00:24.039><c> buffer</c><00:00:24.400><c> now</c><00:00:24.560><c> stores</c><00:00:25.039><c> this</c><00:00:25.279><c> value</c><00:00:25.680><c> and</c>
+
+00:00:25.790 --> 00:00:25.800 align:start position:0%
+the row buffer now stores this value and
+ 
+
+00:00:25.800 --> 00:00:28.630 align:start position:0%
+the row buffer now stores this value and
+starts<00:00:26.199><c> outputting</c><00:00:26.760><c> it</c><00:00:27.199><c> here</c><00:00:28.199><c> let's</c><00:00:28.359><c> say</c><00:00:28.519><c> that</c>
+
+00:00:28.630 --> 00:00:28.640 align:start position:0%
+starts outputting it here let's say that
+ 
+
+00:00:28.640 --> 00:00:31.189 align:start position:0%
+starts outputting it here let's say that
+the<00:00:28.800><c> column</c><00:00:29.119><c> address</c><00:00:29.519><c> finally</c><00:00:30.000><c> selects</c><00:00:30.920><c> this</c>
+
+00:00:31.189 --> 00:00:31.199 align:start position:0%
+the column address finally selects this
+ 
+
+00:00:31.199 --> 00:00:34.430 align:start position:0%
+the column address finally selects this
+bit<00:00:31.519><c> for</c><00:00:31.679><c> to</c><00:00:31.840><c> be</c><00:00:32.040><c> output</c><00:00:32.439><c> so</c><00:00:32.599><c> we</c><00:00:32.719><c> output</c><00:00:33.079><c> a</c><00:00:33.440><c> z</c>
+
+00:00:34.430 --> 00:00:34.440 align:start position:0%
+bit for to be output so we output a z
+ 
+
+00:00:34.440 --> 00:00:37.670 align:start position:0%
+bit for to be output so we output a z
+remember<00:00:35.320><c> that</c><00:00:35.520><c> D</c><00:00:36.239><c> reads</c><00:00:36.600><c> are</c><00:00:36.840><c> destructive</c>
+
+00:00:37.670 --> 00:00:37.680 align:start position:0%
+remember that D reads are destructive
+ 
+
+00:00:37.680 --> 00:00:40.630 align:start position:0%
+remember that D reads are destructive
+once<00:00:38.079><c> we</c><00:00:38.239><c> do</c><00:00:38.559><c> that</c><00:00:39.200><c> we</c><00:00:39.399><c> no</c><00:00:39.680><c> longer</c><00:00:40.200><c> have</c><00:00:40.399><c> our</c>
+
+00:00:40.630 --> 00:00:40.640 align:start position:0%
+once we do that we no longer have our
+ 
+
+00:00:40.640 --> 00:00:42.910 align:start position:0%
+once we do that we no longer have our
+bits<00:00:41.079><c> here</c><00:00:41.600><c> so</c><00:00:41.800><c> what</c><00:00:41.920><c> needs</c><00:00:42.120><c> to</c><00:00:42.239><c> be</c><00:00:42.399><c> done</c><00:00:42.600><c> is</c>
+
+00:00:42.910 --> 00:00:42.920 align:start position:0%
+bits here so what needs to be done is
+ 
+
+00:00:42.920 --> 00:00:44.750 align:start position:0%
+bits here so what needs to be done is
+after<00:00:43.160><c> the</c><00:00:43.320><c> sense</c><00:00:43.680><c> amplifier</c><00:00:44.239><c> determines</c>
+
+00:00:44.750 --> 00:00:44.760 align:start position:0%
+after the sense amplifier determines
+ 
+
+00:00:44.760 --> 00:00:46.709 align:start position:0%
+after the sense amplifier determines
+what<00:00:44.920><c> the</c><00:00:45.039><c> correct</c><00:00:45.399><c> values</c><00:00:45.680><c> of</c><00:00:45.800><c> the</c><00:00:45.960><c> bits</c><00:00:46.239><c> are</c>
+
+00:00:46.709 --> 00:00:46.719 align:start position:0%
+what the correct values of the bits are
+ 
+
+00:00:46.719 --> 00:00:49.470 align:start position:0%
+what the correct values of the bits are
+and<00:00:46.840><c> the</c><00:00:46.960><c> cells</c><00:00:47.440><c> by</c><00:00:47.640><c> now</c><00:00:47.960><c> have</c><00:00:48.120><c> been</c><00:00:48.520><c> exhausted</c>
+
+00:00:49.470 --> 00:00:49.480 align:start position:0%
+and the cells by now have been exhausted
+ 
+
+00:00:49.480 --> 00:00:52.549 align:start position:0%
+and the cells by now have been exhausted
+we<00:00:49.680><c> reverse</c><00:00:50.199><c> the</c><00:00:50.520><c> direction</c><00:00:51.520><c> and</c><00:00:51.719><c> raise</c><00:00:52.359><c> each</c>
+
+00:00:52.549 --> 00:00:52.559 align:start position:0%
+we reverse the direction and raise each
+ 
+
+00:00:52.559 --> 00:00:55.229 align:start position:0%
+we reverse the direction and raise each
+of<00:00:52.719><c> the</c><00:00:52.879><c> bit</c><00:00:53.160><c> lines</c><00:00:53.719><c> to</c><00:00:53.960><c> its</c><00:00:54.280><c> proper</c><00:00:54.680><c> value</c><00:00:55.039><c> so</c>
+
+00:00:55.229 --> 00:00:55.239 align:start position:0%
+of the bit lines to its proper value so
+ 
+
+00:00:55.239 --> 00:00:58.310 align:start position:0%
+of the bit lines to its proper value so
+now<00:00:55.480><c> the</c><00:00:55.600><c> sense</c><00:00:56.000><c> amplifier</c><00:00:56.559><c> is</c><00:00:57.079><c> driving</c><00:00:58.079><c> these</c>
+
+00:00:58.310 --> 00:00:58.320 align:start position:0%
+now the sense amplifier is driving these
+ 
+
+00:00:58.320 --> 00:01:00.910 align:start position:0%
+now the sense amplifier is driving these
+correct<00:00:58.719><c> values</c><00:00:59.199><c> back</c><00:00:59.399><c> into</c><00:00:59.640><c> the</c><00:01:00.000><c> cells</c><00:01:00.760><c> and</c>
+
+00:01:00.910 --> 00:01:00.920 align:start position:0%
+correct values back into the cells and
+ 
+
+00:01:00.920 --> 00:01:03.430 align:start position:0%
+correct values back into the cells and
+the<00:01:01.039><c> cells</c><00:01:01.440><c> get</c><00:01:01.680><c> their</c><00:01:01.920><c> values</c><00:01:02.399><c> again</c><00:01:03.160><c> so</c>
+
+00:01:03.430 --> 00:01:03.440 align:start position:0%
+the cells get their values again so
+ 
+
+00:01:03.440 --> 00:01:06.190 align:start position:0%
+the cells get their values again so
+destructive<00:01:04.119><c> read</c><00:01:04.439><c> from</c><00:01:04.680><c> theam</c><00:01:05.600><c> means</c><00:01:05.960><c> that</c>
+
+00:01:06.190 --> 00:01:06.200 align:start position:0%
+destructive read from theam means that
+ 
+
+00:01:06.200 --> 00:01:07.749 align:start position:0%
+destructive read from theam means that
+really<00:01:06.479><c> we</c><00:01:06.640><c> have</c><00:01:06.760><c> to</c><00:01:06.920><c> read</c><00:01:07.159><c> and</c><00:01:07.320><c> then</c><00:01:07.520><c> write</c>
+
+00:01:07.749 --> 00:01:07.759 align:start position:0%
+really we have to read and then write
+ 
+
+00:01:07.759 --> 00:01:10.590 align:start position:0%
+really we have to read and then write
+each<00:01:08.040><c> cell</c><00:01:08.600><c> so</c><00:01:08.799><c> we</c><00:01:08.960><c> cannot</c><00:01:09.360><c> just</c><00:01:09.720><c> wait</c><00:01:10.040><c> long</c>
+
+00:01:10.590 --> 00:01:10.600 align:start position:0%
+each cell so we cannot just wait long
+ 
+
+00:01:10.600 --> 00:01:14.149 align:start position:0%
+each cell so we cannot just wait long
+enough<00:01:11.600><c> to</c><00:01:11.880><c> get</c><00:01:12.080><c> the</c><00:01:12.320><c> value</c><00:01:12.840><c> we</c><00:01:13.040><c> also</c><00:01:13.320><c> have</c><00:01:13.479><c> to</c>
+
+00:01:14.149 --> 00:01:14.159 align:start position:0%
+enough to get the value we also have to
+ 
+
+00:01:14.159 --> 00:01:16.270 align:start position:0%
+enough to get the value we also have to
+wait<00:01:14.439><c> long</c><00:01:14.759><c> enough</c><00:01:15.240><c> to</c><00:01:15.439><c> put</c><00:01:15.600><c> the</c><00:01:15.720><c> value</c><00:01:16.119><c> back</c>
+
+00:01:16.270 --> 00:01:16.280 align:start position:0%
+wait long enough to put the value back
+ 
+
+00:01:16.280 --> 00:01:18.590 align:start position:0%
+wait long enough to put the value back
+in<00:01:16.400><c> the</c><00:01:16.560><c> cell</c><00:01:17.360><c> this</c><00:01:17.479><c> is</c><00:01:17.759><c> one</c><00:01:17.920><c> of</c><00:01:18.080><c> the</c><00:01:18.200><c> reasons</c>
+
+00:01:18.590 --> 00:01:18.600 align:start position:0%
+in the cell this is one of the reasons
+ 
+
+00:01:18.600 --> 00:01:21.670 align:start position:0%
+in the cell this is one of the reasons
+why<00:01:18.759><c> dram</c><00:01:19.280><c> is</c><00:01:19.439><c> slower</c><00:01:20.000><c> than</c><00:01:20.320><c> SRAM</c><00:01:21.320><c> another</c>
+
+00:01:21.670 --> 00:01:21.680 align:start position:0%
+why dram is slower than SRAM another
+ 
+
+00:01:21.680 --> 00:01:24.230 align:start position:0%
+why dram is slower than SRAM another
+reason<00:01:22.000><c> of</c><00:01:22.159><c> course</c><00:01:22.400><c> is</c><00:01:22.640><c> that</c><00:01:23.119><c> the</c><00:01:23.280><c> cell</c><00:01:24.040><c> does</c>
+
+00:01:24.230 --> 00:01:24.240 align:start position:0%
+reason of course is that the cell does
+ 
+
+00:01:24.240 --> 00:01:26.550 align:start position:0%
+reason of course is that the cell does
+not<00:01:24.560><c> as</c><00:01:24.920><c> strongly</c><00:01:25.200><c> pull</c><00:01:25.479><c> the</c><00:01:25.640><c> bit</c><00:01:25.920><c> line</c><00:01:26.240><c> so</c><00:01:26.439><c> the</c>
+
+00:01:26.550 --> 00:01:26.560 align:start position:0%
+not as strongly pull the bit line so the
+ 
+
+00:01:26.560 --> 00:01:28.270 align:start position:0%
+not as strongly pull the bit line so the
+sense<00:01:26.920><c> amplifier</c><00:01:27.439><c> needs</c><00:01:27.680><c> more</c><00:01:27.920><c> time</c><00:01:28.119><c> to</c>
+
+00:01:28.270 --> 00:01:28.280 align:start position:0%
+sense amplifier needs more time to
+ 
+
+00:01:28.280 --> 00:01:30.469 align:start position:0%
+sense amplifier needs more time to
+figure<00:01:28.479><c> out</c><00:01:28.720><c> what</c><00:01:28.880><c> it</c><00:01:29.079><c> has</c><00:01:29.680><c> after</c><00:01:29.920><c> after</c><00:01:30.240><c> this</c>
+
+00:01:30.469 --> 00:01:30.479 align:start position:0%
+figure out what it has after after this
+ 
+
+00:01:30.479 --> 00:01:34.230 align:start position:0%
+figure out what it has after after this
+read<00:01:30.799><c> and</c><00:01:31.040><c> then</c><00:01:31.320><c> write</c><00:01:31.960><c> approach</c><00:01:32.960><c> the</c><00:01:33.240><c> cells</c>
+
+00:01:34.230 --> 00:01:34.240 align:start position:0%
+read and then write approach the cells
+ 
+
+00:01:34.240 --> 00:01:37.510 align:start position:0%
+read and then write approach the cells
+have<00:01:34.520><c> the</c><00:01:34.720><c> correct</c><00:01:35.159><c> values</c><00:01:35.479><c> for</c><00:01:35.720><c> one</c><00:01:36.320><c> one1</c><00:01:37.320><c> and</c>
+
+00:01:37.510 --> 00:01:37.520 align:start position:0%
+have the correct values for one one1 and
+ 
+
+00:01:37.520 --> 00:01:40.069 align:start position:0%
+have the correct values for one one1 and
+have<00:01:37.720><c> been</c><00:01:38.240><c> refreshed</c><00:01:39.240><c> even</c><00:01:39.479><c> if</c><00:01:39.680><c> they</c><00:01:39.840><c> have</c>
+
+00:01:40.069 --> 00:01:40.079 align:start position:0%
+have been refreshed even if they have
+ 
+
+00:01:40.079 --> 00:01:42.910 align:start position:0%
+have been refreshed even if they have
+reduced<00:01:40.799><c> to</c><00:01:41.000><c> let's</c><00:01:41.159><c> say</c><00:01:41.360><c> 90%</c><00:01:42.119><c> of</c><00:01:42.320><c> what</c><00:01:42.799><c> they</c>
+
+00:01:42.910 --> 00:01:42.920 align:start position:0%
+reduced to let's say 90% of what they
+ 
+
+00:01:42.920 --> 00:01:44.630 align:start position:0%
+reduced to let's say 90% of what they
+should<00:01:43.200><c> have</c><00:01:43.560><c> once</c><00:01:43.759><c> we</c><00:01:43.880><c> read</c><00:01:44.119><c> them</c><00:01:44.280><c> out</c><00:01:44.439><c> and</c>
+
+00:01:44.630 --> 00:01:44.640 align:start position:0%
+should have once we read them out and
+ 
+
+00:01:44.640 --> 00:01:47.469 align:start position:0%
+should have once we read them out and
+put<00:01:44.799><c> it</c><00:01:45.040><c> back</c><00:01:45.240><c> in</c><00:01:46.040><c> we</c><00:01:46.200><c> put</c><00:01:46.520><c> back</c><00:01:46.759><c> in</c><00:01:47.000><c> the</c><00:01:47.119><c> full</c>
+
+00:01:47.469 --> 00:01:47.479 align:start position:0%
+put it back in we put back in the full
+ 
+
+00:01:47.479 --> 00:01:49.709 align:start position:0%
+put it back in we put back in the full
+value<00:01:48.000><c> so</c><00:01:48.240><c> now</c><00:01:48.439><c> they</c><00:01:48.560><c> can</c><00:01:48.799><c> again</c><00:01:49.040><c> leak</c><00:01:49.360><c> for</c><00:01:49.560><c> a</c>
+
+00:01:49.709 --> 00:01:49.719 align:start position:0%
+value so now they can again leak for a
+ 
+
+00:01:49.719 --> 00:01:51.590 align:start position:0%
+value so now they can again leak for a
+while<00:01:50.040><c> before</c><00:01:50.280><c> we</c><00:01:50.439><c> need</c><00:01:50.640><c> to</c><00:01:51.000><c> read</c><00:01:51.240><c> and</c><00:01:51.399><c> then</c>
+
+00:01:51.590 --> 00:01:51.600 align:start position:0%
+while before we need to read and then
+ 
+
+00:01:51.600 --> 00:01:54.910 align:start position:0%
+while before we need to read and then
+write<00:01:51.840><c> them</c><00:01:52.079><c> again</c><00:01:52.759><c> so</c><00:01:53.159><c> refresh</c><00:01:54.159><c> is</c><00:01:54.439><c> really</c>
+
+00:01:54.910 --> 00:01:54.920 align:start position:0%
+write them again so refresh is really
+ 
+
+00:01:54.920 --> 00:01:57.350 align:start position:0%
+write them again so refresh is really
+make<00:01:55.159><c> sure</c><00:01:55.560><c> that</c><00:01:55.799><c> each</c><00:01:56.000><c> of</c><00:01:56.159><c> the</c><00:01:56.320><c> rows</c><00:01:57.079><c> is</c>
+
+00:01:57.350 --> 00:01:57.360 align:start position:0%
+make sure that each of the rows is
+ 
+
+00:01:57.360 --> 00:02:01.190 align:start position:0%
+make sure that each of the rows is
+readed<00:01:58.360><c> every</c><00:01:58.640><c> once</c><00:01:58.880><c> in</c><00:01:59.000><c> a</c><00:01:59.200><c> while</c><00:02:00.320><c> if</c><00:02:00.520><c> the</c><00:02:00.759><c> time</c>
+
+00:02:01.190 --> 00:02:01.200 align:start position:0%
+readed every once in a while if the time
+ 
+
+00:02:01.200 --> 00:02:03.630 align:start position:0%
+readed every once in a while if the time
+for<00:02:01.479><c> the</c><00:02:01.600><c> cell</c><00:02:02.200><c> to</c><00:02:02.360><c> lose</c><00:02:02.719><c> the</c><00:02:02.880><c> value</c><00:02:03.240><c> enough</c><00:02:03.479><c> so</c>
+
+00:02:03.630 --> 00:02:03.640 align:start position:0%
+for the cell to lose the value enough so
+ 
+
+00:02:03.640 --> 00:02:06.310 align:start position:0%
+for the cell to lose the value enough so
+that<00:02:03.759><c> we</c><00:02:03.920><c> cannot</c><00:02:04.240><c> recover</c><00:02:04.680><c> it</c><00:02:05.360><c> is</c><00:02:05.880><c> some</c><00:02:06.079><c> sort</c>
+
+00:02:06.310 --> 00:02:06.320 align:start position:0%
+that we cannot recover it is some sort
+ 
+
+00:02:06.320 --> 00:02:09.790 align:start position:0%
+that we cannot recover it is some sort
+of<00:02:06.520><c> time</c><00:02:06.759><c> T</c><00:02:07.759><c> then</c><00:02:08.160><c> every</c><00:02:08.479><c> row</c><00:02:09.280><c> needs</c><00:02:09.520><c> to</c><00:02:09.679><c> be</c>
+
+00:02:09.790 --> 00:02:09.800 align:start position:0%
+of time T then every row needs to be
+ 
+
+00:02:09.800 --> 00:02:12.470 align:start position:0%
+of time T then every row needs to be
+read<00:02:10.039><c> and</c><00:02:10.200><c> then</c><00:02:10.399><c> written</c><00:02:11.080><c> within</c><00:02:11.400><c> the</c><00:02:11.560><c> time</c><00:02:11.800><c> t</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+read and then written within the time t
+ 
+
+00:02:12.480 --> 00:02:15.430 align:start position:0%
+read and then written within the time t
+a<00:02:12.680><c> destructive</c><00:02:13.239><c> read</c><00:02:13.840><c> and</c><00:02:14.000><c> then</c><00:02:14.200><c> a</c><00:02:14.480><c> write</c><00:02:15.200><c> will</c>
+
+00:02:15.430 --> 00:02:15.440 align:start position:0%
+a destructive read and then a write will
+ 
+
+00:02:15.440 --> 00:02:18.070 align:start position:0%
+a destructive read and then a write will
+refesh<00:02:16.040><c> the</c><00:02:16.160><c> row</c><00:02:16.840><c> but</c><00:02:17.000><c> we</c><00:02:17.160><c> cannot</c><00:02:17.480><c> rely</c><00:02:17.760><c> on</c><00:02:17.879><c> the</c>
+
+00:02:18.070 --> 00:02:18.080 align:start position:0%
+refesh the row but we cannot rely on the
+ 
+
+00:02:18.080 --> 00:02:20.630 align:start position:0%
+refesh the row but we cannot rely on the
+processor<00:02:18.640><c> to</c><00:02:18.920><c> access</c><00:02:19.640><c> every</c><00:02:20.000><c> Row</c><00:02:20.319><c> in</c><00:02:20.480><c> the</c>
+
+00:02:20.630 --> 00:02:20.640 align:start position:0%
+processor to access every Row in the
+ 
+
+00:02:20.640 --> 00:02:22.670 align:start position:0%
+processor to access every Row in the
+memory<00:02:21.560><c> so</c><00:02:21.800><c> that</c><00:02:21.920><c> we</c><00:02:22.040><c> don't</c><00:02:22.239><c> have</c><00:02:22.360><c> to</c><00:02:22.480><c> do</c>
+
+00:02:22.670 --> 00:02:22.680 align:start position:0%
+memory so that we don't have to do
+ 
+
+00:02:22.680 --> 00:02:24.710 align:start position:0%
+memory so that we don't have to do
+anything<00:02:23.000><c> else</c><00:02:23.599><c> in</c><00:02:23.879><c> fact</c><00:02:24.200><c> when</c><00:02:24.319><c> you</c><00:02:24.480><c> have</c>
+
+00:02:24.710 --> 00:02:24.720 align:start position:0%
+anything else in fact when you have
+ 
+
+00:02:24.720 --> 00:02:27.869 align:start position:0%
+anything else in fact when you have
+caches<00:02:25.519><c> it</c><00:02:25.720><c> often</c><00:02:26.120><c> happens</c><00:02:27.120><c> that</c><00:02:27.280><c> some</c><00:02:27.519><c> rows</c>
+
+00:02:27.869 --> 00:02:27.879 align:start position:0%
+caches it often happens that some rows
+ 
+
+00:02:27.879 --> 00:02:30.430 align:start position:0%
+caches it often happens that some rows
+that<00:02:28.000><c> are</c><00:02:28.200><c> very</c><00:02:28.519><c> popular</c><00:02:29.440><c> and</c><00:02:29.920><c> access</c><00:02:30.239><c> by</c><00:02:30.360><c> the</c>
+
+00:02:30.430 --> 00:02:30.440 align:start position:0%
+that are very popular and access by the
+ 
+
+00:02:30.440 --> 00:02:32.470 align:start position:0%
+that are very popular and access by the
+processor<00:02:30.879><c> all</c><00:02:31.040><c> the</c><00:02:31.239><c> time</c><00:02:31.760><c> are</c><00:02:32.040><c> actually</c><00:02:32.360><c> the</c>
+
+00:02:32.470 --> 00:02:32.480 align:start position:0%
+processor all the time are actually the
+ 
+
+00:02:32.480 --> 00:02:34.470 align:start position:0%
+processor all the time are actually the
+ones<00:02:32.720><c> that</c><00:02:32.879><c> don't</c><00:02:33.080><c> get</c><00:02:33.239><c> refreshed</c><00:02:33.800><c> this</c><00:02:33.959><c> way</c>
+
+00:02:34.470 --> 00:02:34.480 align:start position:0%
+ones that don't get refreshed this way
+ 
+
+00:02:34.480 --> 00:02:36.990 align:start position:0%
+ones that don't get refreshed this way
+and<00:02:34.599><c> the</c><00:02:34.760><c> reason</c><00:02:35.040><c> is</c><00:02:35.280><c> that</c><00:02:35.840><c> those</c><00:02:36.120><c> become</c><00:02:36.680><c> cach</c>
+
+00:02:36.990 --> 00:02:37.000 align:start position:0%
+and the reason is that those become cach
+ 
+
+00:02:37.000 --> 00:02:38.790 align:start position:0%
+and the reason is that those become cach
+hits<00:02:37.360><c> and</c><00:02:37.480><c> the</c><00:02:37.640><c> cach</c><00:02:37.920><c> keeps</c><00:02:38.200><c> keeping</c><00:02:38.599><c> that</c>
+
+00:02:38.790 --> 00:02:38.800 align:start position:0%
+hits and the cach keeps keeping that
+ 
+
+00:02:38.800 --> 00:02:40.949 align:start position:0%
+hits and the cach keeps keeping that
+data<00:02:39.200><c> because</c><00:02:39.800><c> the</c><00:02:39.959><c> processor</c><00:02:40.360><c> wants</c><00:02:40.599><c> it</c><00:02:40.760><c> so</c>
+
+00:02:40.949 --> 00:02:40.959 align:start position:0%
+data because the processor wants it so
+ 
+
+00:02:40.959 --> 00:02:43.030 align:start position:0%
+data because the processor wants it so
+often<00:02:41.720><c> so</c><00:02:41.879><c> we</c><00:02:42.000><c> end</c><00:02:42.200><c> up</c><00:02:42.400><c> actually</c><00:02:42.720><c> not</c>
+
+00:02:43.030 --> 00:02:43.040 align:start position:0%
+often so we end up actually not
+ 
+
+00:02:43.040 --> 00:02:44.630 align:start position:0%
+often so we end up actually not
+accessing<00:02:43.440><c> the</c><00:02:43.560><c> memory</c><00:02:43.879><c> for</c><00:02:44.120><c> things</c><00:02:44.319><c> that</c><00:02:44.480><c> the</c>
+
+00:02:44.630 --> 00:02:44.640 align:start position:0%
+accessing the memory for things that the
+ 
+
+00:02:44.640 --> 00:02:46.830 align:start position:0%
+accessing the memory for things that the
+processor<00:02:45.040><c> is</c><00:02:45.280><c> accessing</c><00:02:45.680><c> the</c><00:02:45.879><c> most</c><00:02:46.120><c> often</c><00:02:46.680><c> so</c>
+
+00:02:46.830 --> 00:02:46.840 align:start position:0%
+processor is accessing the most often so
+ 
+
+00:02:46.840 --> 00:02:49.550 align:start position:0%
+processor is accessing the most often so
+we<00:02:47.000><c> cannot</c><00:02:47.319><c> even</c><00:02:47.560><c> rely</c><00:02:47.879><c> on</c><00:02:48.040><c> the</c><00:02:48.239><c> program</c><00:02:48.599><c> to</c><00:02:49.360><c> go</c>
+
+00:02:49.550 --> 00:02:49.560 align:start position:0%
+we cannot even rely on the program to go
+ 
+
+00:02:49.560 --> 00:02:51.470 align:start position:0%
+we cannot even rely on the program to go
+through<00:02:49.760><c> the</c><00:02:49.879><c> whole</c><00:02:50.159><c> memory</c><00:02:50.920><c> so</c><00:02:51.120><c> what</c><00:02:51.239><c> needs</c>
+
+00:02:51.470 --> 00:02:51.480 align:start position:0%
+through the whole memory so what needs
+ 
+
+00:02:51.480 --> 00:02:53.110 align:start position:0%
+through the whole memory so what needs
+to<00:02:51.680><c> happen</c><00:02:51.879><c> for</c><00:02:52.080><c> refresh</c><00:02:52.480><c> is</c><00:02:52.599><c> that</c><00:02:52.760><c> we</c><00:02:52.920><c> have</c>
+
+00:02:53.110 --> 00:02:53.120 align:start position:0%
+to happen for refresh is that we have
+ 
+
+00:02:53.120 --> 00:02:56.070 align:start position:0%
+to happen for refresh is that we have
+this<00:02:53.560><c> refresh</c><00:02:54.120><c> row</c><00:02:54.440><c> counter</c><00:02:55.280><c> it</c><00:02:55.480><c> starts</c><00:02:55.840><c> at</c>
+
+00:02:56.070 --> 00:02:56.080 align:start position:0%
+this refresh row counter it starts at
+ 
+
+00:02:56.080 --> 00:02:59.350 align:start position:0%
+this refresh row counter it starts at
+zero<00:02:56.800><c> we</c><00:02:56.959><c> use</c><00:02:57.200><c> it</c><00:02:57.360><c> to</c><00:02:57.599><c> refresh</c><00:02:58.200><c> this</c><00:02:58.400><c> row</c><00:02:59.200><c> then</c>
+
+00:02:59.350 --> 00:02:59.360 align:start position:0%
+zero we use it to refresh this row then
+ 
+
+00:02:59.360 --> 00:03:01.430 align:start position:0%
+zero we use it to refresh this row then
+it<00:02:59.480><c> moves</c><00:02:59.920><c> to</c><00:03:00.120><c> one</c><00:03:00.640><c> we</c><00:03:00.840><c> then</c><00:03:00.959><c> use</c><00:03:01.120><c> it</c><00:03:01.239><c> to</c>
+
+00:03:01.430 --> 00:03:01.440 align:start position:0%
+it moves to one we then use it to
+ 
+
+00:03:01.440 --> 00:03:04.430 align:start position:0%
+it moves to one we then use it to
+refresh<00:03:01.879><c> this</c><00:03:02.080><c> row</c><00:03:02.400><c> and</c><00:03:02.560><c> so</c><00:03:02.760><c> on</c><00:03:03.680><c> if</c><00:03:03.959><c> a</c><00:03:04.159><c> row</c>
+
+00:03:04.430 --> 00:03:04.440 align:start position:0%
+refresh this row and so on if a row
+ 
+
+00:03:04.440 --> 00:03:06.190 align:start position:0%
+refresh this row and so on if a row
+needs<00:03:04.720><c> to</c><00:03:04.840><c> be</c><00:03:05.040><c> refreshed</c><00:03:05.560><c> within</c><00:03:05.920><c> some</c>
+
+00:03:06.190 --> 00:03:06.200 align:start position:0%
+needs to be refreshed within some
+ 
+
+00:03:06.200 --> 00:03:10.030 align:start position:0%
+needs to be refreshed within some
+refresh<00:03:06.760><c> period</c><00:03:07.560><c> let's</c><00:03:07.840><c> say</c><00:03:08.080><c> t</c><00:03:08.959><c> and</c><00:03:09.120><c> we</c><00:03:09.280><c> have</c><00:03:09.480><c> n</c>
+
+00:03:10.030 --> 00:03:10.040 align:start position:0%
+refresh period let's say t and we have n
+ 
+
+00:03:10.040 --> 00:03:14.710 align:start position:0%
+refresh period let's say t and we have n
+rows<00:03:11.040><c> then</c><00:03:11.360><c> every</c><00:03:11.799><c> T</c><00:03:12.159><c> Over</c><00:03:12.480><c> N</c><00:03:13.400><c> seconds</c><00:03:14.400><c> we</c><00:03:14.560><c> have</c>
+
+00:03:14.710 --> 00:03:14.720 align:start position:0%
+rows then every T Over N seconds we have
+ 
+
+00:03:14.720 --> 00:03:17.149 align:start position:0%
+rows then every T Over N seconds we have
+to<00:03:14.920><c> refresh</c><00:03:15.360><c> one</c><00:03:15.560><c> row</c><00:03:16.159><c> so</c><00:03:16.400><c> that</c><00:03:16.680><c> by</c><00:03:16.799><c> the</c><00:03:17.000><c> time</c>
+
+00:03:17.149 --> 00:03:17.159 align:start position:0%
+to refresh one row so that by the time
+ 
+
+00:03:17.159 --> 00:03:18.949 align:start position:0%
+to refresh one row so that by the time
+we<00:03:17.280><c> are</c><00:03:17.440><c> done</c><00:03:17.720><c> we</c><00:03:17.840><c> are</c><00:03:18.000><c> ready</c><00:03:18.200><c> to</c><00:03:18.360><c> refresh</c>
+
+00:03:18.949 --> 00:03:18.959 align:start position:0%
+we are done we are ready to refresh
+ 
+
+00:03:18.959 --> 00:03:22.550 align:start position:0%
+we are done we are ready to refresh
+again<00:03:19.280><c> a</c><00:03:19.760><c> row</c><00:03:20.760><c> which</c><00:03:20.920><c> would</c><00:03:21.680><c> only</c><00:03:22.040><c> last</c><00:03:22.239><c> for</c><00:03:22.400><c> a</c>
+
+00:03:22.550 --> 00:03:22.560 align:start position:0%
+again a row which would only last for a
+ 
+
+00:03:22.560 --> 00:03:26.110 align:start position:0%
+again a row which would only last for a
+period<00:03:22.840><c> of</c><00:03:23.000><c> T</c><00:03:23.799><c> modern</c><00:03:24.120><c> dams</c><00:03:24.799><c> have</c><00:03:24.920><c> a</c><00:03:25.040><c> lot</c><00:03:25.239><c> of</c>
+
+00:03:26.110 --> 00:03:26.120 align:start position:0%
+period of T modern dams have a lot of
+ 
+
+00:03:26.120 --> 00:03:28.910 align:start position:0%
+period of T modern dams have a lot of
+rows<00:03:27.120><c> and</c><00:03:27.280><c> the</c><00:03:27.440><c> refresh</c><00:03:27.959><c> period</c><00:03:28.400><c> is</c><00:03:28.640><c> well</c>
+
+00:03:28.910 --> 00:03:28.920 align:start position:0%
+rows and the refresh period is well
+ 
+
+00:03:28.920 --> 00:03:31.110 align:start position:0%
+rows and the refresh period is well
+under<00:03:29.200><c> a</c><00:03:29.439><c> second</c><00:03:30.120><c> so</c><00:03:30.280><c> we</c><00:03:30.360><c> are</c><00:03:30.560><c> actually</c><00:03:30.760><c> seeing</c>
+
+00:03:31.110 --> 00:03:31.120 align:start position:0%
+under a second so we are actually seeing
+ 
+
+00:03:31.120 --> 00:03:33.470 align:start position:0%
+under a second so we are actually seeing
+a<00:03:31.319><c> lot</c><00:03:31.560><c> of</c><00:03:31.799><c> refreshes</c><00:03:32.480><c> happen</c><00:03:32.799><c> every</c><00:03:33.080><c> second</c>
+
+00:03:33.470 --> 00:03:33.480 align:start position:0%
+a lot of refreshes happen every second
+ 
+
+00:03:33.480 --> 00:03:34.990 align:start position:0%
+a lot of refreshes happen every second
+this<00:03:33.560><c> is</c><00:03:33.720><c> not</c><00:03:33.959><c> something</c><00:03:34.280><c> that</c><00:03:34.480><c> happens</c>
+
+00:03:34.990 --> 00:03:35.000 align:start position:0%
+this is not something that happens
+ 
+
+00:03:35.000 --> 00:03:37.350 align:start position:0%
+this is not something that happens
+occasionally<00:03:35.840><c> this</c><00:03:36.080><c> actually</c><00:03:36.599><c> significantly</c>
+
+00:03:37.350 --> 00:03:37.360 align:start position:0%
+occasionally this actually significantly
+ 
+
+00:03:37.360 --> 00:03:38.990 align:start position:0%
+occasionally this actually significantly
+interferes<00:03:38.040><c> with</c><00:03:38.239><c> when</c><00:03:38.360><c> we</c><00:03:38.480><c> can</c><00:03:38.640><c> read</c><00:03:38.840><c> and</c>
+
+00:03:38.990 --> 00:03:39.000 align:start position:0%
+interferes with when we can read and
+ 
+
+00:03:39.000 --> 00:03:42.350 align:start position:0%
+interferes with when we can read and
+write<00:03:39.200><c> our</c><00:03:39.439><c> memory</c><00:03:40.400><c> cuz</c><00:03:41.400><c> while</c><00:03:41.599><c> a</c><00:03:41.760><c> refresh</c><00:03:42.200><c> is</c>
+
+00:03:42.350 --> 00:03:42.360 align:start position:0%
+write our memory cuz while a refresh is
+ 
+
+00:03:42.360 --> 00:03:44.589 align:start position:0%
+write our memory cuz while a refresh is
+going<00:03:42.560><c> on</c><00:03:42.959><c> we</c><00:03:43.080><c> cannot</c><00:03:43.360><c> do</c><00:03:43.519><c> a</c><00:03:43.640><c> useful</c><00:03:44.040><c> read</c>
+
+00:03:44.589 --> 00:03:44.599 align:start position:0%
+going on we cannot do a useful read
+ 
+
+00:03:44.599 --> 00:03:48.070 align:start position:0%
+going on we cannot do a useful read
+because<00:03:44.840><c> the</c><00:03:45.040><c> row</c><00:03:45.519><c> decoder</c><00:03:46.519><c> sense</c><00:03:46.959><c> amps</c><00:03:47.920><c> and</c>
+
+00:03:48.070 --> 00:03:48.080 align:start position:0%
+because the row decoder sense amps and
+ 
+
+00:03:48.080 --> 00:03:49.990 align:start position:0%
+because the row decoder sense amps and
+the<00:03:48.200><c> row</c><00:03:48.439><c> buffer</c><00:03:48.799><c> are</c><00:03:48.959><c> used</c><00:03:49.239><c> by</c><00:03:49.400><c> the</c><00:03:49.519><c> refresh</c>
+
+00:03:49.990 --> 00:03:50.000 align:start position:0%
+the row buffer are used by the refresh
+ 
+
+00:03:50.000 --> 00:03:51.990 align:start position:0%
+the row buffer are used by the refresh
+operation<00:03:50.720><c> which</c><00:03:50.840><c> is</c><00:03:51.000><c> reading</c><00:03:51.319><c> a</c><00:03:51.480><c> row</c><00:03:51.760><c> that</c><00:03:51.879><c> we</c>
+
+00:03:51.990 --> 00:03:52.000 align:start position:0%
+operation which is reading a row that we
+ 
+
+00:03:52.000 --> 00:03:53.750 align:start position:0%
+operation which is reading a row that we
+didn't<00:03:52.280><c> need</c><00:03:52.720><c> and</c><00:03:52.879><c> writing</c><00:03:53.239><c> it</c><00:03:53.439><c> back</c>
+
+00:03:53.750 --> 00:03:53.760 align:start position:0%
+didn't need and writing it back
+ 
+
+00:03:53.760 --> 00:03:55.630 align:start position:0%
+didn't need and writing it back
+meanwhile<00:03:54.200><c> we</c><00:03:54.319><c> have</c><00:03:54.439><c> to</c><00:03:54.640><c> sit</c><00:03:54.920><c> and</c><00:03:55.120><c> wait</c><00:03:55.360><c> with</c><00:03:55.480><c> a</c>
+
+00:03:55.630 --> 00:03:55.640 align:start position:0%
+meanwhile we have to sit and wait with a
+ 
+
+00:03:55.640 --> 00:03:57.869 align:start position:0%
+meanwhile we have to sit and wait with a
+real<00:03:55.920><c> read</c><00:03:56.400><c> until</c><00:03:56.720><c> that</c><00:03:56.920><c> gets</c><00:03:57.120><c> done</c><00:03:57.560><c> so</c><00:03:57.720><c> that</c>
+
+00:03:57.869 --> 00:03:57.879 align:start position:0%
+real read until that gets done so that
+ 
+
+00:03:57.879 --> 00:04:01.720 align:start position:0%
+real read until that gets done so that
+we<00:03:58.000><c> can</c><00:03:58.519><c> move</c><00:03:58.760><c> on</c>
+

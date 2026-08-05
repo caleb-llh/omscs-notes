@@ -1,0 +1,432 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:02.470 align:start position:0%
+ 
+so<00:00:00.560><c> let's</c><00:00:00.800><c> see</c><00:00:01.120><c> if</c><00:00:01.280><c> we</c><00:00:01.360><c> understood</c><00:00:02.320><c> the</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+so let's see if we understood the
+ 
+
+00:00:02.480 --> 00:00:04.550 align:start position:0%
+so let's see if we understood the
+coherence<00:00:03.040><c> definition</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+coherence definition
+ 
+
+00:00:04.560 --> 00:00:07.110 align:start position:0%
+coherence definition
+let's<00:00:04.799><c> say</c><00:00:05.040><c> that</c><00:00:05.279><c> we</c><00:00:05.440><c> have</c><00:00:05.839><c> two</c><00:00:06.080><c> cores</c><00:00:06.799><c> in</c><00:00:06.960><c> a</c>
+
+00:00:07.110 --> 00:00:07.120 align:start position:0%
+let's say that we have two cores in a
+ 
+
+00:00:07.120 --> 00:00:09.589 align:start position:0%
+let's say that we have two cores in a
+system<00:00:07.520><c> that</c><00:00:07.759><c> is</c><00:00:07.839><c> supposed</c><00:00:08.240><c> to</c><00:00:08.400><c> be</c><00:00:08.559><c> coherent</c>
+
+00:00:09.589 --> 00:00:09.599 align:start position:0%
+system that is supposed to be coherent
+ 
+
+00:00:09.599 --> 00:00:12.470 align:start position:0%
+system that is supposed to be coherent
+let's<00:00:09.760><c> say</c><00:00:10.000><c> that</c><00:00:10.240><c> core</c><00:00:10.639><c> one</c><00:00:11.040><c> executes</c><00:00:12.080><c> this</c>
+
+00:00:12.470 --> 00:00:12.480 align:start position:0%
+let's say that core one executes this
+ 
+
+00:00:12.480 --> 00:00:13.509 align:start position:0%
+let's say that core one executes this
+program
+
+00:00:13.509 --> 00:00:13.519 align:start position:0%
+program
+ 
+
+00:00:13.519 --> 00:00:15.509 align:start position:0%
+program
+it<00:00:13.759><c> sets</c><00:00:14.080><c> a</c><00:00:14.320><c> to</c><00:00:14.559><c> one</c>
+
+00:00:15.509 --> 00:00:15.519 align:start position:0%
+it sets a to one
+ 
+
+00:00:15.519 --> 00:00:18.710 align:start position:0%
+it sets a to one
+then<00:00:16.160><c> waits</c><00:00:16.880><c> for</c><00:00:17.119><c> a</c><00:00:17.359><c> to</c><00:00:17.600><c> change</c><00:00:18.000><c> from</c><00:00:18.240><c> 1</c><00:00:18.560><c> so</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+then waits for a to change from 1 so
+ 
+
+00:00:18.720 --> 00:00:20.630 align:start position:0%
+then waits for a to change from 1 so
+it's<00:00:18.880><c> going</c><00:00:18.960><c> to</c><00:00:19.119><c> loop</c><00:00:19.439><c> here</c><00:00:19.760><c> as</c><00:00:19.920><c> long</c><00:00:20.080><c> as</c><00:00:20.320><c> a</c><00:00:20.480><c> is</c>
+
+00:00:20.630 --> 00:00:20.640 align:start position:0%
+it's going to loop here as long as a is
+ 
+
+00:00:20.640 --> 00:00:24.230 align:start position:0%
+it's going to loop here as long as a is
+equal<00:00:20.880><c> to</c><00:00:21.119><c> 1</c><00:00:21.680><c> sets</c><00:00:22.080><c> a</c><00:00:22.320><c> again</c><00:00:22.880><c> to</c><00:00:23.119><c> 1</c><00:00:23.840><c> and</c><00:00:24.000><c> then</c>
+
+00:00:24.230 --> 00:00:24.240 align:start position:0%
+equal to 1 sets a again to 1 and then
+ 
+
+00:00:24.240 --> 00:00:26.630 align:start position:0%
+equal to 1 sets a again to 1 and then
+prints<00:00:24.640><c> done</c><00:00:24.960><c> 1.</c><00:00:25.519><c> at</c><00:00:25.680><c> the</c><00:00:25.840><c> same</c><00:00:26.160><c> time</c><00:00:26.400><c> when</c>
+
+00:00:26.630 --> 00:00:26.640 align:start position:0%
+prints done 1. at the same time when
+ 
+
+00:00:26.640 --> 00:00:28.950 align:start position:0%
+prints done 1. at the same time when
+core<00:00:26.960><c> 1</c><00:00:27.279><c> is</c><00:00:27.439><c> started</c><00:00:27.920><c> on</c><00:00:28.080><c> this</c>
+
+00:00:28.950 --> 00:00:28.960 align:start position:0%
+core 1 is started on this
+ 
+
+00:00:28.960 --> 00:00:31.589 align:start position:0%
+core 1 is started on this
+core<00:00:29.279><c> 2</c><00:00:29.519><c> starts</c><00:00:29.920><c> on</c><00:00:30.080><c> another</c><00:00:30.560><c> program</c><00:00:31.279><c> that</c>
+
+00:00:31.589 --> 00:00:31.599 align:start position:0%
+core 2 starts on another program that
+ 
+
+00:00:31.599 --> 00:00:34.870 align:start position:0%
+core 2 starts on another program that
+writes<00:00:32.079><c> 0</c><00:00:32.640><c> to</c><00:00:32.800><c> the</c><00:00:33.040><c> same</c><00:00:33.440><c> location</c><00:00:34.079><c> a</c>
+
+00:00:34.870 --> 00:00:34.880 align:start position:0%
+writes 0 to the same location a
+ 
+
+00:00:34.880 --> 00:00:38.310 align:start position:0%
+writes 0 to the same location a
+in<00:00:35.120><c> shared</c><00:00:35.360><c> memory</c><00:00:36.320><c> waits</c><00:00:37.120><c> until</c><00:00:37.520><c> a</c><00:00:37.760><c> changes</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+in shared memory waits until a changes
+ 
+
+00:00:38.320 --> 00:00:39.590 align:start position:0%
+in shared memory waits until a changes
+from<00:00:38.719><c> 0</c>
+
+00:00:39.590 --> 00:00:39.600 align:start position:0%
+from 0
+ 
+
+00:00:39.600 --> 00:00:41.670 align:start position:0%
+from 0
+sets<00:00:39.920><c> a</c><00:00:40.079><c> to</c><00:00:40.320><c> 0</c><00:00:40.719><c> again</c>
+
+00:00:41.670 --> 00:00:41.680 align:start position:0%
+sets a to 0 again
+ 
+
+00:00:41.680 --> 00:00:44.150 align:start position:0%
+sets a to 0 again
+then<00:00:41.920><c> prints</c><00:00:42.239><c> down</c><00:00:42.559><c> 2</c><00:00:43.200><c> and</c><00:00:43.440><c> remember</c><00:00:43.920><c> that</c>
+
+00:00:44.150 --> 00:00:44.160 align:start position:0%
+then prints down 2 and remember that
+ 
+
+00:00:44.160 --> 00:00:46.150 align:start position:0%
+then prints down 2 and remember that
+core<00:00:44.480><c> one</c><00:00:44.800><c> and</c><00:00:44.960><c> core</c><00:00:45.280><c> two</c>
+
+00:00:46.150 --> 00:00:46.160 align:start position:0%
+core one and core two
+ 
+
+00:00:46.160 --> 00:00:48.549 align:start position:0%
+core one and core two
+need<00:00:46.399><c> not</c><00:00:46.640><c> necessarily</c><00:00:47.280><c> execute</c><00:00:47.840><c> these</c><00:00:48.079><c> two</c>
+
+00:00:48.549 --> 00:00:48.559 align:start position:0%
+need not necessarily execute these two
+ 
+
+00:00:48.559 --> 00:00:50.310 align:start position:0%
+need not necessarily execute these two
+programs<00:00:49.039><c> in</c><00:00:49.200><c> lock</c><00:00:49.440><c> steps</c><00:00:49.760><c> so</c><00:00:50.000><c> it's</c><00:00:50.160><c> not</c>
+
+00:00:50.310 --> 00:00:50.320 align:start position:0%
+programs in lock steps so it's not
+ 
+
+00:00:50.320 --> 00:00:52.310 align:start position:0%
+programs in lock steps so it's not
+necessary<00:00:50.800><c> that</c><00:00:51.039><c> core</c><00:00:51.280><c> one</c><00:00:51.520><c> executes</c><00:00:52.000><c> this</c>
+
+00:00:52.310 --> 00:00:52.320 align:start position:0%
+necessary that core one executes this
+ 
+
+00:00:52.320 --> 00:00:54.389 align:start position:0%
+necessary that core one executes this
+while<00:00:52.559><c> core</c><00:00:52.800><c> two</c><00:00:52.960><c> does</c><00:00:53.199><c> this</c><00:00:53.760><c> core</c><00:00:54.079><c> one</c><00:00:54.239><c> does</c>
+
+00:00:54.389 --> 00:00:54.399 align:start position:0%
+while core two does this core one does
+ 
+
+00:00:54.399 --> 00:00:56.709 align:start position:0%
+while core two does this core one does
+this<00:00:54.640><c> while</c><00:00:54.879><c> core</c><00:00:55.120><c> to</c><00:00:55.280><c> this</c><00:00:55.600><c> and</c><00:00:55.760><c> so</c><00:00:56.000><c> on</c><00:00:56.559><c> it</c>
+
+00:00:56.709 --> 00:00:56.719 align:start position:0%
+this while core to this and so on it
+ 
+
+00:00:56.719 --> 00:00:59.110 align:start position:0%
+this while core to this and so on it
+could<00:00:56.879><c> be</c><00:00:57.039><c> for</c><00:00:57.280><c> example</c><00:00:57.680><c> that</c><00:00:58.239><c> core</c><00:00:58.480><c> runs</c>
+
+00:00:59.110 --> 00:00:59.120 align:start position:0%
+could be for example that core runs
+ 
+
+00:00:59.120 --> 00:01:01.590 align:start position:0%
+could be for example that core runs
+executes<00:00:59.600><c> several</c><00:01:00.079><c> of</c><00:01:00.239><c> these</c><00:01:00.879><c> while</c><00:01:01.199><c> core</c><00:01:01.440><c> 2</c>
+
+00:01:01.590 --> 00:01:01.600 align:start position:0%
+executes several of these while core 2
+ 
+
+00:01:01.600 --> 00:01:02.709 align:start position:0%
+executes several of these while core 2
+is<00:01:01.760><c> still</c>
+
+00:01:02.709 --> 00:01:02.719 align:start position:0%
+is still
+ 
+
+00:01:02.719 --> 00:01:04.310 align:start position:0%
+is still
+not<00:01:02.960><c> even</c><00:01:03.199><c> beginning</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+not even beginning
+ 
+
+00:01:04.320 --> 00:01:06.789 align:start position:0%
+not even beginning
+so<00:01:04.479><c> you</c><00:01:04.559><c> can</c><00:01:04.720><c> insert</c><00:01:05.119><c> arbitrary</c><00:01:05.680><c> delays</c><00:01:06.640><c> in</c>
+
+00:01:06.789 --> 00:01:06.799 align:start position:0%
+so you can insert arbitrary delays in
+ 
+
+00:01:06.799 --> 00:01:09.109 align:start position:0%
+so you can insert arbitrary delays in
+between<00:01:07.680><c> any</c><00:01:07.920><c> of</c><00:01:08.000><c> the</c><00:01:08.159><c> statements</c><00:01:08.640><c> here</c><00:01:08.960><c> and</c>
+
+00:01:09.109 --> 00:01:09.119 align:start position:0%
+between any of the statements here and
+ 
+
+00:01:09.119 --> 00:01:11.910 align:start position:0%
+between any of the statements here and
+here<00:01:09.920><c> the</c><00:01:10.159><c> question</c><00:01:10.560><c> for</c><00:01:10.799><c> you</c><00:01:11.040><c> is</c><00:01:11.360><c> which</c><00:01:11.760><c> of</c>
+
+00:01:11.910 --> 00:01:11.920 align:start position:0%
+here the question for you is which of
+ 
+
+00:01:11.920 --> 00:01:14.789 align:start position:0%
+here the question for you is which of
+the<00:01:12.159><c> following</c><00:01:12.799><c> printouts</c><00:01:13.600><c> are</c><00:01:13.840><c> possible</c>
+
+00:01:14.789 --> 00:01:14.799 align:start position:0%
+the following printouts are possible
+ 
+
+00:01:14.799 --> 00:01:18.070 align:start position:0%
+the following printouts are possible
+first<00:01:15.360><c> core</c><00:01:15.600><c> one</c><00:01:15.920><c> prints</c><00:01:16.240><c> done</c><00:01:16.560><c> one</c><00:01:17.119><c> then</c><00:01:17.759><c> core</c>
+
+00:01:18.070 --> 00:01:18.080 align:start position:0%
+first core one prints done one then core
+ 
+
+00:01:18.080 --> 00:01:19.830 align:start position:0%
+first core one prints done one then core
+two<00:01:18.320><c> prints</c><00:01:18.560><c> down</c><00:01:18.880><c> two</c>
+
+00:01:19.830 --> 00:01:19.840 align:start position:0%
+two prints down two
+ 
+
+00:01:19.840 --> 00:01:22.390 align:start position:0%
+two prints down two
+the<00:01:20.000><c> next</c><00:01:20.320><c> possibility</c><00:01:21.439><c> first</c><00:01:21.840><c> core</c><00:01:22.159><c> two</c>
+
+00:01:22.390 --> 00:01:22.400 align:start position:0%
+the next possibility first core two
+ 
+
+00:01:22.400 --> 00:01:25.030 align:start position:0%
+the next possibility first core two
+prints<00:01:22.799><c> down</c><00:01:23.119><c> two</c><00:01:23.680><c> then</c><00:01:24.000><c> core</c><00:01:24.240><c> one</c><00:01:24.560><c> prints</c>
+
+00:01:25.030 --> 00:01:25.040 align:start position:0%
+prints down two then core one prints
+ 
+
+00:01:25.040 --> 00:01:28.469 align:start position:0%
+prints down two then core one prints
+done<00:01:25.360><c> one</c><00:01:26.080><c> the</c><00:01:26.320><c> next</c><00:01:26.720><c> option</c><00:01:27.439><c> core</c><00:01:27.759><c> one</c><00:01:28.080><c> prints</c>
+
+00:01:28.469 --> 00:01:28.479 align:start position:0%
+done one the next option core one prints
+ 
+
+00:01:28.479 --> 00:01:29.749 align:start position:0%
+done one the next option core one prints
+down<00:01:28.880><c> one</c>
+
+00:01:29.749 --> 00:01:29.759 align:start position:0%
+down one
+ 
+
+00:01:29.759 --> 00:01:31.350 align:start position:0%
+down one
+but<00:01:30.080><c> core</c><00:01:30.400><c> two</c>
+
+00:01:31.350 --> 00:01:31.360 align:start position:0%
+but core two
+ 
+
+00:01:31.360 --> 00:01:33.590 align:start position:0%
+but core two
+gets<00:01:31.680><c> stuck</c><00:01:32.079><c> and</c><00:01:32.320><c> never</c><00:01:32.640><c> gets</c><00:01:32.880><c> to</c><00:01:33.040><c> print</c><00:01:33.360><c> done</c>
+
+00:01:33.590 --> 00:01:33.600 align:start position:0%
+gets stuck and never gets to print done
+ 
+
+00:01:33.600 --> 00:01:34.550 align:start position:0%
+gets stuck and never gets to print done
+two
+
+00:01:34.550 --> 00:01:34.560 align:start position:0%
+two
+ 
+
+00:01:34.560 --> 00:01:36.069 align:start position:0%
+two
+the<00:01:34.799><c> next</c><00:01:35.200><c> option</c>
+
+00:01:36.069 --> 00:01:36.079 align:start position:0%
+the next option
+ 
+
+00:01:36.079 --> 00:01:38.149 align:start position:0%
+the next option
+is<00:01:36.240><c> score</c><00:01:36.720><c> one</c><00:01:37.040><c> gets</c><00:01:37.280><c> stuck</c><00:01:37.600><c> and</c><00:01:37.680><c> never</c><00:01:37.920><c> gets</c>
+
+00:01:38.149 --> 00:01:38.159 align:start position:0%
+is score one gets stuck and never gets
+ 
+
+00:01:38.159 --> 00:01:39.990 align:start position:0%
+is score one gets stuck and never gets
+to<00:01:38.320><c> print</c><00:01:38.560><c> down</c><00:01:38.799><c> one</c><00:01:39.200><c> but</c><00:01:39.520><c> core</c><00:01:39.759><c> two</c>
+
+00:01:39.990 --> 00:01:40.000 align:start position:0%
+to print down one but core two
+ 
+
+00:01:40.000 --> 00:01:42.630 align:start position:0%
+to print down one but core two
+successfully<00:01:40.799><c> prints</c><00:01:41.360><c> done</c><00:01:41.600><c> too</c>
+
+00:01:42.630 --> 00:01:42.640 align:start position:0%
+successfully prints done too
+ 
+
+00:01:42.640 --> 00:01:44.310 align:start position:0%
+successfully prints done too
+and<00:01:42.799><c> the</c><00:01:43.040><c> final</c><00:01:43.439><c> option</c>
+
+00:01:44.310 --> 00:01:44.320 align:start position:0%
+and the final option
+ 
+
+00:01:44.320 --> 00:01:46.710 align:start position:0%
+and the final option
+is<00:01:44.479><c> that</c><00:01:44.799><c> nothing</c><00:01:45.200><c> is</c><00:01:45.439><c> printed</c><00:01:45.920><c> because</c><00:01:46.320><c> both</c>
+
+00:01:46.710 --> 00:01:46.720 align:start position:0%
+is that nothing is printed because both
+ 
+
+00:01:46.720 --> 00:01:49.350 align:start position:0%
+is that nothing is printed because both
+of<00:01:46.799><c> the</c><00:01:47.040><c> cores</c><00:01:47.600><c> get</c><00:01:47.840><c> stuck</c><00:01:48.560><c> so</c><00:01:48.799><c> neither</c><00:01:49.280><c> of</c>
+
+00:01:49.350 --> 00:01:49.360 align:start position:0%
+of the cores get stuck so neither of
+ 
+
+00:01:49.360 --> 00:01:52.069 align:start position:0%
+of the cores get stuck so neither of
+them<00:01:49.600><c> prints</c><00:01:50.000><c> anything</c><00:01:50.560><c> ever</c><00:01:51.360><c> so</c><00:01:51.600><c> which</c><00:01:51.920><c> of</c>
+
+00:01:52.069 --> 00:01:52.079 align:start position:0%
+them prints anything ever so which of
+ 
+
+00:01:52.079 --> 00:01:53.510 align:start position:0%
+them prints anything ever so which of
+these<00:01:52.479><c> five</c>
+
+00:01:53.510 --> 00:01:53.520 align:start position:0%
+these five
+ 
+
+00:01:53.520 --> 00:01:54.389 align:start position:0%
+these five
+options
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+options
+ 
+
+00:01:54.399 --> 00:01:56.310 align:start position:0%
+options
+are<00:01:54.720><c> actually</c><00:01:55.119><c> possible</c>
+
+00:01:56.310 --> 00:01:56.320 align:start position:0%
+are actually possible
+ 
+
+00:01:56.320 --> 00:01:58.069 align:start position:0%
+are actually possible
+when<00:01:56.560><c> these</c><00:01:56.799><c> two</c><00:01:57.040><c> programs</c>
+
+00:01:58.069 --> 00:01:58.079 align:start position:0%
+when these two programs
+ 
+
+00:01:58.079 --> 00:02:02.040 align:start position:0%
+when these two programs
+run<00:01:58.320><c> in</c><00:01:58.399><c> a</c><00:01:58.479><c> coherent</c><00:01:59.040><c> system</c>
+

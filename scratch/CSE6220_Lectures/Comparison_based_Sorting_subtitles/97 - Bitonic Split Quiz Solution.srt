@@ -1,0 +1,64 @@
+1
+00:00:00,470 --> 00:00:02,870
+ Here's one possible solution.
+
+2
+00:00:02,870 --> 00:00:05,670
+ Remember that a bitonic split pares elements from
+
+3
+00:00:05,670 --> 00:00:08,520
+ each half of the bitonic sequence.
+
+4
+00:00:08,520 --> 00:00:11,400
+ For each pair it then pulls out the smaller and the larger.
+
+5
+00:00:11,400 --> 00:00:15,500
+ That is of course the perfect task for a plus comparator.
+
+6
+00:00:15,500 --> 00:00:20,570
+ So here notice how the plus comparators pair elements of the input sequence.
+
+7
+00:00:20,570 --> 00:00:23,350
+ The mins of each pair will show up on these wires and
+
+8
+00:00:23,350 --> 00:00:25,980
+ the maxes will show up on these wires.
+
+9
+00:00:25,980 --> 00:00:28,180
+ Let's check the output.
+
+10
+00:00:28,180 --> 00:00:32,299
+ Both halves of the output are bitonic up to a circular shift.
+
+11
+00:00:32,299 --> 00:00:33,510
+ Awesome.
+
+12
+00:00:33,510 --> 00:00:35,780
+ Now I happen to place the comparators this way.
+
+13
+00:00:35,780 --> 00:00:39,480
+ But of course, any permutation of the comparators would work.
+
+14
+00:00:39,480 --> 00:00:44,190
+ So, a valid final bitonic split circuit would look like this.
+
+15
+00:00:44,190 --> 00:00:47,690
+ By the way, what's the work and span of this circuit?
+
+16
+00:00:47,690 --> 00:00:47,690
+ I'll let you ponder that while I get ready for the next topic.
+

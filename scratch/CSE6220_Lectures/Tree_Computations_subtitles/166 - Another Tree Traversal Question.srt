@@ -1,0 +1,32 @@
+1
+00:00:00,270 --> 00:00:03,740
+ Time for a little quiz which I hope will be an easy refresher.
+
+2
+00:00:03,740 --> 00:00:06,450
+ Now consider this post order numbering of the tree.
+
+3
+00:00:06,450 --> 00:00:07,950
+ What if instead of post order,
+
+4
+00:00:07,950 --> 00:00:12,780
+ I asked you to number the nodes of this tree according to a preorder traversal?
+
+5
+00:00:12,780 --> 00:00:14,560
+ Well, I'm asking.
+
+6
+00:00:14,560 --> 00:00:15,940
+ So hop to it.
+
+7
+00:00:15,940 --> 00:00:19,470
+ To help you get started, I've gone ahead and numbered the root for you.
+
+8
+00:00:19,470 --> 00:00:19,470
+ And if you've forgotten what a preorder traversal is, feel free to look it up.
+

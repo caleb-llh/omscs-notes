@@ -1,0 +1,328 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:01.750 align:start position:0%
+ 
+so<00:00:00.480><c> going</c><00:00:00.719><c> back</c><00:00:00.960><c> to</c><00:00:01.040><c> our</c><00:00:01.199><c> many</c><00:00:01.439><c> core</c>
+
+00:00:01.750 --> 00:00:01.760 align:start position:0%
+so going back to our many core
+ 
+
+00:00:01.760 --> 00:00:03.750 align:start position:0%
+so going back to our many core
+challenges<00:00:02.720><c> we</c><00:00:02.879><c> have</c><00:00:03.040><c> seen</c><00:00:03.280><c> that</c><00:00:03.360><c> there</c><00:00:03.600><c> are</c>
+
+00:00:03.750 --> 00:00:03.760 align:start position:0%
+challenges we have seen that there are
+ 
+
+00:00:03.760 --> 00:00:05.990 align:start position:0%
+challenges we have seen that there are
+solutions<00:00:04.400><c> to</c><00:00:04.640><c> the</c><00:00:04.799><c> increasing</c><00:00:05.279><c> the</c><00:00:05.520><c> on-chip</c>
+
+00:00:05.990 --> 00:00:06.000 align:start position:0%
+solutions to the increasing the on-chip
+ 
+
+00:00:06.000 --> 00:00:08.070 align:start position:0%
+solutions to the increasing the on-chip
+coherence<00:00:06.560><c> traffic</c><00:00:07.040><c> as</c><00:00:07.200><c> the</c><00:00:07.279><c> number</c><00:00:07.520><c> of</c><00:00:07.680><c> cores</c>
+
+00:00:08.070 --> 00:00:08.080 align:start position:0%
+coherence traffic as the number of cores
+ 
+
+00:00:08.080 --> 00:00:10.790 align:start position:0%
+coherence traffic as the number of cores
+grows<00:00:08.960><c> we</c><00:00:09.120><c> have</c><00:00:09.360><c> seen</c><00:00:09.760><c> solutions</c><00:00:10.320><c> to</c><00:00:10.559><c> the</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+grows we have seen solutions to the
+ 
+
+00:00:10.800 --> 00:00:13.030 align:start position:0%
+grows we have seen solutions to the
+increasing<00:00:11.360><c> of</c><00:00:11.679><c> chip</c><00:00:11.920><c> traffic</c>
+
+00:00:13.030 --> 00:00:13.040 align:start position:0%
+increasing of chip traffic
+ 
+
+00:00:13.040 --> 00:00:15.509 align:start position:0%
+increasing of chip traffic
+as<00:00:13.200><c> the</c><00:00:13.360><c> number</c><00:00:13.679><c> of</c><00:00:13.759><c> cores</c><00:00:14.080><c> grows</c><00:00:14.960><c> and</c><00:00:15.120><c> we</c><00:00:15.280><c> have</c>
+
+00:00:15.509 --> 00:00:15.519 align:start position:0%
+as the number of cores grows and we have
+ 
+
+00:00:15.519 --> 00:00:18.630 align:start position:0%
+as the number of cores grows and we have
+also<00:00:15.759><c> seen</c><00:00:16.080><c> a</c><00:00:16.160><c> way</c><00:00:16.880><c> to</c><00:00:17.039><c> have</c><00:00:17.279><c> a</c><00:00:17.440><c> directory</c><00:00:18.400><c> that</c>
+
+00:00:18.630 --> 00:00:18.640 align:start position:0%
+also seen a way to have a directory that
+ 
+
+00:00:18.640 --> 00:00:20.790 align:start position:0%
+also seen a way to have a directory that
+will<00:00:18.800><c> support</c><00:00:19.279><c> our</c><00:00:19.439><c> own</c><00:00:19.600><c> chip</c><00:00:19.840><c> network</c>
+
+00:00:20.790 --> 00:00:20.800 align:start position:0%
+will support our own chip network
+ 
+
+00:00:20.800 --> 00:00:23.029 align:start position:0%
+will support our own chip network
+and<00:00:21.039><c> that</c><00:00:21.279><c> solution</c><00:00:21.840><c> was</c><00:00:22.560><c> as</c><00:00:22.720><c> we</c><00:00:22.880><c> have</c>
+
+00:00:23.029 --> 00:00:23.039 align:start position:0%
+and that solution was as we have
+ 
+
+00:00:23.039 --> 00:00:25.429 align:start position:0%
+and that solution was as we have
+recently<00:00:23.519><c> seen</c><00:00:24.000><c> a</c><00:00:24.240><c> distributed</c><00:00:25.039><c> partial</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+recently seen a distributed partial
+ 
+
+00:00:25.439 --> 00:00:27.830 align:start position:0%
+recently seen a distributed partial
+directory<00:00:26.080><c> which</c><00:00:26.400><c> doesn't</c><00:00:26.800><c> keep</c><00:00:27.199><c> information</c>
+
+00:00:27.830 --> 00:00:27.840 align:start position:0%
+directory which doesn't keep information
+ 
+
+00:00:27.840 --> 00:00:30.310 align:start position:0%
+directory which doesn't keep information
+for<00:00:28.160><c> every</c><00:00:28.640><c> possible</c><00:00:29.119><c> block</c><00:00:29.439><c> in</c><00:00:29.519><c> memory</c><00:00:30.080><c> it</c>
+
+00:00:30.310 --> 00:00:30.320 align:start position:0%
+for every possible block in memory it
+ 
+
+00:00:30.320 --> 00:00:32.389 align:start position:0%
+for every possible block in memory it
+only<00:00:30.640><c> keeps</c><00:00:30.960><c> information</c>
+
+00:00:32.389 --> 00:00:32.399 align:start position:0%
+only keeps information
+ 
+
+00:00:32.399 --> 00:00:34.870 align:start position:0%
+only keeps information
+for<00:00:32.640><c> a</c><00:00:32.800><c> limited</c><00:00:33.280><c> number</c><00:00:33.600><c> of</c><00:00:33.680><c> blocks</c><00:00:34.320><c> and</c><00:00:34.480><c> has</c><00:00:34.719><c> a</c>
+
+00:00:34.870 --> 00:00:34.880 align:start position:0%
+for a limited number of blocks and has a
+ 
+
+00:00:34.880 --> 00:00:37.830 align:start position:0%
+for a limited number of blocks and has a
+replacement<00:00:35.440><c> policy</c><00:00:36.399><c> and</c><00:00:36.800><c> invalidates</c>
+
+00:00:37.830 --> 00:00:37.840 align:start position:0%
+replacement policy and invalidates
+ 
+
+00:00:37.840 --> 00:00:39.990 align:start position:0%
+replacement policy and invalidates
+on-chip<00:00:38.320><c> caches</c><00:00:39.040><c> as</c><00:00:39.200><c> a</c><00:00:39.280><c> result</c><00:00:39.680><c> of</c><00:00:39.760><c> such</c>
+
+00:00:39.990 --> 00:00:40.000 align:start position:0%
+on-chip caches as a result of such
+ 
+
+00:00:40.000 --> 00:00:41.510 align:start position:0%
+on-chip caches as a result of such
+replacements
+
+00:00:41.510 --> 00:00:41.520 align:start position:0%
+replacements
+ 
+
+00:00:41.520 --> 00:00:43.350 align:start position:0%
+replacements
+the<00:00:41.760><c> next</c><00:00:42.160><c> many</c><00:00:42.480><c> core</c><00:00:42.719><c> challenge</c><00:00:43.040><c> we</c><00:00:43.200><c> will</c>
+
+00:00:43.350 --> 00:00:43.360 align:start position:0%
+the next many core challenge we will
+ 
+
+00:00:43.360 --> 00:00:45.670 align:start position:0%
+the next many core challenge we will
+consider<00:00:44.239><c> is</c><00:00:44.399><c> that</c><00:00:44.640><c> the</c><00:00:44.879><c> power</c><00:00:45.200><c> budget</c>
+
+00:00:45.670 --> 00:00:45.680 align:start position:0%
+consider is that the power budget
+ 
+
+00:00:45.680 --> 00:00:48.790 align:start position:0%
+consider is that the power budget
+available<00:00:46.160><c> for</c><00:00:46.399><c> the</c><00:00:46.559><c> chip</c><00:00:47.280><c> for</c><00:00:47.440><c> example</c><00:00:48.239><c> 100</c>
+
+00:00:48.790 --> 00:00:48.800 align:start position:0%
+available for the chip for example 100
+ 
+
+00:00:48.800 --> 00:00:51.830 align:start position:0%
+available for the chip for example 100
+watts<00:00:49.120><c> that</c><00:00:49.280><c> we</c><00:00:49.440><c> can</c><00:00:49.600><c> reasonably</c><00:00:50.239><c> call</c><00:00:50.800><c> from</c><00:00:51.600><c> a</c>
+
+00:00:51.830 --> 00:00:51.840 align:start position:0%
+watts that we can reasonably call from a
+ 
+
+00:00:51.840 --> 00:00:54.950 align:start position:0%
+watts that we can reasonably call from a
+chip<00:00:52.399><c> of</c><00:00:52.559><c> the</c><00:00:52.800><c> area</c><00:00:53.120><c> that</c><00:00:53.280><c> we</c><00:00:53.440><c> can</c><00:00:53.600><c> manufacture</c>
+
+00:00:54.950 --> 00:00:54.960 align:start position:0%
+chip of the area that we can manufacture
+ 
+
+00:00:54.960 --> 00:00:57.350 align:start position:0%
+chip of the area that we can manufacture
+is<00:00:55.199><c> split</c><00:00:55.680><c> among</c><00:00:56.000><c> all</c><00:00:56.160><c> the</c><00:00:56.320><c> cores</c>
+
+00:00:57.350 --> 00:00:57.360 align:start position:0%
+is split among all the cores
+ 
+
+00:00:57.360 --> 00:01:00.150 align:start position:0%
+is split among all the cores
+so<00:00:57.600><c> as</c><00:00:57.760><c> the</c><00:00:58.000><c> number</c><00:00:58.320><c> of</c><00:00:58.480><c> cores</c><00:00:58.800><c> goes</c><00:00:59.199><c> up</c>
+
+00:01:00.150 --> 00:01:00.160 align:start position:0%
+so as the number of cores goes up
+ 
+
+00:01:00.160 --> 00:01:02.549 align:start position:0%
+so as the number of cores goes up
+the<00:01:00.480><c> power</c><00:01:00.879><c> we</c><00:01:01.039><c> can</c><00:01:01.199><c> spend</c><00:01:01.600><c> in</c><00:01:01.760><c> each</c><00:01:02.000><c> core</c><00:01:02.239><c> goes</c>
+
+00:01:02.549 --> 00:01:02.559 align:start position:0%
+the power we can spend in each core goes
+ 
+
+00:01:02.559 --> 00:01:03.750 align:start position:0%
+the power we can spend in each core goes
+down
+
+00:01:03.750 --> 00:01:03.760 align:start position:0%
+down
+ 
+
+00:01:03.760 --> 00:01:05.509 align:start position:0%
+down
+and<00:01:04.000><c> that</c><00:01:04.320><c> means</c>
+
+00:01:05.509 --> 00:01:05.519 align:start position:0%
+and that means
+ 
+
+00:01:05.519 --> 00:01:08.230 align:start position:0%
+and that means
+that<00:01:05.760><c> the</c><00:01:06.080><c> frequency</c><00:01:07.280><c> and</c><00:01:07.360><c> the</c><00:01:07.600><c> voltage</c><00:01:08.080><c> that</c>
+
+00:01:08.230 --> 00:01:08.240 align:start position:0%
+that the frequency and the voltage that
+ 
+
+00:01:08.240 --> 00:01:09.990 align:start position:0%
+that the frequency and the voltage that
+we<00:01:08.400><c> can</c><00:01:08.640><c> use</c>
+
+00:01:09.990 --> 00:01:10.000 align:start position:0%
+we can use
+ 
+
+00:01:10.000 --> 00:01:12.469 align:start position:0%
+we can use
+in<00:01:10.400><c> each</c><00:01:10.720><c> core</c><00:01:11.040><c> goes</c><00:01:11.360><c> down</c>
+
+00:01:12.469 --> 00:01:12.479 align:start position:0%
+in each core goes down
+ 
+
+00:01:12.479 --> 00:01:14.230 align:start position:0%
+in each core goes down
+and<00:01:12.720><c> that</c><00:01:12.960><c> means</c><00:01:13.200><c> that</c><00:01:13.439><c> if</c><00:01:13.520><c> we</c><00:01:13.680><c> have</c><00:01:13.760><c> a</c><00:01:13.920><c> single</c>
+
+00:01:14.230 --> 00:01:14.240 align:start position:0%
+and that means that if we have a single
+ 
+
+00:01:14.240 --> 00:01:16.630 align:start position:0%
+and that means that if we have a single
+threaded<00:01:14.720><c> program</c><00:01:15.600><c> it</c><00:01:15.840><c> gets</c><00:01:16.080><c> slower</c><00:01:16.560><c> and</c>
+
+00:01:16.630 --> 00:01:16.640 align:start position:0%
+threaded program it gets slower and
+ 
+
+00:01:16.640 --> 00:01:19.590 align:start position:0%
+threaded program it gets slower and
+slower<00:01:17.280><c> the</c><00:01:17.439><c> more</c><00:01:17.759><c> cores</c><00:01:18.159><c> we</c><00:01:18.320><c> have</c>
+
+00:01:19.590 --> 00:01:19.600 align:start position:0%
+slower the more cores we have
+ 
+
+00:01:19.600 --> 00:01:21.510 align:start position:0%
+slower the more cores we have
+because<00:01:19.920><c> that</c><00:01:20.240><c> single</c><00:01:20.560><c> threaded</c><00:01:21.040><c> program</c><00:01:21.360><c> if</c>
+
+00:01:21.510 --> 00:01:21.520 align:start position:0%
+because that single threaded program if
+ 
+
+00:01:21.520 --> 00:01:24.149 align:start position:0%
+because that single threaded program if
+we<00:01:21.600><c> only</c><00:01:21.759><c> had</c><00:01:22.080><c> one</c><00:01:22.400><c> core</c><00:01:22.880><c> would</c><00:01:23.119><c> get</c><00:01:23.280><c> the</c>
+
+00:01:24.149 --> 00:01:24.159 align:start position:0%
+we only had one core would get the
+ 
+
+00:01:24.159 --> 00:01:26.630 align:start position:0%
+we only had one core would get the
+power<00:01:24.479><c> budget</c><00:01:24.880><c> of</c><00:01:24.960><c> the</c><00:01:25.119><c> entire</c><00:01:25.439><c> chip</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+power budget of the entire chip
+ 
+
+00:01:26.640 --> 00:01:30.230 align:start position:0%
+power budget of the entire chip
+with<00:01:26.880><c> let's</c><00:01:27.040><c> say</c><00:01:27.280><c> 64</c><00:01:28.000><c> cores</c><00:01:28.560><c> it</c><00:01:28.799><c> gets</c><00:01:29.280><c> only</c>
+
+00:01:30.230 --> 00:01:30.240 align:start position:0%
+with let's say 64 cores it gets only
+ 
+
+00:01:30.240 --> 00:01:32.069 align:start position:0%
+with let's say 64 cores it gets only
+a<00:01:30.400><c> 64th</c><00:01:31.280><c> part</c>
+
+00:01:32.069 --> 00:01:32.079 align:start position:0%
+a 64th part
+ 
+
+00:01:32.079 --> 00:01:34.149 align:start position:0%
+a 64th part
+of<00:01:32.320><c> the</c><00:01:32.400><c> power</c><00:01:32.720><c> budget</c><00:01:33.360><c> so</c><00:01:33.600><c> what</c><00:01:33.759><c> do</c><00:01:33.920><c> we</c><00:01:34.000><c> do</c>
+
+00:01:34.149 --> 00:01:34.159 align:start position:0%
+of the power budget so what do we do
+ 
+
+00:01:34.159 --> 00:01:36.960 align:start position:0%
+of the power budget so what do we do
+about<00:01:34.479><c> this</c>
+

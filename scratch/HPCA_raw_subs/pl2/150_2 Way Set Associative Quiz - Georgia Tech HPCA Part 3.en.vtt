@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.939 align:start position:0%
+ 
+now<00:00:00.299><c> let's</c><00:00:00.570><c> do</c><00:00:00.750><c> a</c><00:00:00.780><c> quiz</c><00:00:01.140><c> with</c><00:00:01.469><c> the</c><00:00:01.589><c> 2-way</c>
+
+00:00:01.939 --> 00:00:01.949 align:start position:0%
+now let's do a quiz with the 2-way
+ 
+
+00:00:01.949 --> 00:00:04.039 align:start position:0%
+now let's do a quiz with the 2-way
+set-associative<00:00:02.460><c> cache</c><00:00:02.570><c> let's</c><00:00:03.570><c> say</c><00:00:03.720><c> we</c><00:00:03.870><c> have</c>
+
+00:00:04.039 --> 00:00:04.049 align:start position:0%
+set-associative cache let's say we have
+ 
+
+00:00:04.049 --> 00:00:09.230 align:start position:0%
+set-associative cache let's say we have
+a<00:00:04.080><c> cache</c><00:00:04.549><c> with</c><00:00:05.549><c> 32</c><00:00:06.180><c> byte</c><00:00:06.420><c> block</c><00:00:07.020><c> size</c><00:00:07.049><c> and</c><00:00:08.240><c> 4</c>
+
+00:00:09.230 --> 00:00:09.240 align:start position:0%
+a cache with 32 byte block size and 4
+ 
+
+00:00:09.240 --> 00:00:12.980 align:start position:0%
+a cache with 32 byte block size and 4
+sets<00:00:09.950><c> with</c><00:00:10.950><c> 2</c><00:00:11.160><c> blocks</c><00:00:11.429><c> each</c><00:00:11.670><c> so</c><00:00:12.570><c> that's</c><00:00:12.780><c> why</c>
+
+00:00:12.980 --> 00:00:12.990 align:start position:0%
+sets with 2 blocks each so that's why
+ 
+
+00:00:12.990 --> 00:00:14.780 align:start position:0%
+sets with 2 blocks each so that's why
+it's<00:00:13.139><c> 2-way</c><00:00:13.440><c> set-associative</c><00:00:13.980><c> every</c><00:00:14.549><c> set</c><00:00:14.759><c> has</c>
+
+00:00:14.780 --> 00:00:14.790 align:start position:0%
+it's 2-way set-associative every set has
+ 
+
+00:00:14.790 --> 00:00:17.420 align:start position:0%
+it's 2-way set-associative every set has
+two<00:00:15.210><c> ways</c><00:00:15.480><c> if</c><00:00:16.170><c> the</c><00:00:16.410><c> processor</c><00:00:16.949><c> does</c><00:00:16.980><c> these</c>
+
+00:00:17.420 --> 00:00:17.430 align:start position:0%
+two ways if the processor does these
+ 
+
+00:00:17.430 --> 00:00:20.120 align:start position:0%
+two ways if the processor does these
+accesses<00:00:18.029><c> in</c><00:00:18.300><c> this</c><00:00:18.480><c> order</c><00:00:18.900><c> what</c><00:00:19.500><c> is</c><00:00:19.710><c> the</c><00:00:19.830><c> final</c>
+
+00:00:20.120 --> 00:00:20.130 align:start position:0%
+accesses in this order what is the final
+ 
+
+00:00:20.130 --> 00:00:23.300 align:start position:0%
+accesses in this order what is the final
+content<00:00:20.699><c> of</c><00:00:20.910><c> this</c><00:00:21.060><c> cache</c>
+

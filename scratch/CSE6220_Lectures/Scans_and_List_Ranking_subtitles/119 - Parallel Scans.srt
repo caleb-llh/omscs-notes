@@ -1,0 +1,204 @@
+1
+00:00:00,660 --> 00:00:03,040
+ So how do we parallelize scan?
+
+2
+00:00:03,040 --> 00:00:06,130
+ Let's first start with the prefix sum problem.
+
+3
+00:00:06,130 --> 00:00:10,710
+ Once we understand that we'll have a pattern for parallelizing any scan.
+
+4
+00:00:10,710 --> 00:00:14,040
+ By analogy to reducing an array to a single value,
+
+5
+00:00:14,040 --> 00:00:18,530
+ if we assume associativity, then we can rearrange partial sums.
+
+6
+00:00:18,530 --> 00:00:22,480
+ So somehow we want to use this idea for parallelizing scan as well.
+
+7
+00:00:22,480 --> 00:00:27,380
+ So assume associativity and consider a scan of this input array.
+
+8
+00:00:27,380 --> 00:00:30,260
+ You could try by doing the same thing you did in a reduction, for
+
+9
+00:00:30,260 --> 00:00:34,960
+ example let's take every pair of elements and let's combine them.
+
+10
+00:00:34,960 --> 00:00:39,290
+ The result will be a new set of partial consecutive sums.
+
+11
+00:00:39,290 --> 00:00:43,122
+ For example, this node is the sum from 1 to 2 and
+
+12
+00:00:43,122 --> 00:00:46,540
+ this node is the sum from 3 to 4.
+
+13
+00:00:46,540 --> 00:00:52,740
+ In fact let me label each intermediate sum with a notation A colon B.
+
+14
+00:00:52,740 --> 00:00:56,420
+ The important point is that these are consecutive partial sums.
+
+15
+00:00:56,420 --> 00:01:00,220
+ So with this notation, this is what the final output should look like so
+
+16
+00:01:00,220 --> 00:01:02,760
+ let's go back to the partial sums.
+
+17
+00:01:02,760 --> 00:01:04,040
+ Suppose you could magically and
+
+18
+00:01:04,040 --> 00:01:07,580
+ recursively do an add scan on the partial sums.
+
+19
+00:01:07,580 --> 00:01:10,340
+ That is, I take these partial sum values and
+
+20
+00:01:10,340 --> 00:01:13,060
+ I somehow magically apply a scan to them.
+
+21
+00:01:13,060 --> 00:01:14,270
+ What would I get?
+
+22
+00:01:14,270 --> 00:01:18,540
+ In this case I would get 1:2 as the first scan element.
+
+23
+00:01:18,540 --> 00:01:23,227
+ Then for the second scan element I would get 1:2 plus 3:4.
+
+24
+00:01:23,227 --> 00:01:25,688
+ In other words, 1:4.
+
+25
+00:01:25,688 --> 00:01:30,480
+ And for the third element, I get 1:2 plus 3:4 plus 5:6.
+
+26
+00:01:30,480 --> 00:01:32,102
+ In other words, 1:6.
+
+27
+00:01:32,102 --> 00:01:33,830
+ And then finally, 1:8.
+
+28
+00:01:33,830 --> 00:01:38,400
+ Notice what that gives you, all of the even results.
+
+29
+00:01:38,400 --> 00:01:40,934
+ So, voila. We've done half the work.
+
+30
+00:01:40,934 --> 00:01:42,815
+ Now what about the odd results?
+
+31
+00:01:42,815 --> 00:01:44,231
+ How do we get those?
+
+32
+00:01:44,231 --> 00:01:45,439
+ Well, that should be easy.
+
+33
+00:01:45,439 --> 00:01:49,653
+ If I went 1:3, I just take 1:2 and add 3.
+
+34
+00:01:49,653 --> 00:01:52,790
+ You can do the same thing for 1:5 and 1:7.
+
+35
+00:01:52,790 --> 00:01:53,370
+ Voila.
+
+36
+00:01:53,370 --> 00:01:54,760
+ You're done.
+
+37
+00:01:54,760 --> 00:01:58,930
+ Stop for a second and make sure that that makes sense.
+
+38
+00:01:58,930 --> 00:02:02,290
+ Now I claim here's some pseudo code that implements this scheme we just
+
+39
+00:02:02,290 --> 00:02:03,640
+ described.
+
+40
+00:02:03,640 --> 00:02:06,308
+ Let's do a quick analysis to make sure we got it right.
+
+41
+00:02:06,308 --> 00:02:12,503
+ Now here I sub O and I sub E store the odd and even indices respectively,
+
+42
+00:02:12,503 --> 00:02:18,279
+ that is, 1, 3, 5, 7 and so on and 2, 4, 6, 8 and so on.
+
+43
+00:02:18,279 --> 00:02:21,704
+ Now this particular algorithm is in place adding the odd and
+
+44
+00:02:21,704 --> 00:02:25,550
+ even elements over here corresponds to this line.
+
+45
+00:02:25,550 --> 00:02:30,310
+ By in place, I mean we take this result and we overwrite the even elements.
+
+46
+00:02:30,310 --> 00:02:33,660
+ This magic recursive step appears here.
+
+47
+00:02:33,660 --> 00:02:38,150
+ And this final combine step appears here.
+
+48
+00:02:38,150 --> 00:02:41,640
+ Now, note that I've used this python slicing notation to mean starting at
+
+49
+00:02:41,640 --> 00:02:44,820
+ element 2 and going to the end of the array.
+
+50
+00:02:44,820 --> 00:02:48,560
+ If you can convince yourself that n equals 1 produces the correct result,
+
+51
+00:02:48,560 --> 00:02:48,560
+ then you can use induction to prove that the overall algorithm is correct.
+

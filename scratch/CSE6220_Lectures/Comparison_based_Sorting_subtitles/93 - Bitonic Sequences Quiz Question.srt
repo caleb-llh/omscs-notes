@@ -1,0 +1,20 @@
+1
+00:00:00,380 --> 00:00:04,170
+ Let's quickly check that you understand this definition of bitonic.
+
+2
+00:00:04,170 --> 00:00:06,280
+ Here are two sequences.
+
+3
+00:00:06,280 --> 00:00:08,480
+ Which of these is bitonic?
+
+4
+00:00:08,480 --> 00:00:12,700
+ Note that the answer might be only one, none, or both.
+
+5
+00:00:12,700 --> 00:00:12,700
+ Take the sequences and try to apply this formal definition.
+

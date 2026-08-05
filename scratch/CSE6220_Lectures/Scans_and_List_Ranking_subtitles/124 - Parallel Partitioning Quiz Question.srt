@@ -1,0 +1,52 @@
+1
+00:00:00,560 --> 00:00:02,110
+ Yeah, it's quiz time.
+
+2
+00:00:02,110 --> 00:00:03,370
+ So here is pseudo code for
+
+3
+00:00:03,370 --> 00:00:07,840
+ an algorithm that I claim will gather all elements that are less than or
+
+4
+00:00:07,840 --> 00:00:12,820
+ equal to some pivot value, extracting them out of this input array A.
+
+5
+00:00:12,820 --> 00:00:18,360
+ The algorithm stores the output in another array L, returning it here.
+
+6
+00:00:18,360 --> 00:00:23,440
+ Take a minute to ponder this algorithm and then answer the following question.
+
+7
+00:00:23,440 --> 00:00:27,285
+ So if I take this for and I replace it with a par for,
+
+8
+00:00:27,285 --> 00:00:31,420
+ will the computation be both correct and efficient?
+
+9
+00:00:31,420 --> 00:00:36,710
+ Your choices are yes, the algorithm will be both correct and efficient.
+
+10
+00:00:36,710 --> 00:00:45,204
+ Or, the algorithm will be neither correct nor efficient.
+
+11
+00:00:45,204 --> 00:00:47,970
+ Actually, if it's not correct you don't care whether it's efficient or not.
+
+12
+00:00:47,970 --> 00:00:50,830
+ So no just means it won't be correct.
+
+13
+00:00:50,830 --> 00:00:50,830
+ So choose one.
+

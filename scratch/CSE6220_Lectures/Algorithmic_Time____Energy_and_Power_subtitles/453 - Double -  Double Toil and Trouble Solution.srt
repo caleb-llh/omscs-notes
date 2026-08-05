@@ -1,0 +1,220 @@
+1
+00:00:00,340 --> 00:00:01,890
+ Here's what I think.
+
+2
+00:00:01,890 --> 00:00:05,630
+ Of these four options, I think only squaring Z and L or
+
+3
+00:00:05,630 --> 00:00:07,930
+ doubling the bandwidth will work.
+
+4
+00:00:07,930 --> 00:00:10,170
+ Let's go through each option and see why.
+
+5
+00:00:10,170 --> 00:00:13,250
+ First, recall the balance principle for this system.
+
+6
+00:00:13,250 --> 00:00:15,770
+ If the original system was perfectly balanced for sorting,
+
+7
+00:00:15,770 --> 00:00:19,360
+ then you can plug in the given ratio of W to Q.
+
+8
+00:00:19,360 --> 00:00:21,870
+ Of course, these L's cancel.
+
+9
+00:00:21,870 --> 00:00:25,450
+ Now suppose you double the cores, let's then go through the options and
+
+10
+00:00:25,450 --> 00:00:26,860
+ see which ones work.
+
+11
+00:00:26,860 --> 00:00:30,130
+ Option one says half the bandwidth and double the peak.
+
+12
+00:00:30,130 --> 00:00:33,860
+ Your boss must have suggested this one because it is a terrible idea.
+
+13
+00:00:33,860 --> 00:00:34,650
+ Why?
+
+14
+00:00:34,650 --> 00:00:37,840
+ Because if you do this, then this factor quadruples, so
+
+15
+00:00:37,840 --> 00:00:40,880
+ you've effectively made the system even more imbalanced.
+
+16
+00:00:40,880 --> 00:00:41,710
+ Bad monkey!
+
+17
+00:00:41,710 --> 00:00:44,060
+ Ooh ooh sorry.
+
+18
+00:00:44,060 --> 00:00:45,570
+ What about option two?
+
+19
+00:00:45,570 --> 00:00:49,870
+ If you square Z and L, that will effect this term, but
+
+20
+00:00:49,870 --> 00:00:51,740
+ that just might do the trick.
+
+21
+00:00:51,740 --> 00:00:55,560
+ Squaring the factor inside the log results in a factor of 2
+
+22
+00:00:55,560 --> 00:00:56,970
+ outside the log.
+
+23
+00:00:56,970 --> 00:01:00,208
+ So this factor of 2 on the left-hand side will balance, or cancel out,
+
+24
+00:01:00,208 --> 00:01:02,670
+ the factor of 2 on the right-hand side.
+
+25
+00:01:02,670 --> 00:01:03,840
+ Voila!
+
+26
+00:01:03,840 --> 00:01:05,180
+ Unfortunately, if you stop and
+
+27
+00:01:05,180 --> 00:01:09,330
+ think about it, it's a really expensive way to maintain balance.
+
+28
+00:01:09,330 --> 00:01:11,690
+ It sort of suggests that you might have to go from, say,
+
+29
+00:01:11,690 --> 00:01:16,560
+ a one megabyte cache in one generation, to a one terabyte cache in another.
+
+30
+00:01:16,560 --> 00:01:19,100
+ That does not seem without a little heartache and pain.
+
+31
+00:01:19,100 --> 00:01:23,010
+ Let's move onto option three, doubling the fast memory size.
+
+32
+00:01:23,010 --> 00:01:24,580
+ That will not work.
+
+33
+00:01:24,580 --> 00:01:27,320
+ The factor of 2 will just pop out as an additive term,
+
+34
+00:01:27,320 --> 00:01:31,580
+ not a multiplicative one, so it can't compensate for the cores doubling.
+
+35
+00:01:31,580 --> 00:01:36,280
+ That brings us to the last option, doubling the bandwidth, that could work.
+
+36
+00:01:36,280 --> 00:01:39,230
+ Doubling the bandwidth is a factor of 2 in the denominator which cancels
+
+37
+00:01:39,230 --> 00:01:41,640
+ out the factor of 2 in the numerator.
+
+38
+00:01:41,640 --> 00:01:44,750
+ In principle, a great idea but can it actually work?
+
+39
+00:01:44,750 --> 00:01:48,690
+ Well, think about those exponential trends you're always dreaming about.
+
+40
+00:01:48,690 --> 00:01:52,440
+ Increasing transistor density gives you the ability to increase on chip
+
+41
+00:01:52,440 --> 00:01:56,010
+ resources, like, the number of cores, or the size of fast memory, or
+
+42
+00:01:56,010 --> 00:01:56,700
+ even the speed.
+
+43
+00:01:56,700 --> 00:02:01,510
+ But the historical trends say that bandwidth just does not grow as fast as,
+
+44
+00:02:01,510 --> 00:02:03,770
+ say, R0 times P.
+
+45
+00:02:03,770 --> 00:02:07,620
+ Okay, so these are these four options, are there others?
+
+46
+00:02:07,620 --> 00:02:12,320
+ Well, there's at least one other, what about cutting our zero in half?
+
+47
+00:02:12,320 --> 00:02:14,110
+ Now, if you cut our zero in half,
+
+48
+00:02:14,110 --> 00:02:17,700
+ I wonder what the problem would be with doing that?
+
+49
+00:02:17,700 --> 00:02:20,430
+ Dun, dun, dun.
+
+50
+00:02:20,430 --> 00:02:24,070
+ All told, the results of this quiz are just a little bit depressing.
+
+51
+00:02:24,070 --> 00:02:27,620
+ It would seem that for a computation like sorting at least there would appear
+
+52
+00:02:27,620 --> 00:02:31,910
+ to be some fundamental limits that just make it hard to build balanced systems.
+
+53
+00:02:31,910 --> 00:02:34,140
+ Anyway, it's a research frontier.
+
+54
+00:02:34,140 --> 00:02:36,050
+ Maybe one of you, my pretty little geniuses,
+
+55
+00:02:36,050 --> 00:02:36,050
+ will come with a brilliant idea that circumvents it all.
+

@@ -1,0 +1,200 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.939 align:start position:0%
+ 
+let's<00:00:00.359><c> quickly</c><00:00:00.570><c> check</c><00:00:00.750><c> if</c><00:00:01.199><c> we</c><00:00:01.350><c> understood</c><00:00:01.770><c> the</c>
+
+00:00:01.939 --> 00:00:01.949 align:start position:0%
+let's quickly check if we understood the
+ 
+
+00:00:01.949 --> 00:00:04.789 align:start position:0%
+let's quickly check if we understood the
+right<00:00:02.129><c> update</c><00:00:02.520><c> optimizations</c><00:00:03.650><c> suppose</c><00:00:04.650><c> that</c>
+
+00:00:04.789 --> 00:00:04.799 align:start position:0%
+right update optimizations suppose that
+ 
+
+00:00:04.799 --> 00:00:06.950 align:start position:0%
+right update optimizations suppose that
+we<00:00:04.920><c> have</c><00:00:05.069><c> a</c><00:00:05.100><c> system</c><00:00:05.520><c> with</c><00:00:05.670><c> two</c><00:00:05.850><c> cores</c><00:00:06.150><c> that</c>
+
+00:00:06.950 --> 00:00:06.960 align:start position:0%
+we have a system with two cores that
+ 
+
+00:00:06.960 --> 00:00:10.339 align:start position:0%
+we have a system with two cores that
+uses<00:00:07.490><c> write-update</c><00:00:08.490><c> coherence</c><00:00:09.179><c> suppose</c><00:00:10.170><c> that</c>
+
+00:00:10.339 --> 00:00:10.349 align:start position:0%
+uses write-update coherence suppose that
+ 
+
+00:00:10.349 --> 00:00:12.259 align:start position:0%
+uses write-update coherence suppose that
+the<00:00:10.440><c> two</c><00:00:10.650><c> cores</c><00:00:10.980><c> are</c><00:00:11.190><c> executing</c><00:00:11.730><c> a</c><00:00:11.820><c> program</c>
+
+00:00:12.259 --> 00:00:12.269 align:start position:0%
+the two cores are executing a program
+ 
+
+00:00:12.269 --> 00:00:15.440 align:start position:0%
+the two cores are executing a program
+where<00:00:12.900><c> core</c><00:00:13.290><c> 0</c><00:00:13.650><c> writes</c><00:00:13.799><c> something</c><00:00:14.730><c> to</c><00:00:15.420><c> a</c>
+
+00:00:15.440 --> 00:00:15.450 align:start position:0%
+where core 0 writes something to a
+ 
+
+00:00:15.450 --> 00:00:18.590 align:start position:0%
+where core 0 writes something to a
+memory<00:00:15.960><c> address</c><00:00:16.049><c> a</c><00:00:16.470><c> then</c><00:00:17.369><c> core</c><00:00:17.699><c> 1</c><00:00:17.970><c> reads</c><00:00:18.000><c> it</c>
+
+00:00:18.590 --> 00:00:18.600 align:start position:0%
+memory address a then core 1 reads it
+ 
+
+00:00:18.600 --> 00:00:21.140 align:start position:0%
+memory address a then core 1 reads it
+and<00:00:18.869><c> this</c><00:00:19.410><c> continues</c><00:00:20.070><c> so</c><00:00:20.310><c> that</c><00:00:20.490><c> the</c><00:00:20.670><c> write</c><00:00:20.880><c> and</c>
+
+00:00:21.140 --> 00:00:21.150 align:start position:0%
+and this continues so that the write and
+ 
+
+00:00:21.150 --> 00:00:24.259 align:start position:0%
+and this continues so that the write and
+then<00:00:21.300><c> read</c><00:00:21.630><c> pattern</c><00:00:22.260><c> repeats</c><00:00:22.769><c> for</c><00:00:23.640><c> a</c><00:00:23.670><c> total</c><00:00:24.150><c> of</c>
+
+00:00:24.259 --> 00:00:24.269 align:start position:0%
+then read pattern repeats for a total of
+ 
+
+00:00:24.269 --> 00:00:27.589 align:start position:0%
+then read pattern repeats for a total of
+1000<00:00:24.960><c> times</c><00:00:25.170><c> so</c><00:00:25.859><c> this</c><00:00:26.039><c> is</c><00:00:26.189><c> the</c><00:00:26.340><c> first</c><00:00:26.550><c> of</c><00:00:26.820><c> 1,000</c>
+
+00:00:27.589 --> 00:00:27.599 align:start position:0%
+1000 times so this is the first of 1,000
+ 
+
+00:00:27.599 --> 00:00:31.250 align:start position:0%
+1000 times so this is the first of 1,000
+after<00:00:28.380><c> they</c><00:00:28.590><c> do</c><00:00:28.800><c> this</c><00:00:28.980><c> for</c><00:00:29.300><c> 1,000</c><00:00:30.300><c> times</c><00:00:30.480><c> this</c>
+
+00:00:31.250 --> 00:00:31.260 align:start position:0%
+after they do this for 1,000 times this
+ 
+
+00:00:31.260 --> 00:00:33.380 align:start position:0%
+after they do this for 1,000 times this
+course<00:00:31.590><c> go</c><00:00:31.800><c> to</c><00:00:31.859><c> do</c><00:00:32.219><c> something</c><00:00:32.640><c> else</c><00:00:32.850><c> where</c>
+
+00:00:33.380 --> 00:00:33.390 align:start position:0%
+course go to do something else where
+ 
+
+00:00:33.390 --> 00:00:37.069 align:start position:0%
+course go to do something else where
+core<00:00:33.719><c> 0</c><00:00:33.989><c> replaces</c><00:00:34.620><c> a</c><00:00:34.829><c> and</c><00:00:35.070><c> then</c><00:00:35.670><c> core</c><00:00:36.510><c> 1</c><00:00:36.750><c> also</c>
+
+00:00:37.069 --> 00:00:37.079 align:start position:0%
+core 0 replaces a and then core 1 also
+ 
+
+00:00:37.079 --> 00:00:39.590 align:start position:0%
+core 0 replaces a and then core 1 also
+replaces<00:00:37.590><c> a</c><00:00:37.800><c> the</c><00:00:38.430><c> question</c><00:00:38.670><c> for</c><00:00:39.030><c> you</c><00:00:39.149><c> is</c><00:00:39.180><c> how</c>
+
+00:00:39.590 --> 00:00:39.600 align:start position:0%
+replaces a the question for you is how
+ 
+
+00:00:39.600 --> 00:00:42.619 align:start position:0%
+replaces a the question for you is how
+many<00:00:39.660><c> bus</c><00:00:40.170><c> uses</c><00:00:40.500><c> do</c><00:00:40.920><c> we</c><00:00:41.070><c> see</c><00:00:41.309><c> when</c><00:00:42.059><c> the</c><00:00:42.239><c> system</c>
+
+00:00:42.619 --> 00:00:42.629 align:start position:0%
+many bus uses do we see when the system
+ 
+
+00:00:42.629 --> 00:00:45.619 align:start position:0%
+many bus uses do we see when the system
+uses<00:00:42.960><c> no</c><00:00:43.170><c> optimizations</c><00:00:44.180><c> so</c><00:00:45.180><c> there</c><00:00:45.360><c> is</c><00:00:45.450><c> no</c>
+
+00:00:45.619 --> 00:00:45.629 align:start position:0%
+uses no optimizations so there is no
+ 
+
+00:00:45.629 --> 00:00:48.080 align:start position:0%
+uses no optimizations so there is no
+dirty<00:00:45.899><c> bit</c><00:00:46.170><c> and</c><00:00:46.379><c> no</c><00:00:46.530><c> shared</c><00:00:46.860><c> it</c><00:00:47.100><c> when</c><00:00:47.969><c> the</c>
+
+00:00:48.080 --> 00:00:48.090 align:start position:0%
+dirty bit and no shared it when the
+ 
+
+00:00:48.090 --> 00:00:49.880 align:start position:0%
+dirty bit and no shared it when the
+system<00:00:48.450><c> uses</c><00:00:48.750><c> only</c><00:00:48.989><c> the</c><00:00:49.170><c> dirty</c><00:00:49.590><c> bit</c>
+
+00:00:49.880 --> 00:00:49.890 align:start position:0%
+system uses only the dirty bit
+ 
+
+00:00:49.890 --> 00:00:52.819 align:start position:0%
+system uses only the dirty bit
+optimization<00:00:50.700><c> and</c><00:00:51.050><c> when</c><00:00:52.050><c> the</c><00:00:52.170><c> system</c><00:00:52.530><c> uses</c>
+
+00:00:52.819 --> 00:00:52.829 align:start position:0%
+optimization and when the system uses
+ 
+
+00:00:52.829 --> 00:00:54.680 align:start position:0%
+optimization and when the system uses
+both<00:00:53.070><c> the</c><00:00:53.129><c> dirty</c><00:00:53.760><c> and</c><00:00:53.969><c> the</c><00:00:54.239><c> shared</c><00:00:54.510><c> bit</c>
+
+00:00:54.680 --> 00:00:54.690 align:start position:0%
+both the dirty and the shared bit
+ 
+
+00:00:54.690 --> 00:00:57.080 align:start position:0%
+both the dirty and the shared bit
+optimization<00:00:55.469><c> so</c><00:00:55.949><c> for</c><00:00:56.190><c> each</c><00:00:56.309><c> of</c><00:00:56.340><c> these</c><00:00:56.670><c> how</c>
+
+00:00:57.080 --> 00:00:57.090 align:start position:0%
+optimization so for each of these how
+ 
+
+00:00:57.090 --> 00:01:00.319 align:start position:0%
+optimization so for each of these how
+many<00:00:57.149><c> bus</c><00:00:57.660><c> uses</c><00:00:57.960><c> do</c><00:00:58.770><c> we</c><00:00:58.920><c> get</c><00:00:59.190><c> during</c><00:01:00.059><c> this</c>
+
+00:01:00.319 --> 00:01:00.329 align:start position:0%
+many bus uses do we get during this
+ 
+
+00:01:00.329 --> 00:01:03.439 align:start position:0%
+many bus uses do we get during this
+whole<00:01:00.629><c> time</c><00:01:00.660><c> for</c><00:01:01.289><c> block</c><00:01:01.500><c> a</c><00:01:01.739><c> and</c><00:01:02.010><c> also</c><00:01:02.850><c> how</c><00:01:03.210><c> many</c>
+
+00:01:03.439 --> 00:01:03.449 align:start position:0%
+whole time for block a and also how many
+ 
+
+00:01:03.449 --> 00:01:06.380 align:start position:0%
+whole time for block a and also how many
+memory<00:01:03.930><c> writes</c><00:01:04.320><c> do</c><00:01:04.949><c> we</c><00:01:05.100><c> get</c><00:01:05.339><c> in</c><00:01:05.640><c> each</c><00:01:06.060><c> of</c><00:01:06.270><c> these</c>
+
+00:01:06.380 --> 00:01:06.390 align:start position:0%
+memory writes do we get in each of these
+ 
+
+00:01:06.390 --> 00:01:08.869 align:start position:0%
+memory writes do we get in each of these
+three<00:01:06.570><c> cases</c>
+

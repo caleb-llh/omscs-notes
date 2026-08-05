@@ -1,0 +1,60 @@
+1
+00:00:00,290 --> 00:00:03,550
+ The answer is only the first sequence is bitonic.
+
+2
+00:00:03,550 --> 00:00:08,250
+ Remember that the definition asks us to check all circular shifts.
+
+3
+00:00:08,250 --> 00:00:12,920
+ So, let's imagine the values of the first sequence arranged in a ring.
+
+4
+00:00:12,920 --> 00:00:17,880
+ Next, let's check whether consecutive values go up or go down.
+
+5
+00:00:17,880 --> 00:00:25,090
+ Going clockwise, 2 to 3, 3 to 6, and 0 to 2 all increase.
+
+6
+00:00:25,090 --> 00:00:29,920
+ By contrast, 6 to 1 and 1 to 0 both decrease.
+
+7
+00:00:29,920 --> 00:00:33,630
+ With respect to the ring, all the pluses are consecutive and
+
+8
+00:00:33,630 --> 00:00:35,750
+ all the minuses are consecutive.
+
+9
+00:00:35,750 --> 00:00:39,130
+ So the sequence is bitonic up to a circular shift.
+
+10
+00:00:39,130 --> 00:00:40,130
+ Makes sense?
+
+11
+00:00:40,130 --> 00:00:42,620
+ Let's try the same thing with the second sequence.
+
+12
+00:00:42,620 --> 00:00:44,050
+ First, we draw a ring.
+
+13
+00:00:44,050 --> 00:00:46,750
+ Then we take differences going, say, clockwise.
+
+14
+00:00:46,750 --> 00:00:50,840
+ Phooey, the pluses and minuses are no longer consecutive along the ring.
+
+15
+00:00:50,840 --> 00:00:50,840
+ Therefore, there is no circular shift that will satisfy the first condition.
+

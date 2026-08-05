@@ -1,0 +1,116 @@
+1
+00:00:00,330 --> 00:00:03,480
+ A bitonic split gives us a natural divide and conquer scheme for
+
+2
+00:00:03,480 --> 00:00:05,689
+ sorting any bitonic sequence.
+
+3
+00:00:05,689 --> 00:00:07,090
+ Let's see how.
+
+4
+00:00:07,090 --> 00:00:09,850
+ Given an input sequence, split it.
+
+5
+00:00:09,850 --> 00:00:12,510
+ That means you pair elements from each half.
+
+6
+00:00:12,510 --> 00:00:14,490
+ In this case there are 32 inputs, so
+
+7
+00:00:14,490 --> 00:00:17,850
+ you'll pair elements that are 16 away from one another.
+
+8
+00:00:17,850 --> 00:00:19,850
+ Here's the logical pairing.
+
+9
+00:00:19,850 --> 00:00:23,520
+ Here are the mins and here are the maxes.
+
+10
+00:00:23,520 --> 00:00:26,160
+ That ends the first splitting step.
+
+11
+00:00:26,160 --> 00:00:29,980
+ The result is two bitonic subsequences each of length 16.
+
+12
+00:00:29,980 --> 00:00:33,750
+ You can then repeat this process on each subsequence.
+
+13
+00:00:33,750 --> 00:00:37,760
+ Start the splitting by pairing elements that are eight away from each other.
+
+14
+00:00:37,760 --> 00:00:43,850
+ First pair, then take mins, then take maxs.
+
+15
+00:00:43,850 --> 00:00:48,430
+ That leaves you with four bitonic subsequences, each of length eight.
+
+16
+00:00:48,430 --> 00:01:10,557
+ And you'll just repeat this process until you run out of pairs
+
+17
+00:01:10,557 --> 00:01:14,300
+ What you just did is called a bitonic merge.
+
+18
+00:01:14,300 --> 00:01:18,910
+ That is you started with a bitonic sequence as input and you sorted it.
+
+19
+00:01:18,910 --> 00:01:21,020
+ Let's write out some pseudo code.
+
+20
+00:01:21,020 --> 00:01:24,410
+ You're given a bitonic sequence, let's say it's of length n.
+
+21
+00:01:24,410 --> 00:01:28,050
+ If there were at least two elements then you do the following, again for
+
+22
+00:01:28,050 --> 00:01:30,440
+ simplicity, let's assume that n is even.
+
+23
+00:01:30,440 --> 00:01:32,910
+ You start by splitting the sequence.
+
+24
+00:01:32,910 --> 00:01:35,960
+ This will give you two bitonic subsequences.
+
+25
+00:01:35,960 --> 00:01:39,230
+ You then merged each of those subsequences.
+
+26
+00:01:39,230 --> 00:01:42,290
+ Now remember that all elements of one subsequence are less than or
+
+27
+00:01:42,290 --> 00:01:44,670
+ equal to all elements of the other.
+
+28
+00:01:44,670 --> 00:01:46,370
+ That makes them independent.
+
+29
+00:01:46,370 --> 00:01:46,370
+ Therefore you can spawn one of them.
+

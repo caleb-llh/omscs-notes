@@ -1,0 +1,84 @@
+1
+00:00:00,330 --> 00:00:03,176
+ My answer is everything but the TLB.
+
+2
+00:00:03,176 --> 00:00:05,220
+ Here's the condition that you need to check,
+
+3
+00:00:05,220 --> 00:00:08,840
+ does the cache have more lines than words per line?
+
+4
+00:00:08,840 --> 00:00:11,050
+ For instance, let's take the register file.
+
+5
+00:00:11,050 --> 00:00:15,880
+ A cache line is just a register, and the line width is 16 bytes.
+
+6
+00:00:15,880 --> 00:00:17,650
+ So the number of lines is 16,
+
+7
+00:00:17,650 --> 00:00:21,880
+ and the words per line is 16 Bytes divided by 8 Bytes, or 2.
+
+8
+00:00:21,880 --> 00:00:25,480
+ So the register file is indeed tall.
+
+9
+00:00:25,480 --> 00:00:27,960
+ Now let's take the L1 cache example.
+
+10
+00:00:27,960 --> 00:00:30,670
+ The number of lines is 2,048.
+
+11
+00:00:30,670 --> 00:00:33,850
+ That's 32 kiB divided by 64 bytes.
+
+12
+00:00:33,850 --> 00:00:35,970
+ The number of words per line is 8.
+
+13
+00:00:35,970 --> 00:00:38,130
+ So it's also tall.
+
+14
+00:00:38,130 --> 00:00:39,850
+ Now let's skip to the TLB.
+
+15
+00:00:39,850 --> 00:00:43,570
+ The number of lines is just the number of TLB entries, which is 256.
+
+16
+00:00:43,570 --> 00:00:46,720
+ But that's actually less than the number of words per line,
+
+17
+00:00:46,720 --> 00:00:48,468
+ which in this case is 1,024.
+
+18
+00:00:48,468 --> 00:00:52,220
+ Thus, this quote-unquote cache is short.
+
+19
+00:00:52,220 --> 00:00:53,960
+ So here are the final answers again.
+
+20
+00:00:53,960 --> 00:00:57,790
+ The main conclusion of this exercise is that most levels of the memory hierarchy
+
+21
+00:00:57,790 --> 00:00:57,790
+ are indeed tall, but not all of them are.
+

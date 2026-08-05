@@ -1,0 +1,132 @@
+1
+00:00:00,340 --> 00:00:02,770
+ Recall the list ranking problem.
+
+2
+00:00:02,770 --> 00:00:04,580
+ You're given a link list.
+
+3
+00:00:04,580 --> 00:00:07,290
+ You want to compute the ranks of every node.
+
+4
+00:00:07,290 --> 00:00:09,880
+ The ranks you'll remember are the distances of every node
+
+5
+00:00:09,880 --> 00:00:12,670
+ from some endpoint, say the head.
+
+6
+00:00:12,670 --> 00:00:17,340
+ Now one idea is to apply a scan or a prefix sum to this problem.
+
+7
+00:00:17,340 --> 00:00:18,740
+ How does that work?
+
+8
+00:00:18,740 --> 00:00:23,400
+ You start by assigning a value of zero to the head and ones every where else.
+
+9
+00:00:23,400 --> 00:00:28,140
+ You then use parallel pointer jumping to combine these values yielding the ranks.
+
+10
+00:00:28,140 --> 00:00:30,040
+ This idea, by this way, is due to this fellow,
+
+11
+00:00:30,040 --> 00:00:33,675
+ I'm going to call him Wyllie, because it makes me think of coyotes.
+
+12
+00:00:33,675 --> 00:00:40,638
+ [SOUND] [SOUND] Now recall the cost of this scheme.
+
+13
+00:00:40,638 --> 00:00:42,835
+ Although it was very simple and elegant,
+
+14
+00:00:42,835 --> 00:00:45,380
+ you will notice that it's not work-optimal.
+
+15
+00:00:45,380 --> 00:00:48,760
+ But there's at least one trick to making it so.
+
+16
+00:00:48,760 --> 00:00:51,540
+ You'll need this trick when parallelizing tree algorithms.
+
+17
+00:00:51,540 --> 00:00:54,440
+ So I want you to think about it through this quiz.
+
+18
+00:00:54,440 --> 00:00:55,760
+ Here's the trick.
+
+19
+00:00:55,760 --> 00:00:58,510
+ Start by shrinking the list.
+
+20
+00:00:58,510 --> 00:01:01,480
+ That is, let's say you start with a list of size n.
+
+21
+00:01:01,480 --> 00:01:05,740
+ Suppose you can magically compress this list into an equivalent one which has m
+
+22
+00:01:05,740 --> 00:01:07,860
+ less than n nodes.
+
+23
+00:01:07,860 --> 00:01:10,770
+ Then run Wylie's algorithm, but on this smaller list,
+
+24
+00:01:10,770 --> 00:01:11,900
+ instead of the original one.
+
+25
+00:01:11,900 --> 00:01:14,823
+ Since you're running on the smaller list,
+
+26
+00:01:14,823 --> 00:01:17,272
+ this would have a work cost of m log m.
+
+27
+00:01:17,272 --> 00:01:21,007
+ Further suppose that it's possible to take the results of this intermediate
+
+28
+00:01:21,007 --> 00:01:24,280
+ step, and then extend to a ranking of the full list.
+
+29
+00:01:24,280 --> 00:01:26,970
+ At long last, here is my question.
+
+30
+00:01:26,970 --> 00:01:28,770
+ The question is, how should you choose m?
+
+31
+00:01:28,770 --> 00:01:32,360
+ For the moment, just ignore steps 1 and 3,
+
+32
+00:01:32,360 --> 00:01:36,570
+ that is assume step 2 dominates the overall work.
+
+33
+00:01:36,570 --> 00:01:36,570
+ Choose the best option for m among this list.
+

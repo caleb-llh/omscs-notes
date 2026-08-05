@@ -1,0 +1,76 @@
+1
+00:00:00,230 --> 00:00:01,660
+ Here's something to ponder.
+
+2
+00:00:01,660 --> 00:00:06,590
+ Can you use algorithmic parallelism to go faster without increasing power?
+
+3
+00:00:06,590 --> 00:00:11,050
+ For the sake of argument, let's consider an algorithm in the work span model.
+
+4
+00:00:11,050 --> 00:00:14,780
+ Now suppose Brent's theorem holds, provided you run it at some base clock
+
+5
+00:00:14,780 --> 00:00:18,620
+ frequency on a PRAM type machine with p cores.
+
+6
+00:00:18,620 --> 00:00:22,270
+ Now you suppose you slowed down the clock by a factor of sigma.
+
+7
+00:00:22,270 --> 00:00:23,720
+ Let me give you an example.
+
+8
+00:00:23,720 --> 00:00:28,080
+ Suppose the initial base frequency was 1 GHz and sigma is 2.
+
+9
+00:00:28,080 --> 00:00:32,930
+ And the new frequency is F over sigma or 500 MHz.
+
+10
+00:00:32,930 --> 00:00:35,050
+ Ok, so that's what sigma means.
+
+11
+00:00:35,050 --> 00:00:39,500
+ Now, a frequency change also means the power per core goes down.
+
+12
+00:00:39,500 --> 00:00:40,900
+ >From the dynamic power equation,
+
+13
+00:00:40,900 --> 00:00:43,930
+ it should go down by a factor of sigma cubed.
+
+14
+00:00:43,930 --> 00:00:46,870
+ Put another way, you can actually use sigma cubed
+
+15
+00:00:46,870 --> 00:00:51,380
+ more processing cores without increasing the overall system power.
+
+16
+00:00:51,380 --> 00:00:53,690
+ That's assuming constant power is 0.
+
+17
+00:00:53,690 --> 00:00:58,940
+ So, my analytical question for you is what value of sigma should you use?
+
+18
+00:00:58,940 --> 00:01:01,380
+ I want you to type your answer symbolically in this box,
+
+19
+00:01:01,380 --> 00:01:01,380
+ in terms of W, D, P, and numerical constants.
+

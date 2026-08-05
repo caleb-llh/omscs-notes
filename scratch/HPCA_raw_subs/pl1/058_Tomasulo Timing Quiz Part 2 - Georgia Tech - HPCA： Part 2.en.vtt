@@ -1,0 +1,288 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:02.030 align:start position:0%
+ 
+now<00:00:00.570><c> let's</c><00:00:00.810><c> try</c><00:00:00.960><c> to</c><00:00:01.079><c> figure</c><00:00:01.469><c> out</c><00:00:01.560><c> Tomasulo</c>
+
+00:00:02.030 --> 00:00:02.040 align:start position:0%
+now let's try to figure out Tomasulo
+ 
+
+00:00:02.040 --> 00:00:04.640 align:start position:0%
+now let's try to figure out Tomasulo
+timing<00:00:02.550><c> on</c><00:00:02.820><c> our</c><00:00:03.210><c> own</c><00:00:03.360><c> suppose</c><00:00:04.350><c> we</c><00:00:04.470><c> have</c><00:00:04.620><c> a</c>
+
+00:00:04.640 --> 00:00:04.650 align:start position:0%
+timing on our own suppose we have a
+ 
+
+00:00:04.650 --> 00:00:06.349 align:start position:0%
+timing on our own suppose we have a
+processor<00:00:04.980><c> with</c><00:00:05.160><c> these</c><00:00:05.310><c> latencies</c><00:00:05.819><c> a</c><00:00:06.000><c> load</c>
+
+00:00:06.349 --> 00:00:06.359 align:start position:0%
+processor with these latencies a load
+ 
+
+00:00:06.359 --> 00:00:10.100 align:start position:0%
+processor with these latencies a load
+takes<00:00:07.230><c> one</c><00:00:07.500><c> cycle</c><00:00:07.950><c> to</c><00:00:08.099><c> execute</c><00:00:08.130><c> an</c><00:00:08.880><c> ad</c><00:00:09.450><c> the</c><00:00:09.780><c> x1</c>
+
+00:00:10.100 --> 00:00:10.110 align:start position:0%
+takes one cycle to execute an ad the x1
+ 
+
+00:00:10.110 --> 00:00:12.999 align:start position:0%
+takes one cycle to execute an ad the x1
+cycle<00:00:10.530><c> and</c><00:00:10.740><c> a</c><00:00:10.830><c> multiply</c><00:00:11.370><c> takes</c><00:00:11.730><c> five</c><00:00:12.000><c> cycle</c>
+
+00:00:12.999 --> 00:00:13.009 align:start position:0%
+cycle and a multiply takes five cycle
+ 
+
+00:00:13.009 --> 00:00:14.839 align:start position:0%
+cycle and a multiply takes five cycle
+suppose<00:00:14.009><c> that</c><00:00:14.160><c> the</c><00:00:14.280><c> latencies</c><00:00:14.790><c> of</c>
+
+00:00:14.839 --> 00:00:14.849 align:start position:0%
+suppose that the latencies of
+ 
+
+00:00:14.849 --> 00:00:17.810 align:start position:0%
+suppose that the latencies of
+instruction<00:00:15.540><c> execution</c><00:00:16.080><c> are</c><00:00:16.470><c> load</c><00:00:17.010><c> one</c><00:00:17.310><c> cycle</c>
+
+00:00:17.810 --> 00:00:17.820 align:start position:0%
+instruction execution are load one cycle
+ 
+
+00:00:17.820 --> 00:00:22.179 align:start position:0%
+instruction execution are load one cycle
+add<00:00:18.029><c> one</c><00:00:18.570><c> cycle</c><00:00:19.140><c> and</c><00:00:19.289><c> multiply</c><00:00:20.130><c> five</c><00:00:20.609><c> cycles</c>
+
+00:00:22.179 --> 00:00:22.189 align:start position:0%
+add one cycle and multiply five cycles
+ 
+
+00:00:22.189 --> 00:00:24.890 align:start position:0%
+add one cycle and multiply five cycles
+suppose<00:00:23.189><c> we</c><00:00:23.400><c> also</c><00:00:23.580><c> have</c><00:00:23.970><c> this</c><00:00:24.330><c> number</c><00:00:24.660><c> of</c>
+
+00:00:24.890 --> 00:00:24.900 align:start position:0%
+suppose we also have this number of
+ 
+
+00:00:24.900 --> 00:00:27.019 align:start position:0%
+suppose we also have this number of
+reservation<00:00:25.650><c> stations</c><00:00:26.130><c> we</c><00:00:26.340><c> have</c><00:00:26.519><c> one</c><00:00:26.760><c> load</c>
+
+00:00:27.019 --> 00:00:27.029 align:start position:0%
+reservation stations we have one load
+ 
+
+00:00:27.029 --> 00:00:29.330 align:start position:0%
+reservation stations we have one load
+reservation<00:00:27.689><c> station</c><00:00:28.109><c> to</c><00:00:28.410><c> add</c><00:00:28.650><c> and</c><00:00:29.070><c> to</c>
+
+00:00:29.330 --> 00:00:29.340 align:start position:0%
+reservation station to add and to
+ 
+
+00:00:29.340 --> 00:00:31.690 align:start position:0%
+reservation station to add and to
+multiply<00:00:29.880><c> reservation</c><00:00:30.630><c> stations</c><00:00:31.080><c> and</c>
+
+00:00:31.690 --> 00:00:31.700 align:start position:0%
+multiply reservation stations and
+ 
+
+00:00:31.700 --> 00:00:33.799 align:start position:0%
+multiply reservation stations and
+finally<00:00:32.700><c> we</c><00:00:32.820><c> need</c><00:00:32.969><c> to</c><00:00:33.120><c> know</c><00:00:33.239><c> what's</c><00:00:33.480><c> allowed</c>
+
+00:00:33.799 --> 00:00:33.809 align:start position:0%
+finally we need to know what's allowed
+ 
+
+00:00:33.809 --> 00:00:36.920 align:start position:0%
+finally we need to know what's allowed
+in<00:00:34.020><c> the</c><00:00:34.140><c> same</c><00:00:34.350><c> cycle</c><00:00:34.649><c> and</c><00:00:35.130><c> for</c><00:00:35.670><c> that</c><00:00:35.930><c> issuing</c>
+
+00:00:36.920 --> 00:00:36.930 align:start position:0%
+in the same cycle and for that issuing
+ 
+
+00:00:36.930 --> 00:00:38.780 align:start position:0%
+in the same cycle and for that issuing
+and<00:00:37.170><c> then</c><00:00:37.559><c> this</c><00:00:37.770><c> patching</c><00:00:38.219><c> instruction</c><00:00:38.700><c> in</c>
+
+00:00:38.780 --> 00:00:38.790 align:start position:0%
+and then this patching instruction in
+ 
+
+00:00:38.790 --> 00:00:41.420 align:start position:0%
+and then this patching instruction in
+the<00:00:38.879><c> same</c><00:00:38.910><c> cycle</c><00:00:39.090><c> is</c><00:00:39.690><c> not</c><00:00:39.930><c> allowed</c><00:00:40.430><c> capturing</c>
+
+00:00:41.420 --> 00:00:41.430 align:start position:0%
+the same cycle is not allowed capturing
+ 
+
+00:00:41.430 --> 00:00:43.639 align:start position:0%
+the same cycle is not allowed capturing
+the<00:00:41.550><c> upper</c><00:00:41.790><c> end</c><00:00:41.969><c> and</c><00:00:42.210><c> then</c><00:00:42.960><c> dispatch</c><00:00:43.379><c> in</c><00:00:43.559><c> an</c>
+
+00:00:43.639 --> 00:00:43.649 align:start position:0%
+the upper end and then dispatch in an
+ 
+
+00:00:43.649 --> 00:00:45.229 align:start position:0%
+the upper end and then dispatch in an
+instruction<00:00:44.100><c> in</c><00:00:44.160><c> the</c><00:00:44.219><c> same</c><00:00:44.250><c> cycle</c><00:00:44.460><c> is</c><00:00:45.000><c> not</c>
+
+00:00:45.229 --> 00:00:45.239 align:start position:0%
+instruction in the same cycle is not
+ 
+
+00:00:45.239 --> 00:00:48.080 align:start position:0%
+instruction in the same cycle is not
+allowed<00:00:45.600><c> in</c><00:00:45.780><c> this</c><00:00:45.899><c> processor</c><00:00:46.469><c> and</c><00:00:46.800><c> finally</c><00:00:47.670><c> if</c>
+
+00:00:48.080 --> 00:00:48.090 align:start position:0%
+allowed in this processor and finally if
+ 
+
+00:00:48.090 --> 00:00:50.900 align:start position:0%
+allowed in this processor and finally if
+a<00:00:48.360><c> reservation</c><00:00:48.899><c> station</c><00:00:49.289><c> is</c><00:00:49.410><c> freed</c><00:00:49.770><c> it</c><00:00:50.370><c> cannot</c>
+
+00:00:50.900 --> 00:00:50.910 align:start position:0%
+a reservation station is freed it cannot
+ 
+
+00:00:50.910 --> 00:00:53.029 align:start position:0%
+a reservation station is freed it cannot
+be<00:00:51.180><c> used</c><00:00:51.360><c> in</c><00:00:51.539><c> the</c><00:00:51.629><c> same</c><00:00:51.930><c> cycle</c><00:00:52.530><c> again</c><00:00:52.620><c> for</c>
+
+00:00:53.029 --> 00:00:53.039 align:start position:0%
+be used in the same cycle again for
+ 
+
+00:00:53.039 --> 00:00:55.549 align:start position:0%
+be used in the same cycle again for
+another<00:00:53.309><c> instruction</c><00:00:54.000><c> so</c><00:00:54.750><c> once</c><00:00:55.079><c> we</c><00:00:55.260><c> free</c><00:00:55.530><c> a</c>
+
+00:00:55.549 --> 00:00:55.559 align:start position:0%
+another instruction so once we free a
+ 
+
+00:00:55.559 --> 00:00:57.439 align:start position:0%
+another instruction so once we free a
+reservation<00:00:55.949><c> station</c><00:00:56.219><c> it</c><00:00:56.699><c> only</c><00:00:57.000><c> becomes</c>
+
+00:00:57.439 --> 00:00:57.449 align:start position:0%
+reservation station it only becomes
+ 
+
+00:00:57.449 --> 00:00:59.330 align:start position:0%
+reservation station it only becomes
+eligible<00:00:58.079><c> for</c><00:00:58.260><c> issuing</c><00:00:58.530><c> another</c><00:00:58.710><c> instruction</c>
+
+00:00:59.330 --> 00:00:59.340 align:start position:0%
+eligible for issuing another instruction
+ 
+
+00:00:59.340 --> 00:01:02.060 align:start position:0%
+eligible for issuing another instruction
+in<00:00:59.520><c> the</c><00:00:59.730><c> next</c><00:01:00.090><c> cycle</c><00:01:00.680><c> these</c><00:01:01.680><c> are</c><00:01:01.949><c> the</c>
+
+00:01:02.060 --> 00:01:02.070 align:start position:0%
+in the next cycle these are the
+ 
+
+00:01:02.070 --> 00:01:04.369 align:start position:0%
+in the next cycle these are the
+instructions<00:01:02.670><c> we</c><00:01:02.789><c> have</c><00:01:02.820><c> and</c><00:01:03.329><c> what</c><00:01:03.870><c> we</c><00:01:04.049><c> need</c><00:01:04.199><c> to</c>
+
+00:01:04.369 --> 00:01:04.379 align:start position:0%
+instructions we have and what we need to
+ 
+
+00:01:04.379 --> 00:01:07.580 align:start position:0%
+instructions we have and what we need to
+now<00:01:04.530><c> do</c><00:01:04.589><c> is</c><00:01:05.100><c> figure</c><00:01:05.880><c> out</c><00:01:06.119><c> the</c><00:01:06.689><c> timing</c><00:01:06.990><c> for</c><00:01:07.350><c> them</c>
+
+00:01:07.580 --> 00:01:07.590 align:start position:0%
+now do is figure out the timing for them
+ 
+
+00:01:07.590 --> 00:01:10.370 align:start position:0%
+now do is figure out the timing for them
+when<00:01:07.920><c> do</c><00:01:08.040><c> they</c><00:01:08.189><c> issue</c><00:01:08.310><c> dispatch</c><00:01:08.909><c> and</c><00:01:09.180><c> write</c><00:01:09.380><c> to</c>
+
+00:01:10.370 --> 00:01:10.380 align:start position:0%
+when do they issue dispatch and write to
+ 
+
+00:01:10.380 --> 00:01:13.789 align:start position:0%
+when do they issue dispatch and write to
+get<00:01:10.530><c> you</c><00:01:10.710><c> started</c><00:01:11.630><c> these</c><00:01:12.630><c> four</c><00:01:13.619><c> instructions</c>
+
+00:01:13.789 --> 00:01:13.799 align:start position:0%
+get you started these four instructions
+ 
+
+00:01:13.799 --> 00:01:18.050 align:start position:0%
+get you started these four instructions
+will<00:01:14.520><c> issue</c><00:01:14.729><c> in</c><00:01:15.150><c> cycles</c><00:01:15.630><c> 1</c><00:01:15.869><c> 2</c><00:01:16.170><c> 3</c><00:01:16.380><c> &amp;</c><00:01:16.619><c> 4</c><00:01:16.759><c> this</c><00:01:17.759><c> quiz</c>
+
+00:01:18.050 --> 00:01:18.060 align:start position:0%
+will issue in cycles 1 2 3 &amp; 4 this quiz
+ 
+
+00:01:18.060 --> 00:01:21.469 align:start position:0%
+will issue in cycles 1 2 3 &amp; 4 this quiz
+has<00:01:18.090><c> two</c><00:01:18.479><c> parts</c><00:01:18.810><c> part</c><00:01:19.470><c> one</c><00:01:19.770><c> is</c><00:01:20.670><c> for</c><00:01:21.090><c> you</c><00:01:21.240><c> to</c>
+
+00:01:21.469 --> 00:01:21.479 align:start position:0%
+has two parts part one is for you to
+ 
+
+00:01:21.479 --> 00:01:23.960 align:start position:0%
+has two parts part one is for you to
+figure<00:01:21.689><c> out</c><00:01:21.869><c> for</c><00:01:22.740><c> these</c><00:01:22.979><c> four</c><00:01:23.369><c> instructions</c>
+
+00:01:23.960 --> 00:01:23.970 align:start position:0%
+figure out for these four instructions
+ 
+
+00:01:23.970 --> 00:01:26.270 align:start position:0%
+figure out for these four instructions
+that<00:01:24.270><c> issue</c><00:01:24.479><c> in</c><00:01:24.780><c> cycles</c><00:01:25.200><c> 1</c><00:01:25.409><c> 2</c><00:01:25.619><c> 3</c><00:01:25.799><c> &amp;</c><00:01:25.979><c> 4</c>
+
+00:01:26.270 --> 00:01:26.280 align:start position:0%
+that issue in cycles 1 2 3 &amp; 4
+ 
+
+00:01:26.280 --> 00:01:28.819 align:start position:0%
+that issue in cycles 1 2 3 &amp; 4
+when<00:01:26.939><c> do</c><00:01:27.150><c> they</c><00:01:27.330><c> dispatch</c><00:01:27.900><c> for</c><00:01:28.350><c> each</c><00:01:28.500><c> one</c><00:01:28.710><c> of</c>
+
+00:01:28.819 --> 00:01:28.829 align:start position:0%
+when do they dispatch for each one of
+ 
+
+00:01:28.829 --> 00:01:30.950 align:start position:0%
+when do they dispatch for each one of
+them<00:01:29.009><c> and</c><00:01:29.220><c> when</c><00:01:29.880><c> does</c><00:01:30.180><c> each</c><00:01:30.420><c> one</c><00:01:30.659><c> of</c><00:01:30.810><c> them</c>
+
+00:01:30.950 --> 00:01:30.960 align:start position:0%
+them and when does each one of them
+ 
+
+00:01:30.960 --> 00:01:33.829 align:start position:0%
+them and when does each one of them
+write<00:01:31.350><c> its</c><00:01:31.619><c> result</c>
+

@@ -1,0 +1,768 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.389 align:start position:0%
+ 
+so<00:00:00.510><c> we</c><00:00:00.810><c> begin</c><00:00:01.079><c> executing</c><00:00:01.530><c> this</c><00:00:01.770><c> instruction</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+so we begin executing this instruction
+ 
+
+00:00:02.399 --> 00:00:05.780 align:start position:0%
+so we begin executing this instruction
+it's<00:00:02.850><c> a</c><00:00:02.970><c> subtraction</c><00:00:03.149><c> of</c><00:00:03.780><c> 36</c><00:00:04.620><c> minus</c><00:00:04.830><c> 3</c><00:00:05.279><c> that's</c>
+
+00:00:05.780 --> 00:00:05.790 align:start position:0%
+it's a subtraction of 36 minus 3 that's
+ 
+
+00:00:05.790 --> 00:00:09.860 align:start position:0%
+it's a subtraction of 36 minus 3 that's
+a<00:00:06.120><c> result</c><00:00:06.540><c> is</c><00:00:06.660><c> gonna</c><00:00:06.810><c> be</c><00:00:06.930><c> 33</c><00:00:07.560><c> and</c><00:00:08.630><c> it</c><00:00:09.630><c> takes</c>
+
+00:00:09.860 --> 00:00:09.870 align:start position:0%
+a result is gonna be 33 and it takes
+ 
+
+00:00:09.870 --> 00:00:11.320 align:start position:0%
+a result is gonna be 33 and it takes
+only<00:00:10.019><c> one</c><00:00:10.290><c> cycle</c><00:00:10.679><c> to</c><00:00:10.769><c> do</c><00:00:10.920><c> adds</c><00:00:11.070><c> and</c><00:00:11.280><c> subtracts</c>
+
+00:00:11.320 --> 00:00:11.330 align:start position:0%
+only one cycle to do adds and subtracts
+ 
+
+00:00:11.330 --> 00:00:13.730 align:start position:0%
+only one cycle to do adds and subtracts
+so<00:00:12.330><c> this</c><00:00:12.509><c> result</c><00:00:12.840><c> will</c><00:00:13.049><c> be</c><00:00:13.200><c> broadcast</c><00:00:13.620><c> in</c>
+
+00:00:13.730 --> 00:00:13.740 align:start position:0%
+so this result will be broadcast in
+ 
+
+00:00:13.740 --> 00:00:18.200 align:start position:0%
+so this result will be broadcast in
+cycle<00:00:13.920><c> 26</c><00:00:14.780><c> so</c><00:00:15.780><c> now</c><00:00:16.020><c> the</c><00:00:16.830><c> next</c><00:00:17.039><c> thing</c><00:00:17.490><c> that</c><00:00:17.820><c> will</c>
+
+00:00:18.200 --> 00:00:18.210 align:start position:0%
+cycle 26 so now the next thing that will
+ 
+
+00:00:18.210 --> 00:00:20.150 align:start position:0%
+cycle 26 so now the next thing that will
+happen<00:00:18.270><c> is</c><00:00:18.720><c> either</c><00:00:19.050><c> this</c><00:00:19.350><c> or</c><00:00:19.590><c> this</c><00:00:19.770><c> will</c><00:00:20.039><c> be</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+happen is either this or this will be
+ 
+
+00:00:20.160 --> 00:00:24.080 align:start position:0%
+happen is either this or this will be
+broadcast<00:00:20.400><c> cycle</c><00:00:21.330><c> 26</c><00:00:21.840><c> is</c><00:00:22.050><c> the</c><00:00:22.170><c> next</c><00:00:22.439><c> cycle</c><00:00:23.090><c> so</c>
+
+00:00:24.080 --> 00:00:24.090 align:start position:0%
+broadcast cycle 26 is the next cycle so
+ 
+
+00:00:24.090 --> 00:00:26.480 align:start position:0%
+broadcast cycle 26 is the next cycle so
+let's<00:00:24.300><c> see</c><00:00:24.420><c> what</c><00:00:24.570><c> happens</c><00:00:24.960><c> then</c><00:00:25.170><c> in</c><00:00:25.410><c> cycle</c><00:00:25.920><c> 26</c>
+
+00:00:26.480 --> 00:00:26.490 align:start position:0%
+let's see what happens then in cycle 26
+ 
+
+00:00:26.490 --> 00:00:29.120 align:start position:0%
+let's see what happens then in cycle 26
+the<00:00:27.060><c> subtract</c><00:00:27.539><c> broadcast</c><00:00:28.289><c> the</c><00:00:28.380><c> value</c><00:00:28.680><c> of</c><00:00:28.769><c> 33</c>
+
+00:00:29.120 --> 00:00:29.130 align:start position:0%
+the subtract broadcast the value of 33
+ 
+
+00:00:29.130 --> 00:00:32.600 align:start position:0%
+the subtract broadcast the value of 33
+under<00:00:29.910><c> the</c><00:00:30.060><c> name</c><00:00:30.240><c> of</c><00:00:30.510><c> Rob</c><00:00:30.750><c> 5</c><00:00:31.080><c> so</c><00:00:31.859><c> we</c><00:00:32.040><c> mark</c><00:00:32.279><c> it</c><00:00:32.460><c> as</c>
+
+00:00:32.600 --> 00:00:32.610 align:start position:0%
+under the name of Rob 5 so we mark it as
+ 
+
+00:00:32.610 --> 00:00:32.870 align:start position:0%
+under the name of Rob 5 so we mark it as
+done
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+done
+ 
+
+00:00:32.880 --> 00:00:35.900 align:start position:0%
+done
+33<00:00:33.450><c> gets</c><00:00:33.660><c> put</c><00:00:33.870><c> here</c><00:00:33.899><c> and</c><00:00:34.440><c> 30</c><00:00:34.980><c> T</c><00:00:35.280><c> under</c><00:00:35.520><c> the</c><00:00:35.730><c> name</c>
+
+00:00:35.900 --> 00:00:35.910 align:start position:0%
+33 gets put here and 30 T under the name
+ 
+
+00:00:35.910 --> 00:00:38.750 align:start position:0%
+33 gets put here and 30 T under the name
+Rob<00:00:36.149><c> 5</c><00:00:36.450><c> gets</c><00:00:36.809><c> broadcast</c><00:00:37.380><c> and</c><00:00:37.760><c> this</c>
+
+00:00:38.750 --> 00:00:38.760 align:start position:0%
+Rob 5 gets broadcast and this
+ 
+
+00:00:38.760 --> 00:00:41.569 align:start position:0%
+Rob 5 gets broadcast and this
+instruction<00:00:39.210><c> here</c><00:00:39.780><c> is</c><00:00:39.960><c> waiting</c><00:00:40.620><c> for</c><00:00:40.890><c> that</c>
+
+00:00:41.569 --> 00:00:41.579 align:start position:0%
+instruction here is waiting for that
+ 
+
+00:00:41.579 --> 00:00:45.020 align:start position:0%
+instruction here is waiting for that
+value<00:00:42.090><c> so</c><00:00:42.390><c> we</c><00:00:42.510><c> get</c><00:00:42.719><c> 33</c><00:00:43.500><c> here</c><00:00:43.980><c> are</c><00:00:44.160><c> no</c><00:00:44.670><c> longer</c>
+
+00:00:45.020 --> 00:00:45.030 align:start position:0%
+value so we get 33 here are no longer
+ 
+
+00:00:45.030 --> 00:00:45.979 align:start position:0%
+value so we get 33 here are no longer
+waiting<00:00:45.300><c> for</c><00:00:45.690><c> it</c>
+
+00:00:45.979 --> 00:00:45.989 align:start position:0%
+waiting for it
+ 
+
+00:00:45.989 --> 00:00:48.049 align:start position:0%
+waiting for it
+oh<00:00:46.020><c> yes</c><00:00:46.590><c> and</c><00:00:46.890><c> because</c><00:00:47.190><c> this</c><00:00:47.340><c> instruction</c><00:00:47.520><c> has</c>
+
+00:00:48.049 --> 00:00:48.059 align:start position:0%
+oh yes and because this instruction has
+ 
+
+00:00:48.059 --> 00:00:51.139 align:start position:0%
+oh yes and because this instruction has
+been<00:00:48.350><c> dispatched</c><00:00:49.350><c> early</c><00:00:49.649><c> in</c><00:00:49.739><c> cycle</c><00:00:50.070><c> 24</c><00:00:50.370><c> in</c>
+
+00:00:51.139 --> 00:00:51.149 align:start position:0%
+been dispatched early in cycle 24 in
+ 
+
+00:00:51.149 --> 00:00:53.209 align:start position:0%
+been dispatched early in cycle 24 in
+cycle<00:00:51.539><c> 25</c><00:00:51.989><c> and</c><00:00:52.230><c> afterwards</c><00:00:52.710><c> this</c><00:00:52.860><c> reservation</c>
+
+00:00:53.209 --> 00:00:53.219 align:start position:0%
+cycle 25 and afterwards this reservation
+ 
+
+00:00:53.219 --> 00:00:55.760 align:start position:0%
+cycle 25 and afterwards this reservation
+station<00:00:53.640><c> has</c><00:00:53.789><c> really</c><00:00:54.059><c> been</c><00:00:54.210><c> freeing</c><00:00:54.600><c> so</c><00:00:55.170><c> this</c>
+
+00:00:55.760 --> 00:00:55.770 align:start position:0%
+station has really been freeing so this
+ 
+
+00:00:55.770 --> 00:00:58.279 align:start position:0%
+station has really been freeing so this
+instruction<00:00:56.190><c> although</c><00:00:56.579><c> it</c><00:00:56.789><c> got</c><00:00:57.000><c> now</c><00:00:57.210><c> 33</c><00:00:57.899><c> still</c>
+
+00:00:58.279 --> 00:00:58.289 align:start position:0%
+instruction although it got now 33 still
+ 
+
+00:00:58.289 --> 00:01:00.110 align:start position:0%
+instruction although it got now 33 still
+is<00:00:58.500><c> not</c><00:00:58.680><c> ready</c><00:00:58.949><c> to</c><00:00:59.070><c> dispatch</c><00:00:59.370><c> because</c><00:00:59.940><c> it's</c>
+
+00:01:00.110 --> 00:01:00.120 align:start position:0%
+is not ready to dispatch because it's
+ 
+
+00:01:00.120 --> 00:01:02.450 align:start position:0%
+is not ready to dispatch because it's
+still<00:01:00.270><c> waiting</c><00:01:00.600><c> for</c><00:01:00.629><c> Rob</c><00:01:00.960><c> 1</c><00:01:01.289><c> so</c><00:01:01.829><c> it</c><00:01:01.949><c> cannot</c><00:01:02.250><c> go</c>
+
+00:01:02.450 --> 00:01:02.460 align:start position:0%
+still waiting for Rob 1 so it cannot go
+ 
+
+00:01:02.460 --> 00:01:07.730 align:start position:0%
+still waiting for Rob 1 so it cannot go
+okay<00:01:03.210><c> so</c><00:01:03.690><c> in</c><00:01:03.809><c> cycle</c><00:01:04.400><c> 27</c><00:01:05.810><c> nothing</c><00:01:06.810><c> happens</c><00:01:07.200><c> 28</c>
+
+00:01:07.730 --> 00:01:07.740 align:start position:0%
+okay so in cycle 27 nothing happens 28
+ 
+
+00:01:07.740 --> 00:01:09.350 align:start position:0%
+okay so in cycle 27 nothing happens 28
+nothing<00:01:08.159><c> happens</c><00:01:08.520><c> in</c><00:01:08.640><c> fact</c><00:01:08.850><c> the</c><00:01:08.970><c> first</c><00:01:09.180><c> time</c>
+
+00:01:09.350 --> 00:01:09.360 align:start position:0%
+nothing happens in fact the first time
+ 
+
+00:01:09.360 --> 00:01:11.240 align:start position:0%
+nothing happens in fact the first time
+when<00:01:09.570><c> something</c><00:01:09.840><c> does</c><00:01:10.110><c> happen</c><00:01:10.140><c> from</c><00:01:10.650><c> now</c><00:01:10.710><c> is</c>
+
+00:01:11.240 --> 00:01:11.250 align:start position:0%
+when something does happen from now is
+ 
+
+00:01:11.250 --> 00:01:13.789 align:start position:0%
+when something does happen from now is
+gonna<00:01:11.520><c> be</c><00:01:11.700><c> cycle</c><00:01:12.030><c> 42</c><00:01:12.420><c> when</c><00:01:12.810><c> the</c><00:01:12.960><c> result</c><00:01:13.470><c> of</c><00:01:13.590><c> Rob</c>
+
+00:01:13.789 --> 00:01:13.799 align:start position:0%
+gonna be cycle 42 when the result of Rob
+ 
+
+00:01:13.799 --> 00:01:15.289 align:start position:0%
+gonna be cycle 42 when the result of Rob
+1<00:01:14.010><c> is</c><00:01:14.159><c> broadcast</c><00:01:14.640><c> so</c><00:01:14.760><c> let's</c><00:01:14.939><c> just</c><00:01:15.119><c> kind</c><00:01:15.270><c> of</c>
+
+00:01:15.289 --> 00:01:15.299 align:start position:0%
+1 is broadcast so let's just kind of
+ 
+
+00:01:15.299 --> 00:01:17.570 align:start position:0%
+1 is broadcast so let's just kind of
+fast-forward<00:01:15.960><c> there</c><00:01:16.170><c> so</c><00:01:16.740><c> on</c><00:01:16.799><c> let's</c><00:01:17.189><c> say</c><00:01:17.430><c> we</c>
+
+00:01:17.570 --> 00:01:17.580 align:start position:0%
+fast-forward there so on let's say we
+ 
+
+00:01:17.580 --> 00:01:21.080 align:start position:0%
+fast-forward there so on let's say we
+are<00:01:17.610><c> now</c><00:01:17.820><c> in</c><00:01:18.210><c> cycle</c><00:01:18.600><c> 42</c><00:01:18.979><c> this</c><00:01:19.979><c> divide</c><00:01:20.430><c> finally</c>
+
+00:01:21.080 --> 00:01:21.090 align:start position:0%
+are now in cycle 42 this divide finally
+ 
+
+00:01:21.090 --> 00:01:23.270 align:start position:0%
+are now in cycle 42 this divide finally
+broadcasts<00:01:21.540><c> the</c><00:01:21.630><c> value</c><00:01:21.960><c> of</c><00:01:22.080><c> 9</c><00:01:22.350><c> under</c><00:01:22.710><c> the</c><00:01:23.100><c> name</c>
+
+00:01:23.270 --> 00:01:23.280 align:start position:0%
+broadcasts the value of 9 under the name
+ 
+
+00:01:23.280 --> 00:01:26.660 align:start position:0%
+broadcasts the value of 9 under the name
+Rob<00:01:23.580><c> 1</c><00:01:24.119><c> what</c><00:01:24.630><c> happens</c><00:01:25.049><c> is</c><00:01:25.200><c> when</c><00:01:26.070><c> that</c><00:01:26.220><c> happens</c>
+
+00:01:26.660 --> 00:01:26.670 align:start position:0%
+Rob 1 what happens is when that happens
+ 
+
+00:01:26.670 --> 00:01:29.480 align:start position:0%
+Rob 1 what happens is when that happens
+is<00:01:26.909><c> we</c><00:01:27.150><c> put</c><00:01:27.360><c> the</c><00:01:27.509><c> 9</c><00:01:27.720><c> here</c><00:01:28.200><c> we</c><00:01:28.560><c> mark</c><00:01:28.890><c> it</c><00:01:29.009><c> as</c><00:01:29.250><c> done</c>
+
+00:01:29.480 --> 00:01:29.490 align:start position:0%
+is we put the 9 here we mark it as done
+ 
+
+00:01:29.490 --> 00:01:33.710 align:start position:0%
+is we put the 9 here we mark it as done
+and<00:01:30.329><c> then</c><00:01:31.079><c> 9</c><00:01:31.409><c> with</c><00:01:31.890><c> Rob</c><00:01:32.280><c> 1</c><00:01:32.549><c> tag</c><00:01:32.880><c> is</c><00:01:33.150><c> broadcast</c>
+
+00:01:33.710 --> 00:01:33.720 align:start position:0%
+and then 9 with Rob 1 tag is broadcast
+ 
+
+00:01:33.720 --> 00:01:36.230 align:start position:0%
+and then 9 with Rob 1 tag is broadcast
+on<00:01:33.930><c> the</c><00:01:34.200><c> bus</c><00:01:34.380><c> and</c><00:01:34.829><c> all</c><00:01:35.430><c> the</c><00:01:35.670><c> instructions</c><00:01:36.150><c> that</c>
+
+00:01:36.230 --> 00:01:36.240 align:start position:0%
+on the bus and all the instructions that
+ 
+
+00:01:36.240 --> 00:01:37.850 align:start position:0%
+on the bus and all the instructions that
+are<00:01:36.299><c> waiting</c><00:01:36.600><c> for</c><00:01:36.810><c> that</c><00:01:37.079><c> is</c><00:01:37.290><c> gonna</c><00:01:37.470><c> are</c><00:01:37.710><c> gonna</c>
+
+00:01:37.850 --> 00:01:37.860 align:start position:0%
+are waiting for that is gonna are gonna
+ 
+
+00:01:37.860 --> 00:01:40.219 align:start position:0%
+are waiting for that is gonna are gonna
+capture<00:01:38.189><c> that</c><00:01:38.460><c> value</c><00:01:38.640><c> the</c><00:01:39.540><c> only</c><00:01:39.810><c> thing</c><00:01:40.049><c> that</c>
+
+00:01:40.219 --> 00:01:40.229 align:start position:0%
+capture that value the only thing that
+ 
+
+00:01:40.229 --> 00:01:41.719 align:start position:0%
+capture that value the only thing that
+really<00:01:40.350><c> needs</c><00:01:40.680><c> anything</c><00:01:41.100><c> is</c><00:01:41.220><c> this</c><00:01:41.400><c> and</c><00:01:41.670><c> it</c>
+
+00:01:41.719 --> 00:01:41.729 align:start position:0%
+really needs anything is this and it
+ 
+
+00:01:41.729 --> 00:01:43.760 align:start position:0%
+really needs anything is this and it
+captures<00:01:42.119><c> the</c><00:01:42.150><c> value</c><00:01:42.509><c> of</c><00:01:42.600><c> 9</c><00:01:42.840><c> and</c><00:01:43.140><c> it's</c><00:01:43.649><c> no</c>
+
+00:01:43.760 --> 00:01:43.770 align:start position:0%
+captures the value of 9 and it's no
+ 
+
+00:01:43.770 --> 00:01:46.190 align:start position:0%
+captures the value of 9 and it's no
+longer<00:01:44.009><c> waiting</c><00:01:44.490><c> for</c><00:01:44.640><c> anything</c><00:01:44.899><c> so</c><00:01:45.899><c> in</c><00:01:45.990><c> cycle</c>
+
+00:01:46.190 --> 00:01:46.200 align:start position:0%
+longer waiting for anything so in cycle
+ 
+
+00:01:46.200 --> 00:01:49.789 align:start position:0%
+longer waiting for anything so in cycle
+43<00:01:46.970><c> finally</c><00:01:47.970><c> this</c><00:01:48.090><c> Rob</c><00:01:48.390><c> 6</c><00:01:48.689><c> instruction</c><00:01:49.350><c> is</c>
+
+00:01:49.789 --> 00:01:49.799 align:start position:0%
+43 finally this Rob 6 instruction is
+ 
+
+00:01:49.799 --> 00:01:52.880 align:start position:0%
+43 finally this Rob 6 instruction is
+gonna<00:01:50.130><c> begin</c><00:01:50.549><c> execution</c><00:01:51.329><c> so</c><00:01:52.200><c> with</c><00:01:52.380><c> that</c><00:01:52.530><c> let's</c>
+
+00:01:52.880 --> 00:01:52.890 align:start position:0%
+gonna begin execution so with that let's
+ 
+
+00:01:52.890 --> 00:01:56.450 align:start position:0%
+gonna begin execution so with that let's
+move<00:01:53.100><c> to</c><00:01:53.310><c> cycle</c><00:01:53.670><c> 43</c><00:01:54.060><c> in</c><00:01:54.899><c> cycle</c><00:01:55.350><c> 43</c><00:01:55.710><c> we</c><00:01:56.040><c> begin</c>
+
+00:01:56.450 --> 00:01:56.460 align:start position:0%
+move to cycle 43 in cycle 43 we begin
+ 
+
+00:01:56.460 --> 00:01:58.969 align:start position:0%
+move to cycle 43 in cycle 43 we begin
+execution<00:01:56.909><c> of</c><00:01:57.210><c> this</c><00:01:57.299><c> instruction</c><00:01:57.590><c> it's</c><00:01:58.590><c> an</c><00:01:58.770><c> ad</c>
+
+00:01:58.969 --> 00:01:58.979 align:start position:0%
+execution of this instruction it's an ad
+ 
+
+00:01:58.979 --> 00:02:02.510 align:start position:0%
+execution of this instruction it's an ad
+of<00:01:59.009><c> 33</c><00:01:59.759><c> and</c><00:01:59.790><c> 9</c><00:02:00.240><c> so</c><00:02:00.899><c> we</c><00:02:01.020><c> end</c><00:02:01.170><c> up</c><00:02:01.320><c> with</c><00:02:01.500><c> a</c><00:02:01.530><c> 42</c><00:02:02.100><c> value</c>
+
+00:02:02.510 --> 00:02:02.520 align:start position:0%
+of 33 and 9 so we end up with a 42 value
+ 
+
+00:02:02.520 --> 00:02:05.030 align:start position:0%
+of 33 and 9 so we end up with a 42 value
+here<00:02:03.270><c> this</c><00:02:03.719><c> reservation</c><00:02:04.350><c> station</c><00:02:04.770><c> is</c><00:02:04.890><c> now</c>
+
+00:02:05.030 --> 00:02:05.040 align:start position:0%
+here this reservation station is now
+ 
+
+00:02:05.040 --> 00:02:07.700 align:start position:0%
+here this reservation station is now
+free<00:02:05.369><c> this</c><00:02:06.060><c> is</c><00:02:06.240><c> an</c><00:02:06.360><c> ad</c><00:02:06.540><c> so</c><00:02:07.020><c> it's</c><00:02:07.049><c> gonna</c><00:02:07.380><c> finish</c>
+
+00:02:07.700 --> 00:02:07.710 align:start position:0%
+free this is an ad so it's gonna finish
+ 
+
+00:02:07.710 --> 00:02:10.699 align:start position:0%
+free this is an ad so it's gonna finish
+in<00:02:08.099><c> cycle</c><00:02:08.729><c> 44</c><00:02:09.360><c> there</c><00:02:09.869><c> is</c><00:02:10.020><c> another</c><00:02:10.349><c> thing</c><00:02:10.649><c> that</c>
+
+00:02:10.699 --> 00:02:10.709 align:start position:0%
+in cycle 44 there is another thing that
+ 
+
+00:02:10.709 --> 00:02:13.550 align:start position:0%
+in cycle 44 there is another thing that
+happens<00:02:11.190><c> in</c><00:02:11.310><c> cycle</c><00:02:11.489><c> 43</c><00:02:12.090><c> which</c><00:02:12.599><c> is</c><00:02:12.629><c> OH</c>
+
+00:02:13.550 --> 00:02:13.560 align:start position:0%
+happens in cycle 43 which is OH
+ 
+
+00:02:13.560 --> 00:02:15.440 align:start position:0%
+happens in cycle 43 which is OH
+this<00:02:13.739><c> time</c><00:02:14.010><c> we</c><00:02:14.250><c> have</c><00:02:14.459><c> been</c><00:02:14.489><c> waiting</c><00:02:14.849><c> to</c><00:02:15.150><c> commit</c>
+
+00:02:15.440 --> 00:02:15.450 align:start position:0%
+this time we have been waiting to commit
+ 
+
+00:02:15.450 --> 00:02:16.790 align:start position:0%
+this time we have been waiting to commit
+this<00:02:15.569><c> instruction</c><00:02:15.630><c> because</c><00:02:16.319><c> none</c><00:02:16.500><c> of</c><00:02:16.650><c> the</c>
+
+00:02:16.790 --> 00:02:16.800 align:start position:0%
+this instruction because none of the
+ 
+
+00:02:16.800 --> 00:02:18.850 align:start position:0%
+this instruction because none of the
+other<00:02:16.950><c> ones</c><00:02:17.250><c> can</c><00:02:17.400><c> commit</c><00:02:17.730><c> until</c><00:02:17.910><c> it</c><00:02:18.180><c> commits</c>
+
+00:02:18.850 --> 00:02:18.860 align:start position:0%
+other ones can commit until it commits
+ 
+
+00:02:18.860 --> 00:02:21.680 align:start position:0%
+other ones can commit until it commits
+finally<00:02:19.860><c> we</c><00:02:20.160><c> have</c><00:02:20.430><c> been</c><00:02:20.640><c> in</c><00:02:20.730><c> cycle</c><00:02:21.090><c> 42</c><00:02:21.390><c> to</c>
+
+00:02:21.680 --> 00:02:21.690 align:start position:0%
+finally we have been in cycle 42 to
+ 
+
+00:02:21.690 --> 00:02:24.260 align:start position:0%
+finally we have been in cycle 42 to
+write<00:02:21.870><c> the</c><00:02:21.989><c> results</c><00:02:22.530><c> so</c><00:02:22.650><c> in</c><00:02:22.770><c> cycle</c><00:02:22.980><c> 43</c><00:02:23.520><c> we</c><00:02:24.060><c> can</c>
+
+00:02:24.260 --> 00:02:24.270 align:start position:0%
+write the results so in cycle 43 we can
+ 
+
+00:02:24.270 --> 00:02:25.670 align:start position:0%
+write the results so in cycle 43 we can
+actually<00:02:24.630><c> commit</c><00:02:24.870><c> this</c><00:02:24.989><c> instruction</c><00:02:25.050><c> it's</c>
+
+00:02:25.670 --> 00:02:25.680 align:start position:0%
+actually commit this instruction it's
+ 
+
+00:02:25.680 --> 00:02:27.229 align:start position:0%
+actually commit this instruction it's
+been<00:02:25.890><c> marked</c><00:02:26.160><c> as</c><00:02:26.280><c> done</c><00:02:26.430><c> so</c><00:02:26.730><c> pretty</c><00:02:26.940><c> much</c><00:02:27.120><c> the</c>
+
+00:02:27.229 --> 00:02:27.239 align:start position:0%
+been marked as done so pretty much the
+ 
+
+00:02:27.239 --> 00:02:28.880 align:start position:0%
+been marked as done so pretty much the
+commit<00:02:27.510><c> logic</c><00:02:27.810><c> is</c><00:02:27.930><c> kind</c><00:02:28.110><c> of</c><00:02:28.170><c> staring</c><00:02:28.590><c> at</c><00:02:28.739><c> this</c>
+
+00:02:28.880 --> 00:02:28.890 align:start position:0%
+commit logic is kind of staring at this
+ 
+
+00:02:28.890 --> 00:02:30.710 align:start position:0%
+commit logic is kind of staring at this
+entry<00:02:29.310><c> and</c><00:02:29.400><c> waiting</c><00:02:29.760><c> to</c><00:02:29.880><c> see</c><00:02:29.910><c> a</c><00:02:30.090><c> cycle</c><00:02:30.569><c> where</c>
+
+00:02:30.710 --> 00:02:30.720 align:start position:0%
+entry and waiting to see a cycle where
+ 
+
+00:02:30.720 --> 00:02:33.470 align:start position:0%
+entry and waiting to see a cycle where
+this<00:02:31.319><c> entry</c><00:02:31.650><c> has</c><00:02:31.830><c> a</c><00:02:31.860><c> checkmark</c><00:02:32.220><c> next</c><00:02:32.459><c> to</c><00:02:32.730><c> it</c><00:02:32.819><c> so</c>
+
+00:02:33.470 --> 00:02:33.480 align:start position:0%
+this entry has a checkmark next to it so
+ 
+
+00:02:33.480 --> 00:02:35.809 align:start position:0%
+this entry has a checkmark next to it so
+what<00:02:33.630><c> happens</c><00:02:34.050><c> is</c><00:02:34.250><c> finally</c><00:02:35.250><c> we</c><00:02:35.370><c> commit</c><00:02:35.700><c> this</c>
+
+00:02:35.809 --> 00:02:35.819 align:start position:0%
+what happens is finally we commit this
+ 
+
+00:02:35.819 --> 00:02:38.240 align:start position:0%
+what happens is finally we commit this
+in<00:02:36.030><c> cycle</c><00:02:36.360><c> 43</c><00:02:36.720><c> now</c><00:02:37.590><c> that</c><00:02:37.830><c> this</c><00:02:37.980><c> instruction</c>
+
+00:02:38.240 --> 00:02:38.250 align:start position:0%
+in cycle 43 now that this instruction
+ 
+
+00:02:38.250 --> 00:02:41.120 align:start position:0%
+in cycle 43 now that this instruction
+commits<00:02:39.030><c> in</c><00:02:39.209><c> 43</c><00:02:39.840><c> what's</c><00:02:40.200><c> going</c><00:02:40.470><c> to</c><00:02:40.500><c> happen</c><00:02:40.980><c> is</c>
+
+00:02:41.120 --> 00:02:41.130 align:start position:0%
+commits in 43 what's going to happen is
+ 
+
+00:02:41.130 --> 00:02:44.479 align:start position:0%
+commits in 43 what's going to happen is
+several<00:02:41.550><c> things</c><00:02:42.140><c> first</c><00:02:43.140><c> the</c><00:02:43.680><c> Rob</c><00:02:43.890><c> entry</c><00:02:44.099><c> for</c>
+
+00:02:44.479 --> 00:02:44.489 align:start position:0%
+several things first the Rob entry for
+ 
+
+00:02:44.489 --> 00:02:46.009 align:start position:0%
+several things first the Rob entry for
+this<00:02:44.640><c> instruction</c><00:02:44.910><c> will</c><00:02:45.300><c> be</c><00:02:45.330><c> freed</c><00:02:45.720><c> but</c>
+
+00:02:46.009 --> 00:02:46.019 align:start position:0%
+this instruction will be freed but
+ 
+
+00:02:46.019 --> 00:02:48.050 align:start position:0%
+this instruction will be freed but
+before<00:02:46.500><c> we</c><00:02:46.650><c> freed</c><00:02:46.950><c> the</c><00:02:47.069><c> Rob</c><00:02:47.220><c> entry</c><00:02:47.430><c> we</c><00:02:47.730><c> need</c><00:02:47.910><c> to</c>
+
+00:02:48.050 --> 00:02:48.060 align:start position:0%
+before we freed the Rob entry we need to
+ 
+
+00:02:48.060 --> 00:02:49.880 align:start position:0%
+before we freed the Rob entry we need to
+update<00:02:48.239><c> the</c><00:02:48.420><c> register</c><00:02:48.660><c> file</c><00:02:49.200><c> so</c><00:02:49.230><c> what's</c><00:02:49.650><c> going</c>
+
+00:02:49.880 --> 00:02:49.890 align:start position:0%
+update the register file so what's going
+ 
+
+00:02:49.890 --> 00:02:52.430 align:start position:0%
+update the register file so what's going
+to<00:02:49.920><c> happen</c><00:02:50.400><c> is</c><00:02:50.519><c> we</c><00:02:50.670><c> take</c><00:02:50.880><c> this</c><00:02:51.120><c> nine</c><00:02:51.390><c> and</c><00:02:51.690><c> we're</c>
+
+00:02:52.430 --> 00:02:52.440 align:start position:0%
+to happen is we take this nine and we're
+ 
+
+00:02:52.440 --> 00:02:55.130 align:start position:0%
+to happen is we take this nine and we're
+going<00:02:52.620><c> to</c><00:02:52.680><c> write</c><00:02:52.920><c> it</c><00:02:53.160><c> to</c><00:02:53.370><c> register</c><00:02:53.790><c> r2</c><00:02:54.140><c> so</c>
+
+00:02:55.130 --> 00:02:55.140 align:start position:0%
+going to write it to register r2 so
+ 
+
+00:02:55.140 --> 00:02:57.140 align:start position:0%
+going to write it to register r2 so
+register<00:02:55.560><c> r2</c><00:02:55.799><c> is</c><00:02:56.190><c> now</c><00:02:56.340><c> going</c><00:02:56.610><c> to</c><00:02:56.700><c> be</c><00:02:56.790><c> written</c>
+
+00:02:57.140 --> 00:02:57.150 align:start position:0%
+register r2 is now going to be written
+ 
+
+00:02:57.150 --> 00:03:00.770 align:start position:0%
+register r2 is now going to be written
+as<00:02:57.299><c> nine</c><00:02:57.860><c> next</c><00:02:58.860><c> we're</c><00:02:59.819><c> gonna</c><00:03:00.030><c> look</c><00:03:00.269><c> at</c><00:03:00.480><c> the</c><00:03:00.599><c> rat</c>
+
+00:03:00.770 --> 00:03:00.780 align:start position:0%
+as nine next we're gonna look at the rat
+ 
+
+00:03:00.780 --> 00:03:03.350 align:start position:0%
+as nine next we're gonna look at the rat
+entry<00:03:01.080><c> for</c><00:03:01.470><c> r2</c><00:03:01.950><c> and</c><00:03:02.220><c> see</c><00:03:02.910><c> whether</c><00:03:03.120><c> it's</c>
+
+00:03:03.350 --> 00:03:03.360 align:start position:0%
+entry for r2 and see whether it's
+ 
+
+00:03:03.360 --> 00:03:06.860 align:start position:0%
+entry for r2 and see whether it's
+pointing<00:03:03.810><c> to</c><00:03:03.959><c> our</c><00:03:03.989><c> Rob</c><00:03:04.620><c> entry</c><00:03:04.890><c> yes</c><00:03:05.700><c> it</c><00:03:05.940><c> is</c><00:03:06.180><c> so</c>
+
+00:03:06.860 --> 00:03:06.870 align:start position:0%
+pointing to our Rob entry yes it is so
+ 
+
+00:03:06.870 --> 00:03:09.500 align:start position:0%
+pointing to our Rob entry yes it is so
+from<00:03:07.140><c> now</c><00:03:07.349><c> on</c><00:03:07.620><c> Rob</c><00:03:08.400><c> one</c><00:03:08.640><c> will</c><00:03:08.849><c> be</c><00:03:09.000><c> free</c><00:03:09.299><c> after</c>
+
+00:03:09.500 --> 00:03:09.510 align:start position:0%
+from now on Rob one will be free after
+ 
+
+00:03:09.510 --> 00:03:12.080 align:start position:0%
+from now on Rob one will be free after
+this<00:03:09.870><c> cycle</c><00:03:10.290><c> what</c><00:03:10.470><c> we</c><00:03:10.590><c> have</c><00:03:10.799><c> to</c><00:03:10.980><c> do</c><00:03:11.130><c> is</c><00:03:11.730><c> make</c>
+
+00:03:12.080 --> 00:03:12.090 align:start position:0%
+this cycle what we have to do is make
+ 
+
+00:03:12.090 --> 00:03:14.539 align:start position:0%
+this cycle what we have to do is make
+this<00:03:12.420><c> our</c><00:03:12.750><c> two</c><00:03:13.080><c> entry</c><00:03:13.500><c> point</c><00:03:13.799><c> back</c><00:03:14.099><c> to</c><00:03:14.430><c> the</c>
+
+00:03:14.539 --> 00:03:14.549 align:start position:0%
+this our two entry point back to the
+ 
+
+00:03:14.549 --> 00:03:16.610 align:start position:0%
+this our two entry point back to the
+register<00:03:14.910><c> file</c><00:03:15.180><c> you</c><00:03:15.900><c> know</c><00:03:15.989><c> so</c><00:03:16.140><c> the</c><00:03:16.260><c> value</c><00:03:16.560><c> of</c>
+
+00:03:16.610 --> 00:03:16.620 align:start position:0%
+register file you know so the value of
+ 
+
+00:03:16.620 --> 00:03:19.160 align:start position:0%
+register file you know so the value of
+nine<00:03:16.830><c> that</c><00:03:17.130><c> since</c><00:03:17.700><c> recently</c><00:03:18.660><c> has</c><00:03:18.989><c> been</c>
+
+00:03:19.160 --> 00:03:19.170 align:start position:0%
+nine that since recently has been
+ 
+
+00:03:19.170 --> 00:03:22.699 align:start position:0%
+nine that since recently has been
+basically<00:03:19.920><c> pointing</c><00:03:20.609><c> to</c><00:03:20.820><c> you</c><00:03:21.209><c> know</c><00:03:21.359><c> like</c><00:03:21.900><c> r2</c>
+
+00:03:22.699 --> 00:03:22.709 align:start position:0%
+basically pointing to you know like r2
+ 
+
+00:03:22.709 --> 00:03:26.030 align:start position:0%
+basically pointing to you know like r2
+is<00:03:22.980><c> here</c><00:03:23.670><c> now</c><00:03:24.090><c> it's</c><00:03:25.019><c> no</c><00:03:25.200><c> longer</c><00:03:25.230><c> gonna</c><00:03:25.620><c> be</c><00:03:25.799><c> here</c>
+
+00:03:26.030 --> 00:03:26.040 align:start position:0%
+is here now it's no longer gonna be here
+ 
+
+00:03:26.040 --> 00:03:27.770 align:start position:0%
+is here now it's no longer gonna be here
+so<00:03:26.190><c> we</c><00:03:26.280><c> need</c><00:03:26.400><c> to</c><00:03:26.489><c> make</c><00:03:26.609><c> it</c><00:03:26.760><c> point</c><00:03:26.910><c> to</c><00:03:27.180><c> r2</c><00:03:27.600><c> is</c>
+
+00:03:27.770 --> 00:03:27.780 align:start position:0%
+so we need to make it point to r2 is
+ 
+
+00:03:27.780 --> 00:03:30.199 align:start position:0%
+so we need to make it point to r2 is
+here<00:03:28.140><c> I</c><00:03:28.350><c> just</c><00:03:28.980><c> kind</c><00:03:29.340><c> of</c><00:03:29.370><c> deleted</c><00:03:29.850><c> this</c><00:03:29.970><c> but</c>
+
+00:03:30.199 --> 00:03:30.209 align:start position:0%
+here I just kind of deleted this but
+ 
+
+00:03:30.209 --> 00:03:31.640 align:start position:0%
+here I just kind of deleted this but
+this<00:03:30.359><c> really</c><00:03:30.540><c> means</c><00:03:30.780><c> you</c><00:03:30.900><c> can</c><00:03:31.109><c> find</c><00:03:31.350><c> it</c><00:03:31.470><c> in</c><00:03:31.560><c> the</c>
+
+00:03:31.640 --> 00:03:31.650 align:start position:0%
+this really means you can find it in the
+ 
+
+00:03:31.650 --> 00:03:34.640 align:start position:0%
+this really means you can find it in the
+register<00:03:32.010><c> file</c><00:03:32.250><c> so</c><00:03:32.880><c> now</c><00:03:33.150><c> really</c><00:03:33.660><c> we</c><00:03:34.350><c> are</c><00:03:34.410><c> ready</c>
+
+00:03:34.640 --> 00:03:34.650 align:start position:0%
+register file so now really we are ready
+ 
+
+00:03:34.650 --> 00:03:36.949 align:start position:0%
+register file so now really we are ready
+to<00:03:34.950><c> delete</c><00:03:35.850><c> this</c><00:03:36.030><c> stuff</c><00:03:36.299><c> here</c><00:03:36.540><c> and</c><00:03:36.750><c> now</c>
+
+00:03:36.949 --> 00:03:36.959 align:start position:0%
+to delete this stuff here and now
+ 
+
+00:03:36.959 --> 00:03:40.400 align:start position:0%
+to delete this stuff here and now
+finally<00:03:37.670><c> the</c><00:03:38.670><c> divide</c><00:03:39.030><c> has</c><00:03:39.480><c> fully</c><00:03:39.810><c> committed</c>
+
+00:03:40.400 --> 00:03:40.410 align:start position:0%
+finally the divide has fully committed
+ 
+
+00:03:40.410 --> 00:03:43.069 align:start position:0%
+finally the divide has fully committed
+okay<00:03:41.220><c> so</c><00:03:41.280><c> now</c><00:03:41.640><c> if</c><00:03:42.000><c> we</c><00:03:42.030><c> had</c><00:03:42.299><c> an</c><00:03:42.420><c> exception</c><00:03:42.959><c> or</c>
+
+00:03:43.069 --> 00:03:43.079 align:start position:0%
+okay so now if we had an exception or
+ 
+
+00:03:43.079 --> 00:03:45.140 align:start position:0%
+okay so now if we had an exception or
+something<00:03:43.530><c> basically</c><00:03:44.250><c> the</c><00:03:44.489><c> divide</c><00:03:44.850><c> looks</c>
+
+00:03:45.140 --> 00:03:45.150 align:start position:0%
+something basically the divide looks
+ 
+
+00:03:45.150 --> 00:03:46.640 align:start position:0%
+something basically the divide looks
+like<00:03:45.359><c> it's</c><00:03:45.540><c> done</c><00:03:45.720><c> all</c><00:03:46.139><c> of</c><00:03:46.380><c> the</c><00:03:46.500><c> other</c>
+
+00:03:46.640 --> 00:03:46.650 align:start position:0%
+like it's done all of the other
+ 
+
+00:03:46.650 --> 00:03:49.610 align:start position:0%
+like it's done all of the other
+instructions<00:03:47.190><c> really</c><00:03:47.400><c> are</c><00:03:47.700><c> done</c><00:03:48.560><c> except</c><00:03:49.560><c> for</c>
+
+00:03:49.610 --> 00:03:49.620 align:start position:0%
+instructions really are done except for
+ 
+
+00:03:49.620 --> 00:03:53.030 align:start position:0%
+instructions really are done except for
+the<00:03:49.819><c> last</c><00:03:50.819><c> one</c><00:03:51.079><c> but</c><00:03:52.079><c> they're</c><00:03:52.319><c> not</c><00:03:52.500><c> considered</c>
+
+00:03:53.030 --> 00:03:53.040 align:start position:0%
+the last one but they're not considered
+ 
+
+00:03:53.040 --> 00:03:55.309 align:start position:0%
+the last one but they're not considered
+done<00:03:53.190><c> as</c><00:03:53.430><c> far</c><00:03:53.670><c> as</c><00:03:53.700><c> the</c><00:03:53.940><c> program</c><00:03:54.299><c> order</c><00:03:55.170><c> is</c>
+
+00:03:55.309 --> 00:03:55.319 align:start position:0%
+done as far as the program order is
+ 
+
+00:03:55.319 --> 00:03:57.170 align:start position:0%
+done as far as the program order is
+concerned<00:03:55.739><c> basically</c><00:03:56.280><c> the</c><00:03:56.549><c> commit</c><00:03:56.880><c> didn't</c>
+
+00:03:57.170 --> 00:03:57.180 align:start position:0%
+concerned basically the commit didn't
+ 
+
+00:03:57.180 --> 00:03:57.830 align:start position:0%
+concerned basically the commit didn't
+get<00:03:57.359><c> there</c><00:03:57.600><c> yet</c>
+
+00:03:57.830 --> 00:03:57.840 align:start position:0%
+get there yet
+ 
+
+00:03:57.840 --> 00:04:00.289 align:start position:0%
+get there yet
+so<00:03:58.380><c> now</c><00:03:58.530><c> let's</c><00:03:58.799><c> move</c><00:03:58.980><c> to</c><00:03:59.040><c> cycle</c><00:03:59.519><c> 44</c><00:04:00.030><c> and</c><00:04:00.180><c> see</c>
+
+00:04:00.289 --> 00:04:00.299 align:start position:0%
+so now let's move to cycle 44 and see
+ 
+
+00:04:00.299 --> 00:04:02.840 align:start position:0%
+so now let's move to cycle 44 and see
+what<00:04:00.450><c> happens</c>
+

@@ -1,0 +1,232 @@
+1
+00:00:00,540 --> 00:00:02,960
+ So let's start with this example program which,
+
+2
+00:00:02,960 --> 00:00:06,980
+ given an array A, computes the sum of all of its elements.
+
+3
+00:00:06,980 --> 00:00:09,900
+ That sum will be returned in this value s.
+
+4
+00:00:09,900 --> 00:00:13,920
+ This operation is actually an example of a pattern called a reduction.
+
+5
+00:00:13,920 --> 00:00:16,990
+ Now let's suppose we only care about the cost of addition and
+
+6
+00:00:16,990 --> 00:00:19,705
+ the cost of array access.
+
+7
+00:00:19,705 --> 00:00:23,620
+ That is, let's assume we can ignore the cost of all these other operations.
+
+8
+00:00:23,620 --> 00:00:26,900
+ Like indexing operations, branches, and so on.
+
+9
+00:00:26,900 --> 00:00:30,870
+ Here's how the DAG for this computation might unfold.
+
+10
+00:00:30,870 --> 00:00:32,180
+ Let's start with iteration one.
+
+11
+00:00:32,180 --> 00:00:36,720
+ And we need to load A sub 1 and then perform the addition.
+
+12
+00:00:36,720 --> 00:00:40,620
+ So in the DAG there would be a node for A sub 1and a node for the addition.
+
+13
+00:00:40,620 --> 00:00:44,520
+ And there would also be a dependence edge since the addition can't start
+
+14
+00:00:44,520 --> 00:00:46,670
+ until the load is complete.
+
+15
+00:00:46,670 --> 00:00:48,800
+ Now what about the second iteration?
+
+16
+00:00:48,800 --> 00:00:51,640
+ We'll repeat the process, so they'll be a node for
+
+17
+00:00:51,640 --> 00:00:53,820
+ a sub 2 and a corresponding addition.
+
+18
+00:00:53,820 --> 00:00:58,050
+ Now in this case there will be two dependence edges,
+
+19
+00:00:58,050 --> 00:01:01,340
+ one from A sub 2 to the plus.
+
+20
+00:01:01,340 --> 00:01:04,050
+ And the other one from the other plus.
+
+21
+00:01:04,050 --> 00:01:07,820
+ Now technically there's another dependence which goes from this plus to
+
+22
+00:01:07,820 --> 00:01:09,180
+ this load.
+
+23
+00:01:09,180 --> 00:01:10,790
+ So why is that?
+
+24
+00:01:10,790 --> 00:01:13,690
+ The reason is that the code is being executed sequentially so
+
+25
+00:01:13,690 --> 00:01:16,590
+ there's actually what's called a control dependence
+
+26
+00:01:16,590 --> 00:01:20,720
+ between executions of the body of the four loop.
+
+27
+00:01:20,720 --> 00:01:25,640
+ That is this statement that i = 2 can not execute until the statement that i =
+
+28
+00:01:25,640 --> 00:01:27,840
+ 1 has completed.
+
+29
+00:01:27,840 --> 00:01:31,720
+ For now we are going to ignore these controlled dependencies.
+
+30
+00:01:31,720 --> 00:01:34,800
+ So if we ignore the control dependences and we continue this process,
+
+31
+00:01:34,800 --> 00:01:37,530
+ then you'll get a DAG that looks something like this.
+
+32
+00:01:37,530 --> 00:01:41,190
+ Now, suppose I give you a PRAM with P processors.
+
+33
+00:01:41,190 --> 00:01:45,110
+ How long will it take the PRAM to execute this DAG?
+
+34
+00:01:45,110 --> 00:01:48,850
+ Let's call that time Tp(n).
+
+35
+00:01:48,850 --> 00:01:52,510
+ Now, notice that the loads have no input dependences.
+
+36
+00:01:52,510 --> 00:01:56,110
+ They're all ready to go so you can take them as a group.
+
+37
+00:01:56,110 --> 00:02:01,220
+ Assign them to the P processors and execute them in batch.
+
+38
+00:02:01,220 --> 00:02:07,510
+ So in our cost model that we take c-ling of n divided by p units of time.
+
+39
+00:02:07,510 --> 00:02:12,150
+ That is their n loads which we divide among the P processors.
+
+40
+00:02:12,150 --> 00:02:13,600
+ Each load takes one unit of time.
+
+41
+00:02:13,600 --> 00:02:17,590
+ And since we're dealing with integers, we need this ceiling.
+
+42
+00:02:17,590 --> 00:02:19,840
+ So, what about the additions?
+
+43
+00:02:19,840 --> 00:02:22,830
+ These additions have dependencies between them.
+
+44
+00:02:22,830 --> 00:02:25,350
+ So, it looks like I can't ever execute a given addition
+
+45
+00:02:25,350 --> 00:02:27,610
+ until I've executed the previous addition.
+
+46
+00:02:27,610 --> 00:02:30,620
+ And it doesn't matter how many processors you have,
+
+47
+00:02:30,620 --> 00:02:33,680
+ you've got to execute these additions one at a time.
+
+48
+00:02:33,680 --> 00:02:36,240
+ Therefore, you'll need at least
+
+49
+00:02:36,240 --> 00:02:39,690
+ n units of time to complete all of the additions.
+
+50
+00:02:39,690 --> 00:02:41,570
+ Now both of these conditions have to be true so
+
+51
+00:02:41,570 --> 00:02:44,620
+ we can write this in a more compact form.
+
+52
+00:02:44,620 --> 00:02:47,650
+ Now p is always at least one since presumably you're not going to run
+
+53
+00:02:47,650 --> 00:02:49,910
+ a machine with no processors.
+
+54
+00:02:49,910 --> 00:02:54,210
+ So that means the ceiling of n over P is always going to be less than
+
+55
+00:02:54,210 --> 00:02:56,240
+ just plain old n.
+
+56
+00:02:56,240 --> 00:02:59,240
+ So, we can simplify the time.
+
+57
+00:02:59,240 --> 00:03:01,600
+ So, what we just showed is exactly what we expected,
+
+58
+00:03:01,600 --> 00:03:01,600
+ which is that a sequential reduction will take n units of time on a PRAM.
+

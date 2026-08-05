@@ -1,0 +1,440 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.939 align:start position:0%
+ 
+another<00:00:00.390><c> thing</c><00:00:00.659><c> that</c><00:00:00.690><c> is</c><00:00:01.110><c> a</c><00:00:01.140><c> problem</c><00:00:01.650><c> with</c>
+
+00:00:01.939 --> 00:00:01.949 align:start position:0%
+another thing that is a problem with
+ 
+
+00:00:01.949 --> 00:00:03.530 align:start position:0%
+another thing that is a problem with
+tomasulo's<00:00:02.460><c> algorithm</c><00:00:02.730><c> is</c><00:00:03.060><c> when</c><00:00:03.240><c> we</c><00:00:03.330><c> try</c><00:00:03.449><c> to</c>
+
+00:00:03.530 --> 00:00:03.540 align:start position:0%
+tomasulo's algorithm is when we try to
+ 
+
+00:00:03.540 --> 00:00:05.809 align:start position:0%
+tomasulo's algorithm is when we try to
+do<00:00:03.780><c> branch</c><00:00:04.020><c> mispredictions</c><00:00:04.799><c> so</c><00:00:05.339><c> how</c><00:00:05.549><c> do</c><00:00:05.609><c> we</c>
+
+00:00:05.809 --> 00:00:05.819 align:start position:0%
+do branch mispredictions so how do we
+ 
+
+00:00:05.819 --> 00:00:07.849 align:start position:0%
+do branch mispredictions so how do we
+recover<00:00:06.089><c> from</c><00:00:06.420><c> a</c><00:00:06.569><c> branch</c><00:00:06.810><c> misprediction</c><00:00:07.529><c> so</c>
+
+00:00:07.849 --> 00:00:07.859 align:start position:0%
+recover from a branch misprediction so
+ 
+
+00:00:07.859 --> 00:00:09.200 align:start position:0%
+recover from a branch misprediction so
+let's<00:00:08.040><c> say</c><00:00:08.160><c> we</c><00:00:08.280><c> have</c><00:00:08.460><c> a</c><00:00:08.490><c> program</c><00:00:08.730><c> like</c><00:00:08.910><c> this</c>
+
+00:00:09.200 --> 00:00:09.210 align:start position:0%
+let's say we have a program like this
+ 
+
+00:00:09.210 --> 00:00:11.299 align:start position:0%
+let's say we have a program like this
+where<00:00:09.480><c> we</c><00:00:09.630><c> have</c><00:00:09.660><c> a</c><00:00:09.870><c> divide</c><00:00:10.230><c> it</c><00:00:11.070><c> takes</c>
+
+00:00:11.299 --> 00:00:11.309 align:start position:0%
+where we have a divide it takes
+ 
+
+00:00:11.309 --> 00:00:14.450 align:start position:0%
+where we have a divide it takes
+something<00:00:11.700><c> like</c><00:00:11.849><c> 40</c><00:00:12.300><c> cycles</c><00:00:12.780><c> and</c><00:00:13.130><c> once</c><00:00:14.130><c> we</c><00:00:14.309><c> get</c>
+
+00:00:14.450 --> 00:00:14.460 align:start position:0%
+something like 40 cycles and once we get
+ 
+
+00:00:14.460 --> 00:00:16.310 align:start position:0%
+something like 40 cycles and once we get
+that<00:00:14.519><c> result</c><00:00:15.030><c> we</c><00:00:15.269><c> can</c><00:00:15.450><c> resolve</c><00:00:15.780><c> this</c><00:00:15.900><c> branch</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+that result we can resolve this branch
+ 
+
+00:00:16.320 --> 00:00:19.070 align:start position:0%
+that result we can resolve this branch
+over<00:00:16.560><c> here</c><00:00:16.680><c> so</c><00:00:17.550><c> this</c><00:00:17.699><c> branch</c><00:00:18.060><c> can</c><00:00:18.420><c> be</c>
+
+00:00:19.070 --> 00:00:19.080 align:start position:0%
+over here so this branch can be
+ 
+
+00:00:19.080 --> 00:00:21.980 align:start position:0%
+over here so this branch can be
+predicted<00:00:19.710><c> but</c><00:00:20.520><c> it</c><00:00:20.670><c> can</c><00:00:20.850><c> take</c><00:00:21.000><c> a</c><00:00:21.060><c> long</c><00:00:21.359><c> time</c><00:00:21.750><c> to</c>
+
+00:00:21.980 --> 00:00:21.990 align:start position:0%
+predicted but it can take a long time to
+ 
+
+00:00:21.990 --> 00:00:23.660 align:start position:0%
+predicted but it can take a long time to
+realize<00:00:22.170><c> that</c><00:00:22.529><c> it's</c><00:00:22.680><c> been</c><00:00:22.859><c> miss</c><00:00:23.010><c> predicted</c><00:00:23.550><c> so</c>
+
+00:00:23.660 --> 00:00:23.670 align:start position:0%
+realize that it's been miss predicted so
+ 
+
+00:00:23.670 --> 00:00:25.970 align:start position:0%
+realize that it's been miss predicted so
+let's<00:00:23.880><c> say</c><00:00:24.119><c> meanwhile</c><00:00:25.019><c> we</c><00:00:25.380><c> have</c><00:00:25.529><c> fetched</c><00:00:25.859><c> this</c>
+
+00:00:25.970 --> 00:00:25.980 align:start position:0%
+let's say meanwhile we have fetched this
+ 
+
+00:00:25.980 --> 00:00:27.410 align:start position:0%
+let's say meanwhile we have fetched this
+instruction<00:00:26.609><c> because</c><00:00:26.970><c> the</c><00:00:27.090><c> branch</c><00:00:27.300><c> should</c>
+
+00:00:27.410 --> 00:00:27.420 align:start position:0%
+instruction because the branch should
+ 
+
+00:00:27.420 --> 00:00:28.339 align:start position:0%
+instruction because the branch should
+have<00:00:27.570><c> been</c><00:00:27.750><c> taken</c>
+
+00:00:28.339 --> 00:00:28.349 align:start position:0%
+have been taken
+ 
+
+00:00:28.349 --> 00:00:29.960 align:start position:0%
+have been taken
+we<00:00:28.680><c> have</c><00:00:28.859><c> fetched</c><00:00:29.160><c> this</c><00:00:29.250><c> instruction</c><00:00:29.820><c> and</c>
+
+00:00:29.960 --> 00:00:29.970 align:start position:0%
+we have fetched this instruction and
+ 
+
+00:00:29.970 --> 00:00:32.420 align:start position:0%
+we have fetched this instruction and
+this<00:00:30.390><c> instruction</c><00:00:30.449><c> is</c><00:00:30.960><c> already</c><00:00:31.289><c> done</c><00:00:31.470><c> in</c><00:00:32.219><c> that</c>
+
+00:00:32.420 --> 00:00:32.430 align:start position:0%
+this instruction is already done in that
+ 
+
+00:00:32.430 --> 00:00:35.090 align:start position:0%
+this instruction is already done in that
+case<00:00:32.700><c> our</c><00:00:32.940><c> tree</c><00:00:33.360><c> is</c><00:00:33.420><c> already</c><00:00:33.660><c> written</c><00:00:34.110><c> once</c><00:00:34.890><c> we</c>
+
+00:00:35.090 --> 00:00:35.100 align:start position:0%
+case our tree is already written once we
+ 
+
+00:00:35.100 --> 00:00:36.650 align:start position:0%
+case our tree is already written once we
+realize<00:00:35.489><c> that</c><00:00:35.520><c> we</c><00:00:35.820><c> have</c><00:00:36.000><c> miss</c><00:00:36.180><c> please</c><00:00:36.510><c> take</c>
+
+00:00:36.650 --> 00:00:36.660 align:start position:0%
+realize that we have miss please take
+ 
+
+00:00:36.660 --> 00:00:39.170 align:start position:0%
+realize that we have miss please take
+this<00:00:36.780><c> branch</c><00:00:37.079><c> possibly</c><00:00:37.980><c> 40</c><00:00:38.250><c> 50</c><00:00:38.670><c> cycles</c><00:00:38.850><c> later</c>
+
+00:00:39.170 --> 00:00:39.180 align:start position:0%
+this branch possibly 40 50 cycles later
+ 
+
+00:00:39.180 --> 00:00:41.420 align:start position:0%
+this branch possibly 40 50 cycles later
+we<00:00:39.840><c> should</c><00:00:40.320><c> behave</c><00:00:40.469><c> like</c><00:00:40.890><c> we</c><00:00:41.070><c> have</c><00:00:41.250><c> never</c>
+
+00:00:41.420 --> 00:00:41.430 align:start position:0%
+we should behave like we have never
+ 
+
+00:00:41.430 --> 00:00:43.190 align:start position:0%
+we should behave like we have never
+executed<00:00:42.090><c> this</c><00:00:42.210><c> instruction</c><00:00:42.270><c> and</c><00:00:42.899><c> instead</c>
+
+00:00:43.190 --> 00:00:43.200 align:start position:0%
+executed this instruction and instead
+ 
+
+00:00:43.200 --> 00:00:44.510 align:start position:0%
+executed this instruction and instead
+start<00:00:43.440><c> fetching</c><00:00:43.739><c> instructions</c><00:00:44.219><c> from</c><00:00:44.370><c> the</c>
+
+00:00:44.510 --> 00:00:44.520 align:start position:0%
+start fetching instructions from the
+ 
+
+00:00:44.520 --> 00:00:46.340 align:start position:0%
+start fetching instructions from the
+label<00:00:44.850><c> that</c><00:00:44.879><c> the</c><00:00:45.149><c> branch</c><00:00:45.360><c> is</c><00:00:45.510><c> pointing</c><00:00:45.899><c> to</c><00:00:46.050><c> but</c>
+
+00:00:46.340 --> 00:00:46.350 align:start position:0%
+label that the branch is pointing to but
+ 
+
+00:00:46.350 --> 00:00:48.170 align:start position:0%
+label that the branch is pointing to but
+that<00:00:46.500><c> it</c><00:00:46.680><c> becomes</c><00:00:47.100><c> impossible</c><00:00:47.370><c> because</c><00:00:47.969><c> our</c>
+
+00:00:48.170 --> 00:00:48.180 align:start position:0%
+that it becomes impossible because our
+ 
+
+00:00:48.180 --> 00:00:49.700 align:start position:0%
+that it becomes impossible because our
+tree<00:00:48.420><c> by</c><00:00:48.539><c> that</c><00:00:48.780><c> time</c><00:00:48.989><c> has</c><00:00:49.200><c> already</c><00:00:49.350><c> been</c>
+
+00:00:49.700 --> 00:00:49.710 align:start position:0%
+tree by that time has already been
+ 
+
+00:00:49.710 --> 00:00:51.830 align:start position:0%
+tree by that time has already been
+updated<00:00:49.920><c> so</c><00:00:50.430><c> instead</c><00:00:50.820><c> of</c><00:00:50.879><c> having</c><00:00:51.539><c> the</c><00:00:51.809><c> old</c>
+
+00:00:51.830 --> 00:00:51.840 align:start position:0%
+updated so instead of having the old
+ 
+
+00:00:51.840 --> 00:00:53.600 align:start position:0%
+updated so instead of having the old
+value<00:00:52.320><c> of</c><00:00:52.410><c> our</c><00:00:52.590><c> tree</c><00:00:52.800><c> now</c><00:00:53.010><c> we</c><00:00:53.070><c> have</c><00:00:53.370><c> the</c><00:00:53.489><c> new</c>
+
+00:00:53.600 --> 00:00:53.610 align:start position:0%
+value of our tree now we have the new
+ 
+
+00:00:53.610 --> 00:00:55.040 align:start position:0%
+value of our tree now we have the new
+value<00:00:53.940><c> of</c><00:00:54.030><c> our</c><00:00:54.180><c> tree</c><00:00:54.360><c> when</c><00:00:54.510><c> we</c><00:00:54.629><c> jump</c><00:00:54.840><c> to</c><00:00:54.930><c> the</c>
+
+00:00:55.040 --> 00:00:55.050 align:start position:0%
+value of our tree when we jump to the
+ 
+
+00:00:55.050 --> 00:00:56.930 align:start position:0%
+value of our tree when we jump to the
+label<00:00:55.350><c> so</c><00:00:55.530><c> again</c><00:00:55.800><c> the</c><00:00:56.370><c> problem</c><00:00:56.789><c> is</c><00:00:56.879><c> very</c>
+
+00:00:56.930 --> 00:00:56.940 align:start position:0%
+label so again the problem is very
+ 
+
+00:00:56.940 --> 00:00:59.529 align:start position:0%
+label so again the problem is very
+similar<00:00:57.390><c> to</c><00:00:57.750><c> precise</c><00:00:58.140><c> exceptions</c><00:00:58.770><c> in</c><00:00:59.160><c> that</c>
+
+00:00:59.529 --> 00:00:59.539 align:start position:0%
+similar to precise exceptions in that
+ 
+
+00:00:59.539 --> 00:01:02.569 align:start position:0%
+similar to precise exceptions in that
+pretty<00:01:00.539><c> much</c><00:01:00.780><c> an</c><00:01:01.100><c> instruction</c><00:01:02.100><c> can</c><00:01:02.219><c> complete</c>
+
+00:01:02.569 --> 00:01:02.579 align:start position:0%
+pretty much an instruction can complete
+ 
+
+00:01:02.579 --> 00:01:04.130 align:start position:0%
+pretty much an instruction can complete
+and<00:01:02.789><c> write</c><00:01:02.940><c> two</c><00:01:03.090><c> registers</c><00:01:03.600><c> before</c>
+
+00:01:04.130 --> 00:01:04.140 align:start position:0%
+and write two registers before
+ 
+
+00:01:04.140 --> 00:01:05.719 align:start position:0%
+and write two registers before
+proceeding<00:01:04.500><c> instructions</c><00:01:05.129><c> have</c><00:01:05.280><c> fully</c><00:01:05.519><c> been</c>
+
+00:01:05.719 --> 00:01:05.729 align:start position:0%
+proceeding instructions have fully been
+ 
+
+00:01:05.729 --> 00:01:07.340 align:start position:0%
+proceeding instructions have fully been
+verified<00:01:05.939><c> and</c><00:01:06.479><c> before</c><00:01:06.869><c> we</c><00:01:07.020><c> even</c><00:01:07.049><c> know</c><00:01:07.320><c> that</c>
+
+00:01:07.340 --> 00:01:07.350 align:start position:0%
+verified and before we even know that
+ 
+
+00:01:07.350 --> 00:01:08.510 align:start position:0%
+verified and before we even know that
+this<00:01:07.650><c> instruction</c><00:01:07.920><c> should</c><00:01:08.250><c> have</c><00:01:08.369><c> been</c>
+
+00:01:08.510 --> 00:01:08.520 align:start position:0%
+this instruction should have been
+ 
+
+00:01:08.520 --> 00:01:11.719 align:start position:0%
+this instruction should have been
+executed<00:01:09.119><c> a</c><00:01:09.299><c> final</c><00:01:10.229><c> problem</c><00:01:10.680><c> occurs</c><00:01:11.520><c> because</c>
+
+00:01:11.719 --> 00:01:11.729 align:start position:0%
+executed a final problem occurs because
+ 
+
+00:01:11.729 --> 00:01:14.510 align:start position:0%
+executed a final problem occurs because
+of<00:01:11.939><c> so-called</c><00:01:12.299><c> phantom</c><00:01:12.720><c> exceptions</c><00:01:13.500><c> so</c><00:01:14.340><c> what</c>
+
+00:01:14.510 --> 00:01:14.520 align:start position:0%
+of so-called phantom exceptions so what
+ 
+
+00:01:14.520 --> 00:01:16.070 align:start position:0%
+of so-called phantom exceptions so what
+we<00:01:14.670><c> can</c><00:01:14.820><c> have</c><00:01:15.030><c> is</c><00:01:15.210><c> let's</c><00:01:15.479><c> say</c><00:01:15.630><c> that</c><00:01:15.780><c> there</c><00:01:15.930><c> is</c><00:01:16.049><c> a</c>
+
+00:01:16.070 --> 00:01:16.080 align:start position:0%
+we can have is let's say that there is a
+ 
+
+00:01:16.080 --> 00:01:18.410 align:start position:0%
+we can have is let's say that there is a
+divide<00:01:16.470><c> here</c><00:01:16.890><c> let's</c><00:01:17.400><c> say</c><00:01:17.549><c> that</c><00:01:17.729><c> we</c><00:01:18.060><c> have</c><00:01:18.270><c> miss</c>
+
+00:01:18.410 --> 00:01:18.420 align:start position:0%
+divide here let's say that we have miss
+ 
+
+00:01:18.420 --> 00:01:19.969 align:start position:0%
+divide here let's say that we have miss
+predicted<00:01:18.900><c> this</c><00:01:19.049><c> branch</c><00:01:19.350><c> let's</c><00:01:19.680><c> say</c><00:01:19.830><c> that</c>
+
+00:01:19.969 --> 00:01:19.979 align:start position:0%
+predicted this branch let's say that
+ 
+
+00:01:19.979 --> 00:01:21.499 align:start position:0%
+predicted this branch let's say that
+this<00:01:20.130><c> instruction</c><00:01:20.610><c> doesn't</c><00:01:20.820><c> execute</c><00:01:21.210><c> too</c>
+
+00:01:21.499 --> 00:01:21.509 align:start position:0%
+this instruction doesn't execute too
+ 
+
+00:01:21.509 --> 00:01:23.749 align:start position:0%
+this instruction doesn't execute too
+soon<00:01:21.750><c> and</c><00:01:21.900><c> so</c><00:01:22.049><c> on</c><00:01:22.259><c> but</c><00:01:22.830><c> the</c><00:01:22.979><c> problem</c><00:01:23.400><c> is</c><00:01:23.520><c> if</c>
+
+00:01:23.749 --> 00:01:23.759 align:start position:0%
+soon and so on but the problem is if
+ 
+
+00:01:23.759 --> 00:01:25.399 align:start position:0%
+soon and so on but the problem is if
+there<00:01:23.970><c> is</c><00:01:24.090><c> a</c><00:01:24.119><c> divide</c><00:01:24.450><c> here</c><00:01:24.689><c> and</c><00:01:24.900><c> it</c><00:01:25.020><c> generates</c>
+
+00:01:25.399 --> 00:01:25.409 align:start position:0%
+there is a divide here and it generates
+ 
+
+00:01:25.409 --> 00:01:27.649 align:start position:0%
+there is a divide here and it generates
+an<00:01:25.530><c> exception</c><00:01:26.130><c> that</c><00:01:26.520><c> the</c><00:01:26.790><c> exception</c><00:01:27.330><c> will</c><00:01:27.479><c> be</c>
+
+00:01:27.649 --> 00:01:27.659 align:start position:0%
+an exception that the exception will be
+ 
+
+00:01:27.659 --> 00:01:29.960 align:start position:0%
+an exception that the exception will be
+triggered<00:01:27.900><c> even</c><00:01:28.740><c> though</c><00:01:29.100><c> this</c><00:01:29.490><c> instruction</c>
+
+00:01:29.960 --> 00:01:29.970 align:start position:0%
+triggered even though this instruction
+ 
+
+00:01:29.970 --> 00:01:31.700 align:start position:0%
+triggered even though this instruction
+was<00:01:30.060><c> never</c><00:01:30.270><c> supposed</c><00:01:30.509><c> to</c><00:01:30.750><c> be</c><00:01:30.810><c> executed</c><00:01:31.470><c> so</c>
+
+00:01:31.700 --> 00:01:31.710 align:start position:0%
+was never supposed to be executed so
+ 
+
+00:01:31.710 --> 00:01:33.920 align:start position:0%
+was never supposed to be executed so
+when<00:01:31.890><c> we</c><00:01:32.009><c> come</c><00:01:32.220><c> back</c><00:01:32.400><c> we</c><00:01:32.790><c> have</c><00:01:33.030><c> now</c><00:01:33.240><c> a</c><00:01:33.270><c> problem</c>
+
+00:01:33.920 --> 00:01:33.930 align:start position:0%
+when we come back we have now a problem
+ 
+
+00:01:33.930 --> 00:01:35.300 align:start position:0%
+when we come back we have now a problem
+of<00:01:34.049><c> basically</c><00:01:34.530><c> we</c><00:01:34.680><c> have</c><00:01:34.829><c> already</c><00:01:34.979><c> started</c>
+
+00:01:35.300 --> 00:01:35.310 align:start position:0%
+of basically we have already started
+ 
+
+00:01:35.310 --> 00:01:36.859 align:start position:0%
+of basically we have already started
+exception<00:01:35.909><c> processing</c><00:01:36.390><c> for</c><00:01:36.540><c> this</c><00:01:36.689><c> we</c><00:01:36.840><c> have</c>
+
+00:01:36.859 --> 00:01:36.869 align:start position:0%
+exception processing for this we have
+ 
+
+00:01:36.869 --> 00:01:38.480 align:start position:0%
+exception processing for this we have
+you<00:01:37.320><c> know</c><00:01:37.439><c> done</c><00:01:37.650><c> everything</c><00:01:38.130><c> for</c><00:01:38.369><c> this</c>
+
+00:01:38.480 --> 00:01:38.490 align:start position:0%
+you know done everything for this
+ 
+
+00:01:38.490 --> 00:01:40.520 align:start position:0%
+you know done everything for this
+exception<00:01:39.060><c> by</c><00:01:39.630><c> the</c><00:01:39.689><c> time</c><00:01:39.990><c> we</c><00:01:40.140><c> realize</c><00:01:40.500><c> that</c>
+
+00:01:40.520 --> 00:01:40.530 align:start position:0%
+exception by the time we realize that
+ 
+
+00:01:40.530 --> 00:01:42.109 align:start position:0%
+exception by the time we realize that
+it's<00:01:40.920><c> too</c><00:01:41.040><c> late</c><00:01:41.220><c> so</c><00:01:41.280><c> again</c><00:01:41.700><c> we</c><00:01:41.850><c> have</c><00:01:42.000><c> to</c>
+
+00:01:42.109 --> 00:01:42.119 align:start position:0%
+it's too late so again we have to
+ 
+
+00:01:42.119 --> 00:01:44.179 align:start position:0%
+it's too late so again we have to
+somehow<00:01:42.540><c> take</c><00:01:42.600><c> care</c><00:01:42.990><c> of</c><00:01:43.140><c> not</c><00:01:43.770><c> having</c>
+
+00:01:44.179 --> 00:01:44.189 align:start position:0%
+somehow take care of not having
+ 
+
+00:01:44.189 --> 00:01:46.370 align:start position:0%
+somehow take care of not having
+exceptions<00:01:44.729><c> until</c><00:01:45.090><c> we</c><00:01:45.240><c> are</c><00:01:45.299><c> sure</c><00:01:45.540><c> that</c><00:01:45.570><c> they</c>
+
+00:01:46.370 --> 00:01:46.380 align:start position:0%
+exceptions until we are sure that they
+ 
+
+00:01:46.380 --> 00:01:49.130 align:start position:0%
+exceptions until we are sure that they
+should<00:01:46.649><c> happen</c>
+

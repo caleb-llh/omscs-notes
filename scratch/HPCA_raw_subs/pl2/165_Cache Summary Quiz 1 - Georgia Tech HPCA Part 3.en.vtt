@@ -1,0 +1,104 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.629 align:start position:0%
+ 
+now<00:00:00.480><c> let's</c><00:00:00.640><c> do</c><00:00:00.799><c> a</c><00:00:00.960><c> quiz</c><00:00:01.439><c> on</c><00:00:01.520><c> the</c><00:00:01.760><c> overall</c><00:00:02.240><c> cache</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+now let's do a quiz on the overall cache
+ 
+
+00:00:02.639 --> 00:00:04.710 align:start position:0%
+now let's do a quiz on the overall cache
+behavior<00:00:03.520><c> let's</c><00:00:03.760><c> assume</c><00:00:04.080><c> we</c><00:00:04.160><c> have</c><00:00:04.319><c> a</c><00:00:04.400><c> cache</c>
+
+00:00:04.710 --> 00:00:04.720 align:start position:0%
+behavior let's assume we have a cache
+ 
+
+00:00:04.720 --> 00:00:08.870 align:start position:0%
+behavior let's assume we have a cache
+that<00:00:04.880><c> is</c><00:00:05.040><c> only</c><00:00:05.399><c> 256</c><00:00:06.480><c> bytes</c><00:00:06.879><c> in</c><00:00:07.040><c> size</c><00:00:07.919><c> with</c><00:00:08.160><c> a</c><00:00:08.240><c> 32</c>
+
+00:00:08.870 --> 00:00:08.880 align:start position:0%
+that is only 256 bytes in size with a 32
+ 
+
+00:00:08.880 --> 00:00:10.629 align:start position:0%
+that is only 256 bytes in size with a 32
+byte<00:00:09.200><c> line</c><00:00:09.519><c> size</c>
+
+00:00:10.629 --> 00:00:10.639 align:start position:0%
+byte line size
+ 
+
+00:00:10.639 --> 00:00:13.749 align:start position:0%
+byte line size
+two-way<00:00:10.960><c> set</c><00:00:11.200><c> associative</c><00:00:12.320><c> right</c><00:00:12.639><c> back</c><00:00:13.440><c> right</c>
+
+00:00:13.749 --> 00:00:13.759 align:start position:0%
+two-way set associative right back right
+ 
+
+00:00:13.759 --> 00:00:15.749 align:start position:0%
+two-way set associative right back right
+allocate<00:00:14.719><c> let's</c><00:00:14.880><c> say</c><00:00:15.040><c> that</c><00:00:15.120><c> the</c><00:00:15.280><c> processor</c><00:00:15.679><c> is</c>
+
+00:00:15.749 --> 00:00:15.759 align:start position:0%
+allocate let's say that the processor is
+ 
+
+00:00:15.759 --> 00:00:18.310 align:start position:0%
+allocate let's say that the processor is
+generating<00:00:16.240><c> 32</c><00:00:16.720><c> bit</c><00:00:16.960><c> addresses</c><00:00:17.840><c> and</c><00:00:18.000><c> that</c><00:00:18.160><c> the</c>
+
+00:00:18.310 --> 00:00:18.320 align:start position:0%
+generating 32 bit addresses and that the
+ 
+
+00:00:18.320 --> 00:00:20.710 align:start position:0%
+generating 32 bit addresses and that the
+bits<00:00:18.720><c> of</c><00:00:18.800><c> the</c><00:00:18.880><c> address</c><00:00:19.359><c> are</c><00:00:19.520><c> numbered</c><00:00:20.000><c> 0</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+bits of the address are numbered 0
+ 
+
+00:00:20.720 --> 00:00:23.830 align:start position:0%
+bits of the address are numbered 0
+through<00:00:20.960><c> 31.</c><00:00:22.000><c> so</c><00:00:22.160><c> the</c><00:00:22.400><c> question</c><00:00:22.800><c> for</c><00:00:22.960><c> you</c>
+
+00:00:23.830 --> 00:00:23.840 align:start position:0%
+through 31. so the question for you
+ 
+
+00:00:23.840 --> 00:00:27.029 align:start position:0%
+through 31. so the question for you
+is<00:00:24.560><c> the</c><00:00:24.800><c> tag</c><00:00:25.119><c> bits</c><00:00:25.519><c> are</c><00:00:25.760><c> bit</c><00:00:26.320><c> what</c><00:00:26.800><c> through</c>
+
+00:00:27.029 --> 00:00:27.039 align:start position:0%
+is the tag bits are bit what through
+ 
+
+00:00:27.039 --> 00:00:29.750 align:start position:0%
+is the tag bits are bit what through
+what<00:00:27.680><c> the</c><00:00:27.920><c> index</c><00:00:28.400><c> bits</c><00:00:28.720><c> in</c><00:00:28.800><c> the</c><00:00:28.880><c> address</c><00:00:29.359><c> are</c>
+
+00:00:29.750 --> 00:00:29.760 align:start position:0%
+what the index bits in the address are
+ 
+
+00:00:29.760 --> 00:00:32.069 align:start position:0%
+what the index bits in the address are
+what<00:00:30.160><c> through</c><00:00:30.480><c> what</c><00:00:30.960><c> and</c><00:00:31.119><c> the</c><00:00:31.279><c> offset</c><00:00:31.760><c> bits</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+what through what and the offset bits
+ 
+
+00:00:32.079 --> 00:00:36.160 align:start position:0%
+what through what and the offset bits
+are<00:00:32.399><c> which</c><00:00:32.640><c> bit</c><00:00:32.880><c> through</c><00:00:33.040><c> which</c><00:00:33.360><c> bits</c>
+

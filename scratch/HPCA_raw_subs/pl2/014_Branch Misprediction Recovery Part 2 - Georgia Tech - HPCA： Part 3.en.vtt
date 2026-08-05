@@ -1,0 +1,936 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:02.690 align:start position:0%
+ 
+eventually<00:00:00.810><c> this</c><00:00:01.260><c> load</c><00:00:01.530><c> does</c><00:00:01.770><c> complete</c><00:00:02.340><c> and</c>
+
+00:00:02.690 --> 00:00:02.700 align:start position:0%
+eventually this load does complete and
+ 
+
+00:00:02.700 --> 00:00:05.690 align:start position:0%
+eventually this load does complete and
+let's<00:00:03.330><c> say</c><00:00:03.510><c> it</c><00:00:03.570><c> brings</c><00:00:04.140><c> us</c><00:00:04.380><c> a</c><00:00:04.529><c> value</c><00:00:04.830><c> of</c><00:00:04.859><c> 700</c>
+
+00:00:05.690 --> 00:00:05.700 align:start position:0%
+let's say it brings us a value of 700
+ 
+
+00:00:05.700 --> 00:00:08.750 align:start position:0%
+let's say it brings us a value of 700
+and<00:00:05.940><c> it's</c><00:00:06.660><c> marked</c><00:00:07.080><c> is</c><00:00:07.200><c> done</c><00:00:07.440><c> now</c><00:00:08.429><c> we're</c><00:00:08.580><c> going</c>
+
+00:00:08.750 --> 00:00:08.760 align:start position:0%
+and it's marked is done now we're going
+ 
+
+00:00:08.760 --> 00:00:11.540 align:start position:0%
+and it's marked is done now we're going
+to<00:00:08.849><c> do</c><00:00:09.059><c> the</c><00:00:09.179><c> branch</c><00:00:09.450><c> and</c><00:00:09.780><c> the</c><00:00:09.929><c> add</c><00:00:10.550><c> meanwhile</c>
+
+00:00:11.540 --> 00:00:11.550 align:start position:0%
+to do the branch and the add meanwhile
+ 
+
+00:00:11.550 --> 00:00:13.669 align:start position:0%
+to do the branch and the add meanwhile
+we<00:00:11.849><c> are</c><00:00:11.880><c> going</c><00:00:11.969><c> to</c><00:00:12.330><c> be</c><00:00:12.450><c> checking</c><00:00:12.960><c> whether</c><00:00:13.440><c> we</c>
+
+00:00:13.669 --> 00:00:13.679 align:start position:0%
+we are going to be checking whether we
+ 
+
+00:00:13.679 --> 00:00:15.440 align:start position:0%
+we are going to be checking whether we
+can<00:00:13.860><c> commit</c><00:00:14.130><c> this</c><00:00:14.280><c> instruction</c><00:00:14.340><c> and</c><00:00:15.030><c> we</c><00:00:15.179><c> can</c>
+
+00:00:15.440 --> 00:00:15.450 align:start position:0%
+can commit this instruction and we can
+ 
+
+00:00:15.450 --> 00:00:17.420 align:start position:0%
+can commit this instruction and we can
+because<00:00:15.990><c> it's</c><00:00:16.320><c> marked</c><00:00:16.650><c> is</c><00:00:16.770><c> done</c><00:00:16.980><c> and</c><00:00:17.160><c> it's</c><00:00:17.310><c> the</c>
+
+00:00:17.420 --> 00:00:17.430 align:start position:0%
+because it's marked is done and it's the
+ 
+
+00:00:17.430 --> 00:00:19.609 align:start position:0%
+because it's marked is done and it's the
+next<00:00:17.640><c> instruction</c><00:00:18.150><c> to</c><00:00:18.270><c> commit</c><00:00:18.600><c> so</c><00:00:19.380><c> we</c><00:00:19.410><c> will</c>
+
+00:00:19.609 --> 00:00:19.619 align:start position:0%
+next instruction to commit so we will
+ 
+
+00:00:19.619 --> 00:00:22.040 align:start position:0%
+next instruction to commit so we will
+commit<00:00:19.980><c> this</c><00:00:20.220><c> instruction</c><00:00:20.810><c> which</c><00:00:21.810><c> will</c>
+
+00:00:22.040 --> 00:00:22.050 align:start position:0%
+commit this instruction which will
+ 
+
+00:00:22.050 --> 00:00:24.080 align:start position:0%
+commit this instruction which will
+result<00:00:22.410><c> in</c><00:00:22.590><c> moving</c><00:00:22.920><c> the</c><00:00:23.039><c> commit</c><00:00:23.310><c> pointer</c><00:00:23.699><c> here</c>
+
+00:00:24.080 --> 00:00:24.090 align:start position:0%
+result in moving the commit pointer here
+ 
+
+00:00:24.090 --> 00:00:26.929 align:start position:0%
+result in moving the commit pointer here
+and<00:00:24.269><c> writing</c><00:00:25.230><c> this</c><00:00:25.380><c> value</c><00:00:25.769><c> of</c><00:00:25.830><c> 700</c><00:00:26.730><c> to</c>
+
+00:00:26.929 --> 00:00:26.939 align:start position:0%
+and writing this value of 700 to
+ 
+
+00:00:26.939 --> 00:00:31.310 align:start position:0%
+and writing this value of 700 to
+register<00:00:27.390><c> r1</c><00:00:27.660><c> and</c><00:00:28.250><c> also</c><00:00:29.250><c> making</c><00:00:29.789><c> the</c><00:00:29.970><c> rat</c><00:00:30.330><c> now</c>
+
+00:00:31.310 --> 00:00:31.320 align:start position:0%
+register r1 and also making the rat now
+ 
+
+00:00:31.320 --> 00:00:33.620 align:start position:0%
+register r1 and also making the rat now
+point<00:00:31.769><c> here</c><00:00:32.189><c> now</c><00:00:32.820><c> let's</c><00:00:33.090><c> suppose</c><00:00:33.239><c> that</c><00:00:33.540><c> the</c>
+
+00:00:33.620 --> 00:00:33.630 align:start position:0%
+point here now let's suppose that the
+ 
+
+00:00:33.630 --> 00:00:35.510 align:start position:0%
+point here now let's suppose that the
+branch<00:00:33.899><c> takes</c><00:00:34.170><c> longer</c><00:00:34.800><c> to</c><00:00:34.950><c> figure</c><00:00:35.250><c> out</c><00:00:35.370><c> than</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+branch takes longer to figure out than
+ 
+
+00:00:35.520 --> 00:00:36.139 align:start position:0%
+branch takes longer to figure out than
+the<00:00:35.730><c> add</c>
+
+00:00:36.139 --> 00:00:36.149 align:start position:0%
+the add
+ 
+
+00:00:36.149 --> 00:00:39.200 align:start position:0%
+the add
+so<00:00:36.239><c> this</c><00:00:36.450><c> add</c><00:00:36.690><c> completes</c><00:00:37.730><c> produces</c><00:00:38.730><c> a</c><00:00:38.760><c> value</c>
+
+00:00:39.200 --> 00:00:39.210 align:start position:0%
+so this add completes produces a value
+ 
+
+00:00:39.210 --> 00:00:42.680 align:start position:0%
+so this add completes produces a value
+of<00:00:39.300><c> let's</c><00:00:39.570><c> say</c><00:00:39.690><c> 3</c><00:00:40.079><c> and</c><00:00:40.410><c> it's</c><00:00:41.100><c> done</c><00:00:41.309><c> and</c><00:00:41.690><c> that's</c>
+
+00:00:42.680 --> 00:00:42.690 align:start position:0%
+of let's say 3 and it's done and that's
+ 
+
+00:00:42.690 --> 00:00:45.080 align:start position:0%
+of let's say 3 and it's done and that's
+all<00:00:43.110><c> that</c><00:00:43.350><c> happens</c><00:00:43.800><c> here</c><00:00:43.890><c> again</c><00:00:44.430><c> this</c><00:00:44.670><c> result</c>
+
+00:00:45.080 --> 00:00:45.090 align:start position:0%
+all that happens here again this result
+ 
+
+00:00:45.090 --> 00:00:46.790 align:start position:0%
+all that happens here again this result
+would<00:00:45.329><c> have</c><00:00:45.390><c> been</c><00:00:45.539><c> written</c><00:00:45.870><c> to</c><00:00:46.110><c> the</c><00:00:46.230><c> registers</c>
+
+00:00:46.790 --> 00:00:46.800 align:start position:0%
+would have been written to the registers
+ 
+
+00:00:46.800 --> 00:00:50.450 align:start position:0%
+would have been written to the registers
+thus<00:00:47.520><c> permanently</c><00:00:47.940><c> changing</c><00:00:48.719><c> r2</c><00:00:49.350><c> and</c><00:00:49.620><c> that's</c>
+
+00:00:50.450 --> 00:00:50.460 align:start position:0%
+thus permanently changing r2 and that's
+ 
+
+00:00:50.460 --> 00:00:52.160 align:start position:0%
+thus permanently changing r2 and that's
+all<00:00:50.760><c> that</c><00:00:50.940><c> happens</c><00:00:51.329><c> now</c><00:00:51.510><c> know</c><00:00:51.719><c> that</c><00:00:51.960><c> this</c>
+
+00:00:52.160 --> 00:00:52.170 align:start position:0%
+all that happens now know that this
+ 
+
+00:00:52.170 --> 00:00:54.290 align:start position:0%
+all that happens now know that this
+result<00:00:52.649><c> of</c><00:00:52.829><c> tree</c><00:00:53.100><c> would</c><00:00:53.460><c> not</c><00:00:53.760><c> have</c><00:00:54.090><c> been</c>
+
+00:00:54.290 --> 00:00:54.300 align:start position:0%
+result of tree would not have been
+ 
+
+00:00:54.300 --> 00:00:55.939 align:start position:0%
+result of tree would not have been
+written<00:00:54.510><c> to</c><00:00:54.690><c> the</c><00:00:54.899><c> registers</c><00:00:55.379><c> even</c><00:00:55.770><c> with</c>
+
+00:00:55.939 --> 00:00:55.949 align:start position:0%
+written to the registers even with
+ 
+
+00:00:55.949 --> 00:00:58.069 align:start position:0%
+written to the registers even with
+tomasulo's<00:00:56.489><c> algorithm</c><00:00:56.870><c> because</c><00:00:57.870><c> the</c>
+
+00:00:58.069 --> 00:00:58.079 align:start position:0%
+tomasulo's algorithm because the
+ 
+
+00:00:58.079 --> 00:01:01.520 align:start position:0%
+tomasulo's algorithm because the
+renaming<00:00:58.469><c> for</c><00:00:58.829><c> r2</c><00:00:59.250><c> is</c><00:01:00.090><c> pointing</c><00:01:00.780><c> not</c><00:01:01.050><c> to</c><00:01:01.320><c> this</c>
+
+00:01:01.520 --> 00:01:01.530 align:start position:0%
+renaming for r2 is pointing not to this
+ 
+
+00:01:01.530 --> 00:01:03.650 align:start position:0%
+renaming for r2 is pointing not to this
+instruction<00:01:02.160><c> meaning</c><00:01:03.000><c> that</c><00:01:03.149><c> we</c><00:01:03.359><c> would</c><00:01:03.570><c> have</c>
+
+00:01:03.650 --> 00:01:03.660 align:start position:0%
+instruction meaning that we would have
+ 
+
+00:01:03.660 --> 00:01:05.479 align:start position:0%
+instruction meaning that we would have
+kept<00:01:04.019><c> in</c><00:01:04.199><c> the</c><00:01:04.320><c> registers</c><00:01:04.739><c> the</c><00:01:04.890><c> value</c><00:01:05.189><c> of</c><00:01:05.280><c> 2</c>
+
+00:01:05.479 --> 00:01:05.489 align:start position:0%
+kept in the registers the value of 2
+ 
+
+00:01:05.489 --> 00:01:07.969 align:start position:0%
+kept in the registers the value of 2
+that<00:01:06.390><c> we</c><00:01:06.659><c> would</c><00:01:06.810><c> have</c><00:01:06.930><c> written</c><00:01:07.320><c> for</c><00:01:07.860><c> the</c>
+
+00:01:07.969 --> 00:01:07.979 align:start position:0%
+that we would have written for the
+ 
+
+00:01:07.979 --> 00:01:10.760 align:start position:0%
+that we would have written for the
+divide<00:01:08.310><c> because</c><00:01:08.610><c> that's</c><00:01:08.880><c> the</c><00:01:09.060><c> latest</c><00:01:09.270><c> r2</c><00:01:09.900><c> but</c>
+
+00:01:10.760 --> 00:01:10.770 align:start position:0%
+divide because that's the latest r2 but
+ 
+
+00:01:10.770 --> 00:01:12.830 align:start position:0%
+divide because that's the latest r2 but
+in<00:01:10.950><c> this</c><00:01:11.100><c> case</c><00:01:11.340><c> we</c><00:01:11.580><c> don't</c><00:01:11.790><c> do</c><00:01:11.970><c> any</c><00:01:12.180><c> of</c><00:01:12.330><c> that</c><00:01:12.420><c> we</c>
+
+00:01:12.830 --> 00:01:12.840 align:start position:0%
+in this case we don't do any of that we
+ 
+
+00:01:12.840 --> 00:01:15.340 align:start position:0%
+in this case we don't do any of that we
+just<00:01:13.049><c> keep</c><00:01:13.200><c> the</c><00:01:13.409><c> values</c><00:01:13.740><c> in</c><00:01:13.890><c> the</c><00:01:14.010><c> Rob</c><00:01:14.189><c> as</c><00:01:14.430><c> is</c>
+
+00:01:15.340 --> 00:01:15.350 align:start position:0%
+just keep the values in the Rob as is
+ 
+
+00:01:15.350 --> 00:01:17.929 align:start position:0%
+just keep the values in the Rob as is
+eventually<00:01:16.350><c> we</c><00:01:16.560><c> get</c><00:01:16.799><c> to</c><00:01:16.979><c> resolve</c><00:01:17.369><c> this</c><00:01:17.580><c> branch</c>
+
+00:01:17.929 --> 00:01:17.939 align:start position:0%
+eventually we get to resolve this branch
+ 
+
+00:01:17.939 --> 00:01:19.969 align:start position:0%
+eventually we get to resolve this branch
+and<00:01:18.290><c> figure</c><00:01:19.290><c> out</c><00:01:19.350><c> that</c><00:01:19.470><c> it's</c><00:01:19.799><c> been</c>
+
+00:01:19.969 --> 00:01:19.979 align:start position:0%
+and figure out that it's been
+ 
+
+00:01:19.979 --> 00:01:23.390 align:start position:0%
+and figure out that it's been
+mispredicted<00:01:20.759><c> so</c><00:01:21.540><c> now</c><00:01:21.720><c> the</c><00:01:22.049><c> branch</c><00:01:22.409><c> will</c><00:01:23.250><c> be</c>
+
+00:01:23.390 --> 00:01:23.400 align:start position:0%
+mispredicted so now the branch will be
+ 
+
+00:01:23.400 --> 00:01:25.940 align:start position:0%
+mispredicted so now the branch will be
+marked<00:01:23.759><c> as</c><00:01:23.880><c> done</c><00:01:24.119><c> we</c><00:01:25.080><c> will</c><00:01:25.290><c> now</c><00:01:25.590><c> start</c>
+
+00:01:25.940 --> 00:01:25.950 align:start position:0%
+marked as done we will now start
+ 
+
+00:01:25.950 --> 00:01:28.070 align:start position:0%
+marked as done we will now start
+fetching<00:01:26.310><c> from</c><00:01:26.790><c> the</c><00:01:27.030><c> correct</c><00:01:27.420><c> instructions</c>
+
+00:01:28.070 --> 00:01:28.080 align:start position:0%
+fetching from the correct instructions
+ 
+
+00:01:28.080 --> 00:01:30.140 align:start position:0%
+fetching from the correct instructions
+but<00:01:28.259><c> the</c><00:01:28.439><c> question</c><00:01:28.829><c> is</c><00:01:28.950><c> how</c><00:01:29.400><c> do</c><00:01:29.460><c> we</c><00:01:29.610><c> get</c><00:01:29.820><c> rid</c><00:01:29.880><c> of</c>
+
+00:01:30.140 --> 00:01:30.150 align:start position:0%
+but the question is how do we get rid of
+ 
+
+00:01:30.150 --> 00:01:33.710 align:start position:0%
+but the question is how do we get rid of
+the<00:01:30.479><c> ones</c><00:01:30.799><c> that</c><00:01:31.799><c> we</c><00:01:32.220><c> had</c><00:01:32.400><c> wrong</c><00:01:32.670><c> well</c><00:01:33.329><c> what</c><00:01:33.540><c> we</c>
+
+00:01:33.710 --> 00:01:33.720 align:start position:0%
+the ones that we had wrong well what we
+ 
+
+00:01:33.720 --> 00:01:35.840 align:start position:0%
+the ones that we had wrong well what we
+do<00:01:33.869><c> is</c><00:01:34.049><c> we</c><00:01:34.200><c> annotate</c><00:01:34.650><c> here</c><00:01:35.189><c> that</c><00:01:35.430><c> there's</c><00:01:35.610><c> has</c>
+
+00:01:35.840 --> 00:01:35.850 align:start position:0%
+do is we annotate here that there's has
+ 
+
+00:01:35.850 --> 00:01:37.760 align:start position:0%
+do is we annotate here that there's has
+been<00:01:35.880><c> a</c><00:01:36.150><c> misprediction</c><00:01:36.570><c> of</c><00:01:37.020><c> this</c><00:01:37.170><c> branch</c><00:01:37.470><c> and</c>
+
+00:01:37.760 --> 00:01:37.770 align:start position:0%
+been a misprediction of this branch and
+ 
+
+00:01:37.770 --> 00:01:40.069 align:start position:0%
+been a misprediction of this branch and
+that's<00:01:38.250><c> all</c><00:01:38.549><c> that</c><00:01:38.729><c> happens</c><00:01:39.210><c> as</c><00:01:39.390><c> a</c><00:01:39.420><c> result</c><00:01:39.689><c> of</c>
+
+00:01:40.069 --> 00:01:40.079 align:start position:0%
+that's all that happens as a result of
+ 
+
+00:01:40.079 --> 00:01:43.580 align:start position:0%
+that's all that happens as a result of
+its<00:01:40.670><c> execution</c><00:01:41.670><c> and</c><00:01:42.060><c> we</c><00:01:42.119><c> don't</c><00:01:43.079><c> really</c><00:01:43.320><c> fix</c>
+
+00:01:43.580 --> 00:01:43.590 align:start position:0%
+its execution and we don't really fix
+ 
+
+00:01:43.590 --> 00:01:45.350 align:start position:0%
+its execution and we don't really fix
+the<00:01:43.799><c> misprediction</c><00:01:44.399><c> we</c><00:01:44.520><c> continue</c><00:01:45.000><c> fetching</c>
+
+00:01:45.350 --> 00:01:45.360 align:start position:0%
+the misprediction we continue fetching
+ 
+
+00:01:45.360 --> 00:01:46.999 align:start position:0%
+the misprediction we continue fetching
+the<00:01:45.479><c> wrong</c><00:01:45.659><c> instructions</c><00:01:46.320><c> because</c><00:01:46.530><c> we</c><00:01:46.829><c> don't</c>
+
+00:01:46.999 --> 00:01:47.009 align:start position:0%
+the wrong instructions because we don't
+ 
+
+00:01:47.009 --> 00:01:48.889 align:start position:0%
+the wrong instructions because we don't
+know<00:01:47.070><c> how</c><00:01:47.189><c> to</c><00:01:47.250><c> get</c><00:01:47.460><c> rid</c><00:01:47.700><c> of</c><00:01:47.729><c> these</c><00:01:47.970><c> until</c><00:01:48.600><c> the</c>
+
+00:01:48.889 --> 00:01:48.899 align:start position:0%
+know how to get rid of these until the
+ 
+
+00:01:48.899 --> 00:01:50.870 align:start position:0%
+know how to get rid of these until the
+commit<00:01:49.259><c> reach</c><00:01:49.530><c> is</c><00:01:49.770><c> the</c><00:01:49.920><c> point</c><00:01:50.189><c> of</c><00:01:50.490><c> the</c><00:01:50.610><c> branch</c>
+
+00:01:50.870 --> 00:01:50.880 align:start position:0%
+commit reach is the point of the branch
+ 
+
+00:01:50.880 --> 00:01:53.510 align:start position:0%
+commit reach is the point of the branch
+so<00:01:51.509><c> when</c><00:01:51.689><c> we</c><00:01:51.840><c> commit</c><00:01:52.259><c> this</c><00:01:52.500><c> branch</c><00:01:52.890><c> we</c><00:01:53.100><c> realize</c>
+
+00:01:53.510 --> 00:01:53.520 align:start position:0%
+so when we commit this branch we realize
+ 
+
+00:01:53.520 --> 00:01:56.480 align:start position:0%
+so when we commit this branch we realize
+that<00:01:53.880><c> after</c><00:01:54.720><c> this</c><00:01:55.170><c> branch</c><00:01:55.470><c> we</c><00:01:56.040><c> were</c><00:01:56.189><c> fetching</c>
+
+00:01:56.480 --> 00:01:56.490 align:start position:0%
+that after this branch we were fetching
+ 
+
+00:01:56.490 --> 00:01:58.880 align:start position:0%
+that after this branch we were fetching
+the<00:01:56.880><c> wrong</c><00:01:57.090><c> instructions</c><00:01:57.750><c> the</c><00:01:58.110><c> PC</c><00:01:58.560><c> that</c><00:01:58.740><c> the</c>
+
+00:01:58.880 --> 00:01:58.890 align:start position:0%
+the wrong instructions the PC that the
+ 
+
+00:01:58.890 --> 00:02:01.520 align:start position:0%
+the wrong instructions the PC that the
+branch<00:01:59.130><c> should</c><00:01:59.430><c> have</c><00:01:59.670><c> created</c><00:02:00.540><c> is</c><00:02:00.719><c> different</c>
+
+00:02:01.520 --> 00:02:01.530 align:start position:0%
+branch should have created is different
+ 
+
+00:02:01.530 --> 00:02:04.310 align:start position:0%
+branch should have created is different
+from<00:02:01.710><c> the</c><00:02:01.799><c> PC</c><00:02:02.159><c> we</c><00:02:02.280><c> have</c><00:02:02.430><c> actually</c><00:02:02.969><c> used</c><00:02:03.320><c> at</c>
+
+00:02:04.310 --> 00:02:04.320 align:start position:0%
+from the PC we have actually used at
+ 
+
+00:02:04.320 --> 00:02:06.859 align:start position:0%
+from the PC we have actually used at
+that<00:02:04.860><c> point</c><00:02:05.159><c> what</c><00:02:05.340><c> we</c><00:02:05.460><c> do</c><00:02:05.610><c> is</c><00:02:05.759><c> we</c><00:02:06.180><c> commit</c><00:02:06.689><c> the</c>
+
+00:02:06.859 --> 00:02:06.869 align:start position:0%
+that point what we do is we commit the
+ 
+
+00:02:06.869 --> 00:02:09.380 align:start position:0%
+that point what we do is we commit the
+branch<00:02:07.140><c> normally</c><00:02:07.799><c> it</c><00:02:08.520><c> doesn't</c><00:02:08.759><c> write</c><00:02:09.090><c> to</c><00:02:09.239><c> any</c>
+
+00:02:09.380 --> 00:02:09.390 align:start position:0%
+branch normally it doesn't write to any
+ 
+
+00:02:09.390 --> 00:02:11.300 align:start position:0%
+branch normally it doesn't write to any
+registers<00:02:09.929><c> so</c><00:02:10.200><c> the</c><00:02:10.289><c> commit</c><00:02:10.590><c> just</c><00:02:10.830><c> moves</c><00:02:11.069><c> this</c>
+
+00:02:11.300 --> 00:02:11.310 align:start position:0%
+registers so the commit just moves this
+ 
+
+00:02:11.310 --> 00:02:13.670 align:start position:0%
+registers so the commit just moves this
+but<00:02:11.640><c> if</c><00:02:11.940><c> it's</c><00:02:12.180><c> been</c><00:02:12.360><c> mispredicted</c><00:02:12.989><c> and</c><00:02:13.230><c> it</c><00:02:13.319><c> was</c>
+
+00:02:13.670 --> 00:02:13.680 align:start position:0%
+but if it's been mispredicted and it was
+ 
+
+00:02:13.680 --> 00:02:15.619 align:start position:0%
+but if it's been mispredicted and it was
+what<00:02:14.040><c> we</c><00:02:14.189><c> do</c><00:02:14.340><c> is</c><00:02:14.459><c> we</c><00:02:14.609><c> do</c><00:02:14.819><c> the</c><00:02:14.849><c> recovery</c><00:02:15.269><c> before</c>
+
+00:02:15.619 --> 00:02:15.629 align:start position:0%
+what we do is we do the recovery before
+ 
+
+00:02:15.629 --> 00:02:17.809 align:start position:0%
+what we do is we do the recovery before
+we<00:02:16.079><c> restart</c><00:02:16.890><c> the</c><00:02:17.010><c> fetch</c><00:02:17.189><c> from</c><00:02:17.400><c> the</c><00:02:17.549><c> correct</c>
+
+00:02:17.809 --> 00:02:17.819 align:start position:0%
+we restart the fetch from the correct
+ 
+
+00:02:17.819 --> 00:02:20.630 align:start position:0%
+we restart the fetch from the correct
+place<00:02:18.030><c> how</c><00:02:18.689><c> do</c><00:02:18.750><c> we</c><00:02:19.019><c> do</c><00:02:19.200><c> this</c><00:02:19.379><c> recovery</c><00:02:19.769><c> well</c>
+
+00:02:20.630 --> 00:02:20.640 align:start position:0%
+place how do we do this recovery well
+ 
+
+00:02:20.640 --> 00:02:23.360 align:start position:0%
+place how do we do this recovery well
+with<00:02:20.909><c> the</c><00:02:21.030><c> Rob</c><00:02:21.239><c> based</c><00:02:21.540><c> processor</c><00:02:22.170><c> at</c><00:02:22.530><c> the</c>
+
+00:02:23.360 --> 00:02:23.370 align:start position:0%
+with the Rob based processor at the
+ 
+
+00:02:23.370 --> 00:02:25.190 align:start position:0%
+with the Rob based processor at the
+point<00:02:23.700><c> where</c><00:02:24.000><c> the</c><00:02:24.120><c> commit</c><00:02:24.510><c> has</c><00:02:24.689><c> reached</c><00:02:24.989><c> the</c>
+
+00:02:25.190 --> 00:02:25.200 align:start position:0%
+point where the commit has reached the
+ 
+
+00:02:25.200 --> 00:02:29.959 align:start position:0%
+point where the commit has reached the
+branch<00:02:25.469><c> the</c><00:02:26.340><c> registers</c><00:02:28.010><c> contain</c><00:02:29.010><c> exactly</c><00:02:29.760><c> the</c>
+
+00:02:29.959 --> 00:02:29.969 align:start position:0%
+branch the registers contain exactly the
+ 
+
+00:02:29.969 --> 00:02:34.099 align:start position:0%
+branch the registers contain exactly the
+values<00:02:30.420><c> they</c><00:02:30.569><c> need</c><00:02:30.719><c> to</c><00:02:30.840><c> contain</c><00:02:32.480><c> at</c><00:02:33.480><c> the</c><00:02:33.840><c> point</c>
+
+00:02:34.099 --> 00:02:34.109 align:start position:0%
+values they need to contain at the point
+ 
+
+00:02:34.109 --> 00:02:36.530 align:start position:0%
+values they need to contain at the point
+of<00:02:34.319><c> the</c><00:02:34.469><c> branch</c><00:02:34.709><c> all</c><00:02:35.310><c> of</c><00:02:35.909><c> the</c><00:02:36.090><c> instructions</c>
+
+00:02:36.530 --> 00:02:36.540 align:start position:0%
+of the branch all of the instructions
+ 
+
+00:02:36.540 --> 00:02:38.360 align:start position:0%
+of the branch all of the instructions
+prior<00:02:36.780><c> to</c><00:02:36.989><c> the</c><00:02:37.109><c> branch</c><00:02:37.349><c> have</c><00:02:37.680><c> been</c><00:02:37.859><c> committed</c>
+
+00:02:38.360 --> 00:02:38.370 align:start position:0%
+prior to the branch have been committed
+ 
+
+00:02:38.370 --> 00:02:40.069 align:start position:0%
+prior to the branch have been committed
+which<00:02:38.579><c> means</c><00:02:38.819><c> that</c><00:02:39.000><c> their</c><00:02:39.299><c> updates</c><00:02:39.780><c> have</c><00:02:40.049><c> been</c>
+
+00:02:40.069 --> 00:02:40.079 align:start position:0%
+which means that their updates have been
+ 
+
+00:02:40.079 --> 00:02:42.289 align:start position:0%
+which means that their updates have been
+reflected<00:02:40.709><c> in</c><00:02:40.829><c> the</c><00:02:40.950><c> registers</c><00:02:41.430><c> and</c><00:02:41.670><c> none</c><00:02:42.269><c> of</c>
+
+00:02:42.289 --> 00:02:42.299 align:start position:0%
+reflected in the registers and none of
+ 
+
+00:02:42.299 --> 00:02:44.390 align:start position:0%
+reflected in the registers and none of
+the<00:02:42.540><c> instructions</c><00:02:43.079><c> after</c><00:02:43.290><c> the</c><00:02:43.739><c> branch</c><00:02:43.980><c> have</c>
+
+00:02:44.390 --> 00:02:44.400 align:start position:0%
+the instructions after the branch have
+ 
+
+00:02:44.400 --> 00:02:46.309 align:start position:0%
+the instructions after the branch have
+updated<00:02:44.819><c> the</c><00:02:45.000><c> registers</c><00:02:45.420><c> so</c><00:02:45.659><c> the</c><00:02:45.780><c> registers</c>
+
+00:02:46.309 --> 00:02:46.319 align:start position:0%
+updated the registers so the registers
+ 
+
+00:02:46.319 --> 00:02:48.559 align:start position:0%
+updated the registers so the registers
+contain<00:02:46.650><c> exactly</c><00:02:47.340><c> the</c><00:02:47.639><c> correct</c><00:02:47.939><c> value</c><00:02:48.239><c> at</c><00:02:48.389><c> the</c>
+
+00:02:48.559 --> 00:02:48.569 align:start position:0%
+contain exactly the correct value at the
+ 
+
+00:02:48.569 --> 00:02:52.280 align:start position:0%
+contain exactly the correct value at the
+point<00:02:48.750><c> of</c><00:02:48.989><c> the</c><00:02:49.079><c> branch</c><00:02:50.480><c> to</c><00:02:51.480><c> undo</c><00:02:52.109><c> these</c>
+
+00:02:52.280 --> 00:02:52.290 align:start position:0%
+point of the branch to undo these
+ 
+
+00:02:52.290 --> 00:02:55.879 align:start position:0%
+point of the branch to undo these
+instructions<00:02:53.359><c> what</c><00:02:54.359><c> we</c><00:02:54.510><c> need</c><00:02:54.659><c> to</c><00:02:54.780><c> do</c><00:02:54.930><c> is</c><00:02:55.560><c> two</c>
+
+00:02:55.879 --> 00:02:55.889 align:start position:0%
+instructions what we need to do is two
+ 
+
+00:02:55.889 --> 00:02:59.479 align:start position:0%
+instructions what we need to do is two
+things<00:02:56.389><c> one</c><00:02:57.389><c> is</c><00:02:57.709><c> reverse</c><00:02:58.709><c> the</c><00:02:59.099><c> issuing</c><00:02:59.370><c> of</c>
+
+00:02:59.479 --> 00:02:59.489 align:start position:0%
+things one is reverse the issuing of
+ 
+
+00:02:59.489 --> 00:03:01.699 align:start position:0%
+things one is reverse the issuing of
+these<00:02:59.639><c> instructions</c><00:02:59.969><c> by</c><00:03:00.359><c> simply</c><00:03:00.840><c> making</c><00:03:01.439><c> the</c>
+
+00:03:01.699 --> 00:03:01.709 align:start position:0%
+these instructions by simply making the
+ 
+
+00:03:01.709 --> 00:03:04.159 align:start position:0%
+these instructions by simply making the
+Rob<00:03:02.069><c> empty</c><00:03:02.549><c> at</c><00:03:02.639><c> this</c><00:03:02.790><c> point</c><00:03:03.060><c> so</c><00:03:03.389><c> after</c><00:03:03.870><c> we</c><00:03:04.019><c> have</c>
+
+00:03:04.159 --> 00:03:04.169 align:start position:0%
+Rob empty at this point so after we have
+ 
+
+00:03:04.169 --> 00:03:05.629 align:start position:0%
+Rob empty at this point so after we have
+committed<00:03:04.469><c> the</c><00:03:04.680><c> branch</c><00:03:04.919><c> we</c><00:03:05.189><c> make</c><00:03:05.370><c> the</c><00:03:05.489><c> Rob</c>
+
+00:03:05.629 --> 00:03:05.639 align:start position:0%
+committed the branch we make the Rob
+ 
+
+00:03:05.639 --> 00:03:07.550 align:start position:0%
+committed the branch we make the Rob
+ante<00:03:06.000><c> by</c><00:03:06.180><c> simply</c><00:03:06.629><c> putting</c><00:03:06.900><c> the</c><00:03:07.019><c> issue</c><00:03:07.230><c> point</c>
+
+00:03:07.550 --> 00:03:07.560 align:start position:0%
+ante by simply putting the issue point
+ 
+
+00:03:07.560 --> 00:03:08.869 align:start position:0%
+ante by simply putting the issue point
+in<00:03:07.709><c> the</c><00:03:07.799><c> same</c><00:03:07.980><c> place</c><00:03:08.219><c> so</c><00:03:08.430><c> we</c><00:03:08.549><c> will</c><00:03:08.669><c> issue</c>
+
+00:03:08.869 --> 00:03:08.879 align:start position:0%
+in the same place so we will issue
+ 
+
+00:03:08.879 --> 00:03:11.449 align:start position:0%
+in the same place so we will issue
+instructions<00:03:09.180><c> again</c><00:03:09.900><c> into</c><00:03:10.319><c> these</c><00:03:10.500><c> slots</c><00:03:10.620><c> we</c>
+
+00:03:11.449 --> 00:03:11.459 align:start position:0%
+instructions again into these slots we
+ 
+
+00:03:11.459 --> 00:03:13.789 align:start position:0%
+instructions again into these slots we
+of<00:03:11.579><c> course</c><00:03:11.849><c> as</c><00:03:12.150><c> we</c><00:03:12.629><c> issue</c><00:03:12.750><c> them</c><00:03:12.989><c> on</c><00:03:13.230><c> mark</c><00:03:13.530><c> this</c>
+
+00:03:13.789 --> 00:03:13.799 align:start position:0%
+of course as we issue them on mark this
+ 
+
+00:03:13.799 --> 00:03:16.759 align:start position:0%
+of course as we issue them on mark this
+done<00:03:14.010><c> bit</c><00:03:14.250><c> also</c><00:03:15.209><c> the</c><00:03:15.780><c> rat</c><00:03:16.019><c> now</c><00:03:16.290><c> contains</c><00:03:16.709><c> the</c>
+
+00:03:16.759 --> 00:03:16.769 align:start position:0%
+done bit also the rat now contains the
+ 
+
+00:03:16.769 --> 00:03:18.979 align:start position:0%
+done bit also the rat now contains the
+wrong<00:03:17.010><c> values</c><00:03:17.519><c> but</c><00:03:18.299><c> the</c><00:03:18.449><c> question</c><00:03:18.750><c> is</c><00:03:18.840><c> what</c>
+
+00:03:18.979 --> 00:03:18.989 align:start position:0%
+wrong values but the question is what
+ 
+
+00:03:18.989 --> 00:03:20.809 align:start position:0%
+wrong values but the question is what
+are<00:03:19.229><c> the</c><00:03:19.379><c> right</c><00:03:19.590><c> values</c><00:03:20.069><c> for</c><00:03:20.250><c> the</c><00:03:20.370><c> rat</c><00:03:20.519><c> well</c>
+
+00:03:20.809 --> 00:03:20.819 align:start position:0%
+are the right values for the rat well
+ 
+
+00:03:20.819 --> 00:03:24.020 align:start position:0%
+are the right values for the rat well
+because<00:03:21.590><c> the</c><00:03:22.590><c> registers</c><00:03:23.129><c> contain</c><00:03:23.370><c> exactly</c>
+
+00:03:24.020 --> 00:03:24.030 align:start position:0%
+because the registers contain exactly
+ 
+
+00:03:24.030 --> 00:03:26.229 align:start position:0%
+because the registers contain exactly
+the<00:03:24.299><c> correct</c><00:03:24.419><c> values</c><00:03:24.900><c> as</c><00:03:25.079><c> of</c><00:03:25.229><c> this</c><00:03:25.349><c> point</c>
+
+00:03:26.229 --> 00:03:26.239 align:start position:0%
+the correct values as of this point
+ 
+
+00:03:26.239 --> 00:03:28.699 align:start position:0%
+the correct values as of this point
+undoing<00:03:27.239><c> the</c><00:03:27.389><c> damage</c><00:03:27.540><c> in</c><00:03:27.900><c> the</c><00:03:27.930><c> rat</c><00:03:28.169><c> simply</c>
+
+00:03:28.699 --> 00:03:28.709 align:start position:0%
+undoing the damage in the rat simply
+ 
+
+00:03:28.709 --> 00:03:31.610 align:start position:0%
+undoing the damage in the rat simply
+consists<00:03:29.579><c> of</c><00:03:29.729><c> rewriting</c><00:03:30.659><c> whatever</c><00:03:31.199><c> is</c><00:03:31.379><c> in</c><00:03:31.500><c> the</c>
+
+00:03:31.610 --> 00:03:31.620 align:start position:0%
+consists of rewriting whatever is in the
+ 
+
+00:03:31.620 --> 00:03:33.649 align:start position:0%
+consists of rewriting whatever is in the
+rat<00:03:31.769><c> so</c><00:03:32.159><c> that</c><00:03:32.310><c> each</c><00:03:32.549><c> rat</c><00:03:32.849><c> entry</c><00:03:33.090><c> points</c>
+
+00:03:33.649 --> 00:03:33.659 align:start position:0%
+rat so that each rat entry points
+ 
+
+00:03:33.659 --> 00:03:35.719 align:start position:0%
+rat so that each rat entry points
+directly<00:03:33.989><c> to</c><00:03:34.590><c> its</c><00:03:34.709><c> corresponding</c><00:03:34.919><c> register</c>
+
+00:03:35.719 --> 00:03:35.729 align:start position:0%
+directly to its corresponding register
+ 
+
+00:03:35.729 --> 00:03:39.050 align:start position:0%
+directly to its corresponding register
+so<00:03:36.180><c> now</c><00:03:36.500><c> it</c><00:03:37.500><c> looks</c><00:03:37.889><c> like</c><00:03:38.189><c> these</c><00:03:38.430><c> instructions</c>
+
+00:03:39.050 --> 00:03:39.060 align:start position:0%
+so now it looks like these instructions
+ 
+
+00:03:39.060 --> 00:03:41.929 align:start position:0%
+so now it looks like these instructions
+have<00:03:39.239><c> never</c><00:03:39.449><c> executed</c><00:03:40.439><c> or</c><00:03:40.620><c> issued</c><00:03:41.459><c> for</c><00:03:41.760><c> that</c>
+
+00:03:41.929 --> 00:03:41.939 align:start position:0%
+have never executed or issued for that
+ 
+
+00:03:41.939 --> 00:03:45.050 align:start position:0%
+have never executed or issued for that
+matter<00:03:42.150><c> and</c><00:03:42.599><c> we</c><00:03:43.590><c> can</c><00:03:43.799><c> begin</c><00:03:43.949><c> fetching</c><00:03:44.759><c> from</c>
+
+00:03:45.050 --> 00:03:45.060 align:start position:0%
+matter and we can begin fetching from
+ 
+
+00:03:45.060 --> 00:03:47.689 align:start position:0%
+matter and we can begin fetching from
+the<00:03:45.180><c> correct</c><00:03:45.419><c> place</c><00:03:46.280><c> updating</c><00:03:47.280><c> the</c><00:03:47.400><c> renaming</c>
+
+00:03:47.689 --> 00:03:47.699 align:start position:0%
+the correct place updating the renaming
+ 
+
+00:03:47.699 --> 00:03:49.789 align:start position:0%
+the correct place updating the renaming
+as<00:03:47.909><c> a</c><00:03:47.939><c> result</c><00:03:48.329><c> of</c><00:03:48.449><c> that</c><00:03:48.599><c> and</c><00:03:49.019><c> updating</c><00:03:49.680><c> the</c>
+
+00:03:49.789 --> 00:03:49.799 align:start position:0%
+as a result of that and updating the
+ 
+
+00:03:49.799 --> 00:03:51.830 align:start position:0%
+as a result of that and updating the
+issue<00:03:49.919><c> pointed</c><00:03:50.400><c> as</c><00:03:50.549><c> a</c><00:03:50.579><c> result</c><00:03:51.000><c> of</c><00:03:51.120><c> that</c><00:03:51.269><c> as</c><00:03:51.509><c> you</c>
+
+00:03:51.830 --> 00:03:51.840 align:start position:0%
+issue pointed as a result of that as you
+ 
+
+00:03:51.840 --> 00:03:53.899 align:start position:0%
+issue pointed as a result of that as you
+can<00:03:51.989><c> see</c><00:03:52.049><c> with</c><00:03:52.590><c> the</c><00:03:52.709><c> raw</c><00:03:52.919><c> based</c><00:03:53.250><c> processor</c><00:03:53.699><c> we</c>
+
+00:03:53.899 --> 00:03:53.909 align:start position:0%
+can see with the raw based processor we
+ 
+
+00:03:53.909 --> 00:03:56.030 align:start position:0%
+can see with the raw based processor we
+can<00:03:54.120><c> do</c><00:03:54.269><c> instructions</c><00:03:54.780><c> out</c><00:03:54.959><c> of</c><00:03:55.169><c> order</c><00:03:55.530><c> but</c><00:03:55.829><c> we</c>
+
+00:03:56.030 --> 00:03:56.040 align:start position:0%
+can do instructions out of order but we
+ 
+
+00:03:56.040 --> 00:03:58.219 align:start position:0%
+can do instructions out of order but we
+still<00:03:56.430><c> can</c><00:03:56.909><c> figure</c><00:03:57.239><c> out</c><00:03:57.359><c> what</c><00:03:57.780><c> the</c><00:03:57.930><c> correct</c>
+
+00:03:58.219 --> 00:03:58.229 align:start position:0%
+still can figure out what the correct
+ 
+
+00:03:58.229 --> 00:04:00.800 align:start position:0%
+still can figure out what the correct
+order<00:03:59.189><c> should</c><00:03:59.400><c> have</c><00:03:59.579><c> been</c><00:03:59.790><c> if</c><00:04:00.060><c> we</c><00:04:00.540><c> did</c><00:04:00.720><c> the</c>
+
+00:04:00.800 --> 00:04:00.810 align:start position:0%
+order should have been if we did the
+ 
+
+00:04:00.810 --> 00:04:02.199 align:start position:0%
+order should have been if we did the
+right<00:04:00.930><c> thing</c><00:04:01.199><c> at</c><00:04:01.349><c> the</c><00:04:01.470><c> point</c><00:04:01.709><c> of</c><00:04:01.859><c> the</c><00:04:01.949><c> branch</c>
+
+00:04:02.199 --> 00:04:02.209 align:start position:0%
+right thing at the point of the branch
+ 
+
+00:04:02.209 --> 00:04:05.869 align:start position:0%
+right thing at the point of the branch
+so<00:04:03.209><c> as</c><00:04:03.419><c> you</c><00:04:03.569><c> can</c><00:04:03.720><c> see</c><00:04:03.799><c> here</c><00:04:04.799><c> we</c><00:04:04.949><c> have</c><00:04:05.129><c> executed</c>
+
+00:04:05.869 --> 00:04:05.879 align:start position:0%
+so as you can see here we have executed
+ 
+
+00:04:05.879 --> 00:04:07.610 align:start position:0%
+so as you can see here we have executed
+these<00:04:06.000><c> instructions</c><00:04:06.599><c> before</c><00:04:06.780><c> we</c><00:04:07.169><c> figured</c><00:04:07.500><c> out</c>
+
+00:04:07.610 --> 00:04:07.620 align:start position:0%
+these instructions before we figured out
+ 
+
+00:04:07.620 --> 00:04:10.309 align:start position:0%
+these instructions before we figured out
+the<00:04:07.769><c> branch</c><00:04:08.040><c> but</c><00:04:08.340><c> we</c><00:04:08.489><c> are</c><00:04:08.549><c> still</c><00:04:08.819><c> able</c><00:04:09.090><c> to</c><00:04:09.479><c> undo</c>
+
+00:04:10.309 --> 00:04:10.319 align:start position:0%
+the branch but we are still able to undo
+ 
+
+00:04:10.319 --> 00:04:13.939 align:start position:0%
+the branch but we are still able to undo
+this<00:04:10.500><c> damage</c><00:04:10.949><c> overall</c><00:04:11.939><c> the</c><00:04:12.870><c> recovery</c><00:04:13.560><c> with</c><00:04:13.919><c> a</c>
+
+00:04:13.939 --> 00:04:13.949 align:start position:0%
+this damage overall the recovery with a
+ 
+
+00:04:13.949 --> 00:04:16.759 align:start position:0%
+this damage overall the recovery with a
+Rob<00:04:14.220><c> based</c><00:04:14.430><c> processor</c><00:04:15.030><c> consists</c><00:04:15.629><c> of</c><00:04:15.780><c> making</c>
+
+00:04:16.759 --> 00:04:16.769 align:start position:0%
+Rob based processor consists of making
+ 
+
+00:04:16.769 --> 00:04:18.020 align:start position:0%
+Rob based processor consists of making
+the<00:04:16.889><c> right</c><00:04:17.070><c> entry</c><00:04:17.400><c> point</c><00:04:17.789><c> to</c><00:04:17.849><c> their</c>
+
+00:04:18.020 --> 00:04:18.030 align:start position:0%
+the right entry point to their
+ 
+
+00:04:18.030 --> 00:04:20.029 align:start position:0%
+the right entry point to their
+corresponding<00:04:18.570><c> registers</c><00:04:19.079><c> who</c><00:04:19.229><c> can</c><00:04:19.380><c> erase</c>
+
+00:04:20.029 --> 00:04:20.039 align:start position:0%
+corresponding registers who can erase
+ 
+
+00:04:20.039 --> 00:04:22.370 align:start position:0%
+corresponding registers who can erase
+all<00:04:20.370><c> of</c><00:04:20.519><c> the</c><00:04:20.609><c> renaming</c><00:04:21.200><c> emptying</c><00:04:22.200><c> out</c>
+
+00:04:22.370 --> 00:04:22.380 align:start position:0%
+all of the renaming emptying out
+ 
+
+00:04:22.380 --> 00:04:24.680 align:start position:0%
+all of the renaming emptying out
+whatever<00:04:22.740><c> is</c><00:04:23.190><c> in</c><00:04:23.219><c> the</c><00:04:23.430><c> Rob</c><00:04:23.639><c> after</c><00:04:24.180><c> we</c><00:04:24.330><c> commit</c>
+
+00:04:24.680 --> 00:04:24.690 align:start position:0%
+whatever is in the Rob after we commit
+ 
+
+00:04:24.690 --> 00:04:26.870 align:start position:0%
+whatever is in the Rob after we commit
+the<00:04:24.810><c> offending</c><00:04:25.229><c> branch</c><00:04:25.620><c> instruction</c>
+
+00:04:26.870 --> 00:04:26.880 align:start position:0%
+the offending branch instruction
+ 
+
+00:04:26.880 --> 00:04:29.930 align:start position:0%
+the offending branch instruction
+and<00:04:27.030><c> of</c><00:04:27.330><c> course</c><00:04:27.650><c> getting</c><00:04:28.650><c> rid</c><00:04:28.860><c> of</c><00:04:28.890><c> whatever</c><00:04:29.760><c> is</c>
+
+00:04:29.930 --> 00:04:29.940 align:start position:0%
+and of course getting rid of whatever is
+ 
+
+00:04:29.940 --> 00:04:31.610 align:start position:0%
+and of course getting rid of whatever is
+left<00:04:30.150><c> over</c><00:04:30.330><c> in</c><00:04:30.600><c> the</c><00:04:30.690><c> reservation</c><00:04:31.140><c> stations</c><00:04:31.500><c> in</c>
+
+00:04:31.610 --> 00:04:31.620 align:start position:0%
+left over in the reservation stations in
+ 
+
+00:04:31.620 --> 00:04:33.680 align:start position:0%
+left over in the reservation stations in
+the<00:04:31.770><c> area</c><00:04:31.800><c> so</c><00:04:32.250><c> basically</c><00:04:33.090><c> free</c><00:04:33.390><c> all</c><00:04:33.540><c> the</c>
+
+00:04:33.680 --> 00:04:33.690 align:start position:0%
+the area so basically free all the
+ 
+
+00:04:33.690 --> 00:04:35.600 align:start position:0%
+the area so basically free all the
+reservation<00:04:34.140><c> stations</c><00:04:34.590><c> and</c><00:04:34.860><c> stop</c><00:04:35.160><c> the</c><00:04:35.370><c> areas</c>
+
+00:04:35.600 --> 00:04:35.610 align:start position:0%
+reservation stations and stop the areas
+ 
+
+00:04:35.610 --> 00:04:37.400 align:start position:0%
+reservation stations and stop the areas
+from<00:04:36.000><c> broadcasting</c><00:04:36.510><c> results</c><00:04:36.990><c> in</c><00:04:37.170><c> the</c><00:04:37.260><c> future</c>
+
+00:04:37.400 --> 00:04:37.410 align:start position:0%
+from broadcasting results in the future
+ 
+
+00:04:37.410 --> 00:04:40.400 align:start position:0%
+from broadcasting results in the future
+so<00:04:38.310><c> if</c><00:04:38.520><c> one</c><00:04:39.030><c> of</c><00:04:39.060><c> these</c><00:04:39.270><c> instructions</c><00:04:39.840><c> is</c><00:04:39.990><c> still</c>
+
+00:04:40.400 --> 00:04:40.410 align:start position:0%
+so if one of these instructions is still
+ 
+
+00:04:40.410 --> 00:04:42.110 align:start position:0%
+so if one of these instructions is still
+in<00:04:40.620><c> the</c><00:04:40.800><c> alias</c><00:04:41.100><c> or</c><00:04:41.280><c> reservation</c><00:04:41.700><c> stations</c>
+
+00:04:42.110 --> 00:04:42.120 align:start position:0%
+in the alias or reservation stations
+ 
+
+00:04:42.120 --> 00:04:46.580 align:start position:0%
+in the alias or reservation stations
+it's<00:04:42.840><c> going</c><00:04:43.170><c> to</c><00:04:43.320><c> be</c><00:04:43.470><c> just</c><00:04:44.160><c> dropped</c>
+

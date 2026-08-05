@@ -1,0 +1,52 @@
+1
+00:00:00,250 --> 00:00:01,970
+ Consider this graph.
+
+2
+00:00:01,970 --> 00:00:06,380
+ Suppose you want to coarsen two subsets of vertices into super vertices.
+
+3
+00:00:06,380 --> 00:00:10,250
+ That is, suppose you want to merge these two vertices into a super vertex, and
+
+4
+00:00:10,250 --> 00:00:14,050
+ you also want to merge these three vertices into a super vertex.
+
+5
+00:00:14,050 --> 00:00:17,530
+ Structurally, you would get the following coarsened graph.
+
+6
+00:00:17,530 --> 00:00:18,410
+ Here's what I want you to do.
+
+7
+00:00:18,410 --> 00:00:21,980
+ I want you to compute the weights of the vertices and
+
+8
+00:00:21,980 --> 00:00:24,580
+ the edges in the coarsen graph representation.
+
+9
+00:00:24,580 --> 00:00:26,570
+ Type your answers into the boxes.
+
+10
+00:00:26,570 --> 00:00:29,380
+ These red boxes are for edges, and the brown boxes are for
+
+11
+00:00:29,380 --> 00:00:31,330
+ the two super vertices.
+
+12
+00:00:31,330 --> 00:00:34,890
+ Assume that all vertex and edge weights in the original graph,
+
+13
+00:00:34,890 --> 00:00:34,890
+ on the left, are equal to 1.
+

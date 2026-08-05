@@ -1,0 +1,44 @@
+1
+00:00:00,410 --> 00:00:01,810
+ Here's one solution.
+
+2
+00:00:01,810 --> 00:00:04,890
+ It does a gather followed by a broadcast.
+
+3
+00:00:04,890 --> 00:00:10,050
+ And it uses reshape to make sure that the inputs can form to the right format.
+
+4
+00:00:10,050 --> 00:00:16,490
+ So, output is 2D as we can see here, but broadcast requires a 1D input.
+
+5
+00:00:16,490 --> 00:00:19,610
+ So, you can see why I wanted you to have some reshapes.
+
+6
+00:00:19,610 --> 00:00:22,310
+ Here's a picture of what the algorithm does.
+
+7
+00:00:22,310 --> 00:00:24,110
+ It first does a gather.
+
+8
+00:00:24,110 --> 00:00:26,450
+ It follows that with a broadcast.
+
+9
+00:00:26,450 --> 00:00:28,490
+ Now a good follow up question is,
+
+10
+00:00:28,490 --> 00:00:31,575
+ is this a good way to implement an all-gather?
+
+11
+00:00:31,575 --> 00:00:31,575
+ Hm, so many things to ponder, and so little time.
+

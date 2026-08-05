@@ -1,0 +1,816 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.969 align:start position:0%
+ 
+now<00:00:00.179><c> that</c><00:00:00.420><c> we</c><00:00:00.539><c> have</c><00:00:00.750><c> four</c><00:00:01.050><c> possible</c><00:00:01.290><c> States</c>
+
+00:00:01.969 --> 00:00:01.979 align:start position:0%
+now that we have four possible States
+ 
+
+00:00:01.979 --> 00:00:03.830 align:start position:0%
+now that we have four possible States
+for<00:00:02.250><c> a</c><00:00:02.280><c> 2-bit</c><00:00:02.730><c> predictor</c><00:00:02.760><c> there</c><00:00:03.600><c> is</c><00:00:03.689><c> an</c>
+
+00:00:03.830 --> 00:00:03.840 align:start position:0%
+for a 2-bit predictor there is an
+ 
+
+00:00:03.840 --> 00:00:06.050 align:start position:0%
+for a 2-bit predictor there is an
+interesting<00:00:04.140><c> question</c><00:00:04.770><c> of</c><00:00:04.890><c> does</c><00:00:05.759><c> it</c><00:00:05.879><c> matter</c>
+
+00:00:06.050 --> 00:00:06.060 align:start position:0%
+interesting question of does it matter
+ 
+
+00:00:06.060 --> 00:00:08.299 align:start position:0%
+interesting question of does it matter
+in<00:00:06.450><c> which</c><00:00:06.660><c> state</c><00:00:07.020><c> we</c><00:00:07.350><c> start</c><00:00:07.649><c> the</c><00:00:07.830><c> predictor</c><00:00:08.280><c> of</c>
+
+00:00:08.299 --> 00:00:08.309 align:start position:0%
+in which state we start the predictor of
+ 
+
+00:00:08.309 --> 00:00:10.430 align:start position:0%
+in which state we start the predictor of
+so<00:00:08.910><c> with</c><00:00:09.059><c> the</c><00:00:09.150><c> one</c><00:00:09.330><c> bit</c><00:00:09.510><c> predictor</c><00:00:09.630><c> we</c><00:00:10.110><c> had</c><00:00:10.320><c> to</c>
+
+00:00:10.430 --> 00:00:10.440 align:start position:0%
+so with the one bit predictor we had to
+ 
+
+00:00:10.440 --> 00:00:13.190 align:start position:0%
+so with the one bit predictor we had to
+start<00:00:10.679><c> it</c><00:00:10.830><c> in</c><00:00:10.950><c> either</c><00:00:11.130><c> zero</c><00:00:11.519><c> or</c><00:00:11.610><c> one</c><00:00:11.969><c> state</c><00:00:12.330><c> if</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+start it in either zero or one state if
+ 
+
+00:00:13.200 --> 00:00:15.950 align:start position:0%
+start it in either zero or one state if
+we<00:00:13.290><c> start</c><00:00:13.679><c> it</c><00:00:13.799><c> in</c><00:00:13.950><c> two</c><00:00:14.040><c> not</c><00:00:14.240><c> taken</c><00:00:15.240><c> state</c><00:00:15.509><c> zero</c>
+
+00:00:15.950 --> 00:00:15.960 align:start position:0%
+we start it in two not taken state zero
+ 
+
+00:00:15.960 --> 00:00:17.870 align:start position:0%
+we start it in two not taken state zero
+that<00:00:16.680><c> means</c><00:00:16.859><c> that</c><00:00:17.070><c> if</c><00:00:17.400><c> the</c><00:00:17.430><c> branch</c><00:00:17.730><c> is</c>
+
+00:00:17.870 --> 00:00:17.880 align:start position:0%
+that means that if the branch is
+ 
+
+00:00:17.880 --> 00:00:19.760 align:start position:0%
+that means that if the branch is
+not-taken<00:00:18.060><c> we</c><00:00:18.510><c> will</c><00:00:18.630><c> start</c><00:00:19.320><c> predicting</c>
+
+00:00:19.760 --> 00:00:19.770 align:start position:0%
+not-taken we will start predicting
+ 
+
+00:00:19.770 --> 00:00:21.980 align:start position:0%
+not-taken we will start predicting
+correctly<00:00:19.890><c> right</c><00:00:20.340><c> off</c><00:00:20.550><c> the</c><00:00:20.730><c> bat</c><00:00:20.910><c> if</c><00:00:21.390><c> we</c><00:00:21.750><c> start</c>
+
+00:00:21.980 --> 00:00:21.990 align:start position:0%
+correctly right off the bat if we start
+ 
+
+00:00:21.990 --> 00:00:24.080 align:start position:0%
+correctly right off the bat if we start
+predicting<00:00:22.279><c> zero</c><00:00:23.279><c> but</c><00:00:23.550><c> the</c><00:00:23.699><c> branch</c><00:00:23.910><c> is</c>
+
+00:00:24.080 --> 00:00:24.090 align:start position:0%
+predicting zero but the branch is
+ 
+
+00:00:24.090 --> 00:00:26.240 align:start position:0%
+predicting zero but the branch is
+actually<00:00:24.510><c> mostly</c><00:00:25.140><c> taken</c><00:00:25.650><c> we</c><00:00:25.920><c> will</c><00:00:26.070><c> have</c><00:00:26.220><c> a</c>
+
+00:00:26.240 --> 00:00:26.250 align:start position:0%
+actually mostly taken we will have a
+ 
+
+00:00:26.250 --> 00:00:28.220 align:start position:0%
+actually mostly taken we will have a
+single<00:00:26.519><c> miss</c><00:00:26.789><c> prediction</c><00:00:27.269><c> before</c><00:00:27.689><c> we</c><00:00:27.869><c> start</c>
+
+00:00:28.220 --> 00:00:28.230 align:start position:0%
+single miss prediction before we start
+ 
+
+00:00:28.230 --> 00:00:30.320 align:start position:0%
+single miss prediction before we start
+doing<00:00:28.619><c> taken</c><00:00:29.099><c> for</c><00:00:29.789><c> a</c><00:00:29.820><c> two</c><00:00:30.119><c> bit</c><00:00:30.300><c> predictor</c>
+
+00:00:30.320 --> 00:00:30.330 align:start position:0%
+doing taken for a two bit predictor
+ 
+
+00:00:30.330 --> 00:00:33.590 align:start position:0%
+doing taken for a two bit predictor
+however<00:00:31.199><c> the</c><00:00:31.769><c> question</c><00:00:32.219><c> is</c><00:00:32.340><c> really</c><00:00:32.520><c> should</c><00:00:33.480><c> we</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+however the question is really should we
+ 
+
+00:00:33.600 --> 00:00:35.420 align:start position:0%
+however the question is really should we
+start<00:00:33.840><c> in</c><00:00:34.020><c> one</c><00:00:34.200><c> of</c><00:00:34.350><c> the</c><00:00:34.469><c> strong</c><00:00:34.829><c> conviction</c>
+
+00:00:35.420 --> 00:00:35.430 align:start position:0%
+start in one of the strong conviction
+ 
+
+00:00:35.430 --> 00:00:37.700 align:start position:0%
+start in one of the strong conviction
+States<00:00:35.760><c> or</c><00:00:36.450><c> should</c><00:00:36.719><c> we</c><00:00:36.840><c> start</c><00:00:37.079><c> in</c><00:00:37.290><c> one</c><00:00:37.440><c> of</c><00:00:37.590><c> the</c>
+
+00:00:37.700 --> 00:00:37.710 align:start position:0%
+States or should we start in one of the
+ 
+
+00:00:37.710 --> 00:00:40.430 align:start position:0%
+States or should we start in one of the
+weak<00:00:37.920><c> prediction</c><00:00:38.489><c> States</c><00:00:38.790><c> if</c><00:00:39.480><c> we</c><00:00:39.899><c> start</c><00:00:40.200><c> in</c><00:00:40.350><c> a</c>
+
+00:00:40.430 --> 00:00:40.440 align:start position:0%
+weak prediction States if we start in a
+ 
+
+00:00:40.440 --> 00:00:44.180 align:start position:0%
+weak prediction States if we start in a
+strong<00:00:40.829><c> state</c><00:00:41.219><c> for</c><00:00:42.149><c> example</c><00:00:42.300><c> zero</c><00:00:42.960><c> zero</c><00:00:43.260><c> and</c>
+
+00:00:44.180 --> 00:00:44.190 align:start position:0%
+strong state for example zero zero and
+ 
+
+00:00:44.190 --> 00:00:49.369 align:start position:0%
+strong state for example zero zero and
+the<00:00:44.430><c> actual</c><00:00:45.379><c> decisions</c><00:00:46.379><c> are</c><00:00:46.910><c> not</c><00:00:47.910><c> taken</c><00:00:48.379><c> then</c>
+
+00:00:49.369 --> 00:00:49.379 align:start position:0%
+the actual decisions are not taken then
+ 
+
+00:00:49.379 --> 00:00:51.200 align:start position:0%
+the actual decisions are not taken then
+we<00:00:49.500><c> will</c><00:00:49.649><c> stay</c><00:00:49.890><c> in</c><00:00:50.100><c> that</c><00:00:50.129><c> same</c><00:00:50.489><c> strong</c><00:00:50.850><c> state</c>
+
+00:00:51.200 --> 00:00:51.210 align:start position:0%
+we will stay in that same strong state
+ 
+
+00:00:51.210 --> 00:00:53.709 align:start position:0%
+we will stay in that same strong state
+and<00:00:51.480><c> never</c><00:00:52.260><c> have</c><00:00:52.530><c> any</c><00:00:52.559><c> miss</c><00:00:52.949><c> predictions</c>
+
+00:00:53.709 --> 00:00:53.719 align:start position:0%
+and never have any miss predictions
+ 
+
+00:00:53.719 --> 00:00:56.420 align:start position:0%
+and never have any miss predictions
+however<00:00:54.719><c> if</c><00:00:55.050><c> we</c><00:00:55.230><c> start</c><00:00:55.500><c> in</c><00:00:55.680><c> the</c><00:00:55.829><c> strong</c><00:00:56.160><c> state</c>
+
+00:00:56.420 --> 00:00:56.430 align:start position:0%
+however if we start in the strong state
+ 
+
+00:00:56.430 --> 00:00:58.970 align:start position:0%
+however if we start in the strong state
+zero<00:00:56.730><c> zero</c><00:00:57.059><c> but</c><00:00:57.899><c> the</c><00:00:58.050><c> branch</c><00:00:58.289><c> tends</c><00:00:58.620><c> to</c><00:00:58.829><c> be</c>
+
+00:00:58.970 --> 00:00:58.980 align:start position:0%
+zero zero but the branch tends to be
+ 
+
+00:00:58.980 --> 00:00:59.720 align:start position:0%
+zero zero but the branch tends to be
+taken
+
+00:00:59.720 --> 00:00:59.730 align:start position:0%
+taken
+ 
+
+00:00:59.730 --> 00:01:02.660 align:start position:0%
+taken
+we<00:01:00.270><c> will</c><00:01:00.449><c> mispredict</c><00:01:01.050><c> ones</c><00:01:01.289><c> move</c><00:01:02.100><c> to</c><00:01:02.309><c> the</c><00:01:02.430><c> zero</c>
+
+00:01:02.660 --> 00:01:02.670 align:start position:0%
+we will mispredict ones move to the zero
+ 
+
+00:01:02.670 --> 00:01:05.359 align:start position:0%
+we will mispredict ones move to the zero
+one<00:01:02.940><c> the</c><00:01:03.210><c> weak</c><00:01:03.390><c> not</c><00:01:03.899><c> taken</c><00:01:03.960><c> state</c><00:01:04.650><c> miss</c>
+
+00:01:05.359 --> 00:01:05.369 align:start position:0%
+one the weak not taken state miss
+ 
+
+00:01:05.369 --> 00:01:08.120 align:start position:0%
+one the weak not taken state miss
+predict<00:01:05.790><c> again</c><00:01:06.210><c> and</c><00:01:06.600><c> then</c><00:01:07.350><c> start</c><00:01:07.650><c> predicting</c>
+
+00:01:08.120 --> 00:01:08.130 align:start position:0%
+predict again and then start predicting
+ 
+
+00:01:08.130 --> 00:01:10.609 align:start position:0%
+predict again and then start predicting
+correctly<00:01:08.659><c> so</c><00:01:09.659><c> if</c><00:01:09.720><c> we</c><00:01:09.840><c> start</c><00:01:10.110><c> in</c><00:01:10.260><c> a</c><00:01:10.350><c> strong</c>
+
+00:01:10.609 --> 00:01:10.619 align:start position:0%
+correctly so if we start in a strong
+ 
+
+00:01:10.619 --> 00:01:13.039 align:start position:0%
+correctly so if we start in a strong
+state<00:01:10.920><c> and</c><00:01:11.189><c> it's</c><00:01:11.970><c> the</c><00:01:12.090><c> correct</c><00:01:12.420><c> strong</c><00:01:12.750><c> state</c>
+
+00:01:13.039 --> 00:01:13.049 align:start position:0%
+state and it's the correct strong state
+ 
+
+00:01:13.049 --> 00:01:15.350 align:start position:0%
+state and it's the correct strong state
+we<00:01:13.229><c> have</c><00:01:13.409><c> no</c><00:01:13.560><c> miss</c><00:01:13.740><c> predictions</c><00:01:14.250><c> if</c><00:01:14.549><c> it's</c><00:01:15.210><c> the</c>
+
+00:01:15.350 --> 00:01:15.360 align:start position:0%
+we have no miss predictions if it's the
+ 
+
+00:01:15.360 --> 00:01:16.850 align:start position:0%
+we have no miss predictions if it's the
+wrong<00:01:15.509><c> strong</c><00:01:15.900><c> state</c><00:01:16.170><c> we</c><00:01:16.350><c> have</c><00:01:16.500><c> to</c><00:01:16.710><c> miss</c>
+
+00:01:16.850 --> 00:01:16.860 align:start position:0%
+wrong strong state we have to miss
+ 
+
+00:01:16.860 --> 00:01:19.249 align:start position:0%
+wrong strong state we have to miss
+predictions<00:01:17.460><c> if</c><00:01:18.060><c> however</c><00:01:18.390><c> we</c><00:01:18.750><c> start</c><00:01:19.020><c> in</c><00:01:19.170><c> a</c>
+
+00:01:19.249 --> 00:01:19.259 align:start position:0%
+predictions if however we start in a
+ 
+
+00:01:19.259 --> 00:01:22.940 align:start position:0%
+predictions if however we start in a
+weak<00:01:19.439><c> state</c><00:01:19.799><c> such</c><00:01:20.549><c> as</c><00:01:20.759><c> zero</c><00:01:21.000><c> one</c><00:01:21.330><c> and</c><00:01:21.950><c> we</c>
+
+00:01:22.940 --> 00:01:22.950 align:start position:0%
+weak state such as zero one and we
+ 
+
+00:01:22.950 --> 00:01:24.920 align:start position:0%
+weak state such as zero one and we
+started<00:01:23.280><c> in</c><00:01:23.430><c> the</c><00:01:23.549><c> correct</c><00:01:23.970><c> weak</c><00:01:24.210><c> state</c><00:01:24.600><c> we</c>
+
+00:01:24.920 --> 00:01:24.930 align:start position:0%
+started in the correct weak state we
+ 
+
+00:01:24.930 --> 00:01:26.480 align:start position:0%
+started in the correct weak state we
+will<00:01:25.020><c> just</c><00:01:25.259><c> move</c><00:01:25.380><c> to</c><00:01:25.530><c> the</c><00:01:25.560><c> strong</c><00:01:25.950><c> state</c><00:01:26.250><c> and</c>
+
+00:01:26.480 --> 00:01:26.490 align:start position:0%
+will just move to the strong state and
+ 
+
+00:01:26.490 --> 00:01:30.230 align:start position:0%
+will just move to the strong state and
+still<00:01:26.759><c> have</c><00:01:27.060><c> all</c><00:01:27.330><c> correct</c><00:01:28.020><c> predictions</c><00:01:28.590><c> so</c><00:01:29.340><c> in</c>
+
+00:01:30.230 --> 00:01:30.240 align:start position:0%
+still have all correct predictions so in
+ 
+
+00:01:30.240 --> 00:01:32.480 align:start position:0%
+still have all correct predictions so in
+the<00:01:30.450><c> case</c><00:01:30.689><c> when</c><00:01:31.290><c> we</c><00:01:31.320><c> guessed</c><00:01:31.680><c> right</c><00:01:32.100><c> what</c>
+
+00:01:32.480 --> 00:01:32.490 align:start position:0%
+the case when we guessed right what
+ 
+
+00:01:32.490 --> 00:01:35.090 align:start position:0%
+the case when we guessed right what
+should<00:01:32.880><c> be</c><00:01:33.060><c> the</c><00:01:33.240><c> dominant</c><00:01:34.110><c> behavior</c><00:01:34.290><c> in</c><00:01:34.920><c> the</c>
+
+00:01:35.090 --> 00:01:35.100 align:start position:0%
+should be the dominant behavior in the
+ 
+
+00:01:35.100 --> 00:01:38.270 align:start position:0%
+should be the dominant behavior in the
+starting<00:01:35.490><c> state</c><00:01:35.729><c> we</c><00:01:36.479><c> have</c><00:01:36.799><c> perfect</c><00:01:37.799><c> reduction</c>
+
+00:01:38.270 --> 00:01:38.280 align:start position:0%
+starting state we have perfect reduction
+ 
+
+00:01:38.280 --> 00:01:39.770 align:start position:0%
+starting state we have perfect reduction
+regardless<00:01:38.820><c> of</c><00:01:38.970><c> whether</c><00:01:39.180><c> we</c><00:01:39.329><c> start</c><00:01:39.600><c> in</c><00:01:39.720><c> a</c>
+
+00:01:39.770 --> 00:01:39.780 align:start position:0%
+regardless of whether we start in a
+ 
+
+00:01:39.780 --> 00:01:42.920 align:start position:0%
+regardless of whether we start in a
+stronger<00:01:40.079><c> weak</c><00:01:40.350><c> state</c><00:01:40.759><c> however</c><00:01:41.759><c> if</c><00:01:42.210><c> we</c><00:01:42.750><c> were</c>
+
+00:01:42.920 --> 00:01:42.930 align:start position:0%
+stronger weak state however if we were
+ 
+
+00:01:42.930 --> 00:01:46.130 align:start position:0%
+stronger weak state however if we were
+wrong<00:01:43.140><c> about</c><00:01:43.500><c> where</c><00:01:44.430><c> to</c><00:01:44.460><c> start</c><00:01:44.909><c> and</c><00:01:45.210><c> we</c><00:01:45.810><c> start</c>
+
+00:01:46.130 --> 00:01:46.140 align:start position:0%
+wrong about where to start and we start
+ 
+
+00:01:46.140 --> 00:01:49.730 align:start position:0%
+wrong about where to start and we start
+in<00:01:46.470><c> let's</c><00:01:46.770><c> say</c><00:01:46.979><c> zero</c><00:01:47.939><c> one</c><00:01:48.210><c> but</c><00:01:48.899><c> now</c><00:01:49.290><c> the</c><00:01:49.350><c> branch</c>
+
+00:01:49.730 --> 00:01:49.740 align:start position:0%
+in let's say zero one but now the branch
+ 
+
+00:01:49.740 --> 00:01:52.520 align:start position:0%
+in let's say zero one but now the branch
+is<00:01:49.890><c> mostly</c><00:01:50.220><c> taken</c><00:01:50.790><c> we</c><00:01:51.540><c> will</c><00:01:51.720><c> have</c><00:01:51.930><c> one</c><00:01:52.259><c> miss</c>
+
+00:01:52.520 --> 00:01:52.530 align:start position:0%
+is mostly taken we will have one miss
+ 
+
+00:01:52.530 --> 00:01:55.730 align:start position:0%
+is mostly taken we will have one miss
+prediction<00:01:53.100><c> here</c><00:01:53.579><c> and</c><00:01:53.759><c> now</c><00:01:54.630><c> we</c><00:01:55.560><c> will</c><00:01:55.680><c> be</c>
+
+00:01:55.730 --> 00:01:55.740 align:start position:0%
+prediction here and now we will be
+ 
+
+00:01:55.740 --> 00:01:58.940 align:start position:0%
+prediction here and now we will be
+moving<00:01:56.100><c> to</c><00:01:56.490><c> the</c><00:01:56.820><c> weak</c><00:01:57.060><c> taken</c><00:01:57.329><c> state</c><00:01:57.570><c> and</c><00:01:58.350><c> start</c>
+
+00:01:58.940 --> 00:01:58.950 align:start position:0%
+moving to the weak taken state and start
+ 
+
+00:01:58.950 --> 00:02:01.190 align:start position:0%
+moving to the weak taken state and start
+having<00:01:59.250><c> correct</c><00:01:59.729><c> predictions</c><00:02:00.360><c> from</c><00:02:00.750><c> then</c><00:02:01.020><c> on</c>
+
+00:02:01.190 --> 00:02:01.200 align:start position:0%
+having correct predictions from then on
+ 
+
+00:02:01.200 --> 00:02:04.010 align:start position:0%
+having correct predictions from then on
+so<00:02:02.040><c> if</c><00:02:02.130><c> we</c><00:02:02.250><c> start</c><00:02:02.490><c> in</c><00:02:02.640><c> a</c><00:02:02.729><c> weak</c><00:02:02.909><c> state</c><00:02:03.240><c> we</c><00:02:03.780><c> don't</c>
+
+00:02:04.010 --> 00:02:04.020 align:start position:0%
+so if we start in a weak state we don't
+ 
+
+00:02:04.020 --> 00:02:06.649 align:start position:0%
+so if we start in a weak state we don't
+lose<00:02:04.170><c> anything</c><00:02:04.530><c> if</c><00:02:04.829><c> we</c><00:02:04.950><c> will</c><00:02:05.100><c> right</c><00:02:05.329><c> but</c><00:02:06.329><c> we</c>
+
+00:02:06.649 --> 00:02:06.659 align:start position:0%
+lose anything if we will right but we
+ 
+
+00:02:06.659 --> 00:02:09.889 align:start position:0%
+lose anything if we will right but we
+gain<00:02:06.930><c> one</c><00:02:07.590><c> less</c><00:02:08.250><c> miss</c><00:02:08.520><c> prediction</c><00:02:09.090><c> if</c><00:02:09.539><c> we</c><00:02:09.750><c> were</c>
+
+00:02:09.889 --> 00:02:09.899 align:start position:0%
+gain one less miss prediction if we were
+ 
+
+00:02:09.899 --> 00:02:12.229 align:start position:0%
+gain one less miss prediction if we were
+wrong<00:02:10.110><c> about</c><00:02:10.289><c> what</c><00:02:11.009><c> should</c><00:02:11.190><c> be</c><00:02:11.340><c> the</c><00:02:11.459><c> bias</c><00:02:11.670><c> so</c>
+
+00:02:12.229 --> 00:02:12.239 align:start position:0%
+wrong about what should be the bias so
+ 
+
+00:02:12.239 --> 00:02:13.860 align:start position:0%
+wrong about what should be the bias so
+this<00:02:12.480><c> argument</c><00:02:12.989><c> me</c>
+
+00:02:13.860 --> 00:02:13.870 align:start position:0%
+this argument me
+ 
+
+00:02:13.870 --> 00:02:16.440 align:start position:0%
+this argument me
+that<00:02:14.230><c> probably</c><00:02:14.830><c> we</c><00:02:15.430><c> should</c><00:02:15.459><c> be</c><00:02:15.819><c> starting</c><00:02:16.239><c> in</c>
+
+00:02:16.440 --> 00:02:16.450 align:start position:0%
+that probably we should be starting in
+ 
+
+00:02:16.450 --> 00:02:19.110 align:start position:0%
+that probably we should be starting in
+the<00:02:16.629><c> weak</c><00:02:16.930><c> state</c><00:02:17.290><c> pick</c><00:02:18.069><c> one</c><00:02:18.340><c> doesn't</c><00:02:19.000><c> really</c>
+
+00:02:19.110 --> 00:02:19.120 align:start position:0%
+the weak state pick one doesn't really
+ 
+
+00:02:19.120 --> 00:02:21.390 align:start position:0%
+the weak state pick one doesn't really
+matter<00:02:19.390><c> however</c><00:02:20.140><c> there</c><00:02:20.440><c> is</c><00:02:20.590><c> a</c><00:02:20.620><c> flip</c><00:02:20.950><c> side</c><00:02:21.010><c> to</c>
+
+00:02:21.390 --> 00:02:21.400 align:start position:0%
+matter however there is a flip side to
+ 
+
+00:02:21.400 --> 00:02:23.580 align:start position:0%
+matter however there is a flip side to
+it<00:02:21.430><c> let's</c><00:02:22.239><c> say</c><00:02:22.420><c> that</c><00:02:22.629><c> the</c><00:02:22.780><c> branch</c><00:02:23.049><c> is</c><00:02:23.290><c> taken</c>
+
+00:02:23.580 --> 00:02:23.590 align:start position:0%
+it let's say that the branch is taken
+ 
+
+00:02:23.590 --> 00:02:27.990 align:start position:0%
+it let's say that the branch is taken
+not<00:02:24.489><c> taken</c><00:02:24.760><c> taken</c><00:02:25.750><c> not</c><00:02:26.049><c> taken</c><00:02:26.799><c> and</c><00:02:27.370><c> we</c><00:02:27.670><c> start</c>
+
+00:02:27.990 --> 00:02:28.000 align:start position:0%
+not taken taken not taken and we start
+ 
+
+00:02:28.000 --> 00:02:30.330 align:start position:0%
+not taken taken not taken and we start
+in<00:02:28.450><c> the</c><00:02:28.690><c> strong</c><00:02:28.989><c> state</c><00:02:29.319><c> the</c><00:02:29.680><c> branch</c><00:02:29.950><c> is</c><00:02:30.129><c> taken</c>
+
+00:02:30.330 --> 00:02:30.340 align:start position:0%
+in the strong state the branch is taken
+ 
+
+00:02:30.340 --> 00:02:33.270 align:start position:0%
+in the strong state the branch is taken
+so<00:02:31.060><c> we</c><00:02:31.209><c> move</c><00:02:31.390><c> to</c><00:02:31.420><c> the</c><00:02:31.690><c> weak</c><00:02:31.870><c> state</c><00:02:32.200><c> then</c><00:02:33.099><c> it's</c>
+
+00:02:33.270 --> 00:02:33.280 align:start position:0%
+so we move to the weak state then it's
+ 
+
+00:02:33.280 --> 00:02:35.369 align:start position:0%
+so we move to the weak state then it's
+not<00:02:33.459><c> taken</c><00:02:33.909><c> so</c><00:02:34.090><c> we</c><00:02:34.120><c> move</c><00:02:34.390><c> back</c><00:02:34.659><c> to</c><00:02:34.720><c> the</c><00:02:34.959><c> strong</c>
+
+00:02:35.369 --> 00:02:35.379 align:start position:0%
+not taken so we move back to the strong
+ 
+
+00:02:35.379 --> 00:02:37.440 align:start position:0%
+not taken so we move back to the strong
+state<00:02:35.709><c> and</c><00:02:36.069><c> so</c><00:02:37.000><c> on</c>
+
+00:02:37.440 --> 00:02:37.450 align:start position:0%
+state and so on
+ 
+
+00:02:37.450 --> 00:02:41.280 align:start position:0%
+state and so on
+we<00:02:38.049><c> mispredict</c><00:02:38.709><c> here</c><00:02:39.159><c> but</c><00:02:39.819><c> we</c><00:02:40.690><c> correctly</c>
+
+00:02:41.280 --> 00:02:41.290 align:start position:0%
+we mispredict here but we correctly
+ 
+
+00:02:41.290 --> 00:02:44.309 align:start position:0%
+we mispredict here but we correctly
+predicted<00:02:41.799><c> here</c><00:02:42.220><c> and</c><00:02:42.489><c> here</c><00:02:43.209><c> so</c><00:02:43.780><c> half</c><00:02:43.989><c> the</c><00:02:44.049><c> time</c>
+
+00:02:44.309 --> 00:02:44.319 align:start position:0%
+predicted here and here so half the time
+ 
+
+00:02:44.319 --> 00:02:45.479 align:start position:0%
+predicted here and here so half the time
+we<00:02:44.440><c> have</c><00:02:44.620><c> mispredictions</c>
+
+00:02:45.479 --> 00:02:45.489 align:start position:0%
+we have mispredictions
+ 
+
+00:02:45.489 --> 00:02:47.880 align:start position:0%
+we have mispredictions
+if<00:02:45.730><c> we</c><00:02:45.910><c> started</c><00:02:46.299><c> in</c><00:02:46.420><c> the</c><00:02:46.540><c> one</c><00:02:46.750><c> one</c><00:02:46.989><c> state</c><00:02:47.319><c> we</c>
+
+00:02:47.880 --> 00:02:47.890 align:start position:0%
+if we started in the one one state we
+ 
+
+00:02:47.890 --> 00:02:49.920 align:start position:0%
+if we started in the one one state we
+would<00:02:48.040><c> have</c><00:02:48.220><c> a</c><00:02:48.250><c> similar</c><00:02:48.700><c> behavior</c><00:02:48.879><c> we</c><00:02:49.780><c> would</c>
+
+00:02:49.920 --> 00:02:49.930 align:start position:0%
+would have a similar behavior we would
+ 
+
+00:02:49.930 --> 00:02:52.559 align:start position:0%
+would have a similar behavior we would
+miss<00:02:50.109><c> predict</c><00:02:50.530><c> every</c><00:02:51.069><c> other</c><00:02:51.190><c> time</c><00:02:51.489><c> but</c><00:02:52.150><c> if</c><00:02:52.420><c> we</c>
+
+00:02:52.559 --> 00:02:52.569 align:start position:0%
+miss predict every other time but if we
+ 
+
+00:02:52.569 --> 00:02:55.740 align:start position:0%
+miss predict every other time but if we
+start<00:02:52.840><c> in</c><00:02:53.079><c> the</c><00:02:53.200><c> wrong</c><00:02:53.379><c> weak</c><00:02:53.799><c> state</c><00:02:54.220><c> and</c><00:02:54.750><c> have</c>
+
+00:02:55.740 --> 00:02:55.750 align:start position:0%
+start in the wrong weak state and have
+ 
+
+00:02:55.750 --> 00:02:58.140 align:start position:0%
+start in the wrong weak state and have
+the<00:02:55.900><c> same</c><00:02:56.140><c> behavior</c><00:02:56.260><c> here</c><00:02:57.069><c> if</c><00:02:57.549><c> the</c><00:02:57.790><c> branch</c><00:02:58.030><c> is</c>
+
+00:02:58.140 --> 00:02:58.150 align:start position:0%
+the same behavior here if the branch is
+ 
+
+00:02:58.150 --> 00:03:00.869 align:start position:0%
+the same behavior here if the branch is
+taken<00:02:58.569><c> and</c><00:02:58.690><c> we</c><00:02:58.810><c> have</c><00:02:58.989><c> a</c><00:02:59.019><c> weak</c><00:02:59.290><c> not</c><00:02:59.680><c> taken</c><00:02:59.879><c> we</c>
+
+00:03:00.869 --> 00:03:00.879 align:start position:0%
+taken and we have a weak not taken we
+ 
+
+00:03:00.879 --> 00:03:03.089 align:start position:0%
+taken and we have a weak not taken we
+miss<00:03:01.060><c> predict</c><00:03:01.480><c> and</c><00:03:01.810><c> we</c><00:03:02.379><c> move</c><00:03:02.590><c> to</c><00:03:02.769><c> the</c><00:03:02.890><c> weak</c>
+
+00:03:03.089 --> 00:03:03.099 align:start position:0%
+miss predict and we move to the weak
+ 
+
+00:03:03.099 --> 00:03:05.610 align:start position:0%
+miss predict and we move to the weak
+taken<00:03:03.370><c> state</c><00:03:03.579><c> now</c><00:03:04.329><c> the</c><00:03:04.359><c> branch</c><00:03:04.750><c> is</c><00:03:04.900><c> not-taken</c>
+
+00:03:05.610 --> 00:03:05.620 align:start position:0%
+taken state now the branch is not-taken
+ 
+
+00:03:05.620 --> 00:03:08.430 align:start position:0%
+taken state now the branch is not-taken
+so<00:03:06.159><c> we</c><00:03:06.340><c> miss</c><00:03:06.519><c> predict</c><00:03:06.909><c> again</c><00:03:07.299><c> and</c><00:03:07.930><c> move</c><00:03:08.170><c> back</c>
+
+00:03:08.430 --> 00:03:08.440 align:start position:0%
+so we miss predict again and move back
+ 
+
+00:03:08.440 --> 00:03:10.380 align:start position:0%
+so we miss predict again and move back
+to<00:03:08.470><c> the</c><00:03:08.739><c> weak</c><00:03:08.920><c> not</c><00:03:09.129><c> taken</c><00:03:09.190><c> state</c><00:03:09.730><c> the</c><00:03:10.180><c> branch</c>
+
+00:03:10.380 --> 00:03:10.390 align:start position:0%
+to the weak not taken state the branch
+ 
+
+00:03:10.390 --> 00:03:12.899 align:start position:0%
+to the weak not taken state the branch
+is<00:03:10.569><c> taken</c><00:03:10.720><c> again</c><00:03:11.200><c> so</c><00:03:11.890><c> we</c><00:03:12.010><c> miss</c><00:03:12.190><c> predict</c><00:03:12.579><c> again</c>
+
+00:03:12.899 --> 00:03:12.909 align:start position:0%
+is taken again so we miss predict again
+ 
+
+00:03:12.909 --> 00:03:15.300 align:start position:0%
+is taken again so we miss predict again
+and<00:03:13.150><c> we</c><00:03:13.359><c> keep</c><00:03:13.569><c> miss</c><00:03:13.780><c> predicting</c><00:03:14.290><c> like</c><00:03:14.470><c> this</c><00:03:14.650><c> so</c>
+
+00:03:15.300 --> 00:03:15.310 align:start position:0%
+and we keep miss predicting like this so
+ 
+
+00:03:15.310 --> 00:03:17.789 align:start position:0%
+and we keep miss predicting like this so
+as<00:03:15.430><c> far</c><00:03:15.700><c> as</c><00:03:15.840><c> worst-case</c><00:03:16.840><c> behavior</c><00:03:17.019><c> on</c>
+
+00:03:17.789 --> 00:03:17.799 align:start position:0%
+as far as worst-case behavior on
+ 
+
+00:03:17.799 --> 00:03:19.830 align:start position:0%
+as far as worst-case behavior on
+alternating<00:03:18.579><c> branch</c><00:03:19.030><c> decisions</c><00:03:19.690><c> is</c>
+
+00:03:19.830 --> 00:03:19.840 align:start position:0%
+alternating branch decisions is
+ 
+
+00:03:19.840 --> 00:03:23.520 align:start position:0%
+alternating branch decisions is
+concerned<00:03:20.669><c> starting</c><00:03:21.669><c> in</c><00:03:21.790><c> a</c><00:03:21.880><c> weak</c><00:03:22.060><c> state</c><00:03:22.530><c> runs</c>
+
+00:03:23.520 --> 00:03:23.530 align:start position:0%
+concerned starting in a weak state runs
+ 
+
+00:03:23.530 --> 00:03:25.620 align:start position:0%
+concerned starting in a weak state runs
+some<00:03:24.040><c> more</c><00:03:24.250><c> risk</c><00:03:24.489><c> of</c><00:03:24.790><c> having</c><00:03:25.150><c> this</c><00:03:25.269><c> worst-case</c>
+
+00:03:25.620 --> 00:03:25.630 align:start position:0%
+some more risk of having this worst-case
+ 
+
+00:03:25.630 --> 00:03:28.009 align:start position:0%
+some more risk of having this worst-case
+behavior<00:03:25.900><c> of</c><00:03:26.380><c> always</c><00:03:26.739><c> means</c><00:03:26.980><c> predicting</c>
+
+00:03:28.009 --> 00:03:28.019 align:start position:0%
+behavior of always means predicting
+ 
+
+00:03:28.019 --> 00:03:30.599 align:start position:0%
+behavior of always means predicting
+fortunately<00:03:29.019><c> this</c><00:03:29.620><c> is</c><00:03:29.889><c> much</c><00:03:30.099><c> more</c><00:03:30.310><c> common</c>
+
+00:03:30.599 --> 00:03:30.609 align:start position:0%
+fortunately this is much more common
+ 
+
+00:03:30.609 --> 00:03:33.750 align:start position:0%
+fortunately this is much more common
+behavior<00:03:31.239><c> than</c><00:03:31.810><c> this</c><00:03:32.049><c> so</c><00:03:32.919><c> probably</c><00:03:33.430><c> it's</c><00:03:33.669><c> a</c>
+
+00:03:33.750 --> 00:03:33.760 align:start position:0%
+behavior than this so probably it's a
+ 
+
+00:03:33.760 --> 00:03:35.640 align:start position:0%
+behavior than this so probably it's a
+good<00:03:33.790><c> idea</c><00:03:34.060><c> to</c><00:03:34.450><c> start</c><00:03:34.750><c> in</c><00:03:34.930><c> a</c><00:03:35.019><c> weak</c><00:03:35.200><c> taken</c><00:03:35.410><c> state</c>
+
+00:03:35.640 --> 00:03:35.650 align:start position:0%
+good idea to start in a weak taken state
+ 
+
+00:03:35.650 --> 00:03:38.069 align:start position:0%
+good idea to start in a weak taken state
+because<00:03:36.579><c> taken</c><00:03:36.970><c> branches</c><00:03:37.299><c> are</c><00:03:37.480><c> slightly</c><00:03:37.750><c> more</c>
+
+00:03:38.069 --> 00:03:38.079 align:start position:0%
+because taken branches are slightly more
+ 
+
+00:03:38.079 --> 00:03:41.369 align:start position:0%
+because taken branches are slightly more
+common<00:03:38.410><c> than</c><00:03:38.709><c> not</c><00:03:38.739><c> taken</c><00:03:39.389><c> but</c><00:03:40.389><c> in</c><00:03:40.629><c> reality</c><00:03:41.200><c> as</c>
+
+00:03:41.369 --> 00:03:41.379 align:start position:0%
+common than not taken but in reality as
+ 
+
+00:03:41.379 --> 00:03:42.930 align:start position:0%
+common than not taken but in reality as
+you<00:03:41.410><c> can</c><00:03:41.709><c> see</c><00:03:41.889><c> it</c><00:03:42.129><c> doesn't</c><00:03:42.400><c> really</c><00:03:42.579><c> matter</c>
+
+00:03:42.930 --> 00:03:42.940 align:start position:0%
+you can see it doesn't really matter
+ 
+
+00:03:42.940 --> 00:03:44.759 align:start position:0%
+you can see it doesn't really matter
+much<00:03:43.269><c> because</c><00:03:43.750><c> if</c><00:03:43.870><c> the</c><00:03:43.959><c> branch</c><00:03:44.199><c> is</c><00:03:44.379><c> mostly</c>
+
+00:03:44.759 --> 00:03:44.769 align:start position:0%
+much because if the branch is mostly
+ 
+
+00:03:44.769 --> 00:03:47.879 align:start position:0%
+much because if the branch is mostly
+taken<00:03:45.449><c> one</c><00:03:46.449><c> misprediction</c><00:03:47.169><c> initial</c><00:03:47.590><c> is</c><00:03:47.709><c> not</c>
+
+00:03:47.879 --> 00:03:47.889 align:start position:0%
+taken one misprediction initial is not
+ 
+
+00:03:47.889 --> 00:03:50.339 align:start position:0%
+taken one misprediction initial is not
+really<00:03:48.190><c> gonna</c><00:03:48.400><c> be</c><00:03:48.609><c> very</c><00:03:49.540><c> cost</c><00:03:49.870><c> it</c><00:03:50.079><c> to</c><00:03:50.199><c> us</c>
+
+00:03:50.339 --> 00:03:50.349 align:start position:0%
+really gonna be very cost it to us
+ 
+
+00:03:50.349 --> 00:03:52.170 align:start position:0%
+really gonna be very cost it to us
+because<00:03:50.650><c> from</c><00:03:51.160><c> then</c><00:03:51.340><c> on</c><00:03:51.519><c> it's</c><00:03:51.699><c> gonna</c><00:03:51.849><c> behave</c>
+
+00:03:52.170 --> 00:03:52.180 align:start position:0%
+because from then on it's gonna behave
+ 
+
+00:03:52.180 --> 00:03:53.789 align:start position:0%
+because from then on it's gonna behave
+the<00:03:52.359><c> same</c><00:03:52.540><c> way</c><00:03:52.599><c> regardless</c><00:03:52.930><c> of</c><00:03:53.500><c> what</c><00:03:53.680><c> we</c>
+
+00:03:53.789 --> 00:03:53.799 align:start position:0%
+the same way regardless of what we
+ 
+
+00:03:53.799 --> 00:03:56.520 align:start position:0%
+the same way regardless of what we
+started<00:03:54.160><c> off</c><00:03:54.310><c> with</c><00:03:54.549><c> so</c><00:03:55.150><c> in</c><00:03:55.239><c> reality</c><00:03:55.530><c> although</c>
+
+00:03:56.520 --> 00:03:56.530 align:start position:0%
+started off with so in reality although
+ 
+
+00:03:56.530 --> 00:03:58.259 align:start position:0%
+started off with so in reality although
+it<00:03:56.620><c> seems</c><00:03:56.889><c> like</c><00:03:57.099><c> it's</c><00:03:57.310><c> a</c><00:03:57.400><c> good</c><00:03:57.579><c> idea</c><00:03:57.699><c> to</c><00:03:57.910><c> start</c>
+
+00:03:58.259 --> 00:03:58.269 align:start position:0%
+it seems like it's a good idea to start
+ 
+
+00:03:58.269 --> 00:04:00.449 align:start position:0%
+it seems like it's a good idea to start
+in<00:03:58.419><c> the</c><00:03:58.510><c> weak</c><00:03:58.690><c> taken</c><00:03:58.930><c> state</c><00:03:59.139><c> in</c><00:03:59.620><c> practice</c><00:04:00.280><c> the</c>
+
+00:04:00.449 --> 00:04:00.459 align:start position:0%
+in the weak taken state in practice the
+ 
+
+00:04:00.459 --> 00:04:02.280 align:start position:0%
+in the weak taken state in practice the
+overall<00:04:00.910><c> accuracy</c><00:04:01.209><c> of</c><00:04:01.540><c> the</c><00:04:01.660><c> branch</c><00:04:01.900><c> picture</c>
+
+00:04:02.280 --> 00:04:02.290 align:start position:0%
+overall accuracy of the branch picture
+ 
+
+00:04:02.290 --> 00:04:05.789 align:start position:0%
+overall accuracy of the branch picture
+is<00:04:02.859><c> affected</c><00:04:03.430><c> very</c><00:04:03.669><c> little</c><00:04:04.090><c> by</c><00:04:04.690><c> what</c><00:04:05.290><c> exactly</c>
+
+00:04:05.789 --> 00:04:05.799 align:start position:0%
+is affected very little by what exactly
+ 
+
+00:04:05.799 --> 00:04:08.520 align:start position:0%
+is affected very little by what exactly
+do<00:04:05.919><c> we</c><00:04:05.949><c> start</c><00:04:06.310><c> off</c><00:04:06.549><c> in</c><00:04:06.910><c> so</c><00:04:07.870><c> we</c><00:04:08.019><c> might</c><00:04:08.199><c> as</c><00:04:08.410><c> well</c>
+
+00:04:08.520 --> 00:04:08.530 align:start position:0%
+do we start off in so we might as well
+ 
+
+00:04:08.530 --> 00:04:10.170 align:start position:0%
+do we start off in so we might as well
+just<00:04:08.739><c> start</c><00:04:08.919><c> in</c><00:04:09.099><c> zero</c><00:04:09.310><c> zero</c><00:04:09.579><c> state</c><00:04:09.819><c> because</c>
+
+00:04:10.170 --> 00:04:10.180 align:start position:0%
+just start in zero zero state because
+ 
+
+00:04:10.180 --> 00:04:11.729 align:start position:0%
+just start in zero zero state because
+that's<00:04:10.359><c> the</c><00:04:10.629><c> easiest</c><00:04:10.989><c> state</c><00:04:11.230><c> to</c><00:04:11.349><c> initialize</c>
+
+00:04:11.729 --> 00:04:11.739 align:start position:0%
+that's the easiest state to initialize
+ 
+
+00:04:11.739 --> 00:04:14.069 align:start position:0%
+that's the easiest state to initialize
+in<00:04:11.949><c> two</c>
+

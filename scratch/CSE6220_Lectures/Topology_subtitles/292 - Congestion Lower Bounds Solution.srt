@@ -1,0 +1,52 @@
+1
+00:00:00,480 --> 00:00:01,070
+ Here's the answer.
+
+2
+00:00:01,070 --> 00:00:05,720
+ The lower bound analysis says you take the bisection width of logical network
+
+3
+00:00:05,720 --> 00:00:08,930
+ and divide it by the bisection width of the physical network.
+
+4
+00:00:08,930 --> 00:00:12,732
+ So for example, let's take fully-connected to hypercube.
+
+5
+00:00:12,732 --> 00:00:16,059
+ Fully-connected is o of p squared.
+
+6
+00:00:16,059 --> 00:00:22,380
+ Hypercube is o of p, so the ratio of fully-connected to hypercube is p.
+
+7
+00:00:22,380 --> 00:00:25,820
+ So the lower bound suggests you should expect some congestion.
+
+8
+00:00:25,820 --> 00:00:28,820
+ What about complete binary tree to ring?
+
+9
+00:00:28,820 --> 00:00:33,110
+ Complete binary tree has a bisection of 1, and ring has a bisection of 2.
+
+10
+00:00:33,110 --> 00:00:37,020
+ So the ratio, one half is less than or equal to 1.
+
+11
+00:00:37,020 --> 00:00:41,000
+ That tells us there might be a way to do a congestion free mapping
+
+12
+00:00:41,000 --> 00:00:43,600
+ from complete binary tree to ring.
+
+13
+00:00:43,600 --> 00:00:43,600
+ So you can do the same exercise on all the options.
+

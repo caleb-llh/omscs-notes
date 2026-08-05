@@ -1,0 +1,108 @@
+1
+00:00:00,520 --> 00:00:02,330
+ Here is what I would say.
+
+2
+00:00:02,330 --> 00:00:04,390
+ Let me explain myself.
+
+3
+00:00:04,390 --> 00:00:08,189
+ One way to think about the question is to ask an analytical question.
+
+4
+00:00:08,189 --> 00:00:12,250
+ Mainly, when does the alpha term dominate the beta term?
+
+5
+00:00:12,250 --> 00:00:13,030
+ When that happens,
+
+6
+00:00:13,030 --> 00:00:16,890
+ then we might not care that the beta term depends on log p.
+
+7
+00:00:16,890 --> 00:00:21,020
+ Algebraically, this term dominating this term is the same as saying that it's
+
+8
+00:00:21,020 --> 00:00:23,190
+ much, much greater.
+
+9
+00:00:23,190 --> 00:00:25,710
+ You'll notice the log p's cancel.
+
+10
+00:00:25,710 --> 00:00:28,309
+ That leaves us with something like this,
+
+11
+00:00:28,309 --> 00:00:32,479
+ which basically says n is much less than the ratio of alpha to beta.
+
+12
+00:00:32,479 --> 00:00:34,970
+ So let's compare that to our options.
+
+13
+00:00:34,970 --> 00:00:37,790
+ The first option is algebraically equivalent.
+
+14
+00:00:37,790 --> 00:00:38,920
+ The fourth option,
+
+15
+00:00:38,920 --> 00:00:43,780
+ even though it's qualitative, kind of captures what this says.
+
+16
+00:00:43,780 --> 00:00:48,150
+ So this says that we want n to be small compared to something.
+
+17
+00:00:48,150 --> 00:00:50,940
+ So to me, this is kind of an acceptable intuitive answer.
+
+18
+00:00:50,940 --> 00:00:53,700
+ What about the other options?
+
+19
+00:00:53,700 --> 00:00:57,760
+ Option two has the relationship algebraically wrong.
+
+20
+00:00:57,760 --> 00:01:02,770
+ Option three is just kind of irrelevant, there's no dependence on p here.
+
+21
+00:01:02,770 --> 00:01:04,760
+ The last option is also a bit of a red herring.
+
+22
+00:01:04,760 --> 00:01:06,960
+ I don't know what that's supposed to mean.
+
+23
+00:01:06,960 --> 00:01:09,050
+ In fact, even if you assume n is constant,
+
+24
+00:01:09,050 --> 00:01:11,410
+ it doesn't satisfy this relationship.
+
+25
+00:01:11,410 --> 00:01:14,010
+ You also remember, it's far from reality.
+
+26
+00:01:14,010 --> 00:01:16,178
+ Remember, I said at some point you expect,
+
+27
+00:01:16,178 --> 00:01:16,178
+ in real networks, for alpha to be much greater than beta.
+

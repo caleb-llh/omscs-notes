@@ -1,0 +1,64 @@
+1
+00:00:00,370 --> 00:00:03,210
+ You've previously analyzed Phases 1 and 2.
+
+2
+00:00:03,210 --> 00:00:07,697
+ For Phase 1 the comparisons grow like n log Z and the transfers like n/L.
+
+3
+00:00:07,697 --> 00:00:11,408
+ For Phase 2 the comparisons grow like n log n/Z and
+
+4
+00:00:11,408 --> 00:00:14,610
+ the transfers like n/L log n/Z.
+
+5
+00:00:14,610 --> 00:00:16,070
+ Let's combine these.
+
+6
+00:00:16,070 --> 00:00:19,480
+ The comparison terms combine to just n log n.
+
+7
+00:00:19,480 --> 00:00:20,550
+ That's good news.
+
+8
+00:00:20,550 --> 00:00:22,870
+ It means the mergesort scheme is work optimal,
+
+9
+00:00:22,870 --> 00:00:25,800
+ relative to any other comparison based algorithm.
+
+10
+00:00:25,800 --> 00:00:27,760
+ What about the number of memory transfers?
+
+11
+00:00:27,760 --> 00:00:31,103
+ Basically, Phase 2 dominates and you get n/L log n/z.
+
+12
+00:00:31,103 --> 00:00:33,030
+ That's not too shabby.
+
+13
+00:00:33,030 --> 00:00:36,580
+ To see how far you have to go it's good to cook up some numbers for n, L, and
+
+14
+00:00:36,580 --> 00:00:39,550
+ Z and compare them to the known lower bound.
+
+15
+00:00:39,550 --> 00:00:41,710
+ That lower bound turns out to be this.
+
+16
+00:00:41,710 --> 00:00:41,710
+ I'll leave this last bit as an exercise for you.
+

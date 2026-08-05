@@ -1,0 +1,68 @@
+1
+00:00:00,340 --> 00:00:04,280
+ Consider this directed graph and its adjacent matrix.
+
+2
+00:00:04,280 --> 00:00:07,750
+ Suppose we treat the matrix as a boolean matrix.
+
+3
+00:00:07,750 --> 00:00:13,085
+ That is every one value is true, and all zeros or blanks are false.
+
+4
+00:00:13,085 --> 00:00:16,004
+ Let's call this matrix capital B as in buzz.
+
+5
+00:00:16,004 --> 00:00:19,365
+ Now suppose you want the undirected version of this graph.
+
+6
+00:00:19,365 --> 00:00:23,555
+ How do you compute the boolean adjacency matrix of the undirected graph,
+
+7
+00:00:23,555 --> 00:00:26,440
+ given the directed adjacency matrix B.
+
+8
+00:00:26,440 --> 00:00:29,610
+ Assume you have the following logical explanations to help you out.
+
+9
+00:00:29,610 --> 00:00:34,370
+ Not of x takes a boolean matrix x and converts every true entry to false and
+
+10
+00:00:34,370 --> 00:00:36,420
+ every false entry to true.
+
+11
+00:00:36,420 --> 00:00:38,840
+ And takes two boolean matrices x and y and
+
+12
+00:00:38,840 --> 00:00:43,040
+ computes the element y's logical and of the entries.
+
+13
+00:00:43,040 --> 00:00:45,600
+ X and y, of course, have to have the same size.
+
+14
+00:00:45,600 --> 00:00:48,480
+ Or does the same thing as and except with a logical or
+
+15
+00:00:48,480 --> 00:00:49,628
+ in place of logical and.
+
+16
+00:00:49,628 --> 00:00:55,600
+ Lastly, trans of x takes the matrix x and computes its transpose.
+
+17
+00:00:55,600 --> 00:00:55,600
+ Type your solution in this box.
+

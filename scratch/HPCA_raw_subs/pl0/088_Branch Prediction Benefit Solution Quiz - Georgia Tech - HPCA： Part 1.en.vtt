@@ -1,0 +1,400 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.670 align:start position:0%
+ 
+let's<00:00:00.299><c> discuss</c><00:00:00.570><c> the</c><00:00:00.870><c> solution</c><00:00:01.020><c> for</c><00:00:01.650><c> our</c>
+
+00:00:01.670 --> 00:00:01.680 align:start position:0%
+let's discuss the solution for our
+ 
+
+00:00:01.680 --> 00:00:04.490 align:start position:0%
+let's discuss the solution for our
+branch<00:00:02.070><c> prediction</c><00:00:02.669><c> performance</c><00:00:02.820><c> quiz</c><00:00:03.510><c> the</c>
+
+00:00:04.490 --> 00:00:04.500 align:start position:0%
+branch prediction performance quiz the
+ 
+
+00:00:04.500 --> 00:00:06.200 align:start position:0%
+branch prediction performance quiz the
+first<00:00:04.799><c> thing</c><00:00:04.980><c> we</c><00:00:05.100><c> want</c><00:00:05.279><c> to</c><00:00:05.400><c> do</c><00:00:05.549><c> is</c><00:00:05.730><c> figure</c><00:00:06.029><c> out</c>
+
+00:00:06.200 --> 00:00:06.210 align:start position:0%
+first thing we want to do is figure out
+ 
+
+00:00:06.210 --> 00:00:08.480 align:start position:0%
+first thing we want to do is figure out
+how<00:00:06.540><c> many</c><00:00:06.600><c> cycles</c><00:00:07.350><c> are</c><00:00:07.589><c> we</c><00:00:07.799><c> spending</c><00:00:08.099><c> per</c>
+
+00:00:08.480 --> 00:00:08.490 align:start position:0%
+how many cycles are we spending per
+ 
+
+00:00:08.490 --> 00:00:11.180 align:start position:0%
+how many cycles are we spending per
+iteration<00:00:08.820><c> of</c><00:00:09.269><c> this</c><00:00:09.420><c> loop</c><00:00:09.510><c> in</c><00:00:10.320><c> the</c><00:00:10.590><c> case</c><00:00:10.830><c> where</c>
+
+00:00:11.180 --> 00:00:11.190 align:start position:0%
+iteration of this loop in the case where
+ 
+
+00:00:11.190 --> 00:00:12.799 align:start position:0%
+iteration of this loop in the case where
+we<00:00:11.309><c> are</c><00:00:11.370><c> fetching</c><00:00:11.610><c> nothing</c><00:00:12.210><c> until</c><00:00:12.570><c> we</c><00:00:12.750><c> are</c>
+
+00:00:12.799 --> 00:00:12.809 align:start position:0%
+we are fetching nothing until we are
+ 
+
+00:00:12.809 --> 00:00:15.470 align:start position:0%
+we are fetching nothing until we are
+sure<00:00:12.840><c> what</c><00:00:13.230><c> to</c><00:00:13.410><c> fetch</c><00:00:13.910><c> there</c><00:00:14.910><c> is</c><00:00:15.059><c> a</c><00:00:15.089><c> trick</c><00:00:15.450><c> to</c>
+
+00:00:15.470 --> 00:00:15.480 align:start position:0%
+sure what to fetch there is a trick to
+ 
+
+00:00:15.480 --> 00:00:18.620 align:start position:0%
+sure what to fetch there is a trick to
+this<00:00:15.780><c> which</c><00:00:16.529><c> is</c><00:00:16.789><c> when</c><00:00:17.789><c> we</c><00:00:17.940><c> fetch</c><00:00:18.240><c> the</c><00:00:18.359><c> add</c><00:00:18.600><c> I</c>
+
+00:00:18.620 --> 00:00:18.630 align:start position:0%
+this which is when we fetch the add I
+ 
+
+00:00:18.630 --> 00:00:21.679 align:start position:0%
+this which is when we fetch the add I
+here<00:00:19.380><c> we</c><00:00:19.619><c> don't</c><00:00:19.859><c> know</c><00:00:20.070><c> if</c><00:00:20.369><c> it</c><00:00:20.520><c> is</c><00:00:20.550><c> a</c><00:00:20.699><c> branch</c><00:00:21.060><c> so</c>
+
+00:00:21.679 --> 00:00:21.689 align:start position:0%
+here we don't know if it is a branch so
+ 
+
+00:00:21.689 --> 00:00:23.900 align:start position:0%
+here we don't know if it is a branch so
+we<00:00:21.869><c> are</c><00:00:21.960><c> not</c><00:00:22.109><c> sure</c><00:00:22.439><c> what</c><00:00:22.619><c> to</c><00:00:22.830><c> fetch</c><00:00:23.100><c> in</c><00:00:23.640><c> the</c>
+
+00:00:23.900 --> 00:00:23.910 align:start position:0%
+we are not sure what to fetch in the
+ 
+
+00:00:23.910 --> 00:00:26.540 align:start position:0%
+we are not sure what to fetch in the
+next<00:00:24.210><c> cycle</c><00:00:24.359><c> when</c><00:00:25.230><c> the</c><00:00:25.260><c> add</c><00:00:25.500><c> guy</c><00:00:25.769><c> moves</c><00:00:26.160><c> to</c><00:00:26.430><c> the</c>
+
+00:00:26.540 --> 00:00:26.550 align:start position:0%
+next cycle when the add guy moves to the
+ 
+
+00:00:26.550 --> 00:00:29.750 align:start position:0%
+next cycle when the add guy moves to the
+decode<00:00:26.939><c> stage</c><00:00:27.349><c> at</c><00:00:28.349><c> the</c><00:00:28.590><c> end</c><00:00:28.710><c> of</c><00:00:28.859><c> that</c><00:00:29.039><c> cycle</c><00:00:29.310><c> we</c>
+
+00:00:29.750 --> 00:00:29.760 align:start position:0%
+decode stage at the end of that cycle we
+ 
+
+00:00:29.760 --> 00:00:33.380 align:start position:0%
+decode stage at the end of that cycle we
+know<00:00:29.970><c> that</c><00:00:30.480><c> it's</c><00:00:30.689><c> not</c><00:00:30.840><c> a</c><00:00:30.900><c> branch</c><00:00:31.640><c> so</c><00:00:32.640><c> actually</c>
+
+00:00:33.380 --> 00:00:33.390 align:start position:0%
+know that it's not a branch so actually
+ 
+
+00:00:33.390 --> 00:00:37.010 align:start position:0%
+know that it's not a branch so actually
+the<00:00:34.170><c> add</c><00:00:34.380><c> ice</c><00:00:34.739><c> costs</c><00:00:35.700><c> us</c><00:00:35.790><c> two</c><00:00:36.030><c> cycle</c><00:00:36.540><c> want</c><00:00:36.840><c> to</c>
+
+00:00:37.010 --> 00:00:37.020 align:start position:0%
+the add ice costs us two cycle want to
+ 
+
+00:00:37.020 --> 00:00:39.200 align:start position:0%
+the add ice costs us two cycle want to
+fetch<00:00:37.290><c> it</c><00:00:37.530><c> and</c><00:00:37.710><c> then</c><00:00:38.160><c> there</c><00:00:38.340><c> is</c><00:00:38.460><c> a</c><00:00:38.640><c> pipeline</c>
+
+00:00:39.200 --> 00:00:39.210 align:start position:0%
+fetch it and then there is a pipeline
+ 
+
+00:00:39.210 --> 00:00:42.560 align:start position:0%
+fetch it and then there is a pipeline
+bubble<00:00:39.780><c> until</c><00:00:40.020><c> we</c><00:00:40.500><c> can</c><00:00:40.680><c> decode</c><00:00:41.010><c> it</c><00:00:41.570><c> similarly</c>
+
+00:00:42.560 --> 00:00:42.570 align:start position:0%
+bubble until we can decode it similarly
+ 
+
+00:00:42.570 --> 00:00:45.529 align:start position:0%
+bubble until we can decode it similarly
+the<00:00:43.170><c> add</c><00:00:43.350><c> costs</c><00:00:43.950><c> as</c><00:00:44.070><c> two</c><00:00:44.250><c> cycles</c><00:00:44.760><c> want</c><00:00:45.360><c> to</c>
+
+00:00:45.529 --> 00:00:45.539 align:start position:0%
+the add costs as two cycles want to
+ 
+
+00:00:45.539 --> 00:00:47.690 align:start position:0%
+the add costs as two cycles want to
+fetch<00:00:45.750><c> it</c><00:00:45.989><c> want</c><00:00:46.559><c> to</c><00:00:46.649><c> be</c><00:00:46.739><c> sure</c><00:00:47.070><c> that</c><00:00:47.340><c> it's</c><00:00:47.520><c> not</c><00:00:47.670><c> a</c>
+
+00:00:47.690 --> 00:00:47.700 align:start position:0%
+fetch it want to be sure that it's not a
+ 
+
+00:00:47.700 --> 00:00:50.569 align:start position:0%
+fetch it want to be sure that it's not a
+branch<00:00:48.090><c> for</c><00:00:48.660><c> a</c><00:00:48.690><c> branch</c><00:00:49.050><c> we</c><00:00:49.770><c> fetch</c><00:00:50.100><c> it</c><00:00:50.280><c> in</c><00:00:50.430><c> one</c>
+
+00:00:50.569 --> 00:00:50.579 align:start position:0%
+branch for a branch we fetch it in one
+ 
+
+00:00:50.579 --> 00:00:52.939 align:start position:0%
+branch for a branch we fetch it in one
+cycle<00:00:51.030><c> we</c><00:00:51.690><c> decode</c><00:00:52.140><c> it</c><00:00:52.289><c> in</c><00:00:52.410><c> the</c><00:00:52.530><c> next</c><00:00:52.739><c> cycle</c>
+
+00:00:52.939 --> 00:00:52.949 align:start position:0%
+cycle we decode it in the next cycle
+ 
+
+00:00:52.949 --> 00:00:55.160 align:start position:0%
+cycle we decode it in the next cycle
+we're<00:00:53.850><c> still</c><00:00:54.180><c> not</c><00:00:54.390><c> sure</c><00:00:54.600><c> what</c><00:00:54.809><c> to</c><00:00:54.960><c> fetch</c>
+
+00:00:55.160 --> 00:00:55.170 align:start position:0%
+we're still not sure what to fetch
+ 
+
+00:00:55.170 --> 00:00:56.600 align:start position:0%
+we're still not sure what to fetch
+because<00:00:55.500><c> what</c><00:00:55.680><c> now</c><00:00:55.860><c> that</c><00:00:55.890><c> we</c><00:00:56.219><c> know</c><00:00:56.370><c> it's</c><00:00:56.520><c> a</c>
+
+00:00:56.600 --> 00:00:56.610 align:start position:0%
+because what now that we know it's a
+ 
+
+00:00:56.610 --> 00:00:58.040 align:start position:0%
+because what now that we know it's a
+branch<00:00:56.879><c> we</c><00:00:57.180><c> need</c><00:00:57.360><c> to</c><00:00:57.480><c> know</c><00:00:57.629><c> whether</c><00:00:57.840><c> it's</c>
+
+00:00:58.040 --> 00:00:58.050 align:start position:0%
+branch we need to know whether it's
+ 
+
+00:00:58.050 --> 00:01:01.430 align:start position:0%
+branch we need to know whether it's
+taken<00:00:58.980><c> or</c><00:00:59.100><c> not</c><00:00:59.309><c> so</c><00:01:00.270><c> the</c><00:01:00.420><c> branch</c><00:01:00.690><c> causes</c><00:01:01.230><c> three</c>
+
+00:01:01.430 --> 00:01:01.440 align:start position:0%
+taken or not so the branch causes three
+ 
+
+00:01:01.440 --> 00:01:03.619 align:start position:0%
+taken or not so the branch causes three
+cycles<00:01:01.949><c> when</c><00:01:02.579><c> the</c><00:01:02.699><c> branch</c><00:01:02.940><c> is</c><00:01:03.090><c> in</c><00:01:03.210><c> the</c><00:01:03.329><c> alias</c>
+
+00:01:03.619 --> 00:01:03.629 align:start position:0%
+cycles when the branch is in the alias
+ 
+
+00:01:03.629 --> 00:01:06.050 align:start position:0%
+cycles when the branch is in the alias
+stage<00:01:03.899><c> we</c><00:01:04.890><c> have</c><00:01:05.100><c> to</c><00:01:05.309><c> pipeline</c><00:01:05.700><c> bubbles</c>
+
+00:01:06.050 --> 00:01:06.060 align:start position:0%
+stage we have to pipeline bubbles
+ 
+
+00:01:06.060 --> 00:01:07.340 align:start position:0%
+stage we have to pipeline bubbles
+already<00:01:06.240><c> because</c><00:01:06.720><c> we</c><00:01:06.750><c> wouldn't</c><00:01:07.170><c> fetch</c>
+
+00:01:07.340 --> 00:01:07.350 align:start position:0%
+already because we wouldn't fetch
+ 
+
+00:01:07.350 --> 00:01:10.250 align:start position:0%
+already because we wouldn't fetch
+anything<00:01:07.799><c> yet</c><00:01:08.010><c> and</c><00:01:08.159><c> only</c><00:01:08.760><c> after</c><00:01:09.360><c> that</c><00:01:09.390><c> we</c><00:01:10.110><c> know</c>
+
+00:01:10.250 --> 00:01:10.260 align:start position:0%
+anything yet and only after that we know
+ 
+
+00:01:10.260 --> 00:01:12.260 align:start position:0%
+anything yet and only after that we know
+what<00:01:10.439><c> to</c><00:01:10.590><c> fetch</c><00:01:10.830><c> so</c><00:01:11.369><c> there</c><00:01:11.520><c> are</c><00:01:11.610><c> three</c><00:01:11.790><c> cycles</c>
+
+00:01:12.260 --> 00:01:12.270 align:start position:0%
+what to fetch so there are three cycles
+ 
+
+00:01:12.270 --> 00:01:15.410 align:start position:0%
+what to fetch so there are three cycles
+worth<00:01:12.479><c> of</c><00:01:12.720><c> branch</c><00:01:13.530><c> and</c><00:01:13.890><c> doing</c><00:01:14.490><c> nothing</c><00:01:14.640><c> before</c>
+
+00:01:15.410 --> 00:01:15.420 align:start position:0%
+worth of branch and doing nothing before
+ 
+
+00:01:15.420 --> 00:01:17.240 align:start position:0%
+worth of branch and doing nothing before
+we<00:01:15.570><c> can</c><00:01:15.750><c> fetch</c><00:01:15.960><c> the</c><00:01:16.080><c> next</c><00:01:16.200><c> instruction</c><00:01:16.350><c> so</c>
+
+00:01:17.240 --> 00:01:17.250 align:start position:0%
+we can fetch the next instruction so
+ 
+
+00:01:17.250 --> 00:01:21.289 align:start position:0%
+we can fetch the next instruction so
+overall<00:01:18.110><c> we're</c><00:01:19.110><c> spending</c><00:01:19.580><c> seven</c><00:01:20.580><c> cycles</c><00:01:20.820><c> per</c>
+
+00:01:21.289 --> 00:01:21.299 align:start position:0%
+overall we're spending seven cycles per
+ 
+
+00:01:21.299 --> 00:01:24.920 align:start position:0%
+overall we're spending seven cycles per
+iteration<00:01:21.509><c> of</c><00:01:22.080><c> this</c><00:01:22.290><c> loop</c><00:01:22.520><c> now</c><00:01:23.720><c> let's</c><00:01:24.720><c> see</c>
+
+00:01:24.920 --> 00:01:24.930 align:start position:0%
+iteration of this loop now let's see
+ 
+
+00:01:24.930 --> 00:01:26.480 align:start position:0%
+iteration of this loop now let's see
+what<00:01:25.110><c> happens</c><00:01:25.470><c> with</c><00:01:25.619><c> the</c><00:01:25.710><c> perfect</c><00:01:26.130><c> predictor</c>
+
+00:01:26.480 --> 00:01:26.490 align:start position:0%
+what happens with the perfect predictor
+ 
+
+00:01:26.490 --> 00:01:29.149 align:start position:0%
+what happens with the perfect predictor
+with<00:01:27.119><c> a</c><00:01:27.150><c> perfect</c><00:01:27.600><c> predictor</c><00:01:27.960><c> when</c><00:01:28.920><c> we</c><00:01:29.070><c> are</c>
+
+00:01:29.149 --> 00:01:29.159 align:start position:0%
+with a perfect predictor when we are
+ 
+
+00:01:29.159 --> 00:01:31.999 align:start position:0%
+with a perfect predictor when we are
+fetching<00:01:29.400><c> the</c><00:01:29.729><c> ad</c><00:01:29.880><c> we</c><00:01:30.869><c> can</c><00:01:31.079><c> perfectly</c><00:01:31.530><c> predict</c>
+
+00:01:31.999 --> 00:01:32.009 align:start position:0%
+fetching the ad we can perfectly predict
+ 
+
+00:01:32.009 --> 00:01:34.760 align:start position:0%
+fetching the ad we can perfectly predict
+that<00:01:32.579><c> the</c><00:01:32.729><c> next</c><00:01:33.000><c> instruction</c><00:01:33.450><c> to</c><00:01:33.479><c> fetch</c><00:01:33.810><c> is</c>
+
+00:01:34.760 --> 00:01:34.770 align:start position:0%
+that the next instruction to fetch is
+ 
+
+00:01:34.770 --> 00:01:37.789 align:start position:0%
+that the next instruction to fetch is
+this<00:01:35.070><c> second</c><00:01:35.670><c> ad</c><00:01:35.880><c> so</c><00:01:36.780><c> we</c><00:01:36.900><c> spend</c><00:01:37.200><c> one</c><00:01:37.380><c> cycle</c>
+
+00:01:37.789 --> 00:01:37.799 align:start position:0%
+this second ad so we spend one cycle
+ 
+
+00:01:37.799 --> 00:01:41.300 align:start position:0%
+this second ad so we spend one cycle
+here<00:01:38.130><c> one</c><00:01:39.090><c> cycle</c><00:01:39.540><c> here</c><00:01:39.869><c> and</c><00:01:40.079><c> with</c><00:01:40.799><c> the</c><00:01:40.890><c> perfect</c>
+
+00:01:41.300 --> 00:01:41.310 align:start position:0%
+here one cycle here and with the perfect
+ 
+
+00:01:41.310 --> 00:01:43.069 align:start position:0%
+here one cycle here and with the perfect
+predictor<00:01:41.640><c> once</c><00:01:42.030><c> we</c><00:01:42.180><c> have</c><00:01:42.360><c> fetch</c><00:01:42.600><c> this</c><00:01:42.750><c> branch</c>
+
+00:01:43.069 --> 00:01:43.079 align:start position:0%
+predictor once we have fetch this branch
+ 
+
+00:01:43.079 --> 00:01:44.870 align:start position:0%
+predictor once we have fetch this branch
+we<00:01:43.320><c> magically</c><00:01:43.979><c> know</c><00:01:44.159><c> that</c><00:01:44.490><c> we</c><00:01:44.640><c> should</c><00:01:44.790><c> be</c>
+
+00:01:44.870 --> 00:01:44.880 align:start position:0%
+we magically know that we should be
+ 
+
+00:01:44.880 --> 00:01:47.420 align:start position:0%
+we magically know that we should be
+fetching<00:01:45.090><c> this</c><00:01:45.390><c> at</c><00:01:45.630><c> I</c><00:01:45.810><c> so</c><00:01:46.049><c> we</c><00:01:46.530><c> spend</c><00:01:46.829><c> one</c><00:01:47.009><c> cycle</c>
+
+00:01:47.420 --> 00:01:47.430 align:start position:0%
+fetching this at I so we spend one cycle
+ 
+
+00:01:47.430 --> 00:01:50.060 align:start position:0%
+fetching this at I so we spend one cycle
+here<00:01:47.700><c> for</c><00:01:48.000><c> a</c><00:01:48.030><c> total</c><00:01:48.450><c> of</c><00:01:48.570><c> three</c><00:01:48.869><c> cycles</c><00:01:49.140><c> so</c><00:01:49.920><c> the</c>
+
+00:01:50.060 --> 00:01:50.070 align:start position:0%
+here for a total of three cycles so the
+ 
+
+00:01:50.070 --> 00:01:51.889 align:start position:0%
+here for a total of three cycles so the
+speed-up<00:01:50.369><c> of</c><00:01:50.670><c> having</c><00:01:51.060><c> a</c><00:01:51.180><c> perfect</c><00:01:51.570><c> predictor</c>
+
+00:01:51.889 --> 00:01:51.899 align:start position:0%
+speed-up of having a perfect predictor
+ 
+
+00:01:51.899 --> 00:01:55.819 align:start position:0%
+speed-up of having a perfect predictor
+in<00:01:52.110><c> this</c><00:01:52.259><c> case</c><00:01:52.500><c> is</c><00:01:53.159><c> 7</c><00:01:53.670><c> over</c><00:01:54.210><c> 3</c><00:01:54.320><c> which</c><00:01:55.320><c> is</c><00:01:55.350><c> 2</c>
+
+00:01:55.819 --> 00:01:55.829 align:start position:0%
+in this case is 7 over 3 which is 2
+ 
+
+00:01:55.829 --> 00:01:58.999 align:start position:0%
+in this case is 7 over 3 which is 2
+point<00:01:56.100><c> 33</c><00:01:56.460><c> so</c><00:01:57.180><c> with</c><00:01:57.360><c> a</c><00:01:57.390><c> perfect</c><00:01:57.869><c> predictor</c><00:01:58.229><c> we</c>
+
+00:01:58.999 --> 00:01:59.009 align:start position:0%
+point 33 so with a perfect predictor we
+ 
+
+00:01:59.009 --> 00:02:01.010 align:start position:0%
+point 33 so with a perfect predictor we
+will<00:01:59.159><c> have</c><00:01:59.430><c> more</c><00:02:00.270><c> than</c><00:02:00.479><c> twice</c><00:02:00.780><c> the</c>
+
+00:02:01.010 --> 00:02:01.020 align:start position:0%
+will have more than twice the
+ 
+
+00:02:01.020 --> 00:02:03.649 align:start position:0%
+will have more than twice the
+performance<00:02:01.200><c> that</c><00:02:01.770><c> we're</c><00:02:02.070><c> having</c><00:02:02.659><c> when</c>
+
+00:02:03.649 --> 00:02:03.659 align:start position:0%
+performance that we're having when
+ 
+
+00:02:03.659 --> 00:02:05.420 align:start position:0%
+performance that we're having when
+fetching<00:02:04.110><c> nothing</c><00:02:04.439><c> until</c><00:02:04.770><c> we</c><00:02:04.920><c> are</c><00:02:04.979><c> sure</c><00:02:05.040><c> what</c>
+
+00:02:05.420 --> 00:02:05.430 align:start position:0%
+fetching nothing until we are sure what
+ 
+
+00:02:05.430 --> 00:02:07.820 align:start position:0%
+fetching nothing until we are sure what
+to<00:02:05.610><c> fetch</c>
+

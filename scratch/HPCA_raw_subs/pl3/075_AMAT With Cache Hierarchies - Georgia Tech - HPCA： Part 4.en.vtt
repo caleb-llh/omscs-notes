@@ -1,0 +1,224 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.909 align:start position:0%
+ 
+so<00:00:00.399><c> let's</c><00:00:00.640><c> look</c><00:00:00.799><c> at</c><00:00:00.960><c> the</c><00:00:01.079><c> aat</c><00:00:01.679><c> equation</c><00:00:02.679><c> when</c>
+
+00:00:02.909 --> 00:00:02.919 align:start position:0%
+so let's look at the aat equation when
+ 
+
+00:00:02.919 --> 00:00:06.230 align:start position:0%
+so let's look at the aat equation when
+we<00:00:03.159><c> have</c><00:00:03.320><c> a</c><00:00:03.520><c> cache</c><00:00:04.240><c> hierarchy</c><00:00:05.240><c> the</c><00:00:05.440><c> aat</c><00:00:06.080><c> is</c>
+
+00:00:06.230 --> 00:00:06.240 align:start position:0%
+we have a cache hierarchy the aat is
+ 
+
+00:00:06.240 --> 00:00:10.470 align:start position:0%
+we have a cache hierarchy the aat is
+still<00:00:06.520><c> equal</c><00:00:06.799><c> to</c><00:00:07.000><c> L1</c><00:00:07.560><c> hit</c><00:00:08.000><c> time</c><00:00:09.000><c> plus</c><00:00:09.800><c> the</c><00:00:09.960><c> L1</c>
+
+00:00:10.470 --> 00:00:10.480 align:start position:0%
+still equal to L1 hit time plus the L1
+ 
+
+00:00:10.480 --> 00:00:13.669 align:start position:0%
+still equal to L1 hit time plus the L1
+Miss<00:00:10.800><c> rate</c><00:00:11.200><c> times</c><00:00:11.639><c> the</c><00:00:11.799><c> L1</c><00:00:12.280><c> Miss</c><00:00:12.599><c> penalty</c><00:00:13.559><c> but</c>
+
+00:00:13.669 --> 00:00:13.679 align:start position:0%
+Miss rate times the L1 Miss penalty but
+ 
+
+00:00:13.679 --> 00:00:15.829 align:start position:0%
+Miss rate times the L1 Miss penalty but
+it<00:00:13.839><c> used</c><00:00:14.080><c> to</c><00:00:14.320><c> stop</c><00:00:14.679><c> here</c><00:00:14.920><c> and</c><00:00:15.120><c> the</c><00:00:15.200><c> L1</c><00:00:15.559><c> Miss</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+it used to stop here and the L1 Miss
+ 
+
+00:00:15.839 --> 00:00:18.710 align:start position:0%
+it used to stop here and the L1 Miss
+penalty<00:00:16.600><c> would</c><00:00:16.840><c> simply</c><00:00:17.240><c> be</c><00:00:17.560><c> the</c><00:00:17.720><c> memory</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+penalty would simply be the memory
+ 
+
+00:00:18.720 --> 00:00:21.870 align:start position:0%
+penalty would simply be the memory
+access<00:00:19.160><c> time</c><00:00:19.760><c> but</c><00:00:20.000><c> now</c><00:00:20.240><c> we</c><00:00:20.480><c> have</c><00:00:21.119><c> that</c><00:00:21.320><c> the</c><00:00:21.439><c> L1</c>
+
+00:00:21.870 --> 00:00:21.880 align:start position:0%
+access time but now we have that the L1
+ 
+
+00:00:21.880 --> 00:00:26.109 align:start position:0%
+access time but now we have that the L1
+Miss<00:00:22.240><c> penalty</c><00:00:23.240><c> is</c><00:00:23.480><c> the</c><00:00:23.599><c> L2</c><00:00:24.199><c> hit</c><00:00:24.519><c> time</c><00:00:25.119><c> plus</c><00:00:25.960><c> the</c>
+
+00:00:26.109 --> 00:00:26.119 align:start position:0%
+Miss penalty is the L2 hit time plus the
+ 
+
+00:00:26.119 --> 00:00:30.349 align:start position:0%
+Miss penalty is the L2 hit time plus the
+L2<00:00:26.679><c> Miss</c><00:00:27.000><c> rate</c><00:00:27.320><c> times</c><00:00:28.240><c> the</c><00:00:28.400><c> L2</c><00:00:28.920><c> Miss</c><00:00:29.240><c> penalty</c>
+
+00:00:30.349 --> 00:00:30.359 align:start position:0%
+L2 Miss rate times the L2 Miss penalty
+ 
+
+00:00:30.359 --> 00:00:33.510 align:start position:0%
+L2 Miss rate times the L2 Miss penalty
+and<00:00:30.560><c> the</c><00:00:30.679><c> L2</c><00:00:31.240><c> Miss</c><00:00:31.560><c> penalty</c><00:00:32.239><c> is</c><00:00:32.439><c> the</c><00:00:32.599><c> L3</c><00:00:33.200><c> hit</c>
+
+00:00:33.510 --> 00:00:33.520 align:start position:0%
+and the L2 Miss penalty is the L3 hit
+ 
+
+00:00:33.520 --> 00:00:35.910 align:start position:0%
+and the L2 Miss penalty is the L3 hit
+time<00:00:34.440><c> plus</c><00:00:34.760><c> the</c><00:00:34.920><c> level</c><00:00:35.200><c> three</c><00:00:35.480><c> Miss</c><00:00:35.719><c> rate</c>
+
+00:00:35.910 --> 00:00:35.920 align:start position:0%
+time plus the level three Miss rate
+ 
+
+00:00:35.920 --> 00:00:38.310 align:start position:0%
+time plus the level three Miss rate
+times<00:00:36.239><c> the</c><00:00:36.360><c> level</c><00:00:36.600><c> three</c><00:00:36.879><c> Miss</c><00:00:37.200><c> penalty</c><00:00:38.200><c> and</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+times the level three Miss penalty and
+ 
+
+00:00:38.320 --> 00:00:42.430 align:start position:0%
+times the level three Miss penalty and
+so<00:00:38.559><c> on</c><00:00:38.840><c> until</c><00:00:39.239><c> at</c><00:00:39.399><c> some</c><00:00:39.920><c> point</c><00:00:40.920><c> we</c><00:00:41.079><c> have</c><00:00:41.239><c> a</c><00:00:41.640><c> cash</c>
+
+00:00:42.430 --> 00:00:42.440 align:start position:0%
+so on until at some point we have a cash
+ 
+
+00:00:42.440 --> 00:00:43.869 align:start position:0%
+so on until at some point we have a cash
+whose<00:00:42.719><c> Miss</c>
+
+00:00:43.869 --> 00:00:43.879 align:start position:0%
+whose Miss
+ 
+
+00:00:43.879 --> 00:00:46.270 align:start position:0%
+whose Miss
+penalty<00:00:44.879><c> is</c><00:00:45.160><c> equal</c><00:00:45.440><c> to</c><00:00:45.559><c> the</c><00:00:45.680><c> main</c><00:00:45.960><c> memory</c>
+
+00:00:46.270 --> 00:00:46.280 align:start position:0%
+penalty is equal to the main memory
+ 
+
+00:00:46.280 --> 00:00:48.709 align:start position:0%
+penalty is equal to the main memory
+latencies<00:00:47.000><c> because</c><00:00:48.000><c> there</c><00:00:48.120><c> is</c><00:00:48.280><c> no</c><00:00:48.440><c> more</c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+latencies because there is no more
+ 
+
+00:00:48.719 --> 00:00:52.630 align:start position:0%
+latencies because there is no more
+caches<00:00:49.160><c> beneath</c><00:00:49.879><c> it</c><00:00:50.879><c> this</c><00:00:51.239><c> cash</c><00:00:51.920><c> whose</c><00:00:52.160><c> misses</c>
+
+00:00:52.630 --> 00:00:52.640 align:start position:0%
+caches beneath it this cash whose misses
+ 
+
+00:00:52.640 --> 00:00:55.830 align:start position:0%
+caches beneath it this cash whose misses
+go<00:00:52.879><c> directly</c><00:00:53.199><c> to</c><00:00:53.399><c> memory</c><00:00:54.160><c> is</c><00:00:54.399><c> called</c><00:00:55.199><c> the</c><00:00:55.440><c> last</c>
+
+00:00:55.830 --> 00:00:55.840 align:start position:0%
+go directly to memory is called the last
+ 
+
+00:00:55.840 --> 00:00:58.910 align:start position:0%
+go directly to memory is called the last
+level<00:00:56.320><c> cach</c><00:00:57.280><c> or</c>
+
+00:00:58.910 --> 00:00:58.920 align:start position:0%
+level cach or
+ 
+
+00:00:58.920 --> 00:01:02.750 align:start position:0%
+level cach or
+LLC<00:01:00.000><c> so</c><00:01:00.079><c> it</c><00:01:00.199><c> used</c><00:01:00.440><c> to</c><00:01:00.640><c> be</c><00:01:01.280><c> that</c><00:01:01.480><c> the</c><00:01:01.640><c> L1</c><00:01:02.280><c> cash</c>
+
+00:01:02.750 --> 00:01:02.760 align:start position:0%
+LLC so it used to be that the L1 cash
+ 
+
+00:01:02.760 --> 00:01:06.950 align:start position:0%
+LLC so it used to be that the L1 cash
+was<00:01:02.960><c> the</c><00:01:03.120><c> only</c><00:01:03.519><c> cash</c><00:01:04.119><c> so</c><00:01:04.360><c> L1</c><00:01:04.879><c> cach</c><00:01:05.159><c> was</c><00:01:05.360><c> the</c><00:01:05.960><c> LLC</c>
+
+00:01:06.950 --> 00:01:06.960 align:start position:0%
+was the only cash so L1 cach was the LLC
+ 
+
+00:01:06.960 --> 00:01:09.990 align:start position:0%
+was the only cash so L1 cach was the LLC
+then<00:01:07.479><c> level</c><00:01:07.759><c> two</c><00:01:08.080><c> caches</c><00:01:08.439><c> were</c><00:01:08.720><c> introduced</c><00:01:09.720><c> so</c>
+
+00:01:09.990 --> 00:01:10.000 align:start position:0%
+then level two caches were introduced so
+ 
+
+00:01:10.000 --> 00:01:12.870 align:start position:0%
+then level two caches were introduced so
+level<00:01:10.280><c> two</c><00:01:11.280><c> Miss</c><00:01:11.600><c> penalty</c><00:01:12.400><c> was</c><00:01:12.600><c> the</c><00:01:12.680><c> main</c>
+
+00:01:12.870 --> 00:01:12.880 align:start position:0%
+level two Miss penalty was the main
+ 
+
+00:01:12.880 --> 00:01:15.070 align:start position:0%
+level two Miss penalty was the main
+memory<00:01:13.200><c> latency</c><00:01:13.840><c> because</c><00:01:14.159><c> level</c><00:01:14.360><c> two</c><00:01:14.880><c> went</c>
+
+00:01:15.070 --> 00:01:15.080 align:start position:0%
+memory latency because level two went
+ 
+
+00:01:15.080 --> 00:01:17.870 align:start position:0%
+memory latency because level two went
+directly<00:01:15.400><c> to</c><00:01:15.560><c> memory</c><00:01:16.280><c> and</c><00:01:16.520><c> that</c><00:01:16.759><c> was</c><00:01:17.479><c> the</c><00:01:17.640><c> last</c>
+
+00:01:17.870 --> 00:01:17.880 align:start position:0%
+directly to memory and that was the last
+ 
+
+00:01:17.880 --> 00:01:20.149 align:start position:0%
+directly to memory and that was the last
+level<00:01:18.240><c> cach</c><00:01:18.880><c> and</c><00:01:19.040><c> then</c><00:01:19.200><c> level</c><00:01:19.479><c> three</c><00:01:19.799><c> caches</c>
+
+00:01:20.149 --> 00:01:20.159 align:start position:0%
+level cach and then level three caches
+ 
+
+00:01:20.159 --> 00:01:22.910 align:start position:0%
+level cach and then level three caches
+were<00:01:20.400><c> introduced</c><00:01:21.240><c> so</c><00:01:21.520><c> they</c><00:01:21.720><c> became</c><00:01:22.079><c> the</c><00:01:22.280><c> LLC</c>
+
+00:01:22.910 --> 00:01:22.920 align:start position:0%
+were introduced so they became the LLC
+ 
+
+00:01:22.920 --> 00:01:26.000 align:start position:0%
+were introduced so they became the LLC
+and<00:01:23.079><c> so</c><00:01:23.280><c> on</c>
+

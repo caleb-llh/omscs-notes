@@ -1,0 +1,476 @@
+1
+00:00:00,610 --> 00:00:02,390
+ So the Summa algorithm seems pretty good, but
+
+2
+00:00:02,390 --> 00:00:05,240
+ how close is it to the best possible scheme?
+
+3
+00:00:05,240 --> 00:00:09,430
+ Imagine a machine with P nodes connected by some topology,
+
+4
+00:00:09,430 --> 00:00:13,220
+ further suppose each node has M words of main memory.
+
+5
+00:00:13,220 --> 00:00:16,079
+ Now let's say you take the matrix operands and you chop them up into
+
+6
+00:00:16,079 --> 00:00:20,090
+ little bits and distribute the little bits across all the nodes.
+
+7
+00:00:20,090 --> 00:00:23,090
+ What I want you to do now, is pick one of the nodes, zoom in on it and
+
+8
+00:00:23,090 --> 00:00:28,853
+ study its possible behavior.
+
+9
+00:00:28,853 --> 00:00:32,210
+ Now recall that each node has M words of main memory.
+
+10
+00:00:32,210 --> 00:00:36,630
+ Let's further suppose that during the entire distributed matrix multiply,
+
+11
+00:00:36,630 --> 00:00:40,760
+ this particular node does W multiplications.
+
+12
+00:00:40,760 --> 00:00:43,690
+ We don't know what W is, but you'll determine that later.
+
+13
+00:00:43,690 --> 00:00:46,640
+ Now let me pose the following question to you.
+
+14
+00:00:46,640 --> 00:00:51,470
+ How many words must this node send or receive?
+
+15
+00:00:51,470 --> 00:00:55,310
+ To figure this out, let's start by imagining that the word performs its
+
+16
+00:00:55,310 --> 00:00:59,570
+ work as a sequence of computation and communication steps.
+
+17
+00:00:59,570 --> 00:01:04,819
+ We'll visualize what the node does by a hypothetical timeline, like this one.
+
+18
+00:01:04,819 --> 00:01:07,610
+ So time precedes horizontally.
+
+19
+00:01:07,610 --> 00:01:10,260
+ And the node alternates between phases of, say,
+
+20
+00:01:10,260 --> 00:01:12,790
+ communication followed by some computation,
+
+21
+00:01:12,790 --> 00:01:17,120
+ followed by some more communication, followed by computation, and so on.
+
+22
+00:01:17,120 --> 00:01:21,120
+ Now let's divide this timeline into L distinct phases.
+
+23
+00:01:21,120 --> 00:01:24,010
+ A phase is special.
+
+24
+00:01:24,010 --> 00:01:30,310
+ We’ll assume, in each phase, that every node sends and receives exactly M words.
+
+25
+00:01:30,310 --> 00:01:32,910
+ The exception is the last phase.
+
+26
+00:01:32,910 --> 00:01:37,005
+ In last phase, you might send or receive fewer than M words.
+
+27
+00:01:37,005 --> 00:01:39,605
+ The reason is simply that the total number of words sent and
+
+28
+00:01:39,605 --> 00:01:42,875
+ received might not be divisible by L.
+
+29
+00:01:42,875 --> 00:01:44,175
+ Here's a question.
+
+30
+00:01:44,175 --> 00:01:48,925
+ What is the largest number of multiplies that each phase can possibly do?
+
+31
+00:01:48,925 --> 00:01:51,715
+ To figure this out, let's consider one of the phases.
+
+32
+00:01:51,715 --> 00:01:57,150
+ Let S sub A be the number of unique elements of A seen during this phase.
+
+33
+00:01:57,150 --> 00:02:01,010
+ And similarly, let's let S sub B, and S sub C, be the number of
+
+34
+00:02:01,010 --> 00:02:05,240
+ unique elements of B and C that we see during this phase respectively.
+
+35
+00:02:05,240 --> 00:02:08,919
+ By Loomis-Whitney, you can compute the maximum number of multiplies performed
+
+36
+00:02:08,919 --> 00:02:13,130
+ in this phase given S sub A, S sub B, and S sub C.
+
+37
+00:02:13,130 --> 00:02:16,720
+ So all we need to figure out now is, how big are these sets?
+
+38
+00:02:16,720 --> 00:02:19,350
+ Let's start by considering just S of A.
+
+39
+00:02:19,350 --> 00:02:22,500
+ Now imagine the node and the state of it's memory.
+
+40
+00:02:22,500 --> 00:02:25,220
+ It's possible that at the very beginning of the phase,
+
+41
+00:02:25,220 --> 00:02:28,960
+ the memory is full of only elements from A.
+
+42
+00:02:28,960 --> 00:02:29,480
+ And of course,
+
+43
+00:02:29,480 --> 00:02:34,140
+ because the memory capacity is M, there can't be more than M such words.
+
+44
+00:02:34,140 --> 00:02:38,630
+ Now remember, that by definition the phase performs exactly M sends or
+
+45
+00:02:38,630 --> 00:02:40,050
+ receives.
+
+46
+00:02:40,050 --> 00:02:42,300
+ So let's think about what that might mean.
+
+47
+00:02:42,300 --> 00:02:43,960
+ It's possible that during the phase,
+
+48
+00:02:43,960 --> 00:02:46,905
+ all of these words are used to do computation.
+
+49
+00:02:46,905 --> 00:02:50,595
+ It's also possible that all M of these words, at some point, get pushed out.
+
+50
+00:02:50,595 --> 00:02:55,725
+ And when I said pushed out, I don't necessarily mean being communicated,
+
+51
+00:02:55,725 --> 00:02:59,495
+ I just mean we get rid of them and make space for other words.
+
+52
+00:02:59,495 --> 00:03:03,195
+ It's then possible that all these communications bring in a whole new set
+
+53
+00:03:03,195 --> 00:03:04,750
+ of elements of A.
+
+54
+00:03:04,750 --> 00:03:08,690
+ These are M completely brand new set of elements and it's possible that before
+
+55
+00:03:08,690 --> 00:03:12,240
+ the end of the phase, we use all of them to form more multiplications.
+
+56
+00:03:12,240 --> 00:03:16,940
+ So what have we said so far about the capacity of S sub A?
+
+57
+00:03:16,940 --> 00:03:20,250
+ Basically, we just said that it's possible, during this phase,
+
+58
+00:03:20,250 --> 00:03:25,540
+ that we might have seen up to 2 times M elements from A.
+
+59
+00:03:25,540 --> 00:03:28,200
+ Now remember, this is just an upper bound.
+
+60
+00:03:28,200 --> 00:03:31,460
+ And I realize it might seem a little loosey goosey, as far as bounds go.
+
+61
+00:03:31,460 --> 00:03:33,720
+ Honk.
+
+62
+00:03:33,720 --> 00:03:37,250
+ Now even if this bound a bit loose, remember, we're just after a bound, so
+
+63
+00:03:37,250 --> 00:03:40,015
+ there's nothing incorrect about this reasoning.
+
+64
+00:03:40,015 --> 00:03:43,275
+ It just might not be as precise as it could be.
+
+65
+00:03:43,275 --> 00:03:47,465
+ Now by similar reasoning, you can find that the maximum size of S B and
+
+66
+00:03:47,465 --> 00:03:49,595
+ S C are also 2 times M.
+
+67
+00:03:49,595 --> 00:03:55,055
+ When you plug all that in you'll get 2 root 2, times M to the three-halves.
+
+68
+00:03:55,055 --> 00:03:57,930
+ You might want to stop and check that you agree.
+
+69
+00:03:57,930 --> 00:04:01,590
+ What we've just said is that the maximum number of multiplies that might have
+
+70
+00:04:01,590 --> 00:04:06,688
+ occurred during this phase is 2 times root 2, times M to the three-halves.
+
+71
+00:04:06,688 --> 00:04:11,430
+ A natural follow-up question is, how many phases are there?
+
+72
+00:04:11,430 --> 00:04:13,530
+ Let's go back to the timeline.
+
+73
+00:04:13,530 --> 00:04:18,430
+ I told you this node did a total of W multiplies.
+
+74
+00:04:18,430 --> 00:04:22,450
+ Remember, that every phase does at most this number of multiplies.
+
+75
+00:04:22,450 --> 00:04:24,650
+ So what might L be?
+
+76
+00:04:24,650 --> 00:04:29,150
+ Well, L has to be at least equal to the number of full phases.
+
+77
+00:04:29,150 --> 00:04:32,931
+ And the number of full phases has to be at least the number of multiplies that
+
+78
+00:04:32,931 --> 00:04:37,430
+ the node does, divided by the maximum number of multiplies per phase.
+
+79
+00:04:37,430 --> 00:04:40,440
+ And of course, you just computed that, so we can plug that in.
+
+80
+00:04:40,440 --> 00:04:44,560
+ And then, of course, get rid of the floors, leaving you with this.
+
+81
+00:04:44,560 --> 00:04:49,520
+ Now remember, that every full phase does exactly M transfers.
+
+82
+00:04:49,520 --> 00:04:53,070
+ That means you can get a lower bound on the total number of transfers,
+
+83
+00:04:53,070 --> 00:04:56,960
+ which would just be the number of full phases times M.
+
+84
+00:04:56,960 --> 00:05:00,210
+ So the number of words communicated by at least one node,
+
+85
+00:05:00,210 --> 00:05:04,260
+ has to be at least the number of full phases times M.
+
+86
+00:05:04,260 --> 00:05:06,420
+ Let's plug all this stuff in.
+
+87
+00:05:06,420 --> 00:05:08,760
+ Okay, whew, you're almost there.
+
+88
+00:05:08,760 --> 00:05:10,480
+ Now what about W?
+
+89
+00:05:10,480 --> 00:05:14,740
+ If the matrix operands had been of size mby k, k by n, and m by n,
+
+90
+00:05:14,740 --> 00:05:17,580
+ then you know the total number of multiplies is just mnk.
+
+91
+00:05:17,580 --> 00:05:21,470
+ Now, if that's a total number of multiplies, and
+
+92
+00:05:21,470 --> 00:05:23,780
+ all the processes are executing in parallel,
+
+93
+00:05:23,780 --> 00:05:30,240
+ then at least one node has to execute mnk over P multiplications.
+
+94
+00:05:30,240 --> 00:05:35,870
+ That is, there's some node for which W is at least mnk over P.
+
+95
+00:05:35,870 --> 00:05:37,810
+ Let's plug that in.
+
+96
+00:05:37,810 --> 00:05:41,940
+ What you now have is a lower bound on the volume of communication by at least
+
+97
+00:05:41,940 --> 00:05:43,630
+ 1 node.
+
+98
+00:05:43,630 --> 00:05:46,800
+ Let's simplify this a little bit for the square case.
+
+99
+00:05:46,800 --> 00:05:50,570
+ That would be n cubed over P multiplies, per node.
+
+100
+00:05:50,570 --> 00:05:53,480
+ Now there's just one more piece of useful information which is
+
+101
+00:05:53,480 --> 00:05:55,240
+ the value of M.
+
+102
+00:05:55,240 --> 00:05:58,510
+ Remember, that we distributed the matrices, evenly, over all the nodes.
+
+103
+00:05:58,510 --> 00:06:03,070
+ So that means M has to be proportional to n squared over P.
+
+104
+00:06:03,070 --> 00:06:06,540
+ So if you plugged that in and simplify, you'll get this.
+
+105
+00:06:06,540 --> 00:06:09,320
+ So to summarize, at least one node sends and
+
+106
+00:06:09,320 --> 00:06:13,050
+ receives n squared over root P words.
+
+107
+00:06:13,050 --> 00:06:16,460
+ Let's connect this back to the big picture of this segment.
+
+108
+00:06:16,460 --> 00:06:20,330
+ This analysis is about the volume of communication seen by at least one
+
+109
+00:06:20,330 --> 00:06:21,560
+ processor.
+
+110
+00:06:21,560 --> 00:06:24,190
+ In terms of the time to do communication,
+
+111
+00:06:24,190 --> 00:06:28,390
+ it allows you to conclude that the bandwidth term should have this form.
+
+112
+00:06:28,390 --> 00:06:31,500
+ At least one node sends this much data.
+
+113
+00:06:31,500 --> 00:06:34,650
+ And it can only send it at a rate of beta.
+
+114
+00:06:34,650 --> 00:06:37,760
+ That's because beta is the minimum time per word.
+
+115
+00:06:37,760 --> 00:06:41,450
+ And your lower bound tells you the minimum number of words that at least
+
+116
+00:06:41,450 --> 00:06:43,560
+ one node must have sent.
+
+117
+00:06:43,560 --> 00:06:46,150
+ So that gives us a lower bound on this beta term.
+
+118
+00:06:46,150 --> 00:06:47,920
+ That's super cool.
+
+119
+00:06:47,920 --> 00:06:47,920
+ The only question now, is what is this?
+

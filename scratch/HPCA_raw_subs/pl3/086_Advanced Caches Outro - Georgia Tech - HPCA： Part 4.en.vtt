@@ -1,0 +1,48 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.420 --> 00:00:02.389 align:start position:0%
+ 
+in<00:00:01.020><c> this</c><00:00:01.199><c> lesson</c><00:00:01.500><c> we</c><00:00:01.680><c> learn</c><00:00:01.920><c> how</c><00:00:02.220><c> modern</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+in this lesson we learn how modern
+ 
+
+00:00:02.399 --> 00:00:05.090 align:start position:0%
+in this lesson we learn how modern
+processors<00:00:03.060><c> use</c><00:00:03.360><c> multi-level</c><00:00:04.140><c> caches</c><00:00:04.620><c> and</c>
+
+00:00:05.090 --> 00:00:05.100 align:start position:0%
+processors use multi-level caches and
+ 
+
+00:00:05.100 --> 00:00:07.610 align:start position:0%
+processors use multi-level caches and
+other<00:00:05.339><c> cache</c><00:00:05.819><c> tricks</c><00:00:06.120><c> to</c><00:00:06.720><c> make</c><00:00:06.899><c> up</c><00:00:07.080><c> for</c><00:00:07.379><c> main</c>
+
+00:00:07.610 --> 00:00:07.620 align:start position:0%
+other cache tricks to make up for main
+ 
+
+00:00:07.620 --> 00:00:10.549 align:start position:0%
+other cache tricks to make up for main
+memory<00:00:07.980><c> being</c><00:00:08.220><c> so</c><00:00:08.519><c> slow</c><00:00:08.840><c> but</c><00:00:09.840><c> why</c><00:00:10.200><c> is</c><00:00:10.380><c> main</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+memory being so slow but why is main
+ 
+
+00:00:10.559 --> 00:00:11.930 align:start position:0%
+memory being so slow but why is main
+memory<00:00:10.920><c> so</c><00:00:11.219><c> slow</c>
+
+00:00:11.930 --> 00:00:11.940 align:start position:0%
+memory so slow
+ 
+
+00:00:11.940 --> 00:00:15.440 align:start position:0%
+memory so slow
+let's<00:00:12.420><c> see</c><00:00:12.599><c> in</c><00:00:12.719><c> our</c><00:00:12.900><c> next</c><00:00:13.019><c> lesson</c>
+

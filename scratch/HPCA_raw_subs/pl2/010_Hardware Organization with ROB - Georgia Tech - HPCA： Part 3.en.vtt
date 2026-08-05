@@ -1,0 +1,200 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.550 align:start position:0%
+ 
+so<00:00:00.280><c> let's</c><00:00:00.520><c> look</c><00:00:00.760><c> at</c><00:00:01.040><c> what</c><00:00:01.199><c> kinds</c><00:00:01.400><c> of</c>
+
+00:00:01.550 --> 00:00:01.560 align:start position:0%
+so let's look at what kinds of
+ 
+
+00:00:01.560 --> 00:00:03.030 align:start position:0%
+so let's look at what kinds of
+structures<00:00:02.040><c> and</c><00:00:02.240><c> what</c><00:00:02.360><c> do</c><00:00:02.480><c> we</c><00:00:02.639><c> have</c><00:00:02.760><c> in</c><00:00:02.879><c> the</c>
+
+00:00:03.030 --> 00:00:03.040 align:start position:0%
+structures and what do we have in the
+ 
+
+00:00:03.040 --> 00:00:05.150 align:start position:0%
+structures and what do we have in the
+hardware<00:00:03.399><c> with</c><00:00:03.560><c> the</c><00:00:03.679><c> Rob</c><00:00:04.400><c> so</c><00:00:04.600><c> we</c><00:00:04.720><c> still</c><00:00:05.000><c> have</c>
+
+00:00:05.150 --> 00:00:05.160 align:start position:0%
+hardware with the Rob so we still have
+ 
+
+00:00:05.160 --> 00:00:06.869 align:start position:0%
+hardware with the Rob so we still have
+the<00:00:05.319><c> instruction</c><00:00:05.879><c> queue</c><00:00:06.279><c> from</c><00:00:06.520><c> which</c><00:00:06.680><c> we</c>
+
+00:00:06.869 --> 00:00:06.879 align:start position:0%
+the instruction queue from which we
+ 
+
+00:00:06.879 --> 00:00:09.430 align:start position:0%
+the instruction queue from which we
+dispatch<00:00:07.319><c> into</c><00:00:07.560><c> the</c><00:00:07.680><c> reservation</c><00:00:08.440><c> stations</c>
+
+00:00:09.430 --> 00:00:09.440 align:start position:0%
+dispatch into the reservation stations
+ 
+
+00:00:09.440 --> 00:00:11.870 align:start position:0%
+dispatch into the reservation stations
+we<00:00:09.599><c> still</c><00:00:09.880><c> have</c><00:00:10.040><c> the</c><00:00:10.240><c> rat</c><00:00:11.120><c> that</c><00:00:11.280><c> can</c><00:00:11.440><c> point</c><00:00:11.719><c> to</c>
+
+00:00:11.870 --> 00:00:11.880 align:start position:0%
+we still have the rat that can point to
+ 
+
+00:00:11.880 --> 00:00:14.190 align:start position:0%
+we still have the rat that can point to
+a<00:00:12.040><c> register</c><00:00:12.519><c> file</c><00:00:12.880><c> or</c><00:00:13.080><c> to</c><00:00:13.280><c> the</c><00:00:13.440><c> renamed</c><00:00:14.000><c> name</c>
+
+00:00:14.190 --> 00:00:14.200 align:start position:0%
+a register file or to the renamed name
+ 
+
+00:00:14.200 --> 00:00:16.070 align:start position:0%
+a register file or to the renamed name
+for<00:00:14.400><c> the</c><00:00:14.519><c> instruction</c><00:00:15.080><c> until</c><00:00:15.360><c> it</c><00:00:15.519><c> wres</c><00:00:15.799><c> to</c><00:00:15.920><c> the</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+for the instruction until it wres to the
+ 
+
+00:00:16.080 --> 00:00:19.390 align:start position:0%
+for the instruction until it wres to the
+register<00:00:16.520><c> file</c><00:00:17.480><c> but</c><00:00:17.960><c> rat</c><00:00:18.359><c> entries</c><00:00:18.920><c> that</c><00:00:19.119><c> point</c>
+
+00:00:19.390 --> 00:00:19.400 align:start position:0%
+register file but rat entries that point
+ 
+
+00:00:19.400 --> 00:00:22.109 align:start position:0%
+register file but rat entries that point
+to<00:00:19.800><c> not</c><00:00:20.039><c> to</c><00:00:20.240><c> register</c><00:00:20.680><c> file</c><00:00:21.199><c> in</c><00:00:21.680><c> in</c><00:00:21.800><c> normal</c>
+
+00:00:22.109 --> 00:00:22.119 align:start position:0%
+to not to register file in in normal
+ 
+
+00:00:22.119 --> 00:00:23.990 align:start position:0%
+to not to register file in in normal
+tomasulo<00:00:22.760><c> algorithm</c><00:00:23.279><c> would</c><00:00:23.439><c> point</c><00:00:23.680><c> to</c><00:00:23.800><c> the</c>
+
+00:00:23.990 --> 00:00:24.000 align:start position:0%
+tomasulo algorithm would point to the
+ 
+
+00:00:24.000 --> 00:00:26.470 align:start position:0%
+tomasulo algorithm would point to the
+reservation<00:00:24.519><c> stations</c><00:00:25.519><c> now</c><00:00:25.960><c> however</c><00:00:26.199><c> we</c><00:00:26.359><c> have</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+reservation stations now however we have
+ 
+
+00:00:26.480 --> 00:00:28.550 align:start position:0%
+reservation stations now however we have
+a<00:00:26.679><c> new</c><00:00:26.960><c> structure</c><00:00:27.720><c> called</c><00:00:27.960><c> the</c><00:00:28.119><c> reorder</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+a new structure called the reorder
+ 
+
+00:00:28.560 --> 00:00:31.830 align:start position:0%
+a new structure called the reorder
+buffer<00:00:29.080><c> Rob</c><00:00:30.119><c> it</c><00:00:30.279><c> has</c><00:00:30.400><c> a</c><00:00:30.599><c> T</c><00:00:30.800><c> and</c><00:00:31.000><c> tail</c><00:00:31.279><c> pointer</c>
+
+00:00:31.830 --> 00:00:31.840 align:start position:0%
+buffer Rob it has a T and tail pointer
+ 
+
+00:00:31.840 --> 00:00:33.310 align:start position:0%
+buffer Rob it has a T and tail pointer
+and<00:00:32.040><c> basically</c><00:00:32.399><c> the</c><00:00:32.520><c> instructions</c><00:00:33.000><c> that</c><00:00:33.120><c> are</c>
+
+00:00:33.310 --> 00:00:33.320 align:start position:0%
+and basically the instructions that are
+ 
+
+00:00:33.320 --> 00:00:35.990 align:start position:0%
+and basically the instructions that are
+currently<00:00:33.719><c> in</c><00:00:34.040><c> execution</c><00:00:35.040><c> are</c><00:00:35.440><c> between</c><00:00:35.840><c> these</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+currently in execution are between these
+ 
+
+00:00:36.000 --> 00:00:38.229 align:start position:0%
+currently in execution are between these
+two<00:00:36.200><c> pointers</c><00:00:36.680><c> the</c><00:00:36.879><c> head</c><00:00:37.160><c> pointer</c><00:00:37.840><c> is</c><00:00:38.079><c> the</c>
+
+00:00:38.229 --> 00:00:38.239 align:start position:0%
+two pointers the head pointer is the
+ 
+
+00:00:38.239 --> 00:00:40.790 align:start position:0%
+two pointers the head pointer is the
+pointer<00:00:39.160><c> to</c><00:00:39.719><c> where</c><00:00:39.920><c> are</c><00:00:40.039><c> we</c><00:00:40.200><c> going</c><00:00:40.320><c> to</c><00:00:40.480><c> put</c><00:00:40.680><c> the</c>
+
+00:00:40.790 --> 00:00:40.800 align:start position:0%
+pointer to where are we going to put the
+ 
+
+00:00:40.800 --> 00:00:42.910 align:start position:0%
+pointer to where are we going to put the
+next<00:00:41.079><c> instruction</c><00:00:41.520><c> that</c><00:00:41.760><c> issues</c><00:00:42.440><c> the</c><00:00:42.600><c> tail</c>
+
+00:00:42.910 --> 00:00:42.920 align:start position:0%
+next instruction that issues the tail
+ 
+
+00:00:42.920 --> 00:00:44.430 align:start position:0%
+next instruction that issues the tail
+pointer<00:00:43.320><c> is</c><00:00:43.520><c> where</c><00:00:43.680><c> we</c><00:00:43.800><c> are</c><00:00:43.960><c> considering</c>
+
+00:00:44.430 --> 00:00:44.440 align:start position:0%
+pointer is where we are considering
+ 
+
+00:00:44.440 --> 00:00:47.069 align:start position:0%
+pointer is where we are considering
+instructions<00:00:44.879><c> for</c><00:00:45.239><c> commit</c><00:00:46.239><c> and</c><00:00:46.399><c> the</c><00:00:46.600><c> rat</c>
+
+00:00:47.069 --> 00:00:47.079 align:start position:0%
+instructions for commit and the rat
+ 
+
+00:00:47.079 --> 00:00:48.869 align:start position:0%
+instructions for commit and the rat
+entries<00:00:47.800><c> that</c><00:00:47.920><c> are</c><00:00:48.079><c> not</c><00:00:48.280><c> pointing</c><00:00:48.640><c> to</c><00:00:48.760><c> the</c>
+
+00:00:48.869 --> 00:00:48.879 align:start position:0%
+entries that are not pointing to the
+ 
+
+00:00:48.879 --> 00:00:51.110 align:start position:0%
+entries that are not pointing to the
+register<00:00:49.320><c> file</c><00:00:49.640><c> are</c><00:00:49.840><c> now</c><00:00:50.199><c> pointing</c><00:00:50.760><c> to</c><00:00:50.960><c> the</c>
+
+00:00:51.110 --> 00:00:51.120 align:start position:0%
+register file are now pointing to the
+ 
+
+00:00:51.120 --> 00:00:53.709 align:start position:0%
+register file are now pointing to the
+Rob<00:00:51.480><c> entries</c><00:00:51.920><c> for</c><00:00:52.160><c> the</c><00:00:52.399><c> instructions</c><00:00:53.399><c> uh</c><00:00:53.600><c> that</c>
+
+00:00:53.709 --> 00:00:53.719 align:start position:0%
+Rob entries for the instructions uh that
+ 
+
+00:00:53.719 --> 00:00:57.559 align:start position:0%
+Rob entries for the instructions uh that
+are<00:00:53.960><c> going</c><00:00:54.039><c> to</c><00:00:54.239><c> produce</c><00:00:54.640><c> that</c><00:00:54.879><c> value</c>
+

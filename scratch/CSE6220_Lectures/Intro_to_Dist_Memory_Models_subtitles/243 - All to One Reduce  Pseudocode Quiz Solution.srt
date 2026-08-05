@@ -1,0 +1,136 @@
+1
+00:00:00,450 --> 00:00:02,420
+ Okay, here's my solution.
+
+2
+00:00:02,420 --> 00:00:05,666
+ I suggest that you check whether a partner is less than P, and
+
+3
+00:00:05,666 --> 00:00:08,500
+ you only post the receive if that's true.
+
+4
+00:00:08,500 --> 00:00:11,620
+ So if partner is less than P, you'll post the receive, and
+
+5
+00:00:11,620 --> 00:00:13,000
+ you'll continue on.
+
+6
+00:00:13,000 --> 00:00:17,150
+ If partner is not less than P, then you just won't do anything, but
+
+7
+00:00:17,150 --> 00:00:19,550
+ you'll keep executing the while loop.
+
+8
+00:00:19,550 --> 00:00:23,150
+ Now if you go back and you look at the animation, you'll see that in fact there
+
+9
+00:00:23,150 --> 00:00:27,470
+ was an oddball processor who kind of stuck around until the very end.
+
+10
+00:00:27,470 --> 00:00:30,330
+ And I claim this patch will give you that behavior.
+
+11
+00:00:30,330 --> 00:00:32,570
+ Let me put it a little differently.
+
+12
+00:00:32,570 --> 00:00:35,480
+ Start by considering the following two facts.
+
+13
+00:00:35,480 --> 00:00:38,270
+ First, only senders drop out.
+
+14
+00:00:38,270 --> 00:00:42,810
+ Second, senders always have a 1 at the current bitmask position.
+
+15
+00:00:42,810 --> 00:00:44,400
+ Let's think about that.
+
+16
+00:00:44,400 --> 00:00:47,070
+ Suppose the current bitmask looks like this.
+
+17
+00:00:47,070 --> 00:00:50,620
+ So it's 0 everywhere except 1 in the current position.
+
+18
+00:00:50,620 --> 00:00:52,960
+ The two facts imply the following.
+
+19
+00:00:52,960 --> 00:00:56,910
+ Any process that's still participating, meaning it hasn't dropped out yet,
+
+20
+00:00:56,910 --> 00:01:00,030
+ must have a bit string that looks like this.
+
+21
+00:01:00,030 --> 00:01:05,050
+ In particular, All the least significant bits will be 0.
+
+22
+00:01:05,050 --> 00:01:07,040
+ P xs are don't care bits.
+
+23
+00:01:07,040 --> 00:01:09,150
+ Here's another handy fact.
+
+24
+00:01:09,150 --> 00:01:12,990
+ A sender must have a 1 in the bitmask position, so
+
+25
+00:01:12,990 --> 00:01:15,340
+ its bitstring is going to look like this.
+
+26
+00:01:15,340 --> 00:01:17,820
+ Its partner will have a flipped bit, so
+
+27
+00:01:17,820 --> 00:01:20,890
+ the matching receive bitstring will look like this.
+
+28
+00:01:20,890 --> 00:01:25,270
+ This means that the sender's rank is always greater than the receiver's rank.
+
+29
+00:01:25,270 --> 00:01:29,720
+ And, of course, to be a valid sender, the rank has to be less than P.
+
+30
+00:01:29,720 --> 00:01:31,620
+ So a sender's rank is less than P.
+
+31
+00:01:31,620 --> 00:01:34,190
+ And a receiver's rank is less than the senders rank,
+
+32
+00:01:34,190 --> 00:01:36,490
+ which in turn will be less than P.
+
+33
+00:01:36,490 --> 00:01:40,190
+ So a candidate receiver who's partner has a rank greater than P
+
+34
+00:01:40,190 --> 00:01:40,190
+ can't be valid.
+

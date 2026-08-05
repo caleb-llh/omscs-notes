@@ -1,0 +1,136 @@
+1
+00:00:00,390 --> 00:00:04,050
+ Let's recall some basic facts about this type architecture.
+
+2
+00:00:04,050 --> 00:00:06,260
+ Assuming perfect overlap of computation and
+
+3
+00:00:06,260 --> 00:00:10,120
+ data movement, you can estimate the maximum normalized performance.
+
+4
+00:00:10,120 --> 00:00:13,230
+ It's this expression, which I've denoted by Rmax.
+
+5
+00:00:13,230 --> 00:00:15,530
+ Rmax is defined in terms of W star,
+
+6
+00:00:15,530 --> 00:00:18,580
+ which is the work of the best sequential algorithm.
+
+7
+00:00:18,580 --> 00:00:21,250
+ It also depends on the work of your algorithm, W.
+
+8
+00:00:21,250 --> 00:00:25,180
+ It depends on the works overall intensity, I.
+
+9
+00:00:25,180 --> 00:00:28,570
+ And finally, it depends on the machine's balance point B.
+
+10
+00:00:28,570 --> 00:00:32,259
+ In performance analysis, one way to visualize the relationships among these
+
+11
+00:00:32,259 --> 00:00:35,760
+ parameters is through something called a roof line plot.
+
+12
+00:00:35,760 --> 00:00:38,270
+ Start with a pair of x,y axes.
+
+13
+00:00:38,270 --> 00:00:40,200
+ It's usually drawn as a long log plot, but
+
+14
+00:00:40,200 --> 00:00:42,350
+ let's ignore that fact for the moment.
+
+15
+00:00:42,350 --> 00:00:44,518
+ On the x axis, you plot intensity.
+
+16
+00:00:44,518 --> 00:00:48,620
+ On the y-axis, you would plot normalized performance.
+
+17
+00:00:48,620 --> 00:00:50,930
+ For this problem, let's assume that W star and
+
+18
+00:00:50,930 --> 00:00:54,420
+ W remain fixed, but I might vary.
+
+19
+00:00:54,420 --> 00:00:57,230
+ This would happen if you had, say, a bunch of algorithms or
+
+20
+00:00:57,230 --> 00:01:00,000
+ a bunch of implementations that all did the same amount of work,
+
+21
+00:01:00,000 --> 00:01:02,090
+ but varied the communication.
+
+22
+00:01:02,090 --> 00:01:05,319
+ The curve you would get if you plotted R max as a function of I would look like
+
+23
+00:01:05,319 --> 00:01:06,440
+ the following.
+
+24
+00:01:06,440 --> 00:01:09,760
+ Because of it's shape it's sometimes called a roofline plot.
+
+25
+00:01:09,760 --> 00:01:12,140
+ So what do you see?
+
+26
+00:01:12,140 --> 00:01:16,235
+ Well the plot has a linearly increasing slope followed by an inflection point,
+
+27
+00:01:16,235 --> 00:01:17,955
+ followed by a plateau.
+
+28
+00:01:17,955 --> 00:01:21,035
+ The interesting features are the value of the plateau and
+
+29
+00:01:21,035 --> 00:01:23,105
+ the location of the inflection point.
+
+30
+00:01:23,105 --> 00:01:26,135
+ Let's call these Y0 and X0 respectively.
+
+31
+00:01:26,135 --> 00:01:27,657
+ Here's my question.
+
+32
+00:01:27,657 --> 00:01:29,777
+ What are the values of X0 and Y0?
+
+33
+00:01:29,777 --> 00:01:34,797
+ Express your answer in terms of i, b, w, and w_star.
+
+34
+00:01:34,797 --> 00:01:34,797
+ And when you type out w_star, use the notation w_star.
+

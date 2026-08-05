@@ -1,0 +1,36 @@
+1
+00:00:00,630 --> 00:00:04,750
+ If it were up to me, I would use reduce-scatter followed by all-gather.
+
+2
+00:00:04,750 --> 00:00:05,814
+ Let's see why that works.
+
+3
+00:00:05,814 --> 00:00:08,690
+ Reduce-scatter will perform the reduction,
+
+4
+00:00:08,690 --> 00:00:10,625
+ leaving a piece of the result everywhere.
+
+5
+00:00:10,625 --> 00:00:13,653
+ All-gather will collect the results everywhere.
+
+6
+00:00:13,653 --> 00:00:18,165
+ All-gathers and reduce-scatters are duals of one another.
+
+7
+00:00:18,165 --> 00:00:20,775
+ And since we have a bandwidth optimal version of all-gather
+
+8
+00:00:20,775 --> 00:00:23,185
+ we have a bandwidth optimal version of reduce-scatter.
+
+9
+00:00:23,185 --> 00:00:23,185
+ Their combination is therefore also bandwidth optimal.
+

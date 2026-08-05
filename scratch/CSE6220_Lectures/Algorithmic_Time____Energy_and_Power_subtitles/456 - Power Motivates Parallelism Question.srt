@@ -1,0 +1,60 @@
+1
+00:00:00,380 --> 00:00:03,750
+ If you've taken the OMS class in high performance computer architecture,
+
+2
+00:00:03,750 --> 00:00:06,630
+ then you might already know the answer to this question.
+
+3
+00:00:06,630 --> 00:00:09,490
+ Let's say I give you two possible chip designs.
+
+4
+00:00:09,490 --> 00:00:14,710
+ The first one runs at 4 gigahertz and consumes 64 watts of dynamic power.
+
+5
+00:00:14,710 --> 00:00:17,900
+ Let's also suppose that if you run some program on this chip,
+
+6
+00:00:17,900 --> 00:00:21,260
+ it finishes in a given time, let's call it t.
+
+7
+00:00:21,260 --> 00:00:23,300
+ Now suppose I give you a different design,
+
+8
+00:00:23,300 --> 00:00:27,280
+ the main difference is that it's slower, it runs at 1 gigahertz instead of 4.
+
+9
+00:00:27,280 --> 00:00:29,820
+ Now I want you to tell me two things,
+
+10
+00:00:29,820 --> 00:00:34,040
+ what is the dynamic power of chip two and what is it's execution time?
+
+11
+00:00:34,040 --> 00:00:37,250
+ In terms of execution time on the first chip.
+
+12
+00:00:37,250 --> 00:00:39,520
+ For the dynamic power consumed of chip two.
+
+13
+00:00:39,520 --> 00:00:41,600
+ Express your answer in watts.
+
+14
+00:00:41,600 --> 00:00:45,770
+ And for time, again, express your answer symbolically in terms of T1.
+
+15
+00:00:45,770 --> 00:00:45,770
+ As needed, assume that all other factors between the two designs are equal.
+

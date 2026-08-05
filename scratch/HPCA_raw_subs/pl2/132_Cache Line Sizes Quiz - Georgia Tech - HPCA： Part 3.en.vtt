@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.000 align:start position:0%
+ 
+so<00:00:00.359><c> now</c><00:00:00.510><c> that</c><00:00:00.570><c> we</c><00:00:00.810><c> have</c><00:00:00.960><c> seen</c><00:00:01.199><c> what</c><00:00:01.620><c> the</c><00:00:01.770><c> cache</c>
+
+00:00:02.000 --> 00:00:02.010 align:start position:0%
+so now that we have seen what the cache
+ 
+
+00:00:02.010 --> 00:00:04.849 align:start position:0%
+so now that we have seen what the cache
+line<00:00:02.040><c> is</c><00:00:02.520><c> and</c><00:00:02.820><c> what</c><00:00:03.120><c> its</c><00:00:03.360><c> size</c><00:00:03.600><c> does</c><00:00:04.020><c> let's</c><00:00:04.650><c> do</c>
+
+00:00:04.849 --> 00:00:04.859 align:start position:0%
+line is and what its size does let's do
+ 
+
+00:00:04.859 --> 00:00:07.369 align:start position:0%
+line is and what its size does let's do
+a<00:00:04.890><c> quiz</c><00:00:05.279><c> about</c><00:00:05.580><c> that</c><00:00:05.819><c> so</c><00:00:06.480><c> which</c><00:00:06.720><c> of</c><00:00:06.750><c> these</c><00:00:07.080><c> are</c>
+
+00:00:07.369 --> 00:00:07.379 align:start position:0%
+a quiz about that so which of these are
+ 
+
+00:00:07.379 --> 00:00:10.190 align:start position:0%
+a quiz about that so which of these are
+not<00:00:07.710><c> good</c><00:00:08.099><c> line</c><00:00:08.550><c> sizes</c><00:00:09.150><c> in</c><00:00:09.360><c> a</c><00:00:09.540><c> two</c><00:00:09.719><c> kilobyte</c>
+
+00:00:10.190 --> 00:00:10.200 align:start position:0%
+not good line sizes in a two kilobyte
+ 
+
+00:00:10.200 --> 00:00:15.440 align:start position:0%
+not good line sizes in a two kilobyte
+cache<00:00:10.370><c> one</c><00:00:11.370><c> byte</c><00:00:11.840><c> 32</c><00:00:12.840><c> bytes</c><00:00:13.340><c> 48</c><00:00:14.340><c> bytes</c><00:00:14.670><c> 64</c>
+
+00:00:15.440 --> 00:00:15.450 align:start position:0%
+cache one byte 32 bytes 48 bytes 64
+ 
+
+00:00:15.450 --> 00:00:18.320 align:start position:0%
+cache one byte 32 bytes 48 bytes 64
+bytes<00:00:16.260><c> and</c><00:00:16.560><c> one</c><00:00:17.160><c> kilobyte</c><00:00:17.550><c> again</c><00:00:18.119><c> we're</c>
+
+00:00:18.320 --> 00:00:18.330 align:start position:0%
+bytes and one kilobyte again we're
+ 
+
+00:00:18.330 --> 00:00:20.720 align:start position:0%
+bytes and one kilobyte again we're
+looking<00:00:18.359><c> for</c><00:00:18.869><c> those</c><00:00:19.080><c> that</c><00:00:19.320><c> are</c><00:00:19.470><c> not</c><00:00:19.740><c> good</c><00:00:20.369><c> line</c>
+
+00:00:20.720 --> 00:00:20.730 align:start position:0%
+looking for those that are not good line
+ 
+
+00:00:20.730 --> 00:00:25.490 align:start position:0%
+looking for those that are not good line
+sizes<00:00:21.300><c> in</c><00:00:21.539><c> a</c><00:00:21.750><c> cache</c><00:00:21.990><c> of</c><00:00:22.260><c> two</c><00:00:22.769><c> kilobyte</c><00:00:23.220><c> size</c>
+

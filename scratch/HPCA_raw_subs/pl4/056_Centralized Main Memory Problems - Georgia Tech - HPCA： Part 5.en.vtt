@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.389 align:start position:0%
+ 
+so<00:00:00.570><c> let's</c><00:00:00.780><c> talk</c><00:00:01.020><c> about</c><00:00:01.250><c> problems</c><00:00:02.250><c> or</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+so let's talk about problems or
+ 
+
+00:00:02.399 --> 00:00:05.300 align:start position:0%
+so let's talk about problems or
+centralized<00:00:02.939><c> main</c><00:00:03.179><c> memory</c><00:00:03.600><c> and</c><00:00:03.929><c> why</c><00:00:04.920><c> we</c><00:00:05.130><c> may</c>
+
+00:00:05.300 --> 00:00:05.310 align:start position:0%
+centralized main memory and why we may
+ 
+
+00:00:05.310 --> 00:00:07.940 align:start position:0%
+centralized main memory and why we may
+want<00:00:05.549><c> to</c><00:00:05.850><c> do</c><00:00:06.000><c> something</c><00:00:06.240><c> else</c><00:00:06.600><c> as</c><00:00:06.960><c> we</c><00:00:07.770><c> have</c>
+
+00:00:07.940 --> 00:00:07.950 align:start position:0%
+want to do something else as we have
+ 
+
+00:00:07.950 --> 00:00:10.549 align:start position:0%
+want to do something else as we have
+seen<00:00:08.220><c> in</c><00:00:08.280><c> the</c><00:00:08.519><c> previous</c><00:00:08.670><c> quiz</c><00:00:09.150><c> memory</c><00:00:09.929><c> size</c><00:00:10.260><c> is</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+seen in the previous quiz memory size is
+ 
+
+00:00:10.559 --> 00:00:13.520 align:start position:0%
+seen in the previous quiz memory size is
+a<00:00:10.590><c> problem</c><00:00:11.219><c> we</c><00:00:12.150><c> need</c><00:00:12.179><c> a</c><00:00:12.330><c> large</c><00:00:12.719><c> memory</c><00:00:13.080><c> and</c>
+
+00:00:13.520 --> 00:00:13.530 align:start position:0%
+a problem we need a large memory and
+ 
+
+00:00:13.530 --> 00:00:17.420 align:start position:0%
+a problem we need a large memory and
+because<00:00:14.219><c> it's</c><00:00:14.549><c> all</c><00:00:14.730><c> one</c><00:00:15.030><c> big</c><00:00:15.059><c> memory</c><00:00:16.160><c> that</c><00:00:17.160><c> one</c>
+
+00:00:17.420 --> 00:00:17.430 align:start position:0%
+because it's all one big memory that one
+ 
+
+00:00:17.430 --> 00:00:19.939 align:start position:0%
+because it's all one big memory that one
+memory<00:00:17.760><c> will</c><00:00:18.029><c> be</c><00:00:18.060><c> slow</c><00:00:18.510><c> and</c><00:00:18.840><c> because</c><00:00:19.619><c> of</c><00:00:19.800><c> its</c>
+
+00:00:19.939 --> 00:00:19.949 align:start position:0%
+memory will be slow and because of its
+ 
+
+00:00:19.949 --> 00:00:22.460 align:start position:0%
+memory will be slow and because of its
+large<00:00:20.160><c> size</c><00:00:20.310><c> relatively</c><00:00:21.270><c> far</c><00:00:21.570><c> away</c><00:00:21.930><c> from</c><00:00:21.990><c> all</c>
+
+00:00:22.460 --> 00:00:22.470 align:start position:0%
+large size relatively far away from all
+ 
+
+00:00:22.470 --> 00:00:24.620 align:start position:0%
+large size relatively far away from all
+of<00:00:22.500><c> the</c><00:00:22.740><c> course</c><00:00:23.010><c> we</c><00:00:23.820><c> will</c><00:00:23.970><c> also</c><00:00:24.210><c> have</c><00:00:24.600><c> the</c>
+
+00:00:24.620 --> 00:00:24.630 align:start position:0%
+of the course we will also have the
+ 
+
+00:00:24.630 --> 00:00:27.259 align:start position:0%
+of the course we will also have the
+problem<00:00:25.170><c> of</c><00:00:25.320><c> memory</c><00:00:25.800><c> bandwidth</c><00:00:26.279><c> because</c>
+
+00:00:27.259 --> 00:00:27.269 align:start position:0%
+problem of memory bandwidth because
+ 
+
+00:00:27.269 --> 00:00:30.500 align:start position:0%
+problem of memory bandwidth because
+message<00:00:28.019><c> from</c><00:00:28.289><c> all</c><00:00:28.500><c> cores</c><00:00:28.920><c> go</c><00:00:29.699><c> to</c><00:00:30.150><c> the</c><00:00:30.300><c> one</c>
+
+00:00:30.500 --> 00:00:30.510 align:start position:0%
+message from all cores go to the one
+ 
+
+00:00:30.510 --> 00:00:33.650 align:start position:0%
+message from all cores go to the one
+memory<00:00:31.189><c> so</c><00:00:32.189><c> the</c><00:00:32.340><c> requests</c><00:00:32.910><c> from</c><00:00:33.120><c> all</c><00:00:33.390><c> of</c><00:00:33.540><c> the</c>
+
+00:00:33.650 --> 00:00:33.660 align:start position:0%
+memory so the requests from all of the
+ 
+
+00:00:33.660 --> 00:00:35.930 align:start position:0%
+memory so the requests from all of the
+cores<00:00:33.960><c> create</c><00:00:34.590><c> contention</c><00:00:35.340><c> for</c><00:00:35.370><c> memory</c>
+
+00:00:35.930 --> 00:00:35.940 align:start position:0%
+cores create contention for memory
+ 
+
+00:00:35.940 --> 00:00:38.690 align:start position:0%
+cores create contention for memory
+bandwidth<00:00:36.420><c> because</c><00:00:36.570><c> a</c><00:00:36.809><c> big</c><00:00:37.410><c> slow</c><00:00:37.950><c> memory</c><00:00:38.190><c> will</c>
+
+00:00:38.690 --> 00:00:38.700 align:start position:0%
+bandwidth because a big slow memory will
+ 
+
+00:00:38.700 --> 00:00:41.030 align:start position:0%
+bandwidth because a big slow memory will
+have<00:00:38.910><c> a</c><00:00:38.940><c> limited</c><00:00:39.390><c> bandwidth</c><00:00:39.870><c> and</c><00:00:40.050><c> what</c><00:00:40.800><c> that</c>
+
+00:00:41.030 --> 00:00:41.040 align:start position:0%
+have a limited bandwidth and what that
+ 
+
+00:00:41.040 --> 00:00:44.510 align:start position:0%
+have a limited bandwidth and what that
+does<00:00:41.340><c> is</c><00:00:41.579><c> it</c><00:00:41.969><c> prevents</c><00:00:42.809><c> really</c><00:00:43.520><c> additional</c>
+
+00:00:44.510 --> 00:00:44.520 align:start position:0%
+does is it prevents really additional
+ 
+
+00:00:44.520 --> 00:00:47.619 align:start position:0%
+does is it prevents really additional
+course<00:00:44.820><c> from</c><00:00:45.570><c> benefiting</c><00:00:45.960><c> our</c><00:00:46.440><c> performance</c>
+
+00:00:47.619 --> 00:00:47.629 align:start position:0%
+course from benefiting our performance
+ 
+
+00:00:47.629 --> 00:00:51.670 align:start position:0%
+course from benefiting our performance
+because<00:00:48.629><c> all</c><00:00:48.989><c> of</c><00:00:49.590><c> the</c><00:00:50.010><c> accesses</c><00:00:50.760><c> are</c><00:00:50.789><c> really</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+because all of the accesses are really
+ 
+
+00:00:51.680 --> 00:00:55.160 align:start position:0%
+because all of the accesses are really
+serializing<00:00:53.059><c> in</c><00:00:54.059><c> the</c><00:00:54.300><c> queue</c><00:00:54.570><c> waiting</c><00:00:54.750><c> for</c>
+
+00:00:55.160 --> 00:00:55.170 align:start position:0%
+serializing in the queue waiting for
+ 
+
+00:00:55.170 --> 00:00:57.770 align:start position:0%
+serializing in the queue waiting for
+memory<00:00:55.469><c> so</c><00:00:55.860><c> if</c><00:00:55.949><c> we</c><00:00:56.070><c> add</c><00:00:56.250><c> more</c><00:00:56.460><c> cores</c><00:00:56.820><c> that</c><00:00:57.090><c> just</c>
+
+00:00:57.770 --> 00:00:57.780 align:start position:0%
+memory so if we add more cores that just
+ 
+
+00:00:57.780 --> 00:01:00.170 align:start position:0%
+memory so if we add more cores that just
+makes<00:00:57.989><c> every</c><00:00:58.620><c> course</c><00:00:58.920><c> access</c><00:00:59.460><c> is</c><00:00:59.489><c> even</c><00:00:59.969><c> slower</c>
+
+00:01:00.170 --> 00:01:00.180 align:start position:0%
+makes every course access is even slower
+ 
+
+00:01:00.180 --> 00:01:01.639 align:start position:0%
+makes every course access is even slower
+because<00:01:00.480><c> they</c><00:01:00.780><c> have</c><00:01:00.930><c> to</c><00:01:01.050><c> wait</c><00:01:01.170><c> for</c><00:01:01.230><c> memory</c>
+
+00:01:01.639 --> 00:01:01.649 align:start position:0%
+because they have to wait for memory
+ 
+
+00:01:01.649 --> 00:01:03.529 align:start position:0%
+because they have to wait for memory
+even<00:01:01.770><c> longer</c><00:01:02.100><c> so</c><00:01:02.760><c> we</c><00:01:02.879><c> don't</c><00:01:03.090><c> really</c><00:01:03.239><c> get</c><00:01:03.480><c> a</c>
+
+00:01:03.529 --> 00:01:03.539 align:start position:0%
+even longer so we don't really get a
+ 
+
+00:01:03.539 --> 00:01:05.750 align:start position:0%
+even longer so we don't really get a
+performance<00:01:04.199><c> advantage</c><00:01:04.680><c> anymore</c><00:01:05.070><c> so</c>
+
+00:01:05.750 --> 00:01:05.760 align:start position:0%
+performance advantage anymore so
+ 
+
+00:01:05.760 --> 00:01:07.670 align:start position:0%
+performance advantage anymore so
+centralized<00:01:06.330><c> main</c><00:01:06.600><c> memory</c><00:01:06.990><c> because</c><00:01:07.380><c> of</c><00:01:07.530><c> these</c>
+
+00:01:07.670 --> 00:01:07.680 align:start position:0%
+centralized main memory because of these
+ 
+
+00:01:07.680 --> 00:01:10.700 align:start position:0%
+centralized main memory because of these
+problems<00:01:08.390><c> works</c><00:01:09.390><c> well</c><00:01:09.720><c> only</c><00:01:10.140><c> for</c><00:01:10.320><c> relatively</c>
+
+00:01:10.700 --> 00:01:10.710 align:start position:0%
+problems works well only for relatively
+ 
+
+00:01:10.710 --> 00:01:14.539 align:start position:0%
+problems works well only for relatively
+small<00:01:11.130><c> machines</c><00:01:12.170><c> with</c><00:01:13.170><c> something</c><00:01:13.619><c> like</c><00:01:13.770><c> 24</c><00:01:14.340><c> 8</c>
+
+00:01:14.539 --> 00:01:14.549 align:start position:0%
+small machines with something like 24 8
+ 
+
+00:01:14.549 --> 00:01:18.469 align:start position:0%
+small machines with something like 24 8
+maybe<00:01:15.000><c> 16</c><00:01:15.689><c> cores</c><00:01:16.159><c> beyond</c><00:01:17.159><c> this</c><00:01:17.430><c> we</c><00:01:18.270><c> saturate</c>
+
+00:01:18.469 --> 00:01:18.479 align:start position:0%
+maybe 16 cores beyond this we saturate
+ 
+
+00:01:18.479 --> 00:01:22.100 align:start position:0%
+maybe 16 cores beyond this we saturate
+the<00:01:18.810><c> memory</c><00:01:19.110><c> bandwidth</c><00:01:19.590><c> and</c><00:01:19.970><c> also</c><00:01:20.970><c> our</c><00:01:21.180><c> memory</c>
+
+00:01:22.100 --> 00:01:22.110 align:start position:0%
+the memory bandwidth and also our memory
+ 
+
+00:01:22.110 --> 00:01:24.649 align:start position:0%
+the memory bandwidth and also our memory
+needs<00:01:22.320><c> to</c><00:01:22.500><c> not</c><00:01:22.680><c> be</c><00:01:22.860><c> too</c><00:01:23.549><c> big</c><00:01:23.759><c> and</c><00:01:23.939><c> too</c><00:01:24.090><c> slow</c><00:01:24.299><c> if</c>
+
+00:01:24.649 --> 00:01:24.659 align:start position:0%
+needs to not be too big and too slow if
+ 
+
+00:01:24.659 --> 00:01:27.979 align:start position:0%
+needs to not be too big and too slow if
+we<00:01:25.049><c> keep</c><00:01:25.200><c> it</c><00:01:25.409><c> centralized</c>
+

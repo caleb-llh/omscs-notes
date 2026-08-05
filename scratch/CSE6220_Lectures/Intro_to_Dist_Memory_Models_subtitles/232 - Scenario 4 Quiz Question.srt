@@ -1,0 +1,44 @@
+1
+00:00:00,350 --> 00:00:03,460
+ Recall our five rules of message passing.
+
+2
+00:00:03,460 --> 00:00:06,450
+ Now, I want you to think about them in the following scenario.
+
+3
+00:00:06,450 --> 00:00:10,360
+ Consider this two dimensional mesh network of nine nodes arranged in
+
+4
+00:00:10,360 --> 00:00:12,610
+ a three by three grid.
+
+5
+00:00:12,610 --> 00:00:16,900
+ Suppose node zero wants to send a message to node eight.
+
+6
+00:00:16,900 --> 00:00:21,570
+ And suppose at the same time node four wants to send a message to node six.
+
+7
+00:00:21,570 --> 00:00:22,990
+ Here's my question.
+
+8
+00:00:22,990 --> 00:00:25,940
+ What is the minimum time to send n words?
+
+9
+00:00:25,940 --> 00:00:28,160
+ Type your answer here symbolically.
+
+10
+00:00:28,160 --> 00:00:30,880
+ You can use little a for alpha, little b for beta.
+
+11
+00:00:30,880 --> 00:00:30,880
+ And of course, n for itself.
+

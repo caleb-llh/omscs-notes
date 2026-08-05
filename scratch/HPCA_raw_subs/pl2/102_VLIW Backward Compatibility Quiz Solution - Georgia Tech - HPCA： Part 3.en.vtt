@@ -1,0 +1,344 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.419 align:start position:0%
+ 
+okay<00:00:00.359><c> so</c><00:00:00.420><c> we</c><00:00:00.750><c> have</c><00:00:00.989><c> our</c><00:00:01.020><c> VL</c><00:00:01.530><c> IW</c><00:00:01.979><c> backward</c>
+
+00:00:02.419 --> 00:00:02.429 align:start position:0%
+okay so we have our VL IW backward
+ 
+
+00:00:02.429 --> 00:00:05.289 align:start position:0%
+okay so we have our VL IW backward
+compatibility<00:00:02.879><c> quiz</c><00:00:03.240><c> let's</c><00:00:03.990><c> work</c><00:00:04.890><c> on</c><00:00:05.160><c> a</c>
+
+00:00:05.289 --> 00:00:05.299 align:start position:0%
+compatibility quiz let's work on a
+ 
+
+00:00:05.299 --> 00:00:09.049 align:start position:0%
+compatibility quiz let's work on a
+solution<00:00:06.299><c> we</c><00:00:07.140><c> had</c><00:00:07.350><c> a</c><00:00:07.379><c> simple</c><00:00:07.740><c> VL</c><00:00:08.069><c> IW</c><00:00:08.610><c> that</c><00:00:08.849><c> had</c>
+
+00:00:09.049 --> 00:00:09.059 align:start position:0%
+solution we had a simple VL IW that had
+ 
+
+00:00:09.059 --> 00:00:11.240 align:start position:0%
+solution we had a simple VL IW that had
+64<00:00:10.019><c> bit</c><00:00:10.230><c> instructions</c><00:00:10.769><c> and</c><00:00:10.950><c> we</c><00:00:11.010><c> were</c><00:00:11.130><c> doing</c>
+
+00:00:11.240 --> 00:00:11.250 align:start position:0%
+64 bit instructions and we were doing
+ 
+
+00:00:11.250 --> 00:00:13.999 align:start position:0%
+64 bit instructions and we were doing
+one<00:00:11.580><c> one</c><00:00:11.969><c> of</c><00:00:12.120><c> those</c><00:00:12.269><c> at</c><00:00:12.450><c> a</c><00:00:12.480><c> time</c><00:00:12.809><c> and</c><00:00:13.139><c> each</c><00:00:13.830><c> of</c>
+
+00:00:13.999 --> 00:00:14.009 align:start position:0%
+one one of those at a time and each of
+ 
+
+00:00:14.009 --> 00:00:15.680 align:start position:0%
+one one of those at a time and each of
+those<00:00:14.130><c> were</c><00:00:14.309><c> equivalent</c><00:00:14.759><c> to</c><00:00:14.849><c> two</c><00:00:15.030><c> normal</c>
+
+00:00:15.680 --> 00:00:15.690 align:start position:0%
+those were equivalent to two normal
+ 
+
+00:00:15.690 --> 00:00:18.140 align:start position:0%
+those were equivalent to two normal
+operations<00:00:16.260><c> now</c><00:00:16.770><c> we</c><00:00:16.830><c> want</c><00:00:17.130><c> to</c><00:00:17.220><c> have</c><00:00:17.369><c> a</c><00:00:17.430><c> viola</c><00:00:17.850><c> W</c>
+
+00:00:18.140 --> 00:00:18.150 align:start position:0%
+operations now we want to have a viola W
+ 
+
+00:00:18.150 --> 00:00:20.150 align:start position:0%
+operations now we want to have a viola W
+processor<00:00:18.660><c> with</c><00:00:18.869><c> four</c><00:00:19.199><c> operations</c><00:00:19.770><c> per</c><00:00:19.920><c> cycle</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+processor with four operations per cycle
+ 
+
+00:00:20.160 --> 00:00:22.220 align:start position:0%
+processor with four operations per cycle
+and<00:00:20.490><c> the</c><00:00:20.820><c> way</c><00:00:20.970><c> we</c><00:00:21.119><c> want</c><00:00:21.300><c> to</c><00:00:21.420><c> do</c><00:00:21.600><c> that</c><00:00:21.840><c> while</c>
+
+00:00:22.220 --> 00:00:22.230 align:start position:0%
+and the way we want to do that while
+ 
+
+00:00:22.230 --> 00:00:23.929 align:start position:0%
+and the way we want to do that while
+maintaining<00:00:22.439><c> backward</c><00:00:23.100><c> compatibility</c><00:00:23.580><c> with</c>
+
+00:00:23.929 --> 00:00:23.939 align:start position:0%
+maintaining backward compatibility with
+ 
+
+00:00:23.939 --> 00:00:26.599 align:start position:0%
+maintaining backward compatibility with
+the<00:00:23.970><c> original</c><00:00:24.840><c> version</c><00:00:25.260><c> is</c><00:00:25.800><c> to</c><00:00:26.039><c> fetch</c><00:00:26.310><c> the</c>
+
+00:00:26.599 --> 00:00:26.609 align:start position:0%
+the original version is to fetch the
+ 
+
+00:00:26.609 --> 00:00:28.849 align:start position:0%
+the original version is to fetch the
+code<00:00:26.789><c> and</c><00:00:26.939><c> execute</c><00:00:27.090><c> two</c><00:00:27.660><c> of</c><00:00:27.900><c> those</c><00:00:28.080><c> 64-bit</c>
+
+00:00:28.849 --> 00:00:28.859 align:start position:0%
+code and execute two of those 64-bit
+ 
+
+00:00:28.859 --> 00:00:30.859 align:start position:0%
+code and execute two of those 64-bit
+instructions<00:00:29.429><c> per</c><00:00:29.609><c> cycle</c><00:00:29.820><c> the</c><00:00:30.300><c> question</c><00:00:30.720><c> is</c>
+
+00:00:30.859 --> 00:00:30.869 align:start position:0%
+instructions per cycle the question is
+ 
+
+00:00:30.869 --> 00:00:33.590 align:start position:0%
+instructions per cycle the question is
+is<00:00:31.019><c> this</c><00:00:31.320><c> new</c><00:00:31.529><c> processor</c><00:00:32.130><c> hey</c><00:00:32.669><c> viola</c><00:00:33.120><c> W</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+is this new processor hey viola W
+ 
+
+00:00:33.600 --> 00:00:36.380 align:start position:0%
+is this new processor hey viola W
+processor<00:00:34.140><c> the</c><00:00:34.860><c> correct</c><00:00:35.219><c> answer</c><00:00:35.579><c> here</c><00:00:35.610><c> is</c><00:00:36.090><c> no</c>
+
+00:00:36.380 --> 00:00:36.390 align:start position:0%
+processor the correct answer here is no
+ 
+
+00:00:36.390 --> 00:00:37.220 align:start position:0%
+processor the correct answer here is no
+not<00:00:36.719><c> really</c>
+
+00:00:37.220 --> 00:00:37.230 align:start position:0%
+not really
+ 
+
+00:00:37.230 --> 00:00:40.299 align:start position:0%
+not really
+here's<00:00:37.800><c> why</c><00:00:38.070><c> in</c><00:00:38.610><c> a</c><00:00:38.790><c> real</c><00:00:38.969><c> viola</c><00:00:39.420><c> W</c><00:00:39.750><c> processor</c>
+
+00:00:40.299 --> 00:00:40.309 align:start position:0%
+here's why in a real viola W processor
+ 
+
+00:00:40.309 --> 00:00:44.000 align:start position:0%
+here's why in a real viola W processor
+the<00:00:41.309><c> compiler</c><00:00:41.790><c> tells</c><00:00:42.270><c> us</c><00:00:42.540><c> which</c><00:00:43.260><c> operations</c>
+
+00:00:44.000 --> 00:00:44.010 align:start position:0%
+the compiler tells us which operations
+ 
+
+00:00:44.010 --> 00:00:46.490 align:start position:0%
+the compiler tells us which operations
+can<00:00:44.850><c> be</c><00:00:44.879><c> done</c><00:00:45.000><c> in</c><00:00:45.270><c> parallel</c><00:00:45.510><c> by</c><00:00:45.960><c> putting</c><00:00:46.350><c> them</c>
+
+00:00:46.490 --> 00:00:46.500 align:start position:0%
+can be done in parallel by putting them
+ 
+
+00:00:46.500 --> 00:00:48.380 align:start position:0%
+can be done in parallel by putting them
+in<00:00:46.530><c> the</c><00:00:46.770><c> same</c><00:00:46.980><c> instruction</c><00:00:47.640><c> and</c><00:00:47.820><c> then</c><00:00:48.059><c> we</c><00:00:48.210><c> try</c>
+
+00:00:48.380 --> 00:00:48.390 align:start position:0%
+in the same instruction and then we try
+ 
+
+00:00:48.390 --> 00:00:49.970 align:start position:0%
+in the same instruction and then we try
+to<00:00:48.420><c> do</c><00:00:48.660><c> only</c><00:00:48.750><c> one</c><00:00:49.020><c> of</c><00:00:49.140><c> those</c><00:00:49.289><c> instructions</c><00:00:49.680><c> per</c>
+
+00:00:49.970 --> 00:00:49.980 align:start position:0%
+to do only one of those instructions per
+ 
+
+00:00:49.980 --> 00:00:52.490 align:start position:0%
+to do only one of those instructions per
+cycle<00:00:50.190><c> does</c><00:00:50.969><c> every</c><00:00:51.360><c> cycle</c><00:00:51.750><c> we</c><00:00:51.930><c> are</c><00:00:51.960><c> guaranteed</c>
+
+00:00:52.490 --> 00:00:52.500 align:start position:0%
+cycle does every cycle we are guaranteed
+ 
+
+00:00:52.500 --> 00:00:54.979 align:start position:0%
+cycle does every cycle we are guaranteed
+that<00:00:52.739><c> we</c><00:00:52.920><c> are</c><00:00:53.010><c> doing</c><00:00:53.309><c> independent</c><00:00:54.149><c> operations</c>
+
+00:00:54.979 --> 00:00:54.989 align:start position:0%
+that we are doing independent operations
+ 
+
+00:00:54.989 --> 00:00:58.340 align:start position:0%
+that we are doing independent operations
+when<00:00:55.829><c> we</c><00:00:55.980><c> run</c><00:00:56.370><c> programs</c><00:00:56.930><c> compiled</c><00:00:57.930><c> for</c><00:00:58.170><c> this</c>
+
+00:00:58.340 --> 00:00:58.350 align:start position:0%
+when we run programs compiled for this
+ 
+
+00:00:58.350 --> 00:01:01.040 align:start position:0%
+when we run programs compiled for this
+processor<00:00:58.980><c> the</c><00:00:59.609><c> compiler</c><00:01:00.059><c> only</c><00:01:00.570><c> guarantees</c>
+
+00:01:01.040 --> 00:01:01.050 align:start position:0%
+processor the compiler only guarantees
+ 
+
+00:01:01.050 --> 00:01:02.990 align:start position:0%
+processor the compiler only guarantees
+that<00:01:01.079><c> the</c><00:01:01.590><c> two</c><00:01:01.800><c> operations</c><00:01:02.399><c> in</c><00:01:02.609><c> the</c><00:01:02.789><c> same</c>
+
+00:01:02.990 --> 00:01:03.000 align:start position:0%
+that the two operations in the same
+ 
+
+00:01:03.000 --> 00:01:05.899 align:start position:0%
+that the two operations in the same
+instruction<00:01:03.719><c> are</c><00:01:03.899><c> in</c><00:01:04.199><c> parallel</c><00:01:04.650><c> in</c><00:01:05.220><c> fact</c><00:01:05.610><c> if</c>
+
+00:01:05.899 --> 00:01:05.909 align:start position:0%
+instruction are in parallel in fact if
+ 
+
+00:01:05.909 --> 00:01:07.910 align:start position:0%
+instruction are in parallel in fact if
+we<00:01:06.030><c> have</c><00:01:06.270><c> something</c><00:01:06.540><c> like</c><00:01:06.720><c> this</c><00:01:07.049><c> where</c><00:01:07.799><c> we</c>
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+we have something like this where we
+ 
+
+00:01:07.920 --> 00:01:10.640 align:start position:0%
+we have something like this where we
+have<00:01:07.950><c> a</c><00:01:08.159><c> data</c><00:01:08.430><c> dependence</c><00:01:08.810><c> the</c><00:01:09.810><c> compiler</c><00:01:10.260><c> will</c>
+
+00:01:10.640 --> 00:01:10.650 align:start position:0%
+have a data dependence the compiler will
+ 
+
+00:01:10.650 --> 00:01:13.990 align:start position:0%
+have a data dependence the compiler will
+put<00:01:10.950><c> these</c><00:01:11.360><c> operations</c><00:01:12.360><c> into</c><00:01:13.290><c> two</c><00:01:13.470><c> separate</c>
+
+00:01:13.990 --> 00:01:14.000 align:start position:0%
+put these operations into two separate
+ 
+
+00:01:14.000 --> 00:01:17.359 align:start position:0%
+put these operations into two separate
+viola<00:01:15.000><c> W</c><00:01:15.299><c> instructions</c><00:01:15.869><c> and</c><00:01:16.110><c> put</c><00:01:16.710><c> no</c><00:01:16.920><c> ops</c><00:01:17.100><c> for</c>
+
+00:01:17.359 --> 00:01:17.369 align:start position:0%
+viola W instructions and put no ops for
+ 
+
+00:01:17.369 --> 00:01:19.340 align:start position:0%
+viola W instructions and put no ops for
+the<00:01:17.490><c> second</c><00:01:17.850><c> operation</c><00:01:18.150><c> to</c><00:01:18.600><c> ensure</c><00:01:18.900><c> that</c><00:01:18.930><c> we</c>
+
+00:01:19.340 --> 00:01:19.350 align:start position:0%
+the second operation to ensure that we
+ 
+
+00:01:19.350 --> 00:01:22.010 align:start position:0%
+the second operation to ensure that we
+first<00:01:19.680><c> do</c><00:01:19.920><c> this</c><00:01:20.130><c> and</c><00:01:20.369><c> then</c><00:01:20.700><c> we</c><00:01:20.880><c> do</c><00:01:21.030><c> this</c><00:01:21.210><c> if</c>
+
+00:01:22.010 --> 00:01:22.020 align:start position:0%
+first do this and then we do this if
+ 
+
+00:01:22.020 --> 00:01:23.960 align:start position:0%
+first do this and then we do this if
+this<00:01:22.320><c> processor</c><00:01:22.890><c> now</c><00:01:23.070><c> is</c><00:01:23.310><c> trying</c><00:01:23.610><c> to</c><00:01:23.790><c> fetch</c>
+
+00:01:23.960 --> 00:01:23.970 align:start position:0%
+this processor now is trying to fetch
+ 
+
+00:01:23.970 --> 00:01:26.539 align:start position:0%
+this processor now is trying to fetch
+decode<00:01:24.119><c> and</c><00:01:24.479><c> execute</c><00:01:24.570><c> to</c><00:01:25.200><c> such</c><00:01:25.560><c> 64-bit</c>
+
+00:01:26.539 --> 00:01:26.549 align:start position:0%
+decode and execute to such 64-bit
+ 
+
+00:01:26.549 --> 00:01:28.670 align:start position:0%
+decode and execute to such 64-bit
+instructions<00:01:27.090><c> per</c><00:01:27.240><c> cycle</c><00:01:27.450><c> it</c><00:01:28.140><c> might</c><00:01:28.409><c> easily</c>
+
+00:01:28.670 --> 00:01:28.680 align:start position:0%
+instructions per cycle it might easily
+ 
+
+00:01:28.680 --> 00:01:30.410 align:start position:0%
+instructions per cycle it might easily
+fetch<00:01:29.130><c> this</c><00:01:29.340><c> too</c><00:01:29.549><c> and</c><00:01:29.700><c> try</c><00:01:29.850><c> to</c><00:01:29.909><c> do</c><00:01:30.119><c> them</c><00:01:30.270><c> in</c><00:01:30.390><c> the</c>
+
+00:01:30.410 --> 00:01:30.420 align:start position:0%
+fetch this too and try to do them in the
+ 
+
+00:01:30.420 --> 00:01:32.120 align:start position:0%
+fetch this too and try to do them in the
+same<00:01:30.689><c> cycle</c><00:01:30.960><c> thus</c><00:01:31.409><c> violating</c><00:01:31.979><c> this</c>
+
+00:01:32.120 --> 00:01:32.130 align:start position:0%
+same cycle thus violating this
+ 
+
+00:01:32.130 --> 00:01:34.550 align:start position:0%
+same cycle thus violating this
+dependence<00:01:32.700><c> so</c><00:01:33.360><c> this</c><00:01:33.540><c> type</c><00:01:33.750><c> of</c><00:01:33.900><c> processor</c><00:01:34.409><c> is</c>
+
+00:01:34.550 --> 00:01:34.560 align:start position:0%
+dependence so this type of processor is
+ 
+
+00:01:34.560 --> 00:01:37.100 align:start position:0%
+dependence so this type of processor is
+not<00:01:34.619><c> a</c><00:01:34.740><c> true</c><00:01:35.040><c> viola</c><00:01:35.310><c> W</c><00:01:35.610><c> processor</c><00:01:36.119><c> because</c><00:01:36.659><c> it</c>
+
+00:01:37.100 --> 00:01:37.110 align:start position:0%
+not a true viola W processor because it
+ 
+
+00:01:37.110 --> 00:01:38.870 align:start position:0%
+not a true viola W processor because it
+would<00:01:37.290><c> have</c><00:01:37.590><c> to</c><00:01:37.770><c> check</c><00:01:37.979><c> for</c><00:01:38.130><c> dependencies</c>
+
+00:01:38.870 --> 00:01:38.880 align:start position:0%
+would have to check for dependencies
+ 
+
+00:01:38.880 --> 00:01:40.910 align:start position:0%
+would have to check for dependencies
+which<00:01:39.329><c> makes</c><00:01:39.570><c> it</c><00:01:39.780><c> similar</c><00:01:40.020><c> to</c><00:01:40.380><c> a</c><00:01:40.650><c> normal</c>
+
+00:01:40.910 --> 00:01:40.920 align:start position:0%
+which makes it similar to a normal
+ 
+
+00:01:40.920 --> 00:01:44.240 align:start position:0%
+which makes it similar to a normal
+superscalar<00:01:41.579><c> processor</c>
+

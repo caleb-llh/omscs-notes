@@ -1,0 +1,236 @@
+1
+00:00:00,340 --> 00:00:03,640
+ Conceptually, an Euler Tour is fairly simple, but
+
+2
+00:00:03,640 --> 00:00:05,430
+ there's some important details.
+
+3
+00:00:05,430 --> 00:00:07,990
+ For example, how should you store the tree, and
+
+4
+00:00:07,990 --> 00:00:09,790
+ how should you compute the tour?
+
+5
+00:00:09,790 --> 00:00:11,060
+ Here's one scheme.
+
+6
+00:00:11,060 --> 00:00:13,620
+ Start with a version of the tree in which you represent each
+
+7
+00:00:13,620 --> 00:00:16,920
+ undirected edge by a pair of directed edges.
+
+8
+00:00:16,920 --> 00:00:18,340
+ For each node v,
+
+9
+00:00:18,340 --> 00:00:23,430
+ we'll define its adjacency list to be the set of its outgoing neighbors.
+
+10
+00:00:23,430 --> 00:00:28,040
+ Here, d sub v is the number of v's outgoing neighbors.
+
+11
+00:00:28,040 --> 00:00:31,270
+ For example, here's the full set of adjacency lists or
+
+12
+00:00:31,270 --> 00:00:34,400
+ the adjacency table representation of this tree.
+
+13
+00:00:34,400 --> 00:00:35,950
+ Take vertex 1.
+
+14
+00:00:35,950 --> 00:00:39,075
+ It points to 4, 5, 6 and 0.
+
+15
+00:00:39,075 --> 00:00:42,350
+ Its out-degree is 4.
+
+16
+00:00:42,350 --> 00:00:44,280
+ Its entry in the adjacency list or
+
+17
+00:00:44,280 --> 00:00:47,580
+ adjacency table has these four neighbors as well.
+
+18
+00:00:47,580 --> 00:00:50,690
+ D sub v is 4 for this vertex.
+
+19
+00:00:50,690 --> 00:00:54,810
+ Now to compute the Euler Tour, we're going to define a special function.
+
+20
+00:00:54,810 --> 00:00:57,480
+ That function is called the Successor function.
+
+21
+00:00:57,480 --> 00:00:59,640
+ Here's its formal definition.
+
+22
+00:00:59,640 --> 00:01:01,750
+ Given an edge that goes from ui to v,
+
+23
+00:01:01,750 --> 00:01:08,020
+ the Successor functions returns the next neighbor in v's adjacency list.
+
+24
+00:01:08,020 --> 00:01:10,050
+ Notice the modulo operation.
+
+25
+00:01:10,050 --> 00:01:13,950
+ That operation effectively makes the adjacency list circular.
+
+26
+00:01:13,950 --> 00:01:15,700
+ Let's look at an example.
+
+27
+00:01:15,700 --> 00:01:17,890
+ Consider the 0, 1 edge.
+
+28
+00:01:17,890 --> 00:01:20,350
+ Let's apply the Successor function to it.
+
+29
+00:01:20,350 --> 00:01:22,610
+ Recall the definition of the Successor.
+
+30
+00:01:22,610 --> 00:01:27,240
+ It tells you that applying s to 0,1 is the same as this.
+
+31
+00:01:27,240 --> 00:01:29,660
+ So what will the next edge be?
+
+32
+00:01:29,660 --> 00:01:32,270
+ That's right, it will be v, u0.
+
+33
+00:01:32,270 --> 00:01:35,220
+ In other words, the 1,4 edge.
+
+34
+00:01:35,220 --> 00:01:38,020
+ To make sure you've got the hang of it, let's do it once more.
+
+35
+00:01:38,020 --> 00:01:40,080
+ Apply s to 1,4.
+
+36
+00:01:40,080 --> 00:01:42,470
+ Remember the definition of s.
+
+37
+00:01:42,470 --> 00:01:45,998
+ This gets you to the edge, returning 2,1 from 4.
+
+38
+00:01:45,998 --> 00:01:50,620
+ If you keep going, you'll end up traversing the entire Euler circuit.
+
+39
+00:01:50,620 --> 00:01:53,350
+ A good exercise is to prove this fact.
+
+40
+00:01:53,350 --> 00:01:56,540
+ The key observation is that this successor function
+
+41
+00:01:56,540 --> 00:01:59,730
+ flips the relative positions of u and v.
+
+42
+00:01:59,730 --> 00:02:02,500
+ If you get stuck trying to convince yourself of this fact,
+
+43
+00:02:02,500 --> 00:02:06,460
+ try heading to the online forums and see if your peers can help you out.
+
+44
+00:02:06,460 --> 00:02:09,600
+ Now one important implementation detail remains.
+
+45
+00:02:09,600 --> 00:02:13,850
+ Is the cost of applying the Successor function constant?
+
+46
+00:02:13,850 --> 00:02:14,800
+ Because if it's not,
+
+47
+00:02:14,800 --> 00:02:19,210
+ then you can't claim that an Euler Tour is possible in linear work.
+
+48
+00:02:19,210 --> 00:02:21,900
+ Here's the problem that should give you some doubts.
+
+49
+00:02:21,900 --> 00:02:26,130
+ Suppose you recently visited the 1,6 edge.
+
+50
+00:02:26,130 --> 00:02:28,660
+ You want to apply the Successor function.
+
+51
+00:02:28,660 --> 00:02:32,650
+ That means you need a fast way to jump from here to here.
+
+52
+00:02:32,650 --> 00:02:35,940
+ Otherwise, you can't apply the Successor.
+
+53
+00:02:35,940 --> 00:02:40,700
+ An easy way to do this is to augment the data structure with some extra pointers.
+
+54
+00:02:40,700 --> 00:02:43,995
+ In fact, you can do that cheaply when you're creating the adjacency list
+
+55
+00:02:43,995 --> 00:02:45,495
+ data structure.
+
+56
+00:02:45,495 --> 00:02:47,305
+ If you insert all these cross-edges,
+
+57
+00:02:47,305 --> 00:02:49,615
+ you'll get something that looks like this.
+
+58
+00:02:49,615 --> 00:02:51,375
+ Egads, what a mess!
+
+59
+00:02:51,375 --> 00:02:51,375
+ But anyway, I hope you're convinced that it's at least doable.
+

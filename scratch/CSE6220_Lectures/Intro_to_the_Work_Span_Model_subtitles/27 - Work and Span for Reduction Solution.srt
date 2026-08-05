@@ -1,0 +1,20 @@
+1
+00:00:00,390 --> 00:00:04,380
+ For the sequential DAG, the critical path goes through all of the additions.
+
+2
+00:00:04,380 --> 00:00:08,800
+ And since there are n such additions, the answer is all O(n).
+
+3
+00:00:08,800 --> 00:00:10,990
+ Now what about the tree?
+
+4
+00:00:10,990 --> 00:00:16,320
+ Now in the tree, all paths include at least one vertex from each level.
+
+5
+00:00:16,320 --> 00:00:16,320
+ Since there are log n levels, the answer is log n.
+

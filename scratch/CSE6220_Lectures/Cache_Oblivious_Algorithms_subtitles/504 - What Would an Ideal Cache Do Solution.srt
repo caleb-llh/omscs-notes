@@ -1,0 +1,116 @@
+1
+00:00:00,310 --> 00:00:02,160
+ Here's what I came up with.
+
+2
+00:00:02,160 --> 00:00:08,640
+ Hex BEEF in the first entry, FOOD in the second,
+
+3
+00:00:08,640 --> 00:00:12,810
+ C0DE in the third and AB8D in the fourth.
+
+4
+00:00:12,810 --> 00:00:14,250
+ Note that by full associativity,
+
+5
+00:00:14,250 --> 00:00:18,130
+ any permutation of these addresses would've also been a valid response.
+
+6
+00:00:18,130 --> 00:00:20,960
+ As for the number of evictions, I got just one.
+
+7
+00:00:20,960 --> 00:00:22,390
+ Okay. Let's see if I can convince you
+
+8
+00:00:22,390 --> 00:00:23,590
+ of what I got.
+
+9
+00:00:23,590 --> 00:00:27,960
+ First, consider the first four unique addresses loaded.
+
+10
+00:00:27,960 --> 00:00:31,100
+ Notice that the first four unique addresses actually corresponds to
+
+11
+00:00:31,100 --> 00:00:33,380
+ the first five instructions.
+
+12
+00:00:33,380 --> 00:00:36,770
+ I picked the first four unique ones because the cache is empty, so
+
+13
+00:00:36,770 --> 00:00:41,390
+ it can hold up to four values, namely, the first four unique addresses.
+
+14
+00:00:41,390 --> 00:00:45,810
+ This second occurrence of x F 0 0 D will be a cache hit.
+
+15
+00:00:45,810 --> 00:00:49,770
+ The next load to x A B 8 D will cause a state change.
+
+16
+00:00:49,770 --> 00:00:52,580
+ The cache is full so something has got to go.
+
+17
+00:00:52,580 --> 00:00:54,850
+ So which address will be evicted?
+
+18
+00:00:54,850 --> 00:00:58,500
+ Well, remember that an ideal cache can see the future.
+
+19
+00:00:58,500 --> 00:01:00,640
+ So for each of these addresses in cache,
+
+20
+00:01:00,640 --> 00:01:04,209
+ the ideal cache will look at the future sequences of accesses and
+
+21
+00:01:04,209 --> 00:01:08,000
+ kick out the address that is touched furthest in the future.
+
+22
+00:01:08,000 --> 00:01:12,710
+ So in this case, that's the address xD00D.
+
+23
+00:01:12,710 --> 00:01:13,810
+ No love lost here.
+
+24
+00:01:13,810 --> 00:01:16,710
+ That dude is a total loser of an address anyway.
+
+25
+00:01:16,710 --> 00:01:21,770
+ With a newly freed slot, you can load the value at address xAB8D.
+
+26
+00:01:21,770 --> 00:01:24,520
+ After that completes, the next three accesses
+
+27
+00:01:24,520 --> 00:01:28,980
+ are all addresses that are in cache, so they're all cache hits and you're done.
+
+28
+00:01:28,980 --> 00:01:32,850
+ Notice that in this process, there was a total of just one eviction, so
+
+29
+00:01:32,850 --> 00:01:32,850
+ that's what the ideal cache would do.
+

@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.670 align:start position:0%
+ 
+let's<00:00:00.269><c> look</c><00:00:00.450><c> at</c><00:00:00.570><c> the</c><00:00:00.719><c> solution</c><00:00:01.260><c> to</c><00:00:01.290><c> our</c><00:00:01.469><c> block</c>
+
+00:00:01.670 --> 00:00:01.680 align:start position:0%
+let's look at the solution to our block
+ 
+
+00:00:01.680 --> 00:00:04.190 align:start position:0%
+let's look at the solution to our block
+number<00:00:02.070><c> quiz</c><00:00:02.310><c> if</c><00:00:02.730><c> we</c><00:00:02.939><c> have</c><00:00:03.149><c> a</c><00:00:03.179><c> 32</c><00:00:03.750><c> byte</c><00:00:03.929><c> block</c>
+
+00:00:04.190 --> 00:00:04.200 align:start position:0%
+number quiz if we have a 32 byte block
+ 
+
+00:00:04.200 --> 00:00:07.670 align:start position:0%
+number quiz if we have a 32 byte block
+size<00:00:04.230><c> and</c><00:00:04.799><c> a</c><00:00:05.040><c> 16-bit</c><00:00:05.549><c> address</c><00:00:05.970><c> like</c><00:00:06.810><c> this</c><00:00:06.839><c> the</c>
+
+00:00:07.670 --> 00:00:07.680 align:start position:0%
+size and a 16-bit address like this the
+ 
+
+00:00:07.680 --> 00:00:09.530 align:start position:0%
+size and a 16-bit address like this the
+question<00:00:08.069><c> is</c><00:00:08.189><c> what</c><00:00:08.400><c> is</c><00:00:08.580><c> the</c><00:00:08.700><c> block</c><00:00:08.880><c> offset</c><00:00:09.120><c> and</c>
+
+00:00:09.530 --> 00:00:09.540 align:start position:0%
+question is what is the block offset and
+ 
+
+00:00:09.540 --> 00:00:12.530 align:start position:0%
+question is what is the block offset and
+the<00:00:09.690><c> block</c><00:00:09.900><c> number</c><00:00:10.080><c> for</c><00:00:10.679><c> a</c><00:00:10.710><c> 32</c><00:00:11.190><c> byte</c><00:00:11.610><c> block</c><00:00:12.000><c> the</c>
+
+00:00:12.530 --> 00:00:12.540 align:start position:0%
+the block number for a 32 byte block the
+ 
+
+00:00:12.540 --> 00:00:15.200 align:start position:0%
+the block number for a 32 byte block the
+block<00:00:12.809><c> offset</c><00:00:13.080><c> will</c><00:00:13.679><c> determine</c><00:00:14.099><c> where</c><00:00:14.639><c> within</c>
+
+00:00:15.200 --> 00:00:15.210 align:start position:0%
+block offset will determine where within
+ 
+
+00:00:15.210 --> 00:00:18.320 align:start position:0%
+block offset will determine where within
+the<00:00:15.330><c> 32</c><00:00:15.809><c> bytes</c><00:00:16.049><c> are</c><00:00:16.560><c> we</c><00:00:16.830><c> we</c><00:00:17.250><c> need</c><00:00:17.430><c> 5</c><00:00:17.730><c> bits</c><00:00:17.760><c> to</c>
+
+00:00:18.320 --> 00:00:18.330 align:start position:0%
+the 32 bytes are we we need 5 bits to
+ 
+
+00:00:18.330 --> 00:00:22.370 align:start position:0%
+the 32 bytes are we we need 5 bits to
+tell<00:00:18.539><c> us</c><00:00:18.690><c> that</c><00:00:18.900><c> because</c><00:00:19.260><c> 2</c><00:00:20.070><c> to</c><00:00:20.279><c> the</c><00:00:20.400><c> 5</c><00:00:20.699><c> is</c><00:00:21.119><c> 32</c><00:00:21.900><c> so</c>
+
+00:00:22.370 --> 00:00:22.380 align:start position:0%
+tell us that because 2 to the 5 is 32 so
+ 
+
+00:00:22.380 --> 00:00:24.859 align:start position:0%
+tell us that because 2 to the 5 is 32 so
+we<00:00:22.500><c> need</c><00:00:22.650><c> 5</c><00:00:22.949><c> bits</c><00:00:23.340><c> to</c><00:00:23.760><c> tell</c><00:00:23.970><c> us</c><00:00:24.150><c> which</c><00:00:24.480><c> of</c><00:00:24.720><c> the</c>
+
+00:00:24.859 --> 00:00:24.869 align:start position:0%
+we need 5 bits to tell us which of the
+ 
+
+00:00:24.869 --> 00:00:27.140 align:start position:0%
+we need 5 bits to tell us which of the
+32<00:00:25.199><c> bytes</c><00:00:25.560><c> are</c><00:00:25.949><c> we</c><00:00:26.279><c> interested</c><00:00:26.550><c> in</c><00:00:26.849><c> accessing</c>
+
+00:00:27.140 --> 00:00:27.150 align:start position:0%
+32 bytes are we interested in accessing
+ 
+
+00:00:27.150 --> 00:00:30.140 align:start position:0%
+32 bytes are we interested in accessing
+that<00:00:27.779><c> means</c><00:00:28.140><c> that</c><00:00:28.980><c> the</c><00:00:29.160><c> least</c><00:00:29.369><c> significant</c><00:00:30.090><c> 5</c>
+
+00:00:30.140 --> 00:00:30.150 align:start position:0%
+that means that the least significant 5
+ 
+
+00:00:30.150 --> 00:00:32.630 align:start position:0%
+that means that the least significant 5
+bits<00:00:30.390><c> of</c><00:00:30.929><c> this</c><00:00:31.109><c> address</c><00:00:31.500><c> are</c><00:00:32.099><c> the</c><00:00:32.160><c> block</c>
+
+00:00:32.630 --> 00:00:32.640 align:start position:0%
+bits of this address are the block
+ 
+
+00:00:32.640 --> 00:00:36.740 align:start position:0%
+bits of this address are the block
+offset<00:00:32.880><c> so</c><00:00:33.780><c> the</c><00:00:33.899><c> block</c><00:00:34.140><c> offset</c><00:00:34.350><c> is</c><00:00:34.770><c> this</c><00:00:35.750><c> the</c>
+
+00:00:36.740 --> 00:00:36.750 align:start position:0%
+offset so the block offset is this the
+ 
+
+00:00:36.750 --> 00:00:38.540 align:start position:0%
+offset so the block offset is this the
+remaining<00:00:37.290><c> bits</c><00:00:37.469><c> of</c><00:00:37.680><c> the</c><00:00:37.800><c> address</c><00:00:37.829><c> are</c><00:00:38.309><c> the</c>
+
+00:00:38.540 --> 00:00:38.550 align:start position:0%
+remaining bits of the address are the
+ 
+
+00:00:38.550 --> 00:00:40.549 align:start position:0%
+remaining bits of the address are the
+block<00:00:38.730><c> number</c><00:00:38.969><c> they</c><00:00:39.420><c> are</c><00:00:39.450><c> telling</c><00:00:39.840><c> us</c><00:00:39.989><c> which</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+block number they are telling us which
+ 
+
+00:00:40.559 --> 00:00:43.520 align:start position:0%
+block number they are telling us which
+of<00:00:40.890><c> the</c><00:00:41.340><c> 32</c><00:00:41.850><c> byte</c><00:00:42.059><c> blocks</c><00:00:42.390><c> contains</c><00:00:43.320><c> this</c>
+
+00:00:43.520 --> 00:00:43.530 align:start position:0%
+of the 32 byte blocks contains this
+ 
+
+00:00:43.530 --> 00:00:48.980 align:start position:0%
+of the 32 byte blocks contains this
+address<00:00:43.920><c> so</c><00:00:44.670><c> this</c><00:00:45.050><c> is</c><00:00:46.050><c> our</c><00:00:46.350><c> block</c><00:00:46.559><c> number</c>
+

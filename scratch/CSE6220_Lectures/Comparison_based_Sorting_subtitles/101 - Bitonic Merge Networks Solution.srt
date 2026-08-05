@@ -1,0 +1,68 @@
+1
+00:00:00,310 --> 00:00:04,320
+ Remember that a bitonic merge is a sequence of splits.
+
+2
+00:00:04,320 --> 00:00:08,230
+ And a sequence of splits is just a set of minmax pairs.
+
+3
+00:00:08,230 --> 00:00:09,840
+ Now the input is a length eight, so
+
+4
+00:00:09,840 --> 00:00:14,180
+ the first split should pair elements that are four away from each other.
+
+5
+00:00:14,180 --> 00:00:18,230
+ Now with this pairing, the first four wires will be one bitonic subsequence,
+
+6
+00:00:18,230 --> 00:00:21,080
+ and the second four wires will be another.
+
+7
+00:00:21,080 --> 00:00:24,110
+ You should then split these two subsequences.
+
+8
+00:00:24,110 --> 00:00:26,090
+ Again, within each subsequence,
+
+9
+00:00:26,090 --> 00:00:30,220
+ which is of length four, pair elements that are two away from each other.
+
+10
+00:00:30,220 --> 00:00:32,290
+ Let's see, so what would that look like?
+
+11
+00:00:32,290 --> 00:00:35,515
+ This should give you four bitonic subsequences.
+
+12
+00:00:35,515 --> 00:00:37,875
+ We then repeat with the remaining pairs.
+
+13
+00:00:37,875 --> 00:00:39,575
+ To make this a little bit easier to see,
+
+14
+00:00:39,575 --> 00:00:42,115
+ here is what the final network would look like.
+
+15
+00:00:42,115 --> 00:00:45,895
+ Check it by computing a trace of the values on each wire.
+
+16
+00:00:45,895 --> 00:00:48,825
+ A good follow up exercise is to compare this circuit
+
+17
+00:00:48,825 --> 00:00:48,825
+ with the bitonic merge pseudo code.
+

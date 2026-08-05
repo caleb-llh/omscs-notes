@@ -1,0 +1,76 @@
+1
+00:00:00,380 --> 00:00:05,510
+ Here is the answer, in an asymptotic sense is basically just a constant, why?
+
+2
+00:00:05,510 --> 00:00:09,830
+ First note that the algorithm does n cubed work, what about transfers?
+
+3
+00:00:09,830 --> 00:00:12,190
+ Start by considering the reads of A.
+
+4
+00:00:12,190 --> 00:00:16,850
+ The read is a vector of length n elements which you repeat n times.
+
+5
+00:00:16,850 --> 00:00:19,670
+ So for A only that's n squared reads.
+
+6
+00:00:19,670 --> 00:00:21,670
+ Next, let's look at C.
+
+7
+00:00:21,670 --> 00:00:24,530
+ There's a read and a write of one element each.
+
+8
+00:00:24,530 --> 00:00:28,360
+ These are repeated a total of N squared times.
+
+9
+00:00:28,360 --> 00:00:32,400
+ So our tally of transfers now increases to three N squared.
+
+10
+00:00:32,400 --> 00:00:33,310
+ Lastly, there is B.
+
+11
+00:00:33,310 --> 00:00:38,850
+ The algorithm reads N elements of B N squared times.
+
+12
+00:00:38,850 --> 00:00:40,880
+ That's N cubed reads.
+
+13
+00:00:40,880 --> 00:00:44,920
+ Thus, it's the reads of B that dominate the overall transfer cost.
+
+14
+00:00:44,920 --> 00:00:48,380
+ And since the intensity is the ratio of operations to transfers,
+
+15
+00:00:48,380 --> 00:00:50,490
+ the intensity is constant.
+
+16
+00:00:50,490 --> 00:00:54,600
+ An interesting question to ask yourself at this point is, can you do better?
+
+17
+00:00:54,600 --> 00:00:57,080
+ I hope your intuition says, yes.
+
+18
+00:00:57,080 --> 00:01:01,902
+ in particular, there are n-cubed operations but only n-squared data.
+
+19
+00:01:01,902 --> 00:01:01,902
+ That suggests there might be a factor of n reuse available.
+

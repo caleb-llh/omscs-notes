@@ -1,0 +1,800 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.510 align:start position:0%
+ 
+let's<00:00:00.390><c> look</c><00:00:00.599><c> at</c><00:00:00.780><c> the</c><00:00:00.930><c> solution</c><00:00:01.140><c> for</c><00:00:01.740><c> our</c><00:00:01.770><c> tree</c>
+
+00:00:02.510 --> 00:00:02.520 align:start position:0%
+let's look at the solution for our tree
+ 
+
+00:00:02.520 --> 00:00:05.329 align:start position:0%
+let's look at the solution for our tree
+protocol<00:00:03.060><c> comparison</c><00:00:03.810><c> quiz</c><00:00:04.230><c> where</c><00:00:05.069><c> we</c><00:00:05.190><c> had</c>
+
+00:00:05.329 --> 00:00:05.339 align:start position:0%
+protocol comparison quiz where we had
+ 
+
+00:00:05.339 --> 00:00:08.780 align:start position:0%
+protocol comparison quiz where we had
+three<00:00:05.520><c> cores</c><00:00:05.940><c> a</c><00:00:06.299><c> block</c><00:00:07.140><c> a</c><00:00:07.500><c> that</c><00:00:08.220><c> starts</c><00:00:08.580><c> in</c><00:00:08.670><c> an</c>
+
+00:00:08.780 --> 00:00:08.790 align:start position:0%
+three cores a block a that starts in an
+ 
+
+00:00:08.790 --> 00:00:10.730 align:start position:0%
+three cores a block a that starts in an
+invalid<00:00:09.240><c> state</c><00:00:09.510><c> in</c><00:00:09.750><c> all</c><00:00:09.900><c> three</c><00:00:10.080><c> caches</c><00:00:10.530><c> and</c>
+
+00:00:10.730 --> 00:00:10.740 align:start position:0%
+invalid state in all three caches and
+ 
+
+00:00:10.740 --> 00:00:14.740 align:start position:0%
+invalid state in all three caches and
+then<00:00:11.480><c> cores</c><00:00:12.480><c> access</c><00:00:13.080><c> this</c><00:00:13.710><c> block</c><00:00:14.070><c> in</c><00:00:14.309><c> this</c><00:00:14.460><c> way</c>
+
+00:00:14.740 --> 00:00:14.750 align:start position:0%
+then cores access this block in this way
+ 
+
+00:00:14.750 --> 00:00:17.450 align:start position:0%
+then cores access this block in this way
+we<00:00:15.750><c> were</c><00:00:15.870><c> asked</c><00:00:16.080><c> how</c><00:00:16.320><c> many</c><00:00:16.379><c> memory</c><00:00:16.949><c> reads</c><00:00:17.220><c> and</c>
+
+00:00:17.450 --> 00:00:17.460 align:start position:0%
+we were asked how many memory reads and
+ 
+
+00:00:17.460 --> 00:00:19.250 align:start position:0%
+we were asked how many memory reads and
+bus<00:00:17.730><c> requests</c><00:00:18.240><c> do</c><00:00:18.330><c> we</c><00:00:18.420><c> have</c><00:00:18.630><c> in</c><00:00:18.840><c> each</c><00:00:18.930><c> of</c><00:00:18.990><c> these</c>
+
+00:00:19.250 --> 00:00:19.260 align:start position:0%
+bus requests do we have in each of these
+ 
+
+00:00:19.260 --> 00:00:23.210 align:start position:0%
+bus requests do we have in each of these
+protocols<00:00:19.939><c> when</c><00:00:20.939><c> I</c><00:00:20.970><c> read</c><00:00:21.270><c> a</c><00:00:21.570><c> occurs</c><00:00:22.050><c> will</c><00:00:22.890><c> have</c>
+
+00:00:23.210 --> 00:00:23.220 align:start position:0%
+protocols when I read a occurs will have
+ 
+
+00:00:23.220 --> 00:00:25.429 align:start position:0%
+protocols when I read a occurs will have
+a<00:00:23.430><c> memory</c><00:00:23.699><c> read</c><00:00:24.090><c> in</c><00:00:24.330><c> each</c><00:00:24.660><c> of</c><00:00:24.900><c> these</c><00:00:25.019><c> protocols</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+a memory read in each of these protocols
+ 
+
+00:00:25.439 --> 00:00:28.970 align:start position:0%
+a memory read in each of these protocols
+because<00:00:25.800><c> this</c><00:00:26.160><c> is</c><00:00:26.310><c> a</c><00:00:26.490><c> Miss</c><00:00:26.760><c> on</c><00:00:27.029><c> core</c><00:00:27.570><c> one</c><00:00:27.980><c> at</c>
+
+00:00:28.970 --> 00:00:28.980 align:start position:0%
+because this is a Miss on core one at
+ 
+
+00:00:28.980 --> 00:00:32.600 align:start position:0%
+because this is a Miss on core one at
+that<00:00:29.340><c> point</c><00:00:29.840><c> c1</c><00:00:30.840><c> has</c><00:00:31.500><c> the</c><00:00:31.800><c> Block</c><00:00:32.040><c> in</c><00:00:32.309><c> the</c>
+
+00:00:32.600 --> 00:00:32.610 align:start position:0%
+that point c1 has the Block in the
+ 
+
+00:00:32.610 --> 00:00:36.110 align:start position:0%
+that point c1 has the Block in the
+shared<00:00:32.820><c> or</c><00:00:33.540><c> exclusive</c><00:00:34.500><c> state</c><00:00:34.969><c> depending</c><00:00:35.969><c> on</c>
+
+00:00:36.110 --> 00:00:36.120 align:start position:0%
+shared or exclusive state depending on
+ 
+
+00:00:36.120 --> 00:00:38.180 align:start position:0%
+shared or exclusive state depending on
+whether<00:00:36.329><c> the</c><00:00:36.540><c> protocol</c><00:00:37.050><c> has</c><00:00:37.290><c> a</c><00:00:37.320><c> shared</c><00:00:37.739><c> state</c>
+
+00:00:38.180 --> 00:00:38.190 align:start position:0%
+whether the protocol has a shared state
+ 
+
+00:00:38.190 --> 00:00:41.510 align:start position:0%
+whether the protocol has a shared state
+or<00:00:38.399><c> not</c><00:00:38.610><c> so</c><00:00:39.480><c> in</c><00:00:39.570><c> the</c><00:00:39.750><c> mozi</c><00:00:40.680><c> we</c><00:00:41.190><c> will</c><00:00:41.370><c> have</c>
+
+00:00:41.510 --> 00:00:41.520 align:start position:0%
+or not so in the mozi we will have
+ 
+
+00:00:41.520 --> 00:00:44.630 align:start position:0%
+or not so in the mozi we will have
+shared<00:00:41.850><c> state</c><00:00:42.120><c> in</c><00:00:42.600><c> messy</c><00:00:43.290><c> and</c><00:00:43.469><c> mossy</c><00:00:44.129><c> we</c><00:00:44.460><c> will</c>
+
+00:00:44.630 --> 00:00:44.640 align:start position:0%
+shared state in messy and mossy we will
+ 
+
+00:00:44.640 --> 00:00:46.910 align:start position:0%
+shared state in messy and mossy we will
+have<00:00:44.879><c> the</c><00:00:45.120><c> exclusive</c><00:00:45.960><c> state</c><00:00:46.170><c> because</c><00:00:46.649><c> at</c><00:00:46.770><c> this</c>
+
+00:00:46.910 --> 00:00:46.920 align:start position:0%
+have the exclusive state because at this
+ 
+
+00:00:46.920 --> 00:00:49.279 align:start position:0%
+have the exclusive state because at this
+point<00:00:47.190><c> c1</c><00:00:47.550><c> is</c><00:00:47.820><c> the</c><00:00:47.850><c> only</c><00:00:48.210><c> one</c><00:00:48.600><c> who</c><00:00:48.840><c> has</c><00:00:49.079><c> this</c>
+
+00:00:49.279 --> 00:00:49.289 align:start position:0%
+point c1 is the only one who has this
+ 
+
+00:00:49.289 --> 00:00:54.139 align:start position:0%
+point c1 is the only one who has this
+block<00:00:49.559><c> at</c><00:00:50.250><c> all</c><00:00:50.809><c> when</c><00:00:51.809><c> c1</c><00:00:52.289><c> writes</c><00:00:52.559><c> to</c><00:00:52.890><c> a</c><00:00:52.920><c> if</c><00:00:53.789><c> we</c>
+
+00:00:54.139 --> 00:00:54.149 align:start position:0%
+block at all when c1 writes to a if we
+ 
+
+00:00:54.149 --> 00:00:57.049 align:start position:0%
+block at all when c1 writes to a if we
+have<00:00:54.360><c> the</c><00:00:54.539><c> Block</c><00:00:54.780><c> in</c><00:00:54.809><c> the</c><00:00:55.110><c> shared</c><00:00:55.140><c> state</c><00:00:56.059><c> we</c>
+
+00:00:57.049 --> 00:00:57.059 align:start position:0%
+have the Block in the shared state we
+ 
+
+00:00:57.059 --> 00:00:59.450 align:start position:0%
+have the Block in the shared state we
+need<00:00:57.270><c> to</c><00:00:57.449><c> put</c><00:00:57.690><c> an</c><00:00:57.899><c> invalidation</c><00:00:58.530><c> request</c><00:00:58.980><c> on</c>
+
+00:00:59.450 --> 00:00:59.460 align:start position:0%
+need to put an invalidation request on
+ 
+
+00:00:59.460 --> 00:01:00.709 align:start position:0%
+need to put an invalidation request on
+the<00:00:59.550><c> bus</c><00:00:59.579><c> because</c><00:01:00.059><c> we</c><00:01:00.210><c> don't</c><00:01:00.390><c> know</c><00:01:00.510><c> whether</c>
+
+00:01:00.709 --> 00:01:00.719 align:start position:0%
+the bus because we don't know whether
+ 
+
+00:01:00.719 --> 00:01:02.930 align:start position:0%
+the bus because we don't know whether
+there<00:01:00.989><c> are</c><00:01:01.050><c> any</c><00:01:01.109><c> other</c><00:01:01.410><c> sharers</c><00:01:01.949><c> and</c><00:01:02.399><c> of</c>
+
+00:01:02.930 --> 00:01:02.940 align:start position:0%
+there are any other sharers and of
+ 
+
+00:01:02.940 --> 00:01:04.880 align:start position:0%
+there are any other sharers and of
+course<00:01:03.239><c> if</c><00:01:03.480><c> we</c><00:01:03.600><c> did</c><00:01:03.750><c> a</c><00:01:03.780><c> memory</c><00:01:04.140><c> read</c><00:01:04.350><c> we</c><00:01:04.589><c> also</c>
+
+00:01:04.880 --> 00:01:04.890 align:start position:0%
+course if we did a memory read we also
+ 
+
+00:01:04.890 --> 00:01:07.570 align:start position:0%
+course if we did a memory read we also
+had<00:01:05.369><c> a</c><00:01:05.610><c> bus</c><00:01:05.850><c> request</c><00:01:06.119><c> in</c><00:01:06.600><c> each</c><00:01:06.720><c> of</c><00:01:06.960><c> the</c><00:01:07.110><c> three</c>
+
+00:01:07.570 --> 00:01:07.580 align:start position:0%
+had a bus request in each of the three
+ 
+
+00:01:07.580 --> 00:01:11.750 align:start position:0%
+had a bus request in each of the three
+now<00:01:08.580><c> when</c><00:01:08.820><c> we</c><00:01:08.939><c> do</c><00:01:09.090><c> a</c><00:01:09.119><c> write</c><00:01:09.450><c> a</c><00:01:10.159><c> four</c><00:01:11.159><c> protocols</c>
+
+00:01:11.750 --> 00:01:11.760 align:start position:0%
+now when we do a write a four protocols
+ 
+
+00:01:11.760 --> 00:01:14.690 align:start position:0%
+now when we do a write a four protocols
+that<00:01:11.880><c> have</c><00:01:12.150><c> the</c><00:01:12.360><c> e</c><00:01:12.390><c> state</c><00:01:12.869><c> we</c><00:01:13.770><c> just</c><00:01:13.799><c> move</c><00:01:14.369><c> to</c>
+
+00:01:14.690 --> 00:01:14.700 align:start position:0%
+that have the e state we just move to
+ 
+
+00:01:14.700 --> 00:01:16.580 align:start position:0%
+that have the e state we just move to
+the<00:01:14.729><c> modified</c><00:01:15.330><c> state</c><00:01:15.600><c> we</c><00:01:15.869><c> don't</c><00:01:16.080><c> have</c><00:01:16.259><c> to</c><00:01:16.380><c> put</c>
+
+00:01:16.580 --> 00:01:16.590 align:start position:0%
+the modified state we don't have to put
+ 
+
+00:01:16.590 --> 00:01:19.100 align:start position:0%
+the modified state we don't have to put
+anything<00:01:16.920><c> on</c><00:01:17.159><c> the</c><00:01:17.310><c> bus</c><00:01:17.490><c> or</c><00:01:17.790><c> read</c><00:01:17.939><c> memory</c><00:01:18.180><c> so</c>
+
+00:01:19.100 --> 00:01:19.110 align:start position:0%
+anything on the bus or read memory so
+ 
+
+00:01:19.110 --> 00:01:22.399 align:start position:0%
+anything on the bus or read memory so
+here<00:01:19.619><c> we</c><00:01:20.130><c> don't</c><00:01:20.310><c> do</c><00:01:20.520><c> anything</c><00:01:20.820><c> but</c><00:01:21.600><c> for</c><00:01:21.780><c> mossie</c>
+
+00:01:22.399 --> 00:01:22.409 align:start position:0%
+here we don't do anything but for mossie
+ 
+
+00:01:22.409 --> 00:01:24.980 align:start position:0%
+here we don't do anything but for mossie
+we<00:01:23.040><c> were</c><00:01:23.189><c> in</c><00:01:23.310><c> the</c><00:01:23.430><c> shared</c><00:01:23.729><c> state</c><00:01:24.060><c> we</c><00:01:24.600><c> have</c><00:01:24.840><c> to</c>
+
+00:01:24.980 --> 00:01:24.990 align:start position:0%
+we were in the shared state we have to
+ 
+
+00:01:24.990 --> 00:01:27.469 align:start position:0%
+we were in the shared state we have to
+put<00:01:25.229><c> an</c><00:01:25.520><c> invalidation</c><00:01:26.520><c> request</c><00:01:26.759><c> on</c><00:01:27.330><c> the</c><00:01:27.450><c> bus</c>
+
+00:01:27.469 --> 00:01:27.479 align:start position:0%
+put an invalidation request on the bus
+ 
+
+00:01:27.479 --> 00:01:30.109 align:start position:0%
+put an invalidation request on the bus
+there<00:01:28.080><c> is</c><00:01:28.229><c> no</c><00:01:28.439><c> memory</c><00:01:28.680><c> read</c><00:01:29.040><c> here</c><00:01:29.460><c> we</c><00:01:29.850><c> already</c>
+
+00:01:30.109 --> 00:01:30.119 align:start position:0%
+there is no memory read here we already
+ 
+
+00:01:30.119 --> 00:01:32.569 align:start position:0%
+there is no memory read here we already
+have<00:01:30.420><c> the</c><00:01:30.600><c> data</c><00:01:30.630><c> we</c><00:01:31.560><c> just</c><00:01:31.590><c> need</c><00:01:31.979><c> to</c><00:01:32.130><c> invalidate</c>
+
+00:01:32.569 --> 00:01:32.579 align:start position:0%
+have the data we just need to invalidate
+ 
+
+00:01:32.579 --> 00:01:34.999 align:start position:0%
+have the data we just need to invalidate
+others<00:01:33.240><c> because</c><00:01:33.750><c> we</c><00:01:33.900><c> think</c><00:01:34.200><c> there</c><00:01:34.740><c> might</c><00:01:34.950><c> be</c>
+
+00:01:34.999 --> 00:01:35.009 align:start position:0%
+others because we think there might be
+ 
+
+00:01:35.009 --> 00:01:38.480 align:start position:0%
+others because we think there might be
+others<00:01:35.869><c> so</c><00:01:36.869><c> now</c><00:01:37.140><c> we</c><00:01:37.200><c> have</c><00:01:37.710><c> the</c><00:01:37.860><c> Block</c><00:01:38.130><c> in</c><00:01:38.369><c> the</c>
+
+00:01:38.480 --> 00:01:38.490 align:start position:0%
+others so now we have the Block in the
+ 
+
+00:01:38.490 --> 00:01:41.899 align:start position:0%
+others so now we have the Block in the
+modified<00:01:39.060><c> state</c><00:01:39.090><c> in</c><00:01:39.840><c> c1</c><00:01:40.670><c> everybody</c><00:01:41.670><c> else</c>
+
+00:01:41.899 --> 00:01:41.909 align:start position:0%
+modified state in c1 everybody else
+ 
+
+00:01:41.909 --> 00:01:44.200 align:start position:0%
+modified state in c1 everybody else
+still<00:01:42.360><c> has</c><00:01:42.600><c> the</c><00:01:42.780><c> Block</c><00:01:42.990><c> in</c><00:01:43.229><c> the</c><00:01:43.380><c> invalid</c><00:01:43.890><c> state</c>
+
+00:01:44.200 --> 00:01:44.210 align:start position:0%
+still has the Block in the invalid state
+ 
+
+00:01:44.210 --> 00:01:49.310 align:start position:0%
+still has the Block in the invalid state
+when<00:01:45.210><c> c2</c><00:01:45.869><c> reads</c><00:01:46.590><c> a</c><00:01:46.829><c> c1</c><00:01:47.790><c> must</c><00:01:48.180><c> supply</c><00:01:48.630><c> this</c><00:01:48.750><c> data</c>
+
+00:01:49.310 --> 00:01:49.320 align:start position:0%
+when c2 reads a c1 must supply this data
+ 
+
+00:01:49.320 --> 00:01:52.460 align:start position:0%
+when c2 reads a c1 must supply this data
+so<00:01:50.310><c> this</c><00:01:50.520><c> is</c><00:01:50.759><c> a</c><00:01:50.790><c> bus</c><00:01:51.210><c> request</c><00:01:51.450><c> because</c><00:01:52.140><c> we</c><00:01:52.290><c> have</c>
+
+00:01:52.460 --> 00:01:52.470 align:start position:0%
+so this is a bus request because we have
+ 
+
+00:01:52.470 --> 00:01:56.780 align:start position:0%
+so this is a bus request because we have
+read<00:01:52.740><c> in</c><00:01:53.040><c> all</c><00:01:53.700><c> of</c><00:01:53.909><c> them</c><00:01:54.530><c> seto</c><00:01:55.530><c> will</c><00:01:56.340><c> get</c><00:01:56.579><c> the</c>
+
+00:01:56.780 --> 00:01:56.790 align:start position:0%
+read in all of them seto will get the
+ 
+
+00:01:56.790 --> 00:02:00.620 align:start position:0%
+read in all of them seto will get the
+data<00:01:57.000><c> in</c><00:01:57.210><c> the</c><00:01:57.299><c> shared</c><00:01:57.630><c> state</c><00:01:58.189><c> because</c><00:01:59.189><c> c1</c><00:01:59.759><c> will</c>
+
+00:02:00.620 --> 00:02:00.630 align:start position:0%
+data in the shared state because c1 will
+ 
+
+00:02:00.630 --> 00:02:02.780 align:start position:0%
+data in the shared state because c1 will
+be<00:02:00.810><c> downgraded</c><00:02:01.110><c> from</c><00:02:01.680><c> modified</c><00:02:02.280><c> to</c><00:02:02.490><c> either</c>
+
+00:02:02.780 --> 00:02:02.790 align:start position:0%
+be downgraded from modified to either
+ 
+
+00:02:02.790 --> 00:02:06.679 align:start position:0%
+be downgraded from modified to either
+shared<00:02:03.329><c> or</c><00:02:03.960><c> owned</c><00:02:04.460><c> but</c><00:02:05.460><c> either</c><00:02:05.700><c> way</c><00:02:06.000><c> c2</c><00:02:06.509><c> will</c>
+
+00:02:06.679 --> 00:02:06.689 align:start position:0%
+shared or owned but either way c2 will
+ 
+
+00:02:06.689 --> 00:02:09.949 align:start position:0%
+shared or owned but either way c2 will
+be<00:02:06.869><c> shared</c><00:02:07.520><c> c1</c><00:02:08.520><c> will</c><00:02:09.179><c> have</c><00:02:09.420><c> the</c><00:02:09.569><c> Block</c><00:02:09.780><c> in</c>
+
+00:02:09.949 --> 00:02:09.959 align:start position:0%
+be shared c1 will have the Block in
+ 
+
+00:02:09.959 --> 00:02:12.380 align:start position:0%
+be shared c1 will have the Block in
+either<00:02:10.200><c> the</c><00:02:10.500><c> O</c><00:02:10.530><c> state</c><00:02:11.069><c> if</c><00:02:11.520><c> there</c><00:02:11.970><c> is</c><00:02:12.120><c> an</c><00:02:12.270><c> O</c>
+
+00:02:12.380 --> 00:02:12.390 align:start position:0%
+either the O state if there is an O
+ 
+
+00:02:12.390 --> 00:02:14.100 align:start position:0%
+either the O state if there is an O
+state<00:02:12.660><c> because</c><00:02:13.020><c> from</c><00:02:13.230><c> motive</c>
+
+00:02:14.100 --> 00:02:14.110 align:start position:0%
+state because from motive
+ 
+
+00:02:14.110 --> 00:02:17.580 align:start position:0%
+state because from motive
+we<00:02:14.410><c> go</c><00:02:14.590><c> to</c><00:02:14.650><c> all</c><00:02:15.040><c> once</c><00:02:15.490><c> we</c><00:02:15.640><c> start</c><00:02:15.880><c> sharing</c><00:02:16.090><c> or</c><00:02:16.900><c> in</c>
+
+00:02:17.580 --> 00:02:17.590 align:start position:0%
+we go to all once we start sharing or in
+ 
+
+00:02:17.590 --> 00:02:20.510 align:start position:0%
+we go to all once we start sharing or in
+the<00:02:17.890><c> shared</c><00:02:18.190><c> state</c><00:02:18.720><c> assuming</c><00:02:19.720><c> we</c><00:02:20.230><c> have</c>
+
+00:02:20.510 --> 00:02:20.520 align:start position:0%
+the shared state assuming we have
+ 
+
+00:02:20.520 --> 00:02:23.400 align:start position:0%
+the shared state assuming we have
+intervention<00:02:21.520><c> based</c><00:02:22.120><c> supply</c><00:02:22.630><c> of</c><00:02:22.870><c> this</c><00:02:23.050><c> value</c>
+
+00:02:23.400 --> 00:02:23.410 align:start position:0%
+intervention based supply of this value
+ 
+
+00:02:23.410 --> 00:02:26.490 align:start position:0%
+intervention based supply of this value
+Tutsi<00:02:23.830><c> -</c><00:02:24.040><c> there</c><00:02:24.730><c> is</c><00:02:24.880><c> no</c><00:02:25.120><c> memory</c><00:02:25.540><c> read</c><00:02:25.840><c> because</c>
+
+00:02:26.490 --> 00:02:26.500 align:start position:0%
+Tutsi - there is no memory read because
+ 
+
+00:02:26.500 --> 00:02:28.260 align:start position:0%
+Tutsi - there is no memory read because
+see<00:02:26.710><c> one</c><00:02:26.890><c> is</c><00:02:27.010><c> able</c><00:02:27.280><c> to</c><00:02:27.370><c> provide</c><00:02:27.700><c> the</c><00:02:27.760><c> block</c><00:02:28.120><c> -</c>
+
+00:02:28.260 --> 00:02:28.270 align:start position:0%
+see one is able to provide the block -
+ 
+
+00:02:28.270 --> 00:02:31.430 align:start position:0%
+see one is able to provide the block -
+see<00:02:28.450><c> -</c><00:02:28.660><c> now</c><00:02:29.440><c> in</c><00:02:29.740><c> situ</c><00:02:30.190><c> writes</c><00:02:30.520><c> to</c><00:02:30.820><c> the</c><00:02:30.970><c> block</c>
+
+00:02:31.430 --> 00:02:31.440 align:start position:0%
+see - now in situ writes to the block
+ 
+
+00:02:31.440 --> 00:02:33.750 align:start position:0%
+see - now in situ writes to the block
+because<00:02:32.440><c> it</c><00:02:32.740><c> has</c><00:02:33.070><c> the</c><00:02:33.220><c> Block</c><00:02:33.430><c> in</c><00:02:33.459><c> the</c><00:02:33.640><c> shared</c>
+
+00:02:33.750 --> 00:02:33.760 align:start position:0%
+because it has the Block in the shared
+ 
+
+00:02:33.760 --> 00:02:34.620 align:start position:0%
+because it has the Block in the shared
+State
+
+00:02:34.620 --> 00:02:34.630 align:start position:0%
+State
+ 
+
+00:02:34.630 --> 00:02:37.860 align:start position:0%
+State
+there<00:02:35.290><c> will</c><00:02:35.530><c> be</c><00:02:35.560><c> a</c><00:02:35.860><c> bus</c><00:02:36.310><c> request</c><00:02:36.880><c> to</c><00:02:37.330><c> send</c><00:02:37.630><c> out</c>
+
+00:02:37.860 --> 00:02:37.870 align:start position:0%
+there will be a bus request to send out
+ 
+
+00:02:37.870 --> 00:02:39.330 align:start position:0%
+there will be a bus request to send out
+an<00:02:38.110><c> invalidation</c>
+
+00:02:39.330 --> 00:02:39.340 align:start position:0%
+an invalidation
+ 
+
+00:02:39.340 --> 00:02:42.690 align:start position:0%
+an invalidation
+either<00:02:40.000><c> way</c><00:02:40.390><c> see</c><00:02:40.810><c> one</c><00:02:41.080><c> now</c><00:02:41.890><c> has</c><00:02:42.160><c> the</c><00:02:42.310><c> block</c><00:02:42.490><c> in</c>
+
+00:02:42.690 --> 00:02:42.700 align:start position:0%
+either way see one now has the block in
+ 
+
+00:02:42.700 --> 00:02:45.270 align:start position:0%
+either way see one now has the block in
+the<00:02:42.850><c> invalid</c><00:02:43.240><c> state</c><00:02:43.510><c> and</c><00:02:43.810><c> c2</c><00:02:44.350><c> has</c><00:02:44.800><c> the</c><00:02:45.040><c> Block</c>
+
+00:02:45.270 --> 00:02:45.280 align:start position:0%
+the invalid state and c2 has the Block
+ 
+
+00:02:45.280 --> 00:02:48.540 align:start position:0%
+the invalid state and c2 has the Block
+in<00:02:45.580><c> the</c><00:02:46.239><c> modified</c><00:02:46.780><c> State</c><00:02:47.110><c> so</c><00:02:47.739><c> from</c><00:02:48.070><c> this</c><00:02:48.250><c> rate</c>
+
+00:02:48.540 --> 00:02:48.550 align:start position:0%
+in the modified State so from this rate
+ 
+
+00:02:48.550 --> 00:02:51.180 align:start position:0%
+in the modified State so from this rate
+to<00:02:48.700><c> this</c><00:02:48.850><c> right</c><00:02:49.239><c> having</c><00:02:50.050><c> the</c><00:02:50.170><c> exclusive</c><00:02:50.950><c> state</c>
+
+00:02:51.180 --> 00:02:51.190 align:start position:0%
+to this right having the exclusive state
+ 
+
+00:02:51.190 --> 00:02:54.180 align:start position:0%
+to this right having the exclusive state
+didn't<00:02:51.640><c> help</c><00:02:51.880><c> us</c><00:02:52.060><c> save</c><00:02:52.390><c> an</c><00:02:52.680><c> access</c><00:02:53.680><c> on</c><00:02:53.860><c> a</c><00:02:53.890><c> right</c>
+
+00:02:54.180 --> 00:02:54.190 align:start position:0%
+didn't help us save an access on a right
+ 
+
+00:02:54.190 --> 00:02:56.190 align:start position:0%
+didn't help us save an access on a right
+and<00:02:54.489><c> that's</c><00:02:54.970><c> because</c><00:02:55.090><c> here</c><00:02:55.690><c> we</c><00:02:55.900><c> had</c><00:02:56.170><c> no</c>
+
+00:02:56.190 --> 00:02:56.200 align:start position:0%
+and that's because here we had no
+ 
+
+00:02:56.200 --> 00:02:59.729 align:start position:0%
+and that's because here we had no
+exclusive<00:02:57.190><c> access</c><00:02:57.370><c> to</c><00:02:57.580><c> the</c><00:02:57.790><c> block</c><00:02:58.000><c> anymore</c><00:02:58.739><c> c1</c>
+
+00:02:59.729 --> 00:02:59.739 align:start position:0%
+exclusive access to the block anymore c1
+ 
+
+00:02:59.739 --> 00:03:02.100 align:start position:0%
+exclusive access to the block anymore c1
+also<00:03:00.220><c> had</c><00:03:00.430><c> the</c><00:03:00.550><c> block</c><00:03:00.790><c> now</c><00:03:01.540><c> let's</c><00:03:01.810><c> see</c><00:03:01.959><c> what</c>
+
+00:03:02.100 --> 00:03:02.110 align:start position:0%
+also had the block now let's see what
+ 
+
+00:03:02.110 --> 00:03:07.320 align:start position:0%
+also had the block now let's see what
+happens<00:03:02.530><c> when</c><00:03:02.709><c> c3</c><00:03:03.489><c> reads</c><00:03:03.959><c> when</c><00:03:04.959><c> c3</c><00:03:05.500><c> reads</c><00:03:06.330><c> c3</c>
+
+00:03:07.320 --> 00:03:07.330 align:start position:0%
+happens when c3 reads when c3 reads c3
+ 
+
+00:03:07.330 --> 00:03:09.840 align:start position:0%
+happens when c3 reads when c3 reads c3
+we'll<00:03:08.050><c> get</c><00:03:08.350><c> the</c><00:03:08.530><c> Block</c><00:03:08.800><c> in</c><00:03:08.830><c> the</c><00:03:09.070><c> shared</c><00:03:09.190><c> state</c>
+
+00:03:09.840 --> 00:03:09.850 align:start position:0%
+we'll get the Block in the shared state
+ 
+
+00:03:09.850 --> 00:03:11.850 align:start position:0%
+we'll get the Block in the shared state
+and<00:03:09.880><c> this</c><00:03:10.450><c> is</c><00:03:10.510><c> a</c><00:03:10.660><c> read</c><00:03:10.959><c> miss</c><00:03:11.170><c> it</c><00:03:11.500><c> needs</c><00:03:11.709><c> the</c>
+
+00:03:11.850 --> 00:03:11.860 align:start position:0%
+and this is a read miss it needs the
+ 
+
+00:03:11.860 --> 00:03:14.610 align:start position:0%
+and this is a read miss it needs the
+data<00:03:12.040><c> so</c><00:03:12.790><c> there</c><00:03:12.970><c> is</c><00:03:13.060><c> definitely</c><00:03:13.270><c> a</c><00:03:13.720><c> bus</c><00:03:14.110><c> access</c>
+
+00:03:14.610 --> 00:03:14.620 align:start position:0%
+data so there is definitely a bus access
+ 
+
+00:03:14.620 --> 00:03:18.539 align:start position:0%
+data so there is definitely a bus access
+in<00:03:14.860><c> all</c><00:03:15.010><c> of</c><00:03:15.160><c> them</c><00:03:15.570><c> c2</c><00:03:16.570><c> however</c><00:03:17.310><c> moves</c><00:03:18.310><c> to</c>
+
+00:03:18.539 --> 00:03:18.549 align:start position:0%
+in all of them c2 however moves to
+ 
+
+00:03:18.549 --> 00:03:20.759 align:start position:0%
+in all of them c2 however moves to
+either<00:03:18.790><c> the</c><00:03:19.150><c> owned</c><00:03:19.420><c> or</c><00:03:19.720><c> the</c><00:03:19.930><c> shared</c><00:03:20.230><c> State</c>
+
+00:03:20.759 --> 00:03:20.769 align:start position:0%
+either the owned or the shared State
+ 
+
+00:03:20.769 --> 00:03:22.320 align:start position:0%
+either the owned or the shared State
+depending<00:03:21.220><c> on</c><00:03:21.310><c> whether</c><00:03:21.489><c> we</c><00:03:21.700><c> have</c><00:03:21.970><c> the</c><00:03:22.180><c> own</c>
+
+00:03:22.320 --> 00:03:22.330 align:start position:0%
+depending on whether we have the own
+ 
+
+00:03:22.330 --> 00:03:25.920 align:start position:0%
+depending on whether we have the own
+state<00:03:22.720><c> in</c><00:03:23.380><c> this</c><00:03:23.620><c> case</c><00:03:23.920><c> again</c><00:03:24.400><c> see</c><00:03:25.180><c> to</c><00:03:25.420><c> supply</c>
+
+00:03:25.920 --> 00:03:25.930 align:start position:0%
+state in this case again see to supply
+ 
+
+00:03:25.930 --> 00:03:28.199 align:start position:0%
+state in this case again see to supply
+the<00:03:25.989><c> data</c><00:03:26.350><c> to</c><00:03:26.620><c> c3</c><00:03:27.070><c> so</c><00:03:27.310><c> there</c><00:03:27.519><c> was</c><00:03:27.670><c> no</c><00:03:27.880><c> memory</c>
+
+00:03:28.199 --> 00:03:28.209 align:start position:0%
+the data to c3 so there was no memory
+ 
+
+00:03:28.209 --> 00:03:32.490 align:start position:0%
+the data to c3 so there was no memory
+read<00:03:28.620><c> however</c><00:03:29.620><c> when</c><00:03:30.100><c> c1</c><00:03:30.730><c> reads</c><00:03:31.090><c> if</c><00:03:31.870><c> we</c><00:03:32.290><c> are</c><00:03:32.350><c> in</c>
+
+00:03:32.490 --> 00:03:32.500 align:start position:0%
+read however when c1 reads if we are in
+ 
+
+00:03:32.500 --> 00:03:35.759 align:start position:0%
+read however when c1 reads if we are in
+the<00:03:32.620><c> shared</c><00:03:32.950><c> state</c><00:03:33.280><c> in</c><00:03:33.519><c> c2</c><00:03:33.970><c> c1</c><00:03:34.810><c> ends</c><00:03:35.620><c> up</c>
+
+00:03:35.759 --> 00:03:35.769 align:start position:0%
+the shared state in c2 c1 ends up
+ 
+
+00:03:35.769 --> 00:03:38.520 align:start position:0%
+the shared state in c2 c1 ends up
+reading<00:03:36.190><c> memory</c><00:03:36.519><c> so</c><00:03:37.150><c> if</c><00:03:37.269><c> we</c><00:03:37.480><c> have</c><00:03:37.810><c> the</c><00:03:38.019><c> O</c><00:03:38.049><c> state</c>
+
+00:03:38.520 --> 00:03:38.530 align:start position:0%
+reading memory so if we have the O state
+ 
+
+00:03:38.530 --> 00:03:41.100 align:start position:0%
+reading memory so if we have the O state
+c2<00:03:39.250><c> is</c><00:03:39.519><c> able</c><00:03:39.970><c> to</c><00:03:40.090><c> intervene</c><00:03:40.480><c> and</c><00:03:40.690><c> supply</c><00:03:41.049><c> the</c>
+
+00:03:41.100 --> 00:03:41.110 align:start position:0%
+c2 is able to intervene and supply the
+ 
+
+00:03:41.110 --> 00:03:44.550 align:start position:0%
+c2 is able to intervene and supply the
+data<00:03:41.320><c> to</c><00:03:41.590><c> c1</c><00:03:42.040><c> and</c><00:03:42.280><c> then</c><00:03:42.610><c> C</c><00:03:42.850><c> -</c><00:03:43.060><c> if</c><00:03:43.780><c> we</c><00:03:44.290><c> have</c><00:03:44.440><c> the</c>
+
+00:03:44.550 --> 00:03:44.560 align:start position:0%
+data to c1 and then C - if we have the
+ 
+
+00:03:44.560 --> 00:03:46.590 align:start position:0%
+data to c1 and then C - if we have the
+shared<00:03:44.829><c> state</c><00:03:45.160><c> then</c><00:03:45.880><c> there</c><00:03:46.060><c> are</c><00:03:46.209><c> memory</c>
+
+00:03:46.590 --> 00:03:46.600 align:start position:0%
+shared state then there are memory
+ 
+
+00:03:46.600 --> 00:03:50.400 align:start position:0%
+shared state then there are memory
+accesses<00:03:47.320><c> in</c><00:03:48.040><c> both</c><00:03:48.430><c> of</c><00:03:48.640><c> these</c><00:03:48.900><c> c1</c><00:03:49.900><c> had</c><00:03:50.110><c> a</c><00:03:50.140><c> block</c>
+
+00:03:50.400 --> 00:03:50.410 align:start position:0%
+accesses in both of these c1 had a block
+ 
+
+00:03:50.410 --> 00:03:52.530 align:start position:0%
+accesses in both of these c1 had a block
+in<00:03:50.590><c> the</c><00:03:50.709><c> invalid</c><00:03:51.220><c> state</c><00:03:51.489><c> so</c><00:03:51.700><c> definitely</c><00:03:52.209><c> the</c>
+
+00:03:52.530 --> 00:03:52.540 align:start position:0%
+in the invalid state so definitely the
+ 
+
+00:03:52.540 --> 00:03:55.350 align:start position:0%
+in the invalid state so definitely the
+read<00:03:52.750><c> request</c><00:03:53.620><c> will</c><00:03:54.220><c> be</c><00:03:54.370><c> put</c><00:03:54.579><c> on</c><00:03:54.760><c> the</c><00:03:54.910><c> bus</c><00:03:55.090><c> and</c>
+
+00:03:55.350 --> 00:03:55.360 align:start position:0%
+read request will be put on the bus and
+ 
+
+00:03:55.360 --> 00:03:59.300 align:start position:0%
+read request will be put on the bus and
+now<00:03:56.260><c> what</c><00:03:56.470><c> we</c><00:03:56.650><c> have</c><00:03:56.680><c> is</c><00:03:56.860><c> basically</c><00:03:57.239><c> c1</c><00:03:58.239><c> and</c><00:03:58.540><c> c3</c>
+
+00:03:59.300 --> 00:03:59.310 align:start position:0%
+now what we have is basically c1 and c3
+ 
+
+00:03:59.310 --> 00:04:02.640 align:start position:0%
+now what we have is basically c1 and c3
+have<00:04:00.310><c> the</c><00:04:00.519><c> Block</c><00:04:00.760><c> in</c><00:04:00.790><c> the</c><00:04:01.060><c> shared</c><00:04:01.090><c> state</c><00:04:01.650><c> c2</c>
+
+00:04:02.640 --> 00:04:02.650 align:start position:0%
+have the Block in the shared state c2
+ 
+
+00:04:02.650 --> 00:04:05.520 align:start position:0%
+have the Block in the shared state c2
+retains<00:04:03.160><c> the</c><00:04:03.370><c> Block</c><00:04:03.610><c> in</c><00:04:03.880><c> the</c><00:04:04.150><c> owned</c><00:04:04.720><c> or</c><00:04:05.140><c> shared</c>
+
+00:04:05.520 --> 00:04:05.530 align:start position:0%
+retains the Block in the owned or shared
+ 
+
+00:04:05.530 --> 00:04:08.640 align:start position:0%
+retains the Block in the owned or shared
+state<00:04:06.000><c> so</c><00:04:07.000><c> there</c><00:04:07.180><c> was</c><00:04:07.299><c> a</c><00:04:07.329><c> basic</c><00:04:07.840><c> West</c><00:04:08.049><c> here</c><00:04:08.470><c> and</c>
+
+00:04:08.640 --> 00:04:08.650 align:start position:0%
+state so there was a basic West here and
+ 
+
+00:04:08.650 --> 00:04:11.550 align:start position:0%
+state so there was a basic West here and
+there<00:04:09.579><c> was</c><00:04:09.730><c> a</c><00:04:09.760><c> memory</c><00:04:10.239><c> request</c><00:04:10.750><c> if</c><00:04:11.019><c> we</c><00:04:11.230><c> didn't</c>
+
+00:04:11.550 --> 00:04:11.560 align:start position:0%
+there was a memory request if we didn't
+ 
+
+00:04:11.560 --> 00:04:14.100 align:start position:0%
+there was a memory request if we didn't
+have<00:04:11.650><c> the</c><00:04:11.890><c> O</c><00:04:11.920><c> state</c><00:04:12.459><c> so</c><00:04:13.239><c> here</c><00:04:13.540><c> we</c><00:04:13.690><c> have</c><00:04:13.900><c> an</c>
+
+00:04:14.100 --> 00:04:14.110 align:start position:0%
+have the O state so here we have an
+ 
+
+00:04:14.110 --> 00:04:18.000 align:start position:0%
+have the O state so here we have an
+additional<00:04:14.860><c> memory</c><00:04:15.100><c> read</c><00:04:15.549><c> now</c><00:04:16.450><c> C</c><00:04:16.810><c> to</c><00:04:17.109><c> reach</c>
+
+00:04:18.000 --> 00:04:18.010 align:start position:0%
+additional memory read now C to reach
+ 
+
+00:04:18.010 --> 00:04:20.460 align:start position:0%
+additional memory read now C to reach
+the<00:04:18.220><c> block</c><00:04:18.479><c> either</c><00:04:19.479><c> way</c><00:04:19.840><c> it</c><00:04:19.959><c> can</c><00:04:19.989><c> read</c><00:04:20.350><c> the</c>
+
+00:04:20.460 --> 00:04:20.470 align:start position:0%
+the block either way it can read the
+ 
+
+00:04:20.470 --> 00:04:22.050 align:start position:0%
+the block either way it can read the
+block<00:04:20.680><c> because</c><00:04:20.890><c> at</c><00:04:21.310><c> this</c><00:04:21.489><c> point</c><00:04:21.729><c> it's</c><00:04:21.940><c> either</c>
+
+00:04:22.050 --> 00:04:22.060 align:start position:0%
+block because at this point it's either
+ 
+
+00:04:22.060 --> 00:04:24.240 align:start position:0%
+block because at this point it's either
+owned<00:04:22.479><c> or</c><00:04:22.630><c> shared</c><00:04:22.930><c> so</c><00:04:23.530><c> there</c><00:04:23.710><c> is</c><00:04:23.830><c> no</c><00:04:24.039><c> bus</c>
+
+00:04:24.240 --> 00:04:24.250 align:start position:0%
+owned or shared so there is no bus
+ 
+
+00:04:24.250 --> 00:04:26.850 align:start position:0%
+owned or shared so there is no bus
+request<00:04:24.490><c> nor</c><00:04:25.180><c> memory</c><00:04:25.570><c> read</c><00:04:25.840><c> in</c><00:04:26.110><c> any</c><00:04:26.440><c> of</c><00:04:26.650><c> these</c>
+
+00:04:26.850 --> 00:04:26.860 align:start position:0%
+request nor memory read in any of these
+ 
+
+00:04:26.860 --> 00:04:30.570 align:start position:0%
+request nor memory read in any of these
+protocols<00:04:27.370><c> so</c><00:04:27.939><c> overall</c><00:04:28.360><c> we</c><00:04:29.139><c> have</c><00:04:29.349><c> one</c><00:04:30.159><c> memory</c>
+
+00:04:30.570 --> 00:04:30.580 align:start position:0%
+protocols so overall we have one memory
+ 
+
+00:04:30.580 --> 00:04:33.330 align:start position:0%
+protocols so overall we have one memory
+read<00:04:30.909><c> in</c><00:04:31.449><c> protocols</c><00:04:32.229><c> that</c><00:04:32.319><c> have</c><00:04:32.379><c> the</c><00:04:32.770><c> O</c><00:04:32.800><c> state</c>
+
+00:04:33.330 --> 00:04:33.340 align:start position:0%
+read in protocols that have the O state
+ 
+
+00:04:33.340 --> 00:04:38.070 align:start position:0%
+read in protocols that have the O state
+and<00:04:33.780><c> two</c><00:04:34.780><c> in</c><00:04:35.229><c> the</c><00:04:35.860><c> protocol</c><00:04:36.310><c> that</c><00:04:36.490><c> doesn't</c><00:04:37.080><c> for</c>
+
+00:04:38.070 --> 00:04:38.080 align:start position:0%
+and two in the protocol that doesn't for
+ 
+
+00:04:38.080 --> 00:04:42.149 align:start position:0%
+and two in the protocol that doesn't for
+bus<00:04:38.319><c> request</c><00:04:38.830><c> we</c><00:04:39.039><c> have</c><00:04:39.569><c> five</c><00:04:40.569><c> bus</c><00:04:40.900><c> requests</c><00:04:41.530><c> in</c>
+
+00:04:42.149 --> 00:04:42.159 align:start position:0%
+bus request we have five bus requests in
+ 
+
+00:04:42.159 --> 00:04:45.029 align:start position:0%
+bus request we have five bus requests in
+protocols<00:04:42.969><c> that</c><00:04:43.689><c> have</c><00:04:43.750><c> the</c><00:04:44.169><c> exclusive</c><00:04:44.800><c> state</c>
+
+00:04:45.029 --> 00:04:45.039 align:start position:0%
+protocols that have the exclusive state
+ 
+
+00:04:45.039 --> 00:04:48.179 align:start position:0%
+protocols that have the exclusive state
+and<00:04:45.340><c> six</c><00:04:46.180><c> bus</c><00:04:46.479><c> requests</c><00:04:47.110><c> in</c><00:04:47.439><c> the</c><00:04:47.710><c> protocol</c>
+
+00:04:48.179 --> 00:04:48.189 align:start position:0%
+and six bus requests in the protocol
+ 
+
+00:04:48.189 --> 00:04:50.879 align:start position:0%
+and six bus requests in the protocol
+that<00:04:48.370><c> doesn't</c>
+

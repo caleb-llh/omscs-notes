@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.399 --> 00:00:02.110 align:start position:0%
+ 
+so<00:00:00.599><c> now</c><00:00:00.799><c> let's</c><00:00:00.960><c> see</c><00:00:01.120><c> if</c><00:00:01.240><c> we</c><00:00:01.400><c> understood</c><00:00:02.000><c> what</c>
+
+00:00:02.110 --> 00:00:02.120 align:start position:0%
+so now let's see if we understood what
+ 
+
+00:00:02.120 --> 00:00:03.869 align:start position:0%
+so now let's see if we understood what
+are<00:00:02.320><c> all</c><00:00:02.480><c> the</c><00:00:02.679><c> things</c><00:00:02.960><c> that</c><00:00:03.159><c> happen</c><00:00:03.480><c> in</c><00:00:03.639><c> one</c>
+
+00:00:03.869 --> 00:00:03.879 align:start position:0%
+are all the things that happen in one
+ 
+
+00:00:03.879 --> 00:00:06.749 align:start position:0%
+are all the things that happen in one
+cycle<00:00:04.400><c> in</c><00:00:04.600><c> tomasulo's</c><00:00:05.319><c> algorithm</c><00:00:06.319><c> suppose</c>
+
+00:00:06.749 --> 00:00:06.759 align:start position:0%
+cycle in tomasulo's algorithm suppose
+ 
+
+00:00:06.759 --> 00:00:08.830 align:start position:0%
+cycle in tomasulo's algorithm suppose
+that<00:00:07.040><c> this</c><00:00:07.160><c> is</c><00:00:07.359><c> the</c><00:00:07.520><c> situation</c><00:00:08.120><c> we</c><00:00:08.320><c> have</c><00:00:08.679><c> at</c>
+
+00:00:08.830 --> 00:00:08.840 align:start position:0%
+that this is the situation we have at
+ 
+
+00:00:08.840 --> 00:00:11.749 align:start position:0%
+that this is the situation we have at
+the<00:00:09.040><c> beginning</c><00:00:09.559><c> of</c><00:00:09.719><c> a</c><00:00:10.160><c> cycle</c><00:00:11.160><c> we</c><00:00:11.360><c> have</c><00:00:11.519><c> an</c>
+
+00:00:11.749 --> 00:00:11.759 align:start position:0%
+the beginning of a cycle we have an
+ 
+
+00:00:11.759 --> 00:00:14.230 align:start position:0%
+the beginning of a cycle we have an
+instruction<00:00:12.679><c> that</c><00:00:12.799><c> is</c><00:00:13.000><c> waiting</c><00:00:13.519><c> to</c><00:00:13.679><c> be</c><00:00:13.839><c> issued</c>
+
+00:00:14.230 --> 00:00:14.240 align:start position:0%
+instruction that is waiting to be issued
+ 
+
+00:00:14.240 --> 00:00:16.710 align:start position:0%
+instruction that is waiting to be issued
+in<00:00:14.360><c> the</c><00:00:14.480><c> instruction</c><00:00:15.199><c> queue</c><00:00:16.199><c> this</c><00:00:16.320><c> is</c><00:00:16.520><c> the</c>
+
+00:00:16.710 --> 00:00:16.720 align:start position:0%
+in the instruction queue this is the
+ 
+
+00:00:16.720 --> 00:00:19.990 align:start position:0%
+in the instruction queue this is the
+contents<00:00:17.520><c> of</c><00:00:17.720><c> the</c><00:00:18.000><c> Rat</c><00:00:19.000><c> these</c><00:00:19.119><c> are</c><00:00:19.359><c> the</c><00:00:19.600><c> values</c>
+
+00:00:19.990 --> 00:00:20.000 align:start position:0%
+contents of the Rat these are the values
+ 
+
+00:00:20.000 --> 00:00:20.950 align:start position:0%
+contents of the Rat these are the values
+for<00:00:20.199><c> the</c>
+
+00:00:20.950 --> 00:00:20.960 align:start position:0%
+for the
+ 
+
+00:00:20.960 --> 00:00:23.589 align:start position:0%
+for the
+registers<00:00:21.960><c> these</c><00:00:22.119><c> are</c><00:00:22.680><c> the</c><00:00:22.840><c> reservation</c>
+
+00:00:23.589 --> 00:00:23.599 align:start position:0%
+registers these are the reservation
+ 
+
+00:00:23.599 --> 00:00:26.870 align:start position:0%
+registers these are the reservation
+stations<00:00:24.599><c> two</c><00:00:24.800><c> of</c><00:00:24.960><c> them</c><00:00:25.119><c> are</c><00:00:25.480><c> occupied</c><00:00:26.480><c> one</c><00:00:26.679><c> is</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+stations two of them are occupied one is
+ 
+
+00:00:26.880 --> 00:00:28.070 align:start position:0%
+stations two of them are occupied one is
+still
+
+00:00:28.070 --> 00:00:28.080 align:start position:0%
+still
+ 
+
+00:00:28.080 --> 00:00:30.029 align:start position:0%
+still
+available<00:00:29.080><c> and</c><00:00:29.240><c> the</c><00:00:29.359><c> instruction</c><00:00:29.759><c> in</c><00:00:29.840><c> the</c>
+
+00:00:30.029 --> 00:00:30.039 align:start position:0%
+available and the instruction in the
+ 
+
+00:00:30.039 --> 00:00:32.870 align:start position:0%
+available and the instruction in the
+reservation<00:00:30.519><c> station</c><00:00:30.960><c> Zer</c><00:00:31.720><c> is</c><00:00:32.079><c> executing</c><00:00:32.680><c> in</c>
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+reservation station Zer is executing in
+ 
+
+00:00:32.880 --> 00:00:35.950 align:start position:0%
+reservation station Zer is executing in
+the<00:00:33.079><c> ALU</c><00:00:34.079><c> and</c><00:00:34.440><c> during</c><00:00:34.879><c> this</c><00:00:35.079><c> cycle</c><00:00:35.520><c> it</c><00:00:35.680><c> will</c>
+
+00:00:35.950 --> 00:00:35.960 align:start position:0%
+the ALU and during this cycle it will
+ 
+
+00:00:35.960 --> 00:00:39.069 align:start position:0%
+the ALU and during this cycle it will
+broadcast<00:00:36.680><c> its</c><00:00:36.960><c> result</c><00:00:37.760><c> which</c><00:00:37.960><c> is</c>
+
+00:00:39.069 --> 00:00:39.079 align:start position:0%
+broadcast its result which is
+ 
+
+00:00:39.079 --> 00:00:41.750 align:start position:0%
+broadcast its result which is
+4.4<00:00:40.079><c> this</c><00:00:40.239><c> is</c><00:00:40.520><c> what</c><00:00:40.680><c> is</c><00:00:40.840><c> allowed</c><00:00:41.160><c> to</c><00:00:41.360><c> happen</c><00:00:41.600><c> in</c>
+
+00:00:41.750 --> 00:00:41.760 align:start position:0%
+4.4 this is what is allowed to happen in
+ 
+
+00:00:41.760 --> 00:00:43.750 align:start position:0%
+4.4 this is what is allowed to happen in
+the<00:00:41.879><c> same</c><00:00:42.160><c> cycle</c><00:00:42.879><c> issuing</c><00:00:43.399><c> and</c><00:00:43.559><c> then</c>
+
+00:00:43.750 --> 00:00:43.760 align:start position:0%
+the same cycle issuing and then
+ 
+
+00:00:43.760 --> 00:00:45.670 align:start position:0%
+the same cycle issuing and then
+dispatching<00:00:44.360><c> the</c><00:00:44.480><c> instruction</c><00:00:45.200><c> cannot</c>
+
+00:00:45.670 --> 00:00:45.680 align:start position:0%
+dispatching the instruction cannot
+ 
+
+00:00:45.680 --> 00:00:48.630 align:start position:0%
+dispatching the instruction cannot
+happen<00:00:46.000><c> in</c><00:00:46.120><c> the</c><00:00:46.280><c> same</c><00:00:46.680><c> cycle</c><00:00:47.680><c> capturing</c><00:00:48.360><c> a</c>
+
+00:00:48.630 --> 00:00:48.640 align:start position:0%
+happen in the same cycle capturing a
+ 
+
+00:00:48.640 --> 00:00:52.349 align:start position:0%
+happen in the same cycle capturing a
+result<00:00:49.559><c> and</c><00:00:49.760><c> then</c><00:00:50.199><c> dispatching</c><00:00:51.199><c> can</c><00:00:51.719><c> happen</c>
+
+00:00:52.349 --> 00:00:52.359 align:start position:0%
+result and then dispatching can happen
+ 
+
+00:00:52.359 --> 00:00:53.869 align:start position:0%
+result and then dispatching can happen
+in<00:00:52.559><c> this</c><00:00:52.800><c> particular</c>
+
+00:00:53.869 --> 00:00:53.879 align:start position:0%
+in this particular
+ 
+
+00:00:53.879 --> 00:00:56.150 align:start position:0%
+in this particular
+processor<00:00:54.879><c> and</c><00:00:55.039><c> then</c><00:00:55.280><c> issuing</c><00:00:55.960><c> and</c>
+
+00:00:56.150 --> 00:00:56.160 align:start position:0%
+processor and then issuing and
+ 
+
+00:00:56.160 --> 00:00:58.270 align:start position:0%
+processor and then issuing and
+broadcasting<00:00:56.760><c> of</c><00:00:56.920><c> a</c><00:00:57.120><c> result</c><00:00:57.520><c> for</c><00:00:57.760><c> the</c><00:00:57.960><c> same</c>
+
+00:00:58.270 --> 00:00:58.280 align:start position:0%
+broadcasting of a result for the same
+ 
+
+00:00:58.280 --> 00:01:01.830 align:start position:0%
+broadcasting of a result for the same
+rat<00:00:58.640><c> entry</c><00:00:59.199><c> is</c><00:00:59.399><c> of</c><00:00:59.559><c> course</c><00:01:00.079><c> also</c><00:01:00.559><c> allowed</c><00:01:01.559><c> the</c>
+
+00:01:01.830 --> 00:01:01.840 align:start position:0%
+rat entry is of course also allowed the
+ 
+
+00:01:01.840 --> 00:01:05.270 align:start position:0%
+rat entry is of course also allowed the
+first<00:01:02.239><c> part</c><00:01:02.480><c> of</c><00:01:02.680><c> this</c><00:01:03.040><c> quiz</c><00:01:04.040><c> is</c><00:01:04.519><c> at</c><00:01:04.720><c> the</c><00:01:04.879><c> end</c><00:01:05.119><c> of</c>
+
+00:01:05.270 --> 00:01:05.280 align:start position:0%
+first part of this quiz is at the end of
+ 
+
+00:01:05.280 --> 00:01:08.230 align:start position:0%
+first part of this quiz is at the end of
+the<00:01:05.880><c> cycle</c><00:01:06.880><c> whose</c><00:01:07.159><c> beginning</c><00:01:07.600><c> we</c><00:01:07.720><c> are</c><00:01:07.840><c> looking</c>
+
+00:01:08.230 --> 00:01:08.240 align:start position:0%
+the cycle whose beginning we are looking
+ 
+
+00:01:08.240 --> 00:01:11.469 align:start position:0%
+the cycle whose beginning we are looking
+at<00:01:08.640><c> here</c><00:01:09.640><c> what</c><00:01:09.880><c> will</c><00:01:10.119><c> be</c><00:01:10.360><c> the</c><00:01:10.560><c> content</c><00:01:11.159><c> of</c><00:01:11.360><c> the</c>
+
+00:01:11.469 --> 00:01:11.479 align:start position:0%
+at here what will be the content of the
+ 
+
+00:01:11.479 --> 00:01:15.350 align:start position:0%
+at here what will be the content of the
+two<00:01:11.720><c> rat</c><00:01:12.159><c> entries</c><00:01:12.759><c> and</c><00:01:12.960><c> the</c><00:01:13.080><c> two</c><00:01:13.400><c> registers</c><00:01:14.400><c> so</c>
+
+00:01:15.350 --> 00:01:15.360 align:start position:0%
+two rat entries and the two registers so
+ 
+
+00:01:15.360 --> 00:01:17.469 align:start position:0%
+two rat entries and the two registers so
+after<00:01:15.640><c> the</c><00:01:15.759><c> end</c><00:01:15.960><c> of</c><00:01:16.119><c> this</c><00:01:16.280><c> cycle</c><00:01:17.000><c> what's</c><00:01:17.280><c> going</c>
+
+00:01:17.469 --> 00:01:17.479 align:start position:0%
+after the end of this cycle what's going
+ 
+
+00:01:17.479 --> 00:01:22.560 align:start position:0%
+after the end of this cycle what's going
+to<00:01:17.640><c> be</c><00:01:17.920><c> here</c><00:01:18.240><c> here</c><00:01:18.840><c> here</c><00:01:19.200><c> and</c><00:01:19.560><c> here</c>
+

@@ -1,0 +1,224 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.910 align:start position:0%
+ 
+let's<00:00:00.320><c> look</c><00:00:00.480><c> at</c><00:00:00.560><c> the</c><00:00:00.719><c> solution</c><00:00:01.199><c> to</c><00:00:01.360><c> our</c><00:00:01.600><c> unlock</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+let's look at the solution to our unlock
+ 
+
+00:00:01.920 --> 00:00:03.510 align:start position:0%
+let's look at the solution to our unlock
+quiz<00:00:02.240><c> where</c><00:00:02.399><c> we</c><00:00:02.560><c> were</c><00:00:02.720><c> asked</c><00:00:02.960><c> really</c><00:00:03.280><c> what</c>
+
+00:00:03.510 --> 00:00:03.520 align:start position:0%
+quiz where we were asked really what
+ 
+
+00:00:03.520 --> 00:00:05.110 align:start position:0%
+quiz where we were asked really what
+does<00:00:03.919><c> unlock</c><00:00:04.319><c> do</c>
+
+00:00:05.110 --> 00:00:05.120 align:start position:0%
+does unlock do
+ 
+
+00:00:05.120 --> 00:00:07.990 align:start position:0%
+does unlock do
+does<00:00:05.359><c> it</c><00:00:05.520><c> just</c><00:00:05.680><c> store</c><00:00:06.080><c> zero</c><00:00:06.319><c> to</c><00:00:06.560><c> lockvar</c>
+
+00:00:07.990 --> 00:00:08.000 align:start position:0%
+does it just store zero to lockvar
+ 
+
+00:00:08.000 --> 00:00:10.709 align:start position:0%
+does it just store zero to lockvar
+does<00:00:08.240><c> it</c><00:00:08.880><c> check</c><00:00:09.120><c> whether</c><00:00:09.599><c> the</c><00:00:09.760><c> lockvar</c><00:00:10.240><c> is</c><00:00:10.400><c> one</c>
+
+00:00:10.709 --> 00:00:10.719 align:start position:0%
+does it check whether the lockvar is one
+ 
+
+00:00:10.719 --> 00:00:12.070 align:start position:0%
+does it check whether the lockvar is one
+and<00:00:10.800><c> then</c><00:00:11.040><c> do</c><00:00:11.200><c> a</c><00:00:11.280><c> store</c><00:00:11.519><c> conditional</c>
+
+00:00:12.070 --> 00:00:12.080 align:start position:0%
+and then do a store conditional
+ 
+
+00:00:12.080 --> 00:00:15.030 align:start position:0%
+and then do a store conditional
+atomically<00:00:12.719><c> to</c><00:00:12.960><c> make</c><00:00:13.200><c> it</c><00:00:13.440><c> zero</c><00:00:14.240><c> or</c><00:00:14.559><c> do</c><00:00:14.719><c> we</c><00:00:14.880><c> need</c>
+
+00:00:15.030 --> 00:00:15.040 align:start position:0%
+atomically to make it zero or do we need
+ 
+
+00:00:15.040 --> 00:00:17.029 align:start position:0%
+atomically to make it zero or do we need
+additional<00:00:15.440><c> atomic</c><00:00:15.839><c> instructions</c><00:00:16.640><c> that</c><00:00:16.880><c> are</c>
+
+00:00:17.029 --> 00:00:17.039 align:start position:0%
+additional atomic instructions that are
+ 
+
+00:00:17.039 --> 00:00:18.950 align:start position:0%
+additional atomic instructions that are
+gonna<00:00:17.760><c> somehow</c>
+
+00:00:18.950 --> 00:00:18.960 align:start position:0%
+gonna somehow
+ 
+
+00:00:18.960 --> 00:00:21.990 align:start position:0%
+gonna somehow
+unlock<00:00:19.359><c> the</c><00:00:19.520><c> lock</c><00:00:20.160><c> and</c><00:00:20.320><c> the</c><00:00:20.480><c> answer</c><00:00:20.960><c> is</c><00:00:21.199><c> that</c>
+
+00:00:21.990 --> 00:00:22.000 align:start position:0%
+unlock the lock and the answer is that
+ 
+
+00:00:22.000 --> 00:00:24.630 align:start position:0%
+unlock the lock and the answer is that
+unlike<00:00:22.480><c> the</c><00:00:22.720><c> lock</c><00:00:23.119><c> function</c><00:00:24.000><c> where</c><00:00:24.160><c> we</c><00:00:24.320><c> needed</c>
+
+00:00:24.630 --> 00:00:24.640 align:start position:0%
+unlike the lock function where we needed
+ 
+
+00:00:24.640 --> 00:00:25.670 align:start position:0%
+unlike the lock function where we needed
+to<00:00:24.880><c> both</c>
+
+00:00:25.670 --> 00:00:25.680 align:start position:0%
+to both
+ 
+
+00:00:25.680 --> 00:00:28.790 align:start position:0%
+to both
+check<00:00:26.080><c> whether</c><00:00:26.400><c> the</c><00:00:26.560><c> lock</c><00:00:26.800><c> is</c><00:00:26.960><c> available</c><00:00:27.920><c> and</c>
+
+00:00:28.790 --> 00:00:28.800 align:start position:0%
+check whether the lock is available and
+ 
+
+00:00:28.800 --> 00:00:31.750 align:start position:0%
+check whether the lock is available and
+make<00:00:29.039><c> it</c><00:00:29.199><c> busy</c><00:00:30.160><c> in</c><00:00:30.320><c> one</c><00:00:30.640><c> go</c>
+
+00:00:31.750 --> 00:00:31.760 align:start position:0%
+make it busy in one go
+ 
+
+00:00:31.760 --> 00:00:33.750 align:start position:0%
+make it busy in one go
+the<00:00:32.000><c> unlock</c><00:00:32.559><c> function</c>
+
+00:00:33.750 --> 00:00:33.760 align:start position:0%
+the unlock function
+ 
+
+00:00:33.760 --> 00:00:35.990 align:start position:0%
+the unlock function
+is<00:00:34.000><c> done</c><00:00:34.239><c> only</c><00:00:34.559><c> by</c><00:00:34.719><c> the</c><00:00:34.880><c> thread</c><00:00:35.280><c> that</c><00:00:35.600><c> actually</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+is done only by the thread that actually
+ 
+
+00:00:36.000 --> 00:00:37.350 align:start position:0%
+is done only by the thread that actually
+has<00:00:36.239><c> the</c><00:00:36.399><c> lock</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+has the lock
+ 
+
+00:00:37.360 --> 00:00:39.430 align:start position:0%
+has the lock
+so<00:00:37.520><c> when</c><00:00:37.680><c> we</c><00:00:37.840><c> get</c><00:00:38.079><c> to</c><00:00:38.320><c> unlock</c><00:00:38.719><c> we</c><00:00:38.960><c> know</c><00:00:39.280><c> that</c>
+
+00:00:39.430 --> 00:00:39.440 align:start position:0%
+so when we get to unlock we know that
+ 
+
+00:00:39.440 --> 00:00:42.389 align:start position:0%
+so when we get to unlock we know that
+the<00:00:39.600><c> lock</c><00:00:39.920><c> is</c><00:00:40.079><c> busy</c><00:00:40.559><c> because</c><00:00:40.879><c> we</c><00:00:41.040><c> made</c><00:00:41.280><c> it</c><00:00:41.440><c> busy</c>
+
+00:00:42.389 --> 00:00:42.399 align:start position:0%
+the lock is busy because we made it busy
+ 
+
+00:00:42.399 --> 00:00:44.709 align:start position:0%
+the lock is busy because we made it busy
+all<00:00:42.640><c> we</c><00:00:42.800><c> have</c><00:00:43.040><c> to</c><00:00:43.200><c> do</c><00:00:43.440><c> is</c><00:00:43.680><c> just</c>
+
+00:00:44.709 --> 00:00:44.719 align:start position:0%
+all we have to do is just
+ 
+
+00:00:44.719 --> 00:00:46.630 align:start position:0%
+all we have to do is just
+make<00:00:44.960><c> the</c><00:00:45.120><c> log</c><00:00:45.360><c> free</c><00:00:45.760><c> we</c><00:00:45.920><c> can</c><00:00:46.079><c> do</c><00:00:46.239><c> that</c><00:00:46.399><c> by</c>
+
+00:00:46.630 --> 00:00:46.640 align:start position:0%
+make the log free we can do that by
+ 
+
+00:00:46.640 --> 00:00:49.190 align:start position:0%
+make the log free we can do that by
+writing<00:00:47.039><c> zero</c><00:00:47.360><c> in</c><00:00:47.600><c> any</c><00:00:47.840><c> way</c><00:00:48.079><c> we</c><00:00:48.239><c> want</c><00:00:48.879><c> so</c><00:00:49.039><c> we</c>
+
+00:00:49.190 --> 00:00:49.200 align:start position:0%
+writing zero in any way we want so we
+ 
+
+00:00:49.200 --> 00:00:51.110 align:start position:0%
+writing zero in any way we want so we
+choose<00:00:49.440><c> the</c><00:00:49.600><c> simplest</c><00:00:50.079><c> way</c><00:00:50.320><c> of</c><00:00:50.480><c> just</c><00:00:50.719><c> doing</c><00:00:50.960><c> a</c>
+
+00:00:51.110 --> 00:00:51.120 align:start position:0%
+choose the simplest way of just doing a
+ 
+
+00:00:51.120 --> 00:00:53.510 align:start position:0%
+choose the simplest way of just doing a
+normal<00:00:51.520><c> store</c><00:00:51.920><c> to</c><00:00:52.000><c> the</c><00:00:52.160><c> lock</c><00:00:52.480><c> variable</c>
+
+00:00:53.510 --> 00:00:53.520 align:start position:0%
+normal store to the lock variable
+ 
+
+00:00:53.520 --> 00:00:55.430 align:start position:0%
+normal store to the lock variable
+so<00:00:53.680><c> we</c><00:00:53.840><c> don't</c><00:00:54.160><c> need</c><00:00:54.320><c> to</c><00:00:54.480><c> atomically</c><00:00:55.199><c> test</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+so we don't need to atomically test
+ 
+
+00:00:55.440 --> 00:00:58.150 align:start position:0%
+so we don't need to atomically test
+whether<00:00:55.760><c> it's</c><00:00:55.920><c> one</c><00:00:56.160><c> and</c><00:00:56.239><c> then</c><00:00:56.879><c> make</c><00:00:57.120><c> it</c><00:00:57.280><c> 0</c><00:00:57.920><c> and</c>
+
+00:00:58.150 --> 00:00:58.160 align:start position:0%
+whether it's one and then make it 0 and
+ 
+
+00:00:58.160 --> 00:00:59.670 align:start position:0%
+whether it's one and then make it 0 and
+we<00:00:58.320><c> definitely</c><00:00:58.800><c> don't</c><00:00:59.039><c> need</c><00:00:59.280><c> additional</c>
+
+00:00:59.670 --> 00:00:59.680 align:start position:0%
+we definitely don't need additional
+ 
+
+00:00:59.680 --> 00:01:03.160 align:start position:0%
+we definitely don't need additional
+atomic<00:01:00.160><c> instructions</c>
+

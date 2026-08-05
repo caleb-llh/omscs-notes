@@ -1,0 +1,80 @@
+1
+00:00:00,240 --> 00:00:01,620
+ Here’s the answer.
+
+2
+00:00:01,620 --> 00:00:03,630
+ Let’s see where it comes from.
+
+3
+00:00:03,630 --> 00:00:06,890
+ Remember that each output is computed from a dot product.
+
+4
+00:00:06,890 --> 00:00:08,540
+ So, for example, let's take this output.
+
+5
+00:00:08,540 --> 00:00:13,620
+ There are two missing values, so let's give them some arbitrary symbols.
+
+6
+00:00:13,620 --> 00:00:15,710
+ How about w and x?
+
+7
+00:00:15,710 --> 00:00:18,173
+ The dot product is just this equation, basically,
+
+8
+00:00:18,173 --> 00:00:23,080
+ the element-wise products summed together equaling the output, and
+
+9
+00:00:23,080 --> 00:00:30,030
+ we can repeat this for each of the other output elements.
+
+10
+00:00:30,030 --> 00:00:33,030
+ For each blank, I introduced a new symbol.
+
+11
+00:00:33,030 --> 00:00:35,900
+ As you can see, we have four equations and four unknowns, so
+
+12
+00:00:35,900 --> 00:00:38,010
+ we should be able to find a solution.
+
+13
+00:00:38,010 --> 00:00:41,750
+ Let's start with the third equation, which only has one unknown.
+
+14
+00:00:41,750 --> 00:00:44,060
+ Solving for z, we get the value 2.
+
+15
+00:00:44,060 --> 00:00:47,420
+ We can then plug this into the fourth equation.
+
+16
+00:00:47,420 --> 00:00:52,462
+ Solving for y, we get 7, so that eliminates the fourth equation.
+
+17
+00:00:52,462 --> 00:00:55,923
+ Since we know y, we can solve the second equation for w.
+
+18
+00:00:55,923 --> 00:00:57,875
+ You'll get w equals 1.
+
+19
+00:00:57,875 --> 00:01:01,205
+ Eliminating the second leaves us just the first.
+
+20
+00:01:01,205 --> 00:01:01,205
+ You'll find x equals 30.
+

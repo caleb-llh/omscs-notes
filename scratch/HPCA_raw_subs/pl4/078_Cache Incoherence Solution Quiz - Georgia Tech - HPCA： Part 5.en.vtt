@@ -1,0 +1,416 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.119 align:start position:0%
+ 
+let's<00:00:00.390><c> look</c><00:00:00.599><c> at</c><00:00:00.750><c> the</c><00:00:00.900><c> solution</c><00:00:01.110><c> to</c><00:00:01.709><c> our</c><00:00:01.740><c> cache</c>
+
+00:00:02.119 --> 00:00:02.129 align:start position:0%
+let's look at the solution to our cache
+ 
+
+00:00:02.129 --> 00:00:05.630 align:start position:0%
+let's look at the solution to our cache
+incoherence<00:00:02.850><c> quiz</c><00:00:03.389><c> we</c><00:00:04.200><c> had</c><00:00:04.410><c> three</c><00:00:04.770><c> caches</c><00:00:05.400><c> and</c>
+
+00:00:05.630 --> 00:00:05.640 align:start position:0%
+incoherence quiz we had three caches and
+ 
+
+00:00:05.640 --> 00:00:08.810 align:start position:0%
+incoherence quiz we had three caches and
+three<00:00:06.330><c> cores</c><00:00:06.660><c> a</c><00:00:07.220><c> location</c><00:00:08.220><c> that</c><00:00:08.340><c> starts</c><00:00:08.700><c> at</c>
+
+00:00:08.810 --> 00:00:08.820 align:start position:0%
+three cores a location that starts at
+ 
+
+00:00:08.820 --> 00:00:11.390 align:start position:0%
+three cores a location that starts at
+zero<00:00:09.090><c> and</c><00:00:09.389><c> then</c><00:00:09.719><c> each</c><00:00:09.900><c> core</c><00:00:10.200><c> reads</c><00:00:10.650><c> increments</c>
+
+00:00:11.390 --> 00:00:11.400 align:start position:0%
+zero and then each core reads increments
+ 
+
+00:00:11.400 --> 00:00:12.799 align:start position:0%
+zero and then each core reads increments
+and<00:00:11.490><c> then</c><00:00:11.550><c> writes</c><00:00:11.910><c> to</c><00:00:12.269><c> that</c><00:00:12.420><c> memory</c><00:00:12.630><c> location</c>
+
+00:00:12.799 --> 00:00:12.809 align:start position:0%
+and then writes to that memory location
+ 
+
+00:00:12.809 --> 00:00:15.230 align:start position:0%
+and then writes to that memory location
+so<00:00:13.650><c> the</c><00:00:13.769><c> question</c><00:00:14.190><c> is</c><00:00:14.340><c> what's</c><00:00:14.670><c> the</c><00:00:14.849><c> final</c>
+
+00:00:15.230 --> 00:00:15.240 align:start position:0%
+so the question is what's the final
+ 
+
+00:00:15.240 --> 00:00:17.779 align:start position:0%
+so the question is what's the final
+value<00:00:15.599><c> we</c><00:00:15.719><c> write</c><00:00:15.960><c> here</c><00:00:16.379><c> the</c><00:00:16.980><c> correct</c><00:00:17.490><c> behavior</c>
+
+00:00:17.779 --> 00:00:17.789 align:start position:0%
+value we write here the correct behavior
+ 
+
+00:00:17.789 --> 00:00:20.840 align:start position:0%
+value we write here the correct behavior
+would<00:00:18.630><c> be</c><00:00:18.810><c> four</c><00:00:19.109><c> cores</c><00:00:19.439><c> zero</c><00:00:19.800><c> to</c><00:00:19.949><c> do</c><00:00:20.250><c> this</c><00:00:20.490><c> and</c>
+
+00:00:20.840 --> 00:00:20.850 align:start position:0%
+would be four cores zero to do this and
+ 
+
+00:00:20.850 --> 00:00:23.840 align:start position:0%
+would be four cores zero to do this and
+then<00:00:21.210><c> it</c><00:00:21.359><c> replaces</c><00:00:21.810><c> this</c><00:00:22.140><c> from</c><00:00:22.470><c> its</c><00:00:22.619><c> cache</c><00:00:22.859><c> so</c>
+
+00:00:23.840 --> 00:00:23.850 align:start position:0%
+then it replaces this from its cache so
+ 
+
+00:00:23.850 --> 00:00:27.500 align:start position:0%
+then it replaces this from its cache so
+that<00:00:23.880><c> core</c><00:00:24.300><c> 1</c><00:00:24.600><c> reads</c><00:00:24.630><c> a</c><00:00:25.199><c> 1</c><00:00:25.500><c> here</c><00:00:26.510><c> increments</c>
+
+00:00:27.500 --> 00:00:27.510 align:start position:0%
+that core 1 reads a 1 here increments
+ 
+
+00:00:27.510 --> 00:00:30.410 align:start position:0%
+that core 1 reads a 1 here increments
+that<00:00:27.689><c> writes</c><00:00:28.080><c> a</c><00:00:28.320><c> 2</c><00:00:28.380><c> and</c><00:00:28.949><c> then</c><00:00:29.189><c> core</c><00:00:29.490><c> 2</c><00:00:29.789><c> reads</c>
+
+00:00:30.410 --> 00:00:30.420 align:start position:0%
+that writes a 2 and then core 2 reads
+ 
+
+00:00:30.420 --> 00:00:36.020 align:start position:0%
+that writes a 2 and then core 2 reads
+that<00:00:31.579><c> increments</c><00:00:32.579><c> and</c><00:00:32.730><c> writes</c><00:00:33.660><c> a</c><00:00:33.899><c> 3</c><00:00:34.520><c> so</c><00:00:35.520><c> this</c><00:00:35.700><c> 3</c>
+
+00:00:36.020 --> 00:00:36.030 align:start position:0%
+that increments and writes a 3 so this 3
+ 
+
+00:00:36.030 --> 00:00:40.069 align:start position:0%
+that increments and writes a 3 so this 3
+here<00:00:36.329><c> is</c><00:00:36.660><c> a</c><00:00:36.980><c> possible</c><00:00:37.980><c> answer</c><00:00:38.489><c> if</c><00:00:39.090><c> core</c><00:00:39.510><c> 0</c><00:00:39.780><c> here</c>
+
+00:00:40.069 --> 00:00:40.079 align:start position:0%
+here is a possible answer if core 0 here
+ 
+
+00:00:40.079 --> 00:00:41.869 align:start position:0%
+here is a possible answer if core 0 here
+happens<00:00:40.500><c> to</c><00:00:40.559><c> replace</c><00:00:41.010><c> this</c><00:00:41.489><c> block</c><00:00:41.850><c> that</c>
+
+00:00:41.869 --> 00:00:41.879 align:start position:0%
+happens to replace this block that
+ 
+
+00:00:41.879 --> 00:00:44.479 align:start position:0%
+happens to replace this block that
+contains<00:00:42.450><c> a</c><00:00:42.600><c> from</c><00:00:42.870><c> its</c><00:00:43.050><c> cash</c><00:00:43.260><c> before</c><00:00:43.710><c> core</c><00:00:44.280><c> 1</c>
+
+00:00:44.479 --> 00:00:44.489 align:start position:0%
+contains a from its cash before core 1
+ 
+
+00:00:44.489 --> 00:00:46.220 align:start position:0%
+contains a from its cash before core 1
+tries<00:00:44.789><c> to</c><00:00:44.969><c> read</c><00:00:45.149><c> it</c><00:00:45.360><c> and</c><00:00:45.570><c> then</c><00:00:45.629><c> core</c><00:00:46.020><c> 1</c>
+
+00:00:46.220 --> 00:00:46.230 align:start position:0%
+tries to read it and then core 1
+ 
+
+00:00:46.230 --> 00:00:48.770 align:start position:0%
+tries to read it and then core 1
+replaces<00:00:46.950><c> before</c><00:00:47.340><c> core</c><00:00:47.579><c> to</c><00:00:47.850><c> reads</c><00:00:48.059><c> it</c><00:00:48.300><c> and</c><00:00:48.570><c> so</c>
+
+00:00:48.770 --> 00:00:48.780 align:start position:0%
+replaces before core to reads it and so
+ 
+
+00:00:48.780 --> 00:00:51.740 align:start position:0%
+replaces before core to reads it and so
+on<00:00:48.989><c> in</c><00:00:49.320><c> that</c><00:00:49.530><c> case</c><00:00:49.980><c> we</c><00:00:50.160><c> get</c><00:00:50.340><c> actually</c><00:00:50.789><c> a</c><00:00:50.940><c> 3</c><00:00:51.449><c> here</c>
+
+00:00:51.740 --> 00:00:51.750 align:start position:0%
+on in that case we get actually a 3 here
+ 
+
+00:00:51.750 --> 00:00:53.810 align:start position:0%
+on in that case we get actually a 3 here
+which<00:00:51.930><c> is</c><00:00:52.110><c> the</c><00:00:52.230><c> correct</c><00:00:52.469><c> answer</c><00:00:52.949><c> so</c><00:00:53.129><c> let's</c><00:00:53.670><c> see</c>
+
+00:00:53.810 --> 00:00:53.820 align:start position:0%
+which is the correct answer so let's see
+ 
+
+00:00:53.820 --> 00:00:57.260 align:start position:0%
+which is the correct answer so let's see
+now<00:00:53.850><c> if</c><00:00:54.090><c> we</c><00:00:54.120><c> can</c><00:00:54.239><c> get</c><00:00:54.510><c> to</c><00:00:54.780><c> well</c><00:00:55.739><c> if</c><00:00:56.160><c> core</c><00:00:56.640><c> 0</c><00:00:56.969><c> does</c>
+
+00:00:57.260 --> 00:00:57.270 align:start position:0%
+now if we can get to well if core 0 does
+ 
+
+00:00:57.270 --> 00:00:59.569 align:start position:0%
+now if we can get to well if core 0 does
+a<00:00:57.300><c> replacement</c><00:00:57.840><c> so</c><00:00:58.620><c> the</c><00:00:58.739><c> memory</c><00:00:59.100><c> location</c>
+
+00:00:59.569 --> 00:00:59.579 align:start position:0%
+a replacement so the memory location
+ 
+
+00:00:59.579 --> 00:01:03.110 align:start position:0%
+a replacement so the memory location
+after<00:00:59.940><c> this</c><00:01:00.149><c> actually</c><00:01:00.899><c> contains</c><00:01:01.410><c> a</c><00:01:01.680><c> 1</c><00:01:02.120><c> then</c>
+
+00:01:03.110 --> 00:01:03.120 align:start position:0%
+after this actually contains a 1 then
+ 
+
+00:01:03.120 --> 00:01:07.219 align:start position:0%
+after this actually contains a 1 then
+core<00:01:03.539><c> 1</c><00:01:03.870><c> does</c><00:01:04.170><c> this</c><00:01:04.470><c> but</c><00:01:05.070><c> doesn't</c><00:01:05.729><c> replace</c><00:01:06.630><c> the</c>
+
+00:01:07.219 --> 00:01:07.229 align:start position:0%
+core 1 does this but doesn't replace the
+ 
+
+00:01:07.229 --> 00:01:09.649 align:start position:0%
+core 1 does this but doesn't replace the
+block<00:01:07.380><c> from</c><00:01:07.650><c> the</c><00:01:07.799><c> cache</c><00:01:08.010><c> then</c><00:01:08.790><c> core</c><00:01:09.150><c> to</c><00:01:09.360><c> will</c>
+
+00:01:09.649 --> 00:01:09.659 align:start position:0%
+block from the cache then core to will
+ 
+
+00:01:09.659 --> 00:01:12.800 align:start position:0%
+block from the cache then core to will
+still<00:01:09.930><c> see</c><00:01:10.200><c> a</c><00:01:10.380><c> 1</c><00:01:10.680><c> it</c><00:01:11.159><c> will</c><00:01:11.430><c> not</c><00:01:11.490><c> see</c><00:01:12.090><c> what</c><00:01:12.540><c> core</c>
+
+00:01:12.800 --> 00:01:12.810 align:start position:0%
+still see a 1 it will not see what core
+ 
+
+00:01:12.810 --> 00:01:15.320 align:start position:0%
+still see a 1 it will not see what core
+1<00:01:13.020><c> produced</c><00:01:13.470><c> because</c><00:01:13.830><c> core</c><00:01:14.310><c> one</c><00:01:14.549><c> keeps</c><00:01:14.880><c> it</c><00:01:15.119><c> in</c>
+
+00:01:15.320 --> 00:01:15.330 align:start position:0%
+1 produced because core one keeps it in
+ 
+
+00:01:15.330 --> 00:01:18.230 align:start position:0%
+1 produced because core one keeps it in
+its<00:01:15.540><c> own</c><00:01:15.659><c> cache</c><00:01:15.960><c> so</c><00:01:16.920><c> core</c><00:01:17.189><c> to</c><00:01:17.220><c> here</c><00:01:17.640><c> reads</c><00:01:17.970><c> 1</c>
+
+00:01:18.230 --> 00:01:18.240 align:start position:0%
+its own cache so core to here reads 1
+ 
+
+00:01:18.240 --> 00:01:20.780 align:start position:0%
+its own cache so core to here reads 1
+increments<00:01:18.930><c> it</c><00:01:19.140><c> and</c><00:01:19.350><c> then</c><00:01:19.740><c> core</c><00:01:20.070><c> 2</c><00:01:20.310><c> ends</c><00:01:20.670><c> up</c>
+
+00:01:20.780 --> 00:01:20.790 align:start position:0%
+increments it and then core 2 ends up
+ 
+
+00:01:20.790 --> 00:01:23.090 align:start position:0%
+increments it and then core 2 ends up
+writing<00:01:21.060><c> a</c><00:01:21.330><c> 2</c><00:01:21.570><c> so</c><00:01:21.840><c> this</c><00:01:22.020><c> is</c><00:01:22.080><c> a</c><00:01:22.380><c> possible</c><00:01:22.860><c> answer</c>
+
+00:01:23.090 --> 00:01:23.100 align:start position:0%
+writing a 2 so this is a possible answer
+ 
+
+00:01:23.100 --> 00:01:26.780 align:start position:0%
+writing a 2 so this is a possible answer
+and<00:01:23.490><c> then</c><00:01:24.060><c> we</c><00:01:24.270><c> can</c><00:01:24.479><c> get</c><00:01:24.630><c> a</c><00:01:24.840><c> 1</c><00:01:25.170><c> here</c><00:01:25.830><c> by</c>
+
+00:01:26.780 --> 00:01:26.790 align:start position:0%
+and then we can get a 1 here by
+ 
+
+00:01:26.790 --> 00:01:29.179 align:start position:0%
+and then we can get a 1 here by
+basically<00:01:27.540><c> core</c><00:01:28.110><c> 0</c><00:01:28.470><c> delaying</c><00:01:28.950><c> the</c>
+
+00:01:29.179 --> 00:01:29.189 align:start position:0%
+basically core 0 delaying the
+ 
+
+00:01:29.189 --> 00:01:31.580 align:start position:0%
+basically core 0 delaying the
+replacement<00:01:29.820><c> and</c><00:01:29.970><c> then</c><00:01:30.299><c> core</c><00:01:30.600><c> 1</c><00:01:30.869><c> can</c><00:01:31.110><c> fetch</c><00:01:31.350><c> a</c>
+
+00:01:31.580 --> 00:01:31.590 align:start position:0%
+replacement and then core 1 can fetch a
+ 
+
+00:01:31.590 --> 00:01:35.210 align:start position:0%
+replacement and then core 1 can fetch a
+0<00:01:31.950><c> as</c><00:01:32.189><c> well</c><00:01:32.759><c> put</c><00:01:33.210><c> a</c><00:01:33.240><c> 1</c><00:01:33.570><c> there</c><00:01:33.600><c> but</c><00:01:34.380><c> not</c><00:01:34.710><c> replace</c>
+
+00:01:35.210 --> 00:01:35.220 align:start position:0%
+0 as well put a 1 there but not replace
+ 
+
+00:01:35.220 --> 00:01:37.760 align:start position:0%
+0 as well put a 1 there but not replace
+until<00:01:35.610><c> later</c><00:01:35.820><c> and</c><00:01:36.210><c> that</c><00:01:36.840><c> means</c><00:01:37.170><c> that</c><00:01:37.470><c> when</c>
+
+00:01:37.760 --> 00:01:37.770 align:start position:0%
+until later and that means that when
+ 
+
+00:01:37.770 --> 00:01:40.969 align:start position:0%
+until later and that means that when
+core<00:01:38.070><c> 2</c><00:01:38.280><c> reads</c><00:01:38.520><c> this</c><00:01:38.850><c> it</c><00:01:39.119><c> gets</c><00:01:39.450><c> a</c><00:01:39.750><c> 0</c><00:01:40.229><c> and</c><00:01:40.530><c> then</c>
+
+00:01:40.969 --> 00:01:40.979 align:start position:0%
+core 2 reads this it gets a 0 and then
+ 
+
+00:01:40.979 --> 00:01:43.880 align:start position:0%
+core 2 reads this it gets a 0 and then
+puts<00:01:41.310><c> a</c><00:01:41.490><c> 1</c><00:01:41.729><c> here</c><00:01:42.150><c> so</c><00:01:42.509><c> this</c><00:01:42.689><c> is</c><00:01:42.960><c> also</c><00:01:43.439><c> possible</c>
+
+00:01:43.880 --> 00:01:43.890 align:start position:0%
+puts a 1 here so this is also possible
+ 
+
+00:01:43.890 --> 00:01:47.600 align:start position:0%
+puts a 1 here so this is also possible
+it<00:01:44.790><c> is</c><00:01:44.850><c> not</c><00:01:45.390><c> possible</c><00:01:46.049><c> for</c><00:01:46.110><c> core</c><00:01:46.740><c> 2</c><00:01:46.979><c> to</c><00:01:47.189><c> write</c><00:01:47.399><c> a</c>
+
+00:01:47.600 --> 00:01:47.610 align:start position:0%
+it is not possible for core 2 to write a
+ 
+
+00:01:47.610 --> 00:01:50.420 align:start position:0%
+it is not possible for core 2 to write a
+0<00:01:47.970><c> because</c><00:01:48.780><c> whatever</c><00:01:49.049><c> it</c><00:01:49.409><c> reads</c><00:01:49.649><c> it</c><00:01:50.130><c> will</c>
+
+00:01:50.420 --> 00:01:50.430 align:start position:0%
+0 because whatever it reads it will
+ 
+
+00:01:50.430 --> 00:01:52.039 align:start position:0%
+0 because whatever it reads it will
+increment<00:01:50.640><c> and</c><00:01:51.329><c> write</c>
+
+00:01:52.039 --> 00:01:52.049 align:start position:0%
+increment and write
+ 
+
+00:01:52.049 --> 00:01:55.130 align:start position:0%
+increment and write
+so<00:01:52.649><c> for</c><00:01:52.890><c> Core</c><00:01:53.220><c> 2</c><00:01:53.460><c> to</c><00:01:53.640><c> produce</c><00:01:53.850><c> a</c><00:01:54.180><c> 0</c><00:01:54.479><c> here</c><00:01:54.899><c> it</c>
+
+00:01:55.130 --> 00:01:55.140 align:start position:0%
+so for Core 2 to produce a 0 here it
+ 
+
+00:01:55.140 --> 00:01:57.530 align:start position:0%
+so for Core 2 to produce a 0 here it
+would<00:01:55.439><c> need</c><00:01:55.649><c> to</c><00:01:55.680><c> read</c><00:01:56.070><c> minus</c><00:01:56.520><c> 1</c><00:01:56.790><c> note</c><00:01:57.240><c> that</c>
+
+00:01:57.530 --> 00:01:57.540 align:start position:0%
+would need to read minus 1 note that
+ 
+
+00:01:57.540 --> 00:02:00.109 align:start position:0%
+would need to read minus 1 note that
+each<00:01:58.320><c> of</c><00:01:58.380><c> these</c><00:01:58.710><c> cores</c><00:01:59.009><c> is</c><00:01:59.159><c> still</c><00:01:59.399><c> behaving</c><00:01:59.790><c> as</c>
+
+00:02:00.109 --> 00:02:00.119 align:start position:0%
+each of these cores is still behaving as
+ 
+
+00:02:00.119 --> 00:02:03.560 align:start position:0%
+each of these cores is still behaving as
+a<00:02:00.149><c> correct</c><00:02:00.750><c> uniprocessor</c><00:02:01.790><c> so</c><00:02:02.790><c> 0</c><00:02:03.149><c> is</c><00:02:03.390><c> not</c>
+
+00:02:03.560 --> 00:02:03.570 align:start position:0%
+a correct uniprocessor so 0 is not
+ 
+
+00:02:03.570 --> 00:02:04.340 align:start position:0%
+a correct uniprocessor so 0 is not
+possible
+
+00:02:04.340 --> 00:02:04.350 align:start position:0%
+possible
+ 
+
+00:02:04.350 --> 00:02:07.459 align:start position:0%
+possible
+similarly<00:02:05.250><c> for</c><00:02:05.880><c> is</c><00:02:06.119><c> not</c><00:02:06.270><c> possible</c><00:02:06.899><c> because</c>
+
+00:02:07.459 --> 00:02:07.469 align:start position:0%
+similarly for is not possible because
+ 
+
+00:02:07.469 --> 00:02:10.400 align:start position:0%
+similarly for is not possible because
+for<00:02:08.129><c> 4</c><00:02:08.670><c> to</c><00:02:08.970><c> be</c><00:02:09.090><c> produced</c><00:02:09.479><c> here</c><00:02:09.869><c> we</c><00:02:10.140><c> need</c><00:02:10.349><c> to</c>
+
+00:02:10.400 --> 00:02:10.410 align:start position:0%
+for 4 to be produced here we need to
+ 
+
+00:02:10.410 --> 00:02:12.199 align:start position:0%
+for 4 to be produced here we need to
+read<00:02:10.739><c> a</c><00:02:10.770><c> tree</c><00:02:11.129><c> and</c><00:02:11.430><c> there</c><00:02:11.700><c> is</c><00:02:11.819><c> just</c><00:02:12.000><c> no</c><00:02:12.180><c> way</c>
+
+00:02:12.199 --> 00:02:12.209 align:start position:0%
+read a tree and there is just no way
+ 
+
+00:02:12.209 --> 00:02:13.550 align:start position:0%
+read a tree and there is just no way
+that<00:02:12.420><c> to</c><00:02:13.080><c> increase</c>
+
+00:02:13.550 --> 00:02:13.560 align:start position:0%
+that to increase
+ 
+
+00:02:13.560 --> 00:02:16.670 align:start position:0%
+that to increase
+from<00:02:13.950><c> zero</c><00:02:14.220><c> can</c><00:02:14.550><c> produce</c><00:02:14.819><c> a</c><00:02:15.300><c> three</c><00:02:16.020><c> here</c><00:02:16.500><c> and</c>
+
+00:02:16.670 --> 00:02:16.680 align:start position:0%
+from zero can produce a three here and
+ 
+
+00:02:16.680 --> 00:02:19.339 align:start position:0%
+from zero can produce a three here and
+similarly<00:02:17.520><c> more</c><00:02:18.150><c> than</c><00:02:18.300><c> four</c><00:02:18.540><c> is</c><00:02:18.660><c> not</c><00:02:18.810><c> possible</c>
+
+00:02:19.339 --> 00:02:19.349 align:start position:0%
+similarly more than four is not possible
+ 
+
+00:02:19.349 --> 00:02:22.190 align:start position:0%
+similarly more than four is not possible
+so<00:02:19.560><c> the</c><00:02:19.950><c> correct</c><00:02:20.340><c> answers</c><00:02:20.819><c> here</c><00:02:21.090><c> are</c><00:02:21.270><c> 1</c><00:02:21.569><c> 2</c><00:02:21.870><c> &amp;</c><00:02:21.900><c> 3</c>
+
+00:02:22.190 --> 00:02:22.200 align:start position:0%
+so the correct answers here are 1 2 &amp; 3
+ 
+
+00:02:22.200 --> 00:02:26.120 align:start position:0%
+so the correct answers here are 1 2 &amp; 3
+are<00:02:22.620><c> possible</c><00:02:23.580><c> at</c><00:02:23.790><c> this</c><00:02:24.000><c> point</c>
+

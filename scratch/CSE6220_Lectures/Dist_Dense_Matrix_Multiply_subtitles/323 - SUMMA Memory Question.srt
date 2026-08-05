@@ -1,0 +1,36 @@
+1
+00:00:00,430 --> 00:00:03,730
+ Here's a quick follow-up question about the SUMMA algorithm.
+
+2
+00:00:03,730 --> 00:00:05,170
+ Compared to the 1-D scheme,
+
+3
+00:00:05,170 --> 00:00:10,480
+ does SUMMA require more memory, the same amount of memory, or less memory?
+
+4
+00:00:10,480 --> 00:00:14,160
+ By way of reminder, remember the 1-D scheme's memory requirement
+
+5
+00:00:14,160 --> 00:00:17,110
+ was basically 4 n squared over P.
+
+6
+00:00:17,110 --> 00:00:20,520
+ You'll remember that came from having to store a piece of A, a piece of B, and
+
+7
+00:00:20,520 --> 00:00:23,930
+ a piece of C as well as an extra buffer for messaging.
+
+8
+00:00:23,930 --> 00:00:26,370
+ Now, if you think the answer depends on something,
+
+9
+00:00:26,370 --> 00:00:26,370
+ you can check more than one of the options that you think are possible.
+

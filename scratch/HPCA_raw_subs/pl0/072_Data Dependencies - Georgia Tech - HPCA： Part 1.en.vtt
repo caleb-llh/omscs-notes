@@ -1,0 +1,736 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.869 align:start position:0%
+ 
+but<00:00:00.399><c> wait</c><00:00:00.719><c> there's</c><00:00:01.000><c> more</c><00:00:01.640><c> we</c><00:00:01.839><c> also</c><00:00:02.200><c> have</c><00:00:02.480><c> data</c>
+
+00:00:02.869 --> 00:00:02.879 align:start position:0%
+but wait there's more we also have data
+ 
+
+00:00:02.879 --> 00:00:05.550 align:start position:0%
+but wait there's more we also have data
+dependencies<00:00:03.679><c> that</c><00:00:03.840><c> can</c><00:00:04.040><c> cause</c><00:00:05.000><c> pipeline</c>
+
+00:00:05.550 --> 00:00:05.560 align:start position:0%
+dependencies that can cause pipeline
+ 
+
+00:00:05.560 --> 00:00:08.950 align:start position:0%
+dependencies that can cause pipeline
+stalls<00:00:06.560><c> consider</c><00:00:07.080><c> these</c><00:00:07.240><c> two</c><00:00:07.960><c> instructions</c>
+
+00:00:08.950 --> 00:00:08.960 align:start position:0%
+stalls consider these two instructions
+ 
+
+00:00:08.960 --> 00:00:13.230 align:start position:0%
+stalls consider these two instructions
+we<00:00:09.200><c> add</c><00:00:09.639><c> R2</c><00:00:10.240><c> and</c><00:00:10.440><c> R3</c><00:00:11.160><c> put</c><00:00:11.400><c> the</c><00:00:11.559><c> result</c><00:00:11.880><c> in</c><00:00:12.240><c> R1</c>
+
+00:00:13.230 --> 00:00:13.240 align:start position:0%
+we add R2 and R3 put the result in R1
+ 
+
+00:00:13.240 --> 00:00:15.829 align:start position:0%
+we add R2 and R3 put the result in R1
+then<00:00:13.400><c> the</c><00:00:13.599><c> subtract</c><00:00:14.160><c> instruction</c><00:00:14.799><c> here</c><00:00:15.480><c> takes</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+then the subtract instruction here takes
+ 
+
+00:00:15.839 --> 00:00:20.070 align:start position:0%
+then the subtract instruction here takes
+R1<00:00:16.640><c> and</c><00:00:16.840><c> uses</c><00:00:17.240><c> it</c><00:00:17.560><c> to</c><00:00:17.800><c> compute</c><00:00:18.119><c> R</c><00:00:18.400><c> seven</c><00:00:19.359><c> we</c><00:00:19.560><c> say</c>
+
+00:00:20.070 --> 00:00:20.080 align:start position:0%
+R1 and uses it to compute R seven we say
+ 
+
+00:00:20.080 --> 00:00:22.710 align:start position:0%
+R1 and uses it to compute R seven we say
+that<00:00:20.240><c> the</c><00:00:20.439><c> subtract</c><00:00:21.039><c> instruction</c><00:00:21.840><c> has</c><00:00:22.080><c> a</c><00:00:22.320><c> data</c>
+
+00:00:22.710 --> 00:00:22.720 align:start position:0%
+that the subtract instruction has a data
+ 
+
+00:00:22.720 --> 00:00:25.670 align:start position:0%
+that the subtract instruction has a data
+dependence<00:00:23.320><c> on</c><00:00:23.560><c> this</c><00:00:23.760><c> ad</c><00:00:24.439><c> in</c><00:00:24.680><c> fact</c><00:00:25.199><c> we</c><00:00:25.359><c> can</c>
+
+00:00:25.670 --> 00:00:25.680 align:start position:0%
+dependence on this ad in fact we can
+ 
+
+00:00:25.680 --> 00:00:28.470 align:start position:0%
+dependence on this ad in fact we can
+have<00:00:26.240><c> this</c><00:00:26.519><c> data</c><00:00:27.160><c> dependence</c><00:00:28.160><c> and</c><00:00:28.320><c> there</c>
+
+00:00:28.470 --> 00:00:28.480 align:start position:0%
+have this data dependence and there
+ 
+
+00:00:28.480 --> 00:00:29.950 align:start position:0%
+have this data dependence and there
+could<00:00:28.640><c> be</c><00:00:28.840><c> another</c><00:00:29.199><c> instruction</c><00:00:29.640><c> that</c>
+
+00:00:29.950 --> 00:00:29.960 align:start position:0%
+could be another instruction that
+ 
+
+00:00:29.960 --> 00:00:30.870 align:start position:0%
+could be another instruction that
+produces
+
+00:00:30.870 --> 00:00:30.880 align:start position:0%
+produces
+ 
+
+00:00:30.880 --> 00:00:34.270 align:start position:0%
+produces
+R8<00:00:31.880><c> that</c><00:00:32.040><c> the</c><00:00:32.160><c> subtract</c><00:00:32.719><c> also</c><00:00:33.040><c> depends</c><00:00:33.440><c> on</c>
+
+00:00:34.270 --> 00:00:34.280 align:start position:0%
+R8 that the subtract also depends on
+ 
+
+00:00:34.280 --> 00:00:36.510 align:start position:0%
+R8 that the subtract also depends on
+when<00:00:34.440><c> we</c><00:00:34.600><c> have</c><00:00:34.760><c> a</c><00:00:34.960><c> data</c><00:00:35.360><c> dependence</c><00:00:36.360><c> that</c>
+
+00:00:36.510 --> 00:00:36.520 align:start position:0%
+when we have a data dependence that
+ 
+
+00:00:36.520 --> 00:00:38.190 align:start position:0%
+when we have a data dependence that
+means<00:00:36.920><c> that</c><00:00:37.040><c> we</c><00:00:37.200><c> cannot</c><00:00:37.559><c> just</c><00:00:37.680><c> do</c><00:00:38.000><c> these</c>
+
+00:00:38.190 --> 00:00:38.200 align:start position:0%
+means that we cannot just do these
+ 
+
+00:00:38.200 --> 00:00:39.709 align:start position:0%
+means that we cannot just do these
+instructions<00:00:38.800><c> like</c><00:00:38.960><c> they</c><00:00:39.079><c> were</c><00:00:39.280><c> loads</c><00:00:39.559><c> of</c>
+
+00:00:39.709 --> 00:00:39.719 align:start position:0%
+instructions like they were loads of
+ 
+
+00:00:39.719 --> 00:00:41.630 align:start position:0%
+instructions like they were loads of
+laundry<00:00:40.520><c> that</c><00:00:40.680><c> have</c><00:00:40.879><c> nothing</c><00:00:41.160><c> to</c><00:00:41.280><c> do</c><00:00:41.480><c> with</c>
+
+00:00:41.630 --> 00:00:41.640 align:start position:0%
+laundry that have nothing to do with
+ 
+
+00:00:41.640 --> 00:00:44.150 align:start position:0%
+laundry that have nothing to do with
+each<00:00:41.800><c> other</c><00:00:42.640><c> we</c><00:00:42.879><c> have</c><00:00:43.079><c> to</c><00:00:43.600><c> have</c><00:00:43.760><c> the</c><00:00:43.920><c> ad</c>
+
+00:00:44.150 --> 00:00:44.160 align:start position:0%
+each other we have to have the ad
+ 
+
+00:00:44.160 --> 00:00:46.830 align:start position:0%
+each other we have to have the ad
+produce<00:00:44.520><c> R1</c><00:00:45.399><c> before</c><00:00:45.719><c> the</c><00:00:45.960><c> subtract</c><00:00:46.399><c> can</c><00:00:46.600><c> use</c>
+
+00:00:46.830 --> 00:00:46.840 align:start position:0%
+produce R1 before the subtract can use
+ 
+
+00:00:46.840 --> 00:00:49.869 align:start position:0%
+produce R1 before the subtract can use
+it<00:00:47.600><c> this</c><00:00:47.840><c> type</c><00:00:48.000><c> of</c><00:00:48.199><c> data</c><00:00:48.640><c> dependence</c><00:00:49.640><c> is</c>
+
+00:00:49.869 --> 00:00:49.879 align:start position:0%
+it this type of data dependence is
+ 
+
+00:00:49.879 --> 00:00:54.270 align:start position:0%
+it this type of data dependence is
+called<00:00:50.719><c> a</c><00:00:51.000><c> read</c><00:00:52.000><c> after</c><00:00:52.879><c> write</c><00:00:53.320><c> dependence</c><00:00:54.079><c> we</c>
+
+00:00:54.270 --> 00:00:54.280 align:start position:0%
+called a read after write dependence we
+ 
+
+00:00:54.280 --> 00:00:57.389 align:start position:0%
+called a read after write dependence we
+read<00:00:54.840><c> something</c><00:00:55.800><c> after</c><00:00:56.280><c> it</c><00:00:56.520><c> has</c><00:00:56.680><c> been</c><00:00:56.879><c> written</c>
+
+00:00:57.389 --> 00:00:57.399 align:start position:0%
+read something after it has been written
+ 
+
+00:00:57.399 --> 00:00:59.709 align:start position:0%
+read something after it has been written
+and<00:00:57.600><c> that</c><00:00:57.760><c> order</c><00:00:58.079><c> needs</c><00:00:58.320><c> to</c><00:00:58.440><c> be</c><00:00:58.719><c> preserved</c>
+
+00:00:59.709 --> 00:00:59.719 align:start position:0%
+and that order needs to be preserved
+ 
+
+00:00:59.719 --> 00:01:02.029 align:start position:0%
+and that order needs to be preserved
+this<00:01:00.079><c> type</c><00:01:00.280><c> of</c><00:01:00.399><c> dependence</c><00:01:01.000><c> is</c><00:01:01.239><c> also</c><00:01:01.559><c> called</c>
+
+00:01:02.029 --> 00:01:02.039 align:start position:0%
+this type of dependence is also called
+ 
+
+00:01:02.039 --> 00:01:04.910 align:start position:0%
+this type of dependence is also called
+flow<00:01:02.680><c> dependence</c><00:01:03.680><c> because</c><00:01:03.960><c> the</c><00:01:04.159><c> data</c><00:01:04.400><c> flows</c>
+
+00:01:04.910 --> 00:01:04.920 align:start position:0%
+flow dependence because the data flows
+ 
+
+00:01:04.920 --> 00:01:07.149 align:start position:0%
+flow dependence because the data flows
+from<00:01:05.119><c> one</c><00:01:05.360><c> instruction</c><00:01:05.880><c> to</c><00:01:06.080><c> the</c><00:01:06.240><c> other</c><00:01:06.920><c> and</c><00:01:07.040><c> it</c>
+
+00:01:07.149 --> 00:01:07.159 align:start position:0%
+from one instruction to the other and it
+ 
+
+00:01:07.159 --> 00:01:09.789 align:start position:0%
+from one instruction to the other and it
+is<00:01:07.320><c> also</c><00:01:07.600><c> called</c><00:01:07.960><c> true</c><00:01:08.479><c> dependence</c><00:01:09.479><c> because</c>
+
+00:01:09.789 --> 00:01:09.799 align:start position:0%
+is also called true dependence because
+ 
+
+00:01:09.799 --> 00:01:13.070 align:start position:0%
+is also called true dependence because
+there<00:01:09.920><c> is</c><00:01:10.240><c> really</c><00:01:11.200><c> a</c><00:01:11.520><c> dependence</c><00:01:12.520><c> as</c><00:01:12.680><c> in</c><00:01:12.920><c> the</c>
+
+00:01:13.070 --> 00:01:13.080 align:start position:0%
+there is really a dependence as in the
+ 
+
+00:01:13.080 --> 00:01:15.630 align:start position:0%
+there is really a dependence as in the
+subtract<00:01:13.640><c> needs</c><00:01:14.360><c> the</c><00:01:14.560><c> add</c><00:01:14.799><c> to</c><00:01:14.960><c> finish</c><00:01:15.360><c> before</c>
+
+00:01:15.630 --> 00:01:15.640 align:start position:0%
+subtract needs the add to finish before
+ 
+
+00:01:15.640 --> 00:01:18.870 align:start position:0%
+subtract needs the add to finish before
+it<00:01:16.040><c> because</c><00:01:16.840><c> the</c><00:01:17.040><c> value</c><00:01:17.360><c> doesn't</c><00:01:17.799><c> exist</c><00:01:18.560><c> until</c>
+
+00:01:18.870 --> 00:01:18.880 align:start position:0%
+it because the value doesn't exist until
+ 
+
+00:01:18.880 --> 00:01:21.230 align:start position:0%
+it because the value doesn't exist until
+the<00:01:19.040><c> ad</c><00:01:19.240><c> is</c><00:01:19.400><c> finished</c><00:01:20.159><c> so</c><00:01:20.439><c> again</c><00:01:20.720><c> this</c><00:01:20.920><c> type</c><00:01:21.079><c> of</c>
+
+00:01:21.230 --> 00:01:21.240 align:start position:0%
+the ad is finished so again this type of
+ 
+
+00:01:21.240 --> 00:01:23.710 align:start position:0%
+the ad is finished so again this type of
+dependen<00:01:21.759><c> is</c><00:01:22.079><c> called</c><00:01:22.520><c> raw</c><00:01:22.960><c> or</c><00:01:23.159><c> read</c><00:01:23.400><c> after</c>
+
+00:01:23.710 --> 00:01:23.720 align:start position:0%
+dependen is called raw or read after
+ 
+
+00:01:23.720 --> 00:01:26.630 align:start position:0%
+dependen is called raw or read after
+write<00:01:24.159><c> or</c><00:01:24.360><c> flow</c><00:01:24.880><c> or</c><00:01:25.079><c> true</c><00:01:25.520><c> dependence</c><00:01:26.520><c> there</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+write or flow or true dependence there
+ 
+
+00:01:26.640 --> 00:01:29.550 align:start position:0%
+write or flow or true dependence there
+are<00:01:26.920><c> two</c><00:01:27.320><c> other</c><00:01:27.720><c> types</c><00:01:27.960><c> of</c><00:01:28.159><c> data</c><00:01:28.560><c> dependencies</c>
+
+00:01:29.550 --> 00:01:29.560 align:start position:0%
+are two other types of data dependencies
+ 
+
+00:01:29.560 --> 00:01:31.030 align:start position:0%
+are two other types of data dependencies
+let's<00:01:29.720><c> say</c><00:01:29.960><c> say</c><00:01:30.079><c> that</c><00:01:30.240><c> there</c><00:01:30.360><c> is</c><00:01:30.520><c> later</c><00:01:30.880><c> a</c>
+
+00:01:31.030 --> 00:01:31.040 align:start position:0%
+let's say say that there is later a
+ 
+
+00:01:31.040 --> 00:01:33.590 align:start position:0%
+let's say say that there is later a
+multiply<00:01:31.680><c> instruction</c><00:01:32.360><c> that</c><00:01:32.600><c> takes</c><00:01:32.880><c> R5</c><00:01:33.439><c> and</c>
+
+00:01:33.590 --> 00:01:33.600 align:start position:0%
+multiply instruction that takes R5 and
+ 
+
+00:01:33.600 --> 00:01:37.190 align:start position:0%
+multiply instruction that takes R5 and
+R6<00:01:34.320><c> and</c><00:01:34.520><c> produces</c><00:01:35.240><c> R1</c><00:01:35.920><c> so</c><00:01:36.119><c> that</c><00:01:36.320><c> later</c>
+
+00:01:37.190 --> 00:01:37.200 align:start position:0%
+R6 and produces R1 so that later
+ 
+
+00:01:37.200 --> 00:01:39.630 align:start position:0%
+R6 and produces R1 so that later
+instructions<00:01:37.680><c> will</c><00:01:37.880><c> use</c><00:01:38.200><c> that</c><00:01:38.399><c> R1</c><00:01:39.320><c> as</c><00:01:39.439><c> the</c>
+
+00:01:39.630 --> 00:01:39.640 align:start position:0%
+instructions will use that R1 as the
+ 
+
+00:01:39.640 --> 00:01:42.109 align:start position:0%
+instructions will use that R1 as the
+result<00:01:39.920><c> of</c><00:01:40.040><c> the</c><00:01:40.439><c> multiplication</c><00:01:41.439><c> so</c><00:01:41.640><c> for</c><00:01:41.920><c> this</c>
+
+00:01:42.109 --> 00:01:42.119 align:start position:0%
+result of the multiplication so for this
+ 
+
+00:01:42.119 --> 00:01:44.030 align:start position:0%
+result of the multiplication so for this
+dependence<00:01:42.680><c> we</c><00:01:42.799><c> say</c><00:01:43.079><c> that's</c><00:01:43.240><c> a</c><00:01:43.439><c> raw</c><00:01:43.680><c> lower</c>
+
+00:01:44.030 --> 00:01:44.040 align:start position:0%
+dependence we say that's a raw lower
+ 
+
+00:01:44.040 --> 00:01:46.630 align:start position:0%
+dependence we say that's a raw lower
+through<00:01:44.360><c> dependence</c><00:01:45.360><c> there</c><00:01:45.560><c> is</c><00:01:45.880><c> a</c><00:01:46.079><c> dependence</c>
+
+00:01:46.630 --> 00:01:46.640 align:start position:0%
+through dependence there is a dependence
+ 
+
+00:01:46.640 --> 00:01:49.550 align:start position:0%
+through dependence there is a dependence
+between<00:01:46.960><c> the</c><00:01:47.200><c> ADD</c><00:01:47.479><c> and</c><00:01:47.640><c> the</c><00:01:47.840><c> multiply</c><00:01:48.840><c> the</c><00:01:49.079><c> add</c>
+
+00:01:49.550 --> 00:01:49.560 align:start position:0%
+between the ADD and the multiply the add
+ 
+
+00:01:49.560 --> 00:01:52.190 align:start position:0%
+between the ADD and the multiply the add
+needs<00:01:49.880><c> to</c><00:01:50.119><c> finish</c><00:01:50.640><c> first</c><00:01:51.399><c> and</c><00:01:51.600><c> then</c><00:01:51.840><c> the</c>
+
+00:01:52.190 --> 00:01:52.200 align:start position:0%
+needs to finish first and then the
+ 
+
+00:01:52.200 --> 00:01:55.270 align:start position:0%
+needs to finish first and then the
+multiply<00:01:53.200><c> needs</c><00:01:53.439><c> to</c><00:01:53.600><c> finish</c><00:01:54.479><c> because</c><00:01:54.799><c> we</c><00:01:54.960><c> want</c>
+
+00:01:55.270 --> 00:01:55.280 align:start position:0%
+multiply needs to finish because we want
+ 
+
+00:01:55.280 --> 00:01:57.830 align:start position:0%
+multiply needs to finish because we want
+the<00:01:55.439><c> result</c><00:01:55.719><c> of</c><00:01:55.880><c> the</c><00:01:56.039><c> multiply</c><00:01:56.799><c> to</c><00:01:57.039><c> end</c><00:01:57.320><c> up</c><00:01:57.680><c> as</c>
+
+00:01:57.830 --> 00:01:57.840 align:start position:0%
+the result of the multiply to end up as
+ 
+
+00:01:57.840 --> 00:02:00.469 align:start position:0%
+the result of the multiply to end up as
+the<00:01:58.039><c> final</c><00:01:58.399><c> value</c><00:01:58.680><c> of</c><00:01:58.840><c> R1</c><00:01:59.640><c> if</c><00:01:59.880><c> if</c><00:01:59.960><c> we</c><00:02:00.119><c> let</c><00:02:00.320><c> the</c>
+
+00:02:00.469 --> 00:02:00.479 align:start position:0%
+the final value of R1 if if we let the
+ 
+
+00:02:00.479 --> 00:02:03.990 align:start position:0%
+the final value of R1 if if we let the
+ad<00:02:01.119><c> finish</c><00:02:01.600><c> later</c><00:02:02.280><c> then</c><00:02:02.479><c> R1</c><00:02:03.240><c> produced</c><00:02:03.680><c> by</c><00:02:03.840><c> the</c>
+
+00:02:03.990 --> 00:02:04.000 align:start position:0%
+ad finish later then R1 produced by the
+ 
+
+00:02:04.000 --> 00:02:06.830 align:start position:0%
+ad finish later then R1 produced by the
+ad<00:02:04.560><c> will</c><00:02:04.719><c> be</c><00:02:04.880><c> left</c><00:02:05.119><c> in</c><00:02:05.280><c> the</c><00:02:05.439><c> R1</c><00:02:06.000><c> so</c><00:02:06.240><c> subsequent</c>
+
+00:02:06.830 --> 00:02:06.840 align:start position:0%
+ad will be left in the R1 so subsequent
+ 
+
+00:02:06.840 --> 00:02:08.550 align:start position:0%
+ad will be left in the R1 so subsequent
+instructions<00:02:07.360><c> would</c><00:02:07.520><c> see</c><00:02:07.719><c> that</c><00:02:08.000><c> value</c><00:02:08.440><c> which</c>
+
+00:02:08.550 --> 00:02:08.560 align:start position:0%
+instructions would see that value which
+ 
+
+00:02:08.560 --> 00:02:11.510 align:start position:0%
+instructions would see that value which
+would<00:02:08.720><c> be</c><00:02:08.879><c> wrong</c><00:02:09.759><c> this</c><00:02:10.039><c> type</c><00:02:10.239><c> of</c><00:02:10.520><c> dependence</c>
+
+00:02:11.510 --> 00:02:11.520 align:start position:0%
+would be wrong this type of dependence
+ 
+
+00:02:11.520 --> 00:02:14.190 align:start position:0%
+would be wrong this type of dependence
+is<00:02:11.760><c> called</c><00:02:12.080><c> a</c><00:02:12.319><c> right</c><00:02:12.640><c> after</c><00:02:13.080><c> right</c><00:02:13.720><c> or</c><00:02:13.959><c> an</c>
+
+00:02:14.190 --> 00:02:14.200 align:start position:0%
+is called a right after right or an
+ 
+
+00:02:14.200 --> 00:02:17.150 align:start position:0%
+is called a right after right or an
+output<00:02:14.959><c> dependence</c><00:02:15.959><c> basically</c><00:02:16.480><c> the</c><00:02:16.680><c> final</c>
+
+00:02:17.150 --> 00:02:17.160 align:start position:0%
+output dependence basically the final
+ 
+
+00:02:17.160 --> 00:02:20.309 align:start position:0%
+output dependence basically the final
+result<00:02:17.680><c> or</c><00:02:17.879><c> the</c><00:02:18.040><c> output</c><00:02:18.680><c> for</c><00:02:18.959><c> R1</c><00:02:19.760><c> is</c><00:02:20.000><c> what's</c>
+
+00:02:20.309 --> 00:02:20.319 align:start position:0%
+result or the output for R1 is what's
+ 
+
+00:02:20.319 --> 00:02:22.470 align:start position:0%
+result or the output for R1 is what's
+affected<00:02:20.959><c> and</c><00:02:21.160><c> right</c><00:02:21.440><c> after</c><00:02:21.800><c> right</c><00:02:22.120><c> simply</c>
+
+00:02:22.470 --> 00:02:22.480 align:start position:0%
+affected and right after right simply
+ 
+
+00:02:22.480 --> 00:02:24.070 align:start position:0%
+affected and right after right simply
+because<00:02:22.760><c> they're</c><00:02:22.959><c> both</c><00:02:23.200><c> writing</c><00:02:23.640><c> and</c><00:02:23.800><c> we</c><00:02:23.920><c> need</c>
+
+00:02:24.070 --> 00:02:24.080 align:start position:0%
+because they're both writing and we need
+ 
+
+00:02:24.080 --> 00:02:25.949 align:start position:0%
+because they're both writing and we need
+to<00:02:24.200><c> preserve</c><00:02:24.599><c> the</c><00:02:24.720><c> order</c><00:02:25.040><c> of</c><00:02:25.200><c> the</c><00:02:25.360><c> rights</c><00:02:25.760><c> this</c>
+
+00:02:25.949 --> 00:02:25.959 align:start position:0%
+to preserve the order of the rights this
+ 
+
+00:02:25.959 --> 00:02:28.509 align:start position:0%
+to preserve the order of the rights this
+right<00:02:26.319><c> should</c><00:02:26.599><c> happen</c><00:02:27.080><c> after</c><00:02:27.560><c> this</c><00:02:27.800><c> right</c><00:02:28.280><c> the</c>
+
+00:02:28.509 --> 00:02:28.519 align:start position:0%
+right should happen after this right the
+ 
+
+00:02:28.519 --> 00:02:30.470 align:start position:0%
+right should happen after this right the
+third<00:02:28.920><c> type</c><00:02:29.120><c> of</c><00:02:29.319><c> dependence</c>
+
+00:02:30.470 --> 00:02:30.480 align:start position:0%
+third type of dependence
+ 
+
+00:02:30.480 --> 00:02:33.309 align:start position:0%
+third type of dependence
+is<00:02:30.840><c> here</c><00:02:31.560><c> the</c><00:02:31.760><c> subtract</c><00:02:32.400><c> needs</c><00:02:32.680><c> to</c><00:02:32.920><c> finish</c>
+
+00:02:33.309 --> 00:02:33.319 align:start position:0%
+is here the subtract needs to finish
+ 
+
+00:02:33.319 --> 00:02:34.350 align:start position:0%
+is here the subtract needs to finish
+reading
+
+00:02:34.350 --> 00:02:34.360 align:start position:0%
+reading
+ 
+
+00:02:34.360 --> 00:02:37.509 align:start position:0%
+reading
+R1<00:02:35.360><c> before</c><00:02:35.959><c> multiply</c><00:02:36.680><c> can</c><00:02:36.840><c> be</c><00:02:37.000><c> allowed</c><00:02:37.319><c> to</c>
+
+00:02:37.509 --> 00:02:37.519 align:start position:0%
+R1 before multiply can be allowed to
+ 
+
+00:02:37.519 --> 00:02:40.830 align:start position:0%
+R1 before multiply can be allowed to
+over<00:02:37.959><c> write</c><00:02:38.200><c> it</c><00:02:38.879><c> this</c><00:02:39.159><c> type</c><00:02:39.360><c> of</c><00:02:39.599><c> dependence</c><00:02:40.599><c> is</c>
+
+00:02:40.830 --> 00:02:40.840 align:start position:0%
+over write it this type of dependence is
+ 
+
+00:02:40.840 --> 00:02:44.430 align:start position:0%
+over write it this type of dependence is
+called<00:02:41.440><c> Write</c><00:02:42.080><c> after</c><00:02:42.840><c> read</c><00:02:43.840><c> because</c><00:02:44.200><c> the</c>
+
+00:02:44.430 --> 00:02:44.440 align:start position:0%
+called Write after read because the
+ 
+
+00:02:44.440 --> 00:02:47.509 align:start position:0%
+called Write after read because the
+write<00:02:45.159><c> needs</c><00:02:45.440><c> to</c><00:02:45.680><c> happen</c><00:02:46.239><c> after</c><00:02:46.680><c> this</c><00:02:46.879><c> read</c>
+
+00:02:47.509 --> 00:02:47.519 align:start position:0%
+write needs to happen after this read
+ 
+
+00:02:47.519 --> 00:02:49.509 align:start position:0%
+write needs to happen after this read
+and<00:02:47.720><c> it</c><00:02:47.840><c> is</c><00:02:48.000><c> also</c><00:02:48.280><c> called</c><00:02:48.680><c> anti-dependence</c>
+
+00:02:49.509 --> 00:02:49.519 align:start position:0%
+and it is also called anti-dependence
+ 
+
+00:02:49.519 --> 00:02:52.149 align:start position:0%
+and it is also called anti-dependence
+because<00:02:50.440><c> it</c><00:02:50.560><c> sort</c><00:02:50.800><c> of</c><00:02:51.000><c> reverses</c><00:02:51.560><c> the</c><00:02:51.680><c> order</c><00:02:52.000><c> of</c>
+
+00:02:52.149 --> 00:02:52.159 align:start position:0%
+because it sort of reverses the order of
+ 
+
+00:02:52.159 --> 00:02:54.670 align:start position:0%
+because it sort of reverses the order of
+the<00:02:52.280><c> flow</c><00:02:52.959><c> dependencies</c><00:02:53.959><c> for</c><00:02:54.200><c> reasons</c><00:02:54.599><c> we</c>
+
+00:02:54.670 --> 00:02:54.680 align:start position:0%
+the flow dependencies for reasons we
+ 
+
+00:02:54.680 --> 00:02:56.869 align:start position:0%
+the flow dependencies for reasons we
+will<00:02:54.840><c> see</c><00:02:55.159><c> later</c><00:02:55.720><c> these</c><00:02:55.920><c> two</c><00:02:56.239><c> types</c><00:02:56.519><c> of</c>
+
+00:02:56.869 --> 00:02:56.879 align:start position:0%
+will see later these two types of
+ 
+
+00:02:56.879 --> 00:03:00.470 align:start position:0%
+will see later these two types of
+dependencies<00:02:57.879><c> are</c><00:02:58.200><c> called</c><00:02:58.599><c> false</c><00:02:59.440><c> or</c><00:02:59.840><c> name</c>
+
+00:03:00.470 --> 00:03:00.480 align:start position:0%
+dependencies are called false or name
+ 
+
+00:03:00.480 --> 00:03:02.509 align:start position:0%
+dependencies are called false or name
+dependencies<00:03:01.480><c> so</c><00:03:01.680><c> we</c><00:03:01.800><c> have</c><00:03:02.000><c> true</c>
+
+00:03:02.509 --> 00:03:02.519 align:start position:0%
+dependencies so we have true
+ 
+
+00:03:02.519 --> 00:03:04.789 align:start position:0%
+dependencies so we have true
+dependencies<00:03:03.519><c> which</c><00:03:03.640><c> are</c><00:03:03.920><c> these</c><00:03:04.360><c> raw</c>
+
+00:03:04.789 --> 00:03:04.799 align:start position:0%
+dependencies which are these raw
+ 
+
+00:03:04.799 --> 00:03:07.509 align:start position:0%
+dependencies which are these raw
+dependencies<00:03:05.400><c> or</c><00:03:05.560><c> flow</c><00:03:06.200><c> dependencies</c><00:03:07.200><c> and</c><00:03:07.360><c> we</c>
+
+00:03:07.509 --> 00:03:07.519 align:start position:0%
+dependencies or flow dependencies and we
+ 
+
+00:03:07.519 --> 00:03:09.190 align:start position:0%
+dependencies or flow dependencies and we
+have<00:03:07.799><c> false</c><00:03:08.080><c> or</c><00:03:08.280><c> name</c>
+
+00:03:09.190 --> 00:03:09.200 align:start position:0%
+have false or name
+ 
+
+00:03:09.200 --> 00:03:11.390 align:start position:0%
+have false or name
+dependencies<00:03:10.200><c> that</c><00:03:10.400><c> have</c><00:03:10.560><c> to</c><00:03:10.680><c> do</c><00:03:10.879><c> with</c>
+
+00:03:11.390 --> 00:03:11.400 align:start position:0%
+dependencies that have to do with
+ 
+
+00:03:11.400 --> 00:03:14.990 align:start position:0%
+dependencies that have to do with
+overwriting<00:03:12.400><c> a</c><00:03:12.680><c> value</c><00:03:13.080><c> that</c><00:03:13.760><c> somebody</c><00:03:14.760><c> has</c>
+
+00:03:14.990 --> 00:03:15.000 align:start position:0%
+overwriting a value that somebody has
+ 
+
+00:03:15.000 --> 00:03:17.509 align:start position:0%
+overwriting a value that somebody has
+written<00:03:15.519><c> or</c><00:03:15.799><c> read</c><00:03:16.120><c> previously</c><00:03:16.840><c> or</c><00:03:17.040><c> at</c><00:03:17.159><c> least</c>
+
+00:03:17.509 --> 00:03:17.519 align:start position:0%
+written or read previously or at least
+ 
+
+00:03:17.519 --> 00:03:20.509 align:start position:0%
+written or read previously or at least
+should<00:03:17.840><c> read</c><00:03:18.280><c> or</c><00:03:18.560><c> write</c><00:03:19.040><c> previously</c><00:03:20.040><c> now</c><00:03:20.360><c> we</c>
+
+00:03:20.509 --> 00:03:20.519 align:start position:0%
+should read or write previously now we
+ 
+
+00:03:20.519 --> 00:03:22.710 align:start position:0%
+should read or write previously now we
+have<00:03:20.680><c> a</c><00:03:20.879><c> read</c><00:03:21.159><c> after</c><00:03:21.519><c> write</c><00:03:22.080><c> write</c><00:03:22.400><c> after</c>
+
+00:03:22.710 --> 00:03:22.720 align:start position:0%
+have a read after write write after
+ 
+
+00:03:22.720 --> 00:03:25.149 align:start position:0%
+have a read after write write after
+write<00:03:23.040><c> and</c><00:03:23.239><c> write</c><00:03:23.519><c> after</c><00:03:23.879><c> readed</c><00:03:24.159><c> dependence</c>
+
+00:03:25.149 --> 00:03:25.159 align:start position:0%
+write and write after readed dependence
+ 
+
+00:03:25.159 --> 00:03:27.990 align:start position:0%
+write and write after readed dependence
+so<00:03:25.400><c> how</c><00:03:25.560><c> about</c><00:03:26.000><c> a</c><00:03:26.239><c> read</c><00:03:26.519><c> after</c><00:03:26.840><c> red</c><00:03:27.159><c> dependence</c>
+
+00:03:27.990 --> 00:03:28.000 align:start position:0%
+so how about a read after red dependence
+ 
+
+00:03:28.000 --> 00:03:30.190 align:start position:0%
+so how about a read after red dependence
+that's<00:03:28.239><c> the</c><00:03:28.360><c> only</c><00:03:28.599><c> one</c><00:03:29.280><c> that</c><00:03:29.400><c> is</c><00:03:29.560><c> Miss</c><00:03:29.799><c> missing</c>
+
+00:03:30.190 --> 00:03:30.200 align:start position:0%
+that's the only one that is Miss missing
+ 
+
+00:03:30.200 --> 00:03:32.589 align:start position:0%
+that's the only one that is Miss missing
+here<00:03:30.920><c> let's</c><00:03:31.080><c> say</c><00:03:31.239><c> we</c><00:03:31.400><c> have</c><00:03:31.560><c> two</c><00:03:31.799><c> ads</c><00:03:32.239><c> both</c><00:03:32.439><c> of</c>
+
+00:03:32.589 --> 00:03:32.599 align:start position:0%
+here let's say we have two ads both of
+ 
+
+00:03:32.599 --> 00:03:34.789 align:start position:0%
+here let's say we have two ads both of
+which<00:03:32.720><c> are</c><00:03:32.920><c> reading</c><00:03:33.200><c> R</c><00:03:33.519><c> three</c><00:03:34.159><c> read</c><00:03:34.480><c> after</c>
+
+00:03:34.789 --> 00:03:34.799 align:start position:0%
+which are reading R three read after
+ 
+
+00:03:34.799 --> 00:03:37.070 align:start position:0%
+which are reading R three read after
+read<00:03:35.480><c> is</c><00:03:35.720><c> not</c><00:03:36.000><c> a</c>
+
+00:03:37.070 --> 00:03:37.080 align:start position:0%
+read is not a
+ 
+
+00:03:37.080 --> 00:03:38.990 align:start position:0%
+read is not a
+dependence<00:03:38.080><c> because</c><00:03:38.439><c> these</c><00:03:38.640><c> two</c>
+
+00:03:38.990 --> 00:03:39.000 align:start position:0%
+dependence because these two
+ 
+
+00:03:39.000 --> 00:03:41.470 align:start position:0%
+dependence because these two
+instructions<00:03:40.000><c> don't</c><00:03:40.280><c> need</c><00:03:40.480><c> to</c><00:03:40.640><c> be</c><00:03:40.840><c> done</c><00:03:41.319><c> in</c>
+
+00:03:41.470 --> 00:03:41.480 align:start position:0%
+instructions don't need to be done in
+ 
+
+00:03:41.480 --> 00:03:44.229 align:start position:0%
+instructions don't need to be done in
+the<00:03:41.640><c> order</c><00:03:42.000><c> of</c><00:03:42.159><c> that</c><00:03:42.640><c> dependence</c><00:03:43.640><c> pretty</c><00:03:43.920><c> much</c>
+
+00:03:44.229 --> 00:03:44.239 align:start position:0%
+the order of that dependence pretty much
+ 
+
+00:03:44.239 --> 00:03:46.070 align:start position:0%
+the order of that dependence pretty much
+we<00:03:44.360><c> can</c><00:03:44.519><c> reorder</c><00:03:45.000><c> these</c><00:03:45.159><c> two</c><00:03:45.319><c> instructions</c>
+
+00:03:46.070 --> 00:03:46.080 align:start position:0%
+we can reorder these two instructions
+ 
+
+00:03:46.080 --> 00:03:47.550 align:start position:0%
+we can reorder these two instructions
+they<00:03:46.200><c> will</c><00:03:46.360><c> still</c><00:03:46.560><c> read</c><00:03:46.799><c> the</c><00:03:46.959><c> correct</c><00:03:47.319><c> value</c>
+
+00:03:47.550 --> 00:03:47.560 align:start position:0%
+they will still read the correct value
+ 
+
+00:03:47.560 --> 00:03:50.070 align:start position:0%
+they will still read the correct value
+of<00:03:47.680><c> R3</c><00:03:48.319><c> so</c><00:03:48.599><c> that</c><00:03:48.720><c> is</c><00:03:48.959><c> why</c><00:03:49.200><c> this</c><00:03:49.319><c> is</c><00:03:49.480><c> not</c><00:03:49.720><c> a</c>
+
+00:03:50.070 --> 00:03:50.080 align:start position:0%
+of R3 so that is why this is not a
+ 
+
+00:03:50.080 --> 00:03:52.229 align:start position:0%
+of R3 so that is why this is not a
+dependence<00:03:51.080><c> the</c><00:03:51.280><c> second</c><00:03:51.640><c> instruction</c>
+
+00:03:52.229 --> 00:03:52.239 align:start position:0%
+dependence the second instruction
+ 
+
+00:03:52.239 --> 00:03:54.710 align:start position:0%
+dependence the second instruction
+doesn't<00:03:52.640><c> depend</c><00:03:53.200><c> on</c><00:03:53.360><c> the</c><00:03:53.519><c> first</c><00:03:53.920><c> one</c><00:03:54.400><c> it</c><00:03:54.560><c> can</c>
+
+00:03:54.710 --> 00:03:54.720 align:start position:0%
+doesn't depend on the first one it can
+ 
+
+00:03:54.720 --> 00:03:58.959 align:start position:0%
+doesn't depend on the first one it can
+be<00:03:54.879><c> done</c><00:03:55.480><c> before</c><00:03:55.879><c> or</c><00:03:56.159><c> after</c><00:03:56.439><c> it</c>
+

@@ -1,0 +1,384 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.910 align:start position:0%
+ 
+so<00:00:00.240><c> now</c><00:00:00.400><c> we</c><00:00:00.560><c> have</c><00:00:00.800><c> seen</c><00:00:01.040><c> that</c><00:00:01.280><c> we</c><00:00:01.439><c> really</c><00:00:01.680><c> want</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+so now we have seen that we really want
+ 
+
+00:00:01.920 --> 00:00:03.750 align:start position:0%
+so now we have seen that we really want
+to<00:00:02.080><c> have</c><00:00:02.320><c> a</c><00:00:02.399><c> better</c><00:00:02.800><c> predictor</c><00:00:03.360><c> but</c><00:00:03.520><c> the</c>
+
+00:00:03.750 --> 00:00:03.760 align:start position:0%
+to have a better predictor but the
+ 
+
+00:00:03.760 --> 00:00:06.309 align:start position:0%
+to have a better predictor but the
+question<00:00:04.080><c> is</c><00:00:04.319><c> how</c><00:00:04.960><c> we</c><00:00:05.120><c> have</c><00:00:05.359><c> seen</c><00:00:06.000><c> that</c><00:00:06.160><c> the</c>
+
+00:00:06.309 --> 00:00:06.319 align:start position:0%
+question is how we have seen that the
+ 
+
+00:00:06.319 --> 00:00:08.710 align:start position:0%
+question is how we have seen that the
+predict<00:00:06.720><c> taken</c><00:00:07.120><c> predictor</c><00:00:07.919><c> computes</c><00:00:08.559><c> the</c>
+
+00:00:08.710 --> 00:00:08.720 align:start position:0%
+predict taken predictor computes the
+ 
+
+00:00:08.720 --> 00:00:09.990 align:start position:0%
+predict taken predictor computes the
+next<00:00:09.040><c> pc</c>
+
+00:00:09.990 --> 00:00:10.000 align:start position:0%
+next pc
+ 
+
+00:00:10.000 --> 00:00:12.470 align:start position:0%
+next pc
+as<00:00:10.240><c> a</c><00:00:10.400><c> function</c><00:00:10.800><c> of</c><00:00:10.880><c> the</c><00:00:11.040><c> current</c><00:00:11.440><c> pc</c><00:00:11.920><c> by</c><00:00:12.160><c> just</c>
+
+00:00:12.470 --> 00:00:12.480 align:start position:0%
+as a function of the current pc by just
+ 
+
+00:00:12.480 --> 00:00:15.190 align:start position:0%
+as a function of the current pc by just
+incrementing<00:00:13.120><c> it</c><00:00:13.519><c> so</c><00:00:13.759><c> the</c><00:00:13.920><c> question</c><00:00:14.320><c> is</c><00:00:14.960><c> if</c>
+
+00:00:15.190 --> 00:00:15.200 align:start position:0%
+incrementing it so the question is if
+ 
+
+00:00:15.200 --> 00:00:17.910 align:start position:0%
+incrementing it so the question is if
+all<00:00:15.440><c> we</c><00:00:15.599><c> know</c><00:00:16.080><c> is</c><00:00:16.240><c> the</c><00:00:16.400><c> current</c><00:00:16.720><c> pc</c><00:00:17.520><c> is</c><00:00:17.680><c> there</c>
+
+00:00:17.910 --> 00:00:17.920 align:start position:0%
+all we know is the current pc is there
+ 
+
+00:00:17.920 --> 00:00:20.150 align:start position:0%
+all we know is the current pc is there
+any<00:00:18.160><c> better</c><00:00:18.560><c> function</c><00:00:18.880><c> that</c><00:00:19.039><c> we</c><00:00:19.199><c> can</c><00:00:19.359><c> use</c><00:00:20.000><c> to</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+any better function that we can use to
+ 
+
+00:00:20.160 --> 00:00:22.390 align:start position:0%
+any better function that we can use to
+form<00:00:20.560><c> a</c><00:00:20.720><c> better</c><00:00:21.119><c> prediction</c><00:00:21.920><c> of</c><00:00:22.160><c> what's</c>
+
+00:00:22.390 --> 00:00:22.400 align:start position:0%
+form a better prediction of what's
+ 
+
+00:00:22.400 --> 00:00:25.429 align:start position:0%
+form a better prediction of what's
+coming<00:00:22.800><c> next</c><00:00:23.600><c> and</c><00:00:23.840><c> the</c><00:00:24.000><c> answer</c><00:00:24.400><c> is</c><00:00:24.640><c> if</c><00:00:25.039><c> all</c><00:00:25.279><c> you</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+coming next and the answer is if all you
+ 
+
+00:00:25.439 --> 00:00:27.429 align:start position:0%
+coming next and the answer is if all you
+know<00:00:25.920><c> is</c><00:00:26.000><c> the</c><00:00:26.160><c> current</c><00:00:26.480><c> pc</c>
+
+00:00:27.429 --> 00:00:27.439 align:start position:0%
+know is the current pc
+ 
+
+00:00:27.439 --> 00:00:29.189 align:start position:0%
+know is the current pc
+then<00:00:27.680><c> probably</c><00:00:28.160><c> you</c><00:00:28.240><c> cannot</c><00:00:28.560><c> make</c><00:00:28.720><c> much</c><00:00:28.960><c> of</c><00:00:29.119><c> a</c>
+
+00:00:29.189 --> 00:00:29.199 align:start position:0%
+then probably you cannot make much of a
+ 
+
+00:00:29.199 --> 00:00:30.470 align:start position:0%
+then probably you cannot make much of a
+better<00:00:29.519><c> prediction</c>
+
+00:00:30.470 --> 00:00:30.480 align:start position:0%
+better prediction
+ 
+
+00:00:30.480 --> 00:00:31.990 align:start position:0%
+better prediction
+it<00:00:30.720><c> would</c><00:00:30.880><c> help</c><00:00:31.199><c> us</c>
+
+00:00:31.990 --> 00:00:32.000 align:start position:0%
+it would help us
+ 
+
+00:00:32.000 --> 00:00:33.110 align:start position:0%
+it would help us
+if<00:00:32.160><c> we</c><00:00:32.320><c> knew</c>
+
+00:00:33.110 --> 00:00:33.120 align:start position:0%
+if we knew
+ 
+
+00:00:33.120 --> 00:00:35.030 align:start position:0%
+if we knew
+is<00:00:33.280><c> the</c><00:00:33.440><c> instruction</c><00:00:33.920><c> a</c><00:00:34.000><c> branch</c><00:00:34.480><c> but</c><00:00:34.640><c> we</c><00:00:34.800><c> don't</c>
+
+00:00:35.030 --> 00:00:35.040 align:start position:0%
+is the instruction a branch but we don't
+ 
+
+00:00:35.040 --> 00:00:36.630 align:start position:0%
+is the instruction a branch but we don't
+know<00:00:35.200><c> that</c><00:00:35.600><c> we</c><00:00:35.680><c> are</c><00:00:35.840><c> still</c><00:00:36.079><c> fetching</c><00:00:36.480><c> the</c>
+
+00:00:36.630 --> 00:00:36.640 align:start position:0%
+know that we are still fetching the
+ 
+
+00:00:36.640 --> 00:00:37.990 align:start position:0%
+know that we are still fetching the
+instruction<00:00:37.120><c> while</c><00:00:37.360><c> we</c><00:00:37.440><c> are</c><00:00:37.520><c> making</c><00:00:37.840><c> the</c>
+
+00:00:37.990 --> 00:00:38.000 align:start position:0%
+instruction while we are making the
+ 
+
+00:00:38.000 --> 00:00:40.150 align:start position:0%
+instruction while we are making the
+prediction<00:00:38.879><c> is</c><00:00:39.040><c> this</c><00:00:39.280><c> instruction</c><00:00:39.760><c> gonna</c><00:00:40.000><c> be</c>
+
+00:00:40.150 --> 00:00:40.160 align:start position:0%
+prediction is this instruction gonna be
+ 
+
+00:00:40.160 --> 00:00:41.190 align:start position:0%
+prediction is this instruction gonna be
+taken
+
+00:00:41.190 --> 00:00:41.200 align:start position:0%
+taken
+ 
+
+00:00:41.200 --> 00:00:43.590 align:start position:0%
+taken
+as<00:00:41.360><c> a</c><00:00:41.440><c> branch</c><00:00:42.079><c> again</c><00:00:42.480><c> we</c><00:00:42.640><c> have</c><00:00:42.879><c> no</c><00:00:43.040><c> clue</c><00:00:43.360><c> about</c>
+
+00:00:43.590 --> 00:00:43.600 align:start position:0%
+as a branch again we have no clue about
+ 
+
+00:00:43.600 --> 00:00:44.549 align:start position:0%
+as a branch again we have no clue about
+that
+
+00:00:44.549 --> 00:00:44.559 align:start position:0%
+that
+ 
+
+00:00:44.559 --> 00:00:46.709 align:start position:0%
+that
+what<00:00:44.800><c> is</c><00:00:44.960><c> the</c><00:00:45.200><c> offset</c><00:00:45.680><c> field</c>
+
+00:00:46.709 --> 00:00:46.719 align:start position:0%
+what is the offset field
+ 
+
+00:00:46.719 --> 00:00:48.709 align:start position:0%
+what is the offset field
+of<00:00:46.800><c> the</c><00:00:46.960><c> instruction</c><00:00:47.680><c> if</c><00:00:47.840><c> this</c><00:00:48.079><c> is</c><00:00:48.239><c> a</c><00:00:48.320><c> branch</c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+of the instruction if this is a branch
+ 
+
+00:00:48.719 --> 00:00:50.709 align:start position:0%
+of the instruction if this is a branch
+this<00:00:48.960><c> is</c><00:00:49.039><c> what</c><00:00:49.280><c> will</c><00:00:49.440><c> be</c><00:00:49.600><c> added</c><00:00:49.840><c> to</c><00:00:50.000><c> the</c><00:00:50.160><c> pc</c><00:00:50.559><c> to</c>
+
+00:00:50.709 --> 00:00:50.719 align:start position:0%
+this is what will be added to the pc to
+ 
+
+00:00:50.719 --> 00:00:53.110 align:start position:0%
+this is what will be added to the pc to
+form<00:00:50.960><c> the</c><00:00:51.120><c> target</c><00:00:51.440><c> address</c><00:00:51.840><c> if</c><00:00:52.000><c> it's</c><00:00:52.160><c> taken</c>
+
+00:00:53.110 --> 00:00:53.120 align:start position:0%
+form the target address if it's taken
+ 
+
+00:00:53.120 --> 00:00:54.709 align:start position:0%
+form the target address if it's taken
+but<00:00:53.280><c> we</c><00:00:53.440><c> don't</c><00:00:53.600><c> know</c><00:00:53.760><c> that</c><00:00:54.000><c> either</c><00:00:54.399><c> because</c><00:00:54.640><c> we</c>
+
+00:00:54.709 --> 00:00:54.719 align:start position:0%
+but we don't know that either because we
+ 
+
+00:00:54.719 --> 00:00:57.510 align:start position:0%
+but we don't know that either because we
+haven't<00:00:55.039><c> fetched</c><00:00:55.360><c> instruction</c><00:00:56.000><c> so</c><00:00:56.239><c> really</c>
+
+00:00:57.510 --> 00:00:57.520 align:start position:0%
+haven't fetched instruction so really
+ 
+
+00:00:57.520 --> 00:01:00.069 align:start position:0%
+haven't fetched instruction so really
+we<00:00:57.680><c> don't</c><00:00:58.000><c> know</c><00:00:58.160><c> for</c><00:00:58.399><c> sure</c><00:00:58.719><c> anything</c>
+
+00:01:00.069 --> 00:01:00.079 align:start position:0%
+we don't know for sure anything
+ 
+
+00:01:00.079 --> 00:01:01.750 align:start position:0%
+we don't know for sure anything
+that<00:01:00.320><c> might</c><00:01:00.480><c> be</c><00:01:00.640><c> really</c><00:01:00.879><c> useful</c><00:01:01.280><c> in</c><00:01:01.440><c> forming</c>
+
+00:01:01.750 --> 00:01:01.760 align:start position:0%
+that might be really useful in forming
+ 
+
+00:01:01.760 --> 00:01:04.149 align:start position:0%
+that might be really useful in forming
+the<00:01:02.000><c> good</c><00:01:02.239><c> prediction</c><00:01:03.120><c> so</c><00:01:03.280><c> it</c><00:01:03.440><c> seems</c><00:01:03.840><c> like</c>
+
+00:01:04.149 --> 00:01:04.159 align:start position:0%
+the good prediction so it seems like
+ 
+
+00:01:04.159 --> 00:01:06.390 align:start position:0%
+the good prediction so it seems like
+it's<00:01:04.320><c> hopeless</c><00:01:05.040><c> but</c><00:01:05.280><c> it's</c><00:01:05.519><c> not</c>
+
+00:01:06.390 --> 00:01:06.400 align:start position:0%
+it's hopeless but it's not
+ 
+
+00:01:06.400 --> 00:01:08.230 align:start position:0%
+it's hopeless but it's not
+so<00:01:06.640><c> what</c><00:01:06.880><c> do</c><00:01:07.119><c> we</c><00:01:07.360><c> know</c>
+
+00:01:08.230 --> 00:01:08.240 align:start position:0%
+so what do we know
+ 
+
+00:01:08.240 --> 00:01:11.030 align:start position:0%
+so what do we know
+if<00:01:08.400><c> we</c><00:01:08.560><c> don't</c><00:01:08.799><c> know</c><00:01:09.040><c> anything</c><00:01:09.840><c> for</c><00:01:10.080><c> certain</c>
+
+00:01:11.030 --> 00:01:11.040 align:start position:0%
+if we don't know anything for certain
+ 
+
+00:01:11.040 --> 00:01:12.710 align:start position:0%
+if we don't know anything for certain
+what<00:01:11.280><c> we</c><00:01:11.520><c> do</c><00:01:11.760><c> know</c>
+
+00:01:12.710 --> 00:01:12.720 align:start position:0%
+what we do know
+ 
+
+00:01:12.720 --> 00:01:15.270 align:start position:0%
+what we do know
+is<00:01:12.880><c> what</c><00:01:13.040><c> the</c><00:01:13.200><c> current</c><00:01:13.520><c> pc</c><00:01:14.000><c> is</c><00:01:14.320><c> but</c><00:01:14.560><c> we</c><00:01:14.799><c> also</c>
+
+00:01:15.270 --> 00:01:15.280 align:start position:0%
+is what the current pc is but we also
+ 
+
+00:01:15.280 --> 00:01:18.310 align:start position:0%
+is what the current pc is but we also
+know<00:01:15.600><c> something</c><00:01:16.159><c> about</c><00:01:16.720><c> how</c><00:01:17.040><c> that</c><00:01:17.280><c> branch</c><00:01:18.159><c> at</c>
+
+00:01:18.310 --> 00:01:18.320 align:start position:0%
+know something about how that branch at
+ 
+
+00:01:18.320 --> 00:01:21.350 align:start position:0%
+know something about how that branch at
+this<00:01:18.640><c> pc</c><00:01:19.200><c> was</c><00:01:19.439><c> behaving</c><00:01:20.159><c> in</c><00:01:20.240><c> the</c><00:01:20.479><c> past</c><00:01:21.040><c> and</c><00:01:21.200><c> we</c>
+
+00:01:21.350 --> 00:01:21.360 align:start position:0%
+this pc was behaving in the past and we
+ 
+
+00:01:21.360 --> 00:01:24.230 align:start position:0%
+this pc was behaving in the past and we
+can<00:01:21.600><c> use</c><00:01:22.000><c> that</c><00:01:22.479><c> because</c><00:01:22.880><c> it</c><00:01:23.040><c> turns</c><00:01:23.439><c> out</c><00:01:24.000><c> that</c>
+
+00:01:24.230 --> 00:01:24.240 align:start position:0%
+can use that because it turns out that
+ 
+
+00:01:24.240 --> 00:01:26.870 align:start position:0%
+can use that because it turns out that
+branches<00:01:24.880><c> tend</c><00:01:25.280><c> to</c><00:01:25.439><c> behave</c><00:01:26.159><c> the</c><00:01:26.320><c> same</c><00:01:26.560><c> way</c>
+
+00:01:26.870 --> 00:01:26.880 align:start position:0%
+branches tend to behave the same way
+ 
+
+00:01:26.880 --> 00:01:29.510 align:start position:0%
+branches tend to behave the same way
+over<00:01:27.200><c> and</c><00:01:27.360><c> over</c><00:01:27.680><c> again</c><00:01:28.400><c> so</c><00:01:28.560><c> really</c><00:01:28.960><c> that</c><00:01:29.360><c> is</c>
+
+00:01:29.510 --> 00:01:29.520 align:start position:0%
+over and over again so really that is
+ 
+
+00:01:29.520 --> 00:01:31.109 align:start position:0%
+over and over again so really that is
+what<00:01:29.680><c> we</c><00:01:29.840><c> can</c><00:01:30.080><c> use</c>
+
+00:01:31.109 --> 00:01:31.119 align:start position:0%
+what we can use
+ 
+
+00:01:31.119 --> 00:01:32.870 align:start position:0%
+what we can use
+we<00:01:31.280><c> don't</c><00:01:31.439><c> know</c><00:01:31.680><c> for</c><00:01:31.840><c> sure</c><00:01:32.079><c> what</c><00:01:32.320><c> this</c><00:01:32.560><c> branch</c>
+
+00:01:32.870 --> 00:01:32.880 align:start position:0%
+we don't know for sure what this branch
+ 
+
+00:01:32.880 --> 00:01:33.990 align:start position:0%
+we don't know for sure what this branch
+is<00:01:33.040><c> going</c><00:01:33.119><c> to</c><00:01:33.280><c> do</c>
+
+00:01:33.990 --> 00:01:34.000 align:start position:0%
+is going to do
+ 
+
+00:01:34.000 --> 00:01:36.870 align:start position:0%
+is going to do
+but<00:01:34.240><c> we</c><00:01:34.479><c> can</c><00:01:34.720><c> know</c><00:01:35.439><c> what</c><00:01:35.680><c> it</c><00:01:35.840><c> did</c>
+
+00:01:36.870 --> 00:01:36.880 align:start position:0%
+but we can know what it did
+ 
+
+00:01:36.880 --> 00:01:39.109 align:start position:0%
+but we can know what it did
+the<00:01:37.119><c> few</c><00:01:37.360><c> previous</c><00:01:37.840><c> times</c><00:01:38.560><c> when</c><00:01:38.799><c> it</c><00:01:38.880><c> was</c>
+
+00:01:39.109 --> 00:01:39.119 align:start position:0%
+the few previous times when it was
+ 
+
+00:01:39.119 --> 00:01:41.840 align:start position:0%
+the few previous times when it was
+executed
+

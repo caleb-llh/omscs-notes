@@ -1,0 +1,40 @@
+1
+00:00:00,290 --> 00:00:01,370
+ Consider this graph.
+
+2
+00:00:01,370 --> 00:00:02,969
+ Let's call it G.
+
+3
+00:00:02,969 --> 00:00:07,090
+ Suppose I tell you that I computed a matching in order to generate a coarse
+
+4
+00:00:07,090 --> 00:00:08,870
+ graph, G hat.
+
+5
+00:00:08,870 --> 00:00:10,280
+ Here's G hat.
+
+6
+00:00:10,280 --> 00:00:12,380
+ Here's what I want you to do.
+
+7
+00:00:12,380 --> 00:00:17,010
+ Find a maximal matching in G that would lead to G hat.
+
+8
+00:00:17,010 --> 00:00:21,000
+ Do that by checking off the edges of the matching in G.
+
+9
+00:00:21,000 --> 00:00:24,380
+ For instance, if you wanted a matching that included this edge and
+
+10
+00:00:24,380 --> 00:00:24,380
+ this edge, then you would check off this edge and this edge.
+

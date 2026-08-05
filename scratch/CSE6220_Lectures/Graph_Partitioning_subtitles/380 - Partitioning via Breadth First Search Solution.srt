@@ -1,0 +1,84 @@
+1
+00:00:00,370 --> 00:00:03,840
+ Let me describe one simple scheme and illustrate it on a sample graph.
+
+2
+00:00:03,840 --> 00:00:06,320
+ Pick any vertex as a starting point.
+
+3
+00:00:06,320 --> 00:00:10,000
+ Then, run a level synchronous BFS from this vertex.
+
+4
+00:00:10,000 --> 00:00:13,350
+ The BFS will assign levels to every vertex.
+
+5
+00:00:13,350 --> 00:00:16,500
+ Notice that every level serves as a separator.
+
+6
+00:00:16,500 --> 00:00:19,820
+ Because of this fact, you can stop the BFS after you visited, say,
+
+7
+00:00:19,820 --> 00:00:21,260
+ half the vertices.
+
+8
+00:00:21,260 --> 00:00:24,070
+ For this example, that midpoint is about here.
+
+9
+00:00:24,070 --> 00:00:27,320
+ >From the stopping point, you can assign all visited vertices to
+
+10
+00:00:27,320 --> 00:00:30,630
+ one partition and all unvisited vertices to the other.
+
+11
+00:00:30,630 --> 00:00:34,160
+ Now, that's not your only option for a stopping criteria.
+
+12
+00:00:34,160 --> 00:00:36,190
+ Can you come up with any others?
+
+13
+00:00:36,190 --> 00:00:40,160
+ Anyway, BFS based schemes tend to work pretty well on planar graphs, and
+
+14
+00:00:40,160 --> 00:00:41,440
+ they're fairly cheap.
+
+15
+00:00:41,440 --> 00:00:46,090
+ But there's at least one odd bit about using a BFS to do a partitioning.
+
+16
+00:00:46,090 --> 00:00:48,860
+ Weren't we motivated to solve the graph partitioning problem
+
+17
+00:00:48,860 --> 00:00:51,885
+ in order to efficiently compute a distributed BFS?
+
+18
+00:00:51,885 --> 00:00:54,130
+ Yet, we're using BFS to do that.
+
+19
+00:00:54,130 --> 00:00:57,280
+ Is it just me or does that seem perversely recursive?
+
+20
+00:00:57,280 --> 00:01:00,020
+ Dun dun dun!
+
+21
+00:01:00,020 --> 00:01:00,020
+ Oh no, recursion.
+

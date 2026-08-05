@@ -1,0 +1,136 @@
+1
+00:00:00,390 --> 00:00:04,240
+ To design algorithms, we need an abstract model of a parallel computation
+
+2
+00:00:04,240 --> 00:00:06,550
+ and a way to write down the algorithm.
+
+3
+00:00:06,550 --> 00:00:08,530
+ This lesson is about one such model,
+
+4
+00:00:08,530 --> 00:00:11,300
+ which is sometimes called the Dynamic Multithreading Model.
+
+5
+00:00:11,300 --> 00:00:12,770
+ It has two parts.
+
+6
+00:00:12,770 --> 00:00:16,410
+ The first part is that a computation can be represented by a directed
+
+7
+00:00:16,410 --> 00:00:20,280
+ acyclic graph, or DAG, sort of like this one.
+
+8
+00:00:20,280 --> 00:00:23,970
+ Each node is some piece of computational work or task.
+
+9
+00:00:23,970 --> 00:00:26,940
+ Each edge is a dependency which says that a given task
+
+10
+00:00:26,940 --> 00:00:29,420
+ can't start until all of its predecessors have completed.
+
+11
+00:00:29,420 --> 00:00:33,990
+ Now, from the point of view of exploiting parallelism, a good DAG is
+
+12
+00:00:33,990 --> 00:00:38,700
+ one that has relatively few dependencies compared to the number of tasks.
+
+13
+00:00:38,700 --> 00:00:42,040
+ After you learn how to analyze abstract DAG's more precisely,
+
+14
+00:00:42,040 --> 00:00:44,460
+ we'll arrive at the second part of the model.
+
+15
+00:00:44,460 --> 00:00:46,290
+ It's a pseudocode notation, or
+
+16
+00:00:46,290 --> 00:00:50,000
+ a programming model, for writing down the algorithm.
+
+17
+00:00:50,000 --> 00:00:53,470
+ This notation will be defined so that when you execute one of these
+
+18
+00:00:53,470 --> 00:00:57,400
+ algorithms, it generates a computational DAG, at least conceptually.
+
+19
+00:00:57,400 --> 00:01:00,270
+ Now, one caveat before we start.
+
+20
+00:01:00,270 --> 00:01:02,790
+ You may have done multithreaded programming already
+
+21
+00:01:02,790 --> 00:01:06,550
+ using libraries like P threads or Java threads, where your program
+
+22
+00:01:06,550 --> 00:01:11,790
+ explicitly creates virtual threads and then assigns units of work to them.
+
+23
+00:01:11,790 --> 00:01:12,740
+ If that's the case,
+
+24
+00:01:12,740 --> 00:01:15,110
+ you need to forget what you learned, at least for this lesson.
+
+25
+00:01:15,110 --> 00:01:19,960
+ The pseudo code notation that we'll talk about separates how to produce work
+
+26
+00:01:19,960 --> 00:01:21,970
+ from how to schedule and execute it.
+
+27
+00:01:21,970 --> 00:01:26,450
+ That means that you focus on creating an algorithm that has a nice DAG.
+
+28
+00:01:26,450 --> 00:01:27,320
+ Separately from that,
+
+29
+00:01:27,320 --> 00:01:31,030
+ there will be a physically multi-core machine and runtime system that
+
+30
+00:01:31,030 --> 00:01:35,640
+ given your DAG figures out how to map it to cores and execute it.
+
+31
+00:01:35,640 --> 00:01:38,900
+ Now there will be some limits to the kind of DAG you can produce in the model
+
+32
+00:01:38,900 --> 00:01:43,170
+ we'll describe but I hope you'll see that it's still a really natural,
+
+33
+00:01:43,170 --> 00:01:46,230
+ elegant and powerful way to express a parallel algorithm for
+
+34
+00:01:46,230 --> 00:01:46,230
+ a broad class of interesting problems.
+

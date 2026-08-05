@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.240 align:start position:0%
+ 
+so<00:00:00.599><c> let's</c><00:00:00.870><c> see</c><00:00:01.110><c> if</c><00:00:01.230><c> we</c><00:00:01.380><c> can</c><00:00:01.560><c> figure</c><00:00:01.740><c> out</c><00:00:01.890><c> how</c>
+
+00:00:02.240 --> 00:00:02.250 align:start position:0%
+so let's see if we can figure out how
+ 
+
+00:00:02.250 --> 00:00:04.220 align:start position:0%
+so let's see if we can figure out how
+the<00:00:02.310><c> distributed</c><00:00:03.120><c> last</c><00:00:03.360><c> level</c><00:00:03.570><c> cache</c><00:00:03.720><c> works</c>
+
+00:00:04.220 --> 00:00:04.230 align:start position:0%
+the distributed last level cache works
+ 
+
+00:00:04.230 --> 00:00:06.769 align:start position:0%
+the distributed last level cache works
+let's<00:00:04.980><c> say</c><00:00:05.130><c> we</c><00:00:05.220><c> have</c><00:00:05.400><c> a</c><00:00:05.430><c> process</c><00:00:05.759><c> chip</c><00:00:06.120><c> with</c><00:00:06.330><c> 16</c>
+
+00:00:06.769 --> 00:00:06.779 align:start position:0%
+let's say we have a process chip with 16
+ 
+
+00:00:06.779 --> 00:00:09.500 align:start position:0%
+let's say we have a process chip with 16
+cores<00:00:07.160><c> organized</c><00:00:08.160><c> is</c><00:00:08.370><c> a</c><00:00:08.400><c> four</c><00:00:08.790><c> by</c><00:00:08.970><c> four</c><00:00:09.000><c> mesh</c>
+
+00:00:09.500 --> 00:00:09.510 align:start position:0%
+cores organized is a four by four mesh
+ 
+
+00:00:09.510 --> 00:00:12.919 align:start position:0%
+cores organized is a four by four mesh
+like<00:00:10.260><c> this</c><00:00:10.559><c> the</c><00:00:11.099><c> cores</c><00:00:11.540><c> along</c><00:00:12.540><c> with</c><00:00:12.780><c> their</c>
+
+00:00:12.919 --> 00:00:12.929 align:start position:0%
+like this the cores along with their
+ 
+
+00:00:12.929 --> 00:00:14.839 align:start position:0%
+like this the cores along with their
+level<00:00:13.259><c> one</c><00:00:13.440><c> and</c><00:00:13.469><c> level</c><00:00:13.679><c> two</c><00:00:13.920><c> caches</c><00:00:14.340><c> and</c><00:00:14.610><c> a</c>
+
+00:00:14.839 --> 00:00:14.849 align:start position:0%
+level one and level two caches and a
+ 
+
+00:00:14.849 --> 00:00:18.019 align:start position:0%
+level one and level two caches and a
+slice<00:00:15.089><c> of</c><00:00:15.120><c> l3</c><00:00:15.480><c> are</c><00:00:15.960><c> connected</c><00:00:16.920><c> like</c><00:00:17.100><c> this</c><00:00:17.130><c> so</c><00:00:18.000><c> a</c>
+
+00:00:18.019 --> 00:00:18.029 align:start position:0%
+slice of l3 are connected like this so a
+ 
+
+00:00:18.029 --> 00:00:21.470 align:start position:0%
+slice of l3 are connected like this so a
+single<00:00:18.539><c> tile</c><00:00:18.930><c> here</c><00:00:19.320><c> in</c><00:00:19.500><c> this</c><00:00:19.619><c> mesh</c><00:00:19.920><c> has</c><00:00:20.850><c> a</c><00:00:20.880><c> core</c>
+
+00:00:21.470 --> 00:00:21.480 align:start position:0%
+single tile here in this mesh has a core
+ 
+
+00:00:21.480 --> 00:00:23.720 align:start position:0%
+single tile here in this mesh has a core
+a<00:00:21.720><c> level</c><00:00:22.199><c> one</c><00:00:22.380><c> level</c><00:00:22.410><c> two</c><00:00:22.800><c> cache</c><00:00:23.100><c> private</c><00:00:23.580><c> to</c>
+
+00:00:23.720 --> 00:00:23.730 align:start position:0%
+a level one level two cache private to
+ 
+
+00:00:23.730 --> 00:00:26.929 align:start position:0%
+a level one level two cache private to
+that<00:00:23.910><c> core</c><00:00:24.210><c> and</c><00:00:24.480><c> a</c><00:00:25.050><c> slice</c><00:00:25.410><c> of</c><00:00:25.710><c> the</c><00:00:26.369><c> shared</c><00:00:26.699><c> last</c>
+
+00:00:26.929 --> 00:00:26.939 align:start position:0%
+that core and a slice of the shared last
+ 
+
+00:00:26.939 --> 00:00:29.599 align:start position:0%
+that core and a slice of the shared last
+level<00:00:27.210><c> level</c><00:00:27.689><c> three</c><00:00:27.930><c> cash</c><00:00:28.199><c> and</c><00:00:28.590><c> that</c><00:00:29.250><c> level</c>
+
+00:00:29.599 --> 00:00:29.609 align:start position:0%
+level level three cash and that level
+ 
+
+00:00:29.609 --> 00:00:32.080 align:start position:0%
+level level three cash and that level
+three<00:00:29.789><c> cash</c><00:00:30.090><c> is</c><00:00:30.900><c> eight</c><00:00:31.260><c> megabytes</c><00:00:31.679><c> in</c><00:00:32.009><c> size</c>
+
+00:00:32.080 --> 00:00:32.090 align:start position:0%
+three cash is eight megabytes in size
+ 
+
+00:00:32.090 --> 00:00:37.310 align:start position:0%
+three cash is eight megabytes in size
+has<00:00:33.090><c> a</c><00:00:33.410><c> 256</c><00:00:34.410><c> byte</c><00:00:34.739><c> block</c><00:00:35.100><c> size</c><00:00:35.430><c> is</c><00:00:35.840><c> 16</c><00:00:36.840><c> way</c><00:00:37.020><c> set</c>
+
+00:00:37.310 --> 00:00:37.320 align:start position:0%
+has a 256 byte block size is 16 way set
+ 
+
+00:00:37.320 --> 00:00:40.639 align:start position:0%
+has a 256 byte block size is 16 way set
+associative<00:00:37.680><c> and</c><00:00:38.309><c> is</c><00:00:39.239><c> distributed</c><00:00:39.480><c> among</c><00:00:40.410><c> the</c>
+
+00:00:40.639 --> 00:00:40.649 align:start position:0%
+associative and is distributed among the
+ 
+
+00:00:40.649 --> 00:00:44.690 align:start position:0%
+associative and is distributed among the
+slices<00:00:41.160><c> round-robin</c><00:00:42.090><c> by</c><00:00:42.690><c> set</c><00:00:42.960><c> number</c><00:00:43.230><c> if</c><00:00:44.160><c> core</c>
+
+00:00:44.690 --> 00:00:44.700 align:start position:0%
+slices round-robin by set number if core
+ 
+
+00:00:44.700 --> 00:00:48.380 align:start position:0%
+slices round-robin by set number if core
+zero<00:00:45.120><c> issues</c><00:00:45.899><c> a</c><00:00:46.200><c> load</c><00:00:46.530><c> from</c><00:00:47.399><c> address</c><00:00:47.820><c> one</c><00:00:48.120><c> two</c>
+
+00:00:48.380 --> 00:00:48.390 align:start position:0%
+zero issues a load from address one two
+ 
+
+00:00:48.390 --> 00:00:51.439 align:start position:0%
+zero issues a load from address one two
+three<00:00:48.750><c> four</c><00:00:49.110><c> five</c><00:00:49.140><c> six</c><00:00:49.500><c> seven</c><00:00:49.980><c> eight</c><00:00:50.489><c> hex</c><00:00:51.149><c> and</c>
+
+00:00:51.439 --> 00:00:51.449 align:start position:0%
+three four five six seven eight hex and
+ 
+
+00:00:51.449 --> 00:00:54.200 align:start position:0%
+three four five six seven eight hex and
+if<00:00:52.140><c> this</c><00:00:52.379><c> load</c><00:00:52.649><c> is</c><00:00:52.860><c> a</c><00:00:52.890><c> missing</c><00:00:53.460><c> level</c><00:00:53.640><c> one</c><00:00:54.000><c> and</c>
+
+00:00:54.200 --> 00:00:54.210 align:start position:0%
+if this load is a missing level one and
+ 
+
+00:00:54.210 --> 00:00:57.380 align:start position:0%
+if this load is a missing level one and
+in<00:00:54.750><c> level</c><00:00:55.110><c> two</c><00:00:55.320><c> we</c><00:00:56.219><c> send</c><00:00:56.579><c> the</c><00:00:56.760><c> level</c><00:00:57.090><c> three</c>
+
+00:00:57.380 --> 00:00:57.390 align:start position:0%
+in level two we send the level three
+ 
+
+00:00:57.390 --> 00:01:01.039 align:start position:0%
+in level two we send the level three
+requests<00:00:57.960><c> to</c><00:00:58.289><c> what</c><00:00:58.590><c> tile</c>
+

@@ -1,0 +1,40 @@
+1
+00:00:00,250 --> 00:00:04,490
+ Here's what I came up with, the ceiling of N over L plus 1.
+
+2
+00:00:04,490 --> 00:00:07,010
+ It's easiest to see this by example.
+
+3
+00:00:07,010 --> 00:00:09,910
+ Suppose N equals 4, and L equals 2.
+
+4
+00:00:09,910 --> 00:00:14,550
+ Consider two cases, in the first case suppose the array is aligned on an L
+
+5
+00:00:14,550 --> 00:00:20,090
+ word boundary, then you would just need ceiling of N over L equals 2 transfers.
+
+6
+00:00:20,090 --> 00:00:22,100
+ But what if the array is not aligned?
+
+7
+00:00:22,100 --> 00:00:24,410
+ Then you might need one extra transfer.
+
+8
+00:00:24,410 --> 00:00:28,090
+ Now the purpose of this exercise is just to make you aware that this can happen.
+
+9
+00:00:28,090 --> 00:00:30,580
+ But for most of what we'll do it's a minor detail.
+
+10
+00:00:30,580 --> 00:00:30,580
+ We'll often ignore it, especially when N is much greater than L.
+

@@ -1,0 +1,288 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:01.819 align:start position:0%
+ 
+let's<00:00:00.599><c> look</c><00:00:00.810><c> at</c><00:00:00.930><c> the</c><00:00:01.050><c> solution</c><00:00:01.230><c> to</c><00:00:01.800><c> our</c>
+
+00:00:01.819 --> 00:00:01.829 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:01.829 --> 00:00:03.949 align:start position:0%
+let's look at the solution to our
+address<00:00:02.190><c> translation</c><00:00:02.760><c> quiz</c><00:00:02.970><c> we</c><00:00:03.750><c> have</c><00:00:03.929><c> a</c>
+
+00:00:03.949 --> 00:00:03.959 align:start position:0%
+address translation quiz we have a
+ 
+
+00:00:03.959 --> 00:00:06.829 align:start position:0%
+address translation quiz we have a
+16-bit<00:00:04.740><c> virtual</c><00:00:05.009><c> address</c><00:00:05.490><c> space</c><00:00:05.759><c> and</c><00:00:06.029><c> a</c><00:00:06.569><c> four</c>
+
+00:00:06.829 --> 00:00:06.839 align:start position:0%
+16-bit virtual address space and a four
+ 
+
+00:00:06.839 --> 00:00:10.040 align:start position:0%
+16-bit virtual address space and a four
+entry<00:00:07.319><c> page</c><00:00:07.560><c> table</c><00:00:08.130><c> that</c><00:00:08.309><c> means</c><00:00:09.269><c> that</c><00:00:09.929><c> the</c>
+
+00:00:10.040 --> 00:00:10.050 align:start position:0%
+entry page table that means that the
+ 
+
+00:00:10.050 --> 00:00:12.650 align:start position:0%
+entry page table that means that the
+most<00:00:10.230><c> significant</c><00:00:10.889><c> two</c><00:00:11.130><c> bits</c><00:00:11.429><c> of</c><00:00:11.670><c> the</c><00:00:12.059><c> 16-bit</c>
+
+00:00:12.650 --> 00:00:12.660 align:start position:0%
+most significant two bits of the 16-bit
+ 
+
+00:00:12.660 --> 00:00:14.930 align:start position:0%
+most significant two bits of the 16-bit
+address<00:00:13.019><c> are</c><00:00:13.290><c> the</c><00:00:13.559><c> page</c><00:00:13.769><c> number</c><00:00:14.280><c> the</c>
+
+00:00:14.930 --> 00:00:14.940 align:start position:0%
+address are the page number the
+ 
+
+00:00:14.940 --> 00:00:18.290 align:start position:0%
+address are the page number the
+remaining<00:00:15.480><c> 14</c><00:00:16.289><c> bits</c><00:00:16.560><c> are</c><00:00:17.160><c> going</c><00:00:17.490><c> to</c><00:00:17.670><c> be</c><00:00:17.850><c> the</c>
+
+00:00:18.290 --> 00:00:18.300 align:start position:0%
+remaining 14 bits are going to be the
+ 
+
+00:00:18.300 --> 00:00:21.920 align:start position:0%
+remaining 14 bits are going to be the
+page<00:00:18.539><c> offset</c><00:00:18.800><c> so</c><00:00:19.800><c> this</c><00:00:20.010><c> 16-bit</c><00:00:20.640><c> address</c><00:00:21.029><c> can</c>
+
+00:00:21.920 --> 00:00:21.930 align:start position:0%
+page offset so this 16-bit address can
+ 
+
+00:00:21.930 --> 00:00:25.130 align:start position:0%
+page offset so this 16-bit address can
+be<00:00:22.050><c> written</c><00:00:22.230><c> like</c><00:00:22.410><c> this</c><00:00:22.560><c> in</c><00:00:22.949><c> binary</c><00:00:23.160><c> F</c><00:00:23.670><c> 0</c><00:00:24.510><c> F</c><00:00:24.750><c> 0</c>
+
+00:00:25.130 --> 00:00:25.140 align:start position:0%
+be written like this in binary F 0 F 0
+ 
+
+00:00:25.140 --> 00:00:28.310 align:start position:0%
+be written like this in binary F 0 F 0
+the<00:00:26.099><c> most</c><00:00:26.279><c> significant</c><00:00:26.880><c> two</c><00:00:27.060><c> bits</c><00:00:27.269><c> are</c><00:00:27.510><c> really</c>
+
+00:00:28.310 --> 00:00:28.320 align:start position:0%
+the most significant two bits are really
+ 
+
+00:00:28.320 --> 00:00:31.040 align:start position:0%
+the most significant two bits are really
+the<00:00:28.560><c> page</c><00:00:28.769><c> number</c><00:00:29.220><c> which</c><00:00:30.179><c> corresponds</c><00:00:30.840><c> to</c>
+
+00:00:31.040 --> 00:00:31.050 align:start position:0%
+the page number which corresponds to
+ 
+
+00:00:31.050 --> 00:00:33.410 align:start position:0%
+the page number which corresponds to
+this<00:00:31.769><c> entry</c><00:00:32.250><c> in</c><00:00:32.399><c> the</c><00:00:32.550><c> page</c><00:00:32.700><c> table</c><00:00:32.969><c> because</c>
+
+00:00:33.410 --> 00:00:33.420 align:start position:0%
+this entry in the page table because
+ 
+
+00:00:33.420 --> 00:00:35.510 align:start position:0%
+this entry in the page table because
+this<00:00:33.600><c> is</c><00:00:33.750><c> 3</c><00:00:33.989><c> so</c><00:00:34.620><c> we</c><00:00:34.770><c> need</c><00:00:34.950><c> to</c><00:00:35.070><c> look</c><00:00:35.190><c> at</c><00:00:35.340><c> this</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+this is 3 so we need to look at this
+ 
+
+00:00:35.520 --> 00:00:37.639 align:start position:0%
+this is 3 so we need to look at this
+entry<00:00:36.030><c> in</c><00:00:36.090><c> the</c><00:00:36.180><c> page</c><00:00:36.329><c> table</c><00:00:36.600><c> in</c><00:00:37.380><c> this</c>
+
+00:00:37.639 --> 00:00:37.649 align:start position:0%
+entry in the page table in this
+ 
+
+00:00:37.649 --> 00:00:42.319 align:start position:0%
+entry in the page table in this
+particular<00:00:38.160><c> address</c><00:00:38.340><c> we</c><00:00:38.969><c> have</c><00:00:39.210><c> 0</c><00:00:40.110><c> 0</c><00:00:40.140><c> 1</c><00:00:41.129><c> F</c><00:00:41.460><c> these</c>
+
+00:00:42.319 --> 00:00:42.329 align:start position:0%
+particular address we have 0 0 1 F these
+ 
+
+00:00:42.329 --> 00:00:45.410 align:start position:0%
+particular address we have 0 0 1 F these
+two<00:00:43.050><c> bits</c><00:00:43.260><c> correspond</c><00:00:44.160><c> to</c><00:00:44.370><c> this</c><00:00:44.640><c> entry</c><00:00:45.180><c> in</c><00:00:45.360><c> the</c>
+
+00:00:45.410 --> 00:00:45.420 align:start position:0%
+two bits correspond to this entry in the
+ 
+
+00:00:45.420 --> 00:00:48.560 align:start position:0%
+two bits correspond to this entry in the
+page<00:00:45.600><c> table</c><00:00:46.020><c> so</c><00:00:46.920><c> now</c><00:00:46.950><c> we</c><00:00:47.730><c> can</c><00:00:47.940><c> write</c><00:00:48.149><c> out</c><00:00:48.360><c> the</c>
+
+00:00:48.560 --> 00:00:48.570 align:start position:0%
+page table so now we can write out the
+ 
+
+00:00:48.570 --> 00:00:50.630 align:start position:0%
+page table so now we can write out the
+physical<00:00:49.110><c> address</c><00:00:49.320><c> that</c><00:00:49.980><c> corresponds</c><00:00:50.610><c> to</c>
+
+00:00:50.630 --> 00:00:50.640 align:start position:0%
+physical address that corresponds to
+ 
+
+00:00:50.640 --> 00:00:52.670 align:start position:0%
+physical address that corresponds to
+this<00:00:50.820><c> virtual</c><00:00:51.210><c> address</c><00:00:51.270><c> it</c><00:00:52.079><c> is</c><00:00:52.320><c> going</c><00:00:52.500><c> to</c>
+
+00:00:52.670 --> 00:00:52.680 align:start position:0%
+this virtual address it is going to
+ 
+
+00:00:52.680 --> 00:00:55.369 align:start position:0%
+this virtual address it is going to
+contain<00:00:53.070><c> the</c><00:00:53.879><c> frame</c><00:00:54.180><c> number</c><00:00:54.420><c> from</c><00:00:54.899><c> entry</c>
+
+00:00:55.369 --> 00:00:55.379 align:start position:0%
+contain the frame number from entry
+ 
+
+00:00:55.379 --> 00:00:57.709 align:start position:0%
+contain the frame number from entry
+number<00:00:55.530><c> 3</c><00:00:55.890><c> in</c><00:00:56.100><c> the</c><00:00:56.250><c> page</c><00:00:56.460><c> table</c><00:00:56.730><c> which</c><00:00:57.539><c> is</c>
+
+00:00:57.709 --> 00:00:57.719 align:start position:0%
+number 3 in the page table which is
+ 
+
+00:00:57.719 --> 00:01:02.720 align:start position:0%
+number 3 in the page table which is
+going<00:00:57.899><c> to</c><00:00:58.020><c> be</c><00:00:59.120><c> 1/7</c><00:01:00.620><c> concatenated</c><00:01:01.620><c> with</c><00:01:01.890><c> the</c>
+
+00:01:02.720 --> 00:01:02.730 align:start position:0%
+going to be 1/7 concatenated with the
+ 
+
+00:01:02.730 --> 00:01:06.410 align:start position:0%
+going to be 1/7 concatenated with the
+page<00:01:02.969><c> offset</c><00:01:03.290><c> which</c><00:01:04.290><c> is</c><00:01:04.439><c> going</c><00:01:04.680><c> to</c><00:01:04.830><c> be</c><00:01:04.979><c> 1</c><00:01:05.339><c> 1</c><00:01:05.610><c> etc</c>
+
+00:01:06.410 --> 00:01:06.420 align:start position:0%
+page offset which is going to be 1 1 etc
+ 
+
+00:01:06.420 --> 00:01:09.770 align:start position:0%
+page offset which is going to be 1 1 etc
+and<00:01:07.460><c> we</c><00:01:08.460><c> can</c><00:01:08.640><c> now</c><00:01:08.760><c> write</c><00:01:08.939><c> it</c><00:01:09.119><c> out</c><00:01:09.330><c> it's</c><00:01:09.630><c> going</c>
+
+00:01:09.770 --> 00:01:09.780 align:start position:0%
+and we can now write it out it's going
+ 
+
+00:01:09.780 --> 00:01:18.410 align:start position:0%
+and we can now write it out it's going
+to<00:01:09.930><c> be</c><00:01:10.430><c> 0</c><00:01:11.430><c> F</c><00:01:12.200><c> 0</c><00:01:13.200><c> F</c><00:01:13.470><c> 0</c><00:01:14.750><c> and</c><00:01:15.750><c> then</c><00:01:16.710><c> we</c><00:01:16.890><c> have</c><00:01:17.159><c> F</c><00:01:17.759><c> and</c>
+
+00:01:18.410 --> 00:01:18.420 align:start position:0%
+to be 0 F 0 F 0 and then we have F and
+ 
+
+00:01:18.420 --> 00:01:22.580 align:start position:0%
+to be 0 F 0 F 0 and then we have F and
+this<00:01:19.380><c> is</c><00:01:19.590><c> 5</c><00:01:20.130><c> it's</c><00:01:21.119><c> a</c><00:01:21.270><c> 20-bit</c><00:01:21.810><c> address</c><00:01:21.869><c> so</c><00:01:22.530><c> it</c>
+
+00:01:22.580 --> 00:01:22.590 align:start position:0%
+this is 5 it's a 20-bit address so it
+ 
+
+00:01:22.590 --> 00:01:25.999 align:start position:0%
+this is 5 it's a 20-bit address so it
+will<00:01:22.770><c> have</c><00:01:22.950><c> 5</c><00:01:23.220><c> hex</c><00:01:23.580><c> digits</c><00:01:24.000><c> similarly</c><00:01:24.960><c> here</c><00:01:25.470><c> we</c>
+
+00:01:25.999 --> 00:01:26.009 align:start position:0%
+will have 5 hex digits similarly here we
+ 
+
+00:01:26.009 --> 00:01:28.100 align:start position:0%
+will have 5 hex digits similarly here we
+are<00:01:26.040><c> looking</c><00:01:26.280><c> at</c><00:01:26.520><c> entry</c><00:01:26.970><c> number</c><00:01:27.180><c> 0</c><00:01:27.360><c> here</c><00:01:28.080><c> so</c>
+
+00:01:28.100 --> 00:01:28.110 align:start position:0%
+are looking at entry number 0 here so
+ 
+
+00:01:28.110 --> 00:01:31.609 align:start position:0%
+are looking at entry number 0 here so
+it's<00:01:28.439><c> going</c><00:01:28.560><c> to</c><00:01:28.650><c> be</c><00:01:28.799><c> 1</c><00:01:29.579><c> F</c><00:01:30.380><c> followed</c><00:01:31.380><c> by</c><00:01:31.560><c> the</c>
+
+00:01:31.609 --> 00:01:31.619 align:start position:0%
+it's going to be 1 F followed by the
+ 
+
+00:01:31.619 --> 00:01:34.399 align:start position:0%
+it's going to be 1 F followed by the
+page<00:01:32.009><c> offset</c><00:01:32.420><c> so</c><00:01:33.420><c> it's</c><00:01:33.570><c> going</c><00:01:33.720><c> to</c><00:01:33.780><c> have</c><00:01:33.960><c> 0</c><00:01:34.320><c> 0</c>
+
+00:01:34.399 --> 00:01:34.409 align:start position:0%
+page offset so it's going to have 0 0
+ 
+
+00:01:34.409 --> 00:01:37.310 align:start position:0%
+page offset so it's going to have 0 0
+and<00:01:34.950><c> then</c><00:01:35.850><c> the</c><00:01:36.240><c> remaining</c><00:01:36.570><c> digits</c><00:01:36.840><c> are</c><00:01:37.110><c> going</c>
+
+00:01:37.310 --> 00:01:37.320 align:start position:0%
+and then the remaining digits are going
+ 
+
+00:01:37.320 --> 00:01:41.230 align:start position:0%
+and then the remaining digits are going
+to<00:01:37.380><c> be</c><00:01:37.470><c> the</c><00:01:37.590><c> same</c><00:01:38.210><c> so</c><00:01:39.210><c> it's</c><00:01:39.329><c> going</c><00:01:39.479><c> to</c><00:01:39.540><c> have</c><00:01:39.780><c> F</c><00:01:39.960><c> 1</c>
+
+00:01:41.230 --> 00:01:41.240 align:start position:0%
+to be the same so it's going to have F 1
+ 
+
+00:01:41.240 --> 00:01:49.490 align:start position:0%
+to be the same so it's going to have F 1
+0<00:01:42.799><c> and</c><00:01:43.799><c> then</c><00:01:44.930><c> C</c><00:01:45.979><c> 7</c><00:01:47.030><c> C</c><00:01:48.030><c> because</c><00:01:48.390><c> it's</c><00:01:48.540><c> 1</c><00:01:48.720><c> 1</c><00:01:48.930><c> 0</c><00:01:49.229><c> 0</c>
+
+00:01:49.490 --> 00:01:49.500 align:start position:0%
+0 and then C 7 C because it's 1 1 0 0
+ 
+
+00:01:49.500 --> 00:01:53.510 align:start position:0%
+0 and then C 7 C because it's 1 1 0 0
+and<00:01:49.740><c> 7</c><00:01:50.040><c> because</c><00:01:50.520><c> it's</c><00:01:50.700><c> 0</c><00:01:51.509><c> 1</c><00:01:51.630><c> 1</c><00:01:52.110><c> 1</c><00:01:52.409><c> so</c><00:01:53.310><c> this</c><00:01:53.460><c> is</c>
+
+00:01:53.510 --> 00:01:53.520 align:start position:0%
+and 7 because it's 0 1 1 1 so this is
+ 
+
+00:01:53.520 --> 00:01:56.270 align:start position:0%
+and 7 because it's 0 1 1 1 so this is
+the<00:01:53.729><c> physical</c><00:01:54.299><c> address</c><00:01:54.390><c> for</c><00:01:54.840><c> this</c><00:01:55.590><c> particular</c>
+
+00:01:56.270 --> 00:01:56.280 align:start position:0%
+the physical address for this particular
+ 
+
+00:01:56.280 --> 00:01:58.939 align:start position:0%
+the physical address for this particular
+virtual<00:01:56.670><c> address</c>
+

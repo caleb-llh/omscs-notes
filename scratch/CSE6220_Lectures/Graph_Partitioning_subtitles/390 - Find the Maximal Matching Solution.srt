@@ -1,0 +1,20 @@
+1
+00:00:00,460 --> 00:00:05,860
+ Here's one solution, the matching consists of these fat, fuzzy red edges.
+
+2
+00:00:05,860 --> 00:00:09,140
+ To see it more clearly, let me highlight the edges of G, and
+
+3
+00:00:09,140 --> 00:00:11,380
+ mirror them in G hat.
+
+4
+00:00:11,380 --> 00:00:14,330
+ Take a moment to compare the left and the right-hand side and make sure you're
+
+5
+00:00:14,330 --> 00:00:14,330
+ convinced that, in fact, this is a valid matching that leads to this.
+

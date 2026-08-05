@@ -1,0 +1,640 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:02.070 align:start position:0%
+ 
+let's<00:00:00.320><c> look</c><00:00:00.560><c> at</c><00:00:00.640><c> the</c><00:00:00.880><c> solution</c><00:00:01.680><c> to</c><00:00:01.920><c> our</c>
+
+00:00:02.070 --> 00:00:02.080 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:02.080 --> 00:00:04.870 align:start position:0%
+let's look at the solution to our
+performance<00:00:02.720><c> versus</c><00:00:03.040><c> number</c><00:00:03.360><c> of</c><00:00:03.520><c> cores</c><00:00:03.919><c> quiz</c>
+
+00:00:04.870 --> 00:00:04.880 align:start position:0%
+performance versus number of cores quiz
+ 
+
+00:00:04.880 --> 00:00:07.510 align:start position:0%
+performance versus number of cores quiz
+if<00:00:05.120><c> chip</c><00:00:05.359><c> power</c><00:00:05.680><c> is</c><00:00:05.839><c> a</c><00:00:05.920><c> hundred</c><00:00:06.400><c> watts</c><00:00:07.200><c> and</c><00:00:07.359><c> we</c>
+
+00:00:07.510 --> 00:00:07.520 align:start position:0%
+if chip power is a hundred watts and we
+ 
+
+00:00:07.520 --> 00:00:10.150 align:start position:0%
+if chip power is a hundred watts and we
+can<00:00:07.759><c> operate</c><00:00:08.559><c> one</c><00:00:08.960><c> core</c><00:00:09.440><c> if</c><00:00:09.599><c> that's</c><00:00:09.840><c> the</c><00:00:10.000><c> only</c>
+
+00:00:10.150 --> 00:00:10.160 align:start position:0%
+can operate one core if that's the only
+ 
+
+00:00:10.160 --> 00:00:12.629 align:start position:0%
+can operate one core if that's the only
+one<00:00:10.400><c> on</c><00:00:10.480><c> the</c><00:00:10.559><c> chip</c><00:00:10.880><c> at</c><00:00:11.120><c> five</c><00:00:11.360><c> gigahertz</c><00:00:12.480><c> how</c>
+
+00:00:12.629 --> 00:00:12.639 align:start position:0%
+one on the chip at five gigahertz how
+ 
+
+00:00:12.639 --> 00:00:15.110 align:start position:0%
+one on the chip at five gigahertz how
+many<00:00:12.960><c> gigahertz</c><00:00:13.599><c> do</c><00:00:13.759><c> we</c><00:00:13.920><c> get</c><00:00:14.160><c> for</c><00:00:14.400><c> two</c><00:00:14.639><c> cores</c>
+
+00:00:15.110 --> 00:00:15.120 align:start position:0%
+many gigahertz do we get for two cores
+ 
+
+00:00:15.120 --> 00:00:17.189 align:start position:0%
+many gigahertz do we get for two cores
+and<00:00:15.280><c> the</c><00:00:15.440><c> answer</c><00:00:15.759><c> is</c><00:00:15.839><c> that</c><00:00:16.400><c> each</c><00:00:16.640><c> of</c><00:00:16.800><c> the</c><00:00:16.960><c> two</c>
+
+00:00:17.189 --> 00:00:17.199 align:start position:0%
+and the answer is that each of the two
+ 
+
+00:00:17.199 --> 00:00:19.429 align:start position:0%
+and the answer is that each of the two
+cores<00:00:17.520><c> now</c><00:00:17.760><c> gets</c><00:00:18.080><c> 50</c><00:00:18.480><c> watts</c>
+
+00:00:19.429 --> 00:00:19.439 align:start position:0%
+cores now gets 50 watts
+ 
+
+00:00:19.439 --> 00:00:21.590 align:start position:0%
+cores now gets 50 watts
+that's<00:00:19.840><c> half</c><00:00:20.160><c> the</c><00:00:20.400><c> power</c>
+
+00:00:21.590 --> 00:00:21.600 align:start position:0%
+that's half the power
+ 
+
+00:00:21.600 --> 00:00:23.750 align:start position:0%
+that's half the power
+the<00:00:21.840><c> frequency</c><00:00:22.720><c> in</c><00:00:22.880><c> that</c><00:00:23.119><c> case</c><00:00:23.439><c> is</c><00:00:23.519><c> going</c><00:00:23.680><c> to</c>
+
+00:00:23.750 --> 00:00:23.760 align:start position:0%
+the frequency in that case is going to
+ 
+
+00:00:23.760 --> 00:00:26.470 align:start position:0%
+the frequency in that case is going to
+be<00:00:23.920><c> the</c><00:00:24.080><c> cubic</c><00:00:24.560><c> root</c><00:00:24.880><c> of</c><00:00:25.039><c> that</c><00:00:25.279><c> one</c><00:00:25.519><c> half</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+be the cubic root of that one half
+ 
+
+00:00:26.480 --> 00:00:30.150 align:start position:0%
+be the cubic root of that one half
+or<00:00:26.880><c> 0.8</c><00:00:27.920><c> times</c><00:00:28.240><c> the</c><00:00:28.320><c> original</c><00:00:28.720><c> frequency</c><00:00:30.000><c> so</c>
+
+00:00:30.150 --> 00:00:30.160 align:start position:0%
+or 0.8 times the original frequency so
+ 
+
+00:00:30.160 --> 00:00:33.270 align:start position:0%
+or 0.8 times the original frequency so
+we<00:00:30.320><c> get</c><00:00:30.720><c> 4</c><00:00:30.960><c> gigahertz</c><00:00:31.599><c> here</c><00:00:32.399><c> the</c><00:00:32.640><c> frequency</c>
+
+00:00:33.270 --> 00:00:33.280 align:start position:0%
+we get 4 gigahertz here the frequency
+ 
+
+00:00:33.280 --> 00:00:35.990 align:start position:0%
+we get 4 gigahertz here the frequency
+with<00:00:33.680><c> another</c><00:00:34.640><c> doubling</c><00:00:35.280><c> of</c><00:00:35.440><c> the</c><00:00:35.600><c> number</c><00:00:35.920><c> of</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+with another doubling of the number of
+ 
+
+00:00:36.000 --> 00:00:38.310 align:start position:0%
+with another doubling of the number of
+cores<00:00:36.559><c> is</c><00:00:36.719><c> that</c><00:00:36.960><c> each</c><00:00:37.280><c> gets</c><00:00:37.600><c> half</c><00:00:37.840><c> the</c><00:00:38.000><c> power</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+cores is that each gets half the power
+ 
+
+00:00:38.320 --> 00:00:39.510 align:start position:0%
+cores is that each gets half the power
+of<00:00:38.480><c> these</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+of these
+ 
+
+00:00:39.520 --> 00:00:42.869 align:start position:0%
+of these
+so<00:00:39.680><c> it's</c><00:00:39.840><c> going</c><00:00:40.000><c> to</c><00:00:40.079><c> be</c><00:00:40.320><c> 0.8</c><00:00:41.280><c> times</c><00:00:41.680><c> this</c>
+
+00:00:42.869 --> 00:00:42.879 align:start position:0%
+so it's going to be 0.8 times this
+ 
+
+00:00:42.879 --> 00:00:46.069 align:start position:0%
+so it's going to be 0.8 times this
+which<00:00:43.120><c> is</c><00:00:43.200><c> going</c><00:00:43.440><c> to</c><00:00:43.600><c> be</c><00:00:44.000><c> 3.2</c><00:00:45.040><c> or</c>
+
+00:00:46.069 --> 00:00:46.079 align:start position:0%
+which is going to be 3.2 or
+ 
+
+00:00:46.079 --> 00:00:48.709 align:start position:0%
+which is going to be 3.2 or
+we<00:00:46.239><c> could</c><00:00:46.399><c> do</c><00:00:46.640><c> cubic</c><00:00:47.039><c> root</c><00:00:47.280><c> of</c><00:00:47.520><c> one</c><00:00:47.840><c> quarter</c><00:00:48.559><c> of</c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+we could do cubic root of one quarter of
+ 
+
+00:00:48.719 --> 00:00:51.110 align:start position:0%
+we could do cubic root of one quarter of
+the<00:00:48.879><c> original</c><00:00:49.360><c> five</c><00:00:49.600><c> gigahertz</c><00:00:50.640><c> and</c><00:00:50.800><c> get</c><00:00:51.039><c> the</c>
+
+00:00:51.110 --> 00:00:51.120 align:start position:0%
+the original five gigahertz and get the
+ 
+
+00:00:51.120 --> 00:00:52.709 align:start position:0%
+the original five gigahertz and get the
+same<00:00:51.360><c> answer</c><00:00:51.760><c> here</c>
+
+00:00:52.709 --> 00:00:52.719 align:start position:0%
+same answer here
+ 
+
+00:00:52.719 --> 00:00:55.430 align:start position:0%
+same answer here
+for<00:00:52.960><c> execution</c><00:00:53.680><c> time</c><00:00:54.480><c> we</c><00:00:54.640><c> need</c><00:00:54.800><c> to</c><00:00:54.960><c> account</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+for execution time we need to account
+ 
+
+00:00:55.440 --> 00:00:58.869 align:start position:0%
+for execution time we need to account
+for<00:00:55.760><c> the</c><00:00:56.000><c> change</c><00:00:56.399><c> in</c><00:00:56.559><c> frequency</c><00:00:57.440><c> as</c><00:00:57.680><c> well</c>
+
+00:00:58.869 --> 00:00:58.879 align:start position:0%
+for the change in frequency as well
+ 
+
+00:00:58.879 --> 00:01:00.950 align:start position:0%
+for the change in frequency as well
+as<00:00:59.039><c> the</c><00:00:59.199><c> change</c><00:00:59.440><c> in</c><00:00:59.600><c> parallelism</c><00:01:00.399><c> so</c><00:01:00.559><c> this</c><00:01:00.800><c> is</c>
+
+00:01:00.950 --> 00:01:00.960 align:start position:0%
+as the change in parallelism so this is
+ 
+
+00:01:00.960 --> 00:01:04.310 align:start position:0%
+as the change in parallelism so this is
+what<00:01:01.120><c> we</c><00:01:01.280><c> get</c><00:01:02.000><c> we</c><00:01:02.160><c> get</c><00:01:02.399><c> 100</c><00:01:03.039><c> seconds</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+what we get we get 100 seconds
+ 
+
+00:01:04.320 --> 00:01:07.830 align:start position:0%
+what we get we get 100 seconds
+when<00:01:05.040><c> we</c><00:01:05.280><c> run</c><00:01:05.920><c> all</c><00:01:06.159><c> of</c><00:01:06.320><c> these</c><00:01:06.560><c> pieces</c>
+
+00:01:07.830 --> 00:01:07.840 align:start position:0%
+when we run all of these pieces
+ 
+
+00:01:07.840 --> 00:01:11.350 align:start position:0%
+when we run all of these pieces
+at<00:01:08.000><c> just</c><00:01:08.320><c> one</c><00:01:08.560><c> core</c><00:01:09.280><c> at</c><00:01:09.600><c> five</c><00:01:09.920><c> gigahertz</c><00:01:10.960><c> if</c><00:01:11.200><c> we</c>
+
+00:01:11.350 --> 00:01:11.360 align:start position:0%
+at just one core at five gigahertz if we
+ 
+
+00:01:11.360 --> 00:01:13.109 align:start position:0%
+at just one core at five gigahertz if we
+ignore<00:01:11.680><c> the</c><00:01:11.920><c> frequency</c>
+
+00:01:13.109 --> 00:01:13.119 align:start position:0%
+ignore the frequency
+ 
+
+00:01:13.119 --> 00:01:15.750 align:start position:0%
+ignore the frequency
+and<00:01:13.280><c> have</c><00:01:13.600><c> a</c><00:01:13.760><c> two</c><00:01:14.080><c> chord</c><00:01:14.400><c> chip</c><00:01:15.119><c> then</c><00:01:15.439><c> what</c><00:01:15.600><c> we</c>
+
+00:01:15.750 --> 00:01:15.760 align:start position:0%
+and have a two chord chip then what we
+ 
+
+00:01:15.760 --> 00:01:17.190 align:start position:0%
+and have a two chord chip then what we
+get<00:01:16.080><c> is</c><00:01:16.320><c> that</c>
+
+00:01:17.190 --> 00:01:17.200 align:start position:0%
+get is that
+ 
+
+00:01:17.200 --> 00:01:20.070 align:start position:0%
+get is that
+for<00:01:17.520><c> twenty</c><00:01:17.920><c> percent</c><00:01:18.400><c> of</c><00:01:18.479><c> the</c><00:01:18.720><c> time</c><00:01:19.520><c> we</c><00:01:19.680><c> get</c><00:01:19.920><c> a</c>
+
+00:01:20.070 --> 00:01:20.080 align:start position:0%
+for twenty percent of the time we get a
+ 
+
+00:01:20.080 --> 00:01:23.350 align:start position:0%
+for twenty percent of the time we get a
+parallelism<00:01:20.640><c> of</c><00:01:20.880><c> only</c><00:01:21.200><c> one</c><00:01:21.840><c> with</c><00:01:22.159><c> two</c><00:01:22.479><c> cores</c>
+
+00:01:23.350 --> 00:01:23.360 align:start position:0%
+parallelism of only one with two cores
+ 
+
+00:01:23.360 --> 00:01:25.350 align:start position:0%
+parallelism of only one with two cores
+for<00:01:23.520><c> the</c><00:01:23.680><c> remaining</c><00:01:24.240><c> eighty</c><00:01:24.640><c> percent</c><00:01:25.119><c> of</c><00:01:25.280><c> the</c>
+
+00:01:25.350 --> 00:01:25.360 align:start position:0%
+for the remaining eighty percent of the
+ 
+
+00:01:25.360 --> 00:01:26.950 align:start position:0%
+for the remaining eighty percent of the
+execution<00:01:26.080><c> time</c>
+
+00:01:26.950 --> 00:01:26.960 align:start position:0%
+execution time
+ 
+
+00:01:26.960 --> 00:01:28.950 align:start position:0%
+execution time
+we<00:01:27.200><c> now</c><00:01:27.439><c> have</c><00:01:27.680><c> a</c><00:01:27.920><c> speed</c><00:01:28.240><c> up</c>
+
+00:01:28.950 --> 00:01:28.960 align:start position:0%
+we now have a speed up
+ 
+
+00:01:28.960 --> 00:01:30.070 align:start position:0%
+we now have a speed up
+of<00:01:29.200><c> two</c>
+
+00:01:30.070 --> 00:01:30.080 align:start position:0%
+of two
+ 
+
+00:01:30.080 --> 00:01:33.149 align:start position:0%
+of two
+so<00:01:30.320><c> that</c><00:01:30.560><c> time</c><00:01:30.880><c> is</c><00:01:31.040><c> cut</c><00:01:31.280><c> in</c><00:01:31.439><c> half</c><00:01:32.240><c> so</c><00:01:32.479><c> we</c><00:01:32.720><c> get</c>
+
+00:01:33.149 --> 00:01:33.159 align:start position:0%
+so that time is cut in half so we get
+ 
+
+00:01:33.159 --> 00:01:36.230 align:start position:0%
+so that time is cut in half so we get
+0.6<00:01:34.479><c> times</c><00:01:34.799><c> the</c><00:01:34.960><c> original</c><00:01:35.439><c> time</c>
+
+00:01:36.230 --> 00:01:36.240 align:start position:0%
+0.6 times the original time
+ 
+
+00:01:36.240 --> 00:01:38.149 align:start position:0%
+0.6 times the original time
+if<00:01:36.400><c> we</c><00:01:36.560><c> ignore</c><00:01:36.880><c> the</c><00:01:37.040><c> frequency</c><00:01:37.600><c> so</c><00:01:37.920><c> it</c><00:01:38.000><c> would</c>
+
+00:01:38.149 --> 00:01:38.159 align:start position:0%
+if we ignore the frequency so it would
+ 
+
+00:01:38.159 --> 00:01:41.350 align:start position:0%
+if we ignore the frequency so it would
+be<00:01:38.400><c> 60</c><00:01:38.880><c> seconds</c><00:01:40.240><c> without</c><00:01:40.720><c> the</c><00:01:40.880><c> change</c><00:01:41.200><c> in</c>
+
+00:01:41.350 --> 00:01:41.360 align:start position:0%
+be 60 seconds without the change in
+ 
+
+00:01:41.360 --> 00:01:43.910 align:start position:0%
+be 60 seconds without the change in
+frequency<00:01:42.079><c> unfortunately</c><00:01:43.360><c> there</c><00:01:43.600><c> is</c><00:01:43.759><c> a</c>
+
+00:01:43.910 --> 00:01:43.920 align:start position:0%
+frequency unfortunately there is a
+ 
+
+00:01:43.920 --> 00:01:45.590 align:start position:0%
+frequency unfortunately there is a
+change<00:01:44.159><c> in</c><00:01:44.320><c> frequency</c>
+
+00:01:45.590 --> 00:01:45.600 align:start position:0%
+change in frequency
+ 
+
+00:01:45.600 --> 00:01:48.389 align:start position:0%
+change in frequency
+60<00:01:46.000><c> seconds</c><00:01:46.479><c> at</c><00:01:46.720><c> 5</c><00:01:47.040><c> gigahertz</c>
+
+00:01:48.389 --> 00:01:48.399 align:start position:0%
+60 seconds at 5 gigahertz
+ 
+
+00:01:48.399 --> 00:01:51.670 align:start position:0%
+60 seconds at 5 gigahertz
+would<00:01:48.640><c> translate</c><00:01:49.680><c> so</c><00:01:49.920><c> we</c><00:01:50.000><c> get</c><00:01:50.320><c> 60</c><00:01:50.720><c> seconds</c>
+
+00:01:51.670 --> 00:01:51.680 align:start position:0%
+would translate so we get 60 seconds
+ 
+
+00:01:51.680 --> 00:01:55.910 align:start position:0%
+would translate so we get 60 seconds
+times<00:01:52.159><c> 5</c><00:01:52.560><c> billion</c><00:01:53.280><c> cycles</c><00:01:53.680><c> per</c><00:01:54.000><c> second</c><00:01:54.799><c> is</c><00:01:54.960><c> 75</c>
+
+00:01:55.910 --> 00:01:55.920 align:start position:0%
+times 5 billion cycles per second is 75
+ 
+
+00:01:55.920 --> 00:01:59.590 align:start position:0%
+times 5 billion cycles per second is 75
+seconds<00:01:56.720><c> at</c><00:01:57.040><c> 4</c><00:01:57.360><c> billion</c><00:01:57.920><c> cycles</c><00:01:58.320><c> per</c><00:01:58.560><c> second</c>
+
+00:01:59.590 --> 00:01:59.600 align:start position:0%
+seconds at 4 billion cycles per second
+ 
+
+00:01:59.600 --> 00:02:02.870 align:start position:0%
+seconds at 4 billion cycles per second
+so<00:01:59.759><c> the</c><00:02:00.000><c> answer</c><00:02:00.399><c> here</c><00:02:01.040><c> is</c><00:02:01.280><c> 75</c><00:02:02.159><c> seconds</c><00:02:02.719><c> we</c>
+
+00:02:02.870 --> 00:02:02.880 align:start position:0%
+so the answer here is 75 seconds we
+ 
+
+00:02:02.880 --> 00:02:05.030 align:start position:0%
+so the answer here is 75 seconds we
+would<00:02:03.119><c> get</c><00:02:03.439><c> 60</c><00:02:03.920><c> if</c><00:02:04.079><c> we</c><00:02:04.240><c> operated</c><00:02:04.640><c> at</c><00:02:04.799><c> 5</c>
+
+00:02:05.030 --> 00:02:05.040 align:start position:0%
+would get 60 if we operated at 5
+ 
+
+00:02:05.040 --> 00:02:06.550 align:start position:0%
+would get 60 if we operated at 5
+gigahertz
+
+00:02:06.550 --> 00:02:06.560 align:start position:0%
+gigahertz
+ 
+
+00:02:06.560 --> 00:02:08.550 align:start position:0%
+gigahertz
+but<00:02:06.880><c> because</c><00:02:07.119><c> we</c><00:02:07.280><c> operated</c><00:02:07.759><c> 4</c>
+
+00:02:08.550 --> 00:02:08.560 align:start position:0%
+but because we operated 4
+ 
+
+00:02:08.560 --> 00:02:11.750 align:start position:0%
+but because we operated 4
+we<00:02:08.800><c> need</c><00:02:09.039><c> 75</c><00:02:10.399><c> and</c><00:02:10.560><c> then</c><00:02:10.800><c> for</c><00:02:10.959><c> a</c><00:02:11.200><c> 4</c><00:02:11.440><c> core</c>
+
+00:02:11.750 --> 00:02:11.760 align:start position:0%
+we need 75 and then for a 4 core
+ 
+
+00:02:11.760 --> 00:02:12.949 align:start position:0%
+we need 75 and then for a 4 core
+execution
+
+00:02:12.949 --> 00:02:12.959 align:start position:0%
+execution
+ 
+
+00:02:12.959 --> 00:02:14.309 align:start position:0%
+execution
+we<00:02:13.200><c> get</c><00:02:13.520><c> that</c>
+
+00:02:14.309 --> 00:02:14.319 align:start position:0%
+we get that
+ 
+
+00:02:14.319 --> 00:02:17.190 align:start position:0%
+we get that
+out<00:02:14.560><c> of</c><00:02:14.640><c> the</c><00:02:14.879><c> 100</c><00:02:15.280><c> seconds</c><00:02:16.080><c> for</c><00:02:16.400><c> 20</c><00:02:16.720><c> seconds</c><00:02:17.040><c> we</c>
+
+00:02:17.190 --> 00:02:17.200 align:start position:0%
+out of the 100 seconds for 20 seconds we
+ 
+
+00:02:17.200 --> 00:02:19.430 align:start position:0%
+out of the 100 seconds for 20 seconds we
+can't<00:02:17.520><c> improve</c><00:02:17.920><c> by</c><00:02:18.080><c> running</c><00:02:18.400><c> on</c><00:02:18.480><c> more</c><00:02:18.720><c> cores</c>
+
+00:02:19.430 --> 00:02:19.440 align:start position:0%
+can't improve by running on more cores
+ 
+
+00:02:19.440 --> 00:02:22.630 align:start position:0%
+can't improve by running on more cores
+for<00:02:19.760><c> 30</c><00:02:20.080><c> seconds</c><00:02:20.480><c> we</c><00:02:20.560><c> get</c><00:02:20.800><c> a</c><00:02:20.879><c> speed</c><00:02:21.200><c> up</c><00:02:21.280><c> of</c><00:02:21.440><c> 2</c>
+
+00:02:22.630 --> 00:02:22.640 align:start position:0%
+for 30 seconds we get a speed up of 2
+ 
+
+00:02:22.640 --> 00:02:25.350 align:start position:0%
+for 30 seconds we get a speed up of 2
+because<00:02:23.040><c> we</c><00:02:23.200><c> can</c><00:02:23.360><c> use</c><00:02:23.599><c> 2</c><00:02:23.840><c> cores</c><00:02:24.640><c> for</c><00:02:24.959><c> 40</c>
+
+00:02:25.350 --> 00:02:25.360 align:start position:0%
+because we can use 2 cores for 40
+ 
+
+00:02:25.360 --> 00:02:27.350 align:start position:0%
+because we can use 2 cores for 40
+seconds<00:02:25.760><c> the</c><00:02:25.920><c> speed</c><00:02:26.239><c> up</c><00:02:26.400><c> is</c><00:02:26.560><c> 3</c><00:02:26.959><c> because</c><00:02:27.120><c> we</c><00:02:27.280><c> can</c>
+
+00:02:27.350 --> 00:02:27.360 align:start position:0%
+seconds the speed up is 3 because we can
+ 
+
+00:02:27.360 --> 00:02:29.750 align:start position:0%
+seconds the speed up is 3 because we can
+use<00:02:27.680><c> 3</c><00:02:27.920><c> of</c><00:02:28.000><c> the</c><00:02:28.160><c> 4</c><00:02:28.560><c> cores</c>
+
+00:02:29.750 --> 00:02:29.760 align:start position:0%
+use 3 of the 4 cores
+ 
+
+00:02:29.760 --> 00:02:31.270 align:start position:0%
+use 3 of the 4 cores
+and<00:02:30.080><c> finally</c>
+
+00:02:31.270 --> 00:02:31.280 align:start position:0%
+and finally
+ 
+
+00:02:31.280 --> 00:02:34.309 align:start position:0%
+and finally
+for<00:02:31.599><c> 10</c><00:02:31.920><c> seconds</c><00:02:32.400><c> we</c><00:02:32.560><c> get</c><00:02:32.720><c> a</c><00:02:32.879><c> speed</c><00:02:33.200><c> up</c><00:02:33.360><c> of</c><00:02:33.599><c> 4.</c>
+
+00:02:34.309 --> 00:02:34.319 align:start position:0%
+for 10 seconds we get a speed up of 4.
+ 
+
+00:02:34.319 --> 00:02:36.070 align:start position:0%
+for 10 seconds we get a speed up of 4.
+keep<00:02:34.640><c> in</c><00:02:34.720><c> mind</c><00:02:34.959><c> that</c><00:02:35.120><c> this</c><00:02:35.360><c> is</c><00:02:35.440><c> without</c><00:02:35.920><c> the</c>
+
+00:02:36.070 --> 00:02:36.080 align:start position:0%
+keep in mind that this is without the
+ 
+
+00:02:36.080 --> 00:02:39.350 align:start position:0%
+keep in mind that this is without the
+change<00:02:36.400><c> in</c><00:02:36.560><c> frequency</c><00:02:37.519><c> so</c><00:02:37.760><c> what</c><00:02:38.000><c> we</c><00:02:38.239><c> get</c>
+
+00:02:39.350 --> 00:02:39.360 align:start position:0%
+change in frequency so what we get
+ 
+
+00:02:39.360 --> 00:02:41.750 align:start position:0%
+change in frequency so what we get
+is<00:02:39.640><c> 50.8</c><00:02:40.720><c> seconds</c>
+
+00:02:41.750 --> 00:02:41.760 align:start position:0%
+is 50.8 seconds
+ 
+
+00:02:41.760 --> 00:02:44.070 align:start position:0%
+is 50.8 seconds
+and<00:02:42.000><c> now</c><00:02:42.239><c> we</c><00:02:42.400><c> have</c><00:02:42.560><c> to</c><00:02:42.720><c> account</c>
+
+00:02:44.070 --> 00:02:44.080 align:start position:0%
+and now we have to account
+ 
+
+00:02:44.080 --> 00:02:46.150 align:start position:0%
+and now we have to account
+for<00:02:44.239><c> the</c><00:02:44.400><c> change</c><00:02:44.720><c> in</c><00:02:44.879><c> frequency</c><00:02:45.519><c> from</c><00:02:45.840><c> 5</c>
+
+00:02:46.150 --> 00:02:46.160 align:start position:0%
+for the change in frequency from 5
+ 
+
+00:02:46.160 --> 00:02:49.270 align:start position:0%
+for the change in frequency from 5
+gigahertz<00:02:47.120><c> to</c><00:02:47.360><c> 3.2</c><00:02:48.000><c> gigahertz</c>
+
+00:02:49.270 --> 00:02:49.280 align:start position:0%
+gigahertz to 3.2 gigahertz
+ 
+
+00:02:49.280 --> 00:02:52.229 align:start position:0%
+gigahertz to 3.2 gigahertz
+so<00:02:49.519><c> once</c><00:02:49.760><c> we</c><00:02:49.920><c> get</c><00:02:50.160><c> the</c><00:02:50.319><c> 50.8</c><00:02:51.360><c> seconds</c><00:02:51.920><c> that's</c>
+
+00:02:52.229 --> 00:02:52.239 align:start position:0%
+so once we get the 50.8 seconds that's
+ 
+
+00:02:52.239 --> 00:02:54.390 align:start position:0%
+so once we get the 50.8 seconds that's
+without<00:02:52.640><c> the</c><00:02:52.800><c> change</c><00:02:53.040><c> in</c><00:02:53.280><c> frequency</c><00:02:54.080><c> and</c><00:02:54.239><c> we</c>
+
+00:02:54.390 --> 00:02:54.400 align:start position:0%
+without the change in frequency and we
+ 
+
+00:02:54.400 --> 00:02:57.110 align:start position:0%
+without the change in frequency and we
+get<00:02:54.720><c> from</c><00:02:55.040><c> 5</c><00:02:55.440><c> to</c><00:02:55.599><c> 3.2</c>
+
+00:02:57.110 --> 00:02:57.120 align:start position:0%
+get from 5 to 3.2
+ 
+
+00:02:57.120 --> 00:02:59.430 align:start position:0%
+get from 5 to 3.2
+so<00:02:57.360><c> when</c><00:02:57.519><c> we</c><00:02:57.680><c> compute</c><00:02:58.080><c> the</c><00:02:58.239><c> speed</c><00:02:58.560><c> up</c><00:02:59.040><c> relative</c>
+
+00:02:59.430 --> 00:02:59.440 align:start position:0%
+so when we compute the speed up relative
+ 
+
+00:02:59.440 --> 00:03:01.910 align:start position:0%
+so when we compute the speed up relative
+to<00:02:59.599><c> this</c><00:03:00.000><c> because</c><00:03:00.400><c> of</c><00:03:00.560><c> a</c><00:03:00.720><c> lower</c><00:03:01.040><c> frequency</c>
+
+00:03:01.910 --> 00:03:01.920 align:start position:0%
+to this because of a lower frequency
+ 
+
+00:03:01.920 --> 00:03:04.470 align:start position:0%
+to this because of a lower frequency
+which<00:03:02.159><c> is</c><00:03:02.319><c> actually</c><00:03:02.560><c> a</c><00:03:02.840><c> slowdown</c><00:03:04.159><c> and</c><00:03:04.319><c> we</c>
+
+00:03:04.470 --> 00:03:04.480 align:start position:0%
+which is actually a slowdown and we
+ 
+
+00:03:04.480 --> 00:03:07.670 align:start position:0%
+which is actually a slowdown and we
+multiply<00:03:04.959><c> that</c><00:03:05.200><c> with</c><00:03:05.440><c> this</c><00:03:05.840><c> we</c><00:03:06.000><c> get</c><00:03:06.519><c> 79.4</c>
+
+00:03:07.670 --> 00:03:07.680 align:start position:0%
+multiply that with this we get 79.4
+ 
+
+00:03:07.680 --> 00:03:09.750 align:start position:0%
+multiply that with this we get 79.4
+which<00:03:07.920><c> is</c><00:03:08.080><c> actually</c><00:03:08.480><c> slower</c>
+
+00:03:09.750 --> 00:03:09.760 align:start position:0%
+which is actually slower
+ 
+
+00:03:09.760 --> 00:03:12.229 align:start position:0%
+which is actually slower
+than<00:03:10.239><c> a</c><00:03:10.400><c> two</c><00:03:10.640><c> core</c><00:03:10.959><c> execution</c><00:03:11.599><c> so</c><00:03:11.760><c> as</c><00:03:11.920><c> you</c><00:03:12.080><c> can</c>
+
+00:03:12.229 --> 00:03:12.239 align:start position:0%
+than a two core execution so as you can
+ 
+
+00:03:12.239 --> 00:03:14.630 align:start position:0%
+than a two core execution so as you can
+see<00:03:12.480><c> although</c><00:03:12.879><c> the</c><00:03:13.040><c> four</c><00:03:13.280><c> core</c><00:03:13.519><c> execution</c>
+
+00:03:14.630 --> 00:03:14.640 align:start position:0%
+see although the four core execution
+ 
+
+00:03:14.640 --> 00:03:17.110 align:start position:0%
+see although the four core execution
+gets<00:03:15.040><c> some</c><00:03:15.280><c> more</c><00:03:15.599><c> parallelism</c><00:03:16.400><c> exploited</c>
+
+00:03:17.110 --> 00:03:17.120 align:start position:0%
+gets some more parallelism exploited
+ 
+
+00:03:17.120 --> 00:03:19.350 align:start position:0%
+gets some more parallelism exploited
+it's<00:03:17.360><c> not</c><00:03:17.599><c> enough</c><00:03:17.920><c> to</c><00:03:18.159><c> make</c><00:03:18.480><c> up</c><00:03:18.640><c> for</c><00:03:18.800><c> the</c><00:03:18.959><c> lost</c>
+
+00:03:19.350 --> 00:03:19.360 align:start position:0%
+it's not enough to make up for the lost
+ 
+
+00:03:19.360 --> 00:03:23.879 align:start position:0%
+it's not enough to make up for the lost
+in<00:03:19.440><c> performance</c><00:03:20.000><c> due</c><00:03:20.159><c> to</c><00:03:20.400><c> frequency</c><00:03:20.879><c> change</c>
+

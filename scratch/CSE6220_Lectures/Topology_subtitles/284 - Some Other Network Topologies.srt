@@ -1,0 +1,340 @@
+1
+00:00:00,630 --> 00:00:03,930
+ In the event you're ever spelunking in the parallel computing literature,
+
+2
+00:00:03,930 --> 00:00:07,820
+ you will come across a variety of other kinds of networks besides rings and
+
+3
+00:00:07,820 --> 00:00:08,780
+ meshes and torii.
+
+4
+00:00:08,780 --> 00:00:11,880
+ I want to mention a few here in passing.
+
+5
+00:00:11,880 --> 00:00:13,920
+ The first is a tree network.
+
+6
+00:00:13,920 --> 00:00:16,910
+ The compute nodes are the leaves of the tree.
+
+7
+00:00:16,910 --> 00:00:19,820
+ The interior nodes are just routers.
+
+8
+00:00:19,820 --> 00:00:22,900
+ So you can assume these higher level nodes in the tree are just
+
+9
+00:00:22,900 --> 00:00:24,420
+ moving traffic.
+
+10
+00:00:24,420 --> 00:00:25,590
+ They don't do any actual compute.
+
+11
+00:00:25,590 --> 00:00:29,850
+ Now in this example, these three nodes at the top are binary,
+
+12
+00:00:29,850 --> 00:00:31,960
+ but they needn't be in general.
+
+13
+00:00:31,960 --> 00:00:34,790
+ Now, what about the network properties of a tree?
+
+14
+00:00:34,790 --> 00:00:39,860
+ A tree with P compute nodes at the leaves will have P links, it'll have
+
+15
+00:00:39,860 --> 00:00:44,980
+ a diameter of log P, and it will have a bisection width of just 1 link.
+
+16
+00:00:44,980 --> 00:00:48,820
+ The scaling of links and diameter is very good.
+
+17
+00:00:48,820 --> 00:00:53,150
+ But the scaling of bisection width being just a small constant is terrible.
+
+18
+00:00:53,150 --> 00:00:56,150
+ The bisection width is poor because to cut the network in half,
+
+19
+00:00:56,150 --> 00:00:59,220
+ all I have to do is cut one of these links near the top.
+
+20
+00:00:59,220 --> 00:01:03,070
+ Now in practice, network designers typically fatten up the bandwidth as you
+
+21
+00:01:03,070 --> 00:01:05,019
+ move towards the top of the tree.
+
+22
+00:01:05,019 --> 00:01:06,500
+ Here's an example.
+
+23
+00:01:06,500 --> 00:01:08,050
+ At each higher level in the tree,
+
+24
+00:01:08,050 --> 00:01:11,490
+ I put a lot more wires to help carry more traffic.
+
+25
+00:01:11,490 --> 00:01:15,790
+ This variation on a tree network is sometimes called a fat tree.
+
+26
+00:01:15,790 --> 00:01:19,890
+ Fat trees are quite common in medium scale cluster environments.
+
+27
+00:01:19,890 --> 00:01:24,780
+ By medium size, I probably mean on the order of thousands of nodes today.
+
+28
+00:01:24,780 --> 00:01:27,990
+ Another kind of important network is a natural extension of 2D
+
+29
+00:01:27,990 --> 00:01:29,040
+ meshes and torii.
+
+30
+00:01:29,040 --> 00:01:33,175
+ The extension is to higher dimensions.
+
+31
+00:01:33,175 --> 00:01:36,720
+ A d-dimensional measure of torus is basically a high dimensional cube
+
+32
+00:01:36,720 --> 00:01:41,910
+ that is, say, the dth root of P nodes per edge.
+
+33
+00:01:41,910 --> 00:01:45,550
+ If the object is a torus, then it will have these properties.
+
+34
+00:01:45,550 --> 00:01:48,780
+ Naturally, these values depend on the number of dimensions in
+
+35
+00:01:48,780 --> 00:01:50,510
+ an interesting way.
+
+36
+00:01:50,510 --> 00:01:56,090
+ For example, the diameter decreases by the d through the P.
+
+37
+00:01:56,090 --> 00:01:58,240
+ So that's good, because as you increase the dimension,
+
+38
+00:01:58,240 --> 00:02:01,240
+ you'll decrease the diameter on the one hand.
+
+39
+00:02:01,240 --> 00:02:05,380
+ On the other hand, the diameter also depends linearly on d.
+
+40
+00:02:05,380 --> 00:02:08,762
+ So as you increase the number of dimensions, the diameter goes up.
+
+41
+00:02:08,762 --> 00:02:10,080
+ Now d-dimensional meshes and
+
+42
+00:02:10,080 --> 00:02:14,550
+ torii are very important in practical high end computing systems.
+
+43
+00:02:14,550 --> 00:02:17,040
+ In fact, many of the world's top supercomputers
+
+44
+00:02:17,040 --> 00:02:20,030
+ use low dimensional toroidal networks.
+
+45
+00:02:20,030 --> 00:02:21,200
+ As of the time of this recording,
+
+46
+00:02:21,200 --> 00:02:24,070
+ there's even one that has a dimension of six.
+
+47
+00:02:24,070 --> 00:02:27,320
+ Related to meshes and torii is a type of network called a hypercube.
+
+48
+00:02:27,320 --> 00:02:29,070
+ Woah, easy there, fella.
+
+49
+00:02:29,070 --> 00:02:33,950
+ Very roughly speaking, a hypercube is a log p dimensional torus.
+
+50
+00:02:33,950 --> 00:02:37,830
+ More specifically, a P node hypercube has these properties.
+
+51
+00:02:37,830 --> 00:02:40,110
+ It has P log P links.
+
+52
+00:02:40,110 --> 00:02:42,200
+ It has a diameter of log P.
+
+53
+00:02:42,200 --> 00:02:45,190
+ And it has a bisection width that scales like P.
+
+54
+00:02:45,190 --> 00:02:48,100
+ Compare the hypercube and torus formulas.
+
+55
+00:02:48,100 --> 00:02:51,770
+ Hypercube is much more expensive in terms of the number of wires, but
+
+56
+00:02:51,770 --> 00:02:55,236
+ it has a lower diameter and a much larger bisection width.
+
+57
+00:02:55,236 --> 00:02:57,730
+ So, what does a hypercube look like?
+
+58
+00:02:57,730 --> 00:03:01,250
+ The easiest way to explain it is by visual construction.
+
+59
+00:03:01,250 --> 00:03:04,670
+ A hypercube is parameterized by a dimension little d.
+
+60
+00:03:04,670 --> 00:03:07,530
+ The number of nodes is a power of 2 in d.
+
+61
+00:03:07,530 --> 00:03:11,690
+ The smallest hypercube occurs when d is equal to 0.
+
+62
+00:03:11,690 --> 00:03:13,580
+ It's just a single node.
+
+63
+00:03:13,580 --> 00:03:15,150
+ To make a one-dimensional hypercube,
+
+64
+00:03:15,150 --> 00:03:19,720
+ start by making two copies of the lower zero dimensional hypercube.
+
+65
+00:03:19,720 --> 00:03:21,220
+ So here are two copies.
+
+66
+00:03:21,220 --> 00:03:25,000
+ You then connect the corresponding nodes of the two copies, so
+
+67
+00:03:25,000 --> 00:03:27,030
+ that's a one-dimensional hypercube.
+
+68
+00:03:27,030 --> 00:03:28,490
+ What about d = 2?
+
+69
+00:03:28,490 --> 00:03:32,980
+ Again, start by making two copies of the lower, one-dimensional system.
+
+70
+00:03:32,980 --> 00:03:36,440
+ Then connect the corresponding nodes of the two copies.
+
+71
+00:03:36,440 --> 00:03:39,920
+ For a higher dimensional hypercube, just keep repeating this process.
+
+72
+00:03:39,920 --> 00:03:44,280
+ Make two copies, then connect the corresponding nodes.
+
+73
+00:03:44,280 --> 00:03:46,750
+ For d = 4, you do the same thing.
+
+74
+00:03:46,750 --> 00:03:50,770
+ Two copies, connect the links, voila.
+
+75
+00:03:50,770 --> 00:03:52,100
+ >From this construction process,
+
+76
+00:03:52,100 --> 00:03:56,500
+ I hope you can easily see that the bisection width is just P/2.
+
+77
+00:03:56,500 --> 00:03:59,550
+ That's because you just build the larger network by connecting the corresponding
+
+78
+00:03:59,550 --> 00:04:03,620
+ nodes of the smaller network, each of which is half the size.
+
+79
+00:04:03,620 --> 00:04:06,890
+ Now these days a hypercube network is more of a historical intellectual
+
+80
+00:04:06,890 --> 00:04:09,040
+ curiosity than something people actually build.
+
+81
+00:04:09,040 --> 00:04:11,650
+ There's a lot of elegant theory around them, and
+
+82
+00:04:11,650 --> 00:04:15,200
+ you'll see lots of algorithms designed for them in the literature.
+
+83
+00:04:15,200 --> 00:04:17,839
+ Now these have just been a few examples of network topologies,
+
+84
+00:04:17,839 --> 00:04:20,190
+ which is a very active area of research.
+
+85
+00:04:20,190 --> 00:04:20,190
+ I'll put some more references to some recent ideas in the instructor's notes.
+

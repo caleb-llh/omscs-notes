@@ -1,0 +1,752 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.389 align:start position:0%
+ 
+so<00:00:00.400><c> now</c><00:00:00.560><c> let's</c><00:00:00.800><c> look</c><00:00:01.120><c> at</c><00:00:01.600><c> what</c><00:00:01.920><c> kinds</c><00:00:02.240><c> of</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+so now let's look at what kinds of
+ 
+
+00:00:02.399 --> 00:00:04.950 align:start position:0%
+so now let's look at what kinds of
+faults<00:00:02.800><c> can</c><00:00:02.960><c> we</c><00:00:03.120><c> have</c><00:00:03.760><c> we</c><00:00:03.919><c> can</c><00:00:04.160><c> classify</c><00:00:04.799><c> the</c>
+
+00:00:04.950 --> 00:00:04.960 align:start position:0%
+faults can we have we can classify the
+ 
+
+00:00:04.960 --> 00:00:07.349 align:start position:0%
+faults can we have we can classify the
+faults<00:00:05.440><c> by</c><00:00:05.680><c> cause</c><00:00:06.560><c> and</c><00:00:06.640><c> we</c><00:00:06.799><c> can</c><00:00:06.960><c> have</c><00:00:07.200><c> a</c>
+
+00:00:07.349 --> 00:00:07.359 align:start position:0%
+faults by cause and we can have a
+ 
+
+00:00:07.359 --> 00:00:09.509 align:start position:0%
+faults by cause and we can have a
+hardware<00:00:07.839><c> fault</c><00:00:08.480><c> when</c><00:00:08.639><c> the</c><00:00:08.880><c> hardware</c><00:00:09.280><c> of</c><00:00:09.360><c> the</c>
+
+00:00:09.509 --> 00:00:09.519 align:start position:0%
+hardware fault when the hardware of the
+ 
+
+00:00:09.519 --> 00:00:11.430 align:start position:0%
+hardware fault when the hardware of the
+system<00:00:10.080><c> fails</c><00:00:10.400><c> to</c><00:00:10.559><c> perform</c><00:00:10.960><c> as</c><00:00:11.200><c> it</c><00:00:11.280><c> was</c>
+
+00:00:11.430 --> 00:00:11.440 align:start position:0%
+system fails to perform as it was
+ 
+
+00:00:11.440 --> 00:00:12.790 align:start position:0%
+system fails to perform as it was
+designed<00:00:11.840><c> to</c><00:00:12.000><c> do</c>
+
+00:00:12.790 --> 00:00:12.800 align:start position:0%
+designed to do
+ 
+
+00:00:12.800 --> 00:00:15.430 align:start position:0%
+designed to do
+we<00:00:12.960><c> can</c><00:00:13.200><c> have</c><00:00:13.360><c> design</c><00:00:14.000><c> faults</c><00:00:14.880><c> for</c><00:00:15.040><c> example</c>
+
+00:00:15.430 --> 00:00:15.440 align:start position:0%
+we can have design faults for example
+ 
+
+00:00:15.440 --> 00:00:18.230 align:start position:0%
+we can have design faults for example
+softer<00:00:15.920><c> bugs</c><00:00:16.320><c> are</c><00:00:16.480><c> design</c><00:00:16.960><c> faults</c><00:00:17.760><c> and</c><00:00:18.000><c> also</c>
+
+00:00:18.230 --> 00:00:18.240 align:start position:0%
+softer bugs are design faults and also
+ 
+
+00:00:18.240 --> 00:00:20.550 align:start position:0%
+softer bugs are design faults and also
+some<00:00:18.480><c> of</c><00:00:18.560><c> the</c><00:00:18.720><c> hardware</c><00:00:19.039><c> design</c><00:00:19.439><c> mistakes</c>
+
+00:00:20.550 --> 00:00:20.560 align:start position:0%
+some of the hardware design mistakes
+ 
+
+00:00:20.560 --> 00:00:23.910 align:start position:0%
+some of the hardware design mistakes
+such<00:00:20.880><c> as</c><00:00:21.359><c> the</c><00:00:21.600><c> famous</c><00:00:22.400><c> pentium</c><00:00:23.039><c> f</c><00:00:23.199><c> div</c><00:00:23.519><c> bug</c>
+
+00:00:23.910 --> 00:00:23.920 align:start position:0%
+such as the famous pentium f div bug
+ 
+
+00:00:23.920 --> 00:00:26.470 align:start position:0%
+such as the famous pentium f div bug
+where<00:00:24.160><c> this</c><00:00:24.560><c> fdiv</c><00:00:24.960><c> instruction</c><00:00:25.920><c> was</c><00:00:26.160><c> not</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+where this fdiv instruction was not
+ 
+
+00:00:26.480 --> 00:00:28.630 align:start position:0%
+where this fdiv instruction was not
+implemented<00:00:27.039><c> correctly</c><00:00:27.519><c> so</c><00:00:27.680><c> if</c><00:00:27.760><c> you</c><00:00:27.920><c> gave</c><00:00:28.160><c> it</c>
+
+00:00:28.630 --> 00:00:28.640 align:start position:0%
+implemented correctly so if you gave it
+ 
+
+00:00:28.640 --> 00:00:30.310 align:start position:0%
+implemented correctly so if you gave it
+some<00:00:28.880><c> combinations</c><00:00:29.439><c> of</c><00:00:29.599><c> numbers</c><00:00:30.000><c> you</c><00:00:30.160><c> would</c>
+
+00:00:30.310 --> 00:00:30.320 align:start position:0%
+some combinations of numbers you would
+ 
+
+00:00:30.320 --> 00:00:32.709 align:start position:0%
+some combinations of numbers you would
+get<00:00:30.960><c> incorrect</c><00:00:31.439><c> results</c><00:00:32.000><c> and</c><00:00:32.160><c> it</c><00:00:32.320><c> was</c>
+
+00:00:32.709 --> 00:00:32.719 align:start position:0%
+get incorrect results and it was
+ 
+
+00:00:32.719 --> 00:00:34.069 align:start position:0%
+get incorrect results and it was
+designed<00:00:33.120><c> that</c><00:00:33.360><c> way</c>
+
+00:00:34.069 --> 00:00:34.079 align:start position:0%
+designed that way
+ 
+
+00:00:34.079 --> 00:00:36.150 align:start position:0%
+designed that way
+then<00:00:34.239><c> we</c><00:00:34.399><c> have</c><00:00:34.640><c> operation</c><00:00:35.280><c> faults</c>
+
+00:00:36.150 --> 00:00:36.160 align:start position:0%
+then we have operation faults
+ 
+
+00:00:36.160 --> 00:00:38.790 align:start position:0%
+then we have operation faults
+for<00:00:36.320><c> example</c><00:00:36.880><c> operator</c><00:00:37.520><c> and</c><00:00:37.600><c> user</c><00:00:38.000><c> mistakes</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+for example operator and user mistakes
+ 
+
+00:00:38.800 --> 00:00:41.030 align:start position:0%
+for example operator and user mistakes
+for<00:00:38.960><c> example</c><00:00:39.360><c> the</c><00:00:39.600><c> operator</c><00:00:40.239><c> accidentally</c>
+
+00:00:41.030 --> 00:00:41.040 align:start position:0%
+for example the operator accidentally
+ 
+
+00:00:41.040 --> 00:00:43.990 align:start position:0%
+for example the operator accidentally
+tells<00:00:41.360><c> the</c><00:00:41.440><c> system</c><00:00:41.840><c> to</c><00:00:42.000><c> shut</c><00:00:42.239><c> down</c><00:00:43.040><c> and</c><00:00:43.280><c> now</c><00:00:43.840><c> of</c>
+
+00:00:43.990 --> 00:00:44.000 align:start position:0%
+tells the system to shut down and now of
+ 
+
+00:00:44.000 --> 00:00:45.910 align:start position:0%
+tells the system to shut down and now of
+course<00:00:44.320><c> it</c><00:00:44.480><c> no</c><00:00:44.640><c> longer</c><00:00:44.960><c> provides</c><00:00:45.440><c> the</c><00:00:45.600><c> service</c>
+
+00:00:45.910 --> 00:00:45.920 align:start position:0%
+course it no longer provides the service
+ 
+
+00:00:45.920 --> 00:00:47.670 align:start position:0%
+course it no longer provides the service
+that<00:00:46.160><c> it's</c><00:00:46.239><c> supposed</c><00:00:46.559><c> to</c><00:00:46.719><c> provide</c>
+
+00:00:47.670 --> 00:00:47.680 align:start position:0%
+that it's supposed to provide
+ 
+
+00:00:47.680 --> 00:00:49.510 align:start position:0%
+that it's supposed to provide
+and<00:00:47.840><c> then</c><00:00:48.000><c> we</c><00:00:48.160><c> can</c><00:00:48.320><c> have</c><00:00:48.559><c> environmental</c>
+
+00:00:49.510 --> 00:00:49.520 align:start position:0%
+and then we can have environmental
+ 
+
+00:00:49.520 --> 00:00:50.630 align:start position:0%
+and then we can have environmental
+faults
+
+00:00:50.630 --> 00:00:50.640 align:start position:0%
+faults
+ 
+
+00:00:50.640 --> 00:00:52.470 align:start position:0%
+faults
+such<00:00:50.879><c> as</c><00:00:51.200><c> fire</c>
+
+00:00:52.470 --> 00:00:52.480 align:start position:0%
+such as fire
+ 
+
+00:00:52.480 --> 00:00:56.229 align:start position:0%
+such as fire
+that<00:00:52.719><c> burns</c><00:00:53.120><c> down</c><00:00:53.280><c> the</c><00:00:53.520><c> system</c><00:00:54.480><c> power</c><00:00:54.960><c> failure</c>
+
+00:00:56.229 --> 00:00:56.239 align:start position:0%
+that burns down the system power failure
+ 
+
+00:00:56.239 --> 00:00:59.189 align:start position:0%
+that burns down the system power failure
+sabotage<00:00:56.960><c> of</c><00:00:57.120><c> the</c><00:00:57.199><c> system</c><00:00:57.760><c> all</c><00:00:58.000><c> things</c><00:00:58.800><c> that</c>
+
+00:00:59.189 --> 00:00:59.199 align:start position:0%
+sabotage of the system all things that
+ 
+
+00:00:59.199 --> 00:01:01.510 align:start position:0%
+sabotage of the system all things that
+in<00:00:59.280><c> the</c><00:00:59.520><c> environment</c><00:01:00.480><c> may</c><00:01:00.719><c> cause</c><00:01:00.960><c> the</c><00:01:01.120><c> system</c>
+
+00:01:01.510 --> 00:01:01.520 align:start position:0%
+in the environment may cause the system
+ 
+
+00:01:01.520 --> 00:01:03.510 align:start position:0%
+in the environment may cause the system
+to<00:01:01.680><c> have</c><00:01:01.920><c> an</c><00:01:02.079><c> error</c><00:01:02.640><c> or</c><00:01:02.800><c> not</c><00:01:03.039><c> perform</c><00:01:03.359><c> the</c>
+
+00:01:03.510 --> 00:01:03.520 align:start position:0%
+to have an error or not perform the
+ 
+
+00:01:03.520 --> 00:01:06.390 align:start position:0%
+to have an error or not perform the
+service<00:01:04.320><c> note</c><00:01:04.640><c> that</c><00:01:04.799><c> these</c><00:01:05.040><c> are</c><00:01:05.280><c> all</c><00:01:05.519><c> faults</c>
+
+00:01:06.390 --> 00:01:06.400 align:start position:0%
+service note that these are all faults
+ 
+
+00:01:06.400 --> 00:01:09.910 align:start position:0%
+service note that these are all faults
+some<00:01:06.720><c> of</c><00:01:06.880><c> them</c><00:01:07.520><c> don't</c><00:01:07.840><c> result</c><00:01:08.720><c> in</c><00:01:08.960><c> a</c><00:01:09.119><c> failure</c>
+
+00:01:09.910 --> 00:01:09.920 align:start position:0%
+some of them don't result in a failure
+ 
+
+00:01:09.920 --> 00:01:12.789 align:start position:0%
+some of them don't result in a failure
+for<00:01:10.080><c> example</c><00:01:10.560><c> the</c><00:01:10.799><c> f</c><00:01:10.960><c> div</c><00:01:11.200><c> bug</c><00:01:12.000><c> doesn't</c><00:01:12.400><c> result</c>
+
+00:01:12.789 --> 00:01:12.799 align:start position:0%
+for example the f div bug doesn't result
+ 
+
+00:01:12.799 --> 00:01:15.750 align:start position:0%
+for example the f div bug doesn't result
+in<00:01:12.960><c> a</c><00:01:13.280><c> error</c><00:01:14.080><c> or</c><00:01:14.240><c> a</c><00:01:14.400><c> failure</c><00:01:15.119><c> if</c><00:01:15.280><c> you</c><00:01:15.439><c> never</c>
+
+00:01:15.750 --> 00:01:15.760 align:start position:0%
+in a error or a failure if you never
+ 
+
+00:01:15.760 --> 00:01:17.429 align:start position:0%
+in a error or a failure if you never
+really<00:01:16.000><c> use</c><00:01:16.320><c> the</c><00:01:16.479><c> wrong</c><00:01:16.720><c> combination</c><00:01:17.280><c> of</c>
+
+00:01:17.429 --> 00:01:17.439 align:start position:0%
+really use the wrong combination of
+ 
+
+00:01:17.439 --> 00:01:20.469 align:start position:0%
+really use the wrong combination of
+numbers<00:01:17.920><c> for</c><00:01:18.159><c> it</c><00:01:18.400><c> a</c><00:01:18.640><c> softer</c><00:01:19.040><c> bug</c><00:01:19.840><c> in</c><00:01:20.000><c> a</c><00:01:20.080><c> rarely</c>
+
+00:01:20.469 --> 00:01:20.479 align:start position:0%
+numbers for it a softer bug in a rarely
+ 
+
+00:01:20.479 --> 00:01:21.670 align:start position:0%
+numbers for it a softer bug in a rarely
+used<00:01:20.720><c> function</c>
+
+00:01:21.670 --> 00:01:21.680 align:start position:0%
+used function
+ 
+
+00:01:21.680 --> 00:01:24.789 align:start position:0%
+used function
+may<00:01:22.159><c> never</c><00:01:22.799><c> result</c><00:01:23.200><c> in</c><00:01:23.360><c> an</c><00:01:23.600><c> actual</c><00:01:24.000><c> error</c>
+
+00:01:24.789 --> 00:01:24.799 align:start position:0%
+may never result in an actual error
+ 
+
+00:01:24.799 --> 00:01:27.510 align:start position:0%
+may never result in an actual error
+operator<00:01:25.360><c> faults</c><00:01:26.159><c> may</c><00:01:26.400><c> not</c><00:01:26.640><c> cause</c><00:01:26.880><c> a</c><00:01:26.960><c> system</c>
+
+00:01:27.510 --> 00:01:27.520 align:start position:0%
+operator faults may not cause a system
+ 
+
+00:01:27.520 --> 00:01:29.670 align:start position:0%
+operator faults may not cause a system
+to<00:01:27.759><c> actually</c><00:01:28.159><c> have</c><00:01:28.320><c> an</c><00:01:28.560><c> error</c><00:01:29.040><c> for</c><00:01:29.200><c> example</c><00:01:29.600><c> if</c>
+
+00:01:29.670 --> 00:01:29.680 align:start position:0%
+to actually have an error for example if
+ 
+
+00:01:29.680 --> 00:01:31.830 align:start position:0%
+to actually have an error for example if
+you<00:01:29.840><c> shut</c><00:01:30.080><c> down</c><00:01:30.240><c> the</c><00:01:30.400><c> system</c><00:01:31.280><c> but</c><00:01:31.520><c> at</c><00:01:31.600><c> this</c>
+
+00:01:31.830 --> 00:01:31.840 align:start position:0%
+you shut down the system but at this
+ 
+
+00:01:31.840 --> 00:01:33.830 align:start position:0%
+you shut down the system but at this
+time<00:01:32.079><c> for</c><00:01:32.240><c> example</c><00:01:32.640><c> nobody's</c><00:01:33.200><c> trying</c><00:01:33.439><c> to</c><00:01:33.600><c> use</c>
+
+00:01:33.830 --> 00:01:33.840 align:start position:0%
+time for example nobody's trying to use
+ 
+
+00:01:33.840 --> 00:01:34.630 align:start position:0%
+time for example nobody's trying to use
+it
+
+00:01:34.630 --> 00:01:34.640 align:start position:0%
+it
+ 
+
+00:01:34.640 --> 00:01:37.270 align:start position:0%
+it
+to<00:01:34.799><c> get</c><00:01:35.040><c> service</c><00:01:35.439><c> from</c><00:01:35.680><c> it</c><00:01:36.320><c> it</c><00:01:36.479><c> might</c><00:01:36.720><c> not</c><00:01:37.040><c> be</c>
+
+00:01:37.270 --> 00:01:37.280 align:start position:0%
+to get service from it it might not be
+ 
+
+00:01:37.280 --> 00:01:38.550 align:start position:0%
+to get service from it it might not be
+an<00:01:37.439><c> actual</c>
+
+00:01:38.550 --> 00:01:38.560 align:start position:0%
+an actual
+ 
+
+00:01:38.560 --> 00:01:39.749 align:start position:0%
+an actual
+failure
+
+00:01:39.749 --> 00:01:39.759 align:start position:0%
+failure
+ 
+
+00:01:39.759 --> 00:01:42.149 align:start position:0%
+failure
+and<00:01:40.000><c> then</c><00:01:40.640><c> we</c><00:01:40.799><c> can</c><00:01:40.960><c> have</c><00:01:41.200><c> a</c><00:01:41.280><c> fire</c><00:01:41.680><c> but</c><00:01:41.920><c> if</c><00:01:42.079><c> we</c>
+
+00:01:42.149 --> 00:01:42.159 align:start position:0%
+and then we can have a fire but if we
+ 
+
+00:01:42.159 --> 00:01:45.030 align:start position:0%
+and then we can have a fire but if we
+protected<00:01:42.720><c> our</c><00:01:42.880><c> system</c><00:01:43.200><c> from</c><00:01:43.439><c> fire</c><00:01:44.079><c> a</c><00:01:44.320><c> fire</c><00:01:44.880><c> in</c>
+
+00:01:45.030 --> 00:01:45.040 align:start position:0%
+protected our system from fire a fire in
+ 
+
+00:01:45.040 --> 00:01:46.069 align:start position:0%
+protected our system from fire a fire in
+the
+
+00:01:46.069 --> 00:01:46.079 align:start position:0%
+the
+ 
+
+00:01:46.079 --> 00:01:48.310 align:start position:0%
+the
+system<00:01:46.479><c> room</c><00:01:46.880><c> may</c><00:01:47.040><c> not</c><00:01:47.360><c> actually</c><00:01:47.680><c> result</c><00:01:48.159><c> in</c>
+
+00:01:48.310 --> 00:01:48.320 align:start position:0%
+system room may not actually result in
+ 
+
+00:01:48.320 --> 00:01:49.590 align:start position:0%
+system room may not actually result in
+an<00:01:48.479><c> error</c><00:01:48.720><c> for</c><00:01:48.799><c> example</c><00:01:49.119><c> we</c><00:01:49.280><c> can</c><00:01:49.360><c> have</c><00:01:49.520><c> a</c>
+
+00:01:49.590 --> 00:01:49.600 align:start position:0%
+an error for example we can have a
+ 
+
+00:01:49.600 --> 00:01:51.670 align:start position:0%
+an error for example we can have a
+switch<00:01:50.000><c> over</c><00:01:50.159><c> to</c><00:01:50.320><c> another</c><00:01:50.720><c> system</c>
+
+00:01:51.670 --> 00:01:51.680 align:start position:0%
+switch over to another system
+ 
+
+00:01:51.680 --> 00:01:54.069 align:start position:0%
+switch over to another system
+power<00:01:52.079><c> failure</c><00:01:52.720><c> can</c><00:01:52.960><c> be</c><00:01:53.119><c> mitigated</c><00:01:53.680><c> so</c><00:01:53.840><c> it</c><00:01:53.920><c> can</c>
+
+00:01:54.069 --> 00:01:54.079 align:start position:0%
+power failure can be mitigated so it can
+ 
+
+00:01:54.079 --> 00:01:55.830 align:start position:0%
+power failure can be mitigated so it can
+be<00:01:54.159><c> a</c><00:01:54.320><c> fault</c><00:01:54.640><c> but</c><00:01:54.799><c> may</c><00:01:55.040><c> not</c><00:01:55.200><c> result</c><00:01:55.520><c> in</c><00:01:55.680><c> an</c>
+
+00:01:55.830 --> 00:01:55.840 align:start position:0%
+be a fault but may not result in an
+ 
+
+00:01:55.840 --> 00:01:57.910 align:start position:0%
+be a fault but may not result in an
+error<00:01:56.079><c> for</c><00:01:56.159><c> example</c><00:01:56.640><c> if</c><00:01:56.960><c> our</c>
+
+00:01:57.910 --> 00:01:57.920 align:start position:0%
+error for example if our
+ 
+
+00:01:57.920 --> 00:01:59.910 align:start position:0%
+error for example if our
+battery<00:01:58.320><c> power</c><00:01:58.640><c> supply</c><00:01:59.040><c> lasts</c><00:01:59.439><c> long</c><00:01:59.680><c> enough</c>
+
+00:01:59.910 --> 00:01:59.920 align:start position:0%
+battery power supply lasts long enough
+ 
+
+00:01:59.920 --> 00:02:02.950 align:start position:0%
+battery power supply lasts long enough
+to<00:02:00.079><c> overcome</c><00:02:00.479><c> the</c><00:02:00.560><c> power</c><00:02:00.880><c> failure</c><00:02:01.600><c> and</c><00:02:01.840><c> so</c><00:02:02.079><c> on</c>
+
+00:02:02.950 --> 00:02:02.960 align:start position:0%
+to overcome the power failure and so on
+ 
+
+00:02:02.960 --> 00:02:05.590 align:start position:0%
+to overcome the power failure and so on
+so<00:02:03.200><c> again</c><00:02:03.439><c> these</c><00:02:03.680><c> are</c><00:02:04.240><c> faults</c>
+
+00:02:05.590 --> 00:02:05.600 align:start position:0%
+so again these are faults
+ 
+
+00:02:05.600 --> 00:02:07.830 align:start position:0%
+so again these are faults
+according<00:02:06.000><c> to</c><00:02:06.159><c> their</c><00:02:06.399><c> cause</c><00:02:07.200><c> any</c><00:02:07.520><c> of</c><00:02:07.600><c> these</c>
+
+00:02:07.830 --> 00:02:07.840 align:start position:0%
+according to their cause any of these
+ 
+
+00:02:07.840 --> 00:02:09.749 align:start position:0%
+according to their cause any of these
+faults<00:02:08.239><c> might</c><00:02:08.560><c> result</c><00:02:08.959><c> in</c><00:02:09.119><c> errors</c><00:02:09.599><c> and</c>
+
+00:02:09.749 --> 00:02:09.759 align:start position:0%
+faults might result in errors and
+ 
+
+00:02:09.759 --> 00:02:12.470 align:start position:0%
+faults might result in errors and
+subsequently<00:02:10.879><c> failures</c><00:02:11.680><c> but</c><00:02:11.840><c> for</c><00:02:12.160><c> all</c><00:02:12.319><c> of</c>
+
+00:02:12.470 --> 00:02:12.480 align:start position:0%
+subsequently failures but for all of
+ 
+
+00:02:12.480 --> 00:02:15.830 align:start position:0%
+subsequently failures but for all of
+them<00:02:12.879><c> it</c><00:02:13.120><c> is</c><00:02:13.360><c> possible</c><00:02:14.319><c> that</c><00:02:14.560><c> we</c><00:02:14.720><c> get</c><00:02:14.959><c> a</c><00:02:15.040><c> fault</c>
+
+00:02:15.830 --> 00:02:15.840 align:start position:0%
+them it is possible that we get a fault
+ 
+
+00:02:15.840 --> 00:02:18.550 align:start position:0%
+them it is possible that we get a fault
+but<00:02:16.160><c> not</c><00:02:16.640><c> an</c><00:02:16.800><c> error</c><00:02:17.120><c> or</c><00:02:17.280><c> a</c><00:02:17.440><c> failure</c><00:02:18.160><c> we</c><00:02:18.319><c> can</c>
+
+00:02:18.550 --> 00:02:18.560 align:start position:0%
+but not an error or a failure we can
+ 
+
+00:02:18.560 --> 00:02:21.350 align:start position:0%
+but not an error or a failure we can
+also<00:02:18.879><c> classify</c><00:02:19.440><c> faults</c><00:02:19.760><c> by</c><00:02:20.000><c> duration</c><00:02:20.720><c> for</c><00:02:21.040><c> how</c>
+
+00:02:21.350 --> 00:02:21.360 align:start position:0%
+also classify faults by duration for how
+ 
+
+00:02:21.360 --> 00:02:23.750 align:start position:0%
+also classify faults by duration for how
+long<00:02:21.680><c> do</c><00:02:21.920><c> we</c><00:02:22.080><c> have</c><00:02:22.319><c> the</c><00:02:22.480><c> fault</c><00:02:22.800><c> condition</c><00:02:23.599><c> for</c>
+
+00:02:23.750 --> 00:02:23.760 align:start position:0%
+long do we have the fault condition for
+ 
+
+00:02:23.760 --> 00:02:26.150 align:start position:0%
+long do we have the fault condition for
+example<00:02:24.160><c> we</c><00:02:24.319><c> can</c><00:02:24.480><c> have</c><00:02:24.720><c> a</c><00:02:25.040><c> permanent</c><00:02:25.680><c> fold</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+example we can have a permanent fold
+ 
+
+00:02:26.160 --> 00:02:27.670 align:start position:0%
+example we can have a permanent fold
+once<00:02:26.480><c> we</c><00:02:26.720><c> have</c><00:02:26.959><c> it</c>
+
+00:02:27.670 --> 00:02:27.680 align:start position:0%
+once we have it
+ 
+
+00:02:27.680 --> 00:02:30.309 align:start position:0%
+once we have it
+it<00:02:27.840><c> doesn't</c><00:02:28.239><c> get</c><00:02:28.480><c> corrected</c><00:02:29.360><c> an</c><00:02:29.599><c> example</c><00:02:30.000><c> of</c><00:02:30.160><c> a</c>
+
+00:02:30.309 --> 00:02:30.319 align:start position:0%
+it doesn't get corrected an example of a
+ 
+
+00:02:30.319 --> 00:02:32.309 align:start position:0%
+it doesn't get corrected an example of a
+permanent<00:02:30.800><c> fold</c><00:02:31.440><c> is</c><00:02:31.599><c> when</c><00:02:31.760><c> we</c><00:02:31.840><c> want</c><00:02:32.000><c> to</c><00:02:32.160><c> see</c>
+
+00:02:32.309 --> 00:02:32.319 align:start position:0%
+permanent fold is when we want to see
+ 
+
+00:02:32.319 --> 00:02:34.869 align:start position:0%
+permanent fold is when we want to see
+what's<00:02:32.640><c> inside</c><00:02:32.959><c> the</c><00:02:33.120><c> processor</c><00:02:34.000><c> and</c><00:02:34.239><c> now</c><00:02:34.720><c> the</c>
+
+00:02:34.869 --> 00:02:34.879 align:start position:0%
+what's inside the processor and now the
+ 
+
+00:02:34.879 --> 00:02:36.470 align:start position:0%
+what's inside the processor and now the
+processor<00:02:35.280><c> is</c><00:02:35.360><c> in</c><00:02:35.519><c> four</c><00:02:35.680><c> pieces</c><00:02:36.080><c> and</c><00:02:36.160><c> we</c><00:02:36.319><c> don't</c>
+
+00:02:36.470 --> 00:02:36.480 align:start position:0%
+processor is in four pieces and we don't
+ 
+
+00:02:36.480 --> 00:02:38.630 align:start position:0%
+processor is in four pieces and we don't
+know<00:02:36.560><c> how</c><00:02:36.720><c> to</c><00:02:36.800><c> put</c><00:02:37.040><c> it</c><00:02:37.120><c> back</c><00:02:37.360><c> together</c><00:02:38.239><c> we</c><00:02:38.400><c> can</c>
+
+00:02:38.630 --> 00:02:38.640 align:start position:0%
+know how to put it back together we can
+ 
+
+00:02:38.640 --> 00:02:41.830 align:start position:0%
+know how to put it back together we can
+have<00:02:39.200><c> intermittent</c><00:02:40.080><c> faults</c><00:02:40.959><c> they</c><00:02:41.200><c> last</c><00:02:41.599><c> for</c><00:02:41.760><c> a</c>
+
+00:02:41.830 --> 00:02:41.840 align:start position:0%
+have intermittent faults they last for a
+ 
+
+00:02:41.840 --> 00:02:43.750 align:start position:0%
+have intermittent faults they last for a
+limited<00:02:42.239><c> duration</c><00:02:42.720><c> of</c><00:02:42.879><c> time</c>
+
+00:02:43.750 --> 00:02:43.760 align:start position:0%
+limited duration of time
+ 
+
+00:02:43.760 --> 00:02:46.470 align:start position:0%
+limited duration of time
+but<00:02:44.000><c> they</c><00:02:44.080><c> are</c><00:02:44.239><c> recurring</c><00:02:45.120><c> so</c><00:02:45.280><c> it's</c><00:02:45.440><c> not</c><00:02:45.680><c> like</c>
+
+00:02:46.470 --> 00:02:46.480 align:start position:0%
+but they are recurring so it's not like
+ 
+
+00:02:46.480 --> 00:02:49.110 align:start position:0%
+but they are recurring so it's not like
+we<00:02:46.720><c> get</c><00:02:46.959><c> this</c><00:02:47.599><c> type</c><00:02:47.840><c> of</c><00:02:48.000><c> fault</c><00:02:48.560><c> and</c><00:02:48.800><c> for</c><00:02:48.959><c> a</c>
+
+00:02:49.110 --> 00:02:49.120 align:start position:0%
+we get this type of fault and for a
+ 
+
+00:02:49.120 --> 00:02:52.150 align:start position:0%
+we get this type of fault and for a
+while<00:02:49.760><c> it</c><00:02:49.920><c> causes</c><00:02:50.319><c> things</c><00:02:50.640><c> to</c><00:02:50.959><c> not</c><00:02:51.200><c> work</c><00:02:51.519><c> fine</c>
+
+00:02:52.150 --> 00:02:52.160 align:start position:0%
+while it causes things to not work fine
+ 
+
+00:02:52.160 --> 00:02:54.470 align:start position:0%
+while it causes things to not work fine
+but<00:02:52.400><c> then</c><00:02:52.879><c> it</c><00:02:53.040><c> just</c><00:02:53.440><c> disappears</c><00:02:54.080><c> and</c><00:02:54.239><c> never</c>
+
+00:02:54.470 --> 00:02:54.480 align:start position:0%
+but then it just disappears and never
+ 
+
+00:02:54.480 --> 00:02:56.390 align:start position:0%
+but then it just disappears and never
+comes<00:02:54.800><c> back</c><00:02:55.040><c> this</c><00:02:55.280><c> is</c><00:02:55.360><c> something</c><00:02:55.680><c> like</c><00:02:56.160><c> every</c>
+
+00:02:56.390 --> 00:02:56.400 align:start position:0%
+comes back this is something like every
+ 
+
+00:02:56.400 --> 00:02:58.390 align:start position:0%
+comes back this is something like every
+couple<00:02:56.640><c> of</c><00:02:56.800><c> seconds</c><00:02:57.200><c> something</c><00:02:57.519><c> happens</c><00:02:58.239><c> a</c>
+
+00:02:58.390 --> 00:02:58.400 align:start position:0%
+couple of seconds something happens a
+ 
+
+00:02:58.400 --> 00:03:00.470 align:start position:0%
+couple of seconds something happens a
+good<00:02:58.640><c> example</c><00:02:59.040><c> of</c><00:02:59.200><c> intermittent</c><00:02:59.840><c> fault</c><00:03:00.319><c> is</c>
+
+00:03:00.470 --> 00:03:00.480 align:start position:0%
+good example of intermittent fault is
+ 
+
+00:03:00.480 --> 00:03:02.470 align:start position:0%
+good example of intermittent fault is
+when<00:03:00.640><c> we</c><00:03:00.800><c> overclock</c><00:03:01.280><c> our</c><00:03:01.440><c> system</c><00:03:02.000><c> it</c><00:03:02.159><c> works</c>
+
+00:03:02.470 --> 00:03:02.480 align:start position:0%
+when we overclock our system it works
+ 
+
+00:03:02.480 --> 00:03:05.030 align:start position:0%
+when we overclock our system it works
+fine<00:03:02.720><c> that</c><00:03:02.959><c> crashes</c><00:03:03.840><c> then</c><00:03:04.000><c> we</c><00:03:04.159><c> reboot</c><00:03:04.720><c> it</c><00:03:04.959><c> it</c>
+
+00:03:05.030 --> 00:03:05.040 align:start position:0%
+fine that crashes then we reboot it it
+ 
+
+00:03:05.040 --> 00:03:07.190 align:start position:0%
+fine that crashes then we reboot it it
+works<00:03:05.360><c> fine</c><00:03:05.599><c> it</c><00:03:05.760><c> crashes</c><00:03:06.239><c> and</c><00:03:06.400><c> so</c><00:03:06.560><c> on</c><00:03:06.720><c> so</c><00:03:06.879><c> for</c><00:03:07.120><c> a</c>
+
+00:03:07.190 --> 00:03:07.200 align:start position:0%
+works fine it crashes and so on so for a
+ 
+
+00:03:07.200 --> 00:03:09.190 align:start position:0%
+works fine it crashes and so on so for a
+while<00:03:07.440><c> it</c><00:03:07.599><c> works</c><00:03:07.840><c> fine</c><00:03:08.159><c> but</c><00:03:08.400><c> then</c><00:03:08.800><c> the</c><00:03:08.959><c> same</c>
+
+00:03:09.190 --> 00:03:09.200 align:start position:0%
+while it works fine but then the same
+ 
+
+00:03:09.200 --> 00:03:11.670 align:start position:0%
+while it works fine but then the same
+type<00:03:09.440><c> of</c><00:03:09.599><c> problem</c><00:03:10.080><c> recurs</c><00:03:10.800><c> and</c><00:03:10.959><c> then</c><00:03:11.200><c> finally</c>
+
+00:03:11.670 --> 00:03:11.680 align:start position:0%
+type of problem recurs and then finally
+ 
+
+00:03:11.680 --> 00:03:14.070 align:start position:0%
+type of problem recurs and then finally
+we<00:03:11.760><c> have</c><00:03:12.000><c> the</c><00:03:12.159><c> transient</c><00:03:12.879><c> folds</c><00:03:13.599><c> which</c><00:03:13.920><c> are</c>
+
+00:03:14.070 --> 00:03:14.080 align:start position:0%
+we have the transient folds which are
+ 
+
+00:03:14.080 --> 00:03:16.229 align:start position:0%
+we have the transient folds which are
+when<00:03:14.720><c> it</c><00:03:14.879><c> lasts</c><00:03:15.120><c> for</c><00:03:15.280><c> a</c><00:03:15.360><c> while</c><00:03:15.599><c> then</c><00:03:15.760><c> just</c><00:03:16.000><c> goes</c>
+
+00:03:16.229 --> 00:03:16.239 align:start position:0%
+when it lasts for a while then just goes
+ 
+
+00:03:16.239 --> 00:03:18.550 align:start position:0%
+when it lasts for a while then just goes
+away<00:03:16.640><c> a</c><00:03:16.879><c> transient</c><00:03:17.440><c> fault</c><00:03:17.760><c> is</c><00:03:17.920><c> for</c><00:03:18.159><c> example</c>
+
+00:03:18.550 --> 00:03:18.560 align:start position:0%
+away a transient fault is for example
+ 
+
+00:03:18.560 --> 00:03:20.790 align:start position:0%
+away a transient fault is for example
+when<00:03:18.959><c> an</c><00:03:19.120><c> alpha</c><00:03:19.440><c> particle</c><00:03:20.000><c> hits</c><00:03:20.239><c> the</c><00:03:20.400><c> chip</c><00:03:20.640><c> so</c>
+
+00:03:20.790 --> 00:03:20.800 align:start position:0%
+when an alpha particle hits the chip so
+ 
+
+00:03:20.800 --> 00:03:23.270 align:start position:0%
+when an alpha particle hits the chip so
+for<00:03:21.040><c> a</c><00:03:21.120><c> while</c><00:03:21.680><c> it</c><00:03:21.840><c> has</c><00:03:22.159><c> all</c><00:03:22.319><c> sorts</c><00:03:22.560><c> of</c><00:03:22.720><c> problems</c>
+
+00:03:23.270 --> 00:03:23.280 align:start position:0%
+for a while it has all sorts of problems
+ 
+
+00:03:23.280 --> 00:03:25.589 align:start position:0%
+for a while it has all sorts of problems
+but<00:03:23.440><c> then</c><00:03:23.680><c> once</c><00:03:23.920><c> we</c><00:03:24.080><c> reboot</c><00:03:24.560><c> it</c><00:03:24.959><c> it's</c><00:03:25.440><c> no</c>
+
+00:03:25.589 --> 00:03:25.599 align:start position:0%
+but then once we reboot it it's no
+ 
+
+00:03:25.599 --> 00:03:27.190 align:start position:0%
+but then once we reboot it it's no
+longer<00:03:26.159><c> going</c><00:03:26.239><c> to</c><00:03:26.319><c> have</c><00:03:26.560><c> these</c><00:03:26.720><c> problems</c><00:03:27.120><c> and</c>
+
+00:03:27.190 --> 00:03:27.200 align:start position:0%
+longer going to have these problems and
+ 
+
+00:03:27.200 --> 00:03:29.589 align:start position:0%
+longer going to have these problems and
+they're<00:03:27.440><c> not</c><00:03:27.599><c> going</c><00:03:27.680><c> to</c><00:03:27.840><c> occur</c><00:03:28.319><c> again</c><00:03:28.959><c> until</c>
+
+00:03:29.589 --> 00:03:29.599 align:start position:0%
+they're not going to occur again until
+ 
+
+00:03:29.599 --> 00:03:31.110 align:start position:0%
+they're not going to occur again until
+you<00:03:29.680><c> know</c><00:03:29.840><c> much</c><00:03:30.159><c> later</c><00:03:30.400><c> when</c><00:03:30.560><c> something</c><00:03:30.879><c> else</c>
+
+00:03:31.110 --> 00:03:31.120 align:start position:0%
+you know much later when something else
+ 
+
+00:03:31.120 --> 00:03:33.840 align:start position:0%
+you know much later when something else
+happens
+

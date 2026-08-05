@@ -1,0 +1,256 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.419 align:start position:0%
+ 
+so<00:00:00.450><c> let's</c><00:00:00.659><c> look</c><00:00:00.840><c> at</c><00:00:01.020><c> how</c><00:00:01.260><c> the</c><00:00:01.319><c> processor</c><00:00:02.129><c> sees</c>
+
+00:00:02.419 --> 00:00:02.429 align:start position:0%
+so let's look at how the processor sees
+ 
+
+00:00:02.429 --> 00:00:05.030 align:start position:0%
+so let's look at how the processor sees
+the<00:00:02.669><c> memory</c><00:00:02.970><c> the</c><00:00:03.720><c> processor</c><00:00:04.259><c> sees</c><00:00:04.529><c> what</c><00:00:04.859><c> we</c>
+
+00:00:05.030 --> 00:00:05.040 align:start position:0%
+the memory the processor sees what we
+ 
+
+00:00:05.040 --> 00:00:07.700 align:start position:0%
+the memory the processor sees what we
+call<00:00:05.310><c> physical</c><00:00:05.910><c> memory</c><00:00:06.600><c> which</c><00:00:07.410><c> is</c><00:00:07.440><c> the</c><00:00:07.589><c> memory</c>
+
+00:00:07.700 --> 00:00:07.710 align:start position:0%
+call physical memory which is the memory
+ 
+
+00:00:07.710 --> 00:00:10.549 align:start position:0%
+call physical memory which is the memory
+contained<00:00:08.519><c> in</c><00:00:08.730><c> the</c><00:00:08.849><c> actual</c><00:00:09.420><c> memory</c><00:00:10.019><c> modules</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+contained in the actual memory modules
+ 
+
+00:00:10.559 --> 00:00:13.370 align:start position:0%
+contained in the actual memory modules
+that<00:00:11.070><c> we</c><00:00:11.190><c> bought</c><00:00:11.400><c> and</c><00:00:11.700><c> put</c><00:00:11.940><c> in</c><00:00:12.090><c> the</c><00:00:12.210><c> system</c><00:00:12.570><c> the</c>
+
+00:00:13.370 --> 00:00:13.380 align:start position:0%
+that we bought and put in the system the
+ 
+
+00:00:13.380 --> 00:00:15.560 align:start position:0%
+that we bought and put in the system the
+amount<00:00:13.590><c> of</c><00:00:13.799><c> that</c><00:00:13.950><c> memory</c><00:00:14.309><c> sometimes</c><00:00:14.880><c> even</c>
+
+00:00:15.560 --> 00:00:15.570 align:start position:0%
+amount of that memory sometimes even
+ 
+
+00:00:15.570 --> 00:00:18.650 align:start position:0%
+amount of that memory sometimes even
+lower<00:00:15.780><c> than</c><00:00:16.529><c> four</c><00:00:16.800><c> gigabytes</c><00:00:17.310><c> it</c><00:00:18.119><c> is</c><00:00:18.390><c> almost</c>
+
+00:00:18.650 --> 00:00:18.660 align:start position:0%
+lower than four gigabytes it is almost
+ 
+
+00:00:18.660 --> 00:00:21.050 align:start position:0%
+lower than four gigabytes it is almost
+never<00:00:18.960><c> four</c><00:00:19.410><c> gigabytes</c><00:00:19.890><c> per</c><00:00:20.039><c> process</c><00:00:20.789><c> that</c><00:00:20.939><c> we</c>
+
+00:00:21.050 --> 00:00:21.060 align:start position:0%
+never four gigabytes per process that we
+ 
+
+00:00:21.060 --> 00:00:23.330 align:start position:0%
+never four gigabytes per process that we
+have<00:00:21.270><c> in</c><00:00:21.390><c> the</c><00:00:21.510><c> system</c><00:00:21.920><c> because</c><00:00:22.920><c> there</c><00:00:23.100><c> can</c><00:00:23.310><c> be</c>
+
+00:00:23.330 --> 00:00:23.340 align:start position:0%
+have in the system because there can be
+ 
+
+00:00:23.340 --> 00:00:26.540 align:start position:0%
+have in the system because there can be
+tens<00:00:24.090><c> or</c><00:00:24.420><c> even</c><00:00:24.449><c> hundreds</c><00:00:25.080><c> of</c><00:00:25.170><c> processes</c><00:00:25.830><c> in</c><00:00:26.400><c> a</c>
+
+00:00:26.540 --> 00:00:26.550 align:start position:0%
+tens or even hundreds of processes in a
+ 
+
+00:00:26.550 --> 00:00:29.150 align:start position:0%
+tens or even hundreds of processes in a
+modern<00:00:26.880><c> operating</c><00:00:27.330><c> system</c><00:00:27.750><c> and</c><00:00:28.590><c> it</c><00:00:28.769><c> is</c><00:00:28.920><c> never</c>
+
+00:00:29.150 --> 00:00:29.160 align:start position:0%
+modern operating system and it is never
+ 
+
+00:00:29.160 --> 00:00:33.200 align:start position:0%
+modern operating system and it is never
+16<00:00:29.820><c> exabytes</c><00:00:30.210><c> per</c><00:00:30.570><c> process</c><00:00:31.219><c> this</c><00:00:32.219><c> is</c><00:00:32.460><c> how</c><00:00:32.700><c> much</c>
+
+00:00:33.200 --> 00:00:33.210 align:start position:0%
+16 exabytes per process this is how much
+ 
+
+00:00:33.210 --> 00:00:35.810 align:start position:0%
+16 exabytes per process this is how much
+memory<00:00:33.570><c> we</c><00:00:33.690><c> need</c><00:00:33.989><c> if</c><00:00:34.260><c> we</c><00:00:34.559><c> have</c><00:00:34.710><c> 2</c><00:00:34.890><c> to</c><00:00:35.040><c> the</c><00:00:35.070><c> 64th</c>
+
+00:00:35.810 --> 00:00:35.820 align:start position:0%
+memory we need if we have 2 to the 64th
+ 
+
+00:00:35.820 --> 00:00:38.270 align:start position:0%
+memory we need if we have 2 to the 64th
+memory<00:00:36.510><c> locations</c><00:00:37.110><c> which</c><00:00:37.710><c> is</c><00:00:37.860><c> what</c><00:00:38.040><c> you</c><00:00:38.160><c> would</c>
+
+00:00:38.270 --> 00:00:38.280 align:start position:0%
+memory locations which is what you would
+ 
+
+00:00:38.280 --> 00:00:41.720 align:start position:0%
+memory locations which is what you would
+have<00:00:38.489><c> with</c><00:00:38.730><c> a</c><00:00:38.790><c> 64-bit</c><00:00:39.420><c> address</c><00:00:40.399><c> so</c><00:00:41.399><c> if</c><00:00:41.489><c> each</c>
+
+00:00:41.720 --> 00:00:41.730 align:start position:0%
+have with a 64-bit address so if each
+ 
+
+00:00:41.730 --> 00:00:44.569 align:start position:0%
+have with a 64-bit address so if each
+process<00:00:42.210><c> in</c><00:00:42.329><c> a</c><00:00:42.420><c> 64-bit</c><00:00:43.020><c> machine</c><00:00:43.440><c> thinks</c><00:00:44.430><c> it</c>
+
+00:00:44.569 --> 00:00:44.579 align:start position:0%
+process in a 64-bit machine thinks it
+ 
+
+00:00:44.579 --> 00:00:46.639 align:start position:0%
+process in a 64-bit machine thinks it
+has<00:00:44.760><c> this</c><00:00:44.910><c> much</c><00:00:45.120><c> memory</c><00:00:45.510><c> there</c><00:00:46.140><c> is</c><00:00:46.260><c> just</c><00:00:46.469><c> no</c>
+
+00:00:46.639 --> 00:00:46.649 align:start position:0%
+has this much memory there is just no
+ 
+
+00:00:46.649 --> 00:00:49.160 align:start position:0%
+has this much memory there is just no
+way<00:00:46.860><c> we</c><00:00:47.070><c> can</c><00:00:47.250><c> have</c><00:00:47.280><c> enough</c><00:00:48.059><c> actual</c><00:00:48.570><c> memory</c><00:00:48.930><c> for</c>
+
+00:00:49.160 --> 00:00:49.170 align:start position:0%
+way we can have enough actual memory for
+ 
+
+00:00:49.170 --> 00:00:52.040 align:start position:0%
+way we can have enough actual memory for
+that<00:00:49.320><c> so</c><00:00:50.039><c> we</c><00:00:50.160><c> conclude</c><00:00:50.579><c> that</c><00:00:50.610><c> the</c><00:00:51.539><c> amount</c><00:00:51.570><c> of</c>
+
+00:00:52.040 --> 00:00:52.050 align:start position:0%
+that so we conclude that the amount of
+ 
+
+00:00:52.050 --> 00:00:54.500 align:start position:0%
+that so we conclude that the amount of
+physical<00:00:52.230><c> memory</c><00:00:52.649><c> we</c><00:00:52.920><c> have</c><00:00:53.160><c> is</c><00:00:53.610><c> usually</c><00:00:54.270><c> less</c>
+
+00:00:54.500 --> 00:00:54.510 align:start position:0%
+physical memory we have is usually less
+ 
+
+00:00:54.510 --> 00:00:56.869 align:start position:0%
+physical memory we have is usually less
+than<00:00:54.899><c> what</c><00:00:55.079><c> all</c><00:00:55.260><c> the</c><00:00:55.379><c> programs</c><00:00:55.770><c> can</c><00:00:55.980><c> access</c><00:00:56.370><c> if</c>
+
+00:00:56.869 --> 00:00:56.879 align:start position:0%
+than what all the programs can access if
+ 
+
+00:00:56.879 --> 00:00:59.180 align:start position:0%
+than what all the programs can access if
+all<00:00:57.180><c> the</c><00:00:57.300><c> programs</c><00:00:57.750><c> access</c><00:00:57.989><c> all</c><00:00:58.559><c> the</c><00:00:58.920><c> memory</c>
+
+00:00:59.180 --> 00:00:59.190 align:start position:0%
+all the programs access all the memory
+ 
+
+00:00:59.190 --> 00:01:00.470 align:start position:0%
+all the programs access all the memory
+they<00:00:59.399><c> possibly</c><00:00:59.850><c> can</c>
+
+00:01:00.470 --> 00:01:00.480 align:start position:0%
+they possibly can
+ 
+
+00:01:00.480 --> 00:01:03.080 align:start position:0%
+they possibly can
+they<00:01:01.109><c> will</c><00:01:01.289><c> access</c><00:01:01.649><c> much</c><00:01:01.920><c> much</c><00:01:02.250><c> more</c><00:01:02.550><c> than</c><00:01:02.879><c> the</c>
+
+00:01:03.080 --> 00:01:03.090 align:start position:0%
+they will access much much more than the
+ 
+
+00:01:03.090 --> 00:01:05.649 align:start position:0%
+they will access much much more than the
+memory<00:01:03.239><c> we</c><00:01:03.539><c> actually</c><00:01:03.899><c> have</c><00:01:04.140><c> the</c><00:01:05.070><c> addresses</c>
+
+00:01:05.649 --> 00:01:05.659 align:start position:0%
+memory we actually have the addresses
+ 
+
+00:01:05.659 --> 00:01:08.420 align:start position:0%
+memory we actually have the addresses
+that<00:01:06.659><c> the</c><00:01:06.780><c> processor</c><00:01:07.229><c> uses</c><00:01:07.680><c> for</c><00:01:07.890><c> the</c><00:01:08.010><c> physical</c>
+
+00:01:08.420 --> 00:01:08.430 align:start position:0%
+that the processor uses for the physical
+ 
+
+00:01:08.430 --> 00:01:12.109 align:start position:0%
+that the processor uses for the physical
+memory<00:01:08.600><c> have</c><00:01:09.600><c> a</c><00:01:09.630><c> one-to-one</c><00:01:10.369><c> mapping</c><00:01:11.369><c> to</c><00:01:11.970><c> the</c>
+
+00:01:12.109 --> 00:01:12.119 align:start position:0%
+memory have a one-to-one mapping to the
+ 
+
+00:01:12.119 --> 00:01:14.510 align:start position:0%
+memory have a one-to-one mapping to the
+bytes<00:01:12.330><c> or</c><00:01:12.540><c> words</c><00:01:12.600><c> in</c><00:01:12.990><c> the</c><00:01:13.110><c> physical</c><00:01:13.560><c> memory</c><00:01:13.710><c> so</c>
+
+00:01:14.510 --> 00:01:14.520 align:start position:0%
+bytes or words in the physical memory so
+ 
+
+00:01:14.520 --> 00:01:16.820 align:start position:0%
+bytes or words in the physical memory so
+a<00:01:14.549><c> given</c><00:01:15.030><c> address</c><00:01:15.240><c> always</c><00:01:16.110><c> goes</c><00:01:16.500><c> to</c><00:01:16.680><c> the</c><00:01:16.710><c> same</c>
+
+00:01:16.820 --> 00:01:16.830 align:start position:0%
+a given address always goes to the same
+ 
+
+00:01:16.830 --> 00:01:19.700 align:start position:0%
+a given address always goes to the same
+physical<00:01:17.549><c> location</c><00:01:17.729><c> and</c><00:01:18.299><c> the</c><00:01:19.229><c> physical</c>
+
+00:01:19.700 --> 00:01:19.710 align:start position:0%
+physical location and the physical
+ 
+
+00:01:19.710 --> 00:01:22.550 align:start position:0%
+physical location and the physical
+location<00:01:20.189><c> always</c><00:01:20.700><c> has</c><00:01:20.939><c> exactly</c><00:01:21.540><c> one</c><00:01:21.960><c> physical</c>
+
+00:01:22.550 --> 00:01:22.560 align:start position:0%
+location always has exactly one physical
+ 
+
+00:01:22.560 --> 00:01:24.860 align:start position:0%
+location always has exactly one physical
+address
+

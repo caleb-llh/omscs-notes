@@ -1,0 +1,84 @@
+1
+00:00:00,230 --> 00:00:00,850
+ Here's what I got.
+
+2
+00:00:00,850 --> 00:00:05,750
+ 1 Watt for the dynamic power and 4 times longer for the execution time.
+
+3
+00:00:05,750 --> 00:00:08,210
+ I got this from the dynamic power equation.
+
+4
+00:00:08,210 --> 00:00:09,680
+ Bling!
+
+5
+00:00:09,680 --> 00:00:12,190
+ You've reduced the frequency by a factor of 4.
+
+6
+00:00:12,190 --> 00:00:15,510
+ So, the program will slow down also by a factor of 4.
+
+7
+00:00:15,510 --> 00:00:17,250
+ Now, what about power?
+
+8
+00:00:17,250 --> 00:00:21,180
+ Let's think about it relative to the dynamic power of the first design.
+
+9
+00:00:21,180 --> 00:00:25,920
+ First, since the frequency went down by 4, then from the dynamic power equation,
+
+10
+00:00:25,920 --> 00:00:30,770
+ so too will the dynamic power decrease by at least the same factor.
+
+11
+00:00:30,770 --> 00:00:32,390
+ Why at least?
+
+12
+00:00:32,390 --> 00:00:33,750
+ Well, remember that frequency and
+
+13
+00:00:33,750 --> 00:00:37,740
+ supply voltage are supposed to be adjusted together proportionately.
+
+14
+00:00:37,740 --> 00:00:42,130
+ So that's an additional one-sixteenth reduction in dynamic power.
+
+15
+00:00:42,130 --> 00:00:46,470
+ Overall that's a 64 fold reduction to just 1 Watt.
+
+16
+00:00:46,470 --> 00:00:50,580
+ In fact, this exercise is the usual argument people make for going parallel
+
+17
+00:00:50,580 --> 00:00:54,980
+ through multi-core designs, rather than, say, increase in clock frequency.
+
+18
+00:00:54,980 --> 00:00:59,300
+ In this case, suppose you had enough parallelism to use multiple cores.
+
+19
+00:00:59,300 --> 00:01:03,130
+ Then you could take this chip, replicate it four times in order to get
+
+20
+00:01:03,130 --> 00:01:07,502
+ these programs to run in the same time, and you'd still save power overall.
+
+21
+00:01:07,502 --> 00:01:07,502
+ It would just run at 4 Watts instead of 64 Watts.
+

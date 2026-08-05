@@ -1,0 +1,108 @@
+1
+00:00:00,300 --> 00:00:02,969
+ You may have seen a recent news story about a team of Japanese and
+
+2
+00:00:02,969 --> 00:00:06,800
+ German researchers who wrote a program to simulate the human brain.
+
+3
+00:00:06,800 --> 00:00:08,850
+ Brains!
+
+4
+00:00:08,850 --> 00:00:11,490
+ And in fact, their program didn't simulate the entire brain,
+
+5
+00:00:11,490 --> 00:00:15,910
+ just 1% of it over a short period simulated time.
+
+6
+00:00:15,910 --> 00:00:22,160
+ Now 1% of the brain is about 2 billion neurons and 10 trillion synapses.
+
+7
+00:00:22,160 --> 00:00:26,240
+ Very roughly speaking, neurons and synapses form a kind of network
+
+8
+00:00:26,240 --> 00:00:30,480
+ where neurons are like nodes, and synapses are like edges.
+
+9
+00:00:30,480 --> 00:00:33,900
+ The synapses serve as kinds of communication channels connecting
+
+10
+00:00:33,900 --> 00:00:35,390
+ the neurons.
+
+11
+00:00:35,390 --> 00:00:38,490
+ Now as it happened in the simulation, these synapses, because there are so
+
+12
+00:00:38,490 --> 00:00:41,480
+ many more of them, accounted for most of the storage and
+
+13
+00:00:41,480 --> 00:00:44,440
+ computation in the model.
+
+14
+00:00:44,440 --> 00:00:45,190
+ And in particular,
+
+15
+00:00:45,190 --> 00:00:48,340
+ the reason these researchers needed to run their simulation on a super computer
+
+16
+00:00:48,340 --> 00:00:51,970
+ is because every synapse required about 24 bytes of storage.
+
+17
+00:00:51,970 --> 00:00:57,500
+ I think you can imagine that 24 bytes times ten trillion is a lot of bytes.
+
+18
+00:00:57,500 --> 00:01:01,840
+ Now, suppose I gave you a computer work station with 16 gibibytes of
+
+19
+00:01:01,840 --> 00:01:03,080
+ main memory.
+
+20
+00:01:03,080 --> 00:01:06,670
+ If you don't know what a gibibytes is, please see the instructor's notes.
+
+21
+00:01:06,670 --> 00:01:08,620
+ Here's my question to you.
+
+22
+00:01:08,620 --> 00:01:14,330
+ How many of these 16 gibibytes machines would you need to store a full model?
+
+23
+00:01:14,330 --> 00:01:17,630
+ That is, all 100% of the brain.
+
+24
+00:01:17,630 --> 00:01:20,180
+ I want you to type your answer in this box, and
+
+25
+00:01:20,180 --> 00:01:23,700
+ please enter it to 2 significant figures.
+
+26
+00:01:23,700 --> 00:01:27,366
+ So, for example, if you thought the answer was 232.7,
+
+27
+00:01:27,366 --> 00:01:27,366
+ you would just write 230.
+

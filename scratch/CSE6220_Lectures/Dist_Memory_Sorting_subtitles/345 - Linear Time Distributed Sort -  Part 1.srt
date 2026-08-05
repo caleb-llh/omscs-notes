@@ -1,0 +1,176 @@
+1
+00:00:00,320 --> 00:00:04,180
+ You may remember from CS101 that any comparison based algorithm for
+
+2
+00:00:04,180 --> 00:00:06,070
+ sorting scales like this.
+
+3
+00:00:06,070 --> 00:00:07,910
+ That is in the sequential case.
+
+4
+00:00:07,910 --> 00:00:10,736
+ And in fact, you can't go any faster, asymptotically,
+
+5
+00:00:10,736 --> 00:00:13,057
+ if your only primitive is a simple comparison.
+
+6
+00:00:13,057 --> 00:00:17,760
+ [SOUND] But that's not the only tool in your sorting toolbelt.
+
+7
+00:00:17,760 --> 00:00:18,442
+ For instance,
+
+8
+00:00:18,442 --> 00:00:21,920
+ in CS101 you might have learned about algorithms like Bucket sort.
+
+9
+00:00:21,920 --> 00:00:24,270
+ Me hunter, not gatherer.
+
+10
+00:00:24,270 --> 00:00:28,040
+ Bucket sort can achieve linear time if you set it up just right.
+
+11
+00:00:28,040 --> 00:00:29,760
+ Here's the basic idea.
+
+12
+00:00:29,760 --> 00:00:33,597
+ Start by assuming that you know the range of possible values.
+
+13
+00:00:33,597 --> 00:00:37,245
+ So these might be integers from, say, 0 to m minus 1.
+
+14
+00:00:37,245 --> 00:00:40,185
+ Further assume that the values you want to sort are uniformly
+
+15
+00:00:40,185 --> 00:00:42,495
+ distributed over this range.
+
+16
+00:00:42,495 --> 00:00:46,475
+ You would then start by dividing the possible values into a bunch of bins or
+
+17
+00:00:46,475 --> 00:00:47,355
+ buckets.
+
+18
+00:00:47,355 --> 00:00:50,795
+ Each bucket will hold a subset of the possible values.
+
+19
+00:00:50,795 --> 00:00:54,805
+ For instance, this first bucket will hold the first m over k values,
+
+20
+00:00:54,805 --> 00:00:57,160
+ assuming that k divides m.
+
+21
+00:00:57,160 --> 00:01:02,270
+ The second bucket will hold the second set of M over K values, and so on.
+
+22
+00:01:02,270 --> 00:01:05,040
+ Now suppose we have some values to sort.
+
+23
+00:01:05,040 --> 00:01:09,470
+ A bucket sort first figures out to which bucket each element belongs.
+
+24
+00:01:09,470 --> 00:01:10,100
+ So for instance,
+
+25
+00:01:10,100 --> 00:01:14,160
+ maybe it turns out the three smallest elements belong in the red bucket.
+
+26
+00:01:14,160 --> 00:01:17,260
+ And you'd do the same for all the other colors.
+
+27
+00:01:17,260 --> 00:01:22,130
+ The last step is to sort within each bucket and then concatenate the results.
+
+28
+00:01:22,130 --> 00:01:24,870
+ So how is this a linear time scheme?
+
+29
+00:01:24,870 --> 00:01:28,680
+ Start by asking yourself how many elements are in each bucket.
+
+30
+00:01:28,680 --> 00:01:32,250
+ Now suppose there are n elements and they really are uniformly and
+
+31
+00:01:32,250 --> 00:01:34,890
+ randomly distributed over this range.
+
+32
+00:01:34,890 --> 00:01:39,850
+ Then the expected number of elements per bucket will be n over k.
+
+33
+00:01:39,850 --> 00:01:42,370
+ Now, there's a constant which I've hidden.
+
+34
+00:01:42,370 --> 00:01:46,109
+ Now within each bucket, you can use your favorite sorting algorithm.
+
+35
+00:01:46,109 --> 00:01:48,178
+ Tiny bubbles.
+
+36
+00:01:48,178 --> 00:01:50,410
+ Something, something.
+
+37
+00:01:50,410 --> 00:01:54,720
+ Let's supposed you use an asymptotically optimal comparison based sort.
+
+38
+00:01:54,720 --> 00:01:59,550
+ Then the expected run time would be n over k log n over k in each bucket.
+
+39
+00:01:59,550 --> 00:02:00,670
+ Since there are k buckets,
+
+40
+00:02:00,670 --> 00:02:04,060
+ you just multiply the time to sort each bucket by k.
+
+41
+00:02:04,060 --> 00:02:07,730
+ So, if you can choose k to be some constant times n,
+
+42
+00:02:07,730 --> 00:02:09,788
+ then you get a linear time sort.
+
+43
+00:02:09,788 --> 00:02:13,580
+ Now there's one more minor, technical detail here about the choice of k, but
+
+44
+00:02:13,580 --> 00:02:13,580
+ for that, see the downloadable section.
+

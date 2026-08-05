@@ -1,0 +1,68 @@
+1
+00:00:00,340 --> 00:00:02,350
+ This lesson is about parallel algorithms for
+
+2
+00:00:02,350 --> 00:00:05,090
+ sorting in the dynamic multi-threading model.
+
+3
+00:00:05,090 --> 00:00:06,420
+ There are two parts.
+
+4
+00:00:06,420 --> 00:00:10,060
+ The first part consists of the videos,which cover the idea of a sorting
+
+5
+00:00:10,060 --> 00:00:11,220
+ network.
+
+6
+00:00:11,220 --> 00:00:14,837
+ You can think of a sorting network as a special kind of circuit that sorts.
+
+7
+00:00:14,837 --> 00:00:18,187
+ It's a topic that's not usually covered in your standard undergraduate
+
+8
+00:00:18,187 --> 00:00:19,438
+ Algorithms 101 class.
+
+9
+00:00:19,438 --> 00:00:22,478
+ So I hope that many of you will find it interesting and, heaven forbid,
+
+10
+00:00:22,478 --> 00:00:24,110
+ even a little fun.
+
+11
+00:00:24,110 --> 00:00:25,830
+ Now separate from the video part,
+
+12
+00:00:25,830 --> 00:00:29,840
+ I also want you to read a short chapter on parallel merge sort.
+
+13
+00:00:29,840 --> 00:00:31,920
+ I hope you'll find this reading helpful.
+
+14
+00:00:31,920 --> 00:00:34,615
+ It should reinforce the main ideas behind the dynamic
+
+15
+00:00:34,615 --> 00:00:36,260
+ multi-threading model.
+
+16
+00:00:36,260 --> 00:00:39,210
+ You'll also see some additional techniques to analyze algorithms in
+
+17
+00:00:39,210 --> 00:00:39,210
+ this model more formally.
+

@@ -1,0 +1,528 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:01.910 align:start position:0%
+ 
+now<00:00:00.520><c> let's</c><00:00:00.719><c> briefly</c><00:00:01.079><c> consider</c><00:00:01.480><c> just</c><00:00:01.680><c> what</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+now let's briefly consider just what
+ 
+
+00:00:01.920 --> 00:00:04.150 align:start position:0%
+now let's briefly consider just what
+happens<00:00:02.200><c> to</c><00:00:02.360><c> load</c><00:00:02.560><c> and</c><00:00:02.720><c> store</c><00:00:03.160><c> instructions</c>
+
+00:00:04.150 --> 00:00:04.160 align:start position:0%
+happens to load and store instructions
+ 
+
+00:00:04.160 --> 00:00:06.190 align:start position:0%
+happens to load and store instructions
+just<00:00:04.319><c> like</c><00:00:04.520><c> we</c><00:00:04.759><c> had</c><00:00:05.120><c> data</c><00:00:05.440><c> dependencies</c><00:00:06.040><c> that</c>
+
+00:00:06.190 --> 00:00:06.200 align:start position:0%
+just like we had data dependencies that
+ 
+
+00:00:06.200 --> 00:00:08.350 align:start position:0%
+just like we had data dependencies that
+go<00:00:06.359><c> through</c><00:00:06.640><c> registers</c><00:00:07.439><c> this</c><00:00:07.520><c> is</c><00:00:07.680><c> for</c><00:00:07.839><c> example</c>
+
+00:00:08.350 --> 00:00:08.360 align:start position:0%
+go through registers this is for example
+ 
+
+00:00:08.360 --> 00:00:10.549 align:start position:0%
+go through registers this is for example
+why<00:00:08.480><c> we</c><00:00:08.599><c> did</c><00:00:08.800><c> register</c><00:00:09.160><c> raming</c><00:00:09.679><c> to</c><00:00:09.840><c> eliminate</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+why we did register raming to eliminate
+ 
+
+00:00:10.559 --> 00:00:12.709 align:start position:0%
+why we did register raming to eliminate
+the<00:00:11.000><c> false</c><00:00:11.360><c> dependencies</c><00:00:11.880><c> through</c><00:00:12.160><c> registers</c>
+
+00:00:12.709 --> 00:00:12.719 align:start position:0%
+the false dependencies through registers
+ 
+
+00:00:12.719 --> 00:00:14.629 align:start position:0%
+the false dependencies through registers
+and<00:00:12.960><c> why</c><00:00:13.120><c> we</c><00:00:13.240><c> are</c><00:00:13.400><c> doing</c><00:00:13.960><c> uh</c><00:00:14.400><c> these</c>
+
+00:00:14.629 --> 00:00:14.639 align:start position:0%
+and why we are doing uh these
+ 
+
+00:00:14.639 --> 00:00:16.390 align:start position:0%
+and why we are doing uh these
+reservation<00:00:15.200><c> stations</c><00:00:15.559><c> and</c><00:00:15.719><c> so</c><00:00:15.839><c> on</c><00:00:16.039><c> in</c><00:00:16.119><c> order</c>
+
+00:00:16.390 --> 00:00:16.400 align:start position:0%
+reservation stations and so on in order
+ 
+
+00:00:16.400 --> 00:00:18.550 align:start position:0%
+reservation stations and so on in order
+to<00:00:16.600><c> kind</c><00:00:16.720><c> of</c><00:00:16.920><c> obey</c><00:00:17.359><c> properly</c><00:00:18.039><c> the</c><00:00:18.240><c> true</c>
+
+00:00:18.550 --> 00:00:18.560 align:start position:0%
+to kind of obey properly the true
+ 
+
+00:00:18.560 --> 00:00:20.550 align:start position:0%
+to kind of obey properly the true
+dependencies<00:00:19.480><c> there</c><00:00:19.680><c> can</c><00:00:19.840><c> be</c><00:00:20.080><c> dependencies</c>
+
+00:00:20.550 --> 00:00:20.560 align:start position:0%
+dependencies there can be dependencies
+ 
+
+00:00:20.560 --> 00:00:22.910 align:start position:0%
+dependencies there can be dependencies
+through<00:00:20.800><c> memory</c><00:00:21.600><c> because</c><00:00:21.880><c> loads</c><00:00:22.199><c> and</c><00:00:22.359><c> stores</c>
+
+00:00:22.910 --> 00:00:22.920 align:start position:0%
+through memory because loads and stores
+ 
+
+00:00:22.920 --> 00:00:24.269 align:start position:0%
+through memory because loads and stores
+in<00:00:23.080><c> this</c><00:00:23.240><c> case</c><00:00:23.400><c> are</c><00:00:23.599><c> the</c><00:00:23.680><c> only</c><00:00:23.880><c> instructions</c>
+
+00:00:24.269 --> 00:00:24.279 align:start position:0%
+in this case are the only instructions
+ 
+
+00:00:24.279 --> 00:00:25.429 align:start position:0%
+in this case are the only instructions
+that<00:00:24.400><c> can</c><00:00:24.599><c> have</c><00:00:24.800><c> dependencies</c><00:00:25.240><c> through</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+that can have dependencies through
+ 
+
+00:00:25.439 --> 00:00:28.230 align:start position:0%
+that can have dependencies through
+memory<00:00:25.920><c> but</c><00:00:26.160><c> there</c><00:00:26.359><c> can</c><00:00:26.560><c> be</c><00:00:27.080><c> dependencies</c><00:00:28.080><c> a</c>
+
+00:00:28.230 --> 00:00:28.240 align:start position:0%
+memory but there can be dependencies a
+ 
+
+00:00:28.240 --> 00:00:30.749 align:start position:0%
+memory but there can be dependencies a
+read<00:00:28.519><c> after</c><00:00:28.840><c> write</c><00:00:29.080><c> dependence</c><00:00:29.560><c> occurs</c>
+
+00:00:30.749 --> 00:00:30.759 align:start position:0%
+read after write dependence occurs
+ 
+
+00:00:30.759 --> 00:00:33.030 align:start position:0%
+read after write dependence occurs
+if<00:00:30.920><c> there</c><00:00:31.039><c> is</c><00:00:31.199><c> for</c><00:00:31.359><c> example</c><00:00:31.679><c> a</c><00:00:31.840><c> store</c><00:00:32.239><c> word</c><00:00:32.680><c> to</c>
+
+00:00:33.030 --> 00:00:33.040 align:start position:0%
+if there is for example a store word to
+ 
+
+00:00:33.040 --> 00:00:35.430 align:start position:0%
+if there is for example a store word to
+some<00:00:33.360><c> address</c><00:00:34.040><c> in</c><00:00:34.239><c> memory</c><00:00:34.760><c> and</c><00:00:34.920><c> then</c><00:00:35.040><c> we</c><00:00:35.200><c> do</c><00:00:35.320><c> a</c>
+
+00:00:35.430 --> 00:00:35.440 align:start position:0%
+some address in memory and then we do a
+ 
+
+00:00:35.440 --> 00:00:37.350 align:start position:0%
+some address in memory and then we do a
+load<00:00:35.760><c> word</c><00:00:36.079><c> from</c><00:00:36.360><c> that</c><00:00:36.600><c> address</c><00:00:37.120><c> then</c><00:00:37.239><c> there</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+load word from that address then there
+ 
+
+00:00:37.360 --> 00:00:40.150 align:start position:0%
+load word from that address then there
+is<00:00:37.520><c> definitely</c><00:00:38.120><c> a</c><00:00:39.079><c> read</c><00:00:39.480><c> after</c><00:00:39.879><c> write</c>
+
+00:00:40.150 --> 00:00:40.160 align:start position:0%
+is definitely a read after write
+ 
+
+00:00:40.160 --> 00:00:41.830 align:start position:0%
+is definitely a read after write
+dependence<00:00:40.840><c> between</c><00:00:41.120><c> the</c><00:00:41.239><c> store</c><00:00:41.600><c> and</c><00:00:41.719><c> the</c>
+
+00:00:41.830 --> 00:00:41.840 align:start position:0%
+dependence between the store and the
+ 
+
+00:00:41.840 --> 00:00:44.190 align:start position:0%
+dependence between the store and the
+load<00:00:42.160><c> basically</c><00:00:42.559><c> the</c><00:00:42.680><c> load</c><00:00:43.239><c> uses</c><00:00:43.640><c> the</c><00:00:43.840><c> value</c>
+
+00:00:44.190 --> 00:00:44.200 align:start position:0%
+load basically the load uses the value
+ 
+
+00:00:44.200 --> 00:00:46.630 align:start position:0%
+load basically the load uses the value
+put<00:00:44.480><c> there</c><00:00:44.680><c> by</c><00:00:44.840><c> the</c><00:00:45.000><c> store</c><00:00:46.000><c> we</c><00:00:46.120><c> can</c><00:00:46.280><c> also</c><00:00:46.520><c> have</c>
+
+00:00:46.630 --> 00:00:46.640 align:start position:0%
+put there by the store we can also have
+ 
+
+00:00:46.640 --> 00:00:48.709 align:start position:0%
+put there by the store we can also have
+a<00:00:46.760><c> right</c><00:00:47.000><c> after</c><00:00:47.280><c> read</c><00:00:47.480><c> false</c><00:00:47.800><c> dependence</c><00:00:48.559><c> for</c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+a right after read false dependence for
+ 
+
+00:00:48.719 --> 00:00:50.430 align:start position:0%
+a right after read false dependence for
+example<00:00:49.120><c> we</c><00:00:49.239><c> can</c><00:00:49.520><c> have</c><00:00:49.760><c> the</c><00:00:49.960><c> program</c><00:00:50.280><c> that</c>
+
+00:00:50.430 --> 00:00:50.440 align:start position:0%
+example we can have the program that
+ 
+
+00:00:50.440 --> 00:00:52.229 align:start position:0%
+example we can have the program that
+first<00:00:50.640><c> needs</c><00:00:50.879><c> to</c><00:00:51.000><c> load</c><00:00:51.320><c> something</c><00:00:51.719><c> then</c><00:00:51.879><c> store</c>
+
+00:00:52.229 --> 00:00:52.239 align:start position:0%
+first needs to load something then store
+ 
+
+00:00:52.239 --> 00:00:54.430 align:start position:0%
+first needs to load something then store
+it<00:00:52.559><c> if</c><00:00:52.680><c> we</c><00:00:52.840><c> reorder</c><00:00:53.399><c> these</c><00:00:53.960><c> then</c><00:00:54.079><c> the</c><00:00:54.160><c> load</c>
+
+00:00:54.430 --> 00:00:54.440 align:start position:0%
+it if we reorder these then the load
+ 
+
+00:00:54.440 --> 00:00:56.430 align:start position:0%
+it if we reorder these then the load
+gets<00:00:54.600><c> a</c><00:00:54.840><c> value</c><00:00:55.280><c> from</c><00:00:55.440><c> the</c><00:00:55.559><c> store</c><00:00:55.960><c> not</c><00:00:56.280><c> the</c>
+
+00:00:56.430 --> 00:00:56.440 align:start position:0%
+gets a value from the store not the
+ 
+
+00:00:56.440 --> 00:00:58.790 align:start position:0%
+gets a value from the store not the
+value<00:00:56.760><c> from</c><00:00:57.039><c> before</c><00:00:58.000><c> and</c><00:00:58.160><c> finally</c><00:00:58.519><c> we</c><00:00:58.640><c> can</c>
+
+00:00:58.790 --> 00:00:58.800 align:start position:0%
+value from before and finally we can
+ 
+
+00:00:58.800 --> 00:01:00.430 align:start position:0%
+value from before and finally we can
+have<00:00:58.920><c> a</c><00:00:59.079><c> right</c><00:00:59.320><c> after</c><00:00:59.559><c> right</c><00:00:59.719><c> depend</c><00:01:00.239><c> if</c><00:01:00.359><c> there</c>
+
+00:01:00.430 --> 00:01:00.440 align:start position:0%
+have a right after right depend if there
+ 
+
+00:01:00.440 --> 00:01:02.029 align:start position:0%
+have a right after right depend if there
+are<00:01:00.600><c> two</c><00:01:00.719><c> stores</c><00:01:01.120><c> that</c><00:01:01.239><c> store</c><00:01:01.519><c> to</c><00:01:01.680><c> the</c><00:01:01.800><c> same</c>
+
+00:01:02.029 --> 00:01:02.039 align:start position:0%
+are two stores that store to the same
+ 
+
+00:01:02.039 --> 00:01:04.310 align:start position:0%
+are two stores that store to the same
+address<00:01:03.039><c> the</c><00:01:03.239><c> last</c><00:01:03.519><c> one</c><00:01:03.719><c> should</c><00:01:04.000><c> kind</c><00:01:04.119><c> of</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+address the last one should kind of
+ 
+
+00:01:04.320 --> 00:01:06.350 align:start position:0%
+address the last one should kind of
+leave<00:01:04.640><c> the</c><00:01:04.839><c> value</c><00:01:05.560><c> at</c><00:01:05.720><c> the</c><00:01:05.799><c> end</c><00:01:06.000><c> of</c><00:01:06.159><c> that</c>
+
+00:01:06.350 --> 00:01:06.360 align:start position:0%
+leave the value at the end of that
+ 
+
+00:01:06.360 --> 00:01:08.990 align:start position:0%
+leave the value at the end of that
+sequence<00:01:07.320><c> but</c><00:01:07.479><c> if</c><00:01:07.600><c> we</c><00:01:07.799><c> reorder</c><00:01:08.320><c> them</c><00:01:08.600><c> then</c><00:01:08.759><c> the</c>
+
+00:01:08.990 --> 00:01:09.000 align:start position:0%
+sequence but if we reorder them then the
+ 
+
+00:01:09.000 --> 00:01:10.749 align:start position:0%
+sequence but if we reorder them then the
+value<00:01:09.240><c> in</c><00:01:09.360><c> the</c><00:01:09.520><c> memory</c><00:01:09.880><c> ends</c><00:01:10.119><c> up</c><00:01:10.280><c> being</c><00:01:10.560><c> the</c>
+
+00:01:10.749 --> 00:01:10.759 align:start position:0%
+value in the memory ends up being the
+ 
+
+00:01:10.759 --> 00:01:12.710 align:start position:0%
+value in the memory ends up being the
+kind<00:01:10.920><c> of</c><00:01:11.159><c> stale</c><00:01:11.680><c> value</c><00:01:12.000><c> from</c><00:01:12.159><c> the</c><00:01:12.320><c> first</c><00:01:12.560><c> of</c>
+
+00:01:12.710 --> 00:01:12.720 align:start position:0%
+kind of stale value from the first of
+ 
+
+00:01:12.720 --> 00:01:15.749 align:start position:0%
+kind of stale value from the first of
+the<00:01:12.920><c> stores</c><00:01:13.920><c> so</c><00:01:14.479><c> obviously</c><00:01:15.240><c> dependencies</c>
+
+00:01:15.749 --> 00:01:15.759 align:start position:0%
+the stores so obviously dependencies
+ 
+
+00:01:15.759 --> 00:01:19.429 align:start position:0%
+the stores so obviously dependencies
+through<00:01:16.040><c> memory</c><00:01:17.000><c> need</c><00:01:17.240><c> to</c><00:01:17.400><c> be</c><00:01:17.920><c> obeyed</c><00:01:18.920><c> or</c>
+
+00:01:19.429 --> 00:01:19.439 align:start position:0%
+through memory need to be obeyed or
+ 
+
+00:01:19.439 --> 00:01:21.789 align:start position:0%
+through memory need to be obeyed or
+eliminated<00:01:20.439><c> just</c><00:01:20.680><c> like</c><00:01:20.880><c> the</c><00:01:21.040><c> registered</c><00:01:21.520><c> ones</c>
+
+00:01:21.789 --> 00:01:21.799 align:start position:0%
+eliminated just like the registered ones
+ 
+
+00:01:21.799 --> 00:01:24.550 align:start position:0%
+eliminated just like the registered ones
+do<00:01:22.600><c> so</c><00:01:22.759><c> what</c><00:01:22.880><c> do</c><00:01:23.000><c> we</c><00:01:23.159><c> do</c><00:01:23.320><c> about</c><00:01:23.560><c> this</c>
+
+00:01:24.550 --> 00:01:24.560 align:start position:0%
+do so what do we do about this
+ 
+
+00:01:24.560 --> 00:01:27.429 align:start position:0%
+do so what do we do about this
+dependencies<00:01:25.560><c> in</c><00:01:25.920><c> tomasulo's</c><00:01:26.600><c> algorithm</c><00:01:27.320><c> we</c>
+
+00:01:27.429 --> 00:01:27.439 align:start position:0%
+dependencies in tomasulo's algorithm we
+ 
+
+00:01:27.439 --> 00:01:29.550 align:start position:0%
+dependencies in tomasulo's algorithm we
+do<00:01:27.640><c> loads</c><00:01:27.920><c> and</c><00:01:28.079><c> stores</c><00:01:28.520><c> in</c><00:01:28.720><c> order</c><00:01:29.240><c> basically</c>
+
+00:01:29.550 --> 00:01:29.560 align:start position:0%
+do loads and stores in order basically
+ 
+
+00:01:29.560 --> 00:01:31.590 align:start position:0%
+do loads and stores in order basically
+we<00:01:29.680><c> don't</c><00:01:30.040><c> try</c><00:01:30.200><c> to</c><00:01:30.320><c> reorder</c><00:01:30.759><c> them</c><00:01:31.079><c> when</c><00:01:31.280><c> as</c><00:01:31.439><c> we</c>
+
+00:01:31.590 --> 00:01:31.600 align:start position:0%
+we don't try to reorder them when as we
+ 
+
+00:01:31.600 --> 00:01:33.149 align:start position:0%
+we don't try to reorder them when as we
+issue<00:01:31.920><c> these</c><00:01:32.079><c> instructions</c><00:01:32.560><c> we</c><00:01:32.720><c> put</c><00:01:32.920><c> them</c><00:01:33.040><c> in</c>
+
+00:01:33.149 --> 00:01:33.159 align:start position:0%
+issue these instructions we put them in
+ 
+
+00:01:33.159 --> 00:01:34.910 align:start position:0%
+issue these instructions we put them in
+the<00:01:33.240><c> load</c><00:01:33.479><c> or</c><00:01:33.640><c> a</c><00:01:33.759><c> sore</c><00:01:34.079><c> queue</c><00:01:34.439><c> and</c><00:01:34.600><c> then</c><00:01:34.759><c> we</c>
+
+00:01:34.910 --> 00:01:34.920 align:start position:0%
+the load or a sore queue and then we
+ 
+
+00:01:34.920 --> 00:01:36.030 align:start position:0%
+the load or a sore queue and then we
+just<00:01:35.079><c> follow</c><00:01:35.399><c> the</c><00:01:35.479><c> order</c><00:01:35.720><c> of</c><00:01:35.880><c> these</c>
+
+00:01:36.030 --> 00:01:36.040 align:start position:0%
+just follow the order of these
+ 
+
+00:01:36.040 --> 00:01:38.630 align:start position:0%
+just follow the order of these
+instructions<00:01:36.560><c> so</c><00:01:36.720><c> for</c><00:01:36.920><c> example</c><00:01:37.320><c> a</c><00:01:37.640><c> load</c>
+
+00:01:38.630 --> 00:01:38.640 align:start position:0%
+instructions so for example a load
+ 
+
+00:01:38.640 --> 00:01:41.190 align:start position:0%
+instructions so for example a load
+doesn't<00:01:39.320><c> execute</c><00:01:40.119><c> if</c><00:01:40.320><c> there</c><00:01:40.439><c> is</c><00:01:40.640><c> a</c><00:01:40.840><c> previous</c>
+
+00:01:41.190 --> 00:01:41.200 align:start position:0%
+doesn't execute if there is a previous
+ 
+
+00:01:41.200 --> 00:01:43.789 align:start position:0%
+doesn't execute if there is a previous
+store<00:01:41.720><c> pending</c><00:01:42.720><c> even</c><00:01:43.000><c> though</c><00:01:43.159><c> maybe</c><00:01:43.399><c> the</c><00:01:43.520><c> load</c>
+
+00:01:43.789 --> 00:01:43.799 align:start position:0%
+store pending even though maybe the load
+ 
+
+00:01:43.799 --> 00:01:45.670 align:start position:0%
+store pending even though maybe the load
+is<00:01:43.960><c> ready</c><00:01:44.200><c> to</c><00:01:44.399><c> go</c><00:01:44.600><c> but</c><00:01:44.719><c> the</c><00:01:44.840><c> store</c><00:01:45.200><c> still</c><00:01:45.520><c> is</c>
+
+00:01:45.670 --> 00:01:45.680 align:start position:0%
+is ready to go but the store still is
+ 
+
+00:01:45.680 --> 00:01:48.350 align:start position:0%
+is ready to go but the store still is
+waiting<00:01:46.040><c> for</c><00:01:46.600><c> something</c><00:01:47.600><c> the</c><00:01:47.799><c> second</c><00:01:48.119><c> option</c>
+
+00:01:48.350 --> 00:01:48.360 align:start position:0%
+waiting for something the second option
+ 
+
+00:01:48.360 --> 00:01:50.230 align:start position:0%
+waiting for something the second option
+is<00:01:48.479><c> to</c><00:01:48.640><c> actually</c><00:01:49.200><c> identify</c><00:01:49.719><c> dependencies</c>
+
+00:01:50.230 --> 00:01:50.240 align:start position:0%
+is to actually identify dependencies
+ 
+
+00:01:50.240 --> 00:01:52.429 align:start position:0%
+is to actually identify dependencies
+between<00:01:50.479><c> load</c><00:01:50.719><c> stores</c><00:01:51.119><c> Etc</c><00:01:51.680><c> and</c><00:01:51.799><c> then</c><00:01:51.960><c> reorder</c>
+
+00:01:52.429 --> 00:01:52.439 align:start position:0%
+between load stores Etc and then reorder
+ 
+
+00:01:52.439 --> 00:01:53.590 align:start position:0%
+between load stores Etc and then reorder
+them<00:01:52.640><c> just</c><00:01:52.799><c> like</c><00:01:52.960><c> we</c><00:01:53.079><c> did</c><00:01:53.280><c> normal</c>
+
+00:01:53.590 --> 00:01:53.600 align:start position:0%
+them just like we did normal
+ 
+
+00:01:53.600 --> 00:01:56.870 align:start position:0%
+them just like we did normal
+instructions<00:01:54.280><c> Etc</c><00:01:55.280><c> but</c><00:01:55.840><c> this</c><00:01:56.280><c> turns</c><00:01:56.560><c> out</c><00:01:56.759><c> to</c>
+
+00:01:56.870 --> 00:01:56.880 align:start position:0%
+instructions Etc but this turns out to
+ 
+
+00:01:56.880 --> 00:01:59.230 align:start position:0%
+instructions Etc but this turns out to
+be<00:01:57.119><c> more</c><00:01:57.439><c> complicated</c><00:01:58.039><c> than</c><00:01:58.240><c> doing</c><00:01:58.520><c> it</c><00:01:59.000><c> for</c>
+
+00:01:59.230 --> 00:01:59.240 align:start position:0%
+be more complicated than doing it for
+ 
+
+00:01:59.240 --> 00:02:01.310 align:start position:0%
+be more complicated than doing it for
+register<00:01:59.640><c> BAS</c><00:02:00.039><c> dependencies</c><00:02:00.759><c> so</c><00:02:00.920><c> we're</c><00:02:01.119><c> not</c>
+
+00:02:01.310 --> 00:02:01.320 align:start position:0%
+register BAS dependencies so we're not
+ 
+
+00:02:01.320 --> 00:02:02.670 align:start position:0%
+register BAS dependencies so we're not
+going<00:02:01.399><c> to</c><00:02:01.600><c> do</c><00:02:01.799><c> that</c><00:02:01.960><c> and</c><00:02:02.119><c> that's</c><00:02:02.320><c> why</c><00:02:02.479><c> for</c>
+
+00:02:02.670 --> 00:02:02.680 align:start position:0%
+going to do that and that's why for
+ 
+
+00:02:02.680 --> 00:02:04.350 align:start position:0%
+going to do that and that's why for
+tomasulo's<00:02:03.200><c> algorithm</c><00:02:03.680><c> they</c><00:02:03.799><c> chose</c><00:02:04.079><c> not</c><00:02:04.200><c> to</c>
+
+00:02:04.350 --> 00:02:04.360 align:start position:0%
+tomasulo's algorithm they chose not to
+ 
+
+00:02:04.360 --> 00:02:06.109 align:start position:0%
+tomasulo's algorithm they chose not to
+do<00:02:04.560><c> this</c><00:02:04.719><c> for</c><00:02:04.920><c> memory</c><00:02:05.320><c> instructions</c><00:02:05.880><c> but</c><00:02:06.000><c> they</c>
+
+00:02:06.109 --> 00:02:06.119 align:start position:0%
+do this for memory instructions but they
+ 
+
+00:02:06.119 --> 00:02:08.990 align:start position:0%
+do this for memory instructions but they
+chose<00:02:06.360><c> to</c><00:02:06.560><c> do</c><00:02:06.799><c> do</c><00:02:06.960><c> it</c><00:02:07.159><c> for</c><00:02:07.439><c> other</c><00:02:08.000><c> instructions</c>
+
+00:02:08.990 --> 00:02:09.000 align:start position:0%
+chose to do do it for other instructions
+ 
+
+00:02:09.000 --> 00:02:10.710 align:start position:0%
+chose to do do it for other instructions
+modern<00:02:09.440><c> processors</c><00:02:09.879><c> actually</c><00:02:10.119><c> do</c><00:02:10.319><c> identify</c>
+
+00:02:10.710 --> 00:02:10.720 align:start position:0%
+modern processors actually do identify
+ 
+
+00:02:10.720 --> 00:02:12.710 align:start position:0%
+modern processors actually do identify
+dependencies<00:02:11.160><c> reorder</c><00:02:11.560><c> Etc</c><00:02:11.959><c> even</c><00:02:12.160><c> for</c><00:02:12.440><c> loads</c>
+
+00:02:12.710 --> 00:02:12.720 align:start position:0%
+dependencies reorder Etc even for loads
+ 
+
+00:02:12.720 --> 00:02:15.030 align:start position:0%
+dependencies reorder Etc even for loads
+and<00:02:12.879><c> stores</c><00:02:13.480><c> but</c><00:02:13.840><c> uh</c><00:02:13.959><c> we</c><00:02:14.080><c> will</c><00:02:14.360><c> consider</c><00:02:14.760><c> later</c>
+
+00:02:15.030 --> 00:02:15.040 align:start position:0%
+and stores but uh we will consider later
+ 
+
+00:02:15.040 --> 00:02:17.030 align:start position:0%
+and stores but uh we will consider later
+how<00:02:15.280><c> that</c><00:02:15.400><c> is</c><00:02:15.560><c> done</c><00:02:15.879><c> so</c><00:02:16.120><c> so</c><00:02:16.280><c> for</c><00:02:16.480><c> tomasulo's</c>
+
+00:02:17.030 --> 00:02:17.040 align:start position:0%
+how that is done so so for tomasulo's
+ 
+
+00:02:17.040 --> 00:02:18.990 align:start position:0%
+how that is done so so for tomasulo's
+algorithm<00:02:17.680><c> this</c><00:02:17.800><c> was</c><00:02:18.000><c> really</c><00:02:18.280><c> kind</c><00:02:18.400><c> of</c><00:02:18.599><c> the</c>
+
+00:02:18.990 --> 00:02:19.000 align:start position:0%
+algorithm this was really kind of the
+ 
+
+00:02:19.000 --> 00:02:23.280 align:start position:0%
+algorithm this was really kind of the
+you<00:02:19.160><c> know</c><00:02:19.680><c> option</c><00:02:20.160><c> that</c><00:02:20.319><c> they</c><00:02:20.480><c> chose</c>
+

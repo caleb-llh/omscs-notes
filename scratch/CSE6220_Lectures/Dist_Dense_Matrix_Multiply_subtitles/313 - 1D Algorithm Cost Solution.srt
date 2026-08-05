@@ -1,0 +1,32 @@
+1
+00:00:00,350 --> 00:00:02,340
+ Here's how to get the solution.
+
+2
+00:00:02,340 --> 00:00:06,939
+ In any iteration of the for loop the only data communicated is B hat.
+
+3
+00:00:06,939 --> 00:00:11,740
+ It's size is n over p words by n columns.
+
+4
+00:00:11,740 --> 00:00:15,150
+ So that's n squared over p words in total.
+
+5
+00:00:15,150 --> 00:00:19,250
+ Now there are p rounds of communication because of the loop bound.
+
+6
+00:00:19,250 --> 00:00:23,120
+ Therefore, you have to pay for p sends each of sides n squared over p.
+
+7
+00:00:23,120 --> 00:00:27,000
+ So that would be a total communication time of alpha times p
+
+8
+00:00:27,000 --> 00:00:27,000
+ times beta times n squared.
+

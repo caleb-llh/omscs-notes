@@ -1,0 +1,196 @@
+1
+00:00:00,290 --> 00:00:02,320
+ Okay, how do we figure this out?
+
+2
+00:00:02,320 --> 00:00:06,550
+ Suppose you were sending a message of just one word instead of n.
+
+3
+00:00:06,550 --> 00:00:07,470
+ That is, suppose n=1.
+
+4
+00:00:07,470 --> 00:00:11,330
+ Then the time would be this fixed startup time
+
+5
+00:00:11,330 --> 00:00:16,490
+ plus the time to traverse all the links which is t(P-1).
+
+6
+00:00:16,490 --> 00:00:20,660
+ Now suppose instead of sending one word, we're actually sending two words.
+
+7
+00:00:20,660 --> 00:00:23,630
+ So we'd pay the startup time, little a, as before.
+
+8
+00:00:23,630 --> 00:00:28,370
+ Then the first word would hit the network and find its way to node 1.
+
+9
+00:00:28,370 --> 00:00:30,965
+ Eventually, it arrives.
+
+10
+00:00:30,965 --> 00:00:35,210
+ Then in the second step, word 1 continues to node 2,
+
+11
+00:00:35,210 --> 00:00:37,980
+ while the second word starts its way from 0 to node 1.
+
+12
+00:00:37,980 --> 00:00:41,650
+ Now this step and this step happen simultaneously, so
+
+13
+00:00:41,650 --> 00:00:44,120
+ we only see the cost of this step.
+
+14
+00:00:44,120 --> 00:00:46,300
+ And this continues.
+
+15
+00:00:46,300 --> 00:00:47,850
+ Eventually, the first word makes it all the way
+
+16
+00:00:47,850 --> 00:00:50,270
+ down the network to the destination.
+
+17
+00:00:50,270 --> 00:00:52,780
+ The second word always lags one step behind.
+
+18
+00:00:52,780 --> 00:00:55,570
+ So what does that mean?
+
+19
+00:00:55,570 --> 00:00:59,620
+ That means to send two words, we pay the same cost as sending one word,
+
+20
+00:00:59,620 --> 00:01:04,810
+ plus an additional T units of time for the second word to go the last hop.
+
+21
+00:01:04,810 --> 00:01:09,640
+ I think you can see how this would work for n = 3, n = 4, and so on.
+
+22
+00:01:09,640 --> 00:01:13,230
+ So for any n, there's the time to send the first word plus the time for
+
+23
+00:01:13,230 --> 00:01:16,570
+ the remaining words to arrive at the destination.
+
+24
+00:01:16,570 --> 00:01:20,590
+ Let me reorganize this algebraically into this form.
+
+25
+00:01:20,590 --> 00:01:23,070
+ Now this formula has three terms.
+
+26
+00:01:23,070 --> 00:01:25,930
+ There's one that depends on P, and there's one that depends on n.
+
+27
+00:01:25,930 --> 00:01:29,340
+ And then of course, there's the startup time.
+
+28
+00:01:29,340 --> 00:01:31,380
+ So let's interpret these.
+
+29
+00:01:31,380 --> 00:01:33,610
+ The first term is just the message startup overheard.
+
+30
+00:01:33,610 --> 00:01:36,250
+ What about the second term?
+
+31
+00:01:36,250 --> 00:01:36,870
+ In practice,
+
+32
+00:01:36,870 --> 00:01:42,430
+ the time t effectively measures the message transmission time along a link.
+
+33
+00:01:42,430 --> 00:01:46,030
+ So you can interpret the second term as a kind of wire delay
+
+34
+00:01:46,030 --> 00:01:48,080
+ in going across the network.
+
+35
+00:01:48,080 --> 00:01:51,020
+ And finally, the third term captures a dependence as a function of
+
+36
+00:01:51,020 --> 00:01:52,810
+ a message size.
+
+37
+00:01:52,810 --> 00:01:57,790
+ And as it happens, even when P is very large, let's say tens or hundreds
+
+38
+00:01:57,790 --> 00:02:03,710
+ of thousands, it's actually still small, or only comparable to little a.
+
+39
+00:02:03,710 --> 00:02:07,620
+ Little a is typically associated with a software overhead for
+
+40
+00:02:07,620 --> 00:02:10,360
+ preparing messages for delivery.
+
+41
+00:02:10,360 --> 00:02:14,590
+ In fact, a is typically many orders of magnitude larger than t.
+
+42
+00:02:14,590 --> 00:02:20,670
+ So we typically treat these two terms as being effectively a constant.
+
+43
+00:02:20,670 --> 00:02:24,080
+ That's what becomes alpha in our alpha-beta model.
+
+44
+00:02:24,080 --> 00:02:28,280
+ And then beta is something that's sort of proportional to one over t.
+
+45
+00:02:28,280 --> 00:02:30,270
+ Anyway, this is a really rough analysis.
+
+46
+00:02:30,270 --> 00:02:33,940
+ The textbook actually has a more detailed explanation.
+
+47
+00:02:33,940 --> 00:02:36,950
+ So head to the instructor's notes for our reference.
+
+48
+00:02:36,950 --> 00:02:39,900
+ My hope is that if Alpha-Beta seemed mysterious before,
+
+49
+00:02:39,900 --> 00:02:39,900
+ hopefully you have a little bit better of an intuition for it now.
+

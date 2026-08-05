@@ -1,0 +1,352 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.480 --> 00:00:02.550 align:start position:0%
+ 
+so<00:00:00.719><c> let's</c><00:00:00.919><c> see</c><00:00:01.079><c> if</c><00:00:01.240><c> we</c><00:00:01.360><c> know</c><00:00:01.680><c> how</c><00:00:01.839><c> to</c><00:00:02.120><c> use</c>
+
+00:00:02.550 --> 00:00:02.560 align:start position:0%
+so let's see if we know how to use
+ 
+
+00:00:02.560 --> 00:00:04.550 align:start position:0%
+so let's see if we know how to use
+multiple<00:00:03.080><c> predictors</c><00:00:03.719><c> and</c><00:00:03.919><c> combine</c><00:00:04.319><c> their</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+multiple predictors and combine their
+ 
+
+00:00:04.560 --> 00:00:06.909 align:start position:0%
+multiple predictors and combine their
+decisions<00:00:05.480><c> suppose</c><00:00:05.839><c> that</c><00:00:06.000><c> we</c><00:00:06.120><c> have</c><00:00:06.240><c> a</c><00:00:06.440><c> program</c>
+
+00:00:06.909 --> 00:00:06.919 align:start position:0%
+decisions suppose that we have a program
+ 
+
+00:00:06.919 --> 00:00:09.790 align:start position:0%
+decisions suppose that we have a program
+in<00:00:07.120><c> which</c><00:00:07.439><c> a</c><00:00:08.000><c> 2-bit</c><00:00:08.360><c> predictor</c><00:00:09.280><c> work</c><00:00:09.599><c> just</c>
+
+00:00:09.790 --> 00:00:09.800 align:start position:0%
+in which a 2-bit predictor work just
+ 
+
+00:00:09.800 --> 00:00:13.190 align:start position:0%
+in which a 2-bit predictor work just
+fine<00:00:10.160><c> for</c><00:00:10.559><c> 95%</c><00:00:11.559><c> of</c><00:00:11.679><c> our</c><00:00:11.920><c> instructions</c><00:00:12.880><c> a</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+fine for 95% of our instructions a
+ 
+
+00:00:13.200 --> 00:00:15.789 align:start position:0%
+fine for 95% of our instructions a
+pshare<00:00:13.799><c> predictor</c><00:00:14.759><c> we</c><00:00:15.080><c> just</c><00:00:15.280><c> fine</c><00:00:15.519><c> for</c><00:00:15.679><c> the</c>
+
+00:00:15.789 --> 00:00:15.799 align:start position:0%
+pshare predictor we just fine for the
+ 
+
+00:00:15.799 --> 00:00:19.109 align:start position:0%
+pshare predictor we just fine for the
+same<00:00:16.359><c> 95%</c><00:00:17.359><c> of</c><00:00:17.520><c> the</c><00:00:17.720><c> instructions</c><00:00:18.720><c> plus</c><00:00:18.960><c> it</c>
+
+00:00:19.109 --> 00:00:19.119 align:start position:0%
+same 95% of the instructions plus it
+ 
+
+00:00:19.119 --> 00:00:22.950 align:start position:0%
+same 95% of the instructions plus it
+also<00:00:19.359><c> works</c><00:00:19.680><c> fine</c><00:00:19.880><c> for</c><00:00:20.680><c> 2%</c><00:00:21.680><c> that</c><00:00:22.320><c> this</c><00:00:22.480><c> 2bit</c>
+
+00:00:22.950 --> 00:00:22.960 align:start position:0%
+also works fine for 2% that this 2bit
+ 
+
+00:00:22.960 --> 00:00:25.310 align:start position:0%
+also works fine for 2% that this 2bit
+predictor<00:00:23.480><c> doesn't</c><00:00:24.000><c> cover</c><00:00:24.400><c> so</c><00:00:24.680><c> overall</c><00:00:25.199><c> it</c>
+
+00:00:25.310 --> 00:00:25.320 align:start position:0%
+predictor doesn't cover so overall it
+ 
+
+00:00:25.320 --> 00:00:28.669 align:start position:0%
+predictor doesn't cover so overall it
+works<00:00:25.680><c> fine</c><00:00:25.840><c> for</c><00:00:26.240><c> 97%</c><00:00:27.240><c> of</c><00:00:27.359><c> all</c><00:00:27.679><c> instructions</c>
+
+00:00:28.669 --> 00:00:28.679 align:start position:0%
+works fine for 97% of all instructions
+ 
+
+00:00:28.679 --> 00:00:32.350 align:start position:0%
+works fine for 97% of all instructions
+but<00:00:29.240><c> the</c><00:00:29.400><c> 95</c><00:00:30.119><c> %</c><00:00:30.519><c> here</c><00:00:30.679><c> and</c><00:00:30.880><c> here</c><00:00:31.160><c> overlap</c><00:00:32.160><c> a</c>
+
+00:00:32.350 --> 00:00:32.360 align:start position:0%
+but the 95 % here and here overlap a
+ 
+
+00:00:32.360 --> 00:00:35.549 align:start position:0%
+but the 95 % here and here overlap a
+gshare<00:00:33.200><c> predictor</c><00:00:34.200><c> again</c><00:00:34.520><c> works</c><00:00:34.960><c> just</c><00:00:35.239><c> fine</c>
+
+00:00:35.549 --> 00:00:35.559 align:start position:0%
+gshare predictor again works just fine
+ 
+
+00:00:35.559 --> 00:00:38.470 align:start position:0%
+gshare predictor again works just fine
+for<00:00:35.800><c> the</c><00:00:35.960><c> same</c><00:00:36.559><c> 95%</c><00:00:37.559><c> that</c><00:00:37.760><c> all</c><00:00:38.079><c> the</c><00:00:38.200><c> other</c>
+
+00:00:38.470 --> 00:00:38.480 align:start position:0%
+for the same 95% that all the other
+ 
+
+00:00:38.480 --> 00:00:40.910 align:start position:0%
+for the same 95% that all the other
+predictors<00:00:38.920><c> are</c><00:00:39.160><c> just</c><00:00:39.360><c> fine</c><00:00:39.640><c> for</c><00:00:40.520><c> plus</c><00:00:40.760><c> it</c>
+
+00:00:40.910 --> 00:00:40.920 align:start position:0%
+predictors are just fine for plus it
+ 
+
+00:00:40.920 --> 00:00:44.510 align:start position:0%
+predictors are just fine for plus it
+works<00:00:41.320><c> fine</c><00:00:41.520><c> for</c><00:00:41.800><c> the</c><00:00:41.960><c> other</c><00:00:42.719><c> 3%</c><00:00:43.719><c> so</c><00:00:44.039><c> overall</c>
+
+00:00:44.510 --> 00:00:44.520 align:start position:0%
+works fine for the other 3% so overall
+ 
+
+00:00:44.520 --> 00:00:48.990 align:start position:0%
+works fine for the other 3% so overall
+it's<00:00:45.000><c> 98%</c><00:00:46.000><c> accurate</c><00:00:47.039><c> 95</c><00:00:48.039><c> of</c><00:00:48.280><c> those</c><00:00:48.600><c> are</c><00:00:48.840><c> the</c>
+
+00:00:48.990 --> 00:00:49.000 align:start position:0%
+it's 98% accurate 95 of those are the
+ 
+
+00:00:49.000 --> 00:00:51.950 align:start position:0%
+it's 98% accurate 95 of those are the
+same<00:00:49.399><c> as</c><00:00:49.559><c> the</c><00:00:49.719><c> 2bit</c><00:00:50.160><c> predictor</c><00:00:51.120><c> but</c><00:00:51.320><c> the</c><00:00:51.559><c> three</c>
+
+00:00:51.950 --> 00:00:51.960 align:start position:0%
+same as the 2bit predictor but the three
+ 
+
+00:00:51.960 --> 00:00:54.270 align:start position:0%
+same as the 2bit predictor but the three
+that<00:00:52.079><c> it</c><00:00:52.239><c> covers</c><00:00:52.640><c> in</c><00:00:52.800><c> addition</c><00:00:53.160><c> to</c><00:00:53.440><c> that</c><00:00:54.000><c> are</c>
+
+00:00:54.270 --> 00:00:54.280 align:start position:0%
+that it covers in addition to that are
+ 
+
+00:00:54.280 --> 00:00:56.349 align:start position:0%
+that it covers in addition to that are
+not<00:00:54.600><c> the</c><00:00:54.800><c> same</c><00:00:55.480><c> but</c><00:00:55.640><c> the</c><00:00:55.800><c> three</c><00:00:56.120><c> that</c><00:00:56.239><c> it</c>
+
+00:00:56.349 --> 00:00:56.359 align:start position:0%
+not the same but the three that it
+ 
+
+00:00:56.359 --> 00:00:59.270 align:start position:0%
+not the same but the three that it
+covers<00:00:56.760><c> in</c><00:00:56.960><c> addition</c><00:00:57.399><c> to</c><00:00:57.680><c> that</c><00:00:58.440><c> are</c><00:00:58.840><c> different</c>
+
+00:00:59.270 --> 00:00:59.280 align:start position:0%
+covers in addition to that are different
+ 
+
+00:00:59.280 --> 00:01:01.869 align:start position:0%
+covers in addition to that are different
+from<00:00:59.480><c> the</c><00:00:59.600><c> two</c><00:01:00.000><c> %</c><00:01:00.559><c> that</c><00:01:00.760><c> the</c><00:01:00.920><c> pshare</c><00:01:01.399><c> predictor</c>
+
+00:01:01.869 --> 00:01:01.879 align:start position:0%
+from the two % that the pshare predictor
+ 
+
+00:01:01.879 --> 00:01:04.550 align:start position:0%
+from the two % that the pshare predictor
+covers<00:01:02.719><c> so</c><00:01:03.160><c> together</c><00:01:03.960><c> these</c><00:01:04.199><c> three</c>
+
+00:01:04.550 --> 00:01:04.560 align:start position:0%
+covers so together these three
+ 
+
+00:01:04.560 --> 00:01:07.469 align:start position:0%
+covers so together these three
+predictors<00:01:05.560><c> should</c><00:01:05.880><c> be</c><00:01:06.159><c> able</c><00:01:06.720><c> to</c><00:01:07.000><c> correctly</c>
+
+00:01:07.469 --> 00:01:07.479 align:start position:0%
+predictors should be able to correctly
+ 
+
+00:01:07.479 --> 00:01:08.990 align:start position:0%
+predictors should be able to correctly
+predict<00:01:08.040><c> all</c>
+
+00:01:08.990 --> 00:01:09.000 align:start position:0%
+predict all
+ 
+
+00:01:09.000 --> 00:01:11.310 align:start position:0%
+predict all
+instructions<00:01:10.000><c> so</c><00:01:10.200><c> the</c><00:01:10.400><c> question</c><00:01:10.720><c> for</c><00:01:10.920><c> you</c><00:01:11.080><c> is</c>
+
+00:01:11.310 --> 00:01:11.320 align:start position:0%
+instructions so the question for you is
+ 
+
+00:01:11.320 --> 00:01:13.950 align:start position:0%
+instructions so the question for you is
+how<00:01:11.520><c> do</c><00:01:11.680><c> we</c><00:01:11.880><c> combine</c><00:01:12.400><c> them</c><00:01:13.119><c> so</c><00:01:13.320><c> the</c><00:01:13.479><c> overall</c>
+
+00:01:13.950 --> 00:01:13.960 align:start position:0%
+how do we combine them so the overall
+ 
+
+00:01:13.960 --> 00:01:16.469 align:start position:0%
+how do we combine them so the overall
+predictor<00:01:14.520><c> that</c><00:01:14.640><c> we</c><00:01:14.759><c> will</c><00:01:14.960><c> use</c><00:01:15.360><c> is</c><00:01:15.600><c> a</c><00:01:16.159><c> what</c>
+
+00:01:16.469 --> 00:01:16.479 align:start position:0%
+predictor that we will use is a what
+ 
+
+00:01:16.479 --> 00:01:20.190 align:start position:0%
+predictor that we will use is a what
+kind<00:01:17.159><c> of</c><00:01:17.439><c> predictor</c><00:01:18.439><c> that</c><00:01:18.640><c> chooses</c><00:01:19.200><c> between</c><00:01:19.680><c> a</c>
+
+00:01:20.190 --> 00:01:20.200 align:start position:0%
+kind of predictor that chooses between a
+ 
+
+00:01:20.200 --> 00:01:22.270 align:start position:0%
+kind of predictor that chooses between a
+what<00:01:20.400><c> kind</c><00:01:20.600><c> of</c><00:01:20.799><c> predictor</c><00:01:21.400><c> and</c><00:01:21.640><c> what</c><00:01:21.880><c> kind</c><00:01:22.079><c> of</c>
+
+00:01:22.270 --> 00:01:22.280 align:start position:0%
+what kind of predictor and what kind of
+ 
+
+00:01:22.280 --> 00:01:25.390 align:start position:0%
+what kind of predictor and what kind of
+predictor<00:01:23.200><c> and</c><00:01:23.439><c> this</c><00:01:23.640><c> last</c><00:01:24.040><c> predictor</c><00:01:24.680><c> here</c>
+
+00:01:25.390 --> 00:01:25.400 align:start position:0%
+predictor and this last predictor here
+ 
+
+00:01:25.400 --> 00:01:28.630 align:start position:0%
+predictor and this last predictor here
+itself<00:01:25.960><c> will</c><00:01:26.200><c> choose</c><00:01:26.600><c> between</c><00:01:27.439><c> what</c><00:01:27.720><c> kind</c><00:01:28.320><c> and</c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+itself will choose between what kind and
+ 
+
+00:01:28.640 --> 00:01:30.469 align:start position:0%
+itself will choose between what kind and
+what<00:01:28.920><c> kind</c><00:01:29.320><c> predictor</c>
+
+00:01:30.469 --> 00:01:30.479 align:start position:0%
+what kind predictor
+ 
+
+00:01:30.479 --> 00:01:33.910 align:start position:0%
+what kind predictor
+instead<00:01:30.920><c> of</c><00:01:31.159><c> writing</c><00:01:31.680><c> in</c><00:01:32.640><c> the</c><00:01:32.920><c> names</c><00:01:33.240><c> of</c><00:01:33.399><c> the</c>
+
+00:01:33.910 --> 00:01:33.920 align:start position:0%
+instead of writing in the names of the
+ 
+
+00:01:33.920 --> 00:01:36.630 align:start position:0%
+instead of writing in the names of the
+predictors<00:01:34.920><c> just</c><00:01:35.159><c> select</c><00:01:36.119><c> among</c><00:01:36.479><c> the</c>
+
+00:01:36.630 --> 00:01:36.640 align:start position:0%
+predictors just select among the
+ 
+
+00:01:36.640 --> 00:01:38.310 align:start position:0%
+predictors just select among the
+following<00:01:37.079><c> so</c><00:01:37.200><c> for</c><00:01:37.399><c> each</c><00:01:37.560><c> of</c><00:01:37.680><c> them</c><00:01:37.920><c> say</c><00:01:38.159><c> if</c>
+
+00:01:38.310 --> 00:01:38.320 align:start position:0%
+following so for each of them say if
+ 
+
+00:01:38.320 --> 00:01:41.870 align:start position:0%
+following so for each of them say if
+it's<00:01:38.680><c> a</c><00:01:38.920><c> b</c><00:01:39.159><c> c</c><00:01:39.439><c> d</c><00:01:39.720><c> or</c><00:01:39.920><c> E</c><00:01:40.520><c> A</c><00:01:41.079><c> is</c><00:01:41.240><c> the</c><00:01:41.360><c> two-bit</c>
+
+00:01:41.870 --> 00:01:41.880 align:start position:0%
+it's a b c d or E A is the two-bit
+ 
+
+00:01:41.880 --> 00:01:46.030 align:start position:0%
+it's a b c d or E A is the two-bit
+predictor<00:01:42.840><c> B</c><00:01:43.399><c> is</c><00:01:43.560><c> the</c><00:01:43.759><c> pshare</c><00:01:44.320><c> predictor</c><00:01:45.200><c> C</c><00:01:45.920><c> is</c>
+
+00:01:46.030 --> 00:01:46.040 align:start position:0%
+predictor B is the pshare predictor C is
+ 
+
+00:01:46.040 --> 00:01:49.149 align:start position:0%
+predictor B is the pshare predictor C is
+the<00:01:46.200><c> gshare</c><00:01:46.759><c> predictor</c><00:01:47.640><c> D</c><00:01:48.200><c> is</c><00:01:48.360><c> the</c><00:01:48.560><c> tournament</c>
+
+00:01:49.149 --> 00:01:49.159 align:start position:0%
+the gshare predictor D is the tournament
+ 
+
+00:01:49.159 --> 00:01:52.749 align:start position:0%
+the gshare predictor D is the tournament
+predictor<00:01:50.000><c> e</c><00:01:50.520><c> is</c><00:01:50.640><c> a</c><00:01:50.960><c> hierarchical</c><00:01:51.759><c> predictor</c>
+
+00:01:52.749 --> 00:01:52.759 align:start position:0%
+predictor e is a hierarchical predictor
+ 
+
+00:01:52.759 --> 00:01:56.270 align:start position:0%
+predictor e is a hierarchical predictor
+and<00:01:53.040><c> F</c><00:01:53.640><c> is</c><00:01:53.880><c> the</c><00:01:54.119><c> return</c><00:01:54.360><c> address</c><00:01:54.920><c> stag</c><00:01:55.920><c> so</c>
+
+00:01:56.270 --> 00:01:56.280 align:start position:0%
+and F is the return address stag so
+ 
+
+00:01:56.280 --> 00:01:59.950 align:start position:0%
+and F is the return address stag so
+again<00:01:57.079><c> for</c><00:01:57.399><c> each</c><00:01:57.640><c> of</c><00:01:57.840><c> these</c><00:01:58.159><c> five</c><00:01:58.439><c> boxes</c><00:01:59.399><c> put</c>
+
+00:01:59.950 --> 00:01:59.960 align:start position:0%
+again for each of these five boxes put
+ 
+
+00:01:59.960 --> 00:02:03.029 align:start position:0%
+again for each of these five boxes put
+which<00:02:00.200><c> letter</c><00:02:01.039><c> corresponds</c><00:02:02.039><c> to</c><00:02:02.240><c> the</c>
+
+00:02:03.029 --> 00:02:03.039 align:start position:0%
+which letter corresponds to the
+ 
+
+00:02:03.039 --> 00:02:05.389 align:start position:0%
+which letter corresponds to the
+predictor<00:02:04.039><c> that</c><00:02:04.200><c> is</c><00:02:04.360><c> the</c><00:02:04.560><c> right</c><00:02:04.840><c> answer</c><00:02:05.159><c> for</c>
+
+00:02:05.389 --> 00:02:05.399 align:start position:0%
+predictor that is the right answer for
+ 
+
+00:02:05.399 --> 00:02:08.560 align:start position:0%
+predictor that is the right answer for
+that<00:02:05.640><c> box</c>
+

@@ -1,0 +1,88 @@
+1
+00:00:00,270 --> 00:00:02,760
+ So I got three evictions.
+
+2
+00:00:02,760 --> 00:00:05,380
+ Since the cache is empty, the first five instructions,
+
+3
+00:00:05,380 --> 00:00:09,030
+ which contain four unique addresses, yield the following state.
+
+4
+00:00:09,030 --> 00:00:12,480
+ Notice that the fifth instruction is actually a cache hit.
+
+5
+00:00:12,480 --> 00:00:17,740
+ So what about the next instruction, which accesses a new address, hex AB8D?
+
+6
+00:00:17,740 --> 00:00:20,890
+ LRU evicts the least recently used address.
+
+7
+00:00:20,890 --> 00:00:23,740
+ So for this program, that would be hex BEEF.
+
+8
+00:00:23,740 --> 00:00:26,700
+ In other words of the cached addresses,
+
+9
+00:00:26,700 --> 00:00:30,180
+ it was the first one to be loaded, and hasn't been touched since.
+
+10
+00:00:30,180 --> 00:00:31,960
+ So out with the beef.
+
+11
+00:00:31,960 --> 00:00:36,070
+ And if watching from Texas or Argentina, lo siento.
+
+12
+00:00:36,070 --> 00:00:39,910
+ And so, in with AB8D, which I'd been waiting with bated, but
+
+13
+00:00:39,910 --> 00:00:41,410
+ not abated, breath.
+
+14
+00:00:41,410 --> 00:00:42,790
+ Now notice what happens.
+
+15
+00:00:42,790 --> 00:00:46,060
+ All but one of the remaining instructions is a cache miss.
+
+16
+00:00:46,060 --> 00:00:50,260
+ It seems that the least recently used heuristic evicted exactly the addresses
+
+17
+00:00:50,260 --> 00:00:52,530
+ we would have preferred to have kept.
+
+18
+00:00:52,530 --> 00:00:54,230
+ The result is three evictions,
+
+19
+00:00:54,230 --> 00:00:57,760
+ compared to just one from the optimal replacement policy.
+
+20
+00:00:57,760 --> 00:00:59,690
+ Of course, this is just one example.
+
+21
+00:00:59,690 --> 00:01:03,030
+ A natural and interesting question to ask at this point is, what can you say
+
+22
+00:01:03,030 --> 00:01:03,030
+ in general about the gap between, say, LRU and optimal replacement?
+

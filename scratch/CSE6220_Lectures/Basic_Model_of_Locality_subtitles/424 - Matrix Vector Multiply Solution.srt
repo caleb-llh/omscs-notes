@@ -1,0 +1,148 @@
+1
+00:00:00,280 --> 00:00:04,150
+ The answer is that algorithm two requires fewer transfers.
+
+2
+00:00:04,150 --> 00:00:05,860
+ Let's quickly walk through this.
+
+3
+00:00:05,860 --> 00:00:11,140
+ Consider algorithm one, the outer loop of algorithm one iterates over rows.
+
+4
+00:00:11,140 --> 00:00:16,710
+ Within row i, it loops over columns j starting at zero Notice what happens.
+
+5
+00:00:16,710 --> 00:00:19,610
+ Touching an element of the row causes a block of L-
+
+6
+00:00:19,610 --> 00:00:23,260
+ 1 additional elements from the column to be loaded into fast memory.
+
+7
+00:00:23,260 --> 00:00:26,540
+ You might not be this exact block, this is just an example.
+
+8
+00:00:26,540 --> 00:00:29,980
+ This load is a consequence of column major layout.
+
+9
+00:00:29,980 --> 00:00:31,830
+ Now consider the next iteration.
+
+10
+00:00:31,830 --> 00:00:35,350
+ It will require loading a completely different block of elements.
+
+11
+00:00:35,350 --> 00:00:38,990
+ Remember that the fast memory only has space for two vectors plus a little bit
+
+12
+00:00:38,990 --> 00:00:43,535
+ extra, so eventually, the first block will have to be displaced.
+
+13
+00:00:43,535 --> 00:00:47,245
+ In other words, traversing this column major matrix, rho wise,
+
+14
+00:00:47,245 --> 00:00:50,065
+ incurs block transfers for each row.
+
+15
+00:00:50,065 --> 00:00:52,885
+ I hope you can see that that will lead to a total of n squared
+
+16
+00:00:52,885 --> 00:00:54,935
+ transfers to read a.
+
+17
+00:00:54,935 --> 00:00:56,825
+ Okay, what about algorithm two?
+
+18
+00:00:56,825 --> 00:00:59,255
+ The outer loop goes over columns.
+
+19
+00:00:59,255 --> 00:01:03,180
+ The innermost loop traverses within the column In this case,
+
+20
+00:01:03,180 --> 00:01:06,250
+ the traversal order matches the storage format.
+
+21
+00:01:06,250 --> 00:01:10,000
+ That is, this access pattern does a better job of amortizing the cost of
+
+22
+00:01:10,000 --> 00:01:11,370
+ loading a block.
+
+23
+00:01:11,370 --> 00:01:13,660
+ The total number of additional transfers to read a,
+
+24
+00:01:13,660 --> 00:01:15,980
+ then becomes n squared over L.
+
+25
+00:01:15,980 --> 00:01:19,760
+ In other words, for large values of n, you expect algorithm one to do
+
+26
+00:01:19,760 --> 00:01:24,700
+ L times more transfers, making algorithm two, L times faster.
+
+27
+00:01:24,700 --> 00:01:26,990
+ The important point is that in the sequential RAM model,
+
+28
+00:01:26,990 --> 00:01:28,880
+ these algorithms look identical.
+
+29
+00:01:28,880 --> 00:01:31,620
+ But in this simple two level model with block transfers,
+
+30
+00:01:31,620 --> 00:01:33,090
+ they look very different.
+
+31
+00:01:33,090 --> 00:01:36,230
+ Oh, RAMy, I hardly knew ye.
+
+32
+00:01:36,230 --> 00:01:39,960
+ Before leaving this quiz, let me ask you one last thought question.
+
+33
+00:01:39,960 --> 00:01:42,460
+ This is for those of you who know about caches.
+
+34
+00:01:42,460 --> 00:01:46,980
+ Suppose the fast memory is a fully associative cache with capacity Z
+
+35
+00:01:46,980 --> 00:01:49,990
+ words and line size L in words.
+
+36
+00:01:49,990 --> 00:01:53,960
+ Do you think that caches alone would help algorithm one match the performance
+
+37
+00:01:53,960 --> 00:01:53,960
+ of algorithm two in terms of the number of transfers?
+

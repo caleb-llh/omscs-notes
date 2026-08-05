@@ -1,0 +1,292 @@
+1
+00:00:00,330 --> 00:00:02,990
+ When you design an algorithm for a distributed memory system,
+
+2
+00:00:02,990 --> 00:00:07,280
+ the communication pattern of your algorithm implies a network.
+
+3
+00:00:07,280 --> 00:00:09,820
+ For example, you designed algorithms for scatters and
+
+4
+00:00:09,820 --> 00:00:12,925
+ gathers that worked well on a linear network.
+
+5
+00:00:12,925 --> 00:00:16,865
+ By working well, I mean concurrent messages never overlapped, and
+
+6
+00:00:16,865 --> 00:00:19,343
+ so would not contend for links.
+
+7
+00:00:19,343 --> 00:00:22,275
+ Now, suppose you design an algorithm for a linear network, but
+
+8
+00:00:22,275 --> 00:00:26,295
+ then decide to run it on something else, like a Mesh or Fat Tree.
+
+9
+00:00:26,295 --> 00:00:27,905
+ How well would it work?
+
+10
+00:00:27,905 --> 00:00:32,865
+ To answer this question, you need to map a logical network, to the physical one.
+
+11
+00:00:32,865 --> 00:00:34,435
+ Consider an example.
+
+12
+00:00:34,435 --> 00:00:37,550
+ Suppose you design an algorithm assuming this network.
+
+13
+00:00:37,550 --> 00:00:40,790
+ It's a ring with, in general, p nodes.
+
+14
+00:00:40,790 --> 00:00:44,440
+ Diameter of p over 2 and a bisection width of 2.
+
+15
+00:00:44,440 --> 00:00:49,450
+ Now suppose the underlying machine is physically a 2D Torus.
+
+16
+00:00:49,450 --> 00:00:52,580
+ You first need to decide how to assign nodes of this network,
+
+17
+00:00:52,580 --> 00:00:54,710
+ to nodes of this network.
+
+18
+00:00:54,710 --> 00:00:58,110
+ Let's use a very natural row by row numbering.
+
+19
+00:00:58,110 --> 00:01:01,760
+ So the first 6 nodes of the ring go here.
+
+20
+00:01:01,760 --> 00:01:04,370
+ The second 6 nodes go here.
+
+21
+00:01:04,370 --> 00:01:06,650
+ And, so on, row by row.
+
+22
+00:01:06,650 --> 00:01:08,980
+ In fact, let's redraw the linear network,
+
+23
+00:01:08,980 --> 00:01:11,740
+ according to this numbering scheme.
+
+24
+00:01:11,740 --> 00:01:16,410
+ Notice, that the edges of the 2D Torus, are a superset of the edges of the ring.
+
+25
+00:01:16,410 --> 00:01:18,970
+ So, what does that mean?
+
+26
+00:01:18,970 --> 00:01:22,330
+ If there's no contention for length in the linear network, then there will be
+
+27
+00:01:22,330 --> 00:01:27,250
+ no contention for links in the torus either, at least not under this mapping.
+
+28
+00:01:27,250 --> 00:01:29,090
+ So, what if you did the reverse?
+
+29
+00:01:29,090 --> 00:01:33,040
+ That is, what if this is the logical network, and this is the physical one?
+
+30
+00:01:33,040 --> 00:01:37,310
+ Intuitively, there are a lot more links over here, than there are over here.
+
+31
+00:01:37,310 --> 00:01:39,320
+ So even if there's no contention in the torrus,
+
+32
+00:01:39,320 --> 00:01:41,830
+ there might be a lot of contention in the ring.
+
+33
+00:01:41,830 --> 00:01:45,940
+ To see what would happen, let's start with the same node numbering scheme.
+
+34
+00:01:45,940 --> 00:01:47,950
+ Let's look at a couple of edges.
+
+35
+00:01:47,950 --> 00:01:51,120
+ For example, let's consider this edge from 0 to 6.
+
+36
+00:01:51,120 --> 00:01:54,950
+ In the ring, where's the shortest path between 0 and 6?
+
+37
+00:01:54,950 --> 00:01:56,992
+ It's here.
+
+38
+00:01:56,992 --> 00:01:58,630
+ Now, let's take a different edge.
+
+39
+00:01:58,630 --> 00:02:02,510
+ How about 1 to 7 in the 2D Torus?
+
+40
+00:02:02,510 --> 00:02:05,060
+ In the ring, it must go along this path.
+
+41
+00:02:05,060 --> 00:02:10,330
+ So what if messages, from 0 to 6 and 1 to 7, are trying to go at the same time?
+
+42
+00:02:10,330 --> 00:02:14,880
+ Then the messages might have to serialize, because the paths overlap.
+
+43
+00:02:14,880 --> 00:02:19,270
+ To help model this problem, let me introduce a new property of the mapping.
+
+44
+00:02:19,270 --> 00:02:20,985
+ This property is called congestion.
+
+45
+00:02:20,985 --> 00:02:22,530
+ Achoo.
+
+46
+00:02:22,530 --> 00:02:24,880
+ I'll define congestion as follows.
+
+47
+00:02:24,880 --> 00:02:28,870
+ Given a logical to physical mapping, the congestion of the mapping,
+
+48
+00:02:28,870 --> 00:02:34,690
+ is the maximum number of logical edges that map, to a given physical edge.
+
+49
+00:02:34,690 --> 00:02:35,640
+ That's a mouthful.
+
+50
+00:02:35,640 --> 00:02:39,530
+ For example, suppose the logical network is a ring.
+
+51
+00:02:39,530 --> 00:02:42,750
+ Suppose the physical network is a 2D Torus.
+
+52
+00:02:42,750 --> 00:02:46,470
+ Suppose the mapping is this row by row numbering.
+
+53
+00:02:46,470 --> 00:02:47,660
+ But suppose that a path,
+
+54
+00:02:47,660 --> 00:02:52,690
+ in the logical network, maps two a shortest path in the physical network.
+
+55
+00:02:52,690 --> 00:02:55,050
+ You already argue that there's a one to one mapping,
+
+56
+00:02:55,050 --> 00:02:58,720
+ from each logical edge to each physical edge.
+
+57
+00:02:58,720 --> 00:03:00,400
+ Because of this one to one correspondence,
+
+58
+00:03:00,400 --> 00:03:04,760
+ the congestion of a ring, going to a torus, is just one.
+
+59
+00:03:04,760 --> 00:03:09,070
+ Let's consider the other direction, with the same node to node mapping.
+
+60
+00:03:09,070 --> 00:03:13,300
+ That is suppose the 2D Torus is logical, and the ring is physical.
+
+61
+00:03:13,300 --> 00:03:14,890
+ Now let's pick an edge.
+
+62
+00:03:14,890 --> 00:03:17,450
+ How about this one?
+
+63
+00:03:17,450 --> 00:03:20,450
+ Now this edge also appears on the logical network.
+
+64
+00:03:20,450 --> 00:03:22,740
+ But remember your earlier analysis?
+
+65
+00:03:22,740 --> 00:03:25,100
+ What if you take this edge from 4 to 10?
+
+66
+00:03:25,100 --> 00:03:28,280
+ Or this edge from 3 to 9?
+
+67
+00:03:28,280 --> 00:03:31,657
+ These map to shortest paths that intersect the 5 to 11 edge in
+
+68
+00:03:31,657 --> 00:03:34,000
+ the physical network.
+
+69
+00:03:34,000 --> 00:03:35,750
+ In fact, you can keep going.
+
+70
+00:03:35,750 --> 00:03:40,290
+ All of these edges in this row have to go through the 5 to 11 edge.
+
+71
+00:03:40,290 --> 00:03:41,410
+ So, we have so far,
+
+72
+00:03:41,410 --> 00:03:46,490
+ that at least 6 logical edges map to this 1 physical edge.
+
+73
+00:03:46,490 --> 00:03:46,490
+ Therefore, we have that the congestion has to be at least 6.
+

@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.969 align:start position:0%
+ 
+the<00:00:00.269><c> first</c><00:00:00.570><c> point</c><00:00:00.810><c> we</c><00:00:01.050><c> need</c><00:00:01.170><c> to</c><00:00:01.199><c> consider</c><00:00:01.620><c> is</c>
+
+00:00:01.969 --> 00:00:01.979 align:start position:0%
+the first point we need to consider is
+ 
+
+00:00:01.979 --> 00:00:04.550 align:start position:0%
+the first point we need to consider is
+for<00:00:02.850><c> store</c><00:00:03.179><c> instructions</c><00:00:03.840><c> when</c><00:00:04.110><c> does</c><00:00:04.350><c> the</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+for store instructions when does the
+ 
+
+00:00:04.560 --> 00:00:07.130 align:start position:0%
+for store instructions when does the
+memory<00:00:04.770><c> right</c><00:00:05.190><c> actually</c><00:00:05.430><c> happen</c><00:00:06.240><c> and</c><00:00:06.810><c> it</c>
+
+00:00:07.130 --> 00:00:07.140 align:start position:0%
+memory right actually happen and it
+ 
+
+00:00:07.140 --> 00:00:10.250 align:start position:0%
+memory right actually happen and it
+happens<00:00:07.560><c> at</c><00:00:07.830><c> commit</c><00:00:08.580><c> we</c><00:00:09.269><c> have</c><00:00:09.300><c> to</c><00:00:09.570><c> do</c><00:00:09.929><c> rights</c>
+
+00:00:10.250 --> 00:00:10.260 align:start position:0%
+happens at commit we have to do rights
+ 
+
+00:00:10.260 --> 00:00:13.370 align:start position:0%
+happens at commit we have to do rights
+to<00:00:10.559><c> memory</c><00:00:10.860><c> at</c><00:00:11.099><c> commit</c><00:00:11.550><c> because</c><00:00:12.269><c> it</c><00:00:12.750><c> is</c><00:00:12.900><c> unsafe</c>
+
+00:00:13.370 --> 00:00:13.380 align:start position:0%
+to memory at commit because it is unsafe
+ 
+
+00:00:13.380 --> 00:00:15.680 align:start position:0%
+to memory at commit because it is unsafe
+to<00:00:13.440><c> update</c><00:00:13.950><c> memory</c><00:00:14.340><c> at</c><00:00:14.580><c> any</c><00:00:14.910><c> point</c><00:00:15.210><c> before</c><00:00:15.420><c> the</c>
+
+00:00:15.680 --> 00:00:15.690 align:start position:0%
+to update memory at any point before the
+ 
+
+00:00:15.690 --> 00:00:17.570 align:start position:0%
+to update memory at any point before the
+instruction<00:00:16.109><c> commits</c><00:00:16.410><c> an</c><00:00:16.680><c> instruction</c><00:00:17.550><c> that</c>
+
+00:00:17.570 --> 00:00:17.580 align:start position:0%
+instruction commits an instruction that
+ 
+
+00:00:17.580 --> 00:00:19.310 align:start position:0%
+instruction commits an instruction that
+has<00:00:17.820><c> not</c><00:00:18.000><c> yet</c><00:00:18.180><c> committed</c><00:00:18.510><c> is</c><00:00:18.840><c> subject</c><00:00:19.289><c> to</c>
+
+00:00:19.310 --> 00:00:19.320 align:start position:0%
+has not yet committed is subject to
+ 
+
+00:00:19.320 --> 00:00:21.230 align:start position:0%
+has not yet committed is subject to
+being<00:00:19.560><c> canceled</c><00:00:20.039><c> for</c><00:00:20.340><c> example</c><00:00:20.730><c> because</c><00:00:21.000><c> of</c><00:00:21.119><c> a</c>
+
+00:00:21.230 --> 00:00:21.240 align:start position:0%
+being canceled for example because of a
+ 
+
+00:00:21.240 --> 00:00:23.509 align:start position:0%
+being canceled for example because of a
+branch<00:00:21.480><c> misprediction</c><00:00:22.109><c> or</c><00:00:22.260><c> exception</c><00:00:22.859><c> so</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+branch misprediction or exception so
+ 
+
+00:00:23.519 --> 00:00:26.150 align:start position:0%
+branch misprediction or exception so
+doing<00:00:23.850><c> a</c><00:00:23.939><c> memory</c><00:00:24.240><c> right</c><00:00:24.510><c> prematurely</c><00:00:25.289><c> might</c>
+
+00:00:26.150 --> 00:00:26.160 align:start position:0%
+doing a memory right prematurely might
+ 
+
+00:00:26.160 --> 00:00:28.849 align:start position:0%
+doing a memory right prematurely might
+mean<00:00:26.430><c> that</c><00:00:27.180><c> later</c><00:00:27.420><c> we</c><00:00:27.660><c> have</c><00:00:27.810><c> to</c><00:00:27.840><c> undo</c><00:00:28.289><c> accesses</c>
+
+00:00:28.849 --> 00:00:28.859 align:start position:0%
+mean that later we have to undo accesses
+ 
+
+00:00:28.859 --> 00:00:31.189 align:start position:0%
+mean that later we have to undo accesses
+to<00:00:28.890><c> memory</c><00:00:29.279><c> meaning</c><00:00:29.730><c> we</c><00:00:30.150><c> have</c><00:00:30.300><c> to</c><00:00:30.449><c> kind</c><00:00:30.840><c> of</c><00:00:30.960><c> put</c>
+
+00:00:31.189 --> 00:00:31.199 align:start position:0%
+to memory meaning we have to kind of put
+ 
+
+00:00:31.199 --> 00:00:32.780 align:start position:0%
+to memory meaning we have to kind of put
+back<00:00:31.410><c> the</c><00:00:31.679><c> old</c><00:00:31.890><c> value</c><00:00:32.219><c> of</c><00:00:32.279><c> a</c><00:00:32.399><c> memory</c><00:00:32.640><c> location</c>
+
+00:00:32.780 --> 00:00:32.790 align:start position:0%
+back the old value of a memory location
+ 
+
+00:00:32.790 --> 00:00:35.450 align:start position:0%
+back the old value of a memory location
+which<00:00:33.239><c> is</c><00:00:33.390><c> extremely</c><00:00:33.899><c> difficult</c><00:00:34.079><c> to</c><00:00:34.410><c> do</c><00:00:34.559><c> so</c>
+
+00:00:35.450 --> 00:00:35.460 align:start position:0%
+which is extremely difficult to do so
+ 
+
+00:00:35.460 --> 00:00:38.060 align:start position:0%
+which is extremely difficult to do so
+what<00:00:35.610><c> we</c><00:00:35.730><c> will</c><00:00:35.850><c> do</c><00:00:36.030><c> is</c><00:00:36.450><c> we</c><00:00:37.260><c> will</c><00:00:37.290><c> delay</c><00:00:37.680><c> memory</c>
+
+00:00:38.060 --> 00:00:38.070 align:start position:0%
+what we will do is we will delay memory
+ 
+
+00:00:38.070 --> 00:00:41.180 align:start position:0%
+what we will do is we will delay memory
+rights<00:00:38.370><c> and</c><00:00:38.550><c> stores</c><00:00:38.820><c> until</c><00:00:39.510><c> commit</c><00:00:39.980><c> but</c><00:00:40.980><c> does</c>
+
+00:00:41.180 --> 00:00:41.190 align:start position:0%
+rights and stores until commit but does
+ 
+
+00:00:41.190 --> 00:00:43.580 align:start position:0%
+rights and stores until commit but does
+it<00:00:41.399><c> mean</c><00:00:41.579><c> that</c><00:00:41.910><c> the</c><00:00:42.480><c> load</c><00:00:42.690><c> has</c><00:00:42.960><c> to</c><00:00:42.989><c> also</c><00:00:43.260><c> wait</c>
+
+00:00:43.580 --> 00:00:43.590 align:start position:0%
+it mean that the load has to also wait
+ 
+
+00:00:43.590 --> 00:00:45.080 align:start position:0%
+it mean that the load has to also wait
+until<00:00:43.920><c> commit</c><00:00:44.190><c> before</c><00:00:44.460><c> it</c><00:00:44.579><c> can</c><00:00:44.730><c> get</c><00:00:44.910><c> data</c>
+
+00:00:45.080 --> 00:00:45.090 align:start position:0%
+until commit before it can get data
+ 
+
+00:00:45.090 --> 00:00:46.850 align:start position:0%
+until commit before it can get data
+because<00:00:45.570><c> only</c><00:00:45.780><c> then</c><00:00:46.079><c> the</c><00:00:46.200><c> data</c><00:00:46.410><c> is</c><00:00:46.530><c> in</c><00:00:46.710><c> memory</c>
+
+00:00:46.850 --> 00:00:46.860 align:start position:0%
+because only then the data is in memory
+ 
+
+00:00:46.860 --> 00:00:50.209 align:start position:0%
+because only then the data is in memory
+so<00:00:47.309><c> the</c><00:00:47.430><c> question</c><00:00:47.820><c> is</c><00:00:47.969><c> if</c><00:00:48.360><c> we</c><00:00:48.420><c> write</c><00:00:49.230><c> values</c><00:00:49.890><c> on</c>
+
+00:00:50.209 --> 00:00:50.219 align:start position:0%
+so the question is if we write values on
+ 
+
+00:00:50.219 --> 00:00:52.160 align:start position:0%
+so the question is if we write values on
+stores<00:00:50.489><c> that</c><00:00:50.670><c> commit</c><00:00:51.030><c> where</c><00:00:51.600><c> does</c><00:00:51.809><c> the</c><00:00:51.960><c> load</c>
+
+00:00:52.160 --> 00:00:52.170 align:start position:0%
+stores that commit where does the load
+ 
+
+00:00:52.170 --> 00:00:54.350 align:start position:0%
+stores that commit where does the load
+get<00:00:52.469><c> data</c><00:00:52.680><c> and</c><00:00:53.039><c> we</c><00:00:53.219><c> want</c><00:00:53.489><c> our</c><00:00:53.699><c> loads</c><00:00:53.969><c> to</c><00:00:54.210><c> get</c>
+
+00:00:54.350 --> 00:00:54.360 align:start position:0%
+get data and we want our loads to get
+ 
+
+00:00:54.360 --> 00:00:56.660 align:start position:0%
+get data and we want our loads to get
+data<00:00:54.629><c> as</c><00:00:54.899><c> early</c><00:00:55.260><c> as</c><00:00:55.350><c> possible</c><00:00:55.440><c> so</c><00:00:56.129><c> that</c><00:00:56.309><c> we</c><00:00:56.430><c> can</c>
+
+00:00:56.660 --> 00:00:56.670 align:start position:0%
+data as early as possible so that we can
+ 
+
+00:00:56.670 --> 00:00:58.849 align:start position:0%
+data as early as possible so that we can
+finish<00:00:57.180><c> those</c><00:00:57.510><c> loads</c><00:00:57.780><c> and</c><00:00:58.050><c> supply</c><00:00:58.320><c> that</c><00:00:58.620><c> data</c>
+
+00:00:58.849 --> 00:00:58.859 align:start position:0%
+finish those loads and supply that data
+ 
+
+00:00:58.859 --> 00:01:00.349 align:start position:0%
+finish those loads and supply that data
+to<00:00:59.160><c> the</c><00:00:59.280><c> subsequent</c><00:00:59.670><c> instructions</c><00:01:00.270><c> that</c>
+
+00:01:00.349 --> 00:01:00.359 align:start position:0%
+to the subsequent instructions that
+ 
+
+00:01:00.359 --> 00:01:02.540 align:start position:0%
+to the subsequent instructions that
+depend<00:01:00.690><c> on</c><00:01:00.780><c> the</c><00:01:00.930><c> load</c><00:01:01.079><c> for</c><00:01:01.710><c> this</c><00:01:01.859><c> purpose</c><00:01:02.340><c> we</c>
+
+00:01:02.540 --> 00:01:02.550 align:start position:0%
+depend on the load for this purpose we
+ 
+
+00:01:02.550 --> 00:01:04.310 align:start position:0%
+depend on the load for this purpose we
+introduce<00:01:02.969><c> a</c><00:01:03.000><c> structure</c><00:01:03.539><c> called</c><00:01:03.780><c> load/store</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+introduce a structure called load/store
+ 
+
+00:01:04.320 --> 00:01:06.620 align:start position:0%
+introduce a structure called load/store
+queue<00:01:04.350><c> and</c><00:01:04.920><c> that</c><00:01:05.670><c> is</c><00:01:05.850><c> where</c><00:01:06.030><c> we</c><00:01:06.119><c> will</c><00:01:06.240><c> keep</c><00:01:06.390><c> all</c>
+
+00:01:06.620 --> 00:01:06.630 align:start position:0%
+queue and that is where we will keep all
+ 
+
+00:01:06.630 --> 00:01:08.990 align:start position:0%
+queue and that is where we will keep all
+loads<00:01:06.900><c> and</c><00:01:07.080><c> stores</c><00:01:07.320><c> and</c><00:01:07.770><c> we</c><00:01:08.159><c> will</c><00:01:08.310><c> next</c><00:01:08.820><c> see</c>
+
+00:01:08.990 --> 00:01:09.000 align:start position:0%
+loads and stores and we will next see
+ 
+
+00:01:09.000 --> 00:01:13.100 align:start position:0%
+loads and stores and we will next see
+how<00:01:09.630><c> loads</c><00:01:09.900><c> get</c><00:01:10.140><c> data</c><00:01:10.380><c> from</c><00:01:10.650><c> the</c><00:01:10.830><c> stores</c>
+

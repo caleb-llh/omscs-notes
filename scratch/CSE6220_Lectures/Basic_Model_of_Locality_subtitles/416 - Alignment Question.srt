@@ -1,0 +1,24 @@
+1
+00:00:00,280 --> 00:00:03,270
+ Suppose you're summing the elements of an array, but I tell you nothing about
+
+2
+00:00:03,270 --> 00:00:07,470
+ how the array is aligned, with respect to the transfer size L.
+
+3
+00:00:07,470 --> 00:00:11,960
+ In the worst case, how many transfers might you need to read the array?
+
+4
+00:00:11,960 --> 00:00:14,770
+ Note that I want an exact answer, not an asymptotic one.
+
+5
+00:00:14,770 --> 00:00:17,080
+ And if you need things, like floors and
+
+6
+00:00:17,080 --> 00:00:17,080
+ ceilings, feel free to use these in your symbolic answer.
+

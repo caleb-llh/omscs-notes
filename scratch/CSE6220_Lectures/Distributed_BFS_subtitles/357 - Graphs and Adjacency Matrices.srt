@@ -1,0 +1,108 @@
+1
+00:00:00,470 --> 00:00:03,210
+ When thinking about graph algorithms in the distributed setting,
+
+2
+00:00:03,210 --> 00:00:06,540
+ it will often be very helpful to look at a graph as an adjacency matrix.
+
+3
+00:00:06,540 --> 00:00:09,400
+ Now, if you haven't seen that before or you just need a refresher,
+
+4
+00:00:09,400 --> 00:00:11,780
+ here's a crash course on how it works.
+
+5
+00:00:11,780 --> 00:00:14,980
+ Start by giving each vertex an integer label.
+
+6
+00:00:14,980 --> 00:00:18,090
+ Next, create a matrix to represent this graph.
+
+7
+00:00:18,090 --> 00:00:22,630
+ Let's call it A, with row and one column for every vertex.
+
+8
+00:00:22,630 --> 00:00:25,310
+ Now for any edge that goes from a source vertex i,
+
+9
+00:00:25,310 --> 00:00:30,420
+ to a destination vertex j, we'll put a one in the ij entry of a.
+
+10
+00:00:30,420 --> 00:00:34,260
+ Otherwise, if an entry is empty, assume that it has a value of zero,
+
+11
+00:00:34,260 --> 00:00:36,600
+ which means no edge.
+
+12
+00:00:36,600 --> 00:00:38,830
+ For instance, let's start with vertex zero.
+
+13
+00:00:38,830 --> 00:00:42,220
+ It's adjacent to vertices one and five.
+
+14
+00:00:42,220 --> 00:00:47,040
+ So, let's go to row zero and place ones at entry one and entry five.
+
+15
+00:00:47,040 --> 00:00:51,180
+ Now, this graph is undirected, so both rows one and
+
+16
+00:00:51,180 --> 00:00:54,540
+ row five will also have a one in column zero.
+
+17
+00:00:54,540 --> 00:00:58,390
+ Put another way, the matrix for an undirected graph is symmetric.
+
+18
+00:00:58,390 --> 00:01:02,340
+ In linear algebraic terms, we say A is equal to A transpose.
+
+19
+00:01:02,340 --> 00:01:05,600
+ Now, let's do the same thing for vertex one.
+
+20
+00:01:05,600 --> 00:01:08,570
+ It's adjacent to vertices one, two, and six.
+
+21
+00:01:08,570 --> 00:01:11,090
+ So let's mark those entries of A.
+
+22
+00:01:11,090 --> 00:01:13,560
+ And of course we'll update the symmetric image.
+
+23
+00:01:13,560 --> 00:01:16,010
+ When you're all done you should get this matrix.
+
+24
+00:01:16,010 --> 00:01:19,780
+ In general consider any undirected graph, call it G.
+
+25
+00:01:19,780 --> 00:01:24,430
+ Let's suppose that it has n as in Nancy vertices and m as in Michael edges.
+
+26
+00:01:24,430 --> 00:01:27,210
+ It's adjacency matrix will be n by n.
+
+27
+00:01:27,210 --> 00:01:27,210
+ And since it's undirected, it will be symmetric with two m non-zeroes.
+

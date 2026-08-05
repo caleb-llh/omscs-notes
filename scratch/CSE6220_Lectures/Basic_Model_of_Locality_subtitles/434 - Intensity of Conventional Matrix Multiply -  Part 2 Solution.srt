@@ -1,0 +1,100 @@
+1
+00:00:00,250 --> 00:00:04,970
+ The two answers I was looking are either little b or square root of Z.
+
+2
+00:00:04,970 --> 00:00:07,830
+ These answers are equivalent because of our assumption about the size of
+
+3
+00:00:07,830 --> 00:00:09,370
+ fast memory.
+
+4
+00:00:09,370 --> 00:00:11,000
+ The work is still n cubed.
+
+5
+00:00:11,000 --> 00:00:13,600
+ What about the transfers?
+
+6
+00:00:13,600 --> 00:00:18,170
+ Each block read or write involves the transfer of a b by b, or b squared,
+
+7
+00:00:18,170 --> 00:00:19,720
+ sized block.
+
+8
+00:00:19,720 --> 00:00:23,970
+ Each loop nest does n divided by b iterations.
+
+9
+00:00:23,970 --> 00:00:27,330
+ >From these two bits, we can now count out the total number of reads.
+
+10
+00:00:27,330 --> 00:00:29,910
+ For example, let's take the C blocks.
+
+11
+00:00:29,910 --> 00:00:32,890
+ Each block read involves b squared words, and
+
+12
+00:00:32,890 --> 00:00:37,170
+ this is repeated, n/b squared, times.
+
+13
+00:00:37,170 --> 00:00:42,310
+ So that's a total of n squared reads, same thing goes for the writes.
+
+14
+00:00:42,310 --> 00:00:43,930
+ What about a and b?
+
+15
+00:00:43,930 --> 00:00:49,780
+ In each case, there are b squared reeds nested in n/b cubed iterations.
+
+16
+00:00:49,780 --> 00:00:53,770
+ So that's a total of n cubed, divided by b reads.
+
+17
+00:00:53,770 --> 00:00:55,310
+ The same thing holds for matrix b.
+
+18
+00:00:55,310 --> 00:01:00,120
+ The total number of transfers is therefore dominated by an n cubed over
+
+19
+00:01:00,120 --> 00:01:01,520
+ b term.
+
+20
+00:01:01,520 --> 00:01:06,900
+ The intensity is just the ratio of the work and the transfers, or O of b.
+
+21
+00:01:06,900 --> 00:01:11,444
+ And by our assumption of the size of b in relation to the fast memory size,
+
+22
+00:01:11,444 --> 00:01:14,140
+ that's the same thing as square root of Z.
+
+23
+00:01:14,140 --> 00:01:17,777
+ Remember that the conventional matrix matrix multiply algorithm has
+
+24
+00:01:17,777 --> 00:01:19,563
+ an intensity that is constant, so
+
+25
+00:01:19,563 --> 00:01:19,563
+ blocking is a much better idea algorithmically speaking.
+

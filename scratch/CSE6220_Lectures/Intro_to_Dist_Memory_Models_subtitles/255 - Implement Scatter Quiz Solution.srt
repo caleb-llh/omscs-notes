@@ -1,0 +1,20 @@
+1
+00:00:00,420 --> 00:00:06,680
+ Remember that a process can only do, at most, one simultaneous send and receive.
+
+2
+00:00:06,680 --> 00:00:09,880
+ In this case, the root is doing all of the sends.
+
+3
+00:00:09,880 --> 00:00:12,490
+ So the sends have to proceed one send at a time.
+
+4
+00:00:12,490 --> 00:00:17,320
+ That means you'll have to pay for at least P minus 1 sends.
+
+5
+00:00:17,320 --> 00:00:17,320
+ So then the best answer is this one, which is linear and P.
+

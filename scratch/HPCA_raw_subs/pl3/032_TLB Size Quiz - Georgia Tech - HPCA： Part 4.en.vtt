@@ -1,0 +1,120 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.829 align:start position:0%
+ 
+so<00:00:00.240><c> now</c><00:00:00.399><c> that</c><00:00:00.560><c> we</c><00:00:00.719><c> have</c><00:00:00.880><c> seen</c><00:00:01.120><c> what</c><00:00:01.280><c> the</c><00:00:01.439><c> tlb</c>
+
+00:00:01.829 --> 00:00:01.839 align:start position:0%
+so now that we have seen what the tlb
+ 
+
+00:00:01.839 --> 00:00:03.270 align:start position:0%
+so now that we have seen what the tlb
+size<00:00:02.080><c> should</c><00:00:02.320><c> be</c>
+
+00:00:03.270 --> 00:00:03.280 align:start position:0%
+size should be
+ 
+
+00:00:03.280 --> 00:00:05.349 align:start position:0%
+size should be
+let's<00:00:03.520><c> see</c><00:00:03.840><c> if</c><00:00:04.000><c> we</c><00:00:04.160><c> understood</c><00:00:04.640><c> it</c><00:00:04.799><c> well</c>
+
+00:00:05.349 --> 00:00:05.359 align:start position:0%
+let's see if we understood it well
+ 
+
+00:00:05.359 --> 00:00:07.909 align:start position:0%
+let's see if we understood it well
+suppose<00:00:05.759><c> we</c><00:00:05.920><c> have</c><00:00:06.080><c> a</c><00:00:06.160><c> processor</c><00:00:07.200><c> with</c><00:00:07.359><c> a</c><00:00:07.520><c> 32</c>
+
+00:00:07.909 --> 00:00:07.919 align:start position:0%
+suppose we have a processor with a 32
+ 
+
+00:00:07.919 --> 00:00:11.270 align:start position:0%
+suppose we have a processor with a 32
+kilobyte<00:00:08.400><c> cache</c><00:00:08.800><c> and</c><00:00:08.960><c> a</c><00:00:09.120><c> 64</c><00:00:09.679><c> byte</c><00:00:10.000><c> block</c><00:00:10.320><c> size</c>
+
+00:00:11.270 --> 00:00:11.280 align:start position:0%
+kilobyte cache and a 64 byte block size
+ 
+
+00:00:11.280 --> 00:00:13.669 align:start position:0%
+kilobyte cache and a 64 byte block size
+suppose<00:00:11.920><c> we</c><00:00:12.080><c> also</c><00:00:12.400><c> have</c><00:00:12.799><c> virtual</c><00:00:13.200><c> to</c><00:00:13.280><c> physical</c>
+
+00:00:13.669 --> 00:00:13.679 align:start position:0%
+suppose we also have virtual to physical
+ 
+
+00:00:13.679 --> 00:00:15.829 align:start position:0%
+suppose we also have virtual to physical
+address<00:00:14.080><c> translation</c><00:00:14.719><c> with</c><00:00:14.960><c> a</c><00:00:15.120><c> 4</c><00:00:15.360><c> kilobyte</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+address translation with a 4 kilobyte
+ 
+
+00:00:15.839 --> 00:00:18.710 align:start position:0%
+address translation with a 4 kilobyte
+page<00:00:16.160><c> size</c><00:00:16.960><c> the</c><00:00:17.199><c> question</c><00:00:17.520><c> for</c><00:00:17.760><c> you</c><00:00:18.000><c> is</c><00:00:18.560><c> how</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+page size the question for you is how
+ 
+
+00:00:18.720 --> 00:00:20.870 align:start position:0%
+page size the question for you is how
+many<00:00:19.039><c> tlb</c><00:00:19.439><c> entries</c><00:00:19.760><c> do</c><00:00:19.920><c> we</c><00:00:20.080><c> need</c><00:00:20.480><c> if</c><00:00:20.640><c> we</c><00:00:20.720><c> want</c>
+
+00:00:20.870 --> 00:00:20.880 align:start position:0%
+many tlb entries do we need if we want
+ 
+
+00:00:20.880 --> 00:00:23.429 align:start position:0%
+many tlb entries do we need if we want
+to<00:00:21.039><c> have</c><00:00:21.279><c> similar</c><00:00:21.760><c> miss</c><00:00:22.000><c> rates</c><00:00:22.400><c> in</c><00:00:22.560><c> this</c><00:00:22.800><c> cache</c>
+
+00:00:23.429 --> 00:00:23.439 align:start position:0%
+to have similar miss rates in this cache
+ 
+
+00:00:23.439 --> 00:00:26.790 align:start position:0%
+to have similar miss rates in this cache
+and<00:00:24.000><c> in</c><00:00:24.240><c> our</c><00:00:24.400><c> tlb</c><00:00:25.279><c> the</c><00:00:25.519><c> choices</c><00:00:25.920><c> you</c><00:00:26.080><c> have</c><00:00:26.400><c> are</c>
+
+00:00:26.790 --> 00:00:26.800 align:start position:0%
+and in our tlb the choices you have are
+ 
+
+00:00:26.800 --> 00:00:29.750 align:start position:0%
+and in our tlb the choices you have are
+8<00:00:27.359><c> to</c><00:00:27.519><c> 512</c><00:00:28.400><c> entries</c>
+
+00:00:29.750 --> 00:00:29.760 align:start position:0%
+8 to 512 entries
+ 
+
+00:00:29.760 --> 00:00:33.110 align:start position:0%
+8 to 512 entries
+64<00:00:30.480><c> to</c><00:00:30.880><c> 32</c><00:00:31.519><c> 000</c>
+
+00:00:33.110 --> 00:00:33.120 align:start position:0%
+64 to 32 000
+ 
+
+00:00:33.120 --> 00:00:36.389 align:start position:0%
+64 to 32 000
+fewer<00:00:33.440><c> than</c><00:00:33.680><c> 64</c><00:00:34.239><c> entries</c><00:00:34.719><c> or</c><00:00:34.960><c> more</c><00:00:35.120><c> than</c><00:00:35.280><c> 256</c>
+
+00:00:36.389 --> 00:00:36.399 align:start position:0%
+fewer than 64 entries or more than 256
+ 
+
+00:00:36.399 --> 00:00:40.559 align:start position:0%
+fewer than 64 entries or more than 256
+entries<00:00:37.040><c> choose</c><00:00:37.280><c> the</c><00:00:37.360><c> best</c><00:00:37.680><c> answer</c><00:00:38.079><c> here</c>
+

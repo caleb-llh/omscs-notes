@@ -1,0 +1,72 @@
+1
+00:00:00,350 --> 00:00:03,880
+ Recall the length eight bitonic splitting network.
+
+2
+00:00:03,880 --> 00:00:09,360
+ Given an input sequence that's bitonic, it computes two bitonic subsequences.
+
+3
+00:00:09,360 --> 00:00:12,120
+ Notice that the elements of the first subsequence are all less than or
+
+4
+00:00:12,120 --> 00:00:15,340
+ equal to the elements of the second subsequence.
+
+5
+00:00:15,340 --> 00:00:19,670
+ Now you could view this circuit as a DAG of independent comparators.
+
+6
+00:00:19,670 --> 00:00:21,100
+ Here are the nodes.
+
+7
+00:00:21,100 --> 00:00:22,972
+ Here's the corresponding DAG.
+
+8
+00:00:22,972 --> 00:00:27,570
+ Now from this observation, you can write down a very natural parallel scheme.
+
+9
+00:00:27,570 --> 00:00:31,310
+ Your scheme takes an input sequence of length n, and for simplicity,
+
+10
+00:00:31,310 --> 00:00:33,490
+ let's suppose that n is even.
+
+11
+00:00:33,490 --> 00:00:37,030
+ You then iterate over all pairs in parallel.
+
+12
+00:00:37,030 --> 00:00:39,360
+ For each pair, you determine the min and the max and
+
+13
+00:00:39,360 --> 00:00:42,370
+ you override the corresponding elements of the output.
+
+14
+00:00:42,370 --> 00:00:43,560
+ Easy.
+
+15
+00:00:43,560 --> 00:00:45,408
+ There is one subtle point.
+
+16
+00:00:45,408 --> 00:00:50,673
+ In the work-span model, the fix size circuit has a constant depth or span.
+
+17
+00:00:50,673 --> 00:00:52,515
+ But remember that for general and
+
+18
+00:00:52,515 --> 00:00:52,515
+ our convention was to assume logarithmic span for things like parallel for loops.
+

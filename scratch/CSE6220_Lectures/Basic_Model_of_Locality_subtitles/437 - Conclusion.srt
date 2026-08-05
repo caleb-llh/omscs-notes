@@ -1,0 +1,76 @@
+1
+00:00:00,540 --> 00:00:04,430
+ I realize the two-level model may seem like a bit of a cartoon compared to
+
+2
+00:00:04,430 --> 00:00:07,420
+ real memory hierarchies that you know from either other courses or
+
+3
+00:00:07,420 --> 00:00:09,490
+ maybe even real life.
+
+4
+00:00:09,490 --> 00:00:10,598
+ So why bother?
+
+5
+00:00:10,598 --> 00:00:15,070
+ Well, the two-level model really does capture the most important
+
+6
+00:00:15,070 --> 00:00:20,176
+ performance effects of real memories, namely capacity and transfer size.
+
+7
+00:00:20,176 --> 00:00:23,511
+ Now, there's been a lot of research on locality-sensitive algorithms based on
+
+8
+00:00:23,511 --> 00:00:24,270
+ this model.
+
+9
+00:00:24,270 --> 00:00:29,300
+ So, it's helpful to know it in order to come up with sensible ways to extend it.
+
+10
+00:00:29,300 --> 00:00:33,440
+ To exploit a memory hierarchy algorithmically, what can you do?
+
+11
+00:00:33,440 --> 00:00:36,780
+ The main technique you thought about in this lesson is to organize your data
+
+12
+00:00:36,780 --> 00:00:39,980
+ access to increase data use.
+
+13
+00:00:39,980 --> 00:00:42,610
+ The other important pair of concepts in this lesson were those of
+
+14
+00:00:42,610 --> 00:00:46,110
+ computational intensity and machine balance.
+
+15
+00:00:46,110 --> 00:00:49,680
+ Here's a general rule of thumb based on those two concepts.
+
+16
+00:00:49,680 --> 00:00:53,580
+ If you want your algorithm to scale well to future memory hierarchies,
+
+17
+00:00:53,580 --> 00:00:57,010
+ then you want the intensity of your algorithm to at least match, but
+
+18
+00:00:57,010 --> 00:01:00,400
+ preferably exceed the balance point of the machine.
+
+19
+00:01:00,400 --> 00:01:00,400
+ You'll take this idea much further in some of the other lessons.
+

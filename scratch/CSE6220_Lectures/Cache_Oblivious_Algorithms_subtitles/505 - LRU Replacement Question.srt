@@ -1,0 +1,72 @@
+1
+00:00:00,230 --> 00:00:03,750
+ Suppose you execute the first nine loads of this program.
+
+2
+00:00:03,750 --> 00:00:05,939
+ Assume that you start with an empty cache.
+
+3
+00:00:05,939 --> 00:00:08,870
+ In the ideal cache model there would be one cache eviction, and
+
+4
+00:00:08,870 --> 00:00:11,010
+ here's what the state of the cache would look like.
+
+5
+00:00:11,010 --> 00:00:13,930
+ This is what happens with an optimal replacement policy
+
+6
+00:00:13,930 --> 00:00:17,650
+ which sees all future accesses when deciding what to evict.
+
+7
+00:00:17,650 --> 00:00:18,810
+ And you might be asking yourself,
+
+8
+00:00:18,810 --> 00:00:23,310
+ self, how does that compare to a more realistic replacement policy?
+
+9
+00:00:23,310 --> 00:00:26,960
+ One candidate that you might know about is the least recently used replacement
+
+10
+00:00:26,960 --> 00:00:29,130
+ policy or LRU.
+
+11
+00:00:29,130 --> 00:00:30,480
+ As its name suggests,
+
+12
+00:00:30,480 --> 00:00:35,600
+ LRU evicts the address that was accessed most distantly in the past.
+
+13
+00:00:35,600 --> 00:00:36,970
+ So here's my question.
+
+14
+00:00:36,970 --> 00:00:41,540
+ Under LRU replacement how many evictions would you expect to see?
+
+15
+00:00:41,540 --> 00:00:43,570
+ Again, start from an empty cache.
+
+16
+00:00:43,570 --> 00:00:46,848
+ Now I'll put some empty boxes here so you can use this for scratch space.
+
+17
+00:00:46,848 --> 00:00:49,710
+ However, the grade-o-bot won't be checking these,
+
+18
+00:00:49,710 --> 00:00:49,710
+ it'll just be checking the number of evictions.
+

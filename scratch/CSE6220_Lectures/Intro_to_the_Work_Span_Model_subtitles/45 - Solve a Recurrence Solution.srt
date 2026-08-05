@@ -1,0 +1,12 @@
+1
+00:00:00,350 --> 00:00:02,377
+ So the answer is (log n) time.
+
+2
+00:00:02,377 --> 00:00:05,215
+ And again, you can solve this using a master theorem or
+
+3
+00:00:05,215 --> 00:00:05,215
+ you can look at the recursion and write out a few terms.
+

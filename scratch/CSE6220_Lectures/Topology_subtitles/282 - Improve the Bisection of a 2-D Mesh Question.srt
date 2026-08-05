@@ -1,0 +1,40 @@
+1
+00:00:00,430 --> 00:00:02,940
+ Suppose you're given this 2D mesh.
+
+2
+00:00:02,940 --> 00:00:05,730
+ It's bisection width is square root of P.
+
+3
+00:00:05,730 --> 00:00:08,480
+ Suppose you want to double the bisection width.
+
+4
+00:00:08,480 --> 00:00:10,470
+ Where do you need to add links?
+
+5
+00:00:10,470 --> 00:00:14,940
+ Will connecting the opposite corners double the bisection width?
+
+6
+00:00:14,940 --> 00:00:18,560
+ Or will adding a ring of links connecting the corners double
+
+7
+00:00:18,560 --> 00:00:20,550
+ the bisection width?
+
+8
+00:00:20,550 --> 00:00:24,440
+ Or do you need to add wraparound links from left to right and top to bottom?
+
+9
+00:00:24,440 --> 00:00:27,600
+ I want you to check all that apply or
+
+10
+00:00:27,600 --> 00:00:27,600
+ check none if you think none of them will work.
+

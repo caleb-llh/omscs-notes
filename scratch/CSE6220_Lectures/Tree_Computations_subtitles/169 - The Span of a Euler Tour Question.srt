@@ -1,0 +1,48 @@
+1
+00:00:00,280 --> 00:00:03,400
+ Suppose you apply the Euler Tour technique to the post order
+
+2
+00:00:03,400 --> 00:00:04,160
+ numbering problem.
+
+3
+00:00:04,160 --> 00:00:07,260
+ And let's further suppose that the list scan or
+
+4
+00:00:07,260 --> 00:00:10,410
+ list prefix sum that you use is work optimal.
+
+5
+00:00:10,410 --> 00:00:14,050
+ Under that assumption, it turns out that the overall work of an Euler Tour is
+
+6
+00:00:14,050 --> 00:00:16,800
+ linear, but what about the span?
+
+7
+00:00:16,800 --> 00:00:20,960
+ If you just look at step three, its span is logarithm make an end.
+
+8
+00:00:20,960 --> 00:00:23,850
+ But does that mean the overall Euler tour approach will
+
+9
+00:00:23,850 --> 00:00:25,940
+ also have logarithmic span?
+
+10
+00:00:25,940 --> 00:00:30,340
+ Or do you think the span should somehow depend on the shape of the tree?
+
+11
+00:00:30,340 --> 00:00:35,720
+ Consider the claim that the overall span or depth of this algorithm is log n.
+
+12
+00:00:35,720 --> 00:00:35,720
+ True or false?
+

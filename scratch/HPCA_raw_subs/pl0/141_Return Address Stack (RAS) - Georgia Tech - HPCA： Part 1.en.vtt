@@ -1,0 +1,504 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.870 align:start position:0%
+ 
+now<00:00:00.359><c> let's</c><00:00:00.599><c> talk</c><00:00:00.840><c> about</c><00:00:01.000><c> the</c><00:00:01.319><c> return</c><00:00:01.520><c> address</c>
+
+00:00:01.870 --> 00:00:01.880 align:start position:0%
+now let's talk about the return address
+ 
+
+00:00:01.880 --> 00:00:04.789 align:start position:0%
+now let's talk about the return address
+stack<00:00:02.200><c> predictor</c><00:00:02.760><c> or</c><00:00:03.080><c> Ras</c><00:00:03.919><c> we</c><00:00:04.080><c> have</c><00:00:04.240><c> seen</c><00:00:04.640><c> that</c>
+
+00:00:04.789 --> 00:00:04.799 align:start position:0%
+stack predictor or Ras we have seen that
+ 
+
+00:00:04.799 --> 00:00:07.110 align:start position:0%
+stack predictor or Ras we have seen that
+there<00:00:04.920><c> are</c><00:00:05.200><c> several</c><00:00:05.680><c> types</c><00:00:05.960><c> of</c><00:00:06.480><c> branches</c><00:00:07.000><c> that</c>
+
+00:00:07.110 --> 00:00:07.120 align:start position:0%
+there are several types of branches that
+ 
+
+00:00:07.120 --> 00:00:09.310 align:start position:0%
+there are several types of branches that
+we<00:00:07.200><c> need</c><00:00:07.359><c> to</c><00:00:07.560><c> predict</c><00:00:08.360><c> for</c><00:00:08.880><c> conditional</c>
+
+00:00:09.310 --> 00:00:09.320 align:start position:0%
+we need to predict for conditional
+ 
+
+00:00:09.320 --> 00:00:11.230 align:start position:0%
+we need to predict for conditional
+branches<00:00:10.200><c> we</c><00:00:10.360><c> need</c><00:00:10.519><c> to</c><00:00:10.719><c> predict</c><00:00:11.080><c> the</c>
+
+00:00:11.230 --> 00:00:11.240 align:start position:0%
+branches we need to predict the
+ 
+
+00:00:11.240 --> 00:00:13.910 align:start position:0%
+branches we need to predict the
+direction<00:00:11.880><c> is</c><00:00:12.000><c> it</c><00:00:12.200><c> taken</c><00:00:12.559><c> or</c><00:00:12.759><c> not</c><00:00:13.400><c> and</c><00:00:13.559><c> by</c><00:00:13.719><c> now</c>
+
+00:00:13.910 --> 00:00:13.920 align:start position:0%
+direction is it taken or not and by now
+ 
+
+00:00:13.920 --> 00:00:16.269 align:start position:0%
+direction is it taken or not and by now
+we<00:00:14.040><c> have</c><00:00:14.200><c> seen</c><00:00:14.519><c> a</c><00:00:14.679><c> number</c><00:00:14.920><c> of</c><00:00:15.080><c> predictors</c><00:00:16.080><c> that</c>
+
+00:00:16.269 --> 00:00:16.279 align:start position:0%
+we have seen a number of predictors that
+ 
+
+00:00:16.279 --> 00:00:18.029 align:start position:0%
+we have seen a number of predictors that
+predict<00:00:16.640><c> Direction</c><00:00:17.080><c> reasonably</c><00:00:17.600><c> well</c><00:00:17.800><c> for</c>
+
+00:00:18.029 --> 00:00:18.039 align:start position:0%
+predict Direction reasonably well for
+ 
+
+00:00:18.039 --> 00:00:20.470 align:start position:0%
+predict Direction reasonably well for
+these<00:00:18.240><c> types</c><00:00:18.439><c> of</c><00:00:18.640><c> things</c><00:00:19.600><c> if</c><00:00:19.840><c> this</c><00:00:20.000><c> branch</c><00:00:20.320><c> is</c>
+
+00:00:20.470 --> 00:00:20.480 align:start position:0%
+these types of things if this branch is
+ 
+
+00:00:20.480 --> 00:00:23.230 align:start position:0%
+these types of things if this branch is
+taken<00:00:21.439><c> we</c><00:00:21.560><c> will</c><00:00:21.760><c> need</c><00:00:21.960><c> to</c><00:00:22.279><c> also</c><00:00:22.680><c> predict</c><00:00:23.039><c> the</c>
+
+00:00:23.230 --> 00:00:23.240 align:start position:0%
+taken we will need to also predict the
+ 
+
+00:00:23.240 --> 00:00:26.550 align:start position:0%
+taken we will need to also predict the
+target<00:00:23.640><c> address</c><00:00:24.439><c> and</c><00:00:24.599><c> for</c><00:00:24.880><c> that</c><00:00:25.439><c> a</c><00:00:25.599><c> simple</c><00:00:25.960><c> btb</c>
+
+00:00:26.550 --> 00:00:26.560 align:start position:0%
+target address and for that a simple btb
+ 
+
+00:00:26.560 --> 00:00:28.230 align:start position:0%
+target address and for that a simple btb
+that<00:00:26.720><c> just</c><00:00:26.920><c> remembers</c><00:00:27.359><c> the</c><00:00:27.519><c> previous</c><00:00:27.920><c> Target</c>
+
+00:00:28.230 --> 00:00:28.240 align:start position:0%
+that just remembers the previous Target
+ 
+
+00:00:28.240 --> 00:00:30.029 align:start position:0%
+that just remembers the previous Target
+when<00:00:28.400><c> the</c><00:00:28.519><c> branch</c><00:00:28.800><c> was</c><00:00:28.960><c> taken</c><00:00:29.320><c> will</c><00:00:29.480><c> do</c><00:00:29.599><c> just</c>
+
+00:00:30.029 --> 00:00:30.039 align:start position:0%
+when the branch was taken will do just
+ 
+
+00:00:30.039 --> 00:00:31.950 align:start position:0%
+when the branch was taken will do just
+fine<00:00:30.359><c> because</c><00:00:30.599><c> we</c><00:00:30.759><c> always</c><00:00:31.080><c> have</c><00:00:31.240><c> the</c><00:00:31.359><c> same</c>
+
+00:00:31.950 --> 00:00:31.960 align:start position:0%
+fine because we always have the same
+ 
+
+00:00:31.960 --> 00:00:34.549 align:start position:0%
+fine because we always have the same
+Target<00:00:32.960><c> another</c><00:00:33.360><c> type</c><00:00:33.559><c> of</c><00:00:33.719><c> branches</c><00:00:34.200><c> are</c>
+
+00:00:34.549 --> 00:00:34.559 align:start position:0%
+Target another type of branches are
+ 
+
+00:00:34.559 --> 00:00:37.709 align:start position:0%
+Target another type of branches are
+unconditional<00:00:35.320><c> jumps</c><00:00:35.800><c> function</c><00:00:36.200><c> calls</c><00:00:36.719><c> Etc</c>
+
+00:00:37.709 --> 00:00:37.719 align:start position:0%
+unconditional jumps function calls Etc
+ 
+
+00:00:37.719 --> 00:00:39.910 align:start position:0%
+unconditional jumps function calls Etc
+as<00:00:37.960><c> far</c><00:00:38.160><c> as</c><00:00:38.360><c> their</c><00:00:38.680><c> direction</c><00:00:39.079><c> is</c><00:00:39.280><c> concerned</c>
+
+00:00:39.910 --> 00:00:39.920 align:start position:0%
+as far as their direction is concerned
+ 
+
+00:00:39.920 --> 00:00:41.869 align:start position:0%
+as far as their direction is concerned
+it's<00:00:40.120><c> trivial</c><00:00:40.680><c> they</c><00:00:40.800><c> are</c><00:00:41.000><c> always</c>
+
+00:00:41.869 --> 00:00:41.879 align:start position:0%
+it's trivial they are always
+ 
+
+00:00:41.879 --> 00:00:45.069 align:start position:0%
+it's trivial they are always
+taken<00:00:42.879><c> so</c><00:00:43.160><c> even</c><00:00:43.440><c> the</c><00:00:43.600><c> simplest</c><00:00:44.079><c> predictor</c><00:00:44.920><c> of</c>
+
+00:00:45.069 --> 00:00:45.079 align:start position:0%
+taken so even the simplest predictor of
+ 
+
+00:00:45.079 --> 00:00:46.990 align:start position:0%
+taken so even the simplest predictor of
+the<00:00:45.280><c> direction</c><00:00:45.640><c> predictor</c><00:00:46.239><c> type</c><00:00:46.559><c> will</c><00:00:46.760><c> do</c>
+
+00:00:46.990 --> 00:00:47.000 align:start position:0%
+the direction predictor type will do
+ 
+
+00:00:47.000 --> 00:00:49.750 align:start position:0%
+the direction predictor type will do
+well<00:00:47.320><c> on</c><00:00:47.559><c> these</c><00:00:48.320><c> as</c><00:00:48.480><c> far</c><00:00:48.640><c> as</c><00:00:48.760><c> the</c><00:00:48.960><c> target</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+well on these as far as the target
+ 
+
+00:00:49.760 --> 00:00:51.790 align:start position:0%
+well on these as far as the target
+prediction<00:00:50.199><c> is</c><00:00:50.399><c> concerned</c><00:00:50.879><c> most</c><00:00:51.120><c> of</c><00:00:51.320><c> these</c>
+
+00:00:51.790 --> 00:00:51.800 align:start position:0%
+prediction is concerned most of these
+ 
+
+00:00:51.800 --> 00:00:53.950 align:start position:0%
+prediction is concerned most of these
+either<00:00:52.079><c> jump</c><00:00:52.320><c> to</c><00:00:52.440><c> a</c><00:00:52.600><c> label</c><00:00:53.199><c> or</c><00:00:53.440><c> call</c><00:00:53.719><c> a</c>
+
+00:00:53.950 --> 00:00:53.960 align:start position:0%
+either jump to a label or call a
+ 
+
+00:00:53.960 --> 00:00:56.869 align:start position:0%
+either jump to a label or call a
+specific<00:00:54.559><c> function</c><00:00:55.559><c> so</c><00:00:55.760><c> a</c><00:00:55.879><c> simple</c><00:00:56.199><c> btb</c><00:00:56.719><c> that</c>
+
+00:00:56.869 --> 00:00:56.879 align:start position:0%
+specific function so a simple btb that
+ 
+
+00:00:56.879 --> 00:00:58.869 align:start position:0%
+specific function so a simple btb that
+just<00:00:57.079><c> remembers</c><00:00:57.520><c> the</c><00:00:57.719><c> previous</c><00:00:58.160><c> Target</c><00:00:58.680><c> when</c>
+
+00:00:58.869 --> 00:00:58.879 align:start position:0%
+just remembers the previous Target when
+ 
+
+00:00:58.879 --> 00:01:01.069 align:start position:0%
+just remembers the previous Target when
+this<00:00:59.320><c> instruction</c><00:00:59.760><c> was</c><00:01:00.120><c> executed</c><00:01:00.640><c> will</c><00:01:00.840><c> do</c>
+
+00:01:01.069 --> 00:01:01.079 align:start position:0%
+this instruction was executed will do
+ 
+
+00:01:01.079 --> 00:01:04.109 align:start position:0%
+this instruction was executed will do
+just<00:01:01.480><c> fine</c><00:01:02.480><c> so</c><00:01:02.680><c> it</c><00:01:02.879><c> looks</c><00:01:03.239><c> like</c><00:01:03.719><c> we</c><00:01:03.879><c> have</c>
+
+00:01:04.109 --> 00:01:04.119 align:start position:0%
+just fine so it looks like we have
+ 
+
+00:01:04.119 --> 00:01:06.030 align:start position:0%
+just fine so it looks like we have
+handled<00:01:04.839><c> both</c><00:01:05.080><c> the</c><00:01:05.239><c> direction</c><00:01:05.720><c> and</c><00:01:05.880><c> the</c>
+
+00:01:06.030 --> 00:01:06.040 align:start position:0%
+handled both the direction and the
+ 
+
+00:01:06.040 --> 00:01:08.230 align:start position:0%
+handled both the direction and the
+target<00:01:06.439><c> for</c><00:01:06.680><c> most</c><00:01:06.920><c> of</c><00:01:07.040><c> the</c><00:01:07.240><c> common</c><00:01:07.840><c> Branch</c>
+
+00:01:08.230 --> 00:01:08.240 align:start position:0%
+target for most of the common Branch
+ 
+
+00:01:08.240 --> 00:01:12.149 align:start position:0%
+target for most of the common Branch
+types<00:01:09.240><c> however</c><00:01:10.159><c> there</c><00:01:10.320><c> is</c><00:01:10.520><c> a</c><00:01:10.759><c> type</c><00:01:10.960><c> of</c><00:01:11.119><c> Branch</c>
+
+00:01:12.149 --> 00:01:12.159 align:start position:0%
+types however there is a type of Branch
+ 
+
+00:01:12.159 --> 00:01:15.190 align:start position:0%
+types however there is a type of Branch
+specifically<00:01:13.159><c> the</c><00:01:13.360><c> function</c><00:01:14.040><c> returns</c><00:01:15.040><c> which</c>
+
+00:01:15.190 --> 00:01:15.200 align:start position:0%
+specifically the function returns which
+ 
+
+00:01:15.200 --> 00:01:17.149 align:start position:0%
+specifically the function returns which
+is<00:01:15.479><c> always</c><00:01:15.960><c> taken</c><00:01:16.360><c> so</c><00:01:16.560><c> the</c><00:01:16.720><c> direction</c>
+
+00:01:17.149 --> 00:01:17.159 align:start position:0%
+is always taken so the direction
+ 
+
+00:01:17.159 --> 00:01:19.789 align:start position:0%
+is always taken so the direction
+prediction<00:01:17.560><c> will</c><00:01:17.759><c> do</c><00:01:18.040><c> just</c><00:01:18.360><c> fine</c><00:01:19.360><c> but</c><00:01:19.600><c> the</c>
+
+00:01:19.789 --> 00:01:19.799 align:start position:0%
+prediction will do just fine but the
+ 
+
+00:01:19.799 --> 00:01:22.510 align:start position:0%
+prediction will do just fine but the
+target<00:01:20.400><c> is</c><00:01:20.560><c> often</c><00:01:21.119><c> difficult</c><00:01:21.280><c> to</c><00:01:21.479><c> predict</c><00:01:22.320><c> if</c>
+
+00:01:22.510 --> 00:01:22.520 align:start position:0%
+target is often difficult to predict if
+ 
+
+00:01:22.520 --> 00:01:24.830 align:start position:0%
+target is often difficult to predict if
+this<00:01:22.759><c> function</c><00:01:23.640><c> is</c><00:01:23.960><c> always</c><00:01:24.200><c> called</c><00:01:24.479><c> from</c><00:01:24.680><c> the</c>
+
+00:01:24.830 --> 00:01:24.840 align:start position:0%
+this function is always called from the
+ 
+
+00:01:24.840 --> 00:01:27.510 align:start position:0%
+this function is always called from the
+same<00:01:25.159><c> place</c><00:01:25.920><c> then</c><00:01:26.119><c> the</c><00:01:26.479><c> return</c><00:01:27.000><c> will</c><00:01:27.240><c> always</c>
+
+00:01:27.510 --> 00:01:27.520 align:start position:0%
+same place then the return will always
+ 
+
+00:01:27.520 --> 00:01:29.429 align:start position:0%
+same place then the return will always
+jump<00:01:27.880><c> back</c><00:01:28.040><c> to</c><00:01:28.200><c> the</c><00:01:28.360><c> same</c><00:01:28.600><c> location</c><00:01:29.119><c> and</c><00:01:29.280><c> in</c>
+
+00:01:29.429 --> 00:01:29.439 align:start position:0%
+jump back to the same location and in
+ 
+
+00:01:29.439 --> 00:01:31.670 align:start position:0%
+jump back to the same location and in
+that<00:01:29.560><c> case</c><00:01:29.759><c> the</c><00:01:29.880><c> the</c><00:01:29.960><c> btb</c><00:01:30.360><c> will</c><00:01:30.479><c> do</c><00:01:30.720><c> fine</c><00:01:31.280><c> but</c>
+
+00:01:31.670 --> 00:01:31.680 align:start position:0%
+that case the the btb will do fine but
+ 
+
+00:01:31.680 --> 00:01:33.870 align:start position:0%
+that case the the btb will do fine but
+usually<00:01:32.240><c> we</c><00:01:32.399><c> create</c><00:01:32.680><c> a</c><00:01:32.880><c> function</c><00:01:33.399><c> so</c><00:01:33.600><c> that</c><00:01:33.759><c> it</c>
+
+00:01:33.870 --> 00:01:33.880 align:start position:0%
+usually we create a function so that it
+ 
+
+00:01:33.880 --> 00:01:35.590 align:start position:0%
+usually we create a function so that it
+can<00:01:34.000><c> be</c><00:01:34.159><c> called</c><00:01:34.439><c> from</c><00:01:34.640><c> multiple</c><00:01:35.159><c> places</c><00:01:35.479><c> in</c>
+
+00:01:35.590 --> 00:01:35.600 align:start position:0%
+can be called from multiple places in
+ 
+
+00:01:35.600 --> 00:01:38.030 align:start position:0%
+can be called from multiple places in
+the<00:01:35.960><c> program</c><00:01:36.960><c> something</c><00:01:37.320><c> like</c><00:01:37.520><c> this</c><00:01:37.680><c> we</c><00:01:37.880><c> have</c>
+
+00:01:38.030 --> 00:01:38.040 align:start position:0%
+the program something like this we have
+ 
+
+00:01:38.040 --> 00:01:39.429 align:start position:0%
+the program something like this we have
+an<00:01:38.200><c> instruction</c><00:01:38.680><c> that</c><00:01:38.799><c> can</c><00:01:38.960><c> call</c><00:01:39.240><c> this</c>
+
+00:01:39.429 --> 00:01:39.439 align:start position:0%
+an instruction that can call this
+ 
+
+00:01:39.439 --> 00:01:42.429 align:start position:0%
+an instruction that can call this
+function<00:01:40.399><c> somewhere</c><00:01:40.840><c> else</c><00:01:41.079><c> in</c><00:01:41.240><c> the</c><00:01:41.439><c> program</c>
+
+00:01:42.429 --> 00:01:42.439 align:start position:0%
+function somewhere else in the program
+ 
+
+00:01:42.439 --> 00:01:44.030 align:start position:0%
+function somewhere else in the program
+we<00:01:42.600><c> have</c><00:01:42.920><c> another</c><00:01:43.320><c> instruction</c><00:01:43.759><c> that</c><00:01:43.880><c> can</c>
+
+00:01:44.030 --> 00:01:44.040 align:start position:0%
+we have another instruction that can
+ 
+
+00:01:44.040 --> 00:01:47.230 align:start position:0%
+we have another instruction that can
+call<00:01:44.280><c> the</c><00:01:44.399><c> same</c><00:01:44.719><c> function</c><00:01:45.719><c> this</c><00:01:46.119><c> function</c><00:01:47.119><c> has</c>
+
+00:01:47.230 --> 00:01:47.240 align:start position:0%
+call the same function this function has
+ 
+
+00:01:47.240 --> 00:01:50.190 align:start position:0%
+call the same function this function has
+a<00:01:47.600><c> return</c><00:01:48.320><c> instruction</c><00:01:49.320><c> and</c><00:01:49.479><c> now</c><00:01:49.719><c> the</c><00:01:49.920><c> problem</c>
+
+00:01:50.190 --> 00:01:50.200 align:start position:0%
+a return instruction and now the problem
+ 
+
+00:01:50.200 --> 00:01:52.590 align:start position:0%
+a return instruction and now the problem
+is<00:01:50.360><c> that</c><00:01:50.600><c> this</c><00:01:50.920><c> return</c><00:01:51.240><c> instruction</c><00:01:52.200><c> should</c>
+
+00:01:52.590 --> 00:01:52.600 align:start position:0%
+is that this return instruction should
+ 
+
+00:01:52.600 --> 00:01:56.550 align:start position:0%
+is that this return instruction should
+either<00:01:53.159><c> jump</c><00:01:54.119><c> here</c><00:01:54.520><c> or</c><00:01:54.880><c> here</c><00:01:55.759><c> depending</c><00:01:56.200><c> on</c>
+
+00:01:56.550 --> 00:01:56.560 align:start position:0%
+either jump here or here depending on
+ 
+
+00:01:56.560 --> 00:01:59.429 align:start position:0%
+either jump here or here depending on
+where<00:01:56.759><c> it</c><00:01:56.880><c> was</c><00:01:57.079><c> called</c><00:01:57.439><c> from</c><00:01:58.240><c> the</c><00:01:58.399><c> btb</c><00:01:59.119><c> in</c><00:01:59.280><c> this</c>
+
+00:01:59.429 --> 00:01:59.439 align:start position:0%
+where it was called from the btb in this
+ 
+
+00:01:59.439 --> 00:02:02.109 align:start position:0%
+where it was called from the btb in this
+case<00:01:59.600><c> will</c><00:01:59.960><c> not</c><00:02:00.119><c> do</c><00:02:00.320><c> too</c><00:02:00.600><c> well</c><00:02:01.600><c> why</c><00:02:01.880><c> well</c>
+
+00:02:02.109 --> 00:02:02.119 align:start position:0%
+case will not do too well why well
+ 
+
+00:02:02.119 --> 00:02:04.749 align:start position:0%
+case will not do too well why well
+because<00:02:02.560><c> when</c><00:02:02.680><c> we</c><00:02:02.880><c> call</c><00:02:03.280><c> this</c><00:02:03.880><c> and</c><00:02:04.320><c> return</c>
+
+00:02:04.749 --> 00:02:04.759 align:start position:0%
+because when we call this and return
+ 
+
+00:02:04.759 --> 00:02:07.630 align:start position:0%
+because when we call this and return
+here<00:02:05.479><c> the</c><00:02:05.640><c> btb</c><00:02:06.079><c> will</c><00:02:06.320><c> remember</c><00:02:06.799><c> that</c><00:02:07.079><c> this</c><00:02:07.240><c> is</c>
+
+00:02:07.630 --> 00:02:07.640 align:start position:0%
+here the btb will remember that this is
+ 
+
+00:02:07.640 --> 00:02:10.469 align:start position:0%
+here the btb will remember that this is
+the<00:02:07.880><c> target</c><00:02:08.679><c> address</c><00:02:09.679><c> then</c><00:02:09.840><c> we</c><00:02:10.000><c> reach</c><00:02:10.280><c> this</c>
+
+00:02:10.469 --> 00:02:10.479 align:start position:0%
+the target address then we reach this
+ 
+
+00:02:10.479 --> 00:02:13.229 align:start position:0%
+the target address then we reach this
+point<00:02:10.800><c> call</c><00:02:11.319><c> again</c><00:02:12.319><c> return</c><00:02:12.800><c> we</c><00:02:12.920><c> should</c><00:02:13.120><c> be</c>
+
+00:02:13.229 --> 00:02:13.239 align:start position:0%
+point call again return we should be
+ 
+
+00:02:13.239 --> 00:02:15.910 align:start position:0%
+point call again return we should be
+returning<00:02:13.800><c> here</c><00:02:14.080><c> but</c><00:02:14.239><c> the</c><00:02:14.400><c> btb</c><00:02:14.840><c> is</c><00:02:15.000><c> predicting</c>
+
+00:02:15.910 --> 00:02:15.920 align:start position:0%
+returning here but the btb is predicting
+ 
+
+00:02:15.920 --> 00:02:19.229 align:start position:0%
+returning here but the btb is predicting
+this<00:02:16.920><c> so</c><00:02:17.120><c> we</c><00:02:17.239><c> have</c><00:02:17.360><c> a</c><00:02:17.599><c> misprediction</c><00:02:18.599><c> the</c><00:02:18.760><c> btb</c>
+
+00:02:19.229 --> 00:02:19.239 align:start position:0%
+this so we have a misprediction the btb
+ 
+
+00:02:19.239 --> 00:02:20.869 align:start position:0%
+this so we have a misprediction the btb
+now<00:02:19.400><c> will</c><00:02:19.599><c> learn</c><00:02:19.920><c> that</c><00:02:20.120><c> this</c><00:02:20.239><c> is</c><00:02:20.360><c> the</c><00:02:20.519><c> correct</c>
+
+00:02:20.869 --> 00:02:20.879 align:start position:0%
+now will learn that this is the correct
+ 
+
+00:02:20.879 --> 00:02:23.869 align:start position:0%
+now will learn that this is the correct
+Target<00:02:21.879><c> next</c><00:02:22.160><c> we</c><00:02:22.319><c> come</c><00:02:22.599><c> back</c><00:02:23.080><c> to</c><00:02:23.319><c> this</c><00:02:23.519><c> code</c>
+
+00:02:23.869 --> 00:02:23.879 align:start position:0%
+Target next we come back to this code
+ 
+
+00:02:23.879 --> 00:02:26.430 align:start position:0%
+Target next we come back to this code
+again<00:02:24.560><c> and</c><00:02:24.800><c> again</c><00:02:25.160><c> the</c><00:02:25.319><c> btb</c><00:02:25.760><c> is</c><00:02:25.840><c> predicting</c>
+
+00:02:26.430 --> 00:02:26.440 align:start position:0%
+again and again the btb is predicting
+ 
+
+00:02:26.440 --> 00:02:28.190 align:start position:0%
+again and again the btb is predicting
+here<00:02:26.760><c> while</c><00:02:26.920><c> we</c><00:02:27.040><c> should</c><00:02:27.200><c> be</c><00:02:27.360><c> returning</c><00:02:27.920><c> here</c>
+
+00:02:28.190 --> 00:02:28.200 align:start position:0%
+here while we should be returning here
+ 
+
+00:02:28.200 --> 00:02:29.910 align:start position:0%
+here while we should be returning here
+and<00:02:28.360><c> then</c><00:02:28.560><c> again</c><00:02:28.760><c> and</c><00:02:28.959><c> again</c><00:02:29.160><c> so</c><00:02:29.360><c> it</c><00:02:29.519><c> never</c>
+
+00:02:29.910 --> 00:02:29.920 align:start position:0%
+and then again and again so it never
+ 
+
+00:02:29.920 --> 00:02:32.589 align:start position:0%
+and then again and again so it never
+predicts<00:02:30.319><c> correctly</c><00:02:31.040><c> so</c><00:02:31.239><c> the</c><00:02:31.440><c> question</c><00:02:31.760><c> is</c>
+
+00:02:32.589 --> 00:02:32.599 align:start position:0%
+predicts correctly so the question is
+ 
+
+00:02:32.599 --> 00:02:38.040 align:start position:0%
+predicts correctly so the question is
+how<00:02:32.800><c> can</c><00:02:32.959><c> we</c><00:02:33.160><c> predict</c><00:02:34.000><c> returns</c><00:02:35.040><c> accurately</c>
+

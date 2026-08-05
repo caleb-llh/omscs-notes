@@ -1,0 +1,112 @@
+1
+00:00:00,700 --> 00:00:03,555
+ This lesson is about sorting in a distributed memory system.
+
+2
+00:00:03,555 --> 00:00:07,192
+ [SOUND] I know, I know.
+
+3
+00:00:07,192 --> 00:00:10,960
+ >> Why we gotta sort all the time?
+
+4
+00:00:10,960 --> 00:00:15,512
+ >> Sorting is worse than oatmeal cooked with water.
+
+5
+00:00:15,512 --> 00:00:19,009
+ [SOUND] >> [LAUGH] Sorting is
+
+6
+00:00:19,009 --> 00:00:20,706
+ the opposite of fun.
+
+7
+00:00:20,706 --> 00:00:23,220
+ [LAUGH] >> I'd rather jab myself in the eye with
+
+8
+00:00:23,220 --> 00:00:26,235
+ a hot poker than learn yet another sorting algorithm.
+
+9
+00:00:26,235 --> 00:00:30,360
+ >> [SOUND] >> Sorting gives me a rash.
+
+10
+00:00:30,360 --> 00:00:34,010
+ >> Sorting.
+
+11
+00:00:34,010 --> 00:00:34,740
+ >> Okay.
+
+12
+00:00:34,740 --> 00:00:36,090
+ Are you done whining?
+
+13
+00:00:36,090 --> 00:00:38,240
+ Sorting is really important.
+
+14
+00:00:38,240 --> 00:00:41,250
+ Not because you're going to go through life with people asking you to write
+
+15
+00:00:41,250 --> 00:00:43,420
+ sorting algorithms all the time.
+
+16
+00:00:43,420 --> 00:00:46,160
+ It's partly because it's a fundamental primitive.
+
+17
+00:00:46,160 --> 00:00:50,150
+ for example, every time a map reduce computation executes somewhere,
+
+18
+00:00:50,150 --> 00:00:52,280
+ data is being sorted.
+
+19
+00:00:52,280 --> 00:00:55,450
+ But more importantly, you should pay attention to the sorting lesson because
+
+20
+00:00:55,450 --> 00:01:00,170
+ it's good practice, for learning how to think about algorithms in general.
+
+21
+00:01:00,170 --> 00:01:04,200
+ And since it's a core part of CS101, I think it's really helpful for
+
+22
+00:01:04,200 --> 00:01:07,660
+ you to see how to sort in different computing environments.
+
+23
+00:01:07,660 --> 00:01:10,840
+ For example, sorting sequentially, versus sorting for
+
+24
+00:01:10,840 --> 00:01:15,070
+ a vector parallel system, versus sorting for a shared memory system versus,
+
+25
+00:01:15,070 --> 00:01:17,450
+ of course, distributed memory systems.
+
+26
+00:01:17,450 --> 00:01:20,250
+ So, please do your best and stick with it.
+
+27
+00:01:20,250 --> 00:01:23,660
+ I think you'll be pleased to learn some really neat ideas, especially when you
+
+28
+00:01:23,660 --> 00:01:23,660
+ compare them to the ideas about sorting that you probably already know.
+

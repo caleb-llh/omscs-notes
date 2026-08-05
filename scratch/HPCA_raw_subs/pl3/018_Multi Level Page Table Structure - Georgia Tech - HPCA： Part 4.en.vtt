@@ -1,0 +1,320 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:02.270 align:start position:0%
+ 
+so<00:00:00.359><c> the</c><00:00:00.680><c> multi-level</c><00:00:01.360><c> page</c><00:00:01.599><c> table</c><00:00:02.000><c> still</c>
+
+00:00:02.270 --> 00:00:02.280 align:start position:0%
+so the multi-level page table still
+ 
+
+00:00:02.280 --> 00:00:04.710 align:start position:0%
+so the multi-level page table still
+looks<00:00:02.520><c> at</c><00:00:02.679><c> the</c><00:00:02.840><c> virtual</c><00:00:03.199><c> address</c><00:00:04.000><c> in</c><00:00:04.160><c> terms</c><00:00:04.440><c> of</c>
+
+00:00:04.710 --> 00:00:04.720 align:start position:0%
+looks at the virtual address in terms of
+ 
+
+00:00:04.720 --> 00:00:08.350 align:start position:0%
+looks at the virtual address in terms of
+page<00:00:05.040><c> offset</c><00:00:06.040><c> and</c><00:00:06.319><c> page</c><00:00:06.600><c> number</c><00:00:07.600><c> but</c><00:00:07.919><c> instead</c>
+
+00:00:08.350 --> 00:00:08.360 align:start position:0%
+page offset and page number but instead
+ 
+
+00:00:08.360 --> 00:00:10.790 align:start position:0%
+page offset and page number but instead
+of<00:00:08.559><c> using</c><00:00:09.000><c> the</c><00:00:09.240><c> entire</c><00:00:09.840><c> page</c><00:00:10.120><c> number</c><00:00:10.559><c> to</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+of using the entire page number to
+ 
+
+00:00:10.800 --> 00:00:13.629 align:start position:0%
+of using the entire page number to
+Access<00:00:11.200><c> one</c><00:00:11.480><c> huge</c><00:00:11.840><c> table</c><00:00:12.519><c> it</c><00:00:12.759><c> partitions</c><00:00:13.480><c> the</c>
+
+00:00:13.629 --> 00:00:13.639 align:start position:0%
+Access one huge table it partitions the
+ 
+
+00:00:13.639 --> 00:00:15.990 align:start position:0%
+Access one huge table it partitions the
+page<00:00:13.920><c> number</c><00:00:14.440><c> into</c><00:00:14.719><c> the</c><00:00:14.879><c> so-called</c><00:00:15.440><c> inner</c>
+
+00:00:15.990 --> 00:00:16.000 align:start position:0%
+page number into the so-called inner
+ 
+
+00:00:16.000 --> 00:00:19.230 align:start position:0%
+page number into the so-called inner
+page<00:00:16.320><c> number</c><00:00:17.039><c> and</c><00:00:17.279><c> the</c><00:00:17.439><c> outer</c><00:00:18.160><c> page</c><00:00:18.439><c> number</c>
+
+00:00:19.230 --> 00:00:19.240 align:start position:0%
+page number and the outer page number
+ 
+
+00:00:19.240 --> 00:00:22.390 align:start position:0%
+page number and the outer page number
+the<00:00:19.439><c> outer</c><00:00:20.240><c> page</c><00:00:20.519><c> number</c><00:00:21.119><c> tells</c><00:00:21.480><c> us</c><00:00:22.039><c> which</c>
+
+00:00:22.390 --> 00:00:22.400 align:start position:0%
+the outer page number tells us which
+ 
+
+00:00:22.400 --> 00:00:24.509 align:start position:0%
+the outer page number tells us which
+part<00:00:22.800><c> of</c><00:00:22.960><c> the</c><00:00:23.119><c> large</c><00:00:23.439><c> pay</c><00:00:23.720><c> table</c><00:00:24.080><c> we</c><00:00:24.199><c> would</c><00:00:24.359><c> be</c>
+
+00:00:24.509 --> 00:00:24.519 align:start position:0%
+part of the large pay table we would be
+ 
+
+00:00:24.519 --> 00:00:28.029 align:start position:0%
+part of the large pay table we would be
+using<00:00:25.480><c> the</c><00:00:25.640><c> inner</c><00:00:26.199><c> part</c><00:00:26.760><c> tells</c><00:00:27.119><c> us</c><00:00:27.720><c> which</c>
+
+00:00:28.029 --> 00:00:28.039 align:start position:0%
+using the inner part tells us which
+ 
+
+00:00:28.039 --> 00:00:30.310 align:start position:0%
+using the inner part tells us which
+specific<00:00:28.560><c> entry</c><00:00:29.039><c> in</c><00:00:29.240><c> that</c><00:00:29.400><c> large</c><00:00:29.679><c> page</c><00:00:30.039><c> table</c>
+
+00:00:30.310 --> 00:00:30.320 align:start position:0%
+specific entry in that large page table
+ 
+
+00:00:30.320 --> 00:00:32.310 align:start position:0%
+specific entry in that large page table
+we<00:00:30.439><c> would</c><00:00:30.599><c> be</c><00:00:30.759><c> using</c><00:00:31.400><c> instead</c><00:00:31.720><c> of</c><00:00:31.920><c> having</c><00:00:32.160><c> the</c>
+
+00:00:32.310 --> 00:00:32.320 align:start position:0%
+we would be using instead of having the
+ 
+
+00:00:32.320 --> 00:00:35.270 align:start position:0%
+we would be using instead of having the
+large<00:00:32.640><c> page</c><00:00:32.920><c> table</c><00:00:33.719><c> the</c><00:00:33.879><c> outer</c><00:00:34.360><c> page</c><00:00:34.600><c> number</c>
+
+00:00:35.270 --> 00:00:35.280 align:start position:0%
+large page table the outer page number
+ 
+
+00:00:35.280 --> 00:00:37.950 align:start position:0%
+large page table the outer page number
+is<00:00:35.440><c> now</c><00:00:35.680><c> used</c><00:00:36.000><c> to</c><00:00:36.200><c> index</c><00:00:36.640><c> into</c><00:00:36.920><c> the</c><00:00:37.120><c> outer</c><00:00:37.600><c> page</c>
+
+00:00:37.950 --> 00:00:37.960 align:start position:0%
+is now used to index into the outer page
+ 
+
+00:00:37.960 --> 00:00:41.110 align:start position:0%
+is now used to index into the outer page
+table<00:00:38.800><c> and</c><00:00:39.079><c> each</c><00:00:39.399><c> entry</c><00:00:40.079><c> in</c><00:00:40.239><c> the</c><00:00:40.399><c> outer</c><00:00:40.800><c> page</c>
+
+00:00:41.110 --> 00:00:41.120 align:start position:0%
+table and each entry in the outer page
+ 
+
+00:00:41.120 --> 00:00:43.790 align:start position:0%
+table and each entry in the outer page
+table<00:00:41.960><c> tells</c><00:00:42.239><c> us</c><00:00:42.480><c> where</c><00:00:42.680><c> to</c><00:00:42.920><c> find</c><00:00:43.640><c> the</c>
+
+00:00:43.790 --> 00:00:43.800 align:start position:0%
+table tells us where to find the
+ 
+
+00:00:43.800 --> 00:00:46.630 align:start position:0%
+table tells us where to find the
+so-called<00:00:44.320><c> inner</c><00:00:44.760><c> page</c><00:00:45.079><c> table</c><00:00:45.960><c> once</c><00:00:46.160><c> we</c><00:00:46.360><c> find</c>
+
+00:00:46.630 --> 00:00:46.640 align:start position:0%
+so-called inner page table once we find
+ 
+
+00:00:46.640 --> 00:00:49.270 align:start position:0%
+so-called inner page table once we find
+the<00:00:46.760><c> inner</c><00:00:47.120><c> page</c><00:00:47.360><c> table</c><00:00:48.160><c> we</c><00:00:48.360><c> take</c><00:00:48.640><c> the</c><00:00:48.840><c> inner</c>
+
+00:00:49.270 --> 00:00:49.280 align:start position:0%
+the inner page table we take the inner
+ 
+
+00:00:49.280 --> 00:00:52.590 align:start position:0%
+the inner page table we take the inner
+page<00:00:49.559><c> number</c><00:00:50.480><c> and</c><00:00:50.680><c> use</c><00:00:50.960><c> it</c><00:00:51.239><c> to</c><00:00:51.559><c> index</c><00:00:52.199><c> into</c><00:00:52.480><c> the</c>
+
+00:00:52.590 --> 00:00:52.600 align:start position:0%
+page number and use it to index into the
+ 
+
+00:00:52.600 --> 00:00:55.590 align:start position:0%
+page number and use it to index into the
+inner<00:00:52.960><c> page</c><00:00:53.239><c> table</c><00:00:54.000><c> and</c><00:00:54.239><c> what</c><00:00:54.399><c> we</c><00:00:54.559><c> find</c><00:00:55.039><c> there</c>
+
+00:00:55.590 --> 00:00:55.600 align:start position:0%
+inner page table and what we find there
+ 
+
+00:00:55.600 --> 00:00:58.310 align:start position:0%
+inner page table and what we find there
+is<00:00:55.800><c> the</c><00:00:55.960><c> actual</c><00:00:56.280><c> frame</c><00:00:56.640><c> number</c><00:00:56.960><c> to</c><00:00:57.320><c> AIS</c>
+
+00:00:58.310 --> 00:00:58.320 align:start position:0%
+is the actual frame number to AIS
+ 
+
+00:00:58.320 --> 00:01:00.229 align:start position:0%
+is the actual frame number to AIS
+another<00:00:58.760><c> entry</c><00:00:59.120><c> in</c><00:00:59.280><c> the</c><00:00:59.440><c> outer</c><00:00:59.719><c> page</c><00:01:00.000><c> page</c>
+
+00:01:00.229 --> 00:01:00.239 align:start position:0%
+another entry in the outer page page
+ 
+
+00:01:00.239 --> 00:01:03.150 align:start position:0%
+another entry in the outer page page
+table<00:01:00.840><c> will</c><00:01:01.120><c> point</c><00:01:01.760><c> to</c><00:01:02.000><c> a</c><00:01:02.280><c> different</c><00:01:02.760><c> inner</c>
+
+00:01:03.150 --> 00:01:03.160 align:start position:0%
+table will point to a different inner
+ 
+
+00:01:03.160 --> 00:01:05.710 align:start position:0%
+table will point to a different inner
+page<00:01:03.480><c> table</c><00:01:04.439><c> so</c><00:01:04.720><c> pretty</c><00:01:04.960><c> much</c><00:01:05.239><c> what</c><00:01:05.360><c> we</c><00:01:05.519><c> have</c>
+
+00:01:05.710 --> 00:01:05.720 align:start position:0%
+page table so pretty much what we have
+ 
+
+00:01:05.720 --> 00:01:09.270 align:start position:0%
+page table so pretty much what we have
+is<00:01:05.920><c> the</c><00:01:06.200><c> outer</c><00:01:07.000><c> page</c><00:01:07.280><c> number</c><00:01:08.040><c> tells</c><00:01:08.320><c> us</c><00:01:08.880><c> which</c>
+
+00:01:09.270 --> 00:01:09.280 align:start position:0%
+is the outer page number tells us which
+ 
+
+00:01:09.280 --> 00:01:11.990 align:start position:0%
+is the outer page number tells us which
+of<00:01:09.439><c> the</c><00:01:09.640><c> small</c><00:01:10.040><c> inner</c><00:01:10.400><c> page</c><00:01:10.640><c> tables</c><00:01:11.000><c> to</c><00:01:11.200><c> use</c>
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+of the small inner page tables to use
+ 
+
+00:01:12.000 --> 00:01:14.590 align:start position:0%
+of the small inner page tables to use
+and<00:01:12.159><c> the</c><00:01:12.320><c> inner</c><00:01:12.799><c> page</c><00:01:13.080><c> number</c><00:01:13.720><c> tells</c><00:01:14.040><c> us</c><00:01:14.360><c> where</c>
+
+00:01:14.590 --> 00:01:14.600 align:start position:0%
+and the inner page number tells us where
+ 
+
+00:01:14.600 --> 00:01:17.030 align:start position:0%
+and the inner page number tells us where
+in<00:01:14.799><c> each</c><00:01:15.040><c> of</c><00:01:15.200><c> the</c><00:01:15.640><c> page</c><00:01:15.960><c> tables</c><00:01:16.400><c> we</c><00:01:16.640><c> need</c><00:01:16.840><c> to</c>
+
+00:01:17.030 --> 00:01:17.040 align:start position:0%
+in each of the page tables we need to
+ 
+
+00:01:17.040 --> 00:01:19.749 align:start position:0%
+in each of the page tables we need to
+look<00:01:17.240><c> at</c><00:01:18.080><c> so</c><00:01:18.280><c> it</c><00:01:18.400><c> seems</c><00:01:18.759><c> like</c><00:01:19.000><c> this</c><00:01:19.119><c> is</c><00:01:19.360><c> just</c><00:01:19.600><c> a</c>
+
+00:01:19.749 --> 00:01:19.759 align:start position:0%
+look at so it seems like this is just a
+ 
+
+00:01:19.759 --> 00:01:21.990 align:start position:0%
+look at so it seems like this is just a
+more<00:01:20.119><c> complicated</c><00:01:20.799><c> way</c><00:01:21.000><c> to</c><00:01:21.240><c> access</c><00:01:21.560><c> the</c><00:01:21.720><c> page</c>
+
+00:01:21.990 --> 00:01:22.000 align:start position:0%
+more complicated way to access the page
+ 
+
+00:01:22.000 --> 00:01:24.670 align:start position:0%
+more complicated way to access the page
+table<00:01:22.520><c> but</c><00:01:22.720><c> still</c><00:01:23.119><c> for</c><00:01:23.439><c> every</c><00:01:23.759><c> possible</c><00:01:24.360><c> page</c>
+
+00:01:24.670 --> 00:01:24.680 align:start position:0%
+table but still for every possible page
+ 
+
+00:01:24.680 --> 00:01:28.350 align:start position:0%
+table but still for every possible page
+number<00:01:25.560><c> we</c><00:01:25.720><c> will</c><00:01:26.119><c> have</c><00:01:27.119><c> a</c><00:01:27.280><c> frame</c><00:01:27.680><c> number</c><00:01:28.159><c> in</c>
+
+00:01:28.350 --> 00:01:28.360 align:start position:0%
+number we will have a frame number in
+ 
+
+00:01:28.360 --> 00:01:30.990 align:start position:0%
+number we will have a frame number in
+one<00:01:28.560><c> of</c><00:01:28.680><c> the</c><00:01:28.759><c> inner</c><00:01:29.119><c> page</c><00:01:29.360><c> tables</c><00:01:30.280><c> the</c><00:01:30.479><c> total</c>
+
+00:01:30.990 --> 00:01:31.000 align:start position:0%
+one of the inner page tables the total
+ 
+
+00:01:31.000 --> 00:01:33.429 align:start position:0%
+one of the inner page tables the total
+size<00:01:31.360><c> of</c><00:01:31.479><c> the</c><00:01:31.600><c> inner</c><00:01:31.960><c> page</c><00:01:32.240><c> tables</c><00:01:33.000><c> will</c><00:01:33.200><c> be</c>
+
+00:01:33.429 --> 00:01:33.439 align:start position:0%
+size of the inner page tables will be
+ 
+
+00:01:33.439 --> 00:01:36.749 align:start position:0%
+size of the inner page tables will be
+the<00:01:33.640><c> size</c><00:01:34.000><c> of</c><00:01:34.159><c> the</c><00:01:34.320><c> original</c><00:01:34.880><c> flat</c><00:01:35.360><c> page</c><00:01:35.759><c> table</c>
+
+00:01:36.749 --> 00:01:36.759 align:start position:0%
+the size of the original flat page table
+ 
+
+00:01:36.759 --> 00:01:39.389 align:start position:0%
+the size of the original flat page table
+and<00:01:36.920><c> we</c><00:01:37.079><c> still</c><00:01:37.640><c> have</c><00:01:37.960><c> added</c><00:01:38.600><c> the</c><00:01:38.759><c> outer</c><00:01:39.119><c> page</c>
+
+00:01:39.389 --> 00:01:39.399 align:start position:0%
+and we still have added the outer page
+ 
+
+00:01:39.399 --> 00:01:41.749 align:start position:0%
+and we still have added the outer page
+table<00:01:39.799><c> which</c><00:01:39.960><c> we</c><00:01:40.079><c> didn't</c><00:01:40.399><c> have</c><00:01:40.680><c> before</c><00:01:41.479><c> so</c>
+
+00:01:41.749 --> 00:01:41.759 align:start position:0%
+table which we didn't have before so
+ 
+
+00:01:41.759 --> 00:01:43.870 align:start position:0%
+table which we didn't have before so
+pretty<00:01:42.000><c> much</c><00:01:42.520><c> we</c><00:01:42.720><c> still</c><00:01:43.079><c> have</c><00:01:43.479><c> the</c><00:01:43.600><c> same</c>
+
+00:01:43.870 --> 00:01:43.880 align:start position:0%
+pretty much we still have the same
+ 
+
+00:01:43.880 --> 00:01:46.510 align:start position:0%
+pretty much we still have the same
+number<00:01:44.159><c> of</c><00:01:44.360><c> entries</c><00:01:44.920><c> total</c><00:01:45.479><c> here</c><00:01:46.079><c> and</c><00:01:46.200><c> we</c><00:01:46.360><c> have</c>
+
+00:01:46.510 --> 00:01:46.520 align:start position:0%
+number of entries total here and we have
+ 
+
+00:01:46.520 --> 00:01:51.240 align:start position:0%
+number of entries total here and we have
+added<00:01:46.880><c> something</c><00:01:47.320><c> so</c><00:01:47.560><c> where</c><00:01:47.719><c> are</c><00:01:47.960><c> the</c><00:01:48.240><c> savings</c>
+

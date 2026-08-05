@@ -1,0 +1,144 @@
+1
+00:00:00,360 --> 00:00:02,740
+ The answer is log, log n.
+
+2
+00:00:02,740 --> 00:00:04,770
+ Here's a quick and dirty analysis.
+
+3
+00:00:04,770 --> 00:00:07,110
+ Remember that each time you run independent set,
+
+4
+00:00:07,110 --> 00:00:10,380
+ you expect to pick about and over four notes.
+
+5
+00:00:10,380 --> 00:00:13,690
+ That means that the length of the list will be about three-fourths N
+
+6
+00:00:13,690 --> 00:00:15,190
+ on average.
+
+7
+00:00:15,190 --> 00:00:19,040
+ Now suppose you run parallel independent set k times.
+
+8
+00:00:19,040 --> 00:00:21,980
+ Then the expected length of the list, after k calls,
+
+9
+00:00:21,980 --> 00:00:24,340
+ will be three fourths to the k, times n.
+
+10
+00:00:24,340 --> 00:00:27,500
+ And remember your target list length.
+
+11
+00:00:27,500 --> 00:00:29,550
+ It's n over log n.
+
+12
+00:00:29,550 --> 00:00:33,290
+ So to determine the number of times you need to call parallel independent set,
+
+13
+00:00:33,290 --> 00:00:36,440
+ just solve for k in this inequality.
+
+14
+00:00:36,440 --> 00:00:38,810
+ What you should get in log, log n.
+
+15
+00:00:38,810 --> 00:00:40,220
+ Uh-oh!
+
+16
+00:00:40,220 --> 00:00:42,970
+ This result means that I lied a little.
+
+17
+00:00:42,970 --> 00:00:45,950
+ We were hoping to arrive at a Work-Optimal Scheme, but
+
+18
+00:00:45,950 --> 00:00:47,980
+ we're actually off by a little bit.
+
+19
+00:00:47,980 --> 00:00:52,090
+ The good news is that this log, log n factor doesn't grow very quickly.
+
+20
+00:00:52,090 --> 00:00:57,890
+ For instance, when n is 10 to the 18th, log log n is about 4 or so.
+
+21
+00:00:57,890 --> 00:01:01,970
+ In other words, you only need to run parallel independent set a few times.
+
+22
+00:01:01,970 --> 00:01:03,530
+ That's terrific news.
+
+23
+00:01:03,530 --> 00:01:04,920
+ Woot! Now
+
+24
+00:01:04,920 --> 00:01:06,550
+ there are a couple other details to check.
+
+25
+00:01:06,550 --> 00:01:09,695
+ The first one has to do with the fact that this was kind of a rough,
+
+26
+00:01:09,695 --> 00:01:11,530
+ average-case analysis.
+
+27
+00:01:11,530 --> 00:01:13,740
+ That's not entirely satisfactory.
+
+28
+00:01:13,740 --> 00:01:16,560
+ You don't only want to know what happens on average.
+
+29
+00:01:16,560 --> 00:01:19,590
+ There's going to be some distribution around the average.
+
+30
+00:01:19,590 --> 00:01:23,120
+ You want to know, is that distribution skinny or is it fat?
+
+31
+00:01:23,120 --> 00:01:25,470
+ And how much mass is in the tail?
+
+32
+00:01:25,470 --> 00:01:27,140
+ So that's one detail.
+
+33
+00:01:27,140 --> 00:01:30,640
+ The other detail is how much bookkeeping is necessary to implement steps
+
+34
+00:01:30,640 --> 00:01:32,010
+ one and three?
+
+35
+00:01:32,010 --> 00:01:34,310
+ I'm going to claim it's doable, but
+
+36
+00:01:34,310 --> 00:01:34,310
+ you shouldn't believe me unless you can work it out yourself.
+

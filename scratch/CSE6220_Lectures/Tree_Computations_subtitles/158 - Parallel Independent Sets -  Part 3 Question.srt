@@ -1,0 +1,16 @@
+1
+00:00:00,260 --> 00:00:01,240
+ Quick!
+
+2
+00:00:01,240 --> 00:00:05,360
+ I want you to analyze the randomized parallel independent set scheme.
+
+3
+00:00:05,360 --> 00:00:09,390
+ My question is what's the work and what's the span of this algorithm?
+
+4
+00:00:09,390 --> 00:00:09,390
+ Type your answers symbolically as a function of N here.
+

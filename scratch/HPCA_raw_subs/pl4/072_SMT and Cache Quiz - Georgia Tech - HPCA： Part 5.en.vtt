@@ -1,0 +1,232 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.640 align:start position:0%
+ 
+so<00:00:00.450><c> let's</c><00:00:00.690><c> see</c><00:00:00.870><c> if</c><00:00:00.960><c> we</c><00:00:01.079><c> understand</c><00:00:01.530><c> the</c>
+
+00:00:01.640 --> 00:00:01.650 align:start position:0%
+so let's see if we understand the
+ 
+
+00:00:01.650 --> 00:00:03.439 align:start position:0%
+so let's see if we understand the
+relationship<00:00:02.129><c> between</c><00:00:02.159><c> smt</c><00:00:03.000><c> and</c><00:00:03.210><c> cache</c>
+
+00:00:03.439 --> 00:00:03.449 align:start position:0%
+relationship between smt and cache
+ 
+
+00:00:03.449 --> 00:00:05.480 align:start position:0%
+relationship between smt and cache
+behavior<00:00:03.720><c> let's</c><00:00:04.680><c> say</c><00:00:04.830><c> we</c><00:00:04.950><c> have</c><00:00:05.130><c> a</c><00:00:05.160><c> program</c>
+
+00:00:05.480 --> 00:00:05.490 align:start position:0%
+behavior let's say we have a program
+ 
+
+00:00:05.490 --> 00:00:09.290 align:start position:0%
+behavior let's say we have a program
+named<00:00:06.210><c> a</c><00:00:06.420><c> who's</c><00:00:07.379><c> working</c><00:00:07.890><c> set</c><00:00:08.130><c> is</c><00:00:08.940><c> 10</c>
+
+00:00:09.290 --> 00:00:09.300 align:start position:0%
+named a who's working set is 10
+ 
+
+00:00:09.300 --> 00:00:12.379 align:start position:0%
+named a who's working set is 10
+kilobytes<00:00:09.660><c> and</c><00:00:10.370><c> we</c><00:00:11.370><c> have</c><00:00:11.519><c> programs</c><00:00:11.759><c> being</c><00:00:12.240><c> and</c>
+
+00:00:12.379 --> 00:00:12.389 align:start position:0%
+kilobytes and we have programs being and
+ 
+
+00:00:12.389 --> 00:00:14.959 align:start position:0%
+kilobytes and we have programs being and
+see<00:00:12.630><c> who's</c><00:00:13.259><c> working</c><00:00:13.679><c> sets</c><00:00:13.950><c> are</c><00:00:14.160><c> 4</c><00:00:14.460><c> kilobytes</c>
+
+00:00:14.959 --> 00:00:14.969 align:start position:0%
+see who's working sets are 4 kilobytes
+ 
+
+00:00:14.969 --> 00:00:17.990 align:start position:0%
+see who's working sets are 4 kilobytes
+and<00:00:15.179><c> one</c><00:00:15.480><c> kilobytes</c><00:00:16.049><c> respectively</c><00:00:16.890><c> let's</c><00:00:17.820><c> say</c>
+
+00:00:17.990 --> 00:00:18.000 align:start position:0%
+and one kilobytes respectively let's say
+ 
+
+00:00:18.000 --> 00:00:21.019 align:start position:0%
+and one kilobytes respectively let's say
+our<00:00:18.060><c> processor</c><00:00:19.160><c> supports</c><00:00:20.160><c> four</c><00:00:20.640><c> threads</c>
+
+00:00:21.019 --> 00:00:21.029 align:start position:0%
+our processor supports four threads
+ 
+
+00:00:21.029 --> 00:00:23.870 align:start position:0%
+our processor supports four threads
+simultaneously<00:00:21.270><c> in</c><00:00:22.260><c> the</c><00:00:22.590><c> SMT</c><00:00:23.130><c> fashion</c><00:00:23.670><c> and</c>
+
+00:00:23.870 --> 00:00:23.880 align:start position:0%
+simultaneously in the SMT fashion and
+ 
+
+00:00:23.880 --> 00:00:27.710 align:start position:0%
+simultaneously in the SMT fashion and
+has<00:00:24.720><c> an</c><00:00:24.900><c> eight</c><00:00:25.199><c> kilobyte</c><00:00:25.769><c> a</c><00:00:26.039><c> level</c><00:00:26.430><c> 1</c><00:00:26.609><c> cache</c><00:00:26.720><c> in</c>
+
+00:00:27.710 --> 00:00:27.720 align:start position:0%
+has an eight kilobyte a level 1 cache in
+ 
+
+00:00:27.720 --> 00:00:30.050 align:start position:0%
+has an eight kilobyte a level 1 cache in
+this<00:00:28.050><c> case</c><00:00:28.349><c> we</c><00:00:28.590><c> should</c><00:00:28.650><c> run</c><00:00:29.010><c> a</c><00:00:29.220><c> B</c><00:00:29.820><c> and</c><00:00:29.970><c> C</c>
+
+00:00:30.050 --> 00:00:30.060 align:start position:0%
+this case we should run a B and C
+ 
+
+00:00:30.060 --> 00:00:33.290 align:start position:0%
+this case we should run a B and C
+together<00:00:31.189><c> because</c><00:00:32.189><c> all</c><00:00:32.460><c> of</c><00:00:32.520><c> them</c><00:00:32.850><c> can</c><00:00:33.090><c> run</c>
+
+00:00:33.290 --> 00:00:33.300 align:start position:0%
+together because all of them can run
+ 
+
+00:00:33.300 --> 00:00:37.639 align:start position:0%
+together because all of them can run
+simultaneously<00:00:33.750><c> a</c><00:00:34.530><c> and</c><00:00:35.489><c> B</c><00:00:35.670><c> together</c><00:00:36.320><c> we</c><00:00:37.320><c> could</c>
+
+00:00:37.639 --> 00:00:37.649 align:start position:0%
+simultaneously a and B together we could
+ 
+
+00:00:37.649 --> 00:00:40.160 align:start position:0%
+simultaneously a and B together we could
+run<00:00:37.920><c> simultaneously</c><00:00:38.579><c> but</c><00:00:39.239><c> we</c><00:00:39.420><c> choose</c><00:00:39.750><c> to</c><00:00:39.780><c> run</c>
+
+00:00:40.160 --> 00:00:40.170 align:start position:0%
+run simultaneously but we choose to run
+ 
+
+00:00:40.170 --> 00:00:43.340 align:start position:0%
+run simultaneously but we choose to run
+it<00:00:40.379><c> after</c><00:00:40.920><c> we</c><00:00:41.070><c> finish</c><00:00:41.430><c> a</c><00:00:41.610><c> and</c><00:00:41.790><c> B</c><00:00:41.940><c> or</c><00:00:42.270><c> we</c><00:00:42.989><c> do</c><00:00:43.200><c> a</c>
+
+00:00:43.340 --> 00:00:43.350 align:start position:0%
+it after we finish a and B or we do a
+ 
+
+00:00:43.350 --> 00:00:45.470 align:start position:0%
+it after we finish a and B or we do a
+and<00:00:43.620><c> B</c><00:00:43.770><c> for</c><00:00:44.010><c> a</c><00:00:44.040><c> wild</c><00:00:44.399><c> and</c><00:00:44.579><c> see</c><00:00:44.760><c> for</c><00:00:45.000><c> a</c><00:00:45.059><c> while</c><00:00:45.300><c> and</c>
+
+00:00:45.470 --> 00:00:45.480 align:start position:0%
+and B for a wild and see for a while and
+ 
+
+00:00:45.480 --> 00:00:47.720 align:start position:0%
+and B for a wild and see for a while and
+so<00:00:45.719><c> on</c><00:00:45.930><c> so</c><00:00:46.559><c> pretty</c><00:00:46.739><c> much</c><00:00:46.860><c> we</c><00:00:47.129><c> don't</c><00:00:47.340><c> run</c><00:00:47.550><c> them</c>
+
+00:00:47.720 --> 00:00:47.730 align:start position:0%
+so on so pretty much we don't run them
+ 
+
+00:00:47.730 --> 00:00:50.330 align:start position:0%
+so on so pretty much we don't run them
+simultaneously<00:00:48.079><c> we</c><00:00:49.079><c> run</c><00:00:49.230><c> c</c><00:00:49.500><c> separately</c><00:00:50.190><c> from</c>
+
+00:00:50.330 --> 00:00:50.340 align:start position:0%
+simultaneously we run c separately from
+ 
+
+00:00:50.340 --> 00:00:53.270 align:start position:0%
+simultaneously we run c separately from
+the<00:00:50.520><c> other</c><00:00:50.640><c> tool</c><00:00:50.969><c> the</c><00:00:51.719><c> next</c><00:00:52.079><c> option</c><00:00:52.230><c> is</c><00:00:52.559><c> we</c><00:00:53.070><c> run</c>
+
+00:00:53.270 --> 00:00:53.280 align:start position:0%
+the other tool the next option is we run
+ 
+
+00:00:53.280 --> 00:00:57.080 align:start position:0%
+the other tool the next option is we run
+a<00:00:53.430><c> without</c><00:00:54.329><c> using</c><00:00:55.020><c> the</c><00:00:55.379><c> other</c><00:00:55.590><c> three</c><00:00:56.070><c> smt</c><00:00:56.760><c> ways</c>
+
+00:00:57.080 --> 00:00:57.090 align:start position:0%
+a without using the other three smt ways
+ 
+
+00:00:57.090 --> 00:01:00.860 align:start position:0%
+a without using the other three smt ways
+then<00:00:58.050><c> we</c><00:00:58.230><c> run</c><00:00:58.379><c> B</c><00:00:58.680><c> and</c><00:00:58.859><c> C</c><00:00:59.129><c> in</c><00:00:59.820><c> two</c><00:01:00.180><c> of</c><00:01:00.420><c> the</c><00:01:00.600><c> four</c>
+
+00:01:00.860 --> 00:01:00.870 align:start position:0%
+then we run B and C in two of the four
+ 
+
+00:01:00.870 --> 00:01:04.280 align:start position:0%
+then we run B and C in two of the four
+smt<00:01:01.559><c> ways</c><00:01:01.789><c> but</c><00:01:02.789><c> we</c><00:01:02.969><c> don't</c><00:01:03.210><c> run</c><00:01:03.480><c> a</c><00:01:03.690><c> together</c>
+
+00:01:04.280 --> 00:01:04.290 align:start position:0%
+smt ways but we don't run a together
+ 
+
+00:01:04.290 --> 00:01:07.010 align:start position:0%
+smt ways but we don't run a together
+with<00:01:04.530><c> the</c><00:01:04.619><c> other</c><00:01:04.680><c> tool</c><00:01:05.210><c> the</c><00:01:06.210><c> next</c><00:01:06.540><c> option</c><00:01:06.659><c> is</c>
+
+00:01:07.010 --> 00:01:07.020 align:start position:0%
+with the other tool the next option is
+ 
+
+00:01:07.020 --> 00:01:11.359 align:start position:0%
+with the other tool the next option is
+run<00:01:07.799><c> a</c><00:01:07.979><c> and</c><00:01:08.250><c> C</c><00:01:08.549><c> together</c><00:01:09.030><c> then</c><00:01:10.020><c> be</c><00:01:10.380><c> but</c><00:01:11.100><c> don't</c>
+
+00:01:11.359 --> 00:01:11.369 align:start position:0%
+run a and C together then be but don't
+ 
+
+00:01:11.369 --> 00:01:13.760 align:start position:0%
+run a and C together then be but don't
+do<00:01:11.729><c> be</c><00:01:11.960><c> simultaneously</c><00:01:12.960><c> using</c>
+
+00:01:13.760 --> 00:01:13.770 align:start position:0%
+do be simultaneously using
+ 
+
+00:01:13.770 --> 00:01:16.460 align:start position:0%
+do be simultaneously using
+multithreading<00:01:14.580><c> when</c><00:01:15.180><c> we</c><00:01:15.360><c> are</c><00:01:15.450><c> doing</c><00:01:15.659><c> a</c><00:01:15.900><c> and</c><00:01:16.229><c> C</c>
+
+00:01:16.460 --> 00:01:16.470 align:start position:0%
+multithreading when we are doing a and C
+ 
+
+00:01:16.470 --> 00:01:20.450 align:start position:0%
+multithreading when we are doing a and C
+or<00:01:17.270><c> do</c><00:01:18.270><c> them</c><00:01:18.540><c> one</c><00:01:19.049><c> at</c><00:01:19.080><c> a</c><00:01:19.290><c> time</c><00:01:19.619><c> although</c><00:01:20.310><c> we</c>
+
+00:01:20.450 --> 00:01:20.460 align:start position:0%
+or do them one at a time although we
+ 
+
+00:01:20.460 --> 00:01:22.999 align:start position:0%
+or do them one at a time although we
+code<00:01:20.759><c> around</c><00:01:21.030><c> four</c><00:01:21.420><c> at</c><00:01:21.689><c> a</c><00:01:21.720><c> time</c><00:01:21.840><c> we</c><00:01:22.409><c> choose</c><00:01:22.680><c> to</c>
+
+00:01:22.999 --> 00:01:23.009 align:start position:0%
+code around four at a time we choose to
+ 
+
+00:01:23.009 --> 00:01:26.240 align:start position:0%
+code around four at a time we choose to
+run<00:01:23.189><c> one</c><00:01:23.729><c> at</c><00:01:23.909><c> a</c><00:01:24.000><c> time</c>
+

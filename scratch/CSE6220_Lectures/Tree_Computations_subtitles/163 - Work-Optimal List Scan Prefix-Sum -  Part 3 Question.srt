@@ -1,0 +1,32 @@
+1
+00:00:00,192 --> 00:00:02,163
+ Aside from its bookkeeping details,
+
+2
+00:00:02,163 --> 00:00:05,372
+ here's the bigger question about work-optimal list scan.
+
+3
+00:00:05,372 --> 00:00:09,767
+ How many times do you need to run the parallel randomized independent set in
+
+4
+00:00:09,767 --> 00:00:11,314
+ order to shrink the list?
+
+5
+00:00:11,314 --> 00:00:12,943
+ And when I say shrink the list,
+
+6
+00:00:12,943 --> 00:00:16,158
+ I mean shrink the list to the target size which is n over log n.
+
+7
+00:00:16,158 --> 00:00:18,085
+ Here are your answer choices.
+
+8
+00:00:18,085 --> 00:00:18,085
+ I want you to choose the best one.
+

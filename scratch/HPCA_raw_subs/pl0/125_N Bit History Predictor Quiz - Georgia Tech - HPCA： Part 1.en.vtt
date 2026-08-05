@@ -1,0 +1,344 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.629 align:start position:0%
+ 
+so<00:00:00.269><c> now</c><00:00:00.420><c> that</c><00:00:00.480><c> we</c><00:00:00.750><c> have</c><00:00:00.780><c> seen</c><00:00:01.110><c> how</c><00:00:01.350><c> to</c><00:00:01.380><c> or</c><00:00:01.949><c> more</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+so now that we have seen how to or more
+ 
+
+00:00:02.639 --> 00:00:05.390 align:start position:0%
+so now that we have seen how to or more
+bit<00:00:02.939><c> histories</c><00:00:03.480><c> work</c><00:00:03.720><c> let's</c><00:00:04.319><c> do</c><00:00:04.589><c> a</c><00:00:04.620><c> quiz</c><00:00:05.130><c> about</c>
+
+00:00:05.390 --> 00:00:05.400 align:start position:0%
+bit histories work let's do a quiz about
+ 
+
+00:00:05.400 --> 00:00:09.730 align:start position:0%
+bit histories work let's do a quiz about
+them<00:00:05.850><c> let's</c><00:00:06.629><c> say</c><00:00:06.839><c> we</c><00:00:06.990><c> have</c><00:00:07.230><c> an</c><00:00:07.760><c> n-bit</c><00:00:08.760><c> history</c>
+
+00:00:09.730 --> 00:00:09.740 align:start position:0%
+them let's say we have an n-bit history
+ 
+
+00:00:09.740 --> 00:00:12.890 align:start position:0%
+them let's say we have an n-bit history
+with<00:00:10.740><c> a</c><00:00:10.769><c> two</c><00:00:11.040><c> bit</c><00:00:11.219><c> counter</c><00:00:11.670><c> per</c><00:00:11.940><c> history</c><00:00:12.480><c> in</c>
+
+00:00:12.890 --> 00:00:12.900 align:start position:0%
+with a two bit counter per history in
+ 
+
+00:00:12.900 --> 00:00:15.709 align:start position:0%
+with a two bit counter per history in
+each<00:00:13.170><c> predictor</c><00:00:13.740><c> entry</c><00:00:14.340><c> let's</c><00:00:15.240><c> say</c><00:00:15.389><c> that</c><00:00:15.570><c> we</c>
+
+00:00:15.709 --> 00:00:15.719 align:start position:0%
+each predictor entry let's say that we
+ 
+
+00:00:15.719 --> 00:00:18.140 align:start position:0%
+each predictor entry let's say that we
+need<00:00:15.900><c> a</c><00:00:15.929><c> thousand</c><00:00:16.440><c> twenty</c><00:00:16.710><c> four</c><00:00:16.980><c> entries</c><00:00:17.609><c> in</c>
+
+00:00:18.140 --> 00:00:18.150 align:start position:0%
+need a thousand twenty four entries in
+ 
+
+00:00:18.150 --> 00:00:20.570 align:start position:0%
+need a thousand twenty four entries in
+order<00:00:18.690><c> for</c><00:00:18.990><c> each</c><00:00:19.199><c> branch</c><00:00:19.560><c> to</c><00:00:19.920><c> and</c><00:00:20.189><c> each</c><00:00:20.369><c> other</c>
+
+00:00:20.570 --> 00:00:20.580 align:start position:0%
+order for each branch to and each other
+ 
+
+00:00:20.580 --> 00:00:22.640 align:start position:0%
+order for each branch to and each other
+instruction<00:00:21.180><c> to</c><00:00:21.359><c> have</c><00:00:21.570><c> its</c><00:00:21.720><c> own</c><00:00:21.840><c> entry</c><00:00:22.260><c> so</c>
+
+00:00:22.640 --> 00:00:22.650 align:start position:0%
+instruction to have its own entry so
+ 
+
+00:00:22.650 --> 00:00:23.840 align:start position:0%
+instruction to have its own entry so
+that<00:00:22.680><c> they</c><00:00:22.949><c> don't</c><00:00:23.160><c> interfere</c><00:00:23.400><c> with</c><00:00:23.640><c> each</c>
+
+00:00:23.840 --> 00:00:23.850 align:start position:0%
+that they don't interfere with each
+ 
+
+00:00:23.850 --> 00:00:27.109 align:start position:0%
+that they don't interfere with each
+other<00:00:24.410><c> so</c><00:00:25.410><c> for</c><00:00:25.710><c> the</c><00:00:25.920><c> length</c><00:00:26.400><c> of</c><00:00:26.550><c> the</c><00:00:26.609><c> history</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+other so for the length of the history
+ 
+
+00:00:27.119 --> 00:00:30.980 align:start position:0%
+other so for the length of the history
+of<00:00:27.330><c> one</c><00:00:27.689><c> four</c><00:00:28.289><c> eight</c><00:00:28.529><c> and</c><00:00:28.920><c> 16</c><00:00:29.609><c> what</c><00:00:30.510><c> is</c><00:00:30.750><c> the</c>
+
+00:00:30.980 --> 00:00:30.990 align:start position:0%
+of one four eight and 16 what is the
+ 
+
+00:00:30.990 --> 00:00:34.790 align:start position:0%
+of one four eight and 16 what is the
+cost<00:00:31.289><c> of</c><00:00:31.619><c> the</c><00:00:32.460><c> entire</c><00:00:32.759><c> predictor</c><00:00:33.420><c> in</c><00:00:33.630><c> bits</c><00:00:33.960><c> I'm</c>
+
+00:00:34.790 --> 00:00:34.800 align:start position:0%
+cost of the entire predictor in bits I'm
+ 
+
+00:00:34.800 --> 00:00:37.130 align:start position:0%
+cost of the entire predictor in bits I'm
+going<00:00:35.070><c> to</c><00:00:35.160><c> tell</c><00:00:35.370><c> you</c><00:00:35.550><c> that</c><00:00:36.450><c> the</c><00:00:36.600><c> cost</c><00:00:36.840><c> with</c><00:00:37.110><c> a</c>
+
+00:00:37.130 --> 00:00:37.140 align:start position:0%
+going to tell you that the cost with a
+ 
+
+00:00:37.140 --> 00:00:41.119 align:start position:0%
+going to tell you that the cost with a
+1-bit<00:00:37.800><c> history</c><00:00:38.180><c> is</c><00:00:39.180><c> the</c><00:00:39.629><c> one</c><00:00:40.320><c> bit</c><00:00:40.559><c> of</c><00:00:40.590><c> history</c>
+
+00:00:41.119 --> 00:00:41.129 align:start position:0%
+1-bit history is the one bit of history
+ 
+
+00:00:41.129 --> 00:00:45.260 align:start position:0%
+1-bit history is the one bit of history
+and<00:00:41.809><c> two</c><00:00:42.809><c> two</c><00:00:43.230><c> bit</c><00:00:43.410><c> counters</c><00:00:43.950><c> per</c><00:00:44.670><c> entries</c>
+
+00:00:45.260 --> 00:00:45.270 align:start position:0%
+and two two bit counters per entries
+ 
+
+00:00:45.270 --> 00:00:48.950 align:start position:0%
+and two two bit counters per entries
+it's<00:00:45.510><c> going</c><00:00:45.690><c> to</c><00:00:45.809><c> be</c><00:00:45.899><c> five</c><00:00:46.230><c> bits</c><00:00:46.620><c> times</c><00:00:47.550><c> 1,024</c>
+
+00:00:48.950 --> 00:00:48.960 align:start position:0%
+it's going to be five bits times 1,024
+ 
+
+00:00:48.960 --> 00:00:52.369 align:start position:0%
+it's going to be five bits times 1,024
+is<00:00:49.770><c> this</c><00:00:50.129><c> predictor</c><00:00:50.760><c> good</c><00:00:51.090><c> for</c><00:00:52.020><c> each</c><00:00:52.110><c> of</c><00:00:52.289><c> the</c>
+
+00:00:52.369 --> 00:00:52.379 align:start position:0%
+is this predictor good for each of the
+ 
+
+00:00:52.379 --> 00:00:55.189 align:start position:0%
+is this predictor good for each of the
+predictors<00:00:52.860><c> for</c><00:00:53.100><c> a</c><00:00:53.280><c> pattern</c><00:00:53.579><c> of</c><00:00:53.940><c> N</c><00:00:54.180><c> and</c><00:00:54.480><c> NT</c>
+
+00:00:55.189 --> 00:00:55.199 align:start position:0%
+predictors for a pattern of N and NT
+ 
+
+00:00:55.199 --> 00:00:58.520 align:start position:0%
+predictors for a pattern of N and NT
+that<00:00:55.559><c> repeats</c><00:00:56.010><c> and</c><00:00:56.449><c> we</c><00:00:57.449><c> know</c><00:00:57.629><c> already</c><00:00:58.109><c> that</c>
+
+00:00:58.520 --> 00:00:58.530 align:start position:0%
+that repeats and we know already that
+ 
+
+00:00:58.530 --> 00:01:02.090 align:start position:0%
+that repeats and we know already that
+the<00:00:59.309><c> one</c><00:01:00.300><c> bit</c><00:01:00.539><c> history</c><00:01:00.899><c> predictor</c><00:01:01.199><c> is</c><00:01:01.739><c> not</c>
+
+00:01:02.090 --> 00:01:02.100 align:start position:0%
+the one bit history predictor is not
+ 
+
+00:01:02.100 --> 00:01:03.950 align:start position:0%
+the one bit history predictor is not
+good<00:01:02.430><c> for</c><00:01:02.640><c> this</c><00:01:02.820><c> pattern</c><00:01:03.270><c> because</c><00:01:03.629><c> it's</c><00:01:03.809><c> too</c>
+
+00:01:03.950 --> 00:01:03.960 align:start position:0%
+good for this pattern because it's too
+ 
+
+00:01:03.960 --> 00:01:06.500 align:start position:0%
+good for this pattern because it's too
+long<00:01:04.170><c> for</c><00:01:04.470><c> it</c><00:01:04.680><c> and</c><00:01:05.010><c> finally</c><00:01:06.000><c> what</c><00:01:06.210><c> is</c><00:01:06.240><c> the</c>
+
+00:01:06.500 --> 00:01:06.510 align:start position:0%
+long for it and finally what is the
+ 
+
+00:01:06.510 --> 00:01:08.780 align:start position:0%
+long for it and finally what is the
+number<00:01:06.869><c> of</c><00:01:06.900><c> two</c><00:01:07.290><c> bit</c><00:01:07.439><c> counters</c><00:01:07.950><c> in</c><00:01:08.250><c> an</c><00:01:08.369><c> entry</c>
+
+00:01:08.780 --> 00:01:08.790 align:start position:0%
+number of two bit counters in an entry
+ 
+
+00:01:08.790 --> 00:01:10.700 align:start position:0%
+number of two bit counters in an entry
+that<00:01:08.820><c> we</c><00:01:09.180><c> actually</c><00:01:09.540><c> use</c><00:01:09.780><c> when</c><00:01:10.260><c> trying</c><00:01:10.439><c> to</c>
+
+00:01:10.700 --> 00:01:10.710 align:start position:0%
+that we actually use when trying to
+ 
+
+00:01:10.710 --> 00:01:14.179 align:start position:0%
+that we actually use when trying to
+predict<00:01:11.130><c> the</c><00:01:11.280><c> repeating</c><00:01:12.119><c> NT</c><00:01:12.720><c> pattern</c><00:01:13.229><c> meaning</c>
+
+00:01:14.179 --> 00:01:14.189 align:start position:0%
+predict the repeating NT pattern meaning
+ 
+
+00:01:14.189 --> 00:01:16.399 align:start position:0%
+predict the repeating NT pattern meaning
+not<00:01:14.490><c> taken</c><00:01:14.850><c> taken</c><00:01:15.030><c> not</c><00:01:15.240><c> taken</c><00:01:15.509><c> taken</c><00:01:15.720><c> and</c><00:01:16.229><c> so</c>
+
+00:01:16.399 --> 00:01:16.409 align:start position:0%
+not taken taken not taken taken and so
+ 
+
+00:01:16.409 --> 00:01:21.109 align:start position:0%
+not taken taken not taken taken and so
+on<00:01:16.759><c> we</c><00:01:17.759><c> already</c><00:01:17.909><c> know</c><00:01:18.330><c> that</c><00:01:19.310><c> in</c><00:01:20.310><c> the</c><00:01:20.729><c> N</c><00:01:20.939><c> equals</c>
+
+00:01:21.109 --> 00:01:21.119 align:start position:0%
+on we already know that in the N equals
+ 
+
+00:01:21.119 --> 00:01:23.870 align:start position:0%
+on we already know that in the N equals
+1<00:01:21.450><c> predictor</c><00:01:21.990><c> we</c><00:01:22.830><c> need</c><00:01:22.979><c> to</c><00:01:23.100><c> use</c><00:01:23.250><c> both</c><00:01:23.490><c> of</c><00:01:23.549><c> our</c>
+
+00:01:23.870 --> 00:01:23.880 align:start position:0%
+1 predictor we need to use both of our
+ 
+
+00:01:23.880 --> 00:01:27.530 align:start position:0%
+1 predictor we need to use both of our
+counters<00:01:24.360><c> so</c><00:01:25.080><c> the</c><00:01:25.229><c> answer</c><00:01:25.560><c> is</c><00:01:25.590><c> to</c><00:01:26.340><c> to</c><00:01:27.270><c> further</c>
+
+00:01:27.530 --> 00:01:27.540 align:start position:0%
+counters so the answer is to to further
+ 
+
+00:01:27.540 --> 00:01:29.990 align:start position:0%
+counters so the answer is to to further
+help<00:01:27.869><c> you</c><00:01:28.080><c> I'm</c><00:01:28.350><c> going</c><00:01:28.530><c> to</c><00:01:28.619><c> tell</c><00:01:28.799><c> you</c><00:01:28.979><c> that</c><00:01:29.189><c> the</c>
+
+00:01:29.990 --> 00:01:30.000 align:start position:0%
+help you I'm going to tell you that the
+ 
+
+00:01:30.000 --> 00:01:32.480 align:start position:0%
+help you I'm going to tell you that the
+cost<00:01:30.270><c> of</c><00:01:30.570><c> an</c><00:01:30.780><c> N</c><00:01:30.960><c> equals</c><00:01:31.320><c> 4</c><00:01:31.619><c> predictor</c><00:01:32.189><c> should</c>
+
+00:01:32.480 --> 00:01:32.490 align:start position:0%
+cost of an N equals 4 predictor should
+ 
+
+00:01:32.490 --> 00:01:37.249 align:start position:0%
+cost of an N equals 4 predictor should
+be<00:01:32.670><c> the</c><00:01:33.420><c> history</c><00:01:33.810><c> is</c><00:01:34.020><c> 4</c><00:01:34.610><c> plus</c><00:01:35.610><c> 2</c><00:01:36.479><c> bit</c><00:01:37.229><c> predictor</c>
+
+00:01:37.249 --> 00:01:37.259 align:start position:0%
+be the history is 4 plus 2 bit predictor
+ 
+
+00:01:37.259 --> 00:01:41.390 align:start position:0%
+be the history is 4 plus 2 bit predictor
+x'<00:01:37.950><c> I</c><00:01:37.979><c> need</c><00:01:38.490><c> 2</c><00:01:38.820><c> to</c><00:01:39.030><c> the</c><00:01:39.180><c> 4th</c><00:01:39.600><c> of</c><00:01:39.869><c> them</c><00:01:40.170><c> times</c><00:01:41.100><c> a</c>
+
+00:01:41.390 --> 00:01:41.400 align:start position:0%
+x' I need 2 to the 4th of them times a
+ 
+
+00:01:41.400 --> 00:01:44.749 align:start position:0%
+x' I need 2 to the 4th of them times a
+thousand<00:01:42.000><c> 24</c><00:01:42.689><c> you</c><00:01:43.439><c> can</c><00:01:43.649><c> compute</c><00:01:44.040><c> what</c><00:01:44.280><c> this</c><00:01:44.460><c> is</c>
+
+00:01:44.749 --> 00:01:44.759 align:start position:0%
+thousand 24 you can compute what this is
+ 
+
+00:01:44.759 --> 00:01:47.389 align:start position:0%
+thousand 24 you can compute what this is
+you<00:01:45.450><c> should</c><00:01:45.600><c> put</c><00:01:45.780><c> a</c><00:01:45.810><c> real</c><00:01:46.079><c> number</c><00:01:46.380><c> here</c><00:01:46.979><c> so</c><00:01:47.340><c> you</c>
+
+00:01:47.389 --> 00:01:47.399 align:start position:0%
+you should put a real number here so you
+ 
+
+00:01:47.399 --> 00:01:49.300 align:start position:0%
+you should put a real number here so you
+should<00:01:47.430><c> multiply</c><00:01:48.060><c> things</c><00:01:48.119><c> out</c><00:01:48.450><c> for</c><00:01:48.720><c> these</c><00:01:48.899><c> two</c>
+
+00:01:49.300 --> 00:01:49.310 align:start position:0%
+should multiply things out for these two
+ 
+
+00:01:49.310 --> 00:01:53.210 align:start position:0%
+should multiply things out for these two
+here<00:01:50.310><c> you</c><00:01:50.490><c> should</c><00:01:50.670><c> just</c><00:01:50.850><c> say</c><00:01:51.060><c> yes</c><00:01:51.540><c> or</c><00:01:51.750><c> no</c><00:01:51.990><c> yes</c>
+
+00:01:53.210 --> 00:01:53.220 align:start position:0%
+here you should just say yes or no yes
+ 
+
+00:01:53.220 --> 00:01:55.370 align:start position:0%
+here you should just say yes or no yes
+if<00:01:53.729><c> the</c><00:01:53.970><c> predictor</c><00:01:54.450><c> will</c><00:01:54.780><c> predict</c><00:01:55.259><c> this</c>
+
+00:01:55.370 --> 00:01:55.380 align:start position:0%
+if the predictor will predict this
+ 
+
+00:01:55.380 --> 00:01:57.410 align:start position:0%
+if the predictor will predict this
+successfully<00:01:56.159><c> after</c><00:01:56.369><c> the</c><00:01:56.759><c> initial</c><00:01:57.060><c> warmup</c>
+
+00:01:57.410 --> 00:01:57.420 align:start position:0%
+successfully after the initial warmup
+ 
+
+00:01:57.420 --> 00:02:01.039 align:start position:0%
+successfully after the initial warmup
+period<00:01:57.570><c> no</c><00:01:58.049><c> if</c><00:01:58.350><c> it</c><00:01:58.890><c> won't</c><00:01:59.130><c> and</c><00:01:59.689><c> then</c><00:02:00.689><c> how</c><00:02:00.990><c> many</c>
+
+00:02:01.039 --> 00:02:01.049 align:start position:0%
+period no if it won't and then how many
+ 
+
+00:02:01.049 --> 00:02:03.649 align:start position:0%
+period no if it won't and then how many
+two<00:02:01.770><c> bit</c><00:02:01.950><c> counters</c><00:02:02.430><c> are</c><00:02:02.670><c> we</c><00:02:02.820><c> using</c><00:02:03.060><c> for</c><00:02:03.509><c> the</c>
+
+00:02:03.649 --> 00:02:03.659 align:start position:0%
+two bit counters are we using for the
+ 
+
+00:02:03.659 --> 00:02:06.200 align:start position:0%
+two bit counters are we using for the
+not<00:02:04.259><c> taken</c><00:02:04.649><c> taken</c><00:02:04.799><c> not</c><00:02:05.009><c> taken</c><00:02:05.280><c> taken</c><00:02:05.490><c> pattern</c>
+
+00:02:06.200 --> 00:02:06.210 align:start position:0%
+not taken taken not taken taken pattern
+ 
+
+00:02:06.210 --> 00:02:09.829 align:start position:0%
+not taken taken not taken taken pattern
+in<00:02:06.540><c> this</c><00:02:06.810><c> particular</c><00:02:07.320><c> predictor</c>
+

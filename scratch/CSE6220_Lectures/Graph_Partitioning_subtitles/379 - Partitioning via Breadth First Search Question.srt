@@ -1,0 +1,44 @@
+1
+00:00:00,230 --> 00:00:02,980
+ Here's an idea for a graph partitioning heuristic.
+
+2
+00:00:02,980 --> 00:00:05,400
+ Use breadth first search or BFS.
+
+3
+00:00:05,400 --> 00:00:08,340
+ In the following box I want you to tell me how.
+
+4
+00:00:08,340 --> 00:00:11,420
+ That is I want you to sketch an algorithm that uses BFS and
+
+5
+00:00:11,420 --> 00:00:13,160
+ type that algorithm here.
+
+6
+00:00:13,160 --> 00:00:16,250
+ If it helps assume that the input graph is connected,
+
+7
+00:00:16,250 --> 00:00:19,010
+ meaning you can assume there's a path from every vertex to every other vertex.
+
+8
+00:00:19,010 --> 00:00:22,460
+ I know what you're thinking, why do I have to do all the hard work and
+
+9
+00:00:22,460 --> 00:00:23,430
+ explain this to you?
+
+10
+00:00:23,430 --> 00:00:24,960
+ Isn't that your job?
+
+11
+00:00:24,960 --> 00:00:24,960
+ Oh, quit your whining, you big baby, and just answer the question.
+

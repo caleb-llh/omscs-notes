@@ -1,0 +1,20 @@
+1
+00:00:00,140 --> 00:00:01,810
+ Here's another question for you.
+
+2
+00:00:01,810 --> 00:00:05,330
+ What is the total communication cost of doing a vector reduction?
+
+3
+00:00:05,330 --> 00:00:08,940
+ Assume a linear network and our usual tree-based algorithm.
+
+4
+00:00:08,940 --> 00:00:12,360
+ You can also assume that the number of nodes is a power of two.
+
+5
+00:00:12,360 --> 00:00:12,360
+ I'll make this multiple choice with the following options, pick one.
+

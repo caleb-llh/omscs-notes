@@ -1,0 +1,560 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.630 align:start position:0%
+ 
+we<00:00:00.199><c> have</c><00:00:00.359><c> seen</c><00:00:00.640><c> a</c><00:00:00.840><c> glimpse</c><00:00:01.199><c> of</c><00:00:01.360><c> fully</c>
+
+00:00:01.630 --> 00:00:01.640 align:start position:0%
+we have seen a glimpse of fully
+ 
+
+00:00:01.640 --> 00:00:04.030 align:start position:0%
+we have seen a glimpse of fully
+associative<00:00:02.120><c> caches</c><00:00:02.960><c> so</c><00:00:03.199><c> now</c><00:00:03.439><c> let's</c><00:00:03.639><c> go</c><00:00:03.840><c> from</c>
+
+00:00:04.030 --> 00:00:04.040 align:start position:0%
+associative caches so now let's go from
+ 
+
+00:00:04.040 --> 00:00:05.789 align:start position:0%
+associative caches so now let's go from
+the<00:00:04.160><c> other</c><00:00:04.440><c> direction</c><00:00:04.920><c> which</c><00:00:05.040><c> is</c><00:00:05.319><c> let's</c><00:00:05.560><c> first</c>
+
+00:00:05.789 --> 00:00:05.799 align:start position:0%
+the other direction which is let's first
+ 
+
+00:00:05.799 --> 00:00:08.549 align:start position:0%
+the other direction which is let's first
+look<00:00:06.000><c> at</c><00:00:06.240><c> direct</c><00:00:06.560><c> mat</c><00:00:06.919><c> caches</c><00:00:07.919><c> if</c><00:00:08.160><c> this</c><00:00:08.280><c> is</c><00:00:08.400><c> the</c>
+
+00:00:08.549 --> 00:00:08.559 align:start position:0%
+look at direct mat caches if this is the
+ 
+
+00:00:08.559 --> 00:00:14.990 align:start position:0%
+look at direct mat caches if this is the
+memory<00:00:09.280><c> and</c><00:00:09.440><c> it</c><00:00:09.599><c> contains</c><00:00:10.280><c> blocks</c><00:00:11.280><c> 0</c><00:00:12.040><c> 1</c><00:00:12.719><c> 2</c><00:00:13.440><c> 3</c><00:00:14.160><c> 4</c>
+
+00:00:14.990 --> 00:00:15.000 align:start position:0%
+memory and it contains blocks 0 1 2 3 4
+ 
+
+00:00:15.000 --> 00:00:18.550 align:start position:0%
+memory and it contains blocks 0 1 2 3 4
+5<00:00:15.599><c> 6</c><00:00:16.240><c> Etc</c><00:00:17.240><c> and</c><00:00:17.400><c> these</c><00:00:17.520><c> are</c><00:00:17.720><c> the</c><00:00:17.840><c> block</c><00:00:18.160><c> numbers</c>
+
+00:00:18.550 --> 00:00:18.560 align:start position:0%
+5 6 Etc and these are the block numbers
+ 
+
+00:00:18.560 --> 00:00:20.509 align:start position:0%
+5 6 Etc and these are the block numbers
+not<00:00:18.720><c> the</c><00:00:18.880><c> addresses</c><00:00:19.359><c> so</c><00:00:19.680><c> I'm</c><00:00:19.840><c> assuming</c><00:00:20.240><c> that</c>
+
+00:00:20.509 --> 00:00:20.519 align:start position:0%
+not the addresses so I'm assuming that
+ 
+
+00:00:20.519 --> 00:00:23.269 align:start position:0%
+not the addresses so I'm assuming that
+this<00:00:21.519><c> thing</c><00:00:21.840><c> here</c><00:00:22.039><c> is</c><00:00:22.160><c> an</c><00:00:22.400><c> entire</c><00:00:22.720><c> block</c><00:00:23.039><c> worth</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+this thing here is an entire block worth
+ 
+
+00:00:23.279 --> 00:00:25.150 align:start position:0%
+this thing here is an entire block worth
+of<00:00:23.480><c> memory</c><00:00:24.039><c> which</c><00:00:24.199><c> contains</c><00:00:24.599><c> multiple</c>
+
+00:00:25.150 --> 00:00:25.160 align:start position:0%
+of memory which contains multiple
+ 
+
+00:00:25.160 --> 00:00:27.669 align:start position:0%
+of memory which contains multiple
+locations<00:00:26.160><c> and</c><00:00:26.359><c> let's</c><00:00:26.560><c> say</c><00:00:26.760><c> we</c><00:00:26.880><c> have</c><00:00:27.000><c> a</c><00:00:27.240><c> cache</c>
+
+00:00:27.669 --> 00:00:27.679 align:start position:0%
+locations and let's say we have a cache
+ 
+
+00:00:27.679 --> 00:00:29.990 align:start position:0%
+locations and let's say we have a cache
+with<00:00:27.920><c> room</c><00:00:28.160><c> for</c><00:00:28.400><c> four</c><00:00:28.760><c> blocks</c><00:00:29.519><c> we</c><00:00:29.640><c> canot</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+with room for four blocks we canot
+ 
+
+00:00:30.000 --> 00:00:34.750 align:start position:0%
+with room for four blocks we canot
+number<00:00:30.279><c> the</c><00:00:30.400><c> lines</c><00:00:30.920><c> 0</c><00:00:31.400><c> 1</c><00:00:31.960><c> 2</c><00:00:32.920><c> and</c><00:00:33.399><c> three</c><00:00:34.399><c> and</c><00:00:34.600><c> in</c>
+
+00:00:34.750 --> 00:00:34.760 align:start position:0%
+number the lines 0 1 2 and three and in
+ 
+
+00:00:34.760 --> 00:00:38.389 align:start position:0%
+number the lines 0 1 2 and three and in
+a<00:00:35.000><c> direct</c><00:00:35.320><c> map</c><00:00:35.719><c> cache</c><00:00:36.719><c> block</c><00:00:37.160><c> zero</c><00:00:37.800><c> if</c><00:00:38.040><c> it's</c><00:00:38.200><c> in</c>
+
+00:00:38.389 --> 00:00:38.399 align:start position:0%
+a direct map cache block zero if it's in
+ 
+
+00:00:38.399 --> 00:00:41.029 align:start position:0%
+a direct map cache block zero if it's in
+the<00:00:38.600><c> cach</c><00:00:38.840><c> at</c><00:00:39.000><c> all</c><00:00:39.559><c> needs</c><00:00:39.920><c> to</c><00:00:40.120><c> be</c><00:00:40.600><c> in</c><00:00:40.760><c> line</c>
+
+00:00:41.029 --> 00:00:41.039 align:start position:0%
+the cach at all needs to be in line
+ 
+
+00:00:41.039 --> 00:00:43.830 align:start position:0%
+the cach at all needs to be in line
+number<00:00:41.399><c> zero</c><00:00:42.079><c> block</c><00:00:42.440><c> one</c><00:00:43.160><c> if</c><00:00:43.320><c> it's</c><00:00:43.480><c> in</c><00:00:43.640><c> the</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+number zero block one if it's in the
+ 
+
+00:00:43.840 --> 00:00:47.310 align:start position:0%
+number zero block one if it's in the
+cach<00:00:44.079><c> at</c><00:00:44.239><c> all</c><00:00:44.960><c> will</c><00:00:45.239><c> be</c><00:00:45.719><c> in</c><00:00:45.960><c> slot</c><00:00:46.320><c> number</c><00:00:46.559><c> one</c>
+
+00:00:47.310 --> 00:00:47.320 align:start position:0%
+cach at all will be in slot number one
+ 
+
+00:00:47.320 --> 00:00:49.910 align:start position:0%
+cach at all will be in slot number one
+block<00:00:47.719><c> number</c><00:00:48.079><c> two</c><00:00:48.920><c> if</c><00:00:49.039><c> it</c><00:00:49.199><c> is</c><00:00:49.320><c> in</c><00:00:49.440><c> the</c><00:00:49.640><c> cache</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+block number two if it is in the cache
+ 
+
+00:00:49.920 --> 00:00:53.709 align:start position:0%
+block number two if it is in the cache
+at<00:00:50.079><c> all</c><00:00:50.920><c> has</c><00:00:51.079><c> to</c><00:00:51.280><c> be</c><00:00:51.960><c> in</c><00:00:52.199><c> this</c><00:00:52.480><c> place</c><00:00:52.879><c> here</c>
+
+00:00:53.709 --> 00:00:53.719 align:start position:0%
+at all has to be in this place here
+ 
+
+00:00:53.719 --> 00:00:56.430 align:start position:0%
+at all has to be in this place here
+block<00:00:54.160><c> number</c><00:00:54.480><c> three</c><00:00:55.480><c> if</c><00:00:55.640><c> it</c><00:00:55.760><c> is</c><00:00:55.920><c> in</c><00:00:56.039><c> the</c><00:00:56.199><c> cash</c>
+
+00:00:56.430 --> 00:00:56.440 align:start position:0%
+block number three if it is in the cash
+ 
+
+00:00:56.440 --> 00:00:58.990 align:start position:0%
+block number three if it is in the cash
+at<00:00:56.640><c> all</c><00:00:57.039><c> has</c><00:00:57.239><c> to</c><00:00:57.399><c> be</c><00:00:57.719><c> here</c><00:00:58.359><c> and</c><00:00:58.480><c> now</c><00:00:58.680><c> block</c>
+
+00:00:58.990 --> 00:00:59.000 align:start position:0%
+at all has to be here and now block
+ 
+
+00:00:59.000 --> 00:01:02.869 align:start position:0%
+at all has to be here and now block
+number<00:00:59.280><c> four</c><00:01:00.079><c> will</c><00:01:00.440><c> again</c><00:01:01.000><c> get</c><00:01:01.359><c> to</c><00:01:01.640><c> map</c><00:01:02.000><c> to</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+number four will again get to map to
+ 
+
+00:01:02.879 --> 00:01:05.870 align:start position:0%
+number four will again get to map to
+line<00:01:03.199><c> number</c><00:01:03.559><c> zero</c><00:01:04.439><c> block</c><00:01:04.760><c> number</c><00:01:05.119><c> five</c><00:01:05.560><c> maps</c>
+
+00:01:05.870 --> 00:01:05.880 align:start position:0%
+line number zero block number five maps
+ 
+
+00:01:05.880 --> 00:01:09.670 align:start position:0%
+line number zero block number five maps
+to<00:01:06.080><c> line</c><00:01:06.360><c> number</c><00:01:06.640><c> one</c><00:01:07.439><c> block</c><00:01:07.720><c> number</c><00:01:08.280><c> six</c><00:01:09.280><c> maps</c>
+
+00:01:09.670 --> 00:01:09.680 align:start position:0%
+to line number one block number six maps
+ 
+
+00:01:09.680 --> 00:01:12.710 align:start position:0%
+to line number one block number six maps
+to<00:01:10.200><c> line</c><00:01:10.520><c> number</c><00:01:10.840><c> two</c><00:01:11.320><c> Etc</c><00:01:12.080><c> so</c><00:01:12.320><c> pretty</c><00:01:12.520><c> much</c>
+
+00:01:12.710 --> 00:01:12.720 align:start position:0%
+to line number two Etc so pretty much
+ 
+
+00:01:12.720 --> 00:01:15.950 align:start position:0%
+to line number two Etc so pretty much
+for<00:01:13.000><c> any</c><00:01:13.320><c> given</c><00:01:13.720><c> block</c><00:01:14.600><c> address</c><00:01:15.560><c> there</c><00:01:15.720><c> is</c>
+
+00:01:15.950 --> 00:01:15.960 align:start position:0%
+for any given block address there is
+ 
+
+00:01:15.960 --> 00:01:17.830 align:start position:0%
+for any given block address there is
+only<00:01:16.200><c> one</c><00:01:16.520><c> place</c><00:01:16.759><c> in</c><00:01:16.880><c> the</c><00:01:17.080><c> cache</c><00:01:17.360><c> where</c><00:01:17.560><c> that</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+only one place in the cache where that
+ 
+
+00:01:17.840 --> 00:01:20.069 align:start position:0%
+only one place in the cache where that
+address<00:01:18.159><c> can</c><00:01:18.360><c> be</c><00:01:18.920><c> if</c><00:01:19.040><c> we</c><00:01:19.200><c> look</c><00:01:19.360><c> at</c><00:01:19.520><c> a</c><00:01:19.680><c> memory</c>
+
+00:01:20.069 --> 00:01:20.079 align:start position:0%
+address can be if we look at a memory
+ 
+
+00:01:20.079 --> 00:01:22.910 align:start position:0%
+address can be if we look at a memory
+address<00:01:21.000><c> the</c><00:01:21.159><c> least</c><00:01:21.479><c> significant</c><00:01:22.119><c> bits</c><00:01:22.720><c> are</c>
+
+00:01:22.910 --> 00:01:22.920 align:start position:0%
+address the least significant bits are
+ 
+
+00:01:22.920 --> 00:01:25.069 align:start position:0%
+address the least significant bits are
+still<00:01:23.159><c> the</c><00:01:23.320><c> block</c><00:01:23.600><c> offset</c><00:01:24.159><c> they</c><00:01:24.320><c> tell</c><00:01:24.520><c> us</c>
+
+00:01:25.069 --> 00:01:25.079 align:start position:0%
+still the block offset they tell us
+ 
+
+00:01:25.079 --> 00:01:27.789 align:start position:0%
+still the block offset they tell us
+where<00:01:25.360><c> in</c><00:01:25.520><c> the</c><00:01:25.680><c> block</c><00:01:26.119><c> are</c><00:01:26.400><c> we</c><00:01:27.200><c> assuming</c><00:01:27.680><c> that</c>
+
+00:01:27.789 --> 00:01:27.799 align:start position:0%
+where in the block are we assuming that
+ 
+
+00:01:27.799 --> 00:01:31.190 align:start position:0%
+where in the block are we assuming that
+we<00:01:27.960><c> find</c><00:01:28.200><c> the</c><00:01:28.360><c> block</c><00:01:29.280><c> the</c><00:01:29.439><c> block</c><00:01:29.960><c> number</c><00:01:30.920><c> now</c>
+
+00:01:31.190 --> 00:01:31.200 align:start position:0%
+we find the block the block number now
+ 
+
+00:01:31.200 --> 00:01:34.389 align:start position:0%
+we find the block the block number now
+contains<00:01:31.680><c> some</c><00:01:32.000><c> bits</c><00:01:32.840><c> that</c><00:01:33.040><c> tell</c><00:01:33.320><c> us</c><00:01:33.960><c> where</c><00:01:34.240><c> in</c>
+
+00:01:34.389 --> 00:01:34.399 align:start position:0%
+contains some bits that tell us where in
+ 
+
+00:01:34.399 --> 00:01:37.630 align:start position:0%
+contains some bits that tell us where in
+the<00:01:34.680><c> cache</c><00:01:35.680><c> this</c><00:01:35.880><c> block</c><00:01:36.159><c> can</c><00:01:36.360><c> be</c><00:01:37.119><c> the</c><00:01:37.280><c> index</c>
+
+00:01:37.630 --> 00:01:37.640 align:start position:0%
+the cache this block can be the index
+ 
+
+00:01:37.640 --> 00:01:40.429 align:start position:0%
+the cache this block can be the index
+bits<00:01:38.479><c> need</c><00:01:38.720><c> to</c><00:01:38.840><c> be</c><00:01:39.079><c> sufficient</c><00:01:39.640><c> to</c><00:01:39.840><c> tell</c><00:01:40.040><c> us</c>
+
+00:01:40.429 --> 00:01:40.439 align:start position:0%
+bits need to be sufficient to tell us
+ 
+
+00:01:40.439 --> 00:01:42.429 align:start position:0%
+bits need to be sufficient to tell us
+which<00:01:40.680><c> of</c><00:01:40.840><c> the</c><00:01:41.000><c> lines</c><00:01:41.479><c> in</c><00:01:41.640><c> the</c><00:01:41.840><c> cache</c><00:01:42.079><c> are</c><00:01:42.240><c> we</c>
+
+00:01:42.429 --> 00:01:42.439 align:start position:0%
+which of the lines in the cache are we
+ 
+
+00:01:42.439 --> 00:01:44.550 align:start position:0%
+which of the lines in the cache are we
+talking<00:01:42.759><c> about</c><00:01:43.280><c> so</c><00:01:43.439><c> if</c><00:01:43.600><c> there</c><00:01:43.720><c> are</c><00:01:43.880><c> four</c><00:01:44.240><c> lines</c>
+
+00:01:44.550 --> 00:01:44.560 align:start position:0%
+talking about so if there are four lines
+ 
+
+00:01:44.560 --> 00:01:47.030 align:start position:0%
+talking about so if there are four lines
+in<00:01:44.680><c> the</c><00:01:44.880><c> cache</c><00:01:45.560><c> then</c><00:01:45.719><c> we</c><00:01:45.880><c> need</c><00:01:46.079><c> two</c><00:01:46.280><c> index</c><00:01:46.640><c> bits</c>
+
+00:01:47.030 --> 00:01:47.040 align:start position:0%
+in the cache then we need two index bits
+ 
+
+00:01:47.040 --> 00:01:49.190 align:start position:0%
+in the cache then we need two index bits
+to<00:01:47.200><c> tell</c><00:01:47.399><c> us</c><00:01:47.640><c> where</c><00:01:47.799><c> a</c><00:01:47.920><c> block</c><00:01:48.200><c> can</c><00:01:48.399><c> map</c><00:01:49.000><c> and</c>
+
+00:01:49.190 --> 00:01:49.200 align:start position:0%
+to tell us where a block can map and
+ 
+
+00:01:49.200 --> 00:01:50.910 align:start position:0%
+to tell us where a block can map and
+that<00:01:49.320><c> is</c><00:01:49.560><c> why</c><00:01:49.759><c> in</c><00:01:49.880><c> the</c><00:01:50.040><c> block</c>
+
+00:01:50.910 --> 00:01:50.920 align:start position:0%
+that is why in the block
+ 
+
+00:01:50.920 --> 00:01:55.469 align:start position:0%
+that is why in the block
+number<00:01:51.920><c> it</c><00:01:52.040><c> was</c><00:01:52.280><c> 0</c><00:01:52.640><c> 1</c><00:01:52.880><c> 2</c><00:01:53.200><c> 3</c><00:01:53.479><c> 0</c><00:01:53.920><c> 1</c><00:01:54.119><c> 2</c><00:01:54.360><c> 3</c><00:01:54.640><c> Etc</c><00:01:55.159><c> it</c><00:01:55.280><c> was</c>
+
+00:01:55.469 --> 00:01:55.479 align:start position:0%
+number it was 0 1 2 3 0 1 2 3 Etc it was
+ 
+
+00:01:55.479 --> 00:01:57.350 align:start position:0%
+number it was 0 1 2 3 0 1 2 3 Etc it was
+determined<00:01:56.039><c> by</c><00:01:56.159><c> the</c><00:01:56.280><c> lowermost</c><00:01:56.840><c> bits</c><00:01:57.119><c> of</c><00:01:57.240><c> the</c>
+
+00:01:57.350 --> 00:01:57.360 align:start position:0%
+determined by the lowermost bits of the
+ 
+
+00:01:57.360 --> 00:01:59.709 align:start position:0%
+determined by the lowermost bits of the
+block<00:01:57.640><c> number</c><00:01:58.520><c> and</c><00:01:58.680><c> the</c><00:01:59.000><c> remaining</c><00:01:59.360><c> bits</c><00:01:59.600><c> of</c>
+
+00:01:59.709 --> 00:01:59.719 align:start position:0%
+block number and the remaining bits of
+ 
+
+00:01:59.719 --> 00:02:02.069 align:start position:0%
+block number and the remaining bits of
+the<00:01:59.880><c> the</c><00:01:59.960><c> address</c><00:02:00.240><c> are</c><00:02:00.399><c> now</c><00:02:00.600><c> the</c><00:02:00.880><c> tag</c><00:02:01.880><c> now</c>
+
+00:02:02.069 --> 00:02:02.079 align:start position:0%
+the the address are now the tag now
+ 
+
+00:02:02.079 --> 00:02:03.950 align:start position:0%
+the the address are now the tag now
+there<00:02:02.159><c> is</c><00:02:02.280><c> an</c><00:02:02.479><c> interesting</c><00:02:03.000><c> question</c><00:02:03.439><c> of</c><00:02:03.759><c> why</c>
+
+00:02:03.950 --> 00:02:03.960 align:start position:0%
+there is an interesting question of why
+ 
+
+00:02:03.960 --> 00:02:07.270 align:start position:0%
+there is an interesting question of why
+the<00:02:04.200><c> tag</c><00:02:04.840><c> does</c><00:02:05.079><c> not</c><00:02:05.360><c> include</c><00:02:05.840><c> the</c><00:02:06.000><c> full</c><00:02:06.320><c> block</c>
+
+00:02:07.270 --> 00:02:07.280 align:start position:0%
+the tag does not include the full block
+ 
+
+00:02:07.280 --> 00:02:10.150 align:start position:0%
+the tag does not include the full block
+number<00:02:08.280><c> so</c><00:02:08.560><c> why</c><00:02:08.759><c> doesn't</c><00:02:09.080><c> the</c><00:02:09.239><c> tag</c><00:02:09.479><c> cover</c><00:02:09.879><c> also</c>
+
+00:02:10.150 --> 00:02:10.160 align:start position:0%
+number so why doesn't the tag cover also
+ 
+
+00:02:10.160 --> 00:02:13.550 align:start position:0%
+number so why doesn't the tag cover also
+the<00:02:10.319><c> index</c><00:02:10.720><c> bits</c><00:02:11.599><c> and</c><00:02:11.760><c> the</c><00:02:11.959><c> answer</c><00:02:12.239><c> to</c><00:02:12.520><c> this</c><00:02:13.280><c> is</c>
+
+00:02:13.550 --> 00:02:13.560 align:start position:0%
+the index bits and the answer to this is
+ 
+
+00:02:13.560 --> 00:02:17.949 align:start position:0%
+the index bits and the answer to this is
+that<00:02:14.160><c> the</c><00:02:14.800><c> tag</c><00:02:15.800><c> needs</c><00:02:16.120><c> to</c><00:02:16.319><c> tell</c><00:02:16.560><c> us</c><00:02:17.560><c> which</c><00:02:17.800><c> of</c>
+
+00:02:17.949 --> 00:02:17.959 align:start position:0%
+that the tag needs to tell us which of
+ 
+
+00:02:17.959 --> 00:02:21.830 align:start position:0%
+that the tag needs to tell us which of
+the<00:02:18.120><c> blocks</c><00:02:18.959><c> do</c><00:02:19.120><c> we</c><00:02:19.440><c> have</c><00:02:20.200><c> in</c><00:02:20.440><c> this</c><00:02:20.720><c> place</c><00:02:21.680><c> and</c>
+
+00:02:21.830 --> 00:02:21.840 align:start position:0%
+the blocks do we have in this place and
+ 
+
+00:02:21.840 --> 00:02:23.470 align:start position:0%
+the blocks do we have in this place and
+the<00:02:22.000><c> answer</c><00:02:22.319><c> is</c><00:02:22.480><c> that</c><00:02:22.640><c> the</c><00:02:22.800><c> tag</c><00:02:23.040><c> needs</c><00:02:23.280><c> to</c>
+
+00:02:23.470 --> 00:02:23.480 align:start position:0%
+the answer is that the tag needs to
+ 
+
+00:02:23.480 --> 00:02:26.190 align:start position:0%
+the answer is that the tag needs to
+identify<00:02:24.239><c> which</c><00:02:24.440><c> block</c><00:02:24.800><c> we</c><00:02:25.040><c> have</c><00:02:25.840><c> in</c><00:02:26.000><c> the</c>
+
+00:02:26.190 --> 00:02:26.200 align:start position:0%
+identify which block we have in the
+ 
+
+00:02:26.200 --> 00:02:29.229 align:start position:0%
+identify which block we have in the
+cache<00:02:27.200><c> considering</c><00:02:27.920><c> that</c><00:02:28.519><c> the</c><00:02:28.720><c> block</c><00:02:29.040><c> with</c>
+
+00:02:29.229 --> 00:02:29.239 align:start position:0%
+cache considering that the block with
+ 
+
+00:02:29.239 --> 00:02:31.869 align:start position:0%
+cache considering that the block with
+some<00:02:29.920><c> index</c><00:02:30.319><c> bits</c><00:02:30.840><c> has</c><00:02:31.000><c> to</c><00:02:31.160><c> be</c><00:02:31.319><c> in</c><00:02:31.440><c> one</c><00:02:31.680><c> place</c>
+
+00:02:31.869 --> 00:02:31.879 align:start position:0%
+some index bits has to be in one place
+ 
+
+00:02:31.879 --> 00:02:34.190 align:start position:0%
+some index bits has to be in one place
+in<00:02:32.040><c> the</c><00:02:32.239><c> cache</c><00:02:32.760><c> the</c><00:02:33.000><c> tag</c><00:02:33.280><c> for</c><00:02:33.560><c> that</c><00:02:33.840><c> place</c><00:02:34.040><c> in</c>
+
+00:02:34.190 --> 00:02:34.200 align:start position:0%
+in the cache the tag for that place in
+ 
+
+00:02:34.200 --> 00:02:35.949 align:start position:0%
+in the cache the tag for that place in
+the<00:02:34.400><c> cache</c><00:02:34.760><c> doesn't</c><00:02:35.040><c> need</c><00:02:35.239><c> to</c><00:02:35.400><c> tell</c><00:02:35.599><c> us</c><00:02:35.800><c> what</c>
+
+00:02:35.949 --> 00:02:35.959 align:start position:0%
+the cache doesn't need to tell us what
+ 
+
+00:02:35.959 --> 00:02:38.430 align:start position:0%
+the cache doesn't need to tell us what
+the<00:02:36.040><c> index</c><00:02:36.360><c> bits</c><00:02:36.680><c> are</c><00:02:37.160><c> by</c><00:02:37.360><c> looking</c><00:02:37.840><c> at</c><00:02:38.160><c> this</c>
+
+00:02:38.430 --> 00:02:38.440 align:start position:0%
+the index bits are by looking at this
+ 
+
+00:02:38.440 --> 00:02:40.790 align:start position:0%
+the index bits are by looking at this
+particular<00:02:39.120><c> line</c><00:02:40.040><c> we</c><00:02:40.200><c> have</c><00:02:40.400><c> already</c>
+
+00:02:40.790 --> 00:02:40.800 align:start position:0%
+particular line we have already
+ 
+
+00:02:40.800 --> 00:02:43.350 align:start position:0%
+particular line we have already
+determined<00:02:41.640><c> that</c><00:02:41.879><c> these</c><00:02:42.360><c> index</c><00:02:42.760><c> bits</c><00:02:43.080><c> have</c><00:02:43.200><c> to</c>
+
+00:02:43.350 --> 00:02:43.360 align:start position:0%
+determined that these index bits have to
+ 
+
+00:02:43.360 --> 00:02:45.990 align:start position:0%
+determined that these index bits have to
+be<00:02:44.000><c> the</c><00:02:44.120><c> ones</c><00:02:44.360><c> that</c><00:02:44.519><c> correspond</c><00:02:45.040><c> to</c><00:02:45.200><c> that</c><00:02:45.400><c> line</c>
+
+00:02:45.990 --> 00:02:46.000 align:start position:0%
+be the ones that correspond to that line
+ 
+
+00:02:46.000 --> 00:02:48.750 align:start position:0%
+be the ones that correspond to that line
+so<00:02:46.239><c> all</c><00:02:46.400><c> we</c><00:02:46.599><c> have</c><00:02:46.760><c> to</c><00:02:46.920><c> do</c><00:02:47.280><c> is</c><00:02:47.480><c> tell</c><00:02:47.720><c> us</c><00:02:48.360><c> which</c><00:02:48.560><c> of</c>
+
+00:02:48.750 --> 00:02:48.760 align:start position:0%
+so all we have to do is tell us which of
+ 
+
+00:02:48.760 --> 00:02:51.910 align:start position:0%
+so all we have to do is tell us which of
+the<00:02:48.920><c> lines</c><00:02:49.720><c> that</c><00:02:49.879><c> can</c><00:02:50.120><c> possibly</c><00:02:50.560><c> be</c><00:02:50.920><c> here</c><00:02:51.720><c> do</c>
+
+00:02:51.910 --> 00:02:51.920 align:start position:0%
+the lines that can possibly be here do
+ 
+
+00:02:51.920 --> 00:02:54.070 align:start position:0%
+the lines that can possibly be here do
+we<00:02:52.080><c> really</c><00:02:52.400><c> have</c><00:02:52.879><c> and</c><00:02:53.000><c> for</c><00:02:53.239><c> that</c><00:02:53.440><c> we</c><00:02:53.560><c> only</c><00:02:53.800><c> need</c>
+
+00:02:54.070 --> 00:02:54.080 align:start position:0%
+we really have and for that we only need
+ 
+
+00:02:54.080 --> 00:02:56.110 align:start position:0%
+we really have and for that we only need
+these<00:02:54.280><c> bits</c><00:02:54.879><c> because</c><00:02:55.120><c> the</c><00:02:55.200><c> index</c><00:02:55.519><c> bits</c><00:02:55.720><c> are</c>
+
+00:02:56.110 --> 00:02:56.120 align:start position:0%
+these bits because the index bits are
+ 
+
+00:02:56.120 --> 00:02:57.750 align:start position:0%
+these bits because the index bits are
+pretty<00:02:56.360><c> much</c><00:02:56.599><c> predetermined</c><00:02:57.360><c> once</c><00:02:57.519><c> we</c><00:02:57.640><c> are</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+pretty much predetermined once we are
+ 
+
+00:02:57.760 --> 00:03:00.990 align:start position:0%
+pretty much predetermined once we are
+already<00:02:58.080><c> looking</c><00:02:58.480><c> here</c><00:02:59.440><c> in</c><00:02:59.879><c> other</c><00:03:00.080><c> words</c><00:03:00.840><c> if</c>
+
+00:03:00.990 --> 00:03:01.000 align:start position:0%
+already looking here in other words if
+ 
+
+00:03:01.000 --> 00:03:05.350 align:start position:0%
+already looking here in other words if
+we<00:03:01.319><c> stored</c><00:03:02.319><c> the</c><00:03:02.519><c> index</c><00:03:02.959><c> bits</c><00:03:03.879><c> in</c><00:03:04.040><c> the</c><00:03:04.280><c> tag</c><00:03:05.200><c> all</c>
+
+00:03:05.350 --> 00:03:05.360 align:start position:0%
+we stored the index bits in the tag all
+ 
+
+00:03:05.360 --> 00:03:09.229 align:start position:0%
+we stored the index bits in the tag all
+of<00:03:05.519><c> the</c><00:03:06.120><c> tags</c><00:03:07.120><c> that</c><00:03:07.280><c> we</c><00:03:07.400><c> could</c><00:03:07.599><c> possibly</c><00:03:08.200><c> put</c>
+
+00:03:09.229 --> 00:03:09.239 align:start position:0%
+of the tags that we could possibly put
+ 
+
+00:03:09.239 --> 00:03:11.910 align:start position:0%
+of the tags that we could possibly put
+here<00:03:10.239><c> would</c><00:03:10.480><c> have</c><00:03:10.640><c> the</c><00:03:10.760><c> same</c><00:03:11.000><c> index</c><00:03:11.360><c> bits</c>
+
+00:03:11.910 --> 00:03:11.920 align:start position:0%
+here would have the same index bits
+ 
+
+00:03:11.920 --> 00:03:13.710 align:start position:0%
+here would have the same index bits
+which<00:03:12.080><c> means</c><00:03:12.400><c> we</c><00:03:12.519><c> don't</c><00:03:12.720><c> have</c><00:03:12.840><c> to</c><00:03:12.920><c> store</c><00:03:13.280><c> them</c>
+
+00:03:13.710 --> 00:03:13.720 align:start position:0%
+which means we don't have to store them
+ 
+
+00:03:13.720 --> 00:03:17.040 align:start position:0%
+which means we don't have to store them
+because<00:03:13.959><c> we</c><00:03:14.120><c> already</c><00:03:14.360><c> know</c><00:03:14.640><c> them</c>
+

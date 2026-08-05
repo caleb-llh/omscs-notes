@@ -1,0 +1,12 @@
+1
+00:00:00,450 --> 00:00:02,350
+ This is the answer.
+
+2
+00:00:02,350 --> 00:00:04,360
+ We're sending full vectors at every round, and
+
+3
+00:00:04,360 --> 00:00:04,360
+ we've got log P rounds of communication.
+

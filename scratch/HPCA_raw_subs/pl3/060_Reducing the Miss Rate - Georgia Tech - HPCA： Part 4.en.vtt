@@ -1,0 +1,512 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.199 --> 00:00:02.350 align:start position:0%
+ 
+now<00:00:00.440><c> let's</c><00:00:00.760><c> go</c><00:00:01.079><c> back</c><00:00:01.719><c> to</c><00:00:01.880><c> our</c><00:00:02.120><c> cache</c>
+
+00:00:02.350 --> 00:00:02.360 align:start position:0%
+now let's go back to our cache
+ 
+
+00:00:02.360 --> 00:00:04.590 align:start position:0%
+now let's go back to our cache
+optimizations<00:00:03.320><c> which</c><00:00:03.480><c> are</c><00:00:03.760><c> about</c><00:00:04.120><c> reducing</c>
+
+00:00:04.590 --> 00:00:04.600 align:start position:0%
+optimizations which are about reducing
+ 
+
+00:00:04.600 --> 00:00:08.310 align:start position:0%
+optimizations which are about reducing
+the<00:00:04.799><c> Amat</c><00:00:05.759><c> we</c><00:00:05.920><c> have</c><00:00:06.080><c> seen</c><00:00:06.799><c> that</c><00:00:07.399><c> Amat</c><00:00:08.000><c> can</c><00:00:08.160><c> be</c>
+
+00:00:08.310 --> 00:00:08.320 align:start position:0%
+the Amat we have seen that Amat can be
+ 
+
+00:00:08.320 --> 00:00:10.709 align:start position:0%
+the Amat we have seen that Amat can be
+reduced<00:00:08.800><c> by</c><00:00:08.960><c> reducing</c><00:00:09.360><c> the</c><00:00:09.519><c> heat</c><00:00:09.800><c> time</c><00:00:10.440><c> and</c><00:00:10.559><c> we</c>
+
+00:00:10.709 --> 00:00:10.719 align:start position:0%
+reduced by reducing the heat time and we
+ 
+
+00:00:10.719 --> 00:00:12.350 align:start position:0%
+reduced by reducing the heat time and we
+have<00:00:10.840><c> seen</c><00:00:11.200><c> several</c>
+
+00:00:12.350 --> 00:00:12.360 align:start position:0%
+have seen several
+ 
+
+00:00:12.360 --> 00:00:16.150 align:start position:0%
+have seen several
+techniques<00:00:13.360><c> that</c><00:00:13.519><c> do</c><00:00:13.839><c> this</c><00:00:14.519><c> the</c><00:00:14.719><c> aat</c><00:00:15.599><c> can</c><00:00:15.799><c> also</c>
+
+00:00:16.150 --> 00:00:16.160 align:start position:0%
+techniques that do this the aat can also
+ 
+
+00:00:16.160 --> 00:00:19.109 align:start position:0%
+techniques that do this the aat can also
+be<00:00:16.320><c> reduced</c><00:00:17.080><c> by</c><00:00:17.279><c> reducing</c><00:00:17.720><c> the</c><00:00:17.880><c> M</c><00:00:18.240><c> rate</c><00:00:18.880><c> and</c><00:00:19.000><c> we</c>
+
+00:00:19.109 --> 00:00:19.119 align:start position:0%
+be reduced by reducing the M rate and we
+ 
+
+00:00:19.119 --> 00:00:21.189 align:start position:0%
+be reduced by reducing the M rate and we
+will<00:00:19.320><c> now</c><00:00:19.560><c> look</c><00:00:19.800><c> at</c><00:00:20.000><c> some</c><00:00:20.279><c> techniques</c><00:00:21.000><c> that</c>
+
+00:00:21.189 --> 00:00:21.199 align:start position:0%
+will now look at some techniques that
+ 
+
+00:00:21.199 --> 00:00:24.029 align:start position:0%
+will now look at some techniques that
+try<00:00:21.400><c> to</c><00:00:21.560><c> do</c><00:00:21.840><c> that</c><00:00:22.600><c> so</c><00:00:22.840><c> in</c><00:00:23.000><c> our</c><00:00:23.240><c> work</c><00:00:23.640><c> on</c>
+
+00:00:24.029 --> 00:00:24.039 align:start position:0%
+try to do that so in our work on
+ 
+
+00:00:24.039 --> 00:00:26.390 align:start position:0%
+try to do that so in our work on
+reducing<00:00:24.519><c> the</c><00:00:24.680><c> Miss</c><00:00:24.960><c> rate</c><00:00:25.640><c> we</c><00:00:25.800><c> really</c><00:00:26.000><c> need</c><00:00:26.199><c> to</c>
+
+00:00:26.390 --> 00:00:26.400 align:start position:0%
+reducing the Miss rate we really need to
+ 
+
+00:00:26.400 --> 00:00:29.310 align:start position:0%
+reducing the Miss rate we really need to
+consider<00:00:27.240><c> what</c><00:00:27.439><c> are</c><00:00:27.679><c> the</c><00:00:27.920><c> causes</c><00:00:28.439><c> of</c><00:00:28.640><c> Misses</c>
+
+00:00:29.310 --> 00:00:29.320 align:start position:0%
+consider what are the causes of Misses
+ 
+
+00:00:29.320 --> 00:00:32.069 align:start position:0%
+consider what are the causes of Misses
+so<00:00:29.519><c> what</c><00:00:29.679><c> can</c><00:00:30.000><c> cause</c><00:00:30.240><c> misses</c><00:00:31.160><c> and</c><00:00:31.480><c> the</c><00:00:31.679><c> causes</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+so what can cause misses and the causes
+ 
+
+00:00:32.079 --> 00:00:35.590 align:start position:0%
+so what can cause misses and the causes
+of<00:00:32.320><c> Misses</c><00:00:33.239><c> are</c><00:00:33.520><c> what</c><00:00:33.680><c> we</c><00:00:33.840><c> call</c><00:00:34.079><c> the</c><00:00:34.280><c> Tre</c><00:00:34.719><c> C's</c>
+
+00:00:35.590 --> 00:00:35.600 align:start position:0%
+of Misses are what we call the Tre C's
+ 
+
+00:00:35.600 --> 00:00:38.350 align:start position:0%
+of Misses are what we call the Tre C's
+you<00:00:35.719><c> should</c><00:00:36.000><c> remember</c><00:00:36.520><c> this</c><00:00:37.160><c> because</c><00:00:38.120><c> very</c>
+
+00:00:38.350 --> 00:00:38.360 align:start position:0%
+you should remember this because very
+ 
+
+00:00:38.360 --> 00:00:40.830 align:start position:0%
+you should remember this because very
+often<00:00:38.640><c> we</c><00:00:38.719><c> will</c><00:00:38.920><c> refer</c><00:00:39.200><c> to</c><00:00:39.360><c> the</c><00:00:39.600><c> trees</c><00:00:40.600><c> and</c><00:00:40.719><c> you</c>
+
+00:00:40.830 --> 00:00:40.840 align:start position:0%
+often we will refer to the trees and you
+ 
+
+00:00:40.840 --> 00:00:43.830 align:start position:0%
+often we will refer to the trees and you
+need<00:00:41.000><c> to</c><00:00:41.160><c> know</c><00:00:41.840><c> that</c><00:00:42.000><c> the</c><00:00:42.160><c> trees</c><00:00:43.000><c> are</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+need to know that the trees are
+ 
+
+00:00:43.840 --> 00:00:47.430 align:start position:0%
+need to know that the trees are
+compulsory<00:00:44.640><c> misses</c><00:00:45.600><c> capacity</c><00:00:46.239><c> misses</c><00:00:47.120><c> and</c>
+
+00:00:47.430 --> 00:00:47.440 align:start position:0%
+compulsory misses capacity misses and
+ 
+
+00:00:47.440 --> 00:00:50.670 align:start position:0%
+compulsory misses capacity misses and
+conflict<00:00:47.960><c> misses</c><00:00:48.800><c> a</c><00:00:49.079><c> compulsory</c><00:00:49.760><c> Miss</c><00:00:50.360><c> is</c><00:00:50.480><c> a</c>
+
+00:00:50.670 --> 00:00:50.680 align:start position:0%
+conflict misses a compulsory Miss is a
+ 
+
+00:00:50.680 --> 00:00:53.069 align:start position:0%
+conflict misses a compulsory Miss is a
+miss<00:00:51.000><c> that</c><00:00:51.199><c> occurs</c><00:00:51.879><c> when</c><00:00:52.120><c> a</c><00:00:52.320><c> block</c><00:00:52.840><c> is</c>
+
+00:00:53.069 --> 00:00:53.079 align:start position:0%
+miss that occurs when a block is
+ 
+
+00:00:53.079 --> 00:00:55.349 align:start position:0%
+miss that occurs when a block is
+accessed<00:00:53.480><c> for</c><00:00:53.640><c> the</c><00:00:53.760><c> first</c><00:00:54.160><c> time</c><00:00:54.719><c> it's</c><00:00:54.920><c> called</c>
+
+00:00:55.349 --> 00:00:55.359 align:start position:0%
+accessed for the first time it's called
+ 
+
+00:00:55.359 --> 00:00:57.750 align:start position:0%
+accessed for the first time it's called
+compulsory<00:00:56.320><c> because</c><00:00:56.600><c> you</c><00:00:56.840><c> have</c><00:00:57.000><c> to</c><00:00:57.239><c> have</c><00:00:57.480><c> this</c>
+
+00:00:57.750 --> 00:00:57.760 align:start position:0%
+compulsory because you have to have this
+ 
+
+00:00:57.760 --> 00:01:00.349 align:start position:0%
+compulsory because you have to have this
+Miss<00:00:58.359><c> so</c><00:00:58.680><c> even</c><00:00:58.960><c> if</c><00:00:59.079><c> we</c><00:00:59.239><c> have</c><00:00:59.399><c> an</c><00:00:59.600><c> INF</c><00:00:59.960><c> inite</c>
+
+00:01:00.349 --> 00:01:00.359 align:start position:0%
+Miss so even if we have an INF inite
+ 
+
+00:01:00.359 --> 00:01:02.750 align:start position:0%
+Miss so even if we have an INF inite
+cash<00:01:00.920><c> that</c><00:01:01.079><c> starts</c><00:01:01.440><c> out</c><00:01:01.760><c> empty</c><00:01:02.320><c> we</c><00:01:02.440><c> would</c>
+
+00:01:02.750 --> 00:01:02.760 align:start position:0%
+cash that starts out empty we would
+ 
+
+00:01:02.760 --> 00:01:05.670 align:start position:0%
+cash that starts out empty we would
+still<00:01:03.280><c> have</c><00:01:03.800><c> the</c><00:01:04.000><c> compulsory</c><00:01:04.640><c> misses</c><00:01:05.400><c> but</c><00:01:05.560><c> we</c>
+
+00:01:05.670 --> 00:01:05.680 align:start position:0%
+still have the compulsory misses but we
+ 
+
+00:01:05.680 --> 00:01:07.350 align:start position:0%
+still have the compulsory misses but we
+would<00:01:05.880><c> not</c><00:01:06.200><c> have</c><00:01:06.439><c> any</c><00:01:06.640><c> of</c><00:01:06.760><c> the</c><00:01:06.920><c> other</c><00:01:07.119><c> two</c>
+
+00:01:07.350 --> 00:01:07.360 align:start position:0%
+would not have any of the other two
+ 
+
+00:01:07.360 --> 00:01:09.230 align:start position:0%
+would not have any of the other two
+kinds<00:01:07.680><c> so</c><00:01:07.840><c> a</c><00:01:08.000><c> compulsory</c><00:01:08.479><c> Miss</c><00:01:08.720><c> is</c><00:01:08.799><c> a</c><00:01:08.920><c> miss</c><00:01:09.119><c> you</c>
+
+00:01:09.230 --> 00:01:09.240 align:start position:0%
+kinds so a compulsory Miss is a miss you
+ 
+
+00:01:09.240 --> 00:01:11.190 align:start position:0%
+kinds so a compulsory Miss is a miss you
+have<00:01:09.360><c> to</c><00:01:09.520><c> have</c><00:01:09.759><c> simply</c><00:01:10.119><c> because</c><00:01:10.759><c> for</c><00:01:11.000><c> the</c>
+
+00:01:11.190 --> 00:01:11.200 align:start position:0%
+have to have simply because for the
+ 
+
+00:01:11.200 --> 00:01:12.830 align:start position:0%
+have to have simply because for the
+first<00:01:11.479><c> time</c><00:01:11.680><c> you</c><00:01:11.840><c> have</c><00:01:12.000><c> to</c><00:01:12.119><c> bring</c><00:01:12.400><c> a</c><00:01:12.520><c> block</c>
+
+00:01:12.830 --> 00:01:12.840 align:start position:0%
+first time you have to bring a block
+ 
+
+00:01:12.840 --> 00:01:16.230 align:start position:0%
+first time you have to bring a block
+into<00:01:13.080><c> the</c><00:01:13.320><c> cash</c><00:01:14.000><c> capacity</c><00:01:14.640><c> misses</c><00:01:15.400><c> are</c><00:01:15.680><c> misses</c>
+
+00:01:16.230 --> 00:01:16.240 align:start position:0%
+into the cash capacity misses are misses
+ 
+
+00:01:16.240 --> 00:01:18.429 align:start position:0%
+into the cash capacity misses are misses
+that<00:01:16.400><c> we</c><00:01:16.560><c> have</c><00:01:16.759><c> on</c><00:01:17.000><c> blocks</c><00:01:17.640><c> that</c><00:01:17.799><c> were</c><00:01:18.080><c> in</c><00:01:18.200><c> the</c>
+
+00:01:18.429 --> 00:01:18.439 align:start position:0%
+that we have on blocks that were in the
+ 
+
+00:01:18.439 --> 00:01:21.749 align:start position:0%
+that we have on blocks that were in the
+cach<00:01:19.080><c> but</c><00:01:19.240><c> were</c><00:01:19.640><c> evicted</c><00:01:20.439><c> because</c><00:01:21.200><c> we</c><00:01:21.360><c> didn't</c>
+
+00:01:21.749 --> 00:01:21.759 align:start position:0%
+cach but were evicted because we didn't
+ 
+
+00:01:21.759 --> 00:01:23.990 align:start position:0%
+cach but were evicted because we didn't
+have<00:01:22.159><c> enough</c><00:01:22.479><c> room</c><00:01:22.799><c> in</c><00:01:22.920><c> the</c><00:01:23.159><c> cash</c><00:01:23.600><c> because</c><00:01:23.759><c> the</c>
+
+00:01:23.990 --> 00:01:24.000 align:start position:0%
+have enough room in the cash because the
+ 
+
+00:01:24.000 --> 00:01:26.630 align:start position:0%
+have enough room in the cash because the
+cash<00:01:24.320><c> is</c><00:01:24.479><c> of</c><00:01:24.600><c> a</c><00:01:24.799><c> finite</c><00:01:25.280><c> size</c><00:01:26.000><c> so</c><00:01:26.240><c> these</c><00:01:26.400><c> are</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+cash is of a finite size so these are
+ 
+
+00:01:26.640 --> 00:01:28.630 align:start position:0%
+cash is of a finite size so these are
+misses<00:01:27.119><c> that</c><00:01:27.280><c> we</c><00:01:27.439><c> would</c><00:01:27.680><c> not</c><00:01:28.079><c> have</c><00:01:28.280><c> in</c><00:01:28.400><c> an</c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+misses that we would not have in an
+ 
+
+00:01:28.640 --> 00:01:32.350 align:start position:0%
+misses that we would not have in an
+infinite<00:01:29.159><c> cash</c><00:01:30.079><c> but</c><00:01:31.040><c> capacity</c><00:01:31.560><c> misses</c><00:01:32.119><c> would</c>
+
+00:01:32.350 --> 00:01:32.360 align:start position:0%
+infinite cash but capacity misses would
+ 
+
+00:01:32.360 --> 00:01:35.190 align:start position:0%
+infinite cash but capacity misses would
+be<00:01:32.600><c> misses</c><00:01:33.280><c> even</c><00:01:33.600><c> in</c><00:01:33.720><c> a</c><00:01:33.920><c> fully</c><00:01:34.280><c> associative</c>
+
+00:01:35.190 --> 00:01:35.200 align:start position:0%
+be misses even in a fully associative
+ 
+
+00:01:35.200 --> 00:01:38.069 align:start position:0%
+be misses even in a fully associative
+cache<00:01:36.200><c> of</c><00:01:36.399><c> the</c><00:01:36.600><c> given</c><00:01:36.920><c> size</c><00:01:37.360><c> so</c><00:01:37.560><c> for</c><00:01:37.720><c> example</c>
+
+00:01:38.069 --> 00:01:38.079 align:start position:0%
+cache of the given size so for example
+ 
+
+00:01:38.079 --> 00:01:41.109 align:start position:0%
+cache of the given size so for example
+if<00:01:38.200><c> we</c><00:01:38.320><c> have</c><00:01:38.439><c> an</c><00:01:38.880><c> 8</c><00:01:39.320><c> kilobyte</c><00:01:39.880><c> cache</c><00:01:40.840><c> that</c><00:01:40.960><c> is</c>
+
+00:01:41.109 --> 00:01:41.119 align:start position:0%
+if we have an 8 kilobyte cache that is
+ 
+
+00:01:41.119 --> 00:01:43.830 align:start position:0%
+if we have an 8 kilobyte cache that is
+let's<00:01:41.280><c> say</c><00:01:41.520><c> direct</c><00:01:41.920><c> map</c><00:01:42.759><c> we</c><00:01:42.920><c> have</c><00:01:43.040><c> a</c><00:01:43.320><c> capacity</c>
+
+00:01:43.830 --> 00:01:43.840 align:start position:0%
+let's say direct map we have a capacity
+ 
+
+00:01:43.840 --> 00:01:46.590 align:start position:0%
+let's say direct map we have a capacity
+Miss<00:01:44.799><c> if</c><00:01:45.040><c> that</c><00:01:45.240><c> block</c><00:01:45.479><c> would</c><00:01:45.640><c> not</c><00:01:45.880><c> be</c><00:01:46.040><c> found</c><00:01:46.479><c> in</c>
+
+00:01:46.590 --> 00:01:46.600 align:start position:0%
+Miss if that block would not be found in
+ 
+
+00:01:46.600 --> 00:01:48.270 align:start position:0%
+Miss if that block would not be found in
+the<00:01:46.799><c> cach</c><00:01:47.159><c> even</c><00:01:47.560><c> if</c><00:01:47.680><c> it</c><00:01:47.799><c> was</c><00:01:47.960><c> fully</c>
+
+00:01:48.270 --> 00:01:48.280 align:start position:0%
+the cach even if it was fully
+ 
+
+00:01:48.280 --> 00:01:51.389 align:start position:0%
+the cach even if it was fully
+associative<00:01:48.759><c> 8</c><00:01:49.079><c> kilobyte</c><00:01:49.560><c> cache</c><00:01:50.399><c> and</c><00:01:50.680><c> finally</c>
+
+00:01:51.389 --> 00:01:51.399 align:start position:0%
+associative 8 kilobyte cache and finally
+ 
+
+00:01:51.399 --> 00:01:54.230 align:start position:0%
+associative 8 kilobyte cache and finally
+conflict<00:01:52.240><c> misses</c><00:01:53.240><c> occur</c><00:01:53.680><c> because</c><00:01:54.000><c> of</c>
+
+00:01:54.230 --> 00:01:54.240 align:start position:0%
+conflict misses occur because of
+ 
+
+00:01:54.240 --> 00:01:57.270 align:start position:0%
+conflict misses occur because of
+conflicts<00:01:54.719><c> within</c><00:01:54.960><c> a</c><00:01:55.200><c> set</c><00:01:56.039><c> so</c><00:01:56.280><c> the</c><00:01:56.439><c> block</c><00:01:57.000><c> was</c>
+
+00:01:57.270 --> 00:01:57.280 align:start position:0%
+conflicts within a set so the block was
+ 
+
+00:01:57.280 --> 00:02:00.069 align:start position:0%
+conflicts within a set so the block was
+evicted<00:01:58.240><c> not</c><00:01:58.600><c> because</c><00:01:58.880><c> the</c><00:01:59.119><c> cash</c><00:01:59.360><c> didn't</c><00:01:59.640><c> have</c>
+
+00:02:00.069 --> 00:02:00.079 align:start position:0%
+evicted not because the cash didn't have
+ 
+
+00:02:00.079 --> 00:02:02.789 align:start position:0%
+evicted not because the cash didn't have
+enough<00:02:00.399><c> space</c><00:02:00.799><c> in</c><00:02:00.960><c> it</c><00:02:01.320><c> but</c><00:02:01.640><c> because</c><00:02:02.399><c> it</c><00:02:02.600><c> had</c>
+
+00:02:02.789 --> 00:02:02.799 align:start position:0%
+enough space in it but because it had
+ 
+
+00:02:02.799 --> 00:02:03.870 align:start position:0%
+enough space in it but because it had
+limited
+
+00:02:03.870 --> 00:02:03.880 align:start position:0%
+limited
+ 
+
+00:02:03.880 --> 00:02:06.590 align:start position:0%
+limited
+associativity<00:02:04.880><c> so</c><00:02:05.039><c> a</c><00:02:05.280><c> conflict</c><00:02:05.759><c> Miss</c><00:02:06.280><c> is</c><00:02:06.399><c> a</c>
+
+00:02:06.590 --> 00:02:06.600 align:start position:0%
+associativity so a conflict Miss is a
+ 
+
+00:02:06.600 --> 00:02:09.630 align:start position:0%
+associativity so a conflict Miss is a
+miss<00:02:07.560><c> that</c><00:02:07.719><c> would</c><00:02:08.000><c> not</c><00:02:08.200><c> be</c><00:02:08.360><c> a</c><00:02:08.520><c> Miss</c><00:02:09.239><c> if</c><00:02:09.440><c> the</c>
+
+00:02:09.630 --> 00:02:09.640 align:start position:0%
+miss that would not be a Miss if the
+ 
+
+00:02:09.640 --> 00:02:11.630 align:start position:0%
+miss that would not be a Miss if the
+cash<00:02:09.920><c> was</c><00:02:10.119><c> fully</c><00:02:10.479><c> associative</c><00:02:11.160><c> and</c><00:02:11.319><c> of</c><00:02:11.480><c> the</c>
+
+00:02:11.630 --> 00:02:11.640 align:start position:0%
+cash was fully associative and of the
+ 
+
+00:02:11.640 --> 00:02:14.229 align:start position:0%
+cash was fully associative and of the
+same<00:02:11.959><c> size</c><00:02:12.520><c> so</c><00:02:12.720><c> now</c><00:02:12.959><c> some</c><00:02:13.200><c> of</c><00:02:13.400><c> the</c><00:02:13.760><c> obvious</c>
+
+00:02:14.229 --> 00:02:14.239 align:start position:0%
+same size so now some of the obvious
+ 
+
+00:02:14.239 --> 00:02:17.589 align:start position:0%
+same size so now some of the obvious
+techniques<00:02:15.200><c> for</c><00:02:15.400><c> reducing</c><00:02:16.120><c> the</c><00:02:16.280><c> Mis</c><00:02:16.640><c> rate</c>
+
+00:02:17.589 --> 00:02:17.599 align:start position:0%
+techniques for reducing the Mis rate
+ 
+
+00:02:17.599 --> 00:02:20.670 align:start position:0%
+techniques for reducing the Mis rate
+will<00:02:17.879><c> Target</c><00:02:18.440><c> some</c><00:02:18.599><c> of</c><00:02:18.840><c> these</c><00:02:19.080><c> so</c><00:02:19.280><c> for</c><00:02:19.680><c> example</c>
+
+00:02:20.670 --> 00:02:20.680 align:start position:0%
+will Target some of these so for example
+ 
+
+00:02:20.680 --> 00:02:22.070 align:start position:0%
+will Target some of these so for example
+a<00:02:20.879><c> larger</c>
+
+00:02:22.070 --> 00:02:22.080 align:start position:0%
+a larger
+ 
+
+00:02:22.080 --> 00:02:24.630 align:start position:0%
+a larger
+cache<00:02:23.080><c> would</c><00:02:23.319><c> help</c><00:02:23.519><c> us</c><00:02:23.720><c> reduce</c><00:02:24.120><c> the</c><00:02:24.239><c> number</c><00:02:24.440><c> of</c>
+
+00:02:24.630 --> 00:02:24.640 align:start position:0%
+cache would help us reduce the number of
+ 
+
+00:02:24.640 --> 00:02:28.150 align:start position:0%
+cache would help us reduce the number of
+capacity<00:02:25.160><c> misses</c><00:02:26.120><c> a</c><00:02:26.319><c> larger</c><00:02:27.160><c> associativity</c>
+
+00:02:28.150 --> 00:02:28.160 align:start position:0%
+capacity misses a larger associativity
+ 
+
+00:02:28.160 --> 00:02:31.030 align:start position:0%
+capacity misses a larger associativity
+would<00:02:28.400><c> help</c><00:02:28.680><c> us</c><00:02:29.200><c> reduce</c><00:02:29.519><c> the</c><00:02:29.920><c> conflict</c><00:02:30.239><c> misses</c>
+
+00:02:31.030 --> 00:02:31.040 align:start position:0%
+would help us reduce the conflict misses
+ 
+
+00:02:31.040 --> 00:02:33.350 align:start position:0%
+would help us reduce the conflict misses
+a<00:02:31.239><c> better</c><00:02:31.560><c> replacement</c><00:02:32.160><c> policy</c><00:02:32.840><c> would</c><00:02:33.080><c> also</c>
+
+00:02:33.350 --> 00:02:33.360 align:start position:0%
+a better replacement policy would also
+ 
+
+00:02:33.360 --> 00:02:35.589 align:start position:0%
+a better replacement policy would also
+help<00:02:33.560><c> us</c><00:02:33.720><c> with</c><00:02:33.920><c> conflict</c><00:02:34.280><c> misses</c><00:02:35.040><c> but</c><00:02:35.239><c> all</c><00:02:35.400><c> of</c>
+
+00:02:35.589 --> 00:02:35.599 align:start position:0%
+help us with conflict misses but all of
+ 
+
+00:02:35.599 --> 00:02:38.229 align:start position:0%
+help us with conflict misses but all of
+those<00:02:36.080><c> techniques</c><00:02:37.080><c> also</c><00:02:37.440><c> affect</c><00:02:37.760><c> the</c><00:02:37.959><c> heat</c>
+
+00:02:38.229 --> 00:02:38.239 align:start position:0%
+those techniques also affect the heat
+ 
+
+00:02:38.239 --> 00:02:40.030 align:start position:0%
+those techniques also affect the heat
+time<00:02:38.959><c> so</c><00:02:39.159><c> now</c><00:02:39.360><c> let's</c><00:02:39.560><c> look</c><00:02:39.720><c> at</c><00:02:39.840><c> some</c>
+
+00:02:40.030 --> 00:02:40.040 align:start position:0%
+time so now let's look at some
+ 
+
+00:02:40.040 --> 00:02:42.509 align:start position:0%
+time so now let's look at some
+techniques<00:02:40.959><c> that</c><00:02:41.080><c> are</c><00:02:41.599><c> trying</c><00:02:41.879><c> to</c><00:02:42.080><c> reduce</c><00:02:42.400><c> the</c>
+
+00:02:42.509 --> 00:02:42.519 align:start position:0%
+techniques that are trying to reduce the
+ 
+
+00:02:42.519 --> 00:02:45.869 align:start position:0%
+techniques that are trying to reduce the
+Miss<00:02:42.840><c> rate</c><00:02:43.599><c> without</c><00:02:44.080><c> necessarily</c><00:02:45.080><c> increasing</c>
+
+00:02:45.869 --> 00:02:45.879 align:start position:0%
+Miss rate without necessarily increasing
+ 
+
+00:02:45.879 --> 00:02:50.040 align:start position:0%
+Miss rate without necessarily increasing
+the<00:02:46.040><c> hit</c><00:02:46.319><c> time</c><00:02:46.680><c> in</c><00:02:47.040><c> return</c>
+

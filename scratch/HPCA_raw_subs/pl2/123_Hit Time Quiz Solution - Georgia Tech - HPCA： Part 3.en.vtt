@@ -1,0 +1,328 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.629 align:start position:0%
+ 
+let's<00:00:00.329><c> look</c><00:00:00.480><c> at</c><00:00:00.599><c> the</c><00:00:00.780><c> answer</c><00:00:01.319><c> for</c><00:00:02.250><c> her</c><00:00:02.370><c> heat</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+let's look at the answer for her heat
+ 
+
+00:00:02.639 --> 00:00:05.539 align:start position:0%
+let's look at the answer for her heat
+time<00:00:02.879><c> quiz</c><00:00:03.210><c> in</c><00:00:03.929><c> a</c><00:00:04.049><c> well-designed</c><00:00:04.560><c> cache</c><00:00:04.890><c> hit</c>
+
+00:00:05.539 --> 00:00:05.549 align:start position:0%
+time quiz in a well-designed cache hit
+ 
+
+00:00:05.549 --> 00:00:08.150 align:start position:0%
+time quiz in a well-designed cache hit
+time<00:00:05.580><c> is</c><00:00:06.359><c> significantly</c><00:00:06.750><c> lower</c><00:00:07.620><c> than</c><00:00:07.770><c> Miss</c>
+
+00:00:08.150 --> 00:00:08.160 align:start position:0%
+time is significantly lower than Miss
+ 
+
+00:00:08.160 --> 00:00:10.730 align:start position:0%
+time is significantly lower than Miss
+time<00:00:08.429><c> miss</c><00:00:09.150><c> time</c><00:00:09.450><c> includes</c><00:00:09.960><c> the</c><00:00:10.110><c> hit</c><00:00:10.320><c> time</c><00:00:10.469><c> and</c>
+
+00:00:10.730 --> 00:00:10.740 align:start position:0%
+time miss time includes the hit time and
+ 
+
+00:00:10.740 --> 00:00:12.770 align:start position:0%
+time miss time includes the hit time and
+the<00:00:10.860><c> Miss</c><00:00:11.040><c> penalty</c><00:00:11.330><c> typically</c><00:00:12.330><c> we</c><00:00:12.450><c> want</c><00:00:12.599><c> the</c>
+
+00:00:12.770 --> 00:00:12.780 align:start position:0%
+the Miss penalty typically we want the
+ 
+
+00:00:12.780 --> 00:00:16.609 align:start position:0%
+the Miss penalty typically we want the
+hit<00:00:12.990><c> time</c><00:00:13.200><c> to</c><00:00:13.380><c> be</c><00:00:13.559><c> very</c><00:00:14.219><c> small</c><00:00:14.610><c> and</c><00:00:15.350><c> that</c><00:00:16.350><c> means</c>
+
+00:00:16.609 --> 00:00:16.619 align:start position:0%
+hit time to be very small and that means
+ 
+
+00:00:16.619 --> 00:00:18.710 align:start position:0%
+hit time to be very small and that means
+that<00:00:16.890><c> the</c><00:00:17.039><c> Miss</c><00:00:17.220><c> time</c><00:00:17.490><c> should</c><00:00:18.300><c> not</c><00:00:18.510><c> be</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+that the Miss time should not be
+ 
+
+00:00:18.720 --> 00:00:21.080 align:start position:0%
+that the Miss time should not be
+anywhere<00:00:19.140><c> close</c><00:00:19.199><c> to</c><00:00:19.439><c> the</c><00:00:19.740><c> hit</c><00:00:19.920><c> time</c><00:00:20.130><c> and</c><00:00:20.430><c> if</c>
+
+00:00:21.080 --> 00:00:21.090 align:start position:0%
+anywhere close to the hit time and if
+ 
+
+00:00:21.090 --> 00:00:23.300 align:start position:0%
+anywhere close to the hit time and if
+there<00:00:21.330><c> is</c><00:00:21.420><c> any</c><00:00:21.630><c> miss</c><00:00:21.900><c> penalty</c><00:00:22.470><c> miss</c><00:00:22.920><c> time</c><00:00:23.100><c> will</c>
+
+00:00:23.300 --> 00:00:23.310 align:start position:0%
+there is any miss penalty miss time will
+ 
+
+00:00:23.310 --> 00:00:25.820 align:start position:0%
+there is any miss penalty miss time will
+be<00:00:23.460><c> larger</c><00:00:23.789><c> than</c><00:00:23.820><c> hit</c><00:00:24.119><c> time</c><00:00:24.330><c> anyway</c><00:00:24.810><c> so</c><00:00:25.650><c> this</c>
+
+00:00:25.820 --> 00:00:25.830 align:start position:0%
+be larger than hit time anyway so this
+ 
+
+00:00:25.830 --> 00:00:27.740 align:start position:0%
+be larger than hit time anyway so this
+should<00:00:26.070><c> be</c><00:00:26.099><c> true</c><00:00:26.460><c> for</c><00:00:26.670><c> every</c><00:00:27.029><c> cache</c><00:00:27.240><c> even</c><00:00:27.630><c> if</c>
+
+00:00:27.740 --> 00:00:27.750 align:start position:0%
+should be true for every cache even if
+ 
+
+00:00:27.750 --> 00:00:30.200 align:start position:0%
+should be true for every cache even if
+you<00:00:27.840><c> didn't</c><00:00:28.140><c> design</c><00:00:28.410><c> it</c><00:00:28.439><c> very</c><00:00:28.769><c> well</c><00:00:28.970><c> hit</c><00:00:29.970><c> time</c>
+
+00:00:30.200 --> 00:00:30.210 align:start position:0%
+you didn't design it very well hit time
+ 
+
+00:00:30.210 --> 00:00:32.030 align:start position:0%
+you didn't design it very well hit time
+is<00:00:30.449><c> larger</c><00:00:30.810><c> than</c><00:00:30.990><c> the</c><00:00:31.109><c> Miss</c><00:00:31.260><c> penalty</c><00:00:31.439><c> we</c>
+
+00:00:32.030 --> 00:00:32.040 align:start position:0%
+is larger than the Miss penalty we
+ 
+
+00:00:32.040 --> 00:00:33.799 align:start position:0%
+is larger than the Miss penalty we
+definitely<00:00:32.579><c> don't</c><00:00:32.730><c> want</c><00:00:33.000><c> that</c><00:00:33.059><c> the</c><00:00:33.630><c> Miss</c>
+
+00:00:33.799 --> 00:00:33.809 align:start position:0%
+definitely don't want that the Miss
+ 
+
+00:00:33.809 --> 00:00:36.410 align:start position:0%
+definitely don't want that the Miss
+penalty<00:00:34.020><c> is</c><00:00:34.590><c> the</c><00:00:34.860><c> memory</c><00:00:35.160><c> access</c><00:00:35.550><c> time</c><00:00:35.579><c> if</c><00:00:36.180><c> our</c>
+
+00:00:36.410 --> 00:00:36.420 align:start position:0%
+penalty is the memory access time if our
+ 
+
+00:00:36.420 --> 00:00:38.869 align:start position:0%
+penalty is the memory access time if our
+hit<00:00:36.630><c> time</c><00:00:36.870><c> is</c><00:00:37.140><c> similar</c><00:00:37.559><c> to</c><00:00:37.710><c> that</c><00:00:37.890><c> or</c><00:00:38.219><c> larger</c>
+
+00:00:38.869 --> 00:00:38.879 align:start position:0%
+hit time is similar to that or larger
+ 
+
+00:00:38.879 --> 00:00:41.660 align:start position:0%
+hit time is similar to that or larger
+than<00:00:39.030><c> that</c><00:00:39.239><c> then</c><00:00:39.989><c> the</c><00:00:40.170><c> cache</c><00:00:40.410><c> is</c><00:00:40.950><c> not</c><00:00:41.010><c> gonna</c><00:00:41.460><c> be</c>
+
+00:00:41.660 --> 00:00:41.670 align:start position:0%
+than that then the cache is not gonna be
+ 
+
+00:00:41.670 --> 00:00:44.150 align:start position:0%
+than that then the cache is not gonna be
+useful<00:00:41.820><c> at</c><00:00:42.090><c> all</c><00:00:42.300><c> so</c><00:00:43.020><c> this</c><00:00:43.230><c> should</c><00:00:43.950><c> not</c><00:00:43.980><c> be</c>
+
+00:00:44.150 --> 00:00:44.160 align:start position:0%
+useful at all so this should not be
+ 
+
+00:00:44.160 --> 00:00:47.090 align:start position:0%
+useful at all so this should not be
+selected<00:00:44.879><c> hit</c><00:00:45.690><c> time</c><00:00:45.930><c> equals</c><00:00:46.559><c> to</c><00:00:46.800><c> the</c><00:00:46.920><c> Miss</c>
+
+00:00:47.090 --> 00:00:47.100 align:start position:0%
+selected hit time equals to the Miss
+ 
+
+00:00:47.100 --> 00:00:49.639 align:start position:0%
+selected hit time equals to the Miss
+penalty<00:00:47.280><c> no</c><00:00:48.149><c> we</c><00:00:48.660><c> want</c><00:00:48.870><c> the</c><00:00:48.930><c> hit</c><00:00:49.110><c> time</c><00:00:49.289><c> to</c><00:00:49.500><c> be</c>
+
+00:00:49.639 --> 00:00:49.649 align:start position:0%
+penalty no we want the hit time to be
+ 
+
+00:00:49.649 --> 00:00:51.229 align:start position:0%
+penalty no we want the hit time to be
+significantly<00:00:50.309><c> less</c><00:00:50.520><c> than</c><00:00:50.579><c> the</c><00:00:50.820><c> Miss</c><00:00:51.059><c> penalty</c>
+
+00:00:51.229 --> 00:00:51.239 align:start position:0%
+significantly less than the Miss penalty
+ 
+
+00:00:51.239 --> 00:00:54.290 align:start position:0%
+significantly less than the Miss penalty
+if<00:00:51.629><c> it</c><00:00:51.780><c> is</c><00:00:51.930><c> equal</c><00:00:52.379><c> to</c><00:00:52.500><c> the</c><00:00:52.620><c> Miss</c><00:00:52.800><c> penalty</c><00:00:53.300><c> we</c>
+
+00:00:54.290 --> 00:00:54.300 align:start position:0%
+if it is equal to the Miss penalty we
+ 
+
+00:00:54.300 --> 00:00:56.510 align:start position:0%
+if it is equal to the Miss penalty we
+might<00:00:54.539><c> just</c><00:00:54.809><c> as</c><00:00:55.020><c> well</c><00:00:55.199><c> go</c><00:00:55.739><c> to</c><00:00:55.770><c> memory</c><00:00:56.100><c> every</c>
+
+00:00:56.510 --> 00:00:56.520 align:start position:0%
+might just as well go to memory every
+ 
+
+00:00:56.520 --> 00:00:57.799 align:start position:0%
+might just as well go to memory every
+time<00:00:56.699><c> because</c><00:00:57.059><c> that's</c><00:00:57.300><c> what</c><00:00:57.539><c> the</c><00:00:57.660><c> Miss</c>
+
+00:00:57.799 --> 00:00:57.809 align:start position:0%
+time because that's what the Miss
+ 
+
+00:00:57.809 --> 00:01:00.139 align:start position:0%
+time because that's what the Miss
+penalty<00:00:57.960><c> is</c><00:00:58.320><c> about</c><00:00:58.590><c> so</c><00:00:59.280><c> we</c><00:00:59.430><c> should</c><00:00:59.609><c> not</c><00:00:59.760><c> select</c>
+
+00:01:00.139 --> 00:01:00.149 align:start position:0%
+penalty is about so we should not select
+ 
+
+00:01:00.149 --> 00:01:03.920 align:start position:0%
+penalty is about so we should not select
+this<00:01:00.329><c> and</c><00:01:01.010><c> finally</c><00:01:02.010><c> miss</c><00:01:02.820><c> time</c><00:01:03.120><c> larger</c><00:01:03.780><c> than</c>
+
+00:01:03.920 --> 00:01:03.930 align:start position:0%
+this and finally miss time larger than
+ 
+
+00:01:03.930 --> 00:01:06.980 align:start position:0%
+this and finally miss time larger than
+the<00:01:04.080><c> Miss</c><00:01:04.229><c> penalty</c><00:01:04.610><c> Miss</c><00:01:05.610><c> time</c><00:01:05.939><c> is</c><00:01:06.479><c> equal</c><00:01:06.780><c> to</c>
+
+00:01:06.980 --> 00:01:06.990 align:start position:0%
+the Miss penalty Miss time is equal to
+ 
+
+00:01:06.990 --> 00:01:10.429 align:start position:0%
+the Miss penalty Miss time is equal to
+the<00:01:07.110><c> hit</c><00:01:07.439><c> time</c><00:01:07.680><c> plus</c><00:01:08.610><c> the</c><00:01:08.640><c> Miss</c><00:01:09.060><c> penalty</c><00:01:09.439><c> which</c>
+
+00:01:10.429 --> 00:01:10.439 align:start position:0%
+the hit time plus the Miss penalty which
+ 
+
+00:01:10.439 --> 00:01:12.380 align:start position:0%
+the hit time plus the Miss penalty which
+means<00:01:10.680><c> that</c><00:01:10.890><c> the</c><00:01:10.979><c> Miss</c><00:01:11.159><c> time</c><00:01:11.430><c> should</c><00:01:12.180><c> always</c>
+
+00:01:12.380 --> 00:01:12.390 align:start position:0%
+means that the Miss time should always
+ 
+
+00:01:12.390 --> 00:01:14.120 align:start position:0%
+means that the Miss time should always
+be<00:01:12.659><c> larger</c><00:01:12.990><c> than</c><00:01:13.020><c> the</c><00:01:13.260><c> Miss</c><00:01:13.409><c> penalty</c><00:01:13.619><c> anyway</c>
+
+00:01:14.120 --> 00:01:14.130 align:start position:0%
+be larger than the Miss penalty anyway
+ 
+
+00:01:14.130 --> 00:01:17.120 align:start position:0%
+be larger than the Miss penalty anyway
+so<00:01:15.030><c> this</c><00:01:15.180><c> is</c><00:01:15.390><c> true</c><00:01:15.600><c> for</c><00:01:15.810><c> every</c><00:01:16.170><c> cache</c><00:01:16.409><c> not</c><00:01:16.740><c> only</c>
+
+00:01:17.120 --> 00:01:17.130 align:start position:0%
+so this is true for every cache not only
+ 
+
+00:01:17.130 --> 00:01:20.390 align:start position:0%
+so this is true for every cache not only
+a<00:01:17.159><c> well</c><00:01:17.430><c> designed</c><00:01:17.790><c> one</c><00:01:18.090><c> as</c><00:01:18.390><c> we</c><00:01:19.290><c> can</c><00:01:19.470><c> see</c><00:01:19.650><c> for</c><00:01:20.369><c> a</c>
+
+00:01:20.390 --> 00:01:20.400 align:start position:0%
+a well designed one as we can see for a
+ 
+
+00:01:20.400 --> 00:01:22.969 align:start position:0%
+a well designed one as we can see for a
+cache<00:01:20.700><c> to</c><00:01:20.909><c> be</c><00:01:21.060><c> beneficial</c><00:01:21.780><c> it</c><00:01:22.200><c> needs</c><00:01:22.530><c> to</c><00:01:22.740><c> have</c>
+
+00:01:22.969 --> 00:01:22.979 align:start position:0%
+cache to be beneficial it needs to have
+ 
+
+00:01:22.979 --> 00:01:26.149 align:start position:0%
+cache to be beneficial it needs to have
+a<00:01:23.220><c> low</c><00:01:24.119><c> hit</c><00:01:24.360><c> time</c><00:01:24.600><c> in</c><00:01:25.320><c> fact</c><00:01:25.770><c> in</c><00:01:26.040><c> a</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+a low hit time in fact in a
+ 
+
+00:01:26.159 --> 00:01:29.090 align:start position:0%
+a low hit time in fact in a
+well-designed<00:01:26.729><c> cache</c><00:01:27.090><c> we</c><00:01:27.930><c> can</c><00:01:28.140><c> say</c><00:01:28.380><c> that</c><00:01:28.979><c> the</c>
+
+00:01:29.090 --> 00:01:29.100 align:start position:0%
+well-designed cache we can say that the
+ 
+
+00:01:29.100 --> 00:01:32.440 align:start position:0%
+well-designed cache we can say that the
+hit<00:01:29.310><c> time</c><00:01:29.549><c> is</c><00:01:29.579><c> much</c><00:01:30.090><c> less</c><00:01:30.479><c> than</c><00:01:30.780><c> miss</c><00:01:31.320><c> time</c>
+
+00:01:32.440 --> 00:01:32.450 align:start position:0%
+hit time is much less than miss time
+ 
+
+00:01:32.450 --> 00:01:34.899 align:start position:0%
+hit time is much less than miss time
+while<00:01:33.450><c> the</c><00:01:33.630><c> Miss</c><00:01:33.840><c> time</c><00:01:34.140><c> and</c><00:01:34.350><c> Miss</c><00:01:34.470><c> penalty</c>
+
+00:01:34.899 --> 00:01:34.909 align:start position:0%
+while the Miss time and Miss penalty
+ 
+
+00:01:34.909 --> 00:01:37.340 align:start position:0%
+while the Miss time and Miss penalty
+should<00:01:35.909><c> be</c><00:01:36.060><c> similar</c><00:01:36.299><c> to</c><00:01:36.509><c> each</c><00:01:36.689><c> other</c><00:01:36.900><c> because</c>
+
+00:01:37.340 --> 00:01:37.350 align:start position:0%
+should be similar to each other because
+ 
+
+00:01:37.350 --> 00:01:38.950 align:start position:0%
+should be similar to each other because
+the<00:01:37.710><c> hit</c><00:01:37.890><c> time</c><00:01:38.040><c> is</c><00:01:38.220><c> so</c><00:01:38.369><c> small</c><00:01:38.640><c> and</c><00:01:38.850><c> the</c>
+
+00:01:38.950 --> 00:01:38.960 align:start position:0%
+the hit time is so small and the
+ 
+
+00:01:38.960 --> 00:01:41.120 align:start position:0%
+the hit time is so small and the
+difference<00:01:39.960><c> between</c><00:01:40.110><c> the</c><00:01:40.380><c> two</c><00:01:40.560><c> is</c><00:01:40.770><c> the</c><00:01:40.979><c> hit</c>
+
+00:01:41.120 --> 00:01:41.130 align:start position:0%
+difference between the two is the hit
+ 
+
+00:01:41.130 --> 00:01:43.369 align:start position:0%
+difference between the two is the hit
+time
+

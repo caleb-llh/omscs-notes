@@ -1,0 +1,976 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.210 align:start position:0%
+ 
+during<00:00:00.510><c> this</c><00:00:00.630><c> patch</c><00:00:00.930><c> we</c><00:00:01.709><c> haven't</c><00:00:02.010><c> considered</c>
+
+00:00:02.210 --> 00:00:02.220 align:start position:0%
+during this patch we haven't considered
+ 
+
+00:00:02.220 --> 00:00:03.619 align:start position:0%
+during this patch we haven't considered
+the<00:00:02.460><c> situation</c><00:00:02.639><c> when</c><00:00:03.090><c> more</c><00:00:03.360><c> than</c><00:00:03.389><c> one</c>
+
+00:00:03.619 --> 00:00:03.629 align:start position:0%
+the situation when more than one
+ 
+
+00:00:03.629 --> 00:00:05.480 align:start position:0%
+the situation when more than one
+instruction<00:00:04.230><c> is</c><00:00:04.290><c> ready</c><00:00:04.350><c> to</c><00:00:04.620><c> execute</c><00:00:04.740><c> so</c><00:00:05.310><c> let's</c>
+
+00:00:05.480 --> 00:00:05.490 align:start position:0%
+instruction is ready to execute so let's
+ 
+
+00:00:05.490 --> 00:00:08.600 align:start position:0%
+instruction is ready to execute so let's
+do<00:00:05.670><c> that</c><00:00:06.020><c> so</c><00:00:07.020><c> here's</c><00:00:07.259><c> a</c><00:00:07.379><c> situation</c><00:00:07.919><c> where</c><00:00:08.160><c> we</c>
+
+00:00:08.600 --> 00:00:08.610 align:start position:0%
+do that so here's a situation where we
+ 
+
+00:00:08.610 --> 00:00:10.759 align:start position:0%
+do that so here's a situation where we
+have<00:00:08.760><c> a</c><00:00:08.790><c> similar</c><00:00:09.090><c> broadcast</c><00:00:09.719><c> to</c><00:00:10.200><c> the</c><00:00:10.230><c> previous</c>
+
+00:00:10.759 --> 00:00:10.769 align:start position:0%
+have a similar broadcast to the previous
+ 
+
+00:00:10.769 --> 00:00:12.950 align:start position:0%
+have a similar broadcast to the previous
+case<00:00:11.610><c> where</c><00:00:12.030><c> we</c><00:00:12.179><c> have</c><00:00:12.389><c> in</c><00:00:12.660><c> all</c><00:00:12.780><c> reservations</c>
+
+00:00:12.950 --> 00:00:12.960 align:start position:0%
+case where we have in all reservations
+ 
+
+00:00:12.960 --> 00:00:15.049 align:start position:0%
+case where we have in all reservations
+station<00:00:13.559><c> one</c><00:00:13.769><c> is</c><00:00:13.950><c> broadcasting</c><00:00:14.490><c> a</c><00:00:14.549><c> result</c><00:00:14.880><c> of</c>
+
+00:00:15.049 --> 00:00:15.059 align:start position:0%
+station one is broadcasting a result of
+ 
+
+00:00:15.059 --> 00:00:16.689 align:start position:0%
+station one is broadcasting a result of
+-<00:00:15.599><c> 0.29</c>
+
+00:00:16.689 --> 00:00:16.699 align:start position:0%
+- 0.29
+ 
+
+00:00:16.699 --> 00:00:19.760 align:start position:0%
+- 0.29
+so<00:00:17.699><c> we're</c><00:00:17.880><c> still</c><00:00:18.119><c> gonna</c><00:00:18.330><c> free</c><00:00:19.170><c> reservation</c>
+
+00:00:19.760 --> 00:00:19.770 align:start position:0%
+so we're still gonna free reservation
+ 
+
+00:00:19.770 --> 00:00:22.519 align:start position:0%
+so we're still gonna free reservation
+station<00:00:20.340><c> one</c><00:00:20.550><c> as</c><00:00:20.730><c> before</c><00:00:21.140><c> we</c><00:00:22.140><c> will</c><00:00:22.289><c> still</c>
+
+00:00:22.519 --> 00:00:22.529 align:start position:0%
+station one as before we will still
+ 
+
+00:00:22.529 --> 00:00:24.410 align:start position:0%
+station one as before we will still
+gonna<00:00:22.769><c> capture</c><00:00:23.160><c> all</c><00:00:23.460><c> of</c><00:00:23.580><c> the</c><00:00:23.730><c> results</c><00:00:24.210><c> that</c>
+
+00:00:24.410 --> 00:00:24.420 align:start position:0%
+gonna capture all of the results that
+ 
+
+00:00:24.420 --> 00:00:27.170 align:start position:0%
+gonna capture all of the results that
+hasn't<00:00:24.720><c> changed</c><00:00:25.410><c> so</c><00:00:25.830><c> here</c><00:00:26.189><c> we're</c><00:00:26.369><c> gonna</c><00:00:26.580><c> latch</c>
+
+00:00:27.170 --> 00:00:27.180 align:start position:0%
+hasn't changed so here we're gonna latch
+ 
+
+00:00:27.180 --> 00:00:31.009 align:start position:0%
+hasn't changed so here we're gonna latch
+-<00:00:28.340><c> 0.29</c><00:00:29.340><c> this</c><00:00:30.240><c> doesn't</c><00:00:30.660><c> need</c><00:00:30.720><c> to</c><00:00:30.869><c> match</c>
+
+00:00:31.009 --> 00:00:31.019 align:start position:0%
+- 0.29 this doesn't need to match
+ 
+
+00:00:31.019 --> 00:00:33.770 align:start position:0%
+- 0.29 this doesn't need to match
+anything<00:00:31.759><c> here</c><00:00:32.759><c> because</c><00:00:32.910><c> we</c><00:00:33.270><c> already</c><00:00:33.420><c> have</c><00:00:33.750><c> a</c>
+
+00:00:33.770 --> 00:00:33.780 align:start position:0%
+anything here because we already have a
+ 
+
+00:00:33.780 --> 00:00:37.400 align:start position:0%
+anything here because we already have a
+value<00:00:34.320><c> here</c><00:00:34.739><c> we're</c><00:00:34.920><c> gonna</c><00:00:35.130><c> also</c><00:00:35.430><c> latch</c><00:00:36.410><c> 0.29</c>
+
+00:00:37.400 --> 00:00:37.410 align:start position:0%
+value here we're gonna also latch 0.29
+ 
+
+00:00:37.410 --> 00:00:40.190 align:start position:0%
+value here we're gonna also latch 0.29
+and<00:00:38.040><c> here</c><00:00:38.790><c> we're</c><00:00:39.000><c> gonna</c><00:00:39.210><c> do</c><00:00:39.450><c> the</c><00:00:39.570><c> same</c><00:00:39.840><c> thing</c>
+
+00:00:40.190 --> 00:00:40.200 align:start position:0%
+and here we're gonna do the same thing
+ 
+
+00:00:40.200 --> 00:00:42.139 align:start position:0%
+and here we're gonna do the same thing
+but<00:00:40.770><c> now</c><00:00:40.980><c> we</c><00:00:41.040><c> have</c><00:00:41.340><c> a</c><00:00:41.370><c> situation</c><00:00:41.610><c> where</c><00:00:42.120><c> for</c>
+
+00:00:42.139 --> 00:00:42.149 align:start position:0%
+but now we have a situation where for
+ 
+
+00:00:42.149 --> 00:00:44.360 align:start position:0%
+but now we have a situation where for
+the<00:00:42.540><c> multiplication</c><00:00:43.230><c> and</c><00:00:43.620><c> divide</c><00:00:43.890><c> unit</c><00:00:44.070><c> it's</c>
+
+00:00:44.360 --> 00:00:44.370 align:start position:0%
+the multiplication and divide unit it's
+ 
+
+00:00:44.370 --> 00:00:45.590 align:start position:0%
+the multiplication and divide unit it's
+pretty<00:00:44.610><c> clear</c><00:00:44.879><c> that</c><00:00:44.969><c> this</c><00:00:45.239><c> is</c><00:00:45.450><c> the</c>
+
+00:00:45.590 --> 00:00:45.600 align:start position:0%
+pretty clear that this is the
+ 
+
+00:00:45.600 --> 00:00:47.450 align:start position:0%
+pretty clear that this is the
+instruction<00:00:46.320><c> that</c><00:00:46.350><c> gets</c><00:00:46.649><c> to</c><00:00:46.739><c> execute</c><00:00:47.160><c> so</c><00:00:47.309><c> this</c>
+
+00:00:47.450 --> 00:00:47.460 align:start position:0%
+instruction that gets to execute so this
+ 
+
+00:00:47.460 --> 00:00:49.790 align:start position:0%
+instruction that gets to execute so this
+this<00:00:47.700><c> is</c><00:00:47.820><c> easy</c><00:00:48.000><c> but</c><00:00:48.780><c> here</c><00:00:49.079><c> we</c><00:00:49.320><c> need</c><00:00:49.440><c> to</c><00:00:49.500><c> choose</c>
+
+00:00:49.790 --> 00:00:49.800 align:start position:0%
+this is easy but here we need to choose
+ 
+
+00:00:49.800 --> 00:00:51.410 align:start position:0%
+this is easy but here we need to choose
+between<00:00:50.039><c> one</c><00:00:50.430><c> of</c><00:00:50.460><c> these</c><00:00:50.700><c> two</c><00:00:51.000><c> because</c>
+
+00:00:51.410 --> 00:00:51.420 align:start position:0%
+between one of these two because
+ 
+
+00:00:51.420 --> 00:00:53.150 align:start position:0%
+between one of these two because
+assuming<00:00:51.809><c> that</c><00:00:52.110><c> the</c><00:00:52.230><c> other</c><00:00:52.350><c> can</c><00:00:52.680><c> only</c><00:00:52.829><c> handle</c>
+
+00:00:53.150 --> 00:00:53.160 align:start position:0%
+assuming that the other can only handle
+ 
+
+00:00:53.160 --> 00:00:55.340 align:start position:0%
+assuming that the other can only handle
+one<00:00:53.219><c> instruction</c><00:00:53.820><c> per</c><00:00:53.850><c> cycle</c><00:00:54.079><c> we</c><00:00:55.079><c> need</c><00:00:55.230><c> to</c>
+
+00:00:55.340 --> 00:00:55.350 align:start position:0%
+one instruction per cycle we need to
+ 
+
+00:00:55.350 --> 00:00:58.010 align:start position:0%
+one instruction per cycle we need to
+pick<00:00:55.500><c> one</c><00:00:55.530><c> of</c><00:00:55.890><c> these</c><00:00:56.070><c> and</c><00:00:56.570><c> now</c><00:00:57.570><c> we</c><00:00:57.629><c> have</c><00:00:57.899><c> to</c>
+
+00:00:58.010 --> 00:00:58.020 align:start position:0%
+pick one of these and now we have to
+ 
+
+00:00:58.020 --> 00:00:59.869 align:start position:0%
+pick one of these and now we have to
+figure<00:00:58.230><c> out</c><00:00:58.289><c> which</c><00:00:58.800><c> one</c><00:00:59.039><c> so</c><00:00:59.520><c> there</c><00:00:59.670><c> needs</c><00:00:59.850><c> to</c>
+
+00:00:59.869 --> 00:00:59.879 align:start position:0%
+figure out which one so there needs to
+ 
+
+00:00:59.879 --> 00:01:01.459 align:start position:0%
+figure out which one so there needs to
+be<00:00:59.969><c> some</c><00:01:00.210><c> logic</c><00:01:00.539><c> that's</c><00:01:00.660><c> gonna</c><00:01:00.870><c> pick</c><00:01:01.079><c> one</c><00:01:01.289><c> of</c>
+
+00:01:01.459 --> 00:01:01.469 align:start position:0%
+be some logic that's gonna pick one of
+ 
+
+00:01:01.469 --> 00:01:02.900 align:start position:0%
+be some logic that's gonna pick one of
+these<00:01:01.590><c> instructions</c><00:01:02.129><c> because</c><00:01:02.399><c> both</c><00:01:02.609><c> of</c><00:01:02.640><c> them</c>
+
+00:01:02.900 --> 00:01:02.910 align:start position:0%
+these instructions because both of them
+ 
+
+00:01:02.910 --> 00:01:05.329 align:start position:0%
+these instructions because both of them
+cannot<00:01:03.210><c> go</c><00:01:03.390><c> now</c><00:01:03.840><c> we</c><00:01:03.899><c> need</c><00:01:04.170><c> to</c><00:01:04.290><c> figure</c><00:01:04.920><c> out</c><00:01:05.129><c> you</c>
+
+00:01:05.329 --> 00:01:05.339 align:start position:0%
+cannot go now we need to figure out you
+ 
+
+00:01:05.339 --> 00:01:07.370 align:start position:0%
+cannot go now we need to figure out you
+know<00:01:05.369><c> are</c><00:01:06.090><c> there</c><00:01:06.330><c> any</c><00:01:06.479><c> good</c><00:01:06.810><c> rules</c><00:01:07.080><c> about</c>
+
+00:01:07.370 --> 00:01:07.380 align:start position:0%
+know are there any good rules about
+ 
+
+00:01:07.380 --> 00:01:09.620 align:start position:0%
+know are there any good rules about
+which<00:01:07.650><c> one</c><00:01:07.830><c> should</c><00:01:08.070><c> go</c><00:01:08.280><c> first</c><00:01:08.580><c> so</c><00:01:09.510><c> our</c>
+
+00:01:09.620 --> 00:01:09.630 align:start position:0%
+which one should go first so our
+ 
+
+00:01:09.630 --> 00:01:11.090 align:start position:0%
+which one should go first so our
+question<00:01:09.869><c> is</c><00:01:10.080><c> basically</c><00:01:10.409><c> should</c><00:01:10.619><c> we</c><00:01:10.740><c> dispatch</c>
+
+00:01:11.090 --> 00:01:11.100 align:start position:0%
+question is basically should we dispatch
+ 
+
+00:01:11.100 --> 00:01:14.990 align:start position:0%
+question is basically should we dispatch
+RS<00:01:11.549><c> 1</c><00:01:11.790><c> or</c><00:01:12.000><c> RS</c><00:01:12.479><c> 2</c><00:01:12.770><c> well</c><00:01:13.770><c> ideally</c><00:01:14.640><c> we</c><00:01:14.850><c> will</c>
+
+00:01:14.990 --> 00:01:15.000 align:start position:0%
+RS 1 or RS 2 well ideally we will
+ 
+
+00:01:15.000 --> 00:01:17.600 align:start position:0%
+RS 1 or RS 2 well ideally we will
+dispatch<00:01:15.299><c> that</c><00:01:15.930><c> instruction</c><00:01:16.680><c> that</c><00:01:17.009><c> allows</c><00:01:17.369><c> us</c>
+
+00:01:17.600 --> 00:01:17.610 align:start position:0%
+dispatch that instruction that allows us
+ 
+
+00:01:17.610 --> 00:01:20.270 align:start position:0%
+dispatch that instruction that allows us
+to<00:01:17.880><c> kind</c><00:01:18.570><c> of</c><00:01:18.720><c> get</c><00:01:18.930><c> to</c><00:01:19.200><c> future</c><00:01:19.619><c> instructions</c><00:01:20.159><c> as</c>
+
+00:01:20.270 --> 00:01:20.280 align:start position:0%
+to kind of get to future instructions as
+ 
+
+00:01:20.280 --> 00:01:22.310 align:start position:0%
+to kind of get to future instructions as
+early<00:01:20.700><c> as</c><00:01:20.790><c> possible</c><00:01:20.820><c> so</c><00:01:21.360><c> basically</c><00:01:21.900><c> we</c><00:01:22.140><c> would</c>
+
+00:01:22.310 --> 00:01:22.320 align:start position:0%
+early as possible so basically we would
+ 
+
+00:01:22.320 --> 00:01:23.870 align:start position:0%
+early as possible so basically we would
+choose<00:01:22.590><c> the</c><00:01:22.740><c> instruction</c><00:01:23.159><c> that</c><00:01:23.310><c> leads</c><00:01:23.520><c> to</c><00:01:23.759><c> the</c>
+
+00:01:23.870 --> 00:01:23.880 align:start position:0%
+choose the instruction that leads to the
+ 
+
+00:01:23.880 --> 00:01:25.640 align:start position:0%
+choose the instruction that leads to the
+highest<00:01:24.090><c> performance</c><00:01:24.780><c> unfortunately</c><00:01:25.500><c> that</c>
+
+00:01:25.640 --> 00:01:25.650 align:start position:0%
+highest performance unfortunately that
+ 
+
+00:01:25.650 --> 00:01:28.120 align:start position:0%
+highest performance unfortunately that
+requires<00:01:26.100><c> knowledge</c><00:01:26.580><c> of</c><00:01:26.820><c> the</c><00:01:26.909><c> future</c><00:01:27.119><c> and</c>
+
+00:01:28.120 --> 00:01:28.130 align:start position:0%
+requires knowledge of the future and
+ 
+
+00:01:28.130 --> 00:01:30.679 align:start position:0%
+requires knowledge of the future and
+this<00:01:29.130><c> is</c><00:01:29.189><c> something</c><00:01:29.640><c> that</c><00:01:29.909><c> hardware</c><00:01:30.659><c> is</c>
+
+00:01:30.679 --> 00:01:30.689 align:start position:0%
+this is something that hardware is
+ 
+
+00:01:30.689 --> 00:01:33.020 align:start position:0%
+this is something that hardware is
+pretty<00:01:31.110><c> bad</c><00:01:31.320><c> at</c><00:01:31.530><c> doing</c><00:01:31.650><c> because</c><00:01:32.369><c> we</c><00:01:32.670><c> only</c><00:01:32.790><c> can</c>
+
+00:01:33.020 --> 00:01:33.030 align:start position:0%
+pretty bad at doing because we only can
+ 
+
+00:01:33.030 --> 00:01:35.300 align:start position:0%
+pretty bad at doing because we only can
+really<00:01:33.299><c> look</c><00:01:33.509><c> here</c><00:01:33.960><c> at</c><00:01:34.110><c> these</c><00:01:34.740><c> instructions</c>
+
+00:01:35.300 --> 00:01:35.310 align:start position:0%
+really look here at these instructions
+ 
+
+00:01:35.310 --> 00:01:36.710 align:start position:0%
+really look here at these instructions
+here<00:01:35.520><c> and</c><00:01:35.670><c> maybe</c><00:01:35.790><c> the</c><00:01:36.000><c> next</c><00:01:36.210><c> couple</c><00:01:36.630><c> of</c>
+
+00:01:36.710 --> 00:01:36.720 align:start position:0%
+here and maybe the next couple of
+ 
+
+00:01:36.720 --> 00:01:38.899 align:start position:0%
+here and maybe the next couple of
+instructions<00:01:37.140><c> in</c><00:01:37.290><c> the</c><00:01:37.920><c> instruction</c><00:01:37.979><c> q</c><00:01:38.549><c> well</c>
+
+00:01:38.899 --> 00:01:38.909 align:start position:0%
+instructions in the instruction q well
+ 
+
+00:01:38.909 --> 00:01:41.090 align:start position:0%
+instructions in the instruction q well
+in<00:01:39.509><c> reality</c><00:01:40.170><c> the</c><00:01:40.409><c> situation</c><00:01:40.890><c> might</c><00:01:41.070><c> change</c>
+
+00:01:41.090 --> 00:01:41.100 align:start position:0%
+in reality the situation might change
+ 
+
+00:01:41.100 --> 00:01:43.010 align:start position:0%
+in reality the situation might change
+because<00:01:41.579><c> for</c><00:01:41.790><c> example</c><00:01:42.270><c> this</c><00:01:42.420><c> instruction</c>
+
+00:01:43.010 --> 00:01:43.020 align:start position:0%
+because for example this instruction
+ 
+
+00:01:43.020 --> 00:01:45.109 align:start position:0%
+because for example this instruction
+might<00:01:43.740><c> have</c><00:01:44.009><c> a</c><00:01:44.159><c> lot</c><00:01:44.430><c> of</c><00:01:44.460><c> dependent</c>
+
+00:01:45.109 --> 00:01:45.119 align:start position:0%
+might have a lot of dependent
+ 
+
+00:01:45.119 --> 00:01:46.789 align:start position:0%
+might have a lot of dependent
+instructions<00:01:45.570><c> later</c><00:01:45.750><c> on</c><00:01:45.990><c> and</c><00:01:46.229><c> this</c><00:01:46.350><c> one</c><00:01:46.530><c> might</c>
+
+00:01:46.789 --> 00:01:46.799 align:start position:0%
+instructions later on and this one might
+ 
+
+00:01:46.799 --> 00:01:48.260 align:start position:0%
+instructions later on and this one might
+have<00:01:47.009><c> few</c><00:01:47.189><c> but</c><00:01:47.430><c> with</c><00:01:47.579><c> that</c><00:01:47.729><c> we</c><00:01:47.970><c> don't</c><00:01:48.149><c> know</c>
+
+00:01:48.260 --> 00:01:48.270 align:start position:0%
+have few but with that we don't know
+ 
+
+00:01:48.270 --> 00:01:50.060 align:start position:0%
+have few but with that we don't know
+that<00:01:48.509><c> until</c><00:01:48.659><c> we</c><00:01:48.960><c> see</c><00:01:49.140><c> those</c><00:01:49.470><c> a</c><00:01:49.500><c> lot</c><00:01:49.890><c> of</c>
+
+00:01:50.060 --> 00:01:50.070 align:start position:0%
+that until we see those a lot of
+ 
+
+00:01:50.070 --> 00:01:52.609 align:start position:0%
+that until we see those a lot of
+instructions<00:01:50.610><c> later</c><00:01:50.790><c> on</c><00:01:51.229><c> so</c><00:01:52.229><c> it's</c><00:01:52.409><c> very</c>
+
+00:01:52.609 --> 00:01:52.619 align:start position:0%
+instructions later on so it's very
+ 
+
+00:01:52.619 --> 00:01:54.289 align:start position:0%
+instructions later on so it's very
+difficult<00:01:53.040><c> to</c><00:01:53.159><c> decide</c><00:01:53.460><c> that</c><00:01:53.700><c> based</c><00:01:53.909><c> on</c><00:01:54.090><c> kind</c>
+
+00:01:54.289 --> 00:01:54.299 align:start position:0%
+difficult to decide that based on kind
+ 
+
+00:01:54.299 --> 00:01:56.959 align:start position:0%
+difficult to decide that based on kind
+of<00:01:54.390><c> perfect</c><00:01:54.899><c> knowledge</c><00:01:54.930><c> of</c><00:01:55.320><c> the</c><00:01:55.740><c> future</c><00:01:56.070><c> so</c>
+
+00:01:56.959 --> 00:01:56.969 align:start position:0%
+of perfect knowledge of the future so
+ 
+
+00:01:56.969 --> 00:01:59.690 align:start position:0%
+of perfect knowledge of the future so
+how<00:01:57.750><c> do</c><00:01:57.810><c> we</c><00:01:58.079><c> choose</c><00:01:58.290><c> this</c><00:01:58.829><c> instruction</c><00:01:59.399><c> well</c>
+
+00:01:59.690 --> 00:01:59.700 align:start position:0%
+how do we choose this instruction well
+ 
+
+00:01:59.700 --> 00:02:01.190 align:start position:0%
+how do we choose this instruction well
+there<00:01:59.909><c> are</c><00:02:00.000><c> some</c><00:02:00.180><c> heuristic</c><00:02:00.780><c> so</c><00:02:00.869><c> basically</c><00:02:01.079><c> we</c>
+
+00:02:01.190 --> 00:02:01.200 align:start position:0%
+there are some heuristic so basically we
+ 
+
+00:02:01.200 --> 00:02:03.020 align:start position:0%
+there are some heuristic so basically we
+cannot<00:02:01.409><c> really</c><00:02:01.649><c> do</c><00:02:01.890><c> a</c><00:02:01.920><c> perfect</c><00:02:02.369><c> job</c><00:02:02.399><c> of</c><00:02:02.700><c> it</c><00:02:02.820><c> but</c>
+
+00:02:03.020 --> 00:02:03.030 align:start position:0%
+cannot really do a perfect job of it but
+ 
+
+00:02:03.030 --> 00:02:05.240 align:start position:0%
+cannot really do a perfect job of it but
+we<00:02:03.270><c> can</c><00:02:03.540><c> make</c><00:02:03.869><c> some</c><00:02:04.170><c> reasonably</c><00:02:04.590><c> good</c><00:02:04.680><c> guesses</c>
+
+00:02:05.240 --> 00:02:05.250 align:start position:0%
+we can make some reasonably good guesses
+ 
+
+00:02:05.250 --> 00:02:07.940 align:start position:0%
+we can make some reasonably good guesses
+one<00:02:05.909><c> choice</c><00:02:06.390><c> that</c><00:02:06.930><c> usually</c><00:02:07.469><c> makes</c><00:02:07.649><c> a</c><00:02:07.770><c> lot</c><00:02:07.920><c> of</c>
+
+00:02:07.940 --> 00:02:07.950 align:start position:0%
+one choice that usually makes a lot of
+ 
+
+00:02:07.950 --> 00:02:09.740 align:start position:0%
+one choice that usually makes a lot of
+sense<00:02:08.280><c> is</c><00:02:08.520><c> all</c><00:02:08.789><c> this</c><00:02:08.940><c> first</c><00:02:09.239><c> so</c><00:02:09.450><c> pretty</c><00:02:09.629><c> much</c>
+
+00:02:09.740 --> 00:02:09.750 align:start position:0%
+sense is all this first so pretty much
+ 
+
+00:02:09.750 --> 00:02:10.850 align:start position:0%
+sense is all this first so pretty much
+whichever<00:02:10.259><c> whichever</c><00:02:10.619><c> of</c><00:02:10.679><c> these</c>
+
+00:02:10.850 --> 00:02:10.860 align:start position:0%
+whichever whichever of these
+ 
+
+00:02:10.860 --> 00:02:12.110 align:start position:0%
+whichever whichever of these
+instructions<00:02:11.400><c> has</c><00:02:11.580><c> been</c><00:02:11.760><c> sitting</c><00:02:11.970><c> here</c>
+
+00:02:12.110 --> 00:02:12.120 align:start position:0%
+instructions has been sitting here
+ 
+
+00:02:12.120 --> 00:02:13.460 align:start position:0%
+instructions has been sitting here
+longer
+
+00:02:13.460 --> 00:02:13.470 align:start position:0%
+longer
+ 
+
+00:02:13.470 --> 00:02:15.380 align:start position:0%
+longer
+we'll<00:02:13.680><c> be</c><00:02:13.860><c> allowed</c><00:02:14.130><c> to</c><00:02:14.160><c> go</c><00:02:14.430><c> first</c><00:02:14.790><c> why</c><00:02:15.120><c> well</c>
+
+00:02:15.380 --> 00:02:15.390 align:start position:0%
+we'll be allowed to go first why well
+ 
+
+00:02:15.390 --> 00:02:17.060 align:start position:0%
+we'll be allowed to go first why well
+because<00:02:15.420><c> for</c><00:02:16.110><c> an</c><00:02:16.230><c> order</c><00:02:16.500><c> instruction</c><00:02:16.950><c> all</c>
+
+00:02:17.060 --> 00:02:17.070 align:start position:0%
+because for an order instruction all
+ 
+
+00:02:17.070 --> 00:02:19.220 align:start position:0%
+because for an order instruction all
+other<00:02:17.250><c> things</c><00:02:17.520><c> being</c><00:02:17.700><c> equal</c><00:02:17.990><c> it's</c><00:02:18.990><c> more</c>
+
+00:02:19.220 --> 00:02:19.230 align:start position:0%
+other things being equal it's more
+ 
+
+00:02:19.230 --> 00:02:20.810 align:start position:0%
+other things being equal it's more
+likely<00:02:19.470><c> that</c><00:02:19.650><c> more</c><00:02:19.950><c> instructions</c><00:02:20.430><c> are</c><00:02:20.550><c> by</c><00:02:20.670><c> now</c>
+
+00:02:20.810 --> 00:02:20.820 align:start position:0%
+likely that more instructions are by now
+ 
+
+00:02:20.820 --> 00:02:23.120 align:start position:0%
+likely that more instructions are by now
+waiting<00:02:21.090><c> for</c><00:02:21.450><c> it</c><00:02:21.600><c> simply</c><00:02:21.990><c> you</c><00:02:22.620><c> know</c><00:02:22.740><c> if</c><00:02:23.010><c> an</c>
+
+00:02:23.120 --> 00:02:23.130 align:start position:0%
+waiting for it simply you know if an
+ 
+
+00:02:23.130 --> 00:02:25.160 align:start position:0%
+waiting for it simply you know if an
+instruction<00:02:23.520><c> is</c><00:02:23.610><c> older</c><00:02:23.970><c> by</c><00:02:24.600><c> now</c>
+
+00:02:25.160 --> 00:02:25.170 align:start position:0%
+instruction is older by now
+ 
+
+00:02:25.170 --> 00:02:26.990 align:start position:0%
+instruction is older by now
+you<00:02:25.650><c> could</c><00:02:25.890><c> have</c><00:02:26.040><c> seen</c><00:02:26.250><c> more</c><00:02:26.430><c> instructions</c>
+
+00:02:26.990 --> 00:02:27.000 align:start position:0%
+you could have seen more instructions
+ 
+
+00:02:27.000 --> 00:02:29.540 align:start position:0%
+you could have seen more instructions
+that<00:02:27.210><c> will</c><00:02:27.570><c> use</c><00:02:27.780><c> its</c><00:02:28.050><c> values</c><00:02:28.410><c> and</c><00:02:28.620><c> also</c><00:02:29.430><c> this</c>
+
+00:02:29.540 --> 00:02:29.550 align:start position:0%
+that will use its values and also this
+ 
+
+00:02:29.550 --> 00:02:31.250 align:start position:0%
+that will use its values and also this
+allows<00:02:29.760><c> us</c><00:02:29.910><c> to</c><00:02:30.210><c> kind</c><00:02:30.360><c> of</c><00:02:30.510><c> you</c><00:02:30.600><c> know</c><00:02:30.690><c> mark</c><00:02:30.960><c> off</c>
+
+00:02:31.250 --> 00:02:31.260 align:start position:0%
+allows us to kind of you know mark off
+ 
+
+00:02:31.260 --> 00:02:33.020 align:start position:0%
+allows us to kind of you know mark off
+some<00:02:31.530><c> instructions</c><00:02:32.040><c> as</c><00:02:32.220><c> done</c><00:02:32.490><c> so</c><00:02:32.730><c> basically</c>
+
+00:02:33.020 --> 00:02:33.030 align:start position:0%
+some instructions as done so basically
+ 
+
+00:02:33.030 --> 00:02:34.670 align:start position:0%
+some instructions as done so basically
+all<00:02:33.150><c> this</c><00:02:33.330><c> first</c><00:02:33.570><c> is</c><00:02:33.750><c> a</c><00:02:33.780><c> typical</c><00:02:34.260><c> heuristic</c>
+
+00:02:34.670 --> 00:02:34.680 align:start position:0%
+all this first is a typical heuristic
+ 
+
+00:02:34.680 --> 00:02:37.070 align:start position:0%
+all this first is a typical heuristic
+that<00:02:34.800><c> gets</c><00:02:35.010><c> done</c><00:02:35.250><c> this</c><00:02:35.460><c> way</c><00:02:35.700><c> another</c><00:02:36.690><c> one</c><00:02:36.930><c> that</c>
+
+00:02:37.070 --> 00:02:37.080 align:start position:0%
+that gets done this way another one that
+ 
+
+00:02:37.080 --> 00:02:38.420 align:start position:0%
+that gets done this way another one that
+could<00:02:37.260><c> be</c><00:02:37.410><c> used</c><00:02:37.560><c> is</c><00:02:37.740><c> something</c><00:02:38.070><c> like</c><00:02:38.160><c> most</c>
+
+00:02:38.420 --> 00:02:38.430 align:start position:0%
+could be used is something like most
+ 
+
+00:02:38.430 --> 00:02:40.300 align:start position:0%
+could be used is something like most
+dependencies<00:02:39.060><c> first</c><00:02:39.330><c> where</c><00:02:39.660><c> we</c><00:02:39.810><c> would</c><00:02:39.960><c> check</c>
+
+00:02:40.300 --> 00:02:40.310 align:start position:0%
+dependencies first where we would check
+ 
+
+00:02:40.310 --> 00:02:43.220 align:start position:0%
+dependencies first where we would check
+how<00:02:41.310><c> many</c><00:02:41.370><c> other</c><00:02:41.790><c> instructions</c><00:02:42.480><c> need</c><00:02:43.080><c> the</c>
+
+00:02:43.220 --> 00:02:43.230 align:start position:0%
+how many other instructions need the
+ 
+
+00:02:43.230 --> 00:02:44.960 align:start position:0%
+how many other instructions need the
+value<00:02:43.530><c> from</c><00:02:43.740><c> each</c><00:02:43.860><c> one</c><00:02:44.040><c> of</c><00:02:44.100><c> these</c><00:02:44.340><c> and</c><00:02:44.670><c> then</c>
+
+00:02:44.960 --> 00:02:44.970 align:start position:0%
+value from each one of these and then
+ 
+
+00:02:44.970 --> 00:02:47.330 align:start position:0%
+value from each one of these and then
+use<00:02:45.540><c> the</c><00:02:45.750><c> one</c><00:02:45.930><c> I</c><00:02:46.110><c> mean</c><00:02:46.230><c> you</c><00:02:46.530><c> know</c><00:02:46.710><c> dispatch</c><00:02:47.100><c> the</c>
+
+00:02:47.330 --> 00:02:47.340 align:start position:0%
+use the one I mean you know dispatch the
+ 
+
+00:02:47.340 --> 00:02:49.370 align:start position:0%
+use the one I mean you know dispatch the
+one<00:02:47.520><c> that</c><00:02:47.940><c> will</c><00:02:48.120><c> prove</c><00:02:48.300><c> that</c><00:02:48.360><c> we</c><00:02:48.600><c> can</c><00:02:48.930><c> free</c><00:02:49.230><c> up</c>
+
+00:02:49.370 --> 00:02:49.380 align:start position:0%
+one that will prove that we can free up
+ 
+
+00:02:49.380 --> 00:02:50.930 align:start position:0%
+one that will prove that we can free up
+more<00:02:49.680><c> more</c><00:02:50.040><c> the</c><00:02:50.340><c> most</c><00:02:50.550><c> of</c><00:02:50.730><c> the</c><00:02:50.820><c> other</c>
+
+00:02:50.930 --> 00:02:50.940 align:start position:0%
+more more the most of the other
+ 
+
+00:02:50.940 --> 00:02:52.190 align:start position:0%
+more more the most of the other
+instructions<00:02:51.510><c> but</c><00:02:51.660><c> this</c><00:02:51.810><c> one</c><00:02:51.990><c> would</c><00:02:52.140><c> be</c>
+
+00:02:52.190 --> 00:02:52.200 align:start position:0%
+instructions but this one would be
+ 
+
+00:02:52.200 --> 00:02:54.050 align:start position:0%
+instructions but this one would be
+varied<00:02:52.560><c> this</c><00:02:52.800><c> heuristic</c><00:02:53.160><c> would</c><00:02:53.520><c> be</c><00:02:53.610><c> difficult</c>
+
+00:02:54.050 --> 00:02:54.060 align:start position:0%
+varied this heuristic would be difficult
+ 
+
+00:02:54.060 --> 00:02:56.120 align:start position:0%
+varied this heuristic would be difficult
+to<00:02:54.150><c> implement</c><00:02:54.210><c> because</c><00:02:54.720><c> we</c><00:02:55.710><c> would</c><00:02:55.860><c> have</c><00:02:56.010><c> to</c>
+
+00:02:56.120 --> 00:02:56.130 align:start position:0%
+to implement because we would have to
+ 
+
+00:02:56.130 --> 00:02:57.680 align:start position:0%
+to implement because we would have to
+actually<00:02:56.250><c> like</c><00:02:56.580><c> search</c><00:02:56.910><c> a</c><00:02:57.150><c> lot</c><00:02:57.300><c> of</c><00:02:57.480><c> stuff</c>
+
+00:02:57.680 --> 00:02:57.690 align:start position:0%
+actually like search a lot of stuff
+ 
+
+00:02:57.690 --> 00:02:58.850 align:start position:0%
+actually like search a lot of stuff
+which<00:02:57.930><c> is</c><00:02:58.050><c> going</c><00:02:58.200><c> to</c><00:02:58.260><c> be</c><00:02:58.350><c> very</c><00:02:58.470><c> power</c><00:02:58.800><c> hungry</c>
+
+00:02:58.850 --> 00:02:58.860 align:start position:0%
+which is going to be very power hungry
+ 
+
+00:02:58.860 --> 00:03:02.390 align:start position:0%
+which is going to be very power hungry
+and<00:02:59.220><c> so</c><00:02:59.460><c> on</c><00:02:59.610><c> so</c><00:03:00.180><c> typically</c><00:03:00.900><c> if</c><00:03:01.320><c> we</c><00:03:01.530><c> do</c><00:03:01.890><c> anything</c>
+
+00:03:02.390 --> 00:03:02.400 align:start position:0%
+and so on so typically if we do anything
+ 
+
+00:03:02.400 --> 00:03:05.300 align:start position:0%
+and so on so typically if we do anything
+we<00:03:02.880><c> will</c><00:03:03.030><c> just</c><00:03:03.210><c> do</c><00:03:03.390><c> the</c><00:03:03.540><c> oldest</c><00:03:03.900><c> first</c><00:03:04.310><c> another</c>
+
+00:03:05.300 --> 00:03:05.310 align:start position:0%
+we will just do the oldest first another
+ 
+
+00:03:05.310 --> 00:03:07.820 align:start position:0%
+we will just do the oldest first another
+choice<00:03:05.580><c> would</c><00:03:05.850><c> be</c><00:03:06.000><c> to</c><00:03:06.690><c> just</c><00:03:06.840><c> randomly</c><00:03:07.440><c> select</c>
+
+00:03:07.820 --> 00:03:07.830 align:start position:0%
+choice would be to just randomly select
+ 
+
+00:03:07.830 --> 00:03:08.840 align:start position:0%
+choice would be to just randomly select
+the<00:03:07.920><c> instruction</c><00:03:08.370><c> like</c><00:03:08.580><c> for</c><00:03:08.760><c> example</c>
+
+00:03:08.840 --> 00:03:08.850 align:start position:0%
+the instruction like for example
+ 
+
+00:03:08.850 --> 00:03:10.790 align:start position:0%
+the instruction like for example
+whichever<00:03:09.450><c> is</c><00:03:09.660><c> comes</c><00:03:09.990><c> first</c><00:03:10.260><c> in</c><00:03:10.440><c> order</c><00:03:10.680><c> of</c>
+
+00:03:10.790 --> 00:03:10.800 align:start position:0%
+whichever is comes first in order of
+ 
+
+00:03:10.800 --> 00:03:12.170 align:start position:0%
+whichever is comes first in order of
+reservation<00:03:11.280><c> stations</c><00:03:11.610><c> or</c><00:03:11.730><c> something</c><00:03:12.030><c> like</c>
+
+00:03:12.170 --> 00:03:12.180 align:start position:0%
+reservation stations or something like
+ 
+
+00:03:12.180 --> 00:03:13.850 align:start position:0%
+reservation stations or something like
+that<00:03:12.360><c> so</c><00:03:12.690><c> something</c><00:03:12.930><c> that</c><00:03:13.080><c> has</c><00:03:13.320><c> nothing</c><00:03:13.500><c> to</c><00:03:13.680><c> do</c>
+
+00:03:13.850 --> 00:03:13.860 align:start position:0%
+that so something that has nothing to do
+ 
+
+00:03:13.860 --> 00:03:15.800 align:start position:0%
+that so something that has nothing to do
+with<00:03:13.890><c> their</c><00:03:14.430><c> age</c><00:03:14.610><c> in</c><00:03:14.910><c> the</c><00:03:15.120><c> reservation</c>
+
+00:03:15.800 --> 00:03:15.810 align:start position:0%
+with their age in the reservation
+ 
+
+00:03:15.810 --> 00:03:17.870 align:start position:0%
+with their age in the reservation
+station<00:03:16.170><c> or</c><00:03:16.350><c> whoever</c><00:03:16.800><c> has</c><00:03:17.070><c> most</c><00:03:17.310><c> dependencies</c>
+
+00:03:17.870 --> 00:03:17.880 align:start position:0%
+station or whoever has most dependencies
+ 
+
+00:03:17.880 --> 00:03:19.699 align:start position:0%
+station or whoever has most dependencies
+this<00:03:18.270><c> strategy</c><00:03:18.690><c> would</c><00:03:18.870><c> also</c><00:03:19.020><c> worse</c><00:03:19.320><c> because</c>
+
+00:03:19.699 --> 00:03:19.709 align:start position:0%
+this strategy would also worse because
+ 
+
+00:03:19.709 --> 00:03:22.040 align:start position:0%
+this strategy would also worse because
+note<00:03:20.310><c> that</c><00:03:20.489><c> if</c><00:03:20.730><c> we</c><00:03:21.090><c> don't</c><00:03:21.330><c> send</c><00:03:21.600><c> the</c><00:03:21.720><c> oldest</c>
+
+00:03:22.040 --> 00:03:22.050 align:start position:0%
+note that if we don't send the oldest
+ 
+
+00:03:22.050 --> 00:03:24.020 align:start position:0%
+note that if we don't send the oldest
+first<00:03:22.350><c> we</c><00:03:22.890><c> will</c><00:03:23.040><c> eventually</c><00:03:23.370><c> run</c><00:03:23.790><c> out</c><00:03:23.820><c> of</c>
+
+00:03:24.020 --> 00:03:24.030 align:start position:0%
+first we will eventually run out of
+ 
+
+00:03:24.030 --> 00:03:26.449 align:start position:0%
+first we will eventually run out of
+things<00:03:24.360><c> to</c><00:03:24.570><c> do</c><00:03:24.750><c> because</c><00:03:25.680><c> all</c><00:03:26.190><c> of</c><00:03:26.220><c> the</c><00:03:26.430><c> things</c>
+
+00:03:26.449 --> 00:03:26.459 align:start position:0%
+things to do because all of the things
+ 
+
+00:03:26.459 --> 00:03:27.890 align:start position:0%
+things to do because all of the things
+will<00:03:26.790><c> depend</c><00:03:27.090><c> on</c><00:03:27.150><c> the</c><00:03:27.270><c> other's</c><00:03:27.480><c> instruction</c>
+
+00:03:27.890 --> 00:03:27.900 align:start position:0%
+will depend on the other's instruction
+ 
+
+00:03:27.900 --> 00:03:29.390 align:start position:0%
+will depend on the other's instruction
+at<00:03:28.020><c> which</c><00:03:28.170><c> point</c><00:03:28.410><c> it</c><00:03:28.560><c> will</c><00:03:28.709><c> run</c><00:03:28.920><c> so</c><00:03:29.100><c> basically</c>
+
+00:03:29.390 --> 00:03:29.400 align:start position:0%
+at which point it will run so basically
+ 
+
+00:03:29.400 --> 00:03:32.000 align:start position:0%
+at which point it will run so basically
+it's<00:03:29.730><c> not</c><00:03:29.940><c> a</c><00:03:29.970><c> problem</c><00:03:30.690><c> regarding</c><00:03:31.260><c> correctness</c>
+
+00:03:32.000 --> 00:03:32.010 align:start position:0%
+it's not a problem regarding correctness
+ 
+
+00:03:32.010 --> 00:03:33.800 align:start position:0%
+it's not a problem regarding correctness
+if<00:03:32.400><c> we</c><00:03:32.640><c> choose</c><00:03:32.790><c> something</c><00:03:33.209><c> other</c><00:03:33.390><c> than</c><00:03:33.630><c> all</c>
+
+00:03:33.800 --> 00:03:33.810 align:start position:0%
+if we choose something other than all
+ 
+
+00:03:33.810 --> 00:03:36.140 align:start position:0%
+if we choose something other than all
+this<00:03:33.959><c> first</c><00:03:34.290><c> or</c><00:03:34.590><c> dependents</c><00:03:35.190><c> first</c><00:03:35.370><c> it's</c><00:03:35.880><c> just</c>
+
+00:03:36.140 --> 00:03:36.150 align:start position:0%
+this first or dependents first it's just
+ 
+
+00:03:36.150 --> 00:03:37.250 align:start position:0%
+this first or dependents first it's just
+an<00:03:36.270><c> issue</c><00:03:36.420><c> of</c><00:03:36.630><c> kind</c><00:03:36.750><c> of</c><00:03:36.870><c> what</c><00:03:37.050><c> works</c>
+
+00:03:37.250 --> 00:03:37.260 align:start position:0%
+an issue of kind of what works
+ 
+
+00:03:37.260 --> 00:03:38.030 align:start position:0%
+an issue of kind of what works
+reasonably<00:03:37.800><c> well</c>
+
+00:03:38.030 --> 00:03:38.040 align:start position:0%
+reasonably well
+ 
+
+00:03:38.040 --> 00:03:40.250 align:start position:0%
+reasonably well
+so<00:03:38.520><c> typically</c><00:03:39.000><c> all</c><00:03:39.120><c> this</c><00:03:39.270><c> first</c><00:03:39.510><c> does</c><00:03:39.870><c> help</c>
+
+00:03:40.250 --> 00:03:40.260 align:start position:0%
+so typically all this first does help
+ 
+
+00:03:40.260 --> 00:03:41.810 align:start position:0%
+so typically all this first does help
+somewhat<00:03:40.800><c> with</c><00:03:41.130><c> like</c><00:03:41.370><c> releasing</c>
+
+00:03:41.810 --> 00:03:41.820 align:start position:0%
+somewhat with like releasing
+ 
+
+00:03:41.820 --> 00:03:44.750 align:start position:0%
+somewhat with like releasing
+instructions<00:03:42.540><c> from</c><00:03:43.170><c> here</c><00:03:43.530><c> while</c><00:03:44.160><c> you</c><00:03:44.640><c> know</c>
+
+00:03:44.750 --> 00:03:44.760 align:start position:0%
+instructions from here while you know
+ 
+
+00:03:44.760 --> 00:03:47.810 align:start position:0%
+instructions from here while you know
+random<00:03:45.180><c> is</c><00:03:45.330><c> okay</c><00:03:45.900><c> as</c><00:03:46.170><c> far</c><00:03:46.410><c> as</c><00:03:46.590><c> just</c><00:03:47.400><c> you</c><00:03:47.700><c> know</c>
+
+00:03:47.810 --> 00:03:47.820 align:start position:0%
+random is okay as far as just you know
+ 
+
+00:03:47.820 --> 00:03:49.220 align:start position:0%
+random is okay as far as just you know
+correctness<00:03:48.269><c> is</c><00:03:48.570><c> concerned</c><00:03:48.900><c> so</c><00:03:48.989><c> pretty</c><00:03:49.140><c> much</c>
+
+00:03:49.220 --> 00:03:49.230 align:start position:0%
+correctness is concerned so pretty much
+ 
+
+00:03:49.230 --> 00:03:51.860 align:start position:0%
+correctness is concerned so pretty much
+any<00:03:49.440><c> one</c><00:03:49.680><c> of</c><00:03:49.709><c> these</c><00:03:49.890><c> three</c><00:03:50.459><c> would</c><00:03:50.730><c> work</c><00:03:51.209><c> it's</c>
+
+00:03:51.860 --> 00:03:51.870 align:start position:0%
+any one of these three would work it's
+ 
+
+00:03:51.870 --> 00:03:53.330 align:start position:0%
+any one of these three would work it's
+just<00:03:52.140><c> a</c><00:03:52.230><c> matter</c><00:03:52.410><c> of</c><00:03:52.530><c> you</c><00:03:52.890><c> know</c><00:03:52.950><c> which</c><00:03:53.160><c> one</c>
+
+00:03:53.330 --> 00:03:53.340 align:start position:0%
+just a matter of you know which one
+ 
+
+00:03:53.340 --> 00:03:54.920 align:start position:0%
+just a matter of you know which one
+would<00:03:53.459><c> lead</c><00:03:53.670><c> to</c><00:03:53.700><c> the</c><00:03:53.970><c> best</c><00:03:54.150><c> performance</c><00:03:54.300><c> and</c>
+
+00:03:54.920 --> 00:03:54.930 align:start position:0%
+would lead to the best performance and
+ 
+
+00:03:54.930 --> 00:03:56.420 align:start position:0%
+would lead to the best performance and
+we<00:03:55.080><c> kind</c><00:03:55.260><c> of</c><00:03:55.320><c> chosen</c><00:03:55.530><c> all</c><00:03:55.769><c> this</c><00:03:55.920><c> first</c><00:03:56.160><c> as</c><00:03:56.340><c> a</c>
+
+00:03:56.420 --> 00:03:56.430 align:start position:0%
+we kind of chosen all this first as a
+ 
+
+00:03:56.430 --> 00:03:58.699 align:start position:0%
+we kind of chosen all this first as a
+kind<00:03:56.640><c> of</c><00:03:56.670><c> compromise</c><00:03:57.030><c> between</c><00:03:57.540><c> what</c><00:03:58.380><c> we</c><00:03:58.530><c> have</c>
+
+00:03:58.699 --> 00:03:58.709 align:start position:0%
+kind of compromise between what we have
+ 
+
+00:03:58.709 --> 00:04:02.330 align:start position:0%
+kind of compromise between what we have
+to<00:03:58.830><c> look</c><00:03:59.010><c> at</c><00:03:59.220><c> and</c><00:03:59.780><c> you</c><00:04:00.780><c> know</c><00:04:01.019><c> what</c><00:04:01.680><c> gives</c><00:04:02.250><c> us</c>
+
+00:04:02.330 --> 00:04:02.340 align:start position:0%
+to look at and you know what gives us
+ 
+
+00:04:02.340 --> 00:04:04.009 align:start position:0%
+to look at and you know what gives us
+good<00:04:02.519><c> performance</c><00:04:03.150><c> so</c><00:04:03.269><c> random</c><00:04:03.600><c> would</c><00:04:03.720><c> give</c><00:04:03.900><c> us</c>
+
+00:04:04.009 --> 00:04:04.019 align:start position:0%
+good performance so random would give us
+ 
+
+00:04:04.019 --> 00:04:05.930 align:start position:0%
+good performance so random would give us
+kind<00:04:04.500><c> of</c><00:04:04.590><c> the</c><00:04:04.709><c> worst</c><00:04:04.890><c> performance</c><00:04:05.519><c> this</c><00:04:05.760><c> would</c>
+
+00:04:05.930 --> 00:04:05.940 align:start position:0%
+kind of the worst performance this would
+ 
+
+00:04:05.940 --> 00:04:07.520 align:start position:0%
+kind of the worst performance this would
+give<00:04:06.090><c> us</c><00:04:06.180><c> the</c><00:04:06.269><c> best</c><00:04:06.420><c> performance</c><00:04:06.989><c> but</c><00:04:07.170><c> this</c><00:04:07.350><c> is</c>
+
+00:04:07.520 --> 00:04:07.530 align:start position:0%
+give us the best performance but this is
+ 
+
+00:04:07.530 --> 00:04:08.930 align:start position:0%
+give us the best performance but this is
+relatively<00:04:07.950><c> easy</c><00:04:08.070><c> to</c><00:04:08.280><c> do</c><00:04:08.430><c> so</c><00:04:08.610><c> we</c><00:04:08.700><c> kind</c><00:04:08.880><c> of</c>
+
+00:04:08.930 --> 00:04:08.940 align:start position:0%
+relatively easy to do so we kind of
+ 
+
+00:04:08.940 --> 00:04:11.959 align:start position:0%
+relatively easy to do so we kind of
+compromise<00:04:09.390><c> between</c><00:04:09.570><c> the</c><00:04:09.810><c> two</c>
+

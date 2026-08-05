@@ -1,0 +1,52 @@
+1
+00:00:00,510 --> 00:00:03,630
+ Okay, so we've talked about bag insert and bag union.
+
+2
+00:00:03,630 --> 00:00:06,090
+ But what about bag splitting?
+
+3
+00:00:06,090 --> 00:00:09,600
+ Remember, we need bag splitting because we want to implement efficient divide
+
+4
+00:00:09,600 --> 00:00:11,960
+ and conquer style algorithms very often.
+
+5
+00:00:11,960 --> 00:00:14,354
+ So how do we do it?
+
+6
+00:00:14,354 --> 00:00:15,724
+ Just to see if you were paying attention.
+
+7
+00:00:15,724 --> 00:00:19,566
+ Even before I show you how to do it, I want you to answer the question of
+
+8
+00:00:19,566 --> 00:00:23,030
+ what's the running time of bag splitting?
+
+9
+00:00:23,030 --> 00:00:25,080
+ And again to be a little bit more precise,
+
+10
+00:00:25,080 --> 00:00:30,290
+ a bag split means breaking it up into two roughly equal parts.
+
+11
+00:00:30,290 --> 00:00:33,225
+ Your answer choices are constant time, log time,
+
+12
+00:00:33,225 --> 00:00:37,470
+ n time, linear time I mean, or n log n time.
+
+13
+00:00:37,470 --> 00:00:37,470
+ Choose one.
+

@@ -1,0 +1,672 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:03.830 align:start position:0%
+ 
+so<00:00:00.359><c> why</c><00:00:00.690><c> do</c><00:00:00.750><c> we</c><00:00:01.199><c> want</c><00:00:01.500><c> a</c><00:00:01.890><c> multiprocessor</c><00:00:02.840><c> why</c>
+
+00:00:03.830 --> 00:00:03.840 align:start position:0%
+so why do we want a multiprocessor why
+ 
+
+00:00:03.840 --> 00:00:07.160 align:start position:0%
+so why do we want a multiprocessor why
+not<00:00:04.110><c> just</c><00:00:04.560><c> use</c><00:00:05.040><c> uniprocessors</c><00:00:05.790><c> well</c><00:00:06.779><c> first</c>
+
+00:00:07.160 --> 00:00:07.170 align:start position:0%
+not just use uniprocessors well first
+ 
+
+00:00:07.170 --> 00:00:08.509 align:start position:0%
+not just use uniprocessors well first
+our<00:00:07.500><c> uniprocessors</c>
+
+00:00:08.509 --> 00:00:08.519 align:start position:0%
+our uniprocessors
+ 
+
+00:00:08.519 --> 00:00:11.600 align:start position:0%
+our uniprocessors
+would<00:00:09.300><c> already</c><00:00:09.480><c> be</c><00:00:09.780><c> for</c><00:00:10.200><c> wide</c><00:00:10.440><c> when</c><00:00:11.130><c> we</c><00:00:11.250><c> got</c><00:00:11.460><c> to</c>
+
+00:00:11.600 --> 00:00:11.610 align:start position:0%
+would already be for wide when we got to
+ 
+
+00:00:11.610 --> 00:00:13.879 align:start position:0%
+would already be for wide when we got to
+about<00:00:11.820><c> four</c><00:00:12.179><c> to</c><00:00:12.300><c> six</c><00:00:12.330><c> wide</c><00:00:12.840><c> is</c><00:00:13.110><c> when</c><00:00:13.410><c> we</c><00:00:13.590><c> switch</c>
+
+00:00:13.879 --> 00:00:13.889 align:start position:0%
+about four to six wide is when we switch
+ 
+
+00:00:13.889 --> 00:00:15.770 align:start position:0%
+about four to six wide is when we switch
+to<00:00:14.130><c> using</c><00:00:14.340><c> multi</c><00:00:14.759><c> processors</c><00:00:15.299><c> and</c><00:00:15.509><c> that's</c>
+
+00:00:15.770 --> 00:00:15.780 align:start position:0%
+to using multi processors and that's
+ 
+
+00:00:15.780 --> 00:00:18.080 align:start position:0%
+to using multi processors and that's
+because<00:00:16.170><c> once</c><00:00:16.440><c> you</c><00:00:16.590><c> get</c><00:00:16.800><c> to</c><00:00:16.859><c> this</c><00:00:17.130><c> point</c><00:00:17.400><c> you</c>
+
+00:00:18.080 --> 00:00:18.090 align:start position:0%
+because once you get to this point you
+ 
+
+00:00:18.090 --> 00:00:21.109 align:start position:0%
+because once you get to this point you
+get<00:00:18.300><c> diminishing</c><00:00:18.720><c> returns</c><00:00:19.500><c> from</c><00:00:20.310><c> making</c><00:00:20.820><c> the</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+get diminishing returns from making the
+ 
+
+00:00:21.119 --> 00:00:24.130 align:start position:0%
+get diminishing returns from making the
+uniprocessor<00:00:21.510><c> even</c><00:00:22.080><c> wider</c><00:00:22.350><c> you</c><00:00:23.279><c> can</c><00:00:23.310><c> make</c><00:00:23.760><c> it</c>
+
+00:00:24.130 --> 00:00:24.140 align:start position:0%
+uniprocessor even wider you can make it
+ 
+
+00:00:24.140 --> 00:00:26.689 align:start position:0%
+uniprocessor even wider you can make it
+execute<00:00:25.140><c> let's</c><00:00:25.380><c> say</c><00:00:25.560><c> six</c><00:00:26.099><c> or</c><00:00:26.310><c> eight</c>
+
+00:00:26.689 --> 00:00:26.699 align:start position:0%
+execute let's say six or eight
+ 
+
+00:00:26.699 --> 00:00:29.480 align:start position:0%
+execute let's say six or eight
+instructions<00:00:27.480><c> per</c><00:00:27.750><c> cycle</c><00:00:27.990><c> but</c><00:00:28.890><c> you</c><00:00:29.039><c> don't</c><00:00:29.310><c> get</c>
+
+00:00:29.480 --> 00:00:29.490 align:start position:0%
+instructions per cycle but you don't get
+ 
+
+00:00:29.490 --> 00:00:32.630 align:start position:0%
+instructions per cycle but you don't get
+as<00:00:29.699><c> much</c><00:00:30.029><c> from</c><00:00:30.929><c> that</c><00:00:31.260><c> extension</c><00:00:31.800><c> as</c><00:00:32.130><c> you</c><00:00:32.430><c> did</c>
+
+00:00:32.630 --> 00:00:32.640 align:start position:0%
+as much from that extension as you did
+ 
+
+00:00:32.640 --> 00:00:35.479 align:start position:0%
+as much from that extension as you did
+from<00:00:33.180><c> for</c><00:00:33.510><c> example</c><00:00:33.960><c> making</c><00:00:34.290><c> it</c><00:00:34.590><c> from</c><00:00:35.010><c> two</c><00:00:35.280><c> to</c>
+
+00:00:35.479 --> 00:00:35.489 align:start position:0%
+from for example making it from two to
+ 
+
+00:00:35.489 --> 00:00:37.490 align:start position:0%
+from for example making it from two to
+four<00:00:35.730><c> wide</c><00:00:36.030><c> and</c><00:00:36.390><c> that's</c><00:00:36.870><c> because</c><00:00:37.230><c> we</c><00:00:37.380><c> get</c>
+
+00:00:37.490 --> 00:00:37.500 align:start position:0%
+four wide and that's because we get
+ 
+
+00:00:37.500 --> 00:00:39.770 align:start position:0%
+four wide and that's because we get
+diminishing<00:00:37.739><c> returns</c><00:00:38.340><c> if</c><00:00:39.090><c> you</c><00:00:39.300><c> remember</c><00:00:39.690><c> your</c>
+
+00:00:39.770 --> 00:00:39.780 align:start position:0%
+diminishing returns if you remember your
+ 
+
+00:00:39.780 --> 00:00:42.430 align:start position:0%
+diminishing returns if you remember your
+endures<00:00:40.290><c> law</c><00:00:40.550><c> there</c><00:00:41.550><c> will</c><00:00:41.730><c> be</c><00:00:41.790><c> things</c><00:00:42.239><c> that</c>
+
+00:00:42.430 --> 00:00:42.440 align:start position:0%
+endures law there will be things that
+ 
+
+00:00:42.440 --> 00:00:45.319 align:start position:0%
+endures law there will be things that
+benefit<00:00:43.440><c> from</c><00:00:43.649><c> this</c><00:00:43.890><c> such</c><00:00:44.610><c> as</c><00:00:44.789><c> programs</c><00:00:45.239><c> that</c>
+
+00:00:45.319 --> 00:00:45.329 align:start position:0%
+benefit from this such as programs that
+ 
+
+00:00:45.329 --> 00:00:46.549 align:start position:0%
+benefit from this such as programs that
+have<00:00:45.510><c> a</c><00:00:45.539><c> lot</c><00:00:45.780><c> of</c><00:00:45.960><c> parallelism</c><00:00:46.289><c> between</c>
+
+00:00:46.549 --> 00:00:46.559 align:start position:0%
+have a lot of parallelism between
+ 
+
+00:00:46.559 --> 00:00:48.619 align:start position:0%
+have a lot of parallelism between
+instructions<00:00:47.309><c> and</c><00:00:47.550><c> then</c><00:00:48.090><c> there</c><00:00:48.270><c> are</c><00:00:48.360><c> things</c>
+
+00:00:48.619 --> 00:00:48.629 align:start position:0%
+instructions and then there are things
+ 
+
+00:00:48.629 --> 00:00:51.020 align:start position:0%
+instructions and then there are things
+that<00:00:48.780><c> don't</c><00:00:49.110><c> benefit</c><00:00:49.620><c> from</c><00:00:49.829><c> this</c><00:00:50.010><c> such</c><00:00:50.850><c> as</c>
+
+00:00:51.020 --> 00:00:51.030 align:start position:0%
+that don't benefit from this such as
+ 
+
+00:00:51.030 --> 00:00:52.610 align:start position:0%
+that don't benefit from this such as
+programs<00:00:51.480><c> that</c><00:00:51.719><c> have</c><00:00:51.899><c> a</c><00:00:51.930><c> lot</c><00:00:52.199><c> of</c><00:00:52.350><c> dependencies</c>
+
+00:00:52.610 --> 00:00:52.620 align:start position:0%
+programs that have a lot of dependencies
+ 
+
+00:00:52.620 --> 00:00:54.619 align:start position:0%
+programs that have a lot of dependencies
+so<00:00:53.100><c> they</c><00:00:53.219><c> have</c><00:00:53.430><c> to</c><00:00:53.550><c> run</c><00:00:53.699><c> things</c><00:00:53.879><c> one</c><00:00:54.120><c> at</c><00:00:54.270><c> a</c><00:00:54.360><c> time</c>
+
+00:00:54.619 --> 00:00:54.629 align:start position:0%
+so they have to run things one at a time
+ 
+
+00:00:54.629 --> 00:00:57.110 align:start position:0%
+so they have to run things one at a time
+things<00:00:55.320><c> that</c><00:00:55.500><c> are</c><00:00:55.649><c> four</c><00:00:56.039><c> wide</c><00:00:56.309><c> already</c><00:00:56.760><c> are</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+things that are four wide already are
+ 
+
+00:00:57.120 --> 00:01:01.010 align:start position:0%
+things that are four wide already are
+already<00:00:57.750><c> making</c><00:00:58.109><c> the</c><00:00:59.010><c> parallel</c><00:00:59.609><c> parts</c><00:01:00.329><c> fast</c>
+
+00:01:01.010 --> 00:01:01.020 align:start position:0%
+already making the parallel parts fast
+ 
+
+00:01:01.020 --> 00:01:03.860 align:start position:0%
+already making the parallel parts fast
+whereas<00:01:02.010><c> the</c><00:01:02.550><c> one</c><00:01:02.760><c> at</c><00:01:02.879><c> a</c><00:01:02.910><c> time</c><00:01:03.180><c> parts</c><00:01:03.570><c> are</c><00:01:03.719><c> not</c>
+
+00:01:03.860 --> 00:01:03.870 align:start position:0%
+whereas the one at a time parts are not
+ 
+
+00:01:03.870 --> 00:01:06.109 align:start position:0%
+whereas the one at a time parts are not
+accelerated<00:01:04.650><c> so</c><00:01:04.799><c> by</c><00:01:04.949><c> the</c><00:01:05.010><c> time</c><00:01:05.280><c> you</c><00:01:05.430><c> get</c><00:01:05.640><c> here</c>
+
+00:01:06.109 --> 00:01:06.119 align:start position:0%
+accelerated so by the time you get here
+ 
+
+00:01:06.119 --> 00:01:08.810 align:start position:0%
+accelerated so by the time you get here
+you<00:01:06.330><c> already</c><00:01:06.600><c> have</c><00:01:07.020><c> a</c><00:01:07.290><c> lot</c><00:01:07.500><c> of</c><00:01:07.799><c> your</c><00:01:08.280><c> program</c>
+
+00:01:08.810 --> 00:01:08.820 align:start position:0%
+you already have a lot of your program
+ 
+
+00:01:08.820 --> 00:01:12.170 align:start position:0%
+you already have a lot of your program
+suffer<00:01:09.540><c> from</c><00:01:09.750><c> not</c><00:01:10.470><c> enough</c><00:01:10.799><c> parallelism</c><00:01:11.310><c> to</c>
+
+00:01:12.170 --> 00:01:12.180 align:start position:0%
+suffer from not enough parallelism to
+ 
+
+00:01:12.180 --> 00:01:15.140 align:start position:0%
+suffer from not enough parallelism to
+benefit<00:01:12.659><c> from</c><00:01:13.080><c> either</c><00:01:13.950><c> four</c><00:01:14.340><c> or</c><00:01:14.549><c> even</c><00:01:14.909><c> six</c>
+
+00:01:15.140 --> 00:01:15.150 align:start position:0%
+benefit from either four or even six
+ 
+
+00:01:15.150 --> 00:01:17.359 align:start position:0%
+benefit from either four or even six
+wide<00:01:15.500><c> another</c><00:01:16.500><c> problem</c><00:01:16.799><c> with</c><00:01:17.070><c> unit</c>
+
+00:01:17.359 --> 00:01:17.369 align:start position:0%
+wide another problem with unit
+ 
+
+00:01:17.369 --> 00:01:19.999 align:start position:0%
+wide another problem with unit
+processors<00:01:17.909><c> if</c><00:01:18.330><c> we</c><00:01:18.780><c> make</c><00:01:18.960><c> them</c><00:01:19.140><c> even</c><00:01:19.409><c> fancier</c>
+
+00:01:19.999 --> 00:01:20.009 align:start position:0%
+processors if we make them even fancier
+ 
+
+00:01:20.009 --> 00:01:22.880 align:start position:0%
+processors if we make them even fancier
+is<00:01:20.670><c> to</c><00:01:21.180><c> make</c><00:01:21.390><c> them</c><00:01:21.600><c> faster</c><00:01:21.840><c> we</c><00:01:22.290><c> have</c><00:01:22.530><c> to</c><00:01:22.680><c> jack</c>
+
+00:01:22.880 --> 00:01:22.890 align:start position:0%
+is to make them faster we have to jack
+ 
+
+00:01:22.890 --> 00:01:25.760 align:start position:0%
+is to make them faster we have to jack
+up<00:01:22.920><c> the</c><00:01:23.280><c> frequency</c><00:01:23.939><c> to</c><00:01:24.420><c> do</c><00:01:24.659><c> that</c><00:01:24.900><c> we</c><00:01:25.350><c> have</c><00:01:25.590><c> to</c>
+
+00:01:25.760 --> 00:01:25.770 align:start position:0%
+up the frequency to do that we have to
+ 
+
+00:01:25.770 --> 00:01:28.100 align:start position:0%
+up the frequency to do that we have to
+raise<00:01:25.950><c> the</c><00:01:25.979><c> voltage</c><00:01:26.390><c> from</c><00:01:27.390><c> what</c><00:01:27.630><c> it</c><00:01:27.780><c> would</c><00:01:27.900><c> be</c>
+
+00:01:28.100 --> 00:01:28.110 align:start position:0%
+raise the voltage from what it would be
+ 
+
+00:01:28.110 --> 00:01:30.980 align:start position:0%
+raise the voltage from what it would be
+if<00:01:28.710><c> we</c><00:01:28.920><c> use</c><00:01:29.100><c> the</c><00:01:29.250><c> lower</c><00:01:29.400><c> frequency</c><00:01:30.119><c> and</c><00:01:30.299><c> when</c>
+
+00:01:30.980 --> 00:01:30.990 align:start position:0%
+if we use the lower frequency and when
+ 
+
+00:01:30.990 --> 00:01:33.080 align:start position:0%
+if we use the lower frequency and when
+we<00:01:31.140><c> do</c><00:01:31.290><c> both</c><00:01:31.530><c> of</c><00:01:31.560><c> these</c><00:01:31.950><c> the</c><00:01:32.820><c> power</c>
+
+00:01:33.080 --> 00:01:33.090 align:start position:0%
+we do both of these the power
+ 
+
+00:01:33.090 --> 00:01:36.830 align:start position:0%
+we do both of these the power
+consumption<00:01:33.720><c> grows</c><00:01:34.710><c> up</c><00:01:34.979><c> cubically</c><00:01:35.729><c> so</c><00:01:36.479><c> even</c>
+
+00:01:36.830 --> 00:01:36.840 align:start position:0%
+consumption grows up cubically so even
+ 
+
+00:01:36.840 --> 00:01:39.109 align:start position:0%
+consumption grows up cubically so even
+if<00:01:36.990><c> we</c><00:01:37.200><c> increase</c><00:01:37.890><c> the</c><00:01:38.040><c> frequency</c><00:01:38.070><c> by</c><00:01:38.700><c> not</c><00:01:38.909><c> too</c>
+
+00:01:39.109 --> 00:01:39.119 align:start position:0%
+if we increase the frequency by not too
+ 
+
+00:01:39.119 --> 00:01:40.940 align:start position:0%
+if we increase the frequency by not too
+much<00:01:39.329><c> we</c><00:01:39.960><c> would</c><00:01:40.110><c> end</c><00:01:40.320><c> up</c><00:01:40.470><c> burning</c><00:01:40.710><c> our</c>
+
+00:01:40.940 --> 00:01:40.950 align:start position:0%
+much we would end up burning our
+ 
+
+00:01:40.950 --> 00:01:43.670 align:start position:0%
+much we would end up burning our
+processor<00:01:41.549><c> so</c><00:01:42.150><c> we</c><00:01:42.270><c> don't</c><00:01:42.540><c> really</c><00:01:42.689><c> want</c><00:01:42.840><c> to</c>
+
+00:01:43.670 --> 00:01:43.680 align:start position:0%
+processor so we don't really want to
+ 
+
+00:01:43.680 --> 00:01:45.620 align:start position:0%
+processor so we don't really want to
+make<00:01:43.890><c> our</c><00:01:44.130><c> unit</c><00:01:44.579><c> processors</c><00:01:45.090><c> be</c><00:01:45.299><c> clocked</c>
+
+00:01:45.620 --> 00:01:45.630 align:start position:0%
+make our unit processors be clocked
+ 
+
+00:01:45.630 --> 00:01:49.219 align:start position:0%
+make our unit processors be clocked
+twice<00:01:45.990><c> as</c><00:01:46.229><c> fast</c><00:01:46.500><c> as</c><00:01:46.680><c> before</c><00:01:46.710><c> and</c><00:01:47.960><c> we</c><00:01:48.960><c> don't</c>
+
+00:01:49.219 --> 00:01:49.229 align:start position:0%
+twice as fast as before and we don't
+ 
+
+00:01:49.229 --> 00:01:51.109 align:start position:0%
+twice as fast as before and we don't
+want<00:01:49.500><c> to</c><00:01:49.590><c> make</c><00:01:49.740><c> them</c><00:01:49.950><c> much</c><00:01:50.250><c> wider</c><00:01:50.549><c> than</c><00:01:50.939><c> they</c>
+
+00:01:51.109 --> 00:01:51.119 align:start position:0%
+want to make them much wider than they
+ 
+
+00:01:51.119 --> 00:01:51.859 align:start position:0%
+want to make them much wider than they
+already<00:01:51.360><c> are</c>
+
+00:01:51.859 --> 00:01:51.869 align:start position:0%
+already are
+ 
+
+00:01:51.869 --> 00:01:54.950 align:start position:0%
+already are
+but<00:01:52.740><c> Moore's</c><00:01:53.040><c> law</c><00:01:53.340><c> continues</c><00:01:53.970><c> we</c><00:01:54.420><c> get</c><00:01:54.630><c> twice</c>
+
+00:01:54.950 --> 00:01:54.960 align:start position:0%
+but Moore's law continues we get twice
+ 
+
+00:01:54.960 --> 00:01:57.889 align:start position:0%
+but Moore's law continues we get twice
+the<00:01:55.020><c> transistors</c><00:01:55.890><c> every</c><00:01:56.250><c> 18</c><00:01:56.579><c> months</c><00:01:56.759><c> for</c><00:01:57.750><c> the</c>
+
+00:01:57.889 --> 00:01:57.899 align:start position:0%
+the transistors every 18 months for the
+ 
+
+00:01:57.899 --> 00:02:00.289 align:start position:0%
+the transistors every 18 months for the
+same<00:01:58.140><c> cost</c><00:01:58.500><c> as</c><00:01:58.680><c> before</c><00:01:59.100><c> and</c><00:01:59.369><c> in</c><00:01:59.490><c> the</c><00:01:59.610><c> same</c><00:01:59.850><c> area</c>
+
+00:02:00.289 --> 00:02:00.299 align:start position:0%
+same cost as before and in the same area
+ 
+
+00:02:00.299 --> 00:02:02.749 align:start position:0%
+same cost as before and in the same area
+as<00:02:00.540><c> before</c><00:02:01.259><c> so</c><00:02:01.740><c> we</c><00:02:01.890><c> want</c><00:02:02.070><c> to</c><00:02:02.159><c> benefit</c><00:02:02.700><c> from</c>
+
+00:02:02.749 --> 00:02:02.759 align:start position:0%
+as before so we want to benefit from
+ 
+
+00:02:02.759 --> 00:02:04.959 align:start position:0%
+as before so we want to benefit from
+this<00:02:03.149><c> and</c><00:02:03.509><c> improve</c><00:02:04.140><c> the</c><00:02:04.350><c> overall</c><00:02:04.380><c> performance</c>
+
+00:02:04.959 --> 00:02:04.969 align:start position:0%
+this and improve the overall performance
+ 
+
+00:02:04.969 --> 00:02:08.510 align:start position:0%
+this and improve the overall performance
+but<00:02:05.969><c> we</c><00:02:06.119><c> no</c><00:02:06.299><c> longer</c><00:02:06.329><c> can</c><00:02:06.899><c> do</c><00:02:07.020><c> it</c><00:02:07.140><c> this</c><00:02:07.350><c> way</c><00:02:07.520><c> so</c>
+
+00:02:08.510 --> 00:02:08.520 align:start position:0%
+but we no longer can do it this way so
+ 
+
+00:02:08.520 --> 00:02:10.880 align:start position:0%
+but we no longer can do it this way so
+what<00:02:08.700><c> do</c><00:02:08.819><c> we</c><00:02:08.879><c> do</c><00:02:09.090><c> we</c><00:02:09.899><c> just</c><00:02:09.929><c> double</c><00:02:10.530><c> the</c><00:02:10.649><c> number</c>
+
+00:02:10.880 --> 00:02:10.890 align:start position:0%
+what do we do we just double the number
+ 
+
+00:02:10.890 --> 00:02:14.140 align:start position:0%
+what do we do we just double the number
+of<00:02:11.009><c> cores</c><00:02:11.420><c> every</c><00:02:12.420><c> 18</c><00:02:12.660><c> months</c><00:02:12.810><c> that</c><00:02:13.110><c> allows</c><00:02:13.560><c> us</c>
+
+00:02:14.140 --> 00:02:14.150 align:start position:0%
+of cores every 18 months that allows us
+ 
+
+00:02:14.150 --> 00:02:16.809 align:start position:0%
+of cores every 18 months that allows us
+to<00:02:14.720><c> have</c><00:02:14.989><c> the</c><00:02:15.140><c> course</c><00:02:15.439><c> that</c><00:02:16.069><c> are</c><00:02:16.250><c> not</c><00:02:16.400><c> getting</c>
+
+00:02:16.809 --> 00:02:16.819 align:start position:0%
+to have the course that are not getting
+ 
+
+00:02:16.819 --> 00:02:18.970 align:start position:0%
+to have the course that are not getting
+wider<00:02:17.060><c> that</c><00:02:17.480><c> are</c><00:02:17.930><c> not</c><00:02:18.110><c> getting</c><00:02:18.680><c> up</c><00:02:18.829><c> in</c>
+
+00:02:18.970 --> 00:02:18.980 align:start position:0%
+wider that are not getting up in
+ 
+
+00:02:18.980 --> 00:02:21.819 align:start position:0%
+wider that are not getting up in
+frequency<00:02:19.220><c> too</c><00:02:19.670><c> much</c><00:02:19.909><c> and</c><00:02:20.209><c> yet</c><00:02:20.629><c> the</c><00:02:21.200><c> overall</c>
+
+00:02:21.819 --> 00:02:21.829 align:start position:0%
+frequency too much and yet the overall
+ 
+
+00:02:21.829 --> 00:02:25.199 align:start position:0%
+frequency too much and yet the overall
+computational<00:02:22.819><c> performance</c><00:02:23.269><c> of</c><00:02:23.959><c> the</c><00:02:24.110><c> chip</c><00:02:24.409><c> is</c>
+
+00:02:25.199 --> 00:02:25.209 align:start position:0%
+computational performance of the chip is
+ 
+
+00:02:25.209 --> 00:02:27.360 align:start position:0%
+computational performance of the chip is
+improving<00:02:26.209><c> with</c><00:02:26.510><c> Moore's</c><00:02:26.780><c> law</c>
+
+00:02:27.360 --> 00:02:27.370 align:start position:0%
+improving with Moore's law
+ 
+
+00:02:27.370 --> 00:02:30.280 align:start position:0%
+improving with Moore's law
+so<00:02:28.370><c> we</c><00:02:28.489><c> can</c><00:02:28.670><c> get</c><00:02:28.849><c> approximately</c><00:02:29.299><c> a</c><00:02:29.750><c> doubling</c>
+
+00:02:30.280 --> 00:02:30.290 align:start position:0%
+so we can get approximately a doubling
+ 
+
+00:02:30.290 --> 00:02:32.530 align:start position:0%
+so we can get approximately a doubling
+of<00:02:30.439><c> overall</c><00:02:30.890><c> performance</c><00:02:31.489><c> every</c><00:02:31.849><c> 18</c><00:02:32.180><c> months</c>
+
+00:02:32.530 --> 00:02:32.540 align:start position:0%
+of overall performance every 18 months
+ 
+
+00:02:32.540 --> 00:02:34.869 align:start position:0%
+of overall performance every 18 months
+that<00:02:32.720><c> is</c><00:02:33.560><c> only</c><00:02:33.769><c> if</c><00:02:34.010><c> we</c><00:02:34.129><c> assume</c><00:02:34.459><c> that</c><00:02:34.489><c> we</c><00:02:34.849><c> can</c>
+
+00:02:34.869 --> 00:02:34.879 align:start position:0%
+that is only if we assume that we can
+ 
+
+00:02:34.879 --> 00:02:37.690 align:start position:0%
+that is only if we assume that we can
+use<00:02:35.269><c> all</c><00:02:35.629><c> the</c><00:02:35.780><c> cores</c><00:02:36.049><c> if</c><00:02:36.560><c> we</c><00:02:36.950><c> only</c><00:02:37.159><c> have</c><00:02:37.459><c> one</c>
+
+00:02:37.690 --> 00:02:37.700 align:start position:0%
+use all the cores if we only have one
+ 
+
+00:02:37.700 --> 00:02:39.880 align:start position:0%
+use all the cores if we only have one
+program<00:02:38.000><c> with</c><00:02:38.480><c> one</c><00:02:38.689><c> thread</c><00:02:39.079><c> then</c><00:02:39.650><c> we</c><00:02:39.799><c> are</c>
+
+00:02:39.880 --> 00:02:39.890 align:start position:0%
+program with one thread then we are
+ 
+
+00:02:39.890 --> 00:02:41.559 align:start position:0%
+program with one thread then we are
+really<00:02:40.099><c> using</c><00:02:40.430><c> only</c><00:02:40.549><c> one</c><00:02:40.819><c> of</c><00:02:40.970><c> the</c><00:02:41.090><c> cores</c><00:02:41.359><c> it</c>
+
+00:02:41.559 --> 00:02:41.569 align:start position:0%
+really using only one of the cores it
+ 
+
+00:02:41.569 --> 00:02:43.210 align:start position:0%
+really using only one of the cores it
+doesn't<00:02:41.989><c> matter</c><00:02:42.170><c> if</c><00:02:42.530><c> the</c><00:02:42.680><c> number</c><00:02:42.920><c> of</c><00:02:43.010><c> cores</c>
+
+00:02:43.210 --> 00:02:43.220 align:start position:0%
+doesn't matter if the number of cores
+ 
+
+00:02:43.220 --> 00:02:45.130 align:start position:0%
+doesn't matter if the number of cores
+doubles<00:02:43.640><c> because</c><00:02:44.000><c> we</c><00:02:44.150><c> are</c><00:02:44.209><c> still</c><00:02:44.390><c> using</c><00:02:44.569><c> one</c>
+
+00:02:45.130 --> 00:02:45.140 align:start position:0%
+doubles because we are still using one
+ 
+
+00:02:45.140 --> 00:02:48.339 align:start position:0%
+doubles because we are still using one
+of<00:02:45.319><c> those</c><00:02:45.560><c> cores</c><00:02:45.890><c> so</c><00:02:46.670><c> we</c><00:02:46.849><c> need</c><00:02:47.060><c> programs</c><00:02:47.450><c> that</c>
+
+00:02:48.339 --> 00:02:48.349 align:start position:0%
+of those cores so we need programs that
+ 
+
+00:02:48.349 --> 00:02:52.170 align:start position:0%
+of those cores so we need programs that
+are<00:02:48.500><c> parallel</c><00:02:48.920><c> in</c><00:02:49.909><c> order</c><00:02:50.299><c> to</c><00:02:50.750><c> exploit</c><00:02:51.230><c> our</c>
+
+00:02:52.170 --> 00:02:52.180 align:start position:0%
+are parallel in order to exploit our
+ 
+
+00:02:52.180 --> 00:02:54.879 align:start position:0%
+are parallel in order to exploit our
+many<00:02:53.180><c> core</c><00:02:53.540><c> processors</c><00:02:54.139><c> that</c><00:02:54.170><c> we</c><00:02:54.470><c> are</c><00:02:54.530><c> getting</c>
+
+00:02:54.879 --> 00:02:54.889 align:start position:0%
+many core processors that we are getting
+ 
+
+00:02:54.889 --> 00:02:57.520 align:start position:0%
+many core processors that we are getting
+but<00:02:55.220><c> if</c><00:02:55.400><c> we</c><00:02:55.519><c> do</c><00:02:55.670><c> we</c><00:02:56.180><c> continue</c><00:02:56.780><c> the</c><00:02:56.959><c> trend</c><00:02:57.230><c> of</c>
+
+00:02:57.520 --> 00:02:57.530 align:start position:0%
+but if we do we continue the trend of
+ 
+
+00:02:57.530 --> 00:03:00.309 align:start position:0%
+but if we do we continue the trend of
+scaling<00:02:58.099><c> performance</c><00:02:58.670><c> up</c><00:02:58.959><c> exponentially</c><00:02:59.959><c> to</c>
+
+00:03:00.309 --> 00:03:00.319 align:start position:0%
+scaling performance up exponentially to
+ 
+
+00:03:00.319 --> 00:03:02.589 align:start position:0%
+scaling performance up exponentially to
+put<00:03:00.530><c> this</c><00:03:00.680><c> in</c><00:03:00.889><c> another</c><00:03:00.980><c> way</c><00:03:01.430><c> we</c><00:03:01.909><c> have</c><00:03:02.209><c> multi</c>
+
+00:03:02.589 --> 00:03:02.599 align:start position:0%
+put this in another way we have multi
+ 
+
+00:03:02.599 --> 00:03:05.110 align:start position:0%
+put this in another way we have multi
+processors<00:03:03.170><c> today</c><00:03:03.530><c> not</c><00:03:04.220><c> because</c><00:03:04.670><c> we</c><00:03:04.879><c> think</c>
+
+00:03:05.110 --> 00:03:05.120 align:start position:0%
+processors today not because we think
+ 
+
+00:03:05.120 --> 00:03:06.940 align:start position:0%
+processors today not because we think
+that<00:03:05.269><c> we</c><00:03:05.480><c> would</c><00:03:05.720><c> rather</c><00:03:05.930><c> have</c><00:03:06.319><c> twice</c><00:03:06.889><c> the</c>
+
+00:03:06.940 --> 00:03:06.950 align:start position:0%
+that we would rather have twice the
+ 
+
+00:03:06.950 --> 00:03:09.250 align:start position:0%
+that we would rather have twice the
+cores<00:03:07.459><c> than</c><00:03:08.090><c> twice</c><00:03:08.359><c> the</c><00:03:08.689><c> unit</c><00:03:08.930><c> processor</c>
+
+00:03:09.250 --> 00:03:09.260 align:start position:0%
+cores than twice the unit processor
+ 
+
+00:03:09.260 --> 00:03:11.890 align:start position:0%
+cores than twice the unit processor
+performance<00:03:09.950><c> it's</c><00:03:10.549><c> always</c><00:03:11.150><c> preferable</c><00:03:11.480><c> to</c>
+
+00:03:11.890 --> 00:03:11.900 align:start position:0%
+performance it's always preferable to
+ 
+
+00:03:11.900 --> 00:03:14.379 align:start position:0%
+performance it's always preferable to
+have<00:03:12.230><c> a</c><00:03:12.409><c> uniprocessor</c><00:03:12.889><c> a</c><00:03:13.340><c> single</c><00:03:13.939><c> core</c><00:03:14.180><c> that</c>
+
+00:03:14.379 --> 00:03:14.389 align:start position:0%
+have a uniprocessor a single core that
+ 
+
+00:03:14.389 --> 00:03:17.259 align:start position:0%
+have a uniprocessor a single core that
+is<00:03:14.450><c> twice</c><00:03:14.780><c> as</c><00:03:15.109><c> fast</c><00:03:15.560><c> as</c><00:03:15.769><c> before</c><00:03:16.220><c> then</c><00:03:16.849><c> having</c>
+
+00:03:17.259 --> 00:03:17.269 align:start position:0%
+is twice as fast as before then having
+ 
+
+00:03:17.269 --> 00:03:19.780 align:start position:0%
+is twice as fast as before then having
+two<00:03:17.720><c> cores</c><00:03:18.079><c> that</c><00:03:18.379><c> are</c><00:03:18.889><c> just</c><00:03:19.250><c> as</c><00:03:19.370><c> fast</c><00:03:19.609><c> as</c>
+
+00:03:19.780 --> 00:03:19.790 align:start position:0%
+two cores that are just as fast as
+ 
+
+00:03:19.790 --> 00:03:23.289 align:start position:0%
+two cores that are just as fast as
+before<00:03:19.930><c> but</c><00:03:20.930><c> we</c><00:03:21.079><c> ran</c><00:03:21.319><c> out</c><00:03:21.470><c> of</c><00:03:21.500><c> things</c><00:03:21.949><c> that</c><00:03:22.489><c> we</c>
+
+00:03:23.289 --> 00:03:23.299 align:start position:0%
+before but we ran out of things that we
+ 
+
+00:03:23.299 --> 00:03:26.289 align:start position:0%
+before but we ran out of things that we
+can<00:03:23.480><c> do</c><00:03:23.629><c> with</c><00:03:23.810><c> uni</c><00:03:24.079><c> processors</c><00:03:24.650><c> so</c><00:03:25.639><c> after</c><00:03:26.120><c> a</c>
+
+00:03:26.289 --> 00:03:26.299 align:start position:0%
+can do with uni processors so after a
+ 
+
+00:03:26.299 --> 00:03:28.390 align:start position:0%
+can do with uni processors so after a
+long<00:03:26.690><c> string</c><00:03:27.139><c> of</c><00:03:27.260><c> years</c><00:03:27.590><c> where</c><00:03:27.859><c> we</c><00:03:27.980><c> were</c><00:03:28.069><c> doing</c>
+
+00:03:28.390 --> 00:03:28.400 align:start position:0%
+long string of years where we were doing
+ 
+
+00:03:28.400 --> 00:03:30.670 align:start position:0%
+long string of years where we were doing
+this<00:03:28.579><c> just</c><00:03:29.030><c> getting</c><00:03:29.389><c> better</c><00:03:29.569><c> unit</c><00:03:30.079><c> processors</c>
+
+00:03:30.670 --> 00:03:30.680 align:start position:0%
+this just getting better unit processors
+ 
+
+00:03:30.680 --> 00:03:33.460 align:start position:0%
+this just getting better unit processors
+we<00:03:31.370><c> had</c><00:03:31.669><c> to</c><00:03:31.879><c> switch</c><00:03:32.150><c> to</c><00:03:32.180><c> this</c><00:03:32.569><c> if</c><00:03:32.870><c> we</c><00:03:33.139><c> want</c><00:03:33.409><c> to</c>
+
+00:03:33.460 --> 00:03:33.470 align:start position:0%
+we had to switch to this if we want to
+ 
+
+00:03:33.470 --> 00:03:37.030 align:start position:0%
+we had to switch to this if we want to
+get<00:03:33.739><c> performance</c><00:03:34.129><c> improvement</c>
+

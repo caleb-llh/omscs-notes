@@ -1,0 +1,36 @@
+1
+00:00:00,400 --> 00:00:02,004
+ Here are the answers.
+
+2
+00:00:02,004 --> 00:00:04,971
+ I think you can imagine an easy sequential algorithm for
+
+3
+00:00:04,971 --> 00:00:06,370
+ doing this computation.
+
+4
+00:00:06,370 --> 00:00:09,226
+ It would simply start at the front and go to the back.
+
+5
+00:00:09,226 --> 00:00:12,950
+ It would maintain a current sum and add values to it.
+
+6
+00:00:12,950 --> 00:00:15,740
+ I think you could see it would be easy to do in place, that is,
+
+7
+00:00:15,740 --> 00:00:18,000
+ without creating a separate array.
+
+8
+00:00:18,000 --> 00:00:21,220
+ So a sequential algorithm for this problem would be super efficient
+
+9
+00:00:21,220 --> 00:00:21,220
+ in time and space, at least from a sequential point of view.
+

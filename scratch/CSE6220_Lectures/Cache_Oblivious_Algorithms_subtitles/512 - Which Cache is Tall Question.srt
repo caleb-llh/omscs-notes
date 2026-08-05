@@ -1,0 +1,52 @@
+1
+00:00:00,260 --> 00:00:03,800
+ Let's look at some examples of real memory hierarchy parameters.
+
+2
+00:00:03,800 --> 00:00:08,189
+ A register file with 16 registers of 16 bytes each.
+
+3
+00:00:08,189 --> 00:00:13,020
+ An L1 cache that can hold 32 kibibytes with 64 byte lines.
+
+4
+00:00:13,020 --> 00:00:17,540
+ An L2 cache of size 8 mebibyte with a 128 byte lines.
+
+5
+00:00:17,540 --> 00:00:24,590
+ A 256-entry TLB or translation lookaside buffer with pages of 8 kibbibytes each.
+
+6
+00:00:24,590 --> 00:00:29,950
+ In this case the slow memory is main memory, and the fast memory is the TLB.
+
+7
+00:00:29,950 --> 00:00:34,390
+ And finally a virtual memory setup with 32 gibbibytes of physical RAM as
+
+8
+00:00:34,390 --> 00:00:39,590
+ the fast memory, 32 kibbibytes pages and disk as the slow memory.
+
+9
+00:00:39,590 --> 00:00:43,370
+ My question is this, which of these is a tall cache?
+
+10
+00:00:43,370 --> 00:00:44,190
+ To answer the question,
+
+11
+00:00:44,190 --> 00:00:47,980
+ you'll need to assume a word size, which I'll tell you is 8 bytes.
+
+12
+00:00:47,980 --> 00:00:50,080
+ Note that there might be more than one correct answer, so
+
+13
+00:00:50,080 --> 00:00:50,080
+ please check all that apply.
+

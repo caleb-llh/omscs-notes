@@ -1,0 +1,80 @@
+1
+00:00:00,400 --> 00:00:01,980
+ The answer is log n time.
+
+2
+00:00:01,980 --> 00:00:05,980
+ Let's start by thinking about the loads first.
+
+3
+00:00:05,980 --> 00:00:08,880
+ They have no input dependences and there are n of them, so
+
+4
+00:00:08,880 --> 00:00:12,985
+ it should take ceiling of n divided by p time in order to execute them.
+
+5
+00:00:12,985 --> 00:00:17,095
+ Now in this case I told you to assume that P equals N.
+
+6
+00:00:17,095 --> 00:00:21,480
+ So N over P is just a constant, in fact it's exactly one.
+
+7
+00:00:21,480 --> 00:00:24,005
+ Okay, that was easy, what about the additions?
+
+8
+00:00:24,005 --> 00:00:26,355
+ Let's look at the first level of additions.
+
+9
+00:00:26,355 --> 00:00:30,371
+ Now notice there are N over two of these vertices and we have N processors.
+
+10
+00:00:30,371 --> 00:00:33,543
+ So we have plenty of processors to execute all
+
+11
+00:00:33,543 --> 00:00:36,670
+ N over two additions in one shot.
+
+12
+00:00:36,670 --> 00:00:39,970
+ So that means this first level of additions will also take
+
+13
+00:00:39,970 --> 00:00:41,830
+ one unit of time or just constant time.
+
+14
+00:00:41,830 --> 00:00:45,060
+ And that's basically the same at every level.
+
+15
+00:00:45,060 --> 00:00:48,620
+ So we're basically executing the DAG level by level.
+
+16
+00:00:48,620 --> 00:00:50,370
+ Each level takes constant time, so
+
+17
+00:00:50,370 --> 00:00:52,880
+ the only thing we need to know is how many levels are there.
+
+18
+00:00:52,880 --> 00:00:54,750
+ Now this thing is a complete binary tree, so
+
+19
+00:00:54,750 --> 00:00:57,750
+ there should be log n levels given n leaves.
+
+20
+00:00:57,750 --> 00:00:57,750
+ And that completes our analysis.
+

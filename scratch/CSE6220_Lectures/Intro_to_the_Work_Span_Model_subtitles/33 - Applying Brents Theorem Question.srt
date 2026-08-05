@@ -1,0 +1,16 @@
+1
+00:00:00,240 --> 00:00:04,470
+ Let's say you want to run this DAG on this 2-processor PRAM.
+
+2
+00:00:04,470 --> 00:00:05,950
+ Here's my question.
+
+3
+00:00:05,950 --> 00:00:09,420
+ What is the upper bound predicted by Brent's theorem?
+
+4
+00:00:09,420 --> 00:00:09,420
+ Enter your answer, which should be a positive integer in this box.
+

@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.600 align:start position:0%
+ 
+so<00:00:00.269><c> let's</c><00:00:00.480><c> do</c><00:00:00.630><c> another</c><00:00:00.829><c> superscalar</c><00:00:01.829><c> versus</c><00:00:02.460><c> V</c>
+
+00:00:02.600 --> 00:00:02.610 align:start position:0%
+so let's do another superscalar versus V
+ 
+
+00:00:02.610 --> 00:00:05.780 align:start position:0%
+so let's do another superscalar versus V
+liw<00:00:03.090><c> comparison</c><00:00:03.720><c> as</c><00:00:03.870><c> a</c><00:00:03.929><c> quiz</c><00:00:04.680><c> let's</c><00:00:05.430><c> say</c><00:00:05.640><c> we</c>
+
+00:00:05.780 --> 00:00:05.790 align:start position:0%
+liw comparison as a quiz let's say we
+ 
+
+00:00:05.790 --> 00:00:06.849 align:start position:0%
+liw comparison as a quiz let's say we
+have<00:00:05.970><c> an</c><00:00:06.089><c> out-of-order</c><00:00:06.540><c> superscalar</c>
+
+00:00:06.849 --> 00:00:06.859 align:start position:0%
+have an out-of-order superscalar
+ 
+
+00:00:06.859 --> 00:00:10.669 align:start position:0%
+have an out-of-order superscalar
+processor<00:00:07.859><c> and</c><00:00:08.069><c> the</c><00:00:08.429><c> VLIW</c><00:00:09.150><c> processor</c><00:00:09.719><c> let's</c>
+
+00:00:10.669 --> 00:00:10.679 align:start position:0%
+processor and the VLIW processor let's
+ 
+
+00:00:10.679 --> 00:00:11.930 align:start position:0%
+processor and the VLIW processor let's
+say<00:00:10.830><c> that</c><00:00:11.010><c> the</c><00:00:11.160><c> out-of-order</c><00:00:11.730><c> superscalar</c>
+
+00:00:11.930 --> 00:00:11.940 align:start position:0%
+say that the out-of-order superscalar
+ 
+
+00:00:11.940 --> 00:00:14.419 align:start position:0%
+say that the out-of-order superscalar
+processor<00:00:12.690><c> executes</c><00:00:12.870><c> 32-bit</c><00:00:13.860><c> instructions</c>
+
+00:00:14.419 --> 00:00:14.429 align:start position:0%
+processor executes 32-bit instructions
+ 
+
+00:00:14.429 --> 00:00:17.720 align:start position:0%
+processor executes 32-bit instructions
+while<00:00:15.059><c> the</c><00:00:15.210><c> V</c><00:00:15.360><c> liw</c><00:00:15.929><c> executes</c><00:00:16.730><c> 128-bit</c>
+
+00:00:17.720 --> 00:00:17.730 align:start position:0%
+while the V liw executes 128-bit
+ 
+
+00:00:17.730 --> 00:00:20.060 align:start position:0%
+while the V liw executes 128-bit
+instructions<00:00:18.510><c> where</c><00:00:19.230><c> each</c><00:00:19.470><c> viola</c><00:00:19.830><c> double</c>
+
+00:00:20.060 --> 00:00:20.070 align:start position:0%
+instructions where each viola double
+ 
+
+00:00:20.070 --> 00:00:22.070 align:start position:0%
+instructions where each viola double
+instruction<00:00:20.550><c> specifies</c><00:00:21.150><c> four</c><00:00:21.449><c> operations</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+instruction specifies four operations
+ 
+
+00:00:22.080 --> 00:00:24.380 align:start position:0%
+instruction specifies four operations
+each<00:00:22.710><c> of</c><00:00:22.980><c> these</c><00:00:23.070><c> operations</c><00:00:23.640><c> is</c><00:00:23.820><c> similar</c><00:00:24.210><c> to</c>
+
+00:00:24.380 --> 00:00:24.390 align:start position:0%
+each of these operations is similar to
+ 
+
+00:00:24.390 --> 00:00:25.849 align:start position:0%
+each of these operations is similar to
+what<00:00:24.570><c> one</c><00:00:24.840><c> of</c><00:00:24.869><c> these</c><00:00:25.109><c> instructions</c><00:00:25.710><c> on</c><00:00:25.830><c> a</c>
+
+00:00:25.849 --> 00:00:25.859 align:start position:0%
+what one of these instructions on a
+ 
+
+00:00:25.859 --> 00:00:28.250 align:start position:0%
+what one of these instructions on a
+superscalar<00:00:26.640><c> processor</c><00:00:27.029><c> can</c><00:00:27.269><c> do</c><00:00:27.390><c> if</c><00:00:27.869><c> we</c><00:00:27.930><c> have</c>
+
+00:00:28.250 --> 00:00:28.260 align:start position:0%
+superscalar processor can do if we have
+ 
+
+00:00:28.260 --> 00:00:29.599 align:start position:0%
+superscalar processor can do if we have
+a<00:00:28.289><c> program</c><00:00:28.619><c> for</c><00:00:29.039><c> the</c><00:00:29.189><c> out-of-order</c>
+
+00:00:29.599 --> 00:00:29.609 align:start position:0%
+a program for the out-of-order
+ 
+
+00:00:29.609 --> 00:00:31.550 align:start position:0%
+a program for the out-of-order
+superscalar<00:00:29.910><c> that</c><00:00:30.570><c> is</c><00:00:30.720><c> four</c><00:00:30.960><c> thousand</c><00:00:31.349><c> bytes</c>
+
+00:00:31.550 --> 00:00:31.560 align:start position:0%
+superscalar that is four thousand bytes
+ 
+
+00:00:31.560 --> 00:00:34.340 align:start position:0%
+superscalar that is four thousand bytes
+in<00:00:31.800><c> length</c><00:00:31.850><c> we</c><00:00:32.850><c> can</c><00:00:32.880><c> say</c><00:00:33.270><c> that</c><00:00:33.570><c> the</c><00:00:33.660><c> V</c><00:00:33.809><c> liw</c>
+
+00:00:34.340 --> 00:00:34.350 align:start position:0%
+in length we can say that the V liw
+ 
+
+00:00:34.350 --> 00:00:36.860 align:start position:0%
+in length we can say that the V liw
+program<00:00:34.710><c> size</c><00:00:34.950><c> will</c><00:00:35.550><c> be</c><00:00:35.670><c> between</c><00:00:35.969><c> how</c><00:00:36.600><c> many</c>
+
+00:00:36.860 --> 00:00:36.870 align:start position:0%
+program size will be between how many
+ 
+
+00:00:36.870 --> 00:00:40.250 align:start position:0%
+program size will be between how many
+and<00:00:37.140><c> how</c><00:00:37.680><c> many</c><00:00:37.950><c> bytes</c>
+

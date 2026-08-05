@@ -1,0 +1,760 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.149 align:start position:0%
+ 
+let's<00:00:00.480><c> look</c><00:00:00.719><c> at</c><00:00:00.800><c> the</c><00:00:00.960><c> solution</c>
+
+00:00:02.149 --> 00:00:02.159 align:start position:0%
+let's look at the solution
+ 
+
+00:00:02.159 --> 00:00:04.470 align:start position:0%
+let's look at the solution
+to<00:00:02.399><c> our</c><00:00:02.560><c> three</c><00:00:02.800><c> height</c><00:00:03.040><c> reduction</c><00:00:03.600><c> quiz</c><00:00:04.319><c> we</c>
+
+00:00:04.470 --> 00:00:04.480 align:start position:0%
+to our three height reduction quiz we
+ 
+
+00:00:04.480 --> 00:00:06.710 align:start position:0%
+to our three height reduction quiz we
+had<00:00:04.720><c> this</c><00:00:05.040><c> code</c><00:00:05.759><c> and</c><00:00:06.000><c> we</c><00:00:06.160><c> are</c><00:00:06.240><c> trying</c><00:00:06.560><c> to</c>
+
+00:00:06.710 --> 00:00:06.720 align:start position:0%
+had this code and we are trying to
+ 
+
+00:00:06.720 --> 00:00:08.150 align:start position:0%
+had this code and we are trying to
+transform<00:00:07.200><c> it</c><00:00:07.359><c> through</c><00:00:07.600><c> three</c><00:00:07.919><c> height</c>
+
+00:00:08.150 --> 00:00:08.160 align:start position:0%
+transform it through three height
+ 
+
+00:00:08.160 --> 00:00:11.910 align:start position:0%
+transform it through three height
+reduction<00:00:08.800><c> into</c><00:00:09.120><c> something</c><00:00:10.080><c> that</c><00:00:10.320><c> minimizes</c>
+
+00:00:11.910 --> 00:00:11.920 align:start position:0%
+reduction into something that minimizes
+ 
+
+00:00:11.920 --> 00:00:14.390 align:start position:0%
+reduction into something that minimizes
+the<00:00:12.160><c> overall</c><00:00:12.559><c> number</c><00:00:12.800><c> of</c><00:00:12.960><c> cycles</c><00:00:13.759><c> it</c><00:00:13.920><c> takes</c><00:00:14.240><c> to</c>
+
+00:00:14.390 --> 00:00:14.400 align:start position:0%
+the overall number of cycles it takes to
+ 
+
+00:00:14.400 --> 00:00:17.430 align:start position:0%
+the overall number of cycles it takes to
+execute<00:00:14.719><c> this</c><00:00:14.960><c> code</c><00:00:15.839><c> here</c><00:00:16.240><c> the</c><00:00:16.400><c> code</c><00:00:16.640><c> takes</c>
+
+00:00:17.430 --> 00:00:17.440 align:start position:0%
+execute this code here the code takes
+ 
+
+00:00:17.440 --> 00:00:19.830 align:start position:0%
+execute this code here the code takes
+six<00:00:17.760><c> cycles</c><00:00:18.160><c> to</c><00:00:18.240><c> do</c><00:00:18.800><c> because</c><00:00:19.279><c> each</c><00:00:19.600><c> of</c><00:00:19.680><c> the</c>
+
+00:00:19.830 --> 00:00:19.840 align:start position:0%
+six cycles to do because each of the
+ 
+
+00:00:19.840 --> 00:00:23.109 align:start position:0%
+six cycles to do because each of the
+instructions<00:00:20.720><c> depends</c><00:00:21.199><c> on</c><00:00:21.279><c> the</c><00:00:21.439><c> previous</c><00:00:21.840><c> one</c>
+
+00:00:23.109 --> 00:00:23.119 align:start position:0%
+instructions depends on the previous one
+ 
+
+00:00:23.119 --> 00:00:25.670 align:start position:0%
+instructions depends on the previous one
+now<00:00:23.840><c> when</c><00:00:24.080><c> doing</c><00:00:24.400><c> three</c><00:00:24.640><c> height</c><00:00:24.880><c> reduction</c>
+
+00:00:25.670 --> 00:00:25.680 align:start position:0%
+now when doing three height reduction
+ 
+
+00:00:25.680 --> 00:00:27.830 align:start position:0%
+now when doing three height reduction
+what<00:00:25.920><c> we</c><00:00:26.080><c> need</c><00:00:26.240><c> to</c><00:00:26.400><c> do</c><00:00:26.720><c> is</c><00:00:26.880><c> really</c><00:00:27.119><c> figure</c><00:00:27.439><c> out</c>
+
+00:00:27.830 --> 00:00:27.840 align:start position:0%
+what we need to do is really figure out
+ 
+
+00:00:27.840 --> 00:00:29.669 align:start position:0%
+what we need to do is really figure out
+what<00:00:28.160><c> is</c><00:00:28.480><c> the</c><00:00:28.720><c> expression</c><00:00:29.199><c> that</c><00:00:29.359><c> this</c><00:00:29.519><c> is</c>
+
+00:00:29.669 --> 00:00:29.679 align:start position:0%
+what is the expression that this is
+ 
+
+00:00:29.679 --> 00:00:31.589 align:start position:0%
+what is the expression that this is
+trying<00:00:29.920><c> to</c><00:00:30.080><c> compute</c><00:00:30.720><c> and</c><00:00:30.800><c> then</c><00:00:31.039><c> rewrite</c><00:00:31.359><c> that</c>
+
+00:00:31.589 --> 00:00:31.599 align:start position:0%
+trying to compute and then rewrite that
+ 
+
+00:00:31.599 --> 00:00:34.069 align:start position:0%
+trying to compute and then rewrite that
+expression<00:00:32.480><c> so</c><00:00:32.640><c> here's</c><00:00:32.960><c> what</c><00:00:33.120><c> we</c><00:00:33.280><c> have</c><00:00:33.600><c> here</c>
+
+00:00:34.069 --> 00:00:34.079 align:start position:0%
+expression so here's what we have here
+ 
+
+00:00:34.079 --> 00:00:36.870 align:start position:0%
+expression so here's what we have here
+we<00:00:34.239><c> have</c><00:00:34.559><c> r1</c><00:00:35.120><c> plus</c><00:00:35.600><c> r2</c>
+
+00:00:36.870 --> 00:00:36.880 align:start position:0%
+we have r1 plus r2
+ 
+
+00:00:36.880 --> 00:00:40.630 align:start position:0%
+we have r1 plus r2
+put<00:00:37.120><c> the</c><00:00:37.200><c> result</c><00:00:37.600><c> in</c><00:00:37.760><c> r10</c><00:00:38.559><c> then</c><00:00:38.800><c> subtract</c><00:00:39.840><c> r3</c>
+
+00:00:40.630 --> 00:00:40.640 align:start position:0%
+put the result in r10 then subtract r3
+ 
+
+00:00:40.640 --> 00:00:44.470 align:start position:0%
+put the result in r10 then subtract r3
+then<00:00:40.960><c> add</c><00:00:41.280><c> our</c><00:00:41.520><c> 4</c><00:00:42.239><c> then</c><00:00:42.480><c> subtract</c><00:00:43.280><c> our</c><00:00:43.520><c> five</c>
+
+00:00:44.470 --> 00:00:44.480 align:start position:0%
+then add our 4 then subtract our five
+ 
+
+00:00:44.480 --> 00:00:46.709 align:start position:0%
+then add our 4 then subtract our five
+then<00:00:44.800><c> add</c><00:00:45.200><c> our</c><00:00:45.520><c> six</c>
+
+00:00:46.709 --> 00:00:46.719 align:start position:0%
+then add our six
+ 
+
+00:00:46.719 --> 00:00:49.190 align:start position:0%
+then add our six
+then<00:00:47.039><c> subtract</c><00:00:47.680><c> our</c><00:00:47.920><c> seven</c><00:00:48.320><c> so</c><00:00:48.559><c> this</c><00:00:48.800><c> is</c><00:00:48.960><c> what</c>
+
+00:00:49.190 --> 00:00:49.200 align:start position:0%
+then subtract our seven so this is what
+ 
+
+00:00:49.200 --> 00:00:51.510 align:start position:0%
+then subtract our seven so this is what
+we<00:00:49.360><c> are</c><00:00:49.440><c> trying</c><00:00:49.760><c> to</c><00:00:49.920><c> compute</c><00:00:50.879><c> how</c><00:00:51.200><c> do</c><00:00:51.360><c> we</c>
+
+00:00:51.510 --> 00:00:51.520 align:start position:0%
+we are trying to compute how do we
+ 
+
+00:00:51.520 --> 00:00:53.430 align:start position:0%
+we are trying to compute how do we
+compute<00:00:52.000><c> it</c><00:00:52.079><c> with</c><00:00:52.239><c> three</c><00:00:52.480><c> height</c><00:00:52.719><c> reduction</c>
+
+00:00:53.430 --> 00:00:53.440 align:start position:0%
+compute it with three height reduction
+ 
+
+00:00:53.440 --> 00:00:56.150 align:start position:0%
+compute it with three height reduction
+well<00:00:53.760><c> the</c><00:00:53.920><c> idea</c><00:00:54.800><c> is</c><00:00:55.039><c> to</c><00:00:55.199><c> compute</c>
+
+00:00:56.150 --> 00:00:56.160 align:start position:0%
+well the idea is to compute
+ 
+
+00:00:56.160 --> 00:00:59.270 align:start position:0%
+well the idea is to compute
+r1<00:00:56.640><c> and</c><00:00:56.800><c> r2</c><00:00:57.600><c> that's</c><00:00:57.920><c> what</c><00:00:58.079><c> we're</c><00:00:58.320><c> doing</c><00:00:58.640><c> here</c>
+
+00:00:59.270 --> 00:00:59.280 align:start position:0%
+r1 and r2 that's what we're doing here
+ 
+
+00:00:59.280 --> 00:01:01.189 align:start position:0%
+r1 and r2 that's what we're doing here
+and<00:00:59.520><c> then</c><00:01:00.239><c> compute</c>
+
+00:01:01.189 --> 00:01:01.199 align:start position:0%
+and then compute
+ 
+
+00:01:01.199 --> 00:01:02.869 align:start position:0%
+and then compute
+the<00:01:01.359><c> rest</c><00:01:01.680><c> of</c><00:01:01.760><c> the</c><00:01:01.920><c> things</c><00:01:02.160><c> and</c><00:01:02.239><c> then</c><00:01:02.480><c> add</c><00:01:02.719><c> them</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+the rest of the things and then add them
+ 
+
+00:01:02.879 --> 00:01:05.189 align:start position:0%
+the rest of the things and then add them
+up<00:01:03.039><c> in</c><00:01:03.199><c> a</c><00:01:03.280><c> tree</c><00:01:03.840><c> so</c><00:01:04.080><c> here</c><00:01:04.320><c> what</c><00:01:04.559><c> we</c><00:01:04.720><c> need</c><00:01:04.879><c> to</c><00:01:04.960><c> do</c>
+
+00:01:05.189 --> 00:01:05.199 align:start position:0%
+up in a tree so here what we need to do
+ 
+
+00:01:05.199 --> 00:01:07.429 align:start position:0%
+up in a tree so here what we need to do
+is<00:01:05.280><c> we</c><00:01:05.439><c> need</c><00:01:05.600><c> to</c><00:01:05.760><c> add</c><00:01:06.000><c> up</c><00:01:06.240><c> four</c><00:01:06.479><c> numbers</c><00:01:07.200><c> and</c>
+
+00:01:07.429 --> 00:01:07.439 align:start position:0%
+is we need to add up four numbers and
+ 
+
+00:01:07.439 --> 00:01:09.429 align:start position:0%
+is we need to add up four numbers and
+then<00:01:08.159><c> subtract</c>
+
+00:01:09.429 --> 00:01:09.439 align:start position:0%
+then subtract
+ 
+
+00:01:09.439 --> 00:01:11.990 align:start position:0%
+then subtract
+three<00:01:09.680><c> numbers</c><00:01:10.080><c> from</c><00:01:10.320><c> that</c><00:01:10.880><c> so</c><00:01:11.119><c> first</c><00:01:11.600><c> we</c><00:01:11.760><c> will</c>
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+three numbers from that so first we will
+ 
+
+00:01:12.000 --> 00:01:14.310 align:start position:0%
+three numbers from that so first we will
+add<00:01:12.240><c> up</c><00:01:12.400><c> the</c><00:01:12.560><c> four</c><00:01:12.799><c> numbers</c><00:01:13.439><c> we</c><00:01:13.680><c> already</c><00:01:14.000><c> added</c>
+
+00:01:14.310 --> 00:01:14.320 align:start position:0%
+add up the four numbers we already added
+ 
+
+00:01:14.320 --> 00:01:16.149 align:start position:0%
+add up the four numbers we already added
+up<00:01:14.560><c> r1</c><00:01:14.960><c> and</c><00:01:15.119><c> r2</c>
+
+00:01:16.149 --> 00:01:16.159 align:start position:0%
+up r1 and r2
+ 
+
+00:01:16.159 --> 00:01:19.910 align:start position:0%
+up r1 and r2
+now<00:01:16.320><c> we're</c><00:01:16.560><c> going</c><00:01:16.720><c> to</c><00:01:16.880><c> add</c><00:01:17.119><c> up</c><00:01:17.280><c> r4</c><00:01:17.759><c> and</c><00:01:17.920><c> r6</c><00:01:18.880><c> next</c>
+
+00:01:19.910 --> 00:01:19.920 align:start position:0%
+now we're going to add up r4 and r6 next
+ 
+
+00:01:19.920 --> 00:01:22.550 align:start position:0%
+now we're going to add up r4 and r6 next
+the<00:01:20.080><c> result</c><00:01:20.560><c> of</c><00:01:20.640><c> the</c><00:01:20.799><c> two</c><00:01:21.040><c> additions</c>
+
+00:01:22.550 --> 00:01:22.560 align:start position:0%
+the result of the two additions
+ 
+
+00:01:22.560 --> 00:01:23.990 align:start position:0%
+the result of the two additions
+are<00:01:22.720><c> gonna</c><00:01:23.040><c> be</c>
+
+00:01:23.990 --> 00:01:24.000 align:start position:0%
+are gonna be
+ 
+
+00:01:24.000 --> 00:01:25.190 align:start position:0%
+are gonna be
+combined
+
+00:01:25.190 --> 00:01:25.200 align:start position:0%
+combined
+ 
+
+00:01:25.200 --> 00:01:27.109 align:start position:0%
+combined
+so<00:01:25.360><c> we're</c><00:01:25.600><c> going</c><00:01:25.680><c> to</c><00:01:25.840><c> add</c><00:01:26.080><c> up</c><00:01:26.320><c> what</c><00:01:26.479><c> we</c><00:01:26.640><c> have</c>
+
+00:01:27.109 --> 00:01:27.119 align:start position:0%
+so we're going to add up what we have
+ 
+
+00:01:27.119 --> 00:01:29.670 align:start position:0%
+so we're going to add up what we have
+for<00:01:27.280><c> r1</c><00:01:27.680><c> and</c><00:01:27.840><c> r2</c><00:01:28.320><c> and</c><00:01:28.479><c> what</c><00:01:28.640><c> we</c><00:01:28.799><c> have</c><00:01:29.040><c> for</c><00:01:29.280><c> r4</c>
+
+00:01:29.670 --> 00:01:29.680 align:start position:0%
+for r1 and r2 and what we have for r4
+ 
+
+00:01:29.680 --> 00:01:32.789 align:start position:0%
+for r1 and r2 and what we have for r4
+and<00:01:29.840><c> r6</c><00:01:30.720><c> so</c><00:01:30.880><c> now</c><00:01:31.119><c> in</c><00:01:31.280><c> r10</c><00:01:31.680><c> we</c><00:01:31.840><c> have</c><00:01:32.079><c> the</c><00:01:32.240><c> r1</c><00:01:32.640><c> plus</c>
+
+00:01:32.789 --> 00:01:32.799 align:start position:0%
+and r6 so now in r10 we have the r1 plus
+ 
+
+00:01:32.799 --> 00:01:35.190 align:start position:0%
+and r6 so now in r10 we have the r1 plus
+r2<00:01:33.280><c> plus</c><00:01:33.439><c> r4</c><00:01:33.920><c> plus</c><00:01:34.159><c> r6</c>
+
+00:01:35.190 --> 00:01:35.200 align:start position:0%
+r2 plus r4 plus r6
+ 
+
+00:01:35.200 --> 00:01:38.469 align:start position:0%
+r2 plus r4 plus r6
+now<00:01:35.360><c> we're</c><00:01:35.600><c> going</c><00:01:35.759><c> to</c><00:01:35.840><c> subtract</c><00:01:36.880><c> r3</c><00:01:37.360><c> r5</c><00:01:37.759><c> and</c><00:01:37.920><c> r7</c>
+
+00:01:38.469 --> 00:01:38.479 align:start position:0%
+now we're going to subtract r3 r5 and r7
+ 
+
+00:01:38.479 --> 00:01:41.270 align:start position:0%
+now we're going to subtract r3 r5 and r7
+from<00:01:38.720><c> it</c><00:01:39.360><c> if</c><00:01:39.520><c> we</c><00:01:39.600><c> do</c><00:01:39.759><c> it</c><00:01:39.920><c> one</c><00:01:40.159><c> at</c><00:01:40.320><c> a</c><00:01:40.400><c> time</c>
+
+00:01:41.270 --> 00:01:41.280 align:start position:0%
+from it if we do it one at a time
+ 
+
+00:01:41.280 --> 00:01:42.950 align:start position:0%
+from it if we do it one at a time
+that's<00:01:41.600><c> going</c><00:01:41.680><c> to</c><00:01:41.759><c> be</c><00:01:41.920><c> slow</c><00:01:42.400><c> so</c><00:01:42.560><c> what</c><00:01:42.720><c> we're</c>
+
+00:01:42.950 --> 00:01:42.960 align:start position:0%
+that's going to be slow so what we're
+ 
+
+00:01:42.960 --> 00:01:45.510 align:start position:0%
+that's going to be slow so what we're
+going<00:01:43.200><c> to</c><00:01:43.360><c> do</c><00:01:43.840><c> is</c><00:01:44.079><c> we're</c><00:01:44.320><c> going</c><00:01:44.640><c> to</c>
+
+00:01:45.510 --> 00:01:45.520 align:start position:0%
+going to do is we're going to
+ 
+
+00:01:45.520 --> 00:01:49.910 align:start position:0%
+going to do is we're going to
+add<00:01:45.840><c> up</c><00:01:46.240><c> r3</c><00:01:46.799><c> r5</c><00:01:47.360><c> and</c><00:01:47.600><c> r7</c><00:01:48.640><c> and</c><00:01:48.880><c> then</c><00:01:49.200><c> subtract</c>
+
+00:01:49.910 --> 00:01:49.920 align:start position:0%
+add up r3 r5 and r7 and then subtract
+ 
+
+00:01:49.920 --> 00:01:53.830 align:start position:0%
+add up r3 r5 and r7 and then subtract
+that<00:01:50.720><c> from</c><00:01:51.119><c> our</c><00:01:51.280><c> r10</c><00:01:52.240><c> that's</c><00:01:52.560><c> why</c><00:01:52.799><c> we</c><00:01:53.040><c> have</c><00:01:53.520><c> two</c>
+
+00:01:53.830 --> 00:01:53.840 align:start position:0%
+that from our r10 that's why we have two
+ 
+
+00:01:53.840 --> 00:01:56.230 align:start position:0%
+that from our r10 that's why we have two
+adds<00:01:54.240><c> here</c><00:01:54.880><c> so</c><00:01:55.119><c> clearly</c><00:01:55.520><c> what</c><00:01:55.680><c> we're</c><00:01:55.920><c> doing</c>
+
+00:01:56.230 --> 00:01:56.240 align:start position:0%
+adds here so clearly what we're doing
+ 
+
+00:01:56.240 --> 00:01:59.190 align:start position:0%
+adds here so clearly what we're doing
+here<00:01:56.479><c> is</c><00:01:56.640><c> we're</c><00:01:56.880><c> simply</c><00:01:57.360><c> adding</c><00:01:57.759><c> up</c><00:01:58.159><c> r3</c>
+
+00:01:59.190 --> 00:01:59.200 align:start position:0%
+here is we're simply adding up r3
+ 
+
+00:01:59.200 --> 00:02:00.389 align:start position:0%
+here is we're simply adding up r3
+r5
+
+00:02:00.389 --> 00:02:00.399 align:start position:0%
+r5
+ 
+
+00:02:00.399 --> 00:02:03.350 align:start position:0%
+r5
+and<00:02:00.560><c> then</c><00:02:00.880><c> r7</c><00:02:01.600><c> is</c><00:02:01.759><c> added</c><00:02:02.159><c> to</c><00:02:02.320><c> that</c>
+
+00:02:03.350 --> 00:02:03.360 align:start position:0%
+and then r7 is added to that
+ 
+
+00:02:03.360 --> 00:02:06.789 align:start position:0%
+and then r7 is added to that
+so<00:02:03.520><c> this</c><00:02:03.759><c> needs</c><00:02:03.920><c> to</c><00:02:04.079><c> be</c><00:02:04.240><c> r11</c><00:02:04.960><c> so</c><00:02:05.119><c> now</c><00:02:05.360><c> r11</c><00:02:06.240><c> has</c>
+
+00:02:06.789 --> 00:02:06.799 align:start position:0%
+so this needs to be r11 so now r11 has
+ 
+
+00:02:06.799 --> 00:02:10.070 align:start position:0%
+so this needs to be r11 so now r11 has
+r3<00:02:07.439><c> plus</c><00:02:07.680><c> r5</c><00:02:08.319><c> plus</c><00:02:08.560><c> r7</c>
+
+00:02:10.070 --> 00:02:10.080 align:start position:0%
+r3 plus r5 plus r7
+ 
+
+00:02:10.080 --> 00:02:13.110 align:start position:0%
+r3 plus r5 plus r7
+and<00:02:10.239><c> now</c><00:02:10.560><c> we</c><00:02:10.720><c> subtract</c><00:02:11.280><c> that</c><00:02:12.080><c> from</c>
+
+00:02:13.110 --> 00:02:13.120 align:start position:0%
+and now we subtract that from
+ 
+
+00:02:13.120 --> 00:02:14.309 align:start position:0%
+and now we subtract that from
+r10
+
+00:02:14.309 --> 00:02:14.319 align:start position:0%
+r10
+ 
+
+00:02:14.319 --> 00:02:17.350 align:start position:0%
+r10
+and<00:02:14.959><c> we</c><00:02:15.200><c> get</c><00:02:15.360><c> the</c><00:02:15.520><c> final</c><00:02:15.920><c> answer</c><00:02:16.319><c> in</c><00:02:16.480><c> r10</c><00:02:17.120><c> now</c>
+
+00:02:17.350 --> 00:02:17.360 align:start position:0%
+and we get the final answer in r10 now
+ 
+
+00:02:17.360 --> 00:02:20.229 align:start position:0%
+and we get the final answer in r10 now
+let<00:02:17.520><c> us</c><00:02:17.680><c> see</c><00:02:17.920><c> how</c><00:02:18.080><c> many</c><00:02:18.400><c> cycles</c><00:02:19.120><c> we</c><00:02:19.280><c> need</c><00:02:19.840><c> to</c><00:02:20.000><c> do</c>
+
+00:02:20.229 --> 00:02:20.239 align:start position:0%
+let us see how many cycles we need to do
+ 
+
+00:02:20.239 --> 00:02:22.070 align:start position:0%
+let us see how many cycles we need to do
+this<00:02:20.720><c> to</c><00:02:20.879><c> do</c><00:02:21.040><c> that</c><00:02:21.360><c> let's</c><00:02:21.680><c> draw</c><00:02:21.920><c> the</c>
+
+00:02:22.070 --> 00:02:22.080 align:start position:0%
+this to do that let's draw the
+ 
+
+00:02:22.080 --> 00:02:24.630 align:start position:0%
+this to do that let's draw the
+dependencies<00:02:23.120><c> here</c><00:02:23.520><c> we</c><00:02:23.680><c> have</c><00:02:23.920><c> the</c><00:02:24.080><c> dependence</c>
+
+00:02:24.630 --> 00:02:24.640 align:start position:0%
+dependencies here we have the dependence
+ 
+
+00:02:24.640 --> 00:02:25.589 align:start position:0%
+dependencies here we have the dependence
+again
+
+00:02:25.589 --> 00:02:25.599 align:start position:0%
+again
+ 
+
+00:02:25.599 --> 00:02:26.869 align:start position:0%
+again
+like<00:02:25.840><c> this</c>
+
+00:02:26.869 --> 00:02:26.879 align:start position:0%
+like this
+ 
+
+00:02:26.879 --> 00:02:28.710 align:start position:0%
+like this
+so<00:02:27.120><c> each</c><00:02:27.440><c> instruction</c><00:02:27.840><c> needed</c><00:02:28.080><c> to</c><00:02:28.160><c> be</c><00:02:28.319><c> done</c>
+
+00:02:28.710 --> 00:02:28.720 align:start position:0%
+so each instruction needed to be done
+ 
+
+00:02:28.720 --> 00:02:31.190 align:start position:0%
+so each instruction needed to be done
+right<00:02:28.959><c> after</c><00:02:29.280><c> the</c><00:02:29.440><c> previous</c><00:02:29.760><c> one</c><00:02:30.000><c> is</c><00:02:30.160><c> done</c>
+
+00:02:31.190 --> 00:02:31.200 align:start position:0%
+right after the previous one is done
+ 
+
+00:02:31.200 --> 00:02:33.270 align:start position:0%
+right after the previous one is done
+here<00:02:31.840><c> there</c><00:02:32.080><c> is</c><00:02:32.319><c> no</c><00:02:32.480><c> dependence</c><00:02:32.959><c> between</c>
+
+00:02:33.270 --> 00:02:33.280 align:start position:0%
+here there is no dependence between
+ 
+
+00:02:33.280 --> 00:02:34.309 align:start position:0%
+here there is no dependence between
+these<00:02:33.519><c> two</c>
+
+00:02:34.309 --> 00:02:34.319 align:start position:0%
+these two
+ 
+
+00:02:34.319 --> 00:02:36.630 align:start position:0%
+these two
+there<00:02:34.640><c> is</c><00:02:34.800><c> a</c><00:02:35.040><c> dependence</c><00:02:35.599><c> here</c>
+
+00:02:36.630 --> 00:02:36.640 align:start position:0%
+there is a dependence here
+ 
+
+00:02:36.640 --> 00:02:38.630 align:start position:0%
+there is a dependence here
+and<00:02:36.879><c> here</c><00:02:37.360><c> so</c><00:02:37.519><c> the</c><00:02:37.680><c> third</c><00:02:38.000><c> instruction</c><00:02:38.480><c> needs</c>
+
+00:02:38.630 --> 00:02:38.640 align:start position:0%
+and here so the third instruction needs
+ 
+
+00:02:38.640 --> 00:02:40.710 align:start position:0%
+and here so the third instruction needs
+to<00:02:38.720><c> wait</c><00:02:38.959><c> for</c><00:02:39.120><c> the</c><00:02:39.280><c> first</c><00:02:39.519><c> two</c><00:02:39.680><c> to</c><00:02:39.840><c> complete</c>
+
+00:02:40.710 --> 00:02:40.720 align:start position:0%
+to wait for the first two to complete
+ 
+
+00:02:40.720 --> 00:02:44.070 align:start position:0%
+to wait for the first two to complete
+there<00:02:40.959><c> is</c><00:02:41.200><c> now</c><00:02:41.680><c> no</c><00:02:41.920><c> dependence</c><00:02:43.120><c> here</c><00:02:43.680><c> so</c><00:02:43.840><c> this</c>
+
+00:02:44.070 --> 00:02:44.080 align:start position:0%
+there is now no dependence here so this
+ 
+
+00:02:44.080 --> 00:02:46.630 align:start position:0%
+there is now no dependence here so this
+one<00:02:44.239><c> can</c><00:02:44.400><c> be</c><00:02:44.560><c> done</c><00:02:45.120><c> right</c><00:02:45.360><c> away</c><00:02:46.160><c> even</c><00:02:46.400><c> though</c>
+
+00:02:46.630 --> 00:02:46.640 align:start position:0%
+one can be done right away even though
+ 
+
+00:02:46.640 --> 00:02:49.270 align:start position:0%
+one can be done right away even though
+it's<00:02:46.720><c> the</c><00:02:46.879><c> fourth</c><00:02:47.200><c> instruction</c><00:02:47.840><c> in</c><00:02:48.000><c> our</c><00:02:48.160><c> code</c>
+
+00:02:49.270 --> 00:02:49.280 align:start position:0%
+it's the fourth instruction in our code
+ 
+
+00:02:49.280 --> 00:02:51.670 align:start position:0%
+it's the fourth instruction in our code
+and<00:02:49.360><c> then</c><00:02:49.599><c> there</c><00:02:49.760><c> is</c><00:02:49.920><c> a</c><00:02:50.000><c> dependence</c><00:02:50.560><c> here</c>
+
+00:02:51.670 --> 00:02:51.680 align:start position:0%
+and then there is a dependence here
+ 
+
+00:02:51.680 --> 00:02:53.670 align:start position:0%
+and then there is a dependence here
+and<00:02:51.840><c> then</c><00:02:52.080><c> finally</c><00:02:52.560><c> there</c><00:02:52.800><c> is</c><00:02:52.879><c> a</c><00:02:53.040><c> dependence</c>
+
+00:02:53.670 --> 00:02:53.680 align:start position:0%
+and then finally there is a dependence
+ 
+
+00:02:53.680 --> 00:02:57.110 align:start position:0%
+and then finally there is a dependence
+here<00:02:54.160><c> and</c><00:02:54.400><c> also</c><00:02:55.040><c> our</c><00:02:55.280><c> final</c><00:02:55.840><c> r10</c><00:02:56.400><c> here</c><00:02:56.800><c> needs</c>
+
+00:02:57.110 --> 00:02:57.120 align:start position:0%
+here and also our final r10 here needs
+ 
+
+00:02:57.120 --> 00:02:59.910 align:start position:0%
+here and also our final r10 here needs
+to<00:02:57.280><c> be</c><00:02:57.760><c> brought</c><00:02:58.160><c> this</c><00:02:58.400><c> way</c><00:02:59.040><c> so</c><00:02:59.200><c> if</c><00:02:59.280><c> you</c><00:02:59.440><c> look</c><00:02:59.680><c> at</c>
+
+00:02:59.910 --> 00:02:59.920 align:start position:0%
+to be brought this way so if you look at
+ 
+
+00:02:59.920 --> 00:03:02.390 align:start position:0%
+to be brought this way so if you look at
+what<00:03:00.160><c> can</c><00:03:00.319><c> be</c><00:03:00.480><c> done</c><00:03:00.720><c> in</c><00:03:00.800><c> the</c><00:03:00.959><c> first</c><00:03:01.280><c> cycle</c><00:03:02.159><c> this</c>
+
+00:03:02.390 --> 00:03:02.400 align:start position:0%
+what can be done in the first cycle this
+ 
+
+00:03:02.400 --> 00:03:04.229 align:start position:0%
+what can be done in the first cycle this
+can<00:03:02.560><c> be</c><00:03:02.720><c> done</c><00:03:02.959><c> in</c><00:03:03.040><c> the</c><00:03:03.120><c> first</c><00:03:03.440><c> cycle</c><00:03:03.840><c> and</c><00:03:04.000><c> so</c>
+
+00:03:04.229 --> 00:03:04.239 align:start position:0%
+can be done in the first cycle and so
+ 
+
+00:03:04.239 --> 00:03:06.390 align:start position:0%
+can be done in the first cycle and so
+can<00:03:04.480><c> this</c><00:03:05.200><c> this</c><00:03:05.440><c> cannot</c><00:03:05.760><c> because</c><00:03:06.000><c> it</c><00:03:06.159><c> has</c><00:03:06.239><c> to</c>
+
+00:03:06.390 --> 00:03:06.400 align:start position:0%
+can this this cannot because it has to
+ 
+
+00:03:06.400 --> 00:03:07.350 align:start position:0%
+can this this cannot because it has to
+wait
+
+00:03:07.350 --> 00:03:07.360 align:start position:0%
+wait
+ 
+
+00:03:07.360 --> 00:03:08.790 align:start position:0%
+wait
+this<00:03:07.680><c> can</c>
+
+00:03:08.790 --> 00:03:08.800 align:start position:0%
+this can
+ 
+
+00:03:08.800 --> 00:03:11.030 align:start position:0%
+this can
+so<00:03:08.959><c> this</c><00:03:09.200><c> is</c><00:03:09.360><c> also</c><00:03:09.599><c> done</c><00:03:09.760><c> in</c><00:03:09.920><c> the</c><00:03:10.000><c> first</c><00:03:10.319><c> cycle</c>
+
+00:03:11.030 --> 00:03:11.040 align:start position:0%
+so this is also done in the first cycle
+ 
+
+00:03:11.040 --> 00:03:12.630 align:start position:0%
+so this is also done in the first cycle
+and<00:03:11.120><c> then</c><00:03:11.360><c> this</c><00:03:11.519><c> has</c><00:03:11.760><c> to</c><00:03:11.840><c> wait</c><00:03:12.080><c> for</c><00:03:12.239><c> that</c><00:03:12.480><c> and</c>
+
+00:03:12.630 --> 00:03:12.640 align:start position:0%
+and then this has to wait for that and
+ 
+
+00:03:12.640 --> 00:03:13.589 align:start position:0%
+and then this has to wait for that and
+so<00:03:12.800><c> on</c>
+
+00:03:13.589 --> 00:03:13.599 align:start position:0%
+so on
+ 
+
+00:03:13.599 --> 00:03:15.589 align:start position:0%
+so on
+so<00:03:13.760><c> in</c><00:03:13.920><c> our</c><00:03:14.080><c> first</c><00:03:14.319><c> cycle</c><00:03:14.640><c> we've</c><00:03:14.959><c> already</c><00:03:15.360><c> done</c>
+
+00:03:15.589 --> 00:03:15.599 align:start position:0%
+so in our first cycle we've already done
+ 
+
+00:03:15.599 --> 00:03:16.710 align:start position:0%
+so in our first cycle we've already done
+three<00:03:15.760><c> instruction</c><00:03:16.239><c> half</c><00:03:16.560><c> of</c><00:03:16.640><c> the</c>
+
+00:03:16.710 --> 00:03:16.720 align:start position:0%
+three instruction half of the
+ 
+
+00:03:16.720 --> 00:03:19.430 align:start position:0%
+three instruction half of the
+instructions<00:03:17.440><c> that</c><00:03:17.599><c> we</c><00:03:17.760><c> had</c><00:03:18.560><c> in</c><00:03:18.720><c> the</c><00:03:18.959><c> second</c>
+
+00:03:19.430 --> 00:03:19.440 align:start position:0%
+instructions that we had in the second
+ 
+
+00:03:19.440 --> 00:03:21.589 align:start position:0%
+instructions that we had in the second
+cycle<00:03:19.840><c> we</c><00:03:19.920><c> can</c><00:03:20.080><c> do</c><00:03:20.239><c> this</c><00:03:20.560><c> because</c><00:03:21.120><c> these</c><00:03:21.360><c> two</c>
+
+00:03:21.589 --> 00:03:21.599 align:start position:0%
+cycle we can do this because these two
+ 
+
+00:03:21.599 --> 00:03:23.589 align:start position:0%
+cycle we can do this because these two
+complete<00:03:22.000><c> in</c><00:03:22.080><c> the</c><00:03:22.159><c> first</c><00:03:22.400><c> cycle</c>
+
+00:03:23.589 --> 00:03:23.599 align:start position:0%
+complete in the first cycle
+ 
+
+00:03:23.599 --> 00:03:26.229 align:start position:0%
+complete in the first cycle
+we<00:03:23.760><c> can</c><00:03:24.000><c> do</c><00:03:24.239><c> this</c><00:03:25.040><c> because</c><00:03:25.360><c> it</c><00:03:25.519><c> only</c><00:03:25.760><c> waits</c><00:03:26.080><c> for</c>
+
+00:03:26.229 --> 00:03:26.239 align:start position:0%
+we can do this because it only waits for
+ 
+
+00:03:26.239 --> 00:03:28.710 align:start position:0%
+we can do this because it only waits for
+this<00:03:26.480><c> and</c><00:03:26.640><c> that's</c><00:03:26.879><c> been</c><00:03:27.040><c> done</c><00:03:27.760><c> and</c><00:03:28.080><c> finally</c><00:03:28.640><c> in</c>
+
+00:03:28.710 --> 00:03:28.720 align:start position:0%
+this and that's been done and finally in
+ 
+
+00:03:28.720 --> 00:03:30.470 align:start position:0%
+this and that's been done and finally in
+the<00:03:28.959><c> third</c><00:03:29.280><c> cycle</c><00:03:29.599><c> we</c><00:03:29.760><c> have</c><00:03:29.920><c> to</c><00:03:30.080><c> do</c><00:03:30.239><c> this</c>
+
+00:03:30.470 --> 00:03:30.480 align:start position:0%
+the third cycle we have to do this
+ 
+
+00:03:30.480 --> 00:03:32.229 align:start position:0%
+the third cycle we have to do this
+because<00:03:30.799><c> it</c><00:03:30.959><c> has</c><00:03:31.120><c> to</c><00:03:31.280><c> wait</c><00:03:31.519><c> for</c><00:03:31.680><c> the</c><00:03:31.840><c> results</c>
+
+00:03:32.229 --> 00:03:32.239 align:start position:0%
+because it has to wait for the results
+ 
+
+00:03:32.239 --> 00:03:34.390 align:start position:0%
+because it has to wait for the results
+of<00:03:32.319><c> the</c><00:03:32.400><c> second</c><00:03:32.799><c> cycle</c><00:03:33.280><c> so</c><00:03:33.440><c> we</c><00:03:33.599><c> have</c><00:03:33.760><c> completed</c>
+
+00:03:34.390 --> 00:03:34.400 align:start position:0%
+of the second cycle so we have completed
+ 
+
+00:03:34.400 --> 00:03:37.750 align:start position:0%
+of the second cycle so we have completed
+our<00:03:34.560><c> six</c><00:03:34.879><c> instructions</c><00:03:36.080><c> now</c><00:03:36.400><c> in</c><00:03:36.720><c> three</c><00:03:37.120><c> cycles</c>
+
+00:03:37.750 --> 00:03:37.760 align:start position:0%
+our six instructions now in three cycles
+ 
+
+00:03:37.760 --> 00:03:40.789 align:start position:0%
+our six instructions now in three cycles
+and<00:03:38.000><c> we</c><00:03:38.159><c> got</c><00:03:38.400><c> an</c><00:03:38.640><c> ilp</c><00:03:39.120><c> of</c><00:03:39.280><c> two</c><00:03:39.760><c> which</c><00:03:40.000><c> is</c><00:03:40.400><c> twice</c>
+
+00:03:40.789 --> 00:03:40.799 align:start position:0%
+and we got an ilp of two which is twice
+ 
+
+00:03:40.799 --> 00:03:43.270 align:start position:0%
+and we got an ilp of two which is twice
+as<00:03:40.959><c> good</c><00:03:41.440><c> as</c><00:03:41.680><c> we</c><00:03:41.840><c> had</c><00:03:42.239><c> before</c><00:03:42.879><c> the</c><00:03:43.040><c> three</c>
+
+00:03:43.270 --> 00:03:43.280 align:start position:0%
+as good as we had before the three
+ 
+
+00:03:43.280 --> 00:03:46.400 align:start position:0%
+as good as we had before the three
+height<00:03:43.519><c> reduction</c>
+

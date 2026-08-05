@@ -1,0 +1,152 @@
+1
+00:00:00,280 --> 00:00:03,490
+ Your next task is to understand how to implement a graph algorithm in
+
+2
+00:00:03,490 --> 00:00:05,470
+ the language of linear algebra.
+
+3
+00:00:05,470 --> 00:00:08,380
+ Once you've got the hang of that, you'll be ready to go distributed.
+
+4
+00:00:08,380 --> 00:00:10,870
+ Go distributed!
+
+5
+00:00:10,870 --> 00:00:11,850
+ Yay!
+
+6
+00:00:11,850 --> 00:00:15,470
+ Let's start with a level synchronous variant of BFS.
+
+7
+00:00:15,470 --> 00:00:19,550
+ BFS, not an acronym for best friends sometimes.
+
+8
+00:00:19,550 --> 00:00:20,815
+ Recall the setup.
+
+9
+00:00:20,815 --> 00:00:23,680
+ We're given a graph G of vertices and edges.
+
+10
+00:00:23,680 --> 00:00:26,940
+ And you're also given a start or source vertex S.
+
+11
+00:00:26,940 --> 00:00:31,190
+ What you want to compute is the minimum distance of every vertex from S.
+
+12
+00:00:31,190 --> 00:00:33,750
+ For example, suppose S equal zero.
+
+13
+00:00:33,750 --> 00:00:37,170
+ Initially S is a distance of 0 away from itself.
+
+14
+00:00:37,170 --> 00:00:39,650
+ So I've labeled S with its starting distance and
+
+15
+00:00:39,650 --> 00:00:42,190
+ I've put an entry in the distance vector.
+
+16
+00:00:42,190 --> 00:00:46,550
+ All the other vertices which are unvisited start infinitely far away.
+
+17
+00:00:46,550 --> 00:00:49,480
+ The level-synchronous algorithm processes one level at a time
+
+18
+00:00:49,480 --> 00:00:50,590
+ starting at level 0.
+
+19
+00:00:50,590 --> 00:00:54,550
+ Now for any given l, there's a frontier.
+
+20
+00:00:54,550 --> 00:00:58,290
+ The frontier consists of all unvisited vertices which are a distance
+
+21
+00:00:58,290 --> 00:01:00,020
+ l away from the source.
+
+22
+00:01:00,020 --> 00:01:04,160
+ In this case, level 0 contains just the source vertex 0.
+
+23
+00:01:04,160 --> 00:01:09,170
+ Processing the level means visiting all of the frontiers unvisited neighbors,
+
+24
+00:01:09,170 --> 00:01:11,320
+ in this case the neighbors are 1 and 5.
+
+25
+00:01:11,320 --> 00:01:15,850
+ We can update their distances with the current distance plus 1.
+
+26
+00:01:15,850 --> 00:01:21,490
+ These previously unvisited neighbors now become the frontier at the next level.
+
+27
+00:01:21,490 --> 00:01:24,710
+ You've just lathered and rinsed, so now repeat.
+
+28
+00:01:24,710 --> 00:01:29,140
+ Look at all the unvisited neighbors of 1 and 5, which are 2 and 6.
+
+29
+00:01:29,140 --> 00:01:32,140
+ Update their distances to 1 plus 1 or 2.
+
+30
+00:01:32,140 --> 00:01:35,220
+ Now 2 and 6 become the new frontier.
+
+31
+00:01:35,220 --> 00:01:39,510
+ Update the next set of unvisited neighbors which are 3, 7 and 8.
+
+32
+00:01:39,510 --> 00:01:43,850
+ Then they become the new frontier and, in this example, just once more.
+
+33
+00:01:43,850 --> 00:01:46,210
+ So, what's the cost of this procedure?
+
+34
+00:01:46,210 --> 00:01:48,390
+ Let's consider just the sequential case.
+
+35
+00:01:48,390 --> 00:01:52,020
+ Suppose there are n vertices and m edges.
+
+36
+00:01:52,020 --> 00:01:56,270
+ Then the sequential running time will turn out to be big O of m plus n.
+
+37
+00:01:56,270 --> 00:01:59,370
+ That's because you might, in the worst case, visit every edge once or
+
+38
+00:01:59,370 --> 00:01:59,370
+ every node at least once.
+

@@ -1,0 +1,52 @@
+1
+00:00:00,250 --> 00:00:02,040
+ Here are the answers.
+
+2
+00:00:02,040 --> 00:00:05,840
+ This first sum is over all i, j where i is not equal to j.
+
+3
+00:00:05,840 --> 00:00:11,059
+ So these are off diagonals, and I'm asking for the vertices that live in V+.
+
+4
+00:00:11,059 --> 00:00:15,320
+ Since it's a sum over off diagonals, lij will be -1.
+
+5
+00:00:15,320 --> 00:00:20,570
+ And since all the vertices live in V plus, Xi and Xj both will be one.
+
+6
+00:00:20,570 --> 00:00:23,740
+ So this whole thing basically counts the number of edges
+
+7
+00:00:23,740 --> 00:00:26,610
+ wholly contained within V plus.
+
+8
+00:00:26,610 --> 00:00:28,620
+ And it counts them twice.
+
+9
+00:00:28,620 --> 00:00:30,780
+ And it's also negative.
+
+10
+00:00:30,780 --> 00:00:36,780
+ In other words this thing is minus two times the number of edges in V+.
+
+11
+00:00:36,780 --> 00:00:39,770
+ So if you repeat this reasoning for all of these sums and
+
+12
+00:00:39,770 --> 00:00:44,030
+ you combine all the sums together, you should be able to see how this product
+
+13
+00:00:44,030 --> 00:00:44,030
+ is basically four times the number of cut edges.
+

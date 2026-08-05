@@ -1,0 +1,52 @@
+1
+00:00:00,480 --> 00:00:05,025
+ Let me give you one way to implement a par.for using only spawn and sync.
+
+2
+00:00:05,025 --> 00:00:09,149
+ It's a regular, sequential for loop that goes from 1 to n.
+
+3
+00:00:09,149 --> 00:00:11,454
+ And each iteration does a spawn.
+
+4
+00:00:11,454 --> 00:00:13,484
+ And finally, since we need an implicit sync,
+
+5
+00:00:13,484 --> 00:00:16,610
+ I'll stick a sync immediately after the for loop.
+
+6
+00:00:16,610 --> 00:00:17,550
+ So for this question,
+
+7
+00:00:17,550 --> 00:00:22,900
+ again I want you to assume that the cost of calling foo is a constant.
+
+8
+00:00:22,900 --> 00:00:25,180
+ Then the question is, what's the span?
+
+9
+00:00:25,180 --> 00:00:26,180
+ Is it constant?
+
+10
+00:00:26,180 --> 00:00:27,270
+ Log n?
+
+11
+00:00:27,270 --> 00:00:28,040
+ Linear?
+
+12
+00:00:28,040 --> 00:00:29,300
+ N log n?
+
+13
+00:00:29,300 --> 00:00:29,300
+ Choose one.
+

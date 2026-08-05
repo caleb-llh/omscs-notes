@@ -1,0 +1,72 @@
+1
+00:00:00,260 --> 00:00:03,320
+ Remember our shortcut for constructing a graph laplacian.
+
+2
+00:00:03,320 --> 00:00:06,610
+ Along the diagonal, we'll fill in the degrees of all the vertices.
+
+3
+00:00:06,610 --> 00:00:10,510
+ So for instance, vertex 5 has a degree of 3.
+
+4
+00:00:10,510 --> 00:00:13,625
+ As for the off diagonals, they'll just mark all the edges.
+
+5
+00:00:13,625 --> 00:00:17,415
+ For instance, 5 is connected to 2, 4, and 8.
+
+6
+00:00:17,415 --> 00:00:22,695
+ So if you look at a graph laplacian, you'll see -1 entries at 2, 4, and 8.
+
+7
+00:00:22,695 --> 00:00:26,576
+ By the way, as you'd expect, the motion of the system is wavy.
+
+8
+00:00:26,576 --> 00:00:29,116
+ [MUSIC]
+
+9
+00:00:29,116 --> 00:00:31,005
+ Whoa, groovy, baby.
+
+10
+00:00:31,005 --> 00:00:34,906
+ [MUSIC]
+
+11
+00:00:34,906 --> 00:00:38,360
+ I like to dream.
+
+12
+00:00:38,360 --> 00:00:43,318
+ Yes, yes, right between my sound machine.
+
+13
+00:00:43,318 --> 00:00:46,305
+ On a cloud of sound, I drift in the night.
+
+14
+00:00:46,305 --> 00:00:48,202
+ Any place it goes is right.
+
+15
+00:00:48,202 --> 00:00:52,306
+ Goes far, flies near, to the stars away from here.
+
+16
+00:00:52,306 --> 00:00:56,662
+ Well, you don't know what we can find.
+
+17
+00:00:56,662 --> 00:01:00,798
+ Why don't you come with me, little girl, on a magic carpet ride?
+
+18
+00:01:00,798 --> 00:01:00,798
+ Oh, you don't know what we can see.
+

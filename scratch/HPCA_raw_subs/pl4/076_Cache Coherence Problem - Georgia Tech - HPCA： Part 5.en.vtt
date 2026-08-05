@@ -1,0 +1,584 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.280 --> 00:00:02.110 align:start position:0%
+ 
+let<00:00:00.440><c> us</c><00:00:00.640><c> first</c><00:00:00.880><c> see</c><00:00:01.160><c> what</c><00:00:01.319><c> the</c><00:00:01.560><c> problem</c><00:00:01.920><c> is</c>
+
+00:00:02.110 --> 00:00:02.120 align:start position:0%
+let us first see what the problem is
+ 
+
+00:00:02.120 --> 00:00:04.550 align:start position:0%
+let us first see what the problem is
+with<00:00:02.360><c> cache</c><00:00:02.639><c> coherence</c><00:00:03.399><c> that</c><00:00:03.560><c> is</c><00:00:03.919><c> do</c><00:00:04.080><c> we</c><00:00:04.319><c> even</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+with cache coherence that is do we even
+ 
+
+00:00:04.560 --> 00:00:08.709 align:start position:0%
+with cache coherence that is do we even
+need<00:00:04.960><c> cache</c><00:00:05.600><c> coherence</c><00:00:06.600><c> our</c><00:00:07.360><c> programmer</c><00:00:08.360><c> is</c>
+
+00:00:08.709 --> 00:00:08.719 align:start position:0%
+need cache coherence our programmer is
+ 
+
+00:00:08.719 --> 00:00:11.709 align:start position:0%
+need cache coherence our programmer is
+expecting<00:00:09.240><c> to</c><00:00:09.400><c> see</c><00:00:09.679><c> shared</c><00:00:10.120><c> memory</c><00:00:10.719><c> behavior</c>
+
+00:00:11.709 --> 00:00:11.719 align:start position:0%
+expecting to see shared memory behavior
+ 
+
+00:00:11.719 --> 00:00:14.030 align:start position:0%
+expecting to see shared memory behavior
+that<00:00:11.920><c> means</c><00:00:12.280><c> that</c><00:00:12.480><c> when</c><00:00:12.719><c> one</c><00:00:13.040><c> core</c><00:00:13.519><c> writes</c>
+
+00:00:14.030 --> 00:00:14.040 align:start position:0%
+that means that when one core writes
+ 
+
+00:00:14.040 --> 00:00:16.590 align:start position:0%
+that means that when one core writes
+let's<00:00:14.200><c> say</c><00:00:14.440><c> 15</c><00:00:14.920><c> to</c><00:00:15.120><c> a</c><00:00:15.280><c> variable</c><00:00:16.199><c> and</c><00:00:16.359><c> then</c>
+
+00:00:16.590 --> 00:00:16.600 align:start position:0%
+let's say 15 to a variable and then
+ 
+
+00:00:16.600 --> 00:00:19.269 align:start position:0%
+let's say 15 to a variable and then
+another<00:00:17.080><c> core</c><00:00:17.400><c> reads</c><00:00:17.840><c> that</c><00:00:18.080><c> variable</c><00:00:18.880><c> it</c><00:00:19.000><c> will</c>
+
+00:00:19.269 --> 00:00:19.279 align:start position:0%
+another core reads that variable it will
+ 
+
+00:00:19.279 --> 00:00:23.269 align:start position:0%
+another core reads that variable it will
+read<00:00:20.279><c> what</c><00:00:21.080><c> the</c><00:00:21.240><c> last</c><00:00:21.680><c> right</c><00:00:22.039><c> put</c><00:00:22.400><c> there</c><00:00:23.160><c> this</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+read what the last right put there this
+ 
+
+00:00:23.279 --> 00:00:25.349 align:start position:0%
+read what the last right put there this
+is<00:00:23.480><c> how</c><00:00:23.760><c> cores</c><00:00:24.240><c> communicate</c><00:00:24.840><c> through</c><00:00:25.000><c> shared</c>
+
+00:00:25.349 --> 00:00:25.359 align:start position:0%
+is how cores communicate through shared
+ 
+
+00:00:25.359 --> 00:00:27.269 align:start position:0%
+is how cores communicate through shared
+memory<00:00:25.880><c> one</c><00:00:26.119><c> writes</c><00:00:26.439><c> something</c><00:00:26.720><c> to</c><00:00:26.880><c> a</c><00:00:27.000><c> shared</c>
+
+00:00:27.269 --> 00:00:27.279 align:start position:0%
+memory one writes something to a shared
+ 
+
+00:00:27.279 --> 00:00:29.550 align:start position:0%
+memory one writes something to a shared
+memory<00:00:27.640><c> address</c><00:00:28.160><c> another</c><00:00:28.519><c> one</c><00:00:28.720><c> reads</c><00:00:29.080><c> it</c><00:00:29.400><c> and</c>
+
+00:00:29.550 --> 00:00:29.560 align:start position:0%
+memory address another one reads it and
+ 
+
+00:00:29.560 --> 00:00:31.749 align:start position:0%
+memory address another one reads it and
+expects<00:00:30.000><c> to</c><00:00:30.160><c> see</c><00:00:30.400><c> the</c><00:00:30.640><c> data</c><00:00:31.000><c> that</c><00:00:31.160><c> was</c><00:00:31.320><c> written</c>
+
+00:00:31.749 --> 00:00:31.759 align:start position:0%
+expects to see the data that was written
+ 
+
+00:00:31.759 --> 00:00:34.790 align:start position:0%
+expects to see the data that was written
+there<00:00:32.399><c> but</c><00:00:32.599><c> in</c><00:00:32.719><c> our</c><00:00:33.120><c> Hardware</c><00:00:34.120><c> each</c><00:00:34.360><c> core</c><00:00:34.680><c> has</c>
+
+00:00:34.790 --> 00:00:34.800 align:start position:0%
+there but in our Hardware each core has
+ 
+
+00:00:34.800 --> 00:00:37.389 align:start position:0%
+there but in our Hardware each core has
+its<00:00:34.960><c> own</c><00:00:35.239><c> cache</c><00:00:36.079><c> and</c><00:00:36.239><c> we</c><00:00:36.399><c> need</c><00:00:36.680><c> cores</c><00:00:37.040><c> to</c><00:00:37.239><c> have</c>
+
+00:00:37.389 --> 00:00:37.399 align:start position:0%
+its own cache and we need cores to have
+ 
+
+00:00:37.399 --> 00:00:39.270 align:start position:0%
+its own cache and we need cores to have
+their<00:00:37.559><c> own</c><00:00:37.760><c> caches</c><00:00:38.280><c> at</c><00:00:38.440><c> least</c><00:00:38.680><c> in</c><00:00:38.840><c> the</c><00:00:39.000><c> level</c>
+
+00:00:39.270 --> 00:00:39.280 align:start position:0%
+their own caches at least in the level
+ 
+
+00:00:39.280 --> 00:00:41.910 align:start position:0%
+their own caches at least in the level
+one<00:00:40.079><c> because</c><00:00:40.440><c> a</c><00:00:40.640><c> single</c><00:00:41.000><c> large</c><00:00:41.360><c> level</c><00:00:41.600><c> one</c>
+
+00:00:41.910 --> 00:00:41.920 align:start position:0%
+one because a single large level one
+ 
+
+00:00:41.920 --> 00:00:45.270 align:start position:0%
+one because a single large level one
+cache<00:00:42.800><c> would</c><00:00:43.000><c> be</c><00:00:43.200><c> too</c><00:00:43.600><c> slow</c><00:00:44.600><c> and</c><00:00:44.800><c> would</c><00:00:45.000><c> not</c>
+
+00:00:45.270 --> 00:00:45.280 align:start position:0%
+cache would be too slow and would not
+ 
+
+00:00:45.280 --> 00:00:47.630 align:start position:0%
+cache would be too slow and would not
+have<00:00:45.480><c> enough</c><00:00:45.760><c> trut</c><00:00:46.559><c> to</c><00:00:46.840><c> keep</c><00:00:47.120><c> up</c><00:00:47.360><c> with</c><00:00:47.480><c> the</c>
+
+00:00:47.630 --> 00:00:47.640 align:start position:0%
+have enough trut to keep up with the
+ 
+
+00:00:47.640 --> 00:00:50.510 align:start position:0%
+have enough trut to keep up with the
+request<00:00:48.079><c> from</c><00:00:48.320><c> all</c><00:00:48.520><c> of</c><00:00:48.680><c> the</c><00:00:48.840><c> cores</c><00:00:49.800><c> so</c><00:00:50.079><c> because</c>
+
+00:00:50.510 --> 00:00:50.520 align:start position:0%
+request from all of the cores so because
+ 
+
+00:00:50.520 --> 00:00:54.029 align:start position:0%
+request from all of the cores so because
+we<00:00:50.680><c> cannot</c><00:00:51.079><c> do</c><00:00:51.480><c> this</c><00:00:52.480><c> we</c><00:00:52.680><c> have</c><00:00:53.000><c> private</c><00:00:53.399><c> or</c><00:00:53.680><c> per</c>
+
+00:00:54.029 --> 00:00:54.039 align:start position:0%
+we cannot do this we have private or per
+ 
+
+00:00:54.039 --> 00:00:58.110 align:start position:0%
+we cannot do this we have private or per
+core<00:00:54.760><c> L1</c><00:00:55.280><c> caches</c><00:00:55.800><c> so</c><00:00:56.000><c> each</c><00:00:56.199><c> core</c><00:00:56.559><c> has</c><00:00:56.760><c> its</c><00:00:57.120><c> own</c>
+
+00:00:58.110 --> 00:00:58.120 align:start position:0%
+core L1 caches so each core has its own
+ 
+
+00:00:58.120 --> 00:01:00.029 align:start position:0%
+core L1 caches so each core has its own
+however<00:00:58.480><c> once</c><00:00:58.680><c> you</c><00:00:58.960><c> have</c><00:00:59.239><c> this</c><00:00:59.480><c> private</c>
+
+00:01:00.029 --> 00:01:00.039 align:start position:0%
+however once you have this private
+ 
+
+00:01:00.039 --> 00:01:02.910 align:start position:0%
+however once you have this private
+caches<00:01:00.600><c> here</c><00:01:00.760><c> is</c><00:01:01.000><c> what</c><00:01:01.160><c> can</c><00:01:01.440><c> happen</c><00:01:02.320><c> this</c><00:01:02.480><c> is</c>
+
+00:01:02.910 --> 00:01:02.920 align:start position:0%
+caches here is what can happen this is
+ 
+
+00:01:02.920 --> 00:01:05.670 align:start position:0%
+caches here is what can happen this is
+the<00:01:03.079><c> core</c><00:01:03.440><c> a</c><00:01:04.280><c> with</c><00:01:04.439><c> a</c><00:01:04.600><c> level</c><00:01:04.879><c> one</c><00:01:05.199><c> cache</c><00:01:05.439><c> for</c>
+
+00:01:05.670 --> 00:01:05.680 align:start position:0%
+the core a with a level one cache for
+ 
+
+00:01:05.680 --> 00:01:09.070 align:start position:0%
+the core a with a level one cache for
+core<00:01:06.000><c> a</c><00:01:06.760><c> this</c><00:01:06.920><c> is</c><00:01:07.159><c> core</c><00:01:07.479><c> B</c><00:01:08.240><c> and</c><00:01:08.360><c> it</c><00:01:08.520><c> has</c><00:01:08.680><c> its</c><00:01:08.840><c> own</c>
+
+00:01:09.070 --> 00:01:09.080 align:start position:0%
+core a this is core B and it has its own
+ 
+
+00:01:09.080 --> 00:01:11.670 align:start position:0%
+core a this is core B and it has its own
+level<00:01:09.360><c> one</c><00:01:09.720><c> cache</c><00:01:10.600><c> so</c><00:01:10.799><c> we</c><00:01:10.960><c> said</c><00:01:11.280><c> that</c><00:01:11.479><c> let's</c>
+
+00:01:11.670 --> 00:01:11.680 align:start position:0%
+level one cache so we said that let's
+ 
+
+00:01:11.680 --> 00:01:15.429 align:start position:0%
+level one cache so we said that let's
+say<00:01:11.920><c> core</c><00:01:12.240><c> a</c><00:01:12.560><c> writes</c><00:01:13.200><c> xal</c><00:01:13.960><c> 15</c><00:01:14.799><c> suppose</c><00:01:15.200><c> this</c><00:01:15.320><c> is</c>
+
+00:01:15.429 --> 00:01:15.439 align:start position:0%
+say core a writes xal 15 suppose this is
+ 
+
+00:01:15.439 --> 00:01:18.270 align:start position:0%
+say core a writes xal 15 suppose this is
+a<00:01:15.640><c> cach</c><00:01:15.960><c> Miss</c><00:01:16.600><c> we</c><00:01:16.759><c> use</c><00:01:17.000><c> the</c><00:01:17.159><c> address</c><00:01:17.520><c> of</c><00:01:17.759><c> x</c><00:01:18.040><c> to</c>
+
+00:01:18.270 --> 00:01:18.280 align:start position:0%
+a cach Miss we use the address of x to
+ 
+
+00:01:18.280 --> 00:01:20.350 align:start position:0%
+a cach Miss we use the address of x to
+index<00:01:18.680><c> into</c><00:01:18.920><c> our</c><00:01:19.200><c> cache</c><00:01:19.600><c> check</c><00:01:19.880><c> the</c><00:01:20.040><c> tag</c>
+
+00:01:20.350 --> 00:01:20.360 align:start position:0%
+index into our cache check the tag
+ 
+
+00:01:20.360 --> 00:01:22.670 align:start position:0%
+index into our cache check the tag
+whether<00:01:20.560><c> it</c><00:01:20.720><c> corresponds</c><00:01:21.280><c> to</c><00:01:21.520><c> X</c><00:01:22.200><c> and</c><00:01:22.360><c> then</c><00:01:22.520><c> if</c>
+
+00:01:22.670 --> 00:01:22.680 align:start position:0%
+whether it corresponds to X and then if
+ 
+
+00:01:22.680 --> 00:01:24.950 align:start position:0%
+whether it corresponds to X and then if
+this<00:01:22.799><c> is</c><00:01:22.920><c> a</c><00:01:23.119><c> cach</c><00:01:23.360><c> Miss</c><00:01:24.040><c> we</c><00:01:24.200><c> go</c><00:01:24.360><c> to</c><00:01:24.520><c> our</c><00:01:24.680><c> main</c>
+
+00:01:24.950 --> 00:01:24.960 align:start position:0%
+this is a cach Miss we go to our main
+ 
+
+00:01:24.960 --> 00:01:26.950 align:start position:0%
+this is a cach Miss we go to our main
+memory<00:01:25.439><c> and</c><00:01:25.600><c> fetch</c><00:01:25.960><c> the</c><00:01:26.119><c> whole</c><00:01:26.360><c> block</c><00:01:26.680><c> into</c>
+
+00:01:26.950 --> 00:01:26.960 align:start position:0%
+memory and fetch the whole block into
+ 
+
+00:01:26.960 --> 00:01:29.749 align:start position:0%
+memory and fetch the whole block into
+our<00:01:27.200><c> cache</c><00:01:28.200><c> let's</c><00:01:28.400><c> say</c><00:01:28.640><c> that</c><00:01:28.799><c> in</c><00:01:29.000><c> this</c><00:01:29.159><c> block</c><00:01:29.479><c> X</c>
+
+00:01:29.749 --> 00:01:29.759 align:start position:0%
+our cache let's say that in this block X
+ 
+
+00:01:29.759 --> 00:01:32.749 align:start position:0%
+our cache let's say that in this block X
+is<00:01:29.960><c> is</c><00:01:30.520><c> zero</c><00:01:31.320><c> once</c><00:01:31.560><c> we</c><00:01:31.759><c> fetch</c><00:01:32.119><c> it</c><00:01:32.280><c> into</c><00:01:32.520><c> our</c>
+
+00:01:32.749 --> 00:01:32.759 align:start position:0%
+is is zero once we fetch it into our
+ 
+
+00:01:32.759 --> 00:01:36.670 align:start position:0%
+is is zero once we fetch it into our
+cache<00:01:33.640><c> we</c><00:01:33.880><c> write</c><00:01:34.240><c> our</c><00:01:34.520><c> 15</c><00:01:35.079><c> here</c><00:01:36.000><c> so</c><00:01:36.280><c> now</c><00:01:36.520><c> we</c>
+
+00:01:36.670 --> 00:01:36.680 align:start position:0%
+cache we write our 15 here so now we
+ 
+
+00:01:36.680 --> 00:01:39.830 align:start position:0%
+cache we write our 15 here so now we
+have<00:01:36.880><c> a</c><00:01:37.079><c> 15</c><00:01:37.439><c> in</c><00:01:37.600><c> our</c><00:01:37.880><c> cach</c><00:01:38.280><c> here</c><00:01:39.200><c> now</c><00:01:39.439><c> let's</c><00:01:39.640><c> say</c>
+
+00:01:39.830 --> 00:01:39.840 align:start position:0%
+have a 15 in our cach here now let's say
+ 
+
+00:01:39.840 --> 00:01:42.389 align:start position:0%
+have a 15 in our cach here now let's say
+that<00:01:40.000><c> core</c><00:01:40.320><c> B</c><00:01:40.759><c> wants</c><00:01:41.000><c> to</c><00:01:41.159><c> read</c><00:01:41.479><c> X</c><00:01:41.920><c> so</c><00:01:42.079><c> it</c><00:01:42.200><c> wants</c>
+
+00:01:42.389 --> 00:01:42.399 align:start position:0%
+that core B wants to read X so it wants
+ 
+
+00:01:42.399 --> 00:01:45.270 align:start position:0%
+that core B wants to read X so it wants
+to<00:01:42.520><c> see</c><00:01:42.759><c> what</c><00:01:42.920><c> x</c><00:01:43.200><c> is</c><00:01:43.840><c> it</c><00:01:44.040><c> uses</c><00:01:44.560><c> the</c><00:01:44.719><c> address</c><00:01:45.040><c> of</c>
+
+00:01:45.270 --> 00:01:45.280 align:start position:0%
+to see what x is it uses the address of
+ 
+
+00:01:45.280 --> 00:01:48.749 align:start position:0%
+to see what x is it uses the address of
+x<00:01:45.600><c> to</c><00:01:45.920><c> index</c><00:01:46.479><c> into</c><00:01:46.799><c> its</c><00:01:47.000><c> own</c><00:01:47.399><c> cache</c><00:01:48.119><c> sees</c><00:01:48.520><c> that</c>
+
+00:01:48.749 --> 00:01:48.759 align:start position:0%
+x to index into its own cache sees that
+ 
+
+00:01:48.759 --> 00:01:50.590 align:start position:0%
+x to index into its own cache sees that
+it<00:01:48.920><c> doesn't</c><00:01:49.360><c> have</c><00:01:49.640><c> what</c><00:01:49.759><c> it's</c><00:01:49.920><c> looking</c><00:01:50.200><c> for</c>
+
+00:01:50.590 --> 00:01:50.600 align:start position:0%
+it doesn't have what it's looking for
+ 
+
+00:01:50.600 --> 00:01:53.670 align:start position:0%
+it doesn't have what it's looking for
+there<00:01:51.360><c> and</c><00:01:51.759><c> reads</c><00:01:52.680><c> the</c><00:01:52.840><c> block</c><00:01:53.119><c> from</c><00:01:53.360><c> Main</c>
+
+00:01:53.670 --> 00:01:53.680 align:start position:0%
+there and reads the block from Main
+ 
+
+00:01:53.680 --> 00:01:56.830 align:start position:0%
+there and reads the block from Main
+memory<00:01:54.680><c> this</c><00:01:54.840><c> block</c><00:01:55.200><c> here</c><00:01:55.439><c> has</c><00:01:55.960><c> zero</c><00:01:56.320><c> forx</c>
+
+00:01:56.830 --> 00:01:56.840 align:start position:0%
+memory this block here has zero forx
+ 
+
+00:01:56.840 --> 00:01:59.149 align:start position:0%
+memory this block here has zero forx
+still<00:01:57.520><c> because</c><00:01:57.880><c> we</c><00:01:58.000><c> didn't</c><00:01:58.320><c> write</c><00:01:58.680><c> back</c><00:01:58.960><c> from</c>
+
+00:01:59.149 --> 00:01:59.159 align:start position:0%
+still because we didn't write back from
+ 
+
+00:01:59.159 --> 00:02:03.510 align:start position:0%
+still because we didn't write back from
+a<00:01:59.560><c> cach</c><00:02:00.039><c> yet</c><00:02:00.520><c> so</c><00:02:00.759><c> we</c><00:02:00.920><c> end</c><00:02:01.200><c> up</c><00:02:01.880><c> reading</c><00:02:02.520><c> zero</c>
+
+00:02:03.510 --> 00:02:03.520 align:start position:0%
+a cach yet so we end up reading zero
+ 
+
+00:02:03.520 --> 00:02:05.709 align:start position:0%
+a cach yet so we end up reading zero
+which<00:02:03.680><c> is</c><00:02:03.880><c> not</c><00:02:04.240><c> correct</c><00:02:04.960><c> and</c><00:02:05.079><c> know</c><00:02:05.320><c> that</c><00:02:05.560><c> this</c>
+
+00:02:05.709 --> 00:02:05.719 align:start position:0%
+which is not correct and know that this
+ 
+
+00:02:05.719 --> 00:02:08.109 align:start position:0%
+which is not correct and know that this
+doesn't<00:02:06.119><c> occur</c><00:02:06.520><c> only</c><00:02:07.079><c> the</c><00:02:07.240><c> first</c><00:02:07.560><c> time</c><00:02:07.960><c> when</c>
+
+00:02:08.109 --> 00:02:08.119 align:start position:0%
+doesn't occur only the first time when
+ 
+
+00:02:08.119 --> 00:02:11.309 align:start position:0%
+doesn't occur only the first time when
+we<00:02:08.239><c> have</c><00:02:08.399><c> a</c><00:02:08.560><c> cache</c><00:02:08.840><c> Miss</c><00:02:09.599><c> from</c><00:02:09.879><c> now</c><00:02:10.080><c> on</c><00:02:10.759><c> a</c><00:02:11.039><c> can</c>
+
+00:02:11.309 --> 00:02:11.319 align:start position:0%
+we have a cache Miss from now on a can
+ 
+
+00:02:11.319 --> 00:02:14.910 align:start position:0%
+we have a cache Miss from now on a can
+write<00:02:12.160><c> to</c><00:02:12.440><c> its</c><00:02:12.599><c> own</c><00:02:12.840><c> L1</c><00:02:13.440><c> cache</c><00:02:13.800><c> many</c><00:02:14.080><c> many</c>
+
+00:02:14.910 --> 00:02:14.920 align:start position:0%
+write to its own L1 cache many many
+ 
+
+00:02:14.920 --> 00:02:18.030 align:start position:0%
+write to its own L1 cache many many
+times<00:02:15.920><c> B</c><00:02:16.200><c> can</c><00:02:16.400><c> read</c><00:02:16.760><c> from</c><00:02:17.000><c> its</c><00:02:17.160><c> own</c><00:02:17.440><c> cache</c><00:02:17.720><c> many</c>
+
+00:02:18.030 --> 00:02:18.040 align:start position:0%
+times B can read from its own cache many
+ 
+
+00:02:18.040 --> 00:02:21.830 align:start position:0%
+times B can read from its own cache many
+many<00:02:18.720><c> times</c><00:02:19.720><c> a</c><00:02:20.000><c> will</c><00:02:20.360><c> keep</c><00:02:20.920><c> writing</c><00:02:21.360><c> to</c><00:02:21.560><c> its</c>
+
+00:02:21.830 --> 00:02:21.840 align:start position:0%
+many times a will keep writing to its
+ 
+
+00:02:21.840 --> 00:02:24.910 align:start position:0%
+many times a will keep writing to its
+cache<00:02:22.080><c> and</c><00:02:22.280><c> not</c><00:02:22.519><c> updating</c><00:02:23.040><c> memory</c><00:02:24.040><c> B</c><00:02:24.640><c> will</c>
+
+00:02:24.910 --> 00:02:24.920 align:start position:0%
+cache and not updating memory B will
+ 
+
+00:02:24.920 --> 00:02:26.589 align:start position:0%
+cache and not updating memory B will
+keep<00:02:25.120><c> reading</c><00:02:25.560><c> from</c><00:02:25.760><c> its</c><00:02:26.000><c> cache</c><00:02:26.280><c> and</c><00:02:26.440><c> not</c>
+
+00:02:26.589 --> 00:02:26.599 align:start position:0%
+keep reading from its cache and not
+ 
+
+00:02:26.599 --> 00:02:28.830 align:start position:0%
+keep reading from its cache and not
+checking<00:02:27.040><c> back</c><00:02:27.480><c> from</c><00:02:27.720><c> memory</c><00:02:28.280><c> because</c><00:02:28.680><c> once</c>
+
+00:02:28.830 --> 00:02:28.840 align:start position:0%
+checking back from memory because once
+ 
+
+00:02:28.840 --> 00:02:30.470 align:start position:0%
+checking back from memory because once
+we<00:02:29.000><c> bring</c><00:02:29.239><c> it</c><00:02:29.360><c> into</c><00:02:29.560><c> the</c><00:02:29.680><c> cash</c><00:02:30.040><c> is</c><00:02:30.120><c> going</c><00:02:30.239><c> to</c><00:02:30.360><c> be</c>
+
+00:02:30.470 --> 00:02:30.480 align:start position:0%
+we bring it into the cash is going to be
+ 
+
+00:02:30.480 --> 00:02:32.949 align:start position:0%
+we bring it into the cash is going to be
+a<00:02:30.640><c> hit</c><00:02:31.200><c> B</c><00:02:31.400><c> is</c><00:02:31.560><c> never</c><00:02:31.879><c> modifying</c><00:02:32.440><c> it</c><00:02:32.680><c> it's</c>
+
+00:02:32.949 --> 00:02:32.959 align:start position:0%
+a hit B is never modifying it it's
+ 
+
+00:02:32.959 --> 00:02:35.229 align:start position:0%
+a hit B is never modifying it it's
+always<00:02:33.319><c> going</c><00:02:33.519><c> to</c><00:02:33.680><c> read</c><00:02:33.959><c> zero</c><00:02:34.400><c> no</c><00:02:34.640><c> matter</c><00:02:35.080><c> how</c>
+
+00:02:35.229 --> 00:02:35.239 align:start position:0%
+always going to read zero no matter how
+ 
+
+00:02:35.239 --> 00:02:37.670 align:start position:0%
+always going to read zero no matter how
+many<00:02:35.519><c> times</c><00:02:35.800><c> a</c><00:02:36.040><c> writes</c><00:02:36.360><c> 15</c><00:02:36.760><c> or</c><00:02:36.959><c> something</c><00:02:37.319><c> else</c>
+
+00:02:37.670 --> 00:02:37.680 align:start position:0%
+many times a writes 15 or something else
+ 
+
+00:02:37.680 --> 00:02:40.630 align:start position:0%
+many times a writes 15 or something else
+here<00:02:38.200><c> so</c><00:02:38.519><c> obviously</c><00:02:39.400><c> we</c><00:02:39.519><c> are</c><00:02:39.760><c> not</c><00:02:40.080><c> getting</c><00:02:40.440><c> the</c>
+
+00:02:40.630 --> 00:02:40.640 align:start position:0%
+here so obviously we are not getting the
+ 
+
+00:02:40.640 --> 00:02:43.350 align:start position:0%
+here so obviously we are not getting the
+communication<00:02:41.400><c> of</c><00:02:41.640><c> data</c><00:02:41.959><c> we</c><00:02:42.120><c> want</c><00:02:42.560><c> from</c><00:02:42.920><c> A's</c>
+
+00:02:43.350 --> 00:02:43.360 align:start position:0%
+communication of data we want from A's
+ 
+
+00:02:43.360 --> 00:02:46.589 align:start position:0%
+communication of data we want from A's
+rights<00:02:43.879><c> to</c><00:02:44.120><c> B's</c><00:02:44.440><c> reads</c><00:02:45.280><c> and</c><00:02:45.519><c> thus</c><00:02:46.040><c> our</c><00:02:46.200><c> shared</c>
+
+00:02:46.589 --> 00:02:46.599 align:start position:0%
+rights to B's reads and thus our shared
+ 
+
+00:02:46.599 --> 00:02:49.030 align:start position:0%
+rights to B's reads and thus our shared
+memory<00:02:47.000><c> doesn't</c><00:02:47.360><c> work</c><00:02:48.120><c> when</c><00:02:48.280><c> we</c><00:02:48.480><c> get</c><00:02:48.760><c> in</c><00:02:48.879><c> a</c>
+
+00:02:49.030 --> 00:02:49.040 align:start position:0%
+memory doesn't work when we get in a
+ 
+
+00:02:49.040 --> 00:02:51.550 align:start position:0%
+memory doesn't work when we get in a
+shared<00:02:49.400><c> memory</c><00:02:49.760><c> system</c><00:02:50.200><c> Behavior</c><00:02:50.720><c> like</c><00:02:50.959><c> this</c>
+
+00:02:51.550 --> 00:02:51.560 align:start position:0%
+shared memory system Behavior like this
+ 
+
+00:02:51.560 --> 00:02:54.030 align:start position:0%
+shared memory system Behavior like this
+we<00:02:51.760><c> say</c><00:02:52.159><c> that</c><00:02:52.360><c> it</c><00:02:52.519><c> is</c>
+
+00:02:54.030 --> 00:02:54.040 align:start position:0%
+we say that it is
+ 
+
+00:02:54.040 --> 00:02:57.430 align:start position:0%
+we say that it is
+incoherent<00:02:55.040><c> the</c><00:02:55.239><c> same</c><00:02:55.519><c> memory</c><00:02:56.280><c> location</c><00:02:57.280><c> as</c>
+
+00:02:57.430 --> 00:02:57.440 align:start position:0%
+incoherent the same memory location as
+ 
+
+00:02:57.440 --> 00:03:00.110 align:start position:0%
+incoherent the same memory location as
+seen<00:02:57.840><c> from</c><00:02:58.159><c> different</c><00:02:58.599><c> cores</c><00:02:59.480><c> can</c><00:02:59.680><c> have</c><00:02:59.879><c> have</c>
+
+00:03:00.110 --> 00:03:00.120 align:start position:0%
+seen from different cores can have have
+ 
+
+00:03:00.120 --> 00:03:02.790 align:start position:0%
+seen from different cores can have have
+different<00:03:00.720><c> values</c><00:03:01.720><c> which</c><00:03:01.879><c> is</c><00:03:02.159><c> not</c><00:03:02.640><c> what</c>
+
+00:03:02.790 --> 00:03:02.800 align:start position:0%
+different values which is not what
+ 
+
+00:03:02.800 --> 00:03:05.030 align:start position:0%
+different values which is not what
+should<00:03:03.000><c> be</c><00:03:03.239><c> happening</c><00:03:03.680><c> in</c><00:03:03.799><c> a</c><00:03:03.920><c> shared</c><00:03:04.280><c> memory</c>
+
+00:03:05.030 --> 00:03:05.040 align:start position:0%
+should be happening in a shared memory
+ 
+
+00:03:05.040 --> 00:03:09.309 align:start position:0%
+should be happening in a shared memory
+in<00:03:05.159><c> order</c><00:03:05.480><c> to</c><00:03:05.720><c> not</c><00:03:06.080><c> get</c><00:03:06.440><c> a</c><00:03:06.920><c> incoherent</c><00:03:08.319><c> system</c>
+
+00:03:09.309 --> 00:03:09.319 align:start position:0%
+in order to not get a incoherent system
+ 
+
+00:03:09.319 --> 00:03:12.070 align:start position:0%
+in order to not get a incoherent system
+we<00:03:09.480><c> need</c><00:03:10.159><c> an</c><00:03:10.480><c> active</c><00:03:10.959><c> approach</c><00:03:11.280><c> to</c><00:03:11.519><c> Cache</c>
+
+00:03:12.070 --> 00:03:12.080 align:start position:0%
+we need an active approach to Cache
+ 
+
+00:03:12.080 --> 00:03:14.670 align:start position:0%
+we need an active approach to Cache
+coherence<00:03:13.080><c> that</c><00:03:13.239><c> will</c><00:03:13.920><c> make</c><00:03:14.239><c> this</c><00:03:14.440><c> whole</c>
+
+00:03:14.670 --> 00:03:14.680 align:start position:0%
+coherence that will make this whole
+ 
+
+00:03:14.680 --> 00:03:17.110 align:start position:0%
+coherence that will make this whole
+thing<00:03:14.959><c> behave</c><00:03:15.400><c> as</c><00:03:15.519><c> a</c><00:03:15.680><c> single</c><00:03:16.080><c> memory</c><00:03:16.760><c> even</c>
+
+00:03:17.110 --> 00:03:17.120 align:start position:0%
+thing behave as a single memory even
+ 
+
+00:03:17.120 --> 00:03:19.149 align:start position:0%
+thing behave as a single memory even
+though<00:03:17.440><c> in</c><00:03:17.680><c> reality</c><00:03:18.239><c> there</c><00:03:18.360><c> are</c><00:03:18.599><c> multiple</c>
+
+00:03:19.149 --> 00:03:19.159 align:start position:0%
+though in reality there are multiple
+ 
+
+00:03:19.159 --> 00:03:23.480 align:start position:0%
+though in reality there are multiple
+copies<00:03:19.480><c> of</c><00:03:19.640><c> the</c><00:03:19.840><c> data</c><00:03:20.120><c> floating</c><00:03:20.599><c> around</c>
+

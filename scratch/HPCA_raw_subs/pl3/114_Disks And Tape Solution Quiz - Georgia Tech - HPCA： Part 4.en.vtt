@@ -1,0 +1,264 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.310 align:start position:0%
+ 
+let's<00:00:00.480><c> discuss</c><00:00:00.880><c> the</c><00:00:01.120><c> answer</c><00:00:01.520><c> to</c><00:00:01.680><c> our</c><00:00:01.839><c> disks</c>
+
+00:00:02.310 --> 00:00:02.320 align:start position:0%
+let's discuss the answer to our disks
+ 
+
+00:00:02.320 --> 00:00:03.590 align:start position:0%
+let's discuss the answer to our disks
+and<00:00:02.480><c> tape</c><00:00:02.800><c> quiz</c>
+
+00:00:03.590 --> 00:00:03.600 align:start position:0%
+and tape quiz
+ 
+
+00:00:03.600 --> 00:00:06.389 align:start position:0%
+and tape quiz
+tape<00:00:04.160><c> can</c><00:00:04.880><c> only</c><00:00:05.279><c> efficiently</c><00:00:05.839><c> support</c>
+
+00:00:06.389 --> 00:00:06.399 align:start position:0%
+tape can only efficiently support
+ 
+
+00:00:06.399 --> 00:00:08.790 align:start position:0%
+tape can only efficiently support
+sequential<00:00:07.040><c> accesses</c><00:00:08.080><c> we</c><00:00:08.160><c> are</c><00:00:08.320><c> reading</c><00:00:08.720><c> a</c>
+
+00:00:08.790 --> 00:00:08.800 align:start position:0%
+sequential accesses we are reading a
+ 
+
+00:00:08.800 --> 00:00:11.110 align:start position:0%
+sequential accesses we are reading a
+large<00:00:09.040><c> file</c><00:00:09.280><c> from</c><00:00:09.519><c> start</c><00:00:09.760><c> to</c><00:00:09.920><c> end</c><00:00:10.480><c> which</c><00:00:10.800><c> is</c><00:00:10.960><c> a</c>
+
+00:00:11.110 --> 00:00:11.120 align:start position:0%
+large file from start to end which is a
+ 
+
+00:00:11.120 --> 00:00:13.110 align:start position:0%
+large file from start to end which is a
+sequential<00:00:11.759><c> access</c><00:00:12.160><c> so</c><00:00:12.400><c> it's</c><00:00:12.559><c> okay</c><00:00:12.799><c> to</c><00:00:12.880><c> use</c>
+
+00:00:13.110 --> 00:00:13.120 align:start position:0%
+sequential access so it's okay to use
+ 
+
+00:00:13.120 --> 00:00:15.270 align:start position:0%
+sequential access so it's okay to use
+tape<00:00:13.759><c> however</c>
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+tape however
+ 
+
+00:00:15.280 --> 00:00:17.349 align:start position:0%
+tape however
+the<00:00:15.440><c> disk</c><00:00:15.839><c> will</c><00:00:16.000><c> not</c><00:00:16.240><c> do</c><00:00:16.400><c> too</c><00:00:16.640><c> bad</c><00:00:16.960><c> on</c><00:00:17.119><c> that</c>
+
+00:00:17.349 --> 00:00:17.359 align:start position:0%
+the disk will not do too bad on that
+ 
+
+00:00:17.359 --> 00:00:18.550 align:start position:0%
+the disk will not do too bad on that
+either
+
+00:00:18.550 --> 00:00:18.560 align:start position:0%
+either
+ 
+
+00:00:18.560 --> 00:00:20.470 align:start position:0%
+either
+if<00:00:18.720><c> however</c><00:00:19.119><c> we</c><00:00:19.279><c> want</c><00:00:19.439><c> to</c><00:00:19.600><c> read</c><00:00:20.080><c> just</c><00:00:20.320><c> the</c>
+
+00:00:20.470 --> 00:00:20.480 align:start position:0%
+if however we want to read just the
+ 
+
+00:00:20.480 --> 00:00:23.269 align:start position:0%
+if however we want to read just the
+first<00:00:20.800><c> and</c><00:00:20.960><c> last</c><00:00:21.359><c> byte</c><00:00:21.680><c> of</c><00:00:21.840><c> a</c><00:00:21.920><c> large</c><00:00:22.320><c> file</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+first and last byte of a large file
+ 
+
+00:00:23.279 --> 00:00:25.990 align:start position:0%
+first and last byte of a large file
+for<00:00:23.600><c> tape</c><00:00:24.240><c> we</c><00:00:24.480><c> pretty</c><00:00:24.800><c> much</c><00:00:25.359><c> have</c><00:00:25.519><c> to</c><00:00:25.680><c> fast</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+for tape we pretty much have to fast
+ 
+
+00:00:26.000 --> 00:00:28.390 align:start position:0%
+for tape we pretty much have to fast
+forward<00:00:26.400><c> through</c><00:00:26.640><c> the</c><00:00:26.800><c> entire</c><00:00:27.359><c> file</c><00:00:27.760><c> on</c><00:00:27.920><c> tape</c>
+
+00:00:28.390 --> 00:00:28.400 align:start position:0%
+forward through the entire file on tape
+ 
+
+00:00:28.400 --> 00:00:30.630 align:start position:0%
+forward through the entire file on tape
+so<00:00:28.640><c> tape</c><00:00:28.960><c> is</c><00:00:29.119><c> not</c><00:00:29.359><c> going</c><00:00:29.519><c> to</c><00:00:29.599><c> do</c><00:00:29.760><c> too</c><00:00:30.000><c> well</c>
+
+00:00:30.630 --> 00:00:30.640 align:start position:0%
+so tape is not going to do too well
+ 
+
+00:00:30.640 --> 00:00:33.270 align:start position:0%
+so tape is not going to do too well
+whereas<00:00:31.039><c> on</c><00:00:31.199><c> disk</c><00:00:31.840><c> we</c><00:00:32.000><c> will</c><00:00:32.239><c> seek</c><00:00:32.880><c> to</c><00:00:33.040><c> where</c>
+
+00:00:33.270 --> 00:00:33.280 align:start position:0%
+whereas on disk we will seek to where
+ 
+
+00:00:33.280 --> 00:00:34.470 align:start position:0%
+whereas on disk we will seek to where
+the<00:00:33.520><c> first</c>
+
+00:00:34.470 --> 00:00:34.480 align:start position:0%
+the first
+ 
+
+00:00:34.480 --> 00:00:37.030 align:start position:0%
+the first
+and<00:00:34.640><c> then</c><00:00:35.120><c> where</c><00:00:35.360><c> the</c><00:00:35.520><c> last</c><00:00:36.000><c> byte</c><00:00:36.320><c> is</c><00:00:36.559><c> and</c><00:00:36.719><c> just</c>
+
+00:00:37.030 --> 00:00:37.040 align:start position:0%
+and then where the last byte is and just
+ 
+
+00:00:37.040 --> 00:00:39.110 align:start position:0%
+and then where the last byte is and just
+read<00:00:37.280><c> it</c><00:00:37.760><c> so</c><00:00:38.000><c> this</c><00:00:38.320><c> will</c><00:00:38.480><c> still</c><00:00:38.800><c> work</c>
+
+00:00:39.110 --> 00:00:39.120 align:start position:0%
+read it so this will still work
+ 
+
+00:00:39.120 --> 00:00:42.310 align:start position:0%
+read it so this will still work
+reasonably<00:00:39.680><c> well</c><00:00:40.000><c> here</c><00:00:40.800><c> because</c><00:00:41.120><c> the</c><00:00:41.280><c> disk</c><00:00:42.160><c> is</c>
+
+00:00:42.310 --> 00:00:42.320 align:start position:0%
+reasonably well here because the disk is
+ 
+
+00:00:42.320 --> 00:00:45.190 align:start position:0%
+reasonably well here because the disk is
+a<00:00:42.480><c> so-called</c><00:00:43.120><c> random</c><00:00:43.600><c> access</c><00:00:44.000><c> medium</c><00:00:44.480><c> meaning</c>
+
+00:00:45.190 --> 00:00:45.200 align:start position:0%
+a so-called random access medium meaning
+ 
+
+00:00:45.200 --> 00:00:46.869 align:start position:0%
+a so-called random access medium meaning
+we<00:00:45.360><c> give</c><00:00:45.520><c> it</c><00:00:45.680><c> an</c><00:00:45.840><c> address</c><00:00:46.320><c> and</c><00:00:46.480><c> it</c><00:00:46.559><c> kind</c><00:00:46.719><c> of</c>
+
+00:00:46.869 --> 00:00:46.879 align:start position:0%
+we give it an address and it kind of
+ 
+
+00:00:46.879 --> 00:00:49.910 align:start position:0%
+we give it an address and it kind of
+goes<00:00:47.200><c> there</c><00:00:47.840><c> with</c><00:00:48.079><c> the</c><00:00:48.239><c> tape</c><00:00:49.039><c> it</c><00:00:49.200><c> takes</c><00:00:49.520><c> a</c><00:00:49.600><c> lot</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+goes there with the tape it takes a lot
+ 
+
+00:00:49.920 --> 00:00:52.389 align:start position:0%
+goes there with the tape it takes a lot
+longer<00:00:50.399><c> to</c><00:00:50.559><c> get</c><00:00:50.800><c> to</c><00:00:50.960><c> any</c><00:00:51.199><c> single</c><00:00:51.520><c> position</c>
+
+00:00:52.389 --> 00:00:52.399 align:start position:0%
+longer to get to any single position
+ 
+
+00:00:52.399 --> 00:00:54.950 align:start position:0%
+longer to get to any single position
+because<00:00:52.719><c> we</c><00:00:52.879><c> need</c><00:00:53.039><c> to</c><00:00:53.440><c> really</c><00:00:54.239><c> go</c><00:00:54.480><c> past</c><00:00:54.879><c> all</c>
+
+00:00:54.950 --> 00:00:54.960 align:start position:0%
+because we need to really go past all
+ 
+
+00:00:54.960 --> 00:00:56.630 align:start position:0%
+because we need to really go past all
+the<00:00:55.199><c> other</c><00:00:55.440><c> positions</c>
+
+00:00:56.630 --> 00:00:56.640 align:start position:0%
+the other positions
+ 
+
+00:00:56.640 --> 00:01:00.229 align:start position:0%
+the other positions
+and<00:00:56.960><c> finally</c><00:00:57.840><c> a</c><00:00:58.079><c> cat</c><00:00:58.960><c> would</c><00:00:59.280><c> much</c><00:00:59.600><c> rather</c><00:01:00.000><c> play</c>
+
+00:01:00.229 --> 00:01:00.239 align:start position:0%
+and finally a cat would much rather play
+ 
+
+00:01:00.239 --> 00:01:02.229 align:start position:0%
+and finally a cat would much rather play
+with<00:01:00.480><c> a</c><00:01:00.559><c> reel</c><00:01:00.800><c> of</c><00:01:00.960><c> tape</c>
+
+00:01:02.229 --> 00:01:02.239 align:start position:0%
+with a reel of tape
+ 
+
+00:01:02.239 --> 00:01:04.789 align:start position:0%
+with a reel of tape
+than<00:01:02.879><c> with</c><00:01:03.120><c> a</c><00:01:03.199><c> hard</c><00:01:03.520><c> drive</c>
+
+00:01:04.789 --> 00:01:04.799 align:start position:0%
+than with a hard drive
+ 
+
+00:01:04.799 --> 00:01:06.710 align:start position:0%
+than with a hard drive
+and<00:01:04.960><c> there</c><00:01:05.199><c> are</c><00:01:05.439><c> thousands</c><00:01:06.159><c> of</c><00:01:06.320><c> youtube</c>
+
+00:01:06.710 --> 00:01:06.720 align:start position:0%
+and there are thousands of youtube
+ 
+
+00:01:06.720 --> 00:01:10.230 align:start position:0%
+and there are thousands of youtube
+videos<00:01:07.520><c> that</c><00:01:07.760><c> prove</c><00:01:08.240><c> this</c><00:01:08.560><c> point</c><00:01:09.200><c> cats</c><00:01:09.600><c> like</c>
+
+00:01:10.230 --> 00:01:10.240 align:start position:0%
+videos that prove this point cats like
+ 
+
+00:01:10.240 --> 00:01:13.590 align:start position:0%
+videos that prove this point cats like
+stringy<00:01:10.840><c> things</c><00:01:11.920><c> much</c><00:01:12.240><c> more</c><00:01:12.880><c> than</c><00:01:13.119><c> disky</c>
+
+00:01:13.590 --> 00:01:13.600 align:start position:0%
+stringy things much more than disky
+ 
+
+00:01:13.600 --> 00:01:17.190 align:start position:0%
+stringy things much more than disky
+things<00:01:14.240><c> especially</c><00:01:15.439><c> if</c><00:01:15.600><c> the</c><00:01:15.759><c> disc</c><00:01:16.240><c> things</c>
+
+00:01:17.190 --> 00:01:17.200 align:start position:0%
+things especially if the disc things
+ 
+
+00:01:17.200 --> 00:01:23.000 align:start position:0%
+things especially if the disc things
+are<00:01:17.439><c> enclosed</c><00:01:18.320><c> in</c><00:01:18.479><c> a</c><00:01:18.640><c> metal</c><00:01:19.280><c> rectangular</c><00:01:20.000><c> box</c>
+

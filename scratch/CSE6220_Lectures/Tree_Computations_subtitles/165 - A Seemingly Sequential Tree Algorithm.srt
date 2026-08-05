@@ -1,0 +1,136 @@
+1
+00:00:00,460 --> 00:00:05,445
+ Before going parallel, let's review a very common CS101 algorithm on trees.
+
+2
+00:00:05,445 --> 00:00:09,260
+ It will seem very sequential at first blush.
+
+3
+00:00:09,260 --> 00:00:14,990
+ Why, I do declare I find sequential algorithms so embarrassing.
+
+4
+00:00:14,990 --> 00:00:18,120
+ Now suppose you want to compute a post-order numbering of the nodes
+
+5
+00:00:18,120 --> 00:00:19,130
+ of this tree.
+
+6
+00:00:19,130 --> 00:00:21,400
+ The classic procedure is recursive.
+
+7
+00:00:21,400 --> 00:00:22,510
+ You're given a root.
+
+8
+00:00:22,510 --> 00:00:25,860
+ You want to assign each of the nodes of the tree a unique value
+
+9
+00:00:25,860 --> 00:00:28,180
+ starting at a given value, V zero.
+
+10
+00:00:28,180 --> 00:00:31,150
+ You maintain the last assigned number.
+
+11
+00:00:31,150 --> 00:00:33,590
+ I've shown that here as the variable V.
+
+12
+00:00:33,590 --> 00:00:36,130
+ The last assigned number is what you'll eventually update,
+
+13
+00:00:36,130 --> 00:00:38,720
+ assign to the root, and return.
+
+14
+00:00:38,720 --> 00:00:42,760
+ But before you do all that, you'll visit and number all of the descendants.
+
+15
+00:00:42,760 --> 00:00:46,100
+ Each recursive descent returns the last assigned value.
+
+16
+00:00:46,100 --> 00:00:51,380
+ The next assigned value is the last one, plus one, which you then overwrite in V.
+
+17
+00:00:51,380 --> 00:00:55,470
+ So let's trace the execution of this routine on this sample tree.
+
+18
+00:00:55,470 --> 00:00:58,530
+ We'll start with the root which happens to be numbered zero, and
+
+19
+00:00:58,530 --> 00:01:02,060
+ we'll assign values starting at the initial value of zero.
+
+20
+00:01:02,060 --> 00:01:06,570
+ The first part of the algorithm will descend to, say, leaf number four.
+
+21
+00:01:06,570 --> 00:01:11,025
+ This descent carries the initial value of zero all the way to that point.
+
+22
+00:01:11,025 --> 00:01:14,860
+ Since node 4 had no children, it gets the initial value.
+
+23
+00:01:14,860 --> 00:01:16,910
+ It also returns that value.
+
+24
+00:01:16,910 --> 00:01:20,280
+ The parent caller, which is node 1, will receive 0.
+
+25
+00:01:20,280 --> 00:01:25,841
+ The next child will get the next initial value, which is 0 + 1 = 1.
+
+26
+00:01:25,841 --> 00:01:29,300
+ So continuing, you should get this final numbering.
+
+27
+00:01:29,300 --> 00:01:31,790
+ So how do you parallelize the scheme?
+
+28
+00:01:31,790 --> 00:01:34,260
+ On the one hand, it looks sequential.
+
+29
+00:01:34,260 --> 00:01:37,250
+ It looks like you have to number all of the nodes' children before you can
+
+30
+00:01:37,250 --> 00:01:39,010
+ number a node itself.
+
+31
+00:01:39,010 --> 00:01:42,480
+ On the other hand, doesn't this look and smell a little bit like list ranking or
+
+32
+00:01:42,480 --> 00:01:44,080
+ list scan?
+
+33
+00:01:44,080 --> 00:01:45,190
+ >> Quack.
+
+34
+00:01:45,190 --> 00:01:45,190
+ >> If only you had an efficient way to convert a tree to a list.
+

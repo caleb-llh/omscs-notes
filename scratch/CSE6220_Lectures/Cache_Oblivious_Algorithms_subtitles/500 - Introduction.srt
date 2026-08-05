@@ -1,0 +1,76 @@
+1
+00:00:00,690 --> 00:00:04,220
+ In real life, fast memories are managed automatically in hardware or
+
+2
+00:00:04,220 --> 00:00:05,990
+ by the operating system.
+
+3
+00:00:05,990 --> 00:00:08,320
+ Caches are one example.
+
+4
+00:00:08,320 --> 00:00:11,350
+ Now, these automatically managed fast memories are great.
+
+5
+00:00:11,350 --> 00:00:13,670
+ You can go about your merry way, writing code and
+
+6
+00:00:13,670 --> 00:00:17,520
+ algorithms that are oblivious to what's happening under the hood.
+
+7
+00:00:17,520 --> 00:00:20,475
+ The only problem is that, when you do that, performance can suffer.
+
+8
+00:00:20,475 --> 00:00:24,450
+ Think of the resource oblivious binary search
+
+9
+00:00:24,450 --> 00:00:27,810
+ compared to a resource aware bee tree search.
+
+10
+00:00:27,810 --> 00:00:29,130
+ But bee trees have a problem too.
+
+11
+00:00:29,130 --> 00:00:32,780
+ You need to tune that bee perameter in a machine specific way,
+
+12
+00:00:32,780 --> 00:00:35,095
+ which effects portability.
+
+13
+00:00:35,095 --> 00:00:38,305
+ So, this leads us to a really interesting question.
+
+14
+00:00:38,305 --> 00:00:42,305
+ Is there a different algorithm or data structure that would be efficient,
+
+15
+00:00:42,305 --> 00:00:47,525
+ no matter what the memory hierarchy looks like or how it's managed?
+
+16
+00:00:47,525 --> 00:00:49,995
+ In 1999, Matteo Frigo, Charles Leiserson, and
+
+17
+00:00:49,995 --> 00:00:54,095
+ a bunch of other MIT yahoos, discovered a way to be cache oblivious,
+
+18
+00:00:54,095 --> 00:00:57,200
+ at least for basic problems like matrix multiply and sorting.
+
+19
+00:00:57,200 --> 00:00:57,200
+ And that friends, is the topic of this lesson, cache oblivious algorithms.
+

@@ -1,0 +1,648 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.470 align:start position:0%
+ 
+Let's<00:00:00.360><c> look</c><00:00:00.520><c> at</c><00:00:00.640><c> the</c><00:00:00.800><c> answer</c><00:00:01.800><c> to</c><00:00:01.920><c> our</c><00:00:02.080><c> quiz</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+Let's look at the answer to our quiz
+ 
+
+00:00:02.480 --> 00:00:04.310 align:start position:0%
+Let's look at the answer to our quiz
+about<00:00:02.960><c> the</c><00:00:03.080><c> relationship</c><00:00:03.560><c> between</c><00:00:03.880><c> the</c><00:00:03.960><c> block</c>
+
+00:00:04.310 --> 00:00:04.320 align:start position:0%
+about the relationship between the block
+ 
+
+00:00:04.320 --> 00:00:08.230 align:start position:0%
+about the relationship between the block
+size<00:00:05.240><c> and</c><00:00:05.760><c> the</c><00:00:05.880><c> miss</c><00:00:06.160><c> rate.</c><00:00:07.040><c> The</c><00:00:07.240><c> question</c><00:00:07.720><c> was</c>
+
+00:00:08.230 --> 00:00:08.240 align:start position:0%
+size and the miss rate. The question was
+ 
+
+00:00:08.240 --> 00:00:10.470 align:start position:0%
+size and the miss rate. The question was
+which<00:00:08.520><c> of</c><00:00:08.640><c> the</c><00:00:08.760><c> three</c><00:00:09.000><c> C's</c><00:00:10.000><c> are</c><00:00:10.240><c> really</c>
+
+00:00:10.470 --> 00:00:10.480 align:start position:0%
+which of the three C's are really
+ 
+
+00:00:10.480 --> 00:00:12.510 align:start position:0%
+which of the three C's are really
+reduced<00:00:11.160><c> when</c><00:00:11.320><c> the</c><00:00:11.440><c> miss</c><00:00:11.680><c> rate</c><00:00:11.880><c> goes</c><00:00:12.120><c> down?</c>
+
+00:00:12.510 --> 00:00:12.520 align:start position:0%
+reduced when the miss rate goes down?
+ 
+
+00:00:12.520 --> 00:00:14.070 align:start position:0%
+reduced when the miss rate goes down?
+Obviously,<00:00:13.000><c> some</c><00:00:13.280><c> misses</c><00:00:13.720><c> have</c><00:00:13.920><c> been</c>
+
+00:00:14.070 --> 00:00:14.080 align:start position:0%
+Obviously, some misses have been
+ 
+
+00:00:14.080 --> 00:00:16.590 align:start position:0%
+Obviously, some misses have been
+eliminated.<00:00:14.840><c> The</c><00:00:14.960><c> question</c><00:00:15.320><c> is</c><00:00:15.520><c> which</c><00:00:16.080><c> type</c>
+
+00:00:16.590 --> 00:00:16.600 align:start position:0%
+eliminated. The question is which type
+ 
+
+00:00:16.600 --> 00:00:19.430 align:start position:0%
+eliminated. The question is which type
+suffered<00:00:17.400><c> the</c><00:00:17.520><c> elimination?</c><00:00:18.800><c> Let's</c><00:00:19.160><c> first</c>
+
+00:00:19.430 --> 00:00:19.440 align:start position:0%
+suffered the elimination? Let's first
+ 
+
+00:00:19.440 --> 00:00:21.590 align:start position:0%
+suffered the elimination? Let's first
+look<00:00:19.640><c> at</c><00:00:19.720><c> the</c><00:00:19.840><c> compulsory</c><00:00:20.440><c> misses.</c><00:00:21.240><c> If</c><00:00:21.480><c> we</c>
+
+00:00:21.590 --> 00:00:21.600 align:start position:0%
+look at the compulsory misses. If we
+ 
+
+00:00:21.600 --> 00:00:24.270 align:start position:0%
+look at the compulsory misses. If we
+have<00:00:21.800><c> a</c><00:00:21.880><c> small</c><00:00:22.280><c> block</c><00:00:22.600><c> size,</c><00:00:23.640><c> and</c><00:00:23.800><c> this</c><00:00:24.000><c> is</c><00:00:24.160><c> our</c>
+
+00:00:24.270 --> 00:00:24.280 align:start position:0%
+have a small block size, and this is our
+ 
+
+00:00:24.280 --> 00:00:27.030 align:start position:0%
+have a small block size, and this is our
+memory,<00:00:25.280><c> we'll</c><00:00:25.600><c> bring</c><00:00:25.920><c> in</c><00:00:26.320><c> this</c><00:00:26.600><c> block</c><00:00:26.920><c> and</c>
+
+00:00:27.030 --> 00:00:27.040 align:start position:0%
+memory, we'll bring in this block and
+ 
+
+00:00:27.040 --> 00:00:29.670 align:start position:0%
+memory, we'll bring in this block and
+suffer<00:00:27.360><c> a</c><00:00:27.400><c> miss</c><00:00:28.280><c> for</c><00:00:28.440><c> the</c><00:00:28.560><c> first</c><00:00:28.880><c> time.</c><00:00:29.520><c> We</c>
+
+00:00:29.670 --> 00:00:29.680 align:start position:0%
+suffer a miss for the first time. We
+ 
+
+00:00:29.680 --> 00:00:31.430 align:start position:0%
+suffer a miss for the first time. We
+bring<00:00:30.040><c> in</c><00:00:30.280><c> another</c><00:00:30.680><c> block</c><00:00:30.960><c> and</c><00:00:31.080><c> suffer</c><00:00:31.400><c> a</c>
+
+00:00:31.430 --> 00:00:31.440 align:start position:0%
+bring in another block and suffer a
+ 
+
+00:00:31.440 --> 00:00:33.470 align:start position:0%
+bring in another block and suffer a
+miss.<00:00:32.160><c> Now,</c><00:00:32.360><c> let's</c><00:00:32.560><c> say</c><00:00:32.680><c> we</c><00:00:32.800><c> bring</c><00:00:33.040><c> in</c><00:00:33.200><c> this</c>
+
+00:00:33.470 --> 00:00:33.480 align:start position:0%
+miss. Now, let's say we bring in this
+ 
+
+00:00:33.480 --> 00:00:35.270 align:start position:0%
+miss. Now, let's say we bring in this
+block<00:00:33.760><c> and</c><00:00:33.880><c> suffer</c><00:00:34.160><c> a</c><00:00:34.200><c> miss.</c>
+
+00:00:35.270 --> 00:00:35.280 align:start position:0%
+block and suffer a miss.
+ 
+
+00:00:35.280 --> 00:00:38.790 align:start position:0%
+block and suffer a miss.
+If<00:00:35.600><c> the</c><00:00:35.720><c> cache</c><00:00:36.520><c> line</c><00:00:36.840><c> size</c><00:00:37.200><c> was</c><00:00:37.440><c> twice</c><00:00:38.400><c> of</c><00:00:38.600><c> what</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+If the cache line size was twice of what
+ 
+
+00:00:38.800 --> 00:00:40.070 align:start position:0%
+If the cache line size was twice of what
+it<00:00:38.920><c> is</c><00:00:39.080><c> now,</c>
+
+00:00:40.070 --> 00:00:40.080 align:start position:0%
+it is now,
+ 
+
+00:00:40.080 --> 00:00:43.230 align:start position:0%
+it is now,
+then<00:00:41.000><c> the</c><00:00:41.360><c> second</c><00:00:41.920><c> one</c><00:00:42.440><c> would</c><00:00:42.640><c> not</c><00:00:42.880><c> have</c><00:00:43.080><c> been</c>
+
+00:00:43.230 --> 00:00:43.240 align:start position:0%
+then the second one would not have been
+ 
+
+00:00:43.240 --> 00:00:45.110 align:start position:0%
+then the second one would not have been
+a<00:00:43.280><c> miss</c><00:00:43.640><c> because</c><00:00:44.040><c> when</c><00:00:44.200><c> we</c><00:00:44.320><c> fetch</c><00:00:44.600><c> the</c><00:00:44.720><c> first</c>
+
+00:00:45.110 --> 00:00:45.120 align:start position:0%
+a miss because when we fetch the first
+ 
+
+00:00:45.120 --> 00:00:46.270 align:start position:0%
+a miss because when we fetch the first
+one,
+
+00:00:46.270 --> 00:00:46.280 align:start position:0%
+one,
+ 
+
+00:00:46.280 --> 00:00:48.430 align:start position:0%
+one,
+the<00:00:46.560><c> second</c><00:00:46.960><c> one</c><00:00:47.360><c> would</c><00:00:47.520><c> have</c><00:00:47.680><c> also</c><00:00:48.000><c> been</c><00:00:48.280><c> in</c>
+
+00:00:48.430 --> 00:00:48.440 align:start position:0%
+the second one would have also been in
+ 
+
+00:00:48.440 --> 00:00:50.350 align:start position:0%
+the second one would have also been in
+the<00:00:48.520><c> same</c><00:00:48.800><c> cache</c><00:00:49.040><c> block.</c><00:00:49.720><c> So,</c><00:00:49.920><c> as</c><00:00:50.080><c> you</c><00:00:50.200><c> can</c>
+
+00:00:50.350 --> 00:00:50.360 align:start position:0%
+the same cache block. So, as you can
+ 
+
+00:00:50.360 --> 00:00:53.110 align:start position:0%
+the same cache block. So, as you can
+see,<00:00:51.200><c> the</c><00:00:51.360><c> increase</c><00:00:51.840><c> in</c><00:00:51.920><c> the</c><00:00:52.040><c> block</c><00:00:52.400><c> size,</c>
+
+00:00:53.110 --> 00:00:53.120 align:start position:0%
+see, the increase in the block size,
+ 
+
+00:00:53.120 --> 00:00:55.430 align:start position:0%
+see, the increase in the block size,
+assuming<00:00:53.560><c> there</c><00:00:53.680><c> is</c><00:00:53.840><c> enough</c><00:00:54.120><c> locality,</c><00:00:55.040><c> will</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+assuming there is enough locality, will
+ 
+
+00:00:55.440 --> 00:00:57.430 align:start position:0%
+assuming there is enough locality, will
+result<00:00:55.960><c> in</c><00:00:56.120><c> a</c><00:00:56.160><c> reduction</c><00:00:56.760><c> in</c><00:00:56.880><c> compulsory</c>
+
+00:00:57.430 --> 00:00:57.440 align:start position:0%
+result in a reduction in compulsory
+ 
+
+00:00:57.440 --> 00:00:59.990 align:start position:0%
+result in a reduction in compulsory
+misses.<00:00:58.320><c> Another</c><00:00:58.680><c> way</c><00:00:58.840><c> to</c><00:00:58.960><c> look</c><00:00:59.160><c> at</c><00:00:59.280><c> this</c><00:00:59.800><c> is</c>
+
+00:00:59.990 --> 00:01:00.000 align:start position:0%
+misses. Another way to look at this is
+ 
+
+00:01:00.000 --> 00:01:03.070 align:start position:0%
+misses. Another way to look at this is
+to<00:01:00.120><c> note</c><00:01:00.360><c> that</c><00:01:01.080><c> we</c><00:01:01.240><c> get</c><00:01:01.520><c> a</c><00:01:01.560><c> compulsory</c><00:01:02.200><c> miss</c>
+
+00:01:03.070 --> 00:01:03.080 align:start position:0%
+to note that we get a compulsory miss
+ 
+
+00:01:03.080 --> 00:01:05.070 align:start position:0%
+to note that we get a compulsory miss
+when<00:01:03.400><c> we</c><00:01:03.640><c> access</c><00:01:04.080><c> the</c><00:01:04.199><c> block</c><00:01:04.519><c> for</c><00:01:04.680><c> the</c><00:01:04.800><c> very</c>
+
+00:01:05.070 --> 00:01:05.080 align:start position:0%
+when we access the block for the very
+ 
+
+00:01:05.080 --> 00:01:07.590 align:start position:0%
+when we access the block for the very
+first<00:01:05.440><c> time.</c><00:01:06.200><c> Well,</c><00:01:06.760><c> if</c><00:01:06.920><c> you</c><00:01:07.040><c> have</c><00:01:07.240><c> larger</c>
+
+00:01:07.590 --> 00:01:07.600 align:start position:0%
+first time. Well, if you have larger
+ 
+
+00:01:07.600 --> 00:01:10.150 align:start position:0%
+first time. Well, if you have larger
+blocks,<00:01:08.400><c> there</c><00:01:08.560><c> are</c><00:01:08.680><c> fewer</c><00:01:09.080><c> blocks,</c><00:01:09.840><c> so</c><00:01:10.000><c> there</c>
+
+00:01:10.150 --> 00:01:10.160 align:start position:0%
+blocks, there are fewer blocks, so there
+ 
+
+00:01:10.160 --> 00:01:11.990 align:start position:0%
+blocks, there are fewer blocks, so there
+are<00:01:10.280><c> fewer</c><00:01:10.640><c> blocks</c><00:01:11.080><c> to</c><00:01:11.200><c> access</c><00:01:11.520><c> for</c><00:01:11.640><c> the</c><00:01:11.760><c> very</c>
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+are fewer blocks to access for the very
+ 
+
+00:01:12.000 --> 00:01:14.790 align:start position:0%
+are fewer blocks to access for the very
+first<00:01:12.320><c> time,</c><00:01:12.920><c> and</c><00:01:13.120><c> that</c><00:01:13.840><c> will</c><00:01:14.080><c> guarantee</c><00:01:14.720><c> a</c>
+
+00:01:14.790 --> 00:01:14.800 align:start position:0%
+first time, and that will guarantee a
+ 
+
+00:01:14.800 --> 00:01:17.430 align:start position:0%
+first time, and that will guarantee a
+reduction<00:01:15.360><c> in</c><00:01:15.480><c> compulsory</c><00:01:16.040><c> misses,</c><00:01:17.000><c> assuming</c>
+
+00:01:17.430 --> 00:01:17.440 align:start position:0%
+reduction in compulsory misses, assuming
+ 
+
+00:01:17.440 --> 00:01:20.110 align:start position:0%
+reduction in compulsory misses, assuming
+there<00:01:17.560><c> is</c><00:01:17.800><c> any</c><00:01:18.320><c> spatial</c><00:01:18.720><c> locality.</c><00:01:19.720><c> Now,</c>
+
+00:01:20.110 --> 00:01:20.120 align:start position:0%
+there is any spatial locality. Now,
+ 
+
+00:01:20.120 --> 00:01:22.510 align:start position:0%
+there is any spatial locality. Now,
+let's<00:01:20.320><c> look</c><00:01:20.520><c> at</c><00:01:20.640><c> capacity</c><00:01:21.240><c> misses.</c><00:01:22.200><c> Let's</c><00:01:22.440><c> say</c>
+
+00:01:22.510 --> 00:01:22.520 align:start position:0%
+let's look at capacity misses. Let's say
+ 
+
+00:01:22.520 --> 00:01:24.750 align:start position:0%
+let's look at capacity misses. Let's say
+that<00:01:22.720><c> the</c><00:01:22.800><c> program</c><00:01:23.840><c> is</c><00:01:24.040><c> accessing</c><00:01:24.680><c> a</c>
+
+00:01:24.750 --> 00:01:24.760 align:start position:0%
+that the program is accessing a
+ 
+
+00:01:24.760 --> 00:01:27.150 align:start position:0%
+that the program is accessing a
+relatively<00:01:25.320><c> large</c><00:01:25.640><c> array</c><00:01:26.400><c> that</c><00:01:26.560><c> doesn't</c><00:01:26.960><c> fit</c>
+
+00:01:27.150 --> 00:01:27.160 align:start position:0%
+relatively large array that doesn't fit
+ 
+
+00:01:27.160 --> 00:01:29.350 align:start position:0%
+relatively large array that doesn't fit
+in<00:01:27.280><c> the</c><00:01:27.400><c> cache,</c><00:01:28.240><c> and</c><00:01:28.440><c> then</c>
+
+00:01:29.350 --> 00:01:29.360 align:start position:0%
+in the cache, and then
+ 
+
+00:01:29.360 --> 00:01:32.310 align:start position:0%
+in the cache, and then
+we<00:01:29.600><c> go</c><00:01:29.800><c> back</c><00:01:30.680><c> and</c><00:01:30.840><c> access</c><00:01:31.200><c> it</c><00:01:31.320><c> again.</c><00:01:32.040><c> On</c><00:01:32.200><c> the</c>
+
+00:01:32.310 --> 00:01:32.320 align:start position:0%
+we go back and access it again. On the
+ 
+
+00:01:32.320 --> 00:01:35.230 align:start position:0%
+we go back and access it again. On the
+second<00:01:32.960><c> set</c><00:01:33.240><c> of</c><00:01:33.400><c> accesses,</c><00:01:34.440><c> we're</c><00:01:34.640><c> having</c>
+
+00:01:35.230 --> 00:01:35.240 align:start position:0%
+second set of accesses, we're having
+ 
+
+00:01:35.240 --> 00:01:36.990 align:start position:0%
+second set of accesses, we're having
+capacity<00:01:35.760><c> misses.</c>
+
+00:01:36.990 --> 00:01:37.000 align:start position:0%
+capacity misses.
+ 
+
+00:01:37.000 --> 00:01:38.470 align:start position:0%
+capacity misses.
+The<00:01:37.200><c> first</c><00:01:37.520><c> set</c><00:01:37.720><c> of</c><00:01:37.880><c> accesses</c><00:01:38.360><c> were</c>
+
+00:01:38.470 --> 00:01:38.480 align:start position:0%
+The first set of accesses were
+ 
+
+00:01:38.480 --> 00:01:40.310 align:start position:0%
+The first set of accesses were
+compulsory<00:01:39.080><c> misses</c><00:01:39.440><c> because</c><00:01:39.800><c> these</c><00:01:40.000><c> blocks</c>
+
+00:01:40.310 --> 00:01:40.320 align:start position:0%
+compulsory misses because these blocks
+ 
+
+00:01:40.320 --> 00:01:42.310 align:start position:0%
+compulsory misses because these blocks
+were<00:01:40.400><c> never</c><00:01:40.720><c> in</c><00:01:40.800><c> the</c><00:01:40.920><c> cache.</c><00:01:41.760><c> Because</c><00:01:42.160><c> they</c>
+
+00:01:42.310 --> 00:01:42.320 align:start position:0%
+were never in the cache. Because they
+ 
+
+00:01:42.320 --> 00:01:44.030 align:start position:0%
+were never in the cache. Because they
+don't<00:01:42.640><c> fit</c><00:01:42.880><c> in</c><00:01:42.960><c> the</c><00:01:43.080><c> cache,</c><00:01:43.400><c> by</c><00:01:43.560><c> the</c><00:01:43.720><c> time</c><00:01:43.920><c> we</c>
+
+00:01:44.030 --> 00:01:44.040 align:start position:0%
+don't fit in the cache, by the time we
+ 
+
+00:01:44.040 --> 00:01:46.270 align:start position:0%
+don't fit in the cache, by the time we
+get<00:01:44.280><c> to</c><00:01:44.400><c> the</c><00:01:44.600><c> end</c><00:01:44.880><c> of</c><00:01:45.000><c> the</c><00:01:45.120><c> array,</c>
+
+00:01:46.270 --> 00:01:46.280 align:start position:0%
+get to the end of the array,
+ 
+
+00:01:46.280 --> 00:01:47.950 align:start position:0%
+get to the end of the array,
+the<00:01:46.520><c> beginning</c><00:01:46.960><c> of</c><00:01:47.080><c> the</c><00:01:47.200><c> array</c><00:01:47.400><c> is</c><00:01:47.520><c> kicked</c><00:01:47.800><c> out</c>
+
+00:01:47.950 --> 00:01:47.960 align:start position:0%
+the beginning of the array is kicked out
+ 
+
+00:01:47.960 --> 00:01:49.950 align:start position:0%
+the beginning of the array is kicked out
+of<00:01:48.040><c> the</c><00:01:48.160><c> cache,</c><00:01:49.040><c> and</c><00:01:49.160><c> now</c><00:01:49.400><c> we're</c><00:01:49.520><c> suffering</c>
+
+00:01:49.950 --> 00:01:49.960 align:start position:0%
+of the cache, and now we're suffering
+ 
+
+00:01:49.960 --> 00:01:52.790 align:start position:0%
+of the cache, and now we're suffering
+capacity<00:01:50.440><c> misses.</c><00:01:51.320><c> These</c><00:01:51.600><c> blocks</c><00:01:52.440><c> would</c><00:01:52.640><c> be</c>
+
+00:01:52.790 --> 00:01:52.800 align:start position:0%
+capacity misses. These blocks would be
+ 
+
+00:01:52.800 --> 00:01:54.830 align:start position:0%
+capacity misses. These blocks would be
+in<00:01:52.920><c> the</c><00:01:53.160><c> infinite</c><00:01:53.640><c> cache.</c>
+
+00:01:54.830 --> 00:01:54.840 align:start position:0%
+in the infinite cache.
+ 
+
+00:01:54.840 --> 00:01:57.870 align:start position:0%
+in the infinite cache.
+They're<00:01:55.160><c> not</c><00:01:55.680><c> in</c><00:01:55.800><c> the</c><00:01:55.920><c> cache</c><00:01:56.280><c> because</c><00:01:57.440><c> it</c><00:01:57.720><c> was</c>
+
+00:01:57.870 --> 00:01:57.880 align:start position:0%
+They're not in the cache because it was
+ 
+
+00:01:57.880 --> 00:02:00.430 align:start position:0%
+They're not in the cache because it was
+not<00:01:58.080><c> large</c><00:01:58.400><c> enough.</c><00:01:59.000><c> But</c><00:01:59.280><c> how</c><00:01:59.480><c> many</c><00:01:59.880><c> misses</c><00:02:00.320><c> we</c>
+
+00:02:00.430 --> 00:02:00.440 align:start position:0%
+not large enough. But how many misses we
+ 
+
+00:02:00.440 --> 00:02:02.950 align:start position:0%
+not large enough. But how many misses we
+will<00:02:00.560><c> have</c><00:02:00.800><c> for</c><00:02:00.960><c> this</c><00:02:01.200><c> array</c><00:02:01.960><c> depends</c><00:02:02.720><c> on</c><00:02:02.840><c> the</c>
+
+00:02:02.950 --> 00:02:02.960 align:start position:0%
+will have for this array depends on the
+ 
+
+00:02:02.960 --> 00:02:05.710 align:start position:0%
+will have for this array depends on the
+block<00:02:03.280><c> size.</c><00:02:03.960><c> With</c><00:02:04.160><c> smaller</c><00:02:04.600><c> blocks,</c><00:02:05.600><c> the</c>
+
+00:02:05.710 --> 00:02:05.720 align:start position:0%
+block size. With smaller blocks, the
+ 
+
+00:02:05.720 --> 00:02:08.790 align:start position:0%
+block size. With smaller blocks, the
+same<00:02:06.040><c> size</c><00:02:06.440><c> array</c><00:02:07.280><c> would</c><00:02:07.479><c> be</c><00:02:07.600><c> occupying</c><00:02:08.520><c> more</c>
+
+00:02:08.790 --> 00:02:08.800 align:start position:0%
+same size array would be occupying more
+ 
+
+00:02:08.800 --> 00:02:11.390 align:start position:0%
+same size array would be occupying more
+blocks.<00:02:09.800><c> With</c><00:02:10.000><c> larger</c><00:02:10.399><c> blocks,</c><00:02:10.960><c> we</c><00:02:11.080><c> will</c><00:02:11.200><c> have</c>
+
+00:02:11.390 --> 00:02:11.400 align:start position:0%
+blocks. With larger blocks, we will have
+ 
+
+00:02:11.400 --> 00:02:13.790 align:start position:0%
+blocks. With larger blocks, we will have
+fewer<00:02:11.680><c> blocks.</c><00:02:12.440><c> The</c><00:02:12.560><c> number</c><00:02:12.920><c> of</c><00:02:13.040><c> misses</c><00:02:13.600><c> will</c>
+
+00:02:13.790 --> 00:02:13.800 align:start position:0%
+fewer blocks. The number of misses will
+ 
+
+00:02:13.800 --> 00:02:15.990 align:start position:0%
+fewer blocks. The number of misses will
+be<00:02:13.920><c> equal</c><00:02:14.160><c> to</c><00:02:14.280><c> the</c><00:02:14.400><c> number</c><00:02:14.680><c> of</c><00:02:14.760><c> blocks.</c><00:02:15.640><c> So,</c><00:02:15.880><c> as</c>
+
+00:02:15.990 --> 00:02:16.000 align:start position:0%
+be equal to the number of blocks. So, as
+ 
+
+00:02:16.000 --> 00:02:18.270 align:start position:0%
+be equal to the number of blocks. So, as
+you<00:02:16.120><c> can</c><00:02:16.280><c> see,</c><00:02:17.080><c> if</c><00:02:17.320><c> we</c><00:02:17.400><c> increase</c><00:02:17.760><c> the</c><00:02:17.880><c> block</c>
+
+00:02:18.270 --> 00:02:18.280 align:start position:0%
+you can see, if we increase the block
+ 
+
+00:02:18.280 --> 00:02:19.790 align:start position:0%
+you can see, if we increase the block
+size
+
+00:02:19.790 --> 00:02:19.800 align:start position:0%
+size
+ 
+
+00:02:19.800 --> 00:02:21.230 align:start position:0%
+size
+and<00:02:19.959><c> our</c><00:02:20.080><c> miss</c><00:02:20.360><c> rate</c><00:02:20.520><c> goes</c><00:02:20.720><c> down</c><00:02:20.920><c> because</c>
+
+00:02:21.230 --> 00:02:21.240 align:start position:0%
+and our miss rate goes down because
+ 
+
+00:02:21.240 --> 00:02:23.990 align:start position:0%
+and our miss rate goes down because
+there<00:02:21.320><c> is</c><00:02:21.480><c> plenty</c><00:02:21.840><c> of</c><00:02:21.920><c> spatial</c><00:02:22.320><c> locality,</c>
+
+00:02:23.990 --> 00:02:24.000 align:start position:0%
+there is plenty of spatial locality,
+ 
+
+00:02:24.000 --> 00:02:26.070 align:start position:0%
+there is plenty of spatial locality,
+we<00:02:24.120><c> are</c><00:02:24.240><c> also</c><00:02:24.600><c> reducing</c><00:02:25.600><c> the</c><00:02:25.720><c> number</c><00:02:26.000><c> of</c>
+
+00:02:26.070 --> 00:02:26.080 align:start position:0%
+we are also reducing the number of
+ 
+
+00:02:26.080 --> 00:02:28.550 align:start position:0%
+we are also reducing the number of
+capacity<00:02:26.680><c> misses.</c><00:02:27.400><c> And</c><00:02:27.600><c> finally,</c><00:02:28.120><c> if</c><00:02:28.240><c> we</c><00:02:28.360><c> look</c>
+
+00:02:28.550 --> 00:02:28.560 align:start position:0%
+capacity misses. And finally, if we look
+ 
+
+00:02:28.560 --> 00:02:31.030 align:start position:0%
+capacity misses. And finally, if we look
+at<00:02:28.640><c> the</c><00:02:28.760><c> conflict</c><00:02:29.320><c> misses,</c><00:02:30.280><c> we</c><00:02:30.400><c> can</c><00:02:30.560><c> construct</c>
+
+00:02:31.030 --> 00:02:31.040 align:start position:0%
+at the conflict misses, we can construct
+ 
+
+00:02:31.040 --> 00:02:34.590 align:start position:0%
+at the conflict misses, we can construct
+a<00:02:31.080><c> similar</c><00:02:31.520><c> example</c><00:02:32.520><c> where</c><00:02:32.760><c> two</c><00:02:33.520><c> blocks</c><00:02:34.440><c> are</c>
+
+00:02:34.590 --> 00:02:34.600 align:start position:0%
+a similar example where two blocks are
+ 
+
+00:02:34.600 --> 00:02:37.230 align:start position:0%
+a similar example where two blocks are
+kicking<00:02:34.920><c> each</c><00:02:35.120><c> other</c><00:02:35.360><c> out.</c><00:02:36.160><c> And</c><00:02:36.320><c> because</c><00:02:36.920><c> each</c>
+
+00:02:37.230 --> 00:02:37.240 align:start position:0%
+kicking each other out. And because each
+ 
+
+00:02:37.240 --> 00:02:39.949 align:start position:0%
+kicking each other out. And because each
+time<00:02:37.920><c> we</c><00:02:38.080><c> fetch</c><00:02:38.640><c> a</c><00:02:38.760><c> larger</c><00:02:39.240><c> block,</c><00:02:39.720><c> if</c><00:02:39.880><c> the</c>
+
+00:02:39.949 --> 00:02:39.959 align:start position:0%
+time we fetch a larger block, if the
+ 
+
+00:02:39.959 --> 00:02:42.110 align:start position:0%
+time we fetch a larger block, if the
+block<00:02:40.240><c> size</c><00:02:40.520><c> goes</c><00:02:40.840><c> up,</c><00:02:41.360><c> we</c><00:02:41.480><c> will</c><00:02:41.640><c> be</c><00:02:41.800><c> having</c>
+
+00:02:42.110 --> 00:02:42.120 align:start position:0%
+block size goes up, we will be having
+ 
+
+00:02:42.120 --> 00:02:44.390 align:start position:0%
+block size goes up, we will be having
+fewer<00:02:42.400><c> conflict</c><00:02:42.840><c> misses.</c><00:02:43.600><c> So,</c><00:02:43.840><c> the</c><00:02:44.000><c> increase</c>
+
+00:02:44.390 --> 00:02:44.400 align:start position:0%
+fewer conflict misses. So, the increase
+ 
+
+00:02:44.400 --> 00:02:45.910 align:start position:0%
+fewer conflict misses. So, the increase
+in<00:02:44.520><c> block</c><00:02:44.800><c> size</c>
+
+00:02:45.910 --> 00:02:45.920 align:start position:0%
+in block size
+ 
+
+00:02:45.920 --> 00:02:49.590 align:start position:0%
+in block size
+can<00:02:46.680><c> improve</c><00:02:47.400><c> all</c><00:02:47.640><c> types</c><00:02:48.480><c> of</c><00:02:48.680><c> misses.</c><00:02:49.400><c> That</c>
+
+00:02:49.590 --> 00:02:49.600 align:start position:0%
+can improve all types of misses. That
+ 
+
+00:02:49.600 --> 00:02:51.830 align:start position:0%
+can improve all types of misses. That
+is,<00:02:49.720><c> it</c><00:02:49.880><c> can</c><00:02:50.160><c> reduce</c><00:02:50.520><c> the</c><00:02:50.640><c> number</c>
+
+00:02:51.830 --> 00:02:51.840 align:start position:0%
+is, it can reduce the number
+ 
+
+00:02:51.840 --> 00:02:54.030 align:start position:0%
+is, it can reduce the number
+for<00:02:52.040><c> all</c><00:02:52.200><c> three</c><00:02:52.400><c> types</c><00:02:52.720><c> of</c><00:02:52.840><c> misses.</c><00:02:53.760><c> When</c><00:02:53.959><c> we</c>
+
+00:02:54.030 --> 00:02:54.040 align:start position:0%
+for all three types of misses. When we
+ 
+
+00:02:54.040 --> 00:02:55.750 align:start position:0%
+for all three types of misses. When we
+increase<00:02:54.280><c> the</c><00:02:54.360><c> block</c><00:02:54.640><c> size,</c><00:02:55.040><c> the</c><00:02:55.120><c> compulsory</c>
+
+00:02:55.750 --> 00:02:55.760 align:start position:0%
+increase the block size, the compulsory
+ 
+
+00:02:55.760 --> 00:02:57.590 align:start position:0%
+increase the block size, the compulsory
+misses<00:02:56.040><c> are</c><00:02:56.200><c> almost</c><00:02:56.560><c> always</c><00:02:56.840><c> going</c><00:02:57.040><c> to</c><00:02:57.400><c> go</c>
+
+00:02:57.590 --> 00:02:57.600 align:start position:0%
+misses are almost always going to go
+ 
+
+00:02:57.600 --> 00:03:00.509 align:start position:0%
+misses are almost always going to go
+down.<00:02:58.520><c> The</c><00:02:58.600><c> capacity</c><00:02:59.239><c> misses</c><00:03:00.080><c> are</c><00:03:00.239><c> going</c><00:03:00.440><c> to</c>
+
+00:03:00.509 --> 00:03:00.519 align:start position:0%
+down. The capacity misses are going to
+ 
+
+00:03:00.519 --> 00:03:02.310 align:start position:0%
+down. The capacity misses are going to
+go<00:03:00.680><c> down</c><00:03:01.040><c> as</c><00:03:01.200><c> long</c><00:03:01.519><c> as</c><00:03:01.640><c> there</c><00:03:01.800><c> is</c><00:03:01.959><c> enough</c>
+
+00:03:02.310 --> 00:03:02.320 align:start position:0%
+go down as long as there is enough
+ 
+
+00:03:02.320 --> 00:03:05.229 align:start position:0%
+go down as long as there is enough
+locality,<00:03:03.519><c> and</c><00:03:03.680><c> the</c><00:03:03.800><c> conflict</c><00:03:04.320><c> misses</c><00:03:05.080><c> are</c>
+
+00:03:05.229 --> 00:03:05.239 align:start position:0%
+locality, and the conflict misses are
+ 
+
+00:03:05.239 --> 00:03:07.430 align:start position:0%
+locality, and the conflict misses are
+likely<00:03:05.560><c> to</c><00:03:05.680><c> stay</c><00:03:05.920><c> similar,</c><00:03:06.720><c> but</c><00:03:06.959><c> might</c><00:03:07.239><c> go</c>
+
+00:03:07.430 --> 00:03:07.440 align:start position:0%
+likely to stay similar, but might go
+ 
+
+00:03:07.440 --> 00:03:09.880 align:start position:0%
+likely to stay similar, but might go
+down.
+

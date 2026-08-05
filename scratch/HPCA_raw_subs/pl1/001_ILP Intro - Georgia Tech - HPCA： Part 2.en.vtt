@@ -1,0 +1,96 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.719 --> 00:00:03.909 align:start position:0%
+ 
+Branch<00:00:01.120><c> fiction</c><00:00:01.680><c> and</c><00:00:02.000><c> if</c><00:00:02.439><c> conversion</c><00:00:03.439><c> help</c><00:00:03.679><c> us</c>
+
+00:00:03.909 --> 00:00:03.919 align:start position:0%
+Branch fiction and if conversion help us
+ 
+
+00:00:03.919 --> 00:00:06.150 align:start position:0%
+Branch fiction and if conversion help us
+eliminate<00:00:04.560><c> most</c><00:00:04.799><c> of</c><00:00:04.960><c> the</c><00:00:05.120><c> pipeline</c><00:00:05.680><c> problems</c>
+
+00:00:06.150 --> 00:00:06.160 align:start position:0%
+eliminate most of the pipeline problems
+ 
+
+00:00:06.160 --> 00:00:09.070 align:start position:0%
+eliminate most of the pipeline problems
+caused<00:00:06.480><c> by</c><00:00:06.799><c> control</c><00:00:07.240><c> hazards.</c><00:00:08.240><c> But</c><00:00:08.559><c> data</c>
+
+00:00:09.070 --> 00:00:09.080 align:start position:0%
+caused by control hazards. But data
+ 
+
+00:00:09.080 --> 00:00:11.669 align:start position:0%
+caused by control hazards. But data
+dependencies<00:00:10.080><c> can</c><00:00:10.480><c> also</c><00:00:10.880><c> prevent</c><00:00:11.200><c> us</c><00:00:11.440><c> from</c>
+
+00:00:11.669 --> 00:00:11.679 align:start position:0%
+dependencies can also prevent us from
+ 
+
+00:00:11.679 --> 00:00:14.310 align:start position:0%
+dependencies can also prevent us from
+finishing<00:00:12.160><c> one</c><00:00:12.440><c> instruction</c><00:00:13.440><c> every</c><00:00:13.920><c> single</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+finishing one instruction every single
+ 
+
+00:00:14.320 --> 00:00:16.990 align:start position:0%
+finishing one instruction every single
+cycle.<00:00:15.040><c> So</c><00:00:15.280><c> what</c><00:00:15.519><c> can</c><00:00:15.679><c> we</c><00:00:15.920><c> do</c><00:00:16.160><c> about</c><00:00:16.400><c> data</c>
+
+00:00:16.990 --> 00:00:17.000 align:start position:0%
+cycle. So what can we do about data
+ 
+
+00:00:17.000 --> 00:00:19.670 align:start position:0%
+cycle. So what can we do about data
+dependencies?<00:00:18.000><c> And</c><00:00:18.160><c> why</c><00:00:18.560><c> stop</c><00:00:18.880><c> at</c><00:00:19.119><c> only</c><00:00:19.359><c> one</c>
+
+00:00:19.670 --> 00:00:19.680 align:start position:0%
+dependencies? And why stop at only one
+ 
+
+00:00:19.680 --> 00:00:21.990 align:start position:0%
+dependencies? And why stop at only one
+instruction<00:00:20.160><c> per</c><00:00:20.400><c> cycle?</c><00:00:21.279><c> In</c><00:00:21.520><c> this</c><00:00:21.680><c> lesson,</c>
+
+00:00:21.990 --> 00:00:22.000 align:start position:0%
+instruction per cycle? In this lesson,
+ 
+
+00:00:22.000 --> 00:00:24.029 align:start position:0%
+instruction per cycle? In this lesson,
+we<00:00:22.240><c> will</c><00:00:22.400><c> learn</c><00:00:22.640><c> about</c><00:00:22.960><c> instruction</c><00:00:23.600><c> level</c>
+
+00:00:24.029 --> 00:00:24.039 align:start position:0%
+we will learn about instruction level
+ 
+
+00:00:24.039 --> 00:00:26.470 align:start position:0%
+we will learn about instruction level
+parallelism,<00:00:25.039><c> which</c><00:00:25.359><c> tells</c><00:00:25.600><c> us</c><00:00:25.920><c> how</c><00:00:26.160><c> many</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+parallelism, which tells us how many
+ 
+
+00:00:26.480 --> 00:00:28.790 align:start position:0%
+parallelism, which tells us how many
+instructions<00:00:27.119><c> could</c><00:00:27.359><c> be</c><00:00:27.599><c> possibly</c><00:00:28.160><c> execute</c>
+
+00:00:28.790 --> 00:00:28.800 align:start position:0%
+instructions could be possibly execute
+ 
+
+00:00:28.800 --> 00:00:32.400 align:start position:0%
+instructions could be possibly execute
+in<00:00:29.119><c> any</c><00:00:29.359><c> given</c><00:00:29.679><c> cycle.</c>
+

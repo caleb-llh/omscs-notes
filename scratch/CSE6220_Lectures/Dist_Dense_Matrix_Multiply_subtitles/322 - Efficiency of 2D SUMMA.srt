@@ -1,0 +1,100 @@
+1
+00:00:00,460 --> 00:00:04,288
+ So is the 2-D summa scheme intrinsically more scaleable than the 1-D block
+
+2
+00:00:04,288 --> 00:00:05,700
+ row scheme?
+
+3
+00:00:05,700 --> 00:00:07,939
+ The answer is quite possibly.
+
+4
+00:00:07,939 --> 00:00:12,575
+ First note that the strip width is a tuning perimeter of the algorithm.
+
+5
+00:00:12,575 --> 00:00:16,690
+ Its range is between 1 and N over square root of P.
+
+6
+00:00:16,690 --> 00:00:20,730
+ Again, that's assuming square operands and a square process grid.
+
+7
+00:00:20,730 --> 00:00:21,960
+ To analyze the efficiency,
+
+8
+00:00:21,960 --> 00:00:26,180
+ let's start by assuming the tree based broadcast implementation.
+
+9
+00:00:26,180 --> 00:00:29,860
+ If you compute the efficiency, you should find that it's equal to this.
+
+10
+00:00:29,860 --> 00:00:32,860
+ Now if you stare at this long enough, one of two things will happen.
+
+11
+00:00:32,860 --> 00:00:34,660
+ One is you'll glaze over.
+
+12
+00:00:34,660 --> 00:00:36,190
+ The other is being observant,
+
+13
+00:00:36,190 --> 00:00:40,800
+ you'll see that this factor determines the isoefficiency.
+
+14
+00:00:40,800 --> 00:00:44,150
+ In particular the isoefficiency function is as follows.
+
+15
+00:00:44,150 --> 00:00:46,870
+ Let's compare this to the 1-D algorithm.
+
+16
+00:00:46,870 --> 00:00:50,720
+ The isoefficiency function of the 2-D scheme is asymptotically lower
+
+17
+00:00:50,720 --> 00:00:52,390
+ than the 1-D scheme.
+
+18
+00:00:52,390 --> 00:00:56,110
+ That means the 2-D scheme is intrinsically more scalable.
+
+19
+00:00:56,110 --> 00:01:00,103
+ You don't need to increase the problem size as fast as you need to with the 1-D
+
+20
+00:01:00,103 --> 00:01:00,870
+ scheme.
+
+21
+00:01:00,870 --> 00:01:04,410
+ Now you can of course do the same exercise with a bucketing scheme.
+
+22
+00:01:04,410 --> 00:01:07,245
+ In that case you'll find a slightly different ISO efficiency function.
+
+23
+00:01:07,245 --> 00:01:11,940
+ Asymptotically, this is a little bit worse than the tree based scheme.
+
+24
+00:01:11,940 --> 00:01:16,010
+ If you work it out you'll find that it comes from trading a lower communication
+
+25
+00:01:16,010 --> 00:01:16,010
+ volume with a higher latency cost.
+

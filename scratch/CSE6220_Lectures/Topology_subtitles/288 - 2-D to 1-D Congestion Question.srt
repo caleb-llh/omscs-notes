@@ -1,0 +1,32 @@
+1
+00:00:00,510 --> 00:00:03,670
+ Consider the following general case of a mapping.
+
+2
+00:00:03,670 --> 00:00:06,500
+ The logical network is a 2-D Taurus.
+
+3
+00:00:06,500 --> 00:00:08,990
+ The physical network is a 1-D ring.
+
+4
+00:00:08,990 --> 00:00:11,540
+ The numbering of mapping is as shown.
+
+5
+00:00:11,540 --> 00:00:13,140
+ Here's my question.
+
+6
+00:00:13,140 --> 00:00:15,310
+ What is the congestion of this mapping?
+
+7
+00:00:15,310 --> 00:00:17,860
+ I want you to type your symbolic answer here.
+
+8
+00:00:17,860 --> 00:00:17,860
+ If you need to put in the symbol square root of x, just type sqrt (x).
+

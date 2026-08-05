@@ -1,0 +1,32 @@
+1
+00:00:00,440 --> 00:00:02,290
+ Consider an-all-to one vector reduction.
+
+2
+00:00:02,290 --> 00:00:07,138
+ Now suppose tau is the time per scalar addition.
+
+3
+00:00:07,138 --> 00:00:11,380
+ Assuming a tree-based scheme this is the time to reduce an input of size N
+
+4
+00:00:11,380 --> 00:00:13,310
+ on a linear network.
+
+5
+00:00:13,310 --> 00:00:15,110
+ Here is my question.
+
+6
+00:00:15,110 --> 00:00:18,360
+ Which of the following best describes the isoefficiency function
+
+7
+00:00:18,360 --> 00:00:21,090
+ of a tree-based all-to-one reduce?
+
+8
+00:00:21,090 --> 00:00:21,090
+ Here are your choices.
+

@@ -1,0 +1,256 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.819 align:start position:0%
+ 
+so<00:00:00.510><c> let's</c><00:00:00.780><c> look</c><00:00:00.989><c> at</c><00:00:01.199><c> the</c><00:00:01.319><c> problem</c><00:00:01.740><c> of</c>
+
+00:00:01.819 --> 00:00:01.829 align:start position:0%
+so let's look at the problem of
+ 
+
+00:00:01.829 --> 00:00:03.770 align:start position:0%
+so let's look at the problem of
+multicore<00:00:02.460><c> and</c><00:00:02.700><c> many</c><00:00:02.879><c> core</c><00:00:03.120><c> power</c><00:00:03.419><c> and</c>
+
+00:00:03.770 --> 00:00:03.780 align:start position:0%
+multicore and many core power and
+ 
+
+00:00:03.780 --> 00:00:07.220 align:start position:0%
+multicore and many core power and
+performance<00:00:04.490><c> the</c><00:00:05.490><c> problem</c><00:00:05.940><c> is</c><00:00:06.060><c> this</c><00:00:06.240><c> we</c><00:00:07.049><c> have</c>
+
+00:00:07.220 --> 00:00:07.230 align:start position:0%
+performance the problem is this we have
+ 
+
+00:00:07.230 --> 00:00:09.500 align:start position:0%
+performance the problem is this we have
+one<00:00:07.440><c> core</c><00:00:07.799><c> let's</c><00:00:08.639><c> say</c><00:00:08.820><c> it</c><00:00:08.910><c> can</c><00:00:09.120><c> spend</c><00:00:09.420><c> a</c>
+
+00:00:09.500 --> 00:00:09.510 align:start position:0%
+one core let's say it can spend a
+ 
+
+00:00:09.510 --> 00:00:11.030 align:start position:0%
+one core let's say it can spend a
+hundred<00:00:09.750><c> watts</c><00:00:10.139><c> which</c><00:00:10.320><c> is</c><00:00:10.469><c> the</c><00:00:10.590><c> power</c><00:00:10.800><c> budget</c>
+
+00:00:11.030 --> 00:00:11.040 align:start position:0%
+hundred watts which is the power budget
+ 
+
+00:00:11.040 --> 00:00:13.549 align:start position:0%
+hundred watts which is the power budget
+for<00:00:11.340><c> the</c><00:00:11.460><c> entire</c><00:00:11.490><c> chip</c><00:00:12.000><c> and</c><00:00:12.240><c> that</c><00:00:12.349><c> power</c><00:00:13.349><c> of</c>
+
+00:00:13.549 --> 00:00:13.559 align:start position:0%
+for the entire chip and that power of
+ 
+
+00:00:13.559 --> 00:00:16.609 align:start position:0%
+for the entire chip and that power of
+the<00:00:13.830><c> one</c><00:00:13.980><c> core</c><00:00:14.309><c> is</c><00:00:14.580><c> really</c><00:00:15.240><c> some</c><00:00:16.109><c> sort</c><00:00:16.139><c> of</c><00:00:16.470><c> a</c>
+
+00:00:16.609 --> 00:00:16.619 align:start position:0%
+the one core is really some sort of a
+ 
+
+00:00:16.619 --> 00:00:20.390 align:start position:0%
+the one core is really some sort of a
+constant<00:00:17.220><c> times</c><00:00:17.789><c> the</c><00:00:18.150><c> voltage</c><00:00:18.779><c> squared</c><00:00:19.470><c> times</c>
+
+00:00:20.390 --> 00:00:20.400 align:start position:0%
+constant times the voltage squared times
+ 
+
+00:00:20.400 --> 00:00:23.330 align:start position:0%
+constant times the voltage squared times
+the<00:00:20.789><c> frequency</c><00:00:21.300><c> of</c><00:00:21.720><c> the</c><00:00:21.900><c> core</c><00:00:22.140><c> let's</c><00:00:22.830><c> say</c><00:00:23.070><c> that</c>
+
+00:00:23.330 --> 00:00:23.340 align:start position:0%
+the frequency of the core let's say that
+ 
+
+00:00:23.340 --> 00:00:25.550 align:start position:0%
+the frequency of the core let's say that
+we<00:00:23.490><c> get</c><00:00:23.730><c> a</c><00:00:23.760><c> hundred</c><00:00:24.119><c> watts</c><00:00:24.539><c> consumption</c><00:00:25.289><c> when</c>
+
+00:00:25.550 --> 00:00:25.560 align:start position:0%
+we get a hundred watts consumption when
+ 
+
+00:00:25.560 --> 00:00:27.370 align:start position:0%
+we get a hundred watts consumption when
+we<00:00:25.740><c> set</c><00:00:26.010><c> the</c><00:00:26.220><c> voltage</c><00:00:26.369><c> and</c><00:00:26.760><c> the</c><00:00:26.849><c> frequency</c>
+
+00:00:27.370 --> 00:00:27.380 align:start position:0%
+we set the voltage and the frequency
+ 
+
+00:00:27.380 --> 00:00:30.080 align:start position:0%
+we set the voltage and the frequency
+such<00:00:28.380><c> that</c><00:00:28.619><c> we</c><00:00:28.800><c> can</c><00:00:28.830><c> operate</c><00:00:29.340><c> at</c><00:00:29.550><c> 3.8</c>
+
+00:00:30.080 --> 00:00:30.090 align:start position:0%
+such that we can operate at 3.8
+ 
+
+00:00:30.090 --> 00:00:32.900 align:start position:0%
+such that we can operate at 3.8
+gigahertz<00:00:30.449><c> now</c><00:00:31.439><c> let's</c><00:00:31.769><c> say</c><00:00:32.040><c> that</c><00:00:32.250><c> we</c><00:00:32.430><c> get</c><00:00:32.579><c> two</c>
+
+00:00:32.900 --> 00:00:32.910 align:start position:0%
+gigahertz now let's say that we get two
+ 
+
+00:00:32.910 --> 00:00:36.139 align:start position:0%
+gigahertz now let's say that we get two
+cores<00:00:33.239><c> in</c><00:00:33.809><c> that</c><00:00:34.170><c> case</c><00:00:34.410><c> each</c><00:00:34.710><c> gets</c><00:00:35.100><c> half</c><00:00:35.670><c> the</c>
+
+00:00:36.139 --> 00:00:36.149 align:start position:0%
+cores in that case each gets half the
+ 
+
+00:00:36.149 --> 00:00:38.750 align:start position:0%
+cores in that case each gets half the
+power<00:00:36.329><c> budget</c><00:00:36.690><c> of</c><00:00:37.079><c> the</c><00:00:37.440><c> chip</c><00:00:37.680><c> the</c><00:00:38.070><c> per</c><00:00:38.399><c> core</c>
+
+00:00:38.750 --> 00:00:38.760 align:start position:0%
+power budget of the chip the per core
+ 
+
+00:00:38.760 --> 00:00:42.290 align:start position:0%
+power budget of the chip the per core
+power<00:00:39.149><c> in</c><00:00:39.510><c> the</c><00:00:39.690><c> two</c><00:00:39.989><c> core</c><00:00:40.320><c> case</c><00:00:40.620><c> is</c><00:00:41.129><c> one</c><00:00:42.000><c> half</c>
+
+00:00:42.290 --> 00:00:42.300 align:start position:0%
+power in the two core case is one half
+ 
+
+00:00:42.300 --> 00:00:46.010 align:start position:0%
+power in the two core case is one half
+of<00:00:42.629><c> the</c><00:00:42.719><c> single</c><00:00:43.620><c> course</c><00:00:44.309><c> power</c><00:00:44.700><c> so</c><00:00:45.510><c> we</c><00:00:45.690><c> need</c><00:00:45.870><c> to</c>
+
+00:00:46.010 --> 00:00:46.020 align:start position:0%
+of the single course power so we need to
+ 
+
+00:00:46.020 --> 00:00:49.520 align:start position:0%
+of the single course power so we need to
+reduce<00:00:46.559><c> the</c><00:00:46.980><c> voltage</c><00:00:47.160><c> and</c><00:00:47.670><c> frequency</c><00:00:48.530><c> such</c>
+
+00:00:49.520 --> 00:00:49.530 align:start position:0%
+reduce the voltage and frequency such
+ 
+
+00:00:49.530 --> 00:00:52.180 align:start position:0%
+reduce the voltage and frequency such
+that<00:00:49.770><c> we</c><00:00:49.950><c> get</c><00:00:50.190><c> one</c><00:00:50.940><c> half</c><00:00:51.239><c> of</c><00:00:51.360><c> the</c><00:00:51.420><c> power</c>
+
+00:00:52.180 --> 00:00:52.190 align:start position:0%
+that we get one half of the power
+ 
+
+00:00:52.190 --> 00:00:56.119 align:start position:0%
+that we get one half of the power
+remember<00:00:53.190><c> that</c><00:00:53.340><c> voltage</c><00:00:53.780><c> can</c><00:00:54.780><c> be</c><00:00:54.809><c> reduced</c><00:00:55.350><c> in</c>
+
+00:00:56.119 --> 00:00:56.129 align:start position:0%
+remember that voltage can be reduced in
+ 
+
+00:00:56.129 --> 00:00:59.119 align:start position:0%
+remember that voltage can be reduced in
+proportion<00:00:56.940><c> to</c><00:00:56.969><c> frequency</c><00:00:57.690><c> so</c><00:00:58.289><c> the</c><00:00:58.440><c> frequency</c>
+
+00:00:59.119 --> 00:00:59.129 align:start position:0%
+proportion to frequency so the frequency
+ 
+
+00:00:59.129 --> 00:01:02.000 align:start position:0%
+proportion to frequency so the frequency
+at<00:00:59.340><c> which</c><00:00:59.399><c> we</c><00:00:59.850><c> can</c><00:01:00.030><c> run</c><00:01:00.300><c> a</c><00:01:00.570><c> coroner</c><00:01:01.500><c> to</c><00:01:01.739><c> core</c>
+
+00:01:02.000 --> 00:01:02.010 align:start position:0%
+at which we can run a coroner to core
+ 
+
+00:01:02.010 --> 00:01:05.390 align:start position:0%
+at which we can run a coroner to core
+system<00:01:02.579><c> is</c><00:01:02.969><c> going</c><00:01:03.539><c> to</c><00:01:03.719><c> be</c><00:01:03.870><c> cubic</c><00:01:04.710><c> root</c><00:01:04.860><c> of</c><00:01:05.159><c> one</c>
+
+00:01:05.390 --> 00:01:05.400 align:start position:0%
+system is going to be cubic root of one
+ 
+
+00:01:05.400 --> 00:01:08.060 align:start position:0%
+system is going to be cubic root of one
+half<00:01:05.700><c> times</c><00:01:06.210><c> the</c><00:01:06.600><c> frequency</c><00:01:07.110><c> at</c><00:01:07.590><c> which</c><00:01:07.619><c> we</c><00:01:07.920><c> can</c>
+
+00:01:08.060 --> 00:01:08.070 align:start position:0%
+half times the frequency at which we can
+ 
+
+00:01:08.070 --> 00:01:09.920 align:start position:0%
+half times the frequency at which we can
+operate<00:01:08.310><c> a</c><00:01:08.430><c> single</c><00:01:08.909><c> core</c><00:01:09.119><c> in</c><00:01:09.240><c> a</c><00:01:09.330><c> single</c><00:01:09.720><c> core</c>
+
+00:01:09.920 --> 00:01:09.930 align:start position:0%
+operate a single core in a single core
+ 
+
+00:01:09.930 --> 00:01:12.410 align:start position:0%
+operate a single core in a single core
+system<00:01:10.380><c> which</c><00:01:10.680><c> is</c><00:01:10.860><c> this</c><00:01:11.070><c> frequency</c><00:01:11.549><c> and</c><00:01:11.909><c> that</c>
+
+00:01:12.410 --> 00:01:12.420 align:start position:0%
+system which is this frequency and that
+ 
+
+00:01:12.420 --> 00:01:16.640 align:start position:0%
+system which is this frequency and that
+ends<00:01:12.780><c> up</c><00:01:12.840><c> being</c><00:01:13.080><c> 0.8</c><00:01:14.040><c> approximately</c><00:01:14.909><c> times</c><00:01:15.650><c> f1</c>
+
+00:01:16.640 --> 00:01:16.650 align:start position:0%
+ends up being 0.8 approximately times f1
+ 
+
+00:01:16.650 --> 00:01:19.940 align:start position:0%
+ends up being 0.8 approximately times f1
+or<00:01:17.030><c> three</c><00:01:18.030><c> gigahertz</c><00:01:18.360><c> so</c><00:01:19.290><c> as</c><00:01:19.409><c> you</c><00:01:19.530><c> can</c><00:01:19.650><c> see</c><00:01:19.860><c> if</c>
+
+00:01:19.940 --> 00:01:19.950 align:start position:0%
+or three gigahertz so as you can see if
+ 
+
+00:01:19.950 --> 00:01:21.620 align:start position:0%
+or three gigahertz so as you can see if
+we<00:01:20.040><c> now</c><00:01:20.189><c> use</c><00:01:20.369><c> only</c><00:01:20.549><c> one</c><00:01:20.759><c> of</c><00:01:20.880><c> these</c><00:01:21.030><c> cores</c><00:01:21.299><c> we</c>
+
+00:01:21.620 --> 00:01:21.630 align:start position:0%
+we now use only one of these cores we
+ 
+
+00:01:21.630 --> 00:01:23.420 align:start position:0%
+we now use only one of these cores we
+get<00:01:21.810><c> to</c><00:01:21.960><c> run</c><00:01:22.110><c> it</c><00:01:22.290><c> at</c><00:01:22.470><c> three</c><00:01:22.680><c> gigahertz</c><00:01:22.979><c> as</c>
+
+00:01:23.420 --> 00:01:23.430 align:start position:0%
+get to run it at three gigahertz as
+ 
+
+00:01:23.430 --> 00:01:26.240 align:start position:0%
+get to run it at three gigahertz as
+opposed<00:01:24.299><c> to</c><00:01:24.390><c> 3.8</c><00:01:24.960><c> gigahertz</c><00:01:25.470><c> that</c><00:01:25.830><c> we</c><00:01:26.070><c> could</c>
+
+00:01:26.240 --> 00:01:26.250 align:start position:0%
+opposed to 3.8 gigahertz that we could
+ 
+
+00:01:26.250 --> 00:01:31.070 align:start position:0%
+opposed to 3.8 gigahertz that we could
+get<00:01:26.400><c> here</c><00:01:26.820><c> so</c><00:01:27.420><c> this</c><00:01:27.659><c> is</c><00:01:27.990><c> noticeably</c><00:01:28.860><c> slower</c>
+

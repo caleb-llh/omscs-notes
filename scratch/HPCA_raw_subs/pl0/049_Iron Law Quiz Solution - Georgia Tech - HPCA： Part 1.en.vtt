@@ -1,0 +1,216 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:01.910 align:start position:0%
+ 
+let's<00:00:00.359><c> discuss</c><00:00:00.760><c> the</c><00:00:00.960><c> solution</c><00:00:01.480><c> for</c><00:00:01.680><c> our</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+let's discuss the solution for our
+ 
+
+00:00:01.920 --> 00:00:04.950 align:start position:0%
+let's discuss the solution for our
+newest<00:00:02.440><c> iron</c><00:00:02.800><c> law</c><00:00:03.080><c> quiz</c><00:00:03.800><c> we</c><00:00:03.959><c> have</c><00:00:04.120><c> 50</c><00:00:04.440><c> billion</c>
+
+00:00:04.950 --> 00:00:04.960 align:start position:0%
+newest iron law quiz we have 50 billion
+ 
+
+00:00:04.960 --> 00:00:07.550 align:start position:0%
+newest iron law quiz we have 50 billion
+instructions<00:00:05.960><c> with</c><00:00:06.160><c> different</c><00:00:06.560><c> cpis</c><00:00:07.359><c> so</c>
+
+00:00:07.550 --> 00:00:07.560 align:start position:0%
+instructions with different cpis so
+ 
+
+00:00:07.560 --> 00:00:09.350 align:start position:0%
+instructions with different cpis so
+clearly<00:00:08.040><c> we</c><00:00:08.200><c> need</c><00:00:08.320><c> to</c><00:00:08.480><c> use</c><00:00:08.679><c> our</c><00:00:08.920><c> newest</c>
+
+00:00:09.350 --> 00:00:09.360 align:start position:0%
+clearly we need to use our newest
+ 
+
+00:00:09.360 --> 00:00:11.789 align:start position:0%
+clearly we need to use our newest
+version<00:00:09.840><c> of</c><00:00:10.000><c> the</c><00:00:10.160><c> iron</c><00:00:10.480><c> law</c><00:00:10.679><c> of</c><00:00:10.840><c> performance</c>
+
+00:00:11.789 --> 00:00:11.799 align:start position:0%
+version of the iron law of performance
+ 
+
+00:00:11.799 --> 00:00:15.710 align:start position:0%
+version of the iron law of performance
+execution<00:00:12.440><c> time</c><00:00:13.120><c> is</c><00:00:13.679><c> a</c><00:00:13.920><c> sum</c><00:00:14.440><c> of</c><00:00:15.120><c> number</c><00:00:15.480><c> of</c>
+
+00:00:15.710 --> 00:00:15.720 align:start position:0%
+execution time is a sum of number of
+ 
+
+00:00:15.720 --> 00:00:18.390 align:start position:0%
+execution time is a sum of number of
+instructions<00:00:16.720><c> of</c><00:00:16.880><c> a</c><00:00:17.080><c> particular</c><00:00:17.600><c> type</c><00:00:18.080><c> times</c>
+
+00:00:18.390 --> 00:00:18.400 align:start position:0%
+instructions of a particular type times
+ 
+
+00:00:18.400 --> 00:00:21.550 align:start position:0%
+instructions of a particular type times
+the<00:00:18.560><c> CPI</c><00:00:19.039><c> for</c><00:00:19.279><c> that</c><00:00:19.520><c> type</c><00:00:20.000><c> in</c><00:00:20.199><c> this</c><00:00:20.400><c> case</c><00:00:20.760><c> it's</c>
+
+00:00:21.550 --> 00:00:21.560 align:start position:0%
+the CPI for that type in this case it's
+ 
+
+00:00:21.560 --> 00:00:27.109 align:start position:0%
+the CPI for that type in this case it's
+10<00:00:22.359><c> *</c><00:00:22.840><c> 10</c><00:00:23.400><c> 9th</c><00:00:23.880><c> which</c><00:00:24.039><c> is</c><00:00:24.279><c> 10</c><00:00:24.599><c> billion</c><00:00:25.599><c> *</c><00:00:26.119><c> 4</c><00:00:26.840><c> for</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+10 * 10 9th which is 10 billion * 4 for
+ 
+
+00:00:27.119 --> 00:00:33.510 align:start position:0%
+10 * 10 9th which is 10 billion * 4 for
+branches<00:00:28.119><c> plus</c><00:00:28.960><c> 15</c><00:00:30.039><c> billion</c><00:00:30.759><c> *</c><00:00:31.240><c> 2</c><00:00:31.840><c> for</c><00:00:32.520><c> loads</c>
+
+00:00:33.510 --> 00:00:33.520 align:start position:0%
+branches plus 15 billion * 2 for loads
+ 
+
+00:00:33.520 --> 00:00:38.790 align:start position:0%
+branches plus 15 billion * 2 for loads
+plus<00:00:34.120><c> 5</c><00:00:34.960><c> billion</c><00:00:35.640><c> *</c><00:00:36.160><c> 3</c><00:00:36.960><c> for</c><00:00:37.520><c> stores</c><00:00:38.520><c> and</c><00:00:38.680><c> we</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+plus 5 billion * 3 for stores and we
+ 
+
+00:00:38.800 --> 00:00:40.869 align:start position:0%
+plus 5 billion * 3 for stores and we
+said<00:00:39.520><c> the</c><00:00:39.840><c> remaining</c><00:00:40.200><c> instructions</c><00:00:40.680><c> are</c>
+
+00:00:40.869 --> 00:00:40.879 align:start position:0%
+said the remaining instructions are
+ 
+
+00:00:40.879 --> 00:00:43.750 align:start position:0%
+said the remaining instructions are
+integer<00:00:41.320><c> ad</c><00:00:41.680><c> instructions</c><00:00:42.680><c> we</c><00:00:42.920><c> have</c><00:00:43.360><c> 30</c>
+
+00:00:43.750 --> 00:00:43.760 align:start position:0%
+integer ad instructions we have 30
+ 
+
+00:00:43.760 --> 00:00:46.270 align:start position:0%
+integer ad instructions we have 30
+billion<00:00:44.120><c> instructions</c><00:00:44.800><c> here</c><00:00:45.239><c> so</c><00:00:45.480><c> 20</c><00:00:45.840><c> billion</c>
+
+00:00:46.270 --> 00:00:46.280 align:start position:0%
+billion instructions here so 20 billion
+ 
+
+00:00:46.280 --> 00:00:50.270 align:start position:0%
+billion instructions here so 20 billion
+are<00:00:46.520><c> integer</c><00:00:47.000><c> ads</c><00:00:47.920><c> at</c><00:00:48.280><c> CPI</c><00:00:48.800><c> of</c><00:00:49.000><c> 1</c><00:00:49.480><c> and</c><00:00:49.760><c> all</c><00:00:49.960><c> of</c>
+
+00:00:50.270 --> 00:00:50.280 align:start position:0%
+are integer ads at CPI of 1 and all of
+ 
+
+00:00:50.280 --> 00:00:53.029 align:start position:0%
+are integer ads at CPI of 1 and all of
+that<00:00:50.760><c> times</c><00:00:51.120><c> the</c><00:00:51.280><c> clock</c><00:00:51.640><c> cycle</c><00:00:52.079><c> time</c><00:00:52.640><c> which</c><00:00:52.800><c> is</c>
+
+00:00:53.029 --> 00:00:53.039 align:start position:0%
+that times the clock cycle time which is
+ 
+
+00:00:53.039 --> 00:00:59.310 align:start position:0%
+that times the clock cycle time which is
+1<00:00:53.559><c> over</c><00:00:54.160><c> 4</c><00:00:54.800><c> *</c><00:00:55.359><c> 10</c><00:00:56.120><c> the</c><00:00:56.239><c> 9th</c><00:00:57.160><c> again</c><00:00:57.800><c> 4</c><00:00:58.239><c> GHz</c><00:00:59.039><c> is</c><00:00:59.160><c> the</c>
+
+00:00:59.310 --> 00:00:59.320 align:start position:0%
+1 over 4 * 10 the 9th again 4 GHz is the
+ 
+
+00:00:59.320 --> 00:01:01.430 align:start position:0%
+1 over 4 * 10 the 9th again 4 GHz is the
+clock<00:00:59.559><c> frequency</c><00:01:00.120><c> see</c><00:01:00.399><c> the</c><00:01:00.559><c> clock</c><00:01:00.800><c> cycle</c><00:01:01.199><c> time</c>
+
+00:01:01.430 --> 00:01:01.440 align:start position:0%
+clock frequency see the clock cycle time
+ 
+
+00:01:01.440 --> 00:01:04.270 align:start position:0%
+clock frequency see the clock cycle time
+is<00:01:01.600><c> one</c><00:01:01.920><c> over</c><00:01:02.280><c> that</c><00:01:03.079><c> now</c><00:01:03.280><c> let's</c><00:01:03.440><c> do</c><00:01:03.640><c> the</c><00:01:03.800><c> math</c>
+
+00:01:04.270 --> 00:01:04.280 align:start position:0%
+is one over that now let's do the math
+ 
+
+00:01:04.280 --> 00:01:14.070 align:start position:0%
+is one over that now let's do the math
+here<00:01:04.760><c> this</c><00:01:04.920><c> is</c><00:01:05.720><c> 40</c><00:01:06.720><c> +</c><00:01:07.720><c> 30</c><00:01:08.720><c> +</c><00:01:09.479><c> 15</c><00:01:10.439><c> +</c><00:01:11.240><c> 20</c><00:01:12.119><c> *</c><00:01:12.520><c> 10</c><00:01:13.159><c> 9th</c>
+
+00:01:14.070 --> 00:01:14.080 align:start position:0%
+here this is 40 + 30 + 15 + 20 * 10 9th
+ 
+
+00:01:14.080 --> 00:01:18.109 align:start position:0%
+here this is 40 + 30 + 15 + 20 * 10 9th
+/<00:01:15.080><c> 4</c><00:01:15.640><c> *</c><00:01:16.040><c> 10</c><00:01:16.240><c> to</c><00:01:16.360><c> the</c><00:01:16.479><c> 9th</c><00:01:16.799><c> so</c><00:01:16.960><c> 10</c><00:01:17.159><c> to</c><00:01:17.280><c> the</c><00:01:17.400><c> 9th</c><00:01:17.960><c> can</c>
+
+00:01:18.109 --> 00:01:18.119 align:start position:0%
+/ 4 * 10 to the 9th so 10 to the 9th can
+ 
+
+00:01:18.119 --> 00:01:21.830 align:start position:0%
+/ 4 * 10 to the 9th so 10 to the 9th can
+be<00:01:18.280><c> crossed</c><00:01:18.640><c> out</c><00:01:19.080><c> and</c><00:01:19.240><c> we</c><00:01:19.400><c> get</c><00:01:19.880><c> 105</c><00:01:20.720><c> over</c><00:01:20.960><c> 4</c>
+
+00:01:21.830 --> 00:01:21.840 align:start position:0%
+be crossed out and we get 105 over 4
+ 
+
+00:01:21.840 --> 00:01:24.830 align:start position:0%
+be crossed out and we get 105 over 4
+which<00:01:22.079><c> amounts</c><00:01:22.479><c> to</c>
+
+00:01:24.830 --> 00:01:24.840 align:start position:0%
+ 
+ 
+
+00:01:24.840 --> 00:01:27.870 align:start position:0%
+ 
+26.25<00:01:25.840><c> so</c><00:01:26.079><c> this</c><00:01:26.200><c> is</c><00:01:26.439><c> how</c><00:01:26.640><c> long</c><00:01:27.280><c> it</c><00:01:27.439><c> takes</c><00:01:27.720><c> to</c>
+
+00:01:27.870 --> 00:01:27.880 align:start position:0%
+26.25 so this is how long it takes to
+ 
+
+00:01:27.880 --> 00:01:29.910 align:start position:0%
+26.25 so this is how long it takes to
+run<00:01:28.119><c> this</c><00:01:28.280><c> 50</c><00:01:28.560><c> billion</c><00:01:28.880><c> instructions</c><00:01:29.400><c> at</c><00:01:29.520><c> 4</c><00:01:29.720><c> G</c>
+
+00:01:29.910 --> 00:01:29.920 align:start position:0%
+run this 50 billion instructions at 4 G
+ 
+
+00:01:29.920 --> 00:01:32.069 align:start position:0%
+run this 50 billion instructions at 4 G
+GHz<00:01:30.439><c> assuming</c><00:01:30.880><c> these</c><00:01:31.079><c> cpis</c><00:01:31.680><c> and</c><00:01:31.840><c> this</c>
+
+00:01:32.069 --> 00:01:32.079 align:start position:0%
+GHz assuming these cpis and this
+ 
+
+00:01:32.079 --> 00:01:35.560 align:start position:0%
+GHz assuming these cpis and this
+distribution<00:01:32.600><c> of</c><00:01:32.799><c> instructions</c>
+

@@ -1,0 +1,176 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.180 align:start position:0%
+ 
+so<00:00:00.450><c> now</c><00:00:00.630><c> that</c><00:00:00.840><c> we</c><00:00:00.960><c> have</c><00:00:00.989><c> seen</c><00:00:01.319><c> two</c><00:00:01.800><c> policies</c>
+
+00:00:02.180 --> 00:00:02.190 align:start position:0%
+so now that we have seen two policies
+ 
+
+00:00:02.190 --> 00:00:04.480 align:start position:0%
+so now that we have seen two policies
+that<00:00:02.490><c> try</c><00:00:02.700><c> to</c><00:00:02.760><c> approximate</c><00:00:03.270><c> LRU</c><00:00:04.080><c> replacement</c>
+
+00:00:04.480 --> 00:00:04.490 align:start position:0%
+that try to approximate LRU replacement
+ 
+
+00:00:04.490 --> 00:00:07.909 align:start position:0%
+that try to approximate LRU replacement
+let's<00:00:05.490><c> see</c><00:00:05.730><c> if</c><00:00:06.060><c> we</c><00:00:06.569><c> understood</c><00:00:06.990><c> how</c><00:00:07.230><c> NMR</c><00:00:07.770><c> you</c>
+
+00:00:07.909 --> 00:00:07.919 align:start position:0%
+let's see if we understood how NMR you
+ 
+
+00:00:07.919 --> 00:00:09.980 align:start position:0%
+let's see if we understood how NMR you
+works<00:00:08.160><c> suppose</c><00:00:09.059><c> we</c><00:00:09.269><c> have</c><00:00:09.480><c> a</c><00:00:09.690><c> fully</c>
+
+00:00:09.980 --> 00:00:09.990 align:start position:0%
+works suppose we have a fully
+ 
+
+00:00:09.990 --> 00:00:11.870 align:start position:0%
+works suppose we have a fully
+associative<00:00:10.290><c> cache</c><00:00:10.650><c> with</c><00:00:11.010><c> only</c><00:00:11.160><c> four</c><00:00:11.340><c> lines</c>
+
+00:00:11.870 --> 00:00:11.880 align:start position:0%
+associative cache with only four lines
+ 
+
+00:00:11.880 --> 00:00:14.890 align:start position:0%
+associative cache with only four lines
+and<00:00:12.240><c> it's</c><00:00:12.780><c> using</c><00:00:13.230><c> NMR</c><00:00:13.710><c> you</c><00:00:14.040><c> replacement</c>
+
+00:00:14.890 --> 00:00:14.900 align:start position:0%
+and it's using NMR you replacement
+ 
+
+00:00:14.900 --> 00:00:18.080 align:start position:0%
+and it's using NMR you replacement
+starts<00:00:15.900><c> out</c><00:00:16.080><c> empty</c><00:00:16.650><c> none</c><00:00:17.279><c> of</c><00:00:17.310><c> the</c><00:00:17.609><c> lines</c>
+
+00:00:18.080 --> 00:00:18.090 align:start position:0%
+starts out empty none of the lines
+ 
+
+00:00:18.090 --> 00:00:20.960 align:start position:0%
+starts out empty none of the lines
+contain<00:00:18.630><c> any</c><00:00:18.810><c> blocks</c><00:00:19.140><c> and</c><00:00:19.609><c> suppose</c><00:00:20.609><c> that</c><00:00:20.640><c> the</c>
+
+00:00:20.960 --> 00:00:20.970 align:start position:0%
+contain any blocks and suppose that the
+ 
+
+00:00:20.970 --> 00:00:23.390 align:start position:0%
+contain any blocks and suppose that the
+processor<00:00:21.570><c> accesses</c><00:00:22.289><c> blocks</c><00:00:23.070><c> in</c><00:00:23.369><c> the</c>
+
+00:00:23.390 --> 00:00:23.400 align:start position:0%
+processor accesses blocks in the
+ 
+
+00:00:23.400 --> 00:00:26.540 align:start position:0%
+processor accesses blocks in the
+following<00:00:23.820><c> order</c><00:00:24.029><c> it</c><00:00:24.869><c> accesses</c><00:00:25.430><c> something</c><00:00:26.430><c> in</c>
+
+00:00:26.540 --> 00:00:26.550 align:start position:0%
+following order it accesses something in
+ 
+
+00:00:26.550 --> 00:00:29.480 align:start position:0%
+following order it accesses something in
+block<00:00:26.760><c> a</c><00:00:27.029><c> then</c><00:00:27.869><c> again</c><00:00:28.289><c> something</c><00:00:28.890><c> in</c><00:00:29.039><c> block</c><00:00:29.250><c> a</c>
+
+00:00:29.480 --> 00:00:29.490 align:start position:0%
+block a then again something in block a
+ 
+
+00:00:29.490 --> 00:00:32.540 align:start position:0%
+block a then again something in block a
+then<00:00:30.179><c> something</c><00:00:30.539><c> in</c><00:00:30.840><c> block</c><00:00:31.080><c> B</c><00:00:31.380><c> then</c><00:00:32.040><c> something</c>
+
+00:00:32.540 --> 00:00:32.550 align:start position:0%
+then something in block B then something
+ 
+
+00:00:32.550 --> 00:00:34.850 align:start position:0%
+then something in block B then something
+in<00:00:32.700><c> block</c><00:00:32.910><c> a</c><00:00:33.180><c> then</c><00:00:34.020><c> something</c><00:00:34.469><c> in</c><00:00:34.620><c> Block</c><00:00:34.829><c> C</c>
+
+00:00:34.850 --> 00:00:34.860 align:start position:0%
+in block a then something in Block C
+ 
+
+00:00:34.860 --> 00:00:37.850 align:start position:0%
+in block a then something in Block C
+then<00:00:35.700><c> something</c><00:00:36.210><c> in</c><00:00:36.329><c> block</c><00:00:36.540><c> a</c><00:00:36.719><c> then</c><00:00:37.380><c> something</c>
+
+00:00:37.850 --> 00:00:37.860 align:start position:0%
+then something in block a then something
+ 
+
+00:00:37.860 --> 00:00:40.220 align:start position:0%
+then something in block a then something
+in<00:00:37.980><c> block</c><00:00:38.219><c> D</c><00:00:38.550><c> then</c><00:00:39.090><c> something</c><00:00:39.629><c> in</c><00:00:39.750><c> block</c><00:00:39.989><c> a</c>
+
+00:00:40.220 --> 00:00:40.230 align:start position:0%
+in block D then something in block a
+ 
+
+00:00:40.230 --> 00:00:45.790 align:start position:0%
+in block D then something in block a
+then<00:00:40.980><c> something</c><00:00:41.309><c> in</c><00:00:41.550><c> block</c><00:00:41.760><c> e</c><00:00:42.120><c> ay</c><00:00:42.360><c> ay</c><00:00:43.700><c> ay</c><00:00:44.780><c> ay</c>
+
+00:00:45.790 --> 00:00:45.800 align:start position:0%
+then something in block e ay ay ay ay
+ 
+
+00:00:45.800 --> 00:00:50.569 align:start position:0%
+then something in block e ay ay ay ay
+and<00:00:47.780><c> finally</c><00:00:48.780><c> something</c><00:00:49.379><c> in</c><00:00:49.500><c> block</c><00:00:49.680><c> B</c><00:00:49.890><c> the</c>
+
+00:00:50.569 --> 00:00:50.579 align:start position:0%
+and finally something in block B the
+ 
+
+00:00:50.579 --> 00:00:52.990 align:start position:0%
+and finally something in block B the
+question<00:00:51.000><c> for</c><00:00:51.210><c> you</c><00:00:51.360><c> what's</c><00:00:52.320><c> the</c><00:00:52.559><c> smallest</c>
+
+00:00:52.990 --> 00:00:53.000 align:start position:0%
+question for you what's the smallest
+ 
+
+00:00:53.000 --> 00:00:56.360 align:start position:0%
+question for you what's the smallest
+number<00:00:54.000><c> of</c><00:00:54.120><c> cache</c><00:00:54.390><c> misses</c><00:00:54.690><c> we</c><00:00:55.469><c> will</c><00:00:55.680><c> have</c><00:00:55.980><c> on</c>
+
+00:00:56.360 --> 00:00:56.370 align:start position:0%
+number of cache misses we will have on
+ 
+
+00:00:56.370 --> 00:00:59.569 align:start position:0%
+number of cache misses we will have on
+the<00:00:57.300><c> sequence</c><00:00:57.690><c> of</c><00:00:57.809><c> accesses</c><00:00:58.440><c> and</c><00:00:58.620><c> what's</c><00:00:59.370><c> the</c>
+
+00:00:59.569 --> 00:00:59.579 align:start position:0%
+the sequence of accesses and what's the
+ 
+
+00:00:59.579 --> 00:01:01.939 align:start position:0%
+the sequence of accesses and what's the
+largest<00:00:59.820><c> number</c><00:01:00.629><c> of</c><00:01:00.660><c> cache</c><00:01:00.960><c> misses</c><00:01:01.260><c> that</c><00:01:01.739><c> we</c>
+
+00:01:01.939 --> 00:01:01.949 align:start position:0%
+largest number of cache misses that we
+ 
+
+00:01:01.949 --> 00:01:05.390 align:start position:0%
+largest number of cache misses that we
+might<00:01:02.129><c> have</c><00:01:02.370><c> on</c><00:01:02.609><c> these</c><00:01:02.940><c> accesses</c>
+

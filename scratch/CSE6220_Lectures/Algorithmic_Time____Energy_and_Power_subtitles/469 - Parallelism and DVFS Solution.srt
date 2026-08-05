@@ -1,0 +1,112 @@
+1
+00:00:00,380 --> 00:00:04,850
+ Okay, this is a messy one, that is assuming I did something reasonable.
+
+2
+00:00:04,850 --> 00:00:05,630
+ Blah.
+
+3
+00:00:05,630 --> 00:00:08,420
+ I basically got the cube root of a bunch of stuff.
+
+4
+00:00:08,420 --> 00:00:11,679
+ Stuff in this case is 2 times W-D over PD.
+
+5
+00:00:11,679 --> 00:00:16,120
+ The exact answer isn't as important as how you get there, so if you got
+
+6
+00:00:16,120 --> 00:00:18,640
+ something different or the grading robots didn't give you credit for
+
+7
+00:00:18,640 --> 00:00:20,690
+ an equivalent expression, don't worry.
+
+8
+00:00:20,690 --> 00:00:22,340
+ Okay, here's what I did.
+
+9
+00:00:22,340 --> 00:00:24,220
+ First, I used Brent's theorem.
+
+10
+00:00:24,220 --> 00:00:29,040
+ This gives an upper bound on time given that we've slowed down the cores but
+
+11
+00:00:29,040 --> 00:00:30,900
+ we get to use more of them.
+
+12
+00:00:30,900 --> 00:00:32,960
+ The first sigma models slowdown,
+
+13
+00:00:32,960 --> 00:00:36,965
+ the second sigma cubed models the increase in processor cores.
+
+14
+00:00:36,965 --> 00:00:37,785
+ Then I thought to myself,
+
+15
+00:00:37,785 --> 00:00:41,155
+ self, let's pick a sigma to minimize the righthand side.
+
+16
+00:00:41,155 --> 00:00:43,415
+ Let me give the righthand side a name.
+
+17
+00:00:43,415 --> 00:00:47,175
+ G of sigma seems like a sufficiently creative name for [INAUDIBLE] work, so
+
+18
+00:00:47,175 --> 00:00:48,425
+ let's go with that.
+
+19
+00:00:48,425 --> 00:00:52,810
+ To minimize g, let's return to the dark recesses of Calc 101.
+
+20
+00:00:52,810 --> 00:00:56,530
+ In particular, let's take the derivative of g with respect to sigma.
+
+21
+00:00:56,530 --> 00:00:59,860
+ We'll get something, we'll set it to 0 and solve for sigma.
+
+22
+00:00:59,860 --> 00:01:03,050
+ When you do that, you basically get this mumbo jumbo.
+
+23
+00:01:03,050 --> 00:01:06,760
+ You can also take a second derivative of g just to verify that it's positive,
+
+24
+00:01:06,760 --> 00:01:09,510
+ meaning that sigma is really a minimizer.
+
+25
+00:01:09,510 --> 00:01:12,370
+ The more interesting question is, can you get a speed up?
+
+26
+00:01:12,370 --> 00:01:14,890
+ And the answer depends on the value of P.
+
+27
+00:01:14,890 --> 00:01:17,560
+ But the short answer is, sometimes.
+
+28
+00:01:17,560 --> 00:01:17,560
+ I'll leave figuring that out as an additional exercise for you.
+

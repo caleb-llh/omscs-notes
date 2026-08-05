@@ -1,0 +1,72 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.550 align:start position:0%
+ 
+we<00:00:00.399><c> now</c><00:00:00.640><c> know</c><00:00:00.880><c> how</c><00:00:01.040><c> pipelines</c><00:00:01.599><c> work</c><00:00:02.159><c> and</c><00:00:02.320><c> how</c>
+
+00:00:02.550 --> 00:00:02.560 align:start position:0%
+we now know how pipelines work and how
+ 
+
+00:00:02.560 --> 00:00:04.309 align:start position:0%
+we now know how pipelines work and how
+they<00:00:02.720><c> need</c><00:00:02.879><c> to</c><00:00:03.120><c> balance</c><00:00:03.600><c> the</c><00:00:03.760><c> increasing</c>
+
+00:00:04.309 --> 00:00:04.319 align:start position:0%
+they need to balance the increasing
+ 
+
+00:00:04.319 --> 00:00:07.110 align:start position:0%
+they need to balance the increasing
+clock<00:00:04.720><c> frequency</c><00:00:05.759><c> versus</c><00:00:06.399><c> the</c><00:00:06.560><c> stalls</c><00:00:06.960><c> and</c>
+
+00:00:07.110 --> 00:00:07.120 align:start position:0%
+clock frequency versus the stalls and
+ 
+
+00:00:07.120 --> 00:00:09.270 align:start position:0%
+clock frequency versus the stalls and
+flushes<00:00:07.680><c> caused</c><00:00:07.919><c> by</c><00:00:08.160><c> hazards</c>
+
+00:00:09.270 --> 00:00:09.280 align:start position:0%
+flushes caused by hazards
+ 
+
+00:00:09.280 --> 00:00:11.430 align:start position:0%
+flushes caused by hazards
+nowadays<00:00:09.760><c> almost</c><00:00:10.160><c> every</c><00:00:10.480><c> processor</c><00:00:10.960><c> uses</c>
+
+00:00:11.430 --> 00:00:11.440 align:start position:0%
+nowadays almost every processor uses
+ 
+
+00:00:11.440 --> 00:00:13.749 align:start position:0%
+nowadays almost every processor uses
+pipelining<00:00:12.240><c> so</c><00:00:12.400><c> we</c><00:00:12.559><c> will</c><00:00:12.799><c> use</c><00:00:13.040><c> our</c><00:00:13.200><c> pipelining</c>
+
+00:00:13.749 --> 00:00:13.759 align:start position:0%
+pipelining so we will use our pipelining
+ 
+
+00:00:13.759 --> 00:00:16.550 align:start position:0%
+pipelining so we will use our pipelining
+knowledge<00:00:14.320><c> over</c><00:00:14.799><c> and</c><00:00:15.120><c> over</c><00:00:15.920><c> as</c><00:00:16.080><c> we</c><00:00:16.240><c> look</c><00:00:16.480><c> at</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+knowledge over and over as we look at
+ 
+
+00:00:16.560 --> 00:00:18.870 align:start position:0%
+knowledge over and over as we look at
+some<00:00:16.720><c> of</c><00:00:16.880><c> the</c><00:00:17.119><c> more</c><00:00:17.359><c> advanced</c><00:00:17.760><c> topics</c><00:00:18.640><c> in</c><00:00:18.720><c> the</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+some of the more advanced topics in the
+ 
+
+00:00:18.880 --> 00:00:22.160 align:start position:0%
+some of the more advanced topics in the
+next<00:00:19.199><c> few</c><00:00:19.439><c> lessons</c>
+

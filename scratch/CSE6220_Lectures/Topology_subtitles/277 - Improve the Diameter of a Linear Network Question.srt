@@ -1,0 +1,28 @@
+1
+00:00:00,320 --> 00:00:04,080
+ Quiz time, suppose you were given a linear network of nodes.
+
+2
+00:00:04,080 --> 00:00:07,030
+ I claim you can add one link to this network, and
+
+3
+00:00:07,030 --> 00:00:09,850
+ reduce its diameter by roughly a factor of 2.
+
+4
+00:00:09,850 --> 00:00:12,090
+ I want you to add this link.
+
+5
+00:00:12,090 --> 00:00:16,000
+ To add a link, just pick the two nodes that represent the endpoint.
+
+6
+00:00:16,000 --> 00:00:18,230
+ For example, if you think the link between 2 and
+
+7
+00:00:18,230 --> 00:00:18,230
+ 3 will cut the diameter in half, then just click on 2 and click on 3.
+

@@ -1,0 +1,16 @@
+1
+00:00:00,099 --> 00:00:03,643
+ Here's a procedure, foo, that takes a linked list in the array pool
+
+2
+00:00:03,643 --> 00:00:06,285
+ representation and does something funny with it.
+
+3
+00:00:06,285 --> 00:00:08,892
+ My question to you is, what does foo do?
+
+4
+00:00:08,892 --> 00:00:08,892
+ I want you to enter your explanation as free-form text in this box.
+

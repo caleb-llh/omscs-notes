@@ -1,0 +1,224 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:02.510 align:start position:0%
+ 
+so<00:00:00.510><c> this</c><00:00:00.690><c> is</c><00:00:00.840><c> the</c><00:00:00.960><c> situation</c><00:00:01.439><c> we</c><00:00:01.560><c> have</c><00:00:01.800><c> for</c>
+
+00:00:02.510 --> 00:00:02.520 align:start position:0%
+so this is the situation we have for
+ 
+
+00:00:02.520 --> 00:00:04.340 align:start position:0%
+so this is the situation we have for
+this<00:00:02.669><c> patch</c><00:00:02.970><c> this</c><00:00:03.750><c> is</c><00:00:03.959><c> what</c><00:00:04.140><c> we</c><00:00:04.290><c> are</c>
+
+00:00:04.340 --> 00:00:04.350 align:start position:0%
+this patch this is what we are
+ 
+
+00:00:04.350 --> 00:00:06.410 align:start position:0%
+this patch this is what we are
+broadcasting<00:00:04.890><c> this</c><00:00:04.920><c> cycle</c><00:00:05.490><c> this</c><00:00:05.759><c> is</c><00:00:06.000><c> what</c><00:00:06.240><c> we</c>
+
+00:00:06.410 --> 00:00:06.420 align:start position:0%
+broadcasting this cycle this is what we
+ 
+
+00:00:06.420 --> 00:00:09.650 align:start position:0%
+broadcasting this cycle this is what we
+have<00:00:06.660><c> in</c><00:00:06.899><c> our</c><00:00:06.990><c> reservation</c><00:00:07.740><c> stations</c><00:00:08.309><c> and</c><00:00:08.760><c> the</c>
+
+00:00:09.650 --> 00:00:09.660 align:start position:0%
+have in our reservation stations and the
+ 
+
+00:00:09.660 --> 00:00:13.400 align:start position:0%
+have in our reservation stations and the
+question<00:00:10.110><c> is</c><00:00:11.030><c> why</c><00:00:12.030><c> hasn't</c><00:00:12.599><c> this</c><00:00:12.719><c> instruction</c>
+
+00:00:13.400 --> 00:00:13.410 align:start position:0%
+question is why hasn't this instruction
+ 
+
+00:00:13.410 --> 00:00:16.430 align:start position:0%
+question is why hasn't this instruction
+here<00:00:13.740><c> in</c><00:00:13.920><c> a</c><00:00:14.040><c> rs3</c><00:00:14.809><c> dispatch</c><00:00:15.809><c> before</c><00:00:16.230><c> this</c>
+
+00:00:16.430 --> 00:00:16.440 align:start position:0%
+here in a rs3 dispatch before this
+ 
+
+00:00:16.440 --> 00:00:20.090 align:start position:0%
+here in a rs3 dispatch before this
+because<00:00:16.890><c> obviously</c><00:00:18.140><c> it's</c><00:00:19.140><c> not</c><00:00:19.439><c> waiting</c><00:00:19.890><c> for</c>
+
+00:00:20.090 --> 00:00:20.100 align:start position:0%
+because obviously it's not waiting for
+ 
+
+00:00:20.100 --> 00:00:21.260 align:start position:0%
+because obviously it's not waiting for
+anything<00:00:20.310><c> at</c><00:00:20.609><c> this</c><00:00:20.730><c> point</c>
+
+00:00:21.260 --> 00:00:21.270 align:start position:0%
+anything at this point
+ 
+
+00:00:21.270 --> 00:00:22.460 align:start position:0%
+anything at this point
+so<00:00:21.480><c> the</c><00:00:21.600><c> question</c><00:00:21.900><c> is</c><00:00:22.020><c> if</c><00:00:22.140><c> this</c><00:00:22.260><c> is</c><00:00:22.320><c> the</c>
+
+00:00:22.460 --> 00:00:22.470 align:start position:0%
+so the question is if this is the
+ 
+
+00:00:22.470 --> 00:00:24.410 align:start position:0%
+so the question is if this is the
+beginning<00:00:22.949><c> of</c><00:00:23.039><c> a</c><00:00:23.189><c> cycle</c><00:00:23.609><c> then</c><00:00:23.850><c> why</c><00:00:24.090><c> hasn't</c>
+
+00:00:24.410 --> 00:00:24.420 align:start position:0%
+beginning of a cycle then why hasn't
+ 
+
+00:00:24.420 --> 00:00:26.390 align:start position:0%
+beginning of a cycle then why hasn't
+this<00:00:24.689><c> already</c><00:00:25.140><c> executed</c><00:00:25.769><c> before</c><00:00:25.890><c> we</c><00:00:26.189><c> go</c><00:00:26.340><c> to</c>
+
+00:00:26.390 --> 00:00:26.400 align:start position:0%
+this already executed before we go to
+ 
+
+00:00:26.400 --> 00:00:29.450 align:start position:0%
+this already executed before we go to
+this<00:00:26.640><c> cycle</c><00:00:27.029><c> the</c><00:00:27.539><c> first</c><00:00:27.750><c> choice</c><00:00:28.080><c> is</c><00:00:28.529><c> it</c><00:00:29.250><c> was</c>
+
+00:00:29.450 --> 00:00:29.460 align:start position:0%
+this cycle the first choice is it was
+ 
+
+00:00:29.460 --> 00:00:31.009 align:start position:0%
+this cycle the first choice is it was
+issued<00:00:29.820><c> in</c><00:00:30.000><c> the</c><00:00:30.150><c> previous</c><00:00:30.510><c> cycle</c><00:00:30.660><c> so</c>
+
+00:00:31.009 --> 00:00:31.019 align:start position:0%
+issued in the previous cycle so
+ 
+
+00:00:31.019 --> 00:00:33.350 align:start position:0%
+issued in the previous cycle so
+basically<00:00:31.380><c> this</c><00:00:32.160><c> says</c><00:00:32.489><c> that</c><00:00:32.550><c> this</c>
+
+00:00:33.350 --> 00:00:33.360 align:start position:0%
+basically this says that this
+ 
+
+00:00:33.360 --> 00:00:35.030 align:start position:0%
+basically this says that this
+instruction<00:00:33.960><c> was</c><00:00:34.079><c> inserted</c><00:00:34.590><c> here</c><00:00:34.770><c> in</c><00:00:34.950><c> the</c>
+
+00:00:35.030 --> 00:00:35.040 align:start position:0%
+instruction was inserted here in the
+ 
+
+00:00:35.040 --> 00:00:36.950 align:start position:0%
+instruction was inserted here in the
+previous<00:00:35.280><c> cycle</c><00:00:35.550><c> so</c><00:00:35.969><c> that's</c><00:00:36.180><c> why</c><00:00:36.360><c> it</c><00:00:36.420><c> didn't</c>
+
+00:00:36.950 --> 00:00:36.960 align:start position:0%
+previous cycle so that's why it didn't
+ 
+
+00:00:36.960 --> 00:00:40.280 align:start position:0%
+previous cycle so that's why it didn't
+dispatch<00:00:37.290><c> yet</c><00:00:37.559><c> the</c><00:00:38.489><c> next</c><00:00:38.850><c> answer</c><00:00:39.270><c> is</c><00:00:39.420><c> another</c>
+
+00:00:40.280 --> 00:00:40.290 align:start position:0%
+dispatch yet the next answer is another
+ 
+
+00:00:40.290 --> 00:00:42.139 align:start position:0%
+dispatch yet the next answer is another
+instruction<00:00:40.980><c> was</c><00:00:41.309><c> dispatched</c><00:00:41.790><c> to</c><00:00:41.879><c> the</c><00:00:42.030><c> ad</c>
+
+00:00:42.139 --> 00:00:42.149 align:start position:0%
+instruction was dispatched to the ad
+ 
+
+00:00:42.149 --> 00:00:45.260 align:start position:0%
+instruction was dispatched to the ad
+unit<00:00:42.329><c> so</c><00:00:42.600><c> this</c><00:00:42.719><c> one</c><00:00:42.960><c> couldn't</c><00:00:43.230><c> and</c><00:00:44.059><c> the</c><00:00:45.059><c> third</c>
+
+00:00:45.260 --> 00:00:45.270 align:start position:0%
+unit so this one couldn't and the third
+ 
+
+00:00:45.270 --> 00:00:47.660 align:start position:0%
+unit so this one couldn't and the third
+answer<00:00:45.480><c> is</c><00:00:45.840><c> that</c><00:00:46.079><c> if</c><00:00:46.559><c> the</c><00:00:46.860><c> instruction</c><00:00:47.309><c> in</c><00:00:47.399><c> RS</c>
+
+00:00:47.660 --> 00:00:47.670 align:start position:0%
+answer is that if the instruction in RS
+ 
+
+00:00:47.670 --> 00:00:49.819 align:start position:0%
+answer is that if the instruction in RS
+2<00:00:47.969><c> is</c><00:00:48.300><c> older</c><00:00:48.809><c> than</c><00:00:48.960><c> the</c><00:00:49.170><c> instruction</c><00:00:49.620><c> in</c><00:00:49.710><c> the</c>
+
+00:00:49.819 --> 00:00:49.829 align:start position:0%
+2 is older than the instruction in the
+ 
+
+00:00:49.829 --> 00:00:51.979 align:start position:0%
+2 is older than the instruction in the
+rs3<00:00:50.070><c> it</c><00:00:50.489><c> comes</c><00:00:50.789><c> before</c><00:00:51.030><c> it</c><00:00:51.239><c> in</c><00:00:51.510><c> program</c><00:00:51.870><c> order</c>
+
+00:00:51.979 --> 00:00:51.989 align:start position:0%
+rs3 it comes before it in program order
+ 
+
+00:00:51.989 --> 00:00:54.740 align:start position:0%
+rs3 it comes before it in program order
+then<00:00:52.379><c> RS</c><00:00:52.680><c> 3</c><00:00:52.890><c> cannot</c><00:00:53.190><c> dispatch</c><00:00:53.730><c> until</c><00:00:54.120><c> rstudio</c>
+
+00:00:54.740 --> 00:00:54.750 align:start position:0%
+then RS 3 cannot dispatch until rstudio
+ 
+
+00:00:54.750 --> 00:00:56.000 align:start position:0%
+then RS 3 cannot dispatch until rstudio
+so<00:00:54.960><c> simple</c><00:00:55.350><c> this</c><00:00:55.469><c> instruction</c><00:00:55.829><c> cannot</c>
+
+00:00:56.000 --> 00:00:56.010 align:start position:0%
+so simple this instruction cannot
+ 
+
+00:00:56.010 --> 00:00:57.139 align:start position:0%
+so simple this instruction cannot
+dispatch<00:00:56.340><c> because</c><00:00:56.489><c> it's</c><00:00:56.699><c> waiting</c><00:00:57.000><c> for</c>
+
+00:00:57.139 --> 00:00:57.149 align:start position:0%
+dispatch because it's waiting for
+ 
+
+00:00:57.149 --> 00:01:00.260 align:start position:0%
+dispatch because it's waiting for
+something<00:00:57.480><c> in</c><00:00:58.230><c> this</c><00:00:58.410><c> quiz</c><00:00:58.969><c> you</c><00:00:59.969><c> need</c><00:01:00.149><c> to</c>
+
+00:01:00.260 --> 00:01:00.270 align:start position:0%
+something in this quiz you need to
+ 
+
+00:01:00.270 --> 00:01:02.240 align:start position:0%
+something in this quiz you need to
+select<00:01:00.870><c> all</c><00:01:01.260><c> answers</c><00:01:01.770><c> that</c><00:01:01.920><c> would</c><00:01:02.039><c> possibly</c>
+
+00:01:02.240 --> 00:01:02.250 align:start position:0%
+select all answers that would possibly
+ 
+
+00:01:02.250 --> 00:01:04.760 align:start position:0%
+select all answers that would possibly
+be<00:01:02.520><c> correct</c>
+

@@ -1,0 +1,40 @@
+1
+00:00:00,320 --> 00:00:03,700
+ So far, you've shown the following lower bound on the running time of matrix
+
+2
+00:00:03,700 --> 00:00:06,455
+ multiplied with respect to communication.
+
+3
+00:00:06,455 --> 00:00:08,200
+ It assumes square matrices and, furthermore,
+
+4
+00:00:08,200 --> 00:00:11,970
+ that every node holds an equal part of a matrix operation.
+
+5
+00:00:11,970 --> 00:00:15,040
+ Given this information, can you figure out what goes here?
+
+6
+00:00:15,040 --> 00:00:19,300
+ Put another way, can you determine a lower bound on the number of messages
+
+7
+00:00:19,300 --> 00:00:20,790
+ that a node must send?
+
+8
+00:00:20,790 --> 00:00:24,200
+ I want you type your answer symbolically.
+
+9
+00:00:24,200 --> 00:00:27,290
+ You can use our usual shortcuts like square root of x for
+
+10
+00:00:27,290 --> 00:00:27,290
+ root x, or x carat y for x to the y.
+

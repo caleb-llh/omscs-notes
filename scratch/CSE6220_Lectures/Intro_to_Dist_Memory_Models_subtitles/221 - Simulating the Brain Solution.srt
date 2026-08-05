@@ -1,0 +1,104 @@
+1
+00:00:00,240 --> 00:00:02,625
+ I hope you found this calculation to be a no brainer.
+
+2
+00:00:02,625 --> 00:00:08,967
+ [NOISE] Okay, so here's the answer that I came up with.
+
+3
+00:00:08,967 --> 00:00:11,900
+ 1.4 million computers.
+
+4
+00:00:11,900 --> 00:00:13,570
+ So, how did I get that?
+
+5
+00:00:13,570 --> 00:00:16,720
+ Well, 10 trillion is ten to the 13th.
+
+6
+00:00:16,720 --> 00:00:18,820
+ That's the number of synapses.
+
+7
+00:00:18,820 --> 00:00:21,610
+ Each synapse needs 24 bytes.
+
+8
+00:00:21,610 --> 00:00:25,350
+ And that's for 1% of the brain, so to get 100% we multiply by 100 so
+
+9
+00:00:25,350 --> 00:00:29,870
+ that's the total storage required by the model.
+
+10
+00:00:29,870 --> 00:00:33,910
+ Now each workstation had 16 GiB of RAM, and 16 GiB, as it turns out,
+
+11
+00:00:33,910 --> 00:00:38,590
+ is 2 to the 34th bytes, so dividing this by 2 to the 34th,
+
+12
+00:00:38,590 --> 00:00:43,630
+ you should get something like 1.4 million machines.
+
+13
+00:00:43,630 --> 00:00:45,750
+ So, how many computers is that?
+
+14
+00:00:45,750 --> 00:00:47,380
+ A heck of a lot.
+
+15
+00:00:47,380 --> 00:00:50,800
+ The super computer with the largest number of compute nodes is probably
+
+16
+00:00:50,800 --> 00:00:54,760
+ Sequoia, which is an IBM machine at Lawrence Livermore lab.
+
+17
+00:00:54,760 --> 00:00:57,590
+ That's of June 2014.
+
+18
+00:00:57,590 --> 00:01:01,250
+ The sequoia machine has about 98,000 nodes.
+
+19
+00:01:01,250 --> 00:01:03,910
+ So what if we took a look at data centers.
+
+20
+00:01:03,910 --> 00:01:09,100
+ According to a 2012 analysis of Google's data centers using satellite maps.
+
+21
+00:01:09,100 --> 00:01:11,940
+ Someone with a lot of time on their hands estimated that
+
+22
+00:01:11,940 --> 00:01:16,840
+ all of Google's data centers might have about 1.8 million servers.
+
+23
+00:01:16,840 --> 00:01:18,350
+ Again that's of 2012.
+
+24
+00:01:18,350 --> 00:01:20,295
+ So, they probably have more.
+
+25
+00:01:20,295 --> 00:01:23,430
+ 1.8 million just barely big enough to hold the whole problem.
+
+26
+00:01:23,430 --> 00:01:23,430
+ Hey that's huge.
+

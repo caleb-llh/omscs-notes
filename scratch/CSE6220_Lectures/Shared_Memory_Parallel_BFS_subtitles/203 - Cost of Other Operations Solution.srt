@@ -1,0 +1,16 @@
+1
+00:00:00,510 --> 00:00:04,378
+ Okay, so if you've been paying attention then you'll randomly guess the correct
+
+2
+00:00:04,378 --> 00:00:05,159
+ answer is log n.
+
+3
+00:00:05,159 --> 00:00:06,522
+ The answer is a little bit involved.
+
+4
+00:00:06,522 --> 00:00:06,522
+ So let's move on and I'll explain how.
+

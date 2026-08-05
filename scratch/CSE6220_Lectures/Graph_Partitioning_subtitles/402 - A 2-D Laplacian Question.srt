@@ -1,0 +1,40 @@
+1
+00:00:00,480 --> 00:00:04,770
+ Suppose I give you a set of nine weights arranged in a three-by-three grid.
+
+2
+00:00:04,770 --> 00:00:09,160
+ Again, each of these weights is attached to a stick of infinite length, and
+
+3
+00:00:09,160 --> 00:00:11,370
+ they're connected to their neighbors, in this case,
+
+4
+00:00:11,370 --> 00:00:14,320
+ the north, south, east, west neighbors, by springs.
+
+5
+00:00:14,320 --> 00:00:17,030
+ Now, suppose I number the weights as follows.
+
+6
+00:00:17,030 --> 00:00:20,440
+ So, I'm going from zero to eight, row wise.
+
+7
+00:00:20,440 --> 00:00:23,860
+ My question is, what is the graph Laplacian for this system?
+
+8
+00:00:23,860 --> 00:00:26,350
+ Fill in the entries of the Laplacian here.
+
+9
+00:00:26,350 --> 00:00:28,550
+ As usual, if you think an entry should be zero,
+
+10
+00:00:28,550 --> 00:00:28,550
+ you can just leave it blank to save you some typing.
+

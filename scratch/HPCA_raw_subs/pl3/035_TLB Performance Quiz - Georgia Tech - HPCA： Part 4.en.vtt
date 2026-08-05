@@ -1,0 +1,176 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.869 align:start position:0%
+ 
+now<00:00:00.359><c> that</c><00:00:00.520><c> we</c><00:00:00.640><c> have</c><00:00:00.799><c> seen</c><00:00:01.360><c> how</c><00:00:01.560><c> tlbs</c><00:00:02.159><c> work</c>
+
+00:00:02.869 --> 00:00:02.879 align:start position:0%
+now that we have seen how tlbs work
+ 
+
+00:00:02.879 --> 00:00:05.630 align:start position:0%
+now that we have seen how tlbs work
+let's<00:00:03.080><c> do</c><00:00:03.280><c> a</c><00:00:03.439><c> quiz</c><00:00:03.919><c> on</c><00:00:04.080><c> tlb</c><00:00:04.640><c> performance</c>
+
+00:00:05.630 --> 00:00:05.640 align:start position:0%
+let's do a quiz on tlb performance
+ 
+
+00:00:05.640 --> 00:00:07.269 align:start position:0%
+let's do a quiz on tlb performance
+suppose<00:00:06.040><c> we</c><00:00:06.200><c> have</c><00:00:06.319><c> a</c><00:00:06.480><c> program</c><00:00:06.799><c> with</c><00:00:06.919><c> a</c><00:00:07.040><c> 1</c>
+
+00:00:07.269 --> 00:00:07.279 align:start position:0%
+suppose we have a program with a 1
+ 
+
+00:00:07.279 --> 00:00:09.669 align:start position:0%
+suppose we have a program with a 1
+Megabyte<00:00:07.720><c> array</c><00:00:08.480><c> that</c><00:00:08.599><c> it</c><00:00:08.719><c> reads</c><00:00:09.080><c> one</c><00:00:09.280><c> bite</c><00:00:09.559><c> at</c>
+
+00:00:09.669 --> 00:00:09.679 align:start position:0%
+Megabyte array that it reads one bite at
+ 
+
+00:00:09.679 --> 00:00:12.709 align:start position:0%
+Megabyte array that it reads one bite at
+a<00:00:09.880><c> time</c><00:00:10.200><c> from</c><00:00:10.400><c> start</c><00:00:10.679><c> to</c><00:00:10.880><c> end</c><00:00:11.799><c> and</c><00:00:12.040><c> this</c><00:00:12.360><c> start</c>
+
+00:00:12.709 --> 00:00:12.719 align:start position:0%
+a time from start to end and this start
+ 
+
+00:00:12.719 --> 00:00:16.029 align:start position:0%
+a time from start to end and this start
+to<00:00:12.840><c> end</c><00:00:13.120><c> read</c><00:00:14.120><c> happens</c><00:00:14.480><c> 10</c><00:00:14.799><c> times</c><00:00:15.280><c> so</c><00:00:15.519><c> 10</c><00:00:15.719><c> times</c>
+
+00:00:16.029 --> 00:00:16.039 align:start position:0%
+to end read happens 10 times so 10 times
+ 
+
+00:00:16.039 --> 00:00:18.269 align:start position:0%
+to end read happens 10 times so 10 times
+we<00:00:16.160><c> sweep</c><00:00:16.520><c> through</c><00:00:16.680><c> the</c><00:00:16.800><c> array</c><00:00:17.199><c> reading</c><00:00:17.600><c> it</c>
+
+00:00:18.269 --> 00:00:18.279 align:start position:0%
+we sweep through the array reading it
+ 
+
+00:00:18.279 --> 00:00:20.230 align:start position:0%
+we sweep through the array reading it
+suppose<00:00:18.680><c> also</c><00:00:18.920><c> that</c><00:00:19.080><c> no</c><00:00:19.240><c> other</c><00:00:19.480><c> memory</c><00:00:20.000><c> other</c>
+
+00:00:20.230 --> 00:00:20.240 align:start position:0%
+suppose also that no other memory other
+ 
+
+00:00:20.240 --> 00:00:22.830 align:start position:0%
+suppose also that no other memory other
+than<00:00:20.400><c> this</c><00:00:20.560><c> 1</c><00:00:20.760><c> megab</c><00:00:21.199><c> array</c><00:00:22.080><c> is</c><00:00:22.359><c> accessed</c>
+
+00:00:22.830 --> 00:00:22.840 align:start position:0%
+than this 1 megab array is accessed
+ 
+
+00:00:22.840 --> 00:00:24.870 align:start position:0%
+than this 1 megab array is accessed
+during<00:00:23.199><c> this</c><00:00:23.400><c> time</c><00:00:24.240><c> suppose</c><00:00:24.560><c> that</c><00:00:24.680><c> the</c>
+
+00:00:24.870 --> 00:00:24.880 align:start position:0%
+during this time suppose that the
+ 
+
+00:00:24.880 --> 00:00:28.150 align:start position:0%
+during this time suppose that the
+processor<00:00:25.400><c> has</c><00:00:25.519><c> a</c><00:00:25.680><c> 4</c><00:00:25.960><c> kiloby</c><00:00:26.400><c> Page</c><00:00:26.720><c> size</c><00:00:27.720><c> and</c><00:00:28.000><c> a</c>
+
+00:00:28.150 --> 00:00:28.160 align:start position:0%
+processor has a 4 kiloby Page size and a
+ 
+
+00:00:28.160 --> 00:00:31.310 align:start position:0%
+processor has a 4 kiloby Page size and a
+level<00:00:28.439><c> one</c><00:00:28.679><c> tlb</c><00:00:29.359><c> that</c><00:00:29.519><c> has</c><00:00:29.759><c> 100</c><00:00:30.160><c> 28</c><00:00:30.599><c> entries</c>
+
+00:00:31.310 --> 00:00:31.320 align:start position:0%
+level one tlb that has 100 28 entries
+ 
+
+00:00:31.320 --> 00:00:35.549 align:start position:0%
+level one tlb that has 100 28 entries
+and<00:00:31.480><c> the</c><00:00:31.640><c> level</c><00:00:31.880><c> two</c><00:00:32.119><c> tlb</c><00:00:32.960><c> with</c><00:00:33.399><c> 1024</c><00:00:34.559><c> entries</c>
+
+00:00:35.549 --> 00:00:35.559 align:start position:0%
+and the level two tlb with 1024 entries
+ 
+
+00:00:35.559 --> 00:00:37.950 align:start position:0%
+and the level two tlb with 1024 entries
+and<00:00:36.160><c> the</c><00:00:36.280><c> tlbs</c><00:00:36.800><c> are</c><00:00:36.960><c> initially</c><00:00:37.360><c> empty</c><00:00:37.760><c> they</c>
+
+00:00:37.950 --> 00:00:37.960 align:start position:0%
+and the tlbs are initially empty they
+ 
+
+00:00:37.960 --> 00:00:39.630 align:start position:0%
+and the tlbs are initially empty they
+have<00:00:38.120><c> no</c><00:00:38.280><c> translations</c><00:00:38.920><c> cached</c><00:00:39.320><c> when</c><00:00:39.480><c> we</c>
+
+00:00:39.630 --> 00:00:39.640 align:start position:0%
+have no translations cached when we
+ 
+
+00:00:39.640 --> 00:00:43.350 align:start position:0%
+have no translations cached when we
+begin<00:00:39.920><c> the</c><00:00:40.120><c> first</c><00:00:40.559><c> read</c><00:00:41.559><c> the</c><00:00:41.879><c> array</c><00:00:42.879><c> here</c><00:00:43.120><c> is</c>
+
+00:00:43.350 --> 00:00:43.360 align:start position:0%
+begin the first read the array here is
+ 
+
+00:00:43.360 --> 00:00:45.310 align:start position:0%
+begin the first read the array here is
+Page<00:00:43.640><c> aligned</c><00:00:44.120><c> meaning</c><00:00:44.440><c> the</c><00:00:44.520><c> array</c><00:00:44.840><c> begins</c><00:00:45.200><c> at</c>
+
+00:00:45.310 --> 00:00:45.320 align:start position:0%
+Page aligned meaning the array begins at
+ 
+
+00:00:45.320 --> 00:00:48.350 align:start position:0%
+Page aligned meaning the array begins at
+the<00:00:45.440><c> beginning</c><00:00:45.760><c> of</c><00:00:45.960><c> a</c><00:00:46.199><c> page</c><00:00:47.199><c> and</c><00:00:47.520><c> the</c><00:00:47.640><c> tlb</c><00:00:48.079><c> is</c><00:00:48.120><c> a</c>
+
+00:00:48.350 --> 00:00:48.360 align:start position:0%
+the beginning of a page and the tlb is a
+ 
+
+00:00:48.360 --> 00:00:50.670 align:start position:0%
+the beginning of a page and the tlb is a
+direct<00:00:48.680><c> map</c><00:00:49.440><c> the</c><00:00:49.640><c> question</c><00:00:49.879><c> for</c><00:00:50.120><c> you</c><00:00:50.280><c> is</c><00:00:50.559><c> in</c>
+
+00:00:50.670 --> 00:00:50.680 align:start position:0%
+direct map the question for you is in
+ 
+
+00:00:50.680 --> 00:00:54.790 align:start position:0%
+direct map the question for you is in
+the<00:00:50.879><c> level</c><00:00:51.120><c> one</c><00:00:51.360><c> tlb</c><00:00:52.120><c> we</c><00:00:52.359><c> have</c><00:00:53.320><c> how</c><00:00:53.440><c> many</c><00:00:53.800><c> hits</c>
+
+00:00:54.790 --> 00:00:54.800 align:start position:0%
+the level one tlb we have how many hits
+ 
+
+00:00:54.800 --> 00:00:57.830 align:start position:0%
+the level one tlb we have how many hits
+and<00:00:55.000><c> how</c><00:00:55.160><c> many</c><00:00:55.600><c> misses</c><00:00:56.600><c> and</c><00:00:56.760><c> in</c><00:00:56.879><c> the</c><00:00:57.039><c> level</c><00:00:57.280><c> two</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+and how many misses and in the level two
+ 
+
+00:00:57.840 --> 00:01:03.280 align:start position:0%
+and how many misses and in the level two
+be<00:00:58.120><c> how</c><00:00:58.239><c> many</c><00:00:58.600><c> hits</c><00:00:59.519><c> and</c><00:00:59.680><c> how</c><00:01:00.039><c> many</c><00:01:00.280><c> misses</c>
+

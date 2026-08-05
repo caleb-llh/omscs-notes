@@ -1,0 +1,68 @@
+1
+00:00:00,330 --> 00:00:04,880
+ This is actually a really hard question, and probably way too unfair for a quiz.
+
+2
+00:00:04,880 --> 00:00:06,660
+ Yeah, I'm a jerk like that.
+
+3
+00:00:06,660 --> 00:00:09,770
+ So I would say that your best bets are the hypercube and
+
+4
+00:00:09,770 --> 00:00:11,620
+ fully connected networks.
+
+5
+00:00:11,620 --> 00:00:13,590
+ Here's my thought process.
+
+6
+00:00:13,590 --> 00:00:17,220
+ An all to all is intrinsically bi-section, limited.
+
+7
+00:00:17,220 --> 00:00:19,460
+ So, of these choices, only hypercubes and
+
+8
+00:00:19,460 --> 00:00:24,030
+ fully connected networks have linear bi-section widths or better.
+
+9
+00:00:24,030 --> 00:00:27,620
+ That's what you would need to knock down this bandwidth term from being linear in
+
+10
+00:00:27,620 --> 00:00:33,080
+ P, to something that is logarithmic in P, or maybe even constant.
+
+11
+00:00:33,080 --> 00:00:36,870
+ Okay, so that's not a rigorous proof that these are the right answers,
+
+12
+00:00:36,870 --> 00:00:38,190
+ it's just an intuitive idea.
+
+13
+00:00:38,190 --> 00:00:41,760
+ So, what I'll do is I'll put some pointers in the instructor's notes where
+
+14
+00:00:41,760 --> 00:00:44,490
+ you can do a little bit more reading if you're interested.
+
+15
+00:00:44,490 --> 00:00:46,360
+ I know you'll be interested, because if you do the reading,
+
+16
+00:00:46,360 --> 00:00:49,020
+ Mr Tofu will give you a cupcake.
+
+17
+00:00:49,020 --> 00:00:49,020
+ This cupcake is for you, Mr Tofu wants to give you a cupcake.
+

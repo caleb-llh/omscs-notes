@@ -1,0 +1,104 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.450 align:start position:0%
+ 
+let's<00:00:00.329><c> see</c><00:00:00.480><c> another</c><00:00:00.930><c> comparison</c><00:00:01.530><c> of</c><00:00:01.920><c> updates</c>
+
+00:00:02.450 --> 00:00:02.460 align:start position:0%
+let's see another comparison of updates
+ 
+
+00:00:02.460 --> 00:00:04.940 align:start position:0%
+let's see another comparison of updates
+and<00:00:02.700><c> invalidates</c><00:00:03.510><c> this</c><00:00:04.110><c> time</c><00:00:04.380><c> let's</c><00:00:04.620><c> look</c><00:00:04.799><c> at</c>
+
+00:00:04.940 --> 00:00:04.950 align:start position:0%
+and invalidates this time let's look at
+ 
+
+00:00:04.950 --> 00:00:06.650 align:start position:0%
+and invalidates this time let's look at
+two<00:00:05.130><c> cores</c><00:00:05.460><c> that</c><00:00:05.640><c> execute</c><00:00:06.089><c> the</c><00:00:06.240><c> following</c>
+
+00:00:06.650 --> 00:00:06.660 align:start position:0%
+two cores that execute the following
+ 
+
+00:00:06.660 --> 00:00:09.470 align:start position:0%
+two cores that execute the following
+program<00:00:07.140><c> core</c><00:00:07.740><c> zero</c><00:00:08.099><c> will</c><00:00:08.849><c> read</c><00:00:09.120><c> and</c><00:00:09.360><c> then</c>
+
+00:00:09.470 --> 00:00:09.480 align:start position:0%
+program core zero will read and then
+ 
+
+00:00:09.480 --> 00:00:12.320 align:start position:0%
+program core zero will read and then
+write<00:00:09.510><c> a</c><00:00:10.019><c> and</c><00:00:10.260><c> this</c><00:00:10.830><c> is</c><00:00:11.010><c> repeated</c><00:00:11.309><c> 500</c><00:00:12.090><c> times</c>
+
+00:00:12.320 --> 00:00:12.330 align:start position:0%
+write a and this is repeated 500 times
+ 
+
+00:00:12.330 --> 00:00:15.440 align:start position:0%
+write a and this is repeated 500 times
+and<00:00:12.660><c> then</c><00:00:13.440><c> core</c><00:00:13.769><c> one</c><00:00:14.099><c> will</c><00:00:14.910><c> read</c><00:00:15.179><c> and</c><00:00:15.420><c> then</c>
+
+00:00:15.440 --> 00:00:15.450 align:start position:0%
+and then core one will read and then
+ 
+
+00:00:15.450 --> 00:00:18.830 align:start position:0%
+and then core one will read and then
+write<00:00:15.599><c> a</c><00:00:16.020><c> and</c><00:00:16.260><c> this</c><00:00:16.859><c> is</c><00:00:17.130><c> repeated</c><00:00:17.520><c> 500</c><00:00:18.420><c> times</c>
+
+00:00:18.830 --> 00:00:18.840 align:start position:0%
+write a and this is repeated 500 times
+ 
+
+00:00:18.840 --> 00:00:20.900 align:start position:0%
+write a and this is repeated 500 times
+and<00:00:19.020><c> meanwhile</c><00:00:19.740><c> nothing</c><00:00:19.890><c> else</c><00:00:20.310><c> happens</c><00:00:20.820><c> in</c>
+
+00:00:20.900 --> 00:00:20.910 align:start position:0%
+and meanwhile nothing else happens in
+ 
+
+00:00:20.910 --> 00:00:23.120 align:start position:0%
+and meanwhile nothing else happens in
+this<00:00:21.090><c> course</c><00:00:21.359><c> so</c><00:00:21.510><c> nothing</c><00:00:21.900><c> gets</c><00:00:22.050><c> replaced</c><00:00:22.470><c> the</c>
+
+00:00:23.120 --> 00:00:23.130 align:start position:0%
+this course so nothing gets replaced the
+ 
+
+00:00:23.130 --> 00:00:25.250 align:start position:0%
+this course so nothing gets replaced the
+question<00:00:23.490><c> for</c><00:00:23.699><c> you</c><00:00:23.820><c> is</c><00:00:24.119><c> again</c><00:00:24.510><c> how</c><00:00:24.779><c> many</c><00:00:24.840><c> bus</c>
+
+00:00:25.250 --> 00:00:25.260 align:start position:0%
+question for you is again how many bus
+ 
+
+00:00:25.260 --> 00:00:27.380 align:start position:0%
+question for you is again how many bus
+uses<00:00:25.470><c> do</c><00:00:25.800><c> we</c><00:00:25.920><c> get</c><00:00:26.130><c> with</c><00:00:26.580><c> the</c><00:00:26.640><c> right</c><00:00:26.910><c> update</c>
+
+00:00:27.380 --> 00:00:27.390 align:start position:0%
+uses do we get with the right update
+ 
+
+00:00:27.390 --> 00:00:29.359 align:start position:0%
+uses do we get with the right update
+protocol<00:00:27.930><c> and</c><00:00:28.199><c> with</c><00:00:28.439><c> the</c><00:00:28.560><c> right</c><00:00:28.740><c> invalidate</c>
+
+00:00:29.359 --> 00:00:29.369 align:start position:0%
+protocol and with the right invalidate
+ 
+
+00:00:29.369 --> 00:00:32.510 align:start position:0%
+protocol and with the right invalidate
+protocol<00:00:29.910><c> in</c><00:00:30.090><c> this</c><00:00:30.240><c> case</c>
+

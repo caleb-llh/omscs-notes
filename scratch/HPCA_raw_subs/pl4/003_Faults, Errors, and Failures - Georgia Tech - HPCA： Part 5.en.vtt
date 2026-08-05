@@ -1,0 +1,144 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.990 align:start position:0%
+ 
+so<00:00:00.320><c> when</c><00:00:00.480><c> we</c><00:00:00.640><c> say</c><00:00:00.880><c> that</c><00:00:01.040><c> something</c><00:00:01.520><c> deviates</c>
+
+00:00:01.990 --> 00:00:02.000 align:start position:0%
+so when we say that something deviates
+ 
+
+00:00:02.000 --> 00:00:03.990 align:start position:0%
+so when we say that something deviates
+from<00:00:02.240><c> specified</c><00:00:02.879><c> behavior</c>
+
+00:00:03.990 --> 00:00:04.000 align:start position:0%
+from specified behavior
+ 
+
+00:00:04.000 --> 00:00:05.430 align:start position:0%
+from specified behavior
+we<00:00:04.160><c> really</c><00:00:04.480><c> are</c><00:00:04.640><c> talking</c><00:00:04.960><c> about</c><00:00:05.200><c> three</c>
+
+00:00:05.430 --> 00:00:05.440 align:start position:0%
+we really are talking about three
+ 
+
+00:00:05.440 --> 00:00:07.990 align:start position:0%
+we really are talking about three
+different<00:00:05.839><c> things</c><00:00:06.240><c> one</c><00:00:06.480><c> is</c><00:00:06.720><c> false</c><00:00:07.359><c> another</c><00:00:07.759><c> is</c>
+
+00:00:07.990 --> 00:00:08.000 align:start position:0%
+different things one is false another is
+ 
+
+00:00:08.000 --> 00:00:10.390 align:start position:0%
+different things one is false another is
+errors<00:00:08.400><c> and</c><00:00:08.559><c> another</c><00:00:08.960><c> is</c><00:00:09.200><c> failure</c><00:00:10.000><c> so</c><00:00:10.160><c> let's</c>
+
+00:00:10.390 --> 00:00:10.400 align:start position:0%
+errors and another is failure so let's
+ 
+
+00:00:10.400 --> 00:00:11.990 align:start position:0%
+errors and another is failure so let's
+now<00:00:10.559><c> define</c><00:00:10.960><c> each</c><00:00:11.120><c> one</c><00:00:11.280><c> of</c><00:00:11.360><c> these</c><00:00:11.599><c> three</c><00:00:11.840><c> to</c>
+
+00:00:11.990 --> 00:00:12.000 align:start position:0%
+now define each one of these three to
+ 
+
+00:00:12.000 --> 00:00:13.830 align:start position:0%
+now define each one of these three to
+see<00:00:12.160><c> where</c><00:00:12.320><c> the</c><00:00:12.480><c> difference</c><00:00:12.960><c> is</c>
+
+00:00:13.830 --> 00:00:13.840 align:start position:0%
+see where the difference is
+ 
+
+00:00:13.840 --> 00:00:15.430 align:start position:0%
+see where the difference is
+a<00:00:14.160><c> fault</c>
+
+00:00:15.430 --> 00:00:15.440 align:start position:0%
+a fault
+ 
+
+00:00:15.440 --> 00:00:17.990 align:start position:0%
+a fault
+is<00:00:15.759><c> when</c><00:00:16.160><c> something</c><00:00:16.640><c> in</c><00:00:16.720><c> the</c><00:00:16.880><c> system</c><00:00:17.440><c> deviates</c>
+
+00:00:17.990 --> 00:00:18.000 align:start position:0%
+is when something in the system deviates
+ 
+
+00:00:18.000 --> 00:00:20.150 align:start position:0%
+is when something in the system deviates
+from<00:00:18.160><c> specified</c><00:00:18.800><c> behavior</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+from specified behavior
+ 
+
+00:00:20.160 --> 00:00:21.429 align:start position:0%
+from specified behavior
+and<00:00:20.480><c> error</c>
+
+00:00:21.429 --> 00:00:21.439 align:start position:0%
+and error
+ 
+
+00:00:21.439 --> 00:00:23.349 align:start position:0%
+and error
+is<00:00:21.680><c> when</c><00:00:21.840><c> the</c><00:00:22.080><c> actual</c><00:00:22.480><c> behavior</c><00:00:23.039><c> somewhere</c>
+
+00:00:23.349 --> 00:00:23.359 align:start position:0%
+is when the actual behavior somewhere
+ 
+
+00:00:23.359 --> 00:00:25.830 align:start position:0%
+is when the actual behavior somewhere
+within<00:00:23.680><c> the</c><00:00:23.840><c> system</c><00:00:24.640><c> differs</c><00:00:25.279><c> from</c><00:00:25.600><c> the</c>
+
+00:00:25.830 --> 00:00:25.840 align:start position:0%
+within the system differs from the
+ 
+
+00:00:25.840 --> 00:00:28.070 align:start position:0%
+within the system differs from the
+specified<00:00:26.480><c> behavior</c><00:00:27.199><c> the</c><00:00:27.359><c> behavior</c><00:00:27.840><c> that</c>
+
+00:00:28.070 --> 00:00:28.080 align:start position:0%
+specified behavior the behavior that
+ 
+
+00:00:28.080 --> 00:00:30.950 align:start position:0%
+specified behavior the behavior that
+should<00:00:28.320><c> be</c><00:00:28.640><c> happening</c><00:00:29.039><c> within</c><00:00:29.279><c> the</c><00:00:29.439><c> system</c>
+
+00:00:30.950 --> 00:00:30.960 align:start position:0%
+should be happening within the system
+ 
+
+00:00:30.960 --> 00:00:34.069 align:start position:0%
+should be happening within the system
+and<00:00:31.119><c> the</c><00:00:31.439><c> failure</c><00:00:32.320><c> occurs</c><00:00:32.880><c> when</c><00:00:33.120><c> the</c><00:00:33.440><c> system</c>
+
+00:00:34.069 --> 00:00:34.079 align:start position:0%
+and the failure occurs when the system
+ 
+
+00:00:34.079 --> 00:00:36.069 align:start position:0%
+and the failure occurs when the system
+deviates<00:00:34.640><c> from</c><00:00:34.800><c> specified</c><00:00:35.440><c> behavior</c><00:00:35.920><c> for</c>
+
+00:00:36.069 --> 00:00:36.079 align:start position:0%
+deviates from specified behavior for
+ 
+
+00:00:36.079 --> 00:00:39.120 align:start position:0%
+deviates from specified behavior for
+that<00:00:36.239><c> system</c>
+

@@ -1,0 +1,20 @@
+1
+00:00:00,480 --> 00:00:05,080
+ If we're being optimal in an asymptotic sense, the answer is yes.
+
+2
+00:00:05,080 --> 00:00:09,800
+ That is, a constant number of optimal operations is still optimal.
+
+3
+00:00:09,800 --> 00:00:12,690
+ Certainly simplifies our algorithm design and software engineering,
+
+4
+00:00:12,690 --> 00:00:15,870
+ if we can use some collectives to build the other collectives.
+
+5
+00:00:15,870 --> 00:00:15,870
+ Nice.
+

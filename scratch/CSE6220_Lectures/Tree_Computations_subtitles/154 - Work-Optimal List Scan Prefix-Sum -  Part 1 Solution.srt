@@ -1,0 +1,40 @@
+1
+00:00:00,280 --> 00:00:03,660
+ Here's the answer, n over log n.
+
+2
+00:00:03,660 --> 00:00:04,991
+ Let's go through the choices.
+
+3
+00:00:04,991 --> 00:00:09,500
+ Both log n and square root of n are impossible, why?
+
+4
+00:00:09,500 --> 00:00:13,640
+ Because then m log m would be asymptotically less than n,
+
+5
+00:00:13,640 --> 00:00:15,000
+ that can't be right.
+
+6
+00:00:15,000 --> 00:00:17,810
+ You need at least n steps just to walk the list.
+
+7
+00:00:17,810 --> 00:00:21,760
+ Similarly n log n and n squared don't work.
+
+8
+00:00:21,760 --> 00:00:25,930
+ Those give you sub-optimal algorithms whereas you want a work optimal one.
+
+9
+00:00:25,930 --> 00:00:30,310
+ So by process of elimination, n/log^n is probably the best answer.
+
+10
+00:00:30,310 --> 00:00:30,310
+ But you can also see this explicitly just by plugging it into m log m.
+

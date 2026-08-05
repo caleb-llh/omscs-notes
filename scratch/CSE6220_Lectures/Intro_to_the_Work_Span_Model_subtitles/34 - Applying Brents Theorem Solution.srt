@@ -1,0 +1,8 @@
+1
+00:00:00,650 --> 00:00:05,070
+ There are six units of work and a critical path of length four.
+
+2
+00:00:05,070 --> 00:00:05,070
+ So I can plug those into Brent's Theorem and I'll get five units of work.
+

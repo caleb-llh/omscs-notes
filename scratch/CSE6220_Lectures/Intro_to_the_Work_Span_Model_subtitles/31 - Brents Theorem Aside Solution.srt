@@ -1,0 +1,8 @@
+1
+00:00:00,580 --> 00:00:05,875
+ The answer is that they're all true In the instructor's notes,
+
+2
+00:00:05,875 --> 00:00:05,875
+ we'll put a link to a nice Wikipedia page that derives several of these.
+

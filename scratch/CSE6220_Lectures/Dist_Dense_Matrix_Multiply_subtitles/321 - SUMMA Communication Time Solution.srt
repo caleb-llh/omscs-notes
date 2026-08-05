@@ -1,0 +1,76 @@
+1
+00:00:00,310 --> 00:00:04,140
+ The communication all comes from the two broadcast operations.
+
+2
+00:00:04,140 --> 00:00:11,820
+ Their cost depends on what you assume about the cost of
+
+3
+00:00:11,820 --> 00:00:19,140
+ a broadcast.
+
+4
+00:00:19,140 --> 00:00:23,370
+ The little m in these formulas denotes the size of the message.
+
+5
+00:00:23,370 --> 00:00:24,370
+ Now for this question,
+
+6
+00:00:24,370 --> 00:00:27,930
+ little m corresponds to the size of these little blocks.
+
+7
+00:00:27,930 --> 00:00:29,690
+ How large are they?
+
+8
+00:00:29,690 --> 00:00:34,030
+ Recall that the dimensions are n over root P by s.
+
+9
+00:00:34,030 --> 00:00:36,230
+ Now to get the total volume of communication,
+
+10
+00:00:36,230 --> 00:00:41,430
+ remember that we execute this pair of broadcasts, n over s times.
+
+11
+00:00:41,430 --> 00:00:43,840
+ Thus the total communication volume we have to pay for
+
+12
+00:00:43,840 --> 00:00:47,410
+ is n/s times the size of each message.
+
+13
+00:00:47,410 --> 00:00:50,860
+ That, it turns out is n squared over square root of P.
+
+14
+00:00:50,860 --> 00:00:53,840
+ So assuming a choice of these two implementations,
+
+15
+00:00:53,840 --> 00:00:56,890
+ here are two possible correct pairings.
+
+16
+00:00:56,890 --> 00:00:58,480
+ If you assume the tree based algorithm,
+
+17
+00:00:58,480 --> 00:01:02,630
+ then a correct pair would be log P and log P.
+
+18
+00:01:02,630 --> 00:01:05,269
+ If, on the other hand, you assume the bucketing based algorithm,
+
+19
+00:01:05,269 --> 00:01:05,269
+ then a correct pairing would be P and 1.
+

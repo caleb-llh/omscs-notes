@@ -1,0 +1,44 @@
+1
+00:00:00,490 --> 00:00:05,920
+ Following the hint, one way to do it is to combine scatter and all-gather.
+
+2
+00:00:05,920 --> 00:00:08,050
+ So visually, that would look like this.
+
+3
+00:00:08,050 --> 00:00:12,690
+ First, scatter the input, then do an all-gather.
+
+4
+00:00:12,690 --> 00:00:16,970
+ The key assumption is that all-gather uses bucketing.
+
+5
+00:00:16,970 --> 00:00:19,240
+ Now there are many possible ways to write the pseudo code,
+
+6
+00:00:19,240 --> 00:00:22,780
+ which our auto grader probably doesn't even really fully check.
+
+7
+00:00:22,780 --> 00:00:26,750
+ But hopefully you came up with something that looks like this.
+
+8
+00:00:26,750 --> 00:00:29,830
+ Remember that these reshapes are not actually physical copies,
+
+9
+00:00:29,830 --> 00:00:33,340
+ they're just different perspectives on their inputs.
+
+10
+00:00:33,340 --> 00:00:38,030
+ This code uses a temporary array to hold the result of the scatter, and
+
+11
+00:00:38,030 --> 00:00:38,030
+ then sends that temporary array.
+

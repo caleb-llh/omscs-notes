@@ -1,0 +1,48 @@
+1
+00:00:00,170 --> 00:00:02,590
+ The answer is linear time.
+
+2
+00:00:02,590 --> 00:00:05,670
+ The reason is because the j loop is linear and
+
+3
+00:00:05,670 --> 00:00:08,000
+ is being executed sequentially.
+
+4
+00:00:08,000 --> 00:00:15,073
+ Let's think about this in terms of the DAG.
+
+5
+00:00:15,073 --> 00:00:17,419
+ Here's the DAG that would be generated.
+
+6
+00:00:17,419 --> 00:00:20,992
+ The parfor proceeds to divide the iteration space using divide and
+
+7
+00:00:20,992 --> 00:00:21,574
+ conquer.
+
+8
+00:00:21,574 --> 00:00:25,530
+ So, that'll give us log in levels and a DAG tree.
+
+9
+00:00:25,530 --> 00:00:28,570
+ The j loop, however, remains sequential.
+
+10
+00:00:28,570 --> 00:00:33,520
+ Some terms of the DAG, we'll get leaves that are essentially linear in length.
+
+11
+00:00:33,520 --> 00:00:36,880
+ So technically, the span is log n plus n.
+
+12
+00:00:36,880 --> 00:00:36,880
+ But that's basically subsumed by n.
+

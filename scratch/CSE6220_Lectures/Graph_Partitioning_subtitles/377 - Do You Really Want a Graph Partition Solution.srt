@@ -1,0 +1,64 @@
+1
+00:00:00,340 --> 00:00:03,460
+ As we've described it so far I would say not exactly.
+
+2
+00:00:03,460 --> 00:00:06,970
+ To see why, consider the following three way partition of a graph.
+
+3
+00:00:06,970 --> 00:00:11,760
+ Each partition is balanced in the sense of having two vertices each and,
+
+4
+00:00:11,760 --> 00:00:14,750
+ as it happens, no other partitioning of this graph will have
+
+5
+00:00:14,750 --> 00:00:18,200
+ fewer than the 9 edges you see cut here.
+
+6
+00:00:18,200 --> 00:00:22,035
+ Now this partition corresponds to a splitting of the rows of the sparse
+
+7
+00:00:22,035 --> 00:00:23,575
+ matrix.
+
+8
+00:00:23,575 --> 00:00:25,907
+ Notice the 1 partition has 10 non-zeroes,
+
+9
+00:00:25,907 --> 00:00:28,270
+ while the others have 7 each.
+
+10
+00:00:28,270 --> 00:00:31,410
+ In other words, the vertex counts per partition are the same, but
+
+11
+00:00:31,410 --> 00:00:33,280
+ the work is not.
+
+12
+00:00:33,280 --> 00:00:36,910
+ In fact, there's actually a partition that both minimizes edge cuts and
+
+13
+00:00:36,910 --> 00:00:39,400
+ exactly balances the number of non-zeroes.
+
+14
+00:00:39,400 --> 00:00:40,920
+ Can you find it?
+
+15
+00:00:40,920 --> 00:00:44,840
+ Alternatively, how can you augment the graph partitioning problem in order to
+
+16
+00:00:44,840 --> 00:00:44,840
+ model the balancing of work?
+

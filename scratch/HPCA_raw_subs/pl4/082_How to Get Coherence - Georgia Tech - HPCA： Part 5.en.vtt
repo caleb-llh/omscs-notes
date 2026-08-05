@@ -1,0 +1,1008 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:02.270 align:start position:0%
+ 
+okay<00:00:00.520><c> so</c><00:00:01.079><c> we</c><00:00:01.199><c> have</c><00:00:01.360><c> seen</c><00:00:01.680><c> that</c><00:00:01.800><c> we</c><00:00:01.959><c> want</c>
+
+00:00:02.270 --> 00:00:02.280 align:start position:0%
+okay so we have seen that we want
+ 
+
+00:00:02.280 --> 00:00:04.190 align:start position:0%
+okay so we have seen that we want
+coherence<00:00:03.080><c> and</c><00:00:03.199><c> now</c><00:00:03.399><c> the</c><00:00:03.560><c> question</c><00:00:03.760><c> is</c><00:00:03.959><c> how</c><00:00:04.080><c> do</c>
+
+00:00:04.190 --> 00:00:04.200 align:start position:0%
+coherence and now the question is how do
+ 
+
+00:00:04.200 --> 00:00:06.670 align:start position:0%
+coherence and now the question is how do
+we<00:00:04.400><c> get</c><00:00:04.560><c> it</c><00:00:04.720><c> so</c><00:00:04.960><c> how</c><00:00:05.120><c> do</c><00:00:05.279><c> we</c><00:00:05.520><c> make</c><00:00:06.120><c> caches</c>
+
+00:00:06.670 --> 00:00:06.680 align:start position:0%
+we get it so how do we make caches
+ 
+
+00:00:06.680 --> 00:00:09.430 align:start position:0%
+we get it so how do we make caches
+become<00:00:07.480><c> coherent</c><00:00:08.480><c> the</c><00:00:08.679><c> first</c><00:00:09.000><c> option</c><00:00:09.280><c> is</c>
+
+00:00:09.430 --> 00:00:09.440 align:start position:0%
+become coherent the first option is
+ 
+
+00:00:09.440 --> 00:00:11.789 align:start position:0%
+become coherent the first option is
+don't<00:00:09.639><c> do</c><00:00:09.920><c> caching</c><00:00:10.800><c> but</c><00:00:11.000><c> this</c><00:00:11.120><c> is</c><00:00:11.320><c> really</c><00:00:11.599><c> bad</c>
+
+00:00:11.789 --> 00:00:11.799 align:start position:0%
+don't do caching but this is really bad
+ 
+
+00:00:11.799 --> 00:00:13.749 align:start position:0%
+don't do caching but this is really bad
+for<00:00:12.040><c> performance</c><00:00:12.559><c> so</c><00:00:12.719><c> we</c><00:00:12.840><c> will</c><00:00:13.000><c> not</c><00:00:13.200><c> seriously</c>
+
+00:00:13.749 --> 00:00:13.759 align:start position:0%
+for performance so we will not seriously
+ 
+
+00:00:13.759 --> 00:00:16.550 align:start position:0%
+for performance so we will not seriously
+consider<00:00:14.240><c> this</c><00:00:14.719><c> but</c><00:00:14.879><c> if</c><00:00:15.000><c> there</c><00:00:15.120><c> are</c><00:00:15.280><c> no</c><00:00:15.560><c> caches</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+consider this but if there are no caches
+ 
+
+00:00:16.560 --> 00:00:19.550 align:start position:0%
+consider this but if there are no caches
+then<00:00:16.760><c> all</c><00:00:16.920><c> of</c><00:00:17.080><c> the</c><00:00:17.240><c> axises</c><00:00:17.720><c> go</c><00:00:17.880><c> to</c><00:00:18.400><c> memory</c><00:00:19.400><c> and</c>
+
+00:00:19.550 --> 00:00:19.560 align:start position:0%
+then all of the axises go to memory and
+ 
+
+00:00:19.560 --> 00:00:21.590 align:start position:0%
+then all of the axises go to memory and
+then<00:00:19.800><c> rights</c><00:00:20.119><c> to</c><00:00:20.359><c> that</c><00:00:20.519><c> memory</c><00:00:20.960><c> will</c><00:00:21.119><c> be</c><00:00:21.279><c> seen</c>
+
+00:00:21.590 --> 00:00:21.600 align:start position:0%
+then rights to that memory will be seen
+ 
+
+00:00:21.600 --> 00:00:23.990 align:start position:0%
+then rights to that memory will be seen
+by<00:00:21.720><c> the</c><00:00:21.800><c> reads</c><00:00:22.080><c> to</c><00:00:22.279><c> that</c><00:00:22.439><c> memory</c><00:00:23.160><c> and</c><00:00:23.359><c> also</c><00:00:23.640><c> the</c>
+
+00:00:23.990 --> 00:00:24.000 align:start position:0%
+by the reads to that memory and also the
+ 
+
+00:00:24.000 --> 00:00:26.390 align:start position:0%
+by the reads to that memory and also the
+order<00:00:24.359><c> in</c><00:00:24.560><c> which</c><00:00:24.840><c> the</c><00:00:25.439><c> memory</c><00:00:26.039><c> receives</c><00:00:26.240><c> the</c>
+
+00:00:26.390 --> 00:00:26.400 align:start position:0%
+order in which the memory receives the
+ 
+
+00:00:26.400 --> 00:00:28.710 align:start position:0%
+order in which the memory receives the
+rights<00:00:27.199><c> is</c><00:00:27.439><c> the</c><00:00:27.599><c> order</c><00:00:27.920><c> in</c><00:00:28.080><c> which</c><00:00:28.359><c> the</c><00:00:28.480><c> rights</c>
+
+00:00:28.710 --> 00:00:28.720 align:start position:0%
+rights is the order in which the rights
+ 
+
+00:00:28.720 --> 00:00:30.749 align:start position:0%
+rights is the order in which the rights
+will<00:00:28.880><c> be</c><00:00:29.000><c> seen</c><00:00:29.279><c> by</c><00:00:29.439><c> all</c><00:00:29.599><c> the</c><00:00:29.720><c> court</c><00:00:30.400><c> so</c><00:00:30.599><c> the</c>
+
+00:00:30.749 --> 00:00:30.759 align:start position:0%
+will be seen by all the court so the
+ 
+
+00:00:30.759 --> 00:00:33.229 align:start position:0%
+will be seen by all the court so the
+system<00:00:31.039><c> will</c><00:00:31.199><c> be</c><00:00:31.559><c> coherent</c><00:00:32.559><c> the</c><00:00:32.800><c> second</c>
+
+00:00:33.229 --> 00:00:33.239 align:start position:0%
+system will be coherent the second
+ 
+
+00:00:33.239 --> 00:00:35.869 align:start position:0%
+system will be coherent the second
+option<00:00:33.920><c> is</c><00:00:34.160><c> if</c><00:00:34.320><c> all</c><00:00:34.600><c> cores</c><00:00:35.040><c> share</c><00:00:35.440><c> the</c><00:00:35.600><c> same</c>
+
+00:00:35.869 --> 00:00:35.879 align:start position:0%
+option is if all cores share the same
+ 
+
+00:00:35.879 --> 00:00:38.389 align:start position:0%
+option is if all cores share the same
+level<00:00:36.200><c> one</c><00:00:36.559><c> cache</c><00:00:37.320><c> then</c><00:00:37.520><c> the</c><00:00:37.680><c> same</c><00:00:38.040><c> argument</c>
+
+00:00:38.389 --> 00:00:38.399 align:start position:0%
+level one cache then the same argument
+ 
+
+00:00:38.399 --> 00:00:40.910 align:start position:0%
+level one cache then the same argument
+for<00:00:38.640><c> coherence</c><00:00:39.079><c> supplies</c><00:00:40.039><c> the</c><00:00:40.239><c> order</c><00:00:40.719><c> of</c>
+
+00:00:40.910 --> 00:00:40.920 align:start position:0%
+for coherence supplies the order of
+ 
+
+00:00:40.920 --> 00:00:42.990 align:start position:0%
+for coherence supplies the order of
+Rights<00:00:41.320><c> is</c><00:00:41.520><c> the</c><00:00:41.680><c> order</c><00:00:42.000><c> seen</c><00:00:42.399><c> by</c><00:00:42.559><c> this</c><00:00:42.719><c> level</c>
+
+00:00:42.990 --> 00:00:43.000 align:start position:0%
+Rights is the order seen by this level
+ 
+
+00:00:43.000 --> 00:00:43.869 align:start position:0%
+Rights is the order seen by this level
+one
+
+00:00:43.869 --> 00:00:43.879 align:start position:0%
+one
+ 
+
+00:00:43.879 --> 00:00:46.670 align:start position:0%
+one
+cache<00:00:44.879><c> and</c><00:00:45.440><c> all</c><00:00:45.640><c> of</c><00:00:45.800><c> the</c><00:00:46.000><c> accesses</c><00:00:46.440><c> are</c><00:00:46.559><c> going</c>
+
+00:00:46.670 --> 00:00:46.680 align:start position:0%
+cache and all of the accesses are going
+ 
+
+00:00:46.680 --> 00:00:48.350 align:start position:0%
+cache and all of the accesses are going
+to<00:00:46.840><c> go</c><00:00:47.000><c> to</c><00:00:47.160><c> the</c><00:00:47.320><c> same</c><00:00:47.600><c> cache</c><00:00:47.879><c> where</c><00:00:48.039><c> they</c><00:00:48.160><c> see</c>
+
+00:00:48.350 --> 00:00:48.360 align:start position:0%
+to go to the same cache where they see
+ 
+
+00:00:48.360 --> 00:00:50.389 align:start position:0%
+to go to the same cache where they see
+the<00:00:48.480><c> same</c><00:00:48.719><c> version</c><00:00:49.039><c> of</c><00:00:49.160><c> the</c><00:00:49.280><c> block</c><00:00:50.039><c> so</c><00:00:50.239><c> the</c>
+
+00:00:50.389 --> 00:00:50.399 align:start position:0%
+the same version of the block so the
+ 
+
+00:00:50.399 --> 00:00:53.310 align:start position:0%
+the same version of the block so the
+system<00:00:50.680><c> will</c><00:00:50.879><c> be</c><00:00:51.079><c> coherent</c><00:00:52.079><c> but</c><00:00:52.280><c> will</c><00:00:52.960><c> still</c>
+
+00:00:53.310 --> 00:00:53.320 align:start position:0%
+system will be coherent but will still
+ 
+
+00:00:53.320 --> 00:00:55.790 align:start position:0%
+system will be coherent but will still
+have<00:00:53.600><c> really</c><00:00:54.000><c> bad</c><00:00:54.280><c> performance</c><00:00:55.199><c> better</c><00:00:55.520><c> than</c>
+
+00:00:55.790 --> 00:00:55.800 align:start position:0%
+have really bad performance better than
+ 
+
+00:00:55.800 --> 00:00:58.430 align:start position:0%
+have really bad performance better than
+this<00:00:56.079><c> but</c><00:00:56.239><c> not</c><00:00:56.480><c> by</c><00:00:56.640><c> much</c><00:00:57.600><c> now</c><00:00:57.760><c> we</c><00:00:57.879><c> can</c><00:00:58.039><c> try</c><00:00:58.280><c> to</c>
+
+00:00:58.430 --> 00:00:58.440 align:start position:0%
+this but not by much now we can try to
+ 
+
+00:00:58.440 --> 00:01:01.110 align:start position:0%
+this but not by much now we can try to
+do<00:00:58.719><c> things</c><00:00:59.079><c> like</c><00:00:59.640><c> having</c><00:01:00.199><c> private</c><00:01:00.519><c> caches</c><00:01:00.960><c> but</c>
+
+00:01:01.110 --> 00:01:01.120 align:start position:0%
+do things like having private caches but
+ 
+
+00:01:01.120 --> 00:01:03.229 align:start position:0%
+do things like having private caches but
+make<00:01:01.399><c> them</c><00:01:01.600><c> right</c><00:01:01.920><c> through</c><00:01:02.440><c> in</c><00:01:02.640><c> that</c><00:01:02.840><c> case</c><00:01:03.120><c> the</c>
+
+00:01:03.229 --> 00:01:03.239 align:start position:0%
+make them right through in that case the
+ 
+
+00:01:03.239 --> 00:01:05.509 align:start position:0%
+make them right through in that case the
+memory<00:01:03.640><c> is</c><00:01:03.800><c> actually</c><00:01:03.960><c> seeing</c><00:01:04.320><c> all</c><00:01:04.479><c> the</c><00:01:04.680><c> rights</c>
+
+00:01:05.509 --> 00:01:05.519 align:start position:0%
+memory is actually seeing all the rights
+ 
+
+00:01:05.519 --> 00:01:07.429 align:start position:0%
+memory is actually seeing all the rights
+but<00:01:05.720><c> the</c><00:01:05.920><c> problem</c><00:01:06.240><c> is</c><00:01:06.360><c> that</c><00:01:06.560><c> these</c><00:01:06.760><c> caches</c><00:01:07.119><c> are</c>
+
+00:01:07.429 --> 00:01:07.439 align:start position:0%
+but the problem is that these caches are
+ 
+
+00:01:07.439 --> 00:01:10.990 align:start position:0%
+but the problem is that these caches are
+still<00:01:07.960><c> allowed</c><00:01:08.960><c> to</c><00:01:09.280><c> cache</c><00:01:10.200><c> data</c><00:01:10.600><c> that</c><00:01:10.799><c> has</c>
+
+00:01:10.990 --> 00:01:11.000 align:start position:0%
+still allowed to cache data that has
+ 
+
+00:01:11.000 --> 00:01:14.070 align:start position:0%
+still allowed to cache data that has
+only<00:01:11.240><c> been</c><00:01:11.479><c> read</c><00:01:11.960><c> forever</c><00:01:12.960><c> so</c><00:01:13.280><c> once</c><00:01:13.479><c> we</c><00:01:13.640><c> read</c><00:01:13.880><c> a</c>
+
+00:01:14.070 --> 00:01:14.080 align:start position:0%
+only been read forever so once we read a
+ 
+
+00:01:14.080 --> 00:01:15.990 align:start position:0%
+only been read forever so once we read a
+value<00:01:14.520><c> it</c><00:01:14.640><c> doesn't</c><00:01:15.040><c> matter</c><00:01:15.400><c> that</c><00:01:15.600><c> all</c><00:01:15.840><c> the</c>
+
+00:01:15.990 --> 00:01:16.000 align:start position:0%
+value it doesn't matter that all the
+ 
+
+00:01:16.000 --> 00:01:18.590 align:start position:0%
+value it doesn't matter that all the
+other<00:01:16.240><c> cores</c><00:01:17.240><c> are</c><00:01:17.640><c> writing</c><00:01:18.080><c> their</c><00:01:18.280><c> values</c>
+
+00:01:18.590 --> 00:01:18.600 align:start position:0%
+other cores are writing their values
+ 
+
+00:01:18.600 --> 00:01:20.950 align:start position:0%
+other cores are writing their values
+through<00:01:18.840><c> to</c><00:01:19.040><c> memory</c><00:01:19.799><c> because</c><00:01:20.119><c> the</c><00:01:20.320><c> cache</c><00:01:20.720><c> that</c>
+
+00:01:20.950 --> 00:01:20.960 align:start position:0%
+through to memory because the cache that
+ 
+
+00:01:20.960 --> 00:01:23.749 align:start position:0%
+through to memory because the cache that
+only<00:01:21.280><c> reads</c><00:01:22.040><c> will</c><00:01:22.360><c> potentially</c><00:01:22.840><c> see</c><00:01:23.159><c> forever</c>
+
+00:01:23.749 --> 00:01:23.759 align:start position:0%
+only reads will potentially see forever
+ 
+
+00:01:23.759 --> 00:01:25.830 align:start position:0%
+only reads will potentially see forever
+the<00:01:23.960><c> same</c><00:01:24.159><c> stale</c><00:01:24.600><c> value</c><00:01:25.000><c> even</c><00:01:25.280><c> after</c><00:01:25.600><c> many</c>
+
+00:01:25.830 --> 00:01:25.840 align:start position:0%
+the same stale value even after many
+ 
+
+00:01:25.840 --> 00:01:27.950 align:start position:0%
+the same stale value even after many
+many<00:01:26.119><c> rights</c><00:01:26.479><c> have</c><00:01:26.680><c> occurred</c><00:01:27.159><c> and</c><00:01:27.320><c> for</c><00:01:27.479><c> a</c><00:01:27.680><c> long</c>
+
+00:01:27.950 --> 00:01:27.960 align:start position:0%
+many rights have occurred and for a long
+ 
+
+00:01:27.960 --> 00:01:30.870 align:start position:0%
+many rights have occurred and for a long
+time<00:01:28.520><c> so</c><00:01:28.799><c> this</c><00:01:28.920><c> is</c><00:01:29.119><c> really</c><00:01:29.479><c> not</c><00:01:29.920><c> a</c><00:01:30.119><c> way</c><00:01:30.280><c> to</c><00:01:30.479><c> get</c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+time so this is really not a way to get
+ 
+
+00:01:30.880 --> 00:01:33.710 align:start position:0%
+time so this is really not a way to get
+coherence<00:01:31.880><c> even</c><00:01:32.159><c> with</c><00:01:32.360><c> write</c><00:01:32.720><c> through</c><00:01:32.920><c> caches</c>
+
+00:01:33.710 --> 00:01:33.720 align:start position:0%
+coherence even with write through caches
+ 
+
+00:01:33.720 --> 00:01:36.030 align:start position:0%
+coherence even with write through caches
+private<00:01:34.159><c> caches</c><00:01:34.759><c> are</c><00:01:35.000><c> not</c><00:01:35.479><c> necessarily</c>
+
+00:01:36.030 --> 00:01:36.040 align:start position:0%
+private caches are not necessarily
+ 
+
+00:01:36.040 --> 00:01:39.149 align:start position:0%
+private caches are not necessarily
+coherent<00:01:37.000><c> what</c><00:01:37.200><c> we</c><00:01:37.399><c> must</c><00:01:37.600><c> do</c><00:01:37.920><c> really</c><00:01:38.720><c> is</c><00:01:38.880><c> to</c>
+
+00:01:39.149 --> 00:01:39.159 align:start position:0%
+coherent what we must do really is to
+ 
+
+00:01:39.159 --> 00:01:43.550 align:start position:0%
+coherent what we must do really is to
+force<00:01:39.920><c> reads</c><00:01:40.920><c> made</c><00:01:41.240><c> to</c><00:01:41.479><c> one</c><00:01:41.880><c> cash</c><00:01:42.720><c> to</c><00:01:42.920><c> see</c><00:01:43.360><c> the</c>
+
+00:01:43.550 --> 00:01:43.560 align:start position:0%
+force reads made to one cash to see the
+ 
+
+00:01:43.560 --> 00:01:45.590 align:start position:0%
+force reads made to one cash to see the
+rights<00:01:43.880><c> made</c><00:01:44.119><c> in</c><00:01:44.320><c> another</c><00:01:44.840><c> so</c><00:01:45.040><c> we</c><00:01:45.200><c> cannot</c>
+
+00:01:45.590 --> 00:01:45.600 align:start position:0%
+rights made in another so we cannot
+ 
+
+00:01:45.600 --> 00:01:48.550 align:start position:0%
+rights made in another so we cannot
+allow<00:01:46.079><c> cashes</c><00:01:46.479><c> to</c><00:01:46.799><c> Simply</c><00:01:47.799><c> provide</c><00:01:48.159><c> the</c><00:01:48.320><c> same</c>
+
+00:01:48.550 --> 00:01:48.560 align:start position:0%
+allow cashes to Simply provide the same
+ 
+
+00:01:48.560 --> 00:01:51.069 align:start position:0%
+allow cashes to Simply provide the same
+value<00:01:48.880><c> over</c><00:01:49.079><c> and</c><00:01:49.240><c> over</c><00:01:49.520><c> once</c><00:01:49.719><c> it's</c><00:01:49.880><c> a</c><00:01:50.079><c> cash</c><00:01:50.320><c> hit</c>
+
+00:01:51.069 --> 00:01:51.079 align:start position:0%
+value over and over once it's a cash hit
+ 
+
+00:01:51.079 --> 00:01:54.910 align:start position:0%
+value over and over once it's a cash hit
+somehow<00:01:52.040><c> once</c><00:01:52.280><c> a</c><00:01:52.479><c> right</c><00:01:52.799><c> occurs</c><00:01:53.159><c> in</c><00:01:53.360><c> one</c><00:01:53.920><c> cash</c>
+
+00:01:54.910 --> 00:01:54.920 align:start position:0%
+somehow once a right occurs in one cash
+ 
+
+00:01:54.920 --> 00:01:58.149 align:start position:0%
+somehow once a right occurs in one cash
+another<00:01:55.520><c> cash</c><00:01:56.079><c> needs</c><00:01:56.520><c> to</c><00:01:56.960><c> eventually</c><00:01:57.680><c> start</c>
+
+00:01:58.149 --> 00:01:58.159 align:start position:0%
+another cash needs to eventually start
+ 
+
+00:01:58.159 --> 00:02:00.429 align:start position:0%
+another cash needs to eventually start
+returning<00:01:58.719><c> that</c><00:01:59.000><c> value</c><00:01:59.240><c> to</c><00:01:59.399><c> its</c><00:01:59.520><c> local</c>
+
+00:02:00.429 --> 00:02:00.439 align:start position:0%
+returning that value to its local
+ 
+
+00:02:00.439 --> 00:02:04.389 align:start position:0%
+returning that value to its local
+processor<00:02:01.439><c> so</c><00:02:01.680><c> how</c><00:02:01.840><c> do</c><00:02:02.000><c> we</c><00:02:02.159><c> do</c><00:02:02.479><c> that</c><00:02:03.479><c> one</c><00:02:03.799><c> way</c>
+
+00:02:04.389 --> 00:02:04.399 align:start position:0%
+processor so how do we do that one way
+ 
+
+00:02:04.399 --> 00:02:07.590 align:start position:0%
+processor so how do we do that one way
+is<00:02:04.560><c> for</c><00:02:04.880><c> every</c><00:02:05.320><c> right</c><00:02:06.320><c> to</c><00:02:06.520><c> be</c><00:02:06.719><c> sent</c><00:02:07.079><c> to</c><00:02:07.280><c> all</c><00:02:07.479><c> the</c>
+
+00:02:07.590 --> 00:02:07.600 align:start position:0%
+is for every right to be sent to all the
+ 
+
+00:02:07.600 --> 00:02:09.630 align:start position:0%
+is for every right to be sent to all the
+other<00:02:07.920><c> caches</c><00:02:08.360><c> that</c><00:02:08.560><c> might</c><00:02:08.800><c> potentially</c><00:02:09.399><c> have</c>
+
+00:02:09.630 --> 00:02:09.640 align:start position:0%
+other caches that might potentially have
+ 
+
+00:02:09.640 --> 00:02:11.910 align:start position:0%
+other caches that might potentially have
+this<00:02:09.840><c> block</c><00:02:10.399><c> and</c><00:02:10.599><c> they</c><00:02:10.759><c> need</c><00:02:10.959><c> to</c><00:02:11.239><c> update</c><00:02:11.680><c> their</c>
+
+00:02:11.910 --> 00:02:11.920 align:start position:0%
+this block and they need to update their
+ 
+
+00:02:11.920 --> 00:02:15.070 align:start position:0%
+this block and they need to update their
+value<00:02:12.400><c> so</c><00:02:12.680><c> pretty</c><00:02:12.920><c> much</c><00:02:13.440><c> I</c><00:02:13.560><c> write</c><00:02:13.840><c> to</c><00:02:14.000><c> my</c><00:02:14.239><c> cach</c>
+
+00:02:15.070 --> 00:02:15.080 align:start position:0%
+value so pretty much I write to my cach
+ 
+
+00:02:15.080 --> 00:02:16.550 align:start position:0%
+value so pretty much I write to my cach
+it's<00:02:15.319><c> kind</c><00:02:15.440><c> of</c><00:02:15.599><c> like</c><00:02:15.720><c> a</c><00:02:15.879><c> write</c><00:02:16.120><c> through</c><00:02:16.319><c> cach</c>
+
+00:02:16.550 --> 00:02:16.560 align:start position:0%
+it's kind of like a write through cach
+ 
+
+00:02:16.560 --> 00:02:19.430 align:start position:0%
+it's kind of like a write through cach
+in<00:02:16.760><c> that</c><00:02:17.440><c> it</c><00:02:17.640><c> continues</c><00:02:18.160><c> past</c><00:02:18.400><c> the</c><00:02:18.640><c> cache</c><00:02:19.239><c> but</c>
+
+00:02:19.430 --> 00:02:19.440 align:start position:0%
+in that it continues past the cache but
+ 
+
+00:02:19.440 --> 00:02:21.430 align:start position:0%
+in that it continues past the cache but
+now<00:02:19.640><c> what</c><00:02:19.800><c> really</c><00:02:20.040><c> happens</c><00:02:20.360><c> to</c><00:02:20.519><c> it</c><00:02:20.720><c> is</c><00:02:21.239><c> not</c>
+
+00:02:21.430 --> 00:02:21.440 align:start position:0%
+now what really happens to it is not
+ 
+
+00:02:21.440 --> 00:02:23.670 align:start position:0%
+now what really happens to it is not
+only<00:02:21.720><c> does</c><00:02:21.879><c> it</c><00:02:22.120><c> get</c><00:02:22.280><c> written</c><00:02:22.599><c> back</c><00:02:22.760><c> to</c><00:02:22.959><c> memory</c>
+
+00:02:23.670 --> 00:02:23.680 align:start position:0%
+only does it get written back to memory
+ 
+
+00:02:23.680 --> 00:02:26.190 align:start position:0%
+only does it get written back to memory
+it<00:02:24.000><c> also</c><00:02:24.280><c> get</c><00:02:24.480><c> sent</c><00:02:25.000><c> and</c><00:02:25.160><c> seen</c><00:02:25.640><c> by</c><00:02:25.840><c> all</c><00:02:26.040><c> the</c>
+
+00:02:26.190 --> 00:02:26.200 align:start position:0%
+it also get sent and seen by all the
+ 
+
+00:02:26.200 --> 00:02:28.630 align:start position:0%
+it also get sent and seen by all the
+other<00:02:26.519><c> caches</c><00:02:27.400><c> which</c><00:02:27.640><c> now</c><00:02:27.920><c> take</c><00:02:28.200><c> that</c><00:02:28.360><c> new</c>
+
+00:02:28.630 --> 00:02:28.640 align:start position:0%
+other caches which now take that new
+ 
+
+00:02:28.640 --> 00:02:31.990 align:start position:0%
+other caches which now take that new
+value<00:02:29.480><c> if</c><00:02:29.680><c> that</c><00:02:30.000><c> that</c><00:02:30.480><c> happens</c><00:02:31.480><c> then</c><00:02:31.680><c> when</c><00:02:31.840><c> I</c>
+
+00:02:31.990 --> 00:02:32.000 align:start position:0%
+value if that that happens then when I
+ 
+
+00:02:32.000 --> 00:02:34.670 align:start position:0%
+value if that that happens then when I
+write<00:02:32.480><c> other</c><00:02:32.800><c> caches</c><00:02:33.200><c> now</c><00:02:33.480><c> have</c><00:02:33.720><c> my</c><00:02:33.879><c> new</c><00:02:34.200><c> value</c>
+
+00:02:34.670 --> 00:02:34.680 align:start position:0%
+write other caches now have my new value
+ 
+
+00:02:34.680 --> 00:02:36.350 align:start position:0%
+write other caches now have my new value
+and<00:02:34.840><c> then</c><00:02:34.959><c> reads</c><00:02:35.280><c> on</c><00:02:35.480><c> those</c><00:02:35.680><c> scores</c><00:02:36.120><c> will</c>
+
+00:02:36.350 --> 00:02:36.360 align:start position:0%
+and then reads on those scores will
+ 
+
+00:02:36.360 --> 00:02:38.790 align:start position:0%
+and then reads on those scores will
+actually<00:02:36.720><c> provide</c><00:02:37.040><c> the</c><00:02:37.200><c> same</c><00:02:37.480><c> value</c><00:02:38.480><c> this</c><00:02:38.599><c> is</c>
+
+00:02:38.790 --> 00:02:38.800 align:start position:0%
+actually provide the same value this is
+ 
+
+00:02:38.800 --> 00:02:40.869 align:start position:0%
+actually provide the same value this is
+called<00:02:39.120><c> Write</c><00:02:39.480><c> update</c><00:02:40.000><c> coherence</c><00:02:40.599><c> because</c>
+
+00:02:40.869 --> 00:02:40.879 align:start position:0%
+called Write update coherence because
+ 
+
+00:02:40.879 --> 00:02:44.470 align:start position:0%
+called Write update coherence because
+wres<00:02:41.640><c> update</c><00:02:42.200><c> all</c><00:02:42.400><c> of</c><00:02:42.519><c> the</c><00:02:42.680><c> other</c><00:02:42.959><c> cach</c><00:02:43.480><c> copies</c>
+
+00:02:44.470 --> 00:02:44.480 align:start position:0%
+wres update all of the other cach copies
+ 
+
+00:02:44.480 --> 00:02:46.270 align:start position:0%
+wres update all of the other cach copies
+the<00:02:44.680><c> other</c><00:02:45.080><c> approach</c><00:02:45.440><c> for</c><00:02:45.720><c> maintaining</c>
+
+00:02:46.270 --> 00:02:46.280 align:start position:0%
+the other approach for maintaining
+ 
+
+00:02:46.280 --> 00:02:49.190 align:start position:0%
+the other approach for maintaining
+coherence<00:02:46.840><c> is</c><00:02:47.000><c> for</c><00:02:47.319><c> rights</c><00:02:48.280><c> to</c>
+
+00:02:49.190 --> 00:02:49.200 align:start position:0%
+coherence is for rights to
+ 
+
+00:02:49.200 --> 00:02:52.470 align:start position:0%
+coherence is for rights to
+prevent<00:02:50.200><c> other</c><00:02:50.640><c> copies</c><00:02:51.480><c> of</c><00:02:51.640><c> the</c><00:02:51.800><c> block</c><00:02:52.200><c> from</c>
+
+00:02:52.470 --> 00:02:52.480 align:start position:0%
+prevent other copies of the block from
+ 
+
+00:02:52.480 --> 00:02:55.949 align:start position:0%
+prevent other copies of the block from
+having<00:02:53.000><c> hits</c><00:02:54.000><c> so</c><00:02:54.319><c> after</c><00:02:54.640><c> a</c><00:02:54.920><c> write</c><00:02:55.280><c> to</c><00:02:55.519><c> one</c>
+
+00:02:55.949 --> 00:02:55.959 align:start position:0%
+having hits so after a write to one
+ 
+
+00:02:55.959 --> 00:02:58.949 align:start position:0%
+having hits so after a write to one
+cache<00:02:56.920><c> all</c><00:02:57.120><c> of</c><00:02:57.280><c> the</c><00:02:57.480><c> caches</c><00:02:58.000><c> that</c><00:02:58.239><c> had</c><00:02:58.440><c> a</c><00:02:58.680><c> copy</c>
+
+00:02:58.949 --> 00:02:58.959 align:start position:0%
+cache all of the caches that had a copy
+ 
+
+00:02:58.959 --> 00:03:00.710 align:start position:0%
+cache all of the caches that had a copy
+of<00:02:59.120><c> this</c><00:02:59.319><c> block</c><00:02:59.640><c> need</c><00:02:59.879><c> need</c><00:03:00.040><c> to</c><00:03:00.200><c> behave</c><00:03:00.560><c> like</c>
+
+00:03:00.710 --> 00:03:00.720 align:start position:0%
+of this block need need to behave like
+ 
+
+00:03:00.720 --> 00:03:03.589 align:start position:0%
+of this block need need to behave like
+they're<00:03:00.920><c> having</c><00:03:01.200><c> a</c><00:03:01.720><c> miss</c><00:03:02.720><c> or</c><00:03:03.040><c> they</c><00:03:03.200><c> need</c><00:03:03.400><c> to</c>
+
+00:03:03.589 --> 00:03:03.599 align:start position:0%
+they're having a miss or they need to
+ 
+
+00:03:03.599 --> 00:03:07.110 align:start position:0%
+they're having a miss or they need to
+behave<00:03:04.560><c> like</c><00:03:04.799><c> the</c><00:03:04.959><c> block</c><00:03:05.239><c> is</c><00:03:05.440><c> not</c><00:03:05.920><c> valid</c><00:03:06.920><c> in</c>
+
+00:03:07.110 --> 00:03:07.120 align:start position:0%
+behave like the block is not valid in
+ 
+
+00:03:07.120 --> 00:03:09.270 align:start position:0%
+behave like the block is not valid in
+that<00:03:07.400><c> cache</c><00:03:08.120><c> so</c><00:03:08.360><c> this</c><00:03:08.480><c> is</c><00:03:08.640><c> called</c><00:03:08.920><c> Write</c>
+
+00:03:09.270 --> 00:03:09.280 align:start position:0%
+that cache so this is called Write
+ 
+
+00:03:09.280 --> 00:03:12.390 align:start position:0%
+that cache so this is called Write
+invalidate<00:03:10.159><c> a</c><00:03:10.400><c> write</c><00:03:11.120><c> will</c><00:03:11.480><c> invalidate</c><00:03:12.200><c> all</c>
+
+00:03:12.390 --> 00:03:12.400 align:start position:0%
+invalidate a write will invalidate all
+ 
+
+00:03:12.400 --> 00:03:14.789 align:start position:0%
+invalidate a write will invalidate all
+the<00:03:12.519><c> other</c><00:03:12.799><c> copies</c><00:03:13.760><c> note</c><00:03:14.239><c> that</c><00:03:14.440><c> these</c><00:03:14.560><c> are</c>
+
+00:03:14.789 --> 00:03:14.799 align:start position:0%
+the other copies note that these are
+ 
+
+00:03:14.799 --> 00:03:16.630 align:start position:0%
+the other copies note that these are
+just<00:03:14.959><c> the</c><00:03:15.120><c> two</c><00:03:15.360><c> general</c><00:03:15.840><c> approaches</c><00:03:16.400><c> we</c><00:03:16.480><c> will</c>
+
+00:03:16.630 --> 00:03:16.640 align:start position:0%
+just the two general approaches we will
+ 
+
+00:03:16.640 --> 00:03:19.070 align:start position:0%
+just the two general approaches we will
+be<00:03:16.799><c> looking</c><00:03:17.120><c> at</c><00:03:17.400><c> several</c><00:03:17.840><c> right</c><00:03:18.120><c> invalidate</c>
+
+00:03:19.070 --> 00:03:19.080 align:start position:0%
+be looking at several right invalidate
+ 
+
+00:03:19.080 --> 00:03:21.550 align:start position:0%
+be looking at several right invalidate
+coherence<00:03:19.599><c> protocols</c><00:03:20.200><c> and</c><00:03:20.480><c> also</c><00:03:21.120><c> we</c><00:03:21.239><c> will</c><00:03:21.400><c> be</c>
+
+00:03:21.550 --> 00:03:21.560 align:start position:0%
+coherence protocols and also we will be
+ 
+
+00:03:21.560 --> 00:03:24.670 align:start position:0%
+coherence protocols and also we will be
+considering<00:03:22.120><c> a</c><00:03:22.480><c> right</c><00:03:22.840><c> update</c><00:03:23.319><c> protocol</c><00:03:24.319><c> so</c>
+
+00:03:24.670 --> 00:03:24.680 align:start position:0%
+considering a right update protocol so
+ 
+
+00:03:24.680 --> 00:03:28.350 align:start position:0%
+considering a right update protocol so
+this<00:03:24.920><c> ensures</c><00:03:25.599><c> really</c><00:03:26.319><c> that</c><00:03:26.680><c> reads</c><00:03:27.680><c> see</c><00:03:28.120><c> the</c>
+
+00:03:28.350 --> 00:03:28.360 align:start position:0%
+this ensures really that reads see the
+ 
+
+00:03:28.360 --> 00:03:30.589 align:start position:0%
+this ensures really that reads see the
+values<00:03:28.760><c> produced</c><00:03:29.200><c> by</c><00:03:29.360><c> wres</c>
+
+00:03:30.589 --> 00:03:30.599 align:start position:0%
+values produced by wres
+ 
+
+00:03:30.599 --> 00:03:32.750 align:start position:0%
+values produced by wres
+so<00:03:30.799><c> the</c><00:03:30.959><c> coherence</c><00:03:31.560><c> property</c><00:03:32.000><c> two</c><00:03:32.599><c> is</c>
+
+00:03:32.750 --> 00:03:32.760 align:start position:0%
+so the coherence property two is
+ 
+
+00:03:32.760 --> 00:03:35.429 align:start position:0%
+so the coherence property two is
+maintained<00:03:33.400><c> by</c><00:03:33.680><c> either</c><00:03:34.040><c> this</c><00:03:34.200><c> or</c><00:03:34.519><c> this</c><00:03:35.159><c> so</c><00:03:35.319><c> we</c>
+
+00:03:35.429 --> 00:03:35.439 align:start position:0%
+maintained by either this or this so we
+ 
+
+00:03:35.439 --> 00:03:37.830 align:start position:0%
+maintained by either this or this so we
+need<00:03:35.640><c> to</c><00:03:35.799><c> pick</c><00:03:36.080><c> one</c><00:03:36.239><c> of</c><00:03:36.400><c> these</c><00:03:36.599><c> two</c><00:03:36.840><c> approaches</c>
+
+00:03:37.830 --> 00:03:37.840 align:start position:0%
+need to pick one of these two approaches
+ 
+
+00:03:37.840 --> 00:03:40.390 align:start position:0%
+need to pick one of these two approaches
+to<00:03:38.000><c> maintain</c><00:03:38.360><c> coherence</c><00:03:38.879><c> property</c><00:03:39.239><c> two</c><00:03:40.159><c> for</c>
+
+00:03:40.390 --> 00:03:40.400 align:start position:0%
+to maintain coherence property two for
+ 
+
+00:03:40.400 --> 00:03:42.550 align:start position:0%
+to maintain coherence property two for
+coherence<00:03:40.920><c> property</c><00:03:41.280><c> 3</c><00:03:41.560><c> we</c><00:03:41.640><c> need</c><00:03:41.799><c> to</c><00:03:42.000><c> decide</c>
+
+00:03:42.550 --> 00:03:42.560 align:start position:0%
+coherence property 3 we need to decide
+ 
+
+00:03:42.560 --> 00:03:44.550 align:start position:0%
+coherence property 3 we need to decide
+what's<00:03:42.799><c> the</c><00:03:43.000><c> order</c><00:03:43.319><c> of</c><00:03:43.560><c> Rights</c><00:03:44.000><c> and</c><00:03:44.239><c> all</c><00:03:44.400><c> the</c>
+
+00:03:44.550 --> 00:03:44.560 align:start position:0%
+what's the order of Rights and all the
+ 
+
+00:03:44.560 --> 00:03:47.589 align:start position:0%
+what's the order of Rights and all the
+cores<00:03:44.840><c> need</c><00:03:45.000><c> to</c><00:03:45.120><c> see</c><00:03:45.400><c> the</c><00:03:45.519><c> same</c><00:03:45.920><c> order</c><00:03:46.799><c> one</c><00:03:47.159><c> way</c>
+
+00:03:47.589 --> 00:03:47.599 align:start position:0%
+cores need to see the same order one way
+ 
+
+00:03:47.599 --> 00:03:49.750 align:start position:0%
+cores need to see the same order one way
+to<00:03:47.840><c> enforce</c><00:03:48.400><c> the</c><00:03:48.560><c> same</c><00:03:48.920><c> order</c><00:03:49.239><c> of</c><00:03:49.439><c> Rights</c>
+
+00:03:49.750 --> 00:03:49.760 align:start position:0%
+to enforce the same order of Rights
+ 
+
+00:03:49.760 --> 00:03:52.350 align:start position:0%
+to enforce the same order of Rights
+being<00:03:49.959><c> seen</c><00:03:50.280><c> by</c><00:03:50.439><c> all</c><00:03:50.599><c> the</c><00:03:50.760><c> cores</c><00:03:51.560><c> is</c><00:03:51.760><c> that</c><00:03:52.000><c> all</c>
+
+00:03:52.350 --> 00:03:52.360 align:start position:0%
+being seen by all the cores is that all
+ 
+
+00:03:52.360 --> 00:03:54.750 align:start position:0%
+being seen by all the cores is that all
+rights<00:03:52.640><c> are</c><00:03:52.799><c> broadcast</c><00:03:53.360><c> on</c><00:03:53.439><c> the</c><00:03:53.560><c> shared</c><00:03:53.959><c> bus</c>
+
+00:03:54.750 --> 00:03:54.760 align:start position:0%
+rights are broadcast on the shared bus
+ 
+
+00:03:54.760 --> 00:03:56.789 align:start position:0%
+rights are broadcast on the shared bus
+and<00:03:54.959><c> then</c><00:03:55.319><c> the</c><00:03:55.480><c> order</c><00:03:55.879><c> in</c><00:03:56.079><c> which</c><00:03:56.280><c> they</c><00:03:56.480><c> appear</c>
+
+00:03:56.789 --> 00:03:56.799 align:start position:0%
+and then the order in which they appear
+ 
+
+00:03:56.799 --> 00:03:59.030 align:start position:0%
+and then the order in which they appear
+in<00:03:56.959><c> this</c><00:03:57.120><c> shared</c><00:03:57.480><c> bus</c><00:03:58.120><c> is</c><00:03:58.360><c> the</c><00:03:58.519><c> order</c><00:03:58.920><c> that</c>
+
+00:03:59.030 --> 00:03:59.040 align:start position:0%
+in this shared bus is the order that
+ 
+
+00:03:59.040 --> 00:04:01.309 align:start position:0%
+in this shared bus is the order that
+should<00:03:59.200><c> be</c><00:03:59.319><c> seen</c><00:03:59.560><c> by</c><00:03:59.920><c> everybody</c><00:04:00.840><c> coherence</c>
+
+00:04:01.309 --> 00:04:01.319 align:start position:0%
+should be seen by everybody coherence
+ 
+
+00:04:01.319 --> 00:04:03.670 align:start position:0%
+should be seen by everybody coherence
+done<00:04:01.519><c> in</c><00:04:01.720><c> this</c><00:04:01.879><c> way</c><00:04:02.040><c> is</c><00:04:02.200><c> called</c><00:04:02.680><c> snooping</c>
+
+00:04:03.670 --> 00:04:03.680 align:start position:0%
+done in this way is called snooping
+ 
+
+00:04:03.680 --> 00:04:06.110 align:start position:0%
+done in this way is called snooping
+because<00:04:04.560><c> when</c><00:04:04.799><c> rights</c><00:04:05.120><c> are</c><00:04:05.280><c> broadcast</c><00:04:05.840><c> on</c><00:04:05.959><c> the</c>
+
+00:04:06.110 --> 00:04:06.120 align:start position:0%
+because when rights are broadcast on the
+ 
+
+00:04:06.120 --> 00:04:09.830 align:start position:0%
+because when rights are broadcast on the
+bus<00:04:07.000><c> everybody</c><00:04:07.920><c> snoops</c><00:04:08.920><c> those</c><00:04:09.159><c> rights</c><00:04:09.720><c> in</c>
+
+00:04:09.830 --> 00:04:09.840 align:start position:0%
+bus everybody snoops those rights in
+ 
+
+00:04:09.840 --> 00:04:11.589 align:start position:0%
+bus everybody snoops those rights in
+order<00:04:10.120><c> to</c><00:04:10.280><c> tell</c><00:04:10.560><c> what</c><00:04:10.720><c> order</c><00:04:11.040><c> they</c><00:04:11.239><c> occurred</c>
+
+00:04:11.589 --> 00:04:11.599 align:start position:0%
+order to tell what order they occurred
+ 
+
+00:04:11.599 --> 00:04:14.309 align:start position:0%
+order to tell what order they occurred
+on<00:04:12.439><c> and</c><00:04:12.680><c> also</c><00:04:12.920><c> to</c><00:04:13.159><c> update</c><00:04:13.480><c> or</c><00:04:13.680><c> invalidate</c>
+
+00:04:14.309 --> 00:04:14.319 align:start position:0%
+on and also to update or invalidate
+ 
+
+00:04:14.319 --> 00:04:16.390 align:start position:0%
+on and also to update or invalidate
+their<00:04:14.519><c> values</c><00:04:14.840><c> in</c><00:04:14.959><c> the</c><00:04:15.120><c> caches</c><00:04:15.920><c> of</c><00:04:16.079><c> course</c><00:04:16.280><c> the</c>
+
+00:04:16.390 --> 00:04:16.400 align:start position:0%
+their values in the caches of course the
+ 
+
+00:04:16.400 --> 00:04:19.189 align:start position:0%
+their values in the caches of course the
+shared<00:04:16.720><c> bus</c><00:04:17.000><c> can</c><00:04:17.160><c> now</c><00:04:17.320><c> become</c><00:04:17.600><c> a</c><00:04:18.199><c> bottleneck</c>
+
+00:04:19.189 --> 00:04:19.199 align:start position:0%
+shared bus can now become a bottleneck
+ 
+
+00:04:19.199 --> 00:04:21.110 align:start position:0%
+shared bus can now become a bottleneck
+the<00:04:19.359><c> other</c><00:04:19.680><c> approach</c><00:04:20.000><c> is</c><00:04:20.160><c> that</c><00:04:20.400><c> each</c><00:04:20.639><c> block</c><00:04:20.959><c> is</c>
+
+00:04:21.110 --> 00:04:21.120 align:start position:0%
+the other approach is that each block is
+ 
+
+00:04:21.120 --> 00:04:24.430 align:start position:0%
+the other approach is that each block is
+assigned<00:04:21.560><c> an</c><00:04:21.840><c> ordering</c><00:04:22.440><c> point</c><00:04:23.280><c> and</c><00:04:23.960><c> different</c>
+
+00:04:24.430 --> 00:04:24.440 align:start position:0%
+assigned an ordering point and different
+ 
+
+00:04:24.440 --> 00:04:26.749 align:start position:0%
+assigned an ordering point and different
+ordering<00:04:25.000><c> points</c><00:04:25.960><c> can</c><00:04:26.120><c> be</c><00:04:26.280><c> used</c><00:04:26.520><c> for</c>
+
+00:04:26.749 --> 00:04:26.759 align:start position:0%
+ordering points can be used for
+ 
+
+00:04:26.759 --> 00:04:29.110 align:start position:0%
+ordering points can be used for
+different<00:04:27.040><c> blocks</c><00:04:27.520><c> so</c><00:04:27.680><c> that</c><00:04:27.840><c> for</c><00:04:28.120><c> each</c><00:04:28.400><c> block</c>
+
+00:04:29.110 --> 00:04:29.120 align:start position:0%
+different blocks so that for each block
+ 
+
+00:04:29.120 --> 00:04:32.150 align:start position:0%
+different blocks so that for each block
+all<00:04:29.360><c> axess</c><00:04:29.880><c> Es</c><00:04:30.000><c> are</c><00:04:30.199><c> ordered</c><00:04:31.160><c> by</c><00:04:31.360><c> the</c><00:04:31.520><c> same</c>
+
+00:04:32.150 --> 00:04:32.160 align:start position:0%
+all axess Es are ordered by the same
+ 
+
+00:04:32.160 --> 00:04:34.469 align:start position:0%
+all axess Es are ordered by the same
+entity<00:04:33.160><c> but</c><00:04:33.400><c> different</c><00:04:33.680><c> blocks</c><00:04:34.160><c> use</c>
+
+00:04:34.469 --> 00:04:34.479 align:start position:0%
+entity but different blocks use
+ 
+
+00:04:34.479 --> 00:04:36.150 align:start position:0%
+entity but different blocks use
+different<00:04:34.840><c> entities</c><00:04:35.360><c> so</c><00:04:35.560><c> they</c><00:04:35.680><c> don't</c><00:04:35.960><c> have</c>
+
+00:04:36.150 --> 00:04:36.160 align:start position:0%
+different entities so they don't have
+ 
+
+00:04:36.160 --> 00:04:38.830 align:start position:0%
+different entities so they don't have
+contention<00:04:37.160><c> this</c><00:04:37.440><c> ordering</c><00:04:37.960><c> point</c><00:04:38.280><c> is</c><00:04:38.440><c> called</c>
+
+00:04:38.830 --> 00:04:38.840 align:start position:0%
+contention this ordering point is called
+ 
+
+00:04:38.840 --> 00:04:42.510 align:start position:0%
+contention this ordering point is called
+directory<00:04:39.840><c> when</c><00:04:40.039><c> doing</c><00:04:40.440><c> coherence</c><00:04:41.440><c> so</c><00:04:42.280><c> this</c>
+
+00:04:42.510 --> 00:04:42.520 align:start position:0%
+directory when doing coherence so this
+ 
+
+00:04:42.520 --> 00:04:44.270 align:start position:0%
+directory when doing coherence so this
+family<00:04:42.919><c> of</c><00:04:43.120><c> approaches</c><00:04:43.639><c> is</c><00:04:43.800><c> called</c><00:04:44.039><c> a</c>
+
+00:04:44.270 --> 00:04:44.280 align:start position:0%
+family of approaches is called a
+ 
+
+00:04:44.280 --> 00:04:46.790 align:start position:0%
+family of approaches is called a
+directory<00:04:44.840><c> based</c><00:04:45.360><c> coherence</c><00:04:46.360><c> and</c><00:04:46.560><c> this</c>
+
+00:04:46.790 --> 00:04:46.800 align:start position:0%
+directory based coherence and this
+ 
+
+00:04:46.800 --> 00:04:48.990 align:start position:0%
+directory based coherence and this
+directory<00:04:47.440><c> both</c><00:04:47.720><c> serves</c><00:04:48.120><c> as</c><00:04:48.240><c> a</c><00:04:48.520><c> ordering</c>
+
+00:04:48.990 --> 00:04:49.000 align:start position:0%
+directory both serves as a ordering
+ 
+
+00:04:49.000 --> 00:04:51.909 align:start position:0%
+directory both serves as a ordering
+point<00:04:49.199><c> for</c><00:04:49.360><c> a</c><00:04:49.520><c> block</c><00:04:50.199><c> and</c><00:04:50.479><c> also</c><00:04:50.840><c> figures</c><00:04:51.240><c> out</c>
+
+00:04:51.909 --> 00:04:51.919 align:start position:0%
+point for a block and also figures out
+ 
+
+00:04:51.919 --> 00:04:54.390 align:start position:0%
+point for a block and also figures out
+who<00:04:52.160><c> to</c><00:04:52.360><c> update</c><00:04:52.759><c> or</c><00:04:53.199><c> invalidate</c><00:04:54.199><c> when</c>
+
+00:04:54.390 --> 00:04:54.400 align:start position:0%
+who to update or invalidate when
+ 
+
+00:04:54.400 --> 00:04:56.189 align:start position:0%
+who to update or invalidate when
+multiple<00:04:54.880><c> caches</c><00:04:55.320><c> have</c><00:04:55.440><c> a</c><00:04:55.600><c> version</c><00:04:55.919><c> of</c><00:04:56.080><c> the</c>
+
+00:04:56.189 --> 00:04:56.199 align:start position:0%
+multiple caches have a version of the
+ 
+
+00:04:56.199 --> 00:04:59.270 align:start position:0%
+multiple caches have a version of the
+same<00:04:56.400><c> block</c><00:04:56.880><c> and</c><00:04:57.039><c> a</c><00:04:57.240><c> right</c><00:04:57.800><c> occurs</c><00:04:58.800><c> so</c><00:04:59.000><c> among</c>
+
+00:04:59.270 --> 00:04:59.280 align:start position:0%
+same block and a right occurs so among
+ 
+
+00:04:59.280 --> 00:05:01.749 align:start position:0%
+same block and a right occurs so among
+these<00:04:59.720><c> two</c><00:04:59.880><c> approaches</c><00:05:00.840><c> we</c><00:05:00.960><c> can</c><00:05:01.160><c> also</c><00:05:01.479><c> pick</c>
+
+00:05:01.749 --> 00:05:01.759 align:start position:0%
+these two approaches we can also pick
+ 
+
+00:05:01.759 --> 00:05:05.070 align:start position:0%
+these two approaches we can also pick
+one<00:05:02.479><c> and</c><00:05:02.639><c> indeed</c><00:05:03.039><c> all</c><00:05:03.360><c> four</c><00:05:04.080><c> possibilities</c>
+
+00:05:05.070 --> 00:05:05.080 align:start position:0%
+one and indeed all four possibilities
+ 
+
+00:05:05.080 --> 00:05:07.350 align:start position:0%
+one and indeed all four possibilities
+this<00:05:05.320><c> and</c><00:05:05.600><c> this</c><00:05:06.080><c> this</c><00:05:06.280><c> and</c><00:05:06.560><c> this</c><00:05:06.960><c> this</c><00:05:07.120><c> and</c>
+
+00:05:07.350 --> 00:05:07.360 align:start position:0%
+this and this this and this this and
+ 
+
+00:05:07.360 --> 00:05:10.790 align:start position:0%
+this and this this and this this and
+this<00:05:07.520><c> and</c><00:05:07.759><c> this</c><00:05:07.880><c> and</c><00:05:08.639><c> that</c><00:05:09.520><c> are</c><00:05:09.759><c> all</c><00:05:10.120><c> possible</c>
+
+00:05:10.790 --> 00:05:10.800 align:start position:0%
+this and this and that are all possible
+ 
+
+00:05:10.800 --> 00:05:12.830 align:start position:0%
+this and this and that are all possible
+so<00:05:10.960><c> you</c><00:05:11.039><c> can</c><00:05:11.199><c> have</c><00:05:11.440><c> WR</c><00:05:11.720><c> update</c><00:05:12.160><c> with</c><00:05:12.320><c> snooping</c>
+
+00:05:12.830 --> 00:05:12.840 align:start position:0%
+so you can have WR update with snooping
+ 
+
+00:05:12.840 --> 00:05:15.230 align:start position:0%
+so you can have WR update with snooping
+WR<00:05:13.120><c> update</c><00:05:13.479><c> with</c><00:05:13.720><c> directory</c><00:05:14.400><c> WR</c><00:05:14.639><c> inv</c><00:05:14.880><c> validate</c>
+
+00:05:15.230 --> 00:05:15.240 align:start position:0%
+WR update with directory WR inv validate
+ 
+
+00:05:15.240 --> 00:05:16.950 align:start position:0%
+WR update with directory WR inv validate
+with<00:05:15.400><c> snooping</c><00:05:15.880><c> right</c><00:05:16.120><c> inv</c><00:05:16.360><c> validate</c><00:05:16.759><c> with</c>
+
+00:05:16.950 --> 00:05:16.960 align:start position:0%
+with snooping right inv validate with
+ 
+
+00:05:16.960 --> 00:05:19.960 align:start position:0%
+with snooping right inv validate with
+directory
+

@@ -1,0 +1,164 @@
+1
+00:00:00,230 --> 00:00:04,281
+ Suppose you wish to multiply a dense n by n matrix by a vector.
+
+2
+00:00:04,281 --> 00:00:05,240
+ Recall that the work,
+
+3
+00:00:05,240 --> 00:00:09,140
+ ignoring any structure in A, is proportional to n squared.
+
+4
+00:00:09,140 --> 00:00:13,240
+ Now suppose the matrix is stored in column major order.
+
+5
+00:00:13,240 --> 00:00:16,700
+ Column major order means that the elements of the matrix are laid out
+
+6
+00:00:16,700 --> 00:00:18,640
+ in memory column wise.
+
+7
+00:00:18,640 --> 00:00:21,890
+ That is elements have consecutive addresses within a column
+
+8
+00:00:21,890 --> 00:00:25,010
+ with one column following the previous column.
+
+9
+00:00:25,010 --> 00:00:27,740
+ In other words, viewing A as a 1-D array,
+
+10
+00:00:27,740 --> 00:00:32,060
+ the IJ element is indexed as I + J times N.
+
+11
+00:00:32,060 --> 00:00:35,890
+ Now consider two algorithms to compute a matrix vector product.
+
+12
+00:00:35,890 --> 00:00:37,615
+ Here is algorithm one.
+
+13
+00:00:37,615 --> 00:00:39,913
+ Rows are indexed by me and columns by j.
+
+14
+00:00:39,913 --> 00:00:44,395
+ In algorithm one, the outer most loop iterates over rows and
+
+15
+00:00:44,395 --> 00:00:47,115
+ the inner most loop iterates over columns.
+
+16
+00:00:47,115 --> 00:00:50,475
+ Take a moment to make sure you understand the iteration structure.
+
+17
+00:00:50,475 --> 00:00:53,115
+ Algorithm two does just the opposite.
+
+18
+00:00:53,115 --> 00:00:57,600
+ The outer loop iterates over columns and the inner loop iterates over rows.
+
+19
+00:00:57,600 --> 00:01:01,040
+ In the basic ram model, these algorithms are identical.
+
+20
+00:01:01,040 --> 00:01:02,490
+ Here's my question.
+
+21
+00:01:02,490 --> 00:01:06,450
+ In our IO model, which one does fewer transfers?
+
+22
+00:01:06,450 --> 00:01:10,660
+ Is it the one with i as the outer most loop and j as the inner most loop?
+
+23
+00:01:10,660 --> 00:01:13,820
+ That is outer most rows, inner most columns.
+
+24
+00:01:13,820 --> 00:01:16,120
+ Or is it the one that does the opposite?
+
+25
+00:01:16,120 --> 00:01:20,240
+ That is, outer most loop over columns and inner most loop over rows.
+
+26
+00:01:20,240 --> 00:01:24,260
+ To help you answer this question let me give you a few simplifying assumptions.
+
+27
+00:01:24,260 --> 00:01:29,630
+ First, assume that the fast memory is large enough to hold two vectors.
+
+28
+00:01:29,630 --> 00:01:33,390
+ You can also assume it has a little bit more space to store a few extra blocks
+
+29
+00:01:33,390 --> 00:01:34,620
+ of size L.
+
+30
+00:01:34,620 --> 00:01:37,530
+ Secondly, you can assume that L divides n.
+
+31
+00:01:37,530 --> 00:01:39,310
+ Lastly, let's assume all the arrays, and
+
+32
+00:01:39,310 --> 00:01:42,320
+ matrices are aligned on L word boundaries.
+
+33
+00:01:42,320 --> 00:01:46,460
+ These last two assumptions essentially avoid the data alignment issues, so
+
+34
+00:01:46,460 --> 00:01:48,940
+ you can ignore floors and ceilings.
+
+35
+00:01:48,940 --> 00:01:50,720
+ One last hint.
+
+36
+00:01:50,720 --> 00:01:54,060
+ >From these assumptions, you might as well assume that the algorithm
+
+37
+00:01:54,060 --> 00:01:59,030
+ preloads x and y at the very beginning, and stores y at the very end.
+
+38
+00:01:59,030 --> 00:02:01,490
+ What does that, in turn, imply?
+
+39
+00:02:01,490 --> 00:02:05,740
+ Well, the number of transfers will be at least 3n over L.
+
+40
+00:02:05,740 --> 00:02:07,910
+ In other words, the real question is,
+
+41
+00:02:07,910 --> 00:02:07,910
+ how many additional transfers does loading the matrix require?
+

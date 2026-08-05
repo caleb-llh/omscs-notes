@@ -1,0 +1,888 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.149 align:start position:0%
+ 
+let's<00:00:00.399><c> look</c><00:00:00.640><c> at</c><00:00:00.719><c> the</c><00:00:00.880><c> solution</c><00:00:01.360><c> to</c><00:00:01.520><c> a</c><00:00:01.680><c> raspful</c>
+
+00:00:02.149 --> 00:00:02.159 align:start position:0%
+let's look at the solution to a raspful
+ 
+
+00:00:02.159 --> 00:00:05.190 align:start position:0%
+let's look at the solution to a raspful
+quiz<00:00:02.480><c> so</c><00:00:02.639><c> the</c><00:00:02.800><c> question</c><00:00:03.199><c> was</c><00:00:03.919><c> is</c><00:00:04.160><c> it</c><00:00:04.240><c> better</c><00:00:04.799><c> to</c>
+
+00:00:05.190 --> 00:00:05.200 align:start position:0%
+quiz so the question was is it better to
+ 
+
+00:00:05.200 --> 00:00:07.269 align:start position:0%
+quiz so the question was is it better to
+not<00:00:05.440><c> push</c><00:00:05.759><c> anything</c><00:00:06.240><c> anymore</c><00:00:06.720><c> once</c><00:00:06.879><c> the</c><00:00:07.040><c> rice</c>
+
+00:00:07.269 --> 00:00:07.279 align:start position:0%
+not push anything anymore once the rice
+ 
+
+00:00:07.279 --> 00:00:09.509 align:start position:0%
+not push anything anymore once the rice
+is<00:00:07.440><c> full</c><00:00:07.919><c> or</c><00:00:08.160><c> simply</c><00:00:08.559><c> wrap</c><00:00:08.800><c> around</c><00:00:09.120><c> and</c><00:00:09.280><c> keep</c>
+
+00:00:09.509 --> 00:00:09.519 align:start position:0%
+is full or simply wrap around and keep
+ 
+
+00:00:09.519 --> 00:00:11.669 align:start position:0%
+is full or simply wrap around and keep
+overwriting<00:00:10.559><c> all</c><00:00:10.719><c> the</c><00:00:10.880><c> dresses</c><00:00:11.280><c> with</c><00:00:11.440><c> new</c>
+
+00:00:11.669 --> 00:00:11.679 align:start position:0%
+overwriting all the dresses with new
+ 
+
+00:00:11.679 --> 00:00:13.990 align:start position:0%
+overwriting all the dresses with new
+ones<00:00:12.400><c> it</c><00:00:12.559><c> turns</c><00:00:12.880><c> out</c><00:00:13.040><c> that</c><00:00:13.200><c> the</c><00:00:13.360><c> wraparound</c>
+
+00:00:13.990 --> 00:00:14.000 align:start position:0%
+ones it turns out that the wraparound
+ 
+
+00:00:14.000 --> 00:00:15.669 align:start position:0%
+ones it turns out that the wraparound
+approach<00:00:14.480><c> is</c><00:00:14.639><c> much</c><00:00:14.880><c> better</c><00:00:15.200><c> than</c><00:00:15.360><c> the</c><00:00:15.519><c> don't</c>
+
+00:00:15.669 --> 00:00:15.679 align:start position:0%
+approach is much better than the don't
+ 
+
+00:00:15.679 --> 00:00:18.070 align:start position:0%
+approach is much better than the don't
+push<00:00:15.920><c> approach</c><00:00:16.480><c> to</c><00:00:16.720><c> see</c><00:00:16.960><c> why</c><00:00:17.520><c> keep</c><00:00:17.760><c> in</c><00:00:17.920><c> mind</c>
+
+00:00:18.070 --> 00:00:18.080 align:start position:0%
+push approach to see why keep in mind
+ 
+
+00:00:18.080 --> 00:00:20.470 align:start position:0%
+push approach to see why keep in mind
+that<00:00:18.320><c> our</c><00:00:18.480><c> program</c><00:00:18.880><c> will</c><00:00:19.039><c> look</c><00:00:19.279><c> like</c><00:00:19.600><c> this</c>
+
+00:00:20.470 --> 00:00:20.480 align:start position:0%
+that our program will look like this
+ 
+
+00:00:20.480 --> 00:00:22.550 align:start position:0%
+that our program will look like this
+we<00:00:20.640><c> have</c><00:00:20.800><c> the</c><00:00:20.960><c> main</c><00:00:21.279><c> function</c>
+
+00:00:22.550 --> 00:00:22.560 align:start position:0%
+we have the main function
+ 
+
+00:00:22.560 --> 00:00:25.269 align:start position:0%
+we have the main function
+it<00:00:22.880><c> executes</c><00:00:23.359><c> for</c><00:00:23.519><c> a</c><00:00:23.680><c> while</c><00:00:24.480><c> then</c><00:00:24.720><c> calls</c><00:00:24.960><c> some</c>
+
+00:00:25.269 --> 00:00:25.279 align:start position:0%
+it executes for a while then calls some
+ 
+
+00:00:25.279 --> 00:00:26.550 align:start position:0%
+it executes for a while then calls some
+other<00:00:25.519><c> function</c>
+
+00:00:26.550 --> 00:00:26.560 align:start position:0%
+other function
+ 
+
+00:00:26.560 --> 00:00:28.630 align:start position:0%
+other function
+this<00:00:26.800><c> results</c><00:00:27.279><c> in</c><00:00:27.439><c> pushing</c><00:00:27.920><c> something</c><00:00:28.320><c> onto</c>
+
+00:00:28.630 --> 00:00:28.640 align:start position:0%
+this results in pushing something onto
+ 
+
+00:00:28.640 --> 00:00:31.109 align:start position:0%
+this results in pushing something onto
+the<00:00:28.800><c> rest</c><00:00:29.359><c> our</c><00:00:29.840><c> high</c><00:00:30.080><c> level</c><00:00:30.480><c> function</c><00:00:30.880><c> here</c>
+
+00:00:31.109 --> 00:00:31.119 align:start position:0%
+the rest our high level function here
+ 
+
+00:00:31.119 --> 00:00:33.350 align:start position:0%
+the rest our high level function here
+will<00:00:31.279><c> do</c><00:00:31.519><c> a</c><00:00:31.679><c> lot</c><00:00:31.920><c> of</c><00:00:32.160><c> work</c><00:00:32.719><c> occasionally</c>
+
+00:00:33.350 --> 00:00:33.360 align:start position:0%
+will do a lot of work occasionally
+ 
+
+00:00:33.360 --> 00:00:34.310 align:start position:0%
+will do a lot of work occasionally
+calling
+
+00:00:34.310 --> 00:00:34.320 align:start position:0%
+calling
+ 
+
+00:00:34.320 --> 00:00:35.750 align:start position:0%
+calling
+other<00:00:34.640><c> functions</c>
+
+00:00:35.750 --> 00:00:35.760 align:start position:0%
+other functions
+ 
+
+00:00:35.760 --> 00:00:38.709 align:start position:0%
+other functions
+and<00:00:35.920><c> so</c><00:00:36.160><c> on</c><00:00:36.880><c> we</c><00:00:37.120><c> push</c><00:00:37.760><c> to</c><00:00:38.000><c> see</c>
+
+00:00:38.709 --> 00:00:38.719 align:start position:0%
+and so on we push to see
+ 
+
+00:00:38.719 --> 00:00:40.869 align:start position:0%
+and so on we push to see
+what<00:00:38.960><c> happens</c><00:00:39.360><c> here</c><00:00:39.600><c> without</c><00:00:40.239><c> running</c><00:00:40.559><c> out</c><00:00:40.800><c> of</c>
+
+00:00:40.869 --> 00:00:40.879 align:start position:0%
+what happens here without running out of
+ 
+
+00:00:40.879 --> 00:00:42.630 align:start position:0%
+what happens here without running out of
+space<00:00:41.280><c> let's</c><00:00:41.440><c> say</c><00:00:41.600><c> that</c><00:00:41.760><c> our</c><00:00:42.000><c> ass</c><00:00:42.239><c> only</c><00:00:42.399><c> has</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+space let's say that our ass only has
+ 
+
+00:00:42.640 --> 00:00:44.950 align:start position:0%
+space let's say that our ass only has
+two<00:00:42.879><c> entries</c><00:00:43.840><c> the</c><00:00:44.079><c> first</c><00:00:44.399><c> entry</c><00:00:44.719><c> will</c><00:00:44.800><c> be</c>
+
+00:00:44.950 --> 00:00:44.960 align:start position:0%
+two entries the first entry will be
+ 
+
+00:00:44.960 --> 00:00:46.869 align:start position:0%
+two entries the first entry will be
+consumed<00:00:45.440><c> by</c><00:00:45.840><c> pushing</c>
+
+00:00:46.869 --> 00:00:46.879 align:start position:0%
+consumed by pushing
+ 
+
+00:00:46.879 --> 00:00:49.990 align:start position:0%
+consumed by pushing
+the<00:00:47.039><c> return</c><00:00:47.360><c> address</c><00:00:47.760><c> when</c><00:00:48.000><c> main</c><00:00:48.320><c> calls</c><00:00:48.719><c> do</c><00:00:48.879><c> it</c>
+
+00:00:49.990 --> 00:00:50.000 align:start position:0%
+the return address when main calls do it
+ 
+
+00:00:50.000 --> 00:00:52.310 align:start position:0%
+the return address when main calls do it
+the<00:00:50.160><c> second</c><00:00:50.559><c> one</c><00:00:51.039><c> will</c><00:00:51.199><c> be</c><00:00:51.360><c> consumed</c><00:00:51.920><c> when</c><00:00:52.160><c> we</c>
+
+00:00:52.310 --> 00:00:52.320 align:start position:0%
+the second one will be consumed when we
+ 
+
+00:00:52.320 --> 00:00:55.110 align:start position:0%
+the second one will be consumed when we
+call<00:00:52.559><c> the</c><00:00:52.800><c> function</c><00:00:53.199><c> func</c><00:00:53.600><c> from</c><00:00:53.760><c> do</c><00:00:54.000><c> it</c>
+
+00:00:55.110 --> 00:00:55.120 align:start position:0%
+call the function func from do it
+ 
+
+00:00:55.120 --> 00:00:56.470 align:start position:0%
+call the function func from do it
+at<00:00:55.360><c> this</c><00:00:55.600><c> point</c>
+
+00:00:56.470 --> 00:00:56.480 align:start position:0%
+at this point
+ 
+
+00:00:56.480 --> 00:00:58.869 align:start position:0%
+at this point
+we're<00:00:56.800><c> calling</c><00:00:57.199><c> the</c><00:00:57.360><c> function</c><00:00:57.680><c> do</c><00:00:57.920><c> less</c>
+
+00:00:58.869 --> 00:00:58.879 align:start position:0%
+we're calling the function do less
+ 
+
+00:00:58.879 --> 00:01:00.869 align:start position:0%
+we're calling the function do less
+and<00:00:59.039><c> it</c><00:00:59.199><c> might</c><00:00:59.520><c> call</c><00:00:59.840><c> for</c><00:01:00.079><c> example</c><00:01:00.399><c> the</c><00:01:00.640><c> add</c>
+
+00:01:00.869 --> 00:01:00.879 align:start position:0%
+and it might call for example the add
+ 
+
+00:01:00.879 --> 00:01:02.229 align:start position:0%
+and it might call for example the add
+function<00:01:01.280><c> many</c><00:01:01.520><c> many</c><00:01:01.760><c> times</c><00:01:01.920><c> so</c><00:01:02.079><c> we're</c>
+
+00:01:02.229 --> 00:01:02.239 align:start position:0%
+function many many times so we're
+ 
+
+00:01:02.239 --> 00:01:03.830 align:start position:0%
+function many many times so we're
+getting<00:01:02.559><c> to</c><00:01:02.719><c> the</c><00:01:02.879><c> place</c><00:01:03.120><c> where</c><00:01:03.359><c> functions</c><00:01:03.760><c> are</c>
+
+00:01:03.830 --> 00:01:03.840 align:start position:0%
+getting to the place where functions are
+ 
+
+00:01:03.840 --> 00:01:05.910 align:start position:0%
+getting to the place where functions are
+really<00:01:04.159><c> small</c><00:01:04.799><c> and</c><00:01:05.040><c> ideally</c><00:01:05.519><c> we</c><00:01:05.680><c> would</c><00:01:05.840><c> you</c>
+
+00:01:05.910 --> 00:01:05.920 align:start position:0%
+really small and ideally we would you
+ 
+
+00:01:05.920 --> 00:01:07.590 align:start position:0%
+really small and ideally we would you
+know<00:01:06.080><c> push</c><00:01:06.320><c> each</c><00:01:06.560><c> time</c><00:01:06.799><c> and</c><00:01:06.880><c> then</c><00:01:07.119><c> pop</c><00:01:07.360><c> when</c><00:01:07.439><c> we</c>
+
+00:01:07.590 --> 00:01:07.600 align:start position:0%
+know push each time and then pop when we
+ 
+
+00:01:07.600 --> 00:01:10.149 align:start position:0%
+know push each time and then pop when we
+return<00:01:08.000><c> and</c><00:01:08.080><c> so</c><00:01:08.320><c> on</c><00:01:08.799><c> if</c><00:01:09.040><c> we</c><00:01:09.200><c> only</c><00:01:09.439><c> have</c><00:01:09.840><c> one</c>
+
+00:01:10.149 --> 00:01:10.159 align:start position:0%
+return and so on if we only have one
+ 
+
+00:01:10.159 --> 00:01:12.630 align:start position:0%
+return and so on if we only have one
+entry<00:01:10.640><c> then</c><00:01:10.880><c> really</c><00:01:11.360><c> our</c><00:01:11.600><c> entire</c><00:01:12.000><c> res</c><00:01:12.320><c> will</c><00:01:12.479><c> be</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+entry then really our entire res will be
+ 
+
+00:01:12.640 --> 00:01:15.270 align:start position:0%
+entry then really our entire res will be
+used<00:01:12.880><c> just</c><00:01:13.200><c> when</c><00:01:13.360><c> we</c><00:01:13.520><c> call</c><00:01:13.760><c> do</c><00:01:14.000><c> it</c><00:01:14.400><c> and</c>
+
+00:01:15.270 --> 00:01:15.280 align:start position:0%
+used just when we call do it and
+ 
+
+00:01:15.280 --> 00:01:17.109 align:start position:0%
+used just when we call do it and
+as<00:01:15.520><c> long</c><00:01:15.759><c> as</c><00:01:15.840><c> we</c><00:01:16.000><c> stay</c><00:01:16.320><c> and</c><00:01:16.400><c> do</c><00:01:16.560><c> it</c><00:01:16.720><c> which</c><00:01:16.880><c> might</c>
+
+00:01:17.109 --> 00:01:17.119 align:start position:0%
+as long as we stay and do it which might
+ 
+
+00:01:17.119 --> 00:01:18.390 align:start position:0%
+as long as we stay and do it which might
+be<00:01:17.200><c> a</c><00:01:17.280><c> very</c><00:01:17.520><c> large</c><00:01:17.840><c> function</c><00:01:18.159><c> because</c><00:01:18.320><c> it</c>
+
+00:01:18.390 --> 00:01:18.400 align:start position:0%
+be a very large function because it
+ 
+
+00:01:18.400 --> 00:01:20.149 align:start position:0%
+be a very large function because it
+might<00:01:18.640><c> be</c><00:01:18.720><c> doing</c><00:01:19.040><c> most</c><00:01:19.280><c> of</c><00:01:19.360><c> the</c><00:01:19.520><c> actual</c><00:01:19.840><c> work</c>
+
+00:01:20.149 --> 00:01:20.159 align:start position:0%
+might be doing most of the actual work
+ 
+
+00:01:20.159 --> 00:01:21.510 align:start position:0%
+might be doing most of the actual work
+in<00:01:20.240><c> the</c><00:01:20.400><c> program</c>
+
+00:01:21.510 --> 00:01:21.520 align:start position:0%
+in the program
+ 
+
+00:01:21.520 --> 00:01:23.030 align:start position:0%
+in the program
+all<00:01:21.840><c> of</c><00:01:21.920><c> the</c><00:01:22.080><c> function</c><00:01:22.400><c> calls</c><00:01:22.720><c> that</c><00:01:22.799><c> we</c><00:01:22.880><c> are</c>
+
+00:01:23.030 --> 00:01:23.040 align:start position:0%
+all of the function calls that we are
+ 
+
+00:01:23.040 --> 00:01:24.789 align:start position:0%
+all of the function calls that we are
+doing<00:01:23.280><c> really</c><00:01:23.600><c> end</c><00:01:23.759><c> up</c><00:01:23.920><c> being</c><00:01:24.080><c> mispredicted</c>
+
+00:01:24.789 --> 00:01:24.799 align:start position:0%
+doing really end up being mispredicted
+ 
+
+00:01:24.799 --> 00:01:27.109 align:start position:0%
+doing really end up being mispredicted
+because<00:01:25.200><c> we</c><00:01:25.360><c> ran</c><00:01:25.600><c> out</c><00:01:25.759><c> of</c><00:01:25.920><c> raw</c><00:01:26.159><c> space</c><00:01:26.640><c> and</c><00:01:26.880><c> the</c>
+
+00:01:27.109 --> 00:01:27.119 align:start position:0%
+because we ran out of raw space and the
+ 
+
+00:01:27.119 --> 00:01:28.789 align:start position:0%
+because we ran out of raw space and the
+one<00:01:27.439><c> time</c><00:01:27.759><c> that</c><00:01:27.920><c> we</c><00:01:28.080><c> will</c><00:01:28.240><c> have</c><00:01:28.400><c> a</c><00:01:28.479><c> correct</c>
+
+00:01:28.789 --> 00:01:28.799 align:start position:0%
+one time that we will have a correct
+ 
+
+00:01:28.799 --> 00:01:30.710 align:start position:0%
+one time that we will have a correct
+prediction<00:01:29.360><c> is</c><00:01:29.520><c> when</c><00:01:29.680><c> we</c><00:01:29.920><c> finally</c><00:01:30.320><c> return</c>
+
+00:01:30.710 --> 00:01:30.720 align:start position:0%
+prediction is when we finally return
+ 
+
+00:01:30.720 --> 00:01:33.429 align:start position:0%
+prediction is when we finally return
+from<00:01:30.960><c> do</c><00:01:31.119><c> it</c><00:01:31.759><c> if</c><00:01:31.920><c> we</c><00:01:32.079><c> have</c><00:01:32.320><c> two</c><00:01:32.560><c> entries</c><00:01:33.280><c> a</c>
+
+00:01:33.429 --> 00:01:33.439 align:start position:0%
+from do it if we have two entries a
+ 
+
+00:01:33.439 --> 00:01:35.350 align:start position:0%
+from do it if we have two entries a
+similar<00:01:33.759><c> thing</c><00:01:34.000><c> will</c><00:01:34.159><c> happen</c><00:01:34.960><c> we</c><00:01:35.119><c> will</c>
+
+00:01:35.350 --> 00:01:35.360 align:start position:0%
+similar thing will happen we will
+ 
+
+00:01:35.360 --> 00:01:37.510 align:start position:0%
+similar thing will happen we will
+consume<00:01:35.759><c> the</c><00:01:35.840><c> first</c><00:01:36.159><c> entry</c><00:01:36.479><c> by</c><00:01:37.119><c> basically</c>
+
+00:01:37.510 --> 00:01:37.520 align:start position:0%
+consume the first entry by basically
+ 
+
+00:01:37.520 --> 00:01:39.030 align:start position:0%
+consume the first entry by basically
+pushing<00:01:37.840><c> the</c><00:01:38.000><c> first</c><00:01:38.240><c> thing</c><00:01:38.479><c> so</c><00:01:38.640><c> pretty</c><00:01:38.880><c> much</c>
+
+00:01:39.030 --> 00:01:39.040 align:start position:0%
+pushing the first thing so pretty much
+ 
+
+00:01:39.040 --> 00:01:41.270 align:start position:0%
+pushing the first thing so pretty much
+we're<00:01:39.200><c> kind</c><00:01:39.360><c> of</c><00:01:39.680><c> using</c><00:01:40.079><c> an</c><00:01:40.240><c> entry</c><00:01:40.560><c> here</c><00:01:40.880><c> just</c>
+
+00:01:41.270 --> 00:01:41.280 align:start position:0%
+we're kind of using an entry here just
+ 
+
+00:01:41.280 --> 00:01:44.389 align:start position:0%
+we're kind of using an entry here just
+to<00:01:41.840><c> save</c><00:01:42.240><c> one</c><00:01:42.880><c> misprediction</c><00:01:43.759><c> at</c><00:01:43.840><c> the</c><00:01:44.000><c> final</c>
+
+00:01:44.389 --> 00:01:44.399 align:start position:0%
+to save one misprediction at the final
+ 
+
+00:01:44.399 --> 00:01:45.350 align:start position:0%
+to save one misprediction at the final
+return
+
+00:01:45.350 --> 00:01:45.360 align:start position:0%
+return
+ 
+
+00:01:45.360 --> 00:01:47.510 align:start position:0%
+return
+here<00:01:45.680><c> again</c><00:01:46.000><c> we</c><00:01:46.159><c> are</c><00:01:46.320><c> using</c><00:01:46.640><c> the</c><00:01:46.799><c> second</c><00:01:47.200><c> entry</c>
+
+00:01:47.510 --> 00:01:47.520 align:start position:0%
+here again we are using the second entry
+ 
+
+00:01:47.520 --> 00:01:50.069 align:start position:0%
+here again we are using the second entry
+just<00:01:47.759><c> to</c><00:01:47.920><c> save</c><00:01:48.640><c> the</c><00:01:48.799><c> return</c><00:01:49.200><c> from</c><00:01:49.520><c> func</c>
+
+00:01:50.069 --> 00:01:50.079 align:start position:0%
+just to save the return from func
+ 
+
+00:01:50.079 --> 00:01:51.830 align:start position:0%
+just to save the return from func
+whenever<00:01:50.560><c> that</c><00:01:50.799><c> happens</c><00:01:51.119><c> and</c><00:01:51.280><c> func</c><00:01:51.600><c> itself</c>
+
+00:01:51.830 --> 00:01:51.840 align:start position:0%
+whenever that happens and func itself
+ 
+
+00:01:51.840 --> 00:01:53.910 align:start position:0%
+whenever that happens and func itself
+could<00:01:52.079><c> be</c><00:01:52.159><c> calling</c><00:01:52.560><c> a</c><00:01:52.640><c> lot</c><00:01:52.799><c> of</c><00:01:52.960><c> functions</c><00:01:53.680><c> so</c>
+
+00:01:53.910 --> 00:01:53.920 align:start position:0%
+could be calling a lot of functions so
+ 
+
+00:01:53.920 --> 00:01:56.149 align:start position:0%
+could be calling a lot of functions so
+the<00:01:54.079><c> don't</c><00:01:54.399><c> push</c><00:01:54.720><c> approach</c><00:01:55.520><c> basically</c>
+
+00:01:56.149 --> 00:01:56.159 align:start position:0%
+the don't push approach basically
+ 
+
+00:01:56.159 --> 00:01:57.670 align:start position:0%
+the don't push approach basically
+spending<00:01:56.640><c> entries</c>
+
+00:01:57.670 --> 00:01:57.680 align:start position:0%
+spending entries
+ 
+
+00:01:57.680 --> 00:02:00.310 align:start position:0%
+spending entries
+on<00:01:57.840><c> kind</c><00:01:58.000><c> of</c><00:01:58.320><c> long-term</c><00:01:59.520><c> things</c><00:01:59.920><c> that</c><00:02:00.079><c> need</c><00:02:00.240><c> to</c>
+
+00:02:00.310 --> 00:02:00.320 align:start position:0%
+on kind of long-term things that need to
+ 
+
+00:02:00.320 --> 00:02:01.590 align:start position:0%
+on kind of long-term things that need to
+be<00:02:00.479><c> remembered</c>
+
+00:02:01.590 --> 00:02:01.600 align:start position:0%
+be remembered
+ 
+
+00:02:01.600 --> 00:02:03.030 align:start position:0%
+be remembered
+so<00:02:01.840><c> that</c><00:02:02.000><c> we</c><00:02:02.159><c> can</c><00:02:02.320><c> finally</c><00:02:02.719><c> save</c><00:02:02.960><c> a</c>
+
+00:02:03.030 --> 00:02:03.040 align:start position:0%
+so that we can finally save a
+ 
+
+00:02:03.040 --> 00:02:04.950 align:start position:0%
+so that we can finally save a
+misprediction<00:02:03.680><c> once</c><00:02:04.000><c> we</c><00:02:04.159><c> reach</c><00:02:04.399><c> the</c><00:02:04.560><c> return</c>
+
+00:02:04.950 --> 00:02:04.960 align:start position:0%
+misprediction once we reach the return
+ 
+
+00:02:04.960 --> 00:02:06.870 align:start position:0%
+misprediction once we reach the return
+point<00:02:05.200><c> from</c><00:02:05.360><c> the</c><00:02:05.520><c> large</c><00:02:05.840><c> function</c><00:02:06.719><c> in</c>
+
+00:02:06.870 --> 00:02:06.880 align:start position:0%
+point from the large function in
+ 
+
+00:02:06.880 --> 00:02:09.350 align:start position:0%
+point from the large function in
+contrast<00:02:07.520><c> the</c><00:02:07.680><c> wrap</c><00:02:08.000><c> around</c><00:02:08.399><c> approach</c>
+
+00:02:09.350 --> 00:02:09.360 align:start position:0%
+contrast the wrap around approach
+ 
+
+00:02:09.360 --> 00:02:10.630 align:start position:0%
+contrast the wrap around approach
+is<00:02:09.599><c> gonna</c>
+
+00:02:10.630 --> 00:02:10.640 align:start position:0%
+is gonna
+ 
+
+00:02:10.640 --> 00:02:12.630 align:start position:0%
+is gonna
+push<00:02:10.959><c> this</c><00:02:11.440><c> push</c><00:02:11.760><c> this</c>
+
+00:02:12.630 --> 00:02:12.640 align:start position:0%
+push this push this
+ 
+
+00:02:12.640 --> 00:02:15.190 align:start position:0%
+push this push this
+push<00:02:12.959><c> this</c><00:02:13.440><c> thus</c><00:02:13.840><c> overwriting</c><00:02:14.400><c> this</c><00:02:14.720><c> entry</c><00:02:15.040><c> so</c>
+
+00:02:15.190 --> 00:02:15.200 align:start position:0%
+push this thus overwriting this entry so
+ 
+
+00:02:15.200 --> 00:02:17.589 align:start position:0%
+push this thus overwriting this entry so
+now<00:02:15.440><c> what</c><00:02:15.599><c> we</c><00:02:16.080><c> are</c><00:02:16.239><c> doing</c><00:02:16.959><c> is</c><00:02:17.280><c> we</c><00:02:17.440><c> are</c>
+
+00:02:17.589 --> 00:02:17.599 align:start position:0%
+now what we are doing is we are
+ 
+
+00:02:17.599 --> 00:02:19.589 align:start position:0%
+now what we are doing is we are
+basically<00:02:18.160><c> gonna</c><00:02:18.400><c> be</c><00:02:18.560><c> correctly</c><00:02:19.040><c> predicting</c>
+
+00:02:19.589 --> 00:02:19.599 align:start position:0%
+basically gonna be correctly predicting
+ 
+
+00:02:19.599 --> 00:02:21.670 align:start position:0%
+basically gonna be correctly predicting
+calls<00:02:19.840><c> to</c><00:02:20.000><c> small</c><00:02:20.319><c> functions</c><00:02:20.800><c> and</c><00:02:20.959><c> returns</c><00:02:21.599><c> and</c>
+
+00:02:21.670 --> 00:02:21.680 align:start position:0%
+calls to small functions and returns and
+ 
+
+00:02:21.680 --> 00:02:23.750 align:start position:0%
+calls to small functions and returns and
+we<00:02:21.840><c> can</c><00:02:22.000><c> have</c><00:02:22.239><c> many</c><00:02:22.560><c> of</c><00:02:22.720><c> those</c>
+
+00:02:23.750 --> 00:02:23.760 align:start position:0%
+we can have many of those
+ 
+
+00:02:23.760 --> 00:02:27.190 align:start position:0%
+we can have many of those
+in<00:02:24.000><c> return</c><00:02:24.720><c> for</c><00:02:25.280><c> inaccurately</c><00:02:26.080><c> predicting</c>
+
+00:02:27.190 --> 00:02:27.200 align:start position:0%
+in return for inaccurately predicting
+ 
+
+00:02:27.200 --> 00:02:29.910 align:start position:0%
+in return for inaccurately predicting
+the<00:02:27.360><c> final</c><00:02:27.760><c> returns</c><00:02:28.239><c> from</c><00:02:28.400><c> large</c><00:02:28.720><c> functions</c>
+
+00:02:29.910 --> 00:02:29.920 align:start position:0%
+the final returns from large functions
+ 
+
+00:02:29.920 --> 00:02:32.309 align:start position:0%
+the final returns from large functions
+because<00:02:30.319><c> we</c><00:02:30.480><c> have</c><00:02:30.720><c> many</c><00:02:31.120><c> more</c><00:02:31.599><c> small</c><00:02:31.920><c> function</c>
+
+00:02:32.309 --> 00:02:32.319 align:start position:0%
+because we have many more small function
+ 
+
+00:02:32.319 --> 00:02:35.190 align:start position:0%
+because we have many more small function
+calls<00:02:33.120><c> than</c><00:02:33.440><c> large</c><00:02:33.760><c> function</c><00:02:34.160><c> calls</c>
+
+00:02:35.190 --> 00:02:35.200 align:start position:0%
+calls than large function calls
+ 
+
+00:02:35.200 --> 00:02:37.190 align:start position:0%
+calls than large function calls
+in<00:02:35.280><c> the</c><00:02:35.440><c> end</c><00:02:35.680><c> we</c><00:02:35.760><c> are</c><00:02:36.160><c> more</c><00:02:36.400><c> effectively</c><00:02:36.959><c> using</c>
+
+00:02:37.190 --> 00:02:37.200 align:start position:0%
+in the end we are more effectively using
+ 
+
+00:02:37.200 --> 00:02:39.110 align:start position:0%
+in the end we are more effectively using
+the<00:02:37.360><c> few</c><00:02:37.519><c> entries</c><00:02:37.840><c> we</c><00:02:38.000><c> have</c><00:02:38.319><c> pretty</c><00:02:38.640><c> much</c><00:02:38.879><c> here</c>
+
+00:02:39.110 --> 00:02:39.120 align:start position:0%
+the few entries we have pretty much here
+ 
+
+00:02:39.120 --> 00:02:42.150 align:start position:0%
+the few entries we have pretty much here
+we<00:02:39.200><c> are</c><00:02:39.280><c> kind</c><00:02:39.519><c> of</c><00:02:40.000><c> using</c><00:02:40.400><c> the</c><00:02:40.560><c> entry</c><00:02:41.120><c> to</c><00:02:41.360><c> save</c>
+
+00:02:42.150 --> 00:02:42.160 align:start position:0%
+we are kind of using the entry to save
+ 
+
+00:02:42.160 --> 00:02:44.630 align:start position:0%
+we are kind of using the entry to save
+a<00:02:42.319><c> misprediction</c><00:02:43.440><c> over</c><00:02:43.760><c> a</c><00:02:43.840><c> very</c><00:02:44.080><c> short</c><00:02:44.319><c> period</c>
+
+00:02:44.630 --> 00:02:44.640 align:start position:0%
+a misprediction over a very short period
+ 
+
+00:02:44.640 --> 00:02:46.949 align:start position:0%
+a misprediction over a very short period
+of<00:02:44.800><c> time</c><00:02:45.120><c> thus</c><00:02:45.280><c> this</c><00:02:45.519><c> entry</c><00:02:45.840><c> gets</c><00:02:46.080><c> utilized</c>
+
+00:02:46.949 --> 00:02:46.959 align:start position:0%
+of time thus this entry gets utilized
+ 
+
+00:02:46.959 --> 00:02:49.430 align:start position:0%
+of time thus this entry gets utilized
+and<00:02:47.040><c> then</c><00:02:47.599><c> released</c><00:02:48.080><c> very</c><00:02:48.319><c> quickly</c><00:02:49.040><c> whereas</c>
+
+00:02:49.430 --> 00:02:49.440 align:start position:0%
+and then released very quickly whereas
+ 
+
+00:02:49.440 --> 00:02:51.830 align:start position:0%
+and then released very quickly whereas
+here<00:02:49.680><c> we</c><00:02:49.920><c> are</c><00:02:50.400><c> using</c><00:02:50.720><c> an</c><00:02:50.879><c> entry</c><00:02:51.200><c> for</c><00:02:51.440><c> a</c><00:02:51.519><c> long</c>
+
+00:02:51.830 --> 00:02:51.840 align:start position:0%
+here we are using an entry for a long
+ 
+
+00:02:51.840 --> 00:02:54.229 align:start position:0%
+here we are using an entry for a long
+time<00:02:52.319><c> to</c><00:02:52.480><c> save</c><00:02:52.720><c> a</c><00:02:52.879><c> single</c><00:02:53.120><c> misprediction</c><00:02:54.000><c> and</c>
+
+00:02:54.229 --> 00:02:54.239 align:start position:0%
+time to save a single misprediction and
+ 
+
+00:02:54.239 --> 00:02:55.830 align:start position:0%
+time to save a single misprediction and
+in<00:02:54.400><c> the</c><00:02:54.560><c> end</c><00:02:54.720><c> we</c><00:02:54.800><c> want</c><00:02:55.040><c> to</c><00:02:55.120><c> save</c><00:02:55.440><c> as</c><00:02:55.599><c> many</c>
+
+00:02:55.830 --> 00:02:55.840 align:start position:0%
+in the end we want to save as many
+ 
+
+00:02:55.840 --> 00:02:58.070 align:start position:0%
+in the end we want to save as many
+mispredictions<00:02:56.560><c> as</c><00:02:56.720><c> we</c><00:02:56.879><c> can</c><00:02:57.360><c> so</c><00:02:57.519><c> that's</c><00:02:57.840><c> why</c>
+
+00:02:58.070 --> 00:02:58.080 align:start position:0%
+mispredictions as we can so that's why
+ 
+
+00:02:58.080 --> 00:02:59.830 align:start position:0%
+mispredictions as we can so that's why
+the<00:02:58.239><c> wraparound</c><00:02:58.800><c> approach</c><00:02:59.120><c> works</c><00:02:59.440><c> better</c>
+
+00:02:59.830 --> 00:02:59.840 align:start position:0%
+the wraparound approach works better
+ 
+
+00:02:59.840 --> 00:03:02.550 align:start position:0%
+the wraparound approach works better
+because<00:03:00.319><c> it</c><00:03:00.560><c> ends</c><00:03:00.879><c> up</c><00:03:01.360><c> correctly</c><00:03:01.840><c> predicting</c>
+
+00:03:02.550 --> 00:03:02.560 align:start position:0%
+because it ends up correctly predicting
+ 
+
+00:03:02.560 --> 00:03:04.470 align:start position:0%
+because it ends up correctly predicting
+calls<00:03:02.800><c> to</c><00:03:02.959><c> small</c><00:03:03.360><c> functions</c>
+
+00:03:04.470 --> 00:03:04.480 align:start position:0%
+calls to small functions
+ 
+
+00:03:04.480 --> 00:03:07.750 align:start position:0%
+calls to small functions
+many<00:03:04.720><c> of</c><00:03:04.879><c> which</c><00:03:05.120><c> we</c><00:03:05.280><c> can</c><00:03:05.440><c> have</c><00:03:06.080><c> in</c><00:03:06.239><c> return</c><00:03:07.120><c> for</c>
+
+00:03:07.750 --> 00:03:07.760 align:start position:0%
+many of which we can have in return for
+ 
+
+00:03:07.760 --> 00:03:10.630 align:start position:0%
+many of which we can have in return for
+not<00:03:08.000><c> correctly</c><00:03:08.480><c> predicting</c><00:03:09.519><c> the</c><00:03:09.680><c> return</c>
+
+00:03:10.630 --> 00:03:10.640 align:start position:0%
+not correctly predicting the return
+ 
+
+00:03:10.640 --> 00:03:14.229 align:start position:0%
+not correctly predicting the return
+from<00:03:11.280><c> large</c><00:03:11.920><c> functions</c><00:03:12.319><c> to</c><00:03:12.560><c> main</c><00:03:12.959><c> etc</c>
+
+00:03:14.229 --> 00:03:14.239 align:start position:0%
+from large functions to main etc
+ 
+
+00:03:14.239 --> 00:03:16.070 align:start position:0%
+from large functions to main etc
+another<00:03:14.640><c> thing</c><00:03:14.879><c> to</c><00:03:15.040><c> keep</c><00:03:15.280><c> in</c><00:03:15.440><c> mind</c><00:03:15.760><c> with</c><00:03:15.920><c> the</c>
+
+00:03:16.070 --> 00:03:16.080 align:start position:0%
+another thing to keep in mind with the
+ 
+
+00:03:16.080 --> 00:03:19.830 align:start position:0%
+another thing to keep in mind with the
+res<00:03:16.560><c> is</c><00:03:16.720><c> that</c><00:03:17.440><c> it</c><00:03:17.680><c> is</c><00:03:17.920><c> a</c><00:03:18.080><c> predictor</c><00:03:19.040><c> so</c>
+
+00:03:19.830 --> 00:03:19.840 align:start position:0%
+res is that it is a predictor so
+ 
+
+00:03:19.840 --> 00:03:21.910 align:start position:0%
+res is that it is a predictor so
+either<00:03:20.239><c> way</c><00:03:20.879><c> we</c><00:03:21.040><c> will</c><00:03:21.200><c> be</c><00:03:21.360><c> having</c><00:03:21.680><c> some</c>
+
+00:03:21.910 --> 00:03:21.920 align:start position:0%
+either way we will be having some
+ 
+
+00:03:21.920 --> 00:03:23.910 align:start position:0%
+either way we will be having some
+mispredictions<00:03:22.959><c> we</c><00:03:23.120><c> are</c><00:03:23.280><c> allowed</c><00:03:23.599><c> to</c><00:03:23.760><c> have</c>
+
+00:03:23.910 --> 00:03:23.920 align:start position:0%
+mispredictions we are allowed to have
+ 
+
+00:03:23.920 --> 00:03:25.750 align:start position:0%
+mispredictions we are allowed to have
+mispredictions<00:03:24.799><c> all</c><00:03:24.959><c> that</c><00:03:25.120><c> will</c><00:03:25.280><c> happen</c><00:03:25.680><c> is</c>
+
+00:03:25.750 --> 00:03:25.760 align:start position:0%
+mispredictions all that will happen is
+ 
+
+00:03:25.760 --> 00:03:26.710 align:start position:0%
+mispredictions all that will happen is
+that<00:03:25.920><c> there</c><00:03:26.080><c> will</c><00:03:26.239><c> be</c><00:03:26.319><c> a</c><00:03:26.400><c> branch</c>
+
+00:03:26.710 --> 00:03:26.720 align:start position:0%
+that there will be a branch
+ 
+
+00:03:26.720 --> 00:03:28.309 align:start position:0%
+that there will be a branch
+misprediction<00:03:27.360><c> basically</c><00:03:27.680><c> we</c><00:03:27.840><c> will</c><00:03:28.080><c> fetch</c>
+
+00:03:28.309 --> 00:03:28.319 align:start position:0%
+misprediction basically we will fetch
+ 
+
+00:03:28.319 --> 00:03:29.509 align:start position:0%
+misprediction basically we will fetch
+the<00:03:28.400><c> wrong</c><00:03:28.640><c> instructions</c><00:03:29.120><c> and</c><00:03:29.280><c> have</c><00:03:29.440><c> to</c>
+
+00:03:29.509 --> 00:03:29.519 align:start position:0%
+the wrong instructions and have to
+ 
+
+00:03:29.519 --> 00:03:30.949 align:start position:0%
+the wrong instructions and have to
+recover<00:03:30.000><c> from</c><00:03:30.159><c> that</c>
+
+00:03:30.949 --> 00:03:30.959 align:start position:0%
+recover from that
+ 
+
+00:03:30.959 --> 00:03:33.190 align:start position:0%
+recover from that
+so<00:03:31.200><c> in</c><00:03:31.280><c> the</c><00:03:31.440><c> end</c><00:03:32.159><c> the</c><00:03:32.319><c> discussion</c><00:03:32.799><c> about</c><00:03:33.040><c> what</c>
+
+00:03:33.190 --> 00:03:33.200 align:start position:0%
+so in the end the discussion about what
+ 
+
+00:03:33.200 --> 00:03:35.110 align:start position:0%
+so in the end the discussion about what
+to<00:03:33.360><c> do</c><00:03:33.519><c> with</c><00:03:33.680><c> the</c><00:03:33.840><c> ras</c><00:03:34.319><c> has</c><00:03:34.480><c> to</c><00:03:34.640><c> do</c><00:03:34.799><c> with</c>
+
+00:03:35.110 --> 00:03:35.120 align:start position:0%
+to do with the ras has to do with
+ 
+
+00:03:35.120 --> 00:03:37.190 align:start position:0%
+to do with the ras has to do with
+achieving<00:03:35.840><c> a</c><00:03:35.920><c> larger</c><00:03:36.319><c> number</c><00:03:36.560><c> of</c><00:03:36.799><c> correct</c>
+
+00:03:37.190 --> 00:03:37.200 align:start position:0%
+achieving a larger number of correct
+ 
+
+00:03:37.200 --> 00:03:38.390 align:start position:0%
+achieving a larger number of correct
+predictions
+
+00:03:38.390 --> 00:03:38.400 align:start position:0%
+predictions
+ 
+
+00:03:38.400 --> 00:03:40.070 align:start position:0%
+predictions
+but<00:03:38.720><c> neither</c><00:03:39.040><c> of</c><00:03:39.120><c> these</c><00:03:39.360><c> two</c><00:03:39.519><c> ways</c><00:03:39.840><c> can</c>
+
+00:03:40.070 --> 00:03:40.080 align:start position:0%
+but neither of these two ways can
+ 
+
+00:03:40.080 --> 00:03:42.229 align:start position:0%
+but neither of these two ways can
+actually<00:03:40.400><c> do</c><00:03:40.640><c> things</c><00:03:40.959><c> perfectly</c><00:03:41.840><c> so</c><00:03:42.000><c> in</c><00:03:42.080><c> the</c>
+
+00:03:42.229 --> 00:03:42.239 align:start position:0%
+actually do things perfectly so in the
+ 
+
+00:03:42.239 --> 00:03:43.670 align:start position:0%
+actually do things perfectly so in the
+end<00:03:42.400><c> we</c><00:03:42.560><c> need</c><00:03:42.720><c> to</c><00:03:42.799><c> just</c><00:03:43.040><c> choose</c><00:03:43.280><c> which</c><00:03:43.440><c> one</c>
+
+00:03:43.670 --> 00:03:43.680 align:start position:0%
+end we need to just choose which one
+ 
+
+00:03:43.680 --> 00:03:45.430 align:start position:0%
+end we need to just choose which one
+gives<00:03:43.920><c> us</c><00:03:44.080><c> more</c><00:03:44.400><c> correct</c><00:03:44.640><c> predictions</c><00:03:45.200><c> and</c><00:03:45.360><c> it</c>
+
+00:03:45.430 --> 00:03:45.440 align:start position:0%
+gives us more correct predictions and it
+ 
+
+00:03:45.440 --> 00:03:47.509 align:start position:0%
+gives us more correct predictions and it
+turns<00:03:45.680><c> out</c><00:03:45.840><c> that</c><00:03:46.000><c> the</c><00:03:46.080><c> wraparound</c><00:03:46.720><c> approach</c>
+
+00:03:47.509 --> 00:03:47.519 align:start position:0%
+turns out that the wraparound approach
+ 
+
+00:03:47.519 --> 00:03:49.350 align:start position:0%
+turns out that the wraparound approach
+predicts<00:03:48.000><c> better</c><00:03:48.480><c> than</c><00:03:48.640><c> the</c><00:03:48.799><c> don't</c><00:03:49.040><c> push</c>
+
+00:03:49.350 --> 00:03:49.360 align:start position:0%
+predicts better than the don't push
+ 
+
+00:03:49.360 --> 00:03:51.509 align:start position:0%
+predicts better than the don't push
+approach<00:03:50.080><c> while</c><00:03:50.319><c> both</c><00:03:50.640><c> of</c><00:03:50.720><c> them</c><00:03:51.040><c> result</c><00:03:51.360><c> in</c>
+
+00:03:51.509 --> 00:03:51.519 align:start position:0%
+approach while both of them result in
+ 
+
+00:03:51.519 --> 00:03:55.280 align:start position:0%
+approach while both of them result in
+mispredictions<00:03:52.319><c> anyway</c>
+

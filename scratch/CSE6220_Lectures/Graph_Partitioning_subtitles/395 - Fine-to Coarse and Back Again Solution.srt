@@ -1,0 +1,84 @@
+1
+00:00:00,300 --> 00:00:02,150
+ Here's what you should've marked.
+
+2
+00:00:02,150 --> 00:00:03,290
+ This set of vertices and
+
+3
+00:00:03,290 --> 00:00:07,040
+ edges in the original graph is called the projected separator.
+
+4
+00:00:07,040 --> 00:00:09,620
+ Let me first point something out about this separator, and
+
+5
+00:00:09,620 --> 00:00:11,730
+ then I'll walk you through how I got it.
+
+6
+00:00:11,730 --> 00:00:13,580
+ See this triangle here?
+
+7
+00:00:13,580 --> 00:00:16,450
+ It includes two unnecessary edges.
+
+8
+00:00:16,450 --> 00:00:19,110
+ You really only need this sub-path.
+
+9
+00:00:19,110 --> 00:00:22,230
+ So the main point is that if you use the coarsening technique,
+
+10
+00:00:22,230 --> 00:00:26,030
+ you will probably need to refine the partitions that you get.
+
+11
+00:00:26,030 --> 00:00:29,000
+ The readings discuss this point in more detail.
+
+12
+00:00:29,000 --> 00:00:30,880
+ Now, in case you didn't get the same separator,
+
+13
+00:00:30,880 --> 00:00:33,110
+ let me walk you through the process.
+
+14
+00:00:33,110 --> 00:00:37,650
+ I did the first separator edge for you, so let's move on to the second.
+
+15
+00:00:37,650 --> 00:00:40,460
+ This edge comes from the original graph.
+
+16
+00:00:40,460 --> 00:00:43,210
+ This edge comes from the super vertex.
+
+17
+00:00:43,210 --> 00:00:44,610
+ Okay, what about the next edge?
+
+18
+00:00:44,610 --> 00:00:47,710
+ It's basically the same thing.
+
+19
+00:00:47,710 --> 00:00:50,200
+ This next edge is the interesting one.
+
+20
+00:00:50,200 --> 00:00:55,600
+ The separator edge maps ambiguously to these two edges of the original graph.
+
+21
+00:00:55,600 --> 00:00:55,600
+ The last two separator edges are similar to the first few.
+

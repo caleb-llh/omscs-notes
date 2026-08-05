@@ -1,0 +1,168 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.119 align:start position:0%
+ 
+so<00:00:00.450><c> now</c><00:00:00.599><c> let's</c><00:00:00.810><c> try</c><00:00:00.960><c> to</c><00:00:01.050><c> apply</c><00:00:01.260><c> the</c><00:00:01.500><c> concept</c>
+
+00:00:02.119 --> 00:00:02.129 align:start position:0%
+so now let's try to apply the concept
+ 
+
+00:00:02.129 --> 00:00:03.710 align:start position:0%
+so now let's try to apply the concept
+that<00:00:02.159><c> we</c><00:00:02.310><c> have</c><00:00:02.490><c> learned</c><00:00:02.700><c> to</c><00:00:03.000><c> an</c><00:00:03.120><c> actual</c><00:00:03.419><c> cache</c>
+
+00:00:03.710 --> 00:00:03.720 align:start position:0%
+that we have learned to an actual cache
+ 
+
+00:00:03.720 --> 00:00:05.749 align:start position:0%
+that we have learned to an actual cache
+we<00:00:04.410><c> know</c><00:00:04.589><c> that</c><00:00:04.830><c> the</c><00:00:04.950><c> main</c><00:00:05.160><c> memory</c><00:00:05.430><c> in</c><00:00:05.700><c> a</c>
+
+00:00:05.749 --> 00:00:05.759 align:start position:0%
+we know that the main memory in a
+ 
+
+00:00:05.759 --> 00:00:08.120 align:start position:0%
+we know that the main memory in a
+computer<00:00:05.790><c> is</c><00:00:06.420><c> large</c><00:00:06.750><c> and</c><00:00:07.080><c> very</c><00:00:07.830><c> slow</c><00:00:08.099><c> to</c>
+
+00:00:08.120 --> 00:00:08.130 align:start position:0%
+computer is large and very slow to
+ 
+
+00:00:08.130 --> 00:00:10.480 align:start position:0%
+computer is large and very slow to
+access<00:00:08.670><c> compared</c><00:00:09.059><c> to</c><00:00:09.150><c> processor</c><00:00:09.510><c> speed</c><00:00:09.809><c> and</c>
+
+00:00:10.480 --> 00:00:10.490 align:start position:0%
+access compared to processor speed and
+ 
+
+00:00:10.490 --> 00:00:12.950 align:start position:0%
+access compared to processor speed and
+also<00:00:11.490><c> we</c><00:00:11.790><c> know</c><00:00:11.940><c> that</c><00:00:12.240><c> there</c><00:00:12.509><c> is</c><00:00:12.540><c> lots</c><00:00:12.840><c> of</c>
+
+00:00:12.950 --> 00:00:12.960 align:start position:0%
+also we know that there is lots of
+ 
+
+00:00:12.960 --> 00:00:15.200 align:start position:0%
+also we know that there is lots of
+spatial<00:00:13.380><c> and</c><00:00:13.440><c> temporal</c><00:00:13.650><c> locality</c><00:00:14.160><c> present</c><00:00:14.969><c> in</c>
+
+00:00:15.200 --> 00:00:15.210 align:start position:0%
+spatial and temporal locality present in
+ 
+
+00:00:15.210 --> 00:00:18.140 align:start position:0%
+spatial and temporal locality present in
+our<00:00:15.570><c> data</c><00:00:15.839><c> accesses</c><00:00:16.440><c> most</c><00:00:17.160><c> programs</c><00:00:17.670><c> exhibit</c>
+
+00:00:18.140 --> 00:00:18.150 align:start position:0%
+our data accesses most programs exhibit
+ 
+
+00:00:18.150 --> 00:00:20.060 align:start position:0%
+our data accesses most programs exhibit
+a<00:00:18.300><c> lot</c><00:00:18.600><c> of</c><00:00:18.840><c> spatial</c><00:00:19.260><c> and</c><00:00:19.470><c> temporal</c><00:00:19.619><c> locality</c>
+
+00:00:20.060 --> 00:00:20.070 align:start position:0%
+a lot of spatial and temporal locality
+ 
+
+00:00:20.070 --> 00:00:22.150 align:start position:0%
+a lot of spatial and temporal locality
+so<00:00:20.760><c> for</c><00:00:20.939><c> an</c><00:00:21.060><c> access</c><00:00:21.390><c> to</c><00:00:21.510><c> a</c><00:00:21.539><c> memory</c><00:00:21.840><c> location</c>
+
+00:00:22.150 --> 00:00:22.160 align:start position:0%
+so for an access to a memory location
+ 
+
+00:00:22.160 --> 00:00:24.500 align:start position:0%
+so for an access to a memory location
+what<00:00:23.160><c> do</c><00:00:23.310><c> you</c><00:00:23.400><c> think</c><00:00:23.609><c> we</c><00:00:23.760><c> should</c><00:00:23.970><c> do</c><00:00:24.090><c> should</c><00:00:24.449><c> we</c>
+
+00:00:24.500 --> 00:00:24.510 align:start position:0%
+what do you think we should do should we
+ 
+
+00:00:24.510 --> 00:00:26.570 align:start position:0%
+what do you think we should do should we
+go<00:00:24.779><c> to</c><00:00:24.840><c> the</c><00:00:25.050><c> main</c><00:00:25.230><c> memory</c><00:00:25.439><c> for</c><00:00:25.800><c> every</c><00:00:26.160><c> access</c>
+
+00:00:26.570 --> 00:00:26.580 align:start position:0%
+go to the main memory for every access
+ 
+
+00:00:26.580 --> 00:00:28.910 align:start position:0%
+go to the main memory for every access
+should<00:00:27.180><c> we</c><00:00:27.330><c> have</c><00:00:27.510><c> a</c><00:00:27.539><c> small</c><00:00:28.080><c> memory</c><00:00:28.289><c> inside</c><00:00:28.769><c> the</c>
+
+00:00:28.910 --> 00:00:28.920 align:start position:0%
+should we have a small memory inside the
+ 
+
+00:00:28.920 --> 00:00:30.830 align:start position:0%
+should we have a small memory inside the
+processor<00:00:29.250><c> core</c><00:00:29.550><c> and</c><00:00:29.849><c> then</c><00:00:30.210><c> we</c><00:00:30.359><c> bring</c><00:00:30.539><c> stuff</c>
+
+00:00:30.830 --> 00:00:30.840 align:start position:0%
+processor core and then we bring stuff
+ 
+
+00:00:30.840 --> 00:00:32.840 align:start position:0%
+processor core and then we bring stuff
+we<00:00:31.019><c> access</c><00:00:31.349><c> there</c><00:00:31.619><c> so</c><00:00:32.070><c> that</c><00:00:32.250><c> next</c><00:00:32.520><c> time</c><00:00:32.700><c> we</c>
+
+00:00:32.840 --> 00:00:32.850 align:start position:0%
+we access there so that next time we
+ 
+
+00:00:32.850 --> 00:00:35.090 align:start position:0%
+we access there so that next time we
+need<00:00:32.880><c> it</c><00:00:33.030><c> we</c><00:00:33.450><c> can</c><00:00:33.480><c> find</c><00:00:33.870><c> it</c><00:00:33.989><c> quickly</c><00:00:34.020><c> or</c><00:00:34.829><c> should</c>
+
+00:00:35.090 --> 00:00:35.100 align:start position:0%
+need it we can find it quickly or should
+ 
+
+00:00:35.100 --> 00:00:37.220 align:start position:0%
+need it we can find it quickly or should
+we<00:00:35.190><c> have</c><00:00:35.370><c> a</c><00:00:35.399><c> huge</c><00:00:35.760><c> memory</c><00:00:36.050><c> next</c><00:00:37.050><c> to</c><00:00:37.170><c> our</c>
+
+00:00:37.220 --> 00:00:37.230 align:start position:0%
+we have a huge memory next to our
+ 
+
+00:00:37.230 --> 00:00:39.020 align:start position:0%
+we have a huge memory next to our
+processor<00:00:37.620><c> chip</c><00:00:37.829><c> because</c><00:00:38.250><c> it</c><00:00:38.370><c> won't</c><00:00:38.579><c> fit</c><00:00:38.670><c> on</c>
+
+00:00:39.020 --> 00:00:39.030 align:start position:0%
+processor chip because it won't fit on
+ 
+
+00:00:39.030 --> 00:00:41.510 align:start position:0%
+processor chip because it won't fit on
+the<00:00:39.329><c> processor</c><00:00:39.780><c> chip</c><00:00:40.020><c> and</c><00:00:40.230><c> then</c><00:00:40.890><c> as</c><00:00:41.160><c> we</c><00:00:41.370><c> read</c>
+
+00:00:41.510 --> 00:00:41.520 align:start position:0%
+the processor chip and then as we read
+ 
+
+00:00:41.520 --> 00:00:43.040 align:start position:0%
+the processor chip and then as we read
+from<00:00:41.670><c> the</c><00:00:41.850><c> main</c><00:00:42.000><c> memory</c><00:00:42.210><c> we</c><00:00:42.510><c> bring</c><00:00:42.750><c> everything</c>
+
+00:00:43.040 --> 00:00:43.050 align:start position:0%
+from the main memory we bring everything
+ 
+
+00:00:43.050 --> 00:00:47.300 align:start position:0%
+from the main memory we bring everything
+into<00:00:43.500><c> this</c><00:00:43.620><c> memory</c><00:00:43.920><c> that</c><00:00:44.309><c> is</c><00:00:44.489><c> next</c><00:00:45.120><c> to</c><00:00:45.210><c> us</c>
+

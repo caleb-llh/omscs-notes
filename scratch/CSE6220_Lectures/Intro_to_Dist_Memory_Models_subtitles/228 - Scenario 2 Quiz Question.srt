@@ -1,0 +1,32 @@
+1
+00:00:00,485 --> 00:00:03,050
+ Recall the five rules of message passing and
+
+2
+00:00:03,050 --> 00:00:07,770
+ consider an example on the following linear network which has eight nodes.
+
+3
+00:00:07,770 --> 00:00:10,660
+ Suppose one wants to send a message to node six
+
+4
+00:00:10,660 --> 00:00:15,570
+ at exactly the same time node seven wants to send a message to node four.
+
+5
+00:00:15,570 --> 00:00:18,720
+ What's the minimum time it will take for these two messages?
+
+6
+00:00:18,720 --> 00:00:21,360
+ I want you to type your answer in this box.
+
+7
+00:00:21,360 --> 00:00:23,540
+ And I want you to do it symbolically.
+
+8
+00:00:23,540 --> 00:00:23,540
+ So for alpha use little a, for beta use little b, and for n you can just use n.
+

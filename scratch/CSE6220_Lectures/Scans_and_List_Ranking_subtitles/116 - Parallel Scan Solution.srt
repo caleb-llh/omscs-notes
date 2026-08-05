@@ -1,0 +1,20 @@
+1
+00:00:00,480 --> 00:00:03,130
+ So in this case, the answer in false.
+
+2
+00:00:03,130 --> 00:00:06,400
+ The reason is that the iterations aren't independent.
+
+3
+00:00:06,400 --> 00:00:10,260
+ For example, I equals 5 depends on the outcome of i equals 4,
+
+4
+00:00:10,260 --> 00:00:13,060
+ which was produced in a previous iteration.
+
+5
+00:00:13,060 --> 00:00:13,060
+ So you'll need another way.
+

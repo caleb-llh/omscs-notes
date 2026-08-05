@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:03.500 align:start position:0%
+ 
+now<00:00:00.329><c> let's</c><00:00:00.599><c> do</c><00:00:00.810><c> an</c><00:00:01.020><c> arrow</c><00:00:01.319><c> be</c><00:00:01.560><c> timing</c><00:00:01.890><c> quiz</c><00:00:02.760><c> so</c>
+
+00:00:03.500 --> 00:00:03.510 align:start position:0%
+now let's do an arrow be timing quiz so
+ 
+
+00:00:03.510 --> 00:00:05.480 align:start position:0%
+now let's do an arrow be timing quiz so
+here<00:00:03.750><c> is</c><00:00:03.870><c> again</c><00:00:04.140><c> a</c><00:00:04.200><c> sequence</c><00:00:04.680><c> of</c><00:00:04.830><c> instructions</c>
+
+00:00:05.480 --> 00:00:05.490 align:start position:0%
+here is again a sequence of instructions
+ 
+
+00:00:05.490 --> 00:00:06.950 align:start position:0%
+here is again a sequence of instructions
+and<00:00:05.759><c> we</c><00:00:06.000><c> want</c><00:00:06.210><c> to</c><00:00:06.299><c> know</c><00:00:06.390><c> when</c><00:00:06.629><c> the</c><00:00:06.810><c> issue</c>
+
+00:00:06.950 --> 00:00:06.960 align:start position:0%
+and we want to know when the issue
+ 
+
+00:00:06.960 --> 00:00:10.009 align:start position:0%
+and we want to know when the issue
+executes<00:00:07.649><c> right</c><00:00:07.919><c> and</c><00:00:08.189><c> commit</c><00:00:08.580><c> and</c><00:00:08.910><c> we</c><00:00:09.750><c> want</c>
+
+00:00:10.009 --> 00:00:10.019 align:start position:0%
+executes right and commit and we want
+ 
+
+00:00:10.019 --> 00:00:12.350 align:start position:0%
+executes right and commit and we want
+some<00:00:10.200><c> comments</c><00:00:10.679><c> here</c><00:00:11.010><c> now</c><00:00:11.550><c> let's</c><00:00:11.849><c> say</c><00:00:12.000><c> that</c><00:00:12.150><c> an</c>
+
+00:00:12.350 --> 00:00:12.360 align:start position:0%
+some comments here now let's say that an
+ 
+
+00:00:12.360 --> 00:00:14.990 align:start position:0%
+some comments here now let's say that an
+ad<00:00:12.540><c> takes</c><00:00:12.840><c> one</c><00:00:13.080><c> cycle</c><00:00:13.820><c> multiplication</c><00:00:14.820><c> takes</c>
+
+00:00:14.990 --> 00:00:15.000 align:start position:0%
+ad takes one cycle multiplication takes
+ 
+
+00:00:15.000 --> 00:00:17.359 align:start position:0%
+ad takes one cycle multiplication takes
+two<00:00:15.269><c> cycles</c><00:00:15.509><c> and</c><00:00:15.929><c> divide</c><00:00:16.230><c> takes</c><00:00:16.529><c> four</c><00:00:16.859><c> cycles</c>
+
+00:00:17.359 --> 00:00:17.369 align:start position:0%
+two cycles and divide takes four cycles
+ 
+
+00:00:17.369 --> 00:00:19.730 align:start position:0%
+two cycles and divide takes four cycles
+and<00:00:17.580><c> in</c><00:00:17.820><c> this</c><00:00:17.940><c> processor</c><00:00:18.630><c> we</c><00:00:19.109><c> can</c><00:00:19.289><c> broadcast</c>
+
+00:00:19.730 --> 00:00:19.740 align:start position:0%
+and in this processor we can broadcast
+ 
+
+00:00:19.740 --> 00:00:22.580 align:start position:0%
+and in this processor we can broadcast
+one<00:00:20.039><c> add</c><00:00:20.460><c> or</c><00:00:20.730><c> subtract</c><00:00:21.180><c> result</c><00:00:21.600><c> from</c><00:00:22.109><c> the</c><00:00:22.350><c> add</c>
+
+00:00:22.580 --> 00:00:22.590 align:start position:0%
+one add or subtract result from the add
+ 
+
+00:00:22.590 --> 00:00:25.609 align:start position:0%
+one add or subtract result from the add
+subtract<00:00:23.130><c> unit</c><00:00:23.490><c> and</c><00:00:24.410><c> one</c><00:00:25.410><c> multiplication</c>
+
+00:00:25.609 --> 00:00:25.619 align:start position:0%
+subtract unit and one multiplication
+ 
+
+00:00:25.619 --> 00:00:29.720 align:start position:0%
+subtract unit and one multiplication
+divide<00:00:26.580><c> result</c><00:00:27.060><c> per</c><00:00:27.689><c> cycle</c><00:00:27.990><c> so</c><00:00:28.710><c> if</c><00:00:28.890><c> both</c><00:00:29.519><c> the</c>
+
+00:00:29.720 --> 00:00:29.730 align:start position:0%
+divide result per cycle so if both the
+ 
+
+00:00:29.730 --> 00:00:32.089 align:start position:0%
+divide result per cycle so if both the
+add<00:00:29.849><c> unit</c><00:00:30.269><c> and</c><00:00:30.480><c> the</c><00:00:30.599><c> multiply</c><00:00:31.050><c> unit</c><00:00:31.260><c> have</c><00:00:31.890><c> a</c>
+
+00:00:32.089 --> 00:00:32.099 align:start position:0%
+add unit and the multiply unit have a
+ 
+
+00:00:32.099 --> 00:00:33.500 align:start position:0%
+add unit and the multiply unit have a
+result<00:00:32.460><c> available</c><00:00:33.000><c> they</c><00:00:33.149><c> can</c><00:00:33.360><c> actually</c>
+
+00:00:33.500 --> 00:00:33.510 align:start position:0%
+result available they can actually
+ 
+
+00:00:33.510 --> 00:00:35.630 align:start position:0%
+result available they can actually
+broadcast<00:00:34.050><c> them</c><00:00:34.230><c> in</c><00:00:34.380><c> the</c><00:00:34.559><c> same</c><00:00:34.800><c> cycle</c><00:00:35.070><c> and</c>
+
+00:00:35.630 --> 00:00:35.640 align:start position:0%
+broadcast them in the same cycle and
+ 
+
+00:00:35.640 --> 00:00:38.720 align:start position:0%
+broadcast them in the same cycle and
+this<00:00:36.180><c> processor</c><00:00:36.719><c> can</c><00:00:36.960><c> also</c><00:00:37.190><c> commit</c><00:00:38.190><c> up</c><00:00:38.399><c> to</c><00:00:38.550><c> two</c>
+
+00:00:38.720 --> 00:00:38.730 align:start position:0%
+this processor can also commit up to two
+ 
+
+00:00:38.730 --> 00:00:40.220 align:start position:0%
+this processor can also commit up to two
+instructions<00:00:39.270><c> per</c><00:00:39.450><c> cycle</c><00:00:39.660><c> so</c><00:00:40.020><c> two</c>
+
+00:00:40.220 --> 00:00:40.230 align:start position:0%
+instructions per cycle so two
+ 
+
+00:00:40.230 --> 00:00:42.380 align:start position:0%
+instructions per cycle so two
+instructions<00:00:40.860><c> can</c><00:00:41.250><c> commit</c><00:00:41.579><c> in</c><00:00:41.730><c> a</c><00:00:41.820><c> cycle</c><00:00:42.239><c> if</c>
+
+00:00:42.380 --> 00:00:42.390 align:start position:0%
+instructions can commit in a cycle if
+ 
+
+00:00:42.390 --> 00:00:45.290 align:start position:0%
+instructions can commit in a cycle if
+both<00:00:42.690><c> of</c><00:00:42.719><c> them</c><00:00:42.960><c> can</c><00:00:43.170><c> commit</c><00:00:43.469><c> and</c><00:00:44.100><c> we</c><00:00:44.879><c> know</c><00:00:45.000><c> Fria</c>
+
+00:00:45.290 --> 00:00:45.300 align:start position:0%
+both of them can commit and we know Fria
+ 
+
+00:00:45.300 --> 00:00:48.080 align:start position:0%
+both of them can commit and we know Fria
+reservation<00:00:45.870><c> station</c><00:00:46.230><c> at</c><00:00:46.350><c> dispatch</c><00:00:46.850><c> so</c><00:00:47.850><c> let's</c>
+
+00:00:48.080 --> 00:00:48.090 align:start position:0%
+reservation station at dispatch so let's
+ 
+
+00:00:48.090 --> 00:00:51.049 align:start position:0%
+reservation station at dispatch so let's
+look<00:00:48.300><c> at</c><00:00:48.660><c> what</c><00:00:49.289><c> should</c><00:00:49.500><c> be</c><00:00:49.620><c> happening</c><00:00:49.829><c> here</c><00:00:50.370><c> we</c>
+
+00:00:51.049 --> 00:00:51.059 align:start position:0%
+look at what should be happening here we
+ 
+
+00:00:51.059 --> 00:00:52.670 align:start position:0%
+look at what should be happening here we
+know<00:00:51.300><c> that</c><00:00:51.570><c> this</c><00:00:51.690><c> instruction</c><00:00:52.050><c> issues</c><00:00:52.530><c> in</c>
+
+00:00:52.670 --> 00:00:52.680 align:start position:0%
+know that this instruction issues in
+ 
+
+00:00:52.680 --> 00:00:56.270 align:start position:0%
+know that this instruction issues in
+cycle<00:00:53.100><c> 1</c><00:00:53.280><c> begin</c><00:00:54.210><c> execution</c><00:00:54.899><c> in</c><00:00:55.020><c> cycle</c><00:00:55.410><c> 2</c><00:00:55.620><c> it</c>
+
+00:00:56.270 --> 00:00:56.280 align:start position:0%
+cycle 1 begin execution in cycle 2 it
+ 
+
+00:00:56.280 --> 00:00:59.029 align:start position:0%
+cycle 1 begin execution in cycle 2 it
+will<00:00:56.489><c> begin</c><00:00:56.640><c> execution</c><00:00:57.300><c> in</c><00:00:57.390><c> cycle</c><00:00:57.780><c> 2</c><00:00:57.960><c> and</c><00:00:58.230><c> then</c>
+
+00:00:59.029 --> 00:00:59.039 align:start position:0%
+will begin execution in cycle 2 and then
+ 
+
+00:00:59.039 --> 00:01:01.760 align:start position:0%
+will begin execution in cycle 2 and then
+four<00:00:59.489><c> cycles</c><00:00:59.940><c> later</c><00:01:00.120><c> in</c><00:01:00.480><c> cycle</c><00:01:00.930><c> 6</c><00:01:01.199><c> it's</c><00:01:01.500><c> going</c>
+
+00:01:01.760 --> 00:01:01.770 align:start position:0%
+four cycles later in cycle 6 it's going
+ 
+
+00:01:01.770 --> 00:01:03.410 align:start position:0%
+four cycles later in cycle 6 it's going
+to<00:01:01.859><c> write</c><00:01:02.039><c> the</c><00:01:02.219><c> result</c><00:01:02.609><c> and</c><00:01:02.850><c> it's</c><00:01:03.120><c> going</c><00:01:03.270><c> to</c>
+
+00:01:03.410 --> 00:01:03.420 align:start position:0%
+to write the result and it's going to
+ 
+
+00:01:03.420 --> 00:01:05.929 align:start position:0%
+to write the result and it's going to
+commit<00:01:03.719><c> in</c><00:01:03.930><c> cycle</c><00:01:03.960><c> 7</c><00:01:04.769><c> so</c><00:01:05.400><c> the</c><00:01:05.519><c> question</c><00:01:05.909><c> for</c>
+
+00:01:05.929 --> 00:01:05.939 align:start position:0%
+commit in cycle 7 so the question for
+ 
+
+00:01:05.939 --> 00:01:08.450 align:start position:0%
+commit in cycle 7 so the question for
+you<00:01:06.240><c> is</c><00:01:06.510><c> for</c><00:01:06.720><c> this</c><00:01:06.900><c> multiplication</c><00:01:07.619><c> when</c><00:01:08.250><c> does</c>
+
+00:01:08.450 --> 00:01:08.460 align:start position:0%
+you is for this multiplication when does
+ 
+
+00:01:08.460 --> 00:01:10.640 align:start position:0%
+you is for this multiplication when does
+it<00:01:08.490><c> issue</c><00:01:08.790><c> execute</c><00:01:09.360><c> right</c><00:01:09.570><c> and</c><00:01:09.780><c> commit</c><00:01:10.080><c> you</c>
+
+00:01:10.640 --> 00:01:10.650 align:start position:0%
+it issue execute right and commit you
+ 
+
+00:01:10.650 --> 00:01:13.160 align:start position:0%
+it issue execute right and commit you
+can<00:01:10.860><c> write</c><00:01:11.040><c> your</c><00:01:11.430><c> answers</c><00:01:11.970><c> here</c><00:01:12.360><c> so</c><00:01:12.990><c> pretty</c>
+
+00:01:13.160 --> 00:01:13.170 align:start position:0%
+can write your answers here so pretty
+ 
+
+00:01:13.170 --> 00:01:14.359 align:start position:0%
+can write your answers here so pretty
+much<00:01:13.320><c> what</c><00:01:13.500><c> should</c><00:01:13.680><c> go</c><00:01:13.860><c> here</c>
+
+00:01:14.359 --> 00:01:14.369 align:start position:0%
+much what should go here
+ 
+
+00:01:14.369 --> 00:01:18.200 align:start position:0%
+much what should go here
+you<00:01:14.490><c> should</c><00:01:14.700><c> write</c><00:01:14.880><c> here</c><00:01:15.240><c> here</c><00:01:15.659><c> here</c><00:01:15.990><c> and</c><00:01:16.110><c> here</c>
+

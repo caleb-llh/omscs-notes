@@ -1,0 +1,164 @@
+1
+00:00:00,240 --> 00:00:04,280
+ The matrix view gives you an easy to think about distributing a BFS.
+
+2
+00:00:04,280 --> 00:00:07,000
+ Suppose you have P = 3 processes.
+
+3
+00:00:07,000 --> 00:00:10,930
+ You can do a 1-D partitioning of the matrix by, let's say, columns.
+
+4
+00:00:10,930 --> 00:00:13,772
+ That is, group these three columns together on one process,
+
+5
+00:00:13,772 --> 00:00:17,530
+ these three columns on the next, and these three columns on the last.
+
+6
+00:00:17,530 --> 00:00:21,520
+ This column partitioning corresponds to a partitioning of the vertices.
+
+7
+00:00:21,520 --> 00:00:23,850
+ So, what does this partitioning suggest?
+
+8
+00:00:23,850 --> 00:00:28,580
+ Well, it assigns vertices 0, 1, and 2 to one process, 3, 4, and
+
+9
+00:00:28,580 --> 00:00:31,830
+ 5 to the next, and 6, 7, and 8 to the last.
+
+10
+00:00:31,830 --> 00:00:35,590
+ Note that the column partitioning also implies a partitioning of u.
+
+11
+00:00:35,590 --> 00:00:38,020
+ That's u the vector, not you the viewer.
+
+12
+00:00:38,020 --> 00:00:39,630
+ What about the frontier vector?
+
+13
+00:00:39,630 --> 00:00:43,340
+ This partitioning suggests that you'll need to replicate the frontier vector on
+
+14
+00:00:43,340 --> 00:00:46,680
+ each process so that the process can do its local update.
+
+15
+00:00:46,680 --> 00:00:49,270
+ Schematically that looks something like this.
+
+16
+00:00:49,270 --> 00:00:51,130
+ Now what happens if you replicate?
+
+17
+00:00:51,130 --> 00:00:55,920
+ Well, when you create the next frontier by analyzing the local updates,
+
+18
+00:00:55,920 --> 00:01:00,010
+ you're going to need to re-replicate the frontier vertices.
+
+19
+00:01:00,010 --> 00:01:03,670
+ Put another way, here's what happens when you create the next frontier.
+
+20
+00:01:03,670 --> 00:01:07,720
+ You use the local update vector to update the local frontier.
+
+21
+00:01:07,720 --> 00:01:11,860
+ You then need to do an all-to-all to exchange the local frontiers.
+
+22
+00:01:11,860 --> 00:01:13,042
+ Okay, that was a bunch of steps.
+
+23
+00:01:13,042 --> 00:01:16,660
+ So let's summarize the distributed 1-D algorithm.
+
+24
+00:01:16,660 --> 00:01:20,390
+ First, divide the columns of A and the entries of u.
+
+25
+00:01:20,390 --> 00:01:23,260
+ Then, do a matrix-vector product to determine which vertices
+
+26
+00:01:23,260 --> 00:01:25,280
+ may need distance updates.
+
+27
+00:01:25,280 --> 00:01:27,570
+ Then, update the local distances.
+
+28
+00:01:27,570 --> 00:01:30,470
+ Then, determine which of the local vertices need to be a part of
+
+29
+00:01:30,470 --> 00:01:32,130
+ the next frontier.
+
+30
+00:01:32,130 --> 00:01:34,430
+ Finally, do an all-to-all exchange so
+
+31
+00:01:34,430 --> 00:01:37,160
+ that everybody knows what the full frontier looks like.
+
+32
+00:01:37,160 --> 00:01:40,620
+ Notice that the all-to-all exchange is the only communication step.
+
+33
+00:01:40,620 --> 00:01:42,310
+ So, what does that cost?
+
+34
+00:01:42,310 --> 00:01:45,710
+ Unfortunately, it's actually hard to write down an exact communication cost
+
+35
+00:01:45,710 --> 00:01:48,420
+ because it depends on the structure of the graph.
+
+36
+00:01:48,420 --> 00:01:51,480
+ Despite that, we can say something concrete about its form.
+
+37
+00:01:51,480 --> 00:01:52,460
+ Because of the all-to-all,
+
+38
+00:01:52,460 --> 00:01:57,680
+ you should expect some term that is linear in the number of processes, P.
+
+39
+00:01:57,680 --> 00:02:00,440
+ There's a paper linked to in the instructor's notes.
+
+40
+00:02:00,440 --> 00:02:01,480
+ It has more analysis.
+
+41
+00:02:01,480 --> 00:02:01,480
+ And I'd encourage you to download it and take a look.
+

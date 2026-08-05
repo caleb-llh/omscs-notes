@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.799 --> 00:00:03.270 align:start position:0%
+ 
+this<00:00:01.040><c> lesson</c><00:00:01.439><c> will</c><00:00:01.680><c> explain</c><00:00:02.560><c> what</c><00:00:02.879><c> happens</c>
+
+00:00:03.270 --> 00:00:03.280 align:start position:0%
+this lesson will explain what happens
+ 
+
+00:00:03.280 --> 00:00:06.230 align:start position:0%
+this lesson will explain what happens
+when<00:00:03.520><c> we</c><00:00:03.679><c> execute</c><00:00:04.560><c> more</c><00:00:04.799><c> than</c><00:00:05.040><c> one</c><00:00:05.279><c> thread</c>
+
+00:00:06.230 --> 00:00:06.240 align:start position:0%
+when we execute more than one thread
+ 
+
+00:00:06.240 --> 00:00:08.950 align:start position:0%
+when we execute more than one thread
+or<00:00:06.560><c> process</c><00:00:07.359><c> at</c><00:00:07.520><c> the</c><00:00:07.600><c> same</c><00:00:07.919><c> time</c>
+
+00:00:08.950 --> 00:00:08.960 align:start position:0%
+or process at the same time
+ 
+
+00:00:08.960 --> 00:00:10.629 align:start position:0%
+or process at the same time
+this<00:00:09.280><c> used</c><00:00:09.519><c> to</c><00:00:09.599><c> be</c><00:00:09.760><c> what</c><00:00:09.920><c> happens</c><00:00:10.320><c> only</c><00:00:10.559><c> in</c>
+
+00:00:10.629 --> 00:00:10.639 align:start position:0%
+this used to be what happens only in
+ 
+
+00:00:10.639 --> 00:00:13.430 align:start position:0%
+this used to be what happens only in
+super<00:00:11.040><c> computers</c><00:00:11.679><c> and</c><00:00:11.840><c> high-end</c><00:00:12.160><c> servers</c><00:00:13.120><c> but</c>
+
+00:00:13.430 --> 00:00:13.440 align:start position:0%
+super computers and high-end servers but
+ 
+
+00:00:13.440 --> 00:00:15.910 align:start position:0%
+super computers and high-end servers but
+now<00:00:13.759><c> and</c><00:00:13.920><c> in</c><00:00:14.080><c> the</c><00:00:14.240><c> future</c><00:00:15.040><c> almost</c><00:00:15.519><c> every</c>
+
+00:00:15.910 --> 00:00:15.920 align:start position:0%
+now and in the future almost every
+ 
+
+00:00:15.920 --> 00:00:18.390 align:start position:0%
+now and in the future almost every
+computer<00:00:16.640><c> will</c><00:00:16.880><c> have</c><00:00:17.119><c> more</c><00:00:17.279><c> than</c><00:00:17.520><c> one</c><00:00:17.760><c> core</c>
+
+00:00:18.390 --> 00:00:18.400 align:start position:0%
+computer will have more than one core
+ 
+
+00:00:18.400 --> 00:00:20.630 align:start position:0%
+computer will have more than one core
+and<00:00:18.640><c> possibly</c><00:00:19.439><c> more</c><00:00:19.600><c> than</c><00:00:19.840><c> one</c><00:00:20.080><c> thread</c><00:00:20.400><c> per</c>
+
+00:00:20.630 --> 00:00:20.640 align:start position:0%
+and possibly more than one thread per
+ 
+
+00:00:20.640 --> 00:00:23.590 align:start position:0%
+and possibly more than one thread per
+core<00:00:21.439><c> so</c><00:00:21.680><c> it</c><00:00:21.760><c> can</c><00:00:22.000><c> be</c><00:00:22.240><c> said</c><00:00:22.880><c> that</c><00:00:23.279><c> all</c>
+
+00:00:23.590 --> 00:00:23.600 align:start position:0%
+core so it can be said that all
+ 
+
+00:00:23.600 --> 00:00:25.029 align:start position:0%
+core so it can be said that all
+processing<00:00:24.080><c> today</c>
+
+00:00:25.029 --> 00:00:25.039 align:start position:0%
+processing today
+ 
+
+00:00:25.039 --> 00:00:28.760 align:start position:0%
+processing today
+really<00:00:25.439><c> is</c><00:00:25.760><c> multi-processing</c>
+

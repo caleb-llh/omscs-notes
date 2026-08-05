@@ -1,0 +1,180 @@
+1
+00:00:00,420 --> 00:00:02,510
+ I have a confession, picking a mapping and
+
+2
+00:00:02,510 --> 00:00:06,510
+ counting edges to compute congestion can make you more than a little crazy.
+
+3
+00:00:06,510 --> 00:00:07,680
+ Eep.
+
+4
+00:00:07,680 --> 00:00:08,980
+ Let me help you out.
+
+5
+00:00:08,980 --> 00:00:13,430
+ Here's a shortcut to estimate a lower bound on congestion.
+
+6
+00:00:13,430 --> 00:00:17,490
+ Consider two hypothetical networks, a logical and a physical one.
+
+7
+00:00:17,490 --> 00:00:20,540
+ Now suppose you find a bisection in the physical network.
+
+8
+00:00:20,540 --> 00:00:24,150
+ By the definition of bisection width this bisection will divide the network
+
+9
+00:00:24,150 --> 00:00:27,160
+ into two pieces of roughly the same size.
+
+10
+00:00:27,160 --> 00:00:30,162
+ Here I am using V1 to represent the nodes of one half.
+
+11
+00:00:30,162 --> 00:00:33,360
+ And V2 to represent the nodes of the other half.
+
+12
+00:00:33,360 --> 00:00:37,150
+ Now the bisection cut will also go through a bunch of links.
+
+13
+00:00:37,150 --> 00:00:39,790
+ The number of such links is the bisection width.
+
+14
+00:00:39,790 --> 00:00:42,200
+ Let's call that B sub X.
+
+15
+00:00:42,200 --> 00:00:45,510
+ Now bisecting the physical network implies a cut
+
+16
+00:00:45,510 --> 00:00:47,560
+ of the logical network as well.
+
+17
+00:00:47,560 --> 00:00:50,010
+ So schematically, it might look like this.
+
+18
+00:00:50,010 --> 00:00:54,440
+ Now the cut in the logical network will go through some number of edges.
+
+19
+00:00:54,440 --> 00:00:58,990
+ Let's call the number of such edges on the logical network capital L.
+
+20
+00:00:58,990 --> 00:01:02,410
+ So in other words, what we're saying is that there are at least L,
+
+21
+00:01:02,410 --> 00:01:06,640
+ logical edges that map to B sub X, physical edges.
+
+22
+00:01:06,640 --> 00:01:10,778
+ So the congestion of the mapping has to be at least L divided by B.
+
+23
+00:01:10,778 --> 00:01:12,700
+ We can say more.
+
+24
+00:01:12,700 --> 00:01:16,566
+ The minimum possible value that L could have is the bisection width of
+
+25
+00:01:16,566 --> 00:01:18,640
+ the logical network.
+
+26
+00:01:18,640 --> 00:01:22,060
+ That's because the size of the cut that splits the network in two has to be at
+
+27
+00:01:22,060 --> 00:01:23,890
+ least the bisection width.
+
+28
+00:01:23,890 --> 00:01:26,820
+ Again, that follows from the definition of bisection width,
+
+29
+00:01:26,820 --> 00:01:30,730
+ therefore a lower bound on the congestion is the ratio of the logical
+
+30
+00:01:30,730 --> 00:01:33,670
+ bisection width to the physical bisection width.
+
+31
+00:01:33,670 --> 00:01:34,720
+ Neat!
+
+32
+00:01:34,720 --> 00:01:36,550
+ Let's see if this works.
+
+33
+00:01:36,550 --> 00:01:39,820
+ let's go back to the 1-D ring and 2-D taurus example.
+
+34
+00:01:39,820 --> 00:01:42,660
+ So let's say we start with a logical 2-D torus.
+
+35
+00:01:42,660 --> 00:01:45,583
+ And suppose we map that to a physical 1-D ring.
+
+36
+00:01:45,583 --> 00:01:48,990
+ Do you remember the bisection widths of these two networks?
+
+37
+00:01:48,990 --> 00:01:54,460
+ They are 2 edges for the ring and approximately 2 root P for the Torus.
+
+38
+00:01:54,460 --> 00:01:56,130
+ Let's plug these in.
+
+39
+00:01:56,130 --> 00:01:58,790
+ What you'll get is square root of P.
+
+40
+00:01:58,790 --> 00:02:03,120
+ Now the true value of the congestion of this mapping is square root of P + 2.
+
+41
+00:02:03,120 --> 00:02:06,060
+ So you can see the lower bound in this case is pretty good.
+
+42
+00:02:06,060 --> 00:02:08,690
+ Here's what knowing the congestion allows you to do.
+
+43
+00:02:08,690 --> 00:02:12,080
+ You can estimate how much worse the cost of your algorithm might be,
+
+44
+00:02:12,080 --> 00:02:13,600
+ if you run a physical network,
+
+45
+00:02:13,600 --> 00:02:13,600
+ that has less bisection capacity, than your logical network.
+

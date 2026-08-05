@@ -1,0 +1,256 @@
+1
+00:00:00,570 --> 00:00:03,200
+ The most important thing about a bitonic sort is that
+
+2
+00:00:03,200 --> 00:00:07,420
+ everything boils down to by doing bitonic merges efficiently.
+
+3
+00:00:07,420 --> 00:00:10,960
+ Let's start with an network for a 16-element bitonic merge.
+
+4
+00:00:10,960 --> 00:00:15,310
+ I'm going to draw it in a simplified form as follows.
+
+5
+00:00:15,310 --> 00:00:18,350
+ The left-hand set of dots are the inputs.
+
+6
+00:00:18,350 --> 00:00:21,910
+ Now remember that the first step of the algorithm is a bitonic split
+
+7
+00:00:21,910 --> 00:00:24,310
+ which is computed in place.
+
+8
+00:00:24,310 --> 00:00:28,050
+ I'll represent the split using this next column of dots.
+
+9
+00:00:28,050 --> 00:00:32,080
+ So for example, this dot is the part of the split that computes the min
+
+10
+00:00:32,080 --> 00:00:34,690
+ of this input and this input.
+
+11
+00:00:34,690 --> 00:00:37,320
+ The max you would, of course, compute here.
+
+12
+00:00:37,320 --> 00:00:41,340
+ So these edges indicate the dependencies between these two outputs and
+
+13
+00:00:41,340 --> 00:00:43,200
+ these two inputs.
+
+14
+00:00:43,200 --> 00:00:46,959
+ Now the remaining pairs of dependencies would look the same.
+
+15
+00:00:46,959 --> 00:00:51,350
+ The result is two bitonic subsequences at stage one.
+
+16
+00:00:51,350 --> 00:00:54,632
+ So here is one bitonic subsequence and here's the other.
+
+17
+00:00:54,632 --> 00:00:57,555
+ Now remember we're talking about a bitonic merge so
+
+18
+00:00:57,555 --> 00:01:01,615
+ the computation in dependencies will repeat within each subsequence.
+
+19
+00:01:01,615 --> 00:01:06,070
+ For instance, here's the first pair from the first subsequence.
+
+20
+00:01:06,070 --> 00:01:09,390
+ Within this first subsequence, the pattern repeats.
+
+21
+00:01:09,390 --> 00:01:13,170
+ And we will see the same thing within this second subsequence.
+
+22
+00:01:13,170 --> 00:01:15,850
+ Let me fill out the rest to the end.
+
+23
+00:01:15,850 --> 00:01:19,290
+ So this picture of a bitonic merge shows us where the inputs are,
+
+24
+00:01:19,290 --> 00:01:22,620
+ where the outputs are, and the pattern of dependencies.
+
+25
+00:01:22,620 --> 00:01:25,580
+ So what does a distributed algorithm look like?
+
+26
+00:01:25,580 --> 00:01:30,310
+ For the distributed case, let's divide the elements among processing nodes.
+
+27
+00:01:30,310 --> 00:01:32,790
+ For example, here's one division.
+
+28
+00:01:32,790 --> 00:01:35,680
+ So in this example there are four processing nodes and
+
+29
+00:01:35,680 --> 00:01:40,610
+ I've divided them by assigning consecutive sets of inputs to each node.
+
+30
+00:01:40,610 --> 00:01:42,650
+ So let's think about this.
+
+31
+00:01:42,650 --> 00:01:45,060
+ Where does communication happen?
+
+32
+00:01:45,060 --> 00:01:48,800
+ Well, anywhere a dependence edge crosses a process boundary,
+
+33
+00:01:48,800 --> 00:01:51,470
+ there has to be some sort of communication.
+
+34
+00:01:51,470 --> 00:01:53,570
+ For example, consider these edges.
+
+35
+00:01:53,570 --> 00:01:54,990
+ According to this picture,
+
+36
+00:01:54,990 --> 00:01:59,490
+ this process has to send these elements to this process.
+
+37
+00:01:59,490 --> 00:02:03,880
+ Similarly, the same process has to send data back to the first process.
+
+38
+00:02:03,880 --> 00:02:06,660
+ This pattern is sometimes called a binary exchange,
+
+39
+00:02:06,660 --> 00:02:10,180
+ as there are two processes swapping data with one another.
+
+40
+00:02:10,180 --> 00:02:13,025
+ Okay, you ready for something cool?
+
+41
+00:02:13,025 --> 00:02:18,355
+ Notice that edges cross process boundaries only up until this point.
+
+42
+00:02:18,355 --> 00:02:21,885
+ In fact, there are just log P stages in this first block,
+
+43
+00:02:21,885 --> 00:02:25,805
+ which means only log P rounds of communication.
+
+44
+00:02:25,805 --> 00:02:30,955
+ In the remaining log n over P stages, no edges cross process boundaries,
+
+45
+00:02:30,955 --> 00:02:32,960
+ meaning there is no communication.
+
+46
+00:02:32,960 --> 00:02:35,860
+ So from this analysis I hope you can see how to
+
+47
+00:02:35,860 --> 00:02:38,820
+ estimate the communication time for bitonic merge.
+
+48
+00:02:38,820 --> 00:02:41,860
+ Now, this isn't the only way to distribute data and work.
+
+49
+00:02:41,860 --> 00:02:43,450
+ Here's another scheme.
+
+50
+00:02:43,450 --> 00:02:47,030
+ Here I've assigned each row of the network to a different process in
+
+51
+00:02:47,030 --> 00:02:49,030
+ a round-robin fashion.
+
+52
+00:02:49,030 --> 00:02:53,370
+ The scheme is sometimes called a cyclic distribution or cyclic assignment.
+
+53
+00:02:53,370 --> 00:02:56,230
+ Although it's a little bit harder to see, the communication versus
+
+54
+00:02:56,230 --> 00:03:01,220
+ local computation phases are similar to the previous block distribution scheme.
+
+55
+00:03:01,220 --> 00:03:03,520
+ For example, consider this input.
+
+56
+00:03:03,520 --> 00:03:07,380
+ Let's follow its outgoing dependences at every stage.
+
+57
+00:03:07,380 --> 00:03:12,320
+ During the first log n over P stages, there's only local computation.
+
+58
+00:03:12,320 --> 00:03:16,700
+ The remaining log P rounds require non-local exchanges.
+
+59
+00:03:16,700 --> 00:03:19,880
+ The patterns you've seen so far tell you something about the number of messages
+
+60
+00:03:19,880 --> 00:03:23,470
+ that need to be sent, but what about the volume of communication?
+
+61
+00:03:23,470 --> 00:03:27,580
+ Again, let's ask how much data does the first process send?
+
+62
+00:03:27,580 --> 00:03:29,590
+ You can verify that in each stage,
+
+63
+00:03:29,590 --> 00:03:33,570
+ this first process needs to send n over P words.
+
+64
+00:03:33,570 --> 00:03:33,570
+ This is the same as the block distributed scheme.
+

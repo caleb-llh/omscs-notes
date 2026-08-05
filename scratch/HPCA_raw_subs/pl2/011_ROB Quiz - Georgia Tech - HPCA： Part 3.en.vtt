@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.490 align:start position:0%
+ 
+so<00:00:00.269><c> now</c><00:00:00.420><c> that</c><00:00:00.480><c> we</c><00:00:00.750><c> know</c><00:00:00.780><c> what</c><00:00:01.140><c> the</c><00:00:01.260><c> Rob's</c>
+
+00:00:01.490 --> 00:00:01.500 align:start position:0%
+so now that we know what the Rob's
+ 
+
+00:00:01.500 --> 00:00:04.940 align:start position:0%
+so now that we know what the Rob's
+purpose<00:00:02.220><c> is</c><00:00:02.490><c> let's</c><00:00:02.939><c> do</c><00:00:03.149><c> a</c><00:00:03.179><c> rob</c><00:00:03.570><c> quiz</c><00:00:04.080><c> so</c><00:00:04.770><c> we</c>
+
+00:00:04.940 --> 00:00:04.950 align:start position:0%
+purpose is let's do a rob quiz so we
+ 
+
+00:00:04.950 --> 00:00:07.519 align:start position:0%
+purpose is let's do a rob quiz so we
+need<00:00:05.160><c> a</c><00:00:05.190><c> Rob</c><00:00:05.520><c> because</c><00:00:05.819><c> we</c><00:00:06.779><c> want</c><00:00:06.990><c> to</c><00:00:07.170><c> remember</c>
+
+00:00:07.519 --> 00:00:07.529 align:start position:0%
+need a Rob because we want to remember
+ 
+
+00:00:07.529 --> 00:00:09.860 align:start position:0%
+need a Rob because we want to remember
+the<00:00:07.799><c> program</c><00:00:08.220><c> order</c><00:00:08.519><c> until</c><00:00:08.790><c> commit</c><00:00:09.179><c> because</c>
+
+00:00:09.860 --> 00:00:09.870 align:start position:0%
+the program order until commit because
+ 
+
+00:00:09.870 --> 00:00:12.080 align:start position:0%
+the program order until commit because
+we<00:00:10.019><c> need</c><00:00:10.139><c> a</c><00:00:10.200><c> place</c><00:00:10.410><c> to</c><00:00:10.580><c> temporarily</c><00:00:11.580><c> store</c><00:00:11.940><c> the</c>
+
+00:00:12.080 --> 00:00:12.090 align:start position:0%
+we need a place to temporarily store the
+ 
+
+00:00:12.090 --> 00:00:14.539 align:start position:0%
+we need a place to temporarily store the
+instructional<00:00:12.599><c> result</c><00:00:12.990><c> until</c><00:00:13.200><c> commit</c><00:00:13.710><c> to</c>
+
+00:00:14.539 --> 00:00:14.549 align:start position:0%
+instructional result until commit to
+ 
+
+00:00:14.549 --> 00:00:17.240 align:start position:0%
+instructional result until commit to
+serve<00:00:14.849><c> as</c><00:00:15.179><c> the</c><00:00:15.719><c> name</c><00:00:15.960><c> or</c><00:00:16.170><c> tag</c><00:00:16.440><c> for</c><00:00:16.740><c> the</c><00:00:16.859><c> result</c>
+
+00:00:17.240 --> 00:00:17.250 align:start position:0%
+serve as the name or tag for the result
+ 
+
+00:00:17.250 --> 00:00:19.760 align:start position:0%
+serve as the name or tag for the result
+of<00:00:17.580><c> the</c><00:00:17.970><c> instruction</c><00:00:18.119><c> to</c><00:00:18.960><c> store</c><00:00:19.320><c> the</c><00:00:19.500><c> source</c>
+
+00:00:19.760 --> 00:00:19.770 align:start position:0%
+of the instruction to store the source
+ 
+
+00:00:19.770 --> 00:00:21.470 align:start position:0%
+of the instruction to store the source
+operands<00:00:20.340><c> until</c><00:00:20.730><c> dispatch</c><00:00:21.119><c> of</c><00:00:21.359><c> the</c>
+
+00:00:21.470 --> 00:00:21.480 align:start position:0%
+operands until dispatch of the
+ 
+
+00:00:21.480 --> 00:00:23.750 align:start position:0%
+operands until dispatch of the
+instruction<00:00:21.990><c> and</c><00:00:22.199><c> to</c><00:00:23.039><c> determine</c><00:00:23.400><c> which</c>
+
+00:00:23.750 --> 00:00:23.760 align:start position:0%
+instruction and to determine which
+ 
+
+00:00:23.760 --> 00:00:25.880 align:start position:0%
+instruction and to determine which
+instruction<00:00:23.820><c> goes</c><00:00:24.570><c> to</c><00:00:24.779><c> which</c><00:00:24.930><c> execution</c><00:00:25.380><c> unit</c>
+
+00:00:25.880 --> 00:00:25.890 align:start position:0%
+instruction goes to which execution unit
+ 
+
+00:00:25.890 --> 00:00:28.400 align:start position:0%
+instruction goes to which execution unit
+you<00:00:26.760><c> should</c><00:00:26.789><c> select</c><00:00:27.119><c> all</c><00:00:27.570><c> of</c><00:00:27.960><c> the</c><00:00:28.080><c> correct</c>
+
+00:00:28.400 --> 00:00:28.410 align:start position:0%
+you should select all of the correct
+ 
+
+00:00:28.410 --> 00:00:30.140 align:start position:0%
+you should select all of the correct
+answers<00:00:28.800><c> here</c><00:00:29.130><c> there</c><00:00:29.429><c> could</c><00:00:29.640><c> be</c><00:00:29.670><c> more</c><00:00:29.939><c> than</c>
+
+00:00:30.140 --> 00:00:30.150 align:start position:0%
+answers here there could be more than
+ 
+
+00:00:30.150 --> 00:00:33.050 align:start position:0%
+answers here there could be more than
+one<00:00:30.359><c> that</c><00:00:30.599><c> are</c><00:00:30.750><c> correct</c>
+

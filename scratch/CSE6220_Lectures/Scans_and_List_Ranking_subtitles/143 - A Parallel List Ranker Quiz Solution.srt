@@ -1,0 +1,84 @@
+1
+00:00:00,330 --> 00:00:03,780
+ For the span, the answer is log squared.
+
+2
+00:00:03,780 --> 00:00:07,730
+ This outer loop does log sequential steps.
+
+3
+00:00:07,730 --> 00:00:08,950
+ In each of update ranks and
+
+4
+00:00:08,950 --> 00:00:12,100
+ jump list consist of parallel fors which have logarithmic span.
+
+5
+00:00:12,100 --> 00:00:14,312
+ What about the work?
+
+6
+00:00:14,312 --> 00:00:17,450
+ The work is actually m log m.
+
+7
+00:00:17,450 --> 00:00:20,980
+ This outer most loop contributes the log m part.
+
+8
+00:00:20,980 --> 00:00:22,070
+ And since updateRanks and
+
+9
+00:00:22,070 --> 00:00:26,730
+ jumpList visit every node in every iteration, we have linear cost.
+
+10
+00:00:26,730 --> 00:00:28,960
+ So the total is m log m.
+
+11
+00:00:28,960 --> 00:00:31,520
+ Now seeing this result you should be disappointed.
+
+12
+00:00:31,520 --> 00:00:35,040
+ Although the algorithm is parallel it does not work optimal.
+
+13
+00:00:35,040 --> 00:00:38,670
+ Remember the naive sequential algorithm only has linear costs.
+
+14
+00:00:38,670 --> 00:00:41,580
+ In addition the constants are very low because it really just touches every
+
+15
+00:00:41,580 --> 00:00:43,540
+ node just once.
+
+16
+00:00:43,540 --> 00:00:45,030
+ So this log m cost and
+
+17
+00:00:45,030 --> 00:00:49,570
+ all these extra buffers really add a lot of additional overhead to this ranking.
+
+18
+00:00:49,570 --> 00:00:51,160
+ This means you need a really long list and
+
+19
+00:00:51,160 --> 00:00:54,570
+ lots of processors to see any speed up in practice.
+
+20
+00:00:54,570 --> 00:00:58,880
+ Now there are ways to do work optimal list ranking and get decent speed ups.
+
+21
+00:00:58,880 --> 00:00:58,880
+ I'll put a link to one or two of these algorithms in the instructors notes.
+

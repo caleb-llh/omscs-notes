@@ -1,0 +1,464 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.750 align:start position:0%
+ 
+let's<00:00:00.400><c> look</c><00:00:00.560><c> at</c><00:00:00.719><c> our</c><00:00:00.880><c> instruction</c><00:00:01.280><c> scheduling</c>
+
+00:00:01.750 --> 00:00:01.760 align:start position:0%
+let's look at our instruction scheduling
+ 
+
+00:00:01.760 --> 00:00:05.430 align:start position:0%
+let's look at our instruction scheduling
+quiz<00:00:02.399><c> solution</c><00:00:03.280><c> as</c><00:00:03.600><c> is</c><00:00:03.919><c> this</c><00:00:04.160><c> takes</c><00:00:04.880><c> one</c><00:00:05.120><c> cycle</c>
+
+00:00:05.430 --> 00:00:05.440 align:start position:0%
+quiz solution as is this takes one cycle
+ 
+
+00:00:05.440 --> 00:00:07.829 align:start position:0%
+quiz solution as is this takes one cycle
+to<00:00:05.600><c> do</c><00:00:05.759><c> the</c><00:00:05.920><c> load</c><00:00:06.560><c> if</c><00:00:06.799><c> the</c><00:00:06.879><c> load</c><00:00:07.120><c> latency</c><00:00:07.600><c> was</c>
+
+00:00:07.829 --> 00:00:07.839 align:start position:0%
+to do the load if the load latency was
+ 
+
+00:00:07.839 --> 00:00:09.509 align:start position:0%
+to do the load if the load latency was
+one<00:00:08.080><c> cycle</c><00:00:08.400><c> then</c><00:00:08.559><c> the</c><00:00:08.639><c> ad</c><00:00:08.880><c> could</c><00:00:09.200><c> happen</c><00:00:09.440><c> the</c>
+
+00:00:09.509 --> 00:00:09.519 align:start position:0%
+one cycle then the ad could happen the
+ 
+
+00:00:09.519 --> 00:00:11.589 align:start position:0%
+one cycle then the ad could happen the
+next<00:00:09.760><c> cycle</c><00:00:10.160><c> but</c><00:00:10.400><c> because</c><00:00:10.960><c> the</c><00:00:11.120><c> load</c><00:00:11.280><c> takes</c>
+
+00:00:11.589 --> 00:00:11.599 align:start position:0%
+next cycle but because the load takes
+ 
+
+00:00:11.599 --> 00:00:13.350 align:start position:0%
+next cycle but because the load takes
+two<00:00:11.840><c> cycles</c><00:00:12.240><c> the</c><00:00:12.320><c> add</c><00:00:12.559><c> can</c><00:00:12.719><c> only</c><00:00:12.880><c> happen</c><00:00:13.200><c> in</c>
+
+00:00:13.350 --> 00:00:13.360 align:start position:0%
+two cycles the add can only happen in
+ 
+
+00:00:13.360 --> 00:00:17.670 align:start position:0%
+two cycles the add can only happen in
+cycle<00:00:13.679><c> three</c><00:00:14.320><c> so</c><00:00:14.480><c> we</c><00:00:14.639><c> have</c><00:00:15.040><c> one</c><00:00:16.160><c> cycle</c><00:00:16.560><c> three</c>
+
+00:00:17.670 --> 00:00:17.680 align:start position:0%
+cycle three so we have one cycle three
+ 
+
+00:00:17.680 --> 00:00:19.510 align:start position:0%
+cycle three so we have one cycle three
+the<00:00:17.840><c> ad</c><00:00:18.000><c> takes</c><00:00:18.240><c> only</c><00:00:18.400><c> one</c><00:00:18.640><c> cycle</c><00:00:18.960><c> so</c><00:00:19.119><c> the</c><00:00:19.279><c> store</c>
+
+00:00:19.510 --> 00:00:19.520 align:start position:0%
+the ad takes only one cycle so the store
+ 
+
+00:00:19.520 --> 00:00:21.990 align:start position:0%
+the ad takes only one cycle so the store
+can<00:00:19.680><c> proceed</c><00:00:20.560><c> then</c><00:00:20.800><c> we</c><00:00:20.880><c> can</c><00:00:21.039><c> do</c><00:00:21.199><c> the</c><00:00:21.359><c> load</c><00:00:21.840><c> it</c>
+
+00:00:21.990 --> 00:00:22.000 align:start position:0%
+can proceed then we can do the load it
+ 
+
+00:00:22.000 --> 00:00:23.670 align:start position:0%
+can proceed then we can do the load it
+doesn't<00:00:22.240><c> depend</c><00:00:22.640><c> on</c><00:00:22.800><c> anything</c><00:00:23.199><c> so</c><00:00:23.359><c> we</c><00:00:23.439><c> can</c><00:00:23.519><c> do</c>
+
+00:00:23.670 --> 00:00:23.680 align:start position:0%
+doesn't depend on anything so we can do
+ 
+
+00:00:23.680 --> 00:00:26.310 align:start position:0%
+doesn't depend on anything so we can do
+the<00:00:23.760><c> load</c><00:00:24.000><c> index</c><00:00:24.240><c> cycle</c><00:00:24.640><c> five</c><00:00:25.439><c> the</c><00:00:25.680><c> ad</c><00:00:25.920><c> however</c>
+
+00:00:26.310 --> 00:00:26.320 align:start position:0%
+the load index cycle five the ad however
+ 
+
+00:00:26.320 --> 00:00:28.550 align:start position:0%
+the load index cycle five the ad however
+can<00:00:26.480><c> now</c><00:00:26.720><c> happen</c><00:00:27.039><c> only</c><00:00:27.279><c> in</c><00:00:27.359><c> cycle</c><00:00:27.840><c> seven</c><00:00:28.400><c> and</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+can now happen only in cycle seven and
+ 
+
+00:00:28.560 --> 00:00:30.870 align:start position:0%
+can now happen only in cycle seven and
+finally<00:00:28.960><c> the</c><00:00:29.119><c> store</c><00:00:29.439><c> happens</c><00:00:29.760><c> in</c><00:00:29.840><c> cycle</c><00:00:30.320><c> eight</c>
+
+00:00:30.870 --> 00:00:30.880 align:start position:0%
+finally the store happens in cycle eight
+ 
+
+00:00:30.880 --> 00:00:33.750 align:start position:0%
+finally the store happens in cycle eight
+so<00:00:31.119><c> as</c><00:00:31.439><c> is</c><00:00:31.679><c> this</c><00:00:31.920><c> executes</c><00:00:32.399><c> in</c><00:00:32.640><c> eight</c><00:00:32.880><c> cycles</c>
+
+00:00:33.750 --> 00:00:33.760 align:start position:0%
+so as is this executes in eight cycles
+ 
+
+00:00:33.760 --> 00:00:35.830 align:start position:0%
+so as is this executes in eight cycles
+the<00:00:34.000><c> question</c><00:00:34.480><c> is</c><00:00:34.640><c> now</c><00:00:34.880><c> can</c><00:00:35.040><c> we</c><00:00:35.200><c> schedule</c><00:00:35.600><c> this</c>
+
+00:00:35.830 --> 00:00:35.840 align:start position:0%
+the question is now can we schedule this
+ 
+
+00:00:35.840 --> 00:00:37.750 align:start position:0%
+the question is now can we schedule this
+better<00:00:36.239><c> to</c><00:00:36.320><c> avoid</c><00:00:36.719><c> some</c><00:00:36.960><c> of</c><00:00:37.040><c> these</c><00:00:37.200><c> stalls</c><00:00:37.680><c> and</c>
+
+00:00:37.750 --> 00:00:37.760 align:start position:0%
+better to avoid some of these stalls and
+ 
+
+00:00:37.760 --> 00:00:41.030 align:start position:0%
+better to avoid some of these stalls and
+we<00:00:37.920><c> had</c><00:00:38.079><c> a</c><00:00:38.160><c> stall</c><00:00:38.640><c> here</c><00:00:39.360><c> and</c><00:00:39.760><c> here</c><00:00:40.399><c> to</c><00:00:40.559><c> avoid</c><00:00:40.960><c> a</c>
+
+00:00:41.030 --> 00:00:41.040 align:start position:0%
+we had a stall here and here to avoid a
+ 
+
+00:00:41.040 --> 00:00:43.110 align:start position:0%
+we had a stall here and here to avoid a
+stall<00:00:41.440><c> here</c><00:00:41.760><c> we</c><00:00:42.000><c> need</c><00:00:42.160><c> to</c><00:00:42.399><c> place</c><00:00:42.719><c> between</c><00:00:42.960><c> the</c>
+
+00:00:43.110 --> 00:00:43.120 align:start position:0%
+stall here we need to place between the
+ 
+
+00:00:43.120 --> 00:00:46.150 align:start position:0%
+stall here we need to place between the
+load<00:00:43.440><c> and</c><00:00:43.520><c> the</c><00:00:43.680><c> add</c><00:00:44.480><c> an</c><00:00:44.719><c> instruction</c><00:00:45.760><c> that</c><00:00:45.920><c> can</c>
+
+00:00:46.150 --> 00:00:46.160 align:start position:0%
+load and the add an instruction that can
+ 
+
+00:00:46.160 --> 00:00:48.150 align:start position:0%
+load and the add an instruction that can
+be<00:00:46.320><c> done</c><00:00:46.559><c> here</c><00:00:46.960><c> without</c><00:00:47.360><c> violating</c>
+
+00:00:48.150 --> 00:00:48.160 align:start position:0%
+be done here without violating
+ 
+
+00:00:48.160 --> 00:00:50.709 align:start position:0%
+be done here without violating
+dependencies<00:00:49.440><c> we</c><00:00:49.600><c> can</c><00:00:49.760><c> see</c><00:00:49.920><c> that</c><00:00:50.160><c> this</c><00:00:50.399><c> load</c>
+
+00:00:50.709 --> 00:00:50.719 align:start position:0%
+dependencies we can see that this load
+ 
+
+00:00:50.719 --> 00:00:51.670 align:start position:0%
+dependencies we can see that this load
+here
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+here
+ 
+
+00:00:51.680 --> 00:00:54.069 align:start position:0%
+here
+doesn't<00:00:52.079><c> depend</c><00:00:53.039><c> on</c><00:00:53.280><c> any</c><00:00:53.520><c> of</c><00:00:53.600><c> the</c><00:00:53.760><c> previous</c>
+
+00:00:54.069 --> 00:00:54.079 align:start position:0%
+doesn't depend on any of the previous
+ 
+
+00:00:54.079 --> 00:00:56.869 align:start position:0%
+doesn't depend on any of the previous
+three<00:00:54.239><c> instructions</c><00:00:55.120><c> except</c><00:00:55.840><c> that</c><00:00:56.079><c> we</c><00:00:56.640><c> will</c>
+
+00:00:56.869 --> 00:00:56.879 align:start position:0%
+three instructions except that we will
+ 
+
+00:00:56.879 --> 00:00:59.110 align:start position:0%
+three instructions except that we will
+destroy<00:00:57.440><c> r1</c><00:00:58.000><c> if</c><00:00:58.079><c> we</c><00:00:58.239><c> move</c><00:00:58.399><c> that</c><00:00:58.640><c> instruction</c>
+
+00:00:59.110 --> 00:00:59.120 align:start position:0%
+destroy r1 if we move that instruction
+ 
+
+00:00:59.120 --> 00:01:01.510 align:start position:0%
+destroy r1 if we move that instruction
+here<00:00:59.760><c> so</c><00:00:59.920><c> the</c><00:01:00.000><c> correct</c><00:01:00.399><c> solution</c><00:01:00.879><c> to</c><00:01:01.039><c> this</c><00:01:01.359><c> is</c>
+
+00:01:01.510 --> 00:01:01.520 align:start position:0%
+here so the correct solution to this is
+ 
+
+00:01:01.520 --> 00:01:04.229 align:start position:0%
+here so the correct solution to this is
+we<00:01:01.680><c> will</c><00:01:02.239><c> move</c><00:01:02.480><c> the</c><00:01:02.719><c> load</c><00:01:02.960><c> there</c><00:01:03.600><c> but</c><00:01:03.840><c> we</c><00:01:04.000><c> will</c>
+
+00:01:04.229 --> 00:01:04.239 align:start position:0%
+we will move the load there but we will
+ 
+
+00:01:04.239 --> 00:01:05.509 align:start position:0%
+we will move the load there but we will
+rename
+
+00:01:05.509 --> 00:01:05.519 align:start position:0%
+rename
+ 
+
+00:01:05.519 --> 00:01:08.310 align:start position:0%
+rename
+rr1<00:01:06.320><c> into</c><00:01:06.560><c> something</c><00:01:07.040><c> else</c><00:01:07.600><c> so</c><00:01:07.760><c> the</c><00:01:07.920><c> program</c>
+
+00:01:08.310 --> 00:01:08.320 align:start position:0%
+rr1 into something else so the program
+ 
+
+00:01:08.320 --> 00:01:09.750 align:start position:0%
+rr1 into something else so the program
+becomes<00:01:08.799><c> now</c>
+
+00:01:09.750 --> 00:01:09.760 align:start position:0%
+becomes now
+ 
+
+00:01:09.760 --> 00:01:11.510 align:start position:0%
+becomes now
+load<00:01:10.080><c> word</c><00:01:10.479><c> r1</c>
+
+00:01:11.510 --> 00:01:11.520 align:start position:0%
+load word r1
+ 
+
+00:01:11.520 --> 00:01:14.390 align:start position:0%
+load word r1
+0<00:01:12.000><c> of</c><00:01:12.240><c> r2</c><00:01:12.799><c> as</c><00:01:12.960><c> before</c>
+
+00:01:14.390 --> 00:01:14.400 align:start position:0%
+0 of r2 as before
+ 
+
+00:01:14.400 --> 00:01:16.789 align:start position:0%
+0 of r2 as before
+now<00:01:14.560><c> we</c><00:01:14.720><c> move</c><00:01:14.960><c> the</c><00:01:15.200><c> other</c><00:01:15.439><c> load</c><00:01:15.760><c> there</c><00:01:16.400><c> put</c><00:01:16.640><c> the</c>
+
+00:01:16.789 --> 00:01:16.799 align:start position:0%
+now we move the other load there put the
+ 
+
+00:01:16.799 --> 00:01:19.429 align:start position:0%
+now we move the other load there put the
+result<00:01:17.200><c> in</c><00:01:17.360><c> some</c><00:01:17.759><c> r10</c><00:01:18.320><c> let's</c><00:01:18.560><c> say</c>
+
+00:01:19.429 --> 00:01:19.439 align:start position:0%
+result in some r10 let's say
+ 
+
+00:01:19.439 --> 00:01:22.149 align:start position:0%
+result in some r10 let's say
+now<00:01:19.600><c> we</c><00:01:19.759><c> can</c><00:01:19.920><c> do</c><00:01:20.080><c> this</c><00:01:20.320><c> add</c><00:01:21.119><c> because</c><00:01:21.920><c> in</c><00:01:22.000><c> the</c>
+
+00:01:22.149 --> 00:01:22.159 align:start position:0%
+now we can do this add because in the
+ 
+
+00:01:22.159 --> 00:01:24.149 align:start position:0%
+now we can do this add because in the
+third<00:01:22.400><c> cycle</c><00:01:22.720><c> we</c><00:01:22.880><c> can</c><00:01:23.040><c> do</c><00:01:23.280><c> it</c>
+
+00:01:24.149 --> 00:01:24.159 align:start position:0%
+third cycle we can do it
+ 
+
+00:01:24.159 --> 00:01:26.149 align:start position:0%
+third cycle we can do it
+now<00:01:24.400><c> that</c><00:01:24.560><c> we</c><00:01:24.720><c> have</c><00:01:24.880><c> done</c><00:01:25.119><c> this</c><00:01:25.360><c> add</c><00:01:25.840><c> we</c><00:01:26.000><c> can</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+now that we have done this add we can
+ 
+
+00:01:26.159 --> 00:01:27.910 align:start position:0%
+now that we have done this add we can
+actually<00:01:26.479><c> do</c><00:01:26.640><c> this</c><00:01:27.040><c> the</c><00:01:27.119><c> load</c><00:01:27.439><c> has</c><00:01:27.600><c> already</c>
+
+00:01:27.910 --> 00:01:27.920 align:start position:0%
+actually do this the load has already
+ 
+
+00:01:27.920 --> 00:01:29.270 align:start position:0%
+actually do this the load has already
+happened
+
+00:01:29.270 --> 00:01:29.280 align:start position:0%
+happened
+ 
+
+00:01:29.280 --> 00:01:30.870 align:start position:0%
+happened
+we<00:01:29.439><c> are</c><00:01:29.520><c> now</c><00:01:29.759><c> in</c><00:01:29.840><c> the</c><00:01:29.920><c> second</c><00:01:30.240><c> cycle</c><00:01:30.640><c> since</c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+we are now in the second cycle since
+ 
+
+00:01:30.880 --> 00:01:33.190 align:start position:0%
+we are now in the second cycle since
+then<00:01:31.200><c> so</c><00:01:31.439><c> the</c><00:01:31.520><c> second</c><00:01:31.920><c> add</c><00:01:32.159><c> can</c><00:01:32.400><c> happen</c>
+
+00:01:33.190 --> 00:01:33.200 align:start position:0%
+then so the second add can happen
+ 
+
+00:01:33.200 --> 00:01:35.510 align:start position:0%
+then so the second add can happen
+the<00:01:33.439><c> add</c><00:01:33.840><c> was</c><00:01:34.000><c> using</c><00:01:34.400><c> r1</c><00:01:34.799><c> now</c><00:01:34.960><c> we</c><00:01:35.119><c> have</c><00:01:35.200><c> to</c><00:01:35.280><c> use</c>
+
+00:01:35.510 --> 00:01:35.520 align:start position:0%
+the add was using r1 now we have to use
+ 
+
+00:01:35.520 --> 00:01:36.789 align:start position:0%
+the add was using r1 now we have to use
+r10
+
+00:01:36.789 --> 00:01:36.799 align:start position:0%
+r10
+ 
+
+00:01:36.799 --> 00:01:39.590 align:start position:0%
+r10
+next<00:01:37.360><c> we</c><00:01:37.520><c> will</c><00:01:37.680><c> do</c><00:01:37.920><c> our</c><00:01:38.079><c> store</c><00:01:38.880><c> and</c><00:01:39.040><c> the</c><00:01:39.280><c> last</c>
+
+00:01:39.590 --> 00:01:39.600 align:start position:0%
+next we will do our store and the last
+ 
+
+00:01:39.600 --> 00:01:41.030 align:start position:0%
+next we will do our store and the last
+remaining<00:01:40.079><c> store</c>
+
+00:01:41.030 --> 00:01:41.040 align:start position:0%
+remaining store
+ 
+
+00:01:41.040 --> 00:01:42.550 align:start position:0%
+remaining store
+as<00:01:41.280><c> you</c><00:01:41.360><c> can</c><00:01:41.600><c> see</c>
+
+00:01:42.550 --> 00:01:42.560 align:start position:0%
+as you can see
+ 
+
+00:01:42.560 --> 00:01:45.030 align:start position:0%
+as you can see
+now<00:01:42.799><c> we</c><00:01:42.960><c> have</c><00:01:43.439><c> a</c><00:01:43.520><c> processor</c><00:01:44.159><c> where</c>
+
+00:01:45.030 --> 00:01:45.040 align:start position:0%
+now we have a processor where
+ 
+
+00:01:45.040 --> 00:01:47.030 align:start position:0%
+now we have a processor where
+whenever<00:01:45.439><c> we</c><00:01:45.600><c> need</c><00:01:45.759><c> two</c><00:01:45.920><c> cycles</c><00:01:46.320><c> for</c><00:01:46.479><c> the</c><00:01:46.640><c> load</c>
+
+00:01:47.030 --> 00:01:47.040 align:start position:0%
+whenever we need two cycles for the load
+ 
+
+00:01:47.040 --> 00:01:48.630 align:start position:0%
+whenever we need two cycles for the load
+there<00:01:47.200><c> is</c><00:01:47.360><c> something</c><00:01:47.759><c> in</c><00:01:47.840><c> between</c><00:01:48.240><c> the</c><00:01:48.399><c> load</c>
+
+00:01:48.630 --> 00:01:48.640 align:start position:0%
+there is something in between the load
+ 
+
+00:01:48.640 --> 00:01:51.190 align:start position:0%
+there is something in between the load
+and<00:01:48.799><c> the</c><00:01:48.880><c> use</c><00:01:49.119><c> of</c><00:01:49.280><c> its</c><00:01:49.439><c> result</c><00:01:50.240><c> here</c><00:01:50.640><c> r1</c><00:01:51.040><c> is</c>
+
+00:01:51.190 --> 00:01:51.200 align:start position:0%
+and the use of its result here r1 is
+ 
+
+00:01:51.200 --> 00:01:53.990 align:start position:0%
+and the use of its result here r1 is
+loaded<00:01:51.920><c> we</c><00:01:52.079><c> then</c><00:01:52.479><c> don't</c><00:01:52.720><c> use</c><00:01:52.960><c> r1</c><00:01:53.360><c> and</c><00:01:53.439><c> then</c><00:01:53.680><c> we</c>
+
+00:01:53.990 --> 00:01:54.000 align:start position:0%
+loaded we then don't use r1 and then we
+ 
+
+00:01:54.000 --> 00:01:55.109 align:start position:0%
+loaded we then don't use r1 and then we
+add<00:01:54.240><c> to</c><00:01:54.479><c> it</c>
+
+00:01:55.109 --> 00:01:55.119 align:start position:0%
+add to it
+ 
+
+00:01:55.119 --> 00:01:57.749 align:start position:0%
+add to it
+and<00:01:55.360><c> here</c><00:01:55.920><c> r10</c><00:01:56.479><c> is</c><00:01:56.560><c> loaded</c><00:01:57.119><c> and</c><00:01:57.200><c> then</c><00:01:57.360><c> we</c><00:01:57.520><c> don't</c>
+
+00:01:57.749 --> 00:01:57.759 align:start position:0%
+and here r10 is loaded and then we don't
+ 
+
+00:01:57.759 --> 00:02:00.230 align:start position:0%
+and here r10 is loaded and then we don't
+do<00:01:57.920><c> anything</c><00:01:58.240><c> with</c><00:01:58.479><c> r10</c><00:01:58.960><c> and</c><00:01:59.040><c> then</c><00:01:59.280><c> we</c><00:01:59.759><c> add</c><00:02:00.079><c> to</c>
+
+00:02:00.230 --> 00:02:00.240 align:start position:0%
+do anything with r10 and then we add to
+ 
+
+00:02:00.240 --> 00:02:00.950 align:start position:0%
+do anything with r10 and then we add to
+it
+
+00:02:00.950 --> 00:02:00.960 align:start position:0%
+it
+ 
+
+00:02:00.960 --> 00:02:03.350 align:start position:0%
+it
+so<00:02:01.280><c> this</c><00:02:01.600><c> can</c><00:02:01.759><c> be</c><00:02:01.840><c> done</c><00:02:02.079><c> in</c><00:02:02.240><c> six</c><00:02:02.560><c> cycles</c>
+
+00:02:03.350 --> 00:02:03.360 align:start position:0%
+so this can be done in six cycles
+ 
+
+00:02:03.360 --> 00:02:05.670 align:start position:0%
+so this can be done in six cycles
+eliminating<00:02:04.479><c> both</c><00:02:04.799><c> of</c><00:02:04.880><c> the</c><00:02:05.040><c> stall</c><00:02:05.360><c> cycles</c>
+
+00:02:05.670 --> 00:02:05.680 align:start position:0%
+eliminating both of the stall cycles
+ 
+
+00:02:05.680 --> 00:02:08.799 align:start position:0%
+eliminating both of the stall cycles
+that<00:02:05.840><c> we</c><00:02:06.000><c> previously</c><00:02:06.560><c> had</c>
+

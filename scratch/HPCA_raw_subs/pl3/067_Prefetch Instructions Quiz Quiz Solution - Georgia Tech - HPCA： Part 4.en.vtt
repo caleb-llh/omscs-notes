@@ -1,0 +1,456 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.199 --> 00:00:02.310 align:start position:0%
+ 
+let's<00:00:00.440><c> look</c><00:00:00.640><c> at</c><00:00:00.799><c> the</c><00:00:01.000><c> solution</c><00:00:01.959><c> to</c><00:00:02.120><c> our</c>
+
+00:00:02.310 --> 00:00:02.320 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:02.320 --> 00:00:04.950 align:start position:0%
+let's look at the solution to our
+prefetch<00:00:02.879><c> instructions</c><00:00:03.439><c> squiz</c><00:00:04.319><c> let's</c><00:00:04.560><c> look</c>
+
+00:00:04.950 --> 00:00:04.960 align:start position:0%
+prefetch instructions squiz let's look
+ 
+
+00:00:04.960 --> 00:00:08.470 align:start position:0%
+prefetch instructions squiz let's look
+first<00:00:05.799><c> at</c><00:00:06.359><c> this</c><00:00:06.680><c> Inner</c><00:00:07.160><c> Loop</c><00:00:08.160><c> and</c><00:00:08.320><c> the</c>
+
+00:00:08.470 --> 00:00:08.480 align:start position:0%
+first at this Inner Loop and the
+ 
+
+00:00:08.480 --> 00:00:11.709 align:start position:0%
+first at this Inner Loop and the
+prefetch<00:00:09.480><c> distance</c><00:00:10.480><c> for</c><00:00:10.719><c> fetching</c><00:00:11.200><c> elements</c>
+
+00:00:11.709 --> 00:00:11.719 align:start position:0%
+prefetch distance for fetching elements
+ 
+
+00:00:11.719 --> 00:00:14.470 align:start position:0%
+prefetch distance for fetching elements
+of<00:00:11.880><c> the</c><00:00:12.000><c> B</c><00:00:12.280><c> array</c><00:00:12.880><c> we</c><00:00:13.000><c> were</c><00:00:13.240><c> told</c><00:00:13.759><c> that</c><00:00:14.000><c> each</c>
+
+00:00:14.470 --> 00:00:14.480 align:start position:0%
+of the B array we were told that each
+ 
+
+00:00:14.480 --> 00:00:16.790 align:start position:0%
+of the B array we were told that each
+iteration<00:00:15.240><c> takes</c><00:00:15.599><c> two</c><00:00:15.839><c> 10</c><00:00:16.160><c> Cycles</c><00:00:16.560><c> if</c><00:00:16.720><c> there</c>
+
+00:00:16.790 --> 00:00:16.800 align:start position:0%
+iteration takes two 10 Cycles if there
+ 
+
+00:00:16.800 --> 00:00:18.830 align:start position:0%
+iteration takes two 10 Cycles if there
+are<00:00:16.960><c> no</c><00:00:17.160><c> misses</c><00:00:17.760><c> and</c><00:00:17.920><c> we</c><00:00:18.000><c> want</c><00:00:18.199><c> to</c><00:00:18.359><c> eliminate</c>
+
+00:00:18.830 --> 00:00:18.840 align:start position:0%
+are no misses and we want to eliminate
+ 
+
+00:00:18.840 --> 00:00:21.349 align:start position:0%
+are no misses and we want to eliminate
+misses<00:00:19.560><c> so</c><00:00:19.720><c> if</c><00:00:19.840><c> we</c><00:00:19.960><c> do</c><00:00:20.160><c> prefetching</c><00:00:20.680><c> correctly</c>
+
+00:00:21.349 --> 00:00:21.359 align:start position:0%
+misses so if we do prefetching correctly
+ 
+
+00:00:21.359 --> 00:00:23.269 align:start position:0%
+misses so if we do prefetching correctly
+there<00:00:21.480><c> will</c><00:00:21.640><c> be</c><00:00:21.800><c> 10</c><00:00:22.080><c> cycles</c><00:00:22.480><c> per</c><00:00:22.680><c> iteration</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+there will be 10 cycles per iteration
+ 
+
+00:00:23.279 --> 00:00:25.349 align:start position:0%
+there will be 10 cycles per iteration
+here<00:00:24.000><c> the</c><00:00:24.160><c> Miss</c><00:00:24.439><c> penalty</c><00:00:24.880><c> and</c><00:00:25.000><c> the</c><00:00:25.080><c> memory</c>
+
+00:00:25.349 --> 00:00:25.359 align:start position:0%
+here the Miss penalty and the memory
+ 
+
+00:00:25.359 --> 00:00:29.349 align:start position:0%
+here the Miss penalty and the memory
+latency<00:00:25.800><c> are</c><00:00:26.240><c> 200</c><00:00:26.960><c> Cycles</c><00:00:27.960><c> which</c><00:00:28.199><c> means</c><00:00:29.199><c> that</c>
+
+00:00:29.349 --> 00:00:29.359 align:start position:0%
+latency are 200 Cycles which means that
+ 
+
+00:00:29.359 --> 00:00:31.910 align:start position:0%
+latency are 200 Cycles which means that
+we<00:00:29.480><c> should</c><00:00:29.640><c> be</c><00:00:29.960><c> ising</c><00:00:30.279><c> a</c><00:00:30.480><c> prefetch</c><00:00:31.160><c> for</c><00:00:31.359><c> a</c><00:00:31.519><c> b</c>
+
+00:00:31.910 --> 00:00:31.920 align:start position:0%
+we should be ising a prefetch for a b
+ 
+
+00:00:31.920 --> 00:00:34.910 align:start position:0%
+we should be ising a prefetch for a b
+element<00:00:32.920><c> and</c><00:00:33.360><c> 200</c><00:00:33.680><c> Cycles</c><00:00:34.160><c> before</c><00:00:34.440><c> we</c><00:00:34.640><c> reach</c>
+
+00:00:34.910 --> 00:00:34.920 align:start position:0%
+element and 200 Cycles before we reach
+ 
+
+00:00:34.920 --> 00:00:36.190 align:start position:0%
+element and 200 Cycles before we reach
+it
+
+00:00:36.190 --> 00:00:36.200 align:start position:0%
+it
+ 
+
+00:00:36.200 --> 00:00:40.110 align:start position:0%
+it
+corresponds<00:00:37.200><c> to</c><00:00:37.440><c> 20</c><00:00:38.480><c> iterations</c><00:00:39.480><c> so</c><00:00:39.760><c> we</c><00:00:39.879><c> will</c>
+
+00:00:40.110 --> 00:00:40.120 align:start position:0%
+corresponds to 20 iterations so we will
+ 
+
+00:00:40.120 --> 00:00:43.830 align:start position:0%
+corresponds to 20 iterations so we will
+prefetch<00:00:41.120><c> 20</c><00:00:41.680><c> iterations</c><00:00:42.399><c> ahead</c><00:00:42.640><c> of</c><00:00:42.879><c> time</c><00:00:43.600><c> and</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+prefetch 20 iterations ahead of time and
+ 
+
+00:00:43.840 --> 00:00:46.750 align:start position:0%
+prefetch 20 iterations ahead of time and
+we<00:00:44.000><c> will</c><00:00:44.239><c> do</c><00:00:44.440><c> it</c><00:00:45.320><c> because</c><00:00:46.000><c> if</c><00:00:46.120><c> we</c><00:00:46.280><c> do</c><00:00:46.399><c> it</c><00:00:46.559><c> this</c>
+
+00:00:46.750 --> 00:00:46.760 align:start position:0%
+we will do it because if we do it this
+ 
+
+00:00:46.760 --> 00:00:49.430 align:start position:0%
+we will do it because if we do it this
+way<00:00:47.360><c> the</c><00:00:47.520><c> prefetch</c><00:00:48.000><c> will</c><00:00:48.160><c> arrive</c><00:00:48.920><c> just</c><00:00:49.199><c> in</c>
+
+00:00:49.430 --> 00:00:49.440 align:start position:0%
+way the prefetch will arrive just in
+ 
+
+00:00:49.440 --> 00:00:52.389 align:start position:0%
+way the prefetch will arrive just in
+time<00:00:50.000><c> for</c><00:00:50.239><c> B</c><00:00:50.719><c> to</c><00:00:50.960><c> get</c><00:00:51.120><c> its</c><00:00:51.360><c> value</c><00:00:52.000><c> now</c><00:00:52.160><c> we</c><00:00:52.280><c> need</c>
+
+00:00:52.389 --> 00:00:52.399 align:start position:0%
+time for B to get its value now we need
+ 
+
+00:00:52.399 --> 00:00:54.790 align:start position:0%
+time for B to get its value now we need
+to<00:00:52.559><c> figure</c><00:00:52.840><c> out</c><00:00:53.280><c> what</c><00:00:53.399><c> to</c><00:00:53.600><c> prefetch</c><00:00:54.199><c> here</c><00:00:54.559><c> and</c>
+
+00:00:54.790 --> 00:00:54.800 align:start position:0%
+to figure out what to prefetch here and
+ 
+
+00:00:54.800 --> 00:00:55.790 align:start position:0%
+to figure out what to prefetch here and
+whether<00:00:55.039><c> we</c><00:00:55.120><c> should</c><00:00:55.280><c> be</c><00:00:55.440><c> doing</c><00:00:55.680><c> the</c>
+
+00:00:55.790 --> 00:00:55.800 align:start position:0%
+whether we should be doing the
+ 
+
+00:00:55.800 --> 00:00:57.830 align:start position:0%
+whether we should be doing the
+prefetching<00:00:56.719><c> we</c><00:00:56.800><c> should</c><00:00:57.039><c> not</c><00:00:57.280><c> be</c><00:00:57.440><c> doing</c><00:00:57.680><c> the</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+prefetching we should not be doing the
+ 
+
+00:00:57.840 --> 00:01:00.709 align:start position:0%
+prefetching we should not be doing the
+prefetching<00:00:58.840><c> if</c><00:00:59.079><c> by</c><00:00:59.239><c> the</c><00:00:59.440><c> time</c><00:00:59.760><c> we</c><00:01:00.000><c> we</c><00:01:00.120><c> reach</c>
+
+00:01:00.709 --> 00:01:00.719 align:start position:0%
+prefetching if by the time we we reach
+ 
+
+00:01:00.719 --> 00:01:03.069 align:start position:0%
+prefetching if by the time we we reach
+the<00:01:00.960><c> axis</c><00:01:01.320><c> to</c><00:01:01.559><c> that</c><00:01:01.760><c> element</c><00:01:02.160><c> of</c><00:01:02.320><c> a</c><00:01:02.600><c> know</c><00:01:02.879><c> that</c>
+
+00:01:03.069 --> 00:01:03.079 align:start position:0%
+the axis to that element of a know that
+ 
+
+00:01:03.079 --> 00:01:06.109 align:start position:0%
+the axis to that element of a know that
+this<00:01:03.199><c> should</c><00:01:03.399><c> be</c><00:01:03.719><c> I</c><00:01:03.960><c> +</c><00:01:04.239><c> 1</c><00:01:04.559><c> or</c><00:01:04.760><c> something</c><00:01:05.119><c> larger</c>
+
+00:01:06.109 --> 00:01:06.119 align:start position:0%
+this should be I + 1 or something larger
+ 
+
+00:01:06.119 --> 00:01:08.710 align:start position:0%
+this should be I + 1 or something larger
+this<00:01:07.080><c> eliminates</c><00:01:07.759><c> that</c><00:01:08.000><c> element</c><00:01:08.360><c> from</c><00:01:08.520><c> the</c>
+
+00:01:08.710 --> 00:01:08.720 align:start position:0%
+this eliminates that element from the
+ 
+
+00:01:08.720 --> 00:01:12.789 align:start position:0%
+this eliminates that element from the
+cache<00:01:09.560><c> so</c><00:01:09.799><c> the</c><00:01:09.960><c> question</c><00:01:10.280><c> is</c><00:01:11.240><c> how</c><00:01:11.479><c> much</c><00:01:12.360><c> cache</c>
+
+00:01:12.789 --> 00:01:12.799 align:start position:0%
+cache so the question is how much cache
+ 
+
+00:01:12.799 --> 00:01:15.469 align:start position:0%
+cache so the question is how much cache
+stuff<00:01:13.320><c> does</c><00:01:13.600><c> each</c><00:01:13.840><c> iteration</c><00:01:14.759><c> of</c><00:01:14.960><c> this</c><00:01:15.119><c> outer</c>
+
+00:01:15.469 --> 00:01:15.479 align:start position:0%
+stuff does each iteration of this outer
+ 
+
+00:01:15.479 --> 00:01:18.350 align:start position:0%
+stuff does each iteration of this outer
+loop<00:01:15.720><c> bring</c><00:01:16.159><c> in</c><00:01:16.960><c> and</c><00:01:17.159><c> the</c><00:01:17.360><c> answer</c><00:01:17.680><c> is</c><00:01:18.159><c> it</c>
+
+00:01:18.350 --> 00:01:18.360 align:start position:0%
+loop bring in and the answer is it
+ 
+
+00:01:18.360 --> 00:01:22.590 align:start position:0%
+loop bring in and the answer is it
+brings<00:01:18.880><c> 1,00</c><00:01:19.880><c> 8</c><00:01:20.280><c> by</c><00:01:20.560><c> elements</c><00:01:21.159><c> here</c><00:01:22.119><c> and</c><00:01:22.400><c> an</c>
+
+00:01:22.590 --> 00:01:22.600 align:start position:0%
+brings 1,00 8 by elements here and an
+ 
+
+00:01:22.600 --> 00:01:26.550 align:start position:0%
+brings 1,00 8 by elements here and an
+element<00:01:23.079><c> of</c><00:01:23.280><c> a</c><00:01:24.159><c> so</c><00:01:24.479><c> if</c><00:01:24.640><c> we</c><00:01:24.960><c> prefetch</c><00:01:25.960><c> with</c><00:01:26.320><c> a</c>
+
+00:01:26.550 --> 00:01:26.560 align:start position:0%
+element of a so if we prefetch with a
+ 
+
+00:01:26.560 --> 00:01:29.670 align:start position:0%
+element of a so if we prefetch with a
+distance<00:01:26.960><c> of</c><00:01:27.200><c> one</c><00:01:28.040><c> what</c><00:01:28.200><c> we</c><00:01:28.439><c> get</c><00:01:28.720><c> is</c><00:01:28.960><c> that</c><00:01:29.400><c> our</c>
+
+00:01:29.670 --> 00:01:29.680 align:start position:0%
+distance of one what we get is that our
+ 
+
+00:01:29.680 --> 00:01:33.670 align:start position:0%
+distance of one what we get is that our
+pre<00:01:30.240><c> prefetch</c><00:01:31.240><c> is</c><00:01:31.439><c> done</c><00:01:31.840><c> after</c><00:01:32.399><c> 200</c><00:01:32.720><c> Cycles</c>
+
+00:01:33.670 --> 00:01:33.680 align:start position:0%
+pre prefetch is done after 200 Cycles
+ 
+
+00:01:33.680 --> 00:01:36.950 align:start position:0%
+pre prefetch is done after 200 Cycles
+there<00:01:33.799><c> are</c><00:01:34.040><c> 10,000</c><00:01:34.759><c> Cycles</c><00:01:35.320><c> here</c><00:01:35.600><c> so</c><00:01:35.799><c> it's</c><00:01:36.640><c> in</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+there are 10,000 Cycles here so it's in
+ 
+
+00:01:36.960 --> 00:01:39.190 align:start position:0%
+there are 10,000 Cycles here so it's in
+time<00:01:37.960><c> to</c><00:01:38.119><c> be</c><00:01:38.280><c> accessed</c><00:01:38.640><c> in</c><00:01:38.759><c> the</c><00:01:38.920><c> next</c>
+
+00:01:39.190 --> 00:01:39.200 align:start position:0%
+time to be accessed in the next
+ 
+
+00:01:39.200 --> 00:01:41.789 align:start position:0%
+time to be accessed in the next
+iteration<00:01:39.680><c> of</c><00:01:39.840><c> the</c><00:01:39.920><c> outer</c><00:01:40.399><c> loop</c><00:01:41.399><c> the</c><00:01:41.560><c> question</c>
+
+00:01:41.789 --> 00:01:41.799 align:start position:0%
+iteration of the outer loop the question
+ 
+
+00:01:41.799 --> 00:01:43.630 align:start position:0%
+iteration of the outer loop the question
+is<00:01:41.920><c> just</c><00:01:42.159><c> does</c><00:01:42.399><c> this</c><00:01:42.560><c> element</c><00:01:42.920><c> get</c><00:01:43.079><c> kicked</c><00:01:43.360><c> out</c>
+
+00:01:43.630 --> 00:01:43.640 align:start position:0%
+is just does this element get kicked out
+ 
+
+00:01:43.640 --> 00:01:45.550 align:start position:0%
+is just does this element get kicked out
+before<00:01:43.880><c> we</c><00:01:44.000><c> can</c><00:01:44.159><c> use</c><00:01:44.360><c> it</c><00:01:44.880><c> and</c><00:01:45.040><c> the</c><00:01:45.159><c> answer</c><00:01:45.399><c> is</c>
+
+00:01:45.550 --> 00:01:45.560 align:start position:0%
+before we can use it and the answer is
+ 
+
+00:01:45.560 --> 00:01:50.270 align:start position:0%
+before we can use it and the answer is
+no<00:01:46.360><c> because</c><00:01:46.960><c> 8</c><00:01:47.759><c> times</c><00:01:48.240><c> this</c><00:01:48.880><c> 1,000</c><00:01:49.880><c> ends</c><00:01:50.119><c> up</c>
+
+00:01:50.270 --> 00:01:50.280 align:start position:0%
+no because 8 times this 1,000 ends up
+ 
+
+00:01:50.280 --> 00:01:54.429 align:start position:0%
+no because 8 times this 1,000 ends up
+being<00:01:50.640><c> 8,000</c><00:01:51.600><c> the</c><00:01:51.799><c> cache</c><00:01:52.119><c> is</c><00:01:52.280><c> 16</c><00:01:52.880><c> kiloby</c><00:01:53.880><c> so</c>
+
+00:01:54.429 --> 00:01:54.439 align:start position:0%
+being 8,000 the cache is 16 kiloby so
+ 
+
+00:01:54.439 --> 00:01:58.029 align:start position:0%
+being 8,000 the cache is 16 kiloby so
+basically<00:01:55.439><c> if</c><00:01:55.560><c> we</c><00:01:55.759><c> prefet</c><00:01:56.399><c> here</c><00:01:57.079><c> the</c><00:01:57.320><c> element</c>
+
+00:01:58.029 --> 00:01:58.039 align:start position:0%
+basically if we prefet here the element
+ 
+
+00:01:58.039 --> 00:02:00.389 align:start position:0%
+basically if we prefet here the element
+of<00:01:58.240><c> the</c><00:01:58.360><c> AR</c><00:01:58.640><c> array</c><00:01:59.200><c> that</c><00:01:59.320><c> we</c><00:01:59.439><c> prefet</c><00:02:00.200><c> will</c>
+
+00:02:00.389 --> 00:02:00.399 align:start position:0%
+of the AR array that we prefet will
+ 
+
+00:02:00.399 --> 00:02:02.830 align:start position:0%
+of the AR array that we prefet will
+still<00:02:00.680><c> be</c><00:02:00.920><c> there</c><00:02:01.439><c> when</c><00:02:01.680><c> we</c><00:02:01.920><c> eventually</c><00:02:02.479><c> get</c><00:02:02.680><c> to</c>
+
+00:02:02.830 --> 00:02:02.840 align:start position:0%
+still be there when we eventually get to
+ 
+
+00:02:02.840 --> 00:02:04.310 align:start position:0%
+still be there when we eventually get to
+the<00:02:03.000><c> next</c><00:02:03.200><c> iteration</c><00:02:03.600><c> of</c><00:02:03.719><c> the</c><00:02:03.799><c> outer</c><00:02:04.079><c> loop</c>
+
+00:02:04.310 --> 00:02:04.320 align:start position:0%
+the next iteration of the outer loop
+ 
+
+00:02:04.320 --> 00:02:06.749 align:start position:0%
+the next iteration of the outer loop
+where<00:02:04.439><c> we</c><00:02:04.600><c> get</c><00:02:04.719><c> to</c><00:02:04.920><c> use</c><00:02:05.119><c> it</c><00:02:05.920><c> so</c><00:02:06.159><c> the</c><00:02:06.280><c> answer</c><00:02:06.600><c> is</c>
+
+00:02:06.749 --> 00:02:06.759 align:start position:0%
+where we get to use it so the answer is
+ 
+
+00:02:06.759 --> 00:02:09.830 align:start position:0%
+where we get to use it so the answer is
+we<00:02:06.880><c> should</c><00:02:07.079><c> prefetch</c><00:02:07.560><c> with</c><00:02:07.719><c> I</c><00:02:07.920><c> +</c><00:02:08.239><c> 1</c><00:02:09.239><c> and</c><00:02:09.720><c> we</c>
+
+00:02:09.830 --> 00:02:09.840 align:start position:0%
+we should prefetch with I + 1 and we
+ 
+
+00:02:09.840 --> 00:02:12.270 align:start position:0%
+we should prefetch with I + 1 and we
+should<00:02:10.039><c> not</c><00:02:10.239><c> be</c><00:02:10.399><c> selecting</c><00:02:11.000><c> this</c><00:02:11.840><c> note</c><00:02:12.120><c> that</c>
+
+00:02:12.270 --> 00:02:12.280 align:start position:0%
+should not be selecting this note that
+ 
+
+00:02:12.280 --> 00:02:14.910 align:start position:0%
+should not be selecting this note that
+we<00:02:12.400><c> should</c><00:02:12.599><c> not</c><00:02:12.760><c> be</c><00:02:12.959><c> prefetching</c><00:02:13.480><c> with</c><00:02:13.680><c> I</c><00:02:13.920><c> +</c><00:02:14.280><c> 20</c>
+
+00:02:14.910 --> 00:02:14.920 align:start position:0%
+we should not be prefetching with I + 20
+ 
+
+00:02:14.920 --> 00:02:19.270 align:start position:0%
+we should not be prefetching with I + 20
+here<00:02:15.400><c> if</c><00:02:15.519><c> we</c><00:02:15.680><c> do</c><00:02:16.120><c> that</c><00:02:16.760><c> there</c><00:02:16.879><c> are</c><00:02:17.319><c> 20</c><00:02:18.319><c> Loops</c><00:02:19.080><c> in</c>
+
+00:02:19.270 --> 00:02:19.280 align:start position:0%
+here if we do that there are 20 Loops in
+ 
+
+00:02:19.280 --> 00:02:21.550 align:start position:0%
+here if we do that there are 20 Loops in
+between<00:02:19.760><c> when</c><00:02:19.920><c> we</c><00:02:20.080><c> prefetch</c><00:02:21.040><c> and</c><00:02:21.239><c> when</c><00:02:21.400><c> we</c>
+
+00:02:21.550 --> 00:02:21.560 align:start position:0%
+between when we prefetch and when we
+ 
+
+00:02:21.560 --> 00:02:23.630 align:start position:0%
+between when we prefetch and when we
+actually<00:02:21.840><c> use</c><00:02:22.120><c> it</c><00:02:22.440><c> and</c><00:02:22.640><c> each</c><00:02:22.840><c> of</c><00:02:23.040><c> these</c><00:02:23.239><c> Loops</c>
+
+00:02:23.630 --> 00:02:23.640 align:start position:0%
+actually use it and each of these Loops
+ 
+
+00:02:23.640 --> 00:02:27.869 align:start position:0%
+actually use it and each of these Loops
+is<00:02:24.000><c> bringing</c><00:02:24.440><c> in</c><00:02:25.000><c> 8,000</c><00:02:25.840><c> bytes</c><00:02:26.319><c> worth</c><00:02:26.640><c> of</c><00:02:26.840><c> B</c><00:02:27.680><c> so</c>
+
+00:02:27.869 --> 00:02:27.879 align:start position:0%
+is bringing in 8,000 bytes worth of B so
+ 
+
+00:02:27.879 --> 00:02:30.630 align:start position:0%
+is bringing in 8,000 bytes worth of B so
+if<00:02:27.959><c> we</c><00:02:28.280><c> prefetch</c><00:02:29.280><c> that</c><00:02:29.480><c> early</c>
+
+00:02:30.630 --> 00:02:30.640 align:start position:0%
+if we prefetch that early
+ 
+
+00:02:30.640 --> 00:02:34.270 align:start position:0%
+if we prefetch that early
+then<00:02:30.840><c> 20</c><00:02:31.200><c> *</c><00:02:31.519><c> 8</c><00:02:32.160><c> is</c><00:02:32.440><c> larger</c><00:02:32.959><c> than</c><00:02:33.120><c> our</c><00:02:33.400><c> cash</c><00:02:34.120><c> and</c>
+
+00:02:34.270 --> 00:02:34.280 align:start position:0%
+then 20 * 8 is larger than our cash and
+ 
+
+00:02:34.280 --> 00:02:35.910 align:start position:0%
+then 20 * 8 is larger than our cash and
+the<00:02:34.400><c> element</c><00:02:34.760><c> we</c><00:02:34.920><c> prefetch</c><00:02:35.400><c> would</c><00:02:35.519><c> be</c><00:02:35.680><c> kicked</c>
+
+00:02:35.910 --> 00:02:35.920 align:start position:0%
+the element we prefetch would be kicked
+ 
+
+00:02:35.920 --> 00:02:37.990 align:start position:0%
+the element we prefetch would be kicked
+out<00:02:36.080><c> from</c><00:02:36.239><c> the</c><00:02:36.400><c> cash</c><00:02:36.640><c> so</c><00:02:36.840><c> that</c><00:02:37.000><c> would</c><00:02:37.160><c> be</c><00:02:37.680><c> an</c>
+
+00:02:37.990 --> 00:02:38.000 align:start position:0%
+out from the cash so that would be an
+ 
+
+00:02:38.000 --> 00:02:42.680 align:start position:0%
+out from the cash so that would be an
+example<00:02:38.440><c> of</c><00:02:38.800><c> premature</c><00:02:39.680><c> prefetching</c>
+

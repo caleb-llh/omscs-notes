@@ -1,0 +1,136 @@
+1
+00:00:00,420 --> 00:00:03,230
+ Let's see if you can connect time, energy, and
+
+2
+00:00:03,230 --> 00:00:07,050
+ power as a function of the algorithm a little bit more directly.
+
+3
+00:00:07,050 --> 00:00:10,960
+ Here's the main high level difference between time and energy.
+
+4
+00:00:10,960 --> 00:00:15,390
+ You can reduce time by hiding it or overlapping it using, for example,
+
+5
+00:00:15,390 --> 00:00:16,730
+ parallelism.
+
+6
+00:00:16,730 --> 00:00:18,360
+ Energy is different.
+
+7
+00:00:18,360 --> 00:00:22,320
+ With respect to energy, every operation has some energy cost and
+
+8
+00:00:22,320 --> 00:00:25,890
+ you have to pay for that cost for every operation.
+
+9
+00:00:25,890 --> 00:00:29,140
+ Now let's go back to our simplest model of parallelism.
+
+10
+00:00:29,140 --> 00:00:32,500
+ That was the work-span or multi-threaded DAG model.
+
+11
+00:00:32,500 --> 00:00:33,080
+ In that model,
+
+12
+00:00:33,080 --> 00:00:36,600
+ you had a bunch of abstract algorithmic costs that you thought about.
+
+13
+00:00:36,600 --> 00:00:38,090
+ Do you remember them?
+
+14
+00:00:38,090 --> 00:00:41,160
+ One was work, another was span.
+
+15
+00:00:41,160 --> 00:00:43,220
+ There was also the ratio of work to span,
+
+16
+00:00:43,220 --> 00:00:45,030
+ or the average available parallelism.
+
+17
+00:00:45,030 --> 00:00:49,310
+ There was also the execution time given P processors.
+
+18
+00:00:49,310 --> 00:00:51,500
+ For time, we had both lower bounds and
+
+19
+00:00:51,500 --> 00:00:54,290
+ upper bounds, the upper bound coming from Brent's theorem.
+
+20
+00:00:54,290 --> 00:00:56,820
+ And there was also Speedup.
+
+21
+00:00:56,820 --> 00:00:59,340
+ Note, that this definition of Speedup is a little bit relaxed
+
+22
+00:00:59,340 --> 00:01:01,483
+ in the sense that it's (Self-) Speedup.
+
+23
+00:01:01,483 --> 00:01:06,320
+ For (Self-) Speedup, I don't use the best sequential time in the numerator.
+
+24
+00:01:06,320 --> 00:01:09,460
+ Instead, I use the time of the parallel algorithm when
+
+25
+00:01:09,460 --> 00:01:11,680
+ run on a single processor.
+
+26
+00:01:11,680 --> 00:01:15,233
+ But remember, if your algorithm is work optimal, then self speed-up and
+
+27
+00:01:15,233 --> 00:01:18,460
+ conventional speed-up relative to the best sequential case
+
+28
+00:01:18,460 --> 00:01:21,260
+ are basically the same, asymptotically.
+
+29
+00:01:21,260 --> 00:01:23,250
+ Okay, my question is this.
+
+30
+00:01:23,250 --> 00:01:24,905
+ Of these five five measures,
+
+31
+00:01:24,905 --> 00:01:28,775
+ which one is the best metric to use to quantify energy?
+
+32
+00:01:28,775 --> 00:01:30,945
+ Now, think about these informal definitions and
+
+33
+00:01:30,945 --> 00:01:33,685
+ your options carefully before you answer.
+
+34
+00:01:33,685 --> 00:01:33,685
+ And I want you to choose just one option.
+

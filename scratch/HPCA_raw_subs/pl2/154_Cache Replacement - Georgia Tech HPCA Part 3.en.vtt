@@ -1,0 +1,352 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.310 align:start position:0%
+ 
+now<00:00:00.359><c> that</c><00:00:00.520><c> we</c><00:00:00.640><c> know</c><00:00:00.880><c> how</c><00:00:01.079><c> caches</c><00:00:01.520><c> find</c><00:00:01.959><c> data</c>
+
+00:00:02.310 --> 00:00:02.320 align:start position:0%
+now that we know how caches find data
+ 
+
+00:00:02.320 --> 00:00:04.910 align:start position:0%
+now that we know how caches find data
+when<00:00:02.480><c> we</c><00:00:02.560><c> are</c><00:00:02.720><c> looking</c><00:00:03.000><c> for</c><00:00:03.359><c> it</c><00:00:04.359><c> let's</c><00:00:04.640><c> talk</c>
+
+00:00:04.910 --> 00:00:04.920 align:start position:0%
+when we are looking for it let's talk
+ 
+
+00:00:04.920 --> 00:00:07.590 align:start position:0%
+when we are looking for it let's talk
+about<00:00:05.440><c> what</c><00:00:06.040><c> happens</c><00:00:07.040><c> when</c><00:00:07.200><c> we</c><00:00:07.319><c> need</c><00:00:07.480><c> to</c>
+
+00:00:07.590 --> 00:00:07.600 align:start position:0%
+about what happens when we need to
+ 
+
+00:00:07.600 --> 00:00:09.390 align:start position:0%
+about what happens when we need to
+replace<00:00:08.080><c> something</c><00:00:08.400><c> from</c><00:00:08.559><c> the</c><00:00:08.760><c> cache</c><00:00:09.040><c> to</c><00:00:09.200><c> make</c>
+
+00:00:09.390 --> 00:00:09.400 align:start position:0%
+replace something from the cache to make
+ 
+
+00:00:09.400 --> 00:00:12.230 align:start position:0%
+replace something from the cache to make
+room<00:00:09.599><c> for</c><00:00:09.840><c> new</c><00:00:10.120><c> data</c><00:00:10.599><c> because</c><00:00:10.840><c> we</c><00:00:10.960><c> have</c><00:00:11.080><c> a</c><00:00:11.240><c> miss</c>
+
+00:00:12.230 --> 00:00:12.240 align:start position:0%
+room for new data because we have a miss
+ 
+
+00:00:12.240 --> 00:00:13.709 align:start position:0%
+room for new data because we have a miss
+so<00:00:12.480><c> the</c><00:00:12.679><c> situation</c><00:00:13.240><c> when</c><00:00:13.360><c> we</c><00:00:13.480><c> need</c>
+
+00:00:13.709 --> 00:00:13.719 align:start position:0%
+so the situation when we need
+ 
+
+00:00:13.719 --> 00:00:16.750 align:start position:0%
+so the situation when we need
+replacement<00:00:14.599><c> is</c><00:00:15.480><c> the</c><00:00:15.679><c> set</c><00:00:16.119><c> where</c><00:00:16.320><c> the</c><00:00:16.520><c> data</c>
+
+00:00:16.750 --> 00:00:16.760 align:start position:0%
+replacement is the set where the data
+ 
+
+00:00:16.760 --> 00:00:19.349 align:start position:0%
+replacement is the set where the data
+needs<00:00:16.960><c> to</c><00:00:17.160><c> go</c><00:00:17.480><c> is</c><00:00:17.640><c> full</c><00:00:18.320><c> we</c><00:00:18.480><c> have</c><00:00:18.600><c> a</c><00:00:18.720><c> miss</c><00:00:19.039><c> so</c><00:00:19.199><c> we</c>
+
+00:00:19.349 --> 00:00:19.359 align:start position:0%
+needs to go is full we have a miss so we
+ 
+
+00:00:19.359 --> 00:00:21.630 align:start position:0%
+needs to go is full we have a miss so we
+need<00:00:19.920><c> somewhere</c><00:00:20.359><c> to</c><00:00:20.560><c> put</c><00:00:20.800><c> the</c><00:00:20.960><c> new</c><00:00:21.160><c> block</c><00:00:21.519><c> that</c>
+
+00:00:21.630 --> 00:00:21.640 align:start position:0%
+need somewhere to put the new block that
+ 
+
+00:00:21.640 --> 00:00:23.990 align:start position:0%
+need somewhere to put the new block that
+we're<00:00:21.840><c> bringing</c><00:00:22.279><c> in</c><00:00:23.080><c> and</c><00:00:23.240><c> we</c><00:00:23.359><c> need</c><00:00:23.480><c> to</c><00:00:23.640><c> put</c><00:00:23.800><c> it</c>
+
+00:00:23.990 --> 00:00:24.000 align:start position:0%
+we're bringing in and we need to put it
+ 
+
+00:00:24.000 --> 00:00:26.710 align:start position:0%
+we're bringing in and we need to put it
+in<00:00:24.160><c> that</c><00:00:24.400><c> set</c><00:00:25.199><c> and</c><00:00:25.400><c> the</c><00:00:25.640><c> question</c><00:00:26.039><c> for</c><00:00:26.359><c> cach</c>
+
+00:00:26.710 --> 00:00:26.720 align:start position:0%
+in that set and the question for cach
+ 
+
+00:00:26.720 --> 00:00:29.070 align:start position:0%
+in that set and the question for cach
+replacement<00:00:27.720><c> is</c><00:00:28.039><c> which</c><00:00:28.279><c> of</c><00:00:28.439><c> the</c><00:00:28.599><c> blocks</c><00:00:28.920><c> in</c>
+
+00:00:29.070 --> 00:00:29.080 align:start position:0%
+replacement is which of the blocks in
+ 
+
+00:00:29.080 --> 00:00:32.109 align:start position:0%
+replacement is which of the blocks in
+the<00:00:29.240><c> set</c><00:00:29.640><c> do</c><00:00:29.800><c> we</c><00:00:30.119><c> kick</c><00:00:30.320><c> out</c><00:00:31.199><c> to</c><00:00:31.400><c> make</c><00:00:31.640><c> room</c><00:00:31.920><c> for</c>
+
+00:00:32.109 --> 00:00:32.119 align:start position:0%
+the set do we kick out to make room for
+ 
+
+00:00:32.119 --> 00:00:34.910 align:start position:0%
+the set do we kick out to make room for
+the<00:00:32.279><c> new</c><00:00:32.480><c> one</c><00:00:33.280><c> possible</c><00:00:33.960><c> replacement</c>
+
+00:00:34.910 --> 00:00:34.920 align:start position:0%
+the new one possible replacement
+ 
+
+00:00:34.920 --> 00:00:38.310 align:start position:0%
+the new one possible replacement
+policies<00:00:35.520><c> are</c><00:00:36.200><c> random</c><00:00:37.200><c> just</c><00:00:37.480><c> pick</c><00:00:37.840><c> a</c><00:00:38.040><c> block</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+policies are random just pick a block
+ 
+
+00:00:38.320 --> 00:00:39.869 align:start position:0%
+policies are random just pick a block
+randomly<00:00:38.760><c> from</c><00:00:39.040><c> those</c><00:00:39.200><c> that</c><00:00:39.320><c> are</c><00:00:39.480><c> already</c><00:00:39.760><c> in</c>
+
+00:00:39.869 --> 00:00:39.879 align:start position:0%
+randomly from those that are already in
+ 
+
+00:00:39.879 --> 00:00:43.950 align:start position:0%
+randomly from those that are already in
+the<00:00:40.079><c> set</c><00:00:41.239><c> fifo</c><00:00:42.239><c> which</c><00:00:42.440><c> kicks</c><00:00:42.719><c> out</c><00:00:43.039><c> the</c><00:00:43.160><c> block</c>
+
+00:00:43.950 --> 00:00:43.960 align:start position:0%
+the set fifo which kicks out the block
+ 
+
+00:00:43.960 --> 00:00:46.229 align:start position:0%
+the set fifo which kicks out the block
+that<00:00:44.200><c> has</c><00:00:44.320><c> been</c><00:00:44.559><c> there</c><00:00:44.800><c> the</c><00:00:44.960><c> longest</c><00:00:45.800><c> so</c><00:00:46.039><c> in</c>
+
+00:00:46.229 --> 00:00:46.239 align:start position:0%
+that has been there the longest so in
+ 
+
+00:00:46.239 --> 00:00:50.069 align:start position:0%
+that has been there the longest so in
+fifo<00:00:47.039><c> let's</c><00:00:47.239><c> say</c><00:00:47.440><c> we</c><00:00:47.640><c> have</c><00:00:48.360><c> two</c><00:00:48.920><c> blocks</c><00:00:49.920><c> we</c>
+
+00:00:50.069 --> 00:00:50.079 align:start position:0%
+fifo let's say we have two blocks we
+ 
+
+00:00:50.079 --> 00:00:53.630 align:start position:0%
+fifo let's say we have two blocks we
+bring<00:00:50.360><c> in</c><00:00:50.640><c> a</c><00:00:51.399><c> then</c><00:00:51.559><c> we</c><00:00:51.719><c> bring</c><00:00:52.280><c> B</c><00:00:53.280><c> when</c><00:00:53.399><c> we</c><00:00:53.520><c> want</c>
+
+00:00:53.630 --> 00:00:53.640 align:start position:0%
+bring in a then we bring B when we want
+ 
+
+00:00:53.640 --> 00:00:56.310 align:start position:0%
+bring in a then we bring B when we want
+to<00:00:53.800><c> bring</c><00:00:54.039><c> in</c><00:00:54.239><c> C</c><00:00:54.800><c> we're</c><00:00:55.000><c> going</c><00:00:55.120><c> to</c><00:00:55.320><c> kick</c><00:00:55.520><c> out</c><00:00:55.760><c> a</c>
+
+00:00:56.310 --> 00:00:56.320 align:start position:0%
+to bring in C we're going to kick out a
+ 
+
+00:00:56.320 --> 00:00:58.229 align:start position:0%
+to bring in C we're going to kick out a
+because<00:00:56.640><c> it's</c><00:00:56.800><c> been</c><00:00:57.039><c> there</c><00:00:57.239><c> the</c><00:00:57.399><c> longest</c><00:00:58.079><c> then</c>
+
+00:00:58.229 --> 00:00:58.239 align:start position:0%
+because it's been there the longest then
+ 
+
+00:00:58.239 --> 00:01:00.549 align:start position:0%
+because it's been there the longest then
+we're<00:00:58.399><c> going</c><00:00:58.519><c> to</c><00:00:58.719><c> kick</c><00:00:58.879><c> out</c><00:00:59.120><c> B</c><00:00:59.399><c> to</c><00:00:59.559><c> bring</c>
+
+00:01:00.549 --> 00:01:00.559 align:start position:0%
+we're going to kick out B to bring
+ 
+
+00:01:00.559 --> 00:01:04.429 align:start position:0%
+we're going to kick out B to bring
+and<00:01:00.760><c> so</c><00:01:00.960><c> on</c><00:01:01.960><c> the</c><00:01:02.160><c> next</c><00:01:02.480><c> policy</c><00:01:03.199><c> is</c><00:01:03.440><c> lru</c><00:01:04.119><c> or</c>
+
+00:01:04.429 --> 00:01:04.439 align:start position:0%
+and so on the next policy is lru or
+ 
+
+00:01:04.439 --> 00:01:07.190 align:start position:0%
+and so on the next policy is lru or
+least<00:01:04.839><c> recently</c><00:01:05.400><c> used</c><00:01:06.280><c> we</c><00:01:06.439><c> want</c><00:01:06.640><c> to</c><00:01:06.840><c> kick</c><00:01:07.000><c> out</c>
+
+00:01:07.190 --> 00:01:07.200 align:start position:0%
+least recently used we want to kick out
+ 
+
+00:01:07.200 --> 00:01:09.390 align:start position:0%
+least recently used we want to kick out
+the<00:01:07.360><c> block</c><00:01:08.119><c> that</c><00:01:08.320><c> has</c><00:01:08.479><c> not</c><00:01:08.720><c> been</c><00:01:08.920><c> used</c><00:01:09.240><c> the</c>
+
+00:01:09.390 --> 00:01:09.400 align:start position:0%
+the block that has not been used the
+ 
+
+00:01:09.400 --> 00:01:11.350 align:start position:0%
+the block that has not been used the
+longest<00:01:09.960><c> so</c><00:01:10.119><c> we</c><00:01:10.320><c> definitely</c><00:01:10.840><c> don't</c><00:01:11.040><c> want</c><00:01:11.159><c> to</c>
+
+00:01:11.350 --> 00:01:11.360 align:start position:0%
+longest so we definitely don't want to
+ 
+
+00:01:11.360 --> 00:01:13.030 align:start position:0%
+longest so we definitely don't want to
+kick<00:01:11.560><c> out</c><00:01:11.720><c> the</c><00:01:11.840><c> block</c><00:01:12.200><c> that</c><00:01:12.320><c> is</c><00:01:12.520><c> the</c><00:01:12.720><c> most</c>
+
+00:01:13.030 --> 00:01:13.040 align:start position:0%
+kick out the block that is the most
+ 
+
+00:01:13.040 --> 00:01:15.429 align:start position:0%
+kick out the block that is the most
+recently<00:01:13.560><c> used</c><00:01:14.520><c> and</c><00:01:14.640><c> then</c><00:01:14.799><c> the</c><00:01:14.960><c> next</c><00:01:15.240><c> most</c>
+
+00:01:15.429 --> 00:01:15.439 align:start position:0%
+recently used and then the next most
+ 
+
+00:01:15.439 --> 00:01:17.270 align:start position:0%
+recently used and then the next most
+recently<00:01:15.840><c> used</c><00:01:16.080><c> and</c><00:01:16.240><c> so</c><00:01:16.400><c> on</c><00:01:16.680><c> so</c><00:01:16.880><c> pretty</c><00:01:17.119><c> much</c>
+
+00:01:17.270 --> 00:01:17.280 align:start position:0%
+recently used and so on so pretty much
+ 
+
+00:01:17.280 --> 00:01:19.789 align:start position:0%
+recently used and so on so pretty much
+we<00:01:17.439><c> track</c><00:01:17.880><c> which</c><00:01:18.080><c> block</c><00:01:18.479><c> has</c><00:01:18.640><c> been</c><00:01:18.840><c> used</c><00:01:19.520><c> more</c>
+
+00:01:19.789 --> 00:01:19.799 align:start position:0%
+we track which block has been used more
+ 
+
+00:01:19.799 --> 00:01:21.910 align:start position:0%
+we track which block has been used more
+recently<00:01:20.799><c> and</c><00:01:20.960><c> when</c><00:01:21.079><c> we</c><00:01:21.200><c> need</c><00:01:21.360><c> to</c><00:01:21.479><c> replace</c>
+
+00:01:21.910 --> 00:01:21.920 align:start position:0%
+recently and when we need to replace
+ 
+
+00:01:21.920 --> 00:01:23.550 align:start position:0%
+recently and when we need to replace
+something<00:01:22.360><c> we</c><00:01:22.560><c> choose</c><00:01:22.799><c> the</c><00:01:22.960><c> block</c><00:01:23.280><c> that</c><00:01:23.400><c> we</c>
+
+00:01:23.550 --> 00:01:23.560 align:start position:0%
+something we choose the block that we
+ 
+
+00:01:23.560 --> 00:01:25.670 align:start position:0%
+something we choose the block that we
+haven't<00:01:23.960><c> used</c><00:01:24.240><c> for</c><00:01:24.439><c> the</c><00:01:24.560><c> longest</c><00:01:25.000><c> time</c><00:01:25.560><c> it</c>
+
+00:01:25.670 --> 00:01:25.680 align:start position:0%
+haven't used for the longest time it
+ 
+
+00:01:25.680 --> 00:01:27.789 align:start position:0%
+haven't used for the longest time it
+turns<00:01:25.960><c> out</c><00:01:26.200><c> that</c><00:01:26.360><c> lru</c><00:01:26.880><c> is</c><00:01:27.000><c> a</c><00:01:27.200><c> really</c><00:01:27.479><c> good</c>
+
+00:01:27.789 --> 00:01:27.799 align:start position:0%
+turns out that lru is a really good
+ 
+
+00:01:27.799 --> 00:01:30.350 align:start position:0%
+turns out that lru is a really good
+policy<00:01:28.520><c> so</c><00:01:28.680><c> there</c><00:01:28.799><c> are</c><00:01:29.040><c> several</c><00:01:29.479><c> policies</c>
+
+00:01:30.350 --> 00:01:30.360 align:start position:0%
+policy so there are several policies
+ 
+
+00:01:30.360 --> 00:01:31.990 align:start position:0%
+policy so there are several policies
+that<00:01:30.479><c> are</c><00:01:30.640><c> trying</c><00:01:30.920><c> to</c><00:01:31.119><c> approximate</c><00:01:31.720><c> it</c>
+
+00:01:31.990 --> 00:01:32.000 align:start position:0%
+that are trying to approximate it
+ 
+
+00:01:32.000 --> 00:01:34.590 align:start position:0%
+that are trying to approximate it
+because<00:01:32.280><c> this</c><00:01:32.399><c> is</c><00:01:32.560><c> not</c><00:01:32.799><c> easy</c><00:01:33.079><c> to</c><00:01:33.280><c> do</c><00:01:34.040><c> one</c><00:01:34.280><c> such</c>
+
+00:01:34.590 --> 00:01:34.600 align:start position:0%
+because this is not easy to do one such
+ 
+
+00:01:34.600 --> 00:01:38.310 align:start position:0%
+because this is not easy to do one such
+policy<00:01:35.040><c> for</c><00:01:35.240><c> example</c><00:01:36.000><c> is</c><00:01:36.240><c> NMU</c><00:01:37.200><c> or</c><00:01:37.520><c> not</c><00:01:38.000><c> most</c>
+
+00:01:38.310 --> 00:01:38.320 align:start position:0%
+policy for example is NMU or not most
+ 
+
+00:01:38.320 --> 00:01:41.069 align:start position:0%
+policy for example is NMU or not most
+recently<00:01:38.880><c> used</c><00:01:39.880><c> which</c><00:01:40.079><c> tracks</c><00:01:40.560><c> just</c><00:01:40.840><c> which</c>
+
+00:01:41.069 --> 00:01:41.079 align:start position:0%
+recently used which tracks just which
+ 
+
+00:01:41.079 --> 00:01:43.749 align:start position:0%
+recently used which tracks just which
+block<00:01:41.439><c> has</c><00:01:41.600><c> been</c><00:01:41.799><c> used</c><00:01:42.200><c> the</c><00:01:42.360><c> most</c><00:01:42.759><c> recently</c>
+
+00:01:43.749 --> 00:01:43.759 align:start position:0%
+block has been used the most recently
+ 
+
+00:01:43.759 --> 00:01:46.190 align:start position:0%
+block has been used the most recently
+and<00:01:43.880><c> then</c><00:01:44.079><c> picks</c><00:01:44.479><c> randomly</c><00:01:45.439><c> among</c><00:01:45.759><c> the</c>
+
+00:01:46.190 --> 00:01:46.200 align:start position:0%
+and then picks randomly among the
+ 
+
+00:01:46.200 --> 00:01:47.910 align:start position:0%
+and then picks randomly among the
+remaining<00:01:46.520><c> blocks</c><00:01:47.000><c> so</c><00:01:47.240><c> pretty</c><00:01:47.399><c> much</c><00:01:47.640><c> don't</c>
+
+00:01:47.910 --> 00:01:47.920 align:start position:0%
+remaining blocks so pretty much don't
+ 
+
+00:01:47.920 --> 00:01:52.439 align:start position:0%
+remaining blocks so pretty much don't
+pick<00:01:48.159><c> the</c><00:01:48.320><c> block</c><00:01:48.840><c> that</c><00:01:49.040><c> was</c><00:01:49.280><c> just</c><00:01:49.520><c> used</c>
+

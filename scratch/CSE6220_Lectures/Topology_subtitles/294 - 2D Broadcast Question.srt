@@ -1,0 +1,52 @@
+1
+00:00:00,480 --> 00:00:03,924
+ Suppose you want to do a broadcast on a 2-D network.
+
+2
+00:00:03,924 --> 00:00:06,000
+ Here are two schemes.
+
+3
+00:00:06,000 --> 00:00:09,720
+ In the first scheme, you run a tree-based algorithm broadcast in each
+
+4
+00:00:09,720 --> 00:00:14,070
+ row followed by a tree-based broadcast algorithm in each column.
+
+5
+00:00:14,070 --> 00:00:16,004
+ The second scheme has four steps.
+
+6
+00:00:16,004 --> 00:00:19,461
+ Scatter in the rows, followed by a scatter in the columns,
+
+7
+00:00:19,461 --> 00:00:22,226
+ followed by a bucket all gather in the columns,
+
+8
+00:00:22,226 --> 00:00:24,810
+ followed by a bucket all gather in the rows.
+
+9
+00:00:24,810 --> 00:00:28,995
+ Stop for a minute and convince yourself that these two schemes are plausible.
+
+10
+00:00:28,995 --> 00:00:31,851
+ Then once you've done that, I want you to answer this question.
+
+11
+00:00:31,851 --> 00:00:36,325
+ Which scheme has the lowest alpha term if you estimate the cost?
+
+12
+00:00:36,325 --> 00:00:38,295
+ Is it Scheme 1 or Scheme 2?
+
+13
+00:00:38,295 --> 00:00:38,295
+ Choose your answer here.
+

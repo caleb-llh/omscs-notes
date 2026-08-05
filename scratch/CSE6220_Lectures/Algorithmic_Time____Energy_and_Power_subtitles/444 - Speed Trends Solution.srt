@@ -1,0 +1,76 @@
+1
+00:00:00,089 --> 00:00:01,726
+ Here's the number I came up with.
+
+2
+00:00:01,726 --> 00:00:06,550
+ 3200 gigaops, or 3.2 trillion operations per second.
+
+3
+00:00:06,550 --> 00:00:07,919
+ Let's see how I got there.
+
+4
+00:00:07,919 --> 00:00:10,951
+ In 10 years there will be 5 doublings.
+
+5
+00:00:10,951 --> 00:00:16,370
+ 5 doublings is a 2 to the 5th, or 32x increase in performance.
+
+6
+00:00:16,370 --> 00:00:21,176
+ So a 2025 processor, relative to a 2015 processor will
+
+7
+00:00:21,176 --> 00:00:25,170
+ run at 32x100 or 3,200 gigaops.
+
+8
+00:00:25,170 --> 00:00:27,370
+ Wow, that is fast.
+
+9
+00:00:27,370 --> 00:00:29,080
+ I mean really fast.
+
+10
+00:00:29,080 --> 00:00:30,080
+ As a point of reference,
+
+11
+00:00:30,080 --> 00:00:33,960
+ suppose I gave you three trillion pennies, head to tail.
+
+12
+00:00:33,960 --> 00:00:37,127
+ Those would go around the Earth about 30 times.
+
+13
+00:00:37,127 --> 00:00:39,360
+ That's a [BLEEP] ton of pennies.
+
+14
+00:00:39,360 --> 00:00:43,060
+ In fact, you might already know or have experience with specialized processors
+
+15
+00:00:43,060 --> 00:00:47,400
+ that, even in 2015, are capable of trillions of operations per second.
+
+16
+00:00:47,400 --> 00:00:50,100
+ The point of this exercise is to give you an intuitive feel for
+
+17
+00:00:50,100 --> 00:00:54,100
+ peak performance and the rate of growth that exponential trends bring.
+
+18
+00:00:54,100 --> 00:00:55,320
+ When you think about it, the numbers and
+
+19
+00:00:55,320 --> 00:00:55,320
+ scale we're talking about should really blow your mind.
+

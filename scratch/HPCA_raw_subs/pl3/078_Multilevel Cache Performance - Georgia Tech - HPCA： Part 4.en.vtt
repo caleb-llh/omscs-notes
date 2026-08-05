@@ -1,0 +1,824 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.510 align:start position:0%
+ 
+let's<00:00:00.450><c> look</c><00:00:00.630><c> at</c><00:00:00.900><c> a</c><00:00:00.930><c> single</c><00:00:01.350><c> cache</c><00:00:01.709><c> that</c><00:00:02.010><c> is</c><00:00:02.070><c> 16</c>
+
+00:00:02.510 --> 00:00:02.520 align:start position:0%
+let's look at a single cache that is 16
+ 
+
+00:00:02.520 --> 00:00:03.730 align:start position:0%
+let's look at a single cache that is 16
+kilobytes<00:00:02.700><c> in</c><00:00:03.120><c> size</c>
+
+00:00:03.730 --> 00:00:03.740 align:start position:0%
+kilobytes in size
+ 
+
+00:00:03.740 --> 00:00:07.099 align:start position:0%
+kilobytes in size
+let's<00:00:04.740><c> look</c><00:00:05.040><c> also</c><00:00:05.430><c> at</c><00:00:05.850><c> a</c><00:00:06.029><c> single</c><00:00:06.569><c> cache</c><00:00:06.810><c> that</c>
+
+00:00:07.099 --> 00:00:07.109 align:start position:0%
+let's look also at a single cache that
+ 
+
+00:00:07.109 --> 00:00:08.930 align:start position:0%
+let's look also at a single cache that
+is<00:00:07.170><c> a</c><00:00:07.290><c> hundred</c><00:00:07.799><c> twenty</c><00:00:08.160><c> eight</c><00:00:08.189><c> kilobytes</c><00:00:08.580><c> in</c>
+
+00:00:08.930 --> 00:00:08.940 align:start position:0%
+is a hundred twenty eight kilobytes in
+ 
+
+00:00:08.940 --> 00:00:13.160 align:start position:0%
+is a hundred twenty eight kilobytes in
+size<00:00:09.530><c> let's</c><00:00:10.530><c> look</c><00:00:10.740><c> at</c><00:00:11.040><c> no</c><00:00:11.429><c> cache</c><00:00:11.700><c> simply</c><00:00:12.269><c> we</c>
+
+00:00:13.160 --> 00:00:13.170 align:start position:0%
+size let's look at no cache simply we
+ 
+
+00:00:13.170 --> 00:00:15.020 align:start position:0%
+size let's look at no cache simply we
+will<00:00:13.290><c> just</c><00:00:13.620><c> access</c><00:00:13.980><c> the</c><00:00:14.099><c> main</c><00:00:14.309><c> memory</c><00:00:14.519><c> and</c>
+
+00:00:15.020 --> 00:00:15.030 align:start position:0%
+will just access the main memory and
+ 
+
+00:00:15.030 --> 00:00:18.380 align:start position:0%
+will just access the main memory and
+let's<00:00:15.750><c> look</c><00:00:15.960><c> at</c><00:00:16.139><c> a</c><00:00:16.199><c> hierarchy</c><00:00:16.949><c> that</c><00:00:17.130><c> has</c><00:00:17.789><c> this</c>
+
+00:00:18.380 --> 00:00:18.390 align:start position:0%
+let's look at a hierarchy that has this
+ 
+
+00:00:18.390 --> 00:00:20.150 align:start position:0%
+let's look at a hierarchy that has this
+kind<00:00:18.449><c> of</c><00:00:18.810><c> cache</c><00:00:19.050><c> is</c><00:00:19.230><c> the</c><00:00:19.380><c> first</c><00:00:19.619><c> level</c><00:00:19.830><c> cache</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+kind of cache is the first level cache
+ 
+
+00:00:20.160 --> 00:00:22.010 align:start position:0%
+kind of cache is the first level cache
+and<00:00:20.430><c> this</c><00:00:20.670><c> kind</c><00:00:20.939><c> of</c><00:00:21.029><c> cache</c><00:00:21.240><c> is</c><00:00:21.480><c> the</c><00:00:21.630><c> second</c>
+
+00:00:22.010 --> 00:00:22.020 align:start position:0%
+and this kind of cache is the second
+ 
+
+00:00:22.020 --> 00:00:25.370 align:start position:0%
+and this kind of cache is the second
+level<00:00:22.140><c> cache</c><00:00:22.289><c> we</c><00:00:23.220><c> will</c><00:00:23.369><c> look</c><00:00:23.789><c> at</c><00:00:24.000><c> the</c><00:00:24.390><c> hit</c><00:00:25.050><c> time</c>
+
+00:00:25.370 --> 00:00:25.380 align:start position:0%
+level cache we will look at the hit time
+ 
+
+00:00:25.380 --> 00:00:28.130 align:start position:0%
+level cache we will look at the hit time
+for<00:00:25.769><c> this</c><00:00:25.890><c> the</c><00:00:26.789><c> hit</c><00:00:27.060><c> rate</c><00:00:27.359><c> for</c><00:00:27.660><c> all</c><00:00:27.689><c> of</c><00:00:27.930><c> these</c>
+
+00:00:28.130 --> 00:00:28.140 align:start position:0%
+for this the hit rate for all of these
+ 
+
+00:00:28.140 --> 00:00:32.060 align:start position:0%
+for this the hit rate for all of these
+and<00:00:28.439><c> the</c><00:00:29.220><c> overall</c><00:00:29.460><c> aim</c><00:00:29.760><c> at</c><00:00:30.029><c> so</c><00:00:30.869><c> 16</c><00:00:31.470><c> kilobyte</c>
+
+00:00:32.060 --> 00:00:32.070 align:start position:0%
+and the overall aim at so 16 kilobyte
+ 
+
+00:00:32.070 --> 00:00:34.400 align:start position:0%
+and the overall aim at so 16 kilobyte
+cache<00:00:32.099><c> might</c><00:00:32.700><c> have</c><00:00:32.969><c> a</c><00:00:33.000><c> hit</c><00:00:33.270><c> time</c><00:00:33.540><c> of</c><00:00:33.809><c> two</c>
+
+00:00:34.400 --> 00:00:34.410 align:start position:0%
+cache might have a hit time of two
+ 
+
+00:00:34.410 --> 00:00:39.950 align:start position:0%
+cache might have a hit time of two
+cycles<00:00:34.920><c> a</c><00:00:35.540><c> hit</c><00:00:36.540><c> rate</c><00:00:36.809><c> of</c><00:00:37.110><c> 90%</c><00:00:38.420><c> so</c><00:00:39.420><c> it</c><00:00:39.510><c> gives</c><00:00:39.750><c> us</c>
+
+00:00:39.950 --> 00:00:39.960 align:start position:0%
+cycles a hit rate of 90% so it gives us
+ 
+
+00:00:39.960 --> 00:00:44.690 align:start position:0%
+cycles a hit rate of 90% so it gives us
+an<00:00:40.230><c> overall</c><00:00:41.100><c> a</c><00:00:41.430><c> mat</c><00:00:41.670><c> of</c><00:00:41.940><c> two</c><00:00:42.690><c> plus</c><00:00:43.290><c> 10%</c><00:00:44.040><c> of</c><00:00:44.579><c> the</c>
+
+00:00:44.690 --> 00:00:44.700 align:start position:0%
+an overall a mat of two plus 10% of the
+ 
+
+00:00:44.700 --> 00:00:48.020 align:start position:0%
+an overall a mat of two plus 10% of the
+time<00:00:44.969><c> we</c><00:00:45.719><c> have</c><00:00:45.960><c> the</c><00:00:46.620><c> memory</c><00:00:46.950><c> latency</c><00:00:47.219><c> let's</c>
+
+00:00:48.020 --> 00:00:48.030 align:start position:0%
+time we have the memory latency let's
+ 
+
+00:00:48.030 --> 00:00:49.940 align:start position:0%
+time we have the memory latency let's
+say<00:00:48.210><c> the</c><00:00:48.360><c> memory</c><00:00:48.510><c> latency</c><00:00:48.870><c> is</c><00:00:49.440><c> a</c><00:00:49.469><c> hundred</c>
+
+00:00:49.940 --> 00:00:49.950 align:start position:0%
+say the memory latency is a hundred
+ 
+
+00:00:49.950 --> 00:00:53.150 align:start position:0%
+say the memory latency is a hundred
+cycles<00:00:50.399><c> in</c><00:00:51.000><c> that</c><00:00:51.300><c> case</c><00:00:51.570><c> we</c><00:00:52.170><c> end</c><00:00:52.410><c> up</c><00:00:52.680><c> with</c><00:00:52.949><c> an</c>
+
+00:00:53.150 --> 00:00:53.160 align:start position:0%
+cycles in that case we end up with an
+ 
+
+00:00:53.160 --> 00:00:56.689 align:start position:0%
+cycles in that case we end up with an
+overall<00:00:53.370><c> amount</c><00:00:53.940><c> of</c><00:00:54.120><c> 12</c><00:00:54.480><c> to</c><00:00:55.469><c> from</c><00:00:56.399><c> the</c><00:00:56.520><c> hit</c>
+
+00:00:56.689 --> 00:00:56.699 align:start position:0%
+overall amount of 12 to from the hit
+ 
+
+00:00:56.699 --> 00:01:00.080 align:start position:0%
+overall amount of 12 to from the hit
+time<00:00:56.940><c> and</c><00:00:57.329><c> 10</c><00:00:57.989><c> on</c><00:00:58.559><c> average</c><00:00:59.430><c> from</c><00:00:59.730><c> the</c><00:00:59.910><c> Miss</c>
+
+00:01:00.080 --> 00:01:00.090 align:start position:0%
+time and 10 on average from the Miss
+ 
+
+00:01:00.090 --> 00:01:02.779 align:start position:0%
+time and 10 on average from the Miss
+penalties<00:01:00.660><c> now</c><00:01:01.620><c> let's</c><00:01:01.920><c> look</c><00:01:02.070><c> at</c><00:01:02.219><c> a</c><00:01:02.280><c> larger</c>
+
+00:01:02.779 --> 00:01:02.789 align:start position:0%
+penalties now let's look at a larger
+ 
+
+00:01:02.789 --> 00:01:05.929 align:start position:0%
+penalties now let's look at a larger
+cache<00:01:03.059><c> this</c><00:01:03.719><c> cache</c><00:01:04.080><c> might</c><00:01:04.739><c> have</c><00:01:05.040><c> a</c><00:01:05.339><c> hit</c><00:01:05.670><c> time</c>
+
+00:01:05.929 --> 00:01:05.939 align:start position:0%
+cache this cache might have a hit time
+ 
+
+00:01:05.939 --> 00:01:09.910 align:start position:0%
+cache this cache might have a hit time
+of<00:01:06.240><c> 10</c><00:01:06.720><c> cycles</c><00:01:07.020><c> but</c><00:01:07.799><c> a</c><00:01:07.860><c> hit</c><00:01:08.189><c> rate</c><00:01:08.430><c> of</c><00:01:08.850><c> maybe</c>
+
+00:01:09.910 --> 00:01:09.920 align:start position:0%
+of 10 cycles but a hit rate of maybe
+ 
+
+00:01:09.920 --> 00:01:11.539 align:start position:0%
+of 10 cycles but a hit rate of maybe
+97.5%
+
+00:01:11.539 --> 00:01:11.549 align:start position:0%
+97.5%
+ 
+
+00:01:11.549 --> 00:01:14.149 align:start position:0%
+97.5%
+this<00:01:12.510><c> is</c><00:01:12.659><c> a</c><00:01:12.689><c> bit</c><00:01:12.930><c> high</c><00:01:13.110><c> for</c><00:01:13.140><c> such</c><00:01:13.619><c> a</c><00:01:13.650><c> cache</c><00:01:13.920><c> but</c>
+
+00:01:14.149 --> 00:01:14.159 align:start position:0%
+this is a bit high for such a cache but
+ 
+
+00:01:14.159 --> 00:01:16.910 align:start position:0%
+this is a bit high for such a cache but
+let's<00:01:14.400><c> say</c><00:01:14.549><c> it</c><00:01:14.640><c> is</c><00:01:14.810><c> the</c><00:01:15.810><c> a</c><00:01:15.840><c> mat</c><00:01:16.320><c> when</c><00:01:16.619><c> this</c><00:01:16.770><c> is</c>
+
+00:01:16.910 --> 00:01:16.920 align:start position:0%
+let's say it is the a mat when this is
+ 
+
+00:01:16.920 --> 00:01:20.810 align:start position:0%
+let's say it is the a mat when this is
+used<00:01:17.130><c> alone</c><00:01:17.490><c> would</c><00:01:18.390><c> be</c><00:01:18.570><c> 10</c><00:01:18.869><c> plus</c><00:01:19.530><c> the</c><00:01:20.070><c> miss</c>
+
+00:01:20.810 --> 00:01:20.820 align:start position:0%
+used alone would be 10 plus the miss
+ 
+
+00:01:20.820 --> 00:01:24.109 align:start position:0%
+used alone would be 10 plus the miss
+rate<00:01:21.119><c> times</c><00:01:21.869><c> the</c><00:01:22.020><c> Miss</c><00:01:22.259><c> penalty</c><00:01:22.560><c> and</c><00:01:23.100><c> we</c><00:01:23.970><c> end</c>
+
+00:01:24.109 --> 00:01:24.119 align:start position:0%
+rate times the Miss penalty and we end
+ 
+
+00:01:24.119 --> 00:01:27.170 align:start position:0%
+rate times the Miss penalty and we end
+up<00:01:24.360><c> with</c><00:01:24.990><c> 12.5</c><00:01:25.770><c> which</c><00:01:26.340><c> is</c><00:01:26.490><c> a</c><00:01:26.520><c> little</c><00:01:26.820><c> bit</c><00:01:26.939><c> worse</c>
+
+00:01:27.170 --> 00:01:27.180 align:start position:0%
+up with 12.5 which is a little bit worse
+ 
+
+00:01:27.180 --> 00:01:29.810 align:start position:0%
+up with 12.5 which is a little bit worse
+than<00:01:27.659><c> with</c><00:01:27.780><c> a</c><00:01:27.840><c> smaller</c><00:01:28.200><c> cache</c><00:01:28.530><c> so</c><00:01:29.220><c> having</c><00:01:29.490><c> a</c>
+
+00:01:29.810 --> 00:01:29.820 align:start position:0%
+than with a smaller cache so having a
+ 
+
+00:01:29.820 --> 00:01:32.840 align:start position:0%
+than with a smaller cache so having a
+larger<00:01:30.299><c> cache</c><00:01:30.600><c> alone</c><00:01:31.280><c> increases</c><00:01:32.280><c> the</c><00:01:32.640><c> hit</c>
+
+00:01:32.840 --> 00:01:32.850 align:start position:0%
+larger cache alone increases the hit
+ 
+
+00:01:32.850 --> 00:01:35.660 align:start position:0%
+larger cache alone increases the hit
+time<00:01:33.060><c> improves</c><00:01:33.659><c> the</c><00:01:33.840><c> hit</c><00:01:34.049><c> rate</c><00:01:34.320><c> so</c><00:01:35.040><c> it</c><00:01:35.159><c> may</c><00:01:35.400><c> or</c>
+
+00:01:35.660 --> 00:01:35.670 align:start position:0%
+time improves the hit rate so it may or
+ 
+
+00:01:35.670 --> 00:01:37.789 align:start position:0%
+time improves the hit rate so it may or
+may<00:01:35.939><c> not</c><00:01:35.970><c> improve</c><00:01:36.450><c> the</c><00:01:36.689><c> a</c><00:01:36.720><c> mat</c><00:01:37.020><c> but</c><00:01:37.259><c> either</c><00:01:37.500><c> way</c>
+
+00:01:37.789 --> 00:01:37.799 align:start position:0%
+may not improve the a mat but either way
+ 
+
+00:01:37.799 --> 00:01:39.440 align:start position:0%
+may not improve the a mat but either way
+the<00:01:37.979><c> a</c><00:01:38.009><c> mat</c><00:01:38.280><c> is</c><00:01:38.430><c> not</c><00:01:38.460><c> going</c><00:01:38.820><c> to</c><00:01:38.909><c> improve</c><00:01:39.119><c> a</c><00:01:39.270><c> lot</c>
+
+00:01:39.440 --> 00:01:39.450 align:start position:0%
+the a mat is not going to improve a lot
+ 
+
+00:01:39.450 --> 00:01:41.840 align:start position:0%
+the a mat is not going to improve a lot
+of<00:01:39.720><c> course</c><00:01:40.200><c> having</c><00:01:40.560><c> a</c><00:01:40.650><c> cache</c><00:01:40.920><c> is</c><00:01:41.280><c> still</c><00:01:41.610><c> lots</c>
+
+00:01:41.840 --> 00:01:41.850 align:start position:0%
+of course having a cache is still lots
+ 
+
+00:01:41.850 --> 00:01:44.060 align:start position:0%
+of course having a cache is still lots
+better<00:01:42.119><c> than</c><00:01:42.390><c> not</c><00:01:42.600><c> having</c><00:01:42.899><c> a</c><00:01:43.079><c> cache</c><00:01:43.320><c> not</c>
+
+00:01:44.060 --> 00:01:44.070 align:start position:0%
+better than not having a cache not
+ 
+
+00:01:44.070 --> 00:01:46.340 align:start position:0%
+better than not having a cache not
+having<00:01:44.430><c> a</c><00:01:44.520><c> cache</c><00:01:44.759><c> means</c><00:01:45.119><c> that</c><00:01:45.329><c> our</c><00:01:45.689><c> memory</c><00:01:46.049><c> has</c>
+
+00:01:46.340 --> 00:01:46.350 align:start position:0%
+having a cache means that our memory has
+ 
+
+00:01:46.350 --> 00:01:49.219 align:start position:0%
+having a cache means that our memory has
+a<00:01:46.590><c> hit</c><00:01:46.920><c> time</c><00:01:47.220><c> of</c><00:01:47.399><c> 100</c><00:01:48.149><c> cycles</c><00:01:48.360><c> basically</c><00:01:48.930><c> the</c>
+
+00:01:49.219 --> 00:01:49.229 align:start position:0%
+a hit time of 100 cycles basically the
+ 
+
+00:01:49.229 --> 00:01:52.190 align:start position:0%
+a hit time of 100 cycles basically the
+memory<00:01:49.530><c> latency</c><00:01:50.100><c> it</c><00:01:50.670><c> hits</c><00:01:51.149><c> a</c><00:01:51.450><c> hundred</c><00:01:51.990><c> percent</c>
+
+00:01:52.190 --> 00:01:52.200 align:start position:0%
+memory latency it hits a hundred percent
+ 
+
+00:01:52.200 --> 00:01:56.330 align:start position:0%
+memory latency it hits a hundred percent
+of<00:01:52.619><c> the</c><00:01:52.740><c> time</c><00:01:52.979><c> so</c><00:01:53.340><c> aim</c><00:01:54.299><c> at</c><00:01:54.509><c> ends</c><00:01:54.990><c> up</c><00:01:55.110><c> being</c><00:01:55.380><c> 100</c>
+
+00:01:56.330 --> 00:01:56.340 align:start position:0%
+of the time so aim at ends up being 100
+ 
+
+00:01:56.340 --> 00:01:58.730 align:start position:0%
+of the time so aim at ends up being 100
+plus<00:01:56.640><c> 0</c><00:01:57.210><c> times</c><00:01:57.570><c> the</c><00:01:57.810><c> penalty</c><00:01:58.320><c> because</c><00:01:58.469><c> it</c>
+
+00:01:58.730 --> 00:01:58.740 align:start position:0%
+plus 0 times the penalty because it
+ 
+
+00:01:58.740 --> 00:02:01.370 align:start position:0%
+plus 0 times the penalty because it
+never<00:01:58.950><c> misses</c><00:01:59.180><c> but</c><00:02:00.180><c> we</c><00:02:00.390><c> still</c><00:02:00.630><c> end</c><00:02:00.899><c> up</c><00:02:01.110><c> with</c><00:02:01.350><c> a</c>
+
+00:02:01.370 --> 00:02:01.380 align:start position:0%
+never misses but we still end up with a
+ 
+
+00:02:01.380 --> 00:02:04.310 align:start position:0%
+never misses but we still end up with a
+hundred<00:02:01.619><c> cycles</c><00:02:02.310><c> per</c><00:02:02.670><c> access</c><00:02:03.210><c> which</c><00:02:03.930><c> is</c><00:02:03.960><c> way</c>
+
+00:02:04.310 --> 00:02:04.320 align:start position:0%
+hundred cycles per access which is way
+ 
+
+00:02:04.320 --> 00:02:06.740 align:start position:0%
+hundred cycles per access which is way
+too<00:02:04.380><c> big</c><00:02:04.710><c> so</c><00:02:04.950><c> obviously</c><00:02:05.579><c> having</c><00:02:05.939><c> a</c><00:02:06.030><c> cache</c><00:02:06.270><c> is</c>
+
+00:02:06.740 --> 00:02:06.750 align:start position:0%
+too big so obviously having a cache is
+ 
+
+00:02:06.750 --> 00:02:09.199 align:start position:0%
+too big so obviously having a cache is
+better<00:02:07.140><c> than</c><00:02:07.409><c> not</c><00:02:07.560><c> having</c><00:02:07.590><c> it</c><00:02:07.979><c> so</c><00:02:08.670><c> now</c><00:02:08.910><c> let's</c>
+
+00:02:09.199 --> 00:02:09.209 align:start position:0%
+better than not having it so now let's
+ 
+
+00:02:09.209 --> 00:02:11.900 align:start position:0%
+better than not having it so now let's
+look<00:02:09.300><c> at</c><00:02:09.569><c> the</c><00:02:09.720><c> cache</c><00:02:09.959><c> hierarchy</c><00:02:10.370><c> the</c><00:02:11.370><c> hit</c><00:02:11.670><c> time</c>
+
+00:02:11.900 --> 00:02:11.910 align:start position:0%
+look at the cache hierarchy the hit time
+ 
+
+00:02:11.910 --> 00:02:13.430 align:start position:0%
+look at the cache hierarchy the hit time
+is<00:02:12.540><c> different</c>
+
+00:02:13.430 --> 00:02:13.440 align:start position:0%
+is different
+ 
+
+00:02:13.440 --> 00:02:15.530 align:start position:0%
+is different
+pending<00:02:13.710><c> on</c><00:02:13.860><c> which</c><00:02:14.130><c> of</c><00:02:14.400><c> the</c><00:02:14.550><c> levels</c><00:02:14.910><c> we</c><00:02:15.060><c> hit</c><00:02:15.330><c> in</c>
+
+00:02:15.530 --> 00:02:15.540 align:start position:0%
+pending on which of the levels we hit in
+ 
+
+00:02:15.540 --> 00:02:17.780 align:start position:0%
+pending on which of the levels we hit in
+the<00:02:16.230><c> hit</c><00:02:16.440><c> time</c><00:02:16.620><c> is</c><00:02:16.680><c> still</c><00:02:17.070><c> going</c><00:02:17.250><c> to</c><00:02:17.370><c> be</c><00:02:17.490><c> two</c>
+
+00:02:17.780 --> 00:02:17.790 align:start position:0%
+the hit time is still going to be two
+ 
+
+00:02:17.790 --> 00:02:20.960 align:start position:0%
+the hit time is still going to be two
+cycles<00:02:18.300><c> for</c><00:02:18.480><c> a</c><00:02:18.540><c> level</c><00:02:18.810><c> one</c><00:02:19.140><c> hit</c><00:02:19.640><c> for</c><00:02:20.640><c> a</c><00:02:20.670><c> level</c>
+
+00:02:20.960 --> 00:02:20.970 align:start position:0%
+cycles for a level one hit for a level
+ 
+
+00:02:20.970 --> 00:02:23.960 align:start position:0%
+cycles for a level one hit for a level
+two<00:02:21.630><c> hit</c><00:02:22.020><c> however</c><00:02:22.290><c> we</c><00:02:22.770><c> first</c><00:02:23.250><c> check</c><00:02:23.490><c> in</c><00:02:23.670><c> level</c>
+
+00:02:23.960 --> 00:02:23.970 align:start position:0%
+two hit however we first check in level
+ 
+
+00:02:23.970 --> 00:02:27.350 align:start position:0%
+two hit however we first check in level
+one<00:02:24.180><c> so</c><00:02:24.480><c> we</c><00:02:24.570><c> paid</c><00:02:24.810><c> two</c><00:02:25.050><c> cycles</c><00:02:25.590><c> to</c><00:02:25.950><c> check</c><00:02:26.360><c> then</c>
+
+00:02:27.350 --> 00:02:27.360 align:start position:0%
+one so we paid two cycles to check then
+ 
+
+00:02:27.360 --> 00:02:29.150 align:start position:0%
+one so we paid two cycles to check then
+we<00:02:27.570><c> access</c><00:02:27.750><c> l2</c><00:02:28.320><c> and</c><00:02:28.440><c> have</c><00:02:28.590><c> a</c><00:02:28.620><c> hit</c>
+
+00:02:29.150 --> 00:02:29.160 align:start position:0%
+we access l2 and have a hit
+ 
+
+00:02:29.160 --> 00:02:31.460 align:start position:0%
+we access l2 and have a hit
+so<00:02:29.490><c> overall</c><00:02:30.060><c> now</c><00:02:30.300><c> it's</c><00:02:30.570><c> going</c><00:02:30.780><c> to</c><00:02:30.990><c> be</c><00:02:31.110><c> 12</c>
+
+00:02:31.460 --> 00:02:31.470 align:start position:0%
+so overall now it's going to be 12
+ 
+
+00:02:31.470 --> 00:02:35.870 align:start position:0%
+so overall now it's going to be 12
+cycles<00:02:32.180><c> for</c><00:02:33.180><c> a</c><00:02:33.360><c> level</c><00:02:33.990><c> to</c><00:02:34.200><c> hit</c><00:02:34.470><c> the</c><00:02:35.340><c> hit</c><00:02:35.610><c> rate</c>
+
+00:02:35.870 --> 00:02:35.880 align:start position:0%
+cycles for a level to hit the hit rate
+ 
+
+00:02:35.880 --> 00:02:40.910 align:start position:0%
+cycles for a level to hit the hit rate
+is<00:02:36.870><c> going</c><00:02:37.200><c> to</c><00:02:37.320><c> be</c><00:02:37.910><c> 90</c><00:02:38.910><c> percent</c><00:02:39.230><c> for</c><00:02:40.230><c> l1</c><00:02:40.380><c> it's</c>
+
+00:02:40.910 --> 00:02:40.920 align:start position:0%
+is going to be 90 percent for l1 it's
+ 
+
+00:02:40.920 --> 00:02:43.010 align:start position:0%
+is going to be 90 percent for l1 it's
+still<00:02:41.220><c> the</c><00:02:41.370><c> same</c><00:02:41.610><c> cache</c><00:02:41.910><c> as</c><00:02:42.180><c> if</c><00:02:42.330><c> it</c><00:02:42.480><c> was</c><00:02:42.660><c> alone</c>
+
+00:02:43.010 --> 00:02:43.020 align:start position:0%
+still the same cache as if it was alone
+ 
+
+00:02:43.020 --> 00:02:46.610 align:start position:0%
+still the same cache as if it was alone
+and<00:02:43.340><c> of</c><00:02:44.340><c> all</c><00:02:45.090><c> the</c><00:02:45.240><c> accesses</c><00:02:45.750><c> that</c><00:02:45.780><c> go</c><00:02:46.140><c> from</c>
+
+00:02:46.610 --> 00:02:46.620 align:start position:0%
+and of all the accesses that go from
+ 
+
+00:02:46.620 --> 00:02:49.730 align:start position:0%
+and of all the accesses that go from
+level<00:02:46.890><c> 1</c><00:02:47.160><c> to</c><00:02:47.340><c> level</c><00:02:47.370><c> 2</c><00:02:48.140><c> we</c><00:02:49.140><c> will</c><00:02:49.260><c> have</c><00:02:49.320><c> some</c>
+
+00:02:49.730 --> 00:02:49.740 align:start position:0%
+level 1 to level 2 we will have some
+ 
+
+00:02:49.740 --> 00:02:53.840 align:start position:0%
+level 1 to level 2 we will have some
+hits<00:02:50.030><c> because</c><00:02:51.030><c> the</c><00:02:51.360><c> l2</c><00:02:52.020><c> cache</c><00:02:52.050><c> has</c><00:02:52.770><c> this</c><00:02:53.340><c> hit</c>
+
+00:02:53.840 --> 00:02:53.850 align:start position:0%
+hits because the l2 cache has this hit
+ 
+
+00:02:53.850 --> 00:02:56.480 align:start position:0%
+hits because the l2 cache has this hit
+rate<00:02:54.090><c> when</c><00:02:54.390><c> working</c><00:02:54.600><c> alone</c><00:02:55.110><c> of</c><00:02:55.470><c> all</c><00:02:56.280><c> the</c>
+
+00:02:56.480 --> 00:02:56.490 align:start position:0%
+rate when working alone of all the
+ 
+
+00:02:56.490 --> 00:02:59.570 align:start position:0%
+rate when working alone of all the
+processor<00:02:57.030><c> accesses</c><00:02:57.320><c> it</c><00:02:58.320><c> would</c><00:02:58.620><c> have</c><00:02:59.280><c> a</c><00:02:59.310><c> hit</c>
+
+00:02:59.570 --> 00:02:59.580 align:start position:0%
+processor accesses it would have a hit
+ 
+
+00:02:59.580 --> 00:03:02.510 align:start position:0%
+processor accesses it would have a hit
+on<00:02:59.760><c> this</c><00:02:59.910><c> many</c><00:03:00.210><c> but</c><00:03:01.080><c> of</c><00:03:01.350><c> all</c><00:03:01.710><c> the</c><00:03:02.040><c> processor</c>
+
+00:03:02.510 --> 00:03:02.520 align:start position:0%
+on this many but of all the processor
+ 
+
+00:03:02.520 --> 00:03:05.540 align:start position:0%
+on this many but of all the processor
+accesses<00:03:02.930><c> those</c><00:03:03.930><c> that</c><00:03:04.140><c> hit</c><00:03:04.350><c> in</c><00:03:04.530><c> l1</c><00:03:04.920><c> probably</c>
+
+00:03:05.540 --> 00:03:05.550 align:start position:0%
+accesses those that hit in l1 probably
+ 
+
+00:03:05.550 --> 00:03:07.360 align:start position:0%
+accesses those that hit in l1 probably
+would<00:03:05.700><c> also</c><00:03:05.940><c> have</c><00:03:06.300><c> been</c><00:03:06.450><c> hits</c><00:03:06.720><c> in</c><00:03:06.870><c> l2</c>
+
+00:03:07.360 --> 00:03:07.370 align:start position:0%
+would also have been hits in l2
+ 
+
+00:03:07.370 --> 00:03:12.530 align:start position:0%
+would also have been hits in l2
+so<00:03:08.370><c> this</c><00:03:08.640><c> cache</c><00:03:08.940><c> really</c><00:03:09.600><c> has</c><00:03:10.500><c> a</c><00:03:10.530><c> 75%</c><00:03:11.310><c> hit</c><00:03:12.300><c> rate</c>
+
+00:03:12.530 --> 00:03:12.540 align:start position:0%
+so this cache really has a 75% hit rate
+ 
+
+00:03:12.540 --> 00:03:16.400 align:start position:0%
+so this cache really has a 75% hit rate
+of<00:03:12.810><c> all</c><00:03:13.770><c> the</c><00:03:13.920><c> things</c><00:03:14.190><c> that</c><00:03:14.520><c> go</c><00:03:15.210><c> into</c><00:03:15.420><c> it</c><00:03:15.690><c> it</c>
+
+00:03:16.400 --> 00:03:16.410 align:start position:0%
+of all the things that go into it it
+ 
+
+00:03:16.410 --> 00:03:18.500 align:start position:0%
+of all the things that go into it it
+would<00:03:16.620><c> have</c><00:03:16.800><c> this</c><00:03:16.980><c> hit</c><00:03:17.280><c> rate</c><00:03:17.520><c> if</c><00:03:17.790><c> it</c><00:03:18.000><c> was</c><00:03:18.180><c> alone</c>
+
+00:03:18.500 --> 00:03:18.510 align:start position:0%
+would have this hit rate if it was alone
+ 
+
+00:03:18.510 --> 00:03:21.620 align:start position:0%
+would have this hit rate if it was alone
+but<00:03:19.290><c> the</c><00:03:19.470><c> l1</c><00:03:19.770><c> cache</c><00:03:19.980><c> is</c><00:03:20.220><c> filtering</c><00:03:20.760><c> all</c><00:03:21.180><c> of</c><00:03:21.510><c> the</c>
+
+00:03:21.620 --> 00:03:21.630 align:start position:0%
+but the l1 cache is filtering all of the
+ 
+
+00:03:21.630 --> 00:03:25.070 align:start position:0%
+but the l1 cache is filtering all of the
+easy<00:03:22.170><c> to</c><00:03:22.530><c> hit</c><00:03:22.739><c> accesses</c><00:03:23.400><c> so</c><00:03:23.970><c> the</c><00:03:24.120><c> l2</c><00:03:24.510><c> only</c><00:03:24.900><c> get</c>
+
+00:03:25.070 --> 00:03:25.080 align:start position:0%
+easy to hit accesses so the l2 only get
+ 
+
+00:03:25.080 --> 00:03:27.740 align:start position:0%
+easy to hit accesses so the l2 only get
+75%<00:03:25.800><c> basically</c><00:03:26.760><c> it</c><00:03:26.850><c> only</c><00:03:26.970><c> gets</c><00:03:27.330><c> to</c><00:03:27.420><c> see</c><00:03:27.450><c> kind</c>
+
+00:03:27.740 --> 00:03:27.750 align:start position:0%
+75% basically it only gets to see kind
+ 
+
+00:03:27.750 --> 00:03:29.780 align:start position:0%
+75% basically it only gets to see kind
+of<00:03:27.840><c> the</c><00:03:27.930><c> worst</c><00:03:28.170><c> ten</c><00:03:28.590><c> percent</c><00:03:29.010><c> of</c><00:03:29.160><c> the</c><00:03:29.250><c> accesses</c>
+
+00:03:29.780 --> 00:03:29.790 align:start position:0%
+of the worst ten percent of the accesses
+ 
+
+00:03:29.790 --> 00:03:34.610 align:start position:0%
+of the worst ten percent of the accesses
+and<00:03:30.030><c> for</c><00:03:30.930><c> those</c><00:03:31.140><c> it's</c><00:03:31.410><c> only</c><00:03:31.590><c> having</c><00:03:31.980><c> a</c><00:03:32.810><c> 3/4</c><00:03:33.810><c> hit</c>
+
+00:03:34.610 --> 00:03:34.620 align:start position:0%
+and for those it's only having a 3/4 hit
+ 
+
+00:03:34.620 --> 00:03:37.940 align:start position:0%
+and for those it's only having a 3/4 hit
+rate<00:03:34.860><c> but</c><00:03:35.640><c> the</c><00:03:35.790><c> a</c><00:03:35.820><c> matte</c><00:03:36.270><c> is</c><00:03:36.900><c> now</c><00:03:37.260><c> going</c><00:03:37.530><c> to</c><00:03:37.620><c> be</c>
+
+00:03:37.940 --> 00:03:37.950 align:start position:0%
+rate but the a matte is now going to be
+ 
+
+00:03:37.950 --> 00:03:43.520 align:start position:0%
+rate but the a matte is now going to be
+2<00:03:38.580><c> for</c><00:03:38.850><c> l1</c><00:03:39.209><c> hits</c><00:03:39.690><c> plus</c><00:03:40.850><c> 10%</c><00:03:41.850><c> of</c><00:03:42.420><c> the</c><00:03:42.540><c> time</c><00:03:42.840><c> we</c>
+
+00:03:43.520 --> 00:03:43.530 align:start position:0%
+2 for l1 hits plus 10% of the time we
+ 
+
+00:03:43.530 --> 00:03:48.800 align:start position:0%
+2 for l1 hits plus 10% of the time we
+have<00:03:43.800><c> an</c><00:03:44.060><c> l1</c><00:03:45.060><c> miss</c><00:03:45.410><c> when</c><00:03:46.410><c> we</c><00:03:46.590><c> do</c><00:03:46.769><c> we</c><00:03:47.760><c> have</c><00:03:48.000><c> ten</c>
+
+00:03:48.800 --> 00:03:48.810 align:start position:0%
+have an l1 miss when we do we have ten
+ 
+
+00:03:48.810 --> 00:03:56.000 align:start position:0%
+have an l1 miss when we do we have ten
+cycles<00:03:49.110><c> to</c><00:03:49.500><c> access</c><00:03:49.560><c> l2</c><00:03:50.690><c> plus</c><00:03:53.720><c> 25%</c><00:03:54.720><c> of</c><00:03:55.410><c> those</c>
+
+00:03:56.000 --> 00:03:56.010 align:start position:0%
+cycles to access l2 plus 25% of those
+ 
+
+00:03:56.010 --> 00:04:00.140 align:start position:0%
+cycles to access l2 plus 25% of those
+also<00:03:56.910><c> end</c><00:03:57.540><c> up</c><00:03:57.780><c> accessing</c><00:03:58.260><c> memory</c><00:03:58.850><c> so</c><00:03:59.850><c> when</c><00:04:00.000><c> we</c>
+
+00:04:00.140 --> 00:04:00.150 align:start position:0%
+also end up accessing memory so when we
+ 
+
+00:04:00.150 --> 00:04:04.460 align:start position:0%
+also end up accessing memory so when we
+compute<00:04:00.570><c> what</c><00:04:00.600><c> this</c><00:04:01.110><c> is</c><00:04:01.410><c> it's</c><00:04:01.680><c> 10</c><00:04:02.100><c> plus</c><00:04:02.840><c> 25</c><00:04:03.840><c> so</c>
+
+00:04:04.460 --> 00:04:04.470 align:start position:0%
+compute what this is it's 10 plus 25 so
+ 
+
+00:04:04.470 --> 00:04:07.820 align:start position:0%
+compute what this is it's 10 plus 25 so
+the<00:04:04.620><c> overall</c><00:04:05.190><c> miss</c><00:04:05.760><c> penalty</c><00:04:06.540><c> for</c><00:04:06.840><c> a</c><00:04:06.900><c> level</c><00:04:07.500><c> one</c>
+
+00:04:07.820 --> 00:04:07.830 align:start position:0%
+the overall miss penalty for a level one
+ 
+
+00:04:07.830 --> 00:04:11.449 align:start position:0%
+the overall miss penalty for a level one
+miss<00:04:08.310><c> is</c><00:04:08.640><c> just</c><00:04:09.360><c> 35</c><00:04:09.900><c> cycles</c><00:04:10.440><c> it's</c><00:04:10.890><c> much</c><00:04:11.190><c> better</c>
+
+00:04:11.449 --> 00:04:11.459 align:start position:0%
+miss is just 35 cycles it's much better
+ 
+
+00:04:11.459 --> 00:04:14.000 align:start position:0%
+miss is just 35 cycles it's much better
+than<00:04:12.060><c> what</c><00:04:12.239><c> it</c><00:04:12.269><c> used</c><00:04:12.420><c> to</c><00:04:12.720><c> be</c><00:04:12.780><c> when</c><00:04:13.350><c> the</c><00:04:13.500><c> l1</c><00:04:13.800><c> was</c>
+
+00:04:14.000 --> 00:04:14.010 align:start position:0%
+than what it used to be when the l1 was
+ 
+
+00:04:14.010 --> 00:04:17.180 align:start position:0%
+than what it used to be when the l1 was
+working<00:04:14.400><c> alone</c><00:04:14.690><c> and</c><00:04:15.690><c> we</c><00:04:15.840><c> finally</c><00:04:16.140><c> end</c><00:04:16.530><c> up</c><00:04:16.739><c> with</c>
+
+00:04:17.180 --> 00:04:17.190 align:start position:0%
+working alone and we finally end up with
+ 
+
+00:04:17.190 --> 00:04:20.270 align:start position:0%
+working alone and we finally end up with
+two<00:04:17.489><c> plus</c><00:04:18.120><c> three</c><00:04:18.150><c> point</c><00:04:18.690><c> five</c><00:04:19.019><c> which</c><00:04:19.859><c> gives</c><00:04:20.130><c> us</c>
+
+00:04:20.270 --> 00:04:20.280 align:start position:0%
+two plus three point five which gives us
+ 
+
+00:04:20.280 --> 00:04:22.730 align:start position:0%
+two plus three point five which gives us
+an<00:04:20.519><c> overall</c><00:04:20.940><c> aim</c><00:04:21.239><c> at</c><00:04:21.419><c> of</c><00:04:21.660><c> five</c><00:04:22.109><c> point</c><00:04:22.500><c> five</c>
+
+00:04:22.730 --> 00:04:22.740 align:start position:0%
+an overall aim at of five point five
+ 
+
+00:04:22.740 --> 00:04:25.640 align:start position:0%
+an overall aim at of five point five
+cycles<00:04:23.130><c> this</c><00:04:24.030><c> is</c><00:04:24.240><c> much</c><00:04:24.539><c> better</c><00:04:24.900><c> than</c><00:04:25.380><c> either</c>
+
+00:04:25.640 --> 00:04:25.650 align:start position:0%
+cycles this is much better than either
+ 
+
+00:04:25.650 --> 00:04:26.600 align:start position:0%
+cycles this is much better than either
+of<00:04:25.830><c> the</c><00:04:26.039><c> two</c>
+
+00:04:26.600 --> 00:04:26.610 align:start position:0%
+of the two
+ 
+
+00:04:26.610 --> 00:04:29.089 align:start position:0%
+of the two
+she's<00:04:26.789><c> working</c><00:04:27.210><c> alone</c><00:04:27.479><c> and</c><00:04:27.780><c> it's</c><00:04:28.620><c> much</c><00:04:28.830><c> better</c>
+
+00:04:29.089 --> 00:04:29.099 align:start position:0%
+she's working alone and it's much better
+ 
+
+00:04:29.099 --> 00:04:33.709 align:start position:0%
+she's working alone and it's much better
+because<00:04:30.469><c> really</c><00:04:31.469><c> we're</c><00:04:32.370><c> having</c><00:04:32.849><c> most</c><00:04:33.389><c> of</c><00:04:33.599><c> the</c>
+
+00:04:33.709 --> 00:04:33.719 align:start position:0%
+because really we're having most of the
+ 
+
+00:04:33.719 --> 00:04:36.619 align:start position:0%
+because really we're having most of the
+accesses<00:04:34.080><c> hit</c><00:04:34.580><c> using</c><00:04:35.580><c> the</c><00:04:35.669><c> hit</c><00:04:35.879><c> latency</c><00:04:36.120><c> of</c>
+
+00:04:36.619 --> 00:04:36.629 align:start position:0%
+accesses hit using the hit latency of
+ 
+
+00:04:36.629 --> 00:04:40.490 align:start position:0%
+accesses hit using the hit latency of
+the<00:04:36.800><c> fast</c><00:04:37.800><c> cache</c><00:04:38.189><c> some</c><00:04:39.150><c> accesses</c><00:04:39.870><c> have</c><00:04:40.469><c> a</c>
+
+00:04:40.490 --> 00:04:40.500 align:start position:0%
+the fast cache some accesses have a
+ 
+
+00:04:40.500 --> 00:04:44.029 align:start position:0%
+the fast cache some accesses have a
+higher<00:04:40.979><c> hit</c><00:04:41.819><c> latency</c><00:04:42.509><c> in</c><00:04:42.719><c> the</c><00:04:43.139><c> second</c><00:04:43.800><c> cache</c>
+
+00:04:44.029 --> 00:04:44.039 align:start position:0%
+higher hit latency in the second cache
+ 
+
+00:04:44.039 --> 00:04:47.179 align:start position:0%
+higher hit latency in the second cache
+and<00:04:44.389><c> fewer</c><00:04:45.389><c> of</c><00:04:45.509><c> them</c><00:04:45.810><c> pay</c><00:04:46.199><c> this</c><00:04:46.259><c> huge</c><00:04:46.860><c> memory</c>
+
+00:04:47.179 --> 00:04:47.189 align:start position:0%
+and fewer of them pay this huge memory
+ 
+
+00:04:47.189 --> 00:04:50.540 align:start position:0%
+and fewer of them pay this huge memory
+latency<00:04:47.879><c> so</c><00:04:48.870><c> this</c><00:04:49.080><c> is</c><00:04:49.289><c> why</c><00:04:49.469><c> cache</c><00:04:49.860><c> hierarchies</c>
+
+00:04:50.540 --> 00:04:50.550 align:start position:0%
+latency so this is why cache hierarchies
+ 
+
+00:04:50.550 --> 00:04:53.629 align:start position:0%
+latency so this is why cache hierarchies
+work<00:04:51.539><c> better</c><00:04:51.840><c> than</c><00:04:52.439><c> individual</c><00:04:53.009><c> caches</c><00:04:53.490><c> and</c>
+
+00:04:53.629 --> 00:04:53.639 align:start position:0%
+work better than individual caches and
+ 
+
+00:04:53.639 --> 00:04:56.119 align:start position:0%
+work better than individual caches and
+why<00:04:54.060><c> we</c><00:04:54.270><c> have</c><00:04:54.509><c> them</c><00:04:54.750><c> it</c><00:04:54.930><c> is</c><00:04:55.319><c> not</c><00:04:55.560><c> enough</c><00:04:55.949><c> to</c>
+
+00:04:56.119 --> 00:04:56.129 align:start position:0%
+why we have them it is not enough to
+ 
+
+00:04:56.129 --> 00:04:59.269 align:start position:0%
+why we have them it is not enough to
+simply<00:04:56.280><c> have</c><00:04:56.580><c> a</c><00:04:56.729><c> large</c><00:04:57.060><c> cache</c><00:04:57.620><c> if</c><00:04:58.620><c> it's</c><00:04:59.069><c> also</c>
+
+00:04:59.269 --> 00:04:59.279 align:start position:0%
+simply have a large cache if it's also
+ 
+
+00:04:59.279 --> 00:05:02.149 align:start position:0%
+simply have a large cache if it's also
+slow<00:04:59.699><c> in</c><00:05:00.479><c> that</c><00:05:00.750><c> case</c><00:05:01.020><c> you</c><00:05:01.349><c> can</c><00:05:01.560><c> combine</c><00:05:01.740><c> their</c>
+
+00:05:02.149 --> 00:05:02.159 align:start position:0%
+slow in that case you can combine their
+ 
+
+00:05:02.159 --> 00:05:04.219 align:start position:0%
+slow in that case you can combine their
+good<00:05:02.340><c> properties</c><00:05:02.909><c> so</c><00:05:03.419><c> that</c><00:05:03.449><c> most</c><00:05:03.779><c> of</c><00:05:03.930><c> the</c><00:05:04.050><c> time</c>
+
+00:05:04.219 --> 00:05:04.229 align:start position:0%
+good properties so that most of the time
+ 
+
+00:05:04.229 --> 00:05:06.890 align:start position:0%
+good properties so that most of the time
+we<00:05:04.379><c> get</c><00:05:04.500><c> this</c><00:05:04.710><c> hit</c><00:05:05.009><c> time</c><00:05:05.279><c> but</c><00:05:05.969><c> overall</c><00:05:06.330><c> as</c><00:05:06.689><c> far</c>
+
+00:05:06.890 --> 00:05:06.900 align:start position:0%
+we get this hit time but overall as far
+ 
+
+00:05:06.900 --> 00:05:09.050 align:start position:0%
+we get this hit time but overall as far
+as<00:05:07.020><c> the</c><00:05:07.169><c> memory</c><00:05:07.469><c> access</c><00:05:07.830><c> is</c><00:05:07.949><c> concerned</c><00:05:08.550><c> we</c>
+
+00:05:09.050 --> 00:05:09.060 align:start position:0%
+as the memory access is concerned we
+ 
+
+00:05:09.060 --> 00:05:10.999 align:start position:0%
+as the memory access is concerned we
+really<00:05:09.300><c> have</c><00:05:09.509><c> this</c><00:05:09.719><c> hit</c><00:05:10.020><c> rate</c><00:05:10.289><c> in</c><00:05:10.560><c> the</c>
+
+00:05:10.999 --> 00:05:11.009 align:start position:0%
+really have this hit rate in the
+ 
+
+00:05:11.009 --> 00:05:13.759 align:start position:0%
+really have this hit rate in the
+combined<00:05:11.460><c> cache</c>
+

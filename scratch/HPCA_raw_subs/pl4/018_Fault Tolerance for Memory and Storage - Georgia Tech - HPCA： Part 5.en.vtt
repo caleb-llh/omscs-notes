@@ -1,0 +1,680 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.550 align:start position:0%
+ 
+so<00:00:00.399><c> we</c><00:00:00.560><c> have</c><00:00:00.799><c> seen</c><00:00:01.040><c> some</c><00:00:01.520><c> relatively</c><00:00:02.080><c> general</c>
+
+00:00:02.550 --> 00:00:02.560 align:start position:0%
+so we have seen some relatively general
+ 
+
+00:00:02.560 --> 00:00:04.230 align:start position:0%
+so we have seen some relatively general
+fault<00:00:02.800><c> tolerance</c><00:00:03.199><c> techniques</c><00:00:03.840><c> now</c><00:00:04.000><c> let's</c>
+
+00:00:04.230 --> 00:00:04.240 align:start position:0%
+fault tolerance techniques now let's
+ 
+
+00:00:04.240 --> 00:00:05.670 align:start position:0%
+fault tolerance techniques now let's
+look<00:00:04.400><c> at</c><00:00:04.560><c> the</c><00:00:04.640><c> fault</c><00:00:04.880><c> tolerance</c><00:00:05.359><c> techniques</c>
+
+00:00:05.670 --> 00:00:05.680 align:start position:0%
+look at the fault tolerance techniques
+ 
+
+00:00:05.680 --> 00:00:08.870 align:start position:0%
+look at the fault tolerance techniques
+for<00:00:05.920><c> memory</c><00:00:06.319><c> and</c><00:00:06.480><c> storage</c><00:00:07.440><c> we</c><00:00:07.680><c> could</c><00:00:08.000><c> use</c><00:00:08.559><c> dual</c>
+
+00:00:08.870 --> 00:00:08.880 align:start position:0%
+for memory and storage we could use dual
+ 
+
+00:00:08.880 --> 00:00:11.110 align:start position:0%
+for memory and storage we could use dual
+module<00:00:09.280><c> redundancy</c><00:00:10.080><c> or</c><00:00:10.320><c> triple</c><00:00:10.639><c> modular</c>
+
+00:00:11.110 --> 00:00:11.120 align:start position:0%
+module redundancy or triple modular
+ 
+
+00:00:11.120 --> 00:00:13.990 align:start position:0%
+module redundancy or triple modular
+redundancy<00:00:11.920><c> for</c><00:00:12.160><c> memory</c><00:00:12.799><c> and</c><00:00:12.960><c> storage</c><00:00:13.759><c> but</c>
+
+00:00:13.990 --> 00:00:14.000 align:start position:0%
+redundancy for memory and storage but
+ 
+
+00:00:14.000 --> 00:00:16.070 align:start position:0%
+redundancy for memory and storage but
+they<00:00:14.240><c> are</c><00:00:14.639><c> considered</c><00:00:15.120><c> to</c><00:00:15.200><c> be</c><00:00:15.440><c> overkill</c><00:00:15.839><c> for</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+they are considered to be overkill for
+ 
+
+00:00:16.080 --> 00:00:18.070 align:start position:0%
+they are considered to be overkill for
+these<00:00:16.320><c> devices</c><00:00:17.119><c> we</c><00:00:17.279><c> can</c><00:00:17.440><c> get</c><00:00:17.680><c> better</c>
+
+00:00:18.070 --> 00:00:18.080 align:start position:0%
+these devices we can get better
+ 
+
+00:00:18.080 --> 00:00:20.550 align:start position:0%
+these devices we can get better
+techniques<00:00:18.880><c> that</c><00:00:19.119><c> protect</c><00:00:19.520><c> us</c><00:00:19.760><c> from</c><00:00:20.000><c> similar</c>
+
+00:00:20.550 --> 00:00:20.560 align:start position:0%
+techniques that protect us from similar
+ 
+
+00:00:20.560 --> 00:00:22.950 align:start position:0%
+techniques that protect us from similar
+problems<00:00:21.359><c> so</c><00:00:21.600><c> dual</c><00:00:21.840><c> module</c><00:00:22.160><c> redundancy</c><00:00:22.800><c> and</c>
+
+00:00:22.950 --> 00:00:22.960 align:start position:0%
+problems so dual module redundancy and
+ 
+
+00:00:22.960 --> 00:00:25.109 align:start position:0%
+problems so dual module redundancy and
+triple<00:00:23.279><c> modular</c><00:00:23.680><c> redundancy</c><00:00:24.320><c> are</c><00:00:24.560><c> typically</c>
+
+00:00:25.109 --> 00:00:25.119 align:start position:0%
+triple modular redundancy are typically
+ 
+
+00:00:25.119 --> 00:00:27.189 align:start position:0%
+triple modular redundancy are typically
+used<00:00:25.519><c> for</c><00:00:26.240><c> the</c><00:00:26.400><c> hardware</c><00:00:26.800><c> that</c><00:00:26.880><c> does</c><00:00:27.119><c> the</c>
+
+00:00:27.189 --> 00:00:27.199 align:start position:0%
+used for the hardware that does the
+ 
+
+00:00:27.199 --> 00:00:29.750 align:start position:0%
+used for the hardware that does the
+computation<00:00:28.400><c> which</c><00:00:28.560><c> cannot</c><00:00:28.960><c> be</c><00:00:29.119><c> protected</c><00:00:29.599><c> by</c>
+
+00:00:29.750 --> 00:00:29.760 align:start position:0%
+computation which cannot be protected by
+ 
+
+00:00:29.760 --> 00:00:32.150 align:start position:0%
+computation which cannot be protected by
+some<00:00:30.000><c> of</c><00:00:30.160><c> the</c><00:00:30.720><c> less</c><00:00:31.039><c> expensive</c><00:00:31.679><c> techniques</c>
+
+00:00:32.150 --> 00:00:32.160 align:start position:0%
+some of the less expensive techniques
+ 
+
+00:00:32.160 --> 00:00:34.470 align:start position:0%
+some of the less expensive techniques
+that<00:00:32.320><c> memory</c><00:00:32.640><c> and</c><00:00:32.800><c> storage</c><00:00:33.120><c> can</c><00:00:33.280><c> benefit</c><00:00:33.760><c> from</c>
+
+00:00:34.470 --> 00:00:34.480 align:start position:0%
+that memory and storage can benefit from
+ 
+
+00:00:34.480 --> 00:00:35.990 align:start position:0%
+that memory and storage can benefit from
+and<00:00:34.719><c> these</c><00:00:35.040><c> techniques</c><00:00:35.360><c> for</c><00:00:35.600><c> memory</c><00:00:35.920><c> and</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+and these techniques for memory and
+ 
+
+00:00:36.000 --> 00:00:37.030 align:start position:0%
+and these techniques for memory and
+storage
+
+00:00:37.030 --> 00:00:37.040 align:start position:0%
+storage
+ 
+
+00:00:37.040 --> 00:00:39.510 align:start position:0%
+storage
+are<00:00:37.280><c> called</c><00:00:37.600><c> error</c><00:00:38.000><c> detection</c><00:00:38.960><c> or</c><00:00:39.200><c> error</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+are called error detection or error
+ 
+
+00:00:39.520 --> 00:00:41.190 align:start position:0%
+are called error detection or error
+correction<00:00:40.160><c> codes</c>
+
+00:00:41.190 --> 00:00:41.200 align:start position:0%
+correction codes
+ 
+
+00:00:41.200 --> 00:00:43.830 align:start position:0%
+correction codes
+so<00:00:41.360><c> the</c><00:00:41.520><c> idea</c><00:00:41.920><c> is</c><00:00:42.079><c> that</c><00:00:42.239><c> we</c><00:00:42.399><c> can</c><00:00:42.640><c> store</c><00:00:43.040><c> bits</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+so the idea is that we can store bits
+ 
+
+00:00:43.840 --> 00:00:46.150 align:start position:0%
+so the idea is that we can store bits
+with<00:00:44.079><c> some</c><00:00:44.399><c> extra</c><00:00:44.800><c> information</c><00:00:45.440><c> that</c><00:00:45.680><c> allows</c>
+
+00:00:46.150 --> 00:00:46.160 align:start position:0%
+with some extra information that allows
+ 
+
+00:00:46.160 --> 00:00:47.910 align:start position:0%
+with some extra information that allows
+us<00:00:46.640><c> to</c><00:00:46.879><c> detect</c>
+
+00:00:47.910 --> 00:00:47.920 align:start position:0%
+us to detect
+ 
+
+00:00:47.920 --> 00:00:51.029 align:start position:0%
+us to detect
+and<00:00:48.239><c> or</c><00:00:48.480><c> correct</c><00:00:49.520><c> one</c><00:00:49.840><c> or</c><00:00:50.079><c> more</c><00:00:50.320><c> bits</c><00:00:50.559><c> of</c><00:00:50.719><c> error</c>
+
+00:00:51.029 --> 00:00:51.039 align:start position:0%
+and or correct one or more bits of error
+ 
+
+00:00:51.039 --> 00:00:53.110 align:start position:0%
+and or correct one or more bits of error
+depending<00:00:51.440><c> on</c><00:00:51.600><c> the</c><00:00:51.760><c> code</c><00:00:52.399><c> so</c><00:00:52.559><c> we</c><00:00:52.719><c> don't</c><00:00:52.960><c> have</c>
+
+00:00:53.110 --> 00:00:53.120 align:start position:0%
+depending on the code so we don't have
+ 
+
+00:00:53.120 --> 00:00:55.270 align:start position:0%
+depending on the code so we don't have
+to<00:00:53.199><c> store</c><00:00:53.680><c> everything</c><00:00:54.079><c> twice</c><00:00:54.559><c> or</c><00:00:54.800><c> everything</c>
+
+00:00:55.270 --> 00:00:55.280 align:start position:0%
+to store everything twice or everything
+ 
+
+00:00:55.280 --> 00:00:57.189 align:start position:0%
+to store everything twice or everything
+three<00:00:55.520><c> times</c><00:00:56.160><c> in</c><00:00:56.320><c> order</c><00:00:56.640><c> to</c><00:00:56.800><c> achieve</c>
+
+00:00:57.189 --> 00:00:57.199 align:start position:0%
+three times in order to achieve
+ 
+
+00:00:57.199 --> 00:00:59.189 align:start position:0%
+three times in order to achieve
+detection<00:00:57.760><c> or</c><00:00:57.920><c> correction</c><00:00:58.480><c> of</c><00:00:58.640><c> a</c><00:00:58.800><c> single</c>
+
+00:00:59.189 --> 00:00:59.199 align:start position:0%
+detection or correction of a single
+ 
+
+00:00:59.199 --> 00:01:01.510 align:start position:0%
+detection or correction of a single
+error<00:01:00.000><c> so</c><00:01:00.160><c> the</c><00:01:00.320><c> simplest</c><00:01:00.800><c> technique</c><00:01:01.199><c> that</c><00:01:01.359><c> is</c>
+
+00:01:01.510 --> 00:01:01.520 align:start position:0%
+error so the simplest technique that is
+ 
+
+00:01:01.520 --> 00:01:04.390 align:start position:0%
+error so the simplest technique that is
+often<00:01:01.760><c> used</c><00:01:02.160><c> for</c><00:01:02.320><c> memory</c><00:01:02.719><c> storage</c><00:01:03.199><c> is</c><00:01:03.520><c> parity</c>
+
+00:01:04.390 --> 00:01:04.400 align:start position:0%
+often used for memory storage is parity
+ 
+
+00:01:04.400 --> 00:01:07.510 align:start position:0%
+often used for memory storage is parity
+with<00:01:04.640><c> parity</c><00:01:05.360><c> we</c><00:01:05.600><c> add</c><00:01:05.920><c> one</c><00:01:06.240><c> extra</c><00:01:06.720><c> bit</c><00:01:07.200><c> to</c><00:01:07.360><c> the</c>
+
+00:01:07.510 --> 00:01:07.520 align:start position:0%
+with parity we add one extra bit to the
+ 
+
+00:01:07.520 --> 00:01:10.230 align:start position:0%
+with parity we add one extra bit to the
+data<00:01:07.920><c> bits</c><00:01:08.640><c> and</c><00:01:08.799><c> that</c><00:01:09.119><c> extra</c><00:01:09.520><c> bit</c><00:01:09.840><c> it</c><00:01:10.000><c> can</c><00:01:10.159><c> be</c>
+
+00:01:10.230 --> 00:01:10.240 align:start position:0%
+data bits and that extra bit it can be
+ 
+
+00:01:10.240 --> 00:01:12.310 align:start position:0%
+data bits and that extra bit it can be
+computed<00:01:10.799><c> simply</c><00:01:11.119><c> as</c><00:01:11.200><c> an</c><00:01:11.439><c> xor</c><00:01:11.920><c> of</c><00:01:12.080><c> all</c><00:01:12.159><c> the</c>
+
+00:01:12.310 --> 00:01:12.320 align:start position:0%
+computed simply as an xor of all the
+ 
+
+00:01:12.320 --> 00:01:13.590 align:start position:0%
+computed simply as an xor of all the
+data<00:01:12.640><c> bits</c>
+
+00:01:13.590 --> 00:01:13.600 align:start position:0%
+data bits
+ 
+
+00:01:13.600 --> 00:01:16.469 align:start position:0%
+data bits
+when<00:01:13.840><c> we</c><00:01:14.000><c> do</c><00:01:14.159><c> have</c><00:01:14.400><c> parity</c><00:01:15.280><c> if</c><00:01:15.520><c> a</c><00:01:15.680><c> fault</c><00:01:16.000><c> flips</c>
+
+00:01:16.469 --> 00:01:16.479 align:start position:0%
+when we do have parity if a fault flips
+ 
+
+00:01:16.479 --> 00:01:18.469 align:start position:0%
+when we do have parity if a fault flips
+any<00:01:16.720><c> one</c><00:01:16.960><c> of</c><00:01:17.040><c> the</c><00:01:17.200><c> bits</c><00:01:17.520><c> including</c><00:01:17.920><c> the</c><00:01:18.080><c> parity</c>
+
+00:01:18.469 --> 00:01:18.479 align:start position:0%
+any one of the bits including the parity
+ 
+
+00:01:18.479 --> 00:01:21.109 align:start position:0%
+any one of the bits including the parity
+bit<00:01:19.040><c> the</c><00:01:19.280><c> parity</c><00:01:19.759><c> bit</c><00:01:20.080><c> will</c><00:01:20.320><c> no</c><00:01:20.479><c> longer</c><00:01:20.880><c> match</c>
+
+00:01:21.109 --> 00:01:21.119 align:start position:0%
+bit the parity bit will no longer match
+ 
+
+00:01:21.119 --> 00:01:23.830 align:start position:0%
+bit the parity bit will no longer match
+the<00:01:21.280><c> data</c><00:01:21.840><c> by</c><00:01:22.080><c> flipping</c><00:01:22.479><c> one</c><00:01:22.720><c> of</c><00:01:22.799><c> the</c><00:01:22.960><c> bits</c><00:01:23.680><c> we</c>
+
+00:01:23.830 --> 00:01:23.840 align:start position:0%
+the data by flipping one of the bits we
+ 
+
+00:01:23.840 --> 00:01:26.710 align:start position:0%
+the data by flipping one of the bits we
+are<00:01:24.000><c> changing</c><00:01:24.400><c> the</c><00:01:24.560><c> result</c><00:01:24.960><c> of</c><00:01:25.040><c> this</c><00:01:25.280><c> xor</c>
+
+00:01:26.710 --> 00:01:26.720 align:start position:0%
+are changing the result of this xor
+ 
+
+00:01:26.720 --> 00:01:29.109 align:start position:0%
+are changing the result of this xor
+to<00:01:26.880><c> be</c><00:01:27.040><c> the</c><00:01:27.200><c> opposite</c><00:01:27.680><c> of</c><00:01:27.840><c> what</c><00:01:28.479><c> it</c><00:01:28.640><c> previously</c>
+
+00:01:29.109 --> 00:01:29.119 align:start position:0%
+to be the opposite of what it previously
+ 
+
+00:01:29.119 --> 00:01:30.870 align:start position:0%
+to be the opposite of what it previously
+was<00:01:29.520><c> so</c><00:01:29.680><c> when</c><00:01:29.840><c> we</c><00:01:30.000><c> read</c><00:01:30.240><c> the</c><00:01:30.400><c> data</c><00:01:30.640><c> and</c><00:01:30.799><c> the</c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+was so when we read the data and the
+ 
+
+00:01:30.880 --> 00:01:33.030 align:start position:0%
+was so when we read the data and the
+parity<00:01:31.439><c> and</c><00:01:31.600><c> we</c><00:01:31.759><c> see</c><00:01:32.000><c> that</c><00:01:32.159><c> now</c><00:01:32.400><c> the</c><00:01:32.560><c> parity</c>
+
+00:01:33.030 --> 00:01:33.040 align:start position:0%
+parity and we see that now the parity
+ 
+
+00:01:33.040 --> 00:01:35.109 align:start position:0%
+parity and we see that now the parity
+does<00:01:33.280><c> not</c><00:01:33.520><c> match</c><00:01:33.840><c> data</c><00:01:34.159><c> we</c><00:01:34.400><c> assume</c><00:01:34.720><c> that</c><00:01:34.880><c> there</c>
+
+00:01:35.109 --> 00:01:35.119 align:start position:0%
+does not match data we assume that there
+ 
+
+00:01:35.119 --> 00:01:37.910 align:start position:0%
+does not match data we assume that there
+has<00:01:35.360><c> been</c><00:01:35.680><c> a</c><00:01:36.000><c> bit</c><00:01:36.240><c> flip</c><00:01:36.960><c> and</c><00:01:37.280><c> that's</c><00:01:37.600><c> how</c><00:01:37.759><c> we</c>
+
+00:01:37.910 --> 00:01:37.920 align:start position:0%
+has been a bit flip and that's how we
+ 
+
+00:01:37.920 --> 00:01:41.510 align:start position:0%
+has been a bit flip and that's how we
+detect<00:01:38.640><c> a</c><00:01:38.799><c> single</c><00:01:39.200><c> bit</c><00:01:39.439><c> error</c><00:01:40.079><c> the</c><00:01:40.320><c> next</c><00:01:40.720><c> level</c>
+
+00:01:41.510 --> 00:01:41.520 align:start position:0%
+detect a single bit error the next level
+ 
+
+00:01:41.520 --> 00:01:43.990 align:start position:0%
+detect a single bit error the next level
+of<00:01:41.920><c> error</c><00:01:42.320><c> detection</c><00:01:42.720><c> and</c><00:01:42.799><c> correction</c><00:01:43.360><c> codes</c>
+
+00:01:43.990 --> 00:01:44.000 align:start position:0%
+of error detection and correction codes
+ 
+
+00:01:44.000 --> 00:01:46.550 align:start position:0%
+of error detection and correction codes
+is<00:01:44.159><c> the</c><00:01:44.399><c> so-called</c><00:01:44.960><c> ecc</c><00:01:45.759><c> which</c><00:01:46.000><c> stands</c><00:01:46.320><c> for</c>
+
+00:01:46.550 --> 00:01:46.560 align:start position:0%
+is the so-called ecc which stands for
+ 
+
+00:01:46.560 --> 00:01:48.870 align:start position:0%
+is the so-called ecc which stands for
+error<00:01:46.799><c> correction</c><00:01:47.360><c> code</c><00:01:47.920><c> and</c><00:01:48.159><c> a</c><00:01:48.320><c> typical</c>
+
+00:01:48.870 --> 00:01:48.880 align:start position:0%
+error correction code and a typical
+ 
+
+00:01:48.880 --> 00:01:51.270 align:start position:0%
+error correction code and a typical
+example<00:01:49.360><c> of</c><00:01:49.439><c> this</c><00:01:49.840><c> would</c><00:01:50.000><c> be</c><00:01:50.320><c> a</c><00:01:50.560><c> type</c><00:01:50.799><c> of</c><00:01:50.960><c> code</c>
+
+00:01:51.270 --> 00:01:51.280 align:start position:0%
+example of this would be a type of code
+ 
+
+00:01:51.280 --> 00:01:52.630 align:start position:0%
+example of this would be a type of code
+called<00:01:51.600><c> sec</c>
+
+00:01:52.630 --> 00:01:52.640 align:start position:0%
+called sec
+ 
+
+00:01:52.640 --> 00:01:54.870 align:start position:0%
+called sec
+dead<00:01:53.040><c> codes</c><00:01:53.920><c> or</c>
+
+00:01:54.870 --> 00:01:54.880 align:start position:0%
+dead codes or
+ 
+
+00:01:54.880 --> 00:01:57.190 align:start position:0%
+dead codes or
+single<00:01:55.280><c> error</c><00:01:55.680><c> correction</c><00:01:56.320><c> and</c><00:01:56.479><c> double</c><00:01:56.880><c> error</c>
+
+00:01:57.190 --> 00:01:57.200 align:start position:0%
+single error correction and double error
+ 
+
+00:01:57.200 --> 00:01:58.709 align:start position:0%
+single error correction and double error
+detection<00:01:57.840><c> code</c>
+
+00:01:58.709 --> 00:01:58.719 align:start position:0%
+detection code
+ 
+
+00:01:58.719 --> 00:02:02.870 align:start position:0%
+detection code
+so<00:01:58.960><c> this</c><00:01:59.200><c> code</c><00:01:59.840><c> can</c><00:02:00.079><c> detect</c><00:02:00.719><c> any</c><00:02:01.119><c> one</c><00:02:01.920><c> bit</c><00:02:02.240><c> flip</c>
+
+00:02:02.870 --> 00:02:02.880 align:start position:0%
+so this code can detect any one bit flip
+ 
+
+00:02:02.880 --> 00:02:06.069 align:start position:0%
+so this code can detect any one bit flip
+and<00:02:03.119><c> actually</c><00:02:03.759><c> fix</c><00:02:04.159><c> it</c><00:02:04.799><c> or</c><00:02:05.360><c> if</c><00:02:05.520><c> there</c><00:02:05.680><c> are</c><00:02:05.840><c> two</c>
+
+00:02:06.069 --> 00:02:06.079 align:start position:0%
+and actually fix it or if there are two
+ 
+
+00:02:06.079 --> 00:02:08.309 align:start position:0%
+and actually fix it or if there are two
+bit<00:02:06.320><c> flips</c><00:02:06.719><c> we</c><00:02:06.880><c> will</c><00:02:07.119><c> find</c><00:02:07.520><c> out</c><00:02:07.840><c> that</c><00:02:08.000><c> that</c>
+
+00:02:08.309 --> 00:02:08.319 align:start position:0%
+bit flips we will find out that that
+ 
+
+00:02:08.319 --> 00:02:10.389 align:start position:0%
+bit flips we will find out that that
+happened<00:02:08.879><c> but</c><00:02:09.119><c> we</c><00:02:09.280><c> can</c><00:02:09.440><c> no</c><00:02:09.599><c> longer</c><00:02:09.920><c> fix</c><00:02:10.239><c> it</c>
+
+00:02:10.389 --> 00:02:10.399 align:start position:0%
+happened but we can no longer fix it
+ 
+
+00:02:10.399 --> 00:02:13.190 align:start position:0%
+happened but we can no longer fix it
+using<00:02:10.640><c> this</c><00:02:10.879><c> code</c><00:02:11.680><c> an</c><00:02:11.920><c> example</c><00:02:12.640><c> of</c><00:02:12.800><c> where</c><00:02:13.040><c> this</c>
+
+00:02:13.190 --> 00:02:13.200 align:start position:0%
+using this code an example of where this
+ 
+
+00:02:13.200 --> 00:02:15.430 align:start position:0%
+using this code an example of where this
+type<00:02:13.440><c> of</c><00:02:13.599><c> a</c><00:02:13.680><c> code</c><00:02:14.000><c> is</c><00:02:14.080><c> used</c><00:02:14.720><c> is</c><00:02:14.879><c> in</c><00:02:15.120><c> data</c>
+
+00:02:15.430 --> 00:02:15.440 align:start position:0%
+type of a code is used is in data
+ 
+
+00:02:15.440 --> 00:02:19.270 align:start position:0%
+type of a code is used is in data
+modules<00:02:16.480><c> that</c><00:02:16.800><c> have</c><00:02:17.040><c> ecc</c><00:02:18.080><c> this</c><00:02:18.319><c> is</c><00:02:18.959><c> how</c><00:02:19.200><c> they</c>
+
+00:02:19.270 --> 00:02:19.280 align:start position:0%
+modules that have ecc this is how they
+ 
+
+00:02:19.280 --> 00:02:21.190 align:start position:0%
+modules that have ecc this is how they
+are<00:02:19.440><c> protected</c><00:02:20.160><c> so</c><00:02:20.319><c> pretty</c><00:02:20.640><c> much</c><00:02:20.879><c> if</c><00:02:20.959><c> there</c><00:02:21.120><c> is</c>
+
+00:02:21.190 --> 00:02:21.200 align:start position:0%
+are protected so pretty much if there is
+ 
+
+00:02:21.200 --> 00:02:23.190 align:start position:0%
+are protected so pretty much if there is
+a<00:02:21.280><c> single</c><00:02:21.599><c> bit</c><00:02:21.760><c> flip</c><00:02:22.000><c> in</c><00:02:22.080><c> such</c><00:02:22.319><c> a</c><00:02:22.400><c> module</c><00:02:23.040><c> you</c>
+
+00:02:23.190 --> 00:02:23.200 align:start position:0%
+a single bit flip in such a module you
+ 
+
+00:02:23.200 --> 00:02:24.790 align:start position:0%
+a single bit flip in such a module you
+don't<00:02:23.360><c> even</c><00:02:23.599><c> notice</c><00:02:24.000><c> everything</c><00:02:24.400><c> functions</c>
+
+00:02:24.790 --> 00:02:24.800 align:start position:0%
+don't even notice everything functions
+ 
+
+00:02:24.800 --> 00:02:27.270 align:start position:0%
+don't even notice everything functions
+well<00:02:25.280><c> if</c><00:02:25.440><c> there</c><00:02:25.680><c> are</c><00:02:25.840><c> two</c><00:02:26.160><c> errors</c>
+
+00:02:27.270 --> 00:02:27.280 align:start position:0%
+well if there are two errors
+ 
+
+00:02:27.280 --> 00:02:28.869 align:start position:0%
+well if there are two errors
+in<00:02:27.440><c> the</c><00:02:27.520><c> data</c><00:02:27.840><c> that</c><00:02:28.080><c> is</c><00:02:28.160><c> protected</c><00:02:28.640><c> by</c><00:02:28.800><c> the</c>
+
+00:02:28.869 --> 00:02:28.879 align:start position:0%
+in the data that is protected by the
+ 
+
+00:02:28.879 --> 00:02:31.589 align:start position:0%
+in the data that is protected by the
+same<00:02:29.599><c> code</c><00:02:30.319><c> then</c><00:02:30.480><c> we</c><00:02:30.640><c> will</c><00:02:30.800><c> get</c><00:02:30.959><c> notified</c><00:02:31.440><c> that</c>
+
+00:02:31.589 --> 00:02:31.599 align:start position:0%
+same code then we will get notified that
+ 
+
+00:02:31.599 --> 00:02:33.430 align:start position:0%
+same code then we will get notified that
+there's<00:02:31.840><c> been</c><00:02:32.080><c> an</c><00:02:32.239><c> error</c><00:02:32.720><c> but</c><00:02:32.879><c> we</c><00:02:33.040><c> cannot</c>
+
+00:02:33.430 --> 00:02:33.440 align:start position:0%
+there's been an error but we cannot
+ 
+
+00:02:33.440 --> 00:02:34.949 align:start position:0%
+there's been an error but we cannot
+actually<00:02:33.680><c> continue</c><00:02:34.160><c> operating</c><00:02:34.560><c> normally</c>
+
+00:02:34.949 --> 00:02:34.959 align:start position:0%
+actually continue operating normally
+ 
+
+00:02:34.959 --> 00:02:36.869 align:start position:0%
+actually continue operating normally
+because<00:02:35.280><c> actually</c><00:02:35.519><c> we</c><00:02:35.760><c> cannot</c><00:02:36.239><c> correct</c><00:02:36.720><c> the</c>
+
+00:02:36.869 --> 00:02:36.879 align:start position:0%
+because actually we cannot correct the
+ 
+
+00:02:36.879 --> 00:02:40.070 align:start position:0%
+because actually we cannot correct the
+error<00:02:37.280><c> near</c><00:02:37.519><c> state</c><00:02:37.840><c> anymore</c><00:02:38.720><c> hard</c><00:02:38.959><c> drives</c><00:02:39.760><c> use</c>
+
+00:02:40.070 --> 00:02:40.080 align:start position:0%
+error near state anymore hard drives use
+ 
+
+00:02:40.080 --> 00:02:42.869 align:start position:0%
+error near state anymore hard drives use
+even<00:02:40.400><c> fancier</c><00:02:40.959><c> codes</c><00:02:41.760><c> such</c><00:02:42.000><c> as</c><00:02:42.239><c> the</c><00:02:42.560><c> read</c>
+
+00:02:42.869 --> 00:02:42.879 align:start position:0%
+even fancier codes such as the read
+ 
+
+00:02:42.879 --> 00:02:45.110 align:start position:0%
+even fancier codes such as the read
+solomon<00:02:43.360><c> codes</c><00:02:43.920><c> that</c><00:02:44.160><c> i'm</c><00:02:44.319><c> not</c><00:02:44.560><c> going</c><00:02:44.720><c> to</c><00:02:44.879><c> go</c>
+
+00:02:45.110 --> 00:02:45.120 align:start position:0%
+solomon codes that i'm not going to go
+ 
+
+00:02:45.120 --> 00:02:47.830 align:start position:0%
+solomon codes that i'm not going to go
+into<00:02:45.519><c> here</c><00:02:46.239><c> and</c><00:02:46.480><c> these</c><00:02:46.720><c> codes</c><00:02:47.120><c> can</c><00:02:47.280><c> detect</c><00:02:47.680><c> and</c>
+
+00:02:47.830 --> 00:02:47.840 align:start position:0%
+into here and these codes can detect and
+ 
+
+00:02:47.840 --> 00:02:50.550 align:start position:0%
+into here and these codes can detect and
+correct<00:02:48.480><c> multiple</c><00:02:48.959><c> bit</c><00:02:49.200><c> errors</c><00:02:50.160><c> and</c><00:02:50.319><c> they're</c>
+
+00:02:50.550 --> 00:02:50.560 align:start position:0%
+correct multiple bit errors and they're
+ 
+
+00:02:50.560 --> 00:02:52.550 align:start position:0%
+correct multiple bit errors and they're
+especially<00:02:51.280><c> powerful</c><00:02:51.920><c> when</c><00:02:52.080><c> we</c><00:02:52.160><c> have</c><00:02:52.400><c> a</c>
+
+00:02:52.550 --> 00:02:52.560 align:start position:0%
+especially powerful when we have a
+ 
+
+00:02:52.560 --> 00:02:55.830 align:start position:0%
+especially powerful when we have a
+streak<00:02:53.280><c> of</c><00:02:53.440><c> flip</c><00:02:53.840><c> bits</c><00:02:54.560><c> which</c><00:02:54.800><c> happens</c><00:02:55.680><c> for</c>
+
+00:02:55.830 --> 00:02:55.840 align:start position:0%
+streak of flip bits which happens for
+ 
+
+00:02:55.840 --> 00:02:58.470 align:start position:0%
+streak of flip bits which happens for
+example<00:02:56.319><c> when</c><00:02:57.040><c> the</c><00:02:57.280><c> head</c><00:02:57.840><c> oscillates</c><00:02:58.400><c> a</c>
+
+00:02:58.470 --> 00:02:58.480 align:start position:0%
+example when the head oscillates a
+ 
+
+00:02:58.480 --> 00:02:59.990 align:start position:0%
+example when the head oscillates a
+little<00:02:58.720><c> bit</c><00:02:59.040><c> and</c><00:02:59.200><c> while</c><00:02:59.440><c> the</c><00:02:59.599><c> disc</c><00:02:59.920><c> is</c>
+
+00:02:59.990 --> 00:03:00.000 align:start position:0%
+little bit and while the disc is
+ 
+
+00:03:00.000 --> 00:03:02.869 align:start position:0%
+little bit and while the disc is
+spinning<00:03:00.720><c> it</c><00:03:00.959><c> for</c><00:03:01.200><c> a</c><00:03:01.280><c> while</c><00:03:02.000><c> just</c><00:03:02.239><c> is</c><00:03:02.400><c> too</c><00:03:02.640><c> high</c>
+
+00:03:02.869 --> 00:03:02.879 align:start position:0%
+spinning it for a while just is too high
+ 
+
+00:03:02.879 --> 00:03:04.949 align:start position:0%
+spinning it for a while just is too high
+above<00:03:03.120><c> the</c><00:03:03.280><c> platter</c><00:03:03.760><c> and</c><00:03:04.159><c> misses</c><00:03:04.560><c> some</c><00:03:04.720><c> of</c><00:03:04.800><c> the</c>
+
+00:03:04.949 --> 00:03:04.959 align:start position:0%
+above the platter and misses some of the
+ 
+
+00:03:04.959 --> 00:03:06.070 align:start position:0%
+above the platter and misses some of the
+bits
+
+00:03:06.070 --> 00:03:06.080 align:start position:0%
+bits
+ 
+
+00:03:06.080 --> 00:03:08.550 align:start position:0%
+bits
+and<00:03:06.239><c> then</c><00:03:06.879><c> for</c><00:03:07.120><c> hard</c><00:03:07.440><c> drives</c><00:03:07.760><c> in</c><00:03:07.920><c> addition</c><00:03:08.319><c> to</c>
+
+00:03:08.550 --> 00:03:08.560 align:start position:0%
+and then for hard drives in addition to
+ 
+
+00:03:08.560 --> 00:03:10.229 align:start position:0%
+and then for hard drives in addition to
+these<00:03:08.800><c> error</c><00:03:09.120><c> detection</c><00:03:09.599><c> and</c><00:03:09.680><c> correction</c>
+
+00:03:10.229 --> 00:03:10.239 align:start position:0%
+these error detection and correction
+ 
+
+00:03:10.239 --> 00:03:12.550 align:start position:0%
+these error detection and correction
+codes<00:03:10.959><c> there</c><00:03:11.120><c> is</c><00:03:11.280><c> a</c><00:03:11.440><c> family</c><00:03:11.840><c> of</c><00:03:11.920><c> techniques</c>
+
+00:03:12.550 --> 00:03:12.560 align:start position:0%
+codes there is a family of techniques
+ 
+
+00:03:12.560 --> 00:03:13.910 align:start position:0%
+codes there is a family of techniques
+called<00:03:12.959><c> raid</c>
+
+00:03:13.910 --> 00:03:13.920 align:start position:0%
+called raid
+ 
+
+00:03:13.920 --> 00:03:18.200 align:start position:0%
+called raid
+that<00:03:14.080><c> we</c><00:03:14.239><c> will</c><00:03:14.720><c> look</c><00:03:14.959><c> at</c><00:03:15.200><c> next</c>
+

@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.910 align:start position:0%
+ 
+in<00:00:00.160><c> this</c><00:00:00.400><c> lesson</c><00:00:00.719><c> we</c><00:00:00.880><c> discussed</c><00:00:01.280><c> the</c><00:00:01.439><c> reorder</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+in this lesson we discussed the reorder
+ 
+
+00:00:01.920 --> 00:00:04.070 align:start position:0%
+in this lesson we discussed the reorder
+buffer<00:00:02.320><c> which</c><00:00:02.560><c> lets</c><00:00:02.879><c> us</c><00:00:03.040><c> correctly</c><00:00:03.679><c> handle</c>
+
+00:00:04.070 --> 00:00:04.080 align:start position:0%
+buffer which lets us correctly handle
+ 
+
+00:00:04.080 --> 00:00:06.230 align:start position:0%
+buffer which lets us correctly handle
+exceptions<00:00:04.640><c> and</c><00:00:04.799><c> branch</c><00:00:05.200><c> mispredictions</c><00:00:06.000><c> in</c>
+
+00:00:06.230 --> 00:00:06.240 align:start position:0%
+exceptions and branch mispredictions in
+ 
+
+00:00:06.240 --> 00:00:08.150 align:start position:0%
+exceptions and branch mispredictions in
+out<00:00:06.400><c> of</c><00:00:06.640><c> order</c><00:00:06.960><c> processors</c>
+
+00:00:08.150 --> 00:00:08.160 align:start position:0%
+out of order processors
+ 
+
+00:00:08.160 --> 00:00:10.150 align:start position:0%
+out of order processors
+this<00:00:08.400><c> is</c><00:00:08.559><c> very</c><00:00:08.880><c> important</c><00:00:09.360><c> for</c><00:00:09.679><c> actually</c>
+
+00:00:10.150 --> 00:00:10.160 align:start position:0%
+this is very important for actually
+ 
+
+00:00:10.160 --> 00:00:12.790 align:start position:0%
+this is very important for actually
+making<00:00:10.559><c> real</c><00:00:10.880><c> programs</c><00:00:11.360><c> work</c><00:00:12.000><c> so</c><00:00:12.320><c> all</c><00:00:12.559><c> high</c>
+
+00:00:12.790 --> 00:00:12.800 align:start position:0%
+making real programs work so all high
+ 
+
+00:00:12.800 --> 00:00:15.270 align:start position:0%
+making real programs work so all high
+performance<00:00:13.440><c> processors</c><00:00:14.000><c> today</c><00:00:14.799><c> include</c>
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+performance processors today include
+ 
+
+00:00:15.280 --> 00:00:18.720 align:start position:0%
+performance processors today include
+such<00:00:15.519><c> a</c><00:00:15.599><c> reorder</c><00:00:15.920><c> buffer</c>
+

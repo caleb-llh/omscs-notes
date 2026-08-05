@@ -1,0 +1,880 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.300 align:start position:0%
+ 
+let's<00:00:00.420><c> look</c><00:00:00.570><c> at</c><00:00:00.719><c> the</c><00:00:00.870><c> solution</c><00:00:01.280><c> to</c><00:00:02.280><c> our</c>
+
+00:00:02.300 --> 00:00:02.310 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:02.310 --> 00:00:04.400 align:start position:0%
+let's look at the solution to our
+coherence<00:00:02.939><c> definition</c><00:00:03.510><c> quiz</c><00:00:03.750><c> where</c><00:00:04.110><c> we</c><00:00:04.230><c> had</c>
+
+00:00:04.400 --> 00:00:04.410 align:start position:0%
+coherence definition quiz where we had
+ 
+
+00:00:04.410 --> 00:00:07.099 align:start position:0%
+coherence definition quiz where we had
+two<00:00:04.680><c> cores</c><00:00:05.040><c> running</c><00:00:05.390><c> in</c><00:00:06.390><c> a</c><00:00:06.480><c> coherent</c><00:00:06.779><c> system</c>
+
+00:00:07.099 --> 00:00:07.109 align:start position:0%
+two cores running in a coherent system
+ 
+
+00:00:07.109 --> 00:00:09.589 align:start position:0%
+two cores running in a coherent system
+executing<00:00:08.099><c> some</c><00:00:08.370><c> code</c><00:00:08.610><c> and</c><00:00:08.639><c> the</c><00:00:08.970><c> question</c><00:00:09.389><c> was</c>
+
+00:00:09.589 --> 00:00:09.599 align:start position:0%
+executing some code and the question was
+ 
+
+00:00:09.599 --> 00:00:11.770 align:start position:0%
+executing some code and the question was
+basically<00:00:09.929><c> which</c><00:00:10.920><c> of</c><00:00:11.160><c> these</c><00:00:11.309><c> five</c>
+
+00:00:11.770 --> 00:00:11.780 align:start position:0%
+basically which of these five
+ 
+
+00:00:11.780 --> 00:00:14.749 align:start position:0%
+basically which of these five
+possibilities<00:00:12.780><c> for</c><00:00:13.620><c> what</c><00:00:13.830><c> gets</c><00:00:14.099><c> printed</c><00:00:14.340><c> are</c>
+
+00:00:14.749 --> 00:00:14.759 align:start position:0%
+possibilities for what gets printed are
+ 
+
+00:00:14.759 --> 00:00:17.570 align:start position:0%
+possibilities for what gets printed are
+possible<00:00:15.389><c> let's</c><00:00:16.139><c> see</c><00:00:16.379><c> what</c><00:00:16.619><c> can</c><00:00:16.830><c> happen</c><00:00:17.100><c> in</c>
+
+00:00:17.570 --> 00:00:17.580 align:start position:0%
+possible let's see what can happen in
+ 
+
+00:00:17.580 --> 00:00:21.080 align:start position:0%
+possible let's see what can happen in
+these<00:00:17.910><c> two</c><00:00:18.330><c> programs</c><00:00:18.630><c> if</c><00:00:19.439><c> core</c><00:00:19.890><c> one</c><00:00:20.189><c> gets</c><00:00:20.880><c> to</c>
+
+00:00:21.080 --> 00:00:21.090 align:start position:0%
+these two programs if core one gets to
+ 
+
+00:00:21.090 --> 00:00:24.500 align:start position:0%
+these two programs if core one gets to
+go<00:00:21.270><c> first</c><00:00:21.740><c> with</c><00:00:22.740><c> a</c><00:00:22.949><c> equals</c><00:00:23.310><c> one</c><00:00:23.640><c> it's</c><00:00:24.210><c> then</c>
+
+00:00:24.500 --> 00:00:24.510 align:start position:0%
+go first with a equals one it's then
+ 
+
+00:00:24.510 --> 00:00:27.470 align:start position:0%
+go first with a equals one it's then
+going<00:00:24.840><c> to</c><00:00:25.019><c> spin</c><00:00:25.410><c> here</c><00:00:25.890><c> for</c><00:00:26.400><c> as</c><00:00:26.580><c> long</c><00:00:26.609><c> as</c><00:00:26.910><c> X</c>
+
+00:00:27.470 --> 00:00:27.480 align:start position:0%
+going to spin here for as long as X
+ 
+
+00:00:27.480 --> 00:00:30.169 align:start position:0%
+going to spin here for as long as X
+equal<00:00:27.990><c> one</c><00:00:28.170><c> so</c><00:00:28.439><c> it</c><00:00:28.769><c> gets</c><00:00:28.980><c> stuck</c><00:00:29.310><c> until</c><00:00:29.609><c> Core</c><00:00:30.000><c> 2</c>
+
+00:00:30.169 --> 00:00:30.179 align:start position:0%
+equal one so it gets stuck until Core 2
+ 
+
+00:00:30.179 --> 00:00:33.410 align:start position:0%
+equal one so it gets stuck until Core 2
+does<00:00:30.420><c> something</c><00:00:30.990><c> eventually</c><00:00:31.890><c> however</c><00:00:32.520><c> core</c><00:00:33.180><c> 2</c>
+
+00:00:33.410 --> 00:00:33.420 align:start position:0%
+does something eventually however core 2
+ 
+
+00:00:33.420 --> 00:00:37.520 align:start position:0%
+does something eventually however core 2
+we'll<00:00:33.690><c> do</c><00:00:34.020><c> a</c><00:00:34.290><c> equals</c><00:00:34.649><c> 0</c><00:00:35.030><c> in</c><00:00:36.030><c> which</c><00:00:36.329><c> case</c><00:00:36.360><c> core</c><00:00:37.290><c> 1</c>
+
+00:00:37.520 --> 00:00:37.530 align:start position:0%
+we'll do a equals 0 in which case core 1
+ 
+
+00:00:37.530 --> 00:00:41.540 align:start position:0%
+we'll do a equals 0 in which case core 1
+gets<00:00:37.800><c> to</c><00:00:37.920><c> continue</c><00:00:38.309><c> and</c><00:00:38.760><c> now</c><00:00:39.390><c> core</c><00:00:40.260><c> 1</c><00:00:40.550><c> we'll</c>
+
+00:00:41.540 --> 00:00:41.550 align:start position:0%
+gets to continue and now core 1 we'll
+ 
+
+00:00:41.550 --> 00:00:45.950 align:start position:0%
+gets to continue and now core 1 we'll
+set<00:00:41.879><c> a</c><00:00:42.120><c> to</c><00:00:42.180><c> 1</c><00:00:43.219><c> korto</c><00:00:44.219><c> will</c><00:00:44.579><c> wait</c><00:00:44.850><c> here</c><00:00:45.270><c> until</c><00:00:45.480><c> a</c>
+
+00:00:45.950 --> 00:00:45.960 align:start position:0%
+set a to 1 korto will wait here until a
+ 
+
+00:00:45.960 --> 00:00:49.610 align:start position:0%
+set a to 1 korto will wait here until a
+is<00:00:46.289><c> set</c><00:00:47.070><c> to</c><00:00:47.550><c> 1</c><00:00:47.789><c> because</c><00:00:48.030><c> as</c><00:00:48.480><c> long</c><00:00:48.750><c> as</c><00:00:48.960><c> it's</c><00:00:49.140><c> set</c>
+
+00:00:49.610 --> 00:00:49.620 align:start position:0%
+is set to 1 because as long as it's set
+ 
+
+00:00:49.620 --> 00:00:52.130 align:start position:0%
+is set to 1 because as long as it's set
+to<00:00:49.649><c> 0</c><00:00:50.039><c> the</c><00:00:50.640><c> way</c><00:00:50.760><c> it</c><00:00:50.969><c> set</c><00:00:51.270><c> it</c><00:00:51.480><c> is</c><00:00:51.690><c> going</c><00:00:51.870><c> to</c><00:00:51.989><c> get</c>
+
+00:00:52.130 --> 00:00:52.140 align:start position:0%
+to 0 the way it set it is going to get
+ 
+
+00:00:52.140 --> 00:00:52.819 align:start position:0%
+to 0 the way it set it is going to get
+stuck<00:00:52.379><c> here</c>
+
+00:00:52.819 --> 00:00:52.829 align:start position:0%
+stuck here
+ 
+
+00:00:52.829 --> 00:00:56.750 align:start position:0%
+stuck here
+so<00:00:53.550><c> what</c><00:00:53.730><c> then</c><00:00:53.940><c> happens</c><00:00:54.480><c> is</c><00:00:55.100><c> core</c><00:00:56.100><c> 1</c><00:00:56.370><c> when</c><00:00:56.610><c> it</c>
+
+00:00:56.750 --> 00:00:56.760 align:start position:0%
+so what then happens is core 1 when it
+ 
+
+00:00:56.760 --> 00:00:59.450 align:start position:0%
+so what then happens is core 1 when it
+sets<00:00:57.030><c> this</c><00:00:57.300><c> release</c><00:00:57.750><c> is</c><00:00:57.960><c> called</c><00:00:58.260><c> -</c><00:00:58.440><c> now</c><00:00:58.920><c> core</c><00:00:59.250><c> 2</c>
+
+00:00:59.450 --> 00:00:59.460 align:start position:0%
+sets this release is called - now core 2
+ 
+
+00:00:59.460 --> 00:01:02.810 align:start position:0%
+sets this release is called - now core 2
+can<00:00:59.730><c> do</c><00:00:59.910><c> this</c><00:01:00.149><c> and</c><00:01:00.449><c> this</c><00:01:00.809><c> first</c><00:01:01.350><c> while</c><00:01:02.219><c> core</c><00:01:02.609><c> 1</c>
+
+00:01:02.810 --> 00:01:02.820 align:start position:0%
+can do this and this first while core 1
+ 
+
+00:01:02.820 --> 00:01:05.179 align:start position:0%
+can do this and this first while core 1
+is<00:01:02.940><c> still</c><00:01:03.149><c> being</c><00:01:03.329><c> delayed</c><00:01:03.690><c> here</c><00:01:04.140><c> or</c><00:01:04.530><c> it</c><00:01:04.860><c> can</c><00:01:05.070><c> be</c>
+
+00:01:05.179 --> 00:01:05.189 align:start position:0%
+is still being delayed here or it can be
+ 
+
+00:01:05.189 --> 00:01:07.280 align:start position:0%
+is still being delayed here or it can be
+that<00:01:05.369><c> core</c><00:01:05.610><c> 1</c><00:01:05.760><c> gets</c><00:01:05.970><c> here</c><00:01:06.210><c> first</c><00:01:06.420><c> and</c><00:01:06.750><c> then</c>
+
+00:01:07.280 --> 00:01:07.290 align:start position:0%
+that core 1 gets here first and then
+ 
+
+00:01:07.290 --> 00:01:10.670 align:start position:0%
+that core 1 gets here first and then
+core<00:01:07.619><c> 2</c><00:01:07.799><c> gets</c><00:01:08.040><c> here</c><00:01:08.400><c> so</c><00:01:08.939><c> definitely</c><00:01:09.420><c> these</c><00:01:10.380><c> two</c>
+
+00:01:10.670 --> 00:01:10.680 align:start position:0%
+core 2 gets here so definitely these two
+ 
+
+00:01:10.680 --> 00:01:11.780 align:start position:0%
+core 2 gets here so definitely these two
+outcomes<00:01:10.979><c> are</c><00:01:11.189><c> possible</c>
+
+00:01:11.780 --> 00:01:11.790 align:start position:0%
+outcomes are possible
+ 
+
+00:01:11.790 --> 00:01:14.870 align:start position:0%
+outcomes are possible
+they<00:01:12.630><c> basically</c><00:01:12.869><c> depend</c><00:01:13.470><c> on</c><00:01:13.650><c> after</c><00:01:14.369><c> core</c><00:01:14.640><c> 1</c>
+
+00:01:14.870 --> 00:01:14.880 align:start position:0%
+they basically depend on after core 1
+ 
+
+00:01:14.880 --> 00:01:18.080 align:start position:0%
+they basically depend on after core 1
+waits<00:01:15.540><c> for</c><00:01:15.869><c> Core</c><00:01:16.140><c> 2</c><00:01:16.439><c> to</c><00:01:16.650><c> release</c><00:01:17.009><c> it</c><00:01:17.280><c> and</c><00:01:17.520><c> then</c>
+
+00:01:18.080 --> 00:01:18.090 align:start position:0%
+waits for Core 2 to release it and then
+ 
+
+00:01:18.090 --> 00:01:21.410 align:start position:0%
+waits for Core 2 to release it and then
+it<00:01:18.390><c> itself</c><00:01:18.840><c> releases</c><00:01:19.290><c> core</c><00:01:19.799><c> to</c><00:01:20.040><c> who</c><00:01:20.909><c> gets</c><00:01:21.210><c> to</c>
+
+00:01:21.410 --> 00:01:21.420 align:start position:0%
+it itself releases core to who gets to
+ 
+
+00:01:21.420 --> 00:01:23.630 align:start position:0%
+it itself releases core to who gets to
+print<00:01:21.689><c> first</c><00:01:21.960><c> now</c><00:01:22.950><c> let's</c><00:01:23.220><c> see</c><00:01:23.400><c> if</c><00:01:23.460><c> it's</c>
+
+00:01:23.630 --> 00:01:23.640 align:start position:0%
+print first now let's see if it's
+ 
+
+00:01:23.640 --> 00:01:26.510 align:start position:0%
+print first now let's see if it's
+possible<00:01:23.700><c> for</c><00:01:24.450><c> core</c><00:01:24.960><c> 1</c><00:01:25.229><c> to</c><00:01:25.500><c> never</c><00:01:25.799><c> get</c><00:01:26.100><c> to</c><00:01:26.369><c> this</c>
+
+00:01:26.510 --> 00:01:26.520 align:start position:0%
+possible for core 1 to never get to this
+ 
+
+00:01:26.520 --> 00:01:29.270 align:start position:0%
+possible for core 1 to never get to this
+point<00:01:26.850><c> for</c><00:01:27.689><c> that</c><00:01:27.869><c> to</c><00:01:28.080><c> happen</c><00:01:28.290><c> core</c><00:01:28.799><c> one</c><00:01:29.040><c> needs</c>
+
+00:01:29.270 --> 00:01:29.280 align:start position:0%
+point for that to happen core one needs
+ 
+
+00:01:29.280 --> 00:01:31.490 align:start position:0%
+point for that to happen core one needs
+to<00:01:29.430><c> get</c><00:01:29.579><c> stuck</c><00:01:29.909><c> here</c><00:01:30.299><c> in</c><00:01:30.479><c> this</c><00:01:31.049><c> while</c><00:01:31.290><c> loop</c>
+
+00:01:31.490 --> 00:01:31.500 align:start position:0%
+to get stuck here in this while loop
+ 
+
+00:01:31.500 --> 00:01:34.069 align:start position:0%
+to get stuck here in this while loop
+which<00:01:31.799><c> means</c><00:01:32.070><c> that</c><00:01:32.430><c> a</c><00:01:32.549><c> needs</c><00:01:33.210><c> to</c><00:01:33.390><c> stay</c><00:01:33.720><c> 1</c>
+
+00:01:34.069 --> 00:01:34.079 align:start position:0%
+which means that a needs to stay 1
+ 
+
+00:01:34.079 --> 00:01:37.910 align:start position:0%
+which means that a needs to stay 1
+forever<00:01:34.860><c> that</c><00:01:35.549><c> can</c><00:01:35.820><c> only</c><00:01:36.060><c> occur</c><00:01:36.299><c> if</c><00:01:36.930><c> core</c><00:01:37.439><c> 2</c><00:01:37.680><c> is</c>
+
+00:01:37.910 --> 00:01:37.920 align:start position:0%
+forever that can only occur if core 2 is
+ 
+
+00:01:37.920 --> 00:01:40.249 align:start position:0%
+forever that can only occur if core 2 is
+done<00:01:38.280><c> with</c><00:01:38.490><c> its</c><00:01:38.640><c> program</c><00:01:39.119><c> and</c><00:01:39.299><c> the</c><00:01:39.750><c> resulting</c>
+
+00:01:40.249 --> 00:01:40.259 align:start position:0%
+done with its program and the resulting
+ 
+
+00:01:40.259 --> 00:01:43.100 align:start position:0%
+done with its program and the resulting
+value<00:01:40.590><c> of</c><00:01:40.770><c> a</c><00:01:41.070><c> is</c><00:01:41.130><c> still</c><00:01:41.430><c> one</c><00:01:41.700><c> or</c><00:01:42.299><c> if</c><00:01:42.659><c> core</c><00:01:42.930><c> to</c>
+
+00:01:43.100 --> 00:01:43.110 align:start position:0%
+value of a is still one or if core to
+ 
+
+00:01:43.110 --> 00:01:45.710 align:start position:0%
+value of a is still one or if core to
+also<00:01:43.590><c> get</c><00:01:43.799><c> stuck</c><00:01:44.070><c> here</c><00:01:44.460><c> and</c><00:01:44.640><c> the</c><00:01:45.240><c> resulting</c>
+
+00:01:45.710 --> 00:01:45.720 align:start position:0%
+also get stuck here and the resulting
+ 
+
+00:01:45.720 --> 00:01:49.190 align:start position:0%
+also get stuck here and the resulting
+value<00:01:45.869><c> of</c><00:01:46.170><c> a</c><00:01:46.350><c> is</c><00:01:46.590><c> still</c><00:01:46.860><c> one</c><00:01:47.280><c> so</c><00:01:48.119><c> core</c><00:01:48.720><c> 1</c><00:01:48.960><c> is</c>
+
+00:01:49.190 --> 00:01:49.200 align:start position:0%
+value of a is still one so core 1 is
+ 
+
+00:01:49.200 --> 00:01:52.789 align:start position:0%
+value of a is still one so core 1 is
+stuck<00:01:49.500><c> here</c><00:01:49.860><c> and</c><00:01:50.070><c> a</c><00:01:50.310><c> is</c><00:01:50.729><c> 1</c><00:01:51.060><c> if</c><00:01:51.869><c> that</c><00:01:51.930><c> happens</c>
+
+00:01:52.789 --> 00:01:52.799 align:start position:0%
+stuck here and a is 1 if that happens
+ 
+
+00:01:52.799 --> 00:01:55.880 align:start position:0%
+stuck here and a is 1 if that happens
+before<00:01:53.549><c> core</c><00:01:54.329><c> 2</c><00:01:54.540><c> gets</c><00:01:54.810><c> to</c><00:01:54.990><c> a</c><00:01:55.020><c> equals</c><00:01:55.380><c> 0</c><00:01:55.619><c> then</c>
+
+00:01:55.880 --> 00:01:55.890 align:start position:0%
+before core 2 gets to a equals 0 then
+ 
+
+00:01:55.890 --> 00:01:58.130 align:start position:0%
+before core 2 gets to a equals 0 then
+core<00:01:56.159><c> 2</c><00:01:56.340><c> is</c><00:01:56.490><c> gonna</c><00:01:56.729><c> release</c><00:01:56.939><c> core</c><00:01:57.329><c> 1</c><00:01:57.540><c> so</c><00:01:58.110><c> a</c>
+
+00:01:58.130 --> 00:01:58.140 align:start position:0%
+core 2 is gonna release core 1 so a
+ 
+
+00:01:58.140 --> 00:02:01.700 align:start position:0%
+core 2 is gonna release core 1 so a
+equals<00:01:58.649><c> 0</c><00:01:58.950><c> had</c><00:01:59.460><c> to</c><00:01:59.670><c> happen</c><00:01:59.880><c> before</c><00:02:00.060><c> this</c><00:02:00.600><c> if</c><00:02:01.350><c> a</c>
+
+00:02:01.700 --> 00:02:01.710 align:start position:0%
+equals 0 had to happen before this if a
+ 
+
+00:02:01.710 --> 00:02:03.910 align:start position:0%
+equals 0 had to happen before this if a
+equals<00:02:02.009><c> 0</c><00:02:02.250><c> happened</c><00:02:02.729><c> before</c><00:02:03.149><c> all</c><00:02:03.329><c> of</c><00:02:03.479><c> this</c>
+
+00:02:03.910 --> 00:02:03.920 align:start position:0%
+equals 0 happened before all of this
+ 
+
+00:02:03.920 --> 00:02:07.520 align:start position:0%
+equals 0 happened before all of this
+then<00:02:04.920><c> what</c><00:02:05.130><c> happens</c><00:02:05.490><c> is</c><00:02:05.640><c> a</c><00:02:05.790><c> equals</c><00:02:06.210><c> 0</c><00:02:06.509><c> equals</c><00:02:07.439><c> 1</c>
+
+00:02:07.520 --> 00:02:07.530 align:start position:0%
+then what happens is a equals 0 equals 1
+ 
+
+00:02:07.530 --> 00:02:11.360 align:start position:0%
+then what happens is a equals 0 equals 1
+now<00:02:08.220><c> we're</c><00:02:08.429><c> stuck</c><00:02:08.789><c> waiting</c><00:02:09.060><c> for</c><00:02:09.270><c> 1</c><00:02:09.800><c> but</c><00:02:10.800><c> core</c><00:02:11.129><c> 2</c>
+
+00:02:11.360 --> 00:02:11.370 align:start position:0%
+now we're stuck waiting for 1 but core 2
+ 
+
+00:02:11.370 --> 00:02:13.820 align:start position:0%
+now we're stuck waiting for 1 but core 2
+will<00:02:11.610><c> continue</c><00:02:12.330><c> and</c><00:02:12.540><c> it</c><00:02:13.260><c> has</c>
+
+00:02:13.820 --> 00:02:13.830 align:start position:0%
+will continue and it has
+ 
+
+00:02:13.830 --> 00:02:15.290 align:start position:0%
+will continue and it has
+to<00:02:13.890><c> see</c><00:02:14.100><c> the</c><00:02:14.280><c> one</c><00:02:14.520><c> because</c><00:02:14.850><c> this</c><00:02:15.120><c> is</c><00:02:15.180><c> a</c>
+
+00:02:15.290 --> 00:02:15.300 align:start position:0%
+to see the one because this is a
+ 
+
+00:02:15.300 --> 00:02:18.710 align:start position:0%
+to see the one because this is a
+coherent<00:02:15.660><c> system</c><00:02:16.280><c> eventually</c><00:02:17.720><c> because</c>
+
+00:02:18.710 --> 00:02:18.720 align:start position:0%
+coherent system eventually because
+ 
+
+00:02:18.720 --> 00:02:21.740 align:start position:0%
+coherent system eventually because
+equals<00:02:19.500><c> one</c><00:02:19.770><c> happened</c><00:02:20.400><c> after</c><00:02:20.940><c> equals</c><00:02:21.450><c> zero</c>
+
+00:02:21.740 --> 00:02:21.750 align:start position:0%
+equals one happened after equals zero
+ 
+
+00:02:21.750 --> 00:02:26.750 align:start position:0%
+equals one happened after equals zero
+Core<00:02:22.560><c> 2</c><00:02:22.800><c> has</c><00:02:23.100><c> to</c><00:02:23.370><c> see</c><00:02:23.640><c> the</c><00:02:24.450><c> 1</c><00:02:24.660><c> and</c><00:02:24.960><c> proceed</c><00:02:25.760><c> once</c>
+
+00:02:26.750 --> 00:02:26.760 align:start position:0%
+Core 2 has to see the 1 and proceed once
+ 
+
+00:02:26.760 --> 00:02:30.680 align:start position:0%
+Core 2 has to see the 1 and proceed once
+it<00:02:26.970><c> proceeds</c><00:02:27.390><c> is</c><00:02:27.510><c> going</c><00:02:27.720><c> to</c><00:02:27.810><c> set</c><00:02:28.080><c> a</c><00:02:28.760><c> 2-0</c><00:02:29.760><c> core</c>
+
+00:02:30.680 --> 00:02:30.690 align:start position:0%
+it proceeds is going to set a 2-0 core
+ 
+
+00:02:30.690 --> 00:02:33.200 align:start position:0%
+it proceeds is going to set a 2-0 core
+one<00:02:30.930><c> has</c><00:02:31.200><c> to</c><00:02:31.410><c> see</c><00:02:31.650><c> that</c><00:02:31.940><c> because</c><00:02:32.940><c> of</c><00:02:32.970><c> the</c>
+
+00:02:33.200 --> 00:02:33.210 align:start position:0%
+one has to see that because of the
+ 
+
+00:02:33.210 --> 00:02:34.820 align:start position:0%
+one has to see that because of the
+second<00:02:33.660><c> part</c><00:02:33.840><c> of</c><00:02:33.960><c> the</c><00:02:34.080><c> definition</c><00:02:34.230><c> and</c>
+
+00:02:34.820 --> 00:02:34.830 align:start position:0%
+second part of the definition and
+ 
+
+00:02:34.830 --> 00:02:39.170 align:start position:0%
+second part of the definition and
+proceed<00:02:35.640><c> so</c><00:02:36.330><c> it's</c><00:02:36.450><c> not</c><00:02:36.690><c> possible</c><00:02:37.410><c> to</c><00:02:37.950><c> get</c><00:02:38.180><c> core</c>
+
+00:02:39.170 --> 00:02:39.180 align:start position:0%
+proceed so it's not possible to get core
+ 
+
+00:02:39.180 --> 00:02:42.290 align:start position:0%
+proceed so it's not possible to get core
+1<00:02:39.420><c> stuck</c><00:02:39.780><c> here</c><00:02:40.290><c> by</c><00:02:40.920><c> just</c><00:02:41.250><c> moving</c><00:02:41.430><c> the</c><00:02:41.760><c> a</c><00:02:41.790><c> equals</c>
+
+00:02:42.290 --> 00:02:42.300 align:start position:0%
+1 stuck here by just moving the a equals
+ 
+
+00:02:42.300 --> 00:02:45.170 align:start position:0%
+1 stuck here by just moving the a equals
+0<00:02:42.570><c> to</c><00:02:43.200><c> the</c><00:02:43.350><c> beginning</c><00:02:43.800><c> now</c><00:02:43.980><c> let's</c><00:02:44.730><c> see</c><00:02:44.880><c> if</c><00:02:44.970><c> it's</c>
+
+00:02:45.170 --> 00:02:45.180 align:start position:0%
+0 to the beginning now let's see if it's
+ 
+
+00:02:45.180 --> 00:02:47.210 align:start position:0%
+0 to the beginning now let's see if it's
+possible<00:02:45.390><c> for</c><00:02:45.720><c> Core</c><00:02:46.110><c> 2</c><00:02:46.260><c> to</c><00:02:46.440><c> finish</c><00:02:46.860><c> the</c><00:02:47.040><c> whole</c>
+
+00:02:47.210 --> 00:02:47.220 align:start position:0%
+possible for Core 2 to finish the whole
+ 
+
+00:02:47.220 --> 00:02:49.370 align:start position:0%
+possible for Core 2 to finish the whole
+thing<00:02:47.490><c> before</c><00:02:48.030><c> this</c><00:02:48.330><c> happens</c><00:02:48.870><c> in</c><00:02:48.990><c> which</c><00:02:49.140><c> case</c>
+
+00:02:49.370 --> 00:02:49.380 align:start position:0%
+thing before this happens in which case
+ 
+
+00:02:49.380 --> 00:02:52.130 align:start position:0%
+thing before this happens in which case
+core<00:02:49.830><c> 1</c><00:02:50.070><c> will</c><00:02:50.340><c> get</c><00:02:50.580><c> stuck</c><00:02:50.820><c> here</c><00:02:51.150><c> but</c><00:02:51.900><c> that's</c>
+
+00:02:52.130 --> 00:02:52.140 align:start position:0%
+core 1 will get stuck here but that's
+ 
+
+00:02:52.140 --> 00:02:55.010 align:start position:0%
+core 1 will get stuck here but that's
+not<00:02:52.380><c> possible</c><00:02:52.620><c> because</c><00:02:53.070><c> core</c><00:02:53.580><c> 2</c><00:02:53.850><c> now</c><00:02:54.630><c> needs</c><00:02:54.900><c> to</c>
+
+00:02:55.010 --> 00:02:55.020 align:start position:0%
+not possible because core 2 now needs to
+ 
+
+00:02:55.020 --> 00:02:57.860 align:start position:0%
+not possible because core 2 now needs to
+execute<00:02:55.200><c> this</c><00:02:55.500><c> whole</c><00:02:55.740><c> program</c><00:02:56.250><c> here</c><00:02:57.120><c> before</c>
+
+00:02:57.860 --> 00:02:57.870 align:start position:0%
+execute this whole program here before
+ 
+
+00:02:57.870 --> 00:03:00.110 align:start position:0%
+execute this whole program here before
+core<00:02:58.140><c> 1</c><00:02:58.320><c> even</c><00:02:58.590><c> begins</c><00:02:58.950><c> that's</c><00:02:59.670><c> not</c><00:02:59.880><c> possible</c>
+
+00:03:00.110 --> 00:03:00.120 align:start position:0%
+core 1 even begins that's not possible
+ 
+
+00:03:00.120 --> 00:03:03.590 align:start position:0%
+core 1 even begins that's not possible
+because<00:03:00.540><c> core</c><00:03:01.020><c> 2</c><00:03:01.260><c> sets</c><00:03:01.980><c> a</c><00:03:02.190><c> to</c><00:03:02.250><c> 0</c><00:03:02.670><c> and</c><00:03:02.910><c> then</c>
+
+00:03:03.590 --> 00:03:03.600 align:start position:0%
+because core 2 sets a to 0 and then
+ 
+
+00:03:03.600 --> 00:03:06.650 align:start position:0%
+because core 2 sets a to 0 and then
+waits<00:03:03.900><c> for</c><00:03:04.230><c> it</c><00:03:04.320><c> to</c><00:03:04.350><c> become</c><00:03:04.650><c> nonzero</c><00:03:05.360><c> so</c><00:03:06.360><c> core</c>
+
+00:03:06.650 --> 00:03:06.660 align:start position:0%
+waits for it to become nonzero so core
+ 
+
+00:03:06.660 --> 00:03:08.630 align:start position:0%
+waits for it to become nonzero so core
+to<00:03:06.690><c> cannot</c><00:03:07.320><c> finish</c><00:03:07.709><c> the</c><00:03:07.980><c> whole</c><00:03:08.160><c> thing</c><00:03:08.400><c> until</c>
+
+00:03:08.630 --> 00:03:08.640 align:start position:0%
+to cannot finish the whole thing until
+ 
+
+00:03:08.640 --> 00:03:11.449 align:start position:0%
+to cannot finish the whole thing until
+core<00:03:09.120><c> 1</c><00:03:09.330><c> does</c><00:03:09.510><c> at</c><00:03:09.690><c> least</c><00:03:09.720><c> this</c><00:03:10.110><c> at</c><00:03:10.470><c> which</c><00:03:11.160><c> point</c>
+
+00:03:11.449 --> 00:03:11.459 align:start position:0%
+core 1 does at least this at which point
+ 
+
+00:03:11.459 --> 00:03:13.340 align:start position:0%
+core 1 does at least this at which point
+we<00:03:11.610><c> are</c><00:03:11.640><c> back</c><00:03:11.880><c> to</c><00:03:12.150><c> the</c><00:03:12.270><c> first</c><00:03:12.540><c> case</c><00:03:12.750><c> of</c><00:03:12.810><c> pretty</c>
+
+00:03:13.340 --> 00:03:13.350 align:start position:0%
+we are back to the first case of pretty
+ 
+
+00:03:13.350 --> 00:03:15.650 align:start position:0%
+we are back to the first case of pretty
+much<00:03:13.560><c> core</c><00:03:13.890><c> 1</c><00:03:14.100><c> will</c><00:03:14.310><c> eventually</c><00:03:14.820><c> see</c><00:03:15.000><c> that</c><00:03:15.209><c> the</c>
+
+00:03:15.650 --> 00:03:15.660 align:start position:0%
+much core 1 will eventually see that the
+ 
+
+00:03:15.660 --> 00:03:17.810 align:start position:0%
+much core 1 will eventually see that the
+a<00:03:15.690><c> is</c><00:03:15.870><c> 0</c><00:03:16.200><c> because</c><00:03:16.560><c> core</c><00:03:16.830><c> to</c><00:03:17.010><c> set</c><00:03:17.250><c> it</c><00:03:17.400><c> that</c><00:03:17.580><c> way</c>
+
+00:03:17.810 --> 00:03:17.820 align:start position:0%
+a is 0 because core to set it that way
+ 
+
+00:03:17.820 --> 00:03:19.970 align:start position:0%
+a is 0 because core to set it that way
+after<00:03:18.630><c> a</c><00:03:18.810><c> became</c><00:03:19.530><c> 1</c>
+
+00:03:19.970 --> 00:03:19.980 align:start position:0%
+after a became 1
+ 
+
+00:03:19.980 --> 00:03:22.009 align:start position:0%
+after a became 1
+it's<00:03:20.340><c> also</c><00:03:20.640><c> important</c><00:03:21.209><c> to</c><00:03:21.239><c> notice</c><00:03:21.690><c> that</c><00:03:21.720><c> it's</c>
+
+00:03:22.009 --> 00:03:22.019 align:start position:0%
+it's also important to notice that it's
+ 
+
+00:03:22.019 --> 00:03:25.340 align:start position:0%
+it's also important to notice that it's
+not<00:03:22.260><c> possible</c><00:03:22.560><c> for</c><00:03:23.070><c> for</c><00:03:23.730><c> example</c><00:03:24.080><c> equals</c><00:03:25.080><c> 1</c>
+
+00:03:25.340 --> 00:03:25.350 align:start position:0%
+not possible for for example equals 1
+ 
+
+00:03:25.350 --> 00:03:28.910 align:start position:0%
+not possible for for example equals 1
+and<00:03:25.620><c> a</c><00:03:26.190><c> equals</c><00:03:26.519><c> 2</c><00:03:26.820><c> to</c><00:03:27.780><c> happen</c><00:03:28.230><c> one</c><00:03:28.440><c> after</c><00:03:28.470><c> the</c>
+
+00:03:28.910 --> 00:03:28.920 align:start position:0%
+and a equals 2 to happen one after the
+ 
+
+00:03:28.920 --> 00:03:31.220 align:start position:0%
+and a equals 2 to happen one after the
+other<00:03:28.950><c> and</c><00:03:29.370><c> then</c><00:03:29.820><c> core</c><00:03:30.120><c> one</c><00:03:30.360><c> thinks</c><00:03:30.780><c> that</c><00:03:30.810><c> this</c>
+
+00:03:31.220 --> 00:03:31.230 align:start position:0%
+other and then core one thinks that this
+ 
+
+00:03:31.230 --> 00:03:34.250 align:start position:0%
+other and then core one thinks that this
+was<00:03:31.560><c> the</c><00:03:31.739><c> last</c><00:03:31.920><c> right</c><00:03:32.390><c> so</c><00:03:33.390><c> it</c><00:03:33.510><c> gets</c><00:03:33.690><c> stuck</c><00:03:33.900><c> here</c>
+
+00:03:34.250 --> 00:03:34.260 align:start position:0%
+was the last right so it gets stuck here
+ 
+
+00:03:34.260 --> 00:03:36.590 align:start position:0%
+was the last right so it gets stuck here
+while<00:03:34.739><c> core</c><00:03:35.070><c> 2</c><00:03:35.310><c> thinks</c><00:03:35.730><c> this</c><00:03:35.940><c> was</c><00:03:36.239><c> the</c><00:03:36.420><c> last</c>
+
+00:03:36.590 --> 00:03:36.600 align:start position:0%
+while core 2 thinks this was the last
+ 
+
+00:03:36.600 --> 00:03:38.990 align:start position:0%
+while core 2 thinks this was the last
+right<00:03:36.900><c> and</c><00:03:37.140><c> then</c><00:03:37.320><c> gets</c><00:03:37.560><c> stuck</c><00:03:37.620><c> here</c><00:03:38.070><c> because</c>
+
+00:03:38.990 --> 00:03:39.000 align:start position:0%
+right and then gets stuck here because
+ 
+
+00:03:39.000 --> 00:03:40.490 align:start position:0%
+right and then gets stuck here because
+the<00:03:39.120><c> third</c><00:03:39.360><c> part</c><00:03:39.750><c> of</c><00:03:39.930><c> the</c><00:03:40.050><c> coherence</c>
+
+00:03:40.490 --> 00:03:40.500 align:start position:0%
+the third part of the coherence
+ 
+
+00:03:40.500 --> 00:03:43.520 align:start position:0%
+the third part of the coherence
+definition<00:03:41.010><c> says</c><00:03:41.250><c> that</c><00:03:41.900><c> both</c><00:03:42.900><c> of</c><00:03:42.930><c> them</c><00:03:43.260><c> have</c>
+
+00:03:43.520 --> 00:03:43.530 align:start position:0%
+definition says that both of them have
+ 
+
+00:03:43.530 --> 00:03:45.920 align:start position:0%
+definition says that both of them have
+to<00:03:43.650><c> think</c><00:03:43.950><c> that</c><00:03:44.430><c> the</c><00:03:44.610><c> same</c><00:03:44.910><c> axis</c><00:03:45.390><c> was</c><00:03:45.600><c> the</c><00:03:45.720><c> last</c>
+
+00:03:45.920 --> 00:03:45.930 align:start position:0%
+to think that the same axis was the last
+ 
+
+00:03:45.930 --> 00:03:47.960 align:start position:0%
+to think that the same axis was the last
+one<00:03:46.200><c> so</c><00:03:46.530><c> if</c><00:03:46.620><c> they</c><00:03:46.739><c> agree</c><00:03:47.040><c> that</c><00:03:47.070><c> this</c><00:03:47.610><c> was</c><00:03:47.820><c> the</c>
+
+00:03:47.960 --> 00:03:47.970 align:start position:0%
+one so if they agree that this was the
+ 
+
+00:03:47.970 --> 00:03:50.270 align:start position:0%
+one so if they agree that this was the
+last<00:03:48.150><c> one</c><00:03:48.420><c> then</c><00:03:49.140><c> this</c><00:03:49.410><c> core</c><00:03:49.709><c> gets</c><00:03:49.860><c> released</c>
+
+00:03:50.270 --> 00:03:50.280 align:start position:0%
+last one then this core gets released
+ 
+
+00:03:50.280 --> 00:03:52.970 align:start position:0%
+last one then this core gets released
+and<00:03:50.580><c> then</c><00:03:50.910><c> ends</c><00:03:51.090><c> up</c><00:03:51.209><c> releasing</c><00:03:51.570><c> the</c><00:03:52.470><c> first</c><00:03:52.739><c> one</c>
+
+00:03:52.970 --> 00:03:52.980 align:start position:0%
+and then ends up releasing the first one
+ 
+
+00:03:52.980 --> 00:03:55.520 align:start position:0%
+and then ends up releasing the first one
+if<00:03:53.519><c> they</c><00:03:53.790><c> think</c><00:03:54.090><c> this</c><00:03:54.390><c> was</c><00:03:54.690><c> the</c><00:03:54.720><c> last</c><00:03:54.870><c> access</c>
+
+00:03:55.520 --> 00:03:55.530 align:start position:0%
+if they think this was the last access
+ 
+
+00:03:55.530 --> 00:03:57.920 align:start position:0%
+if they think this was the last access
+then<00:03:56.220><c> this</c><00:03:56.459><c> core</c><00:03:56.790><c> gets</c><00:03:57.060><c> to</c><00:03:57.209><c> be</c><00:03:57.330><c> released</c><00:03:57.690><c> and</c>
+
+00:03:57.920 --> 00:03:57.930 align:start position:0%
+then this core gets to be released and
+ 
+
+00:03:57.930 --> 00:04:00.380 align:start position:0%
+then this core gets to be released and
+releases<00:03:58.709><c> the</c><00:03:58.890><c> second</c><00:03:59.340><c> one</c><00:03:59.489><c> so</c><00:03:59.760><c> either</c><00:04:00.060><c> way</c>
+
+00:04:00.380 --> 00:04:00.390 align:start position:0%
+releases the second one so either way
+ 
+
+00:04:00.390 --> 00:04:02.960 align:start position:0%
+releases the second one so either way
+it's<00:04:00.870><c> not</c><00:04:01.170><c> possible</c><00:04:01.800><c> to</c><00:04:01.980><c> get</c><00:04:02.130><c> any</c><00:04:02.459><c> of</c><00:04:02.640><c> the</c><00:04:02.760><c> 3</c>
+
+00:04:02.960 --> 00:04:02.970 align:start position:0%
+it's not possible to get any of the 3
+ 
+
+00:04:02.970 --> 00:04:06.710 align:start position:0%
+it's not possible to get any of the 3
+printouts<00:04:03.480><c> in</c><00:04:03.750><c> an</c><00:04:04.410><c> incoherent</c><00:04:05.220><c> system</c><00:04:05.880><c> it</c><00:04:06.420><c> can</c>
+
+00:04:06.710 --> 00:04:06.720 align:start position:0%
+printouts in an incoherent system it can
+ 
+
+00:04:06.720 --> 00:04:11.060 align:start position:0%
+printouts in an incoherent system it can
+easily<00:04:07.050><c> happen</c><00:04:07.700><c> that</c><00:04:08.700><c> you</c><00:04:08.850><c> get</c><00:04:09.060><c> these</c><00:04:09.810><c> or</c><00:04:10.530><c> any</c>
+
+00:04:11.060 --> 00:04:11.070 align:start position:0%
+easily happen that you get these or any
+ 
+
+00:04:11.070 --> 00:04:12.979 align:start position:0%
+easily happen that you get these or any
+of<00:04:11.370><c> these</c><00:04:11.489><c> other</c><00:04:11.760><c> three</c><00:04:12.030><c> so</c><00:04:12.360><c> for</c><00:04:12.570><c> example</c>
+
+00:04:12.979 --> 00:04:12.989 align:start position:0%
+of these other three so for example
+ 
+
+00:04:12.989 --> 00:04:16.390 align:start position:0%
+of these other three so for example
+nothing<00:04:13.500><c> can</c><00:04:14.310><c> be</c><00:04:14.459><c> printed</c><00:04:14.730><c> then</c><00:04:15.209><c> by</c><00:04:15.840><c> simply</c>
+
+00:04:16.390 --> 00:04:16.400 align:start position:0%
+nothing can be printed then by simply
+ 
+
+00:04:16.400 --> 00:04:19.400 align:start position:0%
+nothing can be printed then by simply
+storing<00:04:17.400><c> one</c><00:04:17.729><c> to</c><00:04:17.880><c> the</c><00:04:18.000><c> cache</c><00:04:18.239><c> and</c><00:04:18.570><c> then</c><00:04:18.750><c> never</c>
+
+00:04:19.400 --> 00:04:19.410 align:start position:0%
+storing one to the cache and then never
+ 
+
+00:04:19.410 --> 00:04:21.560 align:start position:0%
+storing one to the cache and then never
+really<00:04:19.919><c> checking</c><00:04:20.669><c> anything</c><00:04:21.030><c> else</c><00:04:21.390><c> just</c>
+
+00:04:21.560 --> 00:04:21.570 align:start position:0%
+really checking anything else just
+ 
+
+00:04:21.570 --> 00:04:23.360 align:start position:0%
+really checking anything else just
+looping<00:04:21.959><c> on</c><00:04:22.200><c> the</c><00:04:22.350><c> value</c><00:04:22.590><c> in</c><00:04:22.680><c> the</c><00:04:22.770><c> cache</c><00:04:22.979><c> here</c>
+
+00:04:23.360 --> 00:04:23.370 align:start position:0%
+looping on the value in the cache here
+ 
+
+00:04:23.370 --> 00:04:25.370 align:start position:0%
+looping on the value in the cache here
+meanwhile<00:04:24.000><c> this</c><00:04:24.210><c> one</c><00:04:24.390><c> stores</c><00:04:24.630><c> another</c><00:04:24.990><c> value</c>
+
+00:04:25.370 --> 00:04:25.380 align:start position:0%
+meanwhile this one stores another value
+ 
+
+00:04:25.380 --> 00:04:27.260 align:start position:0%
+meanwhile this one stores another value
+in<00:04:25.440><c> its</c><00:04:25.560><c> own</c><00:04:25.710><c> cache</c><00:04:25.950><c> then</c><00:04:26.550><c> just</c><00:04:26.820><c> infinitely</c>
+
+00:04:27.260 --> 00:04:27.270 align:start position:0%
+in its own cache then just infinitely
+ 
+
+00:04:27.270 --> 00:04:27.620 align:start position:0%
+in its own cache then just infinitely
+space
+
+00:04:27.620 --> 00:04:27.630 align:start position:0%
+space
+ 
+
+00:04:27.630 --> 00:04:29.870 align:start position:0%
+space
+on<00:04:27.810><c> it</c><00:04:28.110><c> and</c><00:04:28.200><c> then</c><00:04:28.890><c> you</c><00:04:28.980><c> can</c><00:04:29.160><c> get</c><00:04:29.280><c> the</c><00:04:29.430><c> other</c><00:04:29.550><c> two</c>
+
+00:04:29.870 --> 00:04:29.880 align:start position:0%
+on it and then you can get the other two
+ 
+
+00:04:29.880 --> 00:04:32.420 align:start position:0%
+on it and then you can get the other two
+possibilities<00:04:30.810><c> here</c><00:04:31.080><c> by</c><00:04:31.470><c> simply</c><00:04:31.800><c> one</c><00:04:32.010><c> of</c><00:04:32.220><c> them</c>
+
+00:04:32.420 --> 00:04:32.430 align:start position:0%
+possibilities here by simply one of them
+ 
+
+00:04:32.430 --> 00:04:35.450 align:start position:0%
+possibilities here by simply one of them
+not<00:04:33.000><c> being</c><00:04:33.270><c> entirely</c><00:04:33.750><c> incoherent</c><00:04:34.680><c> so</c><00:04:35.220><c> as</c><00:04:35.340><c> you</c>
+
+00:04:35.450 --> 00:04:35.460 align:start position:0%
+not being entirely incoherent so as you
+ 
+
+00:04:35.460 --> 00:04:38.960 align:start position:0%
+not being entirely incoherent so as you
+can<00:04:35.640><c> see</c><00:04:35.820><c> a</c><00:04:36.000><c> coherent</c><00:04:36.540><c> system</c><00:04:37.580><c> prevents</c><00:04:38.580><c> some</c>
+
+00:04:38.960 --> 00:04:38.970 align:start position:0%
+can see a coherent system prevents some
+ 
+
+00:04:38.970 --> 00:04:41.570 align:start position:0%
+can see a coherent system prevents some
+of<00:04:39.150><c> the</c><00:04:39.270><c> behaviors</c><00:04:39.900><c> that</c><00:04:40.170><c> are</c><00:04:40.800><c> possible</c>
+
+00:04:41.570 --> 00:04:41.580 align:start position:0%
+of the behaviors that are possible
+ 
+
+00:04:41.580 --> 00:04:44.390 align:start position:0%
+of the behaviors that are possible
+in<00:04:41.640><c> an</c><00:04:41.880><c> incoherent</c><00:04:42.510><c> system</c><00:04:43.140><c> but</c><00:04:43.860><c> all</c><00:04:44.100><c> the</c>
+
+00:04:44.390 --> 00:04:44.400 align:start position:0%
+in an incoherent system but all the
+ 
+
+00:04:44.400 --> 00:04:46.430 align:start position:0%
+in an incoherent system but all the
+behaviors<00:04:44.940><c> that</c><00:04:45.210><c> are</c><00:04:45.480><c> possible</c><00:04:45.960><c> in</c><00:04:46.140><c> the</c>
+
+00:04:46.430 --> 00:04:46.440 align:start position:0%
+behaviors that are possible in the
+ 
+
+00:04:46.440 --> 00:04:48.350 align:start position:0%
+behaviors that are possible in the
+coherent<00:04:46.890><c> system</c><00:04:47.190><c> are</c><00:04:47.310><c> also</c><00:04:47.640><c> possible</c><00:04:48.030><c> in</c><00:04:48.240><c> an</c>
+
+00:04:48.350 --> 00:04:48.360 align:start position:0%
+coherent system are also possible in an
+ 
+
+00:04:48.360 --> 00:04:51.140 align:start position:0%
+coherent system are also possible in an
+incoherent<00:04:48.810><c> one</c><00:04:49.140><c> so</c><00:04:49.710><c> coherence</c><00:04:50.340><c> is</c><00:04:50.580><c> allowed</c>
+
+00:04:51.140 --> 00:04:51.150 align:start position:0%
+incoherent one so coherence is allowed
+ 
+
+00:04:51.150 --> 00:04:53.660 align:start position:0%
+incoherent one so coherence is allowed
+in<00:04:51.540><c> an</c><00:04:51.750><c> incoherent</c><00:04:52.230><c> system</c><00:04:52.830><c> is</c><00:04:53.100><c> just</c><00:04:53.460><c> that</c>
+
+00:04:53.660 --> 00:04:53.670 align:start position:0%
+in an incoherent system is just that
+ 
+
+00:04:53.670 --> 00:04:56.330 align:start position:0%
+in an incoherent system is just that
+incoherent<00:04:54.420><c> systems</c><00:04:54.810><c> don't</c><00:04:55.410><c> guarantee</c><00:04:55.680><c> that</c>
+
+00:04:56.330 --> 00:04:56.340 align:start position:0%
+incoherent systems don't guarantee that
+ 
+
+00:04:56.340 --> 00:04:57.920 align:start position:0%
+incoherent systems don't guarantee that
+all<00:04:56.550><c> their</c><00:04:56.820><c> behaviors</c><00:04:57.330><c> are</c><00:04:57.540><c> going</c><00:04:57.570><c> to</c><00:04:57.840><c> be</c>
+
+00:04:57.920 --> 00:04:57.930 align:start position:0%
+all their behaviors are going to be
+ 
+
+00:04:57.930 --> 00:05:00.290 align:start position:0%
+all their behaviors are going to be
+coherent
+

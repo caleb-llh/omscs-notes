@@ -1,0 +1,384 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:02.690 align:start position:0%
+ 
+finally<00:00:00.960><c> let</c><00:00:01.140><c> us</c><00:00:01.290><c> discuss</c><00:00:01.680><c> in</c><00:00:01.920><c> our</c><00:00:02.010><c> OB</c><00:00:02.490><c> based</c>
+
+00:00:02.690 --> 00:00:02.700 align:start position:0%
+finally let us discuss in our OB based
+ 
+
+00:00:02.700 --> 00:00:04.940 align:start position:0%
+finally let us discuss in our OB based
+out<00:00:02.970><c> of</c><00:00:03.000><c> order</c><00:00:03.389><c> execution</c><00:00:03.510><c> processor</c><00:00:04.440><c> what</c>
+
+00:00:04.940 --> 00:00:04.950 align:start position:0%
+out of order execution processor what
+ 
+
+00:00:04.950 --> 00:00:07.940 align:start position:0%
+out of order execution processor what
+really<00:00:05.250><c> is</c><00:00:05.520><c> out</c><00:00:05.819><c> of</c><00:00:06.000><c> order</c><00:00:06.359><c> here</c><00:00:06.629><c> so</c><00:00:07.589><c> this</c><00:00:07.770><c> is</c><00:00:07.919><c> a</c>
+
+00:00:07.940 --> 00:00:07.950 align:start position:0%
+really is out of order here so this is a
+ 
+
+00:00:07.950 --> 00:00:10.520 align:start position:0%
+really is out of order here so this is a
+processor<00:00:08.490><c> pipeline</c><00:00:08.760><c> let's</c><00:00:09.240><c> say</c><00:00:09.420><c> this</c><00:00:10.139><c> is</c><00:00:10.200><c> the</c>
+
+00:00:10.520 --> 00:00:10.530 align:start position:0%
+processor pipeline let's say this is the
+ 
+
+00:00:10.530 --> 00:00:12.560 align:start position:0%
+processor pipeline let's say this is the
+fetch<00:00:10.800><c> stage</c><00:00:10.920><c> there</c><00:00:11.400><c> is</c><00:00:11.429><c> a</c><00:00:11.550><c> decode</c><00:00:12.030><c> stage</c><00:00:12.210><c> we</c>
+
+00:00:12.560 --> 00:00:12.570 align:start position:0%
+fetch stage there is a decode stage we
+ 
+
+00:00:12.570 --> 00:00:15.259 align:start position:0%
+fetch stage there is a decode stage we
+issue<00:00:13.009><c> then</c><00:00:14.009><c> we</c><00:00:14.160><c> dispatch</c><00:00:14.639><c> and</c><00:00:14.910><c> then</c><00:00:15.000><c> we</c><00:00:15.120><c> have</c>
+
+00:00:15.259 --> 00:00:15.269 align:start position:0%
+issue then we dispatch and then we have
+ 
+
+00:00:15.269 --> 00:00:17.269 align:start position:0%
+issue then we dispatch and then we have
+execution<00:00:16.080><c> and</c><00:00:16.260><c> then</c><00:00:16.529><c> the</c><00:00:16.770><c> write</c><00:00:16.980><c> of</c><00:00:17.160><c> the</c>
+
+00:00:17.269 --> 00:00:17.279 align:start position:0%
+execution and then the write of the
+ 
+
+00:00:17.279 --> 00:00:18.859 align:start position:0%
+execution and then the write of the
+result<00:00:17.609><c> which</c><00:00:17.789><c> is</c><00:00:17.820><c> the</c><00:00:17.970><c> broadcast</c><00:00:18.570><c> we</c><00:00:18.720><c> have</c>
+
+00:00:18.859 --> 00:00:18.869 align:start position:0%
+result which is the broadcast we have
+ 
+
+00:00:18.869 --> 00:00:21.620 align:start position:0%
+result which is the broadcast we have
+and<00:00:19.109><c> then</c><00:00:19.230><c> finally</c><00:00:19.680><c> the</c><00:00:19.800><c> commit</c><00:00:20.160><c> so</c><00:00:21.029><c> in</c><00:00:21.300><c> this</c>
+
+00:00:21.620 --> 00:00:21.630 align:start position:0%
+and then finally the commit so in this
+ 
+
+00:00:21.630 --> 00:00:23.990 align:start position:0%
+and then finally the commit so in this
+pipeline<00:00:22.560><c> if</c><00:00:23.010><c> this</c><00:00:23.220><c> was</c><00:00:23.400><c> an</c><00:00:23.519><c> out</c><00:00:23.670><c> of</c><00:00:23.699><c> order</c>
+
+00:00:23.990 --> 00:00:24.000 align:start position:0%
+pipeline if this was an out of order
+ 
+
+00:00:24.000 --> 00:00:26.599 align:start position:0%
+pipeline if this was an out of order
+processor<00:00:24.150><c> keep</c><00:00:25.050><c> in</c><00:00:25.230><c> mind</c><00:00:25.470><c> that</c><00:00:25.769><c> not</c><00:00:26.039><c> all</c><00:00:26.279><c> of</c>
+
+00:00:26.599 --> 00:00:26.609 align:start position:0%
+processor keep in mind that not all of
+ 
+
+00:00:26.609 --> 00:00:28.160 align:start position:0%
+processor keep in mind that not all of
+these<00:00:26.789><c> stages</c><00:00:27.060><c> are</c><00:00:27.300><c> processing</c><00:00:27.960><c> instructions</c>
+
+00:00:28.160 --> 00:00:28.170 align:start position:0%
+these stages are processing instructions
+ 
+
+00:00:28.170 --> 00:00:29.390 align:start position:0%
+these stages are processing instructions
+out<00:00:28.650><c> of</c><00:00:28.830><c> order</c>
+
+00:00:29.390 --> 00:00:29.400 align:start position:0%
+out of order
+ 
+
+00:00:29.400 --> 00:00:33.620 align:start position:0%
+out of order
+in<00:00:29.939><c> fact</c><00:00:30.560><c> from</c><00:00:31.560><c> fetch</c><00:00:31.890><c> up</c><00:00:32.189><c> to</c><00:00:32.460><c> issue</c><00:00:32.669><c> we</c><00:00:33.600><c> are</c>
+
+00:00:33.620 --> 00:00:33.630 align:start position:0%
+in fact from fetch up to issue we are
+ 
+
+00:00:33.630 --> 00:00:35.840 align:start position:0%
+in fact from fetch up to issue we are
+processing<00:00:34.320><c> instructions</c><00:00:34.530><c> in</c><00:00:35.010><c> order</c><00:00:35.250><c> we</c><00:00:35.640><c> have</c>
+
+00:00:35.840 --> 00:00:35.850 align:start position:0%
+processing instructions in order we have
+ 
+
+00:00:35.850 --> 00:00:37.729 align:start position:0%
+processing instructions in order we have
+to<00:00:36.000><c> fetch</c><00:00:36.239><c> them</c><00:00:36.450><c> in</c><00:00:36.630><c> the</c><00:00:36.780><c> order</c><00:00:36.930><c> that</c><00:00:37.110><c> they</c>
+
+00:00:37.729 --> 00:00:37.739 align:start position:0%
+to fetch them in the order that they
+ 
+
+00:00:37.739 --> 00:00:39.500 align:start position:0%
+to fetch them in the order that they
+should<00:00:37.950><c> appear</c><00:00:38.219><c> in</c><00:00:38.280><c> the</c><00:00:38.460><c> program</c><00:00:38.910><c> within</c>
+
+00:00:39.500 --> 00:00:39.510 align:start position:0%
+should appear in the program within
+ 
+
+00:00:39.510 --> 00:00:41.299 align:start position:0%
+should appear in the program within
+decode<00:00:39.989><c> them</c><00:00:40.170><c> in</c><00:00:40.290><c> the</c><00:00:40.379><c> correct</c><00:00:40.680><c> order</c><00:00:40.860><c> and</c><00:00:41.129><c> we</c>
+
+00:00:41.299 --> 00:00:41.309 align:start position:0%
+decode them in the correct order and we
+ 
+
+00:00:41.309 --> 00:00:43.700 align:start position:0%
+decode them in the correct order and we
+fetch<00:00:41.579><c> them</c><00:00:41.790><c> if</c><00:00:41.910><c> you</c><00:00:42.000><c> remember</c><00:00:42.390><c> in</c><00:00:42.629><c> order</c><00:00:43.170><c> this</c>
+
+00:00:43.700 --> 00:00:43.710 align:start position:0%
+fetch them if you remember in order this
+ 
+
+00:00:43.710 --> 00:00:45.709 align:start position:0%
+fetch them if you remember in order this
+ensures<00:00:44.160><c> that</c><00:00:44.190><c> any</c><00:00:44.610><c> dependencies</c><00:00:45.270><c> we</c><00:00:45.390><c> figure</c>
+
+00:00:45.709 --> 00:00:45.719 align:start position:0%
+ensures that any dependencies we figure
+ 
+
+00:00:45.719 --> 00:00:47.389 align:start position:0%
+ensures that any dependencies we figure
+out<00:00:45.780><c> here</c><00:00:46.079><c> are</c><00:00:46.289><c> the</c><00:00:46.410><c> dependencies</c><00:00:46.890><c> that</c><00:00:47.070><c> are</c>
+
+00:00:47.389 --> 00:00:47.399 align:start position:0%
+out here are the dependencies that are
+ 
+
+00:00:47.399 --> 00:00:48.889 align:start position:0%
+out here are the dependencies that are
+compatible<00:00:47.700><c> with</c><00:00:48.000><c> the</c><00:00:48.239><c> original</c><00:00:48.570><c> program</c>
+
+00:00:48.889 --> 00:00:48.899 align:start position:0%
+compatible with the original program
+ 
+
+00:00:48.899 --> 00:00:50.990 align:start position:0%
+compatible with the original program
+order<00:00:49.110><c> now</c><00:00:49.680><c> that</c><00:00:49.950><c> we</c><00:00:50.460><c> have</c><00:00:50.640><c> issued</c>
+
+00:00:50.990 --> 00:00:51.000 align:start position:0%
+order now that we have issued
+ 
+
+00:00:51.000 --> 00:00:52.819 align:start position:0%
+order now that we have issued
+instructions<00:00:51.510><c> to</c><00:00:51.629><c> reservation</c><00:00:52.140><c> stations</c><00:00:52.649><c> and</c>
+
+00:00:52.819 --> 00:00:52.829 align:start position:0%
+instructions to reservation stations and
+ 
+
+00:00:52.829 --> 00:00:54.529 align:start position:0%
+instructions to reservation stations and
+they're<00:00:52.949><c> waiting</c><00:00:53.280><c> for</c><00:00:53.309><c> execution</c><00:00:54.030><c> they're</c>
+
+00:00:54.529 --> 00:00:54.539 align:start position:0%
+they're waiting for execution they're
+ 
+
+00:00:54.539 --> 00:00:57.110 align:start position:0%
+they're waiting for execution they're
+gonna<00:00:54.750><c> execute</c><00:00:55.140><c> in</c><00:00:55.590><c> the</c><00:00:55.980><c> order</c><00:00:56.760><c> of</c><00:00:56.910><c> data</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+gonna execute in the order of data
+ 
+
+00:00:57.120 --> 00:00:59.000 align:start position:0%
+gonna execute in the order of data
+dependencies<00:00:57.870><c> not</c><00:00:58.079><c> necessarily</c><00:00:58.559><c> in</c><00:00:58.620><c> program</c>
+
+00:00:59.000 --> 00:00:59.010 align:start position:0%
+dependencies not necessarily in program
+ 
+
+00:00:59.010 --> 00:01:01.250 align:start position:0%
+dependencies not necessarily in program
+order<00:00:59.160><c> so</c><00:00:59.879><c> the</c><00:01:00.030><c> execution</c><00:01:00.270><c> and</c><00:01:00.750><c> writing</c><00:01:01.140><c> of</c>
+
+00:01:01.250 --> 00:01:01.260 align:start position:0%
+order so the execution and writing of
+ 
+
+00:01:01.260 --> 00:01:04.100 align:start position:0%
+order so the execution and writing of
+results<00:01:01.800><c> are</c><00:01:02.489><c> happening</c><00:01:03.059><c> out</c><00:01:03.270><c> of</c><00:01:03.449><c> order</c><00:01:03.870><c> and</c>
+
+00:01:04.100 --> 00:01:04.110 align:start position:0%
+results are happening out of order and
+ 
+
+00:01:04.110 --> 00:01:07.490 align:start position:0%
+results are happening out of order and
+then<00:01:04.739><c> again</c><00:01:05.400><c> commit</c><00:01:06.000><c> needs</c><00:01:06.659><c> to</c><00:01:06.930><c> do</c>
+
+00:01:07.490 --> 00:01:07.500 align:start position:0%
+then again commit needs to do
+ 
+
+00:01:07.500 --> 00:01:09.410 align:start position:0%
+then again commit needs to do
+instructions<00:01:08.010><c> in</c><00:01:08.159><c> the</c><00:01:08.310><c> proper</c><00:01:08.640><c> program</c><00:01:09.060><c> order</c>
+
+00:01:09.410 --> 00:01:09.420 align:start position:0%
+instructions in the proper program order
+ 
+
+00:01:09.420 --> 00:01:11.450 align:start position:0%
+instructions in the proper program order
+because<00:01:09.780><c> if</c><00:01:09.900><c> you</c><00:01:09.990><c> remember</c><00:01:10.260><c> the</c><00:01:11.010><c> order</c><00:01:11.369><c> of</c>
+
+00:01:11.450 --> 00:01:11.460 align:start position:0%
+because if you remember the order of
+ 
+
+00:01:11.460 --> 00:01:13.160 align:start position:0%
+because if you remember the order of
+committing<00:01:11.970><c> is</c><00:01:12.150><c> really</c><00:01:12.540><c> the</c><00:01:12.750><c> order</c><00:01:13.020><c> in</c><00:01:13.140><c> which</c>
+
+00:01:13.160 --> 00:01:13.170 align:start position:0%
+committing is really the order in which
+ 
+
+00:01:13.170 --> 00:01:15.590 align:start position:0%
+committing is really the order in which
+we<00:01:13.350><c> tell</c><00:01:14.130><c> the</c><00:01:14.490><c> outside</c><00:01:14.850><c> world</c><00:01:15.090><c> that</c><00:01:15.420><c> we</c><00:01:15.570><c> are</c>
+
+00:01:15.590 --> 00:01:15.600 align:start position:0%
+we tell the outside world that we are
+ 
+
+00:01:15.600 --> 00:01:17.749 align:start position:0%
+we tell the outside world that we are
+finishing<00:01:15.990><c> instructions</c><00:01:16.680><c> so</c><00:01:17.250><c> this</c><00:01:17.430><c> has</c><00:01:17.640><c> to</c>
+
+00:01:17.749 --> 00:01:17.759 align:start position:0%
+finishing instructions so this has to
+ 
+
+00:01:17.759 --> 00:01:19.399 align:start position:0%
+finishing instructions so this has to
+happen<00:01:17.939><c> in</c><00:01:18.240><c> order</c><00:01:18.450><c> to</c><00:01:18.630><c> give</c><00:01:19.049><c> the</c><00:01:19.170><c> appearance</c>
+
+00:01:19.399 --> 00:01:19.409 align:start position:0%
+happen in order to give the appearance
+ 
+
+00:01:19.409 --> 00:01:20.990 align:start position:0%
+happen in order to give the appearance
+that<00:01:19.650><c> we</c><00:01:19.890><c> are</c><00:01:19.950><c> executing</c><00:01:20.430><c> instructions</c><00:01:20.880><c> in</c>
+
+00:01:20.990 --> 00:01:21.000 align:start position:0%
+that we are executing instructions in
+ 
+
+00:01:21.000 --> 00:01:23.480 align:start position:0%
+that we are executing instructions in
+program<00:01:21.119><c> order</c><00:01:21.500><c> so</c><00:01:22.500><c> when</c><00:01:22.860><c> we</c><00:01:22.979><c> have</c><00:01:23.159><c> an</c><00:01:23.250><c> out</c><00:01:23.460><c> of</c>
+
+00:01:23.480 --> 00:01:23.490 align:start position:0%
+program order so when we have an out of
+ 
+
+00:01:23.490 --> 00:01:26.600 align:start position:0%
+program order so when we have an out of
+order<00:01:23.820><c> processor</c><00:01:23.970><c> it</c><00:01:24.900><c> really</c><00:01:25.439><c> is</c><00:01:25.590><c> doing</c><00:01:25.830><c> many</c>
+
+00:01:26.600 --> 00:01:26.610 align:start position:0%
+order processor it really is doing many
+ 
+
+00:01:26.610 --> 00:01:29.149 align:start position:0%
+order processor it really is doing many
+stages<00:01:27.180><c> in</c><00:01:27.330><c> order</c><00:01:27.540><c> and</c><00:01:27.869><c> only</c><00:01:28.380><c> the</c><00:01:28.530><c> execution</c>
+
+00:01:29.149 --> 00:01:29.159 align:start position:0%
+stages in order and only the execution
+ 
+
+00:01:29.159 --> 00:01:31.760 align:start position:0%
+stages in order and only the execution
+and<00:01:29.369><c> broadcast</c><00:01:30.180><c> and</c><00:01:30.450><c> things</c><00:01:30.960><c> in</c><00:01:31.140><c> between</c><00:01:31.259><c> are</c>
+
+00:01:31.760 --> 00:01:31.770 align:start position:0%
+and broadcast and things in between are
+ 
+
+00:01:31.770 --> 00:01:33.289 align:start position:0%
+and broadcast and things in between are
+happening<00:01:32.250><c> out</c><00:01:32.430><c> of</c><00:01:32.610><c> order</c><00:01:32.970><c> so</c><00:01:33.150><c> the</c>
+
+00:01:33.289 --> 00:01:33.299 align:start position:0%
+happening out of order so the
+ 
+
+00:01:33.299 --> 00:01:35.420 align:start position:0%
+happening out of order so the
+dispatching<00:01:33.960><c> the</c><00:01:34.049><c> execution</c><00:01:34.560><c> the</c><00:01:34.979><c> writing</c><00:01:35.310><c> of</c>
+
+00:01:35.420 --> 00:01:35.430 align:start position:0%
+dispatching the execution the writing of
+ 
+
+00:01:35.430 --> 00:01:37.190 align:start position:0%
+dispatching the execution the writing of
+results<00:01:35.880><c> everything</c><00:01:36.479><c> else</c><00:01:36.659><c> is</c><00:01:36.780><c> still</c><00:01:36.869><c> in</c>
+
+00:01:37.190 --> 00:01:37.200 align:start position:0%
+results everything else is still in
+ 
+
+00:01:37.200 --> 00:01:39.499 align:start position:0%
+results everything else is still in
+order<00:01:37.560><c> in</c><00:01:37.829><c> contrast</c><00:01:38.520><c> what</c><00:01:38.790><c> we</c><00:01:38.909><c> would</c><00:01:39.060><c> call</c><00:01:39.299><c> an</c>
+
+00:01:39.499 --> 00:01:39.509 align:start position:0%
+order in contrast what we would call an
+ 
+
+00:01:39.509 --> 00:01:41.780 align:start position:0%
+order in contrast what we would call an
+inorder<00:01:40.020><c> processor</c><00:01:40.049><c> just</c><00:01:40.590><c> as</c><00:01:40.920><c> these</c><00:01:41.100><c> in</c><00:01:41.400><c> order</c>
+
+00:01:41.780 --> 00:01:41.790 align:start position:0%
+inorder processor just as these in order
+ 
+
+00:01:41.790 --> 00:01:43.700 align:start position:0%
+inorder processor just as these in order
+to<00:01:42.030><c> but</c><00:01:42.720><c> even</c><00:01:42.899><c> an</c><00:01:43.140><c> out</c><00:01:43.259><c> of</c><00:01:43.290><c> order</c><00:01:43.560><c> processor</c>
+
+00:01:43.700 --> 00:01:43.710 align:start position:0%
+to but even an out of order processor
+ 
+
+00:01:43.710 --> 00:01:47.210 align:start position:0%
+to but even an out of order processor
+does<00:01:44.189><c> a</c><00:01:44.220><c> lot</c><00:01:44.520><c> of</c><00:01:44.700><c> things</c><00:01:44.909><c> in</c><00:01:45.060><c> order</c>
+

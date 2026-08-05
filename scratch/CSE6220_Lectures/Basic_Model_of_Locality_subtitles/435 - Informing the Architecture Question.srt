@@ -1,0 +1,92 @@
+1
+00:00:00,380 --> 00:00:03,620
+ One of the neat things you can do with this kind of analysis is to inform
+
+2
+00:00:03,620 --> 00:00:05,890
+ the design of computer architectures.
+
+3
+00:00:05,890 --> 00:00:07,560
+ Let's look at a simple example.
+
+4
+00:00:07,560 --> 00:00:10,860
+ Suppose your computer architecture colleague wants to build a machine that
+
+5
+00:00:10,860 --> 00:00:12,876
+ does deep learning better.
+
+6
+00:00:12,876 --> 00:00:16,350
+ As you probably know, deep learning is kind of a synonym for neural networks,
+
+7
+00:00:16,350 --> 00:00:18,100
+ which pop up in machine learning.
+
+8
+00:00:18,100 --> 00:00:21,040
+ Take my OMS class on machine learning.
+
+9
+00:00:21,040 --> 00:00:24,160
+ It's totally deep, man.
+
+10
+00:00:24,160 --> 00:00:26,290
+ So, suppose you have machine that's really,
+
+11
+00:00:26,290 --> 00:00:29,460
+ really good at matrix multiply at a particular size.
+
+12
+00:00:29,460 --> 00:00:34,655
+ Now, suppose that in the next generation machine, the balance doubles.
+
+13
+00:00:34,655 --> 00:00:38,660
+ Recall that the machine balance is defined to be alpha divide by tau.
+
+14
+00:00:38,660 --> 00:00:42,190
+ Alpha is the time to a transfer from slow memory to fast memory.
+
+15
+00:00:42,190 --> 00:00:45,890
+ And tau is the time to do an operation once the data is local.
+
+16
+00:00:45,890 --> 00:00:48,290
+ The fact that balancing has doubled is bad.
+
+17
+00:00:48,290 --> 00:00:52,820
+ It means you have to be able to do twice as many operations locally on
+
+18
+00:00:52,820 --> 00:00:57,200
+ the processor, in the time that it takes to move data from slow to fast memory.
+
+19
+00:00:57,200 --> 00:01:01,160
+ So, if machine balance doubles then your computation might slow down,
+
+20
+00:01:01,160 --> 00:01:03,330
+ unless you compensate.
+
+21
+00:01:03,330 --> 00:01:07,210
+ I claim you can compensate by increasing the fast memory size.
+
+22
+00:01:07,210 --> 00:01:11,770
+ My question is, by how much does z have to increase in order to compensate for
+
+23
+00:01:11,770 --> 00:01:11,770
+ the machine balance doubling?
+

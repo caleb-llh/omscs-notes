@@ -1,0 +1,304 @@
+1
+00:00:00,280 --> 00:00:03,100
+ Let's recap where things stand by connecting the idea of
+
+2
+00:00:03,100 --> 00:00:08,250
+ the lower bound to the one d-block row algorithm and the two d-suma algorithm.
+
+3
+00:00:08,250 --> 00:00:12,030
+ First, there's the one d algorithm, who's communication time is this.
+
+4
+00:00:12,030 --> 00:00:14,570
+ Then, there's the two d-suma algorithm.
+
+5
+00:00:14,570 --> 00:00:17,010
+ Remember, there are two variants depending on whether you assume
+
+6
+00:00:17,010 --> 00:00:20,680
+ a broadcast is tree based or bucket based.
+
+7
+00:00:20,680 --> 00:00:25,090
+ Also remember that the suma algorithm has a tuning parameter, a little s.
+
+8
+00:00:25,090 --> 00:00:31,310
+ At the maximum value of s, a lower bound on the communication time would be this.
+
+9
+00:00:31,310 --> 00:00:35,070
+ So what I've done is taken the maximum value of s, plugged it into these two
+
+10
+00:00:35,070 --> 00:00:40,740
+ parameters, and just taken the best case latency and bandwidth bounds.
+
+11
+00:00:40,740 --> 00:00:45,530
+ This way we don't have to fuss with tree based versus bucket based analyses.
+
+12
+00:00:45,530 --> 00:00:48,750
+ So, these are times for concrete algorithms.
+
+13
+00:00:48,750 --> 00:00:51,730
+ Then, there's the lower bound on communication.
+
+14
+00:00:51,730 --> 00:00:55,060
+ So, relative to the lower bounds, SUMA looks pretty good.
+
+15
+00:00:55,060 --> 00:00:59,240
+ Matches in the beta term, and is just off by a little bit in the alpha term.
+
+16
+00:00:59,240 --> 00:01:02,610
+ So, can you do even better than SUMA?
+
+17
+00:01:02,610 --> 00:01:06,480
+ In fact, you can, using an algorithm called Cannon's algorithm.
+
+18
+00:01:06,480 --> 00:01:10,430
+ It has a communication time that exactly matches the lower bound.
+
+19
+00:01:10,430 --> 00:01:13,590
+ It's an impressive algorithm in the sense that it predates the lower bound
+
+20
+00:01:13,590 --> 00:01:15,050
+ analysis.
+
+21
+00:01:15,050 --> 00:01:21,000
+ In fact, Cannon developed the algorithm as part of its PhD dissertation in 1969,
+
+22
+00:01:21,000 --> 00:01:22,920
+ groovy baby.
+
+23
+00:01:22,920 --> 00:01:25,570
+ I wish Mike Myers was here.
+
+24
+00:01:25,570 --> 00:01:28,680
+ Unfortunately, Cannon's Algorithm suffers from a few restrictions that
+
+25
+00:01:28,680 --> 00:01:30,240
+ make it not quite as easy and
+
+26
+00:01:30,240 --> 00:01:33,780
+ practical to implement compared to the SUMMA algorithm.
+
+27
+00:01:33,780 --> 00:01:37,110
+ Anyway, if you want more details head to the instructor's notes.
+
+28
+00:01:37,110 --> 00:01:39,270
+ Now what about beating the lower bound?
+
+29
+00:01:39,270 --> 00:01:43,130
+ The lower bound analysis makes a critical assumption.
+
+30
+00:01:43,130 --> 00:01:45,090
+ Can you spot it?
+
+31
+00:01:45,090 --> 00:01:46,990
+ The assumption is this one.
+
+32
+00:01:46,990 --> 00:01:51,250
+ That is, you assumed you only had enough memory on each node to store
+
+33
+00:01:51,250 --> 00:01:53,340
+ n squared over p data.
+
+34
+00:01:53,340 --> 00:01:56,480
+ Recall the cube of multiplications concept.
+
+35
+00:01:56,480 --> 00:02:01,920
+ This assumption is akin to distributing surfaces of the cubes across nodes.
+
+36
+00:02:01,920 --> 00:02:05,070
+ So a good question is whether having more memory would let you
+
+37
+00:02:05,070 --> 00:02:08,639
+ replicate some data, and thereby reduce communication.
+
+38
+00:02:08,639 --> 00:02:12,800
+ One example of such a scheme is a three dimensional algorithm.
+
+39
+00:02:12,800 --> 00:02:16,270
+ It says rather than distributing the surface is why not distribute
+
+40
+00:02:16,270 --> 00:02:17,880
+ the volume.
+
+41
+00:02:17,880 --> 00:02:19,620
+ That is suppose you took the nodes and
+
+42
+00:02:19,620 --> 00:02:23,920
+ arranged in them in a 3-D mesh, instead of a 2-D mesh.
+
+43
+00:02:23,920 --> 00:02:26,570
+ So suppose you have capital P nodes
+
+44
+00:02:26,570 --> 00:02:31,360
+ now put them in a 3D mesh of size cube root of p on a side.
+
+45
+00:02:31,360 --> 00:02:35,770
+ You could then assign chunks of this n cubed work to each node.
+
+46
+00:02:35,770 --> 00:02:39,850
+ Each chunk consists of n cubed over p multiplications.
+
+47
+00:02:39,850 --> 00:02:43,590
+ Ideally you'd like to set up this scheme in such a way that every node can update
+
+48
+00:02:43,590 --> 00:02:45,960
+ its cube concurrently.
+
+49
+00:02:45,960 --> 00:02:48,900
+ Now to do that you're going to need to have cube root of P
+
+50
+00:02:48,900 --> 00:02:51,430
+ copies of each submatrix.
+
+51
+00:02:51,430 --> 00:02:55,860
+ For instance, consider these three processes.
+
+52
+00:02:55,860 --> 00:02:59,240
+ So you either need to predistribute copies of the matrices, or
+
+53
+00:02:59,240 --> 00:03:03,490
+ depending on how the operands are allocated, do some kind of broadcast.
+
+54
+00:03:03,490 --> 00:03:06,110
+ Here's what such a broadcast might cost you.
+
+55
+00:03:06,110 --> 00:03:09,100
+ In this case, i've assumed a tree-based scheme, and of course,
+
+56
+00:03:09,100 --> 00:03:12,890
+ you'd incur the same cost to ++broadcast b and c.
+
+57
+00:03:12,890 --> 00:03:14,740
+ Now, once all the upper ends are replicated,
+
+58
+00:03:14,740 --> 00:03:18,610
+ you can do local multiplications, and depending on where you want the final
+
+59
+00:03:18,610 --> 00:03:22,450
+ results to be, you might need to combine the copies of C.
+
+60
+00:03:22,450 --> 00:03:26,190
+ You can, of course, do that with a reduction, and since reduce is the dual
+
+61
+00:03:26,190 --> 00:03:30,880
+ of broadcast, the overall communication cost still matches the broadcast cost.
+
+62
+00:03:30,880 --> 00:03:31,950
+ At least asymptotically.
+
+63
+00:03:31,950 --> 00:03:34,480
+ You could also do an all reduce to get
+
+64
+00:03:34,480 --> 00:03:37,670
+ replicated results within a block column.
+
+65
+00:03:37,670 --> 00:03:40,780
+ So let's compare this to our 2-D lower bound.
+
+66
+00:03:40,780 --> 00:03:44,490
+ If you have enough memory to replicate by a factor of cube root of P,
+
+67
+00:03:44,490 --> 00:03:48,420
+ you can get a cube root of P reduction in the communication time.
+
+68
+00:03:48,420 --> 00:03:51,250
+ So what if you don't have this much storage?
+
+69
+00:03:51,250 --> 00:03:55,530
+ Well, you could imagine a hybrid or 2.5-D scheme.
+
+70
+00:03:55,530 --> 00:03:59,520
+ Rather than full replication, you could use partial replication.
+
+71
+00:03:59,520 --> 00:04:02,780
+ That could reduce the memory requirement, but perhaps at a cost of
+
+72
+00:04:02,780 --> 00:04:06,640
+ a slightly increased communication time relative to the 3-D case.
+
+73
+00:04:06,640 --> 00:04:08,330
+ But wait. You know what?
+
+74
+00:04:08,330 --> 00:04:11,390
+ Let's save the two point five d scheme for another time.
+
+75
+00:04:11,390 --> 00:04:13,440
+ Like, an exam!
+
+76
+00:04:13,440 --> 00:04:13,440
+ Oh, no, not an exam!
+

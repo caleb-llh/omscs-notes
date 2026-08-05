@@ -1,0 +1,752 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:03.030 align:start position:0%
+ 
+so<00:00:00.560><c> what's</c><00:00:00.960><c> raid</c><00:00:01.199><c> 1</c><00:00:01.439><c> reliability</c><00:00:02.399><c> if</c><00:00:02.560><c> we</c><00:00:02.800><c> do</c>
+
+00:00:03.030 --> 00:00:03.040 align:start position:0%
+so what's raid 1 reliability if we do
+ 
+
+00:00:03.040 --> 00:00:06.230 align:start position:0%
+so what's raid 1 reliability if we do
+replace<00:00:03.600><c> failed</c><00:00:03.919><c> disks</c><00:00:04.400><c> as</c><00:00:04.560><c> soon</c><00:00:04.880><c> as</c><00:00:04.960><c> possible</c>
+
+00:00:06.230 --> 00:00:06.240 align:start position:0%
+replace failed disks as soon as possible
+ 
+
+00:00:06.240 --> 00:00:08.070 align:start position:0%
+replace failed disks as soon as possible
+we<00:00:06.400><c> have</c><00:00:06.560><c> the</c><00:00:06.720><c> situation</c><00:00:07.200><c> that</c><00:00:07.440><c> both</c><00:00:07.680><c> disks</c>
+
+00:00:08.070 --> 00:00:08.080 align:start position:0%
+we have the situation that both disks
+ 
+
+00:00:08.080 --> 00:00:09.190 align:start position:0%
+we have the situation that both disks
+are<00:00:08.240><c> ok</c>
+
+00:00:09.190 --> 00:00:09.200 align:start position:0%
+are ok
+ 
+
+00:00:09.200 --> 00:00:12.230 align:start position:0%
+are ok
+for<00:00:09.840><c> this</c><00:00:10.160><c> amount</c><00:00:10.480><c> of</c><00:00:10.639><c> time</c><00:00:11.440><c> then</c><00:00:11.759><c> a</c><00:00:11.840><c> disk</c>
+
+00:00:12.230 --> 00:00:12.240 align:start position:0%
+for this amount of time then a disk
+ 
+
+00:00:12.240 --> 00:00:15.350 align:start position:0%
+for this amount of time then a disk
+fails<00:00:12.960><c> and</c><00:00:13.120><c> then</c><00:00:13.360><c> we</c><00:00:13.519><c> have</c><00:00:13.679><c> only</c><00:00:14.000><c> one</c><00:00:14.240><c> ok</c><00:00:14.639><c> disk</c>
+
+00:00:15.350 --> 00:00:15.360 align:start position:0%
+fails and then we have only one ok disk
+ 
+
+00:00:15.360 --> 00:00:17.510 align:start position:0%
+fails and then we have only one ok disk
+for<00:00:15.599><c> the</c><00:00:15.759><c> mean</c><00:00:16.000><c> time</c><00:00:16.240><c> to</c><00:00:16.400><c> repair</c><00:00:16.800><c> for</c><00:00:17.039><c> one</c><00:00:17.199><c> disk</c>
+
+00:00:17.510 --> 00:00:17.520 align:start position:0%
+for the mean time to repair for one disk
+ 
+
+00:00:17.520 --> 00:00:19.510 align:start position:0%
+for the mean time to repair for one disk
+so<00:00:17.680><c> this</c><00:00:17.920><c> is</c><00:00:18.080><c> how</c><00:00:18.240><c> long</c><00:00:18.480><c> does</c><00:00:18.720><c> it</c><00:00:18.880><c> take</c><00:00:19.119><c> us</c><00:00:19.359><c> to</c>
+
+00:00:19.510 --> 00:00:19.520 align:start position:0%
+so this is how long does it take us to
+ 
+
+00:00:19.520 --> 00:00:21.189 align:start position:0%
+so this is how long does it take us to
+replace<00:00:20.000><c> the</c><00:00:20.160><c> disk</c>
+
+00:00:21.189 --> 00:00:21.199 align:start position:0%
+replace the disk
+ 
+
+00:00:21.199 --> 00:00:22.550 align:start position:0%
+replace the disk
+after<00:00:21.600><c> that</c>
+
+00:00:22.550 --> 00:00:22.560 align:start position:0%
+after that
+ 
+
+00:00:22.560 --> 00:00:25.029 align:start position:0%
+after that
+both<00:00:22.800><c> disks</c><00:00:23.119><c> are</c><00:00:23.279><c> okay</c><00:00:23.600><c> again</c><00:00:24.480><c> and</c><00:00:24.640><c> then</c><00:00:24.880><c> we</c>
+
+00:00:25.029 --> 00:00:25.039 align:start position:0%
+both disks are okay again and then we
+ 
+
+00:00:25.039 --> 00:00:27.029 align:start position:0%
+both disks are okay again and then we
+again<00:00:25.519><c> have</c><00:00:25.760><c> this</c><00:00:26.000><c> long</c><00:00:26.240><c> until</c><00:00:26.560><c> the</c><00:00:26.720><c> next</c>
+
+00:00:27.029 --> 00:00:27.039 align:start position:0%
+again have this long until the next
+ 
+
+00:00:27.039 --> 00:00:30.150 align:start position:0%
+again have this long until the next
+failure<00:00:27.760><c> so</c><00:00:28.000><c> what's</c><00:00:28.400><c> the</c><00:00:28.560><c> mean</c><00:00:28.880><c> time</c><00:00:29.519><c> to</c><00:00:29.760><c> data</c>
+
+00:00:30.150 --> 00:00:30.160 align:start position:0%
+failure so what's the mean time to data
+ 
+
+00:00:30.160 --> 00:00:33.270 align:start position:0%
+failure so what's the mean time to data
+loss<00:00:30.720><c> for</c><00:00:30.880><c> raid</c><00:00:31.199><c> 1</c><00:00:31.519><c> with</c><00:00:31.679><c> two</c><00:00:31.920><c> disks</c>
+
+00:00:33.270 --> 00:00:33.280 align:start position:0%
+loss for raid 1 with two disks
+ 
+
+00:00:33.280 --> 00:00:35.350 align:start position:0%
+loss for raid 1 with two disks
+the<00:00:33.520><c> question</c><00:00:33.920><c> really</c><00:00:34.239><c> is</c>
+
+00:00:35.350 --> 00:00:35.360 align:start position:0%
+the question really is
+ 
+
+00:00:35.360 --> 00:00:38.150 align:start position:0%
+the question really is
+how<00:00:35.520><c> many</c><00:00:35.840><c> times</c><00:00:36.239><c> can</c><00:00:36.480><c> we</c><00:00:36.640><c> have</c><00:00:36.880><c> this</c><00:00:37.600><c> until</c><00:00:37.920><c> we</c>
+
+00:00:38.150 --> 00:00:38.160 align:start position:0%
+how many times can we have this until we
+ 
+
+00:00:38.160 --> 00:00:40.549 align:start position:0%
+how many times can we have this until we
+encounter<00:00:38.559><c> the</c><00:00:38.719><c> period</c><00:00:39.200><c> when</c><00:00:39.600><c> a</c><00:00:39.840><c> single</c><00:00:40.239><c> disk</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+encounter the period when a single disk
+ 
+
+00:00:40.559 --> 00:00:42.869 align:start position:0%
+encounter the period when a single disk
+has<00:00:40.960><c> failed</c><00:00:41.440><c> and</c><00:00:41.680><c> during</c><00:00:42.079><c> the</c><00:00:42.239><c> time</c><00:00:42.480><c> it</c><00:00:42.640><c> takes</c>
+
+00:00:42.869 --> 00:00:42.879 align:start position:0%
+has failed and during the time it takes
+ 
+
+00:00:42.879 --> 00:00:44.709 align:start position:0%
+has failed and during the time it takes
+to<00:00:43.040><c> replace</c><00:00:43.600><c> it</c>
+
+00:00:44.709 --> 00:00:44.719 align:start position:0%
+to replace it
+ 
+
+00:00:44.719 --> 00:00:46.790 align:start position:0%
+to replace it
+another<00:00:45.200><c> disk</c><00:00:45.520><c> fails</c>
+
+00:00:46.790 --> 00:00:46.800 align:start position:0%
+another disk fails
+ 
+
+00:00:46.800 --> 00:00:49.110 align:start position:0%
+another disk fails
+well<00:00:47.120><c> it's</c><00:00:47.440><c> equal</c><00:00:47.680><c> to</c><00:00:47.840><c> the</c><00:00:48.320><c> length</c><00:00:48.719><c> of</c><00:00:48.879><c> this</c>
+
+00:00:49.110 --> 00:00:49.120 align:start position:0%
+well it's equal to the length of this
+ 
+
+00:00:49.120 --> 00:00:50.310 align:start position:0%
+well it's equal to the length of this
+interval
+
+00:00:50.310 --> 00:00:50.320 align:start position:0%
+interval
+ 
+
+00:00:50.320 --> 00:00:52.630 align:start position:0%
+interval
+this<00:00:50.640><c> is</c><00:00:51.039><c> how</c><00:00:51.280><c> long</c><00:00:51.520><c> we</c><00:00:51.760><c> survive</c><00:00:52.160><c> with</c><00:00:52.399><c> both</c>
+
+00:00:52.630 --> 00:00:52.640 align:start position:0%
+this is how long we survive with both
+ 
+
+00:00:52.640 --> 00:00:55.990 align:start position:0%
+this is how long we survive with both
+disks<00:00:53.039><c> working</c><00:00:54.000><c> times</c><00:00:54.960><c> how</c><00:00:55.120><c> many</c><00:00:55.440><c> times</c><00:00:55.840><c> can</c>
+
+00:00:55.990 --> 00:00:56.000 align:start position:0%
+disks working times how many times can
+ 
+
+00:00:56.000 --> 00:00:58.470 align:start position:0%
+disks working times how many times can
+we<00:00:56.160><c> get</c><00:00:56.399><c> this</c><00:00:56.800><c> until</c><00:00:57.199><c> we</c><00:00:57.360><c> encounter</c><00:00:57.920><c> a</c><00:00:58.079><c> repair</c>
+
+00:00:58.470 --> 00:00:58.480 align:start position:0%
+we get this until we encounter a repair
+ 
+
+00:00:58.480 --> 00:01:00.069 align:start position:0%
+we get this until we encounter a repair
+period<00:00:58.879><c> where</c><00:00:59.039><c> the</c><00:00:59.199><c> second</c><00:00:59.520><c> disk</c><00:00:59.760><c> fails</c>
+
+00:01:00.069 --> 00:01:00.079 align:start position:0%
+period where the second disk fails
+ 
+
+00:01:00.079 --> 00:01:01.270 align:start position:0%
+period where the second disk fails
+during<00:01:00.480><c> it</c>
+
+00:01:01.270 --> 00:01:01.280 align:start position:0%
+during it
+ 
+
+00:01:01.280 --> 00:01:02.869 align:start position:0%
+during it
+so<00:01:01.440><c> the</c><00:01:01.600><c> question</c><00:01:01.920><c> is</c><00:01:02.079><c> really</c><00:01:02.399><c> what's</c><00:01:02.719><c> the</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+so the question is really what's the
+ 
+
+00:01:02.879 --> 00:01:05.990 align:start position:0%
+so the question is really what's the
+probability<00:01:03.680><c> of</c><00:01:03.840><c> the</c><00:01:04.080><c> second</c><00:01:04.479><c> disk</c><00:01:04.960><c> failing</c>
+
+00:01:05.990 --> 00:01:06.000 align:start position:0%
+probability of the second disk failing
+ 
+
+00:01:06.000 --> 00:01:08.789 align:start position:0%
+probability of the second disk failing
+during<00:01:06.400><c> the</c><00:01:06.640><c> time</c><00:01:06.880><c> to</c><00:01:07.040><c> repair</c><00:01:07.439><c> one</c><00:01:07.760><c> disk</c>
+
+00:01:08.789 --> 00:01:08.799 align:start position:0%
+during the time to repair one disk
+ 
+
+00:01:08.799 --> 00:01:10.550 align:start position:0%
+during the time to repair one disk
+now<00:01:09.040><c> normally</c><00:01:09.680><c> to</c><00:01:09.840><c> calculate</c><00:01:10.400><c> this</c>
+
+00:01:10.550 --> 00:01:10.560 align:start position:0%
+now normally to calculate this
+ 
+
+00:01:10.560 --> 00:01:12.469 align:start position:0%
+now normally to calculate this
+probability<00:01:11.200><c> we</c><00:01:11.360><c> would</c><00:01:11.600><c> have</c><00:01:11.760><c> to</c><00:01:11.920><c> compute</c><00:01:12.320><c> the</c>
+
+00:01:12.469 --> 00:01:12.479 align:start position:0%
+probability we would have to compute the
+ 
+
+00:01:12.479 --> 00:01:14.149 align:start position:0%
+probability we would have to compute the
+distribution<00:01:13.360><c> for</c>
+
+00:01:14.149 --> 00:01:14.159 align:start position:0%
+distribution for
+ 
+
+00:01:14.159 --> 00:01:16.390 align:start position:0%
+distribution for
+this<00:01:14.479><c> function</c><00:01:15.119><c> and</c><00:01:15.200><c> then</c><00:01:15.439><c> see</c><00:01:15.680><c> what's</c><00:01:16.000><c> the</c>
+
+00:01:16.390 --> 00:01:16.400 align:start position:0%
+this function and then see what's the
+ 
+
+00:01:16.400 --> 00:01:18.390 align:start position:0%
+this function and then see what's the
+probability<00:01:17.119><c> for</c><00:01:17.280><c> this</c><00:01:17.439><c> distribution</c><00:01:18.080><c> being</c>
+
+00:01:18.390 --> 00:01:18.400 align:start position:0%
+probability for this distribution being
+ 
+
+00:01:18.400 --> 00:01:21.510 align:start position:0%
+probability for this distribution being
+under<00:01:18.799><c> empty</c><00:01:19.040><c> tr1</c><00:01:19.600><c> and</c><00:01:19.759><c> so</c><00:01:20.000><c> on</c><00:01:20.640><c> but</c>
+
+00:01:21.510 --> 00:01:21.520 align:start position:0%
+under empty tr1 and so on but
+ 
+
+00:01:21.520 --> 00:01:22.390 align:start position:0%
+under empty tr1 and so on but
+when
+
+00:01:22.390 --> 00:01:22.400 align:start position:0%
+when
+ 
+
+00:01:22.400 --> 00:01:26.070 align:start position:0%
+when
+the<00:01:22.560><c> time</c><00:01:22.880><c> to</c><00:01:23.040><c> repair</c><00:01:23.759><c> is</c><00:01:24.080><c> a</c><00:01:24.240><c> lot</c><00:01:24.840><c> smaller</c><00:01:25.840><c> than</c>
+
+00:01:26.070 --> 00:01:26.080 align:start position:0%
+the time to repair is a lot smaller than
+ 
+
+00:01:26.080 --> 00:01:28.710 align:start position:0%
+the time to repair is a lot smaller than
+the<00:01:26.240><c> time</c><00:01:26.640><c> to</c><00:01:26.880><c> failure</c><00:01:27.439><c> of</c><00:01:27.600><c> a</c><00:01:27.759><c> single</c><00:01:28.080><c> disk</c>
+
+00:01:28.710 --> 00:01:28.720 align:start position:0%
+the time to failure of a single disk
+ 
+
+00:01:28.720 --> 00:01:30.789 align:start position:0%
+the time to failure of a single disk
+then<00:01:28.960><c> we</c><00:01:29.119><c> can</c><00:01:29.280><c> approximate</c><00:01:29.920><c> this</c><00:01:30.159><c> probability</c>
+
+00:01:30.789 --> 00:01:30.799 align:start position:0%
+then we can approximate this probability
+ 
+
+00:01:30.799 --> 00:01:33.190 align:start position:0%
+then we can approximate this probability
+of<00:01:31.040><c> the</c><00:01:31.280><c> second</c><00:01:31.680><c> disk</c><00:01:32.079><c> failing</c><00:01:32.560><c> during</c><00:01:32.960><c> the</c>
+
+00:01:33.190 --> 00:01:33.200 align:start position:0%
+of the second disk failing during the
+ 
+
+00:01:33.200 --> 00:01:35.429 align:start position:0%
+of the second disk failing during the
+mttr<00:01:33.759><c> for</c><00:01:34.000><c> the</c><00:01:34.159><c> first</c><00:01:34.479><c> disk</c>
+
+00:01:35.429 --> 00:01:35.439 align:start position:0%
+mttr for the first disk
+ 
+
+00:01:35.439 --> 00:01:37.109 align:start position:0%
+mttr for the first disk
+simply<00:01:35.920><c> as</c>
+
+00:01:37.109 --> 00:01:37.119 align:start position:0%
+simply as
+ 
+
+00:01:37.119 --> 00:01:40.230 align:start position:0%
+simply as
+the<00:01:37.360><c> mttr</c><00:01:38.079><c> divided</c><00:01:38.640><c> by</c><00:01:38.799><c> the</c><00:01:38.960><c> mttf</c><00:01:39.840><c> so</c><00:01:40.079><c> for</c>
+
+00:01:40.230 --> 00:01:40.240 align:start position:0%
+the mttr divided by the mttf so for
+ 
+
+00:01:40.240 --> 00:01:42.069 align:start position:0%
+the mttr divided by the mttf so for
+example<00:01:40.640><c> if</c><00:01:40.799><c> the</c>
+
+00:01:42.069 --> 00:01:42.079 align:start position:0%
+example if the
+ 
+
+00:01:42.079 --> 00:01:45.350 align:start position:0%
+example if the
+mttr<00:01:42.960><c> is</c><00:01:43.040><c> let's</c><00:01:43.200><c> say</c><00:01:43.360><c> a</c><00:01:43.520><c> single</c><00:01:43.920><c> day</c><00:01:44.400><c> and</c><00:01:44.640><c> mttf</c>
+
+00:01:45.350 --> 00:01:45.360 align:start position:0%
+mttr is let's say a single day and mttf
+ 
+
+00:01:45.360 --> 00:01:47.190 align:start position:0%
+mttr is let's say a single day and mttf
+is<00:01:45.520><c> a</c><00:01:45.680><c> hundred</c><00:01:46.079><c> days</c>
+
+00:01:47.190 --> 00:01:47.200 align:start position:0%
+is a hundred days
+ 
+
+00:01:47.200 --> 00:01:49.510 align:start position:0%
+is a hundred days
+then<00:01:47.439><c> the</c><00:01:47.600><c> probability</c><00:01:48.799><c> of</c><00:01:49.040><c> the</c><00:01:49.200><c> second</c>
+
+00:01:49.510 --> 00:01:49.520 align:start position:0%
+then the probability of the second
+ 
+
+00:01:49.520 --> 00:01:51.749 align:start position:0%
+then the probability of the second
+failure<00:01:50.000><c> during</c><00:01:50.560><c> the</c><00:01:50.720><c> repair</c><00:01:51.119><c> period</c><00:01:51.600><c> is</c>
+
+00:01:51.749 --> 00:01:51.759 align:start position:0%
+failure during the repair period is
+ 
+
+00:01:51.759 --> 00:01:55.749 align:start position:0%
+failure during the repair period is
+simply<00:01:52.320><c> the</c><00:01:52.560><c> length</c><00:01:53.439><c> of</c><00:01:53.600><c> the</c><00:01:54.320><c> repair</c><00:01:54.799><c> period</c>
+
+00:01:55.749 --> 00:01:55.759 align:start position:0%
+simply the length of the repair period
+ 
+
+00:01:55.759 --> 00:01:58.310 align:start position:0%
+simply the length of the repair period
+divided<00:01:56.720><c> by</c><00:01:56.960><c> the</c><00:01:57.200><c> period</c>
+
+00:01:58.310 --> 00:01:58.320 align:start position:0%
+divided by the period
+ 
+
+00:01:58.320 --> 00:02:00.630 align:start position:0%
+divided by the period
+that<00:01:58.560><c> we</c><00:01:58.719><c> expected</c><00:01:59.200><c> this</c><00:01:59.439><c> to</c><00:01:59.600><c> survive</c><00:02:00.240><c> so</c><00:02:00.479><c> for</c>
+
+00:02:00.630 --> 00:02:00.640 align:start position:0%
+that we expected this to survive so for
+ 
+
+00:02:00.640 --> 00:02:02.630 align:start position:0%
+that we expected this to survive so for
+example<00:02:01.360><c> if</c><00:02:01.520><c> the</c><00:02:01.680><c> time</c><00:02:01.920><c> to</c><00:02:02.000><c> repair</c><00:02:02.399><c> is</c><00:02:02.479><c> for</c>
+
+00:02:02.630 --> 00:02:02.640 align:start position:0%
+example if the time to repair is for
+ 
+
+00:02:02.640 --> 00:02:04.469 align:start position:0%
+example if the time to repair is for
+example<00:02:03.040><c> one</c><00:02:03.280><c> day</c>
+
+00:02:04.469 --> 00:02:04.479 align:start position:0%
+example one day
+ 
+
+00:02:04.479 --> 00:02:06.310 align:start position:0%
+example one day
+and<00:02:04.719><c> the</c><00:02:04.880><c> time</c><00:02:05.119><c> to</c><00:02:05.280><c> failure</c><00:02:05.759><c> is</c><00:02:05.840><c> let's</c><00:02:06.000><c> say</c><00:02:06.159><c> a</c>
+
+00:02:06.310 --> 00:02:06.320 align:start position:0%
+and the time to failure is let's say a
+ 
+
+00:02:06.320 --> 00:02:09.109 align:start position:0%
+and the time to failure is let's say a
+hundred<00:02:06.719><c> days</c><00:02:08.000><c> then</c><00:02:08.239><c> we</c><00:02:08.319><c> can</c><00:02:08.560><c> expect</c><00:02:08.959><c> that</c>
+
+00:02:09.109 --> 00:02:09.119 align:start position:0%
+hundred days then we can expect that
+ 
+
+00:02:09.119 --> 00:02:11.750 align:start position:0%
+hundred days then we can expect that
+there<00:02:09.360><c> is</c><00:02:09.440><c> a</c><00:02:09.599><c> one</c><00:02:09.920><c> in</c><00:02:10.080><c> a</c><00:02:10.160><c> hundred</c><00:02:10.640><c> chance</c><00:02:11.360><c> of</c><00:02:11.599><c> a</c>
+
+00:02:11.750 --> 00:02:11.760 align:start position:0%
+there is a one in a hundred chance of a
+ 
+
+00:02:11.760 --> 00:02:13.350 align:start position:0%
+there is a one in a hundred chance of a
+disk<00:02:12.160><c> failing</c>
+
+00:02:13.350 --> 00:02:13.360 align:start position:0%
+disk failing
+ 
+
+00:02:13.360 --> 00:02:15.350 align:start position:0%
+disk failing
+during<00:02:13.840><c> the</c><00:02:14.000><c> one</c><00:02:14.239><c> day</c>
+
+00:02:15.350 --> 00:02:15.360 align:start position:0%
+during the one day
+ 
+
+00:02:15.360 --> 00:02:17.589 align:start position:0%
+during the one day
+so<00:02:15.599><c> now</c><00:02:16.080><c> how</c><00:02:16.319><c> many</c><00:02:16.720><c> times</c>
+
+00:02:17.589 --> 00:02:17.599 align:start position:0%
+so now how many times
+ 
+
+00:02:17.599 --> 00:02:19.430 align:start position:0%
+so now how many times
+can<00:02:17.840><c> we</c><00:02:18.000><c> repair</c><00:02:18.400><c> the</c><00:02:18.560><c> disk</c><00:02:18.879><c> before</c><00:02:19.200><c> we</c>
+
+00:02:19.430 --> 00:02:19.440 align:start position:0%
+can we repair the disk before we
+ 
+
+00:02:19.440 --> 00:02:21.750 align:start position:0%
+can we repair the disk before we
+encounter<00:02:19.920><c> one</c><00:02:20.160><c> of</c><00:02:20.239><c> these</c><00:02:20.800><c> well</c>
+
+00:02:21.750 --> 00:02:21.760 align:start position:0%
+encounter one of these well
+ 
+
+00:02:21.760 --> 00:02:24.150 align:start position:0%
+encounter one of these well
+the<00:02:22.000><c> number</c><00:02:22.319><c> of</c><00:02:22.560><c> times</c><00:02:22.959><c> we</c><00:02:23.120><c> can</c><00:02:23.280><c> try</c><00:02:23.599><c> this</c><00:02:23.920><c> be</c>
+
+00:02:24.150 --> 00:02:24.160 align:start position:0%
+the number of times we can try this be
+ 
+
+00:02:24.160 --> 00:02:26.070 align:start position:0%
+the number of times we can try this be
+until<00:02:24.400><c> we</c><00:02:24.640><c> encounter</c><00:02:25.040><c> a</c><00:02:25.120><c> failure</c><00:02:25.599><c> is</c><00:02:25.760><c> going</c><00:02:25.920><c> to</c>
+
+00:02:26.070 --> 00:02:26.080 align:start position:0%
+until we encounter a failure is going to
+ 
+
+00:02:26.080 --> 00:02:28.390 align:start position:0%
+until we encounter a failure is going to
+be<00:02:26.319><c> 1</c><00:02:26.560><c> over</c><00:02:26.800><c> this</c><00:02:27.040><c> probability</c>
+
+00:02:28.390 --> 00:02:28.400 align:start position:0%
+be 1 over this probability
+ 
+
+00:02:28.400 --> 00:02:31.670 align:start position:0%
+be 1 over this probability
+so<00:02:28.640><c> what</c><00:02:28.800><c> we</c><00:02:28.959><c> finally</c><00:02:29.440><c> get</c><00:02:30.080><c> is</c><00:02:30.400><c> this</c>
+
+00:02:31.670 --> 00:02:31.680 align:start position:0%
+so what we finally get is this
+ 
+
+00:02:31.680 --> 00:02:35.589 align:start position:0%
+so what we finally get is this
+the<00:02:31.840><c> mean</c><00:02:32.080><c> time</c><00:02:32.319><c> to</c><00:02:32.560><c> data</c><00:02:32.959><c> loss</c><00:02:33.680><c> is</c><00:02:34.239><c> mttf</c><00:02:35.280><c> of</c><00:02:35.519><c> a</c>
+
+00:02:35.589 --> 00:02:35.599 align:start position:0%
+the mean time to data loss is mttf of a
+ 
+
+00:02:35.599 --> 00:02:39.110 align:start position:0%
+the mean time to data loss is mttf of a
+single<00:02:36.000><c> disk</c><00:02:36.400><c> squared</c><00:02:37.440><c> divided</c><00:02:38.160><c> by</c><00:02:38.400><c> two</c><00:02:38.720><c> times</c>
+
+00:02:39.110 --> 00:02:39.120 align:start position:0%
+single disk squared divided by two times
+ 
+
+00:02:39.120 --> 00:02:41.430 align:start position:0%
+single disk squared divided by two times
+the<00:02:39.280><c> mean</c><00:02:39.519><c> time</c><00:02:39.760><c> to</c><00:02:39.920><c> repair</c><00:02:40.480><c> for</c><00:02:40.720><c> one</c><00:02:40.959><c> disk</c><00:02:41.280><c> how</c>
+
+00:02:41.430 --> 00:02:41.440 align:start position:0%
+the mean time to repair for one disk how
+ 
+
+00:02:41.440 --> 00:02:43.270 align:start position:0%
+the mean time to repair for one disk how
+long<00:02:41.599><c> does</c><00:02:41.840><c> it</c><00:02:41.920><c> take</c><00:02:42.160><c> us</c><00:02:42.239><c> to</c><00:02:42.400><c> replace</c><00:02:42.800><c> the</c><00:02:42.959><c> disk</c>
+
+00:02:43.270 --> 00:02:43.280 align:start position:0%
+long does it take us to replace the disk
+ 
+
+00:02:43.280 --> 00:02:45.110 align:start position:0%
+long does it take us to replace the disk
+and<00:02:43.440><c> copy</c><00:02:43.760><c> the</c><00:02:43.840><c> data</c><00:02:44.239><c> on</c><00:02:44.400><c> it</c><00:02:44.480><c> so</c><00:02:44.640><c> that</c><00:02:44.800><c> now</c><00:02:44.959><c> we</c>
+
+00:02:45.110 --> 00:02:45.120 align:start position:0%
+and copy the data on it so that now we
+ 
+
+00:02:45.120 --> 00:02:47.430 align:start position:0%
+and copy the data on it so that now we
+have<00:02:45.280><c> a</c><00:02:45.360><c> fully</c><00:02:45.680><c> functional</c><00:02:46.239><c> raid1</c><00:02:46.720><c> array</c><00:02:47.280><c> and</c>
+
+00:02:47.430 --> 00:02:47.440 align:start position:0%
+have a fully functional raid1 array and
+ 
+
+00:02:47.440 --> 00:02:50.630 align:start position:0%
+have a fully functional raid1 array and
+as<00:02:47.599><c> a</c><00:02:47.680><c> reminder</c><00:02:48.400><c> this</c><00:02:49.200><c> is</c><00:02:49.519><c> how</c><00:02:49.680><c> long</c>
+
+00:02:50.630 --> 00:02:50.640 align:start position:0%
+as a reminder this is how long
+ 
+
+00:02:50.640 --> 00:02:53.190 align:start position:0%
+as a reminder this is how long
+do<00:02:50.800><c> we</c><00:02:51.040><c> get</c><00:02:51.599><c> a</c><00:02:51.840><c> working</c><00:02:52.239><c> array</c><00:02:52.640><c> with</c><00:02:52.879><c> both</c>
+
+00:02:53.190 --> 00:02:53.200 align:start position:0%
+do we get a working array with both
+ 
+
+00:02:53.200 --> 00:02:55.670 align:start position:0%
+do we get a working array with both
+disks<00:02:53.680><c> functional</c><00:02:54.560><c> and</c><00:02:54.720><c> this</c><00:02:55.040><c> is</c><00:02:55.200><c> how</c><00:02:55.360><c> many</c>
+
+00:02:55.670 --> 00:02:55.680 align:start position:0%
+disks functional and this is how many
+ 
+
+00:02:55.680 --> 00:02:58.309 align:start position:0%
+disks functional and this is how many
+times<00:02:55.920><c> do</c><00:02:56.160><c> we</c><00:02:56.239><c> do</c><00:02:56.400><c> a</c><00:02:56.560><c> repair</c><00:02:57.519><c> until</c><00:02:57.920><c> we</c><00:02:58.080><c> can</c>
+
+00:02:58.309 --> 00:02:58.319 align:start position:0%
+times do we do a repair until we can
+ 
+
+00:02:58.319 --> 00:03:00.869 align:start position:0%
+times do we do a repair until we can
+expect<00:02:59.040><c> that</c><00:02:59.280><c> the</c><00:02:59.440><c> second</c><00:02:59.840><c> disk</c>
+
+00:03:00.869 --> 00:03:00.879 align:start position:0%
+expect that the second disk
+ 
+
+00:03:00.879 --> 00:03:03.270 align:start position:0%
+expect that the second disk
+that<00:03:01.120><c> is</c><00:03:01.360><c> covering</c><00:03:01.760><c> us</c><00:03:01.920><c> during</c><00:03:02.239><c> the</c><00:03:02.319><c> repair</c><00:03:03.120><c> is</c>
+
+00:03:03.270 --> 00:03:03.280 align:start position:0%
+that is covering us during the repair is
+ 
+
+00:03:03.280 --> 00:03:04.790 align:start position:0%
+that is covering us during the repair is
+going<00:03:03.440><c> to</c><00:03:03.519><c> fail</c><00:03:03.760><c> on</c><00:03:04.000><c> us</c>
+
+00:03:04.790 --> 00:03:04.800 align:start position:0%
+going to fail on us
+ 
+
+00:03:04.800 --> 00:03:07.270 align:start position:0%
+going to fail on us
+note<00:03:05.040><c> that</c><00:03:05.280><c> because</c><00:03:05.840><c> the</c><00:03:06.000><c> mttf</c>
+
+00:03:07.270 --> 00:03:07.280 align:start position:0%
+note that because the mttf
+ 
+
+00:03:07.280 --> 00:03:10.550 align:start position:0%
+note that because the mttf
+is<00:03:07.599><c> much</c><00:03:08.000><c> larger</c><00:03:08.640><c> than</c><00:03:08.879><c> the</c><00:03:09.120><c> mttr</c>
+
+00:03:10.550 --> 00:03:10.560 align:start position:0%
+is much larger than the mttr
+ 
+
+00:03:10.560 --> 00:03:13.589 align:start position:0%
+is much larger than the mttr
+this<00:03:10.959><c> is</c><00:03:11.120><c> measured</c><00:03:11.599><c> in</c><00:03:11.840><c> years</c><00:03:12.239><c> usually</c><00:03:12.879><c> this</c>
+
+00:03:13.589 --> 00:03:13.599 align:start position:0%
+this is measured in years usually this
+ 
+
+00:03:13.599 --> 00:03:16.070 align:start position:0%
+this is measured in years usually this
+hopefully<00:03:14.080><c> is</c><00:03:14.319><c> hours</c><00:03:14.720><c> or</c><00:03:14.879><c> days</c><00:03:15.440><c> it's</c><00:03:15.599><c> just</c><00:03:15.920><c> how</c>
+
+00:03:16.070 --> 00:03:16.080 align:start position:0%
+hopefully is hours or days it's just how
+ 
+
+00:03:16.080 --> 00:03:18.470 align:start position:0%
+hopefully is hours or days it's just how
+long<00:03:16.239><c> does</c><00:03:16.480><c> it</c><00:03:16.560><c> take</c><00:03:16.800><c> us</c><00:03:16.879><c> to</c><00:03:17.040><c> replace</c><00:03:17.440><c> a</c><00:03:17.519><c> disk</c>
+
+00:03:18.470 --> 00:03:18.480 align:start position:0%
+long does it take us to replace a disk
+ 
+
+00:03:18.480 --> 00:03:21.190 align:start position:0%
+long does it take us to replace a disk
+this<00:03:18.800><c> factor</c><00:03:19.280><c> here</c><00:03:19.519><c> is</c><00:03:19.760><c> very</c><00:03:20.080><c> very</c><00:03:20.400><c> large</c><00:03:20.959><c> and</c>
+
+00:03:21.190 --> 00:03:21.200 align:start position:0%
+this factor here is very very large and
+ 
+
+00:03:21.200 --> 00:03:23.750 align:start position:0%
+this factor here is very very large and
+now<00:03:21.360><c> we</c><00:03:21.680><c> get</c><00:03:22.080><c> many</c><00:03:22.480><c> many</c><00:03:22.800><c> times</c>
+
+00:03:23.750 --> 00:03:23.760 align:start position:0%
+now we get many many times
+ 
+
+00:03:23.760 --> 00:03:26.390 align:start position:0%
+now we get many many times
+the<00:03:24.080><c> mttf</c><00:03:24.720><c> of</c><00:03:24.879><c> a</c><00:03:24.959><c> single</c><00:03:25.280><c> disk</c><00:03:25.599><c> over</c><00:03:25.840><c> two</c><00:03:26.159><c> this</c>
+
+00:03:26.390 --> 00:03:26.400 align:start position:0%
+the mttf of a single disk over two this
+ 
+
+00:03:26.400 --> 00:03:28.710 align:start position:0%
+the mttf of a single disk over two this
+factor<00:03:26.800><c> is</c><00:03:26.959><c> way</c><00:03:27.280><c> larger</c><00:03:27.680><c> than</c><00:03:27.920><c> two</c><00:03:28.400><c> which</c>
+
+00:03:28.710 --> 00:03:28.720 align:start position:0%
+factor is way larger than two which
+ 
+
+00:03:28.720 --> 00:03:30.390 align:start position:0%
+factor is way larger than two which
+means<00:03:28.959><c> that</c><00:03:29.120><c> the</c><00:03:29.280><c> time</c><00:03:29.519><c> to</c><00:03:29.680><c> data</c><00:03:30.000><c> loss</c><00:03:30.239><c> with</c>
+
+00:03:30.390 --> 00:03:30.400 align:start position:0%
+means that the time to data loss with
+ 
+
+00:03:30.400 --> 00:03:33.190 align:start position:0%
+means that the time to data loss with
+the<00:03:30.560><c> raid</c><00:03:30.799><c> one</c><00:03:31.040><c> array</c><00:03:31.519><c> with</c><00:03:31.760><c> only</c><00:03:32.000><c> two</c><00:03:32.239><c> disks</c>
+
+00:03:33.190 --> 00:03:33.200 align:start position:0%
+the raid one array with only two disks
+ 
+
+00:03:33.200 --> 00:03:36.309 align:start position:0%
+the raid one array with only two disks
+is<00:03:33.599><c> way</c><00:03:34.159><c> higher</c><00:03:34.959><c> than</c><00:03:35.200><c> the</c><00:03:35.360><c> time</c><00:03:35.519><c> to</c><00:03:35.680><c> data</c><00:03:36.000><c> loss</c>
+
+00:03:36.309 --> 00:03:36.319 align:start position:0%
+is way higher than the time to data loss
+ 
+
+00:03:36.319 --> 00:03:37.910 align:start position:0%
+is way higher than the time to data loss
+for<00:03:36.480><c> a</c><00:03:36.560><c> single</c><00:03:36.959><c> disk</c>
+
+00:03:37.910 --> 00:03:37.920 align:start position:0%
+for a single disk
+ 
+
+00:03:37.920 --> 00:03:40.149 align:start position:0%
+for a single disk
+which<00:03:38.159><c> means</c><00:03:38.480><c> that</c><00:03:38.640><c> raid</c><00:03:38.959><c> 1</c><00:03:39.200><c> is</c><00:03:39.360><c> dramatically</c>
+
+00:03:40.149 --> 00:03:40.159 align:start position:0%
+which means that raid 1 is dramatically
+ 
+
+00:03:40.159 --> 00:03:43.560 align:start position:0%
+which means that raid 1 is dramatically
+improving<00:03:40.560><c> reliability</c>
+

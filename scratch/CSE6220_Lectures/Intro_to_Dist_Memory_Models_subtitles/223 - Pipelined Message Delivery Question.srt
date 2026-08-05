@@ -1,0 +1,72 @@
+1
+00:00:00,360 --> 00:00:04,580
+ I admit that I pulled this alpha-beta model out of thin air.
+
+2
+00:00:04,580 --> 00:00:07,870
+ So you should be asking yourself, where does this model come from?
+
+3
+00:00:07,870 --> 00:00:13,390
+ Let's consider a linear or 1-D network having P nodes.
+
+4
+00:00:13,390 --> 00:00:17,480
+ Now suppose node 0 has a message of size n that it wants to transmit
+
+5
+00:00:17,480 --> 00:00:20,100
+ to the last node in the network.
+
+6
+00:00:20,100 --> 00:00:22,440
+ Let's say it does that by taking the message,
+
+7
+00:00:22,440 --> 00:00:27,535
+ breaking it up into n individual words and transmitting one word at a time.
+
+8
+00:00:27,535 --> 00:00:30,315
+ Now, let's assume this step of preparing the message for
+
+9
+00:00:30,315 --> 00:00:34,725
+ transmission costs you a fixed amount of time, little a.
+
+10
+00:00:34,725 --> 00:00:39,745
+ Then let's suppose that any time a word goes from one node to another
+
+11
+00:00:39,745 --> 00:00:42,355
+ that it incurs t units of time.
+
+12
+00:00:42,355 --> 00:00:43,745
+ My question to you is,
+
+13
+00:00:43,745 --> 00:00:47,490
+ what is the minimum time to send this n-word message?
+
+14
+00:00:47,490 --> 00:00:49,260
+ Type your answer here.
+
+15
+00:00:49,260 --> 00:00:51,130
+ Now your answer should be symbolic, so
+
+16
+00:00:51,130 --> 00:00:57,480
+ you should write it algebraically in terms of a, little t, n, and p.
+
+17
+00:00:57,480 --> 00:01:00,660
+ There's a little grading gnome running behind the scenes that will do its best
+
+18
+00:01:00,660 --> 00:01:00,660
+ to compare what you enter automatically against our proposed solution.
+

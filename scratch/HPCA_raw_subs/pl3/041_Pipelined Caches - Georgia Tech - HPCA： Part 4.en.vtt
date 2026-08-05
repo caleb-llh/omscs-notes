@@ -1,0 +1,584 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:03.429 align:start position:0%
+ 
+so<00:00:00.480><c> one</c><00:00:00.799><c> way</c><00:00:01.120><c> of</c><00:00:01.520><c> speeding</c><00:00:02.000><c> up</c><00:00:02.320><c> hit</c><00:00:02.560><c> times</c><00:00:03.280><c> is</c>
+
+00:00:03.429 --> 00:00:03.439 align:start position:0%
+so one way of speeding up hit times is
+ 
+
+00:00:03.439 --> 00:00:06.230 align:start position:0%
+so one way of speeding up hit times is
+to<00:00:03.679><c> overlap</c><00:00:04.560><c> one</c><00:00:04.799><c> hit</c><00:00:05.040><c> with</c><00:00:05.279><c> another</c>
+
+00:00:06.230 --> 00:00:06.240 align:start position:0%
+to overlap one hit with another
+ 
+
+00:00:06.240 --> 00:00:08.150 align:start position:0%
+to overlap one hit with another
+and<00:00:06.399><c> we</c><00:00:06.560><c> can</c><00:00:06.799><c> achieve</c><00:00:07.120><c> this</c><00:00:07.440><c> for</c><00:00:07.680><c> example</c>
+
+00:00:08.150 --> 00:00:08.160 align:start position:0%
+and we can achieve this for example
+ 
+
+00:00:08.160 --> 00:00:10.390 align:start position:0%
+and we can achieve this for example
+through<00:00:08.400><c> pipelining</c><00:00:09.040><c> the</c><00:00:09.200><c> cache</c><00:00:09.920><c> if</c><00:00:10.160><c> the</c>
+
+00:00:10.390 --> 00:00:10.400 align:start position:0%
+through pipelining the cache if the
+ 
+
+00:00:10.400 --> 00:00:13.990 align:start position:0%
+through pipelining the cache if the
+cache<00:00:11.120><c> takes</c><00:00:11.440><c> multiple</c><00:00:11.920><c> cycles</c><00:00:12.719><c> to</c><00:00:13.040><c> access</c><00:00:13.840><c> we</c>
+
+00:00:13.990 --> 00:00:14.000 align:start position:0%
+cache takes multiple cycles to access we
+ 
+
+00:00:14.000 --> 00:00:16.390 align:start position:0%
+cache takes multiple cycles to access we
+can<00:00:14.160><c> have</c><00:00:14.400><c> a</c><00:00:14.480><c> situation</c><00:00:15.120><c> where</c><00:00:15.679><c> an</c><00:00:15.839><c> axis</c><00:00:16.160><c> come</c>
+
+00:00:16.390 --> 00:00:16.400 align:start position:0%
+can have a situation where an axis come
+ 
+
+00:00:16.400 --> 00:00:19.429 align:start position:0%
+can have a situation where an axis come
+in<00:00:16.560><c> cycle</c><00:00:17.039><c> n</c><00:00:17.600><c> and</c><00:00:17.840><c> it's</c><00:00:18.000><c> a</c><00:00:18.080><c> hit</c><00:00:18.720><c> and</c><00:00:18.960><c> now</c><00:00:19.199><c> if</c>
+
+00:00:19.429 --> 00:00:19.439 align:start position:0%
+in cycle n and it's a hit and now if
+ 
+
+00:00:19.439 --> 00:00:22.310 align:start position:0%
+in cycle n and it's a hit and now if
+another<00:00:20.000><c> axis</c><00:00:20.400><c> comes</c><00:00:20.720><c> in</c><00:00:20.880><c> cycle</c><00:00:21.199><c> n</c><00:00:21.359><c> plus</c><00:00:21.680><c> one</c>
+
+00:00:22.310 --> 00:00:22.320 align:start position:0%
+another axis comes in cycle n plus one
+ 
+
+00:00:22.320 --> 00:00:24.230 align:start position:0%
+another axis comes in cycle n plus one
+and<00:00:22.560><c> it</c><00:00:22.720><c> would</c><00:00:22.880><c> be</c><00:00:22.960><c> a</c><00:00:23.119><c> hit</c><00:00:23.359><c> tool</c>
+
+00:00:24.230 --> 00:00:24.240 align:start position:0%
+and it would be a hit tool
+ 
+
+00:00:24.240 --> 00:00:26.790 align:start position:0%
+and it would be a hit tool
+in<00:00:24.480><c> a</c><00:00:24.560><c> non-pipeline</c><00:00:25.439><c> cache</c><00:00:26.160><c> this</c><00:00:26.400><c> second</c>
+
+00:00:26.790 --> 00:00:26.800 align:start position:0%
+in a non-pipeline cache this second
+ 
+
+00:00:26.800 --> 00:00:28.870 align:start position:0%
+in a non-pipeline cache this second
+access<00:00:27.199><c> has</c><00:00:27.439><c> to</c><00:00:27.599><c> wait</c><00:00:28.080><c> until</c><00:00:28.400><c> the</c><00:00:28.560><c> first</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+access has to wait until the first
+ 
+
+00:00:28.880 --> 00:00:30.630 align:start position:0%
+access has to wait until the first
+access<00:00:29.279><c> is</c><00:00:29.439><c> done</c><00:00:29.760><c> using</c><00:00:30.000><c> the</c><00:00:30.160><c> cache</c><00:00:30.400><c> and</c><00:00:30.560><c> it</c>
+
+00:00:30.630 --> 00:00:30.640 align:start position:0%
+access is done using the cache and it
+ 
+
+00:00:30.640 --> 00:00:32.950 align:start position:0%
+access is done using the cache and it
+takes<00:00:30.880><c> multiple</c><00:00:31.359><c> cycles</c><00:00:31.760><c> to</c><00:00:31.840><c> do</c><00:00:32.000><c> that</c><00:00:32.640><c> so</c><00:00:32.880><c> in</c>
+
+00:00:32.950 --> 00:00:32.960 align:start position:0%
+takes multiple cycles to do that so in
+ 
+
+00:00:32.960 --> 00:00:36.069 align:start position:0%
+takes multiple cycles to do that so in
+this<00:00:33.200><c> situation</c><00:00:34.160><c> the</c><00:00:34.399><c> hit</c><00:00:34.719><c> time</c><00:00:35.200><c> as</c><00:00:35.520><c> seen</c><00:00:35.840><c> by</c>
+
+00:00:36.069 --> 00:00:36.079 align:start position:0%
+this situation the hit time as seen by
+ 
+
+00:00:36.079 --> 00:00:38.790 align:start position:0%
+this situation the hit time as seen by
+each<00:00:36.320><c> access</c><00:00:37.200><c> is</c><00:00:37.440><c> the</c><00:00:37.600><c> actual</c><00:00:38.000><c> hit</c><00:00:38.239><c> time</c><00:00:38.480><c> of</c><00:00:38.640><c> a</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+each access is the actual hit time of a
+ 
+
+00:00:38.800 --> 00:00:39.750 align:start position:0%
+each access is the actual hit time of a
+cache
+
+00:00:39.750 --> 00:00:39.760 align:start position:0%
+cache
+ 
+
+00:00:39.760 --> 00:00:41.510 align:start position:0%
+cache
+plus<00:00:40.000><c> the</c><00:00:40.239><c> wait</c><00:00:40.559><c> time</c>
+
+00:00:41.510 --> 00:00:41.520 align:start position:0%
+plus the wait time
+ 
+
+00:00:41.520 --> 00:00:43.670 align:start position:0%
+plus the wait time
+that<00:00:41.680><c> the</c><00:00:41.840><c> access</c><00:00:42.239><c> suffers</c><00:00:42.960><c> because</c><00:00:43.520><c> it</c>
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+that the access suffers because it
+ 
+
+00:00:43.680 --> 00:00:45.270 align:start position:0%
+that the access suffers because it
+cannot<00:00:44.079><c> access</c><00:00:44.399><c> the</c><00:00:44.559><c> cache</c><00:00:44.879><c> until</c><00:00:45.120><c> the</c>
+
+00:00:45.270 --> 00:00:45.280 align:start position:0%
+cannot access the cache until the
+ 
+
+00:00:45.280 --> 00:00:47.350 align:start position:0%
+cannot access the cache until the
+previous<00:00:45.680><c> one</c><00:00:45.920><c> is</c><00:00:46.079><c> done</c><00:00:46.800><c> and</c><00:00:46.960><c> in</c><00:00:47.120><c> that</c>
+
+00:00:47.350 --> 00:00:47.360 align:start position:0%
+previous one is done and in that
+ 
+
+00:00:47.360 --> 00:00:49.750 align:start position:0%
+previous one is done and in that
+situation<00:00:48.160><c> pipelining</c><00:00:48.800><c> the</c><00:00:48.960><c> cache</c><00:00:49.360><c> so</c><00:00:49.600><c> that</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+situation pipelining the cache so that
+ 
+
+00:00:49.760 --> 00:00:52.069 align:start position:0%
+situation pipelining the cache so that
+we<00:00:49.920><c> can</c><00:00:50.160><c> send</c><00:00:50.559><c> in</c><00:00:50.879><c> accesses</c><00:00:51.360><c> one</c><00:00:51.600><c> after</c><00:00:51.920><c> the</c>
+
+00:00:52.069 --> 00:00:52.079 align:start position:0%
+we can send in accesses one after the
+ 
+
+00:00:52.079 --> 00:00:55.430 align:start position:0%
+we can send in accesses one after the
+other<00:00:52.719><c> will</c><00:00:53.039><c> improve</c><00:00:53.440><c> the</c><00:00:53.760><c> overall</c><00:00:54.160><c> hit</c><00:00:54.399><c> time</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+other will improve the overall hit time
+ 
+
+00:00:55.440 --> 00:00:57.590 align:start position:0%
+other will improve the overall hit time
+now<00:00:55.680><c> it</c><00:00:55.840><c> may</c><00:00:56.079><c> sound</c><00:00:56.399><c> straightforward</c><00:00:57.280><c> how</c><00:00:57.440><c> to</c>
+
+00:00:57.590 --> 00:00:57.600 align:start position:0%
+now it may sound straightforward how to
+ 
+
+00:00:57.600 --> 00:00:59.670 align:start position:0%
+now it may sound straightforward how to
+pipeline<00:00:58.000><c> the</c><00:00:58.160><c> cache</c><00:00:58.480><c> you</c><00:00:58.640><c> just</c><00:00:58.800><c> divide</c><00:00:59.280><c> it</c><00:00:59.440><c> in</c>
+
+00:00:59.670 --> 00:00:59.680 align:start position:0%
+pipeline the cache you just divide it in
+ 
+
+00:00:59.680 --> 00:01:01.910 align:start position:0%
+pipeline the cache you just divide it in
+let's<00:00:59.840><c> say</c><00:01:00.079><c> three</c><00:01:00.320><c> stages</c><00:01:01.199><c> but</c><00:01:01.440><c> how</c><00:01:01.600><c> do</c><00:01:01.760><c> you</c>
+
+00:01:01.910 --> 00:01:01.920 align:start position:0%
+let's say three stages but how do you
+ 
+
+00:01:01.920 --> 00:01:03.029 align:start position:0%
+let's say three stages but how do you
+split
+
+00:01:03.029 --> 00:01:03.039 align:start position:0%
+split
+ 
+
+00:01:03.039 --> 00:01:05.670 align:start position:0%
+split
+what<00:01:03.359><c> amounts</c><00:01:03.760><c> to</c><00:01:03.920><c> basically</c><00:01:04.879><c> a</c><00:01:05.040><c> read</c><00:01:05.360><c> from</c><00:01:05.600><c> a</c>
+
+00:01:05.670 --> 00:01:05.680 align:start position:0%
+what amounts to basically a read from a
+ 
+
+00:01:05.680 --> 00:01:07.590 align:start position:0%
+what amounts to basically a read from a
+large<00:01:06.000><c> array</c><00:01:06.479><c> because</c><00:01:06.880><c> that's</c><00:01:07.200><c> really</c><00:01:07.439><c> what</c>
+
+00:01:07.590 --> 00:01:07.600 align:start position:0%
+large array because that's really what
+ 
+
+00:01:07.600 --> 00:01:08.870 align:start position:0%
+large array because that's really what
+the<00:01:07.760><c> cache</c><00:01:08.159><c> is</c>
+
+00:01:08.870 --> 00:01:08.880 align:start position:0%
+the cache is
+ 
+
+00:01:08.880 --> 00:01:11.030 align:start position:0%
+the cache is
+remember<00:01:09.200><c> that</c><00:01:09.360><c> the</c><00:01:09.520><c> cache</c><00:01:09.840><c> access</c><00:01:10.560><c> consists</c>
+
+00:01:11.030 --> 00:01:11.040 align:start position:0%
+remember that the cache access consists
+ 
+
+00:01:11.040 --> 00:01:13.670 align:start position:0%
+remember that the cache access consists
+of<00:01:11.439><c> using</c><00:01:11.760><c> the</c><00:01:12.000><c> index</c><00:01:12.400><c> part</c><00:01:12.640><c> of</c><00:01:12.720><c> the</c><00:01:12.880><c> address</c>
+
+00:01:13.670 --> 00:01:13.680 align:start position:0%
+of using the index part of the address
+ 
+
+00:01:13.680 --> 00:01:15.749 align:start position:0%
+of using the index part of the address
+to<00:01:13.920><c> find</c><00:01:14.400><c> the</c><00:01:14.640><c> set</c>
+
+00:01:15.749 --> 00:01:15.759 align:start position:0%
+to find the set
+ 
+
+00:01:15.759 --> 00:01:18.710 align:start position:0%
+to find the set
+reading<00:01:16.240><c> out</c><00:01:16.880><c> the</c><00:01:17.119><c> tags</c><00:01:17.520><c> and</c><00:01:17.680><c> valid</c><00:01:18.080><c> bits</c><00:01:18.560><c> that</c>
+
+00:01:18.710 --> 00:01:18.720 align:start position:0%
+reading out the tags and valid bits that
+ 
+
+00:01:18.720 --> 00:01:21.109 align:start position:0%
+reading out the tags and valid bits that
+correspond<00:01:19.360><c> to</c><00:01:19.520><c> the</c><00:01:19.680><c> blocks</c><00:01:20.080><c> in</c><00:01:20.159><c> that</c><00:01:20.479><c> set</c>
+
+00:01:21.109 --> 00:01:21.119 align:start position:0%
+correspond to the blocks in that set
+ 
+
+00:01:21.119 --> 00:01:22.950 align:start position:0%
+correspond to the blocks in that set
+comparing<00:01:21.680><c> the</c><00:01:21.840><c> tags</c><00:01:22.320><c> and</c><00:01:22.479><c> checking</c><00:01:22.799><c> the</c>
+
+00:01:22.950 --> 00:01:22.960 align:start position:0%
+comparing the tags and checking the
+ 
+
+00:01:22.960 --> 00:01:24.789 align:start position:0%
+comparing the tags and checking the
+valid<00:01:23.280><c> bits</c><00:01:23.600><c> for</c><00:01:23.759><c> each</c><00:01:23.920><c> of</c><00:01:24.080><c> these</c><00:01:24.479><c> to</c><00:01:24.640><c> see</c>
+
+00:01:24.789 --> 00:01:24.799 align:start position:0%
+valid bits for each of these to see
+ 
+
+00:01:24.799 --> 00:01:26.550 align:start position:0%
+valid bits for each of these to see
+whether<00:01:25.200><c> it</c><00:01:25.360><c> has</c><00:01:25.600><c> a</c><00:01:25.680><c> hit</c>
+
+00:01:26.550 --> 00:01:26.560 align:start position:0%
+whether it has a hit
+ 
+
+00:01:26.560 --> 00:01:28.070 align:start position:0%
+whether it has a hit
+combining<00:01:27.200><c> these</c>
+
+00:01:28.070 --> 00:01:28.080 align:start position:0%
+combining these
+ 
+
+00:01:28.080 --> 00:01:29.429 align:start position:0%
+combining these
+so<00:01:28.240><c> that</c><00:01:28.400><c> we</c><00:01:28.479><c> know</c><00:01:28.640><c> whether</c><00:01:28.960><c> we</c><00:01:29.040><c> have</c><00:01:29.200><c> an</c>
+
+00:01:29.429 --> 00:01:29.439 align:start position:0%
+so that we know whether we have an
+ 
+
+00:01:29.439 --> 00:01:30.870 align:start position:0%
+so that we know whether we have an
+overall<00:01:29.840><c> hit</c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+overall hit
+ 
+
+00:01:30.880 --> 00:01:34.069 align:start position:0%
+overall hit
+and<00:01:31.119><c> where</c><00:01:31.600><c> in</c><00:01:31.759><c> our</c><00:01:32.000><c> set</c><00:01:32.720><c> once</c><00:01:32.960><c> we</c><00:01:33.119><c> know</c><00:01:33.360><c> where</c>
+
+00:01:34.069 --> 00:01:34.079 align:start position:0%
+and where in our set once we know where
+ 
+
+00:01:34.079 --> 00:01:37.270 align:start position:0%
+and where in our set once we know where
+we<00:01:34.240><c> read</c><00:01:34.560><c> out</c><00:01:34.799><c> the</c><00:01:34.960><c> data</c><00:01:35.920><c> and</c><00:01:36.079><c> use</c><00:01:36.320><c> the</c><00:01:36.560><c> offset</c>
+
+00:01:37.270 --> 00:01:37.280 align:start position:0%
+we read out the data and use the offset
+ 
+
+00:01:37.280 --> 00:01:40.149 align:start position:0%
+we read out the data and use the offset
+to<00:01:37.520><c> choose</c><00:01:38.079><c> the</c><00:01:38.240><c> right</c><00:01:38.640><c> part</c><00:01:39.439><c> of</c><00:01:39.600><c> the</c><00:01:39.759><c> large</c>
+
+00:01:40.149 --> 00:01:40.159 align:start position:0%
+to choose the right part of the large
+ 
+
+00:01:40.159 --> 00:01:42.469 align:start position:0%
+to choose the right part of the large
+cache<00:01:40.479><c> block</c><00:01:41.360><c> at</c><00:01:41.520><c> which</c><00:01:41.840><c> point</c><00:01:42.079><c> we</c><00:01:42.159><c> have</c><00:01:42.320><c> the</c>
+
+00:01:42.469 --> 00:01:42.479 align:start position:0%
+cache block at which point we have the
+ 
+
+00:01:42.479 --> 00:01:44.389 align:start position:0%
+cache block at which point we have the
+data<00:01:42.799><c> that</c><00:01:42.960><c> the</c><00:01:43.040><c> processor</c><00:01:43.600><c> wants</c><00:01:44.000><c> and</c><00:01:44.240><c> our</c>
+
+00:01:44.389 --> 00:01:44.399 align:start position:0%
+data that the processor wants and our
+ 
+
+00:01:44.399 --> 00:01:47.109 align:start position:0%
+data that the processor wants and our
+cache<00:01:44.720><c> access</c><00:01:45.040><c> is</c><00:01:45.200><c> done</c><00:01:45.920><c> so</c><00:01:46.159><c> one</c><00:01:46.399><c> example</c><00:01:46.880><c> of</c><00:01:47.040><c> a</c>
+
+00:01:47.109 --> 00:01:47.119 align:start position:0%
+cache access is done so one example of a
+ 
+
+00:01:47.119 --> 00:01:50.069 align:start position:0%
+cache access is done so one example of a
+cache<00:01:47.439><c> pipeline</c><00:01:48.479><c> would</c><00:01:48.720><c> be</c><00:01:49.280><c> to</c><00:01:49.520><c> have</c><00:01:49.759><c> this</c>
+
+00:01:50.069 --> 00:01:50.079 align:start position:0%
+cache pipeline would be to have this
+ 
+
+00:01:50.079 --> 00:01:50.950 align:start position:0%
+cache pipeline would be to have this
+part
+
+00:01:50.950 --> 00:01:50.960 align:start position:0%
+part
+ 
+
+00:01:50.960 --> 00:01:52.870 align:start position:0%
+part
+reading<00:01:51.360><c> out</c><00:01:51.600><c> the</c><00:01:51.759><c> tags</c><00:01:52.159><c> and</c><00:01:52.240><c> so</c><00:01:52.399><c> on</c><00:01:52.560><c> from</c><00:01:52.720><c> the</c>
+
+00:01:52.870 --> 00:01:52.880 align:start position:0%
+reading out the tags and so on from the
+ 
+
+00:01:52.880 --> 00:01:55.510 align:start position:0%
+reading out the tags and so on from the
+cache<00:01:53.200><c> array</c><00:01:53.759><c> be</c><00:01:54.000><c> stage</c><00:01:54.399><c> one</c>
+
+00:01:55.510 --> 00:01:55.520 align:start position:0%
+cache array be stage one
+ 
+
+00:01:55.520 --> 00:01:57.429 align:start position:0%
+cache array be stage one
+determining<00:01:56.320><c> the</c><00:01:56.560><c> hits</c>
+
+00:01:57.429 --> 00:01:57.439 align:start position:0%
+determining the hits
+ 
+
+00:01:57.439 --> 00:01:59.590 align:start position:0%
+determining the hits
+and<00:01:57.600><c> beginning</c><00:01:58.399><c> the</c><00:01:58.560><c> data</c><00:01:58.960><c> read</c><00:01:59.280><c> would</c><00:01:59.439><c> be</c>
+
+00:01:59.590 --> 00:01:59.600 align:start position:0%
+and beginning the data read would be
+ 
+
+00:01:59.600 --> 00:02:02.389 align:start position:0%
+and beginning the data read would be
+stage<00:02:00.000><c> two</c><00:02:00.719><c> and</c><00:02:00.960><c> finishing</c><00:02:01.439><c> the</c><00:02:01.680><c> actual</c><00:02:02.000><c> data</c>
+
+00:02:02.389 --> 00:02:02.399 align:start position:0%
+stage two and finishing the actual data
+ 
+
+00:02:02.399 --> 00:02:04.630 align:start position:0%
+stage two and finishing the actual data
+read<00:02:02.799><c> all</c><00:02:02.880><c> the</c><00:02:03.040><c> way</c><00:02:03.280><c> to</c><00:02:03.439><c> getting</c><00:02:03.759><c> the</c><00:02:03.920><c> data</c>
+
+00:02:04.630 --> 00:02:04.640 align:start position:0%
+read all the way to getting the data
+ 
+
+00:02:04.640 --> 00:02:06.550 align:start position:0%
+read all the way to getting the data
+would<00:02:04.799><c> be</c><00:02:04.960><c> stage</c><00:02:05.360><c> three</c><00:02:05.840><c> so</c><00:02:06.000><c> as</c><00:02:06.159><c> you</c><00:02:06.240><c> can</c><00:02:06.399><c> see</c>
+
+00:02:06.550 --> 00:02:06.560 align:start position:0%
+would be stage three so as you can see
+ 
+
+00:02:06.560 --> 00:02:09.749 align:start position:0%
+would be stage three so as you can see
+we<00:02:06.719><c> can</c><00:02:06.960><c> pipeline</c><00:02:07.680><c> the</c><00:02:07.920><c> cache</c><00:02:08.319><c> access</c>
+
+00:02:09.749 --> 00:02:09.759 align:start position:0%
+we can pipeline the cache access
+ 
+
+00:02:09.759 --> 00:02:12.309 align:start position:0%
+we can pipeline the cache access
+even<00:02:10.319><c> if</c><00:02:10.560><c> we</c><00:02:10.720><c> don't</c><00:02:11.200><c> know</c><00:02:11.520><c> how</c><00:02:11.680><c> to</c><00:02:11.920><c> actually</c>
+
+00:02:12.309 --> 00:02:12.319 align:start position:0%
+even if we don't know how to actually
+ 
+
+00:02:12.319 --> 00:02:13.910 align:start position:0%
+even if we don't know how to actually
+break<00:02:12.720><c> down</c>
+
+00:02:13.910 --> 00:02:13.920 align:start position:0%
+break down
+ 
+
+00:02:13.920 --> 00:02:16.390 align:start position:0%
+break down
+the<00:02:14.080><c> reading</c><00:02:14.879><c> from</c><00:02:15.120><c> the</c><00:02:15.280><c> cache</c><00:02:15.599><c> array</c>
+
+00:02:16.390 --> 00:02:16.400 align:start position:0%
+the reading from the cache array
+ 
+
+00:02:16.400 --> 00:02:19.030 align:start position:0%
+the reading from the cache array
+especially<00:02:17.360><c> if</c><00:02:17.599><c> the</c><00:02:17.840><c> tags</c><00:02:18.400><c> and</c><00:02:18.560><c> the</c><00:02:18.720><c> valid</c>
+
+00:02:19.030 --> 00:02:19.040 align:start position:0%
+especially if the tags and the valid
+ 
+
+00:02:19.040 --> 00:02:21.589 align:start position:0%
+especially if the tags and the valid
+bits<00:02:19.680><c> are</c><00:02:19.920><c> read</c><00:02:20.480><c> before</c><00:02:20.879><c> we</c><00:02:21.040><c> determine</c><00:02:21.520><c> the</c>
+
+00:02:21.589 --> 00:02:21.599 align:start position:0%
+bits are read before we determine the
+ 
+
+00:02:21.599 --> 00:02:23.830 align:start position:0%
+bits are read before we determine the
+hit<00:02:22.080><c> and</c><00:02:22.239><c> we</c><00:02:22.400><c> only</c><00:02:22.640><c> read</c><00:02:22.959><c> the</c><00:02:23.120><c> data</c><00:02:23.520><c> part</c><00:02:23.760><c> of</c>
+
+00:02:23.830 --> 00:02:23.840 align:start position:0%
+hit and we only read the data part of
+ 
+
+00:02:23.840 --> 00:02:26.550 align:start position:0%
+hit and we only read the data part of
+the<00:02:24.000><c> cache</c><00:02:24.560><c> after</c><00:02:25.360><c> we</c><00:02:25.520><c> determine</c><00:02:26.000><c> the</c><00:02:26.160><c> hit</c><00:02:26.480><c> in</c>
+
+00:02:26.550 --> 00:02:26.560 align:start position:0%
+the cache after we determine the hit in
+ 
+
+00:02:26.560 --> 00:02:28.949 align:start position:0%
+the cache after we determine the hit in
+that<00:02:26.800><c> case</c><00:02:27.360><c> just</c><00:02:27.599><c> those</c><00:02:27.840><c> two</c><00:02:28.239><c> can</c><00:02:28.400><c> be</c><00:02:28.560><c> separate</c>
+
+00:02:28.949 --> 00:02:28.959 align:start position:0%
+that case just those two can be separate
+ 
+
+00:02:28.959 --> 00:02:32.070 align:start position:0%
+that case just those two can be separate
+stages<00:02:29.760><c> usually</c><00:02:30.480><c> the</c><00:02:30.720><c> actual</c><00:02:31.280><c> cache</c><00:02:31.599><c> hit</c><00:02:31.840><c> time</c>
+
+00:02:32.070 --> 00:02:32.080 align:start position:0%
+stages usually the actual cache hit time
+ 
+
+00:02:32.080 --> 00:02:34.309 align:start position:0%
+stages usually the actual cache hit time
+for<00:02:32.239><c> level</c><00:02:32.480><c> one</c><00:02:32.720><c> caches</c><00:02:33.440><c> will</c><00:02:33.680><c> be</c><00:02:33.840><c> one</c><00:02:34.000><c> two</c><00:02:34.160><c> or</c>
+
+00:02:34.309 --> 00:02:34.319 align:start position:0%
+for level one caches will be one two or
+ 
+
+00:02:34.319 --> 00:02:35.670 align:start position:0%
+for level one caches will be one two or
+three<00:02:34.560><c> cycles</c>
+
+00:02:35.670 --> 00:02:35.680 align:start position:0%
+three cycles
+ 
+
+00:02:35.680 --> 00:02:38.150 align:start position:0%
+three cycles
+one<00:02:35.920><c> cycle</c><00:02:36.319><c> caches</c><00:02:36.720><c> don't</c><00:02:36.959><c> need</c><00:02:37.200><c> pipelining</c>
+
+00:02:38.150 --> 00:02:38.160 align:start position:0%
+one cycle caches don't need pipelining
+ 
+
+00:02:38.160 --> 00:02:40.229 align:start position:0%
+one cycle caches don't need pipelining
+and<00:02:38.400><c> two</c><00:02:38.640><c> and</c><00:02:38.720><c> three</c><00:02:38.959><c> cycle</c><00:02:39.360><c> caches</c><00:02:39.840><c> can</c><00:02:40.000><c> be</c>
+
+00:02:40.229 --> 00:02:40.239 align:start position:0%
+and two and three cycle caches can be
+ 
+
+00:02:40.239 --> 00:02:41.990 align:start position:0%
+and two and three cycle caches can be
+relatively<00:02:40.640><c> easily</c><00:02:41.040><c> pipelined</c><00:02:41.519><c> into</c><00:02:41.760><c> two</c><00:02:41.920><c> or</c>
+
+00:02:41.990 --> 00:02:42.000 align:start position:0%
+relatively easily pipelined into two or
+ 
+
+00:02:42.000 --> 00:02:45.750 align:start position:0%
+relatively easily pipelined into two or
+three<00:02:42.239><c> stages</c><00:02:43.200><c> so</c><00:02:43.440><c> usually</c><00:02:44.560><c> level</c><00:02:44.800><c> one</c><00:02:45.040><c> caches</c>
+
+00:02:45.750 --> 00:02:45.760 align:start position:0%
+three stages so usually level one caches
+ 
+
+00:02:45.760 --> 00:02:49.080 align:start position:0%
+three stages so usually level one caches
+will<00:02:45.920><c> be</c><00:02:46.080><c> pipelined</c>
+

@@ -1,0 +1,48 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.699 align:start position:0%
+ 
+in<00:00:00.149><c> this</c><00:00:00.390><c> lesson</c><00:00:00.599><c> we</c><00:00:00.840><c> will</c><00:00:00.870><c> be</c><00:00:01.079><c> discussing</c><00:00:01.469><c> the</c>
+
+00:00:01.699 --> 00:00:01.709 align:start position:0%
+in this lesson we will be discussing the
+ 
+
+00:00:01.709 --> 00:00:04.249 align:start position:0%
+in this lesson we will be discussing the
+basics<00:00:02.159><c> of</c><00:00:02.310><c> cache</c><00:00:02.550><c> coherence</c><00:00:03.120><c> coherence</c><00:00:04.110><c> is</c>
+
+00:00:04.249 --> 00:00:04.259 align:start position:0%
+basics of cache coherence coherence is
+ 
+
+00:00:04.259 --> 00:00:06.410 align:start position:0%
+basics of cache coherence coherence is
+needed<00:00:04.589><c> to</c><00:00:04.799><c> ensure</c><00:00:05.130><c> that</c><00:00:05.160><c> when</c><00:00:05.580><c> one</c><00:00:05.879><c> Co</c><00:00:06.180><c> writes</c>
+
+00:00:06.410 --> 00:00:06.420 align:start position:0%
+needed to ensure that when one Co writes
+ 
+
+00:00:06.420 --> 00:00:09.140 align:start position:0%
+needed to ensure that when one Co writes
+to<00:00:06.629><c> its</c><00:00:06.810><c> cache</c><00:00:07.170><c> other</c><00:00:07.890><c> cores</c><00:00:08.429><c> get</c><00:00:08.700><c> to</c><00:00:08.849><c> see</c><00:00:09.090><c> it</c>
+
+00:00:09.140 --> 00:00:09.150 align:start position:0%
+to its cache other cores get to see it
+ 
+
+00:00:09.150 --> 00:00:10.790 align:start position:0%
+to its cache other cores get to see it
+when<00:00:09.809><c> they</c><00:00:09.960><c> read</c><00:00:10.139><c> it</c><00:00:10.260><c> out</c><00:00:10.440><c> of</c><00:00:10.620><c> their</c><00:00:10.769><c> own</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+when they read it out of their own
+ 
+
+00:00:10.800 --> 00:00:13.460 align:start position:0%
+when they read it out of their own
+caches
+

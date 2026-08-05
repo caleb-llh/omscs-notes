@@ -1,0 +1,52 @@
+1
+00:00:00,490 --> 00:00:04,390
+ Okay, here's one possible assignment.
+
+2
+00:00:04,390 --> 00:00:06,240
+ And notice what I've done.
+
+3
+00:00:06,240 --> 00:00:10,270
+ After one completes, any one of these three phases can begin executing.
+
+4
+00:00:10,270 --> 00:00:13,250
+ So I've assigned them all to phase 2.
+
+5
+00:00:13,250 --> 00:00:15,640
+ Now that's fine, it's a valid assignment.
+
+6
+00:00:15,640 --> 00:00:18,240
+ But my PRAM only has two processors, so
+
+7
+00:00:18,240 --> 00:00:21,670
+ I'm going to have to break that phase up into two steps.
+
+8
+00:00:21,670 --> 00:00:26,150
+ That's essentially the slack that the ceiling creates.
+
+9
+00:00:26,150 --> 00:00:29,350
+ Okay, so hopefully you now have some intuition for
+
+10
+00:00:29,350 --> 00:00:32,670
+ what Brent's Theorem means and why it's an upper bound.
+
+11
+00:00:32,670 --> 00:00:35,750
+ The other point I want to make is that choosing this assignment of
+
+12
+00:00:35,750 --> 00:00:39,520
+ work to processes and essentially breaking down the execution into
+
+13
+00:00:39,520 --> 00:00:39,520
+ phases is exactly what makes scheduling such a tricky subject.
+

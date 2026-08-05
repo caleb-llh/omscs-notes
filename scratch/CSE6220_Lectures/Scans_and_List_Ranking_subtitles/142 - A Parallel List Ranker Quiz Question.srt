@@ -1,0 +1,16 @@
+1
+00:00:00,370 --> 00:00:01,460
+ Here's a question.
+
+2
+00:00:01,460 --> 00:00:05,110
+ What's the work and span of this parallel list ranking algorithm?
+
+3
+00:00:05,110 --> 00:00:06,490
+ Here's your long list of choices.
+
+4
+00:00:06,490 --> 00:00:06,490
+ So please choose one for each of work and span.
+

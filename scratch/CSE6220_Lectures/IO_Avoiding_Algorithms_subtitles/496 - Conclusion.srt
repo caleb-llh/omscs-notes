@@ -1,0 +1,76 @@
+1
+00:00:00,025 --> 00:00:03,170
+ I/O avoiding algorithms can be messy,
+
+2
+00:00:03,170 --> 00:00:06,750
+ much messier than their conventional RAM model counterparts, anyway.
+
+3
+00:00:06,750 --> 00:00:09,540
+ But we started this lesson by trying to argue that this
+
+4
+00:00:09,540 --> 00:00:12,310
+ effort can be very worthwhile.
+
+5
+00:00:12,310 --> 00:00:16,190
+ Remember the exercise where you looked at potential reductions in I/Os
+
+6
+00:00:16,190 --> 00:00:19,100
+ given realistic memory hierarchy parameters?
+
+7
+00:00:19,100 --> 00:00:23,630
+ You saw that there's a lot of potential to make computations faster.
+
+8
+00:00:23,630 --> 00:00:27,200
+ Now, this would happen if you could make memory accesses contiguous and
+
+9
+00:00:27,200 --> 00:00:31,600
+ exploit fast memory capacity to the greatest extent possible.
+
+10
+00:00:31,600 --> 00:00:36,430
+ And those wins can happen even if the factors of improvement are only log L or
+
+11
+00:00:36,430 --> 00:00:39,590
+ log Z, in the case of mergesort.
+
+12
+00:00:39,590 --> 00:00:43,030
+ In closing this lesson, let me make one final meta comment for
+
+13
+00:00:43,030 --> 00:00:44,690
+ you to think about.
+
+14
+00:00:44,690 --> 00:00:48,870
+ Our model assumes that the time spent moving data dominates.
+
+15
+00:00:48,870 --> 00:00:50,960
+ That means you should look for ways to reduce I/Os.
+
+16
+00:00:50,960 --> 00:00:55,730
+ But how do you know whether data movement dominates?
+
+17
+00:00:55,730 --> 00:00:59,670
+ In thinking about that question, let me suggest that now is a good time for
+
+18
+00:00:59,670 --> 00:01:04,069
+ you to pause, go back and revisit some of our other high-level concepts,
+
+19
+00:01:04,069 --> 00:01:04,069
+ like computational intensity and machine balance.
+

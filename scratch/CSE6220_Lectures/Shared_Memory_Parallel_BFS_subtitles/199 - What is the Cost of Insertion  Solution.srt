@@ -1,0 +1,80 @@
+1
+00:00:00,520 --> 00:00:02,440
+ Okay so the answer is log n.
+
+2
+00:00:02,440 --> 00:00:03,510
+ Why?
+
+3
+00:00:03,510 --> 00:00:06,380
+ Now notice when you insert an element you might need to traverse
+
+4
+00:00:06,380 --> 00:00:10,230
+ the entire length of the spine because you might have carries that take you all
+
+5
+00:00:10,230 --> 00:00:13,650
+ the way from 0 to the last bit.
+
+6
+00:00:13,650 --> 00:00:18,940
+ Now the spine has a length of ceiling of log n.
+
+7
+00:00:18,940 --> 00:00:20,860
+ If you don't remember why or you don't see why,
+
+8
+00:00:20,860 --> 00:00:23,360
+ just remember the duality with integers.
+
+9
+00:00:23,360 --> 00:00:27,580
+ An integer of size n needs log n bits to store it.
+
+10
+00:00:27,580 --> 00:00:31,090
+ Now each time we visit a slot on the spine we might need to combine two
+
+11
+00:00:31,090 --> 00:00:32,520
+ penants.
+
+12
+00:00:32,520 --> 00:00:35,760
+ But remember, combining penants is just a matter of reshuffling some pointers.
+
+13
+00:00:35,760 --> 00:00:40,540
+ Therefore, a single combine operation can be done in constant time.
+
+14
+00:00:40,540 --> 00:00:44,430
+ So we have an overall cost of of log n times constant time and
+
+15
+00:00:44,430 --> 00:00:46,100
+ it gives us an overall log n.
+
+16
+00:00:46,100 --> 00:00:48,330
+ So, that's pretty efficient.
+
+17
+00:00:48,330 --> 00:00:51,190
+ Lots of other kinds of data structures we know and love like heaps or
+
+18
+00:00:51,190 --> 00:00:54,580
+ balanced binary trees also have log and insertion costs.
+
+19
+00:00:54,580 --> 00:00:58,655
+ So, bag it baby.
+
+20
+00:00:58,655 --> 00:00:58,655
+ [SOUND]
+

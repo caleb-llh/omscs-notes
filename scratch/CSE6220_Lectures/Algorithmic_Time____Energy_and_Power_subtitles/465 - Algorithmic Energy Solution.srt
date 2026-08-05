@@ -1,0 +1,40 @@
+1
+00:00:00,270 --> 00:00:04,410
+ I don't know about you, but I would argue that the best answer is work.
+
+2
+00:00:04,410 --> 00:00:07,830
+ The definition of energy says that you need to pay some energy cost for
+
+3
+00:00:07,830 --> 00:00:09,520
+ every operation.
+
+4
+00:00:09,520 --> 00:00:13,180
+ Well, the whole point of work is to count all operations.
+
+5
+00:00:13,180 --> 00:00:15,800
+ So, if you're interested some measure of asymptotic energy,
+
+6
+00:00:15,800 --> 00:00:17,810
+ then work is the right analogy.
+
+7
+00:00:17,810 --> 00:00:20,860
+ By the way, this idea implies something kind of neat.
+
+8
+00:00:20,860 --> 00:00:25,110
+ It says that at an algorithmic level, if what you care about is energy, and
+
+9
+00:00:25,110 --> 00:00:28,670
+ supposing that the energy per operation is bounded by some constant,
+
+10
+00:00:28,670 --> 00:00:28,670
+ then finding work optimal algorithms is super important.
+

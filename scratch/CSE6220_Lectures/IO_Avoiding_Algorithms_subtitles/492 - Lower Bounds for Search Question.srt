@@ -1,0 +1,80 @@
+1
+00:00:00,450 --> 00:00:03,710
+ Here's a technique for thinking about lower bounds on memory transfers,
+
+2
+00:00:03,710 --> 00:00:05,330
+ which is inspired by information theory.
+
+3
+00:00:05,330 --> 00:00:07,560
+ I want you to think about it by example for
+
+4
+00:00:07,560 --> 00:00:10,490
+ the problem of search given an ordered collection.
+
+5
+00:00:10,490 --> 00:00:14,450
+ In this problem, you're given a sorted array A containing n unique elements.
+
+6
+00:00:14,450 --> 00:00:17,450
+ You want to find the largest index i such that A sub
+
+7
+00:00:17,450 --> 00:00:19,430
+ i is less than or equal to v.
+
+8
+00:00:19,430 --> 00:00:22,750
+ The standard binary search algorithm does big O of log
+
+9
+00:00:22,750 --> 00:00:25,150
+ n over L transfers in the worst case.
+
+10
+00:00:25,150 --> 00:00:28,280
+ Now let's think about what you're trying to compute a little bit differently.
+
+11
+00:00:28,280 --> 00:00:33,280
+ To store the index i takes about log n bits, would you agree?
+
+12
+00:00:33,280 --> 00:00:36,540
+ Now let's say that when you read a block of L items from A,
+
+13
+00:00:36,540 --> 00:00:40,430
+ you learn at most x bits of information about this index.
+
+14
+00:00:40,430 --> 00:00:41,880
+ If you had an upper bound on x,
+
+15
+00:00:41,880 --> 00:00:45,060
+ then you could get a lower bound on the number of ios during the search.
+
+16
+00:00:45,060 --> 00:00:48,540
+ It would just be the number of bits you're trying to learn
+
+17
+00:00:48,540 --> 00:00:52,600
+ divided by the number of bits you learn each time you do an L-sized read.
+
+18
+00:00:52,600 --> 00:00:54,000
+ Now for the question.
+
+19
+00:00:54,000 --> 00:00:56,240
+ What is x in a big O sense?
+
+20
+00:00:56,240 --> 00:00:56,240
+ I want you to type your answer symbolically in this box.
+

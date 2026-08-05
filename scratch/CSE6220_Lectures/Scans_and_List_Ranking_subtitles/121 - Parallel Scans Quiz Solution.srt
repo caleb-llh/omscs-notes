@@ -1,0 +1,12 @@
+1
+00:00:00,270 --> 00:00:04,720
+ The answer is linear work and log squared span.
+
+2
+00:00:04,720 --> 00:00:08,029
+ Now I want to make a couple subtle points about the analysis so
+
+3
+00:00:08,029 --> 00:00:08,029
+ rather than derive the solution here, let me start afresh.
+

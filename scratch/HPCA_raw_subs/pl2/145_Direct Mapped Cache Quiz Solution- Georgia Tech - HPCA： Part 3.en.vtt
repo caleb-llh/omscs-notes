@@ -1,0 +1,400 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.480 align:start position:0%
+ 
+the<00:00:00.299><c> key</c><00:00:00.539><c> to</c><00:00:00.719><c> solving</c><00:00:00.930><c> problems</c><00:00:01.140><c> like</c><00:00:01.709><c> this</c><00:00:01.920><c> is</c>
+
+00:00:02.480 --> 00:00:02.490 align:start position:0%
+the key to solving problems like this is
+ 
+
+00:00:02.490 --> 00:00:04.490 align:start position:0%
+the key to solving problems like this is
+to<00:00:02.760><c> figure</c><00:00:02.970><c> out</c><00:00:03.179><c> how</c><00:00:03.449><c> does</c><00:00:03.689><c> the</c><00:00:03.870><c> address</c><00:00:03.959><c> break</c>
+
+00:00:04.490 --> 00:00:04.500 align:start position:0%
+to figure out how does the address break
+ 
+
+00:00:04.500 --> 00:00:08.299 align:start position:0%
+to figure out how does the address break
+down<00:00:04.740><c> into</c><00:00:05.400><c> offset</c><00:00:06.359><c> index</c><00:00:07.080><c> and</c><00:00:07.350><c> tag</c><00:00:08.010><c> bits</c>
+
+00:00:08.299 --> 00:00:08.309 align:start position:0%
+down into offset index and tag bits
+ 
+
+00:00:08.309 --> 00:00:11.000 align:start position:0%
+down into offset index and tag bits
+conflicts<00:00:09.269><c> will</c><00:00:09.389><c> occur</c><00:00:09.719><c> where</c><00:00:10.530><c> different</c>
+
+00:00:11.000 --> 00:00:11.010 align:start position:0%
+conflicts will occur where different
+ 
+
+00:00:11.010 --> 00:00:14.060 align:start position:0%
+conflicts will occur where different
+blocks<00:00:11.250><c> have</c><00:00:12.090><c> the</c><00:00:12.269><c> same</c><00:00:12.480><c> index</c><00:00:12.929><c> bits</c><00:00:13.080><c> in</c><00:00:13.590><c> this</c>
+
+00:00:14.060 --> 00:00:14.070 align:start position:0%
+blocks have the same index bits in this
+ 
+
+00:00:14.070 --> 00:00:17.349 align:start position:0%
+blocks have the same index bits in this
+particular<00:00:14.580><c> cache</c><00:00:15.350><c> 256</c><00:00:16.350><c> byte</c><00:00:16.619><c> block</c><00:00:17.130><c> size</c>
+
+00:00:17.349 --> 00:00:17.359 align:start position:0%
+particular cache 256 byte block size
+ 
+
+00:00:17.359 --> 00:00:22.070 align:start position:0%
+particular cache 256 byte block size
+means<00:00:18.359><c> that</c><00:00:19.289><c> there</c><00:00:19.500><c> are</c><00:00:19.650><c> 8</c><00:00:20.520><c> bits</c><00:00:20.939><c> to</c><00:00:21.720><c> the</c><00:00:21.869><c> block</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+means that there are 8 bits to the block
+ 
+
+00:00:22.080 --> 00:00:25.220 align:start position:0%
+means that there are 8 bits to the block
+offset<00:00:22.320><c> in</c><00:00:22.859><c> hex</c><00:00:23.600><c> conveniently</c><00:00:24.600><c> that</c><00:00:24.630><c> means</c>
+
+00:00:25.220 --> 00:00:25.230 align:start position:0%
+offset in hex conveniently that means
+ 
+
+00:00:25.230 --> 00:00:27.650 align:start position:0%
+offset in hex conveniently that means
+that<00:00:25.470><c> the</c><00:00:25.650><c> least</c><00:00:26.189><c> significant</c><00:00:26.939><c> two</c><00:00:27.240><c> digits</c>
+
+00:00:27.650 --> 00:00:27.660 align:start position:0%
+that the least significant two digits
+ 
+
+00:00:27.660 --> 00:00:30.650 align:start position:0%
+that the least significant two digits
+are<00:00:27.869><c> the</c><00:00:28.439><c> offset</c><00:00:28.859><c> and</c><00:00:29.130><c> we</c><00:00:29.849><c> can</c><00:00:30.029><c> safely</c><00:00:30.240><c> ignore</c>
+
+00:00:30.650 --> 00:00:30.660 align:start position:0%
+are the offset and we can safely ignore
+ 
+
+00:00:30.660 --> 00:00:32.060 align:start position:0%
+are the offset and we can safely ignore
+those<00:00:30.840><c> because</c><00:00:31.170><c> they</c><00:00:31.320><c> are</c><00:00:31.349><c> not</c><00:00:31.500><c> part</c><00:00:31.769><c> of</c><00:00:31.920><c> the</c>
+
+00:00:32.060 --> 00:00:32.070 align:start position:0%
+those because they are not part of the
+ 
+
+00:00:32.070 --> 00:00:34.100 align:start position:0%
+those because they are not part of the
+index<00:00:32.340><c> now</c><00:00:32.880><c> we</c><00:00:32.940><c> need</c><00:00:33.210><c> to</c><00:00:33.300><c> figure</c><00:00:33.480><c> out</c><00:00:33.630><c> how</c><00:00:33.899><c> many</c>
+
+00:00:34.100 --> 00:00:34.110 align:start position:0%
+index now we need to figure out how many
+ 
+
+00:00:34.110 --> 00:00:36.470 align:start position:0%
+index now we need to figure out how many
+bits<00:00:34.380><c> are</c><00:00:34.590><c> in</c><00:00:34.770><c> the</c><00:00:34.890><c> index</c><00:00:35.250><c> we</c><00:00:35.850><c> have</c><00:00:36.000><c> 16</c>
+
+00:00:36.470 --> 00:00:36.480 align:start position:0%
+bits are in the index we have 16
+ 
+
+00:00:36.480 --> 00:00:40.340 align:start position:0%
+bits are in the index we have 16
+kilobytes<00:00:36.989><c> and</c><00:00:37.670><c> 256</c><00:00:38.670><c> byte</c><00:00:38.850><c> blocks</c><00:00:39.239><c> the</c><00:00:39.930><c> number</c>
+
+00:00:40.340 --> 00:00:40.350 align:start position:0%
+kilobytes and 256 byte blocks the number
+ 
+
+00:00:40.350 --> 00:00:43.520 align:start position:0%
+kilobytes and 256 byte blocks the number
+of<00:00:40.469><c> blocks</c><00:00:40.710><c> in</c><00:00:40.950><c> the</c><00:00:41.160><c> cache</c><00:00:41.520><c> is</c><00:00:42.059><c> this</c><00:00:42.780><c> divided</c>
+
+00:00:43.520 --> 00:00:43.530 align:start position:0%
+of blocks in the cache is this divided
+ 
+
+00:00:43.530 --> 00:00:47.389 align:start position:0%
+of blocks in the cache is this divided
+by<00:00:43.559><c> this</c><00:00:43.739><c> and</c><00:00:44.160><c> that</c><00:00:44.219><c> gives</c><00:00:44.879><c> us</c><00:00:45.059><c> 64</c><00:00:45.629><c> blocks</c><00:00:46.399><c> 64</c>
+
+00:00:47.389 --> 00:00:47.399 align:start position:0%
+by this and that gives us 64 blocks 64
+ 
+
+00:00:47.399 --> 00:00:50.119 align:start position:0%
+by this and that gives us 64 blocks 64
+is<00:00:47.850><c> two</c><00:00:48.120><c> to</c><00:00:48.270><c> the</c><00:00:48.300><c> sixth</c><00:00:48.809><c> so</c><00:00:49.469><c> we</c><00:00:49.620><c> need</c><00:00:49.800><c> the</c><00:00:49.980><c> next</c>
+
+00:00:50.119 --> 00:00:50.129 align:start position:0%
+is two to the sixth so we need the next
+ 
+
+00:00:50.129 --> 00:00:52.670 align:start position:0%
+is two to the sixth so we need the next
+six<00:00:50.520><c> bits</c><00:00:50.820><c> here</c><00:00:51.270><c> to</c><00:00:51.629><c> tell</c><00:00:51.840><c> us</c><00:00:51.960><c> what</c><00:00:52.170><c> the</c><00:00:52.320><c> index</c>
+
+00:00:52.670 --> 00:00:52.680 align:start position:0%
+six bits here to tell us what the index
+ 
+
+00:00:52.680 --> 00:00:55.100 align:start position:0%
+six bits here to tell us what the index
+is<00:00:52.949><c> the</c><00:00:53.550><c> six</c><00:00:53.850><c> bits</c><00:00:54.059><c> will</c><00:00:54.300><c> be</c><00:00:54.329><c> contained</c><00:00:54.809><c> in</c><00:00:54.989><c> the</c>
+
+00:00:55.100 --> 00:00:55.110 align:start position:0%
+is the six bits will be contained in the
+ 
+
+00:00:55.110 --> 00:00:59.810 align:start position:0%
+is the six bits will be contained in the
+next<00:00:55.440><c> two</c><00:00:56.100><c> hex</c><00:00:56.399><c> digits</c><00:00:56.850><c> so</c><00:00:57.739><c> 456</c><00:00:58.739><c> hex</c><00:00:59.070><c> we</c><00:00:59.609><c> can</c>
+
+00:00:59.810 --> 00:00:59.820 align:start position:0%
+next two hex digits so 456 hex we can
+ 
+
+00:00:59.820 --> 00:01:03.290 align:start position:0%
+next two hex digits so 456 hex we can
+write<00:01:00.000><c> it</c><00:01:00.149><c> out</c><00:01:00.359><c> as</c><00:01:00.629><c> binary</c><00:01:01.520><c> this</c><00:01:02.520><c> is</c><00:01:02.699><c> 5</c><00:01:02.969><c> this</c><00:01:03.239><c> is</c>
+
+00:01:03.290 --> 00:01:03.300 align:start position:0%
+write it out as binary this is 5 this is
+ 
+
+00:01:03.300 --> 00:01:06.170 align:start position:0%
+write it out as binary this is 5 this is
+6<00:01:03.629><c> and</c><00:01:03.960><c> we</c><00:01:04.650><c> are</c><00:01:04.739><c> interested</c><00:01:05.309><c> in</c><00:01:05.489><c> these</c><00:01:05.820><c> bits</c>
+
+00:01:06.170 --> 00:01:06.180 align:start position:0%
+6 and we are interested in these bits
+ 
+
+00:01:06.180 --> 00:01:08.660 align:start position:0%
+6 and we are interested in these bits
+here<00:01:06.299><c> so</c><00:01:07.290><c> we</c><00:01:07.470><c> are</c><00:01:07.530><c> really</c><00:01:07.619><c> looking</c><00:01:07.860><c> for</c><00:01:08.310><c> which</c>
+
+00:01:08.660 --> 00:01:08.670 align:start position:0%
+here so we are really looking for which
+ 
+
+00:01:08.670 --> 00:01:11.690 align:start position:0%
+here so we are really looking for which
+blocks<00:01:09.000><c> of</c><00:01:09.270><c> these</c><00:01:09.900><c> have</c><00:01:10.590><c> the</c><00:01:10.830><c> same</c><00:01:10.860><c> bits</c><00:01:11.369><c> here</c>
+
+00:01:11.690 --> 00:01:11.700 align:start position:0%
+blocks of these have the same bits here
+ 
+
+00:01:11.700 --> 00:01:14.899 align:start position:0%
+blocks of these have the same bits here
+those<00:01:12.240><c> that</c><00:01:12.390><c> have</c><00:01:12.570><c> 56</c><00:01:13.490><c> definitely</c><00:01:14.490><c> will</c><00:01:14.729><c> have</c>
+
+00:01:14.899 --> 00:01:14.909 align:start position:0%
+those that have 56 definitely will have
+ 
+
+00:01:14.909 --> 00:01:16.700 align:start position:0%
+those that have 56 definitely will have
+the<00:01:15.060><c> same</c><00:01:15.240><c> index</c><00:01:15.540><c> bits</c><00:01:15.659><c> so</c><00:01:16.439><c> we</c><00:01:16.560><c> will</c>
+
+00:01:16.700 --> 00:01:16.710 align:start position:0%
+the same index bits so we will
+ 
+
+00:01:16.710 --> 00:01:19.100 align:start position:0%
+the same index bits so we will
+definitely<00:01:16.860><c> have</c><00:01:17.400><c> a</c><00:01:17.430><c> conflict</c><00:01:17.820><c> here</c><00:01:18.330><c> and</c><00:01:18.479><c> here</c>
+
+00:01:19.100 --> 00:01:19.110 align:start position:0%
+definitely have a conflict here and here
+ 
+
+00:01:19.110 --> 00:01:21.649 align:start position:0%
+definitely have a conflict here and here
+possibly<00:01:19.380><c> but</c><00:01:20.340><c> in</c><00:01:20.549><c> order</c><00:01:20.820><c> to</c><00:01:21.000><c> actually</c><00:01:21.180><c> have</c><00:01:21.360><c> a</c>
+
+00:01:21.649 --> 00:01:21.659 align:start position:0%
+possibly but in order to actually have a
+ 
+
+00:01:21.659 --> 00:01:23.719 align:start position:0%
+possibly but in order to actually have a
+conflict<00:01:22.320><c> it</c><00:01:22.439><c> needs</c><00:01:22.740><c> to</c><00:01:22.890><c> be</c><00:01:23.040><c> a</c><00:01:23.070><c> different</c>
+
+00:01:23.719 --> 00:01:23.729 align:start position:0%
+conflict it needs to be a different
+ 
+
+00:01:23.729 --> 00:01:26.030 align:start position:0%
+conflict it needs to be a different
+block<00:01:23.939><c> this</c><00:01:24.540><c> address</c><00:01:25.080><c> here</c><00:01:25.470><c> does</c><00:01:26.009><c> not</c>
+
+00:01:26.030 --> 00:01:26.040 align:start position:0%
+block this address here does not
+ 
+
+00:01:26.040 --> 00:01:28.609 align:start position:0%
+block this address here does not
+conflict<00:01:26.850><c> with</c><00:01:27.090><c> this</c><00:01:27.420><c> one</c><00:01:27.630><c> here</c><00:01:28.020><c> because</c><00:01:28.290><c> they</c>
+
+00:01:28.609 --> 00:01:28.619 align:start position:0%
+conflict with this one here because they
+ 
+
+00:01:28.619 --> 00:01:30.109 align:start position:0%
+conflict with this one here because they
+are<00:01:28.680><c> actually</c><00:01:28.979><c> in</c><00:01:29.040><c> the</c><00:01:29.100><c> same</c><00:01:29.430><c> block</c><00:01:29.729><c> they</c><00:01:29.970><c> have</c>
+
+00:01:30.109 --> 00:01:30.119 align:start position:0%
+are actually in the same block they have
+ 
+
+00:01:30.119 --> 00:01:32.480 align:start position:0%
+are actually in the same block they have
+the<00:01:30.240><c> same</c><00:01:30.509><c> block</c><00:01:30.810><c> number</c><00:01:31.229><c> so</c><00:01:31.590><c> this</c><00:01:31.860><c> is</c><00:01:32.159><c> not</c><00:01:32.460><c> a</c>
+
+00:01:32.480 --> 00:01:32.490 align:start position:0%
+the same block number so this is not a
+ 
+
+00:01:32.490 --> 00:01:35.300 align:start position:0%
+the same block number so this is not a
+conflict<00:01:33.119><c> they</c><00:01:33.810><c> do</c><00:01:34.020><c> map</c><00:01:34.259><c> to</c><00:01:34.439><c> the</c><00:01:34.560><c> same</c><00:01:34.799><c> place</c>
+
+00:01:35.300 --> 00:01:35.310 align:start position:0%
+conflict they do map to the same place
+ 
+
+00:01:35.310 --> 00:01:36.740 align:start position:0%
+conflict they do map to the same place
+in<00:01:35.549><c> the</c><00:01:35.579><c> cache</c><00:01:35.880><c> but</c><00:01:35.909><c> they</c><00:01:36.299><c> are</c><00:01:36.360><c> actually</c><00:01:36.659><c> the</c>
+
+00:01:36.740 --> 00:01:36.750 align:start position:0%
+in the cache but they are actually the
+ 
+
+00:01:36.750 --> 00:01:38.600 align:start position:0%
+in the cache but they are actually the
+same<00:01:36.990><c> block</c><00:01:37.259><c> so</c><00:01:37.530><c> it's</c><00:01:37.650><c> not</c><00:01:37.799><c> a</c><00:01:37.829><c> conflict</c><00:01:38.430><c> among</c>
+
+00:01:38.600 --> 00:01:38.610 align:start position:0%
+same block so it's not a conflict among
+ 
+
+00:01:38.610 --> 00:01:41.030 align:start position:0%
+same block so it's not a conflict among
+blocks<00:01:39.030><c> this</c><00:01:39.689><c> however</c><00:01:39.960><c> is</c><00:01:40.350><c> a</c><00:01:40.380><c> different</c><00:01:40.500><c> block</c>
+
+00:01:41.030 --> 00:01:41.040 align:start position:0%
+blocks this however is a different block
+ 
+
+00:01:41.040 --> 00:01:43.069 align:start position:0%
+blocks this however is a different block
+number<00:01:41.430><c> that</c><00:01:41.820><c> definitely</c><00:01:42.390><c> maps</c><00:01:42.600><c> to</c><00:01:42.750><c> the</c><00:01:42.869><c> same</c>
+
+00:01:43.069 --> 00:01:43.079 align:start position:0%
+number that definitely maps to the same
+ 
+
+00:01:43.079 --> 00:01:48.380 align:start position:0%
+number that definitely maps to the same
+index<00:01:44.040><c> so</c><00:01:44.939><c> this</c><00:01:45.149><c> is</c><00:01:45.360><c> a</c><00:01:45.720><c> conflict</c><00:01:46.399><c> 5/5</c><00:01:47.399><c> looks</c>
+
+00:01:48.380 --> 00:01:48.390 align:start position:0%
+index so this is a conflict 5/5 looks
+ 
+
+00:01:48.390 --> 00:01:51.080 align:start position:0%
+index so this is a conflict 5/5 looks
+like<00:01:48.600><c> this</c><00:01:48.840><c> these</c><00:01:49.649><c> are</c><00:01:49.860><c> the</c><00:01:49.979><c> six</c><00:01:50.250><c> bits</c><00:01:50.490><c> they're</c>
+
+00:01:51.080 --> 00:01:51.090 align:start position:0%
+like this these are the six bits they're
+ 
+
+00:01:51.090 --> 00:01:54.830 align:start position:0%
+like this these are the six bits they're
+not<00:01:51.329><c> the</c><00:01:51.540><c> same</c><00:01:52.189><c> so</c><00:01:53.189><c> this</c><00:01:53.540><c> block</c><00:01:54.540><c> will</c><00:01:54.810><c> not</c>
+
+00:01:54.830 --> 00:01:54.840 align:start position:0%
+not the same so this block will not
+ 
+
+00:01:54.840 --> 00:01:59.319 align:start position:0%
+not the same so this block will not
+conflict<00:01:55.350><c> with</c><00:01:55.680><c> the</c><00:01:56.159><c> one</c><00:01:56.630><c> here</c><00:01:57.649><c> finally</c><00:01:58.649><c> 1/6</c>
+
+00:01:59.319 --> 00:01:59.329 align:start position:0%
+conflict with the one here finally 1/6
+ 
+
+00:01:59.329 --> 00:02:02.510 align:start position:0%
+conflict with the one here finally 1/6
+looks<00:02:00.329><c> like</c><00:02:00.540><c> this</c><00:02:00.829><c> these</c><00:02:01.829><c> are</c><00:02:01.890><c> the</c><00:02:02.219><c> bits</c><00:02:02.430><c> that</c>
+
+00:02:02.510 --> 00:02:02.520 align:start position:0%
+looks like this these are the bits that
+ 
+
+00:02:02.520 --> 00:02:04.670 align:start position:0%
+looks like this these are the bits that
+we<00:02:02.759><c> are</c><00:02:02.820><c> interested</c><00:02:03.270><c> in</c><00:02:03.390><c> and</c><00:02:03.600><c> they</c><00:02:03.780><c> do</c><00:02:03.840><c> indeed</c>
+
+00:02:04.670 --> 00:02:04.680 align:start position:0%
+we are interested in and they do indeed
+ 
+
+00:02:04.680 --> 00:02:07.670 align:start position:0%
+we are interested in and they do indeed
+match<00:02:05.219><c> the</c><00:02:05.729><c> ones</c><00:02:05.939><c> of</c><00:02:06.119><c> this</c><00:02:06.240><c> block</c><00:02:06.540><c> so</c><00:02:07.439><c> this</c>
+
+00:02:07.670 --> 00:02:07.680 align:start position:0%
+match the ones of this block so this
+ 
+
+00:02:07.680 --> 00:02:10.369 align:start position:0%
+match the ones of this block so this
+goes<00:02:08.069><c> to</c><00:02:08.099><c> the</c><00:02:08.429><c> same</c><00:02:08.670><c> place</c><00:02:09.000><c> in</c><00:02:09.569><c> the</c><00:02:09.810><c> cache</c><00:02:09.929><c> as</c>
+
+00:02:10.369 --> 00:02:10.379 align:start position:0%
+goes to the same place in the cache as
+ 
+
+00:02:10.379 --> 00:02:12.840 align:start position:0%
+goes to the same place in the cache as
+this<00:02:10.619><c> and</c><00:02:10.920><c> it's</c><00:02:11.489><c> a</c><00:02:11.640><c> different</c><00:02:12.030><c> block</c>
+
+00:02:12.840 --> 00:02:12.850 align:start position:0%
+this and it's a different block
+ 
+
+00:02:12.850 --> 00:02:15.030 align:start position:0%
+this and it's a different block
+this<00:02:13.000><c> is</c><00:02:13.150><c> one</c><00:02:13.330><c> two</c><00:02:13.630><c> three</c><00:02:13.660><c> four</c><00:02:13.960><c> one</c><00:02:14.500><c> six</c><00:02:14.800><c> and</c>
+
+00:02:15.030 --> 00:02:15.040 align:start position:0%
+this is one two three four one six and
+ 
+
+00:02:15.040 --> 00:02:18.330 align:start position:0%
+this is one two three four one six and
+this<00:02:15.580><c> is</c><00:02:15.760><c> one</c><00:02:15.970><c> two</c><00:02:16.240><c> three</c><00:02:16.270><c> four</c><00:02:16.810><c> five</c><00:02:17.200><c> six</c><00:02:17.530><c> so</c>
+
+00:02:18.330 --> 00:02:18.340 align:start position:0%
+this is one two three four five six so
+ 
+
+00:02:18.340 --> 00:02:22.710 align:start position:0%
+this is one two three four five six so
+this<00:02:18.520><c> will</c><00:02:18.730><c> also</c><00:02:19.210><c> conflict</c><00:02:19.720><c> with</c><00:02:20.320><c> our</c><00:02:20.470><c> block</c>
+

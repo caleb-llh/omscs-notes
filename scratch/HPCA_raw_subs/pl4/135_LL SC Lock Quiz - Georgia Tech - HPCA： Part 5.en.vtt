@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.399 --> 00:00:02.110 align:start position:0%
+ 
+so<00:00:00.640><c> let's</c><00:00:00.799><c> see</c><00:00:00.960><c> if</c><00:00:01.079><c> we</c><00:00:01.199><c> can</c><00:00:01.319><c> use</c><00:00:01.560><c> load</c><00:00:01.839><c> Link</c>
+
+00:00:02.110 --> 00:00:02.120 align:start position:0%
+so let's see if we can use load Link
+ 
+
+00:00:02.120 --> 00:00:05.269 align:start position:0%
+so let's see if we can use load Link
+store<00:00:02.600><c> conditional</c><00:00:03.399><c> to</c><00:00:03.679><c> implement</c><00:00:04.440><c> a</c><00:00:04.640><c> log</c>
+
+00:00:05.269 --> 00:00:05.279 align:start position:0%
+store conditional to implement a log
+ 
+
+00:00:05.279 --> 00:00:07.390 align:start position:0%
+store conditional to implement a log
+function<00:00:06.279><c> the</c><00:00:06.440><c> log</c>
+
+00:00:07.390 --> 00:00:07.400 align:start position:0%
+function the log
+ 
+
+00:00:07.400 --> 00:00:10.629 align:start position:0%
+function the log
+function<00:00:08.400><c> takes</c><00:00:08.639><c> a</c><00:00:08.880><c> reference</c><00:00:09.240><c> to</c><00:00:09.440><c> variable</c>
+
+00:00:10.629 --> 00:00:10.639 align:start position:0%
+function takes a reference to variable
+ 
+
+00:00:10.639 --> 00:00:14.350 align:start position:0%
+function takes a reference to variable
+lockar<00:00:11.639><c> and</c><00:00:11.880><c> then</c><00:00:12.320><c> in</c><00:00:12.880><c> assembler</c><00:00:13.880><c> and</c><00:00:14.080><c> then</c><00:00:14.240><c> it</c>
+
+00:00:14.350 --> 00:00:14.360 align:start position:0%
+lockar and then in assembler and then it
+ 
+
+00:00:14.360 --> 00:00:16.550 align:start position:0%
+lockar and then in assembler and then it
+will<00:00:14.559><c> do</c><00:00:14.759><c> something</c><00:00:15.120><c> like</c><00:00:15.360><c> this</c><00:00:15.879><c> put</c><00:00:16.160><c> one</c><00:00:16.400><c> in</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+will do something like this put one in
+ 
+
+00:00:16.560 --> 00:00:19.510 align:start position:0%
+will do something like this put one in
+R1<00:00:17.560><c> load</c><00:00:17.840><c> the</c><00:00:18.000><c> current</c><00:00:18.400><c> value</c><00:00:18.680><c> of</c><00:00:18.800><c> lockware</c>
+
+00:00:19.510 --> 00:00:19.520 align:start position:0%
+R1 load the current value of lockware
+ 
+
+00:00:19.520 --> 00:00:23.750 align:start position:0%
+R1 load the current value of lockware
+into<00:00:19.840><c> R2</c><00:00:20.400><c> using</c><00:00:20.680><c> a</c><00:00:20.840><c> load</c><00:00:21.240><c> link</c><00:00:22.240><c> and</c><00:00:22.400><c> then</c><00:00:22.680><c> store</c>
+
+00:00:23.750 --> 00:00:23.760 align:start position:0%
+into R2 using a load link and then store
+ 
+
+00:00:23.760 --> 00:00:27.150 align:start position:0%
+into R2 using a load link and then store
+R1<00:00:24.760><c> into</c><00:00:25.080><c> lockar</c><00:00:25.720><c> using</c><00:00:26.000><c> store</c><00:00:26.599><c> conditional</c>
+
+00:00:27.150 --> 00:00:27.160 align:start position:0%
+R1 into lockar using store conditional
+ 
+
+00:00:27.160 --> 00:00:29.990 align:start position:0%
+R1 into lockar using store conditional
+so<00:00:27.359><c> the</c><00:00:27.560><c> idea</c><00:00:27.960><c> is</c><00:00:28.279><c> that</c><00:00:28.880><c> we</c><00:00:29.080><c> load</c><00:00:29.400><c> the</c><00:00:29.519><c> current</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+so the idea is that we load the current
+ 
+
+00:00:30.000 --> 00:00:32.229 align:start position:0%
+so the idea is that we load the current
+value<00:00:30.199><c> of</c><00:00:30.320><c> the</c><00:00:30.439><c> log</c><00:00:30.840><c> and</c><00:00:31.000><c> then</c><00:00:31.160><c> we</c><00:00:31.279><c> store</c><00:00:31.640><c> a</c><00:00:31.800><c> one</c>
+
+00:00:32.229 --> 00:00:32.239 align:start position:0%
+value of the log and then we store a one
+ 
+
+00:00:32.239 --> 00:00:34.590 align:start position:0%
+value of the log and then we store a one
+there<00:00:33.239><c> so</c><00:00:33.440><c> the</c><00:00:33.600><c> question</c><00:00:33.840><c> for</c><00:00:34.000><c> you</c><00:00:34.160><c> is</c><00:00:34.360><c> what</c><00:00:34.480><c> do</c>
+
+00:00:34.590 --> 00:00:34.600 align:start position:0%
+there so the question for you is what do
+ 
+
+00:00:34.600 --> 00:00:36.670 align:start position:0%
+there so the question for you is what do
+we<00:00:34.800><c> put</c><00:00:35.120><c> here</c><00:00:35.520><c> to</c><00:00:35.760><c> complete</c><00:00:36.200><c> this</c><00:00:36.360><c> log</c>
+
+00:00:36.670 --> 00:00:36.680 align:start position:0%
+we put here to complete this log
+ 
+
+00:00:36.680 --> 00:00:39.229 align:start position:0%
+we put here to complete this log
+function<00:00:37.200><c> in</c><00:00:37.320><c> a</c><00:00:37.559><c> way</c><00:00:37.960><c> that</c><00:00:38.120><c> works</c><00:00:38.440><c> correctly</c>
+
+00:00:39.229 --> 00:00:39.239 align:start position:0%
+function in a way that works correctly
+ 
+
+00:00:39.239 --> 00:00:41.709 align:start position:0%
+function in a way that works correctly
+that<00:00:39.399><c> is</c><00:00:39.719><c> if</c><00:00:39.879><c> we</c><00:00:40.039><c> leave</c><00:00:40.440><c> this</c><00:00:40.680><c> function</c><00:00:41.520><c> we</c>
+
+00:00:41.709 --> 00:00:41.719 align:start position:0%
+that is if we leave this function we
+ 
+
+00:00:41.719 --> 00:00:44.029 align:start position:0%
+that is if we leave this function we
+know<00:00:42.160><c> that</c><00:00:42.360><c> we</c><00:00:42.600><c> have</c><00:00:42.920><c> acquired</c><00:00:43.320><c> the</c><00:00:43.480><c> lock</c><00:00:43.879><c> and</c>
+
+00:00:44.029 --> 00:00:44.039 align:start position:0%
+know that we have acquired the lock and
+ 
+
+00:00:44.039 --> 00:00:46.950 align:start position:0%
+know that we have acquired the lock and
+we<00:00:44.160><c> are</c><00:00:44.360><c> the</c><00:00:44.520><c> only</c><00:00:44.879><c> ones</c><00:00:45.280><c> that</c><00:00:45.480><c> did</c><00:00:45.719><c> so</c><00:00:46.719><c> the</c>
+
+00:00:46.950 --> 00:00:46.960 align:start position:0%
+we are the only ones that did so the
+ 
+
+00:00:46.960 --> 00:00:49.430 align:start position:0%
+we are the only ones that did so the
+first<00:00:47.360><c> option</c><00:00:48.079><c> for</c><00:00:48.360><c> where</c><00:00:48.559><c> the</c><00:00:48.760><c> question</c><00:00:49.079><c> mark</c>
+
+00:00:49.430 --> 00:00:49.440 align:start position:0%
+first option for where the question mark
+ 
+
+00:00:49.440 --> 00:00:53.549 align:start position:0%
+first option for where the question mark
+is<00:00:50.079><c> is</c><00:00:50.280><c> simply</c><00:00:50.640><c> to</c><00:00:50.800><c> do</c><00:00:51.520><c> a</c><00:00:51.960><c> branch</c><00:00:52.320><c> on</c><00:00:52.600><c> equal</c><00:00:53.000><c> Z</c>
+
+00:00:53.549 --> 00:00:53.559 align:start position:0%
+is is simply to do a branch on equal Z
+ 
+
+00:00:53.559 --> 00:00:57.270 align:start position:0%
+is is simply to do a branch on equal Z
+R1<00:00:54.480><c> trilock</c><00:00:55.480><c> the</c><00:00:55.719><c> second</c><00:00:56.120><c> choice</c><00:00:56.559><c> here</c><00:00:57.039><c> is</c>
+
+00:00:57.270 --> 00:00:57.280 align:start position:0%
+R1 trilock the second choice here is
+ 
+
+00:00:57.280 --> 00:01:00.549 align:start position:0%
+R1 trilock the second choice here is
+branch<00:00:57.600><c> on</c><00:00:57.800><c> equal</c><00:00:58.199><c> Z</c><00:00:58.920><c> R2</c>
+
+00:01:00.549 --> 00:01:00.559 align:start position:0%
+branch on equal Z R2
+ 
+
+00:01:00.559 --> 00:01:04.469 align:start position:0%
+branch on equal Z R2
+trog<00:01:01.559><c> the</c><00:01:01.800><c> third</c><00:01:02.199><c> choice</c><00:01:02.800><c> is</c><00:01:02.920><c> to</c><00:01:03.160><c> do</c><00:01:03.840><c> Branch</c>
+
+00:01:04.469 --> 00:01:04.479 align:start position:0%
+trog the third choice is to do Branch
+ 
+
+00:01:04.479 --> 00:01:08.190 align:start position:0%
+trog the third choice is to do Branch
+not<00:01:04.799><c> equal</c><00:01:05.119><c> 0</c><00:01:05.479><c> R2</c><00:01:06.159><c> trog</c><00:01:07.159><c> and</c><00:01:07.320><c> then</c><00:01:07.520><c> branch</c><00:01:07.840><c> on</c>
+
+00:01:08.190 --> 00:01:08.200 align:start position:0%
+not equal 0 R2 trog and then branch on
+ 
+
+00:01:08.200 --> 00:01:12.990 align:start position:0%
+not equal 0 R2 trog and then branch on
+equals<00:01:08.680><c> z</c><00:01:09.479><c> link</c><00:01:10.520><c> trilock</c><00:01:11.520><c> the</c><00:01:11.680><c> fourth</c><00:01:12.159><c> option</c>
+
+00:01:12.990 --> 00:01:13.000 align:start position:0%
+equals z link trilock the fourth option
+ 
+
+00:01:13.000 --> 00:01:16.390 align:start position:0%
+equals z link trilock the fourth option
+is<00:01:13.240><c> brancher</c><00:01:13.759><c> not</c><00:01:14.000><c> equal</c><00:01:14.280><c> 0</c><00:01:14.600><c> R2</c><00:01:15.280><c> trilock</c><00:01:16.280><c> and</c>
+
+00:01:16.390 --> 00:01:16.400 align:start position:0%
+is brancher not equal 0 R2 trilock and
+ 
+
+00:01:16.400 --> 00:01:19.950 align:start position:0%
+is brancher not equal 0 R2 trilock and
+then<00:01:16.600><c> branch</c><00:01:16.880><c> on</c><00:01:17.119><c> equal</c><00:01:17.439><c> 0</c><00:01:17.799><c> R1</c><00:01:18.600><c> trock</c><00:01:19.600><c> and</c><00:01:19.759><c> the</c>
+
+00:01:19.950 --> 00:01:19.960 align:start position:0%
+then branch on equal 0 R1 trock and the
+ 
+
+00:01:19.960 --> 00:01:22.350 align:start position:0%
+then branch on equal 0 R1 trock and the
+fifth<00:01:20.320><c> final</c><00:01:20.680><c> option</c><00:01:21.360><c> is</c><00:01:21.479><c> to</c><00:01:21.640><c> do</c><00:01:21.840><c> branch</c><00:01:22.119><c> on</c>
+
+00:01:22.350 --> 00:01:22.360 align:start position:0%
+fifth final option is to do branch on
+ 
+
+00:01:22.360 --> 00:01:25.510 align:start position:0%
+fifth final option is to do branch on
+not<00:01:22.640><c> equal</c><00:01:22.960><c> 0</c><00:01:23.240><c> and</c><00:01:23.360><c> R2</c><00:01:23.960><c> to</c><00:01:24.159><c> trock</c><00:01:24.960><c> followed</c><00:01:25.360><c> by</c>
+
+00:01:25.510 --> 00:01:25.520 align:start position:0%
+not equal 0 and R2 to trock followed by
+ 
+
+00:01:25.520 --> 00:01:29.030 align:start position:0%
+not equal 0 and R2 to trock followed by
+a<00:01:25.640><c> branch</c><00:01:25.920><c> or</c><00:01:26.159><c> not</c><00:01:26.439><c> equal</c><00:01:26.759><c> Z</c><00:01:27.079><c> link</c><00:01:27.799><c> trilock</c><00:01:28.799><c> so</c>
+
+00:01:29.030 --> 00:01:29.040 align:start position:0%
+a branch or not equal Z link trilock so
+ 
+
+00:01:29.040 --> 00:01:31.190 align:start position:0%
+a branch or not equal Z link trilock so
+select<00:01:29.400><c> which</c><00:01:29.560><c> one</c><00:01:29.720><c> of</c><00:01:30.000><c> this</c><00:01:30.200><c> five</c><00:01:30.880><c> is</c><00:01:31.040><c> the</c>
+
+00:01:31.190 --> 00:01:31.200 align:start position:0%
+select which one of this five is the
+ 
+
+00:01:31.200 --> 00:01:35.520 align:start position:0%
+select which one of this five is the
+correct<00:01:31.560><c> thing</c><00:01:31.720><c> to</c><00:01:31.960><c> put</c><00:01:32.520><c> here</c>
+

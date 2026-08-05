@@ -1,0 +1,44 @@
+1
+00:00:00,260 --> 00:00:01,750
+ Okay, it's quiz time.
+
+2
+00:00:01,750 --> 00:00:05,930
+ Consider the computation of the gain function, given a and b.
+
+3
+00:00:05,930 --> 00:00:11,150
+ Assume the following, first, every vertex is labeled by it's partition.
+
+4
+00:00:11,150 --> 00:00:14,020
+ You can access this label in constant time.
+
+5
+00:00:14,020 --> 00:00:18,350
+ Secondly, the maximum degree of any vertex is given.
+
+6
+00:00:18,350 --> 00:00:20,590
+ It's a constant, which we'll call d.
+
+7
+00:00:20,590 --> 00:00:21,850
+ Here's my question.
+
+8
+00:00:21,850 --> 00:00:26,270
+ How long does it take to compute the gain, given a pair of vertices a and b?
+
+9
+00:00:26,270 --> 00:00:29,406
+ Write your answer, in terms of, little d, n1, and
+
+10
+00:00:29,406 --> 00:00:32,630
+ n2, which are the sizes of v1 and v2, here.
+
+11
+00:00:32,630 --> 00:00:32,630
+ For your analysis, I'm interested in the asymptotic, or the big O sense.
+

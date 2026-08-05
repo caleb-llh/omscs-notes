@@ -1,0 +1,52 @@
+1
+00:00:00,220 --> 00:00:03,650
+ Depending on how clever you are and how much you already know about this topic,
+
+2
+00:00:03,650 --> 00:00:05,680
+ a variety of answers are possible.
+
+3
+00:00:05,680 --> 00:00:07,770
+ Here's the one that I was really looking for.
+
+4
+00:00:07,770 --> 00:00:11,540
+ It's really just the trivial lower bound of reading the array.
+
+5
+00:00:11,540 --> 00:00:15,900
+ So that would be an asymptotic cost of ceiling of n over L, or just n over L.
+
+6
+00:00:15,900 --> 00:00:19,220
+ There's an n because you need to touch every word at least once.
+
+7
+00:00:19,220 --> 00:00:21,470
+ And you need to divide by L because, in the best case,
+
+8
+00:00:21,470 --> 00:00:24,020
+ you'll read these elements one block at a time.
+
+9
+00:00:24,020 --> 00:00:27,960
+ The ceiling would just account for the possibility that L does not divide n,
+
+10
+00:00:27,960 --> 00:00:29,820
+ but if you left that out, that's fine.
+
+11
+00:00:29,820 --> 00:00:32,400
+ Now, if you happen to come up with the following answer,
+
+12
+00:00:32,400 --> 00:00:35,180
+ I would've been really, really impressed.
+
+13
+00:00:35,180 --> 00:00:35,180
+ We'll do that result soon enough.
+

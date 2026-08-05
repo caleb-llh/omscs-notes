@@ -1,0 +1,200 @@
+1
+00:00:00,210 --> 00:00:02,380
+ Here's a neat algorithmic trick.
+
+2
+00:00:02,380 --> 00:00:06,340
+ You can use it to improve the bandwidth term on some of the collectives.
+
+3
+00:00:06,340 --> 00:00:08,440
+ It's called bucketing.
+
+4
+00:00:08,440 --> 00:00:11,510
+ Let me illustrate the idea using all gather.
+
+5
+00:00:11,510 --> 00:00:15,350
+ Remember that an all gather starts with all of the data distributed across all
+
+6
+00:00:15,350 --> 00:00:19,950
+ the nodes and ends with the data replicated on all the nodes.
+
+7
+00:00:19,950 --> 00:00:24,300
+ One scheme might be to first do a gather followed by a broadcast.
+
+8
+00:00:24,300 --> 00:00:25,630
+ So the gather part is fine.
+
+9
+00:00:25,630 --> 00:00:26,760
+ It attains the lower bound.
+
+10
+00:00:26,760 --> 00:00:29,880
+ What about broadcast?
+
+11
+00:00:29,880 --> 00:00:31,600
+ If you only have the tree based scheme,
+
+12
+00:00:31,600 --> 00:00:34,440
+ then you'll be off on the beta term by a factor of log P.
+
+13
+00:00:34,440 --> 00:00:39,210
+ I think you need a fresh perspective on all-gather.
+
+14
+00:00:39,210 --> 00:00:41,920
+ Let's go back to the initial state.
+
+15
+00:00:41,920 --> 00:00:43,820
+ Intuitively, the bandwidth or
+
+16
+00:00:43,820 --> 00:00:49,150
+ beta term is fundamentally about using as many of the links as possible.
+
+17
+00:00:49,150 --> 00:00:53,390
+ One way to do that is to have every process perform a send to a neighbor
+
+18
+00:00:53,390 --> 00:00:56,020
+ in say a ring like fashion.
+
+19
+00:00:56,020 --> 00:01:00,050
+ So, for example, we'll have zero send to one, while one sends to two,
+
+20
+00:01:00,050 --> 00:01:02,760
+ while two sends to three and so on.
+
+21
+00:01:02,760 --> 00:01:05,570
+ Now we also one need P minus one to send back to zero.
+
+22
+00:01:05,570 --> 00:01:07,700
+ You might be thinking to yourself,
+
+23
+00:01:07,700 --> 00:01:11,480
+ wait a minute, there's no link between P minus one and zero.
+
+24
+00:01:11,480 --> 00:01:13,350
+ But in fact there is.
+
+25
+00:01:13,350 --> 00:01:15,340
+ Remember that the links are bidirectional so
+
+26
+00:01:15,340 --> 00:01:20,400
+ in fact you can send from P minus 1 to 0 by just going in the reverse direction.
+
+27
+00:01:20,400 --> 00:01:21,700
+ So if we try this scheme and
+
+28
+00:01:21,700 --> 00:01:25,660
+ we execute one round of communication, let's see what we get.
+
+29
+00:01:25,660 --> 00:01:30,505
+ Let's keep going, in particular, let's have every process take
+
+30
+00:01:30,505 --> 00:01:48,106
+ the data it just received and pass it along and continue on and on.
+
+31
+00:01:48,106 --> 00:01:52,560
+ All told, that will be P-1 communication steps.
+
+32
+00:01:52,560 --> 00:01:55,050
+ So what's the total cost?
+
+33
+00:01:55,050 --> 00:02:01,670
+ Well, each process and each step sends, M equals N divided by P words.
+
+34
+00:02:01,670 --> 00:02:03,980
+ But it does so in parallel.
+
+35
+00:02:03,980 --> 00:02:07,210
+ So, writing down the cost, each message is alpha, plus beta,
+
+36
+00:02:07,210 --> 00:02:10,440
+ times N over P, and there are P minus 1 rounds, and
+
+37
+00:02:10,440 --> 00:02:13,520
+ that gives you something that's roughly alpha times P, plus beta.
+
+38
+00:02:13,520 --> 00:02:17,840
+ And with respect to the beta term, this is optimal.
+
+39
+00:02:17,840 --> 00:02:19,220
+ Woot.
+
+40
+00:02:19,220 --> 00:02:21,350
+ But you can also see that there's a catch.
+
+41
+00:02:21,350 --> 00:02:24,540
+ It's sub optimal with respect to the alpha term.
+
+42
+00:02:24,540 --> 00:02:25,920
+ But that's okay.
+
+43
+00:02:25,920 --> 00:02:27,190
+ If the message is large so
+
+44
+00:02:27,190 --> 00:02:32,300
+ that this term dominates this term, then the following relationship has to hold.
+
+45
+00:02:32,300 --> 00:02:34,930
+ The per process message size has to be much
+
+46
+00:02:34,930 --> 00:02:38,640
+ less than the ratio of an alpha to beta.
+
+47
+00:02:38,640 --> 00:02:42,248
+ So, provided that's true, we'll say that this algorithm is good.
+
+48
+00:02:42,248 --> 00:02:45,540
+ So, now you have a bandwidth optimal all-gather.
+
+49
+00:02:45,540 --> 00:02:46,976
+ Since reduce scatter is the dual,
+
+50
+00:02:46,976 --> 00:02:46,976
+ you also have a bandwidth optimal reduce scatter.
+

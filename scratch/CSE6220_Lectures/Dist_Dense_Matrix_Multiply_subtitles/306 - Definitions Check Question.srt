@@ -1,0 +1,24 @@
+1
+00:00:00,330 --> 00:00:04,190
+ Let's check to see if you understand the basic definition of a matrix multiply.
+
+2
+00:00:04,190 --> 00:00:07,460
+ Here's an A, B and C with four missing values.
+
+3
+00:00:07,460 --> 00:00:10,560
+ I want you to determine the missing values.
+
+4
+00:00:10,560 --> 00:00:14,640
+ You can assume that initially, C was set to all zeros.
+
+5
+00:00:14,640 --> 00:00:17,400
+ So, what I want you to compute is the state of the matrices once the matrix
+
+6
+00:00:17,400 --> 00:00:17,400
+ multiply is finished.
+

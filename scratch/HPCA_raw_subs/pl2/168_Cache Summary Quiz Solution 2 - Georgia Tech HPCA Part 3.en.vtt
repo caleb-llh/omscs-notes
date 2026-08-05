@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.760 align:start position:0%
+ 
+let's<00:00:00.269><c> look</c><00:00:00.480><c> at</c><00:00:00.630><c> the</c><00:00:00.750><c> solution</c><00:00:01.319><c> to</c><00:00:01.350><c> our</c><00:00:01.530><c> cash</c>
+
+00:00:01.760 --> 00:00:01.770 align:start position:0%
+let's look at the solution to our cash
+ 
+
+00:00:01.770 --> 00:00:04.670 align:start position:0%
+let's look at the solution to our cash
+summary<00:00:02.159><c> quiz</c><00:00:02.429><c> we</c><00:00:03.300><c> already</c><00:00:03.659><c> know</c><00:00:03.899><c> that</c><00:00:04.230><c> the</c>
+
+00:00:04.670 --> 00:00:04.680 align:start position:0%
+summary quiz we already know that the
+ 
+
+00:00:04.680 --> 00:00:07.639 align:start position:0%
+summary quiz we already know that the
+least<00:00:04.920><c> significant</c><00:00:05.549><c> 5</c><00:00:05.580><c> bits</c><00:00:05.819><c> are</c><00:00:06.540><c> the</c><00:00:06.870><c> offset</c>
+
+00:00:07.639 --> 00:00:07.649 align:start position:0%
+least significant 5 bits are the offset
+ 
+
+00:00:07.649 --> 00:00:10.430 align:start position:0%
+least significant 5 bits are the offset
+bits<00:00:07.859><c> that</c><00:00:08.730><c> there</c><00:00:08.940><c> are</c><00:00:09.090><c> eight</c><00:00:09.330><c> blocks</c><00:00:09.809><c> in</c><00:00:10.170><c> this</c>
+
+00:00:10.430 --> 00:00:10.440 align:start position:0%
+bits that there are eight blocks in this
+ 
+
+00:00:10.440 --> 00:00:12.200 align:start position:0%
+bits that there are eight blocks in this
+cache<00:00:10.740><c> and</c><00:00:11.160><c> because</c><00:00:11.550><c> it's</c><00:00:11.700><c> 2-way</c>
+
+00:00:12.200 --> 00:00:12.210 align:start position:0%
+cache and because it's 2-way
+ 
+
+00:00:12.210 --> 00:00:14.299 align:start position:0%
+cache and because it's 2-way
+set-associative<00:00:12.809><c> that</c><00:00:13.230><c> means</c><00:00:13.469><c> that</c><00:00:13.710><c> the</c><00:00:13.980><c> next</c>
+
+00:00:14.299 --> 00:00:14.309 align:start position:0%
+set-associative that means that the next
+ 
+
+00:00:14.309 --> 00:00:17.150 align:start position:0%
+set-associative that means that the next
+two<00:00:14.490><c> bits</c><00:00:14.730><c> are</c><00:00:14.940><c> the</c><00:00:15.120><c> index</c><00:00:15.570><c> bits</c><00:00:15.780><c> so</c><00:00:16.619><c> all</c><00:00:16.800><c> of</c>
+
+00:00:17.150 --> 00:00:17.160 align:start position:0%
+two bits are the index bits so all of
+ 
+
+00:00:17.160 --> 00:00:20.960 align:start position:0%
+two bits are the index bits so all of
+these<00:00:17.310><c> have</c><00:00:18.260><c> the</c><00:00:19.260><c> same</c><00:00:19.529><c> index</c><00:00:20.220><c> bits</c><00:00:20.369><c> which</c>
+
+00:00:20.960 --> 00:00:20.970 align:start position:0%
+these have the same index bits which
+ 
+
+00:00:20.970 --> 00:00:24.529 align:start position:0%
+these have the same index bits which
+means<00:00:21.210><c> they</c><00:00:21.390><c> map</c><00:00:21.630><c> to</c><00:00:21.930><c> the</c><00:00:22.560><c> same</c><00:00:22.830><c> cache</c><00:00:23.340><c> set</c><00:00:23.640><c> so</c>
+
+00:00:24.529 --> 00:00:24.539 align:start position:0%
+means they map to the same cache set so
+ 
+
+00:00:24.539 --> 00:00:25.910 align:start position:0%
+means they map to the same cache set so
+we<00:00:24.689><c> only</c><00:00:24.840><c> really</c><00:00:24.990><c> need</c><00:00:25.350><c> to</c><00:00:25.470><c> consider</c><00:00:25.740><c> what</c>
+
+00:00:25.910 --> 00:00:25.920 align:start position:0%
+we only really need to consider what
+ 
+
+00:00:25.920 --> 00:00:28.040 align:start position:0%
+we only really need to consider what
+happens<00:00:26.369><c> in</c><00:00:26.730><c> the</c><00:00:26.910><c> one</c><00:00:27.090><c> set</c><00:00:27.390><c> where</c><00:00:27.630><c> they</c><00:00:27.810><c> go</c>
+
+00:00:28.040 --> 00:00:28.050 align:start position:0%
+happens in the one set where they go
+ 
+
+00:00:28.050 --> 00:00:30.439 align:start position:0%
+happens in the one set where they go
+this<00:00:28.529><c> is</c><00:00:28.590><c> a</c><00:00:28.949><c> load</c><00:00:29.220><c> it's</c><00:00:29.730><c> gonna</c><00:00:30.000><c> be</c><00:00:30.210><c> a</c><00:00:30.240><c> miss</c>
+
+00:00:30.439 --> 00:00:30.449 align:start position:0%
+this is a load it's gonna be a miss
+ 
+
+00:00:30.449 --> 00:00:33.350 align:start position:0%
+this is a load it's gonna be a miss
+because<00:00:30.779><c> the</c><00:00:30.960><c> cache</c><00:00:31.140><c> is</c><00:00:31.320><c> empty</c><00:00:31.790><c> so</c><00:00:32.790><c> we</c><00:00:32.910><c> have</c><00:00:33.120><c> a</c>
+
+00:00:33.350 --> 00:00:33.360 align:start position:0%
+because the cache is empty so we have a
+ 
+
+00:00:33.360 --> 00:00:38.750 align:start position:0%
+because the cache is empty so we have a
+Miss<00:00:33.600><c> now</c><00:00:34.410><c> the</c><00:00:34.469><c> valid</c><00:00:35.180><c> dirty</c><00:00:36.180><c> and</c><00:00:36.660><c> tag</c><00:00:37.520><c> bits</c><00:00:38.520><c> in</c>
+
+00:00:38.750 --> 00:00:38.760 align:start position:0%
+Miss now the valid dirty and tag bits in
+ 
+
+00:00:38.760 --> 00:00:42.790 align:start position:0%
+Miss now the valid dirty and tag bits in
+the<00:00:38.879><c> set</c><00:00:39.149><c> are</c><00:00:39.360><c> gonna</c><00:00:39.690><c> be</c><00:00:39.899><c> 1</c><00:00:40.770><c> here</c><00:00:41.219><c> and</c><00:00:41.430><c> 0</c><00:00:41.520><c> here</c>
+
+00:00:42.790 --> 00:00:42.800 align:start position:0%
+the set are gonna be 1 here and 0 here
+ 
+
+00:00:42.800 --> 00:00:50.439 align:start position:0%
+the set are gonna be 1 here and 0 here
+dirty<00:00:43.800><c> is</c><00:00:44.010><c> 0</c><00:00:44.370><c> and</c><00:00:44.700><c> the</c><00:00:45.390><c> tag</c><00:00:45.660><c> is</c><00:00:45.899><c> b</c><00:00:46.680><c> c</c><00:00:47.010><c> d</c><00:00:47.039><c> e</c><00:00:48.200><c> 0</c><00:00:49.200><c> 0</c>
+
+00:00:50.439 --> 00:00:50.449 align:start position:0%
+dirty is 0 and the tag is b c d e 0 0
+ 
+
+00:00:50.449 --> 00:00:52.520 align:start position:0%
+dirty is 0 and the tag is b c d e 0 0
+it's<00:00:51.449><c> actually</c><00:00:51.780><c> gonna</c><00:00:51.899><c> have</c><00:00:52.110><c> slightly</c><00:00:52.379><c> more</c>
+
+00:00:52.520 --> 00:00:52.530 align:start position:0%
+it's actually gonna have slightly more
+ 
+
+00:00:52.530 --> 00:00:55.040 align:start position:0%
+it's actually gonna have slightly more
+bits<00:00:52.920><c> but</c><00:00:53.250><c> this</c><00:00:53.850><c> is</c><00:00:54.030><c> the</c><00:00:54.120><c> only</c><00:00:54.239><c> part</c><00:00:54.480><c> that</c><00:00:54.809><c> will</c>
+
+00:00:55.040 --> 00:00:55.050 align:start position:0%
+bits but this is the only part that will
+ 
+
+00:00:55.050 --> 00:00:58.430 align:start position:0%
+bits but this is the only part that will
+really<00:00:55.260><c> differ</c><00:00:55.530><c> between</c><00:00:55.800><c> these</c><00:00:57.079><c> the</c><00:00:58.079><c> next</c>
+
+00:00:58.430 --> 00:00:58.440 align:start position:0%
+really differ between these the next
+ 
+
+00:00:58.440 --> 00:01:01.279 align:start position:0%
+really differ between these the next
+access<00:00:58.829><c> is</c><00:00:59.010><c> c</c><00:00:59.250><c> d</c><00:00:59.399><c> e</c><00:00:59.430><c> f</c><00:00:59.579><c> it's</c><00:01:00.510><c> gonna</c><00:01:00.809><c> be</c><00:01:01.020><c> a</c><00:01:01.050><c> mess</c>
+
+00:01:01.279 --> 00:01:01.289 align:start position:0%
+access is c d e f it's gonna be a mess
+ 
+
+00:01:01.289 --> 00:01:04.189 align:start position:0%
+access is c d e f it's gonna be a mess
+and<00:01:01.530><c> we'll</c><00:01:02.129><c> fetch</c><00:01:02.370><c> it</c><00:01:02.609><c> into</c><00:01:02.969><c> the</c><00:01:03.120><c> other</c><00:01:03.359><c> entry</c>
+
+00:01:04.189 --> 00:01:04.199 align:start position:0%
+and we'll fetch it into the other entry
+ 
+
+00:01:04.199 --> 00:01:07.580 align:start position:0%
+and we'll fetch it into the other entry
+here<00:01:04.920><c> the</c><00:01:05.489><c> dirty</c><00:01:05.729><c> bit</c><00:01:06.030><c> is</c><00:01:06.240><c> 0</c><00:01:06.630><c> because</c><00:01:07.110><c> this</c><00:01:07.439><c> is</c>
+
+00:01:07.580 --> 00:01:07.590 align:start position:0%
+here the dirty bit is 0 because this is
+ 
+
+00:01:07.590 --> 00:01:10.550 align:start position:0%
+here the dirty bit is 0 because this is
+a<00:01:07.619><c> load</c><00:01:07.890><c> next</c><00:01:08.820><c> we</c><00:01:08.939><c> have</c><00:01:09.119><c> a</c><00:01:09.150><c> store</c><00:01:09.600><c> hit</c><00:01:10.049><c> because</c>
+
+00:01:10.550 --> 00:01:10.560 align:start position:0%
+a load next we have a store hit because
+ 
+
+00:01:10.560 --> 00:01:13.460 align:start position:0%
+a load next we have a store hit because
+we<00:01:10.799><c> are</c><00:01:10.860><c> accessing</c><00:01:11.189><c> this</c><00:01:11.520><c> it's</c><00:01:12.330><c> a</c><00:01:12.479><c> hit</c><00:01:12.720><c> because</c>
+
+00:01:13.460 --> 00:01:13.470 align:start position:0%
+we are accessing this it's a hit because
+ 
+
+00:01:13.470 --> 00:01:16.580 align:start position:0%
+we are accessing this it's a hit because
+it's<00:01:13.650><c> a</c><00:01:13.740><c> store</c><00:01:14.070><c> this</c><00:01:14.670><c> becomes</c><00:01:15.150><c> dirty</c><00:01:15.420><c> next</c><00:01:16.409><c> we</c>
+
+00:01:16.580 --> 00:01:16.590 align:start position:0%
+it's a store this becomes dirty next we
+ 
+
+00:01:16.590 --> 00:01:19.039 align:start position:0%
+it's a store this becomes dirty next we
+have<00:01:16.770><c> a</c><00:01:16.799><c> store</c><00:01:17.220><c> to</c><00:01:17.850><c> another</c><00:01:18.390><c> world</c><00:01:18.689><c> in</c><00:01:18.930><c> the</c>
+
+00:01:19.039 --> 00:01:19.049 align:start position:0%
+have a store to another world in the
+ 
+
+00:01:19.049 --> 00:01:21.380 align:start position:0%
+have a store to another world in the
+same<00:01:19.290><c> block</c><00:01:19.590><c> so</c><00:01:20.250><c> this</c><00:01:20.430><c> block</c><00:01:20.670><c> becomes</c><00:01:20.909><c> dirty</c>
+
+00:01:21.380 --> 00:01:21.390 align:start position:0%
+same block so this block becomes dirty
+ 
+
+00:01:21.390 --> 00:01:26.270 align:start position:0%
+same block so this block becomes dirty
+and<00:01:21.780><c> then</c><00:01:22.409><c> we</c><00:01:22.560><c> have</c><00:01:22.710><c> a</c><00:01:22.740><c> store</c><00:01:23.159><c> again</c><00:01:24.150><c> to</c><00:01:24.330><c> BCD</c><00:01:25.280><c> so</c>
+
+00:01:26.270 --> 00:01:26.280 align:start position:0%
+and then we have a store again to BCD so
+ 
+
+00:01:26.280 --> 00:01:29.210 align:start position:0%
+and then we have a store again to BCD so
+it's<00:01:26.430><c> just</c><00:01:26.610><c> a</c><00:01:26.700><c> hit</c><00:01:26.970><c> that</c><00:01:27.500><c> sets</c><00:01:28.500><c> this</c><00:01:28.710><c> dirty</c><00:01:28.979><c> bit</c>
+
+00:01:29.210 --> 00:01:29.220 align:start position:0%
+it's just a hit that sets this dirty bit
+ 
+
+00:01:29.220 --> 00:01:32.569 align:start position:0%
+it's just a hit that sets this dirty bit
+again<00:01:29.610><c> to</c><00:01:29.880><c> 1</c><00:01:30.060><c> so</c><00:01:30.810><c> overall</c><00:01:31.229><c> we</c><00:01:31.650><c> had</c><00:01:31.829><c> two</c><00:01:32.100><c> misses</c>
+
+00:01:32.569 --> 00:01:32.579 align:start position:0%
+again to 1 so overall we had two misses
+ 
+
+00:01:32.579 --> 00:01:37.100 align:start position:0%
+again to 1 so overall we had two misses
+and<00:01:32.820><c> 0</c><00:01:33.509><c> right</c><00:01:33.780><c> backs</c><00:01:34.079><c> in</c><00:01:34.350><c> this</c><00:01:34.619><c> sequence</c>
+

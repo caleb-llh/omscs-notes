@@ -1,0 +1,36 @@
+1
+00:00:00,270 --> 00:00:01,700
+ Here is the answer.
+
+2
+00:00:01,700 --> 00:00:03,300
+ The work is linear.
+
+3
+00:00:03,300 --> 00:00:04,830
+ The loops all go from 1 to n,
+
+4
+00:00:04,830 --> 00:00:08,010
+ and the amount of work per iteration is constant.
+
+5
+00:00:08,010 --> 00:00:09,930
+ Now the span is log n.
+
+6
+00:00:09,930 --> 00:00:11,496
+ That follows from our usual convention.
+
+7
+00:00:11,496 --> 00:00:14,760
+ A parallel for-loop with a constant amount of work per iteration
+
+8
+00:00:14,760 --> 00:00:16,400
+ has logarithmic span.
+
+9
+00:00:16,400 --> 00:00:16,400
+ I've also asked the grading auto box to accept O of 1 time.
+

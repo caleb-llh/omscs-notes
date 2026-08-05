@@ -1,0 +1,52 @@
+1
+00:00:00,000 --> 00:00:02,210
+ The answer is true.
+
+2
+00:00:02,210 --> 00:00:06,420
+ You should pause for a moment to savour this fact which is really cool.
+
+3
+00:00:06,420 --> 00:00:10,452
+ It's likely that your intuition from sequential algorithms tells you that
+
+4
+00:00:10,452 --> 00:00:13,854
+ the complexity of a tree algorithm somehow depends on the height
+
+5
+00:00:13,854 --> 00:00:14,550
+ of the tree.
+
+6
+00:00:14,550 --> 00:00:17,920
+ So, that would lead you to believe that the claim is false.
+
+7
+00:00:17,920 --> 00:00:21,670
+ The tree after all could be very unbalanced like a linear chain.
+
+8
+00:00:21,670 --> 00:00:25,301
+ But the whole point of the Euler tour technique is to turn the tree
+
+9
+00:00:25,301 --> 00:00:26,050
+ into a list.
+
+10
+00:00:26,050 --> 00:00:29,170
+ Once you've done that, the tree-shape doesn't matter anymore.
+
+11
+00:00:29,170 --> 00:00:30,840
+ Jeez-o-pete.
+
+12
+00:00:30,840 --> 00:00:35,102
+ Of course, all this hinges on being able to convert a computation into
+
+13
+00:00:35,102 --> 00:00:35,102
+ an equivalent Euler tour computation, which is not always possible.
+

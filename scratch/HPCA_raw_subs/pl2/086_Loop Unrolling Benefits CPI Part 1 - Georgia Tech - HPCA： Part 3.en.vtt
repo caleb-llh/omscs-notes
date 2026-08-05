@@ -1,0 +1,864 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:02.629 align:start position:0%
+ 
+so <00:00:00.434><c>we </c><00:00:00.748><c>will </c><00:00:01.062><c>see </c><00:00:01.376><c>Now </c><00:00:01.690><c>that </c><00:00:02.004><c>Another </c><00:00:02.318><c>Benefit</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+so we will see Now that Another Benefit
+ 
+
+00:00:02.639 --> 00:00:05.309 align:start position:0%
+so we will see Now that Another Benefit
+of <00:00:02.944><c>Loop </c><00:00:03.249><c>and </c><00:00:03.554><c>Rolling </c><00:00:03.859><c>is </c><00:00:04.164><c>that </c><00:00:04.469><c>it </c><00:00:04.774><c>allows </c><00:00:05.079><c>us</c>
+
+00:00:05.309 --> 00:00:05.319 align:start position:0%
+of Loop and Rolling is that it allows us
+ 
+
+00:00:05.319 --> 00:00:08.110 align:start position:0%
+of Loop and Rolling is that it allows us
+to <00:00:05.690><c>also </c><00:00:06.061><c>reduce </c><00:00:06.432><c>the </c><00:00:06.803><c>cpi </c><00:00:07.174><c>in </c><00:00:07.545><c>addition </c><00:00:07.916><c>to</c>
+
+00:00:08.110 --> 00:00:08.120 align:start position:0%
+to also reduce the cpi in addition to
+ 
+
+00:00:08.120 --> 00:00:10.430 align:start position:0%
+to also reduce the cpi in addition to
+reducing <00:00:08.552><c>the </c><00:00:08.984><c>number </c><00:00:09.416><c>of </c><00:00:09.848><c>instructions </c><00:00:10.280><c>to</c>
+
+00:00:10.430 --> 00:00:10.440 align:start position:0%
+reducing the number of instructions to
+ 
+
+00:00:10.440 --> 00:00:12.830 align:start position:0%
+reducing the number of instructions to
+get <00:00:10.714><c>some </c><00:00:10.988><c>Idea </c><00:00:11.262><c>for </c><00:00:11.536><c>How </c><00:00:11.810><c>The </c><00:00:12.084><c>cpi </c><00:00:12.358><c>Changes </c><00:00:12.632><c>We</c>
+
+00:00:12.830 --> 00:00:12.840 align:start position:0%
+get some Idea for How The cpi Changes We
+ 
+
+00:00:12.840 --> 00:00:15.270 align:start position:0%
+get some Idea for How The cpi Changes We
+need <00:00:13.148><c>to </c><00:00:13.456><c>have </c><00:00:13.764><c>a </c><00:00:14.072><c>processor </c><00:00:14.380><c>So </c><00:00:14.688><c>let's </c><00:00:14.996><c>assume</c>
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+need to have a processor So let's assume
+ 
+
+00:00:15.280 --> 00:00:18.550 align:start position:0%
+need to have a processor So let's assume
+We <00:00:15.657><c>have </c><00:00:16.034><c>a </c><00:00:16.411><c>Four </c><00:00:16.788><c>issue </c><00:00:17.165><c>in </c><00:00:17.542><c>Order </c><00:00:17.919><c>processor</c>
+
+00:00:18.550 --> 00:00:18.560 align:start position:0%
+We have a Four issue in Order processor
+ 
+
+00:00:18.560 --> 00:00:20.349 align:start position:0%
+We have a Four issue in Order processor
+meaning <00:00:18.782><c>It's </c><00:00:19.004><c>Only </c><00:00:19.226><c>able </c><00:00:19.448><c>to </c><00:00:19.670><c>Look </c><00:00:19.892><c>at </c><00:00:20.114><c>the</c>
+
+00:00:20.349 --> 00:00:20.359 align:start position:0%
+meaning It's Only able to Look at the
+ 
+
+00:00:20.359 --> 00:00:22.550 align:start position:0%
+meaning It's Only able to Look at the
+Next <00:00:20.685><c>Four </c><00:00:21.011><c>instructions </c><00:00:21.337><c>to </c><00:00:21.663><c>see </c><00:00:21.989><c>What </c><00:00:22.315><c>can</c>
+
+00:00:22.550 --> 00:00:22.560 align:start position:0%
+Next Four instructions to see What can
+ 
+
+00:00:22.560 --> 00:00:25.670 align:start position:0%
+Next Four instructions to see What can
+be <00:00:23.033><c>executed </c><00:00:23.506><c>together </c><00:00:23.979><c>meaning </c><00:00:24.452><c>It </c><00:00:24.925><c>can </c><00:00:25.398><c>Only</c>
+
+00:00:25.670 --> 00:00:25.680 align:start position:0%
+be executed together meaning It can Only
+ 
+
+00:00:25.680 --> 00:00:27.589 align:start position:0%
+be executed together meaning It can Only
+Look <00:00:25.980><c>at </c><00:00:26.280><c>the </c><00:00:26.580><c>Next </c><00:00:26.880><c>Four </c><00:00:27.180><c>instructions </c><00:00:27.480><c>to</c>
+
+00:00:27.589 --> 00:00:27.599 align:start position:0%
+Look at the Next Four instructions to
+ 
+
+00:00:27.599 --> 00:00:30.109 align:start position:0%
+Look at the Next Four instructions to
+see <00:00:27.896><c>What </c><00:00:28.193><c>It </c><00:00:28.490><c>can </c><00:00:28.787><c>execute </c><00:00:29.084><c>together </c><00:00:29.381><c>and </c><00:00:29.678><c>let</c>
+
+00:00:30.109 --> 00:00:30.119 align:start position:0%
+see What It can execute together and let
+ 
+
+00:00:30.119 --> 00:00:31.390 align:start position:0%
+see What It can execute together and let
+assume <00:00:30.311><c>that </c><00:00:30.503><c>The </c><00:00:30.695><c>processor </c><00:00:30.887><c>has </c><00:00:31.079><c>Perfect</c>
+
+00:00:31.390 --> 00:00:31.400 align:start position:0%
+assume that The processor has Perfect
+ 
+
+00:00:31.400 --> 00:00:33.750 align:start position:0%
+assume that The processor has Perfect
+branch <00:00:31.766><c>priction </c><00:00:32.132><c>so </c><00:00:32.498><c>First  </c><00:00:32.864><c>Let's </c><00:00:33.230><c>Look </c><00:00:33.596><c>at</c>
+
+00:00:33.750 --> 00:00:33.760 align:start position:0%
+branch priction so First  Let's Look at
+ 
+
+00:00:33.760 --> 00:00:35.709 align:start position:0%
+branch priction so First  Let's Look at
+What <00:00:34.017><c>Happens </c><00:00:34.274><c>When </c><00:00:34.531><c>we </c><00:00:34.788><c>try </c><00:00:35.045><c>to </c><00:00:35.302><c>execute </c><00:00:35.559><c>the</c>
+
+00:00:35.709 --> 00:00:35.719 align:start position:0%
+What Happens When we try to execute the
+ 
+
+00:00:35.719 --> 00:00:37.549 align:start position:0%
+What Happens When we try to execute the
+original <00:00:35.979><c>Loop </c><00:00:36.239><c>so </c><00:00:36.499><c>to </c><00:00:36.759><c>see </c><00:00:37.019><c>What </c><00:00:37.279><c>Happens</c>
+
+00:00:37.549 --> 00:00:37.559 align:start position:0%
+original Loop so to see What Happens
+ 
+
+00:00:37.559 --> 00:00:39.790 align:start position:0%
+original Loop so to see What Happens
+with <00:00:37.879><c>this </c><00:00:38.199><c>Loop </c><00:00:38.519><c>In </c><00:00:38.839><c>this </c><00:00:39.159><c>processor </c><00:00:39.479><c>Let's</c>
+
+00:00:39.790 --> 00:00:39.800 align:start position:0%
+with this Loop In this processor Let's
+ 
+
+00:00:39.800 --> 00:00:41.830 align:start position:0%
+with this Loop In this processor Let's
+Look <00:00:40.144><c>Cycle </c><00:00:40.488><c>by </c><00:00:40.832><c>Cycle </c><00:00:41.176><c>at </c><00:00:41.520><c>which</c>
+
+00:00:41.830 --> 00:00:41.840 align:start position:0%
+Look Cycle by Cycle at which
+ 
+
+00:00:41.840 --> 00:00:44.150 align:start position:0%
+Look Cycle by Cycle at which
+instructions <00:00:42.240><c>can </c><00:00:42.640><c>execute </c><00:00:43.040><c>in </c><00:00:43.440><c>the </c><00:00:43.840><c>very</c>
+
+00:00:44.150 --> 00:00:44.160 align:start position:0%
+instructions can execute in the very
+ 
+
+00:00:44.160 --> 00:00:47.189 align:start position:0%
+instructions can execute in the very
+First <00:00:44.435><c>Cycle </c><00:00:44.710><c>we </c><00:00:44.985><c>will </c><00:00:45.260><c>Try </c><00:00:45.535><c>to </c><00:00:45.810><c>do </c><00:00:46.085><c>this </c><00:00:46.360><c>Load</c>
+
+00:00:47.189 --> 00:00:47.199 align:start position:0%
+First Cycle we will Try to do this Load
+ 
+
+00:00:47.199 --> 00:00:48.990 align:start position:0%
+First Cycle we will Try to do this Load
+and <00:00:47.399><c>then </c><00:00:47.599><c>we </c><00:00:47.799><c>will </c><00:00:47.999><c>Try </c><00:00:48.199><c>to </c><00:00:48.399><c>see </c><00:00:48.599><c>whether </c><00:00:48.799><c>We</c>
+
+00:00:48.990 --> 00:00:49.000 align:start position:0%
+and then we will Try to see whether We
+ 
+
+00:00:49.000 --> 00:00:50.709 align:start position:0%
+and then we will Try to see whether We
+can <00:00:49.264><c>execute </c><00:00:49.528><c>The </c><00:00:49.792><c>Next </c><00:00:50.056><c>instruction </c><00:00:50.320><c>in</c>
+
+00:00:50.709 --> 00:00:50.719 align:start position:0%
+can execute The Next instruction in
+ 
+
+00:00:50.719 --> 00:00:52.910 align:start position:0%
+can execute The Next instruction in
+Order <00:00:50.936><c>in </c><00:00:51.153><c>the </c><00:00:51.370><c>same </c><00:00:51.587><c>Cycle </c><00:00:51.804><c>but </c><00:00:52.021><c>We </c><00:00:52.238><c>cannot</c>
+
+00:00:52.910 --> 00:00:52.920 align:start position:0%
+Order in the same Cycle but We cannot
+ 
+
+00:00:52.920 --> 00:00:54.990 align:start position:0%
+Order in the same Cycle but We cannot
+Because <00:00:53.177><c>it </c><00:00:53.434><c>depends </c><00:00:53.691><c>on </c><00:00:53.948><c>the </c><00:00:54.205><c>Load </c><00:00:54.462><c>so </c><00:00:54.719><c>this</c>
+
+00:00:54.990 --> 00:00:55.000 align:start position:0%
+Because it depends on the Load so this
+ 
+
+00:00:55.000 --> 00:00:57.750 align:start position:0%
+Because it depends on the Load so this
+instruction <00:00:55.348><c>has </c><00:00:55.696><c>to </c><00:00:56.044><c>be </c><00:00:56.392><c>Done </c><00:00:56.740><c>Here </c><00:00:57.088><c>Now </c><00:00:57.436><c>we</c>
+
+00:00:57.750 --> 00:00:57.760 align:start position:0%
+instruction has to be Done Here Now we
+ 
+
+00:00:57.760 --> 00:00:59.470 align:start position:0%
+instruction has to be Done Here Now we
+will <00:00:58.020><c>Look </c><00:00:58.280><c>at </c><00:00:58.540><c>the </c><00:00:58.800><c>Next </c><00:00:59.060><c>instruction </c><00:00:59.320><c>and</c>
+
+00:00:59.470 --> 00:00:59.480 align:start position:0%
+will Look at the Next instruction and
+ 
+
+00:00:59.480 --> 00:01:01.830 align:start position:0%
+will Look at the Next instruction and
+Try <00:00:59.745><c>to </c><00:01:00.010><c>execute </c><00:01:00.275><c>it </c><00:01:00.540><c>in </c><00:01:00.805><c>Order  </c><00:01:01.070><c>in </c><00:01:01.335><c>the </c><00:01:01.600><c>same</c>
+
+00:01:01.830 --> 00:01:01.840 align:start position:0%
+Try to execute it in Order  in the same
+ 
+
+00:01:01.840 --> 00:01:03.990 align:start position:0%
+Try to execute it in Order  in the same
+Cycle <00:01:02.153><c>but </c><00:01:02.466><c>We </c><00:01:02.779><c>cannot </c><00:01:03.092><c>Because </c><00:01:03.405><c>it </c><00:01:03.718><c>depends</c>
+
+00:01:03.990 --> 00:01:04.000 align:start position:0%
+Cycle but We cannot Because it depends
+ 
+
+00:01:04.000 --> 00:01:07.429 align:start position:0%
+Cycle but We cannot Because it depends
+on  <00:01:04.400><c>R2 </c><00:01:04.800><c>Again </c><00:01:05.200><c>so </c><00:01:05.600><c>We </c><00:01:06.000><c>Move </c><00:01:06.400><c>Here </c><00:01:06.800><c>The </c><00:01:07.200><c>Next</c>
+
+00:01:07.429 --> 00:01:07.439 align:start position:0%
+on  R2 Again so We Move Here The Next
+ 
+
+00:01:07.439 --> 00:01:09.710 align:start position:0%
+on  R2 Again so We Move Here The Next
+instruction <00:01:07.863><c>however </c><00:01:08.287><c>does </c><00:01:08.711><c>not </c><00:01:09.135><c>depend </c><00:01:09.559><c>on</c>
+
+00:01:09.710 --> 00:01:09.720 align:start position:0%
+instruction however does not depend on
+ 
+
+00:01:09.720 --> 00:01:12.510 align:start position:0%
+instruction however does not depend on
+the <00:01:10.015><c>previous </c><00:01:10.310><c>one </c><00:01:10.605><c>so </c><00:01:10.900><c>We </c><00:01:11.195><c>can </c><00:01:11.490><c>do </c><00:01:11.785><c>this </c><00:01:12.080><c>Add</c>
+
+00:01:12.510 --> 00:01:12.520 align:start position:0%
+the previous one so We can do this Add
+ 
+
+00:01:12.520 --> 00:01:15.590 align:start position:0%
+the previous one so We can do this Add
+Here <00:01:12.925><c>but </c><00:01:13.330><c>then </c><00:01:13.735><c>for </c><00:01:14.140><c>the </c><00:01:14.545><c>branch </c><00:01:14.950><c>it </c><00:01:15.355><c>does</c>
+
+00:01:15.590 --> 00:01:15.600 align:start position:0%
+Here but then for the branch it does
+ 
+
+00:01:15.600 --> 00:01:19.590 align:start position:0%
+Here but then for the branch it does
+depend <00:01:15.933><c>on </c><00:01:16.266><c>R1 </c><00:01:16.599><c>so </c><00:01:16.932><c>It </c><00:01:17.265><c>can </c><00:01:17.598><c>be </c><00:01:17.931><c>Only </c><00:01:18.264><c>Done </c><00:01:18.597><c>Here</c>
+
+00:01:19.590 --> 00:01:19.600 align:start position:0%
+depend on R1 so It can be Only Done Here
+ 
+
+00:01:19.600 --> 00:01:21.590 align:start position:0%
+depend on R1 so It can be Only Done Here
+Because <00:01:19.831><c>We </c><00:01:20.062><c>have </c><00:01:20.293><c>Perfect </c><00:01:20.524><c>branch </c><00:01:20.755><c>traction</c>
+
+00:01:21.590 --> 00:01:21.600 align:start position:0%
+Because We have Perfect branch traction
+ 
+
+00:01:21.600 --> 00:01:24.069 align:start position:0%
+Because We have Perfect branch traction
+this <00:01:21.931><c>Load </c><00:01:22.262><c>has </c><00:01:22.593><c>also </c><00:01:22.924><c>been </c><00:01:23.255><c>fetched </c><00:01:23.586><c>from </c><00:01:23.917><c>the</c>
+
+00:01:24.069 --> 00:01:24.079 align:start position:0%
+this Load has also been fetched from the
+ 
+
+00:01:24.079 --> 00:01:26.990 align:start position:0%
+this Load has also been fetched from the
+Next <00:01:24.545><c>iteration </c><00:01:25.011><c>and </c><00:01:25.477><c>it </c><00:01:25.943><c>doesn't </c><00:01:26.409><c>depend </c><00:01:26.875><c>on</c>
+
+00:01:26.990 --> 00:01:27.000 align:start position:0%
+Next iteration and it doesn't depend on
+ 
+
+00:01:27.000 --> 00:01:28.950 align:start position:0%
+Next iteration and it doesn't depend on
+the <00:01:27.215><c>branch </c><00:01:27.430><c>that </c><00:01:27.645><c>was </c><00:01:27.860><c>Done </c><00:01:28.075><c>Here </c><00:01:28.290><c>so </c><00:01:28.505><c>we </c><00:01:28.720><c>will</c>
+
+00:01:28.950 --> 00:01:28.960 align:start position:0%
+the branch that was Done Here so we will
+ 
+
+00:01:28.960 --> 00:01:30.749 align:start position:0%
+the branch that was Done Here so we will
+actually <00:01:29.193><c>do </c><00:01:29.426><c>The </c><00:01:29.659><c>Load </c><00:01:29.892><c>for </c><00:01:30.125><c>the </c><00:01:30.358><c>Next</c>
+
+00:01:30.749 --> 00:01:30.759 align:start position:0%
+actually do The Load for the Next
+ 
+
+00:01:30.759 --> 00:01:33.389 align:start position:0%
+actually do The Load for the Next
+iteration <00:01:31.119><c>and </c><00:01:31.479><c>then </c><00:01:31.839><c>we </c><00:01:32.199><c>will </c><00:01:32.559><c>Again </c><00:01:32.919><c>not </c><00:01:33.279><c>Be</c>
+
+00:01:33.389 --> 00:01:33.399 align:start position:0%
+iteration and then we will Again not Be
+ 
+
+00:01:33.399 --> 00:01:35.389 align:start position:0%
+iteration and then we will Again not Be
+able <00:01:33.612><c>to </c><00:01:33.825><c>do </c><00:01:34.038><c>The </c><00:01:34.251><c>Add </c><00:01:34.464><c>so </c><00:01:34.677><c>The </c><00:01:34.890><c>Add </c><00:01:35.103><c>Happens </c><00:01:35.316><c>in</c>
+
+00:01:35.389 --> 00:01:35.399 align:start position:0%
+able to do The Add so The Add Happens in
+ 
+
+00:01:35.399 --> 00:01:37.310 align:start position:0%
+able to do The Add so The Add Happens in
+the <00:01:35.633><c>Next </c><00:01:35.867><c>Cycle </c><00:01:36.101><c>and </c><00:01:36.335><c>then </c><00:01:36.569><c>In  </c><00:01:36.803><c>this </c><00:01:37.037><c>Cycle</c>
+
+00:01:37.310 --> 00:01:37.320 align:start position:0%
+the Next Cycle and then In  this Cycle
+ 
+
+00:01:37.320 --> 00:01:40.870 align:start position:0%
+the Next Cycle and then In  this Cycle
+these <00:01:37.685><c>Two </c><00:01:38.050><c>happen </c><00:01:38.415><c>and </c><00:01:38.780><c>so </c><00:01:39.145><c>on </c><00:01:39.510><c>so </c><00:01:39.875><c>overall</c>
+
+00:01:40.870 --> 00:01:40.880 align:start position:0%
+these Two happen and so on so overall
+ 
+
+00:01:40.880 --> 00:01:43.830 align:start position:0%
+these Two happen and so on so overall
+After <00:01:41.291><c>this </c><00:01:41.702><c>initial </c><00:01:42.113><c>Load </c><00:01:42.524><c>that </c><00:01:42.935><c>had </c><00:01:43.346><c>to </c><00:01:43.757><c>be</c>
+
+00:01:43.830 --> 00:01:43.840 align:start position:0%
+After this initial Load that had to be
+ 
+
+00:01:43.840 --> 00:01:45.590 align:start position:0%
+After this initial Load that had to be
+Done <00:01:44.062><c>by </c><00:01:44.284><c>itself </c><00:01:44.506><c>Just </c><00:01:44.728><c>Because </c><00:01:44.950><c>there </c><00:01:45.172><c>was </c><00:01:45.394><c>No</c>
+
+00:01:45.590 --> 00:01:45.600 align:start position:0%
+Done by itself Just Because there was No
+ 
+
+00:01:45.600 --> 00:01:48.550 align:start position:0%
+Done by itself Just Because there was No
+branch <00:01:45.959><c>before </c><00:01:46.318><c>it </c><00:01:46.677><c>it </c><00:01:47.036><c>takes </c><00:01:47.395><c>US </c><00:01:47.754><c>Three</c>
+
+00:01:48.550 --> 00:01:48.560 align:start position:0%
+branch before it it takes US Three
+ 
+
+00:01:48.560 --> 00:01:51.069 align:start position:0%
+branch before it it takes US Three
+cycles <00:01:48.946><c>to </c><00:01:49.332><c>do </c><00:01:49.718><c>All </c><00:01:50.104><c>Five </c><00:01:50.490><c>of </c><00:01:50.876><c>the</c>
+
+00:01:51.069 --> 00:01:51.079 align:start position:0%
+cycles to do All Five of the
+ 
+
+00:01:51.079 --> 00:01:54.389 align:start position:0%
+cycles to do All Five of the
+instructions <00:01:51.461><c>in </c><00:01:51.843><c>the </c><00:01:52.225><c>Loop </c><00:01:52.607><c>so </c><00:01:52.989><c>The </c><00:01:53.371><c>cpi </c><00:01:53.753><c>Here</c>
+
+00:01:54.389 --> 00:01:54.399 align:start position:0%
+instructions in the Loop so The cpi Here
+ 
+
+00:01:54.399 --> 00:01:57.350 align:start position:0%
+instructions in the Loop so The cpi Here
+is <00:01:54.791><c>Three </c><00:01:55.183><c>cycles </c><00:01:55.575><c>for </c><00:01:55.967><c>Five </c><00:01:56.359><c>instructions</c>
+
+00:01:57.350 --> 00:01:57.360 align:start position:0%
+is Three cycles for Five instructions
+ 
+
+00:01:57.360 --> 00:01:59.469 align:start position:0%
+is Three cycles for Five instructions
+but <00:01:57.620><c>Remember </c><00:01:57.880><c>that </c><00:01:58.140><c>We </c><00:01:58.400><c>can </c><00:01:58.660><c>do </c><00:01:58.920><c>scheduling</c>
+
+00:01:59.469 --> 00:01:59.479 align:start position:0%
+but Remember that We can do scheduling
+ 
+
+00:01:59.479 --> 00:02:01.789 align:start position:0%
+but Remember that We can do scheduling
+of <00:01:59.729><c>of </c><00:01:59.979><c>this </c><00:02:00.229><c>Loop </c><00:02:00.479><c>to </c><00:02:00.729><c>Try </c><00:02:00.979><c>to </c><00:02:01.229><c>improve </c><00:02:01.479><c>the</c>
+
+00:02:01.789 --> 00:02:01.799 align:start position:0%
+of of this Loop to Try to improve the
+ 
+
+00:02:01.799 --> 00:02:05.109 align:start position:0%
+of of this Loop to Try to improve the
+cpi <00:02:02.139><c>so </c><00:02:02.479><c>before </c><00:02:02.819><c>We </c><00:02:03.159><c>get </c><00:02:03.499><c>into </c><00:02:03.839><c>What's </c><00:02:04.179><c>the </c><00:02:04.519><c>cpi</c>
+
+00:02:05.109 --> 00:02:05.119 align:start position:0%
+cpi so before We get into What's the cpi
+ 
+
+00:02:05.119 --> 00:02:07.109 align:start position:0%
+cpi so before We get into What's the cpi
+of <00:02:05.387><c>the </c><00:02:05.655><c>unroad </c><00:02:05.923><c>Loop </c><00:02:06.191><c>Let's </c><00:02:06.459><c>see </c><00:02:06.727><c>what </c><00:02:06.995><c>the</c>
+
+00:02:07.109 --> 00:02:07.119 align:start position:0%
+of the unroad Loop Let's see what the
+ 
+
+00:02:07.119 --> 00:02:11.150 align:start position:0%
+of the unroad Loop Let's see what the
+cpi <00:02:07.574><c>is </c><00:02:08.029><c>if </c><00:02:08.484><c>We </c><00:02:08.939><c>schedule </c><00:02:09.394><c>this </c><00:02:09.849><c>Loop </c><00:02:10.304><c>Body </c><00:02:10.759><c>our</c>
+
+00:02:11.150 --> 00:02:11.160 align:start position:0%
+cpi is if We schedule this Loop Body our
+ 
+
+00:02:11.160 --> 00:02:13.750 align:start position:0%
+cpi is if We schedule this Loop Body our
+scheduling <00:02:11.540><c>will  </c><00:02:11.920><c>Start </c><00:02:12.300><c>Out </c><00:02:12.680><c>with </c><00:02:13.060><c>this </c><00:02:13.440><c>Loop</c>
+
+00:02:13.750 --> 00:02:13.760 align:start position:0%
+scheduling will  Start Out with this Loop
+ 
+
+00:02:13.760 --> 00:02:17.869 align:start position:0%
+scheduling will  Start Out with this Loop
+Body <00:02:14.234><c>and </c><00:02:14.708><c>then </c><00:02:15.182><c>Try </c><00:02:15.656><c>to </c><00:02:16.130><c>maximize  </c><00:02:16.604><c>the </c><00:02:17.078><c>cpi</c>
+
+00:02:17.869 --> 00:02:17.879 align:start position:0%
+Body and then Try to maximize  the cpi
+ 
+
+00:02:17.879 --> 00:02:20.430 align:start position:0%
+Body and then Try to maximize  the cpi
+that <00:02:18.232><c>We </c><00:02:18.585><c>can </c><00:02:18.938><c>Get </c><00:02:19.291><c>By </c><00:02:19.644><c>reordering </c><00:02:19.997><c>the</c>
+
+00:02:20.430 --> 00:02:20.440 align:start position:0%
+that We can Get By reordering the
+ 
+
+00:02:20.440 --> 00:02:24.470 align:start position:0%
+that We can Get By reordering the
+instructions <00:02:21.048><c>so </c><00:02:21.656><c>clearly </c><00:02:22.264><c>Here </c><00:02:22.872><c>this </c><00:02:23.480><c>Load</c>
+
+00:02:24.470 --> 00:02:24.480 align:start position:0%
+instructions so clearly Here this Load
+ 
+
+00:02:24.480 --> 00:02:26.150 align:start position:0%
+instructions so clearly Here this Load
+could <00:02:24.697><c>not </c><00:02:24.914><c>Be </c><00:02:25.131><c>Done </c><00:02:25.348><c>in </c><00:02:25.565><c>Parallel </c><00:02:25.782><c>with </c><00:02:25.999><c>the</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+could not Be Done in Parallel with the
+ 
+
+00:02:26.160 --> 00:02:27.670 align:start position:0%
+could not Be Done in Parallel with the
+Next <00:02:26.431><c>instruction </c><00:02:26.702><c>Because </c><00:02:26.973><c>There </c><00:02:27.244><c>is </c><00:02:27.515><c>a</c>
+
+00:02:27.670 --> 00:02:27.680 align:start position:0%
+Next instruction Because There is a
+ 
+
+00:02:27.680 --> 00:02:30.229 align:start position:0%
+Next instruction Because There is a
+dependency <00:02:28.073><c>there </c><00:02:28.466><c>so </c><00:02:28.859><c>We </c><00:02:29.252><c>need </c><00:02:29.645><c>to </c><00:02:30.038><c>Find</c>
+
+00:02:30.229 --> 00:02:30.239 align:start position:0%
+dependency there so We need to Find
+ 
+
+00:02:30.239 --> 00:02:32.350 align:start position:0%
+dependency there so We need to Find
+Something <00:02:30.505><c>and </c><00:02:30.771><c>it </c><00:02:31.037><c>cannot </c><00:02:31.303><c>be </c><00:02:31.569><c>the </c><00:02:31.835><c>branch</c>
+
+00:02:32.350 --> 00:02:32.360 align:start position:0%
+Something and it cannot be the branch
+ 
+
+00:02:32.360 --> 00:02:33.509 align:start position:0%
+Something and it cannot be the branch
+Because <00:02:32.490><c>It </c><00:02:32.620><c>needs </c><00:02:32.750><c>To </c><00:02:32.880><c>Stay </c><00:02:33.010><c>At </c><00:02:33.140><c>The </c><00:02:33.270><c>End </c><00:02:33.400><c>Of</c>
+
+00:02:33.509 --> 00:02:33.519 align:start position:0%
+Because It needs To Stay At The End Of
+ 
+
+00:02:33.519 --> 00:02:35.750 align:start position:0%
+Because It needs To Stay At The End Of
+The <00:02:33.822><c>iteration </c><00:02:34.125><c>that </c><00:02:34.428><c>We </c><00:02:34.731><c>can </c><00:02:35.034><c>put </c><00:02:35.337><c>Here </c><00:02:35.640><c>and</c>
+
+00:02:35.750 --> 00:02:35.760 align:start position:0%
+The iteration that We can put Here and
+ 
+
+00:02:35.760 --> 00:02:38.350 align:start position:0%
+The iteration that We can put Here and
+this <00:02:36.133><c>adi </c><00:02:36.506><c>can </c><00:02:36.879><c>Move </c><00:02:37.252><c>there </c><00:02:37.625><c>so </c><00:02:37.998><c>our</c>
+
+00:02:38.350 --> 00:02:38.360 align:start position:0%
+this adi can Move there so our
+ 
+
+00:02:38.360 --> 00:02:40.869 align:start position:0%
+this adi can Move there so our
+scheduling <00:02:38.704><c>algorithm </c><00:02:39.048><c>will </c><00:02:39.392><c>Move </c><00:02:39.736><c>The </c><00:02:40.080><c>adi</c>
+
+00:02:40.869 --> 00:02:40.879 align:start position:0%
+scheduling algorithm will Move The adi
+ 
+
+00:02:40.879 --> 00:02:43.270 align:start position:0%
+scheduling algorithm will Move The adi
+Here <00:02:41.159><c>so </c><00:02:41.439><c>Now </c><00:02:41.719><c>that </c><00:02:41.999><c>We </c><00:02:42.279><c>are </c><00:02:42.559><c>subtracting </c><00:02:42.839><c>Four</c>
+
+00:02:43.270 --> 00:02:43.280 align:start position:0%
+Here so Now that We are subtracting Four
+ 
+
+00:02:43.280 --> 00:02:45.869 align:start position:0%
+Here so Now that We are subtracting Four
+from <00:02:43.599><c>R1 </c><00:02:43.918><c>Here </c><00:02:44.237><c>We </c><00:02:44.556><c>need </c><00:02:44.875><c>to </c><00:02:45.194><c>adjust </c><00:02:45.513><c>this</c>
+
+00:02:45.869 --> 00:02:45.879 align:start position:0%
+from R1 Here We need to adjust this
+ 
+
+00:02:45.879 --> 00:02:48.830 align:start position:0%
+from R1 Here We need to adjust this
+Store <00:02:46.239><c>so </c><00:02:46.599><c>that </c><00:02:46.959><c>it </c><00:02:47.319><c>adds </c><00:02:47.679><c>Back </c><00:02:48.039><c>The </c><00:02:48.399><c>Four </c><00:02:48.759><c>that</c>
+
+00:02:48.830 --> 00:02:48.840 align:start position:0%
+Store so that it adds Back The Four that
+ 
+
+00:02:48.840 --> 00:02:51.149 align:start position:0%
+Store so that it adds Back The Four that
+We <00:02:49.247><c>decremented </c><00:02:49.654><c>Here </c><00:02:50.061><c>Because </c><00:02:50.468><c>this </c><00:02:50.875><c>Store</c>
+
+00:02:51.149 --> 00:02:51.159 align:start position:0%
+We decremented Here Because this Store
+ 
+
+00:02:51.159 --> 00:02:52.869 align:start position:0%
+We decremented Here Because this Store
+was <00:02:51.405><c>supposed </c><00:02:51.651><c>to </c><00:02:51.897><c>Store </c><00:02:52.143><c>to </c><00:02:52.389><c>the </c><00:02:52.635><c>same</c>
+
+00:02:52.869 --> 00:02:52.879 align:start position:0%
+was supposed to Store to the same
+ 
+
+00:02:52.879 --> 00:02:55.550 align:start position:0%
+was supposed to Store to the same
+Element <00:02:53.233><c>as </c><00:02:53.587><c>The </c><00:02:53.941><c>Load </c><00:02:54.295><c>Now </c><00:02:54.649><c>however </c><00:02:55.003><c>we </c><00:02:55.357><c>have</c>
+
+00:02:55.550 --> 00:02:55.560 align:start position:0%
+Element as The Load Now however we have
+ 
+
+00:02:55.560 --> 00:02:57.750 align:start position:0%
+Element as The Load Now however we have
+moved <00:02:55.828><c>R1 </c><00:02:56.096><c>so </c><00:02:56.364><c>to </c><00:02:56.632><c>Access </c><00:02:56.900><c>the </c><00:02:57.168><c>same </c><00:02:57.436><c>Element</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+moved R1 so to Access the same Element
+ 
+
+00:02:57.760 --> 00:02:59.790 align:start position:0%
+moved R1 so to Access the same Element
+as <00:02:57.970><c>The </c><00:02:58.180><c>Load </c><00:02:58.390><c>We </c><00:02:58.600><c>need </c><00:02:58.810><c>to </c><00:02:59.020><c>Add </c><00:02:59.230><c>Four </c><00:02:59.440><c>here</c>
+
+00:02:59.790 --> 00:02:59.800 align:start position:0%
+as The Load We need to Add Four here
+ 
+
+00:02:59.800 --> 00:03:02.110 align:start position:0%
+as The Load We need to Add Four here
+Here <00:03:00.102><c>Note </c><00:03:00.404><c>that </c><00:03:00.706><c>Moving </c><00:03:01.008><c>The </c><00:03:01.310><c>adi </c><00:03:01.612><c>is </c><00:03:01.914><c>really</c>
+
+00:03:02.110 --> 00:03:02.120 align:start position:0%
+Here Note that Moving The adi is really
+ 
+
+00:03:02.120 --> 00:03:04.430 align:start position:0%
+Here Note that Moving The adi is really
+the <00:03:02.413><c>only </c><00:03:02.706><c>scheduling </c><00:03:02.999><c>Freedom </c><00:03:03.292><c>We </c><00:03:03.585><c>have </c><00:03:03.878><c>Here</c>
+
+00:03:04.430 --> 00:03:04.440 align:start position:0%
+the only scheduling Freedom We have Here
+ 
+
+00:03:04.440 --> 00:03:07.390 align:start position:0%
+the only scheduling Freedom We have Here
+Because <00:03:04.770><c>We </c><00:03:05.100><c>need </c><00:03:05.430><c>to </c><00:03:05.760><c>do </c><00:03:06.090><c>The </c><00:03:06.420><c>Load </c><00:03:06.750><c>and </c><00:03:07.080><c>the</c>
+
+00:03:07.390 --> 00:03:07.400 align:start position:0%
+Because We need to do The Load and the
+ 
+
+00:03:07.400 --> 00:03:10.390 align:start position:0%
+Because We need to do The Load and the
+AD <00:03:07.735><c>and </c><00:03:08.070><c>the </c><00:03:08.405><c>store </c><00:03:08.740><c>in </c><00:03:09.075><c>that </c><00:03:09.410><c>Order </c><00:03:09.745><c>so </c><00:03:10.080><c>They</c>
+
+00:03:10.390 --> 00:03:10.400 align:start position:0%
+AD and the store in that Order so They
+ 
+
+00:03:10.400 --> 00:03:12.350 align:start position:0%
+AD and the store in that Order so They
+cannot <00:03:10.713><c>be </c><00:03:11.026><c>reordered </c><00:03:11.339><c>the </c><00:03:11.652><c>branch </c><00:03:11.965><c>needs </c><00:03:12.278><c>to</c>
+
+00:03:12.350 --> 00:03:12.360 align:start position:0%
+cannot be reordered the branch needs to
+ 
+
+00:03:12.360 --> 00:03:13.990 align:start position:0%
+cannot be reordered the branch needs to
+Stay <00:03:12.530><c>At </c><00:03:12.700><c>The </c><00:03:12.870><c>End </c><00:03:13.040><c>Of </c><00:03:13.210><c>The </c><00:03:13.380><c>Loop </c><00:03:13.550><c>so </c><00:03:13.720><c>Pretty</c>
+
+00:03:13.990 --> 00:03:14.000 align:start position:0%
+Stay At The End Of The Loop so Pretty
+ 
+
+00:03:14.000 --> 00:03:15.710 align:start position:0%
+Stay At The End Of The Loop so Pretty
+much <00:03:14.177><c>the </c><00:03:14.354><c>only </c><00:03:14.531><c>Freedom </c><00:03:14.708><c>We </c><00:03:14.885><c>have </c><00:03:15.062><c>is </c><00:03:15.239><c>Where</c>
+
+00:03:15.710 --> 00:03:15.720 align:start position:0%
+much the only Freedom We have is Where
+ 
+
+00:03:15.720 --> 00:03:18.270 align:start position:0%
+much the only Freedom We have is Where
+is <00:03:16.005><c>the </c><00:03:16.290><c>adi </c><00:03:16.575><c>going </c><00:03:16.860><c>to </c><00:03:17.145><c>happen  </c><00:03:17.430><c>so </c><00:03:17.715><c>Now </c><00:03:18.000><c>Let's</c>
+
+00:03:18.270 --> 00:03:18.280 align:start position:0%
+is the adi going to happen  so Now Let's
+ 
+
+00:03:18.280 --> 00:03:20.869 align:start position:0%
+is the adi going to happen  so Now Let's
+Look <00:03:18.617><c>at </c><00:03:18.954><c>What </c><00:03:19.291><c>Happens  </c><00:03:19.628><c>Cycle </c><00:03:19.965><c>by </c><00:03:20.302><c>Cycle </c><00:03:20.639><c>We</c>
+
+00:03:20.869 --> 00:03:20.879 align:start position:0%
+Look at What Happens  Cycle by Cycle We
+ 
+
+00:03:20.879 --> 00:03:22.949 align:start position:0%
+Look at What Happens  Cycle by Cycle We
+can <00:03:21.124><c>do </c><00:03:21.369><c>The </c><00:03:21.614><c>Load </c><00:03:21.859><c>in </c><00:03:22.104><c>the </c><00:03:22.349><c>First </c><00:03:22.594><c>Cycle </c><00:03:22.839><c>The</c>
+
+00:03:22.949 --> 00:03:22.959 align:start position:0%
+can do The Load in the First Cycle The
+ 
+
+00:03:22.959 --> 00:03:26.270 align:start position:0%
+can do The Load in the First Cycle The
+adi <00:03:23.382><c>can </c><00:03:23.805><c>Now </c><00:03:24.228><c>Be </c><00:03:24.651><c>Done </c><00:03:25.074><c>together </c><00:03:25.497><c>with </c><00:03:25.920><c>the</c>
+
+00:03:26.270 --> 00:03:26.280 align:start position:0%
+adi can Now Be Done together with the
+ 
+
+00:03:26.280 --> 00:03:30.830 align:start position:0%
+adi can Now Be Done together with the
+Load <00:03:26.815><c>but </c><00:03:27.350><c>The </c><00:03:27.885><c>Add </c><00:03:28.420><c>to </c><00:03:28.955><c>What </c><00:03:29.490><c>We </c><00:03:30.025><c>loaded </c><00:03:30.560><c>Still</c>
+
+00:03:30.830 --> 00:03:30.840 align:start position:0%
+Load but The Add to What We loaded Still
+ 
+
+00:03:30.840 --> 00:03:33.190 align:start position:0%
+Load but The Add to What We loaded Still
+has <00:03:31.094><c>to </c><00:03:31.348><c>be </c><00:03:31.602><c>Done </c><00:03:31.856><c>in </c><00:03:32.110><c>the </c><00:03:32.364><c>Next </c><00:03:32.618><c>Cycle </c><00:03:32.872><c>The</c>
+
+00:03:33.190 --> 00:03:33.200 align:start position:0%
+has to be Done in the Next Cycle The
+ 
+
+00:03:33.200 --> 00:03:35.630 align:start position:0%
+has to be Done in the Next Cycle The
+Store <00:03:33.525><c>cannot </c><00:03:33.850><c>be </c><00:03:34.175><c>Done </c><00:03:34.500><c>until </c><00:03:34.825><c>this </c><00:03:35.150><c>AD </c><00:03:35.475><c>is</c>
+
+00:03:35.630 --> 00:03:35.640 align:start position:0%
+Store cannot be Done until this AD is
+ 
+
+00:03:35.640 --> 00:03:39.149 align:start position:0%
+Store cannot be Done until this AD is
+Complete <00:03:36.153><c>the </c><00:03:36.666><c>branch </c><00:03:37.179><c>can </c><00:03:37.692><c>Still </c><00:03:38.205><c>proceed </c><00:03:38.718><c>in</c>
+
+00:03:39.149 --> 00:03:39.159 align:start position:0%
+Complete the branch can Still proceed in
+ 
+
+00:03:39.159 --> 00:03:41.429 align:start position:0%
+Complete the branch can Still proceed in
+Parallel <00:03:39.532><c>with </c><00:03:39.905><c>the </c><00:03:40.278><c>Store </c><00:03:40.651><c>and </c><00:03:41.024><c>now </c><00:03:41.397><c>Because</c>
+
+00:03:41.429 --> 00:03:41.439 align:start position:0%
+Parallel with the Store and now Because
+ 
+
+00:03:41.439 --> 00:03:42.910 align:start position:0%
+Parallel with the Store and now Because
+Of <00:03:41.711><c>Perfect </c><00:03:41.983><c>branch </c><00:03:42.255><c>piiction </c><00:03:42.527><c>we're </c><00:03:42.799><c>going</c>
+
+00:03:42.910 --> 00:03:42.920 align:start position:0%
+Of Perfect branch piiction we're going
+ 
+
+00:03:42.920 --> 00:03:45.869 align:start position:0%
+Of Perfect branch piiction we're going
+to <00:03:43.231><c>Move </c><00:03:43.542><c>Here </c><00:03:43.853><c>and </c><00:03:44.164><c>We </c><00:03:44.475><c>can </c><00:03:44.786><c>Try </c><00:03:45.097><c>to </c><00:03:45.408><c>do </c><00:03:45.719><c>The</c>
+
+00:03:45.869 --> 00:03:45.879 align:start position:0%
+to Move Here and We can Try to do The
+ 
+
+00:03:45.879 --> 00:03:49.589 align:start position:0%
+to Move Here and We can Try to do The
+Load <00:03:46.290><c>for </c><00:03:46.701><c>the </c><00:03:47.112><c>Next </c><00:03:47.523><c>iteration </c><00:03:47.934><c>Note </c><00:03:48.345><c>that </c><00:03:48.756><c>R1</c>
+
+00:03:49.589 --> 00:03:49.599 align:start position:0%
+Load for the Next iteration Note that R1
+ 
+
+00:03:49.599 --> 00:03:51.270 align:start position:0%
+Load for the Next iteration Note that R1
+has <00:03:49.825><c>been </c><00:03:50.051><c>updated </c><00:03:50.277><c>Here </c><00:03:50.503><c>in </c><00:03:50.729><c>the </c><00:03:50.955><c>previous</c>
+
+00:03:51.270 --> 00:03:51.280 align:start position:0%
+has been updated Here in the previous
+ 
+
+00:03:51.280 --> 00:03:53.830 align:start position:0%
+has been updated Here in the previous
+iteration <00:03:51.542><c>so </c><00:03:51.804><c>All </c><00:03:52.066><c>the </c><00:03:52.328><c>Way </c><00:03:52.590><c>Through </c><00:03:52.852><c>Here </c><00:03:53.114><c>We</c>
+
+00:03:53.830 --> 00:03:53.840 align:start position:0%
+iteration so All the Way Through Here We
+ 
+
+00:03:53.840 --> 00:03:56.830 align:start position:0%
+iteration so All the Way Through Here We
+really <00:03:54.245><c>did </c><00:03:54.650><c>not </c><00:03:55.055><c>modify  </c><00:03:55.460><c>R1 </c><00:03:55.865><c>so </c><00:03:56.270><c>Pretty </c><00:03:56.675><c>much</c>
+
+00:03:56.830 --> 00:03:56.840 align:start position:0%
+really did not modify  R1 so Pretty much
+ 
+
+00:03:56.840 --> 00:03:58.949 align:start position:0%
+really did not modify  R1 so Pretty much
+The <00:03:57.068><c>Store </c><00:03:57.296><c>or </c><00:03:57.524><c>The </c><00:03:57.752><c>branch </c><00:03:57.980><c>didn't </c><00:03:58.208><c>modify </c><00:03:58.436><c>R1</c>
+
+00:03:58.949 --> 00:03:58.959 align:start position:0%
+The Store or The branch didn't modify R1
+ 
+
+00:03:58.959 --> 00:04:00.589 align:start position:0%
+The Store or The branch didn't modify R1
+That's <00:03:59.263><c>the </c><00:03:59.567><c>only </c><00:03:59.871><c>register </c><00:04:00.175><c>dependency </c><00:04:00.479><c>that</c>
+
+00:04:00.589 --> 00:04:00.599 align:start position:0%
+That's the only register dependency that
+ 
+
+00:04:00.599 --> 00:04:03.670 align:start position:0%
+That's the only register dependency that
+this <00:04:00.954><c>Load </c><00:04:01.309><c>has </c><00:04:01.664><c>so </c><00:04:02.019><c>The </c><00:04:02.374><c>Load </c><00:04:02.729><c>can </c><00:04:03.084><c>be </c><00:04:03.439><c>Done</c>
+
+00:04:03.670 --> 00:04:03.680 align:start position:0%
+this Load has so The Load can be Done
+ 
+
+00:04:03.680 --> 00:04:07.190 align:start position:0%
+this Load has so The Load can be Done
+Here <00:04:04.020><c>and </c><00:04:04.360><c>then </c><00:04:04.700><c>We </c><00:04:05.040><c>can </c><00:04:05.380><c>also </c><00:04:05.720><c>do </c><00:04:06.060><c>The </c><00:04:06.400><c>R1</c>
+
+00:04:07.190 --> 00:04:07.200 align:start position:0%
+Here and then We can also do The R1
+ 
+
+00:04:07.200 --> 00:04:09.589 align:start position:0%
+Here and then We can also do The R1
+update <00:04:07.632><c>Here </c><00:04:08.064><c>Because </c><00:04:08.496><c>this </c><00:04:08.928><c>adi </c><00:04:09.360><c>Only</c>
+
+00:04:09.589 --> 00:04:09.599 align:start position:0%
+update Here Because this adi Only
+ 
+
+00:04:09.599 --> 00:04:12.550 align:start position:0%
+update Here Because this adi Only
+depends <00:04:09.982><c>on </c><00:04:10.365><c>R1 </c><00:04:10.748><c>and </c><00:04:11.131><c>the </c><00:04:11.514><c>R1 </c><00:04:11.897><c>has </c><00:04:12.280><c>been</c>
+
+00:04:12.550 --> 00:04:12.560 align:start position:0%
+depends on R1 and the R1 has been
+ 
+
+00:04:12.560 --> 00:04:15.309 align:start position:0%
+depends on R1 and the R1 has been
+updated <00:04:12.844><c>Here </c><00:04:13.128><c>so </c><00:04:13.412><c>We </c><00:04:13.696><c>can </c><00:04:13.980><c>do </c><00:04:14.264><c>this </c><00:04:14.548><c>so </c><00:04:14.832><c>as </c><00:04:15.116><c>you</c>
+
+00:04:15.309 --> 00:04:15.319 align:start position:0%
+updated Here so We can do this so as you
+ 
+
+00:04:15.319 --> 00:04:17.749 align:start position:0%
+updated Here so We can do this so as you
+can <00:04:15.609><c>see </c><00:04:15.899><c>now </c><00:04:16.189><c>it </c><00:04:16.479><c>takes </c><00:04:16.769><c>two </c><00:04:17.059><c>cycles </c><00:04:17.349><c>to </c><00:04:17.639><c>do</c>
+
+00:04:17.749 --> 00:04:17.759 align:start position:0%
+can see now it takes two cycles to do
+ 
+
+00:04:17.759 --> 00:04:20.949 align:start position:0%
+can see now it takes two cycles to do
+this <00:04:18.199><c>Five </c><00:04:18.639><c>instructions </c><00:04:19.079><c>so </c><00:04:19.519><c>The </c><00:04:19.959><c>cpi </c><00:04:20.399><c>We </c><00:04:20.839><c>Get</c>
+
+00:04:20.949 --> 00:04:20.959 align:start position:0%
+this Five instructions so The cpi We Get
+ 
+
+00:04:20.959 --> 00:04:24.469 align:start position:0%
+this Five instructions so The cpi We Get
+is <00:04:21.299><c>now </c><00:04:21.639><c>2 </c><00:04:21.979><c>over </c><00:04:22.319><c>F </c><00:04:22.659><c>it </c><00:04:22.999><c>Took </c><00:04:23.339><c>US </c><00:04:23.679><c>two </c><00:04:24.019><c>cycles </c><00:04:24.359><c>to</c>
+
+00:04:24.469 --> 00:04:24.479 align:start position:0%
+is now 2 over F it Took US two cycles to
+ 
+
+00:04:24.479 --> 00:04:26.510 align:start position:0%
+is now 2 over F it Took US two cycles to
+do <00:04:24.839><c>The </c><00:04:25.199><c>Five </c><00:04:25.559><c>instructions </c><00:04:25.919><c>This </c><00:04:26.279><c>is</c>
+
+00:04:26.510 --> 00:04:26.520 align:start position:0%
+do The Five instructions This is
+ 
+
+00:04:26.520 --> 00:04:28.189 align:start position:0%
+do The Five instructions This is
+significantly <00:04:26.906><c>better </c><00:04:27.292><c>than  </c><00:04:27.678><c>Without</c>
+
+00:04:28.189 --> 00:04:28.199 align:start position:0%
+significantly better than  Without
+ 
+
+00:04:28.199 --> 00:04:33.039 align:start position:0%
+significantly better than  Without
+scheduling <00:04:28.669><c>so </c><00:04:29.139><c>scheduling </c><00:04:29.609><c>did </c><00:04:30.079><c>help</c>
+

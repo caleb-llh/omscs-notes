@@ -1,0 +1,12 @@
+1
+00:00:00,500 --> 00:00:03,990
+ Here's one path from, say, this node, let's call it a, and this node,
+
+2
+00:00:03,990 --> 00:00:04,660
+ let's call it b.
+
+3
+00:00:04,660 --> 00:00:04,660
+ You should convince yourself that there's no shorter path between a and b.
+

@@ -1,0 +1,352 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.060 align:start position:0%
+ 
+we<00:00:00.179><c> have</c><00:00:00.329><c> our</c><00:00:00.450><c> dispatch</c><00:00:00.780><c> quiz</c><00:00:01.020><c> let's</c><00:00:01.740><c> look</c><00:00:01.949><c> at</c>
+
+00:00:02.060 --> 00:00:02.070 align:start position:0%
+we have our dispatch quiz let's look at
+ 
+
+00:00:02.070 --> 00:00:04.039 align:start position:0%
+we have our dispatch quiz let's look at
+the<00:00:02.190><c> solution</c><00:00:02.370><c> if</c><00:00:03.090><c> this</c><00:00:03.330><c> instruction</c><00:00:03.689><c> was</c>
+
+00:00:04.039 --> 00:00:04.049 align:start position:0%
+the solution if this instruction was
+ 
+
+00:00:04.049 --> 00:00:05.660 align:start position:0%
+the solution if this instruction was
+indeed<00:00:04.380><c> issued</c><00:00:04.799><c> in</c><00:00:04.920><c> the</c><00:00:05.009><c> previous</c><00:00:05.310><c> cycle</c>
+
+00:00:05.660 --> 00:00:05.670 align:start position:0%
+indeed issued in the previous cycle
+ 
+
+00:00:05.670 --> 00:00:07.220 align:start position:0%
+indeed issued in the previous cycle
+meaning<00:00:05.910><c> it</c><00:00:06.150><c> came</c><00:00:06.390><c> into</c><00:00:06.660><c> the</c><00:00:06.870><c> reservation</c>
+
+00:00:07.220 --> 00:00:07.230 align:start position:0%
+meaning it came into the reservation
+ 
+
+00:00:07.230 --> 00:00:09.500 align:start position:0%
+meaning it came into the reservation
+station<00:00:07.919><c> then</c><00:00:08.130><c> depending</c><00:00:08.639><c> on</c><00:00:08.820><c> when</c><00:00:09.210><c> do</c><00:00:09.389><c> we</c>
+
+00:00:09.500 --> 00:00:09.510 align:start position:0%
+station then depending on when do we
+ 
+
+00:00:09.510 --> 00:00:11.480 align:start position:0%
+station then depending on when do we
+select<00:00:09.719><c> the</c><00:00:09.960><c> instructions</c><00:00:10.800><c> for</c><00:00:10.950><c> execution</c>
+
+00:00:11.480 --> 00:00:11.490 align:start position:0%
+select the instructions for execution
+ 
+
+00:00:11.490 --> 00:00:13.310 align:start position:0%
+select the instructions for execution
+let's<00:00:11.670><c> say</c><00:00:11.790><c> that</c><00:00:11.910><c> we</c><00:00:12.090><c> do</c><00:00:12.240><c> it</c><00:00:12.360><c> kind</c><00:00:12.719><c> of</c><00:00:12.870><c> you</c><00:00:13.200><c> know</c>
+
+00:00:13.310 --> 00:00:13.320 align:start position:0%
+let's say that we do it kind of you know
+ 
+
+00:00:13.320 --> 00:00:15.589 align:start position:0%
+let's say that we do it kind of you know
+towards<00:00:13.860><c> the</c><00:00:13.889><c> end</c><00:00:13.980><c> of</c><00:00:14.190><c> the</c><00:00:14.340><c> cycle</c><00:00:14.549><c> there</c><00:00:15.420><c> might</c>
+
+00:00:15.589 --> 00:00:15.599 align:start position:0%
+towards the end of the cycle there might
+ 
+
+00:00:15.599 --> 00:00:17.029 align:start position:0%
+towards the end of the cycle there might
+not<00:00:15.809><c> be</c><00:00:15.870><c> enough</c><00:00:16.230><c> time</c><00:00:16.440><c> simply</c><00:00:16.920><c> this</c>
+
+00:00:17.029 --> 00:00:17.039 align:start position:0%
+not be enough time simply this
+ 
+
+00:00:17.039 --> 00:00:18.439 align:start position:0%
+not be enough time simply this
+reservation<00:00:17.400><c> station</c><00:00:17.580><c> when</c><00:00:18.180><c> we</c><00:00:18.359><c> were</c>
+
+00:00:18.439 --> 00:00:18.449 align:start position:0%
+reservation station when we were
+ 
+
+00:00:18.449 --> 00:00:20.179 align:start position:0%
+reservation station when we were
+considering<00:00:18.840><c> what</c><00:00:19.410><c> can</c><00:00:19.590><c> be</c><00:00:19.710><c> dispatched</c><00:00:20.010><c> for</c>
+
+00:00:20.179 --> 00:00:20.189 align:start position:0%
+considering what can be dispatched for
+ 
+
+00:00:20.189 --> 00:00:22.279 align:start position:0%
+considering what can be dispatched for
+execution<00:00:20.789><c> this</c><00:00:21.359><c> one</c><00:00:21.600><c> simply</c><00:00:21.840><c> wasn't</c><00:00:22.050><c> there</c>
+
+00:00:22.279 --> 00:00:22.289 align:start position:0%
+execution this one simply wasn't there
+ 
+
+00:00:22.289 --> 00:00:24.050 align:start position:0%
+execution this one simply wasn't there
+yet<00:00:22.560><c> basically</c><00:00:23.189><c> in</c><00:00:23.250><c> the</c><00:00:23.310><c> same</c><00:00:23.490><c> cycle</c><00:00:23.730><c> where</c><00:00:24.029><c> we</c>
+
+00:00:24.050 --> 00:00:24.060 align:start position:0%
+yet basically in the same cycle where we
+ 
+
+00:00:24.060 --> 00:00:26.540 align:start position:0%
+yet basically in the same cycle where we
+select<00:00:24.330><c> something</c><00:00:24.689><c> this</c><00:00:25.470><c> got</c><00:00:25.859><c> inserted</c><00:00:26.310><c> here</c>
+
+00:00:26.540 --> 00:00:26.550 align:start position:0%
+select something this got inserted here
+ 
+
+00:00:26.550 --> 00:00:28.370 align:start position:0%
+select something this got inserted here
+and<00:00:26.820><c> it</c><00:00:27.000><c> wasn't</c><00:00:27.210><c> inserted</c><00:00:27.750><c> early</c><00:00:28.080><c> enough</c><00:00:28.230><c> in</c>
+
+00:00:28.370 --> 00:00:28.380 align:start position:0%
+and it wasn't inserted early enough in
+ 
+
+00:00:28.380 --> 00:00:30.679 align:start position:0%
+and it wasn't inserted early enough in
+the<00:00:28.500><c> cycle</c><00:00:28.830><c> so</c><00:00:28.859><c> this</c><00:00:29.099><c> is</c><00:00:29.250><c> possibly</c><00:00:29.670><c> correct</c><00:00:29.910><c> it</c>
+
+00:00:30.679 --> 00:00:30.689 align:start position:0%
+the cycle so this is possibly correct it
+ 
+
+00:00:30.689 --> 00:00:32.479 align:start position:0%
+the cycle so this is possibly correct it
+can<00:00:30.900><c> happen</c><00:00:31.080><c> that</c><00:00:31.410><c> that's</c><00:00:31.740><c> basically</c><00:00:32.219><c> you</c>
+
+00:00:32.479 --> 00:00:32.489 align:start position:0%
+can happen that that's basically you
+ 
+
+00:00:32.489 --> 00:00:34.010 align:start position:0%
+can happen that that's basically you
+cannot<00:00:32.759><c> do</c><00:00:32.940><c> both</c><00:00:33.540><c> of</c><00:00:33.570><c> the</c><00:00:33.840><c> things</c>
+
+00:00:34.010 --> 00:00:34.020 align:start position:0%
+cannot do both of the things
+ 
+
+00:00:34.020 --> 00:00:36.530 align:start position:0%
+cannot do both of the things
+consecutively<00:00:34.800><c> in</c><00:00:34.890><c> the</c><00:00:35.010><c> same</c><00:00:35.190><c> cycle</c><00:00:35.540><c> another</c>
+
+00:00:36.530 --> 00:00:36.540 align:start position:0%
+consecutively in the same cycle another
+ 
+
+00:00:36.540 --> 00:00:38.000 align:start position:0%
+consecutively in the same cycle another
+instruction<00:00:37.110><c> was</c><00:00:37.230><c> dispatched</c><00:00:37.680><c> to</c><00:00:37.739><c> the</c><00:00:37.920><c> ad</c>
+
+00:00:38.000 --> 00:00:38.010 align:start position:0%
+instruction was dispatched to the ad
+ 
+
+00:00:38.010 --> 00:00:40.400 align:start position:0%
+instruction was dispatched to the ad
+unit<00:00:38.219><c> this</c><00:00:38.610><c> is</c><00:00:38.790><c> entirely</c><00:00:39.090><c> possible</c><00:00:39.420><c> if</c><00:00:39.930><c> for</c>
+
+00:00:40.400 --> 00:00:40.410 align:start position:0%
+unit this is entirely possible if for
+ 
+
+00:00:40.410 --> 00:00:43.100 align:start position:0%
+unit this is entirely possible if for
+example<00:00:40.440><c> RS</c><00:00:41.160><c> one</c><00:00:41.460><c> was</c><00:00:41.969><c> sent</c><00:00:42.270><c> in</c><00:00:42.629><c> the</c><00:00:42.780><c> previous</c>
+
+00:00:43.100 --> 00:00:43.110 align:start position:0%
+example RS one was sent in the previous
+ 
+
+00:00:43.110 --> 00:00:45.560 align:start position:0%
+example RS one was sent in the previous
+cycle<00:00:43.290><c> two</c><00:00:43.620><c> to</c><00:00:43.890><c> the</c><00:00:44.010><c> execution</c><00:00:44.489><c> unit</c><00:00:44.820><c> then</c>
+
+00:00:45.560 --> 00:00:45.570 align:start position:0%
+cycle two to the execution unit then
+ 
+
+00:00:45.570 --> 00:00:47.540 align:start position:0%
+cycle two to the execution unit then
+this<00:00:46.140><c> instruction</c><00:00:46.350><c> couldn't</c><00:00:47.129><c> have</c><00:00:47.280><c> because</c>
+
+00:00:47.540 --> 00:00:47.550 align:start position:0%
+this instruction couldn't have because
+ 
+
+00:00:47.550 --> 00:00:49.729 align:start position:0%
+this instruction couldn't have because
+the<00:00:47.940><c> unit</c><00:00:48.149><c> can</c><00:00:48.329><c> take</c><00:00:48.780><c> only</c><00:00:48.989><c> one</c><00:00:49.260><c> instruction</c>
+
+00:00:49.729 --> 00:00:49.739 align:start position:0%
+the unit can take only one instruction
+ 
+
+00:00:49.739 --> 00:00:52.279 align:start position:0%
+the unit can take only one instruction
+so<00:00:49.860><c> this</c><00:00:50.039><c> is</c><00:00:50.190><c> also</c><00:00:50.550><c> possibly</c><00:00:50.910><c> correct</c><00:00:51.149><c> RS</c><00:00:52.140><c> two</c>
+
+00:00:52.279 --> 00:00:52.289 align:start position:0%
+so this is also possibly correct RS two
+ 
+
+00:00:52.289 --> 00:00:54.229 align:start position:0%
+so this is also possibly correct RS two
+is<00:00:52.410><c> older</c><00:00:52.710><c> than</c><00:00:52.829><c> Rs</c><00:00:53.129><c> 3</c><00:00:53.340><c> so</c><00:00:53.579><c> RS</c><00:00:53.789><c> 3</c><00:00:53.940><c> cannot</c>
+
+00:00:54.229 --> 00:00:54.239 align:start position:0%
+is older than Rs 3 so RS 3 cannot
+ 
+
+00:00:54.239 --> 00:00:57.229 align:start position:0%
+is older than Rs 3 so RS 3 cannot
+dispatch<00:00:54.600><c> until</c><00:00:54.870><c> Rs</c><00:00:55.170><c> 2</c><00:00:55.320><c> does</c><00:00:55.500><c> this</c><00:00:56.370><c> cannot</c><00:00:57.030><c> be</c>
+
+00:00:57.229 --> 00:00:57.239 align:start position:0%
+dispatch until Rs 2 does this cannot be
+ 
+
+00:00:57.239 --> 00:01:00.139 align:start position:0%
+dispatch until Rs 2 does this cannot be
+correct<00:00:57.600><c> because</c><00:00:58.280><c> in</c><00:00:59.280><c> out</c><00:00:59.579><c> of</c><00:00:59.789><c> order</c>
+
+00:01:00.139 --> 00:01:00.149 align:start position:0%
+correct because in out of order
+ 
+
+00:01:00.149 --> 00:01:01.910 align:start position:0%
+correct because in out of order
+execution<00:01:00.180><c> and</c><00:01:00.840><c> tomasulo's</c><00:01:01.320><c> algorithm</c><00:01:01.590><c> is</c>
+
+00:01:01.910 --> 00:01:01.920 align:start position:0%
+execution and tomasulo's algorithm is
+ 
+
+00:01:01.920 --> 00:01:04.670 align:start position:0%
+execution and tomasulo's algorithm is
+one<00:01:02.309><c> of</c><00:01:02.489><c> the</c><00:01:02.640><c> out</c><00:01:02.760><c> of</c><00:01:02.940><c> order</c><00:01:03.210><c> algorithms</c><00:01:03.809><c> we</c>
+
+00:01:04.670 --> 00:01:04.680 align:start position:0%
+one of the out of order algorithms we
+ 
+
+00:01:04.680 --> 00:01:06.980 align:start position:0%
+one of the out of order algorithms we
+will<00:01:04.949><c> dispatch</c><00:01:05.580><c> an</c><00:01:05.909><c> instruction</c><00:01:06.420><c> as</c><00:01:06.540><c> soon</c><00:01:06.840><c> as</c>
+
+00:01:06.980 --> 00:01:06.990 align:start position:0%
+will dispatch an instruction as soon as
+ 
+
+00:01:06.990 --> 00:01:09.289 align:start position:0%
+will dispatch an instruction as soon as
+its<00:01:07.170><c> operands</c><00:01:07.590><c> are</c><00:01:07.680><c> ready</c><00:01:07.860><c> if</c><00:01:08.850><c> we</c><00:01:08.939><c> were</c>
+
+00:01:09.289 --> 00:01:09.299 align:start position:0%
+its operands are ready if we were
+ 
+
+00:01:09.299 --> 00:01:12.770 align:start position:0%
+its operands are ready if we were
+concerned<00:01:10.260><c> about</c><00:01:10.530><c> this</c><00:01:11.119><c> when</c><00:01:12.119><c> the</c><00:01:12.360><c> operands</c>
+
+00:01:12.770 --> 00:01:12.780 align:start position:0%
+concerned about this when the operands
+ 
+
+00:01:12.780 --> 00:01:14.840 align:start position:0%
+concerned about this when the operands
+are<00:01:12.869><c> ready</c><00:01:13.049><c> we</c><00:01:13.260><c> still</c><00:01:13.560><c> don't</c><00:01:13.799><c> dispatch</c><00:01:14.700><c> the</c>
+
+00:01:14.840 --> 00:01:14.850 align:start position:0%
+are ready we still don't dispatch the
+ 
+
+00:01:14.850 --> 00:01:16.249 align:start position:0%
+are ready we still don't dispatch the
+instruction<00:01:15.330><c> then</c><00:01:15.659><c> we</c><00:01:15.810><c> would</c><00:01:15.960><c> have</c><00:01:16.110><c> an</c>
+
+00:01:16.249 --> 00:01:16.259 align:start position:0%
+instruction then we would have an
+ 
+
+00:01:16.259 --> 00:01:17.870 align:start position:0%
+instruction then we would have an
+inorder<00:01:16.650><c> processor</c><00:01:16.680><c> which</c><00:01:17.340><c> we</c><00:01:17.490><c> don't</c><00:01:17.670><c> want</c>
+
+00:01:17.870 --> 00:01:17.880 align:start position:0%
+inorder processor which we don't want
+ 
+
+00:01:17.880 --> 00:01:20.210 align:start position:0%
+inorder processor which we don't want
+actually<00:01:18.479><c> the</c><00:01:18.930><c> reason</c><00:01:19.110><c> why</c><00:01:19.530><c> this</c><00:01:19.590><c> is</c><00:01:19.860><c> an</c><00:01:20.100><c> out</c>
+
+00:01:20.210 --> 00:01:20.220 align:start position:0%
+actually the reason why this is an out
+ 
+
+00:01:20.220 --> 00:01:22.429 align:start position:0%
+actually the reason why this is an out
+of<00:01:20.250><c> order</c><00:01:20.490><c> processor</c><00:01:20.640><c> is</c><00:01:21.030><c> because</c><00:01:21.390><c> is</c><00:01:21.750><c> that</c>
+
+00:01:22.429 --> 00:01:22.439 align:start position:0%
+of order processor is because is that
+ 
+
+00:01:22.439 --> 00:01:24.649 align:start position:0%
+of order processor is because is that
+instructions<00:01:23.280><c> like</c><00:01:23.400><c> this</c><00:01:23.580><c> can</c><00:01:23.909><c> execute</c><00:01:24.299><c> even</c>
+
+00:01:24.649 --> 00:01:24.659 align:start position:0%
+instructions like this can execute even
+ 
+
+00:01:24.659 --> 00:01:26.030 align:start position:0%
+instructions like this can execute even
+if<00:01:24.930><c> they</c><00:01:25.049><c> are</c><00:01:25.110><c> not</c><00:01:25.259><c> the</c><00:01:25.409><c> oldest</c><00:01:25.710><c> instruction</c>
+
+00:01:26.030 --> 00:01:26.040 align:start position:0%
+if they are not the oldest instruction
+ 
+
+00:01:26.040 --> 00:01:28.219 align:start position:0%
+if they are not the oldest instruction
+in<00:01:26.400><c> the</c><00:01:26.580><c> reservation</c><00:01:27.030><c> stations</c><00:01:27.450><c> so</c><00:01:27.900><c> this</c><00:01:28.080><c> is</c>
+
+00:01:28.219 --> 00:01:28.229 align:start position:0%
+in the reservation stations so this is
+ 
+
+00:01:28.229 --> 00:01:29.840 align:start position:0%
+in the reservation stations so this is
+definitely<00:01:28.380><c> not</c><00:01:28.890><c> true</c><00:01:29.159><c> so</c><00:01:29.460><c> the</c><00:01:29.579><c> correct</c>
+
+00:01:29.840 --> 00:01:29.850 align:start position:0%
+definitely not true so the correct
+ 
+
+00:01:29.850 --> 00:01:33.079 align:start position:0%
+definitely not true so the correct
+answers<00:01:30.180><c> are</c><00:01:30.299><c> only</c><00:01:30.570><c> 1</c><00:01:30.780><c> &amp;</c><00:01:30.960><c> 2</c>
+

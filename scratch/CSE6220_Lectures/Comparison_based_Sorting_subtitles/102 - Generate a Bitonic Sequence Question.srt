@@ -1,0 +1,60 @@
+1
+00:00:00,470 --> 00:00:04,480
+ Given a Bitonic sequence, a network like this will sort it.
+
+2
+00:00:04,480 --> 00:00:10,080
+ But given an arbitrary input, how do you generate a bitonic sequence?
+
+3
+00:00:10,080 --> 00:00:12,120
+ Here's what I'd like you to do.
+
+4
+00:00:12,120 --> 00:00:16,560
+ Create a comparator network that takes an arbitrary sequence like this one and
+
+5
+00:00:16,560 --> 00:00:19,910
+ produce a bitonic sequence like this one.
+
+6
+00:00:19,910 --> 00:00:21,470
+ Do that by inserting one or
+
+7
+00:00:21,470 --> 00:00:25,530
+ more nonoverlapping comparators in each column.
+
+8
+00:00:25,530 --> 00:00:29,120
+ You can use either plus or minus comparators.
+
+9
+00:00:29,120 --> 00:00:33,240
+ Now to help you get started, let me fill in the first and the last columns.
+
+10
+00:00:33,240 --> 00:00:34,980
+ Here's another hint.
+
+11
+00:00:34,980 --> 00:00:38,520
+ Here, I've traced the values of the first comparator bank.
+
+12
+00:00:38,520 --> 00:00:41,330
+ That should remind you of the difference between a plus comparator and
+
+13
+00:00:41,330 --> 00:00:44,160
+ a minus comparator in case you've forgotten.
+
+14
+00:00:44,160 --> 00:00:47,380
+ So insert your comparators by typing pluses or
+
+15
+00:00:47,380 --> 00:00:47,380
+ minuses into appropriate subsets of these empty boxes.
+

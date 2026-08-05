@@ -1,0 +1,296 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.119 align:start position:0%
+ 
+let's<00:00:00.390><c> look</c><00:00:00.570><c> at</c><00:00:00.719><c> the</c><00:00:00.870><c> solution</c><00:00:01.439><c> to</c><00:00:01.469><c> our</c><00:00:01.650><c> MSI</c>
+
+00:00:02.119 --> 00:00:02.129 align:start position:0%
+let's look at the solution to our MSI
+ 
+
+00:00:02.129 --> 00:00:06.320 align:start position:0%
+let's look at the solution to our MSI
+quiz<00:00:03.020><c> Redux</c><00:00:04.279><c> results</c><00:00:05.279><c> in</c><00:00:05.400><c> the</c><00:00:05.490><c> same</c><00:00:05.759><c> behavior</c>
+
+00:00:06.320 --> 00:00:06.330 align:start position:0%
+quiz Redux results in the same behavior
+ 
+
+00:00:06.330 --> 00:00:08.960 align:start position:0%
+quiz Redux results in the same behavior
+as<00:00:06.540><c> in</c><00:00:06.720><c> the</c><00:00:06.839><c> previous</c><00:00:07.020><c> quiz</c><00:00:07.519><c> both</c><00:00:08.519><c> of</c><00:00:08.760><c> them</c>
+
+00:00:08.960 --> 00:00:08.970 align:start position:0%
+as in the previous quiz both of them
+ 
+
+00:00:08.970 --> 00:00:13.070 align:start position:0%
+as in the previous quiz both of them
+have<00:00:09.300><c> the</c><00:00:10.260><c> state</c><00:00:10.559><c> as</c><00:00:10.830><c> I</c><00:00:11.099><c> and</c><00:00:11.519><c> then</c><00:00:12.150><c> when</c><00:00:12.450><c> readex</c>
+
+00:00:13.070 --> 00:00:13.080 align:start position:0%
+have the state as I and then when readex
+ 
+
+00:00:13.080 --> 00:00:16.099 align:start position:0%
+have the state as I and then when readex
+occurs<00:00:13.469><c> in</c><00:00:13.679><c> C</c><00:00:13.889><c> ones</c><00:00:14.160><c> cache</c><00:00:14.490><c> it</c><00:00:15.360><c> sends</c><00:00:15.809><c> out</c><00:00:15.900><c> the</c>
+
+00:00:16.099 --> 00:00:16.109 align:start position:0%
+occurs in C ones cache it sends out the
+ 
+
+00:00:16.109 --> 00:00:18.380 align:start position:0%
+occurs in C ones cache it sends out the
+read<00:00:16.289><c> request</c><00:00:16.770><c> gets</c><00:00:17.550><c> the</c><00:00:17.760><c> block</c><00:00:17.940><c> from</c><00:00:18.210><c> memory</c>
+
+00:00:18.380 --> 00:00:18.390 align:start position:0%
+read request gets the block from memory
+ 
+
+00:00:18.390 --> 00:00:20.330 align:start position:0%
+read request gets the block from memory
+and<00:00:18.840><c> now</c><00:00:19.289><c> it</c><00:00:19.439><c> has</c><00:00:19.650><c> the</c><00:00:19.800><c> Block</c><00:00:20.010><c> in</c><00:00:20.039><c> the</c><00:00:20.310><c> shared</c>
+
+00:00:20.330 --> 00:00:20.340 align:start position:0%
+and now it has the Block in the shared
+ 
+
+00:00:20.340 --> 00:00:24.140 align:start position:0%
+and now it has the Block in the shared
+state<00:00:21.170><c> c2</c><00:00:22.250><c> still</c><00:00:23.250><c> has</c><00:00:23.460><c> the</c><00:00:23.609><c> Block</c><00:00:23.820><c> in</c><00:00:24.029><c> the</c>
+
+00:00:24.140 --> 00:00:24.150 align:start position:0%
+state c2 still has the Block in the
+ 
+
+00:00:24.150 --> 00:00:24.980 align:start position:0%
+state c2 still has the Block in the
+invalid<00:00:24.480><c> state</c>
+
+00:00:24.980 --> 00:00:24.990 align:start position:0%
+invalid state
+ 
+
+00:00:24.990 --> 00:00:29.480 align:start position:0%
+invalid state
+now<00:00:25.650><c> when</c><00:00:26.369><c> c2</c><00:00:26.910><c> writes</c><00:00:27.240><c> to</c><00:00:27.630><c> X</c><00:00:27.810><c> it</c><00:00:28.560><c> sends</c><00:00:29.099><c> out</c><00:00:29.250><c> a</c>
+
+00:00:29.480 --> 00:00:29.490 align:start position:0%
+now when c2 writes to X it sends out a
+ 
+
+00:00:29.490 --> 00:00:33.260 align:start position:0%
+now when c2 writes to X it sends out a
+write<00:00:30.150><c> miss</c><00:00:30.480><c> request</c><00:00:31.439><c> it</c><00:00:32.369><c> will</c><00:00:32.610><c> get</c><00:00:32.850><c> the</c><00:00:33.030><c> data</c>
+
+00:00:33.260 --> 00:00:33.270 align:start position:0%
+write miss request it will get the data
+ 
+
+00:00:33.270 --> 00:00:36.229 align:start position:0%
+write miss request it will get the data
+and<00:00:33.630><c> then</c><00:00:34.079><c> write</c><00:00:34.350><c> to</c><00:00:34.380><c> its</c><00:00:34.739><c> cache</c><00:00:35.040><c> so</c><00:00:35.910><c> it</c><00:00:36.000><c> gets</c>
+
+00:00:36.229 --> 00:00:36.239 align:start position:0%
+and then write to its cache so it gets
+ 
+
+00:00:36.239 --> 00:00:38.869 align:start position:0%
+and then write to its cache so it gets
+the<00:00:36.420><c> block</c><00:00:36.660><c> now</c><00:00:36.840><c> in</c><00:00:36.989><c> the</c><00:00:37.110><c> modified</c><00:00:37.649><c> state</c><00:00:37.879><c> c1</c>
+
+00:00:38.869 --> 00:00:38.879 align:start position:0%
+the block now in the modified state c1
+ 
+
+00:00:38.879 --> 00:00:41.180 align:start position:0%
+the block now in the modified state c1
+meanwhile<00:00:39.500><c> transitions</c><00:00:40.500><c> from</c><00:00:40.680><c> the</c><00:00:40.770><c> shared</c>
+
+00:00:41.180 --> 00:00:41.190 align:start position:0%
+meanwhile transitions from the shared
+ 
+
+00:00:41.190 --> 00:00:43.819 align:start position:0%
+meanwhile transitions from the shared
+state<00:00:41.579><c> to</c><00:00:42.180><c> the</c><00:00:42.420><c> invalid</c><00:00:42.989><c> state</c><00:00:43.230><c> because</c><00:00:43.680><c> it</c>
+
+00:00:43.819 --> 00:00:43.829 align:start position:0%
+state to the invalid state because it
+ 
+
+00:00:43.829 --> 00:00:46.459 align:start position:0%
+state to the invalid state because it
+observes<00:00:44.250><c> the</c><00:00:44.820><c> write</c><00:00:45.000><c> requests</c><00:00:45.450><c> sent</c><00:00:45.660><c> by</c><00:00:45.870><c> c2</c>
+
+00:00:46.459 --> 00:00:46.469 align:start position:0%
+observes the write requests sent by c2
+ 
+
+00:00:46.469 --> 00:00:50.240 align:start position:0%
+observes the write requests sent by c2
+and<00:00:46.770><c> then</c><00:00:47.340><c> when</c><00:00:47.640><c> C</c><00:00:47.910><c> one</c><00:00:48.239><c> wants</c><00:00:48.930><c> to</c><00:00:48.989><c> write</c><00:00:49.289><c> it</c>
+
+00:00:50.240 --> 00:00:50.250 align:start position:0%
+and then when C one wants to write it
+ 
+
+00:00:50.250 --> 00:00:52.700 align:start position:0%
+and then when C one wants to write it
+does<00:00:50.610><c> pretty</c><00:00:51.030><c> much</c><00:00:51.210><c> the</c><00:00:51.360><c> same</c><00:00:51.660><c> thing</c><00:00:52.020><c> as</c><00:00:52.230><c> c2</c>
+
+00:00:52.700 --> 00:00:52.710 align:start position:0%
+does pretty much the same thing as c2
+ 
+
+00:00:52.710 --> 00:00:57.229 align:start position:0%
+does pretty much the same thing as c2
+just<00:00:52.980><c> did</c><00:00:53.600><c> it</c><00:00:54.600><c> puts</c><00:00:54.989><c> a</c><00:00:55.289><c> write</c><00:00:56.129><c> miss</c><00:00:56.160><c> request</c><00:00:56.969><c> on</c>
+
+00:00:57.229 --> 00:00:57.239 align:start position:0%
+just did it puts a write miss request on
+ 
+
+00:00:57.239 --> 00:01:00.200 align:start position:0%
+just did it puts a write miss request on
+the<00:00:57.420><c> bus</c><00:00:57.859><c> gets</c><00:00:58.859><c> the</c><00:00:59.039><c> block</c><00:00:59.280><c> rights</c><00:00:59.609><c> to</c><00:00:59.850><c> it</c><00:00:59.940><c> puts</c>
+
+00:01:00.200 --> 00:01:00.210 align:start position:0%
+the bus gets the block rights to it puts
+ 
+
+00:01:00.210 --> 00:01:01.580 align:start position:0%
+the bus gets the block rights to it puts
+it<00:01:00.329><c> in</c><00:01:00.480><c> the</c><00:01:00.600><c> modified</c><00:01:01.020><c> State</c>
+
+00:01:01.580 --> 00:01:01.590 align:start position:0%
+it in the modified State
+ 
+
+00:01:01.590 --> 00:01:05.509 align:start position:0%
+it in the modified State
+meanwhile<00:01:02.899><c> c2</c><00:01:03.899><c> has</c><00:01:04.589><c> to</c><00:01:04.830><c> intervene</c><00:01:05.339><c> and</c>
+
+00:01:05.509 --> 00:01:05.519 align:start position:0%
+meanwhile c2 has to intervene and
+ 
+
+00:01:05.519 --> 00:01:08.990 align:start position:0%
+meanwhile c2 has to intervene and
+provide<00:01:05.970><c> the</c><00:01:06.210><c> data</c><00:01:06.390><c> that</c><00:01:07.170><c> c1</c><00:01:07.650><c> gets</c><00:01:08.100><c> and</c><00:01:08.369><c> then</c>
+
+00:01:08.990 --> 00:01:09.000 align:start position:0%
+provide the data that c1 gets and then
+ 
+
+00:01:09.000 --> 00:01:11.660 align:start position:0%
+provide the data that c1 gets and then
+because<00:01:09.810><c> we</c><00:01:09.960><c> snoop</c><00:01:10.229><c> the</c><00:01:10.380><c> right</c><00:01:10.619><c> we</c><00:01:11.369><c> need</c><00:01:11.520><c> to</c>
+
+00:01:11.660 --> 00:01:11.670 align:start position:0%
+because we snoop the right we need to
+ 
+
+00:01:11.670 --> 00:01:14.539 align:start position:0%
+because we snoop the right we need to
+transition<00:01:12.060><c> to</c><00:01:12.450><c> an</c><00:01:12.780><c> invalid</c><00:01:13.200><c> state</c><00:01:13.680><c> note</c><00:01:14.310><c> that</c>
+
+00:01:14.539 --> 00:01:14.549 align:start position:0%
+transition to an invalid state note that
+ 
+
+00:01:14.549 --> 00:01:17.330 align:start position:0%
+transition to an invalid state note that
+if<00:01:14.790><c> a</c><00:01:15.000><c> block</c><00:01:15.240><c> is</c><00:01:15.450><c> in</c><00:01:15.479><c> M</c><00:01:15.960><c> state</c><00:01:16.290><c> in</c><00:01:16.500><c> any</c><00:01:16.830><c> cache</c>
+
+00:01:17.330 --> 00:01:17.340 align:start position:0%
+if a block is in M state in any cache
+ 
+
+00:01:17.340 --> 00:01:20.390 align:start position:0%
+if a block is in M state in any cache
+all<00:01:18.119><c> the</c><00:01:18.540><c> other</c><00:01:18.689><c> caches</c><00:01:19.080><c> have</c><00:01:19.740><c> to</c><00:01:19.979><c> have</c><00:01:20.189><c> that</c>
+
+00:01:20.390 --> 00:01:20.400 align:start position:0%
+all the other caches have to have that
+ 
+
+00:01:20.400 --> 00:01:23.330 align:start position:0%
+all the other caches have to have that
+block<00:01:20.790><c> in</c><00:01:21.030><c> the</c><00:01:21.150><c> invalid</c><00:01:21.540><c> state</c><00:01:21.810><c> if</c><00:01:22.710><c> a</c><00:01:23.070><c> cache</c>
+
+00:01:23.330 --> 00:01:23.340 align:start position:0%
+block in the invalid state if a cache
+ 
+
+00:01:23.340 --> 00:01:26.060 align:start position:0%
+block in the invalid state if a cache
+has<00:01:23.640><c> a</c><00:01:23.670><c> block</c><00:01:24.000><c> in</c><00:01:24.180><c> a</c><00:01:24.270><c> shared</c><00:01:24.630><c> state</c><00:01:25.020><c> all</c><00:01:25.680><c> the</c>
+
+00:01:26.060 --> 00:01:26.070 align:start position:0%
+has a block in a shared state all the
+ 
+
+00:01:26.070 --> 00:01:28.280 align:start position:0%
+has a block in a shared state all the
+other<00:01:26.220><c> caches</c><00:01:26.580><c> need</c><00:01:27.119><c> to</c><00:01:27.270><c> have</c><00:01:27.509><c> the</c><00:01:27.630><c> Block</c><00:01:27.869><c> in</c>
+
+00:01:28.280 --> 00:01:28.290 align:start position:0%
+other caches need to have the Block in
+ 
+
+00:01:28.290 --> 00:01:30.649 align:start position:0%
+other caches need to have the Block in
+either<00:01:28.650><c> the</c><00:01:29.009><c> shared</c><00:01:29.310><c> or</c><00:01:29.579><c> the</c><00:01:29.790><c> invalid</c><00:01:30.150><c> caches</c>
+
+00:01:30.649 --> 00:01:30.659 align:start position:0%
+either the shared or the invalid caches
+ 
+
+00:01:30.659 --> 00:01:33.800 align:start position:0%
+either the shared or the invalid caches
+so<00:01:31.470><c> pretty</c><00:01:31.710><c> much</c><00:01:31.950><c> we</c><00:01:32.400><c> can</c><00:01:32.579><c> have</c><00:01:32.759><c> one</c><00:01:33.119><c> has</c><00:01:33.360><c> M</c><00:01:33.570><c> or</c>
+
+00:01:33.800 --> 00:01:33.810 align:start position:0%
+so pretty much we can have one has M or
+ 
+
+00:01:33.810 --> 00:01:37.460 align:start position:0%
+so pretty much we can have one has M or
+others<00:01:34.320><c> have</c><00:01:34.530><c> I</c><00:01:34.770><c> or</c><00:01:35.729><c> we</c><00:01:36.090><c> have</c><00:01:36.270><c> several</c><00:01:37.110><c> can</c>
+
+00:01:37.460 --> 00:01:37.470 align:start position:0%
+others have I or we have several can
+ 
+
+00:01:37.470 --> 00:01:40.700 align:start position:0%
+others have I or we have several can
+have<00:01:37.650><c> s</c><00:01:37.829><c> and</c><00:01:38.100><c> the</c><00:01:39.000><c> rest</c><00:01:39.210><c> have</c><00:01:39.600><c> I</c><00:01:39.869><c> we</c><00:01:40.350><c> cannot</c>
+
+00:01:40.700 --> 00:01:40.710 align:start position:0%
+have s and the rest have I we cannot
+ 
+
+00:01:40.710 --> 00:01:43.880 align:start position:0%
+have s and the rest have I we cannot
+have<00:01:40.979><c> m</c><00:01:41.280><c> and</c><00:01:41.490><c> s</c><00:01:42.030><c> in</c><00:01:42.780><c> the</c><00:01:43.020><c> system</c><00:01:43.409><c> at</c><00:01:43.560><c> the</c><00:01:43.649><c> same</c>
+
+00:01:43.880 --> 00:01:43.890 align:start position:0%
+have m and s in the system at the same
+ 
+
+00:01:43.890 --> 00:01:46.010 align:start position:0%
+have m and s in the system at the same
+time<00:01:44.189><c> for</c><00:01:44.430><c> the</c><00:01:44.520><c> same</c><00:01:44.759><c> block</c><00:01:45.000><c> and</c><00:01:45.240><c> definitely</c>
+
+00:01:46.010 --> 00:01:46.020 align:start position:0%
+time for the same block and definitely
+ 
+
+00:01:46.020 --> 00:01:49.159 align:start position:0%
+time for the same block and definitely
+we<00:01:46.200><c> cannot</c><00:01:46.380><c> have</c><00:01:46.649><c> mmm</c>
+

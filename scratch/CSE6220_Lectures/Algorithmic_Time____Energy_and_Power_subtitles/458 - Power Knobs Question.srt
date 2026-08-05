@@ -1,0 +1,80 @@
+1
+00:00:00,430 --> 00:00:03,290
+ Now this quiz is actually a pseudo quiz.
+
+2
+00:00:03,290 --> 00:00:06,760
+ By that I mean it's not designed to test what you've learned.
+
+3
+00:00:06,760 --> 00:00:09,440
+ Rather it asks you to make an educated guess and
+
+4
+00:00:09,440 --> 00:00:13,040
+ in coming up with that guess hopefully you learn something in the process.
+
+5
+00:00:13,040 --> 00:00:15,880
+ Start by recalling the dynamic power equation.
+
+6
+00:00:15,880 --> 00:00:19,140
+ Notice that it has 4 nobs for controlling power.
+
+7
+00:00:19,140 --> 00:00:22,530
+ The first is the capacitance of the circuit element, like a gate.
+
+8
+00:00:22,530 --> 00:00:25,040
+ The second is the supply voltage of the circuit.
+
+9
+00:00:25,040 --> 00:00:27,670
+ The third is the clock rate or the clock frequency.
+
+10
+00:00:27,670 --> 00:00:29,960
+ Lastly, there's the activity factor.
+
+11
+00:00:29,960 --> 00:00:32,695
+ The activity factor was the frequency of state changes
+
+12
+00:00:32,695 --> 00:00:35,035
+ relative to elapsed cycles.
+
+13
+00:00:35,035 --> 00:00:38,135
+ Now put on your algorithm and software hat.
+
+14
+00:00:38,135 --> 00:00:42,275
+ Do you have any guesses or intuition about which of these knobs might
+
+15
+00:00:42,275 --> 00:00:45,365
+ be within the control of algorithms and software?
+
+16
+00:00:45,365 --> 00:00:48,075
+ I want you to think about it, and if you don't know, it's okay.
+
+17
+00:00:48,075 --> 00:00:50,235
+ In fact, it's a little bit of a research question, and
+
+18
+00:00:50,235 --> 00:00:52,970
+ there isn't necessarily a right or wrong answer.
+
+19
+00:00:52,970 --> 00:00:56,400
+ The main point of this pseudo-quiz is to make sure that you stop and
+
+20
+00:00:56,400 --> 00:00:56,400
+ think about the question before I tell you what I think.
+

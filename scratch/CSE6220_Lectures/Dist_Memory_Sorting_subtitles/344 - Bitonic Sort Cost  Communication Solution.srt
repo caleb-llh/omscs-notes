@@ -1,0 +1,116 @@
+1
+00:00:00,300 --> 00:00:02,930
+ Here's the answer I was looking for, log P for
+
+2
+00:00:02,930 --> 00:00:06,689
+ the alpha term, and log squared P for the beta term.
+
+3
+00:00:06,689 --> 00:00:10,900
+ The exact calculation isn't hard, but it does have some tedious algebra.
+
+4
+00:00:10,900 --> 00:00:14,750
+ So what I'll do is just walk you through the setup, if you want the details,
+
+5
+00:00:14,750 --> 00:00:18,000
+ see the downloadables section for this video.
+
+6
+00:00:18,000 --> 00:00:21,530
+ The key question is where does communication happen?
+
+7
+00:00:21,530 --> 00:00:26,870
+ Recall that the bitonic sort network is a sequence of bitonic merging stages.
+
+8
+00:00:26,870 --> 00:00:29,650
+ These stages start small and grow larger.
+
+9
+00:00:29,650 --> 00:00:32,850
+ Let's number these stages from 1 to log n.
+
+10
+00:00:32,850 --> 00:00:35,660
+ Now pick some stage and call it k.
+
+11
+00:00:35,660 --> 00:00:38,200
+ What is the size of each bitonic merge?
+
+12
+00:00:38,200 --> 00:00:40,220
+ Well, it's 2 to the k.
+
+13
+00:00:40,220 --> 00:00:43,960
+ Now, suppose you use a block distribution with P processes.
+
+14
+00:00:43,960 --> 00:00:48,610
+ Notice that you only need to communicate when the size of the merge exceeds
+
+15
+00:00:48,610 --> 00:00:51,960
+ n over P, which is the amount of data per process.
+
+16
+00:00:51,960 --> 00:00:54,160
+ In other words, there's no communication here, and
+
+17
+00:00:54,160 --> 00:00:57,460
+ you only start communicating at this stage.
+
+18
+00:00:57,460 --> 00:01:00,050
+ Now, in one of these stages where the merge
+
+19
+00:01:00,050 --> 00:01:05,030
+ is spread across multiple processes, how many processes are interacting?
+
+20
+00:01:05,030 --> 00:01:07,370
+ Here's one way to express the number.
+
+21
+00:01:07,370 --> 00:01:11,360
+ As a sanity check, notice that when k is equal to log N,
+
+22
+00:01:11,360 --> 00:01:16,360
+ then this thing simplifies to just P, the total number of processes.
+
+23
+00:01:16,360 --> 00:01:19,600
+ Now, bitonic merge of size M on P processes,
+
+24
+00:01:19,600 --> 00:01:22,340
+ takes this much time to communicate.
+
+25
+00:01:22,340 --> 00:01:26,170
+ We just need to sum this time over all the stages in which communication
+
+26
+00:01:26,170 --> 00:01:27,150
+ happens.
+
+27
+00:01:27,150 --> 00:01:31,320
+ Remember you only communicate when k is greater than log n over P.
+
+28
+00:01:31,320 --> 00:01:34,550
+ The tedious algebra part is just plugging this into this.
+
+29
+00:01:34,550 --> 00:01:34,550
+ So if you plug in and simplify you should get this.
+

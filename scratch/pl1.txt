@@ -1,0 +1,150 @@
+001|ejv9OTfF1qI|Shared Memory Machine Model - Georgia Tech - Advanced Operating Systems
+002|VO48QBCkvNI|Shared Memory and Caches - Georgia Tech - Advanced Operating Systems
+003|Bs0OIhYa-qA|Processes Quiz - Georgia Tech - Advanced Operating Systems
+004|aPJWMC_OZVg|Processes Quiz Solution - Georgia Tech - Advanced Operating Systems
+005|EWTNNm_s8MM|Memory Consistency Model - Georgia Tech - Advanced Operating Systems
+006|IlXs3NF3fE8|Memory Consistency and Cache Coherence - Georgia Tech - Advanced Operating Systems
+007|wpqmLuzWdqI|Hardware Cache Coherence - Georgia Tech - Advanced Operating Systems
+008|Sl_fY-6XHSM|Scalability - Georgia Tech - Advanced Operating Systems
+009|QEao9BQCMIQ|Lesson Summary - Georgia Tech - Advanced Operating Systems
+010|ErQfpFEll3Q|Synchronization Primitives - Georgia Tech - Advanced Operating Systems
+011|mtqZEyF5uNU|Programmer's Intent Quiz - Georgia Tech - Advanced Operating Systems
+012|ez3YpZsmmvE|Programmer's Intent Quiz Solution - Georgia Tech - Advanced Operating Systems
+013|fxdJZCe8D-g|Programmer's Intent Explanation - Georgia Tech - Advanced Operating Systems
+014|Bh-V04jRwpo|Atomic Operations - Georgia Tech - Advanced Operating Systems
+015|6226FBi6448|Scalability Issues With Synchronization - Georgia Tech - Advanced Operating Systems
+016|60rpj2ZCqwE|Native Spinlock - Georgia Tech - Advanced Operating Systems
+017|AEmd9llov2c|Problems With Native Spinlock Quiz - Georgia Tech - Advanced Operating Systems
+018|D6KCAgMi1K8|Problems With Native Spinlock Quiz Solution - Georgia Tech - Advanced Operating Systems
+019|Lo2Lneqd27k|Caching Spinlock - Georgia Tech - Advanced Operating Systems
+020|KlRkAdQKjnE|Spinlocks With Delay - Georgia Tech - Advanced Operating Systems
+021|r8eNGLY26T0|Ticket Lock - Georgia Tech - Advanced Operating Systems
+022|4mKAekEqYdQ|Spinlock Summary - Georgia Tech - Advanced Operating Systems
+023|yKsH-QGtXPU|Array Based Queueing Lock - Georgia Tech - Advanced Operating Systems
+024|W6rrkR2v2G8|Array Based Queueing Lock (cont) - Georgia Tech - Advanced Operating Systems
+025|ur9vyAbYb2Q|Array Based Queueing Lock (cont) - Georgia Tech - Advanced Operating Systems
+026|R-xJmv2cp5Q|Link Based Queueing Lock - Georgia Tech - Advanced Operating Systems
+027|SJ3Ys9n2dgM|Link Based Queueing Lock (cont) - Georgia Tech - Advanced Operating Systems
+028|tbVs1JR0Nf0|Link Based Queueing Lock (cont) - Georgia Tech - Advanced Operating Systems
+029|o87PPY3MSvg|Link Based Queueing Lock (cont) - Georgia Tech - Advanced Operating Systems
+030|SXUJ40PtcRo|Link Based Queueing Lock (cont) - Georgia Tech - Advanced Operating Systems
+031|Da5xO_eQ-Qg|Link Based Queueing Lock (cont) - Georgia Tech - Advanced Operating Systems
+032|P3dFwI_wQpc|Link Based Queueing Lock (cont) - Georgia Tech - Advanced Operating Systems
+033|EvCEUWgiv2o|Link Based Queueing Lock (cont) - Georgia Tech - Advanced Operating Systems
+034|hDaSRZBQLmU|Algorithm Grading Quiz - Georgia Tech - Advanced Operating Systems
+035|KDBK0UzFtTI|Algorithm Grading Quiz Solution - Georgia Tech - Advanced Operating Systems
+036|fCFndi19yNs|Barrier Synchronization - Georgia Tech - Advanced Operating Systems
+037|iRCm_YyIlfw|Problems With Algorithm Quiz - Georgia Tech - Advanced Operating Systems
+038|pinmJcSQqAg|Problems With Algorithm Quiz Solution - Georgia Tech - Advanced Operating Systems
+039|FDlEuiGzwGw|Counting Barrier - Georgia Tech - Advanced Operating Systems
+040|SqrcdEv4TY4|Sense Reversing Barrier - Georgia Tech - Advanced Operating Systems
+041|KrDBffcroq0|Tree Barrier - Georgia Tech - Advanced Operating Systems
+042|qciuV0CjV2Q|Tree Barrier (cont) - Georgia Tech - Advanced Operating Systems
+043|caDFJXja07s|Tree Barrier (cont) - Georgia Tech - Advanced Operating Systems
+044|9HjAVc9QHgA|Tree Barrier (cont) - Georgia Tech - Advanced Operating Systems
+045|-blJqrOR39Q|4 Ary Arrival - Georgia Tech - Advanced Operating Systems
+046|LlJb6hNcyrs|Binary Wakeup - Georgia Tech - Advanced Operating Systems
+047|flGAKr0pJpY|Tournament Barrier - Georgia Tech - Advanced Operating Systems
+048|VoJztVnEA6k|Tournament Barrier (cont) - Georgia Tech - Advanced Operating Systems
+049|b5z9_6hLOWs|Tournament Barrier (cont) - Georgia Tech - Advanced Operating Systems
+050|FavAvaYqOVM|Dissemination Barrier - Georgia Tech - Advanced Operating Systems
+051|BjNZUzN720Q|Dissemination Barrier (cont) - Georgia Tech - Advanced Operating Systems
+052|e1NcaVBMQuo|Barrier Completion Quiz - Georgia Tech - Advanced Operating Systems
+053|BFr5u6SfQYE|Barrier Completion Quiz Solution - Georgia Tech - Advanced Operating Systems
+054|GNQlVsl3CsM|Dissemination Barrier (cont) - Georgia Tech - Advanced Operating Systems
+055|Eh1ZPt0DZkM|Performance Evaluation - Georgia Tech - Advanced Operating Systems
+056|cf2iw6FoKeI|RPC and Client Server Systems - Georgia Tech - Advanced Operating Systems
+057|gr7oaiUsxSU|RPC Vs Simple Procedure Call - Georgia Tech - Advanced Operating Systems
+058|YWXD_ED4vBU|Kernel Copies Quiz - Georgia Tech - Advanced Operating Systems
+059|MQUlO_8ceQk|Kernel Copies Quiz Solution - Georgia Tech - Advanced Operating Systems
+060|duR1ECALwP8|Copying Overhead - Georgia Tech - Advanced Operating Systems
+061|3wgP0EdgJOc|Making RPC Cheap - Georgia Tech - Advanced Operating Systems
+062|kymU1PTXywA|Making RPC Cheap (Binding) - Georgia Tech - Advanced Operating Systems
+063|8wEqsHp9fo0|Making RPC Cheap (Actual Calls) - Georgia Tech - Advanced Operating Systems
+064|BnKnXOiApzE|Making RPC Cheap (Actual Calls) cont - Georgia Tech - Advanced Operating Systems
+065|2ltVFrDo4Ds|Making RPC Cheap (Actual Calls) cont - Georgia Tech - Advanced Operating Systems
+066|VQ83o_YNSxg|Making RPC Cheap Summary - Georgia Tech - Advanced Operating Systems
+067|XjWYQGoLQjI|RPC on SMP - Georgia Tech - Advanced Operating Systems
+068|KoaqnlNbQt4|RPC on SMP Summary - Georgia Tech - Advanced Operating Systems
+069|jUMUTh9T14k|Scheduling First Principles - Georgia Tech - Advanced Operating Systems
+070|oua54MtcC8M|Scheduler Quiz - Georgia Tech - Advanced Operating Systems
+071|Dw439Z0fldU|Scheduler Quiz Solution - Georgia Tech - Advanced Operating Systems
+072|WpVg2follbQ|Memory Hierarchy Refresher - Georgia Tech - Advanced Operating Systems
+073|fSUqT4WpPdM|Cache Affinity Scheduling - Georgia Tech - Advanced Operating Systems
+074|fQin6dsYTdE|Scheduling Policies - Georgia Tech - Advanced Operating Systems
+075|aMrBQ8hcQnQ|Minimum Intervening Policy - Georgia Tech - Advanced Operating Systems
+076|8XFwlrnRgts|Minimum Intervening Plue Queue Policy - Georgia Tech - Advanced Operating Systems
+077|f7D27r4K8AQ|Summarizing Scheduling Policies - Georgia Tech - Advanced Operating Systems
+078|aqtxGxD60d0|Scheduling Policy Quiz - Georgia Tech - Advanced Operating Systems
+079|2Neu_QVru5Y|Scheduling Policy Quiz Solution - Georgia Tech - Advanced Operating Systems
+080|HNm2Ci4rT1k|Implementation Issues - Georgia Tech - Advanced Operating Systems
+081|oWh2iyAeT-Y|Performance - Georgia Tech - Advanced Operating Systems
+082|w5M4nljyb24|Performance (cont) - Georgia Tech - Advanced Operating Systems
+083|YfrRVdGTbHw|Cache Affinity and Multicore - Georgia Tech - Advanced Operating Systems
+084|lLT1zGZrilE|Cache Aware Scheduling - Georgia Tech - Advanced Operating Systems
+085|Iz0FhRfGUC8|Conclusion - Georgia Tech - Advanced Operating Systems
+086|0Ttc67teb_4|Introduction - Georgia Tech - Advanced Operating Systems
+087|Ph-eUJ76ZVY|OS for Parallel Machines - Georgia Tech - Advanced Operating Systems
+088|9-2UOE9c1BA|Principles - Georgia Tech - Advanced Operating Systems
+089|eyxL03AVLOY|Refresher on Page Fault Service - Georgia Tech - Advanced Operating Systems
+090|ioCQnyHSgXA|Parallel OS and Page Fault Service - Georgia Tech - Advanced Operating Systems
+091|7AP_XLUQQRI|Recipe for Scalable Structure in Parallel OS - Georgia Tech - Advanced Operating Systems
+092|va7oqEKTeJQ|Tornado's Secret Sauce - Georgia Tech - Advanced Operating Systems
+093|7Rkz-kuFAC4|Traditional Structure - Georgia Tech - Advanced Operating Systems
+094|0_W-YIm-qhw|Objectization of Memory Management - Georgia Tech - Advanced Operating Systems
+095|R7wVfc0Ncn8|Objectized Structure of VM Manager - Georgia Tech - Advanced Operating Systems
+096|d9Ja55f5y2E|Advantages of Clustered Object - Georgia Tech - Advanced Operating Systems
+097|XRz9DZC_l8U|Implementation of Clustered Object - Georgia Tech - Advanced Operating Systems
+098|H1PbOUxKRjw|Non Hierarchical Locking - Georgia Tech - Advanced Operating Systems
+099|mei_GtXEqj4|NonHierarchical Locking (cont) - Georgia Tech - Advanced Operating Systems
+100|PqAWlt8wzm8|Dynamic Memory Allocation - Georgia Tech - Advanced Operating Systems
+101|tq6IPSCFGD0|IPC - Georgia Tech - Advanced Operating Systems
+102|ckyn2grLX-M|Tornado Summary - Georgia Tech - Advanced Operating Systems
+103|LllSiKZNrb4|Summary of Ideas in Corey System - Georgia Tech - Advanced Operating Systems
+104|PH6zcRAiaf8|Virtualization - Georgia Tech - Advanced Operating Systems
+105|mQnngbWoktQ|Virtualization to the Rescue - Georgia Tech - Advanced Operating Systems
+106|89BUdewVKxM|Conclusion - Georgia Tech - Advanced Operating Systems
+107|rKd2HtmYkmg|Introduction - Georgia Tech - Advanced Operating Systems
+108|5vabY0JmUVc|What is a Distributed System Quiz - Georgia Tech - Advanced Operating Systems
+109|UEsnrTfEtec|What is a Distributed System Quiz Solution - Georgia Tech - Advanced Operating Systems
+110|nH9uwoyczFc|Distributed Systems Definition - Georgia Tech - Advanced Operating Systems
+111|HxwBEQphQ5c|A Fun Example - Georgia Tech - Advanced Operating Systems
+112|gGilgOSYbaI|Happened Before Relationship - Georgia Tech - Advanced Operating Systems
+113|xJukTEDnHOk|Relation Quiz - Georgia Tech - Advanced Operating Systems
+114|Nck8jFX5dww|Relation Quiz Solution - Georgia Tech - Advanced Operating Systems
+115|q-CwESo9UsM|Happened Before Relation (cont) - Georgia Tech - Advanced Operating Systems
+116|fgzBzT4K7Q4|Identifying Events Quiz - Georgia Tech - Advanced Operating Systems
+117|kz5ZSgxKasU|Identifying Events Quiz Solution - Georgia Tech - Advanced Operating Systems
+118|unLnsRDCZVw|Example of Event Ordering - Georgia Tech - Advanced Operating Systems
+119|q1JkuBzWgUo|Introduction - Georgia Tech - Advanced Operating Systems
+120|EDkx-c1Tjg4|Lamport's Logical Clock - Georgia Tech - Advanced Operating Systems
+121|FB6XBQk05lY|Events Quiz - Georgia Tech - Advanced Operating Systems
+122|Ms83lzJs9os|Events Quiz Solution - Georgia Tech - Advanced Operating Systems
+123|gaptoWIYgeg|Logical Clock Conditions - Georgia Tech - Advanced Operating Systems
+124|zQXYSi9kDyU|Need For a Total Order - Georgia Tech - Advanced Operating Systems
+125|z2oY8LWHYq8|Lamport's Total Order - Georgia Tech - Advanced Operating Systems
+126|Su04Dvu3-4w|Total Order Quiz - Georgia Tech - Advanced Operating Systems
+127|Z_aZi5O56KI|Total Order Quiz Solution - Georgia Tech - Advanced Operating Systems
+128|tghUsRcqP-k|Distributed ME Lock Algorithm - Georgia Tech - Advanced Operating Systems
+129|G_iczjkh-Lw|Distributed ME Lock Algorithm (cont) - Georgia Tech - Advanced Operating Systems
+130|fcFth2DM7tc|Messages Quiz - Georgia Tech - Advanced Operating Systems
+131|gQ3CWXL7lsU|Messages Quiz Solution - Georgia Tech - Advanced Operating Systems
+132|FfzDgvsCNQM|Message Complexity - Georgia Tech - Advanced Operating Systems
+133|HX_EA8_nG54|Real World Scenario - Georgia Tech - Advanced Operating Systems
+134|QgWz_s7uugE|Lamport's Physical Clock - Georgia Tech - Advanced Operating Systems
+135|VIgMnexiH9g|IPC Time and Clock Dirft - Georgia Tech - Advanced Operating Systems
+136|7fEO3nlwXjc|Real World Example (cont) - Georgia Tech - Advanced Operating Systems
+137|KuVtFLatJAI|Conclusion - Georgia Tech - Advanced Operating Systems
+138|N6nHv1BDPPQ|Introduction - Georgia Tech - Advanced Operating Systems
+139|_iuwVTNdJiI|Latency Quiz - Georgia Tech - Advanced Operating Systems
+140|_gWc2Ikq9aA|Latency Quiz Solution - Georgia Tech - Advanced Operating Systems
+141|4V1ynaj6dq8|Latency vs Throughput - Georgia Tech - Advanced Operating Systems
+142|eSigjhE9S78|Components of RPC Latency - Georgia Tech - Advanced Operating Systems
+143|qDljciDJSw0|Sources of Overhead on RPC - Georgia Tech - Advanced Operating Systems
+144|Q2fkck7s07Q|Marshaling and Data Copying - Georgia Tech - Advanced Operating Systems
+145|QK227Ey8Cu4|Marshaling and Data Copying (cont) - Georgia Tech - Advanced Operating Systems
+146|1R08yxconDs|Control Transfer - Georgia Tech - Advanced Operating Systems
+147|cQTmqz5Nxgo|Control Transfer (cont) - Georgia Tech - Advanced Operating Systems
+148|YZ_WmKyKEUs|Protocol Processing - Georgia Tech - Advanced Operating Systems
+149|6WzjlVw_b-g|Protocol Processing (cont) - Georgia Tech - Advanced Operating Systems
+150|OwoMVYt1XUQ|Conclusion - Georgia Tech - Advanced Operating Systems

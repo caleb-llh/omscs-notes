@@ -1,0 +1,32 @@
+1
+00:00:00,260 --> 00:00:03,700
+ The answer is false, here's an example,
+
+2
+00:00:03,700 --> 00:00:07,800
+ here's a fine graph that maps to this course graph under this matching.
+
+3
+00:00:07,800 --> 00:00:12,490
+ Notice that the matching is even maximal but look at the projected cut.
+
+4
+00:00:12,490 --> 00:00:14,010
+ This cut is sub-optimal.
+
+5
+00:00:14,010 --> 00:00:16,950
+ It would have been better to cut the graph down the middle,
+
+6
+00:00:16,950 --> 00:00:20,970
+ the important point to remember is that corsening is a heuristic.
+
+7
+00:00:20,970 --> 00:00:24,090
+ An interesting follow up question might be well,
+
+8
+00:00:24,090 --> 00:00:24,090
+ what if you had coarsened based on a maximum rather than a maximal matching?
+

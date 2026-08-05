@@ -1,0 +1,164 @@
+1
+00:00:00,330 --> 00:00:03,719
+ While we're on the subject of this sort of picture of a matrix multiply, and
+
+2
+00:00:03,719 --> 00:00:07,939
+ I mean the picture on the left, I want to mention a related geometric way of
+
+3
+00:00:07,939 --> 00:00:11,240
+ thinking about how a matrix multiply works.
+
+4
+00:00:11,240 --> 00:00:14,890
+ This geometric view will give you a handy fact which you'll need later when
+
+5
+00:00:14,890 --> 00:00:19,710
+ I ask you, what's the minimum amount of communication a matrix multiply needs?
+
+6
+00:00:19,710 --> 00:00:21,168
+ Oh, the intrigue.
+
+7
+00:00:21,168 --> 00:00:24,820
+ The intrigue, oh!
+
+8
+00:00:24,820 --> 00:00:26,500
+ Starting with this initial picture,
+
+9
+00:00:26,500 --> 00:00:31,720
+ I want you to imagine a cuboid where the faces are the matrix operands.
+
+10
+00:00:31,720 --> 00:00:35,990
+ Notice how the edges match the same way the dimensions need to match.
+
+11
+00:00:35,990 --> 00:00:39,700
+ For example, where A has k columns, and B has k rows.
+
+12
+00:00:39,700 --> 00:00:41,760
+ There's a matching edge.
+
+13
+00:00:41,760 --> 00:00:46,100
+ The same holds for the columns of B and the corresponding edge of the cube.
+
+14
+00:00:46,100 --> 00:00:49,460
+ Columns of B, and corresponding edge.
+
+15
+00:00:49,460 --> 00:00:54,160
+ Recall that an element i, j of C depends on row i of A and column j of B.
+
+16
+00:00:54,160 --> 00:00:58,610
+ In the cube, there's also an element i, j of C.
+
+17
+00:00:58,610 --> 00:01:02,480
+ The dependents on A and B is a line that cuts through here.
+
+18
+00:01:02,480 --> 00:01:07,700
+ And if line is a projection of a row from A and a column from B.
+
+19
+00:01:07,700 --> 00:01:13,030
+ Now each of these scalar multiplications is like a point inside this cube.
+
+20
+00:01:13,030 --> 00:01:15,300
+ Let's think about what that means.
+
+21
+00:01:15,300 --> 00:01:20,500
+ Suppose I pick a set of matching rectangular blocks from A, B and C.
+
+22
+00:01:20,500 --> 00:01:26,430
+ So here I picked an r by s block of A, a matching s by t block of B,
+
+23
+00:01:26,430 --> 00:01:29,760
+ and of course there's the corresponding matching output which is r by t.
+
+24
+00:01:29,760 --> 00:01:31,950
+ If they're perfectly aligned,
+
+25
+00:01:31,950 --> 00:01:35,340
+ then they define a volume of the interior of the cube.
+
+26
+00:01:35,340 --> 00:01:38,970
+ In other words, this volume is the set of all multiplications you need to do
+
+27
+00:01:38,970 --> 00:01:43,680
+ in order to update this output block with these two surface sub-blocks.
+
+28
+00:01:43,680 --> 00:01:45,720
+ How many multiplies is that?
+
+29
+00:01:45,720 --> 00:01:50,210
+ Well, it's just the volume of the interior, so that's r times s times t.
+
+30
+00:01:50,210 --> 00:01:52,720
+ In terms of the sizes of the sub blocks
+
+31
+00:01:52,720 --> 00:01:55,500
+ it's just the square root of their product.
+
+32
+00:01:55,500 --> 00:01:58,420
+ In fact, there's a general result from the geometry of discrete
+
+33
+00:01:58,420 --> 00:02:01,750
+ lattices like this one, for any integer cube of point,
+
+34
+00:02:01,750 --> 00:02:05,070
+ suppose I give you a subset of its surfaces.
+
+35
+00:02:05,070 --> 00:02:08,600
+ Let's call them SA, SB, and SC.
+
+36
+00:02:08,600 --> 00:02:12,290
+ Now there may be some blob of intersection in the interior,
+
+37
+00:02:12,290 --> 00:02:14,100
+ we'll call that I.
+
+38
+00:02:14,100 --> 00:02:18,350
+ The theorem is this, the volume of I is at most
+
+39
+00:02:18,350 --> 00:02:23,340
+ the square root of the size of A, times the size of B, times the size of C.
+
+40
+00:02:23,340 --> 00:02:26,650
+ This is a theorem due to Lumis and Whitney in 1949 and
+
+41
+00:02:26,650 --> 00:02:26,650
+ a sighted in the instructors notes.
+

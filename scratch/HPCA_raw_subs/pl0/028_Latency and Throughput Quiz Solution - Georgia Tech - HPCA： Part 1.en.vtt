@@ -1,0 +1,200 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.280 --> 00:00:02.590 align:start position:0%
+ 
+so<00:00:00.520><c> let's</c><00:00:00.719><c> look</c><00:00:00.880><c> at</c><00:00:01.040><c> the</c><00:00:01.240><c> solution</c><00:00:02.080><c> for</c><00:00:02.280><c> our</c>
+
+00:00:02.590 --> 00:00:02.600 align:start position:0%
+so let's look at the solution for our
+ 
+
+00:00:02.600 --> 00:00:05.470 align:start position:0%
+so let's look at the solution for our
+latency<00:00:03.080><c> inut</c><00:00:03.639><c> quiz</c><00:00:04.240><c> we</c><00:00:04.400><c> have</c><00:00:04.520><c> a</c><00:00:04.720><c> website</c><00:00:05.279><c> that</c>
+
+00:00:05.470 --> 00:00:05.480 align:start position:0%
+latency inut quiz we have a website that
+ 
+
+00:00:05.480 --> 00:00:08.310 align:start position:0%
+latency inut quiz we have a website that
+has<00:00:05.640><c> two</c><00:00:06.160><c> servers</c><00:00:07.160><c> a</c><00:00:07.359><c> server</c><00:00:07.720><c> takes</c><00:00:08.120><c> a</c>
+
+00:00:08.310 --> 00:00:08.320 align:start position:0%
+has two servers a server takes a
+ 
+
+00:00:08.320 --> 00:00:10.790 align:start position:0%
+has two servers a server takes a
+millisecond<00:00:09.080><c> to</c><00:00:09.320><c> process</c><00:00:09.679><c> an</c><00:00:09.840><c> order</c><00:00:10.400><c> so</c><00:00:10.599><c> the</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+millisecond to process an order so the
+ 
+
+00:00:10.800 --> 00:00:12.390 align:start position:0%
+millisecond to process an order so the
+latency<00:00:11.519><c> of</c><00:00:11.679><c> an</c>
+
+00:00:12.390 --> 00:00:12.400 align:start position:0%
+latency of an
+ 
+
+00:00:12.400 --> 00:00:16.349 align:start position:0%
+latency of an
+order<00:00:13.400><c> is</c><00:00:13.599><c> clearly</c><00:00:14.320><c> 1</c><00:00:15.119><c> millisecond</c><00:00:16.119><c> that's</c>
+
+00:00:16.349 --> 00:00:16.359 align:start position:0%
+order is clearly 1 millisecond that's
+ 
+
+00:00:16.359 --> 00:00:18.990 align:start position:0%
+order is clearly 1 millisecond that's
+how<00:00:16.560><c> long</c><00:00:16.960><c> it</c><00:00:17.240><c> takes</c><00:00:18.240><c> from</c><00:00:18.520><c> the</c><00:00:18.680><c> time</c><00:00:18.880><c> the</c>
+
+00:00:18.990 --> 00:00:19.000 align:start position:0%
+how long it takes from the time the
+ 
+
+00:00:19.000 --> 00:00:21.550 align:start position:0%
+how long it takes from the time the
+order<00:00:19.359><c> arrives</c><00:00:19.960><c> until</c><00:00:20.320><c> the</c><00:00:20.519><c> time</c><00:00:21.119><c> it</c><00:00:21.279><c> is</c>
+
+00:00:21.550 --> 00:00:21.560 align:start position:0%
+order arrives until the time it is
+ 
+
+00:00:21.560 --> 00:00:25.029 align:start position:0%
+order arrives until the time it is
+actually<00:00:22.279><c> served</c><00:00:23.279><c> the</c><00:00:23.640><c> throughput</c><00:00:24.640><c> of</c><00:00:24.840><c> a</c>
+
+00:00:25.029 --> 00:00:25.039 align:start position:0%
+actually served the throughput of a
+ 
+
+00:00:25.039 --> 00:00:26.870 align:start position:0%
+actually served the throughput of a
+single<00:00:25.439><c> server</c><00:00:26.000><c> because</c><00:00:26.240><c> it</c><00:00:26.400><c> cannot</c><00:00:26.679><c> do</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+single server because it cannot do
+ 
+
+00:00:26.880 --> 00:00:29.150 align:start position:0%
+single server because it cannot do
+anything<00:00:27.279><c> else</c><00:00:27.599><c> while</c><00:00:27.840><c> processing</c><00:00:28.279><c> the</c><00:00:28.480><c> order</c>
+
+00:00:29.150 --> 00:00:29.160 align:start position:0%
+anything else while processing the order
+ 
+
+00:00:29.160 --> 00:00:30.830 align:start position:0%
+anything else while processing the order
+is<00:00:29.400><c> going</c><00:00:29.599><c> to</c><00:00:29.759><c> be</c>
+
+00:00:30.830 --> 00:00:30.840 align:start position:0%
+is going to be
+ 
+
+00:00:30.840 --> 00:00:34.310 align:start position:0%
+is going to be
+one<00:00:31.160><c> order</c><00:00:31.960><c> per</c><00:00:32.200><c> millisecond</c><00:00:32.960><c> or</c><00:00:33.200><c> a</c><00:00:33.399><c> th</c><00:00:33.840><c> orders</c>
+
+00:00:34.310 --> 00:00:34.320 align:start position:0%
+one order per millisecond or a th orders
+ 
+
+00:00:34.320 --> 00:00:37.389 align:start position:0%
+one order per millisecond or a th orders
+per<00:00:34.520><c> second</c><00:00:35.399><c> but</c><00:00:35.559><c> we</c><00:00:35.719><c> have</c><00:00:35.879><c> two</c><00:00:36.200><c> such</c><00:00:36.480><c> servers</c>
+
+00:00:37.389 --> 00:00:37.399 align:start position:0%
+per second but we have two such servers
+ 
+
+00:00:37.399 --> 00:00:40.750 align:start position:0%
+per second but we have two such servers
+so<00:00:37.600><c> we</c><00:00:37.719><c> can</c><00:00:38.079><c> process</c><00:00:39.000><c> 2,000</c><00:00:40.000><c> orders</c><00:00:40.520><c> per</c>
+
+00:00:40.750 --> 00:00:40.760 align:start position:0%
+so we can process 2,000 orders per
+ 
+
+00:00:40.760 --> 00:00:44.150 align:start position:0%
+so we can process 2,000 orders per
+second<00:00:41.440><c> so</c><00:00:41.680><c> this</c><00:00:41.920><c> illustrates</c><00:00:42.920><c> again</c><00:00:43.920><c> the</c>
+
+00:00:44.150 --> 00:00:44.160 align:start position:0%
+second so this illustrates again the
+ 
+
+00:00:44.160 --> 00:00:46.590 align:start position:0%
+second so this illustrates again the
+situation<00:00:44.760><c> where</c><00:00:45.039><c> the</c><00:00:45.200><c> throughput</c><00:00:45.879><c> is</c><00:00:46.239><c> not</c>
+
+00:00:46.590 --> 00:00:46.600 align:start position:0%
+situation where the throughput is not
+ 
+
+00:00:46.600 --> 00:00:49.270 align:start position:0%
+situation where the throughput is not
+just<00:00:47.000><c> equal</c><00:00:47.320><c> to</c><00:00:47.600><c> one</c><00:00:47.920><c> over</c><00:00:48.199><c> the</c><00:00:48.360><c> latency</c><00:00:49.039><c> if</c><00:00:49.160><c> it</c>
+
+00:00:49.270 --> 00:00:49.280 align:start position:0%
+just equal to one over the latency if it
+ 
+
+00:00:49.280 --> 00:00:51.229 align:start position:0%
+just equal to one over the latency if it
+were<00:00:49.520><c> like</c><00:00:49.719><c> that</c><00:00:49.960><c> we</c><00:00:50.079><c> would</c><00:00:50.280><c> have</c><00:00:50.440><c> only</c><00:00:50.680><c> 1,000</c>
+
+00:00:51.229 --> 00:00:51.239 align:start position:0%
+were like that we would have only 1,000
+ 
+
+00:00:51.239 --> 00:00:54.189 align:start position:0%
+were like that we would have only 1,000
+orders<00:00:51.640><c> per</c><00:00:51.840><c> second</c><00:00:52.600><c> but</c><00:00:52.760><c> we</c><00:00:52.879><c> can</c><00:00:53.359><c> buy</c><00:00:53.640><c> more</c>
+
+00:00:54.189 --> 00:00:54.199 align:start position:0%
+orders per second but we can buy more
+ 
+
+00:00:54.199 --> 00:00:56.510 align:start position:0%
+orders per second but we can buy more
+throughput<00:00:55.199><c> simply</c><00:00:55.559><c> through</c><00:00:55.840><c> replication</c><00:00:56.399><c> of</c>
+
+00:00:56.510 --> 00:00:56.520 align:start position:0%
+throughput simply through replication of
+ 
+
+00:00:56.520 --> 00:00:59.069 align:start position:0%
+throughput simply through replication of
+servers<00:00:56.960><c> in</c><00:00:57.120><c> this</c><00:00:57.320><c> case</c><00:00:57.920><c> and</c><00:00:58.160><c> thus</c><00:00:58.480><c> achieve</c><00:00:58.840><c> a</c>
+
+00:00:59.069 --> 00:00:59.079 align:start position:0%
+servers in this case and thus achieve a
+ 
+
+00:00:59.079 --> 00:01:00.430 align:start position:0%
+servers in this case and thus achieve a
+higher<00:00:59.399><c> throughput</c>
+
+00:01:00.430 --> 00:01:00.440 align:start position:0%
+higher throughput
+ 
+
+00:01:00.440 --> 00:01:02.270 align:start position:0%
+higher throughput
+then<00:01:00.600><c> the</c><00:01:00.719><c> latency</c><00:01:01.160><c> of</c><00:01:01.239><c> a</c><00:01:01.399><c> single</c><00:01:01.800><c> server</c>
+
+00:01:02.270 --> 00:01:02.280 align:start position:0%
+then the latency of a single server
+ 
+
+00:01:02.280 --> 00:01:05.480 align:start position:0%
+then the latency of a single server
+would<00:01:02.519><c> indicate</c>
+

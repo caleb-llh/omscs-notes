@@ -1,0 +1,196 @@
+1
+00:00:00,490 --> 00:00:03,270
+ Now I want you to translate the level synchronous breadth-first
+
+2
+00:00:03,270 --> 00:00:06,300
+ search algorithm into the language of matrices.
+
+3
+00:00:06,300 --> 00:00:09,380
+ Consider some unvisited vertex, i.
+
+4
+00:00:09,380 --> 00:00:14,040
+ As the BFS is running, there's some frontier of vertices at level l.
+
+5
+00:00:14,040 --> 00:00:19,930
+ You should ask yourself, self, is there any edge from the frontier to I?
+
+6
+00:00:19,930 --> 00:00:23,130
+ Because if so, then I should update i's distance.
+
+7
+00:00:23,130 --> 00:00:25,740
+ By the way, if you're actually asking yourself this question,
+
+8
+00:00:25,740 --> 00:00:27,238
+ you should be worried.
+
+9
+00:00:27,238 --> 00:00:30,950
+ Only crazy people talk to themselves about BFS late at night while sitting in
+
+10
+00:00:30,950 --> 00:00:33,790
+ bed or otherwise staring at a screen.
+
+11
+00:00:33,790 --> 00:00:37,490
+ Now remember, if there's any edge from vertex j to vertex i,
+
+12
+00:00:37,490 --> 00:00:41,490
+ then there'll be an entry of 1 in the adjacency matrix, a ji.
+
+13
+00:00:41,490 --> 00:00:42,910
+ That is, think of it this way.
+
+14
+00:00:42,910 --> 00:00:45,160
+ Consider a column i of A.
+
+15
+00:00:45,160 --> 00:00:48,130
+ Also consider the frontier at level l.
+
+16
+00:00:48,130 --> 00:00:52,330
+ Here I'm showing the frontier as a boolean vector with 1 entries wherever
+
+17
+00:00:52,330 --> 00:00:54,510
+ there's a vertex from the frontier.
+
+18
+00:00:54,510 --> 00:00:57,290
+ Otherwise, assume an entry is zero or blank.
+
+19
+00:00:57,290 --> 00:01:01,340
+ The question was, is there any frontier vertex that points to i?
+
+20
+00:01:01,340 --> 00:01:06,110
+ That's the same as asking whether column i has a 1 in its corresponding entries.
+
+21
+00:01:06,110 --> 00:01:09,260
+ If that's the case, then you might want to record this fact.
+
+22
+00:01:09,260 --> 00:01:13,230
+ For instance, here's another boolean vector, call it u for update.
+
+23
+00:01:13,230 --> 00:01:15,660
+ You might mark position i of this vector as true,
+
+24
+00:01:15,660 --> 00:01:19,910
+ if any of these frontier entries of column i are also true.
+
+25
+00:01:19,910 --> 00:01:23,410
+ Now this check you've just done can be written algebraically as follows.
+
+26
+00:01:23,410 --> 00:01:29,060
+ You want to update i if any vertex j is in the frontier and points to i.
+
+27
+00:01:29,060 --> 00:01:33,480
+ This V is a logical or operator, and this caret is a logical and.
+
+28
+00:01:33,480 --> 00:01:38,100
+ I hope you recognize this scalar formula as a boolean matrix vector product.
+
+29
+00:01:38,100 --> 00:01:41,130
+ Now, being the crazy person who talks to yourself that you are,
+
+30
+00:01:41,130 --> 00:01:43,980
+ you might be saying, self, hold on now.
+
+31
+00:01:43,980 --> 00:01:48,160
+ There might be n vertices to update and up to n entries per vertex.
+
+32
+00:01:48,160 --> 00:01:51,360
+ So does this thing cost O(n squared) per level?
+
+33
+00:01:51,360 --> 00:01:54,850
+ If you implement this correctly, that won't be the case.
+
+34
+00:01:54,850 --> 00:01:59,570
+ In particular, for a sparse graph, meaning many of the entries are zero,
+
+35
+00:01:59,570 --> 00:02:01,850
+ you can maintain both the adjacency matrix and
+
+36
+00:02:01,850 --> 00:02:04,960
+ the frontier vertices with sparse data structures.
+
+37
+00:02:04,960 --> 00:02:09,860
+ This makes this product a sparse matrix times a sparse vector multiply.
+
+38
+00:02:09,860 --> 00:02:13,350
+ If you feel so inclined, you should head to the downloadable section and
+
+39
+00:02:13,350 --> 00:02:15,580
+ read up on exactly how to do this.
+
+40
+00:02:15,580 --> 00:02:17,620
+ If you implement this operation as described there,
+
+41
+00:02:17,620 --> 00:02:22,040
+ you can get a work optimal matrix based implementation of BFS.
+
+42
+00:02:22,040 --> 00:02:23,510
+ Now there's just one last detail,
+
+43
+00:02:23,510 --> 00:02:27,940
+ which is, how to go from the update vector to the updated distances.
+
+44
+00:02:27,940 --> 00:02:31,550
+ >From the update vector you can figure out which entries are unvisited.
+
+45
+00:02:31,550 --> 00:02:34,880
+ You would then update their distances and put them into the frontier for
+
+46
+00:02:34,880 --> 00:02:36,590
+ the next iteration.
+
+47
+00:02:36,590 --> 00:02:40,610
+ Again, exploiting sparsity, this update can be done in work proportional
+
+48
+00:02:40,610 --> 00:02:42,630
+ only to the selected vertices.
+
+49
+00:02:42,630 --> 00:02:42,630
+ Those notes in the downloadable section explain how.
+

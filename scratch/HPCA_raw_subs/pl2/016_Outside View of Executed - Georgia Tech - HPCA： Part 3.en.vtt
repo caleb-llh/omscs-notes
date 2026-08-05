@@ -1,0 +1,336 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:02.030 align:start position:0%
+ 
+so<00:00:00.480><c> let's</c><00:00:00.930><c> consider</c><00:00:01.110><c> the</c><00:00:01.410><c> example</c><00:00:01.620><c> of</c><00:00:01.860><c> this</c>
+
+00:00:02.030 --> 00:00:02.040 align:start position:0%
+so let's consider the example of this
+ 
+
+00:00:02.040 --> 00:00:04.039 align:start position:0%
+so let's consider the example of this
+program<00:00:02.490><c> here</c><00:00:02.820><c> where</c><00:00:03.000><c> we</c><00:00:03.179><c> do</c><00:00:03.300><c> an</c><00:00:03.419><c> ad</c><00:00:03.600><c> and</c><00:00:03.929><c> then</c>
+
+00:00:04.039 --> 00:00:04.049 align:start position:0%
+program here where we do an ad and then
+ 
+
+00:00:04.049 --> 00:00:05.420 align:start position:0%
+program here where we do an ad and then
+we<00:00:04.170><c> should</c><00:00:04.230><c> branch</c><00:00:04.589><c> to</c><00:00:04.799><c> the</c><00:00:04.830><c> label</c><00:00:05.190><c> but</c>
+
+00:00:05.420 --> 00:00:05.430 align:start position:0%
+we should branch to the label but
+ 
+
+00:00:05.430 --> 00:00:07.309 align:start position:0%
+we should branch to the label but
+instead<00:00:06.150><c> we</c><00:00:06.330><c> mispredicted</c><00:00:06.899><c> and</c><00:00:07.049><c> go</c><00:00:07.140><c> to</c><00:00:07.200><c> a</c>
+
+00:00:07.309 --> 00:00:07.319 align:start position:0%
+instead we mispredicted and go to a
+ 
+
+00:00:07.319 --> 00:00:08.600 align:start position:0%
+instead we mispredicted and go to a
+divide<00:00:07.680><c> and</c><00:00:08.010><c> we</c><00:00:08.040><c> really</c><00:00:08.340><c> should</c><00:00:08.490><c> have</c>
+
+00:00:08.600 --> 00:00:08.610 align:start position:0%
+divide and we really should have
+ 
+
+00:00:08.610 --> 00:00:10.610 align:start position:0%
+divide and we really should have
+executed<00:00:08.880><c> this</c><00:00:09.240><c> multiply</c><00:00:09.780><c> as</c><00:00:10.139><c> far</c><00:00:10.380><c> as</c><00:00:10.500><c> the</c>
+
+00:00:10.610 --> 00:00:10.620 align:start position:0%
+executed this multiply as far as the
+ 
+
+00:00:10.620 --> 00:00:12.440 align:start position:0%
+executed this multiply as far as the
+processor<00:00:11.160><c> is</c><00:00:11.309><c> concerned</c><00:00:11.460><c> it</c><00:00:12.059><c> could</c><00:00:12.300><c> look</c>
+
+00:00:12.440 --> 00:00:12.450 align:start position:0%
+processor is concerned it could look
+ 
+
+00:00:12.450 --> 00:00:15.079 align:start position:0%
+processor is concerned it could look
+like<00:00:12.509><c> we</c><00:00:12.990><c> first</c><00:00:13.290><c> did</c><00:00:13.469><c> this</c><00:00:13.710><c> then</c><00:00:14.490><c> we</c><00:00:14.700><c> did</c><00:00:14.880><c> this</c>
+
+00:00:15.079 --> 00:00:15.089 align:start position:0%
+like we first did this then we did this
+ 
+
+00:00:15.089 --> 00:00:17.930 align:start position:0%
+like we first did this then we did this
+then<00:00:15.420><c> we</c><00:00:16.350><c> finally</c><00:00:16.830><c> did</c><00:00:17.039><c> this</c><00:00:17.250><c> resolve</c><00:00:17.820><c> the</c>
+
+00:00:17.930 --> 00:00:17.940 align:start position:0%
+then we finally did this resolve the
+ 
+
+00:00:17.940 --> 00:00:21.349 align:start position:0%
+then we finally did this resolve the
+branch<00:00:18.240><c> undone</c><00:00:19.050><c> this</c><00:00:19.289><c> done</c><00:00:19.949><c> this</c><00:00:20.220><c> so</c><00:00:20.939><c> at</c><00:00:21.150><c> some</c>
+
+00:00:21.349 --> 00:00:21.359 align:start position:0%
+branch undone this done this so at some
+ 
+
+00:00:21.359 --> 00:00:25.099 align:start position:0%
+branch undone this done this so at some
+given<00:00:21.960><c> point</c><00:00:21.990><c> in</c><00:00:22.410><c> time</c><00:00:22.609><c> the</c><00:00:23.609><c> processor</c><00:00:24.300><c> sees</c>
+
+00:00:25.099 --> 00:00:25.109 align:start position:0%
+given point in time the processor sees
+ 
+
+00:00:25.109 --> 00:00:28.070 align:start position:0%
+given point in time the processor sees
+maybe<00:00:25.380><c> this</c><00:00:26.189><c> is</c><00:00:26.490><c> fully</c><00:00:26.910><c> executed</c><00:00:27.570><c> but</c><00:00:27.900><c> not</c>
+
+00:00:28.070 --> 00:00:28.080 align:start position:0%
+maybe this is fully executed but not
+ 
+
+00:00:28.080 --> 00:00:30.380 align:start position:0%
+maybe this is fully executed but not
+committed<00:00:28.590><c> at</c><00:00:28.800><c> that</c><00:00:29.310><c> same</c><00:00:29.580><c> point</c><00:00:29.910><c> in</c><00:00:30.179><c> time</c>
+
+00:00:30.380 --> 00:00:30.390 align:start position:0%
+committed at that same point in time
+ 
+
+00:00:30.390 --> 00:00:32.450 align:start position:0%
+committed at that same point in time
+only<00:00:30.750><c> this</c><00:00:31.260><c> instruction</c><00:00:31.830><c> is</c><00:00:31.890><c> percepts</c>
+
+00:00:32.450 --> 00:00:32.460 align:start position:0%
+only this instruction is percepts
+ 
+
+00:00:32.460 --> 00:00:34.280 align:start position:0%
+only this instruction is percepts
+committed<00:00:33.000><c> so</c><00:00:33.180><c> the</c><00:00:33.300><c> programmer</c><00:00:33.809><c> sees</c><00:00:34.050><c> just</c>
+
+00:00:34.280 --> 00:00:34.290 align:start position:0%
+committed so the programmer sees just
+ 
+
+00:00:34.290 --> 00:00:36.200 align:start position:0%
+committed so the programmer sees just
+this<00:00:34.500><c> is</c><00:00:34.680><c> done</c><00:00:34.920><c> if</c><00:00:35.219><c> the</c><00:00:35.489><c> program</c><00:00:35.880><c> finishes</c>
+
+00:00:36.200 --> 00:00:36.210 align:start position:0%
+this is done if the program finishes
+ 
+
+00:00:36.210 --> 00:00:38.209 align:start position:0%
+this is done if the program finishes
+this<00:00:36.540><c> until</c><00:00:37.140><c> the</c><00:00:37.260><c> processor</c><00:00:37.590><c> finishes</c><00:00:38.040><c> this</c>
+
+00:00:38.209 --> 00:00:38.219 align:start position:0%
+this until the processor finishes this
+ 
+
+00:00:38.219 --> 00:00:40.160 align:start position:0%
+this until the processor finishes this
+here<00:00:38.640><c> the</c><00:00:39.030><c> programmer</c><00:00:39.480><c> is</c><00:00:39.510><c> not</c><00:00:39.750><c> gonna</c><00:00:39.930><c> see</c>
+
+00:00:40.160 --> 00:00:40.170 align:start position:0%
+here the programmer is not gonna see
+ 
+
+00:00:40.170 --> 00:00:42.049 align:start position:0%
+here the programmer is not gonna see
+that<00:00:40.379><c> as</c><00:00:40.530><c> executed</c><00:00:41.129><c> so</c><00:00:41.280><c> the</c><00:00:41.399><c> programmer</c><00:00:41.820><c> never</c>
+
+00:00:42.049 --> 00:00:42.059 align:start position:0%
+that as executed so the programmer never
+ 
+
+00:00:42.059 --> 00:00:43.700 align:start position:0%
+that as executed so the programmer never
+really<00:00:42.420><c> sees</c><00:00:42.629><c> for</c><00:00:42.899><c> example</c><00:00:43.260><c> this</c><00:00:43.410><c> divide</c>
+
+00:00:43.700 --> 00:00:43.710 align:start position:0%
+really sees for example this divide
+ 
+
+00:00:43.710 --> 00:00:46.040 align:start position:0%
+really sees for example this divide
+because<00:00:44.129><c> by</c><00:00:44.340><c> the</c><00:00:44.399><c> time</c><00:00:44.579><c> the</c><00:00:45.239><c> programmer</c><00:00:45.780><c> sees</c>
+
+00:00:46.040 --> 00:00:46.050 align:start position:0%
+because by the time the programmer sees
+ 
+
+00:00:46.050 --> 00:00:48.470 align:start position:0%
+because by the time the programmer sees
+something<00:00:46.590><c> after</c><00:00:47.039><c> the</c><00:00:47.190><c> branch</c><00:00:47.430><c> executes</c><00:00:47.700><c> the</c>
+
+00:00:48.470 --> 00:00:48.480 align:start position:0%
+something after the branch executes the
+ 
+
+00:00:48.480 --> 00:00:50.810 align:start position:0%
+something after the branch executes the
+branch<00:00:48.809><c> completes</c><00:00:49.320><c> execution</c><00:00:49.500><c> and</c><00:00:50.250><c> at</c><00:00:50.640><c> that</c>
+
+00:00:50.810 --> 00:00:50.820 align:start position:0%
+branch completes execution and at that
+ 
+
+00:00:50.820 --> 00:00:53.299 align:start position:0%
+branch completes execution and at that
+point<00:00:51.090><c> we</c><00:00:51.360><c> kill</c><00:00:51.629><c> the</c><00:00:51.870><c> divide</c><00:00:52.199><c> we</c><00:00:52.890><c> remove</c><00:00:53.190><c> it</c>
+
+00:00:53.299 --> 00:00:53.309 align:start position:0%
+point we kill the divide we remove it
+ 
+
+00:00:53.309 --> 00:00:55.189 align:start position:0%
+point we kill the divide we remove it
+from<00:00:53.430><c> the</c><00:00:53.610><c> rope</c><00:00:53.789><c> so</c><00:00:54.090><c> the</c><00:00:54.210><c> programmer</c><00:00:54.719><c> will</c>
+
+00:00:55.189 --> 00:00:55.199 align:start position:0%
+from the rope so the programmer will
+ 
+
+00:00:55.199 --> 00:00:58.010 align:start position:0%
+from the rope so the programmer will
+finally<00:00:55.770><c> see</c><00:00:55.980><c> the</c><00:00:56.129><c> branch</c><00:00:56.370><c> execute</c><00:00:56.969><c> but</c><00:00:57.390><c> after</c>
+
+00:00:58.010 --> 00:00:58.020 align:start position:0%
+finally see the branch execute but after
+ 
+
+00:00:58.020 --> 00:01:00.200 align:start position:0%
+finally see the branch execute but after
+that<00:00:58.230><c> the</c><00:00:59.100><c> processor</c><00:00:59.609><c> will</c><00:00:59.789><c> start</c><00:01:00.030><c> fetching</c>
+
+00:01:00.200 --> 00:01:00.210 align:start position:0%
+that the processor will start fetching
+ 
+
+00:01:00.210 --> 00:01:01.610 align:start position:0%
+that the processor will start fetching
+from<00:01:00.539><c> here</c><00:01:00.840><c> so</c><00:01:01.020><c> the</c><00:01:01.140><c> next</c><00:01:01.320><c> thing</c><00:01:01.530><c> the</c>
+
+00:01:01.610 --> 00:01:01.620 align:start position:0%
+from here so the next thing the
+ 
+
+00:01:01.620 --> 00:01:02.810 align:start position:0%
+from here so the next thing the
+programmer<00:01:02.039><c> sees</c><00:01:02.250><c> is</c><00:01:02.399><c> this</c><00:01:02.550><c> so</c><00:01:02.730><c> the</c>
+
+00:01:02.810 --> 00:01:02.820 align:start position:0%
+programmer sees is this so the
+ 
+
+00:01:02.820 --> 00:01:04.910 align:start position:0%
+programmer sees is this so the
+programmer<00:01:03.270><c> never</c><00:01:03.539><c> really</c><00:01:03.899><c> sees</c><00:01:04.140><c> execution</c>
+
+00:01:04.910 --> 00:01:04.920 align:start position:0%
+programmer never really sees execution
+ 
+
+00:01:04.920 --> 00:01:07.370 align:start position:0%
+programmer never really sees execution
+of<00:01:05.189><c> any</c><00:01:05.460><c> wrong</c><00:01:05.729><c> path</c><00:01:05.970><c> instructions</c><00:01:06.659><c> and</c><00:01:06.840><c> on</c>
+
+00:01:07.370 --> 00:01:07.380 align:start position:0%
+of any wrong path instructions and on
+ 
+
+00:01:07.380 --> 00:01:09.920 align:start position:0%
+of any wrong path instructions and on
+exceptions<00:01:08.010><c> the</c><00:01:08.760><c> programmer</c><00:01:09.150><c> never</c><00:01:09.420><c> sees</c><00:01:09.689><c> and</c>
+
+00:01:09.920 --> 00:01:09.930 align:start position:0%
+exceptions the programmer never sees and
+ 
+
+00:01:09.930 --> 00:01:11.240 align:start position:0%
+exceptions the programmer never sees and
+instructions<00:01:10.439><c> other</c><00:01:10.650><c> than</c><00:01:10.890><c> those</c><00:01:11.040><c> that</c>
+
+00:01:11.240 --> 00:01:11.250 align:start position:0%
+instructions other than those that
+ 
+
+00:01:11.250 --> 00:01:13.070 align:start position:0%
+instructions other than those that
+should<00:01:11.460><c> have</c><00:01:11.670><c> been</c><00:01:11.820><c> executed</c><00:01:12.420><c> so</c><00:01:12.600><c> basically</c>
+
+00:01:13.070 --> 00:01:13.080 align:start position:0%
+should have been executed so basically
+ 
+
+00:01:13.080 --> 00:01:15.429 align:start position:0%
+should have been executed so basically
+this<00:01:13.830><c> commit</c><00:01:14.310><c> is</c><00:01:14.610><c> really</c><00:01:14.939><c> kind</c><00:01:15.150><c> of</c><00:01:15.180><c> the</c>
+
+00:01:15.429 --> 00:01:15.439 align:start position:0%
+this commit is really kind of the
+ 
+
+00:01:15.439 --> 00:01:18.170 align:start position:0%
+this commit is really kind of the
+officially<00:01:16.439><c> executed</c><00:01:17.130><c> whereas</c><00:01:17.549><c> the</c><00:01:17.700><c> actual</c>
+
+00:01:18.170 --> 00:01:18.180 align:start position:0%
+officially executed whereas the actual
+ 
+
+00:01:18.180 --> 00:01:20.120 align:start position:0%
+officially executed whereas the actual
+execution<00:01:18.570><c> before</c><00:01:19.020><c> we</c><00:01:19.320><c> broadcast</c><00:01:19.710><c> the</c><00:01:19.799><c> result</c>
+
+00:01:20.120 --> 00:01:20.130 align:start position:0%
+execution before we broadcast the result
+ 
+
+00:01:20.130 --> 00:01:21.830 align:start position:0%
+execution before we broadcast the result
+is<00:01:20.280><c> simply</c><00:01:20.640><c> kind</c><00:01:20.759><c> of</c><00:01:20.850><c> the</c><00:01:21.000><c> internal</c><00:01:21.479><c> state</c><00:01:21.659><c> of</c>
+
+00:01:21.830 --> 00:01:21.840 align:start position:0%
+is simply kind of the internal state of
+ 
+
+00:01:21.840 --> 00:01:23.450 align:start position:0%
+is simply kind of the internal state of
+the<00:01:21.930><c> processor</c><00:01:22.470><c> that</c><00:01:22.500><c> is</c><00:01:22.799><c> maybe</c><00:01:23.130><c> not</c>
+
+00:01:23.450 --> 00:01:23.460 align:start position:0%
+the processor that is maybe not
+ 
+
+00:01:23.460 --> 00:01:25.880 align:start position:0%
+the processor that is maybe not
+reflected<00:01:24.030><c> to</c><00:01:24.180><c> the</c><00:01:24.210><c> outside</c><00:01:24.630><c> world</c><00:01:24.780><c> until</c><00:01:25.619><c> we</c>
+
+00:01:25.880 --> 00:01:25.890 align:start position:0%
+reflected to the outside world until we
+ 
+
+00:01:25.890 --> 00:01:27.800 align:start position:0%
+reflected to the outside world until we
+are<00:01:26.340><c> sure</c><00:01:26.549><c> that</c><00:01:26.580><c> everything</c><00:01:27.180><c> is</c><00:01:27.299><c> fine</c><00:01:27.540><c> with</c>
+
+00:01:27.800 --> 00:01:27.810 align:start position:0%
+are sure that everything is fine with
+ 
+
+00:01:27.810 --> 00:01:30.229 align:start position:0%
+are sure that everything is fine with
+the<00:01:27.900><c> result</c>
+

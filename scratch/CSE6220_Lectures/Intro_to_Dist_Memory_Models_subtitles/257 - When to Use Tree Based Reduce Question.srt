@@ -1,0 +1,28 @@
+1
+00:00:00,680 --> 00:00:04,330
+ Recall the tree based reduction where its dual or broadcast.
+
+2
+00:00:04,330 --> 00:00:06,830
+ Now, even though, it doesn't attain the lower bound on end,
+
+3
+00:00:06,830 --> 00:00:08,920
+ it doesn't mean it's no good.
+
+4
+00:00:08,920 --> 00:00:09,480
+ So, even though,
+
+5
+00:00:09,480 --> 00:00:14,770
+ this term depends on log p, it doesn't mean that it's a terrible algorithm.
+
+6
+00:00:14,770 --> 00:00:19,360
+ The question is, under what condition, is it still a reasonable algorithm?
+
+7
+00:00:19,360 --> 00:00:19,360
+ So I've listed a bunch of choices here, and I want you to check all that apply.
+

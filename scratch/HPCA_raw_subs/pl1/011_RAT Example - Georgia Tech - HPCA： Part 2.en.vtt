@@ -1,0 +1,816 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.640 --> 00:00:02.430 align:start position:0%
+ 
+okay<00:00:00.760><c> so</c><00:00:00.960><c> this</c><00:00:01.079><c> is</c><00:00:01.240><c> what</c><00:00:01.400><c> a</c><00:00:01.640><c> rat</c><00:00:01.920><c> looks</c><00:00:02.200><c> like</c>
+
+00:00:02.430 --> 00:00:02.440 align:start position:0%
+okay so this is what a rat looks like
+ 
+
+00:00:02.440 --> 00:00:04.630 align:start position:0%
+okay so this is what a rat looks like
+it's<00:00:02.560><c> a</c><00:00:02.800><c> table</c><00:00:03.800><c> where</c><00:00:04.040><c> for</c><00:00:04.279><c> each</c>
+
+00:00:04.630 --> 00:00:04.640 align:start position:0%
+it's a table where for each
+ 
+
+00:00:04.640 --> 00:00:07.070 align:start position:0%
+it's a table where for each
+architectural<00:00:05.279><c> register</c><00:00:06.240><c> for</c><00:00:06.440><c> example</c><00:00:06.799><c> for</c>
+
+00:00:07.070 --> 00:00:07.080 align:start position:0%
+architectural register for example for
+ 
+
+00:00:07.080 --> 00:00:10.669 align:start position:0%
+architectural register for example for
+r0<00:00:08.040><c> it</c><00:00:08.160><c> will</c><00:00:08.400><c> say</c><00:00:09.320><c> where</c><00:00:09.519><c> do</c><00:00:09.719><c> we</c><00:00:09.880><c> keep</c><00:00:10.080><c> r0</c>
+
+00:00:10.669 --> 00:00:10.679 align:start position:0%
+r0 it will say where do we keep r0
+ 
+
+00:00:10.679 --> 00:00:12.990 align:start position:0%
+r0 it will say where do we keep r0
+currently<00:00:11.599><c> then</c><00:00:11.759><c> for</c><00:00:11.960><c> R1</c><00:00:12.400><c> there</c><00:00:12.480><c> is</c><00:00:12.639><c> another</c>
+
+00:00:12.990 --> 00:00:13.000 align:start position:0%
+currently then for R1 there is another
+ 
+
+00:00:13.000 --> 00:00:15.390 align:start position:0%
+currently then for R1 there is another
+entry<00:00:13.400><c> and</c><00:00:13.519><c> so</c><00:00:13.679><c> on</c><00:00:13.880><c> so</c><00:00:14.240><c> so</c><00:00:14.599><c> this</c><00:00:14.799><c> table</c><00:00:15.160><c> really</c>
+
+00:00:15.390 --> 00:00:15.400 align:start position:0%
+entry and so on so so this table really
+ 
+
+00:00:15.400 --> 00:00:18.150 align:start position:0%
+entry and so on so so this table really
+just<00:00:15.559><c> stores</c><00:00:16.000><c> where</c><00:00:16.240><c> things</c><00:00:16.680><c> are</c><00:00:17.680><c> this</c><00:00:17.920><c> is</c>
+
+00:00:18.150 --> 00:00:18.160 align:start position:0%
+just stores where things are this is
+ 
+
+00:00:18.160 --> 00:00:20.390 align:start position:0%
+just stores where things are this is
+just<00:00:18.359><c> for</c><00:00:18.560><c> our</c><00:00:18.960><c> convenience</c><00:00:19.960><c> you</c><00:00:20.080><c> know</c><00:00:20.240><c> we</c>
+
+00:00:20.390 --> 00:00:20.400 align:start position:0%
+just for our convenience you know we
+ 
+
+00:00:20.400 --> 00:00:22.070 align:start position:0%
+just for our convenience you know we
+kind<00:00:20.519><c> of</c><00:00:20.640><c> Number</c><00:00:21.000><c> the</c><00:00:21.119><c> entries</c><00:00:21.519><c> but</c><00:00:21.680><c> basically</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+kind of Number the entries but basically
+ 
+
+00:00:22.080 --> 00:00:23.509 align:start position:0%
+kind of Number the entries but basically
+doesn't<00:00:22.279><c> need</c><00:00:22.400><c> to</c><00:00:22.519><c> store</c><00:00:22.840><c> this</c><00:00:23.000><c> zero</c><00:00:23.359><c> here</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+doesn't need to store this zero here
+ 
+
+00:00:23.519 --> 00:00:25.670 align:start position:0%
+doesn't need to store this zero here
+it's<00:00:23.680><c> simply</c><00:00:24.039><c> that</c><00:00:24.400><c> the</c><00:00:24.560><c> entry</c><00:00:24.920><c> number</c><00:00:25.240><c> Z</c><00:00:25.560><c> is</c>
+
+00:00:25.670 --> 00:00:25.680 align:start position:0%
+it's simply that the entry number Z is
+ 
+
+00:00:25.680 --> 00:00:28.470 align:start position:0%
+it's simply that the entry number Z is
+for<00:00:25.880><c> r0</c><00:00:26.480><c> the</c><00:00:26.599><c> entry</c><00:00:26.920><c> number</c><00:00:27.160><c> one</c><00:00:27.400><c> is</c><00:00:27.519><c> for</c><00:00:27.720><c> R1</c>
+
+00:00:28.470 --> 00:00:28.480 align:start position:0%
+for r0 the entry number one is for R1
+ 
+
+00:00:28.480 --> 00:00:31.710 align:start position:0%
+for r0 the entry number one is for R1
+Etc<00:00:29.480><c> so</c><00:00:29.679><c> now</c><00:00:30.039><c> will</c><00:00:30.240><c> have</c><00:00:30.359><c> some</c><00:00:30.720><c> instructions</c>
+
+00:00:31.710 --> 00:00:31.720 align:start position:0%
+Etc so now will have some instructions
+ 
+
+00:00:31.720 --> 00:00:32.910 align:start position:0%
+Etc so now will have some instructions
+let's<00:00:31.960><c> first</c><00:00:32.160><c> look</c><00:00:32.320><c> at</c><00:00:32.480><c> this</c><00:00:32.680><c> first</c>
+
+00:00:32.910 --> 00:00:32.920 align:start position:0%
+let's first look at this first
+ 
+
+00:00:32.920 --> 00:00:34.190 align:start position:0%
+let's first look at this first
+instruction<00:00:33.360><c> so</c><00:00:33.480><c> let's</c><00:00:33.640><c> say</c><00:00:33.760><c> the</c><00:00:33.879><c> processer</c>
+
+00:00:34.190 --> 00:00:34.200 align:start position:0%
+instruction so let's say the processer
+ 
+
+00:00:34.200 --> 00:00:36.069 align:start position:0%
+instruction so let's say the processer
+is<00:00:34.280><c> fetching</c><00:00:34.640><c> this</c><00:00:34.800><c> instruction</c><00:00:35.760><c> what</c><00:00:35.879><c> it</c>
+
+00:00:36.069 --> 00:00:36.079 align:start position:0%
+is fetching this instruction what it
+ 
+
+00:00:36.079 --> 00:00:39.590 align:start position:0%
+is fetching this instruction what it
+does<00:00:36.480><c> is</c><00:00:36.640><c> for</c><00:00:37.000><c> all</c><00:00:37.239><c> the</c><00:00:37.440><c> registers</c><00:00:38.440><c> that</c><00:00:39.440><c> this</c>
+
+00:00:39.590 --> 00:00:39.600 align:start position:0%
+does is for all the registers that this
+ 
+
+00:00:39.600 --> 00:00:41.590 align:start position:0%
+does is for all the registers that this
+instruction<00:00:40.000><c> needs</c><00:00:40.239><c> to</c><00:00:40.399><c> read</c><00:00:40.920><c> it</c><00:00:41.079><c> looks</c><00:00:41.399><c> in</c>
+
+00:00:41.590 --> 00:00:41.600 align:start position:0%
+instruction needs to read it looks in
+ 
+
+00:00:41.600 --> 00:00:43.670 align:start position:0%
+instruction needs to read it looks in
+the<00:00:41.800><c> rat</c><00:00:42.440><c> where</c><00:00:42.760><c> those</c><00:00:42.960><c> register</c><00:00:43.440><c> can</c>
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+the rat where those register can
+ 
+
+00:00:43.680 --> 00:00:46.950 align:start position:0%
+the rat where those register can
+currently<00:00:44.160><c> be</c><00:00:44.320><c> found</c><00:00:45.280><c> let's</c><00:00:45.520><c> say</c><00:00:45.800><c> that</c><00:00:46.079><c> for</c><00:00:46.280><c> R2</c>
+
+00:00:46.950 --> 00:00:46.960 align:start position:0%
+currently be found let's say that for R2
+ 
+
+00:00:46.960 --> 00:00:49.069 align:start position:0%
+currently be found let's say that for R2
+this<00:00:47.079><c> is</c><00:00:47.239><c> just</c><00:00:47.360><c> saying</c><00:00:47.719><c> P2</c><00:00:48.160><c> for</c><00:00:48.360><c> now</c><00:00:48.760><c> so</c><00:00:48.960><c> this</c>
+
+00:00:49.069 --> 00:00:49.079 align:start position:0%
+this is just saying P2 for now so this
+ 
+
+00:00:49.079 --> 00:00:51.029 align:start position:0%
+this is just saying P2 for now so this
+is<00:00:49.239><c> physical</c><00:00:49.640><c> register</c><00:00:50.039><c> 2</c><00:00:50.360><c> which</c><00:00:50.520><c> corresponds</c>
+
+00:00:51.029 --> 00:00:51.039 align:start position:0%
+is physical register 2 which corresponds
+ 
+
+00:00:51.039 --> 00:00:53.430 align:start position:0%
+is physical register 2 which corresponds
+to<00:00:51.239><c> R2</c><00:00:51.719><c> initially</c><00:00:52.520><c> and</c><00:00:52.680><c> let's</c><00:00:52.879><c> say</c><00:00:53.120><c> that</c><00:00:53.239><c> it's</c>
+
+00:00:53.430 --> 00:00:53.440 align:start position:0%
+to R2 initially and let's say that it's
+ 
+
+00:00:53.440 --> 00:00:55.790 align:start position:0%
+to R2 initially and let's say that it's
+P3<00:00:53.960><c> here</c><00:00:54.280><c> in</c><00:00:54.480><c> fact</c><00:00:54.760><c> let's</c><00:00:54.960><c> say</c><00:00:55.199><c> that</c><00:00:55.480><c> all</c><00:00:55.640><c> of</c>
+
+00:00:55.790 --> 00:00:55.800 align:start position:0%
+P3 here in fact let's say that all of
+ 
+
+00:00:55.800 --> 00:00:59.150 align:start position:0%
+P3 here in fact let's say that all of
+them<00:00:55.960><c> are</c><00:00:56.239><c> just</c><00:00:56.520><c> like</c><00:00:56.920><c> this</c><00:00:57.920><c> so</c><00:00:58.280><c> what</c><00:00:58.960><c> the</c>
+
+00:00:59.150 --> 00:00:59.160 align:start position:0%
+them are just like this so what the
+ 
+
+00:00:59.160 --> 00:01:01.750 align:start position:0%
+them are just like this so what the
+processor<00:00:59.640><c> does</c><00:01:00.000><c> does</c><00:01:00.640><c> is</c><00:01:00.800><c> it</c><00:01:01.000><c> renames</c><00:01:01.559><c> this</c>
+
+00:01:01.750 --> 00:01:01.760 align:start position:0%
+processor does does is it renames this
+ 
+
+00:01:01.760 --> 00:01:03.869 align:start position:0%
+processor does does is it renames this
+instruction<00:01:02.239><c> so</c><00:01:02.399><c> it</c><00:01:02.519><c> fetches</c><00:01:02.920><c> it</c><00:01:03.120><c> decodes</c><00:01:03.600><c> it</c>
+
+00:01:03.869 --> 00:01:03.879 align:start position:0%
+instruction so it fetches it decodes it
+ 
+
+00:01:03.879 --> 00:01:06.070 align:start position:0%
+instruction so it fetches it decodes it
+and<00:01:04.040><c> then</c><00:01:04.239><c> rewrites</c><00:01:04.799><c> it</c><00:01:05.000><c> so</c><00:01:05.199><c> that</c><00:01:05.400><c> the</c><00:01:05.640><c> actual</c>
+
+00:01:06.070 --> 00:01:06.080 align:start position:0%
+and then rewrites it so that the actual
+ 
+
+00:01:06.080 --> 00:01:08.390 align:start position:0%
+and then rewrites it so that the actual
+operation<00:01:06.600><c> that</c><00:01:06.720><c> will</c><00:01:06.920><c> be</c><00:01:07.080><c> done</c><00:01:07.880><c> is</c><00:01:08.040><c> going</c><00:01:08.200><c> to</c>
+
+00:01:08.390 --> 00:01:08.400 align:start position:0%
+operation that will be done is going to
+ 
+
+00:01:08.400 --> 00:01:12.510 align:start position:0%
+operation that will be done is going to
+be<00:01:09.159><c> on</c><00:01:09.439><c> physical</c><00:01:09.920><c> registers</c><00:01:10.479><c> P2</c><00:01:11.040><c> and</c><00:01:11.360><c> P3</c><00:01:12.360><c> and</c>
+
+00:01:12.510 --> 00:01:12.520 align:start position:0%
+be on physical registers P2 and P3 and
+ 
+
+00:01:12.520 --> 00:01:13.870 align:start position:0%
+be on physical registers P2 and P3 and
+now<00:01:12.759><c> the</c><00:01:12.920><c> question</c><00:01:13.200><c> is</c><00:01:13.360><c> where</c><00:01:13.520><c> are</c><00:01:13.640><c> we</c><00:01:13.759><c> going</c>
+
+00:01:13.870 --> 00:01:13.880 align:start position:0%
+now the question is where are we going
+ 
+
+00:01:13.880 --> 00:01:16.510 align:start position:0%
+now the question is where are we going
+to<00:01:14.040><c> put</c><00:01:14.240><c> our</c><00:01:14.520><c> result</c><00:01:15.520><c> well</c><00:01:16.000><c> we're</c><00:01:16.200><c> going</c><00:01:16.320><c> to</c>
+
+00:01:16.510 --> 00:01:16.520 align:start position:0%
+to put our result well we're going to
+ 
+
+00:01:16.520 --> 00:01:20.630 align:start position:0%
+to put our result well we're going to
+put<00:01:16.680><c> our</c><00:01:17.080><c> result</c><00:01:18.080><c> in</c><00:01:18.400><c> a</c><00:01:18.640><c> new</c><00:01:18.920><c> place</c><00:01:19.159><c> for</c><00:01:19.400><c> R1</c><00:01:20.320><c> so</c>
+
+00:01:20.630 --> 00:01:20.640 align:start position:0%
+put our result in a new place for R1 so
+ 
+
+00:01:20.640 --> 00:01:24.429 align:start position:0%
+put our result in a new place for R1 so
+not<00:01:20.920><c> in</c><00:01:21.200><c> P1</c><00:01:22.200><c> so</c><00:01:22.360><c> we</c><00:01:22.479><c> will</c><00:01:22.680><c> change</c><00:01:23.040><c> the</c><00:01:23.240><c> rat</c><00:01:24.200><c> to</c>
+
+00:01:24.429 --> 00:01:24.439 align:start position:0%
+not in P1 so we will change the rat to
+ 
+
+00:01:24.439 --> 00:01:28.630 align:start position:0%
+not in P1 so we will change the rat to
+put<00:01:24.640><c> the</c><00:01:24.840><c> result</c><00:01:25.240><c> in</c><00:01:25.600><c> some</c><00:01:26.320><c> p17</c><00:01:27.320><c> or</c><00:01:27.640><c> whatever</c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+put the result in some p17 or whatever
+ 
+
+00:01:28.640 --> 00:01:30.789 align:start position:0%
+put the result in some p17 or whatever
+okay<00:01:28.880><c> so</c><00:01:29.079><c> now</c><00:01:29.240><c> we're</c><00:01:29.439><c> going</c><00:01:29.560><c> to</c><00:01:30.119><c> say</c><00:01:30.439><c> that</c><00:01:30.640><c> this</c>
+
+00:01:30.789 --> 00:01:30.799 align:start position:0%
+okay so now we're going to say that this
+ 
+
+00:01:30.799 --> 00:01:33.109 align:start position:0%
+okay so now we're going to say that this
+is<00:01:31.079><c> this</c><00:01:31.280><c> out</c><00:01:31.520><c> goes</c><00:01:31.720><c> to</c><00:01:31.880><c> p7</c><00:01:32.640><c> and</c><00:01:32.799><c> then</c><00:01:32.920><c> we're</c>
+
+00:01:33.109 --> 00:01:33.119 align:start position:0%
+is this out goes to p7 and then we're
+ 
+
+00:01:33.119 --> 00:01:36.950 align:start position:0%
+is this out goes to p7 and then we're
+going<00:01:33.240><c> to</c><00:01:33.399><c> use</c><00:01:33.840><c> P2</c><00:01:34.240><c> and</c><00:01:34.399><c> P3</c><00:01:34.799><c> for</c><00:01:35.479><c> the</c><00:01:35.960><c> inputs</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+going to use P2 and P3 for the inputs
+ 
+
+00:01:36.960 --> 00:01:38.469 align:start position:0%
+going to use P2 and P3 for the inputs
+let's<00:01:37.119><c> say</c><00:01:37.280><c> that</c><00:01:37.439><c> the</c><00:01:37.560><c> next</c><00:01:37.880><c> instruction</c><00:01:38.280><c> is</c>
+
+00:01:38.469 --> 00:01:38.479 align:start position:0%
+let's say that the next instruction is
+ 
+
+00:01:38.479 --> 00:01:41.510 align:start position:0%
+let's say that the next instruction is
+subtract<00:01:39.119><c> R1</c><00:01:39.840><c> and</c><00:01:40.000><c> R5</c><00:01:40.520><c> and</c><00:01:40.680><c> put</c><00:01:40.840><c> the</c><00:01:40.960><c> result</c><00:01:41.280><c> in</c>
+
+00:01:41.510 --> 00:01:41.520 align:start position:0%
+subtract R1 and R5 and put the result in
+ 
+
+00:01:41.520 --> 00:01:44.109 align:start position:0%
+subtract R1 and R5 and put the result in
+R4<00:01:42.520><c> what</c><00:01:42.640><c> the</c><00:01:42.759><c> processor</c><00:01:43.200><c> again</c><00:01:43.439><c> will</c><00:01:43.640><c> do</c><00:01:43.880><c> is</c>
+
+00:01:44.109 --> 00:01:44.119 align:start position:0%
+R4 what the processor again will do is
+ 
+
+00:01:44.119 --> 00:01:45.950 align:start position:0%
+R4 what the processor again will do is
+so<00:01:44.280><c> it</c><00:01:44.439><c> always</c><00:01:44.680><c> follows</c><00:01:45.040><c> the</c><00:01:45.159><c> same</c><00:01:45.399><c> procedure</c>
+
+00:01:45.950 --> 00:01:45.960 align:start position:0%
+so it always follows the same procedure
+ 
+
+00:01:45.960 --> 00:01:49.270 align:start position:0%
+so it always follows the same procedure
+look<00:01:46.560><c> at</c><00:01:46.759><c> the</c><00:01:46.920><c> rat</c><00:01:47.360><c> for</c><00:01:47.640><c> R1</c><00:01:48.079><c> and</c><00:01:48.240><c> R5</c><00:01:48.840><c> to</c><00:01:48.960><c> see</c>
+
+00:01:49.270 --> 00:01:49.280 align:start position:0%
+look at the rat for R1 and R5 to see
+ 
+
+00:01:49.280 --> 00:01:51.149 align:start position:0%
+look at the rat for R1 and R5 to see
+where<00:01:49.520><c> those</c><00:01:49.759><c> values</c><00:01:50.119><c> currently</c><00:01:50.560><c> are</c><00:01:51.000><c> and</c>
+
+00:01:51.149 --> 00:01:51.159 align:start position:0%
+where those values currently are and
+ 
+
+00:01:51.159 --> 00:01:53.550 align:start position:0%
+where those values currently are and
+then<00:01:51.439><c> rename</c><00:01:52.000><c> the</c><00:01:52.439><c> so</c><00:01:52.799><c> we're</c><00:01:53.000><c> going</c><00:01:53.119><c> to</c><00:01:53.320><c> look</c>
+
+00:01:53.550 --> 00:01:53.560 align:start position:0%
+then rename the so we're going to look
+ 
+
+00:01:53.560 --> 00:01:57.389 align:start position:0%
+then rename the so we're going to look
+at<00:01:53.759><c> R1</c><00:01:54.399><c> and</c><00:01:54.520><c> it</c><00:01:54.640><c> says</c><00:01:55.240><c> p7</c><00:01:56.240><c> so</c><00:01:56.520><c> this</c><00:01:56.680><c> subtract</c><00:01:57.200><c> is</c>
+
+00:01:57.389 --> 00:01:57.399 align:start position:0%
+at R1 and it says p7 so this subtract is
+ 
+
+00:01:57.399 --> 00:02:00.830 align:start position:0%
+at R1 and it says p7 so this subtract is
+renamed<00:01:58.000><c> into</c><00:01:58.920><c> read</c><00:01:59.280><c> p7</c>
+
+00:02:00.830 --> 00:02:00.840 align:start position:0%
+renamed into read p7
+ 
+
+00:02:00.840 --> 00:02:05.550 align:start position:0%
+renamed into read p7
+and<00:02:02.320><c> P5</c><00:02:03.320><c> and</c><00:02:03.680><c> put</c><00:02:03.880><c> the</c><00:02:04.079><c> result</c><00:02:04.600><c> into</c><00:02:05.159><c> a</c><00:02:05.320><c> new</c>
+
+00:02:05.550 --> 00:02:05.560 align:start position:0%
+and P5 and put the result into a new
+ 
+
+00:02:05.560 --> 00:02:07.510 align:start position:0%
+and P5 and put the result into a new
+place<00:02:05.759><c> for</c><00:02:05.960><c> R4</c><00:02:06.680><c> so</c><00:02:06.840><c> we're</c><00:02:07.000><c> going</c><00:02:07.079><c> to</c><00:02:07.240><c> change</c>
+
+00:02:07.510 --> 00:02:07.520 align:start position:0%
+place for R4 so we're going to change
+ 
+
+00:02:07.520 --> 00:02:09.949 align:start position:0%
+place for R4 so we're going to change
+the<00:02:07.680><c> r</c><00:02:08.000><c> from</c><00:02:08.239><c> now</c><00:02:08.440><c> on</c><00:02:08.920><c> to</c><00:02:09.119><c> put</c><00:02:09.280><c> the</c><00:02:09.440><c> result</c><00:02:09.759><c> in</c>
+
+00:02:09.949 --> 00:02:09.959 align:start position:0%
+the r from now on to put the result in
+ 
+
+00:02:09.959 --> 00:02:11.270 align:start position:0%
+the r from now on to put the result in
+let's<00:02:10.119><c> say</c>
+
+00:02:11.270 --> 00:02:11.280 align:start position:0%
+let's say
+ 
+
+00:02:11.280 --> 00:02:13.830 align:start position:0%
+let's say
+p8<00:02:12.280><c> okay</c><00:02:12.440><c> so</c><00:02:13.000><c> I've</c><00:02:13.160><c> added</c><00:02:13.440><c> three</c><00:02:13.599><c> more</c>
+
+00:02:13.830 --> 00:02:13.840 align:start position:0%
+p8 okay so I've added three more
+ 
+
+00:02:13.840 --> 00:02:15.869 align:start position:0%
+p8 okay so I've added three more
+instructions<00:02:14.480><c> and</c><00:02:14.640><c> now</c><00:02:14.879><c> we</c><00:02:15.000><c> can</c><00:02:15.200><c> rename</c><00:02:15.640><c> them</c>
+
+00:02:15.869 --> 00:02:15.879 align:start position:0%
+instructions and now we can rename them
+ 
+
+00:02:15.879 --> 00:02:18.430 align:start position:0%
+instructions and now we can rename them
+to<00:02:16.239><c> so</c><00:02:16.480><c> this</c><00:02:16.640><c> xor</c><00:02:17.120><c> will</c><00:02:17.280><c> be</c><00:02:17.440><c> renamed</c><00:02:18.000><c> into</c><00:02:18.239><c> an</c>
+
+00:02:18.430 --> 00:02:18.440 align:start position:0%
+to so this xor will be renamed into an
+ 
+
+00:02:18.440 --> 00:02:21.910 align:start position:0%
+to so this xor will be renamed into an
+xor<00:02:18.959><c> of</c><00:02:19.840><c> R7</c><00:02:20.440><c> and</c><00:02:20.599><c> R8</c><00:02:21.160><c> where</c><00:02:21.280><c> are</c><00:02:21.560><c> they</c><00:02:21.760><c> well</c>
+
+00:02:21.910 --> 00:02:21.920 align:start position:0%
+xor of R7 and R8 where are they well
+ 
+
+00:02:21.920 --> 00:02:24.589 align:start position:0%
+xor of R7 and R8 where are they well
+let's<00:02:22.040><c> say</c><00:02:22.200><c> they're</c><00:02:22.400><c> in</c><00:02:22.560><c> p7</c><00:02:23.120><c> and</c><00:02:23.319><c> p8</c><00:02:24.319><c> and</c><00:02:24.440><c> then</c>
+
+00:02:24.589 --> 00:02:24.599 align:start position:0%
+let's say they're in p7 and p8 and then
+ 
+
+00:02:24.599 --> 00:02:27.350 align:start position:0%
+let's say they're in p7 and p8 and then
+we're<00:02:24.760><c> going</c><00:02:24.840><c> to</c><00:02:25.000><c> write</c><00:02:25.280><c> to</c><00:02:25.440><c> R</c><00:02:25.959><c> six</c><00:02:26.959><c> we're</c><00:02:27.160><c> not</c>
+
+00:02:27.350 --> 00:02:27.360 align:start position:0%
+we're going to write to R six we're not
+ 
+
+00:02:27.360 --> 00:02:29.790 align:start position:0%
+we're going to write to R six we're not
+going<00:02:27.440><c> to</c><00:02:27.599><c> write</c><00:02:27.840><c> to</c><00:02:28.040><c> P5</c><00:02:28.680><c> that's</c><00:02:29.239><c> where</c><00:02:29.400><c> the</c><00:02:29.560><c> pr</c>
+
+00:02:29.790 --> 00:02:29.800 align:start position:0%
+going to write to P5 that's where the pr
+ 
+
+00:02:29.800 --> 00:02:32.270 align:start position:0%
+going to write to P5 that's where the pr
+previous<00:02:30.160><c> value</c><00:02:30.400><c> of</c><00:02:30.840><c> R6</c><00:02:31.519><c> is</c><00:02:31.800><c> we're</c><00:02:31.959><c> going</c><00:02:32.080><c> to</c>
+
+00:02:32.270 --> 00:02:32.280 align:start position:0%
+previous value of R6 is we're going to
+ 
+
+00:02:32.280 --> 00:02:36.070 align:start position:0%
+previous value of R6 is we're going to
+write<00:02:32.480><c> it</c><00:02:32.640><c> to</c><00:02:32.879><c> a</c><00:02:33.040><c> new</c><00:02:33.519><c> register</c><00:02:34.920><c> p19</c><00:02:35.920><c> then</c>
+
+00:02:36.070 --> 00:02:36.080 align:start position:0%
+write it to a new register p19 then
+ 
+
+00:02:36.080 --> 00:02:38.229 align:start position:0%
+write it to a new register p19 then
+we're<00:02:36.239><c> going</c><00:02:36.360><c> to</c><00:02:36.560><c> take</c><00:02:36.920><c> this</c><00:02:37.200><c> multiply</c><00:02:38.080><c> and</c>
+
+00:02:38.229 --> 00:02:38.239 align:start position:0%
+we're going to take this multiply and
+ 
+
+00:02:38.239 --> 00:02:39.949 align:start position:0%
+we're going to take this multiply and
+remember<00:02:38.760><c> you</c><00:02:38.879><c> need</c><00:02:39.040><c> to</c><00:02:39.200><c> update</c><00:02:39.519><c> the</c><00:02:39.640><c> rat</c>
+
+00:02:39.949 --> 00:02:39.959 align:start position:0%
+remember you need to update the rat
+ 
+
+00:02:39.959 --> 00:02:41.630 align:start position:0%
+remember you need to update the rat
+every<00:02:40.159><c> time</c><00:02:40.360><c> you</c><00:02:40.519><c> produce</c><00:02:40.840><c> a</c><00:02:40.959><c> new</c><00:02:41.200><c> value</c>
+
+00:02:41.630 --> 00:02:41.640 align:start position:0%
+every time you produce a new value
+ 
+
+00:02:41.640 --> 00:02:43.550 align:start position:0%
+every time you produce a new value
+because<00:02:42.080><c> that's</c><00:02:42.360><c> where</c><00:02:42.959><c> subsequent</c>
+
+00:02:43.550 --> 00:02:43.560 align:start position:0%
+because that's where subsequent
+ 
+
+00:02:43.560 --> 00:02:45.350 align:start position:0%
+because that's where subsequent
+instructions<00:02:44.000><c> will</c><00:02:44.200><c> find</c><00:02:44.640><c> the</c><00:02:44.840><c> value</c><00:02:45.120><c> for</c>
+
+00:02:45.350 --> 00:02:45.360 align:start position:0%
+instructions will find the value for
+ 
+
+00:02:45.360 --> 00:02:47.949 align:start position:0%
+instructions will find the value for
+that<00:02:45.879><c> register</c><00:02:46.680><c> so</c><00:02:46.840><c> we're</c><00:02:47.040><c> going</c><00:02:47.159><c> to</c><00:02:47.319><c> again</c><00:02:47.560><c> R8</c>
+
+00:02:47.949 --> 00:02:47.959 align:start position:0%
+that register so we're going to again R8
+ 
+
+00:02:47.959 --> 00:02:50.869 align:start position:0%
+that register so we're going to again R8
+and<00:02:48.360><c> R9</c><00:02:49.360><c> still</c><00:02:49.760><c> not</c><00:02:50.000><c> change</c><00:02:50.400><c> so</c><00:02:50.560><c> they're</c><00:02:50.760><c> going</c>
+
+00:02:50.869 --> 00:02:50.879 align:start position:0%
+and R9 still not change so they're going
+ 
+
+00:02:50.879 --> 00:02:52.790 align:start position:0%
+and R9 still not change so they're going
+to<00:02:51.000><c> be</c><00:02:51.200><c> p8</c><00:02:51.760><c> and</c>
+
+00:02:52.790 --> 00:02:52.800 align:start position:0%
+to be p8 and
+ 
+
+00:02:52.800 --> 00:02:55.790 align:start position:0%
+to be p8 and
+P9<00:02:53.800><c> the</c><00:02:53.920><c> new</c><00:02:54.159><c> value</c><00:02:54.400><c> for</c><00:02:54.640><c> R5</c><00:02:55.239><c> is</c><00:02:55.360><c> going</c><00:02:55.480><c> to</c><00:02:55.640><c> go</c>
+
+00:02:55.790 --> 00:02:55.800 align:start position:0%
+P9 the new value for R5 is going to go
+ 
+
+00:02:55.800 --> 00:02:59.750 align:start position:0%
+P9 the new value for R5 is going to go
+to<00:02:56.319><c> P20</c><00:02:57.319><c> and</c><00:02:57.480><c> then</c><00:02:57.640><c> we</c><00:02:57.800><c> have</c><00:02:58.040><c> this</c><00:02:58.280><c> add</c><00:02:59.120><c> R8</c><00:02:59.560><c> and</c>
+
+00:02:59.750 --> 00:02:59.760 align:start position:0%
+to P20 and then we have this add R8 and
+ 
+
+00:02:59.760 --> 00:03:02.869 align:start position:0%
+to P20 and then we have this add R8 and
+and<00:02:59.840><c> R9</c><00:03:00.239><c> are</c><00:03:00.440><c> still</c><00:03:00.680><c> in</c><00:03:00.879><c> p8</c><00:03:01.360><c> and</c><00:03:01.560><c> P9</c><00:03:02.519><c> the</c><00:03:02.640><c> new</c>
+
+00:03:02.869 --> 00:03:02.879 align:start position:0%
+and R9 are still in p8 and P9 the new
+ 
+
+00:03:02.879 --> 00:03:06.630 align:start position:0%
+and R9 are still in p8 and P9 the new
+value<00:03:03.159><c> of</c><00:03:03.319><c> R4</c><00:03:04.040><c> is</c><00:03:04.200><c> now</c><00:03:04.400><c> going</c><00:03:04.519><c> to</c><00:03:04.720><c> be</c><00:03:05.239><c> p21</c><00:03:06.239><c> now</c>
+
+00:03:06.630 --> 00:03:06.640 align:start position:0%
+value of R4 is now going to be p21 now
+ 
+
+00:03:06.640 --> 00:03:08.589 align:start position:0%
+value of R4 is now going to be p21 now
+this<00:03:06.760><c> is</c><00:03:06.920><c> an</c><00:03:07.120><c> already</c><00:03:07.440><c> renamed</c><00:03:08.080><c> value</c><00:03:08.440><c> so</c>
+
+00:03:08.589 --> 00:03:08.599 align:start position:0%
+this is an already renamed value so
+ 
+
+00:03:08.599 --> 00:03:11.149 align:start position:0%
+this is an already renamed value so
+we're<00:03:08.799><c> going</c><00:03:08.879><c> to</c><00:03:09.080><c> rename</c><00:03:09.440><c> it</c><00:03:09.720><c> again</c><00:03:10.120><c> and</c><00:03:10.239><c> say</c>
+
+00:03:11.149 --> 00:03:11.159 align:start position:0%
+we're going to rename it again and say
+ 
+
+00:03:11.159 --> 00:03:14.270 align:start position:0%
+we're going to rename it again and say
+p21<00:03:12.159><c> later</c><00:03:12.519><c> on</c><00:03:13.040><c> if</c><00:03:13.239><c> there</c><00:03:13.360><c> is</c><00:03:13.519><c> an</c><00:03:13.720><c> instruction</c>
+
+00:03:14.270 --> 00:03:14.280 align:start position:0%
+p21 later on if there is an instruction
+ 
+
+00:03:14.280 --> 00:03:18.229 align:start position:0%
+p21 later on if there is an instruction
+that<00:03:14.440><c> uses</c><00:03:15.120><c> R4</c><00:03:16.120><c> so</c><00:03:16.519><c> something</c><00:03:16.959><c> something</c><00:03:17.319><c> R4</c>
+
+00:03:18.229 --> 00:03:18.239 align:start position:0%
+that uses R4 so something something R4
+ 
+
+00:03:18.239 --> 00:03:21.309 align:start position:0%
+that uses R4 so something something R4
+it's<00:03:18.400><c> going</c><00:03:18.560><c> to</c><00:03:18.680><c> be</c><00:03:18.879><c> renamed</c><00:03:19.400><c> into</c><00:03:19.920><c> whatever</c>
+
+00:03:21.309 --> 00:03:21.319 align:start position:0%
+it's going to be renamed into whatever
+ 
+
+00:03:21.319 --> 00:03:24.030 align:start position:0%
+it's going to be renamed into whatever
+p21<00:03:22.319><c> so</c><00:03:22.519><c> the</c><00:03:22.680><c> trick</c><00:03:23.000><c> here</c><00:03:23.239><c> is</c><00:03:23.480><c> that</c><00:03:23.760><c> we</c><00:03:23.920><c> have</c>
+
+00:03:24.030 --> 00:03:24.040 align:start position:0%
+p21 so the trick here is that we have
+ 
+
+00:03:24.040 --> 00:03:25.990 align:start position:0%
+p21 so the trick here is that we have
+seen<00:03:24.400><c> that</c><00:03:24.640><c> this</c><00:03:24.799><c> instruction</c><00:03:25.200><c> writes</c><00:03:25.440><c> to</c><00:03:25.560><c> R4</c>
+
+00:03:25.990 --> 00:03:26.000 align:start position:0%
+seen that this instruction writes to R4
+ 
+
+00:03:26.000 --> 00:03:28.390 align:start position:0%
+seen that this instruction writes to R4
+and<00:03:26.120><c> this</c><00:03:26.239><c> one</c><00:03:26.440><c> also</c><00:03:26.640><c> writes</c><00:03:26.879><c> to</c><00:03:27.040><c> R4</c><00:03:28.040><c> so</c><00:03:28.280><c> there</c>
+
+00:03:28.390 --> 00:03:28.400 align:start position:0%
+and this one also writes to R4 so there
+ 
+
+00:03:28.400 --> 00:03:30.750 align:start position:0%
+and this one also writes to R4 so there
+is<00:03:28.599><c> a</c><00:03:28.840><c> register</c><00:03:29.239><c> name</c><00:03:29.760><c> dependence</c><00:03:30.239><c> between</c>
+
+00:03:30.750 --> 00:03:30.760 align:start position:0%
+is a register name dependence between
+ 
+
+00:03:30.760 --> 00:03:32.190 align:start position:0%
+is a register name dependence between
+these<00:03:30.959><c> two</c><00:03:31.200><c> because</c><00:03:31.439><c> they're</c><00:03:31.640><c> both</c><00:03:31.840><c> trying</c><00:03:32.080><c> to</c>
+
+00:03:32.190 --> 00:03:32.200 align:start position:0%
+these two because they're both trying to
+ 
+
+00:03:32.200 --> 00:03:34.390 align:start position:0%
+these two because they're both trying to
+write<00:03:32.360><c> to</c><00:03:32.480><c> R4</c><00:03:33.040><c> but</c><00:03:33.239><c> when</c><00:03:33.360><c> we</c><00:03:33.560><c> rename</c><00:03:34.000><c> them</c><00:03:34.239><c> this</c>
+
+00:03:34.390 --> 00:03:34.400 align:start position:0%
+write to R4 but when we rename them this
+ 
+
+00:03:34.400 --> 00:03:36.429 align:start position:0%
+write to R4 but when we rename them this
+way<00:03:34.840><c> the</c><00:03:35.080><c> dependence</c><00:03:35.519><c> is</c><00:03:35.680><c> gone</c><00:03:36.040><c> because</c><00:03:36.319><c> this</c>
+
+00:03:36.429 --> 00:03:36.439 align:start position:0%
+way the dependence is gone because this
+ 
+
+00:03:36.439 --> 00:03:40.309 align:start position:0%
+way the dependence is gone because this
+is<00:03:36.599><c> producing</c><00:03:37.319><c> p18</c><00:03:38.319><c> this</c><00:03:38.439><c> is</c><00:03:38.640><c> producing</c><00:03:39.319><c> p21</c>
+
+00:03:40.309 --> 00:03:40.319 align:start position:0%
+is producing p18 this is producing p21
+ 
+
+00:03:40.319 --> 00:03:42.229 align:start position:0%
+is producing p18 this is producing p21
+instructions<00:03:40.959><c> among</c><00:03:41.360><c> these</c><00:03:41.760><c> that</c><00:03:41.920><c> need</c><00:03:42.080><c> to</c>
+
+00:03:42.229 --> 00:03:42.239 align:start position:0%
+instructions among these that need to
+ 
+
+00:03:42.239 --> 00:03:43.910 align:start position:0%
+instructions among these that need to
+write<00:03:42.439><c> the</c><00:03:42.599><c> value</c><00:03:43.040><c> so</c><00:03:43.239><c> basically</c><00:03:43.760><c> if</c>
+
+00:03:43.910 --> 00:03:43.920 align:start position:0%
+write the value so basically if
+ 
+
+00:03:43.920 --> 00:03:46.190 align:start position:0%
+write the value so basically if
+something<00:03:44.319><c> here</c><00:03:44.519><c> was</c><00:03:44.680><c> reading</c><00:03:45.040><c> R4</c><00:03:45.840><c> it</c><00:03:45.959><c> would</c>
+
+00:03:46.190 --> 00:03:46.200 align:start position:0%
+something here was reading R4 it would
+ 
+
+00:03:46.200 --> 00:03:48.350 align:start position:0%
+something here was reading R4 it would
+get<00:03:46.400><c> the</c><00:03:46.560><c> value</c><00:03:46.879><c> p18</c><00:03:47.480><c> instead</c><00:03:47.959><c> because</c><00:03:48.159><c> it's</c>
+
+00:03:48.350 --> 00:03:48.360 align:start position:0%
+get the value p18 instead because it's
+ 
+
+00:03:48.360 --> 00:03:50.750 align:start position:0%
+get the value p18 instead because it's
+been<00:03:48.799><c> it</c><00:03:48.879><c> would</c><00:03:49.040><c> be</c><00:03:49.159><c> renamed</c><00:03:49.519><c> to</c><00:03:49.599><c> read</c><00:03:49.840><c> p8</c>
+
+00:03:50.750 --> 00:03:50.760 align:start position:0%
+been it would be renamed to read p8
+ 
+
+00:03:50.760 --> 00:03:52.789 align:start position:0%
+been it would be renamed to read p8
+anything<00:03:51.120><c> that</c><00:03:51.280><c> follows</c><00:03:51.760><c> this</c><00:03:52.000><c> instruction</c>
+
+00:03:52.789 --> 00:03:52.799 align:start position:0%
+anything that follows this instruction
+ 
+
+00:03:52.799 --> 00:03:55.350 align:start position:0%
+anything that follows this instruction
+that<00:03:53.079><c> wants</c><00:03:53.319><c> to</c><00:03:53.439><c> read</c><00:03:53.720><c> R4</c><00:03:54.560><c> would</c><00:03:54.720><c> be</c><00:03:54.879><c> renamed</c>
+
+00:03:55.350 --> 00:03:55.360 align:start position:0%
+that wants to read R4 would be renamed
+ 
+
+00:03:55.360 --> 00:03:58.110 align:start position:0%
+that wants to read R4 would be renamed
+so<00:03:55.480><c> that</c><00:03:55.599><c> it</c><00:03:55.720><c> reads</c><00:03:56.040><c> the</c><00:03:56.159><c> p21</c><00:03:56.959><c> so</c><00:03:57.200><c> simply</c><00:03:57.959><c> the</c>
+
+00:03:58.110 --> 00:03:58.120 align:start position:0%
+so that it reads the p21 so simply the
+ 
+
+00:03:58.120 --> 00:04:00.390 align:start position:0%
+so that it reads the p21 so simply the
+use<00:03:58.400><c> of</c><00:03:58.560><c> R4</c><00:03:59.159><c> as</c><00:03:59.280><c> a</c><00:03:59.439><c> name</c><00:03:59.760><c> for</c><00:03:59.959><c> the</c><00:04:00.079><c> value</c>
+
+00:04:00.390 --> 00:04:00.400 align:start position:0%
+use of R4 as a name for the value
+ 
+
+00:04:00.400 --> 00:04:02.830 align:start position:0%
+use of R4 as a name for the value
+produced<00:04:00.840><c> by</c><00:04:01.000><c> this</c><00:04:01.200><c> instruction</c><00:04:02.200><c> and</c><00:04:02.480><c> also</c>
+
+00:04:02.830 --> 00:04:02.840 align:start position:0%
+produced by this instruction and also
+ 
+
+00:04:02.840 --> 00:04:04.270 align:start position:0%
+produced by this instruction and also
+for<00:04:03.079><c> the</c><00:04:03.239><c> value</c><00:04:03.519><c> that</c><00:04:03.640><c> produced</c><00:04:04.000><c> by</c><00:04:04.159><c> this</c>
+
+00:04:04.270 --> 00:04:04.280 align:start position:0%
+for the value that produced by this
+ 
+
+00:04:04.280 --> 00:04:05.750 align:start position:0%
+for the value that produced by this
+instruction<00:04:04.720><c> is</c><00:04:04.920><c> what</c><00:04:05.079><c> was</c><00:04:05.239><c> causing</c><00:04:05.599><c> for</c>
+
+00:04:05.750 --> 00:04:05.760 align:start position:0%
+instruction is what was causing for
+ 
+
+00:04:05.760 --> 00:04:07.830 align:start position:0%
+instruction is what was causing for
+example<00:04:06.040><c> the</c><00:04:06.200><c> right</c><00:04:06.360><c> after</c><00:04:06.680><c> right</c><00:04:06.879><c> dependence</c>
+
+00:04:07.830 --> 00:04:07.840 align:start position:0%
+example the right after right dependence
+ 
+
+00:04:07.840 --> 00:04:09.509 align:start position:0%
+example the right after right dependence
+we<00:04:08.000><c> eliminate</c><00:04:08.480><c> that</c><00:04:08.640><c> dependence</c><00:04:09.159><c> because</c>
+
+00:04:09.509 --> 00:04:09.519 align:start position:0%
+we eliminate that dependence because
+ 
+
+00:04:09.519 --> 00:04:11.789 align:start position:0%
+we eliminate that dependence because
+here<00:04:09.720><c> the</c><00:04:09.840><c> name</c><00:04:10.040><c> will</c><00:04:10.200><c> be</c><00:04:10.400><c> different</c><00:04:11.200><c> this</c>
+
+00:04:11.789 --> 00:04:11.799 align:start position:0%
+here the name will be different this
+ 
+
+00:04:11.799 --> 00:04:13.910 align:start position:0%
+here the name will be different this
+value<00:04:12.079><c> is</c><00:04:12.200><c> going</c><00:04:12.319><c> to</c><00:04:12.400><c> be</c><00:04:12.560><c> named</c><00:04:12.840><c> p18</c><00:04:13.599><c> this</c><00:04:13.720><c> one</c>
+
+00:04:13.910 --> 00:04:13.920 align:start position:0%
+value is going to be named p18 this one
+ 
+
+00:04:13.920 --> 00:04:19.560 align:start position:0%
+value is going to be named p18 this one
+will<00:04:14.079><c> be</c><00:04:14.680><c> p21</c><00:04:15.680><c> there</c><00:04:15.799><c> is</c><00:04:15.959><c> no</c><00:04:16.120><c> more</c><00:04:16.560><c> dependence</c>
+

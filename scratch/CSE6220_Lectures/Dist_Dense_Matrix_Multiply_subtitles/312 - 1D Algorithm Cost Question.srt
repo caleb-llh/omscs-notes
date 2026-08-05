@@ -1,0 +1,52 @@
+1
+00:00:00,008 --> 00:00:03,980
+ Here's the 1-D Block Row algorithm for matrix multiply.
+
+2
+00:00:03,980 --> 00:00:08,460
+ Let tau be the time per floating point operation, or flop for short.
+
+3
+00:00:08,460 --> 00:00:12,300
+ In this case flop is a shorthand for
+
+4
+00:00:12,300 --> 00:00:16,390
+ say a floating point multiply or a floating point add.
+
+5
+00:00:16,390 --> 00:00:18,950
+ It does not mean a terrible movie.
+
+6
+00:00:18,950 --> 00:00:23,010
+ So if tau is the time per flop, then the total time this algorithm spends doing
+
+7
+00:00:23,010 --> 00:00:27,090
+ multiplies and adds is 2 tau n cubed / p.
+
+8
+00:00:27,090 --> 00:00:30,570
+ Pause to convince yourself that this is true before you move on.
+
+9
+00:00:30,570 --> 00:00:32,150
+ Here's my question.
+
+10
+00:00:32,150 --> 00:00:35,470
+ What is the time spent on communication?
+
+11
+00:00:35,470 --> 00:00:38,280
+ I want you to type your answer symbolically here.
+
+12
+00:00:38,280 --> 00:00:41,970
+ As usual, assume our alpha beta model of communication.
+
+13
+00:00:41,970 --> 00:00:41,970
+ Type a little a for alpha, and little b for beta.
+

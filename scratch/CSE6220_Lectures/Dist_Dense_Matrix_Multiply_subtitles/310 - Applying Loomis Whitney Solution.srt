@@ -1,0 +1,52 @@
+1
+00:00:00,290 --> 00:00:01,480
+ Here's the answer.
+
+2
+00:00:01,480 --> 00:00:05,260
+ The minimum possible value is zero and the maximum is 34.
+
+3
+00:00:05,260 --> 00:00:08,683
+ The minimum is zero because there might not be any intersection among
+
+4
+00:00:08,683 --> 00:00:10,990
+ the elements of the blobs.
+
+5
+00:00:10,990 --> 00:00:14,770
+ For example, here are three blobs that are in opposite corners of their
+
+6
+00:00:14,770 --> 00:00:16,670
+ respective faces.
+
+7
+00:00:16,670 --> 00:00:19,730
+ And although the perspective is totally messed up hopefully you can kind of
+
+8
+00:00:19,730 --> 00:00:20,430
+ believe that.
+
+9
+00:00:20,430 --> 00:00:21,860
+ They don't intersect.
+
+10
+00:00:21,860 --> 00:00:26,580
+ The maximum would occur under some best case alignment of the three operands.
+
+11
+00:00:26,580 --> 00:00:28,870
+ The Loomis Whitney theorem gives us an upper bound.
+
+12
+00:00:28,870 --> 00:00:31,820
+ If you take the square root of the product and the sizes,
+
+13
+00:00:31,820 --> 00:00:31,820
+ you'll get about 34.
+

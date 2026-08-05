@@ -1,0 +1,40 @@
+1
+00:00:00,170 --> 00:00:01,890
+ I don't know about you, but I'm very noncommittal.
+
+2
+00:00:01,890 --> 00:00:06,160
+ I would have check nothing on the grounds of insufficient info, or
+
+3
+00:00:06,160 --> 00:00:07,830
+ maybe just laziness.
+
+4
+00:00:07,830 --> 00:00:09,370
+ So why did I make this choice?
+
+5
+00:00:09,370 --> 00:00:12,090
+ Well, remember our goals are low work and high intensity.
+
+6
+00:00:12,090 --> 00:00:15,905
+ In this case, Algorithm 1 does less asymptotic work.
+
+7
+00:00:15,905 --> 00:00:17,525
+ But what about intensity?
+
+8
+00:00:17,525 --> 00:00:19,675
+ Intensity of Algorithm 1 is a constant,
+
+9
+00:00:19,675 --> 00:00:24,155
+ the intensity of Algorithm 2 grows asymptotically with n and z.
+
+10
+00:00:24,155 --> 00:00:24,155
+ So knowing nothing else, we can't tell if we can satisfy both our goals.
+

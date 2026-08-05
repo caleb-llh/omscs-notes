@@ -1,0 +1,40 @@
+1
+00:00:00,290 --> 00:00:02,240
+ The answer is scheme 1.
+
+2
+00:00:02,240 --> 00:00:06,410
+ Remember that the alpha term cost of a tree-based algorithm
+
+3
+00:00:06,410 --> 00:00:09,530
+ is proportional to log of the number of nodes.
+
+4
+00:00:09,530 --> 00:00:12,720
+ By contrast, any sort of bucketing will be linear.
+
+5
+00:00:12,720 --> 00:00:16,440
+ Now in this case, since we're operating on a 2-D mesh, it'll be linear and
+
+6
+00:00:16,440 --> 00:00:19,470
+ square root of P rather than linear and P.
+
+7
+00:00:19,470 --> 00:00:21,740
+ But that's still worse than log.
+
+8
+00:00:21,740 --> 00:00:25,310
+ So, at least with respect to the alpha term, scheme 1 is better.
+
+9
+00:00:25,310 --> 00:00:28,500
+ Now, had I asked you which scheme has the largest beta term,
+
+10
+00:00:28,500 --> 00:00:28,500
+ what would you have said?
+

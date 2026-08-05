@@ -1,0 +1,24 @@
+1
+00:00:00,300 --> 00:00:01,520
+ Let's start with an observation.
+
+2
+00:00:01,520 --> 00:00:07,310
+ 1 going to 6 occupies this path, whereas 7 going to 4 occupies this path.
+
+3
+00:00:07,310 --> 00:00:11,620
+ Now the two paths overlap, but they're going in opposite directions.
+
+4
+00:00:11,620 --> 00:00:15,170
+ So by rule number 2, which is the existence of bidirectional links,
+
+5
+00:00:15,170 --> 00:00:18,090
+ these messages can be carried at the same time.
+
+6
+00:00:18,090 --> 00:00:18,090
+ So you should have written something like a + b x n.
+

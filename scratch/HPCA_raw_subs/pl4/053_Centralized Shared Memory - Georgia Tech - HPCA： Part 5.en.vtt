@@ -1,0 +1,328 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.750 align:start position:0%
+ 
+so<00:00:00.480><c> now</c><00:00:00.719><c> we</c><00:00:00.799><c> will</c><00:00:01.040><c> go</c><00:00:01.240><c> through</c><00:00:01.520><c> several</c><00:00:02.080><c> types</c>
+
+00:00:02.750 --> 00:00:02.760 align:start position:0%
+so now we will go through several types
+ 
+
+00:00:02.760 --> 00:00:03.670 align:start position:0%
+so now we will go through several types
+of
+
+00:00:03.670 --> 00:00:03.680 align:start position:0%
+of
+ 
+
+00:00:03.680 --> 00:00:05.789 align:start position:0%
+of
+multiprocessors<00:00:04.680><c> the</c><00:00:04.880><c> first</c><00:00:05.279><c> type</c><00:00:05.480><c> of</c>
+
+00:00:05.789 --> 00:00:05.799 align:start position:0%
+multiprocessors the first type of
+ 
+
+00:00:05.799 --> 00:00:08.270 align:start position:0%
+multiprocessors the first type of
+multiprocessor<00:00:06.799><c> uses</c><00:00:07.319><c> what</c><00:00:07.439><c> is</c><00:00:07.640><c> called</c><00:00:08.040><c> a</c>
+
+00:00:08.270 --> 00:00:08.280 align:start position:0%
+multiprocessor uses what is called a
+ 
+
+00:00:08.280 --> 00:00:11.030 align:start position:0%
+multiprocessor uses what is called a
+centralized<00:00:09.080><c> shared</c><00:00:09.639><c> memory</c><00:00:10.400><c> so</c><00:00:10.639><c> all</c><00:00:10.880><c> the</c>
+
+00:00:11.030 --> 00:00:11.040 align:start position:0%
+centralized shared memory so all the
+ 
+
+00:00:11.040 --> 00:00:13.589 align:start position:0%
+centralized shared memory so all the
+cores<00:00:11.840><c> let's</c><00:00:12.040><c> say</c><00:00:12.200><c> we</c><00:00:12.360><c> have</c><00:00:12.519><c> four</c><00:00:12.799><c> of</c><00:00:13.000><c> them</c>
+
+00:00:13.589 --> 00:00:13.599 align:start position:0%
+cores let's say we have four of them
+ 
+
+00:00:13.599 --> 00:00:15.990 align:start position:0%
+cores let's say we have four of them
+might<00:00:13.880><c> have</c><00:00:14.080><c> their</c><00:00:14.240><c> own</c><00:00:14.599><c> caches</c><00:00:15.599><c> but</c><00:00:15.759><c> then</c>
+
+00:00:15.990 --> 00:00:16.000 align:start position:0%
+might have their own caches but then
+ 
+
+00:00:16.000 --> 00:00:19.550 align:start position:0%
+might have their own caches but then
+they're<00:00:16.240><c> all</c><00:00:16.680><c> connected</c><00:00:17.680><c> to</c><00:00:17.920><c> the</c><00:00:18.119><c> same</c><00:00:18.480><c> bus</c><00:00:19.320><c> so</c>
+
+00:00:19.550 --> 00:00:19.560 align:start position:0%
+they're all connected to the same bus so
+ 
+
+00:00:19.560 --> 00:00:22.470 align:start position:0%
+they're all connected to the same bus so
+they<00:00:19.720><c> can</c><00:00:19.960><c> all</c><00:00:20.279><c> access</c><00:00:20.680><c> the</c><00:00:20.880><c> same</c><00:00:21.439><c> main</c><00:00:21.760><c> memory</c>
+
+00:00:22.470 --> 00:00:22.480 align:start position:0%
+they can all access the same main memory
+ 
+
+00:00:22.480 --> 00:00:25.950 align:start position:0%
+they can all access the same main memory
+and<00:00:22.720><c> input</c><00:00:23.119><c> output</c><00:00:23.880><c> devices</c><00:00:24.880><c> this</c><00:00:25.199><c> scores</c><00:00:25.800><c> can</c>
+
+00:00:25.950 --> 00:00:25.960 align:start position:0%
+and input output devices this scores can
+ 
+
+00:00:25.960 --> 00:00:28.470 align:start position:0%
+and input output devices this scores can
+share<00:00:26.519><c> data</c><00:00:26.960><c> by</c><00:00:27.119><c> simply</c><00:00:27.480><c> reading</c><00:00:27.880><c> and</c><00:00:28.119><c> writing</c>
+
+00:00:28.470 --> 00:00:28.480 align:start position:0%
+share data by simply reading and writing
+ 
+
+00:00:28.480 --> 00:00:31.470 align:start position:0%
+share data by simply reading and writing
+the<00:00:28.679><c> main</c><00:00:28.960><c> memory</c><00:00:30.359><c> assuming</c><00:00:30.840><c> of</c><00:00:31.000><c> course</c><00:00:31.320><c> that</c>
+
+00:00:31.470 --> 00:00:31.480 align:start position:0%
+the main memory assuming of course that
+ 
+
+00:00:31.480 --> 00:00:32.790 align:start position:0%
+the main memory assuming of course that
+these<00:00:31.640><c> reads</c><00:00:31.880><c> and</c><00:00:32.040><c> wrs</c><00:00:32.320><c> go</c><00:00:32.480><c> through</c><00:00:32.680><c> the</c>
+
+00:00:32.790 --> 00:00:32.800 align:start position:0%
+these reads and wrs go through the
+ 
+
+00:00:32.800 --> 00:00:35.190 align:start position:0%
+these reads and wrs go through the
+caches<00:00:33.320><c> properly</c><00:00:34.280><c> and</c><00:00:34.440><c> we</c><00:00:34.520><c> will</c><00:00:34.680><c> see</c><00:00:34.960><c> that</c><00:00:35.079><c> we</c>
+
+00:00:35.190 --> 00:00:35.200 align:start position:0%
+caches properly and we will see that we
+ 
+
+00:00:35.200 --> 00:00:37.389 align:start position:0%
+caches properly and we will see that we
+can<00:00:35.360><c> achieve</c><00:00:35.800><c> that</c><00:00:36.320><c> so</c><00:00:36.559><c> pretty</c><00:00:36.840><c> much</c><00:00:37.160><c> this</c>
+
+00:00:37.389 --> 00:00:37.399 align:start position:0%
+can achieve that so pretty much this
+ 
+
+00:00:37.399 --> 00:00:40.510 align:start position:0%
+can achieve that so pretty much this
+score<00:00:38.120><c> can</c><00:00:38.320><c> send</c><00:00:38.760><c> data</c><00:00:39.079><c> to</c><00:00:39.320><c> this</c><00:00:39.559><c> score</c><00:00:40.320><c> by</c>
+
+00:00:40.510 --> 00:00:40.520 align:start position:0%
+score can send data to this score by
+ 
+
+00:00:40.520 --> 00:00:42.790 align:start position:0%
+score can send data to this score by
+writing<00:00:40.879><c> to</c><00:00:41.039><c> some</c><00:00:41.280><c> memory</c><00:00:41.640><c> location</c><00:00:42.399><c> and</c><00:00:42.600><c> then</c>
+
+00:00:42.790 --> 00:00:42.800 align:start position:0%
+writing to some memory location and then
+ 
+
+00:00:42.800 --> 00:00:46.590 align:start position:0%
+writing to some memory location and then
+this<00:00:43.039><c> score</c><00:00:43.480><c> reads</c><00:00:43.800><c> it</c><00:00:44.000><c> from</c><00:00:44.320><c> there</c><00:00:45.600><c> similarly</c>
+
+00:00:46.590 --> 00:00:46.600 align:start position:0%
+this score reads it from there similarly
+ 
+
+00:00:46.600 --> 00:00:49.150 align:start position:0%
+this score reads it from there similarly
+any<00:00:46.840><c> of</c><00:00:47.000><c> the</c><00:00:47.160><c> cores</c><00:00:47.840><c> can</c><00:00:48.160><c> access</c><00:00:48.559><c> any</c><00:00:48.840><c> of</c><00:00:49.000><c> the</c>
+
+00:00:49.150 --> 00:00:49.160 align:start position:0%
+any of the cores can access any of the
+ 
+
+00:00:49.160 --> 00:00:52.990 align:start position:0%
+any of the cores can access any of the
+io<00:00:49.480><c> devices</c><00:00:50.039><c> here</c><00:00:50.840><c> this</c><00:00:51.079><c> type</c><00:00:51.280><c> of</c><00:00:51.440><c> a</c><00:00:51.760><c> system</c><00:00:52.760><c> is</c>
+
+00:00:52.990 --> 00:00:53.000 align:start position:0%
+io devices here this type of a system is
+ 
+
+00:00:53.000 --> 00:00:55.430 align:start position:0%
+io devices here this type of a system is
+really<00:00:53.320><c> what</c><00:00:53.520><c> today's</c><00:00:54.079><c> multicore</c><00:00:54.800><c> processors</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+really what today's multicore processors
+ 
+
+00:00:55.440 --> 00:00:58.630 align:start position:0%
+really what today's multicore processors
+tend<00:00:55.719><c> to</c><00:00:55.920><c> look</c><00:00:56.199><c> like</c><00:00:57.000><c> and</c><00:00:57.160><c> is</c><00:00:57.399><c> also</c><00:00:57.760><c> called</c>
+
+00:00:58.630 --> 00:00:58.640 align:start position:0%
+tend to look like and is also called
+ 
+
+00:00:58.640 --> 00:01:01.830 align:start position:0%
+tend to look like and is also called
+Yuma<00:00:59.480><c> which</c><00:00:59.640><c> stand</c><00:01:00.000><c> stands</c><00:01:00.239><c> for</c><00:01:01.160><c> uniform</c>
+
+00:01:01.830 --> 00:01:01.840 align:start position:0%
+Yuma which stand stands for uniform
+ 
+
+00:01:01.840 --> 00:01:05.070 align:start position:0%
+Yuma which stand stands for uniform
+memory<00:01:02.359><c> access</c><00:01:03.320><c> time</c><00:01:03.840><c> but</c><00:01:04.000><c> it's</c><00:01:04.159><c> not</c><00:01:04.400><c> umat</c>
+
+00:01:05.070 --> 00:01:05.080 align:start position:0%
+memory access time but it's not umat
+ 
+
+00:01:05.080 --> 00:01:08.870 align:start position:0%
+memory access time but it's not umat
+it's<00:01:05.320><c> just</c><00:01:05.560><c> Yuma</c><00:01:06.560><c> but</c><00:01:07.280><c> what</c><00:01:07.439><c> is</c><00:01:07.680><c> uniform</c><00:01:08.680><c> is</c>
+
+00:01:08.870 --> 00:01:08.880 align:start position:0%
+it's just Yuma but what is uniform is
+ 
+
+00:01:08.880 --> 00:01:11.550 align:start position:0%
+it's just Yuma but what is uniform is
+really<00:01:09.159><c> the</c><00:01:09.360><c> time</c><00:01:09.680><c> to</c><00:01:09.920><c> access</c><00:01:10.240><c> the</c><00:01:10.360><c> memory</c><00:01:11.280><c> why</c>
+
+00:01:11.550 --> 00:01:11.560 align:start position:0%
+really the time to access the memory why
+ 
+
+00:01:11.560 --> 00:01:13.310 align:start position:0%
+really the time to access the memory why
+well<00:01:11.759><c> because</c><00:01:12.040><c> this</c><00:01:12.240><c> main</c>
+
+00:01:13.310 --> 00:01:13.320 align:start position:0%
+well because this main
+ 
+
+00:01:13.320 --> 00:01:17.910 align:start position:0%
+well because this main
+memory<00:01:14.320><c> is</c><00:01:14.479><c> at</c><00:01:14.680><c> the</c><00:01:15.360><c> same</c><00:01:16.360><c> long</c><00:01:16.880><c> distance</c><00:01:17.640><c> from</c>
+
+00:01:17.910 --> 00:01:17.920 align:start position:0%
+memory is at the same long distance from
+ 
+
+00:01:17.920 --> 00:01:19.990 align:start position:0%
+memory is at the same long distance from
+all<00:01:18.080><c> of</c><00:01:18.240><c> the</c><00:01:18.400><c> cores</c><00:01:18.960><c> yes</c><00:01:19.119><c> it</c><00:01:19.280><c> can</c><00:01:19.400><c> be</c><00:01:19.560><c> slightly</c>
+
+00:01:19.990 --> 00:01:20.000 align:start position:0%
+all of the cores yes it can be slightly
+ 
+
+00:01:20.000 --> 00:01:21.870 align:start position:0%
+all of the cores yes it can be slightly
+closer<00:01:20.360><c> to</c><00:01:20.520><c> some</c><00:01:20.720><c> of</c><00:01:20.880><c> them</c><00:01:21.400><c> but</c><00:01:21.640><c> because</c>
+
+00:01:21.870 --> 00:01:21.880 align:start position:0%
+closer to some of them but because
+ 
+
+00:01:21.880 --> 00:01:23.830 align:start position:0%
+closer to some of them but because
+they're<00:01:22.119><c> all</c><00:01:22.320><c> connected</c><00:01:22.720><c> to</c><00:01:22.840><c> it</c><00:01:23.000><c> in</c><00:01:23.119><c> the</c><00:01:23.280><c> same</c>
+
+00:01:23.830 --> 00:01:23.840 align:start position:0%
+they're all connected to it in the same
+ 
+
+00:01:23.840 --> 00:01:27.469 align:start position:0%
+they're all connected to it in the same
+way<00:01:24.840><c> the</c><00:01:25.000><c> memory</c><00:01:25.479><c> really</c><00:01:25.840><c> is</c><00:01:26.400><c> about</c><00:01:26.799><c> as</c><00:01:27.079><c> bad</c><00:01:27.280><c> to</c>
+
+00:01:27.469 --> 00:01:27.479 align:start position:0%
+way the memory really is about as bad to
+ 
+
+00:01:27.479 --> 00:01:31.310 align:start position:0%
+way the memory really is about as bad to
+access<00:01:28.079><c> as</c><00:01:28.320><c> any</c><00:01:28.520><c> one</c><00:01:28.720><c> of</c><00:01:28.920><c> them</c><00:01:29.560><c> this</c><00:01:30.000><c> type</c><00:01:30.200><c> of</c>
+
+00:01:31.310 --> 00:01:31.320 align:start position:0%
+access as any one of them this type of
+ 
+
+00:01:31.320 --> 00:01:34.990 align:start position:0%
+access as any one of them this type of
+multiprocessing<00:01:32.320><c> is</c><00:01:32.560><c> also</c><00:01:32.840><c> called</c><00:01:33.240><c> SM</c><00:01:34.000><c> SMP</c>
+
+00:01:34.990 --> 00:01:35.000 align:start position:0%
+multiprocessing is also called SM SMP
+ 
+
+00:01:35.000 --> 00:01:37.670 align:start position:0%
+multiprocessing is also called SM SMP
+which<00:01:35.240><c> stands</c><00:01:35.600><c> for</c><00:01:35.960><c> symmetric</c>
+
+00:01:37.670 --> 00:01:37.680 align:start position:0%
+which stands for symmetric
+ 
+
+00:01:37.680 --> 00:01:40.469 align:start position:0%
+which stands for symmetric
+multiprocessor<00:01:38.680><c> it's</c><00:01:38.880><c> called</c><00:01:39.479><c> symmetric</c>
+
+00:01:40.469 --> 00:01:40.479 align:start position:0%
+multiprocessor it's called symmetric
+ 
+
+00:01:40.479 --> 00:01:43.550 align:start position:0%
+multiprocessor it's called symmetric
+because<00:01:41.040><c> any</c><00:01:41.320><c> core</c><00:01:41.600><c> and</c><00:01:41.799><c> its</c><00:01:42.079><c> cache</c><00:01:42.759><c> look</c><00:01:43.240><c> just</c>
+
+00:01:43.550 --> 00:01:43.560 align:start position:0%
+because any core and its cache look just
+ 
+
+00:01:43.560 --> 00:01:45.749 align:start position:0%
+because any core and its cache look just
+like<00:01:43.840><c> any</c><00:01:44.159><c> other</c><00:01:44.520><c> core</c><00:01:44.799><c> and</c><00:01:45.000><c> its</c><00:01:45.200><c> cache</c><00:01:45.479><c> in</c><00:01:45.600><c> the</c>
+
+00:01:45.749 --> 00:01:45.759 align:start position:0%
+like any other core and its cache in the
+ 
+
+00:01:45.759 --> 00:01:48.990 align:start position:0%
+like any other core and its cache in the
+system<00:01:46.719><c> so</c><00:01:46.920><c> if</c><00:01:47.040><c> we</c><00:01:47.200><c> had</c><00:01:47.399><c> two</c><00:01:47.680><c> cores</c><00:01:48.600><c> we</c><00:01:48.719><c> can</c>
+
+00:01:48.990 --> 00:01:49.000 align:start position:0%
+system so if we had two cores we can
+ 
+
+00:01:49.000 --> 00:01:51.510 align:start position:0%
+system so if we had two cores we can
+just<00:01:49.439><c> take</c><00:01:49.960><c> one</c><00:01:50.159><c> of</c><00:01:50.399><c> them</c><00:01:50.640><c> with</c><00:01:50.799><c> its</c><00:01:51.000><c> caches</c>
+
+00:01:51.510 --> 00:01:51.520 align:start position:0%
+just take one of them with its caches
+ 
+
+00:01:51.520 --> 00:01:56.880 align:start position:0%
+just take one of them with its caches
+and<00:01:51.759><c> replicate</c><00:01:52.320><c> to</c><00:01:52.479><c> make</c><00:01:52.719><c> a</c><00:01:53.240><c> four</c><00:01:53.640><c> core</c><00:01:54.000><c> system</c>
+

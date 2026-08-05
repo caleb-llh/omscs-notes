@@ -1,0 +1,144 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.790 align:start position:0%
+ 
+so<00:00:00.480><c> let's</c><00:00:00.719><c> see</c><00:00:01.040><c> if</c><00:00:01.199><c> we</c><00:00:01.360><c> can</c><00:00:01.600><c> now</c><00:00:01.920><c> figure</c><00:00:02.240><c> out</c><00:00:02.560><c> a</c>
+
+00:00:02.790 --> 00:00:02.800 align:start position:0%
+so let's see if we can now figure out a
+ 
+
+00:00:02.800 --> 00:00:05.910 align:start position:0%
+so let's see if we can now figure out a
+raid<00:00:03.200><c> 4</c><00:00:03.600><c> array</c><00:00:04.400><c> suppose</c><00:00:04.880><c> we</c><00:00:05.040><c> have</c><00:00:05.200><c> a</c><00:00:05.359><c> raid</c><00:00:05.680><c> 4</c>
+
+00:00:05.910 --> 00:00:05.920 align:start position:0%
+raid 4 array suppose we have a raid 4
+ 
+
+00:00:05.920 --> 00:00:08.230 align:start position:0%
+raid 4 array suppose we have a raid 4
+array<00:00:06.319><c> with</c><00:00:06.720><c> 5</c><00:00:07.120><c> disks</c>
+
+00:00:08.230 --> 00:00:08.240 align:start position:0%
+array with 5 disks
+ 
+
+00:00:08.240 --> 00:00:10.709 align:start position:0%
+array with 5 disks
+a<00:00:08.480><c> single</c><00:00:08.880><c> disk</c><00:00:09.280><c> is</c><00:00:09.440><c> just</c><00:00:09.760><c> like</c><00:00:10.080><c> in</c><00:00:10.240><c> previous</c>
+
+00:00:10.709 --> 00:00:10.719 align:start position:0%
+a single disk is just like in previous
+ 
+
+00:00:10.719 --> 00:00:13.910 align:start position:0%
+a single disk is just like in previous
+raid<00:00:10.960><c> quizzes</c><00:00:11.599><c> 200</c><00:00:12.160><c> gigabytes</c><00:00:12.960><c> 10</c><00:00:13.280><c> megabytes</c>
+
+00:00:13.910 --> 00:00:13.920 align:start position:0%
+raid quizzes 200 gigabytes 10 megabytes
+ 
+
+00:00:13.920 --> 00:00:16.710 align:start position:0%
+raid quizzes 200 gigabytes 10 megabytes
+per<00:00:14.080><c> second</c><00:00:14.400><c> throughput</c><00:00:15.200><c> and</c><00:00:15.440><c> an</c><00:00:15.599><c> mttf</c><00:00:16.400><c> of</c><00:00:16.640><c> a</c>
+
+00:00:16.710 --> 00:00:16.720 align:start position:0%
+per second throughput and an mttf of a
+ 
+
+00:00:16.720 --> 00:00:18.870 align:start position:0%
+per second throughput and an mttf of a
+hundred<00:00:17.119><c> thousand</c><00:00:17.680><c> hours</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+hundred thousand hours
+ 
+
+00:00:18.880 --> 00:00:21.670 align:start position:0%
+hundred thousand hours
+when<00:00:19.119><c> a</c><00:00:19.279><c> disk</c><00:00:19.680><c> fails</c><00:00:20.080><c> in</c><00:00:20.240><c> this</c><00:00:20.480><c> rate</c><00:00:20.720><c> for</c><00:00:21.039><c> array</c>
+
+00:00:21.670 --> 00:00:21.680 align:start position:0%
+when a disk fails in this rate for array
+ 
+
+00:00:21.680 --> 00:00:24.470 align:start position:0%
+when a disk fails in this rate for array
+we<00:00:21.840><c> replace</c><00:00:22.400><c> it</c><00:00:22.800><c> and</c><00:00:22.960><c> it</c><00:00:23.039><c> takes</c><00:00:23.359><c> us</c><00:00:23.600><c> 24</c><00:00:24.160><c> hours</c>
+
+00:00:24.470 --> 00:00:24.480 align:start position:0%
+we replace it and it takes us 24 hours
+ 
+
+00:00:24.480 --> 00:00:25.910 align:start position:0%
+we replace it and it takes us 24 hours
+to<00:00:24.640><c> do</c><00:00:24.880><c> that</c>
+
+00:00:25.910 --> 00:00:25.920 align:start position:0%
+to do that
+ 
+
+00:00:25.920 --> 00:00:29.109 align:start position:0%
+to do that
+so<00:00:26.160><c> then</c><00:00:26.560><c> our</c><00:00:26.880><c> five</c><00:00:27.119><c> discrete</c><00:00:27.760><c> four</c><00:00:28.000><c> array</c><00:00:28.400><c> has</c>
+
+00:00:29.109 --> 00:00:29.119 align:start position:0%
+so then our five discrete four array has
+ 
+
+00:00:29.119 --> 00:00:31.750 align:start position:0%
+so then our five discrete four array has
+what<00:00:29.519><c> data</c><00:00:29.840><c> capacity</c><00:00:30.480><c> in</c><00:00:30.560><c> gigabytes</c>
+
+00:00:31.750 --> 00:00:31.760 align:start position:0%
+what data capacity in gigabytes
+ 
+
+00:00:31.760 --> 00:00:34.229 align:start position:0%
+what data capacity in gigabytes
+what<00:00:32.000><c> throughput</c><00:00:32.800><c> in</c><00:00:32.960><c> megabytes</c><00:00:33.600><c> per</c><00:00:33.840><c> second</c>
+
+00:00:34.229 --> 00:00:34.239 align:start position:0%
+what throughput in megabytes per second
+ 
+
+00:00:34.239 --> 00:00:36.470 align:start position:0%
+what throughput in megabytes per second
+again<00:00:34.640><c> assuming</c><00:00:35.040><c> that</c><00:00:35.200><c> we</c><00:00:35.360><c> do</c><00:00:35.600><c> 50</c><00:00:35.920><c> percent</c><00:00:36.320><c> of</c>
+
+00:00:36.470 --> 00:00:36.480 align:start position:0%
+again assuming that we do 50 percent of
+ 
+
+00:00:36.480 --> 00:00:38.630 align:start position:0%
+again assuming that we do 50 percent of
+our<00:00:36.640><c> accesses</c><00:00:37.120><c> and</c><00:00:37.200><c> reads</c><00:00:37.600><c> and</c><00:00:37.760><c> 50</c><00:00:38.160><c> percent</c><00:00:38.480><c> of</c>
+
+00:00:38.630 --> 00:00:38.640 align:start position:0%
+our accesses and reads and 50 percent of
+ 
+
+00:00:38.640 --> 00:00:40.470 align:start position:0%
+our accesses and reads and 50 percent of
+our<00:00:38.800><c> access</c><00:00:39.120><c> is</c><00:00:39.440><c> rights</c>
+
+00:00:40.470 --> 00:00:40.480 align:start position:0%
+our access is rights
+ 
+
+00:00:40.480 --> 00:00:43.190 align:start position:0%
+our access is rights
+and<00:00:40.879><c> finally</c><00:00:41.440><c> what</c><00:00:41.760><c> is</c><00:00:41.920><c> the</c><00:00:42.079><c> mttf</c><00:00:42.879><c> of</c><00:00:43.040><c> the</c>
+
+00:00:43.190 --> 00:00:43.200 align:start position:0%
+and finally what is the mttf of the
+ 
+
+00:00:43.200 --> 00:00:45.840 align:start position:0%
+and finally what is the mttf of the
+whole<00:00:43.440><c> array</c>
+

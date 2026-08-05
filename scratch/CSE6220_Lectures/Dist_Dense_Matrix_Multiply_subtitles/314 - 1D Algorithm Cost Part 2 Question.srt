@@ -1,0 +1,48 @@
+1
+00:00:00,008 --> 00:00:04,270
+ Recall the 1-D block row algorithm and its pseudocode.
+
+2
+00:00:04,270 --> 00:00:07,868
+ You know that it's running time is (2 tau n cubed) / P,
+
+3
+00:00:07,868 --> 00:00:12,680
+ for flops, + alpha P + beta n squared, for communication.
+
+4
+00:00:12,680 --> 00:00:16,050
+ In fact, you can make this code a little bit faster.
+
+5
+00:00:16,050 --> 00:00:20,290
+ All you have to do is rearrange the statements of the loop body.
+
+6
+00:00:20,290 --> 00:00:22,450
+ Notice, I said rearrange the statements of the loop body.
+
+7
+00:00:22,450 --> 00:00:25,490
+ You don't have to actually change the statements themselves.
+
+8
+00:00:25,490 --> 00:00:28,800
+ In the best case, the rearrangement I have in mind might improve
+
+9
+00:00:28,800 --> 00:00:33,560
+ the performance by up to a factor of 2, relative to this running time.
+
+10
+00:00:33,560 --> 00:00:35,146
+ Your task is to show me how.
+
+11
+00:00:35,146 --> 00:00:40,094
+ I will pre-fill this text box with these statements, and I want you to rearrange
+
+12
+00:00:40,094 --> 00:00:40,094
+ them to get this possible factor of 2 improvement in speed.
+

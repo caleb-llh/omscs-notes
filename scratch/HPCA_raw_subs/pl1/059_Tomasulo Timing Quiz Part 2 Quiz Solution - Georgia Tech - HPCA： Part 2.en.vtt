@@ -1,0 +1,504 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.089 --> 00:00:02.720 align:start position:0%
+ 
+let's<00:00:00.840><c> now</c><00:00:01.020><c> look</c><00:00:01.230><c> at</c><00:00:01.410><c> the</c><00:00:01.530><c> solution</c><00:00:01.709><c> for</c><00:00:02.370><c> part</c>
+
+00:00:02.720 --> 00:00:02.730 align:start position:0%
+let's now look at the solution for part
+ 
+
+00:00:02.730 --> 00:00:05.539 align:start position:0%
+let's now look at the solution for part
+1<00:00:03.000><c> of</c><00:00:03.240><c> this</c><00:00:03.629><c> quiz</c><00:00:03.899><c> which</c><00:00:04.440><c> is</c><00:00:04.470><c> asking</c><00:00:05.040><c> when</c><00:00:05.400><c> do</c>
+
+00:00:05.539 --> 00:00:05.549 align:start position:0%
+1 of this quiz which is asking when do
+ 
+
+00:00:05.549 --> 00:00:07.460 align:start position:0%
+1 of this quiz which is asking when do
+these<00:00:05.700><c> four</c><00:00:06.000><c> instructions</c><00:00:06.569><c> dispatch</c><00:00:07.109><c> and</c>
+
+00:00:07.460 --> 00:00:07.470 align:start position:0%
+these four instructions dispatch and
+ 
+
+00:00:07.470 --> 00:00:11.629 align:start position:0%
+these four instructions dispatch and
+write<00:00:07.799><c> their</c><00:00:08.010><c> results</c><00:00:09.139><c> we</c><00:00:10.139><c> will</c><00:00:10.260><c> do</c><00:00:10.440><c> that</c><00:00:10.650><c> one</c>
+
+00:00:11.629 --> 00:00:11.639 align:start position:0%
+write their results we will do that one
+ 
+
+00:00:11.639 --> 00:00:14.690 align:start position:0%
+write their results we will do that one
+instruction<00:00:12.150><c> at</c><00:00:12.240><c> a</c><00:00:12.269><c> time</c><00:00:12.360><c> the</c><00:00:13.200><c> load</c><00:00:13.469><c> is</c><00:00:13.889><c> issued</c>
+
+00:00:14.690 --> 00:00:14.700 align:start position:0%
+instruction at a time the load is issued
+ 
+
+00:00:14.700 --> 00:00:17.810 align:start position:0%
+instruction at a time the load is issued
+in<00:00:14.910><c> cycle</c><00:00:15.360><c> 1</c><00:00:16.100><c> it</c><00:00:17.100><c> doesn't</c><00:00:17.550><c> have</c><00:00:17.670><c> any</c>
+
+00:00:17.810 --> 00:00:17.820 align:start position:0%
+in cycle 1 it doesn't have any
+ 
+
+00:00:17.820 --> 00:00:20.390 align:start position:0%
+in cycle 1 it doesn't have any
+dependencies<00:00:18.570><c> but</c><00:00:19.320><c> we</c><00:00:19.500><c> know</c><00:00:19.680><c> that</c><00:00:19.710><c> it</c><00:00:20.010><c> cannot</c>
+
+00:00:20.390 --> 00:00:20.400 align:start position:0%
+dependencies but we know that it cannot
+ 
+
+00:00:20.400 --> 00:00:22.160 align:start position:0%
+dependencies but we know that it cannot
+dispatch<00:00:20.970><c> in</c><00:00:21.119><c> the</c><00:00:21.210><c> same</c><00:00:21.449><c> cycle</c><00:00:21.720><c> when</c><00:00:21.990><c> it's</c>
+
+00:00:22.160 --> 00:00:22.170 align:start position:0%
+dispatch in the same cycle when it's
+ 
+
+00:00:22.170 --> 00:00:26.890 align:start position:0%
+dispatch in the same cycle when it's
+issued<00:00:22.580><c> so</c><00:00:23.580><c> it</c><00:00:23.820><c> will</c><00:00:24.090><c> dispatch</c><00:00:24.689><c> in</c><00:00:25.529><c> cycle</c><00:00:25.590><c> 2</c>
+
+00:00:26.890 --> 00:00:26.900 align:start position:0%
+issued so it will dispatch in cycle 2
+ 
+
+00:00:26.900 --> 00:00:31.279 align:start position:0%
+issued so it will dispatch in cycle 2
+the<00:00:27.900><c> load</c><00:00:28.109><c> takes</c><00:00:28.349><c> one</c><00:00:28.619><c> cycle</c><00:00:28.920><c> to</c><00:00:29.250><c> do</c><00:00:30.199><c> so</c><00:00:31.199><c> it</c>
+
+00:00:31.279 --> 00:00:31.289 align:start position:0%
+the load takes one cycle to do so it
+ 
+
+00:00:31.289 --> 00:00:32.930 align:start position:0%
+the load takes one cycle to do so it
+will<00:00:31.439><c> write</c><00:00:31.619><c> its</c><00:00:31.800><c> result</c><00:00:31.980><c> in</c><00:00:32.340><c> the</c><00:00:32.460><c> very</c><00:00:32.669><c> next</c>
+
+00:00:32.930 --> 00:00:32.940 align:start position:0%
+will write its result in the very next
+ 
+
+00:00:32.940 --> 00:00:36.830 align:start position:0%
+will write its result in the very next
+cycle<00:00:33.559><c> the</c><00:00:34.559><c> multiplication</c><00:00:35.520><c> instruction</c><00:00:35.840><c> is</c>
+
+00:00:36.830 --> 00:00:36.840 align:start position:0%
+cycle the multiplication instruction is
+ 
+
+00:00:36.840 --> 00:00:42.020 align:start position:0%
+cycle the multiplication instruction is
+issued<00:00:37.469><c> in</c><00:00:37.620><c> cycle</c><00:00:38.129><c> 2</c><00:00:38.960><c> it</c><00:00:39.960><c> will</c><00:00:40.230><c> dispatch</c><00:00:41.030><c> in</c>
+
+00:00:42.020 --> 00:00:42.030 align:start position:0%
+issued in cycle 2 it will dispatch in
+ 
+
+00:00:42.030 --> 00:00:45.049 align:start position:0%
+issued in cycle 2 it will dispatch in
+cycle<00:00:42.239><c> 3</c><00:00:43.200><c> or</c><00:00:43.440><c> later</c><00:00:43.680><c> because</c><00:00:44.340><c> it</c><00:00:44.489><c> cannot</c><00:00:44.789><c> issue</c>
+
+00:00:45.049 --> 00:00:45.059 align:start position:0%
+cycle 3 or later because it cannot issue
+ 
+
+00:00:45.059 --> 00:00:47.630 align:start position:0%
+cycle 3 or later because it cannot issue
+and<00:00:45.239><c> then</c><00:00:45.329><c> dispatch</c><00:00:45.690><c> in</c><00:00:45.840><c> cycle</c><00:00:45.870><c> 2</c><00:00:46.500><c> it</c><00:00:47.399><c> will</c>
+
+00:00:47.630 --> 00:00:47.640 align:start position:0%
+and then dispatch in cycle 2 it will
+ 
+
+00:00:47.640 --> 00:00:52.880 align:start position:0%
+and then dispatch in cycle 2 it will
+dispatch<00:00:48.710><c> either</c><00:00:50.300><c> in</c><00:00:51.300><c> cycle</c><00:00:51.840><c> 3</c><00:00:52.050><c> or</c><00:00:52.289><c> whenever</c>
+
+00:00:52.880 --> 00:00:52.890 align:start position:0%
+dispatch either in cycle 3 or whenever
+ 
+
+00:00:52.890 --> 00:00:54.729 align:start position:0%
+dispatch either in cycle 3 or whenever
+its<00:00:53.190><c> operands</c><00:00:53.610><c> become</c><00:00:53.910><c> available</c><00:00:54.149><c> and</c>
+
+00:00:54.729 --> 00:00:54.739 align:start position:0%
+its operands become available and
+ 
+
+00:00:54.739 --> 00:00:56.810 align:start position:0%
+its operands become available and
+because<00:00:55.739><c> this</c><00:00:56.039><c> multiply</c><00:00:56.579><c> instruction</c>
+
+00:00:56.810 --> 00:00:56.820 align:start position:0%
+because this multiply instruction
+ 
+
+00:00:56.820 --> 00:00:59.599 align:start position:0%
+because this multiply instruction
+doesn't<00:00:57.390><c> depend</c><00:00:57.960><c> on</c><00:00:58.170><c> the</c><00:00:58.320><c> load</c><00:00:58.530><c> here</c><00:00:59.039><c> it</c><00:00:59.340><c> uses</c>
+
+00:00:59.599 --> 00:00:59.609 align:start position:0%
+doesn't depend on the load here it uses
+ 
+
+00:00:59.609 --> 00:01:02.420 align:start position:0%
+doesn't depend on the load here it uses
+F<00:00:59.940><c> 0</c><00:01:00.239><c> and</c><00:01:00.300><c> F</c><00:01:00.449><c> 1</c><00:01:00.510><c> and</c><00:01:01.079><c> the</c><00:01:01.350><c> load</c><00:01:01.469><c> produces</c><00:01:01.949><c> F</c><00:01:02.129><c> 6</c>
+
+00:01:02.420 --> 00:01:02.430 align:start position:0%
+F 0 and F 1 and the load produces F 6
+ 
+
+00:01:02.430 --> 00:01:04.609 align:start position:0%
+F 0 and F 1 and the load produces F 6
+that<00:01:03.149><c> means</c><00:01:03.449><c> that</c><00:01:03.600><c> this</c><00:01:03.719><c> instruction</c><00:01:04.199><c> has</c><00:01:04.379><c> all</c>
+
+00:01:04.609 --> 00:01:04.619 align:start position:0%
+that means that this instruction has all
+ 
+
+00:01:04.619 --> 00:01:07.039 align:start position:0%
+that means that this instruction has all
+the<00:01:04.769><c> operands</c><00:01:05.070><c> ready</c><00:01:05.339><c> as</c><00:01:05.610><c> soon</c><00:01:06.450><c> as</c><00:01:06.570><c> it</c><00:01:06.720><c> issues</c>
+
+00:01:07.039 --> 00:01:07.049 align:start position:0%
+the operands ready as soon as it issues
+ 
+
+00:01:07.049 --> 00:01:10.460 align:start position:0%
+the operands ready as soon as it issues
+so<00:01:07.920><c> it</c><00:01:08.100><c> can</c><00:01:08.460><c> dispatch</c><00:01:09.150><c> in</c><00:01:09.420><c> cycle</c><00:01:09.450><c> 3</c><00:01:10.020><c> it</c>
+
+00:01:10.460 --> 00:01:10.470 align:start position:0%
+so it can dispatch in cycle 3 it
+ 
+
+00:01:10.470 --> 00:01:12.649 align:start position:0%
+so it can dispatch in cycle 3 it
+couldn't<00:01:10.950><c> issue</c><00:01:11.159><c> and</c><00:01:11.610><c> then</c><00:01:12.119><c> dispatch</c><00:01:12.510><c> in</c>
+
+00:01:12.649 --> 00:01:12.659 align:start position:0%
+couldn't issue and then dispatch in
+ 
+
+00:01:12.659 --> 00:01:15.320 align:start position:0%
+couldn't issue and then dispatch in
+cycle<00:01:12.689><c> 2</c><00:01:13.229><c> because</c><00:01:14.159><c> of</c><00:01:14.189><c> the</c><00:01:14.549><c> same</c><00:01:14.760><c> thing</c><00:01:14.790><c> issue</c>
+
+00:01:15.320 --> 00:01:15.330 align:start position:0%
+cycle 2 because of the same thing issue
+ 
+
+00:01:15.330 --> 00:01:16.850 align:start position:0%
+cycle 2 because of the same thing issue
+and<00:01:15.540><c> and</c><00:01:15.689><c> dispatch</c><00:01:16.020><c> in</c><00:01:16.200><c> this</c><00:01:16.350><c> processor</c><00:01:16.830><c> is</c>
+
+00:01:16.850 --> 00:01:16.860 align:start position:0%
+and and dispatch in this processor is
+ 
+
+00:01:16.860 --> 00:01:22.310 align:start position:0%
+and and dispatch in this processor is
+not<00:01:17.009><c> allowed</c><00:01:17.780><c> the</c><00:01:18.830><c> multiplication</c><00:01:20.900><c> takes</c><00:01:21.900><c> 5</c>
+
+00:01:22.310 --> 00:01:22.320 align:start position:0%
+not allowed the multiplication takes 5
+ 
+
+00:01:22.320 --> 00:01:25.370 align:start position:0%
+not allowed the multiplication takes 5
+cycles<00:01:22.710><c> to</c><00:01:23.009><c> do</c><00:01:23.330><c> so</c><00:01:24.330><c> if</c><00:01:24.420><c> it</c><00:01:24.540><c> dispatches</c><00:01:25.229><c> in</c>
+
+00:01:25.370 --> 00:01:25.380 align:start position:0%
+cycles to do so if it dispatches in
+ 
+
+00:01:25.380 --> 00:01:27.649 align:start position:0%
+cycles to do so if it dispatches in
+cycle<00:01:25.740><c> 3</c><00:01:25.950><c> to</c><00:01:26.100><c> execute</c><00:01:26.580><c> it's</c><00:01:26.939><c> going</c><00:01:27.330><c> to</c><00:01:27.509><c> be</c>
+
+00:01:27.649 --> 00:01:27.659 align:start position:0%
+cycle 3 to execute it's going to be
+ 
+
+00:01:27.659 --> 00:01:32.719 align:start position:0%
+cycle 3 to execute it's going to be
+broadcasting<00:01:28.200><c> its</c><00:01:28.409><c> result</c><00:01:28.860><c> in</c><00:01:29.220><c> cycle</c><00:01:29.640><c> 8</c><00:01:31.729><c> the</c>
+
+00:01:32.719 --> 00:01:32.729 align:start position:0%
+broadcasting its result in cycle 8 the
+ 
+
+00:01:32.729 --> 00:01:37.630 align:start position:0%
+broadcasting its result in cycle 8 the
+add<00:01:32.909><c> here</c><00:01:33.770><c> is</c><00:01:34.770><c> issued</c><00:01:35.369><c> in</c><00:01:35.520><c> cycle</c><00:01:35.939><c> 3</c><00:01:36.500><c> so</c><00:01:37.500><c> again</c>
+
+00:01:37.630 --> 00:01:37.640 align:start position:0%
+add here is issued in cycle 3 so again
+ 
+
+00:01:37.640 --> 00:01:40.580 align:start position:0%
+add here is issued in cycle 3 so again
+it<00:01:38.640><c> cannot</c><00:01:39.090><c> dispatch</c><00:01:39.509><c> in</c><00:01:39.659><c> the</c><00:01:39.750><c> same</c><00:01:39.960><c> cycle</c><00:01:40.229><c> but</c>
+
+00:01:40.580 --> 00:01:40.590 align:start position:0%
+it cannot dispatch in the same cycle but
+ 
+
+00:01:40.590 --> 00:01:43.160 align:start position:0%
+it cannot dispatch in the same cycle but
+it<00:01:40.619><c> could</c><00:01:41.070><c> dispatch</c><00:01:41.490><c> in</c><00:01:41.670><c> cycle</c><00:01:41.700><c> 4</c><00:01:42.299><c> if</c><00:01:42.570><c> all</c><00:01:42.990><c> of</c>
+
+00:01:43.160 --> 00:01:43.170 align:start position:0%
+it could dispatch in cycle 4 if all of
+ 
+
+00:01:43.170 --> 00:01:45.200 align:start position:0%
+it could dispatch in cycle 4 if all of
+its<00:01:43.320><c> operands</c><00:01:43.710><c> are</c><00:01:43.920><c> available</c><00:01:44.460><c> in</c><00:01:44.640><c> that</c><00:01:44.790><c> cycle</c>
+
+00:01:45.200 --> 00:01:45.210 align:start position:0%
+its operands are available in that cycle
+ 
+
+00:01:45.210 --> 00:01:49.399 align:start position:0%
+its operands are available in that cycle
+however<00:01:45.990><c> it</c><00:01:46.439><c> needs</c><00:01:46.590><c> F</c><00:01:46.860><c> 2</c><00:01:47.100><c> and</c><00:01:47.310><c> F</c><00:01:47.430><c> 6</c><00:01:48.350><c> these</c><00:01:49.350><c> are</c>
+
+00:01:49.399 --> 00:01:49.409 align:start position:0%
+however it needs F 2 and F 6 these are
+ 
+
+00:01:49.409 --> 00:01:52.789 align:start position:0%
+however it needs F 2 and F 6 these are
+produced<00:01:50.009><c> by</c><00:01:50.280><c> load</c><00:01:50.759><c> and</c><00:01:51.030><c> multiplied</c><00:01:51.570><c> here</c><00:01:52.049><c> so</c>
+
+00:01:52.789 --> 00:01:52.799 align:start position:0%
+produced by load and multiplied here so
+ 
+
+00:01:52.799 --> 00:01:54.649 align:start position:0%
+produced by load and multiplied here so
+actually<00:01:52.979><c> it</c><00:01:53.280><c> will</c><00:01:53.399><c> not</c><00:01:53.460><c> be</c><00:01:53.939><c> able</c><00:01:54.090><c> to</c><00:01:54.180><c> dispatch</c>
+
+00:01:54.649 --> 00:01:54.659 align:start position:0%
+actually it will not be able to dispatch
+ 
+
+00:01:54.659 --> 00:01:58.069 align:start position:0%
+actually it will not be able to dispatch
+in<00:01:54.869><c> cycle</c><00:01:54.899><c> 4</c><00:01:55.610><c> because</c><00:01:56.610><c> the</c><00:01:57.000><c> multiplier</c><00:01:57.630><c> result</c>
+
+00:01:58.069 --> 00:01:58.079 align:start position:0%
+in cycle 4 because the multiplier result
+ 
+
+00:01:58.079 --> 00:02:00.950 align:start position:0%
+in cycle 4 because the multiplier result
+is<00:01:58.259><c> only</c><00:01:58.500><c> available</c><00:01:58.710><c> in</c><00:01:59.189><c> cycle</c><00:01:59.579><c> 8</c><00:01:59.790><c> so</c><00:02:00.659><c> what</c><00:02:00.810><c> is</c>
+
+00:02:00.950 --> 00:02:00.960 align:start position:0%
+is only available in cycle 8 so what is
+ 
+
+00:02:00.960 --> 00:02:02.719 align:start position:0%
+is only available in cycle 8 so what is
+going<00:02:01.200><c> to</c><00:02:01.259><c> happen</c><00:02:01.500><c> to</c><00:02:01.799><c> this</c><00:02:01.950><c> instruction</c><00:02:02.579><c> is</c>
+
+00:02:02.719 --> 00:02:02.729 align:start position:0%
+going to happen to this instruction is
+ 
+
+00:02:02.729 --> 00:02:05.480 align:start position:0%
+going to happen to this instruction is
+it's<00:02:03.000><c> going</c><00:02:03.240><c> to</c><00:02:03.390><c> wait</c><00:02:03.719><c> and</c><00:02:04.310><c> capture</c><00:02:05.310><c> its</c>
+
+00:02:05.480 --> 00:02:05.490 align:start position:0%
+it's going to wait and capture its
+ 
+
+00:02:05.490 --> 00:02:09.139 align:start position:0%
+it's going to wait and capture its
+result<00:02:05.909><c> in</c><00:02:06.149><c> cycle</c><00:02:06.390><c> 8</c><00:02:06.869><c> and</c><00:02:07.200><c> then</c><00:02:08.190><c> it</c><00:02:08.610><c> cannot</c>
+
+00:02:09.139 --> 00:02:09.149 align:start position:0%
+result in cycle 8 and then it cannot
+ 
+
+00:02:09.149 --> 00:02:11.029 align:start position:0%
+result in cycle 8 and then it cannot
+capture<00:02:09.509><c> and</c><00:02:09.840><c> then</c><00:02:09.989><c> dispatch</c><00:02:10.470><c> in</c><00:02:10.649><c> the</c><00:02:10.770><c> same</c>
+
+00:02:11.029 --> 00:02:11.039 align:start position:0%
+capture and then dispatch in the same
+ 
+
+00:02:11.039 --> 00:02:13.790 align:start position:0%
+capture and then dispatch in the same
+cycle<00:02:11.340><c> so</c><00:02:12.330><c> it</c><00:02:12.599><c> will</c><00:02:12.810><c> dispatch</c><00:02:13.200><c> in</c><00:02:13.500><c> the</c>
+
+00:02:13.790 --> 00:02:13.800 align:start position:0%
+cycle so it will dispatch in the
+ 
+
+00:02:13.800 --> 00:02:18.560 align:start position:0%
+cycle so it will dispatch in the
+cycle<00:02:14.460><c> which</c><00:02:14.670><c> is</c><00:02:14.850><c> cycle</c><00:02:15.300><c> nine</c><00:02:17.240><c> because</c><00:02:18.240><c> this</c>
+
+00:02:18.560 --> 00:02:18.570 align:start position:0%
+cycle which is cycle nine because this
+ 
+
+00:02:18.570 --> 00:02:20.750 align:start position:0%
+cycle which is cycle nine because this
+is<00:02:18.720><c> an</c><00:02:18.870><c> ad</c><00:02:19.050><c> and</c><00:02:19.320><c> had</c><00:02:19.500><c> a</c><00:02:19.530><c> latency</c><00:02:19.950><c> of</c><00:02:20.100><c> one</c><00:02:20.430><c> cycle</c>
+
+00:02:20.750 --> 00:02:20.760 align:start position:0%
+is an ad and had a latency of one cycle
+ 
+
+00:02:20.760 --> 00:02:24.860 align:start position:0%
+is an ad and had a latency of one cycle
+it<00:02:21.660><c> will</c><00:02:21.930><c> write</c><00:02:22.110><c> its</c><00:02:22.320><c> result</c><00:02:22.500><c> in</c><00:02:22.830><c> cycle</c><00:02:23.010><c> 10</c><00:02:23.870><c> for</c>
+
+00:02:24.860 --> 00:02:24.870 align:start position:0%
+it will write its result in cycle 10 for
+ 
+
+00:02:24.870 --> 00:02:28.550 align:start position:0%
+it will write its result in cycle 10 for
+this<00:02:25.050><c> ad</c><00:02:25.260><c> here</c><00:02:25.740><c> it</c><00:02:26.430><c> issues</c><00:02:27.030><c> in</c><00:02:27.180><c> cycle</c><00:02:27.540><c> four</c><00:02:27.780><c> it</c>
+
+00:02:28.550 --> 00:02:28.560 align:start position:0%
+this ad here it issues in cycle four it
+ 
+
+00:02:28.560 --> 00:02:30.290 align:start position:0%
+this ad here it issues in cycle four it
+becomes<00:02:29.010><c> eligible</c><00:02:29.490><c> for</c><00:02:29.700><c> dispatch</c><00:02:29.940><c> in</c><00:02:30.270><c> cycle</c>
+
+00:02:30.290 --> 00:02:30.300 align:start position:0%
+becomes eligible for dispatch in cycle
+ 
+
+00:02:30.300 --> 00:02:33.680 align:start position:0%
+becomes eligible for dispatch in cycle
+five<00:02:30.840><c> if</c><00:02:31.350><c> its</c><00:02:31.770><c> operands</c><00:02:32.430><c> are</c><00:02:32.580><c> ready</c><00:02:32.910><c> but</c><00:02:33.510><c> they</c>
+
+00:02:33.680 --> 00:02:33.690 align:start position:0%
+five if its operands are ready but they
+ 
+
+00:02:33.690 --> 00:02:34.220 align:start position:0%
+five if its operands are ready but they
+are<00:02:33.750><c> not</c>
+
+00:02:34.220 --> 00:02:34.230 align:start position:0%
+are not
+ 
+
+00:02:34.230 --> 00:02:36.200 align:start position:0%
+are not
+it<00:02:34.470><c> needs</c><00:02:34.860><c> the</c><00:02:35.010><c> f2</c><00:02:35.490><c> produced</c><00:02:35.940><c> by</c><00:02:36.150><c> the</c>
+
+00:02:36.200 --> 00:02:36.210 align:start position:0%
+it needs the f2 produced by the
+ 
+
+00:02:36.210 --> 00:02:39.350 align:start position:0%
+it needs the f2 produced by the
+multiplication<00:02:37.140><c> and</c><00:02:37.290><c> the</c><00:02:37.800><c> f6</c><00:02:38.370><c> produced</c><00:02:39.150><c> by</c>
+
+00:02:39.350 --> 00:02:39.360 align:start position:0%
+multiplication and the f6 produced by
+ 
+
+00:02:39.360 --> 00:02:41.990 align:start position:0%
+multiplication and the f6 produced by
+decide<00:02:39.770><c> that</c><00:02:40.770><c> means</c><00:02:41.130><c> that</c><00:02:41.490><c> it</c><00:02:41.610><c> will</c><00:02:41.730><c> capture</c>
+
+00:02:41.990 --> 00:02:42.000 align:start position:0%
+decide that means that it will capture
+ 
+
+00:02:42.000 --> 00:02:45.380 align:start position:0%
+decide that means that it will capture
+its<00:02:42.450><c> last</c><00:02:42.810><c> missing</c><00:02:43.320><c> operand</c><00:02:43.800><c> at</c><00:02:44.040><c> the</c><00:02:45.000><c> later</c><00:02:45.210><c> of</c>
+
+00:02:45.380 --> 00:02:45.390 align:start position:0%
+its last missing operand at the later of
+ 
+
+00:02:45.390 --> 00:02:49.400 align:start position:0%
+its last missing operand at the later of
+these<00:02:45.660><c> two</c><00:02:45.840><c> cycles</c><00:02:46.290><c> which</c><00:02:46.890><c> is</c><00:02:47.100><c> cycle</c><00:02:47.730><c> ten</c><00:02:48.410><c> so</c>
+
+00:02:49.400 --> 00:02:49.410 align:start position:0%
+these two cycles which is cycle ten so
+ 
+
+00:02:49.410 --> 00:02:51.350 align:start position:0%
+these two cycles which is cycle ten so
+in<00:02:49.530><c> cycle</c><00:02:49.890><c> 10</c><00:02:50.130><c> this</c><00:02:50.430><c> instruction</c><00:02:50.970><c> captures</c>
+
+00:02:51.350 --> 00:02:51.360 align:start position:0%
+in cycle 10 this instruction captures
+ 
+
+00:02:51.360 --> 00:02:53.660 align:start position:0%
+in cycle 10 this instruction captures
+its<00:02:51.570><c> last</c><00:02:51.810><c> missing</c><00:02:52.230><c> operand</c><00:02:52.590><c> which</c><00:02:52.830><c> is</c><00:02:52.980><c> f6</c><00:02:53.400><c> and</c>
+
+00:02:53.660 --> 00:02:53.670 align:start position:0%
+its last missing operand which is f6 and
+ 
+
+00:02:53.670 --> 00:02:57.050 align:start position:0%
+its last missing operand which is f6 and
+then<00:02:54.600><c> it</c><00:02:55.050><c> cannot</c><00:02:55.560><c> dispatch</c><00:02:56.400><c> in</c><00:02:56.640><c> that</c><00:02:56.790><c> same</c>
+
+00:02:57.050 --> 00:02:57.060 align:start position:0%
+then it cannot dispatch in that same
+ 
+
+00:02:57.060 --> 00:03:00.230 align:start position:0%
+then it cannot dispatch in that same
+cycle<00:02:57.630><c> because</c><00:02:58.020><c> of</c><00:02:58.140><c> this</c><00:02:58.350><c> so</c><00:02:59.250><c> it</c><00:02:59.550><c> dispatches</c>
+
+00:03:00.230 --> 00:03:00.240 align:start position:0%
+cycle because of this so it dispatches
+ 
+
+00:03:00.240 --> 00:03:04.660 align:start position:0%
+cycle because of this so it dispatches
+in<00:03:00.390><c> cycle</c><00:03:00.780><c> 11</c><00:03:01.080><c> and</c><00:03:01.550><c> finishes</c><00:03:02.550><c> in</c><00:03:02.760><c> cycle</c><00:03:03.210><c> 12</c><00:03:03.450><c> and</c>
+
+00:03:04.660 --> 00:03:04.670 align:start position:0%
+in cycle 11 and finishes in cycle 12 and
+ 
+
+00:03:04.670 --> 00:03:07.550 align:start position:0%
+in cycle 11 and finishes in cycle 12 and
+this<00:03:05.670><c> completes</c><00:03:06.210><c> the</c><00:03:06.540><c> first</c><00:03:06.750><c> part</c><00:03:06.990><c> of</c><00:03:07.410><c> the</c>
+
+00:03:07.550 --> 00:03:07.560 align:start position:0%
+this completes the first part of the
+ 
+
+00:03:07.560 --> 00:03:09.770 align:start position:0%
+this completes the first part of the
+quiz
+

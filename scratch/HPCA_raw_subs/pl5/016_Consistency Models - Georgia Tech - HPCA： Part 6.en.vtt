@@ -1,0 +1,224 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.710 align:start position:0%
+ 
+So<00:00:00.560><c> finally</c><00:00:01.040><c> let's</c><00:00:01.439><c> take</c><00:00:01.600><c> a</c><00:00:01.760><c> look</c><00:00:02.000><c> at</c><00:00:02.399><c> what</c>
+
+00:00:02.710 --> 00:00:02.720 align:start position:0%
+So finally let's take a look at what
+ 
+
+00:00:02.720 --> 00:00:05.190 align:start position:0%
+So finally let's take a look at what
+kinds<00:00:02.960><c> of</c><00:00:03.200><c> consistency</c><00:00:03.919><c> are</c><00:00:04.160><c> there.</c><00:00:04.799><c> We</c><00:00:05.040><c> know</c>
+
+00:00:05.190 --> 00:00:05.200 align:start position:0%
+kinds of consistency are there. We know
+ 
+
+00:00:05.200 --> 00:00:08.230 align:start position:0%
+kinds of consistency are there. We know
+that<00:00:05.520><c> there</c><00:00:05.680><c> is</c><00:00:06.319><c> sequential</c><00:00:07.000><c> consistency</c><00:00:08.000><c> and</c>
+
+00:00:08.230 --> 00:00:08.240 align:start position:0%
+that there is sequential consistency and
+ 
+
+00:00:08.240 --> 00:00:11.110 align:start position:0%
+that there is sequential consistency and
+then<00:00:08.960><c> there</c><00:00:09.200><c> is</c><00:00:09.519><c> a</c><00:00:09.840><c> family</c><00:00:10.240><c> of</c><00:00:10.480><c> relaxed</c>
+
+00:00:11.110 --> 00:00:11.120 align:start position:0%
+then there is a family of relaxed
+ 
+
+00:00:11.120 --> 00:00:13.589 align:start position:0%
+then there is a family of relaxed
+consistency<00:00:11.759><c> models</c><00:00:12.639><c> which</c><00:00:12.880><c> are</c><00:00:13.120><c> allowed</c><00:00:13.440><c> to</c>
+
+00:00:13.589 --> 00:00:13.599 align:start position:0%
+consistency models which are allowed to
+ 
+
+00:00:13.599 --> 00:00:15.509 align:start position:0%
+consistency models which are allowed to
+violate<00:00:14.080><c> one</c><00:00:14.320><c> or</c><00:00:14.559><c> more</c><00:00:14.799><c> of</c><00:00:14.960><c> those</c><00:00:15.200><c> four</c>
+
+00:00:15.509 --> 00:00:15.519 align:start position:0%
+violate one or more of those four
+ 
+
+00:00:15.519 --> 00:00:18.390 align:start position:0%
+violate one or more of those four
+ordering<00:00:16.000><c> rules.</c><00:00:16.720><c> And</c><00:00:16.960><c> the</c><00:00:17.199><c> models</c><00:00:17.600><c> that</c><00:00:18.080><c> have</c>
+
+00:00:18.390 --> 00:00:18.400 align:start position:0%
+ordering rules. And the models that have
+ 
+
+00:00:18.400 --> 00:00:20.630 align:start position:0%
+ordering rules. And the models that have
+actually<00:00:18.720><c> been</c><00:00:18.960><c> proposed</c><00:00:19.840><c> and</c><00:00:20.160><c> sometimes</c>
+
+00:00:20.630 --> 00:00:20.640 align:start position:0%
+actually been proposed and sometimes
+ 
+
+00:00:20.640 --> 00:00:23.109 align:start position:0%
+actually been proposed and sometimes
+used<00:00:21.039><c> are</c><00:00:21.359><c> called</c><00:00:21.600><c> weak</c><00:00:22.119><c> consistency,</c>
+
+00:00:23.109 --> 00:00:23.119 align:start position:0%
+used are called weak consistency,
+ 
+
+00:00:23.119 --> 00:00:25.630 align:start position:0%
+used are called weak consistency,
+processor<00:00:23.960><c> consistency,</c><00:00:24.960><c> release</c>
+
+00:00:25.630 --> 00:00:25.640 align:start position:0%
+processor consistency, release
+ 
+
+00:00:25.640 --> 00:00:28.870 align:start position:0%
+processor consistency, release
+consistency,<00:00:26.640><c> lazy</c><00:00:27.119><c> release</c><00:00:27.880><c> consistency,</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+consistency, lazy release consistency,
+ 
+
+00:00:28.880 --> 00:00:31.349 align:start position:0%
+consistency, lazy release consistency,
+scope<00:00:29.279><c> consistency,</c><00:00:30.640><c> etc.</c><00:00:31.039><c> There</c><00:00:31.199><c> are</c>
+
+00:00:31.349 --> 00:00:31.359 align:start position:0%
+scope consistency, etc. There are
+ 
+
+00:00:31.359 --> 00:00:33.430 align:start position:0%
+scope consistency, etc. There are
+actually<00:00:31.679><c> many</c><00:00:32.079><c> many</c><00:00:32.399><c> relax</c><00:00:32.800><c> consistency</c>
+
+00:00:33.430 --> 00:00:33.440 align:start position:0%
+actually many many relax consistency
+ 
+
+00:00:33.440 --> 00:00:36.470 align:start position:0%
+actually many many relax consistency
+models,<00:00:33.920><c> too</c><00:00:34.239><c> many</c><00:00:34.640><c> to</c><00:00:35.040><c> actually</c><00:00:35.920><c> explain</c>
+
+00:00:36.470 --> 00:00:36.480 align:start position:0%
+models, too many to actually explain
+ 
+
+00:00:36.480 --> 00:00:39.750 align:start position:0%
+models, too many to actually explain
+here.<00:00:37.360><c> But</c><00:00:37.600><c> the</c><00:00:37.840><c> key</c><00:00:38.000><c> to</c><00:00:38.239><c> all</c><00:00:38.480><c> of</c><00:00:38.640><c> them</c><00:00:39.280><c> is</c><00:00:39.520><c> that</c>
+
+00:00:39.750 --> 00:00:39.760 align:start position:0%
+here. But the key to all of them is that
+ 
+
+00:00:39.760 --> 00:00:42.350 align:start position:0%
+here. But the key to all of them is that
+although<00:00:40.160><c> they</c><00:00:40.399><c> allow</c><00:00:40.760><c> arbitrary</c>
+
+00:00:42.350 --> 00:00:42.360 align:start position:0%
+although they allow arbitrary
+ 
+
+00:00:42.360 --> 00:00:45.510 align:start position:0%
+although they allow arbitrary
+reorderings<00:00:43.360><c> or</c><00:00:43.680><c> maybe</c><00:00:44.559><c> some</c><00:00:44.879><c> reorderings</c>
+
+00:00:45.510 --> 00:00:45.520 align:start position:0%
+reorderings or maybe some reorderings
+ 
+
+00:00:45.520 --> 00:00:47.990 align:start position:0%
+reorderings or maybe some reorderings
+among<00:00:45.840><c> data</c><00:00:46.239><c> operations,</c><00:00:46.960><c> all</c><00:00:47.200><c> of</c><00:00:47.360><c> them</c>
+
+00:00:47.990 --> 00:00:48.000 align:start position:0%
+among data operations, all of them
+ 
+
+00:00:48.000 --> 00:00:50.549 align:start position:0%
+among data operations, all of them
+support<00:00:48.879><c> synchronization</c><00:00:49.680><c> operations</c><00:00:50.239><c> that</c>
+
+00:00:50.549 --> 00:00:50.559 align:start position:0%
+support synchronization operations that
+ 
+
+00:00:50.559 --> 00:00:53.510 align:start position:0%
+support synchronization operations that
+allow<00:00:50.879><c> you</c><00:00:51.120><c> to</c><00:00:51.760><c> ensure</c><00:00:52.320><c> that</c><00:00:52.800><c> the</c><00:00:53.039><c> ordering</c>
+
+00:00:53.510 --> 00:00:53.520 align:start position:0%
+allow you to ensure that the ordering
+ 
+
+00:00:53.520 --> 00:00:55.830 align:start position:0%
+allow you to ensure that the ordering
+that<00:00:53.680><c> you</c><00:00:53.840><c> really</c><00:00:54.079><c> want</c><00:00:54.320><c> in</c><00:00:54.559><c> your</c><00:00:54.840><c> program</c>
+
+00:00:55.830 --> 00:00:55.840 align:start position:0%
+that you really want in your program
+ 
+
+00:00:55.840 --> 00:00:58.389 align:start position:0%
+that you really want in your program
+gets<00:00:56.160><c> to</c><00:00:56.399><c> happen.</c><00:00:57.280><c> Some</c><00:00:57.440><c> of</c><00:00:57.600><c> them</c><00:00:57.760><c> do</c><00:00:57.920><c> it</c><00:00:58.160><c> by</c>
+
+00:00:58.389 --> 00:00:58.399 align:start position:0%
+gets to happen. Some of them do it by
+ 
+
+00:00:58.399 --> 00:01:00.229 align:start position:0%
+gets to happen. Some of them do it by
+doing<00:00:58.879><c> something</c><00:00:59.199><c> like</c><00:00:59.359><c> the</c><00:00:59.600><c> mync</c>
+
+00:01:00.229 --> 00:01:00.239 align:start position:0%
+doing something like the mync
+ 
+
+00:01:00.239 --> 00:01:01.990 align:start position:0%
+doing something like the mync
+operations.<00:01:00.879><c> Some</c><00:01:01.039><c> of</c><00:01:01.120><c> them</c><00:01:01.280><c> do</c><00:01:01.440><c> it</c><00:01:01.600><c> by</c><00:01:01.760><c> using</c>
+
+00:01:01.990 --> 00:01:02.000 align:start position:0%
+operations. Some of them do it by using
+ 
+
+00:01:02.000 --> 00:01:03.830 align:start position:0%
+operations. Some of them do it by using
+more<00:01:02.320><c> refined</c><00:01:02.879><c> memory</c><00:01:03.280><c> synchronization</c>
+
+00:01:03.830 --> 00:01:03.840 align:start position:0%
+more refined memory synchronization
+ 
+
+00:01:03.840 --> 00:01:06.149 align:start position:0%
+more refined memory synchronization
+operations.<00:01:04.879><c> Some</c><00:01:05.119><c> of</c><00:01:05.199><c> them</c><00:01:05.439><c> do</c><00:01:05.519><c> it</c><00:01:05.840><c> by</c>
+
+00:01:06.149 --> 00:01:06.159 align:start position:0%
+operations. Some of them do it by
+ 
+
+00:01:06.159 --> 00:01:07.990 align:start position:0%
+operations. Some of them do it by
+actually<00:01:06.479><c> calling</c><00:01:06.880><c> library</c><00:01:07.360><c> functions</c><00:01:07.760><c> that</c>
+
+00:01:07.990 --> 00:01:08.000 align:start position:0%
+actually calling library functions that
+ 
+
+00:01:08.000 --> 00:01:11.520 align:start position:0%
+actually calling library functions that
+are<00:01:08.159><c> ensuring</c><00:01:08.479><c> such</c><00:01:08.720><c> ordering</c><00:01:09.119><c> and</c><00:01:09.360><c> so</c>
+

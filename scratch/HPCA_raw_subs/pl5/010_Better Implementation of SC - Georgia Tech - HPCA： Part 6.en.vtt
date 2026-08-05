@@ -1,0 +1,688 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:02.389 align:start position:0%
+ 
+so<00:00:00.780><c> let's</c><00:00:00.960><c> look</c><00:00:01.199><c> at</c><00:00:01.319><c> a</c><00:00:01.560><c> better</c><00:00:01.740><c> implementation</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+so let's look at a better implementation
+ 
+
+00:00:02.399 --> 00:00:05.390 align:start position:0%
+so let's look at a better implementation
+of<00:00:02.639><c> sequential</c><00:00:03.060><c> consistency</c><00:00:03.620><c> in</c><00:00:04.620><c> which</c><00:00:04.799><c> a</c>
+
+00:00:05.390 --> 00:00:05.400 align:start position:0%
+of sequential consistency in which a
+ 
+
+00:00:05.400 --> 00:00:08.030 align:start position:0%
+of sequential consistency in which a
+core<00:00:05.520><c> can</c><00:00:05.880><c> reorder</c><00:00:06.420><c> loads</c><00:00:06.839><c> but</c><00:00:07.500><c> this</c><00:00:07.680><c> can</c><00:00:07.859><c> lead</c>
+
+00:00:08.030 --> 00:00:08.040 align:start position:0%
+core can reorder loads but this can lead
+ 
+
+00:00:08.040 --> 00:00:10.430 align:start position:0%
+core can reorder loads but this can lead
+to<00:00:08.220><c> violations</c><00:00:08.700><c> of</c><00:00:08.940><c> sequential</c><00:00:09.360><c> consistency</c>
+
+00:00:10.430 --> 00:00:10.440 align:start position:0%
+to violations of sequential consistency
+ 
+
+00:00:10.440 --> 00:00:13.430 align:start position:0%
+to violations of sequential consistency
+so<00:00:10.920><c> it</c><00:00:11.040><c> has</c><00:00:11.219><c> to</c><00:00:11.400><c> also</c><00:00:11.820><c> detect</c><00:00:12.719><c> when</c><00:00:12.960><c> sequential</c>
+
+00:00:13.430 --> 00:00:13.440 align:start position:0%
+so it has to also detect when sequential
+ 
+
+00:00:13.440 --> 00:00:16.369 align:start position:0%
+so it has to also detect when sequential
+consistency<00:00:13.920><c> may</c><00:00:14.340><c> be</c><00:00:14.519><c> violated</c><00:00:15.000><c> and</c><00:00:15.960><c> fixed</c>
+
+00:00:16.369 --> 00:00:16.379 align:start position:0%
+consistency may be violated and fixed
+ 
+
+00:00:16.379 --> 00:00:17.269 align:start position:0%
+consistency may be violated and fixed
+things
+
+00:00:17.269 --> 00:00:17.279 align:start position:0%
+things
+ 
+
+00:00:17.279 --> 00:00:20.390 align:start position:0%
+things
+this<00:00:17.760><c> is</c><00:00:17.880><c> of</c><00:00:18.060><c> course</c><00:00:18.180><c> easy</c><00:00:18.420><c> to</c><00:00:18.720><c> say</c><00:00:18.900><c> but</c><00:00:19.260><c> how</c><00:00:20.039><c> do</c>
+
+00:00:20.390 --> 00:00:20.400 align:start position:0%
+this is of course easy to say but how do
+ 
+
+00:00:20.400 --> 00:00:22.670 align:start position:0%
+this is of course easy to say but how do
+we<00:00:20.580><c> really</c><00:00:20.760><c> do</c><00:00:21.000><c> that</c><00:00:21.180><c> so</c><00:00:21.960><c> let's</c><00:00:22.080><c> look</c><00:00:22.320><c> at</c><00:00:22.500><c> a</c>
+
+00:00:22.670 --> 00:00:22.680 align:start position:0%
+we really do that so let's look at a
+ 
+
+00:00:22.680 --> 00:00:25.970 align:start position:0%
+we really do that so let's look at a
+program<00:00:22.859><c> where</c><00:00:23.279><c> there</c><00:00:23.520><c> is</c><00:00:23.640><c> a</c><00:00:24.119><c> load</c><00:00:24.779><c> to</c><00:00:24.960><c> a</c><00:00:25.320><c> and</c>
+
+00:00:25.970 --> 00:00:25.980 align:start position:0%
+program where there is a load to a and
+ 
+
+00:00:25.980 --> 00:00:28.490 align:start position:0%
+program where there is a load to a and
+then<00:00:26.160><c> sometime</c><00:00:26.760><c> later</c><00:00:27.119><c> but</c><00:00:27.840><c> not</c><00:00:28.080><c> too</c><00:00:28.320><c> much</c>
+
+00:00:28.490 --> 00:00:28.500 align:start position:0%
+then sometime later but not too much
+ 
+
+00:00:28.500 --> 00:00:31.669 align:start position:0%
+then sometime later but not too much
+later<00:00:28.800><c> a</c><00:00:29.460><c> load</c><00:00:29.820><c> from</c><00:00:30.060><c> B</c><00:00:30.359><c> so</c><00:00:30.960><c> we</c><00:00:31.140><c> need</c><00:00:31.320><c> to</c><00:00:31.439><c> make</c>
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+later a load from B so we need to make
+ 
+
+00:00:31.679 --> 00:00:34.850 align:start position:0%
+later a load from B so we need to make
+this<00:00:31.859><c> execute</c><00:00:32.340><c> in</c><00:00:32.700><c> order</c><00:00:32.960><c> if</c><00:00:33.960><c> doing</c><00:00:34.200><c> otherwise</c>
+
+00:00:34.850 --> 00:00:34.860 align:start position:0%
+this execute in order if doing otherwise
+ 
+
+00:00:34.860 --> 00:00:37.370 align:start position:0%
+this execute in order if doing otherwise
+will<00:00:35.100><c> violate</c><00:00:35.520><c> sequential</c><00:00:36.000><c> consistency</c><00:00:36.480><c> but</c>
+
+00:00:37.370 --> 00:00:37.380 align:start position:0%
+will violate sequential consistency but
+ 
+
+00:00:37.380 --> 00:00:39.110 align:start position:0%
+will violate sequential consistency but
+we<00:00:37.559><c> want</c><00:00:37.739><c> to</c><00:00:37.920><c> really</c><00:00:38.100><c> execute</c><00:00:38.579><c> them</c><00:00:38.760><c> out</c><00:00:38.940><c> of</c>
+
+00:00:39.110 --> 00:00:39.120 align:start position:0%
+we want to really execute them out of
+ 
+
+00:00:39.120 --> 00:00:41.690 align:start position:0%
+we want to really execute them out of
+order<00:00:39.379><c> if</c><00:00:40.379><c> there</c><00:00:40.559><c> is</c><00:00:40.739><c> no</c><00:00:40.920><c> potential</c><00:00:41.340><c> for</c>
+
+00:00:41.690 --> 00:00:41.700 align:start position:0%
+order if there is no potential for
+ 
+
+00:00:41.700 --> 00:00:43.970 align:start position:0%
+order if there is no potential for
+sequential<00:00:42.360><c> consistency</c><00:00:42.840><c> violation</c>
+
+00:00:43.970 --> 00:00:43.980 align:start position:0%
+sequential consistency violation
+ 
+
+00:00:43.980 --> 00:00:46.310 align:start position:0%
+sequential consistency violation
+so<00:00:44.640><c> let's</c><00:00:44.820><c> look</c><00:00:45.120><c> at</c><00:00:45.360><c> what</c><00:00:45.600><c> happens</c><00:00:45.840><c> in</c><00:00:46.140><c> the</c>
+
+00:00:46.310 --> 00:00:46.320 align:start position:0%
+so let's look at what happens in the
+ 
+
+00:00:46.320 --> 00:00:48.470 align:start position:0%
+so let's look at what happens in the
+reorder<00:00:46.680><c> buffer</c><00:00:47.100><c> of</c><00:00:47.340><c> a</c><00:00:47.520><c> processor</c><00:00:48.000><c> that</c><00:00:48.239><c> tries</c>
+
+00:00:48.470 --> 00:00:48.480 align:start position:0%
+reorder buffer of a processor that tries
+ 
+
+00:00:48.480 --> 00:00:51.410 align:start position:0%
+reorder buffer of a processor that tries
+to<00:00:48.600><c> execute</c><00:00:48.960><c> this</c><00:00:49.680><c> the</c><00:00:50.280><c> reorder</c><00:00:50.700><c> buffer</c><00:00:51.059><c> keeps</c>
+
+00:00:51.410 --> 00:00:51.420 align:start position:0%
+to execute this the reorder buffer keeps
+ 
+
+00:00:51.420 --> 00:00:53.930 align:start position:0%
+to execute this the reorder buffer keeps
+instructions<00:00:51.899><c> in</c><00:00:52.140><c> program</c><00:00:52.379><c> order</c><00:00:52.739><c> so</c><00:00:53.579><c> the</c>
+
+00:00:53.930 --> 00:00:53.940 align:start position:0%
+instructions in program order so the
+ 
+
+00:00:53.940 --> 00:00:55.910 align:start position:0%
+instructions in program order so the
+first<00:00:54.420><c> load</c><00:00:54.840><c> will</c><00:00:55.140><c> be</c>
+
+00:00:55.910 --> 00:00:55.920 align:start position:0%
+first load will be
+ 
+
+00:00:55.920 --> 00:00:59.330 align:start position:0%
+first load will be
+known<00:00:56.640><c> to</c><00:00:56.879><c> come</c><00:00:57.059><c> ahead</c><00:00:57.420><c> of</c><00:00:57.600><c> the</c><00:00:57.780><c> second</c><00:00:57.960><c> load</c>
+
+00:00:59.330 --> 00:00:59.340 align:start position:0%
+known to come ahead of the second load
+ 
+
+00:00:59.340 --> 00:01:02.930 align:start position:0%
+known to come ahead of the second load
+now<00:01:00.000><c> if</c><00:01:00.480><c> we</c><00:01:00.780><c> actually</c><00:01:01.079><c> do</c><00:01:01.739><c> this</c><00:01:02.160><c> axis</c><00:01:02.579><c> first</c>
+
+00:01:02.930 --> 00:01:02.940 align:start position:0%
+now if we actually do this axis first
+ 
+
+00:01:02.940 --> 00:01:05.270 align:start position:0%
+now if we actually do this axis first
+and<00:01:03.420><c> this</c><00:01:03.719><c> second</c><00:01:04.019><c> then</c><00:01:04.619><c> there</c><00:01:04.860><c> is</c><00:01:05.040><c> no</c>
+
+00:01:05.270 --> 00:01:05.280 align:start position:0%
+and this second then there is no
+ 
+
+00:01:05.280 --> 00:01:06.890 align:start position:0%
+and this second then there is no
+potential<00:01:05.700><c> for</c><00:01:05.939><c> violating</c><00:01:06.360><c> sequential</c>
+
+00:01:06.890 --> 00:01:06.900 align:start position:0%
+potential for violating sequential
+ 
+
+00:01:06.900 --> 00:01:08.210 align:start position:0%
+potential for violating sequential
+consistency<00:01:07.320><c> because</c><00:01:07.680><c> we</c><00:01:07.920><c> are</c><00:01:08.100><c> actually</c>
+
+00:01:08.210 --> 00:01:08.220 align:start position:0%
+consistency because we are actually
+ 
+
+00:01:08.220 --> 00:01:10.010 align:start position:0%
+consistency because we are actually
+doing<00:01:08.460><c> whatever</c><00:01:08.820><c> the</c><00:01:09.240><c> simple</c><00:01:09.420><c> implementation</c>
+
+00:01:10.010 --> 00:01:10.020 align:start position:0%
+doing whatever the simple implementation
+ 
+
+00:01:10.020 --> 00:01:12.109 align:start position:0%
+doing whatever the simple implementation
+would<00:01:10.260><c> do</c><00:01:10.439><c> anyway</c><00:01:10.680><c> so</c><00:01:11.460><c> the</c><00:01:11.640><c> sequential</c>
+
+00:01:12.109 --> 00:01:12.119 align:start position:0%
+would do anyway so the sequential
+ 
+
+00:01:12.119 --> 00:01:14.270 align:start position:0%
+would do anyway so the sequential
+consistency<00:01:12.540><c> evaluation</c><00:01:13.020><c> can</c><00:01:13.320><c> occur</c><00:01:13.680><c> when</c><00:01:13.920><c> we</c>
+
+00:01:14.270 --> 00:01:14.280 align:start position:0%
+consistency evaluation can occur when we
+ 
+
+00:01:14.280 --> 00:01:15.590 align:start position:0%
+consistency evaluation can occur when we
+first
+
+00:01:15.590 --> 00:01:15.600 align:start position:0%
+first
+ 
+
+00:01:15.600 --> 00:01:17.810 align:start position:0%
+first
+do<00:01:16.200><c> load</c><00:01:16.560><c> B</c>
+
+00:01:17.810 --> 00:01:17.820 align:start position:0%
+do load B
+ 
+
+00:01:17.820 --> 00:01:20.929 align:start position:0%
+do load B
+in<00:01:18.360><c> our</c><00:01:18.600><c> real</c><00:01:18.840><c> execution</c><00:01:19.380><c> order</c>
+
+00:01:20.929 --> 00:01:20.939 align:start position:0%
+in our real execution order
+ 
+
+00:01:20.939 --> 00:01:23.690 align:start position:0%
+in our real execution order
+and<00:01:21.780><c> later</c><00:01:22.140><c> for</c><00:01:22.799><c> example</c><00:01:23.040><c> because</c><00:01:23.340><c> the</c>
+
+00:01:23.690 --> 00:01:23.700 align:start position:0%
+and later for example because the
+ 
+
+00:01:23.700 --> 00:01:25.670 align:start position:0%
+and later for example because the
+computation<00:01:24.119><c> for</c><00:01:24.420><c> address</c><00:01:24.659><c> of</c><00:01:25.020><c> a</c><00:01:25.200><c> has</c><00:01:25.500><c> been</c>
+
+00:01:25.670 --> 00:01:25.680 align:start position:0%
+computation for address of a has been
+ 
+
+00:01:25.680 --> 00:01:28.490 align:start position:0%
+computation for address of a has been
+delayed<00:01:26.040><c> we</c><00:01:26.340><c> do</c><00:01:26.520><c> load</c><00:01:27.000><c> of</c><00:01:27.180><c> a</c><00:01:27.420><c> now</c><00:01:28.200><c> the</c>
+
+00:01:28.490 --> 00:01:28.500 align:start position:0%
+delayed we do load of a now the
+ 
+
+00:01:28.500 --> 00:01:30.230 align:start position:0%
+delayed we do load of a now the
+important<00:01:28.799><c> thing</c><00:01:28.979><c> to</c><00:01:29.220><c> note</c><00:01:29.340><c> is</c><00:01:29.580><c> that</c><00:01:29.820><c> this</c><00:01:30.000><c> is</c>
+
+00:01:30.230 --> 00:01:30.240 align:start position:0%
+important thing to note is that this is
+ 
+
+00:01:30.240 --> 00:01:32.270 align:start position:0%
+important thing to note is that this is
+not<00:01:30.540><c> necessarily</c><00:01:31.259><c> a</c><00:01:31.680><c> violation</c><00:01:32.100><c> of</c>
+
+00:01:32.270 --> 00:01:32.280 align:start position:0%
+not necessarily a violation of
+ 
+
+00:01:32.280 --> 00:01:35.210 align:start position:0%
+not necessarily a violation of
+sequential<00:01:32.759><c> consistency</c><00:01:33.360><c> if</c><00:01:34.200><c> nobody</c><00:01:34.619><c> writes</c>
+
+00:01:35.210 --> 00:01:35.220 align:start position:0%
+sequential consistency if nobody writes
+ 
+
+00:01:35.220 --> 00:01:38.690 align:start position:0%
+sequential consistency if nobody writes
+either<00:01:35.640><c> b</c><00:01:35.939><c> or</c><00:01:36.119><c> a</c><00:01:36.299><c> during</c><00:01:36.600><c> this</c><00:01:36.960><c> time</c><00:01:37.140><c> then</c><00:01:38.040><c> the</c>
+
+00:01:38.690 --> 00:01:38.700 align:start position:0%
+either b or a during this time then the
+ 
+
+00:01:38.700 --> 00:01:41.770 align:start position:0%
+either b or a during this time then the
+B<00:01:38.939><c> here</c><00:01:39.240><c> and</c><00:01:39.960><c> the</c><00:01:40.140><c> a</c><00:01:40.320><c> here</c><00:01:40.560><c> will</c><00:01:40.979><c> be</c><00:01:41.159><c> the</c><00:01:41.460><c> same</c>
+
+00:01:41.770 --> 00:01:41.780 align:start position:0%
+B here and the a here will be the same
+ 
+
+00:01:41.780 --> 00:01:45.410 align:start position:0%
+B here and the a here will be the same
+as<00:01:42.780><c> if</c><00:01:43.020><c> we</c><00:01:43.860><c> reorder</c><00:01:44.400><c> them</c><00:01:44.579><c> back</c><00:01:44.880><c> to</c><00:01:45.240><c> their</c>
+
+00:01:45.410 --> 00:01:45.420 align:start position:0%
+as if we reorder them back to their
+ 
+
+00:01:45.420 --> 00:01:47.030 align:start position:0%
+as if we reorder them back to their
+original<00:01:45.659><c> program</c><00:01:46.020><c> order</c><00:01:46.380><c> so</c><00:01:46.619><c> we</c><00:01:46.740><c> are</c><00:01:46.920><c> getting</c>
+
+00:01:47.030 --> 00:01:47.040 align:start position:0%
+original program order so we are getting
+ 
+
+00:01:47.040 --> 00:01:49.249 align:start position:0%
+original program order so we are getting
+the<00:01:47.280><c> same</c><00:01:47.460><c> value</c><00:01:47.700><c> of</c><00:01:47.939><c> B</c><00:01:48.119><c> no</c><00:01:48.479><c> matter</c><00:01:48.659><c> where</c><00:01:49.079><c> we</c>
+
+00:01:49.249 --> 00:01:49.259 align:start position:0%
+the same value of B no matter where we
+ 
+
+00:01:49.259 --> 00:01:50.510 align:start position:0%
+the same value of B no matter where we
+load<00:01:49.560><c> it</c>
+
+00:01:50.510 --> 00:01:50.520 align:start position:0%
+load it
+ 
+
+00:01:50.520 --> 00:01:52.850 align:start position:0%
+load it
+if<00:01:51.180><c> nobody</c><00:01:51.540><c> writes</c><00:01:52.020><c> anything</c>
+
+00:01:52.850 --> 00:01:52.860 align:start position:0%
+if nobody writes anything
+ 
+
+00:01:52.860 --> 00:01:54.710 align:start position:0%
+if nobody writes anything
+in<00:01:53.700><c> fact</c>
+
+00:01:54.710 --> 00:01:54.720 align:start position:0%
+in fact
+ 
+
+00:01:54.720 --> 00:01:57.289 align:start position:0%
+in fact
+for<00:01:55.320><c> this</c><00:01:55.500><c> to</c><00:01:55.740><c> actually</c><00:01:55.920><c> be</c><00:01:56.399><c> a</c><00:01:56.759><c> violation</c><00:01:57.119><c> of</c>
+
+00:01:57.289 --> 00:01:57.299 align:start position:0%
+for this to actually be a violation of
+ 
+
+00:01:57.299 --> 00:01:59.569 align:start position:0%
+for this to actually be a violation of
+sequential<00:01:57.780><c> consistency</c><00:01:58.320><c> like</c><00:01:59.100><c> we</c><00:01:59.399><c> can</c>
+
+00:01:59.569 --> 00:01:59.579 align:start position:0%
+sequential consistency like we can
+ 
+
+00:01:59.579 --> 00:02:01.969 align:start position:0%
+sequential consistency like we can
+actually<00:01:59.700><c> get</c><00:02:00.119><c> a</c><00:02:00.780><c> different</c><00:02:00.960><c> value</c><00:02:01.380><c> for</c><00:02:01.680><c> B</c>
+
+00:02:01.969 --> 00:02:01.979 align:start position:0%
+actually get a different value for B
+ 
+
+00:02:01.979 --> 00:02:04.550 align:start position:0%
+actually get a different value for B
+than<00:02:02.640><c> we</c><00:02:03.000><c> could</c><00:02:03.180><c> in</c><00:02:03.540><c> sequential</c><00:02:04.020><c> consistency</c>
+
+00:02:04.550 --> 00:02:04.560 align:start position:0%
+than we could in sequential consistency
+ 
+
+00:02:04.560 --> 00:02:07.609 align:start position:0%
+than we could in sequential consistency
+what<00:02:05.399><c> has</c><00:02:05.700><c> to</c><00:02:05.880><c> happen</c><00:02:06.180><c> is</c><00:02:06.600><c> that</c><00:02:06.840><c> there</c><00:02:07.079><c> is</c><00:02:07.259><c> at</c>
+
+00:02:07.609 --> 00:02:07.619 align:start position:0%
+what has to happen is that there is at
+ 
+
+00:02:07.619 --> 00:02:09.830 align:start position:0%
+what has to happen is that there is at
+least<00:02:07.799><c> one</c><00:02:08.280><c> store</c><00:02:08.580><c> to</c><00:02:08.940><c> be</c>
+
+00:02:09.830 --> 00:02:09.840 align:start position:0%
+least one store to be
+ 
+
+00:02:09.840 --> 00:02:12.770 align:start position:0%
+least one store to be
+between<00:02:10.440><c> the</c><00:02:10.860><c> time</c><00:02:11.039><c> we</c><00:02:11.280><c> actually</c><00:02:11.520><c> read</c><00:02:11.819><c> B</c>
+
+00:02:12.770 --> 00:02:12.780 align:start position:0%
+between the time we actually read B
+ 
+
+00:02:12.780 --> 00:02:15.290 align:start position:0%
+between the time we actually read B
+and<00:02:13.319><c> the</c><00:02:13.500><c> time</c><00:02:13.800><c> when</c><00:02:14.220><c> we</c><00:02:14.459><c> should</c><00:02:14.700><c> have</c><00:02:14.879><c> read</c><00:02:15.060><c> B</c>
+
+00:02:15.290 --> 00:02:15.300 align:start position:0%
+and the time when we should have read B
+ 
+
+00:02:15.300 --> 00:02:18.410 align:start position:0%
+and the time when we should have read B
+according<00:02:15.959><c> to</c><00:02:16.140><c> sequential</c><00:02:16.680><c> consistency</c><00:02:17.700><c> why</c>
+
+00:02:18.410 --> 00:02:18.420 align:start position:0%
+according to sequential consistency why
+ 
+
+00:02:18.420 --> 00:02:20.630 align:start position:0%
+according to sequential consistency why
+well<00:02:18.720><c> because</c><00:02:18.959><c> if</c><00:02:19.440><c> we</c><00:02:19.739><c> don't</c><00:02:19.920><c> have</c><00:02:20.220><c> the</c><00:02:20.459><c> store</c>
+
+00:02:20.630 --> 00:02:20.640 align:start position:0%
+well because if we don't have the store
+ 
+
+00:02:20.640 --> 00:02:21.589 align:start position:0%
+well because if we don't have the store
+here
+
+00:02:21.589 --> 00:02:21.599 align:start position:0%
+here
+ 
+
+00:02:21.599 --> 00:02:24.350 align:start position:0%
+here
+then<00:02:22.200><c> the</c><00:02:22.440><c> value</c><00:02:22.560><c> we</c><00:02:22.800><c> write</c><00:02:22.980><c> here</c><00:02:23.280><c> is</c><00:02:23.879><c> the</c><00:02:24.180><c> same</c>
+
+00:02:24.350 --> 00:02:24.360 align:start position:0%
+then the value we write here is the same
+ 
+
+00:02:24.360 --> 00:02:26.390 align:start position:0%
+then the value we write here is the same
+as<00:02:24.900><c> the</c><00:02:25.140><c> value</c><00:02:25.319><c> that</c><00:02:25.620><c> we</c><00:02:25.800><c> would</c><00:02:26.040><c> have</c><00:02:26.220><c> read</c>
+
+00:02:26.390 --> 00:02:26.400 align:start position:0%
+as the value that we would have read
+ 
+
+00:02:26.400 --> 00:02:29.930 align:start position:0%
+as the value that we would have read
+here<00:02:26.700><c> where</c><00:02:27.660><c> it</c><00:02:28.140><c> would</c><00:02:28.319><c> be</c><00:02:28.440><c> okay</c><00:02:28.680><c> to</c><00:02:28.980><c> read</c><00:02:29.099><c> B</c><00:02:29.340><c> so</c>
+
+00:02:29.930 --> 00:02:29.940 align:start position:0%
+here where it would be okay to read B so
+ 
+
+00:02:29.940 --> 00:02:31.490 align:start position:0%
+here where it would be okay to read B so
+now<00:02:30.180><c> we</c><00:02:30.300><c> can</c><00:02:30.420><c> see</c><00:02:30.599><c> how</c><00:02:30.780><c> we</c><00:02:30.959><c> can</c><00:02:31.080><c> detect</c>
+
+00:02:31.490 --> 00:02:31.500 align:start position:0%
+now we can see how we can detect
+ 
+
+00:02:31.500 --> 00:02:33.170 align:start position:0%
+now we can see how we can detect
+violations<00:02:32.040><c> of</c><00:02:32.220><c> sequential</c><00:02:32.700><c> consistency</c>
+
+00:02:33.170 --> 00:02:33.180 align:start position:0%
+violations of sequential consistency
+ 
+
+00:02:33.180 --> 00:02:36.589 align:start position:0%
+violations of sequential consistency
+when<00:02:34.080><c> we</c><00:02:34.319><c> read</c><00:02:34.500><c> something</c><00:02:34.940><c> ahead</c><00:02:35.940><c> of</c><00:02:36.239><c> program</c>
+
+00:02:36.589 --> 00:02:36.599 align:start position:0%
+when we read something ahead of program
+ 
+
+00:02:36.599 --> 00:02:40.010 align:start position:0%
+when we read something ahead of program
+order<00:02:37.020><c> we</c><00:02:37.920><c> need</c><00:02:38.040><c> to</c><00:02:38.160><c> start</c><00:02:38.400><c> monitoring</c><00:02:39.239><c> the</c>
+
+00:02:40.010 --> 00:02:40.020 align:start position:0%
+order we need to start monitoring the
+ 
+
+00:02:40.020 --> 00:02:41.690 align:start position:0%
+order we need to start monitoring the
+coherence<00:02:40.500><c> traffic</c><00:02:40.739><c> produced</c><00:02:41.340><c> by</c><00:02:41.459><c> other</c>
+
+00:02:41.690 --> 00:02:41.700 align:start position:0%
+coherence traffic produced by other
+ 
+
+00:02:41.700 --> 00:02:44.449 align:start position:0%
+coherence traffic produced by other
+processors<00:02:42.360><c> so</c><00:02:43.260><c> if</c><00:02:43.440><c> we</c><00:02:43.620><c> see</c><00:02:43.800><c> such</c><00:02:44.040><c> a</c><00:02:44.220><c> store</c>
+
+00:02:44.449 --> 00:02:44.459 align:start position:0%
+processors so if we see such a store
+ 
+
+00:02:44.459 --> 00:02:47.449 align:start position:0%
+processors so if we see such a store
+then<00:02:45.120><c> this</c><00:02:45.420><c> load</c><00:02:45.840><c> and</c><00:02:46.200><c> anything</c><00:02:46.560><c> that</c><00:02:47.099><c> it</c><00:02:47.220><c> fed</c>
+
+00:02:47.449 --> 00:02:47.459 align:start position:0%
+then this load and anything that it fed
+ 
+
+00:02:47.459 --> 00:02:50.570 align:start position:0%
+then this load and anything that it fed
+the<00:02:47.760><c> data</c><00:02:48.120><c> to</c><00:02:48.239><c> must</c><00:02:48.840><c> be</c><00:02:49.019><c> replayed</c><00:02:49.560><c> note</c><00:02:50.340><c> that</c>
+
+00:02:50.570 --> 00:02:50.580 align:start position:0%
+the data to must be replayed note that
+ 
+
+00:02:50.580 --> 00:02:53.690 align:start position:0%
+the data to must be replayed note that
+this<00:02:51.060><c> load</c><00:02:51.480><c> is</c><00:02:52.200><c> replayable</c><00:02:52.739><c> because</c><00:02:53.220><c> in</c><00:02:53.580><c> the</c>
+
+00:02:53.690 --> 00:02:53.700 align:start position:0%
+this load is replayable because in the
+ 
+
+00:02:53.700 --> 00:02:55.670 align:start position:0%
+this load is replayable because in the
+Rob<00:02:53.819><c> it's</c><00:02:54.300><c> here</c>
+
+00:02:55.670 --> 00:02:55.680 align:start position:0%
+Rob it's here
+ 
+
+00:02:55.680 --> 00:02:57.410 align:start position:0%
+Rob it's here
+we<00:02:56.220><c> are</c><00:02:56.340><c> assuming</c><00:02:56.640><c> that</c><00:02:56.760><c> this</c><00:02:56.940><c> load</c><00:02:57.300><c> still</c>
+
+00:02:57.410 --> 00:02:57.420 align:start position:0%
+we are assuming that this load still
+ 
+
+00:02:57.420 --> 00:03:00.290 align:start position:0%
+we are assuming that this load still
+hasn't<00:02:57.840><c> happened</c><00:02:58.080><c> which</c><00:02:58.920><c> means</c><00:02:59.220><c> that</c><00:02:59.640><c> the</c>
+
+00:03:00.290 --> 00:03:00.300 align:start position:0%
+hasn't happened which means that the
+ 
+
+00:03:00.300 --> 00:03:02.150 align:start position:0%
+hasn't happened which means that the
+commit<00:03:00.660><c> pointer</c><00:03:01.080><c> for</c><00:03:01.260><c> the</c><00:03:01.440><c> Rob</c><00:03:01.560><c> is</c><00:03:01.800><c> somewhere</c>
+
+00:03:02.150 --> 00:03:02.160 align:start position:0%
+commit pointer for the Rob is somewhere
+ 
+
+00:03:02.160 --> 00:03:04.369 align:start position:0%
+commit pointer for the Rob is somewhere
+here<00:03:02.400><c> or</c><00:03:02.760><c> maybe</c><00:03:02.940><c> at</c><00:03:03.300><c> the</c><00:03:03.480><c> load</c><00:03:03.780><c> here</c><00:03:03.959><c> but</c>
+
+00:03:04.369 --> 00:03:04.379 align:start position:0%
+here or maybe at the load here but
+ 
+
+00:03:04.379 --> 00:03:07.430 align:start position:0%
+here or maybe at the load here but
+definitely<00:03:05.099><c> the</c><00:03:05.879><c> load</c><00:03:06.239><c> from</c><00:03:06.540><c> B</c><00:03:06.780><c> has</c><00:03:07.140><c> not</c><00:03:07.319><c> been</c>
+
+00:03:07.430 --> 00:03:07.440 align:start position:0%
+definitely the load from B has not been
+ 
+
+00:03:07.440 --> 00:03:10.130 align:start position:0%
+definitely the load from B has not been
+committed<00:03:07.980><c> so</c><00:03:08.580><c> we</c><00:03:08.760><c> are</c><00:03:08.940><c> capable</c><00:03:09.239><c> of</c><00:03:09.599><c> replaying</c>
+
+00:03:10.130 --> 00:03:10.140 align:start position:0%
+committed so we are capable of replaying
+ 
+
+00:03:10.140 --> 00:03:12.229 align:start position:0%
+committed so we are capable of replaying
+it<00:03:10.260><c> in</c><00:03:11.040><c> the</c><00:03:11.159><c> worst</c><00:03:11.459><c> case</c>
+
+00:03:12.229 --> 00:03:12.239 align:start position:0%
+it in the worst case
+ 
+
+00:03:12.239 --> 00:03:14.809 align:start position:0%
+it in the worst case
+we<00:03:12.659><c> can</c><00:03:12.840><c> just</c><00:03:12.959><c> cancel</c><00:03:13.319><c> this</c><00:03:14.220><c> load</c><00:03:14.580><c> and</c>
+
+00:03:14.809 --> 00:03:14.819 align:start position:0%
+we can just cancel this load and
+ 
+
+00:03:14.819 --> 00:03:17.330 align:start position:0%
+we can just cancel this load and
+anything<00:03:15.060><c> that</c><00:03:15.480><c> follows</c><00:03:15.900><c> and</c><00:03:16.620><c> just</c><00:03:16.800><c> refetch</c>
+
+00:03:17.330 --> 00:03:17.340 align:start position:0%
+anything that follows and just refetch
+ 
+
+00:03:17.340 --> 00:03:19.430 align:start position:0%
+anything that follows and just refetch
+those<00:03:17.459><c> instructions</c><00:03:17.879><c> so</c><00:03:18.300><c> we</c><00:03:18.480><c> know</c><00:03:18.659><c> how</c><00:03:19.080><c> to</c>
+
+00:03:19.430 --> 00:03:19.440 align:start position:0%
+those instructions so we know how to
+ 
+
+00:03:19.440 --> 00:03:23.449 align:start position:0%
+those instructions so we know how to
+undo<00:03:19.860><c> the</c><00:03:20.040><c> damage</c><00:03:20.459><c> here</c><00:03:21.440><c> but</c><00:03:22.440><c> in</c><00:03:23.040><c> order</c><00:03:23.159><c> to</c>
+
+00:03:23.449 --> 00:03:23.459 align:start position:0%
+undo the damage here but in order to
+ 
+
+00:03:23.459 --> 00:03:25.309 align:start position:0%
+undo the damage here but in order to
+detect<00:03:23.819><c> the</c><00:03:24.000><c> violation</c><00:03:24.420><c> now</c><00:03:24.780><c> we</c><00:03:24.959><c> have</c><00:03:25.140><c> to</c>
+
+00:03:25.309 --> 00:03:25.319 align:start position:0%
+detect the violation now we have to
+ 
+
+00:03:25.319 --> 00:03:27.649 align:start position:0%
+detect the violation now we have to
+basically<00:03:25.739><c> anything</c><00:03:26.220><c> that</c><00:03:26.580><c> we</c><00:03:26.760><c> load</c><00:03:27.180><c> out</c><00:03:27.480><c> of</c>
+
+00:03:27.649 --> 00:03:27.659 align:start position:0%
+basically anything that we load out of
+ 
+
+00:03:27.659 --> 00:03:30.470 align:start position:0%
+basically anything that we load out of
+order<00:03:27.920><c> we</c><00:03:28.920><c> need</c><00:03:29.099><c> to</c><00:03:29.400><c> monitor</c><00:03:29.940><c> coherence</c>
+
+00:03:30.470 --> 00:03:30.480 align:start position:0%
+order we need to monitor coherence
+ 
+
+00:03:30.480 --> 00:03:36.080 align:start position:0%
+order we need to monitor coherence
+traffic<00:03:30.780><c> until</c><00:03:31.580><c> that</c><00:03:32.580><c> load</c><00:03:32.940><c> becomes</c><00:03:33.659><c> in</c><00:03:33.900><c> order</c>
+

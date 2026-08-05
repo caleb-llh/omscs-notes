@@ -1,0 +1,52 @@
+1
+00:00:00,370 --> 00:00:03,760
+ Suppose you want to sort an array of n words.
+
+2
+00:00:03,760 --> 00:00:07,939
+ Let's say you want to use a sequential comparison based algorithm, but do so
+
+3
+00:00:07,939 --> 00:00:10,550
+ on a machine with a two level memory hierarchy.
+
+4
+00:00:10,550 --> 00:00:13,950
+ Recall that comparison based schemes need to perform at least n log
+
+5
+00:00:13,950 --> 00:00:15,040
+ operations.
+
+6
+00:00:15,040 --> 00:00:16,360
+ Here's my question.
+
+7
+00:00:16,360 --> 00:00:20,380
+ Can you come up with an asymptotic lower bound on the number of slow fast memory
+
+8
+00:00:20,380 --> 00:00:21,580
+ transfers?
+
+9
+00:00:21,580 --> 00:00:24,120
+ Your lower band need not be very tight.
+
+10
+00:00:24,120 --> 00:00:27,590
+ A trivial bound is fine just try to make it as precise as you can.
+
+11
+00:00:27,590 --> 00:00:31,560
+ It's a little bit of a contradiction, but anyway, you'll figure it out.
+
+12
+00:00:31,560 --> 00:00:32,540
+ And if you want to use floors and
+
+13
+00:00:32,540 --> 00:00:32,540
+ ceilings in your answer, feel free to do so.
+

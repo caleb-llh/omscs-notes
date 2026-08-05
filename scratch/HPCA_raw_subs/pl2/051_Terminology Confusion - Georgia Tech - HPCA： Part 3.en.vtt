@@ -1,0 +1,408 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.670 align:start position:0%
+ 
+one<00:00:00.299><c> of</c><00:00:00.450><c> the</c><00:00:00.539><c> things</c><00:00:00.750><c> we</c><00:00:00.900><c> also</c><00:00:01.050><c> should</c><00:00:01.350><c> discuss</c>
+
+00:00:01.670 --> 00:00:01.680 align:start position:0%
+one of the things we also should discuss
+ 
+
+00:00:01.680 --> 00:00:03.830 align:start position:0%
+one of the things we also should discuss
+is<00:00:01.829><c> the</c><00:00:01.860><c> terminology</c><00:00:02.580><c> confusion</c><00:00:03.120><c> about</c><00:00:03.510><c> the</c>
+
+00:00:03.830 --> 00:00:03.840 align:start position:0%
+is the terminology confusion about the
+ 
+
+00:00:03.840 --> 00:00:06.260 align:start position:0%
+is the terminology confusion about the
+auto<00:00:04.170><c> for</c><00:00:04.529><c> the</c><00:00:04.680><c> processors</c><00:00:05.220><c> and</c><00:00:05.520><c> how</c><00:00:05.879><c> we</c><00:00:05.940><c> name</c>
+
+00:00:06.260 --> 00:00:06.270 align:start position:0%
+auto for the processors and how we name
+ 
+
+00:00:06.270 --> 00:00:08.570 align:start position:0%
+auto for the processors and how we name
+different<00:00:06.779><c> parts</c><00:00:07.049><c> of</c><00:00:07.170><c> them</c><00:00:07.379><c> we</c><00:00:08.189><c> have</c><00:00:08.429><c> been</c>
+
+00:00:08.570 --> 00:00:08.580 align:start position:0%
+different parts of them we have been
+ 
+
+00:00:08.580 --> 00:00:10.100 align:start position:0%
+different parts of them we have been
+calling<00:00:08.880><c> the</c><00:00:09.000><c> stages</c><00:00:09.330><c> of</c><00:00:09.450><c> the</c><00:00:09.570><c> execution</c>
+
+00:00:10.100 --> 00:00:10.110 align:start position:0%
+calling the stages of the execution
+ 
+
+00:00:10.110 --> 00:00:12.440 align:start position:0%
+calling the stages of the execution
+issue<00:00:10.710><c> was</c><00:00:11.219><c> when</c><00:00:11.429><c> we</c><00:00:11.580><c> obtained</c><00:00:11.910><c> the</c>
+
+00:00:12.440 --> 00:00:12.450 align:start position:0%
+issue was when we obtained the
+ 
+
+00:00:12.450 --> 00:00:14.299 align:start position:0%
+issue was when we obtained the
+reservation<00:00:13.049><c> station</c><00:00:13.410><c> in</c><00:00:13.530><c> the</c><00:00:13.620><c> aerobie</c><00:00:13.950><c> entry</c>
+
+00:00:14.299 --> 00:00:14.309 align:start position:0%
+reservation station in the aerobie entry
+ 
+
+00:00:14.309 --> 00:00:16.550 align:start position:0%
+reservation station in the aerobie entry
+dispatch<00:00:15.000><c> was</c><00:00:15.570><c> when</c><00:00:15.900><c> the</c><00:00:16.049><c> instruction</c><00:00:16.440><c> was</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+dispatch was when the instruction was
+ 
+
+00:00:16.560 --> 00:00:18.920 align:start position:0%
+dispatch was when the instruction was
+selected<00:00:17.010><c> for</c><00:00:17.160><c> execution</c><00:00:17.789><c> and</c><00:00:17.940><c> commit</c><00:00:18.630><c> was</c>
+
+00:00:18.920 --> 00:00:18.930 align:start position:0%
+selected for execution and commit was
+ 
+
+00:00:18.930 --> 00:00:20.990 align:start position:0%
+selected for execution and commit was
+when<00:00:19.109><c> the</c><00:00:19.230><c> instruction</c><00:00:19.650><c> has</c><00:00:19.830><c> committed</c><00:00:20.369><c> this</c>
+
+00:00:20.990 --> 00:00:21.000 align:start position:0%
+when the instruction has committed this
+ 
+
+00:00:21.000 --> 00:00:22.820 align:start position:0%
+when the instruction has committed this
+terminology<00:00:21.480><c> was</c><00:00:21.960><c> introduced</c><00:00:22.500><c> in</c><00:00:22.740><c> the</c>
+
+00:00:22.820 --> 00:00:22.830 align:start position:0%
+terminology was introduced in the
+ 
+
+00:00:22.830 --> 00:00:24.590 align:start position:0%
+terminology was introduced in the
+original<00:00:22.980><c> tomasulo's</c><00:00:23.789><c> algorithm</c><00:00:24.090><c> and</c><00:00:24.480><c> then</c>
+
+00:00:24.590 --> 00:00:24.600 align:start position:0%
+original tomasulo's algorithm and then
+ 
+
+00:00:24.600 --> 00:00:26.269 align:start position:0%
+original tomasulo's algorithm and then
+commit<00:00:24.990><c> was</c><00:00:25.170><c> introduced</c><00:00:25.619><c> in</c><00:00:25.769><c> the</c><00:00:25.800><c> first</c><00:00:26.070><c> paper</c>
+
+00:00:26.269 --> 00:00:26.279 align:start position:0%
+commit was introduced in the first paper
+ 
+
+00:00:26.279 --> 00:00:28.939 align:start position:0%
+commit was introduced in the first paper
+they<00:00:26.550><c> talked</c><00:00:26.820><c> about</c><00:00:26.939><c> arabes</c><00:00:27.630><c> so</c><00:00:28.289><c> most</c><00:00:28.560><c> of</c><00:00:28.890><c> the</c>
+
+00:00:28.939 --> 00:00:28.949 align:start position:0%
+they talked about arabes so most of the
+ 
+
+00:00:28.949 --> 00:00:31.939 align:start position:0%
+they talked about arabes so most of the
+academics<00:00:29.670><c> are</c><00:00:29.760><c> going</c><00:00:30.480><c> to</c><00:00:30.570><c> use</c><00:00:30.949><c> this</c>
+
+00:00:31.939 --> 00:00:31.949 align:start position:0%
+academics are going to use this
+ 
+
+00:00:31.949 --> 00:00:33.620 align:start position:0%
+academics are going to use this
+terminology<00:00:32.219><c> so</c><00:00:32.940><c> most</c><00:00:33.120><c> of</c><00:00:33.239><c> the</c><00:00:33.360><c> research</c>
+
+00:00:33.620 --> 00:00:33.630 align:start position:0%
+terminology so most of the research
+ 
+
+00:00:33.630 --> 00:00:34.940 align:start position:0%
+terminology so most of the research
+papers<00:00:33.989><c> that</c><00:00:34.170><c> are</c><00:00:34.200><c> written</c><00:00:34.590><c> will</c><00:00:34.770><c> use</c>
+
+00:00:34.940 --> 00:00:34.950 align:start position:0%
+papers that are written will use
+ 
+
+00:00:34.950 --> 00:00:37.880 align:start position:0%
+papers that are written will use
+something<00:00:35.370><c> similar</c><00:00:35.700><c> to</c><00:00:35.730><c> this</c><00:00:36.110><c> however</c><00:00:37.110><c> some</c>
+
+00:00:37.880 --> 00:00:37.890 align:start position:0%
+something similar to this however some
+ 
+
+00:00:37.890 --> 00:00:40.040 align:start position:0%
+something similar to this however some
+companies<00:00:38.489><c> and</c><00:00:38.790><c> some</c><00:00:39.120><c> of</c><00:00:39.239><c> the</c><00:00:39.360><c> papers</c><00:00:39.780><c> will</c>
+
+00:00:40.040 --> 00:00:40.050 align:start position:0%
+companies and some of the papers will
+ 
+
+00:00:40.050 --> 00:00:43.040 align:start position:0%
+companies and some of the papers will
+for<00:00:40.379><c> issue</c><00:00:40.680><c> use</c><00:00:41.399><c> the</c><00:00:41.579><c> term</c><00:00:41.790><c> not</c><00:00:42.420><c> only</c><00:00:42.809><c> issue</c>
+
+00:00:43.040 --> 00:00:43.050 align:start position:0%
+for issue use the term not only issue
+ 
+
+00:00:43.050 --> 00:00:46.850 align:start position:0%
+for issue use the term not only issue
+but<00:00:43.829><c> also</c><00:00:44.360><c> allocate</c><00:00:45.360><c> because</c><00:00:45.780><c> this</c><00:00:46.469><c> is</c><00:00:46.680><c> when</c>
+
+00:00:46.850 --> 00:00:46.860 align:start position:0%
+but also allocate because this is when
+ 
+
+00:00:46.860 --> 00:00:48.229 align:start position:0%
+but also allocate because this is when
+we<00:00:46.980><c> allocate</c><00:00:47.430><c> resources</c><00:00:47.460><c> for</c><00:00:48.149><c> the</c>
+
+00:00:48.229 --> 00:00:48.239 align:start position:0%
+we allocate resources for the
+ 
+
+00:00:48.239 --> 00:00:49.760 align:start position:0%
+we allocate resources for the
+instructions<00:00:48.570><c> so</c><00:00:48.809><c> pretty</c><00:00:48.989><c> much</c><00:00:49.079><c> we</c><00:00:49.230><c> allocate</c>
+
+00:00:49.760 --> 00:00:49.770 align:start position:0%
+instructions so pretty much we allocate
+ 
+
+00:00:49.770 --> 00:00:52.040 align:start position:0%
+instructions so pretty much we allocate
+an<00:00:49.980><c> reservation</c><00:00:50.730><c> station</c><00:00:51.059><c> and</c><00:00:51.180><c> so</c><00:00:51.360><c> on</c><00:00:51.539><c> so</c>
+
+00:00:52.040 --> 00:00:52.050 align:start position:0%
+an reservation station and so on so
+ 
+
+00:00:52.050 --> 00:00:54.020 align:start position:0%
+an reservation station and so on so
+they're<00:00:52.199><c> going</c><00:00:52.379><c> to</c><00:00:52.469><c> call</c><00:00:52.649><c> this</c><00:00:53.030><c> allocate</c>
+
+00:00:54.020 --> 00:00:54.030 align:start position:0%
+they're going to call this allocate
+ 
+
+00:00:54.030 --> 00:00:56.479 align:start position:0%
+they're going to call this allocate
+instead<00:00:54.360><c> of</c><00:00:54.480><c> issue</c><00:00:54.660><c> and</c><00:00:55.100><c> to</c><00:00:56.100><c> confuse</c><00:00:56.460><c> the</c>
+
+00:00:56.479 --> 00:00:56.489 align:start position:0%
+instead of issue and to confuse the
+ 
+
+00:00:56.489 --> 00:00:59.180 align:start position:0%
+instead of issue and to confuse the
+exhibit<00:00:56.940><c> of</c><00:00:57.000><c> even</c><00:00:57.270><c> further</c><00:00:57.510><c> some</c><00:00:58.350><c> call</c><00:00:58.649><c> the</c>
+
+00:00:59.180 --> 00:00:59.190 align:start position:0%
+exhibit of even further some call the
+ 
+
+00:00:59.190 --> 00:01:02.540 align:start position:0%
+exhibit of even further some call the
+issue<00:00:59.399><c> part</c><00:00:59.910><c> dispatch</c><00:01:00.629><c> so</c><00:01:01.620><c> we</c><00:01:01.770><c> dispatch</c><00:01:02.280><c> the</c>
+
+00:01:02.540 --> 00:01:02.550 align:start position:0%
+issue part dispatch so we dispatch the
+ 
+
+00:01:02.550 --> 00:01:04.250 align:start position:0%
+issue part dispatch so we dispatch the
+instruction<00:01:03.030><c> to</c><00:01:03.149><c> reservation</c><00:01:03.660><c> stations</c><00:01:04.049><c> and</c>
+
+00:01:04.250 --> 00:01:04.260 align:start position:0%
+instruction to reservation stations and
+ 
+
+00:01:04.260 --> 00:01:07.370 align:start position:0%
+instruction to reservation stations and
+the<00:01:04.290><c> aerobie</c><00:01:04.710><c> entries</c><00:01:05.240><c> similarly</c><00:01:06.240><c> what</c><00:01:07.229><c> we</c>
+
+00:01:07.370 --> 00:01:07.380 align:start position:0%
+the aerobie entries similarly what we
+ 
+
+00:01:07.380 --> 00:01:08.899 align:start position:0%
+the aerobie entries similarly what we
+have<00:01:07.530><c> been</c><00:01:07.680><c> calling</c><00:01:07.979><c> dispatch</c><00:01:08.159><c> some</c><00:01:08.760><c> will</c>
+
+00:01:08.899 --> 00:01:08.909 align:start position:0%
+have been calling dispatch some will
+ 
+
+00:01:08.909 --> 00:01:12.859 align:start position:0%
+have been calling dispatch some will
+call<00:01:08.939><c> execute</c><00:01:09.710><c> some</c><00:01:10.710><c> will</c><00:01:10.890><c> call</c><00:01:11.100><c> it</c><00:01:11.220><c> issue</c><00:01:11.869><c> so</c>
+
+00:01:12.859 --> 00:01:12.869 align:start position:0%
+call execute some will call it issue so
+ 
+
+00:01:12.869 --> 00:01:14.450 align:start position:0%
+call execute some will call it issue so
+we<00:01:12.900><c> issued</c><00:01:13.530><c> the</c><00:01:13.710><c> instruction</c><00:01:14.189><c> from</c><00:01:14.340><c> a</c>
+
+00:01:14.450 --> 00:01:14.460 align:start position:0%
+we issued the instruction from a
+ 
+
+00:01:14.460 --> 00:01:17.539 align:start position:0%
+we issued the instruction from a
+reservation<00:01:15.090><c> station</c><00:01:15.450><c> to</c><00:01:15.570><c> execution</c><00:01:16.229><c> as</c><00:01:16.549><c> well</c>
+
+00:01:17.539 --> 00:01:17.549 align:start position:0%
+reservation station to execution as well
+ 
+
+00:01:17.549 --> 00:01:19.280 align:start position:0%
+reservation station to execution as well
+as<00:01:17.790><c> a</c><00:01:17.850><c> residual</c><00:01:18.330><c> dispatch</c><00:01:18.750><c> which</c><00:01:18.990><c> is</c><00:01:19.170><c> we</c>
+
+00:01:19.280 --> 00:01:19.290 align:start position:0%
+as a residual dispatch which is we
+ 
+
+00:01:19.290 --> 00:01:21.350 align:start position:0%
+as a residual dispatch which is we
+dispatch<00:01:19.740><c> the</c><00:01:19.979><c> instruction</c><00:01:20.460><c> to</c><00:01:20.700><c> execution</c>
+
+00:01:21.350 --> 00:01:21.360 align:start position:0%
+dispatch the instruction to execution
+ 
+
+00:01:21.360 --> 00:01:23.990 align:start position:0%
+dispatch the instruction to execution
+and<00:01:21.509><c> finally</c><00:01:22.500><c> the</c><00:01:22.619><c> comment</c><00:01:23.070><c> is</c><00:01:23.250><c> most</c><00:01:23.790><c> often</c>
+
+00:01:23.990 --> 00:01:24.000 align:start position:0%
+and finally the comment is most often
+ 
+
+00:01:24.000 --> 00:01:27.350 align:start position:0%
+and finally the comment is most often
+called<00:01:24.330><c> commit</c><00:01:24.950><c> but</c><00:01:25.950><c> sometimes</c><00:01:26.460><c> it's</c><00:01:27.150><c> been</c>
+
+00:01:27.350 --> 00:01:27.360 align:start position:0%
+called commit but sometimes it's been
+ 
+
+00:01:27.360 --> 00:01:29.840 align:start position:0%
+called commit but sometimes it's been
+called<00:01:27.570><c> complete</c><00:01:28.100><c> which</c><00:01:29.100><c> introduces</c><00:01:29.670><c> some</c>
+
+00:01:29.840 --> 00:01:29.850 align:start position:0%
+called complete which introduces some
+ 
+
+00:01:29.850 --> 00:01:31.219 align:start position:0%
+called complete which introduces some
+confusion<00:01:30.479><c> because</c><00:01:30.509><c> actually</c><00:01:31.110><c> the</c>
+
+00:01:31.219 --> 00:01:31.229 align:start position:0%
+confusion because actually the
+ 
+
+00:01:31.229 --> 00:01:33.020 align:start position:0%
+confusion because actually the
+instruction<00:01:31.740><c> completes</c><00:01:31.890><c> execution</c><00:01:32.340><c> well</c>
+
+00:01:33.020 --> 00:01:33.030 align:start position:0%
+instruction completes execution well
+ 
+
+00:01:33.030 --> 00:01:35.749 align:start position:0%
+instruction completes execution well
+before<00:01:33.420><c> it</c><00:01:33.540><c> commits</c><00:01:33.930><c> it's</c><00:01:34.560><c> just</c><00:01:34.860><c> that</c><00:01:34.979><c> now</c><00:01:35.189><c> the</c>
+
+00:01:35.749 --> 00:01:35.759 align:start position:0%
+before it commits it's just that now the
+ 
+
+00:01:35.759 --> 00:01:37.760 align:start position:0%
+before it commits it's just that now the
+term<00:01:35.970><c> complete</c><00:01:36.479><c> would</c><00:01:36.780><c> refer</c><00:01:37.049><c> to</c><00:01:37.229><c> commit</c><00:01:37.560><c> if</c>
+
+00:01:37.760 --> 00:01:37.770 align:start position:0%
+term complete would refer to commit if
+ 
+
+00:01:37.770 --> 00:01:39.319 align:start position:0%
+term complete would refer to commit if
+that's<00:01:38.220><c> the</c><00:01:38.490><c> nomenclature</c><00:01:39.030><c> that</c><00:01:39.060><c> they're</c>
+
+00:01:39.319 --> 00:01:39.329 align:start position:0%
+that's the nomenclature that they're
+ 
+
+00:01:39.329 --> 00:01:43.010 align:start position:0%
+that's the nomenclature that they're
+using<00:01:39.509><c> and</c><00:01:40.430><c> then</c><00:01:41.430><c> commit</c><00:01:42.360><c> is</c><00:01:42.479><c> also</c><00:01:42.899><c> often</c>
+
+00:01:43.010 --> 00:01:43.020 align:start position:0%
+using and then commit is also often
+ 
+
+00:01:43.020 --> 00:01:44.870 align:start position:0%
+using and then commit is also often
+called<00:01:43.409><c> retire</c><00:01:43.799><c> so</c><00:01:44.130><c> we</c><00:01:44.250><c> retire</c><00:01:44.640><c> the</c>
+
+00:01:44.870 --> 00:01:44.880 align:start position:0%
+called retire so we retire the
+ 
+
+00:01:44.880 --> 00:01:46.460 align:start position:0%
+called retire so we retire the
+instruction<00:01:45.390><c> from</c><00:01:45.509><c> the</c><00:01:45.720><c> processor</c><00:01:46.259><c> and</c>
+
+00:01:46.460 --> 00:01:46.470 align:start position:0%
+instruction from the processor and
+ 
+
+00:01:46.470 --> 00:01:48.230 align:start position:0%
+instruction from the processor and
+because<00:01:47.130><c> a</c><00:01:47.159><c> lot</c><00:01:47.490><c> of</c><00:01:47.520><c> papers</c><00:01:48.000><c> have</c><00:01:48.210><c> been</c>
+
+00:01:48.230 --> 00:01:48.240 align:start position:0%
+because a lot of papers have been
+ 
+
+00:01:48.240 --> 00:01:50.210 align:start position:0%
+because a lot of papers have been
+written<00:01:48.570><c> by</c><00:01:48.810><c> academics</c><00:01:49.350><c> especially</c><00:01:49.860><c> graduate</c>
+
+00:01:50.210 --> 00:01:50.220 align:start position:0%
+written by academics especially graduate
+ 
+
+00:01:50.220 --> 00:01:52.399 align:start position:0%
+written by academics especially graduate
+students<00:01:50.670><c> commit</c><00:01:51.509><c> has</c><00:01:51.720><c> also</c><00:01:51.960><c> been</c><00:01:52.259><c> called</c>
+
+00:01:52.399 --> 00:01:52.409 align:start position:0%
+students commit has also been called
+ 
+
+00:01:52.409 --> 00:01:56.060 align:start position:0%
+students commit has also been called
+graduate<00:01:52.979><c> you</c><00:01:53.460><c> can</c><00:01:53.670><c> guess</c><00:01:53.850><c> why</c>
+

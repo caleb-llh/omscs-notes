@@ -1,0 +1,68 @@
+1
+00:00:00,320 --> 00:00:02,640
+ The answer is none of these.
+
+2
+00:00:02,640 --> 00:00:06,160
+ Start by writing down the efficiency of the algorithm.
+
+3
+00:00:06,160 --> 00:00:07,710
+ Remember that's speed up divided by P.
+
+4
+00:00:07,710 --> 00:00:12,080
+ By the way, if you expand it, you get this expression.
+
+5
+00:00:12,080 --> 00:00:14,770
+ This denominator has a special name.
+
+6
+00:00:14,770 --> 00:00:17,830
+ It's called the parallel cost.
+
+7
+00:00:17,830 --> 00:00:22,970
+ So let's plug in these two times, T star and T of n P.
+
+8
+00:00:22,970 --> 00:00:24,150
+ And let's do a little algebra.
+
+9
+00:00:24,150 --> 00:00:27,080
+ In this case, I'm going to divide the numerator and
+
+10
+00:00:27,080 --> 00:00:32,950
+ denominator by tao times n times P and you should get something like this.
+
+11
+00:00:32,950 --> 00:00:38,300
+ Notice that there is no setting of n that will make E of n P a constant.
+
+12
+00:00:38,300 --> 00:00:42,730
+ The problem is this first term which goes to infinity as P increases.
+
+13
+00:00:42,730 --> 00:00:46,190
+ In other words, the efficiency will always tend to zero.
+
+14
+00:00:46,190 --> 00:00:48,360
+ Here's a thought question for you.
+
+15
+00:00:48,360 --> 00:00:51,460
+ Is a bucketing or pipeline scheme possible?
+
+16
+00:00:51,460 --> 00:00:53,810
+ And if so would it fix the problem?
+
+17
+00:00:53,810 --> 00:00:53,810
+ Hmm.
+

@@ -1,0 +1,272 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.210 align:start position:0%
+ 
+one<00:00:00.359><c> way</c><00:00:00.539><c> of</c><00:00:00.690><c> cheating</c><00:00:00.900><c> on</c><00:00:01.260><c> associativity</c><00:00:01.740><c> is</c>
+
+00:00:02.210 --> 00:00:02.220 align:start position:0%
+one way of cheating on associativity is
+ 
+
+00:00:02.220 --> 00:00:04.370 align:start position:0%
+one way of cheating on associativity is
+called<00:00:02.550><c> way</c><00:00:02.760><c> prediction</c><00:00:03.090><c> we</c><00:00:03.870><c> start</c><00:00:04.170><c> with</c><00:00:04.350><c> a</c>
+
+00:00:04.370 --> 00:00:04.380 align:start position:0%
+called way prediction we start with a
+ 
+
+00:00:04.380 --> 00:00:06.380 align:start position:0%
+called way prediction we start with a
+set<00:00:04.650><c> associative</c><00:00:04.980><c> cache</c><00:00:05.130><c> which</c><00:00:05.940><c> has</c><00:00:06.120><c> a</c><00:00:06.150><c> low</c>
+
+00:00:06.380 --> 00:00:06.390 align:start position:0%
+set associative cache which has a low
+ 
+
+00:00:06.390 --> 00:00:09.049 align:start position:0%
+set associative cache which has a low
+miss<00:00:06.629><c> rate</c><00:00:06.899><c> but</c><00:00:07.740><c> would</c><00:00:07.950><c> have</c><00:00:08.160><c> a</c><00:00:08.189><c> slow</c><00:00:08.519><c> hit</c><00:00:08.790><c> time</c>
+
+00:00:09.049 --> 00:00:09.059 align:start position:0%
+miss rate but would have a slow hit time
+ 
+
+00:00:09.059 --> 00:00:12.740 align:start position:0%
+miss rate but would have a slow hit time
+now<00:00:09.510><c> what</c><00:00:09.719><c> we</c><00:00:09.870><c> do</c><00:00:10.019><c> we</c><00:00:10.590><c> guess</c><00:00:10.860><c> which</c><00:00:11.580><c> line</c><00:00:12.360><c> in</c>
+
+00:00:12.740 --> 00:00:12.750 align:start position:0%
+now what we do we guess which line in
+ 
+
+00:00:12.750 --> 00:00:15.620 align:start position:0%
+now what we do we guess which line in
+the<00:00:12.900><c> set</c><00:00:13.170><c> is</c><00:00:13.530><c> the</c><00:00:14.009><c> most</c><00:00:14.219><c> likely</c><00:00:14.639><c> to</c><00:00:14.910><c> hit</c><00:00:15.089><c> so</c>
+
+00:00:15.620 --> 00:00:15.630 align:start position:0%
+the set is the most likely to hit so
+ 
+
+00:00:15.630 --> 00:00:17.990 align:start position:0%
+the set is the most likely to hit so
+what<00:00:15.750><c> we</c><00:00:15.900><c> do</c><00:00:16.020><c> is</c><00:00:16.170><c> we</c><00:00:16.859><c> use</c><00:00:17.039><c> the</c><00:00:17.250><c> index</c><00:00:17.490><c> bits</c><00:00:17.699><c> to</c>
+
+00:00:17.990 --> 00:00:18.000 align:start position:0%
+what we do is we use the index bits to
+ 
+
+00:00:18.000 --> 00:00:19.279 align:start position:0%
+what we do is we use the index bits to
+determine<00:00:18.390><c> which</c><00:00:18.570><c> side</c><00:00:18.810><c> should</c><00:00:18.990><c> we'll</c><00:00:19.170><c> be</c>
+
+00:00:19.279 --> 00:00:19.289 align:start position:0%
+determine which side should we'll be
+ 
+
+00:00:19.289 --> 00:00:21.200 align:start position:0%
+determine which side should we'll be
+looking<00:00:19.439><c> at</c><00:00:19.890><c> and</c><00:00:20.340><c> now</c><00:00:20.550><c> instead</c><00:00:20.820><c> of</c><00:00:21.000><c> reading</c>
+
+00:00:21.200 --> 00:00:21.210 align:start position:0%
+looking at and now instead of reading
+ 
+
+00:00:21.210 --> 00:00:23.630 align:start position:0%
+looking at and now instead of reading
+out<00:00:21.480><c> all</c><00:00:21.689><c> the</c><00:00:22.350><c> tags</c><00:00:22.590><c> in</c><00:00:22.949><c> that</c><00:00:23.130><c> line</c><00:00:23.369><c> and</c>
+
+00:00:23.630 --> 00:00:23.640 align:start position:0%
+out all the tags in that line and
+ 
+
+00:00:23.640 --> 00:00:25.910 align:start position:0%
+out all the tags in that line and
+checking<00:00:24.090><c> which</c><00:00:24.240><c> one</c><00:00:24.420><c> hits</c><00:00:24.660><c> we</c><00:00:25.140><c> guess</c><00:00:25.439><c> which</c>
+
+00:00:25.910 --> 00:00:25.920 align:start position:0%
+checking which one hits we guess which
+ 
+
+00:00:25.920 --> 00:00:27.769 align:start position:0%
+checking which one hits we guess which
+one<00:00:26.160><c> is</c><00:00:26.369><c> the</c><00:00:26.400><c> likely</c><00:00:26.820><c> to</c><00:00:26.939><c> hit</c><00:00:27.119><c> and</c><00:00:27.390><c> just</c><00:00:27.420><c> check</c>
+
+00:00:27.769 --> 00:00:27.779 align:start position:0%
+one is the likely to hit and just check
+ 
+
+00:00:27.779 --> 00:00:30.410 align:start position:0%
+one is the likely to hit and just check
+that<00:00:27.960><c> one</c><00:00:28.170><c> so</c><00:00:28.740><c> this</c><00:00:29.010><c> gives</c><00:00:29.849><c> us</c><00:00:29.970><c> the</c><00:00:30.119><c> access</c>
+
+00:00:30.410 --> 00:00:30.420 align:start position:0%
+that one so this gives us the access
+ 
+
+00:00:30.420 --> 00:00:32.569 align:start position:0%
+that one so this gives us the access
+time<00:00:30.630><c> similar</c><00:00:31.140><c> to</c><00:00:31.470><c> a</c><00:00:31.500><c> direct</c><00:00:31.859><c> mapped</c><00:00:32.130><c> cache</c><00:00:32.160><c> if</c>
+
+00:00:32.569 --> 00:00:32.579 align:start position:0%
+time similar to a direct mapped cache if
+ 
+
+00:00:32.579 --> 00:00:35.720 align:start position:0%
+time similar to a direct mapped cache if
+we<00:00:32.940><c> guessed</c><00:00:33.180><c> right</c><00:00:33.420><c> if</c><00:00:33.899><c> we</c><00:00:34.170><c> are</c><00:00:34.290><c> wrong</c><00:00:34.489><c> then</c><00:00:35.489><c> we</c>
+
+00:00:35.720 --> 00:00:35.730 align:start position:0%
+we guessed right if we are wrong then we
+ 
+
+00:00:35.730 --> 00:00:39.260 align:start position:0%
+we guessed right if we are wrong then we
+got<00:00:35.969><c> no</c><00:00:36.270><c> hit</c><00:00:36.630><c> on</c><00:00:37.020><c> the</c><00:00:37.500><c> line</c><00:00:37.710><c> we</c><00:00:37.980><c> tried</c><00:00:38.280><c> but</c><00:00:38.969><c> the</c>
+
+00:00:39.260 --> 00:00:39.270 align:start position:0%
+got no hit on the line we tried but the
+ 
+
+00:00:39.270 --> 00:00:42.139 align:start position:0%
+got no hit on the line we tried but the
+set<00:00:39.510><c> has</c><00:00:39.719><c> other</c><00:00:39.960><c> lines</c><00:00:40.290><c> so</c><00:00:41.190><c> we</c><00:00:41.309><c> try</c><00:00:41.489><c> a</c><00:00:41.670><c> normal</c>
+
+00:00:42.139 --> 00:00:42.149 align:start position:0%
+set has other lines so we try a normal
+ 
+
+00:00:42.149 --> 00:00:44.240 align:start position:0%
+set has other lines so we try a normal
+set<00:00:42.390><c> associative</c><00:00:42.690><c> check</c><00:00:43.079><c> which</c><00:00:43.739><c> will</c><00:00:43.950><c> have</c><00:00:44.219><c> a</c>
+
+00:00:44.240 --> 00:00:44.250 align:start position:0%
+set associative check which will have a
+ 
+
+00:00:44.250 --> 00:00:46.970 align:start position:0%
+set associative check which will have a
+higher<00:00:44.520><c> hit</c><00:00:44.760><c> time</c><00:00:45.140><c> so</c><00:00:46.140><c> the</c><00:00:46.289><c> idea</c><00:00:46.530><c> is</c><00:00:46.710><c> that</c>
+
+00:00:46.970 --> 00:00:46.980 align:start position:0%
+higher hit time so the idea is that
+ 
+
+00:00:46.980 --> 00:00:50.450 align:start position:0%
+higher hit time so the idea is that
+overall<00:00:47.850><c> our</c><00:00:48.210><c> miss</c><00:00:48.539><c> rate</c><00:00:48.870><c> is</c><00:00:49.200><c> that</c><00:00:49.920><c> of</c><00:00:50.190><c> a</c><00:00:50.280><c> set</c>
+
+00:00:50.450 --> 00:00:50.460 align:start position:0%
+overall our miss rate is that of a set
+ 
+
+00:00:50.460 --> 00:00:53.060 align:start position:0%
+overall our miss rate is that of a set
+associative<00:00:50.760><c> cache</c><00:00:51.020><c> we</c><00:00:52.020><c> either</c><00:00:52.260><c> find</c><00:00:52.649><c> it</c><00:00:52.860><c> this</c>
+
+00:00:53.060 --> 00:00:53.070 align:start position:0%
+associative cache we either find it this
+ 
+
+00:00:53.070 --> 00:00:56.150 align:start position:0%
+associative cache we either find it this
+way<00:00:53.309><c> or</c><00:00:53.430><c> this</c><00:00:53.460><c> way</c><00:00:54.170><c> so</c><00:00:55.170><c> the</c><00:00:55.530><c> Miss</c><00:00:55.710><c> rate</c><00:00:55.949><c> will</c><00:00:56.129><c> be</c>
+
+00:00:56.150 --> 00:00:56.160 align:start position:0%
+way or this way so the Miss rate will be
+ 
+
+00:00:56.160 --> 00:00:58.130 align:start position:0%
+way or this way so the Miss rate will be
+similar<00:00:56.699><c> to</c><00:00:56.940><c> a</c><00:00:57.480><c> set</c><00:00:57.690><c> associative</c><00:00:57.989><c> cache</c>
+
+00:00:58.130 --> 00:00:58.140 align:start position:0%
+similar to a set associative cache
+ 
+
+00:00:58.140 --> 00:01:00.110 align:start position:0%
+similar to a set associative cache
+because<00:00:58.680><c> even</c><00:00:58.980><c> if</c><00:00:59.070><c> we</c><00:00:59.100><c> didn't</c><00:00:59.460><c> find</c><00:00:59.670><c> it</c><00:00:59.820><c> in</c><00:00:59.850><c> a</c>
+
+00:01:00.110 --> 00:01:00.120 align:start position:0%
+because even if we didn't find it in a
+ 
+
+00:01:00.120 --> 00:01:01.610 align:start position:0%
+because even if we didn't find it in a
+kind<00:01:00.300><c> of</c><00:01:00.329><c> direct</c><00:01:00.690><c> mapped</c><00:01:00.930><c> way</c><00:01:01.170><c> we</c><00:01:01.469><c> will</c><00:01:01.590><c> find</c>
+
+00:01:01.610 --> 00:01:01.620 align:start position:0%
+kind of direct mapped way we will find
+ 
+
+00:01:01.620 --> 00:01:04.789 align:start position:0%
+kind of direct mapped way we will find
+it<00:01:01.980><c> this</c><00:01:02.070><c> way</c><00:01:02.359><c> but</c><00:01:03.359><c> the</c><00:01:03.510><c> hit</c><00:01:03.780><c> time</c><00:01:03.989><c> if</c><00:01:04.350><c> what</c>
+
+00:01:04.789 --> 00:01:04.799 align:start position:0%
+it this way but the hit time if what
+ 
+
+00:01:04.799 --> 00:01:07.429 align:start position:0%
+it this way but the hit time if what
+gases<00:01:05.189><c> are</c><00:01:05.309><c> mostly</c><00:01:05.670><c> right</c><00:01:05.850><c> is</c><00:01:06.090><c> mostly</c><00:01:06.930><c> that</c><00:01:07.140><c> of</c>
+
+00:01:07.429 --> 00:01:07.439 align:start position:0%
+gases are mostly right is mostly that of
+ 
+
+00:01:07.439 --> 00:01:09.710 align:start position:0%
+gases are mostly right is mostly that of
+a<00:01:07.560><c> direct</c><00:01:07.860><c> mapped</c><00:01:08.130><c> cache</c><00:01:08.450><c> so</c><00:01:09.450><c> we</c><00:01:09.570><c> have</c>
+
+00:01:09.710 --> 00:01:09.720 align:start position:0%
+a direct mapped cache so we have
+ 
+
+00:01:09.720 --> 00:01:12.109 align:start position:0%
+a direct mapped cache so we have
+combined<00:01:10.170><c> the</c><00:01:11.010><c> low</c><00:01:11.189><c> miss</c><00:01:11.460><c> rate</c><00:01:11.670><c> of</c><00:01:11.850><c> a</c><00:01:11.939><c> set</c>
+
+00:01:12.109 --> 00:01:12.119 align:start position:0%
+combined the low miss rate of a set
+ 
+
+00:01:12.119 --> 00:01:14.719 align:start position:0%
+combined the low miss rate of a set
+associative<00:01:12.450><c> cache</c><00:01:12.810><c> with</c><00:01:13.680><c> most</c><00:01:14.280><c> of</c><00:01:14.460><c> the</c><00:01:14.520><c> time</c>
+
+00:01:14.719 --> 00:01:14.729 align:start position:0%
+associative cache with most of the time
+ 
+
+00:01:14.729 --> 00:01:16.399 align:start position:0%
+associative cache with most of the time
+getting<00:01:15.180><c> the</c><00:01:15.270><c> hit</c><00:01:15.479><c> time</c><00:01:15.630><c> of</c><00:01:15.780><c> a</c><00:01:15.869><c> direct</c><00:01:16.200><c> mapped</c>
+
+00:01:16.399 --> 00:01:16.409 align:start position:0%
+getting the hit time of a direct mapped
+ 
+
+00:01:16.409 --> 00:01:18.230 align:start position:0%
+getting the hit time of a direct mapped
+cache<00:01:16.530><c> and</c><00:01:16.860><c> sometimes</c><00:01:17.400><c> only</c><00:01:17.640><c> having</c><00:01:18.150><c> to</c>
+
+00:01:18.230 --> 00:01:18.240 align:start position:0%
+cache and sometimes only having to
+ 
+
+00:01:18.240 --> 00:01:20.840 align:start position:0%
+cache and sometimes only having to
+suffer<00:01:18.450><c> the</c><00:01:18.810><c> longer</c><00:01:19.229><c> hit</c><00:01:19.439><c> time</c><00:01:19.650><c> of</c><00:01:19.830><c> a</c><00:01:20.430><c> normal</c>
+
+00:01:20.840 --> 00:01:20.850 align:start position:0%
+suffer the longer hit time of a normal
+ 
+
+00:01:20.850 --> 00:01:23.810 align:start position:0%
+suffer the longer hit time of a normal
+set<00:01:21.090><c> associative</c><00:01:21.390><c> cache</c>
+

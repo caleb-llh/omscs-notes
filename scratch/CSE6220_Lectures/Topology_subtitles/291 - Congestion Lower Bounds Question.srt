@@ -1,0 +1,40 @@
+1
+00:00:00,760 --> 00:00:04,400
+ Now I want you to apply the lower bound on congestion,
+
+2
+00:00:04,400 --> 00:00:06,750
+ consider this list of networks.
+
+3
+00:00:06,750 --> 00:00:10,110
+ For each network I give you the network's diameter, the network's
+
+4
+00:00:10,110 --> 00:00:14,990
+ bisection width, and the number of links in the network assuming p nodes.
+
+5
+00:00:14,990 --> 00:00:19,310
+ Now suppose you wish to map a logical network onto a physical one.
+
+6
+00:00:19,310 --> 00:00:21,970
+ Here's a list of pairs of mappings.
+
+7
+00:00:21,970 --> 00:00:24,930
+ The pairs go from logical on the left hand side,
+
+8
+00:00:24,930 --> 00:00:27,960
+ to physical on the right hand side.
+
+9
+00:00:27,960 --> 00:00:32,240
+ My question is, which of the following pairs would you expect that it might
+
+10
+00:00:32,240 --> 00:00:32,240
+ be possible to have no congestion, assuming the lower bound analysis?
+

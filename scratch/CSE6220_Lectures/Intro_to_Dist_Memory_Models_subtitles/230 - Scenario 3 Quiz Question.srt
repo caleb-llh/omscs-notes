@@ -1,0 +1,32 @@
+1
+00:00:00,280 --> 00:00:02,000
+ Recall the five rules of message passing.
+
+2
+00:00:02,000 --> 00:00:05,980
+ I want you to think about the following scenarios on a linear network with eight
+
+3
+00:00:05,980 --> 00:00:07,108
+ nodes.
+
+4
+00:00:07,108 --> 00:00:11,480
+ Suppose node 1 wants to send a message to node 6 at the same time that node 4
+
+5
+00:00:11,480 --> 00:00:13,820
+ wants to send a message to node 7.
+
+6
+00:00:13,820 --> 00:00:15,910
+ How much time will this take?
+
+7
+00:00:15,910 --> 00:00:18,630
+ I want you to type your answer in this box.
+
+8
+00:00:18,630 --> 00:00:18,630
+ You can use little a for alpha, little b for beta, and n.
+

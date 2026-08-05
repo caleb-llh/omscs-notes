@@ -1,0 +1,248 @@
+1
+00:00:00,420 --> 00:00:05,870
+ Beyond the model, you need a pseudocode notation for formalizing algorithms.
+
+2
+00:00:05,870 --> 00:00:09,220
+ So let's start with our traditional sequential pseudocode notation and
+
+3
+00:00:09,220 --> 00:00:11,770
+ let's make the following changes.
+
+4
+00:00:11,770 --> 00:00:15,300
+ First we'll write our algorithms assuming a single-program,
+
+5
+00:00:15,300 --> 00:00:16,775
+ multiple data style.
+
+6
+00:00:16,775 --> 00:00:22,980
+ HPC nerds refer to this as S-P-M-D or SPMD style.
+
+7
+00:00:22,980 --> 00:00:25,670
+ The way SPMD works is as follows.
+
+8
+00:00:25,670 --> 00:00:28,610
+ First, you'll write some pseudocode algorithm.
+
+9
+00:00:28,610 --> 00:00:31,785
+ Then you'll imagine running that algorithm on some cluster,
+
+10
+00:00:31,785 --> 00:00:37,020
+ and you'll assume that that pseudocode is replicated on all the nodes.
+
+11
+00:00:37,020 --> 00:00:40,650
+ We'll call every running copy a process.
+
+12
+00:00:40,650 --> 00:00:44,380
+ Each process runs independently and asynchronously from the others
+
+13
+00:00:44,380 --> 00:00:49,150
+ in the absence of barriers or any other kind of explicit synchronization.
+
+14
+00:00:49,150 --> 00:00:51,930
+ Now, to distinguish the copies from one another, we'll assume
+
+15
+00:00:51,930 --> 00:00:56,180
+ that the pseudocode algorithm has access to two global variables.
+
+16
+00:00:56,180 --> 00:00:58,090
+ One called RANK and one called P.
+
+17
+00:00:58,090 --> 00:01:00,660
+ Since the memories are private,
+
+18
+00:01:00,660 --> 00:01:04,569
+ these variables are private to each running process.
+
+19
+00:01:04,569 --> 00:01:07,530
+ RANK will be the ID of the running process and it'll be unique.
+
+20
+00:01:07,530 --> 00:01:11,800
+ P will be the number of processes.
+
+21
+00:01:11,800 --> 00:01:13,910
+ Now for the moment, the concept of a process and
+
+22
+00:01:13,910 --> 00:01:17,170
+ the concept of a node are basically interchangeable.
+
+23
+00:01:17,170 --> 00:01:21,500
+ But in practice, a process virtualizes the concept of a node.
+
+24
+00:01:21,500 --> 00:01:25,220
+ That means you might have more than one process assigned to a node if, for
+
+25
+00:01:25,220 --> 00:01:28,920
+ example, you're running on a multi-socket, multi-core system.
+
+26
+00:01:28,920 --> 00:01:32,155
+ Now, to see how this works, suppose that this pseudocode algorithm contains
+
+27
+00:01:32,155 --> 00:01:35,725
+ a line of code which reads as follows.
+
+28
+00:01:35,725 --> 00:01:36,955
+ So when all the processes run,
+
+29
+00:01:36,955 --> 00:01:40,075
+ they'll all print statements of the following form.
+
+30
+00:01:40,075 --> 00:01:44,065
+ I am 0 out of 5, I'm 1 out of 5, and so on.
+
+31
+00:01:44,065 --> 00:01:47,825
+ They each print their own rank and the total.
+
+32
+00:01:47,825 --> 00:01:51,015
+ Here's a second change to a sequential pseudocode.
+
+33
+00:01:51,015 --> 00:01:55,740
+ I will give you a primitive which performs an asynchronous send.
+
+34
+00:01:55,740 --> 00:01:59,090
+ Think of it as an API call that looks like this.
+
+35
+00:01:59,090 --> 00:02:02,750
+ Now it has two arguments, one is a buffer of size n.
+
+36
+00:02:02,750 --> 00:02:06,090
+ The second is a destination rank,
+
+37
+00:02:06,090 --> 00:02:10,389
+ basically the rank of the process that's supposed to receive this message.
+
+38
+00:02:10,389 --> 00:02:11,000
+ Now, an important and
+
+39
+00:02:11,000 --> 00:02:16,150
+ subtle point about sendAsync is what does it mean when it returns?
+
+40
+00:02:16,150 --> 00:02:21,110
+ When it returns, it does not mean that the buffer has been sent.
+
+41
+00:02:21,110 --> 00:02:25,360
+ It just means that a send is registered with the system.
+
+42
+00:02:25,360 --> 00:02:29,570
+ So in particular, until you know what's happened you should not modify buf.
+
+43
+00:02:29,570 --> 00:02:33,130
+ To find out what happened, sendAsync will return a handle.
+
+44
+00:02:33,130 --> 00:02:35,930
+ You can do some testing on the handle.
+
+45
+00:02:35,930 --> 00:02:38,880
+ Now, for this send to eventually complete,
+
+46
+00:02:38,880 --> 00:02:42,380
+ the destination rank has to post an asynchronous receive.
+
+47
+00:02:42,380 --> 00:02:45,770
+ The signature looks the same.
+
+48
+00:02:45,770 --> 00:02:47,970
+ It names buffer of some size, and
+
+49
+00:02:47,970 --> 00:02:52,950
+ it names a source rank, source being the sender.
+
+50
+00:02:52,950 --> 00:02:55,810
+ Just like sendAsync, when recvAsync returns,
+
+51
+00:02:55,810 --> 00:02:59,212
+ it does not mean the data is available.
+
+52
+00:02:59,212 --> 00:03:01,180
+ Rather, recvAsync will return a handle and
+
+53
+00:03:01,180 --> 00:03:03,660
+ you should do some testing on the handle.
+
+54
+00:03:03,660 --> 00:03:06,840
+ This business about handles brings us to the final primitive which is
+
+55
+00:03:06,840 --> 00:03:08,750
+ called wait.
+
+56
+00:03:08,750 --> 00:03:11,920
+ In particular, wait is a blocking operation that takes one or
+
+57
+00:03:11,920 --> 00:03:14,390
+ more handles as arguments.
+
+58
+00:03:14,390 --> 00:03:19,140
+ Now, wait will pause until the corresponding operations complete.
+
+59
+00:03:19,140 --> 00:03:21,860
+ Now there's also a special form of wait called a wait all,
+
+60
+00:03:21,860 --> 00:03:24,930
+ abbreviated here by wait with an asterisk.
+
+61
+00:03:24,930 --> 00:03:29,010
+ This is a shorthand that says wait for all outstanding sends and receives so
+
+62
+00:03:29,010 --> 00:03:29,010
+ that we don't have to track and check all the handles all the time.
+

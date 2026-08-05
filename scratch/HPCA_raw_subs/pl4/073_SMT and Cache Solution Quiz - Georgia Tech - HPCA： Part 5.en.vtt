@@ -1,0 +1,240 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.210 align:start position:0%
+ 
+let's<00:00:00.390><c> look</c><00:00:00.539><c> at</c><00:00:00.719><c> the</c><00:00:00.840><c> solution</c><00:00:01.469><c> to</c><00:00:01.500><c> our</c><00:00:01.650><c> smt</c>
+
+00:00:02.210 --> 00:00:02.220 align:start position:0%
+let's look at the solution to our smt
+ 
+
+00:00:02.220 --> 00:00:04.760 align:start position:0%
+let's look at the solution to our smt
+and<00:00:02.340><c> casual</c><00:00:02.790><c> ation</c><00:00:03.030><c> ship</c><00:00:03.210><c> quiz</c><00:00:03.449><c> we</c><00:00:04.350><c> have</c><00:00:04.500><c> three</c>
+
+00:00:04.760 --> 00:00:04.770 align:start position:0%
+and casual ation ship quiz we have three
+ 
+
+00:00:04.770 --> 00:00:07.610 align:start position:0%
+and casual ation ship quiz we have three
+programs<00:00:05.299><c> program</c><00:00:06.299><c> a</c><00:00:06.450><c> has</c><00:00:06.720><c> a</c><00:00:06.750><c> working</c><00:00:07.410><c> set</c>
+
+00:00:07.610 --> 00:00:07.620 align:start position:0%
+programs program a has a working set
+ 
+
+00:00:07.620 --> 00:00:09.980 align:start position:0%
+programs program a has a working set
+that<00:00:07.799><c> doesn't</c><00:00:08.250><c> fit</c><00:00:08.460><c> in</c><00:00:08.670><c> the</c><00:00:08.700><c> cache</c><00:00:09.030><c> that</c><00:00:09.389><c> means</c>
+
+00:00:09.980 --> 00:00:09.990 align:start position:0%
+that doesn't fit in the cache that means
+ 
+
+00:00:09.990 --> 00:00:11.930 align:start position:0%
+that doesn't fit in the cache that means
+that<00:00:10.290><c> program</c><00:00:10.710><c> a</c><00:00:10.800><c> will</c><00:00:11.010><c> have</c><00:00:11.250><c> a</c><00:00:11.280><c> lot</c><00:00:11.519><c> of</c><00:00:11.550><c> cache</c>
+
+00:00:11.930 --> 00:00:11.940 align:start position:0%
+that program a will have a lot of cache
+ 
+
+00:00:11.940 --> 00:00:14.930 align:start position:0%
+that program a will have a lot of cache
+misses<00:00:12.210><c> no</c><00:00:12.570><c> matter</c><00:00:12.840><c> what</c><00:00:13.170><c> we</c><00:00:13.320><c> do</c><00:00:13.790><c> program</c><00:00:14.790><c> be</c>
+
+00:00:14.930 --> 00:00:14.940 align:start position:0%
+misses no matter what we do program be
+ 
+
+00:00:14.940 --> 00:00:17.300 align:start position:0%
+misses no matter what we do program be
+alone<00:00:15.299><c> would</c><00:00:15.570><c> fit</c><00:00:15.809><c> in</c><00:00:15.990><c> the</c><00:00:16.109><c> cache</c><00:00:16.350><c> program</c><00:00:17.039><c> see</c>
+
+00:00:17.300 --> 00:00:17.310 align:start position:0%
+alone would fit in the cache program see
+ 
+
+00:00:17.310 --> 00:00:19.400 align:start position:0%
+alone would fit in the cache program see
+alone<00:00:17.640><c> would</c><00:00:17.850><c> fit</c><00:00:18.060><c> in</c><00:00:18.210><c> the</c><00:00:18.330><c> cache</c><00:00:18.539><c> programs</c><00:00:19.140><c> B</c>
+
+00:00:19.400 --> 00:00:19.410 align:start position:0%
+alone would fit in the cache programs B
+ 
+
+00:00:19.410 --> 00:00:22.070 align:start position:0%
+alone would fit in the cache programs B
+and<00:00:19.560><c> C</c><00:00:19.740><c> would</c><00:00:19.980><c> fit</c><00:00:20.310><c> in</c><00:00:20.490><c> the</c><00:00:20.609><c> cache</c><00:00:20.850><c> but</c><00:00:21.779><c> if</c><00:00:21.960><c> we</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+and C would fit in the cache but if we
+ 
+
+00:00:22.080 --> 00:00:24.800 align:start position:0%
+and C would fit in the cache but if we
+run<00:00:22.289><c> all</c><00:00:22.470><c> three</c><00:00:22.740><c> together</c><00:00:23.180><c> then</c><00:00:24.180><c> the</c><00:00:24.330><c> total</c>
+
+00:00:24.800 --> 00:00:24.810 align:start position:0%
+run all three together then the total
+ 
+
+00:00:24.810 --> 00:00:26.810 align:start position:0%
+run all three together then the total
+working<00:00:25.140><c> set</c><00:00:25.380><c> size</c><00:00:25.590><c> is</c><00:00:25.769><c> 15</c><00:00:26.220><c> kilobytes</c><00:00:26.730><c> which</c>
+
+00:00:26.810 --> 00:00:26.820 align:start position:0%
+working set size is 15 kilobytes which
+ 
+
+00:00:26.820 --> 00:00:28.849 align:start position:0%
+working set size is 15 kilobytes which
+doesn't<00:00:27.300><c> fit</c><00:00:27.420><c> in</c><00:00:27.570><c> the</c><00:00:27.689><c> cache</c><00:00:27.900><c> so</c><00:00:28.170><c> all</c><00:00:28.349><c> of</c><00:00:28.410><c> them</c>
+
+00:00:28.849 --> 00:00:28.859 align:start position:0%
+doesn't fit in the cache so all of them
+ 
+
+00:00:28.859 --> 00:00:31.849 align:start position:0%
+doesn't fit in the cache so all of them
+get<00:00:29.099><c> poor</c><00:00:29.369><c> cache</c><00:00:29.609><c> behavior</c><00:00:30.170><c> so</c><00:00:31.170><c> really</c><00:00:31.500><c> we</c>
+
+00:00:31.849 --> 00:00:31.859 align:start position:0%
+get poor cache behavior so really we
+ 
+
+00:00:31.859 --> 00:00:34.690 align:start position:0%
+get poor cache behavior so really we
+should<00:00:32.099><c> not</c><00:00:32.399><c> be</c><00:00:32.430><c> running</c><00:00:32.880><c> all</c><00:00:33.360><c> three</c><00:00:33.600><c> together</c>
+
+00:00:34.690 --> 00:00:34.700 align:start position:0%
+should not be running all three together
+ 
+
+00:00:34.700 --> 00:00:37.220 align:start position:0%
+should not be running all three together
+we<00:00:35.700><c> should</c><00:00:35.940><c> not</c><00:00:36.180><c> be</c><00:00:36.210><c> running</c><00:00:36.540><c> a</c><00:00:36.870><c> and</c><00:00:37.050><c> B</c>
+
+00:00:37.220 --> 00:00:37.230 align:start position:0%
+we should not be running a and B
+ 
+
+00:00:37.230 --> 00:00:42.380 align:start position:0%
+we should not be running a and B
+together<00:00:37.969><c> because</c><00:00:38.969><c> then</c><00:00:39.710><c> C</c><00:00:41.030><c> gets</c><00:00:42.030><c> to</c><00:00:42.210><c> run</c>
+
+00:00:42.380 --> 00:00:42.390 align:start position:0%
+together because then C gets to run
+ 
+
+00:00:42.390 --> 00:00:44.660 align:start position:0%
+together because then C gets to run
+alone<00:00:42.719><c> so</c><00:00:43.020><c> we</c><00:00:43.110><c> don't</c><00:00:43.350><c> benefit</c><00:00:43.770><c> from</c><00:00:43.829><c> sm</c><00:00:44.280><c> t</c><00:00:44.430><c> and</c>
+
+00:00:44.660 --> 00:00:44.670 align:start position:0%
+alone so we don't benefit from sm t and
+ 
+
+00:00:44.670 --> 00:00:48.380 align:start position:0%
+alone so we don't benefit from sm t and
+b<00:00:45.420><c> runs</c><00:00:46.200><c> with</c><00:00:46.500><c> a</c><00:00:46.739><c> sobe</c><00:00:47.340><c> also</c><00:00:47.850><c> has</c><00:00:48.059><c> a</c><00:00:48.090><c> lot</c><00:00:48.360><c> of</c>
+
+00:00:48.380 --> 00:00:48.390 align:start position:0%
+b runs with a sobe also has a lot of
+ 
+
+00:00:48.390 --> 00:00:52.279 align:start position:0%
+b runs with a sobe also has a lot of
+cache<00:00:48.719><c> misses</c><00:00:49.670><c> we</c><00:00:50.670><c> should</c><00:00:51.000><c> run</c><00:00:51.180><c> a</c><00:00:51.390><c> and</c><00:00:51.809><c> then</c><00:00:52.079><c> b</c>
+
+00:00:52.279 --> 00:00:52.289 align:start position:0%
+cache misses we should run a and then b
+ 
+
+00:00:52.289 --> 00:00:55.430 align:start position:0%
+cache misses we should run a and then b
+and<00:00:52.440><c> c</c><00:00:52.680><c> that</c><00:00:52.890><c> way</c><00:00:53.550><c> a</c><00:00:53.789><c> which</c><00:00:54.420><c> has</c><00:00:54.719><c> to</c><00:00:54.899><c> get</c><00:00:55.110><c> poor</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+and c that way a which has to get poor
+ 
+
+00:00:55.440 --> 00:00:57.260 align:start position:0%
+and c that way a which has to get poor
+cache<00:00:55.680><c> behavior</c><00:00:55.920><c> gets</c><00:00:56.489><c> poor</c><00:00:56.820><c> cache</c><00:00:57.059><c> behavior</c>
+
+00:00:57.260 --> 00:00:57.270 align:start position:0%
+cache behavior gets poor cache behavior
+ 
+
+00:00:57.270 --> 00:01:03.100 align:start position:0%
+cache behavior gets poor cache behavior
+alone<00:00:57.930><c> but</c><00:00:58.890><c> B</c><00:00:59.219><c> and</c><00:00:59.399><c> C</c><00:01:00.350><c> benefit</c><00:01:01.350><c> from</c><00:01:01.530><c> smt</c><00:01:02.070><c> and</c>
+
+00:01:03.100 --> 00:01:03.110 align:start position:0%
+alone but B and C benefit from smt and
+ 
+
+00:01:03.110 --> 00:01:05.509 align:start position:0%
+alone but B and C benefit from smt and
+fit<00:01:04.110><c> in</c><00:01:04.290><c> the</c><00:01:04.379><c> cache</c><00:01:04.589><c> so</c><00:01:04.769><c> they</c><00:01:04.890><c> still</c><00:01:05.129><c> get</c><00:01:05.280><c> good</c>
+
+00:01:05.509 --> 00:01:05.519 align:start position:0%
+fit in the cache so they still get good
+ 
+
+00:01:05.519 --> 00:01:09.859 align:start position:0%
+fit in the cache so they still get good
+cache<00:01:05.760><c> behavior</c><00:01:06.000><c> so</c><00:01:06.689><c> we</c><00:01:06.960><c> should</c><00:01:06.990><c> do</c><00:01:07.290><c> this</c><00:01:08.869><c> just</c>
+
+00:01:09.859 --> 00:01:09.869 align:start position:0%
+cache behavior so we should do this just
+ 
+
+00:01:09.869 --> 00:01:11.690 align:start position:0%
+cache behavior so we should do this just
+like<00:01:10.049><c> we</c><00:01:10.200><c> shouldn't</c><00:01:10.530><c> run</c><00:01:10.680><c> be</c><00:01:10.890><c> with</c><00:01:11.159><c> a</c><00:01:11.340><c> we</c>
+
+00:01:11.690 --> 00:01:11.700 align:start position:0%
+like we shouldn't run be with a we
+ 
+
+00:01:11.700 --> 00:01:13.850 align:start position:0%
+like we shouldn't run be with a we
+shouldn't<00:01:12.060><c> run</c><00:01:12.180><c> serie</c><00:01:12.600><c> de</c><00:01:12.810><c> and</c><00:01:13.020><c> then</c><00:01:13.619><c> running</c>
+
+00:01:13.850 --> 00:01:13.860 align:start position:0%
+shouldn't run serie de and then running
+ 
+
+00:01:13.860 --> 00:01:16.340 align:start position:0%
+shouldn't run serie de and then running
+a<00:01:14.189><c> and</c><00:01:14.400><c> then</c><00:01:14.580><c> B</c><00:01:14.760><c> and</c><00:01:14.909><c> then</c><00:01:15.030><c> c</c><00:01:15.360><c> is</c><00:01:15.600><c> not</c>
+
+00:01:16.340 --> 00:01:16.350 align:start position:0%
+a and then B and then c is not
+ 
+
+00:01:16.350 --> 00:01:19.070 align:start position:0%
+a and then B and then c is not
+benefiting<00:01:17.070><c> from</c><00:01:17.220><c> smt</c><00:01:18.030><c> although</c><00:01:18.479><c> B</c><00:01:18.689><c> and</c><00:01:18.840><c> C</c>
+
+00:01:19.070 --> 00:01:19.080 align:start position:0%
+benefiting from smt although B and C
+ 
+
+00:01:19.080 --> 00:01:21.140 align:start position:0%
+benefiting from smt although B and C
+would<00:01:19.380><c> fit</c><00:01:19.680><c> in</c><00:01:19.860><c> the</c><00:01:19.979><c> cache</c><00:01:20.250><c> so</c><00:01:20.670><c> that's</c><00:01:20.909><c> why</c>
+
+00:01:21.140 --> 00:01:21.150 align:start position:0%
+would fit in the cache so that's why
+ 
+
+00:01:21.150 --> 00:01:24.770 align:start position:0%
+would fit in the cache so that's why
+this<00:01:21.210><c> is</c><00:01:21.509><c> the</c><00:01:21.630><c> only</c><00:01:21.750><c> correct</c><00:01:22.200><c> answer</c>
+

@@ -1,0 +1,272 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.750 align:start position:0%
+ 
+let<00:00:00.320><c> us</c><00:00:00.400><c> see</c><00:00:00.640><c> if</c><00:00:00.719><c> we</c><00:00:00.880><c> can</c><00:00:01.040><c> do</c><00:00:01.280><c> some</c><00:00:01.520><c> full</c>
+
+00:00:01.750 --> 00:00:01.760 align:start position:0%
+let us see if we can do some full
+ 
+
+00:00:01.760 --> 00:00:04.470 align:start position:0%
+let us see if we can do some full
+predication<00:00:02.639><c> of</c><00:00:02.879><c> our</c><00:00:03.120><c> own</c><00:00:03.679><c> suppose</c><00:00:04.080><c> that</c><00:00:04.240><c> this</c>
+
+00:00:04.470 --> 00:00:04.480 align:start position:0%
+predication of our own suppose that this
+ 
+
+00:00:04.480 --> 00:00:06.789 align:start position:0%
+predication of our own suppose that this
+is<00:00:04.640><c> the</c><00:00:04.720><c> original</c><00:00:05.200><c> code</c><00:00:05.680><c> where</c><00:00:05.920><c> we</c><00:00:06.160><c> check</c><00:00:06.480><c> if</c>
+
+00:00:06.789 --> 00:00:06.799 align:start position:0%
+is the original code where we check if
+ 
+
+00:00:06.799 --> 00:00:10.870 align:start position:0%
+is the original code where we check if
+r2<00:00:07.600><c> is</c><00:00:07.839><c> equal</c><00:00:08.160><c> to</c><00:00:08.400><c> zero</c><00:00:09.280><c> if</c><00:00:09.440><c> it</c><00:00:09.679><c> is</c><00:00:10.320><c> we</c><00:00:10.559><c> jump</c>
+
+00:00:10.870 --> 00:00:10.880 align:start position:0%
+r2 is equal to zero if it is we jump
+ 
+
+00:00:10.880 --> 00:00:14.549 align:start position:0%
+r2 is equal to zero if it is we jump
+here<00:00:11.599><c> and</c><00:00:11.920><c> decrement</c><00:00:12.639><c> r1</c><00:00:13.120><c> by</c><00:00:13.360><c> one</c>
+
+00:00:14.549 --> 00:00:14.559 align:start position:0%
+here and decrement r1 by one
+ 
+
+00:00:14.559 --> 00:00:18.150 align:start position:0%
+here and decrement r1 by one
+if<00:00:14.880><c> r2</c><00:00:15.519><c> is</c><00:00:15.679><c> not</c><00:00:16.000><c> 0</c><00:00:16.560><c> then</c><00:00:16.720><c> we</c><00:00:16.880><c> continue</c>
+
+00:00:18.150 --> 00:00:18.160 align:start position:0%
+if r2 is not 0 then we continue
+ 
+
+00:00:18.160 --> 00:00:21.109 align:start position:0%
+if r2 is not 0 then we continue
+increment<00:00:19.039><c> r1</c><00:00:19.439><c> by</c><00:00:19.680><c> 1</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+increment r1 by 1
+ 
+
+00:00:21.119 --> 00:00:24.630 align:start position:0%
+increment r1 by 1
+and<00:00:21.359><c> then</c><00:00:22.080><c> go</c><00:00:22.320><c> out</c><00:00:23.039><c> so</c><00:00:23.279><c> after</c><00:00:23.760><c> if</c><00:00:24.000><c> conversion</c>
+
+00:00:24.630 --> 00:00:24.640 align:start position:0%
+and then go out so after if conversion
+ 
+
+00:00:24.640 --> 00:00:26.470 align:start position:0%
+and then go out so after if conversion
+with<00:00:24.880><c> full</c><00:00:25.119><c> predication</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+with full predication
+ 
+
+00:00:26.480 --> 00:00:27.910 align:start position:0%
+with full predication
+we<00:00:26.640><c> get</c><00:00:26.880><c> this</c>
+
+00:00:27.910 --> 00:00:27.920 align:start position:0%
+we get this
+ 
+
+00:00:27.920 --> 00:00:28.950 align:start position:0%
+we get this
+first
+
+00:00:28.950 --> 00:00:28.960 align:start position:0%
+first
+ 
+
+00:00:28.960 --> 00:00:32.950 align:start position:0%
+first
+we<00:00:29.199><c> set</c><00:00:29.519><c> predicates</c><00:00:30.160><c> p1</c><00:00:30.800><c> and</c><00:00:30.960><c> p2</c><00:00:31.920><c> according</c><00:00:32.640><c> to</c>
+
+00:00:32.950 --> 00:00:32.960 align:start position:0%
+we set predicates p1 and p2 according to
+ 
+
+00:00:32.960 --> 00:00:36.790 align:start position:0%
+we set predicates p1 and p2 according to
+whether<00:00:33.680><c> r2</c><00:00:34.399><c> is</c><00:00:34.640><c> equal</c><00:00:35.040><c> to</c><00:00:35.280><c> 0.</c><00:00:36.079><c> remember</c><00:00:36.559><c> that</c>
+
+00:00:36.790 --> 00:00:36.800 align:start position:0%
+whether r2 is equal to 0. remember that
+ 
+
+00:00:36.800 --> 00:00:39.510 align:start position:0%
+whether r2 is equal to 0. remember that
+this<00:00:37.200><c> one</c><00:00:37.600><c> will</c><00:00:37.760><c> be</c><00:00:38.079><c> set</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+this one will be set
+ 
+
+00:00:39.520 --> 00:00:43.830 align:start position:0%
+this one will be set
+if<00:00:39.760><c> r2</c><00:00:40.320><c> is</c><00:00:40.800><c> equal</c><00:00:41.280><c> to</c><00:00:41.520><c> 0</c><00:00:42.320><c> and</c><00:00:42.559><c> this</c><00:00:42.879><c> one</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+if r2 is equal to 0 and this one
+ 
+
+00:00:43.840 --> 00:00:47.190 align:start position:0%
+if r2 is equal to 0 and this one
+is<00:00:44.079><c> set</c><00:00:44.399><c> if</c><00:00:44.640><c> r2</c><00:00:45.360><c> is</c><00:00:45.600><c> not</c><00:00:46.079><c> equal</c><00:00:46.399><c> to</c><00:00:46.640><c> zero</c><00:00:47.039><c> so</c>
+
+00:00:47.190 --> 00:00:47.200 align:start position:0%
+is set if r2 is not equal to zero so
+ 
+
+00:00:47.200 --> 00:00:49.750 align:start position:0%
+is set if r2 is not equal to zero so
+they're<00:00:47.600><c> opposite</c><00:00:48.480><c> predicates</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+they're opposite predicates
+ 
+
+00:00:49.760 --> 00:00:52.950 align:start position:0%
+they're opposite predicates
+this<00:00:50.000><c> one</c><00:00:50.239><c> is</c><00:00:50.399><c> set</c><00:00:50.879><c> if</c><00:00:51.120><c> r2</c><00:00:51.680><c> is</c><00:00:51.920><c> equal</c><00:00:52.160><c> to</c><00:00:52.399><c> zero</c>
+
+00:00:52.950 --> 00:00:52.960 align:start position:0%
+this one is set if r2 is equal to zero
+ 
+
+00:00:52.960 --> 00:00:55.750 align:start position:0%
+this one is set if r2 is equal to zero
+the<00:00:53.199><c> actual</c><00:00:53.600><c> question</c><00:00:53.920><c> for</c><00:00:54.160><c> you</c><00:00:54.480><c> is</c><00:00:54.800><c> what</c><00:00:55.120><c> goes</c>
+
+00:00:55.750 --> 00:00:55.760 align:start position:0%
+the actual question for you is what goes
+ 
+
+00:00:55.760 --> 00:00:57.910 align:start position:0%
+the actual question for you is what goes
+into<00:00:56.079><c> the</c><00:00:56.559><c> predicate</c><00:00:57.199><c> for</c><00:00:57.360><c> the</c><00:00:57.520><c> next</c>
+
+00:00:57.910 --> 00:00:57.920 align:start position:0%
+into the predicate for the next
+ 
+
+00:00:57.920 --> 00:01:00.229 align:start position:0%
+into the predicate for the next
+instruction<00:00:58.879><c> and</c><00:00:59.039><c> the</c><00:00:59.199><c> predicate</c><00:00:59.920><c> for</c><00:01:00.079><c> the</c>
+
+00:01:00.229 --> 00:01:00.239 align:start position:0%
+instruction and the predicate for the
+ 
+
+00:01:00.239 --> 00:01:02.630 align:start position:0%
+instruction and the predicate for the
+next<00:01:00.559><c> instruction</c><00:01:01.039><c> after</c><00:01:01.359><c> that</c><00:01:02.160><c> and</c><00:01:02.320><c> then</c><00:01:02.480><c> the</c>
+
+00:01:02.630 --> 00:01:02.640 align:start position:0%
+next instruction after that and then the
+ 
+
+00:01:02.640 --> 00:01:08.149 align:start position:0%
+next instruction after that and then the
+two<00:01:02.879><c> instructions</c><00:01:03.520><c> are</c><00:01:03.840><c> add</c><00:01:04.400><c> r1</c><00:01:05.199><c> r1</c><00:01:06.159><c> 1</c><00:01:06.960><c> and</c><00:01:07.280><c> add</c>
+
+00:01:08.149 --> 00:01:08.159 align:start position:0%
+two instructions are add r1 r1 1 and add
+ 
+
+00:01:08.159 --> 00:01:09.429 align:start position:0%
+two instructions are add r1 r1 1 and add
+r1
+
+00:01:09.429 --> 00:01:09.439 align:start position:0%
+r1
+ 
+
+00:01:09.439 --> 00:01:13.510 align:start position:0%
+r1
+r1<00:01:10.400><c> -1</c><00:01:11.280><c> so</c><00:01:11.520><c> what</c><00:01:11.920><c> are</c><00:01:12.080><c> the</c><00:01:12.240><c> predicates</c><00:01:12.880><c> here</c>
+
+00:01:13.510 --> 00:01:13.520 align:start position:0%
+r1 -1 so what are the predicates here
+ 
+
+00:01:13.520 --> 00:01:16.310 align:start position:0%
+r1 -1 so what are the predicates here
+also<00:01:14.320><c> if</c><00:01:14.479><c> we</c><00:01:14.640><c> assume</c><00:01:15.040><c> that</c><00:01:15.280><c> this</c><00:01:15.520><c> code</c><00:01:15.840><c> gets</c><00:01:16.159><c> us</c>
+
+00:01:16.310 --> 00:01:16.320 align:start position:0%
+also if we assume that this code gets us
+ 
+
+00:01:16.320 --> 00:01:20.149 align:start position:0%
+also if we assume that this code gets us
+a<00:01:16.400><c> cpf</c><00:01:16.960><c> 0.5</c><00:01:18.159><c> without</c><00:01:18.720><c> mispredictions</c>
+
+00:01:20.149 --> 00:01:20.159 align:start position:0%
+a cpf 0.5 without mispredictions
+ 
+
+00:01:20.159 --> 00:01:22.630 align:start position:0%
+a cpf 0.5 without mispredictions
+and<00:01:20.320><c> that</c><00:01:20.560><c> the</c><00:01:20.720><c> misprediction</c><00:01:21.520><c> penalty</c><00:01:22.080><c> is</c><00:01:22.320><c> 10</c>
+
+00:01:22.630 --> 00:01:22.640 align:start position:0%
+and that the misprediction penalty is 10
+ 
+
+00:01:22.640 --> 00:01:25.190 align:start position:0%
+and that the misprediction penalty is 10
+cycles<00:01:23.600><c> then</c><00:01:24.159><c> we</c><00:01:24.400><c> should</c><00:01:24.560><c> do</c><00:01:24.799><c> the</c><00:01:24.960><c> if</c>
+
+00:01:25.190 --> 00:01:25.200 align:start position:0%
+cycles then we should do the if
+ 
+
+00:01:25.200 --> 00:01:27.990 align:start position:0%
+cycles then we should do the if
+conversion<00:01:26.320><c> if</c><00:01:26.640><c> the</c><00:01:26.799><c> branch</c><00:01:27.200><c> equals</c><00:01:27.520><c> zero</c>
+
+00:01:27.990 --> 00:01:28.000 align:start position:0%
+conversion if the branch equals zero
+ 
+
+00:01:28.000 --> 00:01:32.390 align:start position:0%
+conversion if the branch equals zero
+here<00:01:28.799><c> is</c><00:01:29.040><c> predicted</c><00:01:29.840><c> below</c><00:01:30.640><c> what</c><00:01:31.040><c> accuracy</c><00:01:32.159><c> so</c>
+
+00:01:32.390 --> 00:01:32.400 align:start position:0%
+here is predicted below what accuracy so
+ 
+
+00:01:32.400 --> 00:01:34.550 align:start position:0%
+here is predicted below what accuracy so
+doing<00:01:32.880><c> conversion</c><00:01:33.439><c> if</c><00:01:33.680><c> branch</c><00:01:34.000><c> equals</c><00:01:34.240><c> zero</c>
+
+00:01:34.550 --> 00:01:34.560 align:start position:0%
+doing conversion if branch equals zero
+ 
+
+00:01:34.560 --> 00:01:37.429 align:start position:0%
+doing conversion if branch equals zero
+prediction<00:01:35.600><c> is</c><00:01:35.840><c> less</c><00:01:36.159><c> than</c><00:01:36.479><c> what</c><00:01:36.799><c> percentage</c>
+
+00:01:37.429 --> 00:01:37.439 align:start position:0%
+prediction is less than what percentage
+ 
+
+00:01:37.439 --> 00:01:40.439 align:start position:0%
+prediction is less than what percentage
+correct
+

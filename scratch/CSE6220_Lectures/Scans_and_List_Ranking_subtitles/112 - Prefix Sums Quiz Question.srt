@@ -1,0 +1,12 @@
+1
+00:00:00,450 --> 00:00:03,858
+ Just to make sure you're paying attention to the definitions,
+
+2
+00:00:03,858 --> 00:00:07,153
+ I want you to compute the remaining prefix sums of this array.
+
+3
+00:00:07,153 --> 00:00:07,153
+ You can do that by just writing the appropriate value in the blank.
+

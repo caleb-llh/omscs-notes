@@ -1,0 +1,52 @@
+1
+00:00:00,590 --> 00:00:04,930
+ The answer is that both the first and the second statements are true.
+
+2
+00:00:04,930 --> 00:00:08,300
+ Computation is much less than communication, so
+
+3
+00:00:08,300 --> 00:00:10,490
+ you should probably avoid communication.
+
+4
+00:00:10,490 --> 00:00:13,270
+ It's an unfortunate fact of life that many computer scientists are very
+
+5
+00:00:13,270 --> 00:00:14,530
+ good at this.
+
+6
+00:00:14,530 --> 00:00:17,570
+ The second statement is essentially about the relationship between beta
+
+7
+00:00:17,570 --> 00:00:18,990
+ and alpha.
+
+8
+00:00:18,990 --> 00:00:20,670
+ So think about that.
+
+9
+00:00:20,670 --> 00:00:25,280
+ According to this, in looking at this formula, it's evident that
+
+10
+00:00:25,280 --> 00:00:28,895
+ you can deliver something like on the order of, I don't know,
+
+11
+00:00:28,895 --> 00:00:33,640
+ 1,000 words or bytes in the same time that it takes just to start a message.
+
+12
+00:00:33,640 --> 00:00:36,850
+ So, that suggests it would be better to send a few large messages rather than
+
+13
+00:00:36,850 --> 00:00:36,850
+ many small messages.
+

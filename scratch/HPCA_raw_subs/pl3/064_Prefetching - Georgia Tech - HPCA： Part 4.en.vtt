@@ -1,0 +1,440 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.710 align:start position:0%
+ 
+another<00:00:00.640><c> technique</c><00:00:01.599><c> that</c><00:00:01.719><c> uses</c><00:00:02.040><c> a</c><00:00:02.240><c> similar</c>
+
+00:00:02.710 --> 00:00:02.720 align:start position:0%
+another technique that uses a similar
+ 
+
+00:00:02.720 --> 00:00:04.510 align:start position:0%
+another technique that uses a similar
+idea<00:00:03.120><c> to</c><00:00:03.320><c> what</c><00:00:03.480><c> we</c><00:00:03.600><c> did</c><00:00:03.840><c> when</c><00:00:04.000><c> we</c><00:00:04.120><c> increased</c>
+
+00:00:04.510 --> 00:00:04.520 align:start position:0%
+idea to what we did when we increased
+ 
+
+00:00:04.520 --> 00:00:06.349 align:start position:0%
+idea to what we did when we increased
+the<00:00:04.600><c> block</c><00:00:04.960><c> size</c><00:00:05.400><c> to</c><00:00:05.600><c> reduce</c><00:00:05.920><c> the</c><00:00:06.040><c> number</c><00:00:06.240><c> of</c>
+
+00:00:06.349 --> 00:00:06.359 align:start position:0%
+the block size to reduce the number of
+ 
+
+00:00:06.359 --> 00:00:08.790 align:start position:0%
+the block size to reduce the number of
+Misses<00:00:07.000><c> is</c><00:00:07.200><c> called</c><00:00:07.480><c> prefetching</c><00:00:08.400><c> the</c><00:00:08.519><c> way</c>
+
+00:00:08.790 --> 00:00:08.800 align:start position:0%
+Misses is called prefetching the way
+ 
+
+00:00:08.800 --> 00:00:12.270 align:start position:0%
+Misses is called prefetching the way
+prefetching<00:00:09.440><c> works</c><00:00:10.160><c> is</c><00:00:10.679><c> that</c><00:00:10.880><c> we</c><00:00:11.160><c> guess</c><00:00:12.000><c> which</c>
+
+00:00:12.270 --> 00:00:12.280 align:start position:0%
+prefetching works is that we guess which
+ 
+
+00:00:12.280 --> 00:00:14.310 align:start position:0%
+prefetching works is that we guess which
+blocks<00:00:12.759><c> will</c><00:00:12.960><c> be</c><00:00:13.240><c> accessed</c><00:00:13.639><c> soon</c><00:00:14.000><c> in</c><00:00:14.160><c> the</c>
+
+00:00:14.310 --> 00:00:14.320 align:start position:0%
+blocks will be accessed soon in the
+ 
+
+00:00:14.320 --> 00:00:17.029 align:start position:0%
+blocks will be accessed soon in the
+future<00:00:15.240><c> before</c><00:00:15.599><c> they're</c><00:00:16.000><c> actually</c><00:00:16.359><c> accessed</c>
+
+00:00:17.029 --> 00:00:17.039 align:start position:0%
+future before they're actually accessed
+ 
+
+00:00:17.039 --> 00:00:18.910 align:start position:0%
+future before they're actually accessed
+and<00:00:17.160><c> then</c><00:00:17.320><c> we</c><00:00:17.480><c> bring</c><00:00:17.800><c> those</c><00:00:18.000><c> blocks</c><00:00:18.439><c> into</c><00:00:18.720><c> the</c>
+
+00:00:18.910 --> 00:00:18.920 align:start position:0%
+and then we bring those blocks into the
+ 
+
+00:00:18.920 --> 00:00:21.150 align:start position:0%
+and then we bring those blocks into the
+cache<00:00:19.400><c> ahead</c><00:00:19.640><c> of</c><00:00:19.840><c> time</c><00:00:20.199><c> before</c><00:00:20.560><c> they</c><00:00:20.880><c> actually</c>
+
+00:00:21.150 --> 00:00:21.160 align:start position:0%
+cache ahead of time before they actually
+ 
+
+00:00:21.160 --> 00:00:23.509 align:start position:0%
+cache ahead of time before they actually
+will<00:00:21.359><c> be</c><00:00:21.600><c> accessed</c><00:00:22.199><c> so</c><00:00:22.400><c> with</c><00:00:22.560><c> no</c><00:00:22.800><c> prefetching</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+will be accessed so with no prefetching
+ 
+
+00:00:23.519 --> 00:00:26.230 align:start position:0%
+will be accessed so with no prefetching
+if<00:00:23.760><c> time</c><00:00:24.279><c> goes</c><00:00:24.880><c> to</c><00:00:25.080><c> the</c><00:00:25.320><c> right</c><00:00:25.720><c> we</c><00:00:25.880><c> might</c><00:00:26.080><c> have</c>
+
+00:00:26.230 --> 00:00:26.240 align:start position:0%
+if time goes to the right we might have
+ 
+
+00:00:26.240 --> 00:00:29.429 align:start position:0%
+if time goes to the right we might have
+an<00:00:26.480><c> axis</c><00:00:26.920><c> here</c><00:00:27.359><c> let's</c><00:00:27.560><c> say</c><00:00:27.960><c> load</c><00:00:28.320><c> Word</c><00:00:28.640><c> a</c><00:00:29.279><c> and</c>
+
+00:00:29.429 --> 00:00:29.439 align:start position:0%
+an axis here let's say load Word a and
+ 
+
+00:00:29.439 --> 00:00:30.509 align:start position:0%
+an axis here let's say load Word a and
+then<00:00:29.560><c> we</c><00:00:29.720><c> check</c>
+
+00:00:30.509 --> 00:00:30.519 align:start position:0%
+then we check
+ 
+
+00:00:30.519 --> 00:00:32.709 align:start position:0%
+then we check
+quickly<00:00:30.920><c> whether</c><00:00:31.119><c> it's</c><00:00:31.279><c> in</c><00:00:31.400><c> our</c><00:00:31.720><c> cache</c><00:00:32.399><c> and</c><00:00:32.559><c> if</c>
+
+00:00:32.709 --> 00:00:32.719 align:start position:0%
+quickly whether it's in our cache and if
+ 
+
+00:00:32.719 --> 00:00:35.069 align:start position:0%
+quickly whether it's in our cache and if
+it<00:00:32.840><c> is</c><00:00:33.040><c> not</c><00:00:33.440><c> we</c><00:00:33.559><c> will</c><00:00:33.760><c> go</c><00:00:33.920><c> to</c><00:00:34.160><c> memory</c><00:00:34.640><c> and</c><00:00:34.800><c> spend</c>
+
+00:00:35.069 --> 00:00:35.079 align:start position:0%
+it is not we will go to memory and spend
+ 
+
+00:00:35.079 --> 00:00:37.830 align:start position:0%
+it is not we will go to memory and spend
+a<00:00:35.239><c> lot</c><00:00:35.399><c> of</c><00:00:35.600><c> time</c><00:00:35.800><c> waiting</c><00:00:36.200><c> for</c><00:00:36.440><c> it</c><00:00:37.200><c> until</c><00:00:37.640><c> it</c>
+
+00:00:37.830 --> 00:00:37.840 align:start position:0%
+a lot of time waiting for it until it
+ 
+
+00:00:37.840 --> 00:00:40.029 align:start position:0%
+a lot of time waiting for it until it
+comes<00:00:38.239><c> back</c><00:00:38.719><c> so</c><00:00:39.000><c> here</c><00:00:39.239><c> we</c><00:00:39.360><c> can</c><00:00:39.520><c> supply</c><00:00:39.920><c> the</c>
+
+00:00:40.029 --> 00:00:40.039 align:start position:0%
+comes back so here we can supply the
+ 
+
+00:00:40.039 --> 00:00:42.069 align:start position:0%
+comes back so here we can supply the
+data<00:00:40.280><c> to</c><00:00:40.399><c> the</c><00:00:40.600><c> processor</c><00:00:41.399><c> so</c><00:00:41.600><c> this</c><00:00:41.719><c> is</c><00:00:41.879><c> what</c>
+
+00:00:42.069 --> 00:00:42.079 align:start position:0%
+data to the processor so this is what
+ 
+
+00:00:42.079 --> 00:00:44.110 align:start position:0%
+data to the processor so this is what
+happens<00:00:42.399><c> with</c><00:00:42.559><c> no</c><00:00:42.760><c> prefetching</c><00:00:43.680><c> with</c>
+
+00:00:44.110 --> 00:00:44.120 align:start position:0%
+happens with no prefetching with
+ 
+
+00:00:44.120 --> 00:00:47.029 align:start position:0%
+happens with no prefetching with
+prefetching<00:00:45.120><c> assuming</c><00:00:45.600><c> that</c><00:00:45.840><c> the</c><00:00:46.039><c> load</c><00:00:46.719><c> would</c>
+
+00:00:47.029 --> 00:00:47.039 align:start position:0%
+prefetching assuming that the load would
+ 
+
+00:00:47.039 --> 00:00:50.229 align:start position:0%
+prefetching assuming that the load would
+happen<00:00:47.480><c> here</c><00:00:48.199><c> sometime</c><00:00:48.800><c> before</c><00:00:49.160><c> the</c><00:00:49.320><c> load</c><00:00:50.079><c> we</c>
+
+00:00:50.229 --> 00:00:50.239 align:start position:0%
+happen here sometime before the load we
+ 
+
+00:00:50.239 --> 00:00:52.750 align:start position:0%
+happen here sometime before the load we
+have<00:00:50.399><c> to</c><00:00:50.600><c> guess</c><00:00:50.920><c> that</c><00:00:51.120><c> a</c><00:00:51.360><c> will</c><00:00:51.559><c> be</c><00:00:51.840><c> accessed</c>
+
+00:00:52.750 --> 00:00:52.760 align:start position:0%
+have to guess that a will be accessed
+ 
+
+00:00:52.760 --> 00:00:55.590 align:start position:0%
+have to guess that a will be accessed
+and<00:00:53.000><c> request</c><00:00:53.600><c> it</c><00:00:53.760><c> from</c><00:00:54.039><c> memory</c><00:00:54.840><c> now</c><00:00:55.120><c> what</c><00:00:55.239><c> was</c>
+
+00:00:55.590 --> 00:00:55.600 align:start position:0%
+and request it from memory now what was
+ 
+
+00:00:55.600 --> 00:00:58.990 align:start position:0%
+and request it from memory now what was
+memory<00:00:55.960><c> latency</c><00:00:56.640><c> here</c><00:00:57.239><c> will</c><00:00:57.520><c> be</c><00:00:57.879><c> here</c><00:00:58.640><c> and</c><00:00:58.800><c> at</c>
+
+00:00:58.990 --> 00:00:59.000 align:start position:0%
+memory latency here will be here and at
+ 
+
+00:00:59.000 --> 00:01:02.790 align:start position:0%
+memory latency here will be here and at
+this<00:00:59.199><c> point</c><00:01:00.079><c> the</c><00:01:00.239><c> block</c><00:01:00.840><c> is</c><00:01:01.000><c> in</c><00:01:01.160><c> the</c><00:01:01.519><c> cache</c><00:01:02.519><c> so</c>
+
+00:01:02.790 --> 00:01:02.800 align:start position:0%
+this point the block is in the cache so
+ 
+
+00:01:02.800 --> 00:01:05.310 align:start position:0%
+this point the block is in the cache so
+when<00:01:02.920><c> we</c><00:01:03.079><c> try</c><00:01:03.280><c> to</c><00:01:03.399><c> load</c><00:01:03.680><c> it</c><00:01:03.920><c> we</c><00:01:04.040><c> have</c><00:01:04.159><c> a</c><00:01:04.320><c> hit</c><00:01:05.119><c> so</c>
+
+00:01:05.310 --> 00:01:05.320 align:start position:0%
+when we try to load it we have a hit so
+ 
+
+00:01:05.320 --> 00:01:07.350 align:start position:0%
+when we try to load it we have a hit so
+as<00:01:05.400><c> you</c><00:01:05.519><c> can</c><00:01:05.640><c> see</c><00:01:05.920><c> with</c><00:01:06.119><c> prefetching</c><00:01:06.960><c> we're</c>
+
+00:01:07.350 --> 00:01:07.360 align:start position:0%
+as you can see with prefetching we're
+ 
+
+00:01:07.360 --> 00:01:10.190 align:start position:0%
+as you can see with prefetching we're
+guessing<00:01:08.080><c> what</c><00:01:08.240><c> will</c><00:01:08.400><c> be</c><00:01:08.640><c> accessed</c><00:01:09.360><c> and</c><00:01:09.560><c> start</c>
+
+00:01:10.190 --> 00:01:10.200 align:start position:0%
+guessing what will be accessed and start
+ 
+
+00:01:10.200 --> 00:01:12.310 align:start position:0%
+guessing what will be accessed and start
+fetching<00:01:10.600><c> it</c><00:01:10.720><c> from</c><00:01:10.920><c> memory</c><00:01:11.240><c> into</c><00:01:11.439><c> the</c><00:01:11.640><c> cache</c>
+
+00:01:12.310 --> 00:01:12.320 align:start position:0%
+fetching it from memory into the cache
+ 
+
+00:01:12.320 --> 00:01:15.310 align:start position:0%
+fetching it from memory into the cache
+if<00:01:12.479><c> we</c><00:01:12.640><c> guess</c><00:01:12.960><c> correctly</c><00:01:13.920><c> instead</c><00:01:14.240><c> of</c><00:01:14.400><c> a</c><00:01:14.560><c> Miss</c>
+
+00:01:15.310 --> 00:01:15.320 align:start position:0%
+if we guess correctly instead of a Miss
+ 
+
+00:01:15.320 --> 00:01:17.710 align:start position:0%
+if we guess correctly instead of a Miss
+we<00:01:15.479><c> get</c><00:01:15.640><c> a</c><00:01:15.799><c> hit</c><00:01:16.520><c> if</c><00:01:16.680><c> we</c><00:01:16.840><c> guess</c>
+
+00:01:17.710 --> 00:01:17.720 align:start position:0%
+we get a hit if we guess
+ 
+
+00:01:17.720 --> 00:01:19.910 align:start position:0%
+we get a hit if we guess
+incorrectly<00:01:18.720><c> we</c><00:01:18.920><c> brought</c><00:01:19.320><c> something</c><00:01:19.680><c> into</c>
+
+00:01:19.910 --> 00:01:19.920 align:start position:0%
+incorrectly we brought something into
+ 
+
+00:01:19.920 --> 00:01:22.109 align:start position:0%
+incorrectly we brought something into
+the<00:01:20.159><c> cache</c><00:01:20.880><c> that</c><00:01:21.079><c> replaced</c><00:01:21.640><c> something</c><00:01:21.960><c> that</c>
+
+00:01:22.109 --> 00:01:22.119 align:start position:0%
+the cache that replaced something that
+ 
+
+00:01:22.119 --> 00:01:24.109 align:start position:0%
+the cache that replaced something that
+might<00:01:22.320><c> have</c><00:01:22.439><c> been</c><00:01:22.600><c> useful</c><00:01:23.560><c> so</c><00:01:23.960><c> with</c>
+
+00:01:24.109 --> 00:01:24.119 align:start position:0%
+might have been useful so with
+ 
+
+00:01:24.119 --> 00:01:26.270 align:start position:0%
+might have been useful so with
+prefetching<00:01:24.720><c> we</c><00:01:24.920><c> have</c><00:01:25.439><c> that</c><00:01:25.680><c> good</c><00:01:25.920><c> guesses</c>
+
+00:01:26.270 --> 00:01:26.280 align:start position:0%
+prefetching we have that good guesses
+ 
+
+00:01:26.280 --> 00:01:30.069 align:start position:0%
+prefetching we have that good guesses
+will<00:01:26.479><c> eliminate</c><00:01:27.119><c> misses</c><00:01:28.119><c> but</c><00:01:28.400><c> bad</c><00:01:28.720><c> guesses</c>
+
+00:01:30.069 --> 00:01:30.079 align:start position:0%
+will eliminate misses but bad guesses
+ 
+
+00:01:30.079 --> 00:01:33.230 align:start position:0%
+will eliminate misses but bad guesses
+lead<00:01:30.360><c> to</c><00:01:30.600><c> what</c><00:01:30.720><c> is</c><00:01:30.920><c> called</c><00:01:31.799><c> Cash</c><00:01:32.240><c> pollution</c>
+
+00:01:33.230 --> 00:01:33.240 align:start position:0%
+lead to what is called Cash pollution
+ 
+
+00:01:33.240 --> 00:01:35.190 align:start position:0%
+lead to what is called Cash pollution
+because<00:01:33.479><c> we're</c><00:01:33.720><c> bringing</c><00:01:34.280><c> stuff</c><00:01:34.880><c> that</c><00:01:35.040><c> is</c>
+
+00:01:35.190 --> 00:01:35.200 align:start position:0%
+because we're bringing stuff that is
+ 
+
+00:01:35.200 --> 00:01:37.590 align:start position:0%
+because we're bringing stuff that is
+useless<00:01:35.640><c> into</c><00:01:35.920><c> the</c><00:01:36.159><c> cash</c><00:01:36.799><c> if</c><00:01:36.920><c> it</c><00:01:37.079><c> doesn't</c><00:01:37.360><c> get</c>
+
+00:01:37.590 --> 00:01:37.600 align:start position:0%
+useless into the cash if it doesn't get
+ 
+
+00:01:37.600 --> 00:01:39.389 align:start position:0%
+useless into the cash if it doesn't get
+access<00:01:38.079><c> that</c><00:01:38.200><c> means</c><00:01:38.439><c> that</c><00:01:38.640><c> maybe</c><00:01:39.040><c> it</c><00:01:39.200><c> would</c>
+
+00:01:39.389 --> 00:01:39.399 align:start position:0%
+access that means that maybe it would
+ 
+
+00:01:39.399 --> 00:01:40.990 align:start position:0%
+access that means that maybe it would
+never<00:01:39.680><c> have</c><00:01:39.799><c> been</c><00:01:40.000><c> brought</c><00:01:40.280><c> into</c><00:01:40.479><c> the</c><00:01:40.680><c> cash</c><00:01:40.880><c> in</c>
+
+00:01:40.990 --> 00:01:41.000 align:start position:0%
+never have been brought into the cash in
+ 
+
+00:01:41.000 --> 00:01:43.190 align:start position:0%
+never have been brought into the cash in
+the<00:01:41.119><c> first</c><00:01:41.399><c> place</c><00:01:42.280><c> and</c><00:01:42.479><c> because</c><00:01:42.720><c> of</c><00:01:42.920><c> cash</c>
+
+00:01:43.190 --> 00:01:43.200 align:start position:0%
+the first place and because of cash
+ 
+
+00:01:43.200 --> 00:01:44.789 align:start position:0%
+the first place and because of cash
+pollution<00:01:43.720><c> because</c><00:01:43.960><c> we</c><00:01:44.079><c> kick</c><00:01:44.320><c> out</c><00:01:44.520><c> something</c>
+
+00:01:44.789 --> 00:01:44.799 align:start position:0%
+pollution because we kick out something
+ 
+
+00:01:44.799 --> 00:01:46.910 align:start position:0%
+pollution because we kick out something
+that<00:01:44.960><c> might</c><00:01:45.159><c> have</c><00:01:45.320><c> been</c><00:01:45.479><c> useful</c><00:01:46.159><c> with</c><00:01:46.320><c> useless</c>
+
+00:01:46.910 --> 00:01:46.920 align:start position:0%
+that might have been useful with useless
+ 
+
+00:01:46.920 --> 00:01:48.709 align:start position:0%
+that might have been useful with useless
+data<00:01:47.920><c> not</c>
+
+00:01:48.709 --> 00:01:48.719 align:start position:0%
+data not
+ 
+
+00:01:48.719 --> 00:01:51.630 align:start position:0%
+data not
+only<00:01:49.719><c> that</c><00:01:49.880><c> we</c><00:01:50.079><c> didn't</c><00:01:50.479><c> eliminate</c><00:01:51.079><c> the</c><00:01:51.240><c> Miss</c>
+
+00:01:51.630 --> 00:01:51.640 align:start position:0%
+only that we didn't eliminate the Miss
+ 
+
+00:01:51.640 --> 00:01:54.230 align:start position:0%
+only that we didn't eliminate the Miss
+here<00:01:52.360><c> because</c><00:01:52.600><c> we</c><00:01:52.759><c> guessed</c><00:01:53.040><c> wrongly</c><00:01:53.600><c> we</c><00:01:53.880><c> also</c>
+
+00:01:54.230 --> 00:01:54.240 align:start position:0%
+here because we guessed wrongly we also
+ 
+
+00:01:54.240 --> 00:01:55.870 align:start position:0%
+here because we guessed wrongly we also
+might<00:01:54.399><c> have</c><00:01:54.560><c> created</c><00:01:54.960><c> another</c><00:01:55.320><c> Miss</c><00:01:55.680><c> because</c>
+
+00:01:55.870 --> 00:01:55.880 align:start position:0%
+might have created another Miss because
+ 
+
+00:01:55.880 --> 00:01:57.709 align:start position:0%
+might have created another Miss because
+we<00:01:56.039><c> kicked</c><00:01:56.320><c> out</c><00:01:56.560><c> something</c><00:01:57.039><c> that</c><00:01:57.200><c> later</c><00:01:57.560><c> might</c>
+
+00:01:57.709 --> 00:01:57.719 align:start position:0%
+we kicked out something that later might
+ 
+
+00:01:57.719 --> 00:02:01.230 align:start position:0%
+we kicked out something that later might
+be<00:01:57.960><c> accessed</c><00:01:58.880><c> and</c><00:01:59.119><c> that</c><00:01:59.560><c> we</c><00:01:59.920><c> don't</c><00:02:00.159><c> like</c><00:02:00.920><c> so</c>
+
+00:02:01.230 --> 00:02:01.240 align:start position:0%
+be accessed and that we don't like so
+ 
+
+00:02:01.240 --> 00:02:04.429 align:start position:0%
+be accessed and that we don't like so
+overall<00:02:02.320><c> prefetching</c><00:02:03.320><c> is</c><00:02:03.560><c> about</c><00:02:03.920><c> trying</c><00:02:04.240><c> to</c>
+
+00:02:04.429 --> 00:02:04.439 align:start position:0%
+overall prefetching is about trying to
+ 
+
+00:02:04.439 --> 00:02:07.350 align:start position:0%
+overall prefetching is about trying to
+make<00:02:04.759><c> good</c><00:02:05.039><c> guesses</c><00:02:05.960><c> so</c><00:02:06.240><c> that</c><00:02:06.719><c> we</c><00:02:06.880><c> eliminate</c>
+
+00:02:07.350 --> 00:02:07.360 align:start position:0%
+make good guesses so that we eliminate
+ 
+
+00:02:07.360 --> 00:02:10.350 align:start position:0%
+make good guesses so that we eliminate
+misses<00:02:08.160><c> while</c><00:02:08.440><c> trying</c><00:02:09.039><c> to</c><00:02:09.239><c> eliminate</c><00:02:09.800><c> bad</c>
+
+00:02:10.350 --> 00:02:10.360 align:start position:0%
+misses while trying to eliminate bad
+ 
+
+00:02:10.360 --> 00:02:12.589 align:start position:0%
+misses while trying to eliminate bad
+guesses<00:02:11.360><c> because</c><00:02:11.680><c> we</c><00:02:11.800><c> don't</c><00:02:11.920><c> want</c><00:02:12.040><c> to</c><00:02:12.239><c> create</c>
+
+00:02:12.589 --> 00:02:12.599 align:start position:0%
+guesses because we don't want to create
+ 
+
+00:02:12.599 --> 00:02:16.040 align:start position:0%
+guesses because we don't want to create
+additional<00:02:13.040><c> misses</c>
+

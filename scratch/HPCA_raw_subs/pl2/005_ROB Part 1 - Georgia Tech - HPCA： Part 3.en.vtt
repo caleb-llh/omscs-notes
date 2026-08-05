@@ -1,0 +1,344 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.359 --> 00:00:02.030 align:start position:0%
+ 
+now<00:00:00.560><c> that</c><00:00:00.719><c> we</c><00:00:00.840><c> know</c><00:00:01.040><c> that</c><00:00:01.199><c> we</c><00:00:01.360><c> need</c><00:00:01.880><c> the</c>
+
+00:00:02.030 --> 00:00:02.040 align:start position:0%
+now that we know that we need the
+ 
+
+00:00:02.040 --> 00:00:04.269 align:start position:0%
+now that we know that we need the
+reorder<00:00:02.480><c> buffer</c><00:00:03.080><c> to</c><00:00:03.280><c> hold</c><00:00:03.600><c> the</c><00:00:03.760><c> results</c><00:00:04.080><c> of</c>
+
+00:00:04.269 --> 00:00:04.279 align:start position:0%
+reorder buffer to hold the results of
+ 
+
+00:00:04.279 --> 00:00:07.309 align:start position:0%
+reorder buffer to hold the results of
+instructions<00:00:05.040><c> until</c><00:00:05.799><c> they're</c><00:00:06.759><c> ready</c><00:00:07.120><c> to</c>
+
+00:00:07.309 --> 00:00:07.319 align:start position:0%
+instructions until they're ready to
+ 
+
+00:00:07.319 --> 00:00:09.629 align:start position:0%
+instructions until they're ready to
+finish<00:00:07.640><c> in</c><00:00:07.839><c> program</c><00:00:08.280><c> order</c><00:00:09.080><c> let's</c><00:00:09.280><c> see</c><00:00:09.519><c> what</c>
+
+00:00:09.629 --> 00:00:09.639 align:start position:0%
+finish in program order let's see what
+ 
+
+00:00:09.639 --> 00:00:12.390 align:start position:0%
+finish in program order let's see what
+it<00:00:09.800><c> looks</c><00:00:10.120><c> like</c><00:00:10.840><c> the</c><00:00:11.000><c> reorder</c><00:00:11.440><c> buffer</c><00:00:12.000><c> is</c><00:00:12.120><c> a</c>
+
+00:00:12.390 --> 00:00:12.400 align:start position:0%
+it looks like the reorder buffer is a
+ 
+
+00:00:12.400 --> 00:00:14.990 align:start position:0%
+it looks like the reorder buffer is a
+table<00:00:12.759><c> of</c><00:00:13.000><c> entries</c><00:00:14.000><c> in</c><00:00:14.120><c> each</c><00:00:14.320><c> entry</c><00:00:14.639><c> we</c><00:00:14.799><c> keep</c>
+
+00:00:14.990 --> 00:00:15.000 align:start position:0%
+table of entries in each entry we keep
+ 
+
+00:00:15.000 --> 00:00:16.070 align:start position:0%
+table of entries in each entry we keep
+at<00:00:15.120><c> least</c><00:00:15.360><c> three</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+at least three
+ 
+
+00:00:16.080 --> 00:00:19.630 align:start position:0%
+at least three
+Fields<00:00:17.080><c> one</c><00:00:17.439><c> says</c><00:00:18.119><c> what</c><00:00:18.320><c> the</c><00:00:18.600><c> value</c><00:00:19.160><c> produced</c>
+
+00:00:19.630 --> 00:00:19.640 align:start position:0%
+Fields one says what the value produced
+ 
+
+00:00:19.640 --> 00:00:21.910 align:start position:0%
+Fields one says what the value produced
+by<00:00:19.800><c> the</c><00:00:19.920><c> instruction</c><00:00:20.480><c> is</c><00:00:20.880><c> this</c><00:00:21.039><c> is</c><00:00:21.199><c> the</c><00:00:21.439><c> value</c>
+
+00:00:21.910 --> 00:00:21.920 align:start position:0%
+by the instruction is this is the value
+ 
+
+00:00:21.920 --> 00:00:24.349 align:start position:0%
+by the instruction is this is the value
+that<00:00:22.080><c> we</c><00:00:22.199><c> are</c><00:00:22.840><c> not</c><00:00:23.119><c> writing</c><00:00:23.480><c> to</c><00:00:23.680><c> the</c><00:00:23.800><c> register</c>
+
+00:00:24.349 --> 00:00:24.359 align:start position:0%
+that we are not writing to the register
+ 
+
+00:00:24.359 --> 00:00:26.109 align:start position:0%
+that we are not writing to the register
+when<00:00:24.480><c> the</c><00:00:24.599><c> instruction</c><00:00:25.080><c> finishes</c><00:00:25.760><c> it</c><00:00:25.880><c> will</c>
+
+00:00:26.109 --> 00:00:26.119 align:start position:0%
+when the instruction finishes it will
+ 
+
+00:00:26.119 --> 00:00:28.029 align:start position:0%
+when the instruction finishes it will
+now<00:00:26.519><c> write</c><00:00:26.800><c> its</c><00:00:27.039><c> value</c><00:00:27.279><c> to</c><00:00:27.439><c> the</c><00:00:27.599><c> reorder</c>
+
+00:00:28.029 --> 00:00:28.039 align:start position:0%
+now write its value to the reorder
+ 
+
+00:00:28.039 --> 00:00:30.310 align:start position:0%
+now write its value to the reorder
+buffer<00:00:28.359><c> when</c><00:00:28.519><c> it</c><00:00:28.640><c> broadcasts</c>
+
+00:00:30.310 --> 00:00:30.320 align:start position:0%
+buffer when it broadcasts
+ 
+
+00:00:30.320 --> 00:00:32.350 align:start position:0%
+buffer when it broadcasts
+we<00:00:30.439><c> need</c><00:00:30.640><c> a</c><00:00:30.800><c> bit</c><00:00:31.119><c> here</c><00:00:31.279><c> to</c><00:00:31.480><c> tell</c><00:00:31.679><c> us</c><00:00:31.960><c> whether</c><00:00:32.200><c> we</c>
+
+00:00:32.350 --> 00:00:32.360 align:start position:0%
+we need a bit here to tell us whether we
+ 
+
+00:00:32.360 --> 00:00:34.470 align:start position:0%
+we need a bit here to tell us whether we
+actually<00:00:32.680><c> have</c><00:00:32.840><c> a</c><00:00:33.040><c> valid</c><00:00:33.399><c> value</c><00:00:33.719><c> here</c><00:00:33.879><c> or</c><00:00:34.079><c> not</c>
+
+00:00:34.470 --> 00:00:34.480 align:start position:0%
+actually have a valid value here or not
+ 
+
+00:00:34.480 --> 00:00:35.950 align:start position:0%
+actually have a valid value here or not
+because<00:00:34.680><c> we</c><00:00:34.800><c> will</c><00:00:35.000><c> give</c><00:00:35.120><c> a</c><00:00:35.239><c> reorder</c><00:00:35.640><c> buffer</c>
+
+00:00:35.950 --> 00:00:35.960 align:start position:0%
+because we will give a reorder buffer
+ 
+
+00:00:35.960 --> 00:00:39.229 align:start position:0%
+because we will give a reorder buffer
+entry<00:00:36.559><c> to</c><00:00:36.719><c> the</c><00:00:36.879><c> instruction</c><00:00:37.920><c> before</c><00:00:38.920><c> it</c>
+
+00:00:39.229 --> 00:00:39.239 align:start position:0%
+entry to the instruction before it
+ 
+
+00:00:39.239 --> 00:00:42.630 align:start position:0%
+entry to the instruction before it
+actually<00:00:39.960><c> writes</c><00:00:40.399><c> the</c><00:00:40.600><c> result</c><00:00:41.360><c> and</c><00:00:41.640><c> finally</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+actually writes the result and finally
+ 
+
+00:00:42.640 --> 00:00:44.869 align:start position:0%
+actually writes the result and finally
+in<00:00:42.760><c> the</c><00:00:42.920><c> end</c><00:00:43.200><c> we</c><00:00:43.399><c> have</c><00:00:43.559><c> to</c><00:00:43.760><c> write</c><00:00:44.039><c> this</c><00:00:44.280><c> value</c>
+
+00:00:44.869 --> 00:00:44.879 align:start position:0%
+in the end we have to write this value
+ 
+
+00:00:44.879 --> 00:00:47.270 align:start position:0%
+in the end we have to write this value
+to<00:00:45.120><c> an</c><00:00:45.360><c> actual</c><00:00:45.719><c> register</c><00:00:46.480><c> and</c><00:00:46.640><c> for</c><00:00:46.920><c> that</c><00:00:47.160><c> we</c>
+
+00:00:47.270 --> 00:00:47.280 align:start position:0%
+to an actual register and for that we
+ 
+
+00:00:47.280 --> 00:00:49.350 align:start position:0%
+to an actual register and for that we
+need<00:00:47.440><c> to</c><00:00:47.600><c> know</c><00:00:47.960><c> when</c><00:00:48.160><c> we</c><00:00:48.320><c> do</c><00:00:48.640><c> such</c><00:00:48.840><c> a</c><00:00:49.039><c> write</c>
+
+00:00:49.350 --> 00:00:49.360 align:start position:0%
+need to know when we do such a write
+ 
+
+00:00:49.360 --> 00:00:51.150 align:start position:0%
+need to know when we do such a write
+when<00:00:49.480><c> we</c><00:00:49.600><c> move</c><00:00:49.920><c> this</c><00:00:50.120><c> value</c><00:00:50.440><c> from</c><00:00:50.640><c> the</c><00:00:50.760><c> reorder</c>
+
+00:00:51.150 --> 00:00:51.160 align:start position:0%
+when we move this value from the reorder
+ 
+
+00:00:51.160 --> 00:00:54.029 align:start position:0%
+when we move this value from the reorder
+buffer<00:00:51.680><c> to</c><00:00:51.879><c> a</c><00:00:52.079><c> register</c><00:00:52.920><c> what</c><00:00:53.280><c> register</c><00:00:53.760><c> are</c>
+
+00:00:54.029 --> 00:00:54.039 align:start position:0%
+buffer to a register what register are
+ 
+
+00:00:54.039 --> 00:00:55.830 align:start position:0%
+buffer to a register what register are
+we<00:00:54.199><c> going</c><00:00:54.399><c> to</c><00:00:54.600><c> write</c>
+
+00:00:55.830 --> 00:00:55.840 align:start position:0%
+we going to write
+ 
+
+00:00:55.840 --> 00:00:58.509 align:start position:0%
+we going to write
+to<00:00:56.840><c> this</c><00:00:57.079><c> is</c><00:00:57.199><c> a</c><00:00:57.399><c> reorder</c><00:00:57.800><c> buffer</c><00:00:58.239><c> that</c><00:00:58.359><c> can</c>
+
+00:00:58.509 --> 00:00:58.519 align:start position:0%
+to this is a reorder buffer that can
+ 
+
+00:00:58.519 --> 00:01:01.470 align:start position:0%
+to this is a reorder buffer that can
+hold<00:00:58.800><c> up</c><00:00:58.960><c> to</c><00:00:59.199><c> eight</c><00:00:59.480><c> instructions</c>
+
+00:01:01.470 --> 00:01:01.480 align:start position:0%
+hold up to eight instructions
+ 
+
+00:01:01.480 --> 00:01:03.430 align:start position:0%
+hold up to eight instructions
+and<00:01:01.640><c> we</c><00:01:01.879><c> keep</c><00:01:02.199><c> instructions</c><00:01:02.760><c> in</c><00:01:02.879><c> the</c><00:01:03.000><c> reorder</c>
+
+00:01:03.430 --> 00:01:03.440 align:start position:0%
+and we keep instructions in the reorder
+ 
+
+00:01:03.440 --> 00:01:07.550 align:start position:0%
+and we keep instructions in the reorder
+buffer<00:01:03.840><c> in</c><00:01:04.119><c> program</c><00:01:04.960><c> order</c><00:01:05.960><c> so</c><00:01:06.119><c> we</c><00:01:06.240><c> need</c><00:01:06.479><c> two</c>
+
+00:01:07.550 --> 00:01:07.560 align:start position:0%
+buffer in program order so we need two
+ 
+
+00:01:07.560 --> 00:01:10.670 align:start position:0%
+buffer in program order so we need two
+pointers<00:01:08.560><c> one</c><00:01:08.799><c> pointer</c><00:01:09.240><c> tells</c><00:01:09.600><c> us</c><00:01:10.320><c> when</c><00:01:10.520><c> we</c>
+
+00:01:10.670 --> 00:01:10.680 align:start position:0%
+pointers one pointer tells us when we
+ 
+
+00:01:10.680 --> 00:01:13.270 align:start position:0%
+pointers one pointer tells us when we
+issue<00:01:11.040><c> the</c><00:01:11.159><c> next</c><00:01:11.479><c> instruction</c><00:01:12.159><c> where</c><00:01:12.360><c> does</c><00:01:12.520><c> it</c>
+
+00:01:13.270 --> 00:01:13.280 align:start position:0%
+issue the next instruction where does it
+ 
+
+00:01:13.280 --> 00:01:17.190 align:start position:0%
+issue the next instruction where does it
+go<00:01:14.280><c> another</c><00:01:14.680><c> one</c><00:01:15.200><c> tells</c><00:01:15.560><c> us</c><00:01:16.000><c> when</c><00:01:16.200><c> we</c><00:01:16.680><c> finally</c>
+
+00:01:17.190 --> 00:01:17.200 align:start position:0%
+go another one tells us when we finally
+ 
+
+00:01:17.200 --> 00:01:19.550 align:start position:0%
+go another one tells us when we finally
+complete<00:01:17.880><c> in</c><00:01:18.080><c> program</c><00:01:18.439><c> order</c><00:01:18.799><c> the</c><00:01:18.960><c> next</c>
+
+00:01:19.550 --> 00:01:19.560 align:start position:0%
+complete in program order the next
+ 
+
+00:01:19.560 --> 00:01:21.630 align:start position:0%
+complete in program order the next
+instruction<00:01:20.560><c> which</c><00:01:20.799><c> instruction</c><00:01:21.280><c> is</c><00:01:21.439><c> it</c>
+
+00:01:21.630 --> 00:01:21.640 align:start position:0%
+instruction which instruction is it
+ 
+
+00:01:21.640 --> 00:01:23.950 align:start position:0%
+instruction which instruction is it
+going<00:01:21.840><c> to</c><00:01:22.000><c> be</c><00:01:22.600><c> so</c><00:01:22.799><c> in</c><00:01:23.000><c> this</c><00:01:23.240><c> particular</c>
+
+00:01:23.950 --> 00:01:23.960 align:start position:0%
+going to be so in this particular
+ 
+
+00:01:23.960 --> 00:01:27.069 align:start position:0%
+going to be so in this particular
+reorder<00:01:24.640><c> buffer</c><00:01:25.640><c> the</c><00:01:25.880><c> instructions</c><00:01:26.759><c> that</c><00:01:26.880><c> are</c>
+
+00:01:27.069 --> 00:01:27.079 align:start position:0%
+reorder buffer the instructions that are
+ 
+
+00:01:27.079 --> 00:01:28.910 align:start position:0%
+reorder buffer the instructions that are
+actually<00:01:27.479><c> valid</c>
+
+00:01:28.910 --> 00:01:28.920 align:start position:0%
+actually valid
+ 
+
+00:01:28.920 --> 00:01:31.749 align:start position:0%
+actually valid
+are<00:01:29.920><c> starting</c><00:01:30.280><c> from</c><00:01:30.520><c> the</c><00:01:30.680><c> oldest</c>
+
+00:01:31.749 --> 00:01:31.759 align:start position:0%
+are starting from the oldest
+ 
+
+00:01:31.759 --> 00:01:35.429 align:start position:0%
+are starting from the oldest
+one<00:01:32.759><c> to</c><00:01:33.000><c> the</c><00:01:33.200><c> newest</c><00:01:33.680><c> one</c><00:01:34.320><c> this</c><00:01:34.920><c> the</c><00:01:35.119><c> even</c>
+
+00:01:35.429 --> 00:01:35.439 align:start position:0%
+one to the newest one this the even
+ 
+
+00:01:35.439 --> 00:01:37.389 align:start position:0%
+one to the newest one this the even
+newer<00:01:35.840><c> instructions</c><00:01:36.320><c> are</c><00:01:36.479><c> going</c><00:01:36.680><c> to</c><00:01:36.799><c> be</c><00:01:36.960><c> added</c>
+
+00:01:37.389 --> 00:01:37.399 align:start position:0%
+newer instructions are going to be added
+ 
+
+00:01:37.399 --> 00:01:39.710 align:start position:0%
+newer instructions are going to be added
+here<00:01:38.000><c> and</c><00:01:38.159><c> the</c><00:01:38.320><c> oldest</c><00:01:38.799><c> one</c><00:01:39.000><c> will</c><00:01:39.280><c> complete</c>
+
+00:01:39.710 --> 00:01:39.720 align:start position:0%
+here and the oldest one will complete
+ 
+
+00:01:39.720 --> 00:01:43.310 align:start position:0%
+here and the oldest one will complete
+from<00:01:40.079><c> here</c><00:01:40.920><c> so</c><00:01:41.320><c> these</c><00:01:42.119><c> five</c><00:01:42.439><c> instructions</c><00:01:43.079><c> are</c>
+
+00:01:43.310 --> 00:01:43.320 align:start position:0%
+from here so these five instructions are
+ 
+
+00:01:43.320 --> 00:01:44.990 align:start position:0%
+from here so these five instructions are
+actually<00:01:43.560><c> in</c><00:01:43.720><c> program</c><00:01:44.079><c> order</c><00:01:44.360><c> in</c><00:01:44.439><c> the</c><00:01:44.560><c> reorder</c>
+
+00:01:44.990 --> 00:01:45.000 align:start position:0%
+actually in program order in the reorder
+ 
+
+00:01:45.000 --> 00:01:48.000 align:start position:0%
+actually in program order in the reorder
+buffer
+

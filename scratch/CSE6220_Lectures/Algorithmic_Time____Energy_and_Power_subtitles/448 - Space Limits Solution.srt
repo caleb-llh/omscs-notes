@@ -1,0 +1,72 @@
+1
+00:00:00,360 --> 00:00:01,814
+ So what do you think?
+
+2
+00:00:01,814 --> 00:00:07,939
+ I think the answer is 6.125 times 10 to the -10th squared microns per bit.
+
+3
+00:00:07,939 --> 00:00:09,350
+ Start with the area.
+
+4
+00:00:09,350 --> 00:00:11,450
+ Then divide by the capacity.
+
+5
+00:00:11,450 --> 00:00:13,690
+ You'd end up with something like this,
+
+6
+00:00:13,690 --> 00:00:17,980
+ area divided by the capacity in bytes convert bytes to bits.
+
+7
+00:00:17,980 --> 00:00:20,460
+ So what kind of screwball number is that?
+
+8
+00:00:20,460 --> 00:00:22,350
+ Let's zoom in on a bit.
+
+9
+00:00:22,350 --> 00:00:26,200
+ Assuming this area is square, let's take the square root of our answer.
+
+10
+00:00:26,200 --> 00:00:29,740
+ That will be about a quarter of an angstrom on a side.
+
+11
+00:00:29,740 --> 00:00:32,270
+ Whoa, man, that is small.
+
+12
+00:00:32,270 --> 00:00:34,340
+ It's basically the radius of an atom.
+
+13
+00:00:34,340 --> 00:00:38,210
+ A single classical bit like this one, as opposed to a quantum bit,
+
+14
+00:00:38,210 --> 00:00:40,430
+ probably doesn't get any smaller.
+
+15
+00:00:40,430 --> 00:00:43,870
+ And that in fact is the point of this exercise, at some point you won't
+
+16
+00:00:43,870 --> 00:00:48,150
+ be able to squeeze any more bits into a given volume of space.
+
+17
+00:00:48,150 --> 00:00:50,000
+ And at that point you won't have any choice but
+
+18
+00:00:50,000 --> 00:00:50,000
+ to think about locality in order to run fast.
+

@@ -1,0 +1,24 @@
+1
+00:00:00,480 --> 00:00:05,150
+ So here's my solution, which is basically exactly the same values.
+
+2
+00:00:05,150 --> 00:00:09,230
+ To help you see that I've included a little trace, here on the left.
+
+3
+00:00:09,230 --> 00:00:12,280
+ This row is the set of initial values.
+
+4
+00:00:12,280 --> 00:00:16,460
+ This row is what happens after i = 0 completes.
+
+5
+00:00:16,460 --> 00:00:19,710
+ Basically all the values shift by one.
+
+6
+00:00:19,710 --> 00:00:19,710
+ because shifting by one is essentially what this funny indexing corresponds to.
+

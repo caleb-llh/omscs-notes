@@ -1,0 +1,552 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.310 align:start position:0%
+ 
+so<00:00:00.400><c> we</c><00:00:00.560><c> have</c><00:00:00.800><c> seen</c><00:00:01.280><c> our</c><00:00:01.439><c> function</c><00:00:01.839><c> in</c><00:00:01.920><c> line</c><00:00:02.159><c> and</c>
+
+00:00:02.310 --> 00:00:02.320 align:start position:0%
+so we have seen our function in line and
+ 
+
+00:00:02.320 --> 00:00:05.030 align:start position:0%
+so we have seen our function in line and
+quiz<00:00:02.639><c> now</c><00:00:02.800><c> let's</c><00:00:03.040><c> talk</c><00:00:03.280><c> about</c><00:00:03.520><c> its</c><00:00:04.080><c> solution</c>
+
+00:00:05.030 --> 00:00:05.040 align:start position:0%
+quiz now let's talk about its solution
+ 
+
+00:00:05.040 --> 00:00:06.710 align:start position:0%
+quiz now let's talk about its solution
+after<00:00:05.359><c> scheduling</c>
+
+00:00:06.710 --> 00:00:06.720 align:start position:0%
+after scheduling
+ 
+
+00:00:06.720 --> 00:00:08.790 align:start position:0%
+after scheduling
+how<00:00:06.960><c> many</c><00:00:07.279><c> cycles</c><00:00:07.919><c> well</c><00:00:08.160><c> let's</c><00:00:08.320><c> see</c><00:00:08.559><c> first</c>
+
+00:00:08.790 --> 00:00:08.800 align:start position:0%
+how many cycles well let's see first
+ 
+
+00:00:08.800 --> 00:00:10.549 align:start position:0%
+how many cycles well let's see first
+what<00:00:08.960><c> the</c><00:00:09.120><c> scheduling</c><00:00:09.679><c> will</c><00:00:09.840><c> do</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+what the scheduling will do
+ 
+
+00:00:10.559 --> 00:00:12.709 align:start position:0%
+what the scheduling will do
+we<00:00:10.719><c> have</c><00:00:10.880><c> a</c><00:00:11.040><c> load</c><00:00:11.679><c> we</c><00:00:11.840><c> have</c><00:00:12.000><c> to</c><00:00:12.160><c> do</c><00:00:12.320><c> it</c><00:00:12.400><c> before</c>
+
+00:00:12.709 --> 00:00:12.719 align:start position:0%
+we have a load we have to do it before
+ 
+
+00:00:12.719 --> 00:00:14.150 align:start position:0%
+we have a load we have to do it before
+the<00:00:12.880><c> call</c>
+
+00:00:14.150 --> 00:00:14.160 align:start position:0%
+the call
+ 
+
+00:00:14.160 --> 00:00:15.749 align:start position:0%
+the call
+and<00:00:14.320><c> after</c><00:00:14.639><c> the</c><00:00:14.719><c> call</c><00:00:14.960><c> we</c><00:00:15.120><c> can</c><00:00:15.200><c> do</c><00:00:15.360><c> the</c><00:00:15.519><c> store</c>
+
+00:00:15.749 --> 00:00:15.759 align:start position:0%
+and after the call we can do the store
+ 
+
+00:00:15.759 --> 00:00:18.630 align:start position:0%
+and after the call we can do the store
+so<00:00:15.839><c> really</c><00:00:16.160><c> scheduling</c><00:00:16.560><c> can</c><00:00:16.720><c> do</c><00:00:16.960><c> nothing</c><00:00:17.279><c> here</c>
+
+00:00:18.630 --> 00:00:18.640 align:start position:0%
+so really scheduling can do nothing here
+ 
+
+00:00:18.640 --> 00:00:20.550 align:start position:0%
+so really scheduling can do nothing here
+here<00:00:18.960><c> we</c><00:00:19.119><c> need</c><00:00:19.279><c> to</c><00:00:19.439><c> do</c><00:00:19.600><c> the</c><00:00:19.680><c> multiplication</c>
+
+00:00:20.550 --> 00:00:20.560 align:start position:0%
+here we need to do the multiplication
+ 
+
+00:00:20.560 --> 00:00:22.230 align:start position:0%
+here we need to do the multiplication
+and<00:00:20.640><c> then</c><00:00:20.800><c> the</c><00:00:20.960><c> ad</c><00:00:21.119><c> depends</c><00:00:21.600><c> on</c><00:00:21.760><c> it</c><00:00:21.920><c> and</c><00:00:22.000><c> then</c>
+
+00:00:22.230 --> 00:00:22.240 align:start position:0%
+and then the ad depends on it and then
+ 
+
+00:00:22.240 --> 00:00:24.070 align:start position:0%
+and then the ad depends on it and then
+we<00:00:22.400><c> can</c><00:00:22.560><c> only</c><00:00:22.800><c> return</c><00:00:23.359><c> so</c><00:00:23.519><c> really</c><00:00:23.840><c> there</c><00:00:24.000><c> is</c>
+
+00:00:24.070 --> 00:00:24.080 align:start position:0%
+we can only return so really there is
+ 
+
+00:00:24.080 --> 00:00:26.470 align:start position:0%
+we can only return so really there is
+nothing<00:00:24.400><c> scheduling</c><00:00:24.880><c> can</c><00:00:25.039><c> do</c><00:00:25.279><c> here</c><00:00:26.080><c> so</c><00:00:26.240><c> really</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+nothing scheduling can do here so really
+ 
+
+00:00:26.480 --> 00:00:27.910 align:start position:0%
+nothing scheduling can do here so really
+we<00:00:26.640><c> just</c><00:00:26.800><c> need</c><00:00:26.960><c> to</c><00:00:27.119><c> figure</c><00:00:27.359><c> out</c><00:00:27.599><c> for</c><00:00:27.760><c> this</c>
+
+00:00:27.910 --> 00:00:27.920 align:start position:0%
+we just need to figure out for this
+ 
+
+00:00:27.920 --> 00:00:30.230 align:start position:0%
+we just need to figure out for this
+sequence<00:00:28.240><c> of</c><00:00:28.400><c> instructions</c><00:00:29.439><c> how</c><00:00:29.599><c> many</c><00:00:29.920><c> cycles</c>
+
+00:00:30.230 --> 00:00:30.240 align:start position:0%
+sequence of instructions how many cycles
+ 
+
+00:00:30.240 --> 00:00:31.669 align:start position:0%
+sequence of instructions how many cycles
+does<00:00:30.400><c> it</c><00:00:30.480><c> take</c><00:00:30.720><c> to</c><00:00:30.800><c> do</c><00:00:30.960><c> it</c>
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+does it take to do it
+ 
+
+00:00:31.679 --> 00:00:33.590 align:start position:0%
+does it take to do it
+one<00:00:31.840><c> way</c><00:00:32.000><c> of</c><00:00:32.160><c> doing</c><00:00:32.399><c> that</c><00:00:32.640><c> would</c><00:00:32.800><c> be</c><00:00:32.960><c> to</c><00:00:33.360><c> say</c>
+
+00:00:33.590 --> 00:00:33.600 align:start position:0%
+one way of doing that would be to say
+ 
+
+00:00:33.600 --> 00:00:36.069 align:start position:0%
+one way of doing that would be to say
+that<00:00:33.760><c> the</c><00:00:33.920><c> load</c><00:00:34.480><c> begins</c><00:00:34.960><c> in</c><00:00:35.040><c> the</c><00:00:35.200><c> first</c><00:00:35.440><c> cycle</c>
+
+00:00:36.069 --> 00:00:36.079 align:start position:0%
+that the load begins in the first cycle
+ 
+
+00:00:36.079 --> 00:00:37.910 align:start position:0%
+that the load begins in the first cycle
+in<00:00:36.160><c> the</c><00:00:36.320><c> second</c><00:00:36.640><c> cycle</c><00:00:36.960><c> it's</c><00:00:37.120><c> still</c><00:00:37.280><c> going</c><00:00:37.600><c> on</c>
+
+00:00:37.910 --> 00:00:37.920 align:start position:0%
+in the second cycle it's still going on
+ 
+
+00:00:37.920 --> 00:00:39.750 align:start position:0%
+in the second cycle it's still going on
+so<00:00:38.320><c> we</c><00:00:38.480><c> can</c><00:00:38.559><c> use</c><00:00:38.719><c> the</c><00:00:38.879><c> result</c><00:00:39.200><c> in</c><00:00:39.280><c> the</c><00:00:39.440><c> third</c>
+
+00:00:39.750 --> 00:00:39.760 align:start position:0%
+so we can use the result in the third
+ 
+
+00:00:39.760 --> 00:00:42.229 align:start position:0%
+so we can use the result in the third
+cycle<00:00:40.559><c> in</c><00:00:40.640><c> the</c><00:00:40.800><c> second</c><00:00:41.200><c> cycle</c><00:00:41.520><c> however</c><00:00:41.920><c> we</c><00:00:42.079><c> can</c>
+
+00:00:42.229 --> 00:00:42.239 align:start position:0%
+cycle in the second cycle however we can
+ 
+
+00:00:42.239 --> 00:00:43.590 align:start position:0%
+cycle in the second cycle however we can
+do<00:00:42.399><c> the</c><00:00:42.559><c> call</c>
+
+00:00:43.590 --> 00:00:43.600 align:start position:0%
+do the call
+ 
+
+00:00:43.600 --> 00:00:46.310 align:start position:0%
+do the call
+the<00:00:43.840><c> call</c><00:00:44.160><c> also</c><00:00:44.399><c> takes</c><00:00:44.719><c> two</c><00:00:44.960><c> cycles</c><00:00:45.760><c> so</c><00:00:46.000><c> we</c>
+
+00:00:46.310 --> 00:00:46.320 align:start position:0%
+the call also takes two cycles so we
+ 
+
+00:00:46.320 --> 00:00:48.389 align:start position:0%
+the call also takes two cycles so we
+really<00:00:46.960><c> can</c><00:00:47.200><c> execute</c><00:00:47.600><c> this</c><00:00:47.760><c> instruction</c><00:00:48.239><c> in</c>
+
+00:00:48.389 --> 00:00:48.399 align:start position:0%
+really can execute this instruction in
+ 
+
+00:00:48.399 --> 00:00:49.670 align:start position:0%
+really can execute this instruction in
+cycle<00:00:48.800><c> four</c>
+
+00:00:49.670 --> 00:00:49.680 align:start position:0%
+cycle four
+ 
+
+00:00:49.680 --> 00:00:52.549 align:start position:0%
+cycle four
+at<00:00:49.840><c> that</c><00:00:50.079><c> time</c><00:00:50.320><c> a0</c><00:00:50.879><c> is</c><00:00:51.039><c> available</c>
+
+00:00:52.549 --> 00:00:52.559 align:start position:0%
+at that time a0 is available
+ 
+
+00:00:52.559 --> 00:00:54.709 align:start position:0%
+at that time a0 is available
+the<00:00:52.719><c> multiplication</c><00:00:53.440><c> takes</c><00:00:53.760><c> three</c><00:00:54.000><c> cycles</c><00:00:54.480><c> so</c>
+
+00:00:54.709 --> 00:00:54.719 align:start position:0%
+the multiplication takes three cycles so
+ 
+
+00:00:54.719 --> 00:00:55.830 align:start position:0%
+the multiplication takes three cycles so
+in<00:00:54.800><c> cycles</c>
+
+00:00:55.830 --> 00:00:55.840 align:start position:0%
+in cycles
+ 
+
+00:00:55.840 --> 00:00:58.630 align:start position:0%
+in cycles
+four<00:00:56.160><c> five</c><00:00:56.640><c> and</c><00:00:56.879><c> six</c><00:00:57.600><c> the</c><00:00:57.760><c> multiplication</c><00:00:58.559><c> is</c>
+
+00:00:58.630 --> 00:00:58.640 align:start position:0%
+four five and six the multiplication is
+ 
+
+00:00:58.640 --> 00:01:01.029 align:start position:0%
+four five and six the multiplication is
+happening<00:00:59.280><c> and</c><00:00:59.440><c> only</c><00:00:59.760><c> cycle</c><00:01:00.239><c> 7</c><00:01:00.559><c> can</c><00:01:00.719><c> we</c><00:01:00.879><c> do</c>
+
+00:01:01.029 --> 00:01:01.039 align:start position:0%
+happening and only cycle 7 can we do
+ 
+
+00:01:01.039 --> 00:01:02.709 align:start position:0%
+happening and only cycle 7 can we do
+this<00:01:01.280><c> because</c><00:01:01.600><c> it's</c><00:01:01.760><c> using</c><00:01:02.000><c> the</c><00:01:02.160><c> result</c><00:01:02.559><c> of</c>
+
+00:01:02.709 --> 00:01:02.719 align:start position:0%
+this because it's using the result of
+ 
+
+00:01:02.719 --> 00:01:04.070 align:start position:0%
+this because it's using the result of
+this<00:01:02.960><c> instruction</c>
+
+00:01:04.070 --> 00:01:04.080 align:start position:0%
+this instruction
+ 
+
+00:01:04.080 --> 00:01:05.830 align:start position:0%
+this instruction
+we<00:01:04.320><c> can</c><00:01:04.479><c> do</c><00:01:04.720><c> the</c><00:01:04.799><c> return</c>
+
+00:01:05.830 --> 00:01:05.840 align:start position:0%
+we can do the return
+ 
+
+00:01:05.840 --> 00:01:07.990 align:start position:0%
+we can do the return
+immediately<00:01:06.479><c> afterwards</c>
+
+00:01:07.990 --> 00:01:08.000 align:start position:0%
+immediately afterwards
+ 
+
+00:01:08.000 --> 00:01:10.310 align:start position:0%
+immediately afterwards
+so<00:01:08.159><c> return</c><00:01:08.560><c> now</c><00:01:08.880><c> is</c><00:01:09.040><c> happening</c><00:01:09.439><c> in</c><00:01:09.600><c> cycles</c><00:01:10.080><c> 8</c>
+
+00:01:10.310 --> 00:01:10.320 align:start position:0%
+so return now is happening in cycles 8
+ 
+
+00:01:10.320 --> 00:01:13.510 align:start position:0%
+so return now is happening in cycles 8
+and<00:01:10.479><c> 9</c><00:01:11.360><c> and</c><00:01:11.680><c> finally</c><00:01:12.240><c> in</c><00:01:12.479><c> cycle</c><00:01:12.880><c> 10</c><00:01:13.200><c> we</c><00:01:13.360><c> are</c>
+
+00:01:13.510 --> 00:01:13.520 align:start position:0%
+and 9 and finally in cycle 10 we are
+ 
+
+00:01:13.520 --> 00:01:15.830 align:start position:0%
+and 9 and finally in cycle 10 we are
+back<00:01:13.840><c> here</c><00:01:14.640><c> and</c><00:01:14.720><c> then</c><00:01:14.960><c> the</c><00:01:15.040><c> store</c><00:01:15.520><c> of</c><00:01:15.600><c> course</c>
+
+00:01:15.830 --> 00:01:15.840 align:start position:0%
+back here and then the store of course
+ 
+
+00:01:15.840 --> 00:01:18.230 align:start position:0%
+back here and then the store of course
+takes<00:01:16.159><c> only</c><00:01:16.320><c> one</c><00:01:16.560><c> cycle</c><00:01:16.880><c> so</c><00:01:17.119><c> really</c><00:01:17.680><c> after</c><00:01:18.000><c> 10</c>
+
+00:01:18.230 --> 00:01:18.240 align:start position:0%
+takes only one cycle so really after 10
+ 
+
+00:01:18.240 --> 00:01:20.310 align:start position:0%
+takes only one cycle so really after 10
+cycles<00:01:18.640><c> we</c><00:01:18.799><c> are</c><00:01:18.960><c> done</c>
+
+00:01:20.310 --> 00:01:20.320 align:start position:0%
+cycles we are done
+ 
+
+00:01:20.320 --> 00:01:22.550 align:start position:0%
+cycles we are done
+now<00:01:20.479><c> let</c><00:01:20.720><c> us</c><00:01:20.799><c> see</c><00:01:21.040><c> what</c><00:01:21.200><c> the</c><00:01:21.439><c> inlining</c><00:01:22.000><c> will</c><00:01:22.159><c> do</c>
+
+00:01:22.550 --> 00:01:22.560 align:start position:0%
+now let us see what the inlining will do
+ 
+
+00:01:22.560 --> 00:01:24.550 align:start position:0%
+now let us see what the inlining will do
+what<00:01:22.880><c> it</c><00:01:23.040><c> will</c><00:01:23.200><c> do</c><00:01:23.439><c> is</c><00:01:23.600><c> it</c><00:01:23.759><c> will</c><00:01:23.920><c> simply</c><00:01:24.320><c> take</c>
+
+00:01:24.550 --> 00:01:24.560 align:start position:0%
+what it will do is it will simply take
+ 
+
+00:01:24.560 --> 00:01:26.390 align:start position:0%
+what it will do is it will simply take
+these<00:01:24.720><c> two</c><00:01:24.960><c> instructions</c><00:01:25.680><c> and</c><00:01:25.840><c> replace</c><00:01:26.240><c> the</c>
+
+00:01:26.390 --> 00:01:26.400 align:start position:0%
+these two instructions and replace the
+ 
+
+00:01:26.400 --> 00:01:28.630 align:start position:0%
+these two instructions and replace the
+call<00:01:26.720><c> with</c><00:01:26.960><c> them</c><00:01:27.520><c> now</c><00:01:27.759><c> let's</c><00:01:27.920><c> see</c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+call with them now let's see
+ 
+
+00:01:28.640 --> 00:01:30.469 align:start position:0%
+call with them now let's see
+can<00:01:28.799><c> we</c><00:01:28.960><c> do</c><00:01:29.119><c> some</c><00:01:29.280><c> scheduling</c><00:01:29.840><c> around</c><00:01:30.159><c> it</c><00:01:30.320><c> we</c>
+
+00:01:30.469 --> 00:01:30.479 align:start position:0%
+can we do some scheduling around it we
+ 
+
+00:01:30.479 --> 00:01:32.390 align:start position:0%
+can we do some scheduling around it we
+need<00:01:30.640><c> to</c><00:01:30.880><c> load</c><00:01:31.200><c> a0</c>
+
+00:01:32.390 --> 00:01:32.400 align:start position:0%
+need to load a0
+ 
+
+00:01:32.400 --> 00:01:33.910 align:start position:0%
+need to load a0
+then<00:01:32.640><c> we're</c><00:01:32.880><c> going</c><00:01:32.960><c> to</c><00:01:33.439><c> use</c><00:01:33.680><c> it</c><00:01:33.840><c> in</c>
+
+00:01:33.910 --> 00:01:33.920 align:start position:0%
+then we're going to use it in
+ 
+
+00:01:33.920 --> 00:01:35.990 align:start position:0%
+then we're going to use it in
+multiplication<00:01:35.040><c> then</c><00:01:35.280><c> we're</c><00:01:35.439><c> going</c><00:01:35.600><c> to</c><00:01:35.680><c> use</c>
+
+00:01:35.990 --> 00:01:36.000 align:start position:0%
+multiplication then we're going to use
+ 
+
+00:01:36.000 --> 00:01:37.990 align:start position:0%
+multiplication then we're going to use
+it<00:01:36.479><c> in</c><00:01:36.640><c> the</c><00:01:36.799><c> addition</c><00:01:37.360><c> and</c><00:01:37.439><c> then</c><00:01:37.600><c> we're</c><00:01:37.840><c> going</c>
+
+00:01:37.990 --> 00:01:38.000 align:start position:0%
+it in the addition and then we're going
+ 
+
+00:01:38.000 --> 00:01:39.830 align:start position:0%
+it in the addition and then we're going
+to<00:01:38.079><c> use</c><00:01:38.240><c> the</c><00:01:38.400><c> result</c><00:01:38.799><c> of</c><00:01:38.960><c> it</c><00:01:39.119><c> in</c><00:01:39.200><c> the</c><00:01:39.360><c> store</c><00:01:39.680><c> so</c>
+
+00:01:39.830 --> 00:01:39.840 align:start position:0%
+to use the result of it in the store so
+ 
+
+00:01:39.840 --> 00:01:41.749 align:start position:0%
+to use the result of it in the store so
+again<00:01:40.240><c> scheduling</c><00:01:40.799><c> is</c><00:01:40.880><c> not</c><00:01:41.119><c> going</c><00:01:41.200><c> to</c><00:01:41.360><c> help</c><00:01:41.600><c> us</c>
+
+00:01:41.749 --> 00:01:41.759 align:start position:0%
+again scheduling is not going to help us
+ 
+
+00:01:41.759 --> 00:01:44.310 align:start position:0%
+again scheduling is not going to help us
+here<00:01:42.479><c> however</c><00:01:42.960><c> we</c><00:01:43.119><c> have</c><00:01:43.280><c> eliminated</c><00:01:43.840><c> the</c><00:01:44.000><c> call</c>
+
+00:01:44.310 --> 00:01:44.320 align:start position:0%
+here however we have eliminated the call
+ 
+
+00:01:44.320 --> 00:01:46.950 align:start position:0%
+here however we have eliminated the call
+and<00:01:44.400><c> the</c><00:01:44.560><c> return</c><00:01:45.439><c> so</c><00:01:45.680><c> now</c><00:01:45.920><c> what</c><00:01:46.159><c> happens</c><00:01:46.640><c> is</c><00:01:46.799><c> we</c>
+
+00:01:46.950 --> 00:01:46.960 align:start position:0%
+and the return so now what happens is we
+ 
+
+00:01:46.960 --> 00:01:47.830 align:start position:0%
+and the return so now what happens is we
+have
+
+00:01:47.830 --> 00:01:47.840 align:start position:0%
+have
+ 
+
+00:01:47.840 --> 00:01:50.230 align:start position:0%
+have
+the<00:01:48.000><c> load</c><00:01:48.320><c> begins</c><00:01:48.720><c> in</c><00:01:48.799><c> cycle</c><00:01:49.200><c> one</c><00:01:49.920><c> next</c><00:01:50.159><c> we</c>
+
+00:01:50.230 --> 00:01:50.240 align:start position:0%
+the load begins in cycle one next we
+ 
+
+00:01:50.240 --> 00:01:52.469 align:start position:0%
+the load begins in cycle one next we
+will<00:01:50.399><c> try</c><00:01:50.560><c> to</c><00:01:50.640><c> do</c><00:01:50.799><c> the</c><00:01:50.960><c> multiplication</c><00:01:52.079><c> but</c><00:01:52.320><c> we</c>
+
+00:01:52.469 --> 00:01:52.479 align:start position:0%
+will try to do the multiplication but we
+ 
+
+00:01:52.479 --> 00:01:53.990 align:start position:0%
+will try to do the multiplication but we
+can<00:01:52.640><c> only</c><00:01:52.880><c> do</c><00:01:53.040><c> it</c><00:01:53.119><c> in</c><00:01:53.280><c> cycle</c><00:01:53.520><c> three</c><00:01:53.759><c> because</c>
+
+00:01:53.990 --> 00:01:54.000 align:start position:0%
+can only do it in cycle three because
+ 
+
+00:01:54.000 --> 00:01:56.230 align:start position:0%
+can only do it in cycle three because
+the<00:01:54.159><c> load</c><00:01:54.799><c> needs</c><00:01:55.040><c> to</c><00:01:55.119><c> produce</c><00:01:55.520><c> the</c><00:01:55.680><c> value</c><00:01:56.079><c> for</c>
+
+00:01:56.230 --> 00:01:56.240 align:start position:0%
+the load needs to produce the value for
+ 
+
+00:01:56.240 --> 00:01:58.069 align:start position:0%
+the load needs to produce the value for
+two<00:01:56.479><c> cycles</c><00:01:56.880><c> in</c><00:01:56.960><c> cycles</c><00:01:57.280><c> one</c><00:01:57.520><c> and</c><00:01:57.600><c> two</c><00:01:57.840><c> before</c>
+
+00:01:58.069 --> 00:01:58.079 align:start position:0%
+two cycles in cycles one and two before
+ 
+
+00:01:58.079 --> 00:02:00.550 align:start position:0%
+two cycles in cycles one and two before
+we<00:01:58.240><c> can</c><00:01:58.399><c> use</c><00:01:58.719><c> it</c><00:01:59.280><c> next</c><00:02:00.000><c> we</c><00:02:00.240><c> have</c><00:02:00.479><c> the</c>
+
+00:02:00.550 --> 00:02:00.560 align:start position:0%
+we can use it next we have the
+ 
+
+00:02:00.560 --> 00:02:02.469 align:start position:0%
+we can use it next we have the
+multiplication<00:02:01.360><c> happening</c><00:02:01.759><c> in</c><00:02:01.840><c> cycles</c><00:02:02.240><c> three</c>
+
+00:02:02.469 --> 00:02:02.479 align:start position:0%
+multiplication happening in cycles three
+ 
+
+00:02:02.479 --> 00:02:04.950 align:start position:0%
+multiplication happening in cycles three
+four<00:02:02.719><c> and</c><00:02:02.960><c> five</c><00:02:03.680><c> so</c><00:02:03.840><c> we</c><00:02:04.000><c> can</c><00:02:04.240><c> only</c><00:02:04.399><c> do</c><00:02:04.560><c> this</c><00:02:04.799><c> in</c>
+
+00:02:04.950 --> 00:02:04.960 align:start position:0%
+four and five so we can only do this in
+ 
+
+00:02:04.960 --> 00:02:08.070 align:start position:0%
+four and five so we can only do this in
+cycle<00:02:05.360><c> six</c><00:02:06.159><c> the</c><00:02:06.399><c> add</c><00:02:06.799><c> only</c><00:02:07.040><c> takes</c><00:02:07.360><c> one</c><00:02:07.600><c> cycle</c>
+
+00:02:08.070 --> 00:02:08.080 align:start position:0%
+cycle six the add only takes one cycle
+ 
+
+00:02:08.080 --> 00:02:09.350 align:start position:0%
+cycle six the add only takes one cycle
+and<00:02:08.239><c> the</c><00:02:08.399><c> store</c>
+
+00:02:09.350 --> 00:02:09.360 align:start position:0%
+and the store
+ 
+
+00:02:09.360 --> 00:02:11.110 align:start position:0%
+and the store
+can<00:02:09.599><c> then</c><00:02:09.759><c> happen</c><00:02:10.080><c> in</c><00:02:10.239><c> cycle</c><00:02:10.640><c> seven</c><00:02:11.039><c> and</c>
+
+00:02:11.110 --> 00:02:11.120 align:start position:0%
+can then happen in cycle seven and
+ 
+
+00:02:11.120 --> 00:02:12.630 align:start position:0%
+can then happen in cycle seven and
+that's<00:02:11.360><c> when</c><00:02:11.520><c> it</c><00:02:11.680><c> finishes</c>
+
+00:02:12.630 --> 00:02:12.640 align:start position:0%
+that's when it finishes
+ 
+
+00:02:12.640 --> 00:02:14.949 align:start position:0%
+that's when it finishes
+so<00:02:12.879><c> after</c><00:02:13.200><c> inlining</c><00:02:13.680><c> and</c><00:02:13.760><c> scheduling</c><00:02:14.640><c> we</c><00:02:14.800><c> have</c>
+
+00:02:14.949 --> 00:02:14.959 align:start position:0%
+so after inlining and scheduling we have
+ 
+
+00:02:14.959 --> 00:02:17.110 align:start position:0%
+so after inlining and scheduling we have
+reduced<00:02:15.360><c> this</c><00:02:15.520><c> to</c><00:02:15.760><c> seven</c><00:02:16.080><c> cycles</c>
+
+00:02:17.110 --> 00:02:17.120 align:start position:0%
+reduced this to seven cycles
+ 
+
+00:02:17.120 --> 00:02:19.030 align:start position:0%
+reduced this to seven cycles
+mainly<00:02:17.520><c> by</c><00:02:17.680><c> eliminating</c><00:02:18.319><c> the</c><00:02:18.480><c> call</c><00:02:18.800><c> and</c><00:02:18.879><c> the</c>
+
+00:02:19.030 --> 00:02:19.040 align:start position:0%
+mainly by eliminating the call and the
+ 
+
+00:02:19.040 --> 00:02:21.680 align:start position:0%
+mainly by eliminating the call and the
+return
+

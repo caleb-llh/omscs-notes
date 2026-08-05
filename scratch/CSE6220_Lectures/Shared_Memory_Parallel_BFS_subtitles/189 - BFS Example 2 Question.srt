@@ -1,0 +1,28 @@
+1
+00:00:00,150 --> 00:00:02,850
+ Now, let's look at our example graph from before.
+
+2
+00:00:02,850 --> 00:00:05,910
+ Now, I claimed that this graph had a diameter of five.
+
+3
+00:00:05,910 --> 00:00:09,090
+ So there's gotta be a path in here with five edges.
+
+4
+00:00:09,090 --> 00:00:10,490
+ Can you find it?
+
+5
+00:00:10,490 --> 00:00:14,620
+ And what I want you to do, is mark the edges of some path of length five.
+
+6
+00:00:14,620 --> 00:00:19,280
+ So for example, the path from here to here, involves three edges.
+
+7
+00:00:19,280 --> 00:00:19,280
+ So if that was your answer, you'd mark the edges as shown.
+

@@ -1,0 +1,120 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.790 align:start position:0%
+ 
+so<00:00:00.280><c> let's</c><00:00:00.520><c> do</c><00:00:00.799><c> another</c><00:00:01.160><c> iron</c><00:00:01.480><c> law</c><00:00:01.680><c> of</c>
+
+00:00:01.790 --> 00:00:01.800 align:start position:0%
+so let's do another iron law of
+ 
+
+00:00:01.800 --> 00:00:04.269 align:start position:0%
+so let's do another iron law of
+performance<00:00:02.320><c> quiz</c><00:00:02.879><c> this</c><00:00:03.040><c> time</c><00:00:03.280><c> with</c><00:00:03.560><c> unequal</c>
+
+00:00:04.269 --> 00:00:04.279 align:start position:0%
+performance quiz this time with unequal
+ 
+
+00:00:04.279 --> 00:00:06.670 align:start position:0%
+performance quiz this time with unequal
+cycles<00:00:04.720><c> per</c><00:00:04.880><c> instruction</c><00:00:05.759><c> the</c><00:00:05.920><c> program</c><00:00:06.480><c> has</c>
+
+00:00:06.670 --> 00:00:06.680 align:start position:0%
+cycles per instruction the program has
+ 
+
+00:00:06.680 --> 00:00:09.629 align:start position:0%
+cycles per instruction the program has
+50<00:00:07.000><c> billion</c><00:00:07.400><c> instructions</c><00:00:08.400><c> out</c><00:00:08.599><c> of</c><00:00:08.880><c> which</c><00:00:09.320><c> 10</c>
+
+00:00:09.629 --> 00:00:09.639 align:start position:0%
+50 billion instructions out of which 10
+ 
+
+00:00:09.639 --> 00:00:11.789 align:start position:0%
+50 billion instructions out of which 10
+billion<00:00:09.920><c> are</c><00:00:10.120><c> Branch</c><00:00:10.559><c> instructions</c><00:00:11.480><c> for</c>
+
+00:00:11.789 --> 00:00:11.799 align:start position:0%
+billion are Branch instructions for
+ 
+
+00:00:11.799 --> 00:00:13.669 align:start position:0%
+billion are Branch instructions for
+which<00:00:12.280><c> we</c><00:00:12.440><c> spend</c><00:00:12.759><c> four</c><00:00:13.040><c> cycles</c><00:00:13.480><c> per</c>
+
+00:00:13.669 --> 00:00:13.679 align:start position:0%
+which we spend four cycles per
+ 
+
+00:00:13.679 --> 00:00:16.630 align:start position:0%
+which we spend four cycles per
+instruction<00:00:14.599><c> 15</c><00:00:15.040><c> billion</c><00:00:15.360><c> are</c><00:00:15.559><c> loads</c><00:00:16.359><c> for</c>
+
+00:00:16.630 --> 00:00:16.640 align:start position:0%
+instruction 15 billion are loads for
+ 
+
+00:00:16.640 --> 00:00:18.590 align:start position:0%
+instruction 15 billion are loads for
+which<00:00:16.840><c> we</c><00:00:17.039><c> spend</c><00:00:17.640><c> two</c><00:00:17.920><c> cycles</c><00:00:18.400><c> per</c>
+
+00:00:18.590 --> 00:00:18.600 align:start position:0%
+which we spend two cycles per
+ 
+
+00:00:18.600 --> 00:00:20.830 align:start position:0%
+which we spend two cycles per
+instruction<00:00:19.560><c> 5</c><00:00:19.880><c> billion</c><00:00:20.240><c> are</c><00:00:20.439><c> store</c>
+
+00:00:20.830 --> 00:00:20.840 align:start position:0%
+instruction 5 billion are store
+ 
+
+00:00:20.840 --> 00:00:23.790 align:start position:0%
+instruction 5 billion are store
+instructions<00:00:21.800><c> for</c><00:00:22.039><c> which</c><00:00:22.240><c> the</c><00:00:22.400><c> CPI</c><00:00:22.840><c> is</c><00:00:23.000><c> three</c>
+
+00:00:23.790 --> 00:00:23.800 align:start position:0%
+instructions for which the CPI is three
+ 
+
+00:00:23.800 --> 00:00:25.349 align:start position:0%
+instructions for which the CPI is three
+and<00:00:24.039><c> the</c><00:00:24.320><c> remaining</c><00:00:24.640><c> instruction</c><00:00:25.080><c> in</c><00:00:25.199><c> the</c>
+
+00:00:25.349 --> 00:00:25.359 align:start position:0%
+and the remaining instruction in the
+ 
+
+00:00:25.359 --> 00:00:27.630 align:start position:0%
+and the remaining instruction in the
+program<00:00:25.640><c> are</c><00:00:25.840><c> integer</c><00:00:26.359><c> ads</c><00:00:27.039><c> for</c><00:00:27.279><c> which</c><00:00:27.480><c> the</c>
+
+00:00:27.630 --> 00:00:27.640 align:start position:0%
+program are integer ads for which the
+ 
+
+00:00:27.640 --> 00:00:30.669 align:start position:0%
+program are integer ads for which the
+CPI<00:00:28.080><c> is</c><00:00:28.199><c> one</c><00:00:28.519><c> we</c><00:00:28.679><c> do</c><00:00:28.880><c> one</c><00:00:29.039><c> of</c><00:00:29.240><c> those</c><00:00:29.599><c> per</c>
+
+00:00:30.669 --> 00:00:30.679 align:start position:0%
+CPI is one we do one of those per
+ 
+
+00:00:30.679 --> 00:00:33.910 align:start position:0%
+CPI is one we do one of those per
+we<00:00:30.840><c> clock</c><00:00:31.240><c> this</c><00:00:31.480><c> processor</c><00:00:31.960><c> at</c><00:00:32.119><c> 4</c><00:00:32.559><c> GHz</c><00:00:33.559><c> so</c><00:00:33.760><c> the</c>
+
+00:00:33.910 --> 00:00:33.920 align:start position:0%
+we clock this processor at 4 GHz so the
+ 
+
+00:00:33.920 --> 00:00:40.399 align:start position:0%
+we clock this processor at 4 GHz so the
+execution<00:00:34.559><c> time</c><00:00:34.920><c> is</c><00:00:35.800><c> how</c><00:00:36.040><c> many</c><00:00:37.399><c> seconds</c>
+

@@ -1,0 +1,52 @@
+1
+00:00:00,470 --> 00:00:02,469
+ Recall our overall template for
+
+2
+00:00:02,469 --> 00:00:05,610
+ a merge sort on a two level memory hierarchy machine.
+
+3
+00:00:05,610 --> 00:00:09,190
+ Phase 1 has two parts, partitioning the input into chunks, and
+
+4
+00:00:09,190 --> 00:00:10,780
+ then sorting each chunk.
+
+5
+00:00:10,780 --> 00:00:14,570
+ Phase 1 produces a bunch of sorted chunks, or runs.
+
+6
+00:00:14,570 --> 00:00:17,970
+ The goal of Phase 2 is then to merge all of these runs.
+
+7
+00:00:17,970 --> 00:00:22,170
+ Now suppose you implement phase two using the the two way merging scheme.
+
+8
+00:00:22,170 --> 00:00:26,840
+ What then become the overall asymptotic costs of the entire merge sort.
+
+9
+00:00:26,840 --> 00:00:28,940
+ I want you to give symbolic answers here and
+
+10
+00:00:28,940 --> 00:00:32,740
+ here for the number of comparisons and the number of transfers respectively.
+
+11
+00:00:32,740 --> 00:00:36,300
+ Express your answer symbolically in terms of n, z, and L.
+
+12
+00:00:36,300 --> 00:00:39,440
+ As usual, you can assume that things always divide evenly, and
+
+13
+00:00:39,440 --> 00:00:39,440
+ they're convenient powers of two, etc., etc., so your answer isn't too messy.
+

@@ -1,0 +1,32 @@
+1
+00:00:00,225 --> 00:00:01,293
+ Here's the answer.
+
+2
+00:00:01,293 --> 00:00:03,590
+ It's the (1,0) edge.
+
+3
+00:00:03,590 --> 00:00:07,930
+ Consider the first application of s(6.8).
+
+4
+00:00:07,930 --> 00:00:09,840
+ Apply the definition of s.
+
+5
+00:00:09,840 --> 00:00:11,650
+ This will return (8,6).
+
+6
+00:00:11,650 --> 00:00:19,282
+ Apply the definition of s again.
+
+7
+00:00:19,282 --> 00:00:21,488
+ The result is the (6,1) edge.
+
+8
+00:00:21,488 --> 00:00:21,488
+ Now just one more time and then you're done.
+

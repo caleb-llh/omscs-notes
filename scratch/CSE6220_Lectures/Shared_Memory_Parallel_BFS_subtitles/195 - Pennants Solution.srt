@@ -1,0 +1,36 @@
+1
+00:00:00,120 --> 00:00:01,850
+ So the answer is none.
+
+2
+00:00:01,850 --> 00:00:04,100
+ What we just tried to do is actually illegal.
+
+3
+00:00:04,100 --> 00:00:07,670
+ We've tried to combine two pennants of different sizes.
+
+4
+00:00:07,670 --> 00:00:11,000
+ And notice what happens in both of these first two choices.
+
+5
+00:00:11,000 --> 00:00:14,815
+ They both violate the complete binary sub-tree rule.
+
+6
+00:00:14,815 --> 00:00:17,530
+ So this was kind of a trick question.
+
+7
+00:00:17,530 --> 00:00:21,550
+ But the point was to reinforce an extremely important fact out pennants,
+
+8
+00:00:21,550 --> 00:00:24,030
+ which is that you cannot combine two pennants and
+
+9
+00:00:24,030 --> 00:00:24,030
+ obtain a new one unless the pennants have the same size.
+

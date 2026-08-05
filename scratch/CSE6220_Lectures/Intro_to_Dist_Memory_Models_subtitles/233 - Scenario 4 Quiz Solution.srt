@@ -1,0 +1,52 @@
+1
+00:00:00,250 --> 00:00:02,540
+ The answer is it depends.
+
+2
+00:00:02,540 --> 00:00:05,310
+ There's a deliberate ambiguity here.
+
+3
+00:00:05,310 --> 00:00:09,840
+ For example, suppose node zero sends to node eight via this path.
+
+4
+00:00:09,840 --> 00:00:13,680
+ If the second message takes this route, then the two paths intersect
+
+5
+00:00:13,680 --> 00:00:18,060
+ going in the same direction and there will be congestion at this link.
+
+6
+00:00:18,060 --> 00:00:23,960
+ If instead the second message takes this route, then there's no contention.
+
+7
+00:00:23,960 --> 00:00:27,170
+ So, in fact, if these are the only two pending messages,
+
+8
+00:00:27,170 --> 00:00:30,600
+ you can overlap them by choosing good routes.
+
+9
+00:00:30,600 --> 00:00:33,770
+ In genera,l for some analysis, you're going to need to reason about whether or
+
+10
+00:00:33,770 --> 00:00:36,610
+ not congestion or contention are occurring.
+
+11
+00:00:36,610 --> 00:00:39,960
+ We'll discuss some techniques to do so in a different lesson.
+
+12
+00:00:39,960 --> 00:00:43,760
+ Now the question asks for the minimum time, so if you assume optimistically
+
+13
+00:00:43,760 --> 00:00:43,760
+ the non-colliding paths, then you would get just a plus b times n.
+

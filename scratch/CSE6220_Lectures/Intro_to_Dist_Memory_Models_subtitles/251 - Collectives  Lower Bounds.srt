@@ -1,0 +1,204 @@
+1
+00:00:00,970 --> 00:00:03,450
+ Before we chat about ways to implement collectives,
+
+2
+00:00:03,450 --> 00:00:07,230
+ I want you to think about what our cost goals should be.
+
+3
+00:00:07,230 --> 00:00:09,520
+ For example, let's take reduce.
+
+4
+00:00:09,520 --> 00:00:11,820
+ We described a tree-based scheme.
+
+5
+00:00:11,820 --> 00:00:13,730
+ Is this good or bad?
+
+6
+00:00:13,730 --> 00:00:16,000
+ You showed that the cost was essentially this.
+
+7
+00:00:16,000 --> 00:00:20,590
+ Basically, the time to send a message of size n times log P.
+
+8
+00:00:20,590 --> 00:00:25,090
+ So put another way, you're sending log P messages and
+
+9
+00:00:25,090 --> 00:00:28,660
+ you're sending a copy of the array log P times.
+
+10
+00:00:28,660 --> 00:00:31,190
+ So is that good or bad?
+
+11
+00:00:31,190 --> 00:00:36,170
+ Let's first think about the fact that we're paying for log P messages.
+
+12
+00:00:36,170 --> 00:00:38,410
+ That's alpha times log P.
+
+13
+00:00:38,410 --> 00:00:40,820
+ Can we do better than that?
+
+14
+00:00:40,820 --> 00:00:43,750
+ At least on a linear network the answer is probably not.
+
+15
+00:00:43,750 --> 00:00:45,090
+ Let's see why.
+
+16
+00:00:45,090 --> 00:00:48,120
+ Remember that any process can only perform one send and
+
+17
+00:00:48,120 --> 00:00:52,220
+ one simultaneous receive during any round of communication.
+
+18
+00:00:52,220 --> 00:00:55,840
+ So this process can send and receive simultaneously.
+
+19
+00:00:55,840 --> 00:00:58,300
+ If this process wanted to perform a second send,
+
+20
+00:00:58,300 --> 00:01:00,280
+ it's not allowed to do that.
+
+21
+00:01:00,280 --> 00:01:03,520
+ The second send has to wait until the next round.
+
+22
+00:01:03,520 --> 00:01:06,490
+ So in the very best case, you can pair sends and
+
+23
+00:01:06,490 --> 00:01:10,660
+ receives, no matter how you choose to arrange the computation.
+
+24
+00:01:10,660 --> 00:01:14,990
+ And if you're pairing you'll need at least log P rounds of communication.
+
+25
+00:01:14,990 --> 00:01:18,120
+ Since the alpha terms essentially measures the number of rounds,
+
+26
+00:01:18,120 --> 00:01:21,950
+ then this says that log P rounds is good.
+
+27
+00:01:21,950 --> 00:01:24,050
+ So what about the beta term?
+
+28
+00:01:24,050 --> 00:01:27,510
+ Is beta times n times log P good or bad?
+
+29
+00:01:27,510 --> 00:01:31,700
+ Let's start with an intuitive and somewhat trivial lower bound.
+
+30
+00:01:31,700 --> 00:01:34,520
+ Each process has n words of data.
+
+31
+00:01:34,520 --> 00:01:38,350
+ So, at some point in time, every process except the root
+
+32
+00:01:38,350 --> 00:01:41,470
+ is going to have to send its n words somewhere.
+
+33
+00:01:41,470 --> 00:01:47,800
+ So, in the very best case, you'd need to send a total volume of n (P-1) words.
+
+34
+00:01:47,800 --> 00:01:50,768
+ Since there are (P-1) of these processes.
+
+35
+00:01:50,768 --> 00:01:55,220
+ If all (P-1) processes could send their data simultaneously,
+
+36
+00:01:55,220 --> 00:01:56,670
+ wouldn't that be great?
+
+37
+00:01:56,670 --> 00:01:57,810
+ The time we would pay,
+
+38
+00:01:57,810 --> 00:02:01,790
+ would be proportional to, the total volume divided by (P-1).
+
+39
+00:02:01,790 --> 00:02:06,870
+ So we need to pay to send this many words.
+
+40
+00:02:06,870 --> 00:02:10,300
+ And the speed of communication is one over beta.
+
+41
+00:02:10,300 --> 00:02:13,890
+ Therefore a lower bound on time with respect to beta would be just
+
+42
+00:02:13,890 --> 00:02:15,910
+ n times beta.
+
+43
+00:02:15,910 --> 00:02:18,545
+ Looks like our tree-based scheme might be sending too much
+
+44
+00:02:18,545 --> 00:02:22,090
+ data by a factor of log P.
+
+45
+00:02:22,090 --> 00:02:24,930
+ Now you can apply a similar line of reasoning essentially to
+
+46
+00:02:24,930 --> 00:02:27,190
+ all the other collectives.
+
+47
+00:02:27,190 --> 00:02:29,430
+ So for all the collectives we've discussed,
+
+48
+00:02:29,430 --> 00:02:32,880
+ the lower bound on communication is this.
+
+49
+00:02:32,880 --> 00:02:37,290
+ For collectives like scatter and gather remember that we use the symbol m,
+
+50
+00:02:37,290 --> 00:02:40,510
+ m denoted the local problem size.
+
+51
+00:02:40,510 --> 00:02:40,510
+ So in this lower bound, this size n is really the combined size.
+

@@ -1,0 +1,28 @@
+1
+00:00:00,950 --> 00:00:05,130
+ If we implement all-gather using the building block approach of a gather step
+
+2
+00:00:05,130 --> 00:00:08,800
+ followed by a broadcast step, is that good or bad?
+
+3
+00:00:08,800 --> 00:00:11,153
+ Well let's suppose that both gather and
+
+4
+00:00:11,153 --> 00:00:14,410
+ broadcast somehow attain the lower bounds.
+
+5
+00:00:14,410 --> 00:00:17,930
+ Will the combined primitive also attain the lower bounds?
+
+6
+00:00:17,930 --> 00:00:19,120
+ I want you to tell me.
+
+7
+00:00:19,120 --> 00:00:19,120
+ Yes or no.
+

@@ -1,0 +1,16 @@
+1
+00:00:00,390 --> 00:00:04,210
+ As an exercise, I want you to build the graph laplacian for this thing.
+
+2
+00:00:04,210 --> 00:00:07,060
+ Fill in the entries of the laplacian here.
+
+3
+00:00:07,060 --> 00:00:10,130
+ And you can just leave an entry blank if you want to indicate a zero
+
+4
+00:00:10,130 --> 00:00:10,130
+ should go there.
+

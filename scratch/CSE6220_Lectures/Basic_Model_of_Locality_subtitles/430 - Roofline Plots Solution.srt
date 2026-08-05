@@ -1,0 +1,64 @@
+1
+00:00:00,130 --> 00:00:01,460
+ Here is the answer.
+
+2
+00:00:01,460 --> 00:00:05,592
+ That is the plateau occurs at y0 = w*/w.
+
+3
+00:00:05,592 --> 00:00:10,510
+ It's the maximum possible value this expression could take.
+
+4
+00:00:10,510 --> 00:00:12,450
+ Just take i and let it go to infinity and
+
+5
+00:00:12,450 --> 00:00:14,790
+ you should be able to convince yourself that that's true.
+
+6
+00:00:14,790 --> 00:00:17,990
+ Now what this ratio also tells you is that if you design an algorithm
+
+7
+00:00:17,990 --> 00:00:23,030
+ that is not work optimal with respect to w*, then you will pay a penalty.
+
+8
+00:00:23,030 --> 00:00:26,330
+ That penalty will be reduced maximum performance.
+
+9
+00:00:26,330 --> 00:00:28,960
+ So what about the critical point, x zero.
+
+10
+00:00:28,960 --> 00:00:30,330
+ Again, according to this formula,
+
+11
+00:00:30,330 --> 00:00:33,680
+ you reach the critical point as soon as I is equal to B.
+
+12
+00:00:33,680 --> 00:00:35,900
+ Overall, this says that when you design an algorithm,
+
+13
+00:00:35,900 --> 00:00:40,300
+ a good target is to try to get an intensity that is B or greater.
+
+14
+00:00:40,300 --> 00:00:42,660
+ By the way this is a good point to introduce some terminology,
+
+15
+00:00:42,660 --> 00:00:47,500
+ if your algorithm is to the right of x zero we say it's compute bound,
+
+16
+00:00:47,500 --> 00:00:47,500
+ if on the other hand it's to the left we say it's memory bound.
+

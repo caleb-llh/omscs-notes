@@ -1,0 +1,896 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.990 align:start position:0%
+ 
+so<00:00:00.299><c> we</c><00:00:00.450><c> have</c><00:00:00.630><c> seen</c><00:00:00.870><c> in</c><00:00:01.230><c> the</c><00:00:01.500><c> latest</c><00:00:01.800><c> quiz</c><00:00:02.100><c> that</c>
+
+00:00:02.990 --> 00:00:03.000 align:start position:0%
+so we have seen in the latest quiz that
+ 
+
+00:00:03.000 --> 00:00:04.880 align:start position:0%
+so we have seen in the latest quiz that
+the<00:00:03.149><c> one</c><00:00:03.360><c> bit</c><00:00:03.570><c> predictor</c><00:00:03.720><c> works</c><00:00:04.350><c> reasonably</c>
+
+00:00:04.880 --> 00:00:04.890 align:start position:0%
+the one bit predictor works reasonably
+ 
+
+00:00:04.890 --> 00:00:06.320 align:start position:0%
+the one bit predictor works reasonably
+well<00:00:04.980><c> for</c><00:00:05.160><c> loops</c><00:00:05.609><c> that</c><00:00:05.759><c> have</c><00:00:05.940><c> a</c><00:00:05.970><c> lot</c><00:00:06.180><c> of</c>
+
+00:00:06.320 --> 00:00:06.330 align:start position:0%
+well for loops that have a lot of
+ 
+
+00:00:06.330 --> 00:00:08.810 align:start position:0%
+well for loops that have a lot of
+iterations<00:00:06.569><c> so</c><00:00:07.140><c> what</c><00:00:08.040><c> are</c><00:00:08.189><c> the</c><00:00:08.340><c> problems</c><00:00:08.730><c> with</c>
+
+00:00:08.810 --> 00:00:08.820 align:start position:0%
+iterations so what are the problems with
+ 
+
+00:00:08.820 --> 00:00:11.299 align:start position:0%
+iterations so what are the problems with
+one<00:00:09.120><c> bit</c><00:00:09.300><c> prediction</c><00:00:09.870><c> that</c><00:00:10.590><c> have</c><00:00:10.769><c> led</c><00:00:10.980><c> to</c>
+
+00:00:11.299 --> 00:00:11.309 align:start position:0%
+one bit prediction that have led to
+ 
+
+00:00:11.309 --> 00:00:13.640 align:start position:0%
+one bit prediction that have led to
+better<00:00:11.550><c> predictors</c><00:00:12.269><c> the</c><00:00:13.139><c> one</c><00:00:13.349><c> bit</c><00:00:13.530><c> predictor</c>
+
+00:00:13.640 --> 00:00:13.650 align:start position:0%
+better predictors the one bit predictor
+ 
+
+00:00:13.650 --> 00:00:16.310 align:start position:0%
+better predictors the one bit predictor
+predicts<00:00:14.490><c> well</c><00:00:14.839><c> branches</c><00:00:15.839><c> that</c><00:00:15.929><c> are</c><00:00:16.080><c> always</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+predicts well branches that are always
+ 
+
+00:00:16.320 --> 00:00:19.160 align:start position:0%
+predicts well branches that are always
+taken<00:00:16.949><c> it</c><00:00:17.160><c> might</c><00:00:18.150><c> make</c><00:00:18.359><c> a</c><00:00:18.420><c> mistake</c><00:00:18.660><c> the</c><00:00:18.990><c> first</c>
+
+00:00:19.160 --> 00:00:19.170 align:start position:0%
+taken it might make a mistake the first
+ 
+
+00:00:19.170 --> 00:00:20.990 align:start position:0%
+taken it might make a mistake the first
+time<00:00:19.439><c> it</c><00:00:19.560><c> sees</c><00:00:19.740><c> the</c><00:00:19.890><c> branch</c><00:00:20.130><c> but</c><00:00:20.460><c> after</c><00:00:20.850><c> that</c>
+
+00:00:20.990 --> 00:00:21.000 align:start position:0%
+time it sees the branch but after that
+ 
+
+00:00:21.000 --> 00:00:22.759 align:start position:0%
+time it sees the branch but after that
+it's<00:00:21.180><c> going</c><00:00:21.330><c> to</c><00:00:21.420><c> start</c><00:00:21.660><c> predicting</c><00:00:21.960><c> taken</c><00:00:22.590><c> and</c>
+
+00:00:22.759 --> 00:00:22.769 align:start position:0%
+it's going to start predicting taken and
+ 
+
+00:00:22.769 --> 00:00:24.290 align:start position:0%
+it's going to start predicting taken and
+because<00:00:23.189><c> the</c><00:00:23.279><c> branch</c><00:00:23.490><c> is</c><00:00:23.609><c> always</c><00:00:23.880><c> taking</c><00:00:24.180><c> it</c>
+
+00:00:24.290 --> 00:00:24.300 align:start position:0%
+because the branch is always taking it
+ 
+
+00:00:24.300 --> 00:00:26.870 align:start position:0%
+because the branch is always taking it
+always<00:00:24.449><c> works</c><00:00:24.779><c> well</c><00:00:25.050><c> similarly</c><00:00:25.800><c> always</c><00:00:26.670><c> not</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+always works well similarly always not
+ 
+
+00:00:26.880 --> 00:00:28.820 align:start position:0%
+always works well similarly always not
+taken<00:00:27.300><c> is</c><00:00:27.390><c> predicted</c><00:00:27.840><c> well</c><00:00:28.050><c> because</c><00:00:28.500><c> the</c><00:00:28.680><c> very</c>
+
+00:00:28.820 --> 00:00:28.830 align:start position:0%
+taken is predicted well because the very
+ 
+
+00:00:28.830 --> 00:00:30.380 align:start position:0%
+taken is predicted well because the very
+first<00:00:29.099><c> time</c><00:00:29.279><c> it</c><00:00:29.400><c> might</c><00:00:29.550><c> miss</c><00:00:29.760><c> predict</c><00:00:30.179><c> but</c>
+
+00:00:30.380 --> 00:00:30.390 align:start position:0%
+first time it might miss predict but
+ 
+
+00:00:30.390 --> 00:00:32.659 align:start position:0%
+first time it might miss predict but
+after<00:00:30.750><c> that</c><00:00:30.929><c> it</c><00:00:31.109><c> learns</c><00:00:31.320><c> the</c><00:00:31.529><c> behavior</c><00:00:31.980><c> and</c><00:00:32.250><c> it</c>
+
+00:00:32.659 --> 00:00:32.669 align:start position:0%
+after that it learns the behavior and it
+ 
+
+00:00:32.669 --> 00:00:34.970 align:start position:0%
+after that it learns the behavior and it
+stays<00:00:32.969><c> the</c><00:00:33.120><c> same</c><00:00:33.149><c> so</c><00:00:33.780><c> we</c><00:00:33.809><c> just</c><00:00:34.230><c> have</c><00:00:34.469><c> to</c><00:00:34.500><c> always</c>
+
+00:00:34.970 --> 00:00:34.980 align:start position:0%
+stays the same so we just have to always
+ 
+
+00:00:34.980 --> 00:00:37.940 align:start position:0%
+stays the same so we just have to always
+not<00:00:35.309><c> taken</c><00:00:35.480><c> it</c><00:00:36.480><c> also</c><00:00:36.719><c> predicts</c><00:00:37.380><c> well</c><00:00:37.559><c> the</c>
+
+00:00:37.940 --> 00:00:37.950 align:start position:0%
+not taken it also predicts well the
+ 
+
+00:00:37.950 --> 00:00:39.650 align:start position:0%
+not taken it also predicts well the
+branch<00:00:38.219><c> is</c><00:00:38.430><c> where</c><00:00:38.640><c> the</c><00:00:38.820><c> number</c><00:00:39.120><c> of</c><00:00:39.210><c> taken</c>
+
+00:00:39.650 --> 00:00:39.660 align:start position:0%
+branch is where the number of taken
+ 
+
+00:00:39.660 --> 00:00:41.900 align:start position:0%
+branch is where the number of taken
+outcomes<00:00:40.079><c> is</c><00:00:40.290><c> vastly</c><00:00:40.920><c> more</c><00:00:41.219><c> than</c><00:00:41.550><c> the</c><00:00:41.670><c> number</c>
+
+00:00:41.900 --> 00:00:41.910 align:start position:0%
+outcomes is vastly more than the number
+ 
+
+00:00:41.910 --> 00:00:44.540 align:start position:0%
+outcomes is vastly more than the number
+of<00:00:42.000><c> not</c><00:00:42.210><c> taken</c><00:00:42.629><c> outcomes</c><00:00:43.079><c> here</c><00:00:43.739><c> it's</c><00:00:44.250><c> gonna</c>
+
+00:00:44.540 --> 00:00:44.550 align:start position:0%
+of not taken outcomes here it's gonna
+ 
+
+00:00:44.550 --> 00:00:47.479 align:start position:0%
+of not taken outcomes here it's gonna
+learn<00:00:45.360><c> after</c><00:00:46.260><c> the</c><00:00:46.410><c> first</c><00:00:46.649><c> taken</c><00:00:46.980><c> outcome</c><00:00:47.370><c> that</c>
+
+00:00:47.479 --> 00:00:47.489 align:start position:0%
+learn after the first taken outcome that
+ 
+
+00:00:47.489 --> 00:00:48.889 align:start position:0%
+learn after the first taken outcome that
+the<00:00:47.610><c> next</c><00:00:47.910><c> outcome</c><00:00:48.059><c> should</c><00:00:48.329><c> be</c><00:00:48.390><c> predicted</c>
+
+00:00:48.889 --> 00:00:48.899 align:start position:0%
+the next outcome should be predicted
+ 
+
+00:00:48.899 --> 00:00:51.680 align:start position:0%
+the next outcome should be predicted
+taken<00:00:49.350><c> and</c><00:00:49.559><c> very</c><00:00:50.280><c> very</c><00:00:50.730><c> rarely</c><00:00:51.059><c> it's</c><00:00:51.329><c> gonna</c><00:00:51.510><c> be</c>
+
+00:00:51.680 --> 00:00:51.690 align:start position:0%
+taken and very very rarely it's gonna be
+ 
+
+00:00:51.690 --> 00:00:53.689 align:start position:0%
+taken and very very rarely it's gonna be
+wrong<00:00:51.899><c> because</c><00:00:52.289><c> of</c><00:00:52.649><c> a</c><00:00:52.770><c> not</c><00:00:52.949><c> taken</c><00:00:53.340><c> outcome</c>
+
+00:00:53.689 --> 00:00:53.699 align:start position:0%
+wrong because of a not taken outcome
+ 
+
+00:00:53.699 --> 00:00:56.779 align:start position:0%
+wrong because of a not taken outcome
+similarly<00:00:54.690><c> the</c><00:00:55.289><c> one</c><00:00:55.410><c> bit</c><00:00:55.620><c> predictor</c><00:00:56.100><c> predicts</c>
+
+00:00:56.779 --> 00:00:56.789 align:start position:0%
+similarly the one bit predictor predicts
+ 
+
+00:00:56.789 --> 00:00:58.580 align:start position:0%
+similarly the one bit predictor predicts
+well<00:00:57.059><c> when</c><00:00:57.329><c> the</c><00:00:57.449><c> number</c><00:00:57.719><c> of</c><00:00:57.809><c> not</c><00:00:58.079><c> taken</c>
+
+00:00:58.580 --> 00:00:58.590 align:start position:0%
+well when the number of not taken
+ 
+
+00:00:58.590 --> 00:01:00.770 align:start position:0%
+well when the number of not taken
+outcomes<00:00:59.010><c> is</c><00:00:59.160><c> vastly</c><00:00:59.640><c> more</c><00:00:59.760><c> than</c><00:01:00.210><c> the</c><00:01:00.539><c> number</c>
+
+00:01:00.770 --> 00:01:00.780 align:start position:0%
+outcomes is vastly more than the number
+ 
+
+00:01:00.780 --> 00:01:02.689 align:start position:0%
+outcomes is vastly more than the number
+of<00:01:00.840><c> taken</c><00:01:01.230><c> outcomes</c><00:01:01.649><c> for</c><00:01:01.920><c> the</c><00:01:02.039><c> same</c><00:01:02.250><c> reason</c>
+
+00:01:02.689 --> 00:01:02.699 align:start position:0%
+of taken outcomes for the same reason
+ 
+
+00:01:02.699 --> 00:01:05.329 align:start position:0%
+of taken outcomes for the same reason
+basically<00:01:03.480><c> we</c><00:01:04.350><c> will</c><00:01:04.439><c> see</c><00:01:04.619><c> not</c><00:01:04.769><c> they</c><00:01:04.979><c> can</c><00:01:05.189><c> not</c>
+
+00:01:05.329 --> 00:01:05.339 align:start position:0%
+basically we will see not they can not
+ 
+
+00:01:05.339 --> 00:01:07.250 align:start position:0%
+basically we will see not they can not
+take<00:01:05.519><c> and</c><00:01:05.729><c> not</c><00:01:05.850><c> taking</c><00:01:06.180><c> many</c><00:01:06.360><c> many</c><00:01:06.630><c> times</c><00:01:06.960><c> the</c>
+
+00:01:07.250 --> 00:01:07.260 align:start position:0%
+take and not taking many many times the
+ 
+
+00:01:07.260 --> 00:01:08.750 align:start position:0%
+take and not taking many many times the
+first<00:01:07.500><c> time</c><00:01:07.710><c> we</c><00:01:07.830><c> see</c><00:01:08.010><c> one</c><00:01:08.189><c> of</c><00:01:08.310><c> those</c><00:01:08.430><c> we're</c>
+
+00:01:08.750 --> 00:01:08.760 align:start position:0%
+first time we see one of those we're
+ 
+
+00:01:08.760 --> 00:01:11.149 align:start position:0%
+first time we see one of those we're
+gonna<00:01:08.970><c> learn</c><00:01:09.210><c> it</c><00:01:09.420><c> and</c><00:01:09.600><c> then</c><00:01:10.380><c> the</c><00:01:10.740><c> taken</c>
+
+00:01:11.149 --> 00:01:11.159 align:start position:0%
+gonna learn it and then the taken
+ 
+
+00:01:11.159 --> 00:01:13.550 align:start position:0%
+gonna learn it and then the taken
+outcome<00:01:11.520><c> will</c><00:01:11.700><c> be</c><00:01:11.880><c> miss</c><00:01:12.150><c> predicted</c><00:01:12.720><c> so</c><00:01:13.380><c> what's</c>
+
+00:01:13.550 --> 00:01:13.560 align:start position:0%
+outcome will be miss predicted so what's
+ 
+
+00:01:13.560 --> 00:01:14.929 align:start position:0%
+outcome will be miss predicted so what's
+wrong<00:01:13.770><c> with</c><00:01:13.979><c> the</c><00:01:14.130><c> one</c><00:01:14.310><c> one</c><00:01:14.610><c> bit</c><00:01:14.790><c> predictor</c>
+
+00:01:14.929 --> 00:01:14.939 align:start position:0%
+wrong with the one one bit predictor
+ 
+
+00:01:14.939 --> 00:01:17.570 align:start position:0%
+wrong with the one one bit predictor
+what's<00:01:15.750><c> wrong</c><00:01:16.020><c> with</c><00:01:16.259><c> it</c><00:01:16.439><c> can</c><00:01:17.189><c> be</c><00:01:17.340><c> glimpsed</c>
+
+00:01:17.570 --> 00:01:17.580 align:start position:0%
+what's wrong with it can be glimpsed
+ 
+
+00:01:17.580 --> 00:01:20.899 align:start position:0%
+what's wrong with it can be glimpsed
+from<00:01:17.880><c> these</c><00:01:18.299><c> let's</c><00:01:19.080><c> look</c><00:01:19.350><c> at</c><00:01:19.680><c> the</c><00:01:20.070><c> branch</c><00:01:20.729><c> it</c>
+
+00:01:20.899 --> 00:01:20.909 align:start position:0%
+from these let's look at the branch it
+ 
+
+00:01:20.909 --> 00:01:23.600 align:start position:0%
+from these let's look at the branch it
+is<00:01:21.000><c> for</c><00:01:21.210><c> example</c><00:01:21.299><c> more</c><00:01:21.960><c> taken</c><00:01:22.409><c> than</c><00:01:22.590><c> not</c><00:01:22.770><c> so</c>
+
+00:01:23.600 --> 00:01:23.610 align:start position:0%
+is for example more taken than not so
+ 
+
+00:01:23.610 --> 00:01:26.179 align:start position:0%
+is for example more taken than not so
+it's<00:01:23.790><c> been</c><00:01:23.939><c> taken</c><00:01:24.450><c> many</c><00:01:24.630><c> times</c><00:01:25.080><c> and</c><00:01:25.470><c> then</c>
+
+00:01:26.179 --> 00:01:26.189 align:start position:0%
+it's been taken many times and then
+ 
+
+00:01:26.189 --> 00:01:28.700 align:start position:0%
+it's been taken many times and then
+there<00:01:26.400><c> is</c><00:01:26.520><c> a</c><00:01:26.700><c> non</c><00:01:26.970><c> taken</c><00:01:27.450><c> outcome</c><00:01:27.930><c> and</c><00:01:28.170><c> then</c>
+
+00:01:28.700 --> 00:01:28.710 align:start position:0%
+there is a non taken outcome and then
+ 
+
+00:01:28.710 --> 00:01:30.560 align:start position:0%
+there is a non taken outcome and then
+it's<00:01:28.920><c> going</c><00:01:29.070><c> to</c><00:01:29.159><c> be</c><00:01:29.250><c> taken</c><00:01:29.700><c> many</c><00:01:29.939><c> more</c><00:01:30.240><c> times</c>
+
+00:01:30.560 --> 00:01:30.570 align:start position:0%
+it's going to be taken many more times
+ 
+
+00:01:30.570 --> 00:01:33.649 align:start position:0%
+it's going to be taken many more times
+let's<00:01:31.470><c> now</c><00:01:31.650><c> look</c><00:01:31.890><c> at</c><00:01:32.189><c> whether</c><00:01:33.090><c> the</c><00:01:33.329><c> one</c><00:01:33.479><c> bit</c>
+
+00:01:33.649 --> 00:01:33.659 align:start position:0%
+let's now look at whether the one bit
+ 
+
+00:01:33.659 --> 00:01:35.840 align:start position:0%
+let's now look at whether the one bit
+predictor<00:01:33.810><c> will</c><00:01:34.320><c> be</c><00:01:34.470><c> right</c><00:01:34.680><c> on</c><00:01:34.920><c> this</c><00:01:35.159><c> it's</c>
+
+00:01:35.840 --> 00:01:35.850 align:start position:0%
+predictor will be right on this it's
+ 
+
+00:01:35.850 --> 00:01:37.640 align:start position:0%
+predictor will be right on this it's
+been<00:01:36.090><c> taken</c><00:01:36.509><c> many</c><00:01:36.659><c> times</c><00:01:36.990><c> so</c><00:01:37.380><c> it's</c><00:01:37.500><c> gonna</c>
+
+00:01:37.640 --> 00:01:37.650 align:start position:0%
+been taken many times so it's gonna
+ 
+
+00:01:37.650 --> 00:01:40.730 align:start position:0%
+been taken many times so it's gonna
+predict<00:01:38.070><c> a</c><00:01:38.280><c> can</c><00:01:38.579><c> and</c><00:01:39.049><c> then</c><00:01:40.049><c> because</c><00:01:40.409><c> it's</c><00:01:40.590><c> been</c>
+
+00:01:40.730 --> 00:01:40.740 align:start position:0%
+predict a can and then because it's been
+ 
+
+00:01:40.740 --> 00:01:42.319 align:start position:0%
+predict a can and then because it's been
+taken<00:01:41.159><c> it's</c><00:01:41.280><c> gonna</c><00:01:41.460><c> predict</c><00:01:41.820><c> the</c><00:01:41.909><c> next</c><00:01:42.210><c> one</c>
+
+00:01:42.319 --> 00:01:42.329 align:start position:0%
+taken it's gonna predict the next one
+ 
+
+00:01:42.329 --> 00:01:43.880 align:start position:0%
+taken it's gonna predict the next one
+let's<00:01:42.479><c> take</c><00:01:42.630><c> an</c><00:01:42.930><c> the</c><00:01:43.229><c> next</c><00:01:43.439><c> one</c><00:01:43.619><c> is</c><00:01:43.710><c> going</c><00:01:43.829><c> to</c>
+
+00:01:43.880 --> 00:01:43.890 align:start position:0%
+let's take an the next one is going to
+ 
+
+00:01:43.890 --> 00:01:46.520 align:start position:0%
+let's take an the next one is going to
+be<00:01:43.979><c> predicted</c><00:01:44.430><c> taken</c><00:01:44.880><c> taken</c><00:01:45.329><c> again</c><00:01:45.840><c> when</c><00:01:46.380><c> we</c>
+
+00:01:46.520 --> 00:01:46.530 align:start position:0%
+be predicted taken taken again when we
+ 
+
+00:01:46.530 --> 00:01:48.560 align:start position:0%
+be predicted taken taken again when we
+reach<00:01:46.680><c> the</c><00:01:46.890><c> not</c><00:01:47.070><c> taken</c><00:01:47.280><c> out</c><00:01:47.640><c> come</c><00:01:47.939><c> the</c><00:01:48.390><c> last</c>
+
+00:01:48.560 --> 00:01:48.570 align:start position:0%
+reach the not taken out come the last
+ 
+
+00:01:48.570 --> 00:01:51.469 align:start position:0%
+reach the not taken out come the last
+outcome<00:01:49.380><c> was</c><00:01:49.560><c> taken</c><00:01:50.070><c> so</c><00:01:50.970><c> we</c><00:01:51.000><c> will</c><00:01:51.270><c> have</c><00:01:51.420><c> a</c>
+
+00:01:51.469 --> 00:01:51.479 align:start position:0%
+outcome was taken so we will have a
+ 
+
+00:01:51.479 --> 00:01:54.020 align:start position:0%
+outcome was taken so we will have a
+misprediction<00:01:51.990><c> this</c><00:01:52.979><c> would</c><00:01:53.220><c> not</c><00:01:53.369><c> be</c><00:01:53.579><c> much</c><00:01:54.000><c> of</c>
+
+00:01:54.020 --> 00:01:54.030 align:start position:0%
+misprediction this would not be much of
+ 
+
+00:01:54.030 --> 00:01:56.060 align:start position:0%
+misprediction this would not be much of
+a<00:01:54.270><c> problem</c><00:01:54.479><c> if</c><00:01:54.840><c> not</c><00:01:55.110><c> taking</c><00:01:55.560><c> occurs</c><00:01:55.860><c> very</c>
+
+00:01:56.060 --> 00:01:56.070 align:start position:0%
+a problem if not taking occurs very
+ 
+
+00:01:56.070 --> 00:01:58.039 align:start position:0%
+a problem if not taking occurs very
+rarely<00:01:56.490><c> because</c><00:01:57.149><c> we're</c><00:01:57.540><c> basically</c><00:01:57.750><c> miss</c>
+
+00:01:58.039 --> 00:01:58.049 align:start position:0%
+rarely because we're basically miss
+ 
+
+00:01:58.049 --> 00:01:59.240 align:start position:0%
+rarely because we're basically miss
+predicting<00:01:58.469><c> just</c><00:01:58.500><c> the</c><00:01:58.799><c> very</c><00:01:59.009><c> rare</c>
+
+00:01:59.240 --> 00:01:59.250 align:start position:0%
+predicting just the very rare
+ 
+
+00:01:59.250 --> 00:02:02.450 align:start position:0%
+predicting just the very rare
+occurrences<00:02:00.200><c> however</c><00:02:01.200><c> there</c><00:02:02.189><c> is</c><00:02:02.310><c> an</c>
+
+00:02:02.450 --> 00:02:02.460 align:start position:0%
+occurrences however there is an
+ 
+
+00:02:02.460 --> 00:02:04.580 align:start position:0%
+occurrences however there is an
+interesting<00:02:03.060><c> problem</c><00:02:03.270><c> here</c><00:02:03.659><c> which</c><00:02:03.899><c> is</c><00:02:03.930><c> now</c>
+
+00:02:04.580 --> 00:02:04.590 align:start position:0%
+interesting problem here which is now
+ 
+
+00:02:04.590 --> 00:02:06.830 align:start position:0%
+interesting problem here which is now
+that<00:02:04.619><c> we</c><00:02:04.920><c> are</c><00:02:05.009><c> back</c><00:02:05.250><c> to</c><00:02:05.520><c> our</c><00:02:05.549><c> taken</c><00:02:06.299><c> behavior</c>
+
+00:02:06.830 --> 00:02:06.840 align:start position:0%
+that we are back to our taken behavior
+ 
+
+00:02:06.840 --> 00:02:09.559 align:start position:0%
+that we are back to our taken behavior
+which<00:02:07.710><c> is</c><00:02:07.860><c> the</c><00:02:08.039><c> vast</c><00:02:08.550><c> the</c><00:02:08.759><c> dominant</c><00:02:09.179><c> behavior</c>
+
+00:02:09.559 --> 00:02:09.569 align:start position:0%
+which is the vast the dominant behavior
+ 
+
+00:02:09.569 --> 00:02:11.990 align:start position:0%
+which is the vast the dominant behavior
+in<00:02:09.720><c> this</c><00:02:09.840><c> case</c><00:02:10.140><c> the</c><00:02:10.950><c> last</c><00:02:11.160><c> outcome</c><00:02:11.670><c> was</c><00:02:11.849><c> now</c>
+
+00:02:11.990 --> 00:02:12.000 align:start position:0%
+in this case the last outcome was now
+ 
+
+00:02:12.000 --> 00:02:13.620 align:start position:0%
+in this case the last outcome was now
+not<00:02:12.270><c> taken</c><00:02:12.870><c> so</c><00:02:13.080><c> we</c><00:02:13.110><c> are</c><00:02:13.260><c> gonna</c>
+
+00:02:13.620 --> 00:02:13.630 align:start position:0%
+not taken so we are gonna
+ 
+
+00:02:13.630 --> 00:02:16.800 align:start position:0%
+not taken so we are gonna
+predict<00:02:14.170><c> this</c><00:02:14.320><c> branch</c><00:02:14.860><c> -</c><00:02:15.600><c> now</c><00:02:16.600><c> we're</c>
+
+00:02:16.800 --> 00:02:16.810 align:start position:0%
+predict this branch - now we're
+ 
+
+00:02:16.810 --> 00:02:18.810 align:start position:0%
+predict this branch - now we're
+predicting<00:02:17.110><c> not</c><00:02:17.530><c> taken</c><00:02:17.590><c> and</c><00:02:18.190><c> the</c><00:02:18.370><c> branch</c><00:02:18.610><c> will</c>
+
+00:02:18.810 --> 00:02:18.820 align:start position:0%
+predicting not taken and the branch will
+ 
+
+00:02:18.820 --> 00:02:21.210 align:start position:0%
+predicting not taken and the branch will
+be<00:02:18.850><c> taken</c><00:02:19.420><c> after</c><00:02:19.930><c> this</c><00:02:20.380><c> the</c><00:02:20.590><c> previous</c><00:02:20.770><c> outcome</c>
+
+00:02:21.210 --> 00:02:21.220 align:start position:0%
+be taken after this the previous outcome
+ 
+
+00:02:21.220 --> 00:02:23.010 align:start position:0%
+be taken after this the previous outcome
+was<00:02:21.340><c> taken</c><00:02:21.700><c> so</c><00:02:21.850><c> we</c><00:02:21.970><c> predict</c><00:02:22.270><c> taken</c><00:02:22.480><c> and</c><00:02:22.930><c> we</c>
+
+00:02:23.010 --> 00:02:23.020 align:start position:0%
+was taken so we predict taken and we
+ 
+
+00:02:23.020 --> 00:02:25.680 align:start position:0%
+was taken so we predict taken and we
+continue<00:02:23.440><c> predicting</c><00:02:23.890><c> taken</c><00:02:24.280><c> so</c><00:02:25.000><c> the</c><00:02:25.150><c> problem</c>
+
+00:02:25.680 --> 00:02:25.690 align:start position:0%
+continue predicting taken so the problem
+ 
+
+00:02:25.690 --> 00:02:29.490 align:start position:0%
+continue predicting taken so the problem
+really<00:02:25.900><c> is</c><00:02:26.080><c> that</c><00:02:26.560><c> each</c><00:02:27.340><c> anomaly</c><00:02:28.120><c> such</c><00:02:28.630><c> as</c><00:02:28.870><c> we</c>
+
+00:02:29.490 --> 00:02:29.500 align:start position:0%
+really is that each anomaly such as we
+ 
+
+00:02:29.500 --> 00:02:31.290 align:start position:0%
+really is that each anomaly such as we
+have<00:02:29.710><c> a</c><00:02:29.740><c> branch</c><00:02:30.070><c> it</c><00:02:30.190><c> is</c><00:02:30.310><c> almost</c><00:02:30.610><c> always</c><00:02:30.820><c> taken</c>
+
+00:02:31.290 --> 00:02:31.300 align:start position:0%
+have a branch it is almost always taken
+ 
+
+00:02:31.300 --> 00:02:33.630 align:start position:0%
+have a branch it is almost always taken
+but<00:02:31.480><c> sometimes</c><00:02:31.840><c> it's</c><00:02:32.020><c> not</c><00:02:32.140><c> taken</c><00:02:32.560><c> results</c><00:02:33.520><c> in</c>
+
+00:02:33.630 --> 00:02:33.640 align:start position:0%
+but sometimes it's not taken results in
+ 
+
+00:02:33.640 --> 00:02:36.150 align:start position:0%
+but sometimes it's not taken results in
+two<00:02:33.880><c> mispredictions</c><00:02:34.600><c> one</c><00:02:35.200><c> for</c><00:02:35.440><c> the</c><00:02:35.590><c> anomalous</c>
+
+00:02:36.150 --> 00:02:36.160 align:start position:0%
+two mispredictions one for the anomalous
+ 
+
+00:02:36.160 --> 00:02:38.760 align:start position:0%
+two mispredictions one for the anomalous
+behavior<00:02:36.370><c> and</c><00:02:36.940><c> then</c><00:02:37.600><c> once</c><00:02:37.900><c> more</c><00:02:38.230><c> for</c><00:02:38.710><c> the</c>
+
+00:02:38.760 --> 00:02:38.770 align:start position:0%
+behavior and then once more for the
+ 
+
+00:02:38.770 --> 00:02:40.800 align:start position:0%
+behavior and then once more for the
+normal<00:02:39.250><c> behavior</c><00:02:39.700><c> that</c><00:02:39.880><c> follows</c><00:02:39.940><c> the</c><00:02:40.360><c> anomaly</c>
+
+00:02:40.800 --> 00:02:40.810 align:start position:0%
+normal behavior that follows the anomaly
+ 
+
+00:02:40.810 --> 00:02:43.020 align:start position:0%
+normal behavior that follows the anomaly
+so<00:02:41.410><c> the</c><00:02:41.530><c> one</c><00:02:41.680><c> bit</c><00:02:41.860><c> predictor</c><00:02:41.980><c> will</c><00:02:42.430><c> not</c><00:02:42.640><c> do</c><00:02:42.820><c> so</c>
+
+00:02:43.020 --> 00:02:43.030 align:start position:0%
+so the one bit predictor will not do so
+ 
+
+00:02:43.030 --> 00:02:45.900 align:start position:0%
+so the one bit predictor will not do so
+well<00:02:43.290><c> when</c><00:02:44.290><c> the</c><00:02:44.410><c> branch</c><00:02:44.680><c> is</c><00:02:44.950><c> biased</c><00:02:45.520><c> towards</c>
+
+00:02:45.900 --> 00:02:45.910 align:start position:0%
+well when the branch is biased towards
+ 
+
+00:02:45.910 --> 00:02:48.510 align:start position:0%
+well when the branch is biased towards
+let's<00:02:46.150><c> see</c><00:02:46.270><c> doing</c><00:02:46.540><c> more</c><00:02:46.780><c> taken</c><00:02:47.230><c> branches</c><00:02:47.710><c> but</c>
+
+00:02:48.510 --> 00:02:48.520 align:start position:0%
+let's see doing more taken branches but
+ 
+
+00:02:48.520 --> 00:02:50.730 align:start position:0%
+let's see doing more taken branches but
+the<00:02:49.240><c> number</c><00:02:49.510><c> of</c><00:02:49.630><c> not</c><00:02:49.810><c> taken</c><00:02:50.230><c> branches</c><00:02:50.590><c> is</c>
+
+00:02:50.730 --> 00:02:50.740 align:start position:0%
+the number of not taken branches is
+ 
+
+00:02:50.740 --> 00:02:53.790 align:start position:0%
+the number of not taken branches is
+still<00:02:50.950><c> significant</c><00:02:51.670><c> or</c><00:02:52.120><c> when</c><00:02:52.960><c> there</c><00:02:53.140><c> is</c><00:02:53.170><c> more</c>
+
+00:02:53.790 --> 00:02:53.800 align:start position:0%
+still significant or when there is more
+ 
+
+00:02:53.800 --> 00:02:55.800 align:start position:0%
+still significant or when there is more
+not<00:02:54.010><c> taken</c><00:02:54.400><c> branches</c><00:02:54.850><c> but</c><00:02:55.420><c> the</c><00:02:55.540><c> number</c><00:02:55.780><c> of</c>
+
+00:02:55.800 --> 00:02:55.810 align:start position:0%
+not taken branches but the number of
+ 
+
+00:02:55.810 --> 00:02:57.990 align:start position:0%
+not taken branches but the number of
+taken<00:02:56.230><c> branches</c><00:02:56.590><c> is</c><00:02:56.770><c> significant</c><00:02:57.460><c> because</c>
+
+00:02:57.990 --> 00:02:58.000 align:start position:0%
+taken branches is significant because
+ 
+
+00:02:58.000 --> 00:03:01.020 align:start position:0%
+taken branches is significant because
+for<00:02:58.600><c> each</c><00:02:58.750><c> of</c><00:02:59.110><c> the</c><00:02:59.290><c> less</c><00:02:59.920><c> dominant</c><00:03:00.220><c> behavior</c>
+
+00:03:01.020 --> 00:03:01.030 align:start position:0%
+for each of the less dominant behavior
+ 
+
+00:03:01.030 --> 00:03:03.420 align:start position:0%
+for each of the less dominant behavior
+it's<00:03:01.930><c> going</c><00:03:02.200><c> to</c><00:03:02.290><c> do</c><00:03:02.380><c> two</c><00:03:02.590><c> mispredictions</c><00:03:03.250><c> not</c>
+
+00:03:03.420 --> 00:03:03.430 align:start position:0%
+it's going to do two mispredictions not
+ 
+
+00:03:03.430 --> 00:03:05.700 align:start position:0%
+it's going to do two mispredictions not
+just<00:03:03.640><c> one</c><00:03:03.990><c> typically</c><00:03:04.990><c> also</c><00:03:05.320><c> a</c><00:03:05.350><c> branch</c>
+
+00:03:05.700 --> 00:03:05.710 align:start position:0%
+just one typically also a branch
+ 
+
+00:03:05.710 --> 00:03:07.260 align:start position:0%
+just one typically also a branch
+director<00:03:06.070><c> like</c><00:03:06.220><c> this</c><00:03:06.400><c> will</c><00:03:06.580><c> not</c><00:03:06.760><c> do</c><00:03:06.940><c> well</c><00:03:07.120><c> on</c>
+
+00:03:07.260 --> 00:03:07.270 align:start position:0%
+director like this will not do well on
+ 
+
+00:03:07.270 --> 00:03:10.020 align:start position:0%
+director like this will not do well on
+short<00:03:07.540><c> loops</c><00:03:07.780><c> why</c><00:03:08.530><c> because</c><00:03:09.250><c> in</c><00:03:09.430><c> a</c><00:03:09.520><c> short</c><00:03:09.820><c> loop</c>
+
+00:03:10.020 --> 00:03:10.030 align:start position:0%
+short loops why because in a short loop
+ 
+
+00:03:10.030 --> 00:03:12.660 align:start position:0%
+short loops why because in a short loop
+we<00:03:10.840><c> have</c><00:03:11.050><c> a</c><00:03:11.080><c> branch</c><00:03:11.440><c> that</c><00:03:11.650><c> for</c><00:03:11.830><c> example</c><00:03:12.250><c> exits</c>
+
+00:03:12.660 --> 00:03:12.670 align:start position:0%
+we have a branch that for example exits
+ 
+
+00:03:12.670 --> 00:03:14.610 align:start position:0%
+we have a branch that for example exits
+the<00:03:12.820><c> loop</c><00:03:12.850><c> then</c><00:03:13.420><c> we</c><00:03:13.570><c> have</c><00:03:13.780><c> a</c><00:03:13.810><c> sum</c><00:03:14.410><c> loop</c>
+
+00:03:14.610 --> 00:03:14.620 align:start position:0%
+the loop then we have a sum loop
+ 
+
+00:03:14.620 --> 00:03:16.550 align:start position:0%
+the loop then we have a sum loop
+behavior<00:03:14.800><c> and</c><00:03:15.310><c> then</c><00:03:15.460><c> a</c><00:03:15.490><c> branch</c><00:03:15.760><c> it</c><00:03:15.940><c> loops</c><00:03:16.150><c> back</c>
+
+00:03:16.550 --> 00:03:16.560 align:start position:0%
+behavior and then a branch it loops back
+ 
+
+00:03:16.560 --> 00:03:19.860 align:start position:0%
+behavior and then a branch it loops back
+the<00:03:17.560><c> branch</c><00:03:17.860><c> that</c><00:03:18.070><c> exits</c><00:03:18.550><c> the</c><00:03:18.700><c> loop</c><00:03:18.780><c> will</c><00:03:19.780><c> be</c>
+
+00:03:19.860 --> 00:03:19.870 align:start position:0%
+the branch that exits the loop will be
+ 
+
+00:03:19.870 --> 00:03:21.540 align:start position:0%
+the branch that exits the loop will be
+predicted<00:03:20.380><c> correctly</c><00:03:20.500><c> as</c><00:03:20.890><c> long</c><00:03:21.040><c> as</c><00:03:21.190><c> we</c><00:03:21.310><c> stay</c>
+
+00:03:21.540 --> 00:03:21.550 align:start position:0%
+predicted correctly as long as we stay
+ 
+
+00:03:21.550 --> 00:03:24.090 align:start position:0%
+predicted correctly as long as we stay
+in<00:03:21.580><c> the</c><00:03:21.700><c> loop</c><00:03:21.940><c> by</c><00:03:22.120><c> this</c><00:03:22.180><c> predictor</c><00:03:22.840><c> the</c><00:03:23.590><c> exit</c>
+
+00:03:24.090 --> 00:03:24.100 align:start position:0%
+in the loop by this predictor the exit
+ 
+
+00:03:24.100 --> 00:03:26.340 align:start position:0%
+in the loop by this predictor the exit
+from<00:03:24.250><c> the</c><00:03:24.340><c> loop</c><00:03:24.580><c> will</c><00:03:24.790><c> be</c><00:03:24.910><c> mispredicted</c><00:03:25.750><c> the</c>
+
+00:03:26.340 --> 00:03:26.350 align:start position:0%
+from the loop will be mispredicted the
+ 
+
+00:03:26.350 --> 00:03:28.050 align:start position:0%
+from the loop will be mispredicted the
+branch<00:03:26.620><c> vector</c><00:03:26.920><c> will</c><00:03:27.100><c> now</c><00:03:27.280><c> be</c><00:03:27.460><c> trained</c><00:03:27.790><c> to</c>
+
+00:03:28.050 --> 00:03:28.060 align:start position:0%
+branch vector will now be trained to
+ 
+
+00:03:28.060 --> 00:03:31.320 align:start position:0%
+branch vector will now be trained to
+take<00:03:28.390><c> this</c><00:03:28.660><c> path</c><00:03:29.020><c> here</c><00:03:29.580><c> when</c><00:03:30.580><c> we</c><00:03:30.700><c> come</c><00:03:30.910><c> back</c><00:03:31.090><c> to</c>
+
+00:03:31.320 --> 00:03:31.330 align:start position:0%
+take this path here when we come back to
+ 
+
+00:03:31.330 --> 00:03:34.050 align:start position:0%
+take this path here when we come back to
+this<00:03:31.450><c> short</c><00:03:31.780><c> loop</c><00:03:31.990><c> it's</c><00:03:32.830><c> gonna</c><00:03:33.130><c> miss</c><00:03:33.640><c> predict</c>
+
+00:03:34.050 --> 00:03:34.060 align:start position:0%
+this short loop it's gonna miss predict
+ 
+
+00:03:34.060 --> 00:03:36.750 align:start position:0%
+this short loop it's gonna miss predict
+the<00:03:34.180><c> very</c><00:03:34.360><c> first</c><00:03:34.710><c> iteration</c><00:03:35.710><c> for</c><00:03:36.250><c> this</c><00:03:36.460><c> branch</c>
+
+00:03:36.750 --> 00:03:36.760 align:start position:0%
+the very first iteration for this branch
+ 
+
+00:03:36.760 --> 00:03:38.610 align:start position:0%
+the very first iteration for this branch
+because<00:03:37.510><c> now</c><00:03:37.660><c> it's</c><00:03:37.810><c> gonna</c><00:03:37.930><c> think</c><00:03:38.230><c> that</c><00:03:38.410><c> it</c>
+
+00:03:38.610 --> 00:03:38.620 align:start position:0%
+because now it's gonna think that it
+ 
+
+00:03:38.620 --> 00:03:40.560 align:start position:0%
+because now it's gonna think that it
+should<00:03:38.890><c> be</c><00:03:39.010><c> this</c><00:03:39.160><c> way</c><00:03:39.400><c> but</c><00:03:39.790><c> in</c><00:03:39.940><c> fact</c><00:03:40.210><c> now</c><00:03:40.390><c> we're</c>
+
+00:03:40.560 --> 00:03:40.570 align:start position:0%
+should be this way but in fact now we're
+ 
+
+00:03:40.570 --> 00:03:42.180 align:start position:0%
+should be this way but in fact now we're
+staying<00:03:40.840><c> in</c><00:03:40.960><c> the</c><00:03:41.080><c> loop</c><00:03:41.230><c> so</c><00:03:41.710><c> if</c><00:03:41.800><c> you</c><00:03:41.860><c> have</c><00:03:42.040><c> for</c>
+
+00:03:42.180 --> 00:03:42.190 align:start position:0%
+staying in the loop so if you have for
+ 
+
+00:03:42.190 --> 00:03:44.580 align:start position:0%
+staying in the loop so if you have for
+example<00:03:42.220><c> an</c><00:03:42.700><c> eight</c><00:03:43.030><c> iteration</c><00:03:43.720><c> loop</c><00:03:43.900><c> we</c><00:03:44.470><c> will</c>
+
+00:03:44.580 --> 00:03:44.590 align:start position:0%
+example an eight iteration loop we will
+ 
+
+00:03:44.590 --> 00:03:46.260 align:start position:0%
+example an eight iteration loop we will
+have<00:03:44.800><c> two</c><00:03:44.980><c> mispredictions</c><00:03:45.760><c> every</c><00:03:46.150><c> eight</c>
+
+00:03:46.260 --> 00:03:46.270 align:start position:0%
+have two mispredictions every eight
+ 
+
+00:03:46.270 --> 00:03:49.500 align:start position:0%
+have two mispredictions every eight
+iterations<00:03:46.770><c> one</c><00:03:47.770><c> at</c><00:03:48.370><c> the</c><00:03:48.580><c> end</c><00:03:48.700><c> of</c><00:03:48.880><c> the</c><00:03:49.060><c> loop</c>
+
+00:03:49.500 --> 00:03:49.510 align:start position:0%
+iterations one at the end of the loop
+ 
+
+00:03:49.510 --> 00:03:51.780 align:start position:0%
+iterations one at the end of the loop
+and<00:03:49.780><c> one</c><00:03:50.530><c> at</c><00:03:50.740><c> the</c><00:03:50.890><c> beginning</c><00:03:51.040><c> of</c><00:03:51.490><c> the</c><00:03:51.640><c> loop</c>
+
+00:03:51.780 --> 00:03:51.790 align:start position:0%
+and one at the beginning of the loop
+ 
+
+00:03:51.790 --> 00:03:53.640 align:start position:0%
+and one at the beginning of the loop
+because<00:03:52.120><c> the</c><00:03:52.480><c> previous</c><00:03:52.720><c> ending</c><00:03:53.260><c> of</c><00:03:53.380><c> the</c><00:03:53.530><c> loop</c>
+
+00:03:53.640 --> 00:03:53.650 align:start position:0%
+because the previous ending of the loop
+ 
+
+00:03:53.650 --> 00:03:55.920 align:start position:0%
+because the previous ending of the loop
+trained<00:03:53.920><c> the</c><00:03:54.100><c> predictor</c><00:03:54.580><c> that</c><00:03:54.610><c> way</c><00:03:54.970><c> and</c><00:03:55.300><c> then</c>
+
+00:03:55.920 --> 00:03:55.930 align:start position:0%
+trained the predictor that way and then
+ 
+
+00:03:55.930 --> 00:03:57.720 align:start position:0%
+trained the predictor that way and then
+of<00:03:56.080><c> course</c><00:03:56.380><c> the</c><00:03:56.590><c> one</c><00:03:56.740><c> bit</c><00:03:56.920><c> predictor</c><00:03:57.010><c> will</c><00:03:57.580><c> be</c>
+
+00:03:57.720 --> 00:03:57.730 align:start position:0%
+of course the one bit predictor will be
+ 
+
+00:03:57.730 --> 00:04:00.330 align:start position:0%
+of course the one bit predictor will be
+pretty<00:03:57.940><c> bad</c><00:03:58.290><c> when</c><00:03:59.290><c> the</c><00:03:59.440><c> number</c><00:03:59.680><c> of</c><00:03:59.709><c> taken</c><00:04:00.190><c> and</c>
+
+00:04:00.330 --> 00:04:00.340 align:start position:0%
+pretty bad when the number of taken and
+ 
+
+00:04:00.340 --> 00:04:02.970 align:start position:0%
+pretty bad when the number of taken and
+not<00:04:00.459><c> taken</c><00:04:00.520><c> outcomes</c><00:04:01.330><c> is</c><00:04:01.780><c> similar</c><00:04:02.410><c> yet</c>
+
+00:04:02.970 --> 00:04:02.980 align:start position:0%
+not taken outcomes is similar yet
+ 
+
+00:04:02.980 --> 00:04:05.850 align:start position:0%
+not taken outcomes is similar yet
+predictable<00:04:03.750><c> we</c><00:04:04.750><c> will</c><00:04:04.870><c> talk</c><00:04:05.080><c> about</c><00:04:05.260><c> this</c><00:04:05.530><c> more</c>
+
+00:04:05.850 --> 00:04:05.860 align:start position:0%
+predictable we will talk about this more
+ 
+
+00:04:05.860 --> 00:04:08.520 align:start position:0%
+predictable we will talk about this more
+later<00:04:06.060><c> but</c><00:04:07.060><c> now</c><00:04:07.270><c> let's</c><00:04:07.780><c> first</c><00:04:08.080><c> devise</c><00:04:08.500><c> a</c>
+
+00:04:08.520 --> 00:04:08.530 align:start position:0%
+later but now let's first devise a
+ 
+
+00:04:08.530 --> 00:04:12.449 align:start position:0%
+later but now let's first devise a
+predictor<00:04:09.190><c> that</c><00:04:09.370><c> will</c><00:04:10.000><c> fix</c><00:04:10.300><c> this</c><00:04:11.100><c> so</c><00:04:12.100><c> can</c><00:04:12.340><c> we</c>
+
+00:04:12.449 --> 00:04:12.459 align:start position:0%
+predictor that will fix this so can we
+ 
+
+00:04:12.459 --> 00:04:13.980 align:start position:0%
+predictor that will fix this so can we
+devise<00:04:12.730><c> a</c><00:04:12.760><c> predictor</c><00:04:13.360><c> that</c><00:04:13.390><c> behaves</c>
+
+00:04:13.980 --> 00:04:13.990 align:start position:0%
+devise a predictor that behaves
+ 
+
+00:04:13.990 --> 00:04:17.520 align:start position:0%
+devise a predictor that behaves
+similarly<00:04:14.560><c> well</c><00:04:14.920><c> here</c><00:04:15.850><c> but</c><00:04:16.450><c> does</c><00:04:17.049><c> not</c><00:04:17.290><c> miss</c>
+
+00:04:17.520 --> 00:04:17.530 align:start position:0%
+similarly well here but does not miss
+ 
+
+00:04:17.530 --> 00:04:19.440 align:start position:0%
+similarly well here but does not miss
+predict<00:04:17.920><c> twice</c><00:04:18.280><c> whenever</c><00:04:18.970><c> there</c><00:04:19.209><c> is</c><00:04:19.239><c> an</c>
+
+00:04:19.440 --> 00:04:19.450 align:start position:0%
+predict twice whenever there is an
+ 
+
+00:04:19.450 --> 00:04:21.959 align:start position:0%
+predict twice whenever there is an
+anomaly
+

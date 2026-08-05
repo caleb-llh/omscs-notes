@@ -1,0 +1,28 @@
+1
+00:00:00,470 --> 00:00:03,230
+ Ha ha, so just when you thought it was safe, it's time for another quiz.
+
+2
+00:00:03,230 --> 00:00:05,670
+ So suppose you have two bags.
+
+3
+00:00:05,670 --> 00:00:07,060
+ Here's my question.
+
+4
+00:00:07,060 --> 00:00:11,740
+ What's the running time to combine these two bags if each bag is of size n?
+
+5
+00:00:11,740 --> 00:00:16,070
+ Your choices are constant time, linear time, log time and
+
+6
+00:00:16,070 --> 00:00:19,660
+ log n time, or n squared time.
+
+7
+00:00:19,660 --> 00:00:19,660
+ Ooh, scary.
+

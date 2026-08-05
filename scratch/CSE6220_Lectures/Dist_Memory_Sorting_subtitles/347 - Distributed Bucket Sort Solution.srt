@@ -1,0 +1,84 @@
+1
+00:00:00,220 --> 00:00:01,460
+ Here's my answer.
+
+2
+00:00:01,460 --> 00:00:02,800
+ How did I get this?
+
+3
+00:00:02,800 --> 00:00:06,900
+ I hope this argument will make sense, even though it's not completely precise.
+
+4
+00:00:06,900 --> 00:00:10,010
+ First, ask yourself what steps do I need to perform?
+
+5
+00:00:10,010 --> 00:00:11,580
+ There are really just three.
+
+6
+00:00:11,580 --> 00:00:14,770
+ First, each node needs to scan its local list of elements and
+
+7
+00:00:14,770 --> 00:00:16,850
+ decide which elements go where.
+
+8
+00:00:16,850 --> 00:00:18,530
+ All nodes can do this in parallel.
+
+9
+00:00:18,530 --> 00:00:22,540
+ And the local work is linear in the number of elements per node.
+
+10
+00:00:22,540 --> 00:00:24,746
+ Next, the nodes need to exchange elements.
+
+11
+00:00:24,746 --> 00:00:27,270
+ That's an all-to-all operation.
+
+12
+00:00:27,270 --> 00:00:31,670
+ In this case, every node has about n over P elements so in the all-to-all,
+
+13
+00:00:31,670 --> 00:00:36,300
+ you'll expect them to send about n over P squared elements to every other node.
+
+14
+00:00:36,300 --> 00:00:37,830
+ To get a concrete cost for
+
+15
+00:00:37,830 --> 00:00:41,240
+ the all-to-all, let's assume a fully connected network.
+
+16
+00:00:41,240 --> 00:00:42,990
+ Oh, that assumption is good fodder for this box.
+
+17
+00:00:42,990 --> 00:00:46,760
+ In this case, the all-to-all will have this cost.
+
+18
+00:00:46,760 --> 00:00:49,320
+ Now the last step is just the local sort.
+
+19
+00:00:49,320 --> 00:00:51,655
+ Assuming we do a sequential bucket sort within each node,
+
+20
+00:00:51,655 --> 00:00:54,250
+ this step could have linear cost.
+
+21
+00:00:54,250 --> 00:00:54,250
+ Voila.
+

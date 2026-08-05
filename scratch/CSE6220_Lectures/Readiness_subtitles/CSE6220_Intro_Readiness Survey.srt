@@ -1,0 +1,168 @@
+1
+00:00:00,000 --> 00:00:01,439
+you might be wondering if you have the
+
+2
+00:00:01,439 --> 00:00:02,870
+right background to do well in the class
+
+3
+00:00:02,870 --> 00:00:05,400
+now to be honest I find it really hard
+
+4
+00:00:05,400 --> 00:00:07,259
+to predict you students are always full
+
+5
+00:00:07,259 --> 00:00:09,540
+of surprises no amount of staring in
+
+6
+00:00:09,540 --> 00:00:11,849
+your GPAs or GRE scores has ever helped
+
+7
+00:00:11,849 --> 00:00:13,620
+me much and figuring out which of you
+
+8
+00:00:13,620 --> 00:00:15,540
+will be the brilliant rebel that changes
+
+9
+00:00:15,540 --> 00:00:17,670
+the field forever in the immortal words
+
+10
+00:00:17,670 --> 00:00:19,859
+of the prisoner you are not a number
+
+11
+00:00:19,859 --> 00:00:23,850
+you're a free man or woman anyway i hope
+
+12
+00:00:23,850 --> 00:00:25,529
+the following readiness survey will help
+
+13
+00:00:25,529 --> 00:00:26,510
+you get a sense of where you stand
+
+14
+00:00:26,510 --> 00:00:29,460
+here's how it's going to work you will
+
+15
+00:00:29,460 --> 00:00:31,109
+see a series of questions that cover the
+
+16
+00:00:31,109 --> 00:00:33,690
+math and CS 101 material that I think
+
+17
+00:00:33,690 --> 00:00:34,950
+you should feel comfortable with in
+
+18
+00:00:34,950 --> 00:00:37,230
+order to do well in the class try
+
+19
+00:00:37,230 --> 00:00:39,000
+working them out on your own pencil and
+
+20
+00:00:39,000 --> 00:00:41,879
+paper now if you don't know how to
+
+21
+00:00:41,879 --> 00:00:43,590
+approach a question right away don't
+
+22
+00:00:43,590 --> 00:00:46,350
+give up I fully expect that you might
+
+23
+00:00:46,350 --> 00:00:48,090
+need to go look something up in order to
+
+24
+00:00:48,090 --> 00:00:49,500
+refresh your memory on ways to approach
+
+25
+00:00:49,500 --> 00:00:51,840
+a given problem now when you think
+
+26
+00:00:51,840 --> 00:00:53,309
+you've got an answer or you feel like
+
+27
+00:00:53,309 --> 00:00:54,899
+you're really stuck take a look at the
+
+28
+00:00:54,899 --> 00:00:57,270
+solution that follows each question even
+
+29
+00:00:57,270 --> 00:00:58,920
+if you didn't get the right answer as
+
+30
+00:00:58,920 --> 00:01:01,140
+long as the solution makes sense and you
+
+31
+00:01:01,140 --> 00:01:02,760
+stay dedicated to the course it will
+
+32
+00:01:02,760 --> 00:01:04,619
+probably just be a matter of filling in
+
+33
+00:01:04,619 --> 00:01:06,990
+some gaps here and there on the other
+
+34
+00:01:06,990 --> 00:01:08,729
+hand if you still feel really
+
+35
+00:01:08,729 --> 00:01:10,530
+uncomfortable even after looking at the
+
+36
+00:01:10,530 --> 00:01:12,540
+solution then I would encourage you to
+
+37
+00:01:12,540 --> 00:01:14,340
+reconsider whether it might suck up a
+
+38
+00:01:14,340 --> 00:01:16,259
+lot of your time to get caught up on the
+
+39
+00:01:16,259 --> 00:01:18,330
+course okay so those are the ground
+
+40
+00:01:18,330 --> 00:01:20,640
+rules good luck and I hope to see you on
+
+41
+00:01:20,640 --> 00:01:26,070
+the other side of hell
+
+42
+00:01:26,070 --> 00:01:26,070
+you
+

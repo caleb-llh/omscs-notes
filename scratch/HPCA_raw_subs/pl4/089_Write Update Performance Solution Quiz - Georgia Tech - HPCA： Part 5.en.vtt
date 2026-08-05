@@ -1,0 +1,632 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.829 align:start position:0%
+ 
+let's<00:00:00.320><c> look</c><00:00:00.480><c> at</c><00:00:00.560><c> the</c><00:00:00.799><c> solution</c><00:00:01.280><c> to</c><00:00:01.439><c> a</c><00:00:01.520><c> write</c>
+
+00:00:01.829 --> 00:00:01.839 align:start position:0%
+let's look at the solution to a write
+ 
+
+00:00:01.839 --> 00:00:04.309 align:start position:0%
+let's look at the solution to a write
+update<00:00:02.240><c> optimization</c><00:00:02.960><c> quiz</c><00:00:03.760><c> where</c><00:00:03.919><c> we</c><00:00:04.080><c> have</c>
+
+00:00:04.309 --> 00:00:04.319 align:start position:0%
+update optimization quiz where we have
+ 
+
+00:00:04.319 --> 00:00:07.190 align:start position:0%
+update optimization quiz where we have
+two<00:00:04.560><c> cores</c><00:00:04.880><c> with</c><00:00:05.120><c> write</c><00:00:05.440><c> update</c><00:00:05.759><c> coherence</c>
+
+00:00:07.190 --> 00:00:07.200 align:start position:0%
+two cores with write update coherence
+ 
+
+00:00:07.200 --> 00:00:08.230 align:start position:0%
+two cores with write update coherence
+and
+
+00:00:08.230 --> 00:00:08.240 align:start position:0%
+and
+ 
+
+00:00:08.240 --> 00:00:10.790 align:start position:0%
+and
+we<00:00:08.480><c> consider</c><00:00:08.880><c> the</c><00:00:09.040><c> case</c><00:00:09.360><c> of</c><00:00:09.519><c> no</c><00:00:09.679><c> optimization</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+we consider the case of no optimization
+ 
+
+00:00:10.800 --> 00:00:13.270 align:start position:0%
+we consider the case of no optimization
+dirty<00:00:11.200><c> bit</c><00:00:11.519><c> only</c><00:00:11.759><c> optimization</c><00:00:12.639><c> and</c><00:00:12.960><c> both</c>
+
+00:00:13.270 --> 00:00:13.280 align:start position:0%
+dirty bit only optimization and both
+ 
+
+00:00:13.280 --> 00:00:16.070 align:start position:0%
+dirty bit only optimization and both
+dirty<00:00:13.759><c> bit</c><00:00:14.000><c> and</c><00:00:14.240><c> shared</c><00:00:14.559><c> bit</c><00:00:14.799><c> optimization</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+dirty bit and shared bit optimization
+ 
+
+00:00:16.080 --> 00:00:19.029 align:start position:0%
+dirty bit and shared bit optimization
+and<00:00:16.640><c> for</c><00:00:16.960><c> this</c><00:00:17.359><c> program</c><00:00:17.920><c> how</c><00:00:18.080><c> many</c><00:00:18.400><c> bus</c><00:00:18.640><c> uses</c>
+
+00:00:19.029 --> 00:00:19.039 align:start position:0%
+and for this program how many bus uses
+ 
+
+00:00:19.039 --> 00:00:21.349 align:start position:0%
+and for this program how many bus uses
+and<00:00:19.119><c> memory</c><00:00:19.520><c> writes</c><00:00:19.840><c> do</c><00:00:20.000><c> we</c><00:00:20.080><c> get</c><00:00:20.800><c> so</c><00:00:21.119><c> let's</c>
+
+00:00:21.349 --> 00:00:21.359 align:start position:0%
+and memory writes do we get so let's
+ 
+
+00:00:21.359 --> 00:00:23.509 align:start position:0%
+and memory writes do we get so let's
+consider<00:00:21.840><c> the</c><00:00:22.000><c> case</c><00:00:22.320><c> of</c><00:00:22.480><c> no</c><00:00:22.720><c> optimization</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+consider the case of no optimization
+ 
+
+00:00:23.519 --> 00:00:25.830 align:start position:0%
+consider the case of no optimization
+first<00:00:24.320><c> let</c><00:00:24.560><c> us</c><00:00:24.720><c> first</c><00:00:24.960><c> consider</c><00:00:25.439><c> the</c><00:00:25.599><c> no</c>
+
+00:00:25.830 --> 00:00:25.840 align:start position:0%
+first let us first consider the no
+ 
+
+00:00:25.840 --> 00:00:27.750 align:start position:0%
+first let us first consider the no
+optimization<00:00:26.560><c> case</c>
+
+00:00:27.750 --> 00:00:27.760 align:start position:0%
+optimization case
+ 
+
+00:00:27.760 --> 00:00:31.349 align:start position:0%
+optimization case
+this<00:00:28.160><c> right</c><00:00:28.840><c> here</c><00:00:29.840><c> we'll</c><00:00:30.080><c> use</c><00:00:30.320><c> the</c><00:00:30.480><c> bus</c>
+
+00:00:31.349 --> 00:00:31.359 align:start position:0%
+this right here we'll use the bus
+ 
+
+00:00:31.359 --> 00:00:34.630 align:start position:0%
+this right here we'll use the bus
+and<00:00:31.760><c> we'll</c><00:00:32.000><c> write</c><00:00:32.160><c> to</c><00:00:32.399><c> memory</c><00:00:33.200><c> this</c><00:00:33.520><c> read</c><00:00:33.840><c> here</c>
+
+00:00:34.630 --> 00:00:34.640 align:start position:0%
+and we'll write to memory this read here
+ 
+
+00:00:34.640 --> 00:00:36.150 align:start position:0%
+and we'll write to memory this read here
+the<00:00:34.800><c> first</c><00:00:35.200><c> one</c>
+
+00:00:36.150 --> 00:00:36.160 align:start position:0%
+the first one
+ 
+
+00:00:36.160 --> 00:00:37.830 align:start position:0%
+the first one
+will<00:00:36.399><c> use</c><00:00:36.640><c> the</c><00:00:36.800><c> bus</c>
+
+00:00:37.830 --> 00:00:37.840 align:start position:0%
+will use the bus
+ 
+
+00:00:37.840 --> 00:00:39.750 align:start position:0%
+will use the bus
+but<00:00:38.079><c> will</c><00:00:38.239><c> not</c><00:00:38.559><c> update</c><00:00:38.800><c> the</c><00:00:38.879><c> memory</c><00:00:39.440><c> because</c>
+
+00:00:39.750 --> 00:00:39.760 align:start position:0%
+but will not update the memory because
+ 
+
+00:00:39.760 --> 00:00:42.310 align:start position:0%
+but will not update the memory because
+this<00:00:39.920><c> is</c><00:00:40.079><c> a</c><00:00:40.160><c> read</c><00:00:40.480><c> miss</c>
+
+00:00:42.310 --> 00:00:42.320 align:start position:0%
+this is a read miss
+ 
+
+00:00:42.320 --> 00:00:46.630 align:start position:0%
+this is a read miss
+from<00:00:42.640><c> then</c><00:00:42.879><c> on</c><00:00:43.920><c> each</c><00:00:44.239><c> write</c><00:00:44.559><c> on</c><00:00:44.719><c> core</c><00:00:45.039><c> 0</c><00:00:45.760><c> will</c>
+
+00:00:46.630 --> 00:00:46.640 align:start position:0%
+from then on each write on core 0 will
+ 
+
+00:00:46.640 --> 00:00:48.790 align:start position:0%
+from then on each write on core 0 will
+use<00:00:46.879><c> the</c><00:00:47.039><c> bus</c><00:00:47.280><c> to</c><00:00:47.440><c> broadcast</c><00:00:48.160><c> and</c><00:00:48.399><c> update</c>
+
+00:00:48.790 --> 00:00:48.800 align:start position:0%
+use the bus to broadcast and update
+ 
+
+00:00:48.800 --> 00:00:49.990 align:start position:0%
+use the bus to broadcast and update
+memory
+
+00:00:49.990 --> 00:00:50.000 align:start position:0%
+memory
+ 
+
+00:00:50.000 --> 00:00:52.389 align:start position:0%
+memory
+so<00:00:50.160><c> we</c><00:00:50.399><c> get</c><00:00:50.719><c> 999</c><00:00:51.520><c> more</c>
+
+00:00:52.389 --> 00:00:52.399 align:start position:0%
+so we get 999 more
+ 
+
+00:00:52.399 --> 00:00:55.110 align:start position:0%
+so we get 999 more
+accesses<00:00:52.960><c> to</c><00:00:53.120><c> each</c><00:00:53.440><c> because</c><00:00:53.760><c> of</c><00:00:53.920><c> this</c>
+
+00:00:55.110 --> 00:00:55.120 align:start position:0%
+accesses to each because of this
+ 
+
+00:00:55.120 --> 00:00:57.430 align:start position:0%
+accesses to each because of this
+whereas<00:00:55.600><c> reads</c><00:00:56.239><c> are</c><00:00:56.399><c> no</c><00:00:56.559><c> longer</c><00:00:56.879><c> going</c><00:00:57.120><c> to</c><00:00:57.280><c> be</c>
+
+00:00:57.430 --> 00:00:57.440 align:start position:0%
+whereas reads are no longer going to be
+ 
+
+00:00:57.440 --> 00:00:58.470 align:start position:0%
+whereas reads are no longer going to be
+misses
+
+00:00:58.470 --> 00:00:58.480 align:start position:0%
+misses
+ 
+
+00:00:58.480 --> 00:01:00.470 align:start position:0%
+misses
+and<00:00:58.800><c> they</c><00:00:59.039><c> find</c><00:00:59.359><c> what</c><00:00:59.600><c> they</c><00:00:59.840><c> are</c><00:01:00.000><c> looking</c><00:01:00.239><c> for</c>
+
+00:01:00.470 --> 00:01:00.480 align:start position:0%
+and they find what they are looking for
+ 
+
+00:01:00.480 --> 00:01:01.990 align:start position:0%
+and they find what they are looking for
+in<00:01:00.559><c> the</c><00:01:00.719><c> cache</c><00:01:01.039><c> so</c><00:01:01.199><c> they</c><00:01:01.280><c> are</c><00:01:01.359><c> no</c><00:01:01.520><c> longer</c><00:01:01.840><c> going</c>
+
+00:01:01.990 --> 00:01:02.000 align:start position:0%
+in the cache so they are no longer going
+ 
+
+00:01:02.000 --> 00:01:04.149 align:start position:0%
+in the cache so they are no longer going
+to<00:01:02.239><c> either</c><00:01:02.559><c> bus</c><00:01:02.879><c> or</c><00:01:03.039><c> memory</c>
+
+00:01:04.149 --> 00:01:04.159 align:start position:0%
+to either bus or memory
+ 
+
+00:01:04.159 --> 00:01:06.630 align:start position:0%
+to either bus or memory
+eventually<00:01:04.799><c> these</c><00:01:05.040><c> caches</c><00:01:05.439><c> replace</c><00:01:06.000><c> this</c><00:01:06.400><c> but</c>
+
+00:01:06.630 --> 00:01:06.640 align:start position:0%
+eventually these caches replace this but
+ 
+
+00:01:06.640 --> 00:01:08.310 align:start position:0%
+eventually these caches replace this but
+nothing<00:01:07.040><c> happens</c><00:01:07.439><c> on</c><00:01:07.520><c> the</c><00:01:07.600><c> replacement</c><00:01:08.240><c> in</c>
+
+00:01:08.310 --> 00:01:08.320 align:start position:0%
+nothing happens on the replacement in
+ 
+
+00:01:08.320 --> 00:01:10.710 align:start position:0%
+nothing happens on the replacement in
+this<00:01:08.560><c> case</c><00:01:09.280><c> because</c><00:01:09.840><c> everything</c><00:01:10.240><c> is</c><00:01:10.320><c> already</c>
+
+00:01:10.710 --> 00:01:10.720 align:start position:0%
+this case because everything is already
+ 
+
+00:01:10.720 --> 00:01:14.310 align:start position:0%
+this case because everything is already
+up<00:01:10.799><c> to</c><00:01:10.960><c> date</c><00:01:11.920><c> so</c><00:01:12.159><c> overall</c><00:01:12.640><c> here</c><00:01:12.880><c> we</c><00:01:13.040><c> got</c><00:01:13.360><c> 1001</c>
+
+00:01:14.310 --> 00:01:14.320 align:start position:0%
+up to date so overall here we got 1001
+ 
+
+00:01:14.320 --> 00:01:18.070 align:start position:0%
+up to date so overall here we got 1001
+bus<00:01:14.640><c> use</c><00:01:15.439><c> and</c><00:01:15.680><c> 1000</c><00:01:16.400><c> memory</c><00:01:16.880><c> writes</c><00:01:17.600><c> now</c><00:01:17.840><c> let</c>
+
+00:01:18.070 --> 00:01:18.080 align:start position:0%
+bus use and 1000 memory writes now let
+ 
+
+00:01:18.080 --> 00:01:19.590 align:start position:0%
+bus use and 1000 memory writes now let
+us<00:01:18.240><c> look</c><00:01:18.400><c> at</c><00:01:18.560><c> the</c><00:01:18.640><c> dirty</c><00:01:19.040><c> bit</c><00:01:19.360><c> only</c>
+
+00:01:19.590 --> 00:01:19.600 align:start position:0%
+us look at the dirty bit only
+ 
+
+00:01:19.600 --> 00:01:21.590 align:start position:0%
+us look at the dirty bit only
+optimization
+
+00:01:21.590 --> 00:01:21.600 align:start position:0%
+optimization
+ 
+
+00:01:21.600 --> 00:01:23.749 align:start position:0%
+optimization
+in<00:01:21.759><c> this</c><00:01:22.080><c> optimization</c>
+
+00:01:23.749 --> 00:01:23.759 align:start position:0%
+in this optimization
+ 
+
+00:01:23.759 --> 00:01:26.149 align:start position:0%
+in this optimization
+the<00:01:24.000><c> writes</c><00:01:24.400><c> on</c><00:01:24.560><c> core</c><00:01:24.880><c> 0</c><00:01:25.439><c> will</c><00:01:25.759><c> all</c><00:01:25.920><c> be</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+the writes on core 0 will all be
+ 
+
+00:01:26.159 --> 00:01:28.710 align:start position:0%
+the writes on core 0 will all be
+happening<00:01:26.640><c> to</c><00:01:26.880><c> core</c><00:01:27.119><c> 0's</c><00:01:27.520><c> cache</c><00:01:28.000><c> and</c><00:01:28.159><c> the</c><00:01:28.400><c> only</c>
+
+00:01:28.710 --> 00:01:28.720 align:start position:0%
+happening to core 0's cache and the only
+ 
+
+00:01:28.720 --> 00:01:30.630 align:start position:0%
+happening to core 0's cache and the only
+write<00:01:28.960><c> to</c><00:01:29.119><c> memory</c><00:01:29.600><c> will</c><00:01:29.759><c> be</c><00:01:30.000><c> when</c><00:01:30.159><c> the</c><00:01:30.320><c> block</c>
+
+00:01:30.630 --> 00:01:30.640 align:start position:0%
+write to memory will be when the block
+ 
+
+00:01:30.640 --> 00:01:33.510 align:start position:0%
+write to memory will be when the block
+is<00:01:30.799><c> replaced</c><00:01:31.840><c> so</c><00:01:32.000><c> we</c><00:01:32.159><c> get</c><00:01:32.400><c> only</c><00:01:32.799><c> one</c><00:01:33.040><c> memory</c>
+
+00:01:33.510 --> 00:01:33.520 align:start position:0%
+is replaced so we get only one memory
+ 
+
+00:01:33.520 --> 00:01:36.550 align:start position:0%
+is replaced so we get only one memory
+write<00:01:34.320><c> how</c><00:01:34.479><c> many</c><00:01:34.799><c> bus</c><00:01:35.119><c> users</c><00:01:35.439><c> do</c><00:01:35.680><c> we</c><00:01:35.759><c> need</c><00:01:36.320><c> well</c>
+
+00:01:36.550 --> 00:01:36.560 align:start position:0%
+write how many bus users do we need well
+ 
+
+00:01:36.560 --> 00:01:39.030 align:start position:0%
+write how many bus users do we need well
+the<00:01:36.799><c> first</c><00:01:37.200><c> write</c><00:01:37.759><c> and</c><00:01:38.000><c> every</c><00:01:38.320><c> subsequent</c>
+
+00:01:39.030 --> 00:01:39.040 align:start position:0%
+the first write and every subsequent
+ 
+
+00:01:39.040 --> 00:01:42.550 align:start position:0%
+the first write and every subsequent
+write<00:01:39.360><c> will</c><00:01:39.520><c> be</c><00:01:39.759><c> broadcast</c><00:01:40.960><c> so</c><00:01:41.200><c> we</c><00:01:41.360><c> get</c><00:01:41.840><c> 1000</c>
+
+00:01:42.550 --> 00:01:42.560 align:start position:0%
+write will be broadcast so we get 1000
+ 
+
+00:01:42.560 --> 00:01:45.190 align:start position:0%
+write will be broadcast so we get 1000
+bus<00:01:42.880><c> accesses</c><00:01:43.439><c> because</c><00:01:43.840><c> of</c><00:01:43.920><c> these</c><00:01:44.159><c> rights</c>
+
+00:01:45.190 --> 00:01:45.200 align:start position:0%
+bus accesses because of these rights
+ 
+
+00:01:45.200 --> 00:01:47.670 align:start position:0%
+bus accesses because of these rights
+we<00:01:45.520><c> still</c><00:01:45.920><c> have</c><00:01:46.240><c> the</c><00:01:46.399><c> one</c><00:01:46.720><c> access</c><00:01:47.119><c> because</c><00:01:47.439><c> the</c>
+
+00:01:47.670 --> 00:01:47.680 align:start position:0%
+we still have the one access because the
+ 
+
+00:01:47.680 --> 00:01:49.830 align:start position:0%
+we still have the one access because the
+first<00:01:48.000><c> read</c><00:01:48.320><c> is</c><00:01:48.479><c> a</c><00:01:48.560><c> miss</c><00:01:48.960><c> after</c><00:01:49.280><c> that</c><00:01:49.439><c> that</c><00:01:49.680><c> all</c>
+
+00:01:49.830 --> 00:01:49.840 align:start position:0%
+first read is a miss after that that all
+ 
+
+00:01:49.840 --> 00:01:52.630 align:start position:0%
+first read is a miss after that that all
+hits<00:01:50.159><c> and</c><00:01:50.479><c> don't</c><00:01:50.640><c> go</c><00:01:50.799><c> to</c><00:01:50.960><c> the</c><00:01:51.119><c> bus</c>
+
+00:01:52.630 --> 00:01:52.640 align:start position:0%
+hits and don't go to the bus
+ 
+
+00:01:52.640 --> 00:01:56.950 align:start position:0%
+hits and don't go to the bus
+and<00:01:52.880><c> now</c><00:01:54.240><c> we</c><00:01:54.399><c> have</c><00:01:54.640><c> an</c><00:01:54.799><c> additional</c><00:01:56.079><c> bus</c><00:01:56.399><c> axis</c>
+
+00:01:56.950 --> 00:01:56.960 align:start position:0%
+and now we have an additional bus axis
+ 
+
+00:01:56.960 --> 00:01:59.429 align:start position:0%
+and now we have an additional bus axis
+because<00:01:57.280><c> the</c><00:01:57.439><c> replacement</c><00:01:58.240><c> of</c><00:01:58.399><c> a</c><00:01:58.719><c> here</c><00:01:59.119><c> needs</c>
+
+00:01:59.429 --> 00:01:59.439 align:start position:0%
+because the replacement of a here needs
+ 
+
+00:01:59.439 --> 00:02:02.389 align:start position:0%
+because the replacement of a here needs
+to<00:01:59.920><c> send</c><00:02:00.159><c> the</c><00:02:00.240><c> data</c><00:02:00.640><c> to</c><00:02:00.799><c> memory</c><00:02:01.759><c> for</c><00:02:02.000><c> which</c><00:02:02.240><c> we</c>
+
+00:02:02.389 --> 00:02:02.399 align:start position:0%
+to send the data to memory for which we
+ 
+
+00:02:02.399 --> 00:02:03.990 align:start position:0%
+to send the data to memory for which we
+need<00:02:02.560><c> a</c><00:02:02.640><c> bus</c><00:02:02.960><c> axis</c>
+
+00:02:03.990 --> 00:02:04.000 align:start position:0%
+need a bus axis
+ 
+
+00:02:04.000 --> 00:02:06.630 align:start position:0%
+need a bus axis
+so<00:02:04.320><c> overall</c><00:02:05.119><c> we</c><00:02:05.280><c> reduce</c><00:02:05.759><c> dramatically</c><00:02:06.479><c> the</c>
+
+00:02:06.630 --> 00:02:06.640 align:start position:0%
+so overall we reduce dramatically the
+ 
+
+00:02:06.640 --> 00:02:08.949 align:start position:0%
+so overall we reduce dramatically the
+number<00:02:06.799><c> of</c><00:02:06.960><c> memory</c><00:02:07.280><c> writes</c><00:02:07.759><c> in</c><00:02:08.080><c> exchange</c><00:02:08.720><c> for</c>
+
+00:02:08.949 --> 00:02:08.959 align:start position:0%
+number of memory writes in exchange for
+ 
+
+00:02:08.959 --> 00:02:10.150 align:start position:0%
+number of memory writes in exchange for
+one<00:02:09.280><c> more</c>
+
+00:02:10.150 --> 00:02:10.160 align:start position:0%
+one more
+ 
+
+00:02:10.160 --> 00:02:12.070 align:start position:0%
+one more
+bus<00:02:10.479><c> use</c>
+
+00:02:12.070 --> 00:02:12.080 align:start position:0%
+bus use
+ 
+
+00:02:12.080 --> 00:02:13.510 align:start position:0%
+bus use
+now<00:02:12.319><c> let's</c><00:02:12.480><c> see</c><00:02:12.640><c> what</c><00:02:12.879><c> happens</c><00:02:13.200><c> with</c><00:02:13.360><c> the</c>
+
+00:02:13.510 --> 00:02:13.520 align:start position:0%
+now let's see what happens with the
+ 
+
+00:02:13.520 --> 00:02:16.309 align:start position:0%
+now let's see what happens with the
+dirty<00:02:13.920><c> and</c><00:02:14.160><c> shared</c><00:02:14.480><c> optimization</c>
+
+00:02:16.309 --> 00:02:16.319 align:start position:0%
+dirty and shared optimization
+ 
+
+00:02:16.319 --> 00:02:18.470 align:start position:0%
+dirty and shared optimization
+we're<00:02:16.560><c> right</c><00:02:16.879><c> here</c><00:02:17.360><c> and</c><00:02:17.680><c> at</c><00:02:17.840><c> this</c><00:02:18.080><c> point</c><00:02:18.319><c> we</c>
+
+00:02:18.470 --> 00:02:18.480 align:start position:0%
+we're right here and at this point we
+ 
+
+00:02:18.480 --> 00:02:20.309 align:start position:0%
+we're right here and at this point we
+are<00:02:18.560><c> the</c><00:02:18.800><c> only</c><00:02:19.120><c> one</c><00:02:19.280><c> who</c><00:02:19.440><c> has</c><00:02:19.680><c> this</c><00:02:19.840><c> block</c><00:02:20.160><c> so</c>
+
+00:02:20.309 --> 00:02:20.319 align:start position:0%
+are the only one who has this block so
+ 
+
+00:02:20.319 --> 00:02:21.589 align:start position:0%
+are the only one who has this block so
+the<00:02:20.480><c> shared</c><00:02:20.800><c> bit</c>
+
+00:02:21.589 --> 00:02:21.599 align:start position:0%
+the shared bit
+ 
+
+00:02:21.599 --> 00:02:23.270 align:start position:0%
+the shared bit
+is<00:02:21.760><c> not</c><00:02:22.080><c> set</c>
+
+00:02:23.270 --> 00:02:23.280 align:start position:0%
+is not set
+ 
+
+00:02:23.280 --> 00:02:25.589 align:start position:0%
+is not set
+this<00:02:23.520><c> would</c><00:02:23.680><c> normally</c><00:02:24.080><c> allow</c><00:02:24.400><c> us</c><00:02:24.560><c> to</c><00:02:24.720><c> write</c><00:02:25.360><c> to</c>
+
+00:02:25.589 --> 00:02:25.599 align:start position:0%
+this would normally allow us to write to
+ 
+
+00:02:25.599 --> 00:02:27.830 align:start position:0%
+this would normally allow us to write to
+it<00:02:25.760><c> without</c><00:02:26.160><c> going</c><00:02:26.319><c> to</c><00:02:26.480><c> the</c><00:02:26.640><c> bus</c><00:02:26.959><c> anymore</c><00:02:27.599><c> but</c>
+
+00:02:27.830 --> 00:02:27.840 align:start position:0%
+it without going to the bus anymore but
+ 
+
+00:02:27.840 --> 00:02:30.390 align:start position:0%
+it without going to the bus anymore but
+because<00:02:28.160><c> the</c><00:02:28.319><c> very</c><00:02:28.640><c> next</c><00:02:28.959><c> axis</c><00:02:29.280><c> is</c><00:02:29.520><c> read</c><00:02:29.920><c> of</c><00:02:30.080><c> a</c>
+
+00:02:30.390 --> 00:02:30.400 align:start position:0%
+because the very next axis is read of a
+ 
+
+00:02:30.400 --> 00:02:31.910 align:start position:0%
+because the very next axis is read of a
+on<00:02:30.560><c> core</c><00:02:30.959><c> 1</c>
+
+00:02:31.910 --> 00:02:31.920 align:start position:0%
+on core 1
+ 
+
+00:02:31.920 --> 00:02:34.070 align:start position:0%
+on core 1
+the<00:02:32.239><c> sharing</c><00:02:32.959><c> starts</c>
+
+00:02:34.070 --> 00:02:34.080 align:start position:0%
+the sharing starts
+ 
+
+00:02:34.080 --> 00:02:36.470 align:start position:0%
+the sharing starts
+and<00:02:34.319><c> that</c><00:02:34.640><c> means</c><00:02:34.959><c> that</c><00:02:35.280><c> really</c>
+
+00:02:36.470 --> 00:02:36.480 align:start position:0%
+and that means that really
+ 
+
+00:02:36.480 --> 00:02:38.550 align:start position:0%
+and that means that really
+we<00:02:36.720><c> have</c><00:02:37.040><c> exactly</c><00:02:37.519><c> the</c><00:02:37.680><c> same</c><00:02:37.840><c> number</c><00:02:38.160><c> of</c><00:02:38.239><c> bus</c>
+
+00:02:38.550 --> 00:02:38.560 align:start position:0%
+we have exactly the same number of bus
+ 
+
+00:02:38.560 --> 00:02:40.710 align:start position:0%
+we have exactly the same number of bus
+uses<00:02:38.879><c> and</c><00:02:38.959><c> memory</c><00:02:39.440><c> writes</c>
+
+00:02:40.710 --> 00:02:40.720 align:start position:0%
+uses and memory writes
+ 
+
+00:02:40.720 --> 00:02:43.430 align:start position:0%
+uses and memory writes
+remember<00:02:41.120><c> that</c><00:02:41.280><c> the</c><00:02:41.519><c> sharing</c><00:02:42.000><c> optimization</c>
+
+00:02:43.430 --> 00:02:43.440 align:start position:0%
+remember that the sharing optimization
+ 
+
+00:02:43.440 --> 00:02:46.309 align:start position:0%
+remember that the sharing optimization
+only<00:02:43.840><c> works</c><00:02:44.560><c> when</c><00:02:44.720><c> we</c><00:02:44.879><c> are</c><00:02:45.040><c> accessing</c>
+
+00:02:46.309 --> 00:02:46.319 align:start position:0%
+only works when we are accessing
+ 
+
+00:02:46.319 --> 00:02:48.869 align:start position:0%
+only works when we are accessing
+a<00:02:46.400><c> block</c><00:02:46.800><c> only</c><00:02:47.120><c> on</c><00:02:47.280><c> one</c><00:02:47.599><c> core</c><00:02:48.000><c> this</c><00:02:48.319><c> block</c><00:02:48.640><c> is</c>
+
+00:02:48.869 --> 00:02:48.879 align:start position:0%
+a block only on one core this block is
+ 
+
+00:02:48.879 --> 00:02:50.869 align:start position:0%
+a block only on one core this block is
+actually<00:02:49.200><c> being</c>
+
+00:02:50.869 --> 00:02:50.879 align:start position:0%
+actually being
+ 
+
+00:02:50.879 --> 00:02:53.509 align:start position:0%
+actually being
+read<00:02:51.120><c> on</c><00:02:51.280><c> one</c><00:02:51.599><c> core</c><00:02:51.920><c> written</c><00:02:52.319><c> on</c><00:02:52.480><c> another</c><00:02:52.959><c> so</c>
+
+00:02:53.509 --> 00:02:53.519 align:start position:0%
+read on one core written on another so
+ 
+
+00:02:53.519 --> 00:02:55.990 align:start position:0%
+read on one core written on another so
+all<00:02:53.680><c> the</c><00:02:53.920><c> writes</c><00:02:54.560><c> on</c><00:02:54.800><c> this</c><00:02:55.120><c> score</c><00:02:55.440><c> need</c><00:02:55.680><c> to</c><00:02:55.840><c> be</c>
+
+00:02:55.990 --> 00:02:56.000 align:start position:0%
+all the writes on this score need to be
+ 
+
+00:02:56.000 --> 00:02:58.070 align:start position:0%
+all the writes on this score need to be
+propagated<00:02:56.640><c> to</c><00:02:56.720><c> the</c><00:02:56.879><c> bus</c><00:02:57.519><c> so</c><00:02:57.680><c> that</c><00:02:57.840><c> this</c>
+
+00:02:58.070 --> 00:02:58.080 align:start position:0%
+propagated to the bus so that this
+ 
+
+00:02:58.080 --> 00:03:00.869 align:start position:0%
+propagated to the bus so that this
+course<00:02:58.480><c> cache</c><00:02:58.879><c> can</c><00:02:59.120><c> be</c><00:02:59.280><c> updated</c><00:03:00.159><c> so</c><00:03:00.400><c> really</c>
+
+00:03:00.869 --> 00:03:00.879 align:start position:0%
+course cache can be updated so really
+ 
+
+00:03:00.879 --> 00:03:03.670 align:start position:0%
+course cache can be updated so really
+here<00:03:01.280><c> the</c><00:03:01.760><c> shared</c><00:03:02.159><c> bit</c><00:03:02.400><c> optimization</c><00:03:03.280><c> doesn't</c>
+
+00:03:03.670 --> 00:03:03.680 align:start position:0%
+here the shared bit optimization doesn't
+ 
+
+00:03:03.680 --> 00:03:07.560 align:start position:0%
+here the shared bit optimization doesn't
+result<00:03:04.159><c> in</c><00:03:04.319><c> any</c><00:03:04.560><c> savings</c>
+

@@ -1,0 +1,116 @@
+1
+00:00:00,210 --> 00:00:01,730
+ Yippee, it's quiz time.
+
+2
+00:00:01,730 --> 00:00:03,730
+ I think this one will be fun.
+
+3
+00:00:03,730 --> 00:00:06,710
+ Recall that, given an input sequence that's bitonic,
+
+4
+00:00:06,710 --> 00:00:09,960
+ a bitonic merge produces a sorted output.
+
+5
+00:00:09,960 --> 00:00:14,560
+ Your assignment is to create a Bitonic Merge Network.
+
+6
+00:00:14,560 --> 00:00:18,000
+ That is to start with this empty comparator network, and
+
+7
+00:00:18,000 --> 00:00:19,600
+ then do the following.
+
+8
+00:00:19,600 --> 00:00:21,990
+ In each column, I want you to insert one or
+
+9
+00:00:21,990 --> 00:00:25,980
+ more non-overlapping plus comparators.
+
+10
+00:00:25,980 --> 00:00:30,030
+ You can do that by selecting an even number of boxes in each column.
+
+11
+00:00:30,030 --> 00:00:33,560
+ For example, suppose you checked these two boxes.
+
+12
+00:00:33,560 --> 00:00:37,930
+ That implies a plus comparator between those two inputs.
+
+13
+00:00:37,930 --> 00:00:39,850
+ Now, if you were to evaluate this network,
+
+14
+00:00:39,850 --> 00:00:44,220
+ leaving all these other boxes blank, then here's the output you would get.
+
+15
+00:00:44,220 --> 00:00:48,390
+ Now, clearly, these intermediate outputs don't match the final outputs.
+
+16
+00:00:48,390 --> 00:00:49,920
+ So this can't be the full network.
+
+17
+00:00:49,920 --> 00:00:53,050
+ Let me show you one more example.
+
+18
+00:00:53,050 --> 00:00:56,470
+ Suppose instead that you chose these four boxes.
+
+19
+00:00:56,470 --> 00:01:00,370
+ Recall that comparators within a column cannot overlap.
+
+20
+00:01:00,370 --> 00:01:04,819
+ Therefore, those four boxes correspond to these two comparators.
+
+21
+00:01:04,819 --> 00:01:06,400
+ Were you to evaluate this network,
+
+22
+00:01:06,400 --> 00:01:10,060
+ you'd get these values as outputs from the two comparators.
+
+23
+00:01:10,060 --> 00:01:13,130
+ As you can see, they still don't match the outputs.
+
+24
+00:01:13,130 --> 00:01:15,070
+ So if you start your network this way,
+
+25
+00:01:15,070 --> 00:01:18,150
+ you'll need to keep adding comparators in the other columns.
+
+26
+00:01:18,150 --> 00:01:22,110
+ Of course, you can chain the output of one comparator to the input of another.
+
+27
+00:01:22,110 --> 00:01:26,070
+ Oh, and one more thing, your network needs to be able to sort
+
+28
+00:01:26,070 --> 00:01:30,650
+ any length a bitonic sequence, not just the example I've shown here.
+
+29
+00:01:30,650 --> 00:01:30,650
+ Have fun and good luck.
+

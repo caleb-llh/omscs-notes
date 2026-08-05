@@ -127,6 +127,8 @@ Review:
 - The ROB commit stage seems to be another independent execution "process" that runs concurrently with the issue, dispatch, execute and broadcast processes. are they done asynchronously with their own clock cycle, or are they interleaved with the other stages in the same cycle? 
 - how do the load-store queue, reorder buﬀer, and reservation stations (RS) play together in our out-of-order processor? Are ROB and RAT the key enabler for out of order processing?
 
+> The absolute key insight of the RAT-ROB link during retirement is this: **The RAT tracks the _future_ (where upcoming instructions should look), while the ROB tracks the _past_ (what the CPU needs to clean up).**
+
 
 ### compiler ILP and VLIW
 - in theory, can all register renaming be done on the compiler side to remove WaW and WaR hazards? why do we need hardware register renaming?

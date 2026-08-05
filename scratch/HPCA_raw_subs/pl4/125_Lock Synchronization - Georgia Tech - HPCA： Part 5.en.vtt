@@ -1,0 +1,520 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.910 align:start position:0%
+ 
+so<00:00:00.450><c> let's</c><00:00:00.690><c> look</c><00:00:00.930><c> at</c><00:00:01.199><c> what</c><00:00:01.530><c> log</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+so let's look at what log
+ 
+
+00:00:01.920 --> 00:00:04.280 align:start position:0%
+so let's look at what log
+synchronization<00:00:02.730><c> looks</c><00:00:03.030><c> like</c><00:00:03.270><c> so</c><00:00:03.870><c> we</c><00:00:04.020><c> said</c>
+
+00:00:04.280 --> 00:00:04.290 align:start position:0%
+synchronization looks like so we said
+ 
+
+00:00:04.290 --> 00:00:07.460 align:start position:0%
+synchronization looks like so we said
+that<00:00:04.319><c> a</c><00:00:04.710><c> lock</c><00:00:04.980><c> or</c><00:00:05.339><c> mutex</c><00:00:06.060><c> is</c><00:00:06.240><c> just</c><00:00:06.720><c> a</c><00:00:06.899><c> location</c>
+
+00:00:07.460 --> 00:00:07.470 align:start position:0%
+that a lock or mutex is just a location
+ 
+
+00:00:07.470 --> 00:00:09.620 align:start position:0%
+that a lock or mutex is just a location
+in<00:00:07.710><c> memory</c><00:00:07.919><c> so</c><00:00:08.400><c> let's</c><00:00:08.610><c> say</c><00:00:08.820><c> that</c><00:00:08.849><c> we</c><00:00:09.360><c> are</c><00:00:09.389><c> using</c>
+
+00:00:09.620 --> 00:00:09.630 align:start position:0%
+in memory so let's say that we are using
+ 
+
+00:00:09.630 --> 00:00:12.350 align:start position:0%
+in memory so let's say that we are using
+integers<00:00:10.380><c> to</c><00:00:10.860><c> represent</c><00:00:11.370><c> the</c><00:00:11.610><c> log</c><00:00:11.820><c> structure</c>
+
+00:00:12.350 --> 00:00:12.360 align:start position:0%
+integers to represent the log structure
+ 
+
+00:00:12.360 --> 00:00:14.600 align:start position:0%
+integers to represent the log structure
+so<00:00:12.570><c> really</c><00:00:12.900><c> a</c><00:00:13.049><c> lock</c><00:00:13.380><c> is</c><00:00:13.650><c> just</c><00:00:13.920><c> a</c><00:00:14.070><c> number</c>
+
+00:00:14.600 --> 00:00:14.610 align:start position:0%
+so really a lock is just a number
+ 
+
+00:00:14.610 --> 00:00:17.420 align:start position:0%
+so really a lock is just a number
+we<00:00:14.969><c> initialize</c><00:00:15.780><c> a</c><00:00:16.080><c> lock</c><00:00:16.350><c> variable</c><00:00:16.590><c> so</c><00:00:17.400><c> you</c>
+
+00:00:17.420 --> 00:00:17.430 align:start position:0%
+we initialize a lock variable so you
+ 
+
+00:00:17.430 --> 00:00:19.609 align:start position:0%
+we initialize a lock variable so you
+pass<00:00:17.760><c> a</c><00:00:18.119><c> lock</c><00:00:18.420><c> variable</c><00:00:18.630><c> to</c><00:00:19.020><c> initialize</c><00:00:19.439><c> to</c>
+
+00:00:19.609 --> 00:00:19.619 align:start position:0%
+pass a lock variable to initialize to
+ 
+
+00:00:19.619 --> 00:00:22.340 align:start position:0%
+pass a lock variable to initialize to
+let's<00:00:19.800><c> say</c><00:00:19.920><c> a</c><00:00:20.070><c> lock</c><00:00:20.400><c> init</c><00:00:20.850><c> function</c><00:00:21.060><c> and</c><00:00:21.600><c> what</c>
+
+00:00:22.340 --> 00:00:22.350 align:start position:0%
+let's say a lock init function and what
+ 
+
+00:00:22.350 --> 00:00:25.340 align:start position:0%
+let's say a lock init function and what
+it's<00:00:22.529><c> going</c><00:00:22.710><c> to</c><00:00:22.800><c> do</c><00:00:23.070><c> is</c><00:00:23.369><c> set</c><00:00:23.760><c> the</c><00:00:23.939><c> lock</c><00:00:24.170><c> to</c><00:00:25.170><c> an</c>
+
+00:00:25.340 --> 00:00:25.350 align:start position:0%
+it's going to do is set the lock to an
+ 
+
+00:00:25.350 --> 00:00:27.920 align:start position:0%
+it's going to do is set the lock to an
+unlocked<00:00:25.949><c> value</c><00:00:26.430><c> which</c><00:00:26.939><c> let's</c><00:00:27.240><c> say</c><00:00:27.420><c> that's</c><00:00:27.599><c> 0</c>
+
+00:00:27.920 --> 00:00:27.930 align:start position:0%
+unlocked value which let's say that's 0
+ 
+
+00:00:27.930 --> 00:00:30.500 align:start position:0%
+unlocked value which let's say that's 0
+so<00:00:28.710><c> pretty</c><00:00:28.949><c> much</c><00:00:29.160><c> lock</c><00:00:29.460><c> initialization</c><00:00:30.000><c> is</c>
+
+00:00:30.500 --> 00:00:30.510 align:start position:0%
+so pretty much lock initialization is
+ 
+
+00:00:30.510 --> 00:00:33.080 align:start position:0%
+so pretty much lock initialization is
+just<00:00:30.779><c> write</c><00:00:31.109><c> 0</c><00:00:31.369><c> to</c><00:00:32.369><c> that</c><00:00:32.640><c> memory</c><00:00:32.880><c> location</c>
+
+00:00:33.080 --> 00:00:33.090 align:start position:0%
+just write 0 to that memory location
+ 
+
+00:00:33.090 --> 00:00:35.840 align:start position:0%
+just write 0 to that memory location
+that<00:00:33.660><c> represents</c><00:00:34.200><c> the</c><00:00:34.320><c> lock</c><00:00:34.500><c> zero</c><00:00:35.219><c> means</c>
+
+00:00:35.840 --> 00:00:35.850 align:start position:0%
+that represents the lock zero means
+ 
+
+00:00:35.850 --> 00:00:38.690 align:start position:0%
+that represents the lock zero means
+unlocked<00:00:36.390><c> in</c><00:00:36.690><c> this</c><00:00:36.870><c> case</c><00:00:37.079><c> and</c><00:00:37.440><c> now</c><00:00:38.190><c> the</c><00:00:38.250><c> lock</c>
+
+00:00:38.690 --> 00:00:38.700 align:start position:0%
+unlocked in this case and now the lock
+ 
+
+00:00:38.700 --> 00:00:40.610 align:start position:0%
+unlocked in this case and now the lock
+function<00:00:39.120><c> the</c><00:00:39.660><c> function</c><00:00:39.870><c> two</c><00:00:40.170><c> tries</c><00:00:40.410><c> to</c>
+
+00:00:40.610 --> 00:00:40.620 align:start position:0%
+function the function two tries to
+ 
+
+00:00:40.620 --> 00:00:42.440 align:start position:0%
+function the function two tries to
+acquire<00:00:40.829><c> the</c><00:00:41.190><c> lock</c><00:00:41.370><c> and</c><00:00:41.700><c> make</c><00:00:41.910><c> sure</c><00:00:42.090><c> that</c><00:00:42.239><c> we</c>
+
+00:00:42.440 --> 00:00:42.450 align:start position:0%
+acquire the lock and make sure that we
+ 
+
+00:00:42.450 --> 00:00:44.450 align:start position:0%
+acquire the lock and make sure that we
+are<00:00:42.510><c> alone</c><00:00:42.960><c> in</c><00:00:43.020><c> doing</c><00:00:43.410><c> that</c><00:00:43.649><c> we'll</c><00:00:44.309><c> do</c>
+
+00:00:44.450 --> 00:00:44.460 align:start position:0%
+are alone in doing that we'll do
+ 
+
+00:00:44.460 --> 00:00:47.630 align:start position:0%
+are alone in doing that we'll do
+something<00:00:44.730><c> like</c><00:00:44.969><c> this</c><00:00:45.180><c> it</c><00:00:45.840><c> will</c><00:00:46.110><c> spin</c><00:00:46.559><c> as</c><00:00:46.860><c> long</c>
+
+00:00:47.630 --> 00:00:47.640 align:start position:0%
+something like this it will spin as long
+ 
+
+00:00:47.640 --> 00:00:49.670 align:start position:0%
+something like this it will spin as long
+as<00:00:47.879><c> the</c><00:00:48.030><c> lock</c><00:00:48.239><c> that</c><00:00:48.480><c> is</c><00:00:48.690><c> 1</c><00:00:48.930><c> which</c><00:00:49.410><c> is</c><00:00:49.530><c> the</c>
+
+00:00:49.670 --> 00:00:49.680 align:start position:0%
+as the lock that is 1 which is the
+ 
+
+00:00:49.680 --> 00:00:51.920 align:start position:0%
+as the lock that is 1 which is the
+locked<00:00:49.920><c> value</c><00:00:50.399><c> and</c><00:00:50.579><c> once</c><00:00:51.210><c> it</c><00:00:51.390><c> sees</c><00:00:51.570><c> that</c><00:00:51.750><c> lock</c>
+
+00:00:51.920 --> 00:00:51.930 align:start position:0%
+locked value and once it sees that lock
+ 
+
+00:00:51.930 --> 00:00:54.799 align:start position:0%
+locked value and once it sees that lock
+var<00:00:52.140><c> is</c><00:00:52.289><c> 0</c><00:00:52.530><c> not</c><00:00:52.770><c> 1</c><00:00:52.800><c> it's</c><00:00:53.579><c> going</c><00:00:53.879><c> to</c><00:00:54.030><c> put</c><00:00:54.300><c> 1</c><00:00:54.629><c> in</c>
+
+00:00:54.799 --> 00:00:54.809 align:start position:0%
+var is 0 not 1 it's going to put 1 in
+ 
+
+00:00:54.809 --> 00:00:57.950 align:start position:0%
+var is 0 not 1 it's going to put 1 in
+that<00:00:54.930><c> value</c><00:00:55.199><c> to</c><00:00:55.860><c> mark</c><00:00:56.100><c> it</c><00:00:56.250><c> as</c><00:00:56.399><c> locked</c><00:00:56.699><c> and</c><00:00:57.120><c> then</c>
+
+00:00:57.950 --> 00:00:57.960 align:start position:0%
+that value to mark it as locked and then
+ 
+
+00:00:57.960 --> 00:00:59.420 align:start position:0%
+that value to mark it as locked and then
+we<00:00:58.109><c> can</c><00:00:58.260><c> enter</c><00:00:58.500><c> the</c><00:00:58.620><c> critical</c><00:00:58.800><c> section</c>
+
+00:00:59.420 --> 00:00:59.430 align:start position:0%
+we can enter the critical section
+ 
+
+00:00:59.430 --> 00:01:01.639 align:start position:0%
+we can enter the critical section
+because<00:00:59.760><c> others</c><00:01:00.180><c> will</c><00:01:00.449><c> now</c><00:01:00.600><c> see</c><00:01:00.870><c> our</c><00:01:00.899><c> 1</c><00:01:01.410><c> and</c>
+
+00:01:01.639 --> 00:01:01.649 align:start position:0%
+because others will now see our 1 and
+ 
+
+00:01:01.649 --> 00:01:04.609 align:start position:0%
+because others will now see our 1 and
+spin<00:01:01.980><c> there</c><00:01:02.309><c> and</c><00:01:02.520><c> then</c><00:01:03.120><c> to</c><00:01:03.300><c> unlock</c><00:01:03.840><c> we</c><00:01:04.439><c> will</c>
+
+00:01:04.609 --> 00:01:04.619 align:start position:0%
+spin there and then to unlock we will
+ 
+
+00:01:04.619 --> 00:01:07.219 align:start position:0%
+spin there and then to unlock we will
+just<00:01:04.860><c> set</c><00:01:05.549><c> the</c><00:01:05.729><c> lock</c><00:01:05.880><c> variable</c><00:01:06.090><c> back</c><00:01:06.570><c> to</c><00:01:07.020><c> being</c>
+
+00:01:07.219 --> 00:01:07.229 align:start position:0%
+just set the lock variable back to being
+ 
+
+00:01:07.229 --> 00:01:09.230 align:start position:0%
+just set the lock variable back to being
+free<00:01:07.560><c> once</c><00:01:08.159><c> we</c><00:01:08.400><c> do</c><00:01:08.580><c> this</c>
+
+00:01:09.230 --> 00:01:09.240 align:start position:0%
+free once we do this
+ 
+
+00:01:09.240 --> 00:01:11.090 align:start position:0%
+free once we do this
+coherence<00:01:10.110><c> ensures</c><00:01:10.439><c> that</c><00:01:10.470><c> whoever</c><00:01:10.950><c> is</c>
+
+00:01:11.090 --> 00:01:11.100 align:start position:0%
+coherence ensures that whoever is
+ 
+
+00:01:11.100 --> 00:01:14.179 align:start position:0%
+coherence ensures that whoever is
+waiting<00:01:11.549><c> here</c><00:01:11.820><c> now</c><00:01:12.060><c> sees</c><00:01:12.420><c> a</c><00:01:12.630><c> 0</c><00:01:12.930><c> and</c><00:01:13.229><c> acquires</c>
+
+00:01:14.179 --> 00:01:14.189 align:start position:0%
+waiting here now sees a 0 and acquires
+ 
+
+00:01:14.189 --> 00:01:15.890 align:start position:0%
+waiting here now sees a 0 and acquires
+the<00:01:14.400><c> lock</c><00:01:14.430><c> themselves</c><00:01:14.790><c> so</c><00:01:15.240><c> we</c><00:01:15.360><c> let</c><00:01:15.540><c> them</c><00:01:15.689><c> go</c>
+
+00:01:15.890 --> 00:01:15.900 align:start position:0%
+the lock themselves so we let them go
+ 
+
+00:01:15.900 --> 00:01:17.539 align:start position:0%
+the lock themselves so we let them go
+into<00:01:16.470><c> the</c><00:01:16.590><c> critical</c><00:01:16.979><c> section</c>
+
+00:01:17.539 --> 00:01:17.549 align:start position:0%
+into the critical section
+ 
+
+00:01:17.549 --> 00:01:19.880 align:start position:0%
+into the critical section
+but<00:01:18.119><c> this</c><00:01:18.360><c> lock</c><00:01:18.689><c> function</c><00:01:19.020><c> doesn't</c><00:01:19.530><c> really</c>
+
+00:01:19.880 --> 00:01:19.890 align:start position:0%
+but this lock function doesn't really
+ 
+
+00:01:19.890 --> 00:01:22.969 align:start position:0%
+but this lock function doesn't really
+work<00:01:20.270><c> suppose</c><00:01:21.270><c> you</c><00:01:21.450><c> have</c><00:01:21.659><c> two</c><00:01:21.930><c> threads</c><00:01:22.259><c> the</c>
+
+00:01:22.969 --> 00:01:22.979 align:start position:0%
+work suppose you have two threads the
+ 
+
+00:01:22.979 --> 00:01:25.789 align:start position:0%
+work suppose you have two threads the
+purple<00:01:23.460><c> and</c><00:01:23.670><c> the</c><00:01:24.119><c> green</c><00:01:24.150><c> that</c><00:01:25.049><c> come</c><00:01:25.409><c> to</c><00:01:25.650><c> this</c>
+
+00:01:25.789 --> 00:01:25.799 align:start position:0%
+purple and the green that come to this
+ 
+
+00:01:25.799 --> 00:01:28.130 align:start position:0%
+purple and the green that come to this
+point<00:01:26.100><c> at</c><00:01:26.369><c> the</c><00:01:26.490><c> same</c><00:01:26.670><c> time</c><00:01:27.000><c> the</c><00:01:27.659><c> lock</c><00:01:27.900><c> was</c>
+
+00:01:28.130 --> 00:01:28.140 align:start position:0%
+point at the same time the lock was
+ 
+
+00:01:28.140 --> 00:01:31.850 align:start position:0%
+point at the same time the lock was
+initialized<00:01:28.590><c> to</c><00:01:28.770><c> 0</c><00:01:29.100><c> both</c><00:01:29.759><c> of</c><00:01:30.090><c> them</c><00:01:30.619><c> read</c><00:01:31.619><c> the</c>
+
+00:01:31.850 --> 00:01:31.860 align:start position:0%
+initialized to 0 both of them read the
+ 
+
+00:01:31.860 --> 00:01:34.700 align:start position:0%
+initialized to 0 both of them read the
+lock<00:01:32.070><c> var</c><00:01:32.310><c> for</c><00:01:32.340><c> the</c><00:01:32.670><c> first</c><00:01:32.850><c> time</c><00:01:33.090><c> cz</c><00:01:33.600><c> row</c><00:01:33.710><c> of</c>
+
+00:01:34.700 --> 00:01:34.710 align:start position:0%
+lock var for the first time cz row of
+ 
+
+00:01:34.710 --> 00:01:36.319 align:start position:0%
+lock var for the first time cz row of
+them<00:01:34.860><c> exit</c><00:01:35.189><c> this</c><00:01:35.220><c> loop</c><00:01:35.369><c> because</c><00:01:35.850><c> the</c><00:01:35.939><c> lock</c><00:01:36.119><c> var</c>
+
+00:01:36.319 --> 00:01:36.329 align:start position:0%
+them exit this loop because the lock var
+ 
+
+00:01:36.329 --> 00:01:39.590 align:start position:0%
+them exit this loop because the lock var
+is<00:01:36.450><c> not</c><00:01:36.630><c> 1</c><00:01:37.009><c> so</c><00:01:38.009><c> both</c><00:01:38.250><c> of</c><00:01:38.280><c> them</c><00:01:38.610><c> come</c><00:01:38.850><c> here</c><00:01:39.210><c> right</c>
+
+00:01:39.590 --> 00:01:39.600 align:start position:0%
+is not 1 so both of them come here right
+ 
+
+00:01:39.600 --> 00:01:42.109 align:start position:0%
+is not 1 so both of them come here right
+1<00:01:39.930><c> to</c><00:01:40.140><c> the</c><00:01:40.290><c> lock</c><00:01:40.500><c> var</c><00:01:40.799><c> and</c><00:01:41.070><c> then</c><00:01:41.610><c> leave</c><00:01:41.850><c> this</c>
+
+00:01:42.109 --> 00:01:42.119 align:start position:0%
+1 to the lock var and then leave this
+ 
+
+00:01:42.119 --> 00:01:44.060 align:start position:0%
+1 to the lock var and then leave this
+lock<00:01:42.420><c> function</c><00:01:42.689><c> and</c><00:01:43.170><c> now</c><00:01:43.350><c> both</c><00:01:43.619><c> of</c><00:01:43.829><c> them</c><00:01:43.950><c> are</c>
+
+00:01:44.060 --> 00:01:44.070 align:start position:0%
+lock function and now both of them are
+ 
+
+00:01:44.070 --> 00:01:46.069 align:start position:0%
+lock function and now both of them are
+in<00:01:44.159><c> the</c><00:01:44.250><c> critical</c><00:01:44.670><c> section</c><00:01:44.700><c> which</c><00:01:45.600><c> is</c><00:01:45.780><c> what</c><00:01:45.960><c> we</c>
+
+00:01:46.069 --> 00:01:46.079 align:start position:0%
+in the critical section which is what we
+ 
+
+00:01:46.079 --> 00:01:48.139 align:start position:0%
+in the critical section which is what we
+were<00:01:46.200><c> trying</c><00:01:46.409><c> to</c><00:01:46.649><c> prevent</c><00:01:46.950><c> what</c><00:01:47.670><c> we</c><00:01:47.850><c> really</c>
+
+00:01:48.139 --> 00:01:48.149 align:start position:0%
+were trying to prevent what we really
+ 
+
+00:01:48.149 --> 00:01:49.760 align:start position:0%
+were trying to prevent what we really
+need<00:01:48.329><c> to</c><00:01:48.360><c> correctly</c><00:01:48.960><c> implement</c><00:01:49.470><c> the</c><00:01:49.560><c> lock</c>
+
+00:01:49.760 --> 00:01:49.770 align:start position:0%
+need to correctly implement the lock
+ 
+
+00:01:49.770 --> 00:01:52.940 align:start position:0%
+need to correctly implement the lock
+function<00:01:50.040><c> is</c><00:01:50.729><c> that</c><00:01:51.060><c> the</c><00:01:51.600><c> looking</c><00:01:51.869><c> at</c><00:01:52.290><c> lock</c><00:01:52.649><c> var</c>
+
+00:01:52.940 --> 00:01:52.950 align:start position:0%
+function is that the looking at lock var
+ 
+
+00:01:52.950 --> 00:01:55.819 align:start position:0%
+function is that the looking at lock var
+and<00:01:53.220><c> sing</c><00:01:53.490><c> 0</c><00:01:53.850><c> and</c><00:01:54.149><c> the</c><00:01:54.780><c> right</c><00:01:55.020><c> thing</c><00:01:55.380><c> to</c><00:01:55.619><c> lock</c>
+
+00:01:55.819 --> 00:01:55.829 align:start position:0%
+and sing 0 and the right thing to lock
+ 
+
+00:01:55.829 --> 00:01:59.090 align:start position:0%
+and sing 0 and the right thing to lock
+var<00:01:56.100><c> of</c><00:01:56.340><c> 1</c><00:01:56.850><c> needs</c><00:01:57.750><c> to</c><00:01:57.990><c> be</c><00:01:58.110><c> atomic</c><00:01:58.469><c> which</c><00:01:58.860><c> means</c>
+
+00:01:59.090 --> 00:01:59.100 align:start position:0%
+var of 1 needs to be atomic which means
+ 
+
+00:01:59.100 --> 00:02:01.340 align:start position:0%
+var of 1 needs to be atomic which means
+we<00:01:59.340><c> really</c><00:01:59.670><c> need</c><00:01:59.820><c> to</c><00:01:59.939><c> do</c><00:02:00.180><c> this</c><00:02:00.450><c> in</c><00:02:00.780><c> a</c><00:02:00.869><c> critical</c>
+
+00:02:01.340 --> 00:02:01.350 align:start position:0%
+we really need to do this in a critical
+ 
+
+00:02:01.350 --> 00:02:03.139 align:start position:0%
+we really need to do this in a critical
+section<00:02:01.710><c> of</c><00:02:01.799><c> its</c><00:02:02.009><c> own</c><00:02:02.219><c> to</c><00:02:02.520><c> make</c><00:02:02.700><c> sure</c><00:02:02.939><c> that</c>
+
+00:02:03.139 --> 00:02:03.149 align:start position:0%
+section of its own to make sure that
+ 
+
+00:02:03.149 --> 00:02:05.810 align:start position:0%
+section of its own to make sure that
+when<00:02:03.420><c> we</c><00:02:03.600><c> see</c><00:02:03.780><c> a</c><00:02:03.810><c> 0</c><00:02:04.170><c> we</c><00:02:04.860><c> end</c><00:02:05.100><c> up</c><00:02:05.250><c> writing</c><00:02:05.490><c> one</c>
+
+00:02:05.810 --> 00:02:05.820 align:start position:0%
+when we see a 0 we end up writing one
+ 
+
+00:02:05.820 --> 00:02:07.910 align:start position:0%
+when we see a 0 we end up writing one
+before<00:02:06.240><c> anybody</c><00:02:06.630><c> else</c><00:02:06.869><c> gets</c><00:02:06.960><c> to</c><00:02:07.170><c> see</c><00:02:07.259><c> a</c><00:02:07.409><c> 0</c><00:02:07.710><c> or</c>
+
+00:02:07.910 --> 00:02:07.920 align:start position:0%
+before anybody else gets to see a 0 or
+ 
+
+00:02:07.920 --> 00:02:10.639 align:start position:0%
+before anybody else gets to see a 0 or
+at<00:02:08.369><c> least</c><00:02:08.610><c> when</c><00:02:09.030><c> we</c><00:02:09.179><c> see</c><00:02:09.420><c> a</c><00:02:09.450><c> 0</c><00:02:09.750><c> we</c><00:02:09.959><c> try</c><00:02:10.259><c> to</c><00:02:10.319><c> write</c>
+
+00:02:10.639 --> 00:02:10.649 align:start position:0%
+at least when we see a 0 we try to write
+ 
+
+00:02:10.649 --> 00:02:13.220 align:start position:0%
+at least when we see a 0 we try to write
+1<00:02:10.950><c> but</c><00:02:11.760><c> we</c><00:02:11.940><c> know</c><00:02:12.150><c> if</c><00:02:12.390><c> we</c><00:02:12.599><c> were</c><00:02:12.750><c> the</c><00:02:12.930><c> one</c><00:02:13.080><c> to</c>
+
+00:02:13.220 --> 00:02:13.230 align:start position:0%
+1 but we know if we were the one to
+ 
+
+00:02:13.230 --> 00:02:13.850 align:start position:0%
+1 but we know if we were the one to
+write<00:02:13.379><c> 1</c>
+
+00:02:13.850 --> 00:02:13.860 align:start position:0%
+write 1
+ 
+
+00:02:13.860 --> 00:02:16.460 align:start position:0%
+write 1
+or<00:02:14.010><c> if</c><00:02:14.310><c> somebody</c><00:02:14.700><c> did</c><00:02:15.000><c> it</c><00:02:15.030><c> before</c><00:02:15.270><c> us</c><00:02:15.630><c> we</c>
+
+00:02:16.460 --> 00:02:16.470 align:start position:0%
+or if somebody did it before us we
+ 
+
+00:02:16.470 --> 00:02:18.050 align:start position:0%
+or if somebody did it before us we
+should<00:02:16.680><c> not</c><00:02:16.710><c> write</c><00:02:17.190><c> one</c><00:02:17.400><c> if</c><00:02:17.670><c> somebody</c>
+
+00:02:18.050 --> 00:02:18.060 align:start position:0%
+should not write one if somebody
+ 
+
+00:02:18.060 --> 00:02:21.530 align:start position:0%
+should not write one if somebody
+succeeded<00:02:18.750><c> in</c><00:02:19.080><c> writing</c><00:02:19.800><c> one</c><00:02:20.130><c> before</c><00:02:20.520><c> us</c><00:02:20.550><c> so</c><00:02:21.420><c> we</c>
+
+00:02:21.530 --> 00:02:21.540 align:start position:0%
+succeeded in writing one before us so we
+ 
+
+00:02:21.540 --> 00:02:24.110 align:start position:0%
+succeeded in writing one before us so we
+have<00:02:21.690><c> some</c><00:02:21.900><c> sort</c><00:02:22.110><c> of</c><00:02:22.230><c> a</c><00:02:22.350><c> paradox</c><00:02:22.920><c> here</c><00:02:23.040><c> in</c><00:02:23.850><c> that</c>
+
+00:02:24.110 --> 00:02:24.120 align:start position:0%
+have some sort of a paradox here in that
+ 
+
+00:02:24.120 --> 00:02:27.590 align:start position:0%
+have some sort of a paradox here in that
+we<00:02:24.570><c> need</c><00:02:24.840><c> logs</c><00:02:25.200><c> here</c><00:02:25.920><c> in</c><00:02:26.460><c> order</c><00:02:26.850><c> to</c><00:02:27.240><c> implement</c>
+
+00:02:27.590 --> 00:02:27.600 align:start position:0%
+we need logs here in order to implement
+ 
+
+00:02:27.600 --> 00:02:29.660 align:start position:0%
+we need logs here in order to implement
+the<00:02:27.900><c> log</c><00:02:28.110><c> function</c><00:02:28.440><c> so</c><00:02:28.950><c> how</c><00:02:29.160><c> do</c><00:02:29.220><c> we</c><00:02:29.430><c> ever</c>
+
+00:02:29.660 --> 00:02:29.670 align:start position:0%
+the log function so how do we ever
+ 
+
+00:02:29.670 --> 00:02:31.610 align:start position:0%
+the log function so how do we ever
+support<00:02:30.330><c> the</c><00:02:30.450><c> log</c><00:02:30.630><c> function</c><00:02:30.870><c> because</c><00:02:31.470><c> in</c>
+
+00:02:31.610 --> 00:02:31.620 align:start position:0%
+support the log function because in
+ 
+
+00:02:31.620 --> 00:02:33.440 align:start position:0%
+support the log function because in
+order<00:02:31.830><c> to</c><00:02:31.950><c> have</c><00:02:32.130><c> a</c><00:02:32.160><c> working</c><00:02:32.400><c> log</c><00:02:32.790><c> function</c><00:02:33.300><c> we</c>
+
+00:02:33.440 --> 00:02:33.450 align:start position:0%
+order to have a working log function we
+ 
+
+00:02:33.450 --> 00:02:35.180 align:start position:0%
+order to have a working log function we
+really<00:02:33.720><c> need</c><00:02:33.870><c> to</c><00:02:33.960><c> have</c><00:02:34.140><c> a</c><00:02:34.170><c> log</c><00:02:34.470><c> in</c><00:02:34.500><c> and</c><00:02:34.770><c> unlock</c>
+
+00:02:35.180 --> 00:02:35.190 align:start position:0%
+really need to have a log in and unlock
+ 
+
+00:02:35.190 --> 00:02:37.640 align:start position:0%
+really need to have a log in and unlock
+here
+

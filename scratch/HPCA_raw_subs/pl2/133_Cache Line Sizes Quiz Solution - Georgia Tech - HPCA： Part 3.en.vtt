@@ -1,0 +1,360 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.060 align:start position:0%
+ 
+let's<00:00:00.299><c> look</c><00:00:00.450><c> at</c><00:00:00.599><c> the</c><00:00:00.750><c> answer</c><00:00:01.260><c> for</c><00:00:01.650><c> our</c><00:00:01.709><c> cache</c>
+
+00:00:02.060 --> 00:00:02.070 align:start position:0%
+let's look at the answer for our cache
+ 
+
+00:00:02.070 --> 00:00:04.280 align:start position:0%
+let's look at the answer for our cache
+line<00:00:02.340><c> size</c><00:00:02.370><c> quiz</c><00:00:03.030><c> we</c><00:00:03.600><c> are</c><00:00:03.720><c> asked</c><00:00:04.080><c> to</c><00:00:04.110><c> determine</c>
+
+00:00:04.280 --> 00:00:04.290 align:start position:0%
+line size quiz we are asked to determine
+ 
+
+00:00:04.290 --> 00:00:07.820 align:start position:0%
+line size quiz we are asked to determine
+which<00:00:05.279><c> of</c><00:00:05.310><c> these</c><00:00:05.609><c> are</c><00:00:05.910><c> not</c><00:00:06.660><c> good</c><00:00:07.020><c> line</c><00:00:07.259><c> sizes</c>
+
+00:00:07.820 --> 00:00:07.830 align:start position:0%
+which of these are not good line sizes
+ 
+
+00:00:07.830 --> 00:00:11.060 align:start position:0%
+which of these are not good line sizes
+for<00:00:08.429><c> a</c><00:00:08.460><c> two</c><00:00:08.730><c> kilobyte</c><00:00:09.179><c> cache</c><00:00:09.210><c> a</c><00:00:09.809><c> one</c><00:00:10.530><c> byte</c><00:00:10.800><c> line</c>
+
+00:00:11.060 --> 00:00:11.070 align:start position:0%
+for a two kilobyte cache a one byte line
+ 
+
+00:00:11.070 --> 00:00:15.049 align:start position:0%
+for a two kilobyte cache a one byte line
+is<00:00:11.460><c> not</c><00:00:12.420><c> a</c><00:00:12.450><c> good</c><00:00:12.809><c> one</c><00:00:13.099><c> because</c><00:00:14.099><c> it</c><00:00:14.790><c> doesn't</c>
+
+00:00:15.049 --> 00:00:15.059 align:start position:0%
+is not a good one because it doesn't
+ 
+
+00:00:15.059 --> 00:00:17.920 align:start position:0%
+is not a good one because it doesn't
+exploit<00:00:15.509><c> spatial</c><00:00:16.080><c> locality</c><00:00:16.350><c> and</c><00:00:16.949><c> because</c>
+
+00:00:17.920 --> 00:00:17.930 align:start position:0%
+exploit spatial locality and because
+ 
+
+00:00:17.930 --> 00:00:20.570 align:start position:0%
+exploit spatial locality and because
+word<00:00:18.930><c> size</c><00:00:19.260><c> accesses</c><00:00:19.920><c> we'll</c><00:00:20.130><c> need</c><00:00:20.279><c> to</c><00:00:20.460><c> access</c>
+
+00:00:20.570 --> 00:00:20.580 align:start position:0%
+word size accesses we'll need to access
+ 
+
+00:00:20.580 --> 00:00:23.090 align:start position:0%
+word size accesses we'll need to access
+multiple<00:00:20.970><c> blocks</c><00:00:21.570><c> or</c><00:00:22.109><c> multiple</c><00:00:22.590><c> lines</c><00:00:22.800><c> in</c><00:00:23.010><c> the</c>
+
+00:00:23.090 --> 00:00:23.100 align:start position:0%
+multiple blocks or multiple lines in the
+ 
+
+00:00:23.100 --> 00:00:26.420 align:start position:0%
+multiple blocks or multiple lines in the
+cache<00:00:23.340><c> so</c><00:00:23.640><c> this</c><00:00:24.060><c> is</c><00:00:24.240><c> definitely</c><00:00:24.890><c> not</c><00:00:25.890><c> a</c><00:00:26.160><c> good</c>
+
+00:00:26.420 --> 00:00:26.430 align:start position:0%
+cache so this is definitely not a good
+ 
+
+00:00:26.430 --> 00:00:32.510 align:start position:0%
+cache so this is definitely not a good
+size<00:00:27.740><c> 32</c><00:00:28.740><c> bytes</c><00:00:29.130><c> is</c><00:00:30.090><c> a</c><00:00:30.269><c> good</c><00:00:30.630><c> size</c><00:00:31.080><c> it</c><00:00:32.009><c> exploits</c>
+
+00:00:32.510 --> 00:00:32.520 align:start position:0%
+size 32 bytes is a good size it exploits
+ 
+
+00:00:32.520 --> 00:00:34.580 align:start position:0%
+size 32 bytes is a good size it exploits
+spatial<00:00:32.940><c> locality</c><00:00:33.180><c> it's</c><00:00:33.630><c> not</c><00:00:33.840><c> too</c><00:00:34.020><c> large</c><00:00:34.200><c> and</c>
+
+00:00:34.580 --> 00:00:34.590 align:start position:0%
+spatial locality it's not too large and
+ 
+
+00:00:34.590 --> 00:00:36.770 align:start position:0%
+spatial locality it's not too large and
+it's<00:00:35.040><c> a</c><00:00:35.160><c> power</c><00:00:35.340><c> of</c><00:00:35.579><c> two</c><00:00:35.790><c> so</c><00:00:36.059><c> we</c><00:00:36.390><c> can</c><00:00:36.570><c> easily</c>
+
+00:00:36.770 --> 00:00:36.780 align:start position:0%
+it's a power of two so we can easily
+ 
+
+00:00:36.780 --> 00:00:39.260 align:start position:0%
+it's a power of two so we can easily
+locate<00:00:37.140><c> blocks</c><00:00:37.620><c> if</c><00:00:38.489><c> I</c><00:00:38.700><c> give</c><00:00:38.879><c> you</c><00:00:39.000><c> an</c><00:00:39.090><c> address</c>
+
+00:00:39.260 --> 00:00:39.270 align:start position:0%
+locate blocks if I give you an address
+ 
+
+00:00:39.270 --> 00:00:41.569 align:start position:0%
+locate blocks if I give you an address
+you<00:00:39.660><c> can</c><00:00:39.840><c> easily</c><00:00:40.050><c> find</c><00:00:40.500><c> what</c><00:00:40.920><c> block</c><00:00:41.190><c> does</c><00:00:41.460><c> it</c>
+
+00:00:41.569 --> 00:00:41.579 align:start position:0%
+you can easily find what block does it
+ 
+
+00:00:41.579 --> 00:00:46.729 align:start position:0%
+you can easily find what block does it
+belong<00:00:41.850><c> to</c><00:00:42.739><c> 48</c><00:00:43.739><c> bytes</c><00:00:43.980><c> is</c><00:00:44.760><c> a</c><00:00:44.820><c> good</c><00:00:45.270><c> size</c><00:00:45.570><c> as</c><00:00:45.899><c> far</c>
+
+00:00:46.729 --> 00:00:46.739 align:start position:0%
+belong to 48 bytes is a good size as far
+ 
+
+00:00:46.739 --> 00:00:49.639 align:start position:0%
+belong to 48 bytes is a good size as far
+as<00:00:47.039><c> it's</c><00:00:47.610><c> not</c><00:00:47.820><c> too</c><00:00:48.000><c> large</c><00:00:48.149><c> or</c><00:00:48.360><c> too</c><00:00:48.420><c> small</c><00:00:48.809><c> but</c>
+
+00:00:49.639 --> 00:00:49.649 align:start position:0%
+as it's not too large or too small but
+ 
+
+00:00:49.649 --> 00:00:52.010 align:start position:0%
+as it's not too large or too small but
+it's<00:00:50.010><c> not</c><00:00:50.190><c> a</c><00:00:50.219><c> power</c><00:00:50.550><c> of</c><00:00:50.730><c> two</c><00:00:50.910><c> so</c><00:00:51.120><c> if</c><00:00:51.660><c> we</c><00:00:51.930><c> are</c>
+
+00:00:52.010 --> 00:00:52.020 align:start position:0%
+it's not a power of two so if we are
+ 
+
+00:00:52.020 --> 00:00:54.139 align:start position:0%
+it's not a power of two so if we are
+given<00:00:52.320><c> an</c><00:00:52.440><c> address</c><00:00:52.590><c> and</c><00:00:53.010><c> we</c><00:00:53.370><c> need</c><00:00:53.520><c> to</c><00:00:53.670><c> find</c><00:00:53.910><c> out</c>
+
+00:00:54.139 --> 00:00:54.149 align:start position:0%
+given an address and we need to find out
+ 
+
+00:00:54.149 --> 00:00:56.810 align:start position:0%
+given an address and we need to find out
+what<00:00:54.719><c> is</c><00:00:54.899><c> the</c><00:00:55.079><c> block</c><00:00:55.350><c> that</c><00:00:56.129><c> contains</c><00:00:56.340><c> that</c>
+
+00:00:56.810 --> 00:00:56.820 align:start position:0%
+what is the block that contains that
+ 
+
+00:00:56.820 --> 00:01:00.020 align:start position:0%
+what is the block that contains that
+address<00:00:57.210><c> we</c><00:00:57.809><c> need</c><00:00:57.840><c> to</c><00:00:58.079><c> divide</c><00:00:58.410><c> by</c><00:00:58.620><c> 48</c><00:00:59.039><c> which</c><00:00:59.460><c> is</c>
+
+00:01:00.020 --> 00:01:00.030 align:start position:0%
+address we need to divide by 48 which is
+ 
+
+00:01:00.030 --> 00:01:02.810 align:start position:0%
+address we need to divide by 48 which is
+much<00:01:00.210><c> more</c><00:01:00.390><c> complicated</c><00:01:00.809><c> than</c><00:01:01.379><c> dividing</c><00:01:02.250><c> by</c><00:01:02.789><c> a</c>
+
+00:01:02.810 --> 00:01:02.820 align:start position:0%
+much more complicated than dividing by a
+ 
+
+00:01:02.820 --> 00:01:06.080 align:start position:0%
+much more complicated than dividing by a
+power<00:01:03.090><c> of</c><00:01:03.270><c> two</c><00:01:03.619><c> for</c><00:01:04.619><c> example</c><00:01:04.739><c> for</c><00:01:05.250><c> a</c><00:01:05.280><c> 32</c><00:01:05.850><c> byte</c>
+
+00:01:06.080 --> 00:01:06.090 align:start position:0%
+power of two for example for a 32 byte
+ 
+
+00:01:06.090 --> 00:01:09.109 align:start position:0%
+power of two for example for a 32 byte
+size<00:01:06.360><c> the</c><00:01:07.350><c> lowest</c><00:01:07.740><c> five</c><00:01:08.490><c> bits</c><00:01:08.790><c> of</c><00:01:08.970><c> the</c><00:01:09.090><c> address</c>
+
+00:01:09.109 --> 00:01:09.119 align:start position:0%
+size the lowest five bits of the address
+ 
+
+00:01:09.119 --> 00:01:11.390 align:start position:0%
+size the lowest five bits of the address
+tell<00:01:09.840><c> us</c><00:01:09.990><c> where</c><00:01:10.380><c> we</c><00:01:10.560><c> are</c><00:01:10.590><c> within</c><00:01:10.890><c> the</c><00:01:11.189><c> block</c>
+
+00:01:11.390 --> 00:01:11.400 align:start position:0%
+tell us where we are within the block
+ 
+
+00:01:11.400 --> 00:01:13.460 align:start position:0%
+tell us where we are within the block
+this<00:01:11.880><c> is</c><00:01:12.060><c> kind</c><00:01:12.299><c> of</c><00:01:12.330><c> telling</c><00:01:12.810><c> us</c><00:01:12.960><c> where</c><00:01:13.200><c> within</c>
+
+00:01:13.460 --> 00:01:13.470 align:start position:0%
+this is kind of telling us where within
+ 
+
+00:01:13.470 --> 00:01:16.399 align:start position:0%
+this is kind of telling us where within
+the<00:01:13.680><c> 32</c><00:01:14.130><c> bytes</c><00:01:14.369><c> of</c><00:01:14.490><c> the</c><00:01:14.640><c> block</c><00:01:14.850><c> we</c><00:01:15.060><c> are</c><00:01:15.090><c> and</c><00:01:15.509><c> the</c>
+
+00:01:16.399 --> 00:01:16.409 align:start position:0%
+the 32 bytes of the block we are and the
+ 
+
+00:01:16.409 --> 00:01:18.620 align:start position:0%
+the 32 bytes of the block we are and the
+upper<00:01:16.860><c> bits</c><00:01:17.009><c> of</c><00:01:17.220><c> the</c><00:01:17.340><c> address</c><00:01:17.369><c> basically</c><00:01:18.299><c> are</c>
+
+00:01:18.620 --> 00:01:18.630 align:start position:0%
+upper bits of the address basically are
+ 
+
+00:01:18.630 --> 00:01:21.350 align:start position:0%
+upper bits of the address basically are
+the<00:01:19.290><c> block</c><00:01:19.500><c> number</c><00:01:19.770><c> so</c><00:01:20.400><c> we</c><00:01:20.520><c> divide</c><00:01:20.820><c> by</c><00:01:21.000><c> 32</c>
+
+00:01:21.350 --> 00:01:21.360 align:start position:0%
+the block number so we divide by 32
+ 
+
+00:01:21.360 --> 00:01:24.859 align:start position:0%
+the block number so we divide by 32
+simply<00:01:22.229><c> by</c><00:01:22.380><c> discarding</c><00:01:23.150><c> the</c><00:01:24.150><c> lowermost</c>
+
+00:01:24.859 --> 00:01:24.869 align:start position:0%
+simply by discarding the lowermost
+ 
+
+00:01:24.869 --> 00:01:28.340 align:start position:0%
+simply by discarding the lowermost
+32<00:01:25.439><c> bytes</c><00:01:25.680><c> in</c><00:01:26.270><c> contrast</c><00:01:27.270><c> dividing</c><00:01:27.720><c> by</c><00:01:27.840><c> 48</c>
+
+00:01:28.340 --> 00:01:28.350 align:start position:0%
+32 bytes in contrast dividing by 48
+ 
+
+00:01:28.350 --> 00:01:29.899 align:start position:0%
+32 bytes in contrast dividing by 48
+bytes<00:01:28.590><c> would</c><00:01:29.189><c> actually</c><00:01:29.549><c> need</c><00:01:29.610><c> to</c><00:01:29.759><c> be</c><00:01:29.880><c> a</c>
+
+00:01:29.899 --> 00:01:29.909 align:start position:0%
+bytes would actually need to be a
+ 
+
+00:01:29.909 --> 00:01:33.890 align:start position:0%
+bytes would actually need to be a
+division<00:01:30.360><c> by</c><00:01:30.509><c> 48</c><00:01:30.960><c> so</c><00:01:31.890><c> this</c><00:01:32.100><c> is</c><00:01:32.340><c> not</c><00:01:32.820><c> a</c><00:01:33.090><c> good</c>
+
+00:01:33.890 --> 00:01:33.900 align:start position:0%
+division by 48 so this is not a good
+ 
+
+00:01:33.900 --> 00:01:37.580 align:start position:0%
+division by 48 so this is not a good
+line<00:01:34.110><c> size</c><00:01:34.670><c> 64</c><00:01:35.670><c> bytes</c><00:01:35.909><c> is</c><00:01:36.150><c> also</c><00:01:36.810><c> a</c><00:01:36.840><c> reasonable</c>
+
+00:01:37.580 --> 00:01:37.590 align:start position:0%
+line size 64 bytes is also a reasonable
+ 
+
+00:01:37.590 --> 00:01:41.420 align:start position:0%
+line size 64 bytes is also a reasonable
+blocks<00:01:38.040><c> as</c><00:01:38.220><c> it's</c><00:01:38.400><c> larger</c><00:01:38.880><c> than</c><00:01:39.560><c> 32</c><00:01:40.560><c> but</c><00:01:41.159><c> still</c>
+
+00:01:41.420 --> 00:01:41.430 align:start position:0%
+blocks as it's larger than 32 but still
+ 
+
+00:01:41.430 --> 00:01:43.580 align:start position:0%
+blocks as it's larger than 32 but still
+a<00:01:41.670><c> lot</c><00:01:42.090><c> of</c><00:01:42.270><c> them</c><00:01:42.420><c> fit</c><00:01:42.659><c> in</c><00:01:42.899><c> a</c><00:01:43.020><c> two</c><00:01:43.170><c> kilobyte</c>
+
+00:01:43.580 --> 00:01:43.590 align:start position:0%
+a lot of them fit in a two kilobyte
+ 
+
+00:01:43.590 --> 00:01:47.359 align:start position:0%
+a lot of them fit in a two kilobyte
+cache<00:01:43.820><c> one</c><00:01:44.820><c> kilobyte</c><00:01:45.180><c> is</c><00:01:45.630><c> good</c><00:01:46.290><c> because</c><00:01:47.040><c> it's</c>
+
+00:01:47.359 --> 00:01:47.369 align:start position:0%
+cache one kilobyte is good because it's
+ 
+
+00:01:47.369 --> 00:01:50.450 align:start position:0%
+cache one kilobyte is good because it's
+a<00:01:47.460><c> power</c><00:01:47.700><c> of</c><00:01:47.909><c> two</c><00:01:48.090><c> but</c><00:01:49.049><c> only</c><00:01:49.079><c> two</c><00:01:49.560><c> of</c><00:01:49.590><c> them</c><00:01:49.860><c> fit</c>
+
+00:01:50.450 --> 00:01:50.460 align:start position:0%
+a power of two but only two of them fit
+ 
+
+00:01:50.460 --> 00:01:53.719 align:start position:0%
+a power of two but only two of them fit
+in<00:01:50.640><c> a</c><00:01:50.700><c> two</c><00:01:50.880><c> kilobyte</c><00:01:51.329><c> cache</c><00:01:51.860><c> so</c><00:01:52.860><c> this</c><00:01:53.070><c> is</c><00:01:53.250><c> not</c><00:01:53.700><c> a</c>
+
+00:01:53.719 --> 00:01:53.729 align:start position:0%
+in a two kilobyte cache so this is not a
+ 
+
+00:01:53.729 --> 00:01:56.120 align:start position:0%
+in a two kilobyte cache so this is not a
+good<00:01:54.030><c> line</c><00:01:54.450><c> size</c><00:01:54.720><c> because</c><00:01:55.320><c> it</c><00:01:55.470><c> is</c><00:01:55.590><c> too</c><00:01:55.770><c> large</c>
+
+00:01:56.120 --> 00:01:56.130 align:start position:0%
+good line size because it is too large
+ 
+
+00:01:56.130 --> 00:01:57.800 align:start position:0%
+good line size because it is too large
+given<00:01:56.640><c> that</c><00:01:56.670><c> the</c><00:01:56.909><c> cache</c><00:01:57.119><c> is</c><00:01:57.420><c> only</c><00:01:57.600><c> two</c>
+
+00:01:57.800 --> 00:01:57.810 align:start position:0%
+given that the cache is only two
+ 
+
+00:01:57.810 --> 00:02:00.050 align:start position:0%
+given that the cache is only two
+kilobytes<00:01:58.259><c> in</c><00:01:58.409><c> size</c><00:01:58.439><c> what</c><00:01:59.250><c> we</c><00:01:59.399><c> want</c><00:01:59.610><c> to</c><00:01:59.790><c> have</c>
+
+00:02:00.050 --> 00:02:00.060 align:start position:0%
+kilobytes in size what we want to have
+ 
+
+00:02:00.060 --> 00:02:01.969 align:start position:0%
+kilobytes in size what we want to have
+as<00:02:00.329><c> a</c><00:02:00.360><c> block</c><00:02:00.659><c> size</c><00:02:00.960><c> is</c><00:02:00.990><c> something</c><00:02:01.649><c> that</c><00:02:01.799><c> is</c><00:02:01.950><c> a</c>
+
+00:02:01.969 --> 00:02:01.979 align:start position:0%
+as a block size is something that is a
+ 
+
+00:02:01.979 --> 00:02:04.389 align:start position:0%
+as a block size is something that is a
+power<00:02:02.310><c> of</c><00:02:02.490><c> two</c><00:02:02.700><c> exploits</c><00:02:03.570><c> spatial</c><00:02:04.110><c> locality</c>
+
+00:02:04.389 --> 00:02:04.399 align:start position:0%
+power of two exploits spatial locality
+ 
+
+00:02:04.399 --> 00:02:07.639 align:start position:0%
+power of two exploits spatial locality
+but<00:02:05.399><c> still</c><00:02:05.759><c> a</c><00:02:06.110><c> significant</c><00:02:07.110><c> number</c><00:02:07.409><c> of</c><00:02:07.439><c> them</c>
+
+00:02:07.639 --> 00:02:07.649 align:start position:0%
+but still a significant number of them
+ 
+
+00:02:07.649 --> 00:02:10.729 align:start position:0%
+but still a significant number of them
+fit<00:02:07.979><c> in</c><00:02:08.250><c> our</c><00:02:08.489><c> cache</c>
+

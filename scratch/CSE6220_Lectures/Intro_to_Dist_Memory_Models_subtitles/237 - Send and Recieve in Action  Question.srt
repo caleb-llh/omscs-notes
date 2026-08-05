@@ -1,0 +1,48 @@
+1
+00:00:00,430 --> 00:00:01,660
+ Okay, time for a quiz.
+
+2
+00:00:01,660 --> 00:00:07,740
+ Suppose there are two processes, each of which executes the following operations.
+
+3
+00:00:07,740 --> 00:00:13,365
+ So, they each try to send messages and they each try to receive messages.
+
+4
+00:00:13,365 --> 00:00:16,265
+ The buffer for receiving is called text.
+
+5
+00:00:16,265 --> 00:00:18,025
+ Here's my question.
+
+6
+00:00:18,025 --> 00:00:21,655
+ What is the value of text when the processes complete?
+
+7
+00:00:21,655 --> 00:00:23,695
+ Does rank one's text have the value hello,
+
+8
+00:00:23,695 --> 00:00:26,565
+ while rank two has the value world?
+
+9
+00:00:26,565 --> 00:00:27,741
+ Or is it just the reverse?
+
+10
+00:00:27,741 --> 00:00:31,335
+ Or maybe it's either, or maybe it's neither.
+
+11
+00:00:31,335 --> 00:00:33,845
+ Or maybe the processes don't even complete.
+
+12
+00:00:33,845 --> 00:00:33,845
+ You decide.
+

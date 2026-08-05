@@ -1,0 +1,164 @@
+1
+00:00:00,370 --> 00:00:03,520
+ I want to start by introducing you to a couple of really important properties
+
+2
+00:00:03,520 --> 00:00:07,100
+ about a network whenever you're thinking about designing algorithms.
+
+3
+00:00:07,100 --> 00:00:11,020
+ Remember that abstractly our model of a distributive memory machine is a bunch
+
+4
+00:00:11,020 --> 00:00:13,760
+ of computing nodes connected by a network.
+
+5
+00:00:13,760 --> 00:00:16,059
+ Let's take three examples.
+
+6
+00:00:16,059 --> 00:00:18,940
+ The first is a linear or 1D network.
+
+7
+00:00:18,940 --> 00:00:22,210
+ It's a set of p nodes connected in a line.
+
+8
+00:00:22,210 --> 00:00:25,480
+ A second example is a 2D mesh network.
+
+9
+00:00:25,480 --> 00:00:30,210
+ Again it's a set of p nodes, but this time arranged in a grid.
+
+10
+00:00:30,210 --> 00:00:34,900
+ Notice how every node is connected to its north, south, east, west neighbor.
+
+11
+00:00:34,900 --> 00:00:38,300
+ Now this third network is a fully connected network.
+
+12
+00:00:38,300 --> 00:00:42,320
+ Notice how every node has a direct connection to every other node.
+
+13
+00:00:42,320 --> 00:00:45,520
+ That brings us to our first important property which is the number of
+
+14
+00:00:45,520 --> 00:00:47,455
+ connections, or links.
+
+15
+00:00:47,455 --> 00:00:53,160
+ So given P nodes, a linear network evidently has P minus one links.
+
+16
+00:00:53,160 --> 00:00:57,960
+ A 2-D mesh network has this many links which is about 2 times P.
+
+17
+00:00:57,960 --> 00:01:02,770
+ A fully connected network has about P squared over 2 links.
+
+18
+00:01:02,770 --> 00:01:06,990
+ You care about the number of links, because it's a proxy for cost.
+
+19
+00:01:06,990 --> 00:01:11,480
+ That is, a network with many wires will probably be much more expensive
+
+20
+00:01:11,480 --> 00:01:13,690
+ than one with fewer wires.
+
+21
+00:01:13,690 --> 00:01:16,150
+ I don't know what they paid the person who wired this machine.
+
+22
+00:01:16,150 --> 00:01:19,080
+ But whatever it was, it's not enough.
+
+23
+00:01:19,080 --> 00:01:22,500
+ A second important property of a network is its diameter.
+
+24
+00:01:22,500 --> 00:01:27,600
+ To calculate it, you take all pairs of nodes, and compute the shortest path.
+
+25
+00:01:27,600 --> 00:01:30,540
+ Then you take the longest such path.
+
+26
+00:01:30,540 --> 00:01:32,540
+ That longest shortest path,
+
+27
+00:01:32,540 --> 00:01:37,700
+ is the diameter which I'll denote by capital delta.
+
+28
+00:01:37,700 --> 00:01:38,810
+ For the linear network,
+
+29
+00:01:38,810 --> 00:01:42,270
+ the longest shortest path is the one that connects the end points.
+
+30
+00:01:42,270 --> 00:01:46,560
+ The end points are separated by P- 1 links, therefore the diameter is P- 1.
+
+31
+00:01:46,560 --> 00:01:48,430
+ What about the mesh?
+
+32
+00:01:48,430 --> 00:01:52,510
+ The longest shortest path is the one that connects either of these end
+
+33
+00:01:52,510 --> 00:01:53,570
+ points.
+
+34
+00:01:53,570 --> 00:01:56,330
+ The distance is just the Manhattan distance.
+
+35
+00:01:56,330 --> 00:02:02,800
+ That's basically, root P- 1, followed by root P- 1 or 2 time root P- 1 links.
+
+36
+00:02:02,800 --> 00:02:07,200
+ A fully connected network has a link between every pair of nodes so
+
+37
+00:02:07,200 --> 00:02:09,430
+ it's diameter is just one.
+
+38
+00:02:09,430 --> 00:02:11,470
+ Diameter's an interesting property.
+
+39
+00:02:11,470 --> 00:02:16,100
+ Essentially it's a proxy for the maximum distance that any message must travel in
+
+40
+00:02:16,100 --> 00:02:18,660
+ the absence of network contention.
+
+41
+00:02:18,660 --> 00:02:18,660
+ I really wish I was running on a network with smaller diameter.
+

@@ -1,0 +1,968 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:02.629 align:start position:0%
+ 
+so<00:00:00.560><c> the</c><00:00:00.719><c> quiz</c><00:00:01.199><c> we</c><00:00:01.360><c> just</c><00:00:01.600><c> did</c><00:00:02.000><c> shows</c><00:00:02.399><c> that</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+so the quiz we just did shows that
+ 
+
+00:00:02.639 --> 00:00:05.030 align:start position:0%
+so the quiz we just did shows that
+adding<00:00:03.040><c> more</c><00:00:03.360><c> cores</c><00:00:04.160><c> might</c><00:00:04.400><c> result</c><00:00:04.799><c> in</c><00:00:04.960><c> a</c>
+
+00:00:05.030 --> 00:00:05.040 align:start position:0%
+adding more cores might result in a
+ 
+
+00:00:05.040 --> 00:00:06.950 align:start position:0%
+adding more cores might result in a
+slowdown<00:00:05.680><c> if</c><00:00:05.839><c> we</c><00:00:06.000><c> have</c><00:00:06.160><c> to</c><00:00:06.319><c> stay</c><00:00:06.560><c> within</c><00:00:06.879><c> the</c>
+
+00:00:06.950 --> 00:00:06.960 align:start position:0%
+slowdown if we have to stay within the
+ 
+
+00:00:06.960 --> 00:00:09.990 align:start position:0%
+slowdown if we have to stay within the
+same<00:00:07.279><c> power</c><00:00:07.600><c> budget</c><00:00:08.240><c> but</c><00:00:08.400><c> this</c><00:00:08.639><c> is</c><00:00:08.880><c> only</c><00:00:09.200><c> true</c>
+
+00:00:09.990 --> 00:00:10.000 align:start position:0%
+same power budget but this is only true
+ 
+
+00:00:10.000 --> 00:00:11.990 align:start position:0%
+same power budget but this is only true
+if<00:00:10.160><c> we</c><00:00:10.320><c> cannot</c><00:00:10.719><c> adjust</c><00:00:11.200><c> the</c><00:00:11.360><c> voltage</c><00:00:11.840><c> and</c>
+
+00:00:11.990 --> 00:00:12.000 align:start position:0%
+if we cannot adjust the voltage and
+ 
+
+00:00:12.000 --> 00:00:14.230 align:start position:0%
+if we cannot adjust the voltage and
+frequency<00:00:13.040><c> so</c><00:00:13.200><c> that</c><00:00:13.440><c> when</c><00:00:13.599><c> there</c><00:00:13.840><c> is</c><00:00:14.000><c> no</c>
+
+00:00:14.230 --> 00:00:14.240 align:start position:0%
+frequency so that when there is no
+ 
+
+00:00:14.240 --> 00:00:16.550 align:start position:0%
+frequency so that when there is no
+parallelism<00:00:14.880><c> available</c><00:00:15.839><c> we</c><00:00:16.080><c> boost</c><00:00:16.400><c> the</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+parallelism available we boost the
+ 
+
+00:00:16.560 --> 00:00:19.750 align:start position:0%
+parallelism available we boost the
+frequency<00:00:17.119><c> of</c><00:00:17.279><c> the</c><00:00:17.840><c> one</c><00:00:18.160><c> or</c><00:00:18.320><c> two</c><00:00:18.560><c> active</c><00:00:18.960><c> cores</c>
+
+00:00:19.750 --> 00:00:19.760 align:start position:0%
+frequency of the one or two active cores
+ 
+
+00:00:19.760 --> 00:00:21.670 align:start position:0%
+frequency of the one or two active cores
+so<00:00:20.000><c> that</c><00:00:20.160><c> they</c><00:00:20.400><c> get</c><00:00:20.560><c> the</c><00:00:20.720><c> full</c><00:00:20.960><c> power</c><00:00:21.279><c> budget</c>
+
+00:00:21.670 --> 00:00:21.680 align:start position:0%
+so that they get the full power budget
+ 
+
+00:00:21.680 --> 00:00:24.950 align:start position:0%
+so that they get the full power budget
+of<00:00:21.760><c> the</c><00:00:21.920><c> chip</c><00:00:22.640><c> modern</c><00:00:23.039><c> processors</c><00:00:23.840><c> do</c><00:00:24.000><c> this</c>
+
+00:00:24.950 --> 00:00:24.960 align:start position:0%
+of the chip modern processors do this
+ 
+
+00:00:24.960 --> 00:00:27.349 align:start position:0%
+of the chip modern processors do this
+let's<00:00:25.199><c> look</c><00:00:25.359><c> at</c><00:00:25.600><c> an</c><00:00:25.760><c> example</c><00:00:26.320><c> of</c><00:00:26.640><c> intel's</c><00:00:27.039><c> core</c>
+
+00:00:27.349 --> 00:00:27.359 align:start position:0%
+let's look at an example of intel's core
+ 
+
+00:00:27.359 --> 00:00:31.269 align:start position:0%
+let's look at an example of intel's core
+i7<00:00:27.920><c> 4702</c><00:00:28.880><c> mq</c><00:00:29.760><c> which</c><00:00:30.000><c> was</c><00:00:30.240><c> released</c><00:00:30.880><c> in</c><00:00:31.039><c> the</c>
+
+00:00:31.269 --> 00:00:31.279 align:start position:0%
+i7 4702 mq which was released in the
+ 
+
+00:00:31.279 --> 00:00:34.310 align:start position:0%
+i7 4702 mq which was released in the
+second<00:00:31.599><c> quarter</c><00:00:32.000><c> of</c><00:00:32.160><c> 2013.</c><00:00:33.520><c> it's</c><00:00:33.760><c> a</c><00:00:33.840><c> mobile</c>
+
+00:00:34.310 --> 00:00:34.320 align:start position:0%
+second quarter of 2013. it's a mobile
+ 
+
+00:00:34.320 --> 00:00:37.190 align:start position:0%
+second quarter of 2013. it's a mobile
+processor<00:00:35.440><c> so</c><00:00:35.600><c> its</c><00:00:35.760><c> design</c><00:00:36.239><c> power</c>
+
+00:00:37.190 --> 00:00:37.200 align:start position:0%
+processor so its design power
+ 
+
+00:00:37.200 --> 00:00:40.150 align:start position:0%
+processor so its design power
+is<00:00:37.520><c> only</c><00:00:37.760><c> 37</c><00:00:38.480><c> watts</c><00:00:39.040><c> that's</c><00:00:39.360><c> what</c><00:00:39.520><c> we</c><00:00:39.680><c> can</c><00:00:39.840><c> call</c>
+
+00:00:40.150 --> 00:00:40.160 align:start position:0%
+is only 37 watts that's what we can call
+ 
+
+00:00:40.160 --> 00:00:43.670 align:start position:0%
+is only 37 watts that's what we can call
+in<00:00:40.320><c> a</c><00:00:40.399><c> laptop</c><00:00:41.040><c> apparently</c><00:00:42.079><c> it</c><00:00:42.239><c> has</c><00:00:42.559><c> four</c><00:00:42.879><c> cores</c>
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+in a laptop apparently it has four cores
+ 
+
+00:00:43.680 --> 00:00:46.389 align:start position:0%
+in a laptop apparently it has four cores
+and<00:00:44.079><c> its</c><00:00:44.399><c> normal</c><00:00:44.879><c> clock</c><00:00:45.360><c> when</c><00:00:45.520><c> using</c><00:00:45.920><c> all</c><00:00:46.079><c> four</c>
+
+00:00:46.389 --> 00:00:46.399 align:start position:0%
+and its normal clock when using all four
+ 
+
+00:00:46.399 --> 00:00:50.549 align:start position:0%
+and its normal clock when using all four
+cores<00:00:46.879><c> is</c><00:00:47.520><c> 2.2</c><00:00:48.399><c> gigahertz</c><00:00:49.440><c> maximum</c>
+
+00:00:50.549 --> 00:00:50.559 align:start position:0%
+cores is 2.2 gigahertz maximum
+ 
+
+00:00:50.559 --> 00:00:52.630 align:start position:0%
+cores is 2.2 gigahertz maximum
+it<00:00:50.719><c> can</c><00:00:50.960><c> actually</c><00:00:51.280><c> save</c><00:00:51.600><c> power</c><00:00:52.079><c> because</c><00:00:52.480><c> it</c>
+
+00:00:52.630 --> 00:00:52.640 align:start position:0%
+it can actually save power because it
+ 
+
+00:00:52.640 --> 00:00:54.470 align:start position:0%
+it can actually save power because it
+might<00:00:52.960><c> operate</c><00:00:53.280><c> on</c><00:00:53.440><c> a</c><00:00:53.520><c> battery</c><00:00:53.920><c> by</c><00:00:54.079><c> reducing</c>
+
+00:00:54.470 --> 00:00:54.480 align:start position:0%
+might operate on a battery by reducing
+ 
+
+00:00:54.480 --> 00:00:57.110 align:start position:0%
+might operate on a battery by reducing
+this<00:00:54.640><c> frequency</c><00:00:55.600><c> even</c><00:00:55.920><c> when</c><00:00:56.160><c> running</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+this frequency even when running
+ 
+
+00:00:57.120 --> 00:00:58.549 align:start position:0%
+this frequency even when running
+all<00:00:57.360><c> four</c><00:00:57.600><c> cores</c>
+
+00:00:58.549 --> 00:00:58.559 align:start position:0%
+all four cores
+ 
+
+00:00:58.559 --> 00:01:02.709 align:start position:0%
+all four cores
+but<00:00:58.719><c> the</c><00:00:58.960><c> processor</c><00:00:59.840><c> has</c><00:01:00.239><c> a</c><00:01:00.640><c> turbo</c><00:01:01.359><c> frequency</c>
+
+00:01:02.709 --> 00:01:02.719 align:start position:0%
+but the processor has a turbo frequency
+ 
+
+00:01:02.719 --> 00:01:05.350 align:start position:0%
+but the processor has a turbo frequency
+of<00:01:03.039><c> 3.2</c><00:01:03.920><c> gigahertz</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+of 3.2 gigahertz
+ 
+
+00:01:05.360 --> 00:01:07.910 align:start position:0%
+of 3.2 gigahertz
+when<00:01:05.600><c> running</c><00:01:06.240><c> only</c><00:01:06.560><c> one</c><00:01:06.799><c> core</c><00:01:07.600><c> that</c>
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+when running only one core that
+ 
+
+00:01:07.920 --> 00:01:09.310 align:start position:0%
+when running only one core that
+frequency<00:01:08.560><c> is</c>
+
+00:01:09.310 --> 00:01:09.320 align:start position:0%
+frequency is
+ 
+
+00:01:09.320 --> 00:01:12.550 align:start position:0%
+frequency is
+1.45<00:01:10.400><c> times</c><00:01:10.799><c> the</c><00:01:10.960><c> normal</c><00:01:11.360><c> frequency</c>
+
+00:01:12.550 --> 00:01:12.560 align:start position:0%
+1.45 times the normal frequency
+ 
+
+00:01:12.560 --> 00:01:14.710 align:start position:0%
+1.45 times the normal frequency
+if<00:01:12.720><c> we</c><00:01:12.960><c> assume</c><00:01:13.439><c> that</c><00:01:13.600><c> the</c><00:01:13.840><c> power</c><00:01:14.159><c> increases</c>
+
+00:01:14.710 --> 00:01:14.720 align:start position:0%
+if we assume that the power increases
+ 
+
+00:01:14.720 --> 00:01:16.550 align:start position:0%
+if we assume that the power increases
+cubically<00:01:15.360><c> with</c><00:01:15.520><c> this</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+cubically with this
+ 
+
+00:01:16.560 --> 00:01:19.429 align:start position:0%
+cubically with this
+then<00:01:17.119><c> we</c><00:01:17.280><c> would</c><00:01:17.439><c> get</c><00:01:17.680><c> 3</c><00:01:18.000><c> times</c><00:01:18.320><c> the</c><00:01:18.479><c> power</c>
+
+00:01:19.429 --> 00:01:19.439 align:start position:0%
+then we would get 3 times the power
+ 
+
+00:01:19.439 --> 00:01:22.789 align:start position:0%
+then we would get 3 times the power
+so<00:01:19.680><c> we</c><00:01:19.840><c> are</c><00:01:20.000><c> not</c><00:01:20.240><c> using</c><00:01:20.799><c> 4</c><00:01:21.119><c> times</c><00:01:21.439><c> the</c><00:01:21.680><c> power</c>
+
+00:01:22.789 --> 00:01:22.799 align:start position:0%
+so we are not using 4 times the power
+ 
+
+00:01:22.799 --> 00:01:24.870 align:start position:0%
+so we are not using 4 times the power
+of<00:01:23.040><c> a</c><00:01:23.119><c> single</c><00:01:23.520><c> core</c>
+
+00:01:24.870 --> 00:01:24.880 align:start position:0%
+of a single core
+ 
+
+00:01:24.880 --> 00:01:26.710 align:start position:0%
+of a single core
+which<00:01:25.119><c> we</c><00:01:25.280><c> should</c><00:01:25.439><c> be</c><00:01:25.520><c> able</c><00:01:25.680><c> to</c><00:01:25.920><c> get</c><00:01:26.400><c> because</c>
+
+00:01:26.710 --> 00:01:26.720 align:start position:0%
+which we should be able to get because
+ 
+
+00:01:26.720 --> 00:01:28.390 align:start position:0%
+which we should be able to get because
+it's<00:01:26.960><c> four</c><00:01:27.200><c> cores</c>
+
+00:01:28.390 --> 00:01:28.400 align:start position:0%
+it's four cores
+ 
+
+00:01:28.400 --> 00:01:30.469 align:start position:0%
+it's four cores
+so<00:01:28.640><c> when</c><00:01:29.040><c> operating</c><00:01:29.520><c> one</c><00:01:29.759><c> quarter</c><00:01:30.240><c> of</c><00:01:30.320><c> the</c>
+
+00:01:30.469 --> 00:01:30.479 align:start position:0%
+so when operating one quarter of the
+ 
+
+00:01:30.479 --> 00:01:31.670 align:start position:0%
+so when operating one quarter of the
+course
+
+00:01:31.670 --> 00:01:31.680 align:start position:0%
+course
+ 
+
+00:01:31.680 --> 00:01:34.950 align:start position:0%
+course
+that<00:01:32.159><c> one</c><00:01:32.479><c> quarter</c><00:01:32.799><c> of</c><00:01:32.880><c> the</c><00:01:33.040><c> course</c><00:01:33.840><c> can</c><00:01:34.079><c> get</c>
+
+00:01:34.950 --> 00:01:34.960 align:start position:0%
+that one quarter of the course can get
+ 
+
+00:01:34.960 --> 00:01:37.350 align:start position:0%
+that one quarter of the course can get
+four<00:01:35.200><c> times</c><00:01:35.520><c> the</c><00:01:35.680><c> power</c><00:01:36.479><c> we're</c><00:01:36.720><c> only</c><00:01:36.960><c> getting</c>
+
+00:01:37.350 --> 00:01:37.360 align:start position:0%
+four times the power we're only getting
+ 
+
+00:01:37.360 --> 00:01:40.230 align:start position:0%
+four times the power we're only getting
+three<00:01:37.600><c> times</c><00:01:38.320><c> so</c><00:01:38.479><c> the</c><00:01:38.720><c> question</c><00:01:39.040><c> is</c><00:01:39.680><c> why</c><00:01:40.000><c> not</c>
+
+00:01:40.230 --> 00:01:40.240 align:start position:0%
+three times so the question is why not
+ 
+
+00:01:40.240 --> 00:01:41.670 align:start position:0%
+three times so the question is why not
+four<00:01:40.560><c> times</c>
+
+00:01:41.670 --> 00:01:41.680 align:start position:0%
+four times
+ 
+
+00:01:41.680 --> 00:01:43.910 align:start position:0%
+four times
+well<00:01:41.920><c> because</c><00:01:42.479><c> it's</c><00:01:42.799><c> not</c><00:01:43.119><c> only</c><00:01:43.439><c> about</c><00:01:43.759><c> the</c>
+
+00:01:43.910 --> 00:01:43.920 align:start position:0%
+well because it's not only about the
+ 
+
+00:01:43.920 --> 00:01:45.830 align:start position:0%
+well because it's not only about the
+overall<00:01:44.400><c> chip</c><00:01:44.720><c> power</c><00:01:45.200><c> what's</c><00:01:45.520><c> really</c>
+
+00:01:45.830 --> 00:01:45.840 align:start position:0%
+overall chip power what's really
+ 
+
+00:01:45.840 --> 00:01:47.749 align:start position:0%
+overall chip power what's really
+happening<00:01:46.640><c> is</c><00:01:46.799><c> that</c><00:01:47.119><c> if</c><00:01:47.280><c> we</c><00:01:47.439><c> have</c><00:01:47.680><c> a</c>
+
+00:01:47.749 --> 00:01:47.759 align:start position:0%
+happening is that if we have a
+ 
+
+00:01:47.759 --> 00:01:50.069 align:start position:0%
+happening is that if we have a
+relatively<00:01:48.399><c> large</c><00:01:48.799><c> ship</c>
+
+00:01:50.069 --> 00:01:50.079 align:start position:0%
+relatively large ship
+ 
+
+00:01:50.079 --> 00:01:52.789 align:start position:0%
+relatively large ship
+and<00:01:50.320><c> we</c><00:01:50.479><c> have</c><00:01:50.720><c> four</c><00:01:51.040><c> cores</c><00:01:51.520><c> on</c><00:01:51.680><c> it</c><00:01:51.840><c> let's</c><00:01:52.079><c> say</c>
+
+00:01:52.789 --> 00:01:52.799 align:start position:0%
+and we have four cores on it let's say
+ 
+
+00:01:52.799 --> 00:01:55.590 align:start position:0%
+and we have four cores on it let's say
+and<00:01:53.200><c> we</c><00:01:53.439><c> keep</c><00:01:53.840><c> heating</c><00:01:54.320><c> up</c><00:01:54.560><c> this</c><00:01:54.960><c> part</c><00:01:55.280><c> of</c><00:01:55.360><c> the</c>
+
+00:01:55.590 --> 00:01:55.600 align:start position:0%
+and we keep heating up this part of the
+ 
+
+00:01:55.600 --> 00:01:56.389 align:start position:0%
+and we keep heating up this part of the
+chip
+
+00:01:56.389 --> 00:01:56.399 align:start position:0%
+chip
+ 
+
+00:01:56.399 --> 00:01:58.389 align:start position:0%
+chip
+the<00:01:56.560><c> heat</c><00:01:56.880><c> will</c><00:01:57.119><c> spread</c>
+
+00:01:58.389 --> 00:01:58.399 align:start position:0%
+the heat will spread
+ 
+
+00:01:58.399 --> 00:02:00.550 align:start position:0%
+the heat will spread
+into<00:01:58.799><c> other</c><00:01:59.119><c> parts</c><00:01:59.439><c> of</c><00:01:59.520><c> the</c><00:01:59.759><c> chip</c><00:02:00.079><c> but</c><00:02:00.320><c> this</c>
+
+00:02:00.550 --> 00:02:00.560 align:start position:0%
+into other parts of the chip but this
+ 
+
+00:02:00.560 --> 00:02:03.590 align:start position:0%
+into other parts of the chip but this
+one<00:02:00.799><c> will</c><00:02:00.960><c> still</c><00:02:01.200><c> be</c><00:02:01.439><c> hotter</c><00:02:01.840><c> than</c><00:02:02.000><c> the</c><00:02:02.159><c> others</c>
+
+00:02:03.590 --> 00:02:03.600 align:start position:0%
+one will still be hotter than the others
+ 
+
+00:02:03.600 --> 00:02:05.670 align:start position:0%
+one will still be hotter than the others
+so<00:02:03.759><c> if</c><00:02:03.920><c> we're</c><00:02:04.079><c> spending</c><00:02:04.479><c> power</c><00:02:04.880><c> evenly</c><00:02:05.360><c> across</c>
+
+00:02:05.670 --> 00:02:05.680 align:start position:0%
+so if we're spending power evenly across
+ 
+
+00:02:05.680 --> 00:02:08.710 align:start position:0%
+so if we're spending power evenly across
+the<00:02:05.759><c> chip</c><00:02:06.240><c> we</c><00:02:06.399><c> can</c><00:02:06.560><c> spend</c><00:02:07.040><c> more</c><00:02:07.360><c> power</c><00:02:08.319><c> than</c><00:02:08.640><c> if</c>
+
+00:02:08.710 --> 00:02:08.720 align:start position:0%
+the chip we can spend more power than if
+ 
+
+00:02:08.720 --> 00:02:10.469 align:start position:0%
+the chip we can spend more power than if
+we<00:02:08.879><c> spend</c><00:02:09.200><c> it</c><00:02:09.360><c> all</c><00:02:09.520><c> in</c><00:02:09.599><c> one</c><00:02:09.840><c> corner</c><00:02:10.239><c> of</c><00:02:10.319><c> the</c>
+
+00:02:10.469 --> 00:02:10.479 align:start position:0%
+we spend it all in one corner of the
+ 
+
+00:02:10.479 --> 00:02:11.270 align:start position:0%
+we spend it all in one corner of the
+chip
+
+00:02:11.270 --> 00:02:11.280 align:start position:0%
+chip
+ 
+
+00:02:11.280 --> 00:02:14.070 align:start position:0%
+chip
+because<00:02:12.000><c> if</c><00:02:12.160><c> we</c><00:02:12.319><c> spread</c><00:02:12.640><c> the</c><00:02:12.800><c> power</c><00:02:13.200><c> around</c>
+
+00:02:14.070 --> 00:02:14.080 align:start position:0%
+because if we spread the power around
+ 
+
+00:02:14.080 --> 00:02:17.430 align:start position:0%
+because if we spread the power around
+then<00:02:14.400><c> the</c><00:02:14.640><c> chip</c><00:02:15.200><c> overall</c><00:02:15.840><c> gets</c><00:02:16.239><c> hotter</c>
+
+00:02:17.430 --> 00:02:17.440 align:start position:0%
+then the chip overall gets hotter
+ 
+
+00:02:17.440 --> 00:02:19.750 align:start position:0%
+then the chip overall gets hotter
+if<00:02:17.599><c> we</c><00:02:17.760><c> spend</c><00:02:18.160><c> all</c><00:02:18.480><c> power</c><00:02:18.800><c> in</c><00:02:18.879><c> the</c><00:02:19.040><c> same</c><00:02:19.360><c> place</c>
+
+00:02:19.750 --> 00:02:19.760 align:start position:0%
+if we spend all power in the same place
+ 
+
+00:02:19.760 --> 00:02:22.309 align:start position:0%
+if we spend all power in the same place
+then<00:02:20.080><c> that</c><00:02:20.400><c> place</c><00:02:21.040><c> gets</c><00:02:21.360><c> a</c><00:02:21.440><c> lot</c><00:02:21.760><c> hotter</c><00:02:22.160><c> than</c>
+
+00:02:22.309 --> 00:02:22.319 align:start position:0%
+then that place gets a lot hotter than
+ 
+
+00:02:22.319 --> 00:02:25.270 align:start position:0%
+then that place gets a lot hotter than
+before<00:02:23.200><c> so</c><00:02:23.440><c> that's</c><00:02:23.760><c> why</c><00:02:24.400><c> three</c><00:02:24.640><c> times</c><00:02:24.959><c> and</c><00:02:25.040><c> not</c>
+
+00:02:25.270 --> 00:02:25.280 align:start position:0%
+before so that's why three times and not
+ 
+
+00:02:25.280 --> 00:02:27.430 align:start position:0%
+before so that's why three times and not
+four<00:02:25.520><c> times</c><00:02:26.160><c> because</c><00:02:26.560><c> at</c><00:02:26.720><c> three</c><00:02:26.959><c> times</c><00:02:27.280><c> the</c>
+
+00:02:27.430 --> 00:02:27.440 align:start position:0%
+four times because at three times the
+ 
+
+00:02:27.440 --> 00:02:30.470 align:start position:0%
+four times because at three times the
+power<00:02:28.239><c> this</c><00:02:28.560><c> part</c><00:02:28.879><c> of</c><00:02:28.959><c> the</c><00:02:29.120><c> chip</c><00:02:29.920><c> achieves</c>
+
+00:02:30.470 --> 00:02:30.480 align:start position:0%
+power this part of the chip achieves
+ 
+
+00:02:30.480 --> 00:02:32.550 align:start position:0%
+power this part of the chip achieves
+similar<00:02:30.879><c> temperatures</c>
+
+00:02:32.550 --> 00:02:32.560 align:start position:0%
+similar temperatures
+ 
+
+00:02:32.560 --> 00:02:34.150 align:start position:0%
+similar temperatures
+to<00:02:32.800><c> those</c><00:02:33.200><c> achieved</c>
+
+00:02:34.150 --> 00:02:34.160 align:start position:0%
+to those achieved
+ 
+
+00:02:34.160 --> 00:02:36.790 align:start position:0%
+to those achieved
+by<00:02:34.720><c> spreading</c><00:02:35.200><c> the</c><00:02:35.360><c> heat</c><00:02:35.599><c> around</c><00:02:36.000><c> at</c><00:02:36.160><c> 2.2</c>
+
+00:02:36.790 --> 00:02:36.800 align:start position:0%
+by spreading the heat around at 2.2
+ 
+
+00:02:36.800 --> 00:02:39.910 align:start position:0%
+by spreading the heat around at 2.2
+gigahertz<00:02:37.760><c> let's</c><00:02:38.000><c> look</c><00:02:38.239><c> at</c><00:02:38.400><c> another</c><00:02:38.879><c> example</c>
+
+00:02:39.910 --> 00:02:39.920 align:start position:0%
+gigahertz let's look at another example
+ 
+
+00:02:39.920 --> 00:02:43.670 align:start position:0%
+gigahertz let's look at another example
+which<00:02:40.239><c> is</c><00:02:40.400><c> intel</c><00:02:40.720><c> score</c><00:02:41.200><c> i7</c><00:02:41.840><c> 4771</c><00:02:43.200><c> it's</c><00:02:43.440><c> a</c>
+
+00:02:43.670 --> 00:02:43.680 align:start position:0%
+which is intel score i7 4771 it's a
+ 
+
+00:02:43.680 --> 00:02:46.630 align:start position:0%
+which is intel score i7 4771 it's a
+similar<00:02:44.319><c> processor</c><00:02:45.280><c> released</c><00:02:45.760><c> in</c><00:02:46.319><c> third</c>
+
+00:02:46.630 --> 00:02:46.640 align:start position:0%
+similar processor released in third
+ 
+
+00:02:46.640 --> 00:02:50.390 align:start position:0%
+similar processor released in third
+quarter<00:02:47.599><c> of</c><00:02:47.879><c> 2013</c><00:02:49.280><c> so</c><00:02:49.519><c> they're</c>
+
+00:02:50.390 --> 00:02:50.400 align:start position:0%
+quarter of 2013 so they're
+ 
+
+00:02:50.400 --> 00:02:52.070 align:start position:0%
+quarter of 2013 so they're
+relatively<00:02:50.959><c> similar</c><00:02:51.599><c> in</c><00:02:51.680><c> terms</c><00:02:51.920><c> of</c>
+
+00:02:52.070 --> 00:02:52.080 align:start position:0%
+relatively similar in terms of
+ 
+
+00:02:52.080 --> 00:02:55.030 align:start position:0%
+relatively similar in terms of
+technology<00:02:52.640><c> and</c><00:02:52.800><c> so</c><00:02:52.959><c> on</c><00:02:53.599><c> but</c><00:02:53.920><c> this</c><00:02:54.400><c> is</c><00:02:54.640><c> not</c><00:02:54.879><c> a</c>
+
+00:02:55.030 --> 00:02:55.040 align:start position:0%
+technology and so on but this is not a
+ 
+
+00:02:55.040 --> 00:02:57.430 align:start position:0%
+technology and so on but this is not a
+laptop<00:02:55.519><c> processor</c><00:02:56.160><c> its</c><00:02:56.319><c> design</c><00:02:56.800><c> power</c><00:02:57.280><c> is</c>
+
+00:02:57.430 --> 00:02:57.440 align:start position:0%
+laptop processor its design power is
+ 
+
+00:02:57.440 --> 00:02:59.910 align:start position:0%
+laptop processor its design power is
+much<00:02:57.760><c> higher</c><00:02:58.160><c> at</c><00:02:58.319><c> 84</c><00:02:58.959><c> watts</c>
+
+00:02:59.910 --> 00:02:59.920 align:start position:0%
+much higher at 84 watts
+ 
+
+00:02:59.920 --> 00:03:02.070 align:start position:0%
+much higher at 84 watts
+it<00:03:00.239><c> also</c><00:03:00.480><c> has</c><00:03:00.800><c> four</c><00:03:01.040><c> cores</c>
+
+00:03:02.070 --> 00:03:02.080 align:start position:0%
+it also has four cores
+ 
+
+00:03:02.080 --> 00:03:04.470 align:start position:0%
+it also has four cores
+but<00:03:02.239><c> the</c><00:03:02.480><c> normal</c><00:03:02.959><c> clock</c><00:03:03.280><c> of</c><00:03:03.440><c> a</c><00:03:03.599><c> core</c>
+
+00:03:04.470 --> 00:03:04.480 align:start position:0%
+but the normal clock of a core
+ 
+
+00:03:04.480 --> 00:03:08.470 align:start position:0%
+but the normal clock of a core
+is<00:03:04.720><c> now</c><00:03:04.959><c> 3.5</c><00:03:06.000><c> gigahertz</c><00:03:07.120><c> much</c><00:03:07.440><c> larger</c><00:03:08.159><c> than</c><00:03:08.400><c> in</c>
+
+00:03:08.470 --> 00:03:08.480 align:start position:0%
+is now 3.5 gigahertz much larger than in
+ 
+
+00:03:08.480 --> 00:03:10.149 align:start position:0%
+is now 3.5 gigahertz much larger than in
+the<00:03:08.560><c> mobile</c><00:03:08.959><c> processor</c>
+
+00:03:10.149 --> 00:03:10.159 align:start position:0%
+the mobile processor
+ 
+
+00:03:10.159 --> 00:03:12.710 align:start position:0%
+the mobile processor
+the<00:03:10.400><c> turbo</c><00:03:10.879><c> clock</c><00:03:11.680><c> when</c><00:03:11.840><c> running</c><00:03:12.239><c> only</c><00:03:12.480><c> one</c>
+
+00:03:12.710 --> 00:03:12.720 align:start position:0%
+the turbo clock when running only one
+ 
+
+00:03:12.720 --> 00:03:13.589 align:start position:0%
+the turbo clock when running only one
+core
+
+00:03:13.589 --> 00:03:13.599 align:start position:0%
+core
+ 
+
+00:03:13.599 --> 00:03:17.190 align:start position:0%
+core
+is<00:03:13.840><c> 3.9</c><00:03:14.720><c> gigahertz</c><00:03:15.840><c> or</c><00:03:16.239><c> only</c>
+
+00:03:17.190 --> 00:03:17.200 align:start position:0%
+is 3.9 gigahertz or only
+ 
+
+00:03:17.200 --> 00:03:18.390 align:start position:0%
+is 3.9 gigahertz or only
+11
+
+00:03:18.390 --> 00:03:18.400 align:start position:0%
+11
+ 
+
+00:03:18.400 --> 00:03:21.589 align:start position:0%
+11
+above<00:03:18.800><c> normal</c><00:03:19.680><c> and</c><00:03:20.080><c> if</c><00:03:20.400><c> we</c><00:03:20.879><c> assume</c><00:03:21.280><c> that</c><00:03:21.440><c> the</c>
+
+00:03:21.589 --> 00:03:21.599 align:start position:0%
+above normal and if we assume that the
+ 
+
+00:03:21.599 --> 00:03:23.910 align:start position:0%
+above normal and if we assume that the
+power<00:03:22.000><c> is</c><00:03:22.159><c> cubically</c><00:03:23.120><c> growing</c><00:03:23.599><c> with</c>
+
+00:03:23.910 --> 00:03:23.920 align:start position:0%
+power is cubically growing with
+ 
+
+00:03:23.920 --> 00:03:26.350 align:start position:0%
+power is cubically growing with
+frequency<00:03:24.480><c> that</c><00:03:24.720><c> means</c><00:03:25.120><c> it's</c><00:03:25.360><c> only</c><00:03:25.680><c> spending</c>
+
+00:03:26.350 --> 00:03:26.360 align:start position:0%
+frequency that means it's only spending
+ 
+
+00:03:26.360 --> 00:03:29.350 align:start position:0%
+frequency that means it's only spending
+1.38<00:03:27.360><c> times</c><00:03:27.760><c> the</c><00:03:27.920><c> power</c><00:03:28.400><c> of</c><00:03:28.560><c> a</c><00:03:28.720><c> core</c><00:03:29.120><c> when</c>
+
+00:03:29.350 --> 00:03:29.360 align:start position:0%
+1.38 times the power of a core when
+ 
+
+00:03:29.360 --> 00:03:32.229 align:start position:0%
+1.38 times the power of a core when
+working<00:03:29.680><c> with</c><00:03:30.080><c> three</c><00:03:30.400><c> other</c><00:03:30.720><c> cores</c><00:03:31.519><c> why</c><00:03:31.760><c> is</c><00:03:31.920><c> it</c>
+
+00:03:32.229 --> 00:03:32.239 align:start position:0%
+working with three other cores why is it
+ 
+
+00:03:32.239 --> 00:03:34.470 align:start position:0%
+working with three other cores why is it
+like<00:03:32.480><c> that</c><00:03:33.120><c> well</c><00:03:33.360><c> because</c>
+
+00:03:34.470 --> 00:03:34.480 align:start position:0%
+like that well because
+ 
+
+00:03:34.480 --> 00:03:37.350 align:start position:0%
+like that well because
+this<00:03:35.120><c> being</c><00:03:35.440><c> a</c><00:03:35.599><c> non-mobile</c><00:03:36.239><c> processor</c><00:03:37.120><c> has</c>
+
+00:03:37.350 --> 00:03:37.360 align:start position:0%
+this being a non-mobile processor has
+ 
+
+00:03:37.360 --> 00:03:39.350 align:start position:0%
+this being a non-mobile processor has
+much<00:03:37.599><c> better</c><00:03:38.000><c> cooling</c>
+
+00:03:39.350 --> 00:03:39.360 align:start position:0%
+much better cooling
+ 
+
+00:03:39.360 --> 00:03:41.990 align:start position:0%
+much better cooling
+so<00:03:39.599><c> it</c><00:03:39.680><c> can</c><00:03:39.920><c> call</c><00:03:40.159><c> the</c><00:03:40.319><c> chip</c><00:03:41.040><c> when</c><00:03:41.360><c> operating</c>
+
+00:03:41.990 --> 00:03:42.000 align:start position:0%
+so it can call the chip when operating
+ 
+
+00:03:42.000 --> 00:03:44.229 align:start position:0%
+so it can call the chip when operating
+at<00:03:42.159><c> this</c><00:03:42.400><c> high</c><00:03:42.720><c> power</c>
+
+00:03:44.229 --> 00:03:44.239 align:start position:0%
+at this high power
+ 
+
+00:03:44.239 --> 00:03:46.550 align:start position:0%
+at this high power
+but<00:03:44.480><c> that</c><00:03:44.720><c> also</c><00:03:45.040><c> means</c><00:03:45.360><c> that</c><00:03:45.920><c> the</c><00:03:46.159><c> chip</c><00:03:46.400><c> is</c>
+
+00:03:46.550 --> 00:03:46.560 align:start position:0%
+but that also means that the chip is
+ 
+
+00:03:46.560 --> 00:03:48.149 align:start position:0%
+but that also means that the chip is
+already<00:03:46.879><c> pretty</c><00:03:47.280><c> hot</c>
+
+00:03:48.149 --> 00:03:48.159 align:start position:0%
+already pretty hot
+ 
+
+00:03:48.159 --> 00:03:50.789 align:start position:0%
+already pretty hot
+and<00:03:48.400><c> getting</c><00:03:48.799><c> it</c><00:03:49.440><c> even</c><00:03:49.760><c> slightly</c><00:03:50.239><c> hotter</c><00:03:50.720><c> in</c>
+
+00:03:50.789 --> 00:03:50.799 align:start position:0%
+and getting it even slightly hotter in
+ 
+
+00:03:50.799 --> 00:03:52.149 align:start position:0%
+and getting it even slightly hotter in
+any<00:03:51.120><c> place</c>
+
+00:03:52.149 --> 00:03:52.159 align:start position:0%
+any place
+ 
+
+00:03:52.159 --> 00:03:54.550 align:start position:0%
+any place
+very<00:03:52.480><c> quickly</c><00:03:53.040><c> reaches</c><00:03:53.680><c> the</c><00:03:53.840><c> temperatures</c><00:03:54.400><c> at</c>
+
+00:03:54.550 --> 00:03:54.560 align:start position:0%
+very quickly reaches the temperatures at
+ 
+
+00:03:54.560 --> 00:03:56.309 align:start position:0%
+very quickly reaches the temperatures at
+which<00:03:54.879><c> it's</c><00:03:55.040><c> dangerous</c><00:03:55.440><c> for</c><00:03:55.599><c> the</c><00:03:55.760><c> chip</c><00:03:56.000><c> so</c><00:03:56.159><c> we</c>
+
+00:03:56.309 --> 00:03:56.319 align:start position:0%
+which it's dangerous for the chip so we
+ 
+
+00:03:56.319 --> 00:03:58.229 align:start position:0%
+which it's dangerous for the chip so we
+could<00:03:56.560><c> only</c><00:03:56.879><c> really</c><00:03:57.200><c> spend</c><00:03:57.519><c> this</c><00:03:57.760><c> much</c><00:03:58.000><c> more</c>
+
+00:03:58.229 --> 00:03:58.239 align:start position:0%
+could only really spend this much more
+ 
+
+00:03:58.239 --> 00:04:00.470 align:start position:0%
+could only really spend this much more
+power<00:03:59.040><c> in</c><00:03:59.280><c> one</c><00:03:59.519><c> core</c>
+
+00:04:00.470 --> 00:04:00.480 align:start position:0%
+power in one core
+ 
+
+00:04:00.480 --> 00:04:02.869 align:start position:0%
+power in one core
+even<00:04:00.799><c> though</c><00:04:01.200><c> the</c><00:04:01.439><c> others</c><00:04:01.760><c> are</c><00:04:01.840><c> not</c><00:04:02.080><c> working</c>
+
+00:04:02.869 --> 00:04:02.879 align:start position:0%
+even though the others are not working
+ 
+
+00:04:02.879 --> 00:04:04.949 align:start position:0%
+even though the others are not working
+so<00:04:03.040><c> pretty</c><00:04:03.200><c> much</c><00:04:03.360><c> what's</c><00:04:03.519><c> happening</c><00:04:04.000><c> is</c>
+
+00:04:04.949 --> 00:04:04.959 align:start position:0%
+so pretty much what's happening is
+ 
+
+00:04:04.959 --> 00:04:06.470 align:start position:0%
+so pretty much what's happening is
+when<00:04:05.200><c> running</c><00:04:05.599><c> at</c>
+
+00:04:06.470 --> 00:04:06.480 align:start position:0%
+when running at
+ 
+
+00:04:06.480 --> 00:04:07.990 align:start position:0%
+when running at
+four<00:04:06.799><c> cores</c>
+
+00:04:07.990 --> 00:04:08.000 align:start position:0%
+four cores
+ 
+
+00:04:08.000 --> 00:04:10.630 align:start position:0%
+four cores
+the<00:04:08.159><c> chip</c><00:04:08.400><c> is</c><00:04:08.879><c> very</c><00:04:09.200><c> close</c><00:04:09.760><c> to</c><00:04:09.920><c> not</c><00:04:10.159><c> being</c><00:04:10.400><c> able</c>
+
+00:04:10.630 --> 00:04:10.640 align:start position:0%
+the chip is very close to not being able
+ 
+
+00:04:10.640 --> 00:04:11.910 align:start position:0%
+the chip is very close to not being able
+to<00:04:10.799><c> cool</c>
+
+00:04:11.910 --> 00:04:11.920 align:start position:0%
+to cool
+ 
+
+00:04:11.920 --> 00:04:15.190 align:start position:0%
+to cool
+if<00:04:12.159><c> we</c><00:04:12.799><c> turbo</c><00:04:13.280><c> boost</c><00:04:14.080><c> a</c><00:04:14.239><c> particular</c><00:04:14.799><c> part</c><00:04:15.120><c> of</c>
+
+00:04:15.190 --> 00:04:15.200 align:start position:0%
+if we turbo boost a particular part of
+ 
+
+00:04:15.200 --> 00:04:16.150 align:start position:0%
+if we turbo boost a particular part of
+the<00:04:15.360><c> chip</c>
+
+00:04:16.150 --> 00:04:16.160 align:start position:0%
+the chip
+ 
+
+00:04:16.160 --> 00:04:17.990 align:start position:0%
+the chip
+it<00:04:16.400><c> gets</c><00:04:16.720><c> even</c><00:04:17.040><c> hotter</c>
+
+00:04:17.990 --> 00:04:18.000 align:start position:0%
+it gets even hotter
+ 
+
+00:04:18.000 --> 00:04:20.469 align:start position:0%
+it gets even hotter
+and<00:04:18.160><c> we</c><00:04:18.320><c> can</c><00:04:18.560><c> only</c><00:04:18.880><c> afford</c><00:04:19.519><c> a</c><00:04:19.680><c> little</c><00:04:19.919><c> bit</c><00:04:20.239><c> more</c>
+
+00:04:20.469 --> 00:04:20.479 align:start position:0%
+and we can only afford a little bit more
+ 
+
+00:04:20.479 --> 00:04:22.629 align:start position:0%
+and we can only afford a little bit more
+of<00:04:20.560><c> heat</c><00:04:20.959><c> before</c><00:04:21.359><c> we</c><00:04:21.519><c> run</c><00:04:21.840><c> into</c><00:04:22.240><c> cooling</c>
+
+00:04:22.629 --> 00:04:22.639 align:start position:0%
+of heat before we run into cooling
+ 
+
+00:04:22.639 --> 00:04:24.469 align:start position:0%
+of heat before we run into cooling
+issues<00:04:23.280><c> even</c><00:04:23.520><c> though</c><00:04:23.680><c> the</c><00:04:23.840><c> heat</c><00:04:24.080><c> is</c><00:04:24.160><c> kind</c><00:04:24.320><c> of</c>
+
+00:04:24.469 --> 00:04:24.479 align:start position:0%
+issues even though the heat is kind of
+ 
+
+00:04:24.479 --> 00:04:26.150 align:start position:0%
+issues even though the heat is kind of
+leaking<00:04:24.800><c> to</c><00:04:24.960><c> the</c><00:04:25.120><c> cooler</c><00:04:25.440><c> parts</c><00:04:25.759><c> of</c><00:04:25.840><c> the</c><00:04:25.919><c> chip</c>
+
+00:04:26.150 --> 00:04:26.160 align:start position:0%
+leaking to the cooler parts of the chip
+ 
+
+00:04:26.160 --> 00:04:28.950 align:start position:0%
+leaking to the cooler parts of the chip
+it's<00:04:26.240><c> just</c><00:04:26.720><c> not</c><00:04:26.880><c> doing</c><00:04:27.120><c> it</c><00:04:27.759><c> enough</c><00:04:28.560><c> and</c><00:04:28.720><c> this</c>
+
+00:04:28.950 --> 00:04:28.960 align:start position:0%
+it's just not doing it enough and this
+ 
+
+00:04:28.960 --> 00:04:31.110 align:start position:0%
+it's just not doing it enough and this
+is<00:04:29.120><c> pretty</c><00:04:29.440><c> typical</c><00:04:30.320><c> that</c>
+
+00:04:31.110 --> 00:04:31.120 align:start position:0%
+is pretty typical that
+ 
+
+00:04:31.120 --> 00:04:33.510 align:start position:0%
+is pretty typical that
+cores<00:04:31.440><c> designed</c><00:04:31.919><c> for</c><00:04:32.160><c> lower</c><00:04:32.560><c> power</c><00:04:33.040><c> have</c><00:04:33.280><c> more</c>
+
+00:04:33.510 --> 00:04:33.520 align:start position:0%
+cores designed for lower power have more
+ 
+
+00:04:33.520 --> 00:04:35.510 align:start position:0%
+cores designed for lower power have more
+flexibility<00:04:34.240><c> in</c><00:04:34.400><c> shifting</c><00:04:34.800><c> that</c><00:04:35.040><c> power</c>
+
+00:04:35.510 --> 00:04:35.520 align:start position:0%
+flexibility in shifting that power
+ 
+
+00:04:35.520 --> 00:04:37.270 align:start position:0%
+flexibility in shifting that power
+whereas<00:04:35.919><c> if</c><00:04:36.080><c> we</c><00:04:36.160><c> are</c><00:04:36.320><c> near</c><00:04:36.639><c> the</c><00:04:36.800><c> limits</c><00:04:37.199><c> of</c>
+
+00:04:37.270 --> 00:04:37.280 align:start position:0%
+whereas if we are near the limits of
+ 
+
+00:04:37.280 --> 00:04:39.510 align:start position:0%
+whereas if we are near the limits of
+what<00:04:37.520><c> we</c><00:04:37.600><c> can</c><00:04:37.759><c> do</c><00:04:38.400><c> then</c><00:04:38.639><c> really</c><00:04:38.960><c> shifting</c><00:04:39.280><c> the</c>
+
+00:04:39.510 --> 00:04:39.520 align:start position:0%
+what we can do then really shifting the
+ 
+
+00:04:39.520 --> 00:04:40.950 align:start position:0%
+what we can do then really shifting the
+power
+
+00:04:40.950 --> 00:04:40.960 align:start position:0%
+power
+ 
+
+00:04:40.960 --> 00:04:42.790 align:start position:0%
+power
+so<00:04:41.120><c> that</c><00:04:41.360><c> it</c><00:04:41.520><c> can</c><00:04:41.759><c> all</c><00:04:41.840><c> be</c><00:04:42.000><c> consumed</c><00:04:42.479><c> in</c><00:04:42.560><c> one</c>
+
+00:04:42.790 --> 00:04:42.800 align:start position:0%
+so that it can all be consumed in one
+ 
+
+00:04:42.800 --> 00:04:44.950 align:start position:0%
+so that it can all be consumed in one
+corner<00:04:43.360><c> very</c><00:04:43.600><c> quickly</c><00:04:43.919><c> gets</c><00:04:44.160><c> that</c><00:04:44.400><c> one</c><00:04:44.560><c> corner</c>
+
+00:04:44.950 --> 00:04:44.960 align:start position:0%
+corner very quickly gets that one corner
+ 
+
+00:04:44.960 --> 00:04:48.840 align:start position:0%
+corner very quickly gets that one corner
+of<00:04:45.040><c> the</c><00:04:45.199><c> chip</c><00:04:45.600><c> to</c><00:04:45.840><c> overheat</c>
+

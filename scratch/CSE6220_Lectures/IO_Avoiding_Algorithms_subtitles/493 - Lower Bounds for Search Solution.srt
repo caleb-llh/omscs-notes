@@ -1,0 +1,48 @@
+1
+00:00:00,290 --> 00:00:02,950
+ Here's what I was looking for, log base 2 of L.
+
+2
+00:00:02,950 --> 00:00:05,420
+ By analogy to the size of the index,
+
+3
+00:00:05,420 --> 00:00:09,510
+ reading L words should reveal about log L bits of information.
+
+4
+00:00:09,510 --> 00:00:11,910
+ Consider the block of L words.
+
+5
+00:00:11,910 --> 00:00:16,230
+ The search key either goes between these words, or to the left, or to the right.
+
+6
+00:00:16,230 --> 00:00:19,190
+ So, you learn log L bits of the index.
+
+7
+00:00:19,190 --> 00:00:22,840
+ The lower bound then becomes something like log n over Log L.
+
+8
+00:00:22,840 --> 00:00:26,000
+ You can also write this more compactly using log rules.
+
+9
+00:00:26,000 --> 00:00:28,920
+ This is the same as log base L of N.
+
+10
+00:00:28,920 --> 00:00:32,630
+ Compare this lower bound against the bound for nieve binary search.
+
+11
+00:00:32,630 --> 00:00:37,150
+ Remember that was log N over L, which is the same as log N minus log L.
+
+12
+00:00:37,150 --> 00:00:37,150
+ So compared to the lower bound, there's about a log L factor difference
+
