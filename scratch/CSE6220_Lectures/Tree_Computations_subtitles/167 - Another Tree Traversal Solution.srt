@@ -1,0 +1,32 @@
+1
+00:00:00,270 --> 00:00:01,370
+ Here's the answer.
+
+2
+00:00:01,370 --> 00:00:04,100
+ Recall what a preorder traversal looks like.
+
+3
+00:00:04,100 --> 00:00:07,060
+ It numbers the root first before descending.
+
+4
+00:00:07,060 --> 00:00:10,860
+ Now with respect to the pseudocode, there's actually a slight ambiguity.
+
+5
+00:00:10,860 --> 00:00:13,760
+ It doesn't say in what order to visit the children.
+
+6
+00:00:13,760 --> 00:00:16,600
+ So that means the following answer is also valid.
+
+7
+00:00:16,600 --> 00:00:19,860
+ Anyway, I hope the grading goblin accepted valid alternatives and
+
+8
+00:00:19,860 --> 00:00:19,860
+ rewarded you for thinking outside the left to right, right to left box.
+

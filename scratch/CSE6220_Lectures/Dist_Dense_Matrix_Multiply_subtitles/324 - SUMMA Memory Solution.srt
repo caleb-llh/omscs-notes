@@ -1,0 +1,104 @@
+1
+00:00:00,490 --> 00:00:01,900
+ As you might have anticipated from my hint,
+
+2
+00:00:01,900 --> 00:00:04,420
+ the answer is of course that it depends.
+
+3
+00:00:04,420 --> 00:00:06,740
+ So it could be more, it could be less or it could be the same.
+
+4
+00:00:06,740 --> 00:00:12,170
+ It all boils down to how you choice the value of the tuning parameter, little s.
+
+5
+00:00:12,170 --> 00:00:15,680
+ To see how, let's write down an expression for the storage.
+
+6
+00:00:15,680 --> 00:00:19,370
+ First, each node has to store one block of A, B and C.
+
+7
+00:00:19,370 --> 00:00:22,420
+ So that of course gives us three n squared over P.
+
+8
+00:00:22,420 --> 00:00:26,850
+ Now you also need buffers for the two broadcasted strips.
+
+9
+00:00:26,850 --> 00:00:30,340
+ The amount of storage depends on the strip width, a little less.
+
+10
+00:00:30,340 --> 00:00:32,140
+ So here are the cases.
+
+11
+00:00:32,140 --> 00:00:36,460
+ S has to go between one and N over root P, as you'll remember.
+
+12
+00:00:36,460 --> 00:00:41,030
+ When S is less than one half N over root P, then the total storage is
+
+13
+00:00:41,030 --> 00:00:45,330
+ less than four N squared over P, meaning less than the 1D algorithm.
+
+14
+00:00:45,330 --> 00:00:50,130
+ Remember that the problem with a smaller s is it increases the latency time.
+
+15
+00:00:50,130 --> 00:00:54,690
+ Now if instead s is greater than 1/2 n over root P then of course the storage
+
+16
+00:00:54,690 --> 00:00:59,420
+ will be greater than 4 n squared over P or more than the 1D algorithm.
+
+17
+00:00:59,420 --> 00:01:03,390
+ In fact what happens when s is its maximum value.
+
+18
+00:01:03,390 --> 00:01:07,420
+ In that case the SUMMA algorithm might need five times n squared over P worth
+
+19
+00:01:07,420 --> 00:01:11,610
+ of storage compared to four times for the 1D algorithm.
+
+20
+00:01:11,610 --> 00:01:14,510
+ The interesting bit of course, is that the strip width serves as a tuning
+
+21
+00:01:14,510 --> 00:01:18,000
+ parameter which adjusts the relevant importance of the latency term,
+
+22
+00:01:18,000 --> 00:01:22,530
+ the bandwidth term, the overall scaling and the memory requirement.
+
+23
+00:01:22,530 --> 00:01:25,140
+ It's the overall simplicity of a summa algorithm,
+
+24
+00:01:25,140 --> 00:01:29,240
+ combined with this tuning parameter that let's you trade off time and storage.
+
+25
+00:01:29,240 --> 00:01:32,960
+ That made summa the gold standard for dense linear algebra at least for
+
+26
+00:01:32,960 --> 00:01:32,960
+ the better part of the last 20 years or so.
+

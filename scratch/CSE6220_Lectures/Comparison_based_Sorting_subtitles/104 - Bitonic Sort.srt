@@ -1,0 +1,88 @@
+1
+00:00:00,400 --> 00:00:03,520
+ For completeness, let's briefly summarize where you stand,
+
+2
+00:00:03,520 --> 00:00:07,580
+ with respect to sorting, using bitonic ideas.
+
+3
+00:00:07,580 --> 00:00:09,620
+ First, given an arbitrary input,
+
+4
+00:00:09,620 --> 00:00:12,686
+ you have a procedure to generate a bitonic sequence.
+
+5
+00:00:12,686 --> 00:00:15,750
+ A pseudocode algorithm would look something like this.
+
+6
+00:00:15,750 --> 00:00:18,442
+ You can think of it in terms of divide and conquer,
+
+7
+00:00:18,442 --> 00:00:21,710
+ first you create two bitonic subsequences.
+
+8
+00:00:21,710 --> 00:00:24,670
+ Then you turn one into an increasing sequence and
+
+9
+00:00:24,670 --> 00:00:27,420
+ the other into a decreasing sequence.
+
+10
+00:00:27,420 --> 00:00:32,619
+ The main thing you need are both plus and minus variations on bitonic merge.
+
+11
+00:00:32,619 --> 00:00:36,580
+ Now once you have this primitive, sorting becomes really easy.
+
+12
+00:00:36,580 --> 00:00:40,740
+ Use this routine to generate a bitonic sequence from an arbitrary input,
+
+13
+00:00:40,740 --> 00:00:43,340
+ then run a bitonicMerge on it.
+
+14
+00:00:43,340 --> 00:00:47,045
+ Schematically, that's just glueing the genBitonic circuit with
+
+15
+00:00:47,045 --> 00:00:49,535
+ a bitonicMerge circuit.
+
+16
+00:00:49,535 --> 00:00:53,465
+ You can show that the work in span, a bitonic sorting is as follows,
+
+17
+00:00:53,465 --> 00:00:56,535
+ notice that with respect to span, it's polylogarithmic.
+
+18
+00:00:56,535 --> 00:00:59,057
+ That's good, but what about work?
+
+19
+00:00:59,057 --> 00:01:02,487
+ With respect to work, this algorithm is not work optimal.
+
+20
+00:01:02,487 --> 00:01:06,940
+ You know from CS101, that practical comparison based algorithms
+
+21
+00:01:06,940 --> 00:01:09,437
+ are possible with just O of n log n work.
+
+22
+00:01:09,437 --> 00:01:09,437
+ Of course, that begs the question why bother with bitonic sorting?
+

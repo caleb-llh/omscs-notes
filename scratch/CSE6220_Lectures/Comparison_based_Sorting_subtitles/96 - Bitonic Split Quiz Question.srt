@@ -1,0 +1,52 @@
+1
+00:00:00,650 --> 00:00:04,310
+ Recall that a bitonic split takes a bitonic sequence as input and
+
+2
+00:00:04,310 --> 00:00:07,950
+ produces two bitonic subsequences as output.
+
+3
+00:00:07,950 --> 00:00:11,280
+ Now suppose I give you an eight element bitonic sequence.
+
+4
+00:00:11,280 --> 00:00:13,900
+ You can implement an eight element bitonic split
+
+5
+00:00:13,900 --> 00:00:16,149
+ using a comparator circuit.
+
+6
+00:00:16,149 --> 00:00:18,440
+ I want you to show me how.
+
+7
+00:00:18,440 --> 00:00:23,320
+ I want you to do that by adding plus comparators to this circuit.
+
+8
+00:00:23,320 --> 00:00:27,340
+ Insert no more than one comparator per column.
+
+9
+00:00:27,340 --> 00:00:29,760
+ Here's an example of what I want you to do.
+
+10
+00:00:29,760 --> 00:00:33,580
+ Suppose you wanted to connect this input and this input by a plus comparator.
+
+11
+00:00:33,580 --> 00:00:37,960
+ You would do that by checking these two boxes.
+
+12
+00:00:37,960 --> 00:00:41,670
+ If you left these three columns blank, then this would be the output.
+
+13
+00:00:41,670 --> 00:00:41,670
+ Okay, now I want you to try.
+

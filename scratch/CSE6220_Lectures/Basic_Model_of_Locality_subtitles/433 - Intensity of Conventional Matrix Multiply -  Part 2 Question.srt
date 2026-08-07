@@ -1,0 +1,80 @@
+1
+00:00:00,270 --> 00:00:03,770
+ Consider the conventional matrix, matrix multiply algorithm.
+
+2
+00:00:03,770 --> 00:00:06,570
+ Suppose you compute it block by block.
+
+3
+00:00:06,570 --> 00:00:11,530
+ That is let's conceptually divide A, B and C into a little b by b blocks.
+
+4
+00:00:11,530 --> 00:00:14,110
+ An algorithm might then look like this.
+
+5
+00:00:14,110 --> 00:00:17,420
+ The algorithm iterates over blocks of C.
+
+6
+00:00:17,420 --> 00:00:19,850
+ It then reads blocks of A and B.
+
+7
+00:00:19,850 --> 00:00:22,090
+ Given the blocks, it multiplies them.
+
+8
+00:00:22,090 --> 00:00:24,040
+ Finally it stores the block.
+
+9
+00:00:24,040 --> 00:00:28,780
+ All these reads and writes of blocks are basically slow fast memory transfers.
+
+10
+00:00:28,780 --> 00:00:30,490
+ I want you to count them up.
+
+11
+00:00:30,490 --> 00:00:34,130
+ After doing so, you should be able to tell me the asymptotic intensity of this
+
+12
+00:00:34,130 --> 00:00:36,820
+ blocked matrix matrix multiply algorithm.
+
+13
+00:00:36,820 --> 00:00:39,800
+ Before you start, let's make some simplifying assumptions.
+
+14
+00:00:39,800 --> 00:00:42,240
+ First, let's assume L=1.
+
+15
+00:00:42,240 --> 00:00:45,340
+ Next, assume that b | n.
+
+16
+00:00:45,340 --> 00:00:47,577
+ You can also assume that n | Z.
+
+17
+00:00:47,577 --> 00:00:50,940
+ Lastly, since you need the blocks of A, B, and
+
+18
+00:00:50,940 --> 00:00:53,830
+ C to fit into fast memory in order to multiply them,
+
+19
+00:00:53,830 --> 00:00:59,150
+ let's also assume that the fast memory size is 3 b squared plus a little.
+
+20
+00:00:59,150 --> 00:00:59,150
+ Express your answer in terms of n, little b, or z here.
+

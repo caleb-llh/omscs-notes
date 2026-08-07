@@ -1,0 +1,152 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:03.260 align:start position:0%
+ 
+we<00:00:00.210><c> have</c><00:00:00.390><c> seen</c><00:00:00.659><c> some</c><00:00:00.989><c> aspects</c><00:00:01.650><c> of</c><00:00:01.709><c> VL</c><00:00:02.280><c> iw</c><00:00:02.760><c> now</c>
+
+00:00:03.260 --> 00:00:03.270 align:start position:0%
+we have seen some aspects of VL iw now
+ 
+
+00:00:03.270 --> 00:00:04.999 align:start position:0%
+we have seen some aspects of VL iw now
+let's<00:00:03.540><c> discuss</c><00:00:03.810><c> the</c><00:00:04.259><c> alive</c><00:00:04.589><c> backward</c>
+
+00:00:04.999 --> 00:00:05.009 align:start position:0%
+let's discuss the alive backward
+ 
+
+00:00:05.009 --> 00:00:08.000 align:start position:0%
+let's discuss the alive backward
+compatibility<00:00:05.549><c> as</c><00:00:06.000><c> a</c><00:00:06.450><c> quiz</c><00:00:07.020><c> let's</c><00:00:07.649><c> say</c><00:00:07.890><c> we</c>
+
+00:00:08.000 --> 00:00:08.010 align:start position:0%
+compatibility as a quiz let's say we
+ 
+
+00:00:08.010 --> 00:00:11.290 align:start position:0%
+compatibility as a quiz let's say we
+have<00:00:08.160><c> a</c><00:00:08.189><c> simple</c><00:00:08.730><c> viola</c><00:00:09.059><c> W</c><00:00:09.389><c> processor</c><00:00:09.960><c> it</c><00:00:10.200><c> has</c><00:00:10.559><c> a</c>
+
+00:00:11.290 --> 00:00:11.300 align:start position:0%
+have a simple viola W processor it has a
+ 
+
+00:00:11.300 --> 00:00:15.020 align:start position:0%
+have a simple viola W processor it has a
+64<00:00:12.300><c> bit</c><00:00:12.540><c> that</c><00:00:13.009><c> specifies</c><00:00:14.009><c> two</c><00:00:14.219><c> operations</c><00:00:14.790><c> so</c>
+
+00:00:15.020 --> 00:00:15.030 align:start position:0%
+64 bit that specifies two operations so
+ 
+
+00:00:15.030 --> 00:00:16.880 align:start position:0%
+64 bit that specifies two operations so
+it's<00:00:15.150><c> roughly</c><00:00:15.330><c> equivalent</c><00:00:15.599><c> to</c><00:00:16.080><c> two</c><00:00:16.289><c> normal</c>
+
+00:00:16.880 --> 00:00:16.890 align:start position:0%
+it's roughly equivalent to two normal
+ 
+
+00:00:16.890 --> 00:00:18.560 align:start position:0%
+it's roughly equivalent to two normal
+instructions<00:00:17.460><c> and</c><00:00:17.699><c> let's</c><00:00:18.210><c> say</c><00:00:18.300><c> that</c><00:00:18.330><c> this</c>
+
+00:00:18.560 --> 00:00:18.570 align:start position:0%
+instructions and let's say that this
+ 
+
+00:00:18.570 --> 00:00:20.570 align:start position:0%
+instructions and let's say that this
+processor<00:00:19.140><c> fetches</c><00:00:19.650><c> the</c><00:00:19.680><c> codes</c><00:00:19.980><c> and</c><00:00:20.100><c> executes</c>
+
+00:00:20.570 --> 00:00:20.580 align:start position:0%
+processor fetches the codes and executes
+ 
+
+00:00:20.580 --> 00:00:23.750 align:start position:0%
+processor fetches the codes and executes
+etc<00:00:21.180><c> one</c><00:00:21.869><c> of</c><00:00:22.109><c> these</c><00:00:22.289><c> 64-bit</c><00:00:22.949><c> instructions</c><00:00:23.550><c> per</c>
+
+00:00:23.750 --> 00:00:23.760 align:start position:0%
+etc one of these 64-bit instructions per
+ 
+
+00:00:23.760 --> 00:00:26.089 align:start position:0%
+etc one of these 64-bit instructions per
+cycle<00:00:23.939><c> now</c><00:00:24.720><c> we</c><00:00:24.779><c> want</c><00:00:25.109><c> to</c><00:00:25.230><c> build</c><00:00:25.350><c> a</c><00:00:25.619><c> better</c>
+
+00:00:26.089 --> 00:00:26.099 align:start position:0%
+cycle now we want to build a better
+ 
+
+00:00:26.099 --> 00:00:28.550 align:start position:0%
+cycle now we want to build a better
+version<00:00:26.640><c> of</c><00:00:26.730><c> this</c><00:00:26.880><c> processor</c><00:00:27.510><c> it</c><00:00:27.930><c> can</c><00:00:28.170><c> do</c><00:00:28.289><c> four</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+version of this processor it can do four
+ 
+
+00:00:28.560 --> 00:00:31.339 align:start position:0%
+version of this processor it can do four
+operations<00:00:29.099><c> per</c><00:00:29.250><c> cycle</c><00:00:29.519><c> so</c><00:00:30.300><c> it</c><00:00:30.810><c> will</c><00:00:31.050><c> need</c><00:00:31.170><c> to</c>
+
+00:00:31.339 --> 00:00:31.349 align:start position:0%
+operations per cycle so it will need to
+ 
+
+00:00:31.349 --> 00:00:33.350 align:start position:0%
+operations per cycle so it will need to
+fetch<00:00:31.590><c> the</c><00:00:31.800><c> code</c><00:00:31.949><c> and</c><00:00:32.160><c> execute</c><00:00:32.250><c> two</c><00:00:32.850><c> of</c><00:00:33.090><c> those</c>
+
+00:00:33.350 --> 00:00:33.360 align:start position:0%
+fetch the code and execute two of those
+ 
+
+00:00:33.360 --> 00:00:36.260 align:start position:0%
+fetch the code and execute two of those
+64-bit<00:00:34.230><c> instructions</c><00:00:34.829><c> per</c><00:00:35.070><c> cycle</c><00:00:35.280><c> the</c>
+
+00:00:36.260 --> 00:00:36.270 align:start position:0%
+64-bit instructions per cycle the
+ 
+
+00:00:36.270 --> 00:00:38.660 align:start position:0%
+64-bit instructions per cycle the
+question<00:00:36.660><c> for</c><00:00:36.870><c> you</c><00:00:37.079><c> is</c><00:00:37.380><c> is</c><00:00:38.010><c> this</c><00:00:38.399><c> new</c>
+
+00:00:38.660 --> 00:00:38.670 align:start position:0%
+question for you is is this new
+ 
+
+00:00:38.670 --> 00:00:41.810 align:start position:0%
+question for you is is this new
+processor<00:00:39.360><c> a</c><00:00:39.570><c> viola</c><00:00:40.110><c> W</c><00:00:40.440><c> processor</c><00:00:41.010><c> the</c>
+
+00:00:41.810 --> 00:00:41.820 align:start position:0%
+processor a viola W processor the
+ 
+
+00:00:41.820 --> 00:00:44.030 align:start position:0%
+processor a viola W processor the
+possible<00:00:42.239><c> answers</c><00:00:42.570><c> for</c><00:00:42.750><c> you</c><00:00:42.870><c> are</c><00:00:43.079><c> yes</c><00:00:43.680><c> it</c><00:00:43.860><c> is</c>
+
+00:00:44.030 --> 00:00:44.040 align:start position:0%
+possible answers for you are yes it is
+ 
+
+00:00:44.040 --> 00:00:46.490 align:start position:0%
+possible answers for you are yes it is
+or<00:00:44.280><c> no</c><00:00:44.760><c> it's</c><00:00:45.030><c> not</c><00:00:45.149><c> really</c><00:00:45.690><c> a</c><00:00:45.719><c> viola</c><00:00:46.170><c> double</c>
+
+00:00:46.490 --> 00:00:46.500 align:start position:0%
+or no it's not really a viola double
+ 
+
+00:00:46.500 --> 00:00:48.980 align:start position:0%
+or no it's not really a viola double
+processor
+

@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.510 align:start position:0%
+ 
+so<00:00:00.329><c> we</c><00:00:00.480><c> can</c><00:00:00.690><c> measure</c><00:00:01.170><c> performance</c><00:00:01.319><c> as</c><00:00:02.159><c> either</c>
+
+00:00:02.510 --> 00:00:02.520 align:start position:0%
+so we can measure performance as either
+ 
+
+00:00:02.520 --> 00:00:05.059 align:start position:0%
+so we can measure performance as either
+latency<00:00:03.210><c> or</c><00:00:03.360><c> throughput</c><00:00:03.470><c> let's</c><00:00:04.470><c> say</c><00:00:04.650><c> now</c><00:00:04.830><c> how</c>
+
+00:00:05.059 --> 00:00:05.069 align:start position:0%
+latency or throughput let's say now how
+ 
+
+00:00:05.069 --> 00:00:06.860 align:start position:0%
+latency or throughput let's say now how
+do<00:00:05.130><c> we</c><00:00:05.250><c> compare</c><00:00:05.759><c> performance</c><00:00:06.450><c> of</c><00:00:06.660><c> two</c>
+
+00:00:06.860 --> 00:00:06.870 align:start position:0%
+do we compare performance of two
+ 
+
+00:00:06.870 --> 00:00:09.080 align:start position:0%
+do we compare performance of two
+different<00:00:07.200><c> systems</c><00:00:07.680><c> so</c><00:00:08.309><c> we</c><00:00:08.519><c> want</c><00:00:08.760><c> to</c><00:00:08.880><c> be</c><00:00:09.030><c> able</c>
+
+00:00:09.080 --> 00:00:09.090 align:start position:0%
+different systems so we want to be able
+ 
+
+00:00:09.090 --> 00:00:12.259 align:start position:0%
+different systems so we want to be able
+to<00:00:09.330><c> say</c><00:00:09.510><c> something</c><00:00:09.780><c> like</c><00:00:10.070><c> system</c><00:00:11.070><c> X</c><00:00:11.280><c> is</c><00:00:11.910><c> n</c>
+
+00:00:12.259 --> 00:00:12.269 align:start position:0%
+to say something like system X is n
+ 
+
+00:00:12.269 --> 00:00:14.900 align:start position:0%
+to say something like system X is n
+times<00:00:12.660><c> faster</c><00:00:13.049><c> than</c><00:00:13.530><c> system</c><00:00:13.920><c> Y</c><00:00:14.099><c> and</c><00:00:14.460><c> the</c><00:00:14.730><c> way</c>
+
+00:00:14.900 --> 00:00:14.910 align:start position:0%
+times faster than system Y and the way
+ 
+
+00:00:14.910 --> 00:00:17.330 align:start position:0%
+times faster than system Y and the way
+we<00:00:15.120><c> usually</c><00:00:15.269><c> refer</c><00:00:15.719><c> to</c><00:00:15.960><c> this</c><00:00:16.320><c> statement</c><00:00:16.890><c> is</c>
+
+00:00:17.330 --> 00:00:17.340 align:start position:0%
+we usually refer to this statement is
+ 
+
+00:00:17.340 --> 00:00:20.060 align:start position:0%
+we usually refer to this statement is
+that<00:00:17.369><c> the</c><00:00:17.850><c> speed</c><00:00:18.180><c> up</c><00:00:18.330><c> of</c><00:00:18.480><c> X</c><00:00:18.750><c> over</c><00:00:19.080><c> Y</c><00:00:19.320><c> is</c><00:00:19.560><c> equal</c>
+
+00:00:20.060 --> 00:00:20.070 align:start position:0%
+that the speed up of X over Y is equal
+ 
+
+00:00:20.070 --> 00:00:24.050 align:start position:0%
+that the speed up of X over Y is equal
+to<00:00:20.189><c> n</c><00:00:20.400><c> so</c><00:00:21.210><c> we</c><00:00:21.330><c> compute</c><00:00:21.720><c> n</c><00:00:21.930><c> as</c><00:00:22.320><c> the</c><00:00:23.310><c> speed</c><00:00:23.670><c> of</c><00:00:23.820><c> X</c>
+
+00:00:24.050 --> 00:00:24.060 align:start position:0%
+to n so we compute n as the speed of X
+ 
+
+00:00:24.060 --> 00:00:26.689 align:start position:0%
+to n so we compute n as the speed of X
+divided<00:00:24.630><c> by</c><00:00:24.779><c> speed</c><00:00:25.199><c> of</c><00:00:25.410><c> Y</c><00:00:25.619><c> and</c><00:00:25.920><c> now</c><00:00:26.279><c> it</c><00:00:26.400><c> starts</c>
+
+00:00:26.689 --> 00:00:26.699 align:start position:0%
+divided by speed of Y and now it starts
+ 
+
+00:00:26.699 --> 00:00:28.519 align:start position:0%
+divided by speed of Y and now it starts
+to<00:00:26.849><c> matter</c><00:00:27.000><c> whether</c><00:00:27.300><c> we</c><00:00:27.510><c> have</c><00:00:27.689><c> latency</c><00:00:28.320><c> as</c><00:00:28.500><c> a</c>
+
+00:00:28.519 --> 00:00:28.529 align:start position:0%
+to matter whether we have latency as a
+ 
+
+00:00:28.529 --> 00:00:31.040 align:start position:0%
+to matter whether we have latency as a
+measure<00:00:28.890><c> of</c><00:00:28.980><c> speed</c><00:00:29.460><c> or</c><00:00:30.060><c> throughput</c><00:00:30.420><c> for</c>
+
+00:00:31.040 --> 00:00:31.050 align:start position:0%
+measure of speed or throughput for
+ 
+
+00:00:31.050 --> 00:00:33.229 align:start position:0%
+measure of speed or throughput for
+throughput<00:00:31.560><c> and</c><00:00:31.769><c> can</c><00:00:32.219><c> be</c><00:00:32.309><c> computed</c><00:00:32.759><c> simply</c><00:00:32.940><c> as</c>
+
+00:00:33.229 --> 00:00:33.239 align:start position:0%
+throughput and can be computed simply as
+ 
+
+00:00:33.239 --> 00:00:35.569 align:start position:0%
+throughput and can be computed simply as
+the<00:00:33.510><c> throughput</c><00:00:33.899><c> of</c><00:00:34.200><c> x</c><00:00:34.469><c> divided</c><00:00:35.430><c> by</c>
+
+00:00:35.569 --> 00:00:35.579 align:start position:0%
+the throughput of x divided by
+ 
+
+00:00:35.579 --> 00:00:39.020 align:start position:0%
+the throughput of x divided by
+throughput<00:00:36.059><c> of</c><00:00:36.090><c> Y</c><00:00:36.390><c> but</c><00:00:37.020><c> for</c><00:00:37.260><c> latency</c><00:00:37.850><c> speed</c><00:00:38.850><c> of</c>
+
+00:00:39.020 --> 00:00:39.030 align:start position:0%
+throughput of Y but for latency speed of
+ 
+
+00:00:39.030 --> 00:00:42.410 align:start position:0%
+throughput of Y but for latency speed of
+X<00:00:39.270><c> is</c><00:00:39.809><c> not</c><00:00:40.170><c> proportional</c><00:00:40.980><c> to</c><00:00:41.610><c> the</c><00:00:41.760><c> latency</c><00:00:42.239><c> of</c>
+
+00:00:42.410 --> 00:00:42.420 align:start position:0%
+X is not proportional to the latency of
+ 
+
+00:00:42.420 --> 00:00:45.260 align:start position:0%
+X is not proportional to the latency of
+X<00:00:42.660><c> the</c><00:00:43.350><c> longer</c><00:00:43.739><c> the</c><00:00:43.860><c> latency</c><00:00:44.460><c> the</c><00:00:44.820><c> lower</c><00:00:45.000><c> the</c>
+
+00:00:45.260 --> 00:00:45.270 align:start position:0%
+X the longer the latency the lower the
+ 
+
+00:00:45.270 --> 00:00:48.110 align:start position:0%
+X the longer the latency the lower the
+speed<00:00:45.570><c> so</c><00:00:46.140><c> what</c><00:00:46.289><c> we</c><00:00:46.440><c> do</c><00:00:46.590><c> instead</c><00:00:46.739><c> is</c><00:00:47.280><c> we</c><00:00:47.820><c> divide</c>
+
+00:00:48.110 --> 00:00:48.120 align:start position:0%
+speed so what we do instead is we divide
+ 
+
+00:00:48.120 --> 00:00:51.229 align:start position:0%
+speed so what we do instead is we divide
+the<00:00:48.300><c> latency</c><00:00:48.690><c> of</c><00:00:48.840><c> Y</c><00:00:49.079><c> by</c><00:00:49.680><c> the</c><00:00:49.739><c> latency</c><00:00:50.250><c> of</c><00:00:50.399><c> X</c><00:00:50.670><c> to</c>
+
+00:00:51.229 --> 00:00:51.239 align:start position:0%
+the latency of Y by the latency of X to
+ 
+
+00:00:51.239 --> 00:00:56.210 align:start position:0%
+the latency of Y by the latency of X to
+get<00:00:51.420><c> the</c><00:00:51.660><c> speed-up</c><00:00:51.960><c> of</c><00:00:52.289><c> x</c><00:00:53.000><c> over</c><00:00:54.000><c> Y</c>
+

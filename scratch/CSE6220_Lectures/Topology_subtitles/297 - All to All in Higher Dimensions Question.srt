@@ -1,0 +1,36 @@
+1
+00:00:00,330 --> 00:00:01,620
+ Recall the running time for
+
+2
+00:00:01,620 --> 00:00:04,555
+ an all to all personalized exchange on a ring network.
+
+3
+00:00:04,555 --> 00:00:07,760
+ Here is Mr. Tofu's question.
+
+4
+00:00:07,760 --> 00:00:12,160
+ What network has the best chance of reducing the asymptotic running time
+
+5
+00:00:12,160 --> 00:00:16,500
+ from being linear nP to being, say logarithmic in P?
+
+6
+00:00:16,500 --> 00:00:18,420
+ I'll give you four choices.
+
+7
+00:00:18,420 --> 00:00:22,020
+ Complete binary tree, d dimensional torus, a hypercube, and
+
+8
+00:00:22,020 --> 00:00:23,600
+ a fully connected network.
+
+9
+00:00:23,600 --> 00:00:23,600
+ And I want you to check all that you think apply.
+

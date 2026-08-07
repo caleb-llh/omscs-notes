@@ -1,0 +1,36 @@
+1
+00:00:00,350 --> 00:00:02,020
+ Consider six processes.
+
+2
+00:00:02,020 --> 00:00:04,630
+ Each of which has a buffer named x.
+
+3
+00:00:04,630 --> 00:00:07,040
+ X is large enough to hold a single value.
+
+4
+00:00:07,040 --> 00:00:09,580
+ The initial values of x are as shown.
+
+5
+00:00:09,580 --> 00:00:12,120
+ Suppose we run this pseudocode program.
+
+6
+00:00:12,120 --> 00:00:17,150
+ If this is the initial state, what is the final state of x on all the nodes?
+
+7
+00:00:17,150 --> 00:00:20,810
+ I want you to fill in these blanks with the final values.
+
+8
+00:00:20,810 --> 00:00:21,630
+ And if for some reason,
+
+9
+00:00:21,630 --> 00:00:21,630
+ you think a value is undefined, put in a question mark.
+

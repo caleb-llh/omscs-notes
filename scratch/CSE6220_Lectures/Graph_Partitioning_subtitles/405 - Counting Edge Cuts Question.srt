@@ -1,0 +1,132 @@
+1
+00:00:00,260 --> 00:00:02,050
+ Hey, remember this fact?
+
+2
+00:00:02,050 --> 00:00:05,730
+ >From a partitioned graph you create a special vector x with plus minus
+
+3
+00:00:05,730 --> 00:00:08,060
+ one entries depending on the partition.
+
+4
+00:00:08,060 --> 00:00:08,930
+ And then we said,
+
+5
+00:00:08,930 --> 00:00:12,780
+ well, if you want to count the number of cut edges then you look at this product.
+
+6
+00:00:12,780 --> 00:00:15,660
+ Let's write this product out explicitly.
+
+7
+00:00:15,660 --> 00:00:19,010
+ So x transpose l times x it turns out is this sum.
+
+8
+00:00:19,010 --> 00:00:23,940
+ It's a sum over all pairs of vertices above l i j, times x i, times x j.
+
+9
+00:00:23,940 --> 00:00:25,230
+ Now let's go one step further and
+
+10
+00:00:25,230 --> 00:00:28,950
+ actually break this sum apart into five components.
+
+11
+00:00:28,950 --> 00:00:29,600
+ Yikes.
+
+12
+00:00:29,600 --> 00:00:30,750
+ Looks complicated.
+
+13
+00:00:30,750 --> 00:00:32,259
+ But don't worry it's not that bad.
+
+14
+00:00:32,259 --> 00:00:35,090
+ You can with some effort interpret these sums for
+
+15
+00:00:35,090 --> 00:00:37,350
+ instance, what is this first sum?
+
+16
+00:00:37,350 --> 00:00:41,660
+ Well, it's a sum over the subset of INJ where I is equal to j.
+
+17
+00:00:41,660 --> 00:00:44,170
+ In fact, that simplifies the sum and.
+
+18
+00:00:44,170 --> 00:00:48,880
+ For example, lij for i equal to j is just the diaganol of l and
+
+19
+00:00:48,880 --> 00:00:54,510
+ i equals j of xi and xj is just essentially xi or xj squared.
+
+20
+00:00:54,510 --> 00:00:57,510
+ In other words, the sum and is just lii times xi squared.
+
+21
+00:00:57,510 --> 00:01:00,010
+ But you know exactly what that is.
+
+22
+00:01:00,010 --> 00:01:03,150
+ The lii are the degrees of the vertices.
+
+23
+00:01:03,150 --> 00:01:05,160
+ And xi squared is just always one,
+
+24
+00:01:05,160 --> 00:01:08,400
+ independent of whether xi is plus one or minus one.
+
+25
+00:01:08,400 --> 00:01:12,710
+ So if I were to ask you to give me the values of say, lii and xi Xi squared,
+
+26
+00:01:12,710 --> 00:01:17,940
+ you would say lii is di, the degree of vertex i, and xi is plus 1.
+
+27
+00:01:17,940 --> 00:01:20,940
+ By the way, what is this?
+
+28
+00:01:20,940 --> 00:01:24,980
+ Well, if I'm summing the degrees of all the vertices, then what am I doing?
+
+29
+00:01:24,980 --> 00:01:28,370
+ I'm basically counting the number of edges twice.
+
+30
+00:01:28,370 --> 00:01:31,350
+ My question is, can you do the remaining sums?
+
+31
+00:01:31,350 --> 00:01:36,190
+ For instance, can you interpret this sum and then figure out what lij, xi, and
+
+32
+00:01:36,190 --> 00:01:38,070
+ xj are?
+
+33
+00:01:38,070 --> 00:01:38,070
+ So, think about that and write your answers in the boxes.
+

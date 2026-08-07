@@ -1,0 +1,1248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.520 --> 00:00:02.510 align:start position:0%
+ 
+so<00:00:00.760><c> before</c><00:00:01.040><c> we</c><00:00:01.199><c> go</c><00:00:01.480><c> into</c><00:00:01.920><c> how</c><00:00:02.159><c> exactly</c>
+
+00:00:02.510 --> 00:00:02.520 align:start position:0%
+so before we go into how exactly
+ 
+
+00:00:02.520 --> 00:00:04.829 align:start position:0%
+so before we go into how exactly
+tomasulo's<00:00:03.120><c> algorithm</c><00:00:03.600><c> Works</c><00:00:04.400><c> let's</c><00:00:04.600><c> kind</c><00:00:04.720><c> of</c>
+
+00:00:04.829 --> 00:00:04.839 align:start position:0%
+tomasulo's algorithm Works let's kind of
+ 
+
+00:00:04.839 --> 00:00:07.030 align:start position:0%
+tomasulo's algorithm Works let's kind of
+see<00:00:05.040><c> an</c><00:00:05.200><c> overview</c><00:00:05.720><c> picture</c><00:00:06.200><c> of</c><00:00:06.640><c> what's</c><00:00:06.879><c> going</c>
+
+00:00:07.030 --> 00:00:07.040 align:start position:0%
+see an overview picture of what's going
+ 
+
+00:00:07.040 --> 00:00:08.830 align:start position:0%
+see an overview picture of what's going
+on<00:00:07.200><c> in</c><00:00:07.439><c> there</c><00:00:07.720><c> just</c><00:00:08.000><c> like</c><00:00:08.200><c> what</c><00:00:08.360><c> the</c><00:00:08.519><c> hardware</c>
+
+00:00:08.830 --> 00:00:08.840 align:start position:0%
+on in there just like what the hardware
+ 
+
+00:00:08.840 --> 00:00:11.830 align:start position:0%
+on in there just like what the hardware
+structur<00:00:09.400><c> looks</c><00:00:09.679><c> like</c><00:00:10.400><c> so</c><00:00:10.719><c> first</c><00:00:11.400><c> there</c><00:00:11.519><c> is</c><00:00:11.639><c> an</c>
+
+00:00:11.830 --> 00:00:11.840 align:start position:0%
+structur looks like so first there is an
+ 
+
+00:00:11.840 --> 00:00:14.589 align:start position:0%
+structur looks like so first there is an
+instruction<00:00:12.320><c> Quee</c><00:00:12.599><c> which</c><00:00:12.679><c> I</c><00:00:12.799><c> labeled</c><00:00:13.240><c> here</c><00:00:13.599><c> IQ</c>
+
+00:00:14.589 --> 00:00:14.599 align:start position:0%
+instruction Quee which I labeled here IQ
+ 
+
+00:00:14.599 --> 00:00:16.230 align:start position:0%
+instruction Quee which I labeled here IQ
+instructions<00:00:15.080><c> come</c><00:00:15.280><c> from</c><00:00:15.440><c> the</c><00:00:15.559><c> fetch</c><00:00:15.799><c> unit</c><00:00:16.119><c> in</c>
+
+00:00:16.230 --> 00:00:16.240 align:start position:0%
+instructions come from the fetch unit in
+ 
+
+00:00:16.240 --> 00:00:17.910 align:start position:0%
+instructions come from the fetch unit in
+the<00:00:16.359><c> order</c><00:00:16.640><c> in</c><00:00:16.800><c> which</c><00:00:16.960><c> they</c><00:00:17.080><c> were</c><00:00:17.240><c> fetched</c><00:00:17.720><c> and</c>
+
+00:00:17.910 --> 00:00:17.920 align:start position:0%
+the order in which they were fetched and
+ 
+
+00:00:17.920 --> 00:00:19.189 align:start position:0%
+the order in which they were fetched and
+again<00:00:18.080><c> these</c><00:00:18.199><c> are</c><00:00:18.359><c> only</c><00:00:18.560><c> floating</c><00:00:18.960><c> Point</c>
+
+00:00:19.189 --> 00:00:19.199 align:start position:0%
+again these are only floating Point
+ 
+
+00:00:19.199 --> 00:00:20.750 align:start position:0%
+again these are only floating Point
+instruction<00:00:19.680><c> and</c><00:00:19.800><c> then</c><00:00:19.920><c> they're</c><00:00:20.199><c> queued</c><00:00:20.519><c> up</c>
+
+00:00:20.750 --> 00:00:20.760 align:start position:0%
+instruction and then they're queued up
+ 
+
+00:00:20.760 --> 00:00:22.230 align:start position:0%
+instruction and then they're queued up
+here<00:00:21.000><c> so</c><00:00:21.160><c> this</c><00:00:21.279><c> is</c><00:00:21.439><c> basically</c><00:00:21.840><c> like</c><00:00:22.000><c> this</c><00:00:22.080><c> is</c>
+
+00:00:22.230 --> 00:00:22.240 align:start position:0%
+here so this is basically like this is
+ 
+
+00:00:22.240 --> 00:00:24.550 align:start position:0%
+here so this is basically like this is
+the<00:00:22.519><c> kind</c><00:00:22.640><c> of</c><00:00:23.279><c> oldest</c><00:00:23.680><c> instruction</c><00:00:24.199><c> the</c><00:00:24.359><c> next</c>
+
+00:00:24.550 --> 00:00:24.560 align:start position:0%
+the kind of oldest instruction the next
+ 
+
+00:00:24.560 --> 00:00:26.029 align:start position:0%
+the kind of oldest instruction the next
+one<00:00:24.800><c> the</c><00:00:24.920><c> next</c><00:00:25.119><c> one</c><00:00:25.320><c> the</c><00:00:25.439><c> next</c><00:00:25.640><c> one</c><00:00:25.840><c> and</c><00:00:25.960><c> we</c>
+
+00:00:26.029 --> 00:00:26.039 align:start position:0%
+one the next one the next one and we
+ 
+
+00:00:26.039 --> 00:00:27.950 align:start position:0%
+one the next one the next one and we
+will<00:00:26.240><c> be</c><00:00:26.400><c> kind</c><00:00:26.519><c> of</c><00:00:26.800><c> you</c><00:00:26.880><c> know</c><00:00:27.359><c> dropping</c><00:00:27.800><c> these</c>
+
+00:00:27.950 --> 00:00:27.960 align:start position:0%
+will be kind of you know dropping these
+ 
+
+00:00:27.960 --> 00:00:30.310 align:start position:0%
+will be kind of you know dropping these
+instructions<00:00:28.519><c> into</c><00:00:28.840><c> the</c><00:00:29.000><c> Tomaso's</c><00:00:29.679><c> ALG</c>
+
+00:00:30.310 --> 00:00:30.320 align:start position:0%
+instructions into the Tomaso's ALG
+ 
+
+00:00:30.320 --> 00:00:32.670 align:start position:0%
+instructions into the Tomaso's ALG
+machine<00:00:30.840><c> in</c><00:00:31.000><c> the</c><00:00:31.119><c> order</c><00:00:31.400><c> in</c><00:00:31.560><c> which</c><00:00:31.720><c> they</c><00:00:31.920><c> came</c>
+
+00:00:32.670 --> 00:00:32.680 align:start position:0%
+machine in the order in which they came
+ 
+
+00:00:32.680 --> 00:00:34.310 align:start position:0%
+machine in the order in which they came
+we<00:00:32.840><c> always</c><00:00:33.079><c> grab</c><00:00:33.399><c> the</c><00:00:33.559><c> next</c><00:00:33.879><c> available</c>
+
+00:00:34.310 --> 00:00:34.320 align:start position:0%
+we always grab the next available
+ 
+
+00:00:34.320 --> 00:00:36.950 align:start position:0%
+we always grab the next available
+instruction<00:00:34.840><c> from</c><00:00:35.079><c> the</c><00:00:35.280><c> instruction</c><00:00:35.960><c> queue</c>
+
+00:00:36.950 --> 00:00:36.960 align:start position:0%
+instruction from the instruction queue
+ 
+
+00:00:36.960 --> 00:00:39.590 align:start position:0%
+instruction from the instruction queue
+and<00:00:37.200><c> we</c><00:00:37.360><c> want</c><00:00:37.480><c> to</c><00:00:38.000><c> put</c><00:00:38.200><c> it</c><00:00:38.440><c> into</c><00:00:38.800><c> a</c><00:00:39.000><c> reservation</c>
+
+00:00:39.590 --> 00:00:39.600 align:start position:0%
+and we want to put it into a reservation
+ 
+
+00:00:39.600 --> 00:00:40.830 align:start position:0%
+and we want to put it into a reservation
+station<00:00:39.960><c> there</c><00:00:40.079><c> are</c><00:00:40.239><c> a</c><00:00:40.399><c> number</c><00:00:40.640><c> of</c>
+
+00:00:40.830 --> 00:00:40.840 align:start position:0%
+station there are a number of
+ 
+
+00:00:40.840 --> 00:00:43.670 align:start position:0%
+station there are a number of
+reservation<00:00:41.800><c> stations</c><00:00:42.800><c> that</c><00:00:43.079><c> basically</c><00:00:43.480><c> when</c>
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+reservation stations that basically when
+ 
+
+00:00:43.680 --> 00:00:46.029 align:start position:0%
+reservation stations that basically when
+one<00:00:43.960><c> becomes</c><00:00:44.320><c> available</c><00:00:45.320><c> we</c><00:00:45.440><c> will</c><00:00:45.640><c> put</c><00:00:45.800><c> an</c>
+
+00:00:46.029 --> 00:00:46.039 align:start position:0%
+one becomes available we will put an
+ 
+
+00:00:46.039 --> 00:00:47.990 align:start position:0%
+one becomes available we will put an
+instruction<00:00:46.480><c> into</c><00:00:46.760><c> one</c><00:00:46.879><c> of</c><00:00:47.120><c> those</c><00:00:47.719><c> and</c>
+
+00:00:47.990 --> 00:00:48.000 align:start position:0%
+instruction into one of those and
+ 
+
+00:00:48.000 --> 00:00:49.350 align:start position:0%
+instruction into one of those and
+reservation<00:00:48.480><c> stations</c><00:00:48.879><c> are</c><00:00:49.120><c> where</c>
+
+00:00:49.350 --> 00:00:49.360 align:start position:0%
+reservation stations are where
+ 
+
+00:00:49.360 --> 00:00:51.069 align:start position:0%
+reservation stations are where
+instructions<00:00:49.960><c> basically</c><00:00:50.320><c> sit</c><00:00:50.640><c> for</c><00:00:50.879><c> their</c>
+
+00:00:51.069 --> 00:00:51.079 align:start position:0%
+instructions basically sit for their
+ 
+
+00:00:51.079 --> 00:00:53.549 align:start position:0%
+instructions basically sit for their
+parameters<00:00:51.640><c> to</c><00:00:51.840><c> become</c><00:00:52.199><c> ready</c><00:00:53.199><c> there</c><00:00:53.320><c> is</c><00:00:53.440><c> a</c>
+
+00:00:53.549 --> 00:00:53.559 align:start position:0%
+parameters to become ready there is a
+ 
+
+00:00:53.559 --> 00:00:55.470 align:start position:0%
+parameters to become ready there is a
+floating<00:00:54.000><c> Point</c><00:00:54.239><c> register</c><00:00:54.680><c> file</c><00:00:54.960><c> so</c><00:00:55.199><c> this</c><00:00:55.280><c> is</c>
+
+00:00:55.470 --> 00:00:55.480 align:start position:0%
+floating Point register file so this is
+ 
+
+00:00:55.480 --> 00:00:57.709 align:start position:0%
+floating Point register file so this is
+where<00:00:55.640><c> your</c><00:00:55.800><c> floating</c><00:00:56.239><c> Point</c><00:00:56.559><c> registers</c><00:00:57.039><c> are</c>
+
+00:00:57.709 --> 00:00:57.719 align:start position:0%
+where your floating Point registers are
+ 
+
+00:00:57.719 --> 00:00:59.709 align:start position:0%
+where your floating Point registers are
+and<00:00:58.199><c> when</c><00:00:58.399><c> an</c><00:00:58.640><c> instruction</c><00:00:59.039><c> is</c><00:00:59.199><c> inserted</c><00:00:59.559><c> into</c>
+
+00:00:59.709 --> 00:00:59.719 align:start position:0%
+and when an instruction is inserted into
+ 
+
+00:00:59.719 --> 00:01:01.990 align:start position:0%
+and when an instruction is inserted into
+a<00:00:59.960><c> reservation</c><00:01:00.440><c> station</c><00:01:01.399><c> the</c><00:01:01.559><c> values</c><00:01:01.879><c> that</c>
+
+00:01:01.990 --> 00:01:02.000 align:start position:0%
+a reservation station the values that
+ 
+
+00:01:02.000 --> 00:01:03.430 align:start position:0%
+a reservation station the values that
+are<00:01:02.160><c> already</c><00:01:02.399><c> in</c><00:01:02.559><c> registers</c><00:01:03.039><c> meaning</c><00:01:03.320><c> the</c>
+
+00:01:03.430 --> 00:01:03.440 align:start position:0%
+are already in registers meaning the
+ 
+
+00:01:03.440 --> 00:01:05.469 align:start position:0%
+are already in registers meaning the
+values<00:01:03.719><c> that</c><00:01:03.840><c> are</c><00:01:04.040><c> actually</c><00:01:04.479><c> already</c><00:01:05.159><c> present</c>
+
+00:01:05.469 --> 00:01:05.479 align:start position:0%
+values that are actually already present
+ 
+
+00:01:05.479 --> 00:01:07.590 align:start position:0%
+values that are actually already present
+and<00:01:05.680><c> ready</c><00:01:05.880><c> for</c><00:01:06.159><c> execution</c><00:01:07.000><c> are</c><00:01:07.159><c> going</c><00:01:07.280><c> to</c><00:01:07.439><c> be</c>
+
+00:01:07.590 --> 00:01:07.600 align:start position:0%
+and ready for execution are going to be
+ 
+
+00:01:07.600 --> 00:01:09.310 align:start position:0%
+and ready for execution are going to be
+simply<00:01:08.159><c> entered</c><00:01:08.520><c> into</c><00:01:08.720><c> the</c><00:01:08.840><c> reservation</c>
+
+00:01:09.310 --> 00:01:09.320 align:start position:0%
+simply entered into the reservation
+ 
+
+00:01:09.320 --> 00:01:11.550 align:start position:0%
+simply entered into the reservation
+station<00:01:09.640><c> from</c><00:01:09.799><c> the</c><00:01:09.960><c> register</c><00:01:10.400><c> file</c><00:01:11.119><c> once</c><00:01:11.360><c> an</c>
+
+00:01:11.550 --> 00:01:11.560 align:start position:0%
+station from the register file once an
+ 
+
+00:01:11.560 --> 00:01:13.789 align:start position:0%
+station from the register file once an
+instruction<00:01:11.960><c> is</c><00:01:12.159><c> actually</c><00:01:12.400><c> ready</c><00:01:12.640><c> to</c><00:01:12.880><c> execute</c>
+
+00:01:13.789 --> 00:01:13.799 align:start position:0%
+instruction is actually ready to execute
+ 
+
+00:01:13.799 --> 00:01:16.149 align:start position:0%
+instruction is actually ready to execute
+it<00:01:13.960><c> goes</c><00:01:14.200><c> to</c><00:01:14.320><c> an</c><00:01:14.520><c> execution</c><00:01:15.040><c> unit</c><00:01:15.680><c> and</c><00:01:15.840><c> you</c><00:01:16.000><c> can</c>
+
+00:01:16.149 --> 00:01:16.159 align:start position:0%
+it goes to an execution unit and you can
+ 
+
+00:01:16.159 --> 00:01:17.789 align:start position:0%
+it goes to an execution unit and you can
+have<00:01:16.320><c> different</c><00:01:16.640><c> types</c><00:01:16.840><c> of</c><00:01:17.040><c> execution</c><00:01:17.479><c> units</c>
+
+00:01:17.789 --> 00:01:17.799 align:start position:0%
+have different types of execution units
+ 
+
+00:01:17.799 --> 00:01:20.789 align:start position:0%
+have different types of execution units
+so<00:01:17.960><c> for</c><00:01:18.119><c> example</c><00:01:18.520><c> this</c><00:01:18.640><c> is</c><00:01:18.759><c> a</c><00:01:19.600><c> adder</c><00:01:20.520><c> and</c><00:01:20.680><c> this</c>
+
+00:01:20.789 --> 00:01:20.799 align:start position:0%
+so for example this is a adder and this
+ 
+
+00:01:20.799 --> 00:01:23.270 align:start position:0%
+so for example this is a adder and this
+is<00:01:20.920><c> a</c><00:01:21.119><c> multiplier</c><00:01:22.119><c> so</c><00:01:22.360><c> simple</c><00:01:22.680><c> floating</c><00:01:23.079><c> Point</c>
+
+00:01:23.270 --> 00:01:23.280 align:start position:0%
+is a multiplier so simple floating Point
+ 
+
+00:01:23.280 --> 00:01:24.670 align:start position:0%
+is a multiplier so simple floating Point
+instructions<00:01:23.720><c> would</c><00:01:23.880><c> be</c><00:01:24.079><c> done</c><00:01:24.280><c> in</c><00:01:24.400><c> the</c><00:01:24.560><c> kind</c>
+
+00:01:24.670 --> 00:01:24.680 align:start position:0%
+instructions would be done in the kind
+ 
+
+00:01:24.680 --> 00:01:27.230 align:start position:0%
+instructions would be done in the kind
+of<00:01:24.880><c> Adder</c><00:01:25.680><c> unit</c><00:01:26.119><c> and</c><00:01:26.320><c> the</c><00:01:26.479><c> more</c><00:01:26.680><c> complicated</c>
+
+00:01:27.230 --> 00:01:27.240 align:start position:0%
+of Adder unit and the more complicated
+ 
+
+00:01:27.240 --> 00:01:28.870 align:start position:0%
+of Adder unit and the more complicated
+like<00:01:27.439><c> multiply</c><00:01:27.920><c> and</c><00:01:28.079><c> divide</c><00:01:28.439><c> would</c><00:01:28.600><c> be</c><00:01:28.720><c> done</c>
+
+00:01:28.870 --> 00:01:28.880 align:start position:0%
+like multiply and divide would be done
+ 
+
+00:01:28.880 --> 00:01:30.429 align:start position:0%
+like multiply and divide would be done
+in<00:01:28.960><c> the</c><00:01:29.119><c> multiplier</c><00:01:29.640><c> unit</c>
+
+00:01:30.429 --> 00:01:30.439 align:start position:0%
+in the multiplier unit
+ 
+
+00:01:30.439 --> 00:01:32.270 align:start position:0%
+in the multiplier unit
+each<00:01:30.600><c> of</c><00:01:30.759><c> these</c><00:01:30.880><c> units</c><00:01:31.240><c> really</c><00:01:31.479><c> had</c><00:01:31.960><c> separate</c>
+
+00:01:32.270 --> 00:01:32.280 align:start position:0%
+each of these units really had separate
+ 
+
+00:01:32.280 --> 00:01:34.350 align:start position:0%
+each of these units really had separate
+reservation<00:01:32.799><c> stations</c><00:01:33.280><c> where</c><00:01:33.759><c> instructions</c>
+
+00:01:34.350 --> 00:01:34.360 align:start position:0%
+reservation stations where instructions
+ 
+
+00:01:34.360 --> 00:01:37.149 align:start position:0%
+reservation stations where instructions
+that<00:01:34.479><c> are</c><00:01:34.680><c> going</c><00:01:34.880><c> to</c><00:01:35.159><c> that</c><00:01:35.360><c> unit</c><00:01:35.799><c> would</c><00:01:36.159><c> wait</c>
+
+00:01:37.149 --> 00:01:37.159 align:start position:0%
+that are going to that unit would wait
+ 
+
+00:01:37.159 --> 00:01:40.429 align:start position:0%
+that are going to that unit would wait
+once<00:01:37.640><c> such</c><00:01:37.880><c> a</c><00:01:38.079><c> unit</c><00:01:38.439><c> has</c><00:01:38.600><c> produced</c><00:01:39.000><c> a</c><00:01:39.439><c> result</c>
+
+00:01:40.429 --> 00:01:40.439 align:start position:0%
+once such a unit has produced a result
+ 
+
+00:01:40.439 --> 00:01:43.270 align:start position:0%
+once such a unit has produced a result
+the<00:01:40.600><c> result</c><00:01:40.880><c> would</c><00:01:41.040><c> be</c><00:01:41.200><c> broadcast</c><00:01:41.920><c> on</c><00:01:42.079><c> a</c><00:01:42.320><c> bus</c>
+
+00:01:43.270 --> 00:01:43.280 align:start position:0%
+the result would be broadcast on a bus
+ 
+
+00:01:43.280 --> 00:01:45.030 align:start position:0%
+the result would be broadcast on a bus
+so<00:01:43.479><c> of</c><00:01:43.600><c> course</c><00:01:43.799><c> the</c><00:01:43.960><c> result</c><00:01:44.280><c> would</c><00:01:44.479><c> go</c><00:01:44.719><c> to</c><00:01:44.880><c> the</c>
+
+00:01:45.030 --> 00:01:45.040 align:start position:0%
+so of course the result would go to the
+ 
+
+00:01:45.040 --> 00:01:46.789 align:start position:0%
+so of course the result would go to the
+register<00:01:45.520><c> file</c><00:01:46.000><c> so</c><00:01:46.200><c> prettyy</c><00:01:46.399><c> much</c><00:01:46.560><c> all</c><00:01:46.719><c> the</c>
+
+00:01:46.789 --> 00:01:46.799 align:start position:0%
+register file so prettyy much all the
+ 
+
+00:01:46.799 --> 00:01:47.950 align:start position:0%
+register file so prettyy much all the
+results<00:01:47.159><c> that</c><00:01:47.280><c> are</c><00:01:47.439><c> ready</c><00:01:47.680><c> would</c><00:01:47.840><c> be</c>
+
+00:01:47.950 --> 00:01:47.960 align:start position:0%
+results that are ready would be
+ 
+
+00:01:47.960 --> 00:01:49.510 align:start position:0%
+results that are ready would be
+available<00:01:48.320><c> in</c><00:01:48.439><c> the</c><00:01:48.560><c> register</c><00:01:48.920><c> file</c><00:01:49.200><c> so</c><00:01:49.320><c> that</c>
+
+00:01:49.510 --> 00:01:49.520 align:start position:0%
+available in the register file so that
+ 
+
+00:01:49.520 --> 00:01:50.830 align:start position:0%
+available in the register file so that
+instructions<00:01:49.920><c> that</c><00:01:50.079><c> come</c><00:01:50.240><c> in</c><00:01:50.399><c> would</c><00:01:50.560><c> simply</c>
+
+00:01:50.830 --> 00:01:50.840 align:start position:0%
+instructions that come in would simply
+ 
+
+00:01:50.840 --> 00:01:52.350 align:start position:0%
+instructions that come in would simply
+grab<00:01:51.119><c> them</c><00:01:51.240><c> from</c><00:01:51.479><c> there</c><00:01:51.640><c> and</c><00:01:51.840><c> we</c><00:01:51.960><c> not</c><00:01:52.119><c> don't</c>
+
+00:01:52.350 --> 00:01:52.360 align:start position:0%
+grab them from there and we not don't
+ 
+
+00:01:52.360 --> 00:01:53.749 align:start position:0%
+grab them from there and we not don't
+have<00:01:52.479><c> to</c><00:01:52.600><c> worry</c><00:01:52.840><c> about</c><00:01:53.119><c> where</c><00:01:53.320><c> those</c><00:01:53.479><c> values</c>
+
+00:01:53.749 --> 00:01:53.759 align:start position:0%
+have to worry about where those values
+ 
+
+00:01:53.759 --> 00:01:56.429 align:start position:0%
+have to worry about where those values
+are<00:01:53.920><c> going</c><00:01:54.040><c> to</c><00:01:54.200><c> come</c><00:01:54.680><c> from</c><00:01:55.680><c> but</c><00:01:55.880><c> these</c><00:01:56.079><c> results</c>
+
+00:01:56.429 --> 00:01:56.439 align:start position:0%
+are going to come from but these results
+ 
+
+00:01:56.439 --> 00:01:57.910 align:start position:0%
+are going to come from but these results
+would<00:01:56.719><c> also</c><00:01:57.000><c> be</c><00:01:57.159><c> broadcast</c><00:01:57.680><c> to</c><00:01:57.799><c> the</c>
+
+00:01:57.910 --> 00:01:57.920 align:start position:0%
+would also be broadcast to the
+ 
+
+00:01:57.920 --> 00:01:59.670 align:start position:0%
+would also be broadcast to the
+reservation<00:01:58.520><c> stations</c><00:01:59.079><c> why</c><00:01:59.280><c> well</c><00:01:59.439><c> because</c>
+
+00:01:59.670 --> 00:01:59.680 align:start position:0%
+reservation stations why well because
+ 
+
+00:01:59.680 --> 00:02:01.950 align:start position:0%
+reservation stations why well because
+the<00:02:00.000><c> are</c><00:02:00.280><c> instructions</c><00:02:01.280><c> here</c><00:02:01.640><c> that</c><00:02:01.759><c> are</c>
+
+00:02:01.950 --> 00:02:01.960 align:start position:0%
+the are instructions here that are
+ 
+
+00:02:01.960 --> 00:02:04.270 align:start position:0%
+the are instructions here that are
+waiting<00:02:02.399><c> for</c><00:02:03.000><c> values</c><00:02:03.479><c> that</c><00:02:03.640><c> they</c><00:02:03.759><c> need</c><00:02:03.960><c> to</c><00:02:04.079><c> be</c>
+
+00:02:04.270 --> 00:02:04.280 align:start position:0%
+waiting for values that they need to be
+ 
+
+00:02:04.280 --> 00:02:06.389 align:start position:0%
+waiting for values that they need to be
+produced<00:02:04.799><c> and</c><00:02:05.039><c> as</c><00:02:05.280><c> values</c><00:02:05.560><c> are</c><00:02:05.799><c> produced</c><00:02:06.280><c> we</c>
+
+00:02:06.389 --> 00:02:06.399 align:start position:0%
+produced and as values are produced we
+ 
+
+00:02:06.399 --> 00:02:08.070 align:start position:0%
+produced and as values are produced we
+need<00:02:06.560><c> to</c><00:02:06.719><c> tell</c><00:02:07.000><c> these</c><00:02:07.200><c> instructions</c><00:02:07.719><c> that</c><00:02:08.000><c> you</c>
+
+00:02:08.070 --> 00:02:08.080 align:start position:0%
+need to tell these instructions that you
+ 
+
+00:02:08.080 --> 00:02:09.990 align:start position:0%
+need to tell these instructions that you
+know<00:02:08.280><c> now</c><00:02:08.440><c> your</c><00:02:08.640><c> value</c><00:02:08.920><c> has</c><00:02:09.080><c> been</c><00:02:09.280><c> produced</c><00:02:09.759><c> so</c>
+
+00:02:09.990 --> 00:02:10.000 align:start position:0%
+know now your value has been produced so
+ 
+
+00:02:10.000 --> 00:02:11.830 align:start position:0%
+know now your value has been produced so
+they<00:02:10.200><c> need</c><00:02:10.360><c> to</c><00:02:10.520><c> also</c><00:02:10.759><c> go</c><00:02:11.039><c> here</c><00:02:11.280><c> so</c><00:02:11.440><c> pretty</c><00:02:11.640><c> much</c>
+
+00:02:11.830 --> 00:02:11.840 align:start position:0%
+they need to also go here so pretty much
+ 
+
+00:02:11.840 --> 00:02:13.110 align:start position:0%
+they need to also go here so pretty much
+here<00:02:11.959><c> you</c><00:02:12.080><c> have</c><00:02:12.280><c> some</c><00:02:12.480><c> values</c><00:02:12.760><c> that</c><00:02:12.959><c> you</c>
+
+00:02:13.110 --> 00:02:13.120 align:start position:0%
+here you have some values that you
+ 
+
+00:02:13.120 --> 00:02:14.869 align:start position:0%
+here you have some values that you
+already<00:02:13.440><c> have</c><00:02:13.640><c> in</c><00:02:13.720><c> an</c><00:02:13.879><c> instruction</c><00:02:14.640><c> some</c>
+
+00:02:14.869 --> 00:02:14.879 align:start position:0%
+already have in an instruction some
+ 
+
+00:02:14.879 --> 00:02:16.710 align:start position:0%
+already have in an instruction some
+values<00:02:15.200><c> that</c><00:02:15.640><c> you're</c><00:02:15.959><c> waiting</c><00:02:16.239><c> for</c><00:02:16.519><c> and</c><00:02:16.640><c> you</c>
+
+00:02:16.710 --> 00:02:16.720 align:start position:0%
+values that you're waiting for and you
+ 
+
+00:02:16.720 --> 00:02:19.509 align:start position:0%
+values that you're waiting for and you
+know<00:02:16.959><c> what</c><00:02:17.080><c> you're</c><00:02:17.319><c> waiting</c><00:02:17.640><c> for</c><00:02:18.560><c> and</c><00:02:18.760><c> then</c>
+
+00:02:19.509 --> 00:02:19.519 align:start position:0%
+know what you're waiting for and then
+ 
+
+00:02:19.519 --> 00:02:21.350 align:start position:0%
+know what you're waiting for and then
+when<00:02:19.879><c> the</c><00:02:20.040><c> value</c><00:02:20.280><c> is</c><00:02:20.440><c> finally</c><00:02:20.760><c> broadcast</c><00:02:21.280><c> you</c>
+
+00:02:21.350 --> 00:02:21.360 align:start position:0%
+when the value is finally broadcast you
+ 
+
+00:02:21.360 --> 00:02:22.750 align:start position:0%
+when the value is finally broadcast you
+check<00:02:21.680><c> for</c><00:02:21.879><c> each</c><00:02:22.000><c> of</c><00:02:22.160><c> the</c><00:02:22.239><c> value</c><00:02:22.519><c> that</c><00:02:22.640><c> it's</c>
+
+00:02:22.750 --> 00:02:22.760 align:start position:0%
+check for each of the value that it's
+ 
+
+00:02:22.760 --> 00:02:25.070 align:start position:0%
+check for each of the value that it's
+broadcast<00:02:23.640><c> whether</c><00:02:24.280><c> this</c><00:02:24.400><c> is</c><00:02:24.560><c> the</c><00:02:24.680><c> one</c><00:02:24.840><c> we</c><00:02:24.920><c> are</c>
+
+00:02:25.070 --> 00:02:25.080 align:start position:0%
+broadcast whether this is the one we are
+ 
+
+00:02:25.080 --> 00:02:27.509 align:start position:0%
+broadcast whether this is the one we are
+waiting<00:02:25.360><c> for</c><00:02:25.640><c> or</c><00:02:25.840><c> not</c><00:02:26.519><c> now</c><00:02:26.840><c> I</c><00:02:26.959><c> have</c><00:02:27.120><c> two</c><00:02:27.319><c> of</c>
+
+00:02:27.509 --> 00:02:27.519 align:start position:0%
+waiting for or not now I have two of
+ 
+
+00:02:27.519 --> 00:02:29.589 align:start position:0%
+waiting for or not now I have two of
+these<00:02:27.800><c> per</c><00:02:28.000><c> reservation</c><00:02:28.440><c> station</c><00:02:28.920><c> because</c><00:02:29.440><c> a</c>
+
+00:02:29.589 --> 00:02:29.599 align:start position:0%
+these per reservation station because a
+ 
+
+00:02:29.599 --> 00:02:31.670 align:start position:0%
+these per reservation station because a
+typ<00:02:30.160><c> instruction</c><00:02:30.519><c> will</c><00:02:30.720><c> actually</c><00:02:31.000><c> have</c><00:02:31.440><c> two</c>
+
+00:02:31.670 --> 00:02:31.680 align:start position:0%
+typ instruction will actually have two
+ 
+
+00:02:31.680 --> 00:02:33.229 align:start position:0%
+typ instruction will actually have two
+inputs<00:02:32.160><c> like</c><00:02:32.280><c> for</c><00:02:32.440><c> example</c><00:02:32.720><c> you're</c><00:02:32.920><c> adding</c>
+
+00:02:33.229 --> 00:02:33.239 align:start position:0%
+inputs like for example you're adding
+ 
+
+00:02:33.239 --> 00:02:35.990 align:start position:0%
+inputs like for example you're adding
+two<00:02:33.599><c> numbers</c><00:02:34.599><c> and</c><00:02:35.080><c> when</c><00:02:35.239><c> you</c><00:02:35.360><c> broadcast</c><00:02:35.840><c> a</c>
+
+00:02:35.990 --> 00:02:36.000 align:start position:0%
+two numbers and when you broadcast a
+ 
+
+00:02:36.000 --> 00:02:38.949 align:start position:0%
+two numbers and when you broadcast a
+result<00:02:36.959><c> either</c><00:02:37.239><c> of</c><00:02:37.360><c> the</c><00:02:37.519><c> two</c><00:02:38.080><c> or</c><00:02:38.319><c> both</c><00:02:38.519><c> of</c><00:02:38.720><c> them</c>
+
+00:02:38.949 --> 00:02:38.959 align:start position:0%
+result either of the two or both of them
+ 
+
+00:02:38.959 --> 00:02:40.470 align:start position:0%
+result either of the two or both of them
+might<00:02:39.120><c> need</c><00:02:39.400><c> that</c><00:02:39.599><c> result</c><00:02:39.920><c> so</c><00:02:40.040><c> for</c><00:02:40.159><c> example</c><00:02:40.400><c> if</c>
+
+00:02:40.470 --> 00:02:40.480 align:start position:0%
+might need that result so for example if
+ 
+
+00:02:40.480 --> 00:02:42.949 align:start position:0%
+might need that result so for example if
+you're<00:02:40.599><c> doing</c><00:02:40.840><c> something</c><00:02:41.120><c> like</c><00:02:41.440><c> add</c><00:02:41.760><c> R1</c><00:02:42.239><c> R1</c>
+
+00:02:42.949 --> 00:02:42.959 align:start position:0%
+you're doing something like add R1 R1
+ 
+
+00:02:42.959 --> 00:02:44.630 align:start position:0%
+you're doing something like add R1 R1
+and<00:02:43.080><c> the</c><00:02:43.280><c> instruction</c><00:02:43.640><c> that</c><00:02:43.760><c> is</c><00:02:43.879><c> producing</c><00:02:44.280><c> R1</c>
+
+00:02:44.630 --> 00:02:44.640 align:start position:0%
+and the instruction that is producing R1
+ 
+
+00:02:44.640 --> 00:02:46.550 align:start position:0%
+and the instruction that is producing R1
+is<00:02:44.760><c> currently</c><00:02:45.120><c> in</c><00:02:45.200><c> the</c><00:02:45.319><c> multiplier</c><00:02:46.280><c> when</c><00:02:46.440><c> it</c>
+
+00:02:46.550 --> 00:02:46.560 align:start position:0%
+is currently in the multiplier when it
+ 
+
+00:02:46.560 --> 00:02:49.270 align:start position:0%
+is currently in the multiplier when it
+broadcast<00:02:47.239><c> the</c><00:02:47.360><c> result</c><00:02:47.640><c> and</c><00:02:47.800><c> says</c><00:02:48.040><c> this</c><00:02:48.159><c> is</c><00:02:48.280><c> R1</c>
+
+00:02:49.270 --> 00:02:49.280 align:start position:0%
+broadcast the result and says this is R1
+ 
+
+00:02:49.280 --> 00:02:51.350 align:start position:0%
+broadcast the result and says this is R1
+we<00:02:49.400><c> want</c><00:02:49.560><c> to</c><00:02:49.720><c> latch</c><00:02:50.000><c> it</c><00:02:50.200><c> into</c><00:02:50.599><c> maybe</c><00:02:50.920><c> both</c><00:02:51.200><c> of</c>
+
+00:02:51.350 --> 00:02:51.360 align:start position:0%
+we want to latch it into maybe both of
+ 
+
+00:02:51.360 --> 00:02:53.430 align:start position:0%
+we want to latch it into maybe both of
+the<00:02:51.560><c> operants</c><00:02:52.000><c> for</c><00:02:52.239><c> this</c><00:02:52.400><c> instruction</c><00:02:53.159><c> so</c><00:02:53.319><c> you</c>
+
+00:02:53.430 --> 00:02:53.440 align:start position:0%
+the operants for this instruction so you
+ 
+
+00:02:53.440 --> 00:02:55.830 align:start position:0%
+the operants for this instruction so you
+need<00:02:53.599><c> to</c><00:02:54.080><c> compare</c><00:02:54.560><c> basically</c><00:02:55.040><c> what's</c><00:02:55.239><c> being</c>
+
+00:02:55.830 --> 00:02:55.840 align:start position:0%
+need to compare basically what's being
+ 
+
+00:02:55.840 --> 00:02:58.589 align:start position:0%
+need to compare basically what's being
+broadcast<00:02:56.840><c> its</c><00:02:57.280><c> name</c><00:02:57.640><c> needs</c><00:02:57.840><c> to</c><00:02:58.000><c> be</c><00:02:58.159><c> compared</c>
+
+00:02:58.589 --> 00:02:58.599 align:start position:0%
+broadcast its name needs to be compared
+ 
+
+00:02:58.599 --> 00:03:00.790 align:start position:0%
+broadcast its name needs to be compared
+to<00:02:58.959><c> both</c><00:02:59.200><c> of</c><00:02:59.360><c> the</c><00:02:59.480><c> inputs</c><00:02:59.920><c> that</c><00:03:00.040><c> you</c><00:03:00.239><c> are</c>
+
+00:03:00.790 --> 00:03:00.800 align:start position:0%
+to both of the inputs that you are
+ 
+
+00:03:00.800 --> 00:03:03.070 align:start position:0%
+to both of the inputs that you are
+waiting<00:03:01.120><c> for</c><00:03:01.640><c> and</c><00:03:01.800><c> then</c><00:03:01.920><c> you</c><00:03:02.120><c> select</c><00:03:02.680><c> the</c><00:03:02.840><c> one</c>
+
+00:03:03.070 --> 00:03:03.080 align:start position:0%
+waiting for and then you select the one
+ 
+
+00:03:03.080 --> 00:03:05.750 align:start position:0%
+waiting for and then you select the one
+or<00:03:03.400><c> both</c><00:03:03.640><c> of</c><00:03:03.799><c> them</c><00:03:04.400><c> or</c><00:03:04.599><c> none</c><00:03:04.840><c> of</c><00:03:05.000><c> them</c><00:03:05.280><c> if</c><00:03:05.599><c> this</c>
+
+00:03:05.750 --> 00:03:05.760 align:start position:0%
+or both of them or none of them if this
+ 
+
+00:03:05.760 --> 00:03:08.070 align:start position:0%
+or both of them or none of them if this
+is<00:03:05.920><c> not</c><00:03:06.159><c> the</c><00:03:06.280><c> value</c><00:03:06.519><c> you're</c><00:03:06.760><c> waiting</c><00:03:07.040><c> for</c><00:03:07.840><c> and</c>
+
+00:03:08.070 --> 00:03:08.080 align:start position:0%
+is not the value you're waiting for and
+ 
+
+00:03:08.080 --> 00:03:10.750 align:start position:0%
+is not the value you're waiting for and
+finally<00:03:08.840><c> if</c><00:03:09.000><c> the</c><00:03:09.159><c> instruction</c><00:03:09.599><c> is</c><00:03:09.799><c> not</c><00:03:10.519><c> an</c>
+
+00:03:10.750 --> 00:03:10.760 align:start position:0%
+finally if the instruction is not an
+ 
+
+00:03:10.760 --> 00:03:12.509 align:start position:0%
+finally if the instruction is not an
+arithmetic<00:03:11.400><c> instruction</c><00:03:11.879><c> if</c><00:03:12.000><c> it's</c><00:03:12.200><c> actually</c>
+
+00:03:12.509 --> 00:03:12.519 align:start position:0%
+arithmetic instruction if it's actually
+ 
+
+00:03:12.519 --> 00:03:14.630 align:start position:0%
+arithmetic instruction if it's actually
+a<00:03:12.680><c> load</c><00:03:13.239><c> into</c><00:03:13.480><c> the</c><00:03:13.640><c> floating</c><00:03:14.040><c> Point</c><00:03:14.239><c> register</c>
+
+00:03:14.630 --> 00:03:14.640 align:start position:0%
+a load into the floating Point register
+ 
+
+00:03:14.640 --> 00:03:16.949 align:start position:0%
+a load into the floating Point register
+file<00:03:14.879><c> or</c><00:03:15.000><c> a</c><00:03:15.159><c> store</c><00:03:15.480><c> from</c><00:03:15.640><c> it</c><00:03:16.640><c> then</c><00:03:16.840><c> the</c>
+
+00:03:16.949 --> 00:03:16.959 align:start position:0%
+file or a store from it then the
+ 
+
+00:03:16.959 --> 00:03:18.309 align:start position:0%
+file or a store from it then the
+instruction<00:03:17.400><c> would</c><00:03:17.560><c> go</c><00:03:17.680><c> to</c><00:03:17.840><c> the</c><00:03:17.959><c> address</c>
+
+00:03:18.309 --> 00:03:18.319 align:start position:0%
+instruction would go to the address
+ 
+
+00:03:18.319 --> 00:03:20.070 align:start position:0%
+instruction would go to the address
+generation<00:03:18.840><c> unit</c><00:03:19.319><c> that's</c><00:03:19.480><c> an</c><00:03:19.640><c> integer</c>
+
+00:03:20.070 --> 00:03:20.080 align:start position:0%
+generation unit that's an integer
+ 
+
+00:03:20.080 --> 00:03:21.869 align:start position:0%
+generation unit that's an integer
+operation<00:03:20.519><c> so</c><00:03:20.840><c> it's</c><00:03:21.000><c> not</c><00:03:21.280><c> going</c><00:03:21.480><c> going</c><00:03:21.560><c> to</c><00:03:21.720><c> go</c>
+
+00:03:21.869 --> 00:03:21.879 align:start position:0%
+operation so it's not going going to go
+ 
+
+00:03:21.879 --> 00:03:23.309 align:start position:0%
+operation so it's not going going to go
+through<00:03:22.200><c> that</c><00:03:22.640><c> so</c><00:03:22.799><c> basically</c><00:03:23.080><c> we</c><00:03:23.200><c> just</c>
+
+00:03:23.309 --> 00:03:23.319 align:start position:0%
+through that so basically we just
+ 
+
+00:03:23.319 --> 00:03:25.390 align:start position:0%
+through that so basically we just
+compute<00:03:23.680><c> the</c><00:03:23.799><c> address</c><00:03:24.560><c> and</c><00:03:24.760><c> then</c><00:03:24.920><c> we</c><00:03:25.080><c> insert</c>
+
+00:03:25.390 --> 00:03:25.400 align:start position:0%
+compute the address and then we insert
+ 
+
+00:03:25.400 --> 00:03:26.990 align:start position:0%
+compute the address and then we insert
+the<00:03:25.519><c> instruction</c><00:03:25.920><c> into</c><00:03:26.120><c> the</c><00:03:26.239><c> load</c><00:03:26.519><c> buffer</c><00:03:26.879><c> or</c>
+
+00:03:26.990 --> 00:03:27.000 align:start position:0%
+the instruction into the load buffer or
+ 
+
+00:03:27.000 --> 00:03:28.789 align:start position:0%
+the instruction into the load buffer or
+a<00:03:27.159><c> store</c><00:03:27.480><c> buffer</c><00:03:28.080><c> where</c><00:03:28.239><c> the</c><00:03:28.360><c> instructions</c>
+
+00:03:28.789 --> 00:03:28.799 align:start position:0%
+a store buffer where the instructions
+ 
+
+00:03:28.799 --> 00:03:30.789 align:start position:0%
+a store buffer where the instructions
+are<00:03:28.959><c> going</c><00:03:29.040><c> to</c><00:03:29.159><c> be</c><00:03:29.280><c> queued</c><00:03:29.599><c> up</c><00:03:29.959><c> for</c><00:03:30.280><c> going</c><00:03:30.560><c> to</c>
+
+00:03:30.789 --> 00:03:30.799 align:start position:0%
+are going to be queued up for going to
+ 
+
+00:03:30.799 --> 00:03:33.030 align:start position:0%
+are going to be queued up for going to
+memory<00:03:31.640><c> and</c><00:03:31.840><c> the</c><00:03:31.920><c> load</c><00:03:32.200><c> buffer</c><00:03:32.519><c> only</c><00:03:32.760><c> provides</c>
+
+00:03:33.030 --> 00:03:33.040 align:start position:0%
+memory and the load buffer only provides
+ 
+
+00:03:33.040 --> 00:03:34.990 align:start position:0%
+memory and the load buffer only provides
+a<00:03:33.200><c> data</c><00:03:33.480><c> address</c><00:03:33.920><c> the</c><00:03:34.040><c> store</c><00:03:34.319><c> buffer</c><00:03:34.640><c> provides</c>
+
+00:03:34.990 --> 00:03:35.000 align:start position:0%
+a data address the store buffer provides
+ 
+
+00:03:35.000 --> 00:03:37.229 align:start position:0%
+a data address the store buffer provides
+both<00:03:35.200><c> the</c><00:03:35.319><c> address</c><00:03:35.640><c> and</c><00:03:35.799><c> the</c><00:03:35.959><c> data</c><00:03:36.200><c> to</c><00:03:36.400><c> memory</c>
+
+00:03:37.229 --> 00:03:37.239 align:start position:0%
+both the address and the data to memory
+ 
+
+00:03:37.239 --> 00:03:39.789 align:start position:0%
+both the address and the data to memory
+when<00:03:37.360><c> a</c><00:03:37.519><c> load</c><00:03:37.879><c> comes</c><00:03:38.159><c> back</c><00:03:38.360><c> from</c><00:03:38.599><c> memory</c><00:03:39.519><c> its</c>
+
+00:03:39.789 --> 00:03:39.799 align:start position:0%
+when a load comes back from memory its
+ 
+
+00:03:39.799 --> 00:03:42.190 align:start position:0%
+when a load comes back from memory its
+value<00:03:40.040><c> is</c><00:03:40.200><c> also</c><00:03:40.439><c> broadcast</c><00:03:41.120><c> on</c><00:03:41.280><c> the</c><00:03:41.400><c> cdb</c><00:03:42.040><c> and</c>
+
+00:03:42.190 --> 00:03:42.200 align:start position:0%
+value is also broadcast on the cdb and
+ 
+
+00:03:42.200 --> 00:03:44.550 align:start position:0%
+value is also broadcast on the cdb and
+goes<00:03:42.400><c> to</c><00:03:42.560><c> the</c><00:03:42.760><c> appropriate</c><00:03:43.319><c> register</c><00:03:44.319><c> and</c>
+
+00:03:44.550 --> 00:03:44.560 align:start position:0%
+goes to the appropriate register and
+ 
+
+00:03:44.560 --> 00:03:46.710 align:start position:0%
+goes to the appropriate register and
+also<00:03:45.280><c> all</c><00:03:45.480><c> the</c><00:03:45.640><c> values</c><00:03:45.959><c> that</c><00:03:46.080><c> are</c><00:03:46.200><c> broadcast</c>
+
+00:03:46.710 --> 00:03:46.720 align:start position:0%
+also all the values that are broadcast
+ 
+
+00:03:46.720 --> 00:03:50.070 align:start position:0%
+also all the values that are broadcast
+from<00:03:46.879><c> the</c><00:03:47.040><c> bus</c><00:03:48.040><c> are</c><00:03:48.239><c> going</c><00:03:48.360><c> to</c><00:03:48.560><c> go</c><00:03:48.920><c> here</c><00:03:49.840><c> so</c>
+
+00:03:50.070 --> 00:03:50.080 align:start position:0%
+from the bus are going to go here so
+ 
+
+00:03:50.080 --> 00:03:52.470 align:start position:0%
+from the bus are going to go here so
+that<00:03:50.480><c> stores</c><00:03:51.000><c> can</c><00:03:51.200><c> get</c><00:03:51.400><c> their</c><00:03:51.640><c> values</c><00:03:52.280><c> when</c>
+
+00:03:52.470 --> 00:03:52.480 align:start position:0%
+that stores can get their values when
+ 
+
+00:03:52.480 --> 00:03:53.949 align:start position:0%
+that stores can get their values when
+they<00:03:52.640><c> become</c><00:03:52.959><c> available</c><00:03:53.360><c> so</c><00:03:53.519><c> a</c><00:03:53.760><c> store</c>
+
+00:03:53.949 --> 00:03:53.959 align:start position:0%
+they become available so a store
+ 
+
+00:03:53.959 --> 00:03:55.429 align:start position:0%
+they become available so a store
+instruction<00:03:54.360><c> that</c><00:03:54.480><c> needs</c><00:03:54.640><c> to</c><00:03:54.799><c> put</c><00:03:54.920><c> a</c><00:03:55.079><c> value</c><00:03:55.280><c> in</c>
+
+00:03:55.429 --> 00:03:55.439 align:start position:0%
+instruction that needs to put a value in
+ 
+
+00:03:55.439 --> 00:03:57.789 align:start position:0%
+instruction that needs to put a value in
+memory<00:03:56.079><c> is</c><00:03:56.200><c> going</c><00:03:56.319><c> to</c><00:03:56.560><c> wait</c><00:03:56.840><c> for</c><00:03:57.159><c> its</c><00:03:57.360><c> floating</c>
+
+00:03:57.789 --> 00:03:57.799 align:start position:0%
+memory is going to wait for its floating
+ 
+
+00:03:57.799 --> 00:03:59.509 align:start position:0%
+memory is going to wait for its floating
+point<00:03:58.360><c> value</c><00:03:58.680><c> that</c><00:03:58.799><c> needs</c><00:03:59.000><c> to</c><00:03:59.079><c> be</c><00:03:59.200><c> placed</c><00:03:59.439><c> to</c>
+
+00:03:59.509 --> 00:03:59.519 align:start position:0%
+point value that needs to be placed to
+ 
+
+00:03:59.519 --> 00:04:00.390 align:start position:0%
+point value that needs to be placed to
+memory
+
+00:04:00.390 --> 00:04:00.400 align:start position:0%
+memory
+ 
+
+00:04:00.400 --> 00:04:02.069 align:start position:0%
+memory
+until<00:04:00.640><c> it</c><00:04:00.799><c> becomes</c><00:04:01.120><c> available</c><00:04:01.560><c> and</c><00:04:01.720><c> only</c><00:04:01.920><c> then</c>
+
+00:04:02.069 --> 00:04:02.079 align:start position:0%
+until it becomes available and only then
+ 
+
+00:04:02.079 --> 00:04:05.789 align:start position:0%
+until it becomes available and only then
+be<00:04:02.200><c> sent</c><00:04:02.439><c> to</c><00:04:02.560><c> the</c><00:04:02.760><c> memory</c><00:04:04.239><c> unlike</c><00:04:05.239><c> arithmetic</c>
+
+00:04:05.789 --> 00:04:05.799 align:start position:0%
+be sent to the memory unlike arithmetic
+ 
+
+00:04:05.799 --> 00:04:07.390 align:start position:0%
+be sent to the memory unlike arithmetic
+instructions<00:04:06.319><c> which</c><00:04:06.480><c> can</c><00:04:06.680><c> execute</c><00:04:07.079><c> out</c><00:04:07.280><c> of</c>
+
+00:04:07.390 --> 00:04:07.400 align:start position:0%
+instructions which can execute out of
+ 
+
+00:04:07.400 --> 00:04:08.789 align:start position:0%
+instructions which can execute out of
+order<00:04:07.760><c> basically</c><00:04:08.040><c> they</c><00:04:08.159><c> only</c><00:04:08.360><c> wait</c><00:04:08.599><c> for</c>
+
+00:04:08.789 --> 00:04:08.799 align:start position:0%
+order basically they only wait for
+ 
+
+00:04:08.799 --> 00:04:10.309 align:start position:0%
+order basically they only wait for
+inputs<00:04:09.120><c> to</c><00:04:09.280><c> become</c><00:04:09.519><c> available</c><00:04:09.920><c> and</c><00:04:10.079><c> then</c><00:04:10.200><c> they</c>
+
+00:04:10.309 --> 00:04:10.319 align:start position:0%
+inputs to become available and then they
+ 
+
+00:04:10.319 --> 00:04:13.390 align:start position:0%
+inputs to become available and then they
+can<00:04:10.560><c> go</c><00:04:11.319><c> for</c><00:04:11.799><c> loads</c><00:04:12.120><c> and</c><00:04:12.280><c> stores</c><00:04:13.079><c> they</c><00:04:13.200><c> were</c>
+
+00:04:13.390 --> 00:04:13.400 align:start position:0%
+can go for loads and stores they were
+ 
+
+00:04:13.400 --> 00:04:15.750 align:start position:0%
+can go for loads and stores they were
+done<00:04:13.640><c> in</c><00:04:13.840><c> order</c><00:04:14.280><c> so</c><00:04:14.519><c> basically</c><00:04:15.319><c> they</c><00:04:15.439><c> didn't</c>
+
+00:04:15.750 --> 00:04:15.760 align:start position:0%
+done in order so basically they didn't
+ 
+
+00:04:15.760 --> 00:04:17.390 align:start position:0%
+done in order so basically they didn't
+reorder<00:04:16.320><c> loads</c><00:04:16.560><c> and</c><00:04:16.720><c> stores</c><00:04:17.000><c> and</c><00:04:17.120><c> it</c><00:04:17.239><c> will</c>
+
+00:04:17.390 --> 00:04:17.400 align:start position:0%
+reorder loads and stores and it will
+ 
+
+00:04:17.400 --> 00:04:19.590 align:start position:0%
+reorder loads and stores and it will
+later<00:04:17.959><c> consider</c><00:04:18.359><c> how</c><00:04:18.519><c> to</c><00:04:18.680><c> do</c><00:04:18.919><c> that</c><00:04:19.239><c> modern</c>
+
+00:04:19.590 --> 00:04:19.600 align:start position:0%
+later consider how to do that modern
+ 
+
+00:04:19.600 --> 00:04:21.310 align:start position:0%
+later consider how to do that modern
+processors<00:04:20.120><c> will</c><00:04:20.440><c> actually</c><00:04:20.680><c> reorder</c><00:04:21.079><c> loads</c>
+
+00:04:21.310 --> 00:04:21.320 align:start position:0%
+processors will actually reorder loads
+ 
+
+00:04:21.320 --> 00:04:23.790 align:start position:0%
+processors will actually reorder loads
+and<00:04:21.440><c> stores</c><00:04:21.720><c> too</c><00:04:22.560><c> so</c><00:04:22.759><c> this</c><00:04:22.880><c> is</c><00:04:23.080><c> a</c><00:04:23.199><c> lot</c><00:04:23.360><c> simpler</c>
+
+00:04:23.790 --> 00:04:23.800 align:start position:0%
+and stores too so this is a lot simpler
+ 
+
+00:04:23.800 --> 00:04:25.629 align:start position:0%
+and stores too so this is a lot simpler
+than<00:04:23.960><c> in</c><00:04:24.080><c> modern</c><00:04:24.400><c> processors</c><00:04:24.919><c> but</c><00:04:25.120><c> this</c><00:04:25.400><c> here</c>
+
+00:04:25.629 --> 00:04:25.639 align:start position:0%
+than in modern processors but this here
+ 
+
+00:04:25.639 --> 00:04:27.950 align:start position:0%
+than in modern processors but this here
+is<00:04:25.919><c> pretty</c><00:04:26.160><c> much</c><00:04:26.360><c> the</c><00:04:26.479><c> way</c><00:04:26.680><c> it's</c><00:04:26.840><c> done</c><00:04:27.120><c> now</c>
+
+00:04:27.950 --> 00:04:27.960 align:start position:0%
+is pretty much the way it's done now
+ 
+
+00:04:27.960 --> 00:04:30.310 align:start position:0%
+is pretty much the way it's done now
+modulo<00:04:28.600><c> some</c><00:04:28.840><c> small</c><00:04:29.240><c> adjustment</c>
+
+00:04:30.310 --> 00:04:30.320 align:start position:0%
+modulo some small adjustment
+ 
+
+00:04:30.320 --> 00:04:32.670 align:start position:0%
+modulo some small adjustment
+so<00:04:30.560><c> before</c><00:04:30.840><c> we</c><00:04:31.039><c> go</c><00:04:31.320><c> into</c><00:04:31.880><c> kind</c><00:04:32.000><c> of</c><00:04:32.160><c> the</c><00:04:32.320><c> details</c>
+
+00:04:32.670 --> 00:04:32.680 align:start position:0%
+so before we go into kind of the details
+ 
+
+00:04:32.680 --> 00:04:34.670 align:start position:0%
+so before we go into kind of the details
+of<00:04:32.840><c> tomasulo</c><00:04:33.400><c> algorithm</c><00:04:34.039><c> let's</c><00:04:34.240><c> just</c><00:04:34.400><c> kind</c><00:04:34.520><c> of</c>
+
+00:04:34.670 --> 00:04:34.680 align:start position:0%
+of tomasulo algorithm let's just kind of
+ 
+
+00:04:34.680 --> 00:04:36.070 align:start position:0%
+of tomasulo algorithm let's just kind of
+give<00:04:34.840><c> names</c><00:04:35.160><c> to</c><00:04:35.360><c> some</c><00:04:35.560><c> things</c><00:04:35.720><c> on</c><00:04:35.919><c> this</c>
+
+00:04:36.070 --> 00:04:36.080 align:start position:0%
+give names to some things on this
+ 
+
+00:04:36.080 --> 00:04:37.670 align:start position:0%
+give names to some things on this
+picture<00:04:36.400><c> and</c><00:04:36.560><c> then</c><00:04:36.680><c> we</c><00:04:36.800><c> will</c><00:04:36.960><c> kind</c><00:04:37.080><c> of</c><00:04:37.240><c> discuss</c>
+
+00:04:37.670 --> 00:04:37.680 align:start position:0%
+picture and then we will kind of discuss
+ 
+
+00:04:37.680 --> 00:04:39.189 align:start position:0%
+picture and then we will kind of discuss
+what<00:04:37.919><c> each</c><00:04:38.080><c> of</c><00:04:38.240><c> these</c><00:04:38.440><c> things</c><00:04:38.720><c> really</c><00:04:39.000><c> needs</c>
+
+00:04:39.189 --> 00:04:39.199 align:start position:0%
+what each of these things really needs
+ 
+
+00:04:39.199 --> 00:04:42.430 align:start position:0%
+what each of these things really needs
+to<00:04:39.360><c> do</c><00:04:39.960><c> so</c><00:04:40.759><c> this</c><00:04:41.080><c> part</c><00:04:41.440><c> here</c><00:04:41.759><c> where</c><00:04:41.919><c> we</c><00:04:42.080><c> send</c>
+
+00:04:42.430 --> 00:04:42.440 align:start position:0%
+to do so this part here where we send
+ 
+
+00:04:42.440 --> 00:04:43.830 align:start position:0%
+to do so this part here where we send
+the<00:04:42.560><c> instruction</c><00:04:43.039><c> from</c><00:04:43.240><c> the</c><00:04:43.400><c> instruction</c>
+
+00:04:43.830 --> 00:04:43.840 align:start position:0%
+the instruction from the instruction
+ 
+
+00:04:43.840 --> 00:04:45.550 align:start position:0%
+the instruction from the instruction
+queue<00:04:44.120><c> into</c><00:04:44.360><c> the</c><00:04:44.520><c> reservation</c><00:04:45.000><c> stations</c><00:04:45.400><c> and</c>
+
+00:04:45.550 --> 00:04:45.560 align:start position:0%
+queue into the reservation stations and
+ 
+
+00:04:45.560 --> 00:04:48.310 align:start position:0%
+queue into the reservation stations and
+the<00:04:45.680><c> Lo</c><00:04:45.880><c> store</c><00:04:46.120><c> unit</c><00:04:46.440><c> is</c><00:04:46.600><c> called</c><00:04:47.120><c> issue</c><00:04:48.120><c> when</c>
+
+00:04:48.310 --> 00:04:48.320 align:start position:0%
+the Lo store unit is called issue when
+ 
+
+00:04:48.320 --> 00:04:50.830 align:start position:0%
+the Lo store unit is called issue when
+the<00:04:48.520><c> instruction</c><00:04:49.360><c> is</c><00:04:49.639><c> finally</c><00:04:50.120><c> sent</c><00:04:50.560><c> to</c>
+
+00:04:50.830 --> 00:04:50.840 align:start position:0%
+the instruction is finally sent to
+ 
+
+00:04:50.840 --> 00:04:53.990 align:start position:0%
+the instruction is finally sent to
+execution<00:04:51.600><c> from</c><00:04:51.800><c> a</c><00:04:52.000><c> reservation</c><00:04:52.840><c> station</c><00:04:53.840><c> is</c>
+
+00:04:53.990 --> 00:04:54.000 align:start position:0%
+execution from a reservation station is
+ 
+
+00:04:54.000 --> 00:04:57.270 align:start position:0%
+execution from a reservation station is
+called<00:04:54.520><c> dispatch</c><00:04:55.520><c> and</c><00:04:55.880><c> when</c><00:04:56.120><c> the</c>
+
+00:04:57.270 --> 00:04:57.280 align:start position:0%
+called dispatch and when the
+ 
+
+00:04:57.280 --> 00:04:59.749 align:start position:0%
+called dispatch and when the
+instruction<00:04:58.280><c> is</c><00:04:58.479><c> ready</c><00:04:58.759><c> to</c><00:04:58.919><c> broadcast</c><00:04:59.400><c> its</c>
+
+00:04:59.749 --> 00:04:59.759 align:start position:0%
+instruction is ready to broadcast its
+ 
+
+00:04:59.759 --> 00:05:02.150 align:start position:0%
+instruction is ready to broadcast its
+result<00:05:00.240><c> we</c><00:05:00.400><c> call</c><00:05:00.639><c> that</c><00:05:00.919><c> right</c><00:05:01.400><c> result</c><00:05:01.919><c> or</c>
+
+00:05:02.150 --> 00:05:02.160 align:start position:0%
+result we call that right result or
+ 
+
+00:05:02.160 --> 00:05:04.749 align:start position:0%
+result we call that right result or
+simply<00:05:03.000><c> broadcast</c><00:05:04.000><c> so</c><00:05:04.199><c> basically</c><00:05:04.520><c> every</c>
+
+00:05:04.749 --> 00:05:04.759 align:start position:0%
+simply broadcast so basically every
+ 
+
+00:05:04.759 --> 00:05:07.350 align:start position:0%
+simply broadcast so basically every
+instruction<00:05:05.280><c> will</c><00:05:05.440><c> be</c><00:05:05.800><c> issued</c><00:05:06.800><c> meaning</c><00:05:07.199><c> get</c>
+
+00:05:07.350 --> 00:05:07.360 align:start position:0%
+instruction will be issued meaning get
+ 
+
+00:05:07.360 --> 00:05:09.550 align:start position:0%
+instruction will be issued meaning get
+to<00:05:07.560><c> the</c><00:05:07.759><c> resing</c><00:05:08.160><c> station</c><00:05:08.720><c> eventually</c><00:05:09.199><c> it</c><00:05:09.360><c> gets</c>
+
+00:05:09.550 --> 00:05:09.560 align:start position:0%
+to the resing station eventually it gets
+ 
+
+00:05:09.560 --> 00:05:11.310 align:start position:0%
+to the resing station eventually it gets
+to<00:05:09.759><c> dispatch</c><00:05:10.360><c> because</c><00:05:10.600><c> all</c><00:05:10.759><c> of</c><00:05:10.880><c> its</c><00:05:11.039><c> inputs</c>
+
+00:05:11.310 --> 00:05:11.320 align:start position:0%
+to dispatch because all of its inputs
+ 
+
+00:05:11.320 --> 00:05:13.830 align:start position:0%
+to dispatch because all of its inputs
+are<00:05:11.479><c> ready</c><00:05:11.840><c> and</c><00:05:12.280><c> uh</c><00:05:12.479><c> it's</c><00:05:12.759><c> kind</c><00:05:12.919><c> of</c><00:05:13.160><c> gets</c><00:05:13.440><c> to</c><00:05:13.680><c> go</c>
+
+00:05:13.830 --> 00:05:13.840 align:start position:0%
+are ready and uh it's kind of gets to go
+ 
+
+00:05:13.840 --> 00:05:15.990 align:start position:0%
+are ready and uh it's kind of gets to go
+to<00:05:14.000><c> the</c><00:05:14.160><c> unit</c><00:05:14.919><c> once</c><00:05:15.120><c> it's</c><00:05:15.320><c> done</c><00:05:15.600><c> it's</c><00:05:15.759><c> going</c><00:05:15.880><c> to</c>
+
+00:05:15.990 --> 00:05:16.000 align:start position:0%
+to the unit once it's done it's going to
+ 
+
+00:05:16.000 --> 00:05:17.710 align:start position:0%
+to the unit once it's done it's going to
+write<00:05:16.199><c> the</c><00:05:16.360><c> result</c><00:05:16.759><c> and</c><00:05:16.960><c> that</c><00:05:17.199><c> is</c><00:05:17.400><c> when</c><00:05:17.560><c> we</c>
+
+00:05:17.710 --> 00:05:17.720 align:start position:0%
+write the result and that is when we
+ 
+
+00:05:17.720 --> 00:05:19.270 align:start position:0%
+write the result and that is when we
+consider<00:05:18.039><c> the</c><00:05:18.160><c> instruction</c><00:05:18.600><c> completed</c><00:05:19.120><c> so</c>
+
+00:05:19.270 --> 00:05:19.280 align:start position:0%
+consider the instruction completed so
+ 
+
+00:05:19.280 --> 00:05:20.710 align:start position:0%
+consider the instruction completed so
+now<00:05:19.479><c> let's</c><00:05:19.639><c> see</c><00:05:19.880><c> what</c><00:05:20.080><c> happens</c><00:05:20.440><c> when</c><00:05:20.560><c> you</c>
+
+00:05:20.710 --> 00:05:20.720 align:start position:0%
+now let's see what happens when you
+ 
+
+00:05:20.720 --> 00:05:22.150 align:start position:0%
+now let's see what happens when you
+issue<00:05:21.120><c> when</c><00:05:21.199><c> you</c><00:05:21.360><c> dispatch</c><00:05:21.800><c> and</c><00:05:21.919><c> when</c><00:05:22.039><c> you</c>
+
+00:05:22.150 --> 00:05:22.160 align:start position:0%
+issue when you dispatch and when you
+ 
+
+00:05:22.160 --> 00:05:25.199 align:start position:0%
+issue when you dispatch and when you
+write<00:05:22.440><c> result</c>
+

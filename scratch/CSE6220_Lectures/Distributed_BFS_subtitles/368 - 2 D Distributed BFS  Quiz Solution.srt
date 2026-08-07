@@ -1,0 +1,36 @@
+1
+00:00:00,330 --> 00:00:02,210
+ Here's the answer I was looking for.
+
+2
+00:00:02,210 --> 00:00:04,156
+ Square root of P, rather than P.
+
+3
+00:00:04,156 --> 00:00:04,658
+ Why?
+
+4
+00:00:04,658 --> 00:00:09,980
+ With a 2-d scheme it might be possible to arrange the processes like so.
+
+5
+00:00:09,980 --> 00:00:14,760
+ This is a 2-d grid of size, say root P by root P on a side.
+
+6
+00:00:14,760 --> 00:00:17,568
+ I hope this idea reminds you of the collective algorithms on
+
+7
+00:00:17,568 --> 00:00:19,720
+ multi-dimensional process grids.
+
+8
+00:00:19,720 --> 00:00:22,640
+ With this kind of distribution, you only need to use collectives to
+
+9
+00:00:22,640 --> 00:00:22,640
+ merge local frontier updates within process columns and rows.
+

@@ -1,0 +1,1208 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.790 align:start position:0%
+ 
+now<00:00:00.359><c> let's</c><00:00:00.920><c> discuss</c><00:00:01.920><c> the</c><00:00:02.120><c> relationship</c>
+
+00:00:02.790 --> 00:00:02.800 align:start position:0%
+now let's discuss the relationship
+ 
+
+00:00:02.800 --> 00:00:05.430 align:start position:0%
+now let's discuss the relationship
+between<00:00:03.280><c> the</c><00:00:03.480><c> dependencies</c><00:00:04.160><c> we</c><00:00:04.319><c> have</c><00:00:04.480><c> seen</c>
+
+00:00:05.430 --> 00:00:05.440 align:start position:0%
+between the dependencies we have seen
+ 
+
+00:00:05.440 --> 00:00:08.750 align:start position:0%
+between the dependencies we have seen
+and<00:00:05.680><c> what</c><00:00:05.799><c> we</c><00:00:06.000><c> call</c><00:00:06.399><c> hazards</c><00:00:06.960><c> in</c><00:00:07.080><c> a</c><00:00:07.319><c> pipeline</c><00:00:08.280><c> a</c>
+
+00:00:08.750 --> 00:00:08.760 align:start position:0%
+and what we call hazards in a pipeline a
+ 
+
+00:00:08.760 --> 00:00:11.070 align:start position:0%
+and what we call hazards in a pipeline a
+dependence<00:00:09.760><c> is</c><00:00:09.920><c> the</c><00:00:10.200><c> property</c><00:00:10.679><c> of</c><00:00:10.840><c> the</c>
+
+00:00:11.070 --> 00:00:11.080 align:start position:0%
+dependence is the property of the
+ 
+
+00:00:11.080 --> 00:00:13.470 align:start position:0%
+dependence is the property of the
+program<00:00:11.519><c> alone</c><00:00:12.360><c> we</c><00:00:12.480><c> can</c><00:00:12.679><c> just</c><00:00:12.880><c> check</c><00:00:13.240><c> whether</c>
+
+00:00:13.470 --> 00:00:13.480 align:start position:0%
+program alone we can just check whether
+ 
+
+00:00:13.480 --> 00:00:15.110 align:start position:0%
+program alone we can just check whether
+two<00:00:13.679><c> instructions</c><00:00:14.240><c> have</c><00:00:14.360><c> a</c><00:00:14.559><c> dependence</c>
+
+00:00:15.110 --> 00:00:15.120 align:start position:0%
+two instructions have a dependence
+ 
+
+00:00:15.120 --> 00:00:17.710 align:start position:0%
+two instructions have a dependence
+between<00:00:15.519><c> them</c><00:00:16.199><c> without</c><00:00:16.600><c> any</c><00:00:16.920><c> regard</c><00:00:17.320><c> to</c><00:00:17.560><c> what</c>
+
+00:00:17.710 --> 00:00:17.720 align:start position:0%
+between them without any regard to what
+ 
+
+00:00:17.720 --> 00:00:20.710 align:start position:0%
+between them without any regard to what
+the<00:00:17.920><c> pipeline</c><00:00:18.400><c> looks</c><00:00:18.720><c> like</c><00:00:19.520><c> in</c><00:00:19.760><c> a</c><00:00:20.039><c> particular</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+the pipeline looks like in a particular
+ 
+
+00:00:20.720 --> 00:00:23.990 align:start position:0%
+the pipeline looks like in a particular
+pipeline<00:00:21.720><c> some</c><00:00:22.279><c> dependencies</c><00:00:23.279><c> will</c><00:00:23.519><c> cause</c>
+
+00:00:23.990 --> 00:00:24.000 align:start position:0%
+pipeline some dependencies will cause
+ 
+
+00:00:24.000 --> 00:00:26.470 align:start position:0%
+pipeline some dependencies will cause
+problems<00:00:25.000><c> potentially</c><00:00:26.000><c> and</c><00:00:26.160><c> some</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+problems potentially and some
+ 
+
+00:00:26.480 --> 00:00:28.950 align:start position:0%
+problems potentially and some
+dependencies<00:00:27.199><c> cannot</c><00:00:27.640><c> cause</c><00:00:28.039><c> problems</c><00:00:28.720><c> no</c>
+
+00:00:28.950 --> 00:00:28.960 align:start position:0%
+dependencies cannot cause problems no
+ 
+
+00:00:28.960 --> 00:00:31.709 align:start position:0%
+dependencies cannot cause problems no
+matter<00:00:29.320><c> what</c><00:00:30.240><c> let's</c><00:00:30.480><c> look</c><00:00:30.640><c> at</c><00:00:30.800><c> an</c><00:00:31.000><c> example</c><00:00:31.439><c> of</c>
+
+00:00:31.709 --> 00:00:31.719 align:start position:0%
+matter what let's look at an example of
+ 
+
+00:00:31.719 --> 00:00:34.150 align:start position:0%
+matter what let's look at an example of
+this<00:00:32.719><c> let's</c><00:00:32.960><c> say</c><00:00:33.160><c> we</c><00:00:33.320><c> have</c><00:00:33.480><c> the</c><00:00:33.680><c> classical</c>
+
+00:00:34.150 --> 00:00:34.160 align:start position:0%
+this let's say we have the classical
+ 
+
+00:00:34.160 --> 00:00:36.110 align:start position:0%
+this let's say we have the classical
+five<00:00:34.440><c> stage</c><00:00:34.760><c> Pipeline</c><00:00:35.160><c> with</c><00:00:35.320><c> fetch</c><00:00:35.680><c> decode</c>
+
+00:00:36.110 --> 00:00:36.120 align:start position:0%
+five stage Pipeline with fetch decode
+ 
+
+00:00:36.120 --> 00:00:38.910 align:start position:0%
+five stage Pipeline with fetch decode
+ALU<00:00:36.600><c> memory</c><00:00:37.040><c> and</c><00:00:37.239><c> WR</c><00:00:37.559><c> stages</c><00:00:38.440><c> and</c><00:00:38.640><c> let's</c>
+
+00:00:38.910 --> 00:00:38.920 align:start position:0%
+ALU memory and WR stages and let's
+ 
+
+00:00:38.920 --> 00:00:41.150 align:start position:0%
+ALU memory and WR stages and let's
+consider<00:00:39.480><c> two</c><00:00:39.760><c> instructions</c><00:00:40.399><c> like</c><00:00:40.640><c> this</c><00:00:40.960><c> that</c>
+
+00:00:41.150 --> 00:00:41.160 align:start position:0%
+consider two instructions like this that
+ 
+
+00:00:41.160 --> 00:00:43.709 align:start position:0%
+consider two instructions like this that
+have<00:00:41.399><c> an</c><00:00:41.640><c> output</c><00:00:42.239><c> dependence</c><00:00:43.239><c> in</c><00:00:43.440><c> this</c>
+
+00:00:43.709 --> 00:00:43.719 align:start position:0%
+have an output dependence in this
+ 
+
+00:00:43.719 --> 00:00:46.750 align:start position:0%
+have an output dependence in this
+particular<00:00:44.719><c> pipeline</c><00:00:45.719><c> I</c><00:00:45.800><c> will</c><00:00:46.079><c> show</c><00:00:46.280><c> you</c><00:00:46.520><c> that</c>
+
+00:00:46.750 --> 00:00:46.760 align:start position:0%
+particular pipeline I will show you that
+ 
+
+00:00:46.760 --> 00:00:49.630 align:start position:0%
+particular pipeline I will show you that
+this<00:00:46.960><c> output</c><00:00:47.760><c> dependence</c><00:00:48.760><c> is</c><00:00:48.960><c> never</c><00:00:49.320><c> a</c>
+
+00:00:49.630 --> 00:00:49.640 align:start position:0%
+this output dependence is never a
+ 
+
+00:00:49.640 --> 00:00:52.950 align:start position:0%
+this output dependence is never a
+problem<00:00:50.640><c> the</c><00:00:50.879><c> ad</c><00:00:51.640><c> will</c><00:00:51.879><c> move</c><00:00:52.199><c> through</c><00:00:52.480><c> this</c>
+
+00:00:52.950 --> 00:00:52.960 align:start position:0%
+problem the ad will move through this
+ 
+
+00:00:52.960 --> 00:00:56.029 align:start position:0%
+problem the ad will move through this
+pipeline<00:00:53.960><c> until</c><00:00:54.239><c> the</c><00:00:54.440><c> right</c><00:00:54.760><c> stage</c><00:00:55.680><c> and</c><00:00:55.920><c> that</c>
+
+00:00:56.029 --> 00:00:56.039 align:start position:0%
+pipeline until the right stage and that
+ 
+
+00:00:56.039 --> 00:00:58.630 align:start position:0%
+pipeline until the right stage and that
+is<00:00:56.239><c> when</c><00:00:56.440><c> it</c><00:00:56.520><c> will</c><00:00:56.800><c> update</c><00:00:57.199><c> R1</c><00:00:58.000><c> so</c><00:00:58.239><c> let's</c><00:00:58.480><c> look</c>
+
+00:00:58.630 --> 00:00:58.640 align:start position:0%
+is when it will update R1 so let's look
+ 
+
+00:00:58.640 --> 00:01:01.349 align:start position:0%
+is when it will update R1 so let's look
+at<00:00:58.760><c> the</c><00:00:58.960><c> cycle</c><00:00:59.480><c> while</c><00:00:59.719><c> the</c><00:01:00.039><c> add</c><00:01:00.320><c> is</c><00:01:00.640><c> here</c><00:01:01.199><c> and</c>
+
+00:01:01.349 --> 00:01:01.359 align:start position:0%
+at the cycle while the add is here and
+ 
+
+00:01:01.359 --> 00:01:05.469 align:start position:0%
+at the cycle while the add is here and
+the<00:01:01.920><c> multiply</c><00:01:02.920><c> is</c><00:01:03.120><c> following</c><00:01:03.719><c> behind</c><00:01:04.199><c> it</c><00:01:05.199><c> at</c>
+
+00:01:05.469 --> 00:01:05.479 align:start position:0%
+the multiply is following behind it at
+ 
+
+00:01:05.479 --> 00:01:07.950 align:start position:0%
+the multiply is following behind it at
+this<00:01:05.760><c> point</c><00:01:06.520><c> the</c><00:01:06.640><c> multiplication</c><00:01:07.520><c> has</c><00:01:07.680><c> been</c>
+
+00:01:07.950 --> 00:01:07.960 align:start position:0%
+this point the multiplication has been
+ 
+
+00:01:07.960 --> 00:01:11.310 align:start position:0%
+this point the multiplication has been
+fetched<00:01:08.600><c> has</c><00:01:08.759><c> been</c><00:01:08.960><c> decoded</c><00:01:09.920><c> and</c><00:01:10.159><c> read</c><00:01:10.640><c> R4</c><00:01:11.119><c> and</c>
+
+00:01:11.310 --> 00:01:11.320 align:start position:0%
+fetched has been decoded and read R4 and
+ 
+
+00:01:11.320 --> 00:01:13.910 align:start position:0%
+fetched has been decoded and read R4 and
+R5<00:01:12.320><c> it</c><00:01:12.479><c> read</c><00:01:12.759><c> the</c><00:01:12.920><c> correct</c><00:01:13.320><c> value</c><00:01:13.640><c> because</c>
+
+00:01:13.910 --> 00:01:13.920 align:start position:0%
+R5 it read the correct value because
+ 
+
+00:01:13.920 --> 00:01:16.469 align:start position:0%
+R5 it read the correct value because
+these<00:01:14.080><c> are</c><00:01:14.280><c> not</c><00:01:14.520><c> affected</c><00:01:14.960><c> by</c><00:01:15.119><c> the</c><00:01:15.320><c> ad</c><00:01:16.159><c> and</c><00:01:16.320><c> now</c>
+
+00:01:16.469 --> 00:01:16.479 align:start position:0%
+these are not affected by the ad and now
+ 
+
+00:01:16.479 --> 00:01:18.070 align:start position:0%
+these are not affected by the ad and now
+it's<00:01:16.640><c> just</c><00:01:16.799><c> sitting</c><00:01:17.080><c> in</c><00:01:17.200><c> the</c><00:01:17.320><c> M</c><00:01:17.560><c> stage</c><00:01:17.880><c> because</c>
+
+00:01:18.070 --> 00:01:18.080 align:start position:0%
+it's just sitting in the M stage because
+ 
+
+00:01:18.080 --> 00:01:20.830 align:start position:0%
+it's just sitting in the M stage because
+it's<00:01:18.240><c> not</c><00:01:18.400><c> a</c><00:01:18.520><c> memory</c><00:01:19.200><c> operation</c><00:01:20.200><c> it</c><00:01:20.400><c> has</c><00:01:20.600><c> the</c>
+
+00:01:20.830 --> 00:01:20.840 align:start position:0%
+it's not a memory operation it has the
+ 
+
+00:01:20.840 --> 00:01:23.350 align:start position:0%
+it's not a memory operation it has the
+value<00:01:21.200><c> that</c><00:01:21.320><c> it</c><00:01:21.439><c> will</c><00:01:21.600><c> deposit</c><00:01:22.079><c> in</c><00:01:22.240><c> R1</c><00:01:23.159><c> when</c>
+
+00:01:23.350 --> 00:01:23.360 align:start position:0%
+value that it will deposit in R1 when
+ 
+
+00:01:23.360 --> 00:01:25.429 align:start position:0%
+value that it will deposit in R1 when
+the<00:01:23.560><c> ad</c><00:01:23.960><c> leaves</c><00:01:24.240><c> the</c><00:01:24.479><c> pipeline</c><00:01:24.880><c> in</c><00:01:25.040><c> the</c><00:01:25.159><c> next</c>
+
+00:01:25.429 --> 00:01:25.439 align:start position:0%
+the ad leaves the pipeline in the next
+ 
+
+00:01:25.439 --> 00:01:29.190 align:start position:0%
+the ad leaves the pipeline in the next
+cycle<00:01:26.360><c> the</c><00:01:26.560><c> multiply</c><00:01:27.439><c> will</c><00:01:27.720><c> get</c><00:01:28.040><c> here</c><00:01:28.920><c> and</c>
+
+00:01:29.190 --> 00:01:29.200 align:start position:0%
+cycle the multiply will get here and
+ 
+
+00:01:29.200 --> 00:01:32.710 align:start position:0%
+cycle the multiply will get here and
+have<00:01:29.400><c> its</c><00:01:29.680><c> right</c><00:01:30.119><c> of</c><00:01:30.280><c> R1</c><00:01:31.000><c> so</c><00:01:31.280><c> as</c><00:01:31.400><c> you</c><00:01:31.560><c> can</c><00:01:31.759><c> see</c>
+
+00:01:32.710 --> 00:01:32.720 align:start position:0%
+have its right of R1 so as you can see
+ 
+
+00:01:32.720 --> 00:01:35.710 align:start position:0%
+have its right of R1 so as you can see
+these<00:01:33.200><c> instructions</c><00:01:34.200><c> always</c><00:01:34.560><c> write</c><00:01:34.880><c> to</c><00:01:35.040><c> R1</c><00:01:35.560><c> in</c>
+
+00:01:35.710 --> 00:01:35.720 align:start position:0%
+these instructions always write to R1 in
+ 
+
+00:01:35.720 --> 00:01:38.429 align:start position:0%
+these instructions always write to R1 in
+the<00:01:35.880><c> correct</c><00:01:36.399><c> order</c><00:01:37.399><c> so</c><00:01:37.640><c> the</c><00:01:37.880><c> fact</c><00:01:38.079><c> that</c><00:01:38.280><c> there</c>
+
+00:01:38.429 --> 00:01:38.439 align:start position:0%
+the correct order so the fact that there
+ 
+
+00:01:38.439 --> 00:01:41.350 align:start position:0%
+the correct order so the fact that there
+is<00:01:38.680><c> this</c><00:01:38.920><c> output</c><00:01:39.600><c> dependence</c><00:01:40.600><c> doesn't</c><00:01:40.960><c> mean</c>
+
+00:01:41.350 --> 00:01:41.360 align:start position:0%
+is this output dependence doesn't mean
+ 
+
+00:01:41.360 --> 00:01:43.149 align:start position:0%
+is this output dependence doesn't mean
+that<00:01:41.520><c> we</c><00:01:41.680><c> have</c><00:01:41.799><c> to</c><00:01:41.960><c> worry</c><00:01:42.280><c> about</c><00:01:42.520><c> it</c><00:01:42.720><c> in</c><00:01:42.920><c> this</c>
+
+00:01:43.149 --> 00:01:43.159 align:start position:0%
+that we have to worry about it in this
+ 
+
+00:01:43.159 --> 00:01:45.310 align:start position:0%
+that we have to worry about it in this
+pipeline<00:01:43.960><c> this</c><00:01:44.159><c> dependence</c><00:01:44.799><c> will</c><00:01:45.000><c> be</c>
+
+00:01:45.310 --> 00:01:45.320 align:start position:0%
+pipeline this dependence will be
+ 
+
+00:01:45.320 --> 00:01:47.630 align:start position:0%
+pipeline this dependence will be
+naturally<00:01:46.000><c> satisfied</c><00:01:46.640><c> in</c><00:01:46.799><c> this</c><00:01:47.040><c> pipeline</c>
+
+00:01:47.630 --> 00:01:47.640 align:start position:0%
+naturally satisfied in this pipeline
+ 
+
+00:01:47.640 --> 00:01:50.149 align:start position:0%
+naturally satisfied in this pipeline
+because<00:01:47.960><c> the</c><00:01:48.479><c> rights</c><00:01:49.479><c> by</c><00:01:49.719><c> different</c>
+
+00:01:50.149 --> 00:01:50.159 align:start position:0%
+because the rights by different
+ 
+
+00:01:50.159 --> 00:01:52.429 align:start position:0%
+because the rights by different
+instructions<00:01:51.159><c> are</c><00:01:51.479><c> always</c><00:01:51.799><c> occurring</c><00:01:52.200><c> in</c>
+
+00:01:52.429 --> 00:01:52.439 align:start position:0%
+instructions are always occurring in
+ 
+
+00:01:52.439 --> 00:01:54.870 align:start position:0%
+instructions are always occurring in
+program<00:01:52.799><c> order</c><00:01:53.119><c> in</c><00:01:53.280><c> this</c><00:01:53.479><c> pipeline</c><00:01:54.280><c> now</c><00:01:54.520><c> let's</c>
+
+00:01:54.870 --> 00:01:54.880 align:start position:0%
+program order in this pipeline now let's
+ 
+
+00:01:54.880 --> 00:01:58.109 align:start position:0%
+program order in this pipeline now let's
+consider<00:01:55.719><c> a</c><00:01:55.920><c> write</c><00:01:56.280><c> after</c><00:01:56.640><c> read</c><00:01:57.119><c> dependence</c>
+
+00:01:58.109 --> 00:01:58.119 align:start position:0%
+consider a write after read dependence
+ 
+
+00:01:58.119 --> 00:01:59.469 align:start position:0%
+consider a write after read dependence
+let's<00:01:58.320><c> say</c><00:01:58.520><c> that</c><00:01:58.640><c> there</c><00:01:58.759><c> is</c><00:01:58.880><c> a</c><00:01:59.039><c> subtract</c>
+
+00:01:59.469 --> 00:01:59.479 align:start position:0%
+let's say that there is a subtract
+ 
+
+00:01:59.479 --> 00:02:01.590 align:start position:0%
+let's say that there is a subtract
+instruction<00:02:00.159><c> here</c><00:02:00.360><c> that</c><00:02:00.560><c> overrides</c>
+
+00:02:01.590 --> 00:02:01.600 align:start position:0%
+instruction here that overrides
+ 
+
+00:02:01.600 --> 00:02:05.389 align:start position:0%
+instruction here that overrides
+R4<00:02:02.600><c> that</c><00:02:02.719><c> was</c><00:02:02.920><c> read</c><00:02:03.159><c> by</c><00:02:03.360><c> the</c><00:02:03.719><c> multiply</c><00:02:04.719><c> at</c><00:02:04.880><c> the</c>
+
+00:02:05.389 --> 00:02:05.399 align:start position:0%
+R4 that was read by the multiply at the
+ 
+
+00:02:05.399 --> 00:02:09.109 align:start position:0%
+R4 that was read by the multiply at the
+point<00:02:06.399><c> where</c><00:02:06.640><c> multiply</c><00:02:07.159><c> reads</c><00:02:07.920><c> R4</c><00:02:08.920><c> the</c>
+
+00:02:09.109 --> 00:02:09.119 align:start position:0%
+point where multiply reads R4 the
+ 
+
+00:02:09.119 --> 00:02:11.990 align:start position:0%
+point where multiply reads R4 the
+subtract<00:02:10.080><c> is</c><00:02:10.319><c> being</c><00:02:10.640><c> fetched</c><00:02:11.319><c> so</c><00:02:11.520><c> the</c>
+
+00:02:11.990 --> 00:02:12.000 align:start position:0%
+subtract is being fetched so the
+ 
+
+00:02:12.000 --> 00:02:15.070 align:start position:0%
+subtract is being fetched so the
+multiply<00:02:13.000><c> reads</c><00:02:13.440><c> the</c><00:02:13.599><c> value</c><00:02:13.840><c> of</c><00:02:13.959><c> R4</c><00:02:14.680><c> that</c><00:02:14.879><c> was</c>
+
+00:02:15.070 --> 00:02:15.080 align:start position:0%
+multiply reads the value of R4 that was
+ 
+
+00:02:15.080 --> 00:02:18.509 align:start position:0%
+multiply reads the value of R4 that was
+not<00:02:15.360><c> affected</c><00:02:15.800><c> by</c><00:02:15.959><c> the</c><00:02:16.200><c> subtract</c><00:02:17.200><c> later</c><00:02:17.599><c> on</c>
+
+00:02:18.509 --> 00:02:18.519 align:start position:0%
+not affected by the subtract later on
+ 
+
+00:02:18.519 --> 00:02:22.070 align:start position:0%
+not affected by the subtract later on
+when<00:02:18.720><c> the</c><00:02:18.840><c> multiply</c><00:02:19.440><c> is</c><00:02:20.000><c> done</c><00:02:21.000><c> the</c><00:02:21.160><c> subtract</c>
+
+00:02:22.070 --> 00:02:22.080 align:start position:0%
+when the multiply is done the subtract
+ 
+
+00:02:22.080 --> 00:02:24.030 align:start position:0%
+when the multiply is done the subtract
+will<00:02:22.360><c> finally</c><00:02:22.720><c> write</c><00:02:23.000><c> to</c>
+
+00:02:24.030 --> 00:02:24.040 align:start position:0%
+will finally write to
+ 
+
+00:02:24.040 --> 00:02:27.589 align:start position:0%
+will finally write to
+R4<00:02:25.040><c> and</c><00:02:25.280><c> that</c><00:02:25.519><c> again</c><00:02:25.840><c> means</c><00:02:26.360><c> that</c><00:02:27.160><c> the</c><00:02:27.360><c> fact</c>
+
+00:02:27.589 --> 00:02:27.599 align:start position:0%
+R4 and that again means that the fact
+ 
+
+00:02:27.599 --> 00:02:29.589 align:start position:0%
+R4 and that again means that the fact
+that<00:02:27.760><c> there</c><00:02:27.920><c> is</c><00:02:28.040><c> a</c><00:02:28.280><c> dependence</c><00:02:29.040><c> between</c><00:02:29.440><c> the</c>
+
+00:02:29.589 --> 00:02:29.599 align:start position:0%
+that there is a dependence between the
+ 
+
+00:02:29.599 --> 00:02:30.670 align:start position:0%
+that there is a dependence between the
+re
+
+00:02:30.670 --> 00:02:30.680 align:start position:0%
+re
+ 
+
+00:02:30.680 --> 00:02:33.350 align:start position:0%
+re
+and<00:02:30.879><c> the</c><00:02:31.319><c> right</c><00:02:32.319><c> in</c><00:02:32.519><c> these</c><00:02:32.720><c> consecutive</c>
+
+00:02:33.350 --> 00:02:33.360 align:start position:0%
+and the right in these consecutive
+ 
+
+00:02:33.360 --> 00:02:35.710 align:start position:0%
+and the right in these consecutive
+instructions<00:02:34.360><c> is</c><00:02:34.560><c> never</c><00:02:34.840><c> a</c><00:02:35.040><c> problem</c><00:02:35.319><c> for</c><00:02:35.480><c> our</c>
+
+00:02:35.710 --> 00:02:35.720 align:start position:0%
+instructions is never a problem for our
+ 
+
+00:02:35.720 --> 00:02:38.350 align:start position:0%
+instructions is never a problem for our
+pipeline<00:02:36.360><c> because</c><00:02:36.680><c> the</c><00:02:36.800><c> read</c><00:02:37.120><c> of</c><00:02:37.280><c> R4</c><00:02:37.800><c> in</c><00:02:37.959><c> the</c>
+
+00:02:38.350 --> 00:02:38.360 align:start position:0%
+pipeline because the read of R4 in the
+ 
+
+00:02:38.360 --> 00:02:42.229 align:start position:0%
+pipeline because the read of R4 in the
+multiply<00:02:39.480><c> occurs</c><00:02:40.480><c> many</c><00:02:40.879><c> cycles</c><00:02:41.760><c> before</c><00:02:42.080><c> the</c>
+
+00:02:42.229 --> 00:02:42.239 align:start position:0%
+multiply occurs many cycles before the
+ 
+
+00:02:42.239 --> 00:02:45.430 align:start position:0%
+multiply occurs many cycles before the
+subtract<00:02:42.959><c> overwrites</c><00:02:43.599><c> that</c><00:02:43.840><c> value</c><00:02:44.400><c> so</c><00:02:44.680><c> again</c>
+
+00:02:45.430 --> 00:02:45.440 align:start position:0%
+subtract overwrites that value so again
+ 
+
+00:02:45.440 --> 00:02:47.750 align:start position:0%
+subtract overwrites that value so again
+we<00:02:45.599><c> have</c><00:02:45.720><c> a</c><00:02:45.920><c> dependence</c><00:02:46.720><c> that</c><00:02:46.920><c> cannot</c><00:02:47.400><c> become</c>
+
+00:02:47.750 --> 00:02:47.760 align:start position:0%
+we have a dependence that cannot become
+ 
+
+00:02:47.760 --> 00:02:51.070 align:start position:0%
+we have a dependence that cannot become
+a<00:02:48.000><c> problem</c><00:02:48.440><c> in</c><00:02:48.560><c> our</c><00:02:48.840><c> pipeline</c><00:02:49.720><c> now</c><00:02:49.959><c> let's</c><00:02:50.200><c> look</c>
+
+00:02:51.070 --> 00:02:51.080 align:start position:0%
+a problem in our pipeline now let's look
+ 
+
+00:02:51.080 --> 00:02:52.790 align:start position:0%
+a problem in our pipeline now let's look
+at<00:02:51.319><c> what</c><00:02:51.519><c> happens</c><00:02:51.840><c> when</c><00:02:52.000><c> there</c><00:02:52.120><c> is</c><00:02:52.319><c> a</c><00:02:52.480><c> true</c>
+
+00:02:52.790 --> 00:02:52.800 align:start position:0%
+at what happens when there is a true
+ 
+
+00:02:52.800 --> 00:02:54.670 align:start position:0%
+at what happens when there is a true
+dependence<00:02:53.319><c> in</c><00:02:53.480><c> this</c><00:02:53.640><c> pipeline</c><00:02:54.159><c> in</c><00:02:54.319><c> this</c><00:02:54.480><c> case</c>
+
+00:02:54.670 --> 00:02:54.680 align:start position:0%
+dependence in this pipeline in this case
+ 
+
+00:02:54.680 --> 00:02:56.949 align:start position:0%
+dependence in this pipeline in this case
+R4<00:02:55.319><c> here</c><00:02:55.560><c> should</c><00:02:55.760><c> be</c><00:02:55.920><c> used</c><00:02:56.360><c> by</c><00:02:56.480><c> the</c><00:02:56.640><c> next</c>
+
+00:02:56.949 --> 00:02:56.959 align:start position:0%
+R4 here should be used by the next
+ 
+
+00:02:56.959 --> 00:03:00.190 align:start position:0%
+R4 here should be used by the next
+instruction<00:02:57.959><c> The</c><00:02:58.159><c> Divide</c><00:02:58.599><c> is</c><00:02:58.760><c> reading</c><00:02:59.159><c> R4</c><00:03:00.040><c> in</c>
+
+00:03:00.190 --> 00:03:00.200 align:start position:0%
+instruction The Divide is reading R4 in
+ 
+
+00:03:00.200 --> 00:03:03.390 align:start position:0%
+instruction The Divide is reading R4 in
+a<00:03:00.480><c> cycle</c><00:03:01.360><c> where</c><00:03:01.560><c> the</c><00:03:01.720><c> subtract</c><00:03:02.360><c> is</c><00:03:02.680><c> here</c>
+
+00:03:03.390 --> 00:03:03.400 align:start position:0%
+a cycle where the subtract is here
+ 
+
+00:03:03.400 --> 00:03:06.949 align:start position:0%
+a cycle where the subtract is here
+clearly<00:03:04.400><c> at</c><00:03:04.599><c> that</c><00:03:04.840><c> time</c><00:03:05.120><c> subtract</c><00:03:05.760><c> didn't</c><00:03:06.599><c> put</c>
+
+00:03:06.949 --> 00:03:06.959 align:start position:0%
+clearly at that time subtract didn't put
+ 
+
+00:03:06.959 --> 00:03:10.630 align:start position:0%
+clearly at that time subtract didn't put
+its<00:03:07.159><c> R4</c><00:03:07.799><c> value</c><00:03:08.120><c> in</c><00:03:08.280><c> the</c><00:03:08.440><c> register</c><00:03:09.040><c> R4</c><00:03:10.040><c> it</c><00:03:10.200><c> is</c>
+
+00:03:10.630 --> 00:03:10.640 align:start position:0%
+its R4 value in the register R4 it is
+ 
+
+00:03:10.640 --> 00:03:12.869 align:start position:0%
+its R4 value in the register R4 it is
+actually<00:03:11.040><c> just</c><00:03:11.280><c> Computing</c><00:03:11.799><c> that</c><00:03:12.040><c> value</c><00:03:12.680><c> so</c>
+
+00:03:12.869 --> 00:03:12.879 align:start position:0%
+actually just Computing that value so
+ 
+
+00:03:12.879 --> 00:03:14.910 align:start position:0%
+actually just Computing that value so
+when<00:03:13.040><c> the</c><00:03:13.200><c> Divide</c><00:03:13.560><c> reads</c><00:03:13.879><c> register</c><00:03:14.239><c> R4</c><00:03:14.760><c> it's</c>
+
+00:03:14.910 --> 00:03:14.920 align:start position:0%
+when the Divide reads register R4 it's
+ 
+
+00:03:14.920 --> 00:03:17.990 align:start position:0%
+when the Divide reads register R4 it's
+reading<00:03:15.319><c> a</c><00:03:15.480><c> stale</c><00:03:16.000><c> value</c><00:03:16.239><c> of</c><00:03:16.400><c> R4</c><00:03:17.319><c> that</c><00:03:17.560><c> existed</c>
+
+00:03:17.990 --> 00:03:18.000 align:start position:0%
+reading a stale value of R4 that existed
+ 
+
+00:03:18.000 --> 00:03:21.670 align:start position:0%
+reading a stale value of R4 that existed
+before<00:03:18.360><c> the</c><00:03:18.519><c> subtract</c><00:03:19.519><c> several</c><00:03:19.920><c> Cycles</c><00:03:20.680><c> later</c>
+
+00:03:21.670 --> 00:03:21.680 align:start position:0%
+before the subtract several Cycles later
+ 
+
+00:03:21.680 --> 00:03:24.670 align:start position:0%
+before the subtract several Cycles later
+when<00:03:21.920><c> the</c><00:03:22.120><c> subtract</c><00:03:23.000><c> is</c><00:03:23.159><c> writing</c><00:03:23.799><c> to</c><00:03:24.000><c> that</c>
+
+00:03:24.670 --> 00:03:24.680 align:start position:0%
+when the subtract is writing to that
+ 
+
+00:03:24.680 --> 00:03:27.830 align:start position:0%
+when the subtract is writing to that
+register<00:03:25.680><c> the</c><00:03:25.959><c> Divide</c><00:03:26.680><c> has</c><00:03:26.879><c> already</c><00:03:27.319><c> computed</c>
+
+00:03:27.830 --> 00:03:27.840 align:start position:0%
+register the Divide has already computed
+ 
+
+00:03:27.840 --> 00:03:30.270 align:start position:0%
+register the Divide has already computed
+its<00:03:28.120><c> value</c><00:03:28.799><c> and</c><00:03:28.920><c> the</c><00:03:29.040><c> next</c><00:03:29.319><c> cycle</c><00:03:29.799><c> divide</c><00:03:30.080><c> will</c>
+
+00:03:30.270 --> 00:03:30.280 align:start position:0%
+its value and the next cycle divide will
+ 
+
+00:03:30.280 --> 00:03:33.030 align:start position:0%
+its value and the next cycle divide will
+write<00:03:30.959><c> that</c><00:03:31.400><c> bogus</c><00:03:31.920><c> value</c><00:03:32.280><c> into</c><00:03:32.560><c> the</c><00:03:32.680><c> register</c>
+
+00:03:33.030 --> 00:03:33.040 align:start position:0%
+write that bogus value into the register
+ 
+
+00:03:33.040 --> 00:03:34.589 align:start position:0%
+write that bogus value into the register
+so<00:03:33.239><c> pretty</c><00:03:33.400><c> much</c><00:03:33.519><c> the</c><00:03:33.640><c> Divide</c><00:03:34.000><c> read</c><00:03:34.239><c> the</c><00:03:34.360><c> wrong</c>
+
+00:03:34.589 --> 00:03:34.599 align:start position:0%
+so pretty much the Divide read the wrong
+ 
+
+00:03:34.599 --> 00:03:37.030 align:start position:0%
+so pretty much the Divide read the wrong
+value<00:03:34.840><c> for</c><00:03:35.159><c> four</c><00:03:35.799><c> computed</c><00:03:36.360><c> with</c><00:03:36.560><c> that</c><00:03:36.720><c> wrong</c>
+
+00:03:37.030 --> 00:03:37.040 align:start position:0%
+value for four computed with that wrong
+ 
+
+00:03:37.040 --> 00:03:39.750 align:start position:0%
+value for four computed with that wrong
+value<00:03:37.840><c> and</c><00:03:38.040><c> then</c><00:03:38.480><c> eventually</c><00:03:39.000><c> deposits</c><00:03:39.480><c> that</c>
+
+00:03:39.750 --> 00:03:39.760 align:start position:0%
+value and then eventually deposits that
+ 
+
+00:03:39.760 --> 00:03:42.670 align:start position:0%
+value and then eventually deposits that
+wrong<00:03:40.080><c> value</c><00:03:40.360><c> into</c><00:03:40.599><c> a</c><00:03:40.799><c> register</c><00:03:41.560><c> so</c><00:03:41.879><c> clearly</c>
+
+00:03:42.670 --> 00:03:42.680 align:start position:0%
+wrong value into a register so clearly
+ 
+
+00:03:42.680 --> 00:03:45.750 align:start position:0%
+wrong value into a register so clearly
+this<00:03:42.920><c> true</c><00:03:43.319><c> dependence</c><00:03:44.040><c> here</c><00:03:44.760><c> is</c><00:03:45.120><c> a</c><00:03:45.360><c> problem</c>
+
+00:03:45.750 --> 00:03:45.760 align:start position:0%
+this true dependence here is a problem
+ 
+
+00:03:45.760 --> 00:03:49.350 align:start position:0%
+this true dependence here is a problem
+in<00:03:45.879><c> our</c><00:03:46.400><c> pipeline</c><00:03:47.400><c> if</c><00:03:47.519><c> we</c><00:03:47.760><c> just</c><00:03:48.000><c> let</c><00:03:48.280><c> things</c><00:03:48.599><c> go</c>
+
+00:03:49.350 --> 00:03:49.360 align:start position:0%
+in our pipeline if we just let things go
+ 
+
+00:03:49.360 --> 00:03:51.710 align:start position:0%
+in our pipeline if we just let things go
+and<00:03:49.480><c> flow</c><00:03:49.799><c> through</c><00:03:50.000><c> the</c><00:03:50.200><c> pipeline</c><00:03:51.200><c> we</c><00:03:51.360><c> will</c>
+
+00:03:51.710 --> 00:03:51.720 align:start position:0%
+and flow through the pipeline we will
+ 
+
+00:03:51.720 --> 00:03:54.750 align:start position:0%
+and flow through the pipeline we will
+have<00:03:51.959><c> the</c><00:03:52.120><c> wrong</c><00:03:52.439><c> result</c><00:03:52.840><c> deposited</c><00:03:53.480><c> into</c><00:03:54.079><c> r10</c>
+
+00:03:54.750 --> 00:03:54.760 align:start position:0%
+have the wrong result deposited into r10
+ 
+
+00:03:54.760 --> 00:03:57.750 align:start position:0%
+have the wrong result deposited into r10
+by<00:03:54.959><c> the</c><00:03:55.200><c> divide</c><00:03:56.200><c> the</c><00:03:56.400><c> situation</c><00:03:57.319><c> when</c><00:03:57.480><c> a</c>
+
+00:03:57.750 --> 00:03:57.760 align:start position:0%
+by the divide the situation when a
+ 
+
+00:03:57.760 --> 00:04:00.229 align:start position:0%
+by the divide the situation when a
+dependence<00:03:58.760><c> can</c><00:03:59.000><c> cause</c><00:03:59.239><c> a</c><00:03:59.439><c> problem</c><00:03:59.959><c> in</c><00:04:00.040><c> a</c>
+
+00:04:00.229 --> 00:04:00.239 align:start position:0%
+dependence can cause a problem in a
+ 
+
+00:04:00.239 --> 00:04:04.229 align:start position:0%
+dependence can cause a problem in a
+pipeline<00:04:01.040><c> is</c><00:04:01.239><c> called</c><00:04:01.560><c> a</c><00:04:01.879><c> hazard</c><00:04:02.720><c> so</c><00:04:02.920><c> a</c><00:04:03.239><c> hazard</c>
+
+00:04:04.229 --> 00:04:04.239 align:start position:0%
+pipeline is called a hazard so a hazard
+ 
+
+00:04:04.239 --> 00:04:06.789 align:start position:0%
+pipeline is called a hazard so a hazard
+occurs<00:04:04.879><c> when</c><00:04:05.079><c> a</c><00:04:05.319><c> dependence</c><00:04:06.040><c> results</c><00:04:06.599><c> in</c>
+
+00:04:06.789 --> 00:04:06.799 align:start position:0%
+occurs when a dependence results in
+ 
+
+00:04:06.799 --> 00:04:10.270 align:start position:0%
+occurs when a dependence results in
+incorrect<00:04:07.480><c> execution</c><00:04:08.480><c> of</c><00:04:08.680><c> one</c><00:04:08.840><c> or</c><00:04:09.000><c> more</c>
+
+00:04:10.270 --> 00:04:10.280 align:start position:0%
+incorrect execution of one or more
+ 
+
+00:04:10.280 --> 00:04:13.710 align:start position:0%
+incorrect execution of one or more
+instructions<00:04:11.480><c> hazards</c><00:04:12.480><c> are</c><00:04:12.680><c> a</c><00:04:12.920><c> property</c><00:04:13.480><c> of</c>
+
+00:04:13.710 --> 00:04:13.720 align:start position:0%
+instructions hazards are a property of
+ 
+
+00:04:13.720 --> 00:04:16.430 align:start position:0%
+instructions hazards are a property of
+both<00:04:13.959><c> the</c><00:04:14.400><c> program</c><00:04:15.400><c> because</c><00:04:15.879><c> you</c><00:04:16.000><c> cannot</c><00:04:16.320><c> have</c>
+
+00:04:16.430 --> 00:04:16.440 align:start position:0%
+both the program because you cannot have
+ 
+
+00:04:16.440 --> 00:04:18.629 align:start position:0%
+both the program because you cannot have
+a<00:04:16.639><c> hazard</c><00:04:17.079><c> unless</c><00:04:17.359><c> you</c><00:04:17.519><c> have</c><00:04:17.639><c> a</c>
+
+00:04:18.629 --> 00:04:18.639 align:start position:0%
+a hazard unless you have a
+ 
+
+00:04:18.639 --> 00:04:21.390 align:start position:0%
+a hazard unless you have a
+dependence<00:04:19.639><c> but</c><00:04:19.959><c> also</c><00:04:20.560><c> of</c><00:04:20.759><c> the</c><00:04:20.919><c> pipeline</c>
+
+00:04:21.390 --> 00:04:21.400 align:start position:0%
+dependence but also of the pipeline
+ 
+
+00:04:21.400 --> 00:04:24.430 align:start position:0%
+dependence but also of the pipeline
+itself<00:04:22.000><c> how</c><00:04:22.160><c> the</c><00:04:22.360><c> dependence</c><00:04:22.919><c> is</c><00:04:23.440><c> interacting</c>
+
+00:04:24.430 --> 00:04:24.440 align:start position:0%
+itself how the dependence is interacting
+ 
+
+00:04:24.440 --> 00:04:26.990 align:start position:0%
+itself how the dependence is interacting
+with<00:04:24.600><c> the</c><00:04:24.800><c> pipeline</c><00:04:25.400><c> so</c><00:04:25.600><c> for</c><00:04:25.800><c> example</c><00:04:26.680><c> we</c><00:04:26.840><c> have</c>
+
+00:04:26.990 --> 00:04:27.000 align:start position:0%
+with the pipeline so for example we have
+ 
+
+00:04:27.000 --> 00:04:30.270 align:start position:0%
+with the pipeline so for example we have
+seen<00:04:27.520><c> that</c><00:04:28.440><c> output</c><00:04:29.440><c> and</c><00:04:29.840><c> anti-de</c>
+
+00:04:30.270 --> 00:04:30.280 align:start position:0%
+seen that output and anti-de
+ 
+
+00:04:30.280 --> 00:04:33.590 align:start position:0%
+seen that output and anti-de
+dependencies<00:04:31.160><c> in</c><00:04:31.440><c> this</c><00:04:31.720><c> particular</c><00:04:32.600><c> pipeline</c>
+
+00:04:33.590 --> 00:04:33.600 align:start position:0%
+dependencies in this particular pipeline
+ 
+
+00:04:33.600 --> 00:04:36.390 align:start position:0%
+dependencies in this particular pipeline
+cannot<00:04:34.080><c> become</c><00:04:34.600><c> hazards</c><00:04:35.600><c> but</c><00:04:35.840><c> true</c>
+
+00:04:36.390 --> 00:04:36.400 align:start position:0%
+cannot become hazards but true
+ 
+
+00:04:36.400 --> 00:04:40.469 align:start position:0%
+cannot become hazards but true
+dependencies<00:04:37.759><c> can</c><00:04:38.759><c> now</c><00:04:39.080><c> I</c><00:04:39.160><c> will</c><00:04:39.400><c> show</c><00:04:39.680><c> you</c>
+
+00:04:40.469 --> 00:04:40.479 align:start position:0%
+dependencies can now I will show you
+ 
+
+00:04:40.479 --> 00:04:42.430 align:start position:0%
+dependencies can now I will show you
+that<00:04:40.680><c> not</c><00:04:40.960><c> all</c><00:04:41.160><c> through</c><00:04:41.520><c> dependencies</c><00:04:42.199><c> are</c>
+
+00:04:42.430 --> 00:04:42.440 align:start position:0%
+that not all through dependencies are
+ 
+
+00:04:42.440 --> 00:04:43.870 align:start position:0%
+that not all through dependencies are
+hazards<00:04:42.880><c> in</c><00:04:43.039><c> this</c>
+
+00:04:43.870 --> 00:04:43.880 align:start position:0%
+hazards in this
+ 
+
+00:04:43.880 --> 00:04:47.230 align:start position:0%
+hazards in this
+pipeline<00:04:44.880><c> in</c><00:04:45.080><c> this</c><00:04:45.280><c> case</c><00:04:45.479><c> we</c><00:04:45.680><c> have</c><00:04:45.840><c> seen</c><00:04:46.240><c> that</c>
+
+00:04:47.230 --> 00:04:47.240 align:start position:0%
+pipeline in this case we have seen that
+ 
+
+00:04:47.240 --> 00:04:49.230 align:start position:0%
+pipeline in this case we have seen that
+a<00:04:47.440><c> dependence</c><00:04:47.960><c> between</c><00:04:48.400><c> consecutive</c>
+
+00:04:49.230 --> 00:04:49.240 align:start position:0%
+a dependence between consecutive
+ 
+
+00:04:49.240 --> 00:04:51.670 align:start position:0%
+a dependence between consecutive
+instructions<00:04:50.240><c> creates</c><00:04:50.639><c> a</c><00:04:50.880><c> hazard</c><00:04:51.240><c> in</c><00:04:51.400><c> this</c>
+
+00:04:51.670 --> 00:04:51.680 align:start position:0%
+instructions creates a hazard in this
+ 
+
+00:04:51.680 --> 00:04:55.550 align:start position:0%
+instructions creates a hazard in this
+pipeline<00:04:52.680><c> let's</c><00:04:52.919><c> say</c><00:04:53.160><c> that</c><00:04:53.280><c> the</c><00:04:53.639><c> right</c><00:04:54.639><c> to</c><00:04:54.880><c> R7</c>
+
+00:04:55.550 --> 00:04:55.560 align:start position:0%
+pipeline let's say that the right to R7
+ 
+
+00:04:55.560 --> 00:04:57.629 align:start position:0%
+pipeline let's say that the right to R7
+occurs<00:04:55.880><c> in</c><00:04:56.039><c> this</c><00:04:56.199><c> multiplying</c><00:04:56.759><c> inst</c>
+
+00:04:57.629 --> 00:04:57.639 align:start position:0%
+occurs in this multiplying inst
+ 
+
+00:04:57.639 --> 00:05:00.270 align:start position:0%
+occurs in this multiplying inst
+struction<00:04:58.639><c> and</c><00:04:58.800><c> that</c><00:04:58.960><c> we</c><00:04:59.080><c> now</c><00:04:59.320><c> have</c><00:04:59.440><c> an</c><00:04:59.800><c> xor</c>
+
+00:05:00.270 --> 00:05:00.280 align:start position:0%
+struction and that we now have an xor
+ 
+
+00:05:00.280 --> 00:05:03.749 align:start position:0%
+struction and that we now have an xor
+that<00:05:00.400><c> uses</c><00:05:00.720><c> R1</c><00:05:01.120><c> and</c><00:05:01.479><c> R7</c><00:05:02.479><c> let's</c><00:05:02.720><c> now</c><00:05:02.960><c> see</c>
+
+00:05:03.749 --> 00:05:03.759 align:start position:0%
+that uses R1 and R7 let's now see
+ 
+
+00:05:03.759 --> 00:05:06.070 align:start position:0%
+that uses R1 and R7 let's now see
+whether<00:05:04.080><c> there</c><00:05:04.240><c> is</c><00:05:05.000><c> a</c><00:05:05.240><c> dependence</c><00:05:05.800><c> between</c>
+
+00:05:06.070 --> 00:05:06.080 align:start position:0%
+whether there is a dependence between
+ 
+
+00:05:06.080 --> 00:05:08.830 align:start position:0%
+whether there is a dependence between
+the<00:05:06.240><c> ADD</c><00:05:06.440><c> and</c><00:05:06.600><c> xor</c><00:05:07.160><c> yes</c><00:05:07.360><c> there</c><00:05:07.479><c> is</c><00:05:07.960><c> R1</c><00:05:08.400><c> produced</c>
+
+00:05:08.830 --> 00:05:08.840 align:start position:0%
+the ADD and xor yes there is R1 produced
+ 
+
+00:05:08.840 --> 00:05:10.830 align:start position:0%
+the ADD and xor yes there is R1 produced
+by<00:05:08.960><c> the</c><00:05:09.120><c> ad</c><00:05:09.400><c> should</c><00:05:09.600><c> be</c><00:05:09.720><c> used</c><00:05:10.000><c> by</c><00:05:10.120><c> the</c><00:05:10.240><c> xor</c><00:05:10.720><c> and</c>
+
+00:05:10.830 --> 00:05:10.840 align:start position:0%
+by the ad should be used by the xor and
+ 
+
+00:05:10.840 --> 00:05:12.270 align:start position:0%
+by the ad should be used by the xor and
+there<00:05:10.960><c> is</c><00:05:11.080><c> also</c><00:05:11.320><c> a</c><00:05:11.440><c> dependence</c><00:05:11.919><c> between</c><00:05:12.160><c> the</c>
+
+00:05:12.270 --> 00:05:12.280 align:start position:0%
+there is also a dependence between the
+ 
+
+00:05:12.280 --> 00:05:14.909 align:start position:0%
+there is also a dependence between the
+multiply<00:05:12.880><c> and</c><00:05:13.039><c> the</c><00:05:13.160><c> xor</c><00:05:13.800><c> but</c><00:05:14.000><c> let's</c><00:05:14.199><c> see</c><00:05:14.720><c> if</c>
+
+00:05:14.909 --> 00:05:14.919 align:start position:0%
+multiply and the xor but let's see if
+ 
+
+00:05:14.919 --> 00:05:17.550 align:start position:0%
+multiply and the xor but let's see if
+these<00:05:15.160><c> dependencies</c><00:05:16.000><c> are</c><00:05:16.320><c> hazards</c><00:05:17.120><c> in</c><00:05:17.360><c> this</c>
+
+00:05:17.550 --> 00:05:17.560 align:start position:0%
+these dependencies are hazards in this
+ 
+
+00:05:17.560 --> 00:05:20.469 align:start position:0%
+these dependencies are hazards in this
+particular<00:05:18.080><c> pipeline</c><00:05:18.880><c> when</c><00:05:19.080><c> the</c><00:05:19.240><c> exor</c><00:05:20.160><c> is</c><00:05:20.319><c> in</c>
+
+00:05:20.469 --> 00:05:20.479 align:start position:0%
+particular pipeline when the exor is in
+ 
+
+00:05:20.479 --> 00:05:23.189 align:start position:0%
+particular pipeline when the exor is in
+the<00:05:20.639><c> decode</c><00:05:21.240><c> stage</c><00:05:22.240><c> The</c><00:05:22.440><c> Divide</c><00:05:22.840><c> is</c><00:05:22.960><c> in</c><00:05:23.080><c> the</c>
+
+00:05:23.189 --> 00:05:23.199 align:start position:0%
+the decode stage The Divide is in the
+ 
+
+00:05:23.199 --> 00:05:25.550 align:start position:0%
+the decode stage The Divide is in the
+ALU<00:05:23.600><c> stage</c><00:05:23.919><c> the</c><00:05:24.039><c> subtract</c><00:05:24.479><c> is</c><00:05:24.600><c> in</c><00:05:24.720><c> the</c><00:05:24.840><c> M</c><00:05:25.199><c> stage</c>
+
+00:05:25.550 --> 00:05:25.560 align:start position:0%
+ALU stage the subtract is in the M stage
+ 
+
+00:05:25.560 --> 00:05:27.629 align:start position:0%
+ALU stage the subtract is in the M stage
+and<00:05:25.720><c> the</c><00:05:25.840><c> multiply</c><00:05:26.520><c> is</c><00:05:26.639><c> in</c><00:05:26.759><c> the</c><00:05:26.960><c> right</c><00:05:27.240><c> stage</c>
+
+00:05:27.629 --> 00:05:27.639 align:start position:0%
+and the multiply is in the right stage
+ 
+
+00:05:27.639 --> 00:05:30.189 align:start position:0%
+and the multiply is in the right stage
+and<00:05:27.800><c> the</c><00:05:27.960><c> add</c><00:05:28.280><c> has</c><00:05:28.440><c> left</c><00:05:28.800><c> the</c><00:05:29.000><c> pipeline</c><00:05:29.720><c> it</c><00:05:29.880><c> was</c>
+
+00:05:30.189 --> 00:05:30.199 align:start position:0%
+and the add has left the pipeline it was
+ 
+
+00:05:30.199 --> 00:05:33.189 align:start position:0%
+and the add has left the pipeline it was
+writing<00:05:30.639><c> to</c><00:05:30.840><c> R1</c><00:05:31.280><c> in</c><00:05:31.400><c> the</c><00:05:31.560><c> previous</c><00:05:31.919><c> cycle</c><00:05:32.880><c> so</c>
+
+00:05:33.189 --> 00:05:33.199 align:start position:0%
+writing to R1 in the previous cycle so
+ 
+
+00:05:33.199 --> 00:05:36.990 align:start position:0%
+writing to R1 in the previous cycle so
+as<00:05:33.360><c> you</c><00:05:33.479><c> can</c><00:05:34.160><c> see</c><00:05:35.160><c> the</c><00:05:35.600><c> dependence</c><00:05:36.600><c> between</c>
+
+00:05:36.990 --> 00:05:37.000 align:start position:0%
+as you can see the dependence between
+ 
+
+00:05:37.000 --> 00:05:40.670 align:start position:0%
+as you can see the dependence between
+the<00:05:37.199><c> ad</c><00:05:37.560><c> and</c><00:05:37.759><c> the</c><00:05:38.319><c> xor</c><00:05:39.319><c> is</c><00:05:39.520><c> not</c><00:05:39.800><c> a</c><00:05:40.080><c> hazard</c><00:05:40.520><c> in</c>
+
+00:05:40.670 --> 00:05:40.680 align:start position:0%
+the ad and the xor is not a hazard in
+ 
+
+00:05:40.680 --> 00:05:42.629 align:start position:0%
+the ad and the xor is not a hazard in
+this<00:05:40.960><c> pipeline</c><00:05:41.800><c> pretty</c><00:05:42.080><c> much</c><00:05:42.240><c> in</c><00:05:42.400><c> this</c>
+
+00:05:42.629 --> 00:05:42.639 align:start position:0%
+this pipeline pretty much in this
+ 
+
+00:05:42.639 --> 00:05:44.710 align:start position:0%
+this pipeline pretty much in this
+pipeline<00:05:43.280><c> if</c><00:05:43.440><c> there</c><00:05:43.560><c> are</c><00:05:43.840><c> three</c><00:05:44.160><c> or</c><00:05:44.400><c> more</c>
+
+00:05:44.710 --> 00:05:44.720 align:start position:0%
+pipeline if there are three or more
+ 
+
+00:05:44.720 --> 00:05:46.710 align:start position:0%
+pipeline if there are three or more
+instructions<00:05:45.360><c> between</c><00:05:45.720><c> the</c><00:05:45.919><c> producing</c><00:05:46.560><c> and</c>
+
+00:05:46.710 --> 00:05:46.720 align:start position:0%
+instructions between the producing and
+ 
+
+00:05:46.720 --> 00:05:48.070 align:start position:0%
+instructions between the producing and
+the<00:05:46.880><c> consuming</c>
+
+00:05:48.070 --> 00:05:48.080 align:start position:0%
+the consuming
+ 
+
+00:05:48.080 --> 00:05:49.909 align:start position:0%
+the consuming
+instruction<00:05:49.080><c> then</c><00:05:49.240><c> the</c><00:05:49.400><c> consuming</c>
+
+00:05:49.909 --> 00:05:49.919 align:start position:0%
+instruction then the consuming
+ 
+
+00:05:49.919 --> 00:05:52.590 align:start position:0%
+instruction then the consuming
+instruction<00:05:50.919><c> reads</c><00:05:51.319><c> the</c><00:05:51.479><c> register</c><00:05:52.120><c> after</c><00:05:52.440><c> the</c>
+
+00:05:52.590 --> 00:05:52.600 align:start position:0%
+instruction reads the register after the
+ 
+
+00:05:52.600 --> 00:05:55.390 align:start position:0%
+instruction reads the register after the
+producing<00:05:53.039><c> one</c><00:05:53.400><c> has</c><00:05:53.680><c> already</c><00:05:53.960><c> written</c><00:05:54.400><c> it</c>
+
+00:05:55.390 --> 00:05:55.400 align:start position:0%
+producing one has already written it
+ 
+
+00:05:55.400 --> 00:05:58.590 align:start position:0%
+producing one has already written it
+however<00:05:56.199><c> the</c><00:05:56.400><c> dependence</c><00:05:57.199><c> on</c><00:05:57.400><c> R7</c><00:05:58.160><c> between</c><00:05:58.440><c> the</c>
+
+00:05:58.590 --> 00:05:58.600 align:start position:0%
+however the dependence on R7 between the
+ 
+
+00:05:58.600 --> 00:06:01.350 align:start position:0%
+however the dependence on R7 between the
+multiply<00:05:59.160><c> and</c><00:05:59.360><c> X</c><00:05:59.759><c> or</c><00:06:00.400><c> is</c><00:06:00.680><c> potentially</c><00:06:01.160><c> a</c>
+
+00:06:01.350 --> 00:06:01.360 align:start position:0%
+multiply and X or is potentially a
+ 
+
+00:06:01.360 --> 00:06:03.990 align:start position:0%
+multiply and X or is potentially a
+problem<00:06:01.600><c> in</c><00:06:01.759><c> this</c><00:06:02.319><c> pipeline</c><00:06:03.319><c> because</c><00:06:03.840><c> the</c>
+
+00:06:03.990 --> 00:06:04.000 align:start position:0%
+problem in this pipeline because the
+ 
+
+00:06:04.000 --> 00:06:06.110 align:start position:0%
+problem in this pipeline because the
+exor<00:06:04.520><c> is</c><00:06:04.639><c> reading</c>
+
+00:06:06.110 --> 00:06:06.120 align:start position:0%
+exor is reading
+ 
+
+00:06:06.120 --> 00:06:09.350 align:start position:0%
+exor is reading
+R7<00:06:07.120><c> in</c><00:06:07.319><c> the</c><00:06:07.599><c> cycle</c><00:06:07.919><c> during</c><00:06:08.319><c> which</c><00:06:08.560><c> multiply</c><00:06:09.199><c> is</c>
+
+00:06:09.350 --> 00:06:09.360 align:start position:0%
+R7 in the cycle during which multiply is
+ 
+
+00:06:09.360 --> 00:06:11.790 align:start position:0%
+R7 in the cycle during which multiply is
+writing<00:06:09.840><c> it</c><00:06:10.160><c> to</c><00:06:10.360><c> the</c><00:06:10.560><c> register</c><00:06:11.240><c> so</c><00:06:11.440><c> if</c><00:06:11.599><c> this</c>
+
+00:06:11.790 --> 00:06:11.800 align:start position:0%
+writing it to the register so if this
+ 
+
+00:06:11.800 --> 00:06:13.710 align:start position:0%
+writing it to the register so if this
+write<00:06:12.280><c> completes</c><00:06:12.840><c> near</c><00:06:13.080><c> the</c><00:06:13.240><c> end</c><00:06:13.440><c> of</c><00:06:13.560><c> the</c>
+
+00:06:13.710 --> 00:06:13.720 align:start position:0%
+write completes near the end of the
+ 
+
+00:06:13.720 --> 00:06:15.870 align:start position:0%
+write completes near the end of the
+clock<00:06:14.039><c> cycle</c><00:06:14.560><c> and</c><00:06:14.800><c> this</c>
+
+00:06:15.870 --> 00:06:15.880 align:start position:0%
+clock cycle and this
+ 
+
+00:06:15.880 --> 00:06:18.469 align:start position:0%
+clock cycle and this
+read<00:06:16.880><c> is</c><00:06:17.120><c> happening</c><00:06:17.520><c> near</c><00:06:17.800><c> the</c><00:06:17.960><c> beginning</c><00:06:18.360><c> of</c>
+
+00:06:18.469 --> 00:06:18.479 align:start position:0%
+read is happening near the beginning of
+ 
+
+00:06:18.479 --> 00:06:21.309 align:start position:0%
+read is happening near the beginning of
+the<00:06:18.639><c> clock</c><00:06:18.919><c> cycle</c><00:06:19.599><c> the</c><00:06:19.759><c> exor</c><00:06:20.440><c> will</c><00:06:20.680><c> not</c><00:06:20.919><c> read</c>
+
+00:06:21.309 --> 00:06:21.319 align:start position:0%
+the clock cycle the exor will not read
+ 
+
+00:06:21.319 --> 00:06:24.150 align:start position:0%
+the clock cycle the exor will not read
+the<00:06:21.440><c> R7</c><00:06:22.039><c> produced</c><00:06:22.440><c> by</c><00:06:22.599><c> the</c><00:06:22.720><c> multiply</c><00:06:23.720><c> in</c><00:06:23.919><c> this</c>
+
+00:06:24.150 --> 00:06:24.160 align:start position:0%
+the R7 produced by the multiply in this
+ 
+
+00:06:24.160 --> 00:06:26.350 align:start position:0%
+the R7 produced by the multiply in this
+pipeline<00:06:24.599><c> we</c><00:06:24.720><c> can</c><00:06:24.919><c> tell</c><00:06:25.599><c> that</c><00:06:25.800><c> a</c><00:06:26.000><c> true</c>
+
+00:06:26.350 --> 00:06:26.360 align:start position:0%
+pipeline we can tell that a true
+ 
+
+00:06:26.360 --> 00:06:29.110 align:start position:0%
+pipeline we can tell that a true
+dependence<00:06:27.360><c> is</c><00:06:27.560><c> not</c><00:06:27.800><c> a</c><00:06:28.080><c> hazard</c><00:06:28.639><c> if</c><00:06:28.800><c> there</c><00:06:28.919><c> is</c>
+
+00:06:29.110 --> 00:06:29.120 align:start position:0%
+dependence is not a hazard if there is
+ 
+
+00:06:29.120 --> 00:06:31.510 align:start position:0%
+dependence is not a hazard if there is
+three<00:06:29.599><c> or</c><00:06:29.800><c> more</c><00:06:30.120><c> instructions</c><00:06:30.720><c> in</c><00:06:30.960><c> between</c>
+
+00:06:31.510 --> 00:06:31.520 align:start position:0%
+three or more instructions in between
+ 
+
+00:06:31.520 --> 00:06:33.110 align:start position:0%
+three or more instructions in between
+the<00:06:31.680><c> producing</c><00:06:32.160><c> and</c><00:06:32.319><c> the</c><00:06:32.440><c> consuming</c>
+
+00:06:33.110 --> 00:06:33.120 align:start position:0%
+the producing and the consuming
+ 
+
+00:06:33.120 --> 00:06:36.029 align:start position:0%
+the producing and the consuming
+instruction<00:06:34.120><c> but</c><00:06:34.319><c> it</c><00:06:34.560><c> is</c><00:06:34.800><c> a</c><00:06:35.080><c> hazard</c><00:06:35.720><c> if</c><00:06:35.919><c> there</c>
+
+00:06:36.029 --> 00:06:36.039 align:start position:0%
+instruction but it is a hazard if there
+ 
+
+00:06:36.039 --> 00:06:38.589 align:start position:0%
+instruction but it is a hazard if there
+is<00:06:36.560><c> fewer</c><00:06:37.199><c> than</c><00:06:37.400><c> three</c><00:06:37.680><c> instructions</c><00:06:38.240><c> between</c>
+
+00:06:38.589 --> 00:06:38.599 align:start position:0%
+is fewer than three instructions between
+ 
+
+00:06:38.599 --> 00:06:40.070 align:start position:0%
+is fewer than three instructions between
+them<00:06:38.880><c> in</c><00:06:39.039><c> this</c><00:06:39.240><c> case</c><00:06:39.400><c> there</c><00:06:39.520><c> are</c><00:06:39.680><c> only</c><00:06:39.880><c> two</c>
+
+00:06:40.070 --> 00:06:40.080 align:start position:0%
+them in this case there are only two
+ 
+
+00:06:40.080 --> 00:06:41.950 align:start position:0%
+them in this case there are only two
+instructions<00:06:40.560><c> in</c><00:06:40.720><c> between</c><00:06:41.199><c> and</c><00:06:41.400><c> that's</c><00:06:41.680><c> why</c>
+
+00:06:41.950 --> 00:06:41.960 align:start position:0%
+instructions in between and that's why
+ 
+
+00:06:41.960 --> 00:06:45.400 align:start position:0%
+instructions in between and that's why
+we<00:06:42.120><c> still</c><00:06:42.400><c> have</c><00:06:42.599><c> a</c><00:06:42.840><c> hazard</c>
+

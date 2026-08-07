@@ -1,0 +1,116 @@
+1
+00:00:01,040 --> 00:00:04,454
+ If you understand the SPMD model and the asynchronous communication primitives,
+
+2
+00:00:04,454 --> 00:00:08,640
+ then you're ready to write the pseudocode for an all-to-one reduction.
+
+3
+00:00:08,640 --> 00:00:12,340
+ So recall the problem and our algorithmic idea.
+
+4
+00:00:12,340 --> 00:00:14,900
+ There are p processes.
+
+5
+00:00:14,900 --> 00:00:19,490
+ Each process has a value, and we want to compute the global sum of these values,
+
+6
+00:00:19,490 --> 00:00:23,670
+ leaving the result on some root process, let's say process zero.
+
+7
+00:00:23,670 --> 00:00:27,090
+ Our algorithmic idea was to use a tree-based reduction.
+
+8
+00:00:27,090 --> 00:00:31,342
+ The algorithm proceeds in about log P rounds of communication.
+
+9
+00:00:31,342 --> 00:00:35,305
+ The rounds iterate over bit positions.
+
+10
+00:00:35,305 --> 00:00:37,915
+ In each round there's a current bit position.
+
+11
+00:00:37,915 --> 00:00:44,825
+ Processes with a one send to processes with a zero in that bit position.
+
+12
+00:00:44,825 --> 00:00:47,825
+ Okay so let's sketch some pseudocode.
+
+13
+00:00:47,825 --> 00:00:50,775
+ For simplicity, let's assume that P has a power of two, so
+
+14
+00:00:50,775 --> 00:00:53,170
+ we'll ignore this oddball.
+
+15
+00:00:53,170 --> 00:00:56,650
+ Let's have an outer loop that maintains a bitmask and
+
+16
+00:00:56,650 --> 00:00:59,930
+ we'll shift the bitmask after every round.
+
+17
+00:00:59,930 --> 00:01:04,450
+ The next part of the algorithm is to have pairs of processes communicate.
+
+18
+00:01:04,450 --> 00:01:09,450
+ The partner of any given rank differs only in the bitmask position, so
+
+19
+00:01:09,450 --> 00:01:11,870
+ this is an exclusive or.
+
+20
+00:01:11,870 --> 00:01:16,140
+ Remember that senders had a one in the current bit position, so
+
+21
+00:01:16,140 --> 00:01:19,370
+ if you're a sender, you need to send a message.
+
+22
+00:01:19,370 --> 00:01:20,690
+ So if S is our local value,
+
+23
+00:01:20,690 --> 00:01:25,020
+ then the send can just send that value to a partner and then wait.
+
+24
+00:01:25,020 --> 00:01:29,060
+ Once the send is complete, the sender drops out.
+
+25
+00:01:29,060 --> 00:01:32,150
+ Now if we're not a sender, then we might be a receiver.
+
+26
+00:01:32,150 --> 00:01:36,728
+ And if P is a power of two, it will turn out we must be a receiver.
+
+27
+00:01:36,728 --> 00:01:41,320
+ That case, we'll receive the value from our partner and then accumulate it.
+
+28
+00:01:41,320 --> 00:01:44,370
+ Now in this scheme, the final result will end up on rank zero.
+
+29
+00:01:44,370 --> 00:01:44,370
+ So for rank zero we can print the final result.
+

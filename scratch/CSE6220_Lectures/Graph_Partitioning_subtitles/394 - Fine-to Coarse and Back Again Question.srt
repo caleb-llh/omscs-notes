@@ -1,0 +1,128 @@
+1
+00:00:00,370 --> 00:00:03,380
+ Here's a graph for which I computed some mapping.
+
+2
+00:00:03,380 --> 00:00:05,660
+ If you were to course on this graph based on this matching,
+
+3
+00:00:05,660 --> 00:00:06,960
+ here's what you get.
+
+4
+00:00:06,960 --> 00:00:08,330
+ Now, suppose I use the Lipton and
+
+5
+00:00:08,330 --> 00:00:13,070
+ Trajan result to identify some vertex separator in this course graph.
+
+6
+00:00:13,070 --> 00:00:15,050
+ Hey, that's not too shabby.
+
+7
+00:00:15,050 --> 00:00:17,300
+ The two halves are pretty balanced.
+
+8
+00:00:17,300 --> 00:00:21,590
+ The total vertex weight of the upper half is eight as is the lower half.
+
+9
+00:00:21,590 --> 00:00:25,160
+ To get the value of eight, remember that each of the super vertices corresponds
+
+10
+00:00:25,160 --> 00:00:27,520
+ to two vertices of the original graph.
+
+11
+00:00:27,520 --> 00:00:33,550
+ So then counting up you'd get, say, 2 plus 2 plus 2 plus 2, that's 8.
+
+12
+00:00:33,550 --> 00:00:36,710
+ And 2 plus 2 plus 2 plus 2.
+
+13
+00:00:36,710 --> 00:00:40,130
+ Now, to make the mapping from the fine graph to the coarse graph a little bit
+
+14
+00:00:40,130 --> 00:00:43,310
+ easier to see, let me highlight the matched edges and
+
+15
+00:00:43,310 --> 00:00:45,980
+ their correspondents in the coarse graph.
+
+16
+00:00:45,980 --> 00:00:47,610
+ Here's what I want you to do.
+
+17
+00:00:47,610 --> 00:00:48,880
+ Go back to this original graph.
+
+18
+00:00:48,880 --> 00:00:51,670
+ I want you to click on all the vertices and
+
+19
+00:00:51,670 --> 00:00:55,650
+ edges associated with the separator in the coarse graph.
+
+20
+00:00:55,650 --> 00:00:57,200
+ Okay, so what does that mean?
+
+21
+00:00:57,200 --> 00:01:00,950
+ For example, consider this edge in the coarse separator.
+
+22
+00:01:00,950 --> 00:01:04,879
+ In the original graph, this super vertex corresponds to
+
+23
+00:01:04,879 --> 00:01:10,290
+ these two vertices plus this edge, so you'd mark them.
+
+24
+00:01:10,290 --> 00:01:15,110
+ The other coarse vertex corresponds to this vertex, so you'd mark it too.
+
+25
+00:01:15,110 --> 00:01:18,940
+ Lastly, this edge maps to this edge.
+
+26
+00:01:18,940 --> 00:01:20,540
+ Check.
+
+27
+00:01:20,540 --> 00:01:21,150
+ In other words,
+
+28
+00:01:21,150 --> 00:01:26,860
+ the first course graph separator edge corresponds to this subgraph.
+
+29
+00:01:26,860 --> 00:01:29,280
+ Okay, now I want you to try.
+
+30
+00:01:29,280 --> 00:01:31,560
+ By the way, what's the point of this exercise?
+
+31
+00:01:31,560 --> 00:01:36,060
+ Well, I want you to discover by example, a subtle detail about what partitions in
+
+32
+00:01:36,060 --> 00:01:36,060
+ the course graph mean for the fine graph.
+

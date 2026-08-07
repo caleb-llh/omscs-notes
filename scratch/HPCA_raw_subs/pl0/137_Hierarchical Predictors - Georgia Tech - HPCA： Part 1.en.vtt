@@ -1,0 +1,512 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.629 align:start position:0%
+ 
+now<00:00:00.359><c> let's</c><00:00:00.599><c> see</c><00:00:01.360><c> another</c><00:00:01.800><c> type</c><00:00:01.959><c> of</c><00:00:02.120><c> predictor</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+now let's see another type of predictor
+ 
+
+00:00:02.639 --> 00:00:04.430 align:start position:0%
+now let's see another type of predictor
+that<00:00:02.800><c> combines</c><00:00:03.280><c> prediction</c><00:00:03.760><c> decisions</c><00:00:04.319><c> which</c>
+
+00:00:04.430 --> 00:00:04.440 align:start position:0%
+that combines prediction decisions which
+ 
+
+00:00:04.440 --> 00:00:06.550 align:start position:0%
+that combines prediction decisions which
+is<00:00:04.560><c> called</c><00:00:04.759><c> a</c><00:00:04.960><c> hierarchical</c><00:00:05.680><c> predictor</c><00:00:06.240><c> it</c><00:00:06.359><c> is</c>
+
+00:00:06.550 --> 00:00:06.560 align:start position:0%
+is called a hierarchical predictor it is
+ 
+
+00:00:06.560 --> 00:00:10.110 align:start position:0%
+is called a hierarchical predictor it is
+similar<00:00:07.000><c> to</c><00:00:07.120><c> a</c><00:00:07.279><c> tournament</c><00:00:08.080><c> predictor</c><00:00:09.120><c> but</c>
+
+00:00:10.110 --> 00:00:10.120 align:start position:0%
+similar to a tournament predictor but
+ 
+
+00:00:10.120 --> 00:00:12.070 align:start position:0%
+similar to a tournament predictor but
+the<00:00:10.320><c> tournament</c><00:00:10.920><c> predictor</c><00:00:11.480><c> typically</c><00:00:11.920><c> is</c>
+
+00:00:12.070 --> 00:00:12.080 align:start position:0%
+the tournament predictor typically is
+ 
+
+00:00:12.080 --> 00:00:14.230 align:start position:0%
+the tournament predictor typically is
+trying<00:00:12.360><c> to</c><00:00:12.639><c> combine</c><00:00:13.080><c> two</c><00:00:13.320><c> good</c><00:00:13.599><c> predictors</c>
+
+00:00:14.230 --> 00:00:14.240 align:start position:0%
+trying to combine two good predictors
+ 
+
+00:00:14.240 --> 00:00:15.789 align:start position:0%
+trying to combine two good predictors
+one<00:00:14.400><c> is</c><00:00:14.559><c> better</c><00:00:14.799><c> for</c><00:00:15.040><c> some</c><00:00:15.240><c> branches</c><00:00:15.679><c> the</c>
+
+00:00:15.789 --> 00:00:15.799 align:start position:0%
+one is better for some branches the
+ 
+
+00:00:15.799 --> 00:00:18.429 align:start position:0%
+one is better for some branches the
+other<00:00:16.080><c> for</c><00:00:16.359><c> others</c><00:00:17.279><c> a</c><00:00:17.560><c> hierarchical</c>
+
+00:00:18.429 --> 00:00:18.439 align:start position:0%
+other for others a hierarchical
+ 
+
+00:00:18.439 --> 00:00:21.470 align:start position:0%
+other for others a hierarchical
+predictor<00:00:19.199><c> is</c><00:00:19.400><c> trying</c><00:00:19.760><c> to</c><00:00:20.039><c> combine</c><00:00:20.920><c> a</c><00:00:21.160><c> good</c>
+
+00:00:21.470 --> 00:00:21.480 align:start position:0%
+predictor is trying to combine a good
+ 
+
+00:00:21.480 --> 00:00:24.950 align:start position:0%
+predictor is trying to combine a good
+predictor<00:00:22.359><c> with</c><00:00:22.560><c> an</c><00:00:22.840><c> okay</c><00:00:23.279><c> predictor</c><00:00:24.279><c> here</c>
+
+00:00:24.950 --> 00:00:24.960 align:start position:0%
+predictor with an okay predictor here
+ 
+
+00:00:24.960 --> 00:00:27.269 align:start position:0%
+predictor with an okay predictor here
+you're<00:00:25.359><c> basically</c><00:00:25.880><c> doing</c><00:00:26.679><c> two</c><00:00:27.000><c> good</c>
+
+00:00:27.269 --> 00:00:27.279 align:start position:0%
+you're basically doing two good
+ 
+
+00:00:27.279 --> 00:00:30.029 align:start position:0%
+you're basically doing two good
+predictions<00:00:28.080><c> for</c><00:00:28.320><c> every</c><00:00:28.599><c> Branch</c><00:00:29.400><c> just</c><00:00:29.519><c> to</c><00:00:29.679><c> use</c>
+
+00:00:30.029 --> 00:00:30.039 align:start position:0%
+predictions for every Branch just to use
+ 
+
+00:00:30.039 --> 00:00:31.669 align:start position:0%
+predictions for every Branch just to use
+one<00:00:30.160><c> of</c><00:00:30.320><c> them</c><00:00:30.800><c> and</c><00:00:30.960><c> each</c><00:00:31.119><c> of</c><00:00:31.279><c> the</c><00:00:31.439><c> good</c>
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+one of them and each of the good
+ 
+
+00:00:31.679 --> 00:00:34.229 align:start position:0%
+one of them and each of the good
+predictors<00:00:32.520><c> costs</c><00:00:32.840><c> you</c><00:00:33.079><c> a</c><00:00:33.280><c> lot</c><00:00:33.800><c> for</c><00:00:34.040><c> each</c>
+
+00:00:34.229 --> 00:00:34.239 align:start position:0%
+predictors costs you a lot for each
+ 
+
+00:00:34.239 --> 00:00:36.510 align:start position:0%
+predictors costs you a lot for each
+entry<00:00:35.160><c> here</c><00:00:35.399><c> the</c><00:00:35.559><c> idea</c><00:00:35.840><c> is</c><00:00:35.920><c> that</c><00:00:36.079><c> you</c><00:00:36.200><c> have</c><00:00:36.360><c> a</c>
+
+00:00:36.510 --> 00:00:36.520 align:start position:0%
+entry here the idea is that you have a
+ 
+
+00:00:36.520 --> 00:00:38.150 align:start position:0%
+entry here the idea is that you have a
+very<00:00:36.719><c> good</c><00:00:36.960><c> predictor</c><00:00:37.399><c> that</c><00:00:37.559><c> costs</c><00:00:37.760><c> you</c><00:00:37.840><c> a</c><00:00:37.960><c> lot</c>
+
+00:00:38.150 --> 00:00:38.160 align:start position:0%
+very good predictor that costs you a lot
+ 
+
+00:00:38.160 --> 00:00:40.229 align:start position:0%
+very good predictor that costs you a lot
+for<00:00:38.320><c> its</c><00:00:38.520><c> entry</c><00:00:39.200><c> but</c><00:00:39.320><c> you</c><00:00:39.480><c> don't</c><00:00:39.719><c> want</c><00:00:39.879><c> to</c><00:00:40.079><c> be</c>
+
+00:00:40.229 --> 00:00:40.239 align:start position:0%
+for its entry but you don't want to be
+ 
+
+00:00:40.239 --> 00:00:42.630 align:start position:0%
+for its entry but you don't want to be
+using<00:00:40.960><c> the</c><00:00:41.120><c> good</c><00:00:41.399><c> predictor</c><00:00:42.000><c> for</c><00:00:42.239><c> branches</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+using the good predictor for branches
+ 
+
+00:00:42.640 --> 00:00:45.110 align:start position:0%
+using the good predictor for branches
+that<00:00:42.800><c> are</c><00:00:43.000><c> very</c><00:00:43.200><c> easy</c><00:00:43.399><c> to</c><00:00:43.600><c> predict</c><00:00:44.039><c> anyway</c><00:00:44.920><c> so</c>
+
+00:00:45.110 --> 00:00:45.120 align:start position:0%
+that are very easy to predict anyway so
+ 
+
+00:00:45.120 --> 00:00:46.830 align:start position:0%
+that are very easy to predict anyway so
+the<00:00:45.239><c> idea</c><00:00:45.559><c> is</c><00:00:45.680><c> that</c><00:00:45.840><c> for</c><00:00:46.120><c> those</c><00:00:46.360><c> branches</c><00:00:46.760><c> you</c>
+
+00:00:46.830 --> 00:00:46.840 align:start position:0%
+the idea is that for those branches you
+ 
+
+00:00:46.840 --> 00:00:48.869 align:start position:0%
+the idea is that for those branches you
+want<00:00:47.000><c> to</c><00:00:47.120><c> use</c><00:00:47.360><c> the</c><00:00:47.559><c> okay</c><00:00:47.920><c> predictor</c><00:00:48.480><c> and</c><00:00:48.640><c> use</c>
+
+00:00:48.869 --> 00:00:48.879 align:start position:0%
+want to use the okay predictor and use
+ 
+
+00:00:48.879 --> 00:00:50.709 align:start position:0%
+want to use the okay predictor and use
+the<00:00:49.039><c> good</c><00:00:49.280><c> predictor</c><00:00:49.760><c> entries</c><00:00:50.399><c> which</c><00:00:50.520><c> are</c>
+
+00:00:50.709 --> 00:00:50.719 align:start position:0%
+the good predictor entries which are
+ 
+
+00:00:50.719 --> 00:00:52.630 align:start position:0%
+the good predictor entries which are
+very<00:00:51.000><c> expensive</c><00:00:51.600><c> only</c><00:00:51.800><c> for</c><00:00:52.039><c> branches</c><00:00:52.480><c> that</c>
+
+00:00:52.630 --> 00:00:52.640 align:start position:0%
+very expensive only for branches that
+ 
+
+00:00:52.640 --> 00:00:54.869 align:start position:0%
+very expensive only for branches that
+really<00:00:52.879><c> need</c><00:00:53.280><c> that</c><00:00:53.480><c> good</c><00:00:53.680><c> predictor</c><00:00:54.600><c> so</c><00:00:54.760><c> in</c>
+
+00:00:54.869 --> 00:00:54.879 align:start position:0%
+really need that good predictor so in
+ 
+
+00:00:54.879 --> 00:00:57.110 align:start position:0%
+really need that good predictor so in
+the<00:00:55.039><c> tournament</c><00:00:55.600><c> predictor</c><00:00:56.199><c> you</c><00:00:56.320><c> will</c><00:00:56.600><c> update</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+the tournament predictor you will update
+ 
+
+00:00:57.120 --> 00:00:59.590 align:start position:0%
+the tournament predictor you will update
+both<00:00:57.440><c> predictors</c><00:00:57.920><c> on</c><00:00:58.120><c> each</c><00:00:58.359><c> decision</c><00:00:58.960><c> so</c><00:00:59.160><c> that</c>
+
+00:00:59.590 --> 00:00:59.600 align:start position:0%
+both predictors on each decision so that
+ 
+
+00:00:59.600 --> 00:01:01.709 align:start position:0%
+both predictors on each decision so that
+they<00:00:59.760><c> can</c><00:01:00.160><c> both</c><00:01:00.519><c> stay</c><00:01:00.840><c> current</c><00:01:01.280><c> with</c><00:01:01.480><c> what's</c>
+
+00:01:01.709 --> 00:01:01.719 align:start position:0%
+they can both stay current with what's
+ 
+
+00:01:01.719 --> 00:01:04.429 align:start position:0%
+they can both stay current with what's
+going<00:01:01.920><c> on</c><00:01:02.800><c> and</c><00:01:03.039><c> thus</c><00:01:03.519><c> they</c><00:01:03.680><c> both</c><00:01:03.920><c> try</c><00:01:04.119><c> to</c><00:01:04.239><c> do</c>
+
+00:01:04.429 --> 00:01:04.439 align:start position:0%
+going on and thus they both try to do
+ 
+
+00:01:04.439 --> 00:01:06.670 align:start position:0%
+going on and thus they both try to do
+their<00:01:04.680><c> best</c><00:01:04.960><c> on</c><00:01:05.199><c> each</c><00:01:05.439><c> branch</c><00:01:05.880><c> decision</c><00:01:06.560><c> but</c>
+
+00:01:06.670 --> 00:01:06.680 align:start position:0%
+their best on each branch decision but
+ 
+
+00:01:06.680 --> 00:01:08.870 align:start position:0%
+their best on each branch decision but
+in<00:01:06.840><c> the</c><00:01:07.040><c> hierarchical</c><00:01:07.680><c> predictor</c><00:01:08.439><c> you</c><00:01:08.600><c> might</c>
+
+00:01:08.870 --> 00:01:08.880 align:start position:0%
+in the hierarchical predictor you might
+ 
+
+00:01:08.880 --> 00:01:11.030 align:start position:0%
+in the hierarchical predictor you might
+update<00:01:09.280><c> the</c><00:01:09.520><c> okay</c><00:01:10.040><c> predictor</c><00:01:10.560><c> on</c><00:01:10.759><c> each</c>
+
+00:01:11.030 --> 00:01:11.040 align:start position:0%
+update the okay predictor on each
+ 
+
+00:01:11.040 --> 00:01:12.870 align:start position:0%
+update the okay predictor on each
+decision<00:01:11.759><c> but</c><00:01:11.880><c> you</c><00:01:12.119><c> update</c><00:01:12.439><c> the</c><00:01:12.600><c> good</c>
+
+00:01:12.870 --> 00:01:12.880 align:start position:0%
+decision but you update the good
+ 
+
+00:01:12.880 --> 00:01:14.910 align:start position:0%
+decision but you update the good
+predictor<00:01:13.479><c> only</c><00:01:13.759><c> if</c><00:01:13.880><c> the</c><00:01:14.000><c> okay</c><00:01:14.280><c> predictor</c><00:01:14.759><c> did</c>
+
+00:01:14.910 --> 00:01:14.920 align:start position:0%
+predictor only if the okay predictor did
+ 
+
+00:01:14.920 --> 00:01:17.590 align:start position:0%
+predictor only if the okay predictor did
+not<00:01:15.119><c> work</c><00:01:15.400><c> well</c><00:01:15.640><c> for</c><00:01:15.880><c> that</c><00:01:16.119><c> Branch</c><00:01:17.000><c> the</c><00:01:17.159><c> idea</c>
+
+00:01:17.590 --> 00:01:17.600 align:start position:0%
+not work well for that Branch the idea
+ 
+
+00:01:17.600 --> 00:01:20.990 align:start position:0%
+not work well for that Branch the idea
+here<00:01:17.880><c> is</c><00:01:18.479><c> to</c><00:01:18.720><c> not</c><00:01:19.119><c> use</c><00:01:20.119><c> the</c><00:01:20.280><c> entries</c><00:01:20.720><c> of</c><00:01:20.840><c> the</c>
+
+00:01:20.990 --> 00:01:21.000 align:start position:0%
+here is to not use the entries of the
+ 
+
+00:01:21.000 --> 00:01:23.350 align:start position:0%
+here is to not use the entries of the
+good<00:01:21.240><c> predictor</c><00:01:21.840><c> if</c><00:01:21.960><c> the</c><00:01:22.119><c> okay</c><00:01:22.520><c> one</c><00:01:22.840><c> is</c><00:01:22.960><c> doing</c>
+
+00:01:23.350 --> 00:01:23.360 align:start position:0%
+good predictor if the okay one is doing
+ 
+
+00:01:23.360 --> 00:01:25.710 align:start position:0%
+good predictor if the okay one is doing
+fine<00:01:23.640><c> on</c><00:01:23.799><c> this</c><00:01:24.040><c> Branch</c><00:01:24.720><c> so</c><00:01:25.000><c> really</c><00:01:25.360><c> what</c><00:01:25.560><c> that</c>
+
+00:01:25.710 --> 00:01:25.720 align:start position:0%
+fine on this Branch so really what that
+ 
+
+00:01:25.720 --> 00:01:28.310 align:start position:0%
+fine on this Branch so really what that
+means<00:01:26.040><c> is</c><00:01:26.240><c> that</c><00:01:26.479><c> we</c><00:01:26.600><c> can</c><00:01:26.840><c> have</c><00:01:27.479><c> very</c><00:01:27.799><c> expensive</c>
+
+00:01:28.310 --> 00:01:28.320 align:start position:0%
+means is that we can have very expensive
+ 
+
+00:01:28.320 --> 00:01:30.429 align:start position:0%
+means is that we can have very expensive
+entries<00:01:28.680><c> in</c><00:01:28.799><c> the</c><00:01:28.920><c> good</c><00:01:29.159><c> predictor</c><00:01:30.159><c> and</c><00:01:30.280><c> we</c>
+
+00:01:30.429 --> 00:01:30.439 align:start position:0%
+entries in the good predictor and we
+ 
+
+00:01:30.439 --> 00:01:32.350 align:start position:0%
+entries in the good predictor and we
+have<00:01:30.680><c> relatively</c><00:01:31.119><c> few</c><00:01:31.360><c> entries</c><00:01:31.799><c> because</c><00:01:32.119><c> most</c>
+
+00:01:32.350 --> 00:01:32.360 align:start position:0%
+have relatively few entries because most
+ 
+
+00:01:32.360 --> 00:01:33.870 align:start position:0%
+have relatively few entries because most
+of<00:01:32.479><c> the</c><00:01:32.600><c> branches</c><00:01:33.000><c> will</c><00:01:33.119><c> be</c><00:01:33.280><c> handled</c><00:01:33.640><c> just</c>
+
+00:01:33.870 --> 00:01:33.880 align:start position:0%
+of the branches will be handled just
+ 
+
+00:01:33.880 --> 00:01:36.030 align:start position:0%
+of the branches will be handled just
+fine<00:01:34.119><c> with</c><00:01:34.280><c> the</c><00:01:34.439><c> okay</c><00:01:34.799><c> predictor</c><00:01:35.600><c> if</c><00:01:35.680><c> we</c><00:01:35.840><c> try</c>
+
+00:01:36.030 --> 00:01:36.040 align:start position:0%
+fine with the okay predictor if we try
+ 
+
+00:01:36.040 --> 00:01:37.789 align:start position:0%
+fine with the okay predictor if we try
+to<00:01:36.200><c> compare</c><00:01:36.560><c> the</c><00:01:36.720><c> tournament</c><00:01:37.240><c> predictor</c><00:01:37.680><c> with</c>
+
+00:01:37.789 --> 00:01:37.799 align:start position:0%
+to compare the tournament predictor with
+ 
+
+00:01:37.799 --> 00:01:39.429 align:start position:0%
+to compare the tournament predictor with
+the<00:01:38.000><c> hierarchical</c><00:01:38.680><c> predictor</c><00:01:39.240><c> the</c>
+
+00:01:39.429 --> 00:01:39.439 align:start position:0%
+the hierarchical predictor the
+ 
+
+00:01:39.439 --> 00:01:41.710 align:start position:0%
+the hierarchical predictor the
+hierarchical<00:01:40.119><c> one</c><00:01:40.399><c> usually</c><00:01:40.799><c> wins</c><00:01:41.360><c> because</c><00:01:41.560><c> it</c>
+
+00:01:41.710 --> 00:01:41.720 align:start position:0%
+hierarchical one usually wins because it
+ 
+
+00:01:41.720 --> 00:01:43.310 align:start position:0%
+hierarchical one usually wins because it
+turns<00:01:42.000><c> out</c><00:01:42.240><c> that</c><00:01:42.360><c> there</c><00:01:42.479><c> are</c><00:01:42.680><c> many</c><00:01:43.000><c> many</c>
+
+00:01:43.310 --> 00:01:43.320 align:start position:0%
+turns out that there are many many
+ 
+
+00:01:43.320 --> 00:01:45.910 align:start position:0%
+turns out that there are many many
+branches<00:01:44.320><c> that</c><00:01:44.479><c> can</c><00:01:44.640><c> be</c><00:01:44.799><c> predicted</c><00:01:45.320><c> just</c><00:01:45.560><c> fine</c>
+
+00:01:45.910 --> 00:01:45.920 align:start position:0%
+branches that can be predicted just fine
+ 
+
+00:01:45.920 --> 00:01:48.030 align:start position:0%
+branches that can be predicted just fine
+using<00:01:46.240><c> something</c><00:01:46.560><c> like</c><00:01:46.799><c> just</c><00:01:47.000><c> a</c><00:01:47.200><c> simple</c><00:01:47.560><c> 2bit</c>
+
+00:01:48.030 --> 00:01:48.040 align:start position:0%
+using something like just a simple 2bit
+ 
+
+00:01:48.040 --> 00:01:50.149 align:start position:0%
+using something like just a simple 2bit
+counter<00:01:48.840><c> on</c><00:01:49.000><c> the</c><00:01:49.119><c> other</c><00:01:49.360><c> hand</c><00:01:49.640><c> there</c><00:01:49.759><c> are</c><00:01:49.960><c> some</c>
+
+00:01:50.149 --> 00:01:50.159 align:start position:0%
+counter on the other hand there are some
+ 
+
+00:01:50.159 --> 00:01:52.190 align:start position:0%
+counter on the other hand there are some
+branches<00:01:50.680><c> that</c><00:01:50.880><c> really</c><00:01:51.200><c> require</c><00:01:51.640><c> a</c><00:01:51.840><c> very</c>
+
+00:01:52.190 --> 00:01:52.200 align:start position:0%
+branches that really require a very
+ 
+
+00:01:52.200 --> 00:01:54.749 align:start position:0%
+branches that really require a very
+strong<00:01:52.479><c> predictor</c><00:01:53.360><c> to</c><00:01:53.560><c> predict</c><00:01:54.000><c> them</c><00:01:54.399><c> in</c><00:01:54.560><c> a</c>
+
+00:01:54.749 --> 00:01:54.759 align:start position:0%
+strong predictor to predict them in a
+ 
+
+00:01:54.759 --> 00:01:56.510 align:start position:0%
+strong predictor to predict them in a
+tournament<00:01:55.360><c> predictor</c><00:01:56.000><c> each</c><00:01:56.200><c> of</c><00:01:56.360><c> the</c>
+
+00:01:56.510 --> 00:01:56.520 align:start position:0%
+tournament predictor each of the
+ 
+
+00:01:56.520 --> 00:02:00.029 align:start position:0%
+tournament predictor each of the
+predictors<00:01:57.439><c> is</c><00:01:57.560><c> a</c><00:01:57.799><c> balance</c><00:01:58.360><c> between</c><00:01:58.840><c> cost</c><00:01:59.640><c> and</c>
+
+00:02:00.029 --> 00:02:00.039 align:start position:0%
+predictors is a balance between cost and
+ 
+
+00:02:00.039 --> 00:02:02.709 align:start position:0%
+predictors is a balance between cost and
+accuracy<00:02:00.960><c> in</c><00:02:01.200><c> this</c><00:02:01.439><c> predictor</c><00:02:02.079><c> you</c><00:02:02.200><c> can</c><00:02:02.399><c> build</c>
+
+00:02:02.709 --> 00:02:02.719 align:start position:0%
+accuracy in this predictor you can build
+ 
+
+00:02:02.719 --> 00:02:05.190 align:start position:0%
+accuracy in this predictor you can build
+a<00:02:03.000><c> very</c><00:02:03.320><c> expensive</c><00:02:03.840><c> predictor</c><00:02:04.280><c> with</c><00:02:04.479><c> very</c><00:02:04.640><c> few</c>
+
+00:02:05.190 --> 00:02:05.200 align:start position:0%
+a very expensive predictor with very few
+ 
+
+00:02:05.200 --> 00:02:07.870 align:start position:0%
+a very expensive predictor with very few
+entries<00:02:06.200><c> and</c><00:02:06.479><c> an</c><00:02:06.680><c> okay</c><00:02:07.000><c> predictor</c><00:02:07.439><c> that</c><00:02:07.560><c> has</c><00:02:07.680><c> a</c>
+
+00:02:07.870 --> 00:02:07.880 align:start position:0%
+entries and an okay predictor that has a
+ 
+
+00:02:07.880 --> 00:02:09.469 align:start position:0%
+entries and an okay predictor that has a
+lot<00:02:08.080><c> of</c><00:02:08.200><c> Entry</c><00:02:08.599><c> so</c><00:02:08.720><c> most</c><00:02:08.920><c> branches</c><00:02:09.319><c> get</c>
+
+00:02:09.469 --> 00:02:09.479 align:start position:0%
+lot of Entry so most branches get
+ 
+
+00:02:09.479 --> 00:02:11.430 align:start position:0%
+lot of Entry so most branches get
+handled<00:02:09.840><c> by</c><00:02:10.039><c> this</c><00:02:10.319><c> which</c><00:02:10.479><c> leaves</c><00:02:10.800><c> the</c><00:02:11.039><c> rest</c><00:02:11.280><c> of</c>
+
+00:02:11.430 --> 00:02:11.440 align:start position:0%
+handled by this which leaves the rest of
+ 
+
+00:02:11.440 --> 00:02:15.030 align:start position:0%
+handled by this which leaves the rest of
+the<00:02:11.840><c> resources</c><00:02:12.840><c> for</c><00:02:13.120><c> the</c><00:02:13.319><c> good</c><00:02:13.879><c> predictor</c><00:02:14.879><c> and</c>
+
+00:02:15.030 --> 00:02:15.040 align:start position:0%
+the resources for the good predictor and
+ 
+
+00:02:15.040 --> 00:02:16.509 align:start position:0%
+the resources for the good predictor and
+that<00:02:15.160><c> means</c><00:02:15.400><c> that</c><00:02:15.519><c> it</c><00:02:15.640><c> can</c><00:02:15.760><c> have</c><00:02:16.040><c> extremely</c>
+
+00:02:16.509 --> 00:02:16.519 align:start position:0%
+that means that it can have extremely
+ 
+
+00:02:16.519 --> 00:02:18.949 align:start position:0%
+that means that it can have extremely
+long<00:02:16.800><c> histories</c><00:02:17.280><c> or</c><00:02:17.519><c> be</c><00:02:17.879><c> a</c><00:02:18.080><c> very</c><00:02:18.319><c> very</c><00:02:18.560><c> fancy</c>
+
+00:02:18.949 --> 00:02:18.959 align:start position:0%
+long histories or be a very very fancy
+ 
+
+00:02:18.959 --> 00:02:22.830 align:start position:0%
+long histories or be a very very fancy
+predictor<00:02:19.920><c> you</c><00:02:20.040><c> can</c><00:02:20.319><c> even</c><00:02:21.280><c> have</c><00:02:21.400><c> a</c><00:02:21.840><c> hierarchy</c>
+
+00:02:22.830 --> 00:02:22.840 align:start position:0%
+predictor you can even have a hierarchy
+ 
+
+00:02:22.840 --> 00:02:25.190 align:start position:0%
+predictor you can even have a hierarchy
+or<00:02:23.000><c> for</c><00:02:23.239><c> that</c><00:02:23.440><c> matter</c><00:02:23.720><c> a</c><00:02:23.959><c> tournament</c><00:02:24.959><c> with</c>
+
+00:02:25.190 --> 00:02:25.200 align:start position:0%
+or for that matter a tournament with
+ 
+
+00:02:25.200 --> 00:02:29.480 align:start position:0%
+or for that matter a tournament with
+more<00:02:25.480><c> than</c><00:02:26.120><c> just</c><00:02:26.319><c> two</c><00:02:26.560><c> predictors</c>
+

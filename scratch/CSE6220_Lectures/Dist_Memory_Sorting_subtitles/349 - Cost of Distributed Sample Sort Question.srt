@@ -1,0 +1,44 @@
+1
+00:00:00,380 --> 00:00:04,356
+ Assuming the sample represents the full distribution well, you might guess that
+
+2
+00:00:04,356 --> 00:00:07,535
+ the asymptotic cost of a sample sort are similar to a bucket sort.
+
+3
+00:00:07,535 --> 00:00:09,941
+ That is true, but only sort of.
+
+4
+00:00:09,941 --> 00:00:11,892
+ [SOUND] Sort of?
+
+5
+00:00:11,892 --> 00:00:13,960
+ Get it? Ha-ha.
+
+6
+00:00:13,960 --> 00:00:16,620
+ Suppose there are P processes in the system.
+
+7
+00:00:16,620 --> 00:00:20,670
+ With respect to P, what's the largest asymptotic scaling term in the running
+
+8
+00:00:20,670 --> 00:00:23,180
+ time of a distributed sample sort?
+
+9
+00:00:23,180 --> 00:00:26,460
+ That is, if you were to compute the running time of the sample sort and
+
+10
+00:00:26,460 --> 00:00:28,580
+ you looked at all the factors that involved P,
+
+11
+00:00:28,580 --> 00:00:28,580
+ the largest factor will have which of these options?
+

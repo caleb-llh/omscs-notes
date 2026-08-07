@@ -1,0 +1,36 @@
+1
+00:00:00,450 --> 00:00:04,190
+ Here's a linked list which I want to represent in an array pool.
+
+2
+00:00:04,190 --> 00:00:07,320
+ I want you to fill in these boxes.
+
+3
+00:00:07,320 --> 00:00:09,550
+ Now, the array pool is of size 14,
+
+4
+00:00:09,550 --> 00:00:12,630
+ whereas we only have 12 nodes on our linked list.
+
+5
+00:00:12,630 --> 00:00:15,490
+ So that means there are going to be some unknown values.
+
+6
+00:00:15,490 --> 00:00:19,880
+ If you have an unknown value in the V array, enter a question mark.
+
+7
+00:00:19,880 --> 00:00:24,110
+ And if you have an unknown value in the n array, use the value zero.
+
+8
+00:00:24,110 --> 00:00:26,940
+ Zero will also be our proxy for a nil.
+
+9
+00:00:26,940 --> 00:00:26,940
+ So for this nil pointer here, enter the value zero.
+

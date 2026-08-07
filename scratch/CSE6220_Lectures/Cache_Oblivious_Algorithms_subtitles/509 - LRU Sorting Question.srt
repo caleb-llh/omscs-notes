@@ -1,0 +1,32 @@
+1
+00:00:00,340 --> 00:00:01,810
+ Time for a quick quiz.
+
+2
+00:00:01,810 --> 00:00:04,110
+ Please contain your enthusiasm.
+
+3
+00:00:04,110 --> 00:00:07,150
+ Suppose you have a sorting algorithm that, on an ideal cache,
+
+4
+00:00:07,150 --> 00:00:11,940
+ does n over L, log n over L divided by log z over L cache misses.
+
+5
+00:00:11,940 --> 00:00:13,500
+ Here's my question.
+
+6
+00:00:13,500 --> 00:00:16,129
+ How many transfers would you expect, asymptotically,
+
+7
+00:00:16,129 --> 00:00:20,760
+ on a machine with an LRU cache of the same size and length size?
+
+8
+00:00:20,760 --> 00:00:20,760
+ Type your answer symbolically here.
+

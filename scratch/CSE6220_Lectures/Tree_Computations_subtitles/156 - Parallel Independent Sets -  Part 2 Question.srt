@@ -1,0 +1,24 @@
+1
+00:00:00,260 --> 00:00:02,160
+ Let's see if you're paying attention.
+
+2
+00:00:02,160 --> 00:00:03,765
+ Consider this list.
+
+3
+00:00:03,765 --> 00:00:07,410
+ Suppose the initial coin toss produces the following result.
+
+4
+00:00:07,410 --> 00:00:10,100
+ If you finish running the independent set scheme,
+
+5
+00:00:10,100 --> 00:00:13,270
+ which nodes will end up in the independent set?
+
+6
+00:00:13,270 --> 00:00:13,270
+ Type the list of nodes in this box.
+

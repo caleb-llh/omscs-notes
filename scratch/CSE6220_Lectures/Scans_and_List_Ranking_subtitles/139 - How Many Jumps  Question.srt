@@ -1,0 +1,24 @@
+1
+00:00:00,560 --> 00:00:04,115
+ If you do a jump on every node on the list, I'll call that a jump step.
+
+2
+00:00:04,115 --> 00:00:07,050
+ So here, I'm illustrating one jump step.
+
+3
+00:00:07,050 --> 00:00:09,050
+ Here's the question.
+
+4
+00:00:09,050 --> 00:00:11,182
+ Suppose the array pool is of size n,
+
+5
+00:00:11,182 --> 00:00:14,676
+ what's the maximum number of jump steps you can perform?
+
+6
+00:00:14,676 --> 00:00:14,676
+ Here are your answer choices, pick one.
+

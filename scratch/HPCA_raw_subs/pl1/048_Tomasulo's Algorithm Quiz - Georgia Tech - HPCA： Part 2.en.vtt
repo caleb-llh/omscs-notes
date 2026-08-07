@@ -1,0 +1,72 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.969 align:start position:0%
+ 
+so<00:00:00.240><c> let's</c><00:00:00.420><c> do</c><00:00:00.570><c> another</c><00:00:00.719><c> tomasulo's</c><00:00:01.650><c> algorithm</c>
+
+00:00:01.969 --> 00:00:01.979 align:start position:0%
+so let's do another tomasulo's algorithm
+ 
+
+00:00:01.979 --> 00:00:05.450 align:start position:0%
+so let's do another tomasulo's algorithm
+quiz<00:00:02.909><c> which</c><00:00:03.899><c> of</c><00:00:04.080><c> the</c><00:00:04.200><c> following</c><00:00:04.410><c> is</c><00:00:04.799><c> not</c><00:00:04.859><c> true</c>
+
+00:00:05.450 --> 00:00:05.460 align:start position:0%
+quiz which of the following is not true
+ 
+
+00:00:05.460 --> 00:00:08.360 align:start position:0%
+quiz which of the following is not true
+about<00:00:05.549><c> tomasulo's</c><00:00:06.480><c> algorithm</c><00:00:06.919><c> it</c><00:00:07.919><c> issues</c>
+
+00:00:08.360 --> 00:00:08.370 align:start position:0%
+about tomasulo's algorithm it issues
+ 
+
+00:00:08.370 --> 00:00:10.879 align:start position:0%
+about tomasulo's algorithm it issues
+instructions<00:00:08.910><c> in</c><00:00:09.059><c> program</c><00:00:09.599><c> order</c><00:00:09.889><c> select</c>
+
+00:00:10.879 --> 00:00:10.889 align:start position:0%
+instructions in program order select
+ 
+
+00:00:10.889 --> 00:00:13.700 align:start position:0%
+instructions in program order select
+this<00:00:11.070><c> if</c><00:00:11.460><c> it's</c><00:00:11.730><c> not</c><00:00:11.940><c> true</c><00:00:12.210><c> it</c><00:00:12.870><c> dispatches</c>
+
+00:00:13.700 --> 00:00:13.710 align:start position:0%
+this if it's not true it dispatches
+ 
+
+00:00:13.710 --> 00:00:15.919 align:start position:0%
+this if it's not true it dispatches
+instructions<00:00:14.309><c> in</c><00:00:14.490><c> program</c><00:00:14.940><c> order</c><00:00:15.089><c> select</c>
+
+00:00:15.919 --> 00:00:15.929 align:start position:0%
+instructions in program order select
+ 
+
+00:00:15.929 --> 00:00:18.830 align:start position:0%
+instructions in program order select
+this<00:00:16.109><c> if</c><00:00:16.379><c> this</c><00:00:17.039><c> is</c><00:00:17.310><c> not</c><00:00:17.460><c> true</c><00:00:17.730><c> it</c><00:00:18.480><c> writes</c>
+
+00:00:18.830 --> 00:00:18.840 align:start position:0%
+this if this is not true it writes
+ 
+
+00:00:18.840 --> 00:00:22.040 align:start position:0%
+this if this is not true it writes
+results<00:00:19.439><c> in</c><00:00:19.560><c> program</c><00:00:19.949><c> order</c><00:00:20.480><c> select</c><00:00:21.480><c> this</c><00:00:21.689><c> if</c>
+
+00:00:22.040 --> 00:00:22.050 align:start position:0%
+results in program order select this if
+ 
+
+00:00:22.050 --> 00:00:25.279 align:start position:0%
+results in program order select this if
+this<00:00:22.710><c> is</c><00:00:22.920><c> not</c><00:00:23.100><c> true</c>
+

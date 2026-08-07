@@ -1,0 +1,984 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.389 align:start position:0%
+ 
+so<00:00:00.570><c> let's</c><00:00:00.780><c> compare</c><00:00:01.199><c> update</c><00:00:01.709><c> and</c><00:00:01.890><c> invalidate</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+so let's compare update and invalidate
+ 
+
+00:00:02.399 --> 00:00:04.640 align:start position:0%
+so let's compare update and invalidate
+coherence<00:00:02.879><c> approaches</c><00:00:03.389><c> we</c><00:00:04.049><c> will</c><00:00:04.080><c> compare</c>
+
+00:00:04.640 --> 00:00:04.650 align:start position:0%
+coherence approaches we will compare
+ 
+
+00:00:04.650 --> 00:00:06.019 align:start position:0%
+coherence approaches we will compare
+them<00:00:04.859><c> for</c><00:00:05.100><c> different</c><00:00:05.279><c> things</c><00:00:05.700><c> that</c><00:00:05.879><c> the</c>
+
+00:00:06.019 --> 00:00:06.029 align:start position:0%
+them for different things that the
+ 
+
+00:00:06.029 --> 00:00:08.330 align:start position:0%
+them for different things that the
+applications<00:00:06.600><c> often</c><00:00:06.960><c> do</c><00:00:07.140><c> here</c><00:00:07.859><c> we</c><00:00:07.980><c> will</c><00:00:08.130><c> say</c>
+
+00:00:08.330 --> 00:00:08.340 align:start position:0%
+applications often do here we will say
+ 
+
+00:00:08.340 --> 00:00:10.160 align:start position:0%
+applications often do here we will say
+what<00:00:08.550><c> the</c><00:00:08.790><c> update</c><00:00:08.970><c> protocols</c><00:00:09.630><c> are</c><00:00:09.750><c> gonna</c><00:00:09.960><c> do</c>
+
+00:00:10.160 --> 00:00:10.170 align:start position:0%
+what the update protocols are gonna do
+ 
+
+00:00:10.170 --> 00:00:12.410 align:start position:0%
+what the update protocols are gonna do
+and<00:00:10.349><c> here's</c><00:00:10.800><c> what</c><00:00:11.219><c> an</c><00:00:11.429><c> invalidate</c><00:00:11.969><c> protocol</c>
+
+00:00:12.410 --> 00:00:12.420 align:start position:0%
+and here's what an invalidate protocol
+ 
+
+00:00:12.420 --> 00:00:14.570 align:start position:0%
+and here's what an invalidate protocol
+is<00:00:12.570><c> going</c><00:00:12.809><c> to</c><00:00:12.929><c> do</c><00:00:13.080><c> if</c><00:00:13.530><c> the</c><00:00:13.830><c> application</c><00:00:14.190><c> has</c><00:00:14.549><c> a</c>
+
+00:00:14.570 --> 00:00:14.580 align:start position:0%
+is going to do if the application has a
+ 
+
+00:00:14.580 --> 00:00:17.330 align:start position:0%
+is going to do if the application has a
+burst<00:00:14.910><c> of</c><00:00:15.179><c> rights</c><00:00:15.480><c> to</c><00:00:15.630><c> one</c><00:00:15.960><c> address</c><00:00:16.379><c> and</c><00:00:17.160><c> if</c>
+
+00:00:17.330 --> 00:00:17.340 align:start position:0%
+burst of rights to one address and if
+ 
+
+00:00:17.340 --> 00:00:19.460 align:start position:0%
+burst of rights to one address and if
+that<00:00:17.490><c> address</c><00:00:17.699><c> is</c><00:00:18.060><c> shared</c><00:00:18.390><c> then</c><00:00:18.720><c> each</c><00:00:18.990><c> write</c>
+
+00:00:19.460 --> 00:00:19.470 align:start position:0%
+that address is shared then each write
+ 
+
+00:00:19.470 --> 00:00:21.529 align:start position:0%
+that address is shared then each write
+will<00:00:20.039><c> send</c><00:00:20.369><c> an</c><00:00:20.550><c> update</c><00:00:20.699><c> in</c><00:00:21.119><c> an</c><00:00:21.210><c> update</c>
+
+00:00:21.529 --> 00:00:21.539 align:start position:0%
+will send an update in an update
+ 
+
+00:00:21.539 --> 00:00:24.790 align:start position:0%
+will send an update in an update
+protocol<00:00:22.050><c> this</c><00:00:22.800><c> is</c><00:00:23.010><c> bad</c><00:00:23.220><c> because</c><00:00:23.880><c> each</c><00:00:24.359><c> update</c>
+
+00:00:24.790 --> 00:00:24.800 align:start position:0%
+protocol this is bad because each update
+ 
+
+00:00:24.800 --> 00:00:27.980 align:start position:0%
+protocol this is bad because each update
+results<00:00:25.800><c> in</c><00:00:26.189><c> competing</c><00:00:26.760><c> for</c><00:00:27.029><c> the</c><00:00:27.150><c> bus</c><00:00:27.330><c> so</c><00:00:27.900><c> it</c>
+
+00:00:27.980 --> 00:00:27.990 align:start position:0%
+results in competing for the bus so it
+ 
+
+00:00:27.990 --> 00:00:30.980 align:start position:0%
+results in competing for the bus so it
+creates<00:00:28.380><c> bus</c><00:00:28.619><c> contention</c><00:00:29.279><c> and</c><00:00:29.460><c> also</c><00:00:30.449><c> it</c>
+
+00:00:30.980 --> 00:00:30.990 align:start position:0%
+creates bus contention and also it
+ 
+
+00:00:30.990 --> 00:00:32.959 align:start position:0%
+creates bus contention and also it
+consumes<00:00:31.470><c> energy</c><00:00:31.650><c> and</c><00:00:32.099><c> makes</c><00:00:32.369><c> write</c><00:00:32.669><c> slower</c>
+
+00:00:32.959 --> 00:00:32.969 align:start position:0%
+consumes energy and makes write slower
+ 
+
+00:00:32.969 --> 00:00:35.569 align:start position:0%
+consumes energy and makes write slower
+in<00:00:33.809><c> an</c><00:00:33.989><c> invalidate</c><00:00:34.559><c> protocol</c><00:00:34.950><c> only</c><00:00:35.070><c> the</c><00:00:35.309><c> first</c>
+
+00:00:35.569 --> 00:00:35.579 align:start position:0%
+in an invalidate protocol only the first
+ 
+
+00:00:35.579 --> 00:00:37.610 align:start position:0%
+in an invalidate protocol only the first
+right<00:00:35.910><c> will</c><00:00:36.090><c> send</c><00:00:36.329><c> out</c><00:00:36.480><c> an</c><00:00:36.630><c> invalidation</c><00:00:36.870><c> and</c>
+
+00:00:37.610 --> 00:00:37.620 align:start position:0%
+right will send out an invalidation and
+ 
+
+00:00:37.620 --> 00:00:39.709 align:start position:0%
+right will send out an invalidation and
+the<00:00:38.100><c> remaining</c><00:00:38.489><c> writes</c><00:00:38.879><c> are</c><00:00:39.210><c> just</c><00:00:39.450><c> gonna</c><00:00:39.600><c> be</c>
+
+00:00:39.709 --> 00:00:39.719 align:start position:0%
+the remaining writes are just gonna be
+ 
+
+00:00:39.719 --> 00:00:42.350 align:start position:0%
+the remaining writes are just gonna be
+cache<00:00:40.050><c> hits</c><00:00:40.379><c> that</c><00:00:40.860><c> don't</c><00:00:41.129><c> result</c><00:00:41.309><c> in</c><00:00:41.670><c> any</c><00:00:41.910><c> bus</c>
+
+00:00:42.350 --> 00:00:42.360 align:start position:0%
+cache hits that don't result in any bus
+ 
+
+00:00:42.360 --> 00:00:45.290 align:start position:0%
+cache hits that don't result in any bus
+traffic<00:00:42.870><c> that</c><00:00:43.410><c> is</c><00:00:43.680><c> good</c><00:00:43.920><c> why</c><00:00:44.610><c> would</c><00:00:44.969><c> an</c>
+
+00:00:45.290 --> 00:00:45.300 align:start position:0%
+traffic that is good why would an
+ 
+
+00:00:45.300 --> 00:00:47.510 align:start position:0%
+traffic that is good why would an
+application<00:00:46.200><c> do</c><00:00:46.530><c> abrasive</c><00:00:46.829><c> writes</c><00:00:47.219><c> to</c><00:00:47.370><c> one</c>
+
+00:00:47.510 --> 00:00:47.520 align:start position:0%
+application do abrasive writes to one
+ 
+
+00:00:47.520 --> 00:00:49.369 align:start position:0%
+application do abrasive writes to one
+address<00:00:47.700><c> well</c><00:00:48.420><c> because</c><00:00:48.840><c> when</c><00:00:49.140><c> we</c><00:00:49.289><c> are</c>
+
+00:00:49.369 --> 00:00:49.379 align:start position:0%
+address well because when we are
+ 
+
+00:00:49.379 --> 00:00:50.869 align:start position:0%
+address well because when we are
+computing<00:00:49.680><c> something</c><00:00:50.250><c> we</c><00:00:50.399><c> may</c><00:00:50.550><c> need</c><00:00:50.730><c> to</c>
+
+00:00:50.869 --> 00:00:50.879 align:start position:0%
+computing something we may need to
+ 
+
+00:00:50.879 --> 00:00:52.490 align:start position:0%
+computing something we may need to
+update<00:00:51.000><c> it</c><00:00:51.180><c> several</c><00:00:51.629><c> times</c><00:00:51.840><c> until</c><00:00:52.020><c> we</c><00:00:52.230><c> get</c><00:00:52.350><c> to</c>
+
+00:00:52.490 --> 00:00:52.500 align:start position:0%
+update it several times until we get to
+ 
+
+00:00:52.500 --> 00:00:54.799 align:start position:0%
+update it several times until we get to
+the<00:00:52.620><c> final</c><00:00:52.980><c> result</c><00:00:53.399><c> another</c><00:00:54.000><c> common</c><00:00:54.360><c> behavior</c>
+
+00:00:54.799 --> 00:00:54.809 align:start position:0%
+the final result another common behavior
+ 
+
+00:00:54.809 --> 00:00:56.330 align:start position:0%
+the final result another common behavior
+is<00:00:54.930><c> when</c><00:00:55.110><c> an</c><00:00:55.230><c> application</c><00:00:55.620><c> writes</c><00:00:56.039><c> two</c>
+
+00:00:56.330 --> 00:00:56.340 align:start position:0%
+is when an application writes two
+ 
+
+00:00:56.340 --> 00:00:58.610 align:start position:0%
+is when an application writes two
+different<00:00:56.850><c> words</c><00:00:57.120><c> in</c><00:00:57.449><c> the</c><00:00:57.690><c> same</c><00:00:57.930><c> block</c><00:00:58.260><c> for</c>
+
+00:00:58.610 --> 00:00:58.620 align:start position:0%
+different words in the same block for
+ 
+
+00:00:58.620 --> 00:01:00.650 align:start position:0%
+different words in the same block for
+example<00:00:58.649><c> when</c><00:00:59.520><c> we</c><00:00:59.640><c> are</c><00:00:59.730><c> initializing</c><00:01:00.300><c> the</c>
+
+00:01:00.650 --> 00:01:00.660 align:start position:0%
+example when we are initializing the
+ 
+
+00:01:00.660 --> 00:01:02.630 align:start position:0%
+example when we are initializing the
+block<00:01:00.870><c> we</c><00:01:01.109><c> will</c><00:01:01.260><c> write</c><00:01:01.530><c> to</c><00:01:01.800><c> every</c><00:01:02.250><c> word</c><00:01:02.430><c> in</c>
+
+00:01:02.630 --> 00:01:02.640 align:start position:0%
+block we will write to every word in
+ 
+
+00:01:02.640 --> 00:01:05.149 align:start position:0%
+block we will write to every word in
+that<00:01:02.789><c> block</c><00:01:03.030><c> if</c><00:01:03.629><c> that</c><00:01:03.960><c> block</c><00:01:04.229><c> is</c><00:01:04.409><c> shared</c><00:01:04.799><c> an</c>
+
+00:01:05.149 --> 00:01:05.159 align:start position:0%
+that block if that block is shared an
+ 
+
+00:01:05.159 --> 00:01:08.660 align:start position:0%
+that block if that block is shared an
+update<00:01:06.119><c> protocol</c><00:01:06.630><c> will</c><00:01:07.530><c> send</c><00:01:07.890><c> an</c><00:01:08.010><c> update</c><00:01:08.460><c> for</c>
+
+00:01:08.660 --> 00:01:08.670 align:start position:0%
+update protocol will send an update for
+ 
+
+00:01:08.670 --> 00:01:11.210 align:start position:0%
+update protocol will send an update for
+each<00:01:08.939><c> word</c><00:01:09.299><c> that</c><00:01:09.330><c> we</c><00:01:09.720><c> write</c><00:01:09.930><c> that</c><00:01:10.799><c> is</c><00:01:10.979><c> bad</c>
+
+00:01:11.210 --> 00:01:11.220 align:start position:0%
+each word that we write that is bad
+ 
+
+00:01:11.220 --> 00:01:13.340 align:start position:0%
+each word that we write that is bad
+because<00:01:11.820><c> it</c><00:01:12.119><c> means</c><00:01:12.299><c> that</c><00:01:12.570><c> one</c><00:01:12.810><c> cache</c><00:01:13.110><c> line</c>
+
+00:01:13.340 --> 00:01:13.350 align:start position:0%
+because it means that one cache line
+ 
+
+00:01:13.350 --> 00:01:15.380 align:start position:0%
+because it means that one cache line
+worth<00:01:13.560><c> of</c><00:01:13.740><c> writes</c><00:01:14.010><c> might</c><00:01:14.670><c> result</c><00:01:15.030><c> in</c>
+
+00:01:15.380 --> 00:01:15.390 align:start position:0%
+worth of writes might result in
+ 
+
+00:01:15.390 --> 00:01:17.840 align:start position:0%
+worth of writes might result in
+something<00:01:15.869><c> like</c><00:01:15.990><c> 10</c><00:01:16.259><c> updates</c><00:01:16.799><c> in</c><00:01:17.670><c> an</c>
+
+00:01:17.840 --> 00:01:17.850 align:start position:0%
+something like 10 updates in an
+ 
+
+00:01:17.850 --> 00:01:20.510 align:start position:0%
+something like 10 updates in an
+invalidation<00:01:18.450><c> based</c><00:01:18.840><c> protocol</c><00:01:19.470><c> the</c><00:01:20.189><c> first</c>
+
+00:01:20.510 --> 00:01:20.520 align:start position:0%
+invalidation based protocol the first
+ 
+
+00:01:20.520 --> 00:01:23.390 align:start position:0%
+invalidation based protocol the first
+write<00:01:20.880><c> that</c><00:01:21.570><c> we</c><00:01:21.720><c> have</c><00:01:21.960><c> is</c><00:01:22.229><c> gonna</c><00:01:22.500><c> invalidate</c>
+
+00:01:23.390 --> 00:01:23.400 align:start position:0%
+write that we have is gonna invalidate
+ 
+
+00:01:23.400 --> 00:01:26.649 align:start position:0%
+write that we have is gonna invalidate
+the<00:01:23.670><c> other</c><00:01:23.850><c> copies</c><00:01:24.390><c> and</c><00:01:24.659><c> then</c><00:01:25.439><c> the</c><00:01:25.619><c> remaining</c>
+
+00:01:26.649 --> 00:01:26.659 align:start position:0%
+the other copies and then the remaining
+ 
+
+00:01:26.659 --> 00:01:29.660 align:start position:0%
+the other copies and then the remaining
+accesses<00:01:27.659><c> to</c><00:01:27.689><c> the</c><00:01:27.990><c> block</c><00:01:28.229><c> to</c><00:01:29.040><c> the</c><00:01:29.189><c> same</c><00:01:29.400><c> or</c>
+
+00:01:29.660 --> 00:01:29.670 align:start position:0%
+accesses to the block to the same or
+ 
+
+00:01:29.670 --> 00:01:31.730 align:start position:0%
+accesses to the block to the same or
+different<00:01:29.909><c> words</c><00:01:30.360><c> are</c><00:01:30.810><c> gonna</c><00:01:31.110><c> be</c><00:01:31.229><c> just</c><00:01:31.500><c> cache</c>
+
+00:01:31.730 --> 00:01:31.740 align:start position:0%
+different words are gonna be just cache
+ 
+
+00:01:31.740 --> 00:01:34.370 align:start position:0%
+different words are gonna be just cache
+hits<00:01:32.040><c> that</c><00:01:32.250><c> don't</c><00:01:32.490><c> result</c><00:01:32.790><c> in</c><00:01:32.939><c> bus</c><00:01:33.150><c> traffic</c><00:01:33.600><c> so</c>
+
+00:01:34.370 --> 00:01:34.380 align:start position:0%
+hits that don't result in bus traffic so
+ 
+
+00:01:34.380 --> 00:01:36.830 align:start position:0%
+hits that don't result in bus traffic so
+this<00:01:34.590><c> is</c><00:01:34.799><c> again</c><00:01:35.549><c> good</c><00:01:35.850><c> for</c><00:01:36.180><c> the</c><00:01:36.329><c> invalidate</c>
+
+00:01:36.830 --> 00:01:36.840 align:start position:0%
+this is again good for the invalidate
+ 
+
+00:01:36.840 --> 00:01:39.080 align:start position:0%
+this is again good for the invalidate
+bad<00:01:37.110><c> for</c><00:01:37.409><c> the</c><00:01:37.560><c> update</c><00:01:37.890><c> and</c><00:01:38.159><c> the</c><00:01:38.759><c> final</c>
+
+00:01:39.080 --> 00:01:39.090 align:start position:0%
+bad for the update and the final
+ 
+
+00:01:39.090 --> 00:01:40.749 align:start position:0%
+bad for the update and the final
+scenario<00:01:39.299><c> we</c><00:01:39.720><c> will</c><00:01:39.840><c> consider</c><00:01:40.290><c> is</c><00:01:40.560><c> the</c>
+
+00:01:40.749 --> 00:01:40.759 align:start position:0%
+scenario we will consider is the
+ 
+
+00:01:40.759 --> 00:01:43.160 align:start position:0%
+scenario we will consider is the
+producer-consumer<00:01:41.759><c> scenario</c><00:01:42.270><c> where</c><00:01:42.869><c> one</c>
+
+00:01:43.160 --> 00:01:43.170 align:start position:0%
+producer-consumer scenario where one
+ 
+
+00:01:43.170 --> 00:01:48.469 align:start position:0%
+producer-consumer scenario where one
+core<00:01:43.740><c> keeps</c><00:01:44.640><c> writing</c><00:01:45.030><c> data</c><00:01:46.020><c> and</c><00:01:47.060><c> another</c><00:01:48.060><c> core</c>
+
+00:01:48.469 --> 00:01:48.479 align:start position:0%
+core keeps writing data and another core
+ 
+
+00:01:48.479 --> 00:01:51.649 align:start position:0%
+core keeps writing data and another core
+is<00:01:48.659><c> supposed</c><00:01:49.079><c> to</c><00:01:49.259><c> read</c><00:01:49.680><c> it</c><00:01:49.710><c> in</c><00:01:50.399><c> this</c><00:01:50.939><c> case</c><00:01:51.299><c> for</c>
+
+00:01:51.649 --> 00:01:51.659 align:start position:0%
+is supposed to read it in this case for
+ 
+
+00:01:51.659 --> 00:01:55.069 align:start position:0%
+is supposed to read it in this case for
+the<00:01:51.780><c> update</c><00:01:52.079><c> protocol</c><00:01:52.680><c> the</c><00:01:53.369><c> producer</c><00:01:54.119><c> will</c>
+
+00:01:55.069 --> 00:01:55.079 align:start position:0%
+the update protocol the producer will
+ 
+
+00:01:55.079 --> 00:01:57.109 align:start position:0%
+the update protocol the producer will
+send<00:01:55.409><c> updates</c><00:01:55.649><c> every</c><00:01:56.159><c> time</c><00:01:56.340><c> it</c><00:01:56.520><c> modifies</c><00:01:56.969><c> the</c>
+
+00:01:57.109 --> 00:01:57.119 align:start position:0%
+send updates every time it modifies the
+ 
+
+00:01:57.119 --> 00:01:59.660 align:start position:0%
+send updates every time it modifies the
+data<00:01:57.149><c> and</c><00:01:57.750><c> the</c><00:01:58.469><c> consumer</c><00:01:59.040><c> then</c><00:01:59.219><c> finds</c><00:01:59.520><c> the</c>
+
+00:01:59.660 --> 00:01:59.670 align:start position:0%
+data and the consumer then finds the
+ 
+
+00:01:59.670 --> 00:02:02.060 align:start position:0%
+data and the consumer then finds the
+data<00:01:59.850><c> in</c><00:02:00.030><c> its</c><00:02:00.149><c> cache</c><00:02:00.439><c> for</c><00:02:01.439><c> example</c><00:02:01.860><c> if</c><00:02:01.920><c> there</c>
+
+00:02:02.060 --> 00:02:02.070 align:start position:0%
+data in its cache for example if there
+ 
+
+00:02:02.070 --> 00:02:04.490 align:start position:0%
+data in its cache for example if there
+is<00:02:02.159><c> a</c><00:02:02.189><c> buffer</c><00:02:02.600><c> the</c><00:02:03.600><c> first</c><00:02:03.869><c> pass</c><00:02:04.140><c> through</c><00:02:04.170><c> the</c>
+
+00:02:04.490 --> 00:02:04.500 align:start position:0%
+is a buffer the first pass through the
+ 
+
+00:02:04.500 --> 00:02:06.410 align:start position:0%
+is a buffer the first pass through the
+buffer<00:02:04.680><c> will</c><00:02:04.979><c> put</c><00:02:05.189><c> it</c><00:02:05.369><c> in</c><00:02:05.520><c> the</c><00:02:05.640><c> cache</c><00:02:05.850><c> and</c><00:02:06.240><c> then</c>
+
+00:02:06.410 --> 00:02:06.420 align:start position:0%
+buffer will put it in the cache and then
+ 
+
+00:02:06.420 --> 00:02:08.570 align:start position:0%
+buffer will put it in the cache and then
+reading<00:02:07.020><c> the</c><00:02:07.170><c> buffer</c><00:02:07.530><c> keeps</c><00:02:07.950><c> it</c><00:02:08.099><c> in</c><00:02:08.220><c> the</c><00:02:08.340><c> cache</c>
+
+00:02:08.570 --> 00:02:08.580 align:start position:0%
+reading the buffer keeps it in the cache
+ 
+
+00:02:08.580 --> 00:02:10.940 align:start position:0%
+reading the buffer keeps it in the cache
+and<00:02:08.849><c> here</c><00:02:09.209><c> writes</c><00:02:09.690><c> are</c><00:02:09.959><c> gonna</c><00:02:10.170><c> put</c><00:02:10.560><c> new</c><00:02:10.709><c> data</c>
+
+00:02:10.940 --> 00:02:10.950 align:start position:0%
+and here writes are gonna put new data
+ 
+
+00:02:10.950 --> 00:02:12.559 align:start position:0%
+and here writes are gonna put new data
+in<00:02:11.099><c> the</c><00:02:11.220><c> buffer</c><00:02:11.370><c> so</c><00:02:11.819><c> that</c><00:02:11.849><c> the</c><00:02:12.060><c> consumer</c><00:02:12.450><c> just</c>
+
+00:02:12.559 --> 00:02:12.569 align:start position:0%
+in the buffer so that the consumer just
+ 
+
+00:02:12.569 --> 00:02:13.790 align:start position:0%
+in the buffer so that the consumer just
+keeps<00:02:12.810><c> getting</c><00:02:13.140><c> it</c><00:02:13.260><c> from</c><00:02:13.410><c> its</c><00:02:13.590><c> own</c>
+
+00:02:13.790 --> 00:02:13.800 align:start position:0%
+keeps getting it from its own
+ 
+
+00:02:13.800 --> 00:02:16.610 align:start position:0%
+keeps getting it from its own
+-<00:02:13.980><c> this</c><00:02:14.760><c> is</c><00:02:14.940><c> not</c><00:02:15.120><c> great</c><00:02:15.300><c> the</c><00:02:15.750><c> producer</c><00:02:16.260><c> sends</c>
+
+00:02:16.610 --> 00:02:16.620 align:start position:0%
+- this is not great the producer sends
+ 
+
+00:02:16.620 --> 00:02:18.350 align:start position:0%
+- this is not great the producer sends
+updates<00:02:17.010><c> but</c><00:02:17.250><c> it's</c><00:02:17.430><c> kind</c><00:02:17.640><c> of</c><00:02:17.730><c> the</c><00:02:17.820><c> best</c><00:02:18.000><c> we</c><00:02:18.210><c> can</c>
+
+00:02:18.350 --> 00:02:18.360 align:start position:0%
+updates but it's kind of the best we can
+ 
+
+00:02:18.360 --> 00:02:20.120 align:start position:0%
+updates but it's kind of the best we can
+do<00:02:18.540><c> because</c><00:02:18.750><c> the</c><00:02:18.990><c> data</c><00:02:19.170><c> really</c><00:02:19.590><c> has</c><00:02:19.800><c> to</c><00:02:19.950><c> get</c>
+
+00:02:20.120 --> 00:02:20.130 align:start position:0%
+do because the data really has to get
+ 
+
+00:02:20.130 --> 00:02:22.250 align:start position:0%
+do because the data really has to get
+from<00:02:20.280><c> one</c><00:02:20.490><c> place</c><00:02:20.640><c> to</c><00:02:20.760><c> the</c><00:02:20.910><c> other</c><00:02:21.030><c> so</c><00:02:21.900><c> this</c><00:02:22.050><c> is</c>
+
+00:02:22.250 --> 00:02:22.260 align:start position:0%
+from one place to the other so this is
+ 
+
+00:02:22.260 --> 00:02:24.920 align:start position:0%
+from one place to the other so this is
+about<00:02:22.530><c> as</c><00:02:22.770><c> good</c><00:02:22.800><c> as</c><00:02:23.220><c> this</c><00:02:23.400><c> scenario</c><00:02:23.850><c> gets</c><00:02:24.060><c> in</c>
+
+00:02:24.920 --> 00:02:24.930 align:start position:0%
+about as good as this scenario gets in
+ 
+
+00:02:24.930 --> 00:02:27.170 align:start position:0%
+about as good as this scenario gets in
+an<00:02:25.170><c> invalidation</c><00:02:25.740><c> based</c><00:02:26.250><c> protocol</c><00:02:26.790><c> however</c>
+
+00:02:27.170 --> 00:02:27.180 align:start position:0%
+an invalidation based protocol however
+ 
+
+00:02:27.180 --> 00:02:29.180 align:start position:0%
+an invalidation based protocol however
+the<00:02:27.630><c> producer</c><00:02:28.290><c> will</c><00:02:28.500><c> do</c><00:02:28.650><c> a</c><00:02:28.680><c> write</c><00:02:28.980><c> that</c>
+
+00:02:29.180 --> 00:02:29.190 align:start position:0%
+the producer will do a write that
+ 
+
+00:02:29.190 --> 00:02:32.240 align:start position:0%
+the producer will do a write that
+invalidates<00:02:29.940><c> the</c><00:02:30.120><c> readers</c><00:02:30.570><c> copy</c><00:02:30.920><c> so</c><00:02:31.920><c> when</c><00:02:32.100><c> the</c>
+
+00:02:32.240 --> 00:02:32.250 align:start position:0%
+invalidates the readers copy so when the
+ 
+
+00:02:32.250 --> 00:02:34.640 align:start position:0%
+invalidates the readers copy so when the
+reader<00:02:32.460><c> the</c><00:02:32.910><c> consumer</c><00:02:33.390><c> wants</c><00:02:33.780><c> to</c><00:02:33.900><c> read</c><00:02:34.110><c> it's</c>
+
+00:02:34.640 --> 00:02:34.650 align:start position:0%
+reader the consumer wants to read it's
+ 
+
+00:02:34.650 --> 00:02:37.010 align:start position:0%
+reader the consumer wants to read it's
+gonna<00:02:34.920><c> be</c><00:02:35.130><c> a</c><00:02:35.160><c> cache</c><00:02:35.430><c> miss</c><00:02:35.790><c> and</c><00:02:36.090><c> it</c><00:02:36.510><c> has</c><00:02:36.690><c> to</c><00:02:36.810><c> get</c>
+
+00:02:37.010 --> 00:02:37.020 align:start position:0%
+gonna be a cache miss and it has to get
+ 
+
+00:02:37.020 --> 00:02:39.500 align:start position:0%
+gonna be a cache miss and it has to get
+the<00:02:37.200><c> data</c><00:02:37.410><c> from</c><00:02:37.770><c> the</c><00:02:37.890><c> writer</c><00:02:38.100><c> and</c><00:02:38.490><c> then</c><00:02:39.150><c> a</c><00:02:39.210><c> new</c>
+
+00:02:39.500 --> 00:02:39.510 align:start position:0%
+the data from the writer and then a new
+ 
+
+00:02:39.510 --> 00:02:41.690 align:start position:0%
+the data from the writer and then a new
+write<00:02:39.810><c> will</c><00:02:40.020><c> happen</c><00:02:40.410><c> and</c><00:02:40.620><c> invalidate</c><00:02:41.520><c> the</c>
+
+00:02:41.690 --> 00:02:41.700 align:start position:0%
+write will happen and invalidate the
+ 
+
+00:02:41.700 --> 00:02:44.510 align:start position:0%
+write will happen and invalidate the
+copy<00:02:41.940><c> and</c><00:02:42.180><c> so</c><00:02:42.390><c> on</c><00:02:42.570><c> so</c><00:02:43.350><c> this</c><00:02:43.500><c> is</c><00:02:43.560><c> about</c><00:02:43.920><c> as</c><00:02:44.130><c> bad</c>
+
+00:02:44.510 --> 00:02:44.520 align:start position:0%
+copy and so on so this is about as bad
+ 
+
+00:02:44.520 --> 00:02:47.180 align:start position:0%
+copy and so on so this is about as bad
+as<00:02:44.550><c> it</c><00:02:44.820><c> gets</c><00:02:45.150><c> for</c><00:02:45.540><c> this</c><00:02:45.690><c> scenario</c><00:02:45.870><c> because</c><00:02:46.530><c> not</c>
+
+00:02:47.180 --> 00:02:47.190 align:start position:0%
+as it gets for this scenario because not
+ 
+
+00:02:47.190 --> 00:02:49.400 align:start position:0%
+as it gets for this scenario because not
+only<00:02:47.610><c> do</c><00:02:47.730><c> we</c><00:02:47.850><c> create</c><00:02:48.030><c> bus</c><00:02:48.300><c> traffic</c><00:02:48.810><c> when</c><00:02:49.230><c> we</c>
+
+00:02:49.400 --> 00:02:49.410 align:start position:0%
+only do we create bus traffic when we
+ 
+
+00:02:49.410 --> 00:02:51.770 align:start position:0%
+only do we create bus traffic when we
+invalidate<00:02:49.650><c> we</c><00:02:50.580><c> then</c><00:02:50.850><c> have</c><00:02:51.060><c> to</c><00:02:51.090><c> have</c><00:02:51.360><c> a</c><00:02:51.390><c> cache</c>
+
+00:02:51.770 --> 00:02:51.780 align:start position:0%
+invalidate we then have to have a cache
+ 
+
+00:02:51.780 --> 00:02:54.260 align:start position:0%
+invalidate we then have to have a cache
+miss<00:02:52.050><c> and</c><00:02:52.260><c> have</c><00:02:52.860><c> another</c><00:02:53.250><c> bus</c><00:02:53.580><c> operation</c><00:02:54.150><c> to</c>
+
+00:02:54.260 --> 00:02:54.270 align:start position:0%
+miss and have another bus operation to
+ 
+
+00:02:54.270 --> 00:02:56.780 align:start position:0%
+miss and have another bus operation to
+get<00:02:54.420><c> the</c><00:02:54.480><c> data</c><00:02:54.810><c> so</c><00:02:55.650><c> as</c><00:02:55.830><c> we</c><00:02:55.980><c> can</c><00:02:56.190><c> see</c><00:02:56.370><c> from</c><00:02:56.580><c> this</c>
+
+00:02:56.780 --> 00:02:56.790 align:start position:0%
+get the data so as we can see from this
+ 
+
+00:02:56.790 --> 00:02:59.240 align:start position:0%
+get the data so as we can see from this
+table<00:02:57.140><c> update</c><00:02:58.140><c> and</c><00:02:58.380><c> invalidate</c><00:02:58.710><c> based</c>
+
+00:02:59.240 --> 00:02:59.250 align:start position:0%
+table update and invalidate based
+ 
+
+00:02:59.250 --> 00:03:02.480 align:start position:0%
+table update and invalidate based
+protocols<00:02:59.880><c> have</c><00:03:00.450><c> different</c><00:03:00.990><c> advantages</c><00:03:01.490><c> so</c>
+
+00:03:02.480 --> 00:03:02.490 align:start position:0%
+protocols have different advantages so
+ 
+
+00:03:02.490 --> 00:03:05.450 align:start position:0%
+protocols have different advantages so
+which<00:03:02.730><c> one</c><00:03:03.060><c> do</c><00:03:03.720><c> we</c><00:03:03.750><c> choose</c><00:03:03.870><c> in</c><00:03:04.200><c> practice</c><00:03:04.680><c> well</c>
+
+00:03:05.450 --> 00:03:05.460 align:start position:0%
+which one do we choose in practice well
+ 
+
+00:03:05.460 --> 00:03:08.020 align:start position:0%
+which one do we choose in practice well
+it<00:03:05.700><c> turns</c><00:03:06.060><c> out</c><00:03:06.330><c> that</c><00:03:06.720><c> all</c><00:03:07.020><c> modern</c><00:03:07.500><c> processors</c>
+
+00:03:08.020 --> 00:03:08.030 align:start position:0%
+it turns out that all modern processors
+ 
+
+00:03:08.030 --> 00:03:11.860 align:start position:0%
+it turns out that all modern processors
+use<00:03:09.030><c> the</c><00:03:09.300><c> invalidate</c><00:03:09.870><c> type</c><00:03:10.110><c> protocol</c><00:03:10.710><c> but</c><00:03:11.220><c> not</c>
+
+00:03:11.860 --> 00:03:11.870 align:start position:0%
+use the invalidate type protocol but not
+ 
+
+00:03:11.870 --> 00:03:15.020 align:start position:0%
+use the invalidate type protocol but not
+exactly<00:03:12.870><c> for</c><00:03:13.140><c> these</c><00:03:13.320><c> reasons</c><00:03:13.800><c> as</c><00:03:14.340><c> we</c><00:03:14.670><c> can</c><00:03:14.850><c> see</c>
+
+00:03:15.020 --> 00:03:15.030 align:start position:0%
+exactly for these reasons as we can see
+ 
+
+00:03:15.030 --> 00:03:17.030 align:start position:0%
+exactly for these reasons as we can see
+invalidate<00:03:15.810><c> based</c><00:03:15.990><c> protocols</c><00:03:16.560><c> have</c><00:03:16.770><c> some</c>
+
+00:03:17.030 --> 00:03:17.040 align:start position:0%
+invalidate based protocols have some
+ 
+
+00:03:17.040 --> 00:03:19.310 align:start position:0%
+invalidate based protocols have some
+strengths<00:03:17.520><c> and</c><00:03:17.670><c> some</c><00:03:17.970><c> weaknesses</c><00:03:18.320><c> overall</c>
+
+00:03:19.310 --> 00:03:19.320 align:start position:0%
+strengths and some weaknesses overall
+ 
+
+00:03:19.320 --> 00:03:21.470 align:start position:0%
+strengths and some weaknesses overall
+they<00:03:19.530><c> tend</c><00:03:19.800><c> to</c><00:03:19.890><c> be</c><00:03:20.070><c> slightly</c><00:03:20.430><c> stronger</c><00:03:21.000><c> than</c>
+
+00:03:21.470 --> 00:03:21.480 align:start position:0%
+they tend to be slightly stronger than
+ 
+
+00:03:21.480 --> 00:03:24.680 align:start position:0%
+they tend to be slightly stronger than
+update<00:03:21.989><c> on</c><00:03:22.350><c> average</c><00:03:23.100><c> but</c><00:03:23.790><c> that's</c><00:03:24.000><c> not</c><00:03:24.270><c> really</c>
+
+00:03:24.680 --> 00:03:24.690 align:start position:0%
+update on average but that's not really
+ 
+
+00:03:24.690 --> 00:03:27.530 align:start position:0%
+update on average but that's not really
+the<00:03:24.720><c> knockout</c><00:03:25.260><c> punch</c><00:03:25.489><c> that</c><00:03:26.489><c> makes</c><00:03:27.060><c> them</c><00:03:27.330><c> win</c>
+
+00:03:27.530 --> 00:03:27.540 align:start position:0%
+the knockout punch that makes them win
+ 
+
+00:03:27.540 --> 00:03:29.720 align:start position:0%
+the knockout punch that makes them win
+handily<00:03:27.959><c> what</c><00:03:28.590><c> really</c><00:03:28.860><c> makes</c><00:03:29.190><c> them</c><00:03:29.370><c> win</c><00:03:29.550><c> with</c>
+
+00:03:29.720 --> 00:03:29.730 align:start position:0%
+handily what really makes them win with
+ 
+
+00:03:29.730 --> 00:03:32.479 align:start position:0%
+handily what really makes them win with
+no<00:03:29.880><c> contest</c><00:03:30.540><c> is</c><00:03:30.840><c> when</c><00:03:31.470><c> a</c><00:03:31.500><c> thread</c><00:03:31.890><c> moves</c><00:03:32.220><c> to</c>
+
+00:03:32.479 --> 00:03:32.489 align:start position:0%
+no contest is when a thread moves to
+ 
+
+00:03:32.489 --> 00:03:35.330 align:start position:0%
+no contest is when a thread moves to
+another<00:03:32.700><c> core</c><00:03:33.150><c> so</c><00:03:33.810><c> a</c><00:03:33.840><c> thread</c><00:03:34.470><c> was</c><00:03:34.709><c> using</c><00:03:35.100><c> one</c>
+
+00:03:35.330 --> 00:03:35.340 align:start position:0%
+another core so a thread was using one
+ 
+
+00:03:35.340 --> 00:03:36.949 align:start position:0%
+another core so a thread was using one
+core<00:03:35.670><c> and</c><00:03:35.880><c> then</c><00:03:36.030><c> simply</c><00:03:36.450><c> the</c><00:03:36.510><c> operating</c>
+
+00:03:36.949 --> 00:03:36.959 align:start position:0%
+core and then simply the operating
+ 
+
+00:03:36.959 --> 00:03:38.360 align:start position:0%
+core and then simply the operating
+system<00:03:37.260><c> decides</c><00:03:37.650><c> to</c><00:03:37.890><c> move</c><00:03:38.070><c> it</c><00:03:38.220><c> to</c><00:03:38.340><c> another</c>
+
+00:03:38.360 --> 00:03:38.370 align:start position:0%
+system decides to move it to another
+ 
+
+00:03:38.370 --> 00:03:40.970 align:start position:0%
+system decides to move it to another
+core<00:03:38.940><c> so</c><00:03:39.870><c> what</c><00:03:39.989><c> happens</c><00:03:40.380><c> in</c><00:03:40.500><c> the</c><00:03:40.620><c> update</c>
+
+00:03:40.970 --> 00:03:40.980 align:start position:0%
+core so what happens in the update
+ 
+
+00:03:40.980 --> 00:03:42.949 align:start position:0%
+core so what happens in the update
+protocol<00:03:41.520><c> is</c><00:03:41.760><c> that</c><00:03:41.790><c> it</c><00:03:42.180><c> now</c><00:03:42.330><c> will</c><00:03:42.660><c> keep</c>
+
+00:03:42.949 --> 00:03:42.959 align:start position:0%
+protocol is that it now will keep
+ 
+
+00:03:42.959 --> 00:03:45.860 align:start position:0%
+protocol is that it now will keep
+updating<00:03:43.709><c> the</c><00:03:43.830><c> old</c><00:03:44.040><c> course</c><00:03:44.370><c> cache</c><00:03:44.670><c> note</c><00:03:45.630><c> that</c>
+
+00:03:45.860 --> 00:03:45.870 align:start position:0%
+updating the old course cache note that
+ 
+
+00:03:45.870 --> 00:03:49.010 align:start position:0%
+updating the old course cache note that
+our<00:03:46.200><c> working</c><00:03:46.530><c> set</c><00:03:46.890><c> was</c><00:03:47.130><c> in</c><00:03:47.340><c> one</c><00:03:47.550><c> cache</c><00:03:47.880><c> now</c><00:03:48.810><c> it</c>
+
+00:03:49.010 --> 00:03:49.020 align:start position:0%
+our working set was in one cache now it
+ 
+
+00:03:49.020 --> 00:03:51.920 align:start position:0%
+our working set was in one cache now it
+moved<00:03:49.260><c> to</c><00:03:49.530><c> another</c><00:03:49.560><c> one</c><00:03:50.100><c> but</c><00:03:51.090><c> in</c><00:03:51.270><c> reality</c><00:03:51.420><c> the</c>
+
+00:03:51.920 --> 00:03:51.930 align:start position:0%
+moved to another one but in reality the
+ 
+
+00:03:51.930 --> 00:03:53.900 align:start position:0%
+moved to another one but in reality the
+other<00:03:52.080><c> cache</c><00:03:52.350><c> still</c><00:03:52.709><c> has</c><00:03:52.980><c> blocks</c><00:03:53.340><c> that</c>
+
+00:03:53.900 --> 00:03:53.910 align:start position:0%
+other cache still has blocks that
+ 
+
+00:03:53.910 --> 00:03:56.180 align:start position:0%
+other cache still has blocks that
+correspond<00:03:54.480><c> to</c><00:03:54.570><c> our</c><00:03:54.870><c> data</c><00:03:55.140><c> so</c><00:03:55.620><c> what</c><00:03:55.770><c> happens</c>
+
+00:03:56.180 --> 00:03:56.190 align:start position:0%
+correspond to our data so what happens
+ 
+
+00:03:56.190 --> 00:03:59.390 align:start position:0%
+correspond to our data so what happens
+is<00:03:56.370><c> all</c><00:03:56.600><c> the</c><00:03:57.600><c> rights</c><00:03:58.080><c> that</c><00:03:58.440><c> we</c><00:03:58.950><c> make</c><00:03:59.130><c> in</c><00:03:59.370><c> a</c>
+
+00:03:59.390 --> 00:03:59.400 align:start position:0%
+is all the rights that we make in a
+ 
+
+00:03:59.400 --> 00:04:00.410 align:start position:0%
+is all the rights that we make in a
+near-future
+
+00:04:00.410 --> 00:04:00.420 align:start position:0%
+near-future
+ 
+
+00:04:00.420 --> 00:04:03.110 align:start position:0%
+near-future
+are<00:04:01.230><c> gonna</c><00:04:01.560><c> be</c><00:04:01.770><c> updating</c><00:04:02.370><c> the</c><00:04:02.550><c> other</c><00:04:02.730><c> course</c>
+
+00:04:03.110 --> 00:04:03.120 align:start position:0%
+are gonna be updating the other course
+ 
+
+00:04:03.120 --> 00:04:06.229 align:start position:0%
+are gonna be updating the other course
+cache<00:04:03.440><c> until</c><00:04:04.440><c> that</c><00:04:04.680><c> cache</c><00:04:05.090><c> replaces</c><00:04:06.090><c> those</c>
+
+00:04:06.229 --> 00:04:06.239 align:start position:0%
+cache until that cache replaces those
+ 
+
+00:04:06.239 --> 00:04:08.240 align:start position:0%
+cache until that cache replaces those
+blocks<00:04:06.570><c> by</c><00:04:07.170><c> running</c><00:04:07.410><c> another</c><00:04:07.739><c> core</c><00:04:08.040><c> for</c>
+
+00:04:08.240 --> 00:04:08.250 align:start position:0%
+blocks by running another core for
+ 
+
+00:04:08.250 --> 00:04:10.850 align:start position:0%
+blocks by running another core for
+example<00:04:08.760><c> this</c><00:04:09.150><c> is</c><00:04:09.300><c> pretty</c><00:04:09.540><c> horrible</c><00:04:10.050><c> because</c>
+
+00:04:10.850 --> 00:04:10.860 align:start position:0%
+example this is pretty horrible because
+ 
+
+00:04:10.860 --> 00:04:13.850 align:start position:0%
+example this is pretty horrible because
+a<00:04:11.280><c> thread</c><00:04:11.580><c> movement</c><00:04:12.530><c> ideally</c><00:04:13.530><c> what</c><00:04:13.739><c> would</c>
+
+00:04:13.850 --> 00:04:13.860 align:start position:0%
+a thread movement ideally what would
+ 
+
+00:04:13.860 --> 00:04:16.070 align:start position:0%
+a thread movement ideally what would
+happen<00:04:14.280><c> is</c><00:04:14.400><c> we</c><00:04:14.640><c> would</c><00:04:14.670><c> just</c><00:04:15.060><c> move</c><00:04:15.630><c> the</c><00:04:15.870><c> data</c>
+
+00:04:16.070 --> 00:04:16.080 align:start position:0%
+happen is we would just move the data
+ 
+
+00:04:16.080 --> 00:04:18.440 align:start position:0%
+happen is we would just move the data
+over<00:04:16.380><c> and</c><00:04:16.739><c> continue</c><00:04:17.370><c> working</c><00:04:17.489><c> privately</c><00:04:18.299><c> on</c>
+
+00:04:18.440 --> 00:04:18.450 align:start position:0%
+over and continue working privately on
+ 
+
+00:04:18.450 --> 00:04:20.930 align:start position:0%
+over and continue working privately on
+on<00:04:18.660><c> our</c><00:04:18.870><c> private</c><00:04:19.230><c> data</c><00:04:19.440><c> so</c><00:04:20.340><c> let's</c><00:04:20.580><c> see</c><00:04:20.760><c> how</c>
+
+00:04:20.930 --> 00:04:20.940 align:start position:0%
+on our private data so let's see how
+ 
+
+00:04:20.940 --> 00:04:23.570 align:start position:0%
+on our private data so let's see how
+this<00:04:21.120><c> horrible</c><00:04:21.570><c> scenario</c><00:04:21.960><c> for</c><00:04:22.140><c> updates</c><00:04:22.580><c> works</c>
+
+00:04:23.570 --> 00:04:23.580 align:start position:0%
+this horrible scenario for updates works
+ 
+
+00:04:23.580 --> 00:04:26.240 align:start position:0%
+this horrible scenario for updates works
+when<00:04:23.850><c> we</c><00:04:23.880><c> have</c><00:04:24.000><c> invalidates</c><00:04:24.750><c> in</c><00:04:25.710><c> that</c><00:04:25.979><c> case</c>
+
+00:04:26.240 --> 00:04:26.250 align:start position:0%
+when we have invalidates in that case
+ 
+
+00:04:26.250 --> 00:04:28.070 align:start position:0%
+when we have invalidates in that case
+the<00:04:26.490><c> first</c><00:04:26.850><c> write</c><00:04:27.330><c> to</c><00:04:27.630><c> each</c><00:04:27.660><c> of</c><00:04:27.930><c> the</c>
+
+00:04:28.070 --> 00:04:28.080 align:start position:0%
+the first write to each of the
+ 
+
+00:04:28.080 --> 00:04:30.559 align:start position:0%
+the first write to each of the
+blocks<00:04:28.349><c> will</c><00:04:29.129><c> have</c><00:04:29.370><c> to</c><00:04:29.520><c> invalidate</c><00:04:29.759><c> the</c><00:04:30.360><c> old</c>
+
+00:04:30.559 --> 00:04:30.569 align:start position:0%
+blocks will have to invalidate the old
+ 
+
+00:04:30.569 --> 00:04:34.010 align:start position:0%
+blocks will have to invalidate the old
+copy<00:04:30.900><c> but</c><00:04:31.710><c> after</c><00:04:32.189><c> that</c><00:04:32.400><c> initial</c><00:04:32.729><c> period</c><00:04:33.389><c> there</c>
+
+00:04:34.010 --> 00:04:34.020 align:start position:0%
+copy but after that initial period there
+ 
+
+00:04:34.020 --> 00:04:35.570 align:start position:0%
+copy but after that initial period there
+will<00:04:34.199><c> be</c><00:04:34.229><c> no</c><00:04:34.500><c> traffic</c><00:04:34.740><c> anymore</c>
+
+00:04:35.570 --> 00:04:35.580 align:start position:0%
+will be no traffic anymore
+ 
+
+00:04:35.580 --> 00:04:37.850 align:start position:0%
+will be no traffic anymore
+so<00:04:36.030><c> this</c><00:04:36.240><c> is</c><00:04:36.419><c> about</c><00:04:36.689><c> as</c><00:04:36.900><c> good</c><00:04:36.930><c> as</c><00:04:37.259><c> it</c><00:04:37.379><c> gets</c>
+
+00:04:37.850 --> 00:04:37.860 align:start position:0%
+so this is about as good as it gets
+ 
+
+00:04:37.860 --> 00:04:40.219 align:start position:0%
+so this is about as good as it gets
+without<00:04:38.159><c> actually</c><00:04:38.490><c> taking</c><00:04:39.360><c> the</c><00:04:39.689><c> content</c><00:04:40.110><c> of</c>
+
+00:04:40.219 --> 00:04:40.229 align:start position:0%
+without actually taking the content of
+ 
+
+00:04:40.229 --> 00:04:42.559 align:start position:0%
+without actually taking the content of
+the<00:04:40.349><c> old</c><00:04:40.500><c> cache</c><00:04:40.770><c> and</c><00:04:41.069><c> copying</c><00:04:41.729><c> it</c><00:04:41.819><c> explicitly</c>
+
+00:04:42.559 --> 00:04:42.569 align:start position:0%
+the old cache and copying it explicitly
+ 
+
+00:04:42.569 --> 00:04:44.719 align:start position:0%
+the old cache and copying it explicitly
+to<00:04:42.719><c> the</c><00:04:42.840><c> new</c><00:04:43.020><c> cache</c><00:04:43.259><c> and</c><00:04:43.620><c> again</c><00:04:44.400><c> this</c><00:04:44.550><c> is</c>
+
+00:04:44.719 --> 00:04:44.729 align:start position:0%
+to the new cache and again this is
+ 
+
+00:04:44.729 --> 00:04:46.820 align:start position:0%
+to the new cache and again this is
+pretty<00:04:45.000><c> common</c><00:04:45.509><c> operating</c><00:04:46.020><c> system</c><00:04:46.469><c> behavior</c>
+
+00:04:46.820 --> 00:04:46.830 align:start position:0%
+pretty common operating system behavior
+ 
+
+00:04:46.830 --> 00:04:49.219 align:start position:0%
+pretty common operating system behavior
+so<00:04:47.639><c> we</c><00:04:47.789><c> really</c><00:04:48.150><c> don't</c><00:04:48.330><c> want</c><00:04:48.509><c> it</c><00:04:48.750><c> to</c><00:04:48.810><c> perform</c>
+
+00:04:49.219 --> 00:04:49.229 align:start position:0%
+so we really don't want it to perform
+ 
+
+00:04:49.229 --> 00:04:52.219 align:start position:0%
+so we really don't want it to perform
+horribly<00:04:49.500><c> and</c><00:04:50.180><c> because</c><00:04:51.180><c> invalidate</c><00:04:51.990><c> based</c>
+
+00:04:52.219 --> 00:04:52.229 align:start position:0%
+horribly and because invalidate based
+ 
+
+00:04:52.229 --> 00:04:55.129 align:start position:0%
+horribly and because invalidate based
+protocols<00:04:52.830><c> are</c><00:04:53.189><c> commonly</c><00:04:53.879><c> used</c><00:04:54.000><c> we</c><00:04:54.810><c> will</c><00:04:54.960><c> now</c>
+
+00:04:55.129 --> 00:04:55.139 align:start position:0%
+protocols are commonly used we will now
+ 
+
+00:04:55.139 --> 00:04:58.520 align:start position:0%
+protocols are commonly used we will now
+look<00:04:55.740><c> at</c><00:04:56.039><c> invalidation</c><00:04:56.849><c> based</c><00:04:57.210><c> protocols</c><00:04:57.840><c> for</c>
+
+00:04:58.520 --> 00:04:58.530 align:start position:0%
+look at invalidation based protocols for
+ 
+
+00:04:58.530 --> 00:05:01.460 align:start position:0%
+look at invalidation based protocols for
+the<00:04:58.680><c> rest</c><00:04:58.860><c> of</c><00:04:59.039><c> this</c><00:04:59.189><c> lesson</c>
+

@@ -1,0 +1,568 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:01.949 align:start position:0%
+ 
+so<00:00:00.359><c> let's</c><00:00:00.599><c> look</c><00:00:00.760><c> at</c><00:00:00.919><c> an</c><00:00:01.160><c> example</c><00:00:01.560><c> of</c><00:00:01.680><c> how</c><00:00:01.839><c> a</c>
+
+00:00:01.949 --> 00:00:01.959 align:start position:0%
+so let's look at an example of how a
+ 
+
+00:00:01.959 --> 00:00:04.789 align:start position:0%
+so let's look at an example of how a
+right<00:00:02.240><c> back</c><00:00:02.480><c> cache</c><00:00:02.760><c> would</c><00:00:02.960><c> work</c><00:00:03.840><c> say</c><00:00:04.120><c> we</c><00:00:04.319><c> have</c>
+
+00:00:04.789 --> 00:00:04.799 align:start position:0%
+right back cache would work say we have
+ 
+
+00:00:04.799 --> 00:00:07.309 align:start position:0%
+right back cache would work say we have
+a<00:00:05.000><c> small</c><00:00:05.319><c> for</c><00:00:05.640><c> entry</c><00:00:06.040><c> cache</c><00:00:06.359><c> that</c><00:00:06.520><c> is</c><00:00:06.960><c> direct</c>
+
+00:00:07.309 --> 00:00:07.319 align:start position:0%
+a small for entry cache that is direct
+ 
+
+00:00:07.319 --> 00:00:12.749 align:start position:0%
+a small for entry cache that is direct
+map<00:00:08.200><c> each</c><00:00:09.280><c> line</c><00:00:10.280><c> has</c><00:00:10.440><c> a</c><00:00:10.639><c> valid</c><00:00:11.000><c> bit</c><00:00:11.519><c> a</c><00:00:11.759><c> tag</c><00:00:12.519><c> and</c>
+
+00:00:12.749 --> 00:00:12.759 align:start position:0%
+map each line has a valid bit a tag and
+ 
+
+00:00:12.759 --> 00:00:14.629 align:start position:0%
+map each line has a valid bit a tag and
+a<00:00:12.960><c> dirty</c><00:00:13.320><c> bit</c><00:00:13.639><c> we</c><00:00:13.759><c> don't</c><00:00:13.920><c> need</c><00:00:14.080><c> the</c><00:00:14.200><c> lru</c>
+
+00:00:14.629 --> 00:00:14.639 align:start position:0%
+a dirty bit we don't need the lru
+ 
+
+00:00:14.639 --> 00:00:17.349 align:start position:0%
+a dirty bit we don't need the lru
+counter<00:00:15.280><c> because</c><00:00:15.799><c> in</c><00:00:16.000><c> a</c><00:00:16.119><c> direct</c><00:00:16.400><c> map</c><00:00:16.720><c> cache</c><00:00:17.240><c> we</c>
+
+00:00:17.349 --> 00:00:17.359 align:start position:0%
+counter because in a direct map cache we
+ 
+
+00:00:17.359 --> 00:00:19.150 align:start position:0%
+counter because in a direct map cache we
+know<00:00:17.640><c> exactly</c><00:00:18.080><c> what</c><00:00:18.199><c> to</c><00:00:18.359><c> replace</c><00:00:18.920><c> we</c><00:00:19.039><c> don't</c>
+
+00:00:19.150 --> 00:00:19.160 align:start position:0%
+know exactly what to replace we don't
+ 
+
+00:00:19.160 --> 00:00:21.230 align:start position:0%
+know exactly what to replace we don't
+need<00:00:19.400><c> L</c><00:00:19.760><c> counters</c><00:00:20.119><c> to</c><00:00:20.240><c> tell</c><00:00:20.400><c> us</c><00:00:20.600><c> that</c><00:00:21.039><c> let's</c>
+
+00:00:21.230 --> 00:00:21.240 align:start position:0%
+need L counters to tell us that let's
+ 
+
+00:00:21.240 --> 00:00:22.990 align:start position:0%
+need L counters to tell us that let's
+say<00:00:21.400><c> that</c><00:00:21.560><c> the</c><00:00:21.720><c> processor</c><00:00:22.160><c> is</c><00:00:22.480><c> doing</c><00:00:22.840><c> this</c>
+
+00:00:22.990 --> 00:00:23.000 align:start position:0%
+say that the processor is doing this
+ 
+
+00:00:23.000 --> 00:00:26.150 align:start position:0%
+say that the processor is doing this
+sequence<00:00:23.400><c> of</c><00:00:23.599><c> accesses</c><00:00:24.560><c> and</c><00:00:24.840><c> a</c><00:00:25.119><c> b</c><00:00:25.320><c> and</c><00:00:25.480><c> c</c><00:00:25.840><c> map</c>
+
+00:00:26.150 --> 00:00:26.160 align:start position:0%
+sequence of accesses and a b and c map
+ 
+
+00:00:26.160 --> 00:00:30.029 align:start position:0%
+sequence of accesses and a b and c map
+to<00:00:26.400><c> different</c><00:00:27.400><c> sets</c><00:00:27.760><c> in</c><00:00:27.920><c> the</c><00:00:28.400><c> cache</c><00:00:29.400><c> the</c><00:00:29.519><c> first</c>
+
+00:00:30.029 --> 00:00:30.039 align:start position:0%
+to different sets in the cache the first
+ 
+
+00:00:30.039 --> 00:00:32.350 align:start position:0%
+to different sets in the cache the first
+ACC<00:00:30.279><c> is</c><00:00:30.480><c> Right</c><00:00:30.759><c> a</c><00:00:31.199><c> so</c><00:00:31.439><c> what</c><00:00:31.560><c> we</c><00:00:31.679><c> do</c><00:00:31.880><c> is</c><00:00:32.079><c> we</c><00:00:32.200><c> have</c>
+
+00:00:32.350 --> 00:00:32.360 align:start position:0%
+ACC is Right a so what we do is we have
+ 
+
+00:00:32.360 --> 00:00:35.670 align:start position:0%
+ACC is Right a so what we do is we have
+a<00:00:32.520><c> miss</c><00:00:33.320><c> all</c><00:00:33.559><c> of</c><00:00:33.800><c> our</c><00:00:34.079><c> valid</c><00:00:34.399><c> bits</c><00:00:34.680><c> are</c><00:00:34.960><c> zero</c><00:00:35.520><c> so</c>
+
+00:00:35.670 --> 00:00:35.680 align:start position:0%
+a miss all of our valid bits are zero so
+ 
+
+00:00:35.680 --> 00:00:37.150 align:start position:0%
+a miss all of our valid bits are zero so
+it<00:00:35.800><c> doesn't</c><00:00:36.120><c> matter</c><00:00:36.399><c> what</c><00:00:36.520><c> the</c><00:00:36.680><c> rest</c><00:00:36.879><c> of</c><00:00:37.000><c> the</c>
+
+00:00:37.150 --> 00:00:37.160 align:start position:0%
+it doesn't matter what the rest of the
+ 
+
+00:00:37.160 --> 00:00:39.030 align:start position:0%
+it doesn't matter what the rest of the
+cache<00:00:37.559><c> has</c><00:00:37.840><c> because</c><00:00:38.160><c> none</c><00:00:38.360><c> of</c><00:00:38.480><c> the</c><00:00:38.559><c> lines</c><00:00:38.800><c> are</c>
+
+00:00:39.030 --> 00:00:39.040 align:start position:0%
+cache has because none of the lines are
+ 
+
+00:00:39.040 --> 00:00:42.630 align:start position:0%
+cache has because none of the lines are
+valid<00:00:39.680><c> when</c><00:00:39.840><c> we</c><00:00:40.000><c> have</c><00:00:40.160><c> the</c><00:00:40.360><c> first</c><00:00:40.719><c> right</c><00:00:41.200><c> to</c><00:00:41.640><c> a</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+valid when we have the first right to a
+ 
+
+00:00:42.640 --> 00:00:46.069 align:start position:0%
+valid when we have the first right to a
+we<00:00:42.760><c> will</c><00:00:43.000><c> bring</c><00:00:43.399><c> a</c><00:00:44.280><c> here</c><00:00:45.239><c> we</c><00:00:45.360><c> will</c><00:00:45.559><c> change</c><00:00:45.960><c> the</c>
+
+00:00:46.069 --> 00:00:46.079 align:start position:0%
+we will bring a here we will change the
+ 
+
+00:00:46.079 --> 00:00:48.350 align:start position:0%
+we will bring a here we will change the
+valid<00:00:46.399><c> bit</c><00:00:46.600><c> to</c><00:00:46.800><c> one</c><00:00:47.520><c> and</c><00:00:47.640><c> we</c><00:00:47.760><c> would</c><00:00:47.920><c> change</c><00:00:48.160><c> the</c>
+
+00:00:48.350 --> 00:00:48.360 align:start position:0%
+valid bit to one and we would change the
+ 
+
+00:00:48.360 --> 00:00:51.470 align:start position:0%
+valid bit to one and we would change the
+tag<00:00:48.680><c> to</c><00:00:48.920><c> correspond</c><00:00:49.399><c> to</c><00:00:49.600><c> a</c><00:00:50.520><c> because</c><00:00:50.920><c> this</c><00:00:51.039><c> is</c><00:00:51.160><c> a</c>
+
+00:00:51.470 --> 00:00:51.480 align:start position:0%
+tag to correspond to a because this is a
+ 
+
+00:00:51.480 --> 00:00:53.670 align:start position:0%
+tag to correspond to a because this is a
+right<00:00:52.239><c> the</c><00:00:52.399><c> processor</c><00:00:52.960><c> as</c><00:00:53.079><c> soon</c><00:00:53.239><c> as</c><00:00:53.359><c> the</c><00:00:53.480><c> data</c>
+
+00:00:53.670 --> 00:00:53.680 align:start position:0%
+right the processor as soon as the data
+ 
+
+00:00:53.680 --> 00:00:55.349 align:start position:0%
+right the processor as soon as the data
+is<00:00:53.800><c> brought</c><00:00:54.079><c> in</c><00:00:54.280><c> will</c><00:00:54.520><c> write</c><00:00:54.800><c> it</c><00:00:55.079><c> and</c><00:00:55.199><c> the</c>
+
+00:00:55.349 --> 00:00:55.359 align:start position:0%
+is brought in will write it and the
+ 
+
+00:00:55.359 --> 00:00:57.869 align:start position:0%
+is brought in will write it and the
+Dirty<00:00:55.719><c> Bit</c><00:00:55.960><c> will</c><00:00:56.079><c> be</c><00:00:56.199><c> set</c><00:00:56.440><c> to</c><00:00:56.640><c> one</c><00:00:57.480><c> next</c><00:00:57.760><c> we</c>
+
+00:00:57.869 --> 00:00:57.879 align:start position:0%
+Dirty Bit will be set to one next we
+ 
+
+00:00:57.879 --> 00:01:01.150 align:start position:0%
+Dirty Bit will be set to one next we
+have<00:00:58.000><c> a</c><00:00:58.160><c> read</c><00:00:58.440><c> to</c><00:00:58.680><c> a</c><00:00:59.359><c> the</c><00:00:59.480><c> processor</c><00:01:00.320><c> checks</c>
+
+00:01:01.150 --> 00:01:01.160 align:start position:0%
+have a read to a the processor checks
+ 
+
+00:01:01.160 --> 00:01:03.150 align:start position:0%
+have a read to a the processor checks
+the<00:01:01.320><c> tag</c><00:01:01.600><c> and</c><00:01:01.760><c> the</c><00:01:01.920><c> valid</c><00:01:02.239><c> bit</c><00:01:02.519><c> sees</c><00:01:02.840><c> that</c><00:01:03.000><c> the</c>
+
+00:01:03.150 --> 00:01:03.160 align:start position:0%
+the tag and the valid bit sees that the
+ 
+
+00:01:03.160 --> 00:01:05.990 align:start position:0%
+the tag and the valid bit sees that the
+tag<00:01:03.399><c> match</c><00:01:03.680><c> is</c><00:01:03.879><c> a</c><00:01:04.680><c> and</c><00:01:04.839><c> the</c><00:01:05.000><c> valid</c><00:01:05.280><c> bit</c><00:01:05.479><c> is</c><00:01:05.640><c> one</c>
+
+00:01:05.990 --> 00:01:06.000 align:start position:0%
+tag match is a and the valid bit is one
+ 
+
+00:01:06.000 --> 00:01:08.990 align:start position:0%
+tag match is a and the valid bit is one
+so<00:01:06.159><c> it</c><00:01:06.320><c> can</c><00:01:06.799><c> just</c><00:01:07.000><c> use</c><00:01:07.400><c> a</c><00:01:08.400><c> the</c><00:01:08.560><c> fact</c><00:01:08.720><c> that</c><00:01:08.840><c> the</c>
+
+00:01:08.990 --> 00:01:09.000 align:start position:0%
+so it can just use a the fact that the
+ 
+
+00:01:09.000 --> 00:01:12.030 align:start position:0%
+so it can just use a the fact that the
+Dirty<00:01:09.280><c> Bit</c><00:01:09.479><c> is</c><00:01:09.640><c> one</c><00:01:09.920><c> doesn't</c><00:01:10.200><c> change</c><00:01:11.040><c> anything</c>
+
+00:01:12.030 --> 00:01:12.040 align:start position:0%
+Dirty Bit is one doesn't change anything
+ 
+
+00:01:12.040 --> 00:01:15.070 align:start position:0%
+Dirty Bit is one doesn't change anything
+next<00:01:12.400><c> let's</c><00:01:12.600><c> say</c><00:01:12.799><c> we</c><00:01:12.960><c> have</c><00:01:13.080><c> a</c><00:01:13.240><c> read</c><00:01:13.600><c> B</c><00:01:14.600><c> we</c><00:01:14.759><c> don't</c>
+
+00:01:15.070 --> 00:01:15.080 align:start position:0%
+next let's say we have a read B we don't
+ 
+
+00:01:15.080 --> 00:01:16.910 align:start position:0%
+next let's say we have a read B we don't
+find<00:01:15.439><c> anything</c><00:01:15.759><c> that</c><00:01:16.000><c> matches</c><00:01:16.360><c> B</c><00:01:16.600><c> in</c><00:01:16.720><c> the</c>
+
+00:01:16.910 --> 00:01:16.920 align:start position:0%
+find anything that matches B in the
+ 
+
+00:01:16.920 --> 00:01:19.910 align:start position:0%
+find anything that matches B in the
+cache<00:01:17.920><c> or</c><00:01:18.159><c> maybe</c><00:01:18.560><c> if</c><00:01:18.799><c> this</c><00:01:19.040><c> does</c><00:01:19.439><c> the</c><00:01:19.600><c> valid</c>
+
+00:01:19.910 --> 00:01:19.920 align:start position:0%
+cache or maybe if this does the valid
+ 
+
+00:01:19.920 --> 00:01:22.310 align:start position:0%
+cache or maybe if this does the valid
+bit<00:01:20.119><c> is</c><00:01:20.240><c> zero</c><00:01:20.479><c> so</c><00:01:20.600><c> it</c><00:01:20.720><c> doesn't</c><00:01:21.040><c> matter</c><00:01:21.920><c> so</c><00:01:22.200><c> we</c>
+
+00:01:22.310 --> 00:01:22.320 align:start position:0%
+bit is zero so it doesn't matter so we
+ 
+
+00:01:22.320 --> 00:01:25.590 align:start position:0%
+bit is zero so it doesn't matter so we
+will<00:01:22.759><c> have</c><00:01:22.920><c> a</c><00:01:23.079><c> miss</c><00:01:24.079><c> and</c><00:01:24.240><c> bring</c><00:01:24.560><c> B</c><00:01:24.960><c> into</c><00:01:25.280><c> the</c>
+
+00:01:25.590 --> 00:01:25.600 align:start position:0%
+will have a miss and bring B into the
+ 
+
+00:01:25.600 --> 00:01:29.030 align:start position:0%
+will have a miss and bring B into the
+cache<00:01:26.600><c> change</c><00:01:26.920><c> the</c><00:01:27.119><c> tag</c><00:01:27.320><c> to</c><00:01:27.520><c> correspond</c><00:01:28.000><c> to</c><00:01:28.200><c> B</c>
+
+00:01:29.030 --> 00:01:29.040 align:start position:0%
+cache change the tag to correspond to B
+ 
+
+00:01:29.040 --> 00:01:31.230 align:start position:0%
+cache change the tag to correspond to B
+change<00:01:29.320><c> the</c><00:01:29.479><c> valid</c><00:01:29.960><c> bit</c><00:01:30.079><c> to</c><00:01:30.240><c> one</c><00:01:30.640><c> to</c><00:01:30.799><c> indicate</c>
+
+00:01:31.230 --> 00:01:31.240 align:start position:0%
+change the valid bit to one to indicate
+ 
+
+00:01:31.240 --> 00:01:34.109 align:start position:0%
+change the valid bit to one to indicate
+that<00:01:31.360><c> we</c><00:01:31.479><c> do</c><00:01:31.720><c> have</c><00:01:31.920><c> something</c><00:01:32.360><c> here</c><00:01:32.880><c> now</c><00:01:33.880><c> and</c>
+
+00:01:34.109 --> 00:01:34.119 align:start position:0%
+that we do have something here now and
+ 
+
+00:01:34.119 --> 00:01:37.149 align:start position:0%
+that we do have something here now and
+because<00:01:34.479><c> this</c><00:01:34.640><c> is</c><00:01:35.200><c> only</c><00:01:35.520><c> a</c><00:01:35.759><c> read</c><00:01:36.520><c> the</c><00:01:36.680><c> Dirty</c>
+
+00:01:37.149 --> 00:01:37.159 align:start position:0%
+because this is only a read the Dirty
+ 
+
+00:01:37.159 --> 00:01:40.230 align:start position:0%
+because this is only a read the Dirty
+Bit<00:01:37.600><c> will</c><00:01:37.880><c> be</c><00:01:38.079><c> zero</c><00:01:38.960><c> next</c><00:01:39.240><c> let's</c><00:01:39.439><c> say</c><00:01:39.600><c> we</c><00:01:39.759><c> read</c>
+
+00:01:40.230 --> 00:01:40.240 align:start position:0%
+Bit will be zero next let's say we read
+ 
+
+00:01:40.240 --> 00:01:44.870 align:start position:0%
+Bit will be zero next let's say we read
+C<00:01:41.240><c> it's</c><00:01:41.399><c> a</c><00:01:41.759><c> Miss</c><00:01:42.759><c> bring</c><00:01:43.079><c> C</c><00:01:43.439><c> in</c><00:01:44.200><c> change</c><00:01:44.479><c> the</c><00:01:44.680><c> tag</c>
+
+00:01:44.870 --> 00:01:44.880 align:start position:0%
+C it's a Miss bring C in change the tag
+ 
+
+00:01:44.880 --> 00:01:48.310 align:start position:0%
+C it's a Miss bring C in change the tag
+on<00:01:45.040><c> the</c><00:01:45.159><c> valid</c><00:01:45.520><c> bit</c><00:01:46.399><c> it's</c><00:01:46.560><c> a</c><00:01:46.960><c> read</c><00:01:47.960><c> so</c><00:01:48.159><c> the</c>
+
+00:01:48.310 --> 00:01:48.320 align:start position:0%
+on the valid bit it's a read so the
+ 
+
+00:01:48.320 --> 00:01:50.950 align:start position:0%
+on the valid bit it's a read so the
+Dirty<00:01:48.640><c> Bit</c><00:01:48.880><c> starts</c><00:01:49.159><c> out</c><00:01:49.360><c> at</c><00:01:49.600><c> zero</c><00:01:50.439><c> next</c><00:01:50.799><c> what</c>
+
+00:01:50.950 --> 00:01:50.960 align:start position:0%
+Dirty Bit starts out at zero next what
+ 
+
+00:01:50.960 --> 00:01:54.510 align:start position:0%
+Dirty Bit starts out at zero next what
+we<00:01:51.159><c> have</c><00:01:51.759><c> is</c><00:01:51.880><c> a</c><00:01:52.159><c> right</c><00:01:53.000><c> to</c><00:01:53.280><c> see</c><00:01:54.000><c> we</c><00:01:54.119><c> check</c><00:01:54.399><c> if</c>
+
+00:01:54.510 --> 00:01:54.520 align:start position:0%
+we have is a right to see we check if
+ 
+
+00:01:54.520 --> 00:01:58.190 align:start position:0%
+we have is a right to see we check if
+it's<00:01:54.640><c> a</c><00:01:54.880><c> hit</c><00:01:55.280><c> and</c><00:01:55.439><c> it</c><00:01:55.920><c> is</c><00:01:56.920><c> we</c><00:01:57.119><c> write</c><00:01:57.680><c> only</c><00:01:58.000><c> to</c>
+
+00:01:58.190 --> 00:01:58.200 align:start position:0%
+it's a hit and it is we write only to
+ 
+
+00:01:58.200 --> 00:02:00.830 align:start position:0%
+it's a hit and it is we write only to
+the<00:01:58.439><c> cache</c><00:01:59.399><c> and</c><00:01:59.520><c> change</c><00:02:00.039><c> the</c><00:02:00.119><c> Dirty</c><00:02:00.360><c> Bit</c><00:02:00.560><c> to</c>
+
+00:02:00.830 --> 00:02:00.840 align:start position:0%
+the cache and change the Dirty Bit to
+ 
+
+00:02:00.840 --> 00:02:03.630 align:start position:0%
+the cache and change the Dirty Bit to
+one<00:02:01.840><c> and</c><00:02:02.039><c> now</c><00:02:02.280><c> as</c><00:02:02.360><c> you</c><00:02:02.479><c> can</c><00:02:02.600><c> see</c><00:02:02.840><c> the</c><00:02:03.000><c> Dirty</c><00:02:03.360><c> Bit</c>
+
+00:02:03.630 --> 00:02:03.640 align:start position:0%
+one and now as you can see the Dirty Bit
+ 
+
+00:02:03.640 --> 00:02:07.149 align:start position:0%
+one and now as you can see the Dirty Bit
+for<00:02:04.000><c> every</c><00:02:04.320><c> line</c><00:02:05.039><c> indicates</c><00:02:05.680><c> simply</c><00:02:06.680><c> was</c><00:02:06.960><c> the</c>
+
+00:02:07.149 --> 00:02:07.159 align:start position:0%
+for every line indicates simply was the
+ 
+
+00:02:07.159 --> 00:02:10.430 align:start position:0%
+for every line indicates simply was the
+line<00:02:07.640><c> ever</c><00:02:08.520><c> written</c><00:02:09.520><c> since</c><00:02:09.800><c> it</c><00:02:09.959><c> was</c><00:02:10.160><c> last</c>
+
+00:02:10.430 --> 00:02:10.440 align:start position:0%
+line ever written since it was last
+ 
+
+00:02:10.440 --> 00:02:13.270 align:start position:0%
+line ever written since it was last
+brought<00:02:10.759><c> into</c><00:02:11.039><c> the</c><00:02:11.440><c> cache</c><00:02:12.440><c> let's</c><00:02:12.720><c> continue</c>
+
+00:02:13.270 --> 00:02:13.280 align:start position:0%
+brought into the cache let's continue
+ 
+
+00:02:13.280 --> 00:02:16.750 align:start position:0%
+brought into the cache let's continue
+this<00:02:14.080><c> by</c><00:02:14.239><c> an</c><00:02:14.480><c> access</c><00:02:14.879><c> to</c><00:02:15.160><c> e</c><00:02:15.760><c> that</c><00:02:15.920><c> is</c><00:02:16.040><c> a</c><00:02:16.239><c> read</c>
+
+00:02:16.750 --> 00:02:16.760 align:start position:0%
+this by an access to e that is a read
+ 
+
+00:02:16.760 --> 00:02:20.030 align:start position:0%
+this by an access to e that is a read
+and<00:02:16.920><c> let's</c><00:02:17.080><c> say</c><00:02:17.280><c> that</c><00:02:17.440><c> e</c><00:02:17.720><c> Maps</c><00:02:18.120><c> where</c><00:02:18.360><c> a</c><00:02:18.800><c> is</c><00:02:19.800><c> so</c>
+
+00:02:20.030 --> 00:02:20.040 align:start position:0%
+and let's say that e Maps where a is so
+ 
+
+00:02:20.040 --> 00:02:21.910 align:start position:0%
+and let's say that e Maps where a is so
+now<00:02:20.239><c> what</c><00:02:20.360><c> needs</c><00:02:20.560><c> to</c><00:02:20.760><c> happen</c><00:02:21.080><c> is</c><00:02:21.599><c> we're</c><00:02:21.840><c> going</c>
+
+00:02:21.910 --> 00:02:21.920 align:start position:0%
+now what needs to happen is we're going
+ 
+
+00:02:21.920 --> 00:02:25.790 align:start position:0%
+now what needs to happen is we're going
+to<00:02:22.599><c> check</c><00:02:23.360><c> here</c><00:02:24.360><c> to</c><00:02:24.519><c> see</c><00:02:24.840><c> whether</c><00:02:25.400><c> the</c><00:02:25.560><c> tag</c>
+
+00:02:25.790 --> 00:02:25.800 align:start position:0%
+to check here to see whether the tag
+ 
+
+00:02:25.800 --> 00:02:29.430 align:start position:0%
+to check here to see whether the tag
+matches<00:02:26.280><c> e</c><00:02:26.879><c> it</c><00:02:27.120><c> doesn't</c><00:02:27.800><c> so</c><00:02:28.000><c> we</c><00:02:28.160><c> have</c><00:02:28.319><c> a</c><00:02:28.519><c> miss</c>
+
+00:02:29.430 --> 00:02:29.440 align:start position:0%
+matches e it doesn't so we have a miss
+ 
+
+00:02:29.440 --> 00:02:31.910 align:start position:0%
+matches e it doesn't so we have a miss
+our<00:02:29.920><c> replacement</c><00:02:30.440><c> policy</c><00:02:31.120><c> is</c><00:02:31.319><c> simple</c><00:02:31.720><c> for</c>
+
+00:02:31.910 --> 00:02:31.920 align:start position:0%
+our replacement policy is simple for
+ 
+
+00:02:31.920 --> 00:02:33.589 align:start position:0%
+our replacement policy is simple for
+direct<00:02:32.239><c> map</c><00:02:32.480><c> caches</c><00:02:32.840><c> we</c><00:02:32.959><c> simply</c><00:02:33.239><c> replace</c>
+
+00:02:33.589 --> 00:02:33.599 align:start position:0%
+direct map caches we simply replace
+ 
+
+00:02:33.599 --> 00:02:36.630 align:start position:0%
+direct map caches we simply replace
+whatever<00:02:33.879><c> is</c><00:02:34.239><c> there</c><00:02:35.239><c> so</c><00:02:35.440><c> at</c><00:02:35.640><c> this</c><00:02:35.879><c> point</c><00:02:36.480><c> we</c>
+
+00:02:36.630 --> 00:02:36.640 align:start position:0%
+whatever is there so at this point we
+ 
+
+00:02:36.640 --> 00:02:39.710 align:start position:0%
+whatever is there so at this point we
+cannot<00:02:37.000><c> just</c><00:02:37.200><c> bring</c><00:02:37.519><c> in</c><00:02:37.959><c> E</c><00:02:38.239><c> from</c><00:02:38.480><c> memory</c><00:02:39.280><c> first</c>
+
+00:02:39.710 --> 00:02:39.720 align:start position:0%
+cannot just bring in E from memory first
+ 
+
+00:02:39.720 --> 00:02:42.110 align:start position:0%
+cannot just bring in E from memory first
+we<00:02:39.879><c> have</c><00:02:40.000><c> to</c><00:02:40.239><c> take</c><00:02:40.480><c> the</c><00:02:40.720><c> data</c><00:02:40.959><c> for</c><00:02:41.319><c> a</c><00:02:41.800><c> that</c><00:02:41.959><c> we</c>
+
+00:02:42.110 --> 00:02:42.120 align:start position:0%
+we have to take the data for a that we
+ 
+
+00:02:42.120 --> 00:02:43.949 align:start position:0%
+we have to take the data for a that we
+have<00:02:42.280><c> written</c><00:02:42.720><c> and</c><00:02:42.879><c> not</c><00:02:43.080><c> written</c><00:02:43.360><c> to</c><00:02:43.519><c> memory</c>
+
+00:02:43.949 --> 00:02:43.959 align:start position:0%
+have written and not written to memory
+ 
+
+00:02:43.959 --> 00:02:47.110 align:start position:0%
+have written and not written to memory
+yet<00:02:44.840><c> because</c><00:02:45.080><c> the</c><00:02:45.239><c> Dirty</c><00:02:45.560><c> Bit</c><00:02:45.760><c> is</c><00:02:45.959><c> one</c><00:02:46.879><c> this</c>
+
+00:02:47.110 --> 00:02:47.120 align:start position:0%
+yet because the Dirty Bit is one this
+ 
+
+00:02:47.120 --> 00:02:49.430 align:start position:0%
+yet because the Dirty Bit is one this
+block<00:02:47.440><c> gets</c><00:02:47.640><c> sent</c><00:02:47.879><c> to</c><00:02:48.040><c> memory</c><00:02:48.400><c> as</c><00:02:48.519><c> a</c><00:02:48.720><c> right</c>
+
+00:02:49.430 --> 00:02:49.440 align:start position:0%
+block gets sent to memory as a right
+ 
+
+00:02:49.440 --> 00:02:53.070 align:start position:0%
+block gets sent to memory as a right
+after<00:02:49.800><c> that</c><00:02:50.159><c> happens</c><00:02:51.159><c> we</c><00:02:51.280><c> can</c><00:02:51.480><c> bring</c><00:02:51.800><c> e</c><00:02:52.159><c> in</c><00:02:52.800><c> set</c>
+
+00:02:53.070 --> 00:02:53.080 align:start position:0%
+after that happens we can bring e in set
+ 
+
+00:02:53.080 --> 00:02:55.550 align:start position:0%
+after that happens we can bring e in set
+the<00:02:53.319><c> tag</c><00:02:53.720><c> and</c><00:02:54.000><c> valid</c><00:02:54.360><c> bit</c><00:02:54.760><c> and</c><00:02:54.879><c> the</c><00:02:55.040><c> Dirty</c><00:02:55.360><c> Bit</c>
+
+00:02:55.550 --> 00:02:55.560 align:start position:0%
+the tag and valid bit and the Dirty Bit
+ 
+
+00:02:55.560 --> 00:02:58.550 align:start position:0%
+the tag and valid bit and the Dirty Bit
+to<00:02:55.760><c> zero</c><00:02:56.200><c> because</c><00:02:56.920><c> it's</c><00:02:57.080><c> a</c><00:02:57.239><c> read</c><00:02:58.159><c> and</c><00:02:58.319><c> this</c>
+
+00:02:58.550 --> 00:02:58.560 align:start position:0%
+to zero because it's a read and this
+ 
+
+00:02:58.560 --> 00:03:01.350 align:start position:0%
+to zero because it's a read and this
+continues<00:02:59.040><c> on</c><00:02:59.959><c> let's</c><00:03:00.239><c> say</c><00:03:00.480><c> that</c><00:03:00.680><c> now</c><00:03:00.879><c> we</c><00:03:01.080><c> have</c>
+
+00:03:01.350 --> 00:03:01.360 align:start position:0%
+continues on let's say that now we have
+ 
+
+00:03:01.360 --> 00:03:05.390 align:start position:0%
+continues on let's say that now we have
+a<00:03:01.560><c> read</c><00:03:02.120><c> to</c><00:03:02.560><c> F</c><00:03:03.560><c> which</c><00:03:03.799><c> replaces</c><00:03:04.319><c> B</c><00:03:05.120><c> when</c><00:03:05.280><c> we</c>
+
+00:03:05.390 --> 00:03:05.400 align:start position:0%
+a read to F which replaces B when we
+ 
+
+00:03:05.400 --> 00:03:07.550 align:start position:0%
+a read to F which replaces B when we
+want<00:03:05.519><c> to</c><00:03:05.720><c> replace</c><00:03:06.120><c> B</c><00:03:06.400><c> we</c><00:03:06.519><c> check</c><00:03:06.760><c> the</c><00:03:06.920><c> Dirty</c><00:03:07.280><c> Bit</c>
+
+00:03:07.550 --> 00:03:07.560 align:start position:0%
+want to replace B we check the Dirty Bit
+ 
+
+00:03:07.560 --> 00:03:09.990 align:start position:0%
+want to replace B we check the Dirty Bit
+it's<00:03:07.840><c> zero</c><00:03:08.440><c> so</c><00:03:08.720><c> B</c><00:03:08.959><c> doesn't</c><00:03:09.360><c> get</c><00:03:09.519><c> sent</c><00:03:09.799><c> to</c>
+
+00:03:09.990 --> 00:03:10.000 align:start position:0%
+it's zero so B doesn't get sent to
+ 
+
+00:03:10.000 --> 00:03:12.390 align:start position:0%
+it's zero so B doesn't get sent to
+memory<00:03:10.760><c> it</c><00:03:11.000><c> simply</c><00:03:11.400><c> gets</c><00:03:11.640><c> overwritten</c><00:03:12.280><c> with</c>
+
+00:03:12.390 --> 00:03:12.400 align:start position:0%
+memory it simply gets overwritten with
+ 
+
+00:03:12.400 --> 00:03:15.990 align:start position:0%
+memory it simply gets overwritten with
+the<00:03:12.560><c> data</c><00:03:12.840><c> from</c><00:03:13.159><c> F</c><00:03:13.640><c> we</c><00:03:14.280><c> Fetch</c><00:03:15.280><c> and</c><00:03:15.480><c> because</c>
+
+00:03:15.990 --> 00:03:16.000 align:start position:0%
+the data from F we Fetch and because
+ 
+
+00:03:16.000 --> 00:03:18.630 align:start position:0%
+the data from F we Fetch and because
+this<00:03:16.120><c> is</c><00:03:16.239><c> a</c><00:03:16.400><c> read</c><00:03:16.959><c> we</c><00:03:17.159><c> get</c><00:03:17.400><c> a</c><00:03:17.560><c> zero</c><00:03:17.920><c> here</c><00:03:18.280><c> and</c><00:03:18.440><c> so</c>
+
+00:03:18.630 --> 00:03:18.640 align:start position:0%
+this is a read we get a zero here and so
+ 
+
+00:03:18.640 --> 00:03:21.120 align:start position:0%
+this is a read we get a zero here and so
+on
+

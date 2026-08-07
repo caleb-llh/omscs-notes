@@ -1,0 +1,296 @@
+1
+00:00:00,480 --> 00:00:02,960
+ If you have a list that you want to shrink in parallel,
+
+2
+00:00:02,960 --> 00:00:06,600
+ a really handy trick is to use something called an independent set.
+
+3
+00:00:06,600 --> 00:00:08,880
+ Consider a linked list like this one.
+
+4
+00:00:08,880 --> 00:00:13,260
+ For each node i, let N[i] = i's successor.
+
+5
+00:00:13,260 --> 00:00:15,910
+ For this example here is what N would look like.
+
+6
+00:00:15,910 --> 00:00:18,110
+ Okay. So what's an independent set?
+
+7
+00:00:18,110 --> 00:00:21,700
+ Given a list, an independent set is a subset of the vertices.
+
+8
+00:00:21,700 --> 00:00:24,240
+ Such that any vertex that's in the set does not
+
+9
+00:00:24,240 --> 00:00:27,090
+ also have it's successor in the set.
+
+10
+00:00:27,090 --> 00:00:29,700
+ For example, here's an independent set.
+
+11
+00:00:29,700 --> 00:00:32,674
+ Notice how none of the successors of 3, 7 or
+
+12
+00:00:32,674 --> 00:00:35,360
+ 8 have neighbors that are also in the set.
+
+13
+00:00:35,360 --> 00:00:36,930
+ What about this example?
+
+14
+00:00:36,930 --> 00:00:39,430
+ This set corresponds to these vertices.
+
+15
+00:00:39,430 --> 00:00:44,540
+ Notice that 8 is a successor of 6, so this is set is not an independent set.
+
+16
+00:00:44,540 --> 00:00:48,140
+ Now computing an independent set sequentially is super easy.
+
+17
+00:00:48,140 --> 00:00:50,410
+ Start with an empty independent set,
+
+18
+00:00:50,410 --> 00:00:54,690
+ then traverse the list from head to tail, assigning every other node to i.
+
+19
+00:00:54,690 --> 00:00:59,170
+ For instance, you could put the head in i, then skip 2,
+
+20
+00:00:59,170 --> 00:01:03,170
+ instead move to 7 and add it to the independent set.
+
+21
+00:01:03,170 --> 00:01:06,970
+ Then you'd skip 1, and so on and so forth.
+
+22
+00:01:06,970 --> 00:01:09,260
+ Okay, that was easy, so what's the big deal?
+
+23
+00:01:09,260 --> 00:01:12,770
+ Computing an independent set in parallel is a little bit trickier.
+
+24
+00:01:12,770 --> 00:01:13,860
+ Let's see why.
+
+25
+00:01:13,860 --> 00:01:15,530
+ Consider a list.
+
+26
+00:01:15,530 --> 00:01:18,420
+ Let's take any vertex in that list, let's say i.
+
+27
+00:01:18,420 --> 00:01:22,680
+ Now suppose you're processing all the vertices inside a parallel for loop.
+
+28
+00:01:22,680 --> 00:01:24,590
+ So how does any vertex know whether or
+
+29
+00:01:24,590 --> 00:01:27,420
+ not it should go into the independent set?
+
+30
+00:01:27,420 --> 00:01:30,770
+ This problem is sometimes referred to as the problem of symmetry.
+
+31
+00:01:30,770 --> 00:01:33,340
+ Basically all nodes look the same.
+
+32
+00:01:33,340 --> 00:01:35,590
+ Now what you need is a scheme.
+
+33
+00:01:35,590 --> 00:01:38,240
+ A scheme to break the symmetry.
+
+34
+00:01:38,240 --> 00:01:38,950
+ Ooh, a scheme.
+
+35
+00:01:38,950 --> 00:01:41,170
+ How delightfully sinister.
+
+36
+00:01:41,170 --> 00:01:44,637
+ A scheme. Ooh a scheme.
+
+37
+00:01:44,637 --> 00:01:45,589
+ Evil.
+
+38
+00:01:45,589 --> 00:01:48,342
+ Evil.
+
+39
+00:01:48,342 --> 00:01:51,350
+ Here is one way to do it which is based on a gamble.
+
+40
+00:01:51,350 --> 00:01:54,760
+ At every node in parallel, flip an unbiased coin.
+
+41
+00:01:54,760 --> 00:01:57,427
+ Each node will get a head with probability one-half and
+
+42
+00:01:57,427 --> 00:01:58,940
+ a tail otherwise.
+
+43
+00:01:58,940 --> 00:02:02,880
+ Let's adopt the convention that any node with a heads
+
+44
+00:02:02,880 --> 00:02:05,650
+ is a candidate to be placed in the independent set.
+
+45
+00:02:05,650 --> 00:02:08,860
+ Any tail will be left out of the independent set.
+
+46
+00:02:08,860 --> 00:02:11,450
+ Now this scheme has a slight snag.
+
+47
+00:02:11,450 --> 00:02:16,060
+ It's possible that both a given node and its neighbor are both heads.
+
+48
+00:02:16,060 --> 00:02:19,470
+ Suppose a node has a head and sees that its neighbor has a head.
+
+49
+00:02:19,470 --> 00:02:23,980
+ Then what the node will do is change its head into a tail.
+
+50
+00:02:23,980 --> 00:02:29,040
+ So with this tweak, you can now see that any head is adjacent only to a tail.
+
+51
+00:02:29,040 --> 00:02:31,850
+ Therefore, if you now take all the vertices with heads,
+
+52
+00:02:31,850 --> 00:02:34,250
+ that will be a valid independent set.
+
+53
+00:02:34,250 --> 00:02:35,470
+ Woot.
+
+54
+00:02:35,470 --> 00:02:40,110
+ So to summarize, here is the randomized parallel independent set scheme.
+
+55
+00:02:40,110 --> 00:02:43,550
+ You're given a set of neighbors, and you want to produce an independent set.
+
+56
+00:02:43,550 --> 00:02:45,850
+ And of course you want to do this in parallel, so
+
+57
+00:02:45,850 --> 00:02:47,900
+ you need some space for coins.
+
+58
+00:02:47,900 --> 00:02:50,330
+ Now, it will also be helpful to have a copy.
+
+59
+00:02:50,330 --> 00:02:52,980
+ You'll see why, but basically you need to change some coins and
+
+60
+00:02:52,980 --> 00:02:55,260
+ you want to do that in parallel safely.
+
+61
+00:02:55,260 --> 00:03:00,590
+ First take each vertex in parallel, then flip a coin at each vertex.
+
+62
+00:03:00,590 --> 00:03:02,620
+ You'll get either a head or a tail.
+
+63
+00:03:02,620 --> 00:03:05,000
+ And stash a copy for later use.
+
+64
+00:03:05,000 --> 00:03:05,560
+ That's step one.
+
+65
+00:03:05,560 --> 00:03:07,390
+ Here's step two.
+
+66
+00:03:07,390 --> 00:03:10,170
+ Again visit each vertex in parallel.
+
+67
+00:03:10,170 --> 00:03:14,240
+ At each vertex, check whether you're in a double heads situation.
+
+68
+00:03:14,240 --> 00:03:17,060
+ If so, replace a head with a tail.
+
+69
+00:03:17,060 --> 00:03:20,760
+ The last step is just to collect the list of vertices that have heads.
+
+70
+00:03:20,760 --> 00:03:23,650
+ You'll recall that you can use a gather If to do that.
+
+71
+00:03:23,650 --> 00:03:24,750
+ That's it.
+
+72
+00:03:24,750 --> 00:03:26,980
+ In just a moment you'll analyze this scheme.
+
+73
+00:03:26,980 --> 00:03:29,090
+ But first, take a look at a pseudocode and
+
+74
+00:03:29,090 --> 00:03:29,090
+ just make sure you understand what it's doing.
+

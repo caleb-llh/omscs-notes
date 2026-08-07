@@ -1,0 +1,16 @@
+1
+00:00:00,360 --> 00:00:04,730
+ Let's say you want to implement an all gather, and let's say you can only do so
+
+2
+00:00:04,730 --> 00:00:08,940
+ using these four primitives or reshapes.
+
+3
+00:00:08,940 --> 00:00:12,920
+ What I want you to do is give me a pseudo code algorithm for an all gather.
+
+4
+00:00:12,920 --> 00:00:12,920
+ Type your answer here.
+

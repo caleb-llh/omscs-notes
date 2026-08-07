@@ -1,0 +1,320 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.070 align:start position:0%
+ 
+let's<00:00:00.480><c> look</c><00:00:00.640><c> at</c><00:00:00.760><c> the</c><00:00:00.960><c> solution</c><00:00:01.599><c> to</c><00:00:01.760><c> our</c>
+
+00:00:02.070 --> 00:00:02.080 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:02.080 --> 00:00:04.230 align:start position:0%
+let's look at the solution to our
+virtual<00:00:02.480><c> index</c><00:00:02.840><c> physically</c><00:00:03.399><c> tag</c><00:00:03.800><c> cache</c>
+
+00:00:04.230 --> 00:00:04.240 align:start position:0%
+virtual index physically tag cache
+ 
+
+00:00:04.240 --> 00:00:06.470 align:start position:0%
+virtual index physically tag cache
+aliasing<00:00:04.839><c> avoidance</c><00:00:05.319><c> quiz</c><00:00:05.920><c> we</c><00:00:06.040><c> want</c><00:00:06.240><c> no</c>
+
+00:00:06.470 --> 00:00:06.480 align:start position:0%
+aliasing avoidance quiz we want no
+ 
+
+00:00:06.480 --> 00:00:09.750 align:start position:0%
+aliasing avoidance quiz we want no
+aliasing<00:00:07.480><c> which</c><00:00:07.640><c> means</c><00:00:08.400><c> the</c><00:00:08.559><c> index</c><00:00:09.000><c> bits</c><00:00:09.599><c> have</c>
+
+00:00:09.750 --> 00:00:09.760 align:start position:0%
+aliasing which means the index bits have
+ 
+
+00:00:09.760 --> 00:00:13.789 align:start position:0%
+aliasing which means the index bits have
+to<00:00:10.000><c> come</c><00:00:10.800><c> from</c><00:00:11.040><c> the</c><00:00:11.280><c> page</c><00:00:11.719><c> offset</c><00:00:12.719><c> the</c><00:00:12.960><c> page</c>
+
+00:00:13.789 --> 00:00:13.799 align:start position:0%
+to come from the page offset the page
+ 
+
+00:00:13.799 --> 00:00:17.029 align:start position:0%
+to come from the page offset the page
+has<00:00:14.000><c> 2</c><00:00:14.240><c> to</c><00:00:14.400><c> the</c><00:00:14.559><c> 13th</c><00:00:15.480><c> bytes</c><00:00:16.359><c> so</c><00:00:16.560><c> the</c><00:00:16.760><c> page</c>
+
+00:00:17.029 --> 00:00:17.039 align:start position:0%
+has 2 to the 13th bytes so the page
+ 
+
+00:00:17.039 --> 00:00:19.910 align:start position:0%
+has 2 to the 13th bytes so the page
+offset<00:00:17.760><c> has</c><00:00:18.000><c> 13</c><00:00:18.439><c> bits</c><00:00:19.279><c> in</c><00:00:19.439><c> the</c><00:00:19.600><c> address</c>
+
+00:00:19.910 --> 00:00:19.920 align:start position:0%
+offset has 13 bits in the address
+ 
+
+00:00:19.920 --> 00:00:22.189 align:start position:0%
+offset has 13 bits in the address
+breakdown<00:00:20.400><c> for</c><00:00:20.640><c> accessing</c><00:00:21.039><c> the</c><00:00:21.240><c> cache</c><00:00:22.039><c> that</c>
+
+00:00:22.189 --> 00:00:22.199 align:start position:0%
+breakdown for accessing the cache that
+ 
+
+00:00:22.199 --> 00:00:24.910 align:start position:0%
+breakdown for accessing the cache that
+means<00:00:22.920><c> that</c><00:00:23.119><c> our</c><00:00:23.320><c> index</c><00:00:23.680><c> and</c><00:00:24.000><c> offset</c><00:00:24.480><c> for</c><00:00:24.680><c> the</c>
+
+00:00:24.910 --> 00:00:24.920 align:start position:0%
+means that our index and offset for the
+ 
+
+00:00:24.920 --> 00:00:29.230 align:start position:0%
+means that our index and offset for the
+cache<00:00:25.519><c> need</c><00:00:25.800><c> to</c><00:00:26.039><c> fit</c><00:00:26.720><c> in</c><00:00:27.039><c> 13</c><00:00:27.560><c> bits</c><00:00:28.279><c> the</c><00:00:28.480><c> 16</c><00:00:28.960><c> byte</c>
+
+00:00:29.230 --> 00:00:29.240 align:start position:0%
+cache need to fit in 13 bits the 16 byte
+ 
+
+00:00:29.240 --> 00:00:32.069 align:start position:0%
+cache need to fit in 13 bits the 16 byte
+block<00:00:29.599><c> size</c><00:00:30.359><c> means</c><00:00:30.759><c> that</c><00:00:30.960><c> the</c><00:00:31.359><c> cache</c><00:00:31.679><c> block</c>
+
+00:00:32.069 --> 00:00:32.079 align:start position:0%
+block size means that the cache block
+ 
+
+00:00:32.079 --> 00:00:35.470 align:start position:0%
+block size means that the cache block
+offset<00:00:33.079><c> is</c><00:00:33.280><c> four</c><00:00:33.680><c> bits</c><00:00:34.600><c> that's</c><00:00:34.840><c> how</c><00:00:34.960><c> many</c><00:00:35.239><c> bits</c>
+
+00:00:35.470 --> 00:00:35.480 align:start position:0%
+offset is four bits that's how many bits
+ 
+
+00:00:35.480 --> 00:00:37.630 align:start position:0%
+offset is four bits that's how many bits
+we<00:00:35.600><c> need</c><00:00:35.840><c> to</c><00:00:36.040><c> tell</c><00:00:36.239><c> us</c><00:00:36.480><c> where</c><00:00:36.680><c> in</c><00:00:36.840><c> the</c><00:00:37.000><c> 16</c><00:00:37.360><c> bytes</c>
+
+00:00:37.630 --> 00:00:37.640 align:start position:0%
+we need to tell us where in the 16 bytes
+ 
+
+00:00:37.640 --> 00:00:40.470 align:start position:0%
+we need to tell us where in the 16 bytes
+we<00:00:37.760><c> are</c><00:00:38.680><c> and</c><00:00:38.960><c> that</c><00:00:39.120><c> means</c><00:00:39.559><c> that</c><00:00:39.719><c> we</c><00:00:39.879><c> have</c><00:00:40.079><c> nine</c>
+
+00:00:40.470 --> 00:00:40.480 align:start position:0%
+we are and that means that we have nine
+ 
+
+00:00:40.480 --> 00:00:43.389 align:start position:0%
+we are and that means that we have nine
+bits<00:00:40.879><c> for</c><00:00:41.120><c> the</c><00:00:41.320><c> index</c><00:00:42.280><c> we</c><00:00:42.399><c> can</c><00:00:42.559><c> use</c><00:00:42.800><c> fewer</c><00:00:43.239><c> but</c>
+
+00:00:43.389 --> 00:00:43.399 align:start position:0%
+bits for the index we can use fewer but
+ 
+
+00:00:43.399 --> 00:00:45.389 align:start position:0%
+bits for the index we can use fewer but
+that<00:00:43.520><c> would</c><00:00:43.719><c> make</c><00:00:43.879><c> the</c><00:00:44.039><c> cache</c><00:00:44.280><c> even</c><00:00:44.520><c> smaller</c>
+
+00:00:45.389 --> 00:00:45.399 align:start position:0%
+that would make the cache even smaller
+ 
+
+00:00:45.399 --> 00:00:47.630 align:start position:0%
+that would make the cache even smaller
+we<00:00:45.520><c> cannot</c><00:00:45.800><c> use</c><00:00:46.120><c> more</c><00:00:46.600><c> because</c><00:00:47.199><c> then</c><00:00:47.360><c> we</c><00:00:47.480><c> would</c>
+
+00:00:47.630 --> 00:00:47.640 align:start position:0%
+we cannot use more because then we would
+ 
+
+00:00:47.640 --> 00:00:49.910 align:start position:0%
+we cannot use more because then we would
+get<00:00:47.840><c> aliasing</c><00:00:48.520><c> so</c><00:00:48.719><c> the</c><00:00:48.840><c> maximum</c><00:00:49.320><c> cach</c><00:00:49.600><c> size</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+get aliasing so the maximum cach size
+ 
+
+00:00:49.920 --> 00:00:53.590 align:start position:0%
+get aliasing so the maximum cach size
+will<00:00:50.079><c> be</c><00:00:50.280><c> when</c><00:00:50.440><c> it</c><00:00:50.640><c> has</c><00:00:51.360><c> 2</c><00:00:51.640><c> to</c><00:00:51.800><c> the</c><00:00:51.920><c> 9th</c><00:00:52.640><c> sets</c><00:00:53.440><c> so</c>
+
+00:00:53.590 --> 00:00:53.600 align:start position:0%
+will be when it has 2 to the 9th sets so
+ 
+
+00:00:53.600 --> 00:00:58.229 align:start position:0%
+will be when it has 2 to the 9th sets so
+we<00:00:53.800><c> have</c><00:00:54.199><c> 2</c><00:00:54.440><c> to</c><00:00:54.559><c> the</c><00:00:54.680><c> 9</c><00:00:55.199><c> sets</c><00:00:56.199><c> time</c><00:00:57.160><c> 2</c><00:00:57.440><c> to</c><00:00:57.640><c> the</c>
+
+00:00:58.229 --> 00:00:58.239 align:start position:0%
+we have 2 to the 9 sets time 2 to the
+ 
+
+00:00:58.239 --> 00:01:02.869 align:start position:0%
+we have 2 to the 9 sets time 2 to the
+4th<00:00:59.239><c> bytes</c><00:01:00.000><c> in</c><00:01:00.120><c> each</c><00:01:00.359><c> block</c><00:01:01.559><c> times</c><00:01:02.559><c> it's</c><00:01:02.719><c> a</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+4th bytes in each block times it's a
+ 
+
+00:01:02.879 --> 00:01:05.789 align:start position:0%
+4th bytes in each block times it's a
+four-way<00:01:03.359><c> set</c><00:01:03.600><c> associative</c><00:01:04.320><c> cache</c><00:01:05.320><c> so</c><00:01:05.600><c> we</c>
+
+00:01:05.789 --> 00:01:05.799 align:start position:0%
+four-way set associative cache so we
+ 
+
+00:01:05.799 --> 00:01:10.830 align:start position:0%
+four-way set associative cache so we
+have<00:01:06.240><c> 2</c><00:01:06.560><c> to</c><00:01:06.720><c> the</c><00:01:06.920><c> 2</c><00:01:08.040><c> four</c><00:01:09.040><c> blocks</c><00:01:09.680><c> in</c><00:01:09.840><c> a</c><00:01:10.080><c> set</c><00:01:10.640><c> so</c>
+
+00:01:10.830 --> 00:01:10.840 align:start position:0%
+have 2 to the 2 four blocks in a set so
+ 
+
+00:01:10.840 --> 00:01:13.469 align:start position:0%
+have 2 to the 2 four blocks in a set so
+this<00:01:10.920><c> is</c><00:01:11.080><c> basically</c><00:01:12.000><c> bytes</c><00:01:12.360><c> per</c><00:01:12.560><c> block</c><00:01:13.040><c> blocks</c>
+
+00:01:13.469 --> 00:01:13.479 align:start position:0%
+this is basically bytes per block blocks
+ 
+
+00:01:13.479 --> 00:01:16.469 align:start position:0%
+this is basically bytes per block blocks
+per<00:01:13.680><c> set</c><00:01:14.360><c> how</c><00:01:14.520><c> many</c><00:01:14.799><c> sets</c><00:01:15.600><c> and</c><00:01:15.799><c> that</c><00:01:16.080><c> amounts</c>
+
+00:01:16.469 --> 00:01:16.479 align:start position:0%
+per set how many sets and that amounts
+ 
+
+00:01:16.479 --> 00:01:20.149 align:start position:0%
+per set how many sets and that amounts
+to<00:01:17.040><c> 2</c><00:01:17.320><c> to</c><00:01:17.520><c> the</c><00:01:17.680><c> 15th</c><00:01:18.360><c> bytes</c><00:01:18.880><c> in</c><00:01:19.040><c> the</c><00:01:19.280><c> cache</c><00:01:19.920><c> so</c>
+
+00:01:20.149 --> 00:01:20.159 align:start position:0%
+to 2 to the 15th bytes in the cache so
+ 
+
+00:01:20.159 --> 00:01:22.990 align:start position:0%
+to 2 to the 15th bytes in the cache so
+the<00:01:20.320><c> answer</c><00:01:20.759><c> here</c><00:01:21.240><c> is</c><00:01:21.439><c> 32</c><00:01:22.040><c> kilobytes</c><00:01:22.720><c> which</c><00:01:22.840><c> is</c>
+
+00:01:22.990 --> 00:01:23.000 align:start position:0%
+the answer here is 32 kilobytes which is
+ 
+
+00:01:23.000 --> 00:01:25.749 align:start position:0%
+the answer here is 32 kilobytes which is
+2<00:01:23.240><c> to</c><00:01:23.360><c> the</c><00:01:23.520><c> 15th</c><00:01:23.960><c> bytes</c><00:01:24.520><c> so</c><00:01:24.720><c> we</c><00:01:24.920><c> cannot</c><00:01:25.400><c> have</c><00:01:25.520><c> a</c>
+
+00:01:25.749 --> 00:01:25.759 align:start position:0%
+2 to the 15th bytes so we cannot have a
+ 
+
+00:01:25.759 --> 00:01:29.230 align:start position:0%
+2 to the 15th bytes so we cannot have a
+cache<00:01:26.360><c> that</c><00:01:26.520><c> is</c><00:01:26.720><c> larger</c><00:01:27.119><c> than</c><00:01:27.320><c> 32</c><00:01:28.040><c> kiloby</c><00:01:29.040><c> and</c>
+
+00:01:29.230 --> 00:01:29.240 align:start position:0%
+cache that is larger than 32 kiloby and
+ 
+
+00:01:29.240 --> 00:01:31.350 align:start position:0%
+cache that is larger than 32 kiloby and
+yet<00:01:29.360><c> it</c><00:01:29.520><c> avoids</c><00:01:30.000><c> aling</c><00:01:30.920><c> with</c><00:01:31.119><c> these</c>
+
+00:01:31.350 --> 00:01:31.360 align:start position:0%
+yet it avoids aling with these
+ 
+
+00:01:31.360 --> 00:01:34.469 align:start position:0%
+yet it avoids aling with these
+parameters<00:01:32.320><c> know</c><00:01:32.640><c> that</c><00:01:32.880><c> really</c><00:01:33.320><c> these</c><00:01:33.600><c> two</c>
+
+00:01:34.469 --> 00:01:34.479 align:start position:0%
+parameters know that really these two
+ 
+
+00:01:34.479 --> 00:01:37.310 align:start position:0%
+parameters know that really these two
+have<00:01:34.640><c> to</c><00:01:34.799><c> be</c><00:01:35.000><c> equal</c><00:01:35.799><c> to</c><00:01:36.000><c> the</c><00:01:36.200><c> page</c><00:01:36.560><c> size</c>
+
+00:01:37.310 --> 00:01:37.320 align:start position:0%
+have to be equal to the page size
+ 
+
+00:01:37.320 --> 00:01:40.030 align:start position:0%
+have to be equal to the page size
+because<00:01:37.920><c> two</c><00:01:38.119><c> to</c><00:01:38.360><c> this</c><00:01:38.520><c> number</c><00:01:38.720><c> of</c><00:01:38.880><c> bits</c><00:01:39.720><c> time</c>
+
+00:01:40.030 --> 00:01:40.040 align:start position:0%
+because two to this number of bits time
+ 
+
+00:01:40.040 --> 00:01:43.310 align:start position:0%
+because two to this number of bits time
+2<00:01:40.280><c> to</c><00:01:40.520><c> this</c><00:01:40.680><c> number</c><00:01:40.920><c> of</c><00:01:41.560><c> bits</c><00:01:42.560><c> has</c><00:01:42.720><c> to</c><00:01:42.880><c> be</c><00:01:43.040><c> equal</c>
+
+00:01:43.310 --> 00:01:43.320 align:start position:0%
+2 to this number of bits has to be equal
+ 
+
+00:01:43.320 --> 00:01:45.510 align:start position:0%
+2 to this number of bits has to be equal
+to<00:01:43.520><c> two</c><00:01:43.759><c> to</c><00:01:43.960><c> this</c><00:01:44.119><c> number</c><00:01:44.360><c> of</c><00:01:44.520><c> bits</c><00:01:45.079><c> so</c><00:01:45.280><c> really</c>
+
+00:01:45.510 --> 00:01:45.520 align:start position:0%
+to two to this number of bits so really
+ 
+
+00:01:45.520 --> 00:01:47.109 align:start position:0%
+to two to this number of bits so really
+the<00:01:45.640><c> maximum</c><00:01:46.040><c> size</c><00:01:46.240><c> of</c><00:01:46.320><c> the</c><00:01:46.479><c> cache</c><00:01:46.799><c> here</c><00:01:46.960><c> is</c>
+
+00:01:47.109 --> 00:01:47.119 align:start position:0%
+the maximum size of the cache here is
+ 
+
+00:01:47.119 --> 00:01:50.270 align:start position:0%
+the maximum size of the cache here is
+the<00:01:47.360><c> page</c><00:01:47.759><c> size</c><00:01:48.399><c> times</c><00:01:48.759><c> the</c><00:01:49.280><c> associativity</c>
+
+00:01:50.270 --> 00:01:50.280 align:start position:0%
+the page size times the associativity
+ 
+
+00:01:50.280 --> 00:01:52.550 align:start position:0%
+the page size times the associativity
+and<00:01:50.439><c> the</c><00:01:50.560><c> only</c><00:01:50.880><c> way</c><00:01:51.119><c> to</c><00:01:51.320><c> avoid</c><00:01:51.600><c> aliasing</c><00:01:52.240><c> in</c><00:01:52.360><c> a</c>
+
+00:01:52.550 --> 00:01:52.560 align:start position:0%
+and the only way to avoid aliasing in a
+ 
+
+00:01:52.560 --> 00:01:54.830 align:start position:0%
+and the only way to avoid aliasing in a
+cache<00:01:53.119><c> while</c><00:01:53.360><c> making</c><00:01:53.640><c> it</c><00:01:53.880><c> larger</c><00:01:54.520><c> is</c><00:01:54.680><c> to</c>
+
+00:01:54.830 --> 00:01:54.840 align:start position:0%
+cache while making it larger is to
+ 
+
+00:01:54.840 --> 00:01:58.200 align:start position:0%
+cache while making it larger is to
+increase<00:01:55.200><c> associativity</c>
+

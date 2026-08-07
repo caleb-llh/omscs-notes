@@ -1,0 +1,20 @@
+1
+00:00:00,290 --> 00:00:04,340
+ Let's apply the work and span concepts now in a more abstract setting.
+
+2
+00:00:04,340 --> 00:00:06,990
+ So, consider the two reduction DAGs.
+
+3
+00:00:06,990 --> 00:00:10,390
+ My question is, what is the span of each DAG?
+
+4
+00:00:10,390 --> 00:00:12,840
+ We'll do this again as multiple choice.
+
+5
+00:00:12,840 --> 00:00:12,840
+ For each DAG, choose the best option.
+

@@ -1,0 +1,84 @@
+1
+00:00:00,008 --> 00:00:04,050
+ With the Alpha-Beta Model, an algorithm has three costs.
+
+2
+00:00:04,050 --> 00:00:06,030
+ The message cost defines the first two.
+
+3
+00:00:06,030 --> 00:00:11,300
+ It's essentially the latency, alpha, and the inverse bandwidth, beta.
+
+4
+00:00:11,300 --> 00:00:12,740
+ Now our algorithm will, of course,
+
+5
+00:00:12,740 --> 00:00:17,440
+ do other kinds of basic operations like comparisons and arithmetic.
+
+6
+00:00:17,440 --> 00:00:21,360
+ Let's denote the cost per compute operation by tau.
+
+7
+00:00:21,360 --> 00:00:24,560
+ Now in practice, it turns out the following is true.
+
+8
+00:00:24,560 --> 00:00:30,170
+ Tau is typically much less than beta, which is in turn much less than alpha.
+
+9
+00:00:30,170 --> 00:00:31,050
+ To give you an idea,
+
+10
+00:00:31,050 --> 00:00:34,150
+ you should be thinking of something like 10 to the minus 12 seconds,
+
+11
+00:00:34,150 --> 00:00:38,500
+ versus 10 to the minus 9 seconds, versus 10 to the minus 6 seconds.
+
+12
+00:00:38,500 --> 00:00:41,760
+ So something like three orders of magnitude in between.
+
+13
+00:00:41,760 --> 00:00:43,740
+ Let's suppose you buy this.
+
+14
+00:00:43,740 --> 00:00:45,490
+ Here's my question.
+
+15
+00:00:45,490 --> 00:00:46,920
+ Which of the following claims is true?
+
+16
+00:00:46,920 --> 00:00:49,870
+ And I want you to check all that apply.
+
+17
+00:00:49,870 --> 00:00:52,520
+ Is it true that computation is less than communication, so
+
+18
+00:00:52,520 --> 00:00:54,688
+ you should avoid communication?
+
+19
+00:00:54,688 --> 00:00:57,660
+ Or is it true that it's faster to send a few large messages,
+
+20
+00:00:57,660 --> 00:01:00,080
+ rather than many small messages?
+
+21
+00:01:00,080 --> 00:01:00,080
+ Or is neither of these statements true?
+

@@ -1,0 +1,56 @@
+1
+00:00:00,460 --> 00:00:03,620
+ Let's do a little quiz where you calculate the communication time of
+
+2
+00:00:03,620 --> 00:00:05,420
+ the summa algorithm.
+
+3
+00:00:05,420 --> 00:00:08,860
+ You argued previously that the running time to do all the flops
+
+4
+00:00:08,860 --> 00:00:10,850
+ is 2n cubed over P.
+
+5
+00:00:10,850 --> 00:00:12,570
+ But what about communication?
+
+6
+00:00:12,570 --> 00:00:14,310
+ Here's my question.
+
+7
+00:00:14,310 --> 00:00:18,370
+ Which of the following estimates are plausible estimates of the overall
+
+8
+00:00:18,370 --> 00:00:20,420
+ communication running time?
+
+9
+00:00:20,420 --> 00:00:23,950
+ For the alpha term, I want you to choose one of these.
+
+10
+00:00:23,950 --> 00:00:28,060
+ For the beta term, I want you to choose the matching one of these.
+
+11
+00:00:28,060 --> 00:00:31,710
+ Now, I put a big O in front of this so that you can ignore constants and
+
+12
+00:00:31,710 --> 00:00:34,170
+ just focus on asymptotics.
+
+13
+00:00:34,170 --> 00:00:39,310
+ Now, there may be more than one correct pairing, so the key is, based on your
+
+14
+00:00:39,310 --> 00:00:39,310
+ choice for one of them choose something that's plausible for the other one.
+

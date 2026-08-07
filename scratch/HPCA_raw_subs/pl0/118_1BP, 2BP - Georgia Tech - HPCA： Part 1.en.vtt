@@ -1,0 +1,568 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.910 align:start position:0%
+ 
+so<00:00:00.240><c> we</c><00:00:00.359><c> have</c><00:00:00.510><c> seen</c><00:00:00.750><c> that</c><00:00:00.989><c> moving</c><00:00:01.319><c> from</c><00:00:01.560><c> one</c><00:00:01.740><c> bit</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+so we have seen that moving from one bit
+ 
+
+00:00:01.920 --> 00:00:03.770 align:start position:0%
+so we have seen that moving from one bit
+predictor<00:00:02.070><c> to</c><00:00:02.550><c> two</c><00:00:02.760><c> bit</c><00:00:02.939><c> predictor</c><00:00:02.970><c> improves</c>
+
+00:00:03.770 --> 00:00:03.780 align:start position:0%
+predictor to two bit predictor improves
+ 
+
+00:00:03.780 --> 00:00:06.920 align:start position:0%
+predictor to two bit predictor improves
+things<00:00:04.580><c> primarily</c><00:00:05.580><c> because</c><00:00:05.790><c> the</c><00:00:06.420><c> one-off</c>
+
+00:00:06.920 --> 00:00:06.930 align:start position:0%
+things primarily because the one-off
+ 
+
+00:00:06.930 --> 00:00:09.379 align:start position:0%
+things primarily because the one-off
+occurrences<00:00:07.890><c> of</c><00:00:07.919><c> the</c><00:00:08.340><c> other</c><00:00:08.550><c> behavior</c><00:00:09.179><c> are</c>
+
+00:00:09.379 --> 00:00:09.389 align:start position:0%
+occurrences of the other behavior are
+ 
+
+00:00:09.389 --> 00:00:11.390 align:start position:0%
+occurrences of the other behavior are
+not<00:00:09.450><c> going</c><00:00:09.929><c> to</c><00:00:10.080><c> change</c><00:00:10.290><c> our</c><00:00:10.679><c> complete</c>
+
+00:00:11.390 --> 00:00:11.400 align:start position:0%
+not going to change our complete
+ 
+
+00:00:11.400 --> 00:00:14.209 align:start position:0%
+not going to change our complete
+decision<00:00:11.759><c> so</c><00:00:12.450><c> now</c><00:00:12.599><c> the</c><00:00:12.660><c> question</c><00:00:12.900><c> is</c><00:00:13.230><c> if</c><00:00:13.440><c> the</c>
+
+00:00:14.209 --> 00:00:14.219 align:start position:0%
+decision so now the question is if the
+ 
+
+00:00:14.219 --> 00:00:16.129 align:start position:0%
+decision so now the question is if the
+increase<00:00:14.759><c> in</c><00:00:14.940><c> the</c><00:00:15.030><c> predictor</c><00:00:15.360><c> sighs</c><00:00:15.660><c> this</c><00:00:15.929><c> way</c>
+
+00:00:16.129 --> 00:00:16.139 align:start position:0%
+increase in the predictor sighs this way
+ 
+
+00:00:16.139 --> 00:00:18.529 align:start position:0%
+increase in the predictor sighs this way
+worked<00:00:16.440><c> why</c><00:00:17.400><c> not</c><00:00:17.670><c> do</c><00:00:17.850><c> the</c><00:00:18.119><c> three</c><00:00:18.359><c> bit</c>
+
+00:00:18.529 --> 00:00:18.539 align:start position:0%
+worked why not do the three bit
+ 
+
+00:00:18.539 --> 00:00:21.019 align:start position:0%
+worked why not do the three bit
+predictor<00:00:19.020><c> or</c><00:00:19.050><c> a</c><00:00:19.230><c> four</c><00:00:19.560><c> bit</c><00:00:19.740><c> predictor</c><00:00:20.250><c> the</c>
+
+00:00:21.019 --> 00:00:21.029 align:start position:0%
+predictor or a four bit predictor the
+ 
+
+00:00:21.029 --> 00:00:22.820 align:start position:0%
+predictor or a four bit predictor the
+bad<00:00:21.270><c> part</c><00:00:21.630><c> of</c><00:00:21.810><c> using</c><00:00:22.199><c> more</c><00:00:22.380><c> bits</c><00:00:22.619><c> per</c>
+
+00:00:22.820 --> 00:00:22.830 align:start position:0%
+bad part of using more bits per
+ 
+
+00:00:22.830 --> 00:00:24.890 align:start position:0%
+bad part of using more bits per
+predictor<00:00:23.369><c> is</c><00:00:23.580><c> that</c><00:00:23.820><c> the</c><00:00:23.939><c> cost</c><00:00:24.210><c> goes</c><00:00:24.480><c> up</c><00:00:24.720><c> in</c>
+
+00:00:24.890 --> 00:00:24.900 align:start position:0%
+predictor is that the cost goes up in
+ 
+
+00:00:24.900 --> 00:00:27.349 align:start position:0%
+predictor is that the cost goes up in
+proportion<00:00:25.470><c> to</c><00:00:25.590><c> how</c><00:00:25.740><c> many</c><00:00:25.949><c> bits</c><00:00:26.220><c> we</c><00:00:26.369><c> need</c><00:00:26.400><c> we</c>
+
+00:00:27.349 --> 00:00:27.359 align:start position:0%
+proportion to how many bits we need we
+ 
+
+00:00:27.359 --> 00:00:28.700 align:start position:0%
+proportion to how many bits we need we
+still<00:00:27.599><c> need</c><00:00:27.720><c> to</c><00:00:27.810><c> have</c><00:00:27.960><c> the</c><00:00:28.109><c> same</c><00:00:28.320><c> number</c><00:00:28.680><c> of</c>
+
+00:00:28.700 --> 00:00:28.710 align:start position:0%
+still need to have the same number of
+ 
+
+00:00:28.710 --> 00:00:31.099 align:start position:0%
+still need to have the same number of
+predictor<00:00:29.429><c> entries</c><00:00:29.880><c> in</c><00:00:30.119><c> order</c><00:00:30.449><c> so</c><00:00:30.660><c> that</c><00:00:30.689><c> each</c>
+
+00:00:31.099 --> 00:00:31.109 align:start position:0%
+predictor entries in order so that each
+ 
+
+00:00:31.109 --> 00:00:33.680 align:start position:0%
+predictor entries in order so that each
+branch<00:00:31.590><c> has</c><00:00:31.800><c> its</c><00:00:31.949><c> own</c><00:00:32.309><c> predictor</c><00:00:33.120><c> entry</c><00:00:33.510><c> and</c>
+
+00:00:33.680 --> 00:00:33.690 align:start position:0%
+branch has its own predictor entry and
+ 
+
+00:00:33.690 --> 00:00:35.120 align:start position:0%
+branch has its own predictor entry and
+not<00:00:33.809><c> share</c><00:00:34.140><c> it</c><00:00:34.290><c> with</c><00:00:34.469><c> another</c><00:00:34.739><c> branch</c><00:00:35.010><c> it</c>
+
+00:00:35.120 --> 00:00:35.130 align:start position:0%
+not share it with another branch it
+ 
+
+00:00:35.130 --> 00:00:37.010 align:start position:0%
+not share it with another branch it
+behaves<00:00:35.430><c> differently</c><00:00:35.540><c> so</c><00:00:36.540><c> for</c><00:00:36.719><c> the</c><00:00:36.809><c> same</c>
+
+00:00:37.010 --> 00:00:37.020 align:start position:0%
+behaves differently so for the same
+ 
+
+00:00:37.020 --> 00:00:39.260 align:start position:0%
+behaves differently so for the same
+number<00:00:37.350><c> of</c><00:00:37.410><c> entries</c><00:00:37.890><c> we</c><00:00:38.190><c> will</c><00:00:38.340><c> have</c><00:00:38.579><c> this</c>
+
+00:00:39.260 --> 00:00:39.270 align:start position:0%
+number of entries we will have this
+ 
+
+00:00:39.270 --> 00:00:41.389 align:start position:0%
+number of entries we will have this
+doubles<00:00:39.719><c> the</c><00:00:39.840><c> cost</c><00:00:39.870><c> this</c><00:00:40.500><c> is</c><00:00:40.649><c> gonna</c><00:00:40.860><c> add</c>
+
+00:00:41.389 --> 00:00:41.399 align:start position:0%
+doubles the cost this is gonna add
+ 
+
+00:00:41.399 --> 00:00:44.119 align:start position:0%
+doubles the cost this is gonna add
+another<00:00:41.790><c> 50%</c><00:00:42.690><c> to</c><00:00:42.780><c> the</c><00:00:42.899><c> cost</c><00:00:43.170><c> and</c><00:00:43.410><c> so</c><00:00:43.590><c> on</c><00:00:43.770><c> so</c><00:00:44.010><c> we</c>
+
+00:00:44.119 --> 00:00:44.129 align:start position:0%
+another 50% to the cost and so on so we
+ 
+
+00:00:44.129 --> 00:00:45.889 align:start position:0%
+another 50% to the cost and so on so we
+are<00:00:44.160><c> increasing</c><00:00:44.520><c> the</c><00:00:44.820><c> cost</c><00:00:45.090><c> it</c><00:00:45.420><c> might</c><00:00:45.719><c> be</c>
+
+00:00:45.889 --> 00:00:45.899 align:start position:0%
+are increasing the cost it might be
+ 
+
+00:00:45.899 --> 00:00:48.049 align:start position:0%
+are increasing the cost it might be
+worth<00:00:46.079><c> it</c><00:00:46.320><c> if</c><00:00:46.500><c> the</c><00:00:46.649><c> prediction</c><00:00:47.399><c> accuracy</c><00:00:47.760><c> is</c>
+
+00:00:48.049 --> 00:00:48.059 align:start position:0%
+worth it if the prediction accuracy is
+ 
+
+00:00:48.059 --> 00:00:50.180 align:start position:0%
+worth it if the prediction accuracy is
+improving<00:00:48.390><c> so</c><00:00:48.719><c> the</c><00:00:49.230><c> good</c><00:00:49.440><c> side</c><00:00:49.710><c> is</c><00:00:49.950><c> that</c>
+
+00:00:50.180 --> 00:00:50.190 align:start position:0%
+improving so the good side is that
+ 
+
+00:00:50.190 --> 00:00:52.010 align:start position:0%
+improving so the good side is that
+sometimes<00:00:50.820><c> the</c><00:00:51.000><c> branch</c><00:00:51.210><c> prediction</c><00:00:51.420><c> accuracy</c>
+
+00:00:52.010 --> 00:00:52.020 align:start position:0%
+sometimes the branch prediction accuracy
+ 
+
+00:00:52.020 --> 00:00:54.200 align:start position:0%
+sometimes the branch prediction accuracy
+does<00:00:52.379><c> improve</c><00:00:52.890><c> as</c><00:00:53.100><c> you</c><00:00:53.129><c> go</c><00:00:53.370><c> to</c><00:00:53.430><c> three</c><00:00:53.789><c> bits</c><00:00:54.030><c> or</c>
+
+00:00:54.200 --> 00:00:54.210 align:start position:0%
+does improve as you go to three bits or
+ 
+
+00:00:54.210 --> 00:00:57.770 align:start position:0%
+does improve as you go to three bits or
+four<00:00:54.449><c> bits</c><00:00:54.690><c> when</c><00:00:55.440><c> well</c><00:00:56.250><c> adding</c><00:00:57.120><c> three</c><00:00:57.360><c> bits</c><00:00:57.570><c> or</c>
+
+00:00:57.770 --> 00:00:57.780 align:start position:0%
+four bits when well adding three bits or
+ 
+
+00:00:57.780 --> 00:00:59.389 align:start position:0%
+four bits when well adding three bits or
+four<00:00:58.050><c> bits</c><00:00:58.289><c> is</c><00:00:58.680><c> gonna</c><00:00:59.039><c> increase</c><00:00:59.280><c> the</c>
+
+00:00:59.389 --> 00:00:59.399 align:start position:0%
+four bits is gonna increase the
+ 
+
+00:00:59.399 --> 00:01:02.060 align:start position:0%
+four bits is gonna increase the
+hysteresis<00:00:59.940><c> so</c><00:01:00.329><c> for</c><00:01:00.570><c> a</c><00:01:00.780><c> longer</c><00:01:01.559><c> time</c>
+
+00:01:02.060 --> 00:01:02.070 align:start position:0%
+hysteresis so for a longer time
+ 
+
+00:01:02.070 --> 00:01:05.450 align:start position:0%
+hysteresis so for a longer time
+we<00:01:02.219><c> will</c><00:01:02.370><c> keep</c><00:01:02.820><c> guessing</c><00:01:03.439><c> the</c><00:01:04.439><c> old</c><00:01:04.680><c> way</c><00:01:04.920><c> even</c>
+
+00:01:05.450 --> 00:01:05.460 align:start position:0%
+we will keep guessing the old way even
+ 
+
+00:01:05.460 --> 00:01:07.219 align:start position:0%
+we will keep guessing the old way even
+though<00:01:05.640><c> decisions</c><00:01:06.210><c> are</c><00:01:06.450><c> going</c><00:01:06.840><c> the</c><00:01:06.960><c> other</c><00:01:07.020><c> way</c>
+
+00:01:07.219 --> 00:01:07.229 align:start position:0%
+though decisions are going the other way
+ 
+
+00:01:07.229 --> 00:01:09.590 align:start position:0%
+though decisions are going the other way
+so<00:01:07.619><c> really</c><00:01:08.520><c> the</c><00:01:08.670><c> only</c><00:01:08.729><c> time</c><00:01:09.030><c> when</c><00:01:09.240><c> this</c><00:01:09.420><c> is</c>
+
+00:01:09.590 --> 00:01:09.600 align:start position:0%
+so really the only time when this is
+ 
+
+00:01:09.600 --> 00:01:12.320 align:start position:0%
+so really the only time when this is
+good<00:01:09.990><c> is</c><00:01:10.590><c> when</c><00:01:10.890><c> anomalous</c><00:01:11.520><c> outcomes</c><00:01:11.939><c> come</c><00:01:12.180><c> in</c>
+
+00:01:12.320 --> 00:01:12.330 align:start position:0%
+good is when anomalous outcomes come in
+ 
+
+00:01:12.330 --> 00:01:14.090 align:start position:0%
+good is when anomalous outcomes come in
+streaks<00:01:12.600><c> if</c><00:01:12.930><c> you</c><00:01:13.200><c> have</c><00:01:13.409><c> a</c><00:01:13.439><c> streak</c><00:01:13.770><c> of</c><00:01:13.890><c> for</c>
+
+00:01:14.090 --> 00:01:14.100 align:start position:0%
+streaks if you have a streak of for
+ 
+
+00:01:14.100 --> 00:01:16.429 align:start position:0%
+streaks if you have a streak of for
+example<00:01:14.520><c> not</c><00:01:15.210><c> taking</c><00:01:15.659><c> all</c><00:01:15.780><c> of</c><00:01:15.810><c> the</c><00:01:16.020><c> time</c><00:01:16.229><c> and</c>
+
+00:01:16.429 --> 00:01:16.439 align:start position:0%
+example not taking all of the time and
+ 
+
+00:01:16.439 --> 00:01:18.499 align:start position:0%
+example not taking all of the time and
+then<00:01:16.560><c> it</c><00:01:17.369><c> happens</c><00:01:17.820><c> that</c><00:01:17.939><c> you</c><00:01:18.030><c> have</c><00:01:18.060><c> taken</c>
+
+00:01:18.499 --> 00:01:18.509 align:start position:0%
+then it happens that you have taken
+ 
+
+00:01:18.509 --> 00:01:21.170 align:start position:0%
+then it happens that you have taken
+taken<00:01:18.689><c> very</c><00:01:19.290><c> often</c><00:01:19.680><c> after</c><00:01:20.610><c> that</c><00:01:20.820><c> and</c><00:01:21.090><c> then</c>
+
+00:01:21.170 --> 00:01:21.180 align:start position:0%
+taken very often after that and then
+ 
+
+00:01:21.180 --> 00:01:23.240 align:start position:0%
+taken very often after that and then
+again<00:01:21.299><c> not</c><00:01:21.630><c> taken</c><00:01:22.020><c> for</c><00:01:22.140><c> awhile</c><00:01:22.290><c> then</c><00:01:22.890><c> actually</c>
+
+00:01:23.240 --> 00:01:23.250 align:start position:0%
+again not taken for awhile then actually
+ 
+
+00:01:23.250 --> 00:01:26.149 align:start position:0%
+again not taken for awhile then actually
+having<00:01:23.490><c> a</c><00:01:23.880><c> tree</c><00:01:24.390><c> bit</c><00:01:24.540><c> predictor</c><00:01:25.080><c> would</c><00:01:25.890><c> solve</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+having a tree bit predictor would solve
+ 
+
+00:01:26.159 --> 00:01:28.910 align:start position:0%
+having a tree bit predictor would solve
+the<00:01:26.310><c> problem</c><00:01:26.340><c> of</c><00:01:26.970><c> being</c><00:01:27.680><c> convinced</c><00:01:28.680><c> the</c><00:01:28.770><c> other</c>
+
+00:01:28.910 --> 00:01:28.920 align:start position:0%
+the problem of being convinced the other
+ 
+
+00:01:28.920 --> 00:01:31.640 align:start position:0%
+the problem of being convinced the other
+way<00:01:29.159><c> when</c><00:01:29.610><c> the</c><00:01:29.729><c> taken</c><00:01:30.060><c> taken</c><00:01:30.210><c> happens</c><00:01:30.810><c> but</c><00:01:31.560><c> the</c>
+
+00:01:31.640 --> 00:01:31.650 align:start position:0%
+way when the taken taken happens but the
+ 
+
+00:01:31.650 --> 00:01:33.859 align:start position:0%
+way when the taken taken happens but the
+real<00:01:31.799><c> question</c><00:01:32.280><c> is</c><00:01:32.430><c> how</c><00:01:32.880><c> often</c><00:01:33.420><c> do</c><00:01:33.540><c> we</c><00:01:33.570><c> really</c>
+
+00:01:33.859 --> 00:01:33.869 align:start position:0%
+real question is how often do we really
+ 
+
+00:01:33.869 --> 00:01:36.319 align:start position:0%
+real question is how often do we really
+have<00:01:34.110><c> in</c><00:01:34.439><c> real</c><00:01:34.619><c> programs</c><00:01:35.159><c> that</c><00:01:35.759><c> anomalous</c>
+
+00:01:36.319 --> 00:01:36.329 align:start position:0%
+have in real programs that anomalous
+ 
+
+00:01:36.329 --> 00:01:38.330 align:start position:0%
+have in real programs that anomalous
+outcomes<00:01:36.810><c> come</c><00:01:37.020><c> in</c><00:01:37.170><c> streaks</c><00:01:37.439><c> and</c><00:01:37.740><c> the</c><00:01:38.040><c> answer</c>
+
+00:01:38.330 --> 00:01:38.340 align:start position:0%
+outcomes come in streaks and the answer
+ 
+
+00:01:38.340 --> 00:01:40.940 align:start position:0%
+outcomes come in streaks and the answer
+is<00:01:38.460><c> not</c><00:01:38.759><c> very</c><00:01:39.030><c> often</c><00:01:39.299><c> so</c><00:01:40.110><c> what</c><00:01:40.290><c> we</c><00:01:40.439><c> might</c><00:01:40.650><c> have</c>
+
+00:01:40.940 --> 00:01:40.950 align:start position:0%
+is not very often so what we might have
+ 
+
+00:01:40.950 --> 00:01:43.310 align:start position:0%
+is not very often so what we might have
+is<00:01:41.189><c> that</c><00:01:41.400><c> the</c><00:01:41.700><c> tree</c><00:01:41.880><c> bit</c><00:01:42.030><c> predictor</c><00:01:42.540><c> might</c><00:01:43.079><c> be</c>
+
+00:01:43.310 --> 00:01:43.320 align:start position:0%
+is that the tree bit predictor might be
+ 
+
+00:01:43.320 --> 00:01:45.230 align:start position:0%
+is that the tree bit predictor might be
+worth<00:01:43.560><c> it</c><00:01:43.799><c> but</c><00:01:44.100><c> definitely</c><00:01:44.579><c> not</c><00:01:44.700><c> the</c><00:01:44.759><c> 4</c><00:01:45.090><c> bit</c>
+
+00:01:45.230 --> 00:01:45.240 align:start position:0%
+worth it but definitely not the 4 bit
+ 
+
+00:01:45.240 --> 00:01:47.630 align:start position:0%
+worth it but definitely not the 4 bit
+predictor<00:01:45.780><c> so</c><00:01:46.350><c> somehow</c><00:01:46.590><c> we</c><00:01:47.070><c> really</c><00:01:47.340><c> want</c><00:01:47.549><c> to</c>
+
+00:01:47.630 --> 00:01:47.640 align:start position:0%
+predictor so somehow we really want to
+ 
+
+00:01:47.640 --> 00:01:49.670 align:start position:0%
+predictor so somehow we really want to
+have<00:01:47.820><c> either</c><00:01:48.030><c> a</c><00:01:48.149><c> 2</c><00:01:48.390><c> bit</c><00:01:48.540><c> predictor</c><00:01:48.570><c> or</c><00:01:49.200><c> a</c><00:01:49.229><c> 3</c><00:01:49.530><c> bit</c>
+
+00:01:49.670 --> 00:01:49.680 align:start position:0%
+have either a 2 bit predictor or a 3 bit
+ 
+
+00:01:49.680 --> 00:01:52.010 align:start position:0%
+have either a 2 bit predictor or a 3 bit
+predictor<00:01:50.159><c> and</c><00:01:50.340><c> most</c><00:01:51.180><c> of</c><00:01:51.360><c> the</c><00:01:51.420><c> time</c><00:01:51.659><c> we're</c>
+
+00:01:52.010 --> 00:01:52.020 align:start position:0%
+predictor and most of the time we're
+ 
+
+00:01:52.020 --> 00:01:53.899 align:start position:0%
+predictor and most of the time we're
+just<00:01:52.229><c> fine</c><00:01:52.439><c> with</c><00:01:52.619><c> the</c><00:01:52.710><c> 2</c><00:01:52.860><c> bit</c><00:01:53.009><c> predictor</c><00:01:53.040><c> we're</c>
+
+00:01:53.899 --> 00:01:53.909 align:start position:0%
+just fine with the 2 bit predictor we're
+ 
+
+00:01:53.909 --> 00:01:56.209 align:start position:0%
+just fine with the 2 bit predictor we're
+getting<00:01:54.329><c> most</c><00:01:55.200><c> of</c><00:01:55.350><c> the</c><00:01:55.470><c> benefits</c><00:01:55.979><c> we</c><00:01:56.070><c> would</c>
+
+00:01:56.209 --> 00:01:56.219 align:start position:0%
+getting most of the benefits we would
+ 
+
+00:01:56.219 --> 00:01:59.179 align:start position:0%
+getting most of the benefits we would
+get<00:01:56.369><c> with</c><00:01:56.579><c> more</c><00:01:56.790><c> bits</c><00:01:57.060><c> for</c><00:01:57.899><c> a</c><00:01:57.930><c> lower</c><00:01:58.170><c> cost</c><00:01:58.290><c> so</c>
+
+00:01:59.179 --> 00:01:59.189 align:start position:0%
+get with more bits for a lower cost so
+ 
+
+00:01:59.189 --> 00:02:00.889 align:start position:0%
+get with more bits for a lower cost so
+we<00:01:59.340><c> really</c><00:01:59.820><c> should</c><00:02:00.060><c> stay</c><00:02:00.329><c> with</c><00:02:00.509><c> the</c><00:02:00.540><c> 2</c><00:02:00.750><c> bit</c>
+
+00:02:00.889 --> 00:02:00.899 align:start position:0%
+we really should stay with the 2 bit
+ 
+
+00:02:00.899 --> 00:02:02.840 align:start position:0%
+we really should stay with the 2 bit
+predictor<00:02:00.930><c> and</c><00:02:01.409><c> maybe</c><00:02:01.619><c> move</c><00:02:01.860><c> to</c><00:02:01.890><c> 3</c><00:02:02.219><c> bits</c><00:02:02.460><c> if</c><00:02:02.700><c> we</c>
+
+00:02:02.840 --> 00:02:02.850 align:start position:0%
+predictor and maybe move to 3 bits if we
+ 
+
+00:02:02.850 --> 00:02:04.969 align:start position:0%
+predictor and maybe move to 3 bits if we
+really<00:02:03.119><c> really</c><00:02:03.360><c> want</c><00:02:03.570><c> to</c><00:02:03.750><c> but</c><00:02:04.290><c> if</c><00:02:04.500><c> moving</c><00:02:04.740><c> to</c>
+
+00:02:04.969 --> 00:02:04.979 align:start position:0%
+really really want to but if moving to
+ 
+
+00:02:04.979 --> 00:02:08.210 align:start position:0%
+really really want to but if moving to
+more<00:02:05.219><c> bits</c><00:02:05.630><c> like</c><00:02:06.630><c> this</c><00:02:06.899><c> is</c><00:02:07.320><c> not</c><00:02:07.649><c> helping</c><00:02:08.099><c> us</c>
+
+00:02:08.210 --> 00:02:08.220 align:start position:0%
+more bits like this is not helping us
+ 
+
+00:02:08.220 --> 00:02:10.639 align:start position:0%
+more bits like this is not helping us
+then<00:02:09.000><c> the</c><00:02:09.149><c> question</c><00:02:09.629><c> becomes</c><00:02:09.899><c> but</c><00:02:10.200><c> how</c><00:02:10.379><c> do</c><00:02:10.440><c> we</c>
+
+00:02:10.639 --> 00:02:10.649 align:start position:0%
+then the question becomes but how do we
+ 
+
+00:02:10.649 --> 00:02:12.680 align:start position:0%
+then the question becomes but how do we
+then<00:02:10.890><c> improve</c><00:02:11.280><c> prediction</c><00:02:11.940><c> beyond</c>
+
+00:02:12.680 --> 00:02:12.690 align:start position:0%
+then improve prediction beyond
+ 
+
+00:02:12.690 --> 00:02:14.960 align:start position:0%
+then improve prediction beyond
+two<00:02:12.840><c> bit</c><00:02:12.990><c> predictor</c><00:02:13.190><c> we</c><00:02:14.190><c> have</c><00:02:14.370><c> already</c><00:02:14.520><c> seen</c>
+
+00:02:14.960 --> 00:02:14.970 align:start position:0%
+two bit predictor we have already seen
+ 
+
+00:02:14.970 --> 00:02:17.420 align:start position:0%
+two bit predictor we have already seen
+that<00:02:15.780><c> neither</c><00:02:16.260><c> one</c><00:02:16.650><c> bit</c><00:02:16.860><c> nor</c><00:02:17.070><c> two</c><00:02:17.280><c> bit</c>
+
+00:02:17.420 --> 00:02:17.430 align:start position:0%
+that neither one bit nor two bit
+ 
+
+00:02:17.430 --> 00:02:19.250 align:start position:0%
+that neither one bit nor two bit
+predictor<00:02:17.460><c> work</c><00:02:18.210><c> really</c><00:02:18.480><c> well</c><00:02:18.690><c> when</c><00:02:18.960><c> we</c><00:02:19.080><c> have</c>
+
+00:02:19.250 --> 00:02:19.260 align:start position:0%
+predictor work really well when we have
+ 
+
+00:02:19.260 --> 00:02:21.920 align:start position:0%
+predictor work really well when we have
+things<00:02:19.530><c> like</c><00:02:19.680><c> not</c><00:02:20.520><c> taken</c><00:02:21.030><c> taken</c><00:02:21.240><c> not</c><00:02:21.690><c> taken</c>
+
+00:02:21.920 --> 00:02:21.930 align:start position:0%
+things like not taken taken not taken
+ 
+
+00:02:21.930 --> 00:02:25.640 align:start position:0%
+things like not taken taken not taken
+taken<00:02:22.230><c> etc</c><00:02:23.220><c> and</c><00:02:23.460><c> now</c><00:02:23.970><c> a</c><00:02:24.270><c> human</c><00:02:24.990><c> being</c><00:02:25.320><c> that</c>
+
+00:02:25.640 --> 00:02:25.650 align:start position:0%
+taken etc and now a human being that
+ 
+
+00:02:25.650 --> 00:02:28.550 align:start position:0%
+taken etc and now a human being that
+looks<00:02:25.860><c> at</c><00:02:26.040><c> this</c><00:02:26.160><c> sequence</c><00:02:27.020><c> not</c><00:02:28.020><c> taken</c><00:02:28.410><c> taken</c>
+
+00:02:28.550 --> 00:02:28.560 align:start position:0%
+looks at this sequence not taken taken
+ 
+
+00:02:28.560 --> 00:02:31.280 align:start position:0%
+looks at this sequence not taken taken
+not<00:02:28.860><c> taken</c><00:02:29.070><c> taken</c><00:02:29.400><c> etc</c><00:02:30.060><c> will</c><00:02:30.600><c> correctly</c><00:02:31.020><c> guess</c>
+
+00:02:31.280 --> 00:02:31.290 align:start position:0%
+not taken taken etc will correctly guess
+ 
+
+00:02:31.290 --> 00:02:33.050 align:start position:0%
+not taken taken etc will correctly guess
+that<00:02:31.590><c> the</c><00:02:31.680><c> next</c><00:02:31.950><c> outcome</c><00:02:32.100><c> here</c><00:02:32.490><c> will</c><00:02:32.700><c> probably</c>
+
+00:02:33.050 --> 00:02:33.060 align:start position:0%
+that the next outcome here will probably
+ 
+
+00:02:33.060 --> 00:02:35.210 align:start position:0%
+that the next outcome here will probably
+be<00:02:33.210><c> not</c><00:02:33.390><c> taken</c><00:02:33.840><c> followed</c><00:02:34.170><c> by</c><00:02:34.290><c> taken</c><00:02:34.740><c> and</c><00:02:34.890><c> so</c><00:02:35.070><c> on</c>
+
+00:02:35.210 --> 00:02:35.220 align:start position:0%
+be not taken followed by taken and so on
+ 
+
+00:02:35.220 --> 00:02:37.670 align:start position:0%
+be not taken followed by taken and so on
+so<00:02:35.400><c> this</c><00:02:35.580><c> branch</c><00:02:35.910><c> turns</c><00:02:36.360><c> out</c><00:02:36.510><c> to</c><00:02:36.660><c> be</c><00:02:36.690><c> perfectly</c>
+
+00:02:37.670 --> 00:02:37.680 align:start position:0%
+so this branch turns out to be perfectly
+ 
+
+00:02:37.680 --> 00:02:40.010 align:start position:0%
+so this branch turns out to be perfectly
+predictable<00:02:38.310><c> it's</c><00:02:39.060><c> just</c><00:02:39.450><c> that</c><00:02:39.660><c> it's</c><00:02:39.840><c> not</c>
+
+00:02:40.010 --> 00:02:40.020 align:start position:0%
+predictable it's just that it's not
+ 
+
+00:02:40.020 --> 00:02:42.620 align:start position:0%
+predictable it's just that it's not
+predictable<00:02:40.580><c> with</c><00:02:41.580><c> a</c><00:02:41.610><c> one</c><00:02:41.880><c> bit</c><00:02:42.090><c> or</c><00:02:42.120><c> two</c><00:02:42.450><c> bit</c>
+
+00:02:42.620 --> 00:02:42.630 align:start position:0%
+predictable with a one bit or two bit
+ 
+
+00:02:42.630 --> 00:02:44.660 align:start position:0%
+predictable with a one bit or two bit
+predictor
+

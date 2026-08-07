@@ -1,0 +1,240 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.450 align:start position:0%
+ 
+so<00:00:00.359><c> let's</c><00:00:00.570><c> define</c><00:00:00.750><c> the</c><00:00:01.290><c> global</c><00:00:01.680><c> and</c><00:00:01.860><c> local</c><00:00:01.920><c> hit</c>
+
+00:00:02.450 --> 00:00:02.460 align:start position:0%
+so let's define the global and local hit
+ 
+
+00:00:02.460 --> 00:00:05.599 align:start position:0%
+so let's define the global and local hit
+rate<00:00:02.490><c> the</c><00:00:03.330><c> global</c><00:00:03.810><c> hit</c><00:00:04.049><c> rate</c><00:00:04.319><c> can</c><00:00:05.069><c> be</c><00:00:05.220><c> defined</c>
+
+00:00:05.599 --> 00:00:05.609 align:start position:0%
+rate the global hit rate can be defined
+ 
+
+00:00:05.609 --> 00:00:07.970 align:start position:0%
+rate the global hit rate can be defined
+as<00:00:05.879><c> simply</c><00:00:06.330><c> one</c><00:00:06.569><c> minus</c><00:00:06.810><c> the</c><00:00:07.350><c> global</c><00:00:07.740><c> miss</c><00:00:07.950><c> rate</c>
+
+00:00:07.970 --> 00:00:07.980 align:start position:0%
+as simply one minus the global miss rate
+ 
+
+00:00:07.980 --> 00:00:11.120 align:start position:0%
+as simply one minus the global miss rate
+and<00:00:08.550><c> the</c><00:00:08.970><c> global</c><00:00:09.360><c> miss</c><00:00:09.570><c> rate</c><00:00:09.599><c> can</c><00:00:10.590><c> be</c><00:00:10.710><c> defined</c>
+
+00:00:11.120 --> 00:00:11.130 align:start position:0%
+and the global miss rate can be defined
+ 
+
+00:00:11.130 --> 00:00:13.690 align:start position:0%
+and the global miss rate can be defined
+as<00:00:11.460><c> the</c><00:00:11.700><c> number</c><00:00:12.120><c> of</c><00:00:12.389><c> misses</c><00:00:12.900><c> in</c><00:00:13.080><c> this</c><00:00:13.230><c> cache</c>
+
+00:00:13.690 --> 00:00:13.700 align:start position:0%
+as the number of misses in this cache
+ 
+
+00:00:13.700 --> 00:00:16.820 align:start position:0%
+as the number of misses in this cache
+divided<00:00:14.700><c> by</c><00:00:15.389><c> the</c><00:00:15.450><c> number</c><00:00:15.750><c> of</c><00:00:15.960><c> all</c><00:00:16.320><c> memory</c>
+
+00:00:16.820 --> 00:00:16.830 align:start position:0%
+divided by the number of all memory
+ 
+
+00:00:16.830 --> 00:00:20.000 align:start position:0%
+divided by the number of all memory
+references<00:00:17.670><c> that</c><00:00:18.270><c> the</c><00:00:18.420><c> processor</c><00:00:18.930><c> makes</c><00:00:19.199><c> not</c>
+
+00:00:20.000 --> 00:00:20.010 align:start position:0%
+references that the processor makes not
+ 
+
+00:00:20.010 --> 00:00:22.759 align:start position:0%
+references that the processor makes not
+just<00:00:20.369><c> those</c><00:00:20.609><c> that</c><00:00:20.670><c> reach</c><00:00:21.330><c> this</c><00:00:21.570><c> cache</c><00:00:21.900><c> in</c>
+
+00:00:22.759 --> 00:00:22.769 align:start position:0%
+just those that reach this cache in
+ 
+
+00:00:22.769 --> 00:00:24.740 align:start position:0%
+just those that reach this cache in
+contrast<00:00:23.340><c> the</c><00:00:23.460><c> local</c><00:00:23.970><c> hit</c><00:00:24.180><c> rate</c><00:00:24.210><c> and</c><00:00:24.660><c> the</c>
+
+00:00:24.740 --> 00:00:24.750 align:start position:0%
+contrast the local hit rate and the
+ 
+
+00:00:24.750 --> 00:00:27.890 align:start position:0%
+contrast the local hit rate and the
+local<00:00:25.619><c> miss</c><00:00:25.830><c> rate</c><00:00:25.859><c> can</c><00:00:26.849><c> be</c><00:00:27.029><c> defined</c><00:00:27.449><c> in</c><00:00:27.660><c> terms</c>
+
+00:00:27.890 --> 00:00:27.900 align:start position:0%
+local miss rate can be defined in terms
+ 
+
+00:00:27.900 --> 00:00:30.529 align:start position:0%
+local miss rate can be defined in terms
+of<00:00:28.199><c> normal</c><00:00:29.010><c> cache</c><00:00:29.369><c> behavior</c><00:00:29.580><c> local</c><00:00:30.300><c> to</c><00:00:30.420><c> this</c>
+
+00:00:30.529 --> 00:00:30.539 align:start position:0%
+of normal cache behavior local to this
+ 
+
+00:00:30.539 --> 00:00:33.139 align:start position:0%
+of normal cache behavior local to this
+cache<00:00:30.840><c> so</c><00:00:31.590><c> the</c><00:00:31.740><c> local</c><00:00:32.309><c> hit</c><00:00:32.550><c> rate</c><00:00:32.579><c> for</c><00:00:32.850><c> example</c>
+
+00:00:33.139 --> 00:00:33.149 align:start position:0%
+cache so the local hit rate for example
+ 
+
+00:00:33.149 --> 00:00:35.990 align:start position:0%
+cache so the local hit rate for example
+is<00:00:33.899><c> the</c><00:00:34.170><c> number</c><00:00:34.440><c> of</c><00:00:34.530><c> hits</c><00:00:34.770><c> divided</c><00:00:35.760><c> by</c><00:00:35.940><c> the</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+is the number of hits divided by the
+ 
+
+00:00:36.000 --> 00:00:38.840 align:start position:0%
+is the number of hits divided by the
+number<00:00:36.300><c> of</c><00:00:36.570><c> accesses</c><00:00:36.960><c> to</c><00:00:37.649><c> this</c><00:00:37.920><c> cache</c><00:00:38.340><c> and</c>
+
+00:00:38.840 --> 00:00:38.850 align:start position:0%
+number of accesses to this cache and
+ 
+
+00:00:38.850 --> 00:00:41.000 align:start position:0%
+number of accesses to this cache and
+remember<00:00:39.420><c> that</c><00:00:39.600><c> not</c><00:00:39.960><c> all</c><00:00:40.170><c> of</c><00:00:40.530><c> the</c><00:00:40.649><c> memory</c>
+
+00:00:41.000 --> 00:00:41.010 align:start position:0%
+remember that not all of the memory
+ 
+
+00:00:41.010 --> 00:00:43.310 align:start position:0%
+remember that not all of the memory
+references<00:00:41.520><c> the</c><00:00:41.670><c> processor</c><00:00:42.120><c> makes</c><00:00:42.360><c> actually</c>
+
+00:00:43.310 --> 00:00:43.320 align:start position:0%
+references the processor makes actually
+ 
+
+00:00:43.320 --> 00:00:45.139 align:start position:0%
+references the processor makes actually
+reach<00:00:43.500><c> this</c><00:00:43.770><c> cache</c><00:00:44.070><c> the</c><00:00:44.640><c> local</c><00:00:44.940><c> miss</c><00:00:45.120><c> rate</c>
+
+00:00:45.139 --> 00:00:45.149 align:start position:0%
+reach this cache the local miss rate
+ 
+
+00:00:45.149 --> 00:00:47.750 align:start position:0%
+reach this cache the local miss rate
+simply<00:00:45.840><c> can</c><00:00:46.379><c> be</c><00:00:46.559><c> the</c><00:00:46.770><c> number</c><00:00:47.190><c> of</c><00:00:47.309><c> misses</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+simply can be the number of misses
+ 
+
+00:00:47.760 --> 00:00:49.549 align:start position:0%
+simply can be the number of misses
+divided<00:00:48.300><c> by</c><00:00:48.420><c> the</c><00:00:48.480><c> number</c><00:00:48.660><c> of</c><00:00:48.870><c> accesses</c><00:00:49.200><c> and</c>
+
+00:00:49.549 --> 00:00:49.559 align:start position:0%
+divided by the number of accesses and
+ 
+
+00:00:49.559 --> 00:00:52.340 align:start position:0%
+divided by the number of accesses and
+they<00:00:49.800><c> of</c><00:00:49.920><c> course</c><00:00:50.190><c> still</c><00:00:50.579><c> add</c><00:00:50.789><c> up</c><00:00:51.000><c> to</c><00:00:51.149><c> 1</c><00:00:51.350><c> another</c>
+
+00:00:52.340 --> 00:00:52.350 align:start position:0%
+they of course still add up to 1 another
+ 
+
+00:00:52.350 --> 00:00:55.580 align:start position:0%
+they of course still add up to 1 another
+popular<00:00:53.070><c> metric</c><00:00:53.579><c> of</c><00:00:53.820><c> how</c><00:00:54.329><c> often</c><00:00:54.930><c> the</c><00:00:55.320><c> cache</c>
+
+00:00:55.580 --> 00:00:55.590 align:start position:0%
+popular metric of how often the cache
+ 
+
+00:00:55.590 --> 00:00:57.920 align:start position:0%
+popular metric of how often the cache
+hits<00:00:56.070><c> that</c><00:00:56.940><c> tries</c><00:00:57.180><c> to</c><00:00:57.329><c> capture</c><00:00:57.539><c> the</c><00:00:57.780><c> behavior</c>
+
+00:00:57.920 --> 00:00:57.930 align:start position:0%
+hits that tries to capture the behavior
+ 
+
+00:00:57.930 --> 00:01:00.680 align:start position:0%
+hits that tries to capture the behavior
+of<00:00:58.590><c> caches</c><00:00:59.190><c> that</c><00:00:59.370><c> are</c><00:00:59.520><c> not</c><00:00:59.699><c> the</c><00:00:59.969><c> level</c><00:01:00.239><c> 1</c><00:01:00.420><c> cache</c>
+
+00:01:00.680 --> 00:01:00.690 align:start position:0%
+of caches that are not the level 1 cache
+ 
+
+00:01:00.690 --> 00:01:04.700 align:start position:0%
+of caches that are not the level 1 cache
+is<00:01:01.530><c> misses</c><00:01:02.520><c> per</c><00:01:03.120><c> thousand</c><00:01:03.600><c> instructions</c><00:01:04.260><c> or</c>
+
+00:01:04.700 --> 00:01:04.710 align:start position:0%
+is misses per thousand instructions or
+ 
+
+00:01:04.710 --> 00:01:07.969 align:start position:0%
+is misses per thousand instructions or
+MP<00:01:05.400><c> ki</c><00:01:05.700><c> where</c><00:01:06.510><c> K</c><00:01:06.810><c> stands</c><00:01:07.290><c> for</c><00:01:07.409><c> kilo</c>
+
+00:01:07.969 --> 00:01:07.979 align:start position:0%
+MP ki where K stands for kilo
+ 
+
+00:01:07.979 --> 00:01:10.789 align:start position:0%
+MP ki where K stands for kilo
+instructions<00:01:08.790><c> it</c><00:01:09.390><c> is</c><00:01:09.600><c> very</c><00:01:09.780><c> similar</c><00:01:10.110><c> to</c><00:01:10.500><c> the</c>
+
+00:01:10.789 --> 00:01:10.799 align:start position:0%
+instructions it is very similar to the
+ 
+
+00:01:10.799 --> 00:01:13.700 align:start position:0%
+instructions it is very similar to the
+global<00:01:11.130><c> miss</c><00:01:11.340><c> rate</c><00:01:11.780><c> except</c><00:01:12.780><c> that</c><00:01:12.990><c> it</c><00:01:13.409><c> doesn't</c>
+
+00:01:13.700 --> 00:01:13.710 align:start position:0%
+global miss rate except that it doesn't
+ 
+
+00:01:13.710 --> 00:01:16.280 align:start position:0%
+global miss rate except that it doesn't
+normalize<00:01:14.430><c> the</c><00:01:14.670><c> misses</c><00:01:15.060><c> with</c><00:01:15.659><c> the</c><00:01:15.689><c> number</c><00:01:16.140><c> of</c>
+
+00:01:16.280 --> 00:01:16.290 align:start position:0%
+normalize the misses with the number of
+ 
+
+00:01:16.290 --> 00:01:19.730 align:start position:0%
+normalize the misses with the number of
+just<00:01:17.070><c> memory</c><00:01:17.490><c> accesses</c><00:01:18.030><c> it</c><00:01:18.299><c> normalizes</c><00:01:18.930><c> with</c>
+
+00:01:19.730 --> 00:01:19.740 align:start position:0%
+just memory accesses it normalizes with
+ 
+
+00:01:19.740 --> 00:01:22.759 align:start position:0%
+just memory accesses it normalizes with
+the<00:01:19.830><c> number</c><00:01:20.100><c> of</c><00:01:20.189><c> instructions</c>
+

@@ -1,0 +1,16 @@
+1
+00:00:00,330 --> 00:00:02,658
+ Suppose I give you two positive integers A and B.
+
+2
+00:00:02,658 --> 00:00:04,750
+ Heres my question.
+
+3
+00:00:04,750 --> 00:00:06,826
+ Which of these following identities are true?
+
+4
+00:00:06,826 --> 00:00:06,826
+ Here are your four choices, and I want you to put a mark in all that apply
+

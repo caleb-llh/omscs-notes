@@ -1,0 +1,68 @@
+1
+00:00:00,210 --> 00:00:02,400
+ Well, I went with speed up.
+
+2
+00:00:02,400 --> 00:00:05,390
+ My reasoning stems from the definition of power.
+
+3
+00:00:05,390 --> 00:00:07,310
+ It's energy divided by time.
+
+4
+00:00:07,310 --> 00:00:11,460
+ Energy is like algorithmic work and the algorithmic work would basically be
+
+5
+00:00:11,460 --> 00:00:15,400
+ the same thing as the time to execute the algorithm on a single processor.
+
+6
+00:00:15,400 --> 00:00:19,150
+ So the time on one processor divided by the time on p processors,
+
+7
+00:00:19,150 --> 00:00:23,810
+ looks like energy, which is work, divided by the time on p processors.
+
+8
+00:00:23,810 --> 00:00:25,550
+ Now think about that for a second.
+
+9
+00:00:25,550 --> 00:00:27,280
+ If you need to run at low power,
+
+10
+00:00:27,280 --> 00:00:32,040
+ then either you need to use very little energy, or you need to go really slow.
+
+11
+00:00:32,040 --> 00:00:33,610
+ So if you're energy optimal,
+
+12
+00:00:33,610 --> 00:00:37,620
+ then there's a fundamental tension between speed and power.
+
+13
+00:00:37,620 --> 00:00:42,120
+ High speed is less time, which would appear to imply more power.
+
+14
+00:00:42,120 --> 00:00:45,070
+ This probably explains why my de-identified no-name
+
+15
+00:00:45,070 --> 00:00:49,160
+ brand cell phone has a pretty good battery life but runs slow as [BLEEP].
+
+16
+00:00:49,160 --> 00:00:50,680
+ Oops, did I say [BLEEP]?
+
+17
+00:00:50,680 --> 00:00:50,680
+ Can you drop f bombs in OMSCS?
+

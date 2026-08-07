@@ -1,0 +1,56 @@
+1
+00:00:00,520 --> 00:00:04,570
+ Of these options, only the third one doubles the bisection width.
+
+2
+00:00:04,570 --> 00:00:06,510
+ The other options reduce the diameter, but
+
+3
+00:00:06,510 --> 00:00:09,850
+ they can't asymptotically improve the bisection width.
+
+4
+00:00:09,850 --> 00:00:12,480
+ As an example, let's take option two.
+
+5
+00:00:12,480 --> 00:00:17,030
+ Now, the original bisection cut is still a cut of this new network, but
+
+6
+00:00:17,030 --> 00:00:20,620
+ notice that the number of links only increases by one,
+
+7
+00:00:20,620 --> 00:00:24,260
+ two links That is, it doesn't double.
+
+8
+00:00:24,260 --> 00:00:26,950
+ By contrast, consider option three.
+
+9
+00:00:26,950 --> 00:00:29,060
+ Notice what happens at the cut.
+
+10
+00:00:29,060 --> 00:00:33,450
+ There are in fact, square of P new links that go through this cut.
+
+11
+00:00:33,450 --> 00:00:35,430
+ That doubles the bisecting width.
+
+12
+00:00:35,430 --> 00:00:37,180
+ Yeah, I'm awesome.
+
+13
+00:00:37,180 --> 00:00:37,730
+ Do bulls moo?
+
+14
+00:00:37,730 --> 00:00:37,730
+ Moo, moo.
+

@@ -1,0 +1,744 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.280 --> 00:00:03.510 align:start position:0%
+ 
+in<00:00:00.520><c> Dam</c><00:00:01.040><c> we</c><00:00:01.240><c> also</c><00:00:01.599><c> have</c><00:00:01.760><c> a</c><00:00:02.040><c> transistor</c><00:00:03.040><c> that</c><00:00:03.199><c> is</c>
+
+00:00:03.510 --> 00:00:03.520 align:start position:0%
+in Dam we also have a transistor that is
+ 
+
+00:00:03.520 --> 00:00:05.829 align:start position:0%
+in Dam we also have a transistor that is
+activated<00:00:04.200><c> by</c><00:00:04.359><c> the</c><00:00:04.480><c> word</c><00:00:04.799><c> line</c><00:00:05.440><c> and</c><00:00:05.640><c> that</c>
+
+00:00:05.829 --> 00:00:05.839 align:start position:0%
+activated by the word line and that
+ 
+
+00:00:05.839 --> 00:00:08.790 align:start position:0%
+activated by the word line and that
+connects<00:00:06.359><c> the</c><00:00:06.520><c> cell</c><00:00:07.120><c> to</c><00:00:07.319><c> the</c><00:00:07.480><c> bit</c><00:00:07.759><c> line</c><00:00:08.480><c> but</c><00:00:08.639><c> we</c>
+
+00:00:08.790 --> 00:00:08.800 align:start position:0%
+connects the cell to the bit line but we
+ 
+
+00:00:08.800 --> 00:00:11.030 align:start position:0%
+connects the cell to the bit line but we
+said<00:00:09.120><c> that's</c><00:00:09.320><c> the</c><00:00:09.440><c> only</c><00:00:09.639><c> transistor</c><00:00:10.160><c> we</c><00:00:10.360><c> have</c>
+
+00:00:11.030 --> 00:00:11.040 align:start position:0%
+said that's the only transistor we have
+ 
+
+00:00:11.040 --> 00:00:13.070 align:start position:0%
+said that's the only transistor we have
+the<00:00:11.200><c> cell</c><00:00:11.519><c> is</c><00:00:11.719><c> made</c><00:00:12.040><c> out</c><00:00:12.200><c> of</c><00:00:12.440><c> a</c><00:00:12.599><c> simple</c>
+
+00:00:13.070 --> 00:00:13.080 align:start position:0%
+the cell is made out of a simple
+ 
+
+00:00:13.080 --> 00:00:16.109 align:start position:0%
+the cell is made out of a simple
+capacitor<00:00:13.799><c> here</c><00:00:14.280><c> so</c><00:00:14.480><c> the</c><00:00:14.639><c> idea</c><00:00:15.000><c> is</c><00:00:15.240><c> that</c><00:00:15.839><c> to</c>
+
+00:00:16.109 --> 00:00:16.119 align:start position:0%
+capacitor here so the idea is that to
+ 
+
+00:00:16.119 --> 00:00:18.790 align:start position:0%
+capacitor here so the idea is that to
+write<00:00:16.400><c> to</c><00:00:16.640><c> this</c><00:00:16.800><c> cell</c><00:00:17.600><c> we</c><00:00:17.680><c> will</c><00:00:18.080><c> activate</c><00:00:18.640><c> the</c>
+
+00:00:18.790 --> 00:00:18.800 align:start position:0%
+write to this cell we will activate the
+ 
+
+00:00:18.800 --> 00:00:21.950 align:start position:0%
+write to this cell we will activate the
+word<00:00:19.119><c> line</c><00:00:20.000><c> we</c><00:00:20.160><c> put</c><00:00:20.480><c> let's</c><00:00:20.640><c> say</c><00:00:20.840><c> A1</c><00:00:21.480><c> into</c><00:00:21.800><c> the</c>
+
+00:00:21.950 --> 00:00:21.960 align:start position:0%
+word line we put let's say A1 into the
+ 
+
+00:00:21.960 --> 00:00:25.470 align:start position:0%
+word line we put let's say A1 into the
+bit<00:00:22.240><c> Line</c><00:00:22.920><c> This</c><00:00:23.119><c> transistor</c><00:00:24.000><c> connects</c><00:00:24.840><c> the</c>
+
+00:00:25.470 --> 00:00:25.480 align:start position:0%
+bit Line This transistor connects the
+ 
+
+00:00:25.480 --> 00:00:28.710 align:start position:0%
+bit Line This transistor connects the
+capacitor<00:00:26.480><c> to</c><00:00:26.679><c> the</c><00:00:26.840><c> bit</c><00:00:27.279><c> line</c><00:00:28.279><c> now</c><00:00:28.519><c> what</c>
+
+00:00:28.710 --> 00:00:28.720 align:start position:0%
+capacitor to the bit line now what
+ 
+
+00:00:28.720 --> 00:00:33.389 align:start position:0%
+capacitor to the bit line now what
+happens<00:00:29.080><c> is</c><00:00:30.400><c> R1</c><00:00:31.400><c> effectively</c><00:00:32.000><c> charges</c><00:00:32.599><c> this</c>
+
+00:00:33.389 --> 00:00:33.399 align:start position:0%
+happens is R1 effectively charges this
+ 
+
+00:00:33.399 --> 00:00:36.350 align:start position:0%
+happens is R1 effectively charges this
+capacitor<00:00:34.399><c> once</c><00:00:34.760><c> we</c><00:00:35.200><c> deactivate</c><00:00:35.920><c> the</c><00:00:36.040><c> word</c>
+
+00:00:36.350 --> 00:00:36.360 align:start position:0%
+capacitor once we deactivate the word
+ 
+
+00:00:36.360 --> 00:00:39.389 align:start position:0%
+capacitor once we deactivate the word
+line<00:00:36.960><c> the</c><00:00:37.440><c> capacitor</c><00:00:38.440><c> retains</c><00:00:38.920><c> the</c><00:00:39.079><c> value</c>
+
+00:00:39.389 --> 00:00:39.399 align:start position:0%
+line the capacitor retains the value
+ 
+
+00:00:39.399 --> 00:00:41.350 align:start position:0%
+line the capacitor retains the value
+that<00:00:39.559><c> corresponds</c><00:00:40.079><c> to</c><00:00:40.200><c> a</c><00:00:40.360><c> one</c><00:00:40.840><c> if</c><00:00:40.960><c> we</c><00:00:41.039><c> want</c><00:00:41.160><c> to</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+that corresponds to a one if we want to
+ 
+
+00:00:41.360 --> 00:00:43.990 align:start position:0%
+that corresponds to a one if we want to
+write<00:00:41.559><c> a</c><00:00:41.760><c> zero</c><00:00:42.320><c> we</c><00:00:42.600><c> activate</c><00:00:43.000><c> the</c><00:00:43.160><c> word</c><00:00:43.440><c> line</c>
+
+00:00:43.990 --> 00:00:44.000 align:start position:0%
+write a zero we activate the word line
+ 
+
+00:00:44.000 --> 00:00:46.229 align:start position:0%
+write a zero we activate the word line
+the<00:00:44.239><c> capacitor</c><00:00:45.120><c> is</c><00:00:45.280><c> now</c><00:00:45.520><c> connected</c><00:00:45.960><c> to</c><00:00:46.079><c> the</c>
+
+00:00:46.229 --> 00:00:46.239 align:start position:0%
+the capacitor is now connected to the
+ 
+
+00:00:46.239 --> 00:00:49.150 align:start position:0%
+the capacitor is now connected to the
+bit<00:00:46.480><c> line</c><00:00:47.120><c> that</c><00:00:47.239><c> is</c><00:00:47.480><c> connected</c><00:00:48.480><c> to</c><00:00:48.680><c> a</c><00:00:48.840><c> zero</c>
+
+00:00:49.150 --> 00:00:49.160 align:start position:0%
+bit line that is connected to a zero
+ 
+
+00:00:49.160 --> 00:00:52.110 align:start position:0%
+bit line that is connected to a zero
+voltage<00:00:50.000><c> and</c><00:00:50.160><c> we</c><00:00:50.360><c> empty</c><00:00:50.879><c> this</c><00:00:51.120><c> capacitor</c><00:00:51.800><c> into</c>
+
+00:00:52.110 --> 00:00:52.120 align:start position:0%
+voltage and we empty this capacitor into
+ 
+
+00:00:52.120 --> 00:00:55.110 align:start position:0%
+voltage and we empty this capacitor into
+the<00:00:52.280><c> bit</c><00:00:52.520><c> line</c><00:00:53.239><c> thus</c><00:00:53.719><c> now</c><00:00:54.239><c> our</c><00:00:54.520><c> capacitor</c>
+
+00:00:55.110 --> 00:00:55.120 align:start position:0%
+the bit line thus now our capacitor
+ 
+
+00:00:55.120 --> 00:00:57.830 align:start position:0%
+the bit line thus now our capacitor
+becomes<00:00:55.640><c> a</c><00:00:55.840><c> zero</c><00:00:56.320><c> value</c><00:00:57.320><c> now</c><00:00:57.520><c> when</c><00:00:57.680><c> we</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+becomes a zero value now when we
+ 
+
+00:00:57.840 --> 00:00:59.389 align:start position:0%
+becomes a zero value now when we
+disconnect<00:00:58.280><c> the</c><00:00:58.399><c> word</c><00:00:58.640><c> line</c><00:00:58.840><c> the</c><00:00:58.960><c> capacitor</c>
+
+00:00:59.389 --> 00:00:59.399 align:start position:0%
+disconnect the word line the capacitor
+ 
+
+00:00:59.399 --> 00:01:01.310 align:start position:0%
+disconnect the word line the capacitor
+has<00:00:59.559><c> nothing</c><00:00:59.760><c> in</c><00:01:00.120><c> it</c><00:01:00.440><c> so</c><00:01:00.640><c> it</c><00:01:00.800><c> retains</c><00:01:01.199><c> the</c>
+
+00:01:01.310 --> 00:01:01.320 align:start position:0%
+has nothing in it so it retains the
+ 
+
+00:01:01.320 --> 00:01:04.030 align:start position:0%
+has nothing in it so it retains the
+value<00:01:01.559><c> of</c><00:01:01.719><c> zero</c><00:01:02.320><c> so</c><00:01:02.519><c> as</c><00:01:02.600><c> you</c><00:01:02.719><c> can</c><00:01:02.920><c> see</c><00:01:03.519><c> the</c><00:01:03.719><c> bit</c>
+
+00:01:04.030 --> 00:01:04.040 align:start position:0%
+value of zero so as you can see the bit
+ 
+
+00:01:04.040 --> 00:01:06.670 align:start position:0%
+value of zero so as you can see the bit
+is<00:01:04.239><c> really</c><00:01:04.519><c> stored</c><00:01:05.080><c> in</c><00:01:05.640><c> this</c><00:01:05.920><c> capacitor</c><00:01:06.520><c> when</c>
+
+00:01:06.670 --> 00:01:06.680 align:start position:0%
+is really stored in this capacitor when
+ 
+
+00:01:06.680 --> 00:01:08.830 align:start position:0%
+is really stored in this capacitor when
+it's<00:01:06.960><c> charged</c><00:01:07.520><c> we</c><00:01:07.600><c> are</c><00:01:07.720><c> storing</c><00:01:08.119><c> a</c><00:01:08.280><c> one</c><00:01:08.680><c> when</c>
+
+00:01:08.830 --> 00:01:08.840 align:start position:0%
+it's charged we are storing a one when
+ 
+
+00:01:08.840 --> 00:01:11.390 align:start position:0%
+it's charged we are storing a one when
+it's<00:01:09.040><c> not</c><00:01:09.360><c> charged</c><00:01:09.799><c> we</c><00:01:09.880><c> are</c><00:01:10.000><c> storing</c><00:01:10.360><c> a</c><00:01:10.560><c> zero</c>
+
+00:01:11.390 --> 00:01:11.400 align:start position:0%
+it's not charged we are storing a zero
+ 
+
+00:01:11.400 --> 00:01:13.070 align:start position:0%
+it's not charged we are storing a zero
+so<00:01:11.560><c> what's</c><00:01:11.799><c> the</c><00:01:12.000><c> problem</c><00:01:12.400><c> here</c><00:01:12.720><c> well</c><00:01:12.880><c> the</c>
+
+00:01:13.070 --> 00:01:13.080 align:start position:0%
+so what's the problem here well the
+ 
+
+00:01:13.080 --> 00:01:15.149 align:start position:0%
+so what's the problem here well the
+problem<00:01:13.320><c> is</c><00:01:13.479><c> that</c><00:01:13.680><c> this</c><00:01:13.840><c> transistor</c><00:01:14.400><c> is</c><00:01:14.600><c> not</c><00:01:14.840><c> a</c>
+
+00:01:15.149 --> 00:01:15.159 align:start position:0%
+problem is that this transistor is not a
+ 
+
+00:01:15.159 --> 00:01:19.190 align:start position:0%
+problem is that this transistor is not a
+perfect<00:01:16.080><c> switch</c><00:01:17.080><c> it's</c><00:01:17.320><c> a</c><00:01:17.560><c> little</c><00:01:17.840><c> bit</c><00:01:18.200><c> leaky</c>
+
+00:01:19.190 --> 00:01:19.200 align:start position:0%
+perfect switch it's a little bit leaky
+ 
+
+00:01:19.200 --> 00:01:21.429 align:start position:0%
+perfect switch it's a little bit leaky
+here<00:01:19.400><c> it's</c><00:01:19.560><c> not</c><00:01:19.720><c> a</c><00:01:20.000><c> problem</c><00:01:20.799><c> because</c><00:01:21.119><c> if</c><00:01:21.240><c> it's</c>
+
+00:01:21.429 --> 00:01:21.439 align:start position:0%
+here it's not a problem because if it's
+ 
+
+00:01:21.439 --> 00:01:24.510 align:start position:0%
+here it's not a problem because if it's
+a<00:01:21.600><c> little</c><00:01:21.840><c> bit</c><00:01:22.040><c> leaky</c><00:01:23.000><c> these</c><00:01:23.240><c> two</c><00:01:23.799><c> are</c><00:01:24.240><c> strong</c>
+
+00:01:24.510 --> 00:01:24.520 align:start position:0%
+a little bit leaky these two are strong
+ 
+
+00:01:24.520 --> 00:01:27.670 align:start position:0%
+a little bit leaky these two are strong
+enough<00:01:24.840><c> to</c><00:01:25.040><c> retain</c><00:01:25.479><c> the</c><00:01:26.000><c> voltage</c><00:01:27.000><c> at</c><00:01:27.360><c> you</c><00:01:27.479><c> know</c>
+
+00:01:27.670 --> 00:01:27.680 align:start position:0%
+enough to retain the voltage at you know
+ 
+
+00:01:27.680 --> 00:01:31.630 align:start position:0%
+enough to retain the voltage at you know
+let's<00:01:27.880><c> say</c><00:01:28.159><c> 1</c><00:01:28.400><c> and</c><00:01:28.640><c> zero</c><00:01:29.200><c> or</c><00:01:29.439><c> Z</c><00:01:29.680><c> and</c><00:01:30.400><c> one</c><00:01:31.400><c> while</c>
+
+00:01:31.630 --> 00:01:31.640 align:start position:0%
+let's say 1 and zero or Z and one while
+ 
+
+00:01:31.640 --> 00:01:33.910 align:start position:0%
+let's say 1 and zero or Z and one while
+these<00:01:31.799><c> are</c><00:01:31.960><c> not</c><00:01:32.159><c> trying</c><00:01:32.479><c> to</c><00:01:32.640><c> defeat</c><00:01:33.079><c> them</c><00:01:33.600><c> but</c>
+
+00:01:33.910 --> 00:01:33.920 align:start position:0%
+these are not trying to defeat them but
+ 
+
+00:01:33.920 --> 00:01:35.990 align:start position:0%
+these are not trying to defeat them but
+here<00:01:34.520><c> our</c><00:01:34.759><c> capacitor</c><00:01:35.200><c> is</c><00:01:35.280><c> slowly</c><00:01:35.600><c> leaking</c>
+
+00:01:35.990 --> 00:01:36.000 align:start position:0%
+here our capacitor is slowly leaking
+ 
+
+00:01:36.000 --> 00:01:38.270 align:start position:0%
+here our capacitor is slowly leaking
+into<00:01:36.240><c> the</c><00:01:36.360><c> bit</c><00:01:36.600><c> line</c><00:01:36.840><c> and</c><00:01:37.079><c> eventually</c><00:01:38.000><c> gets</c>
+
+00:01:38.270 --> 00:01:38.280 align:start position:0%
+into the bit line and eventually gets
+ 
+
+00:01:38.280 --> 00:01:41.230 align:start position:0%
+into the bit line and eventually gets
+empty<00:01:39.159><c> so</c><00:01:39.360><c> one</c><00:01:39.640><c> problem</c><00:01:39.920><c> with</c><00:01:40.079><c> DM</c><00:01:40.799><c> is</c><00:01:40.960><c> that</c><00:01:41.119><c> it</c>
+
+00:01:41.230 --> 00:01:41.240 align:start position:0%
+empty so one problem with DM is that it
+ 
+
+00:01:41.240 --> 00:01:44.149 align:start position:0%
+empty so one problem with DM is that it
+will<00:01:41.439><c> lose</c><00:01:41.840><c> this</c><00:01:42.040><c> bit</c><00:01:42.280><c> over</c><00:01:42.680><c> time</c><00:01:43.680><c> and</c><00:01:43.960><c> that</c>
+
+00:01:44.149 --> 00:01:44.159 align:start position:0%
+will lose this bit over time and that
+ 
+
+00:01:44.159 --> 00:01:46.149 align:start position:0%
+will lose this bit over time and that
+means<00:01:44.640><c> that</c><00:01:44.880><c> periodically</c><00:01:45.640><c> we</c><00:01:45.880><c> have</c><00:01:46.000><c> to</c>
+
+00:01:46.149 --> 00:01:46.159 align:start position:0%
+means that periodically we have to
+ 
+
+00:01:46.159 --> 00:01:48.190 align:start position:0%
+means that periodically we have to
+actually<00:01:46.360><c> read</c><00:01:46.640><c> out</c><00:01:46.960><c> this</c><00:01:47.119><c> bit</c><00:01:47.680><c> figure</c><00:01:47.960><c> out</c>
+
+00:01:48.190 --> 00:01:48.200 align:start position:0%
+actually read out this bit figure out
+ 
+
+00:01:48.200 --> 00:01:50.550 align:start position:0%
+actually read out this bit figure out
+what<00:01:48.360><c> it</c><00:01:48.560><c> was</c><00:01:48.960><c> and</c><00:01:49.119><c> write</c><00:01:49.360><c> it</c><00:01:49.600><c> back</c><00:01:49.799><c> in</c><00:01:50.119><c> at</c><00:01:50.280><c> full</c>
+
+00:01:50.550 --> 00:01:50.560 align:start position:0%
+what it was and write it back in at full
+ 
+
+00:01:50.560 --> 00:01:52.789 align:start position:0%
+what it was and write it back in at full
+Voltage<00:01:51.040><c> so</c><00:01:51.240><c> that</c><00:01:51.360><c> it</c><00:01:51.520><c> can</c><00:01:51.799><c> again</c><00:01:52.159><c> leak</c><00:01:52.479><c> for</c><00:01:52.640><c> a</c>
+
+00:01:52.789 --> 00:01:52.799 align:start position:0%
+Voltage so that it can again leak for a
+ 
+
+00:01:52.799 --> 00:01:55.749 align:start position:0%
+Voltage so that it can again leak for a
+while<00:01:53.079><c> before</c><00:01:53.439><c> it</c><00:01:53.600><c> gets</c><00:01:53.880><c> lost</c><00:01:54.799><c> another</c>
+
+00:01:55.749 --> 00:01:55.759 align:start position:0%
+while before it gets lost another
+ 
+
+00:01:55.759 --> 00:01:58.149 align:start position:0%
+while before it gets lost another
+problem<00:01:56.759><c> with</c><00:01:56.960><c> dram</c><00:01:57.399><c> that</c><00:01:57.520><c> you</c><00:01:57.640><c> don't</c><00:01:57.960><c> have</c>
+
+00:01:58.149 --> 00:01:58.159 align:start position:0%
+problem with dram that you don't have
+ 
+
+00:01:58.159 --> 00:02:01.310 align:start position:0%
+problem with dram that you don't have
+with<00:01:58.360><c> SRAM</c><00:01:59.079><c> is</c><00:01:59.320><c> that</c><00:02:00.119><c> once</c><00:02:00.399><c> we</c><00:02:00.600><c> open</c><00:02:00.920><c> the</c><00:02:01.039><c> word</c>
+
+00:02:01.310 --> 00:02:01.320 align:start position:0%
+with SRAM is that once we open the word
+ 
+
+00:02:01.320 --> 00:02:03.830 align:start position:0%
+with SRAM is that once we open the word
+line<00:02:01.759><c> the</c><00:02:01.960><c> capacitor</c><00:02:02.560><c> drains</c><00:02:03.159><c> into</c><00:02:03.439><c> the</c><00:02:03.600><c> bit</c>
+
+00:02:03.830 --> 00:02:03.840 align:start position:0%
+line the capacitor drains into the bit
+ 
+
+00:02:03.840 --> 00:02:06.789 align:start position:0%
+line the capacitor drains into the bit
+line<00:02:04.119><c> we</c><00:02:04.240><c> can</c><00:02:04.479><c> sense</c><00:02:05.159><c> what</c><00:02:05.320><c> the</c><00:02:05.479><c> value</c><00:02:05.880><c> was</c><00:02:06.640><c> but</c>
+
+00:02:06.789 --> 00:02:06.799 align:start position:0%
+line we can sense what the value was but
+ 
+
+00:02:06.799 --> 00:02:09.749 align:start position:0%
+line we can sense what the value was but
+the<00:02:07.000><c> capacitor</c><00:02:07.439><c> is</c><00:02:07.520><c> no</c><00:02:07.680><c> longer</c><00:02:08.080><c> fully</c><00:02:08.759><c> charged</c>
+
+00:02:09.749 --> 00:02:09.759 align:start position:0%
+the capacitor is no longer fully charged
+ 
+
+00:02:09.759 --> 00:02:12.630 align:start position:0%
+the capacitor is no longer fully charged
+this<00:02:09.879><c> is</c><00:02:10.080><c> called</c><00:02:10.479><c> destructive</c><00:02:11.319><c> read</c><00:02:12.319><c> when</c><00:02:12.480><c> you</c>
+
+00:02:12.630 --> 00:02:12.640 align:start position:0%
+this is called destructive read when you
+ 
+
+00:02:12.640 --> 00:02:15.750 align:start position:0%
+this is called destructive read when you
+read<00:02:13.000><c> a</c><00:02:13.200><c> DRM</c><00:02:13.879><c> cell</c><00:02:14.879><c> you</c><00:02:15.080><c> have</c><00:02:15.200><c> to</c><00:02:15.360><c> write</c><00:02:15.560><c> it</c>
+
+00:02:15.750 --> 00:02:15.760 align:start position:0%
+read a DRM cell you have to write it
+ 
+
+00:02:15.760 --> 00:02:18.270 align:start position:0%
+read a DRM cell you have to write it
+back<00:02:16.040><c> in</c><00:02:16.680><c> it</c><00:02:16.840><c> loses</c><00:02:17.200><c> the</c><00:02:17.400><c> value</c><00:02:17.760><c> as</c><00:02:17.879><c> it</c><00:02:18.040><c> gets</c>
+
+00:02:18.270 --> 00:02:18.280 align:start position:0%
+back in it loses the value as it gets
+ 
+
+00:02:18.280 --> 00:02:21.630 align:start position:0%
+back in it loses the value as it gets
+red<00:02:19.080><c> so</c><00:02:19.400><c> this</c><00:02:19.519><c> is</c><00:02:19.840><c> what</c><00:02:19.959><c> is</c><00:02:20.640><c> usually</c><00:02:21.080><c> called</c><00:02:21.400><c> a</c>
+
+00:02:21.630 --> 00:02:21.640 align:start position:0%
+red so this is what is usually called a
+ 
+
+00:02:21.640 --> 00:02:24.670 align:start position:0%
+red so this is what is usually called a
+6t<00:02:22.280><c> cell</c><00:02:22.640><c> or</c><00:02:22.840><c> six</c><00:02:23.160><c> transistor</c><00:02:23.640><c> cell</c><00:02:24.360><c> there</c><00:02:24.480><c> are</c>
+
+00:02:24.670 --> 00:02:24.680 align:start position:0%
+6t cell or six transistor cell there are
+ 
+
+00:02:24.680 --> 00:02:27.350 align:start position:0%
+6t cell or six transistor cell there are
+two<00:02:25.120><c> transistors</c><00:02:26.120><c> that</c><00:02:26.519><c> are</c><00:02:26.760><c> there</c><00:02:26.959><c> for</c>
+
+00:02:27.350 --> 00:02:27.360 align:start position:0%
+two transistors that are there for
+ 
+
+00:02:27.360 --> 00:02:29.229 align:start position:0%
+two transistors that are there for
+connecting<00:02:27.840><c> to</c><00:02:28.040><c> the</c><00:02:28.160><c> cell</c><00:02:28.840><c> and</c><00:02:28.959><c> there</c><00:02:29.080><c> are</c>
+
+00:02:29.229 --> 00:02:29.239 align:start position:0%
+connecting to the cell and there are
+ 
+
+00:02:29.239 --> 00:02:31.750 align:start position:0%
+connecting to the cell and there are
+four<00:02:29.440><c> transist</c><00:02:30.120><c> s</c><00:02:30.560><c> in</c><00:02:30.720><c> the</c><00:02:30.840><c> cell</c><00:02:31.200><c> itself</c>
+
+00:02:31.750 --> 00:02:31.760 align:start position:0%
+four transist s in the cell itself
+ 
+
+00:02:31.760 --> 00:02:33.750 align:start position:0%
+four transist s in the cell itself
+because<00:02:32.040><c> each</c><00:02:32.200><c> of</c><00:02:32.319><c> the</c><00:02:32.480><c> inverters</c><00:02:33.000><c> has</c><00:02:33.160><c> two</c>
+
+00:02:33.750 --> 00:02:33.760 align:start position:0%
+because each of the inverters has two
+ 
+
+00:02:33.760 --> 00:02:37.750 align:start position:0%
+because each of the inverters has two
+transistors<00:02:34.760><c> this</c><00:02:34.959><c> is</c><00:02:35.480><c> of</c><00:02:35.640><c> course</c><00:02:35.920><c> a</c><00:02:36.080><c> 1T</c><00:02:36.760><c> cell</c>
+
+00:02:37.750 --> 00:02:37.760 align:start position:0%
+transistors this is of course a 1T cell
+ 
+
+00:02:37.760 --> 00:02:40.869 align:start position:0%
+transistors this is of course a 1T cell
+now<00:02:38.360><c> the</c><00:02:38.599><c> area</c><00:02:39.200><c> occupied</c><00:02:39.800><c> by</c><00:02:39.920><c> an</c><00:02:40.080><c> SRAM</c><00:02:40.519><c> cell</c>
+
+00:02:40.869 --> 00:02:40.879 align:start position:0%
+now the area occupied by an SRAM cell
+ 
+
+00:02:40.879 --> 00:02:42.830 align:start position:0%
+now the area occupied by an SRAM cell
+obviously<00:02:41.319><c> is</c><00:02:41.480><c> the</c><00:02:41.640><c> area</c><00:02:41.959><c> occupied</c><00:02:42.400><c> by</c><00:02:42.599><c> about</c>
+
+00:02:42.830 --> 00:02:42.840 align:start position:0%
+obviously is the area occupied by about
+ 
+
+00:02:42.840 --> 00:02:43.670 align:start position:0%
+obviously is the area occupied by about
+six
+
+00:02:43.670 --> 00:02:43.680 align:start position:0%
+six
+ 
+
+00:02:43.680 --> 00:02:46.509 align:start position:0%
+six
+transistors<00:02:44.680><c> the</c><00:02:44.879><c> area</c><00:02:45.159><c> of</c><00:02:45.239><c> the</c><00:02:45.400><c> dram</c><00:02:45.879><c> cell</c><00:02:46.319><c> it</c>
+
+00:02:46.509 --> 00:02:46.519 align:start position:0%
+transistors the area of the dram cell it
+ 
+
+00:02:46.519 --> 00:02:48.350 align:start position:0%
+transistors the area of the dram cell it
+looks<00:02:46.920><c> like</c><00:02:47.440><c> it's</c><00:02:47.640><c> the</c><00:02:47.760><c> area</c><00:02:48.000><c> of</c><00:02:48.120><c> one</c>
+
+00:02:48.350 --> 00:02:48.360 align:start position:0%
+looks like it's the area of one
+ 
+
+00:02:48.360 --> 00:02:51.630 align:start position:0%
+looks like it's the area of one
+transistor<00:02:49.280><c> and</c><00:02:49.480><c> the</c><00:02:49.640><c> area</c><00:02:49.840><c> of</c><00:02:49.959><c> a</c><00:02:50.640><c> capacitor</c>
+
+00:02:51.630 --> 00:02:51.640 align:start position:0%
+transistor and the area of a capacitor
+ 
+
+00:02:51.640 --> 00:02:54.630 align:start position:0%
+transistor and the area of a capacitor
+the<00:02:51.840><c> bigger</c><00:02:52.280><c> this</c><00:02:52.879><c> capacitor</c><00:02:53.879><c> the</c><00:02:54.080><c> longer</c><00:02:54.480><c> it</c>
+
+00:02:54.630 --> 00:02:54.640 align:start position:0%
+the bigger this capacitor the longer it
+ 
+
+00:02:54.640 --> 00:02:57.030 align:start position:0%
+the bigger this capacitor the longer it
+can<00:02:54.879><c> retain</c><00:02:55.840><c> something</c><00:02:56.200><c> that</c><00:02:56.360><c> corresponds</c><00:02:56.920><c> to</c>
+
+00:02:57.030 --> 00:02:57.040 align:start position:0%
+can retain something that corresponds to
+ 
+
+00:02:57.040 --> 00:02:59.430 align:start position:0%
+can retain something that corresponds to
+a<00:02:57.159><c> one</c><00:02:57.319><c> or</c><00:02:57.480><c> a</c><00:02:57.640><c> zero</c><00:02:58.280><c> before</c><00:02:58.519><c> it</c><00:02:58.720><c> gets</c><00:02:58.920><c> lost</c><00:02:59.280><c> so</c>
+
+00:02:59.430 --> 00:02:59.440 align:start position:0%
+a one or a zero before it gets lost so
+ 
+
+00:02:59.440 --> 00:03:02.390 align:start position:0%
+a one or a zero before it gets lost so
+we<00:02:59.560><c> want</c><00:03:00.000><c> this</c><00:03:00.239><c> capacitor</c><00:03:00.720><c> to</c><00:03:00.840><c> be</c><00:03:01.080><c> big</c><00:03:02.040><c> a</c>
+
+00:03:02.390 --> 00:03:02.400 align:start position:0%
+we want this capacitor to be big a
+ 
+
+00:03:02.400 --> 00:03:05.309 align:start position:0%
+we want this capacitor to be big a
+capacitor<00:03:03.400><c> can</c><00:03:03.599><c> be</c><00:03:03.760><c> viewed</c><00:03:04.159><c> as</c><00:03:04.599><c> two</c><00:03:04.920><c> metal</c>
+
+00:03:05.309 --> 00:03:05.319 align:start position:0%
+capacitor can be viewed as two metal
+ 
+
+00:03:05.319 --> 00:03:08.229 align:start position:0%
+capacitor can be viewed as two metal
+plates<00:03:06.200><c> placed</c><00:03:06.799><c> very</c><00:03:07.080><c> close</c><00:03:07.360><c> to</c><00:03:07.480><c> each</c><00:03:07.640><c> other</c>
+
+00:03:08.229 --> 00:03:08.239 align:start position:0%
+plates placed very close to each other
+ 
+
+00:03:08.239 --> 00:03:10.789 align:start position:0%
+plates placed very close to each other
+the<00:03:08.360><c> bigger</c><00:03:08.720><c> the</c><00:03:08.920><c> area</c><00:03:09.239><c> of</c><00:03:09.400><c> the</c><00:03:09.680><c> plates</c><00:03:10.680><c> the</c>
+
+00:03:10.789 --> 00:03:10.799 align:start position:0%
+the bigger the area of the plates the
+ 
+
+00:03:10.799 --> 00:03:12.910 align:start position:0%
+the bigger the area of the plates the
+bigger<00:03:11.159><c> the</c><00:03:11.360><c> capacitance</c><00:03:12.040><c> of</c><00:03:12.200><c> the</c><00:03:12.360><c> capacitor</c>
+
+00:03:12.910 --> 00:03:12.920 align:start position:0%
+bigger the capacitance of the capacitor
+ 
+
+00:03:12.920 --> 00:03:16.350 align:start position:0%
+bigger the capacitance of the capacitor
+it<00:03:13.040><c> can</c><00:03:13.200><c> keep</c><00:03:13.440><c> more</c><00:03:13.959><c> charge</c><00:03:14.959><c> so</c><00:03:15.159><c> it</c><00:03:15.319><c> looks</c><00:03:15.599><c> like</c>
+
+00:03:16.350 --> 00:03:16.360 align:start position:0%
+it can keep more charge so it looks like
+ 
+
+00:03:16.360 --> 00:03:19.149 align:start position:0%
+it can keep more charge so it looks like
+to<00:03:16.560><c> make</c><00:03:16.720><c> a</c><00:03:16.879><c> good</c><00:03:17.080><c> dram</c><00:03:17.519><c> cell</c><00:03:18.480><c> we</c><00:03:18.560><c> will</c><00:03:18.840><c> have</c><00:03:18.959><c> to</c>
+
+00:03:19.149 --> 00:03:19.159 align:start position:0%
+to make a good dram cell we will have to
+ 
+
+00:03:19.159 --> 00:03:21.830 align:start position:0%
+to make a good dram cell we will have to
+make<00:03:19.360><c> a</c><00:03:19.560><c> big</c><00:03:19.879><c> cell</c><00:03:20.519><c> because</c><00:03:20.840><c> this</c><00:03:21.080><c> capacitor</c>
+
+00:03:21.830 --> 00:03:21.840 align:start position:0%
+make a big cell because this capacitor
+ 
+
+00:03:21.840 --> 00:03:24.670 align:start position:0%
+make a big cell because this capacitor
+will<00:03:22.040><c> need</c><00:03:22.280><c> a</c><00:03:22.400><c> lot</c><00:03:22.560><c> of</c><00:03:22.760><c> metal</c><00:03:23.120><c> area</c><00:03:23.959><c> to</c><00:03:24.120><c> build</c>
+
+00:03:24.670 --> 00:03:24.680 align:start position:0%
+will need a lot of metal area to build
+ 
+
+00:03:24.680 --> 00:03:27.350 align:start position:0%
+will need a lot of metal area to build
+large<00:03:25.120><c> plates</c><00:03:26.120><c> but</c><00:03:26.360><c> this</c><00:03:26.480><c> is</c><00:03:26.720><c> not</c><00:03:27.080><c> how</c><00:03:27.200><c> we</c>
+
+00:03:27.350 --> 00:03:27.360 align:start position:0%
+large plates but this is not how we
+ 
+
+00:03:27.360 --> 00:03:30.110 align:start position:0%
+large plates but this is not how we
+build<00:03:27.640><c> this</c><00:03:28.040><c> capacitor</c><00:03:29.040><c> the</c><00:03:29.239><c> transistor</c><00:03:30.000><c> and</c>
+
+00:03:30.110 --> 00:03:30.120 align:start position:0%
+build this capacitor the transistor and
+ 
+
+00:03:30.120 --> 00:03:32.869 align:start position:0%
+build this capacitor the transistor and
+the<00:03:30.360><c> capacitor</c><00:03:30.959><c> itself</c><00:03:31.599><c> are</c><00:03:31.920><c> actually</c><00:03:32.319><c> built</c>
+
+00:03:32.869 --> 00:03:32.879 align:start position:0%
+the capacitor itself are actually built
+ 
+
+00:03:32.879 --> 00:03:35.589 align:start position:0%
+the capacitor itself are actually built
+as<00:03:33.000><c> a</c><00:03:33.239><c> single</c><00:03:33.680><c> transistor</c><00:03:34.560><c> in</c><00:03:34.680><c> a</c><00:03:34.920><c> technology</c>
+
+00:03:35.589 --> 00:03:35.599 align:start position:0%
+as a single transistor in a technology
+ 
+
+00:03:35.599 --> 00:03:37.990 align:start position:0%
+as a single transistor in a technology
+that<00:03:35.720><c> is</c><00:03:35.879><c> called</c><00:03:36.159><c> trench</c><00:03:36.599><c> cell</c><00:03:37.280><c> so</c><00:03:37.560><c> this</c><00:03:37.799><c> end</c>
+
+00:03:37.990 --> 00:03:38.000 align:start position:0%
+that is called trench cell so this end
+ 
+
+00:03:38.000 --> 00:03:40.509 align:start position:0%
+that is called trench cell so this end
+of<00:03:38.159><c> this</c><00:03:38.360><c> transistor</c><00:03:38.959><c> is</c><00:03:39.200><c> simply</c><00:03:39.959><c> buried</c>
+
+00:03:40.509 --> 00:03:40.519 align:start position:0%
+of this transistor is simply buried
+ 
+
+00:03:40.519 --> 00:03:43.030 align:start position:0%
+of this transistor is simply buried
+deeply<00:03:41.519><c> into</c><00:03:41.799><c> the</c><00:03:41.959><c> Silicon</c><00:03:42.439><c> substrate</c><00:03:42.920><c> when</c>
+
+00:03:43.030 --> 00:03:43.040 align:start position:0%
+deeply into the Silicon substrate when
+ 
+
+00:03:43.040 --> 00:03:45.070 align:start position:0%
+deeply into the Silicon substrate when
+we<00:03:43.200><c> manufacture</c><00:03:43.760><c> transistors</c><00:03:44.400><c> so</c><00:03:44.599><c> really</c><00:03:44.840><c> the</c>
+
+00:03:45.070 --> 00:03:45.080 align:start position:0%
+we manufacture transistors so really the
+ 
+
+00:03:45.080 --> 00:03:47.030 align:start position:0%
+we manufacture transistors so really the
+capacitor<00:03:45.599><c> is</c><00:03:45.840><c> kind</c><00:03:45.959><c> of</c><00:03:46.120><c> buried</c><00:03:46.560><c> under</c><00:03:46.879><c> the</c>
+
+00:03:47.030 --> 00:03:47.040 align:start position:0%
+capacitor is kind of buried under the
+ 
+
+00:03:47.040 --> 00:03:49.190 align:start position:0%
+capacitor is kind of buried under the
+transistor<00:03:48.000><c> so</c><00:03:48.159><c> we</c><00:03:48.319><c> really</c><00:03:48.560><c> get</c><00:03:48.720><c> the</c><00:03:48.840><c> area</c><00:03:49.080><c> of</c>
+
+00:03:49.190 --> 00:03:49.200 align:start position:0%
+transistor so we really get the area of
+ 
+
+00:03:49.200 --> 00:03:51.190 align:start position:0%
+transistor so we really get the area of
+the<00:03:49.319><c> transistor</c><00:03:49.840><c> itself</c><00:03:50.480><c> and</c><00:03:50.640><c> not</c><00:03:50.920><c> much</c>
+
+00:03:51.190 --> 00:03:51.200 align:start position:0%
+the transistor itself and not much
+ 
+
+00:03:51.200 --> 00:03:53.429 align:start position:0%
+the transistor itself and not much
+around<00:03:51.519><c> it</c><00:03:51.920><c> you</c><00:03:52.000><c> can</c><00:03:52.159><c> see</c><00:03:52.439><c> also</c><00:03:52.720><c> that</c><00:03:52.879><c> the</c><00:03:53.000><c> dram</c>
+
+00:03:53.429 --> 00:03:53.439 align:start position:0%
+around it you can see also that the dram
+ 
+
+00:03:53.439 --> 00:03:55.949 align:start position:0%
+around it you can see also that the dram
+cell<00:03:54.439><c> can</c><00:03:54.599><c> be</c><00:03:54.799><c> smaller</c><00:03:55.280><c> because</c><00:03:55.519><c> it</c><00:03:55.680><c> doesn't</c>
+
+00:03:55.949 --> 00:03:55.959 align:start position:0%
+cell can be smaller because it doesn't
+ 
+
+00:03:55.959 --> 00:03:58.589 align:start position:0%
+cell can be smaller because it doesn't
+need<00:03:56.200><c> this</c><00:03:56.360><c> second</c><00:03:56.680><c> bit</c><00:03:57.000><c> line</c><00:03:58.000><c> we</c><00:03:58.159><c> just</c><00:03:58.319><c> need</c>
+
+00:03:58.589 --> 00:03:58.599 align:start position:0%
+need this second bit line we just need
+ 
+
+00:03:58.599 --> 00:04:00.789 align:start position:0%
+need this second bit line we just need
+one<00:03:59.319><c> so</c><00:03:59.560><c> that</c><00:03:59.879><c> also</c><00:04:00.079><c> makes</c><00:04:00.280><c> it</c><00:04:00.439><c> slightly</c>
+
+00:04:00.789 --> 00:04:00.799 align:start position:0%
+one so that also makes it slightly
+ 
+
+00:04:00.799 --> 00:04:02.550 align:start position:0%
+one so that also makes it slightly
+smaller<00:04:01.159><c> we</c><00:04:01.280><c> don't</c><00:04:01.439><c> need</c><00:04:01.680><c> as</c><00:04:01.840><c> much</c><00:04:02.079><c> wiring</c>
+
+00:04:02.550 --> 00:04:02.560 align:start position:0%
+smaller we don't need as much wiring
+ 
+
+00:04:02.560 --> 00:04:05.280 align:start position:0%
+smaller we don't need as much wiring
+there
+

@@ -1,0 +1,736 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.230 align:start position:0%
+ 
+so<00:00:00.399><c> let's</c><00:00:00.640><c> now</c><00:00:00.919><c> Define</c><00:00:01.400><c> what</c><00:00:01.560><c> does</c><00:00:01.719><c> it</c><00:00:01.880><c> mean</c>
+
+00:00:02.230 --> 00:00:02.240 align:start position:0%
+so let's now Define what does it mean
+ 
+
+00:00:02.240 --> 00:00:04.990 align:start position:0%
+so let's now Define what does it mean
+for<00:00:02.520><c> caches</c><00:00:02.879><c> to</c><00:00:03.040><c> be</c><00:00:03.240><c> coherent</c><00:00:04.200><c> intuitively</c>
+
+00:00:04.990 --> 00:00:05.000 align:start position:0%
+for caches to be coherent intuitively
+ 
+
+00:00:05.000 --> 00:00:06.950 align:start position:0%
+for caches to be coherent intuitively
+they're<00:00:05.279><c> coherent</c><00:00:05.839><c> when</c><00:00:06.160><c> the</c><00:00:06.319><c> whole</c><00:00:06.640><c> thing</c>
+
+00:00:06.950 --> 00:00:06.960 align:start position:0%
+they're coherent when the whole thing
+ 
+
+00:00:06.960 --> 00:00:09.310 align:start position:0%
+they're coherent when the whole thing
+behaves<00:00:07.439><c> like</c><00:00:07.640><c> there</c><00:00:07.759><c> was</c><00:00:08.080><c> no</c><00:00:08.360><c> caches</c><00:00:09.160><c> but</c>
+
+00:00:09.310 --> 00:00:09.320 align:start position:0%
+behaves like there was no caches but
+ 
+
+00:00:09.320 --> 00:00:11.310 align:start position:0%
+behaves like there was no caches but
+let's<00:00:09.559><c> define</c><00:00:09.840><c> more</c><00:00:10.120><c> precisely</c><00:00:10.639><c> what</c><00:00:10.880><c> exactly</c>
+
+00:00:11.310 --> 00:00:11.320 align:start position:0%
+let's define more precisely what exactly
+ 
+
+00:00:11.320 --> 00:00:13.589 align:start position:0%
+let's define more precisely what exactly
+does<00:00:11.480><c> it</c><00:00:11.639><c> mean</c><00:00:12.639><c> there</c><00:00:12.759><c> are</c><00:00:13.080><c> three</c>
+
+00:00:13.589 --> 00:00:13.599 align:start position:0%
+does it mean there are three
+ 
+
+00:00:13.599 --> 00:00:17.429 align:start position:0%
+does it mean there are three
+requirements<00:00:14.599><c> for</c><00:00:14.879><c> coherence</c><00:00:15.759><c> the</c><00:00:16.039><c> first</c><00:00:16.440><c> one</c>
+
+00:00:17.429 --> 00:00:17.439 align:start position:0%
+requirements for coherence the first one
+ 
+
+00:00:17.439 --> 00:00:21.029 align:start position:0%
+requirements for coherence the first one
+says<00:00:17.880><c> that</c><00:00:18.600><c> the</c><00:00:19.119><c> read</c><00:00:20.119><c> let's</c><00:00:20.359><c> call</c><00:00:20.600><c> that</c><00:00:20.760><c> read</c>
+
+00:00:21.029 --> 00:00:21.039 align:start position:0%
+says that the read let's call that read
+ 
+
+00:00:21.039 --> 00:00:25.750 align:start position:0%
+says that the read let's call that read
+R<00:00:21.920><c> from</c><00:00:22.160><c> some</c><00:00:22.480><c> address</c><00:00:22.920><c> X</c><00:00:23.640><c> on</c><00:00:23.840><c> some</c><00:00:24.199><c> core</c><00:00:24.760><c> C1</c>
+
+00:00:25.750 --> 00:00:25.760 align:start position:0%
+R from some address X on some core C1
+ 
+
+00:00:25.760 --> 00:00:28.990 align:start position:0%
+R from some address X on some core C1
+will<00:00:26.240><c> return</c><00:00:26.480><c> the</c><00:00:27.119><c> value</c><00:00:28.119><c> written</c><00:00:28.599><c> by</c><00:00:28.760><c> the</c>
+
+00:00:28.990 --> 00:00:29.000 align:start position:0%
+will return the value written by the
+ 
+
+00:00:29.000 --> 00:00:32.150 align:start position:0%
+will return the value written by the
+most<00:00:29.359><c> recent</c><00:00:29.679><c> WR</c><00:00:30.320><c> let's</c><00:00:30.560><c> call</c><00:00:30.880><c> that</c><00:00:31.080><c> right</c><00:00:31.480><c> W</c>
+
+00:00:32.150 --> 00:00:32.160 align:start position:0%
+most recent WR let's call that right W
+ 
+
+00:00:32.160 --> 00:00:34.910 align:start position:0%
+most recent WR let's call that right W
+to<00:00:32.360><c> the</c><00:00:32.520><c> same</c><00:00:33.000><c> location</c><00:00:34.000><c> and</c><00:00:34.200><c> that</c><00:00:34.399><c> right</c><00:00:34.719><c> was</c>
+
+00:00:34.910 --> 00:00:34.920 align:start position:0%
+to the same location and that right was
+ 
+
+00:00:34.920 --> 00:00:38.790 align:start position:0%
+to the same location and that right was
+on<00:00:35.160><c> the</c><00:00:35.360><c> same</c><00:00:35.719><c> core</c><00:00:36.280><c> C1</c><00:00:37.280><c> if</c><00:00:37.480><c> no</c><00:00:37.680><c> other</c><00:00:38.040><c> core</c><00:00:38.600><c> has</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+on the same core C1 if no other core has
+ 
+
+00:00:38.800 --> 00:00:41.190 align:start position:0%
+on the same core C1 if no other core has
+written<00:00:39.200><c> to</c><00:00:39.480><c> that</c><00:00:39.680><c> location</c><00:00:40.640><c> between</c><00:00:41.039><c> the</c>
+
+00:00:41.190 --> 00:00:41.200 align:start position:0%
+written to that location between the
+ 
+
+00:00:41.200 --> 00:00:45.790 align:start position:0%
+written to that location between the
+axises<00:00:41.800><c> W</c><00:00:42.559><c> and</c><00:00:42.800><c> R</c><00:00:43.399><c> so</c><00:00:43.680><c> this</c><00:00:44.200><c> first</c><00:00:45.200><c> part</c><00:00:45.520><c> of</c><00:00:45.640><c> the</c>
+
+00:00:45.790 --> 00:00:45.800 align:start position:0%
+axises W and R so this first part of the
+ 
+
+00:00:45.800 --> 00:00:49.750 align:start position:0%
+axises W and R so this first part of the
+coherence<00:00:46.559><c> definition</c><00:00:47.559><c> really</c><00:00:47.920><c> says</c><00:00:48.920><c> that</c><00:00:49.520><c> if</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+coherence definition really says that if
+ 
+
+00:00:49.760 --> 00:00:52.150 align:start position:0%
+coherence definition really says that if
+one<00:00:50.039><c> core</c><00:00:50.360><c> is</c><00:00:50.520><c> operating</c><00:00:50.960><c> on</c><00:00:51.120><c> a</c><00:00:51.320><c> location</c>
+
+00:00:52.150 --> 00:00:52.160 align:start position:0%
+one core is operating on a location
+ 
+
+00:00:52.160 --> 00:00:55.029 align:start position:0%
+one core is operating on a location
+alone<00:00:53.160><c> then</c><00:00:53.359><c> its</c><00:00:53.640><c> reads</c><00:00:54.320><c> should</c><00:00:54.559><c> be</c><00:00:54.760><c> getting</c>
+
+00:00:55.029 --> 00:00:55.039 align:start position:0%
+alone then its reads should be getting
+ 
+
+00:00:55.039 --> 00:00:57.430 align:start position:0%
+alone then its reads should be getting
+the<00:00:55.160><c> most</c><00:00:55.399><c> recent</c><00:00:55.719><c> rides</c><00:00:56.039><c> from</c><00:00:56.199><c> the</c><00:00:56.320><c> same</c><00:00:56.559><c> core</c>
+
+00:00:57.430 --> 00:00:57.440 align:start position:0%
+the most recent rides from the same core
+ 
+
+00:00:57.440 --> 00:01:00.150 align:start position:0%
+the most recent rides from the same core
+this<00:00:57.640><c> basically</c><00:00:58.000><c> says</c><00:00:58.320><c> that</c><00:00:58.800><c> a</c><00:00:59.079><c> coherent</c>
+
+00:01:00.150 --> 00:01:00.160 align:start position:0%
+this basically says that a coherent
+ 
+
+00:01:00.160 --> 00:01:03.590 align:start position:0%
+this basically says that a coherent
+Behavior<00:01:01.239><c> includes</c><00:01:02.239><c> correct</c><00:01:02.680><c> unit</c><00:01:03.079><c> processor</c>
+
+00:01:03.590 --> 00:01:03.600 align:start position:0%
+Behavior includes correct unit processor
+ 
+
+00:01:03.600 --> 00:01:06.149 align:start position:0%
+Behavior includes correct unit processor
+Behavior<00:01:04.320><c> as</c><00:01:04.519><c> long</c><00:01:04.960><c> as</c><00:01:05.320><c> the</c><00:01:05.519><c> location</c><00:01:05.920><c> is</c>
+
+00:01:06.149 --> 00:01:06.159 align:start position:0%
+Behavior as long as the location is
+ 
+
+00:01:06.159 --> 00:01:09.390 align:start position:0%
+Behavior as long as the location is
+accessed<00:01:06.640><c> by</c><00:01:06.799><c> only</c><00:01:07.040><c> one</c><00:01:07.759><c> core</c><00:01:08.759><c> the</c><00:01:09.000><c> second</c>
+
+00:01:09.390 --> 00:01:09.400 align:start position:0%
+accessed by only one core the second
+ 
+
+00:01:09.400 --> 00:01:12.469 align:start position:0%
+accessed by only one core the second
+part<00:01:09.640><c> of</c><00:01:09.799><c> the</c><00:01:10.000><c> definition</c><00:01:10.920><c> says</c><00:01:11.280><c> that</c><00:01:11.759><c> if</c><00:01:12.040><c> core</c>
+
+00:01:12.469 --> 00:01:12.479 align:start position:0%
+part of the definition says that if core
+ 
+
+00:01:12.479 --> 00:01:17.190 align:start position:0%
+part of the definition says that if core
+C1<00:01:13.159><c> wres</c><00:01:13.560><c> to</c><00:01:13.799><c> allocation</c><00:01:14.360><c> X</c><00:01:15.119><c> and</c><00:01:15.360><c> C2</c><00:01:16.360><c> reads</c><00:01:16.799><c> X</c>
+
+00:01:17.190 --> 00:01:17.200 align:start position:0%
+C1 wres to allocation X and C2 reads X
+ 
+
+00:01:17.200 --> 00:01:19.830 align:start position:0%
+C1 wres to allocation X and C2 reads X
+after<00:01:17.479><c> a</c><00:01:17.680><c> sufficient</c><00:01:18.320><c> time</c><00:01:19.159><c> and</c><00:01:19.360><c> if</c><00:01:19.520><c> there</c><00:01:19.640><c> are</c>
+
+00:01:19.830 --> 00:01:19.840 align:start position:0%
+after a sufficient time and if there are
+ 
+
+00:01:19.840 --> 00:01:21.990 align:start position:0%
+after a sufficient time and if there are
+no<00:01:20.040><c> other</c><00:01:20.360><c> rights</c><00:01:20.799><c> that</c><00:01:21.000><c> happen</c><00:01:21.360><c> in</c><00:01:21.560><c> between</c>
+
+00:01:21.990 --> 00:01:22.000 align:start position:0%
+no other rights that happen in between
+ 
+
+00:01:22.000 --> 00:01:26.270 align:start position:0%
+no other rights that happen in between
+c1s<00:01:22.640><c> right</c><00:01:23.000><c> and</c><00:01:23.159><c> c2's</c><00:01:23.720><c> read</c><00:01:24.600><c> then</c><00:01:24.799><c> c2's</c><00:01:25.360><c> read</c>
+
+00:01:26.270 --> 00:01:26.280 align:start position:0%
+c1s right and c2's read then c2's read
+ 
+
+00:01:26.280 --> 00:01:30.149 align:start position:0%
+c1s right and c2's read then c2's read
+must<00:01:26.799><c> return</c><00:01:27.640><c> the</c><00:01:27.880><c> value</c><00:01:28.240><c> C1</c><00:01:28.759><c> wrote</c><00:01:29.600><c> so</c><00:01:29.960><c> pretty</c>
+
+00:01:30.149 --> 00:01:30.159 align:start position:0%
+must return the value C1 wrote so pretty
+ 
+
+00:01:30.159 --> 00:01:32.429 align:start position:0%
+must return the value C1 wrote so pretty
+much<00:01:30.439><c> if</c><00:01:30.640><c> there</c><00:01:30.759><c> is</c><00:01:30.880><c> a</c><00:01:31.079><c> right</c><00:01:31.759><c> and</c><00:01:31.920><c> the</c><00:01:32.079><c> read</c>
+
+00:01:32.429 --> 00:01:32.439 align:start position:0%
+much if there is a right and the read
+ 
+
+00:01:32.439 --> 00:01:35.389 align:start position:0%
+much if there is a right and the read
+happens<00:01:32.920><c> sufficiently</c><00:01:33.920><c> after</c><00:01:34.320><c> that</c><00:01:34.600><c> right</c>
+
+00:01:35.389 --> 00:01:35.399 align:start position:0%
+happens sufficiently after that right
+ 
+
+00:01:35.399 --> 00:01:37.350 align:start position:0%
+happens sufficiently after that right
+then<00:01:35.560><c> the</c><00:01:35.680><c> read</c><00:01:36.040><c> has</c><00:01:36.200><c> to</c><00:01:36.399><c> read</c><00:01:36.720><c> what</c><00:01:36.920><c> the</c><00:01:37.079><c> right</c>
+
+00:01:37.350 --> 00:01:37.360 align:start position:0%
+then the read has to read what the right
+ 
+
+00:01:37.360 --> 00:01:39.710 align:start position:0%
+then the read has to read what the right
+wrote<00:01:38.000><c> except</c><00:01:38.360><c> if</c><00:01:38.520><c> there</c><00:01:38.680><c> was</c><00:01:38.960><c> another</c><00:01:39.399><c> right</c>
+
+00:01:39.710 --> 00:01:39.720 align:start position:0%
+wrote except if there was another right
+ 
+
+00:01:39.720 --> 00:01:41.310 align:start position:0%
+wrote except if there was another right
+in<00:01:39.880><c> between</c><00:01:40.280><c> in</c><00:01:40.439><c> which</c><00:01:40.640><c> case</c><00:01:40.799><c> the</c><00:01:40.920><c> read</c><00:01:41.159><c> is</c>
+
+00:01:41.310 --> 00:01:41.320 align:start position:0%
+in between in which case the read is
+ 
+
+00:01:41.320 --> 00:01:43.510 align:start position:0%
+in between in which case the read is
+allowed<00:01:41.759><c> to</c><00:01:42.119><c> return</c><00:01:42.439><c> that</c><00:01:42.720><c> value</c><00:01:43.040><c> instead</c><00:01:43.320><c> of</c>
+
+00:01:43.510 --> 00:01:43.520 align:start position:0%
+allowed to return that value instead of
+ 
+
+00:01:43.520 --> 00:01:47.109 align:start position:0%
+allowed to return that value instead of
+this<00:01:43.680><c> one</c><00:01:44.399><c> so</c><00:01:44.799><c> this</c><00:01:45.200><c> part</c><00:01:45.719><c> of</c><00:01:45.960><c> the</c><00:01:46.119><c> definition</c>
+
+00:01:47.109 --> 00:01:47.119 align:start position:0%
+this one so this part of the definition
+ 
+
+00:01:47.119 --> 00:01:49.630 align:start position:0%
+this one so this part of the definition
+really<00:01:47.719><c> prevents</c><00:01:48.719><c> the</c><00:01:48.920><c> case</c><00:01:49.240><c> when</c><00:01:49.439><c> for</c>
+
+00:01:49.630 --> 00:01:49.640 align:start position:0%
+really prevents the case when for
+ 
+
+00:01:49.640 --> 00:01:52.630 align:start position:0%
+really prevents the case when for
+example<00:01:50.600><c> C1</c><00:01:51.280><c> writes</c><00:01:51.680><c> something</c><00:01:51.960><c> to</c><00:01:52.159><c> its</c><00:01:52.320><c> own</c>
+
+00:01:52.630 --> 00:01:52.640 align:start position:0%
+example C1 writes something to its own
+ 
+
+00:01:52.640 --> 00:01:55.709 align:start position:0%
+example C1 writes something to its own
+cache<00:01:53.159><c> C2</c><00:01:53.640><c> reads</c><00:01:54.159><c> forever</c><00:01:54.759><c> from</c><00:01:55.000><c> its</c><00:01:55.240><c> cache</c><00:01:55.520><c> a</c>
+
+00:01:55.709 --> 00:01:55.719 align:start position:0%
+cache C2 reads forever from its cache a
+ 
+
+00:01:55.719 --> 00:01:58.230 align:start position:0%
+cache C2 reads forever from its cache a
+stale<00:01:56.280><c> value</c><00:01:57.280><c> to</c><00:01:57.439><c> be</c>
+
+00:01:58.230 --> 00:01:58.240 align:start position:0%
+stale value to be
+ 
+
+00:01:58.240 --> 00:02:01.990 align:start position:0%
+stale value to be
+coherent<00:01:59.240><c> if</c><00:01:59.439><c> C1</c><00:02:00.039><c> wres</c><00:02:01.039><c> then</c><00:02:01.399><c> after</c><00:02:01.719><c> some</c>
+
+00:02:01.990 --> 00:02:02.000 align:start position:0%
+coherent if C1 wres then after some
+ 
+
+00:02:02.000 --> 00:02:05.029 align:start position:0%
+coherent if C1 wres then after some
+sufficient<00:02:02.520><c> time</c><00:02:02.840><c> C2</c><00:02:03.560><c> must</c><00:02:03.960><c> start</c><00:02:04.320><c> reading</c>
+
+00:02:05.029 --> 00:02:05.039 align:start position:0%
+sufficient time C2 must start reading
+ 
+
+00:02:05.039 --> 00:02:08.190 align:start position:0%
+sufficient time C2 must start reading
+the<00:02:05.200><c> new</c><00:02:05.479><c> value</c><00:02:06.399><c> even</c><00:02:06.680><c> if</c><00:02:06.920><c> maybe</c><00:02:07.520><c> a</c><00:02:07.759><c> normal</c>
+
+00:02:08.190 --> 00:02:08.200 align:start position:0%
+the new value even if maybe a normal
+ 
+
+00:02:08.200 --> 00:02:09.910 align:start position:0%
+the new value even if maybe a normal
+cache<00:02:08.520><c> with</c><00:02:08.679><c> no</c><00:02:08.879><c> coherence</c><00:02:09.319><c> support</c><00:02:09.720><c> would</c>
+
+00:02:09.910 --> 00:02:09.920 align:start position:0%
+cache with no coherence support would
+ 
+
+00:02:09.920 --> 00:02:11.350 align:start position:0%
+cache with no coherence support would
+just<00:02:10.080><c> keep</c><00:02:10.280><c> reading</c><00:02:10.599><c> the</c><00:02:10.720><c> stale</c><00:02:11.039><c> value</c>
+
+00:02:11.350 --> 00:02:11.360 align:start position:0%
+just keep reading the stale value
+ 
+
+00:02:11.360 --> 00:02:13.710 align:start position:0%
+just keep reading the stale value
+because<00:02:11.560><c> it</c><00:02:11.720><c> never</c><00:02:11.959><c> gets</c><00:02:12.400><c> replaced</c><00:02:13.400><c> so</c><00:02:13.560><c> we</c>
+
+00:02:13.710 --> 00:02:13.720 align:start position:0%
+because it never gets replaced so we
+ 
+
+00:02:13.720 --> 00:02:17.070 align:start position:0%
+because it never gets replaced so we
+have<00:02:13.840><c> to</c><00:02:14.040><c> do</c><00:02:14.400><c> something</c><00:02:14.879><c> in</c><00:02:15.040><c> order</c><00:02:15.720><c> to</c><00:02:16.080><c> make</c>
+
+00:02:17.070 --> 00:02:17.080 align:start position:0%
+have to do something in order to make
+ 
+
+00:02:17.080 --> 00:02:19.190 align:start position:0%
+have to do something in order to make
+this<00:02:17.360><c> part</c><00:02:17.560><c> of</c><00:02:17.680><c> the</c><00:02:17.840><c> definition</c><00:02:18.360><c> work</c><00:02:18.879><c> for</c>
+
+00:02:19.190 --> 00:02:19.200 align:start position:0%
+this part of the definition work for
+ 
+
+00:02:19.200 --> 00:02:21.630 align:start position:0%
+this part of the definition work for
+private<00:02:19.560><c> caches</c><00:02:20.160><c> that</c><00:02:20.280><c> are</c><00:02:20.480><c> caching</c><00:02:20.920><c> data</c><00:02:21.480><c> in</c>
+
+00:02:21.630 --> 00:02:21.640 align:start position:0%
+private caches that are caching data in
+ 
+
+00:02:21.640 --> 00:02:23.869 align:start position:0%
+private caches that are caching data in
+a<00:02:21.840><c> coherent</c><00:02:22.319><c> system</c><00:02:22.879><c> so</c><00:02:23.080><c> we</c><00:02:23.200><c> must</c><00:02:23.440><c> do</c>
+
+00:02:23.869 --> 00:02:23.879 align:start position:0%
+a coherent system so we must do
+ 
+
+00:02:23.879 --> 00:02:26.390 align:start position:0%
+a coherent system so we must do
+something<00:02:24.560><c> to</c><00:02:24.800><c> make</c><00:02:25.120><c> these</c><00:02:25.400><c> caches</c><00:02:25.879><c> behave</c>
+
+00:02:26.390 --> 00:02:26.400 align:start position:0%
+something to make these caches behave
+ 
+
+00:02:26.400 --> 00:02:29.710 align:start position:0%
+something to make these caches behave
+this<00:02:26.599><c> way</c><00:02:27.440><c> and</c><00:02:27.680><c> finally</c><00:02:28.120><c> the</c><00:02:28.440><c> third</c><00:02:28.879><c> part</c><00:02:29.560><c> of</c>
+
+00:02:29.710 --> 00:02:29.720 align:start position:0%
+this way and finally the third part of
+ 
+
+00:02:29.720 --> 00:02:32.229 align:start position:0%
+this way and finally the third part of
+the<00:02:29.920><c> the</c><00:02:30.080><c> definition</c><00:02:30.879><c> says</c><00:02:31.280><c> that</c><00:02:31.720><c> if</c><00:02:31.879><c> there</c><00:02:32.040><c> is</c>
+
+00:02:32.229 --> 00:02:32.239 align:start position:0%
+the the definition says that if there is
+ 
+
+00:02:32.239 --> 00:02:34.949 align:start position:0%
+the the definition says that if there is
+more<00:02:32.480><c> than</c><00:02:32.640><c> one</c><00:02:32.959><c> right</c><00:02:33.160><c> to</c><00:02:33.319><c> the</c><00:02:33.480><c> same</c><00:02:33.959><c> location</c>
+
+00:02:34.949 --> 00:02:34.959 align:start position:0%
+more than one right to the same location
+ 
+
+00:02:34.959 --> 00:02:37.430 align:start position:0%
+more than one right to the same location
+then<00:02:35.200><c> these</c><00:02:35.440><c> rights</c><00:02:35.720><c> must</c><00:02:35.959><c> be</c><00:02:36.440><c> serialized</c>
+
+00:02:37.430 --> 00:02:37.440 align:start position:0%
+then these rights must be serialized
+ 
+
+00:02:37.440 --> 00:02:40.869 align:start position:0%
+then these rights must be serialized
+that<00:02:37.840><c> is</c><00:02:38.840><c> any</c><00:02:39.159><c> two</c><00:02:39.440><c> rights</c><00:02:40.080><c> to</c><00:02:40.280><c> the</c><00:02:40.480><c> same</c>
+
+00:02:40.869 --> 00:02:40.879 align:start position:0%
+that is any two rights to the same
+ 
+
+00:02:40.879 --> 00:02:44.149 align:start position:0%
+that is any two rights to the same
+location<00:02:41.879><c> must</c><00:02:42.159><c> be</c><00:02:42.319><c> seen</c><00:02:42.640><c> to</c><00:02:42.879><c> occur</c><00:02:43.760><c> in</c><00:02:43.959><c> the</c>
+
+00:02:44.149 --> 00:02:44.159 align:start position:0%
+location must be seen to occur in the
+ 
+
+00:02:44.159 --> 00:02:47.949 align:start position:0%
+location must be seen to occur in the
+same<00:02:44.440><c> order</c><00:02:45.159><c> on</c><00:02:45.400><c> all</c><00:02:45.640><c> the</c><00:02:46.319><c> cores</c><00:02:47.319><c> what</c><00:02:47.640><c> this</c>
+
+00:02:47.949 --> 00:02:47.959 align:start position:0%
+same order on all the cores what this
+ 
+
+00:02:47.959 --> 00:02:50.430 align:start position:0%
+same order on all the cores what this
+part<00:02:48.200><c> of</c><00:02:48.360><c> the</c><00:02:48.560><c> definition</c><00:02:49.159><c> really</c><00:02:49.480><c> says</c>
+
+00:02:50.430 --> 00:02:50.440 align:start position:0%
+part of the definition really says
+ 
+
+00:02:50.440 --> 00:02:52.190 align:start position:0%
+part of the definition really says
+different<00:02:50.800><c> cores</c><00:02:51.200><c> should</c><00:02:51.400><c> not</c><00:02:51.599><c> be</c><00:02:51.760><c> able</c><00:02:52.000><c> to</c>
+
+00:02:52.190 --> 00:02:52.200 align:start position:0%
+different cores should not be able to
+ 
+
+00:02:52.200 --> 00:02:54.110 align:start position:0%
+different cores should not be able to
+disagree<00:02:52.800><c> about</c><00:02:53.120><c> which</c><00:02:53.360><c> right</c><00:02:53.599><c> occurred</c>
+
+00:02:54.110 --> 00:02:54.120 align:start position:0%
+disagree about which right occurred
+ 
+
+00:02:54.120 --> 00:02:56.830 align:start position:0%
+disagree about which right occurred
+first<00:02:54.400><c> and</c><00:02:54.599><c> which</c><00:02:54.840><c> occurred</c><00:02:55.560><c> second</c><00:02:56.560><c> note</c>
+
+00:02:56.830 --> 00:02:56.840 align:start position:0%
+first and which occurred second note
+ 
+
+00:02:56.840 --> 00:02:59.070 align:start position:0%
+first and which occurred second note
+that<00:02:57.040><c> the</c><00:02:57.239><c> second</c><00:02:57.640><c> part</c><00:02:57.879><c> of</c><00:02:58.000><c> the</c><00:02:58.200><c> definition</c>
+
+00:02:59.070 --> 00:02:59.080 align:start position:0%
+that the second part of the definition
+ 
+
+00:02:59.080 --> 00:03:02.430 align:start position:0%
+that the second part of the definition
+doesn't<00:02:59.480><c> really</c><00:03:00.239><c> require</c><00:03:00.800><c> this</c><00:03:01.000><c> to</c><00:03:01.440><c> happen</c>
+
+00:03:02.430 --> 00:03:02.440 align:start position:0%
+doesn't really require this to happen
+ 
+
+00:03:02.440 --> 00:03:04.710 align:start position:0%
+doesn't really require this to happen
+let's<00:03:02.640><c> say</c><00:03:02.840><c> there</c><00:03:02.959><c> was</c><00:03:03.159><c> one</c><00:03:03.360><c> right</c><00:03:03.599><c> on</c><00:03:03.760><c> C1</c><00:03:04.519><c> and</c>
+
+00:03:04.710 --> 00:03:04.720 align:start position:0%
+let's say there was one right on C1 and
+ 
+
+00:03:04.720 --> 00:03:08.630 align:start position:0%
+let's say there was one right on C1 and
+another<00:03:05.080><c> right</c><00:03:05.319><c> on</c><00:03:05.480><c> C3</c><00:03:06.480><c> when</c><00:03:06.720><c> C2</c><00:03:07.400><c> reads</c><00:03:08.400><c> it's</c>
+
+00:03:08.630 --> 00:03:08.640 align:start position:0%
+another right on C3 when C2 reads it's
+ 
+
+00:03:08.640 --> 00:03:10.509 align:start position:0%
+another right on C3 when C2 reads it's
+allowed<00:03:09.000><c> to</c><00:03:09.360><c> return</c><00:03:09.640><c> after</c><00:03:09.840><c> a</c><00:03:10.000><c> sufficient</c>
+
+00:03:10.509 --> 00:03:10.519 align:start position:0%
+allowed to return after a sufficient
+ 
+
+00:03:10.519 --> 00:03:14.830 align:start position:0%
+allowed to return after a sufficient
+time<00:03:11.080><c> either</c><00:03:11.480><c> c1s</c><00:03:12.239><c> or</c><00:03:12.440><c> c3's</c><00:03:13.239><c> value</c><00:03:14.200><c> because</c>
+
+00:03:14.830 --> 00:03:14.840 align:start position:0%
+time either c1s or c3's value because
+ 
+
+00:03:14.840 --> 00:03:17.630 align:start position:0%
+time either c1s or c3's value because
+it's<00:03:15.159><c> allowed</c><00:03:15.519><c> to</c><00:03:15.799><c> interpret</c><00:03:16.319><c> this</c><00:03:16.560><c> order</c><00:03:17.319><c> as</c>
+
+00:03:17.630 --> 00:03:17.640 align:start position:0%
+it's allowed to interpret this order as
+ 
+
+00:03:17.640 --> 00:03:20.350 align:start position:0%
+it's allowed to interpret this order as
+either<00:03:17.920><c> C1</c><00:03:18.440><c> and</c><00:03:18.599><c> then</c><00:03:18.799><c> C3</c><00:03:19.280><c> wrote</c><00:03:19.760><c> or</c><00:03:20.000><c> the</c><00:03:20.120><c> other</c>
+
+00:03:20.350 --> 00:03:20.360 align:start position:0%
+either C1 and then C3 wrote or the other
+ 
+
+00:03:20.360 --> 00:03:22.869 align:start position:0%
+either C1 and then C3 wrote or the other
+way<00:03:20.680><c> around</c><00:03:21.680><c> what</c><00:03:22.000><c> this</c><00:03:22.360><c> part</c><00:03:22.560><c> of</c><00:03:22.680><c> the</c>
+
+00:03:22.869 --> 00:03:22.879 align:start position:0%
+way around what this part of the
+ 
+
+00:03:22.879 --> 00:03:26.350 align:start position:0%
+way around what this part of the
+definition<00:03:23.360><c> says</c><00:03:24.280><c> is</c><00:03:24.480><c> that</c><00:03:24.760><c> whatever</c><00:03:25.120><c> C2</c><00:03:25.599><c> sees</c>
+
+00:03:26.350 --> 00:03:26.360 align:start position:0%
+definition says is that whatever C2 sees
+ 
+
+00:03:26.360 --> 00:03:31.110 align:start position:0%
+definition says is that whatever C2 sees
+if<00:03:26.959><c> C2</c><00:03:27.959><c> for</c><00:03:28.400><c> example</c><00:03:29.400><c> CES</c><00:03:29.959><c> that</c><00:03:30.480><c> the</c><00:03:30.680><c> final</c>
+
+00:03:31.110 --> 00:03:31.120 align:start position:0%
+if C2 for example CES that the final
+ 
+
+00:03:31.120 --> 00:03:34.470 align:start position:0%
+if C2 for example CES that the final
+value<00:03:31.400><c> is</c><00:03:31.560><c> that</c><00:03:31.799><c> from</c><00:03:32.000><c> C1</c><00:03:32.640><c> and</c><00:03:32.799><c> not</c><00:03:33.040><c> from</c><00:03:33.480><c> C3</c>
+
+00:03:34.470 --> 00:03:34.480 align:start position:0%
+value is that from C1 and not from C3
+ 
+
+00:03:34.480 --> 00:03:36.110 align:start position:0%
+value is that from C1 and not from C3
+then<00:03:34.680><c> all</c><00:03:34.920><c> the</c><00:03:35.040><c> other</c><00:03:35.319><c> cores</c><00:03:35.640><c> when</c><00:03:35.760><c> they</c><00:03:35.920><c> read</c>
+
+00:03:36.110 --> 00:03:36.120 align:start position:0%
+then all the other cores when they read
+ 
+
+00:03:36.120 --> 00:03:39.070 align:start position:0%
+then all the other cores when they read
+that<00:03:36.319><c> location</c><00:03:36.840><c> after</c><00:03:37.159><c> C2</c><00:03:37.959><c> need</c><00:03:38.159><c> to</c><00:03:38.439><c> also</c><00:03:38.760><c> see</c>
+
+00:03:39.070 --> 00:03:39.080 align:start position:0%
+that location after C2 need to also see
+ 
+
+00:03:39.080 --> 00:03:42.630 align:start position:0%
+that location after C2 need to also see
+that<00:03:39.319><c> order</c><00:03:40.080><c> so</c><00:03:40.239><c> it</c><00:03:40.360><c> cannot</c><00:03:40.879><c> happen</c><00:03:41.879><c> that</c><00:03:42.120><c> C2</c>
+
+00:03:42.630 --> 00:03:42.640 align:start position:0%
+that order so it cannot happen that C2
+ 
+
+00:03:42.640 --> 00:03:46.710 align:start position:0%
+that order so it cannot happen that C2
+thinks<00:03:43.200><c> C1</c><00:03:43.680><c> wrote</c><00:03:44.000><c> last</c><00:03:44.599><c> some</c><00:03:44.920><c> other</c><00:03:45.720><c> core</c>
+
+00:03:46.710 --> 00:03:46.720 align:start position:0%
+thinks C1 wrote last some other core
+ 
+
+00:03:46.720 --> 00:03:50.270 align:start position:0%
+thinks C1 wrote last some other core
+sometime<00:03:47.239><c> later</c><00:03:47.879><c> reads</c><00:03:48.360><c> and</c><00:03:48.519><c> still</c><00:03:48.799><c> sees</c><00:03:49.480><c> c3's</c>
+
+00:03:50.270 --> 00:03:50.280 align:start position:0%
+sometime later reads and still sees c3's
+ 
+
+00:03:50.280 --> 00:03:52.309 align:start position:0%
+sometime later reads and still sees c3's
+value<00:03:50.920><c> so</c><00:03:51.120><c> what</c><00:03:51.280><c> this</c><00:03:51.400><c> is</c><00:03:51.560><c> really</c><00:03:51.799><c> saying</c><00:03:52.120><c> is</c>
+
+00:03:52.309 --> 00:03:52.319 align:start position:0%
+value so what this is really saying is
+ 
+
+00:03:52.319 --> 00:03:55.069 align:start position:0%
+value so what this is really saying is
+that<00:03:52.920><c> everybody</c><00:03:53.799><c> including</c><00:03:54.319><c> the</c><00:03:54.519><c> writing</c>
+
+00:03:55.069 --> 00:03:55.079 align:start position:0%
+that everybody including the writing
+ 
+
+00:03:55.079 --> 00:03:58.149 align:start position:0%
+that everybody including the writing
+course<00:03:55.959><c> will</c><00:03:56.200><c> see</c><00:03:56.959><c> the</c><00:03:57.200><c> value</c><00:03:57.760><c> that</c><00:03:57.920><c> is</c>
+
+00:03:58.149 --> 00:03:58.159 align:start position:0%
+course will see the value that is
+ 
+
+00:03:58.159 --> 00:04:00.470 align:start position:0%
+course will see the value that is
+consistent<00:03:59.040><c> with</c><00:03:59.400><c> their</c><00:03:59.879><c> being</c><00:04:00.159><c> some</c>
+
+00:04:00.470 --> 00:04:00.480 align:start position:0%
+consistent with their being some
+ 
+
+00:04:00.480 --> 00:04:03.030 align:start position:0%
+consistent with their being some
+particular<00:04:01.000><c> order</c><00:04:01.319><c> to</c><00:04:01.519><c> the</c><00:04:01.840><c> rights</c><00:04:02.840><c> it</c>
+
+00:04:03.030 --> 00:04:03.040 align:start position:0%
+particular order to the rights it
+ 
+
+00:04:03.040 --> 00:04:05.470 align:start position:0%
+particular order to the rights it
+doesn't<00:04:03.360><c> require</c><00:04:03.799><c> any</c><00:04:04.120><c> particular</c><00:04:04.640><c> order</c><00:04:05.280><c> for</c>
+
+00:04:05.470 --> 00:04:05.480 align:start position:0%
+doesn't require any particular order for
+ 
+
+00:04:05.480 --> 00:04:07.149 align:start position:0%
+doesn't require any particular order for
+example<00:04:05.840><c> the</c><00:04:06.000><c> rights</c><00:04:06.280><c> can</c><00:04:06.480><c> happen</c><00:04:06.840><c> almost</c>
+
+00:04:07.149 --> 00:04:07.159 align:start position:0%
+example the rights can happen almost
+ 
+
+00:04:07.159 --> 00:04:09.110 align:start position:0%
+example the rights can happen almost
+simultaneously<00:04:08.120><c> in</c><00:04:08.239><c> which</c><00:04:08.439><c> case</c><00:04:08.599><c> we</c><00:04:08.720><c> are</c><00:04:08.840><c> free</c>
+
+00:04:09.110 --> 00:04:09.120 align:start position:0%
+simultaneously in which case we are free
+ 
+
+00:04:09.120 --> 00:04:11.229 align:start position:0%
+simultaneously in which case we are free
+to<00:04:09.280><c> choose</c><00:04:09.879><c> which</c><00:04:10.120><c> happen</c><00:04:10.519><c> first</c><00:04:10.879><c> and</c><00:04:11.040><c> which</c>
+
+00:04:11.229 --> 00:04:11.239 align:start position:0%
+to choose which happen first and which
+ 
+
+00:04:11.239 --> 00:04:14.350 align:start position:0%
+to choose which happen first and which
+happen<00:04:11.640><c> second</c><00:04:12.519><c> but</c><00:04:12.680><c> we</c><00:04:12.879><c> cannot</c><00:04:13.599><c> allow</c><00:04:14.000><c> some</c>
+
+00:04:14.350 --> 00:04:14.360 align:start position:0%
+happen second but we cannot allow some
+ 
+
+00:04:14.360 --> 00:04:18.310 align:start position:0%
+happen second but we cannot allow some
+cores<00:04:15.120><c> to</c><00:04:15.400><c> think</c><00:04:15.959><c> that</c><00:04:16.400><c> one</c><00:04:16.759><c> right</c><00:04:17.079><c> was</c><00:04:17.320><c> first</c>
+
+00:04:18.310 --> 00:04:18.320 align:start position:0%
+cores to think that one right was first
+ 
+
+00:04:18.320 --> 00:04:20.550 align:start position:0%
+cores to think that one right was first
+and<00:04:18.560><c> other</c><00:04:18.880><c> cores</c><00:04:19.239><c> think</c><00:04:19.560><c> that</c><00:04:19.840><c> another</c><00:04:20.239><c> right</c>
+
+00:04:20.550 --> 00:04:20.560 align:start position:0%
+and other cores think that another right
+ 
+
+00:04:20.560 --> 00:04:23.880 align:start position:0%
+and other cores think that another right
+was<00:04:20.880><c> first</c>
+

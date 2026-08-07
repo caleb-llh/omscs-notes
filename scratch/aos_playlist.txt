@@ -1,0 +1,149 @@
+001|GTObrKKbRww|Introduction - Georgia Tech - Advanced Operating Systems
+002|dCQEeUia9UI|Background Material - Georgia Tech - Advanced Operating Systems
+003|XzUVj3cPhxM|Which is an OS Quiz - Georgia Tech - Advanced Operating Systems
+004|JwBLFXOhNKE|Which is an OS Quiz Solution - Georgia Tech - Advanced Operating Systems
+005|1eKBaTxZ07Q|The Hierarchy - Georgia Tech - Advanced Operating Systems
+006|Ccv9RgP6OJI|Which is Not an Abstraction Quiz - Georgia Tech - Advanced Operating Systems
+007|odxHEwqpGWI|Which is Not an Abstraction Quiz Solution - Georgia Tech - Advanced Operating Systems
+008|J1Q6nFvda1s|Digging Deeper Into the Power of Abstractions - Georgia Tech - Advanced Operating Systems
+009|2Yvgph2Yo2c|Name the Abstractions Quiz - Georgia Tech - Advanced Operating Systems
+010|MQtXYUOIFy0|Name the Abstractions Quiz Solution - Georgia Tech - Advanced Operating Systems
+011|Kf9bCdTAafo|Google Earth - Georgia Tech - Advanced Operating Systems
+012|EpiKTuopxIE|Conclusion - Georgia Tech - Advanced Operating Systems
+013|zZM3095mPQU|Introduction - Georgia Tech - Advanced Operating Systems
+014|TbiQCFteAPE|Hardware Continuum Quiz - Georgia Tech - Advanced Operating Systems
+015|abbmT9CR2q4|Hardware Continuum Quiz Solution - Georgia Tech - Advanced Operating Systems
+016|_hunEF_HNmA|Hardware Resources in a Computer System - Georgia Tech - Advanced Operating Systems
+017|gXwpdYGChOs|Organization With I O Bus - Georgia Tech - Advanced Operating Systems
+018|QYwFW7rMyvY|The Specifics - Georgia Tech - Advanced Operating Systems
+019|1tk2c2DRGz8|Conclusion - Georgia Tech - Advanced Operating Systems
+020|4qOJayVmEOU|Introduction - Georgia Tech - Advanced Operating Systems
+021|OiwAQgCwDYU|OS Functionalities Quiz - Georgia Tech - Advanced Operating Systems
+022|fLv1H938iYE|OS Functionalities Quiz Solution - Georgia Tech - Advanced Operating Systems
+023|uXp3xLKLjH8|What is an OS - Georgia Tech - Advanced Operating Systems
+024|l22ZwiVhJIw|A Few Examples - Georgia Tech - Advanced Operating Systems
+025|FlDjkvROxfI|Mouse Click Quiz - Georgia Tech - Advanced Operating Systems
+026|Ak9x2eLOdm8|Mouse Click Quiz Solution - Georgia Tech - Advanced Operating Systems
+027|278DNcR-NUE|What Happens When You Click Your Mouse - Georgia Tech - Advanced Operating Systems
+028|A8UFqyr8yIA|Introduction - Georgia Tech - Advanced Operating Systems
+029|ez5wa4HBQuM|How is it Possible Quiz - Georgia Tech - Advanced Operating Systems
+030|tfBd2zeM9pc|How is it Possible Quiz Solution - Georgia Tech - Advanced Operating Systems
+031|iTAJXFnz8ik|Catering to Resource Requirements - Georgia Tech - Advanced Operating Systems
+032|eIDPlwiaYnc|Precious Resources Quiz - Georgia Tech - Advanced Operating Systems
+033|jwRYO03pPTc|Precious Resources Quiz Solution - Georgia Tech - Advanced Operating Systems
+034|PcB4yG-Szp8|The Modern OS - Georgia Tech - Advanced Operating Systems
+035|H2PAkWZQh-Q|Processor Related OS Abstractions - Georgia Tech - Advanced Operating Systems
+036|O3EyzlZxx3g|Difference Between Process and Thread - Georgia Tech - Advanced Operating Systems
+037|UVW1FcTj904|Memory Related OS Abstraction - Georgia Tech - Advanced Operating Systems
+038|GeVo6m2C6Q4|Conclusion - Georgia Tech - Advanced Operating Systems
+039|rjwItNESGjQ|Introduction - Georgia Tech - Advanced Operating Systems
+040|tNv8-s0vCm4|OS System Services Quiz - Georgia Tech - Advanced Operating Systems
+041|1kBn-tNJ4e8|OS System Services Quiz Solution - Georgia Tech - Advanced Operating Systems
+042|F0BjBqUNyY8|OS Structure - Georgia Tech - Advanced Operating Systems
+043|WhrQtDGMQwY|Importance of OS Structure Quiz - Georgia Tech - Advanced Operating Systems
+044|A8qVe852h0Y|Importance of OS Structure Quiz Solution - Georgia Tech - Advanced Operating Systems
+045|-eAFeR5wfd4|Goals of OS Structure - Georgia Tech - Advanced Operating Systems
+046|qKVio2xRR3Y|Commercial OS - Georgia Tech - Advanced Operating Systems
+047|SBC_GSFlR34|Monolithic Structure - Georgia Tech - Advanced Operating Systems
+048|EYA8TsorQRI|DOS-like Structure - Georgia Tech - Advanced Operating Systems
+049|yPpANA215o8|DOS like Structure Pros and Cons Quiz - Georgia Tech - Advanced Operating Systems
+050|yAIAsIgYFUo|DOS like Structure Pros and Cons Quiz Solution - Georgia Tech - Advanced Operating Systems
+051|3UqZN_add88|DOS-like Structure (cont) - Georgia Tech - Advanced Operating Systems
+052|hRlAqEcAI9o|Loss of Protection in DOS like Structure - Georgia Tech - Advanced Operating Systems
+053|OVZulm2nHcE|Opportunities for Customization - Georgia Tech - Advanced Operating Systems
+054|OJ0STjjqiNo|Microkernel based OS Structure - Georgia Tech - Advanced Operating Systems
+055|PFxm5wf0K2s|Downside to Microkernel - Georgia Tech - Advanced Operating Systems
+056|gcdBIUIQsQ0|Why Performance Loss - Georgia Tech - Advanced Operating Systems
+057|-yQhLW9vW1k|Features of Various OS Quiz - Georgia Tech - Advanced Operating Systems
+058|NyngRVxfXfY|Features of Various OS Quiz Solution - Georgia Tech - Advanced Operating Systems
+059|iFofG9NLe0s|What do we Want - Georgia Tech - Advanced Operating Systems
+060|1CcKqyhRrnM|Introduction - Georgia Tech - Advanced Operating Systems
+061|TT88Ysdrwsg|What are we Shooting for in OS Structure - Georgia Tech - Advanced Operating Systems
+062|W7eJ_K_pEHg|Approaches to Extensibility - Georgia Tech - Advanced Operating Systems
+063|u2CAmeo50ss|Logical Protection Domains - Georgia Tech - Advanced Operating Systems
+064|_nMwq-3F9iY|Pointers Quiz - Georgia Tech - Advanced Operating Systems
+065|zW8tPiFtkco|Pointers Quiz Solution - Georgia Tech - Advanced Operating Systems
+066|TLdcySzNQLM|Spin Mechanisms for Protection Domains - Georgia Tech - Advanced Operating Systems
+067|87JMVsevmmA|Customized OS With Spin - Georgia Tech - Advanced Operating Systems
+068|8gyovY1R_fA|Example Extensions - Georgia Tech - Advanced Operating Systems
+069|YHp0Oy_p-Yw|Border Crossings Quiz - Georgia Tech - Advanced Operating Systems
+070|6Q4AjM_W5Xw|Border Crossings Quiz Solution - Georgia Tech - Advanced Operating Systems
+071|ziqbbhA7tEQ|Spin Mechanisms for Events - Georgia Tech - Advanced Operating Systems
+072|KOAGm5DfDxw|Default Core Services in Spin - Georgia Tech - Advanced Operating Systems
+073|RhBS9gUbteM|Default Core Service in Spin (cont) - Georgia Tech - Advanced Operating Systems
+074|2VTDODZy0Gc|Conclusion - Georgia Tech - Advanced Operating Systems
+075|c7dYJvsT018|Exokernel Approach to Extensibility - Georgia Tech - Advanced Operating Systems
+076|hra4LX_xInk|Examples of Candidate Resources - Georgia Tech - Advanced Operating Systems
+077|YmhHKWSe-GA|Implementing Secure Bindings - Georgia Tech - Advanced Operating Systems
+078|4lb94N7U_Qw|Exokernel vs Spin Quiz - Georgia Tech - Advanced Operating Systems
+079|MXw4i_-C0EU|Exokernel vs Spin Quiz Solution - Georgia Tech - Advanced Operating Systems
+080|YNOFDc1mItc|Default Core Services in Exokernel - Georgia Tech - Advanced Operating Systems
+081|dTnYwWL1ymw|Secure Binding - Georgia Tech - Advanced Operating Systems
+082|iOHilSO9NzM|Memory Management  Using S TLB - Georgia Tech - Advanced Operating Systems
+083|BBDofKHNPZM|Default Core Services in Exokernel (cont) - Georgia Tech - Advanced Operating Systems
+084|t9Wt5R61J6Q|Revocation of Resources - Georgia Tech - Advanced Operating Systems
+085|MkYPlvc331Y|Code Usage by Exokernel Quiz - Georgia Tech - Advanced Operating Systems
+086|hGFuIqzwuLM|Code Usage by Exokernel Quiz Solution - Georgia Tech - Advanced Operating Systems
+087|0MB3fCvd6u4|Putting it all Together - Georgia Tech - Advanced Operating Systems
+088|Zg7KayZB-GM|Exokernel Data Structures - Georgia Tech - Advanced Operating Systems
+089|MVIbgLUUWtk|Performance Results of Spin and Exokernel - Georgia Tech - Advanced Operating Systems
+090|sVKDg2ieLnI|Introduction - Georgia Tech - Advanced Operating Systems
+091|Z5BkXXEQLQg|Microkernel-Based OS Structure - Georgia Tech - Advanced Operating Systems
+092|mAY08vYiuuA|Potentials for Performance Loss - Georgia Tech - Advanced Operating Systems
+093|m-CbBLQeERQ|L3 Microkernel - Georgia Tech - Advanced Operating Systems
+094|ZMOXUVX9U_E|Strikes Against Microkernel - Georgia Tech - Advanced Operating Systems
+095|n7mbuTHBD24|Debunking User Kernel Border Crossing Myth - Georgia Tech - Advanced Operating Systems
+096|3G5rywxyzhQ|Cycles Quiz - Georgia Tech - Advanced Operating Systems
+097|R-y0nXsBaTo|Cycles Quiz Solution - Georgia Tech - Advanced Operating Systems
+098|u2Z936p0fBI|Address Space Switches - Georgia Tech - Advanced Operating Systems
+099|67i62QNWYl8|Address Space Switches With As Tagged TLB - Georgia Tech - Advanced Operating Systems
+100|N8KUQNW8zqI|Liedke's Suggestions for Avoiding TLB Flush - Georgia Tech - Advanced Operating Systems
+101|5JLPuzWqG5g|Large Protection Domains - Georgia Tech - Advanced Operating Systems
+102|ikVvsvwSkpg|Upshot for Address Space Switching - Georgia Tech - Advanced Operating Systems
+103|SUQOcGVGnio|Thread Switches and IPC - Georgia Tech - Advanced Operating Systems
+104|gNUDO5Hn160|Memory Effects - Georgia Tech - Advanced Operating Systems
+105|aCRacennklg|Reasons for Mach's Expensive Border Crossing - Georgia Tech - Advanced Operating Systems
+106|nfLb_qQg0ac|Thesis of L3 for OS Structuring - Georgia Tech - Advanced Operating Systems
+107|GavR7iFj6yY|Conclusion - Georgia Tech - Advanced Operating Systems
+108|gAuYI7TiXgo|Introduction - Georgia Tech - Advanced Operating Systems
+109|CovACwT5fMg|Virtualization Quiz - Georgia Tech - Advanced Operating Systems
+110|vtjMgvSLqtY|Virtualization Quiz Solution - Georgia Tech - Advanced Operating Systems
+111|clxKdltzFXU|Platform Virtualization - Georgia Tech - Advanced Operating Systems
+112|mm9Xam0DjJQ|Utility Computing - Georgia Tech - Advanced Operating Systems
+113|Q0XyphhfJXE|Hypervisors - Georgia Tech - Advanced Operating Systems
+114|lBTXJ52639g|Connecting the Dots - Georgia Tech - Advanced Operating Systems
+115|CLR0pq9dy4g|Full Virtualization - Georgia Tech - Advanced Operating Systems
+116|1PYNcmZTjiE|Para Virtualization - Georgia Tech - Advanced Operating Systems
+117|33U3_wAeSwQ|Modification of Guest OS Code Quiz - Georgia Tech - Advanced Operating Systems
+118|lnhFag1x7G4|Modification of Guest OS Code Quiz Solution - Georgia Tech - Advanced Operating Systems
+119|uoTPmCUfedU|Para Virtualization (cont) - Georgia Tech - Advanced Operating Systems
+120|0T4nRx69b8E|Big Picture - Georgia Tech - Advanced Operating Systems
+121|Bq0qVZtd84w|Introduction - Georgia Tech - Advanced Operating Systems
+122|-y9J78wSJHY|Memory Hierarchy - Georgia Tech - Advanced Operating Systems
+123|6ufgN--7Xp0|Memory Subsystem Recall - Georgia Tech - Advanced Operating Systems
+124|O9pA4A8lt48|Memory Management and Hypervisor - Georgia Tech - Advanced Operating Systems
+125|xxrxgombEYg|Memory Manager Zoomed Out - Georgia Tech - Advanced Operating Systems
+126|i9kU_gL7q7o|Zooming Back In - Georgia Tech - Advanced Operating Systems
+127|Zvjg7AtgWPE|Who Keeps PPN MPN Mapping Quiz - Georgia Tech - Advanced Operating Systems
+128|y_RU26seNiQ|Who Keeps PPN MPN Mapping Quiz Solution - Georgia Tech - Advanced Operating Systems
+129|JpWS0Jg09QM|Shadow Page Table - Georgia Tech - Advanced Operating Systems
+130|1PoKv5Syvwk|Efficient Mapping (Full Virtualization) - Georgia Tech - Advanced Operating Systems
+131|BDdR5vzoPHg|Efficient Mapping (Para Virtualization) - Georgia Tech - Advanced Operating Systems
+132|2eRVhfVJgms|Dynamically Increasing Memory - Georgia Tech - Advanced Operating Systems
+133|mxproh2qaU8|Ballooning - Georgia Tech - Advanced Operating Systems
+134|eK5vPJ3AdME|Sharing Memory Across Virtual Machines - Georgia Tech - Advanced Operating Systems
+135|drrx9FOLHNo|VM Oblivious Page Sharing - Georgia Tech - Advanced Operating Systems
+136|kaQGdNCZDXs|Successful Match - Georgia Tech - Advanced Operating Systems
+137|22Zx3Zxp-Qg|Memory Allocation Policies - Georgia Tech - Advanced Operating Systems
+138|sauD7TzJM0U|Introduction - Georgia Tech - Advanced Operating Systems
+139|ReUbbY13dvw|CPU Virtualization - Georgia Tech - Advanced Operating Systems
+140|MLq3tXiLsA8|Second Part (Common to Full and Para) - Georgia Tech - Advanced Operating Systems
+141|XbMR5v9IVHY|Device Virtualization Intro - Georgia Tech - Advanced Operating Systems
+142|-6f0ADBuPlU|Device Virtualization - Georgia Tech - Advanced Operating Systems
+143|9Xe3k6gsqBU|Control Transfer - Georgia Tech - Advanced Operating Systems
+144|JUMofGHamOw|Data Transfer - Georgia Tech - Advanced Operating Systems
+145|1ltIyoMcjlE|Control and Data Transfer in Action - Georgia Tech - Advanced Operating Systems
+146|fhwofQoM3s4|Disk I O Virtualization - Georgia Tech - Advanced Operating Systems
+147|QtoORooQ9qY|Measuring Time - Georgia Tech - Advanced Operating Systems
+148|TkRTYede9_Y|Xen and Guests - Georgia Tech - Advanced Operating Systems
+149|YeTL3TBkH8Y|Conclusion - Georgia Tech - Advanced Operating Systems

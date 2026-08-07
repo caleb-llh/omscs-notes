@@ -1,0 +1,72 @@
+1
+00:00:00,263 --> 00:00:03,538
+ Here's the sequence I calculated,
+
+2
+00:00:03,538 --> 00:00:08,298
+ h-d-l-b-a-c-f-e-g-j-i-k-n-m-o.
+
+3
+00:00:08,298 --> 00:00:09,864
+ So how did I get that?
+
+4
+00:00:09,864 --> 00:00:13,260
+ Recall that the first step is to divide the levels in half.
+
+5
+00:00:13,260 --> 00:00:16,100
+ Everything in the upper subtree goes into the output array first,
+
+6
+00:00:16,100 --> 00:00:18,410
+ followed by the remaining subtrees.
+
+7
+00:00:18,410 --> 00:00:20,510
+ So what about the order within a subtree?
+
+8
+00:00:20,510 --> 00:00:23,560
+ To get that order, you apply the partitioning recursively.
+
+9
+00:00:23,560 --> 00:00:27,300
+ So this result HDL is the first thing you'd get after a whole recursive
+
+10
+00:00:27,300 --> 00:00:29,390
+ partitioning of the upper subtree.
+
+11
+00:00:29,390 --> 00:00:32,164
+ Let's make one last observation about this ordering.
+
+12
+00:00:32,164 --> 00:00:34,184
+ Notice the traversal path.
+
+13
+00:00:34,184 --> 00:00:36,321
+ If you know anything about space-filling curves,
+
+14
+00:00:36,321 --> 00:00:38,222
+ the pattern should kind of remind you of that.
+
+15
+00:00:38,222 --> 00:00:40,392
+ I think it's kind of neat how the path snakes and
+
+16
+00:00:40,392 --> 00:00:43,280
+ slithers its way around the tree, don't you?
+
+17
+00:00:43,280 --> 00:00:44,300
+ Thibbit.
+
+18
+00:00:44,300 --> 00:00:44,300
+ That is the sound a snake makes but
+

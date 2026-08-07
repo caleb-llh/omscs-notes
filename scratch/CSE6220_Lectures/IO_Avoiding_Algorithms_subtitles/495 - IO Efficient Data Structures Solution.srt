@@ -1,0 +1,136 @@
+1
+00:00:00,270 --> 00:00:02,650
+ Here's my lazy answer to the lazy quiz.
+
+2
+00:00:02,650 --> 00:00:04,140
+ Just B-trees.
+
+3
+00:00:04,140 --> 00:00:11,943
+ Rather than telling you why the others aren't I/O efficient,
+
+4
+00:00:11,943 --> 00:00:18,170
+ let me tell you why a B-tree can be I/O efficient.
+
+5
+00:00:18,170 --> 00:00:20,528
+ Briefly, and hopefully by way of review, let's quickly go over what a B-tree is.
+
+6
+00:00:20,528 --> 00:00:21,073
+ Dang union artists. Let's try this again. Briefly, and hopefully
+
+7
+00:00:21,073 --> 00:00:21,770
+ by way of review, this is a B-tree.
+
+8
+00:00:21,770 --> 00:00:25,470
+ Each node contains a set of keys and a set of child pointers.
+
+9
+00:00:25,470 --> 00:00:27,830
+ The branching factor at each node can vary, but
+
+10
+00:00:27,830 --> 00:00:30,530
+ it must lie within a specific range.
+
+11
+00:00:30,530 --> 00:00:32,140
+ The keys are sorted.
+
+12
+00:00:32,140 --> 00:00:35,150
+ Sorry, that's sorted, not sordid.
+
+13
+00:00:35,150 --> 00:00:37,050
+ Let's look at one of the nodes.
+
+14
+00:00:37,050 --> 00:00:38,600
+ Let's call it X.
+
+15
+00:00:38,600 --> 00:00:42,770
+ A moment ago I said the branching factor has to lie within a certain interval.
+
+16
+00:00:42,770 --> 00:00:48,730
+ that interval is between B + 1 and 2B- 1 for some B that's at least 2.
+
+17
+00:00:48,730 --> 00:00:51,380
+ B is a user-defined parameter.
+
+18
+00:00:51,380 --> 00:00:54,160
+ Consider the ith key value at x.
+
+19
+00:00:54,160 --> 00:00:56,340
+ Let's call that key case of i.
+
+20
+00:00:56,340 --> 00:01:01,370
+ Now consider any key within the subtree rooted at the ith child of x.
+
+21
+00:01:01,370 --> 00:01:03,840
+ Let's call that key c sub i.
+
+22
+00:01:03,840 --> 00:01:07,490
+ A B-tree data structure maintains the following invariant.
+
+23
+00:01:07,490 --> 00:01:11,190
+ The key k sub i lies between the key values of its children to
+
+24
+00:01:11,190 --> 00:01:12,590
+ the left and right.
+
+25
+00:01:12,590 --> 00:01:17,630
+ It's not too hard to show that the height of this tree is log base b of n.
+
+26
+00:01:17,630 --> 00:01:22,170
+ So, in order for B tree search to attain the lower bound on slow fast memory
+
+27
+00:01:22,170 --> 00:01:25,720
+ transfers, you just need to pick B appropriately.
+
+28
+00:01:25,720 --> 00:01:29,280
+ Namely, pick B to be proportional to the transfer size L.
+
+29
+00:01:29,280 --> 00:01:33,650
+ Now the key point is that a B tree can be made to IO optimal,
+
+30
+00:01:33,650 --> 00:01:36,480
+ but only if you choose the right branching factor.
+
+31
+00:01:36,480 --> 00:01:37,120
+ In particular,
+
+32
+00:01:37,120 --> 00:01:40,940
+ you have to make the branching factor specific to the machine.
+
+33
+00:01:40,940 --> 00:01:47,346
+ So much for algorithmic portability, or is it?
+
+34
+00:01:47,346 --> 00:01:47,346
+ [SOUND]
+

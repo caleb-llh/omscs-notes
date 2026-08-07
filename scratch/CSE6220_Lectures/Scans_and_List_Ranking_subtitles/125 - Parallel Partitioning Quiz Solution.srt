@@ -1,0 +1,48 @@
+1
+00:00:00,400 --> 00:00:02,000
+ Here is the answer.
+
+2
+00:00:02,000 --> 00:00:02,800
+ No.
+
+3
+00:00:02,800 --> 00:00:06,590
+ If you replace four with par four, the algorithm will be incorrect.
+
+4
+00:00:06,590 --> 00:00:08,640
+ Replacing four with par four is a bit like running with
+
+5
+00:00:08,640 --> 00:00:10,840
+ running with scissors, don't do that.
+
+6
+00:00:10,840 --> 00:00:13,738
+ If by chance you've taken the other awesome systems and
+
+7
+00:00:13,738 --> 00:00:16,800
+ architecture courses that are a part of the OMSCS.
+
+8
+00:00:16,800 --> 00:00:19,970
+ Then you probably know about multithreading and locks.
+
+9
+00:00:19,970 --> 00:00:24,280
+ You could use those constructs to protect these updates to the variable K.
+
+10
+00:00:24,280 --> 00:00:28,030
+ But were you to do so, you really wouldn't get much parallelism anyway,
+
+11
+00:00:28,030 --> 00:00:32,990
+ because any simultaneous threads would most likely contend for the lock.
+
+12
+00:00:32,990 --> 00:00:32,990
+ I think what we need is a different and more algorithmic approach.
+

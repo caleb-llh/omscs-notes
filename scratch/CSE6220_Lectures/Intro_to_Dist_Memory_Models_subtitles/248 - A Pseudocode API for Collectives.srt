@@ -1,0 +1,332 @@
+1
+00:00:00,580 --> 00:00:04,430
+ In fact, to make it easy to use these as building blocks for your algorithms,
+
+2
+00:00:04,430 --> 00:00:07,510
+ let's define some pseudocode interfaces.
+
+3
+00:00:07,510 --> 00:00:12,090
+ Suppose every process has a private array of size n.
+
+4
+00:00:12,090 --> 00:00:16,680
+ To perform a vector reduce on all of those arrays you would just write this.
+
+5
+00:00:16,680 --> 00:00:22,100
+ Every process needs to call this reduce, supplying as input its private array,
+
+6
+00:00:22,100 --> 00:00:25,180
+ along with the ID of the root process.
+
+7
+00:00:25,180 --> 00:00:27,710
+ This operation will perform the reduction.
+
+8
+00:00:27,710 --> 00:00:32,320
+ It will leave the final output on the process whose rank is root.
+
+9
+00:00:32,320 --> 00:00:35,750
+ And that result will be in root's private array.
+
+10
+00:00:35,750 --> 00:00:39,450
+ Now, this operation is called a collective, meaning that your algorithm
+
+11
+00:00:39,450 --> 00:00:44,330
+ or program must be structured in such a way that all processes execute it.
+
+12
+00:00:44,330 --> 00:00:46,070
+ Let me show you what I mean.
+
+13
+00:00:46,070 --> 00:00:48,230
+ Here's an example of a program.
+
+14
+00:00:48,230 --> 00:00:52,300
+ Remember, all processes are executing this program concurrently.
+
+15
+00:00:52,300 --> 00:00:57,220
+ Notice that only the process whose rank is 0 will actually call the reduce.
+
+16
+00:00:57,220 --> 00:00:59,860
+ None of the other processes call reduce.
+
+17
+00:00:59,860 --> 00:01:02,490
+ So this program is actually invalid and
+
+18
+00:01:02,490 --> 00:01:05,660
+ its behavior would be essentially to deadlock.
+
+19
+00:01:05,660 --> 00:01:10,610
+ Put another way, this program hangs because rank zero starts to reduce but
+
+20
+00:01:10,610 --> 00:01:12,870
+ not other process does.
+
+21
+00:01:12,870 --> 00:01:15,960
+ So that leaves rank zero hanging.
+
+22
+00:01:15,960 --> 00:01:18,120
+ Here's a different example program.
+
+23
+00:01:18,120 --> 00:01:22,070
+ What is its output if there are say, P = 3 processes?
+
+24
+00:01:22,070 --> 00:01:24,580
+ Say initially we have 3 processes.
+
+25
+00:01:24,580 --> 00:01:29,580
+ Each one initializes its local private array with its RANK+1.
+
+26
+00:01:29,580 --> 00:01:32,650
+ Then all processes enter the reduce.
+
+27
+00:01:32,650 --> 00:01:35,530
+ Notice that the root is the process whose rank is 1.
+
+28
+00:01:35,530 --> 00:01:39,400
+ So the final result should appear on rank 1.
+
+29
+00:01:39,400 --> 00:01:41,625
+ So after the reduce, the result should look like this.
+
+30
+00:01:41,625 --> 00:01:45,410
+ A_local is unmodified on ranks 0 and ranks 2.
+
+31
+00:01:45,410 --> 00:01:49,660
+ The final output appears on the root.
+
+32
+00:01:49,660 --> 00:01:51,480
+ Okay, let's move on.
+
+33
+00:01:51,480 --> 00:01:56,610
+ For a broadcast, the dual of reduce, I want you to assume this signature.
+
+34
+00:01:56,610 --> 00:02:01,950
+ The process whose rank is root will have the initial data in its local buffer.
+
+35
+00:02:01,950 --> 00:02:03,730
+ When the broadcast completes,
+
+36
+00:02:03,730 --> 00:02:07,980
+ every process will have the same data in its local buffer.
+
+37
+00:02:07,980 --> 00:02:11,038
+ So for a gather, I want you to assume this signature.
+
+38
+00:02:11,038 --> 00:02:14,670
+ Remember that in a gather, everybody has a little piece of data and
+
+39
+00:02:14,670 --> 00:02:18,130
+ you want to collect all the data on one process.
+
+40
+00:02:18,130 --> 00:02:22,650
+ So every process has an input buffer of size little m.
+
+41
+00:02:22,650 --> 00:02:29,010
+ The output is all m buffers from all processes collected on the root.
+
+42
+00:02:29,010 --> 00:02:32,090
+ Notice that the output buffer is two-dimensional.
+
+43
+00:02:32,090 --> 00:02:37,350
+ Now the output buffer need only be defined on the root process.
+
+44
+00:02:37,350 --> 00:02:38,720
+ So what does that mean?
+
+45
+00:02:38,720 --> 00:02:39,960
+ That means in your algorithm,
+
+46
+00:02:39,960 --> 00:02:45,350
+ when everybody calls gather, output is only valid on root.
+
+47
+00:02:45,350 --> 00:02:48,890
+ In fact, you can assume that the other processes have no output buffer,
+
+48
+00:02:48,890 --> 00:02:52,210
+ unless the algorithm needs it for some reason.
+
+49
+00:02:52,210 --> 00:02:56,470
+ Now notice I've used the symbol little m instead of little n.
+
+50
+00:02:56,470 --> 00:03:00,320
+ The reason is so that when you do analysis, I want you to assume that
+
+51
+00:03:00,320 --> 00:03:06,410
+ our usual problem-sized variable, n, is defined to be m times p.
+
+52
+00:03:06,410 --> 00:03:09,220
+ That is the size of the combined output.
+
+53
+00:03:09,220 --> 00:03:15,020
+ This is basically just saying that we always want to assume that p divides n.
+
+54
+00:03:15,020 --> 00:03:18,480
+ Of course, in a real message passing library there will be ways to send
+
+55
+00:03:18,480 --> 00:03:21,690
+ variable amounts of data per process.
+
+56
+00:03:21,690 --> 00:03:26,480
+ Now the dual of the gather, or a scatter, looks essentially the same.
+
+57
+00:03:26,480 --> 00:03:32,240
+ The difference is that the input is of size m times P defined on the root.
+
+58
+00:03:32,240 --> 00:03:35,480
+ Finally, we come to allGather and reduce scatter.
+
+59
+00:03:35,480 --> 00:03:37,760
+ Here's allGather.
+
+60
+00:03:37,760 --> 00:03:40,910
+ Note that there's no concept of a root rank.
+
+61
+00:03:40,910 --> 00:03:45,220
+ The allGather essentially replicates the input buffer everywhere.
+
+62
+00:03:45,220 --> 00:03:47,760
+ Now reduceScatter is the same as an allGather just going in
+
+63
+00:03:47,760 --> 00:03:49,500
+ the other direction.
+
+64
+00:03:49,500 --> 00:03:51,530
+ So in particular, the dimensions on the input and
+
+65
+00:03:51,530 --> 00:03:55,410
+ output buffers are reversed relative to allGather.
+
+66
+00:03:55,410 --> 00:03:57,750
+ Now we've been using these two-dimensional objects, so
+
+67
+00:03:57,750 --> 00:04:01,050
+ I want to introduce one more useful primitive.
+
+68
+00:04:01,050 --> 00:04:03,280
+ It's called a reshape.
+
+69
+00:04:03,280 --> 00:04:05,150
+ It has two forms.
+
+70
+00:04:05,150 --> 00:04:09,430
+ One takes a two-dimensional input and produces a one-dimensional output.
+
+71
+00:04:09,430 --> 00:04:12,270
+ The other goes from 1-D to 2-D.
+
+72
+00:04:12,270 --> 00:04:17,380
+ This primitive is a purely logical operation, rather than a physical one.
+
+73
+00:04:17,380 --> 00:04:21,620
+ By that, I mean it doesn't actually copy a 2-D object to a 1-D array.
+
+74
+00:04:21,620 --> 00:04:24,750
+ It just says that it changes the interface of the object so
+
+75
+00:04:24,750 --> 00:04:29,050
+ that you can start viewing it and operating on it as if it were 1-D.
+
+76
+00:04:29,050 --> 00:04:31,950
+ In fact, if you're familiar with multi-dimensional arrays in
+
+77
+00:04:31,950 --> 00:04:35,910
+ languages like C and C++, you know a dense multi-dimensional
+
+78
+00:04:35,910 --> 00:04:39,710
+ array always maps to a linear address base anyway.
+
+79
+00:04:39,710 --> 00:04:42,940
+ As such you can assume it has constant cost.
+
+80
+00:04:42,940 --> 00:04:47,350
+ Just to be concrete, here's a picture of going from a logical 2-D
+
+81
+00:04:47,350 --> 00:04:51,320
+ representation to a logical 1-D representation.
+
+82
+00:04:51,320 --> 00:04:56,580
+ The convention I'll use linearizes the 2-D array column by column.
+
+83
+00:04:56,580 --> 00:04:56,580
+ This is sometimes called column major storage.
+

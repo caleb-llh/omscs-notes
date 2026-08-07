@@ -1,0 +1,16 @@
+1
+00:00:00,460 --> 00:00:04,370
+ Given what you now know, I want you to give me a new broadcast algorithm that
+
+2
+00:00:04,370 --> 00:00:08,520
+ is asymptotically optimal in bandwidth.
+
+3
+00:00:08,520 --> 00:00:12,640
+ That is, I want you to define the implementation of broadcast.
+
+4
+00:00:12,640 --> 00:00:12,640
+ As a hint, think about combining bandwidth optimal collectives.
+

@@ -1,0 +1,20 @@
+1
+00:00:00,450 --> 00:00:01,850
+ Here's a question.
+
+2
+00:00:01,850 --> 00:00:06,400
+ What are the work and span of this parallel scan algorithm?
+
+3
+00:00:06,400 --> 00:00:09,680
+ So here are your answer choices, and for each of work and span,
+
+4
+00:00:09,680 --> 00:00:11,430
+ choose the correct one.
+
+5
+00:00:11,430 --> 00:00:11,430
+ That is, choose one from each column.
+

@@ -1,0 +1,600 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.419 align:start position:0%
+ 
+but<00:00:00.329><c> what</c><00:00:00.539><c> about</c><00:00:00.840><c> the</c><00:00:01.050><c> reliability</c><00:00:01.890><c> and</c><00:00:02.040><c> the</c>
+
+00:00:02.419 --> 00:00:02.429 align:start position:0%
+but what about the reliability and the
+ 
+
+00:00:02.429 --> 00:00:03.110 align:start position:0%
+but what about the reliability and the
+MTTF
+
+00:00:03.110 --> 00:00:03.120 align:start position:0%
+MTTF
+ 
+
+00:00:03.120 --> 00:00:06.260 align:start position:0%
+MTTF
+of<00:00:03.330><c> red</c><00:00:03.689><c> one</c><00:00:04.140><c> same</c><00:00:04.650><c> as</c><00:00:04.830><c> before</c><00:00:04.859><c> we</c><00:00:05.819><c> will</c><00:00:05.970><c> assume</c>
+
+00:00:06.260 --> 00:00:06.270 align:start position:0%
+of red one same as before we will assume
+ 
+
+00:00:06.270 --> 00:00:08.480 align:start position:0%
+of red one same as before we will assume
+that<00:00:06.330><c> some</c><00:00:06.930><c> F</c><00:00:07.170><c> is</c><00:00:07.440><c> the</c><00:00:07.620><c> failure</c><00:00:07.859><c> rate</c><00:00:08.220><c> for</c><00:00:08.250><c> a</c>
+
+00:00:08.480 --> 00:00:08.490 align:start position:0%
+that some F is the failure rate for a
+ 
+
+00:00:08.490 --> 00:00:11.030 align:start position:0%
+that some F is the failure rate for a
+single<00:00:08.940><c> disk</c><00:00:09.150><c> in</c><00:00:09.540><c> failures</c><00:00:10.380><c> per</c><00:00:10.620><c> disk</c><00:00:10.860><c> per</c>
+
+00:00:11.030 --> 00:00:11.040 align:start position:0%
+single disk in failures per disk per
+ 
+
+00:00:11.040 --> 00:00:13.910 align:start position:0%
+single disk in failures per disk per
+second<00:00:11.519><c> and</c><00:00:11.730><c> for</c><00:00:12.690><c> a</c><00:00:12.719><c> single</c><00:00:13.049><c> disk</c><00:00:13.230><c> remember</c>
+
+00:00:13.910 --> 00:00:13.920 align:start position:0%
+second and for a single disk remember
+ 
+
+00:00:13.920 --> 00:00:17.060 align:start position:0%
+second and for a single disk remember
+that<00:00:14.099><c> the</c><00:00:14.370><c> MTTF</c><00:00:14.880><c> is</c><00:00:15.179><c> simply</c><00:00:15.540><c> 1</c><00:00:15.780><c> over</c><00:00:16.199><c> F</c><00:00:16.470><c> where</c><00:00:17.039><c> F</c>
+
+00:00:17.060 --> 00:00:17.070 align:start position:0%
+that the MTTF is simply 1 over F where F
+ 
+
+00:00:17.070 --> 00:00:20.120 align:start position:0%
+that the MTTF is simply 1 over F where F
+is<00:00:17.430><c> that</c><00:00:17.609><c> failure</c><00:00:17.850><c> rate</c><00:00:18.210><c> and</c><00:00:18.480><c> then</c><00:00:19.439><c> the</c><00:00:19.949><c> mean</c>
+
+00:00:20.120 --> 00:00:20.130 align:start position:0%
+is that failure rate and then the mean
+ 
+
+00:00:20.130 --> 00:00:23.300 align:start position:0%
+is that failure rate and then the mean
+time<00:00:20.369><c> to</c><00:00:20.400><c> data</c><00:00:20.580><c> loss</c><00:00:21.029><c> which</c><00:00:21.930><c> is</c><00:00:21.960><c> the</c><00:00:22.350><c> MTTF</c>
+
+00:00:23.300 --> 00:00:23.310 align:start position:0%
+time to data loss which is the MTTF
+ 
+
+00:00:23.310 --> 00:00:25.580 align:start position:0%
+time to data loss which is the MTTF
+really<00:00:23.760><c> of</c><00:00:23.939><c> the</c><00:00:24.210><c> whole</c><00:00:24.570><c> disk</c><00:00:24.900><c> array</c><00:00:25.230><c> in</c><00:00:25.470><c> this</c>
+
+00:00:25.580 --> 00:00:25.590 align:start position:0%
+really of the whole disk array in this
+ 
+
+00:00:25.590 --> 00:00:28.130 align:start position:0%
+really of the whole disk array in this
+case<00:00:25.830><c> just</c><00:00:26.010><c> one</c><00:00:26.160><c> disk</c><00:00:26.460><c> would</c><00:00:27.180><c> be</c><00:00:27.449><c> simply</c><00:00:27.990><c> the</c>
+
+00:00:28.130 --> 00:00:28.140 align:start position:0%
+case just one disk would be simply the
+ 
+
+00:00:28.140 --> 00:00:30.980 align:start position:0%
+case just one disk would be simply the
+MTTF<00:00:28.560><c> of</c><00:00:28.859><c> that</c><00:00:29.070><c> one</c><00:00:29.279><c> disk</c><00:00:29.550><c> well</c><00:00:30.330><c> let's</c><00:00:30.570><c> say</c><00:00:30.810><c> now</c>
+
+00:00:30.980 --> 00:00:30.990 align:start position:0%
+MTTF of that one disk well let's say now
+ 
+
+00:00:30.990 --> 00:00:33.850 align:start position:0%
+MTTF of that one disk well let's say now
+that<00:00:31.019><c> we</c><00:00:31.349><c> have</c><00:00:31.590><c> two</c><00:00:31.920><c> disks</c><00:00:32.399><c> in</c><00:00:32.610><c> raid</c><00:00:32.910><c> 1</c><00:00:33.180><c> and</c>
+
+00:00:33.850 --> 00:00:33.860 align:start position:0%
+that we have two disks in raid 1 and
+ 
+
+00:00:33.860 --> 00:00:36.200 align:start position:0%
+that we have two disks in raid 1 and
+remember<00:00:34.860><c> that</c><00:00:35.100><c> the</c><00:00:35.250><c> failure</c><00:00:35.610><c> rate</c><00:00:35.790><c> when</c><00:00:36.059><c> we</c>
+
+00:00:36.200 --> 00:00:36.210 align:start position:0%
+remember that the failure rate when we
+ 
+
+00:00:36.210 --> 00:00:38.930 align:start position:0%
+remember that the failure rate when we
+have<00:00:36.450><c> more</c><00:00:36.719><c> than</c><00:00:36.780><c> one</c><00:00:37.110><c> disk</c><00:00:37.410><c> is</c><00:00:37.980><c> n</c><00:00:38.370><c> times</c><00:00:38.820><c> the</c>
+
+00:00:38.930 --> 00:00:38.940 align:start position:0%
+have more than one disk is n times the
+ 
+
+00:00:38.940 --> 00:00:41.450 align:start position:0%
+have more than one disk is n times the
+failure<00:00:39.390><c> rate</c><00:00:39.570><c> of</c><00:00:39.600><c> one</c><00:00:40.050><c> disk</c><00:00:40.260><c> as</c><00:00:40.590><c> long</c><00:00:40.950><c> as</c><00:00:41.190><c> all</c>
+
+00:00:41.450 --> 00:00:41.460 align:start position:0%
+failure rate of one disk as long as all
+ 
+
+00:00:41.460 --> 00:00:44.330 align:start position:0%
+failure rate of one disk as long as all
+of<00:00:41.520><c> the</c><00:00:41.820><c> disks</c><00:00:42.210><c> are</c><00:00:42.329><c> working</c><00:00:42.780><c> so</c><00:00:43.770><c> what</c><00:00:43.950><c> we</c><00:00:44.129><c> have</c>
+
+00:00:44.330 --> 00:00:44.340 align:start position:0%
+of the disks are working so what we have
+ 
+
+00:00:44.340 --> 00:00:47.270 align:start position:0%
+of the disks are working so what we have
+really<00:00:44.610><c> is</c><00:00:44.789><c> that</c><00:00:45.300><c> both</c><00:00:46.079><c> of</c><00:00:46.110><c> our</c><00:00:46.440><c> disks</c><00:00:46.890><c> in</c><00:00:47.070><c> raid</c>
+
+00:00:47.270 --> 00:00:47.280 align:start position:0%
+really is that both of our disks in raid
+ 
+
+00:00:47.280 --> 00:00:51.049 align:start position:0%
+really is that both of our disks in raid
+1<00:00:47.520><c> are</c><00:00:47.850><c> ok</c><00:00:48.329><c> until</c><00:00:48.719><c> the</c><00:00:49.079><c> time</c><00:00:49.460><c> MTTF</c><00:00:50.460><c> of</c><00:00:50.640><c> one</c><00:00:50.879><c> disk</c>
+
+00:00:51.049 --> 00:00:51.059 align:start position:0%
+1 are ok until the time MTTF of one disk
+ 
+
+00:00:51.059 --> 00:00:53.750 align:start position:0%
+1 are ok until the time MTTF of one disk
+over<00:00:51.539><c> 2</c><00:00:51.750><c> this</c><00:00:52.260><c> is</c><00:00:52.469><c> the</c><00:00:52.590><c> expected</c><00:00:52.980><c> time</c><00:00:53.190><c> when</c>
+
+00:00:53.750 --> 00:00:53.760 align:start position:0%
+over 2 this is the expected time when
+ 
+
+00:00:53.760 --> 00:00:56.630 align:start position:0%
+over 2 this is the expected time when
+one<00:00:54.120><c> of</c><00:00:54.390><c> the</c><00:00:54.539><c> disks</c><00:00:54.899><c> will</c><00:00:55.110><c> fail</c><00:00:55.350><c> now</c><00:00:56.100><c> unlike</c>
+
+00:00:56.630 --> 00:00:56.640 align:start position:0%
+one of the disks will fail now unlike
+ 
+
+00:00:56.640 --> 00:00:58.880 align:start position:0%
+one of the disks will fail now unlike
+raid<00:00:56.940><c> 0</c><00:00:57.270><c> where</c><00:00:57.719><c> this</c><00:00:57.989><c> is</c><00:00:58.260><c> the</c><00:00:58.379><c> point</c><00:00:58.649><c> where</c><00:00:58.859><c> it</c>
+
+00:00:58.880 --> 00:00:58.890 align:start position:0%
+raid 0 where this is the point where it
+ 
+
+00:00:58.890 --> 00:01:02.479 align:start position:0%
+raid 0 where this is the point where it
+would<00:00:59.070><c> lose</c><00:00:59.309><c> data</c><00:00:59.600><c> now</c><00:01:00.600><c> we</c><00:01:00.629><c> have</c><00:01:01.020><c> mirroring</c><00:01:01.590><c> so</c>
+
+00:01:02.479 --> 00:01:02.489 align:start position:0%
+would lose data now we have mirroring so
+ 
+
+00:01:02.489 --> 00:01:05.270 align:start position:0%
+would lose data now we have mirroring so
+both<00:01:02.910><c> of</c><00:01:03.210><c> the</c><00:01:03.480><c> disks</c><00:01:03.899><c> need</c><00:01:04.140><c> to</c><00:01:04.320><c> fail</c><00:01:04.589><c> in</c><00:01:05.040><c> order</c>
+
+00:01:05.270 --> 00:01:05.280 align:start position:0%
+both of the disks need to fail in order
+ 
+
+00:01:05.280 --> 00:01:07.880 align:start position:0%
+both of the disks need to fail in order
+for<00:01:05.670><c> the</c><00:01:05.760><c> whole</c><00:01:05.939><c> thing</c><00:01:06.150><c> to</c><00:01:06.299><c> lose</c><00:01:06.420><c> data</c><00:01:06.890><c> one</c>
+
+00:01:07.880 --> 00:01:07.890 align:start position:0%
+for the whole thing to lose data one
+ 
+
+00:01:07.890 --> 00:01:11.840 align:start position:0%
+for the whole thing to lose data one
+failure<00:01:08.250><c> is</c><00:01:08.670><c> not</c><00:01:09.060><c> data</c><00:01:09.600><c> loss</c><00:01:09.960><c> yet</c><00:01:10.700><c> so</c><00:01:11.700><c> we</c><00:01:11.820><c> don't</c>
+
+00:01:11.840 --> 00:01:11.850 align:start position:0%
+failure is not data loss yet so we don't
+ 
+
+00:01:11.850 --> 00:01:15.170 align:start position:0%
+failure is not data loss yet so we don't
+have<00:01:12.360><c> the</c><00:01:12.510><c> failure</c><00:01:12.750><c> of</c><00:01:12.930><c> the</c><00:01:13.260><c> array</c><00:01:13.470><c> yet</c><00:01:13.970><c> but</c><00:01:14.970><c> at</c>
+
+00:01:15.170 --> 00:01:15.180 align:start position:0%
+have the failure of the array yet but at
+ 
+
+00:01:15.180 --> 00:01:18.679 align:start position:0%
+have the failure of the array yet but at
+this<00:01:15.420><c> time</c><00:01:15.479><c> we</c><00:01:16.049><c> are</c><00:01:16.259><c> down</c><00:01:16.560><c> to</c><00:01:16.590><c> one</c><00:01:17.009><c> disk</c><00:01:17.689><c> that</c>
+
+00:01:18.679 --> 00:01:18.689 align:start position:0%
+this time we are down to one disk that
+ 
+
+00:01:18.689 --> 00:01:20.960 align:start position:0%
+this time we are down to one disk that
+one<00:01:18.960><c> disk</c><00:01:19.170><c> is</c><00:01:19.409><c> a</c><00:01:19.439><c> working</c><00:01:19.979><c> disk</c><00:01:20.189><c> and</c><00:01:20.430><c> has</c><00:01:20.700><c> this</c>
+
+00:01:20.960 --> 00:01:20.970 align:start position:0%
+one disk is a working disk and has this
+ 
+
+00:01:20.970 --> 00:01:24.469 align:start position:0%
+one disk is a working disk and has this
+failure<00:01:21.450><c> rate</c><00:01:22.130><c> so</c><00:01:23.130><c> that</c><00:01:23.369><c> one</c><00:01:23.759><c> remaining</c><00:01:24.180><c> this</c>
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+failure rate so that one remaining this
+ 
+
+00:01:24.479 --> 00:01:27.710 align:start position:0%
+failure rate so that one remaining this
+will<00:01:24.750><c> live</c><00:01:24.960><c> on</c><00:01:25.140><c> for</c><00:01:26.009><c> another</c><00:01:26.299><c> MTTF</c><00:01:27.299><c> of</c><00:01:27.330><c> a</c>
+
+00:01:27.710 --> 00:01:27.720 align:start position:0%
+will live on for another MTTF of a
+ 
+
+00:01:27.720 --> 00:01:30.469 align:start position:0%
+will live on for another MTTF of a
+single<00:01:28.110><c> disk</c><00:01:28.310><c> this</c><00:01:29.310><c> is</c><00:01:29.369><c> very</c><00:01:29.759><c> important</c><00:01:30.360><c> to</c>
+
+00:01:30.469 --> 00:01:30.479 align:start position:0%
+single disk this is very important to
+ 
+
+00:01:30.479 --> 00:01:33.350 align:start position:0%
+single disk this is very important to
+understand<00:01:30.990><c> if</c><00:01:31.439><c> we</c><00:01:31.890><c> have</c><00:01:32.189><c> a</c><00:01:32.400><c> working</c><00:01:32.850><c> disk</c><00:01:33.090><c> at</c>
+
+00:01:33.350 --> 00:01:33.360 align:start position:0%
+understand if we have a working disk at
+ 
+
+00:01:33.360 --> 00:01:36.109 align:start position:0%
+understand if we have a working disk at
+some<00:01:33.570><c> point</c><00:01:33.840><c> in</c><00:01:34.049><c> time</c><00:01:34.079><c> the</c><00:01:34.710><c> MTTF</c><00:01:35.400><c> for</c><00:01:35.909><c> that</c>
+
+00:01:36.109 --> 00:01:36.119 align:start position:0%
+some point in time the MTTF for that
+ 
+
+00:01:36.119 --> 00:01:39.319 align:start position:0%
+some point in time the MTTF for that
+disk<00:01:36.450><c> is</c><00:01:36.780><c> going</c><00:01:36.990><c> to</c><00:01:37.439><c> be</c><00:01:37.590><c> the</c><00:01:38.130><c> overall</c><00:01:38.310><c> MTTF</c><00:01:39.119><c> for</c>
+
+00:01:39.319 --> 00:01:39.329 align:start position:0%
+disk is going to be the overall MTTF for
+ 
+
+00:01:39.329 --> 00:01:42.620 align:start position:0%
+disk is going to be the overall MTTF for
+one<00:01:39.509><c> disk</c><00:01:39.780><c> this</c><00:01:40.650><c> MTTF</c><00:01:41.340><c> is</c><00:01:41.549><c> not</c><00:01:41.820><c> affected</c><00:01:42.450><c> by</c>
+
+00:01:42.620 --> 00:01:42.630 align:start position:0%
+one disk this MTTF is not affected by
+ 
+
+00:01:42.630 --> 00:01:44.690 align:start position:0%
+one disk this MTTF is not affected by
+the<00:01:42.689><c> fact</c><00:01:43.049><c> that</c><00:01:43.229><c> this</c><00:01:43.470><c> disk</c><00:01:43.829><c> has</c><00:01:44.159><c> already</c><00:01:44.460><c> been</c>
+
+00:01:44.690 --> 00:01:44.700 align:start position:0%
+the fact that this disk has already been
+ 
+
+00:01:44.700 --> 00:01:47.240 align:start position:0%
+the fact that this disk has already been
+working<00:01:44.970><c> for</c><00:01:45.299><c> all</c><00:01:45.420><c> this</c><00:01:45.570><c> time</c><00:01:45.810><c> why</c><00:01:46.619><c> well</c>
+
+00:01:47.240 --> 00:01:47.250 align:start position:0%
+working for all this time why well
+ 
+
+00:01:47.250 --> 00:01:48.889 align:start position:0%
+working for all this time why well
+because<00:01:47.610><c> the</c><00:01:47.820><c> failure</c><00:01:48.090><c> rate</c><00:01:48.450><c> is</c><00:01:48.630><c> constant</c>
+
+00:01:48.889 --> 00:01:48.899 align:start position:0%
+because the failure rate is constant
+ 
+
+00:01:48.899 --> 00:01:51.649 align:start position:0%
+because the failure rate is constant
+it's<00:01:49.500><c> not</c><00:01:49.770><c> affected</c><00:01:50.340><c> by</c><00:01:50.520><c> time</c><00:01:50.790><c> so</c><00:01:51.270><c> if</c><00:01:51.390><c> we</c><00:01:51.479><c> have</c>
+
+00:01:51.649 --> 00:01:51.659 align:start position:0%
+it's not affected by time so if we have
+ 
+
+00:01:51.659 --> 00:01:53.660 align:start position:0%
+it's not affected by time so if we have
+a<00:01:51.689><c> working</c><00:01:51.990><c> disk</c><00:01:52.380><c> its</c><00:01:52.710><c> failure</c><00:01:53.220><c> rate</c><00:01:53.430><c> is</c>
+
+00:01:53.660 --> 00:01:53.670 align:start position:0%
+a working disk its failure rate is
+ 
+
+00:01:53.670 --> 00:01:56.870 align:start position:0%
+a working disk its failure rate is
+always<00:01:54.090><c> the</c><00:01:54.240><c> same</c><00:01:54.450><c> the</c><00:01:54.890><c> only</c><00:01:55.890><c> thing</c><00:01:56.130><c> that</c>
+
+00:01:56.870 --> 00:01:56.880 align:start position:0%
+always the same the only thing that
+ 
+
+00:01:56.880 --> 00:01:59.030 align:start position:0%
+always the same the only thing that
+changes<00:01:57.360><c> the</c><00:01:57.509><c> failure</c><00:01:57.869><c> rate</c><00:01:58.049><c> is</c><00:01:58.320><c> if</c><00:01:58.560><c> the</c><00:01:58.829><c> disk</c>
+
+00:01:59.030 --> 00:01:59.040 align:start position:0%
+changes the failure rate is if the disk
+ 
+
+00:01:59.040 --> 00:02:02.179 align:start position:0%
+changes the failure rate is if the disk
+fails<00:01:59.369><c> so</c><00:02:00.360><c> if</c><00:02:00.450><c> we</c><00:02:00.540><c> had</c><00:02:00.689><c> two</c><00:02:00.869><c> disks</c><00:02:01.350><c> and</c><00:02:01.500><c> both</c>
+
+00:02:02.179 --> 00:02:02.189 align:start position:0%
+fails so if we had two disks and both
+ 
+
+00:02:02.189 --> 00:02:04.520 align:start position:0%
+fails so if we had two disks and both
+work<00:02:02.549><c> this</c><00:02:03.090><c> is</c><00:02:03.299><c> the</c><00:02:03.420><c> expected</c><00:02:03.750><c> time</c><00:02:04.140><c> of</c><00:02:04.170><c> them</c>
+
+00:02:04.520 --> 00:02:04.530 align:start position:0%
+work this is the expected time of them
+ 
+
+00:02:04.530 --> 00:02:07.310 align:start position:0%
+work this is the expected time of them
+surviving<00:02:04.979><c> and</c><00:02:05.399><c> then</c><00:02:06.180><c> if</c><00:02:06.479><c> we're</c><00:02:06.899><c> down</c><00:02:07.079><c> to</c><00:02:07.290><c> one</c>
+
+00:02:07.310 --> 00:02:07.320 align:start position:0%
+surviving and then if we're down to one
+ 
+
+00:02:07.320 --> 00:02:10.490 align:start position:0%
+surviving and then if we're down to one
+this<00:02:07.740><c> that</c><00:02:08.039><c> works</c><00:02:08.310><c> at</c><00:02:08.970><c> the</c><00:02:09.420><c> time</c><00:02:09.660><c> when</c><00:02:09.869><c> we</c><00:02:10.289><c> have</c>
+
+00:02:10.490 --> 00:02:10.500 align:start position:0%
+this that works at the time when we have
+ 
+
+00:02:10.500 --> 00:02:13.850 align:start position:0%
+this that works at the time when we have
+a<00:02:10.709><c> single</c><00:02:11.160><c> working</c><00:02:11.400><c> disk</c><00:02:11.819><c> this</c><00:02:12.390><c> is</c><00:02:12.629><c> the</c><00:02:12.989><c> MTTF</c>
+
+00:02:13.850 --> 00:02:13.860 align:start position:0%
+a single working disk this is the MTTF
+ 
+
+00:02:13.860 --> 00:02:17.510 align:start position:0%
+a single working disk this is the MTTF
+that<00:02:14.400><c> we</c><00:02:14.550><c> can</c><00:02:14.700><c> expect</c><00:02:15.390><c> so</c><00:02:15.960><c> overall</c><00:02:16.380><c> the</c><00:02:17.310><c> mean</c>
+
+00:02:17.510 --> 00:02:17.520 align:start position:0%
+that we can expect so overall the mean
+ 
+
+00:02:17.520 --> 00:02:19.940 align:start position:0%
+that we can expect so overall the mean
+time<00:02:17.790><c> to</c><00:02:17.820><c> data</c><00:02:18.000><c> loss</c><00:02:18.390><c> for</c><00:02:18.840><c> raid</c><00:02:19.050><c> one</c><00:02:19.380><c> with</c><00:02:19.740><c> two</c>
+
+00:02:19.940 --> 00:02:19.950 align:start position:0%
+time to data loss for raid one with two
+ 
+
+00:02:19.950 --> 00:02:23.360 align:start position:0%
+time to data loss for raid one with two
+disks<00:02:20.460><c> is</c><00:02:20.640><c> going</c><00:02:21.090><c> to</c><00:02:21.270><c> be</c><00:02:21.450><c> the</c><00:02:22.410><c> MTTF</c><00:02:22.980><c> of</c><00:02:23.250><c> a</c>
+
+00:02:23.360 --> 00:02:23.370 align:start position:0%
+disks is going to be the MTTF of a
+ 
+
+00:02:23.370 --> 00:02:27.590 align:start position:0%
+disks is going to be the MTTF of a
+single<00:02:23.760><c> disk</c><00:02:23.910><c> over</c><00:02:24.270><c> two</c><00:02:24.630><c> plus</c><00:02:25.140><c> the</c><00:02:26.040><c> MTTF</c><00:02:26.700><c> of</c><00:02:27.090><c> a</c>
+
+00:02:27.590 --> 00:02:27.600 align:start position:0%
+single disk over two plus the MTTF of a
+ 
+
+00:02:27.600 --> 00:02:30.290 align:start position:0%
+single disk over two plus the MTTF of a
+single<00:02:27.960><c> disk</c><00:02:28.080><c> and</c><00:02:28.440><c> now</c><00:02:29.070><c> we</c><00:02:29.130><c> bought</c><00:02:29.520><c> two</c><00:02:29.790><c> disks</c>
+
+00:02:30.290 --> 00:02:30.300 align:start position:0%
+single disk and now we bought two disks
+ 
+
+00:02:30.300 --> 00:02:32.390 align:start position:0%
+single disk and now we bought two disks
+and<00:02:30.510><c> use</c><00:02:30.930><c> them</c><00:02:31.200><c> in</c><00:02:31.290><c> an</c><00:02:31.440><c> array</c><00:02:31.560><c> that</c><00:02:32.040><c> has</c><00:02:32.070><c> the</c>
+
+00:02:32.390 --> 00:02:32.400 align:start position:0%
+and use them in an array that has the
+ 
+
+00:02:32.400 --> 00:02:34.490 align:start position:0%
+and use them in an array that has the
+capacity<00:02:32.550><c> of</c><00:02:32.880><c> only</c><00:02:33.060><c> a</c><00:02:33.210><c> single</c><00:02:33.720><c> disk</c><00:02:33.930><c> so</c>
+
+00:02:34.490 --> 00:02:34.500 align:start position:0%
+capacity of only a single disk so
+ 
+
+00:02:34.500 --> 00:02:36.380 align:start position:0%
+capacity of only a single disk so
+basically<00:02:34.890><c> paid</c><00:02:35.100><c> for</c><00:02:35.340><c> the</c><00:02:35.490><c> extra</c><00:02:35.520><c> disk</c><00:02:36.030><c> just</c>
+
+00:02:36.380 --> 00:02:36.390 align:start position:0%
+basically paid for the extra disk just
+ 
+
+00:02:36.390 --> 00:02:38.480 align:start position:0%
+basically paid for the extra disk just
+to<00:02:36.570><c> get</c><00:02:36.750><c> reliability</c><00:02:37.440><c> and</c><00:02:37.620><c> what</c><00:02:37.860><c> we</c><00:02:38.070><c> get</c><00:02:38.250><c> is</c>
+
+00:02:38.480 --> 00:02:38.490 align:start position:0%
+to get reliability and what we get is
+ 
+
+00:02:38.490 --> 00:02:41.720 align:start position:0%
+to get reliability and what we get is
+just<00:02:38.720><c> one</c><00:02:39.720><c> half</c><00:02:39.990><c> more</c><00:02:40.410><c> of</c><00:02:40.709><c> the</c><00:02:40.890><c> MTTF</c><00:02:41.280><c> that</c><00:02:41.610><c> we</c>
+
+00:02:41.720 --> 00:02:41.730 align:start position:0%
+just one half more of the MTTF that we
+ 
+
+00:02:41.730 --> 00:02:43.220 align:start position:0%
+just one half more of the MTTF that we
+would<00:02:41.880><c> normally</c><00:02:42.030><c> get</c><00:02:42.480><c> with</c><00:02:42.750><c> only</c><00:02:42.930><c> a</c><00:02:43.050><c> single</c>
+
+00:02:43.220 --> 00:02:43.230 align:start position:0%
+would normally get with only a single
+ 
+
+00:02:43.230 --> 00:02:46.280 align:start position:0%
+would normally get with only a single
+disk<00:02:43.590><c> so</c><00:02:44.220><c> what's</c><00:02:44.430><c> the</c><00:02:44.640><c> point</c><00:02:44.820><c> the</c><00:02:45.570><c> point</c><00:02:45.840><c> is</c>
+
+00:02:46.280 --> 00:02:46.290 align:start position:0%
+disk so what's the point the point is
+ 
+
+00:02:46.290 --> 00:02:49.640 align:start position:0%
+disk so what's the point the point is
+that<00:02:46.500><c> this</c><00:02:47.070><c> calculation</c><00:02:47.880><c> assumes</c><00:02:48.780><c> that</c><00:02:49.260><c> no</c>
+
+00:02:49.640 --> 00:02:49.650 align:start position:0%
+that this calculation assumes that no
+ 
+
+00:02:49.650 --> 00:02:52.610 align:start position:0%
+that this calculation assumes that no
+disk<00:02:50.100><c> is</c><00:02:50.340><c> replaced</c><00:02:50.880><c> at</c><00:02:51.420><c> the</c><00:02:52.050><c> time</c><00:02:52.290><c> when</c><00:02:52.500><c> it</c>
+
+00:02:52.610 --> 00:02:52.620 align:start position:0%
+disk is replaced at the time when it
+ 
+
+00:02:52.620 --> 00:02:56.690 align:start position:0%
+disk is replaced at the time when it
+fails<00:02:52.890><c> so</c><00:02:53.480><c> we</c><00:02:54.480><c> had</c><00:02:54.750><c> a</c><00:02:54.780><c> failure</c><00:02:55.170><c> and</c><00:02:55.650><c> we</c><00:02:56.489><c> just</c>
+
+00:02:56.690 --> 00:02:56.700 align:start position:0%
+fails so we had a failure and we just
+ 
+
+00:02:56.700 --> 00:02:59.810 align:start position:0%
+fails so we had a failure and we just
+let<00:02:57.000><c> that</c><00:02:57.300><c> fail</c><00:02:57.600><c> disk</c><00:02:57.900><c> be</c><00:02:58.140><c> there</c><00:02:58.470><c> and</c><00:02:58.700><c> we</c><00:02:59.700><c> were</c>
+
+00:02:59.810 --> 00:02:59.820 align:start position:0%
+let that fail disk be there and we were
+ 
+
+00:02:59.820 --> 00:03:01.940 align:start position:0%
+let that fail disk be there and we were
+down<00:03:00.030><c> to</c><00:03:00.270><c> one</c><00:03:00.450><c> disk</c><00:03:00.690><c> and</c><00:03:00.989><c> didn't</c><00:03:01.260><c> fix</c><00:03:01.500><c> it</c><00:03:01.739><c> and</c>
+
+00:03:01.940 --> 00:03:01.950 align:start position:0%
+down to one disk and didn't fix it and
+ 
+
+00:03:01.950 --> 00:03:04.190 align:start position:0%
+down to one disk and didn't fix it and
+then<00:03:02.220><c> we</c><00:03:02.610><c> just</c><00:03:02.640><c> were</c><00:03:03.030><c> down</c><00:03:03.270><c> to</c><00:03:03.480><c> the</c><00:03:03.600><c> MTTF</c><00:03:04.020><c> of</c>
+
+00:03:04.190 --> 00:03:04.200 align:start position:0%
+then we just were down to the MTTF of
+ 
+
+00:03:04.200 --> 00:03:06.740 align:start position:0%
+then we just were down to the MTTF of
+one<00:03:04.440><c> disk</c><00:03:04.680><c> for</c><00:03:04.770><c> a</c><00:03:04.950><c> while</c><00:03:05.190><c> but</c><00:03:06.000><c> remember</c><00:03:06.540><c> that</c>
+
+00:03:06.740 --> 00:03:06.750 align:start position:0%
+one disk for a while but remember that
+ 
+
+00:03:06.750 --> 00:03:09.050 align:start position:0%
+one disk for a while but remember that
+when<00:03:07.020><c> we</c><00:03:07.140><c> want</c><00:03:07.350><c> reliability</c><00:03:08.130><c> we</c><00:03:08.370><c> definitely</c>
+
+00:03:09.050 --> 00:03:09.060 align:start position:0%
+when we want reliability we definitely
+ 
+
+00:03:09.060 --> 00:03:12.979 align:start position:0%
+when we want reliability we definitely
+will<00:03:09.330><c> replace</c><00:03:09.959><c> the</c><00:03:10.440><c> failed</c><00:03:10.650><c> disks</c><00:03:11.310><c> so</c><00:03:11.810><c> when</c><00:03:12.810><c> we</c>
+
+00:03:12.979 --> 00:03:12.989 align:start position:0%
+will replace the failed disks so when we
+ 
+
+00:03:12.989 --> 00:03:15.170 align:start position:0%
+will replace the failed disks so when we
+have<00:03:13.200><c> the</c><00:03:13.350><c> first</c><00:03:13.620><c> failure</c><00:03:13.980><c> we</c><00:03:14.550><c> will</c><00:03:14.730><c> as</c><00:03:14.910><c> soon</c>
+
+00:03:15.170 --> 00:03:15.180 align:start position:0%
+have the first failure we will as soon
+ 
+
+00:03:15.180 --> 00:03:18.560 align:start position:0%
+have the first failure we will as soon
+as<00:03:15.390><c> possible</c><00:03:15.989><c> replace</c><00:03:16.500><c> that</c><00:03:16.770><c> fail</c><00:03:17.010><c> disk</c><00:03:17.570><c> copy</c>
+
+00:03:18.560 --> 00:03:18.570 align:start position:0%
+as possible replace that fail disk copy
+ 
+
+00:03:18.570 --> 00:03:20.930 align:start position:0%
+as possible replace that fail disk copy
+the<00:03:19.019><c> data</c><00:03:19.230><c> from</c><00:03:19.380><c> the</c><00:03:19.709><c> working</c><00:03:20.070><c> disk</c><00:03:20.280><c> to</c><00:03:20.549><c> it</c><00:03:20.670><c> so</c>
+
+00:03:20.930 --> 00:03:20.940 align:start position:0%
+the data from the working disk to it so
+ 
+
+00:03:20.940 --> 00:03:23.390 align:start position:0%
+the data from the working disk to it so
+now<00:03:20.970><c> we</c><00:03:21.209><c> are</c><00:03:21.420><c> back</c><00:03:21.660><c> to</c><00:03:22.049><c> raid</c><00:03:22.230><c> 1</c><00:03:22.500><c> working</c>
+
+00:03:23.390 --> 00:03:23.400 align:start position:0%
+now we are back to raid 1 working
+ 
+
+00:03:23.400 --> 00:03:24.050 align:start position:0%
+now we are back to raid 1 working
+properly
+
+00:03:24.050 --> 00:03:24.060 align:start position:0%
+properly
+ 
+
+00:03:24.060 --> 00:03:29.390 align:start position:0%
+properly
+so<00:03:24.660><c> what's</c><00:03:24.959><c> the</c><00:03:25.290><c> MTTF</c><00:03:26.090><c> for</c><00:03:27.090><c> that</c>
+

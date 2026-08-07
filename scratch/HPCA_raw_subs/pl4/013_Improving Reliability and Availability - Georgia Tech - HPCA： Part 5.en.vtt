@@ -1,0 +1,344 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.810 align:start position:0%
+ 
+so<00:00:00.480><c> how</c><00:00:00.750><c> do</c><00:00:00.810><c> we</c><00:00:00.989><c> improve</c><00:00:01.350><c> reliability</c><00:00:02.070><c> and</c>
+
+00:00:02.810 --> 00:00:02.820 align:start position:0%
+so how do we improve reliability and
+ 
+
+00:00:02.820 --> 00:00:06.230 align:start position:0%
+so how do we improve reliability and
+availability<00:00:03.770><c> we</c><00:00:04.770><c> can</c><00:00:04.950><c> try</c><00:00:05.190><c> to</c><00:00:05.250><c> avoid</c><00:00:05.670><c> faults</c>
+
+00:00:06.230 --> 00:00:06.240 align:start position:0%
+availability we can try to avoid faults
+ 
+
+00:00:06.240 --> 00:00:09.080 align:start position:0%
+availability we can try to avoid faults
+which<00:00:06.839><c> is</c><00:00:06.990><c> about</c><00:00:07.370><c> preventing</c><00:00:08.370><c> folds</c><00:00:08.790><c> from</c>
+
+00:00:09.080 --> 00:00:09.090 align:start position:0%
+which is about preventing folds from
+ 
+
+00:00:09.090 --> 00:00:11.270 align:start position:0%
+which is about preventing folds from
+occurring<00:00:09.540><c> in</c><00:00:09.690><c> the</c><00:00:09.750><c> first</c><00:00:09.870><c> place</c><00:00:10.290><c> for</c><00:00:11.190><c> example</c>
+
+00:00:11.270 --> 00:00:11.280 align:start position:0%
+occurring in the first place for example
+ 
+
+00:00:11.280 --> 00:00:14.570 align:start position:0%
+occurring in the first place for example
+the<00:00:11.849><c> no</c><00:00:12.210><c> coffee</c><00:00:12.540><c> in</c><00:00:12.780><c> the</c><00:00:12.900><c> server</c><00:00:13.230><c> room</c><00:00:13.349><c> is</c><00:00:13.740><c> one</c>
+
+00:00:14.570 --> 00:00:14.580 align:start position:0%
+the no coffee in the server room is one
+ 
+
+00:00:14.580 --> 00:00:17.029 align:start position:0%
+the no coffee in the server room is one
+example<00:00:14.759><c> of</c><00:00:15.240><c> a</c><00:00:15.719><c> fault</c><00:00:16.020><c> avoidance</c><00:00:16.590><c> technique</c>
+
+00:00:17.029 --> 00:00:17.039 align:start position:0%
+example of a fault avoidance technique
+ 
+
+00:00:17.039 --> 00:00:19.220 align:start position:0%
+example of a fault avoidance technique
+if<00:00:17.250><c> we</c><00:00:17.580><c> spilled</c><00:00:17.880><c> the</c><00:00:18.029><c> coffee</c><00:00:18.240><c> on</c><00:00:18.600><c> a</c><00:00:18.869><c> server</c>
+
+00:00:19.220 --> 00:00:19.230 align:start position:0%
+if we spilled the coffee on a server
+ 
+
+00:00:19.230 --> 00:00:22.070 align:start position:0%
+if we spilled the coffee on a server
+that's<00:00:19.949><c> probably</c><00:00:20.490><c> going</c><00:00:20.699><c> to</c><00:00:20.850><c> be</c><00:00:20.970><c> a</c><00:00:21.000><c> fault</c><00:00:21.390><c> so</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+that's probably going to be a fault so
+ 
+
+00:00:22.080 --> 00:00:23.810 align:start position:0%
+that's probably going to be a fault so
+we're<00:00:22.260><c> trying</c><00:00:22.410><c> to</c><00:00:22.650><c> avoid</c><00:00:22.949><c> that</c><00:00:23.010><c> fault</c><00:00:23.490><c> by</c>
+
+00:00:23.810 --> 00:00:23.820 align:start position:0%
+we're trying to avoid that fault by
+ 
+
+00:00:23.820 --> 00:00:25.429 align:start position:0%
+we're trying to avoid that fault by
+preventing<00:00:24.119><c> people</c><00:00:24.449><c> from</c><00:00:24.660><c> bringing</c><00:00:25.109><c> coffee</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+preventing people from bringing coffee
+ 
+
+00:00:25.439 --> 00:00:28.609 align:start position:0%
+preventing people from bringing coffee
+into<00:00:26.189><c> the</c><00:00:26.340><c> server</c><00:00:26.580><c> room</c><00:00:26.849><c> next</c><00:00:27.840><c> we</c><00:00:28.260><c> can</c><00:00:28.439><c> have</c><00:00:28.590><c> a</c>
+
+00:00:28.609 --> 00:00:28.619 align:start position:0%
+into the server room next we can have a
+ 
+
+00:00:28.619 --> 00:00:31.099 align:start position:0%
+into the server room next we can have a
+fault<00:00:28.980><c> tolerance</c><00:00:29.580><c> technique</c><00:00:30.029><c> there</c><00:00:30.720><c> about</c>
+
+00:00:31.099 --> 00:00:31.109 align:start position:0%
+fault tolerance technique there about
+ 
+
+00:00:31.109 --> 00:00:34.280 align:start position:0%
+fault tolerance technique there about
+preventing<00:00:31.890><c> faults</c><00:00:32.369><c> from</c><00:00:33.239><c> graduating</c><00:00:33.840><c> in</c><00:00:34.260><c> two</c>
+
+00:00:34.280 --> 00:00:34.290 align:start position:0%
+preventing faults from graduating in two
+ 
+
+00:00:34.290 --> 00:00:37.040 align:start position:0%
+preventing faults from graduating in two
+failures<00:00:34.680><c> a</c><00:00:35.239><c> typical</c><00:00:36.239><c> fault</c><00:00:36.540><c> tolerance</c>
+
+00:00:37.040 --> 00:00:37.050 align:start position:0%
+failures a typical fault tolerance
+ 
+
+00:00:37.050 --> 00:00:39.319 align:start position:0%
+failures a typical fault tolerance
+technique<00:00:37.469><c> will</c><00:00:38.040><c> use</c><00:00:38.250><c> redundancy</c><00:00:39.149><c> for</c>
+
+00:00:39.319 --> 00:00:39.329 align:start position:0%
+technique will use redundancy for
+ 
+
+00:00:39.329 --> 00:00:42.200 align:start position:0%
+technique will use redundancy for
+example<00:00:40.110><c> ECC</c><00:00:40.680><c> can</c><00:00:41.129><c> be</c><00:00:41.250><c> used</c><00:00:41.399><c> for</c><00:00:41.520><c> memory</c><00:00:41.910><c> and</c>
+
+00:00:42.200 --> 00:00:42.210 align:start position:0%
+example ECC can be used for memory and
+ 
+
+00:00:42.210 --> 00:00:44.240 align:start position:0%
+example ECC can be used for memory and
+easy<00:00:42.390><c> systems</c><00:00:42.960><c> for</c><00:00:43.170><c> error</c><00:00:43.410><c> correcting</c><00:00:44.040><c> code</c>
+
+00:00:44.240 --> 00:00:44.250 align:start position:0%
+easy systems for error correcting code
+ 
+
+00:00:44.250 --> 00:00:46.100 align:start position:0%
+easy systems for error correcting code
+so<00:00:44.460><c> what</c><00:00:44.579><c> happens</c><00:00:44.969><c> is</c><00:00:45.090><c> if</c><00:00:45.300><c> there</c><00:00:45.660><c> is</c><00:00:45.750><c> a</c><00:00:45.780><c> fault</c>
+
+00:00:46.100 --> 00:00:46.110 align:start position:0%
+so what happens is if there is a fault
+ 
+
+00:00:46.110 --> 00:00:48.500 align:start position:0%
+so what happens is if there is a fault
+for<00:00:46.379><c> example</c><00:00:46.710><c> a</c><00:00:46.800><c> particle</c><00:00:47.280><c> strike</c><00:00:47.520><c> that</c><00:00:48.090><c> flips</c>
+
+00:00:48.500 --> 00:00:48.510 align:start position:0%
+for example a particle strike that flips
+ 
+
+00:00:48.510 --> 00:00:51.830 align:start position:0%
+for example a particle strike that flips
+a<00:00:48.750><c> bit</c><00:00:49.110><c> in</c><00:00:49.320><c> memory</c><00:00:49.700><c> ECC</c><00:00:50.700><c> will</c><00:00:51.239><c> allow</c><00:00:51.570><c> us</c><00:00:51.600><c> to</c>
+
+00:00:51.830 --> 00:00:51.840 align:start position:0%
+a bit in memory ECC will allow us to
+ 
+
+00:00:51.840 --> 00:00:55.430 align:start position:0%
+a bit in memory ECC will allow us to
+read<00:00:52.770><c> that</c><00:00:52.980><c> blog</c><00:00:53.280><c> from</c><00:00:53.610><c> memory</c><00:00:53.969><c> realize</c><00:00:54.809><c> that</c>
+
+00:00:55.430 --> 00:00:55.440 align:start position:0%
+read that blog from memory realize that
+ 
+
+00:00:55.440 --> 00:00:57.049 align:start position:0%
+read that blog from memory realize that
+one<00:00:55.680><c> of</c><00:00:55.800><c> the</c><00:00:55.920><c> bits</c><00:00:56.070><c> has</c><00:00:56.340><c> been</c><00:00:56.520><c> flipped</c><00:00:56.820><c> and</c>
+
+00:00:57.049 --> 00:00:57.059 align:start position:0%
+one of the bits has been flipped and
+ 
+
+00:00:57.059 --> 00:00:59.299 align:start position:0%
+one of the bits has been flipped and
+actually<00:00:57.510><c> correct</c><00:00:57.780><c> that</c><00:00:58.109><c> bit</c><00:00:58.320><c> and</c><00:00:58.559><c> then</c><00:00:59.190><c> we</c>
+
+00:00:59.299 --> 00:00:59.309 align:start position:0%
+actually correct that bit and then we
+ 
+
+00:00:59.309 --> 00:01:01.580 align:start position:0%
+actually correct that bit and then we
+can<00:00:59.489><c> also</c><00:00:59.640><c> have</c><00:00:59.940><c> techniques</c><00:01:00.300><c> like</c><00:01:00.629><c> speeding</c>
+
+00:01:01.580 --> 00:01:01.590 align:start position:0%
+can also have techniques like speeding
+ 
+
+00:01:01.590 --> 00:01:04.340 align:start position:0%
+can also have techniques like speeding
+up<00:01:01.859><c> the</c><00:01:02.039><c> repair</c><00:01:02.480><c> which</c><00:01:03.480><c> really</c><00:01:03.750><c> affect</c><00:01:04.140><c> only</c>
+
+00:01:04.340 --> 00:01:04.350 align:start position:0%
+up the repair which really affect only
+ 
+
+00:01:04.350 --> 00:01:07.219 align:start position:0%
+up the repair which really affect only
+availability<00:01:05.040><c> and</c><00:01:05.580><c> an</c><00:01:06.330><c> example</c><00:01:06.900><c> of</c><00:01:06.960><c> such</c><00:01:07.200><c> a</c>
+
+00:01:07.219 --> 00:01:07.229 align:start position:0%
+availability and an example of such a
+ 
+
+00:01:07.229 --> 00:01:09.740 align:start position:0%
+availability and an example of such a
+technique<00:01:07.710><c> is</c><00:01:08.010><c> when</c><00:01:08.820><c> we</c><00:01:08.939><c> have</c><00:01:08.970><c> a</c><00:01:09.119><c> spare</c><00:01:09.479><c> hard</c>
+
+00:01:09.740 --> 00:01:09.750 align:start position:0%
+technique is when we have a spare hard
+ 
+
+00:01:09.750 --> 00:01:12.289 align:start position:0%
+technique is when we have a spare hard
+drive<00:01:09.990><c> in</c><00:01:10.290><c> a</c><00:01:10.409><c> drawer</c><00:01:10.680><c> so</c><00:01:11.670><c> when</c><00:01:11.820><c> a</c><00:01:11.850><c> hard</c><00:01:12.119><c> drive</c>
+
+00:01:12.289 --> 00:01:12.299 align:start position:0%
+drive in a drawer so when a hard drive
+ 
+
+00:01:12.299 --> 00:01:14.390 align:start position:0%
+drive in a drawer so when a hard drive
+fails<00:01:12.479><c> we</c><00:01:12.659><c> can</c><00:01:12.689><c> quickly</c><00:01:12.960><c> replace</c><00:01:13.409><c> it</c><00:01:13.619><c> so</c><00:01:14.280><c> this</c>
+
+00:01:14.390 --> 00:01:14.400 align:start position:0%
+fails we can quickly replace it so this
+ 
+
+00:01:14.400 --> 00:01:16.460 align:start position:0%
+fails we can quickly replace it so this
+is<00:01:14.580><c> a</c><00:01:14.610><c> technique</c><00:01:14.850><c> where</c><00:01:15.270><c> basically</c><00:01:16.140><c> the</c>
+
+00:01:16.460 --> 00:01:16.470 align:start position:0%
+is a technique where basically the
+ 
+
+00:01:16.470 --> 00:01:19.130 align:start position:0%
+is a technique where basically the
+failure<00:01:17.280><c> will</c><00:01:17.490><c> still</c><00:01:17.729><c> occur</c><00:01:18.150><c> but</c><00:01:18.869><c> we</c><00:01:19.020><c> will</c>
+
+00:01:19.130 --> 00:01:19.140 align:start position:0%
+failure will still occur but we will
+ 
+
+00:01:19.140 --> 00:01:21.170 align:start position:0%
+failure will still occur but we will
+shorten<00:01:19.650><c> the</c><00:01:19.799><c> period</c><00:01:20.009><c> that</c><00:01:20.460><c> it</c><00:01:20.640><c> takes</c><00:01:20.820><c> to</c>
+
+00:01:21.170 --> 00:01:21.180 align:start position:0%
+shorten the period that it takes to
+ 
+
+00:01:21.180 --> 00:01:24.590 align:start position:0%
+shorten the period that it takes to
+repair<00:01:21.780><c> the</c><00:01:22.170><c> system</c><00:01:22.409><c> by</c><00:01:23.220><c> basically</c><00:01:23.610><c> in</c><00:01:24.000><c> this</c>
+
+00:01:24.590 --> 00:01:24.600 align:start position:0%
+repair the system by basically in this
+ 
+
+00:01:24.600 --> 00:01:26.990 align:start position:0%
+repair the system by basically in this
+case<00:01:24.869><c> not</c><00:01:25.439><c> having</c><00:01:25.770><c> to</c><00:01:25.890><c> wait</c><00:01:26.189><c> for</c><00:01:26.430><c> a</c><00:01:26.460><c> new</c><00:01:26.549><c> hard</c>
+
+00:01:26.990 --> 00:01:27.000 align:start position:0%
+case not having to wait for a new hard
+ 
+
+00:01:27.000 --> 00:01:28.580 align:start position:0%
+case not having to wait for a new hard
+drive<00:01:27.180><c> to</c><00:01:27.360><c> arrive</c><00:01:27.630><c> we</c><00:01:27.810><c> already</c><00:01:28.080><c> have</c><00:01:28.350><c> one</c>
+
+00:01:28.580 --> 00:01:28.590 align:start position:0%
+drive to arrive we already have one
+ 
+
+00:01:28.590 --> 00:01:31.370 align:start position:0%
+drive to arrive we already have one
+handy<00:01:29.040><c> on</c><00:01:29.130><c> site</c><00:01:29.400><c> so</c><00:01:30.299><c> we</c><00:01:30.420><c> will</c><00:01:30.540><c> now</c><00:01:30.720><c> look</c><00:01:30.960><c> more</c>
+
+00:01:31.370 --> 00:01:31.380 align:start position:0%
+handy on site so we will now look more
+ 
+
+00:01:31.380 --> 00:01:33.170 align:start position:0%
+handy on site so we will now look more
+closely<00:01:31.619><c> at</c><00:01:32.070><c> the</c><00:01:32.400><c> fault</c><00:01:32.670><c> tolerance</c>
+
+00:01:33.170 --> 00:01:33.180 align:start position:0%
+closely at the fault tolerance
+ 
+
+00:01:33.180 --> 00:01:35.480 align:start position:0%
+closely at the fault tolerance
+techniques<00:01:33.659><c> which</c><00:01:34.170><c> are</c><00:01:34.320><c> usually</c><00:01:34.560><c> techniques</c>
+
+00:01:35.480 --> 00:01:35.490 align:start position:0%
+techniques which are usually techniques
+ 
+
+00:01:35.490 --> 00:01:37.310 align:start position:0%
+techniques which are usually techniques
+that<00:01:35.700><c> we</c><00:01:35.850><c> can</c><00:01:36.060><c> apply</c><00:01:36.270><c> in</c><00:01:36.900><c> computer</c>
+
+00:01:37.310 --> 00:01:37.320 align:start position:0%
+that we can apply in computer
+ 
+
+00:01:37.320 --> 00:01:40.249 align:start position:0%
+that we can apply in computer
+architecture<00:01:38.030><c> to</c><00:01:39.030><c> try</c><00:01:39.299><c> to</c><00:01:39.360><c> prevent</c><00:01:39.810><c> Falls</c>
+
+00:01:40.249 --> 00:01:40.259 align:start position:0%
+architecture to try to prevent Falls
+ 
+
+00:01:40.259 --> 00:01:43.670 align:start position:0%
+architecture to try to prevent Falls
+from<00:01:40.770><c> becoming</c><00:01:41.100><c> failures</c><00:01:41.430><c> and</c><00:01:42.170><c> thus</c><00:01:43.170><c> make</c>
+
+00:01:43.670 --> 00:01:43.680 align:start position:0%
+from becoming failures and thus make
+ 
+
+00:01:43.680 --> 00:01:45.380 align:start position:0%
+from becoming failures and thus make
+systems<00:01:44.130><c> both</c><00:01:44.310><c> more</c><00:01:44.579><c> reliable</c><00:01:45.149><c> and</c><00:01:45.329><c> more</c>
+
+00:01:45.380 --> 00:01:45.390 align:start position:0%
+systems both more reliable and more
+ 
+
+00:01:45.390 --> 00:01:48.350 align:start position:0%
+systems both more reliable and more
+available
+

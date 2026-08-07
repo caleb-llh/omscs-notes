@@ -1,0 +1,552 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:03.909 align:start position:0%
+ 
+and<00:00:00.480><c> now</c><00:00:01.120><c> we</c><00:00:01.280><c> have</c><00:00:01.439><c> seen</c><00:00:01.760><c> raid</c><00:00:02.080><c> 0</c><00:00:02.560><c> 1</c><00:00:02.879><c> 2</c>
+
+00:00:03.909 --> 00:00:03.919 align:start position:0%
+and now we have seen raid 0 1 2
+ 
+
+00:00:03.919 --> 00:00:06.550 align:start position:0%
+and now we have seen raid 0 1 2
+there<00:00:04.160><c> is</c><00:00:04.319><c> a</c><00:00:04.400><c> 3</c><00:00:04.640><c> but</c><00:00:04.880><c> we</c><00:00:04.960><c> didn't</c><00:00:05.279><c> see</c><00:00:05.520><c> it</c><00:00:06.080><c> 4</c><00:00:06.319><c> and</c>
+
+00:00:06.550 --> 00:00:06.560 align:start position:0%
+there is a 3 but we didn't see it 4 and
+ 
+
+00:00:06.560 --> 00:00:09.990 align:start position:0%
+there is a 3 but we didn't see it 4 and
+5<00:00:07.120><c> is</c><00:00:07.359><c> there</c><00:00:07.680><c> such</c><00:00:07.919><c> a</c><00:00:08.080><c> thing</c><00:00:08.240><c> as</c><00:00:08.480><c> raid</c><00:00:08.800><c> 6.</c><00:00:09.599><c> yes</c>
+
+00:00:09.990 --> 00:00:10.000 align:start position:0%
+5 is there such a thing as raid 6. yes
+ 
+
+00:00:10.000 --> 00:00:11.110 align:start position:0%
+5 is there such a thing as raid 6. yes
+there<00:00:10.240><c> is</c>
+
+00:00:11.110 --> 00:00:11.120 align:start position:0%
+there is
+ 
+
+00:00:11.120 --> 00:00:14.070 align:start position:0%
+there is
+it's<00:00:11.280><c> similar</c><00:00:11.759><c> to</c><00:00:11.920><c> raid</c><00:00:12.240><c> 5</c><00:00:12.719><c> except</c><00:00:13.120><c> that</c><00:00:13.759><c> each</c>
+
+00:00:14.070 --> 00:00:14.080 align:start position:0%
+it's similar to raid 5 except that each
+ 
+
+00:00:14.080 --> 00:00:15.829 align:start position:0%
+it's similar to raid 5 except that each
+group<00:00:14.400><c> of</c><00:00:14.559><c> blocks</c><00:00:14.960><c> instead</c><00:00:15.200><c> of</c><00:00:15.280><c> getting</c><00:00:15.599><c> one</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+group of blocks instead of getting one
+ 
+
+00:00:15.839 --> 00:00:17.269 align:start position:0%
+group of blocks instead of getting one
+parity<00:00:16.240><c> block</c>
+
+00:00:17.269 --> 00:00:17.279 align:start position:0%
+parity block
+ 
+
+00:00:17.279 --> 00:00:18.870 align:start position:0%
+parity block
+gets<00:00:17.680><c> two</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+gets two
+ 
+
+00:00:18.880 --> 00:00:21.429 align:start position:0%
+gets two
+let's<00:00:19.199><c> call</c><00:00:19.359><c> them</c><00:00:19.680><c> parity</c><00:00:20.240><c> quoted</c><00:00:20.640><c> blocks</c>
+
+00:00:21.429 --> 00:00:21.439 align:start position:0%
+let's call them parity quoted blocks
+ 
+
+00:00:21.439 --> 00:00:23.910 align:start position:0%
+let's call them parity quoted blocks
+they<00:00:21.680><c> have</c><00:00:21.920><c> different</c><00:00:22.400><c> types</c><00:00:22.720><c> of</c><00:00:22.880><c> parity</c>
+
+00:00:23.910 --> 00:00:23.920 align:start position:0%
+they have different types of parity
+ 
+
+00:00:23.920 --> 00:00:26.950 align:start position:0%
+they have different types of parity
+and<00:00:24.160><c> as</c><00:00:24.400><c> a</c><00:00:24.480><c> result</c><00:00:24.960><c> rate</c><00:00:25.199><c> six</c><00:00:25.840><c> can</c><00:00:26.080><c> work</c><00:00:26.400><c> when</c>
+
+00:00:26.950 --> 00:00:26.960 align:start position:0%
+and as a result rate six can work when
+ 
+
+00:00:26.960 --> 00:00:29.990 align:start position:0%
+and as a result rate six can work when
+there<00:00:27.199><c> are</c><00:00:27.439><c> two</c><00:00:27.760><c> failed</c><00:00:28.160><c> stripes</c><00:00:28.560><c> per</c><00:00:28.880><c> group</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+there are two failed stripes per group
+ 
+
+00:00:30.000 --> 00:00:32.310 align:start position:0%
+there are two failed stripes per group
+note<00:00:30.240><c> that</c><00:00:30.800><c> we</c><00:00:30.960><c> cannot</c><00:00:31.359><c> do</c><00:00:31.599><c> this</c><00:00:31.760><c> with</c><00:00:32.000><c> two</c>
+
+00:00:32.310 --> 00:00:32.320 align:start position:0%
+note that we cannot do this with two
+ 
+
+00:00:32.320 --> 00:00:34.709 align:start position:0%
+note that we cannot do this with two
+parity<00:00:32.880><c> blocks</c><00:00:33.520><c> one</c><00:00:33.760><c> of</c><00:00:33.840><c> the</c><00:00:34.000><c> blocks</c><00:00:34.399><c> that</c><00:00:34.559><c> we</c>
+
+00:00:34.709 --> 00:00:34.719 align:start position:0%
+parity blocks one of the blocks that we
+ 
+
+00:00:34.719 --> 00:00:37.910 align:start position:0%
+parity blocks one of the blocks that we
+keep<00:00:35.120><c> extra</c><00:00:36.079><c> one</c><00:00:36.320><c> of</c><00:00:36.399><c> the</c><00:00:36.559><c> non-data</c><00:00:37.200><c> blocks</c><00:00:37.760><c> is</c>
+
+00:00:37.910 --> 00:00:37.920 align:start position:0%
+keep extra one of the non-data blocks is
+ 
+
+00:00:37.920 --> 00:00:40.389 align:start position:0%
+keep extra one of the non-data blocks is
+going<00:00:38.160><c> to</c><00:00:38.239><c> be</c><00:00:38.399><c> the</c><00:00:38.879><c> real</c><00:00:39.280><c> parity</c><00:00:39.760><c> block</c><00:00:40.239><c> and</c>
+
+00:00:40.389 --> 00:00:40.399 align:start position:0%
+going to be the real parity block and
+ 
+
+00:00:40.399 --> 00:00:42.709 align:start position:0%
+going to be the real parity block and
+that's<00:00:40.640><c> what</c><00:00:40.879><c> fixes</c><00:00:41.360><c> one</c><00:00:41.760><c> error</c>
+
+00:00:42.709 --> 00:00:42.719 align:start position:0%
+that's what fixes one error
+ 
+
+00:00:42.719 --> 00:00:44.630 align:start position:0%
+that's what fixes one error
+the<00:00:42.960><c> second</c><00:00:43.440><c> of</c><00:00:43.520><c> the</c><00:00:43.680><c> two</c><00:00:43.920><c> blocks</c><00:00:44.399><c> is</c><00:00:44.559><c> a</c>
+
+00:00:44.630 --> 00:00:44.640 align:start position:0%
+the second of the two blocks is a
+ 
+
+00:00:44.640 --> 00:00:46.709 align:start position:0%
+the second of the two blocks is a
+different<00:00:45.040><c> type</c><00:00:45.280><c> of</c><00:00:45.440><c> check</c><00:00:45.680><c> blocks</c>
+
+00:00:46.709 --> 00:00:46.719 align:start position:0%
+different type of check blocks
+ 
+
+00:00:46.719 --> 00:00:50.310 align:start position:0%
+different type of check blocks
+and<00:00:47.520><c> when</c><00:00:47.840><c> only</c><00:00:48.160><c> one</c><00:00:48.399><c> disk</c><00:00:48.800><c> has</c><00:00:49.120><c> failed</c><00:00:49.920><c> we</c><00:00:50.079><c> use</c>
+
+00:00:50.310 --> 00:00:50.320 align:start position:0%
+and when only one disk has failed we use
+ 
+
+00:00:50.320 --> 00:00:53.910 align:start position:0%
+and when only one disk has failed we use
+the<00:00:50.559><c> parity</c><00:00:51.360><c> to</c><00:00:51.520><c> recover</c><00:00:52.480><c> but</c><00:00:52.800><c> when</c><00:00:53.039><c> two</c><00:00:53.360><c> disks</c>
+
+00:00:53.910 --> 00:00:53.920 align:start position:0%
+the parity to recover but when two disks
+ 
+
+00:00:53.920 --> 00:00:56.830 align:start position:0%
+the parity to recover but when two disks
+have<00:00:54.239><c> failed</c><00:00:55.120><c> we</c><00:00:55.280><c> can</c><00:00:55.440><c> still</c><00:00:55.760><c> solve</c><00:00:56.000><c> some</c>
+
+00:00:56.830 --> 00:00:56.840 align:start position:0%
+have failed we can still solve some
+ 
+
+00:00:56.840 --> 00:00:59.750 align:start position:0%
+have failed we can still solve some
+equations<00:00:57.840><c> where</c><00:00:58.079><c> the</c><00:00:58.320><c> data</c><00:00:58.800><c> and</c><00:00:58.960><c> the</c><00:00:59.520><c> two</c>
+
+00:00:59.750 --> 00:00:59.760 align:start position:0%
+equations where the data and the two
+ 
+
+00:00:59.760 --> 00:01:01.910 align:start position:0%
+equations where the data and the two
+types<00:01:00.079><c> of</c><00:01:00.239><c> check</c><00:01:00.480><c> blocks</c><00:01:00.879><c> figure</c><00:01:01.440><c> so</c><00:01:01.600><c> that</c><00:01:01.760><c> we</c>
+
+00:01:01.910 --> 00:01:01.920 align:start position:0%
+types of check blocks figure so that we
+ 
+
+00:01:01.920 --> 00:01:04.390 align:start position:0%
+types of check blocks figure so that we
+can<00:01:02.079><c> still</c><00:01:02.399><c> recover</c><00:01:02.879><c> the</c><00:01:03.039><c> content</c><00:01:03.600><c> of</c><00:01:03.920><c> the</c><00:01:04.080><c> two</c>
+
+00:01:04.390 --> 00:01:04.400 align:start position:0%
+can still recover the content of the two
+ 
+
+00:01:04.400 --> 00:01:05.830 align:start position:0%
+can still recover the content of the two
+failed<00:01:04.720><c> disks</c>
+
+00:01:05.830 --> 00:01:05.840 align:start position:0%
+failed disks
+ 
+
+00:01:05.840 --> 00:01:08.710 align:start position:0%
+failed disks
+so<00:01:06.000><c> let's</c><00:01:06.240><c> compare</c><00:01:06.640><c> raid</c><00:01:06.960><c> 5</c><00:01:07.280><c> and</c><00:01:07.439><c> raid</c><00:01:07.760><c> 6.</c><00:01:08.400><c> raid</c>
+
+00:01:08.710 --> 00:01:08.720 align:start position:0%
+so let's compare raid 5 and raid 6. raid
+ 
+
+00:01:08.720 --> 00:01:12.149 align:start position:0%
+so let's compare raid 5 and raid 6. raid
+6<00:01:09.040><c> has</c><00:01:09.280><c> twice</c><00:01:09.680><c> the</c><00:01:10.000><c> overhead</c><00:01:10.640><c> of</c><00:01:10.880><c> raid</c><00:01:11.280><c> 5.</c><00:01:12.000><c> so</c>
+
+00:01:12.149 --> 00:01:12.159 align:start position:0%
+6 has twice the overhead of raid 5. so
+ 
+
+00:01:12.159 --> 00:01:15.350 align:start position:0%
+6 has twice the overhead of raid 5. so
+we<00:01:12.479><c> pay</c><00:01:13.040><c> twice</c><00:01:13.439><c> as</c><00:01:13.600><c> much</c><00:01:14.240><c> for</c><00:01:14.479><c> the</c><00:01:14.960><c> increased</c>
+
+00:01:15.350 --> 00:01:15.360 align:start position:0%
+we pay twice as much for the increased
+ 
+
+00:01:15.360 --> 00:01:16.710 align:start position:0%
+we pay twice as much for the increased
+reliability
+
+00:01:16.710 --> 00:01:16.720 align:start position:0%
+reliability
+ 
+
+00:01:16.720 --> 00:01:18.710 align:start position:0%
+reliability
+there<00:01:16.960><c> is</c><00:01:17.200><c> more</c><00:01:17.439><c> right</c><00:01:17.759><c> overhead</c><00:01:18.400><c> because</c>
+
+00:01:18.710 --> 00:01:18.720 align:start position:0%
+there is more right overhead because
+ 
+
+00:01:18.720 --> 00:01:21.510 align:start position:0%
+there is more right overhead because
+really<00:01:19.040><c> now</c><00:01:19.280><c> when</c><00:01:19.439><c> we</c><00:01:19.680><c> update</c><00:01:20.159><c> a</c><00:01:20.320><c> data</c><00:01:20.640><c> block</c>
+
+00:01:21.510 --> 00:01:21.520 align:start position:0%
+really now when we update a data block
+ 
+
+00:01:21.520 --> 00:01:23.990 align:start position:0%
+really now when we update a data block
+we<00:01:21.759><c> need</c><00:01:21.920><c> to</c><00:01:22.479><c> read</c><00:01:22.720><c> and</c><00:01:22.880><c> write</c><00:01:23.119><c> the</c><00:01:23.280><c> data</c><00:01:23.600><c> block</c>
+
+00:01:23.990 --> 00:01:24.000 align:start position:0%
+we need to read and write the data block
+ 
+
+00:01:24.000 --> 00:01:25.510 align:start position:0%
+we need to read and write the data block
+and<00:01:24.240><c> both</c>
+
+00:01:25.510 --> 00:01:25.520 align:start position:0%
+and both
+ 
+
+00:01:25.520 --> 00:01:27.590 align:start position:0%
+and both
+of<00:01:25.759><c> the</c><00:01:26.080><c> check</c><00:01:26.400><c> blocks</c><00:01:26.720><c> the</c><00:01:26.880><c> parity</c><00:01:27.360><c> and</c><00:01:27.439><c> the</c>
+
+00:01:27.590 --> 00:01:27.600 align:start position:0%
+of the check blocks the parity and the
+ 
+
+00:01:27.600 --> 00:01:29.990 align:start position:0%
+of the check blocks the parity and the
+second<00:01:28.000><c> one</c><00:01:28.640><c> are</c><00:01:28.880><c> also</c><00:01:29.200><c> read</c><00:01:29.439><c> and</c><00:01:29.600><c> written</c><00:01:29.840><c> so</c>
+
+00:01:29.990 --> 00:01:30.000 align:start position:0%
+second one are also read and written so
+ 
+
+00:01:30.000 --> 00:01:31.510 align:start position:0%
+second one are also read and written so
+there<00:01:30.159><c> are</c><00:01:30.240><c> now</c><00:01:30.560><c> six</c>
+
+00:01:31.510 --> 00:01:31.520 align:start position:0%
+there are now six
+ 
+
+00:01:31.520 --> 00:01:33.749 align:start position:0%
+there are now six
+axises<00:01:32.159><c> per</c><00:01:32.400><c> right</c>
+
+00:01:33.749 --> 00:01:33.759 align:start position:0%
+axises per right
+ 
+
+00:01:33.759 --> 00:01:36.069 align:start position:0%
+axises per right
+versus<00:01:34.640><c> four</c><00:01:34.960><c> per</c><00:01:35.200><c> right</c><00:01:35.439><c> that</c><00:01:35.520><c> we</c><00:01:35.680><c> had</c><00:01:35.920><c> with</c>
+
+00:01:36.069 --> 00:01:36.079 align:start position:0%
+versus four per right that we had with
+ 
+
+00:01:36.079 --> 00:01:38.710 align:start position:0%
+versus four per right that we had with
+rate<00:01:36.479><c> five</c><00:01:37.280><c> so</c><00:01:37.439><c> the</c><00:01:37.600><c> only</c><00:01:37.840><c> reason</c><00:01:38.159><c> for</c><00:01:38.400><c> having</c>
+
+00:01:38.710 --> 00:01:38.720 align:start position:0%
+rate five so the only reason for having
+ 
+
+00:01:38.720 --> 00:01:41.510 align:start position:0%
+rate five so the only reason for having
+grade<00:01:39.040><c> 6</c><00:01:39.360><c> if</c><00:01:39.520><c> there</c><00:01:39.680><c> is</c><00:01:39.840><c> a</c><00:01:39.920><c> good</c><00:01:40.240><c> chance</c><00:01:40.640><c> of</c>
+
+00:01:41.510 --> 00:01:41.520 align:start position:0%
+grade 6 if there is a good chance of
+ 
+
+00:01:41.520 --> 00:01:45.109 align:start position:0%
+grade 6 if there is a good chance of
+when<00:01:41.759><c> a</c><00:01:41.920><c> disk</c><00:01:42.320><c> fails</c><00:01:43.040><c> another</c><00:01:43.680><c> one</c><00:01:44.000><c> failing</c>
+
+00:01:45.109 --> 00:01:45.119 align:start position:0%
+when a disk fails another one failing
+ 
+
+00:01:45.119 --> 00:01:47.510 align:start position:0%
+when a disk fails another one failing
+before<00:01:45.600><c> we</c><00:01:45.840><c> manage</c><00:01:46.159><c> to</c><00:01:46.320><c> replace</c><00:01:46.960><c> the</c><00:01:47.119><c> first</c>
+
+00:01:47.510 --> 00:01:47.520 align:start position:0%
+before we manage to replace the first
+ 
+
+00:01:47.520 --> 00:01:49.990 align:start position:0%
+before we manage to replace the first
+fail<00:01:47.840><c> drive</c><00:01:48.479><c> so</c><00:01:48.720><c> note</c><00:01:48.960><c> that</c><00:01:49.200><c> in</c><00:01:49.520><c> any</c><00:01:49.759><c> of</c><00:01:49.840><c> the</c>
+
+00:01:49.990 --> 00:01:50.000 align:start position:0%
+fail drive so note that in any of the
+ 
+
+00:01:50.000 --> 00:01:51.830 align:start position:0%
+fail drive so note that in any of the
+raid<00:01:50.240><c> configurations</c>
+
+00:01:51.830 --> 00:01:51.840 align:start position:0%
+raid configurations
+ 
+
+00:01:51.840 --> 00:01:54.069 align:start position:0%
+raid configurations
+once<00:01:52.240><c> your</c><00:01:52.479><c> disk</c><00:01:52.799><c> fails</c><00:01:53.280><c> you</c><00:01:53.439><c> don't</c><00:01:53.680><c> keep</c>
+
+00:01:54.069 --> 00:01:54.079 align:start position:0%
+once your disk fails you don't keep
+ 
+
+00:01:54.079 --> 00:01:55.109 align:start position:0%
+once your disk fails you don't keep
+going
+
+00:01:55.109 --> 00:01:55.119 align:start position:0%
+going
+ 
+
+00:01:55.119 --> 00:01:58.789 align:start position:0%
+going
+and<00:01:55.360><c> ignore</c><00:01:55.840><c> the</c><00:01:56.000><c> fail</c><00:01:56.240><c> drive</c><00:01:56.960><c> you</c><00:01:57.200><c> keep</c><00:01:57.439><c> going</c>
+
+00:01:58.789 --> 00:01:58.799 align:start position:0%
+and ignore the fail drive you keep going
+ 
+
+00:01:58.799 --> 00:02:00.789 align:start position:0%
+and ignore the fail drive you keep going
+but<00:01:58.960><c> you</c><00:01:59.200><c> order</c><00:01:59.520><c> a</c><00:01:59.600><c> replacement</c><00:02:00.320><c> or</c><00:02:00.479><c> get</c><00:02:00.640><c> a</c>
+
+00:02:00.789 --> 00:02:00.799 align:start position:0%
+but you order a replacement or get a
+ 
+
+00:02:00.799 --> 00:02:03.109 align:start position:0%
+but you order a replacement or get a
+replacement<00:02:01.439><c> and</c><00:02:01.680><c> install</c><00:02:02.079><c> it</c><00:02:02.320><c> so</c><00:02:02.479><c> that</c><00:02:02.640><c> the</c>
+
+00:02:03.109 --> 00:02:03.119 align:start position:0%
+replacement and install it so that the
+ 
+
+00:02:03.119 --> 00:02:05.350 align:start position:0%
+replacement and install it so that the
+raid<00:02:03.360><c> array</c><00:02:03.680><c> can</c><00:02:03.920><c> re-establish</c><00:02:04.719><c> itself</c><00:02:05.119><c> after</c>
+
+00:02:05.350 --> 00:02:05.360 align:start position:0%
+raid array can re-establish itself after
+ 
+
+00:02:05.360 --> 00:02:07.830 align:start position:0%
+raid array can re-establish itself after
+that<00:02:05.680><c> you</c><00:02:05.759><c> can</c><00:02:06.000><c> lose</c><00:02:06.240><c> another</c><00:02:06.640><c> disk</c><00:02:07.280><c> so</c><00:02:07.439><c> really</c>
+
+00:02:07.830 --> 00:02:07.840 align:start position:0%
+that you can lose another disk so really
+ 
+
+00:02:07.840 --> 00:02:10.630 align:start position:0%
+that you can lose another disk so really
+rate<00:02:08.160><c> six</c><00:02:08.640><c> with</c><00:02:08.879><c> its</c><00:02:09.039><c> ability</c><00:02:09.520><c> to</c><00:02:09.759><c> lose</c>
+
+00:02:10.630 --> 00:02:10.640 align:start position:0%
+rate six with its ability to lose
+ 
+
+00:02:10.640 --> 00:02:12.710 align:start position:0%
+rate six with its ability to lose
+two<00:02:10.959><c> disks</c>
+
+00:02:12.710 --> 00:02:12.720 align:start position:0%
+two disks
+ 
+
+00:02:12.720 --> 00:02:16.070 align:start position:0%
+two disks
+only<00:02:13.120><c> helps</c><00:02:13.840><c> if</c><00:02:14.080><c> when</c><00:02:14.319><c> a</c><00:02:14.480><c> disk</c><00:02:14.800><c> fails</c>
+
+00:02:16.070 --> 00:02:16.080 align:start position:0%
+only helps if when a disk fails
+ 
+
+00:02:16.080 --> 00:02:17.910 align:start position:0%
+only helps if when a disk fails
+there<00:02:16.239><c> is</c><00:02:16.400><c> a</c><00:02:16.480><c> good</c><00:02:16.720><c> chance</c><00:02:17.040><c> of</c><00:02:17.280><c> another</c>
+
+00:02:17.910 --> 00:02:17.920 align:start position:0%
+there is a good chance of another
+ 
+
+00:02:17.920 --> 00:02:18.869 align:start position:0%
+there is a good chance of another
+failing
+
+00:02:18.869 --> 00:02:18.879 align:start position:0%
+failing
+ 
+
+00:02:18.879 --> 00:02:20.869 align:start position:0%
+failing
+before<00:02:19.360><c> the</c><00:02:19.520><c> first</c><00:02:19.760><c> one</c><00:02:20.000><c> is</c><00:02:20.160><c> replaced</c><00:02:20.720><c> the</c>
+
+00:02:20.869 --> 00:02:20.879 align:start position:0%
+before the first one is replaced the
+ 
+
+00:02:20.879 --> 00:02:23.510 align:start position:0%
+before the first one is replaced the
+faster<00:02:21.440><c> we</c><00:02:21.599><c> replace</c><00:02:22.000><c> the</c><00:02:22.160><c> first</c><00:02:22.480><c> drive</c><00:02:23.280><c> the</c>
+
+00:02:23.510 --> 00:02:23.520 align:start position:0%
+faster we replace the first drive the
+ 
+
+00:02:23.520 --> 00:02:25.910 align:start position:0%
+faster we replace the first drive the
+less<00:02:23.840><c> chance</c><00:02:24.319><c> there</c><00:02:24.560><c> is</c><00:02:24.879><c> that</c><00:02:25.120><c> another</c><00:02:25.520><c> disk</c>
+
+00:02:25.910 --> 00:02:25.920 align:start position:0%
+less chance there is that another disk
+ 
+
+00:02:25.920 --> 00:02:28.229 align:start position:0%
+less chance there is that another disk
+fails<00:02:26.560><c> during</c><00:02:26.959><c> that</c><00:02:27.200><c> period</c><00:02:27.520><c> of</c><00:02:27.680><c> time</c>
+
+00:02:28.229 --> 00:02:28.239 align:start position:0%
+fails during that period of time
+ 
+
+00:02:28.239 --> 00:02:30.309 align:start position:0%
+fails during that period of time
+remember<00:02:28.800><c> that</c><00:02:29.040><c> the</c><00:02:29.200><c> probability</c><00:02:29.760><c> of</c><00:02:29.920><c> a</c><00:02:30.000><c> disk</c>
+
+00:02:30.309 --> 00:02:30.319 align:start position:0%
+remember that the probability of a disk
+ 
+
+00:02:30.319 --> 00:02:32.790 align:start position:0%
+remember that the probability of a disk
+failing<00:02:30.720><c> during</c><00:02:31.120><c> an</c><00:02:31.280><c> hour</c><00:02:31.520><c> is</c><00:02:31.760><c> extremely</c><00:02:32.480><c> low</c>
+
+00:02:32.790 --> 00:02:32.800 align:start position:0%
+failing during an hour is extremely low
+ 
+
+00:02:32.800 --> 00:02:34.630 align:start position:0%
+failing during an hour is extremely low
+so<00:02:33.040><c> even</c><00:02:33.360><c> if</c><00:02:33.440><c> we</c><00:02:33.599><c> spend</c><00:02:33.920><c> something</c><00:02:34.160><c> like</c><00:02:34.400><c> three</c>
+
+00:02:34.630 --> 00:02:34.640 align:start position:0%
+so even if we spend something like three
+ 
+
+00:02:34.640 --> 00:02:36.710 align:start position:0%
+so even if we spend something like three
+days<00:02:34.959><c> replacing</c><00:02:35.519><c> a</c><00:02:35.680><c> disk</c>
+
+00:02:36.710 --> 00:02:36.720 align:start position:0%
+days replacing a disk
+ 
+
+00:02:36.720 --> 00:02:39.670 align:start position:0%
+days replacing a disk
+the<00:02:36.879><c> probability</c><00:02:37.599><c> of</c><00:02:38.080><c> a</c><00:02:38.239><c> disk</c><00:02:38.640><c> failing</c><00:02:39.440><c> in</c>
+
+00:02:39.670 --> 00:02:39.680 align:start position:0%
+the probability of a disk failing in
+ 
+
+00:02:39.680 --> 00:02:41.830 align:start position:0%
+the probability of a disk failing in
+that<00:02:39.920><c> specific</c><00:02:40.640><c> time</c><00:02:41.280><c> while</c><00:02:41.519><c> we</c><00:02:41.599><c> are</c>
+
+00:02:41.830 --> 00:02:41.840 align:start position:0%
+that specific time while we are
+ 
+
+00:02:41.840 --> 00:02:44.949 align:start position:0%
+that specific time while we are
+vulnerable<00:02:42.879><c> is</c><00:02:43.040><c> very</c><00:02:43.360><c> very</c><00:02:43.680><c> low</c><00:02:44.319><c> and</c><00:02:44.560><c> then</c><00:02:44.800><c> it</c>
+
+00:02:44.949 --> 00:02:44.959 align:start position:0%
+vulnerable is very very low and then it
+ 
+
+00:02:44.959 --> 00:02:49.440 align:start position:0%
+vulnerable is very very low and then it
+seems<00:02:45.280><c> that</c><00:02:45.519><c> raid</c><00:02:45.840><c> six</c><00:02:46.239><c> is</c><00:02:46.400><c> an</c><00:02:46.560><c> overkill</c>
+

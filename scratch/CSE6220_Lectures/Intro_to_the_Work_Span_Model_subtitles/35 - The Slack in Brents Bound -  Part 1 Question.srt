@@ -1,0 +1,88 @@
+1
+00:00:00,550 --> 00:00:03,630
+ Brent's Theorem is an upperbound on the execution time.
+
+2
+00:00:03,630 --> 00:00:06,820
+ That means if I give you a DAG and a PRAM machine,
+
+3
+00:00:06,820 --> 00:00:11,540
+ the PRAM machine might run the DAG in less time than PRAM would predict.
+
+4
+00:00:11,540 --> 00:00:12,640
+ So, looking at this example,
+
+5
+00:00:12,640 --> 00:00:17,230
+ it has a work of six units and a critical path length of four.
+
+6
+00:00:17,230 --> 00:00:21,670
+ So on a 2-processor system Brent would predict that the time is less than or
+
+7
+00:00:21,670 --> 00:00:24,090
+ equal to five time units.
+
+8
+00:00:24,090 --> 00:00:27,270
+ Now looking at the stag you can probably easily see a why to execute this.
+
+9
+00:00:27,270 --> 00:00:29,500
+ Using only four time units.
+
+10
+00:00:29,500 --> 00:00:34,460
+ For example when we divided it to phases like this.
+
+11
+00:00:34,460 --> 00:00:38,190
+ So there are four phases and every phase has at most two units of work.
+
+12
+00:00:38,190 --> 00:00:40,727
+ So I can keep my 2-processor PRAM busy and
+
+13
+00:00:40,727 --> 00:00:43,340
+ the total time will be four instead of five.
+
+14
+00:00:43,340 --> 00:00:46,970
+ So this tells you that Brent's Theorem has some slack in it.
+
+15
+00:00:46,970 --> 00:00:48,970
+ So here's my question for you.
+
+16
+00:00:48,970 --> 00:00:52,940
+ Can you find a different, but valid assignment of vertices to
+
+17
+00:00:52,940 --> 00:00:57,110
+ phases that instead takes five time units instead of four.
+
+18
+00:00:57,110 --> 00:01:01,760
+ So what I've done is I put a set of boxes next to each vertex, and
+
+19
+00:01:01,760 --> 00:01:04,760
+ in each box I want you to enter a phase number.
+
+20
+00:01:04,760 --> 00:01:08,410
+ And the phase number should be one, two, three, or four.
+
+21
+00:01:08,410 --> 00:01:12,200
+ And remember the rule about phases every phase has to include exactly one
+
+22
+00:01:12,200 --> 00:01:12,200
+ critical path for text, no more and no less.
+

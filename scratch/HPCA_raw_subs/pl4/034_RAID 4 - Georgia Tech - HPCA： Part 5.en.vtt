@@ -1,0 +1,592 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:02.330 align:start position:0%
+ 
+we<00:00:00.450><c> will</c><00:00:00.599><c> not</c><00:00:00.810><c> talk</c><00:00:01.050><c> about</c><00:00:01.110><c> raid</c><00:00:01.680><c> 3</c><00:00:01.979><c> because</c>
+
+00:00:02.330 --> 00:00:02.340 align:start position:0%
+we will not talk about raid 3 because
+ 
+
+00:00:02.340 --> 00:00:04.789 align:start position:0%
+we will not talk about raid 3 because
+it's<00:00:02.490><c> very</c><00:00:02.730><c> very</c><00:00:03.030><c> rarely</c><00:00:03.330><c> used</c><00:00:03.659><c> today</c><00:00:03.870><c> so</c><00:00:04.680><c> we</c>
+
+00:00:04.789 --> 00:00:04.799 align:start position:0%
+it's very very rarely used today so we
+ 
+
+00:00:04.799 --> 00:00:07.309 align:start position:0%
+it's very very rarely used today so we
+will<00:00:04.980><c> go</c><00:00:05.190><c> to</c><00:00:05.220><c> raid</c><00:00:05.640><c> 4</c><00:00:06.060><c> which</c><00:00:06.629><c> is</c><00:00:06.779><c> actually</c><00:00:07.109><c> not</c>
+
+00:00:07.309 --> 00:00:07.319 align:start position:0%
+will go to raid 4 which is actually not
+ 
+
+00:00:07.319 --> 00:00:10.310 align:start position:0%
+will go to raid 4 which is actually not
+very<00:00:07.350><c> often</c><00:00:07.830><c> used</c><00:00:08.189><c> but</c><00:00:09.120><c> it</c><00:00:09.360><c> helps</c><00:00:09.840><c> understand</c>
+
+00:00:10.310 --> 00:00:10.320 align:start position:0%
+very often used but it helps understand
+ 
+
+00:00:10.320 --> 00:00:12.799 align:start position:0%
+very often used but it helps understand
+how<00:00:10.440><c> it</c><00:00:10.650><c> works</c><00:00:10.950><c> to</c><00:00:11.190><c> understand</c><00:00:11.639><c> how</c><00:00:11.820><c> raid</c><00:00:12.450><c> 5</c>
+
+00:00:12.799 --> 00:00:12.809 align:start position:0%
+how it works to understand how raid 5
+ 
+
+00:00:12.809 --> 00:00:16.099 align:start position:0%
+how it works to understand how raid 5
+which<00:00:13.139><c> is</c><00:00:13.170><c> more</c><00:00:13.590><c> often</c><00:00:13.769><c> used</c><00:00:13.920><c> works</c><00:00:14.750><c> raid</c><00:00:15.750><c> 4</c>
+
+00:00:16.099 --> 00:00:16.109 align:start position:0%
+which is more often used works raid 4
+ 
+
+00:00:16.109 --> 00:00:18.200 align:start position:0%
+which is more often used works raid 4
+uses<00:00:16.980><c> a</c><00:00:17.010><c> technique</c><00:00:17.400><c> called</c><00:00:17.460><c> block</c>
+
+00:00:18.200 --> 00:00:18.210 align:start position:0%
+uses a technique called block
+ 
+
+00:00:18.210 --> 00:00:21.609 align:start position:0%
+uses a technique called block
+interleaved<00:00:18.840><c> parity</c><00:00:19.140><c> it</c><00:00:20.070><c> uses</c><00:00:20.520><c> n</c><00:00:20.730><c> disks</c><00:00:21.060><c> and</c>
+
+00:00:21.609 --> 00:00:21.619 align:start position:0%
+interleaved parity it uses n disks and
+ 
+
+00:00:21.619 --> 00:00:24.950 align:start position:0%
+interleaved parity it uses n disks and
+minus<00:00:22.619><c> 1</c><00:00:22.890><c> all</c><00:00:23.160><c> but</c><00:00:23.580><c> one</c><00:00:23.820><c> of</c><00:00:24.029><c> these</c><00:00:24.480><c> discs</c>
+
+00:00:24.950 --> 00:00:24.960 align:start position:0%
+minus 1 all but one of these discs
+ 
+
+00:00:24.960 --> 00:00:27.080 align:start position:0%
+minus 1 all but one of these discs
+contain<00:00:25.529><c> data</c><00:00:25.800><c> which</c><00:00:26.369><c> is</c><00:00:26.519><c> striped</c><00:00:26.910><c> across</c>
+
+00:00:27.080 --> 00:00:27.090 align:start position:0%
+contain data which is striped across
+ 
+
+00:00:27.090 --> 00:00:30.470 align:start position:0%
+contain data which is striped across
+these<00:00:27.510><c> disks</c><00:00:27.930><c> just</c><00:00:28.500><c> like</c><00:00:28.769><c> in</c><00:00:28.980><c> raid</c><00:00:29.189><c> 0</c><00:00:29.220><c> and</c><00:00:29.760><c> then</c>
+
+00:00:30.470 --> 00:00:30.480 align:start position:0%
+these disks just like in raid 0 and then
+ 
+
+00:00:30.480 --> 00:00:33.650 align:start position:0%
+these disks just like in raid 0 and then
+the<00:00:30.630><c> last</c><00:00:30.810><c> disk</c><00:00:31.170><c> has</c><00:00:31.560><c> the</c><00:00:31.980><c> parity</c><00:00:32.460><c> blocks</c><00:00:32.759><c> that</c>
+
+00:00:33.650 --> 00:00:33.660 align:start position:0%
+the last disk has the parity blocks that
+ 
+
+00:00:33.660 --> 00:00:36.260 align:start position:0%
+the last disk has the parity blocks that
+protect<00:00:34.170><c> all</c><00:00:34.620><c> of</c><00:00:35.010><c> the</c><00:00:35.130><c> blocks</c><00:00:35.399><c> of</c><00:00:35.640><c> the</c><00:00:35.940><c> N</c><00:00:36.059><c> minus</c>
+
+00:00:36.260 --> 00:00:36.270 align:start position:0%
+protect all of the blocks of the N minus
+ 
+
+00:00:36.270 --> 00:00:38.930 align:start position:0%
+protect all of the blocks of the N minus
+one<00:00:36.630><c> disks</c><00:00:37.100><c> so</c><00:00:38.100><c> let's</c><00:00:38.399><c> look</c><00:00:38.610><c> at</c><00:00:38.760><c> an</c><00:00:38.879><c> example</c>
+
+00:00:38.930 --> 00:00:38.940 align:start position:0%
+one disks so let's look at an example
+ 
+
+00:00:38.940 --> 00:00:42.260 align:start position:0%
+one disks so let's look at an example
+with<00:00:39.510><c> four</c><00:00:39.809><c> disks</c><00:00:40.460><c> so</c><00:00:41.460><c> we</c><00:00:41.579><c> said</c><00:00:41.820><c> that</c><00:00:41.850><c> three</c><00:00:42.239><c> of</c>
+
+00:00:42.260 --> 00:00:42.270 align:start position:0%
+with four disks so we said that three of
+ 
+
+00:00:42.270 --> 00:00:44.990 align:start position:0%
+with four disks so we said that three of
+the<00:00:42.510><c> discs</c><00:00:42.899><c> contain</c><00:00:43.410><c> data</c><00:00:43.649><c> so</c><00:00:44.489><c> this</c><00:00:44.640><c> would</c><00:00:44.879><c> be</c>
+
+00:00:44.990 --> 00:00:45.000 align:start position:0%
+the discs contain data so this would be
+ 
+
+00:00:45.000 --> 00:00:48.049 align:start position:0%
+the discs contain data so this would be
+stripe<00:00:45.329><c> zero</c><00:00:45.770><c> then</c><00:00:46.770><c> here</c><00:00:47.100><c> we</c><00:00:47.250><c> have</c><00:00:47.280><c> stripe</c>
+
+00:00:48.049 --> 00:00:48.059 align:start position:0%
+stripe zero then here we have stripe
+ 
+
+00:00:48.059 --> 00:00:51.049 align:start position:0%
+stripe zero then here we have stripe
+three<00:00:48.329><c> four</c><00:00:48.840><c> and</c><00:00:49.020><c> five</c><00:00:49.050><c> and</c><00:00:49.620><c> so</c><00:00:49.890><c> on</c><00:00:50.100><c> so</c><00:00:50.910><c> we</c><00:00:50.940><c> just</c>
+
+00:00:51.049 --> 00:00:51.059 align:start position:0%
+three four and five and so on so we just
+ 
+
+00:00:51.059 --> 00:00:53.959 align:start position:0%
+three four and five and so on so we just
+distribute<00:00:51.719><c> our</c><00:00:51.870><c> data</c><00:00:52.110><c> across</c><00:00:52.530><c> all</c><00:00:53.219><c> but</c><00:00:53.730><c> one</c>
+
+00:00:53.959 --> 00:00:53.969 align:start position:0%
+distribute our data across all but one
+ 
+
+00:00:53.969 --> 00:00:56.389 align:start position:0%
+distribute our data across all but one
+disk<00:00:54.270><c> and</c><00:00:54.539><c> then</c><00:00:54.930><c> we</c><00:00:55.110><c> take</c><00:00:55.350><c> the</c><00:00:55.590><c> date</c><00:00:55.800><c> of</c><00:00:56.039><c> stripe</c>
+
+00:00:56.389 --> 00:00:56.399 align:start position:0%
+disk and then we take the date of stripe
+ 
+
+00:00:56.399 --> 00:00:59.540 align:start position:0%
+disk and then we take the date of stripe
+zero<00:00:56.730><c> X</c><00:00:57.270><c> or</c><00:00:57.719><c> the</c><00:00:58.320><c> whole</c><00:00:58.590><c> stripe</c><00:00:58.980><c> bit</c><00:00:59.309><c> by</c><00:00:59.520><c> bit</c>
+
+00:00:59.540 --> 00:00:59.550 align:start position:0%
+zero X or the whole stripe bit by bit
+ 
+
+00:00:59.550 --> 00:01:02.560 align:start position:0%
+zero X or the whole stripe bit by bit
+with<00:01:00.000><c> stripe</c><00:01:00.300><c> one</c><00:01:00.600><c> X</c><00:01:01.379><c> or</c><00:01:01.829><c> the</c><00:01:02.190><c> whole</c><00:01:02.520><c> thing</c>
+
+00:01:02.560 --> 00:01:02.570 align:start position:0%
+with stripe one X or the whole thing
+ 
+
+00:01:02.570 --> 00:01:06.740 align:start position:0%
+with stripe one X or the whole thing
+with<00:01:03.570><c> stripe</c><00:01:03.960><c> 2</c><00:01:04.260><c> and</c><00:01:04.559><c> what</c><00:01:04.949><c> we</c><00:01:05.159><c> get</c><00:01:05.420><c> will</c><00:01:06.420><c> be</c><00:01:06.570><c> as</c>
+
+00:01:06.740 --> 00:01:06.750 align:start position:0%
+with stripe 2 and what we get will be as
+ 
+
+00:01:06.750 --> 00:01:09.740 align:start position:0%
+with stripe 2 and what we get will be as
+long<00:01:06.990><c> as</c><00:01:07.229><c> a</c><00:01:07.260><c> stripe</c><00:01:07.710><c> and</c><00:01:08.010><c> that</c><00:01:09.000><c> gives</c><00:01:09.360><c> us</c><00:01:09.540><c> the</c>
+
+00:01:09.740 --> 00:01:09.750 align:start position:0%
+long as a stripe and that gives us the
+ 
+
+00:01:09.750 --> 00:01:13.160 align:start position:0%
+long as a stripe and that gives us the
+parity<00:01:10.290><c> stripe</c><00:01:10.650><c> for</c><00:01:10.920><c> 0</c><00:01:11.250><c> 1</c><00:01:11.340><c> &amp;</c><00:01:11.700><c> 2</c><00:01:11.909><c> and</c><00:01:12.240><c> we</c><00:01:12.900><c> put</c>
+
+00:01:13.160 --> 00:01:13.170 align:start position:0%
+parity stripe for 0 1 &amp; 2 and we put
+ 
+
+00:01:13.170 --> 00:01:16.340 align:start position:0%
+parity stripe for 0 1 &amp; 2 and we put
+that<00:01:13.439><c> on</c><00:01:13.680><c> the</c><00:01:13.799><c> fourth</c><00:01:14.070><c> disk</c><00:01:14.960><c> then</c><00:01:15.960><c> we</c><00:01:16.170><c> go</c><00:01:16.320><c> to</c>
+
+00:01:16.340 --> 00:01:16.350 align:start position:0%
+that on the fourth disk then we go to
+ 
+
+00:01:16.350 --> 00:01:20.630 align:start position:0%
+that on the fourth disk then we go to
+the<00:01:16.680><c> next</c><00:01:17.280><c> stripe</c><00:01:18.210><c> on</c><00:01:18.450><c> each</c><00:01:18.570><c> disk</c><00:01:19.220><c> XOR</c><00:01:20.220><c> them</c>
+
+00:01:20.630 --> 00:01:20.640 align:start position:0%
+the next stripe on each disk XOR them
+ 
+
+00:01:20.640 --> 00:01:25.969 align:start position:0%
+the next stripe on each disk XOR them
+and<00:01:21.000><c> that</c><00:01:21.869><c> gives</c><00:01:22.229><c> us</c><00:01:22.520><c> the</c><00:01:23.520><c> parity</c><00:01:24.290><c> stripe</c><00:01:25.290><c> for</c>
+
+00:01:25.969 --> 00:01:25.979 align:start position:0%
+and that gives us the parity stripe for
+ 
+
+00:01:25.979 --> 00:01:28.670 align:start position:0%
+and that gives us the parity stripe for
+these<00:01:26.189><c> three</c><00:01:26.460><c> stripes</c><00:01:26.790><c> and</c><00:01:27.000><c> so</c><00:01:27.360><c> on</c><00:01:27.600><c> so</c><00:01:28.530><c> the</c>
+
+00:01:28.670 --> 00:01:28.680 align:start position:0%
+these three stripes and so on so the
+ 
+
+00:01:28.680 --> 00:01:31.399 align:start position:0%
+these three stripes and so on so the
+idea<00:01:28.979><c> here</c><00:01:29.430><c> is</c><00:01:29.460><c> that</c><00:01:29.790><c> if</c><00:01:30.240><c> let's</c><00:01:30.720><c> say</c><00:01:30.900><c> one</c><00:01:31.140><c> disk</c>
+
+00:01:31.399 --> 00:01:31.409 align:start position:0%
+idea here is that if let's say one disk
+ 
+
+00:01:31.409 --> 00:01:34.640 align:start position:0%
+idea here is that if let's say one disk
+fails<00:01:31.909><c> we</c><00:01:32.909><c> have</c><00:01:33.180><c> the</c><00:01:33.360><c> data</c><00:01:33.570><c> of</c><00:01:33.869><c> the</c><00:01:33.990><c> two</c><00:01:34.200><c> disks</c>
+
+00:01:34.640 --> 00:01:34.650 align:start position:0%
+fails we have the data of the two disks
+ 
+
+00:01:34.650 --> 00:01:37.130 align:start position:0%
+fails we have the data of the two disks
+here<00:01:35.070><c> and</c><00:01:35.280><c> we</c><00:01:35.670><c> have</c><00:01:35.880><c> the</c><00:01:36.030><c> parity</c><00:01:36.540><c> we</c><00:01:36.930><c> can</c>
+
+00:01:37.130 --> 00:01:37.140 align:start position:0%
+here and we have the parity we can
+ 
+
+00:01:37.140 --> 00:01:39.550 align:start position:0%
+here and we have the parity we can
+reconstruct<00:01:37.619><c> what</c><00:01:38.189><c> was</c><00:01:38.400><c> on</c><00:01:38.579><c> the</c><00:01:38.700><c> first</c><00:01:38.970><c> disk</c>
+
+00:01:39.550 --> 00:01:39.560 align:start position:0%
+reconstruct what was on the first disk
+ 
+
+00:01:39.560 --> 00:01:44.030 align:start position:0%
+reconstruct what was on the first disk
+by<00:01:40.560><c> exiting</c><00:01:41.130><c> these</c><00:01:41.729><c> three</c><00:01:42.060><c> or</c><00:01:42.409><c> if</c><00:01:43.409><c> there</c><00:01:43.649><c> is</c><00:01:43.680><c> an</c>
+
+00:01:44.030 --> 00:01:44.040 align:start position:0%
+by exiting these three or if there is an
+ 
+
+00:01:44.040 --> 00:01:45.620 align:start position:0%
+by exiting these three or if there is an
+error<00:01:44.220><c> in</c><00:01:44.310><c> just</c><00:01:44.700><c> for</c><00:01:44.909><c> example</c><00:01:45.270><c> this</c><00:01:45.390><c> one</c>
+
+00:01:45.620 --> 00:01:45.630 align:start position:0%
+error in just for example this one
+ 
+
+00:01:45.630 --> 00:01:48.109 align:start position:0%
+error in just for example this one
+stripe<00:01:45.899><c> gets</c><00:01:46.110><c> too</c><00:01:46.380><c> damaged</c><00:01:46.829><c> to</c><00:01:47.130><c> reconstruct</c>
+
+00:01:48.109 --> 00:01:48.119 align:start position:0%
+stripe gets too damaged to reconstruct
+ 
+
+00:01:48.119 --> 00:01:50.330 align:start position:0%
+stripe gets too damaged to reconstruct
+by<00:01:48.509><c> using</c><00:01:48.990><c> the</c><00:01:49.110><c> error</c><00:01:49.500><c> correction</c><00:01:50.040><c> code</c><00:01:50.189><c> of</c>
+
+00:01:50.330 --> 00:01:50.340 align:start position:0%
+by using the error correction code of
+ 
+
+00:01:50.340 --> 00:01:52.550 align:start position:0%
+by using the error correction code of
+this<00:01:50.520><c> disk</c><00:01:50.759><c> in</c><00:01:51.329><c> that</c><00:01:51.600><c> case</c><00:01:51.810><c> again</c><00:01:51.990><c> we</c><00:01:52.259><c> can</c><00:01:52.409><c> read</c>
+
+00:01:52.550 --> 00:01:52.560 align:start position:0%
+this disk in that case again we can read
+ 
+
+00:01:52.560 --> 00:01:54.679 align:start position:0%
+this disk in that case again we can read
+this<00:01:52.799><c> stripe</c><00:01:53.100><c> this</c><00:01:53.490><c> stripe</c><00:01:53.790><c> and</c><00:01:53.970><c> the</c><00:01:54.240><c> parity</c>
+
+00:01:54.679 --> 00:01:54.689 align:start position:0%
+this stripe this stripe and the parity
+ 
+
+00:01:54.689 --> 00:01:57.289 align:start position:0%
+this stripe this stripe and the parity
+and<00:01:55.130><c> then</c><00:01:56.130><c> reconstruct</c><00:01:56.790><c> what</c><00:01:56.969><c> should</c><00:01:57.180><c> have</c>
+
+00:01:57.289 --> 00:01:57.299 align:start position:0%
+and then reconstruct what should have
+ 
+
+00:01:57.299 --> 00:02:00.440 align:start position:0%
+and then reconstruct what should have
+been<00:01:57.450><c> the</c><00:01:57.600><c> bits</c><00:01:57.780><c> of</c><00:01:57.960><c> this</c><00:01:58.140><c> so</c><00:01:58.979><c> effectively</c><00:01:59.729><c> now</c>
+
+00:02:00.440 --> 00:02:00.450 align:start position:0%
+been the bits of this so effectively now
+ 
+
+00:02:00.450 --> 00:02:02.690 align:start position:0%
+been the bits of this so effectively now
+we<00:02:00.509><c> can</c><00:02:00.840><c> tolerate</c><00:02:01.020><c> the</c><00:02:01.439><c> failure</c><00:02:01.860><c> of</c><00:02:02.040><c> any</c><00:02:02.369><c> one</c>
+
+00:02:02.690 --> 00:02:02.700 align:start position:0%
+we can tolerate the failure of any one
+ 
+
+00:02:02.700 --> 00:02:07.190 align:start position:0%
+we can tolerate the failure of any one
+disk<00:02:03.049><c> but</c><00:02:04.049><c> the</c><00:02:04.229><c> cost</c><00:02:04.579><c> is</c><00:02:05.579><c> not</c><00:02:05.939><c> two</c><00:02:06.659><c> times</c><00:02:06.990><c> as</c>
+
+00:02:07.190 --> 00:02:07.200 align:start position:0%
+disk but the cost is not two times as
+ 
+
+00:02:07.200 --> 00:02:09.160 align:start position:0%
+disk but the cost is not two times as
+many<00:02:07.350><c> disks</c><00:02:07.890><c> as</c><00:02:08.039><c> we</c><00:02:08.340><c> need</c><00:02:08.520><c> to</c><00:02:08.640><c> store</c><00:02:08.849><c> the</c><00:02:08.970><c> data</c>
+
+00:02:09.160 --> 00:02:09.170 align:start position:0%
+many disks as we need to store the data
+ 
+
+00:02:09.170 --> 00:02:11.990 align:start position:0%
+many disks as we need to store the data
+here<00:02:10.170><c> for</c><00:02:10.379><c> example</c><00:02:10.679><c> we</c><00:02:10.950><c> are</c><00:02:10.979><c> paying</c><00:02:11.340><c> only</c><00:02:11.610><c> one</c>
+
+00:02:11.990 --> 00:02:12.000 align:start position:0%
+here for example we are paying only one
+ 
+
+00:02:12.000 --> 00:02:13.880 align:start position:0%
+here for example we are paying only one
+quarter<00:02:12.360><c> of</c><00:02:12.540><c> the</c><00:02:12.840><c> whole</c><00:02:13.050><c> system</c><00:02:13.470><c> is</c><00:02:13.530><c> spent</c>
+
+00:02:13.880 --> 00:02:13.890 align:start position:0%
+quarter of the whole system is spent
+ 
+
+00:02:13.890 --> 00:02:17.150 align:start position:0%
+quarter of the whole system is spent
+on<00:02:13.950><c> parity</c><00:02:14.340><c> and</c><00:02:14.700><c> 3/4</c><00:02:15.540><c> on</c><00:02:15.720><c> the</c><00:02:15.810><c> data</c><00:02:16.160><c> whereas</c>
+
+00:02:17.150 --> 00:02:17.160 align:start position:0%
+on parity and 3/4 on the data whereas
+ 
+
+00:02:17.160 --> 00:02:19.850 align:start position:0%
+on parity and 3/4 on the data whereas
+with<00:02:17.400><c> mirroring</c><00:02:17.880><c> we</c><00:02:18.569><c> would</c><00:02:18.720><c> have</c><00:02:18.840><c> spent</c><00:02:19.170><c> half</c>
+
+00:02:19.850 --> 00:02:19.860 align:start position:0%
+with mirroring we would have spent half
+ 
+
+00:02:19.860 --> 00:02:22.070 align:start position:0%
+with mirroring we would have spent half
+of<00:02:20.160><c> the</c><00:02:20.340><c> overall</c><00:02:20.550><c> capacity</c><00:02:20.819><c> of</c><00:02:21.180><c> the</c><00:02:21.270><c> system</c><00:02:21.690><c> on</c>
+
+00:02:22.070 --> 00:02:22.080 align:start position:0%
+of the overall capacity of the system on
+ 
+
+00:02:22.080 --> 00:02:27.050 align:start position:0%
+of the overall capacity of the system on
+the<00:02:22.980><c> mirroring</c><00:02:23.840><c> you</c><00:02:24.840><c> can</c><00:02:25.050><c> think</c><00:02:25.319><c> of</c><00:02:25.760><c> rate</c><00:02:26.760><c> for</c>
+
+00:02:27.050 --> 00:02:27.060 align:start position:0%
+the mirroring you can think of rate for
+ 
+
+00:02:27.060 --> 00:02:29.480 align:start position:0%
+the mirroring you can think of rate for
+as<00:02:27.360><c> kind</c><00:02:27.690><c> of</c><00:02:27.810><c> a</c><00:02:28.020><c> more</c><00:02:28.440><c> general</c><00:02:28.650><c> technique</c><00:02:29.069><c> than</c>
+
+00:02:29.480 --> 00:02:29.490 align:start position:0%
+as kind of a more general technique than
+ 
+
+00:02:29.490 --> 00:02:33.020 align:start position:0%
+as kind of a more general technique than
+mirroring<00:02:29.940><c> because</c><00:02:30.480><c> in</c><00:02:30.690><c> reality</c><00:02:31.370><c> using</c><00:02:32.370><c> two</c>
+
+00:02:33.020 --> 00:02:33.030 align:start position:0%
+mirroring because in reality using two
+ 
+
+00:02:33.030 --> 00:02:35.890 align:start position:0%
+mirroring because in reality using two
+discs<00:02:33.570><c> for</c><00:02:33.870><c> rate</c><00:02:34.050><c> for</c><00:02:34.350><c> it's</c><00:02:34.620><c> very</c><00:02:34.890><c> similar</c><00:02:35.250><c> to</c>
+
+00:02:35.890 --> 00:02:35.900 align:start position:0%
+discs for rate for it's very similar to
+ 
+
+00:02:35.900 --> 00:02:38.750 align:start position:0%
+discs for rate for it's very similar to
+mirroring<00:02:36.900><c> because</c><00:02:37.650><c> here</c><00:02:37.890><c> we</c><00:02:38.040><c> will</c><00:02:38.190><c> store</c><00:02:38.430><c> the</c>
+
+00:02:38.750 --> 00:02:38.760 align:start position:0%
+mirroring because here we will store the
+ 
+
+00:02:38.760 --> 00:02:41.540 align:start position:0%
+mirroring because here we will store the
+bits<00:02:38.940><c> of</c><00:02:39.120><c> the</c><00:02:39.209><c> data</c><00:02:39.420><c> and</c><00:02:39.860><c> here</c><00:02:40.860><c> we</c><00:02:41.130><c> will</c><00:02:41.280><c> store</c>
+
+00:02:41.540 --> 00:02:41.550 align:start position:0%
+bits of the data and here we will store
+ 
+
+00:02:41.550 --> 00:02:45.440 align:start position:0%
+bits of the data and here we will store
+the<00:02:42.150><c> same</c><00:02:42.450><c> bits</c><00:02:42.860><c> because</c><00:02:43.860><c> a</c><00:02:44.100><c> bit</c><00:02:44.489><c> when</c><00:02:45.330><c> you</c>
+
+00:02:45.440 --> 00:02:45.450 align:start position:0%
+the same bits because a bit when you
+ 
+
+00:02:45.450 --> 00:02:47.090 align:start position:0%
+the same bits because a bit when you
+don't<00:02:45.690><c> exert</c><00:02:46.110><c> it</c><00:02:46.260><c> with</c><00:02:46.410><c> anything</c><00:02:46.860><c> you</c><00:02:47.070><c> just</c>
+
+00:02:47.090 --> 00:02:47.100 align:start position:0%
+don't exert it with anything you just
+ 
+
+00:02:47.100 --> 00:02:49.850 align:start position:0%
+don't exert it with anything you just
+put<00:02:47.430><c> it</c><00:02:47.580><c> here</c><00:02:47.750><c> so</c><00:02:48.750><c> mirroring</c><00:02:49.200><c> is</c><00:02:49.350><c> just</c><00:02:49.620><c> an</c>
+
+00:02:49.850 --> 00:02:49.860 align:start position:0%
+put it here so mirroring is just an
+ 
+
+00:02:49.860 --> 00:02:53.150 align:start position:0%
+put it here so mirroring is just an
+extreme<00:02:50.850><c> case</c><00:02:51.120><c> of</c><00:02:51.150><c> raid</c><00:02:51.630><c> 4</c><00:02:51.930><c> when</c><00:02:52.230><c> n</c><00:02:52.500><c> is</c><00:02:52.530><c> just</c><00:02:52.680><c> 2</c>
+
+00:02:53.150 --> 00:02:53.160 align:start position:0%
+extreme case of raid 4 when n is just 2
+ 
+
+00:02:53.160 --> 00:02:55.580 align:start position:0%
+extreme case of raid 4 when n is just 2
+but<00:02:53.970><c> you</c><00:02:54.120><c> want</c><00:02:54.360><c> to</c><00:02:54.450><c> go</c><00:02:54.660><c> to</c><00:02:54.720><c> more</c><00:02:55.110><c> than</c><00:02:55.140><c> two</c><00:02:55.440><c> with</c>
+
+00:02:55.580 --> 00:02:55.590 align:start position:0%
+but you want to go to more than two with
+ 
+
+00:02:55.590 --> 00:02:57.530 align:start position:0%
+but you want to go to more than two with
+rate<00:02:55.800><c> 4</c><00:02:56.070><c> because</c><00:02:56.640><c> that</c><00:02:56.790><c> allows</c><00:02:57.090><c> you</c><00:02:57.209><c> to</c><00:02:57.239><c> have</c>
+
+00:02:57.530 --> 00:02:57.540 align:start position:0%
+rate 4 because that allows you to have
+ 
+
+00:02:57.540 --> 00:03:00.320 align:start position:0%
+rate 4 because that allows you to have
+lower<00:02:57.959><c> cost</c><00:02:58.410><c> while</c><00:02:59.220><c> still</c><00:02:59.550><c> being</c><00:02:59.730><c> able</c><00:03:00.120><c> to</c>
+
+00:03:00.320 --> 00:03:00.330 align:start position:0%
+lower cost while still being able to
+ 
+
+00:03:00.330 --> 00:03:03.949 align:start position:0%
+lower cost while still being able to
+recover<00:03:00.750><c> from</c><00:03:00.989><c> losing</c><00:03:01.380><c> one</c><00:03:01.650><c> disk</c><00:03:02.000><c> so</c><00:03:03.000><c> now</c><00:03:03.180><c> what</c>
+
+00:03:03.949 --> 00:03:03.959 align:start position:0%
+recover from losing one disk so now what
+ 
+
+00:03:03.959 --> 00:03:07.790 align:start position:0%
+recover from losing one disk so now what
+does<00:03:04.140><c> a</c><00:03:04.200><c> write</c><00:03:04.620><c> do</c><00:03:05.010><c> it</c><00:03:05.880><c> must</c><00:03:06.239><c> write</c><00:03:06.750><c> one</c><00:03:07.530><c> of</c><00:03:07.709><c> the</c>
+
+00:03:07.790 --> 00:03:07.800 align:start position:0%
+does a write do it must write one of the
+ 
+
+00:03:07.800 --> 00:03:10.640 align:start position:0%
+does a write do it must write one of the
+data<00:03:08.040><c> discs</c><00:03:08.610><c> and</c><00:03:08.790><c> it</c><00:03:09.720><c> must</c><00:03:09.989><c> read</c><00:03:10.260><c> and</c><00:03:10.470><c> write</c>
+
+00:03:10.640 --> 00:03:10.650 align:start position:0%
+data discs and it must read and write
+ 
+
+00:03:10.650 --> 00:03:12.979 align:start position:0%
+data discs and it must read and write
+the<00:03:10.890><c> parity</c><00:03:11.310><c> disk</c><00:03:11.489><c> to</c><00:03:12.000><c> update</c><00:03:12.390><c> the</c><00:03:12.570><c> parity</c>
+
+00:03:12.979 --> 00:03:12.989 align:start position:0%
+the parity disk to update the parity
+ 
+
+00:03:12.989 --> 00:03:15.170 align:start position:0%
+the parity disk to update the parity
+because<00:03:13.500><c> one</c><00:03:13.980><c> of</c><00:03:14.130><c> the</c><00:03:14.220><c> stripes</c><00:03:14.489><c> have</c><00:03:14.700><c> changed</c>
+
+00:03:15.170 --> 00:03:15.180 align:start position:0%
+because one of the stripes have changed
+ 
+
+00:03:15.180 --> 00:03:18.140 align:start position:0%
+because one of the stripes have changed
+I<00:03:15.300><c> read</c><00:03:16.050><c> however</c><00:03:16.550><c> only</c><00:03:17.550><c> needs</c><00:03:17.760><c> to</c><00:03:17.970><c> read</c><00:03:18.120><c> the</c>
+
+00:03:18.140 --> 00:03:18.150 align:start position:0%
+I read however only needs to read the
+ 
+
+00:03:18.150 --> 00:03:20.300 align:start position:0%
+I read however only needs to read the
+data<00:03:18.780><c> from</c><00:03:18.989><c> the</c><00:03:19.290><c> disk</c><00:03:19.470><c> where</c><00:03:19.709><c> the</c><00:03:19.829><c> data</c><00:03:20.040><c> is</c>
+
+00:03:20.300 --> 00:03:20.310 align:start position:0%
+data from the disk where the data is
+ 
+
+00:03:20.310 --> 00:03:23.330 align:start position:0%
+data from the disk where the data is
+we<00:03:21.090><c> will</c><00:03:21.239><c> only</c><00:03:21.709><c> reconstruct</c><00:03:22.709><c> the</c><00:03:22.799><c> data</c><00:03:22.950><c> if</c>
+
+00:03:23.330 --> 00:03:23.340 align:start position:0%
+we will only reconstruct the data if
+ 
+
+00:03:23.340 --> 00:03:25.850 align:start position:0%
+we will only reconstruct the data if
+that<00:03:23.640><c> read</c><00:03:24.000><c> fails</c><00:03:24.329><c> but</c><00:03:24.750><c> in</c><00:03:25.079><c> the</c><00:03:25.200><c> normal</c>
+
+00:03:25.850 --> 00:03:25.860 align:start position:0%
+that read fails but in the normal
+ 
+
+00:03:25.860 --> 00:03:27.979 align:start position:0%
+that read fails but in the normal
+scenario<00:03:26.310><c> where</c><00:03:26.700><c> we</c><00:03:26.730><c> get</c><00:03:27.360><c> the</c><00:03:27.510><c> data</c><00:03:27.690><c> we</c><00:03:27.959><c> want</c>
+
+00:03:27.979 --> 00:03:27.989 align:start position:0%
+scenario where we get the data we want
+ 
+
+00:03:27.989 --> 00:03:29.930 align:start position:0%
+scenario where we get the data we want
+we<00:03:28.440><c> don't</c><00:03:28.620><c> even</c><00:03:28.769><c> have</c><00:03:28.980><c> to</c><00:03:29.100><c> consult</c><00:03:29.489><c> the</c><00:03:29.579><c> parity</c>
+
+00:03:29.930 --> 00:03:29.940 align:start position:0%
+we don't even have to consult the parity
+ 
+
+00:03:29.940 --> 00:03:32.480 align:start position:0%
+we don't even have to consult the parity
+bit<00:03:30.120><c> for</c><00:03:30.329><c> reads</c>
+

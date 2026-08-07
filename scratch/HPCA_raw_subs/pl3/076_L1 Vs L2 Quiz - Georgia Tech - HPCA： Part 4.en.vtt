@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.030 align:start position:0%
+ 
+so<00:00:00.359><c> now</c><00:00:00.510><c> that</c><00:00:00.570><c> we</c><00:00:00.840><c> have</c><00:00:00.870><c> seen</c><00:00:01.199><c> the</c><00:00:01.380><c> concept</c><00:00:01.589><c> of</c>
+
+00:00:02.030 --> 00:00:02.040 align:start position:0%
+so now that we have seen the concept of
+ 
+
+00:00:02.040 --> 00:00:05.420 align:start position:0%
+so now that we have seen the concept of
+multi-level<00:00:02.850><c> caches</c><00:00:03.529><c> let's</c><00:00:04.529><c> see</c><00:00:04.680><c> how</c><00:00:04.920><c> l2</c><00:00:05.279><c> and</c>
+
+00:00:05.420 --> 00:00:05.430 align:start position:0%
+multi-level caches let's see how l2 and
+ 
+
+00:00:05.430 --> 00:00:07.940 align:start position:0%
+multi-level caches let's see how l2 and
+l1<00:00:05.790><c> compare</c><00:00:06.509><c> so</c><00:00:07.230><c> which</c><00:00:07.440><c> of</c><00:00:07.470><c> these</c><00:00:07.710><c> statements</c>
+
+00:00:07.940 --> 00:00:07.950 align:start position:0%
+l1 compare so which of these statements
+ 
+
+00:00:07.950 --> 00:00:12.320 align:start position:0%
+l1 compare so which of these statements
+are<00:00:08.340><c> true</c><00:00:08.550><c> the</c><00:00:09.480><c> l1</c><00:00:09.960><c> capacity</c><00:00:10.650><c> is</c><00:00:11.099><c> less</c><00:00:11.490><c> than</c><00:00:11.790><c> l2</c>
+
+00:00:12.320 --> 00:00:12.330 align:start position:0%
+are true the l1 capacity is less than l2
+ 
+
+00:00:12.330 --> 00:00:16.820 align:start position:0%
+are true the l1 capacity is less than l2
+capacity<00:00:13.019><c> the</c><00:00:13.679><c> l1</c><00:00:14.190><c> latency</c><00:00:14.969><c> is</c><00:00:15.540><c> less</c><00:00:15.960><c> than</c><00:00:16.230><c> l2</c>
+
+00:00:16.820 --> 00:00:16.830 align:start position:0%
+capacity the l1 latency is less than l2
+ 
+
+00:00:16.830 --> 00:00:19.970 align:start position:0%
+capacity the l1 latency is less than l2
+latency<00:00:17.490><c> the</c><00:00:18.480><c> number</c><00:00:18.840><c> of</c><00:00:18.960><c> accesses</c><00:00:19.439><c> that</c><00:00:19.619><c> go</c>
+
+00:00:19.970 --> 00:00:19.980 align:start position:0%
+latency the number of accesses that go
+ 
+
+00:00:19.980 --> 00:00:22.519 align:start position:0%
+latency the number of accesses that go
+to<00:00:20.039><c> l1</c><00:00:20.550><c> is</c><00:00:20.820><c> less</c><00:00:21.689><c> than</c><00:00:21.990><c> the</c><00:00:22.199><c> number</c><00:00:22.470><c> of</c>
+
+00:00:22.519 --> 00:00:22.529 align:start position:0%
+to l1 is less than the number of
+ 
+
+00:00:22.529 --> 00:00:25.420 align:start position:0%
+to l1 is less than the number of
+accesses<00:00:23.100><c> that</c><00:00:23.279><c> go</c><00:00:23.430><c> to</c><00:00:23.490><c> l2</c><00:00:23.760><c> and</c><00:00:24.269><c> the</c><00:00:25.170><c> l1</c>
+
+00:00:25.420 --> 00:00:25.430 align:start position:0%
+accesses that go to l2 and the l1
+ 
+
+00:00:25.430 --> 00:00:28.939 align:start position:0%
+accesses that go to l2 and the l1
+associativity<00:00:26.430><c> has</c><00:00:27.150><c> to</c><00:00:27.449><c> be</c><00:00:27.570><c> equal</c><00:00:28.050><c> to</c><00:00:28.289><c> l2</c>
+
+00:00:28.939 --> 00:00:28.949 align:start position:0%
+associativity has to be equal to l2
+ 
+
+00:00:28.949 --> 00:00:31.609 align:start position:0%
+associativity has to be equal to l2
+associativity<00:00:29.760><c> so</c><00:00:30.269><c> again</c><00:00:30.510><c> check</c><00:00:30.929><c> all</c><00:00:31.260><c> of</c><00:00:31.320><c> the</c>
+
+00:00:31.609 --> 00:00:31.619 align:start position:0%
+associativity so again check all of the
+ 
+
+00:00:31.619 --> 00:00:35.870 align:start position:0%
+associativity so again check all of the
+statements<00:00:32.210><c> that</c><00:00:33.210><c> should</c><00:00:33.480><c> be</c><00:00:33.630><c> true</c>
+

@@ -1,0 +1,880 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.939 align:start position:0%
+ 
+and<00:00:00.089><c> now</c><00:00:00.510><c> let's</c><00:00:00.930><c> look</c><00:00:01.020><c> at</c><00:00:01.230><c> the</c><00:00:01.380><c> second</c>
+
+00:00:01.939 --> 00:00:01.949 align:start position:0%
+and now let's look at the second
+ 
+
+00:00:01.949 --> 00:00:04.340 align:start position:0%
+and now let's look at the second
+possible<00:00:02.639><c> right</c><00:00:02.909><c> update</c><00:00:03.300><c> optimization</c><00:00:04.049><c> which</c>
+
+00:00:04.340 --> 00:00:04.350 align:start position:0%
+possible right update optimization which
+ 
+
+00:00:04.350 --> 00:00:06.530 align:start position:0%
+possible right update optimization which
+is<00:00:04.380><c> about</c><00:00:04.799><c> reducing</c><00:00:05.190><c> the</c><00:00:05.520><c> number</c><00:00:05.850><c> of</c><00:00:06.029><c> bus</c>
+
+00:00:06.530 --> 00:00:06.540 align:start position:0%
+is about reducing the number of bus
+ 
+
+00:00:06.540 --> 00:00:09.740 align:start position:0%
+is about reducing the number of bus
+rights<00:00:07.040><c> so</c><00:00:08.040><c> after</c><00:00:08.550><c> we</c><00:00:08.730><c> added</c><00:00:09.030><c> our</c><00:00:09.150><c> dirty</c><00:00:09.389><c> bit</c>
+
+00:00:09.740 --> 00:00:09.750 align:start position:0%
+rights so after we added our dirty bit
+ 
+
+00:00:09.750 --> 00:00:12.709 align:start position:0%
+rights so after we added our dirty bit
+what<00:00:10.110><c> we</c><00:00:10.260><c> got</c><00:00:10.440><c> is</c><00:00:10.769><c> that</c><00:00:10.950><c> the</c><00:00:11.010><c> memory</c><00:00:11.580><c> now</c><00:00:11.849><c> gets</c>
+
+00:00:12.709 --> 00:00:12.719 align:start position:0%
+what we got is that the memory now gets
+ 
+
+00:00:12.719 --> 00:00:14.900 align:start position:0%
+what we got is that the memory now gets
+relatively<00:00:13.440><c> few</c><00:00:13.650><c> rights</c><00:00:13.860><c> only</c><00:00:14.370><c> those</c><00:00:14.580><c> rights</c>
+
+00:00:14.900 --> 00:00:14.910 align:start position:0%
+relatively few rights only those rights
+ 
+
+00:00:14.910 --> 00:00:17.000 align:start position:0%
+relatively few rights only those rights
+that<00:00:15.420><c> are</c><00:00:15.599><c> coming</c><00:00:15.900><c> from</c><00:00:16.049><c> replacements</c><00:00:16.830><c> and</c>
+
+00:00:17.000 --> 00:00:17.010 align:start position:0%
+that are coming from replacements and
+ 
+
+00:00:17.010 --> 00:00:19.310 align:start position:0%
+that are coming from replacements and
+also<00:00:17.910><c> the</c><00:00:18.090><c> memory</c><00:00:18.300><c> no</c><00:00:18.630><c> longer</c><00:00:18.960><c> needs</c><00:00:19.170><c> to</c>
+
+00:00:19.310 --> 00:00:19.320 align:start position:0%
+also the memory no longer needs to
+ 
+
+00:00:19.320 --> 00:00:21.820 align:start position:0%
+also the memory no longer needs to
+respond<00:00:19.710><c> to</c><00:00:19.890><c> all</c><00:00:20.070><c> the</c><00:00:20.250><c> reads</c><00:00:20.460><c> but</c><00:00:21.210><c> the</c><00:00:21.420><c> bus</c>
+
+00:00:21.820 --> 00:00:21.830 align:start position:0%
+respond to all the reads but the bus
+ 
+
+00:00:21.830 --> 00:00:24.920 align:start position:0%
+respond to all the reads but the bus
+still<00:00:22.830><c> gets</c><00:00:23.130><c> all</c><00:00:23.340><c> of</c><00:00:23.670><c> the</c><00:00:23.789><c> traffic</c><00:00:24.029><c> for</c><00:00:24.449><c> all</c><00:00:24.750><c> of</c>
+
+00:00:24.920 --> 00:00:24.930 align:start position:0%
+still gets all of the traffic for all of
+ 
+
+00:00:24.930 --> 00:00:27.109 align:start position:0%
+still gets all of the traffic for all of
+the<00:00:25.050><c> rights</c><00:00:25.260><c> every</c><00:00:25.920><c> single</c><00:00:26.279><c> right</c><00:00:26.519><c> will</c><00:00:26.880><c> need</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+the rights every single right will need
+ 
+
+00:00:27.119 --> 00:00:29.089 align:start position:0%
+the rights every single right will need
+to<00:00:27.420><c> go</c><00:00:27.570><c> on</c><00:00:27.630><c> the</c><00:00:27.779><c> bus</c><00:00:27.960><c> and</c><00:00:28.260><c> broadcast</c><00:00:28.680><c> the</c><00:00:28.769><c> value</c>
+
+00:00:29.089 --> 00:00:29.099 align:start position:0%
+to go on the bus and broadcast the value
+ 
+
+00:00:29.099 --> 00:00:31.970 align:start position:0%
+to go on the bus and broadcast the value
+so<00:00:29.760><c> now</c><00:00:29.910><c> the</c><00:00:29.970><c> bus</c><00:00:30.330><c> which</c><00:00:31.109><c> sees</c><00:00:31.349><c> all</c><00:00:31.650><c> of</c><00:00:31.859><c> the</c>
+
+00:00:31.970 --> 00:00:31.980 align:start position:0%
+so now the bus which sees all of the
+ 
+
+00:00:31.980 --> 00:00:33.680 align:start position:0%
+so now the bus which sees all of the
+rights<00:00:32.189><c> will</c><00:00:32.520><c> become</c><00:00:32.880><c> the</c><00:00:33.030><c> bottleneck</c><00:00:33.420><c> in</c>
+
+00:00:33.680 --> 00:00:33.690 align:start position:0%
+rights will become the bottleneck in
+ 
+
+00:00:33.690 --> 00:00:34.430 align:start position:0%
+rights will become the bottleneck in
+this<00:00:33.840><c> system</c>
+
+00:00:34.430 --> 00:00:34.440 align:start position:0%
+this system
+ 
+
+00:00:34.440 --> 00:00:36.830 align:start position:0%
+this system
+because<00:00:35.070><c> every</c><00:00:35.520><c> single</c><00:00:35.730><c> write</c><00:00:36.030><c> from</c><00:00:36.360><c> every</c>
+
+00:00:36.830 --> 00:00:36.840 align:start position:0%
+because every single write from every
+ 
+
+00:00:36.840 --> 00:00:39.590 align:start position:0%
+because every single write from every
+single<00:00:37.050><c> core</c><00:00:37.440><c> ends</c><00:00:38.040><c> up</c><00:00:38.190><c> going</c><00:00:38.700><c> to</c><00:00:38.820><c> the</c><00:00:38.969><c> bus</c><00:00:39.239><c> and</c>
+
+00:00:39.590 --> 00:00:39.600 align:start position:0%
+single core ends up going to the bus and
+ 
+
+00:00:39.600 --> 00:00:42.950 align:start position:0%
+single core ends up going to the bus and
+the<00:00:40.500><c> bus</c><00:00:40.530><c> can</c><00:00:40.920><c> only</c><00:00:41.129><c> take</c><00:00:41.430><c> so</c><00:00:41.460><c> much</c><00:00:41.820><c> the</c><00:00:42.750><c> bus</c>
+
+00:00:42.950 --> 00:00:42.960 align:start position:0%
+the bus can only take so much the bus
+ 
+
+00:00:42.960 --> 00:00:45.889 align:start position:0%
+the bus can only take so much the bus
+broadcasts<00:00:43.800><c> for</c><00:00:43.980><c> rights</c><00:00:44.219><c> that</c><00:00:45.149><c> are</c><00:00:45.360><c> needed</c><00:00:45.870><c> to</c>
+
+00:00:45.889 --> 00:00:45.899 align:start position:0%
+broadcasts for rights that are needed to
+ 
+
+00:00:45.899 --> 00:00:49.910 align:start position:0%
+broadcasts for rights that are needed to
+update<00:00:46.620><c> other</c><00:00:46.890><c> copies</c><00:00:47.670><c> of</c><00:00:47.820><c> the</c><00:00:47.940><c> data</c><00:00:48.739><c> need</c><00:00:49.739><c> to</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+update other copies of the data need to
+ 
+
+00:00:49.920 --> 00:00:52.279 align:start position:0%
+update other copies of the data need to
+happen<00:00:50.370><c> because</c><00:00:50.730><c> this</c><00:00:51.329><c> is</c><00:00:51.539><c> a</c><00:00:51.570><c> write-update</c>
+
+00:00:52.279 --> 00:00:52.289 align:start position:0%
+happen because this is a write-update
+ 
+
+00:00:52.289 --> 00:00:55.520 align:start position:0%
+happen because this is a write-update
+protocol<00:00:52.920><c> it</c><00:00:53.129><c> needs</c><00:00:53.460><c> to</c><00:00:54.059><c> update</c><00:00:54.629><c> other</c><00:00:54.870><c> copies</c>
+
+00:00:55.520 --> 00:00:55.530 align:start position:0%
+protocol it needs to update other copies
+ 
+
+00:00:55.530 --> 00:00:58.010 align:start position:0%
+protocol it needs to update other copies
+of<00:00:55.680><c> the</c><00:00:55.800><c> data</c><00:00:56.010><c> but</c><00:00:56.820><c> the</c><00:00:56.969><c> optimization</c><00:00:57.660><c> we</c><00:00:57.809><c> can</c>
+
+00:00:58.010 --> 00:00:58.020 align:start position:0%
+of the data but the optimization we can
+ 
+
+00:00:58.020 --> 00:01:00.380 align:start position:0%
+of the data but the optimization we can
+do<00:00:58.170><c> is</c><00:00:58.410><c> about</c><00:00:58.859><c> the</c><00:00:59.039><c> rights</c><00:00:59.250><c> that</c><00:00:59.430><c> do</c><00:00:59.789><c> not</c><00:01:00.059><c> need</c>
+
+00:01:00.380 --> 00:01:00.390 align:start position:0%
+do is about the rights that do not need
+ 
+
+00:01:00.390 --> 00:01:03.049 align:start position:0%
+do is about the rights that do not need
+to<00:01:00.629><c> update</c><00:01:00.840><c> anybody</c><00:01:01.649><c> so</c><00:01:02.609><c> we</c><00:01:02.730><c> will</c><00:01:02.879><c> add</c><00:01:03.030><c> another</c>
+
+00:01:03.049 --> 00:01:03.059 align:start position:0%
+to update anybody so we will add another
+ 
+
+00:01:03.059 --> 00:01:06.440 align:start position:0%
+to update anybody so we will add another
+bit<00:01:03.780><c> called</c><00:01:04.650><c> the</c><00:01:04.830><c> shared</c><00:01:05.220><c> bit</c><00:01:05.489><c> to</c><00:01:05.880><c> each</c><00:01:06.090><c> block</c>
+
+00:01:06.440 --> 00:01:06.450 align:start position:0%
+bit called the shared bit to each block
+ 
+
+00:01:06.450 --> 00:01:09.410 align:start position:0%
+bit called the shared bit to each block
+in<00:01:06.659><c> each</c><00:01:06.750><c> cache</c><00:01:07.110><c> and</c><00:01:07.530><c> that</c><00:01:08.189><c> bit</c><00:01:08.520><c> will</c><00:01:08.909><c> tell</c><00:01:09.210><c> us</c>
+
+00:01:09.410 --> 00:01:09.420 align:start position:0%
+in each cache and that bit will tell us
+ 
+
+00:01:09.420 --> 00:01:12.320 align:start position:0%
+in each cache and that bit will tell us
+whether<00:01:10.409><c> the</c><00:01:10.650><c> block</c><00:01:11.130><c> is</c><00:01:11.369><c> shared</c><00:01:11.760><c> with</c><00:01:12.000><c> others</c>
+
+00:01:12.320 --> 00:01:12.330 align:start position:0%
+whether the block is shared with others
+ 
+
+00:01:12.330 --> 00:01:14.740 align:start position:0%
+whether the block is shared with others
+or<00:01:12.540><c> not</c><00:01:12.680><c> let's</c><00:01:13.680><c> see</c><00:01:13.890><c> how</c><00:01:14.159><c> things</c><00:01:14.369><c> would</c><00:01:14.610><c> work</c>
+
+00:01:14.740 --> 00:01:14.750 align:start position:0%
+or not let's see how things would work
+ 
+
+00:01:14.750 --> 00:01:18.649 align:start position:0%
+or not let's see how things would work
+suppose<00:01:15.750><c> we</c><00:01:16.170><c> read</c><00:01:16.350><c> a</c><00:01:16.619><c> here</c><00:01:17.100><c> we</c><00:01:17.729><c> get</c><00:01:17.909><c> this</c><00:01:18.090><c> valid</c>
+
+00:01:18.649 --> 00:01:18.659 align:start position:0%
+suppose we read a here we get this valid
+ 
+
+00:01:18.659 --> 00:01:22.100 align:start position:0%
+suppose we read a here we get this valid
+not<00:01:19.259><c> dirty</c><00:01:19.860><c> but</c><00:01:20.130><c> for</c><00:01:20.880><c> the</c><00:01:21.000><c> shared</c><00:01:21.330><c> bit</c><00:01:21.570><c> we</c><00:01:21.930><c> need</c>
+
+00:01:22.100 --> 00:01:22.110 align:start position:0%
+not dirty but for the shared bit we need
+ 
+
+00:01:22.110 --> 00:01:24.440 align:start position:0%
+not dirty but for the shared bit we need
+to<00:01:22.259><c> know</c><00:01:22.439><c> whether</c><00:01:22.770><c> others</c><00:01:23.430><c> also</c><00:01:23.759><c> have</c><00:01:24.240><c> this</c>
+
+00:01:24.440 --> 00:01:24.450 align:start position:0%
+to know whether others also have this
+ 
+
+00:01:24.450 --> 00:01:26.810 align:start position:0%
+to know whether others also have this
+block<00:01:24.750><c> or</c><00:01:24.960><c> not</c><00:01:24.990><c> for</c><00:01:25.979><c> this</c><00:01:26.220><c> purpose</c>
+
+00:01:26.810 --> 00:01:26.820 align:start position:0%
+block or not for this purpose
+ 
+
+00:01:26.820 --> 00:01:30.560 align:start position:0%
+block or not for this purpose
+we<00:01:27.540><c> add</c><00:01:27.750><c> a</c><00:01:28.140><c> line</c><00:01:28.470><c> to</c><00:01:28.740><c> the</c><00:01:28.950><c> bus</c><00:01:29.130><c> when</c><00:01:30.090><c> a</c><00:01:30.329><c> reed</c>
+
+00:01:30.560 --> 00:01:30.570 align:start position:0%
+we add a line to the bus when a reed
+ 
+
+00:01:30.570 --> 00:01:33.770 align:start position:0%
+we add a line to the bus when a reed
+goes<00:01:30.930><c> to</c><00:01:31.170><c> memory</c><00:01:31.640><c> others</c><00:01:32.640><c> snoop</c><00:01:33.210><c> this</c><00:01:33.479><c> read</c>
+
+00:01:33.770 --> 00:01:33.780 align:start position:0%
+goes to memory others snoop this read
+ 
+
+00:01:33.780 --> 00:01:36.200 align:start position:0%
+goes to memory others snoop this read
+and<00:01:34.079><c> if</c><00:01:34.590><c> they</c><00:01:34.770><c> have</c><00:01:35.009><c> that</c><00:01:35.189><c> same</c><00:01:35.460><c> block</c><00:01:35.759><c> in</c><00:01:35.820><c> the</c>
+
+00:01:36.200 --> 00:01:36.210 align:start position:0%
+and if they have that same block in the
+ 
+
+00:01:36.210 --> 00:01:39.859 align:start position:0%
+and if they have that same block in the
+cache<00:01:36.450><c> then</c><00:01:37.170><c> they</c><00:01:37.439><c> pull</c><00:01:37.770><c> the</c><00:01:38.159><c> shared</c><00:01:38.520><c> line</c><00:01:39.180><c> to</c>
+
+00:01:39.859 --> 00:01:39.869 align:start position:0%
+cache then they pull the shared line to
+ 
+
+00:01:39.869 --> 00:01:42.469 align:start position:0%
+cache then they pull the shared line to
+one<00:01:40.110><c> if</c><00:01:40.409><c> nobody</c><00:01:41.220><c> pulls</c><00:01:41.579><c> the</c><00:01:41.729><c> shared</c><00:01:42.030><c> line</c><00:01:42.240><c> to</c>
+
+00:01:42.469 --> 00:01:42.479 align:start position:0%
+one if nobody pulls the shared line to
+ 
+
+00:01:42.479 --> 00:01:45.469 align:start position:0%
+one if nobody pulls the shared line to
+one<00:01:42.689><c> then</c><00:01:43.439><c> it</c><00:01:43.590><c> will</c><00:01:43.770><c> remain</c><00:01:44.040><c> at</c><00:01:44.250><c> zero</c><00:01:44.520><c> so</c><00:01:45.270><c> for</c>
+
+00:01:45.469 --> 00:01:45.479 align:start position:0%
+one then it will remain at zero so for
+ 
+
+00:01:45.479 --> 00:01:47.090 align:start position:0%
+one then it will remain at zero so for
+this<00:01:45.630><c> particular</c><00:01:46.170><c> block</c><00:01:46.409><c> because</c><00:01:46.799><c> this</c><00:01:46.950><c> is</c>
+
+00:01:47.090 --> 00:01:47.100 align:start position:0%
+this particular block because this is
+ 
+
+00:01:47.100 --> 00:01:51.170 align:start position:0%
+this particular block because this is
+the<00:01:47.220><c> first</c><00:01:47.490><c> read</c><00:01:48.110><c> nobody</c><00:01:49.460><c> pulls</c><00:01:50.460><c> the</c><00:01:50.850><c> shared</c>
+
+00:01:51.170 --> 00:01:51.180 align:start position:0%
+the first read nobody pulls the shared
+ 
+
+00:01:51.180 --> 00:01:54.740 align:start position:0%
+the first read nobody pulls the shared
+line<00:01:51.360><c> to</c><00:01:51.600><c> one</c><00:01:51.810><c> so</c><00:01:52.560><c> the</c><00:01:53.070><c> block</c><00:01:53.310><c> we</c><00:01:53.909><c> know</c><00:01:54.180><c> is</c><00:01:54.479><c> not</c>
+
+00:01:54.740 --> 00:01:54.750 align:start position:0%
+line to one so the block we know is not
+ 
+
+00:01:54.750 --> 00:01:57.590 align:start position:0%
+line to one so the block we know is not
+shared<00:01:55.189><c> this</c><00:01:56.189><c> is</c><00:01:56.399><c> the</c><00:01:56.520><c> tag</c><00:01:56.790><c> and</c><00:01:57.149><c> let's</c><00:01:57.420><c> say</c>
+
+00:01:57.590 --> 00:01:57.600 align:start position:0%
+shared this is the tag and let's say
+ 
+
+00:01:57.600 --> 00:02:00.109 align:start position:0%
+shared this is the tag and let's say
+we're<00:01:57.780><c> at</c><00:01:57.930><c> six</c><00:01:58.259><c> now</c><00:01:59.040><c> let's</c><00:01:59.340><c> see</c><00:01:59.520><c> what</c><00:01:59.700><c> happens</c>
+
+00:02:00.109 --> 00:02:00.119 align:start position:0%
+we're at six now let's see what happens
+ 
+
+00:02:00.119 --> 00:02:02.359 align:start position:0%
+we're at six now let's see what happens
+when<00:02:00.329><c> this</c><00:02:00.540><c> processor</c><00:02:01.170><c> writes</c><00:02:01.439><c> to</c><00:02:01.829><c> a</c><00:02:02.070><c> and</c>
+
+00:02:02.359 --> 00:02:02.369 align:start position:0%
+when this processor writes to a and
+ 
+
+00:02:02.369 --> 00:02:04.340 align:start position:0%
+when this processor writes to a and
+let's<00:02:02.670><c> say</c><00:02:02.790><c> it</c><00:02:02.939><c> puts</c><00:02:03.210><c> a</c><00:02:03.360><c> value</c><00:02:03.509><c> of</c><00:02:03.719><c> seventeen</c>
+
+00:02:04.340 --> 00:02:04.350 align:start position:0%
+let's say it puts a value of seventeen
+ 
+
+00:02:04.350 --> 00:02:07.399 align:start position:0%
+let's say it puts a value of seventeen
+there<00:02:04.649><c> it's</c><00:02:05.130><c> a</c><00:02:05.310><c> Miss</c><00:02:05.549><c> we</c><00:02:06.390><c> broadcast</c><00:02:06.960><c> both</c><00:02:07.170><c> the</c>
+
+00:02:07.399 --> 00:02:07.409 align:start position:0%
+there it's a Miss we broadcast both the
+ 
+
+00:02:07.409 --> 00:02:10.360 align:start position:0%
+there it's a Miss we broadcast both the
+right<00:02:07.619><c> and</c><00:02:07.649><c> the</c><00:02:07.890><c> value</c><00:02:08.429><c> the</c><00:02:09.420><c> first</c><00:02:09.690><c> time</c><00:02:09.989><c> and</c>
+
+00:02:10.360 --> 00:02:10.370 align:start position:0%
+right and the value the first time and
+ 
+
+00:02:10.370 --> 00:02:13.730 align:start position:0%
+right and the value the first time and
+we<00:02:11.370><c> see</c><00:02:11.640><c> now</c><00:02:11.910><c> that</c><00:02:11.940><c> somebody</c><00:02:12.360><c> is</c><00:02:12.690><c> writing</c>
+
+00:02:13.730 --> 00:02:13.740 align:start position:0%
+we see now that somebody is writing
+ 
+
+00:02:13.740 --> 00:02:16.160 align:start position:0%
+we see now that somebody is writing
+and<00:02:13.830><c> this</c><00:02:14.160><c> cash</c><00:02:14.460><c> here</c><00:02:14.790><c> snoops</c><00:02:15.210><c> that</c><00:02:15.570><c> right</c><00:02:15.870><c> and</c>
+
+00:02:16.160 --> 00:02:16.170 align:start position:0%
+and this cash here snoops that right and
+ 
+
+00:02:16.170 --> 00:02:19.280 align:start position:0%
+and this cash here snoops that right and
+those<00:02:16.830><c> two</c><00:02:17.130><c> things</c><00:02:17.160><c> one</c><00:02:18.120><c> it</c><00:02:18.600><c> now</c><00:02:18.870><c> knows</c><00:02:19.140><c> that</c>
+
+00:02:19.280 --> 00:02:19.290 align:start position:0%
+those two things one it now knows that
+ 
+
+00:02:19.290 --> 00:02:20.780 align:start position:0%
+those two things one it now knows that
+the<00:02:19.410><c> block</c><00:02:19.620><c> is</c><00:02:19.800><c> shared</c><00:02:20.070><c> because</c><00:02:20.190><c> somebody</c><00:02:20.640><c> is</c>
+
+00:02:20.780 --> 00:02:20.790 align:start position:0%
+the block is shared because somebody is
+ 
+
+00:02:20.790 --> 00:02:23.330 align:start position:0%
+the block is shared because somebody is
+accessing<00:02:21.150><c> it</c><00:02:21.420><c> now</c><00:02:21.660><c> second</c><00:02:22.650><c> it</c><00:02:22.800><c> updates</c><00:02:23.220><c> the</c>
+
+00:02:23.330 --> 00:02:23.340 align:start position:0%
+accessing it now second it updates the
+ 
+
+00:02:23.340 --> 00:02:27.140 align:start position:0%
+accessing it now second it updates the
+value<00:02:23.730><c> third</c><00:02:24.210><c> it</c><00:02:24.990><c> pulls</c><00:02:25.440><c> this</c><00:02:25.710><c> line</c><00:02:26.040><c> to</c><00:02:26.310><c> one</c><00:02:26.580><c> so</c>
+
+00:02:27.140 --> 00:02:27.150 align:start position:0%
+value third it pulls this line to one so
+ 
+
+00:02:27.150 --> 00:02:29.300 align:start position:0%
+value third it pulls this line to one so
+that<00:02:27.360><c> this</c><00:02:27.630><c> cash</c><00:02:27.990><c> knows</c><00:02:28.290><c> the</c><00:02:28.500><c> block</c><00:02:28.740><c> is</c><00:02:28.950><c> shared</c>
+
+00:02:29.300 --> 00:02:29.310 align:start position:0%
+that this cash knows the block is shared
+ 
+
+00:02:29.310 --> 00:02:32.990 align:start position:0%
+that this cash knows the block is shared
+and<00:02:29.960><c> now</c><00:02:30.960><c> it</c><00:02:31.260><c> has</c><00:02:31.680><c> the</c><00:02:32.220><c> Block</c><00:02:32.460><c> in</c><00:02:32.640><c> the</c><00:02:32.760><c> dirty</c>
+
+00:02:32.990 --> 00:02:33.000 align:start position:0%
+and now it has the Block in the dirty
+ 
+
+00:02:33.000 --> 00:02:36.200 align:start position:0%
+and now it has the Block in the dirty
+State<00:02:33.480><c> with</c><00:02:33.780><c> the</c><00:02:33.810><c> value</c><00:02:34.200><c> of</c><00:02:34.290><c> 17</c><00:02:34.860><c> so</c><00:02:35.700><c> so</c><00:02:35.940><c> far</c>
+
+00:02:36.200 --> 00:02:36.210 align:start position:0%
+State with the value of 17 so so far
+ 
+
+00:02:36.210 --> 00:02:38.210 align:start position:0%
+State with the value of 17 so so far
+this<00:02:36.390><c> has</c><00:02:36.450><c> behaved</c><00:02:36.990><c> exactly</c><00:02:37.140><c> as</c><00:02:37.830><c> it</c><00:02:38.190><c> should</c>
+
+00:02:38.210 --> 00:02:38.220 align:start position:0%
+this has behaved exactly as it should
+ 
+
+00:02:38.220 --> 00:02:41.630 align:start position:0%
+this has behaved exactly as it should
+without<00:02:38.970><c> the</c><00:02:39.390><c> shared</c><00:02:39.660><c> line</c><00:02:39.930><c> and</c><00:02:40.490><c> without</c><00:02:41.490><c> the</c>
+
+00:02:41.630 --> 00:02:41.640 align:start position:0%
+without the shared line and without the
+ 
+
+00:02:41.640 --> 00:02:43.550 align:start position:0%
+without the shared line and without the
+shared<00:02:41.910><c> bit</c><00:02:42.120><c> so</c><00:02:42.390><c> what's</c><00:02:42.630><c> the</c><00:02:42.840><c> benefit</c><00:02:43.290><c> of</c><00:02:43.320><c> the</c>
+
+00:02:43.550 --> 00:02:43.560 align:start position:0%
+shared bit so what's the benefit of the
+ 
+
+00:02:43.560 --> 00:02:46.670 align:start position:0%
+shared bit so what's the benefit of the
+shared<00:02:43.800><c> bits</c><00:02:44.040><c> well</c><00:02:44.730><c> the</c><00:02:44.850><c> benefit</c><00:02:45.360><c> is</c><00:02:45.510><c> that</c><00:02:45.680><c> now</c>
+
+00:02:46.670 --> 00:02:46.680 align:start position:0%
+shared bits well the benefit is that now
+ 
+
+00:02:46.680 --> 00:02:49.460 align:start position:0%
+shared bits well the benefit is that now
+this<00:02:47.010><c> cash</c><00:02:47.340><c> if</c><00:02:47.550><c> it</c><00:02:47.700><c> wants</c><00:02:48.000><c> to</c><00:02:48.060><c> write</c><00:02:48.330><c> again</c><00:02:48.750><c> it</c>
+
+00:02:49.460 --> 00:02:49.470 align:start position:0%
+this cash if it wants to write again it
+ 
+
+00:02:49.470 --> 00:02:52.010 align:start position:0%
+this cash if it wants to write again it
+sees<00:02:49.980><c> that</c><00:02:50.640><c> the</c><00:02:50.820><c> shared</c><00:02:51.090><c> bit</c><00:02:51.240><c> is</c><00:02:51.450><c> one</c><00:02:51.690><c> which</c>
+
+00:02:52.010 --> 00:02:52.020 align:start position:0%
+sees that the shared bit is one which
+ 
+
+00:02:52.020 --> 00:02:53.950 align:start position:0%
+sees that the shared bit is one which
+means<00:02:52.200><c> that</c><00:02:52.380><c> it</c><00:02:52.620><c> does</c><00:02:52.890><c> need</c><00:02:53.190><c> to</c><00:02:53.250><c> broadcast</c>
+
+00:02:53.950 --> 00:02:53.960 align:start position:0%
+means that it does need to broadcast
+ 
+
+00:02:53.960 --> 00:02:57.380 align:start position:0%
+means that it does need to broadcast
+same<00:02:54.960><c> as</c><00:02:55.140><c> before</c><00:02:55.520><c> so</c><00:02:56.520><c> the</c><00:02:56.670><c> broadcast</c><00:02:56.910><c> will</c>
+
+00:02:57.380 --> 00:02:57.390 align:start position:0%
+same as before so the broadcast will
+ 
+
+00:02:57.390 --> 00:03:00.110 align:start position:0%
+same as before so the broadcast will
+happen<00:02:57.930><c> exactly</c><00:02:58.410><c> as</c><00:02:58.950><c> before</c><00:02:58.980><c> if</c><00:02:59.610><c> there</c><00:02:59.940><c> is</c>
+
+00:03:00.110 --> 00:03:00.120 align:start position:0%
+happen exactly as before if there is
+ 
+
+00:03:00.120 --> 00:03:02.660 align:start position:0%
+happen exactly as before if there is
+another<00:03:00.570><c> sharer</c><00:03:00.990><c> because</c><00:03:01.980><c> we</c><00:03:02.160><c> need</c><00:03:02.310><c> to</c><00:03:02.430><c> update</c>
+
+00:03:02.660 --> 00:03:02.670 align:start position:0%
+another sharer because we need to update
+ 
+
+00:03:02.670 --> 00:03:05.570 align:start position:0%
+another sharer because we need to update
+that<00:03:02.940><c> sharer</c><00:03:03.480><c> to</c><00:03:04.020><c> the</c><00:03:04.170><c> new</c><00:03:04.410><c> value</c><00:03:04.920><c> for</c><00:03:05.460><c> the</c>
+
+00:03:05.570 --> 00:03:05.580 align:start position:0%
+that sharer to the new value for the
+ 
+
+00:03:05.580 --> 00:03:08.750 align:start position:0%
+that sharer to the new value for the
+data<00:03:05.730><c> the</c><00:03:06.690><c> benefit</c><00:03:07.320><c> of</c><00:03:07.350><c> the</c><00:03:07.620><c> shared</c><00:03:07.980><c> it</c><00:03:08.280><c> is</c><00:03:08.520><c> in</c>
+
+00:03:08.750 --> 00:03:08.760 align:start position:0%
+data the benefit of the shared it is in
+ 
+
+00:03:08.760 --> 00:03:12.550 align:start position:0%
+data the benefit of the shared it is in
+that<00:03:09.000><c> if</c><00:03:09.450><c> this</c><00:03:10.080><c> block</c><00:03:10.410><c> reads</c><00:03:10.740><c> let's</c><00:03:11.490><c> say</c><00:03:11.700><c> B</c><00:03:11.970><c> and</c>
+
+00:03:12.550 --> 00:03:12.560 align:start position:0%
+that if this block reads let's say B and
+ 
+
+00:03:12.560 --> 00:03:16.880 align:start position:0%
+that if this block reads let's say B and
+gets<00:03:13.560><c> a</c><00:03:13.710><c> value</c><00:03:13.950><c> of</c><00:03:14.340><c> 2</c><00:03:15.060><c> here</c><00:03:15.660><c> and</c><00:03:15.930><c> it's</c><00:03:16.620><c> valid</c>
+
+00:03:16.880 --> 00:03:16.890 align:start position:0%
+gets a value of 2 here and it's valid
+ 
+
+00:03:16.890 --> 00:03:21.170 align:start position:0%
+gets a value of 2 here and it's valid
+and<00:03:17.370><c> it's</c><00:03:18.090><c> not</c><00:03:18.300><c> dirty</c><00:03:18.690><c> and</c><00:03:19.110><c> it</c><00:03:19.830><c> is</c><00:03:20.010><c> that</c><00:03:20.190><c> so</c><00:03:20.940><c> far</c>
+
+00:03:21.170 --> 00:03:21.180 align:start position:0%
+and it's not dirty and it is that so far
+ 
+
+00:03:21.180 --> 00:03:24.110 align:start position:0%
+and it's not dirty and it is that so far
+nobody<00:03:21.570><c> has</c><00:03:21.810><c> B</c><00:03:22.050><c> so</c><00:03:22.560><c> sharing</c><00:03:23.040><c> is</c><00:03:23.190><c> 0</c><00:03:23.460><c> here</c><00:03:23.970><c> and</c>
+
+00:03:24.110 --> 00:03:24.120 align:start position:0%
+nobody has B so sharing is 0 here and
+ 
+
+00:03:24.120 --> 00:03:28.220 align:start position:0%
+nobody has B so sharing is 0 here and
+then<00:03:24.750><c> wants</c><00:03:25.110><c> to</c><00:03:25.200><c> write</c><00:03:25.380><c> 5</c><00:03:25.830><c> to</c><00:03:26.190><c> be</c><00:03:26.780><c> it</c><00:03:27.780><c> checks</c>
+
+00:03:28.220 --> 00:03:28.230 align:start position:0%
+then wants to write 5 to be it checks
+ 
+
+00:03:28.230 --> 00:03:32.540 align:start position:0%
+then wants to write 5 to be it checks
+the<00:03:28.380><c> shared</c><00:03:28.770><c> bit</c><00:03:29.070><c> here</c><00:03:29.550><c> and</c><00:03:30.470><c> because</c><00:03:31.470><c> we</c><00:03:32.280><c> know</c>
+
+00:03:32.540 --> 00:03:32.550 align:start position:0%
+the shared bit here and because we know
+ 
+
+00:03:32.550 --> 00:03:35.630 align:start position:0%
+the shared bit here and because we know
+that<00:03:32.910><c> nobody</c><00:03:33.240><c> else</c><00:03:33.720><c> has</c><00:03:34.170><c> this</c><00:03:34.470><c> block</c><00:03:34.800><c> we</c><00:03:35.610><c> can</c>
+
+00:03:35.630 --> 00:03:35.640 align:start position:0%
+that nobody else has this block we can
+ 
+
+00:03:35.640 --> 00:03:37.910 align:start position:0%
+that nobody else has this block we can
+write<00:03:35.850><c> the</c><00:03:36.210><c> value</c><00:03:36.360><c> here</c><00:03:36.960><c> make</c><00:03:37.590><c> the</c><00:03:37.740><c> thing</c>
+
+00:03:37.910 --> 00:03:37.920 align:start position:0%
+write the value here make the thing
+ 
+
+00:03:37.920 --> 00:03:39.980 align:start position:0%
+write the value here make the thing
+dirty<00:03:38.130><c> because</c><00:03:38.670><c> the</c><00:03:39.300><c> memory</c><00:03:39.600><c> is</c><00:03:39.660><c> no</c><00:03:39.810><c> longer</c>
+
+00:03:39.980 --> 00:03:39.990 align:start position:0%
+dirty because the memory is no longer
+ 
+
+00:03:39.990 --> 00:03:43.010 align:start position:0%
+dirty because the memory is no longer
+up-to-date<00:03:40.590><c> but</c><00:03:41.430><c> because</c><00:03:42.180><c> the</c><00:03:42.540><c> shared</c><00:03:42.840><c> bit</c>
+
+00:03:43.010 --> 00:03:43.020 align:start position:0%
+up-to-date but because the shared bit
+ 
+
+00:03:43.020 --> 00:03:45.290 align:start position:0%
+up-to-date but because the shared bit
+stays<00:03:43.350><c> at</c><00:03:43.590><c> 0</c><00:03:43.890><c> meaning</c><00:03:44.100><c> we</c><00:03:44.520><c> are</c><00:03:44.550><c> the</c><00:03:44.820><c> only</c><00:03:44.970><c> one</c>
+
+00:03:45.290 --> 00:03:45.300 align:start position:0%
+stays at 0 meaning we are the only one
+ 
+
+00:03:45.300 --> 00:03:46.160 align:start position:0%
+stays at 0 meaning we are the only one
+who<00:03:45.480><c> has</c><00:03:45.690><c> it</c>
+
+00:03:46.160 --> 00:03:46.170 align:start position:0%
+who has it
+ 
+
+00:03:46.170 --> 00:03:49.340 align:start position:0%
+who has it
+we<00:03:46.830><c> don't</c><00:03:47.190><c> do</c><00:03:47.460><c> a</c><00:03:47.490><c> bus</c><00:03:47.940><c> right</c><00:03:48.270><c> here</c><00:03:48.600><c> so</c><00:03:48.870><c> as</c><00:03:48.900><c> long</c>
+
+00:03:49.340 --> 00:03:49.350 align:start position:0%
+we don't do a bus right here so as long
+ 
+
+00:03:49.350 --> 00:03:51.770 align:start position:0%
+we don't do a bus right here so as long
+as<00:03:49.410><c> some</c><00:03:50.280><c> block</c><00:03:50.550><c> is</c><00:03:50.760><c> being</c><00:03:50.790><c> accessed</c><00:03:51.210><c> only</c><00:03:51.630><c> by</c>
+
+00:03:51.770 --> 00:03:51.780 align:start position:0%
+as some block is being accessed only by
+ 
+
+00:03:51.780 --> 00:03:53.810 align:start position:0%
+as some block is being accessed only by
+one<00:03:52.140><c> core</c><00:03:52.440><c> it's</c><00:03:52.710><c> no</c><00:03:52.950><c> longer</c><00:03:53.310><c> gonna</c><00:03:53.490><c> broadcast</c>
+
+00:03:53.810 --> 00:03:53.820 align:start position:0%
+one core it's no longer gonna broadcast
+ 
+
+00:03:53.820 --> 00:03:56.990 align:start position:0%
+one core it's no longer gonna broadcast
+all<00:03:54.150><c> of</c><00:03:54.270><c> the</c><00:03:54.360><c> rights</c><00:03:54.800><c> meanwhile</c><00:03:55.800><c> this</c><00:03:56.610><c> core</c>
+
+00:03:56.990 --> 00:03:57.000 align:start position:0%
+all of the rights meanwhile this core
+ 
+
+00:03:57.000 --> 00:03:59.720 align:start position:0%
+all of the rights meanwhile this core
+could<00:03:57.570><c> be</c><00:03:57.750><c> having</c><00:03:57.990><c> in</c><00:03:58.380><c> a</c><00:03:58.470><c> non</c><00:03:58.710><c> shared</c><00:03:59.070><c> State</c>
+
+00:03:59.720 --> 00:03:59.730 align:start position:0%
+could be having in a non shared State
+ 
+
+00:03:59.730 --> 00:04:03.500 align:start position:0%
+could be having in a non shared State
+for<00:04:00.420><c> example</c><00:04:00.930><c> Block</c><00:04:01.680><c> C</c><00:04:02.010><c> and</c><00:04:02.430><c> it</c><00:04:03.000><c> can</c><00:04:03.270><c> write</c>
+
+00:04:03.500 --> 00:04:03.510 align:start position:0%
+for example Block C and it can write
+ 
+
+00:04:03.510 --> 00:04:06.590 align:start position:0%
+for example Block C and it can write
+anything<00:04:03.930><c> in</c><00:04:04.200><c> once</c><00:04:04.470><c> there</c><00:04:04.800><c> you</c><00:04:05.190><c> can</c><00:04:05.340><c> write</c><00:04:05.600><c> 17</c>
+
+00:04:06.590 --> 00:04:06.600 align:start position:0%
+anything in once there you can write 17
+ 
+
+00:04:06.600 --> 00:04:11.600 align:start position:0%
+anything in once there you can write 17
+then<00:04:07.320><c> 65</c><00:04:08.160><c> etc</c><00:04:08.970><c> so</c><00:04:09.210><c> B</c><00:04:10.170><c> and</c><00:04:10.200><c> C</c><00:04:10.830><c> because</c><00:04:11.430><c> they</c>
+
+00:04:11.600 --> 00:04:11.610 align:start position:0%
+then 65 etc so B and C because they
+ 
+
+00:04:11.610 --> 00:04:14.350 align:start position:0%
+then 65 etc so B and C because they
+belong<00:04:11.880><c> to</c><00:04:11.940><c> only</c><00:04:12.330><c> one</c><00:04:12.570><c> core</c><00:04:13.110><c> at</c><00:04:13.410><c> this</c><00:04:13.950><c> time</c>
+
+00:04:14.350 --> 00:04:14.360 align:start position:0%
+belong to only one core at this time
+ 
+
+00:04:14.360 --> 00:04:18.680 align:start position:0%
+belong to only one core at this time
+will<00:04:15.360><c> not</c><00:04:15.630><c> do</c><00:04:15.959><c> bus</c><00:04:16.200><c> rights</c><00:04:16.530><c> while</c><00:04:17.010><c> a</c><00:04:17.390><c> will</c><00:04:18.390><c> do</c>
+
+00:04:18.680 --> 00:04:18.690 align:start position:0%
+will not do bus rights while a will do
+ 
+
+00:04:18.690 --> 00:04:21.199 align:start position:0%
+will not do bus rights while a will do
+bus<00:04:18.989><c> rights</c><00:04:19.320><c> so</c><00:04:20.220><c> we</c><00:04:20.250><c> still</c><00:04:20.609><c> get</c><00:04:20.820><c> the</c><00:04:20.850><c> right</c>
+
+00:04:21.199 --> 00:04:21.209 align:start position:0%
+bus rights so we still get the right
+ 
+
+00:04:21.209 --> 00:04:23.420 align:start position:0%
+bus rights so we still get the right
+update<00:04:21.720><c> behavior</c><00:04:22.229><c> when</c><00:04:22.560><c> there</c><00:04:22.770><c> is</c><00:04:22.919><c> sharing</c>
+
+00:04:23.420 --> 00:04:23.430 align:start position:0%
+update behavior when there is sharing
+ 
+
+00:04:23.430 --> 00:04:26.030 align:start position:0%
+update behavior when there is sharing
+but<00:04:23.700><c> now</c><00:04:23.940><c> we</c><00:04:24.000><c> avoid</c><00:04:24.540><c> rights</c><00:04:25.020><c> going</c><00:04:25.530><c> to</c><00:04:25.740><c> the</c><00:04:25.860><c> bus</c>
+
+00:04:26.030 --> 00:04:26.040 align:start position:0%
+but now we avoid rights going to the bus
+ 
+
+00:04:26.040 --> 00:04:27.850 align:start position:0%
+but now we avoid rights going to the bus
+when<00:04:26.340><c> there</c><00:04:26.520><c> is</c><00:04:26.669><c> no</c><00:04:26.880><c> sharing</c>
+
+00:04:27.850 --> 00:04:27.860 align:start position:0%
+when there is no sharing
+ 
+
+00:04:27.860 --> 00:04:30.710 align:start position:0%
+when there is no sharing
+this<00:04:28.860><c> can</c><00:04:29.220><c> happen</c><00:04:29.400><c> a</c><00:04:29.670><c> lot</c><00:04:29.850><c> for</c><00:04:30.090><c> example</c><00:04:30.540><c> B</c>
+
+00:04:30.710 --> 00:04:30.720 align:start position:0%
+this can happen a lot for example B
+ 
+
+00:04:30.720 --> 00:04:32.480 align:start position:0%
+this can happen a lot for example B
+could<00:04:31.050><c> be</c><00:04:31.080><c> something</c><00:04:31.620><c> that</c><00:04:31.770><c> belongs</c><00:04:32.160><c> to</c><00:04:32.280><c> the</c>
+
+00:04:32.480 --> 00:04:32.490 align:start position:0%
+could be something that belongs to the
+ 
+
+00:04:32.490 --> 00:04:34.670 align:start position:0%
+could be something that belongs to the
+stack<00:04:32.850><c> of</c><00:04:33.180><c> course</c><00:04:33.480><c> zero</c><00:04:33.780><c> seek</c><00:04:34.320><c> would</c><00:04:34.560><c> be</c>
+
+00:04:34.670 --> 00:04:34.680 align:start position:0%
+stack of course zero seek would be
+ 
+
+00:04:34.680 --> 00:04:36.320 align:start position:0%
+stack of course zero seek would be
+something<00:04:34.920><c> that</c><00:04:35.070><c> is</c><00:04:35.310><c> on</c><00:04:35.430><c> the</c><00:04:35.520><c> stack</c><00:04:35.820><c> of</c><00:04:36.090><c> cor</c>
+
+00:04:36.320 --> 00:04:36.330 align:start position:0%
+something that is on the stack of cor
+ 
+
+00:04:36.330 --> 00:04:40.130 align:start position:0%
+something that is on the stack of cor
+one<00:04:36.630><c> so</c><00:04:37.470><c> naturally</c><00:04:38.220><c> we</c><00:04:38.940><c> will</c><00:04:39.090><c> be</c><00:04:39.270><c> just</c><00:04:39.540><c> pushing</c>
+
+00:04:40.130 --> 00:04:40.140 align:start position:0%
+one so naturally we will be just pushing
+ 
+
+00:04:40.140 --> 00:04:41.720 align:start position:0%
+one so naturally we will be just pushing
+and<00:04:40.260><c> popping</c><00:04:40.410><c> things</c><00:04:40.800><c> to</c><00:04:40.950><c> our</c><00:04:41.040><c> own</c><00:04:41.190><c> stack</c><00:04:41.490><c> and</c>
+
+00:04:41.720 --> 00:04:41.730 align:start position:0%
+and popping things to our own stack and
+ 
+
+00:04:41.730 --> 00:04:43.220 align:start position:0%
+and popping things to our own stack and
+never<00:04:41.940><c> really</c><00:04:42.210><c> needing</c><00:04:42.480><c> to</c><00:04:42.510><c> broadcast</c><00:04:43.110><c> the</c>
+
+00:04:43.220 --> 00:04:43.230 align:start position:0%
+never really needing to broadcast the
+ 
+
+00:04:43.230 --> 00:04:45.410 align:start position:0%
+never really needing to broadcast the
+updates<00:04:43.590><c> somewhere</c><00:04:43.950><c> else</c><00:04:44.100><c> but</c><00:04:44.850><c> for</c><00:04:45.060><c> data</c><00:04:45.240><c> that</c>
+
+00:04:45.410 --> 00:04:45.420 align:start position:0%
+updates somewhere else but for data that
+ 
+
+00:04:45.420 --> 00:04:47.990 align:start position:0%
+updates somewhere else but for data that
+is<00:04:45.570><c> actually</c><00:04:46.230><c> shared</c><00:04:46.560><c> we</c><00:04:46.860><c> still</c><00:04:47.220><c> get</c><00:04:47.490><c> exactly</c>
+
+00:04:47.990 --> 00:04:48.000 align:start position:0%
+is actually shared we still get exactly
+ 
+
+00:04:48.000 --> 00:04:50.140 align:start position:0%
+is actually shared we still get exactly
+the<00:04:48.180><c> same</c><00:04:48.420><c> right</c><00:04:48.660><c> update</c><00:04:49.050><c> behavior</c><00:04:49.470><c> as</c><00:04:49.680><c> before</c>
+
+00:04:50.140 --> 00:04:50.150 align:start position:0%
+the same right update behavior as before
+ 
+
+00:04:50.150 --> 00:04:53.360 align:start position:0%
+the same right update behavior as before
+so<00:04:51.150><c> this</c><00:04:51.330><c> optimization</c><00:04:51.900><c> will</c><00:04:52.410><c> save</c><00:04:52.740><c> us</c><00:04:52.890><c> a</c><00:04:53.100><c> lot</c>
+
+00:04:53.360 --> 00:04:53.370 align:start position:0%
+so this optimization will save us a lot
+ 
+
+00:04:53.370 --> 00:04:55.430 align:start position:0%
+so this optimization will save us a lot
+of<00:04:53.640><c> Rights</c><00:04:53.940><c> on</c><00:04:54.180><c> the</c><00:04:54.300><c> bus</c><00:04:54.480><c> it</c><00:04:54.780><c> will</c><00:04:54.900><c> save</c><00:04:55.140><c> us</c><00:04:55.260><c> all</c>
+
+00:04:55.430 --> 00:04:55.440 align:start position:0%
+of Rights on the bus it will save us all
+ 
+
+00:04:55.440 --> 00:04:57.200 align:start position:0%
+of Rights on the bus it will save us all
+of<00:04:55.590><c> the</c><00:04:55.680><c> rights</c><00:04:55.890><c> that</c><00:04:56.040><c> are</c><00:04:56.160><c> not</c><00:04:56.430><c> necessary</c><00:04:57.120><c> to</c>
+
+00:04:57.200 --> 00:04:57.210 align:start position:0%
+of the rights that are not necessary to
+ 
+
+00:04:57.210 --> 00:05:00.260 align:start position:0%
+of the rights that are not necessary to
+maintain<00:04:57.870><c> coherence</c><00:04:58.140><c> among</c><00:04:58.920><c> multiple</c><00:04:59.700><c> copies</c>
+
+00:05:00.260 --> 00:05:00.270 align:start position:0%
+maintain coherence among multiple copies
+ 
+
+00:05:00.270 --> 00:05:04.670 align:start position:0%
+maintain coherence among multiple copies
+of<00:05:00.480><c> the</c><00:05:00.690><c> same</c><00:05:00.840><c> block</c><00:05:01.380><c> in</c><00:05:01.680><c> different</c><00:05:02.460><c> caches</c>
+

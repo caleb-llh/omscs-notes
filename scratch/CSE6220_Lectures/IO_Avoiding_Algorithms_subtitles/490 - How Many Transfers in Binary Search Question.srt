@@ -1,0 +1,76 @@
+1
+00:00:00,210 --> 00:00:02,850
+ Let's think about the algorithm for binary search.
+
+2
+00:00:02,850 --> 00:00:06,710
+ Suppose you're given a sorted array A containing n unique elements.
+
+3
+00:00:06,710 --> 00:00:08,730
+ Now let's say you're given a target value, v.
+
+4
+00:00:08,730 --> 00:00:11,240
+ Here's your computational goal.
+
+5
+00:00:11,240 --> 00:00:14,120
+ You want to find the largest index i such that A of
+
+6
+00:00:14,120 --> 00:00:15,910
+ i is less than or equal to v.
+
+7
+00:00:15,910 --> 00:00:18,310
+ Just to be clear, consider this example.
+
+8
+00:00:18,310 --> 00:00:19,910
+ You're given this sorted array of keys and
+
+9
+00:00:19,910 --> 00:00:22,340
+ you want to find f's position in the array.
+
+10
+00:00:22,340 --> 00:00:25,950
+ The standard binary search algorithm starts with the median element of A,
+
+11
+00:00:25,950 --> 00:00:28,020
+ comparing v to it.
+
+12
+00:00:28,020 --> 00:00:29,960
+ It then repeats this process on the left or
+
+13
+00:00:29,960 --> 00:00:34,080
+ right half depending on whether is v is less than or greater than the median.
+
+14
+00:00:34,080 --> 00:00:37,420
+ Suppose A resides entirely in slow memory.
+
+15
+00:00:37,420 --> 00:00:38,860
+ My question is this.
+
+16
+00:00:38,860 --> 00:00:42,250
+ How many asymptotic transfers might this algorithm incur?
+
+17
+00:00:42,250 --> 00:00:44,900
+ You can make the usual simplifying assumptions.
+
+18
+00:00:44,900 --> 00:00:47,793
+ Namely, L divides n, A is aligned and
+
+19
+00:00:47,793 --> 00:00:47,793
+ all these quantities L and z are powers of 2.
+

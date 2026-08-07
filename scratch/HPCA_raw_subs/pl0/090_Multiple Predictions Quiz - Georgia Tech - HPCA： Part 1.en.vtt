@@ -1,0 +1,280 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.880 align:start position:0%
+ 
+so<00:00:00.299><c> now</c><00:00:00.539><c> let's</c><00:00:00.870><c> see</c><00:00:01.050><c> what</c><00:00:01.230><c> happens</c><00:00:01.620><c> when</c><00:00:01.770><c> we</c>
+
+00:00:01.880 --> 00:00:01.890 align:start position:0%
+so now let's see what happens when we
+ 
+
+00:00:01.890 --> 00:00:03.430 align:start position:0%
+so now let's see what happens when we
+try<00:00:02.010><c> to</c><00:00:02.100><c> do</c><00:00:02.340><c> multiple</c><00:00:02.939><c> predictions</c>
+
+00:00:03.430 --> 00:00:03.440 align:start position:0%
+try to do multiple predictions
+ 
+
+00:00:03.440 --> 00:00:04.579 align:start position:0%
+try to do multiple predictions
+simultaneously
+
+00:00:04.579 --> 00:00:04.589 align:start position:0%
+simultaneously
+ 
+
+00:00:04.589 --> 00:00:06.980 align:start position:0%
+simultaneously
+suppose<00:00:05.279><c> we</c><00:00:05.460><c> have</c><00:00:05.670><c> the</c><00:00:06.060><c> classical</c><00:00:06.509><c> five</c><00:00:06.779><c> stage</c>
+
+00:00:06.980 --> 00:00:06.990 align:start position:0%
+suppose we have the classical five stage
+ 
+
+00:00:06.990 --> 00:00:09.950 align:start position:0%
+suppose we have the classical five stage
+pipeline<00:00:07.200><c> with</c><00:00:07.710><c> a</c><00:00:07.740><c> fetch</c><00:00:08.099><c> decode</c><00:00:08.880><c> a</c><00:00:09.540><c> leo</c>
+
+00:00:09.950 --> 00:00:09.960 align:start position:0%
+pipeline with a fetch decode a leo
+ 
+
+00:00:09.960 --> 00:00:12.740 align:start position:0%
+pipeline with a fetch decode a leo
+memory<00:00:10.860><c> and</c><00:00:11.130><c> write</c><00:00:11.309><c> register</c><00:00:11.670><c> stages</c><00:00:12.509><c> and</c>
+
+00:00:12.740 --> 00:00:12.750 align:start position:0%
+memory and write register stages and
+ 
+
+00:00:12.750 --> 00:00:15.440 align:start position:0%
+memory and write register stages and
+suppose<00:00:13.620><c> that</c><00:00:13.650><c> this</c><00:00:14.160><c> is</c><00:00:14.519><c> where</c><00:00:14.820><c> our</c><00:00:14.849><c> branches</c>
+
+00:00:15.440 --> 00:00:15.450 align:start position:0%
+suppose that this is where our branches
+ 
+
+00:00:15.450 --> 00:00:18.109 align:start position:0%
+suppose that this is where our branches
+are<00:00:15.630><c> resolved</c><00:00:16.080><c> in</c><00:00:16.230><c> the</c><00:00:16.379><c> third</c><00:00:16.619><c> stage</c><00:00:17.119><c> suppose</c>
+
+00:00:18.109 --> 00:00:18.119 align:start position:0%
+are resolved in the third stage suppose
+ 
+
+00:00:18.119 --> 00:00:20.060 align:start position:0%
+are resolved in the third stage suppose
+also<00:00:18.390><c> that</c><00:00:18.570><c> we</c><00:00:18.810><c> have</c><00:00:19.020><c> the</c><00:00:19.199><c> following</c><00:00:19.380><c> program</c>
+
+00:00:20.060 --> 00:00:20.070 align:start position:0%
+also that we have the following program
+ 
+
+00:00:20.070 --> 00:00:23.900 align:start position:0%
+also that we have the following program
+a<00:00:20.250><c> branch</c><00:00:21.029><c> that</c><00:00:21.560><c> jumps</c><00:00:22.560><c> to</c><00:00:22.619><c> label</c><00:00:23.100><c> a</c><00:00:23.250><c> if</c>
+
+00:00:23.900 --> 00:00:23.910 align:start position:0%
+a branch that jumps to label a if
+ 
+
+00:00:23.910 --> 00:00:27.109 align:start position:0%
+a branch that jumps to label a if
+registers<00:00:24.720><c> r1</c><00:00:25.019><c> and</c><00:00:25.500><c> r2</c><00:00:25.710><c> are</c><00:00:26.189><c> not</c><00:00:26.640><c> equal</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+registers r1 and r2 are not equal
+ 
+
+00:00:27.119 --> 00:00:29.779 align:start position:0%
+registers r1 and r2 are not equal
+another<00:00:27.869><c> branch</c><00:00:28.289><c> in</c><00:00:29.010><c> the</c><00:00:29.250><c> program</c><00:00:29.609><c> right</c>
+
+00:00:29.779 --> 00:00:29.789 align:start position:0%
+another branch in the program right
+ 
+
+00:00:29.789 --> 00:00:32.600 align:start position:0%
+another branch in the program right
+after<00:00:29.820><c> it</c><00:00:30.330><c> that</c><00:00:30.570><c> compares</c><00:00:31.260><c> r1</c><00:00:31.740><c> and</c><00:00:31.949><c> r3</c><00:00:32.070><c> and</c>
+
+00:00:32.600 --> 00:00:32.610 align:start position:0%
+after it that compares r1 and r3 and
+ 
+
+00:00:32.610 --> 00:00:35.380 align:start position:0%
+after it that compares r1 and r3 and
+jumps<00:00:33.149><c> to</c><00:00:33.270><c> label</c><00:00:33.630><c> B</c><00:00:33.840><c> if</c><00:00:34.620><c> they</c><00:00:34.890><c> are</c><00:00:34.980><c> not</c><00:00:35.130><c> equal</c>
+
+00:00:35.380 --> 00:00:35.390 align:start position:0%
+jumps to label B if they are not equal
+ 
+
+00:00:35.390 --> 00:00:40.130 align:start position:0%
+jumps to label B if they are not equal
+then<00:00:36.390><c> we</c><00:00:36.420><c> have</c><00:00:36.719><c> some</c><00:00:36.930><c> instruction</c><00:00:37.469><c> a</c><00:00:37.910><c> B</c><00:00:38.910><c> C</c><00:00:39.690><c> that</c>
+
+00:00:40.130 --> 00:00:40.140 align:start position:0%
+then we have some instruction a B C that
+ 
+
+00:00:40.140 --> 00:00:43.130 align:start position:0%
+then we have some instruction a B C that
+are<00:00:40.170><c> not</c><00:00:40.500><c> branches</c><00:00:41.160><c> and</c><00:00:41.399><c> then</c><00:00:42.270><c> we</c><00:00:42.480><c> have</c><00:00:42.660><c> label</c>
+
+00:00:43.130 --> 00:00:43.140 align:start position:0%
+are not branches and then we have label
+ 
+
+00:00:43.140 --> 00:00:47.630 align:start position:0%
+are not branches and then we have label
+a<00:00:43.379><c> where</c><00:00:44.370><c> we</c><00:00:44.489><c> have</c><00:00:44.700><c> instructions</c><00:00:45.360><c> x</c><00:00:45.719><c> and</c><00:00:46.200><c> y</c><00:00:46.980><c> and</c>
+
+00:00:47.630 --> 00:00:47.640 align:start position:0%
+a where we have instructions x and y and
+ 
+
+00:00:47.640 --> 00:00:50.540 align:start position:0%
+a where we have instructions x and y and
+we<00:00:48.149><c> have</c><00:00:48.390><c> then</c><00:00:48.809><c> label</c><00:00:49.170><c> b</c><00:00:49.350><c> where</c><00:00:50.190><c> we</c><00:00:50.370><c> have</c>
+
+00:00:50.540 --> 00:00:50.550 align:start position:0%
+we have then label b where we have
+ 
+
+00:00:50.550 --> 00:00:52.910 align:start position:0%
+we have then label b where we have
+instruction<00:00:51.120><c> Z</c><00:00:51.360><c> suppose</c><00:00:52.050><c> that</c><00:00:52.469><c> we</c><00:00:52.620><c> are</c><00:00:52.680><c> using</c>
+
+00:00:52.910 --> 00:00:52.920 align:start position:0%
+instruction Z suppose that we are using
+ 
+
+00:00:52.920 --> 00:00:54.619 align:start position:0%
+instruction Z suppose that we are using
+a<00:00:53.340><c> not-taken</c>
+
+00:00:54.619 --> 00:00:54.629 align:start position:0%
+a not-taken
+ 
+
+00:00:54.629 --> 00:00:58.130 align:start position:0%
+a not-taken
+predictor<00:00:55.530><c> and</c><00:00:55.739><c> at</c><00:00:56.190><c> this</c><00:00:56.489><c> branch</c><00:00:56.940><c> and</c><00:00:57.300><c> also</c>
+
+00:00:58.130 --> 00:00:58.140 align:start position:0%
+predictor and at this branch and also
+ 
+
+00:00:58.140 --> 00:01:00.290 align:start position:0%
+predictor and at this branch and also
+this<00:00:58.440><c> branch</c><00:00:58.890><c> are</c><00:00:59.219><c> taken</c>
+
+00:01:00.290 --> 00:01:00.300 align:start position:0%
+this branch are taken
+ 
+
+00:01:00.300 --> 00:01:03.860 align:start position:0%
+this branch are taken
+assuming<00:01:01.170><c> that</c><00:01:01.199><c> we</c><00:01:01.530><c> start</c><00:01:01.949><c> execution</c><00:01:02.870><c> right</c>
+
+00:01:03.860 --> 00:01:03.870 align:start position:0%
+assuming that we start execution right
+ 
+
+00:01:03.870 --> 00:01:06.800 align:start position:0%
+assuming that we start execution right
+here<00:01:04.500><c> the</c><00:01:05.040><c> question</c><00:01:05.460><c> for</c><00:01:05.670><c> you</c><00:01:05.790><c> is</c><00:01:06.119><c> how</c><00:01:06.750><c> many</c>
+
+00:01:06.800 --> 00:01:06.810 align:start position:0%
+here the question for you is how many
+ 
+
+00:01:06.810 --> 00:01:09.859 align:start position:0%
+here the question for you is how many
+cycles<00:01:07.320><c> are</c><00:01:08.040><c> wasted</c><00:01:08.729><c> on</c><00:01:08.880><c> mispredictions</c>
+
+00:01:09.859 --> 00:01:09.869 align:start position:0%
+cycles are wasted on mispredictions
+ 
+
+00:01:09.869 --> 00:01:12.260 align:start position:0%
+cycles are wasted on mispredictions
+until<00:01:10.650><c> we</c><00:01:10.799><c> finally</c><00:01:11.490><c> get</c><00:01:11.700><c> to</c><00:01:11.729><c> execute</c>
+
+00:01:12.260 --> 00:01:12.270 align:start position:0%
+until we finally get to execute
+ 
+
+00:01:12.270 --> 00:01:14.090 align:start position:0%
+until we finally get to execute
+instruction<00:01:12.780><c> why</c><00:01:12.930><c> because</c><00:01:13.439><c> what</c><00:01:13.619><c> should</c><00:01:13.950><c> be</c>
+
+00:01:14.090 --> 00:01:14.100 align:start position:0%
+instruction why because what should be
+ 
+
+00:01:14.100 --> 00:01:16.760 align:start position:0%
+instruction why because what should be
+happening<00:01:14.340><c> is</c><00:01:14.790><c> that</c><00:01:15.360><c> we</c><00:01:15.600><c> jump</c><00:01:15.930><c> after</c><00:01:16.590><c> this</c>
+
+00:01:16.760 --> 00:01:16.770 align:start position:0%
+happening is that we jump after this
+ 
+
+00:01:16.770 --> 00:01:19.399 align:start position:0%
+happening is that we jump after this
+branch<00:01:17.100><c> here</c><00:01:17.549><c> and</c><00:01:17.850><c> execute</c><00:01:18.270><c> x</c><00:01:18.509><c> and</c><00:01:18.720><c> y</c><00:01:18.869><c> what</c>
+
+00:01:19.399 --> 00:01:19.409 align:start position:0%
+branch here and execute x and y what
+ 
+
+00:01:19.409 --> 00:01:22.640 align:start position:0%
+branch here and execute x and y what
+really<00:01:19.710><c> happens</c><00:01:20.310><c> is</c><00:01:20.850><c> that</c><00:01:21.380><c> because</c><00:01:22.380><c> of</c><00:01:22.409><c> our</c>
+
+00:01:22.640 --> 00:01:22.650 align:start position:0%
+really happens is that because of our
+ 
+
+00:01:22.650 --> 00:01:25.310 align:start position:0%
+really happens is that because of our
+not-taken<00:01:23.159><c> prediction</c><00:01:23.939><c> we</c><00:01:24.659><c> go</c><00:01:24.840><c> on</c><00:01:25.049><c> and</c>
+
+00:01:25.310 --> 00:01:25.320 align:start position:0%
+not-taken prediction we go on and
+ 
+
+00:01:25.320 --> 00:01:27.980 align:start position:0%
+not-taken prediction we go on and
+actually<00:01:25.680><c> fetch</c><00:01:25.920><c> this</c><00:01:26.159><c> branch</c><00:01:26.520><c> instead</c><00:01:26.990><c> so</c>
+
+00:01:27.980 --> 00:01:27.990 align:start position:0%
+actually fetch this branch instead so
+ 
+
+00:01:27.990 --> 00:01:30.620 align:start position:0%
+actually fetch this branch instead so
+again<00:01:28.259><c> how</c><00:01:28.530><c> many</c><00:01:28.590><c> cycles</c><00:01:29.280><c> are</c><00:01:29.430><c> overall</c><00:01:29.939><c> wasted</c>
+
+00:01:30.620 --> 00:01:30.630 align:start position:0%
+again how many cycles are overall wasted
+ 
+
+00:01:30.630 --> 00:01:32.870 align:start position:0%
+again how many cycles are overall wasted
+on<00:01:30.780><c> mis-predictions</c><00:01:31.500><c> until</c><00:01:32.189><c> we</c><00:01:32.400><c> correctly</c>
+
+00:01:32.870 --> 00:01:32.880 align:start position:0%
+on mis-predictions until we correctly
+ 
+
+00:01:32.880 --> 00:01:35.540 align:start position:0%
+on mis-predictions until we correctly
+get<00:01:33.150><c> to</c><00:01:33.360><c> y</c>
+

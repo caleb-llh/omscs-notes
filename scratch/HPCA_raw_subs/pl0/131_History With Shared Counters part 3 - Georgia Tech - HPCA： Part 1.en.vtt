@@ -1,0 +1,424 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.629 align:start position:0%
+ 
+Now<00:00:00.480><c> let's</c><00:00:00.800><c> see</c><00:00:00.960><c> how</c><00:00:01.360><c> well</c><00:00:01.680><c> this</c><00:00:02.000><c> works</c><00:00:02.320><c> when</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+Now let's see how well this works when
+ 
+
+00:00:02.639 --> 00:00:05.110 align:start position:0%
+Now let's see how well this works when
+we<00:00:02.800><c> have</c><00:00:03.040><c> something</c><00:00:03.360><c> like</c><00:00:04.080><c> a</c><00:00:04.319><c> branch</c><00:00:04.640><c> that</c><00:00:04.880><c> is</c>
+
+00:00:05.110 --> 00:00:05.120 align:start position:0%
+we have something like a branch that is
+ 
+
+00:00:05.120 --> 00:00:08.950 align:start position:0%
+we have something like a branch that is
+just<00:00:05.680><c> always</c><00:00:06.359><c> taken.</c><00:00:07.359><c> In</c><00:00:07.600><c> that</c><00:00:07.839><c> case</c><00:00:08.720><c> the</c>
+
+00:00:08.950 --> 00:00:08.960 align:start position:0%
+just always taken. In that case the
+ 
+
+00:00:08.960 --> 00:00:12.150 align:start position:0%
+just always taken. In that case the
+entry<00:00:09.280><c> for</c><00:00:09.519><c> that</c><00:00:10.040><c> branch</c><00:00:11.040><c> will</c><00:00:11.360><c> just</c><00:00:11.599><c> be</c><00:00:11.920><c> all</c>
+
+00:00:12.150 --> 00:00:12.160 align:start position:0%
+entry for that branch will just be all
+ 
+
+00:00:12.160 --> 00:00:14.870 align:start position:0%
+entry for that branch will just be all
+ones<00:00:12.639><c> in</c><00:00:12.880><c> the</c><00:00:13.120><c> history.</c><00:00:14.000><c> That</c><00:00:14.240><c> branch</c><00:00:14.559><c> has</c><00:00:14.719><c> a</c>
+
+00:00:14.870 --> 00:00:14.880 align:start position:0%
+ones in the history. That branch has a
+ 
+
+00:00:14.880 --> 00:00:17.029 align:start position:0%
+ones in the history. That branch has a
+fixed<00:00:15.200><c> PC.</c><00:00:15.920><c> It</c><00:00:16.160><c> always</c><00:00:16.400><c> has</c><00:00:16.640><c> the</c><00:00:16.800><c> same</c>
+
+00:00:17.029 --> 00:00:17.039 align:start position:0%
+fixed PC. It always has the same
+ 
+
+00:00:17.039 --> 00:00:19.429 align:start position:0%
+fixed PC. It always has the same
+history.<00:00:17.760><c> When</c><00:00:18.000><c> we</c><00:00:18.160><c> extore</c><00:00:18.720><c> them</c><00:00:18.960><c> we</c><00:00:19.119><c> will</c><00:00:19.279><c> be</c>
+
+00:00:19.429 --> 00:00:19.439 align:start position:0%
+history. When we extore them we will be
+ 
+
+00:00:19.439 --> 00:00:21.670 align:start position:0%
+history. When we extore them we will be
+using<00:00:19.680><c> only</c><00:00:20.000><c> one</c><00:00:20.240><c> two</c><00:00:20.480><c> bit</c><00:00:20.720><c> counter.</c><00:00:21.520><c> So</c>
+
+00:00:21.670 --> 00:00:21.680 align:start position:0%
+using only one two bit counter. So
+ 
+
+00:00:21.680 --> 00:00:22.950 align:start position:0%
+using only one two bit counter. So
+pretty<00:00:21.920><c> much</c><00:00:22.080><c> although</c><00:00:22.400><c> we</c><00:00:22.480><c> have</c><00:00:22.560><c> a</c><00:00:22.800><c> long</c>
+
+00:00:22.950 --> 00:00:22.960 align:start position:0%
+pretty much although we have a long
+ 
+
+00:00:22.960 --> 00:00:24.790 align:start position:0%
+pretty much although we have a long
+history<00:00:23.439><c> if</c><00:00:23.600><c> the</c><00:00:23.840><c> branch</c><00:00:24.080><c> is</c><00:00:24.320><c> just</c><00:00:24.560><c> a</c>
+
+00:00:24.790 --> 00:00:24.800 align:start position:0%
+history if the branch is just a
+ 
+
+00:00:24.800 --> 00:00:26.630 align:start position:0%
+history if the branch is just a
+repetition<00:00:25.359><c> of</c><00:00:25.600><c> the</c><00:00:25.840><c> same</c><00:00:26.000><c> thing</c><00:00:26.320><c> we</c><00:00:26.480><c> are</c>
+
+00:00:26.630 --> 00:00:26.640 align:start position:0%
+repetition of the same thing we are
+ 
+
+00:00:26.640 --> 00:00:28.550 align:start position:0%
+repetition of the same thing we are
+ending<00:00:26.880><c> up</c><00:00:27.119><c> using</c><00:00:27.439><c> only</c><00:00:27.680><c> one</c><00:00:27.920><c> of</c><00:00:28.000><c> the</c><00:00:28.160><c> two</c><00:00:28.400><c> bit</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+ending up using only one of the two bit
+ 
+
+00:00:28.560 --> 00:00:31.509 align:start position:0%
+ending up using only one of the two bit
+counters.<00:00:29.599><c> So</c><00:00:29.840><c> the</c><00:00:30.560><c> additional</c><00:00:31.119><c> cost</c>
+
+00:00:31.509 --> 00:00:31.519 align:start position:0%
+counters. So the additional cost
+ 
+
+00:00:31.519 --> 00:00:33.270 align:start position:0%
+counters. So the additional cost
+relative<00:00:31.920><c> to</c><00:00:32.079><c> just</c><00:00:32.320><c> having</c><00:00:32.480><c> an</c><00:00:32.719><c> array</c><00:00:32.960><c> of</c><00:00:33.040><c> two</c>
+
+00:00:33.270 --> 00:00:33.280 align:start position:0%
+relative to just having an array of two
+ 
+
+00:00:33.280 --> 00:00:34.870 align:start position:0%
+relative to just having an array of two
+bit<00:00:33.440><c> counters</c><00:00:33.840><c> is</c><00:00:34.079><c> that</c><00:00:34.239><c> now</c><00:00:34.399><c> we're</c><00:00:34.640><c> keeping</c>
+
+00:00:34.870 --> 00:00:34.880 align:start position:0%
+bit counters is that now we're keeping
+ 
+
+00:00:34.880 --> 00:00:37.430 align:start position:0%
+bit counters is that now we're keeping
+an<00:00:35.120><c> 11</c><00:00:35.360><c> bit</c><00:00:35.680><c> history</c><00:00:36.000><c> for</c><00:00:36.160><c> this</c><00:00:36.399><c> branch.</c><00:00:37.200><c> So</c>
+
+00:00:37.430 --> 00:00:37.440 align:start position:0%
+an 11 bit history for this branch. So
+ 
+
+00:00:37.440 --> 00:00:39.350 align:start position:0%
+an 11 bit history for this branch. So
+still<00:00:37.680><c> the</c><00:00:37.920><c> cost</c><00:00:38.079><c> is</c><00:00:38.239><c> not</c><00:00:38.480><c> just</c><00:00:38.719><c> two</c><00:00:38.879><c> bits.</c>
+
+00:00:39.350 --> 00:00:39.360 align:start position:0%
+still the cost is not just two bits.
+ 
+
+00:00:39.360 --> 00:00:42.310 align:start position:0%
+still the cost is not just two bits.
+It's<00:00:39.600><c> really</c><00:00:40.160><c> let's</c><00:00:40.399><c> say</c><00:00:40.640><c> 11</c><00:00:40.960><c> or</c><00:00:41.200><c> 16</c><00:00:41.520><c> bits</c><00:00:41.920><c> plus</c>
+
+00:00:42.310 --> 00:00:42.320 align:start position:0%
+It's really let's say 11 or 16 bits plus
+ 
+
+00:00:42.320 --> 00:00:44.630 align:start position:0%
+It's really let's say 11 or 16 bits plus
+two.<00:00:42.879><c> But</c><00:00:42.960><c> it's</c><00:00:43.280><c> much</c><00:00:43.520><c> less</c><00:00:43.920><c> than</c><00:00:44.160><c> a</c><00:00:44.399><c> long</c>
+
+00:00:44.630 --> 00:00:44.640 align:start position:0%
+two. But it's much less than a long
+ 
+
+00:00:44.640 --> 00:00:49.430 align:start position:0%
+two. But it's much less than a long
+history<00:00:45.520><c> plus</c><00:00:46.320><c> 2</c><00:00:46.719><c> to</c><00:00:47.039><c> the</c><00:00:47.280><c> n</c><00:00:48.079><c> times</c><00:00:48.719><c> a</c><00:00:49.039><c> two</c><00:00:49.200><c> bit</c>
+
+00:00:49.430 --> 00:00:49.440 align:start position:0%
+history plus 2 to the n times a two bit
+ 
+
+00:00:49.440 --> 00:00:51.670 align:start position:0%
+history plus 2 to the n times a two bit
+counter.<00:00:50.239><c> If</c><00:00:50.480><c> we</c><00:00:50.640><c> have</c><00:00:50.719><c> a</c><00:00:50.960><c> branch</c><00:00:51.200><c> that</c><00:00:51.440><c> is</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+counter. If we have a branch that is
+ 
+
+00:00:51.680 --> 00:00:54.069 align:start position:0%
+counter. If we have a branch that is
+never<00:00:52.079><c> taken,</c><00:00:52.719><c> we</c><00:00:52.960><c> can</c><00:00:53.120><c> do</c><00:00:53.280><c> the</c><00:00:53.520><c> same</c>
+
+00:00:54.069 --> 00:00:54.079 align:start position:0%
+never taken, we can do the same
+ 
+
+00:00:54.079 --> 00:00:57.150 align:start position:0%
+never taken, we can do the same
+reasoning<00:00:54.960><c> and</c><00:00:55.280><c> end</c><00:00:55.440><c> up</c><00:00:55.680><c> using</c><00:00:56.399><c> a</c><00:00:56.719><c> single</c>
+
+00:00:57.150 --> 00:00:57.160 align:start position:0%
+reasoning and end up using a single
+ 
+
+00:00:57.160 --> 00:00:59.590 align:start position:0%
+reasoning and end up using a single
+counter.<00:00:58.239><c> If</c><00:00:58.480><c> we</c><00:00:58.640><c> have</c><00:00:58.719><c> a</c><00:00:58.960><c> branch</c><00:00:59.199><c> that</c><00:00:59.440><c> has</c>
+
+00:00:59.590 --> 00:00:59.600 align:start position:0%
+counter. If we have a branch that has
+ 
+
+00:00:59.600 --> 00:01:02.869 align:start position:0%
+counter. If we have a branch that has
+something<00:00:59.840><c> like</c><00:01:00.079><c> NT</c><00:01:00.840><c> NT,</c><00:01:01.840><c> it</c><00:01:02.079><c> really</c><00:01:02.399><c> has</c><00:01:02.640><c> only</c>
+
+00:01:02.869 --> 00:01:02.879 align:start position:0%
+something like NT NT, it really has only
+ 
+
+00:01:02.879 --> 00:01:06.310 align:start position:0%
+something like NT NT, it really has only
+two<00:01:03.120><c> possible</c><00:01:03.600><c> histories</c><00:01:04.400><c> 0</c><00:01:04.720><c> 1</c><00:01:04.879><c> 0</c><00:01:05.119><c> 1</c><00:01:05.360><c> 0</c><00:01:05.600><c> 1</c><00:01:06.000><c> etc.</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+two possible histories 0 1 0 1 0 1 etc.
+ 
+
+00:01:06.320 --> 00:01:10.390 align:start position:0%
+two possible histories 0 1 0 1 0 1 etc.
+or<00:01:06.720><c> 1</c><00:01:06.960><c> 0</c><00:01:07.280><c> 1</c><00:01:07.520><c> 0</c><00:01:07.840><c> 1</c><00:01:08.080><c> 0</c><00:01:08.560><c> etc.</c><00:01:09.360><c> So</c><00:01:09.520><c> it</c><00:01:09.680><c> ends</c><00:01:09.920><c> up</c><00:01:10.080><c> using</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+or 1 0 1 0 1 0 etc. So it ends up using
+ 
+
+00:01:10.400 --> 00:01:12.789 align:start position:0%
+or 1 0 1 0 1 0 etc. So it ends up using
+two<00:01:10.720><c> counters.</c><00:01:11.680><c> So</c><00:01:11.840><c> if</c><00:01:12.080><c> we</c><00:01:12.240><c> have</c><00:01:12.320><c> a</c><00:01:12.560><c> lot</c><00:01:12.640><c> of</c>
+
+00:01:12.789 --> 00:01:12.799 align:start position:0%
+two counters. So if we have a lot of
+ 
+
+00:01:12.799 --> 00:01:14.310 align:start position:0%
+two counters. So if we have a lot of
+these<00:01:13.040><c> counters</c><00:01:13.439><c> as</c><00:01:13.600><c> you</c><00:01:13.760><c> can</c><00:01:13.840><c> see</c><00:01:14.080><c> most</c>
+
+00:01:14.310 --> 00:01:14.320 align:start position:0%
+these counters as you can see most
+ 
+
+00:01:14.320 --> 00:01:16.390 align:start position:0%
+these counters as you can see most
+branches<00:01:14.720><c> are</c><00:01:14.960><c> going</c><00:01:15.040><c> to</c><00:01:15.119><c> be</c><00:01:15.280><c> like</c><00:01:15.520><c> these.</c><00:01:16.159><c> We</c>
+
+00:01:16.390 --> 00:01:16.400 align:start position:0%
+branches are going to be like these. We
+ 
+
+00:01:16.400 --> 00:01:18.870 align:start position:0%
+branches are going to be like these. We
+will<00:01:16.640><c> be</c><00:01:17.200><c> using</c><00:01:17.520><c> very</c><00:01:17.840><c> very</c><00:01:18.080><c> few</c><00:01:18.320><c> entries</c><00:01:18.640><c> by</c>
+
+00:01:18.870 --> 00:01:18.880 align:start position:0%
+will be using very very few entries by
+ 
+
+00:01:18.880 --> 00:01:22.149 align:start position:0%
+will be using very very few entries by
+these<00:01:19.240><c> branches</c><00:01:20.240><c> which</c><00:01:20.560><c> leaves</c><00:01:20.960><c> us</c><00:01:21.439><c> plenty</c><00:01:21.920><c> of</c>
+
+00:01:22.149 --> 00:01:22.159 align:start position:0%
+these branches which leaves us plenty of
+ 
+
+00:01:22.159 --> 00:01:25.109 align:start position:0%
+these branches which leaves us plenty of
+counters<00:01:22.960><c> for</c><00:01:23.280><c> branches</c><00:01:23.759><c> where</c><00:01:24.400><c> we</c><00:01:24.720><c> have</c><00:01:24.880><c> a</c>
+
+00:01:25.109 --> 00:01:25.119 align:start position:0%
+counters for branches where we have a
+ 
+
+00:01:25.119 --> 00:01:27.270 align:start position:0%
+counters for branches where we have a
+very<00:01:25.360><c> long</c><00:01:25.680><c> pattern</c><00:01:26.080><c> where</c><00:01:26.400><c> we</c><00:01:26.560><c> will</c><00:01:26.799><c> be</c><00:01:26.960><c> using</c>
+
+00:01:27.270 --> 00:01:27.280 align:start position:0%
+very long pattern where we will be using
+ 
+
+00:01:27.280 --> 00:01:30.789 align:start position:0%
+very long pattern where we will be using
+something<00:01:27.680><c> like</c><00:01:28.000><c> you</c><00:01:28.159><c> know</c><00:01:28.720><c> 16</c><00:01:29.680><c> histories</c><00:01:30.560><c> and</c>
+
+00:01:30.789 --> 00:01:30.799 align:start position:0%
+something like you know 16 histories and
+ 
+
+00:01:30.799 --> 00:01:34.149 align:start position:0%
+something like you know 16 histories and
+thus<00:01:31.119><c> use</c><00:01:31.840><c> something</c><00:01:32.159><c> like</c><00:01:32.479><c> 16</c><00:01:32.920><c> counters.</c><00:01:33.920><c> As</c>
+
+00:01:34.149 --> 00:01:34.159 align:start position:0%
+thus use something like 16 counters. As
+ 
+
+00:01:34.159 --> 00:01:36.390 align:start position:0%
+thus use something like 16 counters. As
+you<00:01:34.320><c> can</c><00:01:34.400><c> see</c><00:01:34.880><c> in</c><00:01:35.200><c> this</c><00:01:35.360><c> organization</c><00:01:36.159><c> pretty</c>
+
+00:01:36.390 --> 00:01:36.400 align:start position:0%
+you can see in this organization pretty
+ 
+
+00:01:36.400 --> 00:01:37.910 align:start position:0%
+you can see in this organization pretty
+much<00:01:36.640><c> the</c><00:01:36.880><c> branches</c><00:01:37.200><c> that</c><00:01:37.439><c> need</c><00:01:37.680><c> more</c>
+
+00:01:37.910 --> 00:01:37.920 align:start position:0%
+much the branches that need more
+ 
+
+00:01:37.920 --> 00:01:39.830 align:start position:0%
+much the branches that need more
+counters<00:01:38.400><c> get</c><00:01:38.560><c> them.</c><00:01:39.040><c> The</c><00:01:39.280><c> branches</c><00:01:39.600><c> that</c>
+
+00:01:39.830 --> 00:01:39.840 align:start position:0%
+counters get them. The branches that
+ 
+
+00:01:39.840 --> 00:01:42.310 align:start position:0%
+counters get them. The branches that
+need<00:01:40.159><c> relatively</c><00:01:40.720><c> few</c><00:01:40.960><c> counters</c><00:01:41.520><c> get</c><00:01:41.759><c> them.</c>
+
+00:01:42.310 --> 00:01:42.320 align:start position:0%
+need relatively few counters get them.
+ 
+
+00:01:42.320 --> 00:01:44.469 align:start position:0%
+need relatively few counters get them.
+The<00:01:42.560><c> only</c><00:01:42.799><c> really</c><00:01:43.280><c> additional</c><00:01:43.759><c> cost</c><00:01:44.079><c> relative</c>
+
+00:01:44.469 --> 00:01:44.479 align:start position:0%
+The only really additional cost relative
+ 
+
+00:01:44.479 --> 00:01:47.149 align:start position:0%
+The only really additional cost relative
+to<00:01:44.720><c> just</c><00:01:44.960><c> having</c><00:01:45.200><c> the</c><00:01:45.439><c> counters</c><00:01:46.240><c> is</c><00:01:46.560><c> the</c>
+
+00:01:47.149 --> 00:01:47.159 align:start position:0%
+to just having the counters is the
+ 
+
+00:01:47.159 --> 00:01:51.149 align:start position:0%
+to just having the counters is the
+histories.<00:01:48.159><c> The</c><00:01:48.520><c> downside</c><00:01:49.520><c> is</c><00:01:49.840><c> that</c><00:01:50.159><c> again</c>
+
+00:01:51.149 --> 00:01:51.159 align:start position:0%
+histories. The downside is that again
+ 
+
+00:01:51.159 --> 00:01:54.630 align:start position:0%
+histories. The downside is that again
+some<00:01:52.280><c> branches</c><00:01:53.280><c> with</c><00:01:53.600><c> particular</c><00:01:54.079><c> histories</c>
+
+00:01:54.630 --> 00:01:54.640 align:start position:0%
+some branches with particular histories
+ 
+
+00:01:54.640 --> 00:01:57.270 align:start position:0%
+some branches with particular histories
+might<00:01:55.040><c> overlap</c><00:01:55.520><c> in</c><00:01:55.759><c> which</c><00:01:55.920><c> counter</c><00:01:56.320><c> they</c><00:01:56.560><c> use</c>
+
+00:01:57.270 --> 00:01:57.280 align:start position:0%
+might overlap in which counter they use
+ 
+
+00:01:57.280 --> 00:02:00.149 align:start position:0%
+might overlap in which counter they use
+with<00:01:57.600><c> other</c><00:01:57.920><c> branches</c><00:01:58.399><c> and</c><00:01:58.640><c> other</c><00:01:59.159><c> histories.</c>
+
+00:02:00.149 --> 00:02:00.159 align:start position:0%
+with other branches and other histories.
+ 
+
+00:02:00.159 --> 00:02:03.350 align:start position:0%
+with other branches and other histories.
+Pretty<00:02:00.399><c> much</c><00:02:01.280><c> my</c><00:02:01.600><c> branch</c><00:02:02.399><c> exord</c><00:02:02.880><c> with</c><00:02:03.040><c> its</c>
+
+00:02:03.350 --> 00:02:03.360 align:start position:0%
+Pretty much my branch exord with its
+ 
+
+00:02:03.360 --> 00:02:06.310 align:start position:0%
+Pretty much my branch exord with its
+history<00:02:04.159><c> might</c><00:02:04.479><c> map</c><00:02:04.799><c> to</c><00:02:04.960><c> the</c><00:02:05.200><c> same</c><00:02:05.360><c> counter</c><00:02:05.759><c> as</c>
+
+00:02:06.310 --> 00:02:06.320 align:start position:0%
+history might map to the same counter as
+ 
+
+00:02:06.320 --> 00:02:09.029 align:start position:0%
+history might map to the same counter as
+some<00:02:06.560><c> other</c><00:02:06.880><c> branch</c><00:02:07.520><c> and</c><00:02:07.920><c> its</c><00:02:08.319><c> own</c><00:02:08.560><c> history</c>
+
+00:02:09.029 --> 00:02:09.039 align:start position:0%
+some other branch and its own history
+ 
+
+00:02:09.039 --> 00:02:11.350 align:start position:0%
+some other branch and its own history
+when<00:02:09.280><c> they</c><00:02:09.520><c> are</c><00:02:09.599><c> exort.</c><00:02:10.640><c> But</c><00:02:10.800><c> this</c><00:02:11.120><c> happens</c>
+
+00:02:11.350 --> 00:02:11.360 align:start position:0%
+when they are exort. But this happens
+ 
+
+00:02:11.360 --> 00:02:13.990 align:start position:0%
+when they are exort. But this happens
+very<00:02:11.680><c> rarely</c><00:02:11.920><c> if</c><00:02:12.160><c> the</c><00:02:12.319><c> BHT</c><00:02:12.879><c> is</c><00:02:13.040><c> large.</c><00:02:13.680><c> And</c><00:02:13.840><c> now</c>
+
+00:02:13.990 --> 00:02:14.000 align:start position:0%
+very rarely if the BHT is large. And now
+ 
+
+00:02:14.000 --> 00:02:16.710 align:start position:0%
+very rarely if the BHT is large. And now
+it<00:02:14.239><c> can</c><00:02:14.480><c> be</c><00:02:14.640><c> large</c><00:02:15.360><c> because</c><00:02:15.920><c> each</c><00:02:16.160><c> entry</c><00:02:16.480><c> is</c>
+
+00:02:16.710 --> 00:02:16.720 align:start position:0%
+it can be large because each entry is
+ 
+
+00:02:16.720 --> 00:02:19.760 align:start position:0%
+it can be large because each entry is
+just<00:02:16.879><c> two</c><00:02:17.120><c> bits.</c>
+

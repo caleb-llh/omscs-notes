@@ -1,0 +1,536 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.149 align:start position:0%
+ 
+so<00:00:00.399><c> now</c><00:00:00.560><c> that</c><00:00:00.719><c> we</c><00:00:00.880><c> know</c><00:00:01.040><c> what</c><00:00:01.280><c> ilp</c><00:00:01.760><c> is</c><00:00:02.000><c> let's</c>
+
+00:00:02.149 --> 00:00:02.159 align:start position:0%
+so now that we know what ilp is let's
+ 
+
+00:00:02.159 --> 00:00:04.150 align:start position:0%
+so now that we know what ilp is let's
+look<00:00:02.320><c> at</c><00:00:02.560><c> an</c><00:00:02.720><c> example</c><00:00:03.120><c> of</c><00:00:03.280><c> computing</c><00:00:03.679><c> the</c><00:00:03.840><c> lp</c>
+
+00:00:04.150 --> 00:00:04.160 align:start position:0%
+look at an example of computing the lp
+ 
+
+00:00:04.160 --> 00:00:06.470 align:start position:0%
+look at an example of computing the lp
+just<00:00:04.400><c> so</c><00:00:04.560><c> that</c><00:00:04.880><c> we</c><00:00:05.040><c> can</c><00:00:05.680><c> be</c><00:00:05.839><c> on</c><00:00:05.920><c> the</c><00:00:06.000><c> same</c><00:00:06.240><c> page</c>
+
+00:00:06.470 --> 00:00:06.480 align:start position:0%
+just so that we can be on the same page
+ 
+
+00:00:06.480 --> 00:00:09.030 align:start position:0%
+just so that we can be on the same page
+about<00:00:06.720><c> that</c><00:00:07.279><c> first</c><00:00:07.520><c> we</c><00:00:07.680><c> need</c><00:00:07.919><c> a</c><00:00:08.080><c> program</c>
+
+00:00:09.030 --> 00:00:09.040 align:start position:0%
+about that first we need a program
+ 
+
+00:00:09.040 --> 00:00:11.030 align:start position:0%
+about that first we need a program
+so<00:00:09.280><c> let's</c><00:00:09.440><c> say</c><00:00:09.599><c> we</c><00:00:09.760><c> have</c><00:00:09.920><c> this</c><00:00:10.160><c> program</c><00:00:10.880><c> we</c>
+
+00:00:11.030 --> 00:00:11.040 align:start position:0%
+so let's say we have this program we
+ 
+
+00:00:11.040 --> 00:00:13.110 align:start position:0%
+so let's say we have this program we
+have<00:00:11.200><c> already</c><00:00:11.599><c> renamed</c><00:00:12.000><c> it</c><00:00:12.160><c> so</c><00:00:12.320><c> that</c><00:00:12.559><c> only</c><00:00:12.880><c> the</c>
+
+00:00:13.110 --> 00:00:13.120 align:start position:0%
+have already renamed it so that only the
+ 
+
+00:00:13.120 --> 00:00:15.030 align:start position:0%
+have already renamed it so that only the
+true<00:00:13.360><c> dependencies</c><00:00:14.000><c> remain</c><00:00:14.480><c> so</c><00:00:14.639><c> now</c><00:00:14.799><c> let's</c>
+
+00:00:15.030 --> 00:00:15.040 align:start position:0%
+true dependencies remain so now let's
+ 
+
+00:00:15.040 --> 00:00:17.269 align:start position:0%
+true dependencies remain so now let's
+look<00:00:15.280><c> for</c><00:00:15.519><c> those</c><00:00:15.759><c> true</c><00:00:16.000><c> dependencies</c>
+
+00:00:17.269 --> 00:00:17.279 align:start position:0%
+look for those true dependencies
+ 
+
+00:00:17.279 --> 00:00:19.670 align:start position:0%
+look for those true dependencies
+we<00:00:17.520><c> write</c><00:00:17.760><c> to</c><00:00:18.000><c> p10</c>
+
+00:00:19.670 --> 00:00:19.680 align:start position:0%
+we write to p10
+ 
+
+00:00:19.680 --> 00:00:21.510 align:start position:0%
+we write to p10
+this<00:00:20.000><c> instruction</c><00:00:20.320><c> doesn't</c><00:00:20.560><c> use</c><00:00:20.800><c> p10</c>
+
+00:00:21.510 --> 00:00:21.520 align:start position:0%
+this instruction doesn't use p10
+ 
+
+00:00:21.520 --> 00:00:23.509 align:start position:0%
+this instruction doesn't use p10
+actually<00:00:21.840><c> the</c><00:00:21.920><c> first</c><00:00:22.160><c> one</c><00:00:22.320><c> that</c><00:00:22.640><c> uses</c><00:00:22.960><c> p10</c><00:00:23.359><c> is</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+actually the first one that uses p10 is
+ 
+
+00:00:23.519 --> 00:00:24.550 align:start position:0%
+actually the first one that uses p10 is
+this<00:00:23.760><c> one</c>
+
+00:00:24.550 --> 00:00:24.560 align:start position:0%
+this one
+ 
+
+00:00:24.560 --> 00:00:27.589 align:start position:0%
+this one
+we<00:00:24.720><c> write</c><00:00:24.880><c> to</c><00:00:25.039><c> p6</c><00:00:25.680><c> nothing</c><00:00:26.000><c> uses</c><00:00:26.400><c> p6</c>
+
+00:00:27.589 --> 00:00:27.599 align:start position:0%
+we write to p6 nothing uses p6
+ 
+
+00:00:27.599 --> 00:00:29.349 align:start position:0%
+we write to p6 nothing uses p6
+we<00:00:27.760><c> write</c><00:00:27.920><c> to</c><00:00:28.080><c> p5</c>
+
+00:00:29.349 --> 00:00:29.359 align:start position:0%
+we write to p5
+ 
+
+00:00:29.359 --> 00:00:31.669 align:start position:0%
+we write to p5
+this<00:00:29.599><c> one</c><00:00:29.760><c> uses</c><00:00:30.160><c> p5</c><00:00:30.880><c> so</c><00:00:31.039><c> there</c><00:00:31.199><c> is</c><00:00:31.519><c> a</c>
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+this one uses p5 so there is a
+ 
+
+00:00:31.679 --> 00:00:34.069 align:start position:0%
+this one uses p5 so there is a
+dependence<00:00:32.399><c> basically</c><00:00:33.200><c> here</c>
+
+00:00:34.069 --> 00:00:34.079 align:start position:0%
+dependence basically here
+ 
+
+00:00:34.079 --> 00:00:36.069 align:start position:0%
+dependence basically here
+and<00:00:34.320><c> another</c><00:00:34.719><c> one</c><00:00:35.040><c> here</c>
+
+00:00:36.069 --> 00:00:36.079 align:start position:0%
+and another one here
+ 
+
+00:00:36.079 --> 00:00:38.790 align:start position:0%
+and another one here
+and<00:00:36.160><c> then</c><00:00:36.399><c> here</c><00:00:36.640><c> we</c><00:00:36.719><c> produce</c><00:00:37.120><c> p4</c><00:00:37.760><c> so</c><00:00:38.399><c> we</c><00:00:38.559><c> only</c>
+
+00:00:38.790 --> 00:00:38.800 align:start position:0%
+and then here we produce p4 so we only
+ 
+
+00:00:38.800 --> 00:00:41.110 align:start position:0%
+and then here we produce p4 so we only
+have<00:00:38.960><c> really</c><00:00:39.280><c> these</c><00:00:39.600><c> two</c><00:00:40.000><c> true</c><00:00:40.239><c> dependencies</c>
+
+00:00:41.110 --> 00:00:41.120 align:start position:0%
+have really these two true dependencies
+ 
+
+00:00:41.120 --> 00:00:42.709 align:start position:0%
+have really these two true dependencies
+so<00:00:41.360><c> now</c><00:00:41.520><c> let's</c><00:00:41.760><c> look</c><00:00:41.920><c> at</c><00:00:42.079><c> like</c><00:00:42.239><c> what</c><00:00:42.480><c> can</c>
+
+00:00:42.709 --> 00:00:42.719 align:start position:0%
+so now let's look at like what can
+ 
+
+00:00:42.719 --> 00:00:45.190 align:start position:0%
+so now let's look at like what can
+execute<00:00:43.120><c> in</c><00:00:43.280><c> which</c><00:00:43.520><c> cycle</c><00:00:44.079><c> to</c><00:00:44.239><c> do</c><00:00:44.480><c> that</c><00:00:45.039><c> the</c>
+
+00:00:45.190 --> 00:00:45.200 align:start position:0%
+execute in which cycle to do that the
+ 
+
+00:00:45.200 --> 00:00:46.709 align:start position:0%
+execute in which cycle to do that the
+best<00:00:45.440><c> way</c><00:00:45.600><c> is</c><00:00:45.680><c> to</c><00:00:45.840><c> just</c><00:00:46.000><c> kind</c><00:00:46.160><c> of</c><00:00:46.320><c> check</c><00:00:46.559><c> off</c>
+
+00:00:46.709 --> 00:00:46.719 align:start position:0%
+best way is to just kind of check off
+ 
+
+00:00:46.719 --> 00:00:48.549 align:start position:0%
+best way is to just kind of check off
+instructions<00:00:47.280><c> and</c><00:00:47.360><c> counter</c><00:00:47.760><c> cycles</c><00:00:48.239><c> so</c><00:00:48.399><c> in</c>
+
+00:00:48.549 --> 00:00:48.559 align:start position:0%
+instructions and counter cycles so in
+ 
+
+00:00:48.559 --> 00:00:50.389 align:start position:0%
+instructions and counter cycles so in
+the<00:00:48.640><c> first</c><00:00:48.879><c> cycle</c><00:00:49.200><c> we</c><00:00:49.280><c> can</c><00:00:49.440><c> do</c><00:00:49.600><c> this</c>
+
+00:00:50.389 --> 00:00:50.399 align:start position:0%
+the first cycle we can do this
+ 
+
+00:00:50.399 --> 00:00:52.069 align:start position:0%
+the first cycle we can do this
+this<00:00:51.039><c> this</c>
+
+00:00:52.069 --> 00:00:52.079 align:start position:0%
+this this
+ 
+
+00:00:52.079 --> 00:00:53.350 align:start position:0%
+this this
+and<00:00:52.320><c> this</c><00:00:52.640><c> because</c><00:00:52.879><c> none</c><00:00:53.039><c> of</c><00:00:53.199><c> these</c>
+
+00:00:53.350 --> 00:00:53.360 align:start position:0%
+and this because none of these
+ 
+
+00:00:53.360 --> 00:00:54.549 align:start position:0%
+and this because none of these
+instructions<00:00:53.760><c> has</c><00:00:54.000><c> any</c><00:00:54.160><c> incoming</c>
+
+00:00:54.549 --> 00:00:54.559 align:start position:0%
+instructions has any incoming
+ 
+
+00:00:54.559 --> 00:00:56.950 align:start position:0%
+instructions has any incoming
+dependencies<00:00:55.199><c> yet</c><00:00:55.840><c> in</c><00:00:55.920><c> the</c><00:00:56.079><c> second</c><00:00:56.480><c> cycle</c>
+
+00:00:56.950 --> 00:00:56.960 align:start position:0%
+dependencies yet in the second cycle
+ 
+
+00:00:56.960 --> 00:00:58.229 align:start position:0%
+dependencies yet in the second cycle
+okay<00:00:57.199><c> this</c><00:00:57.360><c> one</c><00:00:57.520><c> cannot</c><00:00:57.760><c> be</c><00:00:57.920><c> done</c><00:00:58.079><c> in</c><00:00:58.160><c> the</c>
+
+00:00:58.229 --> 00:00:58.239 align:start position:0%
+okay this one cannot be done in the
+ 
+
+00:00:58.239 --> 00:01:00.150 align:start position:0%
+okay this one cannot be done in the
+first<00:00:58.480><c> cycle</c><00:00:58.800><c> because</c><00:00:59.199><c> it</c><00:00:59.280><c> has</c><00:00:59.520><c> a</c><00:00:59.600><c> dependence</c>
+
+00:01:00.150 --> 00:01:00.160 align:start position:0%
+first cycle because it has a dependence
+ 
+
+00:01:00.160 --> 00:01:02.150 align:start position:0%
+first cycle because it has a dependence
+from<00:01:00.480><c> this</c><00:01:00.800><c> and</c><00:01:00.960><c> this</c><00:01:01.199><c> and</c><00:01:01.280><c> that's</c><00:01:01.600><c> not</c><00:01:01.760><c> been</c>
+
+00:01:02.150 --> 00:01:02.160 align:start position:0%
+from this and this and that's not been
+ 
+
+00:01:02.160 --> 00:01:04.149 align:start position:0%
+from this and this and that's not been
+done<00:01:02.399><c> in</c><00:01:02.559><c> the</c><00:01:02.640><c> first</c><00:01:02.879><c> cycle</c><00:01:03.199><c> yet</c><00:01:03.520><c> so</c><00:01:03.760><c> after</c><00:01:04.000><c> the</c>
+
+00:01:04.149 --> 00:01:04.159 align:start position:0%
+done in the first cycle yet so after the
+ 
+
+00:01:04.159 --> 00:01:06.390 align:start position:0%
+done in the first cycle yet so after the
+first<00:01:04.400><c> cycle</c><00:01:04.799><c> all</c><00:01:04.960><c> of</c><00:01:05.040><c> these</c><00:01:05.280><c> are</c><00:01:05.439><c> done</c><00:01:06.000><c> so</c><00:01:06.159><c> now</c>
+
+00:01:06.390 --> 00:01:06.400 align:start position:0%
+first cycle all of these are done so now
+ 
+
+00:01:06.400 --> 00:01:08.469 align:start position:0%
+first cycle all of these are done so now
+we<00:01:06.479><c> can</c><00:01:06.640><c> do</c><00:01:06.880><c> this</c><00:01:07.280><c> so</c><00:01:07.520><c> what</c><00:01:07.760><c> we</c><00:01:07.840><c> have</c><00:01:08.080><c> what</c><00:01:08.320><c> we</c>
+
+00:01:08.469 --> 00:01:08.479 align:start position:0%
+we can do this so what we have what we
+ 
+
+00:01:08.479 --> 00:01:10.390 align:start position:0%
+we can do this so what we have what we
+get<00:01:08.799><c> is</c><00:01:09.040><c> now</c><00:01:09.280><c> the</c><00:01:09.439><c> ilp</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+get is now the ilp
+ 
+
+00:01:10.400 --> 00:01:13.190 align:start position:0%
+get is now the ilp
+is<00:01:10.640><c> equal</c><00:01:10.960><c> to</c><00:01:11.439><c> how</c><00:01:11.680><c> many</c><00:01:11.920><c> instructions</c>
+
+00:01:13.190 --> 00:01:13.200 align:start position:0%
+is equal to how many instructions
+ 
+
+00:01:13.200 --> 00:01:14.149 align:start position:0%
+is equal to how many instructions
+five
+
+00:01:14.149 --> 00:01:14.159 align:start position:0%
+five
+ 
+
+00:01:14.159 --> 00:01:17.350 align:start position:0%
+five
+over<00:01:14.479><c> how</c><00:01:14.640><c> many</c><00:01:14.960><c> cycles</c><00:01:15.680><c> two</c><00:01:16.159><c> we</c><00:01:16.400><c> got</c><00:01:16.640><c> an</c><00:01:16.880><c> ilp</c>
+
+00:01:17.350 --> 00:01:17.360 align:start position:0%
+over how many cycles two we got an ilp
+ 
+
+00:01:17.360 --> 00:01:19.350 align:start position:0%
+over how many cycles two we got an ilp
+of<00:01:17.439><c> 2.5</c><00:01:18.240><c> again</c><00:01:18.479><c> we</c><00:01:18.640><c> didn't</c><00:01:18.799><c> need</c><00:01:18.960><c> to</c><00:01:19.040><c> know</c><00:01:19.200><c> what</c>
+
+00:01:19.350 --> 00:01:19.360 align:start position:0%
+of 2.5 again we didn't need to know what
+ 
+
+00:01:19.360 --> 00:01:20.870 align:start position:0%
+of 2.5 again we didn't need to know what
+the<00:01:19.520><c> processor</c><00:01:19.920><c> looks</c><00:01:20.159><c> like</c>
+
+00:01:20.870 --> 00:01:20.880 align:start position:0%
+the processor looks like
+ 
+
+00:01:20.880 --> 00:01:22.950 align:start position:0%
+the processor looks like
+now<00:01:21.119><c> some</c><00:01:21.360><c> convenient</c><00:01:21.920><c> tricks</c><00:01:22.240><c> for</c><00:01:22.479><c> computing</c>
+
+00:01:22.950 --> 00:01:22.960 align:start position:0%
+now some convenient tricks for computing
+ 
+
+00:01:22.960 --> 00:01:24.950 align:start position:0%
+now some convenient tricks for computing
+the<00:01:23.119><c> lp</c><00:01:24.000><c> first</c>
+
+00:01:24.950 --> 00:01:24.960 align:start position:0%
+the lp first
+ 
+
+00:01:24.960 --> 00:01:26.550 align:start position:0%
+the lp first
+i<00:01:25.119><c> didn't</c><00:01:25.360><c> actually</c><00:01:25.680><c> need</c><00:01:25.920><c> to</c><00:01:26.080><c> rename</c><00:01:26.400><c> the</c>
+
+00:01:26.550 --> 00:01:26.560 align:start position:0%
+i didn't actually need to rename the
+ 
+
+00:01:26.560 --> 00:01:29.190 align:start position:0%
+i didn't actually need to rename the
+program<00:01:27.520><c> if</c><00:01:27.680><c> this</c><00:01:27.920><c> program</c><00:01:28.640><c> had</c><00:01:28.960><c> real</c>
+
+00:01:29.190 --> 00:01:29.200 align:start position:0%
+program if this program had real
+ 
+
+00:01:29.200 --> 00:01:31.190 align:start position:0%
+program if this program had real
+registers<00:01:29.840><c> with</c><00:01:30.079><c> some</c><00:01:30.320><c> anti</c><00:01:30.720><c> and</c><00:01:30.880><c> output</c>
+
+00:01:31.190 --> 00:01:31.200 align:start position:0%
+registers with some anti and output
+ 
+
+00:01:31.200 --> 00:01:32.630 align:start position:0%
+registers with some anti and output
+dependencies
+
+00:01:32.630 --> 00:01:32.640 align:start position:0%
+dependencies
+ 
+
+00:01:32.640 --> 00:01:35.190 align:start position:0%
+dependencies
+i<00:01:32.880><c> could</c><00:01:33.200><c> just</c><00:01:33.520><c> fake</c><00:01:33.759><c> renaming</c><00:01:34.400><c> but</c><00:01:34.560><c> just</c>
+
+00:01:35.190 --> 00:01:35.200 align:start position:0%
+i could just fake renaming but just
+ 
+
+00:01:35.200 --> 00:01:36.950 align:start position:0%
+i could just fake renaming but just
+looking<00:01:35.520><c> at</c><00:01:35.759><c> where</c><00:01:36.000><c> the</c><00:01:36.079><c> true</c><00:01:36.320><c> dependencies</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+looking at where the true dependencies
+ 
+
+00:01:36.960 --> 00:01:38.950 align:start position:0%
+looking at where the true dependencies
+are<00:01:37.200><c> and</c><00:01:37.280><c> completely</c><00:01:37.680><c> ignoring</c><00:01:38.000><c> the</c><00:01:38.560><c> anti</c><00:01:38.799><c> and</c>
+
+00:01:38.950 --> 00:01:38.960 align:start position:0%
+are and completely ignoring the anti and
+ 
+
+00:01:38.960 --> 00:01:40.550 align:start position:0%
+are and completely ignoring the anti and
+output<00:01:39.200><c> dependencies</c><00:01:39.680><c> why</c><00:01:39.920><c> well</c><00:01:40.079><c> because</c><00:01:40.400><c> the</c>
+
+00:01:40.550 --> 00:01:40.560 align:start position:0%
+output dependencies why well because the
+ 
+
+00:01:40.560 --> 00:01:42.710 align:start position:0%
+output dependencies why well because the
+renaming<00:01:41.040><c> would</c><00:01:41.200><c> eliminate</c><00:01:41.600><c> them</c><00:01:41.840><c> anyway</c><00:01:42.560><c> all</c>
+
+00:01:42.710 --> 00:01:42.720 align:start position:0%
+renaming would eliminate them anyway all
+ 
+
+00:01:42.720 --> 00:01:44.149 align:start position:0%
+renaming would eliminate them anyway all
+that<00:01:42.880><c> would</c><00:01:43.040><c> be</c><00:01:43.200><c> left</c><00:01:43.600><c> is</c><00:01:43.759><c> the</c><00:01:44.000><c> true</c>
+
+00:01:44.149 --> 00:01:44.159 align:start position:0%
+that would be left is the true
+ 
+
+00:01:44.159 --> 00:01:45.670 align:start position:0%
+that would be left is the true
+dependencies<00:01:44.720><c> so</c><00:01:44.880><c> you</c><00:01:45.119><c> actually</c><00:01:45.360><c> when</c><00:01:45.520><c> you're</c>
+
+00:01:45.670 --> 00:01:45.680 align:start position:0%
+dependencies so you actually when you're
+ 
+
+00:01:45.680 --> 00:01:47.350 align:start position:0%
+dependencies so you actually when you're
+computing<00:01:46.079><c> the</c><00:01:46.240><c> lp</c><00:01:46.560><c> don't</c><00:01:46.720><c> really</c><00:01:46.960><c> need</c><00:01:47.200><c> to</c>
+
+00:01:47.350 --> 00:01:47.360 align:start position:0%
+computing the lp don't really need to
+ 
+
+00:01:47.360 --> 00:01:49.350 align:start position:0%
+computing the lp don't really need to
+look<00:01:47.600><c> at</c><00:01:47.840><c> a</c><00:01:48.000><c> rename</c><00:01:48.399><c> program</c><00:01:48.799><c> you</c><00:01:48.880><c> can</c><00:01:49.040><c> do</c><00:01:49.200><c> it</c>
+
+00:01:49.350 --> 00:01:49.360 align:start position:0%
+look at a rename program you can do it
+ 
+
+00:01:49.360 --> 00:01:51.109 align:start position:0%
+look at a rename program you can do it
+directly<00:01:49.920><c> on</c><00:01:50.079><c> the</c><00:01:50.240><c> program</c><00:01:50.640><c> as</c><00:01:50.799><c> it</c><00:01:50.960><c> was</c>
+
+00:01:51.109 --> 00:01:51.119 align:start position:0%
+directly on the program as it was
+ 
+
+00:01:51.119 --> 00:01:53.830 align:start position:0%
+directly on the program as it was
+written<00:01:51.920><c> you</c><00:01:52.159><c> just</c><00:01:52.799><c> need</c><00:01:52.960><c> to</c><00:01:53.119><c> follow</c><00:01:53.439><c> only</c><00:01:53.680><c> the</c>
+
+00:01:53.830 --> 00:01:53.840 align:start position:0%
+written you just need to follow only the
+ 
+
+00:01:53.840 --> 00:01:55.510 align:start position:0%
+written you just need to follow only the
+true<00:01:54.000><c> dependencies</c><00:01:54.560><c> and</c><00:01:54.720><c> completely</c><00:01:55.200><c> ignore</c>
+
+00:01:55.510 --> 00:01:55.520 align:start position:0%
+true dependencies and completely ignore
+ 
+
+00:01:55.520 --> 00:01:58.149 align:start position:0%
+true dependencies and completely ignore
+the<00:01:55.680><c> the</c><00:01:55.840><c> antenna</c><00:01:56.320><c> output</c><00:01:56.560><c> dependencies</c>
+
+00:01:58.149 --> 00:01:58.159 align:start position:0%
+the the antenna output dependencies
+ 
+
+00:01:58.159 --> 00:02:00.550 align:start position:0%
+the the antenna output dependencies
+second<00:01:58.640><c> you</c><00:01:58.719><c> know</c><00:01:58.880><c> when</c><00:01:59.119><c> checking</c><00:01:59.439><c> this</c><00:01:59.759><c> off</c>
+
+00:02:00.550 --> 00:02:00.560 align:start position:0%
+second you know when checking this off
+ 
+
+00:02:00.560 --> 00:02:03.030 align:start position:0%
+second you know when checking this off
+be<00:02:00.799><c> mindful</c><00:02:01.360><c> to</c><00:02:01.680><c> kind</c><00:02:01.840><c> of</c><00:02:02.000><c> remember</c><00:02:02.560><c> how</c><00:02:02.719><c> many</c>
+
+00:02:03.030 --> 00:02:03.040 align:start position:0%
+be mindful to kind of remember how many
+ 
+
+00:02:03.040 --> 00:02:05.109 align:start position:0%
+be mindful to kind of remember how many
+cycles<00:02:03.520><c> you're</c><00:02:03.759><c> computing</c><00:02:04.399><c> and</c><00:02:04.560><c> also</c><00:02:04.880><c> what</c>
+
+00:02:05.109 --> 00:02:05.119 align:start position:0%
+cycles you're computing and also what
+ 
+
+00:02:05.119 --> 00:02:07.429 align:start position:0%
+cycles you're computing and also what
+has<00:02:05.280><c> been</c><00:02:05.680><c> done</c><00:02:05.920><c> and</c><00:02:06.079><c> so</c><00:02:06.320><c> on</c><00:02:06.960><c> and</c><00:02:07.119><c> then</c><00:02:07.360><c> you</c>
+
+00:02:07.429 --> 00:02:07.439 align:start position:0%
+has been done and so on and then you
+ 
+
+00:02:07.439 --> 00:02:09.029 align:start position:0%
+has been done and so on and then you
+know<00:02:07.600><c> just</c><00:02:07.759><c> be</c><00:02:07.920><c> careful</c><00:02:08.319><c> also</c><00:02:08.640><c> to</c><00:02:08.800><c> kind</c><00:02:08.959><c> of</c>
+
+00:02:09.029 --> 00:02:09.039 align:start position:0%
+know just be careful also to kind of
+ 
+
+00:02:09.039 --> 00:02:10.309 align:start position:0%
+know just be careful also to kind of
+divide<00:02:09.440><c> the</c><00:02:09.520><c> right</c><00:02:09.679><c> thing</c><00:02:09.840><c> with</c><00:02:10.000><c> the</c><00:02:10.080><c> right</c>
+
+00:02:10.309 --> 00:02:10.319 align:start position:0%
+divide the right thing with the right
+ 
+
+00:02:10.319 --> 00:02:12.550 align:start position:0%
+divide the right thing with the right
+thing<00:02:10.720><c> so</c><00:02:10.879><c> it's</c><00:02:11.200><c> five</c><00:02:11.520><c> instructions</c><00:02:12.080><c> over</c><00:02:12.319><c> two</c>
+
+00:02:12.550 --> 00:02:12.560 align:start position:0%
+thing so it's five instructions over two
+ 
+
+00:02:12.560 --> 00:02:16.760 align:start position:0%
+thing so it's five instructions over two
+cycles<00:02:13.040><c> not</c><00:02:13.200><c> the</c><00:02:13.360><c> other</c><00:02:13.599><c> way</c><00:02:13.760><c> around</c>
+

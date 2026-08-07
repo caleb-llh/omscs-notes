@@ -1,0 +1,184 @@
+1
+00:00:00,600 --> 00:00:04,720
+ So what about a 2-D Algorithm for a 2-D mesh or torus?
+
+2
+00:00:04,720 --> 00:00:08,760
+ In fact, somehow intuitively, a 2-D mesh or torus should be a better match for
+
+3
+00:00:08,760 --> 00:00:12,230
+ matrix multiply given the fact that matrixes are in fact themselves
+
+4
+00:00:12,230 --> 00:00:13,460
+ two dimensional.
+
+5
+00:00:13,460 --> 00:00:17,450
+ You can't keep me on a linear network, weeee.
+
+6
+00:00:17,450 --> 00:00:23,990
+ Here's an elegant algorithm called the summa algorithm, that's summa not sumo.
+
+7
+00:00:23,990 --> 00:00:27,345
+ We'll put a reference to a paper on summa in the instructor's notes.
+
+8
+00:00:27,345 --> 00:00:31,490
+ Summa starts with a 2-D distribution of the matrix operands.
+
+9
+00:00:31,490 --> 00:00:36,350
+ Each node is responsible for updating a part of the C matrix that it owns.
+
+10
+00:00:36,350 --> 00:00:38,690
+ For example, consider this node.
+
+11
+00:00:38,690 --> 00:00:42,130
+ You know that eventually the owner of this block needs to see all of this
+
+12
+00:00:42,130 --> 00:00:45,070
+ block row and all of this block column.
+
+13
+00:00:45,070 --> 00:00:48,680
+ The SUMMA algorithm accomplishes this as follows.
+
+14
+00:00:48,680 --> 00:00:51,990
+ First, it iterates over vertical strips of A and
+
+15
+00:00:51,990 --> 00:00:55,390
+ the corresponding horizontal strips of B.
+
+16
+00:00:55,390 --> 00:00:59,190
+ At each step, let's denote the current strip by the index little l.
+
+17
+00:00:59,190 --> 00:01:04,349
+ Now the strip can have any width in A or height in B.
+
+18
+00:01:04,349 --> 00:01:07,980
+ Let's denote the strip dimension by little s.
+
+19
+00:01:07,980 --> 00:01:11,980
+ Algorithmically, you can think of all processes synchronously executing a for
+
+20
+00:01:11,980 --> 00:01:14,790
+ loop that iterates over these strips.
+
+21
+00:01:14,790 --> 00:01:17,920
+ Now in order for all nodes in this block row or
+
+22
+00:01:17,920 --> 00:01:23,630
+ this block column to proceed, every node needs to see the current strip.
+
+23
+00:01:23,630 --> 00:01:26,760
+ That means the owners of the current strip need to send a copy to
+
+24
+00:01:26,760 --> 00:01:28,750
+ all relevant nodes.
+
+25
+00:01:28,750 --> 00:01:33,610
+ For example, this strip of A needs to go to all processes in its block row.
+
+26
+00:01:33,610 --> 00:01:37,710
+ The owner of the strip can simply do a broadcast within the block row.
+
+27
+00:01:37,710 --> 00:01:45,150
+ Now a similar thing should happen in the block column.
+
+28
+00:01:45,150 --> 00:01:49,360
+ Once both strips have arrived each node can do a local update.
+
+29
+00:01:49,360 --> 00:01:51,890
+ So what's the running time of this scheme?
+
+30
+00:01:51,890 --> 00:01:54,830
+ To keep things simple let's assume square matrices and
+
+31
+00:01:54,830 --> 00:01:56,970
+ a square process grid.
+
+32
+00:01:56,970 --> 00:02:00,370
+ And though it's not hard to generalize let's also assume that the square root
+
+33
+00:02:00,370 --> 00:02:04,350
+ of P which is the dimension of the mesh and little s the strip size,
+
+34
+00:02:04,350 --> 00:02:07,250
+ both divide the matrix dimension in.
+
+35
+00:02:07,250 --> 00:02:11,700
+ First observe that there are n over s iterations of the loop, and
+
+36
+00:02:11,700 --> 00:02:14,090
+ each iteration does the same thing.
+
+37
+00:02:14,090 --> 00:02:16,270
+ Now for the cost of each iteration.
+
+38
+00:02:16,270 --> 00:02:18,540
+ Let's start with the update step.
+
+39
+00:02:18,540 --> 00:02:23,015
+ Each of these strips is n over root p by s.
+
+40
+00:02:23,015 --> 00:02:25,325
+ We can use that fact to compute the number of flops for
+
+41
+00:02:25,325 --> 00:02:27,445
+ this local update step.
+
+42
+00:02:27,445 --> 00:02:32,445
+ This is the cost of the update step, assuming that each flop costs tau.
+
+43
+00:02:32,445 --> 00:02:36,897
+ Multiplying this out, the total flop time is 2 tau n cubed / p.
+
+44
+00:02:36,897 --> 00:02:39,770
+ What about the communication time?
+
+45
+00:02:39,770 --> 00:02:44,605
+ The communication time is essentially just the time for these two broadcasts.
+
+46
+00:02:44,605 --> 00:02:44,605
+ Mm, I wonder how much time that costs?
+

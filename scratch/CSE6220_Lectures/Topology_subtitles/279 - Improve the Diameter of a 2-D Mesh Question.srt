@@ -1,0 +1,60 @@
+1
+00:00:00,350 --> 00:00:03,780
+ Suppose you're given this 2-D Mesh network.
+
+2
+00:00:03,780 --> 00:00:07,930
+ It has a diameter that's approximately 2 times the square root of P.
+
+3
+00:00:07,930 --> 00:00:09,220
+ Here's my question.
+
+4
+00:00:09,220 --> 00:00:12,760
+ Where do you need to add links to reduce the diameter by half?
+
+5
+00:00:12,760 --> 00:00:15,325
+ Let's label every node by its coordinates, starting at (0,
+
+6
+00:00:15,325 --> 00:00:19,470
+ 0) in the upper left hand corner and going to (root P- 1,
+
+7
+00:00:19,470 --> 00:00:21,880
+ root P- 1) in the lower right.
+
+8
+00:00:21,880 --> 00:00:23,550
+ Here are your choices.
+
+9
+00:00:23,550 --> 00:00:27,530
+ Is the answer to connect the opposite corners?
+
+10
+00:00:27,530 --> 00:00:31,870
+ Or is the answer to add a ring of links that connect the corners?
+
+11
+00:00:31,870 --> 00:00:35,780
+ Or is the answer to add wraparound links from left to right and
+
+12
+00:00:35,780 --> 00:00:37,580
+ from top to bottom?
+
+13
+00:00:37,580 --> 00:00:40,190
+ Check all the ones you think are correct.
+
+14
+00:00:40,190 --> 00:00:42,706
+ If you think none of them will cut the diameter in half,
+
+15
+00:00:42,706 --> 00:00:42,706
+ then submit without checking anything.
+

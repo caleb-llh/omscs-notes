@@ -1,0 +1,172 @@
+1
+00:00:00,330 --> 00:00:02,450
+ In the beginning of parallel sorting algorithms,
+
+2
+00:00:02,450 --> 00:00:06,200
+ people were obsessed with the idea of sorting networks.
+
+3
+00:00:06,200 --> 00:00:08,730
+ So what is a sorting network?
+
+4
+00:00:08,730 --> 00:00:12,160
+ A sorting network is a fixed circuit that sorts its inputs
+
+5
+00:00:12,160 --> 00:00:16,660
+ using a special type of circuit element or gate called a comparator.
+
+6
+00:00:16,660 --> 00:00:20,000
+ For instance, here are two examples of comparators.
+
+7
+00:00:20,000 --> 00:00:24,400
+ Each one takes two inputs and produces two outputs.
+
+8
+00:00:24,400 --> 00:00:28,650
+ The increasing or plus comparator puts the smaller of its
+
+9
+00:00:28,650 --> 00:00:32,780
+ two inputs on the top wire, and the larger on the bottom wire.
+
+10
+00:00:32,780 --> 00:00:37,860
+ By contrast the decreasing or minus comparator does just the opposite.
+
+11
+00:00:37,860 --> 00:00:40,340
+ For example, suppose you feed the values of 1 and
+
+12
+00:00:40,340 --> 00:00:45,040
+ 6 into a plus comparator, the output would just be a mirror of the input
+
+13
+00:00:45,040 --> 00:00:48,350
+ because one is the smaller of the two input elements.
+
+14
+00:00:48,350 --> 00:00:51,390
+ Now suppose instead we replace them with a minus comparator,
+
+15
+00:00:51,390 --> 00:00:54,360
+ then the output would be reversed relative to the input.
+
+16
+00:00:54,360 --> 00:00:59,070
+ Like an electrical circuit, you can compose comparators by connecting wires.
+
+17
+00:00:59,070 --> 00:01:02,780
+ For example, suppose we have these three values and you want to sort them.
+
+18
+00:01:02,780 --> 00:01:05,330
+ I claim that this circuit will do it.
+
+19
+00:01:05,330 --> 00:01:08,800
+ It takes three inputs, produces three outputs, and
+
+20
+00:01:08,800 --> 00:01:12,000
+ contains three plus comparators.
+
+21
+00:01:12,000 --> 00:01:14,550
+ Let's trace its execution.
+
+22
+00:01:14,550 --> 00:01:17,640
+ The first comparator would produce this result.
+
+23
+00:01:17,640 --> 00:01:18,800
+ What about the second?
+
+24
+00:01:18,800 --> 00:01:21,060
+ The second would produce this result.
+
+25
+00:01:21,060 --> 00:01:24,370
+ Notice that the second takes its two inputs, three and one and
+
+26
+00:01:24,370 --> 00:01:27,870
+ puts the smaller one on the top wire and the larger one on the bottom.
+
+27
+00:01:27,870 --> 00:01:30,590
+ Finally, the last comparator would produce this result.
+
+28
+00:01:30,590 --> 00:01:34,690
+ Here's some symbolic mumbo jumbo that describes what this circuit does.
+
+29
+00:01:34,690 --> 00:01:36,080
+ Yikes.
+
+30
+00:01:36,080 --> 00:01:38,670
+ Stare at it for a minute and convince yourself that for
+
+31
+00:01:38,670 --> 00:01:41,880
+ any input it will produce a sorted output.
+
+32
+00:01:41,880 --> 00:01:44,420
+ Now I want you to notice something else about this circuit.
+
+33
+00:01:44,420 --> 00:01:47,290
+ As we said before it has three comparators.
+
+34
+00:01:47,290 --> 00:01:50,990
+ It also has a depth or critical path length of three.
+
+35
+00:01:50,990 --> 00:01:54,980
+ Here I've drawn arrows show the dependencies among the comparators.
+
+36
+00:01:54,980 --> 00:01:58,800
+ This analysis should remind you of the concepts of work in spam.
+
+37
+00:01:58,800 --> 00:02:01,290
+ So if you can take an algorithm and encode it as a circuit,
+
+38
+00:02:01,290 --> 00:02:04,700
+ we can analyze a circuit with respect to how many operations it performs,
+
+39
+00:02:04,700 --> 00:02:07,200
+ and what the critical path length is.
+
+40
+00:02:07,200 --> 00:02:09,110
+ By the way, here's a question.
+
+41
+00:02:09,110 --> 00:02:13,000
+ Suppose you're only allowed to use these two types of comparators.
+
+42
+00:02:13,000 --> 00:02:16,750
+ Compared to this circuit, do you think there's a way to sort three elements
+
+43
+00:02:16,750 --> 00:02:16,750
+ using fewer comparators or in a way that has a shorter critical path length?
+

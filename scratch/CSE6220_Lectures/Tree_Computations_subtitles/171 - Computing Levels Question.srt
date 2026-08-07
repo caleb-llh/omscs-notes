@@ -1,0 +1,80 @@
+1
+00:00:00,360 --> 00:00:01,800
+ Here's an example tree.
+
+2
+00:00:01,800 --> 00:00:06,010
+ Suppose you wish to compute the depth or the level of every node in the tree.
+
+3
+00:00:06,010 --> 00:00:09,360
+ The level of any tree node is the minimum distance to that node
+
+4
+00:00:09,360 --> 00:00:10,700
+ from the root.
+
+5
+00:00:10,700 --> 00:00:14,410
+ For example, here are the levels of the nodes of this tree.
+
+6
+00:00:14,410 --> 00:00:17,530
+ The root is a distance 0 away from itself.
+
+7
+00:00:17,530 --> 00:00:20,570
+ Its children are all one away.
+
+8
+00:00:20,570 --> 00:00:24,540
+ Its grandchildren are all two away and so on.
+
+9
+00:00:24,540 --> 00:00:26,530
+ Now suppose to compute the levels,
+
+10
+00:00:26,530 --> 00:00:29,480
+ you decide to apply the Euler tour technique.
+
+11
+00:00:29,480 --> 00:00:32,985
+ Recall that the first step is to compute an Euler circuit.
+
+12
+00:00:32,985 --> 00:00:36,635
+ That gives you a list, which is effectively a traversal of the tree.
+
+13
+00:00:36,635 --> 00:00:38,225
+ Here's what I want you to do.
+
+14
+00:00:38,225 --> 00:00:40,525
+ I want you to initialize the nodes of the list.
+
+15
+00:00:40,525 --> 00:00:44,145
+ So that a listed scan computes the level for each node.
+
+16
+00:00:44,145 --> 00:00:47,015
+ You'll put your initial values in these boxes, and
+
+17
+00:00:47,015 --> 00:00:49,880
+ I filled in a 0 for you to help you get started.
+
+18
+00:00:49,880 --> 00:00:54,380
+ Now I want you to choose the values, so that when you do a list scan.
+
+19
+00:00:54,380 --> 00:00:58,530
+ The level of every node ends up in the starred boxes.
+
+20
+00:00:58,530 --> 00:00:58,530
+ The starred boxes are exactly the source nodes for child to parent edges.
+

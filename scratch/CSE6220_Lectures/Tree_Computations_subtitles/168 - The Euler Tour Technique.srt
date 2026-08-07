@@ -1,0 +1,204 @@
+1
+00:00:00,220 --> 00:00:04,810
+ Okay, it's now time to take this show on the road by taking an Euler tour.
+
+2
+00:00:04,810 --> 00:00:08,820
+ You know I'm bad, I'm bad, you know it!
+
+3
+00:00:08,820 --> 00:00:10,131
+ Oh!
+
+4
+00:00:10,131 --> 00:00:14,166
+ In your life, or maybe in this lesson, you've observed that some tree traversal
+
+5
+00:00:14,166 --> 00:00:18,520
+ tasks, like computing pre and post-order numberings, look sequential.
+
+6
+00:00:18,520 --> 00:00:21,530
+ Yet, they also seem eerily like list ranking.
+
+7
+00:00:21,530 --> 00:00:24,670
+ What you need is a way to view a tree as a list.
+
+8
+00:00:24,670 --> 00:00:26,750
+ Let's start with the following observation.
+
+9
+00:00:26,750 --> 00:00:29,590
+ You can take every undirected edge of this tree and
+
+10
+00:00:29,590 --> 00:00:32,770
+ represent it by a pair of directed edges.
+
+11
+00:00:32,770 --> 00:00:34,190
+ Now, notice that at every node,
+
+12
+00:00:34,190 --> 00:00:37,950
+ the number of incoming edges equals the number of outgoing edges.
+
+13
+00:00:37,950 --> 00:00:39,500
+ For example, look at node 1.
+
+14
+00:00:39,500 --> 00:00:44,330
+ It has four incoming edges, it also has four outgoing edges.
+
+15
+00:00:44,330 --> 00:00:47,730
+ This fact makes this particular graph Eulerian.
+
+16
+00:00:47,730 --> 00:00:50,000
+ Yee-ha!
+
+17
+00:00:50,000 --> 00:00:51,640
+ That's Eulerian with an E-U,
+
+18
+00:00:51,640 --> 00:00:56,070
+ as in Leonhard Euler, the famous Swiss mathematician and physicist.
+
+19
+00:00:56,070 --> 00:00:59,750
+ Now for any Eulerian graph, there exists a directed circuit.
+
+20
+00:00:59,750 --> 00:01:02,633
+ A directed circuit is a round trip path that goes through every edge
+
+21
+00:01:02,633 --> 00:01:04,110
+ exactly once.
+
+22
+00:01:04,110 --> 00:01:07,480
+ I hope you can easily see the Euler circuit in this example.
+
+23
+00:01:07,480 --> 00:01:11,260
+ Now the point of all this is that this circuit gives you a linked list.
+
+24
+00:01:11,260 --> 00:01:13,990
+ So how does this help you do something like, I don't know,
+
+25
+00:01:13,990 --> 00:01:15,820
+ compute a post-order numbering?
+
+26
+00:01:15,820 --> 00:01:17,290
+ Let's try to do a scan, or
+
+27
+00:01:17,290 --> 00:01:21,520
+ a prefix sum, on this list with a very clever choice of initial values.
+
+28
+00:01:21,520 --> 00:01:24,930
+ First, start by recalling the post-order pseudo code.
+
+29
+00:01:24,930 --> 00:01:29,360
+ In the recursive call, it just passes along the current value of v,
+
+30
+00:01:29,360 --> 00:01:31,615
+ upon return it adds 1.
+
+31
+00:01:31,615 --> 00:01:34,570
+ Aha, so what if you did the following?
+
+32
+00:01:34,570 --> 00:01:37,290
+ First, assign a 0 to the head node.
+
+33
+00:01:37,290 --> 00:01:40,520
+ Then consider any sink node that's a child.
+
+34
+00:01:40,520 --> 00:01:45,910
+ This sink is an example, it's the end point of a parent-to-child edge.
+
+35
+00:01:45,910 --> 00:01:48,910
+ So go find all the sinks and mark them with a 0 also.
+
+36
+00:01:48,910 --> 00:01:52,378
+ Now what about the remaining list nodes?
+
+37
+00:01:52,378 --> 00:01:57,350
+ Notice that they're all sinks for edges that go from children to parents.
+
+38
+00:01:57,350 --> 00:02:01,650
+ That corresponds essentially to returns from the recursive call.
+
+39
+00:02:01,650 --> 00:02:05,730
+ So at all the remaining nodes, let's put the value of 1.
+
+40
+00:02:05,730 --> 00:02:08,930
+ Now notice what happens when you do a scan along this circuit
+
+41
+00:02:08,930 --> 00:02:11,070
+ starting at the root.
+
+42
+00:02:11,070 --> 00:02:15,660
+ Take a closer look at all of the child-to-parent sources.
+
+43
+00:02:15,660 --> 00:02:17,448
+ Together with the final end point,
+
+44
+00:02:17,448 --> 00:02:22,799
+ these values are exactly the post-order numberings.
+
+45
+00:02:22,799 --> 00:02:27,530
+ That's the basic idea behind the so-called Euler tour technique.
+
+46
+00:02:27,530 --> 00:02:29,538
+ Here's a summary of the technique.
+
+47
+00:02:29,538 --> 00:02:32,650
+ Again, step 1 is to take the tree and convert it to a list.
+
+48
+00:02:32,650 --> 00:02:34,720
+ The list is the Euler circuit.
+
+49
+00:02:34,720 --> 00:02:36,680
+ You then mark the nodes of the list, and
+
+50
+00:02:36,680 --> 00:02:39,580
+ these are operations that can be done in constant time.
+
+51
+00:02:39,580 --> 00:02:39,580
+ Lastly, you apply a list scan or list prefix sum.
+

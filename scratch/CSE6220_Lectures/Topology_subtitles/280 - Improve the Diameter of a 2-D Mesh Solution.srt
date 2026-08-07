@@ -1,0 +1,28 @@
+1
+00:00:00,490 --> 00:00:02,310
+ Here is the answer.
+
+2
+00:00:02,310 --> 00:00:06,180
+ In fact, all three options will reduce the diameter by half.
+
+3
+00:00:06,180 --> 00:00:09,480
+ The longest paths connect the corners.
+
+4
+00:00:09,480 --> 00:00:12,870
+ So, anything that shortcuts the corners will reduce the diameter.
+
+5
+00:00:12,870 --> 00:00:15,230
+ Now, the last option is special.
+
+6
+00:00:15,230 --> 00:00:18,520
+ It turns our 2-D mesh into a 2-D torus.
+
+7
+00:00:18,520 --> 00:00:18,520
+ Oops. Wrong torus.
+

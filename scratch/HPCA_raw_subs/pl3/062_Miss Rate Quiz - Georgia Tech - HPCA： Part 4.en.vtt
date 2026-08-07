@@ -1,0 +1,80 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.550 align:start position:0%
+ 
+so<00:00:00.390><c> now</c><00:00:00.539><c> that</c><00:00:00.599><c> we</c><00:00:00.870><c> have</c><00:00:01.020><c> seen</c><00:00:01.230><c> that</c><00:00:01.410><c> the</c>
+
+00:00:01.550 --> 00:00:01.560 align:start position:0%
+so now that we have seen that the
+ 
+
+00:00:01.560 --> 00:00:04.039 align:start position:0%
+so now that we have seen that the
+increasing<00:00:02.190><c> block</c><00:00:02.429><c> size</c><00:00:02.730><c> can</c><00:00:03.270><c> result</c><00:00:03.659><c> in</c>
+
+00:00:04.039 --> 00:00:04.049 align:start position:0%
+increasing block size can result in
+ 
+
+00:00:04.049 --> 00:00:06.559 align:start position:0%
+increasing block size can result in
+reduction<00:00:04.770><c> in</c><00:00:04.859><c> a</c><00:00:04.950><c> miss</c><00:00:05.160><c> rate</c><00:00:05.460><c> let's</c><00:00:06.029><c> see</c><00:00:06.270><c> if</c><00:00:06.420><c> we</c>
+
+00:00:06.559 --> 00:00:06.569 align:start position:0%
+reduction in a miss rate let's see if we
+ 
+
+00:00:06.569 --> 00:00:09.080 align:start position:0%
+reduction in a miss rate let's see if we
+understood<00:00:06.960><c> what's</c><00:00:07.560><c> going</c><00:00:07.890><c> on</c><00:00:08.069><c> so</c><00:00:08.670><c> when</c><00:00:08.940><c> we</c>
+
+00:00:09.080 --> 00:00:09.090 align:start position:0%
+understood what's going on so when we
+ 
+
+00:00:09.090 --> 00:00:10.940 align:start position:0%
+understood what's going on so when we
+increase<00:00:09.210><c> the</c><00:00:09.420><c> block</c><00:00:09.690><c> size</c><00:00:09.750><c> and</c><00:00:10.290><c> the</c><00:00:10.469><c> locality</c>
+
+00:00:10.940 --> 00:00:10.950 align:start position:0%
+increase the block size and the locality
+ 
+
+00:00:10.950 --> 00:00:13.190 align:start position:0%
+increase the block size and the locality
+is<00:00:11.010><c> good</c><00:00:11.219><c> so</c><00:00:11.400><c> the</c><00:00:11.519><c> miss</c><00:00:11.700><c> rate</c><00:00:11.940><c> goes</c><00:00:12.150><c> down</c><00:00:12.200><c> the</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+is good so the miss rate goes down the
+ 
+
+00:00:13.200 --> 00:00:15.740 align:start position:0%
+is good so the miss rate goes down the
+question<00:00:13.620><c> for</c><00:00:13.799><c> you</c><00:00:13.920><c> is</c><00:00:13.950><c> which</c><00:00:14.670><c> types</c><00:00:15.059><c> of</c><00:00:15.240><c> the</c>
+
+00:00:15.740 --> 00:00:15.750 align:start position:0%
+question for you is which types of the
+ 
+
+00:00:15.750 --> 00:00:18.080 align:start position:0%
+question for you is which types of the
+mesas<00:00:16.109><c> are</c><00:00:16.260><c> reduced</c><00:00:16.619><c> the</c><00:00:17.190><c> compulsory</c><00:00:17.789><c> misses</c>
+
+00:00:18.080 --> 00:00:18.090 align:start position:0%
+mesas are reduced the compulsory misses
+ 
+
+00:00:18.090 --> 00:00:21.109 align:start position:0%
+mesas are reduced the compulsory misses
+the<00:00:18.779><c> capacity</c><00:00:19.500><c> misses</c><00:00:19.710><c> or</c><00:00:20.460><c> the</c><00:00:20.730><c> conflict</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+the capacity misses or the conflict
+ 
+
+00:00:21.119 --> 00:00:23.420 align:start position:0%
+the capacity misses or the conflict
+misses
+

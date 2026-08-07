@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.459 align:start position:0%
+ 
+let's<00:00:00.359><c> look</c><00:00:00.510><c> at</c><00:00:00.630><c> the</c><00:00:00.780><c> solution</c><00:00:01.290><c> to</c><00:00:01.319><c> our</c>
+
+00:00:01.459 --> 00:00:01.469 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:01.469 --> 00:00:03.919 align:start position:0%
+let's look at the solution to our
+virtual<00:00:02.070><c> memory</c><00:00:02.250><c> quiz</c><00:00:02.639><c> we</c><00:00:03.480><c> said</c><00:00:03.720><c> that</c><00:00:03.840><c> the</c>
+
+00:00:03.919 --> 00:00:03.929 align:start position:0%
+virtual memory quiz we said that the
+ 
+
+00:00:03.929 --> 00:00:07.010 align:start position:0%
+virtual memory quiz we said that the
+computer<00:00:04.380><c> has</c><00:00:04.620><c> 16</c><00:00:05.339><c> active</c><00:00:05.850><c> applications</c><00:00:06.540><c> each</c>
+
+00:00:07.010 --> 00:00:07.020 align:start position:0%
+computer has 16 active applications each
+ 
+
+00:00:07.020 --> 00:00:09.799 align:start position:0%
+computer has 16 active applications each
+with<00:00:07.379><c> a</c><00:00:07.410><c> 32-bit</c><00:00:08.069><c> address</c><00:00:08.130><c> space</c><00:00:08.700><c> so</c><00:00:09.000><c> each</c>
+
+00:00:09.799 --> 00:00:09.809 align:start position:0%
+with a 32-bit address space so each
+ 
+
+00:00:09.809 --> 00:00:11.860 align:start position:0%
+with a 32-bit address space so each
+potentially<00:00:10.440><c> sees</c><00:00:10.679><c> a</c><00:00:10.889><c> four</c><00:00:11.250><c> gigabyte</c><00:00:11.639><c> memory</c>
+
+00:00:11.860 --> 00:00:11.870 align:start position:0%
+potentially sees a four gigabyte memory
+ 
+
+00:00:11.870 --> 00:00:15.740 align:start position:0%
+potentially sees a four gigabyte memory
+what<00:00:12.870><c> is</c><00:00:13.080><c> the</c><00:00:13.290><c> real</c><00:00:13.469><c> memory</c><00:00:14.190><c> in</c><00:00:14.549><c> the</c><00:00:14.700><c> system</c><00:00:14.750><c> it</c>
+
+00:00:15.740 --> 00:00:15.750 align:start position:0%
+what is the real memory in the system it
+ 
+
+00:00:15.750 --> 00:00:18.200 align:start position:0%
+what is the real memory in the system it
+turns<00:00:16.080><c> out</c><00:00:16.320><c> that</c><00:00:16.470><c> all</c><00:00:16.740><c> of</c><00:00:17.039><c> these</c><00:00:17.250><c> are</c>
+
+00:00:18.200 --> 00:00:18.210 align:start position:0%
+turns out that all of these are
+ 
+
+00:00:18.210 --> 00:00:20.150 align:start position:0%
+turns out that all of these are
+potentially<00:00:18.840><c> correct</c><00:00:19.140><c> we</c><00:00:19.350><c> can</c><00:00:19.560><c> have</c><00:00:19.770><c> a</c><00:00:19.800><c> system</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+potentially correct we can have a system
+ 
+
+00:00:20.160 --> 00:00:22.400 align:start position:0%
+potentially correct we can have a system
+that<00:00:20.580><c> has</c><00:00:20.730><c> only</c><00:00:21.330><c> 2</c><00:00:21.539><c> 2</c><00:00:21.779><c> gigabyte</c><00:00:22.230><c> memory</c>
+
+00:00:22.400 --> 00:00:22.410 align:start position:0%
+that has only 2 2 gigabyte memory
+ 
+
+00:00:22.410 --> 00:00:25.340 align:start position:0%
+that has only 2 2 gigabyte memory
+modules<00:00:23.070><c> so</c><00:00:23.820><c> it</c><00:00:23.939><c> really</c><00:00:24.180><c> has</c><00:00:24.449><c> a</c><00:00:24.480><c> total</c><00:00:24.990><c> of</c><00:00:25.109><c> 4</c>
+
+00:00:25.340 --> 00:00:25.350 align:start position:0%
+modules so it really has a total of 4
+ 
+
+00:00:25.350 --> 00:00:28.400 align:start position:0%
+modules so it really has a total of 4
+gigabyte<00:00:25.769><c> physical</c><00:00:26.430><c> memory</c><00:00:26.840><c> yet</c><00:00:27.840><c> it</c><00:00:28.019><c> can</c><00:00:28.230><c> run</c>
+
+00:00:28.400 --> 00:00:28.410 align:start position:0%
+gigabyte physical memory yet it can run
+ 
+
+00:00:28.410 --> 00:00:31.160 align:start position:0%
+gigabyte physical memory yet it can run
+16<00:00:28.859><c> applications</c><00:00:29.060><c> each</c><00:00:30.060><c> of</c><00:00:30.359><c> which</c><00:00:30.570><c> thinks</c>
+
+00:00:31.160 --> 00:00:31.170 align:start position:0%
+16 applications each of which thinks
+ 
+
+00:00:31.170 --> 00:00:35.000 align:start position:0%
+16 applications each of which thinks
+that<00:00:31.949><c> it</c><00:00:32.130><c> has</c><00:00:32.309><c> 4</c><00:00:32.640><c> gigabytes</c><00:00:33.059><c> of</c><00:00:33.210><c> memory</c><00:00:33.770><c> we</c><00:00:34.770><c> can</c>
+
+00:00:35.000 --> 00:00:35.010 align:start position:0%
+that it has 4 gigabytes of memory we can
+ 
+
+00:00:35.010 --> 00:00:38.180 align:start position:0%
+that it has 4 gigabytes of memory we can
+also<00:00:35.219><c> have</c><00:00:35.550><c> more</c><00:00:36.360><c> memory</c><00:00:36.809><c> even</c><00:00:37.620><c> more</c><00:00:37.800><c> memory</c>
+
+00:00:38.180 --> 00:00:38.190 align:start position:0%
+also have more memory even more memory
+ 
+
+00:00:38.190 --> 00:00:40.549 align:start position:0%
+also have more memory even more memory
+the<00:00:38.640><c> different</c><00:00:39.030><c> combination</c><00:00:39.600><c> of</c><00:00:39.809><c> memory</c><00:00:40.200><c> and</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+the different combination of memory and
+ 
+
+00:00:40.559 --> 00:00:42.830 align:start position:0%
+the different combination of memory and
+so<00:00:40.829><c> on</c><00:00:40.980><c> so</c><00:00:41.489><c> pretty</c><00:00:41.730><c> much</c><00:00:41.910><c> what</c><00:00:42.629><c> the</c>
+
+00:00:42.830 --> 00:00:42.840 align:start position:0%
+so on so pretty much what the
+ 
+
+00:00:42.840 --> 00:00:45.319 align:start position:0%
+so on so pretty much what the
+applications<00:00:43.440><c> think</c><00:00:43.980><c> they</c><00:00:44.370><c> have</c><00:00:44.610><c> in</c><00:00:44.969><c> terms</c><00:00:45.149><c> of</c>
+
+00:00:45.319 --> 00:00:45.329 align:start position:0%
+applications think they have in terms of
+ 
+
+00:00:45.329 --> 00:00:47.420 align:start position:0%
+applications think they have in terms of
+memory<00:00:45.570><c> and</c><00:00:45.899><c> what</c><00:00:46.140><c> the</c><00:00:46.289><c> system</c><00:00:46.469><c> really</c><00:00:47.100><c> has</c>
+
+00:00:47.420 --> 00:00:47.430 align:start position:0%
+memory and what the system really has
+ 
+
+00:00:47.430 --> 00:00:50.000 align:start position:0%
+memory and what the system really has
+can<00:00:48.329><c> be</c><00:00:48.480><c> completely</c><00:00:48.989><c> decoupled</c><00:00:49.500><c> by</c><00:00:49.649><c> virtual</c>
+
+00:00:50.000 --> 00:00:50.010 align:start position:0%
+can be completely decoupled by virtual
+ 
+
+00:00:50.010 --> 00:00:52.219 align:start position:0%
+can be completely decoupled by virtual
+memory
+

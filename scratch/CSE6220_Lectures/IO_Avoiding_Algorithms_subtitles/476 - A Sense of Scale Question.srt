@@ -1,0 +1,180 @@
+1
+00:00:00,220 --> 00:00:03,570
+ One of the main results of this lesson is going to be a lower-bound
+
+2
+00:00:03,570 --> 00:00:07,130
+ on the amount of communication needed to sort on a machine with slow and
+
+3
+00:00:07,130 --> 00:00:08,370
+ fast memory.
+
+4
+00:00:08,370 --> 00:00:10,530
+ And here is that lower-bound now.
+
+5
+00:00:10,530 --> 00:00:14,780
+ For an input of n items on a machine with a fast memory of size Z and
+
+6
+00:00:14,780 --> 00:00:17,140
+ a transfer size of L words per transfer,
+
+7
+00:00:17,140 --> 00:00:22,440
+ the lower-bound is n over L, log base Z over L n over L.
+
+8
+00:00:22,440 --> 00:00:26,570
+ Again, the base of the log is z over L rather than our usual two.
+
+9
+00:00:26,570 --> 00:00:28,870
+ Now what's a lot of symbolic mumbo jumbo.
+
+10
+00:00:28,870 --> 00:00:30,540
+ But what does it really mean?
+
+11
+00:00:30,540 --> 00:00:33,140
+ For instance, how would this function compare to,
+
+12
+00:00:33,140 --> 00:00:35,690
+ I don't know, plain old n log n?
+
+13
+00:00:35,690 --> 00:00:37,620
+ Or maybe even other quantities.
+
+14
+00:00:37,620 --> 00:00:41,420
+ I have an idea, let's have you find out.
+
+15
+00:00:41,420 --> 00:00:43,520
+ Now suppose you're given the following.
+
+16
+00:00:43,520 --> 00:00:47,840
+ The first is an input data set of total size 1 pibibyte, or
+
+17
+00:00:47,840 --> 00:00:50,410
+ 2 to the 50th bytes of information.
+
+18
+00:00:50,410 --> 00:00:55,370
+ A pibibyte is the power of 2 analog of a power of 10 petabyte.
+
+19
+00:00:55,370 --> 00:01:00,890
+ Now, this input consists of records or items, each of size 256 bytes.
+
+20
+00:01:00,890 --> 00:01:04,390
+ Initially, let's say this input all resides in slow memory.
+
+21
+00:01:04,390 --> 00:01:07,160
+ Slow memory in this case is probably disk.
+
+22
+00:01:07,160 --> 00:01:09,750
+ Let's say that the fast memory is DRAM.
+
+23
+00:01:09,750 --> 00:01:15,300
+ Suppose the DRAM can hold 64 gibibyte, or 2 to the 36th bytes.
+
+24
+00:01:15,300 --> 00:01:18,980
+ Finally, let's say that the minimum transaction size is 32 kibibytes.
+
+25
+00:01:18,980 --> 00:01:22,330
+ That's also 2 to the 15th bytes.
+
+26
+00:01:22,330 --> 00:01:26,890
+ That's probably a reasonable average for an efficient disk to memory transfer.
+
+27
+00:01:26,890 --> 00:01:29,050
+ Now suppose I give you a bunch of algorithms,
+
+28
+00:01:29,050 --> 00:01:32,620
+ each of these algorithms performs different numbers of transfers.
+
+29
+00:01:32,620 --> 00:01:35,215
+ Algorithm a does n log n transfers.
+
+30
+00:01:35,215 --> 00:01:41,935
+ B does n log n / L transfers, c does exactly n transfers,
+
+31
+00:01:41,935 --> 00:01:45,999
+ d does n / L log of n / L transfers.
+
+32
+00:01:45,999 --> 00:01:50,923
+ E does n / L log of n / z transfers, and finally,
+
+33
+00:01:50,923 --> 00:01:56,230
+ f does n / L lob base z / L of n over L transfers.
+
+34
+00:01:56,230 --> 00:01:59,950
+ Notice that these are log base 2 where a log appears except for
+
+35
+00:01:59,950 --> 00:02:03,240
+ the last case which is log base z over L.
+
+36
+00:02:03,240 --> 00:02:06,430
+ What I want you to do is evaluate each of these expressions
+
+37
+00:02:06,430 --> 00:02:08,560
+ given the numerical values.
+
+38
+00:02:08,560 --> 00:02:13,148
+ In each case, I want you to compute the value in trillions of operations or
+
+39
+00:02:13,148 --> 00:02:15,910
+ Terra-ops abbreviated Tops.
+
+40
+00:02:15,910 --> 00:02:18,280
+ So one Tops is ten to the twelfth operations.
+
+41
+00:02:18,280 --> 00:02:21,130
+ In this case, all the operations are transfers.
+
+42
+00:02:21,130 --> 00:02:24,640
+ Let me make this slightly less tedious, and you are welcome.
+
+43
+00:02:24,640 --> 00:02:28,938
+ So I've given you the answer for a, which is 185 Tops,
+
+44
+00:02:28,938 --> 00:02:31,328
+ and c, which is 4.40 Tops.
+
+45
+00:02:31,328 --> 00:02:31,328
+ In each case, notice I've written the answer to three significant figures.
+

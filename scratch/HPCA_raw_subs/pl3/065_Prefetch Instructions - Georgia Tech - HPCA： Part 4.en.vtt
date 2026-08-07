@@ -1,0 +1,536 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.540 align:start position:0%
+ 
+so<00:00:00.299><c> one</c><00:00:00.539><c> way</c><00:00:00.750><c> of</c><00:00:00.780><c> implementing</c><00:00:01.770><c> prefetching</c>
+
+00:00:02.540 --> 00:00:02.550 align:start position:0%
+so one way of implementing prefetching
+ 
+
+00:00:02.550 --> 00:00:05.480 align:start position:0%
+so one way of implementing prefetching
+is<00:00:02.939><c> to</c><00:00:03.330><c> just</c><00:00:03.659><c> add</c><00:00:03.959><c> prefetch</c><00:00:04.589><c> instructions</c><00:00:04.620><c> to</c>
+
+00:00:05.480 --> 00:00:05.490 align:start position:0%
+is to just add prefetch instructions to
+ 
+
+00:00:05.490 --> 00:00:07.579 align:start position:0%
+is to just add prefetch instructions to
+the<00:00:05.609><c> instruction</c><00:00:06.120><c> set</c><00:00:06.359><c> and</c><00:00:06.569><c> let</c><00:00:07.049><c> the</c><00:00:07.200><c> compiler</c>
+
+00:00:07.579 --> 00:00:07.589 align:start position:0%
+the instruction set and let the compiler
+ 
+
+00:00:07.589 --> 00:00:09.950 align:start position:0%
+the instruction set and let the compiler
+or<00:00:07.890><c> the</c><00:00:07.919><c> programmer</c><00:00:08.519><c> figure</c><00:00:08.910><c> out</c><00:00:09.030><c> when</c><00:00:09.929><c> to</c>
+
+00:00:09.950 --> 00:00:09.960 align:start position:0%
+or the programmer figure out when to
+ 
+
+00:00:09.960 --> 00:00:12.770 align:start position:0%
+or the programmer figure out when to
+request<00:00:10.740><c> prefetches</c><00:00:11.370><c> so</c><00:00:11.820><c> let's</c><00:00:12.059><c> say</c><00:00:12.210><c> we</c><00:00:12.540><c> have</c>
+
+00:00:12.770 --> 00:00:12.780 align:start position:0%
+request prefetches so let's say we have
+ 
+
+00:00:12.780 --> 00:00:16.129 align:start position:0%
+request prefetches so let's say we have
+a<00:00:12.809><c> program</c><00:00:13.380><c> that</c><00:00:13.590><c> adds</c><00:00:14.070><c> up</c><00:00:14.370><c> the</c><00:00:14.730><c> elements</c><00:00:15.210><c> of</c><00:00:15.389><c> a</c>
+
+00:00:16.129 --> 00:00:16.139 align:start position:0%
+a program that adds up the elements of a
+ 
+
+00:00:16.139 --> 00:00:18.950 align:start position:0%
+a program that adds up the elements of a
+large<00:00:16.350><c> array</c><00:00:16.710><c> into</c><00:00:17.310><c> a</c><00:00:17.340><c> sum</c><00:00:17.670><c> this</c><00:00:18.119><c> program</c><00:00:18.630><c> will</c>
+
+00:00:18.950 --> 00:00:18.960 align:start position:0%
+large array into a sum this program will
+ 
+
+00:00:18.960 --> 00:00:22.189 align:start position:0%
+large array into a sum this program will
+access<00:00:19.380><c> these</c><00:00:19.500><c> elements</c><00:00:20.039><c> one</c><00:00:20.550><c> at</c><00:00:20.580><c> a</c><00:00:20.789><c> time</c><00:00:21.199><c> so</c>
+
+00:00:22.189 --> 00:00:22.199 align:start position:0%
+access these elements one at a time so
+ 
+
+00:00:22.199 --> 00:00:24.320 align:start position:0%
+access these elements one at a time so
+it<00:00:22.289><c> has</c><00:00:22.439><c> a</c><00:00:22.470><c> lot</c><00:00:22.680><c> of</c><00:00:22.710><c> spatial</c><00:00:23.160><c> locality</c><00:00:23.330><c> not</c>
+
+00:00:24.320 --> 00:00:24.330 align:start position:0%
+it has a lot of spatial locality not
+ 
+
+00:00:24.330 --> 00:00:26.599 align:start position:0%
+it has a lot of spatial locality not
+much<00:00:24.570><c> temporal</c><00:00:25.050><c> locality</c><00:00:25.320><c> and</c><00:00:26.189><c> it</c><00:00:26.340><c> will</c><00:00:26.490><c> have</c>
+
+00:00:26.599 --> 00:00:26.609 align:start position:0%
+much temporal locality and it will have
+ 
+
+00:00:26.609 --> 00:00:28.910 align:start position:0%
+much temporal locality and it will have
+a<00:00:26.640><c> lot</c><00:00:26.849><c> of</c><00:00:26.880><c> misses</c><00:00:27.390><c> with</c><00:00:28.349><c> prefetching</c>
+
+00:00:28.910 --> 00:00:28.920 align:start position:0%
+a lot of misses with prefetching
+ 
+
+00:00:28.920 --> 00:00:30.970 align:start position:0%
+a lot of misses with prefetching
+instructions<00:00:29.090><c> this</c><00:00:30.090><c> program</c><00:00:30.599><c> will</c><00:00:30.779><c> become</c>
+
+00:00:30.970 --> 00:00:30.980 align:start position:0%
+instructions this program will become
+ 
+
+00:00:30.980 --> 00:00:34.040 align:start position:0%
+instructions this program will become
+something<00:00:31.980><c> like</c><00:00:32.160><c> this</c><00:00:32.340><c> we</c><00:00:33.329><c> still</c><00:00:33.600><c> have</c><00:00:33.899><c> the</c>
+
+00:00:34.040 --> 00:00:34.050 align:start position:0%
+something like this we still have the
+ 
+
+00:00:34.050 --> 00:00:36.319 align:start position:0%
+something like this we still have the
+original<00:00:34.140><c> program</c><00:00:34.890><c> but</c><00:00:35.399><c> in</c><00:00:35.640><c> this</c><00:00:35.760><c> loop</c><00:00:36.000><c> in</c>
+
+00:00:36.319 --> 00:00:36.329 align:start position:0%
+original program but in this loop in
+ 
+
+00:00:36.329 --> 00:00:39.020 align:start position:0%
+original program but in this loop in
+addition<00:00:37.050><c> to</c><00:00:37.500><c> accessing</c><00:00:38.010><c> the</c><00:00:38.520><c> appropriate</c>
+
+00:00:39.020 --> 00:00:39.030 align:start position:0%
+addition to accessing the appropriate
+ 
+
+00:00:39.030 --> 00:00:41.299 align:start position:0%
+addition to accessing the appropriate
+element<00:00:39.450><c> of</c><00:00:39.600><c> the</c><00:00:39.719><c> array</c><00:00:39.899><c> in</c><00:00:40.110><c> an</c><00:00:40.230><c> iteration</c><00:00:40.800><c> we</c>
+
+00:00:41.299 --> 00:00:41.309 align:start position:0%
+element of the array in an iteration we
+ 
+
+00:00:41.309 --> 00:00:44.209 align:start position:0%
+element of the array in an iteration we
+will<00:00:41.340><c> be</c><00:00:41.579><c> prefetching</c><00:00:42.329><c> a</c><00:00:42.800><c> element</c><00:00:43.800><c> that</c><00:00:44.070><c> we</c>
+
+00:00:44.209 --> 00:00:44.219 align:start position:0%
+will be prefetching a element that we
+ 
+
+00:00:44.219 --> 00:00:46.580 align:start position:0%
+will be prefetching a element that we
+will<00:00:44.340><c> access</c><00:00:44.550><c> in</c><00:00:44.910><c> the</c><00:00:45.030><c> future</c><00:00:45.059><c> P</c><00:00:45.809><c> this</c><00:00:46.050><c> tier</c>
+
+00:00:46.580 --> 00:00:46.590 align:start position:0%
+will access in the future P this tier
+ 
+
+00:00:46.590 --> 00:00:49.100 align:start position:0%
+will access in the future P this tier
+should<00:00:47.340><c> be</c><00:00:47.489><c> at</c><00:00:47.579><c> least</c><00:00:47.610><c> one</c><00:00:48.090><c> so</c><00:00:48.750><c> that</c><00:00:48.930><c> we</c><00:00:49.050><c> are</c>
+
+00:00:49.100 --> 00:00:49.110 align:start position:0%
+should be at least one so that we are
+ 
+
+00:00:49.110 --> 00:00:51.110 align:start position:0%
+should be at least one so that we are
+pre<00:00:49.260><c> fetching</c><00:00:49.590><c> the</c><00:00:49.710><c> next</c><00:00:49.739><c> element</c><00:00:50.430><c> but</c><00:00:50.969><c> you</c>
+
+00:00:51.110 --> 00:00:51.120 align:start position:0%
+pre fetching the next element but you
+ 
+
+00:00:51.120 --> 00:00:53.389 align:start position:0%
+pre fetching the next element but you
+might<00:00:51.329><c> want</c><00:00:51.629><c> to</c><00:00:51.660><c> prefetch</c><00:00:52.050><c> the</c><00:00:52.559><c> next</c><00:00:52.920><c> next</c><00:00:53.100><c> or</c>
+
+00:00:53.389 --> 00:00:53.399 align:start position:0%
+might want to prefetch the next next or
+ 
+
+00:00:53.399 --> 00:00:57.799 align:start position:0%
+might want to prefetch the next next or
+even<00:00:53.969><c> more</c><00:00:54.570><c> advanced</c><00:00:55.110><c> elements</c><00:00:55.399><c> so</c><00:00:56.399><c> here</c><00:00:56.910><c> one</c>
+
+00:00:57.799 --> 00:00:57.809 align:start position:0%
+even more advanced elements so here one
+ 
+
+00:00:57.809 --> 00:00:59.689 align:start position:0%
+even more advanced elements so here one
+of<00:00:57.960><c> the</c><00:00:58.050><c> trickier</c><00:00:58.440><c> questions</c><00:00:58.920><c> is</c><00:00:59.100><c> what</c><00:00:59.340><c> should</c>
+
+00:00:59.689 --> 00:00:59.699 align:start position:0%
+of the trickier questions is what should
+ 
+
+00:00:59.699 --> 00:01:02.510 align:start position:0%
+of the trickier questions is what should
+be<00:00:59.910><c> the</c><00:01:00.270><c> pedis</c><00:01:00.690><c> how</c><00:01:01.320><c> far</c><00:01:01.649><c> in</c><00:01:01.859><c> advance</c><00:01:01.949><c> to</c>
+
+00:01:02.510 --> 00:01:02.520 align:start position:0%
+be the pedis how far in advance to
+ 
+
+00:01:02.520 --> 00:01:05.329 align:start position:0%
+be the pedis how far in advance to
+prefetch<00:01:02.969><c> if</c><00:01:03.780><c> P</c><00:01:04.110><c> deist</c><00:01:04.350><c> is</c><00:01:04.500><c> too</c><00:01:04.739><c> small</c><00:01:05.070><c> for</c>
+
+00:01:05.329 --> 00:01:05.339 align:start position:0%
+prefetch if P deist is too small for
+ 
+
+00:01:05.339 --> 00:01:08.179 align:start position:0%
+prefetch if P deist is too small for
+example<00:01:06.150><c> if</c><00:01:06.210><c> it's</c><00:01:06.360><c> only</c><00:01:06.600><c> 1</c><00:01:06.930><c> we</c><00:01:07.650><c> end</c><00:01:07.830><c> up</c><00:01:07.979><c> having</c>
+
+00:01:08.179 --> 00:01:08.189 align:start position:0%
+example if it's only 1 we end up having
+ 
+
+00:01:08.189 --> 00:01:11.090 align:start position:0%
+example if it's only 1 we end up having
+something<00:01:08.640><c> like</c><00:01:08.820><c> this</c><00:01:09.180><c> our</c><00:01:10.049><c> access</c><00:01:10.470><c> is</c><00:01:10.619><c> here</c>
+
+00:01:11.090 --> 00:01:11.100 align:start position:0%
+something like this our access is here
+ 
+
+00:01:11.100 --> 00:01:13.940 align:start position:0%
+something like this our access is here
+we<00:01:12.090><c> issue</c><00:01:12.330><c> our</c><00:01:12.540><c> prefetch</c><00:01:13.140><c> in</c><00:01:13.380><c> the</c><00:01:13.560><c> previous</c>
+
+00:01:13.940 --> 00:01:13.950 align:start position:0%
+we issue our prefetch in the previous
+ 
+
+00:01:13.950 --> 00:01:16.580 align:start position:0%
+we issue our prefetch in the previous
+iteration<00:01:14.340><c> for</c><00:01:14.729><c> this</c><00:01:14.939><c> element</c><00:01:15.390><c> the</c><00:01:16.229><c> memory</c>
+
+00:01:16.580 --> 00:01:16.590 align:start position:0%
+iteration for this element the memory
+ 
+
+00:01:16.590 --> 00:01:19.190 align:start position:0%
+iteration for this element the memory
+latency<00:01:17.100><c> might</c><00:01:17.280><c> be</c><00:01:17.430><c> this</c><00:01:17.600><c> which</c><00:01:18.600><c> means</c><00:01:18.869><c> that</c>
+
+00:01:19.190 --> 00:01:19.200 align:start position:0%
+latency might be this which means that
+ 
+
+00:01:19.200 --> 00:01:21.890 align:start position:0%
+latency might be this which means that
+when<00:01:19.409><c> we</c><00:01:19.619><c> do</c><00:01:19.740><c> our</c><00:01:19.890><c> access</c><00:01:20.369><c> the</c><00:01:21.270><c> data</c><00:01:21.509><c> still</c>
+
+00:01:21.890 --> 00:01:21.900 align:start position:0%
+when we do our access the data still
+ 
+
+00:01:21.900 --> 00:01:23.929 align:start position:0%
+when we do our access the data still
+hasn't<00:01:22.350><c> arrived</c><00:01:22.650><c> from</c><00:01:22.860><c> memory</c><00:01:23.159><c> we</c><00:01:23.549><c> will</c><00:01:23.610><c> still</c>
+
+00:01:23.929 --> 00:01:23.939 align:start position:0%
+hasn't arrived from memory we will still
+ 
+
+00:01:23.939 --> 00:01:26.359 align:start position:0%
+hasn't arrived from memory we will still
+have<00:01:23.970><c> to</c><00:01:24.299><c> wait</c><00:01:24.450><c> for</c><00:01:24.479><c> it</c><00:01:24.720><c> although</c><00:01:25.530><c> we</c><00:01:26.070><c> will</c>
+
+00:01:26.359 --> 00:01:26.369 align:start position:0%
+have to wait for it although we will
+ 
+
+00:01:26.369 --> 00:01:28.399 align:start position:0%
+have to wait for it although we will
+have<00:01:26.580><c> to</c><00:01:26.729><c> wait</c><00:01:26.880><c> for</c><00:01:27.090><c> it</c><00:01:27.210><c> less</c><00:01:27.509><c> than</c><00:01:28.080><c> if</c><00:01:28.229><c> there</c>
+
+00:01:28.399 --> 00:01:28.409 align:start position:0%
+have to wait for it less than if there
+ 
+
+00:01:28.409 --> 00:01:31.969 align:start position:0%
+have to wait for it less than if there
+was<00:01:28.560><c> no</c><00:01:28.770><c> prefetch</c><00:01:29.840><c> so</c><00:01:30.840><c> here</c><00:01:31.110><c> we</c><00:01:31.259><c> prefetch</c><00:01:31.650><c> too</c>
+
+00:01:31.969 --> 00:01:31.979 align:start position:0%
+was no prefetch so here we prefetch too
+ 
+
+00:01:31.979 --> 00:01:34.880 align:start position:0%
+was no prefetch so here we prefetch too
+late<00:01:32.189><c> and</c><00:01:32.490><c> the</c><00:01:33.090><c> access</c><00:01:33.450><c> happens</c><00:01:33.840><c> before</c><00:01:34.530><c> the</c>
+
+00:01:34.880 --> 00:01:34.890 align:start position:0%
+late and the access happens before the
+ 
+
+00:01:34.890 --> 00:01:36.380 align:start position:0%
+late and the access happens before the
+data<00:01:35.070><c> arrives</c><00:01:35.369><c> from</c><00:01:35.490><c> memory</c><00:01:35.820><c> so</c><00:01:35.850><c> we</c><00:01:36.150><c> still</c>
+
+00:01:36.380 --> 00:01:36.390 align:start position:0%
+data arrives from memory so we still
+ 
+
+00:01:36.390 --> 00:01:37.850 align:start position:0%
+data arrives from memory so we still
+have<00:01:36.600><c> a</c><00:01:36.630><c> miss</c><00:01:36.900><c> although</c><00:01:37.380><c> it's</c><00:01:37.530><c> a</c><00:01:37.590><c> slightly</c>
+
+00:01:37.850 --> 00:01:37.860 align:start position:0%
+have a miss although it's a slightly
+ 
+
+00:01:37.860 --> 00:01:39.770 align:start position:0%
+have a miss although it's a slightly
+less<00:01:38.130><c> expensive</c><00:01:38.430><c> one</c><00:01:39.000><c> in</c><00:01:39.240><c> terms</c><00:01:39.479><c> of</c><00:01:39.600><c> how</c><00:01:39.750><c> long</c>
+
+00:01:39.770 --> 00:01:39.780 align:start position:0%
+less expensive one in terms of how long
+ 
+
+00:01:39.780 --> 00:01:40.700 align:start position:0%
+less expensive one in terms of how long
+we<00:01:40.049><c> have</c><00:01:40.200><c> to</c><00:01:40.229><c> wait</c>
+
+00:01:40.700 --> 00:01:40.710 align:start position:0%
+we have to wait
+ 
+
+00:01:40.710 --> 00:01:43.999 align:start position:0%
+we have to wait
+however<00:01:41.220><c> if</c><00:01:41.520><c> pedis</c><00:01:41.909><c> is</c><00:01:42.090><c> too</c><00:01:42.299><c> large</c><00:01:42.860><c> let's</c><00:01:43.860><c> say</c>
+
+00:01:43.999 --> 00:01:44.009 align:start position:0%
+however if pedis is too large let's say
+ 
+
+00:01:44.009 --> 00:01:47.060 align:start position:0%
+however if pedis is too large let's say
+that<00:01:44.159><c> the</c><00:01:44.579><c> access</c><00:01:44.939><c> is</c><00:01:45.090><c> here</c><00:01:45.119><c> and</c><00:01:45.689><c> we</c><00:01:46.380><c> prefetch</c>
+
+00:01:47.060 --> 00:01:47.070 align:start position:0%
+that the access is here and we prefetch
+ 
+
+00:01:47.070 --> 00:01:50.120 align:start position:0%
+that the access is here and we prefetch
+this<00:01:47.820><c> element</c><00:01:48.420><c> way</c><00:01:48.869><c> ahead</c><00:01:49.229><c> of</c><00:01:49.350><c> time</c><00:01:49.590><c> it</c>
+
+00:01:50.120 --> 00:01:50.130 align:start position:0%
+this element way ahead of time it
+ 
+
+00:01:50.130 --> 00:01:52.639 align:start position:0%
+this element way ahead of time it
+arrives<00:01:50.610><c> from</c><00:01:50.820><c> memory</c><00:01:51.119><c> here</c><00:01:51.570><c> sits</c><00:01:52.320><c> in</c><00:01:52.500><c> the</c>
+
+00:01:52.639 --> 00:01:52.649 align:start position:0%
+arrives from memory here sits in the
+ 
+
+00:01:52.649 --> 00:01:54.800 align:start position:0%
+arrives from memory here sits in the
+cache<00:01:52.890><c> and</c><00:01:53.189><c> because</c><00:01:53.850><c> other</c><00:01:54.090><c> elements</c><00:01:54.720><c> are</c>
+
+00:01:54.800 --> 00:01:54.810 align:start position:0%
+cache and because other elements are
+ 
+
+00:01:54.810 --> 00:01:56.539 align:start position:0%
+cache and because other elements are
+being<00:01:54.960><c> accessed</c><00:01:55.409><c> in</c><00:01:55.619><c> this</c><00:01:55.770><c> loop</c><00:01:55.979><c> all</c><00:01:56.189><c> the</c><00:01:56.310><c> time</c>
+
+00:01:56.539 --> 00:01:56.549 align:start position:0%
+being accessed in this loop all the time
+ 
+
+00:01:56.549 --> 00:02:00.200 align:start position:0%
+being accessed in this loop all the time
+this<00:01:57.740><c> might</c><00:01:58.740><c> be</c><00:01:58.979><c> eventually</c><00:01:59.520><c> kicked</c><00:01:59.729><c> out</c><00:01:59.939><c> and</c>
+
+00:02:00.200 --> 00:02:00.210 align:start position:0%
+this might be eventually kicked out and
+ 
+
+00:02:00.210 --> 00:02:02.450 align:start position:0%
+this might be eventually kicked out and
+in<00:02:00.869><c> this</c><00:02:00.990><c> case</c><00:02:01.259><c> we</c><00:02:01.950><c> say</c><00:02:02.159><c> that</c><00:02:02.189><c> we</c><00:02:02.430><c> have</c>
+
+00:02:02.450 --> 00:02:02.460 align:start position:0%
+in this case we say that we have
+ 
+
+00:02:02.460 --> 00:02:05.300 align:start position:0%
+in this case we say that we have
+prefetch<00:02:02.969><c> too</c><00:02:03.149><c> early</c><00:02:03.479><c> so</c><00:02:04.079><c> as</c><00:02:04.229><c> you</c><00:02:04.380><c> can</c><00:02:04.530><c> see</c><00:02:04.799><c> it</c>
+
+00:02:05.300 --> 00:02:05.310 align:start position:0%
+prefetch too early so as you can see it
+ 
+
+00:02:05.310 --> 00:02:08.089 align:start position:0%
+prefetch too early so as you can see it
+is<00:02:05.579><c> not</c><00:02:05.820><c> easy</c><00:02:06.149><c> to</c><00:02:06.570><c> guess</c><00:02:06.810><c> how</c><00:02:07.560><c> far</c><00:02:07.590><c> in</c><00:02:08.009><c> advance</c>
+
+00:02:08.089 --> 00:02:08.099 align:start position:0%
+is not easy to guess how far in advance
+ 
+
+00:02:08.099 --> 00:02:11.180 align:start position:0%
+is not easy to guess how far in advance
+to<00:02:08.489><c> prefetch</c><00:02:09.410><c> furthermore</c><00:02:10.410><c> if</c><00:02:10.770><c> you</c><00:02:10.979><c> are</c>
+
+00:02:11.180 --> 00:02:11.190 align:start position:0%
+to prefetch furthermore if you are
+ 
+
+00:02:11.190 --> 00:02:13.100 align:start position:0%
+to prefetch furthermore if you are
+writing<00:02:11.400><c> a</c><00:02:11.670><c> program</c><00:02:11.819><c> and</c><00:02:12.270><c> changing</c><00:02:12.720><c> it</c><00:02:12.840><c> to</c><00:02:12.959><c> do</c>
+
+00:02:13.100 --> 00:02:13.110 align:start position:0%
+writing a program and changing it to do
+ 
+
+00:02:13.110 --> 00:02:13.910 align:start position:0%
+writing a program and changing it to do
+prefetching
+
+00:02:13.910 --> 00:02:13.920 align:start position:0%
+prefetching
+ 
+
+00:02:13.920 --> 00:02:16.460 align:start position:0%
+prefetching
+it<00:02:14.640><c> might</c><00:02:14.970><c> be</c><00:02:15.150><c> that</c><00:02:15.330><c> in</c><00:02:15.480><c> one</c><00:02:15.690><c> generation</c><00:02:16.080><c> of</c>
+
+00:02:16.460 --> 00:02:16.470 align:start position:0%
+it might be that in one generation of
+ 
+
+00:02:16.470 --> 00:02:18.830 align:start position:0%
+it might be that in one generation of
+hardware<00:02:17.130><c> the</c><00:02:17.670><c> correct</c><00:02:18.060><c> pedis</c><00:02:18.450><c> might</c><00:02:18.690><c> be</c>
+
+00:02:18.830 --> 00:02:18.840 align:start position:0%
+hardware the correct pedis might be
+ 
+
+00:02:18.840 --> 00:02:21.440 align:start position:0%
+hardware the correct pedis might be
+let's<00:02:19.050><c> say</c><00:02:19.200><c> 20</c><00:02:19.800><c> and</c><00:02:19.980><c> then</c><00:02:20.580><c> the</c><00:02:20.940><c> processor</c><00:02:21.300><c> for</c>
+
+00:02:21.440 --> 00:02:21.450 align:start position:0%
+let's say 20 and then the processor for
+ 
+
+00:02:21.450 --> 00:02:23.390 align:start position:0%
+let's say 20 and then the processor for
+example<00:02:21.540><c> becomes</c><00:02:22.110><c> faster</c><00:02:22.590><c> but</c><00:02:22.950><c> the</c><00:02:23.099><c> memory</c>
+
+00:02:23.390 --> 00:02:23.400 align:start position:0%
+example becomes faster but the memory
+ 
+
+00:02:23.400 --> 00:02:26.210 align:start position:0%
+example becomes faster but the memory
+doesn't<00:02:23.700><c> and</c><00:02:24.090><c> now</c><00:02:24.690><c> the</c><00:02:25.440><c> processor</c><00:02:25.800><c> does</c><00:02:25.980><c> more</c>
+
+00:02:26.210 --> 00:02:26.220 align:start position:0%
+doesn't and now the processor does more
+ 
+
+00:02:26.220 --> 00:02:28.210 align:start position:0%
+doesn't and now the processor does more
+iterations<00:02:26.819><c> while</c><00:02:27.390><c> the</c><00:02:27.540><c> memory</c><00:02:27.720><c> is</c>
+
+00:02:28.210 --> 00:02:28.220 align:start position:0%
+iterations while the memory is
+ 
+
+00:02:28.220 --> 00:02:30.290 align:start position:0%
+iterations while the memory is
+responding<00:02:29.220><c> so</c><00:02:29.580><c> we</c><00:02:29.700><c> need</c><00:02:29.849><c> to</c><00:02:29.970><c> increase</c><00:02:30.180><c> the</c>
+
+00:02:30.290 --> 00:02:30.300 align:start position:0%
+responding so we need to increase the
+ 
+
+00:02:30.300 --> 00:02:33.530 align:start position:0%
+responding so we need to increase the
+distance<00:02:30.709><c> so</c><00:02:31.709><c> basically</c><00:02:32.160><c> kind</c><00:02:32.520><c> of</c><00:02:32.580><c> coding</c>
+
+00:02:33.530 --> 00:02:33.540 align:start position:0%
+distance so basically kind of coding
+ 
+
+00:02:33.540 --> 00:02:36.170 align:start position:0%
+distance so basically kind of coding
+this<00:02:33.780><c> pedis</c><00:02:34.530><c> into</c><00:02:35.010><c> the</c><00:02:35.160><c> program</c><00:02:35.610><c> becomes</c>
+
+00:02:36.170 --> 00:02:36.180 align:start position:0%
+this pedis into the program becomes
+ 
+
+00:02:36.180 --> 00:02:39.020 align:start position:0%
+this pedis into the program becomes
+tricky<00:02:36.569><c> because</c><00:02:36.989><c> the</c><00:02:37.860><c> correct</c><00:02:38.250><c> value</c><00:02:38.670><c> for</c><00:02:38.880><c> it</c>
+
+00:02:39.020 --> 00:02:39.030 align:start position:0%
+tricky because the correct value for it
+ 
+
+00:02:39.030 --> 00:02:41.199 align:start position:0%
+tricky because the correct value for it
+so<00:02:39.300><c> it's</c><00:02:39.450><c> not</c><00:02:39.630><c> too</c><00:02:39.989><c> small</c><00:02:40.290><c> or</c><00:02:40.530><c> too</c><00:02:40.560><c> large</c>
+
+00:02:41.199 --> 00:02:41.209 align:start position:0%
+so it's not too small or too large
+ 
+
+00:02:41.209 --> 00:02:44.360 align:start position:0%
+so it's not too small or too large
+changes<00:02:42.209><c> as</c><00:02:42.450><c> Hardware</c><00:02:42.989><c> changes</c><00:02:43.410><c> so</c><00:02:44.010><c> prefetch</c>
+
+00:02:44.360 --> 00:02:44.370 align:start position:0%
+changes as Hardware changes so prefetch
+ 
+
+00:02:44.370 --> 00:02:46.790 align:start position:0%
+changes as Hardware changes so prefetch
+instructions<00:02:44.400><c> are</c><00:02:44.970><c> very</c><00:02:45.150><c> useful</c><00:02:45.630><c> but</c><00:02:46.590><c> they</c>
+
+00:02:46.790 --> 00:02:46.800 align:start position:0%
+instructions are very useful but they
+ 
+
+00:02:46.800 --> 00:02:50.120 align:start position:0%
+instructions are very useful but they
+are<00:02:46.860><c> not</c><00:02:47.040><c> easy</c><00:02:47.370><c> to</c><00:02:47.519><c> get</c><00:02:47.819><c> right</c>
+

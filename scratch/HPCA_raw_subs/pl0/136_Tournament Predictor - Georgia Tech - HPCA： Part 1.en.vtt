@@ -1,0 +1,616 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:01.870 align:start position:0%
+ 
+so<00:00:00.359><c> that</c><00:00:00.520><c> brings</c><00:00:00.840><c> us</c><00:00:01.040><c> to</c><00:00:01.199><c> a</c><00:00:01.360><c> so-called</c>
+
+00:00:01.870 --> 00:00:01.880 align:start position:0%
+so that brings us to a so-called
+ 
+
+00:00:01.880 --> 00:00:04.110 align:start position:0%
+so that brings us to a so-called
+tournament<00:00:02.480><c> predictor</c><00:00:03.320><c> the</c><00:00:03.480><c> idea</c><00:00:03.840><c> is</c><00:00:04.000><c> that</c>
+
+00:00:04.110 --> 00:00:04.120 align:start position:0%
+tournament predictor the idea is that
+ 
+
+00:00:04.120 --> 00:00:06.590 align:start position:0%
+tournament predictor the idea is that
+you<00:00:04.319><c> have</c><00:00:04.520><c> two</c><00:00:04.960><c> predictors</c><00:00:05.960><c> one</c><00:00:06.160><c> is</c><00:00:06.319><c> better</c>
+
+00:00:06.590 --> 00:00:06.600 align:start position:0%
+you have two predictors one is better
+ 
+
+00:00:06.600 --> 00:00:08.910 align:start position:0%
+you have two predictors one is better
+for<00:00:06.799><c> some</c><00:00:07.120><c> branches</c><00:00:08.120><c> the</c><00:00:08.240><c> other</c><00:00:08.519><c> is</c><00:00:08.679><c> better</c>
+
+00:00:08.910 --> 00:00:08.920 align:start position:0%
+for some branches the other is better
+ 
+
+00:00:08.920 --> 00:00:11.430 align:start position:0%
+for some branches the other is better
+for<00:00:09.200><c> other</c><00:00:09.559><c> branches</c><00:00:10.559><c> now</c><00:00:10.840><c> what</c><00:00:10.960><c> you</c><00:00:11.080><c> want</c><00:00:11.280><c> to</c>
+
+00:00:11.430 --> 00:00:11.440 align:start position:0%
+for other branches now what you want to
+ 
+
+00:00:11.440 --> 00:00:14.589 align:start position:0%
+for other branches now what you want to
+do<00:00:12.080><c> is</c><00:00:12.240><c> to</c><00:00:12.480><c> get</c><00:00:12.799><c> the</c><00:00:13.000><c> best</c><00:00:13.280><c> behavior</c><00:00:13.799><c> for</c><00:00:14.200><c> all</c>
+
+00:00:14.589 --> 00:00:14.599 align:start position:0%
+do is to get the best behavior for all
+ 
+
+00:00:14.599 --> 00:00:16.710 align:start position:0%
+do is to get the best behavior for all
+types<00:00:14.839><c> of</c><00:00:15.000><c> branches</c><00:00:15.759><c> so</c><00:00:16.039><c> what</c><00:00:16.160><c> you</c><00:00:16.240><c> want</c><00:00:16.400><c> to</c><00:00:16.520><c> do</c>
+
+00:00:16.710 --> 00:00:16.720 align:start position:0%
+types of branches so what you want to do
+ 
+
+00:00:16.720 --> 00:00:18.550 align:start position:0%
+types of branches so what you want to do
+is<00:00:17.080><c> when</c><00:00:17.240><c> you</c><00:00:17.359><c> have</c><00:00:17.560><c> these</c><00:00:17.760><c> branches</c><00:00:18.199><c> use</c><00:00:18.439><c> the</c>
+
+00:00:18.550 --> 00:00:18.560 align:start position:0%
+is when you have these branches use the
+ 
+
+00:00:18.560 --> 00:00:19.910 align:start position:0%
+is when you have these branches use the
+first<00:00:18.800><c> predictor</c><00:00:19.279><c> when</c><00:00:19.400><c> you</c><00:00:19.520><c> have</c><00:00:19.720><c> these</c>
+
+00:00:19.910 --> 00:00:19.920 align:start position:0%
+first predictor when you have these
+ 
+
+00:00:19.920 --> 00:00:21.910 align:start position:0%
+first predictor when you have these
+branches<00:00:20.320><c> use</c><00:00:20.519><c> the</c><00:00:20.680><c> second</c><00:00:21.000><c> predictor</c><00:00:21.800><c> but</c>
+
+00:00:21.910 --> 00:00:21.920 align:start position:0%
+branches use the second predictor but
+ 
+
+00:00:21.920 --> 00:00:23.429 align:start position:0%
+branches use the second predictor but
+you<00:00:22.080><c> don't</c><00:00:22.320><c> know</c><00:00:22.640><c> which</c><00:00:22.840><c> branches</c><00:00:23.199><c> are</c><00:00:23.359><c> going</c>
+
+00:00:23.429 --> 00:00:23.439 align:start position:0%
+you don't know which branches are going
+ 
+
+00:00:23.439 --> 00:00:24.830 align:start position:0%
+you don't know which branches are going
+to<00:00:23.599><c> benefit</c><00:00:24.039><c> from</c><00:00:24.240><c> which</c><00:00:24.359><c> of</c><00:00:24.480><c> your</c><00:00:24.640><c> two</c>
+
+00:00:24.830 --> 00:00:24.840 align:start position:0%
+to benefit from which of your two
+ 
+
+00:00:24.840 --> 00:00:26.910 align:start position:0%
+to benefit from which of your two
+predictors<00:00:25.359><c> ahead</c><00:00:25.599><c> of</c><00:00:25.800><c> time</c><00:00:26.439><c> so</c><00:00:26.640><c> what</c><00:00:26.760><c> you</c>
+
+00:00:26.910 --> 00:00:26.920 align:start position:0%
+predictors ahead of time so what you
+ 
+
+00:00:26.920 --> 00:00:29.349 align:start position:0%
+predictors ahead of time so what you
+really<00:00:27.279><c> have</c><00:00:27.720><c> is</c><00:00:27.880><c> your</c><00:00:28.080><c> two</c><00:00:28.359><c> predictors</c><00:00:29.199><c> let's</c>
+
+00:00:29.349 --> 00:00:29.359 align:start position:0%
+really have is your two predictors let's
+ 
+
+00:00:29.359 --> 00:00:31.630 align:start position:0%
+really have is your two predictors let's
+say<00:00:29.519><c> that</c><00:00:29.679><c> they're</c><00:00:30.000><c> G</c><00:00:30.119><c> share</c><00:00:30.359><c> and</c><00:00:30.519><c> pshare</c><00:00:31.519><c> you</c>
+
+00:00:31.630 --> 00:00:31.640 align:start position:0%
+say that they're G share and pshare you
+ 
+
+00:00:31.640 --> 00:00:34.430 align:start position:0%
+say that they're G share and pshare you
+will<00:00:31.840><c> use</c><00:00:32.119><c> your</c><00:00:32.759><c> PC</c><00:00:33.160><c> of</c><00:00:33.320><c> the</c><00:00:33.440><c> branch</c><00:00:33.800><c> to</c><00:00:34.040><c> index</c>
+
+00:00:34.430 --> 00:00:34.440 align:start position:0%
+will use your PC of the branch to index
+ 
+
+00:00:34.440 --> 00:00:37.069 align:start position:0%
+will use your PC of the branch to index
+into<00:00:34.760><c> both</c><00:00:35.000><c> of</c><00:00:35.120><c> the</c><00:00:35.640><c> predictors</c><00:00:36.640><c> you</c><00:00:36.760><c> will</c>
+
+00:00:37.069 --> 00:00:37.079 align:start position:0%
+into both of the predictors you will
+ 
+
+00:00:37.079 --> 00:00:39.350 align:start position:0%
+into both of the predictors you will
+take<00:00:37.320><c> the</c><00:00:37.520><c> decisions</c><00:00:38.120><c> that</c><00:00:38.239><c> they</c><00:00:38.440><c> generate</c>
+
+00:00:39.350 --> 00:00:39.360 align:start position:0%
+take the decisions that they generate
+ 
+
+00:00:39.360 --> 00:00:41.110 align:start position:0%
+take the decisions that they generate
+and<00:00:39.520><c> now</c><00:00:39.680><c> you</c><00:00:39.760><c> need</c><00:00:39.920><c> to</c><00:00:40.120><c> decide</c><00:00:40.520><c> which</c><00:00:40.680><c> one</c><00:00:40.879><c> to</c>
+
+00:00:41.110 --> 00:00:41.120 align:start position:0%
+and now you need to decide which one to
+ 
+
+00:00:41.120 --> 00:00:44.630 align:start position:0%
+and now you need to decide which one to
+use<00:00:42.120><c> how</c><00:00:42.280><c> do</c><00:00:42.399><c> you</c><00:00:42.559><c> do</c><00:00:42.800><c> that</c><00:00:43.520><c> and</c><00:00:43.719><c> the</c><00:00:43.920><c> idea</c><00:00:44.280><c> of</c><00:00:44.399><c> a</c>
+
+00:00:44.630 --> 00:00:44.640 align:start position:0%
+use how do you do that and the idea of a
+ 
+
+00:00:44.640 --> 00:00:46.229 align:start position:0%
+use how do you do that and the idea of a
+tournament<00:00:45.200><c> predictor</c><00:00:45.640><c> is</c><00:00:45.760><c> to</c><00:00:45.960><c> use</c><00:00:46.120><c> a</c>
+
+00:00:46.229 --> 00:00:46.239 align:start position:0%
+tournament predictor is to use a
+ 
+
+00:00:46.239 --> 00:00:48.069 align:start position:0%
+tournament predictor is to use a
+so-called<00:00:46.680><c> meta</c><00:00:47.120><c> predictor</c><00:00:47.719><c> which</c><00:00:47.800><c> is</c><00:00:47.960><c> just</c>
+
+00:00:48.069 --> 00:00:48.079 align:start position:0%
+so-called meta predictor which is just
+ 
+
+00:00:48.079 --> 00:00:50.709 align:start position:0%
+so-called meta predictor which is just
+an<00:00:48.280><c> array</c><00:00:48.520><c> of</c><00:00:48.640><c> two</c><00:00:48.840><c> bit</c><00:00:49.199><c> counters</c><00:00:50.199><c> you</c><00:00:50.440><c> also</c>
+
+00:00:50.709 --> 00:00:50.719 align:start position:0%
+an array of two bit counters you also
+ 
+
+00:00:50.719 --> 00:00:53.590 align:start position:0%
+an array of two bit counters you also
+use<00:00:50.960><c> the</c><00:00:51.120><c> PC2</c><00:00:51.600><c> index</c><00:00:52.079><c> there</c><00:00:52.719><c> and</c><00:00:52.920><c> the</c><00:00:53.079><c> entry</c><00:00:53.440><c> of</c>
+
+00:00:53.590 --> 00:00:53.600 align:start position:0%
+use the PC2 index there and the entry of
+ 
+
+00:00:53.600 --> 00:00:55.310 align:start position:0%
+use the PC2 index there and the entry of
+the<00:00:53.760><c> meta</c>
+
+00:00:55.310 --> 00:00:55.320 align:start position:0%
+the meta
+ 
+
+00:00:55.320 --> 00:00:58.110 align:start position:0%
+the meta
+predictor<00:00:56.320><c> does</c><00:00:56.559><c> not</c><00:00:56.840><c> tell</c><00:00:57.079><c> you</c><00:00:57.440><c> a</c><00:00:57.680><c> prediction</c>
+
+00:00:58.110 --> 00:00:58.120 align:start position:0%
+predictor does not tell you a prediction
+ 
+
+00:00:58.120 --> 00:01:00.790 align:start position:0%
+predictor does not tell you a prediction
+for<00:00:58.359><c> the</c><00:00:58.519><c> branch</c><00:00:59.320><c> it</c><00:00:59.480><c> tells</c><00:00:59.760><c> you</c>
+
+00:01:00.790 --> 00:01:00.800 align:start position:0%
+for the branch it tells you
+ 
+
+00:01:00.800 --> 00:01:03.110 align:start position:0%
+for the branch it tells you
+which<00:01:01.039><c> of</c><00:01:01.199><c> the</c><00:01:01.359><c> two</c><00:01:01.600><c> predictors</c><00:01:02.519><c> is</c><00:01:02.680><c> the</c><00:01:02.840><c> more</c>
+
+00:01:03.110 --> 00:01:03.120 align:start position:0%
+which of the two predictors is the more
+ 
+
+00:01:03.120 --> 00:01:04.789 align:start position:0%
+which of the two predictors is the more
+likely<00:01:03.440><c> to</c><00:01:03.640><c> give</c><00:01:03.800><c> an</c><00:01:04.040><c> accurate</c><00:01:04.400><c> prediction</c>
+
+00:01:04.789 --> 00:01:04.799 align:start position:0%
+likely to give an accurate prediction
+ 
+
+00:01:04.799 --> 00:01:06.950 align:start position:0%
+likely to give an accurate prediction
+for<00:01:05.040><c> that</c><00:01:05.320><c> Branch</c><00:01:06.119><c> so</c><00:01:06.280><c> what</c><00:01:06.400><c> you</c><00:01:06.520><c> do</c><00:01:06.680><c> is</c><00:01:06.799><c> you</c>
+
+00:01:06.950 --> 00:01:06.960 align:start position:0%
+for that Branch so what you do is you
+ 
+
+00:01:06.960 --> 00:01:10.390 align:start position:0%
+for that Branch so what you do is you
+use<00:01:07.360><c> this</c><00:01:08.240><c> to</c><00:01:08.759><c> choose</c><00:01:09.759><c> among</c><00:01:10.080><c> the</c><00:01:10.200><c> two</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+use this to choose among the two
+ 
+
+00:01:10.400 --> 00:01:12.109 align:start position:0%
+use this to choose among the two
+decisions<00:01:10.840><c> so</c><00:01:11.040><c> pretty</c><00:01:11.280><c> much</c><00:01:11.600><c> this</c><00:01:11.799><c> meta</c>
+
+00:01:12.109 --> 00:01:12.119 align:start position:0%
+decisions so pretty much this meta
+ 
+
+00:01:12.119 --> 00:01:14.350 align:start position:0%
+decisions so pretty much this meta
+predictor<00:01:12.640><c> gives</c><00:01:12.840><c> you</c><00:01:13.080><c> a</c><00:01:13.280><c> way</c><00:01:13.439><c> to</c><00:01:13.720><c> select</c>
+
+00:01:14.350 --> 00:01:14.360 align:start position:0%
+predictor gives you a way to select
+ 
+
+00:01:14.360 --> 00:01:16.350 align:start position:0%
+predictor gives you a way to select
+among<00:01:14.600><c> the</c><00:01:14.759><c> two</c><00:01:14.960><c> decisions</c><00:01:15.560><c> so</c><00:01:15.759><c> that</c><00:01:16.200><c> the</c>
+
+00:01:16.350 --> 00:01:16.360 align:start position:0%
+among the two decisions so that the
+ 
+
+00:01:16.360 --> 00:01:18.510 align:start position:0%
+among the two decisions so that the
+final<00:01:16.680><c> outcome</c><00:01:17.080><c> is</c><00:01:17.200><c> the</c><00:01:17.400><c> decision</c><00:01:18.200><c> that</c><00:01:18.360><c> the</c>
+
+00:01:18.510 --> 00:01:18.520 align:start position:0%
+final outcome is the decision that the
+ 
+
+00:01:18.520 --> 00:01:21.230 align:start position:0%
+final outcome is the decision that the
+meta<00:01:18.880><c> predictor</c><00:01:19.560><c> thinks</c><00:01:20.560><c> is</c><00:01:20.720><c> a</c><00:01:20.920><c> better</c>
+
+00:01:21.230 --> 00:01:21.240 align:start position:0%
+meta predictor thinks is a better
+ 
+
+00:01:21.240 --> 00:01:24.109 align:start position:0%
+meta predictor thinks is a better
+prediction<00:01:21.960><c> you</c><00:01:22.320><c> train</c><00:01:23.320><c> the</c><00:01:23.479><c> individual</c>
+
+00:01:24.109 --> 00:01:24.119 align:start position:0%
+prediction you train the individual
+ 
+
+00:01:24.119 --> 00:01:26.710 align:start position:0%
+prediction you train the individual
+predictors<00:01:25.119><c> just</c><00:01:25.400><c> like</c><00:01:25.640><c> before</c><00:01:26.200><c> on</c><00:01:26.439><c> every</c>
+
+00:01:26.710 --> 00:01:26.720 align:start position:0%
+predictors just like before on every
+ 
+
+00:01:26.720 --> 00:01:28.550 align:start position:0%
+predictors just like before on every
+Branch<00:01:27.079><c> outcome</c><00:01:27.640><c> you</c><00:01:27.799><c> train</c><00:01:28.119><c> each</c><00:01:28.280><c> of</c><00:01:28.400><c> the</c>
+
+00:01:28.550 --> 00:01:28.560 align:start position:0%
+Branch outcome you train each of the
+ 
+
+00:01:28.560 --> 00:01:31.230 align:start position:0%
+Branch outcome you train each of the
+predictors<00:01:29.439><c> you</c><00:01:29.600><c> train</c><00:01:30.119><c> The</c><00:01:30.240><c> Meta</c><00:01:30.600><c> predictor</c>
+
+00:01:31.230 --> 00:01:31.240 align:start position:0%
+predictors you train The Meta predictor
+ 
+
+00:01:31.240 --> 00:01:33.910 align:start position:0%
+predictors you train The Meta predictor
+a<00:01:31.400><c> little</c><00:01:31.640><c> bit</c><00:01:32.079><c> differently</c><00:01:33.079><c> instead</c><00:01:33.520><c> of</c>
+
+00:01:33.910 --> 00:01:33.920 align:start position:0%
+a little bit differently instead of
+ 
+
+00:01:33.920 --> 00:01:37.270 align:start position:0%
+a little bit differently instead of
+counting<00:01:34.399><c> up</c><00:01:35.159><c> when</c><00:01:35.560><c> taken</c><00:01:36.119><c> and</c><00:01:36.320><c> counting</c><00:01:36.759><c> down</c>
+
+00:01:37.270 --> 00:01:37.280 align:start position:0%
+counting up when taken and counting down
+ 
+
+00:01:37.280 --> 00:01:40.069 align:start position:0%
+counting up when taken and counting down
+when<00:01:37.479><c> not</c><00:01:37.759><c> taken</c><00:01:38.759><c> the</c><00:01:38.920><c> meta</c><00:01:39.320><c> predictor</c><00:01:39.880><c> is</c>
+
+00:01:40.069 --> 00:01:40.079 align:start position:0%
+when not taken the meta predictor is
+ 
+
+00:01:40.079 --> 00:01:42.749 align:start position:0%
+when not taken the meta predictor is
+instead<00:01:40.520><c> trained</c><00:01:41.479><c> on</c><00:01:41.799><c> how</c><00:01:42.040><c> well</c><00:01:42.360><c> these</c><00:01:42.560><c> two</c>
+
+00:01:42.749 --> 00:01:42.759 align:start position:0%
+instead trained on how well these two
+ 
+
+00:01:42.759 --> 00:01:45.510 align:start position:0%
+instead trained on how well these two
+are<00:01:42.920><c> doing</c><00:01:43.920><c> if</c><00:01:44.119><c> your</c><00:01:44.320><c> two</c><00:01:44.600><c> predictors</c><00:01:45.240><c> are</c>
+
+00:01:45.510 --> 00:01:45.520 align:start position:0%
+are doing if your two predictors are
+ 
+
+00:01:45.520 --> 00:01:48.590 align:start position:0%
+are doing if your two predictors are
+both<00:01:46.000><c> correct</c><00:01:47.000><c> then</c><00:01:47.560><c> your</c><00:01:47.799><c> meta</c><00:01:48.159><c> predictor</c>
+
+00:01:48.590 --> 00:01:48.600 align:start position:0%
+both correct then your meta predictor
+ 
+
+00:01:48.600 --> 00:01:51.389 align:start position:0%
+both correct then your meta predictor
+doesn't<00:01:48.920><c> change</c><00:01:49.360><c> anything</c><00:01:50.240><c> if</c><00:01:50.360><c> your</c><00:01:50.640><c> first</c>
+
+00:01:51.389 --> 00:01:51.399 align:start position:0%
+doesn't change anything if your first
+ 
+
+00:01:51.399 --> 00:01:54.230 align:start position:0%
+doesn't change anything if your first
+predictor<00:01:52.399><c> like</c><00:01:52.759><c> in</c><00:01:52.920><c> this</c><00:01:53.079><c> case</c><00:01:53.280><c> your</c><00:01:53.439><c> gshare</c>
+
+00:01:54.230 --> 00:01:54.240 align:start position:0%
+predictor like in this case your gshare
+ 
+
+00:01:54.240 --> 00:01:57.149 align:start position:0%
+predictor like in this case your gshare
+is<00:01:54.479><c> correct</c><00:01:55.079><c> but</c><00:01:55.240><c> the</c><00:01:55.399><c> other</c><00:01:55.640><c> one</c><00:01:55.840><c> is</c><00:01:56.039><c> not</c><00:01:57.000><c> then</c>
+
+00:01:57.149 --> 00:01:57.159 align:start position:0%
+is correct but the other one is not then
+ 
+
+00:01:57.159 --> 00:02:00.429 align:start position:0%
+is correct but the other one is not then
+you<00:01:57.360><c> count</c><00:01:57.759><c> down</c><00:01:58.200><c> counting</c><00:01:58.680><c> down</c><00:01:59.200><c> will</c><00:01:59.399><c> result</c>
+
+00:02:00.429 --> 00:02:00.439 align:start position:0%
+you count down counting down will result
+ 
+
+00:02:00.439 --> 00:02:04.590 align:start position:0%
+you count down counting down will result
+in<00:02:01.320><c> selecting</c><00:02:02.320><c> the</c><00:02:02.880><c> gshare</c><00:02:03.840><c> result</c><00:02:04.320><c> more</c>
+
+00:02:04.590 --> 00:02:04.600 align:start position:0%
+in selecting the gshare result more
+ 
+
+00:02:04.600 --> 00:02:07.590 align:start position:0%
+in selecting the gshare result more
+often<00:02:05.360><c> if</c><00:02:05.520><c> your</c><00:02:05.680><c> first</c><00:02:06.000><c> predictor</c><00:02:06.439><c> is</c><00:02:06.640><c> wrong</c>
+
+00:02:07.590 --> 00:02:07.600 align:start position:0%
+often if your first predictor is wrong
+ 
+
+00:02:07.600 --> 00:02:09.910 align:start position:0%
+often if your first predictor is wrong
+but<00:02:07.759><c> your</c><00:02:08.000><c> second</c><00:02:08.319><c> predictor</c><00:02:08.759><c> is</c><00:02:08.959><c> right</c><00:02:09.800><c> then</c>
+
+00:02:09.910 --> 00:02:09.920 align:start position:0%
+but your second predictor is right then
+ 
+
+00:02:09.920 --> 00:02:13.470 align:start position:0%
+but your second predictor is right then
+you<00:02:10.119><c> count</c><00:02:10.520><c> up</c><00:02:11.200><c> counting</c><00:02:11.720><c> up</c><00:02:12.680><c> will</c><00:02:12.959><c> result</c><00:02:13.319><c> in</c>
+
+00:02:13.470 --> 00:02:13.480 align:start position:0%
+you count up counting up will result in
+ 
+
+00:02:13.480 --> 00:02:17.030 align:start position:0%
+you count up counting up will result in
+choosing<00:02:14.200><c> this</c><00:02:14.959><c> prediction</c><00:02:15.680><c> more</c><00:02:16.040><c> often</c><00:02:16.760><c> and</c>
+
+00:02:17.030 --> 00:02:17.040 align:start position:0%
+choosing this prediction more often and
+ 
+
+00:02:17.040 --> 00:02:19.869 align:start position:0%
+choosing this prediction more often and
+finally<00:02:17.840><c> if</c><00:02:18.080><c> both</c><00:02:18.319><c> of</c><00:02:18.440><c> them</c><00:02:18.599><c> are</c><00:02:18.840><c> wrong</c><00:02:19.760><c> then</c>
+
+00:02:19.869 --> 00:02:19.879 align:start position:0%
+finally if both of them are wrong then
+ 
+
+00:02:19.879 --> 00:02:21.630 align:start position:0%
+finally if both of them are wrong then
+the<00:02:20.040><c> meta</c><00:02:20.319><c> predictor</c><00:02:20.760><c> doesn't</c><00:02:21.040><c> change</c>
+
+00:02:21.630 --> 00:02:21.640 align:start position:0%
+the meta predictor doesn't change
+ 
+
+00:02:21.640 --> 00:02:23.990 align:start position:0%
+the meta predictor doesn't change
+because<00:02:21.920><c> again</c><00:02:22.200><c> there</c><00:02:22.319><c> is</c><00:02:23.000><c> no</c><00:02:23.280><c> benefit</c><00:02:23.640><c> in</c>
+
+00:02:23.990 --> 00:02:24.000 align:start position:0%
+because again there is no benefit in
+ 
+
+00:02:24.000 --> 00:02:25.910 align:start position:0%
+because again there is no benefit in
+trying<00:02:24.239><c> to</c><00:02:24.400><c> select</c><00:02:24.760><c> one</c><00:02:24.920><c> over</c><00:02:25.160><c> the</c><00:02:25.319><c> other</c><00:02:25.720><c> so</c>
+
+00:02:25.910 --> 00:02:25.920 align:start position:0%
+trying to select one over the other so
+ 
+
+00:02:25.920 --> 00:02:27.350 align:start position:0%
+trying to select one over the other so
+the<00:02:26.000><c> idea</c><00:02:26.239><c> of</c><00:02:26.319><c> the</c><00:02:26.400><c> meta</c><00:02:26.680><c> predictor</c><00:02:27.080><c> is</c><00:02:27.200><c> that</c>
+
+00:02:27.350 --> 00:02:27.360 align:start position:0%
+the idea of the meta predictor is that
+ 
+
+00:02:27.360 --> 00:02:29.470 align:start position:0%
+the idea of the meta predictor is that
+the<00:02:27.560><c> prediction</c><00:02:28.160><c> bit</c><00:02:28.440><c> of</c><00:02:28.560><c> the</c><00:02:28.680><c> 2bit</c><00:02:29.120><c> counter</c>
+
+00:02:29.470 --> 00:02:29.480 align:start position:0%
+the prediction bit of the 2bit counter
+ 
+
+00:02:29.480 --> 00:02:31.710 align:start position:0%
+the prediction bit of the 2bit counter
+is<00:02:29.879><c> telling</c><00:02:30.080><c> you</c><00:02:30.239><c> really</c><00:02:30.560><c> which</c><00:02:30.840><c> of</c><00:02:31.040><c> these</c><00:02:31.239><c> to</c>
+
+00:02:31.710 --> 00:02:31.720 align:start position:0%
+is telling you really which of these to
+ 
+
+00:02:31.720 --> 00:02:34.390 align:start position:0%
+is telling you really which of these to
+select<00:02:32.720><c> the</c><00:02:32.879><c> hysteresis</c><00:02:33.519><c> is</c><00:02:33.760><c> there</c><00:02:34.000><c> just</c><00:02:34.200><c> in</c>
+
+00:02:34.390 --> 00:02:34.400 align:start position:0%
+select the hysteresis is there just in
+ 
+
+00:02:34.400 --> 00:02:37.350 align:start position:0%
+select the hysteresis is there just in
+case<00:02:35.080><c> gshare</c><00:02:35.840><c> is</c><00:02:36.120><c> overall</c><00:02:36.560><c> the</c><00:02:36.680><c> more</c><00:02:36.959><c> accurate</c>
+
+00:02:37.350 --> 00:02:37.360 align:start position:0%
+case gshare is overall the more accurate
+ 
+
+00:02:37.360 --> 00:02:39.309 align:start position:0%
+case gshare is overall the more accurate
+but<00:02:37.879><c> sometimes</c><00:02:38.200><c> pshare</c><00:02:38.599><c> beats</c><00:02:38.879><c> it</c><00:02:39.040><c> or</c><00:02:39.239><c> the</c>
+
+00:02:39.309 --> 00:02:39.319 align:start position:0%
+but sometimes pshare beats it or the
+ 
+
+00:02:39.319 --> 00:02:42.589 align:start position:0%
+but sometimes pshare beats it or the
+other<00:02:39.560><c> way</c><00:02:39.800><c> around</c><00:02:40.800><c> and</c><00:02:41.080><c> again</c><00:02:41.760><c> each</c><00:02:42.080><c> branch</c>
+
+00:02:42.589 --> 00:02:42.599 align:start position:0%
+other way around and again each branch
+ 
+
+00:02:42.599 --> 00:02:45.470 align:start position:0%
+other way around and again each branch
+has<00:02:42.800><c> its</c><00:02:43.000><c> own</c><00:02:43.360><c> meta</c><00:02:43.760><c> predictor</c><00:02:44.200><c> entry</c><00:02:44.920><c> so</c><00:02:45.239><c> this</c>
+
+00:02:45.470 --> 00:02:45.480 align:start position:0%
+has its own meta predictor entry so this
+ 
+
+00:02:45.480 --> 00:02:47.030 align:start position:0%
+has its own meta predictor entry so this
+type<00:02:45.680><c> of</c><00:02:45.879><c> decision</c><00:02:46.319><c> and</c><00:02:46.519><c> this</c><00:02:46.720><c> type</c><00:02:46.879><c> of</c>
+
+00:02:47.030 --> 00:02:47.040 align:start position:0%
+type of decision and this type of
+ 
+
+00:02:47.040 --> 00:02:49.949 align:start position:0%
+type of decision and this type of
+selection<00:02:48.000><c> is</c><00:02:48.159><c> done</c><00:02:48.560><c> dependent</c><00:02:49.040><c> on</c><00:02:49.280><c> branches</c>
+
+00:02:49.949 --> 00:02:49.959 align:start position:0%
+selection is done dependent on branches
+ 
+
+00:02:49.959 --> 00:02:52.470 align:start position:0%
+selection is done dependent on branches
+so<00:02:50.239><c> pretty</c><00:02:50.519><c> much</c><00:02:51.120><c> for</c><00:02:51.400><c> your</c><00:02:51.640><c> for</c><00:02:51.800><c> example</c><00:02:52.120><c> Loop</c>
+
+00:02:52.470 --> 00:02:52.480 align:start position:0%
+so pretty much for your for example Loop
+ 
+
+00:02:52.480 --> 00:02:55.390 align:start position:0%
+so pretty much for your for example Loop
+exit<00:02:52.840><c> Branch</c><00:02:53.239><c> it</c><00:02:53.400><c> might</c><00:02:53.640><c> be</c><00:02:54.000><c> that</c><00:02:54.319><c> the</c><00:02:54.879><c> pshare</c>
+
+00:02:55.390 --> 00:02:55.400 align:start position:0%
+exit Branch it might be that the pshare
+ 
+
+00:02:55.400 --> 00:02:57.910 align:start position:0%
+exit Branch it might be that the pshare
+works<00:02:55.760><c> better</c><00:02:56.640><c> for</c><00:02:56.959><c> your</c><00:02:57.280><c> correlated</c>
+
+00:02:57.910 --> 00:02:57.920 align:start position:0%
+works better for your correlated
+ 
+
+00:02:57.920 --> 00:02:59.630 align:start position:0%
+works better for your correlated
+branches<00:02:58.400><c> it</c><00:02:58.560><c> might</c><00:02:58.760><c> be</c><00:02:58.959><c> that</c><00:02:59.120><c> the</c><00:02:59.239><c> G</c><00:02:59.400><c> share</c>
+
+00:02:59.630 --> 00:02:59.640 align:start position:0%
+branches it might be that the G share
+ 
+
+00:02:59.640 --> 00:03:01.550 align:start position:0%
+branches it might be that the G share
+works<00:02:59.840><c> works</c><00:03:00.120><c> better</c><00:03:00.840><c> and</c><00:03:01.040><c> they</c><00:03:01.159><c> will</c><00:03:01.360><c> have</c>
+
+00:03:01.550 --> 00:03:01.560 align:start position:0%
+works works better and they will have
+ 
+
+00:03:01.560 --> 00:03:03.830 align:start position:0%
+works works better and they will have
+different<00:03:01.879><c> meta</c><00:03:02.200><c> predictor</c><00:03:02.640><c> entries</c><00:03:03.440><c> so</c><00:03:03.640><c> that</c>
+
+00:03:03.830 --> 00:03:03.840 align:start position:0%
+different meta predictor entries so that
+ 
+
+00:03:03.840 --> 00:03:06.270 align:start position:0%
+different meta predictor entries so that
+they<00:03:03.959><c> will</c><00:03:04.599><c> use</c><00:03:05.000><c> different</c><00:03:05.360><c> predictors</c><00:03:06.040><c> for</c>
+
+00:03:06.270 --> 00:03:06.280 align:start position:0%
+they will use different predictors for
+ 
+
+00:03:06.280 --> 00:03:09.480 align:start position:0%
+they will use different predictors for
+their<00:03:06.480><c> outcomes</c>
+

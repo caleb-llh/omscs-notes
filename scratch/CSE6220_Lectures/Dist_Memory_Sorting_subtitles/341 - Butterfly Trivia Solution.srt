@@ -1,0 +1,48 @@
+1
+00:00:00,770 --> 00:00:03,770
+ Here's the algorithm I had in mind.
+
+2
+00:00:03,770 --> 00:00:07,110
+ It's the FFT, or the fast Fourier transform.
+
+3
+00:00:07,110 --> 00:00:10,050
+ It's used in lots of places, including signal and image processing,
+
+4
+00:00:10,050 --> 00:00:14,370
+ turbulence simulation, molecular simulation among many, many others.
+
+5
+00:00:14,370 --> 00:00:16,560
+ And, since you've mastered bitonic merge,
+
+6
+00:00:16,560 --> 00:00:19,910
+ you basically know how to parallelize an FFT as well.
+
+7
+00:00:19,910 --> 00:00:24,980
+ Indeed, there is a fantastic lesson on the FFT in another OMSCS class.
+
+8
+00:00:24,980 --> 00:00:27,360
+ We'll put a link in the instructor's notes.
+
+9
+00:00:27,360 --> 00:00:30,950
+ As far as jokes go, here's one.
+
+10
+00:00:30,950 --> 00:00:34,030
+ Oh dear, that is really awful.
+
+11
+00:00:34,030 --> 00:00:37,150
+ I think even a tenured professor can get fired for telling a joke like that.
+
+12
+00:00:37,150 --> 00:00:37,150
+ You're going to edit this out, right?
+

@@ -1,0 +1,44 @@
+1
+00:00:00,470 --> 00:00:02,940
+ Suppose I give you two algorithms.
+
+2
+00:00:02,940 --> 00:00:05,450
+ Algorithm 1 does work proportional to n and
+
+3
+00:00:05,450 --> 00:00:08,990
+ number of transfer proportional to transfers divided by l.
+
+4
+00:00:08,990 --> 00:00:10,990
+ Algorithm 2 is a little different.
+
+5
+00:00:10,990 --> 00:00:16,460
+ It has n log n work and n divided by l log z transfers.
+
+6
+00:00:16,460 --> 00:00:18,640
+ My question is, which is better?
+
+7
+00:00:18,640 --> 00:00:22,770
+ You have several options, you can choose one, both, or none.
+
+8
+00:00:22,770 --> 00:00:25,260
+ Checking both means you think they're equally good.
+
+9
+00:00:25,260 --> 00:00:27,200
+ Checking none means you can't tell.
+
+10
+00:00:27,200 --> 00:00:30,290
+ Whatever your choice I want you to explain your thinking,
+
+11
+00:00:30,290 --> 00:00:30,290
+ here's a handy box for doing so.
+

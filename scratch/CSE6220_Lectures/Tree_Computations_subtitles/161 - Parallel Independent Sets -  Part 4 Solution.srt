@@ -1,0 +1,36 @@
+1
+00:00:00,290 --> 00:00:02,690
+ The answer I was looking for is n over 4.
+
+2
+00:00:02,690 --> 00:00:05,830
+ Remember, from the perspective of each node,
+
+3
+00:00:05,830 --> 00:00:09,890
+ there are four equally likely possibilities after the initial flip.
+
+4
+00:00:09,890 --> 00:00:13,460
+ You then apply a correction for the case of double heads.
+
+5
+00:00:13,460 --> 00:00:17,120
+ That leaves just one out of four options with heads.
+
+6
+00:00:17,120 --> 00:00:20,550
+ Now you might be asking yourself, self, what about those other heads?
+
+7
+00:00:20,550 --> 00:00:23,200
+ Hmm, good question.
+
+8
+00:00:23,200 --> 00:00:25,850
+ What are you waiting for me to tell you?
+
+9
+00:00:25,850 --> 00:00:25,850
+ Do I really have to tell you everything?
+

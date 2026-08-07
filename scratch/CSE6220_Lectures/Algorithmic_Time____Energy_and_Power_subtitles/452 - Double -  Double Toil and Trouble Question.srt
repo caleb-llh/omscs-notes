@@ -1,0 +1,96 @@
+1
+00:00:00,220 --> 00:00:01,130
+ Quiz!
+
+2
+00:00:01,130 --> 00:00:02,250
+ Woohoo!
+
+3
+00:00:02,250 --> 00:00:06,150
+ Let's see if you can work through what the principle of balance means yourself.
+
+4
+00:00:06,150 --> 00:00:08,950
+ Let's start with a multicore Von Neumann system.
+
+5
+00:00:08,950 --> 00:00:11,110
+ Suppose you start with one version of the system,
+
+6
+00:00:11,110 --> 00:00:15,710
+ whose parameters are perfectly tuned for sorting very large arrays.
+
+7
+00:00:15,710 --> 00:00:17,420
+ Then your boss comes along.
+
+8
+00:00:17,420 --> 00:00:19,610
+ Like many bosses he's a bit of a primate.
+
+9
+00:00:19,610 --> 00:00:21,280
+ But hey aren't we all?
+
+10
+00:00:21,280 --> 00:00:24,720
+ Your boss has the brilliant idea of selling a new version of the system with
+
+11
+00:00:24,720 --> 00:00:26,350
+ twice the cores.
+
+12
+00:00:26,350 --> 00:00:29,700
+ Because he lives in America and more is always better there.
+
+13
+00:00:29,700 --> 00:00:33,400
+ My question to you is this, can you adjusts to the other parameters of
+
+14
+00:00:33,400 --> 00:00:36,210
+ the system in order to maintain balance?
+
+15
+00:00:36,210 --> 00:00:38,710
+ Now to do this, you're going to need an important fact.
+
+16
+00:00:38,710 --> 00:00:42,870
+ For comparison-based sorting, the best case ratio of comparisons, which
+
+17
+00:00:42,870 --> 00:00:48,646
+ are the compute operations, and memory transfers will be able L times log z/L.
+
+18
+00:00:48,646 --> 00:00:51,320
+ Here are your answer choices.
+
+19
+00:00:51,320 --> 00:00:55,180
+ You can half the bandwidth, beta 0 and double the peak.
+
+20
+00:00:55,180 --> 00:00:59,918
+ Or you can square both the fast memory size and the transaction size.
+
+21
+00:00:59,918 --> 00:01:06,090
+ Or you could double the fast memory size or you could try doubling the bandwidth.
+
+22
+00:01:06,090 --> 00:01:08,220
+ Now I want you to think about these options and decide for
+
+23
+00:01:08,220 --> 00:01:12,220
+ yourself which ones do you think have the best chance of maintaining balance
+
+24
+00:01:12,220 --> 00:01:12,220
+ assuming the number of cores doubles.
+

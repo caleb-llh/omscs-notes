@@ -1,0 +1,56 @@
+1
+00:00:00,200 --> 00:00:01,680
+ What if you did the following?
+
+2
+00:00:01,680 --> 00:00:03,500
+ Consider each sink.
+
+3
+00:00:03,500 --> 00:00:07,870
+ If the sink is at the end of an edge that goes from a parent to a child,
+
+4
+00:00:07,870 --> 00:00:10,650
+ then that means you're descending into the tree.
+
+5
+00:00:10,650 --> 00:00:13,950
+ So, let's put a +1 at those sinks.
+
+6
+00:00:13,950 --> 00:00:17,900
+ Intuitively, the +1 signal an increase in the level count.
+
+7
+00:00:17,900 --> 00:00:22,790
+ The remaining sinks terminate edges that go from a child to a parent.
+
+8
+00:00:22,790 --> 00:00:25,090
+ Those nodes correspond to decreasing the level.
+
+9
+00:00:25,090 --> 00:00:28,200
+ So let's place -1 values at them.
+
+10
+00:00:28,200 --> 00:00:34,210
+ To see if this works, let's run a list scan.
+
+11
+00:00:34,210 --> 00:00:37,460
+ Notice that as you descend, you pick up +1 values.
+
+12
+00:00:37,460 --> 00:00:46,250
+ And as you ascend, you pick up -1 values.
+
+13
+00:00:46,250 --> 00:00:50,620
+ So now to get the final result, we just need to keep all the starred nodes.
+
+14
+00:00:50,620 --> 00:00:50,620
+ If you do that, this is what you should get.
+

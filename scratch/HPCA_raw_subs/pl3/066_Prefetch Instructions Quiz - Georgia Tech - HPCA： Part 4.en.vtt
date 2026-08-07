@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:03.080 align:start position:0%
+ 
+so<00:00:00.510><c> let's</c><00:00:00.750><c> see</c><00:00:00.989><c> if</c><00:00:01.410><c> we</c><00:00:02.010><c> know</c><00:00:02.159><c> how</c><00:00:02.370><c> to</c><00:00:02.429><c> add</c><00:00:02.760><c> some</c>
+
+00:00:03.080 --> 00:00:03.090 align:start position:0%
+so let's see if we know how to add some
+ 
+
+00:00:03.090 --> 00:00:05.570 align:start position:0%
+so let's see if we know how to add some
+prefetch<00:00:03.449><c> instructions</c><00:00:04.250><c> suppose</c><00:00:05.250><c> we</c><00:00:05.400><c> have</c><00:00:05.549><c> a</c>
+
+00:00:05.570 --> 00:00:05.580 align:start position:0%
+prefetch instructions suppose we have a
+ 
+
+00:00:05.580 --> 00:00:09.259 align:start position:0%
+prefetch instructions suppose we have a
+program<00:00:06.060><c> like</c><00:00:06.210><c> this</c><00:00:06.420><c> where</c><00:00:07.350><c> I</c><00:00:07.589><c> goes</c><00:00:07.859><c> from</c><00:00:07.890><c> 0</c><00:00:08.269><c> to</c>
+
+00:00:09.259 --> 00:00:09.269 align:start position:0%
+program like this where I goes from 0 to
+ 
+
+00:00:09.269 --> 00:00:12.860 align:start position:0%
+program like this where I goes from 0 to
+1000<00:00:09.960><c> and</c><00:00:10.110><c> J</c><00:00:11.070><c> goes</c><00:00:11.099><c> from</c><00:00:11.340><c> 0</c><00:00:11.790><c> to</c><00:00:11.820><c> 1000</c><00:00:12.540><c> and</c><00:00:12.719><c> in</c>
+
+00:00:12.860 --> 00:00:12.870 align:start position:0%
+1000 and J goes from 0 to 1000 and in
+ 
+
+00:00:12.870 --> 00:00:16.490 align:start position:0%
+1000 and J goes from 0 to 1000 and in
+every<00:00:13.309><c> iteration</c><00:00:14.309><c> of</c><00:00:14.820><c> this</c><00:00:15.120><c> inner</c><00:00:15.330><c> loop</c><00:00:15.599><c> we</c>
+
+00:00:16.490 --> 00:00:16.500 align:start position:0%
+every iteration of this inner loop we
+ 
+
+00:00:16.500 --> 00:00:19.390 align:start position:0%
+every iteration of this inner loop we
+add<00:00:16.710><c> to</c><00:00:17.670><c> the</c><00:00:17.820><c> ice</c><00:00:18.029><c> element</c><00:00:18.660><c> of</c><00:00:18.869><c> the</c><00:00:19.020><c> a</c><00:00:19.050><c> array</c>
+
+00:00:19.390 --> 00:00:19.400 align:start position:0%
+add to the ice element of the a array
+ 
+
+00:00:19.400 --> 00:00:23.450 align:start position:0%
+add to the ice element of the a array
+the<00:00:20.400><c> element</c><00:00:20.910><c> of</c><00:00:21.180><c> the</c><00:00:21.810><c> B</c><00:00:21.990><c> matrix</c><00:00:22.189><c> so</c><00:00:23.189><c> what</c><00:00:23.340><c> is</c>
+
+00:00:23.450 --> 00:00:23.460 align:start position:0%
+the element of the B matrix so what is
+ 
+
+00:00:23.460 --> 00:00:24.920 align:start position:0%
+the element of the B matrix so what is
+really<00:00:23.580><c> happening</c><00:00:23.730><c> here</c><00:00:24.119><c> is</c><00:00:24.449><c> that</c><00:00:24.480><c> in</c><00:00:24.840><c> the</c>
+
+00:00:24.920 --> 00:00:24.930 align:start position:0%
+really happening here is that in the
+ 
+
+00:00:24.930 --> 00:00:26.870 align:start position:0%
+really happening here is that in the
+first<00:00:25.080><c> iteration</c><00:00:25.680><c> of</c><00:00:25.769><c> the</c><00:00:25.949><c> outer</c><00:00:26.130><c> loop</c><00:00:26.490><c> we</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+first iteration of the outer loop we
+ 
+
+00:00:26.880 --> 00:00:30.710 align:start position:0%
+first iteration of the outer loop we
+will<00:00:27.029><c> compute</c><00:00:27.330><c> a</c><00:00:27.599><c> 0</c><00:00:28.230><c> then</c><00:00:28.920><c> a</c><00:00:29.160><c> 1</c><00:00:29.519><c> and</c><00:00:29.760><c> so</c><00:00:30.269><c> on</c><00:00:30.480><c> and</c>
+
+00:00:30.710 --> 00:00:30.720 align:start position:0%
+will compute a 0 then a 1 and so on and
+ 
+
+00:00:30.720 --> 00:00:34.520 align:start position:0%
+will compute a 0 then a 1 and so on and
+we<00:00:31.439><c> do</c><00:00:31.650><c> that</c><00:00:31.890><c> by</c><00:00:32.669><c> basically</c><00:00:33.079><c> adding</c><00:00:34.079><c> up</c><00:00:34.260><c> all</c>
+
+00:00:34.520 --> 00:00:34.530 align:start position:0%
+we do that by basically adding up all
+ 
+
+00:00:34.530 --> 00:00:36.290 align:start position:0%
+we do that by basically adding up all
+the<00:00:34.710><c> appropriate</c><00:00:35.010><c> elements</c><00:00:35.760><c> from</c><00:00:35.969><c> the</c><00:00:36.180><c> B</c>
+
+00:00:36.290 --> 00:00:36.300 align:start position:0%
+the appropriate elements from the B
+ 
+
+00:00:36.300 --> 00:00:39.080 align:start position:0%
+the appropriate elements from the B
+array<00:00:36.710><c> let's</c><00:00:37.710><c> say</c><00:00:37.920><c> that</c><00:00:38.340><c> the</c><00:00:38.460><c> elements</c><00:00:38.879><c> of</c><00:00:38.969><c> the</c>
+
+00:00:39.080 --> 00:00:39.090 align:start position:0%
+array let's say that the elements of the
+ 
+
+00:00:39.090 --> 00:00:41.630 align:start position:0%
+array let's say that the elements of the
+a<00:00:39.120><c> and</c><00:00:39.270><c> B</c><00:00:39.629><c> arrays</c><00:00:39.899><c> are</c><00:00:40.230><c> both</c><00:00:41.040><c> floating-point</c>
+
+00:00:41.630 --> 00:00:41.640 align:start position:0%
+a and B arrays are both floating-point
+ 
+
+00:00:41.640 --> 00:00:44.860 align:start position:0%
+a and B arrays are both floating-point
+numbers<00:00:42.239><c> that</c><00:00:43.200><c> are</c><00:00:43.379><c> each</c><00:00:43.590><c> 8</c><00:00:43.980><c> bytes</c><00:00:44.370><c> in</c><00:00:44.610><c> size</c>
+
+00:00:44.860 --> 00:00:44.870 align:start position:0%
+numbers that are each 8 bytes in size
+ 
+
+00:00:44.870 --> 00:00:47.600 align:start position:0%
+numbers that are each 8 bytes in size
+let's<00:00:45.870><c> say</c><00:00:46.050><c> that</c><00:00:46.260><c> the</c><00:00:46.379><c> cache</c><00:00:46.620><c> size</c><00:00:46.890><c> is</c><00:00:46.950><c> 16</c>
+
+00:00:47.600 --> 00:00:47.610 align:start position:0%
+let's say that the cache size is 16
+ 
+
+00:00:47.610 --> 00:00:50.750 align:start position:0%
+let's say that the cache size is 16
+kilobytes<00:00:48.289><c> fully</c><00:00:49.289><c> associative</c><00:00:49.620><c> with</c><00:00:50.250><c> LRU</c>
+
+00:00:50.750 --> 00:00:50.760 align:start position:0%
+kilobytes fully associative with LRU
+ 
+
+00:00:50.760 --> 00:00:52.850 align:start position:0%
+kilobytes fully associative with LRU
+replacement<00:00:51.020><c> let's</c><00:00:52.020><c> say</c><00:00:52.199><c> that</c><00:00:52.379><c> a</c><00:00:52.410><c> single</c>
+
+00:00:52.850 --> 00:00:52.860 align:start position:0%
+replacement let's say that a single
+ 
+
+00:00:52.860 --> 00:00:55.340 align:start position:0%
+replacement let's say that a single
+iteration<00:00:53.070><c> of</c><00:00:53.520><c> this</c><00:00:53.670><c> inner</c><00:00:53.879><c> loop</c><00:00:54.090><c> takes</c><00:00:55.050><c> 10</c>
+
+00:00:55.340 --> 00:00:55.350 align:start position:0%
+iteration of this inner loop takes 10
+ 
+
+00:00:55.350 --> 00:00:58.400 align:start position:0%
+iteration of this inner loop takes 10
+cycles<00:00:55.980><c> if</c><00:00:56.129><c> there</c><00:00:56.399><c> are</c><00:00:56.520><c> no</c><00:00:56.670><c> misses</c><00:00:57.120><c> and</c><00:00:57.410><c> that</c>
+
+00:00:58.400 --> 00:00:58.410 align:start position:0%
+cycles if there are no misses and that
+ 
+
+00:00:58.410 --> 00:01:02.510 align:start position:0%
+cycles if there are no misses and that
+the<00:00:58.530><c> miss</c><00:00:58.710><c> penalty</c><00:00:59.030><c> is</c><00:01:00.030><c> 200</c><00:01:00.840><c> cycles</c><00:01:01.520><c> because</c>
+
+00:01:02.510 --> 00:01:02.520 align:start position:0%
+the miss penalty is 200 cycles because
+ 
+
+00:01:02.520 --> 00:01:05.810 align:start position:0%
+the miss penalty is 200 cycles because
+the<00:01:02.699><c> memory</c><00:01:03.000><c> latency</c><00:01:03.210><c> is</c><00:01:03.750><c> 200</c><00:01:04.320><c> cycles</c><00:01:04.820><c> the</c>
+
+00:01:05.810 --> 00:01:05.820 align:start position:0%
+the memory latency is 200 cycles the
+ 
+
+00:01:05.820 --> 00:01:09.640 align:start position:0%
+the memory latency is 200 cycles the
+question<00:01:06.270><c> for</c><00:01:06.479><c> you</c><00:01:06.600><c> is</c><00:01:07.220><c> if</c><00:01:08.220><c> we</c><00:01:08.549><c> insert</c><00:01:09.030><c> a</c>
+
+00:01:09.640 --> 00:01:09.650 align:start position:0%
+question for you is if we insert a
+ 
+
+00:01:09.650 --> 00:01:13.429 align:start position:0%
+question for you is if we insert a
+prefetch<00:01:10.650><c> instruction</c><00:01:11.610><c> here</c><00:01:12.030><c> so</c><00:01:13.020><c> that</c><00:01:13.170><c> we</c><00:01:13.320><c> can</c>
+
+00:01:13.429 --> 00:01:13.439 align:start position:0%
+prefetch instruction here so that we can
+ 
+
+00:01:13.439 --> 00:01:17.690 align:start position:0%
+prefetch instruction here so that we can
+prefetch<00:01:13.950><c> one</c><00:01:14.909><c> of</c><00:01:15.060><c> the</c><00:01:15.150><c> next</c><00:01:15.479><c> a</c><00:01:15.770><c> elements</c><00:01:16.770><c> what</c>
+
+00:01:17.690 --> 00:01:17.700 align:start position:0%
+prefetch one of the next a elements what
+ 
+
+00:01:17.700 --> 00:01:20.570 align:start position:0%
+prefetch one of the next a elements what
+should<00:01:18.000><c> be</c><00:01:18.150><c> the</c><00:01:18.299><c> distance</c><00:01:18.509><c> here</c><00:01:19.110><c> or</c><00:01:19.580><c> check</c>
+
+00:01:20.570 --> 00:01:20.580 align:start position:0%
+should be the distance here or check
+ 
+
+00:01:20.580 --> 00:01:22.820 align:start position:0%
+should be the distance here or check
+this<00:01:20.790><c> if</c><00:01:21.119><c> we</c><00:01:21.659><c> simply</c><00:01:22.080><c> should</c><00:01:22.290><c> not</c><00:01:22.470><c> be</c><00:01:22.650><c> doing</c>
+
+00:01:22.820 --> 00:01:22.830 align:start position:0%
+this if we simply should not be doing
+ 
+
+00:01:22.830 --> 00:01:26.149 align:start position:0%
+this if we simply should not be doing
+this<00:01:23.180><c> here</c><00:01:24.180><c> for</c><00:01:24.350><c> prefetching</c><00:01:25.350><c> elements</c><00:01:25.830><c> of</c><00:01:25.950><c> B</c>
+
+00:01:26.149 --> 00:01:26.159 align:start position:0%
+this here for prefetching elements of B
+ 
+
+00:01:26.159 --> 00:01:28.880 align:start position:0%
+this here for prefetching elements of B
+in<00:01:26.400><c> this</c><00:01:26.640><c> loop</c><00:01:26.880><c> what</c><00:01:27.659><c> is</c><00:01:27.900><c> the</c><00:01:28.080><c> distance</c><00:01:28.560><c> at</c>
+
+00:01:28.880 --> 00:01:28.890 align:start position:0%
+in this loop what is the distance at
+ 
+
+00:01:28.890 --> 00:01:32.210 align:start position:0%
+in this loop what is the distance at
+which<00:01:29.220><c> we</c><00:01:29.880><c> should</c><00:01:30.060><c> be</c><00:01:30.180><c> prefetching</c><00:01:30.780><c> or</c><00:01:31.259><c> should</c>
+
+00:01:32.210 --> 00:01:32.220 align:start position:0%
+which we should be prefetching or should
+ 
+
+00:01:32.220 --> 00:01:35.659 align:start position:0%
+which we should be prefetching or should
+we<00:01:32.400><c> just</c><00:01:32.430><c> not</c><00:01:32.939><c> be</c><00:01:33.180><c> doing</c><00:01:33.390><c> this</c>
+

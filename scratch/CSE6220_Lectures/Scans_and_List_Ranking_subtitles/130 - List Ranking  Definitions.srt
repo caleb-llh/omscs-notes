@@ -1,0 +1,84 @@
+1
+00:00:00,460 --> 00:00:04,429
+ You are now ready to think about one of my favorite basic parallel computing
+
+2
+00:00:04,429 --> 00:00:06,641
+ problems, the problem of list ranking.
+
+3
+00:00:06,641 --> 00:00:10,811
+ It's a notoriously hard problem to speed up which is what makes it fun.
+
+4
+00:00:10,811 --> 00:00:14,152
+ And along the way to parallelizing it, I think you'll get a lot of insight into
+
+5
+00:00:14,152 --> 00:00:17,850
+ the differential between sequential and parallel computing.
+
+6
+00:00:17,850 --> 00:00:21,850
+ Now suppose I give you a collection of values stored as a singly linked list
+
+7
+00:00:21,850 --> 00:00:23,860
+ with a head pointer.
+
+8
+00:00:23,860 --> 00:00:29,060
+ The list ranking problem asks for the distance of every node from the head.
+
+9
+00:00:29,060 --> 00:00:33,120
+ So for example, for this list, we compute the following values.
+
+10
+00:00:33,120 --> 00:00:36,811
+ The head is a distance of zero away from itself, so it gets a zero.
+
+11
+00:00:36,811 --> 00:00:41,590
+ Its successor gets a one, its successor gets a two, and so on.
+
+12
+00:00:41,590 --> 00:00:44,430
+ Sequentially, this problem is super easy.
+
+13
+00:00:44,430 --> 00:00:49,100
+ Start at the head, maintain a counter, and walk the list.
+
+14
+00:00:49,100 --> 00:00:51,996
+ To be more precise, here's pseudo code for an algorithm.
+
+15
+00:00:51,996 --> 00:00:53,874
+ Notice what it does?
+
+16
+00:00:53,874 --> 00:00:58,230
+ It maintains a counter, starts at the head, and it iterates over the rest of
+
+17
+00:00:58,230 --> 00:01:02,930
+ the nodes, storing the rank, and updating the rank as it goes.
+
+18
+00:01:02,930 --> 00:01:06,260
+ Now, I want you to stop and think about this for a second.
+
+19
+00:01:06,260 --> 00:01:09,680
+ How the heck would you parellelize this?
+
+20
+00:01:09,680 --> 00:01:14,050
+ In principle, I'll claim that this problem is sort of like a scan.
+
+21
+00:01:14,050 --> 00:01:14,050
+ Can you see how?
+

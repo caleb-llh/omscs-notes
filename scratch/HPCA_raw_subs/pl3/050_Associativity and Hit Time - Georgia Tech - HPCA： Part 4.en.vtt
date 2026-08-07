@@ -1,0 +1,232 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.300 align:start position:0%
+ 
+for<00:00:00.480><c> the</c><00:00:00.630><c> next</c><00:00:00.960><c> method</c><00:00:01.140><c> to</c><00:00:01.500><c> reduce</c><00:00:01.620><c> hit</c><00:00:02.070><c> time</c>
+
+00:00:02.300 --> 00:00:02.310 align:start position:0%
+for the next method to reduce hit time
+ 
+
+00:00:02.310 --> 00:00:04.730 align:start position:0%
+for the next method to reduce hit time
+let's<00:00:03.300><c> revisit</c><00:00:03.659><c> the</c><00:00:04.080><c> relationship</c><00:00:04.589><c> between</c>
+
+00:00:04.730 --> 00:00:04.740 align:start position:0%
+let's revisit the relationship between
+ 
+
+00:00:04.740 --> 00:00:07.579 align:start position:0%
+let's revisit the relationship between
+the<00:00:05.009><c> associativity</c><00:00:05.490><c> and</c><00:00:05.910><c> hit</c><00:00:06.240><c> time</c><00:00:06.480><c> so</c><00:00:07.170><c> if</c><00:00:07.379><c> we</c>
+
+00:00:07.579 --> 00:00:07.589 align:start position:0%
+the associativity and hit time so if we
+ 
+
+00:00:07.589 --> 00:00:09.980 align:start position:0%
+the associativity and hit time so if we
+have<00:00:07.799><c> high</c><00:00:08.040><c> associativity</c><00:00:08.340><c> in</c><00:00:09.030><c> the</c><00:00:09.120><c> cache</c><00:00:09.360><c> we</c>
+
+00:00:09.980 --> 00:00:09.990 align:start position:0%
+have high associativity in the cache we
+ 
+
+00:00:09.990 --> 00:00:12.410 align:start position:0%
+have high associativity in the cache we
+will<00:00:10.139><c> have</c><00:00:10.320><c> fewer</c><00:00:10.620><c> conflicts</c><00:00:11.400><c> for</c><00:00:11.849><c> the</c><00:00:12.000><c> set</c><00:00:12.240><c> in</c>
+
+00:00:12.410 --> 00:00:12.420 align:start position:0%
+will have fewer conflicts for the set in
+ 
+
+00:00:12.420 --> 00:00:14.780 align:start position:0%
+will have fewer conflicts for the set in
+the<00:00:12.540><c> cache</c><00:00:12.780><c> when</c><00:00:13.080><c> multiple</c><00:00:13.559><c> blocks</c><00:00:14.340><c> want</c><00:00:14.700><c> to</c>
+
+00:00:14.780 --> 00:00:14.790 align:start position:0%
+the cache when multiple blocks want to
+ 
+
+00:00:14.790 --> 00:00:17.150 align:start position:0%
+the cache when multiple blocks want to
+use<00:00:14.910><c> the</c><00:00:15.000><c> same</c><00:00:15.210><c> set</c><00:00:15.480><c> which</c><00:00:16.170><c> leads</c><00:00:16.470><c> to</c><00:00:16.800><c> a</c><00:00:16.980><c> lower</c>
+
+00:00:17.150 --> 00:00:17.160 align:start position:0%
+use the same set which leads to a lower
+ 
+
+00:00:17.160 --> 00:00:20.060 align:start position:0%
+use the same set which leads to a lower
+miss<00:00:17.490><c> rate</c><00:00:17.760><c> and</c><00:00:18.060><c> that</c><00:00:18.539><c> we</c><00:00:19.140><c> like</c><00:00:19.380><c> with</c><00:00:19.859><c> high</c>
+
+00:00:20.060 --> 00:00:20.070 align:start position:0%
+miss rate and that we like with high
+ 
+
+00:00:20.070 --> 00:00:22.250 align:start position:0%
+miss rate and that we like with high
+associativity<00:00:20.279><c> we</c><00:00:20.970><c> have</c><00:00:21.119><c> just</c><00:00:21.359><c> seen</c><00:00:21.539><c> we</c><00:00:22.230><c> can</c>
+
+00:00:22.250 --> 00:00:22.260 align:start position:0%
+associativity we have just seen we can
+ 
+
+00:00:22.260 --> 00:00:24.050 align:start position:0%
+associativity we have just seen we can
+build<00:00:22.590><c> larger</c><00:00:23.130><c> virtual</c><00:00:23.430><c> index</c><00:00:23.820><c> physical</c>
+
+00:00:24.050 --> 00:00:24.060 align:start position:0%
+build larger virtual index physical
+ 
+
+00:00:24.060 --> 00:00:27.080 align:start position:0%
+build larger virtual index physical
+little<00:00:24.660><c> caches</c><00:00:25.230><c> which</c><00:00:25.650><c> reduces</c><00:00:26.340><c> the</c><00:00:26.880><c> miss</c>
+
+00:00:27.080 --> 00:00:27.090 align:start position:0%
+little caches which reduces the miss
+ 
+
+00:00:27.090 --> 00:00:30.560 align:start position:0%
+little caches which reduces the miss
+rate<00:00:27.390><c> and</c><00:00:27.840><c> so</c><00:00:28.109><c> we</c><00:00:28.260><c> like</c><00:00:28.439><c> that</c><00:00:28.680><c> too</c><00:00:28.949><c> but</c><00:00:29.760><c> high</c>
+
+00:00:30.560 --> 00:00:30.570 align:start position:0%
+rate and so we like that too but high
+ 
+
+00:00:30.570 --> 00:00:33.139 align:start position:0%
+rate and so we like that too but high
+associativity<00:00:30.840><c> leads</c><00:00:31.590><c> to</c><00:00:32.219><c> slower</c><00:00:32.489><c> hits</c><00:00:32.910><c> the</c>
+
+00:00:33.139 --> 00:00:33.149 align:start position:0%
+associativity leads to slower hits the
+ 
+
+00:00:33.149 --> 00:00:35.630 align:start position:0%
+associativity leads to slower hits the
+hit<00:00:33.390><c> time</c><00:00:33.600><c> goes</c><00:00:33.870><c> up</c><00:00:33.899><c> and</c><00:00:34.350><c> that</c><00:00:34.950><c> we</c><00:00:35.190><c> don't</c><00:00:35.399><c> like</c>
+
+00:00:35.630 --> 00:00:35.640 align:start position:0%
+hit time goes up and that we don't like
+ 
+
+00:00:35.640 --> 00:00:38.240 align:start position:0%
+hit time goes up and that we don't like
+on<00:00:35.969><c> the</c><00:00:36.390><c> other</c><00:00:36.510><c> hand</c><00:00:36.899><c> if</c><00:00:37.410><c> we</c><00:00:37.680><c> go</c><00:00:37.860><c> all</c><00:00:38.070><c> the</c><00:00:38.100><c> way</c>
+
+00:00:38.240 --> 00:00:38.250 align:start position:0%
+on the other hand if we go all the way
+ 
+
+00:00:38.250 --> 00:00:40.760 align:start position:0%
+on the other hand if we go all the way
+to<00:00:38.430><c> direct</c><00:00:39.090><c> mapped</c><00:00:39.390><c> cache</c><00:00:39.420><c> it's</c><00:00:39.840><c> the</c><00:00:40.530><c> Miss</c>
+
+00:00:40.760 --> 00:00:40.770 align:start position:0%
+to direct mapped cache it's the Miss
+ 
+
+00:00:40.770 --> 00:00:42.770 align:start position:0%
+to direct mapped cache it's the Miss
+rate<00:00:40.920><c> goes</c><00:00:41.250><c> up</c><00:00:41.550><c> for</c><00:00:41.790><c> these</c><00:00:41.910><c> two</c><00:00:42.120><c> reasons</c><00:00:42.300><c> and</c>
+
+00:00:42.770 --> 00:00:42.780 align:start position:0%
+rate goes up for these two reasons and
+ 
+
+00:00:42.780 --> 00:00:45.709 align:start position:0%
+rate goes up for these two reasons and
+that<00:00:43.290><c> is</c><00:00:43.530><c> bad</c><00:00:43.770><c> but</c><00:00:44.760><c> the</c><00:00:44.910><c> hit</c><00:00:45.149><c> time</c><00:00:45.360><c> is</c><00:00:45.539><c> reduced</c>
+
+00:00:45.709 --> 00:00:45.719 align:start position:0%
+that is bad but the hit time is reduced
+ 
+
+00:00:45.719 --> 00:00:47.900 align:start position:0%
+that is bad but the hit time is reduced
+because<00:00:46.410><c> the</c><00:00:46.620><c> direct</c><00:00:47.010><c> mapped</c><00:00:47.250><c> cache</c><00:00:47.370><c> has</c><00:00:47.700><c> only</c>
+
+00:00:47.900 --> 00:00:47.910 align:start position:0%
+because the direct mapped cache has only
+ 
+
+00:00:47.910 --> 00:00:49.880 align:start position:0%
+because the direct mapped cache has only
+one<00:00:48.180><c> place</c><00:00:48.450><c> where</c><00:00:48.660><c> a</c><00:00:48.719><c> block</c><00:00:48.930><c> can</c><00:00:49.140><c> be</c><00:00:49.320><c> so</c><00:00:49.620><c> we</c><00:00:49.710><c> can</c>
+
+00:00:49.880 --> 00:00:49.890 align:start position:0%
+one place where a block can be so we can
+ 
+
+00:00:49.890 --> 00:00:51.229 align:start position:0%
+one place where a block can be so we can
+quickly<00:00:50.070><c> check</c><00:00:50.399><c> whether</c><00:00:50.640><c> it's</c><00:00:50.850><c> there</c><00:00:51.059><c> or</c><00:00:51.210><c> not</c>
+
+00:00:51.229 --> 00:00:51.239 align:start position:0%
+quickly check whether it's there or not
+ 
+
+00:00:51.239 --> 00:00:54.560 align:start position:0%
+quickly check whether it's there or not
+and<00:00:51.780><c> we</c><00:00:52.320><c> like</c><00:00:52.530><c> that</c><00:00:52.770><c> so</c><00:00:53.610><c> we</c><00:00:53.730><c> can</c><00:00:53.910><c> see</c><00:00:54.090><c> that</c><00:00:54.300><c> high</c>
+
+00:00:54.560 --> 00:00:54.570 align:start position:0%
+and we like that so we can see that high
+ 
+
+00:00:54.570 --> 00:00:57.380 align:start position:0%
+and we like that so we can see that high
+associativity<00:00:54.809><c> in</c><00:00:55.800><c> a</c><00:00:56.010><c> cache</c><00:00:56.250><c> improves</c><00:00:57.210><c> the</c>
+
+00:00:57.380 --> 00:00:57.390 align:start position:0%
+associativity in a cache improves the
+ 
+
+00:00:57.390 --> 00:00:59.619 align:start position:0%
+associativity in a cache improves the
+miss<00:00:57.600><c> rate</c><00:00:57.870><c> but</c><00:00:58.500><c> makes</c><00:00:58.739><c> the</c><00:00:58.890><c> hit</c><00:00:59.039><c> time</c><00:00:59.219><c> worse</c>
+
+00:00:59.619 --> 00:00:59.629 align:start position:0%
+miss rate but makes the hit time worse
+ 
+
+00:00:59.629 --> 00:01:02.799 align:start position:0%
+miss rate but makes the hit time worse
+while<00:01:00.629><c> simple</c><00:01:01.199><c> direct</c><00:01:01.530><c> mapped</c><00:01:01.739><c> cache</c><00:01:01.829><c> is</c>
+
+00:01:02.799 --> 00:01:02.809 align:start position:0%
+while simple direct mapped cache is
+ 
+
+00:01:02.809 --> 00:01:05.509 align:start position:0%
+while simple direct mapped cache is
+sacrifice<00:01:03.809><c> the</c><00:01:03.989><c> meets</c><00:01:04.199><c> rate</c><00:01:04.470><c> to</c><00:01:04.979><c> improve</c><00:01:05.309><c> hit</c>
+
+00:01:05.509 --> 00:01:05.519 align:start position:0%
+sacrifice the meets rate to improve hit
+ 
+
+00:01:05.519 --> 00:01:08.149 align:start position:0%
+sacrifice the meets rate to improve hit
+time<00:01:05.760><c> so</c><00:01:06.750><c> now</c><00:01:06.960><c> we</c><00:01:07.020><c> will</c><00:01:07.290><c> see</c><00:01:07.530><c> if</c><00:01:07.680><c> we</c><00:01:07.710><c> can</c><00:01:07.979><c> get</c>
+
+00:01:08.149 --> 00:01:08.159 align:start position:0%
+time so now we will see if we can get
+ 
+
+00:01:08.159 --> 00:01:12.620 align:start position:0%
+time so now we will see if we can get
+this<00:01:08.580><c> and</c><00:01:09.180><c> this</c><00:01:10.130><c> simultaneously</c><00:01:11.180><c> by</c><00:01:12.180><c> kind</c><00:01:12.510><c> of</c>
+
+00:01:12.620 --> 00:01:12.630 align:start position:0%
+this and this simultaneously by kind of
+ 
+
+00:01:12.630 --> 00:01:15.770 align:start position:0%
+this and this simultaneously by kind of
+cheating<00:01:13.020><c> on</c><00:01:13.140><c> our</c><00:01:13.290><c> associativity</c>
+

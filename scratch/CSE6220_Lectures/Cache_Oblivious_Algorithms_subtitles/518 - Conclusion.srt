@@ -1,0 +1,76 @@
+1
+00:00:00,410 --> 00:00:04,500
+ The idea of cache obliviousness is one of those great frontiers of HPC.
+
+2
+00:00:04,500 --> 00:00:07,354
+ And it's a terrific starting point for new research.
+
+3
+00:00:07,354 --> 00:00:10,910
+ In particular, there's a lot of solid theory but in my opinion there
+
+4
+00:00:10,910 --> 00:00:14,531
+ haven't been quite as many successful practical implementations or
+
+5
+00:00:14,531 --> 00:00:17,200
+ evaluations of these algorithms.
+
+6
+00:00:17,200 --> 00:00:18,060
+ Now if that's the case,
+
+7
+00:00:18,060 --> 00:00:22,250
+ you might ask yourself, why bother with cache oblivious approaches?
+
+8
+00:00:22,250 --> 00:00:27,170
+ Well, there's at least one argument that I find especially compelling.
+
+9
+00:00:27,170 --> 00:00:30,807
+ Before I say it, you should pause the video, and
+
+10
+00:00:30,807 --> 00:00:34,726
+ see if you can think of an argument on your own first.
+
+11
+00:00:34,726 --> 00:00:41,434
+ [SOUND] Okay so, what did you come up with?
+
+12
+00:00:41,434 --> 00:00:43,534
+ Here's the one I like a lot.
+
+13
+00:00:43,534 --> 00:00:45,846
+ The present and future is about virtualized or
+
+14
+00:00:45,846 --> 00:00:48,600
+ shared environments, like the cloud.
+
+15
+00:00:48,600 --> 00:00:52,630
+ So, your program might have to fight for resources, like caches or
+
+16
+00:00:52,630 --> 00:00:54,180
+ network bandwidth, and do so
+
+17
+00:00:54,180 --> 00:00:58,700
+ in an unpredictable way as other jobs try to push yours out of the way.
+
+18
+00:00:58,700 --> 00:01:02,940
+ In such cases, you might not have a better choice than to try to be as
+
+19
+00:01:02,940 --> 00:01:02,940
+ resource oblivious as possible.
+

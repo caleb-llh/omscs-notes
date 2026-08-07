@@ -1,0 +1,144 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:03.110 align:start position:0%
+ 
+now<00:00:00.320><c> let's</c><00:00:00.560><c> do</c><00:00:00.840><c> a</c><00:00:01.079><c> quiz</c><00:00:02.040><c> on</c><00:00:02.280><c> the</c><00:00:02.480><c> benefits</c><00:00:02.960><c> of</c>
+
+00:00:03.110 --> 00:00:03.120 align:start position:0%
+now let's do a quiz on the benefits of
+ 
+
+00:00:03.120 --> 00:00:05.070 align:start position:0%
+now let's do a quiz on the benefits of
+Branch<00:00:03.480><c> prediction</c><00:00:04.240><c> let's</c><00:00:04.440><c> say</c><00:00:04.640><c> we</c><00:00:04.759><c> have</c><00:00:04.920><c> the</c>
+
+00:00:05.070 --> 00:00:05.080 align:start position:0%
+Branch prediction let's say we have the
+ 
+
+00:00:05.080 --> 00:00:07.389 align:start position:0%
+Branch prediction let's say we have the
+classical<00:00:05.520><c> five-stage</c><00:00:06.160><c> pipeline</c><00:00:06.640><c> the</c><00:00:06.919><c> fetch</c>
+
+00:00:07.389 --> 00:00:07.399 align:start position:0%
+classical five-stage pipeline the fetch
+ 
+
+00:00:07.399 --> 00:00:10.830 align:start position:0%
+classical five-stage pipeline the fetch
+decode<00:00:08.080><c> ALU</c><00:00:08.599><c> memory</c><00:00:09.040><c> and</c><00:00:09.320><c> right</c><00:00:10.320><c> the</c><00:00:10.480><c> branch</c>
+
+00:00:10.830 --> 00:00:10.840 align:start position:0%
+decode ALU memory and right the branch
+ 
+
+00:00:10.840 --> 00:00:13.390 align:start position:0%
+decode ALU memory and right the branch
+is<00:00:10.960><c> fully</c><00:00:11.320><c> resolved</c><00:00:12.000><c> in</c><00:00:12.160><c> the</c><00:00:12.320><c> ALU</c><00:00:12.840><c> the</c><00:00:13.000><c> third</c>
+
+00:00:13.390 --> 00:00:13.400 align:start position:0%
+is fully resolved in the ALU the third
+ 
+
+00:00:13.400 --> 00:00:16.310 align:start position:0%
+is fully resolved in the ALU the third
+stage<00:00:14.400><c> fully</c><00:00:14.799><c> resolved</c><00:00:15.320><c> means</c><00:00:15.719><c> that</c><00:00:16.080><c> we</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+stage fully resolved means that we
+ 
+
+00:00:16.320 --> 00:00:18.550 align:start position:0%
+stage fully resolved means that we
+finally<00:00:16.680><c> know</c><00:00:17.000><c> the</c><00:00:17.199><c> correct</c><00:00:17.680><c> PC</c><00:00:18.199><c> from</c><00:00:18.400><c> which</c>
+
+00:00:18.550 --> 00:00:18.560 align:start position:0%
+finally know the correct PC from which
+ 
+
+00:00:18.560 --> 00:00:20.910 align:start position:0%
+finally know the correct PC from which
+we<00:00:18.680><c> should</c><00:00:18.880><c> fetch</c><00:00:19.160><c> the</c><00:00:19.279><c> next</c><00:00:19.720><c> instruction</c><00:00:20.720><c> in</c>
+
+00:00:20.910 --> 00:00:20.920 align:start position:0%
+we should fetch the next instruction in
+ 
+
+00:00:20.920 --> 00:00:23.630 align:start position:0%
+we should fetch the next instruction in
+this<00:00:21.160><c> processor</c><00:00:22.119><c> we</c><00:00:22.279><c> fetch</c><00:00:22.680><c> nothing</c><00:00:23.240><c> until</c><00:00:23.519><c> we</c>
+
+00:00:23.630 --> 00:00:23.640 align:start position:0%
+this processor we fetch nothing until we
+ 
+
+00:00:23.640 --> 00:00:26.470 align:start position:0%
+this processor we fetch nothing until we
+are<00:00:23.760><c> sure</c><00:00:24.240><c> what</c><00:00:24.400><c> to</c><00:00:24.640><c> fetch</c><00:00:25.640><c> and</c><00:00:25.800><c> we</c><00:00:26.000><c> execute</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+are sure what to fetch and we execute
+ 
+
+00:00:26.480 --> 00:00:29.749 align:start position:0%
+are sure what to fetch and we execute
+many<00:00:26.760><c> many</c><00:00:27.119><c> iterations</c><00:00:28.119><c> of</c><00:00:28.359><c> this</c><00:00:28.519><c> Loop</c><00:00:29.320><c> we</c><00:00:29.480><c> add</c>
+
+00:00:29.749 --> 00:00:29.759 align:start position:0%
+many many iterations of this Loop we add
+ 
+
+00:00:29.759 --> 00:00:33.910 align:start position:0%
+many many iterations of this Loop we add
+my<00:00:29.960><c> -</c><00:00:30.199><c> 1</c><00:00:30.359><c> to</c><00:00:30.560><c> R1</c><00:00:31.560><c> we</c><00:00:32.000><c> add</c><00:00:32.279><c> R2</c><00:00:32.719><c> to</c><00:00:32.960><c> itself</c><00:00:33.719><c> and</c>
+
+00:00:33.910 --> 00:00:33.920 align:start position:0%
+my - 1 to R1 we add R2 to itself and
+ 
+
+00:00:33.920 --> 00:00:37.470 align:start position:0%
+my - 1 to R1 we add R2 to itself and
+then<00:00:34.640><c> we</c><00:00:34.800><c> Branch</c><00:00:35.760><c> if</c><00:00:35.960><c> R1</c><00:00:36.399><c> is</c><00:00:36.559><c> not</c><00:00:36.760><c> equal</c><00:00:37.120><c> zero</c>
+
+00:00:37.470 --> 00:00:37.480 align:start position:0%
+then we Branch if R1 is not equal zero
+ 
+
+00:00:37.480 --> 00:00:39.869 align:start position:0%
+then we Branch if R1 is not equal zero
+back<00:00:37.640><c> to</c><00:00:37.760><c> the</c><00:00:37.960><c> loop</c><00:00:38.640><c> the</c><00:00:38.840><c> question</c><00:00:39.120><c> for</c><00:00:39.360><c> you</c>
+
+00:00:39.869 --> 00:00:39.879 align:start position:0%
+back to the loop the question for you
+ 
+
+00:00:39.879 --> 00:00:43.110 align:start position:0%
+back to the loop the question for you
+what<00:00:40.039><c> is</c><00:00:40.200><c> the</c><00:00:40.399><c> speed</c><00:00:40.760><c> up</c><00:00:41.320><c> over</c><00:00:41.719><c> this</c><00:00:42.520><c> achieved</c>
+
+00:00:43.110 --> 00:00:43.120 align:start position:0%
+what is the speed up over this achieved
+ 
+
+00:00:43.120 --> 00:00:45.350 align:start position:0%
+what is the speed up over this achieved
+if<00:00:43.280><c> we</c><00:00:43.480><c> had</c><00:00:43.800><c> perfect</c><00:00:44.239><c> predictor</c><00:00:44.800><c> meaning</c><00:00:45.200><c> for</c>
+
+00:00:45.350 --> 00:00:45.360 align:start position:0%
+if we had perfect predictor meaning for
+ 
+
+00:00:45.360 --> 00:00:46.910 align:start position:0%
+if we had perfect predictor meaning for
+after<00:00:45.559><c> every</c><00:00:45.800><c> instruction</c><00:00:46.280><c> is</c><00:00:46.440><c> fetched</c><00:00:46.760><c> we</c>
+
+00:00:46.910 --> 00:00:46.920 align:start position:0%
+after every instruction is fetched we
+ 
+
+00:00:46.920 --> 00:00:51.840 align:start position:0%
+after every instruction is fetched we
+knew<00:00:47.480><c> which</c><00:00:47.640><c> one</c><00:00:47.920><c> should</c><00:00:48.160><c> be</c><00:00:48.280><c> fetched</c><00:00:48.840><c> next</c>
+

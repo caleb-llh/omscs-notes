@@ -1,0 +1,400 @@
+1
+00:00:00,450 --> 00:00:02,230
+ For a sequential processor with a slow and
+
+2
+00:00:02,230 --> 00:00:06,760
+ a fast memory, recall the basic concept of the balance point of the machine.
+
+3
+00:00:06,760 --> 00:00:09,580
+ In terms of our cartoon, it's R, the peak rate of processing,
+
+4
+00:00:09,580 --> 00:00:11,820
+ divided by peak memory bandwidth.
+
+5
+00:00:11,820 --> 00:00:15,210
+ Let's also recall the historical growth trends of R and beta.
+
+6
+00:00:15,210 --> 00:00:18,750
+ The rate of improvement in computation far outstrips
+
+7
+00:00:18,750 --> 00:00:21,190
+ the rate of improvement in communication.
+
+8
+00:00:21,190 --> 00:00:24,670
+ This gap doubles about once every five and a half years.
+
+9
+00:00:24,670 --> 00:00:26,850
+ So, for your algorithms, what does this mean?
+
+10
+00:00:26,850 --> 00:00:30,610
+ It suggests that it might be beneficial to trade off more computation for
+
+11
+00:00:30,610 --> 00:00:32,280
+ less communication.
+
+12
+00:00:32,280 --> 00:00:35,190
+ Let's be a little bit more analytical about this claim.
+
+13
+00:00:35,190 --> 00:00:37,720
+ Start with the DAG model of computation.
+
+14
+00:00:37,720 --> 00:00:40,950
+ In it, you characterize a computation by two components.
+
+15
+00:00:40,950 --> 00:00:43,600
+ The first is the work or the total number of operations,
+
+16
+00:00:43,600 --> 00:00:46,700
+ which I'll denote by W or W(n).
+
+17
+00:00:46,700 --> 00:00:49,510
+ The second is the span or critical path length.
+
+18
+00:00:49,510 --> 00:00:52,180
+ We call that D(n) or D for short.
+
+19
+00:00:52,180 --> 00:00:55,590
+ Let's augment this representation to reason about slow fast memory
+
+20
+00:00:55,590 --> 00:00:56,730
+ communication.
+
+21
+00:00:56,730 --> 00:00:58,660
+ In particular, remember that you can,
+
+22
+00:00:58,660 --> 00:01:03,040
+ at least in principle, count the number of slow fast memory transfers.
+
+23
+00:01:03,040 --> 00:01:04,849
+ I'll denote these transfers by Q.
+
+24
+00:01:04,849 --> 00:01:08,100
+ Q will in general be a function of the problem size,
+
+25
+00:01:08,100 --> 00:01:11,530
+ the size of fast memory and the transaction size.
+
+26
+00:01:11,530 --> 00:01:14,940
+ I'll also assume by convention that W includes the count of Q.
+
+27
+00:01:14,940 --> 00:01:20,070
+ So, for example, if Q is three and W is ten, then that means there
+
+28
+00:01:20,070 --> 00:01:25,480
+ are ten minus three or seven operations that are non-memory transactions.
+
+29
+00:01:25,480 --> 00:01:28,820
+ Let's also modify our machine cartoon a little bit as well.
+
+30
+00:01:28,820 --> 00:01:31,250
+ As before, there will be a large slow memory,
+
+31
+00:01:31,250 --> 00:01:36,230
+ as well as a small finite capacity fast memory of size Z words.
+
+32
+00:01:36,230 --> 00:01:38,270
+ When data moves between slow and fast memory,
+
+33
+00:01:38,270 --> 00:01:42,570
+ it does so in transactions of size L consecutive words.
+
+34
+00:01:42,570 --> 00:01:46,610
+ In addition, let's let the processor have P processing cores.
+
+35
+00:01:46,610 --> 00:01:50,623
+ Let's assume that each core can execute some number of operations per unit time.
+
+36
+00:01:50,623 --> 00:01:52,940
+ We'll call that rate R0.
+
+37
+00:01:52,940 --> 00:01:57,050
+ Let's model the operation of memory by analogy to the way the cores work.
+
+38
+00:01:57,050 --> 00:02:00,746
+ Each transaction initiates a data transfer across these
+
+39
+00:02:00,746 --> 00:02:02,135
+ L wires in parallel.
+
+40
+00:02:02,135 --> 00:02:06,479
+ The time it takes for a word to go across a wire is beta 0.
+
+41
+00:02:06,479 --> 00:02:11,290
+ In other words, beta 0 is the analog of R0 in this cost model.
+
+42
+00:02:11,290 --> 00:02:12,140
+ And remember, W, D, and
+
+43
+00:02:12,140 --> 00:02:17,280
+ Q count the number of operations ignoring these costs.
+
+44
+00:02:17,280 --> 00:02:22,560
+ Put differently, we usually compute W, D, and Q assuming unit cost operations.
+
+45
+00:02:22,560 --> 00:02:26,470
+ But in a high performance setting, let's try translating unit costs into
+
+46
+00:02:26,470 --> 00:02:29,890
+ real costs to see what they imply about the overall system.
+
+47
+00:02:29,890 --> 00:02:31,605
+ Conceptually, you can account for
+
+48
+00:02:31,605 --> 00:02:35,280
+ non-unit costs by transforming a unit cost DAG.
+
+49
+00:02:35,280 --> 00:02:38,800
+ For example, consider some node in the unit cost DAG.
+
+50
+00:02:38,800 --> 00:02:41,760
+ Suppose this node is one of the compute operations.
+
+51
+00:02:41,760 --> 00:02:45,520
+ Then executing it costs 1 over R0 time units.
+
+52
+00:02:45,520 --> 00:02:49,230
+ So we could replace this single unit cost vertex with a sequence
+
+53
+00:02:49,230 --> 00:02:52,240
+ of 1/R0 unit cost vertices.
+
+54
+00:02:52,240 --> 00:02:56,210
+ Now, what if a node in the DAG instead represents a memory transaction?
+
+55
+00:02:56,210 --> 00:02:59,320
+ Let me suggest that we model transactions in the following way.
+
+56
+00:02:59,320 --> 00:03:02,980
+ First, there's a latency cost which is the same as the latency cost for
+
+57
+00:03:02,980 --> 00:03:04,590
+ the compute operations.
+
+58
+00:03:04,590 --> 00:03:09,360
+ In other words, the memory transaction became 1/R0 unit cost nodes.
+
+59
+00:03:09,360 --> 00:03:12,750
+ After all, a memory transaction is just another instruction.
+
+60
+00:03:12,750 --> 00:03:16,070
+ So, it should roughly share the same instruction processing cost
+
+61
+00:03:16,070 --> 00:03:17,730
+ as any other instruction.
+
+62
+00:03:17,730 --> 00:03:22,170
+ Next, let's also say that the words of the memory transaction can be in flight
+
+63
+00:03:22,170 --> 00:03:24,760
+ concurrently with compute operations.
+
+64
+00:03:24,760 --> 00:03:25,800
+ In terms of the DAG,
+
+65
+00:03:25,800 --> 00:03:29,830
+ that's an additional set of L over beta zero fully concurrent nodes.
+
+66
+00:03:29,830 --> 00:03:33,140
+ Inserting them as concurrent nodes mean they shouldn't increase the critical
+
+67
+00:03:33,140 --> 00:03:34,350
+ path link.
+
+68
+00:03:34,350 --> 00:03:38,600
+ However, by putting them in as explicit nodes, we'll have to pay for their cost.
+
+69
+00:03:38,600 --> 00:03:41,870
+ Most real memory systems behave something like this.
+
+70
+00:03:41,870 --> 00:03:44,395
+ That is, there's usually a separate memory controller or
+
+71
+00:03:44,395 --> 00:03:48,185
+ network processor onto which you can offload communication.
+
+72
+00:03:48,185 --> 00:03:51,545
+ So, what's the best case execution time for this DAG?
+
+73
+00:03:51,545 --> 00:03:54,125
+ To start, the usual work and span laws apply,
+
+74
+00:03:54,125 --> 00:03:56,480
+ just scaled by the processor speed.
+
+75
+00:03:56,480 --> 00:03:59,450
+ There's just one extra cost due to communication.
+
+76
+00:03:59,450 --> 00:04:03,690
+ That is, for each transaction, we have to pay for the cost of these nodes.
+
+77
+00:04:03,690 --> 00:04:05,630
+ Now if you've done a good job designing the algorithm,
+
+78
+00:04:05,630 --> 00:04:06,940
+ the critical path is short.
+
+79
+00:04:06,940 --> 00:04:10,710
+ In this case, when is this right hand side minimized?
+
+80
+00:04:10,710 --> 00:04:11,290
+ That's right.
+
+81
+00:04:11,290 --> 00:04:14,330
+ It's basically when these two arguments are equal.
+
+82
+00:04:14,330 --> 00:04:17,100
+ Now remember the historical growth rate trends?
+
+83
+00:04:17,100 --> 00:04:20,339
+ Of course you do, because what better way to beat insomnia than to always be
+
+84
+00:04:20,339 --> 00:04:23,110
+ dreaming of exponential scaling trends.
+
+85
+00:04:23,110 --> 00:04:26,730
+ >From the trends, if you want to benefit from transistor scaling,
+
+86
+00:04:26,730 --> 00:04:30,690
+ then you need the compute time to dominate the communication time.
+
+87
+00:04:30,690 --> 00:04:33,540
+ I like to call this idea of making compute time dominate
+
+88
+00:04:33,540 --> 00:04:36,710
+ communication time, the principle of balance.
+
+89
+00:04:36,710 --> 00:04:40,250
+ That is, our collective goal whether we design algorithms or
+
+90
+00:04:40,250 --> 00:04:44,670
+ we design systems, is to make it as easy as possible to achieve balance.
+
+91
+00:04:44,670 --> 00:04:48,380
+ That's what gives us our best shot at scaling into the distant future.
+
+92
+00:04:48,380 --> 00:04:51,580
+ Now, let's start with this relation and massage it a little bit more.
+
+93
+00:04:51,580 --> 00:04:54,510
+ On the algorithm side, your goal is to make the left hand
+
+94
+00:04:54,510 --> 00:04:58,440
+ side as large as possible, knowing that the right hand side is subject
+
+95
+00:04:58,440 --> 00:05:01,740
+ to inevitable scaling trends that cause it to grow over time.
+
+96
+00:05:01,740 --> 00:05:03,950
+ What about the system side?
+
+97
+00:05:03,950 --> 00:05:04,730
+ On the system side,
+
+98
+00:05:04,730 --> 00:05:09,090
+ your goal is to try to keep this small to help the algorithms people out.
+
+99
+00:05:09,090 --> 00:05:12,580
+ Now would be a great time for some quick exercises to see what this balance
+
+100
+00:05:12,580 --> 00:05:12,580
+ principle, derived from the modified DAG model, implies.
+

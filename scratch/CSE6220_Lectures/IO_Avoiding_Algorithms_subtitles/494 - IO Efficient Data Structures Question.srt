@@ -1,0 +1,80 @@
+1
+00:00:00,210 --> 00:00:03,340
+ Consider the problem of searching in an ordered collection.
+
+2
+00:00:03,340 --> 00:00:06,800
+ Here's a list of several classical data structures from CS 101,
+
+3
+00:00:06,800 --> 00:00:09,914
+ that you might use to store the collection, besides a sorted array.
+
+4
+00:00:09,914 --> 00:00:14,426
+ An ordered doubly-linked list, a binary search tree,
+
+5
+00:00:14,426 --> 00:00:18,295
+ a red-black tree, a skip list, and a B-tree.
+
+6
+00:00:18,295 --> 00:00:22,225
+ Note that the sorted array A is what you get if you do an in order traversal of
+
+7
+00:00:22,225 --> 00:00:26,075
+ a binary search tree, and then throw out the left and right pointers.
+
+8
+00:00:26,075 --> 00:00:27,815
+ Here's my question for you.
+
+9
+00:00:27,815 --> 00:00:29,575
+ Which of these classical data structures,
+
+10
+00:00:29,575 --> 00:00:32,770
+ if any, attains the I/O lower bound?
+
+11
+00:00:32,770 --> 00:00:36,850
+ The I/O lower bound for search, you will recall, is log n over log l or
+
+12
+00:00:36,850 --> 00:00:38,810
+ log base l of n.
+
+13
+00:00:38,810 --> 00:00:41,680
+ Note that this quiz is actually a lazy quiz.
+
+14
+00:00:41,680 --> 00:00:44,140
+ By that I'm referring to myself, not you.
+
+15
+00:00:44,140 --> 00:00:46,460
+ Hey, sorry I need my beauty rest.
+
+16
+00:00:46,460 --> 00:00:50,350
+ By lazy, I mean that after you submit your answer, I will tell you my answer
+
+17
+00:00:50,350 --> 00:00:53,650
+ and I'll explain part of it, but I won't fully explain it.
+
+18
+00:00:53,650 --> 00:00:56,800
+ To do that would be quite involved as I'd have to explain what each one of
+
+19
+00:00:56,800 --> 00:00:58,080
+ these things is.
+
+20
+00:00:58,080 --> 00:00:58,080
+ That takes all the fun out of you thinking about it on your own.
+

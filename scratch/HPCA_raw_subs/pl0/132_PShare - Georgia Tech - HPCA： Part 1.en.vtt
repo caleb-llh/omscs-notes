@@ -1,0 +1,464 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.389 align:start position:0%
+ 
+What<00:00:00.560><c> we</c><00:00:00.800><c> have</c><00:00:00.960><c> just</c><00:00:01.199><c> seen</c><00:00:01.600><c> is</c><00:00:01.839><c> called</c><00:00:02.080><c> a</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+What we have just seen is called a
+ 
+
+00:00:02.399 --> 00:00:05.110 align:start position:0%
+What we have just seen is called a
+Pshare<00:00:02.960><c> predictor.</c><00:00:03.919><c> It</c><00:00:04.160><c> has</c><00:00:04.319><c> a</c><00:00:04.640><c> private</c>
+
+00:00:05.110 --> 00:00:05.120 align:start position:0%
+Pshare predictor. It has a private
+ 
+
+00:00:05.120 --> 00:00:07.749 align:start position:0%
+Pshare predictor. It has a private
+history<00:00:05.440><c> for</c><00:00:05.680><c> each</c><00:00:05.920><c> branch.</c><00:00:06.480><c> That</c><00:00:06.640><c> is</c><00:00:07.440><c> each</c>
+
+00:00:07.749 --> 00:00:07.759 align:start position:0%
+history for each branch. That is each
+ 
+
+00:00:07.759 --> 00:00:10.549 align:start position:0%
+history for each branch. That is each
+branch<00:00:08.559><c> should</c><00:00:08.880><c> have</c><00:00:09.360><c> its</c><00:00:09.679><c> own</c><00:00:09.920><c> history</c><00:00:10.320><c> in</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+branch should have its own history in
+ 
+
+00:00:10.559 --> 00:00:13.270 align:start position:0%
+branch should have its own history in
+the<00:00:10.719><c> branch</c><00:00:11.040><c> history</c><00:00:11.440><c> table</c><00:00:12.320><c> and</c><00:00:12.559><c> it</c><00:00:12.800><c> has</c>
+
+00:00:13.270 --> 00:00:13.280 align:start position:0%
+the branch history table and it has
+ 
+
+00:00:13.280 --> 00:00:16.310 align:start position:0%
+the branch history table and it has
+shared<00:00:13.960><c> counters</c><00:00:14.960><c> so</c><00:00:15.120><c> that</c><00:00:15.679><c> different</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+shared counters so that different
+ 
+
+00:00:16.320 --> 00:00:18.550 align:start position:0%
+shared counters so that different
+histories<00:00:16.960><c> and</c><00:00:17.199><c> different</c><00:00:17.600><c> branches</c><00:00:18.240><c> might</c>
+
+00:00:18.550 --> 00:00:18.560 align:start position:0%
+histories and different branches might
+ 
+
+00:00:18.560 --> 00:00:21.189 align:start position:0%
+histories and different branches might
+map<00:00:18.800><c> to</c><00:00:19.039><c> the</c><00:00:19.199><c> same</c><00:00:19.400><c> counters.</c><00:00:20.400><c> This</c><00:00:20.640><c> predictor</c>
+
+00:00:21.189 --> 00:00:21.199 align:start position:0%
+map to the same counters. This predictor
+ 
+
+00:00:21.199 --> 00:00:23.509 align:start position:0%
+map to the same counters. This predictor
+is<00:00:21.359><c> good</c><00:00:21.600><c> for</c><00:00:22.000><c> things</c><00:00:22.320><c> like</c><00:00:22.960><c> even</c><00:00:23.199><c> odd</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+is good for things like even odd
+ 
+
+00:00:23.519 --> 00:00:25.990 align:start position:0%
+is good for things like even odd
+behavior<00:00:23.920><c> like</c><00:00:24.160><c> taken</c><00:00:24.560><c> not</c><00:00:24.800><c> taken</c><00:00:25.439><c> loops</c><00:00:25.840><c> with</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+behavior like taken not taken loops with
+ 
+
+00:00:26.000 --> 00:00:27.830 align:start position:0%
+behavior like taken not taken loops with
+few<00:00:26.240><c> iterations.</c><00:00:26.880><c> For</c><00:00:26.960><c> example,</c><00:00:27.359><c> those</c><00:00:27.599><c> eight</c>
+
+00:00:27.830 --> 00:00:27.840 align:start position:0%
+few iterations. For example, those eight
+ 
+
+00:00:27.840 --> 00:00:29.750 align:start position:0%
+few iterations. For example, those eight
+iteration<00:00:28.400><c> loops</c><00:00:28.640><c> that</c><00:00:28.800><c> we</c><00:00:29.039><c> have</c><00:00:29.199><c> seen</c><00:00:29.359><c> and</c><00:00:29.599><c> so</c>
+
+00:00:29.750 --> 00:00:29.760 align:start position:0%
+iteration loops that we have seen and so
+ 
+
+00:00:29.760 --> 00:00:31.669 align:start position:0%
+iteration loops that we have seen and so
+on.<00:00:30.000><c> So</c><00:00:30.240><c> pretty</c><00:00:30.400><c> much</c><00:00:30.560><c> whenever</c><00:00:30.960><c> the</c><00:00:31.199><c> branch's</c>
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+on. So pretty much whenever the branch's
+ 
+
+00:00:31.679 --> 00:00:34.150 align:start position:0%
+on. So pretty much whenever the branch's
+own<00:00:32.079><c> previous</c><00:00:32.480><c> behavior</c><00:00:33.040><c> is</c><00:00:33.360><c> predictive</c><00:00:33.920><c> of</c>
+
+00:00:34.150 --> 00:00:34.160 align:start position:0%
+own previous behavior is predictive of
+ 
+
+00:00:34.160 --> 00:00:36.870 align:start position:0%
+own previous behavior is predictive of
+its<00:00:34.399><c> future</c><00:00:34.719><c> behavior,</c><00:00:35.440><c> Pshare</c><00:00:36.239><c> tends</c><00:00:36.559><c> to</c><00:00:36.719><c> do</c>
+
+00:00:36.870 --> 00:00:36.880 align:start position:0%
+its future behavior, Pshare tends to do
+ 
+
+00:00:36.880 --> 00:00:39.270 align:start position:0%
+its future behavior, Pshare tends to do
+well.<00:00:37.600><c> Another</c><00:00:38.000><c> type</c><00:00:38.239><c> of</c><00:00:38.480><c> similar</c><00:00:38.879><c> predictor</c>
+
+00:00:39.270 --> 00:00:39.280 align:start position:0%
+well. Another type of similar predictor
+ 
+
+00:00:39.280 --> 00:00:42.229 align:start position:0%
+well. Another type of similar predictor
+that<00:00:39.520><c> we</c><00:00:39.680><c> can</c><00:00:39.840><c> make</c><00:00:40.480><c> is</c><00:00:40.800><c> called</c><00:00:41.120><c> G-share.</c><00:00:42.000><c> It</c>
+
+00:00:42.229 --> 00:00:42.239 align:start position:0%
+that we can make is called G-share. It
+ 
+
+00:00:42.239 --> 00:00:44.630 align:start position:0%
+that we can make is called G-share. It
+has<00:00:42.399><c> a</c><00:00:42.719><c> global</c><00:00:43.200><c> history</c><00:00:44.000><c> and</c><00:00:44.239><c> shared</c>
+
+00:00:44.630 --> 00:00:44.640 align:start position:0%
+has a global history and shared
+ 
+
+00:00:44.640 --> 00:00:47.350 align:start position:0%
+has a global history and shared
+counters.<00:00:45.520><c> So</c><00:00:45.760><c> a</c><00:00:46.000><c> global</c><00:00:46.399><c> history</c><00:00:46.879><c> means</c><00:00:47.120><c> that</c>
+
+00:00:47.350 --> 00:00:47.360 align:start position:0%
+counters. So a global history means that
+ 
+
+00:00:47.360 --> 00:00:49.510 align:start position:0%
+counters. So a global history means that
+there<00:00:47.520><c> is</c><00:00:47.760><c> only</c><00:00:48.000><c> a</c><00:00:48.320><c> single</c><00:00:48.719><c> global</c><00:00:49.200><c> history</c>
+
+00:00:49.510 --> 00:00:49.520 align:start position:0%
+there is only a single global history
+ 
+
+00:00:49.520 --> 00:00:51.750 align:start position:0%
+there is only a single global history
+that<00:00:49.680><c> we</c><00:00:49.840><c> use</c><00:00:50.000><c> to</c><00:00:50.160><c> predict</c><00:00:50.480><c> all</c><00:00:50.800><c> branches.</c><00:00:51.520><c> So</c>
+
+00:00:51.750 --> 00:00:51.760 align:start position:0%
+that we use to predict all branches. So
+ 
+
+00:00:51.760 --> 00:00:54.830 align:start position:0%
+that we use to predict all branches. So
+what<00:00:52.000><c> we</c><00:00:52.160><c> have</c><00:00:52.239><c> is</c><00:00:52.480><c> now</c><00:00:52.719><c> the</c><00:00:53.079><c> PC</c><00:00:54.079><c> a</c><00:00:54.399><c> single</c>
+
+00:00:54.830 --> 00:00:54.840 align:start position:0%
+what we have is now the PC a single
+ 
+
+00:00:54.840 --> 00:00:58.869 align:start position:0%
+what we have is now the PC a single
+history<00:00:55.840><c> that</c><00:00:56.160><c> we</c><00:00:56.320><c> exert</c><00:00:56.879><c> together</c><00:00:57.840><c> and</c><00:00:58.079><c> index</c>
+
+00:00:58.869 --> 00:00:58.879 align:start position:0%
+history that we exert together and index
+ 
+
+00:00:58.879 --> 00:01:02.110 align:start position:0%
+history that we exert together and index
+into<00:00:59.199><c> the</c><00:00:59.440><c> array</c><00:00:59.680><c> of</c><00:00:59.920><c> two</c><00:01:00.079><c> bit</c><00:01:00.399><c> counters.</c><00:01:01.359><c> This</c>
+
+00:01:02.110 --> 00:01:02.120 align:start position:0%
+into the array of two bit counters. This
+ 
+
+00:01:02.120 --> 00:01:04.789 align:start position:0%
+into the array of two bit counters. This
+history<00:01:03.120><c> every</c><00:01:03.440><c> branch</c><00:01:03.840><c> decision</c><00:01:04.320><c> regardless</c>
+
+00:01:04.789 --> 00:01:04.799 align:start position:0%
+history every branch decision regardless
+ 
+
+00:01:04.799 --> 00:01:07.270 align:start position:0%
+history every branch decision regardless
+of<00:01:04.960><c> what</c><00:01:05.199><c> the</c><00:01:05.360><c> PC</c><00:01:05.680><c> of</c><00:01:05.840><c> the</c><00:01:06.080><c> branch</c><00:01:06.320><c> is</c><00:01:07.040><c> gets</c>
+
+00:01:07.270 --> 00:01:07.280 align:start position:0%
+of what the PC of the branch is gets
+ 
+
+00:01:07.280 --> 00:01:09.910 align:start position:0%
+of what the PC of the branch is gets
+shifted<00:01:07.680><c> in</c><00:01:07.920><c> here.</c><00:01:08.720><c> So</c><00:01:08.880><c> what</c><00:01:09.119><c> is</c><00:01:09.360><c> Gshshire</c>
+
+00:01:09.910 --> 00:01:09.920 align:start position:0%
+shifted in here. So what is Gshshire
+ 
+
+00:01:09.920 --> 00:01:12.550 align:start position:0%
+shifted in here. So what is Gshshire
+good<00:01:10.159><c> for?</c><00:01:10.880><c> It's</c><00:01:11.119><c> good</c><00:01:11.280><c> for</c><00:01:11.680><c> so-called</c>
+
+00:01:12.550 --> 00:01:12.560 align:start position:0%
+good for? It's good for so-called
+ 
+
+00:01:12.560 --> 00:01:14.710 align:start position:0%
+good for? It's good for so-called
+correlated<00:01:13.200><c> branches.</c><00:01:13.840><c> That</c><00:01:14.000><c> is</c><00:01:14.240><c> branches</c>
+
+00:01:14.710 --> 00:01:14.720 align:start position:0%
+correlated branches. That is branches
+ 
+
+00:01:14.720 --> 00:01:17.830 align:start position:0%
+correlated branches. That is branches
+whose<00:01:15.119><c> decision</c><00:01:16.000><c> is</c><00:01:16.320><c> related</c><00:01:16.799><c> to</c><00:01:17.280><c> what</c><00:01:17.600><c> the</c>
+
+00:01:17.830 --> 00:01:17.840 align:start position:0%
+whose decision is related to what the
+ 
+
+00:01:17.840 --> 00:01:19.429 align:start position:0%
+whose decision is related to what the
+other<00:01:18.159><c> branches</c><00:01:18.560><c> in</c><00:01:18.720><c> the</c><00:01:18.960><c> program</c><00:01:19.200><c> were</c>
+
+00:01:19.429 --> 00:01:19.439 align:start position:0%
+other branches in the program were
+ 
+
+00:01:19.439 --> 00:01:21.910 align:start position:0%
+other branches in the program were
+doing.<00:01:20.000><c> Now</c><00:01:20.159><c> I</c><00:01:20.400><c> would</c><00:01:20.560><c> think</c><00:01:21.119><c> when</c><00:01:21.360><c> would</c><00:01:21.600><c> that</c>
+
+00:01:21.910 --> 00:01:21.920 align:start position:0%
+doing. Now I would think when would that
+ 
+
+00:01:21.920 --> 00:01:24.630 align:start position:0%
+doing. Now I would think when would that
+happen<00:01:22.799><c> and</c><00:01:23.040><c> it</c><00:01:23.280><c> turns</c><00:01:23.520><c> out</c><00:01:23.840><c> that</c><00:01:24.159><c> it</c><00:01:24.400><c> happens</c>
+
+00:01:24.630 --> 00:01:24.640 align:start position:0%
+happen and it turns out that it happens
+ 
+
+00:01:24.640 --> 00:01:26.630 align:start position:0%
+happen and it turns out that it happens
+in<00:01:24.880><c> programs</c><00:01:25.360><c> quite</c><00:01:25.600><c> often.</c><00:01:26.080><c> Think</c><00:01:26.320><c> about</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+in programs quite often. Think about
+ 
+
+00:01:26.640 --> 00:01:29.429 align:start position:0%
+in programs quite often. Think about
+something<00:01:26.880><c> like</c><00:01:27.200><c> this.</c><00:01:27.759><c> If</c><00:01:28.479><c> my</c><00:01:28.720><c> shape</c><00:01:29.040><c> is</c><00:01:29.200><c> a</c>
+
+00:01:29.429 --> 00:01:29.439 align:start position:0%
+something like this. If my shape is a
+ 
+
+00:01:29.439 --> 00:01:32.069 align:start position:0%
+something like this. If my shape is a
+square<00:01:29.920><c> then</c><00:01:30.240><c> do</c><00:01:30.600><c> something.</c><00:01:31.600><c> Then</c><00:01:31.840><c> do</c>
+
+00:01:32.069 --> 00:01:32.079 align:start position:0%
+square then do something. Then do
+ 
+
+00:01:32.079 --> 00:01:33.830 align:start position:0%
+square then do something. Then do
+something<00:01:32.320><c> that</c><00:01:32.560><c> you</c><00:01:32.799><c> do</c><00:01:33.200><c> either</c><00:01:33.520><c> way</c>
+
+00:01:33.830 --> 00:01:33.840 align:start position:0%
+something that you do either way
+ 
+
+00:01:33.840 --> 00:01:36.950 align:start position:0%
+something that you do either way
+regardless<00:01:34.320><c> of</c><00:01:34.479><c> what</c><00:01:34.640><c> the</c><00:01:34.799><c> shape</c><00:01:35.159><c> is.</c><00:01:36.159><c> Then</c><00:01:36.479><c> if</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+regardless of what the shape is. Then if
+ 
+
+00:01:36.960 --> 00:01:38.950 align:start position:0%
+regardless of what the shape is. Then if
+the<00:01:37.200><c> shape</c><00:01:37.439><c> is</c><00:01:37.680><c> not</c><00:01:37.920><c> square</c><00:01:38.320><c> I</c><00:01:38.479><c> have</c><00:01:38.640><c> something</c>
+
+00:01:38.950 --> 00:01:38.960 align:start position:0%
+the shape is not square I have something
+ 
+
+00:01:38.960 --> 00:01:41.670 align:start position:0%
+the shape is not square I have something
+else<00:01:39.119><c> to</c><00:01:39.360><c> do.</c><00:01:40.159><c> This</c><00:01:40.479><c> branch</c><00:01:40.799><c> and</c><00:01:41.119><c> this</c><00:01:41.360><c> branch</c>
+
+00:01:41.670 --> 00:01:41.680 align:start position:0%
+else to do. This branch and this branch
+ 
+
+00:01:41.680 --> 00:01:44.230 align:start position:0%
+else to do. This branch and this branch
+are<00:01:41.920><c> entirely</c><00:01:42.400><c> correlated.</c><00:01:43.280><c> If</c><00:01:43.520><c> this</c><00:01:43.759><c> one</c><00:01:44.000><c> was</c>
+
+00:01:44.230 --> 00:01:44.240 align:start position:0%
+are entirely correlated. If this one was
+ 
+
+00:01:44.240 --> 00:01:46.710 align:start position:0%
+are entirely correlated. If this one was
+taken<00:01:44.960><c> this</c><00:01:45.119><c> one</c><00:01:45.360><c> will</c><00:01:45.520><c> not</c><00:01:45.759><c> be</c><00:01:45.920><c> taken</c><00:01:46.320><c> and</c><00:01:46.560><c> the</c>
+
+00:01:46.710 --> 00:01:46.720 align:start position:0%
+taken this one will not be taken and the
+ 
+
+00:01:46.720 --> 00:01:49.670 align:start position:0%
+taken this one will not be taken and the
+other<00:01:46.880><c> way</c><00:01:47.119><c> around.</c><00:01:48.320><c> So</c><00:01:48.560><c> if</c><00:01:48.799><c> this</c><00:01:49.119><c> branch</c><00:01:49.439><c> is</c>
+
+00:01:49.670 --> 00:01:49.680 align:start position:0%
+other way around. So if this branch is
+ 
+
+00:01:49.680 --> 00:01:51.590 align:start position:0%
+other way around. So if this branch is
+in<00:01:49.920><c> the</c><00:01:50.159><c> history</c><00:01:50.479><c> when</c><00:01:50.799><c> this</c><00:01:50.960><c> one</c><00:01:51.200><c> is</c><00:01:51.360><c> being</c>
+
+00:01:51.590 --> 00:01:51.600 align:start position:0%
+in the history when this one is being
+ 
+
+00:01:51.600 --> 00:01:53.830 align:start position:0%
+in the history when this one is being
+predicted<00:01:52.399><c> then</c><00:01:52.720><c> we</c><00:01:52.880><c> can</c><00:01:53.040><c> perfectly</c><00:01:53.520><c> predict</c>
+
+00:01:53.830 --> 00:01:53.840 align:start position:0%
+predicted then we can perfectly predict
+ 
+
+00:01:53.840 --> 00:01:56.389 align:start position:0%
+predicted then we can perfectly predict
+this<00:01:54.119><c> branch.</c><00:01:55.119><c> Note</c><00:01:55.360><c> that</c><00:01:55.680><c> however</c><00:01:56.079><c> if</c><00:01:56.240><c> we</c>
+
+00:01:56.389 --> 00:01:56.399 align:start position:0%
+this branch. Note that however if we
+ 
+
+00:01:56.399 --> 00:01:58.469 align:start position:0%
+this branch. Note that however if we
+look<00:01:56.560><c> at</c><00:01:56.720><c> this</c><00:01:56.880><c> branch</c><00:01:57.280><c> individually</c><00:01:57.920><c> or</c><00:01:58.240><c> this</c>
+
+00:01:58.469 --> 00:01:58.479 align:start position:0%
+look at this branch individually or this
+ 
+
+00:01:58.479 --> 00:02:01.030 align:start position:0%
+look at this branch individually or this
+branch<00:01:59.000><c> individually</c><00:02:00.000><c> the</c><00:02:00.240><c> history</c><00:02:00.560><c> of</c><00:02:00.799><c> this</c>
+
+00:02:01.030 --> 00:02:01.040 align:start position:0%
+branch individually the history of this
+ 
+
+00:02:01.040 --> 00:02:02.870 align:start position:0%
+branch individually the history of this
+branch<00:02:01.439><c> might</c><00:02:01.680><c> be</c><00:02:01.920><c> completely</c><00:02:02.320><c> random</c>
+
+00:02:02.870 --> 00:02:02.880 align:start position:0%
+branch might be completely random
+ 
+
+00:02:02.880 --> 00:02:05.429 align:start position:0%
+branch might be completely random
+because<00:02:03.600><c> it</c><00:02:03.920><c> really</c><00:02:04.159><c> depends</c><00:02:04.479><c> on</c><00:02:04.719><c> our</c><00:02:04.960><c> data</c>
+
+00:02:05.429 --> 00:02:05.439 align:start position:0%
+because it really depends on our data
+ 
+
+00:02:05.439 --> 00:02:08.150 align:start position:0%
+because it really depends on our data
+whether<00:02:05.840><c> shapes</c><00:02:06.159><c> are</c><00:02:06.399><c> squares.</c><00:02:07.119><c> So</c><00:02:07.360><c> if</c><00:02:07.920><c> we</c>
+
+00:02:08.150 --> 00:02:08.160 align:start position:0%
+whether shapes are squares. So if we
+ 
+
+00:02:08.160 --> 00:02:10.389 align:start position:0%
+whether shapes are squares. So if we
+randomly<00:02:08.720><c> have</c><00:02:08.879><c> shapes</c><00:02:09.360><c> that</c><00:02:09.599><c> are</c><00:02:09.840><c> squares</c><00:02:10.160><c> or</c>
+
+00:02:10.389 --> 00:02:10.399 align:start position:0%
+randomly have shapes that are squares or
+ 
+
+00:02:10.399 --> 00:02:12.869 align:start position:0%
+randomly have shapes that are squares or
+not,<00:02:10.879><c> we</c><00:02:11.039><c> cannot</c><00:02:11.360><c> really</c><00:02:11.599><c> predict</c><00:02:12.000><c> much</c><00:02:12.239><c> here.</c>
+
+00:02:12.869 --> 00:02:12.879 align:start position:0%
+not, we cannot really predict much here.
+ 
+
+00:02:12.879 --> 00:02:15.190 align:start position:0%
+not, we cannot really predict much here.
+So<00:02:13.200><c> this</c><00:02:13.440><c> branch</c><00:02:14.000><c> might</c><00:02:14.239><c> be</c><00:02:14.400><c> mispredicted</c>
+
+00:02:15.190 --> 00:02:15.200 align:start position:0%
+So this branch might be mispredicted
+ 
+
+00:02:15.200 --> 00:02:17.110 align:start position:0%
+So this branch might be mispredicted
+often<00:02:15.680><c> because</c><00:02:16.000><c> we</c><00:02:16.239><c> simply</c><00:02:16.560><c> don't</c><00:02:16.720><c> know</c><00:02:16.879><c> at</c>
+
+00:02:17.110 --> 00:02:17.120 align:start position:0%
+often because we simply don't know at
+ 
+
+00:02:17.120 --> 00:02:19.350 align:start position:0%
+often because we simply don't know at
+that<00:02:17.280><c> point.</c><00:02:18.080><c> But</c><00:02:18.319><c> this</c><00:02:18.640><c> branch</c><00:02:18.959><c> becomes</c>
+
+00:02:19.350 --> 00:02:19.360 align:start position:0%
+that point. But this branch becomes
+ 
+
+00:02:19.360 --> 00:02:21.750 align:start position:0%
+that point. But this branch becomes
+perfectly<00:02:19.920><c> predictable</c><00:02:20.800><c> if</c><00:02:21.120><c> it's</c><00:02:21.360><c> using</c><00:02:21.599><c> the</c>
+
+00:02:21.750 --> 00:02:21.760 align:start position:0%
+perfectly predictable if it's using the
+ 
+
+00:02:21.760 --> 00:02:25.520 align:start position:0%
+perfectly predictable if it's using the
+history<00:02:22.160><c> produced</c><00:02:22.560><c> by</c><00:02:22.720><c> this</c><00:02:22.959><c> branch.</c>
+

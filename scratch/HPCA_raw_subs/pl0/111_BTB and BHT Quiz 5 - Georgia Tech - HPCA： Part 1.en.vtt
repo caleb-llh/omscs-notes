@@ -1,0 +1,120 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:03.030 align:start position:0%
+ 
+let's<00:00:00.399><c> now</c><00:00:00.640><c> do</c><00:00:01.000><c> another</c><00:00:01.439><c> btb</c><00:00:01.920><c> and</c><00:00:02.080><c> BHD</c><00:00:02.560><c> quiz</c>
+
+00:00:03.030 --> 00:00:03.040 align:start position:0%
+let's now do another btb and BHD quiz
+ 
+
+00:00:03.040 --> 00:00:05.869 align:start position:0%
+let's now do another btb and BHD quiz
+but<00:00:03.280><c> this</c><00:00:03.439><c> time</c><00:00:03.679><c> we</c><00:00:03.800><c> have</c><00:00:03.919><c> a</c><00:00:04.080><c> BHD</c><00:00:05.000><c> that</c><00:00:05.200><c> has</c><00:00:05.400><c> 16</c>
+
+00:00:05.869 --> 00:00:05.879 align:start position:0%
+but this time we have a BHD that has 16
+ 
+
+00:00:05.879 --> 00:00:08.589 align:start position:0%
+but this time we have a BHD that has 16
+entries<00:00:06.720><c> and</c><00:00:06.919><c> each</c><00:00:07.200><c> entry</c><00:00:07.600><c> is</c><00:00:07.759><c> a</c><00:00:08.040><c> one</c><00:00:08.280><c> bit</c>
+
+00:00:08.589 --> 00:00:08.599 align:start position:0%
+entries and each entry is a one bit
+ 
+
+00:00:08.599 --> 00:00:10.870 align:start position:0%
+entries and each entry is a one bit
+predictor<00:00:09.519><c> and</c><00:00:09.719><c> that</c><00:00:09.880><c> one</c><00:00:10.120><c> bit</c><00:00:10.400><c> predictor</c>
+
+00:00:10.870 --> 00:00:10.880 align:start position:0%
+predictor and that one bit predictor
+ 
+
+00:00:10.880 --> 00:00:13.030 align:start position:0%
+predictor and that one bit predictor
+starts<00:00:11.280><c> predicting</c><00:00:11.799><c> not</c><00:00:12.120><c> taken</c><00:00:12.519><c> so</c><00:00:12.759><c> all</c><00:00:12.920><c> of</c>
+
+00:00:13.030 --> 00:00:13.040 align:start position:0%
+starts predicting not taken so all of
+ 
+
+00:00:13.040 --> 00:00:15.470 align:start position:0%
+starts predicting not taken so all of
+the<00:00:13.200><c> 16</c><00:00:13.599><c> entries</c><00:00:14.080><c> initially</c><00:00:14.799><c> start</c><00:00:15.160><c> out</c>
+
+00:00:15.470 --> 00:00:15.480 align:start position:0%
+the 16 entries initially start out
+ 
+
+00:00:15.480 --> 00:00:18.429 align:start position:0%
+the 16 entries initially start out
+predicting<00:00:16.039><c> not</c><00:00:16.359><c> taken</c><00:00:17.160><c> the</c><00:00:17.320><c> btb</c><00:00:17.920><c> is</c><00:00:18.039><c> a</c><00:00:18.199><c> 4</c>
+
+00:00:18.429 --> 00:00:18.439 align:start position:0%
+predicting not taken the btb is a 4
+ 
+
+00:00:18.439 --> 00:00:20.670 align:start position:0%
+predicting not taken the btb is a 4
+entry<00:00:18.840><c> perfect</c><00:00:19.199><c> predictor</c><00:00:19.680><c> still</c><00:00:20.480><c> the</c>
+
+00:00:20.670 --> 00:00:20.680 align:start position:0%
+entry perfect predictor still the
+ 
+
+00:00:20.680 --> 00:00:23.589 align:start position:0%
+entry perfect predictor still the
+question<00:00:21.080><c> for</c><00:00:21.320><c> you</c><00:00:21.680><c> this</c><00:00:21.920><c> time</c><00:00:22.800><c> is</c><00:00:23.080><c> how</c><00:00:23.240><c> many</c>
+
+00:00:23.589 --> 00:00:23.599 align:start position:0%
+question for you this time is how many
+ 
+
+00:00:23.599 --> 00:00:25.509 align:start position:0%
+question for you this time is how many
+mispredictions<00:00:24.480><c> do</c><00:00:24.599><c> we</c><00:00:24.800><c> have</c><00:00:25.039><c> for</c><00:00:25.240><c> each</c>
+
+00:00:25.509 --> 00:00:25.519 align:start position:0%
+mispredictions do we have for each
+ 
+
+00:00:25.519 --> 00:00:28.910 align:start position:0%
+mispredictions do we have for each
+instruction<00:00:26.240><c> using</c><00:00:26.640><c> this</c><00:00:27.080><c> BHT</c><00:00:27.599><c> and</c><00:00:27.800><c> btb</c><00:00:28.720><c> write</c>
+
+00:00:28.910 --> 00:00:28.920 align:start position:0%
+instruction using this BHT and btb write
+ 
+
+00:00:28.920 --> 00:00:30.950 align:start position:0%
+instruction using this BHT and btb write
+the<00:00:29.080><c> number</c><00:00:29.320><c> of</c><00:00:29.519><c> mispred</c><00:00:30.000><c> iics</c><00:00:30.439><c> here</c><00:00:30.599><c> for</c><00:00:30.800><c> this</c>
+
+00:00:30.950 --> 00:00:30.960 align:start position:0%
+the number of mispred iics here for this
+ 
+
+00:00:30.960 --> 00:00:32.830 align:start position:0%
+the number of mispred iics here for this
+move<00:00:31.279><c> instruction</c><00:00:31.960><c> write</c><00:00:32.160><c> the</c><00:00:32.320><c> number</c><00:00:32.640><c> of</c>
+
+00:00:32.830 --> 00:00:32.840 align:start position:0%
+move instruction write the number of
+ 
+
+00:00:32.840 --> 00:00:34.549 align:start position:0%
+move instruction write the number of
+mispredictions<00:00:33.680><c> here</c><00:00:33.879><c> for</c><00:00:34.120><c> this</c><00:00:34.280><c> move</c>
+
+00:00:34.549 --> 00:00:34.559 align:start position:0%
+mispredictions here for this move
+ 
+
+00:00:34.559 --> 00:00:38.520 align:start position:0%
+mispredictions here for this move
+instruction<00:00:35.120><c> and</c><00:00:35.320><c> so</c><00:00:35.520><c> on</c>
+

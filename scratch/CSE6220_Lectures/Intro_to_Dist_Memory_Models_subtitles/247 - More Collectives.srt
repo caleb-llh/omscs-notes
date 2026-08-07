@@ -1,0 +1,152 @@
+1
+00:00:00,670 --> 00:00:03,760
+ So far, we've talked about all to one reduce.
+
+2
+00:00:03,760 --> 00:00:06,930
+ Start with a set of nodes on a linear network.
+
+3
+00:00:06,930 --> 00:00:09,760
+ Initially, each node has a vector of data.
+
+4
+00:00:09,760 --> 00:00:14,490
+ Performing a reduce produces the combined data on one of the nodes.
+
+5
+00:00:14,490 --> 00:00:17,500
+ This node that stores the result is called the root.
+
+6
+00:00:17,500 --> 00:00:20,310
+ Now a reduce has a natural partner.
+
+7
+00:00:20,310 --> 00:00:24,270
+ It's called a one-to-all broadcast, or just broadcast.
+
+8
+00:00:24,270 --> 00:00:28,150
+ In a broadcast, one processor has all the data initially.
+
+9
+00:00:28,150 --> 00:00:32,299
+ It wants to send a copy of this data to all other processes.
+
+10
+00:00:32,299 --> 00:00:36,250
+ So it's basically one process shouting in a room to all others.
+
+11
+00:00:36,250 --> 00:00:38,260
+ So in principal if you know an algorithm for
+
+12
+00:00:38,260 --> 00:00:41,720
+ reduction, then you also know an algorithm for broadcast.
+
+13
+00:00:41,720 --> 00:00:44,630
+ You basically run the reduction in reverse.
+
+14
+00:00:44,630 --> 00:00:47,250
+ Because of this relationship between Reduce and Broadcast,
+
+15
+00:00:47,250 --> 00:00:50,550
+ I'll refer to them as Duals of one another.
+
+16
+00:00:50,550 --> 00:00:53,390
+ Here's another useful collective operation.
+
+17
+00:00:53,390 --> 00:00:55,300
+ It's called a Scatter.
+
+18
+00:00:55,300 --> 00:00:58,720
+ In a Scatter, one process starts with a data.
+
+19
+00:00:58,720 --> 00:01:02,950
+ It then sends a piece of its data to each of the other processes.
+
+20
+00:01:02,950 --> 00:01:05,640
+ A scatter also has a natural dual.
+
+21
+00:01:05,640 --> 00:01:07,890
+ The dual is called a Gather.
+
+22
+00:01:07,890 --> 00:01:12,830
+ In a Gather, everyone has a piece of data, and one node collects it.
+
+23
+00:01:12,830 --> 00:01:15,870
+ How do you like my primitive cheese people?
+
+24
+00:01:15,870 --> 00:01:19,180
+ Another useful primitive is an All-gather.
+
+25
+00:01:19,180 --> 00:01:21,368
+ Initially each process has a little bit of data.
+
+26
+00:01:21,368 --> 00:01:26,770
+ After the All-gather, all processes have a copy of all of the data.
+
+27
+00:01:26,770 --> 00:01:30,779
+ And All-gather also has a natural dual called a Reduce-scatter.
+
+28
+00:01:30,779 --> 00:01:35,395
+ In a reduce-scatter, initially all processes contain a vector of data.
+
+29
+00:01:35,395 --> 00:01:40,135
+ They then globally reduce this data using some kind of combining operator
+
+30
+00:01:40,135 --> 00:01:44,150
+ like a vector addition or vector element-wise multiplication.
+
+31
+00:01:44,150 --> 00:01:47,545
+ The result is distributed to all processes.
+
+32
+00:01:47,545 --> 00:01:50,135
+ By contrast, recall that a normal reduction,
+
+33
+00:01:50,135 --> 00:01:55,000
+ an all to one reduction, leaves all of the results on just one process.
+
+34
+00:01:55,000 --> 00:01:56,320
+ I'll show you some techniques for
+
+35
+00:01:56,320 --> 00:01:59,840
+ implementing all of these collective operations efficiently.
+
+36
+00:01:59,840 --> 00:02:03,450
+ I learned these techniques from a fellow by the name of Robert van de Geijn.
+
+37
+00:02:03,450 --> 00:02:06,310
+ Once you've learned those methods, you can then simply invoke them
+
+38
+00:02:06,310 --> 00:02:06,310
+ as collective operations in your algorithms whenever you need them.
+

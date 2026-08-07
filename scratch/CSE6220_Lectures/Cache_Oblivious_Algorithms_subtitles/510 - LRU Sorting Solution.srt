@@ -1,0 +1,44 @@
+1
+00:00:00,270 --> 00:00:03,360
+ The answer is it is the same as the optimal algorithm.
+
+2
+00:00:03,360 --> 00:00:05,950
+ Of course you could have also typed this expression.
+
+3
+00:00:05,950 --> 00:00:10,370
+ To get this result, just observe that Q opt is regular.
+
+4
+00:00:10,370 --> 00:00:13,523
+ I mean in the sense of what happens when you double the cache size.
+
+5
+00:00:13,523 --> 00:00:16,135
+ The dependants on z appears here.
+
+6
+00:00:16,135 --> 00:00:17,805
+ So, expand that.
+
+7
+00:00:17,805 --> 00:00:19,309
+ It's just log z over L+1.
+
+8
+00:00:19,309 --> 00:00:23,425
+ In other words, doubling the cash size doesn't really change the asymptotics of
+
+9
+00:00:23,425 --> 00:00:26,135
+ Q opt, so Q opt is regular.
+
+10
+00:00:26,135 --> 00:00:29,522
+ Therefore, nLRU cache will perform just as well as the optimal cache,
+
+11
+00:00:29,522 --> 00:00:29,522
+ asymptotically speaking.
+

@@ -1,0 +1,760 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.000 align:start position:0%
+ 
+so<00:00:00.299><c> now</c><00:00:00.480><c> that</c><00:00:00.539><c> we</c><00:00:00.810><c> know</c><00:00:00.840><c> what</c><00:00:01.199><c> locality</c><00:00:01.770><c> is</c>
+
+00:00:02.000 --> 00:00:02.010 align:start position:0%
+so now that we know what locality is
+ 
+
+00:00:02.010 --> 00:00:04.760 align:start position:0%
+so now that we know what locality is
+let's<00:00:02.939><c> see</c><00:00:03.120><c> how</c><00:00:03.330><c> do</c><00:00:03.389><c> we</c><00:00:03.600><c> use</c><00:00:03.870><c> it</c><00:00:03.899><c> to</c><00:00:04.410><c> improve</c>
+
+00:00:04.760 --> 00:00:04.770 align:start position:0%
+let's see how do we use it to improve
+ 
+
+00:00:04.770 --> 00:00:07.249 align:start position:0%
+let's see how do we use it to improve
+data<00:00:04.980><c> accesses</c><00:00:05.670><c> first</c><00:00:06.450><c> we</c><00:00:06.660><c> will</c><00:00:06.779><c> look</c><00:00:06.930><c> at</c><00:00:07.109><c> an</c>
+
+00:00:07.249 --> 00:00:07.259 align:start position:0%
+data accesses first we will look at an
+ 
+
+00:00:07.259 --> 00:00:10.070 align:start position:0%
+data accesses first we will look at an
+example<00:00:07.700><c> that</c><00:00:08.700><c> considers</c><00:00:09.240><c> borrowing</c><00:00:09.900><c> books</c>
+
+00:00:10.070 --> 00:00:10.080 align:start position:0%
+example that considers borrowing books
+ 
+
+00:00:10.080 --> 00:00:12.530 align:start position:0%
+example that considers borrowing books
+from<00:00:10.349><c> the</c><00:00:10.500><c> library</c><00:00:10.550><c> in</c><00:00:11.550><c> this</c><00:00:11.820><c> example</c><00:00:12.240><c> the</c>
+
+00:00:12.530 --> 00:00:12.540 align:start position:0%
+from the library in this example the
+ 
+
+00:00:12.540 --> 00:00:16.039 align:start position:0%
+from the library in this example the
+library<00:00:13.400><c> represents</c><00:00:14.400><c> a</c><00:00:14.580><c> data</c><00:00:15.330><c> repository</c>
+
+00:00:16.039 --> 00:00:16.049 align:start position:0%
+library represents a data repository
+ 
+
+00:00:16.049 --> 00:00:19.220 align:start position:0%
+library represents a data repository
+that<00:00:16.139><c> is</c><00:00:16.470><c> large</c><00:00:16.740><c> so</c><00:00:17.460><c> a</c><00:00:17.490><c> lot</c><00:00:17.699><c> of</c><00:00:17.910><c> data</c><00:00:18.090><c> there</c><00:00:18.480><c> but</c>
+
+00:00:19.220 --> 00:00:19.230 align:start position:0%
+that is large so a lot of data there but
+ 
+
+00:00:19.230 --> 00:00:22.220 align:start position:0%
+that is large so a lot of data there but
+it<00:00:19.470><c> is</c><00:00:19.619><c> very</c><00:00:19.830><c> slow</c><00:00:20.100><c> to</c><00:00:20.310><c> access</c><00:00:20.730><c> we</c><00:00:21.300><c> need</c><00:00:21.449><c> to</c><00:00:21.600><c> go</c>
+
+00:00:22.220 --> 00:00:22.230 align:start position:0%
+it is very slow to access we need to go
+ 
+
+00:00:22.230 --> 00:00:24.050 align:start position:0%
+it is very slow to access we need to go
+there<00:00:22.500><c> find</c><00:00:23.010><c> the</c><00:00:23.160><c> book</c><00:00:23.400><c> in</c><00:00:23.550><c> the</c><00:00:23.640><c> building</c>
+
+00:00:24.050 --> 00:00:24.060 align:start position:0%
+there find the book in the building
+ 
+
+00:00:24.060 --> 00:00:26.720 align:start position:0%
+there find the book in the building
+check<00:00:24.779><c> it</c><00:00:24.930><c> out</c><00:00:25.170><c> bring</c><00:00:25.740><c> it</c><00:00:25.890><c> back</c><00:00:26.039><c> home</c><00:00:26.310><c> and</c><00:00:26.550><c> so</c>
+
+00:00:26.720 --> 00:00:26.730 align:start position:0%
+check it out bring it back home and so
+ 
+
+00:00:26.730 --> 00:00:29.240 align:start position:0%
+check it out bring it back home and so
+on<00:00:26.990><c> when</c><00:00:27.990><c> we</c><00:00:28.140><c> are</c><00:00:28.170><c> borrowing</c><00:00:28.560><c> books</c><00:00:28.769><c> from</c><00:00:28.949><c> the</c>
+
+00:00:29.240 --> 00:00:29.250 align:start position:0%
+on when we are borrowing books from the
+ 
+
+00:00:29.250 --> 00:00:31.580 align:start position:0%
+on when we are borrowing books from the
+library<00:00:29.929><c> typically</c><00:00:30.929><c> there</c><00:00:31.080><c> is</c><00:00:31.109><c> a</c><00:00:31.230><c> lot</c><00:00:31.439><c> of</c>
+
+00:00:31.580 --> 00:00:31.590 align:start position:0%
+library typically there is a lot of
+ 
+
+00:00:31.590 --> 00:00:33.530 align:start position:0%
+library typically there is a lot of
+temporal<00:00:32.070><c> locality</c><00:00:32.309><c> to</c><00:00:32.700><c> it</c><00:00:32.820><c> for</c><00:00:33.000><c> example</c><00:00:33.420><c> if</c>
+
+00:00:33.530 --> 00:00:33.540 align:start position:0%
+temporal locality to it for example if
+ 
+
+00:00:33.540 --> 00:00:35.780 align:start position:0%
+temporal locality to it for example if
+we<00:00:33.780><c> are</c><00:00:33.840><c> a</c><00:00:33.899><c> student</c><00:00:34.170><c> we</c><00:00:34.980><c> might</c><00:00:35.219><c> need</c><00:00:35.430><c> to</c><00:00:35.489><c> look</c>
+
+00:00:35.780 --> 00:00:35.790 align:start position:0%
+we are a student we might need to look
+ 
+
+00:00:35.790 --> 00:00:38.360 align:start position:0%
+we are a student we might need to look
+up<00:00:36.000><c> the</c><00:00:36.120><c> definition</c><00:00:36.690><c> of</c><00:00:36.750><c> locality</c><00:00:37.380><c> very</c><00:00:37.920><c> often</c>
+
+00:00:38.360 --> 00:00:38.370 align:start position:0%
+up the definition of locality very often
+ 
+
+00:00:38.370 --> 00:00:41.209 align:start position:0%
+up the definition of locality very often
+while<00:00:38.910><c> we're</c><00:00:39.120><c> studying</c><00:00:39.510><c> and</c><00:00:39.860><c> usually</c><00:00:40.860><c> also</c>
+
+00:00:41.209 --> 00:00:41.219 align:start position:0%
+while we're studying and usually also
+ 
+
+00:00:41.219 --> 00:00:43.040 align:start position:0%
+while we're studying and usually also
+there<00:00:41.460><c> is</c><00:00:41.610><c> a</c><00:00:41.640><c> lot</c><00:00:41.850><c> of</c><00:00:41.969><c> spatial</c><00:00:42.239><c> locality</c><00:00:42.420><c> to</c>
+
+00:00:43.040 --> 00:00:43.050 align:start position:0%
+there is a lot of spatial locality to
+ 
+
+00:00:43.050 --> 00:00:45.350 align:start position:0%
+there is a lot of spatial locality to
+using<00:00:43.350><c> books</c><00:00:43.559><c> for</c><00:00:44.219><c> example</c><00:00:44.340><c> if</c><00:00:44.910><c> we</c><00:00:45.030><c> look</c><00:00:45.059><c> at</c>
+
+00:00:45.350 --> 00:00:45.360 align:start position:0%
+using books for example if we look at
+ 
+
+00:00:45.360 --> 00:00:47.150 align:start position:0%
+using books for example if we look at
+some<00:00:45.629><c> computer</c><00:00:46.050><c> architecture</c><00:00:46.559><c> definition</c>
+
+00:00:47.150 --> 00:00:47.160 align:start position:0%
+some computer architecture definition
+ 
+
+00:00:47.160 --> 00:00:49.790 align:start position:0%
+some computer architecture definition
+ones<00:00:47.399><c> we</c><00:00:48.360><c> are</c><00:00:48.390><c> likely</c><00:00:48.870><c> to</c><00:00:49.230><c> be</c><00:00:49.350><c> looking</c><00:00:49.649><c> up</c>
+
+00:00:49.790 --> 00:00:49.800 align:start position:0%
+ones we are likely to be looking up
+ 
+
+00:00:49.800 --> 00:00:52.100 align:start position:0%
+ones we are likely to be looking up
+other<00:00:50.039><c> computer</c><00:00:50.489><c> architecture</c><00:00:51.059><c> stuff</c><00:00:51.360><c> too</c><00:00:51.660><c> in</c>
+
+00:00:52.100 --> 00:00:52.110 align:start position:0%
+other computer architecture stuff too in
+ 
+
+00:00:52.110 --> 00:00:54.290 align:start position:0%
+other computer architecture stuff too in
+the<00:00:52.289><c> near</c><00:00:52.440><c> future</c><00:00:52.680><c> so</c><00:00:53.149><c> continuing</c><00:00:54.149><c> our</c>
+
+00:00:54.290 --> 00:00:54.300 align:start position:0%
+the near future so continuing our
+ 
+
+00:00:54.300 --> 00:00:56.389 align:start position:0%
+the near future so continuing our
+library<00:00:54.840><c> based</c><00:00:55.110><c> locality</c><00:00:55.710><c> in</c><00:00:55.770><c> data</c><00:00:55.980><c> access</c>
+
+00:00:56.389 --> 00:00:56.399 align:start position:0%
+library based locality in data access
+ 
+
+00:00:56.399 --> 00:00:58.700 align:start position:0%
+library based locality in data access
+example<00:00:56.969><c> we</c><00:00:57.510><c> have</c><00:00:57.660><c> seen</c><00:00:57.899><c> that</c><00:00:58.079><c> the</c><00:00:58.199><c> library</c><00:00:58.620><c> is</c>
+
+00:00:58.700 --> 00:00:58.710 align:start position:0%
+example we have seen that the library is
+ 
+
+00:00:58.710 --> 00:01:00.979 align:start position:0%
+example we have seen that the library is
+large<00:00:58.980><c> but</c><00:00:59.219><c> very</c><00:00:59.250><c> slow</c><00:00:59.670><c> to</c><00:00:59.820><c> access</c><00:01:00.270><c> and</c><00:01:00.480><c> it</c>
+
+00:01:00.979 --> 00:01:00.989 align:start position:0%
+large but very slow to access and it
+ 
+
+00:01:00.989 --> 00:01:02.689 align:start position:0%
+large but very slow to access and it
+accesses<00:01:01.620><c> to</c><00:01:01.649><c> information</c><00:01:02.370><c> in</c><00:01:02.460><c> the</c><00:01:02.550><c> library</c>
+
+00:01:02.689 --> 00:01:02.699 align:start position:0%
+accesses to information in the library
+ 
+
+00:01:02.699 --> 00:01:04.579 align:start position:0%
+accesses to information in the library
+have<00:01:03.270><c> temporal</c><00:01:03.780><c> and</c><00:01:03.960><c> spatial</c><00:01:04.350><c> locality</c>
+
+00:01:04.579 --> 00:01:04.589 align:start position:0%
+have temporal and spatial locality
+ 
+
+00:01:04.589 --> 00:01:07.820 align:start position:0%
+have temporal and spatial locality
+usually<00:01:05.250><c> so</c><00:01:06.180><c> when</c><00:01:06.360><c> a</c><00:01:06.390><c> student</c><00:01:06.510><c> needs</c><00:01:07.500><c> a</c><00:01:07.650><c> piece</c>
+
+00:01:07.820 --> 00:01:07.830 align:start position:0%
+usually so when a student needs a piece
+ 
+
+00:01:07.830 --> 00:01:10.399 align:start position:0%
+usually so when a student needs a piece
+of<00:01:07.979><c> information</c><00:01:08.250><c> from</c><00:01:08.729><c> the</c><00:01:08.909><c> library</c><00:01:09.409><c> what</c>
+
+00:01:10.399 --> 00:01:10.409 align:start position:0%
+of information from the library what
+ 
+
+00:01:10.409 --> 00:01:14.000 align:start position:0%
+of information from the library what
+should<00:01:10.830><c> he</c><00:01:11.010><c> do</c><00:01:11.210><c> should</c><00:01:12.210><c> he</c><00:01:12.450><c> go</c><00:01:13.350><c> to</c><00:01:13.409><c> the</c><00:01:13.619><c> library</c>
+
+00:01:14.000 --> 00:01:14.010 align:start position:0%
+should he do should he go to the library
+ 
+
+00:01:14.010 --> 00:01:16.640 align:start position:0%
+should he do should he go to the library
+find<00:01:14.369><c> information</c><00:01:15.150><c> read</c><00:01:15.840><c> it</c><00:01:16.049><c> and</c><00:01:16.320><c> then</c><00:01:16.500><c> just</c>
+
+00:01:16.640 --> 00:01:16.650 align:start position:0%
+find information read it and then just
+ 
+
+00:01:16.650 --> 00:01:17.480 align:start position:0%
+find information read it and then just
+go<00:01:16.770><c> back</c><00:01:16.860><c> home</c>
+
+00:01:17.480 --> 00:01:17.490 align:start position:0%
+go back home
+ 
+
+00:01:17.490 --> 00:01:20.270 align:start position:0%
+go back home
+should<00:01:18.119><c> he</c><00:01:18.330><c> borrow</c><00:01:19.170><c> the</c><00:01:19.470><c> book</c><00:01:19.650><c> take</c><00:01:19.890><c> it</c><00:01:19.920><c> home</c>
+
+00:01:20.270 --> 00:01:20.280 align:start position:0%
+should he borrow the book take it home
+ 
+
+00:01:20.280 --> 00:01:21.980 align:start position:0%
+should he borrow the book take it home
+so<00:01:20.580><c> that</c><00:01:20.759><c> future</c><00:01:21.150><c> accesses</c><00:01:21.780><c> to</c><00:01:21.810><c> the</c>
+
+00:01:21.980 --> 00:01:21.990 align:start position:0%
+so that future accesses to the
+ 
+
+00:01:21.990 --> 00:01:23.929 align:start position:0%
+so that future accesses to the
+information<00:01:22.530><c> in</c><00:01:22.650><c> the</c><00:01:22.770><c> book</c><00:01:22.950><c> are</c><00:01:23.159><c> much</c><00:01:23.430><c> faster</c>
+
+00:01:23.929 --> 00:01:23.939 align:start position:0%
+information in the book are much faster
+ 
+
+00:01:23.939 --> 00:01:26.600 align:start position:0%
+information in the book are much faster
+or<00:01:24.150><c> should</c><00:01:24.630><c> he</c><00:01:24.810><c> take</c><00:01:25.380><c> all</c><00:01:25.680><c> the</c><00:01:25.860><c> books</c><00:01:26.100><c> and</c><00:01:26.369><c> then</c>
+
+00:01:26.600 --> 00:01:26.610 align:start position:0%
+or should he take all the books and then
+ 
+
+00:01:26.610 --> 00:01:28.640 align:start position:0%
+or should he take all the books and then
+build<00:01:26.790><c> a</c><00:01:26.880><c> library</c><00:01:27.299><c> at</c><00:01:27.360><c> home</c><00:01:27.570><c> let's</c><00:01:28.320><c> consider</c>
+
+00:01:28.640 --> 00:01:28.650 align:start position:0%
+build a library at home let's consider
+ 
+
+00:01:28.650 --> 00:01:30.740 align:start position:0%
+build a library at home let's consider
+each<00:01:28.799><c> of</c><00:01:29.070><c> these</c><00:01:29.189><c> three</c><00:01:29.460><c> options</c><00:01:29.880><c> if</c><00:01:30.270><c> we</c><00:01:30.540><c> go</c><00:01:30.689><c> to</c>
+
+00:01:30.740 --> 00:01:30.750 align:start position:0%
+each of these three options if we go to
+ 
+
+00:01:30.750 --> 00:01:32.600 align:start position:0%
+each of these three options if we go to
+the<00:01:30.990><c> library</c><00:01:31.470><c> every</c><00:01:31.740><c> time</c><00:01:31.920><c> we</c><00:01:32.070><c> need</c><00:01:32.220><c> something</c>
+
+00:01:32.600 --> 00:01:32.610 align:start position:0%
+the library every time we need something
+ 
+
+00:01:32.610 --> 00:01:34.850 align:start position:0%
+the library every time we need something
+we're<00:01:32.759><c> wasting</c><00:01:33.180><c> a</c><00:01:33.270><c> lot</c><00:01:33.390><c> of</c><00:01:33.450><c> time</c><00:01:33.740><c> finding</c><00:01:34.740><c> the</c>
+
+00:01:34.850 --> 00:01:34.860 align:start position:0%
+we're wasting a lot of time finding the
+ 
+
+00:01:34.860 --> 00:01:37.190 align:start position:0%
+we're wasting a lot of time finding the
+books<00:01:35.100><c> and</c><00:01:35.369><c> then</c><00:01:35.970><c> looking</c><00:01:36.390><c> up</c><00:01:36.630><c> only</c><00:01:36.810><c> one</c><00:01:37.020><c> piece</c>
+
+00:01:37.190 --> 00:01:37.200 align:start position:0%
+books and then looking up only one piece
+ 
+
+00:01:37.200 --> 00:01:38.840 align:start position:0%
+books and then looking up only one piece
+of<00:01:37.229><c> information</c><00:01:37.470><c> and</c><00:01:38.070><c> then</c><00:01:38.280><c> returning</c><00:01:38.610><c> the</c>
+
+00:01:38.840 --> 00:01:38.850 align:start position:0%
+of information and then returning the
+ 
+
+00:01:38.850 --> 00:01:40.580 align:start position:0%
+of information and then returning the
+book<00:01:39.000><c> because</c><00:01:39.420><c> we</c><00:01:39.570><c> know</c><00:01:39.750><c> that</c><00:01:39.780><c> there</c><00:01:40.290><c> is</c><00:01:40.409><c> both</c>
+
+00:01:40.580 --> 00:01:40.590 align:start position:0%
+book because we know that there is both
+ 
+
+00:01:40.590 --> 00:01:42.080 align:start position:0%
+book because we know that there is both
+temporal<00:01:41.009><c> and</c><00:01:41.040><c> spatial</c><00:01:41.430><c> locality</c><00:01:41.670><c> which</c>
+
+00:01:42.080 --> 00:01:42.090 align:start position:0%
+temporal and spatial locality which
+ 
+
+00:01:42.090 --> 00:01:43.819 align:start position:0%
+temporal and spatial locality which
+means<00:01:42.299><c> we</c><00:01:42.420><c> will</c><00:01:42.540><c> be</c><00:01:42.630><c> probably</c><00:01:42.840><c> reading</c><00:01:43.619><c> the</c>
+
+00:01:43.819 --> 00:01:43.829 align:start position:0%
+means we will be probably reading the
+ 
+
+00:01:43.829 --> 00:01:47.690 align:start position:0%
+means we will be probably reading the
+same<00:01:44.070><c> book</c><00:01:44.369><c> and</c><00:01:44.579><c> nearby</c><00:01:45.000><c> books</c><00:01:45.479><c> very</c><00:01:46.380><c> often</c><00:01:46.920><c> so</c>
+
+00:01:47.690 --> 00:01:47.700 align:start position:0%
+same book and nearby books very often so
+ 
+
+00:01:47.700 --> 00:01:49.550 align:start position:0%
+same book and nearby books very often so
+the<00:01:47.820><c> problem</c><00:01:48.240><c> with</c><00:01:48.360><c> this</c><00:01:48.479><c> approach</c><00:01:48.540><c> is</c><00:01:49.500><c> that</c>
+
+00:01:49.550 --> 00:01:49.560 align:start position:0%
+the problem with this approach is that
+ 
+
+00:01:49.560 --> 00:01:51.859 align:start position:0%
+the problem with this approach is that
+it<00:01:49.979><c> does</c><00:01:50.189><c> not</c><00:01:50.340><c> benefit</c><00:01:50.880><c> from</c><00:01:50.939><c> locality</c><00:01:51.659><c> and</c>
+
+00:01:51.859 --> 00:01:51.869 align:start position:0%
+it does not benefit from locality and
+ 
+
+00:01:51.869 --> 00:01:54.230 align:start position:0%
+it does not benefit from locality and
+this<00:01:52.110><c> is</c><00:01:52.290><c> why</c><00:01:52.439><c> typically</c><00:01:53.009><c> people</c><00:01:53.490><c> do</c><00:01:53.759><c> not</c><00:01:53.909><c> use</c>
+
+00:01:54.230 --> 00:01:54.240 align:start position:0%
+this is why typically people do not use
+ 
+
+00:01:54.240 --> 00:01:56.359 align:start position:0%
+this is why typically people do not use
+it<00:01:54.479><c> when</c><00:01:54.930><c> they</c><00:01:55.079><c> need</c><00:01:55.229><c> to</c><00:01:55.259><c> study</c><00:01:55.530><c> a</c><00:01:55.710><c> topic</c><00:01:56.130><c> and</c>
+
+00:01:56.359 --> 00:01:56.369 align:start position:0%
+it when they need to study a topic and
+ 
+
+00:01:56.369 --> 00:01:59.990 align:start position:0%
+it when they need to study a topic and
+use<00:01:57.119><c> library</c><00:01:57.810><c> resources</c><00:01:58.430><c> if</c><00:01:59.430><c> we</c><00:01:59.610><c> go</c><00:01:59.759><c> to</c><00:01:59.820><c> the</c>
+
+00:01:59.990 --> 00:02:00.000 align:start position:0%
+use library resources if we go to the
+ 
+
+00:02:00.000 --> 00:02:01.850 align:start position:0%
+use library resources if we go to the
+library<00:02:00.149><c> and</c><00:02:00.600><c> borrow</c><00:02:00.810><c> the</c><00:02:00.990><c> book</c><00:02:01.320><c> we</c><00:02:01.469><c> break</c><00:02:01.710><c> it</c>
+
+00:02:01.850 --> 00:02:01.860 align:start position:0%
+library and borrow the book we break it
+ 
+
+00:02:01.860 --> 00:02:04.249 align:start position:0%
+library and borrow the book we break it
+home<00:02:02.070><c> and</c><00:02:02.310><c> now</c><00:02:02.579><c> we</c><00:02:02.880><c> have</c><00:02:03.119><c> the</c><00:02:03.600><c> book</c><00:02:03.810><c> on</c><00:02:04.079><c> the</c>
+
+00:02:04.249 --> 00:02:04.259 align:start position:0%
+home and now we have the book on the
+ 
+
+00:02:04.259 --> 00:02:05.810 align:start position:0%
+home and now we have the book on the
+topic<00:02:04.619><c> that</c><00:02:04.649><c> we</c><00:02:04.890><c> are</c><00:02:04.950><c> currently</c><00:02:05.130><c> working</c><00:02:05.460><c> on</c>
+
+00:02:05.810 --> 00:02:05.820 align:start position:0%
+topic that we are currently working on
+ 
+
+00:02:05.820 --> 00:02:08.180 align:start position:0%
+topic that we are currently working on
+close<00:02:06.210><c> to</c><00:02:06.420><c> us</c><00:02:06.540><c> so</c><00:02:07.350><c> this</c><00:02:07.530><c> is</c><00:02:07.710><c> an</c><00:02:07.829><c> approach</c><00:02:08.160><c> that</c>
+
+00:02:08.180 --> 00:02:08.190 align:start position:0%
+close to us so this is an approach that
+ 
+
+00:02:08.190 --> 00:02:10.820 align:start position:0%
+close to us so this is an approach that
+does<00:02:08.729><c> exploit</c><00:02:09.349><c> temporal</c><00:02:10.349><c> and</c><00:02:10.470><c> spatial</c>
+
+00:02:10.820 --> 00:02:10.830 align:start position:0%
+does exploit temporal and spatial
+ 
+
+00:02:10.830 --> 00:02:13.790 align:start position:0%
+does exploit temporal and spatial
+locality<00:02:11.099><c> and</c><00:02:12.170><c> eliminates</c><00:02:13.170><c> the</c><00:02:13.260><c> problem</c><00:02:13.680><c> of</c>
+
+00:02:13.790 --> 00:02:13.800 align:start position:0%
+locality and eliminates the problem of
+ 
+
+00:02:13.800 --> 00:02:13.970 align:start position:0%
+locality and eliminates the problem of
+the
+
+00:02:13.970 --> 00:02:13.980 align:start position:0%
+the
+ 
+
+00:02:13.980 --> 00:02:15.830 align:start position:0%
+the
+library<00:02:14.430><c> being</c><00:02:14.580><c> large</c><00:02:14.849><c> and</c><00:02:15.030><c> slow</c><00:02:15.180><c> because</c><00:02:15.720><c> we</c>
+
+00:02:15.830 --> 00:02:15.840 align:start position:0%
+library being large and slow because we
+ 
+
+00:02:15.840 --> 00:02:17.720 align:start position:0%
+library being large and slow because we
+have<00:02:15.989><c> very</c><00:02:16.170><c> few</c><00:02:16.379><c> books</c><00:02:16.560><c> bottled</c><00:02:17.099><c> at</c><00:02:17.220><c> home</c><00:02:17.430><c> so</c>
+
+00:02:17.720 --> 00:02:17.730 align:start position:0%
+have very few books bottled at home so
+ 
+
+00:02:17.730 --> 00:02:19.369 align:start position:0%
+have very few books bottled at home so
+we<00:02:17.849><c> can</c><00:02:18.000><c> quickly</c><00:02:18.150><c> find</c><00:02:18.360><c> what</c><00:02:18.599><c> we</c><00:02:18.840><c> need</c><00:02:19.019><c> in</c><00:02:19.170><c> them</c>
+
+00:02:19.369 --> 00:02:19.379 align:start position:0%
+we can quickly find what we need in them
+ 
+
+00:02:19.379 --> 00:02:23.330 align:start position:0%
+we can quickly find what we need in them
+this<00:02:19.950><c> is</c><00:02:20.129><c> why</c><00:02:20.340><c> most</c><00:02:20.909><c> people</c><00:02:21.349><c> will</c><00:02:22.349><c> use</c><00:02:23.099><c> this</c>
+
+00:02:23.330 --> 00:02:23.340 align:start position:0%
+this is why most people will use this
+ 
+
+00:02:23.340 --> 00:02:25.670 align:start position:0%
+this is why most people will use this
+option<00:02:23.640><c> the</c><00:02:24.480><c> approach</c><00:02:24.780><c> of</c><00:02:24.810><c> taking</c><00:02:25.140><c> all</c><00:02:25.530><c> the</c>
+
+00:02:25.670 --> 00:02:25.680 align:start position:0%
+option the approach of taking all the
+ 
+
+00:02:25.680 --> 00:02:28.250 align:start position:0%
+option the approach of taking all the
+books<00:02:25.890><c> in</c><00:02:26.010><c> building</c><00:02:26.340><c> a</c><00:02:26.430><c> library</c><00:02:26.640><c> at</c><00:02:27.030><c> home</c><00:02:27.299><c> is</c>
+
+00:02:28.250 --> 00:02:28.260 align:start position:0%
+books in building a library at home is
+ 
+
+00:02:28.260 --> 00:02:31.009 align:start position:0%
+books in building a library at home is
+very<00:02:28.680><c> expensive</c><00:02:29.400><c> and</c><00:02:29.580><c> also</c><00:02:30.209><c> provides</c><00:02:30.780><c> very</c>
+
+00:02:31.009 --> 00:02:31.019 align:start position:0%
+very expensive and also provides very
+ 
+
+00:02:31.019 --> 00:02:33.830 align:start position:0%
+very expensive and also provides very
+little<00:02:31.349><c> benefit</c><00:02:31.799><c> yes</c><00:02:32.700><c> it</c><00:02:32.970><c> saves</c><00:02:33.299><c> us</c><00:02:33.450><c> the</c><00:02:33.510><c> trip</c>
+
+00:02:33.830 --> 00:02:33.840 align:start position:0%
+little benefit yes it saves us the trip
+ 
+
+00:02:33.840 --> 00:02:36.199 align:start position:0%
+little benefit yes it saves us the trip
+to<00:02:34.019><c> the</c><00:02:34.140><c> library</c><00:02:34.319><c> and</c><00:02:34.709><c> back</c><00:02:34.769><c> but</c><00:02:35.700><c> it</c><00:02:35.849><c> doesn't</c>
+
+00:02:36.199 --> 00:02:36.209 align:start position:0%
+to the library and back but it doesn't
+ 
+
+00:02:36.209 --> 00:02:38.119 align:start position:0%
+to the library and back but it doesn't
+save<00:02:36.420><c> us</c><00:02:36.569><c> the</c><00:02:36.690><c> time</c><00:02:36.900><c> of</c><00:02:37.200><c> searching</c><00:02:37.680><c> among</c><00:02:37.890><c> many</c>
+
+00:02:38.119 --> 00:02:38.129 align:start position:0%
+save us the time of searching among many
+ 
+
+00:02:38.129 --> 00:02:40.759 align:start position:0%
+save us the time of searching among many
+books<00:02:38.489><c> finding</c><00:02:39.360><c> them</c><00:02:39.510><c> on</c><00:02:39.629><c> the</c><00:02:39.750><c> shelves</c><00:02:40.170><c> and</c><00:02:40.319><c> so</c>
+
+00:02:40.759 --> 00:02:40.769 align:start position:0%
+books finding them on the shelves and so
+ 
+
+00:02:40.769 --> 00:02:44.420 align:start position:0%
+books finding them on the shelves and so
+on<00:02:40.980><c> so</c><00:02:41.549><c> really</c><00:02:41.970><c> we'd</c><00:02:42.930><c> rather</c><00:02:43.200><c> have</c><00:02:43.920><c> relatively</c>
+
+00:02:44.420 --> 00:02:44.430 align:start position:0%
+on so really we'd rather have relatively
+ 
+
+00:02:44.430 --> 00:02:46.309 align:start position:0%
+on so really we'd rather have relatively
+few<00:02:44.549><c> books</c><00:02:45.060><c> that</c><00:02:45.569><c> we</c><00:02:45.720><c> are</c><00:02:45.810><c> currently</c>
+
+00:02:46.309 --> 00:02:46.319 align:start position:0%
+few books that we are currently
+ 
+
+00:02:46.319 --> 00:02:49.400 align:start position:0%
+few books that we are currently
+interested<00:02:46.890><c> in</c><00:02:47.310><c> then</c><00:02:48.150><c> have</c><00:02:48.420><c> many</c><00:02:48.750><c> books</c><00:02:49.049><c> and</c>
+
+00:02:49.400 --> 00:02:49.410 align:start position:0%
+interested in then have many books and
+ 
+
+00:02:49.410 --> 00:02:52.880 align:start position:0%
+interested in then have many books and
+have<00:02:50.280><c> to</c><00:02:50.489><c> look</c><00:02:51.209><c> them</c><00:02:51.390><c> up</c><00:02:51.510><c> very</c><00:02:51.720><c> slowly</c><00:02:52.079><c> so</c><00:02:52.620><c> just</c>
+
+00:02:52.880 --> 00:02:52.890 align:start position:0%
+have to look them up very slowly so just
+ 
+
+00:02:52.890 --> 00:02:54.860 align:start position:0%
+have to look them up very slowly so just
+like<00:02:53.069><c> people</c><00:02:53.489><c> when</c><00:02:54.180><c> faced</c><00:02:54.480><c> with</c><00:02:54.599><c> these</c>
+
+00:02:54.860 --> 00:02:54.870 align:start position:0%
+like people when faced with these
+ 
+
+00:02:54.870 --> 00:02:57.500 align:start position:0%
+like people when faced with these
+choices<00:02:55.049><c> about</c><00:02:55.650><c> the</c><00:02:55.950><c> library</c><00:02:56.459><c> usually</c><00:02:57.000><c> choose</c>
+
+00:02:57.500 --> 00:02:57.510 align:start position:0%
+choices about the library usually choose
+ 
+
+00:02:57.510 --> 00:02:59.360 align:start position:0%
+choices about the library usually choose
+the<00:02:57.660><c> second</c><00:02:58.079><c> option</c><00:02:58.200><c> because</c><00:02:58.950><c> it's</c><00:02:59.099><c> a</c><00:02:59.190><c> good</c>
+
+00:02:59.360 --> 00:02:59.370 align:start position:0%
+the second option because it's a good
+ 
+
+00:02:59.370 --> 00:03:01.729 align:start position:0%
+the second option because it's a good
+trade-off<00:02:59.640><c> between</c><00:03:00.420><c> being</c><00:03:00.989><c> able</c><00:03:01.109><c> to</c><00:03:01.290><c> find</c><00:03:01.620><c> the</c>
+
+00:03:01.729 --> 00:03:01.739 align:start position:0%
+trade-off between being able to find the
+ 
+
+00:03:01.739 --> 00:03:03.740 align:start position:0%
+trade-off between being able to find the
+information<00:03:01.769><c> quickly</c><00:03:02.400><c> and</c><00:03:02.879><c> not</c><00:03:03.480><c> being</c>
+
+00:03:03.740 --> 00:03:03.750 align:start position:0%
+information quickly and not being
+ 
+
+00:03:03.750 --> 00:03:05.270 align:start position:0%
+information quickly and not being
+overwhelmed<00:03:04.049><c> with</c><00:03:04.410><c> the</c><00:03:04.650><c> quantity</c><00:03:05.250><c> of</c>
+
+00:03:05.270 --> 00:03:05.280 align:start position:0%
+overwhelmed with the quantity of
+ 
+
+00:03:05.280 --> 00:03:07.190 align:start position:0%
+overwhelmed with the quantity of
+information<00:03:05.849><c> that</c><00:03:05.970><c> we</c><00:03:06.120><c> have</c><00:03:06.269><c> brought</c><00:03:06.480><c> in</c><00:03:06.720><c> when</c>
+
+00:03:07.190 --> 00:03:07.200 align:start position:0%
+information that we have brought in when
+ 
+
+00:03:07.200 --> 00:03:09.080 align:start position:0%
+information that we have brought in when
+we<00:03:07.319><c> have</c><00:03:07.530><c> a</c><00:03:07.560><c> processor</c><00:03:08.190><c> that</c><00:03:08.220><c> needs</c><00:03:08.579><c> to</c><00:03:08.760><c> access</c>
+
+00:03:09.080 --> 00:03:09.090 align:start position:0%
+we have a processor that needs to access
+ 
+
+00:03:09.090 --> 00:03:11.240 align:start position:0%
+we have a processor that needs to access
+main<00:03:09.299><c> memory</c><00:03:09.750><c> we</c><00:03:10.530><c> will</c><00:03:10.709><c> use</c><00:03:10.859><c> the</c><00:03:11.040><c> same</c>
+
+00:03:11.240 --> 00:03:11.250 align:start position:0%
+main memory we will use the same
+ 
+
+00:03:11.250 --> 00:03:13.460 align:start position:0%
+main memory we will use the same
+approach<00:03:11.609><c> instead</c><00:03:12.269><c> of</c><00:03:12.510><c> going</c><00:03:12.780><c> to</c><00:03:12.959><c> memory</c><00:03:13.230><c> for</c>
+
+00:03:13.460 --> 00:03:13.470 align:start position:0%
+approach instead of going to memory for
+ 
+
+00:03:13.470 --> 00:03:17.059 align:start position:0%
+approach instead of going to memory for
+every<00:03:13.980><c> single</c><00:03:14.910><c> memory</c><00:03:15.269><c> location</c><00:03:15.989><c> we</c><00:03:16.920><c> will</c>
+
+00:03:17.059 --> 00:03:17.069 align:start position:0%
+every single memory location we will
+ 
+
+00:03:17.069 --> 00:03:18.949 align:start position:0%
+every single memory location we will
+bring<00:03:17.400><c> the</c><00:03:17.970><c> content</c><00:03:18.359><c> of</c><00:03:18.540><c> memory</c><00:03:18.870><c> locations</c>
+
+00:03:18.949 --> 00:03:18.959 align:start position:0%
+bring the content of memory locations
+ 
+
+00:03:18.959 --> 00:03:21.759 align:start position:0%
+bring the content of memory locations
+that<00:03:19.709><c> we</c><00:03:19.859><c> are</c><00:03:19.919><c> interested</c><00:03:20.489><c> in</c><00:03:20.639><c> closer</c><00:03:21.000><c> to</c><00:03:21.329><c> us</c>
+
+00:03:21.759 --> 00:03:21.769 align:start position:0%
+that we are interested in closer to us
+ 
+
+00:03:21.769 --> 00:03:24.680 align:start position:0%
+that we are interested in closer to us
+but<00:03:22.769><c> we</c><00:03:23.099><c> will</c><00:03:23.220><c> try</c><00:03:23.400><c> not</c><00:03:23.730><c> to</c><00:03:23.970><c> bring</c><00:03:24.209><c> too</c><00:03:24.510><c> much</c>
+
+00:03:24.680 --> 00:03:24.690 align:start position:0%
+but we will try not to bring too much
+ 
+
+00:03:24.690 --> 00:03:26.930 align:start position:0%
+but we will try not to bring too much
+close<00:03:24.989><c> to</c><00:03:25.019><c> us</c><00:03:25.319><c> because</c><00:03:25.859><c> that</c><00:03:25.889><c> will</c><00:03:26.280><c> result</c><00:03:26.700><c> in</c>
+
+00:03:26.930 --> 00:03:26.940 align:start position:0%
+close to us because that will result in
+ 
+
+00:03:26.940 --> 00:03:29.000 align:start position:0%
+close to us because that will result in
+a<00:03:27.030><c> very</c><00:03:27.209><c> slow</c><00:03:27.599><c> structure</c><00:03:28.109><c> close</c><00:03:28.349><c> to</c><00:03:28.530><c> us</c><00:03:28.650><c> so</c><00:03:28.889><c> we</c>
+
+00:03:29.000 --> 00:03:29.010 align:start position:0%
+a very slow structure close to us so we
+ 
+
+00:03:29.010 --> 00:03:30.979 align:start position:0%
+a very slow structure close to us so we
+will<00:03:29.130><c> again</c><00:03:29.400><c> have</c><00:03:29.609><c> slow</c><00:03:29.849><c> accesses</c><00:03:30.359><c> so</c><00:03:30.540><c> what</c><00:03:30.870><c> we</c>
+
+00:03:30.979 --> 00:03:30.989 align:start position:0%
+will again have slow accesses so what we
+ 
+
+00:03:30.989 --> 00:03:33.349 align:start position:0%
+will again have slow accesses so what we
+want<00:03:31.139><c> is</c><00:03:31.290><c> something</c><00:03:31.319><c> small</c><00:03:32.040><c> that</c><00:03:32.910><c> keeps</c><00:03:33.150><c> only</c>
+
+00:03:33.349 --> 00:03:33.359 align:start position:0%
+want is something small that keeps only
+ 
+
+00:03:33.359 --> 00:03:34.970 align:start position:0%
+want is something small that keeps only
+the<00:03:33.599><c> information</c><00:03:34.109><c> we</c><00:03:34.260><c> are</c><00:03:34.290><c> really</c><00:03:34.560><c> interested</c>
+
+00:03:34.970 --> 00:03:34.980 align:start position:0%
+the information we are really interested
+ 
+
+00:03:34.980 --> 00:03:37.940 align:start position:0%
+the information we are really interested
+in<00:03:35.130><c> and</c><00:03:35.280><c> that</c><00:03:36.290><c> small</c><00:03:37.290><c> repository</c><00:03:37.919><c> of</c>
+
+00:03:37.940 --> 00:03:37.950 align:start position:0%
+in and that small repository of
+ 
+
+00:03:37.950 --> 00:03:40.370 align:start position:0%
+in and that small repository of
+information<00:03:38.609><c> is</c><00:03:39.030><c> called</c><00:03:39.389><c> a</c><00:03:39.510><c> cache</c><00:03:39.780><c> when</c><00:03:40.260><c> we</c>
+
+00:03:40.370 --> 00:03:40.380 align:start position:0%
+information is called a cache when we
+ 
+
+00:03:40.380 --> 00:03:43.849 align:start position:0%
+information is called a cache when we
+are<00:03:40.470><c> talking</c><00:03:40.590><c> about</c><00:03:41.010><c> memory</c><00:03:41.340><c> accesses</c>
+

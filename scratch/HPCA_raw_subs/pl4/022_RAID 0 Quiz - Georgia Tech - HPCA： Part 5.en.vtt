@@ -1,0 +1,80 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.969 align:start position:0%
+ 
+let<00:00:00.390><c> us</c><00:00:00.539><c> now</c><00:00:00.719><c> test</c><00:00:01.050><c> our</c><00:00:01.260><c> understanding</c><00:00:01.890><c> of</c>
+
+00:00:01.969 --> 00:00:01.979 align:start position:0%
+let us now test our understanding of
+ 
+
+00:00:01.979 --> 00:00:04.220 align:start position:0%
+let us now test our understanding of
+raid0<00:00:02.429><c> suppose</c><00:00:03.389><c> that</c><00:00:03.600><c> we</c><00:00:03.720><c> are</c><00:00:03.750><c> building</c><00:00:03.990><c> a</c>
+
+00:00:04.220 --> 00:00:04.230 align:start position:0%
+raid0 suppose that we are building a
+ 
+
+00:00:04.230 --> 00:00:07.190 align:start position:0%
+raid0 suppose that we are building a
+raid<00:00:04.440><c> 0</c><00:00:04.740><c> array</c><00:00:04.859><c> with</c><00:00:05.250><c> 4</c><00:00:05.520><c> disks</c><00:00:05.990><c> suppose</c><00:00:06.990><c> that</c>
+
+00:00:07.190 --> 00:00:07.200 align:start position:0%
+raid 0 array with 4 disks suppose that
+ 
+
+00:00:07.200 --> 00:00:10.790 align:start position:0%
+raid 0 array with 4 disks suppose that
+for<00:00:07.230><c> one</c><00:00:07.649><c> such</c><00:00:07.980><c> disk</c><00:00:08.280><c> we</c><00:00:08.910><c> get</c><00:00:09.380><c> 200</c><00:00:10.380><c> gigabytes</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+for one such disk we get 200 gigabytes
+ 
+
+00:00:10.800 --> 00:00:13.789 align:start position:0%
+for one such disk we get 200 gigabytes
+capacity<00:00:11.519><c> 10</c><00:00:12.300><c> megabytes</c><00:00:12.809><c> of</c><00:00:13.049><c> throughput</c><00:00:13.320><c> and</c>
+
+00:00:13.789 --> 00:00:13.799 align:start position:0%
+capacity 10 megabytes of throughput and
+ 
+
+00:00:13.799 --> 00:00:17.630 align:start position:0%
+capacity 10 megabytes of throughput and
+an<00:00:14.460><c> MTTF</c><00:00:15.089><c> of</c><00:00:15.360><c> a</c><00:00:15.540><c> hundred</c><00:00:15.960><c> thousand</c><00:00:16.379><c> hours</c><00:00:16.710><c> so</c><00:00:17.609><c> a</c>
+
+00:00:17.630 --> 00:00:17.640 align:start position:0%
+an MTTF of a hundred thousand hours so a
+ 
+
+00:00:17.640 --> 00:00:19.910 align:start position:0%
+an MTTF of a hundred thousand hours so a
+raid<00:00:17.970><c> 0</c><00:00:18.270><c> array</c><00:00:18.359><c> can</c><00:00:19.320><c> store</c><00:00:19.619><c> how</c><00:00:19.890><c> many</c>
+
+00:00:19.910 --> 00:00:19.920 align:start position:0%
+raid 0 array can store how many
+ 
+
+00:00:19.920 --> 00:00:23.060 align:start position:0%
+raid 0 array can store how many
+gigabytes<00:00:20.600><c> has</c><00:00:21.600><c> a</c><00:00:21.630><c> throughput</c><00:00:22.050><c> of</c><00:00:22.470><c> how</c><00:00:22.800><c> many</c>
+
+00:00:23.060 --> 00:00:23.070 align:start position:0%
+gigabytes has a throughput of how many
+ 
+
+00:00:23.070 --> 00:00:26.810 align:start position:0%
+gigabytes has a throughput of how many
+megabytes<00:00:23.490><c> per</c><00:00:23.760><c> second</c><00:00:24.390><c> and</c><00:00:24.570><c> an</c><00:00:25.170><c> MTTF</c><00:00:25.890><c> of</c><00:00:25.920><c> how</c>
+
+00:00:26.810 --> 00:00:26.820 align:start position:0%
+megabytes per second and an MTTF of how
+ 
+
+00:00:26.820 --> 00:00:29.599 align:start position:0%
+megabytes per second and an MTTF of how
+many<00:00:27.090><c> hours</c>
+

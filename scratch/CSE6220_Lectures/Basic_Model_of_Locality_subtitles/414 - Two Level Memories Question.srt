@@ -1,0 +1,44 @@
+1
+00:00:00,260 --> 00:00:02,940
+ Two level memories appear everywhere.
+
+2
+00:00:02,940 --> 00:00:06,520
+ So I want you to tell me which of the following are examples of slow and
+
+3
+00:00:06,520 --> 00:00:08,590
+ fast memory pairings?
+
+4
+00:00:08,590 --> 00:00:09,990
+ Here are your options.
+
+5
+00:00:09,990 --> 00:00:12,380
+ As an example, the first option is hard disk,
+
+6
+00:00:12,380 --> 00:00:16,250
+ as the slow memory, versus main memory, as the fast memory.
+
+7
+00:00:16,250 --> 00:00:19,380
+ In fact, I already gave you this one so let's check it off.
+
+8
+00:00:19,380 --> 00:00:23,240
+ The other pairings are L1 cash versus CPU registers,
+
+9
+00:00:23,240 --> 00:00:27,590
+ tape storage versus the hard disk, remote server RAM versus local server
+
+10
+00:00:27,590 --> 00:00:32,360
+ RAM, the Internet versus your brain, and I've even left you an additional
+
+11
+00:00:32,360 --> 00:00:32,360
+ option if you want to be creative and come up with your own.
+

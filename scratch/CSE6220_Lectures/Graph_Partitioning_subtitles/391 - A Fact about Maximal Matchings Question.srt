@@ -1,0 +1,52 @@
+1
+00:00:00,420 --> 00:00:04,580
+ I want you to derive a conceptual fact about using maximal matchings to
+
+2
+00:00:04,580 --> 00:00:05,990
+ coursing a graph.
+
+3
+00:00:05,990 --> 00:00:08,870
+ Consider some initial graph, G0.
+
+4
+00:00:08,870 --> 00:00:13,040
+ Now suppose you find the maximal matching unit and use it to course it.
+
+5
+00:00:13,040 --> 00:00:17,453
+ And let's say you repeat this process producing a sequence of graphs from
+
+6
+00:00:17,453 --> 00:00:18,570
+ 1 to k.
+
+7
+00:00:18,570 --> 00:00:22,520
+ Now, let's also say that the original graph has n vertices.
+
+8
+00:00:22,520 --> 00:00:25,940
+ And suppose the final graph has s vertices.
+
+9
+00:00:25,940 --> 00:00:27,660
+ Here's my question.
+
+10
+00:00:27,660 --> 00:00:31,940
+ How large must k be in terms of n and s?
+
+11
+00:00:31,940 --> 00:00:32,490
+ In other words,
+
+12
+00:00:32,490 --> 00:00:35,730
+ I'm interested in a lower bound on the asymptotic value of k.
+
+13
+00:00:35,730 --> 00:00:35,730
+ You can type your answer symbolically here.
+

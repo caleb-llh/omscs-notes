@@ -1,0 +1,168 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.300 align:start position:0%
+ 
+so<00:00:00.539><c> let's</c><00:00:00.750><c> see</c><00:00:00.960><c> if</c><00:00:01.050><c> we</c><00:00:01.170><c> can</c><00:00:01.350><c> figure</c><00:00:01.560><c> out</c><00:00:01.709><c> the</c>
+
+00:00:02.300 --> 00:00:02.310 align:start position:0%
+so let's see if we can figure out the
+ 
+
+00:00:02.310 --> 00:00:04.760 align:start position:0%
+so let's see if we can figure out the
+disk<00:00:02.550><c> access</c><00:00:03.000><c> time</c><00:00:03.110><c> suppose</c><00:00:04.110><c> we</c><00:00:04.259><c> have</c><00:00:04.440><c> a</c><00:00:04.470><c> disk</c>
+
+00:00:04.760 --> 00:00:04.770 align:start position:0%
+disk access time suppose we have a disk
+ 
+
+00:00:04.770 --> 00:00:07.519 align:start position:0%
+disk access time suppose we have a disk
+that<00:00:05.069><c> has</c><00:00:05.370><c> a</c><00:00:05.400><c> thousand</c><00:00:06.000><c> cylinders</c><00:00:06.480><c> and</c><00:00:06.720><c> ten</c>
+
+00:00:07.519 --> 00:00:07.529 align:start position:0%
+that has a thousand cylinders and ten
+ 
+
+00:00:07.529 --> 00:00:08.870 align:start position:0%
+that has a thousand cylinders and ten
+sectors<00:00:08.010><c> per</c><00:00:08.220><c> track</c>
+
+00:00:08.870 --> 00:00:08.880 align:start position:0%
+sectors per track
+ 
+
+00:00:08.880 --> 00:00:11.240 align:start position:0%
+sectors per track
+suppose<00:00:09.690><c> that</c><00:00:09.719><c> the</c><00:00:09.960><c> head</c><00:00:10.200><c> assembly</c><00:00:10.530><c> starts</c>
+
+00:00:11.240 --> 00:00:11.250 align:start position:0%
+suppose that the head assembly starts
+ 
+
+00:00:11.250 --> 00:00:13.879 align:start position:0%
+suppose that the head assembly starts
+out<00:00:11.460><c> at</c><00:00:11.759><c> cylinder</c><00:00:12.420><c> zero</c><00:00:12.719><c> at</c><00:00:12.960><c> one</c><00:00:13.320><c> end</c><00:00:13.559><c> of</c><00:00:13.740><c> the</c>
+
+00:00:13.879 --> 00:00:13.889 align:start position:0%
+out at cylinder zero at one end of the
+ 
+
+00:00:13.889 --> 00:00:16.279 align:start position:0%
+out at cylinder zero at one end of the
+disk<00:00:14.130><c> and</c><00:00:14.429><c> the</c><00:00:15.330><c> cylinders</c><00:00:15.809><c> are</c><00:00:16.020><c> of</c><00:00:16.109><c> course</c>
+
+00:00:16.279 --> 00:00:16.289 align:start position:0%
+disk and the cylinders are of course
+ 
+
+00:00:16.289 --> 00:00:19.730 align:start position:0%
+disk and the cylinders are of course
+numbered<00:00:16.920><c> zero</c><00:00:17.250><c> through</c><00:00:17.699><c> nine</c><00:00:17.940><c> 99</c><00:00:18.740><c> suppose</c>
+
+00:00:19.730 --> 00:00:19.740 align:start position:0%
+numbered zero through nine 99 suppose
+ 
+
+00:00:19.740 --> 00:00:21.769 align:start position:0%
+numbered zero through nine 99 suppose
+that<00:00:19.949><c> the</c><00:00:20.070><c> speed</c><00:00:20.460><c> at</c><00:00:20.760><c> which</c><00:00:21.060><c> the</c><00:00:21.570><c> head</c>
+
+00:00:21.769 --> 00:00:21.779 align:start position:0%
+that the speed at which the head
+ 
+
+00:00:21.779 --> 00:00:24.109 align:start position:0%
+that the speed at which the head
+assembly<00:00:22.080><c> can</c><00:00:22.439><c> move</c><00:00:22.650><c> is</c><00:00:23.310><c> ten</c><00:00:23.699><c> microseconds</c>
+
+00:00:24.109 --> 00:00:24.119 align:start position:0%
+assembly can move is ten microseconds
+ 
+
+00:00:24.119 --> 00:00:26.750 align:start position:0%
+assembly can move is ten microseconds
+per<00:00:24.570><c> cylinder</c><00:00:24.930><c> so</c><00:00:25.590><c> it's</c><00:00:25.710><c> moving</c><00:00:25.920><c> at</c><00:00:26.400><c> linear</c>
+
+00:00:26.750 --> 00:00:26.760 align:start position:0%
+per cylinder so it's moving at linear
+ 
+
+00:00:26.760 --> 00:00:30.890 align:start position:0%
+per cylinder so it's moving at linear
+speed<00:00:27.240><c> and</c><00:00:27.529><c> the</c><00:00:28.529><c> disk</c><00:00:28.710><c> rotates</c><00:00:29.250><c> 100</c><00:00:30.240><c> times</c><00:00:30.599><c> per</c>
+
+00:00:30.890 --> 00:00:30.900 align:start position:0%
+speed and the disk rotates 100 times per
+ 
+
+00:00:30.900 --> 00:00:33.410 align:start position:0%
+speed and the disk rotates 100 times per
+second<00:00:31.610><c> suppose</c><00:00:32.610><c> we</c><00:00:32.730><c> have</c><00:00:32.880><c> a</c><00:00:32.910><c> perfect</c>
+
+00:00:33.410 --> 00:00:33.420 align:start position:0%
+second suppose we have a perfect
+ 
+
+00:00:33.420 --> 00:00:35.990 align:start position:0%
+second suppose we have a perfect
+controller<00:00:33.840><c> and</c><00:00:34.079><c> the</c><00:00:34.200><c> boss</c><00:00:34.460><c> or</c><00:00:35.460><c> very</c><00:00:35.790><c> very</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+controller and the boss or very very
+ 
+
+00:00:36.000 --> 00:00:38.990 align:start position:0%
+controller and the boss or very very
+fast<00:00:36.329><c> relative</c><00:00:36.960><c> to</c><00:00:37.079><c> this</c><00:00:37.230><c> and</c><00:00:38.040><c> suppose</c><00:00:38.969><c> that</c>
+
+00:00:38.990 --> 00:00:39.000 align:start position:0%
+fast relative to this and suppose that
+ 
+
+00:00:39.000 --> 00:00:41.030 align:start position:0%
+fast relative to this and suppose that
+there<00:00:39.270><c> is</c><00:00:39.360><c> no</c><00:00:39.510><c> previous</c><00:00:39.809><c> request</c><00:00:40.379><c> so</c><00:00:40.710><c> we</c><00:00:40.739><c> don't</c>
+
+00:00:41.030 --> 00:00:41.040 align:start position:0%
+there is no previous request so we don't
+ 
+
+00:00:41.040 --> 00:00:43.400 align:start position:0%
+there is no previous request so we don't
+have<00:00:41.219><c> to</c><00:00:41.370><c> worry</c><00:00:41.550><c> about</c><00:00:41.670><c> queuing</c><00:00:42.290><c> so</c><00:00:43.290><c> the</c>
+
+00:00:43.400 --> 00:00:43.410 align:start position:0%
+have to worry about queuing so the
+ 
+
+00:00:43.410 --> 00:00:45.110 align:start position:0%
+have to worry about queuing so the
+question<00:00:43.829><c> for</c><00:00:43.860><c> you</c><00:00:44.160><c> is</c><00:00:44.190><c> what</c><00:00:44.640><c> is</c><00:00:44.670><c> the</c><00:00:45.000><c> average</c>
+
+00:00:45.110 --> 00:00:45.120 align:start position:0%
+question for you is what is the average
+ 
+
+00:00:45.120 --> 00:00:48.860 align:start position:0%
+question for you is what is the average
+time<00:00:45.390><c> to</c><00:00:46.289><c> read</c><00:00:46.469><c> a</c><00:00:46.710><c> randomly</c><00:00:47.250><c> chosen</c><00:00:47.370><c> byte</c><00:00:48.000><c> from</c>
+
+00:00:48.860 --> 00:00:48.870 align:start position:0%
+time to read a randomly chosen byte from
+ 
+
+00:00:48.870 --> 00:00:51.080 align:start position:0%
+time to read a randomly chosen byte from
+this<00:00:49.079><c> disk</c><00:00:49.350><c> where</c><00:00:49.890><c> every</c><00:00:50.309><c> byte</c><00:00:50.489><c> on</c><00:00:50.520><c> the</c><00:00:50.879><c> disk</c>
+
+00:00:51.080 --> 00:00:51.090 align:start position:0%
+this disk where every byte on the disk
+ 
+
+00:00:51.090 --> 00:00:55.399 align:start position:0%
+this disk where every byte on the disk
+has<00:00:51.390><c> the</c><00:00:51.539><c> same</c><00:00:51.809><c> chance</c><00:00:52.260><c> of</c><00:00:52.559><c> being</c><00:00:52.649><c> requested</c>
+

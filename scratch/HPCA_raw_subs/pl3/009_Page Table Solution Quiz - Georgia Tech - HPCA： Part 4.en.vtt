@@ -1,0 +1,232 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.359 --> 00:00:02.190 align:start position:0%
+ 
+let's<00:00:00.560><c> look</c><00:00:00.719><c> at</c><00:00:00.880><c> the</c><00:00:01.040><c> solution</c><00:00:01.560><c> to</c><00:00:01.719><c> our</c><00:00:01.920><c> page</c>
+
+00:00:02.190 --> 00:00:02.200 align:start position:0%
+let's look at the solution to our page
+ 
+
+00:00:02.200 --> 00:00:05.749 align:start position:0%
+let's look at the solution to our page
+size<00:00:02.480><c> quiz</c><00:00:03.320><c> our</c><00:00:03.520><c> physical</c><00:00:03.879><c> memory</c><00:00:04.200><c> is</c><00:00:04.319><c> 2</c><00:00:04.759><c> GB</c>
+
+00:00:05.749 --> 00:00:05.759 align:start position:0%
+size quiz our physical memory is 2 GB
+ 
+
+00:00:05.759 --> 00:00:09.470 align:start position:0%
+size quiz our physical memory is 2 GB
+our<00:00:06.080><c> page</c><00:00:06.440><c> size</c><00:00:07.160><c> is</c><00:00:07.319><c> 4</c><00:00:08.000><c> kilobytes</c><00:00:09.000><c> how</c><00:00:09.160><c> many</c>
+
+00:00:09.470 --> 00:00:09.480 align:start position:0%
+our page size is 4 kilobytes how many
+ 
+
+00:00:09.480 --> 00:00:13.190 align:start position:0%
+our page size is 4 kilobytes how many
+page<00:00:09.760><c> frames</c><00:00:10.240><c> we</c><00:00:10.480><c> have</c><00:00:11.240><c> well</c><00:00:11.519><c> a</c><00:00:11.759><c> page</c><00:00:12.040><c> frame</c><00:00:12.920><c> is</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+page frames we have well a page frame is
+ 
+
+00:00:13.200 --> 00:00:16.590 align:start position:0%
+page frames we have well a page frame is
+a<00:00:13.480><c> place</c><00:00:14.000><c> in</c><00:00:14.240><c> physical</c><00:00:14.679><c> memory</c><00:00:15.360><c> where</c><00:00:15.839><c> a</c><00:00:16.160><c> page</c>
+
+00:00:16.590 --> 00:00:16.600 align:start position:0%
+a place in physical memory where a page
+ 
+
+00:00:16.600 --> 00:00:19.429 align:start position:0%
+a place in physical memory where a page
+might<00:00:16.880><c> fit</c><00:00:17.600><c> so</c><00:00:17.800><c> the</c><00:00:17.960><c> number</c><00:00:18.199><c> of</c><00:00:18.359><c> frames</c><00:00:19.240><c> is</c>
+
+00:00:19.429 --> 00:00:19.439 align:start position:0%
+might fit so the number of frames is
+ 
+
+00:00:19.439 --> 00:00:23.150 align:start position:0%
+might fit so the number of frames is
+simply<00:00:20.240><c> 2</c><00:00:20.560><c> GB</c><00:00:21.199><c> the</c><00:00:21.359><c> physical</c><00:00:21.720><c> memory</c><00:00:22.160><c> size</c>
+
+00:00:23.150 --> 00:00:23.160 align:start position:0%
+simply 2 GB the physical memory size
+ 
+
+00:00:23.160 --> 00:00:26.029 align:start position:0%
+simply 2 GB the physical memory size
+divided<00:00:23.680><c> by</c><00:00:23.840><c> the</c><00:00:24.080><c> page</c><00:00:24.439><c> size</c><00:00:25.119><c> the</c><00:00:25.279><c> frame</c><00:00:25.880><c> is</c>
+
+00:00:26.029 --> 00:00:26.039 align:start position:0%
+divided by the page size the frame is
+ 
+
+00:00:26.039 --> 00:00:27.950 align:start position:0%
+divided by the page size the frame is
+the<00:00:26.199><c> same</c><00:00:26.439><c> size</c><00:00:26.679><c> as</c><00:00:26.800><c> a</c><00:00:27.000><c> page</c><00:00:27.359><c> because</c><00:00:27.640><c> it's</c>
+
+00:00:27.950 --> 00:00:27.960 align:start position:0%
+the same size as a page because it's
+ 
+
+00:00:27.960 --> 00:00:30.910 align:start position:0%
+the same size as a page because it's
+basically<00:00:28.400><c> a</c><00:00:28.640><c> place</c><00:00:28.880><c> for</c><00:00:29.080><c> a</c><00:00:29.359><c> page</c><00:00:29.599><c> to</c><00:00:29.759><c> be</c><00:00:30.119><c> in</c>
+
+00:00:30.910 --> 00:00:30.920 align:start position:0%
+basically a place for a page to be in
+ 
+
+00:00:30.920 --> 00:00:33.310 align:start position:0%
+basically a place for a page to be in
+when<00:00:31.080><c> we</c><00:00:31.199><c> are</c><00:00:31.359><c> doing</c><00:00:32.000><c> things</c><00:00:32.360><c> like</c><00:00:32.599><c> this</c>
+
+00:00:33.310 --> 00:00:33.320 align:start position:0%
+when we are doing things like this
+ 
+
+00:00:33.320 --> 00:00:35.709 align:start position:0%
+when we are doing things like this
+usually<00:00:33.719><c> it's</c><00:00:33.879><c> a</c><00:00:34.040><c> lot</c><00:00:34.480><c> easier</c><00:00:34.920><c> to</c><00:00:35.120><c> think</c><00:00:35.360><c> about</c>
+
+00:00:35.709 --> 00:00:35.719 align:start position:0%
+usually it's a lot easier to think about
+ 
+
+00:00:35.719 --> 00:00:38.750 align:start position:0%
+usually it's a lot easier to think about
+this<00:00:36.040><c> as</c><00:00:36.280><c> what</c><00:00:36.559><c> power</c><00:00:36.800><c> of</c><00:00:36.920><c> two</c><00:00:37.200><c> is</c><00:00:37.320><c> it</c><00:00:38.079><c> so</c><00:00:38.280><c> 2</c>
+
+00:00:38.750 --> 00:00:38.760 align:start position:0%
+this as what power of two is it so 2
+ 
+
+00:00:38.760 --> 00:00:43.790 align:start position:0%
+this as what power of two is it so 2
+gabes<00:00:39.760><c> is</c><00:00:39.960><c> 2</c><00:00:40.280><c> to</c><00:00:40.520><c> the</c><00:00:40.920><c> 31st</c><00:00:41.879><c> bytes</c><00:00:42.800><c> 4</c><00:00:43.200><c> kilobytes</c>
+
+00:00:43.790 --> 00:00:43.800 align:start position:0%
+gabes is 2 to the 31st bytes 4 kilobytes
+ 
+
+00:00:43.800 --> 00:00:47.750 align:start position:0%
+gabes is 2 to the 31st bytes 4 kilobytes
+is<00:00:43.960><c> 2</c><00:00:44.200><c> to</c><00:00:44.399><c> the</c><00:00:45.000><c> 12th</c><00:00:45.719><c> bytes</c><00:00:46.600><c> so</c><00:00:46.800><c> we</c><00:00:46.960><c> end</c><00:00:47.160><c> up</c><00:00:47.440><c> with</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+is 2 to the 12th bytes so we end up with
+ 
+
+00:00:47.760 --> 00:00:50.830 align:start position:0%
+is 2 to the 12th bytes so we end up with
+2<00:00:48.039><c> to</c><00:00:48.199><c> the</c><00:00:48.320><c> 19th</c><00:00:49.199><c> frames</c><00:00:49.960><c> so</c><00:00:50.160><c> the</c><00:00:50.320><c> answer</c><00:00:50.680><c> here</c>
+
+00:00:50.830 --> 00:00:50.840 align:start position:0%
+2 to the 19th frames so the answer here
+ 
+
+00:00:50.840 --> 00:00:53.790 align:start position:0%
+2 to the 19th frames so the answer here
+is<00:00:50.960><c> 2</c><00:00:51.199><c> to</c><00:00:51.320><c> the</c><00:00:51.480><c> 19th</c><00:00:52.480><c> how</c><00:00:52.640><c> many</c><00:00:53.000><c> entries</c><00:00:53.480><c> do</c><00:00:53.640><c> we</c>
+
+00:00:53.790 --> 00:00:53.800 align:start position:0%
+is 2 to the 19th how many entries do we
+ 
+
+00:00:53.800 --> 00:00:56.549 align:start position:0%
+is 2 to the 19th how many entries do we
+have<00:00:54.280><c> in</c><00:00:54.480><c> each</c><00:00:54.719><c> page</c><00:00:55.039><c> table</c><00:00:55.920><c> we</c><00:00:56.039><c> need</c><00:00:56.320><c> one</c>
+
+00:00:56.549 --> 00:00:56.559 align:start position:0%
+have in each page table we need one
+ 
+
+00:00:56.559 --> 00:00:59.549 align:start position:0%
+have in each page table we need one
+entry<00:00:56.879><c> in</c><00:00:56.960><c> a</c><00:00:57.160><c> page</c><00:00:57.440><c> table</c><00:00:58.079><c> for</c><00:00:58.399><c> each</c><00:00:58.760><c> page</c><00:00:59.399><c> in</c>
+
+00:00:59.549 --> 00:00:59.559 align:start position:0%
+entry in a page table for each page in
+ 
+
+00:00:59.559 --> 00:01:03.750 align:start position:0%
+entry in a page table for each page in
+the<00:00:59.680><c> ver</c><00:01:00.280><c> memory</c><00:01:01.199><c> so</c><00:01:01.440><c> the</c><00:01:01.600><c> answer</c><00:01:02.000><c> here</c><00:01:02.239><c> is</c><00:01:02.680><c> 4</c>
+
+00:01:03.750 --> 00:01:03.760 align:start position:0%
+the ver memory so the answer here is 4
+ 
+
+00:01:03.760 --> 00:01:09.590 align:start position:0%
+the ver memory so the answer here is 4
+GB<00:01:04.760><c> /</c><00:01:05.479><c> 4</c><00:01:06.159><c> kiloby</c><00:01:07.159><c> and</c><00:01:07.439><c> that</c><00:01:07.680><c> is</c><00:01:07.960><c> 2</c><00:01:08.200><c> to</c><00:01:08.360><c> the</c><00:01:08.600><c> 20th</c>
+
+00:01:09.590 --> 00:01:09.600 align:start position:0%
+GB / 4 kiloby and that is 2 to the 20th
+ 
+
+00:01:09.600 --> 00:01:13.070 align:start position:0%
+GB / 4 kiloby and that is 2 to the 20th
+or<00:01:09.840><c> one</c><00:01:10.400><c> Mega</c><00:01:10.880><c> entry</c><00:01:11.360><c> as</c><00:01:11.520><c> they</c><00:01:11.640><c> would</c><00:01:11.880><c> say</c><00:01:12.759><c> note</c>
+
+00:01:13.070 --> 00:01:13.080 align:start position:0%
+or one Mega entry as they would say note
+ 
+
+00:01:13.080 --> 00:01:15.270 align:start position:0%
+or one Mega entry as they would say note
+that<00:01:13.240><c> we</c><00:01:13.360><c> need</c><00:01:13.640><c> a</c><00:01:13.880><c> separate</c><00:01:14.280><c> page</c><00:01:14.520><c> table</c><00:01:15.040><c> for</c>
+
+00:01:15.270 --> 00:01:15.280 align:start position:0%
+that we need a separate page table for
+ 
+
+00:01:15.280 --> 00:01:18.109 align:start position:0%
+that we need a separate page table for
+each<00:01:15.560><c> process</c><00:01:16.520><c> each</c><00:01:16.799><c> process</c><00:01:17.119><c> is</c><00:01:17.360><c> 4</c><00:01:17.600><c> GB</c><00:01:18.000><c> of</c>
+
+00:01:18.109 --> 00:01:18.119 align:start position:0%
+each process each process is 4 GB of
+ 
+
+00:01:18.119 --> 00:01:20.469 align:start position:0%
+each process each process is 4 GB of
+virtual<00:01:18.479><c> memory</c><00:01:19.200><c> so</c><00:01:19.479><c> each</c><00:01:19.799><c> process</c><00:01:20.119><c> in</c><00:01:20.240><c> our</c>
+
+00:01:20.469 --> 00:01:20.479 align:start position:0%
+virtual memory so each process in our
+ 
+
+00:01:20.479 --> 00:01:23.469 align:start position:0%
+virtual memory so each process in our
+system<00:01:20.799><c> will</c><00:01:21.320><c> need</c><00:01:22.320><c> a</c><00:01:22.520><c> page</c><00:01:22.799><c> table</c><00:01:23.159><c> that</c><00:01:23.280><c> is</c>
+
+00:01:23.469 --> 00:01:23.479 align:start position:0%
+system will need a page table that is
+ 
+
+00:01:23.479 --> 00:01:26.870 align:start position:0%
+system will need a page table that is
+this<00:01:23.680><c> large</c><00:01:24.240><c> 2</c><00:01:24.640><c> to</c><00:01:24.880><c> the</c><00:01:25.000><c> 20th</c><00:01:25.600><c> or</c><00:01:26.479><c> slightly</c>
+
+00:01:26.870 --> 00:01:26.880 align:start position:0%
+this large 2 to the 20th or slightly
+ 
+
+00:01:26.880 --> 00:01:28.510 align:start position:0%
+this large 2 to the 20th or slightly
+more<00:01:27.079><c> than</c><00:01:27.240><c> 1</c><00:01:27.479><c> million</c>
+
+00:01:28.510 --> 00:01:28.520 align:start position:0%
+more than 1 million
+ 
+
+00:01:28.520 --> 00:01:31.520 align:start position:0%
+more than 1 million
+entries
+

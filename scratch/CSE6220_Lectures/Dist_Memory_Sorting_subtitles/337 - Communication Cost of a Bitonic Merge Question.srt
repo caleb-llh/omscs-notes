@@ -1,0 +1,32 @@
+1
+00:00:00,640 --> 00:00:04,840
+ Consider a distributed bitonic merge using a block distribution scheme.
+
+2
+00:00:04,840 --> 00:00:06,280
+ How much time is needed for
+
+3
+00:00:06,280 --> 00:00:10,420
+ communication, assuming a hypercube with P processes?
+
+4
+00:00:10,420 --> 00:00:13,420
+ I want you to type your answers symbolically here.
+
+5
+00:00:13,420 --> 00:00:16,490
+ You can assume that the problem size n and P are both powers of 2,
+
+6
+00:00:16,490 --> 00:00:19,460
+ and that P divides n, and furthermore,
+
+7
+00:00:19,460 --> 00:00:23,770
+ let's assume our usual alpha-beta cost model for messaging.
+
+8
+00:00:23,770 --> 00:00:23,770
+ When you type your answer, use little a for alpha and little b for beta.
+

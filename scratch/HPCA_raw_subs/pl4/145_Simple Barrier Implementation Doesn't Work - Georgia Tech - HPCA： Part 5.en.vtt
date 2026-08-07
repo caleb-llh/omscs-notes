@@ -1,0 +1,728 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:03.190 align:start position:0%
+ 
+so<00:00:00.400><c> the</c><00:00:00.640><c> simple</c><00:00:01.120><c> barrier</c><00:00:01.520><c> operation</c><00:00:02.639><c> doesn't</c>
+
+00:00:03.190 --> 00:00:03.200 align:start position:0%
+so the simple barrier operation doesn't
+ 
+
+00:00:03.200 --> 00:00:06.150 align:start position:0%
+so the simple barrier operation doesn't
+work<00:00:03.520><c> entirely</c><00:00:04.319><c> and</c><00:00:04.560><c> we</c><00:00:04.720><c> look</c><00:00:05.040><c> now</c><00:00:05.279><c> at</c><00:00:05.600><c> why</c><00:00:06.000><c> it</c>
+
+00:00:06.150 --> 00:00:06.160 align:start position:0%
+work entirely and we look now at why it
+ 
+
+00:00:06.160 --> 00:00:08.470 align:start position:0%
+work entirely and we look now at why it
+doesn't<00:00:06.560><c> work</c><00:00:07.279><c> let's</c><00:00:07.440><c> consider</c><00:00:07.919><c> only</c><00:00:08.240><c> two</c>
+
+00:00:08.470 --> 00:00:08.480 align:start position:0%
+doesn't work let's consider only two
+ 
+
+00:00:08.480 --> 00:00:11.830 align:start position:0%
+doesn't work let's consider only two
+cores<00:00:09.280><c> core</c><00:00:09.679><c> zero</c><00:00:10.400><c> which</c><00:00:10.639><c> we</c><00:00:10.800><c> will</c><00:00:11.519><c> show</c><00:00:11.759><c> in</c>
+
+00:00:11.830 --> 00:00:11.840 align:start position:0%
+cores core zero which we will show in
+ 
+
+00:00:11.840 --> 00:00:14.629 align:start position:0%
+cores core zero which we will show in
+blue<00:00:12.080><c> color</c><00:00:12.480><c> what</c><00:00:12.719><c> it's</c><00:00:12.880><c> doing</c><00:00:13.519><c> and</c><00:00:13.759><c> core</c><00:00:14.160><c> one</c>
+
+00:00:14.629 --> 00:00:14.639 align:start position:0%
+blue color what it's doing and core one
+ 
+
+00:00:14.639 --> 00:00:16.710 align:start position:0%
+blue color what it's doing and core one
+which<00:00:14.880><c> will</c><00:00:15.120><c> show</c><00:00:15.440><c> in</c><00:00:15.599><c> this</c><00:00:15.839><c> color</c><00:00:16.240><c> what</c><00:00:16.480><c> it's</c>
+
+00:00:16.710 --> 00:00:16.720 align:start position:0%
+which will show in this color what it's
+ 
+
+00:00:16.720 --> 00:00:19.109 align:start position:0%
+which will show in this color what it's
+doing<00:00:17.359><c> what</c><00:00:17.520><c> they're</c><00:00:17.840><c> both</c><00:00:18.160><c> doing</c><00:00:18.480><c> initially</c>
+
+00:00:19.109 --> 00:00:19.119 align:start position:0%
+doing what they're both doing initially
+ 
+
+00:00:19.119 --> 00:00:21.269 align:start position:0%
+doing what they're both doing initially
+is<00:00:19.279><c> doing</c><00:00:19.680><c> something</c><00:00:20.240><c> before</c><00:00:20.560><c> they</c><00:00:20.800><c> arrive</c><00:00:21.119><c> to</c>
+
+00:00:21.269 --> 00:00:21.279 align:start position:0%
+is doing something before they arrive to
+ 
+
+00:00:21.279 --> 00:00:24.310 align:start position:0%
+is doing something before they arrive to
+the<00:00:21.359><c> barrier</c><00:00:22.240><c> and</c><00:00:22.480><c> let's</c><00:00:22.800><c> say</c><00:00:23.359><c> that</c><00:00:23.680><c> core</c><00:00:24.000><c> zero</c>
+
+00:00:24.310 --> 00:00:24.320 align:start position:0%
+the barrier and let's say that core zero
+ 
+
+00:00:24.320 --> 00:00:27.029 align:start position:0%
+the barrier and let's say that core zero
+arrives<00:00:24.800><c> here</c><00:00:25.119><c> first</c><00:00:25.920><c> so</c><00:00:26.160><c> what</c><00:00:26.400><c> core</c><00:00:26.720><c> zero</c>
+
+00:00:27.029 --> 00:00:27.039 align:start position:0%
+arrives here first so what core zero
+ 
+
+00:00:27.039 --> 00:00:30.150 align:start position:0%
+arrives here first so what core zero
+does<00:00:27.680><c> is</c><00:00:28.000><c> resets</c><00:00:28.560><c> release</c><00:00:28.960><c> to</c><00:00:29.199><c> 0</c><00:00:29.679><c> increments</c>
+
+00:00:30.150 --> 00:00:30.160 align:start position:0%
+does is resets release to 0 increments
+ 
+
+00:00:30.160 --> 00:00:31.990 align:start position:0%
+does is resets release to 0 increments
+the<00:00:30.320><c> count</c><00:00:30.640><c> to</c><00:00:30.880><c> 1</c>
+
+00:00:31.990 --> 00:00:32.000 align:start position:0%
+the count to 1
+ 
+
+00:00:32.000 --> 00:00:33.670 align:start position:0%
+the count to 1
+unlocks<00:00:32.559><c> the</c><00:00:32.719><c> lock</c>
+
+00:00:33.670 --> 00:00:33.680 align:start position:0%
+unlocks the lock
+ 
+
+00:00:33.680 --> 00:00:35.990 align:start position:0%
+unlocks the lock
+checks<00:00:34.000><c> whether</c><00:00:34.320><c> the</c><00:00:34.480><c> count</c><00:00:34.800><c> is</c><00:00:34.960><c> equal</c><00:00:35.200><c> to</c><00:00:35.440><c> 2</c>
+
+00:00:35.990 --> 00:00:36.000 align:start position:0%
+checks whether the count is equal to 2
+ 
+
+00:00:36.000 --> 00:00:37.990 align:start position:0%
+checks whether the count is equal to 2
+and<00:00:36.239><c> starts</c><00:00:36.559><c> spinning</c><00:00:37.360><c> waiting</c><00:00:37.680><c> for</c><00:00:37.840><c> the</c>
+
+00:00:37.990 --> 00:00:38.000 align:start position:0%
+and starts spinning waiting for the
+ 
+
+00:00:38.000 --> 00:00:40.549 align:start position:0%
+and starts spinning waiting for the
+release<00:00:38.399><c> to</c><00:00:38.559><c> become</c><00:00:39.040><c> 1.</c><00:00:39.520><c> so</c><00:00:39.680><c> now</c><00:00:39.920><c> release</c><00:00:40.399><c> is</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+release to become 1. so now release is
+ 
+
+00:00:40.559 --> 00:00:42.470 align:start position:0%
+release to become 1. so now release is
+still<00:00:40.800><c> 0</c><00:00:41.200><c> because</c>
+
+00:00:42.470 --> 00:00:42.480 align:start position:0%
+still 0 because
+ 
+
+00:00:42.480 --> 00:00:46.229 align:start position:0%
+still 0 because
+we<00:00:42.640><c> just</c><00:00:42.879><c> reset</c><00:00:43.360><c> it</c><00:00:43.920><c> and</c><00:00:44.239><c> core</c><00:00:44.879><c> zero</c><00:00:45.360><c> is</c><00:00:45.520><c> gonna</c>
+
+00:00:46.229 --> 00:00:46.239 align:start position:0%
+we just reset it and core zero is gonna
+ 
+
+00:00:46.239 --> 00:00:48.950 align:start position:0%
+we just reset it and core zero is gonna
+stay<00:00:46.640><c> here</c><00:00:47.039><c> spinning</c><00:00:47.920><c> so</c><00:00:48.079><c> what</c><00:00:48.320><c> core</c><00:00:48.640><c> zero</c>
+
+00:00:48.950 --> 00:00:48.960 align:start position:0%
+stay here spinning so what core zero
+ 
+
+00:00:48.960 --> 00:00:51.670 align:start position:0%
+stay here spinning so what core zero
+does<00:00:49.760><c> is</c><00:00:50.000><c> it</c><00:00:50.320><c> essentially</c>
+
+00:00:51.670 --> 00:00:51.680 align:start position:0%
+does is it essentially
+ 
+
+00:00:51.680 --> 00:00:55.830 align:start position:0%
+does is it essentially
+does<00:00:52.000><c> a</c><00:00:52.079><c> load</c><00:00:52.399><c> word</c><00:00:52.640><c> of</c><00:00:52.800><c> release</c><00:00:53.760><c> c0</c><00:00:54.960><c> and</c><00:00:55.600><c> will</c>
+
+00:00:55.830 --> 00:00:55.840 align:start position:0%
+does a load word of release c0 and will
+ 
+
+00:00:55.840 --> 00:00:58.790 align:start position:0%
+does a load word of release c0 and will
+check<00:00:56.160><c> again</c><00:00:56.879><c> and</c><00:00:57.039><c> it</c><00:00:57.120><c> keeps</c><00:00:57.440><c> doing</c><00:00:57.760><c> that</c>
+
+00:00:58.790 --> 00:00:58.800 align:start position:0%
+check again and it keeps doing that
+ 
+
+00:00:58.800 --> 00:01:01.349 align:start position:0%
+check again and it keeps doing that
+now<00:00:59.120><c> let's</c><00:00:59.359><c> see</c><00:00:59.840><c> what</c><00:01:00.079><c> happens</c><00:01:00.480><c> when</c><00:01:00.719><c> core</c><00:01:01.120><c> 1</c>
+
+00:01:01.349 --> 00:01:01.359 align:start position:0%
+now let's see what happens when core 1
+ 
+
+00:01:01.359 --> 00:01:02.389 align:start position:0%
+now let's see what happens when core 1
+arrives
+
+00:01:02.389 --> 00:01:02.399 align:start position:0%
+arrives
+ 
+
+00:01:02.399 --> 00:01:04.630 align:start position:0%
+arrives
+normally<00:01:02.879><c> what</c><00:01:03.120><c> should</c><00:01:03.280><c> happen</c><00:01:03.680><c> is</c><00:01:04.080><c> core</c><00:01:04.400><c> 1</c>
+
+00:01:04.630 --> 00:01:04.640 align:start position:0%
+normally what should happen is core 1
+ 
+
+00:01:04.640 --> 00:01:07.030 align:start position:0%
+normally what should happen is core 1
+arrives<00:01:05.600><c> doesn't</c><00:01:05.920><c> do</c><00:01:06.080><c> this</c><00:01:06.320><c> because</c><00:01:06.640><c> count</c><00:01:06.960><c> is</c>
+
+00:01:07.030 --> 00:01:07.040 align:start position:0%
+arrives doesn't do this because count is
+ 
+
+00:01:07.040 --> 00:01:08.149 align:start position:0%
+arrives doesn't do this because count is
+now<00:01:07.280><c> 1</c>
+
+00:01:08.149 --> 00:01:08.159 align:start position:0%
+now 1
+ 
+
+00:01:08.159 --> 00:01:10.830 align:start position:0%
+now 1
+increments<00:01:08.720><c> the</c><00:01:08.880><c> count</c><00:01:09.280><c> exits</c><00:01:10.159><c> the</c><00:01:10.320><c> critical</c>
+
+00:01:10.830 --> 00:01:10.840 align:start position:0%
+increments the count exits the critical
+ 
+
+00:01:10.840 --> 00:01:14.149 align:start position:0%
+increments the count exits the critical
+section<00:01:11.840><c> sees</c><00:01:12.320><c> that</c><00:01:12.479><c> the</c><00:01:12.720><c> count</c><00:01:13.439><c> is</c><00:01:13.680><c> equal</c><00:01:13.920><c> to</c>
+
+00:01:14.149 --> 00:01:14.159 align:start position:0%
+section sees that the count is equal to
+ 
+
+00:01:14.159 --> 00:01:15.270 align:start position:0%
+section sees that the count is equal to
+two
+
+00:01:15.270 --> 00:01:15.280 align:start position:0%
+two
+ 
+
+00:01:15.280 --> 00:01:17.030 align:start position:0%
+two
+resets<00:01:15.760><c> the</c><00:01:15.920><c> count</c>
+
+00:01:17.030 --> 00:01:17.040 align:start position:0%
+resets the count
+ 
+
+00:01:17.040 --> 00:01:19.109 align:start position:0%
+resets the count
+sets<00:01:17.360><c> the</c><00:01:17.520><c> release</c><00:01:18.000><c> to</c><00:01:18.159><c> one</c>
+
+00:01:19.109 --> 00:01:19.119 align:start position:0%
+sets the release to one
+ 
+
+00:01:19.119 --> 00:01:20.390 align:start position:0%
+sets the release to one
+and<00:01:19.360><c> now</c>
+
+00:01:20.390 --> 00:01:20.400 align:start position:0%
+and now
+ 
+
+00:01:20.400 --> 00:01:23.030 align:start position:0%
+and now
+core<00:01:20.720><c> one</c><00:01:21.040><c> proceeds</c><00:01:21.520><c> past</c><00:01:21.840><c> the</c><00:01:22.000><c> barrier</c><00:01:22.799><c> what</c>
+
+00:01:23.030 --> 00:01:23.040 align:start position:0%
+core one proceeds past the barrier what
+ 
+
+00:01:23.040 --> 00:01:25.109 align:start position:0%
+core one proceeds past the barrier what
+should<00:01:23.280><c> happen</c><00:01:23.600><c> now</c><00:01:23.840><c> is</c><00:01:24.000><c> course</c><00:01:24.400><c> zero</c><00:01:24.880><c> should</c>
+
+00:01:25.109 --> 00:01:25.119 align:start position:0%
+should happen now is course zero should
+ 
+
+00:01:25.119 --> 00:01:27.510 align:start position:0%
+should happen now is course zero should
+see<00:01:25.280><c> this</c><00:01:25.600><c> release</c><00:01:26.000><c> that</c><00:01:26.159><c> we</c><00:01:26.320><c> just</c><00:01:26.560><c> set</c><00:01:26.720><c> to</c><00:01:26.880><c> 1</c>
+
+00:01:27.510 --> 00:01:27.520 align:start position:0%
+see this release that we just set to 1
+ 
+
+00:01:27.520 --> 00:01:30.070 align:start position:0%
+see this release that we just set to 1
+and<00:01:27.920><c> also</c><00:01:28.320><c> proceed</c><00:01:28.720><c> past</c><00:01:29.040><c> the</c><00:01:29.119><c> barrier</c><00:01:29.920><c> so</c>
+
+00:01:30.070 --> 00:01:30.080 align:start position:0%
+and also proceed past the barrier so
+ 
+
+00:01:30.080 --> 00:01:31.749 align:start position:0%
+and also proceed past the barrier so
+what<00:01:30.320><c> should</c><00:01:30.560><c> happen</c><00:01:30.960><c> is</c>
+
+00:01:31.749 --> 00:01:31.759 align:start position:0%
+what should happen is
+ 
+
+00:01:31.759 --> 00:01:35.109 align:start position:0%
+what should happen is
+really<00:01:32.079><c> that</c><00:01:32.640><c> we</c><00:01:32.880><c> set</c><00:01:33.119><c> the</c><00:01:33.280><c> release</c><00:01:33.680><c> to</c><00:01:33.840><c> 1</c><00:01:34.240><c> here</c>
+
+00:01:35.109 --> 00:01:35.119 align:start position:0%
+really that we set the release to 1 here
+ 
+
+00:01:35.119 --> 00:01:36.870 align:start position:0%
+really that we set the release to 1 here
+and<00:01:35.439><c> core</c><00:01:35.759><c> 0</c>
+
+00:01:36.870 --> 00:01:36.880 align:start position:0%
+and core 0
+ 
+
+00:01:36.880 --> 00:01:38.069 align:start position:0%
+and core 0
+sees<00:01:37.280><c> that</c>
+
+00:01:38.069 --> 00:01:38.079 align:start position:0%
+sees that
+ 
+
+00:01:38.079 --> 00:01:39.749 align:start position:0%
+sees that
+exits<00:01:38.479><c> the</c><00:01:38.560><c> barrier</c><00:01:39.119><c> and</c><00:01:39.280><c> from</c><00:01:39.520><c> then</c>
+
+00:01:39.749 --> 00:01:39.759 align:start position:0%
+exits the barrier and from then
+ 
+
+00:01:39.759 --> 00:01:41.990 align:start position:0%
+exits the barrier and from then
+everything<00:01:40.159><c> will</c><00:01:40.400><c> actually</c><00:01:40.640><c> be</c><00:01:40.799><c> correct</c><00:01:41.680><c> but</c>
+
+00:01:41.990 --> 00:01:42.000 align:start position:0%
+everything will actually be correct but
+ 
+
+00:01:42.000 --> 00:01:44.310 align:start position:0%
+everything will actually be correct but
+let's<00:01:42.240><c> say</c><00:01:42.720><c> that</c><00:01:43.040><c> core</c><00:01:43.360><c> zero</c><00:01:43.840><c> has</c><00:01:44.079><c> been</c>
+
+00:01:44.310 --> 00:01:44.320 align:start position:0%
+let's say that core zero has been
+ 
+
+00:01:44.320 --> 00:01:46.389 align:start position:0%
+let's say that core zero has been
+checking<00:01:44.640><c> the</c><00:01:44.799><c> release</c>
+
+00:01:46.389 --> 00:01:46.399 align:start position:0%
+checking the release
+ 
+
+00:01:46.399 --> 00:01:49.190 align:start position:0%
+checking the release
+however<00:01:47.119><c> when</c><00:01:47.280><c> the</c><00:01:47.520><c> store</c><00:01:47.920><c> happens</c><00:01:48.560><c> core</c><00:01:48.880><c> zero</c>
+
+00:01:49.190 --> 00:01:49.200 align:start position:0%
+however when the store happens core zero
+ 
+
+00:01:49.200 --> 00:01:51.350 align:start position:0%
+however when the store happens core zero
+is<00:01:49.360><c> delayed</c><00:01:49.840><c> for</c><00:01:50.000><c> example</c><00:01:50.560><c> it's</c><00:01:50.799><c> executing</c>
+
+00:01:51.350 --> 00:01:51.360 align:start position:0%
+is delayed for example it's executing
+ 
+
+00:01:51.360 --> 00:01:53.350 align:start position:0%
+is delayed for example it's executing
+some<00:01:51.600><c> sort</c><00:01:51.840><c> of</c><00:01:52.000><c> an</c><00:01:52.159><c> interrupt</c><00:01:52.640><c> function</c><00:01:53.119><c> so</c>
+
+00:01:53.350 --> 00:01:53.360 align:start position:0%
+some sort of an interrupt function so
+ 
+
+00:01:53.360 --> 00:01:55.830 align:start position:0%
+some sort of an interrupt function so
+for<00:01:53.600><c> a</c><00:01:53.680><c> while</c><00:01:54.079><c> it's</c><00:01:54.159><c> suspended</c><00:01:55.200><c> in</c><00:01:55.360><c> this</c><00:01:55.600><c> place</c>
+
+00:01:55.830 --> 00:01:55.840 align:start position:0%
+for a while it's suspended in this place
+ 
+
+00:01:55.840 --> 00:01:57.990 align:start position:0%
+for a while it's suspended in this place
+in<00:01:55.920><c> the</c><00:01:56.079><c> code</c><00:01:56.479><c> and</c><00:01:56.640><c> cannot</c><00:01:57.119><c> read</c><00:01:57.280><c> the</c><00:01:57.439><c> release</c>
+
+00:01:57.990 --> 00:01:58.000 align:start position:0%
+in the code and cannot read the release
+ 
+
+00:01:58.000 --> 00:02:00.550 align:start position:0%
+in the code and cannot read the release
+fast<00:01:58.320><c> enough</c><00:01:58.880><c> in</c><00:01:59.040><c> that</c><00:01:59.280><c> case</c><00:01:59.920><c> we</c><00:02:00.079><c> don't</c><00:02:00.320><c> have</c>
+
+00:02:00.550 --> 00:02:00.560 align:start position:0%
+fast enough in that case we don't have
+ 
+
+00:02:00.560 --> 00:02:01.590 align:start position:0%
+fast enough in that case we don't have
+this
+
+00:02:01.590 --> 00:02:01.600 align:start position:0%
+this
+ 
+
+00:02:01.600 --> 00:02:04.069 align:start position:0%
+this
+and<00:02:01.920><c> core</c><00:02:02.240><c> 0</c><00:02:02.479><c> is</c><00:02:02.640><c> still</c><00:02:02.799><c> stuck</c><00:02:03.200><c> here</c><00:02:03.840><c> in</c><00:02:04.000><c> a</c>
+
+00:02:04.069 --> 00:02:04.079 align:start position:0%
+and core 0 is still stuck here in a
+ 
+
+00:02:04.079 --> 00:02:06.389 align:start position:0%
+and core 0 is still stuck here in a
+correct<00:02:04.479><c> barrier</c><00:02:04.880><c> implementation</c><00:02:05.759><c> core</c><00:02:06.000><c> 0</c>
+
+00:02:06.389 --> 00:02:06.399 align:start position:0%
+correct barrier implementation core 0
+ 
+
+00:02:06.399 --> 00:02:08.469 align:start position:0%
+correct barrier implementation core 0
+will<00:02:06.640><c> eventually</c><00:02:07.280><c> leave</c><00:02:07.600><c> at</c><00:02:07.840><c> some</c><00:02:08.080><c> point</c><00:02:08.399><c> it</c>
+
+00:02:08.469 --> 00:02:08.479 align:start position:0%
+will eventually leave at some point it
+ 
+
+00:02:08.479 --> 00:02:10.469 align:start position:0%
+will eventually leave at some point it
+will<00:02:08.640><c> return</c><00:02:09.039><c> from</c><00:02:09.200><c> the</c><00:02:09.360><c> interrupt</c><00:02:10.160><c> read</c><00:02:10.399><c> the</c>
+
+00:02:10.469 --> 00:02:10.479 align:start position:0%
+will return from the interrupt read the
+ 
+
+00:02:10.479 --> 00:02:13.350 align:start position:0%
+will return from the interrupt read the
+release<00:02:11.360><c> that</c><00:02:11.599><c> is</c><00:02:11.760><c> 1</c><00:02:12.080><c> and</c><00:02:12.239><c> proceed</c>
+
+00:02:13.350 --> 00:02:13.360 align:start position:0%
+release that is 1 and proceed
+ 
+
+00:02:13.360 --> 00:02:14.630 align:start position:0%
+release that is 1 and proceed
+however
+
+00:02:14.630 --> 00:02:14.640 align:start position:0%
+however
+ 
+
+00:02:14.640 --> 00:02:17.990 align:start position:0%
+however
+what<00:02:14.879><c> happens</c><00:02:15.599><c> if</c><00:02:15.840><c> core</c><00:02:16.160><c> 0</c><00:02:16.879><c> is</c><00:02:17.040><c> waiting</c><00:02:17.520><c> here</c>
+
+00:02:17.990 --> 00:02:18.000 align:start position:0%
+what happens if core 0 is waiting here
+ 
+
+00:02:18.000 --> 00:02:21.670 align:start position:0%
+what happens if core 0 is waiting here
+while<00:02:18.400><c> core</c><00:02:18.800><c> 1</c><00:02:19.520><c> after</c><00:02:19.920><c> releasing</c><00:02:21.040><c> and</c><00:02:21.280><c> exiting</c>
+
+00:02:21.670 --> 00:02:21.680 align:start position:0%
+while core 1 after releasing and exiting
+ 
+
+00:02:21.680 --> 00:02:22.869 align:start position:0%
+while core 1 after releasing and exiting
+the<00:02:21.920><c> barrier</c>
+
+00:02:22.869 --> 00:02:22.879 align:start position:0%
+the barrier
+ 
+
+00:02:22.879 --> 00:02:24.949 align:start position:0%
+the barrier
+does<00:02:23.200><c> very</c><00:02:23.520><c> little</c><00:02:23.840><c> work</c>
+
+00:02:24.949 --> 00:02:24.959 align:start position:0%
+does very little work
+ 
+
+00:02:24.959 --> 00:02:27.750 align:start position:0%
+does very little work
+and<00:02:25.120><c> then</c><00:02:25.440><c> comes</c><00:02:25.840><c> back</c><00:02:26.080><c> to</c><00:02:26.239><c> the</c><00:02:26.400><c> barrier</c><00:02:26.879><c> again</c>
+
+00:02:27.750 --> 00:02:27.760 align:start position:0%
+and then comes back to the barrier again
+ 
+
+00:02:27.760 --> 00:02:30.150 align:start position:0%
+and then comes back to the barrier again
+it<00:02:28.000><c> sees</c><00:02:28.239><c> that</c><00:02:28.400><c> the</c><00:02:28.560><c> count</c><00:02:28.879><c> is</c><00:02:29.120><c> zero</c>
+
+00:02:30.150 --> 00:02:30.160 align:start position:0%
+it sees that the count is zero
+ 
+
+00:02:30.160 --> 00:02:32.710 align:start position:0%
+it sees that the count is zero
+because<00:02:30.640><c> it</c><00:02:31.280><c> reset</c><00:02:31.760><c> it</c><00:02:31.840><c> to</c><00:02:32.000><c> zero</c><00:02:32.239><c> when</c><00:02:32.480><c> it</c><00:02:32.560><c> was</c>
+
+00:02:32.710 --> 00:02:32.720 align:start position:0%
+because it reset it to zero when it was
+ 
+
+00:02:32.720 --> 00:02:34.790 align:start position:0%
+because it reset it to zero when it was
+releasing<00:02:33.120><c> the</c><00:02:33.280><c> barrier</c><00:02:34.160><c> and</c><00:02:34.400><c> sets</c><00:02:34.640><c> the</c>
+
+00:02:34.790 --> 00:02:34.800 align:start position:0%
+releasing the barrier and sets the
+ 
+
+00:02:34.800 --> 00:02:37.509 align:start position:0%
+releasing the barrier and sets the
+release<00:02:35.200><c> to</c><00:02:35.360><c> one</c><00:02:35.920><c> and</c><00:02:36.080><c> now</c><00:02:36.319><c> it</c><00:02:36.480><c> writes</c><00:02:36.879><c> zero</c><00:02:37.360><c> to</c>
+
+00:02:37.509 --> 00:02:37.519 align:start position:0%
+release to one and now it writes zero to
+ 
+
+00:02:37.519 --> 00:02:40.070 align:start position:0%
+release to one and now it writes zero to
+the<00:02:37.680><c> release</c><00:02:38.160><c> variable</c><00:02:39.120><c> and</c><00:02:39.360><c> now</c><00:02:39.680><c> even</c><00:02:39.920><c> if</c>
+
+00:02:40.070 --> 00:02:40.080 align:start position:0%
+the release variable and now even if
+ 
+
+00:02:40.080 --> 00:02:41.910 align:start position:0%
+the release variable and now even if
+core<00:02:40.319><c> zero</c><00:02:40.640><c> checks</c><00:02:40.959><c> the</c><00:02:41.120><c> release</c><00:02:41.519><c> here</c><00:02:41.760><c> and</c>
+
+00:02:41.910 --> 00:02:41.920 align:start position:0%
+core zero checks the release here and
+ 
+
+00:02:41.920 --> 00:02:44.309 align:start position:0%
+core zero checks the release here and
+sees<00:02:42.480><c> what</c><00:02:42.720><c> it</c><00:02:42.879><c> is</c><00:02:43.120><c> it's</c><00:02:43.280><c> gonna</c><00:02:43.519><c> see</c><00:02:43.680><c> this</c><00:02:43.920><c> zero</c>
+
+00:02:44.309 --> 00:02:44.319 align:start position:0%
+sees what it is it's gonna see this zero
+ 
+
+00:02:44.319 --> 00:02:47.589 align:start position:0%
+sees what it is it's gonna see this zero
+so<00:02:44.640><c> core</c><00:02:45.120><c> zero</c><00:02:45.599><c> is</c><00:02:45.760><c> gonna</c><00:02:46.080><c> proceed</c><00:02:46.800><c> to</c><00:02:47.120><c> wait</c>
+
+00:02:47.589 --> 00:02:47.599 align:start position:0%
+so core zero is gonna proceed to wait
+ 
+
+00:02:47.599 --> 00:02:50.790 align:start position:0%
+so core zero is gonna proceed to wait
+here<00:02:48.080><c> for</c><00:02:48.239><c> a</c><00:02:48.400><c> very</c><00:02:48.640><c> long</c><00:02:48.959><c> time</c><00:02:49.920><c> meanwhile</c><00:02:50.480><c> core</c>
+
+00:02:50.790 --> 00:02:50.800 align:start position:0%
+here for a very long time meanwhile core
+ 
+
+00:02:50.800 --> 00:02:51.990 align:start position:0%
+here for a very long time meanwhile core
+one
+
+00:02:51.990 --> 00:02:52.000 align:start position:0%
+one
+ 
+
+00:02:52.000 --> 00:02:54.309 align:start position:0%
+one
+increments<00:02:52.480><c> the</c><00:02:52.560><c> count</c><00:02:52.879><c> to</c><00:02:53.040><c> one</c><00:02:53.840><c> checks</c><00:02:54.160><c> if</c>
+
+00:02:54.309 --> 00:02:54.319 align:start position:0%
+increments the count to one checks if
+ 
+
+00:02:54.319 --> 00:02:56.470 align:start position:0%
+increments the count to one checks if
+it's<00:02:54.560><c> equal</c><00:02:54.800><c> to</c><00:02:55.040><c> two</c><00:02:55.599><c> for</c><00:02:55.760><c> this</c><00:02:56.080><c> second</c>
+
+00:02:56.470 --> 00:02:56.480 align:start position:0%
+it's equal to two for this second
+ 
+
+00:02:56.480 --> 00:02:59.350 align:start position:0%
+it's equal to two for this second
+iteration<00:02:56.959><c> of</c><00:02:57.040><c> the</c><00:02:57.200><c> barrier</c><00:02:58.000><c> it's</c><00:02:58.239><c> not</c><00:02:58.560><c> two</c>
+
+00:02:59.350 --> 00:02:59.360 align:start position:0%
+iteration of the barrier it's not two
+ 
+
+00:02:59.360 --> 00:03:01.430 align:start position:0%
+iteration of the barrier it's not two
+so<00:02:59.680><c> court</c><00:03:00.319><c> one</c>
+
+00:03:01.430 --> 00:03:01.440 align:start position:0%
+so court one
+ 
+
+00:03:01.440 --> 00:03:03.670 align:start position:0%
+so court one
+is<00:03:01.599><c> now</c><00:03:01.840><c> gonna</c><00:03:02.159><c> spin</c><00:03:02.560><c> waiting</c><00:03:02.959><c> for</c><00:03:03.200><c> somebody</c>
+
+00:03:03.670 --> 00:03:03.680 align:start position:0%
+is now gonna spin waiting for somebody
+ 
+
+00:03:03.680 --> 00:03:05.830 align:start position:0%
+is now gonna spin waiting for somebody
+to<00:03:03.840><c> release</c><00:03:04.239><c> the</c><00:03:04.480><c> second</c><00:03:05.120><c> instance</c><00:03:05.599><c> of</c><00:03:05.680><c> the</c>
+
+00:03:05.830 --> 00:03:05.840 align:start position:0%
+to release the second instance of the
+ 
+
+00:03:05.840 --> 00:03:08.869 align:start position:0%
+to release the second instance of the
+barrier<00:03:06.640><c> while</c><00:03:06.959><c> core</c><00:03:07.360><c> zero</c><00:03:08.159><c> is</c><00:03:08.319><c> gonna</c><00:03:08.640><c> be</c>
+
+00:03:08.869 --> 00:03:08.879 align:start position:0%
+barrier while core zero is gonna be
+ 
+
+00:03:08.879 --> 00:03:10.470 align:start position:0%
+barrier while core zero is gonna be
+waiting<00:03:09.280><c> there</c>
+
+00:03:10.470 --> 00:03:10.480 align:start position:0%
+waiting there
+ 
+
+00:03:10.480 --> 00:03:12.550 align:start position:0%
+waiting there
+in<00:03:10.640><c> the</c><00:03:10.879><c> first</c><00:03:11.280><c> instance</c><00:03:11.680><c> of</c><00:03:11.760><c> the</c><00:03:11.920><c> barrier</c><00:03:12.400><c> and</c>
+
+00:03:12.550 --> 00:03:12.560 align:start position:0%
+in the first instance of the barrier and
+ 
+
+00:03:12.560 --> 00:03:14.949 align:start position:0%
+in the first instance of the barrier and
+never<00:03:12.879><c> being</c><00:03:13.120><c> released</c><00:03:14.159><c> so</c><00:03:14.400><c> the</c><00:03:14.560><c> only</c><00:03:14.720><c> thing</c>
+
+00:03:14.949 --> 00:03:14.959 align:start position:0%
+never being released so the only thing
+ 
+
+00:03:14.959 --> 00:03:16.949 align:start position:0%
+never being released so the only thing
+that<00:03:15.040><c> can</c><00:03:15.280><c> release</c><00:03:15.599><c> core</c><00:03:15.840><c> one</c><00:03:16.080><c> now</c><00:03:16.400><c> is</c><00:03:16.560><c> if</c><00:03:16.720><c> core</c>
+
+00:03:16.949 --> 00:03:16.959 align:start position:0%
+that can release core one now is if core
+ 
+
+00:03:16.959 --> 00:03:18.550 align:start position:0%
+that can release core one now is if core
+zero<00:03:17.280><c> somehow</c><00:03:17.680><c> left</c>
+
+00:03:18.550 --> 00:03:18.560 align:start position:0%
+zero somehow left
+ 
+
+00:03:18.560 --> 00:03:20.070 align:start position:0%
+zero somehow left
+and<00:03:18.800><c> enter</c><00:03:19.120><c> the</c><00:03:19.200><c> second</c><00:03:19.599><c> instance</c><00:03:19.920><c> of</c><00:03:20.000><c> the</c>
+
+00:03:20.070 --> 00:03:20.080 align:start position:0%
+and enter the second instance of the
+ 
+
+00:03:20.080 --> 00:03:22.149 align:start position:0%
+and enter the second instance of the
+barrier<00:03:20.879><c> the</c><00:03:21.040><c> only</c><00:03:21.280><c> thing</c><00:03:21.519><c> that</c><00:03:21.599><c> can</c><00:03:21.760><c> release</c>
+
+00:03:22.149 --> 00:03:22.159 align:start position:0%
+barrier the only thing that can release
+ 
+
+00:03:22.159 --> 00:03:24.869 align:start position:0%
+barrier the only thing that can release
+core<00:03:22.400><c> zero</c><00:03:22.800><c> however</c><00:03:23.200><c> is</c><00:03:23.360><c> if</c><00:03:23.599><c> somebody</c>
+
+00:03:24.869 --> 00:03:24.879 align:start position:0%
+core zero however is if somebody
+ 
+
+00:03:24.879 --> 00:03:27.190 align:start position:0%
+core zero however is if somebody
+comes<00:03:25.360><c> and</c><00:03:25.519><c> releases</c><00:03:26.159><c> here</c><00:03:26.400><c> but</c><00:03:26.720><c> that's</c><00:03:27.040><c> not</c>
+
+00:03:27.190 --> 00:03:27.200 align:start position:0%
+comes and releases here but that's not
+ 
+
+00:03:27.200 --> 00:03:29.030 align:start position:0%
+comes and releases here but that's not
+gonna<00:03:27.440><c> be</c><00:03:27.599><c> core</c><00:03:27.840><c> tool</c><00:03:28.239><c> so</c><00:03:28.480><c> now</c><00:03:28.640><c> we</c><00:03:28.800><c> have</c><00:03:28.959><c> a</c>
+
+00:03:29.030 --> 00:03:29.040 align:start position:0%
+gonna be core tool so now we have a
+ 
+
+00:03:29.040 --> 00:03:32.519 align:start position:0%
+gonna be core tool so now we have a
+deadlock<00:03:29.519><c> situation</c>
+

@@ -1,0 +1,528 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.310 align:start position:0%
+ 
+so<00:00:00.400><c> let's</c><00:00:00.719><c> talk</c><00:00:00.960><c> about</c><00:00:01.199><c> the</c><00:00:01.360><c> role</c><00:00:01.920><c> of</c><00:00:02.000><c> the</c>
+
+00:00:02.310 --> 00:00:02.320 align:start position:0%
+so let's talk about the role of the
+ 
+
+00:00:02.320 --> 00:00:04.870 align:start position:0%
+so let's talk about the role of the
+storage<00:00:02.960><c> in</c><00:00:03.120><c> a</c><00:00:03.200><c> computer</c><00:00:03.679><c> system</c><00:00:04.400><c> it</c><00:00:04.560><c> keeps</c>
+
+00:00:04.870 --> 00:00:04.880 align:start position:0%
+storage in a computer system it keeps
+ 
+
+00:00:04.880 --> 00:00:07.829 align:start position:0%
+storage in a computer system it keeps
+all<00:00:05.040><c> the</c><00:00:05.279><c> files</c><00:00:06.240><c> the</c><00:00:06.480><c> programs</c><00:00:07.040><c> the</c><00:00:07.200><c> data</c><00:00:07.680><c> all</c>
+
+00:00:07.829 --> 00:00:07.839 align:start position:0%
+all the files the programs the data all
+ 
+
+00:00:07.839 --> 00:00:09.669 align:start position:0%
+all the files the programs the data all
+the<00:00:08.080><c> settings</c><00:00:08.559><c> the</c><00:00:08.720><c> operating</c><00:00:09.200><c> system</c>
+
+00:00:09.669 --> 00:00:09.679 align:start position:0%
+the settings the operating system
+ 
+
+00:00:09.679 --> 00:00:11.910 align:start position:0%
+the settings the operating system
+everything<00:00:10.719><c> and</c><00:00:10.960><c> also</c>
+
+00:00:11.910 --> 00:00:11.920 align:start position:0%
+everything and also
+ 
+
+00:00:11.920 --> 00:00:14.230 align:start position:0%
+everything and also
+our<00:00:12.160><c> virtual</c><00:00:12.559><c> memory</c><00:00:13.120><c> is</c><00:00:13.280><c> implemented</c><00:00:13.920><c> using</c>
+
+00:00:14.230 --> 00:00:14.240 align:start position:0%
+our virtual memory is implemented using
+ 
+
+00:00:14.240 --> 00:00:15.430 align:start position:0%
+our virtual memory is implemented using
+storage
+
+00:00:15.430 --> 00:00:15.440 align:start position:0%
+storage
+ 
+
+00:00:15.440 --> 00:00:18.070 align:start position:0%
+storage
+because<00:00:15.920><c> we</c><00:00:16.080><c> cannot</c><00:00:16.560><c> fit</c><00:00:17.199><c> all</c><00:00:17.359><c> the</c><00:00:17.600><c> data</c><00:00:17.920><c> that</c>
+
+00:00:18.070 --> 00:00:18.080 align:start position:0%
+because we cannot fit all the data that
+ 
+
+00:00:18.080 --> 00:00:20.710 align:start position:0%
+because we cannot fit all the data that
+the<00:00:18.240><c> application</c><00:00:18.800><c> actually</c><00:00:19.199><c> wants</c><00:00:19.520><c> to</c><00:00:19.680><c> access</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+the application actually wants to access
+ 
+
+00:00:20.720 --> 00:00:22.630 align:start position:0%
+the application actually wants to access
+to<00:00:20.880><c> physical</c><00:00:21.439><c> memory</c>
+
+00:00:22.630 --> 00:00:22.640 align:start position:0%
+to physical memory
+ 
+
+00:00:22.640 --> 00:00:24.870 align:start position:0%
+to physical memory
+some<00:00:22.880><c> of</c><00:00:23.039><c> those</c><00:00:23.279><c> pages</c><00:00:23.840><c> are</c><00:00:24.000><c> actually</c><00:00:24.400><c> on</c><00:00:24.480><c> disk</c>
+
+00:00:24.870 --> 00:00:24.880 align:start position:0%
+some of those pages are actually on disk
+ 
+
+00:00:24.880 --> 00:00:26.710 align:start position:0%
+some of those pages are actually on disk
+and<00:00:25.039><c> when</c><00:00:25.199><c> the</c><00:00:25.359><c> program</c><00:00:25.760><c> accesses</c><00:00:26.320><c> them</c><00:00:26.640><c> they</c>
+
+00:00:26.710 --> 00:00:26.720 align:start position:0%
+and when the program accesses them they
+ 
+
+00:00:26.720 --> 00:00:29.349 align:start position:0%
+and when the program accesses them they
+are<00:00:26.880><c> loaded</c><00:00:27.519><c> into</c><00:00:27.760><c> the</c><00:00:27.920><c> physical</c><00:00:28.400><c> memory</c>
+
+00:00:29.349 --> 00:00:29.359 align:start position:0%
+are loaded into the physical memory
+ 
+
+00:00:29.359 --> 00:00:32.229 align:start position:0%
+are loaded into the physical memory
+but<00:00:29.679><c> meanwhile</c><00:00:30.560><c> they're</c><00:00:30.880><c> sitting</c>
+
+00:00:32.229 --> 00:00:32.239 align:start position:0%
+but meanwhile they're sitting
+ 
+
+00:00:32.239 --> 00:00:35.190 align:start position:0%
+but meanwhile they're sitting
+in<00:00:32.399><c> our</c><00:00:32.559><c> storage</c><00:00:33.360><c> for</c><00:00:33.520><c> example</c><00:00:34.079><c> on</c><00:00:34.239><c> our</c><00:00:34.399><c> disk</c>
+
+00:00:35.190 --> 00:00:35.200 align:start position:0%
+in our storage for example on our disk
+ 
+
+00:00:35.200 --> 00:00:38.310 align:start position:0%
+in our storage for example on our disk
+so<00:00:35.360><c> storage</c><00:00:35.840><c> is</c><00:00:36.079><c> important</c><00:00:36.640><c> not</c><00:00:36.960><c> only</c><00:00:37.840><c> to</c><00:00:38.000><c> keep</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+so storage is important not only to keep
+ 
+
+00:00:38.320 --> 00:00:41.590 align:start position:0%
+so storage is important not only to keep
+data<00:00:38.879><c> but</c><00:00:39.200><c> also</c><00:00:40.079><c> to</c><00:00:40.399><c> extend</c>
+
+00:00:41.590 --> 00:00:41.600 align:start position:0%
+data but also to extend
+ 
+
+00:00:41.600 --> 00:00:43.830 align:start position:0%
+data but also to extend
+our<00:00:41.760><c> virtual</c><00:00:42.160><c> memory</c><00:00:42.640><c> so</c><00:00:42.800><c> that</c><00:00:43.040><c> we</c><00:00:43.280><c> think</c><00:00:43.600><c> we</c>
+
+00:00:43.830 --> 00:00:43.840 align:start position:0%
+our virtual memory so that we think we
+ 
+
+00:00:43.840 --> 00:00:45.990 align:start position:0%
+our virtual memory so that we think we
+have<00:00:44.079><c> more</c><00:00:44.239><c> memory</c><00:00:44.719><c> than</c><00:00:44.879><c> we</c><00:00:45.120><c> actually</c><00:00:45.440><c> have</c>
+
+00:00:45.990 --> 00:00:46.000 align:start position:0%
+have more memory than we actually have
+ 
+
+00:00:46.000 --> 00:00:49.190 align:start position:0%
+have more memory than we actually have
+for<00:00:46.239><c> both</c><00:00:46.559><c> uses</c><00:00:46.960><c> of</c><00:00:47.039><c> storage</c><00:00:48.000><c> we</c><00:00:48.160><c> care</c><00:00:48.480><c> about</c>
+
+00:00:49.190 --> 00:00:49.200 align:start position:0%
+for both uses of storage we care about
+ 
+
+00:00:49.200 --> 00:00:50.630 align:start position:0%
+for both uses of storage we care about
+performance
+
+00:00:50.630 --> 00:00:50.640 align:start position:0%
+performance
+ 
+
+00:00:50.640 --> 00:00:51.750 align:start position:0%
+performance
+mainly
+
+00:00:51.750 --> 00:00:51.760 align:start position:0%
+mainly
+ 
+
+00:00:51.760 --> 00:00:54.549 align:start position:0%
+mainly
+throughput<00:00:52.480><c> and</c><00:00:52.640><c> latency</c><00:00:53.520><c> throughput</c><00:00:54.079><c> is</c><00:00:54.320><c> how</c>
+
+00:00:54.549 --> 00:00:54.559 align:start position:0%
+throughput and latency throughput is how
+ 
+
+00:00:54.559 --> 00:00:57.110 align:start position:0%
+throughput and latency throughput is how
+many<00:00:54.879><c> bytes</c><00:00:55.280><c> per</c><00:00:55.600><c> second</c><00:00:55.920><c> can</c><00:00:56.160><c> we</c><00:00:56.320><c> get</c><00:00:56.719><c> out</c><00:00:56.960><c> of</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+many bytes per second can we get out of
+ 
+
+00:00:57.120 --> 00:00:58.790 align:start position:0%
+many bytes per second can we get out of
+our<00:00:57.280><c> for</c><00:00:57.440><c> example</c><00:00:57.840><c> disk</c>
+
+00:00:58.790 --> 00:00:58.800 align:start position:0%
+our for example disk
+ 
+
+00:00:58.800 --> 00:01:01.670 align:start position:0%
+our for example disk
+latency<00:01:00.000><c> once</c><00:01:00.320><c> we</c><00:01:00.559><c> request</c>
+
+00:01:01.670 --> 00:01:01.680 align:start position:0%
+latency once we request
+ 
+
+00:01:01.680 --> 00:01:03.750 align:start position:0%
+latency once we request
+a<00:01:01.840><c> page</c><00:01:02.160><c> of</c><00:01:02.320><c> data</c><00:01:02.800><c> when</c><00:01:03.039><c> are</c><00:01:03.120><c> we</c><00:01:03.280><c> going</c><00:01:03.440><c> to</c><00:01:03.520><c> get</c>
+
+00:01:03.750 --> 00:01:03.760 align:start position:0%
+a page of data when are we going to get
+ 
+
+00:01:03.760 --> 00:01:04.950 align:start position:0%
+a page of data when are we going to get
+it<00:01:03.920><c> back</c>
+
+00:01:04.950 --> 00:01:04.960 align:start position:0%
+it back
+ 
+
+00:01:04.960 --> 00:01:07.670 align:start position:0%
+it back
+and<00:01:05.199><c> in</c><00:01:05.439><c> storage</c><00:01:06.560><c> this</c>
+
+00:01:07.670 --> 00:01:07.680 align:start position:0%
+and in storage this
+ 
+
+00:01:07.680 --> 00:01:10.390 align:start position:0%
+and in storage this
+is<00:01:07.920><c> improving</c><00:01:09.040><c> but</c><00:01:09.280><c> not</c><00:01:09.520><c> as</c><00:01:09.760><c> quickly</c><00:01:10.080><c> as</c><00:01:10.240><c> the</c>
+
+00:01:10.390 --> 00:01:10.400 align:start position:0%
+is improving but not as quickly as the
+ 
+
+00:01:10.400 --> 00:01:12.870 align:start position:0%
+is improving but not as quickly as the
+processor<00:01:10.880><c> speed</c><00:01:11.200><c> is</c><00:01:11.360><c> improving</c><00:01:12.320><c> whereas</c><00:01:12.720><c> the</c>
+
+00:01:12.870 --> 00:01:12.880 align:start position:0%
+processor speed is improving whereas the
+ 
+
+00:01:12.880 --> 00:01:14.230 align:start position:0%
+processor speed is improving whereas the
+latency
+
+00:01:14.230 --> 00:01:14.240 align:start position:0%
+latency
+ 
+
+00:01:14.240 --> 00:01:15.750 align:start position:0%
+latency
+is<00:01:14.479><c> improving</c>
+
+00:01:15.750 --> 00:01:15.760 align:start position:0%
+is improving
+ 
+
+00:01:15.760 --> 00:01:17.670 align:start position:0%
+is improving
+but<00:01:16.080><c> very</c><00:01:16.640><c> slowly</c>
+
+00:01:17.670 --> 00:01:17.680 align:start position:0%
+but very slowly
+ 
+
+00:01:17.680 --> 00:01:21.030 align:start position:0%
+but very slowly
+the<00:01:17.920><c> reduction</c><00:01:18.960><c> in</c><00:01:19.119><c> storage</c><00:01:19.600><c> latency</c><00:01:20.479><c> is</c><00:01:20.799><c> even</c>
+
+00:01:21.030 --> 00:01:21.040 align:start position:0%
+the reduction in storage latency is even
+ 
+
+00:01:21.040 --> 00:01:23.590 align:start position:0%
+the reduction in storage latency is even
+slower<00:01:22.080><c> than</c><00:01:22.320><c> the</c><00:01:22.400><c> reduction</c><00:01:23.040><c> in</c><00:01:23.200><c> dram</c>
+
+00:01:23.590 --> 00:01:23.600 align:start position:0%
+slower than the reduction in dram
+ 
+
+00:01:23.600 --> 00:01:24.870 align:start position:0%
+slower than the reduction in dram
+latency
+
+00:01:24.870 --> 00:01:24.880 align:start position:0%
+latency
+ 
+
+00:01:24.880 --> 00:01:27.109 align:start position:0%
+latency
+so<00:01:25.119><c> processors</c><00:01:25.680><c> are</c><00:01:25.759><c> getting</c><00:01:26.479><c> faster</c><00:01:26.960><c> and</c>
+
+00:01:27.109 --> 00:01:27.119 align:start position:0%
+so processors are getting faster and
+ 
+
+00:01:27.119 --> 00:01:30.469 align:start position:0%
+so processors are getting faster and
+faster<00:01:28.000><c> dram</c><00:01:28.799><c> is</c><00:01:28.960><c> getting</c><00:01:29.280><c> faster</c><00:01:30.159><c> but</c>
+
+00:01:30.469 --> 00:01:30.479 align:start position:0%
+faster dram is getting faster but
+ 
+
+00:01:30.479 --> 00:01:32.950 align:start position:0%
+faster dram is getting faster but
+lagging<00:01:31.360><c> behind</c><00:01:31.759><c> processors</c><00:01:32.320><c> and</c><00:01:32.479><c> becoming</c>
+
+00:01:32.950 --> 00:01:32.960 align:start position:0%
+lagging behind processors and becoming
+ 
+
+00:01:32.960 --> 00:01:34.710 align:start position:0%
+lagging behind processors and becoming
+slower<00:01:33.360><c> and</c><00:01:33.439><c> slower</c><00:01:33.920><c> relative</c><00:01:34.400><c> to</c><00:01:34.560><c> the</c>
+
+00:01:34.710 --> 00:01:34.720 align:start position:0%
+slower and slower relative to the
+ 
+
+00:01:34.720 --> 00:01:37.350 align:start position:0%
+slower and slower relative to the
+processors<00:01:35.600><c> and</c><00:01:35.759><c> that</c><00:01:36.000><c> storage</c><00:01:36.640><c> is</c><00:01:36.880><c> falling</c>
+
+00:01:37.350 --> 00:01:37.360 align:start position:0%
+processors and that storage is falling
+ 
+
+00:01:37.360 --> 00:01:40.469 align:start position:0%
+processors and that storage is falling
+further<00:01:37.759><c> behind</c><00:01:38.640><c> dram</c><00:01:39.119><c> itself</c><00:01:39.920><c> in</c><00:01:40.079><c> addition</c>
+
+00:01:40.469 --> 00:01:40.479 align:start position:0%
+further behind dram itself in addition
+ 
+
+00:01:40.479 --> 00:01:42.789 align:start position:0%
+further behind dram itself in addition
+to<00:01:40.720><c> performance</c><00:01:41.680><c> we</c><00:01:41.840><c> are</c><00:01:42.079><c> also</c><00:01:42.400><c> really</c>
+
+00:01:42.789 --> 00:01:42.799 align:start position:0%
+to performance we are also really
+ 
+
+00:01:42.799 --> 00:01:43.910 align:start position:0%
+to performance we are also really
+concerned
+
+00:01:43.910 --> 00:01:43.920 align:start position:0%
+concerned
+ 
+
+00:01:43.920 --> 00:01:47.749 align:start position:0%
+concerned
+with<00:01:44.159><c> reliability</c><00:01:45.520><c> if</c><00:01:45.759><c> our</c><00:01:46.000><c> processor</c><00:01:46.560><c> fails</c>
+
+00:01:47.749 --> 00:01:47.759 align:start position:0%
+with reliability if our processor fails
+ 
+
+00:01:47.759 --> 00:01:49.590 align:start position:0%
+with reliability if our processor fails
+our<00:01:48.000><c> system</c><00:01:48.399><c> temporarily</c><00:01:48.960><c> doesn't</c><00:01:49.280><c> work</c>
+
+00:01:49.590 --> 00:01:49.600 align:start position:0%
+our system temporarily doesn't work
+ 
+
+00:01:49.600 --> 00:01:51.270 align:start position:0%
+our system temporarily doesn't work
+until<00:01:49.840><c> we</c><00:01:50.000><c> replace</c><00:01:50.399><c> the</c><00:01:50.479><c> processor</c><00:01:50.960><c> but</c><00:01:51.119><c> then</c>
+
+00:01:51.270 --> 00:01:51.280 align:start position:0%
+until we replace the processor but then
+ 
+
+00:01:51.280 --> 00:01:52.950 align:start position:0%
+until we replace the processor but then
+we<00:01:51.439><c> can</c><00:01:51.600><c> boot</c><00:01:51.840><c> up</c><00:01:52.000><c> the</c><00:01:52.079><c> system</c><00:01:52.399><c> and</c><00:01:52.560><c> it</c><00:01:52.720><c> works</c>
+
+00:01:52.950 --> 00:01:52.960 align:start position:0%
+we can boot up the system and it works
+ 
+
+00:01:52.960 --> 00:01:56.149 align:start position:0%
+we can boot up the system and it works
+again<00:01:53.920><c> but</c><00:01:54.159><c> if</c><00:01:54.399><c> our</c><00:01:54.560><c> disk</c><00:01:54.960><c> fails</c>
+
+00:01:56.149 --> 00:01:56.159 align:start position:0%
+again but if our disk fails
+ 
+
+00:01:56.159 --> 00:01:59.270 align:start position:0%
+again but if our disk fails
+we<00:01:56.399><c> lose</c><00:01:56.799><c> our</c><00:01:56.960><c> programs</c><00:01:57.439><c> data</c><00:01:57.840><c> settings</c><00:01:58.240><c> etc</c>
+
+00:01:59.270 --> 00:01:59.280 align:start position:0%
+we lose our programs data settings etc
+ 
+
+00:01:59.280 --> 00:02:01.190 align:start position:0%
+we lose our programs data settings etc
+which<00:01:59.520><c> is</c><00:01:59.680><c> much</c><00:01:59.920><c> much</c><00:02:00.240><c> worse</c>
+
+00:02:01.190 --> 00:02:01.200 align:start position:0%
+which is much much worse
+ 
+
+00:02:01.200 --> 00:02:03.429 align:start position:0%
+which is much much worse
+than<00:02:01.600><c> just</c><00:02:01.840><c> a</c><00:02:02.000><c> processor</c><00:02:02.560><c> failing</c><00:02:03.040><c> so</c><00:02:03.200><c> we</c><00:02:03.280><c> are</c>
+
+00:02:03.429 --> 00:02:03.439 align:start position:0%
+than just a processor failing so we are
+ 
+
+00:02:03.439 --> 00:02:06.149 align:start position:0%
+than just a processor failing so we are
+much<00:02:03.840><c> more</c><00:02:04.079><c> worried</c><00:02:04.560><c> about</c><00:02:04.799><c> the</c><00:02:04.960><c> reliability</c>
+
+00:02:06.149 --> 00:02:06.159 align:start position:0%
+much more worried about the reliability
+ 
+
+00:02:06.159 --> 00:02:08.949 align:start position:0%
+much more worried about the reliability
+of<00:02:06.399><c> our</c><00:02:06.560><c> storage</c><00:02:07.520><c> than</c><00:02:07.759><c> we</c><00:02:08.000><c> are</c><00:02:08.239><c> about</c><00:02:08.560><c> most</c><00:02:08.800><c> of</c>
+
+00:02:08.949 --> 00:02:08.959 align:start position:0%
+of our storage than we are about most of
+ 
+
+00:02:08.959 --> 00:02:10.949 align:start position:0%
+of our storage than we are about most of
+the<00:02:09.119><c> other</c><00:02:09.679><c> elements</c><00:02:10.160><c> of</c><00:02:10.319><c> our</c><00:02:10.479><c> computer</c>
+
+00:02:10.949 --> 00:02:10.959 align:start position:0%
+the other elements of our computer
+ 
+
+00:02:10.959 --> 00:02:12.150 align:start position:0%
+the other elements of our computer
+system
+
+00:02:12.150 --> 00:02:12.160 align:start position:0%
+system
+ 
+
+00:02:12.160 --> 00:02:14.790 align:start position:0%
+system
+and<00:02:12.400><c> finally</c><00:02:13.360><c> the</c><00:02:13.599><c> types</c><00:02:14.000><c> of</c><00:02:14.160><c> storage</c><00:02:14.560><c> that</c><00:02:14.640><c> we</c>
+
+00:02:14.790 --> 00:02:14.800 align:start position:0%
+and finally the types of storage that we
+ 
+
+00:02:14.800 --> 00:02:18.470 align:start position:0%
+and finally the types of storage that we
+can<00:02:14.959><c> use</c><00:02:15.200><c> are</c><00:02:15.360><c> very</c><00:02:15.680><c> diverse</c><00:02:16.640><c> we</c><00:02:16.800><c> can</c><00:02:17.040><c> have</c>
+
+00:02:18.470 --> 00:02:18.480 align:start position:0%
+can use are very diverse we can have
+ 
+
+00:02:18.480 --> 00:02:20.869 align:start position:0%
+can use are very diverse we can have
+magnetic<00:02:19.120><c> disks</c><00:02:19.840><c> our</c><00:02:20.080><c> traditional</c><00:02:20.560><c> hard</c>
+
+00:02:20.869 --> 00:02:20.879 align:start position:0%
+magnetic disks our traditional hard
+ 
+
+00:02:20.879 --> 00:02:24.150 align:start position:0%
+magnetic disks our traditional hard
+drives<00:02:22.319><c> optical</c><00:02:22.879><c> disks</c><00:02:23.280><c> such</c><00:02:23.520><c> as</c><00:02:23.680><c> cds</c><00:02:24.080><c> and</c>
+
+00:02:24.150 --> 00:02:24.160 align:start position:0%
+drives optical disks such as cds and
+ 
+
+00:02:24.160 --> 00:02:26.070 align:start position:0%
+drives optical disks such as cds and
+dvds
+
+00:02:26.070 --> 00:02:26.080 align:start position:0%
+dvds
+ 
+
+00:02:26.080 --> 00:02:27.030 align:start position:0%
+dvds
+tape
+
+00:02:27.030 --> 00:02:27.040 align:start position:0%
+tape
+ 
+
+00:02:27.040 --> 00:02:28.550 align:start position:0%
+tape
+for<00:02:27.280><c> backup</c>
+
+00:02:28.550 --> 00:02:28.560 align:start position:0%
+for backup
+ 
+
+00:02:28.560 --> 00:02:31.430 align:start position:0%
+for backup
+flash<00:02:29.040><c> drives</c><00:02:29.920><c> that</c><00:02:30.160><c> are</c><00:02:30.319><c> much</c><00:02:30.560><c> faster</c><00:02:31.040><c> than</c>
+
+00:02:31.430 --> 00:02:31.440 align:start position:0%
+flash drives that are much faster than
+ 
+
+00:02:31.440 --> 00:02:35.879 align:start position:0%
+flash drives that are much faster than
+most<00:02:31.760><c> of</c><00:02:31.840><c> the</c><00:02:32.000><c> other</c><00:02:32.160><c> ones</c><00:02:32.480><c> and</c><00:02:32.720><c> so</c><00:02:32.879><c> on</c>
+

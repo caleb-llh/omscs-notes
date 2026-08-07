@@ -1,0 +1,64 @@
+1
+00:00:00,440 --> 00:00:02,520
+ Let's start with a number of nodes.
+
+2
+00:00:02,520 --> 00:00:03,800
+ There are eight nodes.
+
+3
+00:00:03,800 --> 00:00:05,430
+ What about links?
+
+4
+00:00:05,430 --> 00:00:07,550
+ There are ten links.
+
+5
+00:00:07,550 --> 00:00:09,430
+ What about bisection?
+
+6
+00:00:09,430 --> 00:00:12,805
+ You need to divide the eight nodes into two subsets of size four each.
+
+7
+00:00:12,805 --> 00:00:16,705
+ There are many possible cuts, let me show you one.
+
+8
+00:00:16,705 --> 00:00:20,895
+ This partitioning cuts one, two, three edges.
+
+9
+00:00:20,895 --> 00:00:25,865
+ As it happens, all other partitionings will cut at least three edges as well,
+
+10
+00:00:25,865 --> 00:00:27,435
+ therefore the bisection width is three.
+
+11
+00:00:27,435 --> 00:00:30,090
+ What about diameter?
+
+12
+00:00:30,090 --> 00:00:33,560
+ For any pair of nodes you can check that the shortest path between them is
+
+13
+00:00:33,560 --> 00:00:35,440
+ never more than three.
+
+14
+00:00:35,440 --> 00:00:37,820
+ For example, consider the corners.
+
+15
+00:00:37,820 --> 00:00:40,190
+ I'll let you check all other pairs.
+
+16
+00:00:40,190 --> 00:00:40,190
+ What you should find is that the diameter is three.
+

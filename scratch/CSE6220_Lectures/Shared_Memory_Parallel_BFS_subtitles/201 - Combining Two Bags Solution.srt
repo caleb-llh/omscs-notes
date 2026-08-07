@@ -1,0 +1,80 @@
+1
+00:00:00,380 --> 00:00:02,430
+ The answer is log n again.
+
+2
+00:00:02,430 --> 00:00:04,180
+ Starting to see a pattern?
+
+3
+00:00:04,180 --> 00:00:05,400
+ So the easiest way to see this,
+
+4
+00:00:05,400 --> 00:00:10,490
+ is to remember the duality between bag operations and binary arithmetic.
+
+5
+00:00:10,490 --> 00:00:13,210
+ Well let's say I'm adding these two binary integers.
+
+6
+00:00:13,210 --> 00:00:15,070
+ I'll go bit by bit.
+
+7
+00:00:15,070 --> 00:00:16,900
+ Each bit I'll do some operation.
+
+8
+00:00:16,900 --> 00:00:19,090
+ And then I may or may not do a carry.
+
+9
+00:00:19,090 --> 00:00:22,690
+ And all those operations are basically constant time pennant combine
+
+10
+00:00:22,690 --> 00:00:24,010
+ operations.
+
+11
+00:00:24,010 --> 00:00:26,690
+ And of course, again I might have to scan the entire length of
+
+12
+00:00:26,690 --> 00:00:28,170
+ the bit string.
+
+13
+00:00:28,170 --> 00:00:32,450
+ Therefore, the cause should be logarithmic in the size of the bag.
+
+14
+00:00:32,450 --> 00:00:34,140
+ I want you to think about that for a second.
+
+15
+00:00:34,140 --> 00:00:36,380
+ That's a super cool result.
+
+16
+00:00:36,380 --> 00:00:37,440
+ Why?
+
+17
+00:00:37,440 --> 00:00:40,680
+ Because it basically says that it takes the same amount of asymptotic running
+
+18
+00:00:40,680 --> 00:00:45,770
+ time to insert n elements into a bag as it does to insert one.
+
+19
+00:00:45,770 --> 00:00:49,410
+ In fact, that means the amortize time to insert elements into a bag,
+
+20
+00:00:49,410 --> 00:00:49,410
+ is basically a constant.
+

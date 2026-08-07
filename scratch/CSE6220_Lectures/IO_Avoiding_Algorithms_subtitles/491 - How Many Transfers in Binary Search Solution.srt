@@ -1,0 +1,40 @@
+1
+00:00:00,270 --> 00:00:04,880
+ Here's the answer, log base 2 of n over L, let's see why.
+
+2
+00:00:04,880 --> 00:00:07,800
+ During the search, at some point all the elements being considered
+
+3
+00:00:07,800 --> 00:00:10,970
+ will all fall within the same block of size L.
+
+4
+00:00:10,970 --> 00:00:14,070
+ Let's write down our currents for the worst case behavior.
+
+5
+00:00:14,070 --> 00:00:17,060
+ While the size of the interval n is greater than L,
+
+6
+00:00:17,060 --> 00:00:20,130
+ you'd incur a new transfer and then recurse.
+
+7
+00:00:20,130 --> 00:00:21,660
+ Once the interval size falls to L or
+
+8
+00:00:21,660 --> 00:00:25,380
+ lower, you only need one transfer to process the entire block.
+
+9
+00:00:25,380 --> 00:00:28,080
+ The solution to this recurrence is the answer to the problem.
+
+10
+00:00:28,080 --> 00:00:28,080
+ The more interesting question is can you do better?
+

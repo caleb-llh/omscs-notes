@@ -1,0 +1,104 @@
+1
+00:00:00,420 --> 00:00:04,120
+ Let's check that you understand how a sequential BFS works by having you
+
+2
+00:00:04,120 --> 00:00:05,910
+ simulate its execution.
+
+3
+00:00:05,910 --> 00:00:09,020
+ Start by recalling the sequential BFS algorithm.
+
+4
+00:00:09,020 --> 00:00:11,780
+ Let's say you run it on the following input graph.
+
+5
+00:00:11,780 --> 00:00:13,870
+ The vertices are labeled a through f,
+
+6
+00:00:13,870 --> 00:00:17,530
+ except for one vertex which is the source labeled s.
+
+7
+00:00:17,530 --> 00:00:20,620
+ For this quiz, assume that the graph is directed.
+
+8
+00:00:20,620 --> 00:00:23,750
+ Thus, when you hit array over the edges of a particular vertex v,
+
+9
+00:00:23,750 --> 00:00:26,360
+ you'll look at the outgoing edges.
+
+10
+00:00:26,360 --> 00:00:27,880
+ Let's take an example.
+
+11
+00:00:27,880 --> 00:00:32,790
+ The vertex F has one outgoing edge from f to s.
+
+12
+00:00:32,790 --> 00:00:36,060
+ So if v were equal to f in this example,
+
+13
+00:00:36,060 --> 00:00:40,240
+ then the loop would only visit the edge f goes to s.
+
+14
+00:00:40,240 --> 00:00:41,970
+ Here's my question.
+
+15
+00:00:41,970 --> 00:00:45,450
+ Let's call this particular line of code L1.
+
+16
+00:00:45,450 --> 00:00:49,340
+ That is the line L1 tests if F is not empty before deciding
+
+17
+00:00:49,340 --> 00:00:52,120
+ whether to continue or to break out of the loop.
+
+18
+00:00:52,120 --> 00:00:56,660
+ So on the third execution of L1, meaning the third time you evaluate this
+
+19
+00:00:56,660 --> 00:01:02,120
+ condition, F not equal to the empty set, what does F contain?
+
+20
+00:01:02,120 --> 00:01:05,840
+ Your answer will be a list of vertices that you type into this box.
+
+21
+00:01:05,840 --> 00:01:09,820
+ You can just list the vertices by their labels separated by spaces.
+
+22
+00:01:09,820 --> 00:01:14,620
+ So for example suppose you thought the answer was the vertices a, b, and c.
+
+23
+00:01:14,620 --> 00:01:18,590
+ Then you type in the box a, b, and c separated by spaces.
+
+24
+00:01:18,590 --> 00:01:22,900
+ Now one more bit of clarification, there can be more than one correct solution
+
+25
+00:01:22,900 --> 00:01:25,780
+ because there's an inherent ambiguity in the algorithm.
+
+26
+00:01:25,780 --> 00:01:25,780
+ In this quiz, I want to force you to think about that.
+

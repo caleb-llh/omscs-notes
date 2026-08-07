@@ -1,0 +1,760 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.909 align:start position:0%
+ 
+now<00:00:00.399><c> we</c><00:00:00.520><c> will</c><00:00:00.719><c> see</c><00:00:01.040><c> how</c><00:00:01.160><c> Loop</c><00:00:01.439><c> unrolling</c><00:00:02.000><c> Works</c>
+
+00:00:02.909 --> 00:00:02.919 align:start position:0%
+now we will see how Loop unrolling Works
+ 
+
+00:00:02.919 --> 00:00:05.789 align:start position:0%
+now we will see how Loop unrolling Works
+suppose<00:00:03.399><c> we</c><00:00:03.639><c> have</c><00:00:03.879><c> this</c><00:00:04.160><c> Loop</c><00:00:05.160><c> in</c><00:00:05.319><c> the</c><00:00:05.480><c> C</c>
+
+00:00:05.789 --> 00:00:05.799 align:start position:0%
+suppose we have this Loop in the C
+ 
+
+00:00:05.799 --> 00:00:08.990 align:start position:0%
+suppose we have this Loop in the C
+language<00:00:06.359><c> where</c><00:00:06.799><c> I</c><00:00:07.359><c> goes</c><00:00:07.640><c> from</c><00:00:07.839><c> 1,000</c><00:00:08.559><c> down</c><00:00:08.719><c> to</c>
+
+00:00:08.990 --> 00:00:09.000 align:start position:0%
+language where I goes from 1,000 down to
+ 
+
+00:00:09.000 --> 00:00:11.470 align:start position:0%
+language where I goes from 1,000 down to
+zero<00:00:09.599><c> and</c><00:00:09.760><c> in</c><00:00:09.920><c> each</c><00:00:10.120><c> iteration</c><00:00:10.519><c> of</c><00:00:10.679><c> the</c><00:00:10.800><c> loop</c>
+
+00:00:11.470 --> 00:00:11.480 align:start position:0%
+zero and in each iteration of the loop
+ 
+
+00:00:11.480 --> 00:00:14.829 align:start position:0%
+zero and in each iteration of the loop
+we<00:00:11.719><c> add</c><00:00:12.040><c> something</c><00:00:12.519><c> to</c><00:00:12.719><c> the</c><00:00:13.000><c> E</c><00:00:13.679><c> element</c><00:00:14.559><c> of</c><00:00:14.719><c> the</c>
+
+00:00:14.829 --> 00:00:14.839 align:start position:0%
+we add something to the E element of the
+ 
+
+00:00:14.839 --> 00:00:17.269 align:start position:0%
+we add something to the E element of the
+array<00:00:15.160><c> a</c><00:00:15.759><c> when</c><00:00:16.000><c> we</c><00:00:16.160><c> translate</c><00:00:16.640><c> this</c><00:00:16.840><c> into</c>
+
+00:00:17.269 --> 00:00:17.279 align:start position:0%
+array a when we translate this into
+ 
+
+00:00:17.279 --> 00:00:20.029 align:start position:0%
+array a when we translate this into
+instructions<00:00:18.279><c> we</c><00:00:18.480><c> get</c><00:00:18.640><c> a</c><00:00:18.800><c> loop</c><00:00:19.480><c> like</c><00:00:19.720><c> the</c><00:00:19.840><c> one</c>
+
+00:00:20.029 --> 00:00:20.039 align:start position:0%
+instructions we get a loop like the one
+ 
+
+00:00:20.039 --> 00:00:23.070 align:start position:0%
+instructions we get a loop like the one
+we<00:00:20.160><c> have</c><00:00:20.359><c> already</c><00:00:20.640><c> seen</c><00:00:21.439><c> we</c><00:00:21.680><c> load</c><00:00:22.680><c> from</c><00:00:22.920><c> the</c>
+
+00:00:23.070 --> 00:00:23.080 align:start position:0%
+we have already seen we load from the
+ 
+
+00:00:23.080 --> 00:00:25.710 align:start position:0%
+we have already seen we load from the
+array<00:00:23.400><c> element</c><00:00:24.000><c> so</c><00:00:24.199><c> R1</c><00:00:24.760><c> is</c><00:00:24.920><c> now</c><00:00:25.160><c> the</c><00:00:25.320><c> pointer</c>
+
+00:00:25.710 --> 00:00:25.720 align:start position:0%
+array element so R1 is now the pointer
+ 
+
+00:00:25.720 --> 00:00:28.390 align:start position:0%
+array element so R1 is now the pointer
+to<00:00:25.880><c> the</c><00:00:26.080><c> E</c><00:00:26.400><c> element</c><00:00:26.800><c> of</c><00:00:26.920><c> the</c><00:00:27.080><c> array</c><00:00:27.800><c> we</c><00:00:28.039><c> load</c>
+
+00:00:28.390 --> 00:00:28.400 align:start position:0%
+to the E element of the array we load
+ 
+
+00:00:28.400 --> 00:00:32.830 align:start position:0%
+to the E element of the array we load
+that<00:00:28.960><c> we</c><00:00:29.160><c> add</c><00:00:29.400><c> R3</c><00:00:30.160><c> that</c><00:00:30.279><c> would</c><00:00:30.439><c> be</c><00:00:30.599><c> r</c><00:00:30.920><c> s</c><00:00:31.800><c> to</c><00:00:32.160><c> that</c>
+
+00:00:32.830 --> 00:00:32.840 align:start position:0%
+that we add R3 that would be r s to that
+ 
+
+00:00:32.840 --> 00:00:36.950 align:start position:0%
+that we add R3 that would be r s to that
+and<00:00:33.000><c> then</c><00:00:33.160><c> we</c><00:00:33.280><c> store</c><00:00:33.600><c> it</c><00:00:33.879><c> back</c><00:00:34.680><c> into</c><00:00:35.079><c> the</c><00:00:35.640><c> A</c><00:00:35.960><c> ofi</c>
+
+00:00:36.950 --> 00:00:36.960 align:start position:0%
+and then we store it back into the A ofi
+ 
+
+00:00:36.960 --> 00:00:38.990 align:start position:0%
+and then we store it back into the A ofi
+and<00:00:37.120><c> then</c><00:00:37.280><c> we</c><00:00:37.399><c> move</c><00:00:37.640><c> our</c><00:00:37.800><c> pointer</c><00:00:38.200><c> four</c><00:00:38.520><c> places</c>
+
+00:00:38.990 --> 00:00:39.000 align:start position:0%
+and then we move our pointer four places
+ 
+
+00:00:39.000 --> 00:00:42.069 align:start position:0%
+and then we move our pointer four places
+down<00:00:39.520><c> that's</c><00:00:39.760><c> equivalent</c><00:00:40.200><c> to</c><00:00:40.480><c> decrementing</c><00:00:41.200><c> I</c>
+
+00:00:42.069 --> 00:00:42.079 align:start position:0%
+down that's equivalent to decrementing I
+ 
+
+00:00:42.079 --> 00:00:44.389 align:start position:0%
+down that's equivalent to decrementing I
+and<00:00:42.239><c> then</c><00:00:42.440><c> we</c><00:00:42.640><c> check</c><00:00:43.000><c> whether</c><00:00:43.680><c> the</c><00:00:43.879><c> pointer</c>
+
+00:00:44.389 --> 00:00:44.399 align:start position:0%
+and then we check whether the pointer
+ 
+
+00:00:44.399 --> 00:00:46.150 align:start position:0%
+and then we check whether the pointer
+has<00:00:44.559><c> reached</c><00:00:44.879><c> the</c><00:00:45.039><c> beginning</c><00:00:45.399><c> of</c><00:00:45.520><c> the</c><00:00:45.640><c> array</c>
+
+00:00:46.150 --> 00:00:46.160 align:start position:0%
+has reached the beginning of the array
+ 
+
+00:00:46.160 --> 00:00:48.110 align:start position:0%
+has reached the beginning of the array
+which<00:00:46.280><c> is</c><00:00:46.480><c> equivalent</c><00:00:46.879><c> to</c><00:00:47.039><c> checking</c><00:00:47.840><c> whether</c>
+
+00:00:48.110 --> 00:00:48.120 align:start position:0%
+which is equivalent to checking whether
+ 
+
+00:00:48.120 --> 00:00:51.709 align:start position:0%
+which is equivalent to checking whether
+I<00:00:48.320><c> is</c><00:00:48.480><c> zero</c><00:00:49.399><c> now</c><00:00:49.719><c> let's</c><00:00:50.719><c> apply</c><00:00:51.199><c> Loop</c><00:00:51.480><c> and</c>
+
+00:00:51.709 --> 00:00:51.719 align:start position:0%
+I is zero now let's apply Loop and
+ 
+
+00:00:51.719 --> 00:00:54.670 align:start position:0%
+I is zero now let's apply Loop and
+rolling<00:00:52.359><c> to</c><00:00:52.600><c> this</c><00:00:52.800><c> Loop</c><00:00:53.480><c> we</c><00:00:53.600><c> will</c><00:00:53.800><c> do</c><00:00:54.399><c> what</c><00:00:54.520><c> we</c>
+
+00:00:54.670 --> 00:00:54.680 align:start position:0%
+rolling to this Loop we will do what we
+ 
+
+00:00:54.680 --> 00:00:57.630 align:start position:0%
+rolling to this Loop we will do what we
+call<00:00:55.000><c> unrolling</c><00:00:55.680><c> once</c><00:00:56.440><c> we</c><00:00:56.640><c> unroll</c><00:00:57.160><c> the</c><00:00:57.280><c> loop</c>
+
+00:00:57.630 --> 00:00:57.640 align:start position:0%
+call unrolling once we unroll the loop
+ 
+
+00:00:57.640 --> 00:01:00.270 align:start position:0%
+call unrolling once we unroll the loop
+by<00:00:57.800><c> making</c><00:00:58.199><c> each</c><00:00:58.440><c> iteration</c><00:00:58.920><c> of</c><00:00:59.079><c> the</c><00:00:59.239><c> new</c><00:00:59.480><c> Loop</c>
+
+00:01:00.270 --> 00:01:00.280 align:start position:0%
+by making each iteration of the new Loop
+ 
+
+00:01:00.280 --> 00:01:02.910 align:start position:0%
+by making each iteration of the new Loop
+do<00:01:01.039><c> more</c><00:01:01.359><c> than</c><00:01:01.519><c> one</c><00:01:01.760><c> iteration</c><00:01:02.280><c> of</c><00:01:02.440><c> the</c><00:01:02.559><c> old</c>
+
+00:01:02.910 --> 00:01:02.920 align:start position:0%
+do more than one iteration of the old
+ 
+
+00:01:02.920 --> 00:01:06.789 align:start position:0%
+do more than one iteration of the old
+Loop<00:01:03.840><c> so</c><00:01:04.080><c> when</c><00:01:04.239><c> we</c><00:01:04.439><c> unroll</c><00:01:05.320><c> once</c><00:01:06.320><c> what</c><00:01:06.439><c> we</c><00:01:06.600><c> want</c>
+
+00:01:06.789 --> 00:01:06.799 align:start position:0%
+Loop so when we unroll once what we want
+ 
+
+00:01:06.799 --> 00:01:08.990 align:start position:0%
+Loop so when we unroll once what we want
+to<00:01:07.000><c> do</c><00:01:07.200><c> is</c><00:01:07.360><c> now</c><00:01:07.720><c> each</c><00:01:08.040><c> iteration</c><00:01:08.439><c> of</c><00:01:08.600><c> the</c><00:01:08.759><c> new</c>
+
+00:01:08.990 --> 00:01:09.000 align:start position:0%
+to do is now each iteration of the new
+ 
+
+00:01:09.000 --> 00:01:12.149 align:start position:0%
+to do is now each iteration of the new
+Loop<00:01:09.720><c> will</c><00:01:09.920><c> be</c><00:01:10.119><c> doing</c><00:01:11.119><c> the</c><00:01:11.320><c> work</c><00:01:11.640><c> that</c><00:01:12.000><c> it</c>
+
+00:01:12.149 --> 00:01:12.159 align:start position:0%
+Loop will be doing the work that it
+ 
+
+00:01:12.159 --> 00:01:14.190 align:start position:0%
+Loop will be doing the work that it
+should<00:01:12.400><c> be</c><00:01:12.600><c> doing</c><00:01:13.080><c> plus</c><00:01:13.439><c> the</c><00:01:13.600><c> work</c><00:01:13.880><c> of</c><00:01:14.040><c> the</c>
+
+00:01:14.190 --> 00:01:14.200 align:start position:0%
+should be doing plus the work of the
+ 
+
+00:01:14.200 --> 00:01:16.830 align:start position:0%
+should be doing plus the work of the
+next<00:01:14.920><c> iteration</c><00:01:15.920><c> however</c><00:01:16.119><c> if</c><00:01:16.240><c> we</c><00:01:16.400><c> just</c><00:01:16.520><c> do</c><00:01:16.680><c> it</c>
+
+00:01:16.830 --> 00:01:16.840 align:start position:0%
+next iteration however if we just do it
+ 
+
+00:01:16.840 --> 00:01:18.390 align:start position:0%
+next iteration however if we just do it
+this<00:01:17.000><c> way</c><00:01:17.200><c> then</c><00:01:17.360><c> we're</c><00:01:17.560><c> doing</c><00:01:17.799><c> the</c><00:01:17.920><c> same</c><00:01:18.119><c> work</c>
+
+00:01:18.390 --> 00:01:18.400 align:start position:0%
+this way then we're doing the same work
+ 
+
+00:01:18.400 --> 00:01:21.710 align:start position:0%
+this way then we're doing the same work
+twice<00:01:19.280><c> so</c><00:01:19.560><c> instead</c><00:01:20.119><c> what</c><00:01:20.280><c> we</c><00:01:20.360><c> will</c><00:01:20.600><c> do</c><00:01:21.400><c> is</c><00:01:21.600><c> we</c>
+
+00:01:21.710 --> 00:01:21.720 align:start position:0%
+twice so instead what we will do is we
+ 
+
+00:01:21.720 --> 00:01:24.469 align:start position:0%
+twice so instead what we will do is we
+will<00:01:22.560><c> adjust</c><00:01:23.040><c> the</c><00:01:23.159><c> index</c><00:01:23.600><c> so</c><00:01:23.799><c> that</c><00:01:24.200><c> this</c><00:01:24.320><c> is</c>
+
+00:01:24.469 --> 00:01:24.479 align:start position:0%
+will adjust the index so that this is
+ 
+
+00:01:24.479 --> 00:01:26.749 align:start position:0%
+will adjust the index so that this is
+doing<00:01:24.759><c> the</c><00:01:24.960><c> E</c><00:01:25.400><c> element</c><00:01:25.759><c> of</c><00:01:25.920><c> the</c><00:01:26.040><c> array</c><00:01:26.560><c> and</c>
+
+00:01:26.749 --> 00:01:26.759 align:start position:0%
+doing the E element of the array and
+ 
+
+00:01:26.759 --> 00:01:29.030 align:start position:0%
+doing the E element of the array and
+then<00:01:27.119><c> I</c><00:01:27.360><c> would</c><00:01:27.520><c> be</c><00:01:27.720><c> decremented</c><00:01:28.400><c> and</c><00:01:28.560><c> the</c><00:01:28.720><c> next</c>
+
+00:01:29.030 --> 00:01:29.040 align:start position:0%
+then I would be decremented and the next
+ 
+
+00:01:29.040 --> 00:01:33.389 align:start position:0%
+then I would be decremented and the next
+iteration<00:01:30.200><c> would</c><00:01:30.439><c> now</c><00:01:30.680><c> do</c><00:01:31.040><c> a</c><00:01:31.479><c> of</c><00:01:31.759><c> IUS</c>
+
+00:01:33.389 --> 00:01:33.399 align:start position:0%
+iteration would now do a of IUS
+ 
+
+00:01:33.399 --> 00:01:36.870 align:start position:0%
+iteration would now do a of IUS
+one<00:01:34.399><c> however</c><00:01:35.399><c> this</c><00:01:35.560><c> Loop</c><00:01:35.960><c> still</c>
+
+00:01:36.870 --> 00:01:36.880 align:start position:0%
+one however this Loop still
+ 
+
+00:01:36.880 --> 00:01:40.630 align:start position:0%
+one however this Loop still
+counts<00:01:37.880><c> one</c><00:01:38.119><c> at</c><00:01:38.240><c> a</c><00:01:38.479><c> time</c><00:01:39.040><c> so</c><00:01:39.240><c> we</c><00:01:39.399><c> do</c><00:01:39.720><c> this</c><00:01:40.439><c> we</c>
+
+00:01:40.630 --> 00:01:40.640 align:start position:0%
+counts one at a time so we do this we
+ 
+
+00:01:40.640 --> 00:01:42.830 align:start position:0%
+counts one at a time so we do this we
+add<00:01:40.920><c> s</c><00:01:41.159><c> to</c><00:01:41.320><c> the</c><00:01:41.520><c> next</c><00:01:41.759><c> element</c><00:01:42.320><c> in</c><00:01:42.439><c> the</c><00:01:42.600><c> next</c>
+
+00:01:42.830 --> 00:01:42.840 align:start position:0%
+add s to the next element in the next
+ 
+
+00:01:42.840 --> 00:01:45.469 align:start position:0%
+add s to the next element in the next
+iteration<00:01:43.240><c> of</c><00:01:43.399><c> the</c><00:01:43.520><c> loop</c><00:01:43.840><c> we</c><00:01:43.920><c> would</c><00:01:44.159><c> now</c><00:01:44.520><c> add</c><00:01:44.960><c> s</c>
+
+00:01:45.469 --> 00:01:45.479 align:start position:0%
+iteration of the loop we would now add s
+ 
+
+00:01:45.479 --> 00:01:47.870 align:start position:0%
+iteration of the loop we would now add s
+again<00:01:46.479><c> to</c><00:01:46.680><c> the</c><00:01:46.840><c> same</c><00:01:47.079><c> element</c><00:01:47.439><c> we</c><00:01:47.600><c> already</c>
+
+00:01:47.870 --> 00:01:47.880 align:start position:0%
+again to the same element we already
+ 
+
+00:01:47.880 --> 00:01:50.270 align:start position:0%
+again to the same element we already
+processed<00:01:48.399><c> here</c><00:01:49.079><c> so</c><00:01:49.240><c> we</c><00:01:49.399><c> also</c><00:01:49.640><c> need</c><00:01:49.799><c> to</c><00:01:49.960><c> adjust</c>
+
+00:01:50.270 --> 00:01:50.280 align:start position:0%
+processed here so we also need to adjust
+ 
+
+00:01:50.280 --> 00:01:53.069 align:start position:0%
+processed here so we also need to adjust
+the<00:01:50.360><c> loop</c><00:01:50.600><c> counter</c><00:01:51.000><c> update</c><00:01:51.399><c> to</c><00:01:51.640><c> update</c><00:01:52.479><c> by</c><00:01:52.680><c> two</c>
+
+00:01:53.069 --> 00:01:53.079 align:start position:0%
+the loop counter update to update by two
+ 
+
+00:01:53.079 --> 00:01:56.149 align:start position:0%
+the loop counter update to update by two
+now<00:01:54.040><c> and</c><00:01:54.240><c> now</c><00:01:54.640><c> we</c><00:01:54.799><c> have</c><00:01:55.000><c> a</c><00:01:55.119><c> new</c><00:01:55.360><c> Loop</c><00:01:55.640><c> that</c><00:01:55.799><c> has</c>
+
+00:01:56.149 --> 00:01:56.159 align:start position:0%
+now and now we have a new Loop that has
+ 
+
+00:01:56.159 --> 00:01:58.910 align:start position:0%
+now and now we have a new Loop that has
+half<00:01:56.399><c> as</c><00:01:56.600><c> many</c><00:01:57.240><c> iterations</c><00:01:58.240><c> Each</c><00:01:58.439><c> of</c><00:01:58.640><c> which</c><00:01:58.799><c> is</c>
+
+00:01:58.910 --> 00:01:58.920 align:start position:0%
+half as many iterations Each of which is
+ 
+
+00:01:58.920 --> 00:02:01.270 align:start position:0%
+half as many iterations Each of which is
+doing<00:01:59.200><c> the</c><00:01:59.360><c> work</c><00:01:59.920><c> of</c><00:02:00.079><c> the</c><00:02:00.240><c> two</c><00:02:00.560><c> original</c>
+
+00:02:01.270 --> 00:02:01.280 align:start position:0%
+doing the work of the two original
+ 
+
+00:02:01.280 --> 00:02:03.749 align:start position:0%
+doing the work of the two original
+iterations<00:02:02.280><c> we</c><00:02:02.439><c> could</c><00:02:02.719><c> unroll</c><00:02:03.159><c> the</c><00:02:03.280><c> loop</c><00:02:03.560><c> more</c>
+
+00:02:03.749 --> 00:02:03.759 align:start position:0%
+iterations we could unroll the loop more
+ 
+
+00:02:03.759 --> 00:02:06.749 align:start position:0%
+iterations we could unroll the loop more
+than<00:02:04.000><c> once</c><00:02:04.520><c> for</c><00:02:04.719><c> example</c><00:02:05.479><c> unrolling</c><00:02:06.399><c> two</c>
+
+00:02:06.749 --> 00:02:06.759 align:start position:0%
+than once for example unrolling two
+ 
+
+00:02:06.759 --> 00:02:09.630 align:start position:0%
+than once for example unrolling two
+times<00:02:07.600><c> would</c><00:02:07.920><c> mean</c><00:02:08.360><c> that</c><00:02:08.640><c> this</c><00:02:08.840><c> Loop</c><00:02:09.160><c> is</c><00:02:09.280><c> doing</c>
+
+00:02:09.630 --> 00:02:09.640 align:start position:0%
+times would mean that this Loop is doing
+ 
+
+00:02:09.640 --> 00:02:12.270 align:start position:0%
+times would mean that this Loop is doing
+now<00:02:10.039><c> three</c><00:02:10.399><c> times</c><00:02:10.759><c> the</c><00:02:10.920><c> work</c><00:02:11.280><c> of</c><00:02:11.440><c> the</c><00:02:11.599><c> original</c>
+
+00:02:12.270 --> 00:02:12.280 align:start position:0%
+now three times the work of the original
+ 
+
+00:02:12.280 --> 00:02:16.070 align:start position:0%
+now three times the work of the original
+iteration<00:02:13.280><c> for</c><00:02:13.560><c> this</c><00:02:13.800><c> once</c><00:02:14.160><c> unrolled</c><00:02:15.080><c> Loop</c>
+
+00:02:16.070 --> 00:02:16.080 align:start position:0%
+iteration for this once unrolled Loop
+ 
+
+00:02:16.080 --> 00:02:19.790 align:start position:0%
+iteration for this once unrolled Loop
+the<00:02:16.800><c> instructions</c><00:02:17.800><c> would</c><00:02:18.040><c> look</c><00:02:19.000><c> like</c><00:02:19.280><c> this</c><00:02:19.680><c> we</c>
+
+00:02:19.790 --> 00:02:19.800 align:start position:0%
+the instructions would look like this we
+ 
+
+00:02:19.800 --> 00:02:22.509 align:start position:0%
+the instructions would look like this we
+would<00:02:20.120><c> have</c><00:02:20.680><c> the</c><00:02:20.920><c> actual</c><00:02:21.360><c> work</c><00:02:21.800><c> of</c><00:02:22.000><c> the</c><00:02:22.120><c> one</c>
+
+00:02:22.509 --> 00:02:22.519 align:start position:0%
+would have the actual work of the one
+ 
+
+00:02:22.519 --> 00:02:24.309 align:start position:0%
+would have the actual work of the one
+iteration<00:02:23.519><c> these</c><00:02:23.680><c> are</c><00:02:23.920><c> the</c><00:02:24.080><c> same</c>
+
+00:02:24.309 --> 00:02:24.319 align:start position:0%
+iteration these are the same
+ 
+
+00:02:24.319 --> 00:02:26.910 align:start position:0%
+iteration these are the same
+instructions<00:02:24.959><c> as</c><00:02:25.280><c> here</c><00:02:26.040><c> we</c><00:02:26.200><c> now</c><00:02:26.360><c> want</c><00:02:26.519><c> to</c><00:02:26.680><c> do</c>
+
+00:02:26.910 --> 00:02:26.920 align:start position:0%
+instructions as here we now want to do
+ 
+
+00:02:26.920 --> 00:02:31.390 align:start position:0%
+instructions as here we now want to do
+this<00:02:27.120><c> work</c><00:02:27.760><c> once</c><00:02:28.080><c> more</c><00:02:28.560><c> this</c><00:02:28.720><c> would</c><00:02:28.920><c> be</c><00:02:29.519><c> this</c>
+
+00:02:31.390 --> 00:02:31.400 align:start position:0%
+this work once more this would be this
+ 
+
+00:02:31.400 --> 00:02:33.150 align:start position:0%
+this work once more this would be this
+however<00:02:32.120><c> if</c><00:02:32.280><c> we</c><00:02:32.440><c> just</c><00:02:32.680><c> copied</c><00:02:33.040><c> the</c>
+
+00:02:33.150 --> 00:02:33.160 align:start position:0%
+however if we just copied the
+ 
+
+00:02:33.160 --> 00:02:34.790 align:start position:0%
+however if we just copied the
+instructions<00:02:33.720><c> again</c><00:02:33.959><c> we</c><00:02:34.040><c> would</c><00:02:34.239><c> be</c><00:02:34.360><c> doing</c><00:02:34.640><c> the</c>
+
+00:02:34.790 --> 00:02:34.800 align:start position:0%
+instructions again we would be doing the
+ 
+
+00:02:34.800 --> 00:02:37.990 align:start position:0%
+instructions again we would be doing the
+same<00:02:35.000><c> work</c><00:02:35.319><c> twice</c><00:02:35.920><c> we</c><00:02:36.040><c> would</c><00:02:36.280><c> just</c><00:02:36.800><c> add</c><00:02:37.640><c> our</c>
+
+00:02:37.990 --> 00:02:38.000 align:start position:0%
+same work twice we would just add our
+ 
+
+00:02:38.000 --> 00:02:43.030 align:start position:0%
+same work twice we would just add our
+three<00:02:39.000><c> again</c><00:02:39.760><c> to</c><00:02:40.040><c> our</c><00:02:40.599><c> same</c><00:02:40.959><c> element</c><00:02:41.440><c> a</c><00:02:41.760><c> ofi</c><00:02:42.760><c> so</c>
+
+00:02:43.030 --> 00:02:43.040 align:start position:0%
+three again to our same element a ofi so
+ 
+
+00:02:43.040 --> 00:02:46.229 align:start position:0%
+three again to our same element a ofi so
+instead<00:02:43.959><c> we</c><00:02:44.080><c> will</c><00:02:44.400><c> adjust</c><00:02:44.879><c> the</c><00:02:45.360><c> offset</c><00:02:45.959><c> here</c>
+
+00:02:46.229 --> 00:02:46.239 align:start position:0%
+instead we will adjust the offset here
+ 
+
+00:02:46.239 --> 00:02:48.869 align:start position:0%
+instead we will adjust the offset here
+so<00:02:46.440><c> that</c><00:02:46.599><c> we</c><00:02:46.680><c> are</c><00:02:47.000><c> accessing</c><00:02:47.560><c> the</c><00:02:47.879><c> element</c>
+
+00:02:48.869 --> 00:02:48.879 align:start position:0%
+so that we are accessing the element
+ 
+
+00:02:48.879 --> 00:02:51.390 align:start position:0%
+so that we are accessing the element
+right<00:02:49.159><c> below</c><00:02:49.920><c> the</c><00:02:50.040><c> one</c><00:02:50.319><c> that</c><00:02:50.440><c> R1</c><00:02:50.879><c> is</c><00:02:51.040><c> pointing</c>
+
+00:02:51.390 --> 00:02:51.400 align:start position:0%
+right below the one that R1 is pointing
+ 
+
+00:02:51.400 --> 00:02:54.589 align:start position:0%
+right below the one that R1 is pointing
+to<00:02:51.800><c> this</c><00:02:51.959><c> would</c><00:02:52.159><c> be</c><00:02:52.560><c> the</c><00:02:52.840><c> a</c><00:02:53.120><c> of</c><00:02:53.319><c> I</c><00:02:53.560><c> minus</c><00:02:54.000><c> one</c>
+
+00:02:54.589 --> 00:02:54.599 align:start position:0%
+to this would be the a of I minus one
+ 
+
+00:02:54.599 --> 00:02:56.830 align:start position:0%
+to this would be the a of I minus one
+and<00:02:54.800><c> now</c><00:02:55.040><c> we</c><00:02:55.159><c> need</c><00:02:55.519><c> our</c><00:02:55.720><c> Loop</c><00:02:56.040><c> counter</c><00:02:56.440><c> update</c>
+
+00:02:56.830 --> 00:02:56.840 align:start position:0%
+and now we need our Loop counter update
+ 
+
+00:02:56.840 --> 00:03:00.309 align:start position:0%
+and now we need our Loop counter update
+and<00:02:57.040><c> the</c><00:02:57.280><c> actual</c><00:02:58.159><c> loop</c><00:02:58.519><c> back</c><00:02:58.920><c> branch</c><00:03:00.080><c> but</c>
+
+00:03:00.309 --> 00:03:00.319 align:start position:0%
+and the actual loop back branch but
+ 
+
+00:03:00.319 --> 00:03:03.470 align:start position:0%
+and the actual loop back branch but
+those<00:03:00.560><c> we</c><00:03:00.720><c> cannot</c><00:03:01.120><c> simply</c><00:03:01.800><c> copy</c><00:03:02.800><c> just</c><00:03:03.120><c> like</c>
+
+00:03:03.470 --> 00:03:03.480 align:start position:0%
+those we cannot simply copy just like
+ 
+
+00:03:03.480 --> 00:03:05.589 align:start position:0%
+those we cannot simply copy just like
+here<00:03:03.720><c> we</c><00:03:03.920><c> had</c><00:03:04.080><c> to</c><00:03:04.360><c> update</c><00:03:04.799><c> the</c><00:03:04.959><c> counter</c><00:03:05.360><c> to</c>
+
+00:03:05.589 --> 00:03:05.599 align:start position:0%
+here we had to update the counter to
+ 
+
+00:03:05.599 --> 00:03:08.390 align:start position:0%
+here we had to update the counter to
+count<00:03:05.959><c> by</c><00:03:06.120><c> two</c><00:03:06.560><c> iterations</c><00:03:07.560><c> in</c><00:03:07.840><c> this</c><00:03:08.040><c> code</c><00:03:08.280><c> we</c>
+
+00:03:08.390 --> 00:03:08.400 align:start position:0%
+count by two iterations in this code we
+ 
+
+00:03:08.400 --> 00:03:10.670 align:start position:0%
+count by two iterations in this code we
+were<00:03:08.599><c> decrementing</c><00:03:09.200><c> R1</c><00:03:09.680><c> to</c><00:03:09.840><c> move</c><00:03:10.080><c> to</c><00:03:10.280><c> the</c>
+
+00:03:10.670 --> 00:03:10.680 align:start position:0%
+were decrementing R1 to move to the
+ 
+
+00:03:10.680 --> 00:03:12.910 align:start position:0%
+were decrementing R1 to move to the
+element<00:03:11.159><c> below</c><00:03:11.760><c> now</c><00:03:11.920><c> we're</c><00:03:12.159><c> processing</c><00:03:12.680><c> two</c>
+
+00:03:12.910 --> 00:03:12.920 align:start position:0%
+element below now we're processing two
+ 
+
+00:03:12.920 --> 00:03:15.910 align:start position:0%
+element below now we're processing two
+elements<00:03:13.319><c> at</c><00:03:13.440><c> a</c><00:03:13.640><c> time</c><00:03:14.360><c> so</c><00:03:14.599><c> we</c><00:03:14.720><c> need</c><00:03:14.920><c> to</c><00:03:15.080><c> move</c><00:03:15.519><c> 8</c>
+
+00:03:15.910 --> 00:03:15.920 align:start position:0%
+elements at a time so we need to move 8
+ 
+
+00:03:15.920 --> 00:03:18.149 align:start position:0%
+elements at a time so we need to move 8
+bytes<00:03:16.280><c> at</c><00:03:16.400><c> a</c><00:03:16.599><c> time</c><00:03:17.319><c> so</c><00:03:17.519><c> the</c><00:03:17.680><c> approach</c><00:03:17.959><c> to</c>
+
+00:03:18.149 --> 00:03:18.159 align:start position:0%
+bytes at a time so the approach to
+ 
+
+00:03:18.159 --> 00:03:21.110 align:start position:0%
+bytes at a time so the approach to
+unrolling<00:03:18.720><c> Once</c><00:03:19.080><c> is</c><00:03:19.440><c> take</c><00:03:19.680><c> the</c><00:03:19.840><c> original</c><00:03:20.280><c> work</c>
+
+00:03:21.110 --> 00:03:21.120 align:start position:0%
+unrolling Once is take the original work
+ 
+
+00:03:21.120 --> 00:03:23.509 align:start position:0%
+unrolling Once is take the original work
+copy<00:03:21.400><c> it</c><00:03:21.560><c> twice</c><00:03:22.200><c> adjust</c><00:03:22.560><c> a</c><00:03:22.720><c> second</c><00:03:23.080><c> copy</c><00:03:23.360><c> so</c>
+
+00:03:23.509 --> 00:03:23.519 align:start position:0%
+copy it twice adjust a second copy so
+ 
+
+00:03:23.519 --> 00:03:26.270 align:start position:0%
+copy it twice adjust a second copy so
+that<00:03:23.640><c> it</c><00:03:23.799><c> does</c><00:03:24.120><c> the</c><00:03:24.879><c> second</c><00:03:25.400><c> iterations</c><00:03:26.000><c> worth</c>
+
+00:03:26.270 --> 00:03:26.280 align:start position:0%
+that it does the second iterations worth
+ 
+
+00:03:26.280 --> 00:03:29.789 align:start position:0%
+that it does the second iterations worth
+of<00:03:26.480><c> work</c><00:03:27.400><c> and</c><00:03:27.599><c> then</c><00:03:27.920><c> adjust</c><00:03:28.480><c> the</c><00:03:28.599><c> loop</c><00:03:28.959><c> count</c>
+
+00:03:29.789 --> 00:03:29.799 align:start position:0%
+of work and then adjust the loop count
+ 
+
+00:03:29.799 --> 00:03:32.509 align:start position:0%
+of work and then adjust the loop count
+so<00:03:30.000><c> that</c><00:03:30.519><c> it's</c><00:03:30.720><c> moving</c><00:03:31.200><c> by</c><00:03:31.360><c> two</c><00:03:31.560><c> iterations</c>
+
+00:03:32.509 --> 00:03:32.519 align:start position:0%
+so that it's moving by two iterations
+ 
+
+00:03:32.519 --> 00:03:35.390 align:start position:0%
+so that it's moving by two iterations
+not<00:03:32.840><c> by</c><00:03:33.040><c> one</c><00:03:33.879><c> this</c><00:03:34.000><c> is</c><00:03:34.239><c> what</c><00:03:34.360><c> it</c><00:03:34.480><c> means</c><00:03:34.840><c> to</c>
+
+00:03:35.390 --> 00:03:35.400 align:start position:0%
+not by one this is what it means to
+ 
+
+00:03:35.400 --> 00:03:38.550 align:start position:0%
+not by one this is what it means to
+unroll<00:03:36.400><c> once</c><00:03:37.400><c> so</c><00:03:37.599><c> keep</c><00:03:37.879><c> in</c><00:03:38.000><c> mind</c><00:03:38.239><c> that</c><00:03:38.360><c> when</c><00:03:38.480><c> we</c>
+
+00:03:38.550 --> 00:03:38.560 align:start position:0%
+unroll once so keep in mind that when we
+ 
+
+00:03:38.560 --> 00:03:40.589 align:start position:0%
+unroll once so keep in mind that when we
+are<00:03:38.680><c> doing</c><00:03:39.000><c> two</c><00:03:39.280><c> iterations</c><00:03:39.840><c> at</c><00:03:39.959><c> a</c><00:03:40.159><c> time</c><00:03:40.480><c> we</c>
+
+00:03:40.589 --> 00:03:40.599 align:start position:0%
+are doing two iterations at a time we
+ 
+
+00:03:40.599 --> 00:03:42.670 align:start position:0%
+are doing two iterations at a time we
+have<00:03:40.799><c> unrolled</c><00:03:41.280><c> the</c><00:03:41.400><c> loop</c><00:03:41.720><c> once</c><00:03:42.280><c> because</c><00:03:42.519><c> we</c>
+
+00:03:42.670 --> 00:03:42.680 align:start position:0%
+have unrolled the loop once because we
+ 
+
+00:03:42.680 --> 00:03:45.869 align:start position:0%
+have unrolled the loop once because we
+have<00:03:42.920><c> added</c><00:03:43.400><c> one</c><00:03:44.159><c> iteration</c><00:03:45.159><c> of</c><00:03:45.319><c> the</c><00:03:45.439><c> original</c>
+
+00:03:45.869 --> 00:03:45.879 align:start position:0%
+have added one iteration of the original
+ 
+
+00:03:45.879 --> 00:03:48.110 align:start position:0%
+have added one iteration of the original
+Loop<00:03:46.239><c> in</c><00:03:46.480><c> addition</c><00:03:47.120><c> to</c><00:03:47.360><c> what</c><00:03:47.519><c> the</c><00:03:47.640><c> iteration</c>
+
+00:03:48.110 --> 00:03:48.120 align:start position:0%
+Loop in addition to what the iteration
+ 
+
+00:03:48.120 --> 00:03:51.949 align:start position:0%
+Loop in addition to what the iteration
+normally<00:03:48.560><c> would</c><00:03:48.760><c> be</c><00:03:48.879><c> doing</c><00:03:49.680><c> unrolling</c><00:03:50.959><c> twice</c>
+
+00:03:51.949 --> 00:03:51.959 align:start position:0%
+normally would be doing unrolling twice
+ 
+
+00:03:51.959 --> 00:03:53.509 align:start position:0%
+normally would be doing unrolling twice
+would<00:03:52.159><c> mean</c><00:03:52.519><c> that</c><00:03:52.680><c> we</c><00:03:52.799><c> are</c><00:03:52.920><c> doing</c><00:03:53.280><c> three</c>
+
+00:03:53.509 --> 00:03:53.519 align:start position:0%
+would mean that we are doing three
+ 
+
+00:03:53.519 --> 00:03:56.350 align:start position:0%
+would mean that we are doing three
+iterations<00:03:54.120><c> at</c><00:03:54.280><c> a</c><00:03:54.480><c> time</c><00:03:55.079><c> unrolling</c><00:03:56.000><c> three</c>
+
+00:03:56.350 --> 00:03:56.360 align:start position:0%
+iterations at a time unrolling three
+ 
+
+00:03:56.360 --> 00:03:58.630 align:start position:0%
+iterations at a time unrolling three
+times<00:03:57.000><c> means</c><00:03:57.280><c> that</c><00:03:57.400><c> we</c><00:03:57.519><c> are</c><00:03:57.640><c> doing</c><00:03:57.959><c> four</c><00:03:58.360><c> times</c>
+
+00:03:58.630 --> 00:03:58.640 align:start position:0%
+times means that we are doing four times
+ 
+
+00:03:58.640 --> 00:04:00.229 align:start position:0%
+times means that we are doing four times
+the<00:03:58.799><c> work</c><00:03:59.040><c> and</c><00:03:59.200><c> so</c><00:03:59.439><c> on</c>
+
+00:04:00.229 --> 00:04:00.239 align:start position:0%
+the work and so on
+ 
+
+00:04:00.239 --> 00:04:01.869 align:start position:0%
+the work and so on
+it<00:04:00.360><c> is</c><00:04:00.480><c> a</c><00:04:00.680><c> very</c><00:04:00.879><c> common</c><00:04:01.200><c> mistake</c><00:04:01.640><c> that</c><00:04:01.760><c> when</c>
+
+00:04:01.869 --> 00:04:01.879 align:start position:0%
+it is a very common mistake that when
+ 
+
+00:04:01.879 --> 00:04:04.190 align:start position:0%
+it is a very common mistake that when
+you're<00:04:02.040><c> asked</c><00:04:02.280><c> to</c><00:04:02.400><c> unroll</c><00:04:02.799><c> the</c><00:04:02.879><c> loop</c><00:04:03.200><c> twice</c>
+
+00:04:04.190 --> 00:04:04.200 align:start position:0%
+you're asked to unroll the loop twice
+ 
+
+00:04:04.200 --> 00:04:06.390 align:start position:0%
+you're asked to unroll the loop twice
+unroll<00:04:04.640><c> it</c><00:04:04.920><c> this</c><00:04:05.120><c> way</c><00:04:05.560><c> this</c><00:04:05.680><c> is</c><00:04:05.840><c> unrolling</c>
+
+00:04:06.390 --> 00:04:06.400 align:start position:0%
+unroll it this way this is unrolling
+ 
+
+00:04:06.400 --> 00:04:09.350 align:start position:0%
+unroll it this way this is unrolling
+only<00:04:06.680><c> once</c><00:04:07.280><c> again</c><00:04:07.560><c> unrolling</c><00:04:08.200><c> twice</c><00:04:08.840><c> is</c><00:04:09.000><c> not</c>
+
+00:04:09.350 --> 00:04:09.360 align:start position:0%
+only once again unrolling twice is not
+ 
+
+00:04:09.360 --> 00:04:12.229 align:start position:0%
+only once again unrolling twice is not
+do<00:04:09.599><c> two</c><00:04:09.840><c> iterations</c><00:04:10.319><c> at</c><00:04:10.439><c> a</c><00:04:10.640><c> time</c><00:04:10.920><c> it's</c><00:04:11.120><c> do</c><00:04:11.680><c> one</c>
+
+00:04:12.229 --> 00:04:12.239 align:start position:0%
+do two iterations at a time it's do one
+ 
+
+00:04:12.239 --> 00:04:14.309 align:start position:0%
+do two iterations at a time it's do one
+plus<00:04:12.560><c> two</c><00:04:12.879><c> iterations</c><00:04:13.439><c> at</c><00:04:13.560><c> a</c><00:04:13.720><c> time</c><00:04:14.079><c> because</c>
+
+00:04:14.309 --> 00:04:14.319 align:start position:0%
+plus two iterations at a time because
+ 
+
+00:04:14.319 --> 00:04:17.430 align:start position:0%
+plus two iterations at a time because
+you<00:04:14.560><c> always</c><00:04:15.000><c> have</c><00:04:15.159><c> to</c><00:04:15.319><c> do</c><00:04:15.840><c> one</c><00:04:16.160><c> iteration</c><00:04:17.160><c> so</c>
+
+00:04:17.430 --> 00:04:17.440 align:start position:0%
+you always have to do one iteration so
+ 
+
+00:04:17.440 --> 00:04:20.030 align:start position:0%
+you always have to do one iteration so
+this<00:04:17.600><c> Loop</c><00:04:17.880><c> is</c><00:04:18.040><c> not</c><00:04:18.239><c> unrolled</c><00:04:18.840><c> once</c><00:04:19.479><c> it</c><00:04:19.639><c> is</c><00:04:19.799><c> not</c>
+
+00:04:20.030 --> 00:04:20.040 align:start position:0%
+this Loop is not unrolled once it is not
+ 
+
+00:04:20.040 --> 00:04:25.720 align:start position:0%
+this Loop is not unrolled once it is not
+unrolled<00:04:20.600><c> at</c><00:04:20.759><c> all</c><00:04:21.639><c> this</c><00:04:22.040><c> is</c><00:04:22.280><c> unrolled</c><00:04:22.880><c> once</c>
+

@@ -1,0 +1,448 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.270 align:start position:0%
+ 
+let's<00:00:00.329><c> look</c><00:00:00.510><c> at</c><00:00:00.659><c> the</c><00:00:00.810><c> solution</c><00:00:01.020><c> to</c><00:00:01.949><c> our</c><00:00:01.979><c> block</c>
+
+00:00:02.270 --> 00:00:02.280 align:start position:0%
+let's look at the solution to our block
+ 
+
+00:00:02.280 --> 00:00:05.200 align:start position:0%
+let's look at the solution to our block
+size<00:00:02.580><c> quiz</c><00:00:02.939><c> we</c><00:00:03.750><c> have</c><00:00:03.929><c> a</c><00:00:03.959><c> 32</c><00:00:04.500><c> kilobyte</c><00:00:04.950><c> cache</c>
+
+00:00:05.200 --> 00:00:05.210 align:start position:0%
+size quiz we have a 32 kilobyte cache
+ 
+
+00:00:05.210 --> 00:00:09.410 align:start position:0%
+size quiz we have a 32 kilobyte cache
+with<00:00:06.210><c> 64</c><00:00:06.810><c> byte</c><00:00:07.080><c> block</c><00:00:07.470><c> size</c><00:00:07.500><c> and</c><00:00:08.220><c> the</c><00:00:08.880><c> program</c>
+
+00:00:09.410 --> 00:00:09.420 align:start position:0%
+with 64 byte block size and the program
+ 
+
+00:00:09.420 --> 00:00:12.499 align:start position:0%
+with 64 byte block size and the program
+that<00:00:09.990><c> accesses</c><00:00:10.440><c> n</c><00:00:10.769><c> variables</c><00:00:11.490><c> that</c><00:00:12.090><c> have</c><00:00:12.330><c> lots</c>
+
+00:00:12.499 --> 00:00:12.509 align:start position:0%
+that accesses n variables that have lots
+ 
+
+00:00:12.509 --> 00:00:15.259 align:start position:0%
+that accesses n variables that have lots
+of<00:00:12.660><c> temporal</c><00:00:13.200><c> locality</c><00:00:13.549><c> meaning</c><00:00:14.549><c> each</c><00:00:15.000><c> of</c>
+
+00:00:15.259 --> 00:00:15.269 align:start position:0%
+of temporal locality meaning each of
+ 
+
+00:00:15.269 --> 00:00:17.930 align:start position:0%
+of temporal locality meaning each of
+these<00:00:15.389><c> variables</c><00:00:15.780><c> is</c><00:00:16.109><c> accessed</c><00:00:16.650><c> often</c><00:00:17.609><c> in</c><00:00:17.789><c> the</c>
+
+00:00:17.930 --> 00:00:17.940 align:start position:0%
+these variables is accessed often in the
+ 
+
+00:00:17.940 --> 00:00:21.050 align:start position:0%
+these variables is accessed often in the
+program<00:00:18.390><c> but</c><00:00:19.050><c> no</c><00:00:19.260><c> spatial</c><00:00:19.800><c> locality</c><00:00:20.060><c> meaning</c>
+
+00:00:21.050 --> 00:00:21.060 align:start position:0%
+program but no spatial locality meaning
+ 
+
+00:00:21.060 --> 00:00:23.359 align:start position:0%
+program but no spatial locality meaning
+they<00:00:21.390><c> are</c><00:00:21.449><c> nowhere</c><00:00:21.660><c> close</c><00:00:22.020><c> to</c><00:00:22.050><c> each</c><00:00:22.350><c> other</c><00:00:22.560><c> the</c>
+
+00:00:23.359 --> 00:00:23.369 align:start position:0%
+they are nowhere close to each other the
+ 
+
+00:00:23.369 --> 00:00:25.700 align:start position:0%
+they are nowhere close to each other the
+question<00:00:23.519><c> is</c><00:00:23.880><c> what</c><00:00:24.090><c> is</c><00:00:24.269><c> the</c><00:00:24.420><c> largest</c><00:00:24.539><c> n</c><00:00:25.050><c> the</c>
+
+00:00:25.700 --> 00:00:25.710 align:start position:0%
+question is what is the largest n the
+ 
+
+00:00:25.710 --> 00:00:27.650 align:start position:0%
+question is what is the largest n the
+number<00:00:25.890><c> of</c><00:00:26.070><c> these</c><00:00:26.250><c> variables</c><00:00:26.789><c> that</c><00:00:27.330><c> still</c>
+
+00:00:27.650 --> 00:00:27.660 align:start position:0%
+number of these variables that still
+ 
+
+00:00:27.660 --> 00:00:31.700 align:start position:0%
+number of these variables that still
+results<00:00:28.140><c> in</c><00:00:28.289><c> a</c><00:00:28.380><c> high</c><00:00:28.560><c> hit</c><00:00:28.800><c> rate</c><00:00:29.039><c> now</c><00:00:29.990><c> x1</c><00:00:30.990><c> when</c>
+
+00:00:31.700 --> 00:00:31.710 align:start position:0%
+results in a high hit rate now x1 when
+ 
+
+00:00:31.710 --> 00:00:34.069 align:start position:0%
+results in a high hit rate now x1 when
+we<00:00:31.830><c> bring</c><00:00:32.070><c> it</c><00:00:32.219><c> into</c><00:00:32.550><c> the</c><00:00:32.669><c> cache</c><00:00:32.910><c> we</c><00:00:33.630><c> will</c><00:00:33.809><c> bring</c>
+
+00:00:34.069 --> 00:00:34.079 align:start position:0%
+we bring it into the cache we will bring
+ 
+
+00:00:34.079 --> 00:00:37.130 align:start position:0%
+we bring it into the cache we will bring
+an<00:00:34.350><c> entire</c><00:00:34.950><c> block</c><00:00:35.309><c> worth</c><00:00:35.910><c> of</c><00:00:36.180><c> stuff</c><00:00:36.510><c> around</c><00:00:36.719><c> it</c>
+
+00:00:37.130 --> 00:00:37.140 align:start position:0%
+an entire block worth of stuff around it
+ 
+
+00:00:37.140 --> 00:00:39.350 align:start position:0%
+an entire block worth of stuff around it
+and<00:00:37.350><c> because</c><00:00:38.250><c> there</c><00:00:38.399><c> is</c><00:00:38.430><c> no</c><00:00:38.520><c> spatial</c><00:00:38.910><c> locality</c>
+
+00:00:39.350 --> 00:00:39.360 align:start position:0%
+and because there is no spatial locality
+ 
+
+00:00:39.360 --> 00:00:41.660 align:start position:0%
+and because there is no spatial locality
+that<00:00:39.899><c> means</c><00:00:40.559><c> that</c><00:00:40.800><c> none</c><00:00:41.070><c> of</c><00:00:41.100><c> the</c><00:00:41.489><c> other</c>
+
+00:00:41.660 --> 00:00:41.670 align:start position:0%
+that means that none of the other
+ 
+
+00:00:41.670 --> 00:00:45.440 align:start position:0%
+that means that none of the other
+variables<00:00:42.360><c> will</c><00:00:43.200><c> be</c><00:00:43.410><c> in</c><00:00:43.800><c> that</c><00:00:44.460><c> block</c><00:00:44.700><c> when</c><00:00:45.329><c> we</c>
+
+00:00:45.440 --> 00:00:45.450 align:start position:0%
+variables will be in that block when we
+ 
+
+00:00:45.450 --> 00:00:48.709 align:start position:0%
+variables will be in that block when we
+access<00:00:45.750><c> x2</c><00:00:46.260><c> same</c><00:00:46.890><c> thing</c><00:00:47.190><c> we</c><00:00:47.370><c> will</c><00:00:47.489><c> bring</c><00:00:47.730><c> 64</c>
+
+00:00:48.709 --> 00:00:48.719 align:start position:0%
+access x2 same thing we will bring 64
+ 
+
+00:00:48.719 --> 00:00:50.510 align:start position:0%
+access x2 same thing we will bring 64
+bytes<00:00:48.960><c> worth</c><00:00:49.260><c> of</c><00:00:49.440><c> stuff</c><00:00:49.710><c> that</c><00:00:50.250><c> doesn't</c>
+
+00:00:50.510 --> 00:00:50.520 align:start position:0%
+bytes worth of stuff that doesn't
+ 
+
+00:00:50.520 --> 00:00:52.610 align:start position:0%
+bytes worth of stuff that doesn't
+include<00:00:50.910><c> any</c><00:00:51.300><c> of</c><00:00:51.420><c> the</c><00:00:51.570><c> other</c><00:00:51.690><c> variables</c><00:00:52.289><c> so</c>
+
+00:00:52.610 --> 00:00:52.620 align:start position:0%
+include any of the other variables so
+ 
+
+00:00:52.620 --> 00:00:53.959 align:start position:0%
+include any of the other variables so
+every<00:00:52.920><c> time</c><00:00:53.070><c> we</c><00:00:53.250><c> access</c><00:00:53.520><c> one</c><00:00:53.699><c> of</c><00:00:53.850><c> these</c>
+
+00:00:53.959 --> 00:00:53.969 align:start position:0%
+every time we access one of these
+ 
+
+00:00:53.969 --> 00:00:57.229 align:start position:0%
+every time we access one of these
+variables<00:00:54.480><c> we</c><00:00:55.079><c> will</c><00:00:55.199><c> need</c><00:00:55.410><c> 64</c><00:00:55.829><c> bytes</c><00:00:56.250><c> worth</c><00:00:57.000><c> of</c>
+
+00:00:57.229 --> 00:00:57.239 align:start position:0%
+variables we will need 64 bytes worth of
+ 
+
+00:00:57.239 --> 00:00:59.510 align:start position:0%
+variables we will need 64 bytes worth of
+space<00:00:57.480><c> in</c><00:00:57.750><c> the</c><00:00:57.870><c> cache</c><00:00:58.109><c> if</c><00:00:58.770><c> we</c><00:00:59.010><c> want</c><00:00:59.219><c> to</c><00:00:59.280><c> have</c><00:00:59.489><c> a</c>
+
+00:00:59.510 --> 00:00:59.520 align:start position:0%
+space in the cache if we want to have a
+ 
+
+00:00:59.520 --> 00:01:01.790 align:start position:0%
+space in the cache if we want to have a
+high<00:00:59.760><c> hit</c><00:01:00.030><c> rate</c><00:01:00.300><c> because</c><00:01:01.109><c> these</c><00:01:01.320><c> variables</c>
+
+00:01:01.790 --> 00:01:01.800 align:start position:0%
+high hit rate because these variables
+ 
+
+00:01:01.800 --> 00:01:03.920 align:start position:0%
+high hit rate because these variables
+have<00:01:02.039><c> lots</c><00:01:02.250><c> of</c><00:01:02.370><c> temporal</c><00:01:02.789><c> locality</c><00:01:03.030><c> we</c><00:01:03.719><c> want</c>
+
+00:01:03.920 --> 00:01:03.930 align:start position:0%
+have lots of temporal locality we want
+ 
+
+00:01:03.930 --> 00:01:06.080 align:start position:0%
+have lots of temporal locality we want
+all<00:01:04.199><c> of</c><00:01:04.409><c> them</c><00:01:04.589><c> to</c><00:01:04.949><c> remain</c><00:01:05.220><c> in</c><00:01:05.280><c> the</c><00:01:05.549><c> cache</c><00:01:05.760><c> that</c>
+
+00:01:06.080 --> 00:01:06.090 align:start position:0%
+all of them to remain in the cache that
+ 
+
+00:01:06.090 --> 00:01:08.570 align:start position:0%
+all of them to remain in the cache that
+is<00:01:06.840><c> we</c><00:01:07.200><c> want</c><00:01:07.380><c> all</c><00:01:07.590><c> of</c><00:01:07.619><c> them</c><00:01:07.830><c> to</c><00:01:08.040><c> fit</c><00:01:08.280><c> in</c><00:01:08.430><c> the</c>
+
+00:01:08.570 --> 00:01:08.580 align:start position:0%
+is we want all of them to fit in the
+ 
+
+00:01:08.580 --> 00:01:11.330 align:start position:0%
+is we want all of them to fit in the
+cache<00:01:08.790><c> so</c><00:01:09.060><c> the</c><00:01:09.689><c> largest</c><00:01:10.110><c> n</c><00:01:10.320><c> that</c><00:01:11.040><c> still</c>
+
+00:01:11.330 --> 00:01:11.340 align:start position:0%
+cache so the largest n that still
+ 
+
+00:01:11.340 --> 00:01:14.330 align:start position:0%
+cache so the largest n that still
+results<00:01:11.760><c> in</c><00:01:11.850><c> the</c><00:01:11.939><c> high</c><00:01:12.119><c> hit</c><00:01:12.450><c> rate</c><00:01:12.689><c> is</c><00:01:13.070><c> how</c><00:01:14.070><c> many</c>
+
+00:01:14.330 --> 00:01:14.340 align:start position:0%
+results in the high hit rate is how many
+ 
+
+00:01:14.340 --> 00:01:16.460 align:start position:0%
+results in the high hit rate is how many
+blocks<00:01:14.670><c> can</c><00:01:15.330><c> we</c><00:01:15.450><c> fit</c><00:01:15.630><c> in</c><00:01:15.750><c> your</c><00:01:15.869><c> cache</c><00:01:16.080><c> really</c>
+
+00:01:16.460 --> 00:01:16.470 align:start position:0%
+blocks can we fit in your cache really
+ 
+
+00:01:16.470 --> 00:01:19.700 align:start position:0%
+blocks can we fit in your cache really
+it's<00:01:17.159><c> a</c><00:01:17.310><c> 32</c><00:01:17.759><c> kilobyte</c><00:01:18.180><c> cache</c><00:01:18.210><c> there</c><00:01:19.080><c> are</c><00:01:19.200><c> 64</c>
+
+00:01:19.700 --> 00:01:19.710 align:start position:0%
+it's a 32 kilobyte cache there are 64
+ 
+
+00:01:19.710 --> 00:01:22.120 align:start position:0%
+it's a 32 kilobyte cache there are 64
+byte<00:01:20.009><c> blocks</c><00:01:20.400><c> how</c><00:01:20.970><c> many</c><00:01:21.210><c> blocks</c><00:01:21.479><c> do</c><00:01:21.750><c> we</c><00:01:21.869><c> have</c>
+
+00:01:22.120 --> 00:01:22.130 align:start position:0%
+byte blocks how many blocks do we have
+ 
+
+00:01:22.130 --> 00:01:26.690 align:start position:0%
+byte blocks how many blocks do we have
+so<00:01:23.130><c> the</c><00:01:23.280><c> answer</c><00:01:23.640><c> is</c><00:01:23.869><c> 32</c><00:01:24.869><c> kilobytes</c><00:01:25.520><c> divided</c><00:01:26.520><c> by</c>
+
+00:01:26.690 --> 00:01:26.700 align:start position:0%
+so the answer is 32 kilobytes divided by
+ 
+
+00:01:26.700 --> 00:01:31.580 align:start position:0%
+so the answer is 32 kilobytes divided by
+64<00:01:27.270><c> bytes</c><00:01:27.570><c> which</c><00:01:28.470><c> gives</c><00:01:28.740><c> us</c><00:01:29.780><c> 512</c><00:01:30.780><c> so</c><00:01:31.439><c> the</c>
+
+00:01:31.580 --> 00:01:31.590 align:start position:0%
+64 bytes which gives us 512 so the
+ 
+
+00:01:31.590 --> 00:01:35.649 align:start position:0%
+64 bytes which gives us 512 so the
+answer<00:01:31.920><c> here</c><00:01:32.250><c> is</c><00:01:32.420><c> 512</c><00:01:33.420><c> if</c><00:01:33.750><c> we</c><00:01:33.960><c> have</c><00:01:34.170><c> 512</c><00:01:35.159><c> or</c>
+
+00:01:35.649 --> 00:01:35.659 align:start position:0%
+answer here is 512 if we have 512 or
+ 
+
+00:01:35.659 --> 00:01:39.560 align:start position:0%
+answer here is 512 if we have 512 or
+fewer<00:01:36.659><c> variables</c><00:01:37.250><c> then</c><00:01:38.250><c> the</c><00:01:38.549><c> fact</c><00:01:39.180><c> that</c><00:01:39.360><c> each</c>
+
+00:01:39.560 --> 00:01:39.570 align:start position:0%
+fewer variables then the fact that each
+ 
+
+00:01:39.570 --> 00:01:42.200 align:start position:0%
+fewer variables then the fact that each
+one<00:01:39.600><c> of</c><00:01:39.840><c> them</c><00:01:40.170><c> has</c><00:01:40.770><c> its</c><00:01:41.040><c> own</c><00:01:41.280><c> cache</c><00:01:41.610><c> block</c><00:01:41.939><c> in</c>
+
+00:01:42.200 --> 00:01:42.210 align:start position:0%
+one of them has its own cache block in
+ 
+
+00:01:42.210 --> 00:01:43.969 align:start position:0%
+one of them has its own cache block in
+the<00:01:42.329><c> cache</c><00:01:42.509><c> although</c><00:01:43.290><c> of</c><00:01:43.380><c> the</c><00:01:43.530><c> variables</c>
+
+00:01:43.969 --> 00:01:43.979 align:start position:0%
+the cache although of the variables
+ 
+
+00:01:43.979 --> 00:01:46.850 align:start position:0%
+the cache although of the variables
+probably<00:01:44.430><c> only</c><00:01:44.640><c> 4</c><00:01:44.850><c> bytes</c><00:01:45.090><c> in</c><00:01:45.240><c> size</c><00:01:45.500><c> is</c><00:01:46.500><c> not</c>
+
+00:01:46.850 --> 00:01:46.860 align:start position:0%
+probably only 4 bytes in size is not
+ 
+
+00:01:46.860 --> 00:01:49.550 align:start position:0%
+probably only 4 bytes in size is not
+gonna<00:01:47.070><c> hurt</c><00:01:47.369><c> us</c><00:01:47.430><c> in</c><00:01:47.729><c> terms</c><00:01:47.880><c> of</c><00:01:48.030><c> hit</c><00:01:48.210><c> rate</c><00:01:48.560><c> but</c>
+
+00:01:49.550 --> 00:01:49.560 align:start position:0%
+gonna hurt us in terms of hit rate but
+ 
+
+00:01:49.560 --> 00:01:53.960 align:start position:0%
+gonna hurt us in terms of hit rate but
+if<00:01:49.740><c> we</c><00:01:49.890><c> have</c><00:01:50.360><c> more</c><00:01:51.360><c> than</c><00:01:51.570><c> 512</c><00:01:52.290><c> variables</c><00:01:53.130><c> then</c>
+
+00:01:53.960 --> 00:01:53.970 align:start position:0%
+if we have more than 512 variables then
+ 
+
+00:01:53.970 --> 00:01:56.929 align:start position:0%
+if we have more than 512 variables then
+even<00:01:54.479><c> though</c><00:01:54.689><c> there</c><00:01:55.140><c> is</c><00:01:55.259><c> plenty</c><00:01:55.590><c> of</c><00:01:55.829><c> space</c><00:01:56.310><c> in</c>
+
+00:01:56.929 --> 00:01:56.939 align:start position:0%
+even though there is plenty of space in
+ 
+
+00:01:56.939 --> 00:02:01.190 align:start position:0%
+even though there is plenty of space in
+the<00:01:57.299><c> cache</c><00:01:57.540><c> if</c><00:01:58.320><c> it's</c><00:01:58.680><c> 4</c><00:01:59.159><c> byte</c><00:01:59.369><c> variables</c><00:02:00.200><c> 512</c>
+
+00:02:01.190 --> 00:02:01.200 align:start position:0%
+the cache if it's 4 byte variables 512
+ 
+
+00:02:01.200 --> 00:02:04.100 align:start position:0%
+the cache if it's 4 byte variables 512
+variables<00:02:01.740><c> is</c><00:02:01.950><c> 2</c><00:02:02.189><c> kilobytes</c><00:02:02.729><c> worth</c><00:02:03.450><c> of</c><00:02:03.750><c> actual</c>
+
+00:02:04.100 --> 00:02:04.110 align:start position:0%
+variables is 2 kilobytes worth of actual
+ 
+
+00:02:04.110 --> 00:02:06.440 align:start position:0%
+variables is 2 kilobytes worth of actual
+stuff<00:02:04.829><c> that</c><00:02:05.040><c> we</c><00:02:05.159><c> are</c><00:02:05.219><c> using</c><00:02:05.460><c> the</c><00:02:06.090><c> block</c><00:02:06.299><c> is</c>
+
+00:02:06.440 --> 00:02:06.450 align:start position:0%
+stuff that we are using the block is
+ 
+
+00:02:06.450 --> 00:02:08.749 align:start position:0%
+stuff that we are using the block is
+much<00:02:06.659><c> larger</c><00:02:07.049><c> than</c><00:02:07.229><c> that</c><00:02:07.409><c> but</c><00:02:07.979><c> because</c><00:02:08.399><c> we</c><00:02:08.700><c> are</c>
+
+00:02:08.749 --> 00:02:08.759 align:start position:0%
+much larger than that but because we are
+ 
+
+00:02:08.759 --> 00:02:10.520 align:start position:0%
+much larger than that but because we are
+fetching<00:02:08.970><c> an</c><00:02:09.300><c> entire</c><00:02:09.599><c> block</c><00:02:09.929><c> when</c><00:02:10.229><c> we</c><00:02:10.349><c> have</c><00:02:10.500><c> a</c>
+
+00:02:10.520 --> 00:02:10.530 align:start position:0%
+fetching an entire block when we have a
+ 
+
+00:02:10.530 --> 00:02:13.460 align:start position:0%
+fetching an entire block when we have a
+Miss<00:02:10.940><c> we</c><00:02:11.940><c> will</c><00:02:12.120><c> not</c><00:02:12.330><c> have</c><00:02:12.540><c> a</c><00:02:12.599><c> good</c><00:02:12.840><c> hit</c><00:02:13.020><c> rate</c><00:02:13.230><c> if</c>
+
+00:02:13.460 --> 00:02:13.470 align:start position:0%
+Miss we will not have a good hit rate if
+ 
+
+00:02:13.470 --> 00:02:13.850 align:start position:0%
+Miss we will not have a good hit rate if
+you<00:02:13.530><c> have</c>
+
+00:02:13.850 --> 00:02:13.860 align:start position:0%
+you have
+ 
+
+00:02:13.860 --> 00:02:16.250 align:start position:0%
+you have
+more<00:02:13.980><c> than</c><00:02:14.130><c> 512</c><00:02:14.790><c> of</c><00:02:15.120><c> these</c><00:02:15.360><c> variables</c><00:02:15.930><c> in</c>
+
+00:02:16.250 --> 00:02:16.260 align:start position:0%
+more than 512 of these variables in
+ 
+
+00:02:16.260 --> 00:02:18.920 align:start position:0%
+more than 512 of these variables in
+order<00:02:16.710><c> to</c><00:02:17.190><c> be</c><00:02:17.340><c> able</c><00:02:17.460><c> to</c><00:02:17.670><c> have</c><00:02:17.970><c> more</c><00:02:18.240><c> variables</c>
+
+00:02:18.920 --> 00:02:18.930 align:start position:0%
+order to be able to have more variables
+ 
+
+00:02:18.930 --> 00:02:20.960 align:start position:0%
+order to be able to have more variables
+than<00:02:18.990><c> this</c><00:02:19.290><c> we</c><00:02:19.920><c> really</c><00:02:20.250><c> need</c><00:02:20.430><c> them</c><00:02:20.640><c> to</c><00:02:20.670><c> be</c>
+
+00:02:20.960 --> 00:02:20.970 align:start position:0%
+than this we really need them to be
+ 
+
+00:02:20.970 --> 00:02:22.280 align:start position:0%
+than this we really need them to be
+close<00:02:21.180><c> to</c><00:02:21.210><c> each</c><00:02:21.420><c> other</c><00:02:21.600><c> so</c><00:02:21.900><c> that</c><00:02:21.930><c> we</c><00:02:22.080><c> can</c>
+
+00:02:22.280 --> 00:02:22.290 align:start position:0%
+close to each other so that we can
+ 
+
+00:02:22.290 --> 00:02:24.410 align:start position:0%
+close to each other so that we can
+benefit<00:02:22.650><c> from</c><00:02:22.800><c> spatial</c><00:02:23.010><c> locality</c><00:02:23.430><c> meaning</c>
+
+00:02:24.410 --> 00:02:24.420 align:start position:0%
+benefit from spatial locality meaning
+ 
+
+00:02:24.420 --> 00:02:26.840 align:start position:0%
+benefit from spatial locality meaning
+that<00:02:24.600><c> a</c><00:02:24.810><c> block</c><00:02:25.710><c> we</c><00:02:25.860><c> fetch</c><00:02:26.070><c> for</c><00:02:26.250><c> one</c><00:02:26.460><c> variable</c>
+
+00:02:26.840 --> 00:02:26.850 align:start position:0%
+that a block we fetch for one variable
+ 
+
+00:02:26.850 --> 00:02:28.880 align:start position:0%
+that a block we fetch for one variable
+needs<00:02:27.300><c> to</c><00:02:27.480><c> include</c><00:02:27.780><c> some</c><00:02:28.500><c> of</c><00:02:28.530><c> the</c><00:02:28.740><c> other</c>
+
+00:02:28.880 --> 00:02:28.890 align:start position:0%
+needs to include some of the other
+ 
+
+00:02:28.890 --> 00:02:31.460 align:start position:0%
+needs to include some of the other
+variables
+

@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.850 align:start position:0%
+ 
+let's<00:00:00.240><c> also</c><00:00:00.450><c> do</c><00:00:00.750><c> a</c><00:00:00.780><c> quiz</c><00:00:01.170><c> about</c><00:00:01.380><c> the</c><00:00:01.620><c> Miss</c><00:00:01.829><c> rate</c>
+
+00:00:01.850 --> 00:00:01.860 align:start position:0%
+let's also do a quiz about the Miss rate
+ 
+
+00:00:01.860 --> 00:00:04.730 align:start position:0%
+let's also do a quiz about the Miss rate
+keep<00:00:02.669><c> in</c><00:00:02.820><c> mind</c><00:00:03.060><c> that</c><00:00:03.689><c> the</c><00:00:03.840><c> hit</c><00:00:04.080><c> rate</c><00:00:04.350><c> is</c><00:00:04.589><c> equal</c>
+
+00:00:04.730 --> 00:00:04.740 align:start position:0%
+keep in mind that the hit rate is equal
+ 
+
+00:00:04.740 --> 00:00:07.010 align:start position:0%
+keep in mind that the hit rate is equal
+to<00:00:05.040><c> 1</c><00:00:05.250><c> minus</c><00:00:05.640><c> the</c><00:00:05.670><c> Miss</c><00:00:05.970><c> rate</c><00:00:06.210><c> the</c><00:00:06.779><c> Miss</c><00:00:06.990><c> rate</c>
+
+00:00:07.010 --> 00:00:07.020 align:start position:0%
+to 1 minus the Miss rate the Miss rate
+ 
+
+00:00:07.020 --> 00:00:10.400 align:start position:0%
+to 1 minus the Miss rate the Miss rate
+is<00:00:07.470><c> how</c><00:00:07.710><c> often</c><00:00:08.250><c> do</c><00:00:08.370><c> we</c><00:00:08.429><c> have</c><00:00:08.519><c> a</c><00:00:08.730><c> cache</c><00:00:09.030><c> miss</c><00:00:09.410><c> the</c>
+
+00:00:10.400 --> 00:00:10.410 align:start position:0%
+is how often do we have a cache miss the
+ 
+
+00:00:10.410 --> 00:00:12.290 align:start position:0%
+is how often do we have a cache miss the
+hit<00:00:10.650><c> rate</c><00:00:10.889><c> is</c><00:00:11.070><c> how</c><00:00:11.280><c> often</c><00:00:11.490><c> do</c><00:00:11.730><c> we</c><00:00:11.820><c> have</c><00:00:12.000><c> a</c><00:00:12.030><c> cache</c>
+
+00:00:12.290 --> 00:00:12.300 align:start position:0%
+hit rate is how often do we have a cache
+ 
+
+00:00:12.300 --> 00:00:16.039 align:start position:0%
+hit rate is how often do we have a cache
+hit<00:00:12.330><c> and</c><00:00:13.130><c> the</c><00:00:14.130><c> two</c><00:00:14.340><c> add</c><00:00:14.639><c> up</c><00:00:14.670><c> to</c><00:00:15.000><c> 1</c><00:00:15.360><c> because</c><00:00:15.900><c> we</c>
+
+00:00:16.039 --> 00:00:16.049 align:start position:0%
+hit and the two add up to 1 because we
+ 
+
+00:00:16.049 --> 00:00:18.500 align:start position:0%
+hit and the two add up to 1 because we
+either<00:00:16.230><c> have</c><00:00:16.529><c> one</c><00:00:16.560><c> or</c><00:00:16.920><c> the</c><00:00:17.190><c> other</c><00:00:17.369><c> so</c><00:00:18.300><c> which</c><00:00:18.480><c> of</c>
+
+00:00:18.500 --> 00:00:18.510 align:start position:0%
+either have one or the other so which of
+ 
+
+00:00:18.510 --> 00:00:20.090 align:start position:0%
+either have one or the other so which of
+the<00:00:18.750><c> following</c><00:00:18.930><c> are</c><00:00:19.320><c> true</c><00:00:19.350><c> for</c><00:00:20.039><c> a</c>
+
+00:00:20.090 --> 00:00:20.100 align:start position:0%
+the following are true for a
+ 
+
+00:00:20.100 --> 00:00:22.730 align:start position:0%
+the following are true for a
+well-designed<00:00:20.670><c> cache</c><00:00:21.000><c> is</c><00:00:21.689><c> it</c><00:00:21.900><c> true</c><00:00:22.080><c> that</c><00:00:22.320><c> in</c><00:00:22.650><c> a</c>
+
+00:00:22.730 --> 00:00:22.740 align:start position:0%
+well-designed cache is it true that in a
+ 
+
+00:00:22.740 --> 00:00:24.470 align:start position:0%
+well-designed cache is it true that in a
+well-designed<00:00:23.070><c> cache</c><00:00:23.519><c> the</c><00:00:23.850><c> hit</c><00:00:24.060><c> rate</c><00:00:24.300><c> should</c>
+
+00:00:24.470 --> 00:00:24.480 align:start position:0%
+well-designed cache the hit rate should
+ 
+
+00:00:24.480 --> 00:00:26.870 align:start position:0%
+well-designed cache the hit rate should
+be<00:00:24.630><c> larger</c><00:00:24.930><c> than</c><00:00:24.960><c> the</c><00:00:25.230><c> Miss</c><00:00:25.410><c> rate</c><00:00:25.680><c> the</c><00:00:26.640><c> hit</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+be larger than the Miss rate the hit
+ 
+
+00:00:26.880 --> 00:00:28.540 align:start position:0%
+be larger than the Miss rate the hit
+rate<00:00:27.119><c> should</c><00:00:27.390><c> be</c><00:00:27.449><c> less</c><00:00:27.779><c> than</c><00:00:28.019><c> the</c><00:00:28.199><c> Miss</c><00:00:28.380><c> rate</c>
+
+00:00:28.540 --> 00:00:28.550 align:start position:0%
+rate should be less than the Miss rate
+ 
+
+00:00:28.550 --> 00:00:30.830 align:start position:0%
+rate should be less than the Miss rate
+that<00:00:29.550><c> the</c><00:00:29.670><c> hit</c><00:00:29.880><c> rate</c><00:00:30.090><c> and</c><00:00:30.330><c> the</c><00:00:30.449><c> Miss</c><00:00:30.599><c> rate</c>
+
+00:00:30.830 --> 00:00:30.840 align:start position:0%
+that the hit rate and the Miss rate
+ 
+
+00:00:30.840 --> 00:00:33.020 align:start position:0%
+that the hit rate and the Miss rate
+should<00:00:30.990><c> be</c><00:00:31.050><c> balanced</c><00:00:31.679><c> as</c><00:00:31.890><c> close</c><00:00:32.460><c> to</c><00:00:32.610><c> equal</c><00:00:32.910><c> as</c>
+
+00:00:33.020 --> 00:00:33.030 align:start position:0%
+should be balanced as close to equal as
+ 
+
+00:00:33.030 --> 00:00:35.060 align:start position:0%
+should be balanced as close to equal as
+possible<00:00:33.570><c> that</c><00:00:34.200><c> the</c><00:00:34.350><c> hit</c><00:00:34.559><c> rate</c><00:00:34.829><c> should</c><00:00:35.010><c> be</c>
+
+00:00:35.060 --> 00:00:35.070 align:start position:0%
+possible that the hit rate should be
+ 
+
+00:00:35.070 --> 00:00:37.310 align:start position:0%
+possible that the hit rate should be
+almost<00:00:35.430><c> 1</c><00:00:35.760><c> that</c><00:00:36.450><c> the</c><00:00:36.600><c> Miss</c><00:00:36.780><c> rate</c><00:00:37.050><c> should</c><00:00:37.260><c> be</c>
+
+00:00:37.310 --> 00:00:37.320 align:start position:0%
+almost 1 that the Miss rate should be
+ 
+
+00:00:37.320 --> 00:00:40.790 align:start position:0%
+almost 1 that the Miss rate should be
+almost<00:00:37.590><c> 1</c><00:00:37.980><c> again</c><00:00:38.760><c> more</c><00:00:39.660><c> than</c><00:00:39.690><c> one</c><00:00:40.050><c> possibly</c><00:00:40.620><c> or</c>
+
+00:00:40.790 --> 00:00:40.800 align:start position:0%
+almost 1 again more than one possibly or
+ 
+
+00:00:40.800 --> 00:00:42.950 align:start position:0%
+almost 1 again more than one possibly or
+possibly<00:00:41.250><c> none</c><00:00:41.520><c> of</c><00:00:41.670><c> them</c><00:00:41.850><c> might</c><00:00:42.300><c> be</c><00:00:42.329><c> true</c><00:00:42.690><c> so</c>
+
+00:00:42.950 --> 00:00:42.960 align:start position:0%
+possibly none of them might be true so
+ 
+
+00:00:42.960 --> 00:00:44.690 align:start position:0%
+possibly none of them might be true so
+check<00:00:43.170><c> all</c><00:00:43.410><c> of</c><00:00:43.440><c> those</c><00:00:43.739><c> that</c><00:00:44.010><c> are</c><00:00:44.160><c> true</c><00:00:44.370><c> for</c><00:00:44.640><c> a</c>
+
+00:00:44.690 --> 00:00:44.700 align:start position:0%
+check all of those that are true for a
+ 
+
+00:00:44.700 --> 00:00:47.629 align:start position:0%
+check all of those that are true for a
+well-designed<00:00:45.300><c> cache</c>
+

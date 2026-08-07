@@ -1,0 +1,72 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.060 align:start position:0%
+ 
+the<00:00:00.450><c> solution</c><00:00:00.930><c> for</c><00:00:01.079><c> this</c><00:00:01.230><c> is</c><00:00:01.469><c> that</c><00:00:01.709><c> when</c><00:00:01.949><c> we</c>
+
+00:00:02.060 --> 00:00:02.070 align:start position:0%
+the solution for this is that when we
+ 
+
+00:00:02.070 --> 00:00:04.249 align:start position:0%
+the solution for this is that when we
+commit<00:00:02.429><c> the</c><00:00:02.730><c> Rob</c><00:00:03.090><c> to</c><00:00:03.300><c> instruction</c><00:00:03.929><c> we're</c>
+
+00:00:04.249 --> 00:00:04.259 align:start position:0%
+commit the Rob to instruction we're
+ 
+
+00:00:04.259 --> 00:00:06.050 align:start position:0%
+commit the Rob to instruction we're
+going<00:00:04.470><c> to</c><00:00:04.589><c> take</c><00:00:04.830><c> the</c><00:00:05.009><c> value</c><00:00:05.310><c> of</c><00:00:05.400><c> eight</c><00:00:05.609><c> and</c><00:00:05.850><c> put</c>
+
+00:00:06.050 --> 00:00:06.060 align:start position:0%
+going to take the value of eight and put
+ 
+
+00:00:06.060 --> 00:00:08.480 align:start position:0%
+going to take the value of eight and put
+it<00:00:06.210><c> in</c><00:00:06.390><c> our</c><00:00:06.509><c> one</c><00:00:06.779><c> so</c><00:00:07.620><c> the</c><00:00:07.740><c> correct</c><00:00:08.040><c> answer</c><00:00:08.250><c> here</c>
+
+00:00:08.480 --> 00:00:08.490 align:start position:0%
+it in our one so the correct answer here
+ 
+
+00:00:08.490 --> 00:00:11.890 align:start position:0%
+it in our one so the correct answer here
+is<00:00:08.760><c> our</c><00:00:09.150><c> one</c><00:00:09.420><c> and</c><00:00:09.630><c> the</c><00:00:10.530><c> value</c><00:00:10.920><c> is</c><00:00:11.099><c> eight</c><00:00:11.429><c> and</c>
+
+00:00:11.890 --> 00:00:11.900 align:start position:0%
+is our one and the value is eight and
+ 
+
+00:00:11.900 --> 00:00:14.209 align:start position:0%
+is our one and the value is eight and
+then<00:00:12.900><c> we</c><00:00:13.170><c> are</c><00:00:13.230><c> going</c><00:00:13.290><c> to</c><00:00:13.530><c> check</c><00:00:13.769><c> whether</c><00:00:13.980><c> the</c>
+
+00:00:14.209 --> 00:00:14.219 align:start position:0%
+then we are going to check whether the
+ 
+
+00:00:14.219 --> 00:00:17.240 align:start position:0%
+then we are going to check whether the
+r1<00:00:14.670><c> mapping</c><00:00:15.179><c> maps</c><00:00:15.450><c> to</c><00:00:15.690><c> rob</c><00:00:15.900><c> to</c><00:00:16.350><c> it</c><00:00:16.619><c> doesn't</c><00:00:16.890><c> it</c>
+
+00:00:17.240 --> 00:00:17.250 align:start position:0%
+r1 mapping maps to rob to it doesn't it
+ 
+
+00:00:17.250 --> 00:00:19.849 align:start position:0%
+r1 mapping maps to rob to it doesn't it
+still<00:00:17.550><c> points</c><00:00:17.940><c> to</c><00:00:17.970><c> Rob</c><00:00:18.240><c> six</c><00:00:18.600><c> so</c><00:00:19.320><c> we</c><00:00:19.439><c> just</c><00:00:19.619><c> free</c>
+
+00:00:19.849 --> 00:00:19.859 align:start position:0%
+still points to Rob six so we just free
+ 
+
+00:00:19.859 --> 00:00:23.029 align:start position:0%
+still points to Rob six so we just free
+this<00:00:20.039><c> reservation</c><00:00:20.490><c> station</c>
+

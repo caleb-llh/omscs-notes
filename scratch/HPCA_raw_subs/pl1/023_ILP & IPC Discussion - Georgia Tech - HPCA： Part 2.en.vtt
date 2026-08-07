@@ -1,0 +1,488 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:03.110 align:start position:0%
+ 
+so<00:00:00.480><c> now</c><00:00:00.640><c> that</c><00:00:00.800><c> we</c><00:00:00.960><c> have</c><00:00:01.120><c> seen</c><00:00:01.360><c> what</c><00:00:01.600><c> ilp</c><00:00:02.240><c> is</c><00:00:02.879><c> and</c>
+
+00:00:03.110 --> 00:00:03.120 align:start position:0%
+so now that we have seen what ilp is and
+ 
+
+00:00:03.120 --> 00:00:05.430 align:start position:0%
+so now that we have seen what ilp is and
+also<00:00:03.520><c> how</c><00:00:03.760><c> it</c><00:00:03.919><c> relates</c><00:00:04.240><c> to</c><00:00:04.400><c> ipc</c><00:00:04.880><c> we</c><00:00:05.040><c> can</c><00:00:05.200><c> have</c><00:00:05.359><c> a</c>
+
+00:00:05.430 --> 00:00:05.440 align:start position:0%
+also how it relates to ipc we can have a
+ 
+
+00:00:05.440 --> 00:00:07.590 align:start position:0%
+also how it relates to ipc we can have a
+little<00:00:05.600><c> discussion</c><00:00:06.160><c> about</c><00:00:06.799><c> the</c><00:00:06.960><c> lp</c><00:00:07.359><c> and</c><00:00:07.520><c> the</c>
+
+00:00:07.590 --> 00:00:07.600 align:start position:0%
+little discussion about the lp and the
+ 
+
+00:00:07.600 --> 00:00:08.950 align:start position:0%
+little discussion about the lp and the
+ipc
+
+00:00:08.950 --> 00:00:08.960 align:start position:0%
+ipc
+ 
+
+00:00:08.960 --> 00:00:11.589 align:start position:0%
+ipc
+we<00:00:09.120><c> have</c><00:00:09.360><c> defined</c><00:00:09.920><c> our</c><00:00:10.160><c> ilp</c><00:00:10.800><c> as</c><00:00:11.040><c> basically</c><00:00:11.440><c> the</c>
+
+00:00:11.589 --> 00:00:11.599 align:start position:0%
+we have defined our ilp as basically the
+ 
+
+00:00:11.599 --> 00:00:13.749 align:start position:0%
+we have defined our ilp as basically the
+ipc<00:00:12.080><c> on</c><00:00:12.240><c> an</c><00:00:12.320><c> ideal</c><00:00:12.719><c> out</c><00:00:12.880><c> of</c><00:00:13.040><c> order</c><00:00:13.360><c> processor</c>
+
+00:00:13.749 --> 00:00:13.759 align:start position:0%
+ipc on an ideal out of order processor
+ 
+
+00:00:13.759 --> 00:00:15.509 align:start position:0%
+ipc on an ideal out of order processor
+that<00:00:13.840><c> has</c><00:00:14.080><c> perfect</c><00:00:14.400><c> branch</c><00:00:14.719><c> friction</c><00:00:15.280><c> enough</c>
+
+00:00:15.509 --> 00:00:15.519 align:start position:0%
+that has perfect branch friction enough
+ 
+
+00:00:15.519 --> 00:00:19.029 align:start position:0%
+that has perfect branch friction enough
+resources<00:00:15.920><c> for</c><00:00:16.160><c> everything</c><00:00:16.640><c> etc</c><00:00:17.760><c> and</c><00:00:18.320><c> we</c><00:00:18.640><c> saw</c>
+
+00:00:19.029 --> 00:00:19.039 align:start position:0%
+resources for everything etc and we saw
+ 
+
+00:00:19.039 --> 00:00:21.269 align:start position:0%
+resources for everything etc and we saw
+that<00:00:19.359><c> ilp</c><00:00:19.840><c> is</c><00:00:20.000><c> larger</c><00:00:20.320><c> than</c><00:00:20.560><c> or</c><00:00:20.720><c> equal</c><00:00:20.960><c> to</c><00:00:21.119><c> the</c>
+
+00:00:21.269 --> 00:00:21.279 align:start position:0%
+that ilp is larger than or equal to the
+ 
+
+00:00:21.279 --> 00:00:23.109 align:start position:0%
+that ilp is larger than or equal to the
+ipc<00:00:21.680><c> that</c><00:00:21.840><c> can</c><00:00:22.000><c> be</c><00:00:22.080><c> achieved</c><00:00:22.400><c> on</c><00:00:22.560><c> any</c><00:00:22.800><c> real</c>
+
+00:00:23.109 --> 00:00:23.119 align:start position:0%
+ipc that can be achieved on any real
+ 
+
+00:00:23.119 --> 00:00:25.590 align:start position:0%
+ipc that can be achieved on any real
+processor<00:00:24.080><c> so</c><00:00:24.240><c> if</c><00:00:24.400><c> we</c><00:00:24.480><c> consider</c><00:00:25.039><c> a</c><00:00:25.199><c> narrow</c>
+
+00:00:25.590 --> 00:00:25.600 align:start position:0%
+processor so if we consider a narrow
+ 
+
+00:00:25.600 --> 00:00:27.589 align:start position:0%
+processor so if we consider a narrow
+issuing<00:00:26.080><c> order</c><00:00:26.400><c> processor</c><00:00:27.039><c> narrow</c><00:00:27.359><c> issue</c>
+
+00:00:27.589 --> 00:00:27.599 align:start position:0%
+issuing order processor narrow issue
+ 
+
+00:00:27.599 --> 00:00:29.429 align:start position:0%
+issuing order processor narrow issue
+meaning<00:00:27.840><c> that</c><00:00:28.080><c> it</c><00:00:28.160><c> can</c><00:00:28.400><c> only</c><00:00:28.720><c> issue</c><00:00:29.039><c> about</c>
+
+00:00:29.429 --> 00:00:29.439 align:start position:0%
+meaning that it can only issue about
+ 
+
+00:00:29.439 --> 00:00:31.669 align:start position:0%
+meaning that it can only issue about
+maybe<00:00:29.840><c> one</c><00:00:30.160><c> two</c><00:00:30.560><c> maybe</c><00:00:30.880><c> three</c><00:00:31.119><c> instructions</c>
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+maybe one two maybe three instructions
+ 
+
+00:00:31.679 --> 00:00:34.790 align:start position:0%
+maybe one two maybe three instructions
+per<00:00:31.920><c> cycle</c><00:00:32.719><c> and</c><00:00:32.880><c> it's</c><00:00:33.120><c> in</c><00:00:33.280><c> order</c>
+
+00:00:34.790 --> 00:00:34.800 align:start position:0%
+per cycle and it's in order
+ 
+
+00:00:34.800 --> 00:00:37.350 align:start position:0%
+per cycle and it's in order
+usually<00:00:35.360><c> the</c><00:00:35.520><c> limitation</c><00:00:36.320><c> for</c><00:00:36.480><c> the</c><00:00:36.719><c> ipc</c><00:00:37.200><c> will</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+usually the limitation for the ipc will
+ 
+
+00:00:37.360 --> 00:00:39.510 align:start position:0%
+usually the limitation for the ipc will
+be<00:00:37.520><c> this</c><00:00:38.079><c> basically</c><00:00:38.399><c> the</c><00:00:38.559><c> in</c><00:00:38.800><c> order</c><00:00:39.040><c> property</c>
+
+00:00:39.510 --> 00:00:39.520 align:start position:0%
+be this basically the in order property
+ 
+
+00:00:39.520 --> 00:00:41.510 align:start position:0%
+be this basically the in order property
+is<00:00:39.600><c> not</c><00:00:39.840><c> going</c><00:00:40.000><c> to</c><00:00:40.079><c> hurt</c><00:00:40.320><c> us</c><00:00:40.480><c> too</c><00:00:40.640><c> much</c>
+
+00:00:41.510 --> 00:00:41.520 align:start position:0%
+is not going to hurt us too much
+ 
+
+00:00:41.520 --> 00:00:43.030 align:start position:0%
+is not going to hurt us too much
+so<00:00:41.680><c> this</c><00:00:41.920><c> processor</c><00:00:42.239><c> is</c><00:00:42.320><c> going</c><00:00:42.399><c> to</c><00:00:42.480><c> be</c><00:00:42.640><c> limited</c>
+
+00:00:43.030 --> 00:00:43.040 align:start position:0%
+so this processor is going to be limited
+ 
+
+00:00:43.040 --> 00:00:45.670 align:start position:0%
+so this processor is going to be limited
+mostly<00:00:43.520><c> by</c><00:00:43.760><c> the</c><00:00:44.239><c> narrow</c><00:00:44.719><c> issue</c>
+
+00:00:45.670 --> 00:00:45.680 align:start position:0%
+mostly by the narrow issue
+ 
+
+00:00:45.680 --> 00:00:47.590 align:start position:0%
+mostly by the narrow issue
+however<00:00:46.079><c> if</c><00:00:46.239><c> we</c><00:00:46.320><c> have</c><00:00:46.480><c> a</c><00:00:46.559><c> wide</c><00:00:46.960><c> issue</c><00:00:47.200><c> in</c><00:00:47.280><c> order</c>
+
+00:00:47.590 --> 00:00:47.600 align:start position:0%
+however if we have a wide issue in order
+ 
+
+00:00:47.600 --> 00:00:49.350 align:start position:0%
+however if we have a wide issue in order
+processor<00:00:48.000><c> meaning</c><00:00:48.239><c> it</c><00:00:48.399><c> can</c><00:00:48.559><c> do</c><00:00:49.039><c> more</c>
+
+00:00:49.350 --> 00:00:49.360 align:start position:0%
+processor meaning it can do more
+ 
+
+00:00:49.360 --> 00:00:51.190 align:start position:0%
+processor meaning it can do more
+instructions<00:00:49.920><c> per</c><00:00:50.160><c> cycle</c>
+
+00:00:51.190 --> 00:00:51.200 align:start position:0%
+instructions per cycle
+ 
+
+00:00:51.200 --> 00:00:53.750 align:start position:0%
+instructions per cycle
+it's<00:00:51.360><c> going</c><00:00:51.520><c> to</c><00:00:51.600><c> be</c><00:00:51.760><c> limited</c><00:00:52.399><c> mostly</c><00:00:52.879><c> by</c>
+
+00:00:53.750 --> 00:00:53.760 align:start position:0%
+it's going to be limited mostly by
+ 
+
+00:00:53.760 --> 00:00:56.229 align:start position:0%
+it's going to be limited mostly by
+the<00:00:54.000><c> inorder</c><00:00:54.559><c> property</c><00:00:55.120><c> because</c><00:00:55.600><c> this</c><00:00:56.079><c> is</c>
+
+00:00:56.229 --> 00:00:56.239 align:start position:0%
+the inorder property because this is
+ 
+
+00:00:56.239 --> 00:00:57.590 align:start position:0%
+the inorder property because this is
+going<00:00:56.399><c> to</c><00:00:56.559><c> allow</c><00:00:56.800><c> it</c><00:00:56.960><c> to</c><00:00:57.039><c> do</c><00:00:57.199><c> a</c><00:00:57.280><c> lot</c><00:00:57.440><c> of</c>
+
+00:00:57.590 --> 00:00:57.600 align:start position:0%
+going to allow it to do a lot of
+ 
+
+00:00:57.600 --> 00:00:59.830 align:start position:0%
+going to allow it to do a lot of
+instructions<00:00:58.079><c> per</c><00:00:58.320><c> cycle</c><00:00:58.879><c> and</c><00:00:59.039><c> if</c><00:00:59.280><c> it</c><00:00:59.359><c> can</c><00:00:59.520><c> do</c>
+
+00:00:59.830 --> 00:00:59.840 align:start position:0%
+instructions per cycle and if it can do
+ 
+
+00:00:59.840 --> 00:01:02.470 align:start position:0%
+instructions per cycle and if it can do
+closely<00:01:00.800><c> to</c><00:01:01.039><c> what</c><00:01:01.280><c> the</c><00:01:01.440><c> ilp</c><00:01:01.840><c> already</c><00:01:02.239><c> is</c><00:01:02.320><c> for</c>
+
+00:01:02.470 --> 00:01:02.480 align:start position:0%
+closely to what the ilp already is for
+ 
+
+00:01:02.480 --> 00:01:04.549 align:start position:0%
+closely to what the ilp already is for
+the<00:01:02.640><c> application</c><00:01:03.680><c> then</c><00:01:04.000><c> basically</c><00:01:04.400><c> we're</c>
+
+00:01:04.549 --> 00:01:04.559 align:start position:0%
+the application then basically we're
+ 
+
+00:01:04.559 --> 00:01:06.630 align:start position:0%
+the application then basically we're
+already<00:01:04.879><c> kind</c><00:01:05.040><c> of</c><00:01:05.199><c> close</c><00:01:05.439><c> to</c><00:01:05.600><c> ideal</c><00:01:06.080><c> as</c><00:01:06.240><c> far</c><00:01:06.479><c> as</c>
+
+00:01:06.630 --> 00:01:06.640 align:start position:0%
+already kind of close to ideal as far as
+ 
+
+00:01:06.640 --> 00:01:08.310 align:start position:0%
+already kind of close to ideal as far as
+the<00:01:07.040><c> ipc</c>
+
+00:01:08.310 --> 00:01:08.320 align:start position:0%
+the ipc
+ 
+
+00:01:08.320 --> 00:01:10.710 align:start position:0%
+the ipc
+is<00:01:08.479><c> concerned</c><00:01:09.040><c> for</c><00:01:09.360><c> for</c><00:01:09.600><c> the</c><00:01:09.760><c> wide</c><00:01:10.080><c> issue</c>
+
+00:01:10.710 --> 00:01:10.720 align:start position:0%
+is concerned for for the wide issue
+ 
+
+00:01:10.720 --> 00:01:12.630 align:start position:0%
+is concerned for for the wide issue
+problem<00:01:11.439><c> but</c><00:01:11.600><c> because</c><00:01:12.000><c> of</c><00:01:12.080><c> the</c><00:01:12.240><c> inorder</c>
+
+00:01:12.630 --> 00:01:12.640 align:start position:0%
+problem but because of the inorder
+ 
+
+00:01:12.640 --> 00:01:14.390 align:start position:0%
+problem but because of the inorder
+property<00:01:13.200><c> we</c><00:01:13.360><c> just</c><00:01:13.520><c> cannot</c><00:01:13.920><c> find</c><00:01:14.159><c> those</c>
+
+00:01:14.390 --> 00:01:14.400 align:start position:0%
+property we just cannot find those
+ 
+
+00:01:14.400 --> 00:01:16.550 align:start position:0%
+property we just cannot find those
+instructions<00:01:15.360><c> to</c><00:01:15.520><c> keep</c><00:01:15.760><c> our</c><00:01:16.000><c> wide</c><00:01:16.240><c> issue</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+instructions to keep our wide issue
+ 
+
+00:01:16.560 --> 00:01:19.190 align:start position:0%
+instructions to keep our wide issue
+slots<00:01:16.960><c> busy</c><00:01:17.759><c> so</c><00:01:18.159><c> if</c><00:01:18.240><c> we</c><00:01:18.400><c> have</c><00:01:18.560><c> a</c><00:01:18.640><c> wide</c><00:01:18.960><c> issue</c>
+
+00:01:19.190 --> 00:01:19.200 align:start position:0%
+slots busy so if we have a wide issue
+ 
+
+00:01:19.200 --> 00:01:21.670 align:start position:0%
+slots busy so if we have a wide issue
+processor<00:01:19.759><c> we</c><00:01:19.920><c> also</c><00:01:20.240><c> need</c><00:01:20.799><c> for</c><00:01:20.960><c> it</c><00:01:21.119><c> to</c><00:01:21.200><c> be</c><00:01:21.439><c> out</c>
+
+00:01:21.670 --> 00:01:21.680 align:start position:0%
+processor we also need for it to be out
+ 
+
+00:01:21.680 --> 00:01:23.830 align:start position:0%
+processor we also need for it to be out
+of<00:01:21.840><c> order</c><00:01:22.400><c> so</c><00:01:22.640><c> that</c><00:01:22.799><c> it</c><00:01:22.880><c> can</c><00:01:23.119><c> benefit</c><00:01:23.600><c> from</c><00:01:23.759><c> the</c>
+
+00:01:23.830 --> 00:01:23.840 align:start position:0%
+of order so that it can benefit from the
+ 
+
+00:01:23.840 --> 00:01:26.230 align:start position:0%
+of order so that it can benefit from the
+wider<00:01:24.320><c> issue</c><00:01:24.560><c> by</c><00:01:24.880><c> finding</c><00:01:25.360><c> instructions</c>
+
+00:01:26.230 --> 00:01:26.240 align:start position:0%
+wider issue by finding instructions
+ 
+
+00:01:26.240 --> 00:01:27.590 align:start position:0%
+wider issue by finding instructions
+anywhere<00:01:26.720><c> where</c><00:01:26.880><c> they</c><00:01:27.119><c> are</c><00:01:27.280><c> and</c><00:01:27.439><c> not</c>
+
+00:01:27.590 --> 00:01:27.600 align:start position:0%
+anywhere where they are and not
+ 
+
+00:01:27.600 --> 00:01:28.950 align:start position:0%
+anywhere where they are and not
+basically<00:01:28.080><c> stopping</c><00:01:28.479><c> on</c><00:01:28.560><c> the</c><00:01:28.720><c> first</c>
+
+00:01:28.950 --> 00:01:28.960 align:start position:0%
+basically stopping on the first
+ 
+
+00:01:28.960 --> 00:01:30.390 align:start position:0%
+basically stopping on the first
+dependence
+
+00:01:30.390 --> 00:01:30.400 align:start position:0%
+dependence
+ 
+
+00:01:30.400 --> 00:01:33.109 align:start position:0%
+dependence
+so<00:01:30.640><c> such</c><00:01:30.960><c> a</c><00:01:31.119><c> processor</c><00:01:31.680><c> will</c><00:01:31.840><c> need</c><00:01:32.079><c> to</c><00:01:32.720><c> fetch</c>
+
+00:01:33.109 --> 00:01:33.119 align:start position:0%
+so such a processor will need to fetch
+ 
+
+00:01:33.119 --> 00:01:35.590 align:start position:0%
+so such a processor will need to fetch
+execute<00:01:33.520><c> etc</c><00:01:34.560><c> more</c><00:01:34.720><c> than</c><00:01:34.960><c> one</c><00:01:35.200><c> instruction</c>
+
+00:01:35.590 --> 00:01:35.600 align:start position:0%
+execute etc more than one instruction
+ 
+
+00:01:35.600 --> 00:01:38.149 align:start position:0%
+execute etc more than one instruction
+per<00:01:35.840><c> cycle</c><00:01:36.479><c> preferably</c><00:01:37.200><c> a</c><00:01:37.280><c> lot</c><00:01:37.520><c> more</c><00:01:37.759><c> than</c><00:01:37.920><c> one</c>
+
+00:01:38.149 --> 00:01:38.159 align:start position:0%
+per cycle preferably a lot more than one
+ 
+
+00:01:38.159 --> 00:01:39.910 align:start position:0%
+per cycle preferably a lot more than one
+so<00:01:38.320><c> it</c><00:01:38.400><c> cannot</c><00:01:38.640><c> be</c><00:01:38.799><c> just</c><00:01:38.960><c> like</c><00:01:39.119><c> two</c><00:01:39.439><c> it</c><00:01:39.759><c> should</c>
+
+00:01:39.910 --> 00:01:39.920 align:start position:0%
+so it cannot be just like two it should
+ 
+
+00:01:39.920 --> 00:01:42.310 align:start position:0%
+so it cannot be just like two it should
+be<00:01:40.560><c> four</c><00:01:40.960><c> maybe</c><00:01:41.280><c> or</c><00:01:41.439><c> more</c>
+
+00:01:42.310 --> 00:01:42.320 align:start position:0%
+be four maybe or more
+ 
+
+00:01:42.320 --> 00:01:44.710 align:start position:0%
+be four maybe or more
+that's<00:01:42.640><c> why</c><00:01:42.799><c> we</c><00:01:42.960><c> call</c><00:01:43.200><c> it</c><00:01:43.360><c> wide</c><00:01:43.680><c> issue</c>
+
+00:01:44.710 --> 00:01:44.720 align:start position:0%
+that's why we call it wide issue
+ 
+
+00:01:44.720 --> 00:01:46.230 align:start position:0%
+that's why we call it wide issue
+it<00:01:44.880><c> should</c><00:01:45.119><c> be</c><00:01:45.280><c> able</c><00:01:45.439><c> to</c><00:01:45.520><c> eliminate</c><00:01:46.000><c> false</c>
+
+00:01:46.230 --> 00:01:46.240 align:start position:0%
+it should be able to eliminate false
+ 
+
+00:01:46.240 --> 00:01:47.990 align:start position:0%
+it should be able to eliminate false
+dependencies<00:01:46.880><c> between</c><00:01:47.280><c> because</c><00:01:47.680><c> if</c><00:01:47.759><c> we</c><00:01:47.920><c> have</c>
+
+00:01:47.990 --> 00:01:48.000 align:start position:0%
+dependencies between because if we have
+ 
+
+00:01:48.000 --> 00:01:50.310 align:start position:0%
+dependencies between because if we have
+to<00:01:48.159><c> obey</c><00:01:48.479><c> all</c><00:01:48.720><c> sorts</c><00:01:48.960><c> of</c><00:01:49.040><c> dependencies</c><00:01:49.759><c> then</c>
+
+00:01:50.310 --> 00:01:50.320 align:start position:0%
+to obey all sorts of dependencies then
+ 
+
+00:01:50.320 --> 00:01:53.350 align:start position:0%
+to obey all sorts of dependencies then
+that's<00:01:50.640><c> going</c><00:01:50.799><c> to</c><00:01:50.880><c> limit</c><00:01:51.280><c> our</c><00:01:51.520><c> ipc2</c>
+
+00:01:53.350 --> 00:01:53.360 align:start position:0%
+that's going to limit our ipc2
+ 
+
+00:01:53.360 --> 00:01:57.190 align:start position:0%
+that's going to limit our ipc2
+and<00:01:53.680><c> bring</c><00:01:54.000><c> us</c><00:01:54.240><c> far</c><00:01:54.479><c> away</c><00:01:54.799><c> from</c><00:01:54.960><c> the</c><00:01:55.280><c> ideal</c><00:01:55.759><c> ilp</c>
+
+00:01:57.190 --> 00:01:57.200 align:start position:0%
+and bring us far away from the ideal ilp
+ 
+
+00:01:57.200 --> 00:01:58.870 align:start position:0%
+and bring us far away from the ideal ilp
+and<00:01:57.360><c> finally</c><00:01:57.840><c> should</c><00:01:58.000><c> be</c><00:01:58.079><c> able</c><00:01:58.240><c> to</c><00:01:58.399><c> reorder</c>
+
+00:01:58.870 --> 00:01:58.880 align:start position:0%
+and finally should be able to reorder
+ 
+
+00:01:58.880 --> 00:02:00.230 align:start position:0%
+and finally should be able to reorder
+instructions<00:01:59.280><c> so</c><00:01:59.439><c> that</c><00:01:59.520><c> we</c><00:01:59.680><c> can</c><00:01:59.840><c> execute</c>
+
+00:02:00.230 --> 00:02:00.240 align:start position:0%
+instructions so that we can execute
+ 
+
+00:02:00.240 --> 00:02:02.950 align:start position:0%
+instructions so that we can execute
+instructions<00:02:00.719><c> out</c><00:02:00.880><c> of</c><00:02:01.119><c> order</c><00:02:01.759><c> meaning</c><00:02:02.079><c> that</c>
+
+00:02:02.950 --> 00:02:02.960 align:start position:0%
+instructions out of order meaning that
+ 
+
+00:02:02.960 --> 00:02:05.030 align:start position:0%
+instructions out of order meaning that
+our<00:02:03.200><c> execution</c><00:02:03.759><c> order</c><00:02:04.159><c> should</c><00:02:04.320><c> be</c><00:02:04.640><c> kind</c><00:02:04.880><c> of</c>
+
+00:02:05.030 --> 00:02:05.040 align:start position:0%
+our execution order should be kind of
+ 
+
+00:02:05.040 --> 00:02:07.670 align:start position:0%
+our execution order should be kind of
+similar<00:02:05.439><c> to</c><00:02:05.520><c> what</c><00:02:05.680><c> we</c><00:02:05.840><c> did</c><00:02:06.000><c> for</c><00:02:06.159><c> the</c><00:02:06.320><c> ilp</c><00:02:07.200><c> and</c>
+
+00:02:07.670 --> 00:02:07.680 align:start position:0%
+similar to what we did for the ilp and
+ 
+
+00:02:07.680 --> 00:02:08.630 align:start position:0%
+similar to what we did for the ilp and
+not
+
+00:02:08.630 --> 00:02:08.640 align:start position:0%
+not
+ 
+
+00:02:08.640 --> 00:02:10.469 align:start position:0%
+not
+for<00:02:08.959><c> what</c><00:02:09.119><c> we</c><00:02:09.280><c> did</c><00:02:09.520><c> for</c><00:02:09.759><c> the</c><00:02:10.000><c> in-order</c>
+
+00:02:10.469 --> 00:02:10.479 align:start position:0%
+for what we did for the in-order
+ 
+
+00:02:10.479 --> 00:02:13.440 align:start position:0%
+for what we did for the in-order
+processors
+

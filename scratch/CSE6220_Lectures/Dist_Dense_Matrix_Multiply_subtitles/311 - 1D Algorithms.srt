@@ -1,0 +1,276 @@
+1
+00:00:00,220 --> 00:00:02,120
+ So a multi threaded Dag algorithm for
+
+2
+00:00:02,120 --> 00:00:05,710
+ matrix multiply is easy enough to write down as we did before.
+
+3
+00:00:05,710 --> 00:00:08,890
+ What should you do for a distributed memory machine?
+
+4
+00:00:08,890 --> 00:00:13,140
+ Let's start with the case of a linear network having P nodes.
+
+5
+00:00:13,140 --> 00:00:17,640
+ For simplicity, let's also assume that the matrixes are squared n by n objects
+
+6
+00:00:17,640 --> 00:00:20,200
+ and that P divides n.
+
+7
+00:00:20,200 --> 00:00:24,130
+ The first question is, how should you distribute the matrix operands?
+
+8
+00:00:24,130 --> 00:00:26,180
+ There are lots of potential choices.
+
+9
+00:00:26,180 --> 00:00:29,020
+ I want you to start with the following convention,
+
+10
+00:00:29,020 --> 00:00:34,000
+ distribute the operands by block row in an identical fashion.
+
+11
+00:00:34,000 --> 00:00:39,730
+ That means you give each node n over P consecutive rows of each matrix operand.
+
+12
+00:00:39,730 --> 00:00:41,650
+ Let me draw a picture.
+
+13
+00:00:41,650 --> 00:00:46,120
+ For each node, I've assigned n over P consecutive rows.
+
+14
+00:00:46,120 --> 00:00:49,500
+ Notice I've used the same distribution for each matrix.
+
+15
+00:00:49,500 --> 00:00:51,790
+ While it's not strictly necessary to do so,
+
+16
+00:00:51,790 --> 00:00:55,690
+ it simplifies the design of practical interfaces to the matrix objects,
+
+17
+00:00:55,690 --> 00:00:59,360
+ because essentially you can always assume they have the same distribution.
+
+18
+00:00:59,360 --> 00:01:01,540
+ Now consider some process,
+
+19
+00:01:01,540 --> 00:01:05,650
+ what is the most work it can do given this data distribution?
+
+20
+00:01:05,650 --> 00:01:09,430
+ In the best case it could update it's entire block row of C
+
+21
+00:01:09,430 --> 00:01:13,590
+ using the entire block row of B and one sub block of A.
+
+22
+00:01:13,590 --> 00:01:14,160
+ It could not for
+
+23
+00:01:14,160 --> 00:01:19,180
+ instance do anything with a sub block of A that's say over here or over here.
+
+24
+00:01:19,180 --> 00:01:20,180
+ Why not?
+
+25
+00:01:20,180 --> 00:01:23,310
+ Well recall the definition of matrix multiply.
+
+26
+00:01:23,310 --> 00:01:25,240
+ To fully update this block row of C,
+
+27
+00:01:25,240 --> 00:01:31,170
+ you need to multiply this little block of A by this entire block row of B
+
+28
+00:01:31,170 --> 00:01:34,925
+ and then this block A by this entire block row of B, and so on.
+
+29
+00:01:34,925 --> 00:01:36,115
+ So on.
+
+30
+00:01:36,115 --> 00:01:38,225
+ But, given this distribution,
+
+31
+00:01:38,225 --> 00:01:41,835
+ this process doesn't have access to this block row labeled b0.
+
+32
+00:01:41,835 --> 00:01:45,495
+ So to help the algorithm make progress,
+
+33
+00:01:45,495 --> 00:01:48,125
+ you're going to need to shuffle blocks around.
+
+34
+00:01:48,125 --> 00:01:50,535
+ Now again, there are many choices.
+
+35
+00:01:50,535 --> 00:01:53,315
+ One convention is in order compute strategy in which you
+
+36
+00:01:53,315 --> 00:01:55,795
+ keep the block of C in place.
+
+37
+00:01:55,795 --> 00:01:58,180
+ You also keep A in place.
+
+38
+00:01:58,180 --> 00:02:01,290
+ If you do that, then you have to move B around.
+
+39
+00:02:01,290 --> 00:02:02,440
+ Since we're on a linear network,
+
+40
+00:02:02,440 --> 00:02:06,030
+ one strategy is to shift the block rows of B.
+
+41
+00:02:06,030 --> 00:02:06,740
+ For example,
+
+42
+00:02:06,740 --> 00:02:11,550
+ if I were to shift B downwards, then I would get the following result.
+
+43
+00:02:11,550 --> 00:02:17,150
+ Now that this node has b0, it can do a partial update with the block a0.
+
+44
+00:02:17,150 --> 00:02:19,570
+ If you keep circularly shifting, eventually,
+
+45
+00:02:19,570 --> 00:02:22,230
+ every node will see all of B.
+
+46
+00:02:22,230 --> 00:02:25,440
+ That's a total of P shifts, which by the way,
+
+47
+00:02:25,440 --> 00:02:28,810
+ leaves B in its original distribution once you're done.
+
+48
+00:02:28,810 --> 00:02:30,090
+ Very convenient.
+
+49
+00:02:30,090 --> 00:02:33,440
+ Let's write down some pseudo code to express the algorithm.
+
+50
+00:02:33,440 --> 00:02:34,860
+ We'll let A hat, B hat, and
+
+51
+00:02:34,860 --> 00:02:39,040
+ C hat represent the local parts of A, B, and C.
+
+52
+00:02:39,040 --> 00:02:42,740
+ Notice that they're of size n over P by n.
+
+53
+00:02:42,740 --> 00:02:46,150
+ Now to implement the shift we're going to need to send the block that we
+
+54
+00:02:46,150 --> 00:02:49,750
+ have and we're going to need some space to receive a new block row of B.
+
+55
+00:02:49,750 --> 00:02:54,320
+ So here I've declared another little temporary storage matrix B twiddle.
+
+56
+00:02:54,320 --> 00:02:57,910
+ These two variables compute the neighbor below me, r next, and
+
+57
+00:02:57,910 --> 00:03:00,810
+ the neighbor above me, r previous.
+
+58
+00:03:00,810 --> 00:03:03,830
+ The loop iterates over circular shifts.
+
+59
+00:03:03,830 --> 00:03:07,080
+ We can start by doing a local matrix multiply on the data we have.
+
+60
+00:03:07,080 --> 00:03:11,860
+ To keep the pseudo-code simple I've used placeholders, where you would
+
+61
+00:03:11,860 --> 00:03:16,140
+ compute the appropriate indices of the local variables as a function of L.
+
+62
+00:03:16,140 --> 00:03:18,660
+ Following the partial update is the communication.
+
+63
+00:03:18,660 --> 00:03:22,480
+ Step 1 is to send the local buffer to the next processor.
+
+64
+00:03:22,480 --> 00:03:25,560
+ Step 2 is to receive from the previous processor.
+
+65
+00:03:25,560 --> 00:03:28,860
+ Then we wait for these two communication operations to complete.
+
+66
+00:03:28,860 --> 00:03:32,130
+ So, that ends one circular shift operation.
+
+67
+00:03:32,130 --> 00:03:35,840
+ And, finally, before moving on to the next round, we just swap the temporary
+
+68
+00:03:35,840 --> 00:03:39,920
+ buffer used to receive with the current local buffer used to compute.
+
+69
+00:03:39,920 --> 00:03:39,920
+ Easy breezy.
+

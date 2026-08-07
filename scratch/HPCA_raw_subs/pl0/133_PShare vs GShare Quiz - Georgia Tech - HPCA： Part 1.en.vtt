@@ -1,0 +1,216 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:03.070 align:start position:0%
+ 
+now<00:00:00.320><c> that</c><00:00:00.440><c> we</c><00:00:00.560><c> have</c><00:00:00.719><c> seen</c><00:00:01.480><c> pshare</c><00:00:01.959><c> and</c><00:00:02.120><c> gshare</c>
+
+00:00:03.070 --> 00:00:03.080 align:start position:0%
+now that we have seen pshare and gshare
+ 
+
+00:00:03.080 --> 00:00:05.070 align:start position:0%
+now that we have seen pshare and gshare
+let's<00:00:03.280><c> do</c><00:00:03.439><c> a</c><00:00:03.600><c> quiz</c><00:00:03.959><c> about</c><00:00:04.279><c> them</c><00:00:04.720><c> let's</c><00:00:04.880><c> say</c>
+
+00:00:05.070 --> 00:00:05.080 align:start position:0%
+let's do a quiz about them let's say
+ 
+
+00:00:05.080 --> 00:00:06.950 align:start position:0%
+let's do a quiz about them let's say
+that<00:00:05.200><c> we</c><00:00:05.359><c> have</c><00:00:05.560><c> this</c><00:00:05.759><c> fragment</c><00:00:06.200><c> of</c><00:00:06.359><c> C</c><00:00:06.680><c> code</c>
+
+00:00:06.950 --> 00:00:06.960 align:start position:0%
+that we have this fragment of C code
+ 
+
+00:00:06.960 --> 00:00:10.350 align:start position:0%
+that we have this fragment of C code
+where<00:00:07.200><c> I</c><00:00:07.480><c> goes</c><00:00:07.759><c> from</c><00:00:08.080><c> 1,000</c><00:00:08.760><c> down</c><00:00:08.960><c> to</c><00:00:09.240><c> zero</c><00:00:10.120><c> and</c>
+
+00:00:10.350 --> 00:00:10.360 align:start position:0%
+where I goes from 1,000 down to zero and
+ 
+
+00:00:10.360 --> 00:00:13.950 align:start position:0%
+where I goes from 1,000 down to zero and
+for<00:00:11.000><c> odd</c><00:00:11.440><c> numbered</c><00:00:12.080><c> eyes</c><00:00:13.080><c> we</c><00:00:13.200><c> are</c><00:00:13.400><c> going</c><00:00:13.679><c> to</c>
+
+00:00:13.950 --> 00:00:13.960 align:start position:0%
+for odd numbered eyes we are going to
+ 
+
+00:00:13.960 --> 00:00:16.830 align:start position:0%
+for odd numbered eyes we are going to
+add<00:00:14.280><c> the</c><00:00:14.519><c> I</c><00:00:14.799><c> to</c><00:00:15.040><c> n</c><00:00:15.599><c> otherwise</c><00:00:16.320><c> we</c><00:00:16.480><c> just</c><00:00:16.640><c> don't</c>
+
+00:00:16.830 --> 00:00:16.840 align:start position:0%
+add the I to n otherwise we just don't
+ 
+
+00:00:16.840 --> 00:00:19.510 align:start position:0%
+add the I to n otherwise we just don't
+do<00:00:17.000><c> it</c><00:00:17.560><c> this</c><00:00:17.720><c> code</c><00:00:18.000><c> might</c><00:00:18.240><c> translate</c><00:00:19.000><c> into</c>
+
+00:00:19.510 --> 00:00:19.520 align:start position:0%
+do it this code might translate into
+ 
+
+00:00:19.520 --> 00:00:22.150 align:start position:0%
+do it this code might translate into
+assembler<00:00:20.160><c> program</c><00:00:20.560><c> like</c><00:00:20.800><c> this</c><00:00:21.480><c> this</c><00:00:21.680><c> Branch</c>
+
+00:00:22.150 --> 00:00:22.160 align:start position:0%
+assembler program like this this Branch
+ 
+
+00:00:22.160 --> 00:00:24.950 align:start position:0%
+assembler program like this this Branch
+here<00:00:22.560><c> is</c><00:00:22.720><c> the</c><00:00:22.920><c> test</c><00:00:23.199><c> for</c><00:00:23.439><c> exiting</c><00:00:23.880><c> this</c><00:00:24.119><c> Loop</c>
+
+00:00:24.950 --> 00:00:24.960 align:start position:0%
+here is the test for exiting this Loop
+ 
+
+00:00:24.960 --> 00:00:27.870 align:start position:0%
+here is the test for exiting this Loop
+when<00:00:25.160><c> R1</c><00:00:25.640><c> is</c><00:00:25.840><c> zero</c><00:00:26.720><c> this</c><00:00:26.880><c> is</c><00:00:27.119><c> testing</c><00:00:27.720><c> the</c>
+
+00:00:27.870 --> 00:00:27.880 align:start position:0%
+when R1 is zero this is testing the
+ 
+
+00:00:27.880 --> 00:00:30.550 align:start position:0%
+when R1 is zero this is testing the
+least<00:00:28.160><c> significant</c><00:00:28.760><c> bit</c><00:00:29.039><c> of</c><00:00:29.199><c> R1</c>
+
+00:00:30.550 --> 00:00:30.560 align:start position:0%
+least significant bit of R1
+ 
+
+00:00:30.560 --> 00:00:33.150 align:start position:0%
+least significant bit of R1
+and<00:00:31.160><c> if</c><00:00:31.400><c> that</c><00:00:31.679><c> bit</c><00:00:31.960><c> is</c><00:00:32.200><c> zero</c><00:00:32.640><c> that</c><00:00:32.800><c> means</c><00:00:33.040><c> we</c>
+
+00:00:33.150 --> 00:00:33.160 align:start position:0%
+and if that bit is zero that means we
+ 
+
+00:00:33.160 --> 00:00:35.350 align:start position:0%
+and if that bit is zero that means we
+have<00:00:33.320><c> an</c><00:00:33.520><c> even</c><00:00:33.879><c> number</c><00:00:34.440><c> so</c><00:00:34.640><c> we</c><00:00:34.800><c> jump</c><00:00:35.040><c> to</c><00:00:35.200><c> the</c>
+
+00:00:35.350 --> 00:00:35.360 align:start position:0%
+have an even number so we jump to the
+ 
+
+00:00:35.360 --> 00:00:38.430 align:start position:0%
+have an even number so we jump to the
+even<00:00:35.760><c> label</c><00:00:36.760><c> if</c><00:00:36.920><c> the</c><00:00:37.040><c> number</c><00:00:37.320><c> is</c><00:00:37.520><c> odd</c><00:00:38.079><c> then</c><00:00:38.239><c> we</c>
+
+00:00:38.430 --> 00:00:38.440 align:start position:0%
+even label if the number is odd then we
+ 
+
+00:00:38.440 --> 00:00:41.029 align:start position:0%
+even label if the number is odd then we
+add<00:00:38.680><c> it</c><00:00:38.920><c> to</c><00:00:39.079><c> R3</c><00:00:39.719><c> which</c><00:00:39.840><c> in</c><00:00:40.039><c> this</c><00:00:40.239><c> case</c><00:00:40.800><c> is</c>
+
+00:00:41.029 --> 00:00:41.039 align:start position:0%
+add it to R3 which in this case is
+ 
+
+00:00:41.039 --> 00:00:44.150 align:start position:0%
+add it to R3 which in this case is
+representing<00:00:41.719><c> n</c><00:00:42.719><c> either</c><00:00:43.000><c> way</c><00:00:43.239><c> we</c><00:00:43.480><c> decrement</c>
+
+00:00:44.150 --> 00:00:44.160 align:start position:0%
+representing n either way we decrement
+ 
+
+00:00:44.160 --> 00:00:47.990 align:start position:0%
+representing n either way we decrement
+the<00:00:44.480><c> R1</c><00:00:45.480><c> this</c><00:00:45.600><c> is</c><00:00:45.760><c> the</c><00:00:46.000><c> IUS</c><00:00:46.600><c> minus</c><00:00:47.600><c> and</c><00:00:47.800><c> we</c>
+
+00:00:47.990 --> 00:00:48.000 align:start position:0%
+the R1 this is the IUS minus and we
+ 
+
+00:00:48.000 --> 00:00:50.510 align:start position:0%
+the R1 this is the IUS minus and we
+unconditionally<00:00:48.840><c> Branch</c><00:00:49.239><c> back</c><00:00:49.399><c> to</c><00:00:49.559><c> the</c><00:00:49.680><c> loop</c>
+
+00:00:50.510 --> 00:00:50.520 align:start position:0%
+unconditionally Branch back to the loop
+ 
+
+00:00:50.520 --> 00:00:52.510 align:start position:0%
+unconditionally Branch back to the loop
+and<00:00:50.719><c> the</c><00:00:50.920><c> exit</c><00:00:51.239><c> label</c><00:00:51.559><c> for</c><00:00:51.760><c> exiting</c><00:00:52.160><c> the</c><00:00:52.280><c> loop</c>
+
+00:00:52.510 --> 00:00:52.520 align:start position:0%
+and the exit label for exiting the loop
+ 
+
+00:00:52.520 --> 00:00:55.150 align:start position:0%
+and the exit label for exiting the loop
+is<00:00:52.719><c> here</c><00:00:53.600><c> if</c><00:00:53.719><c> we</c><00:00:53.960><c> want</c><00:00:54.120><c> to</c><00:00:54.239><c> get</c><00:00:54.480><c> good</c><00:00:54.760><c> accuracy</c>
+
+00:00:55.150 --> 00:00:55.160 align:start position:0%
+is here if we want to get good accuracy
+ 
+
+00:00:55.160 --> 00:00:57.310 align:start position:0%
+is here if we want to get good accuracy
+on<00:00:55.399><c> all</c><00:00:55.559><c> of</c><00:00:55.719><c> the</c><00:00:55.879><c> branches</c><00:00:56.320><c> in</c><00:00:56.520><c> this</c><00:00:56.719><c> code</c><00:00:57.160><c> then</c>
+
+00:00:57.310 --> 00:00:57.320 align:start position:0%
+on all of the branches in this code then
+ 
+
+00:00:57.320 --> 00:00:59.069 align:start position:0%
+on all of the branches in this code then
+the<00:00:57.480><c> history</c><00:00:57.840><c> should</c><00:00:58.039><c> be</c><00:00:58.280><c> how</c><00:00:58.480><c> much</c><00:00:58.800><c> for</c>
+
+00:00:59.069 --> 00:00:59.079 align:start position:0%
+the history should be how much for
+ 
+
+00:00:59.079 --> 00:01:01.310 align:start position:0%
+the history should be how much for
+pshare<00:00:59.600><c> right</c><00:00:59.760><c> the</c><00:01:00.039><c> number</c><00:01:00.359><c> here</c><00:01:00.920><c> and</c><00:01:01.079><c> for</c>
+
+00:01:01.310 --> 00:01:01.320 align:start position:0%
+pshare right the number here and for
+ 
+
+00:01:01.320 --> 00:01:03.389 align:start position:0%
+pshare right the number here and for
+gshare<00:01:01.840><c> write</c><00:01:02.039><c> the</c><00:01:02.239><c> number</c><00:01:02.600><c> here</c><00:01:02.920><c> so</c><00:01:03.160><c> we're</c>
+
+00:01:03.389 --> 00:01:03.399 align:start position:0%
+gshare write the number here so we're
+ 
+
+00:01:03.399 --> 00:01:04.910 align:start position:0%
+gshare write the number here so we're
+just<00:01:03.600><c> talking</c><00:01:03.840><c> about</c><00:01:04.119><c> how</c><00:01:04.239><c> many</c><00:01:04.479><c> bits</c><00:01:04.720><c> of</c>
+
+00:01:04.910 --> 00:01:04.920 align:start position:0%
+just talking about how many bits of
+ 
+
+00:01:04.920 --> 00:01:06.990 align:start position:0%
+just talking about how many bits of
+History<00:01:05.280><c> we</c><00:01:05.400><c> need</c><00:01:05.760><c> to</c><00:01:05.960><c> get</c><00:01:06.159><c> good</c><00:01:06.439><c> prediction</c>
+
+00:01:06.990 --> 00:01:07.000 align:start position:0%
+History we need to get good prediction
+ 
+
+00:01:07.000 --> 00:01:11.200 align:start position:0%
+History we need to get good prediction
+accuracy<00:01:07.439><c> for</c><00:01:07.680><c> all</c><00:01:07.799><c> of</c><00:01:08.040><c> these</c><00:01:08.200><c> branches</c>
+

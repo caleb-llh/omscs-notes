@@ -1,0 +1,296 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.070 align:start position:0%
+ 
+let's<00:00:00.480><c> look</c><00:00:00.719><c> at</c><00:00:00.800><c> the</c><00:00:00.960><c> solution</c><00:00:01.520><c> to</c><00:00:01.680><c> a</c><00:00:01.760><c> rate</c>
+
+00:00:02.070 --> 00:00:02.080 align:start position:0%
+let's look at the solution to a rate
+ 
+
+00:00:02.080 --> 00:00:03.990 align:start position:0%
+let's look at the solution to a rate
+zero<00:00:02.399><c> quiz</c><00:00:02.639><c> where</c><00:00:02.879><c> we</c><00:00:02.960><c> have</c><00:00:03.120><c> an</c><00:00:03.280><c> array</c><00:00:03.520><c> of</c><00:00:03.679><c> four</c>
+
+00:00:03.990 --> 00:00:04.000 align:start position:0%
+zero quiz where we have an array of four
+ 
+
+00:00:04.000 --> 00:00:05.190 align:start position:0%
+zero quiz where we have an array of four
+disks
+
+00:00:05.190 --> 00:00:05.200 align:start position:0%
+disks
+ 
+
+00:00:05.200 --> 00:00:07.829 align:start position:0%
+disks
+and<00:00:05.359><c> for</c><00:00:05.600><c> one</c><00:00:05.839><c> disk</c><00:00:06.080><c> we</c><00:00:06.240><c> know</c><00:00:06.480><c> the</c><00:00:06.960><c> capacity</c>
+
+00:00:07.829 --> 00:00:07.839 align:start position:0%
+and for one disk we know the capacity
+ 
+
+00:00:07.839 --> 00:00:10.549 align:start position:0%
+and for one disk we know the capacity
+throughput<00:00:08.559><c> and</c><00:00:08.800><c> mttf</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+throughput and mttf
+ 
+
+00:00:10.559 --> 00:00:13.509 align:start position:0%
+throughput and mttf
+in<00:00:10.719><c> raid</c><00:00:11.120><c> 0</c><00:00:11.599><c> we're</c><00:00:11.840><c> striping</c><00:00:12.480><c> the</c><00:00:12.639><c> data</c><00:00:13.120><c> across</c>
+
+00:00:13.509 --> 00:00:13.519 align:start position:0%
+in raid 0 we're striping the data across
+ 
+
+00:00:13.519 --> 00:00:15.829 align:start position:0%
+in raid 0 we're striping the data across
+all<00:00:13.679><c> the</c><00:00:13.840><c> disks</c><00:00:14.240><c> with</c><00:00:14.400><c> no</c><00:00:14.559><c> redundancy</c><00:00:15.519><c> so</c><00:00:15.679><c> we</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+all the disks with no redundancy so we
+ 
+
+00:00:15.839 --> 00:00:18.710 align:start position:0%
+all the disks with no redundancy so we
+can<00:00:15.920><c> use</c><00:00:16.160><c> the</c><00:00:16.240><c> capacity</c><00:00:16.800><c> of</c><00:00:17.039><c> all</c><00:00:17.279><c> four</c><00:00:17.520><c> disks</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+can use the capacity of all four disks
+ 
+
+00:00:18.720 --> 00:00:19.990 align:start position:0%
+can use the capacity of all four disks
+and<00:00:18.880><c> thus</c><00:00:19.199><c> get</c>
+
+00:00:19.990 --> 00:00:20.000 align:start position:0%
+and thus get
+ 
+
+00:00:20.000 --> 00:00:22.470 align:start position:0%
+and thus get
+800<00:00:20.560><c> gigabytes</c><00:00:21.119><c> in</c><00:00:21.199><c> capacity</c>
+
+00:00:22.470 --> 00:00:22.480 align:start position:0%
+800 gigabytes in capacity
+ 
+
+00:00:22.480 --> 00:00:24.390 align:start position:0%
+800 gigabytes in capacity
+if<00:00:22.720><c> we</c><00:00:22.880><c> spread</c><00:00:23.199><c> the</c><00:00:23.359><c> read</c><00:00:23.600><c> and</c><00:00:23.760><c> write</c><00:00:24.000><c> load</c>
+
+00:00:24.390 --> 00:00:24.400 align:start position:0%
+if we spread the read and write load
+ 
+
+00:00:24.400 --> 00:00:27.429 align:start position:0%
+if we spread the read and write load
+evenly<00:00:24.880><c> across</c><00:00:25.199><c> the</c><00:00:25.359><c> disks</c><00:00:26.160><c> then</c><00:00:26.800><c> one</c><00:00:27.119><c> disk</c>
+
+00:00:27.429 --> 00:00:27.439 align:start position:0%
+evenly across the disks then one disk
+ 
+
+00:00:27.439 --> 00:00:29.349 align:start position:0%
+evenly across the disks then one disk
+being<00:00:27.599><c> able</c><00:00:27.840><c> to</c><00:00:28.000><c> support</c><00:00:28.400><c> 10</c><00:00:28.560><c> megabytes</c><00:00:29.119><c> per</c>
+
+00:00:29.349 --> 00:00:29.359 align:start position:0%
+being able to support 10 megabytes per
+ 
+
+00:00:29.359 --> 00:00:31.349 align:start position:0%
+being able to support 10 megabytes per
+second<00:00:29.840><c> and</c><00:00:30.000><c> four</c><00:00:30.320><c> disks</c><00:00:30.720><c> being</c><00:00:30.960><c> used</c><00:00:31.279><c> in</c>
+
+00:00:31.349 --> 00:00:31.359 align:start position:0%
+second and four disks being used in
+ 
+
+00:00:31.359 --> 00:00:32.950 align:start position:0%
+second and four disks being used in
+parallel<00:00:31.920><c> like</c><00:00:32.079><c> this</c>
+
+00:00:32.950 --> 00:00:32.960 align:start position:0%
+parallel like this
+ 
+
+00:00:32.960 --> 00:00:35.670 align:start position:0%
+parallel like this
+gives<00:00:33.280><c> us</c><00:00:33.440><c> a</c><00:00:33.600><c> throughput</c><00:00:34.480><c> of</c><00:00:34.719><c> 40</c><00:00:35.120><c> megabytes</c>
+
+00:00:35.670 --> 00:00:35.680 align:start position:0%
+gives us a throughput of 40 megabytes
+ 
+
+00:00:35.680 --> 00:00:38.150 align:start position:0%
+gives us a throughput of 40 megabytes
+per<00:00:35.920><c> second</c><00:00:36.719><c> and</c><00:00:37.040><c> finally</c>
+
+00:00:38.150 --> 00:00:38.160 align:start position:0%
+per second and finally
+ 
+
+00:00:38.160 --> 00:00:40.549 align:start position:0%
+per second and finally
+if<00:00:38.320><c> the</c><00:00:38.480><c> mttf</c><00:00:39.120><c> for</c><00:00:39.360><c> one</c><00:00:39.600><c> disk</c><00:00:39.920><c> is</c><00:00:40.079><c> a</c><00:00:40.160><c> hundred</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+if the mttf for one disk is a hundred
+ 
+
+00:00:40.559 --> 00:00:41.910 align:start position:0%
+if the mttf for one disk is a hundred
+thousand<00:00:40.960><c> hours</c>
+
+00:00:41.910 --> 00:00:41.920 align:start position:0%
+thousand hours
+ 
+
+00:00:41.920 --> 00:00:45.510 align:start position:0%
+thousand hours
+the<00:00:42.160><c> expected</c><00:00:43.040><c> mttf</c><00:00:43.680><c> for</c><00:00:43.920><c> the</c><00:00:44.160><c> whole</c><00:00:44.559><c> array</c><00:00:45.360><c> is</c>
+
+00:00:45.510 --> 00:00:45.520 align:start position:0%
+the expected mttf for the whole array is
+ 
+
+00:00:45.520 --> 00:00:47.910 align:start position:0%
+the expected mttf for the whole array is
+going<00:00:45.840><c> to</c><00:00:46.000><c> be</c><00:00:46.239><c> a</c><00:00:46.480><c> quarter</c><00:00:46.960><c> of</c><00:00:47.120><c> this</c><00:00:47.600><c> if</c><00:00:47.760><c> they</c>
+
+00:00:47.910 --> 00:00:47.920 align:start position:0%
+going to be a quarter of this if they
+ 
+
+00:00:47.920 --> 00:00:49.750 align:start position:0%
+going to be a quarter of this if they
+are<00:00:48.079><c> in</c><00:00:48.160><c> raid</c><00:00:48.480><c> 0</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+are in raid 0
+ 
+
+00:00:49.760 --> 00:00:52.389 align:start position:0%
+are in raid 0
+so<00:00:49.920><c> we</c><00:00:50.079><c> will</c><00:00:50.239><c> get</c><00:00:50.800><c> 25</c>
+
+00:00:52.389 --> 00:00:52.399 align:start position:0%
+so we will get 25
+ 
+
+00:00:52.399 --> 00:00:53.910 align:start position:0%
+so we will get 25
+000<00:00:52.960><c> hours</c>
+
+00:00:53.910 --> 00:00:53.920 align:start position:0%
+000 hours
+ 
+
+00:00:53.920 --> 00:00:57.029 align:start position:0%
+000 hours
+this<00:00:54.160><c> mttf</c><00:00:54.800><c> ends</c><00:00:54.960><c> up</c><00:00:55.120><c> being</c><00:00:55.440><c> almost</c><00:00:55.760><c> 12</c><00:00:56.239><c> years</c>
+
+00:00:57.029 --> 00:00:57.039 align:start position:0%
+this mttf ends up being almost 12 years
+ 
+
+00:00:57.039 --> 00:00:59.990 align:start position:0%
+this mttf ends up being almost 12 years
+this<00:00:57.360><c> one</c><00:00:57.600><c> is</c><00:00:57.920><c> almost</c><00:00:58.320><c> three</c><00:00:58.559><c> years</c>
+
+00:00:59.990 --> 00:01:00.000 align:start position:0%
+this one is almost three years
+ 
+
+00:01:00.000 --> 00:01:02.389 align:start position:0%
+this one is almost three years
+if<00:01:00.160><c> we</c><00:01:00.320><c> plan</c><00:01:00.640><c> to</c><00:01:00.800><c> replace</c><00:01:01.280><c> our</c><00:01:01.440><c> array</c><00:01:01.920><c> after</c>
+
+00:01:02.389 --> 00:01:02.399 align:start position:0%
+if we plan to replace our array after
+ 
+
+00:01:02.399 --> 00:01:04.710 align:start position:0%
+if we plan to replace our array after
+something<00:01:02.800><c> like</c><00:01:03.120><c> five</c><00:01:03.359><c> or</c><00:01:03.440><c> six</c><00:01:03.760><c> years</c>
+
+00:01:04.710 --> 00:01:04.720 align:start position:0%
+something like five or six years
+ 
+
+00:01:04.720 --> 00:01:06.950 align:start position:0%
+something like five or six years
+know<00:01:04.879><c> that</c><00:01:05.040><c> it</c><00:01:05.119><c> can</c><00:01:05.360><c> still</c><00:01:05.680><c> fail</c><00:01:06.400><c> within</c><00:01:06.799><c> the</c>
+
+00:01:06.950 --> 00:01:06.960 align:start position:0%
+know that it can still fail within the
+ 
+
+00:01:06.960 --> 00:01:08.630 align:start position:0%
+know that it can still fail within the
+five<00:01:07.200><c> to</c><00:01:07.360><c> six</c><00:01:07.600><c> years</c>
+
+00:01:08.630 --> 00:01:08.640 align:start position:0%
+five to six years
+ 
+
+00:01:08.640 --> 00:01:11.429 align:start position:0%
+five to six years
+but<00:01:09.040><c> on</c><00:01:09.360><c> average</c><00:01:09.840><c> it's</c><00:01:10.000><c> going</c><00:01:10.159><c> to</c><00:01:10.400><c> last</c>
+
+00:01:11.429 --> 00:01:11.439 align:start position:0%
+but on average it's going to last
+ 
+
+00:01:11.439 --> 00:01:14.390 align:start position:0%
+but on average it's going to last
+about<00:01:11.760><c> 12</c><00:01:12.159><c> years</c><00:01:12.799><c> however</c><00:01:13.280><c> here</c><00:01:13.680><c> our</c><00:01:13.920><c> average</c>
+
+00:01:14.390 --> 00:01:14.400 align:start position:0%
+about 12 years however here our average
+ 
+
+00:01:14.400 --> 00:01:16.950 align:start position:0%
+about 12 years however here our average
+array<00:01:14.799><c> is</c><00:01:15.040><c> going</c><00:01:15.360><c> to</c><00:01:15.600><c> fail</c><00:01:16.080><c> during</c><00:01:16.560><c> the</c><00:01:16.720><c> five</c>
+
+00:01:16.950 --> 00:01:16.960 align:start position:0%
+array is going to fail during the five
+ 
+
+00:01:16.960 --> 00:01:18.710 align:start position:0%
+array is going to fail during the five
+to<00:01:17.119><c> six</c><00:01:17.439><c> years</c>
+
+00:01:18.710 --> 00:01:18.720 align:start position:0%
+to six years
+ 
+
+00:01:18.720 --> 00:01:21.109 align:start position:0%
+to six years
+so<00:01:18.960><c> obviously</c><00:01:19.360><c> with</c><00:01:19.600><c> such</c><00:01:19.840><c> a</c><00:01:20.000><c> low</c><00:01:20.240><c> mttf</c><00:01:20.880><c> we</c>
+
+00:01:21.109 --> 00:01:21.119 align:start position:0%
+so obviously with such a low mttf we
+ 
+
+00:01:21.119 --> 00:01:23.510 align:start position:0%
+so obviously with such a low mttf we
+should<00:01:21.439><c> not</c><00:01:21.759><c> have</c><00:01:22.000><c> used</c><00:01:22.400><c> four</c><00:01:22.640><c> disks</c><00:01:23.040><c> in</c><00:01:23.200><c> raid</c>
+
+00:01:23.510 --> 00:01:23.520 align:start position:0%
+should not have used four disks in raid
+ 
+
+00:01:23.520 --> 00:01:27.000 align:start position:0%
+should not have used four disks in raid
+0<00:01:23.759><c> like</c><00:01:24.000><c> this</c>
+

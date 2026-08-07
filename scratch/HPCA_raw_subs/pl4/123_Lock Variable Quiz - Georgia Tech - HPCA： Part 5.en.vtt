@@ -1,0 +1,104 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.149 align:start position:0%
+ 
+so<00:00:00.269><c> let's</c><00:00:00.480><c> see</c><00:00:00.630><c> if</c><00:00:00.690><c> we</c><00:00:00.810><c> can</c><00:00:00.960><c> figure</c><00:00:01.140><c> out</c><00:00:01.260><c> what</c><00:00:01.979><c> a</c>
+
+00:00:02.149 --> 00:00:02.159 align:start position:0%
+so let's see if we can figure out what a
+ 
+
+00:00:02.159 --> 00:00:04.730 align:start position:0%
+so let's see if we can figure out what a
+lock<00:00:02.429><c> variable</c><00:00:02.639><c> really</c><00:00:03.210><c> is</c><00:00:03.389><c> suppose</c><00:00:04.290><c> we</c><00:00:04.529><c> have</c>
+
+00:00:04.730 --> 00:00:04.740 align:start position:0%
+lock variable really is suppose we have
+ 
+
+00:00:04.740 --> 00:00:07.099 align:start position:0%
+lock variable really is suppose we have
+a<00:00:04.770><c> code</c><00:00:05.040><c> like</c><00:00:05.250><c> this</c><00:00:05.279><c> this</c><00:00:06.150><c> code</c><00:00:06.390><c> is</c><00:00:06.509><c> similar</c><00:00:06.779><c> to</c>
+
+00:00:07.099 --> 00:00:07.109 align:start position:0%
+a code like this this code is similar to
+ 
+
+00:00:07.109 --> 00:00:08.900 align:start position:0%
+a code like this this code is similar to
+the<00:00:07.230><c> previous</c><00:00:07.379><c> one</c><00:00:07.799><c> it's</c><00:00:08.069><c> just</c><00:00:08.250><c> written</c><00:00:08.429><c> in</c><00:00:08.670><c> C</c>
+
+00:00:08.900 --> 00:00:08.910 align:start position:0%
+the previous one it's just written in C
+ 
+
+00:00:08.910 --> 00:00:11.870 align:start position:0%
+the previous one it's just written in C
+so<00:00:09.179><c> we</c><00:00:09.269><c> have</c><00:00:09.450><c> lock</c><00:00:10.400><c> the</c><00:00:11.400><c> lock</c><00:00:11.610><c> that</c>
+
+00:00:11.870 --> 00:00:11.880 align:start position:0%
+so we have lock the lock that
+ 
+
+00:00:11.880 --> 00:00:14.780 align:start position:0%
+so we have lock the lock that
+corresponds<00:00:12.389><c> to</c><00:00:12.480><c> elemental</c><00:00:13.759><c> increment</c><00:00:14.759><c> the</c>
+
+00:00:14.780 --> 00:00:14.790 align:start position:0%
+corresponds to elemental increment the
+ 
+
+00:00:14.790 --> 00:00:18.470 align:start position:0%
+corresponds to elemental increment the
+count<00:00:15.089><c> for</c><00:00:15.389><c> L</c><00:00:15.800><c> unlock</c><00:00:16.800><c> the</c><00:00:17.670><c> question</c><00:00:18.119><c> for</c><00:00:18.359><c> you</c>
+
+00:00:18.470 --> 00:00:18.480 align:start position:0%
+count for L unlock the question for you
+ 
+
+00:00:18.480 --> 00:00:22.400 align:start position:0%
+count for L unlock the question for you
+is<00:00:18.720><c> what</c><00:00:19.170><c> is</c><00:00:19.800><c> count</c><00:00:20.279><c> local</c><00:00:20.699><c> fell</c><00:00:20.910><c> is</c><00:00:21.510><c> it</c><00:00:21.840><c> just</c>
+
+00:00:22.400 --> 00:00:22.410 align:start position:0%
+is what is count local fell is it just
+ 
+
+00:00:22.410 --> 00:00:24.220 align:start position:0%
+is what is count local fell is it just
+another<00:00:22.560><c> location</c><00:00:23.010><c> in</c><00:00:23.250><c> shared</c><00:00:23.519><c> memory</c><00:00:23.609><c> a</c>
+
+00:00:24.220 --> 00:00:24.230 align:start position:0%
+another location in shared memory a
+ 
+
+00:00:24.230 --> 00:00:26.290 align:start position:0%
+another location in shared memory a
+location<00:00:25.230><c> in</c><00:00:25.320><c> some</c><00:00:25.590><c> sort</c><00:00:25.800><c> of</c><00:00:25.890><c> special</c>
+
+00:00:26.290 --> 00:00:26.300 align:start position:0%
+location in some sort of special
+ 
+
+00:00:26.300 --> 00:00:29.419 align:start position:0%
+location in some sort of special
+synchronization<00:00:27.300><c> memory</c><00:00:27.630><c> or</c><00:00:27.900><c> a</c><00:00:28.650><c> special</c>
+
+00:00:29.419 --> 00:00:29.429 align:start position:0%
+synchronization memory or a special
+ 
+
+00:00:29.429 --> 00:00:31.160 align:start position:0%
+synchronization memory or a special
+variable<00:00:29.849><c> that</c><00:00:30.150><c> doesn't</c><00:00:30.510><c> really</c><00:00:30.599><c> have</c><00:00:30.929><c> a</c>
+
+00:00:31.160 --> 00:00:31.170 align:start position:0%
+variable that doesn't really have a
+ 
+
+00:00:31.170 --> 00:00:34.279 align:start position:0%
+variable that doesn't really have a
+memory<00:00:31.500><c> address</c><00:00:31.619><c> at</c><00:00:32.040><c> all</c>
+

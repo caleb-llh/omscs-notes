@@ -1,0 +1,44 @@
+1
+00:00:00,530 --> 00:00:03,330
+ Let's say I give you a memory chip whose area is the same as
+
+2
+00:00:03,330 --> 00:00:05,380
+ the cross section of a human hair?
+
+3
+00:00:05,380 --> 00:00:08,350
+ That's about 4900 squared microns.
+
+4
+00:00:08,350 --> 00:00:12,470
+ In this case, I'm not very cool, so my hair, like this chip, is square.
+
+5
+00:00:12,470 --> 00:00:16,379
+ Now suppose you wanted this memory chip to store one Terabyte of data.
+
+6
+00:00:16,379 --> 00:00:19,940
+ In this case, let's take a Terabyte to P 10 to the 12th bytes.
+
+7
+00:00:19,940 --> 00:00:21,430
+ Here's my question.
+
+8
+00:00:21,430 --> 00:00:24,080
+ What is the area occupied by a single bit?
+
+9
+00:00:24,080 --> 00:00:28,620
+ Note that I'm looking for the area of a bit as opposed to a byte.
+
+10
+00:00:28,620 --> 00:00:31,080
+ Here's a little bit of space for your answer.
+
+11
+00:00:31,080 --> 00:00:31,080
+ Type your answer here in units of squared microns per bit.
+

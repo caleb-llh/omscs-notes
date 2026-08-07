@@ -1,0 +1,168 @@
+1
+00:00:00,370 --> 00:00:02,460
+ Here's how I would have answered the question.
+
+2
+00:00:02,460 --> 00:00:06,600
+ I would have marked supply voltage, clock frequency, and activity factor.
+
+3
+00:00:06,600 --> 00:00:09,870
+ If you disagree, let's duke it out in the forums.
+
+4
+00:00:09,870 --> 00:00:12,290
+ Let's start with capacitance, C.
+
+5
+00:00:12,290 --> 00:00:14,380
+ Why didn't I check it off?
+
+6
+00:00:14,380 --> 00:00:18,250
+ Partly it's because I never really understood what capacitance is.
+
+7
+00:00:18,250 --> 00:00:21,920
+ Electricity and magnetism have always been a bit of a weak point for me.
+
+8
+00:00:21,920 --> 00:00:26,030
+ Curse you, Michael Faraday, with your brilliant intellect, chiseled jaw,
+
+9
+00:00:26,030 --> 00:00:28,120
+ haunting eyes and delicate,
+
+10
+00:00:28,120 --> 00:00:31,690
+ albeit slightly sooty 19th century industrial good looks.
+
+11
+00:00:31,690 --> 00:00:34,790
+ Personally, I wouldn't pick capacitance because it's a geometric and
+
+12
+00:00:34,790 --> 00:00:37,910
+ electrical property of the materials used to build the chip.
+
+13
+00:00:37,910 --> 00:00:40,670
+ I don't normally think of controlling that at the level of my algorithm
+
+14
+00:00:40,670 --> 00:00:41,790
+ or software.
+
+15
+00:00:41,790 --> 00:00:43,920
+ Though in the future, who knows.
+
+16
+00:00:43,920 --> 00:00:45,660
+ Next, let's consider voltage and
+
+17
+00:00:45,660 --> 00:00:48,960
+ frequency together since they're supposed to vary together.
+
+18
+00:00:48,960 --> 00:00:52,180
+ In fact, there's a feature of many modern processors and memory systems for
+
+19
+00:00:52,180 --> 00:00:53,460
+ changing these.
+
+20
+00:00:53,460 --> 00:00:57,830
+ It's called Dynamic Voltage and Frequency Scaling, or DVFS for short.
+
+21
+00:00:57,830 --> 00:01:01,430
+ DVFS is typically controlled in hardware, but there are some
+
+22
+00:01:01,430 --> 00:01:04,830
+ processors and operating systems that offer software level control.
+
+23
+00:01:04,830 --> 00:01:07,970
+ In Linux, for instance, there's something called cpufreq.
+
+24
+00:01:07,970 --> 00:01:10,980
+ Speaking of freaks, look, it's CPU Rick James!
+
+25
+00:01:10,980 --> 00:01:12,515
+ She's CPU freaky.
+
+26
+00:01:12,515 --> 00:01:16,365
+ [SOUND] Lastly, there's the activity factor.
+
+27
+00:01:16,365 --> 00:01:18,607
+ I've checked it off, but it would be fair for
+
+28
+00:01:18,607 --> 00:01:22,520
+ a hardware person to tell me I have an overactive imagination.
+
+29
+00:01:22,520 --> 00:01:27,100
+ Remember the activity factor is about how frequently state transitions occur.
+
+30
+00:01:27,100 --> 00:01:28,870
+ So if you know what at the algorithm or
+
+31
+00:01:28,870 --> 00:01:32,820
+ software level that there are big chunks of the processing system that you don't
+
+32
+00:01:32,820 --> 00:01:36,050
+ need you might imagine turning those chunks off.
+
+33
+00:01:36,050 --> 00:01:38,640
+ For instance, suppose you're doing a reduction.
+
+34
+00:01:38,640 --> 00:01:41,580
+ Algorithmically, you know this operation is mostly about
+
+35
+00:01:41,580 --> 00:01:43,530
+ streaming the input data.
+
+36
+00:01:43,530 --> 00:01:46,780
+ So, that implies there's no reason to cash it.
+
+37
+00:01:46,780 --> 00:01:49,630
+ Therefore, if the hardware gave you a knob to turn the cash off,
+
+38
+00:01:49,630 --> 00:01:51,030
+ you might do that.
+
+39
+00:01:51,030 --> 00:01:54,030
+ Anyway, traditionally the topic of the dynamic power equation is
+
+40
+00:01:54,030 --> 00:01:58,000
+ one which mostly hardware and low level software folks think about.
+
+41
+00:01:58,000 --> 00:02:01,430
+ But, in the spirit of Danny Hillis's question, I wanted to get you thinking
+
+42
+00:02:01,430 --> 00:02:01,430
+ about whether there are interesting algorithmic implications as well.
+

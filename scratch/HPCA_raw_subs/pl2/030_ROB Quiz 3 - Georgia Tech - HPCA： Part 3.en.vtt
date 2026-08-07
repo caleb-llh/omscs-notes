@@ -1,0 +1,184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.040 --> 00:00:01.510 align:start position:0%
+ 
+so<00:00:00.240><c> now</c><00:00:00.440><c> that</c><00:00:00.560><c> we</c><00:00:00.640><c> are</c><00:00:00.799><c> done</c><00:00:01.040><c> with</c><00:00:01.199><c> the</c><00:00:01.319><c> work</c>
+
+00:00:01.510 --> 00:00:01.520 align:start position:0%
+so now that we are done with the work
+ 
+
+00:00:01.520 --> 00:00:04.030 align:start position:0%
+so now that we are done with the work
+for<00:00:01.719><c> cycle</c><00:00:02.080><c> 4</c><00:00:02.919><c> let's</c><00:00:03.120><c> see</c><00:00:03.360><c> what</c><00:00:03.560><c> happens</c><00:00:03.840><c> in</c>
+
+00:00:04.030 --> 00:00:04.040 align:start position:0%
+for cycle 4 let's see what happens in
+ 
+
+00:00:04.040 --> 00:00:06.990 align:start position:0%
+for cycle 4 let's see what happens in
+cycle<00:00:04.440><c> 5</c><00:00:05.319><c> two</c><00:00:05.560><c> things</c><00:00:05.879><c> will</c><00:00:06.200><c> happen</c><00:00:06.440><c> in</c><00:00:06.600><c> cycle</c>
+
+00:00:06.990 --> 00:00:07.000 align:start position:0%
+cycle 5 two things will happen in cycle
+ 
+
+00:00:07.000 --> 00:00:09.230 align:start position:0%
+cycle 5 two things will happen in cycle
+5<00:00:07.600><c> one</c><00:00:07.839><c> is</c><00:00:08.080><c> we're</c><00:00:08.280><c> going</c><00:00:08.360><c> to</c><00:00:08.519><c> try</c><00:00:08.679><c> to</c><00:00:08.840><c> issue</c><00:00:09.080><c> the</c>
+
+00:00:09.230 --> 00:00:09.240 align:start position:0%
+5 one is we're going to try to issue the
+ 
+
+00:00:09.240 --> 00:00:11.910 align:start position:0%
+5 one is we're going to try to issue the
+next<00:00:09.880><c> instruction</c><00:00:10.880><c> another</c><00:00:11.240><c> thing</c><00:00:11.480><c> is</c><00:00:11.719><c> we're</c>
+
+00:00:11.910 --> 00:00:11.920 align:start position:0%
+next instruction another thing is we're
+ 
+
+00:00:11.920 --> 00:00:13.430 align:start position:0%
+next instruction another thing is we're
+going<00:00:12.040><c> to</c><00:00:12.200><c> try</c><00:00:12.360><c> to</c><00:00:12.480><c> see</c><00:00:12.639><c> if</c><00:00:12.719><c> we</c><00:00:12.840><c> can</c><00:00:13.040><c> dispatch</c>
+
+00:00:13.430 --> 00:00:13.440 align:start position:0%
+going to try to see if we can dispatch
+ 
+
+00:00:13.440 --> 00:00:16.670 align:start position:0%
+going to try to see if we can dispatch
+an<00:00:13.799><c> instruction</c><00:00:14.799><c> write</c><00:00:15.080><c> a</c><00:00:15.280><c> result</c><00:00:15.719><c> or</c>
+
+00:00:16.670 --> 00:00:16.680 align:start position:0%
+an instruction write a result or
+ 
+
+00:00:16.680 --> 00:00:19.150 align:start position:0%
+an instruction write a result or
+commit<00:00:17.680><c> obviously</c><00:00:18.160><c> we</c><00:00:18.320><c> can</c><00:00:18.600><c> issue</c><00:00:18.960><c> this</c>
+
+00:00:19.150 --> 00:00:19.160 align:start position:0%
+commit obviously we can issue this
+ 
+
+00:00:19.160 --> 00:00:21.070 align:start position:0%
+commit obviously we can issue this
+instruction<00:00:19.680><c> so</c><00:00:19.840><c> let's</c><00:00:20.080><c> do</c><00:00:20.279><c> that</c><00:00:20.680><c> so</c><00:00:20.880><c> the</c>
+
+00:00:21.070 --> 00:00:21.080 align:start position:0%
+instruction so let's do that so the
+ 
+
+00:00:21.080 --> 00:00:23.269 align:start position:0%
+instruction so let's do that so the
+question<00:00:21.359><c> for</c><00:00:21.560><c> you</c><00:00:21.880><c> is</c><00:00:22.080><c> do</c><00:00:22.240><c> we</c><00:00:22.439><c> dispatch</c><00:00:22.880><c> an</c>
+
+00:00:23.269 --> 00:00:23.279 align:start position:0%
+question for you is do we dispatch an
+ 
+
+00:00:23.279 --> 00:00:25.990 align:start position:0%
+question for you is do we dispatch an
+instruction<00:00:24.279><c> right</c><00:00:24.599><c> here</c><00:00:25.119><c> which</c><00:00:25.439><c> instruction</c>
+
+00:00:25.990 --> 00:00:26.000 align:start position:0%
+instruction right here which instruction
+ 
+
+00:00:26.000 --> 00:00:28.150 align:start position:0%
+instruction right here which instruction
+gets<00:00:26.279><c> dispatched</c><00:00:26.960><c> leave</c><00:00:27.160><c> it</c><00:00:27.359><c> empty</c><00:00:27.800><c> if</c><00:00:27.960><c> none</c>
+
+00:00:28.150 --> 00:00:28.160 align:start position:0%
+gets dispatched leave it empty if none
+ 
+
+00:00:28.160 --> 00:00:30.269 align:start position:0%
+gets dispatched leave it empty if none
+of<00:00:28.279><c> them</c><00:00:28.480><c> gets</c><00:00:28.720><c> dispatched</c><00:00:29.519><c> another</c><00:00:30.039><c> question</c>
+
+00:00:30.269 --> 00:00:30.279 align:start position:0%
+of them gets dispatched another question
+ 
+
+00:00:30.279 --> 00:00:32.950 align:start position:0%
+of them gets dispatched another question
+for<00:00:30.480><c> you</c><00:00:30.679><c> is</c><00:00:31.279><c> do</c><00:00:31.439><c> we</c><00:00:31.640><c> write</c><00:00:31.960><c> any</c><00:00:32.279><c> results</c><00:00:32.759><c> in</c>
+
+00:00:32.950 --> 00:00:32.960 align:start position:0%
+for you is do we write any results in
+ 
+
+00:00:32.960 --> 00:00:35.590 align:start position:0%
+for you is do we write any results in
+this<00:00:33.120><c> cycle</c><00:00:33.920><c> if</c><00:00:34.239><c> yes</c><00:00:34.840><c> write</c><00:00:35.320><c> which</c>
+
+00:00:35.590 --> 00:00:35.600 align:start position:0%
+this cycle if yes write which
+ 
+
+00:00:35.600 --> 00:00:38.310 align:start position:0%
+this cycle if yes write which
+instruction<00:00:36.280><c> gets</c><00:00:36.480><c> to</c><00:00:36.640><c> write</c><00:00:36.840><c> the</c><00:00:37.160><c> results</c><00:00:38.160><c> if</c>
+
+00:00:38.310 --> 00:00:38.320 align:start position:0%
+instruction gets to write the results if
+ 
+
+00:00:38.320 --> 00:00:40.790 align:start position:0%
+instruction gets to write the results if
+no<00:00:38.800><c> just</c><00:00:39.000><c> leave</c><00:00:39.239><c> this</c><00:00:39.440><c> empty</c><00:00:40.160><c> and</c><00:00:40.399><c> obviously</c>
+
+00:00:40.790 --> 00:00:40.800 align:start position:0%
+no just leave this empty and obviously
+ 
+
+00:00:40.800 --> 00:00:43.229 align:start position:0%
+no just leave this empty and obviously
+we<00:00:40.879><c> won't</c><00:00:41.120><c> be</c><00:00:41.280><c> committing</c><00:00:41.680><c> any</c><00:00:42.239><c> instructions</c>
+
+00:00:43.229 --> 00:00:43.239 align:start position:0%
+we won't be committing any instructions
+ 
+
+00:00:43.239 --> 00:00:44.990 align:start position:0%
+we won't be committing any instructions
+the<00:00:43.399><c> name</c><00:00:43.600><c> of</c><00:00:43.719><c> the</c><00:00:43.879><c> instruction</c><00:00:44.480><c> here</c><00:00:44.719><c> should</c>
+
+00:00:44.990 --> 00:00:45.000 align:start position:0%
+the name of the instruction here should
+ 
+
+00:00:45.000 --> 00:00:47.670 align:start position:0%
+the name of the instruction here should
+be<00:00:45.239><c> the</c><00:00:45.520><c> really</c><00:00:45.960><c> the</c><00:00:46.280><c> Rob</c><00:00:46.640><c> entry</c><00:00:47.039><c> so</c><00:00:47.239><c> if</c><00:00:47.360><c> it's</c>
+
+00:00:47.670 --> 00:00:47.680 align:start position:0%
+be the really the Rob entry so if it's
+ 
+
+00:00:47.680 --> 00:00:49.430 align:start position:0%
+be the really the Rob entry so if it's
+for<00:00:47.840><c> example</c><00:00:48.199><c> the</c><00:00:48.320><c> Rob</c><00:00:48.600><c> one</c><00:00:48.840><c> instruction</c><00:00:49.280><c> that</c>
+
+00:00:49.430 --> 00:00:49.440 align:start position:0%
+for example the Rob one instruction that
+ 
+
+00:00:49.440 --> 00:00:51.790 align:start position:0%
+for example the Rob one instruction that
+gets<00:00:49.640><c> dis</c><00:00:49.879><c> patch</c><00:00:50.160><c> you</c><00:00:50.239><c> should</c><00:00:50.440><c> write</c><00:00:50.680><c> Rob</c><00:00:50.960><c> one</c>
+
+00:00:51.790 --> 00:00:51.800 align:start position:0%
+gets dis patch you should write Rob one
+ 
+
+00:00:51.800 --> 00:00:54.800 align:start position:0%
+gets dis patch you should write Rob one
+here
+

@@ -1,0 +1,84 @@
+1
+00:00:00,300 --> 00:00:03,600
+ Here's the answer, log (n/s).
+
+2
+00:00:03,600 --> 00:00:04,730
+ Why?
+
+3
+00:00:04,730 --> 00:00:06,390
+ Imagine the best case scenario.
+
+4
+00:00:06,390 --> 00:00:11,980
+ A single run of the maximal matchings algorithm will match every vertex.
+
+5
+00:00:11,980 --> 00:00:16,010
+ So, for instance, here's a sample graph, with eight vertices, and notice
+
+6
+00:00:16,010 --> 00:00:21,030
+ that under this particular matching, every vertex is part of a matched edge.
+
+7
+00:00:21,030 --> 00:00:23,970
+ This also means that this graph with eight vertices will,
+
+8
+00:00:23,970 --> 00:00:28,210
+ when coarsened, become a graph with four supervertices.
+
+9
+00:00:28,210 --> 00:00:31,120
+ Okay, so let's turn to the general case.
+
+10
+00:00:31,120 --> 00:00:34,390
+ How many vertices must this graph have?
+
+11
+00:00:34,390 --> 00:00:39,470
+ Compared to the previous level, it has to have at least half as many vertices.
+
+12
+00:00:39,470 --> 00:00:43,130
+ This idea has to hold at every level.
+
+13
+00:00:43,130 --> 00:00:45,430
+ In other words, relative to the original graph,
+
+14
+00:00:45,430 --> 00:00:49,820
+ the final graph has to have n/2 to the k or more vertices.
+
+15
+00:00:49,820 --> 00:00:51,430
+ So what does this tell you?
+
+16
+00:00:51,430 --> 00:00:53,960
+ Well, it says you need at least a logarithmic number of
+
+17
+00:00:53,960 --> 00:00:56,720
+ coarsening steps in order to shrink the graph.
+
+18
+00:00:56,720 --> 00:01:00,370
+ Of course, this is a lower bound on the number of steps.
+
+19
+00:01:00,370 --> 00:01:01,890
+ So you might need more if for
+
+20
+00:01:01,890 --> 00:01:06,240
+ some reason it's hard to find a lot of large matchings in the graph.
+
+21
+00:01:06,240 --> 00:01:06,240
+ In fact, can you think of a worst case graph to coarsen?
+

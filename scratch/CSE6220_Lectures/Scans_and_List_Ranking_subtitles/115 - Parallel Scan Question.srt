@@ -1,0 +1,44 @@
+1
+00:00:00,310 --> 00:00:03,440
+ Here's a simple sequential algorithm to compute a scan.
+
+2
+00:00:03,440 --> 00:00:06,100
+ The input is an array A, of length n.
+
+3
+00:00:06,100 --> 00:00:09,300
+ The first element of the array is its own scan.
+
+4
+00:00:09,300 --> 00:00:12,970
+ For all the remaining elements of A, we take the previous scan value,
+
+5
+00:00:12,970 --> 00:00:15,440
+ and accumulate the next value.
+
+6
+00:00:15,440 --> 00:00:17,510
+ And we store everything in place.
+
+7
+00:00:17,510 --> 00:00:19,540
+ Consider the following claim.
+
+8
+00:00:19,540 --> 00:00:23,050
+ You can parallelize this sequential scan by taking four and
+
+9
+00:00:23,050 --> 00:00:25,100
+ replacing it with parallel four.
+
+10
+00:00:25,100 --> 00:00:26,560
+ True or False?
+
+11
+00:00:26,560 --> 00:00:26,560
+ Go ahead and choose your answer here.
+

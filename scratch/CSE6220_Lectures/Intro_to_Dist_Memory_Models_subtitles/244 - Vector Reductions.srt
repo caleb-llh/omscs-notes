@@ -1,0 +1,48 @@
+1
+00:00:00,480 --> 00:00:03,080
+ Let's consider a slight generalization of a reduction
+
+2
+00:00:03,080 --> 00:00:04,880
+ called a vector reduction.
+
+3
+00:00:04,880 --> 00:00:07,990
+ In it, we'll assume that every node has not a single word of data, but
+
+4
+00:00:07,990 --> 00:00:09,700
+ a vector of data.
+
+5
+00:00:09,700 --> 00:00:14,650
+ A vector reduction will be the elementwise reduction of these vectors.
+
+6
+00:00:14,650 --> 00:00:17,000
+ So if we're doing a sum reduction, then we'll take vectors, and
+
+7
+00:00:17,000 --> 00:00:19,490
+ we'll sum them elementwise.
+
+8
+00:00:19,490 --> 00:00:24,680
+ The result will be a single vector of length n, whose elements are the sums
+
+9
+00:00:24,680 --> 00:00:27,560
+ of the corresponding elements from the other nodes.
+
+10
+00:00:27,560 --> 00:00:31,230
+ Now the corresponding algorithm would change only very slightly.
+
+11
+00:00:31,230 --> 00:00:34,060
+ In our scalar pseudocode, anywhere we sent a scalar,
+
+12
+00:00:34,060 --> 00:00:34,060
+ we could instead send the vector.
+

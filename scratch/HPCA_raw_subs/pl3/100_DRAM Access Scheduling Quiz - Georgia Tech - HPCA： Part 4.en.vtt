@@ -1,0 +1,336 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.990 align:start position:0%
+ 
+so<00:00:00.320><c> let's</c><00:00:00.560><c> see</c><00:00:00.719><c> if</c><00:00:00.880><c> we</c><00:00:01.040><c> can</c><00:00:01.199><c> do</c><00:00:01.360><c> some</c><00:00:01.599><c> dram</c>
+
+00:00:01.990 --> 00:00:02.000 align:start position:0%
+so let's see if we can do some dram
+ 
+
+00:00:02.000 --> 00:00:04.630 align:start position:0%
+so let's see if we can do some dram
+access<00:00:02.320><c> scheduling</c><00:00:03.040><c> to</c><00:00:03.199><c> take</c><00:00:03.520><c> advantage</c><00:00:04.480><c> of</c>
+
+00:00:04.630 --> 00:00:04.640 align:start position:0%
+access scheduling to take advantage of
+ 
+
+00:00:04.640 --> 00:00:07.110 align:start position:0%
+access scheduling to take advantage of
+the<00:00:04.799><c> fast</c><00:00:05.120><c> page</c><00:00:05.440><c> access</c><00:00:05.759><c> that</c><00:00:05.920><c> we</c><00:00:06.080><c> can</c><00:00:06.240><c> have</c>
+
+00:00:07.110 --> 00:00:07.120 align:start position:0%
+the fast page access that we can have
+ 
+
+00:00:07.120 --> 00:00:09.030 align:start position:0%
+the fast page access that we can have
+let's<00:00:07.440><c> assume</c><00:00:07.759><c> we</c><00:00:07.839><c> have</c><00:00:08.000><c> a</c><00:00:08.080><c> data</c><00:00:08.480><c> memory</c><00:00:08.880><c> that</c>
+
+00:00:09.030 --> 00:00:09.040 align:start position:0%
+let's assume we have a data memory that
+ 
+
+00:00:09.040 --> 00:00:12.390 align:start position:0%
+let's assume we have a data memory that
+has<00:00:09.280><c> 32</c><00:00:10.240><c> one</c><00:00:10.480><c> bit</c><00:00:10.719><c> arrays</c><00:00:11.519><c> just</c><00:00:11.840><c> like</c><00:00:12.000><c> the</c><00:00:12.160><c> one</c>
+
+00:00:12.390 --> 00:00:12.400 align:start position:0%
+has 32 one bit arrays just like the one
+ 
+
+00:00:12.400 --> 00:00:15.350 align:start position:0%
+has 32 one bit arrays just like the one
+we<00:00:12.559><c> have</c><00:00:12.719><c> seen</c><00:00:12.960><c> before</c><00:00:13.840><c> each</c><00:00:14.080><c> array</c><00:00:14.880><c> is</c><00:00:15.040><c> one</c>
+
+00:00:15.350 --> 00:00:15.360 align:start position:0%
+we have seen before each array is one
+ 
+
+00:00:15.360 --> 00:00:18.230 align:start position:0%
+we have seen before each array is one
+megabit<00:00:16.400><c> and</c><00:00:16.640><c> it's</c><00:00:16.880><c> organized</c><00:00:17.520><c> as</c>
+
+00:00:18.230 --> 00:00:18.240 align:start position:0%
+megabit and it's organized as
+ 
+
+00:00:18.240 --> 00:00:20.950 align:start position:0%
+megabit and it's organized as
+two<00:00:18.480><c> to</c><00:00:18.640><c> the</c><00:00:18.960><c> tenth</c><00:00:19.760><c> rows</c>
+
+00:00:20.950 --> 00:00:20.960 align:start position:0%
+two to the tenth rows
+ 
+
+00:00:20.960 --> 00:00:24.550 align:start position:0%
+two to the tenth rows
+times<00:00:21.680><c> two</c><00:00:21.840><c> to</c><00:00:22.000><c> the</c><00:00:22.160><c> tenth</c><00:00:23.039><c> bits</c><00:00:23.359><c> per</c><00:00:23.600><c> row</c>
+
+00:00:24.550 --> 00:00:24.560 align:start position:0%
+times two to the tenth bits per row
+ 
+
+00:00:24.560 --> 00:00:28.390 align:start position:0%
+times two to the tenth bits per row
+each<00:00:24.880><c> array</c><00:00:25.519><c> is</c><00:00:25.680><c> a</c><00:00:25.920><c> 16</c><00:00:26.800><c> megabit</c><00:00:27.439><c> array</c>
+
+00:00:28.390 --> 00:00:28.400 align:start position:0%
+each array is a 16 megabit array
+ 
+
+00:00:28.400 --> 00:00:31.589 align:start position:0%
+each array is a 16 megabit array
+organized<00:00:29.439><c> as</c><00:00:29.679><c> 2</c><00:00:29.920><c> to</c><00:00:30.080><c> the</c><00:00:30.240><c> 12th</c>
+
+00:00:31.589 --> 00:00:31.599 align:start position:0%
+organized as 2 to the 12th
+ 
+
+00:00:31.599 --> 00:00:36.150 align:start position:0%
+organized as 2 to the 12th
+rows<00:00:32.399><c> which</c><00:00:32.640><c> is</c><00:00:32.920><c> 4096</c><00:00:34.000><c> rows</c><00:00:34.800><c> times</c><00:00:35.600><c> 2</c><00:00:35.840><c> to</c><00:00:36.000><c> the</c>
+
+00:00:36.150 --> 00:00:36.160 align:start position:0%
+rows which is 4096 rows times 2 to the
+ 
+
+00:00:36.160 --> 00:00:38.470 align:start position:0%
+rows which is 4096 rows times 2 to the
+12<00:00:36.960><c> bits</c><00:00:37.360><c> per</c><00:00:37.600><c> row</c>
+
+00:00:38.470 --> 00:00:38.480 align:start position:0%
+12 bits per row
+ 
+
+00:00:38.480 --> 00:00:40.709 align:start position:0%
+12 bits per row
+and<00:00:38.719><c> the</c><00:00:38.879><c> 24</c><00:00:39.600><c> bit</c>
+
+00:00:40.709 --> 00:00:40.719 align:start position:0%
+and the 24 bit
+ 
+
+00:00:40.719 --> 00:00:41.910 align:start position:0%
+and the 24 bit
+address
+
+00:00:41.910 --> 00:00:41.920 align:start position:0%
+address
+ 
+
+00:00:41.920 --> 00:00:43.750 align:start position:0%
+address
+that<00:00:42.160><c> we</c><00:00:42.320><c> feed</c><00:00:42.559><c> to</c><00:00:42.719><c> this</c><00:00:42.879><c> memory</c><00:00:43.280><c> where</c><00:00:43.520><c> bits</c>
+
+00:00:43.750 --> 00:00:43.760 align:start position:0%
+that we feed to this memory where bits
+ 
+
+00:00:43.760 --> 00:00:46.310 align:start position:0%
+that we feed to this memory where bits
+are<00:00:43.920><c> numbered</c><00:00:44.320><c> 0</c><00:00:44.640><c> through</c><00:00:44.879><c> 23</c><00:00:45.760><c> is</c><00:00:46.000><c> thus</c>
+
+00:00:46.310 --> 00:00:46.320 align:start position:0%
+are numbered 0 through 23 is thus
+ 
+
+00:00:46.320 --> 00:00:49.750 align:start position:0%
+are numbered 0 through 23 is thus
+divided<00:00:46.960><c> by</c><00:00:47.120><c> the</c><00:00:47.280><c> theorem</c><00:00:48.079><c> into</c><00:00:48.480><c> a</c><00:00:48.719><c> 12</c><00:00:49.120><c> bit</c><00:00:49.520><c> row</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+divided by the theorem into a 12 bit row
+ 
+
+00:00:49.760 --> 00:00:51.830 align:start position:0%
+divided by the theorem into a 12 bit row
+address<00:00:50.399><c> which</c><00:00:50.640><c> is</c><00:00:50.800><c> the</c><00:00:50.960><c> upper</c><00:00:51.280><c> bits</c><00:00:51.600><c> of</c><00:00:51.680><c> the</c>
+
+00:00:51.830 --> 00:00:51.840 align:start position:0%
+address which is the upper bits of the
+ 
+
+00:00:51.840 --> 00:00:54.229 align:start position:0%
+address which is the upper bits of the
+address<00:00:52.640><c> and</c><00:00:52.800><c> the</c><00:00:52.960><c> column</c><00:00:53.360><c> address</c><00:00:53.920><c> which</c><00:00:54.160><c> is</c>
+
+00:00:54.229 --> 00:00:54.239 align:start position:0%
+address and the column address which is
+ 
+
+00:00:54.239 --> 00:00:57.029 align:start position:0%
+address and the column address which is
+the<00:00:54.399><c> lower</c><00:00:54.879><c> 12</c><00:00:55.280><c> bits</c><00:00:55.680><c> of</c><00:00:55.760><c> the</c><00:00:55.920><c> address</c><00:00:56.800><c> of</c>
+
+00:00:57.029 --> 00:00:57.039 align:start position:0%
+the lower 12 bits of the address of
+ 
+
+00:00:57.039 --> 00:00:59.430 align:start position:0%
+the lower 12 bits of the address of
+course<00:00:57.520><c> the</c><00:00:57.760><c> processor</c><00:00:58.480><c> when</c><00:00:58.640><c> it</c><00:00:58.879><c> issues</c><00:00:59.199><c> this</c>
+
+00:00:59.430 --> 00:00:59.440 align:start position:0%
+course the processor when it issues this
+ 
+
+00:00:59.440 --> 00:01:02.310 align:start position:0%
+course the processor when it issues this
+24-bit<00:01:00.399><c> physical</c><00:01:00.879><c> address</c><00:01:01.359><c> wants</c><00:01:01.680><c> to</c><00:01:01.840><c> access</c>
+
+00:01:02.310 --> 00:01:02.320 align:start position:0%
+24-bit physical address wants to access
+ 
+
+00:01:02.320 --> 00:01:05.350 align:start position:0%
+24-bit physical address wants to access
+a<00:01:02.480><c> 32-bit</c><00:01:03.120><c> memory</c><00:01:03.520><c> location</c><00:01:04.400><c> each</c><00:01:04.799><c> chip</c><00:01:05.119><c> is</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+a 32-bit memory location each chip is
+ 
+
+00:01:05.360 --> 00:01:07.910 align:start position:0%
+a 32-bit memory location each chip is
+fed<00:01:05.600><c> this</c><00:01:05.920><c> address</c><00:01:06.720><c> and</c><00:01:06.880><c> the</c><00:01:07.040><c> 32</c><00:01:07.600><c> chips</c>
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+fed this address and the 32 chips
+ 
+
+00:01:07.920 --> 00:01:11.429 align:start position:0%
+fed this address and the 32 chips
+together<00:01:08.880><c> represent</c><00:01:09.680><c> a</c><00:01:10.000><c> 32-bit</c><00:01:10.720><c> memory</c><00:01:11.280><c> so</c>
+
+00:01:11.429 --> 00:01:11.439 align:start position:0%
+together represent a 32-bit memory so
+ 
+
+00:01:11.439 --> 00:01:13.429 align:start position:0%
+together represent a 32-bit memory so
+one<00:01:11.680><c> chip</c><00:01:12.000><c> for</c><00:01:12.159><c> example</c><00:01:12.640><c> might</c><00:01:12.880><c> hold</c><00:01:13.200><c> bit</c>
+
+00:01:13.429 --> 00:01:13.439 align:start position:0%
+one chip for example might hold bit
+ 
+
+00:01:13.439 --> 00:01:16.630 align:start position:0%
+one chip for example might hold bit
+number<00:01:13.920><c> seven</c><00:01:14.720><c> from</c><00:01:15.119><c> all</c><00:01:15.280><c> the</c><00:01:15.520><c> words</c><00:01:16.320><c> in</c><00:01:16.479><c> the</c>
+
+00:01:16.630 --> 00:01:16.640 align:start position:0%
+number seven from all the words in the
+ 
+
+00:01:16.640 --> 00:01:19.749 align:start position:0%
+number seven from all the words in the
+16<00:01:17.119><c> mega</c><00:01:17.680><c> word</c><00:01:18.080><c> memory</c><00:01:19.040><c> let's</c><00:01:19.280><c> say</c><00:01:19.439><c> we</c><00:01:19.600><c> have</c>
+
+00:01:19.749 --> 00:01:19.759 align:start position:0%
+16 mega word memory let's say we have
+ 
+
+00:01:19.759 --> 00:01:22.789 align:start position:0%
+16 mega word memory let's say we have
+cash<00:01:20.159><c> misses</c><00:01:20.640><c> currently</c><00:01:21.600><c> pending</c><00:01:22.479><c> for</c><00:01:22.640><c> the</c>
+
+00:01:22.789 --> 00:01:22.799 align:start position:0%
+cash misses currently pending for the
+ 
+
+00:01:22.799 --> 00:01:25.749 align:start position:0%
+cash misses currently pending for the
+following<00:01:23.280><c> addresses</c><00:01:24.320><c> let's</c><00:01:24.640><c> assume</c><00:01:25.360><c> that</c><00:01:25.600><c> it</c>
+
+00:01:25.749 --> 00:01:25.759 align:start position:0%
+following addresses let's assume that it
+ 
+
+00:01:25.759 --> 00:01:28.630 align:start position:0%
+following addresses let's assume that it
+takes<00:01:26.080><c> 10</c><00:01:26.320><c> nanoseconds</c><00:01:27.119><c> to</c><00:01:27.360><c> open</c><00:01:27.680><c> a</c><00:01:27.759><c> page</c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+takes 10 nanoseconds to open a page
+ 
+
+00:01:28.640 --> 00:01:31.190 align:start position:0%
+takes 10 nanoseconds to open a page
+that<00:01:28.880><c> it</c><00:01:29.040><c> takes</c><00:01:29.360><c> 2</c><00:01:29.600><c> nanoseconds</c><00:01:30.640><c> to</c><00:01:30.799><c> read</c>
+
+00:01:31.190 --> 00:01:31.200 align:start position:0%
+that it takes 2 nanoseconds to read
+ 
+
+00:01:31.200 --> 00:01:32.950 align:start position:0%
+that it takes 2 nanoseconds to read
+something<00:01:31.680><c> from</c><00:01:31.840><c> the</c><00:01:32.000><c> row</c><00:01:32.159><c> buffer</c><00:01:32.640><c> once</c><00:01:32.880><c> the</c>
+
+00:01:32.950 --> 00:01:32.960 align:start position:0%
+something from the row buffer once the
+ 
+
+00:01:32.960 --> 00:01:36.069 align:start position:0%
+something from the row buffer once the
+page<00:01:33.280><c> is</c><00:01:33.439><c> open</c><00:01:34.240><c> and</c><00:01:34.479><c> 5</c><00:01:34.720><c> nanoseconds</c><00:01:35.520><c> to</c><00:01:35.680><c> close</c>
+
+00:01:36.069 --> 00:01:36.079 align:start position:0%
+page is open and 5 nanoseconds to close
+ 
+
+00:01:36.079 --> 00:01:37.030 align:start position:0%
+page is open and 5 nanoseconds to close
+a<00:01:36.159><c> page</c>
+
+00:01:37.030 --> 00:01:37.040 align:start position:0%
+a page
+ 
+
+00:01:37.040 --> 00:01:38.870 align:start position:0%
+a page
+these<00:01:37.360><c> operations</c>
+
+00:01:38.870 --> 00:01:38.880 align:start position:0%
+these operations
+ 
+
+00:01:38.880 --> 00:01:40.950 align:start position:0%
+these operations
+how<00:01:39.119><c> long</c><00:01:39.520><c> do</c><00:01:39.680><c> they</c><00:01:39.920><c> take</c>
+
+00:01:40.950 --> 00:01:40.960 align:start position:0%
+how long do they take
+ 
+
+00:01:40.960 --> 00:01:43.429 align:start position:0%
+how long do they take
+if<00:01:41.119><c> we</c><00:01:41.280><c> do</c><00:01:41.439><c> them</c><00:01:41.759><c> in</c><00:01:41.920><c> this</c><00:01:42.159><c> particular</c><00:01:42.720><c> order</c>
+
+00:01:43.429 --> 00:01:43.439 align:start position:0%
+if we do them in this particular order
+ 
+
+00:01:43.439 --> 00:01:45.749 align:start position:0%
+if we do them in this particular order
+and<00:01:43.680><c> how</c><00:01:43.920><c> long</c><00:01:44.159><c> do</c><00:01:44.320><c> they</c><00:01:44.560><c> take</c><00:01:45.280><c> if</c><00:01:45.439><c> we</c><00:01:45.600><c> are</c>
+
+00:01:45.749 --> 00:01:45.759 align:start position:0%
+and how long do they take if we are
+ 
+
+00:01:45.759 --> 00:01:47.590 align:start position:0%
+and how long do they take if we are
+allowed<00:01:46.000><c> to</c><00:01:46.159><c> reorder</c><00:01:46.720><c> them</c>
+
+00:01:47.590 --> 00:01:47.600 align:start position:0%
+allowed to reorder them
+ 
+
+00:01:47.600 --> 00:01:51.759 align:start position:0%
+allowed to reorder them
+so<00:01:47.759><c> that</c><00:01:48.079><c> the</c><00:01:48.320><c> time</c><00:01:48.720><c> gets</c><00:01:49.040><c> reduced</c>
+

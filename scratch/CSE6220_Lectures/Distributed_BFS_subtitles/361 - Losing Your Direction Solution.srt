@@ -1,0 +1,36 @@
+1
+00:00:00,170 --> 00:00:01,520
+ Here's my answer.
+
+2
+00:00:01,520 --> 00:00:04,750
+ It's the logical or of B and its transpose.
+
+3
+00:00:04,750 --> 00:00:06,220
+ So, why does this work?
+
+4
+00:00:06,220 --> 00:00:08,280
+ Start with the transpose of B.
+
+5
+00:00:08,280 --> 00:00:11,950
+ Remember that entry ij of B is true if there's an edge from vertex
+
+6
+00:00:11,950 --> 00:00:13,660
+ i to vertex j.
+
+7
+00:00:13,660 --> 00:00:18,080
+ Transposing B puts that ij value at position ji.
+
+8
+00:00:18,080 --> 00:00:20,790
+ Thus, to retain both the edges ij and
+
+9
+00:00:20,790 --> 00:00:20,790
+ ji in the final matrix, you take the logical or.
+

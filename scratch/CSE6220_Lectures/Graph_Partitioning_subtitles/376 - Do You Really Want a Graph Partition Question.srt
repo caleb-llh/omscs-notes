@@ -1,0 +1,60 @@
+1
+00:00:00,390 --> 00:00:02,800
+ Consider a block row partitioning of a matrix for
+
+2
+00:00:02,800 --> 00:00:04,930
+ a sparse matrix-vector multiply.
+
+3
+00:00:04,930 --> 00:00:07,610
+ Recall your two computational goals.
+
+4
+00:00:07,610 --> 00:00:09,990
+ The first is to achieve load balance, and
+
+5
+00:00:09,990 --> 00:00:12,230
+ the second is to reduce communication.
+
+6
+00:00:12,230 --> 00:00:13,820
+ So this is where we started,
+
+7
+00:00:13,820 --> 00:00:16,320
+ then I introduced the graph partitioning problem.
+
+8
+00:00:16,320 --> 00:00:19,610
+ For this problem I said you want to divide up the vertices into partitions
+
+9
+00:00:19,610 --> 00:00:22,300
+ so that the partitions are approximately balanced.
+
+10
+00:00:22,300 --> 00:00:24,940
+ I also said you want to minimize the edge cuts.
+
+11
+00:00:24,940 --> 00:00:26,560
+ Here's my question.
+
+12
+00:00:26,560 --> 00:00:29,510
+ Is the graph partitioning problem as I formalized it,
+
+13
+00:00:29,510 --> 00:00:33,570
+ the same thing as the goals for a sparse matrix vector multiply?
+
+14
+00:00:33,570 --> 00:00:34,870
+ Choose your answer, yes or no.
+
+15
+00:00:34,870 --> 00:00:34,870
+ And then explain yourself in this box.
+

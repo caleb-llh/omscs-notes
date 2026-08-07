@@ -1,0 +1,360 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.110 align:start position:0%
+ 
+to<00:00:00.240><c> answer</c><00:00:00.480><c> a</c><00:00:00.510><c> question</c><00:00:01.250><c> both</c><00:00:02.250><c> are</c><00:00:02.700><c> okay</c>
+
+00:00:03.110 --> 00:00:03.120 align:start position:0%
+to answer a question both are okay
+ 
+
+00:00:03.120 --> 00:00:06.800 align:start position:0%
+to answer a question both are okay
+options<00:00:03.680><c> this</c><00:00:04.680><c> option</c><00:00:05.250><c> is</c><00:00:05.549><c> called</c><00:00:05.879><c> software</c>
+
+00:00:06.800 --> 00:00:06.810 align:start position:0%
+options this option is called software
+ 
+
+00:00:06.810 --> 00:00:08.780 align:start position:0%
+options this option is called software
+TLB<00:00:07.230><c> miss</c><00:00:07.410><c> handling</c><00:00:07.890><c> and</c><00:00:08.160><c> it</c><00:00:08.460><c> has</c><00:00:08.639><c> the</c>
+
+00:00:08.780 --> 00:00:08.790 align:start position:0%
+TLB miss handling and it has the
+ 
+
+00:00:08.790 --> 00:00:10.370 align:start position:0%
+TLB miss handling and it has the
+advantage<00:00:09.240><c> of</c><00:00:09.420><c> letting</c><00:00:09.840><c> the</c><00:00:09.960><c> operating</c>
+
+00:00:10.370 --> 00:00:10.380 align:start position:0%
+advantage of letting the operating
+ 
+
+00:00:10.380 --> 00:00:13.100 align:start position:0%
+advantage of letting the operating
+system<00:00:10.740><c> use</c><00:00:11.010><c> any</c><00:00:11.460><c> sort</c><00:00:12.269><c> of</c><00:00:12.420><c> page</c><00:00:12.660><c> table</c><00:00:13.080><c> that</c>
+
+00:00:13.100 --> 00:00:13.110 align:start position:0%
+system use any sort of page table that
+ 
+
+00:00:13.110 --> 00:00:15.079 align:start position:0%
+system use any sort of page table that
+it<00:00:13.380><c> wants</c><00:00:13.830><c> because</c><00:00:14.130><c> the</c><00:00:14.429><c> hardware</c><00:00:14.880><c> doesn't</c>
+
+00:00:15.079 --> 00:00:15.089 align:start position:0%
+it wants because the hardware doesn't
+ 
+
+00:00:15.089 --> 00:00:17.090 align:start position:0%
+it wants because the hardware doesn't
+really<00:00:15.330><c> need</c><00:00:15.509><c> to</c><00:00:15.570><c> access</c><00:00:15.960><c> the</c><00:00:16.080><c> page</c><00:00:16.260><c> table</c><00:00:16.680><c> the</c>
+
+00:00:17.090 --> 00:00:17.100 align:start position:0%
+really need to access the page table the
+ 
+
+00:00:17.100 --> 00:00:19.700 align:start position:0%
+really need to access the page table the
+hardware<00:00:17.520><c> simply</c><00:00:17.820><c> has</c><00:00:17.970><c> the</c><00:00:18.000><c> TLB</c><00:00:18.480><c> and</c><00:00:18.690><c> the</c><00:00:19.320><c> job</c>
+
+00:00:19.700 --> 00:00:19.710 align:start position:0%
+hardware simply has the TLB and the job
+ 
+
+00:00:19.710 --> 00:00:21.439 align:start position:0%
+hardware simply has the TLB and the job
+of<00:00:19.859><c> the</c><00:00:19.949><c> operating</c><00:00:20.310><c> system</c><00:00:20.670><c> is</c><00:00:20.850><c> to</c><00:00:21.000><c> put</c><00:00:21.240><c> the</c>
+
+00:00:21.439 --> 00:00:21.449 align:start position:0%
+of the operating system is to put the
+ 
+
+00:00:21.449 --> 00:00:24.620 align:start position:0%
+of the operating system is to put the
+correct<00:00:21.980><c> translations</c><00:00:22.980><c> into</c><00:00:23.189><c> the</c><00:00:23.400><c> TLB</c><00:00:23.789><c> but</c><00:00:24.480><c> if</c>
+
+00:00:24.620 --> 00:00:24.630 align:start position:0%
+correct translations into the TLB but if
+ 
+
+00:00:24.630 --> 00:00:26.779 align:start position:0%
+correct translations into the TLB but if
+you<00:00:24.750><c> use</c><00:00:24.930><c> any</c><00:00:25.439><c> organization</c><00:00:26.310><c> for</c><00:00:26.490><c> the</c><00:00:26.580><c> page</c>
+
+00:00:26.779 --> 00:00:26.789 align:start position:0%
+you use any organization for the page
+ 
+
+00:00:26.789 --> 00:00:29.450 align:start position:0%
+you use any organization for the page
+table<00:00:27.180><c> it</c><00:00:27.359><c> wants</c><00:00:27.810><c> so</c><00:00:28.650><c> the</c><00:00:28.769><c> operating</c><00:00:29.070><c> system</c>
+
+00:00:29.450 --> 00:00:29.460 align:start position:0%
+table it wants so the operating system
+ 
+
+00:00:29.460 --> 00:00:31.370 align:start position:0%
+table it wants so the operating system
+for<00:00:29.580><c> example</c><00:00:30.029><c> may</c><00:00:30.210><c> not</c><00:00:30.240><c> even</c><00:00:30.660><c> have</c><00:00:30.990><c> the</c><00:00:31.019><c> page</c>
+
+00:00:31.370 --> 00:00:31.380 align:start position:0%
+for example may not even have the page
+ 
+
+00:00:31.380 --> 00:00:33.229 align:start position:0%
+for example may not even have the page
+table<00:00:31.769><c> in</c><00:00:31.890><c> form</c><00:00:32.099><c> of</c><00:00:32.219><c> a</c><00:00:32.369><c> table</c><00:00:32.790><c> it</c><00:00:32.910><c> can</c><00:00:33.059><c> use</c><00:00:33.210><c> a</c>
+
+00:00:33.229 --> 00:00:33.239 align:start position:0%
+table in form of a table it can use a
+ 
+
+00:00:33.239 --> 00:00:35.810 align:start position:0%
+table in form of a table it can use a
+binary<00:00:33.570><c> tree</c><00:00:33.870><c> or</c><00:00:34.590><c> a</c><00:00:34.649><c> hash</c><00:00:34.980><c> table</c><00:00:35.430><c> or</c><00:00:35.550><c> anything</c>
+
+00:00:35.810 --> 00:00:35.820 align:start position:0%
+binary tree or a hash table or anything
+ 
+
+00:00:35.820 --> 00:00:38.690 align:start position:0%
+binary tree or a hash table or anything
+else<00:00:36.180><c> it</c><00:00:36.420><c> wants</c><00:00:36.600><c> the</c><00:00:37.040><c> second</c><00:00:38.040><c> option</c><00:00:38.460><c> where</c>
+
+00:00:38.690 --> 00:00:38.700 align:start position:0%
+else it wants the second option where
+ 
+
+00:00:38.700 --> 00:00:40.310 align:start position:0%
+else it wants the second option where
+the<00:00:38.790><c> processor</c><00:00:39.120><c> automatically</c><00:00:39.809><c> reads</c><00:00:40.110><c> page</c>
+
+00:00:40.310 --> 00:00:40.320 align:start position:0%
+the processor automatically reads page
+ 
+
+00:00:40.320 --> 00:00:42.670 align:start position:0%
+the processor automatically reads page
+tables<00:00:40.680><c> and</c><00:00:40.829><c> updates</c><00:00:41.100><c> it</c><00:00:41.250><c> will</c><00:00:41.399><c> be</c><00:00:41.610><c> is</c><00:00:42.210><c> called</c>
+
+00:00:42.670 --> 00:00:42.680 align:start position:0%
+tables and updates it will be is called
+ 
+
+00:00:42.680 --> 00:00:46.130 align:start position:0%
+tables and updates it will be is called
+hardware<00:00:43.680><c> TLB</c><00:00:44.100><c> miss</c><00:00:44.280><c> handling</c><00:00:44.820><c> in</c><00:00:45.539><c> this</c><00:00:45.809><c> case</c>
+
+00:00:46.130 --> 00:00:46.140 align:start position:0%
+hardware TLB miss handling in this case
+ 
+
+00:00:46.140 --> 00:00:49.639 align:start position:0%
+hardware TLB miss handling in this case
+the<00:00:46.950><c> page</c><00:00:47.219><c> tables</c><00:00:47.670><c> need</c><00:00:47.910><c> to</c><00:00:47.940><c> be</c><00:00:48.170><c> in</c><00:00:49.170><c> a</c><00:00:49.320><c> form</c>
+
+00:00:49.639 --> 00:00:49.649 align:start position:0%
+the page tables need to be in a form
+ 
+
+00:00:49.649 --> 00:00:51.049 align:start position:0%
+the page tables need to be in a form
+that<00:00:49.710><c> is</c><00:00:49.860><c> easily</c><00:00:50.190><c> accessible</c><00:00:50.610><c> by</c><00:00:51.000><c> the</c>
+
+00:00:51.049 --> 00:00:51.059 align:start position:0%
+that is easily accessible by the
+ 
+
+00:00:51.059 --> 00:00:54.319 align:start position:0%
+that is easily accessible by the
+hardware<00:00:51.600><c> so</c><00:00:52.199><c> we</c><00:00:52.230><c> will</c><00:00:52.440><c> have</c><00:00:52.680><c> a</c><00:00:53.010><c> flat</c><00:00:53.520><c> or</c><00:00:54.270><c> a</c>
+
+00:00:54.319 --> 00:00:54.329 align:start position:0%
+hardware so we will have a flat or a
+ 
+
+00:00:54.329 --> 00:00:56.689 align:start position:0%
+hardware so we will have a flat or a
+multi-level<00:00:54.960><c> page</c><00:00:55.110><c> table</c><00:00:55.350><c> like</c><00:00:56.129><c> we</c><00:00:56.160><c> have</c><00:00:56.489><c> seen</c>
+
+00:00:56.689 --> 00:00:56.699 align:start position:0%
+multi-level page table like we have seen
+ 
+
+00:00:56.699 --> 00:00:59.450 align:start position:0%
+multi-level page table like we have seen
+already<00:00:56.879><c> in</c><00:00:57.300><c> our</c><00:00:57.480><c> previous</c><00:00:58.050><c> videos</c><00:00:58.469><c> this</c>
+
+00:00:59.450 --> 00:00:59.460 align:start position:0%
+already in our previous videos this
+ 
+
+00:00:59.460 --> 00:01:01.250 align:start position:0%
+already in our previous videos this
+approach<00:00:59.879><c> does</c><00:01:00.120><c> require</c><00:01:00.449><c> more</c><00:01:00.570><c> Hardware</c>
+
+00:01:01.250 --> 00:01:01.260 align:start position:0%
+approach does require more Hardware
+ 
+
+00:01:01.260 --> 00:01:02.810 align:start position:0%
+approach does require more Hardware
+because<00:01:01.859><c> the</c><00:01:01.980><c> hardware</c><00:01:02.280><c> now</c><00:01:02.489><c> needs</c><00:01:02.730><c> to</c>
+
+00:01:02.810 --> 00:01:02.820 align:start position:0%
+because the hardware now needs to
+ 
+
+00:01:02.820 --> 00:01:05.210 align:start position:0%
+because the hardware now needs to
+actually<00:01:03.300><c> be</c><00:01:03.420><c> able</c><00:01:03.539><c> to</c><00:01:03.899><c> access</c><00:01:04.710><c> the</c><00:01:05.010><c> page</c>
+
+00:01:05.210 --> 00:01:05.220 align:start position:0%
+actually be able to access the page
+ 
+
+00:01:05.220 --> 00:01:06.920 align:start position:0%
+actually be able to access the page
+tables<00:01:05.640><c> and</c><00:01:05.820><c> sequence</c><00:01:06.240><c> the</c><00:01:06.360><c> accesses</c><00:01:06.780><c> to</c><00:01:06.810><c> the</c>
+
+00:01:06.920 --> 00:01:06.930 align:start position:0%
+tables and sequence the accesses to the
+ 
+
+00:01:06.930 --> 00:01:09.230 align:start position:0%
+tables and sequence the accesses to the
+multiple<00:01:07.409><c> levels</c><00:01:07.560><c> and</c><00:01:07.860><c> so</c><00:01:08.040><c> on</c><00:01:08.070><c> but</c><00:01:08.880><c> it</c><00:01:09.060><c> is</c>
+
+00:01:09.230 --> 00:01:09.240 align:start position:0%
+multiple levels and so on but it is
+ 
+
+00:01:09.240 --> 00:01:11.600 align:start position:0%
+multiple levels and so on but it is
+faster<00:01:09.750><c> than</c><00:01:09.900><c> software</c><00:01:10.260><c> handling</c><00:01:10.740><c> this</c><00:01:11.430><c> is</c>
+
+00:01:11.600 --> 00:01:11.610 align:start position:0%
+faster than software handling this is
+ 
+
+00:01:11.610 --> 00:01:13.760 align:start position:0%
+faster than software handling this is
+treated<00:01:12.180><c> kind</c><00:01:12.450><c> of</c><00:01:12.570><c> like</c><00:01:12.750><c> a</c><00:01:12.780><c> cache</c><00:01:13.080><c> miss</c><00:01:13.320><c> almost</c>
+
+00:01:13.760 --> 00:01:13.770 align:start position:0%
+treated kind of like a cache miss almost
+ 
+
+00:01:13.770 --> 00:01:15.830 align:start position:0%
+treated kind of like a cache miss almost
+whereas<00:01:14.460><c> here</c><00:01:14.760><c> we</c><00:01:14.939><c> need</c><00:01:15.060><c> to</c><00:01:15.180><c> execute</c><00:01:15.420><c> a</c><00:01:15.630><c> little</c>
+
+00:01:15.830 --> 00:01:15.840 align:start position:0%
+whereas here we need to execute a little
+ 
+
+00:01:15.840 --> 00:01:18.320 align:start position:0%
+whereas here we need to execute a little
+program<00:01:16.259><c> to</c><00:01:16.439><c> fill</c><00:01:16.619><c> the</c><00:01:16.770><c> TLB</c><00:01:17.130><c> so</c><00:01:17.820><c> because</c><00:01:18.150><c> this</c>
+
+00:01:18.320 --> 00:01:18.330 align:start position:0%
+program to fill the TLB so because this
+ 
+
+00:01:18.330 --> 00:01:21.560 align:start position:0%
+program to fill the TLB so because this
+is<00:01:18.680><c> faster</c><00:01:19.680><c> and</c><00:01:19.890><c> because</c><00:01:20.280><c> hardware</c><00:01:21.240><c> is</c><00:01:21.330><c> cheap</c>
+
+00:01:21.560 --> 00:01:21.570 align:start position:0%
+is faster and because hardware is cheap
+ 
+
+00:01:21.570 --> 00:01:23.630 align:start position:0%
+is faster and because hardware is cheap
+these<00:01:21.810><c> days</c><00:01:22.020><c> most</c><00:01:22.710><c> high</c><00:01:23.070><c> performance</c>
+
+00:01:23.630 --> 00:01:23.640 align:start position:0%
+these days most high performance
+ 
+
+00:01:23.640 --> 00:01:26.990 align:start position:0%
+these days most high performance
+processors<00:01:23.850><c> like</c><00:01:24.890><c> x86</c><00:01:25.890><c> will</c><00:01:26.580><c> use</c><00:01:26.759><c> this</c>
+
+00:01:26.990 --> 00:01:27.000 align:start position:0%
+processors like x86 will use this
+ 
+
+00:01:27.000 --> 00:01:29.300 align:start position:0%
+processors like x86 will use this
+approach<00:01:27.390><c> of</c><00:01:27.689><c> hardware</c><00:01:28.320><c> TLB</c><00:01:28.680><c> miss</c><00:01:28.860><c> handling</c>
+
+00:01:29.300 --> 00:01:29.310 align:start position:0%
+approach of hardware TLB miss handling
+ 
+
+00:01:29.310 --> 00:01:32.450 align:start position:0%
+approach of hardware TLB miss handling
+but<00:01:30.060><c> some</c><00:01:30.360><c> embedded</c><00:01:30.840><c> processors</c><00:01:31.619><c> will</c><00:01:32.250><c> use</c>
+
+00:01:32.450 --> 00:01:32.460 align:start position:0%
+but some embedded processors will use
+ 
+
+00:01:32.460 --> 00:01:34.850 align:start position:0%
+but some embedded processors will use
+the<00:01:32.700><c> software</c><00:01:33.119><c> TLB</c><00:01:33.540><c> miss</c><00:01:33.689><c> handling</c><00:01:34.170><c> because</c>
+
+00:01:34.850 --> 00:01:34.860 align:start position:0%
+the software TLB miss handling because
+ 
+
+00:01:34.860 --> 00:01:36.440 align:start position:0%
+the software TLB miss handling because
+they<00:01:35.070><c> are</c><00:01:35.130><c> concerned</c><00:01:35.579><c> about</c><00:01:35.759><c> the</c><00:01:36.060><c> hardware</c>
+
+00:01:36.440 --> 00:01:36.450 align:start position:0%
+they are concerned about the hardware
+ 
+
+00:01:36.450 --> 00:01:39.319 align:start position:0%
+they are concerned about the hardware
+cost<00:01:36.960><c> so</c><00:01:37.920><c> they</c><00:01:38.070><c> want</c><00:01:38.280><c> to</c><00:01:38.670><c> be</c><00:01:38.820><c> as</c><00:01:38.909><c> simple</c><00:01:39.150><c> as</c>
+
+00:01:39.319 --> 00:01:39.329 align:start position:0%
+cost so they want to be as simple as
+ 
+
+00:01:39.329 --> 00:01:41.749 align:start position:0%
+cost so they want to be as simple as
+possible<00:01:39.540><c> and</c><00:01:40.110><c> also</c><00:01:40.979><c> because</c><00:01:41.340><c> in</c><00:01:41.640><c> these</c>
+
+00:01:41.749 --> 00:01:41.759 align:start position:0%
+possible and also because in these
+ 
+
+00:01:41.759 --> 00:01:44.359 align:start position:0%
+possible and also because in these
+embedded<00:01:42.270><c> processors</c><00:01:42.840><c> TLB</c><00:01:43.770><c> misses</c><00:01:43.979><c> occur</c>
+
+00:01:44.359 --> 00:01:44.369 align:start position:0%
+embedded processors TLB misses occur
+ 
+
+00:01:44.369 --> 00:01:46.609 align:start position:0%
+embedded processors TLB misses occur
+less<00:01:44.880><c> frequently</c><00:01:45.259><c> because</c><00:01:46.259><c> they</c><00:01:46.409><c> are</c><00:01:46.470><c> running</c>
+
+00:01:46.609 --> 00:01:46.619 align:start position:0%
+less frequently because they are running
+ 
+
+00:01:46.619 --> 00:01:50.299 align:start position:0%
+less frequently because they are running
+more<00:01:47.189><c> regular</c><00:01:47.640><c> applications</c>
+

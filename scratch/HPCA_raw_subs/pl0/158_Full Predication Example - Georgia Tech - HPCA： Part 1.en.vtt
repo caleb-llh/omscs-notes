@@ -1,0 +1,432 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.060 --> 00:00:01.790 align:start position:0%
+ 
+so<00:00:00.329><c> let's</c><00:00:00.510><c> say</c><00:00:00.659><c> we</c><00:00:00.810><c> have</c><00:00:00.989><c> this</c><00:00:01.140><c> code</c><00:00:01.439><c> where</c>
+
+00:00:01.790 --> 00:00:01.800 align:start position:0%
+so let's say we have this code where
+ 
+
+00:00:01.800 --> 00:00:05.630 align:start position:0%
+so let's say we have this code where
+again<00:00:02.570><c> r1</c><00:00:03.570><c> is</c><00:00:03.870><c> compared</c><00:00:04.380><c> to</c><00:00:04.440><c> zero</c><00:00:04.799><c> any</c><00:00:05.370><c> branch</c>
+
+00:00:05.630 --> 00:00:05.640 align:start position:0%
+again r1 is compared to zero any branch
+ 
+
+00:00:05.640 --> 00:00:09.290 align:start position:0%
+again r1 is compared to zero any branch
+here<00:00:06.150><c> if</c><00:00:06.330><c> it's</c><00:00:06.509><c> equal</c><00:00:06.690><c> to</c><00:00:07.080><c> zero</c><00:00:07.770><c> if</c><00:00:08.340><c> it's</c><00:00:09.120><c> not</c>
+
+00:00:09.290 --> 00:00:09.300 align:start position:0%
+here if it's equal to zero if it's not
+ 
+
+00:00:09.300 --> 00:00:11.330 align:start position:0%
+here if it's equal to zero if it's not
+equal<00:00:09.510><c> to</c><00:00:09.690><c> zero</c><00:00:10.050><c> we</c><00:00:10.200><c> do</c><00:00:10.320><c> this</c><00:00:10.500><c> and</c><00:00:10.860><c> branch</c><00:00:11.099><c> out</c>
+
+00:00:11.330 --> 00:00:11.340 align:start position:0%
+equal to zero we do this and branch out
+ 
+
+00:00:11.340 --> 00:00:14.150 align:start position:0%
+equal to zero we do this and branch out
+if<00:00:12.179><c> it</c><00:00:12.480><c> is</c><00:00:12.690><c> equal</c><00:00:13.049><c> to</c><00:00:13.080><c> zero</c><00:00:13.410><c> we</c><00:00:13.559><c> do</c><00:00:13.679><c> this</c><00:00:13.860><c> and</c>
+
+00:00:14.150 --> 00:00:14.160 align:start position:0%
+if it is equal to zero we do this and
+ 
+
+00:00:14.160 --> 00:00:16.820 align:start position:0%
+if it is equal to zero we do this and
+continue<00:00:14.969><c> we</c><00:00:15.540><c> have</c><00:00:15.719><c> seen</c><00:00:15.990><c> that</c><00:00:16.289><c> this</c><00:00:16.470><c> code</c>
+
+00:00:16.820 --> 00:00:16.830 align:start position:0%
+continue we have seen that this code
+ 
+
+00:00:16.830 --> 00:00:19.460 align:start position:0%
+continue we have seen that this code
+results<00:00:17.430><c> in</c><00:00:17.789><c> four</c><00:00:18.270><c> instructions</c><00:00:18.930><c> worth</c><00:00:19.199><c> of</c>
+
+00:00:19.460 --> 00:00:19.470 align:start position:0%
+results in four instructions worth of
+ 
+
+00:00:19.470 --> 00:00:21.620 align:start position:0%
+results in four instructions worth of
+execution<00:00:20.310><c> when</c><00:00:20.699><c> we</c><00:00:20.820><c> have</c><00:00:21.000><c> the</c><00:00:21.150><c> conditional</c>
+
+00:00:21.620 --> 00:00:21.630 align:start position:0%
+execution when we have the conditional
+ 
+
+00:00:21.630 --> 00:00:24.170 align:start position:0%
+execution when we have the conditional
+moves<00:00:21.980><c> two</c><00:00:22.980><c> instructions</c><00:00:23.580><c> that</c><00:00:23.670><c> actually</c><00:00:24.029><c> do</c>
+
+00:00:24.170 --> 00:00:24.180 align:start position:0%
+moves two instructions that actually do
+ 
+
+00:00:24.180 --> 00:00:26.720 align:start position:0%
+moves two instructions that actually do
+the<00:00:24.330><c> work</c><00:00:24.359><c> of</c><00:00:24.750><c> adye's</c><00:00:25.050><c> and</c><00:00:25.650><c> two</c><00:00:26.189><c> instructions</c>
+
+00:00:26.720 --> 00:00:26.730 align:start position:0%
+the work of adye's and two instructions
+ 
+
+00:00:26.730 --> 00:00:28.700 align:start position:0%
+the work of adye's and two instructions
+that<00:00:26.849><c> conditionally</c><00:00:27.689><c> write</c><00:00:27.840><c> results</c><00:00:28.320><c> back</c><00:00:28.529><c> to</c>
+
+00:00:28.700 --> 00:00:28.710 align:start position:0%
+that conditionally write results back to
+ 
+
+00:00:28.710 --> 00:00:31.939 align:start position:0%
+that conditionally write results back to
+r2<00:00:29.130><c> and</c><00:00:29.340><c> r3</c><00:00:29.519><c> with</c><00:00:30.420><c> full</c><00:00:30.689><c> predication</c><00:00:30.949><c> Allah</c>
+
+00:00:31.939 --> 00:00:31.949 align:start position:0%
+r2 and r3 with full predication Allah
+ 
+
+00:00:31.949 --> 00:00:35.240 align:start position:0%
+r2 and r3 with full predication Allah
+the<00:00:32.369><c> Itanium</c><00:00:32.669><c> we</c><00:00:33.510><c> get</c><00:00:33.750><c> the</c><00:00:34.440><c> condition</c><00:00:34.980><c> check</c>
+
+00:00:35.240 --> 00:00:35.250 align:start position:0%
+the Itanium we get the condition check
+ 
+
+00:00:35.250 --> 00:00:38.660 align:start position:0%
+the Itanium we get the condition check
+is<00:00:35.520><c> done</c><00:00:35.840><c> using</c><00:00:36.840><c> the</c><00:00:37.430><c> predicate</c><00:00:38.430><c> set</c>
+
+00:00:38.660 --> 00:00:38.670 align:start position:0%
+is done using the predicate set
+ 
+
+00:00:38.670 --> 00:00:41.959 align:start position:0%
+is done using the predicate set
+instruction<00:00:39.200><c> that</c><00:00:40.200><c> compares</c><00:00:40.649><c> equals</c><00:00:41.430><c> zero</c><00:00:41.700><c> on</c>
+
+00:00:41.959 --> 00:00:41.969 align:start position:0%
+instruction that compares equals zero on
+ 
+
+00:00:41.969 --> 00:00:47.990 align:start position:0%
+instruction that compares equals zero on
+r1<00:00:42.809><c> and</c><00:00:43.340><c> sets</c><00:00:44.340><c> p1</c><00:00:45.059><c> and</c><00:00:45.360><c> p2</c><00:00:45.930><c> accordingly</c><00:00:47.000><c> the</c>
+
+00:00:47.990 --> 00:00:48.000 align:start position:0%
+r1 and sets p1 and p2 accordingly the
+ 
+
+00:00:48.000 --> 00:00:50.299 align:start position:0%
+r1 and sets p1 and p2 accordingly the
+predicates<00:00:48.539><c> are</c><00:00:48.719><c> always</c><00:00:48.960><c> set</c><00:00:49.200><c> opposite</c><00:00:50.070><c> of</c>
+
+00:00:50.299 --> 00:00:50.309 align:start position:0%
+predicates are always set opposite of
+ 
+
+00:00:50.309 --> 00:00:54.590 align:start position:0%
+predicates are always set opposite of
+each<00:00:50.460><c> other</c><00:00:50.700><c> so</c><00:00:51.000><c> that</c><00:00:51.480><c> if</c><00:00:52.079><c> r1</c><00:00:52.590><c> is</c><00:00:53.039><c> 0</c><00:00:53.489><c> P</c><00:00:54.030><c> 1</c><00:00:54.059><c> is</c><00:00:54.390><c> set</c>
+
+00:00:54.590 --> 00:00:54.600 align:start position:0%
+each other so that if r1 is 0 P 1 is set
+ 
+
+00:00:54.600 --> 00:00:58.849 align:start position:0%
+each other so that if r1 is 0 P 1 is set
+to<00:00:54.780><c> true</c><00:00:54.960><c> and</c><00:00:55.260><c> P</c><00:00:55.649><c> 2</c><00:00:55.890><c> to</c><00:00:56.070><c> false</c><00:00:56.370><c> if</c><00:00:57.360><c> r1</c><00:00:58.050><c> is</c><00:00:58.469><c> not</c>
+
+00:00:58.849 --> 00:00:58.859 align:start position:0%
+to true and P 2 to false if r1 is not
+ 
+
+00:00:58.859 --> 00:01:01.430 align:start position:0%
+to true and P 2 to false if r1 is not
+equal<00:00:59.250><c> to</c><00:00:59.399><c> 0</c><00:00:59.730><c> then</c><00:00:59.940><c> P</c><00:01:00.210><c> 1</c><00:01:00.390><c> is</c><00:01:00.539><c> set</c><00:01:00.750><c> to</c><00:01:00.870><c> false</c><00:01:01.140><c> and</c>
+
+00:01:01.430 --> 00:01:01.440 align:start position:0%
+equal to 0 then P 1 is set to false and
+ 
+
+00:01:01.440 --> 00:01:04.579 align:start position:0%
+equal to 0 then P 1 is set to false and
+P<00:01:01.680><c> 2</c><00:01:01.920><c> is</c><00:01:02.129><c> set</c><00:01:02.340><c> to</c><00:01:02.489><c> true</c><00:01:02.840><c> now</c><00:01:03.840><c> we</c><00:01:03.899><c> can</c><00:01:04.140><c> simply</c><00:01:04.470><c> do</c>
+
+00:01:04.579 --> 00:01:04.589 align:start position:0%
+P 2 is set to true now we can simply do
+ 
+
+00:01:04.589 --> 00:01:08.090 align:start position:0%
+P 2 is set to true now we can simply do
+the<00:01:04.769><c> add</c><00:01:04.920><c> I</c><00:01:05.159><c> of</c><00:01:05.369><c> 1</c><00:01:05.670><c> plus</c><00:01:05.939><c> R</c><00:01:06.180><c> 2</c><00:01:06.420><c> into</c><00:01:06.689><c> R</c><00:01:06.869><c> 2</c><00:01:07.080><c> but</c><00:01:07.950><c> we</c>
+
+00:01:08.090 --> 00:01:08.100 align:start position:0%
+the add I of 1 plus R 2 into R 2 but we
+ 
+
+00:01:08.100 --> 00:01:10.010 align:start position:0%
+the add I of 1 plus R 2 into R 2 but we
+will<00:01:08.250><c> predicate</c><00:01:08.729><c> it</c><00:01:08.880><c> with</c><00:01:09.060><c> p2</c><00:01:09.479><c> so</c><00:01:09.750><c> that</c><00:01:09.900><c> it</c>
+
+00:01:10.010 --> 00:01:10.020 align:start position:0%
+will predicate it with p2 so that it
+ 
+
+00:01:10.020 --> 00:01:13.370 align:start position:0%
+will predicate it with p2 so that it
+only<00:01:10.260><c> gets</c><00:01:10.619><c> done</c><00:01:10.950><c> if</c><00:01:11.400><c> r1</c><00:01:11.760><c> was</c><00:01:12.270><c> not</c><00:01:12.510><c> equal</c><00:01:12.960><c> to</c><00:01:13.140><c> 0</c>
+
+00:01:13.370 --> 00:01:13.380 align:start position:0%
+only gets done if r1 was not equal to 0
+ 
+
+00:01:13.380 --> 00:01:16.840 align:start position:0%
+only gets done if r1 was not equal to 0
+and<00:01:13.619><c> then</c><00:01:14.369><c> this</c><00:01:15.119><c> instruction</c><00:01:15.360><c> becomes</c>
+
+00:01:16.840 --> 00:01:16.850 align:start position:0%
+and then this instruction becomes
+ 
+
+00:01:16.850 --> 00:01:19.730 align:start position:0%
+and then this instruction becomes
+exactly<00:01:17.850><c> what</c><00:01:18.150><c> it</c><00:01:18.330><c> was</c><00:01:18.509><c> here</c><00:01:18.930><c> except</c><00:01:19.439><c> that</c><00:01:19.590><c> now</c>
+
+00:01:19.730 --> 00:01:19.740 align:start position:0%
+exactly what it was here except that now
+ 
+
+00:01:19.740 --> 00:01:21.649 align:start position:0%
+exactly what it was here except that now
+it's<00:01:19.950><c> predicated</c><00:01:20.640><c> so</c><00:01:20.850><c> that</c><00:01:21.000><c> it</c><00:01:21.119><c> only</c><00:01:21.330><c> gets</c>
+
+00:01:21.649 --> 00:01:21.659 align:start position:0%
+it's predicated so that it only gets
+ 
+
+00:01:21.659 --> 00:01:25.130 align:start position:0%
+it's predicated so that it only gets
+done<00:01:21.960><c> if</c><00:01:22.200><c> R</c><00:01:22.530><c> 1</c><00:01:22.740><c> is</c><00:01:23.009><c> equal</c><00:01:23.220><c> to</c><00:01:23.490><c> 0</c><00:01:23.850><c> so</c><00:01:24.630><c> as</c><00:01:24.810><c> you</c><00:01:24.960><c> can</c>
+
+00:01:25.130 --> 00:01:25.140 align:start position:0%
+done if R 1 is equal to 0 so as you can
+ 
+
+00:01:25.140 --> 00:01:28.580 align:start position:0%
+done if R 1 is equal to 0 so as you can
+see<00:01:25.350><c> with</c><00:01:26.070><c> this</c><00:01:26.509><c> after</c><00:01:27.509><c> we</c><00:01:27.689><c> do</c><00:01:27.869><c> this</c><00:01:28.020><c> initial</c>
+
+00:01:28.580 --> 00:01:28.590 align:start position:0%
+see with this after we do this initial
+ 
+
+00:01:28.590 --> 00:01:30.499 align:start position:0%
+see with this after we do this initial
+instruction<00:01:29.579><c> that</c><00:01:29.729><c> simply</c><00:01:30.090><c> sets</c><00:01:30.360><c> the</c>
+
+00:01:30.499 --> 00:01:30.509 align:start position:0%
+instruction that simply sets the
+ 
+
+00:01:30.509 --> 00:01:33.679 align:start position:0%
+instruction that simply sets the
+predicate<00:01:31.049><c> any</c><00:01:31.380><c> code</c><00:01:32.159><c> that</c><00:01:32.460><c> was</c><00:01:32.610><c> here</c><00:01:33.030><c> simply</c>
+
+00:01:33.679 --> 00:01:33.689 align:start position:0%
+predicate any code that was here simply
+ 
+
+00:01:33.689 --> 00:01:36.230 align:start position:0%
+predicate any code that was here simply
+gets<00:01:34.530><c> predicated</c><00:01:35.340><c> with</c><00:01:35.520><c> one</c><00:01:35.970><c> of</c><00:01:36.150><c> the</c>
+
+00:01:36.230 --> 00:01:36.240 align:start position:0%
+gets predicated with one of the
+ 
+
+00:01:36.240 --> 00:01:38.060 align:start position:0%
+gets predicated with one of the
+conditions<00:01:36.780><c> the</c><00:01:37.470><c> opposite</c><00:01:37.890><c> condition</c>
+
+00:01:38.060 --> 00:01:38.070 align:start position:0%
+conditions the opposite condition
+ 
+
+00:01:38.070 --> 00:01:40.719 align:start position:0%
+conditions the opposite condition
+predicates<00:01:38.759><c> the</c><00:01:38.939><c> other</c><00:01:39.360><c> branches</c><00:01:40.110><c> code</c><00:01:40.380><c> and</c>
+
+00:01:40.719 --> 00:01:40.729 align:start position:0%
+predicates the other branches code and
+ 
+
+00:01:40.729 --> 00:01:43.670 align:start position:0%
+predicates the other branches code and
+that<00:01:41.729><c> means</c><00:01:42.119><c> that</c><00:01:42.329><c> first</c><00:01:42.780><c> of</c><00:01:43.020><c> all</c><00:01:43.200><c> we</c><00:01:43.439><c> can</c><00:01:43.649><c> use</c>
+
+00:01:43.670 --> 00:01:43.680 align:start position:0%
+that means that first of all we can use
+ 
+
+00:01:43.680 --> 00:01:45.950 align:start position:0%
+that means that first of all we can use
+the<00:01:43.950><c> same</c><00:01:44.159><c> registers</c><00:01:44.759><c> that</c><00:01:44.790><c> we</c><00:01:45.119><c> use</c><00:01:45.270><c> before</c><00:01:45.689><c> we</c>
+
+00:01:45.950 --> 00:01:45.960 align:start position:0%
+the same registers that we use before we
+ 
+
+00:01:45.960 --> 00:01:48.200 align:start position:0%
+the same registers that we use before we
+don't<00:01:46.170><c> need</c><00:01:46.290><c> the</c><00:01:46.439><c> additional</c><00:01:46.649><c> r4</c><00:01:47.369><c> and</c><00:01:47.549><c> r5</c><00:01:47.909><c> that</c>
+
+00:01:48.200 --> 00:01:48.210 align:start position:0%
+don't need the additional r4 and r5 that
+ 
+
+00:01:48.210 --> 00:01:49.749 align:start position:0%
+don't need the additional r4 and r5 that
+we<00:01:48.329><c> had</c><00:01:48.479><c> in</c><00:01:48.600><c> the</c><00:01:48.689><c> previous</c><00:01:48.840><c> example</c><00:01:49.560><c> and</c>
+
+00:01:49.749 --> 00:01:49.759 align:start position:0%
+we had in the previous example and
+ 
+
+00:01:49.759 --> 00:01:54.710 align:start position:0%
+we had in the previous example and
+second<00:01:51.110><c> we</c><00:01:52.110><c> still</c><00:01:52.380><c> do</c><00:01:52.649><c> have</c><00:01:52.950><c> the</c><00:01:53.759><c> work</c><00:01:53.970><c> of</c><00:01:54.270><c> both</c>
+
+00:01:54.710 --> 00:01:54.720 align:start position:0%
+second we still do have the work of both
+ 
+
+00:01:54.720 --> 00:01:57.350 align:start position:0%
+second we still do have the work of both
+paths<00:01:55.130><c> but</c><00:01:56.130><c> there</c><00:01:56.310><c> is</c><00:01:56.399><c> no</c><00:01:56.579><c> additional</c><00:01:57.060><c> work</c><00:01:57.119><c> to</c>
+
+00:01:57.350 --> 00:01:57.360 align:start position:0%
+paths but there is no additional work to
+ 
+
+00:01:57.360 --> 00:02:00.080 align:start position:0%
+paths but there is no additional work to
+now<00:01:57.719><c> move</c><00:01:57.990><c> the</c><00:01:58.350><c> results</c><00:01:58.799><c> into</c><00:01:58.950><c> the</c><00:01:59.340><c> registers</c>
+
+00:02:00.080 --> 00:02:00.090 align:start position:0%
+now move the results into the registers
+ 
+
+00:02:00.090 --> 00:02:02.090 align:start position:0%
+now move the results into the registers
+that<00:02:00.119><c> have</c><00:02:00.360><c> the</c><00:02:00.450><c> destination</c><00:02:00.930><c> registers</c><00:02:01.439><c> so</c>
+
+00:02:02.090 --> 00:02:02.100 align:start position:0%
+that have the destination registers so
+ 
+
+00:02:02.100 --> 00:02:04.130 align:start position:0%
+that have the destination registers so
+the<00:02:02.280><c> overhead</c><00:02:02.670><c> here</c><00:02:02.700><c> is</c><00:02:03.090><c> kind</c><00:02:03.450><c> of</c><00:02:03.540><c> similar</c><00:02:03.780><c> to</c>
+
+00:02:04.130 --> 00:02:04.140 align:start position:0%
+the overhead here is kind of similar to
+ 
+
+00:02:04.140 --> 00:02:05.660 align:start position:0%
+the overhead here is kind of similar to
+what<00:02:04.259><c> we</c><00:02:04.380><c> had</c><00:02:04.530><c> with</c><00:02:04.710><c> branches</c><00:02:05.130><c> with</c><00:02:05.280><c> branches</c>
+
+00:02:05.660 --> 00:02:05.670 align:start position:0%
+what we had with branches with branches
+ 
+
+00:02:05.670 --> 00:02:08.020 align:start position:0%
+what we had with branches with branches
+we<00:02:05.790><c> needed</c><00:02:06.030><c> to</c><00:02:06.119><c> have</c><00:02:06.240><c> the</c><00:02:06.420><c> branch</c><00:02:06.689><c> and</c><00:02:07.049><c> then</c>
+
+00:02:08.020 --> 00:02:08.030 align:start position:0%
+we needed to have the branch and then
+ 
+
+00:02:08.030 --> 00:02:12.940 align:start position:0%
+we needed to have the branch and then
+the<00:02:09.030><c> code</c><00:02:09.300><c> from</c><00:02:09.959><c> either</c><00:02:10.500><c> path</c><00:02:10.920><c> here</c><00:02:11.819><c> we</c><00:02:12.000><c> have</c>
+
+00:02:12.940 --> 00:02:12.950 align:start position:0%
+the code from either path here we have
+ 
+
+00:02:12.950 --> 00:02:15.820 align:start position:0%
+the code from either path here we have
+the<00:02:13.700><c> condition</c><00:02:14.210><c> set</c><00:02:14.540><c> followed</c><00:02:15.290><c> by</c><00:02:15.500><c> the</c><00:02:15.560><c> code</c>
+
+00:02:15.820 --> 00:02:15.830 align:start position:0%
+the condition set followed by the code
+ 
+
+00:02:15.830 --> 00:02:17.500 align:start position:0%
+the condition set followed by the code
+from<00:02:16.069><c> both</c><00:02:16.280><c> parts</c><00:02:16.730><c> so</c><00:02:16.880><c> the</c><00:02:17.000><c> only</c><00:02:17.180><c> really</c>
+
+00:02:17.500 --> 00:02:17.510 align:start position:0%
+from both parts so the only really
+ 
+
+00:02:17.510 --> 00:02:19.000 align:start position:0%
+from both parts so the only really
+overhead<00:02:18.110><c> that</c><00:02:18.200><c> we</c><00:02:18.380><c> have</c><00:02:18.560><c> in</c><00:02:18.680><c> terms</c><00:02:18.770><c> of</c>
+
+00:02:19.000 --> 00:02:19.010 align:start position:0%
+overhead that we have in terms of
+ 
+
+00:02:19.010 --> 00:02:21.309 align:start position:0%
+overhead that we have in terms of
+executing<00:02:19.520><c> more</c><00:02:19.700><c> instructions</c><00:02:20.300><c> comes</c><00:02:20.900><c> from</c>
+
+00:02:21.309 --> 00:02:21.319 align:start position:0%
+executing more instructions comes from
+ 
+
+00:02:21.319 --> 00:02:24.370 align:start position:0%
+executing more instructions comes from
+doing<00:02:21.920><c> the</c><00:02:22.040><c> work</c><00:02:22.190><c> of</c><00:02:22.370><c> both</c><00:02:22.700><c> paths</c><00:02:23.510><c> instead</c><00:02:24.230><c> of</c>
+
+00:02:24.370 --> 00:02:24.380 align:start position:0%
+doing the work of both paths instead of
+ 
+
+00:02:24.380 --> 00:02:26.350 align:start position:0%
+doing the work of both paths instead of
+just<00:02:24.740><c> one</c><00:02:24.980><c> but</c><00:02:25.670><c> there</c><00:02:25.850><c> are</c><00:02:25.970><c> no</c><00:02:26.090><c> additional</c>
+
+00:02:26.350 --> 00:02:26.360 align:start position:0%
+just one but there are no additional
+ 
+
+00:02:26.360 --> 00:02:28.120 align:start position:0%
+just one but there are no additional
+instructions<00:02:27.080><c> to</c><00:02:27.200><c> select</c><00:02:27.560><c> between</c><00:02:27.740><c> the</c>
+
+00:02:28.120 --> 00:02:28.130 align:start position:0%
+instructions to select between the
+ 
+
+00:02:28.130 --> 00:02:30.700 align:start position:0%
+instructions to select between the
+results
+

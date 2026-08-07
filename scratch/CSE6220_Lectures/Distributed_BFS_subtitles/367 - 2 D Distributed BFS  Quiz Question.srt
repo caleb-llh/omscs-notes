@@ -1,0 +1,24 @@
+1
+00:00:00,260 --> 00:00:03,910
+ The 1-D distributed breadth first search scheme has a communication cost that
+
+2
+00:00:03,910 --> 00:00:06,580
+ scales linearly in the number of processes.
+
+3
+00:00:06,580 --> 00:00:08,230
+ Here is my question.
+
+4
+00:00:08,230 --> 00:00:12,380
+ Suppose you switch from a 1-D scheme to a 2-D scheme.
+
+5
+00:00:12,380 --> 00:00:16,790
+ How would you expect this linear scaling to change in the 2-D case?
+
+6
+00:00:16,790 --> 00:00:16,790
+ Write and explain your answer in this box.
+

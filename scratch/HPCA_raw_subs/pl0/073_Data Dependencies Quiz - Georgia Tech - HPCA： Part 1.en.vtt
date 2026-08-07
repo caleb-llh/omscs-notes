@@ -1,0 +1,248 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.699 align:start position:0%
+ 
+now<00:00:00.240><c> that</c><00:00:00.450><c> you</c><00:00:00.570><c> have</c><00:00:00.599><c> seen</c><00:00:00.960><c> what</c><00:00:01.500><c> data</c>
+
+00:00:01.699 --> 00:00:01.709 align:start position:0%
+now that you have seen what data
+ 
+
+00:00:01.709 --> 00:00:04.130 align:start position:0%
+now that you have seen what data
+dependencies<00:00:02.429><c> look</c><00:00:02.639><c> like</c><00:00:02.850><c> let's</c><00:00:03.449><c> do</c><00:00:03.659><c> a</c><00:00:03.689><c> data</c>
+
+00:00:04.130 --> 00:00:04.140 align:start position:0%
+dependencies look like let's do a data
+ 
+
+00:00:04.140 --> 00:00:07.220 align:start position:0%
+dependencies look like let's do a data
+dependencies<00:00:04.830><c> quiz</c><00:00:05.270><c> to</c><00:00:06.270><c> see</c><00:00:06.299><c> if</c><00:00:06.540><c> you</c><00:00:06.629><c> can</c><00:00:06.899><c> find</c>
+
+00:00:07.220 --> 00:00:07.230 align:start position:0%
+dependencies quiz to see if you can find
+ 
+
+00:00:07.230 --> 00:00:09.709 align:start position:0%
+dependencies quiz to see if you can find
+data<00:00:07.440><c> dependencies</c><00:00:08.160><c> in</c><00:00:08.340><c> the</c><00:00:08.370><c> program</c><00:00:08.849><c> let's</c>
+
+00:00:09.709 --> 00:00:09.719 align:start position:0%
+data dependencies in the program let's
+ 
+
+00:00:09.719 --> 00:00:11.540 align:start position:0%
+data dependencies in the program let's
+say<00:00:09.900><c> that</c><00:00:10.080><c> these</c><00:00:10.230><c> are</c><00:00:10.290><c> 4</c><00:00:10.740><c> instructions</c><00:00:11.070><c> in</c><00:00:11.429><c> our</c>
+
+00:00:11.540 --> 00:00:11.550 align:start position:0%
+say that these are 4 instructions in our
+ 
+
+00:00:11.550 --> 00:00:15.259 align:start position:0%
+say that these are 4 instructions in our
+program<00:00:12.469><c> instruction</c><00:00:13.469><c> 1</c><00:00:13.679><c> multiplies</c><00:00:14.580><c> R</c><00:00:14.880><c> 2</c><00:00:15.120><c> and</c>
+
+00:00:15.259 --> 00:00:15.269 align:start position:0%
+program instruction 1 multiplies R 2 and
+ 
+
+00:00:15.269 --> 00:00:18.470 align:start position:0%
+program instruction 1 multiplies R 2 and
+R<00:00:15.420><c> 3</c><00:00:15.480><c> puts</c><00:00:16.049><c> the</c><00:00:16.170><c> result</c><00:00:16.500><c> in</c><00:00:16.680><c> R</c><00:00:16.830><c> 1</c><00:00:17.480><c> instruction</c>
+
+00:00:18.470 --> 00:00:18.480 align:start position:0%
+R 3 puts the result in R 1 instruction
+ 
+
+00:00:18.480 --> 00:00:22.099 align:start position:0%
+R 3 puts the result in R 1 instruction
+to<00:00:18.740><c> takes</c><00:00:19.740><c> R</c><00:00:19.980><c> 4</c><00:00:20.279><c> and</c><00:00:20.310><c> R</c><00:00:20.640><c> 1</c><00:00:20.850><c> add</c><00:00:21.119><c> them</c><00:00:21.510><c> up</c><00:00:21.660><c> and</c><00:00:21.900><c> put</c>
+
+00:00:22.099 --> 00:00:22.109 align:start position:0%
+to takes R 4 and R 1 add them up and put
+ 
+
+00:00:22.109 --> 00:00:25.160 align:start position:0%
+to takes R 4 and R 1 add them up and put
+the<00:00:22.260><c> result</c><00:00:22.590><c> in</c><00:00:22.740><c> R</c><00:00:22.859><c> for</c><00:00:23.930><c> instruction</c><00:00:24.930><c> 3</c>
+
+00:00:25.160 --> 00:00:25.170 align:start position:0%
+the result in R for instruction 3
+ 
+
+00:00:25.170 --> 00:00:28.310 align:start position:0%
+the result in R for instruction 3
+multiplies<00:00:26.099><c> r5</c><00:00:26.699><c> and</c><00:00:26.939><c> r6</c><00:00:27.060><c> puts</c><00:00:27.689><c> the</c><00:00:27.840><c> result</c><00:00:28.170><c> in</c>
+
+00:00:28.310 --> 00:00:28.320 align:start position:0%
+multiplies r5 and r6 puts the result in
+ 
+
+00:00:28.320 --> 00:00:31.900 align:start position:0%
+multiplies r5 and r6 puts the result in
+r1<00:00:28.470><c> and</c><00:00:29.010><c> the</c><00:00:29.970><c> subtract</c><00:00:30.420><c> here</c><00:00:30.840><c> instruction</c><00:00:31.529><c> 4</c>
+
+00:00:31.900 --> 00:00:31.910 align:start position:0%
+r1 and the subtract here instruction 4
+ 
+
+00:00:31.910 --> 00:00:34.819 align:start position:0%
+r1 and the subtract here instruction 4
+subtracts<00:00:32.910><c> r1</c><00:00:33.329><c> from</c><00:00:33.600><c> R</c><00:00:33.840><c> 4</c><00:00:34.170><c> and</c><00:00:34.350><c> puts</c><00:00:34.710><c> the</c>
+
+00:00:34.819 --> 00:00:34.829 align:start position:0%
+subtracts r1 from R 4 and puts the
+ 
+
+00:00:34.829 --> 00:00:36.979 align:start position:0%
+subtracts r1 from R 4 and puts the
+result<00:00:35.130><c> back</c><00:00:35.489><c> in</c><00:00:35.700><c> our</c><00:00:35.850><c> for</c><00:00:36.149><c> you</c><00:00:36.600><c> need</c><00:00:36.809><c> to</c>
+
+00:00:36.979 --> 00:00:36.989 align:start position:0%
+result back in our for you need to
+ 
+
+00:00:36.989 --> 00:00:38.950 align:start position:0%
+result back in our for you need to
+indicate<00:00:37.469><c> whether</c><00:00:38.430><c> there</c><00:00:38.760><c> are</c><00:00:38.790><c> any</c>
+
+00:00:38.950 --> 00:00:38.960 align:start position:0%
+indicate whether there are any
+ 
+
+00:00:38.960 --> 00:00:41.900 align:start position:0%
+indicate whether there are any
+dependencies<00:00:39.960><c> between</c><00:00:40.140><c> instruction</c><00:00:40.980><c> i1</c><00:00:41.219><c> and</c>
+
+00:00:41.900 --> 00:00:41.910 align:start position:0%
+dependencies between instruction i1 and
+ 
+
+00:00:41.910 --> 00:00:45.139 align:start position:0%
+dependencies between instruction i1 and
+i2<00:00:42.620><c> for</c><00:00:43.620><c> each</c><00:00:43.770><c> of</c><00:00:44.070><c> these</c><00:00:44.399><c> three</c><00:00:44.700><c> types</c><00:00:44.969><c> of</c>
+
+00:00:45.139 --> 00:00:45.149 align:start position:0%
+i2 for each of these three types of
+ 
+
+00:00:45.149 --> 00:00:47.900 align:start position:0%
+i2 for each of these three types of
+dependencies<00:00:46.050><c> is</c><00:00:46.649><c> there</c><00:00:46.980><c> such</c><00:00:47.190><c> a</c><00:00:47.219><c> dependence</c>
+
+00:00:47.900 --> 00:00:47.910 align:start position:0%
+dependencies is there such a dependence
+ 
+
+00:00:47.910 --> 00:00:52.279 align:start position:0%
+dependencies is there such a dependence
+you<00:00:48.149><c> need</c><00:00:48.660><c> to</c><00:00:48.809><c> do</c><00:00:48.960><c> that</c><00:00:49.140><c> also</c><00:00:49.469><c> for</c><00:00:49.980><c> I</c><00:00:50.280><c> 1</c><00:00:50.940><c> 2</c><00:00:51.510><c> I</c><00:00:51.539><c> 3</c><00:00:51.930><c> I</c>
+
+00:00:52.279 --> 00:00:52.289 align:start position:0%
+you need to do that also for I 1 2 I 3 I
+ 
+
+00:00:52.289 --> 00:00:55.369 align:start position:0%
+you need to do that also for I 1 2 I 3 I
+1<00:00:53.039><c> to</c><00:00:53.219><c> I</c><00:00:53.309><c> for</c><00:00:53.670><c> so</c><00:00:54.329><c> is</c><00:00:54.480><c> there</c><00:00:54.690><c> a</c><00:00:54.719><c> dependence</c><00:00:55.289><c> from</c>
+
+00:00:55.369 --> 00:00:55.379 align:start position:0%
+1 to I for so is there a dependence from
+ 
+
+00:00:55.379 --> 00:01:00.860 align:start position:0%
+1 to I for so is there a dependence from
+i1<00:00:56.219><c> to</c><00:00:56.520><c> i4</c><00:00:56.879><c> and</c><00:00:57.449><c> from</c><00:00:58.050><c> I</c><00:00:58.289><c> 2</c><00:00:58.350><c> to</c><00:00:59.280><c> i3</c><00:00:59.550><c> to</c><00:01:00.480><c> help</c><00:01:00.719><c> you</c>
+
+00:01:00.860 --> 00:01:00.870 align:start position:0%
+i1 to i4 and from I 2 to i3 to help you
+ 
+
+00:01:00.870 --> 00:01:03.709 align:start position:0%
+i1 to i4 and from I 2 to i3 to help you
+out<00:01:01.050><c> I'm</c><00:01:01.710><c> gonna</c><00:01:02.010><c> tell</c><00:01:02.309><c> you</c><00:01:02.460><c> that</c><00:01:03.180><c> there</c><00:01:03.359><c> is</c><00:01:03.390><c> a</c>
+
+00:01:03.709 --> 00:01:03.719 align:start position:0%
+out I'm gonna tell you that there is a
+ 
+
+00:01:03.719 --> 00:01:05.960 align:start position:0%
+out I'm gonna tell you that there is a
+read<00:01:03.930><c> after</c><00:01:04.290><c> write</c><00:01:04.320><c> dependence</c><00:01:04.500><c> here</c><00:01:05.400><c> that</c>
+
+00:01:05.960 --> 00:01:05.970 align:start position:0%
+read after write dependence here that
+ 
+
+00:01:05.970 --> 00:01:08.410 align:start position:0%
+read after write dependence here that
+there<00:01:06.150><c> is</c><00:01:06.180><c> no</c><00:01:06.619><c> write</c><00:01:07.619><c> after</c><00:01:07.890><c> read</c><00:01:08.220><c> dependence</c>
+
+00:01:08.410 --> 00:01:08.420 align:start position:0%
+there is no write after read dependence
+ 
+
+00:01:08.420 --> 00:01:12.740 align:start position:0%
+there is no write after read dependence
+from<00:01:09.420><c> i1</c><00:01:09.720><c> to</c><00:01:10.049><c> i2</c><00:01:10.470><c> and</c><00:01:11.070><c> that</c><00:01:11.580><c> there</c><00:01:11.760><c> is</c><00:01:11.909><c> no</c><00:01:12.180><c> write</c>
+
+00:01:12.740 --> 00:01:12.750 align:start position:0%
+from i1 to i2 and that there is no write
+ 
+
+00:01:12.750 --> 00:01:15.710 align:start position:0%
+from i1 to i2 and that there is no write
+after<00:01:13.020><c> write</c><00:01:13.350><c> dependence</c><00:01:14.060><c> I'm</c><00:01:15.060><c> also</c><00:01:15.390><c> gonna</c>
+
+00:01:15.710 --> 00:01:15.720 align:start position:0%
+after write dependence I'm also gonna
+ 
+
+00:01:15.720 --> 00:01:19.219 align:start position:0%
+after write dependence I'm also gonna
+tell<00:01:16.020><c> you</c><00:01:16.200><c> that</c><00:01:16.460><c> there</c><00:01:17.460><c> is</c><00:01:17.570><c> no</c><00:01:18.570><c> read</c><00:01:18.840><c> after</c>
+
+00:01:19.219 --> 00:01:19.229 align:start position:0%
+tell you that there is no read after
+ 
+
+00:01:19.229 --> 00:01:21.679 align:start position:0%
+tell you that there is no read after
+write<00:01:19.259><c> dependence</c><00:01:19.439><c> here</c><00:01:20.430><c> but</c><00:01:21.150><c> you</c><00:01:21.360><c> need</c><00:01:21.509><c> to</c>
+
+00:01:21.679 --> 00:01:21.689 align:start position:0%
+write dependence here but you need to
+ 
+
+00:01:21.689 --> 00:01:24.249 align:start position:0%
+write dependence here but you need to
+figure<00:01:21.869><c> out</c><00:01:22.049><c> the</c><00:01:22.500><c> remaining</c><00:01:22.979><c> 8</c><00:01:23.220><c> dependencies</c>
+
+00:01:24.249 --> 00:01:24.259 align:start position:0%
+figure out the remaining 8 dependencies
+ 
+
+00:01:24.259 --> 00:01:26.840 align:start position:0%
+figure out the remaining 8 dependencies
+put<00:01:25.259><c> a</c><00:01:25.290><c> checkmark</c><00:01:25.710><c> in</c><00:01:26.189><c> each</c><00:01:26.490><c> of</c><00:01:26.670><c> these</c><00:01:26.790><c> boxes</c>
+
+00:01:26.840 --> 00:01:26.850 align:start position:0%
+put a checkmark in each of these boxes
+ 
+
+00:01:26.850 --> 00:01:29.270 align:start position:0%
+put a checkmark in each of these boxes
+if<00:01:27.570><c> there</c><00:01:27.990><c> is</c><00:01:28.110><c> such</c><00:01:28.409><c> a</c><00:01:28.439><c> dependence</c><00:01:29.070><c> between</c>
+
+00:01:29.270 --> 00:01:29.280 align:start position:0%
+if there is such a dependence between
+ 
+
+00:01:29.280 --> 00:01:32.329 align:start position:0%
+if there is such a dependence between
+these<00:01:29.549><c> instructions</c>
+

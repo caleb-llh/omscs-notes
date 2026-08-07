@@ -1,0 +1,56 @@
+1
+00:00:00,460 --> 00:00:02,600
+ The answer is by a factor of 4.
+
+2
+00:00:02,600 --> 00:00:03,719
+ Why?
+
+3
+00:00:03,719 --> 00:00:05,890
+ Recall the formula for, say, Rmax.
+
+4
+00:00:05,890 --> 00:00:10,510
+ The machine balance enters the formula through the communication penalty.
+
+5
+00:00:10,510 --> 00:00:14,160
+ Furthermore, recall the value of intensity, for matrix multiply.
+
+6
+00:00:14,160 --> 00:00:16,980
+ It's the square root of the fast memory size.
+
+7
+00:00:16,980 --> 00:00:21,300
+ So, all things being equal, if B doubles, then the numerator also has to
+
+8
+00:00:21,300 --> 00:00:24,500
+ double in order to keep the communication penalty the same.
+
+9
+00:00:24,500 --> 00:00:27,770
+ Therefore z has to increase by a factor of 4.
+
+10
+00:00:27,770 --> 00:00:28,910
+ That's kind of neat.
+
+11
+00:00:28,910 --> 00:00:33,320
+ The fact that machine balance increases over time, is a fact of life.
+
+12
+00:00:33,320 --> 00:00:34,140
+ Can you explain why?
+
+13
+00:00:34,140 --> 00:00:37,110
+ If you think you have an answer, head to the forums, and
+
+14
+00:00:37,110 --> 00:00:37,110
+ see what your peers think.
+

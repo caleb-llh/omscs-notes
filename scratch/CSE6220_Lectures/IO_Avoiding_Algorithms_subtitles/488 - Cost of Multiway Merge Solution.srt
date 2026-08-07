@@ -1,0 +1,88 @@
+1
+00:00:00,002 --> 00:00:01,609
+ Here's what I got.
+
+2
+00:00:01,609 --> 00:00:05,014
+ n/L log base z/L of n/L.
+
+3
+00:00:05,014 --> 00:00:06,660
+ Let's see how I got there.
+
+4
+00:00:06,660 --> 00:00:10,880
+ Let's consider some run that's produced at some level of the merge tree.
+
+5
+00:00:10,880 --> 00:00:13,300
+ Let's say that's at level i.
+
+6
+00:00:13,300 --> 00:00:19,643
+ At the previous level, i-1, each run contains K to the i-1 times s items.
+
+7
+00:00:19,643 --> 00:00:24,300
+ That's assuming that at the very top of the merge tree, each run had s items.
+
+8
+00:00:24,300 --> 00:00:26,130
+ So how big is the output run?
+
+9
+00:00:26,130 --> 00:00:28,450
+ It should be K to the i times s.
+
+10
+00:00:28,450 --> 00:00:31,320
+ Now recall the number of memory transfers needed to produce
+
+11
+00:00:31,320 --> 00:00:33,060
+ just this one run.
+
+12
+00:00:33,060 --> 00:00:36,470
+ It's proportional to the size of the run divided by L.
+
+13
+00:00:36,470 --> 00:00:39,010
+ So how many runs are there at level i?
+
+14
+00:00:39,010 --> 00:00:42,696
+ It's basically just the length of the input, divided by the length of any run.
+
+15
+00:00:42,696 --> 00:00:45,472
+ So that's n/k to the i times s.
+
+16
+00:00:45,472 --> 00:00:48,862
+ Thus, the total number of transfers at level i is just the product of these two
+
+17
+00:00:48,862 --> 00:00:49,960
+ quantities.
+
+18
+00:00:49,960 --> 00:00:52,220
+ In other words, theta of n/L.
+
+19
+00:00:52,220 --> 00:00:55,180
+ Notice that this quantity is independent of the level.
+
+20
+00:00:55,180 --> 00:00:58,020
+ And, lucky you, I gave you the number of levels.
+
+21
+00:00:58,020 --> 00:01:01,160
+ So, multiplying that by the number of transfers per level gives
+
+22
+00:01:01,160 --> 00:01:01,160
+ you the result.
+

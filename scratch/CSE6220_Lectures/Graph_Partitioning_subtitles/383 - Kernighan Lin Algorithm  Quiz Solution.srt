@@ -1,0 +1,28 @@
+1
+00:00:00,220 --> 00:00:03,937
+ Here's the answer, it's just O(d) time.
+
+2
+00:00:03,937 --> 00:00:04,910
+ Why? Well you
+
+3
+00:00:04,910 --> 00:00:07,710
+ need to sweep over the neighbors of a and b.
+
+4
+00:00:07,710 --> 00:00:10,590
+ There will be at most d such neighbors.
+
+5
+00:00:10,590 --> 00:00:12,030
+ To determine if a neighbor is internal or
+
+6
+00:00:12,030 --> 00:00:14,200
+ external, you just need to check its partition label.
+
+7
+00:00:14,200 --> 00:00:14,200
+ And that's a constant time operation by assumption.
+

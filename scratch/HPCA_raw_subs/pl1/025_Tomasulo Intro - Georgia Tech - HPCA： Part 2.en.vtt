@@ -1,0 +1,48 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.850 align:start position:0%
+ 
+in<00:00:00.149><c> this</c><00:00:00.480><c> lesson</c><00:00:00.780><c> we</c><00:00:01.110><c> will</c><00:00:01.140><c> see</c><00:00:01.530><c> how</c>
+
+00:00:01.850 --> 00:00:01.860 align:start position:0%
+in this lesson we will see how
+ 
+
+00:00:01.860 --> 00:00:03.860 align:start position:0%
+in this lesson we will see how
+instruction<00:00:02.460><c> scheduling</c><00:00:03.030><c> can</c><00:00:03.540><c> let</c><00:00:03.720><c> us</c>
+
+00:00:03.860 --> 00:00:03.870 align:start position:0%
+instruction scheduling can let us
+ 
+
+00:00:03.870 --> 00:00:06.499 align:start position:0%
+instruction scheduling can let us
+execute<00:00:04.170><c> programs</c><00:00:04.770><c> faster</c><00:00:05.370><c> even</c><00:00:05.879><c> when</c><00:00:06.390><c> these</c>
+
+00:00:06.499 --> 00:00:06.509 align:start position:0%
+execute programs faster even when these
+ 
+
+00:00:06.509 --> 00:00:09.080 align:start position:0%
+execute programs faster even when these
+programs<00:00:06.810><c> have</c><00:00:07.140><c> data</c><00:00:07.350><c> dependencies</c><00:00:08.160><c> and</c><00:00:08.400><c> even</c>
+
+00:00:09.080 --> 00:00:09.090 align:start position:0%
+programs have data dependencies and even
+ 
+
+00:00:09.090 --> 00:00:10.790 align:start position:0%
+programs have data dependencies and even
+how<00:00:09.300><c> to</c><00:00:09.330><c> execute</c><00:00:09.750><c> more</c><00:00:10.110><c> than</c><00:00:10.170><c> one</c><00:00:10.380><c> instruction</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+how to execute more than one instruction
+ 
+
+00:00:10.800 --> 00:00:13.730 align:start position:0%
+how to execute more than one instruction
+every<00:00:11.700><c> cycle</c>
+

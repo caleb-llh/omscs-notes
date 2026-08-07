@@ -1,0 +1,212 @@
+1
+00:00:00,390 --> 00:00:04,010
+ The answer is that you can eliminate B but not A.
+
+2
+00:00:04,010 --> 00:00:06,220
+ Now there's both an intuitive way to see this fact,
+
+3
+00:00:06,220 --> 00:00:07,980
+ as well as a formal way to see the fact.
+
+4
+00:00:07,980 --> 00:00:11,530
+ What I'll show you where is the intuitive argument and
+
+5
+00:00:11,530 --> 00:00:14,630
+ I'll show you the formal way after the quiz.
+
+6
+00:00:14,630 --> 00:00:17,380
+ The intuitive argument is based on this picture.
+
+7
+00:00:17,380 --> 00:00:22,370
+ Let's call the two spawns A and B and let's suppose you keep them both.
+
+8
+00:00:22,370 --> 00:00:26,250
+ In the DAG, A and B appear here, and here.
+
+9
+00:00:26,250 --> 00:00:30,090
+ Now notice that this picture has three paths in it.
+
+10
+00:00:30,090 --> 00:00:34,020
+ The three paths are important because they're all potentially critical paths,
+
+11
+00:00:34,020 --> 00:00:37,040
+ so we need to understand how they grow.
+
+12
+00:00:37,040 --> 00:00:40,730
+ The first path essentially follows the spine of the DAG.
+
+13
+00:00:40,730 --> 00:00:41,620
+ Now what you should notice,
+
+14
+00:00:41,620 --> 00:00:45,900
+ is that there's actually a constant number of nodes along the path.
+
+15
+00:00:45,900 --> 00:00:48,830
+ That means it's probably not our critical path.
+
+16
+00:00:48,830 --> 00:00:51,740
+ The second interesting path follows the A branch.
+
+17
+00:00:51,740 --> 00:00:55,720
+ Now, what's interesting about this path is it goes through this subgraph.
+
+18
+00:00:55,720 --> 00:00:58,220
+ And since the subgraph involves a bunch of recursive calls,
+
+19
+00:00:58,220 --> 00:01:01,790
+ that's where you'll see the growth in the length of a path.
+
+20
+00:01:01,790 --> 00:01:04,569
+ So this will be an important path to keep in mind.
+
+21
+00:01:04,569 --> 00:01:08,120
+ Now the third interesting path follows the B branch.
+
+22
+00:01:08,120 --> 00:01:12,170
+ And notice, just like the A branch, it goes through a piece of sub graph.
+
+23
+00:01:12,170 --> 00:01:14,940
+ Now, let's consider some hypothetical scenarios.
+
+24
+00:01:14,940 --> 00:01:17,740
+ Suppose I eliminate the first spawn,
+
+25
+00:01:17,740 --> 00:01:20,410
+ that will change the structure of the DAG.
+
+26
+00:01:20,410 --> 00:01:24,020
+ So in particular, this edge goes away and this edge goes away and
+
+27
+00:01:24,020 --> 00:01:29,370
+ a new dependence edge goes from the end of the sub graph to the next spawn.
+
+28
+00:01:29,370 --> 00:01:32,940
+ This follows from the fact I have to execute this reduce before proceeding to
+
+29
+00:01:32,940 --> 00:01:34,660
+ statement B.
+
+30
+00:01:34,660 --> 00:01:37,180
+ So, now this DAG really has two interesting paths.
+
+31
+00:01:37,180 --> 00:01:40,240
+ The first one which follows the A statement.
+
+32
+00:01:40,240 --> 00:01:42,630
+ The second one goes through the B Statement.
+
+33
+00:01:42,630 --> 00:01:45,090
+ What I want you to notice is that both the A path and
+
+34
+00:01:45,090 --> 00:01:47,870
+ the B path overlap substantially.
+
+35
+00:01:47,870 --> 00:01:49,740
+ The overlap occurs here.
+
+36
+00:01:49,740 --> 00:01:52,150
+ That's the part that involves recursive calls and so
+
+37
+00:01:52,150 --> 00:01:55,530
+ that subgraph could expand and could be very long.
+
+38
+00:01:55,530 --> 00:01:58,250
+ Now notice that the B path continues along and
+
+39
+00:01:58,250 --> 00:02:00,700
+ goes through its own recursive subgraph.
+
+40
+00:02:00,700 --> 00:02:04,840
+ The critical observation is that now with this transformed DAG,
+
+41
+00:02:04,840 --> 00:02:09,660
+ this recursive subcall happens before this one does.
+
+42
+00:02:09,660 --> 00:02:14,530
+ And so that means there's basically no concurrency between these two subgraphs.
+
+43
+00:02:14,530 --> 00:02:17,560
+ So basically what this says is if you eliminate the first spawn,
+
+44
+00:02:17,560 --> 00:02:19,880
+ you've eliminated the concurrency.
+
+45
+00:02:19,880 --> 00:02:22,770
+ So eliminating the first spawn is a bad idea.
+
+46
+00:02:22,770 --> 00:02:25,090
+ What about eliminating the second spawn?
+
+47
+00:02:25,090 --> 00:02:28,570
+ Let's do the same exercise and transform the DAG.
+
+48
+00:02:28,570 --> 00:02:31,170
+ Now let's follow the two paths.
+
+49
+00:02:31,170 --> 00:02:36,040
+ Now notice that even if you eliminate the second spawn that is the spawn
+
+50
+00:02:36,040 --> 00:02:42,740
+ associated with statement B, these two subgraphs can be executed concurrently.
+
+51
+00:02:42,740 --> 00:02:45,738
+ So this is saying that if you eliminate the second spawn,
+
+52
+00:02:45,738 --> 00:02:49,130
+ you won't materially change the span of the graph.
+
+53
+00:02:49,130 --> 00:02:49,130
+ So eliminating the second spawn is okay.
+

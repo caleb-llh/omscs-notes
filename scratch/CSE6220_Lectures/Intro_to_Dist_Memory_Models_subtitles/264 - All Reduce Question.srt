@@ -1,0 +1,32 @@
+1
+00:00:00,330 --> 00:00:03,790
+ Here's a new collective, called an All-Reduce.
+
+2
+00:00:03,790 --> 00:00:07,580
+ It's the same as a reduction, except that instead of having the final result
+
+3
+00:00:07,580 --> 00:00:12,090
+ on one process, it has a copy on all the processes.
+
+4
+00:00:12,090 --> 00:00:14,720
+ So in other words we add all the distributed vectors, and
+
+5
+00:00:14,720 --> 00:00:18,930
+ then we make sure that the result is available everywhere.
+
+6
+00:00:18,930 --> 00:00:22,370
+ So suppose we want a bandwidth optimal implementation.
+
+7
+00:00:22,370 --> 00:00:26,140
+ Which pair of the following collectives do you need to combine?
+
+8
+00:00:26,140 --> 00:00:26,140
+ I want you to choose two of them.
+

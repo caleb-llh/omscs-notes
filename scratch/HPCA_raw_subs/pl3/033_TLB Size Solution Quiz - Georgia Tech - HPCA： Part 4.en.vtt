@@ -1,0 +1,240 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.610 align:start position:0%
+ 
+let's<00:00:00.299><c> look</c><00:00:00.480><c> at</c><00:00:00.630><c> the</c><00:00:00.750><c> solution</c><00:00:00.930><c> to</c><00:00:01.350><c> our</c><00:00:01.380><c> till</c>
+
+00:00:01.610 --> 00:00:01.620 align:start position:0%
+let's look at the solution to our till
+ 
+
+00:00:01.620 --> 00:00:04.820 align:start position:0%
+let's look at the solution to our till
+besides<00:00:02.070><c> quiz</c><00:00:02.460><c> we</c><00:00:03.240><c> have</c><00:00:03.480><c> a</c><00:00:03.510><c> cache</c><00:00:03.899><c> that</c><00:00:04.170><c> is</c><00:00:04.319><c> 32</c>
+
+00:00:04.820 --> 00:00:04.830 align:start position:0%
+besides quiz we have a cache that is 32
+ 
+
+00:00:04.830 --> 00:00:07.220 align:start position:0%
+besides quiz we have a cache that is 32
+kilobytes<00:00:05.310><c> in</c><00:00:05.460><c> size</c><00:00:05.490><c> and</c><00:00:06.060><c> has</c><00:00:06.359><c> a</c><00:00:06.390><c> 64</c><00:00:06.990><c> byte</c>
+
+00:00:07.220 --> 00:00:07.230 align:start position:0%
+kilobytes in size and has a 64 byte
+ 
+
+00:00:07.230 --> 00:00:10.009 align:start position:0%
+kilobytes in size and has a 64 byte
+block<00:00:07.560><c> size</c><00:00:07.820><c> we</c><00:00:08.820><c> have</c><00:00:09.000><c> a</c><00:00:09.030><c> 4</c><00:00:09.389><c> kilobyte</c><00:00:09.780><c> page</c>
+
+00:00:10.009 --> 00:00:10.019 align:start position:0%
+block size we have a 4 kilobyte page
+ 
+
+00:00:10.019 --> 00:00:12.620 align:start position:0%
+block size we have a 4 kilobyte page
+size<00:00:10.380><c> so</c><00:00:11.280><c> the</c><00:00:11.400><c> question</c><00:00:11.730><c> is</c><00:00:11.849><c> how</c><00:00:12.059><c> many</c><00:00:12.120><c> TLB</c>
+
+00:00:12.620 --> 00:00:12.630 align:start position:0%
+size so the question is how many TLB
+ 
+
+00:00:12.630 --> 00:00:14.720 align:start position:0%
+size so the question is how many TLB
+entries<00:00:12.990><c> do</c><00:00:13.110><c> we</c><00:00:13.230><c> need</c><00:00:13.410><c> to</c><00:00:13.830><c> have</c><00:00:14.009><c> a</c><00:00:14.040><c> similar</c><00:00:14.340><c> hit</c>
+
+00:00:14.720 --> 00:00:14.730 align:start position:0%
+entries do we need to have a similar hit
+ 
+
+00:00:14.730 --> 00:00:18.740 align:start position:0%
+entries do we need to have a similar hit
+rate<00:00:15.000><c> and</c><00:00:15.269><c> miss</c><00:00:15.929><c> rate</c><00:00:16.170><c> to</c><00:00:16.949><c> our</c><00:00:17.070><c> cache</c><00:00:17.510><c> well</c><00:00:18.510><c> if</c>
+
+00:00:18.740 --> 00:00:18.750 align:start position:0%
+rate and miss rate to our cache well if
+ 
+
+00:00:18.750 --> 00:00:21.800 align:start position:0%
+rate and miss rate to our cache well if
+the<00:00:18.990><c> processor</c><00:00:19.590><c> is</c><00:00:20.010><c> just</c><00:00:20.490><c> accessing</c><00:00:20.910><c> up</c><00:00:21.210><c> to</c><00:00:21.359><c> 32</c>
+
+00:00:21.800 --> 00:00:21.810 align:start position:0%
+the processor is just accessing up to 32
+ 
+
+00:00:21.810 --> 00:00:25.279 align:start position:0%
+the processor is just accessing up to 32
+kilobytes<00:00:22.260><c> of</c><00:00:22.410><c> memory</c><00:00:22.789><c> then</c><00:00:23.789><c> our</c><00:00:23.970><c> TLB</c><00:00:24.420><c> needs</c>
+
+00:00:25.279 --> 00:00:25.289 align:start position:0%
+kilobytes of memory then our TLB needs
+ 
+
+00:00:25.289 --> 00:00:27.259 align:start position:0%
+kilobytes of memory then our TLB needs
+to<00:00:25.470><c> cover</c><00:00:25.680><c> the</c><00:00:25.920><c> same</c><00:00:26.160><c> amount</c><00:00:26.220><c> of</c><00:00:26.670><c> memory</c><00:00:26.910><c> that</c>
+
+00:00:27.259 --> 00:00:27.269 align:start position:0%
+to cover the same amount of memory that
+ 
+
+00:00:27.269 --> 00:00:30.050 align:start position:0%
+to cover the same amount of memory that
+the<00:00:27.539><c> cache</c><00:00:27.779><c> does</c><00:00:28.109><c> and</c><00:00:28.380><c> that</c><00:00:28.439><c> means</c><00:00:29.400><c> we</c><00:00:29.670><c> need</c><00:00:29.699><c> 8</c>
+
+00:00:30.050 --> 00:00:30.060 align:start position:0%
+the cache does and that means we need 8
+ 
+
+00:00:30.060 --> 00:00:33.260 align:start position:0%
+the cache does and that means we need 8
+pages<00:00:30.560><c> now</c><00:00:31.560><c> it</c><00:00:31.769><c> looks</c><00:00:32.040><c> like</c><00:00:32.160><c> this</c><00:00:32.910><c> would</c><00:00:33.149><c> be</c>
+
+00:00:33.260 --> 00:00:33.270 align:start position:0%
+pages now it looks like this would be
+ 
+
+00:00:33.270 --> 00:00:36.470 align:start position:0%
+pages now it looks like this would be
+the<00:00:33.420><c> best</c><00:00:33.600><c> answer</c><00:00:33.950><c> however</c><00:00:34.950><c> if</c><00:00:35.610><c> the</c><00:00:35.910><c> processor</c>
+
+00:00:36.470 --> 00:00:36.480 align:start position:0%
+the best answer however if the processor
+ 
+
+00:00:36.480 --> 00:00:38.900 align:start position:0%
+the best answer however if the processor
+is<00:00:36.630><c> not</c><00:00:36.660><c> accessing</c><00:00:37.350><c> all</c><00:00:37.890><c> of</c><00:00:37.950><c> the</c><00:00:38.370><c> data</c><00:00:38.579><c> in</c><00:00:38.820><c> each</c>
+
+00:00:38.900 --> 00:00:38.910 align:start position:0%
+is not accessing all of the data in each
+ 
+
+00:00:38.910 --> 00:00:41.000 align:start position:0%
+is not accessing all of the data in each
+of<00:00:39.120><c> the</c><00:00:39.239><c> pages</c><00:00:39.500><c> then</c><00:00:40.500><c> we</c><00:00:40.680><c> would</c><00:00:40.829><c> need</c><00:00:40.950><c> more</c>
+
+00:00:41.000 --> 00:00:41.010 align:start position:0%
+of the pages then we would need more
+ 
+
+00:00:41.010 --> 00:00:44.380 align:start position:0%
+of the pages then we would need more
+pages<00:00:41.550><c> to</c><00:00:42.149><c> cover</c><00:00:42.420><c> the</c><00:00:42.960><c> same</c><00:00:43.170><c> amount</c><00:00:43.230><c> of</c><00:00:43.710><c> memory</c>
+
+00:00:44.380 --> 00:00:44.390 align:start position:0%
+pages to cover the same amount of memory
+ 
+
+00:00:44.390 --> 00:00:48.200 align:start position:0%
+pages to cover the same amount of memory
+because<00:00:45.390><c> in</c><00:00:45.750><c> the</c><00:00:45.989><c> cache</c><00:00:46.280><c> with</c><00:00:47.280><c> a</c><00:00:47.309><c> 64</c><00:00:47.969><c> byte</c>
+
+00:00:48.200 --> 00:00:48.210 align:start position:0%
+because in the cache with a 64 byte
+ 
+
+00:00:48.210 --> 00:00:52.069 align:start position:0%
+because in the cache with a 64 byte
+block<00:00:48.570><c> size</c><00:00:49.010><c> we</c><00:00:50.010><c> can</c><00:00:50.190><c> fit</c><00:00:50.449><c> 512</c><00:00:51.449><c> different</c>
+
+00:00:52.069 --> 00:00:52.079 align:start position:0%
+block size we can fit 512 different
+ 
+
+00:00:52.079 --> 00:00:54.410 align:start position:0%
+block size we can fit 512 different
+blocks<00:00:52.320><c> and</c><00:00:52.680><c> they</c><00:00:53.280><c> can</c><00:00:53.520><c> be</c><00:00:53.670><c> spread</c><00:00:53.969><c> around</c><00:00:54.149><c> the</c>
+
+00:00:54.410 --> 00:00:54.420 align:start position:0%
+blocks and they can be spread around the
+ 
+
+00:00:54.420 --> 00:00:57.020 align:start position:0%
+blocks and they can be spread around the
+whole<00:00:54.780><c> memory</c><00:00:54.989><c> in</c><00:00:55.620><c> contrast</c><00:00:56.219><c> with</c><00:00:56.370><c> 8</c><00:00:56.640><c> entries</c>
+
+00:00:57.020 --> 00:00:57.030 align:start position:0%
+whole memory in contrast with 8 entries
+ 
+
+00:00:57.030 --> 00:01:00.049 align:start position:0%
+whole memory in contrast with 8 entries
+in<00:00:57.270><c> the</c><00:00:57.390><c> TLB</c><00:00:57.770><c> we</c><00:00:58.770><c> can</c><00:00:58.949><c> only</c><00:00:59.160><c> be</c><00:00:59.399><c> accessing</c><00:00:59.879><c> 8</c>
+
+00:01:00.049 --> 00:01:00.059 align:start position:0%
+in the TLB we can only be accessing 8
+ 
+
+00:01:00.059 --> 00:01:02.479 align:start position:0%
+in the TLB we can only be accessing 8
+different<00:01:00.510><c> pages</c><00:01:00.719><c> while</c><00:01:01.469><c> these</c><00:01:01.680><c> 500</c><00:01:01.920><c> blocks</c>
+
+00:01:02.479 --> 00:01:02.489 align:start position:0%
+different pages while these 500 blocks
+ 
+
+00:01:02.489 --> 00:01:05.090 align:start position:0%
+different pages while these 500 blocks
+theoretically<00:01:03.270><c> could</c><00:01:03.660><c> be</c><00:01:03.719><c> in</c><00:01:03.899><c> 512</c><00:01:04.650><c> different</c>
+
+00:01:05.090 --> 00:01:05.100 align:start position:0%
+theoretically could be in 512 different
+ 
+
+00:01:05.100 --> 00:01:08.570 align:start position:0%
+theoretically could be in 512 different
+pages<00:01:05.309><c> so</c><00:01:06.000><c> our</c><00:01:06.090><c> TLB</c><00:01:06.540><c> in</c><00:01:06.750><c> this</c><00:01:07.020><c> case</c><00:01:07.400><c> needs</c><00:01:08.400><c> to</c>
+
+00:01:08.570 --> 00:01:08.580 align:start position:0%
+pages so our TLB in this case needs to
+ 
+
+00:01:08.580 --> 00:01:11.600 align:start position:0%
+pages so our TLB in this case needs to
+have<00:01:08.790><c> up</c><00:01:09.030><c> to</c><00:01:09.240><c> 512</c><00:01:10.020><c> different</c><00:01:10.470><c> pages</c><00:01:10.680><c> in</c><00:01:11.369><c> order</c>
+
+00:01:11.600 --> 00:01:11.610 align:start position:0%
+have up to 512 different pages in order
+ 
+
+00:01:11.610 --> 00:01:13.789 align:start position:0%
+have up to 512 different pages in order
+to<00:01:11.970><c> have</c><00:01:12.150><c> hits</c><00:01:12.390><c> for</c><00:01:12.780><c> the</c><00:01:12.900><c> same</c><00:01:13.140><c> data</c><00:01:13.409><c> that</c><00:01:13.680><c> the</c>
+
+00:01:13.789 --> 00:01:13.799 align:start position:0%
+to have hits for the same data that the
+ 
+
+00:01:13.799 --> 00:01:16.550 align:start position:0%
+to have hits for the same data that the
+cache<00:01:14.040><c> does</c><00:01:14.400><c> in</c><00:01:14.850><c> reality</c><00:01:15.180><c> the</c><00:01:16.170><c> number</c><00:01:16.320><c> of</c>
+
+00:01:16.550 --> 00:01:16.560 align:start position:0%
+cache does in reality the number of
+ 
+
+00:01:16.560 --> 00:01:18.440 align:start position:0%
+cache does in reality the number of
+pages<00:01:16.770><c> we</c><00:01:17.100><c> need</c><00:01:17.130><c> for</c><00:01:17.460><c> the</c><00:01:17.580><c> same</c><00:01:17.790><c> hit</c><00:01:18.030><c> rate</c><00:01:18.240><c> will</c>
+
+00:01:18.440 --> 00:01:18.450 align:start position:0%
+pages we need for the same hit rate will
+ 
+
+00:01:18.450 --> 00:01:20.630 align:start position:0%
+pages we need for the same hit rate will
+be<00:01:18.600><c> somewhere</c><00:01:18.990><c> in</c><00:01:19.049><c> between</c><00:01:19.170><c> these</c><00:01:19.619><c> two</c><00:01:19.860><c> so</c>
+
+00:01:20.630 --> 00:01:20.640 align:start position:0%
+be somewhere in between these two so
+ 
+
+00:01:20.640 --> 00:01:23.869 align:start position:0%
+be somewhere in between these two so
+this<00:01:20.880><c> is</c><00:01:21.119><c> the</c><00:01:21.420><c> best</c><00:01:21.600><c> answer</c>
+

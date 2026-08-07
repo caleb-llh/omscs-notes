@@ -1,0 +1,648 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:02.470 align:start position:0%
+ 
+So<00:00:00.240><c> now</c><00:00:00.400><c> that</c><00:00:00.640><c> we</c><00:00:00.800><c> have</c><00:00:00.960><c> seen</c><00:00:01.520><c> how</c><00:00:01.839><c> paging</c><00:00:02.240><c> and</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+So now that we have seen how paging and
+ 
+
+00:00:02.480 --> 00:00:04.789 align:start position:0%
+So now that we have seen how paging and
+virtual<00:00:02.720><c> to</c><00:00:02.960><c> physical</c><00:00:03.360><c> translation</c><00:00:04.000><c> works,</c>
+
+00:00:04.789 --> 00:00:04.799 align:start position:0%
+virtual to physical translation works,
+ 
+
+00:00:04.799 --> 00:00:07.349 align:start position:0%
+virtual to physical translation works,
+let's<00:00:05.120><c> talk</c><00:00:05.279><c> about</c><00:00:05.440><c> the</c><00:00:05.680><c> memory</c><00:00:06.000><c> access</c><00:00:06.400><c> time</c>
+
+00:00:07.349 --> 00:00:07.359 align:start position:0%
+let's talk about the memory access time
+ 
+
+00:00:07.359 --> 00:00:09.830 align:start position:0%
+let's talk about the memory access time
+when<00:00:07.600><c> we</c><00:00:07.839><c> have</c><00:00:08.000><c> this</c><00:00:08.519><c> translation.</c><00:00:09.519><c> So</c><00:00:09.599><c> our</c>
+
+00:00:09.830 --> 00:00:09.840 align:start position:0%
+when we have this translation. So our
+ 
+
+00:00:09.840 --> 00:00:13.350 align:start position:0%
+when we have this translation. So our
+program<00:00:10.719><c> does</c><00:00:11.040><c> something</c><00:00:11.360><c> like</c><00:00:12.080><c> this.</c><00:00:12.719><c> It</c>
+
+00:00:13.350 --> 00:00:13.360 align:start position:0%
+program does something like this. It
+ 
+
+00:00:13.360 --> 00:00:16.150 align:start position:0%
+program does something like this. It
+says<00:00:14.000><c> load</c><00:00:14.400><c> R1</c><00:00:14.880><c> from</c><00:00:15.040><c> the</c><00:00:15.280><c> address</c><00:00:15.599><c> computed</c>
+
+00:00:16.150 --> 00:00:16.160 align:start position:0%
+says load R1 from the address computed
+ 
+
+00:00:16.160 --> 00:00:20.230 align:start position:0%
+says load R1 from the address computed
+by<00:00:16.320><c> adding</c><00:00:16.720><c> four</c><00:00:17.039><c> to</c><00:00:17.279><c> what</c><00:00:17.520><c> is</c><00:00:17.600><c> in</c><00:00:17.960><c> R2.</c><00:00:19.240><c> This</c>
+
+00:00:20.230 --> 00:00:20.240 align:start position:0%
+by adding four to what is in R2. This
+ 
+
+00:00:20.240 --> 00:00:22.630 align:start position:0%
+by adding four to what is in R2. This
+when<00:00:20.680><c> computed</c><00:00:21.680><c> will</c><00:00:21.920><c> be</c><00:00:22.080><c> the</c><00:00:22.320><c> virtual</c>
+
+00:00:22.630 --> 00:00:22.640 align:start position:0%
+when computed will be the virtual
+ 
+
+00:00:22.640 --> 00:00:24.230 align:start position:0%
+when computed will be the virtual
+address<00:00:22.880><c> that</c><00:00:23.119><c> we</c><00:00:23.279><c> want</c><00:00:23.359><c> to</c><00:00:23.519><c> access</c><00:00:23.840><c> in</c><00:00:24.000><c> the</c>
+
+00:00:24.230 --> 00:00:24.240 align:start position:0%
+address that we want to access in the
+ 
+
+00:00:24.240 --> 00:00:26.790 align:start position:0%
+address that we want to access in the
+program.<00:00:24.720><c> So</c><00:00:24.880><c> to</c><00:00:25.119><c> do</c><00:00:25.199><c> a</c><00:00:25.359><c> load</c><00:00:25.600><c> or</c><00:00:25.760><c> restore,</c><00:00:26.560><c> the</c>
+
+00:00:26.790 --> 00:00:26.800 align:start position:0%
+program. So to do a load or restore, the
+ 
+
+00:00:26.800 --> 00:00:28.870 align:start position:0%
+program. So to do a load or restore, the
+processor<00:00:27.279><c> has</c><00:00:27.519><c> to</c><00:00:28.000><c> compute</c><00:00:28.400><c> the</c><00:00:28.560><c> virtual</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+processor has to compute the virtual
+ 
+
+00:00:28.880 --> 00:00:30.870 align:start position:0%
+processor has to compute the virtual
+address.<00:00:29.599><c> This</c><00:00:29.840><c> is</c><00:00:30.000><c> quick.</c><00:00:30.320><c> Usually</c><00:00:30.640><c> it's</c>
+
+00:00:30.870 --> 00:00:30.880 align:start position:0%
+address. This is quick. Usually it's
+ 
+
+00:00:30.880 --> 00:00:32.870 align:start position:0%
+address. This is quick. Usually it's
+just<00:00:31.279><c> addition</c><00:00:31.679><c> of</c><00:00:31.920><c> two</c><00:00:32.160><c> numbers</c><00:00:32.480><c> that</c><00:00:32.640><c> are</c>
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+just addition of two numbers that are
+ 
+
+00:00:32.880 --> 00:00:34.709 align:start position:0%
+just addition of two numbers that are
+already<00:00:33.040><c> in</c><00:00:33.280><c> the</c><00:00:33.440><c> processor.</c><00:00:34.160><c> One</c><00:00:34.399><c> is</c><00:00:34.559><c> a</c>
+
+00:00:34.709 --> 00:00:34.719 align:start position:0%
+already in the processor. One is a
+ 
+
+00:00:34.719 --> 00:00:36.870 align:start position:0%
+already in the processor. One is a
+constant<00:00:35.120><c> fetch</c><00:00:35.600><c> with</c><00:00:35.840><c> the</c><00:00:36.000><c> instruction.</c><00:00:36.640><c> The</c>
+
+00:00:36.870 --> 00:00:36.880 align:start position:0%
+constant fetch with the instruction. The
+ 
+
+00:00:36.880 --> 00:00:39.350 align:start position:0%
+constant fetch with the instruction. The
+other<00:00:37.040><c> one</c><00:00:37.840><c> is</c><00:00:38.079><c> the</c><00:00:38.320><c> register</c><00:00:38.719><c> that</c><00:00:38.960><c> is</c><00:00:39.120><c> inside</c>
+
+00:00:39.350 --> 00:00:39.360 align:start position:0%
+other one is the register that is inside
+ 
+
+00:00:39.360 --> 00:00:41.430 align:start position:0%
+other one is the register that is inside
+the<00:00:39.600><c> processor.</c><00:00:40.399><c> Next,</c><00:00:40.719><c> the</c><00:00:40.960><c> processor</c><00:00:41.280><c> has</c>
+
+00:00:41.430 --> 00:00:41.440 align:start position:0%
+the processor. Next, the processor has
+ 
+
+00:00:41.440 --> 00:00:43.750 align:start position:0%
+the processor. Next, the processor has
+to<00:00:41.600><c> compute</c><00:00:41.920><c> the</c><00:00:42.079><c> page</c><00:00:42.399><c> number</c><00:00:43.280><c> which</c><00:00:43.600><c> is</c>
+
+00:00:43.750 --> 00:00:43.760 align:start position:0%
+to compute the page number which is
+ 
+
+00:00:43.760 --> 00:00:45.590 align:start position:0%
+to compute the page number which is
+extremely<00:00:44.320><c> quick</c><00:00:44.640><c> because</c><00:00:44.879><c> it</c><00:00:45.200><c> just</c><00:00:45.360><c> means</c>
+
+00:00:45.590 --> 00:00:45.600 align:start position:0%
+extremely quick because it just means
+ 
+
+00:00:45.600 --> 00:00:47.270 align:start position:0%
+extremely quick because it just means
+that<00:00:45.760><c> we</c><00:00:45.920><c> take</c><00:00:46.160><c> some</c><00:00:46.320><c> bits</c><00:00:46.640><c> from</c><00:00:46.800><c> the</c><00:00:46.960><c> virtual</c>
+
+00:00:47.270 --> 00:00:47.280 align:start position:0%
+that we take some bits from the virtual
+ 
+
+00:00:47.280 --> 00:00:49.590 align:start position:0%
+that we take some bits from the virtual
+address<00:00:48.079><c> and</c><00:00:48.399><c> without</c><00:00:48.800><c> any</c><00:00:49.280><c> address</c>
+
+00:00:49.590 --> 00:00:49.600 align:start position:0%
+address and without any address
+ 
+
+00:00:49.600 --> 00:00:51.190 align:start position:0%
+address and without any address
+translation.<00:00:50.399><c> The</c><00:00:50.559><c> next</c><00:00:50.719><c> thing</c><00:00:50.879><c> that</c><00:00:51.039><c> the</c>
+
+00:00:51.190 --> 00:00:51.200 align:start position:0%
+translation. The next thing that the
+ 
+
+00:00:51.200 --> 00:00:54.069 align:start position:0%
+translation. The next thing that the
+processor<00:00:51.520><c> will</c><00:00:51.760><c> do</c><00:00:52.399><c> is</c><00:00:52.719><c> access</c><00:00:53.039><c> the</c><00:00:53.280><c> cache</c>
+
+00:00:54.069 --> 00:00:54.079 align:start position:0%
+processor will do is access the cache
+ 
+
+00:00:54.079 --> 00:00:56.709 align:start position:0%
+processor will do is access the cache
+and<00:00:54.399><c> sometimes</c><00:00:55.120><c> if</c><00:00:55.360><c> there</c><00:00:55.520><c> is</c><00:00:55.600><c> a</c><00:00:55.760><c> cache</c><00:00:56.079><c> miss</c>
+
+00:00:56.709 --> 00:00:56.719 align:start position:0%
+and sometimes if there is a cache miss
+ 
+
+00:00:56.719 --> 00:00:59.189 align:start position:0%
+and sometimes if there is a cache miss
+the<00:00:56.960><c> actual</c><00:00:57.360><c> memory.</c><00:00:58.239><c> So</c><00:00:58.480><c> again</c><00:00:58.719><c> these</c><00:00:59.039><c> two</c>
+
+00:00:59.189 --> 00:00:59.199 align:start position:0%
+the actual memory. So again these two
+ 
+
+00:00:59.199 --> 00:01:01.430 align:start position:0%
+the actual memory. So again these two
+are<00:00:59.359><c> extremely</c><00:00:59.840><c> quick.</c><00:01:00.800><c> Most</c><00:01:01.039><c> of</c><00:01:01.120><c> the</c><00:01:01.280><c> time</c>
+
+00:01:01.430 --> 00:01:01.440 align:start position:0%
+are extremely quick. Most of the time
+ 
+
+00:01:01.440 --> 00:01:03.349 align:start position:0%
+are extremely quick. Most of the time
+will<00:01:01.680><c> be</c><00:01:01.840><c> spent</c><00:01:02.079><c> accessing</c><00:01:02.480><c> the</c><00:01:02.719><c> cache</c><00:01:03.039><c> and</c>
+
+00:01:03.349 --> 00:01:03.359 align:start position:0%
+will be spent accessing the cache and
+ 
+
+00:01:03.359 --> 00:01:05.350 align:start position:0%
+will be spent accessing the cache and
+occasionally<00:01:04.080><c> we</c><00:01:04.320><c> will</c><00:01:04.479><c> spend</c><00:01:04.720><c> more</c><00:01:04.960><c> cycles</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+occasionally we will spend more cycles
+ 
+
+00:01:05.360 --> 00:01:07.350 align:start position:0%
+occasionally we will spend more cycles
+because<00:01:05.600><c> we</c><00:01:05.760><c> need</c><00:01:05.920><c> to</c><00:01:06.080><c> access</c><00:01:06.320><c> the</c><00:01:06.479><c> memory</c>
+
+00:01:07.350 --> 00:01:07.360 align:start position:0%
+because we need to access the memory
+ 
+
+00:01:07.360 --> 00:01:09.830 align:start position:0%
+because we need to access the memory
+with<00:01:07.680><c> virtual</c><00:01:08.080><c> to</c><00:01:08.400><c> physical</c><00:01:08.840><c> translation.</c>
+
+00:01:09.830 --> 00:01:09.840 align:start position:0%
+with virtual to physical translation.
+ 
+
+00:01:09.840 --> 00:01:12.310 align:start position:0%
+with virtual to physical translation.
+After<00:01:10.240><c> computing</c><00:01:10.640><c> the</c><00:01:10.880><c> page</c><00:01:11.200><c> number</c><00:01:12.080><c> the</c>
+
+00:01:12.310 --> 00:01:12.320 align:start position:0%
+After computing the page number the
+ 
+
+00:01:12.320 --> 00:01:14.149 align:start position:0%
+After computing the page number the
+processor<00:01:12.799><c> has</c><00:01:13.040><c> to</c><00:01:13.200><c> compute</c><00:01:13.520><c> the</c><00:01:13.760><c> physical</c>
+
+00:01:14.149 --> 00:01:14.159 align:start position:0%
+processor has to compute the physical
+ 
+
+00:01:14.159 --> 00:01:16.469 align:start position:0%
+processor has to compute the physical
+address<00:01:14.640><c> of</c><00:01:14.880><c> the</c><00:01:15.040><c> page</c><00:01:15.439><c> table</c><00:01:15.840><c> entry</c><00:01:16.240><c> where</c>
+
+00:01:16.469 --> 00:01:16.479 align:start position:0%
+address of the page table entry where
+ 
+
+00:01:16.479 --> 00:01:18.870 align:start position:0%
+address of the page table entry where
+the<00:01:16.720><c> translation</c><00:01:17.200><c> for</c><00:01:17.439><c> the</c><00:01:17.600><c> page</c><00:01:17.920><c> number</c><00:01:18.159><c> is.</c>
+
+00:01:18.870 --> 00:01:18.880 align:start position:0%
+the translation for the page number is.
+ 
+
+00:01:18.880 --> 00:01:20.789 align:start position:0%
+the translation for the page number is.
+This<00:01:19.040><c> is</c><00:01:19.200><c> done</c><00:01:19.439><c> by</c><00:01:19.680><c> adding</c><00:01:20.000><c> the</c><00:01:20.240><c> page</c><00:01:20.560><c> number</c>
+
+00:01:20.789 --> 00:01:20.799 align:start position:0%
+This is done by adding the page number
+ 
+
+00:01:20.799 --> 00:01:23.030 align:start position:0%
+This is done by adding the page number
+that<00:01:21.040><c> we</c><00:01:21.280><c> computed</c><00:01:22.240><c> to</c><00:01:22.479><c> the</c><00:01:22.720><c> beginning</c>
+
+00:01:23.030 --> 00:01:23.040 align:start position:0%
+that we computed to the beginning
+ 
+
+00:01:23.040 --> 00:01:25.990 align:start position:0%
+that we computed to the beginning
+address<00:01:23.520><c> of</c><00:01:23.759><c> the</c><00:01:23.920><c> page</c><00:01:24.240><c> table.</c><00:01:25.280><c> Then</c><00:01:25.520><c> we</c><00:01:25.680><c> read</c>
+
+00:01:25.990 --> 00:01:26.000 align:start position:0%
+address of the page table. Then we read
+ 
+
+00:01:26.000 --> 00:01:28.789 align:start position:0%
+address of the page table. Then we read
+the<00:01:26.320><c> actual</c><00:01:26.560><c> page</c><00:01:26.960><c> table</c><00:01:27.200><c> entry</c><00:01:28.080><c> and</c><00:01:28.400><c> compute</c>
+
+00:01:28.789 --> 00:01:28.799 align:start position:0%
+the actual page table entry and compute
+ 
+
+00:01:28.799 --> 00:01:32.230 align:start position:0%
+the actual page table entry and compute
+the<00:01:29.040><c> physical</c><00:01:29.479><c> address</c><00:01:30.479><c> by</c><00:01:30.920><c> combining</c><00:01:31.920><c> the</c>
+
+00:01:32.230 --> 00:01:32.240 align:start position:0%
+the physical address by combining the
+ 
+
+00:01:32.240 --> 00:01:33.990 align:start position:0%
+the physical address by combining the
+physical<00:01:32.720><c> frame</c><00:01:33.119><c> number</c><00:01:33.360><c> from</c><00:01:33.600><c> the</c><00:01:33.759><c> page</c>
+
+00:01:33.990 --> 00:01:34.000 align:start position:0%
+physical frame number from the page
+ 
+
+00:01:34.000 --> 00:01:36.870 align:start position:0%
+physical frame number from the page
+table<00:01:34.680><c> entry</c><00:01:35.680><c> with</c><00:01:35.920><c> the</c><00:01:36.079><c> page</c><00:01:36.320><c> offset</c><00:01:36.720><c> from</c>
+
+00:01:36.870 --> 00:01:36.880 align:start position:0%
+table entry with the page offset from
+ 
+
+00:01:36.880 --> 00:01:39.789 align:start position:0%
+table entry with the page offset from
+the<00:01:37.040><c> virtual</c><00:01:37.479><c> address.</c><00:01:38.479><c> So</c><00:01:38.720><c> how</c><00:01:38.960><c> fast</c><00:01:39.520><c> is</c>
+
+00:01:39.789 --> 00:01:39.799 align:start position:0%
+the virtual address. So how fast is
+ 
+
+00:01:39.799 --> 00:01:42.950 align:start position:0%
+the virtual address. So how fast is
+this?<00:01:40.799><c> Well,</c><00:01:41.200><c> this</c><00:01:41.439><c> is</c><00:01:41.600><c> fast</c><00:01:42.159><c> because</c><00:01:42.479><c> it</c><00:01:42.720><c> just</c>
+
+00:01:42.950 --> 00:01:42.960 align:start position:0%
+this? Well, this is fast because it just
+ 
+
+00:01:42.960 --> 00:01:46.230 align:start position:0%
+this? Well, this is fast because it just
+means<00:01:43.280><c> adding</c><00:01:44.079><c> the</c><00:01:44.400><c> page</c><00:01:44.720><c> number</c><00:01:45.600><c> to</c><00:01:45.920><c> some</c>
+
+00:01:46.230 --> 00:01:46.240 align:start position:0%
+means adding the page number to some
+ 
+
+00:01:46.240 --> 00:01:48.789 align:start position:0%
+means adding the page number to some
+sort<00:01:46.399><c> of</c><00:01:46.640><c> address.</c><00:01:47.439><c> This</c><00:01:47.680><c> is</c><00:01:47.920><c> fast</c><00:01:48.240><c> because</c><00:01:48.560><c> it</c>
+
+00:01:48.789 --> 00:01:48.799 align:start position:0%
+sort of address. This is fast because it
+ 
+
+00:01:48.799 --> 00:01:50.710 align:start position:0%
+sort of address. This is fast because it
+only<00:01:48.960><c> means</c><00:01:49.280><c> combining</c><00:01:49.840><c> two</c><00:01:50.079><c> numbers</c><00:01:50.320><c> that</c><00:01:50.479><c> we</c>
+
+00:01:50.710 --> 00:01:50.720 align:start position:0%
+only means combining two numbers that we
+ 
+
+00:01:50.720 --> 00:01:54.310 align:start position:0%
+only means combining two numbers that we
+already<00:01:51.079><c> have.</c><00:01:52.079><c> But</c><00:01:52.320><c> how</c><00:01:52.560><c> fast</c><00:01:52.880><c> is</c><00:01:53.119><c> this?</c><00:01:54.079><c> And</c>
+
+00:01:54.310 --> 00:01:54.320 align:start position:0%
+already have. But how fast is this? And
+ 
+
+00:01:54.320 --> 00:01:56.069 align:start position:0%
+already have. But how fast is this? And
+for<00:01:54.479><c> that</c><00:01:54.799><c> we</c><00:01:55.040><c> need</c><00:01:55.200><c> to</c><00:01:55.280><c> ask</c><00:01:55.520><c> ourselves</c><00:01:55.840><c> so</c>
+
+00:01:56.069 --> 00:01:56.079 align:start position:0%
+for that we need to ask ourselves so
+ 
+
+00:01:56.079 --> 00:01:57.910 align:start position:0%
+for that we need to ask ourselves so
+where<00:01:56.240><c> is</c><00:01:56.399><c> the</c><00:01:56.560><c> page</c><00:01:56.799><c> table?</c><00:01:57.280><c> Is</c><00:01:57.439><c> it</c><00:01:57.600><c> inside</c>
+
+00:01:57.910 --> 00:01:57.920 align:start position:0%
+where is the page table? Is it inside
+ 
+
+00:01:57.920 --> 00:01:59.910 align:start position:0%
+where is the page table? Is it inside
+the<00:01:58.159><c> processor</c><00:01:58.880><c> so</c><00:01:59.119><c> it</c><00:01:59.280><c> can</c><00:01:59.439><c> be</c><00:01:59.600><c> quickly</c>
+
+00:01:59.910 --> 00:01:59.920 align:start position:0%
+the processor so it can be quickly
+ 
+
+00:01:59.920 --> 00:02:02.469 align:start position:0%
+the processor so it can be quickly
+accessed<00:02:00.640><c> or</c><00:02:00.880><c> is</c><00:02:01.040><c> it</c><00:02:01.200><c> in</c><00:02:01.439><c> memory?</c><00:02:02.079><c> We</c><00:02:02.320><c> have</c>
+
+00:02:02.469 --> 00:02:02.479 align:start position:0%
+accessed or is it in memory? We have
+ 
+
+00:02:02.479 --> 00:02:04.950 align:start position:0%
+accessed or is it in memory? We have
+seen<00:02:03.040><c> that</c><00:02:03.280><c> the</c><00:02:03.520><c> page</c><00:02:03.759><c> table</c><00:02:04.159><c> can</c><00:02:04.399><c> be</c><00:02:04.560><c> fairly</c>
+
+00:02:04.950 --> 00:02:04.960 align:start position:0%
+seen that the page table can be fairly
+ 
+
+00:02:04.960 --> 00:02:07.910 align:start position:0%
+seen that the page table can be fairly
+large.<00:02:05.600><c> Yes,</c><00:02:05.840><c> for</c><00:02:06.000><c> a</c><00:02:06.159><c> multi-level</c><00:02:06.799><c> page</c><00:02:07.119><c> table</c>
+
+00:02:07.910 --> 00:02:07.920 align:start position:0%
+large. Yes, for a multi-level page table
+ 
+
+00:02:07.920 --> 00:02:10.389 align:start position:0%
+large. Yes, for a multi-level page table
+we<00:02:08.160><c> can</c><00:02:08.319><c> have</c><00:02:08.560><c> it</c><00:02:08.800><c> be</c><00:02:09.280><c> less</c><00:02:09.520><c> than</c><00:02:09.679><c> a</c><00:02:09.840><c> megabyte</c>
+
+00:02:10.389 --> 00:02:10.399 align:start position:0%
+we can have it be less than a megabyte
+ 
+
+00:02:10.399 --> 00:02:12.550 align:start position:0%
+we can have it be less than a megabyte
+for<00:02:10.640><c> some</c><00:02:10.800><c> programs</c><00:02:11.440><c> but</c><00:02:11.680><c> in</c><00:02:11.920><c> theory</c><00:02:12.160><c> it</c><00:02:12.400><c> can</c>
+
+00:02:12.550 --> 00:02:12.560 align:start position:0%
+for some programs but in theory it can
+ 
+
+00:02:12.560 --> 00:02:14.630 align:start position:0%
+for some programs but in theory it can
+be<00:02:12.720><c> extremely</c><00:02:13.120><c> large.</c><00:02:13.920><c> So</c><00:02:14.080><c> we</c><00:02:14.319><c> cannot</c>
+
+00:02:14.630 --> 00:02:14.640 align:start position:0%
+be extremely large. So we cannot
+ 
+
+00:02:14.640 --> 00:02:16.470 align:start position:0%
+be extremely large. So we cannot
+guarantee<00:02:15.120><c> that</c><00:02:15.280><c> the</c><00:02:15.520><c> page</c><00:02:15.760><c> table</c><00:02:16.000><c> for</c><00:02:16.239><c> even</c>
+
+00:02:16.470 --> 00:02:16.480 align:start position:0%
+guarantee that the page table for even
+ 
+
+00:02:16.480 --> 00:02:18.949 align:start position:0%
+guarantee that the page table for even
+one<00:02:16.720><c> process</c><00:02:17.200><c> fits</c><00:02:17.520><c> on</c><00:02:17.760><c> the</c><00:02:17.920><c> processor</c><00:02:18.400><c> chip</c>
+
+00:02:18.949 --> 00:02:18.959 align:start position:0%
+one process fits on the processor chip
+ 
+
+00:02:18.959 --> 00:02:21.030 align:start position:0%
+one process fits on the processor chip
+which<00:02:19.200><c> means</c><00:02:19.760><c> that</c><00:02:20.000><c> the</c><00:02:20.160><c> page</c><00:02:20.400><c> tables</c><00:02:20.800><c> really</c>
+
+00:02:21.030 --> 00:02:21.040 align:start position:0%
+which means that the page tables really
+ 
+
+00:02:21.040 --> 00:02:23.990 align:start position:0%
+which means that the page tables really
+need<00:02:21.120><c> to</c><00:02:21.280><c> be</c><00:02:21.360><c> in</c><00:02:21.599><c> memory.</c><00:02:22.720><c> And</c><00:02:22.959><c> that</c><00:02:23.280><c> means</c>
+
+00:02:23.990 --> 00:02:24.000 align:start position:0%
+need to be in memory. And that means
+ 
+
+00:02:24.000 --> 00:02:26.869 align:start position:0%
+need to be in memory. And that means
+that<00:02:24.239><c> for</c><00:02:24.480><c> each</c><00:02:24.720><c> load</c><00:02:25.040><c> or</c><00:02:25.280><c> store,</c><00:02:26.239><c> we</c><00:02:26.480><c> now</c><00:02:26.720><c> need</c>
+
+00:02:26.869 --> 00:02:26.879 align:start position:0%
+that for each load or store, we now need
+ 
+
+00:02:26.879 --> 00:02:29.270 align:start position:0%
+that for each load or store, we now need
+to<00:02:27.120><c> have</c><00:02:27.280><c> a</c><00:02:27.520><c> memory</c><00:02:27.920><c> access,</c><00:02:28.640><c> which</c><00:02:28.879><c> is</c><00:02:29.040><c> just</c>
+
+00:02:29.270 --> 00:02:29.280 align:start position:0%
+to have a memory access, which is just
+ 
+
+00:02:29.280 --> 00:02:31.750 align:start position:0%
+to have a memory access, which is just
+as<00:02:29.520><c> slow</c><00:02:29.920><c> as</c><00:02:30.160><c> when</c><00:02:30.319><c> we</c><00:02:30.480><c> had</c><00:02:30.640><c> a</c><00:02:30.800><c> cache</c><00:02:31.120><c> miss</c><00:02:31.520><c> that</c>
+
+00:02:31.750 --> 00:02:31.760 align:start position:0%
+as slow as when we had a cache miss that
+ 
+
+00:02:31.760 --> 00:02:34.229 align:start position:0%
+as slow as when we had a cache miss that
+we<00:02:31.920><c> were</c><00:02:32.080><c> trying</c><00:02:32.319><c> to</c><00:02:32.480><c> avoid</c><00:02:33.440><c> before</c><00:02:33.760><c> we</c><00:02:33.920><c> got</c><00:02:34.080><c> to</c>
+
+00:02:34.229 --> 00:02:34.239 align:start position:0%
+we were trying to avoid before we got to
+ 
+
+00:02:34.239 --> 00:02:36.949 align:start position:0%
+we were trying to avoid before we got to
+page<00:02:34.560><c> tables.</c><00:02:35.360><c> Things</c><00:02:35.680><c> are</c><00:02:35.840><c> even</c><00:02:36.080><c> worse</c>
+
+00:02:36.949 --> 00:02:36.959 align:start position:0%
+page tables. Things are even worse
+ 
+
+00:02:36.959 --> 00:02:39.430 align:start position:0%
+page tables. Things are even worse
+because<00:02:37.280><c> for</c><00:02:37.519><c> a</c><00:02:37.680><c> multi-level</c><00:02:38.319><c> page</c><00:02:38.640><c> table,</c>
+
+00:02:39.430 --> 00:02:39.440 align:start position:0%
+because for a multi-level page table,
+ 
+
+00:02:39.440 --> 00:02:42.150 align:start position:0%
+because for a multi-level page table,
+for<00:02:39.519><c> example,</c><00:02:39.920><c> a</c><00:02:40.239><c> four-level</c><00:02:40.720><c> page</c><00:02:41.040><c> table,</c><00:02:41.920><c> we</c>
+
+00:02:42.150 --> 00:02:42.160 align:start position:0%
+for example, a four-level page table, we
+ 
+
+00:02:42.160 --> 00:02:44.390 align:start position:0%
+for example, a four-level page table, we
+would<00:02:42.400><c> need</c><00:02:42.560><c> to</c><00:02:42.720><c> do</c><00:02:42.959><c> this</c><00:02:43.280><c> multiple</c><00:02:43.760><c> times.</c>
+
+00:02:44.390 --> 00:02:44.400 align:start position:0%
+would need to do this multiple times.
+ 
+
+00:02:44.400 --> 00:02:46.470 align:start position:0%
+would need to do this multiple times.
+For<00:02:44.480><c> example,</c><00:02:44.959><c> four</c><00:02:45.280><c> times.</c><00:02:46.000><c> Compute</c><00:02:46.319><c> the</c>
+
+00:02:46.470 --> 00:02:46.480 align:start position:0%
+For example, four times. Compute the
+ 
+
+00:02:46.480 --> 00:02:48.150 align:start position:0%
+For example, four times. Compute the
+physical<00:02:46.800><c> address</c><00:02:47.040><c> of</c><00:02:47.200><c> the</c><00:02:47.360><c> outermost</c><00:02:47.840><c> page</c>
+
+00:02:48.150 --> 00:02:48.160 align:start position:0%
+physical address of the outermost page
+ 
+
+00:02:48.160 --> 00:02:50.470 align:start position:0%
+physical address of the outermost page
+table.<00:02:48.720><c> Read</c><00:02:48.959><c> that</c><00:02:49.200><c> entry.</c><00:02:50.000><c> Compute</c><00:02:50.319><c> the</c>
+
+00:02:50.470 --> 00:02:50.480 align:start position:0%
+table. Read that entry. Compute the
+ 
+
+00:02:50.480 --> 00:02:53.270 align:start position:0%
+table. Read that entry. Compute the
+physical<00:02:50.879><c> address</c><00:02:51.360><c> of</c><00:02:51.599><c> the</c><00:02:52.000><c> next</c><00:02:52.319><c> page</c><00:02:52.640><c> table.</c>
+
+00:02:53.270 --> 00:02:53.280 align:start position:0%
+physical address of the next page table.
+ 
+
+00:02:53.280 --> 00:02:55.350 align:start position:0%
+physical address of the next page table.
+Go<00:02:53.440><c> ahead</c><00:02:53.840><c> and</c><00:02:54.080><c> do</c><00:02:54.239><c> that</c><00:02:54.400><c> four</c><00:02:54.720><c> times.</c><00:02:55.040><c> So</c><00:02:55.200><c> we</c>
+
+00:02:55.350 --> 00:02:55.360 align:start position:0%
+Go ahead and do that four times. So we
+ 
+
+00:02:55.360 --> 00:02:57.350 align:start position:0%
+Go ahead and do that four times. So we
+need<00:02:55.519><c> four</c><00:02:55.760><c> memory</c><00:02:56.160><c> accesses</c><00:02:56.720><c> to</c><00:02:56.959><c> read</c><00:02:57.120><c> the</c>
+
+00:02:57.350 --> 00:02:57.360 align:start position:0%
+need four memory accesses to read the
+ 
+
+00:02:57.360 --> 00:02:59.990 align:start position:0%
+need four memory accesses to read the
+four<00:02:57.680><c> page</c><00:02:58.000><c> table</c><00:02:58.239><c> entries</c><00:02:59.040><c> until</c><00:02:59.360><c> we</c><00:02:59.599><c> get</c><00:02:59.760><c> the</c>
+
+00:02:59.990 --> 00:03:00.000 align:start position:0%
+four page table entries until we get the
+ 
+
+00:03:00.000 --> 00:03:02.149 align:start position:0%
+four page table entries until we get the
+actual<00:03:00.360><c> translation</c><00:03:01.360><c> after</c><00:03:01.599><c> which</c><00:03:01.840><c> we</c><00:03:02.000><c> can</c>
+
+00:03:02.149 --> 00:03:02.159 align:start position:0%
+actual translation after which we can
+ 
+
+00:03:02.159 --> 00:03:05.190 align:start position:0%
+actual translation after which we can
+quickly<00:03:02.480><c> access</c><00:03:02.720><c> the</c><00:03:02.879><c> cache.</c><00:03:03.680><c> So</c><00:03:04.000><c> somehow</c><00:03:04.959><c> we</c>
+
+00:03:05.190 --> 00:03:05.200 align:start position:0%
+quickly access the cache. So somehow we
+ 
+
+00:03:05.200 --> 00:03:06.869 align:start position:0%
+quickly access the cache. So somehow we
+have<00:03:05.280><c> a</c><00:03:05.519><c> situation</c><00:03:05.920><c> where</c><00:03:06.159><c> the</c><00:03:06.319><c> virtual</c><00:03:06.640><c> to</c>
+
+00:03:06.869 --> 00:03:06.879 align:start position:0%
+have a situation where the virtual to
+ 
+
+00:03:06.879 --> 00:03:09.430 align:start position:0%
+have a situation where the virtual to
+physical<00:03:07.280><c> address</c><00:03:07.720><c> translation</c><00:03:08.720><c> is</c><00:03:09.040><c> costing</c>
+
+00:03:09.430 --> 00:03:09.440 align:start position:0%
+physical address translation is costing
+ 
+
+00:03:09.440 --> 00:03:13.350 align:start position:0%
+physical address translation is costing
+us<00:03:10.319><c> more</c><00:03:11.280><c> than</c><00:03:11.519><c> the</c><00:03:11.760><c> memory</c><00:03:12.080><c> accesses</c><00:03:12.879><c> that</c><00:03:13.120><c> we</c>
+
+00:03:13.350 --> 00:03:13.360 align:start position:0%
+us more than the memory accesses that we
+ 
+
+00:03:13.360 --> 00:03:17.360 align:start position:0%
+us more than the memory accesses that we
+try<00:03:13.519><c> to</c><00:03:13.680><c> avoid</c><00:03:14.000><c> by</c><00:03:14.239><c> having</c><00:03:14.480><c> the</c><00:03:14.640><c> caches.</c>
+

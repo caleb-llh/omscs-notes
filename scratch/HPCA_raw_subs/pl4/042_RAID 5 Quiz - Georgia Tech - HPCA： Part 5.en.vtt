@@ -1,0 +1,120 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.000 align:start position:0%
+ 
+so<00:00:00.240><c> now</c><00:00:00.420><c> let's</c><00:00:00.630><c> try</c><00:00:00.750><c> to</c><00:00:00.870><c> figure</c><00:00:01.110><c> out</c><00:00:01.260><c> a</c><00:00:01.530><c> raid</c><00:00:01.740><c> 5</c>
+
+00:00:02.000 --> 00:00:02.010 align:start position:0%
+so now let's try to figure out a raid 5
+ 
+
+00:00:02.010 --> 00:00:04.849 align:start position:0%
+so now let's try to figure out a raid 5
+array<00:00:02.210><c> so</c><00:00:03.210><c> now</c><00:00:03.330><c> we</c><00:00:03.389><c> have</c><00:00:03.659><c> a</c><00:00:03.840><c> raid</c><00:00:04.049><c> 5</c><00:00:04.380><c> array</c><00:00:04.410><c> with</c>
+
+00:00:04.849 --> 00:00:04.859 align:start position:0%
+array so now we have a raid 5 array with
+ 
+
+00:00:04.859 --> 00:00:08.030 align:start position:0%
+array so now we have a raid 5 array with
+five<00:00:04.890><c> disks</c><00:00:05.810><c> one</c><00:00:06.810><c> disk</c><00:00:07.080><c> is</c><00:00:07.290><c> still</c><00:00:07.500><c> the</c><00:00:07.649><c> same</c><00:00:07.859><c> as</c>
+
+00:00:08.030 --> 00:00:08.040 align:start position:0%
+five disks one disk is still the same as
+ 
+
+00:00:08.040 --> 00:00:10.669 align:start position:0%
+five disks one disk is still the same as
+before<00:00:08.269><c> 200</c><00:00:09.269><c> gigabytes</c><00:00:09.750><c> 10</c><00:00:10.110><c> megabytes</c><00:00:10.590><c> per</c>
+
+00:00:10.669 --> 00:00:10.679 align:start position:0%
+before 200 gigabytes 10 megabytes per
+ 
+
+00:00:10.679 --> 00:00:13.370 align:start position:0%
+before 200 gigabytes 10 megabytes per
+second<00:00:11.280><c> MTTF</c><00:00:12.150><c> of</c><00:00:12.269><c> a</c><00:00:12.389><c> hundred</c><00:00:12.750><c> thousand</c><00:00:13.080><c> hours</c>
+
+00:00:13.370 --> 00:00:13.380 align:start position:0%
+second MTTF of a hundred thousand hours
+ 
+
+00:00:13.380 --> 00:00:16.369 align:start position:0%
+second MTTF of a hundred thousand hours
+and<00:00:13.740><c> again</c><00:00:14.730><c> we</c><00:00:15.000><c> replace</c><00:00:15.360><c> a</c><00:00:15.389><c> failed</c><00:00:15.839><c> disk</c><00:00:16.080><c> when</c>
+
+00:00:16.369 --> 00:00:16.379 align:start position:0%
+and again we replace a failed disk when
+ 
+
+00:00:16.379 --> 00:00:18.920 align:start position:0%
+and again we replace a failed disk when
+it<00:00:16.500><c> fails</c><00:00:16.740><c> and</c><00:00:17.100><c> it</c><00:00:17.520><c> takes</c><00:00:17.730><c> us</c><00:00:17.880><c> 24</c><00:00:18.359><c> hours</c><00:00:18.630><c> to</c><00:00:18.779><c> do</c>
+
+00:00:18.920 --> 00:00:18.930 align:start position:0%
+it fails and it takes us 24 hours to do
+ 
+
+00:00:18.930 --> 00:00:22.010 align:start position:0%
+it fails and it takes us 24 hours to do
+that<00:00:19.250><c> so</c><00:00:20.250><c> then</c><00:00:20.490><c> our</c><00:00:20.730><c> five</c><00:00:21.060><c> disk</c><00:00:21.390><c> raid</c><00:00:21.689><c> 5</c><00:00:21.990><c> array</c>
+
+00:00:22.010 --> 00:00:22.020 align:start position:0%
+that so then our five disk raid 5 array
+ 
+
+00:00:22.020 --> 00:00:26.300 align:start position:0%
+that so then our five disk raid 5 array
+has<00:00:22.529><c> what</c><00:00:23.189><c> data</c><00:00:23.519><c> capacity</c><00:00:24.019><c> in</c><00:00:25.019><c> gigabytes</c><00:00:25.410><c> what</c>
+
+00:00:26.300 --> 00:00:26.310 align:start position:0%
+has what data capacity in gigabytes what
+ 
+
+00:00:26.310 --> 00:00:28.519 align:start position:0%
+has what data capacity in gigabytes what
+true<00:00:26.609><c> put</c><00:00:26.880><c> in</c><00:00:27.090><c> megabytes</c><00:00:27.570><c> per</c><00:00:27.810><c> second</c>
+
+00:00:28.519 --> 00:00:28.529 align:start position:0%
+true put in megabytes per second
+ 
+
+00:00:28.529 --> 00:00:30.290 align:start position:0%
+true put in megabytes per second
+assuming<00:00:28.920><c> that</c><00:00:29.039><c> we</c><00:00:29.189><c> do</c><00:00:29.340><c> half</c><00:00:29.609><c> reads</c><00:00:29.970><c> have</c>
+
+00:00:30.290 --> 00:00:30.300 align:start position:0%
+assuming that we do half reads have
+ 
+
+00:00:30.300 --> 00:00:30.950 align:start position:0%
+assuming that we do half reads have
+rights
+
+00:00:30.950 --> 00:00:30.960 align:start position:0%
+rights
+ 
+
+00:00:30.960 --> 00:00:33.410 align:start position:0%
+rights
+assuming<00:00:31.830><c> that</c><00:00:31.859><c> half</c><00:00:32.309><c> of</c><00:00:32.460><c> our</c><00:00:32.669><c> request</c><00:00:33.030><c> reads</c>
+
+00:00:33.410 --> 00:00:33.420 align:start position:0%
+assuming that half of our request reads
+ 
+
+00:00:33.420 --> 00:00:35.830 align:start position:0%
+assuming that half of our request reads
+and<00:00:33.719><c> half</c><00:00:34.170><c> of</c><00:00:34.350><c> our</c><00:00:34.530><c> requests</c><00:00:34.980><c> are</c><00:00:35.100><c> rights</c><00:00:35.340><c> and</c>
+
+00:00:35.830 --> 00:00:35.840 align:start position:0%
+and half of our requests are rights and
+ 
+
+00:00:35.840 --> 00:00:41.360 align:start position:0%
+and half of our requests are rights and
+what<00:00:36.840><c> is</c><00:00:37.050><c> the</c><00:00:37.230><c> MTTF</c><00:00:37.770><c> for</c><00:00:38.219><c> the</c><00:00:38.370><c> array</c><00:00:38.640><c> in</c><00:00:38.879><c> ours</c>
+

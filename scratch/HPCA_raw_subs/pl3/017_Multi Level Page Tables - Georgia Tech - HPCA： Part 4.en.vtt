@@ -1,0 +1,616 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.910 align:start position:0%
+ 
+so<00:00:00.390><c> now</c><00:00:00.510><c> that</c><00:00:00.570><c> we</c><00:00:00.810><c> have</c><00:00:00.930><c> seen</c><00:00:01.140><c> that</c><00:00:01.319><c> flat</c><00:00:01.620><c> page</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+so now that we have seen that flat page
+ 
+
+00:00:01.920 --> 00:00:04.220 align:start position:0%
+so now that we have seen that flat page
+tables<00:00:02.370><c> can</c><00:00:02.939><c> be</c><00:00:02.970><c> quite</c><00:00:03.270><c> large</c><00:00:03.510><c> even</c><00:00:04.049><c> for</c>
+
+00:00:04.220 --> 00:00:04.230 align:start position:0%
+tables can be quite large even for
+ 
+
+00:00:04.230 --> 00:00:06.860 align:start position:0%
+tables can be quite large even for
+32-bit<00:00:04.680><c> address</c><00:00:05.160><c> spaces</c><00:00:05.400><c> and</c><00:00:05.850><c> are</c><00:00:06.450><c> too</c><00:00:06.660><c> big</c><00:00:06.839><c> to</c>
+
+00:00:06.860 --> 00:00:06.870 align:start position:0%
+32-bit address spaces and are too big to
+ 
+
+00:00:06.870 --> 00:00:09.140 align:start position:0%
+32-bit address spaces and are too big to
+even<00:00:07.200><c> fit</c><00:00:07.379><c> in</c><00:00:07.529><c> memory</c><00:00:07.680><c> for</c><00:00:08.130><c> 64-bit</c><00:00:08.790><c> address</c>
+
+00:00:09.140 --> 00:00:09.150 align:start position:0%
+even fit in memory for 64-bit address
+ 
+
+00:00:09.150 --> 00:00:11.629 align:start position:0%
+even fit in memory for 64-bit address
+spaces<00:00:09.389><c> let's</c><00:00:10.380><c> talk</c><00:00:10.590><c> about</c><00:00:10.740><c> multi-level</c><00:00:11.460><c> page</c>
+
+00:00:11.629 --> 00:00:11.639 align:start position:0%
+spaces let's talk about multi-level page
+ 
+
+00:00:11.639 --> 00:00:13.400 align:start position:0%
+spaces let's talk about multi-level page
+tables<00:00:12.120><c> which</c><00:00:12.360><c> is</c><00:00:12.540><c> how</c><00:00:12.780><c> we</c><00:00:12.840><c> reduce</c><00:00:13.049><c> the</c><00:00:13.380><c> size</c>
+
+00:00:13.400 --> 00:00:13.410 align:start position:0%
+tables which is how we reduce the size
+ 
+
+00:00:13.410 --> 00:00:15.440 align:start position:0%
+tables which is how we reduce the size
+of<00:00:13.920><c> page</c><00:00:14.340><c> tables</c><00:00:14.730><c> when</c><00:00:14.910><c> we</c><00:00:15.000><c> have</c><00:00:15.150><c> a</c><00:00:15.179><c> large</c>
+
+00:00:15.440 --> 00:00:15.450 align:start position:0%
+of page tables when we have a large
+ 
+
+00:00:15.450 --> 00:00:17.900 align:start position:0%
+of page tables when we have a large
+address<00:00:15.690><c> space</c><00:00:16.049><c> so</c><00:00:16.320><c> the</c><00:00:17.010><c> problem</c><00:00:17.369><c> with</c><00:00:17.520><c> flat</c>
+
+00:00:17.900 --> 00:00:17.910 align:start position:0%
+address space so the problem with flat
+ 
+
+00:00:17.910 --> 00:00:20.480 align:start position:0%
+address space so the problem with flat
+page<00:00:18.270><c> tables</c><00:00:18.750><c> is</c><00:00:19.020><c> that</c><00:00:19.740><c> their</c><00:00:20.010><c> size</c><00:00:20.279><c> is</c>
+
+00:00:20.480 --> 00:00:20.490 align:start position:0%
+page tables is that their size is
+ 
+
+00:00:20.490 --> 00:00:21.890 align:start position:0%
+page tables is that their size is
+proportional<00:00:20.670><c> to</c><00:00:21.090><c> the</c><00:00:21.300><c> address</c><00:00:21.630><c> space</c>
+
+00:00:21.890 --> 00:00:21.900 align:start position:0%
+proportional to the address space
+ 
+
+00:00:21.900 --> 00:00:24.050 align:start position:0%
+proportional to the address space
+meaning<00:00:22.470><c> how</c><00:00:22.920><c> much</c><00:00:23.100><c> memory</c><00:00:23.340><c> can</c><00:00:23.910><c> the</c>
+
+00:00:24.050 --> 00:00:24.060 align:start position:0%
+meaning how much memory can the
+ 
+
+00:00:24.060 --> 00:00:26.870 align:start position:0%
+meaning how much memory can the
+application<00:00:24.630><c> possibly</c><00:00:25.230><c> address</c><00:00:25.470><c> not</c><00:00:26.460><c> how</c>
+
+00:00:26.870 --> 00:00:26.880 align:start position:0%
+application possibly address not how
+ 
+
+00:00:26.880 --> 00:00:29.480 align:start position:0%
+application possibly address not how
+much<00:00:27.060><c> memory</c><00:00:27.269><c> it</c><00:00:27.510><c> is</c><00:00:27.599><c> actually</c><00:00:27.990><c> using</c><00:00:28.460><c> for</c><00:00:29.460><c> a</c>
+
+00:00:29.480 --> 00:00:29.490 align:start position:0%
+much memory it is actually using for a
+ 
+
+00:00:29.490 --> 00:00:32.150 align:start position:0%
+much memory it is actually using for a
+32-bit<00:00:30.150><c> address</c><00:00:30.210><c> space</c><00:00:30.570><c> we</c><00:00:31.230><c> have</c><00:00:31.410><c> seen</c><00:00:31.650><c> that</c>
+
+00:00:32.150 --> 00:00:32.160 align:start position:0%
+32-bit address space we have seen that
+ 
+
+00:00:32.160 --> 00:00:35.000 align:start position:0%
+32-bit address space we have seen that
+we<00:00:32.279><c> have</c><00:00:32.309><c> a</c><00:00:32.460><c> reasonably</c><00:00:33.090><c> sized</c><00:00:33.329><c> page</c><00:00:33.750><c> table</c><00:00:34.200><c> so</c>
+
+00:00:35.000 --> 00:00:35.010 align:start position:0%
+we have a reasonably sized page table so
+ 
+
+00:00:35.010 --> 00:00:37.670 align:start position:0%
+we have a reasonably sized page table so
+for<00:00:35.190><c> 32-bit</c><00:00:35.640><c> virtual</c><00:00:36.090><c> addresses</c><00:00:36.450><c> the</c><00:00:37.440><c> flat</c>
+
+00:00:37.670 --> 00:00:37.680 align:start position:0%
+for 32-bit virtual addresses the flat
+ 
+
+00:00:37.680 --> 00:00:39.940 align:start position:0%
+for 32-bit virtual addresses the flat
+page<00:00:37.950><c> table</c><00:00:38.190><c> size</c><00:00:38.370><c> is</c><00:00:39.090><c> several</c><00:00:39.660><c> megabytes</c>
+
+00:00:39.940 --> 00:00:39.950 align:start position:0%
+page table size is several megabytes
+ 
+
+00:00:39.950 --> 00:00:42.290 align:start position:0%
+page table size is several megabytes
+note<00:00:40.950><c> that</c><00:00:41.160><c> we</c><00:00:41.280><c> can</c><00:00:41.430><c> have</c><00:00:41.610><c> a</c><00:00:41.640><c> very</c><00:00:41.969><c> small</c>
+
+00:00:42.290 --> 00:00:42.300 align:start position:0%
+note that we can have a very small
+ 
+
+00:00:42.300 --> 00:00:44.360 align:start position:0%
+note that we can have a very small
+application<00:00:42.930><c> that</c><00:00:43.320><c> only</c><00:00:43.530><c> uses</c><00:00:43.950><c> a</c><00:00:43.980><c> couple</c><00:00:44.280><c> of</c>
+
+00:00:44.360 --> 00:00:44.370 align:start position:0%
+application that only uses a couple of
+ 
+
+00:00:44.370 --> 00:00:47.470 align:start position:0%
+application that only uses a couple of
+kilobytes<00:00:44.760><c> of</c><00:00:45.000><c> memory</c><00:00:45.030><c> yet</c><00:00:45.989><c> it</c><00:00:46.230><c> still</c><00:00:46.530><c> needs</c><00:00:46.800><c> a</c>
+
+00:00:47.470 --> 00:00:47.480 align:start position:0%
+kilobytes of memory yet it still needs a
+ 
+
+00:00:47.480 --> 00:00:50.600 align:start position:0%
+kilobytes of memory yet it still needs a
+page<00:00:48.480><c> table</c><00:00:48.719><c> of</c><00:00:48.989><c> this</c><00:00:49.170><c> size</c><00:00:49.379><c> because</c><00:00:50.250><c> the</c><00:00:50.430><c> page</c>
+
+00:00:50.600 --> 00:00:50.610 align:start position:0%
+page table of this size because the page
+ 
+
+00:00:50.610 --> 00:00:52.250 align:start position:0%
+page table of this size because the page
+table<00:00:50.940><c> size</c><00:00:50.969><c> has</c><00:00:51.390><c> nothing</c><00:00:51.719><c> to</c><00:00:51.750><c> do</c><00:00:51.930><c> with</c><00:00:51.960><c> how</c>
+
+00:00:52.250 --> 00:00:52.260 align:start position:0%
+table size has nothing to do with how
+ 
+
+00:00:52.260 --> 00:00:54.500 align:start position:0%
+table size has nothing to do with how
+much<00:00:52.379><c> memory</c><00:00:52.739><c> we</c><00:00:52.770><c> are</c><00:00:52.890><c> using</c><00:00:53.370><c> it</c><00:00:53.699><c> has</c><00:00:54.059><c> to</c><00:00:54.360><c> do</c>
+
+00:00:54.500 --> 00:00:54.510 align:start position:0%
+much memory we are using it has to do
+ 
+
+00:00:54.510 --> 00:00:56.330 align:start position:0%
+much memory we are using it has to do
+with<00:00:54.539><c> how</c><00:00:54.899><c> much</c><00:00:55.020><c> memory</c><00:00:55.379><c> can</c><00:00:55.739><c> we</c><00:00:55.860><c> possibly</c>
+
+00:00:56.330 --> 00:00:56.340 align:start position:0%
+with how much memory can we possibly
+ 
+
+00:00:56.340 --> 00:00:59.930 align:start position:0%
+with how much memory can we possibly
+address<00:00:56.870><c> for</c><00:00:57.870><c> 64-bit</c><00:00:58.800><c> virtual</c><00:00:59.070><c> addresses</c><00:00:59.340><c> a</c>
+
+00:00:59.930 --> 00:00:59.940 align:start position:0%
+address for 64-bit virtual addresses a
+ 
+
+00:00:59.940 --> 00:01:02.840 align:start position:0%
+address for 64-bit virtual addresses a
+flat<00:01:00.930><c> page</c><00:01:01.289><c> table</c><00:01:01.530><c> would</c><00:01:01.890><c> simply</c><00:01:02.280><c> be</c><00:01:02.399><c> too</c><00:01:02.640><c> big</c>
+
+00:01:02.840 --> 00:01:02.850 align:start position:0%
+flat page table would simply be too big
+ 
+
+00:01:02.850 --> 00:01:05.000 align:start position:0%
+flat page table would simply be too big
+the<00:01:03.629><c> page</c><00:01:03.870><c> table</c><00:01:04.229><c> would</c><00:01:04.350><c> be</c><00:01:04.500><c> many</c><00:01:04.739><c> many</c>
+
+00:01:05.000 --> 00:01:05.010 align:start position:0%
+the page table would be many many
+ 
+
+00:01:05.010 --> 00:01:08.000 align:start position:0%
+the page table would be many many
+gigabytes<00:01:05.580><c> in</c><00:01:05.729><c> size</c><00:01:06.140><c> so</c><00:01:07.140><c> which</c><00:01:07.290><c> simply</c><00:01:07.680><c> cannot</c>
+
+00:01:08.000 --> 00:01:08.010 align:start position:0%
+gigabytes in size so which simply cannot
+ 
+
+00:01:08.010 --> 00:01:10.370 align:start position:0%
+gigabytes in size so which simply cannot
+use<00:01:08.250><c> it</c><00:01:08.430><c> because</c><00:01:09.299><c> it</c><00:01:09.630><c> wouldn't</c><00:01:09.930><c> fit</c><00:01:10.110><c> in</c><00:01:10.350><c> the</c>
+
+00:01:10.370 --> 00:01:10.380 align:start position:0%
+use it because it wouldn't fit in the
+ 
+
+00:01:10.380 --> 00:01:12.289 align:start position:0%
+use it because it wouldn't fit in the
+amount<00:01:10.890><c> of</c><00:01:11.040><c> physical</c><00:01:11.189><c> memory</c><00:01:11.549><c> we</c><00:01:11.939><c> actually</c>
+
+00:01:12.289 --> 00:01:12.299 align:start position:0%
+amount of physical memory we actually
+ 
+
+00:01:12.299 --> 00:01:15.020 align:start position:0%
+amount of physical memory we actually
+have<00:01:12.570><c> so</c><00:01:12.990><c> multi-level</c><00:01:13.740><c> page</c><00:01:13.950><c> tables</c><00:01:14.549><c> are</c>
+
+00:01:15.020 --> 00:01:15.030 align:start position:0%
+have so multi-level page tables are
+ 
+
+00:01:15.030 --> 00:01:17.539 align:start position:0%
+have so multi-level page tables are
+designed<00:01:15.509><c> to</c><00:01:15.900><c> try</c><00:01:16.470><c> to</c><00:01:16.530><c> overcome</c><00:01:16.830><c> both</c><00:01:17.250><c> of</c><00:01:17.460><c> the</c>
+
+00:01:17.539 --> 00:01:17.549 align:start position:0%
+designed to try to overcome both of the
+ 
+
+00:01:17.549 --> 00:01:20.480 align:start position:0%
+designed to try to overcome both of the
+problems<00:01:18.000><c> we</c><00:01:18.659><c> want</c><00:01:18.900><c> the</c><00:01:19.470><c> overall</c><00:01:19.920><c> size</c><00:01:20.220><c> of</c><00:01:20.430><c> the</c>
+
+00:01:20.480 --> 00:01:20.490 align:start position:0%
+problems we want the overall size of the
+ 
+
+00:01:20.490 --> 00:01:23.120 align:start position:0%
+problems we want the overall size of the
+page<00:01:20.790><c> table</c><00:01:21.030><c> to</c><00:01:21.840><c> be</c><00:01:21.990><c> proportional</c><00:01:22.409><c> to</c><00:01:22.950><c> how</c>
+
+00:01:23.120 --> 00:01:23.130 align:start position:0%
+page table to be proportional to how
+ 
+
+00:01:23.130 --> 00:01:25.880 align:start position:0%
+page table to be proportional to how
+much<00:01:23.159><c> memory</c><00:01:23.670><c> we</c><00:01:23.790><c> are</c><00:01:23.970><c> using</c><00:01:24.180><c> and</c><00:01:24.720><c> we</c><00:01:24.750><c> want</c><00:01:25.650><c> our</c>
+
+00:01:25.880 --> 00:01:25.890 align:start position:0%
+much memory we are using and we want our
+ 
+
+00:01:25.890 --> 00:01:28.280 align:start position:0%
+much memory we are using and we want our
+page<00:01:26.220><c> table</c><00:01:26.580><c> to</c><00:01:26.729><c> work</c><00:01:26.880><c> even</c><00:01:27.390><c> for</c><00:01:27.540><c> 64-bit</c>
+
+00:01:28.280 --> 00:01:28.290 align:start position:0%
+page table to work even for 64-bit
+ 
+
+00:01:28.290 --> 00:01:30.350 align:start position:0%
+page table to work even for 64-bit
+virtual<00:01:28.680><c> addresses</c><00:01:28.770><c> as</c><00:01:29.640><c> long</c><00:01:29.909><c> as</c><00:01:30.060><c> the</c><00:01:30.180><c> program</c>
+
+00:01:30.350 --> 00:01:30.360 align:start position:0%
+virtual addresses as long as the program
+ 
+
+00:01:30.360 --> 00:01:33.200 align:start position:0%
+virtual addresses as long as the program
+is<00:01:30.689><c> actually</c><00:01:31.110><c> not</c><00:01:31.259><c> using</c><00:01:31.500><c> the</c><00:01:32.130><c> entire</c><00:01:32.220><c> 64-bit</c>
+
+00:01:33.200 --> 00:01:33.210 align:start position:0%
+is actually not using the entire 64-bit
+ 
+
+00:01:33.210 --> 00:01:35.120 align:start position:0%
+is actually not using the entire 64-bit
+virtual<00:01:33.540><c> address</c><00:01:33.780><c> space</c><00:01:34.020><c> which</c><00:01:34.229><c> no</c><00:01:34.740><c> program</c>
+
+00:01:35.120 --> 00:01:35.130 align:start position:0%
+virtual address space which no program
+ 
+
+00:01:35.130 --> 00:01:38.149 align:start position:0%
+virtual address space which no program
+really<00:01:35.310><c> does</c><00:01:35.400><c> the</c><00:01:36.210><c> idea</c><00:01:36.540><c> of</c><00:01:36.720><c> why</c><00:01:37.409><c> multi-level</c>
+
+00:01:38.149 --> 00:01:38.159 align:start position:0%
+really does the idea of why multi-level
+ 
+
+00:01:38.159 --> 00:01:40.580 align:start position:0%
+really does the idea of why multi-level
+page<00:01:38.369><c> tables</c><00:01:38.850><c> work</c><00:01:39.090><c> has</c><00:01:39.630><c> to</c><00:01:39.840><c> do</c><00:01:39.990><c> with</c><00:01:40.259><c> how</c><00:01:40.530><c> the</c>
+
+00:01:40.580 --> 00:01:40.590 align:start position:0%
+page tables work has to do with how the
+ 
+
+00:01:40.590 --> 00:01:43.039 align:start position:0%
+page tables work has to do with how the
+virtual<00:01:40.920><c> address</c><00:01:41.189><c> space</c><00:01:41.670><c> is</c><00:01:41.850><c> usually</c><00:01:42.060><c> used</c><00:01:42.689><c> by</c>
+
+00:01:43.039 --> 00:01:43.049 align:start position:0%
+virtual address space is usually used by
+ 
+
+00:01:43.049 --> 00:01:45.980 align:start position:0%
+virtual address space is usually used by
+the<00:01:43.290><c> applications</c><00:01:44.540><c> recall</c><00:01:45.540><c> that</c><00:01:45.840><c> the</c>
+
+00:01:45.980 --> 00:01:45.990 align:start position:0%
+the applications recall that the
+ 
+
+00:01:45.990 --> 00:01:49.069 align:start position:0%
+the applications recall that the
+application<00:01:46.619><c> thinks</c><00:01:47.490><c> it</c><00:01:48.000><c> can</c><00:01:48.329><c> address</c><00:01:48.509><c> memory</c>
+
+00:01:49.069 --> 00:01:49.079 align:start position:0%
+application thinks it can address memory
+ 
+
+00:01:49.079 --> 00:01:51.980 align:start position:0%
+application thinks it can address memory
+with<00:01:49.680><c> 64-bit</c><00:01:50.310><c> addresses</c><00:01:51.030><c> so</c><00:01:51.360><c> it</c><00:01:51.450><c> has</c><00:01:51.689><c> this</c>
+
+00:01:51.980 --> 00:01:51.990 align:start position:0%
+with 64-bit addresses so it has this
+ 
+
+00:01:51.990 --> 00:01:54.469 align:start position:0%
+with 64-bit addresses so it has this
+many<00:01:52.350><c> potential</c><00:01:53.280><c> memory</c><00:01:53.610><c> locations</c><00:01:54.119><c> it</c><00:01:54.270><c> can</c>
+
+00:01:54.469 --> 00:01:54.479 align:start position:0%
+many potential memory locations it can
+ 
+
+00:01:54.479 --> 00:01:58.190 align:start position:0%
+many potential memory locations it can
+access<00:01:54.950><c> but</c><00:01:55.950><c> in</c><00:01:56.189><c> reality</c><00:01:56.630><c> the</c><00:01:57.630><c> application</c>
+
+00:01:58.190 --> 00:01:58.200 align:start position:0%
+access but in reality the application
+ 
+
+00:01:58.200 --> 00:02:01.399 align:start position:0%
+access but in reality the application
+only<00:01:58.469><c> allocates</c><00:01:59.130><c> memory</c><00:01:59.909><c> like</c><00:02:00.360><c> this</c><00:02:00.390><c> at</c><00:02:01.020><c> the</c>
+
+00:02:01.399 --> 00:02:01.409 align:start position:0%
+only allocates memory like this at the
+ 
+
+00:02:01.409 --> 00:02:03.410 align:start position:0%
+only allocates memory like this at the
+beginning<00:02:01.860><c> of</c><00:02:02.009><c> the</c><00:02:02.130><c> virtual</c><00:02:02.460><c> memory</c><00:02:02.610><c> there</c><00:02:03.390><c> is</c>
+
+00:02:03.410 --> 00:02:03.420 align:start position:0%
+beginning of the virtual memory there is
+ 
+
+00:02:03.420 --> 00:02:06.260 align:start position:0%
+beginning of the virtual memory there is
+the<00:02:03.659><c> code</c><00:02:03.960><c> the</c><00:02:04.649><c> static</c><00:02:05.100><c> variables</c><00:02:05.670><c> and</c><00:02:05.909><c> the</c>
+
+00:02:06.260 --> 00:02:06.270 align:start position:0%
+the code the static variables and the
+ 
+
+00:02:06.270 --> 00:02:08.960 align:start position:0%
+the code the static variables and the
+heap<00:02:06.570><c> and</c><00:02:06.899><c> at</c><00:02:07.829><c> the</c><00:02:08.009><c> top</c><00:02:08.250><c> of</c><00:02:08.489><c> the</c><00:02:08.640><c> virtual</c>
+
+00:02:08.960 --> 00:02:08.970 align:start position:0%
+heap and at the top of the virtual
+ 
+
+00:02:08.970 --> 00:02:11.390 align:start position:0%
+heap and at the top of the virtual
+address<00:02:09.209><c> space</c><00:02:09.479><c> is</c><00:02:09.690><c> the</c><00:02:09.869><c> stack</c><00:02:10.200><c> so</c><00:02:10.590><c> we're</c>
+
+00:02:11.390 --> 00:02:11.400 align:start position:0%
+address space is the stack so we're
+ 
+
+00:02:11.400 --> 00:02:12.630 align:start position:0%
+address space is the stack so we're
+really<00:02:11.610><c> talking</c><00:02:11.849><c> about</c>
+
+00:02:12.630 --> 00:02:12.640 align:start position:0%
+really talking about
+ 
+
+00:02:12.640 --> 00:02:15.090 align:start position:0%
+really talking about
+two<00:02:13.000><c> contiguous</c><00:02:13.450><c> regions</c><00:02:14.110><c> of</c><00:02:14.410><c> virtual</c><00:02:14.950><c> memory</c>
+
+00:02:15.090 --> 00:02:15.100 align:start position:0%
+two contiguous regions of virtual memory
+ 
+
+00:02:15.100 --> 00:02:17.550 align:start position:0%
+two contiguous regions of virtual memory
+that<00:02:15.730><c> are</c><00:02:15.760><c> actually</c><00:02:16.569><c> used</c><00:02:17.230><c> by</c><00:02:17.410><c> the</c>
+
+00:02:17.550 --> 00:02:17.560 align:start position:0%
+that are actually used by the
+ 
+
+00:02:17.560 --> 00:02:19.949 align:start position:0%
+that are actually used by the
+application<00:02:18.040><c> and</c><00:02:18.520><c> even</c><00:02:19.390><c> if</c><00:02:19.510><c> these</c><00:02:19.690><c> two</c><00:02:19.930><c> are</c>
+
+00:02:19.949 --> 00:02:19.959 align:start position:0%
+application and even if these two are
+ 
+
+00:02:19.959 --> 00:02:23.160 align:start position:0%
+application and even if these two are
+several<00:02:20.470><c> gigabytes</c><00:02:20.709><c> each</c><00:02:21.250><c> in</c><00:02:22.240><c> a</c><00:02:22.360><c> 64-bit</c>
+
+00:02:23.160 --> 00:02:23.170 align:start position:0%
+several gigabytes each in a 64-bit
+ 
+
+00:02:23.170 --> 00:02:25.500 align:start position:0%
+several gigabytes each in a 64-bit
+address<00:02:23.530><c> space</c><00:02:23.850><c> there</c><00:02:24.850><c> will</c><00:02:25.000><c> be</c><00:02:25.030><c> many</c><00:02:25.330><c> many</c>
+
+00:02:25.500 --> 00:02:25.510 align:start position:0%
+address space there will be many many
+ 
+
+00:02:25.510 --> 00:02:28.410 align:start position:0%
+address space there will be many many
+terabytes<00:02:26.050><c> of</c><00:02:26.319><c> unused</c><00:02:27.010><c> address</c><00:02:27.670><c> space</c><00:02:27.970><c> here</c>
+
+00:02:28.410 --> 00:02:28.420 align:start position:0%
+terabytes of unused address space here
+ 
+
+00:02:28.420 --> 00:02:31.650 align:start position:0%
+terabytes of unused address space here
+but<00:02:29.170><c> in</c><00:02:29.410><c> a</c><00:02:29.500><c> flat</c><00:02:29.740><c> page</c><00:02:30.070><c> table</c><00:02:30.340><c> we</c><00:02:30.970><c> had</c><00:02:31.240><c> to</c><00:02:31.420><c> have</c>
+
+00:02:31.650 --> 00:02:31.660 align:start position:0%
+but in a flat page table we had to have
+ 
+
+00:02:31.660 --> 00:02:35.370 align:start position:0%
+but in a flat page table we had to have
+a<00:02:31.930><c> page</c><00:02:32.890><c> table</c><00:02:33.160><c> entry</c><00:02:33.700><c> for</c><00:02:33.730><c> each</c><00:02:33.940><c> page</c><00:02:34.450><c> in</c><00:02:35.110><c> this</c>
+
+00:02:35.370 --> 00:02:35.380 align:start position:0%
+a page table entry for each page in this
+ 
+
+00:02:35.380 --> 00:02:38.940 align:start position:0%
+a page table entry for each page in this
+huge<00:02:35.830><c> space</c><00:02:36.160><c> here</c><00:02:36.610><c> so</c><00:02:37.020><c> a</c><00:02:38.020><c> multi-level</c><00:02:38.770><c> page</c>
+
+00:02:38.940 --> 00:02:38.950 align:start position:0%
+huge space here so a multi-level page
+ 
+
+00:02:38.950 --> 00:02:42.150 align:start position:0%
+huge space here so a multi-level page
+table<00:02:39.220><c> combines</c><00:02:40.180><c> the</c><00:02:40.390><c> idea</c><00:02:40.690><c> of</c><00:02:40.870><c> a</c><00:02:40.900><c> flat</c><00:02:41.830><c> page</c>
+
+00:02:42.150 --> 00:02:42.160 align:start position:0%
+table combines the idea of a flat page
+ 
+
+00:02:42.160 --> 00:02:45.180 align:start position:0%
+table combines the idea of a flat page
+table<00:02:42.510><c> where</c><00:02:43.510><c> we</c><00:02:43.660><c> use</c><00:02:44.350><c> some</c><00:02:44.680><c> bits</c><00:02:44.920><c> from</c><00:02:45.100><c> the</c>
+
+00:02:45.180 --> 00:02:45.190 align:start position:0%
+table where we use some bits from the
+ 
+
+00:02:45.190 --> 00:02:47.850 align:start position:0%
+table where we use some bits from the
+virtual<00:02:45.310><c> address</c><00:02:45.670><c> to</c><00:02:46.090><c> index</c><00:02:46.750><c> the</c><00:02:46.870><c> table</c><00:02:47.320><c> this</c>
+
+00:02:47.850 --> 00:02:47.860 align:start position:0%
+virtual address to index the table this
+ 
+
+00:02:47.860 --> 00:02:49.590 align:start position:0%
+virtual address to index the table this
+works<00:02:48.130><c> really</c><00:02:48.340><c> well</c><00:02:48.610><c> in</c><00:02:48.760><c> hardware</c><00:02:49.209><c> hardware</c>
+
+00:02:49.590 --> 00:02:49.600 align:start position:0%
+works really well in hardware hardware
+ 
+
+00:02:49.600 --> 00:02:52.170 align:start position:0%
+works really well in hardware hardware
+really<00:02:49.750><c> likes</c><00:02:50.140><c> using</c><00:02:51.010><c> some</c><00:02:51.519><c> bits</c><00:02:51.730><c> to</c><00:02:51.970><c> index</c>
+
+00:02:52.170 --> 00:02:52.180 align:start position:0%
+really likes using some bits to index
+ 
+
+00:02:52.180 --> 00:02:55.979 align:start position:0%
+really likes using some bits to index
+some<00:02:52.720><c> sort</c><00:02:52.930><c> of</c><00:02:53.019><c> an</c><00:02:53.200><c> array</c><00:02:53.610><c> but</c><00:02:54.660><c> we</c><00:02:55.660><c> want</c><00:02:55.870><c> to</c>
+
+00:02:55.979 --> 00:02:55.989 align:start position:0%
+some sort of an array but we want to
+ 
+
+00:02:55.989 --> 00:02:58.350 align:start position:0%
+some sort of an array but we want to
+avoid<00:02:56.380><c> the</c><00:02:56.620><c> use</c><00:02:56.650><c> of</c><00:02:56.860><c> table</c><00:02:57.459><c> entries</c><00:02:57.850><c> that</c>
+
+00:02:58.350 --> 00:02:58.360 align:start position:0%
+avoid the use of table entries that
+ 
+
+00:02:58.360 --> 00:03:01.470 align:start position:0%
+avoid the use of table entries that
+correspond<00:02:58.989><c> to</c><00:02:59.050><c> this</c><00:02:59.850><c> meaning</c><00:03:00.850><c> we</c><00:03:01.060><c> want</c><00:03:01.360><c> to</c>
+
+00:03:01.470 --> 00:03:01.480 align:start position:0%
+correspond to this meaning we want to
+ 
+
+00:03:01.480 --> 00:03:03.840 align:start position:0%
+correspond to this meaning we want to
+have<00:03:01.720><c> a</c><00:03:01.989><c> pretty</c><00:03:02.560><c> normal</c><00:03:02.860><c> page</c><00:03:03.280><c> table</c><00:03:03.700><c> like</c>
+
+00:03:03.840 --> 00:03:03.850 align:start position:0%
+have a pretty normal page table like
+ 
+
+00:03:03.850 --> 00:03:06.870 align:start position:0%
+have a pretty normal page table like
+thing<00:03:04.120><c> here</c><00:03:04.630><c> and</c><00:03:04.840><c> here</c><00:03:05.350><c> but</c><00:03:05.769><c> somehow</c><00:03:06.280><c> not</c><00:03:06.550><c> have</c>
+
+00:03:06.870 --> 00:03:06.880 align:start position:0%
+thing here and here but somehow not have
+ 
+
+00:03:06.880 --> 00:03:08.910 align:start position:0%
+thing here and here but somehow not have
+anything<00:03:07.300><c> for</c><00:03:07.720><c> this</c><00:03:07.930><c> so</c><00:03:08.200><c> that</c><00:03:08.350><c> we</c><00:03:08.500><c> can</c><00:03:08.530><c> simply</c>
+
+00:03:08.910 --> 00:03:08.920 align:start position:0%
+anything for this so that we can simply
+ 
+
+00:03:08.920 --> 00:03:11.550 align:start position:0%
+anything for this so that we can simply
+omit<00:03:09.250><c> those</c><00:03:09.489><c> page</c><00:03:09.880><c> table</c><00:03:10.239><c> entries</c><00:03:10.600><c> now</c><00:03:10.810><c> that</c>
+
+00:03:11.550 --> 00:03:11.560 align:start position:0%
+omit those page table entries now that
+ 
+
+00:03:11.560 --> 00:03:14.220 align:start position:0%
+omit those page table entries now that
+we<00:03:11.680><c> have</c><00:03:11.860><c> the</c><00:03:12.010><c> idea</c><00:03:12.040><c> for</c><00:03:12.820><c> what</c><00:03:13.239><c> we</c><00:03:13.420><c> want</c><00:03:13.720><c> let's</c>
+
+00:03:14.220 --> 00:03:14.230 align:start position:0%
+we have the idea for what we want let's
+ 
+
+00:03:14.230 --> 00:03:15.960 align:start position:0%
+we have the idea for what we want let's
+see<00:03:14.410><c> how</c><00:03:14.650><c> the</c><00:03:14.709><c> multi-level</c><00:03:15.370><c> page</c><00:03:15.519><c> table</c><00:03:15.730><c> is</c>
+
+00:03:15.960 --> 00:03:15.970 align:start position:0%
+see how the multi-level page table is
+ 
+
+00:03:15.970 --> 00:03:18.720 align:start position:0%
+see how the multi-level page table is
+actually<00:03:16.120><c> organized</c>
+

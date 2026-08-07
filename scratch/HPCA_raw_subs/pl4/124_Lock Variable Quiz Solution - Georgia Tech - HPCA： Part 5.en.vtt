@@ -1,0 +1,256 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:01.829 align:start position:0%
+ 
+let's<00:00:00.480><c> look</c><00:00:00.640><c> at</c><00:00:00.800><c> the</c><00:00:00.960><c> answer</c><00:00:01.280><c> to</c><00:00:01.439><c> our</c><00:00:01.600><c> log</c>
+
+00:00:01.829 --> 00:00:01.839 align:start position:0%
+let's look at the answer to our log
+ 
+
+00:00:01.839 --> 00:00:03.270 align:start position:0%
+let's look at the answer to our log
+variable<00:00:02.240><c> quiz</c>
+
+00:00:03.270 --> 00:00:03.280 align:start position:0%
+variable quiz
+ 
+
+00:00:03.280 --> 00:00:05.910 align:start position:0%
+variable quiz
+in<00:00:03.439><c> this</c><00:00:03.760><c> code</c><00:00:04.080><c> we</c><00:00:04.240><c> are</c><00:00:04.400><c> using</c><00:00:04.720><c> the</c><00:00:04.960><c> lock</c>
+
+00:00:05.910 --> 00:00:05.920 align:start position:0%
+in this code we are using the lock
+ 
+
+00:00:05.920 --> 00:00:07.990 align:start position:0%
+in this code we are using the lock
+count<00:00:06.240><c> lock</c><00:00:06.799><c> and</c><00:00:06.960><c> it's</c><00:00:07.120><c> really</c><00:00:07.359><c> an</c><00:00:07.520><c> array</c><00:00:07.839><c> of</c>
+
+00:00:07.990 --> 00:00:08.000 align:start position:0%
+count lock and it's really an array of
+ 
+
+00:00:08.000 --> 00:00:09.669 align:start position:0%
+count lock and it's really an array of
+lock<00:00:08.400><c> that</c><00:00:08.559><c> has</c><00:00:08.880><c> elements</c><00:00:09.280><c> so</c><00:00:09.360><c> we</c><00:00:09.519><c> are</c>
+
+00:00:09.669 --> 00:00:09.679 align:start position:0%
+lock that has elements so we are
+ 
+
+00:00:09.679 --> 00:00:11.669 align:start position:0%
+lock that has elements so we are
+indexing<00:00:10.160><c> into</c><00:00:10.400><c> the</c><00:00:10.559><c> array</c><00:00:10.960><c> and</c><00:00:11.040><c> getting</c><00:00:11.440><c> that</c>
+
+00:00:11.669 --> 00:00:11.679 align:start position:0%
+indexing into the array and getting that
+ 
+
+00:00:11.679 --> 00:00:13.990 align:start position:0%
+indexing into the array and getting that
+one<00:00:11.920><c> element</c><00:00:12.320><c> of</c><00:00:12.400><c> the</c><00:00:12.559><c> array</c><00:00:13.280><c> and</c><00:00:13.440><c> that's</c><00:00:13.759><c> our</c>
+
+00:00:13.990 --> 00:00:14.000 align:start position:0%
+one element of the array and that's our
+ 
+
+00:00:14.000 --> 00:00:16.950 align:start position:0%
+one element of the array and that's our
+lock<00:00:14.320><c> that</c><00:00:14.480><c> we</c><00:00:14.639><c> lock</c><00:00:14.960><c> to</c><00:00:15.280><c> access</c><00:00:15.759><c> count</c><00:00:16.160><c> of</c><00:00:16.320><c> l</c>
+
+00:00:16.950 --> 00:00:16.960 align:start position:0%
+lock that we lock to access count of l
+ 
+
+00:00:16.960 --> 00:00:18.710 align:start position:0%
+lock that we lock to access count of l
+and<00:00:17.119><c> then</c><00:00:17.279><c> we</c><00:00:17.520><c> unlock</c><00:00:17.920><c> that</c><00:00:18.160><c> log</c><00:00:18.400><c> so</c><00:00:18.560><c> the</c>
+
+00:00:18.710 --> 00:00:18.720 align:start position:0%
+and then we unlock that log so the
+ 
+
+00:00:18.720 --> 00:00:21.029 align:start position:0%
+and then we unlock that log so the
+question<00:00:19.039><c> was</c><00:00:19.279><c> what</c><00:00:19.520><c> is</c><00:00:19.680><c> really</c><00:00:20.000><c> this</c><00:00:20.240><c> lock</c>
+
+00:00:21.029 --> 00:00:21.039 align:start position:0%
+question was what is really this lock
+ 
+
+00:00:21.039 --> 00:00:22.710 align:start position:0%
+question was what is really this lock
+is<00:00:21.199><c> it</c><00:00:21.359><c> just</c><00:00:21.600><c> another</c><00:00:21.920><c> location</c><00:00:22.320><c> in</c><00:00:22.480><c> shared</c>
+
+00:00:22.710 --> 00:00:22.720 align:start position:0%
+is it just another location in shared
+ 
+
+00:00:22.720 --> 00:00:25.429 align:start position:0%
+is it just another location in shared
+memory<00:00:23.680><c> so</c><00:00:23.920><c> count</c><00:00:24.160><c> lock</c><00:00:24.400><c> of</c><00:00:24.560><c> l</c><00:00:24.800><c> really</c><00:00:25.119><c> is</c><00:00:25.199><c> just</c>
+
+00:00:25.429 --> 00:00:25.439 align:start position:0%
+memory so count lock of l really is just
+ 
+
+00:00:25.439 --> 00:00:26.790 align:start position:0%
+memory so count lock of l really is just
+a<00:00:25.519><c> memory</c><00:00:25.920><c> word</c>
+
+00:00:26.790 --> 00:00:26.800 align:start position:0%
+a memory word
+ 
+
+00:00:26.800 --> 00:00:28.550 align:start position:0%
+a memory word
+or<00:00:27.039><c> is</c><00:00:27.199><c> it</c><00:00:27.359><c> a</c><00:00:27.439><c> location</c><00:00:28.000><c> in</c><00:00:28.080><c> some</c><00:00:28.240><c> sort</c><00:00:28.480><c> of</c>
+
+00:00:28.550 --> 00:00:28.560 align:start position:0%
+or is it a location in some sort of
+ 
+
+00:00:28.560 --> 00:00:30.470 align:start position:0%
+or is it a location in some sort of
+special<00:00:28.960><c> synchronization</c><00:00:29.840><c> memory</c><00:00:30.160><c> so</c><00:00:30.320><c> there</c>
+
+00:00:30.470 --> 00:00:30.480 align:start position:0%
+special synchronization memory so there
+ 
+
+00:00:30.480 --> 00:00:32.549 align:start position:0%
+special synchronization memory so there
+is<00:00:30.560><c> a</c><00:00:30.640><c> sort</c><00:00:30.880><c> of</c><00:00:31.039><c> special</c><00:00:31.519><c> memory</c><00:00:31.920><c> where</c><00:00:32.160><c> this</c>
+
+00:00:32.549 --> 00:00:32.559 align:start position:0%
+is a sort of special memory where this
+ 
+
+00:00:32.559 --> 00:00:35.510 align:start position:0%
+is a sort of special memory where this
+array<00:00:32.880><c> of</c><00:00:33.040><c> locks</c><00:00:33.360><c> is</c><00:00:33.520><c> residing</c><00:00:34.559><c> or</c><00:00:34.960><c> is</c><00:00:35.120><c> it</c><00:00:35.200><c> that</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+array of locks is residing or is it that
+ 
+
+00:00:35.520 --> 00:00:38.150 align:start position:0%
+array of locks is residing or is it that
+locks<00:00:36.000><c> are</c><00:00:36.239><c> special</c><00:00:36.719><c> variables</c><00:00:37.600><c> that</c><00:00:37.760><c> we</c><00:00:37.920><c> can</c>
+
+00:00:38.150 --> 00:00:38.160 align:start position:0%
+locks are special variables that we can
+ 
+
+00:00:38.160 --> 00:00:40.389 align:start position:0%
+locks are special variables that we can
+refer<00:00:38.559><c> to</c><00:00:38.800><c> like</c><00:00:39.040><c> this</c><00:00:39.280><c> in</c><00:00:39.440><c> code</c><00:00:39.760><c> but</c><00:00:40.079><c> really</c>
+
+00:00:40.389 --> 00:00:40.399 align:start position:0%
+refer to like this in code but really
+ 
+
+00:00:40.399 --> 00:00:42.069 align:start position:0%
+refer to like this in code but really
+they<00:00:40.640><c> don't</c><00:00:40.879><c> have</c><00:00:41.280><c> memory</c><00:00:41.600><c> addresses</c>
+
+00:00:42.069 --> 00:00:42.079 align:start position:0%
+they don't have memory addresses
+ 
+
+00:00:42.079 --> 00:00:44.630 align:start position:0%
+they don't have memory addresses
+whatsoever<00:00:43.200><c> the</c><00:00:43.440><c> correct</c><00:00:43.840><c> answer</c><00:00:44.239><c> here</c><00:00:44.480><c> is</c>
+
+00:00:44.630 --> 00:00:44.640 align:start position:0%
+whatsoever the correct answer here is
+ 
+
+00:00:44.640 --> 00:00:46.069 align:start position:0%
+whatsoever the correct answer here is
+that<00:00:44.879><c> a</c><00:00:45.120><c> lock</c>
+
+00:00:46.069 --> 00:00:46.079 align:start position:0%
+that a lock
+ 
+
+00:00:46.079 --> 00:00:47.510 align:start position:0%
+that a lock
+is<00:00:46.399><c> just</c>
+
+00:00:47.510 --> 00:00:47.520 align:start position:0%
+is just
+ 
+
+00:00:47.520 --> 00:00:49.750 align:start position:0%
+is just
+another<00:00:48.000><c> location</c><00:00:48.480><c> in</c><00:00:48.559><c> shared</c><00:00:48.879><c> memory</c><00:00:49.280><c> so</c><00:00:49.520><c> a</c>
+
+00:00:49.750 --> 00:00:49.760 align:start position:0%
+another location in shared memory so a
+ 
+
+00:00:49.760 --> 00:00:52.470 align:start position:0%
+another location in shared memory so a
+lock<00:00:50.399><c> is</c><00:00:50.640><c> a</c><00:00:50.719><c> variable</c><00:00:51.360><c> just</c><00:00:51.680><c> like</c><00:00:51.920><c> any</c><00:00:52.160><c> other</c>
+
+00:00:52.470 --> 00:00:52.480 align:start position:0%
+lock is a variable just like any other
+ 
+
+00:00:52.480 --> 00:00:55.029 align:start position:0%
+lock is a variable just like any other
+variable<00:00:52.960><c> it</c><00:00:53.120><c> has</c><00:00:53.360><c> a</c><00:00:53.440><c> memory</c><00:00:53.760><c> address</c><00:00:54.640><c> we</c><00:00:54.800><c> can</c>
+
+00:00:55.029 --> 00:00:55.039 align:start position:0%
+variable it has a memory address we can
+ 
+
+00:00:55.039 --> 00:00:55.990 align:start position:0%
+variable it has a memory address we can
+load
+
+00:00:55.990 --> 00:00:56.000 align:start position:0%
+load
+ 
+
+00:00:56.000 --> 00:00:58.310 align:start position:0%
+load
+to<00:00:56.320><c> get</c><00:00:56.559><c> its</c><00:00:56.719><c> value</c><00:00:57.120><c> we</c><00:00:57.280><c> can</c><00:00:57.440><c> store</c><00:00:57.840><c> to</c><00:00:58.000><c> change</c>
+
+00:00:58.310 --> 00:00:58.320 align:start position:0%
+to get its value we can store to change
+ 
+
+00:00:58.320 --> 00:01:01.189 align:start position:0%
+to get its value we can store to change
+its<00:00:58.480><c> value</c><00:00:58.879><c> and</c><00:00:59.039><c> so</c><00:00:59.280><c> on</c><00:00:59.920><c> so</c><00:01:00.079><c> now</c><00:01:00.320><c> we</c><00:01:00.399><c> will</c><00:01:00.640><c> see</c>
+
+00:01:01.189 --> 00:01:01.199 align:start position:0%
+its value and so on so now we will see
+ 
+
+00:01:01.199 --> 00:01:03.349 align:start position:0%
+its value and so on so now we will see
+what<00:01:01.440><c> that</c><00:01:01.680><c> variable</c><00:01:02.239><c> looks</c><00:01:02.480><c> like</c><00:01:02.800><c> and</c><00:01:03.120><c> what</c>
+
+00:01:03.349 --> 00:01:03.359 align:start position:0%
+what that variable looks like and what
+ 
+
+00:01:03.359 --> 00:01:05.189 align:start position:0%
+what that variable looks like and what
+the<00:01:03.600><c> lock</c><00:01:03.920><c> and</c><00:01:04.080><c> unlock</c><00:01:04.559><c> functions</c><00:01:05.040><c> are</c>
+
+00:01:05.189 --> 00:01:05.199 align:start position:0%
+the lock and unlock functions are
+ 
+
+00:01:05.199 --> 00:01:08.720 align:start position:0%
+the lock and unlock functions are
+supposed<00:01:05.600><c> to</c><00:01:05.680><c> look</c><00:01:05.920><c> like</c>
+

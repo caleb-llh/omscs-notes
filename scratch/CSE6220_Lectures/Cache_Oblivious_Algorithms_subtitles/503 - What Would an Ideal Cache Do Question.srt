@@ -1,0 +1,108 @@
+1
+00:00:00,250 --> 00:00:04,530
+ Consider an ideal cache of size Z equals four words.
+
+2
+00:00:04,530 --> 00:00:08,610
+ Assume that the transfer or line size L is equal to one word.
+
+3
+00:00:08,610 --> 00:00:12,700
+ Now consider a program that consists of the following sequence of 10 load
+
+4
+00:00:12,700 --> 00:00:14,060
+ operations.
+
+5
+00:00:14,060 --> 00:00:19,030
+ Pretend that these 16 bit hexadecimal values are word aligned addresses.
+
+6
+00:00:19,030 --> 00:00:21,930
+ Now, suppose our cache is initially empty.
+
+7
+00:00:21,930 --> 00:00:24,550
+ Then suppose you execute the first instruction.
+
+8
+00:00:24,550 --> 00:00:27,480
+ It loads the value at hex address BEEF.
+
+9
+00:00:27,480 --> 00:00:29,360
+ Since the cache is empty,
+
+10
+00:00:29,360 --> 00:00:33,110
+ the hardware can store the value at this address somewhere in cache.
+
+11
+00:00:33,110 --> 00:00:38,010
+ I've denoted that action by writing the hex address in brackets in a cache line.
+
+12
+00:00:38,010 --> 00:00:40,880
+ Remember that by the rules of how an ideal cache operates,
+
+13
+00:00:40,880 --> 00:00:42,960
+ we can assume full associativity.
+
+14
+00:00:42,960 --> 00:00:46,300
+ That means for an empty cache I could have placed this address anywhere.
+
+15
+00:00:46,300 --> 00:00:48,070
+ Here's your first task.
+
+16
+00:00:48,070 --> 00:00:51,880
+ Suppose you execute the first nine instructions, that is,
+
+17
+00:00:51,880 --> 00:00:54,470
+ all the instructions except the last.
+
+18
+00:00:54,470 --> 00:00:58,630
+ Here's my first question, what's the state of the cache at this point?
+
+19
+00:00:58,630 --> 00:01:01,730
+ That is, I want you to fill in the addresses that would be in cache
+
+20
+00:01:01,730 --> 00:01:04,670
+ after the first nine instructions have executed.
+
+21
+00:01:04,670 --> 00:01:08,710
+ You can just type the addresses in the same notation square bracket and
+
+22
+00:01:08,710 --> 00:01:11,800
+ hexidecimal address into the lines.
+
+23
+00:01:11,800 --> 00:01:12,900
+ Now that's not all.
+
+24
+00:01:12,900 --> 00:01:14,660
+ Here's your second task.
+
+25
+00:01:14,660 --> 00:01:16,640
+ As you simulate what the cash would do,
+
+26
+00:01:16,640 --> 00:01:19,200
+ I want you to count the number of evictions.
+
+27
+00:01:19,200 --> 00:01:19,200
+ Enter that value in this box.
+

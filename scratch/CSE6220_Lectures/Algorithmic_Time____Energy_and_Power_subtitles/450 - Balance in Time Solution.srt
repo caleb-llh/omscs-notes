@@ -1,0 +1,112 @@
+1
+00:00:00,410 --> 00:00:02,090
+ So, what did you get?
+
+2
+00:00:02,090 --> 00:00:03,600
+ I got 5.5 years.
+
+3
+00:00:03,600 --> 00:00:05,060
+ Here's my reasoning.
+
+4
+00:00:05,060 --> 00:00:08,070
+ Let t denote time, measured in years.
+
+5
+00:00:08,070 --> 00:00:11,690
+ Now R we said doubled every 1.9 years.
+
+6
+00:00:11,690 --> 00:00:16,796
+ Mathematically, that means R is proportional to 2 to the t/1.9.
+
+7
+00:00:16,796 --> 00:00:18,062
+ Beta is similar.
+
+8
+00:00:18,062 --> 00:00:21,500
+ It's 2 to the t/2.9.
+
+9
+00:00:21,500 --> 00:00:24,560
+ The balance point is just the ratio of these quantities.
+
+10
+00:00:24,560 --> 00:00:28,750
+ Simplifying it, you should get roughly 2 to the t divided by 5.5.
+
+11
+00:00:28,750 --> 00:00:32,250
+ The doubling time is there for 5.5 years.
+
+12
+00:00:32,250 --> 00:00:33,450
+ Now you might be suspicious.
+
+13
+00:00:33,450 --> 00:00:34,820
+ This is just a quiz, right?
+
+14
+00:00:34,820 --> 00:00:36,660
+ Or is this a real life trend?
+
+15
+00:00:36,660 --> 00:00:40,450
+ Well, let's check it on Wikipedia, purveyor of all things good and
+
+16
+00:00:40,450 --> 00:00:43,520
+ definitely 100% true with no questions asked.
+
+17
+00:00:43,520 --> 00:00:47,120
+ Here's some stats on two mobile GPU processors.
+
+18
+00:00:47,120 --> 00:00:51,791
+ The top one was launched in June 2008, and the bottom one in March 2015.
+
+19
+00:00:51,791 --> 00:00:54,751
+ That's a period of time of almost 7 years.
+
+20
+00:00:54,751 --> 00:00:57,990
+ Let's call it 6.75 just to be a little bit more precise.
+
+21
+00:00:57,990 --> 00:01:01,958
+ Now, the balance point is supposed to double every 5.5 years.
+
+22
+00:01:01,958 --> 00:01:05,750
+ So, after 6.75 years you would expect the balance point to
+
+23
+00:01:05,750 --> 00:01:08,834
+ increase by a factor of roughly 2.34.
+
+24
+00:01:08,834 --> 00:01:13,240
+ Now, what I've been calling beta is given by these bandwidth parameters.
+
+25
+00:01:13,240 --> 00:01:16,640
+ R is given by the peak processing power parameters.
+
+26
+00:01:16,640 --> 00:01:18,530
+ Those are these two.
+
+27
+00:01:18,530 --> 00:01:21,710
+ So, are these data consistent with the predicted rate of change
+
+28
+00:01:21,710 --> 00:01:21,710
+ in the balance point?
+

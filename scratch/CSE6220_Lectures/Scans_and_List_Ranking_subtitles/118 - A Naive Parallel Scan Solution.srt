@@ -1,0 +1,40 @@
+1
+00:00:00,400 --> 00:00:02,330
+ The span in this case is logarithmic.
+
+2
+00:00:02,330 --> 00:00:07,640
+ The reason is because par for has logarithmic span as does reduce.
+
+3
+00:00:07,640 --> 00:00:08,320
+ What about the work?
+
+4
+00:00:08,320 --> 00:00:11,860
+ The work is O(n squared).
+
+5
+00:00:11,860 --> 00:00:16,500
+ In each iteration you do a reduce, which costs you O(i) operations.
+
+6
+00:00:16,500 --> 00:00:21,180
+ So to get the total work, you would sum overall i from 1 to n.
+
+7
+00:00:21,180 --> 00:00:24,000
+ Notice that's a lot worse than the best sequential algorithm,
+
+8
+00:00:24,000 --> 00:00:26,250
+ which only has O of n operations.
+
+9
+00:00:26,250 --> 00:00:28,570
+ So this algorithm is totally lame.
+
+10
+00:00:28,570 --> 00:00:28,570
+ Lame!
+

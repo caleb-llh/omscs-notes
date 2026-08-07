@@ -1,0 +1,448 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.389 align:start position:0%
+ 
+let's<00:00:00.390><c> look</c><00:00:00.539><c> at</c><00:00:00.719><c> the</c><00:00:00.840><c> solution</c><00:00:01.469><c> for</c><00:00:01.949><c> the</c><00:00:02.129><c> part</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+let's look at the solution for the part
+ 
+
+00:00:02.399 --> 00:00:04.820 align:start position:0%
+let's look at the solution for the part
+two<00:00:02.610><c> of</c><00:00:02.639><c> our</c><00:00:02.939><c> one</c><00:00:03.179><c> cycle</c><00:00:03.600><c> quiz</c><00:00:03.810><c> where</c><00:00:04.410><c> we</c><00:00:04.710><c> are</c>
+
+00:00:04.820 --> 00:00:04.830 align:start position:0%
+two of our one cycle quiz where we are
+ 
+
+00:00:04.830 --> 00:00:06.860 align:start position:0%
+two of our one cycle quiz where we are
+looking<00:00:05.009><c> at</c><00:00:05.339><c> reservation</c><00:00:06.089><c> stations</c><00:00:06.629><c> and</c>
+
+00:00:06.860 --> 00:00:06.870 align:start position:0%
+looking at reservation stations and
+ 
+
+00:00:06.870 --> 00:00:08.960 align:start position:0%
+looking at reservation stations and
+trying<00:00:07.140><c> to</c><00:00:07.319><c> figure</c><00:00:07.470><c> out</c><00:00:07.740><c> what's</c><00:00:08.160><c> happening</c><00:00:08.730><c> to</c>
+
+00:00:08.960 --> 00:00:08.970 align:start position:0%
+trying to figure out what's happening to
+ 
+
+00:00:08.970 --> 00:00:11.299 align:start position:0%
+trying to figure out what's happening to
+them<00:00:09.170><c> to</c><00:00:10.170><c> figure</c><00:00:10.410><c> out</c><00:00:10.650><c> what</c><00:00:10.860><c> happens</c><00:00:11.219><c> to</c>
+
+00:00:11.299 --> 00:00:11.309 align:start position:0%
+them to figure out what happens to
+ 
+
+00:00:11.309 --> 00:00:13.160 align:start position:0%
+them to figure out what happens to
+reservation<00:00:11.820><c> stations</c><00:00:12.330><c> we</c><00:00:12.660><c> need</c><00:00:12.870><c> to</c><00:00:12.990><c> figure</c>
+
+00:00:13.160 --> 00:00:13.170 align:start position:0%
+reservation stations we need to figure
+ 
+
+00:00:13.170 --> 00:00:15.230 align:start position:0%
+reservation stations we need to figure
+out<00:00:13.320><c> whether</c><00:00:14.280><c> there</c><00:00:14.610><c> is</c><00:00:14.639><c> something</c><00:00:15.089><c> that</c>
+
+00:00:15.230 --> 00:00:15.240 align:start position:0%
+out whether there is something that
+ 
+
+00:00:15.240 --> 00:00:18.370 align:start position:0%
+out whether there is something that
+issues<00:00:15.800><c> so</c><00:00:16.800><c> does</c><00:00:17.070><c> this</c><00:00:17.369><c> instruction</c><00:00:18.000><c> issue</c>
+
+00:00:18.370 --> 00:00:18.380 align:start position:0%
+issues so does this instruction issue
+ 
+
+00:00:18.380 --> 00:00:21.080 align:start position:0%
+issues so does this instruction issue
+what<00:00:19.380><c> happens</c><00:00:19.949><c> to</c><00:00:20.220><c> the</c><00:00:20.369><c> instruction</c><00:00:20.910><c> that</c><00:00:21.060><c> is</c>
+
+00:00:21.080 --> 00:00:21.090 align:start position:0%
+what happens to the instruction that is
+ 
+
+00:00:21.090 --> 00:00:24.170 align:start position:0%
+what happens to the instruction that is
+broadcasting<00:00:21.840><c> its</c><00:00:22.020><c> result</c><00:00:22.439><c> and</c><00:00:22.769><c> is</c><00:00:23.730><c> there</c><00:00:24.150><c> any</c>
+
+00:00:24.170 --> 00:00:24.180 align:start position:0%
+broadcasting its result and is there any
+ 
+
+00:00:24.180 --> 00:00:26.839 align:start position:0%
+broadcasting its result and is there any
+result<00:00:25.050><c> capturing</c><00:00:25.740><c> in</c><00:00:26.310><c> the</c><00:00:26.519><c> remaining</c>
+
+00:00:26.839 --> 00:00:26.849 align:start position:0%
+result capturing in the remaining
+ 
+
+00:00:26.849 --> 00:00:30.259 align:start position:0%
+result capturing in the remaining
+reservation<00:00:27.510><c> stations</c><00:00:28.580><c> we</c><00:00:29.580><c> can</c><00:00:29.789><c> do</c><00:00:29.939><c> this</c><00:00:30.060><c> in</c>
+
+00:00:30.259 --> 00:00:30.269 align:start position:0%
+reservation stations we can do this in
+ 
+
+00:00:30.269 --> 00:00:33.020 align:start position:0%
+reservation stations we can do this in
+any<00:00:30.420><c> order</c><00:00:30.689><c> but</c><00:00:31.080><c> we</c><00:00:31.859><c> have</c><00:00:32.009><c> to</c><00:00:32.160><c> be</c><00:00:32.279><c> careful</c><00:00:32.520><c> if</c>
+
+00:00:33.020 --> 00:00:33.030 align:start position:0%
+any order but we have to be careful if
+ 
+
+00:00:33.030 --> 00:00:34.790 align:start position:0%
+any order but we have to be careful if
+multiple<00:00:33.600><c> updates</c><00:00:33.989><c> are</c><00:00:34.140><c> needed</c><00:00:34.380><c> to</c><00:00:34.410><c> the</c><00:00:34.590><c> same</c>
+
+00:00:34.790 --> 00:00:34.800 align:start position:0%
+multiple updates are needed to the same
+ 
+
+00:00:34.800 --> 00:00:37.040 align:start position:0%
+multiple updates are needed to the same
+field<00:00:35.070><c> so</c><00:00:35.399><c> let's</c><00:00:35.670><c> try</c><00:00:35.910><c> to</c><00:00:35.940><c> do</c><00:00:36.210><c> it</c><00:00:36.329><c> just</c><00:00:36.510><c> you</c>
+
+00:00:37.040 --> 00:00:37.050 align:start position:0%
+field so let's try to do it just you
+ 
+
+00:00:37.050 --> 00:00:38.810 align:start position:0%
+field so let's try to do it just you
+know<00:00:37.110><c> let's</c><00:00:37.380><c> receive</c><00:00:37.800><c> what</c><00:00:37.980><c> issuing</c><00:00:38.460><c> is</c><00:00:38.579><c> going</c>
+
+00:00:38.810 --> 00:00:38.820 align:start position:0%
+know let's receive what issuing is going
+ 
+
+00:00:38.820 --> 00:00:41.479 align:start position:0%
+know let's receive what issuing is going
+to<00:00:38.940><c> do</c><00:00:39.090><c> well</c><00:00:39.899><c> when</c><00:00:40.590><c> we</c><00:00:40.620><c> are</c><00:00:40.860><c> issuing</c><00:00:41.010><c> we</c><00:00:41.430><c> are</c>
+
+00:00:41.479 --> 00:00:41.489 align:start position:0%
+to do well when we are issuing we are
+ 
+
+00:00:41.489 --> 00:00:43.130 align:start position:0%
+to do well when we are issuing we are
+going<00:00:41.700><c> to</c><00:00:41.850><c> look</c><00:00:42.030><c> for</c><00:00:42.300><c> a</c><00:00:42.329><c> free</c><00:00:42.570><c> reservation</c>
+
+00:00:43.130 --> 00:00:43.140 align:start position:0%
+going to look for a free reservation
+ 
+
+00:00:43.140 --> 00:00:46.610 align:start position:0%
+going to look for a free reservation
+station<00:00:43.590><c> there</c><00:00:43.829><c> is</c><00:00:43.980><c> one</c><00:00:44.510><c> so</c><00:00:45.510><c> this</c><00:00:46.050><c> reservation</c>
+
+00:00:46.610 --> 00:00:46.620 align:start position:0%
+station there is one so this reservation
+ 
+
+00:00:46.620 --> 00:00:50.180 align:start position:0%
+station there is one so this reservation
+station<00:00:47.250><c> becomes</c><00:00:47.700><c> occupied</c><00:00:48.649><c> this</c><00:00:49.649><c> is</c><00:00:49.829><c> an</c><00:00:50.010><c> add</c>
+
+00:00:50.180 --> 00:00:50.190 align:start position:0%
+station becomes occupied this is an add
+ 
+
+00:00:50.190 --> 00:00:52.970 align:start position:0%
+station becomes occupied this is an add
+instruction<00:00:50.399><c> so</c><00:00:50.940><c> we</c><00:00:51.030><c> put</c><00:00:51.239><c> that</c><00:00:51.420><c> here</c><00:00:51.930><c> and</c><00:00:52.079><c> it</c>
+
+00:00:52.970 --> 00:00:52.980 align:start position:0%
+instruction so we put that here and it
+ 
+
+00:00:52.980 --> 00:00:56.750 align:start position:0%
+instruction so we put that here and it
+adds<00:00:53.219><c> f0</c><00:00:53.879><c> and</c><00:00:54.000><c> f1</c><00:00:54.289><c> we</c><00:00:55.289><c> consult</c><00:00:55.770><c> the</c><00:00:55.920><c> right</c><00:00:56.160><c> here</c>
+
+00:00:56.750 --> 00:00:56.760 align:start position:0%
+adds f0 and f1 we consult the right here
+ 
+
+00:00:56.760 --> 00:01:00.650 align:start position:0%
+adds f0 and f1 we consult the right here
+to<00:00:57.539><c> check</c><00:00:57.840><c> what</c><00:00:58.230><c> are</c><00:00:58.649><c> we</c><00:00:58.920><c> going</c><00:00:59.100><c> to</c><00:00:59.340><c> do</c><00:00:59.629><c> both</c><00:01:00.629><c> of</c>
+
+00:01:00.650 --> 00:01:00.660 align:start position:0%
+to check what are we going to do both of
+ 
+
+00:01:00.660 --> 00:01:03.500 align:start position:0%
+to check what are we going to do both of
+these<00:01:00.989><c> are</c><00:01:01.170><c> pointing</c><00:01:01.649><c> at</c><00:01:02.510><c> reservation</c>
+
+00:01:03.500 --> 00:01:03.510 align:start position:0%
+these are pointing at reservation
+ 
+
+00:01:03.510 --> 00:01:06.350 align:start position:0%
+these are pointing at reservation
+stations<00:01:04.049><c> so</c><00:01:04.890><c> first</c><00:01:05.309><c> operand</c><00:01:05.790><c> is</c><00:01:06.030><c> whatever</c>
+
+00:01:06.350 --> 00:01:06.360 align:start position:0%
+stations so first operand is whatever
+ 
+
+00:01:06.360 --> 00:01:09.350 align:start position:0%
+stations so first operand is whatever
+ra0<00:01:07.200><c> produces</c><00:01:07.860><c> and</c><00:01:08.100><c> our</c><00:01:08.250><c> second</c><00:01:08.760><c> operand</c><00:01:09.119><c> is</c>
+
+00:01:09.350 --> 00:01:09.360 align:start position:0%
+ra0 produces and our second operand is
+ 
+
+00:01:09.360 --> 00:01:13.219 align:start position:0%
+ra0 produces and our second operand is
+whatever<00:01:09.650><c> rs1</c><00:01:10.650><c> produces</c><00:01:11.570><c> but</c><00:01:12.570><c> that's</c><00:01:12.780><c> not</c><00:01:13.049><c> the</c>
+
+00:01:13.219 --> 00:01:13.229 align:start position:0%
+whatever rs1 produces but that's not the
+ 
+
+00:01:13.229 --> 00:01:16.310 align:start position:0%
+whatever rs1 produces but that's not the
+end<00:01:13.400><c> we</c><00:01:14.400><c> also</c><00:01:14.700><c> need</c><00:01:15.030><c> to</c><00:01:15.060><c> consider</c><00:01:15.330><c> what</c>
+
+00:01:16.310 --> 00:01:16.320 align:start position:0%
+end we also need to consider what
+ 
+
+00:01:16.320 --> 00:01:19.880 align:start position:0%
+end we also need to consider what
+happens<00:01:16.830><c> when</c><00:01:17.009><c> a</c><00:01:17.040><c> result</c><00:01:17.460><c> is</c><00:01:17.610><c> broadcast</c><00:01:18.890><c> what</c>
+
+00:01:19.880 --> 00:01:19.890 align:start position:0%
+happens when a result is broadcast what
+ 
+
+00:01:19.890 --> 00:01:22.749 align:start position:0%
+happens when a result is broadcast what
+happens<00:01:20.400><c> then</c><00:01:20.729><c> is</c><00:01:21.119><c> that</c><00:01:21.390><c> this</c><00:01:22.080><c> instruction</c>
+
+00:01:22.749 --> 00:01:22.759 align:start position:0%
+happens then is that this instruction
+ 
+
+00:01:22.759 --> 00:01:25.760 align:start position:0%
+happens then is that this instruction
+freeze<00:01:23.759><c> its</c><00:01:24.270><c> reservation</c><00:01:24.810><c> station</c><00:01:25.380><c> so</c><00:01:25.530><c> this</c>
+
+00:01:25.760 --> 00:01:25.770 align:start position:0%
+freeze its reservation station so this
+ 
+
+00:01:25.770 --> 00:01:28.310 align:start position:0%
+freeze its reservation station so this
+one<00:01:26.009><c> is</c><00:01:26.159><c> not</c><00:01:26.490><c> going</c><00:01:26.880><c> to</c><00:01:27.000><c> be</c><00:01:27.299><c> occupied</c><00:01:27.600><c> anymore</c>
+
+00:01:28.310 --> 00:01:28.320 align:start position:0%
+one is not going to be occupied anymore
+ 
+
+00:01:28.320 --> 00:01:30.920 align:start position:0%
+one is not going to be occupied anymore
+at<00:01:28.530><c> the</c><00:01:28.680><c> end</c><00:01:28.799><c> of</c><00:01:28.920><c> this</c><00:01:29.070><c> cycle</c><00:01:29.340><c> I</c><00:01:29.670><c> put</c><00:01:30.420><c> an</c><00:01:30.570><c> X</c><00:01:30.780><c> here</c>
+
+00:01:30.920 --> 00:01:30.930 align:start position:0%
+at the end of this cycle I put an X here
+ 
+
+00:01:30.930 --> 00:01:32.719 align:start position:0%
+at the end of this cycle I put an X here
+but<00:01:31.380><c> what</c><00:01:31.560><c> you</c><00:01:31.680><c> should</c><00:01:31.710><c> have</c><00:01:31.950><c> done</c><00:01:32.130><c> is</c><00:01:32.460><c> not</c>
+
+00:01:32.719 --> 00:01:32.729 align:start position:0%
+but what you should have done is not
+ 
+
+00:01:32.729 --> 00:01:35.749 align:start position:0%
+but what you should have done is not
+select<00:01:33.270><c> this</c><00:01:33.450><c> one</c><00:01:33.509><c> is</c><00:01:33.840><c> still</c><00:01:34.020><c> busy</c><00:01:34.490><c> this</c><00:01:35.490><c> one</c>
+
+00:01:35.749 --> 00:01:35.759 align:start position:0%
+select this one is still busy this one
+ 
+
+00:01:35.759 --> 00:01:39.620 align:start position:0%
+select this one is still busy this one
+of<00:01:35.909><c> course</c><00:01:36.320><c> remains</c><00:01:37.320><c> busy</c><00:01:37.939><c> the</c><00:01:38.939><c> result</c><00:01:39.390><c> that</c>
+
+00:01:39.620 --> 00:01:39.630 align:start position:0%
+of course remains busy the result that
+ 
+
+00:01:39.630 --> 00:01:42.260 align:start position:0%
+of course remains busy the result that
+is<00:01:39.659><c> broadcast</c><00:01:40.079><c> here</c><00:01:40.650><c> is</c><00:01:40.829><c> captured</c><00:01:41.520><c> by</c><00:01:41.670><c> anybody</c>
+
+00:01:42.260 --> 00:01:42.270 align:start position:0%
+is broadcast here is captured by anybody
+ 
+
+00:01:42.270 --> 00:01:47.230 align:start position:0%
+is broadcast here is captured by anybody
+waiting<00:01:42.600><c> for</c><00:01:43.020><c> RS</c><00:01:43.320><c> 0</c><00:01:43.790><c> so</c><00:01:44.790><c> this</c><00:01:45.710><c> here</c><00:01:46.710><c> becomes</c>
+
+00:01:47.230 --> 00:01:47.240 align:start position:0%
+waiting for RS 0 so this here becomes
+ 
+
+00:01:47.240 --> 00:01:51.050 align:start position:0%
+waiting for RS 0 so this here becomes
+4.4<00:01:48.560><c> thus</c><00:01:49.560><c> this</c><00:01:49.860><c> is</c><00:01:50.070><c> a</c><00:01:50.100><c> change</c><00:01:50.430><c> it</c><00:01:50.579><c> you</c><00:01:50.850><c> needed</c>
+
+00:01:51.050 --> 00:01:51.060 align:start position:0%
+4.4 thus this is a change it you needed
+ 
+
+00:01:51.060 --> 00:01:53.690 align:start position:0%
+4.4 thus this is a change it you needed
+to<00:01:51.270><c> make</c><00:01:51.530><c> this</c><00:01:52.530><c> one</c><00:01:52.770><c> here</c><00:01:52.979><c> stays</c><00:01:53.280><c> the</c><00:01:53.460><c> same</c>
+
+00:01:53.690 --> 00:01:53.700 align:start position:0%
+to make this one here stays the same
+ 
+
+00:01:53.700 --> 00:01:55.639 align:start position:0%
+to make this one here stays the same
+actually<00:01:54.570><c> this</c><00:01:54.720><c> reservation</c><00:01:55.140><c> station</c><00:01:55.560><c> is</c>
+
+00:01:55.639 --> 00:01:55.649 align:start position:0%
+actually this reservation station is
+ 
+
+00:01:55.649 --> 00:01:57.200 align:start position:0%
+actually this reservation station is
+free<00:01:55.890><c> so</c><00:01:56.070><c> it</c><00:01:56.130><c> doesn't</c><00:01:56.430><c> matter</c><00:01:56.549><c> what's</c><00:01:56.969><c> here</c>
+
+00:01:57.200 --> 00:01:57.210 align:start position:0%
+free so it doesn't matter what's here
+ 
+
+00:01:57.210 --> 00:02:00.459 align:start position:0%
+free so it doesn't matter what's here
+but<00:01:57.420><c> it</c><00:01:57.540><c> stays</c><00:01:57.750><c> the</c><00:01:57.899><c> same</c><00:01:58.140><c> and</c><00:01:58.409><c> then</c><00:01:59.399><c> this</c><00:01:59.670><c> one</c>
+
+00:02:00.459 --> 00:02:00.469 align:start position:0%
+but it stays the same and then this one
+ 
+
+00:02:00.469 --> 00:02:03.050 align:start position:0%
+but it stays the same and then this one
+that<00:02:01.469><c> we</c><00:02:01.649><c> just</c><00:02:01.680><c> put</c><00:02:02.250><c> in</c><00:02:02.430><c> a</c><00:02:02.490><c> reservation</c>
+
+00:02:03.050 --> 00:02:03.060 align:start position:0%
+that we just put in a reservation
+ 
+
+00:02:03.060 --> 00:02:06.980 align:start position:0%
+that we just put in a reservation
+station<00:02:03.979><c> needs</c><00:02:04.979><c> to</c><00:02:05.280><c> capture</c><00:02:05.790><c> the</c><00:02:06.180><c> 4.4</c>
+
+00:02:06.980 --> 00:02:06.990 align:start position:0%
+station needs to capture the 4.4
+ 
+
+00:02:06.990 --> 00:02:08.660 align:start position:0%
+station needs to capture the 4.4
+otherwise<00:02:07.500><c> things</c><00:02:07.890><c> that</c><00:02:08.069><c> are</c><00:02:08.160><c> not</c><00:02:08.250><c> going</c><00:02:08.459><c> to</c>
+
+00:02:08.660 --> 00:02:08.670 align:start position:0%
+otherwise things that are not going to
+ 
+
+00:02:08.670 --> 00:02:10.669 align:start position:0%
+otherwise things that are not going to
+go<00:02:08.819><c> well</c><00:02:08.849><c> so</c><00:02:09.360><c> this</c><00:02:09.569><c> needs</c><00:02:09.869><c> to</c><00:02:10.050><c> happen</c><00:02:10.170><c> in</c><00:02:10.590><c> the</c>
+
+00:02:10.669 --> 00:02:10.679 align:start position:0%
+go well so this needs to happen in the
+ 
+
+00:02:10.679 --> 00:02:12.979 align:start position:0%
+go well so this needs to happen in the
+same<00:02:10.890><c> cycle</c><00:02:11.370><c> the</c><00:02:11.790><c> processor</c><00:02:12.180><c> won't</c><00:02:12.420><c> work</c><00:02:12.690><c> well</c>
+
+00:02:12.979 --> 00:02:12.989 align:start position:0%
+same cycle the processor won't work well
+ 
+
+00:02:12.989 --> 00:02:14.000 align:start position:0%
+same cycle the processor won't work well
+if<00:02:13.200><c> we</c><00:02:13.440><c> left</c><00:02:13.680><c> it</c>
+
+00:02:14.000 --> 00:02:14.010 align:start position:0%
+if we left it
+ 
+
+00:02:14.010 --> 00:02:16.070 align:start position:0%
+if we left it
+r<00:02:14.129><c> is</c><00:02:14.340><c> 0</c><00:02:14.580><c> because</c><00:02:14.760><c> r0</c><00:02:15.420><c> is</c><00:02:15.480><c> never</c><00:02:15.720><c> going</c><00:02:15.959><c> to</c>
+
+00:02:16.070 --> 00:02:16.080 align:start position:0%
+r is 0 because r0 is never going to
+ 
+
+00:02:16.080 --> 00:02:19.490 align:start position:0%
+r is 0 because r0 is never going to
+broadcast<00:02:16.379><c> anything</c><00:02:17.930><c> this</c><00:02:18.930><c> instruction</c><00:02:19.470><c> is</c>
+
+00:02:19.490 --> 00:02:19.500 align:start position:0%
+broadcast anything this instruction is
+ 
+
+00:02:19.500 --> 00:02:21.770 align:start position:0%
+broadcast anything this instruction is
+still<00:02:19.709><c> waiting</c><00:02:19.860><c> for</c><00:02:20.040><c> RS</c><00:02:20.459><c> one</c><00:02:20.700><c> and</c><00:02:21.000><c> that's</c><00:02:21.510><c> fine</c>
+
+00:02:21.770 --> 00:02:21.780 align:start position:0%
+still waiting for RS one and that's fine
+ 
+
+00:02:21.780 --> 00:02:25.490 align:start position:0%
+still waiting for RS one and that's fine
+artist<00:02:22.110><c> one</c><00:02:22.290><c> hasn't</c><00:02:22.500><c> executed</c><00:02:22.860><c> yet</c><00:02:24.230><c> so</c><00:02:25.230><c> this</c>
+
+00:02:25.490 --> 00:02:25.500 align:start position:0%
+artist one hasn't executed yet so this
+ 
+
+00:02:25.500 --> 00:02:28.520 align:start position:0%
+artist one hasn't executed yet so this
+is<00:02:25.549><c> all</c><00:02:26.549><c> that</c><00:02:26.610><c> happens</c><00:02:27.540><c> to</c><00:02:27.930><c> reservation</c>
+
+00:02:28.520 --> 00:02:28.530 align:start position:0%
+is all that happens to reservation
+ 
+
+00:02:28.530 --> 00:02:32.180 align:start position:0%
+is all that happens to reservation
+stations<00:02:29.069><c> as</c><00:02:29.280><c> a</c><00:02:29.870><c> result</c><00:02:30.870><c> of</c><00:02:31.019><c> things</c><00:02:31.379><c> that</c>
+
+00:02:32.180 --> 00:02:32.190 align:start position:0%
+stations as a result of things that
+ 
+
+00:02:32.190 --> 00:02:35.060 align:start position:0%
+stations as a result of things that
+happen<00:02:32.579><c> in</c><00:02:32.670><c> this</c><00:02:32.819><c> cycle</c>
+

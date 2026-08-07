@@ -1,0 +1,64 @@
+1
+00:00:00,260 --> 00:00:02,128
+ The answer is sqrt(P)+2.
+
+2
+00:00:02,128 --> 00:00:05,730
+ Let's take an edge, I don't know, how about this one?
+
+3
+00:00:05,730 --> 00:00:08,380
+ Let's see which logical edges map to this physical edge.
+
+4
+00:00:08,380 --> 00:00:13,380
+ There are square root of P edges that come from the matching edge
+
+5
+00:00:13,380 --> 00:00:17,890
+ as well as all of these vertical edges, but that's not all.
+
+6
+00:00:17,890 --> 00:00:21,170
+ There are also these pesky wraparound edges.
+
+7
+00:00:21,170 --> 00:00:25,190
+ This wraparound edge corresponds to this path.
+
+8
+00:00:25,190 --> 00:00:27,190
+ And what about the other wraparound edge?
+
+9
+00:00:27,190 --> 00:00:28,130
+ The shortest path for
+
+10
+00:00:28,130 --> 00:00:33,070
+ this wraparound edge would start here, go along the first row,
+
+11
+00:00:33,070 --> 00:00:37,210
+ down this wraparound edge in the ring, and back across the bottom row.
+
+12
+00:00:37,210 --> 00:00:39,900
+ So notice that it also has to touch this edge.
+
+13
+00:00:39,900 --> 00:00:42,285
+ So the wraparound edges give me the + 2.
+
+14
+00:00:42,285 --> 00:00:46,440
+ If you were off by one or two, the auto-grader should have forgiven you.
+
+15
+00:00:46,440 --> 00:00:49,700
+ Asymptotically, the important point is that congestion grows by square
+
+16
+00:00:49,700 --> 00:00:49,700
+ root of P.
+

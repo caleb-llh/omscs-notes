@@ -1,0 +1,76 @@
+1
+00:00:00,220 --> 00:00:01,460
+ So, what'd you get?
+
+2
+00:00:01,460 --> 00:00:03,710
+ I got 70 microns.
+
+3
+00:00:03,710 --> 00:00:08,690
+ One round trip, from center to corner and back, is l square root of 2.
+
+4
+00:00:08,690 --> 00:00:11,490
+ Recall that your goal is to do three trillion of these round
+
+5
+00:00:11,490 --> 00:00:13,170
+ trips, per second.
+
+6
+00:00:13,170 --> 00:00:15,840
+ So how do you get to 3 trillion operations per second?
+
+7
+00:00:15,840 --> 00:00:20,020
+ Each operation is a round trip, each round trip is l root 2,
+
+8
+00:00:20,020 --> 00:00:21,540
+ units of distance.
+
+9
+00:00:21,540 --> 00:00:26,080
+ So think of this distance, l root 2, as being in units of, say, meters.
+
+10
+00:00:26,080 --> 00:00:28,500
+ You can travel this distance at the signaling speed,
+
+11
+00:00:28,500 --> 00:00:30,850
+ which is the speed of light, by assumption.
+
+12
+00:00:30,850 --> 00:00:32,689
+ Solve this equation for l.
+
+13
+00:00:32,689 --> 00:00:34,100
+ Assuming I did the math right,
+
+14
+00:00:34,100 --> 00:00:37,410
+ you should get about 70 microns to one significant figure.
+
+15
+00:00:37,410 --> 00:00:39,300
+ That is really tiny.
+
+16
+00:00:39,300 --> 00:00:41,900
+ In fact, it's about the width of a human hair.
+
+17
+00:00:41,900 --> 00:00:43,700
+ Here's the point of this exercise.
+
+18
+00:00:43,700 --> 00:00:46,980
+ To hit the target compute speed, assuming information propagates
+
+19
+00:00:46,980 --> 00:00:46,980
+ at the speed of light, a sequential computer has to be really, really tiny.
+

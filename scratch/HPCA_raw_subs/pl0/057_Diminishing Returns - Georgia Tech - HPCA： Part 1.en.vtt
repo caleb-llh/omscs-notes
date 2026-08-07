@@ -1,0 +1,544 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:02.470 align:start position:0%
+ 
+a<00:00:00.320><c> final</c><00:00:01.000><c> consequence</c><00:00:01.560><c> of</c><00:00:01.760><c> amal's</c><00:00:02.159><c> law</c><00:00:02.360><c> that</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+a final consequence of amal's law that
+ 
+
+00:00:02.480 --> 00:00:04.510 align:start position:0%
+a final consequence of amal's law that
+we<00:00:02.560><c> will</c><00:00:02.879><c> discuss</c><00:00:03.879><c> is</c><00:00:04.040><c> the</c><00:00:04.200><c> law</c><00:00:04.400><c> of</c>
+
+00:00:04.510 --> 00:00:04.520 align:start position:0%
+we will discuss is the law of
+ 
+
+00:00:04.520 --> 00:00:07.230 align:start position:0%
+we will discuss is the law of
+diminishing<00:00:05.240><c> returns</c><00:00:06.040><c> let's</c><00:00:06.279><c> say</c><00:00:06.640><c> that</c><00:00:07.080><c> we</c>
+
+00:00:07.230 --> 00:00:07.240 align:start position:0%
+diminishing returns let's say that we
+ 
+
+00:00:07.240 --> 00:00:09.470 align:start position:0%
+diminishing returns let's say that we
+had<00:00:07.439><c> an</c><00:00:07.600><c> original</c><00:00:08.200><c> processor</c><00:00:09.040><c> which</c><00:00:09.200><c> we</c><00:00:09.320><c> will</c>
+
+00:00:09.470 --> 00:00:09.480 align:start position:0%
+had an original processor which we will
+ 
+
+00:00:09.480 --> 00:00:12.190 align:start position:0%
+had an original processor which we will
+call<00:00:09.719><c> gen</c><00:00:10.080><c> one</c><00:00:10.679><c> in</c><00:00:10.880><c> which</c><00:00:11.040><c> our</c><00:00:11.320><c> execution</c><00:00:11.920><c> time</c>
+
+00:00:12.190 --> 00:00:12.200 align:start position:0%
+call gen one in which our execution time
+ 
+
+00:00:12.200 --> 00:00:14.230 align:start position:0%
+call gen one in which our execution time
+can<00:00:12.360><c> roughly</c><00:00:12.719><c> be</c><00:00:12.880><c> divided</c><00:00:13.320><c> into</c><00:00:13.559><c> a</c><00:00:13.799><c> purple</c>
+
+00:00:14.230 --> 00:00:14.240 align:start position:0%
+can roughly be divided into a purple
+ 
+
+00:00:14.240 --> 00:00:17.189 align:start position:0%
+can roughly be divided into a purple
+phase<00:00:14.920><c> and</c><00:00:15.080><c> a</c><00:00:15.280><c> blue</c><00:00:15.680><c> phase</c><00:00:16.680><c> each</c><00:00:16.840><c> of</c><00:00:17.000><c> them</c>
+
+00:00:17.189 --> 00:00:17.199 align:start position:0%
+phase and a blue phase each of them
+ 
+
+00:00:17.199 --> 00:00:19.230 align:start position:0%
+phase and a blue phase each of them
+takes<00:00:17.480><c> about</c><00:00:17.800><c> half</c><00:00:18.039><c> the</c><00:00:18.199><c> execution</c><00:00:18.760><c> time</c>
+
+00:00:19.230 --> 00:00:19.240 align:start position:0%
+takes about half the execution time
+ 
+
+00:00:19.240 --> 00:00:21.070 align:start position:0%
+takes about half the execution time
+let's<00:00:19.439><c> say</c><00:00:19.640><c> that</c><00:00:19.800><c> in</c><00:00:19.920><c> the</c><00:00:20.080><c> generation</c><00:00:20.519><c> 2</c>
+
+00:00:21.070 --> 00:00:21.080 align:start position:0%
+let's say that in the generation 2
+ 
+
+00:00:21.080 --> 00:00:23.710 align:start position:0%
+let's say that in the generation 2
+processor<00:00:22.080><c> we</c><00:00:22.279><c> decided</c><00:00:22.720><c> to</c><00:00:22.960><c> speed</c><00:00:23.320><c> up</c><00:00:23.599><c> the</c>
+
+00:00:23.710 --> 00:00:23.720 align:start position:0%
+processor we decided to speed up the
+ 
+
+00:00:23.720 --> 00:00:26.990 align:start position:0%
+processor we decided to speed up the
+blue<00:00:24.199><c> phase</c><00:00:25.199><c> by</c><00:00:25.320><c> a</c><00:00:25.480><c> factor</c><00:00:25.800><c> of</c><00:00:25.920><c> two</c><00:00:26.679><c> what</c><00:00:26.800><c> we</c>
+
+00:00:26.990 --> 00:00:27.000 align:start position:0%
+blue phase by a factor of two what we
+ 
+
+00:00:27.000 --> 00:00:30.470 align:start position:0%
+blue phase by a factor of two what we
+got<00:00:27.320><c> now</c><00:00:28.080><c> is</c><00:00:28.320><c> that</c><00:00:28.880><c> the</c><00:00:29.119><c> purple</c><00:00:29.599><c> part</c><00:00:30.000><c> is</c><00:00:30.160><c> not</c>
+
+00:00:30.470 --> 00:00:30.480 align:start position:0%
+got now is that the purple part is not
+ 
+
+00:00:30.480 --> 00:00:33.709 align:start position:0%
+got now is that the purple part is not
+affected<00:00:31.439><c> and</c><00:00:31.599><c> the</c><00:00:31.759><c> blue</c><00:00:32.239><c> part</c><00:00:32.960><c> is</c><00:00:33.120><c> now</c><00:00:33.440><c> half</c>
+
+00:00:33.709 --> 00:00:33.719 align:start position:0%
+affected and the blue part is now half
+ 
+
+00:00:33.719 --> 00:00:37.030 align:start position:0%
+affected and the blue part is now half
+as<00:00:33.920><c> long</c><00:00:34.840><c> the</c><00:00:35.000><c> overall</c><00:00:35.440><c> speed</c><00:00:35.800><c> up</c><00:00:36.480><c> of</c><00:00:36.640><c> the</c><00:00:36.800><c> Gen</c>
+
+00:00:37.030 --> 00:00:37.040 align:start position:0%
+as long the overall speed up of the Gen
+ 
+
+00:00:37.040 --> 00:00:41.150 align:start position:0%
+as long the overall speed up of the Gen
+2<00:00:37.320><c> processor</c><00:00:37.800><c> over</c><00:00:38.120><c> gen</c><00:00:38.399><c> 1</c><00:00:39.320><c> is</c><00:00:39.520><c> equal</c><00:00:39.879><c> to</c><00:00:40.640><c> 1</c>
+
+00:00:41.150 --> 00:00:41.160 align:start position:0%
+2 processor over gen 1 is equal to 1
+ 
+
+00:00:41.160 --> 00:00:45.069 align:start position:0%
+2 processor over gen 1 is equal to 1
+over<00:00:42.160><c> half</c><00:00:42.480><c> is</c><00:00:42.640><c> not</c><00:00:42.960><c> enhanced</c><00:00:43.960><c> half</c><00:00:44.600><c> is</c><00:00:44.800><c> sped</c>
+
+00:00:45.069 --> 00:00:45.079 align:start position:0%
+over half is not enhanced half is sped
+ 
+
+00:00:45.079 --> 00:00:47.549 align:start position:0%
+over half is not enhanced half is sped
+up<00:00:45.280><c> by</c><00:00:45.360><c> a</c><00:00:45.520><c> factor</c><00:00:45.760><c> of</c><00:00:45.960><c> two</c><00:00:46.719><c> and</c><00:00:46.879><c> we</c><00:00:47.039><c> get</c><00:00:47.160><c> a</c><00:00:47.320><c> speed</c>
+
+00:00:47.549 --> 00:00:47.559 align:start position:0%
+up by a factor of two and we get a speed
+ 
+
+00:00:47.559 --> 00:00:48.549 align:start position:0%
+up by a factor of two and we get a speed
+up<00:00:47.760><c> of</c>
+
+00:00:48.549 --> 00:00:48.559 align:start position:0%
+up of
+ 
+
+00:00:48.559 --> 00:00:52.349 align:start position:0%
+up of
+133<00:00:49.559><c> which</c><00:00:49.719><c> is</c><00:00:50.120><c> a</c><00:00:50.320><c> sizable</c><00:00:50.840><c> speed</c><00:00:51.120><c> up</c><00:00:52.120><c> now</c>
+
+00:00:52.349 --> 00:00:52.359 align:start position:0%
+133 which is a sizable speed up now
+ 
+
+00:00:52.359 --> 00:00:53.990 align:start position:0%
+133 which is a sizable speed up now
+let's<00:00:52.559><c> say</c><00:00:52.760><c> that</c><00:00:52.920><c> we</c><00:00:53.079><c> have</c><00:00:53.239><c> a</c><00:00:53.440><c> generation</c>
+
+00:00:53.990 --> 00:00:54.000 align:start position:0%
+let's say that we have a generation
+ 
+
+00:00:54.000 --> 00:00:56.910 align:start position:0%
+let's say that we have a generation
+three<00:00:54.559><c> processor</c><00:00:55.559><c> where</c><00:00:55.760><c> we</c><00:00:56.120><c> again</c><00:00:56.559><c> get</c><00:00:56.800><c> the</c>
+
+00:00:56.910 --> 00:00:56.920 align:start position:0%
+three processor where we again get the
+ 
+
+00:00:56.920 --> 00:00:59.470 align:start position:0%
+three processor where we again get the
+blue<00:00:57.320><c> part</c><00:00:57.800><c> and</c><00:00:58.000><c> speed</c><00:00:58.320><c> it</c><00:00:58.480><c> up</c><00:00:58.719><c> by</c><00:00:58.879><c> a</c><00:00:59.039><c> factor</c><00:00:59.320><c> of</c>
+
+00:00:59.470 --> 00:00:59.480 align:start position:0%
+blue part and speed it up by a factor of
+ 
+
+00:00:59.480 --> 00:01:00.430 align:start position:0%
+blue part and speed it up by a factor of
+two
+
+00:01:00.430 --> 00:01:00.440 align:start position:0%
+two
+ 
+
+00:01:00.440 --> 00:01:03.029 align:start position:0%
+two
+relative<00:01:00.840><c> to</c><00:01:01.000><c> the</c><00:01:01.160><c> Gen</c><00:01:01.399><c> 2</c><00:01:01.719><c> processors</c><00:01:02.640><c> now</c><00:01:02.840><c> we</c>
+
+00:01:03.029 --> 00:01:03.039 align:start position:0%
+relative to the Gen 2 processors now we
+ 
+
+00:01:03.039 --> 00:01:05.469 align:start position:0%
+relative to the Gen 2 processors now we
+have<00:01:03.440><c> that</c><00:01:03.600><c> the</c><00:01:03.800><c> purple</c><00:01:04.280><c> part</c><00:01:04.879><c> is</c><00:01:05.040><c> still</c><00:01:05.320><c> the</c>
+
+00:01:05.469 --> 00:01:05.479 align:start position:0%
+have that the purple part is still the
+ 
+
+00:01:05.479 --> 00:01:08.190 align:start position:0%
+have that the purple part is still the
+same<00:01:06.000><c> and</c><00:01:06.159><c> the</c><00:01:06.360><c> blue</c><00:01:06.760><c> part</c><00:01:07.320><c> is</c><00:01:07.560><c> half</c><00:01:07.799><c> of</c><00:01:08.040><c> what</c>
+
+00:01:08.190 --> 00:01:08.200 align:start position:0%
+same and the blue part is half of what
+ 
+
+00:01:08.200 --> 00:01:10.429 align:start position:0%
+same and the blue part is half of what
+it<00:01:08.360><c> was</c><00:01:08.880><c> the</c><00:01:09.000><c> speed</c><00:01:09.320><c> up</c><00:01:09.640><c> of</c><00:01:09.759><c> the</c><00:01:09.920><c> Gen</c><00:01:10.159><c> 3</c>
+
+00:01:10.429 --> 00:01:10.439 align:start position:0%
+it was the speed up of the Gen 3
+ 
+
+00:01:10.439 --> 00:01:13.310 align:start position:0%
+it was the speed up of the Gen 3
+processor<00:01:10.960><c> over</c><00:01:11.200><c> a</c><00:01:11.360><c> Gen</c><00:01:11.600><c> 2</c><00:01:11.920><c> processor</c><00:01:12.680><c> is</c><00:01:12.920><c> one</c>
+
+00:01:13.310 --> 00:01:13.320 align:start position:0%
+processor over a Gen 2 processor is one
+ 
+
+00:01:13.320 --> 00:01:15.710 align:start position:0%
+processor over a Gen 2 processor is one
+over<00:01:13.920><c> and</c><00:01:14.080><c> now</c><00:01:14.280><c> we</c><00:01:14.439><c> have</c><00:01:14.560><c> to</c><00:01:14.720><c> be</c><00:01:14.920><c> careful</c><00:01:15.560><c> the</c>
+
+00:01:15.710 --> 00:01:15.720 align:start position:0%
+over and now we have to be careful the
+ 
+
+00:01:15.720 --> 00:01:19.030 align:start position:0%
+over and now we have to be careful the
+unaffected<00:01:16.680><c> part</c><00:01:17.560><c> is</c><00:01:17.720><c> now</c><00:01:18.000><c> 2/3</c><00:01:18.720><c> of</c><00:01:18.840><c> the</c>
+
+00:01:19.030 --> 00:01:19.040 align:start position:0%
+unaffected part is now 2/3 of the
+ 
+
+00:01:19.040 --> 00:01:21.749 align:start position:0%
+unaffected part is now 2/3 of the
+execution<00:01:19.640><c> time</c><00:01:20.280><c> the</c><00:01:20.520><c> affected</c><00:01:21.079><c> part</c><00:01:21.320><c> is</c><00:01:21.439><c> only</c>
+
+00:01:21.749 --> 00:01:21.759 align:start position:0%
+execution time the affected part is only
+ 
+
+00:01:21.759 --> 00:01:24.789 align:start position:0%
+execution time the affected part is only
+1/3<00:01:22.680><c> and</c><00:01:22.960><c> that</c><00:01:23.360><c> part</c><00:01:23.640><c> is</c><00:01:23.759><c> still</c><00:01:24.079><c> affected</c><00:01:24.520><c> by</c><00:01:24.640><c> a</c>
+
+00:01:24.789 --> 00:01:24.799 align:start position:0%
+1/3 and that part is still affected by a
+ 
+
+00:01:24.799 --> 00:01:27.510 align:start position:0%
+1/3 and that part is still affected by a
+factor<00:01:25.079><c> of</c><00:01:25.200><c> two</c><00:01:25.720><c> so</c><00:01:25.960><c> the</c><00:01:26.119><c> overall</c><00:01:26.479><c> speed</c><00:01:26.799><c> up</c><00:01:27.280><c> is</c>
+
+00:01:27.510 --> 00:01:27.520 align:start position:0%
+factor of two so the overall speed up is
+ 
+
+00:01:27.520 --> 00:01:30.590 align:start position:0%
+factor of two so the overall speed up is
+1.2<00:01:28.520><c> over</c><00:01:28.799><c> Gen</c><00:01:29.040><c> 2</c><00:01:29.479><c> if</c><00:01:29.600><c> we</c><00:01:29.759><c> keep</c><00:01:29.960><c> keep</c><00:01:30.159><c> improving</c>
+
+00:01:30.590 --> 00:01:30.600 align:start position:0%
+1.2 over Gen 2 if we keep keep improving
+ 
+
+00:01:30.600 --> 00:01:33.270 align:start position:0%
+1.2 over Gen 2 if we keep keep improving
+the<00:01:30.720><c> blue</c><00:01:31.079><c> part</c><00:01:31.320><c> over</c><00:01:31.600><c> the</c><00:01:32.280><c> generations</c>
+
+00:01:33.270 --> 00:01:33.280 align:start position:0%
+the blue part over the generations
+ 
+
+00:01:33.280 --> 00:01:35.230 align:start position:0%
+the blue part over the generations
+eventually<00:01:33.880><c> we</c><00:01:33.960><c> will</c><00:01:34.200><c> get</c><00:01:34.399><c> to</c><00:01:34.680><c> almost</c><00:01:34.960><c> no</c>
+
+00:01:35.230 --> 00:01:35.240 align:start position:0%
+eventually we will get to almost no
+ 
+
+00:01:35.240 --> 00:01:38.230 align:start position:0%
+eventually we will get to almost no
+speed<00:01:35.520><c> up</c><00:01:35.960><c> why</c><00:01:36.439><c> because</c><00:01:37.360><c> we</c><00:01:37.520><c> are</c>
+
+00:01:38.230 --> 00:01:38.240 align:start position:0%
+speed up why because we are
+ 
+
+00:01:38.240 --> 00:01:40.830 align:start position:0%
+speed up why because we are
+improving<00:01:39.240><c> what</c><00:01:39.439><c> amounts</c><00:01:39.799><c> to</c><00:01:40.000><c> less</c><00:01:40.240><c> and</c><00:01:40.479><c> less</c>
+
+00:01:40.830 --> 00:01:40.840 align:start position:0%
+improving what amounts to less and less
+ 
+
+00:01:40.840 --> 00:01:43.310 align:start position:0%
+improving what amounts to less and less
+of<00:01:41.000><c> the</c><00:01:41.159><c> execution</c><00:01:41.720><c> time</c><00:01:42.320><c> furthermore</c>
+
+00:01:43.310 --> 00:01:43.320 align:start position:0%
+of the execution time furthermore
+ 
+
+00:01:43.320 --> 00:01:45.709 align:start position:0%
+of the execution time furthermore
+usually<00:01:43.799><c> it</c><00:01:43.920><c> is</c><00:01:44.119><c> the</c><00:01:44.320><c> case</c><00:01:45.040><c> that</c><00:01:45.200><c> improving</c>
+
+00:01:45.709 --> 00:01:45.719 align:start position:0%
+usually it is the case that improving
+ 
+
+00:01:45.719 --> 00:01:49.149 align:start position:0%
+usually it is the case that improving
+something<00:01:46.360><c> initially</c><00:01:47.040><c> is</c><00:01:47.200><c> not</c><00:01:47.680><c> very</c><00:01:48.000><c> hard</c><00:01:48.880><c> but</c>
+
+00:01:49.149 --> 00:01:49.159 align:start position:0%
+something initially is not very hard but
+ 
+
+00:01:49.159 --> 00:01:51.590 align:start position:0%
+something initially is not very hard but
+after<00:01:49.439><c> you</c><00:01:49.719><c> exhaust</c><00:01:50.520><c> the</c><00:01:50.719><c> easy</c><00:01:51.000><c> methods</c><00:01:51.360><c> for</c>
+
+00:01:51.590 --> 00:01:51.600 align:start position:0%
+after you exhaust the easy methods for
+ 
+
+00:01:51.600 --> 00:01:53.670 align:start position:0%
+after you exhaust the easy methods for
+improvement<00:01:52.320><c> it</c><00:01:52.479><c> becomes</c><00:01:52.960><c> very</c><00:01:53.240><c> very</c>
+
+00:01:53.670 --> 00:01:53.680 align:start position:0%
+improvement it becomes very very
+ 
+
+00:01:53.680 --> 00:01:55.230 align:start position:0%
+improvement it becomes very very
+difficult<00:01:53.920><c> to</c><00:01:54.079><c> get</c><00:01:54.200><c> new</c><00:01:54.399><c> speed</c><00:01:54.680><c> UPS</c><00:01:54.960><c> on</c><00:01:55.079><c> a</c>
+
+00:01:55.230 --> 00:01:55.240 align:start position:0%
+difficult to get new speed UPS on a
+ 
+
+00:01:55.240 --> 00:01:56.910 align:start position:0%
+difficult to get new speed UPS on a
+thing<00:01:55.439><c> that</c><00:01:55.640><c> has</c><00:01:55.759><c> been</c><00:01:56.000><c> already</c><00:01:56.399><c> enhanced</c>
+
+00:01:56.910 --> 00:01:56.920 align:start position:0%
+thing that has been already enhanced
+ 
+
+00:01:56.920 --> 00:02:00.350 align:start position:0%
+thing that has been already enhanced
+hugely<00:01:57.759><c> So</c><00:01:58.039><c> eventually</c><00:01:59.000><c> the</c><00:01:59.200><c> solutions</c>
+
+00:02:00.350 --> 00:02:00.360 align:start position:0%
+hugely So eventually the solutions
+ 
+
+00:02:00.360 --> 00:02:02.590 align:start position:0%
+hugely So eventually the solutions
+that<00:02:00.520><c> will</c><00:02:00.880><c> improve</c><00:02:01.320><c> the</c><00:02:01.520><c> purple</c><00:02:01.960><c> part</c><00:02:02.439><c> will</c>
+
+00:02:02.590 --> 00:02:02.600 align:start position:0%
+that will improve the purple part will
+ 
+
+00:02:02.600 --> 00:02:04.749 align:start position:0%
+that will improve the purple part will
+be<00:02:02.799><c> cheaper</c><00:02:03.600><c> than</c><00:02:03.799><c> the</c><00:02:03.960><c> solutions</c><00:02:04.520><c> that</c>
+
+00:02:04.749 --> 00:02:04.759 align:start position:0%
+be cheaper than the solutions that
+ 
+
+00:02:04.759 --> 00:02:06.590 align:start position:0%
+be cheaper than the solutions that
+further<00:02:05.240><c> improve</c><00:02:05.600><c> the</c><00:02:05.719><c> blue</c><00:02:06.039><c> part</c><00:02:06.399><c> just</c>
+
+00:02:06.590 --> 00:02:06.600 align:start position:0%
+further improve the blue part just
+ 
+
+00:02:06.600 --> 00:02:08.229 align:start position:0%
+further improve the blue part just
+because<00:02:06.960><c> all</c><00:02:07.079><c> of</c><00:02:07.200><c> the</c><00:02:07.360><c> easy</c><00:02:07.640><c> stuff</c><00:02:08.080><c> on</c>
+
+00:02:08.229 --> 00:02:08.239 align:start position:0%
+because all of the easy stuff on
+ 
+
+00:02:08.239 --> 00:02:10.029 align:start position:0%
+because all of the easy stuff on
+improving<00:02:08.679><c> the</c><00:02:08.800><c> blue</c><00:02:09.119><c> part</c><00:02:09.399><c> we</c><00:02:09.520><c> have</c><00:02:09.720><c> already</c>
+
+00:02:10.029 --> 00:02:10.039 align:start position:0%
+improving the blue part we have already
+ 
+
+00:02:10.039 --> 00:02:12.949 align:start position:0%
+improving the blue part we have already
+done<00:02:10.840><c> so</c><00:02:11.120><c> not</c><00:02:11.360><c> only</c><00:02:11.720><c> do</c><00:02:11.879><c> we</c><00:02:12.040><c> get</c><00:02:12.239><c> lower</c><00:02:12.640><c> speed</c>
+
+00:02:12.949 --> 00:02:12.959 align:start position:0%
+done so not only do we get lower speed
+ 
+
+00:02:12.959 --> 00:02:14.670 align:start position:0%
+done so not only do we get lower speed
+UPS<00:02:13.280><c> by</c><00:02:13.400><c> improving</c><00:02:13.800><c> the</c><00:02:13.879><c> blue</c><00:02:14.160><c> part</c><00:02:14.440><c> it's</c>
+
+00:02:14.670 --> 00:02:14.680 align:start position:0%
+UPS by improving the blue part it's
+ 
+
+00:02:14.680 --> 00:02:16.750 align:start position:0%
+UPS by improving the blue part it's
+actually<00:02:15.000><c> becoming</c><00:02:15.440><c> more</c><00:02:16.000><c> difficult</c><00:02:16.120><c> to</c><00:02:16.319><c> do</c>
+
+00:02:16.750 --> 00:02:16.760 align:start position:0%
+actually becoming more difficult to do
+ 
+
+00:02:16.760 --> 00:02:20.509 align:start position:0%
+actually becoming more difficult to do
+so<00:02:17.760><c> this</c><00:02:17.920><c> is</c><00:02:18.440><c> sort</c><00:02:18.680><c> of</c><00:02:18.840><c> a</c><00:02:19.040><c> lesson</c><00:02:19.760><c> to</c><00:02:20.040><c> computer</c>
+
+00:02:20.509 --> 00:02:20.519 align:start position:0%
+so this is sort of a lesson to computer
+ 
+
+00:02:20.519 --> 00:02:23.390 align:start position:0%
+so this is sort of a lesson to computer
+Architects<00:02:21.480><c> to</c><00:02:21.720><c> not</c><00:02:22.000><c> go</c><00:02:22.280><c> overboard</c><00:02:22.920><c> improving</c>
+
+00:02:23.390 --> 00:02:23.400 align:start position:0%
+Architects to not go overboard improving
+ 
+
+00:02:23.400 --> 00:02:25.430 align:start position:0%
+Architects to not go overboard improving
+the<00:02:23.560><c> same</c><00:02:23.879><c> thing</c><00:02:24.440><c> because</c><00:02:24.720><c> the</c><00:02:24.920><c> things</c><00:02:25.280><c> that</c>
+
+00:02:25.430 --> 00:02:25.440 align:start position:0%
+the same thing because the things that
+ 
+
+00:02:25.440 --> 00:02:28.550 align:start position:0%
+the same thing because the things that
+have<00:02:25.720><c> already</c><00:02:26.239><c> improved</c><00:02:27.239><c> are</c><00:02:27.480><c> now</c><00:02:27.760><c> a</c><00:02:28.000><c> smaller</c>
+
+00:02:28.550 --> 00:02:28.560 align:start position:0%
+have already improved are now a smaller
+ 
+
+00:02:28.560 --> 00:02:31.070 align:start position:0%
+have already improved are now a smaller
+percentage<00:02:29.239><c> of</c><00:02:29.360><c> the</c><00:02:29.480><c> new</c><00:02:29.920><c> execution</c><00:02:30.440><c> time</c><00:02:30.959><c> and</c>
+
+00:02:31.070 --> 00:02:31.080 align:start position:0%
+percentage of the new execution time and
+ 
+
+00:02:31.080 --> 00:02:33.550 align:start position:0%
+percentage of the new execution time and
+we<00:02:31.200><c> need</c><00:02:31.360><c> to</c><00:02:31.560><c> reassess</c><00:02:32.560><c> what</c><00:02:32.720><c> is</c><00:02:32.959><c> now</c><00:02:33.360><c> the</c>
+
+00:02:33.550 --> 00:02:33.560 align:start position:0%
+we need to reassess what is now the
+ 
+
+00:02:33.560 --> 00:02:35.910 align:start position:0%
+we need to reassess what is now the
+dominant<00:02:34.120><c> part</c><00:02:34.400><c> in</c><00:02:34.560><c> the</c><00:02:34.720><c> execution</c><00:02:35.280><c> time</c><00:02:35.760><c> in</c>
+
+00:02:35.910 --> 00:02:35.920 align:start position:0%
+dominant part in the execution time in
+ 
+
+00:02:35.920 --> 00:02:38.110 align:start position:0%
+dominant part in the execution time in
+other<00:02:36.160><c> words</c><00:02:36.879><c> once</c><00:02:37.120><c> you</c><00:02:37.239><c> have</c><00:02:37.480><c> applied</c><00:02:37.879><c> one</c>
+
+00:02:38.110 --> 00:02:38.120 align:start position:0%
+other words once you have applied one
+ 
+
+00:02:38.120 --> 00:02:40.670 align:start position:0%
+other words once you have applied one
+Improvement<00:02:38.760><c> you</c><00:02:38.879><c> need</c><00:02:39.080><c> to</c><00:02:39.360><c> reconsider</c><00:02:40.360><c> what</c>
+
+00:02:40.670 --> 00:02:40.680 align:start position:0%
+Improvement you need to reconsider what
+ 
+
+00:02:40.680 --> 00:02:43.270 align:start position:0%
+Improvement you need to reconsider what
+is<00:02:41.000><c> now</c><00:02:41.760><c> the</c><00:02:41.920><c> new</c><00:02:42.200><c> dominant</c><00:02:42.720><c> part</c><00:02:42.959><c> in</c><00:02:43.120><c> the</c>
+
+00:02:43.270 --> 00:02:43.280 align:start position:0%
+is now the new dominant part in the
+ 
+
+00:02:43.280 --> 00:02:45.869 align:start position:0%
+is now the new dominant part in the
+execution<00:02:43.879><c> time</c><00:02:44.680><c> and</c><00:02:44.920><c> definitely</c><00:02:45.560><c> when</c>
+
+00:02:45.869 --> 00:02:45.879 align:start position:0%
+execution time and definitely when
+ 
+
+00:02:45.879 --> 00:02:48.710 align:start position:0%
+execution time and definitely when
+applying<00:02:46.280><c> amd's</c><00:02:46.800><c> law</c><00:02:47.360><c> we</c><00:02:47.519><c> need</c><00:02:47.720><c> to</c><00:02:48.120><c> consider</c>
+
+00:02:48.710 --> 00:02:48.720 align:start position:0%
+applying amd's law we need to consider
+ 
+
+00:02:48.720 --> 00:02:51.229 align:start position:0%
+applying amd's law we need to consider
+what<00:02:48.879><c> is</c><00:02:49.120><c> now</c><00:02:49.840><c> the</c><00:02:50.000><c> fraction</c><00:02:50.480><c> enhanced</c><00:02:51.120><c> and</c>
+
+00:02:51.229 --> 00:02:51.239 align:start position:0%
+what is now the fraction enhanced and
+ 
+
+00:02:51.239 --> 00:02:54.840 align:start position:0%
+what is now the fraction enhanced and
+the<00:02:51.400><c> fraction</c><00:02:51.840><c> unenhanced</c>
+

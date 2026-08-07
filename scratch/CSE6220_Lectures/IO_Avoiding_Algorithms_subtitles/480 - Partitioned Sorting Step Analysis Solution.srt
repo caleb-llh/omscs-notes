@@ -1,0 +1,72 @@
+1
+00:00:00,310 --> 00:00:02,540
+ Here's what I was looking for, for the reads and
+
+2
+00:00:02,540 --> 00:00:05,750
+ the writes a total of n/L transfers.
+
+3
+00:00:05,750 --> 00:00:08,490
+ For the comparisons, n log Z.
+
+4
+00:00:08,490 --> 00:00:10,840
+ Let's look at the transfers first.
+
+5
+00:00:10,840 --> 00:00:14,810
+ The reads and writes involve about Z/L transfers each and
+
+6
+00:00:14,810 --> 00:00:17,640
+ of course you repeat that for all iterations.
+
+7
+00:00:17,640 --> 00:00:20,230
+ So that's a total of n/L transfers.
+
+8
+00:00:20,230 --> 00:00:21,840
+ Now what about comparisons?
+
+9
+00:00:21,840 --> 00:00:27,270
+ An optimal comparison based sort will incur about Z log Z comparisons.
+
+10
+00:00:27,270 --> 00:00:32,000
+ Doing that for all n/Z iterations gives you n log Z.
+
+11
+00:00:32,000 --> 00:00:33,040
+ The good news is, so
+
+12
+00:00:33,040 --> 00:00:37,900
+ far your scheme is giving you something proportional to n/L transactions.
+
+13
+00:00:37,900 --> 00:00:40,620
+ That's good because it means you're doing a good job utilizing each
+
+14
+00:00:40,620 --> 00:00:41,740
+ transaction.
+
+15
+00:00:41,740 --> 00:00:42,910
+ Good job, you!
+
+16
+00:00:42,910 --> 00:00:44,500
+ Here's a candy bar.
+
+17
+00:00:44,500 --> 00:00:45,945
+ You're nuts for HPC.
+
+18
+00:00:45,945 --> 00:00:45,945
+ >> [SOUND]
+

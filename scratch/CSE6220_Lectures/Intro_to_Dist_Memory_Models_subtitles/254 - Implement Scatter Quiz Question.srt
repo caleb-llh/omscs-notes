@@ -1,0 +1,40 @@
+1
+00:00:00,370 --> 00:00:02,410
+ Remember how Scatter works.
+
+2
+00:00:02,410 --> 00:00:04,010
+ A root has all the data, and
+
+3
+00:00:04,010 --> 00:00:07,460
+ it distributes that data to all the other processes.
+
+4
+00:00:07,460 --> 00:00:10,350
+ Suppose I give you the following scheme.
+
+5
+00:00:10,350 --> 00:00:16,340
+ The roots sends each piece of data, and all other p minus 1 processes receive.
+
+6
+00:00:16,340 --> 00:00:18,450
+ My question is, how much time does this take?
+
+7
+00:00:18,450 --> 00:00:20,290
+ Here are a bunch of options.
+
+8
+00:00:20,290 --> 00:00:22,880
+ I want you to choose the best one.
+
+9
+00:00:22,880 --> 00:00:25,600
+ That is, even if an option doesn't seem exact,
+
+10
+00:00:25,600 --> 00:00:25,600
+ just choose the asymptotically closest.
+

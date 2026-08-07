@@ -1,0 +1,336 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.389 align:start position:0%
+ 
+let<00:00:00.329><c> us</c><00:00:00.510><c> look</c><00:00:00.690><c> at</c><00:00:00.870><c> the</c><00:00:00.989><c> solution</c><00:00:01.709><c> to</c><00:00:01.740><c> our</c><00:00:02.070><c> full</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+let us look at the solution to our full
+ 
+
+00:00:02.399 --> 00:00:05.240 align:start position:0%
+let us look at the solution to our full
+predication<00:00:02.639><c> quiz</c><00:00:03.360><c> we</c><00:00:04.020><c> have</c><00:00:04.259><c> this</c><00:00:04.500><c> branch</c>
+
+00:00:05.240 --> 00:00:05.250 align:start position:0%
+predication quiz we have this branch
+ 
+
+00:00:05.250 --> 00:00:07.849 align:start position:0%
+predication quiz we have this branch
+based<00:00:05.580><c> if-then-else</c><00:00:06.270><c> called</c><00:00:06.600><c> we're</c><00:00:07.529><c> trying</c>
+
+00:00:07.849 --> 00:00:07.859 align:start position:0%
+based if-then-else called we're trying
+ 
+
+00:00:07.859 --> 00:00:10.930 align:start position:0%
+based if-then-else called we're trying
+to<00:00:08.189><c> if</c><00:00:08.400><c> convert</c><00:00:08.880><c> it</c><00:00:09.030><c> using</c><00:00:09.059><c> full</c><00:00:09.570><c> predication</c>
+
+00:00:10.930 --> 00:00:10.940 align:start position:0%
+to if convert it using full predication
+ 
+
+00:00:10.940 --> 00:00:16.820 align:start position:0%
+to if convert it using full predication
+p1<00:00:11.940><c> here</c><00:00:12.540><c> is</c><00:00:12.809><c> set</c><00:00:13.170><c> when</c><00:00:13.410><c> r2</c><00:00:13.889><c> is</c><00:00:14.130><c> 0</c><00:00:15.049><c> when</c><00:00:16.049><c> R</c><00:00:16.289><c> 2</c><00:00:16.560><c> is</c>
+
+00:00:16.820 --> 00:00:16.830 align:start position:0%
+p1 here is set when r2 is 0 when R 2 is
+ 
+
+00:00:16.830 --> 00:00:17.450 align:start position:0%
+p1 here is set when r2 is 0 when R 2 is
+0
+
+00:00:17.450 --> 00:00:17.460 align:start position:0%
+0
+ 
+
+00:00:17.460 --> 00:00:20.540 align:start position:0%
+0
+we<00:00:18.330><c> branch</c><00:00:18.660><c> to</c><00:00:18.930><c> the</c><00:00:18.960><c> else</c><00:00:19.260><c> part</c><00:00:19.710><c> so</c><00:00:20.010><c> this</c><00:00:20.279><c> is</c>
+
+00:00:20.540 --> 00:00:20.550 align:start position:0%
+we branch to the else part so this is
+ 
+
+00:00:20.550 --> 00:00:24.170 align:start position:0%
+we branch to the else part so this is
+what<00:00:20.789><c> gets</c><00:00:21.060><c> done</c><00:00:21.300><c> if</c><00:00:21.539><c> r2</c><00:00:21.869><c> is</c><00:00:22.080><c> 0</c><00:00:23.119><c> that</c><00:00:24.119><c> means</c>
+
+00:00:24.170 --> 00:00:24.180 align:start position:0%
+what gets done if r2 is 0 that means
+ 
+
+00:00:24.180 --> 00:00:29.480 align:start position:0%
+what gets done if r2 is 0 that means
+that<00:00:24.779><c> we</c><00:00:25.439><c> do</c><00:00:25.650><c> this</c><00:00:25.890><c> when</c><00:00:26.609><c> p1</c><00:00:27.090><c> is</c><00:00:27.359><c> true</c><00:00:27.689><c> and</c><00:00:28.490><c> then</c>
+
+00:00:29.480 --> 00:00:29.490 align:start position:0%
+that we do this when p1 is true and then
+ 
+
+00:00:29.490 --> 00:00:31.970 align:start position:0%
+that we do this when p1 is true and then
+of<00:00:29.670><c> course</c><00:00:29.699><c> we</c><00:00:30.449><c> do</c><00:00:30.630><c> this</c><00:00:30.869><c> when</c><00:00:31.320><c> it's</c><00:00:31.349><c> not</c><00:00:31.710><c> true</c>
+
+00:00:31.970 --> 00:00:31.980 align:start position:0%
+of course we do this when it's not true
+ 
+
+00:00:31.980 --> 00:00:35.209 align:start position:0%
+of course we do this when it's not true
+the<00:00:32.969><c> next</c><00:00:33.360><c> part</c><00:00:33.600><c> that</c><00:00:33.660><c> we</c><00:00:33.870><c> want</c><00:00:33.899><c> to</c><00:00:34.170><c> do</c><00:00:34.320><c> is</c><00:00:34.649><c> when</c>
+
+00:00:35.209 --> 00:00:35.219 align:start position:0%
+the next part that we want to do is when
+ 
+
+00:00:35.219 --> 00:00:37.220 align:start position:0%
+the next part that we want to do is when
+should<00:00:35.489><c> we</c><00:00:35.640><c> do</c><00:00:35.820><c> the</c><00:00:36.059><c> if</c><00:00:36.180><c> conversion</c><00:00:36.630><c> so</c><00:00:37.020><c> what</c>
+
+00:00:37.220 --> 00:00:37.230 align:start position:0%
+should we do the if conversion so what
+ 
+
+00:00:37.230 --> 00:00:39.799 align:start position:0%
+should we do the if conversion so what
+needs<00:00:37.500><c> to</c><00:00:37.590><c> be</c><00:00:37.800><c> the</c><00:00:37.950><c> accuracy</c><00:00:38.250><c> here</c><00:00:38.809><c> let's</c>
+
+00:00:39.799 --> 00:00:39.809 align:start position:0%
+needs to be the accuracy here let's
+ 
+
+00:00:39.809 --> 00:00:41.569 align:start position:0%
+needs to be the accuracy here let's
+first<00:00:40.079><c> see</c><00:00:40.230><c> how</c><00:00:40.530><c> many</c><00:00:40.739><c> instructions</c><00:00:41.399><c> we</c><00:00:41.550><c> have</c>
+
+00:00:41.569 --> 00:00:41.579 align:start position:0%
+first see how many instructions we have
+ 
+
+00:00:41.579 --> 00:00:43.850 align:start position:0%
+first see how many instructions we have
+in<00:00:41.940><c> each</c><00:00:42.059><c> of</c><00:00:42.270><c> these</c><00:00:42.420><c> here</c><00:00:43.260><c> we</c><00:00:43.410><c> have</c><00:00:43.590><c> 3</c>
+
+00:00:43.850 --> 00:00:43.860 align:start position:0%
+in each of these here we have 3
+ 
+
+00:00:43.860 --> 00:00:47.150 align:start position:0%
+in each of these here we have 3
+instructions<00:00:44.460><c> with</c><00:00:44.760><c> the</c><00:00:44.789><c> CPI</c><00:00:45.270><c> of</c><00:00:45.329><c> 0.5</c><00:00:46.289><c> this</c>
+
+00:00:47.150 --> 00:00:47.160 align:start position:0%
+instructions with the CPI of 0.5 this
+ 
+
+00:00:47.160 --> 00:00:49.910 align:start position:0%
+instructions with the CPI of 0.5 this
+always<00:00:47.730><c> takes</c><00:00:48.030><c> us</c><00:00:48.210><c> one</c><00:00:49.020><c> point</c><00:00:49.320><c> five</c><00:00:49.590><c> cycles</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+always takes us one point five cycles
+ 
+
+00:00:49.920 --> 00:00:51.560 align:start position:0%
+always takes us one point five cycles
+assuming<00:00:50.610><c> that</c><00:00:50.760><c> there</c><00:00:50.879><c> are</c><00:00:51.000><c> other</c><00:00:51.210><c> things</c>
+
+00:00:51.560 --> 00:00:51.570 align:start position:0%
+assuming that there are other things
+ 
+
+00:00:51.570 --> 00:00:53.060 align:start position:0%
+assuming that there are other things
+that<00:00:51.809><c> can</c><00:00:51.960><c> be</c><00:00:52.020><c> done</c><00:00:52.260><c> in</c><00:00:52.410><c> the</c><00:00:52.500><c> rest</c><00:00:52.680><c> of</c><00:00:52.920><c> the</c>
+
+00:00:53.060 --> 00:00:53.070 align:start position:0%
+that can be done in the rest of the
+ 
+
+00:00:53.070 --> 00:00:56.750 align:start position:0%
+that can be done in the rest of the
+cycle<00:00:53.280><c> here</c><00:00:54.180><c> when</c><00:00:54.870><c> this</c><00:00:55.110><c> branch</c><00:00:55.500><c> is</c><00:00:55.800><c> taken</c><00:00:56.129><c> we</c>
+
+00:00:56.750 --> 00:00:56.760 align:start position:0%
+cycle here when this branch is taken we
+ 
+
+00:00:56.760 --> 00:00:59.270 align:start position:0%
+cycle here when this branch is taken we
+do<00:00:56.910><c> two</c><00:00:57.149><c> instructions</c><00:00:57.840><c> when</c><00:00:58.620><c> this</c><00:00:58.800><c> branch</c><00:00:59.100><c> is</c>
+
+00:00:59.270 --> 00:00:59.280 align:start position:0%
+do two instructions when this branch is
+ 
+
+00:00:59.280 --> 00:01:00.020 align:start position:0%
+do two instructions when this branch is
+not-taken
+
+00:01:00.020 --> 00:01:00.030 align:start position:0%
+not-taken
+ 
+
+00:01:00.030 --> 00:01:02.630 align:start position:0%
+not-taken
+we<00:01:00.239><c> do</c><00:01:00.390><c> three</c><00:01:00.660><c> instructions</c><00:01:01.289><c> so</c><00:01:02.190><c> let's</c><00:01:02.430><c> split</c>
+
+00:01:02.630 --> 00:01:02.640 align:start position:0%
+we do three instructions so let's split
+ 
+
+00:01:02.640 --> 00:01:04.520 align:start position:0%
+we do three instructions so let's split
+the<00:01:02.850><c> difference</c><00:01:02.879><c> and</c><00:01:03.570><c> say</c><00:01:03.809><c> that</c><00:01:04.140><c> on</c><00:01:04.320><c> average</c>
+
+00:01:04.520 --> 00:01:04.530 align:start position:0%
+the difference and say that on average
+ 
+
+00:01:04.530 --> 00:01:08.840 align:start position:0%
+the difference and say that on average
+we<00:01:04.949><c> do</c><00:01:05.100><c> 2.5</c><00:01:05.820><c> instructions</c><00:01:06.510><c> at</c><00:01:06.869><c> the</c><00:01:07.380><c> CPI</c><00:01:07.950><c> of</c><00:01:08.010><c> 0.5</c>
+
+00:01:08.840 --> 00:01:08.850 align:start position:0%
+we do 2.5 instructions at the CPI of 0.5
+ 
+
+00:01:08.850 --> 00:01:10.690 align:start position:0%
+we do 2.5 instructions at the CPI of 0.5
+that<00:01:09.299><c> means</c><00:01:09.510><c> that</c><00:01:09.689><c> without</c><00:01:10.080><c> a</c><00:01:10.110><c> misprediction</c>
+
+00:01:10.690 --> 00:01:10.700 align:start position:0%
+that means that without a misprediction
+ 
+
+00:01:10.700 --> 00:01:16.520 align:start position:0%
+that means that without a misprediction
+we<00:01:11.700><c> get</c><00:01:13.040><c> 1.25</c><00:01:14.040><c> cycles</c><00:01:14.700><c> a</c><00:01:14.960><c> misprediction</c><00:01:15.960><c> adds</c>
+
+00:01:16.520 --> 00:01:16.530 align:start position:0%
+we get 1.25 cycles a misprediction adds
+ 
+
+00:01:16.530 --> 00:01:21.469 align:start position:0%
+we get 1.25 cycles a misprediction adds
+10<00:01:17.130><c> cycles</c><00:01:17.759><c> these</c><00:01:18.689><c> two</c><00:01:19.110><c> perform</c><00:01:19.950><c> equally</c><00:01:20.580><c> when</c>
+
+00:01:21.469 --> 00:01:21.479 align:start position:0%
+10 cycles these two perform equally when
+ 
+
+00:01:21.479 --> 00:01:25.700 align:start position:0%
+10 cycles these two perform equally when
+the<00:01:21.630><c> cost</c><00:01:21.960><c> of</c><00:01:22.259><c> mispredictions</c><00:01:23.220><c> here</c><00:01:23.729><c> is</c><00:01:24.710><c> 0.25</c>
+
+00:01:25.700 --> 00:01:25.710 align:start position:0%
+the cost of mispredictions here is 0.25
+ 
+
+00:01:25.710 --> 00:01:29.270 align:start position:0%
+the cost of mispredictions here is 0.25
+cycles<00:01:26.610><c> per</c><00:01:26.790><c> branch</c><00:01:27.500><c> so</c><00:01:28.500><c> pretty</c><00:01:28.740><c> much</c><00:01:28.950><c> the</c>
+
+00:01:29.270 --> 00:01:29.280 align:start position:0%
+cycles per branch so pretty much the
+ 
+
+00:01:29.280 --> 00:01:31.460 align:start position:0%
+cycles per branch so pretty much the
+difference<00:01:29.700><c> between</c><00:01:30.060><c> these</c><00:01:30.180><c> two</c><00:01:30.360><c> is</c><00:01:30.470><c> 0.25</c>
+
+00:01:31.460 --> 00:01:31.470 align:start position:0%
+difference between these two is 0.25
+ 
+
+00:01:31.470 --> 00:01:34.609 align:start position:0%
+difference between these two is 0.25
+cycles<00:01:32.090><c> so</c><00:01:33.090><c> on</c><00:01:33.210><c> average</c><00:01:33.450><c> we</c><00:01:33.990><c> can</c><00:01:34.170><c> lose</c><00:01:34.350><c> this</c>
+
+00:01:34.609 --> 00:01:34.619 align:start position:0%
+cycles so on average we can lose this
+ 
+
+00:01:34.619 --> 00:01:38.090 align:start position:0%
+cycles so on average we can lose this
+much<00:01:34.979><c> to</c><00:01:35.490><c> get</c><00:01:35.700><c> this</c><00:01:35.880><c> to</c><00:01:36.060><c> be</c><00:01:36.090><c> equal</c><00:01:36.680><c> the</c><00:01:37.680><c> penalty</c>
+
+00:01:38.090 --> 00:01:38.100 align:start position:0%
+much to get this to be equal the penalty
+ 
+
+00:01:38.100 --> 00:01:40.030 align:start position:0%
+much to get this to be equal the penalty
+for<00:01:38.220><c> a</c><00:01:38.280><c> single</c><00:01:38.640><c> misprediction</c><00:01:39.150><c> is</c><00:01:39.270><c> 10</c><00:01:39.630><c> cycles</c>
+
+00:01:40.030 --> 00:01:40.040 align:start position:0%
+for a single misprediction is 10 cycles
+ 
+
+00:01:40.040 --> 00:01:44.030 align:start position:0%
+for a single misprediction is 10 cycles
+if<00:01:41.040><c> we</c><00:01:41.340><c> can</c><00:01:41.520><c> lose</c><00:01:41.729><c> only</c><00:01:42.170><c> 0.25</c><00:01:43.170><c> cycles</c><00:01:43.740><c> per</c>
+
+00:01:44.030 --> 00:01:44.040 align:start position:0%
+if we can lose only 0.25 cycles per
+ 
+
+00:01:44.040 --> 00:01:47.870 align:start position:0%
+if we can lose only 0.25 cycles per
+branch<00:01:44.570><c> that</c><00:01:45.570><c> means</c><00:01:45.960><c> that</c><00:01:46.290><c> only</c><00:01:46.530><c> one</c><00:01:46.710><c> in</c><00:01:47.189><c> 40</c>
+
+00:01:47.870 --> 00:01:47.880 align:start position:0%
+branch that means that only one in 40
+ 
+
+00:01:47.880 --> 00:01:51.109 align:start position:0%
+branch that means that only one in 40
+branches<00:01:48.659><c> can</c><00:01:48.869><c> be</c><00:01:48.930><c> mispredicted</c><00:01:49.860><c> one</c><00:01:50.520><c> in</c><00:01:50.759><c> fort</c>
+
+00:01:51.109 --> 00:01:51.119 align:start position:0%
+branches can be mispredicted one in fort
+ 
+
+00:01:51.119 --> 00:01:54.920 align:start position:0%
+branches can be mispredicted one in fort
+is<00:01:51.299><c> 2.5%</c><00:01:52.670><c> that</c><00:01:53.670><c> means</c><00:01:54.000><c> that</c><00:01:54.270><c> our</c><00:01:54.450><c> correct</c>
+
+00:01:54.920 --> 00:01:54.930 align:start position:0%
+is 2.5% that means that our correct
+ 
+
+00:01:54.930 --> 00:02:00.649 align:start position:0%
+is 2.5% that means that our correct
+prediction<00:01:55.560><c> needs</c><00:01:55.770><c> to</c><00:01:55.979><c> be</c><00:01:56.130><c> at</c><00:01:56.310><c> least</c><00:01:58.280><c> 97.5%</c><00:01:59.659><c> to</c>
+
+00:02:00.649 --> 00:02:00.659 align:start position:0%
+prediction needs to be at least 97.5% to
+ 
+
+00:02:00.659 --> 00:02:03.319 align:start position:0%
+prediction needs to be at least 97.5% to
+not<00:02:00.930><c> do</c><00:02:01.229><c> the</c><00:02:01.500><c> if</c><00:02:01.560><c> conversion</c><00:02:02.040><c> if</c><00:02:02.759><c> the</c><00:02:03.030><c> correct</c>
+
+00:02:03.319 --> 00:02:03.329 align:start position:0%
+not do the if conversion if the correct
+ 
+
+00:02:03.329 --> 00:02:05.240 align:start position:0%
+not do the if conversion if the correct
+prediction<00:02:03.810><c> rate</c><00:02:03.960><c> is</c><00:02:04.170><c> less</c><00:02:04.469><c> than</c><00:02:04.740><c> this</c><00:02:04.950><c> then</c>
+
+00:02:05.240 --> 00:02:05.250 align:start position:0%
+prediction rate is less than this then
+ 
+
+00:02:05.250 --> 00:02:09.890 align:start position:0%
+prediction rate is less than this then
+we<00:02:05.939><c> are</c><00:02:06.060><c> better</c><00:02:06.240><c> off</c><00:02:06.630><c> with</c><00:02:07.259><c> if</c><00:02:07.439><c> conversion</c>
+

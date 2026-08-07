@@ -1,0 +1,20 @@
+1
+00:00:00,750 --> 00:00:03,475
+ Let's check that you understand the basic definition of work and
+
+2
+00:00:03,475 --> 00:00:05,520
+ span before we move on.
+
+3
+00:00:05,520 --> 00:00:08,660
+ So here's a graph what's the work and what's the span?
+
+4
+00:00:08,660 --> 00:00:11,280
+ Go ahead and put your answers in these two boxes.
+
+5
+00:00:11,280 --> 00:00:11,280
+ And were looking for the actual values so type and integer.
+

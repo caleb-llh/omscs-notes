@@ -1,0 +1,64 @@
+1
+00:00:00,180 --> 00:00:02,530
+ Here are the claims that are definitely true.
+
+2
+00:00:02,530 --> 00:00:04,880
+ The adoption step is pointer jumping.
+
+3
+00:00:04,880 --> 00:00:06,320
+ Wee!
+
+4
+00:00:06,320 --> 00:00:09,210
+ However, the method is not work optimal.
+
+5
+00:00:09,210 --> 00:00:12,340
+ This outer loop of log n iterations is the root of the problem.
+
+6
+00:00:12,340 --> 00:00:13,960
+ No pun intended.
+
+7
+00:00:13,960 --> 00:00:16,790
+ That pun was obviously intended.
+
+8
+00:00:16,790 --> 00:00:18,440
+ What about the span?
+
+9
+00:00:18,440 --> 00:00:20,680
+ Well the span is polylogarithmic.
+
+10
+00:00:20,680 --> 00:00:23,180
+ This outer sequential loop is polylogrythmic and
+
+11
+00:00:23,180 --> 00:00:26,830
+ the parallel four loops of adopt are polylogrythmic.
+
+12
+00:00:26,830 --> 00:00:31,400
+ Now what about this claim, works on a forest, not just one tree.
+
+13
+00:00:31,400 --> 00:00:34,330
+ That is in fact a feature of the algorithm.
+
+14
+00:00:34,330 --> 00:00:37,920
+ An array pool might contain a forest rather than a single tree.
+
+15
+00:00:37,920 --> 00:00:42,280
+ So this procedure would make every node point to the root of it's own tree.
+
+16
+00:00:42,280 --> 00:00:42,280
+ That's kind of neat.
+

@@ -1,0 +1,592 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.629 align:start position:0%
+ 
+we<00:00:00.240><c> can</c><00:00:00.450><c> improve</c><00:00:00.840><c> the</c><00:00:01.530><c> overall</c><00:00:01.560><c> hit</c><00:00:02.100><c> latency</c>
+
+00:00:02.629 --> 00:00:02.639 align:start position:0%
+we can improve the overall hit latency
+ 
+
+00:00:02.639 --> 00:00:04.999 align:start position:0%
+we can improve the overall hit latency
+of<00:00:02.669><c> the</c><00:00:02.760><c> cache</c><00:00:03.090><c> using</c><00:00:03.990><c> a</c><00:00:04.170><c> virtually</c><00:00:04.799><c> accessed</c>
+
+00:00:04.999 --> 00:00:05.009 align:start position:0%
+of the cache using a virtually accessed
+ 
+
+00:00:05.009 --> 00:00:08.120 align:start position:0%
+of the cache using a virtually accessed
+cache<00:00:05.549><c> in</c><00:00:06.150><c> that</c><00:00:06.450><c> case</c><00:00:06.750><c> the</c><00:00:07.440><c> virtual</c><00:00:07.950><c> address</c>
+
+00:00:08.120 --> 00:00:08.130 align:start position:0%
+cache in that case the virtual address
+ 
+
+00:00:08.130 --> 00:00:11.390 align:start position:0%
+cache in that case the virtual address
+is<00:00:08.760><c> what</c><00:00:09.150><c> we</c><00:00:09.360><c> use</c><00:00:09.540><c> to</c><00:00:09.870><c> access</c><00:00:10.590><c> the</c><00:00:10.650><c> cache</c><00:00:11.010><c> and</c>
+
+00:00:11.390 --> 00:00:11.400 align:start position:0%
+is what we use to access the cache and
+ 
+
+00:00:11.400 --> 00:00:15.079 align:start position:0%
+is what we use to access the cache and
+get<00:00:12.120><c> the</c><00:00:12.240><c> data</c><00:00:12.480><c> on</c><00:00:12.840><c> a</c><00:00:13.230><c> cache</c><00:00:13.650><c> miss</c><00:00:13.980><c> we</c><00:00:14.340><c> would</c>
+
+00:00:15.079 --> 00:00:15.089 align:start position:0%
+get the data on a cache miss we would
+ 
+
+00:00:15.089 --> 00:00:17.720 align:start position:0%
+get the data on a cache miss we would
+use<00:00:15.299><c> the</c><00:00:15.509><c> virtual</c><00:00:15.839><c> address</c><00:00:15.960><c> to</c><00:00:16.440><c> tell</c><00:00:17.400><c> us</c><00:00:17.550><c> what</c>
+
+00:00:17.720 --> 00:00:17.730 align:start position:0%
+use the virtual address to tell us what
+ 
+
+00:00:17.730 --> 00:00:20.000 align:start position:0%
+use the virtual address to tell us what
+the<00:00:17.850><c> physical</c><00:00:18.300><c> address</c><00:00:18.390><c> is</c><00:00:18.779><c> so</c><00:00:19.500><c> that</c><00:00:19.680><c> we</c><00:00:19.800><c> can</c>
+
+00:00:20.000 --> 00:00:20.010 align:start position:0%
+the physical address is so that we can
+ 
+
+00:00:20.010 --> 00:00:22.519 align:start position:0%
+the physical address is so that we can
+bring<00:00:20.220><c> data</c><00:00:20.430><c> into</c><00:00:20.699><c> our</c><00:00:20.850><c> cache</c><00:00:21.140><c> but</c><00:00:22.140><c> on</c><00:00:22.289><c> cache</c>
+
+00:00:22.519 --> 00:00:22.529 align:start position:0%
+bring data into our cache but on cache
+ 
+
+00:00:22.529 --> 00:00:25.340 align:start position:0%
+bring data into our cache but on cache
+hits<00:00:22.920><c> we</c><00:00:23.580><c> can</c><00:00:23.760><c> get</c><00:00:23.910><c> the</c><00:00:24.029><c> data</c><00:00:24.180><c> without</c><00:00:24.689><c> doing</c>
+
+00:00:25.340 --> 00:00:25.350 align:start position:0%
+hits we can get the data without doing
+ 
+
+00:00:25.350 --> 00:00:28.370 align:start position:0%
+hits we can get the data without doing
+the<00:00:25.650><c> TLB</c><00:00:26.039><c> access</c><00:00:26.189><c> at</c><00:00:26.580><c> all</c><00:00:26.789><c> so</c><00:00:27.510><c> the</c><00:00:27.689><c> advantages</c>
+
+00:00:28.370 --> 00:00:28.380 align:start position:0%
+the TLB access at all so the advantages
+ 
+
+00:00:28.380 --> 00:00:31.490 align:start position:0%
+the TLB access at all so the advantages
+of<00:00:28.619><c> this</c><00:00:29.369><c> virtually</c><00:00:30.359><c> accessed</c><00:00:30.480><c> cache</c><00:00:30.960><c> over</c>
+
+00:00:31.490 --> 00:00:31.500 align:start position:0%
+of this virtually accessed cache over
+ 
+
+00:00:31.500 --> 00:00:34.610 align:start position:0%
+of this virtually accessed cache over
+the<00:00:31.650><c> physically</c><00:00:32.189><c> accessed</c><00:00:32.579><c> one</c><00:00:32.790><c> are</c><00:00:33.210><c> that</c><00:00:34.050><c> the</c>
+
+00:00:34.610 --> 00:00:34.620 align:start position:0%
+the physically accessed one are that the
+ 
+
+00:00:34.620 --> 00:00:36.680 align:start position:0%
+the physically accessed one are that the
+overall<00:00:34.950><c> hit</c><00:00:35.160><c> time</c><00:00:35.399><c> is</c><00:00:35.579><c> just</c><00:00:36.059><c> the</c><00:00:36.180><c> cache</c><00:00:36.420><c> hit</c>
+
+00:00:36.680 --> 00:00:36.690 align:start position:0%
+overall hit time is just the cache hit
+ 
+
+00:00:36.690 --> 00:00:39.110 align:start position:0%
+overall hit time is just the cache hit
+time<00:00:36.750><c> with</c><00:00:37.380><c> no</c><00:00:37.559><c> TLB</c><00:00:38.010><c> latency</c><00:00:38.550><c> added</c><00:00:38.820><c> to</c><00:00:38.969><c> it</c>
+
+00:00:39.110 --> 00:00:39.120 align:start position:0%
+time with no TLB latency added to it
+ 
+
+00:00:39.120 --> 00:00:42.590 align:start position:0%
+time with no TLB latency added to it
+that's<00:00:39.930><c> nice</c><00:00:40.350><c> and</c><00:00:40.739><c> we</c><00:00:41.670><c> don't</c><00:00:41.879><c> need</c><00:00:42.030><c> the</c><00:00:42.210><c> TLB</c>
+
+00:00:42.590 --> 00:00:42.600 align:start position:0%
+that's nice and we don't need the TLB
+ 
+
+00:00:42.600 --> 00:00:44.119 align:start position:0%
+that's nice and we don't need the TLB
+access<00:00:42.750><c> on</c><00:00:43.079><c> cache</c><00:00:43.290><c> hit</c><00:00:43.530><c> so</c><00:00:43.680><c> we</c><00:00:43.800><c> can</c><00:00:43.950><c> save</c>
+
+00:00:44.119 --> 00:00:44.129 align:start position:0%
+access on cache hit so we can save
+ 
+
+00:00:44.129 --> 00:00:44.569 align:start position:0%
+access on cache hit so we can save
+energy
+
+00:00:44.569 --> 00:00:44.579 align:start position:0%
+energy
+ 
+
+00:00:44.579 --> 00:00:48.049 align:start position:0%
+energy
+we<00:00:45.270><c> like</c><00:00:45.510><c> that</c><00:00:46.140><c> tool</c><00:00:46.469><c> so</c><00:00:47.219><c> we</c><00:00:47.370><c> have</c><00:00:47.579><c> seen</c><00:00:47.820><c> that</c><00:00:48.000><c> a</c>
+
+00:00:48.049 --> 00:00:48.059 align:start position:0%
+we like that tool so we have seen that a
+ 
+
+00:00:48.059 --> 00:00:50.209 align:start position:0%
+we like that tool so we have seen that a
+virtually<00:00:48.600><c> accessed</c><00:00:48.719><c> cache</c><00:00:49.230><c> has</c><00:00:49.829><c> the</c><00:00:50.039><c> hit</c>
+
+00:00:50.209 --> 00:00:50.219 align:start position:0%
+virtually accessed cache has the hit
+ 
+
+00:00:50.219 --> 00:00:51.650 align:start position:0%
+virtually accessed cache has the hit
+time<00:00:50.430><c> that</c><00:00:50.610><c> is</c><00:00:50.730><c> just</c><00:00:51.000><c> the</c><00:00:51.120><c> cache</c><00:00:51.360><c> hit</c><00:00:51.600><c> time</c>
+
+00:00:51.650 --> 00:00:51.660 align:start position:0%
+time that is just the cache hit time
+ 
+
+00:00:51.660 --> 00:00:53.660 align:start position:0%
+time that is just the cache hit time
+because<00:00:52.559><c> we</c><00:00:52.710><c> use</c><00:00:52.829><c> the</c><00:00:52.980><c> virtual</c><00:00:53.100><c> address</c><00:00:53.309><c> to</c>
+
+00:00:53.660 --> 00:00:53.670 align:start position:0%
+because we use the virtual address to
+ 
+
+00:00:53.670 --> 00:00:57.350 align:start position:0%
+because we use the virtual address to
+access<00:00:53.969><c> the</c><00:00:54.300><c> cache</c><00:00:54.510><c> and</c><00:00:55.430><c> because</c><00:00:56.430><c> of</c><00:00:56.640><c> that</c><00:00:56.760><c> we</c>
+
+00:00:57.350 --> 00:00:57.360 align:start position:0%
+access the cache and because of that we
+ 
+
+00:00:57.360 --> 00:00:58.099 align:start position:0%
+access the cache and because of that we
+get<00:00:57.539><c> the</c><00:00:57.660><c> data</c>
+
+00:00:58.099 --> 00:00:58.109 align:start position:0%
+get the data
+ 
+
+00:00:58.109 --> 00:00:59.869 align:start position:0%
+get the data
+even<00:00:58.469><c> without</c><00:00:58.590><c> address</c><00:00:59.190><c> translation</c><00:00:59.730><c> on</c><00:00:59.850><c> a</c>
+
+00:00:59.869 --> 00:00:59.879 align:start position:0%
+even without address translation on a
+ 
+
+00:00:59.879 --> 00:01:02.000 align:start position:0%
+even without address translation on a
+cache<00:01:00.149><c> hit</c><00:01:00.180><c> so</c><00:01:00.780><c> we</c><00:01:00.930><c> can</c><00:01:01.109><c> only</c><00:01:01.260><c> access</c><00:01:01.559><c> the</c><00:01:01.859><c> TLB</c>
+
+00:01:02.000 --> 00:01:02.010 align:start position:0%
+cache hit so we can only access the TLB
+ 
+
+00:01:02.010 --> 00:01:05.329 align:start position:0%
+cache hit so we can only access the TLB
+on<00:01:02.489><c> a</c><00:01:02.550><c> Miss</c><00:01:03.329><c> which</c><00:01:03.870><c> saves</c><00:01:04.170><c> us</c><00:01:04.379><c> TLB</c><00:01:04.830><c> misses</c><00:01:05.040><c> and</c>
+
+00:01:05.329 --> 00:01:05.339 align:start position:0%
+on a Miss which saves us TLB misses and
+ 
+
+00:01:05.339 --> 00:01:07.969 align:start position:0%
+on a Miss which saves us TLB misses and
+saves<00:01:05.549><c> energy</c><00:01:06.000><c> which</c><00:01:06.479><c> is</c><00:01:06.630><c> also</c><00:01:06.810><c> nice</c><00:01:07.080><c> so</c><00:01:07.890><c> it</c>
+
+00:01:07.969 --> 00:01:07.979 align:start position:0%
+saves energy which is also nice so it
+ 
+
+00:01:07.979 --> 00:01:09.350 align:start position:0%
+saves energy which is also nice so it
+looks<00:01:08.189><c> like</c><00:01:08.250><c> the</c><00:01:08.490><c> virtual</c><00:01:08.640><c> access</c><00:01:09.000><c> cache</c>
+
+00:01:09.350 --> 00:01:09.360 align:start position:0%
+looks like the virtual access cache
+ 
+
+00:01:09.360 --> 00:01:12.109 align:start position:0%
+looks like the virtual access cache
+would<00:01:09.689><c> win</c><00:01:09.960><c> every</c><00:01:10.110><c> time</c><00:01:10.470><c> so</c><00:01:10.890><c> why</c><00:01:11.100><c> are</c><00:01:11.820><c> we</c><00:01:12.030><c> even</c>
+
+00:01:12.109 --> 00:01:12.119 align:start position:0%
+would win every time so why are we even
+ 
+
+00:01:12.119 --> 00:01:14.390 align:start position:0%
+would win every time so why are we even
+considering<00:01:12.750><c> physically</c><00:01:13.439><c> access</c><00:01:13.740><c> caches</c>
+
+00:01:14.390 --> 00:01:14.400 align:start position:0%
+considering physically access caches
+ 
+
+00:01:14.400 --> 00:01:17.810 align:start position:0%
+considering physically access caches
+well<00:01:14.729><c> first</c><00:01:15.119><c> of</c><00:01:15.299><c> all</c><00:01:15.479><c> the</c><00:01:16.200><c> TLB</c><00:01:16.740><c> in</c><00:01:17.250><c> addition</c><00:01:17.729><c> to</c>
+
+00:01:17.810 --> 00:01:17.820 align:start position:0%
+well first of all the TLB in addition to
+ 
+
+00:01:17.820 --> 00:01:19.340 align:start position:0%
+well first of all the TLB in addition to
+containing<00:01:18.150><c> the</c><00:01:18.450><c> translation</c><00:01:19.049><c> for</c><00:01:19.259><c> the</c>
+
+00:01:19.340 --> 00:01:19.350 align:start position:0%
+containing the translation for the
+ 
+
+00:01:19.350 --> 00:01:21.499 align:start position:0%
+containing the translation for the
+physical<00:01:19.799><c> address</c><00:01:19.890><c> also</c><00:01:20.880><c> contains</c>
+
+00:01:21.499 --> 00:01:21.509 align:start position:0%
+physical address also contains
+ 
+
+00:01:21.509 --> 00:01:24.109 align:start position:0%
+physical address also contains
+permissions<00:01:22.229><c> that</c><00:01:23.159><c> we</c><00:01:23.369><c> need</c><00:01:23.580><c> to</c><00:01:23.880><c> tell</c><00:01:24.090><c> us</c>
+
+00:01:24.109 --> 00:01:24.119 align:start position:0%
+permissions that we need to tell us
+ 
+
+00:01:24.119 --> 00:01:25.850 align:start position:0%
+permissions that we need to tell us
+whether<00:01:24.390><c> we</c><00:01:24.630><c> are</c><00:01:24.750><c> allowed</c><00:01:25.020><c> to</c><00:01:25.049><c> read</c><00:01:25.470><c> or</c><00:01:25.710><c> write</c>
+
+00:01:25.850 --> 00:01:25.860 align:start position:0%
+whether we are allowed to read or write
+ 
+
+00:01:25.860 --> 00:01:29.030 align:start position:0%
+whether we are allowed to read or write
+or<00:01:25.920><c> execute</c><00:01:26.250><c> certain</c><00:01:27.060><c> pages</c><00:01:27.509><c> so</c><00:01:28.380><c> even</c><00:01:28.860><c> though</c>
+
+00:01:29.030 --> 00:01:29.040 align:start position:0%
+or execute certain pages so even though
+ 
+
+00:01:29.040 --> 00:01:31.160 align:start position:0%
+or execute certain pages so even though
+we<00:01:29.549><c> don't</c><00:01:29.820><c> need</c><00:01:29.970><c> a</c><00:01:30.030><c> physical</c><00:01:30.299><c> address</c><00:01:30.780><c> from</c>
+
+00:01:31.160 --> 00:01:31.170 align:start position:0%
+we don't need a physical address from
+ 
+
+00:01:31.170 --> 00:01:34.280 align:start position:0%
+we don't need a physical address from
+the<00:01:31.350><c> TLB</c><00:01:31.770><c> in</c><00:01:32.670><c> order</c><00:01:32.880><c> to</c><00:01:33.000><c> get</c><00:01:33.180><c> our</c><00:01:33.329><c> data</c><00:01:33.570><c> we</c>
+
+00:01:34.280 --> 00:01:34.290 align:start position:0%
+the TLB in order to get our data we
+ 
+
+00:01:34.290 --> 00:01:35.870 align:start position:0%
+the TLB in order to get our data we
+still<00:01:34.530><c> need</c><00:01:34.770><c> to</c><00:01:35.009><c> access</c><00:01:35.369><c> that</c><00:01:35.490><c> he</c><00:01:35.670><c> will</c><00:01:35.759><c> be</c>
+
+00:01:35.870 --> 00:01:35.880 align:start position:0%
+still need to access that he will be
+ 
+
+00:01:35.880 --> 00:01:37.789 align:start position:0%
+still need to access that he will be
+even<00:01:36.210><c> on</c><00:01:36.299><c> cache</c><00:01:36.570><c> hits</c><00:01:36.869><c> just</c><00:01:37.350><c> to</c><00:01:37.470><c> get</c><00:01:37.650><c> the</c>
+
+00:01:37.789 --> 00:01:37.799 align:start position:0%
+even on cache hits just to get the
+ 
+
+00:01:37.799 --> 00:01:39.920 align:start position:0%
+even on cache hits just to get the
+permissions<00:01:38.369><c> that</c><00:01:38.729><c> tell</c><00:01:38.970><c> us</c><00:01:39.119><c> whether</c><00:01:39.450><c> we</c><00:01:39.840><c> are</c>
+
+00:01:39.920 --> 00:01:39.930 align:start position:0%
+permissions that tell us whether we are
+ 
+
+00:01:39.930 --> 00:01:41.990 align:start position:0%
+permissions that tell us whether we are
+allowed<00:01:40.320><c> to</c><00:01:40.350><c> read</c><00:01:40.740><c> write</c><00:01:41.070><c> or</c><00:01:41.100><c> execute</c><00:01:41.549><c> that</c>
+
+00:01:41.990 --> 00:01:42.000 align:start position:0%
+allowed to read write or execute that
+ 
+
+00:01:42.000 --> 00:01:45.679 align:start position:0%
+allowed to read write or execute that
+location<00:01:42.649><c> so</c><00:01:43.649><c> this</c><00:01:44.100><c> advantage</c><00:01:44.820><c> really</c>
+
+00:01:45.679 --> 00:01:45.689 align:start position:0%
+location so this advantage really
+ 
+
+00:01:45.689 --> 00:01:47.690 align:start position:0%
+location so this advantage really
+doesn't<00:01:46.079><c> exist</c><00:01:46.409><c> in</c><00:01:46.619><c> real</c><00:01:46.770><c> processors</c><00:01:47.430><c> a</c>
+
+00:01:47.690 --> 00:01:47.700 align:start position:0%
+doesn't exist in real processors a
+ 
+
+00:01:47.700 --> 00:01:50.929 align:start position:0%
+doesn't exist in real processors a
+bigger<00:01:48.420><c> problem</c><00:01:48.810><c> is</c><00:01:49.439><c> that</c><00:01:50.159><c> the</c><00:01:50.490><c> virtual</c>
+
+00:01:50.929 --> 00:01:50.939 align:start position:0%
+bigger problem is that the virtual
+ 
+
+00:01:50.939 --> 00:01:53.630 align:start position:0%
+bigger problem is that the virtual
+address<00:01:51.060><c> is</c><00:01:51.799><c> specific</c><00:01:52.799><c> to</c><00:01:53.250><c> a</c><00:01:53.280><c> particular</c>
+
+00:01:53.630 --> 00:01:53.640 align:start position:0%
+address is specific to a particular
+ 
+
+00:01:53.640 --> 00:01:56.209 align:start position:0%
+address is specific to a particular
+process<00:01:54.570><c> so</c><00:01:55.259><c> if</c><00:01:55.350><c> we</c><00:01:55.470><c> were</c><00:01:55.619><c> running</c><00:01:55.799><c> one</c>
+
+00:01:56.209 --> 00:01:56.219 align:start position:0%
+process so if we were running one
+ 
+
+00:01:56.219 --> 00:01:58.100 align:start position:0%
+process so if we were running one
+process<00:01:56.700><c> and</c><00:01:56.880><c> filled</c><00:01:57.270><c> the</c><00:01:57.420><c> cache</c><00:01:57.659><c> with</c><00:01:57.930><c> its</c>
+
+00:01:58.100 --> 00:01:58.110 align:start position:0%
+process and filled the cache with its
+ 
+
+00:01:58.110 --> 00:02:00.230 align:start position:0%
+process and filled the cache with its
+data<00:01:58.380><c> once</c><00:01:59.100><c> we</c><00:01:59.250><c> begin</c><00:01:59.490><c> running</c><00:01:59.700><c> another</c>
+
+00:02:00.230 --> 00:02:00.240 align:start position:0%
+data once we begin running another
+ 
+
+00:02:00.240 --> 00:02:03.170 align:start position:0%
+data once we begin running another
+process<00:02:00.899><c> that</c><00:02:01.500><c> other</c><00:02:01.829><c> process</c><00:02:02.490><c> will</c><00:02:02.909><c> have</c>
+
+00:02:03.170 --> 00:02:03.180 align:start position:0%
+process that other process will have
+ 
+
+00:02:03.180 --> 00:02:04.940 align:start position:0%
+process that other process will have
+virtual<00:02:03.600><c> addresses</c><00:02:03.750><c> that</c><00:02:04.170><c> might</c><00:02:04.409><c> overlap</c>
+
+00:02:04.940 --> 00:02:04.950 align:start position:0%
+virtual addresses that might overlap
+ 
+
+00:02:04.950 --> 00:02:06.679 align:start position:0%
+virtual addresses that might overlap
+with<00:02:05.280><c> the</c><00:02:05.399><c> addresses</c><00:02:05.880><c> from</c><00:02:06.060><c> the</c><00:02:06.299><c> previous</c>
+
+00:02:06.679 --> 00:02:06.689 align:start position:0%
+with the addresses from the previous
+ 
+
+00:02:06.689 --> 00:02:08.809 align:start position:0%
+with the addresses from the previous
+process<00:02:07.200><c> but</c><00:02:07.920><c> they</c><00:02:08.099><c> should</c><00:02:08.310><c> be</c><00:02:08.429><c> going</c><00:02:08.580><c> to</c>
+
+00:02:08.809 --> 00:02:08.819 align:start position:0%
+process but they should be going to
+ 
+
+00:02:08.819 --> 00:02:12.260 align:start position:0%
+process but they should be going to
+different<00:02:09.300><c> data</c><00:02:10.039><c> pretty</c><00:02:11.039><c> much</c><00:02:11.310><c> in</c><00:02:11.790><c> the</c><00:02:11.970><c> TLB</c>
+
+00:02:12.260 --> 00:02:12.270 align:start position:0%
+different data pretty much in the TLB
+ 
+
+00:02:12.270 --> 00:02:13.940 align:start position:0%
+different data pretty much in the TLB
+there<00:02:12.690><c> would</c><00:02:12.840><c> be</c><00:02:12.870><c> different</c><00:02:13.410><c> translation</c>
+
+00:02:13.940 --> 00:02:13.950 align:start position:0%
+there would be different translation
+ 
+
+00:02:13.950 --> 00:02:16.699 align:start position:0%
+there would be different translation
+for<00:02:14.849><c> that</c><00:02:15.030><c> other</c><00:02:15.209><c> process</c><00:02:15.840><c> and</c><00:02:16.080><c> we</c><00:02:16.380><c> should</c><00:02:16.590><c> be</c>
+
+00:02:16.699 --> 00:02:16.709 align:start position:0%
+for that other process and we should be
+ 
+
+00:02:16.709 --> 00:02:18.470 align:start position:0%
+for that other process and we should be
+accessing<00:02:17.190><c> different</c><00:02:17.400><c> actual</c><00:02:18.150><c> memory</c>
+
+00:02:18.470 --> 00:02:18.480 align:start position:0%
+accessing different actual memory
+ 
+
+00:02:18.480 --> 00:02:21.440 align:start position:0%
+accessing different actual memory
+locations<00:02:18.989><c> because</c><00:02:19.709><c> our</c><00:02:20.220><c> cache</c><00:02:20.489><c> only</c><00:02:21.000><c> knows</c>
+
+00:02:21.440 --> 00:02:21.450 align:start position:0%
+locations because our cache only knows
+ 
+
+00:02:21.450 --> 00:02:23.990 align:start position:0%
+locations because our cache only knows
+about<00:02:21.480><c> virtual</c><00:02:22.170><c> addresses</c><00:02:22.349><c> in</c><00:02:22.770><c> this</c><00:02:22.920><c> case</c><00:02:23.160><c> we</c>
+
+00:02:23.990 --> 00:02:24.000 align:start position:0%
+about virtual addresses in this case we
+ 
+
+00:02:24.000 --> 00:02:26.360 align:start position:0%
+about virtual addresses in this case we
+now<00:02:24.180><c> need</c><00:02:24.450><c> to</c><00:02:24.660><c> flush</c><00:02:24.989><c> our</c><00:02:25.260><c> cache</c><00:02:25.530><c> meaning</c>
+
+00:02:26.360 --> 00:02:26.370 align:start position:0%
+now need to flush our cache meaning
+ 
+
+00:02:26.370 --> 00:02:29.000 align:start position:0%
+now need to flush our cache meaning
+remove<00:02:27.150><c> all</c><00:02:27.330><c> the</c><00:02:27.480><c> data</c><00:02:27.690><c> from</c><00:02:28.020><c> it</c><00:02:28.140><c> every</c><00:02:28.800><c> time</c>
+
+00:02:29.000 --> 00:02:29.010 align:start position:0%
+remove all the data from it every time
+ 
+
+00:02:29.010 --> 00:02:30.979 align:start position:0%
+remove all the data from it every time
+we<00:02:29.160><c> do</c><00:02:29.310><c> a</c><00:02:29.340><c> context</c><00:02:29.819><c> switch</c><00:02:29.910><c> once</c><00:02:30.720><c> we</c><00:02:30.900><c> are</c>
+
+00:02:30.979 --> 00:02:30.989 align:start position:0%
+we do a context switch once we are
+ 
+
+00:02:30.989 --> 00:02:32.900 align:start position:0%
+we do a context switch once we are
+switching<00:02:31.560><c> to</c><00:02:31.680><c> another</c><00:02:31.920><c> process</c><00:02:32.459><c> we</c><00:02:32.670><c> know</c>
+
+00:02:32.900 --> 00:02:32.910 align:start position:0%
+switching to another process we know
+ 
+
+00:02:32.910 --> 00:02:34.790 align:start position:0%
+switching to another process we know
+that<00:02:33.239><c> virtual</c><00:02:33.690><c> addresses</c><00:02:33.810><c> are</c><00:02:34.350><c> going</c><00:02:34.560><c> to</c><00:02:34.620><c> map</c>
+
+00:02:34.790 --> 00:02:34.800 align:start position:0%
+that virtual addresses are going to map
+ 
+
+00:02:34.800 --> 00:02:36.920 align:start position:0%
+that virtual addresses are going to map
+to<00:02:34.830><c> different</c><00:02:35.310><c> locations</c><00:02:35.940><c> so</c><00:02:36.480><c> what</c><00:02:36.630><c> we</c><00:02:36.750><c> have</c>
+
+00:02:36.920 --> 00:02:36.930 align:start position:0%
+to different locations so what we have
+ 
+
+00:02:36.930 --> 00:02:38.600 align:start position:0%
+to different locations so what we have
+to<00:02:37.110><c> do</c><00:02:37.230><c> is</c><00:02:37.350><c> get</c><00:02:37.530><c> rid</c><00:02:37.739><c> of</c><00:02:37.800><c> everything</c><00:02:38.190><c> we</c><00:02:38.430><c> have</c>
+
+00:02:38.600 --> 00:02:38.610 align:start position:0%
+to do is get rid of everything we have
+ 
+
+00:02:38.610 --> 00:02:41.059 align:start position:0%
+to do is get rid of everything we have
+in<00:02:38.760><c> the</c><00:02:38.880><c> cache</c><00:02:39.120><c> this</c><00:02:39.780><c> means</c><00:02:40.140><c> that</c><00:02:40.739><c> we</c><00:02:40.890><c> have</c><00:02:41.040><c> a</c>
+
+00:02:41.059 --> 00:02:41.069 align:start position:0%
+in the cache this means that we have a
+ 
+
+00:02:41.069 --> 00:02:43.580 align:start position:0%
+in the cache this means that we have a
+burst<00:02:41.400><c> of</c><00:02:41.670><c> cache</c><00:02:41.910><c> misses</c><00:02:42.180><c> every</c><00:02:42.870><c> time</c><00:02:43.110><c> we</c>
+
+00:02:43.580 --> 00:02:43.590 align:start position:0%
+burst of cache misses every time we
+ 
+
+00:02:43.590 --> 00:02:46.400 align:start position:0%
+burst of cache misses every time we
+switch<00:02:43.800><c> processes</c><00:02:44.840><c> processes</c><00:02:45.840><c> are</c><00:02:46.140><c> switched</c>
+
+00:02:46.400 --> 00:02:46.410 align:start position:0%
+switch processes processes are switched
+ 
+
+00:02:46.410 --> 00:02:48.440 align:start position:0%
+switch processes processes are switched
+once<00:02:46.860><c> every</c><00:02:47.220><c> millisecond</c><00:02:47.880><c> or</c><00:02:47.970><c> so</c><00:02:48.030><c> so</c><00:02:48.360><c> it</c>
+
+00:02:48.440 --> 00:02:48.450 align:start position:0%
+once every millisecond or so so it
+ 
+
+00:02:48.450 --> 00:02:50.930 align:start position:0%
+once every millisecond or so so it
+doesn't<00:02:48.780><c> sound</c><00:02:48.930><c> like</c><00:02:49.080><c> a</c><00:02:49.200><c> big</c><00:02:49.440><c> deal</c><00:02:49.709><c> but</c><00:02:50.700><c> keep</c>
+
+00:02:50.930 --> 00:02:50.940 align:start position:0%
+doesn't sound like a big deal but keep
+ 
+
+00:02:50.940 --> 00:02:52.940 align:start position:0%
+doesn't sound like a big deal but keep
+in<00:02:51.090><c> mind</c><00:02:51.120><c> that</c><00:02:51.450><c> the</c><00:02:51.540><c> cache</c><00:02:51.750><c> can</c><00:02:51.959><c> be</c><00:02:52.019><c> large</c><00:02:52.350><c> so</c>
+
+00:02:52.940 --> 00:02:52.950 align:start position:0%
+in mind that the cache can be large so
+ 
+
+00:02:52.950 --> 00:02:55.460 align:start position:0%
+in mind that the cache can be large so
+it<00:02:53.069><c> takes</c><00:02:53.310><c> a</c><00:02:53.459><c> lot</c><00:02:53.670><c> of</c><00:02:53.700><c> misses</c><00:02:54.269><c> to</c><00:02:54.930><c> bring</c><00:02:55.170><c> in</c><00:02:55.380><c> the</c>
+
+00:02:55.460 --> 00:02:55.470 align:start position:0%
+it takes a lot of misses to bring in the
+ 
+
+00:02:55.470 --> 00:03:00.319 align:start position:0%
+it takes a lot of misses to bring in the
+data<00:02:55.680><c> into</c><00:02:56.100><c> it</c><00:02:56.220><c> so</c><00:02:57.209><c> this</c><00:02:57.390><c> is</c><00:02:57.660><c> a</c><00:02:57.840><c> disadvantage</c>
+

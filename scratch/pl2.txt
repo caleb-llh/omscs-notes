@@ -1,0 +1,131 @@
+001|-nY-8shbqOo|Introduction - Georgia Tech - Advanced Operating Systems
+002|6E0bLlZhq68|Routing on the Internet - Georgia Tech - Advanced Operating Systems
+003|pV3YVncEwp0|An Example - Georgia Tech - Advanced Operating Systems
+004|8TKdsjd_HAo|How to Implement the Vision - Georgia Tech - Advanced Operating Systems
+005|ZKgQChNiwzY|ANTS Toolkit - Georgia Tech - Advanced Operating Systems
+006|9PvZIjEs2uE|ANTS Capsule and API - Georgia Tech - Advanced Operating Systems
+007|PbHe4V18KcA|Capsule Implementation - Georgia Tech - Advanced Operating Systems
+008|E-BapPglCl8|Potential Apps - Georgia Tech - Advanced Operating Systems
+009|CkUGlfuAkuY|Pros and Cons of Active Networks - Georgia Tech - Advanced Operating Systems
+010|d4ladkO2zVU|Roadblocks Quiz - Georgia Tech - Advanced Operating Systems
+011|gj8SEvEc8q8|Roadblocks Quiz Solution - Georgia Tech - Advanced Operating Systems
+012|oIwmkFTpo8o|Feasible - Georgia Tech - Advanced Operating Systems
+013|XkOpgZwzF1w|Conclusion - Georgia Tech - Advanced Operating Systems
+014|3pKfZb7cplY|Introduction - Georgia Tech - Advanced Operating Systems
+015|QTpdTk6wMDk|The Big Picture - Georgia Tech - Advanced Operating Systems
+016|WF9o7pvNvyM|Digging Deeper From Spec to Implementation - Georgia Tech - Advanced Operating Systems
+017|GNXQBNf4RP0|Digging Deeper From Spec to Implementation (cont) - Georgia Tech - Advanced Operating Systems
+018|6fE4LeGDVaI|Digging Deeper - Georgia Tech - Advanced Operating Systems
+019|toYrnwgJdZU|Putting the Methodology to Work - Georgia Tech - Advanced Operating Systems
+020|qFZIj9WPPUg|How to Optimize the Protocol Stack - Georgia Tech - Advanced Operating Systems
+021|Z0RWTiD_pHM|NuPrl to the Rescue - Georgia Tech - Advanced Operating Systems
+022|UtwGUDBZmvo|NuPrl to the Rescue (cont) - Georgia Tech - Advanced Operating Systems
+023|ORfwa0dxzcE|Conclusion - Georgia Tech - Advanced Operating Systems
+024|61f7BVQO6fY|Introduction - Georgia Tech - Advanced Operating Systems
+025|jxv0AOe4HQo|How to Innovate OS - Georgia Tech - Advanced Operating Systems
+026|Uks_t77_nyk|Object based vs Procedural Design - Georgia Tech - Advanced Operating Systems
+027|DS_idEsax-s|Spring Approach - Georgia Tech - Advanced Operating Systems
+028|nxkoYy7FOp8|Nucleus  Microkernel  of Spring - Georgia Tech - Advanced Operating Systems
+029|blYTia8r3s8|Object Invocation Across the Network - Georgia Tech - Advanced Operating Systems
+030|fcaUwpeKAoY|Secure Object Invocation - Georgia Tech - Advanced Operating Systems
+031|ufePW24Xs3c|Abstractions Quiz - Georgia Tech - Advanced Operating Systems
+032|Rs-sf1_NlwI|Abstractions Quiz Solution - Georgia Tech - Advanced Operating Systems
+033|DQCKCvmG9bE|Virtual Memory Management in Spring - Georgia Tech - Advanced Operating Systems
+034|cQIarsHiVW0|Memory Object Specific Paging - Georgia Tech - Advanced Operating Systems
+035|iVap5F4b-TE|Spring System Summary - Georgia Tech - Advanced Operating Systems
+036|FlQ8m9TQuNA|Dynamic Client Server Relationship - Georgia Tech - Advanced Operating Systems
+037|iW9-T8d4nFY|Subcontract - Georgia Tech - Advanced Operating Systems
+038|NxsgAAwO0kg|Subcontract Interface for Stubs - Georgia Tech - Advanced Operating Systems
+039|eV86JsLbPt8|Conclusion - Georgia Tech - Advanced Operating Systems
+040|6OiieeFFSCo|Introduction - Georgia Tech - Advanced Operating Systems
+041|rwFYdb1AUxA|Java Language Quiz - Georgia Tech - Advanced Operating Systems
+042|eCx87JRJ31s|Java Language Quiz Solution - Georgia Tech - Advanced Operating Systems
+043|i8eTe51yH1s|Java History - Georgia Tech - Advanced Operating Systems
+044|isg_qmXmcN0|Java Distributed Object Model - Georgia Tech - Advanced Operating Systems
+045|k6HIiBKqzXY|Bank Account Example - Georgia Tech - Advanced Operating Systems
+046|zscLpA14kR4|Reuse of Local Implementation - Georgia Tech - Advanced Operating Systems
+047|Reo3NO0XEuw|Reuse of  Remote - Georgia Tech - Advanced Operating Systems
+048|cxz4WfQoqvc|Implementation Preference Quiz - Georgia Tech - Advanced Operating Systems
+049|8BuSt6jYWss|Implementation Preference Quiz Solution - Georgia Tech - Advanced Operating Systems
+050|bvP_dNOUab8|Java RMI at Work (Server) - Georgia Tech - Advanced Operating Systems
+051|jrr3xtyShR8|Java RMI at Work (Client) - Georgia Tech - Advanced Operating Systems
+052|IsJnQgacCmY|RMI Implementation (RRL) - Georgia Tech - Advanced Operating Systems
+053|ASu4g8Q1dVc|RMI Implementation Transport - Georgia Tech - Advanced Operating Systems
+054|oYA5VHWxA9w|Conclusion - Georgia Tech - Advanced Operating Systems
+055|QCL4w7adhTI|Introduction - Georgia Tech - Advanced Operating Systems
+056|IXbsbljB9nQ|Inter Enterprise View - Georgia Tech - Advanced Operating Systems
+057|mmM7uxkXmRM|An Example - Georgia Tech - Advanced Operating Systems
+058|q4FOSgVj2bY|N Tier Applications - Georgia Tech - Advanced Operating Systems
+059|KCX_99G8LIo|Structuring N Tier Applications - Georgia Tech - Advanced Operating Systems
+060|0B3pK6EdhNY|Design Alternative  (Coarsegrain Session Beans) - Georgia Tech - Advanced Operating Systems
+061|Q0LEIo3rHfY|Design Alternative  (Data Access Object) - Georgia Tech - Advanced Operating Systems
+062|-lJxenRuzdc|Design Alternative  (Session Bean With Entity Bean) - Georgia Tech - Advanced Operating Systems
+063|JcW7DfUP4Lw|Conclusion - Georgia Tech - Advanced Operating Systems
+064|aashdwoAiog|Introduction - Georgia Tech - Advanced Operating Systems
+065|_vr032NsptA|Context for Global Memory System - Georgia Tech - Advanced Operating Systems
+066|rPfzjLGf10c|GSM Basics - Georgia Tech - Advanced Operating Systems
+067|Eqr0uY7Vcyw|Handling Page Faults Case 1 - Georgia Tech - Advanced Operating Systems
+068|P1C1Xfc47os|Handling Page Faults Case 2 - Georgia Tech - Advanced Operating Systems
+069|3Ntf9aca2Wg|Handling Page Faults Case 3 - Georgia Tech - Advanced Operating Systems
+070|EoRkwNRm1_I|Handling Page Faults Case 4 - Georgia Tech - Advanced Operating Systems
+071|pSPwStz_-Vk|Local and Global Boundary Quiz - Georgia Tech - Advanced Operating Systems
+072|MhlnNbYwaVY|Local and Global Boundary Quiz Solution - Georgia Tech - Advanced Operating Systems
+073|gDbXJzRhgKg|Behavior of Algorithm - Georgia Tech - Advanced Operating Systems
+074|bno_jrCle1U|Geriatrics! - Georgia Tech - Advanced Operating Systems
+075|op8Nzsikj1Y|Geriatrics! (cont) - Georgia Tech - Advanced Operating Systems
+076|ctifA6-wT-I|Implementation in Unix - Georgia Tech - Advanced Operating Systems
+077|n7rVwH2BhXU|Implementation in Unix (cont) - Georgia Tech - Advanced Operating Systems
+078|kruFrzusogA|Data Structures - Georgia Tech - Advanced Operating Systems
+079|bUKloID4VJQ|Data Structures (cont) - Georgia Tech - Advanced Operating Systems
+080|i-Njdn2r1kQ|Putting the Data Structures to Work - Georgia Tech - Advanced Operating Systems
+081|XPDuZ3OpBsI|Putting the Data Structures to Work (cont) - Georgia Tech - Advanced Operating Systems
+082|WumSP2BLj2A|Putting the Data Structures to work (cont) - Georgia Tech - Advanced Operating Systems
+083|jNjiBT3XRuE|Conclusion - Georgia Tech - Advanced Operating Systems
+084|E4TSFpP3cTU|Introduction - Georgia Tech - Advanced Operating Systems
+085|1JlFKgJ1bUg|Cluster as a Parallel Machine (Sequential Program) - Georgia Tech - Advanced Operating Systems
+086|2bY1PxhkBBE|Cluster as a Parallel Machine  (Message Passing) - Georgia Tech - Advanced Operating Systems
+087|6JpOgyJE0Lo|Cluster as a Parallel Machine (DSM) - Georgia Tech - Advanced Operating Systems
+088|nZQO1ZZun-0|History of Shared Memory Systems - Georgia Tech - Advanced Operating Systems
+089|dR8J5dfRN18|Shared Memory Programming - Georgia Tech - Advanced Operating Systems
+090|gwNqeQ_xeuk|Memory Consistency and Cache Coherence - Georgia Tech - Advanced Operating Systems
+091|AUxFuD_IfqA|Sequential Consistency - Georgia Tech - Advanced Operating Systems
+092|-Ra54awwdPU|SC Memory Model - Georgia Tech - Advanced Operating Systems
+093|yegWAZ3xuNg|Typical Parallel Program - Georgia Tech - Advanced Operating Systems
+094|6OLnU27wDb0|Release Consistency - Georgia Tech - Advanced Operating Systems
+095|NGYzoenFdTo|RC Memory Model - Georgia Tech - Advanced Operating Systems
+096|U7Hy6cASZ5A|An Example - Georgia Tech - Advanced Operating Systems
+097|0THhuHXujLM|Advantage of RC over SC - Georgia Tech - Advanced Operating Systems
+098|3gtnFYrWa_0|Lazy RC - Georgia Tech - Advanced Operating Systems
+099|ufGlXBAJ_Sc|Eager vs Lazy RC - Georgia Tech - Advanced Operating Systems
+100|55BbOqzD0wc|Pros and Cons of Lazy and Eager Quiz - Georgia Tech - Advanced Operating Systems
+101|vNTJnyGdYL0|Pros and Cons of Lazy and Eager Quiz Solution - Georgia Tech - Advanced Operating Systems
+102|gs9JSh-ASAs|Software DSM - Georgia Tech - Advanced Operating Systems
+103|KQ0uOalh7Og|Software DSM (cont) - Georgia Tech - Advanced Operating Systems
+104|rlOpX0zQ-KY|LRC with Multi Writer Coherence Protocol - Georgia Tech - Advanced Operating Systems
+105|PxfGU8jYO1c|LRC with Multi Writer Coherence Protocol (cont) - Georgia Tech - Advanced Operating Systems
+106|6dNg3u9hs_g|LRC with Multi Writer Coherence Protocol - Georgia Tech - Advanced Operating Systems
+107|z7eBssuIN3M|Implementation - Georgia Tech - Advanced Operating Systems
+108|7OmsncWHWTs|Implementation (cont) - Georgia Tech - Advanced Operating Systems
+109|Duxfpxnx6dA|Non Page Based DSM - Georgia Tech - Advanced Operating Systems
+110|LTVbD9_t4iE|Scalability - Georgia Tech - Advanced Operating Systems
+111|IffxZvPBAiY|DSM and Speedup - Georgia Tech - Advanced Operating Systems
+112|qVEMq_tl5Sk|Conclusion - Georgia Tech - Advanced Operating Systems
+113|z_UNXO7yaro|The First NFS Quiz - Georgia Tech - Advanced Operating Systems
+114|6ap7_kBQUb4|The First NFS Quiz Solution - Georgia Tech - Advanced Operating Systems
+115|wOQym_iOULE|NFS - Georgia Tech - Advanced Operating Systems
+116|0zRt8G366UU|DFS - Georgia Tech - Advanced Operating Systems
+117|RnGJP2Jue-M|Lesson Outline - Georgia Tech - Advanced Operating Systems
+118|nkparL88DwU|Preliminaries  (Striping a File to Multiple Disks) - Georgia Tech - Advanced Operating Systems
+119|TYqBtau0bYw|Preliminaries  (Log Structured File System) - Georgia Tech - Advanced Operating Systems
+120|0zVS1uc-was|Preliminaries  Software (RAID) - Georgia Tech - Advanced Operating Systems
+121|6dUoLbtVzgE|Putting Them All Together Plus More - Georgia Tech - Advanced Operating Systems
+122|tqcwbmqit28|Dynamic Management - Georgia Tech - Advanced Operating Systems
+123|8frZlXnOQ1M|Log Based Striping and Stripe Groups - Georgia Tech - Advanced Operating Systems
+124|ZIGt_eYrXCw|Stripe Group - Georgia Tech - Advanced Operating Systems
+125|Z8eZWQsnv1w|Cooperative Caching - Georgia Tech - Advanced Operating Systems
+126|xyalTQzbdUw|Log Cleaning - Georgia Tech - Advanced Operating Systems
+127|nOWVTd15s3k|Unix File System - Georgia Tech - Advanced Operating Systems
+128|hEXucD9Y4Os|XFS Data Structures - Georgia Tech - Advanced Operating Systems
+129|w2qnPh3WoU4|Client Reading a File  Own Cache - Georgia Tech - Advanced Operating Systems
+130|AlyCFhQSlDM|Client Writing a File - Georgia Tech - Advanced Operating Systems
+131|OXpHysDmEYM|Conclusion - Georgia Tech - Advanced Operating Systems

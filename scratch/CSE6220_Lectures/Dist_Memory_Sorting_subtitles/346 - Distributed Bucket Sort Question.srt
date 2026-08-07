@@ -1,0 +1,92 @@
+1
+00:00:00,300 --> 00:00:03,680
+ Other than being linear time, the nice thing about bucket sort is that it's
+
+2
+00:00:03,680 --> 00:00:06,710
+ easy to distribute, at least in principle.
+
+3
+00:00:06,710 --> 00:00:09,170
+ Just assign each bucket to a compute node,
+
+4
+00:00:09,170 --> 00:00:12,620
+ assuming you have say k = p of them.
+
+5
+00:00:12,620 --> 00:00:15,505
+ Now let's assume that the n input elements are also
+
+6
+00:00:15,505 --> 00:00:17,965
+ equally distributed among these nodes.
+
+7
+00:00:17,965 --> 00:00:21,915
+ Then you'd expect there to be about n over p elements per node.
+
+8
+00:00:21,915 --> 00:00:26,972
+ Lastly, let's also assume that all the nodes know all of the bucket ranges.
+
+9
+00:00:26,972 --> 00:00:28,422
+ Here's my question.
+
+10
+00:00:28,422 --> 00:00:31,722
+ What is the running time of a distributed bucket sort in a big O
+
+11
+00:00:31,722 --> 00:00:32,782
+ sense?
+
+12
+00:00:32,782 --> 00:00:37,262
+ By our usual conventions, let tau be the time to do a comparison or
+
+13
+00:00:37,262 --> 00:00:41,422
+ some other local work, and let alpha and beta be the latency and
+
+14
+00:00:41,422 --> 00:00:43,642
+ per word messaging costs.
+
+15
+00:00:43,642 --> 00:00:45,262
+ I want you to put your answer here.
+
+16
+00:00:45,262 --> 00:00:50,070
+ And I'm looking for something of the form tau times something + alpha
+
+17
+00:00:50,070 --> 00:00:54,300
+ times something + beta times something.
+
+18
+00:00:54,300 --> 00:00:56,640
+ Now since I haven't given you a specific algorithm,
+
+19
+00:00:56,640 --> 00:01:00,390
+ you might feel the need to explain the answer you come up with.
+
+20
+00:01:00,390 --> 00:01:02,720
+ So for that purpose, here's an extra little box.
+
+21
+00:01:02,720 --> 00:01:05,019
+ Use that box to explain your reasoning.
+
+22
+00:01:05,019 --> 00:01:07,500
+ Or if you're stuck and you just don't feel like explaining your reasoning,
+
+23
+00:01:07,500 --> 00:01:07,500
+ you can also use this box to vent about your boss or your frenemies.
+

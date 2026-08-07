@@ -1,0 +1,44 @@
+1
+00:00:00,390 --> 00:00:03,270
+ The answer is that the span is actually linear.
+
+2
+00:00:03,270 --> 00:00:04,620
+ Can you see why?
+
+3
+00:00:04,620 --> 00:00:10,030
+ Now with respect to our holy grail of poly log span, this is terrible news.
+
+4
+00:00:10,030 --> 00:00:14,277
+ To see why the answer is linear time, let's look at how the dag unfolds.
+
+5
+00:00:14,277 --> 00:00:17,302
+ Now although you create a new path for each iteration,
+
+6
+00:00:17,302 --> 00:00:21,000
+ you actually execute the spawns one after another sequentially.
+
+7
+00:00:21,000 --> 00:00:25,510
+ Thus, you've actually created a sequential bottleneck in the dag.
+
+8
+00:00:25,510 --> 00:00:28,780
+ Now if it happened to be the case that calling foo was super expensive,
+
+9
+00:00:28,780 --> 00:00:31,040
+ you might not notice this for a while.
+
+10
+00:00:31,040 --> 00:00:33,920
+ But since we asked you to assume that foo's cost with a constant,
+
+11
+00:00:33,920 --> 00:00:33,920
+ the fact that the span grows with n is bad.
+

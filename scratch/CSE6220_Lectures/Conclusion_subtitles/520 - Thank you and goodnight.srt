@@ -1,0 +1,80 @@
+1
+00:00:00,470 --> 00:00:03,330
+ I'd really like to give big hugs to all the people who made this
+
+2
+00:00:03,330 --> 00:00:04,430
+ course possible.
+
+3
+00:00:04,430 --> 00:00:07,800
+ That of course includes the whole production team, especially Amanda,
+
+4
+00:00:07,800 --> 00:00:10,710
+ Catherine, and Morgan, as well as Charlie and Robert for
+
+5
+00:00:10,710 --> 00:00:12,790
+ their work on the mini projects.
+
+6
+00:00:12,790 --> 00:00:16,570
+ All these good people deserve credit for the really good parts of the class, and
+
+7
+00:00:16,570 --> 00:00:21,290
+ none of the blame for the less good parts, which of course falls on moi.
+
+8
+00:00:21,290 --> 00:00:24,940
+ And finally, I want to thank serial computers everywhere for
+
+9
+00:00:24,940 --> 00:00:26,730
+ their patience and understanding.
+
+10
+00:00:26,730 --> 00:00:30,514
+ [SOUND] Especially when I was staying up way
+
+11
+00:00:30,514 --> 00:00:35,280
+ past everyone's bedtime, keeping the lights on.
+
+12
+00:00:35,280 --> 00:00:39,143
+ So with that, I'm out of here, toodles!
+
+13
+00:00:39,143 --> 00:00:41,821
+ Lights out!
+
+14
+00:00:41,821 --> 00:00:46,194
+ Cut.
+
+15
+00:00:46,194 --> 00:00:49,887
+ [MUSIC]
+
+16
+00:00:49,887 --> 00:00:53,950
+ Viva la HPC!
+
+17
+00:00:53,950 --> 00:00:55,866
+ Viva la HPC!
+
+18
+00:00:55,866 --> 00:00:59,012
+ Viva la HPC!
+
+19
+00:00:59,012 --> 00:01:00,510
+ Viva la HPC!
+
+20
+00:01:00,510 --> 00:01:00,510
+ Viva la HPC!
+

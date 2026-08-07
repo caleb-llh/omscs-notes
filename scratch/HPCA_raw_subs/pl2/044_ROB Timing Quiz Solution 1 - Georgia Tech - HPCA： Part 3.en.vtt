@@ -1,0 +1,208 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.690 align:start position:0%
+ 
+so<00:00:00.390><c> this</c><00:00:00.570><c> is</c><00:00:00.750><c> the</c><00:00:00.960><c> solution</c><00:00:01.620><c> for</c><00:00:01.890><c> our</c><00:00:02.129><c> arabe</c>
+
+00:00:02.690 --> 00:00:02.700 align:start position:0%
+so this is the solution for our arabe
+ 
+
+00:00:02.700 --> 00:00:05.960 align:start position:0%
+so this is the solution for our arabe
+timing<00:00:03.090><c> quiz</c><00:00:03.300><c> the</c><00:00:04.170><c> first</c><00:00:04.440><c> part</c><00:00:04.740><c> we</c><00:00:05.279><c> were</c><00:00:05.430><c> asked</c>
+
+00:00:05.960 --> 00:00:05.970 align:start position:0%
+timing quiz the first part we were asked
+ 
+
+00:00:05.970 --> 00:00:07.760 align:start position:0%
+timing quiz the first part we were asked
+when<00:00:06.600><c> does</c><00:00:06.810><c> this</c><00:00:06.930><c> multiplication</c>
+
+00:00:07.760 --> 00:00:07.770 align:start position:0%
+when does this multiplication
+ 
+
+00:00:07.770 --> 00:00:09.860 align:start position:0%
+when does this multiplication
+instruction<00:00:08.040><c> issue</c><00:00:08.490><c> execute</c><00:00:09.330><c> right</c><00:00:09.630><c> and</c>
+
+00:00:09.860 --> 00:00:09.870 align:start position:0%
+instruction issue execute right and
+ 
+
+00:00:09.870 --> 00:00:14.030 align:start position:0%
+instruction issue execute right and
+commit<00:00:10.309><c> this</c><00:00:11.309><c> instruction</c><00:00:11.809><c> will</c><00:00:12.809><c> issue</c><00:00:13.040><c> in</c>
+
+00:00:14.030 --> 00:00:14.040 align:start position:0%
+commit this instruction will issue in
+ 
+
+00:00:14.040 --> 00:00:16.760 align:start position:0%
+commit this instruction will issue in
+the<00:00:14.309><c> second</c><00:00:14.670><c> cycle</c><00:00:14.849><c> the</c><00:00:15.630><c> reason</c><00:00:15.929><c> for</c><00:00:16.080><c> that</c><00:00:16.230><c> is</c>
+
+00:00:16.760 --> 00:00:16.770 align:start position:0%
+the second cycle the reason for that is
+ 
+
+00:00:16.770 --> 00:00:20.000 align:start position:0%
+the second cycle the reason for that is
+that<00:00:17.250><c> we</c><00:00:17.880><c> have</c><00:00:18.090><c> still</c><00:00:18.570><c> to</c><00:00:18.869><c> multiply</c><00:00:19.830><c> divide</c>
+
+00:00:20.000 --> 00:00:20.010 align:start position:0%
+that we have still to multiply divide
+ 
+
+00:00:20.010 --> 00:00:22.700 align:start position:0%
+that we have still to multiply divide
+reservation<00:00:20.699><c> stations</c><00:00:21.180><c> this</c><00:00:22.020><c> is</c><00:00:22.260><c> using</c><00:00:22.500><c> the</c>
+
+00:00:22.700 --> 00:00:22.710 align:start position:0%
+reservation stations this is using the
+ 
+
+00:00:22.710 --> 00:00:25.310 align:start position:0%
+reservation stations this is using the
+first<00:00:22.920><c> one</c><00:00:23.279><c> we</c><00:00:24.000><c> can</c><00:00:24.180><c> use</c><00:00:24.330><c> the</c><00:00:24.480><c> second</c><00:00:24.900><c> one</c><00:00:24.930><c> here</c>
+
+00:00:25.310 --> 00:00:25.320 align:start position:0%
+first one we can use the second one here
+ 
+
+00:00:25.320 --> 00:00:27.109 align:start position:0%
+first one we can use the second one here
+so<00:00:25.500><c> we</c><00:00:25.619><c> can</c><00:00:25.800><c> actually</c><00:00:25.949><c> issue</c><00:00:26.250><c> in</c><00:00:26.609><c> the</c><00:00:26.760><c> second</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+so we can actually issue in the second
+ 
+
+00:00:27.119 --> 00:00:29.810 align:start position:0%
+so we can actually issue in the second
+cycle<00:00:27.269><c> so</c><00:00:28.109><c> the</c><00:00:28.230><c> correct</c><00:00:28.529><c> answer</c><00:00:28.859><c> here</c><00:00:28.890><c> is</c><00:00:29.340><c> 2</c>
+
+00:00:29.810 --> 00:00:29.820 align:start position:0%
+cycle so the correct answer here is 2
+ 
+
+00:00:29.820 --> 00:00:34.190 align:start position:0%
+cycle so the correct answer here is 2
+for<00:00:30.330><c> issue</c><00:00:30.539><c> for</c><00:00:31.470><c> execution</c><00:00:32.420><c> we</c><00:00:33.420><c> are</c><00:00:33.480><c> using</c><00:00:33.660><c> r5</c>
+
+00:00:34.190 --> 00:00:34.200 align:start position:0%
+for issue for execution we are using r5
+ 
+
+00:00:34.200 --> 00:00:37.790 align:start position:0%
+for issue for execution we are using r5
+and<00:00:34.380><c> r6</c><00:00:34.520><c> that</c><00:00:35.520><c> doesn't</c><00:00:35.969><c> depend</c><00:00:36.239><c> on</c><00:00:36.390><c> r2</c><00:00:36.620><c> so</c><00:00:37.620><c> we</c>
+
+00:00:37.790 --> 00:00:37.800 align:start position:0%
+and r6 that doesn't depend on r2 so we
+ 
+
+00:00:37.800 --> 00:00:40.010 align:start position:0%
+and r6 that doesn't depend on r2 so we
+can<00:00:38.010><c> actually</c><00:00:38.190><c> begin</c><00:00:38.700><c> execution</c><00:00:39.270><c> right</c><00:00:39.600><c> after</c>
+
+00:00:40.010 --> 00:00:40.020 align:start position:0%
+can actually begin execution right after
+ 
+
+00:00:40.020 --> 00:00:43.760 align:start position:0%
+can actually begin execution right after
+the<00:00:40.170><c> issue</c><00:00:40.350><c> in</c><00:00:40.860><c> cycle</c><00:00:41.700><c> 3</c><00:00:42.210><c> the</c><00:00:43.050><c> multiplication</c>
+
+00:00:43.760 --> 00:00:43.770 align:start position:0%
+the issue in cycle 3 the multiplication
+ 
+
+00:00:43.770 --> 00:00:45.740 align:start position:0%
+the issue in cycle 3 the multiplication
+will<00:00:43.890><c> take</c><00:00:44.070><c> two</c><00:00:44.219><c> cycles</c><00:00:44.640><c> to</c><00:00:44.730><c> execute</c><00:00:44.789><c> so</c><00:00:45.629><c> it's</c>
+
+00:00:45.740 --> 00:00:45.750 align:start position:0%
+will take two cycles to execute so it's
+ 
+
+00:00:45.750 --> 00:00:47.959 align:start position:0%
+will take two cycles to execute so it's
+executing<00:00:46.260><c> in</c><00:00:46.379><c> cycles</c><00:00:46.739><c> three</c><00:00:46.980><c> and</c><00:00:47.129><c> four</c><00:00:47.430><c> it's</c>
+
+00:00:47.959 --> 00:00:47.969 align:start position:0%
+executing in cycles three and four it's
+ 
+
+00:00:47.969 --> 00:00:49.610 align:start position:0%
+executing in cycles three and four it's
+going<00:00:48.360><c> to</c><00:00:48.450><c> try</c><00:00:48.660><c> to</c><00:00:48.690><c> write</c><00:00:48.989><c> the</c><00:00:49.140><c> result</c><00:00:49.469><c> in</c>
+
+00:00:49.610 --> 00:00:49.620 align:start position:0%
+going to try to write the result in
+ 
+
+00:00:49.620 --> 00:00:52.610 align:start position:0%
+going to try to write the result in
+cycle<00:00:49.680><c> five</c><00:00:50.280><c> and</c><00:00:50.700><c> now</c><00:00:51.420><c> when</c><00:00:51.930><c> does</c><00:00:52.110><c> it</c><00:00:52.140><c> commit</c>
+
+00:00:52.610 --> 00:00:52.620 align:start position:0%
+cycle five and now when does it commit
+ 
+
+00:00:52.620 --> 00:00:55.250 align:start position:0%
+cycle five and now when does it commit
+it<00:00:53.430><c> commits</c><00:00:53.940><c> when</c><00:00:54.210><c> it</c><00:00:54.329><c> has</c><00:00:54.510><c> both</c><00:00:54.750><c> written</c><00:00:55.020><c> the</c>
+
+00:00:55.250 --> 00:00:55.260 align:start position:0%
+it commits when it has both written the
+ 
+
+00:00:55.260 --> 00:00:55.700 align:start position:0%
+it commits when it has both written the
+result
+
+00:00:55.700 --> 00:00:55.710 align:start position:0%
+result
+ 
+
+00:00:55.710 --> 00:00:57.500 align:start position:0%
+result
+and<00:00:55.890><c> when</c><00:00:56.280><c> all</c><00:00:56.460><c> previous</c><00:00:56.850><c> instructions</c><00:00:56.940><c> have</c>
+
+00:00:57.500 --> 00:00:57.510 align:start position:0%
+and when all previous instructions have
+ 
+
+00:00:57.510 --> 00:00:59.689 align:start position:0%
+and when all previous instructions have
+committed<00:00:58.109><c> the</c><00:00:58.890><c> previous</c><00:00:59.250><c> instruction</c>
+
+00:00:59.689 --> 00:00:59.699 align:start position:0%
+committed the previous instruction
+ 
+
+00:00:59.699 --> 00:01:02.660 align:start position:0%
+committed the previous instruction
+commit<00:01:00.030><c> is</c><00:01:00.320><c> happening</c><00:01:01.320><c> later</c><00:01:01.559><c> so</c><00:01:02.370><c> we</c><00:01:02.520><c> will</c>
+
+00:01:02.660 --> 00:01:02.670 align:start position:0%
+commit is happening later so we will
+ 
+
+00:01:02.670 --> 00:01:04.700 align:start position:0%
+commit is happening later so we will
+commit<00:01:02.940><c> in</c><00:01:03.180><c> cycle</c><00:01:03.210><c> eight</c><00:01:03.750><c> right</c><00:01:04.140><c> after</c><00:01:04.589><c> the</c>
+
+00:01:04.700 --> 00:01:04.710 align:start position:0%
+commit in cycle eight right after the
+ 
+
+00:01:04.710 --> 00:01:07.970 align:start position:0%
+commit in cycle eight right after the
+first<00:01:04.949><c> instruction</c><00:01:05.189><c> has</c><00:01:05.489><c> committed</c>
+

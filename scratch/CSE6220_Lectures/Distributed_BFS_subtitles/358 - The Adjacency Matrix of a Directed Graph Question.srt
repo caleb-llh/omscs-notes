@@ -1,0 +1,28 @@
+1
+00:00:00,330 --> 00:00:02,780
+ Now consider a directed graph.
+
+2
+00:00:02,780 --> 00:00:04,340
+ I want you to number the vertices, and
+
+3
+00:00:04,340 --> 00:00:07,700
+ then, fill in the entries of its adjacency matrix.
+
+4
+00:00:07,700 --> 00:00:10,640
+ Do that by typing a 1 in the appropriate entries.
+
+5
+00:00:10,640 --> 00:00:14,080
+ If you want, you can insert 0 entries, where there are no edges.
+
+6
+00:00:14,080 --> 00:00:18,095
+ But if you're feeling lazy, feel free to leave any entry blank, and
+
+7
+00:00:18,095 --> 00:00:18,095
+ we will interpret that as a 0.
+

@@ -1,0 +1,32 @@
+1
+00:00:00,580 --> 00:00:01,750
+ Quiz time.
+
+2
+00:00:01,750 --> 00:00:06,000
+ Here are two parallel algorithms with the work and span as shown.
+
+3
+00:00:06,000 --> 00:00:09,500
+ My question for you is, which parallel algorithm is better?
+
+4
+00:00:09,500 --> 00:00:11,990
+ And my follow up question is why.
+
+5
+00:00:11,990 --> 00:00:14,050
+ Now, this is a, somewhat open ended question.
+
+6
+00:00:14,050 --> 00:00:16,470
+ And so there are no wrong answers.
+
+7
+00:00:16,470 --> 00:00:17,990
+ What I want you to do is think about it and
+
+8
+00:00:17,990 --> 00:00:17,990
+ then enter your response as free form text in this box.
+

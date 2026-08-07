@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.560 --> 00:00:02.470 align:start position:0%
+ 
+Hi,<00:00:00.800><c> and</c><00:00:01.040><c> welcome</c><00:00:01.280><c> to</c><00:00:01.439><c> my</c><00:00:01.680><c> online</c><00:00:02.000><c> course</c><00:00:02.240><c> on</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+Hi, and welcome to my online course on
+ 
+
+00:00:02.480 --> 00:00:04.550 align:start position:0%
+Hi, and welcome to my online course on
+computer<00:00:02.800><c> architecture,</c><00:00:03.439><c> UD233,</c>
+
+00:00:04.550 --> 00:00:04.560 align:start position:0%
+computer architecture, UD233,
+ 
+
+00:00:04.560 --> 00:00:07.349 align:start position:0%
+computer architecture, UD233,
+affectionately<00:00:05.200><c> known</c><00:00:05.440><c> as</c><00:00:05.680><c> CS6290,</c><00:00:07.040><c> here</c><00:00:07.200><c> at</c>
+
+00:00:07.349 --> 00:00:07.359 align:start position:0%
+affectionately known as CS6290, here at
+ 
+
+00:00:07.359 --> 00:00:09.270 align:start position:0%
+affectionately known as CS6290, here at
+Georgia<00:00:07.759><c> Tech.</c><00:00:08.559><c> I've</c><00:00:08.880><c> been</c><00:00:08.960><c> teaching</c>
+
+00:00:09.270 --> 00:00:09.280 align:start position:0%
+Georgia Tech. I've been teaching
+ 
+
+00:00:09.280 --> 00:00:11.030 align:start position:0%
+Georgia Tech. I've been teaching
+computer<00:00:09.679><c> architecture</c><00:00:10.240><c> for</c><00:00:10.480><c> more</c><00:00:10.639><c> than</c><00:00:10.800><c> 10</c>
+
+00:00:11.030 --> 00:00:11.040 align:start position:0%
+computer architecture for more than 10
+ 
+
+00:00:11.040 --> 00:00:13.430 align:start position:0%
+computer architecture for more than 10
+years<00:00:11.280><c> now,</c><00:00:11.840><c> and</c><00:00:12.080><c> I'm</c><00:00:12.240><c> now</c><00:00:12.400><c> very</c><00:00:12.719><c> happy</c><00:00:12.960><c> to</c><00:00:13.200><c> be</c>
+
+00:00:13.430 --> 00:00:13.440 align:start position:0%
+years now, and I'm now very happy to be
+ 
+
+00:00:13.440 --> 00:00:15.110 align:start position:0%
+years now, and I'm now very happy to be
+bringing<00:00:13.679><c> this</c><00:00:13.920><c> course</c><00:00:14.240><c> to</c><00:00:14.400><c> a</c><00:00:14.559><c> much</c><00:00:14.799><c> broader</c>
+
+00:00:15.110 --> 00:00:15.120 align:start position:0%
+bringing this course to a much broader
+ 
+
+00:00:15.120 --> 00:00:17.750 align:start position:0%
+bringing this course to a much broader
+audience<00:00:15.599><c> like</c><00:00:15.839><c> this.</c><00:00:16.880><c> In</c><00:00:17.119><c> this</c><00:00:17.279><c> course,</c><00:00:17.600><c> we</c>
+
+00:00:17.750 --> 00:00:17.760 align:start position:0%
+audience like this. In this course, we
+ 
+
+00:00:17.760 --> 00:00:19.990 align:start position:0%
+audience like this. In this course, we
+will<00:00:17.920><c> learn</c><00:00:18.400><c> how</c><00:00:18.720><c> modern</c><00:00:19.119><c> processor</c><00:00:19.600><c> cores</c>
+
+00:00:19.990 --> 00:00:20.000 align:start position:0%
+will learn how modern processor cores
+ 
+
+00:00:20.000 --> 00:00:22.950 align:start position:0%
+will learn how modern processor cores
+work,<00:00:20.800><c> how</c><00:00:21.039><c> these</c><00:00:21.199><c> cores</c><00:00:21.600><c> access</c><00:00:21.920><c> memory,</c><00:00:22.720><c> and</c>
+
+00:00:22.950 --> 00:00:22.960 align:start position:0%
+work, how these cores access memory, and
+ 
+
+00:00:22.960 --> 00:00:24.950 align:start position:0%
+work, how these cores access memory, and
+how<00:00:23.199><c> we</c><00:00:23.359><c> put</c><00:00:23.600><c> them</c><00:00:23.840><c> together</c><00:00:24.320><c> into</c><00:00:24.720><c> a</c>
+
+00:00:24.950 --> 00:00:24.960 align:start position:0%
+how we put them together into a
+ 
+
+00:00:24.960 --> 00:00:27.589 align:start position:0%
+how we put them together into a
+multi-core<00:00:25.519><c> chip.</c><00:00:26.400><c> But</c><00:00:26.640><c> let's</c><00:00:26.880><c> start</c><00:00:27.119><c> at</c><00:00:27.359><c> the</c>
+
+00:00:27.589 --> 00:00:27.599 align:start position:0%
+multi-core chip. But let's start at the
+ 
+
+00:00:27.599 --> 00:00:29.669 align:start position:0%
+multi-core chip. But let's start at the
+beginning.<00:00:28.160><c> You</c><00:00:28.400><c> probably</c><00:00:28.880><c> first</c><00:00:29.279><c> want</c><00:00:29.519><c> to</c>
+
+00:00:29.669 --> 00:00:29.679 align:start position:0%
+beginning. You probably first want to
+ 
+
+00:00:29.679 --> 00:00:34.000 align:start position:0%
+beginning. You probably first want to
+know<00:00:30.320><c> what</c><00:00:30.640><c> is</c><00:00:31.039><c> computer</c><00:00:31.519><c> architecture.</c>
+

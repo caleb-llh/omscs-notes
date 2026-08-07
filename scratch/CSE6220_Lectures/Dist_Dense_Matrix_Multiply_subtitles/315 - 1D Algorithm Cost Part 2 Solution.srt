@@ -1,0 +1,68 @@
+1
+00:00:00,500 --> 00:00:02,670
+ Here's the solution I had in mind.
+
+2
+00:00:02,670 --> 00:00:06,060
+ Now this running time charges you separately for flop time and
+
+3
+00:00:06,060 --> 00:00:09,880
+ communication time, but, in fact, doing the local multiply and
+
+4
+00:00:09,880 --> 00:00:13,700
+ doing the sends and receives are completely independent.
+
+5
+00:00:13,700 --> 00:00:16,480
+ So a natural idea is to try to overlap them.
+
+6
+00:00:16,480 --> 00:00:19,340
+ That suggests that I start the communication.
+
+7
+00:00:19,340 --> 00:00:23,390
+ While the communication is pending, do the matrix multiply and then wait for
+
+8
+00:00:23,390 --> 00:00:25,650
+ the communication to complete.
+
+9
+00:00:25,650 --> 00:00:29,190
+ So that's it, overlap, computation and communication.
+
+10
+00:00:29,190 --> 00:00:33,500
+ Now, why do I say that might improve the running time by up to a factor of two?
+
+11
+00:00:33,500 --> 00:00:35,460
+ Well, if you overlap computation and
+
+12
+00:00:35,460 --> 00:00:38,130
+ communication, then the running time should be the max
+
+13
+00:00:38,130 --> 00:00:41,960
+ of the time to do the flops against the time it takes to communicate.
+
+14
+00:00:41,960 --> 00:00:45,970
+ This is a factor of 2 faster because of an algebraic fact.
+
+15
+00:00:45,970 --> 00:00:47,940
+ Namely, the sum of a and b is always less than or
+
+16
+00:00:47,940 --> 00:00:50,760
+ equal to twice the max of a and b.
+
+17
+00:00:50,760 --> 00:00:50,760
+ That's why I said up to a factor of two.
+

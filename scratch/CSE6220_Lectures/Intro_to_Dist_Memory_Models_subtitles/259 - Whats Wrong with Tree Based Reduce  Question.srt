@@ -1,0 +1,72 @@
+1
+00:00:00,490 --> 00:00:02,905
+ The algorithm you've analyzed for reductions and
+
+2
+00:00:02,905 --> 00:00:04,710
+ broadcasts is a tree-based scheme.
+
+3
+00:00:04,710 --> 00:00:09,220
+ You showed that it was sub-optimal in the beta term.
+
+4
+00:00:09,220 --> 00:00:12,030
+ What that really means is that it's a perfectly fine algorithm,
+
+5
+00:00:12,030 --> 00:00:14,860
+ as long as the messages are small.
+
+6
+00:00:14,860 --> 00:00:18,450
+ But what if you care about the case when n is very large?
+
+7
+00:00:18,450 --> 00:00:21,210
+ After all, if beta is much smaller than alpha,
+
+8
+00:00:21,210 --> 00:00:26,020
+ then you can utilize a network bandwidth better by sending larger messages.
+
+9
+00:00:26,020 --> 00:00:28,660
+ Let me turn this question around on you.
+
+10
+00:00:28,660 --> 00:00:31,440
+ Why is the beta term so large?
+
+11
+00:00:31,440 --> 00:00:34,890
+ That is, can you explain to me intuitively in English,
+
+12
+00:00:34,890 --> 00:00:38,950
+ what is the problem with the algorithm that leads to this extra factor of log P
+
+13
+00:00:38,950 --> 00:00:41,100
+ communication?
+
+14
+00:00:41,100 --> 00:00:43,060
+ Type your explanation here.
+
+15
+00:00:43,060 --> 00:00:46,070
+ Note that the question is somewhat open ended so I'm not necessarily looking for
+
+16
+00:00:46,070 --> 00:00:47,540
+ a fixed answer.
+
+17
+00:00:47,540 --> 00:00:49,480
+ Well actually, I am looking for a fixed answer, but
+
+18
+00:00:49,480 --> 00:00:49,480
+ I want to see what you come up with.
+

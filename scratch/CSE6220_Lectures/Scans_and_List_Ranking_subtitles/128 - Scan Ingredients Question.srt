@@ -1,0 +1,32 @@
+1
+00:00:00,370 --> 00:00:03,030
+ To convince yourself that this new scan is correct,
+
+2
+00:00:03,030 --> 00:00:05,939
+ there's something you need to prove about this operator.
+
+3
+00:00:05,939 --> 00:00:07,200
+ What is it?
+
+4
+00:00:07,200 --> 00:00:10,650
+ Here are four choices, and I want you to check all that apply.
+
+5
+00:00:10,650 --> 00:00:18,280
+ The choices are does the operator have to have constant cost?
+
+6
+00:00:18,280 --> 00:00:19,444
+ Or does it have to be in place?
+
+7
+00:00:19,444 --> 00:00:20,690
+ Or does it have to be associative?
+
+8
+00:00:20,690 --> 00:00:20,690
+ Or does it have to be commutative?
+

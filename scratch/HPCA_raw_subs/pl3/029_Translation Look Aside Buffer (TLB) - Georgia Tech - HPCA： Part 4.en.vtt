@@ -1,0 +1,440 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.579 align:start position:0%
+ 
+so<00:00:00.299><c> to</c><00:00:00.359><c> speed</c><00:00:00.780><c> up</c><00:00:00.960><c> virtual</c><00:00:01.439><c> to</c><00:00:01.560><c> physical</c>
+
+00:00:01.579 --> 00:00:01.589 align:start position:0%
+so to speed up virtual to physical
+ 
+
+00:00:01.589 --> 00:00:04.100 align:start position:0%
+so to speed up virtual to physical
+translation<00:00:02.060><c> the</c><00:00:03.060><c> processor</c><00:00:03.570><c> includes</c><00:00:03.990><c> a</c>
+
+00:00:04.100 --> 00:00:04.110 align:start position:0%
+translation the processor includes a
+ 
+
+00:00:04.110 --> 00:00:05.660 align:start position:0%
+translation the processor includes a
+structure<00:00:04.529><c> called</c><00:00:04.799><c> the</c><00:00:05.009><c> translation</c>
+
+00:00:05.660 --> 00:00:05.670 align:start position:0%
+structure called the translation
+ 
+
+00:00:05.670 --> 00:00:08.960 align:start position:0%
+structure called the translation
+lookaside<00:00:05.879><c> buffer</c><00:00:06.299><c> or</c><00:00:06.960><c> TLB</c><00:00:07.529><c> the</c><00:00:08.220><c> TLB</c><00:00:08.700><c> is</c><00:00:08.910><c> a</c>
+
+00:00:08.960 --> 00:00:08.970 align:start position:0%
+lookaside buffer or TLB the TLB is a
+ 
+
+00:00:08.970 --> 00:00:11.990 align:start position:0%
+lookaside buffer or TLB the TLB is a
+cache<00:00:09.389><c> for</c><00:00:09.630><c> translations</c><00:00:10.320><c> so</c><00:00:11.040><c> now</c><00:00:11.250><c> you</c><00:00:11.820><c> would</c>
+
+00:00:11.990 --> 00:00:12.000 align:start position:0%
+cache for translations so now you would
+ 
+
+00:00:12.000 --> 00:00:14.270 align:start position:0%
+cache for translations so now you would
+ask<00:00:12.179><c> yourself</c><00:00:12.389><c> well</c><00:00:13.080><c> how</c><00:00:13.290><c> is</c><00:00:13.469><c> the</c><00:00:13.590><c> TLB</c><00:00:14.009><c> better</c>
+
+00:00:14.270 --> 00:00:14.280 align:start position:0%
+ask yourself well how is the TLB better
+ 
+
+00:00:14.280 --> 00:00:16.939 align:start position:0%
+ask yourself well how is the TLB better
+than<00:00:14.639><c> just</c><00:00:14.849><c> using</c><00:00:14.910><c> the</c><00:00:15.240><c> cache</c><00:00:15.509><c> itself</c><00:00:15.990><c> well</c>
+
+00:00:16.939 --> 00:00:16.949 align:start position:0%
+than just using the cache itself well
+ 
+
+00:00:16.949 --> 00:00:19.790 align:start position:0%
+than just using the cache itself well
+first<00:00:17.550><c> the</c><00:00:18.000><c> cache</c><00:00:18.210><c> is</c><00:00:18.420><c> relatively</c><00:00:19.020><c> big</c><00:00:19.199><c> it</c>
+
+00:00:19.790 --> 00:00:19.800 align:start position:0%
+first the cache is relatively big it
+ 
+
+00:00:19.800 --> 00:00:22.759 align:start position:0%
+first the cache is relatively big it
+could<00:00:20.160><c> store</c><00:00:20.520><c> a</c><00:00:20.730><c> lot</c><00:00:21.090><c> of</c><00:00:21.359><c> translations</c><00:00:22.020><c> if</c><00:00:22.289><c> we</c>
+
+00:00:22.759 --> 00:00:22.769 align:start position:0%
+could store a lot of translations if we
+ 
+
+00:00:22.769 --> 00:00:25.070 align:start position:0%
+could store a lot of translations if we
+only<00:00:23.100><c> held</c><00:00:23.310><c> translations</c><00:00:23.910><c> there</c><00:00:24.210><c> but</c><00:00:24.900><c> we</c>
+
+00:00:25.070 --> 00:00:25.080 align:start position:0%
+only held translations there but we
+ 
+
+00:00:25.080 --> 00:00:27.019 align:start position:0%
+only held translations there but we
+don't<00:00:25.260><c> most</c><00:00:25.769><c> of</c><00:00:26.010><c> the</c><00:00:26.130><c> stuff</c><00:00:26.340><c> in</c><00:00:26.519><c> the</c><00:00:26.640><c> cache</c><00:00:26.820><c> is</c>
+
+00:00:27.019 --> 00:00:27.029 align:start position:0%
+don't most of the stuff in the cache is
+ 
+
+00:00:27.029 --> 00:00:29.870 align:start position:0%
+don't most of the stuff in the cache is
+data<00:00:27.269><c> one</c><00:00:28.019><c> translation</c><00:00:28.470><c> in</c><00:00:28.740><c> the</c><00:00:28.830><c> cache</c><00:00:29.070><c> covers</c>
+
+00:00:29.870 --> 00:00:29.880 align:start position:0%
+data one translation in the cache covers
+ 
+
+00:00:29.880 --> 00:00:33.950 align:start position:0%
+data one translation in the cache covers
+a<00:00:30.150><c> whole</c><00:00:31.019><c> page</c><00:00:31.349><c> worth</c><00:00:31.800><c> of</c><00:00:32.040><c> data</c><00:00:32.390><c> so</c><00:00:33.390><c> the</c><00:00:33.510><c> TLB</c>
+
+00:00:33.950 --> 00:00:33.960 align:start position:0%
+a whole page worth of data so the TLB
+ 
+
+00:00:33.960 --> 00:00:36.080 align:start position:0%
+a whole page worth of data so the TLB
+that<00:00:34.170><c> cache</c><00:00:34.380><c> is</c><00:00:34.559><c> only</c><00:00:34.770><c> translations</c><00:00:35.579><c> can</c><00:00:35.940><c> be</c>
+
+00:00:36.080 --> 00:00:36.090 align:start position:0%
+that cache is only translations can be
+ 
+
+00:00:36.090 --> 00:00:38.119 align:start position:0%
+that cache is only translations can be
+extremely<00:00:36.540><c> small</c><00:00:36.960><c> which</c><00:00:37.260><c> means</c><00:00:37.440><c> extremely</c>
+
+00:00:38.119 --> 00:00:38.129 align:start position:0%
+extremely small which means extremely
+ 
+
+00:00:38.129 --> 00:00:41.090 align:start position:0%
+extremely small which means extremely
+fast<00:00:38.399><c> let's</c><00:00:39.360><c> look</c><00:00:39.600><c> for</c><00:00:39.899><c> example</c><00:00:40.379><c> at</c><00:00:40.469><c> a</c><00:00:40.530><c> program</c>
+
+00:00:41.090 --> 00:00:41.100 align:start position:0%
+fast let's look for example at a program
+ 
+
+00:00:41.100 --> 00:00:43.880 align:start position:0%
+fast let's look for example at a program
+that<00:00:41.460><c> accesses</c><00:00:41.940><c> 16</c><00:00:42.450><c> kilobytes</c><00:00:42.840><c> of</c><00:00:42.989><c> data</c><00:00:43.020><c> for</c>
+
+00:00:43.880 --> 00:00:43.890 align:start position:0%
+that accesses 16 kilobytes of data for
+ 
+
+00:00:43.890 --> 00:00:46.190 align:start position:0%
+that accesses 16 kilobytes of data for
+that<00:00:44.040><c> to</c><00:00:44.219><c> work</c><00:00:44.399><c> well</c><00:00:44.700><c> we</c><00:00:45.090><c> need</c><00:00:45.300><c> about</c><00:00:45.750><c> 16</c>
+
+00:00:46.190 --> 00:00:46.200 align:start position:0%
+that to work well we need about 16
+ 
+
+00:00:46.200 --> 00:00:49.100 align:start position:0%
+that to work well we need about 16
+kilobytes<00:00:46.620><c> of</c><00:00:46.770><c> cache</c><00:00:47.180><c> but</c><00:00:48.180><c> this</c><00:00:48.360><c> is</c><00:00:48.539><c> only</c><00:00:48.719><c> 4</c>
+
+00:00:49.100 --> 00:00:49.110 align:start position:0%
+kilobytes of cache but this is only 4
+ 
+
+00:00:49.110 --> 00:00:51.920 align:start position:0%
+kilobytes of cache but this is only 4
+pages<00:00:49.410><c> if</c><00:00:49.710><c> we</c><00:00:49.800><c> have</c><00:00:49.950><c> a</c><00:00:49.980><c> 4</c><00:00:50.250><c> kilobyte</c><00:00:50.399><c> page</c><00:00:50.930><c> so</c>
+
+00:00:51.920 --> 00:00:51.930 align:start position:0%
+pages if we have a 4 kilobyte page so
+ 
+
+00:00:51.930 --> 00:00:54.020 align:start position:0%
+pages if we have a 4 kilobyte page so
+the<00:00:52.079><c> TLB</c><00:00:52.500><c> that</c><00:00:52.649><c> corresponds</c><00:00:53.309><c> to</c><00:00:53.340><c> that</c><00:00:53.489><c> only</c>
+
+00:00:54.020 --> 00:00:54.030 align:start position:0%
+the TLB that corresponds to that only
+ 
+
+00:00:54.030 --> 00:00:56.090 align:start position:0%
+the TLB that corresponds to that only
+needs<00:00:54.570><c> four</c><00:00:54.840><c> entries</c><00:00:55.260><c> to</c><00:00:55.440><c> cover</c><00:00:55.680><c> the</c><00:00:55.860><c> same</c>
+
+00:00:56.090 --> 00:00:56.100 align:start position:0%
+needs four entries to cover the same
+ 
+
+00:00:56.100 --> 00:00:58.310 align:start position:0%
+needs four entries to cover the same
+amount<00:00:56.399><c> of</c><00:00:56.489><c> memory</c><00:00:56.850><c> and</c><00:00:57.059><c> with</c><00:00:57.570><c> only</c><00:00:57.750><c> 4</c><00:00:58.050><c> entries</c>
+
+00:00:58.310 --> 00:00:58.320 align:start position:0%
+amount of memory and with only 4 entries
+ 
+
+00:00:58.320 --> 00:01:00.049 align:start position:0%
+amount of memory and with only 4 entries
+we<00:00:58.559><c> can</c><00:00:58.710><c> make</c><00:00:58.890><c> the</c><00:00:59.039><c> deal</c><00:00:59.219><c> be</c><00:00:59.370><c> extremely</c>
+
+00:01:00.049 --> 00:01:00.059 align:start position:0%
+we can make the deal be extremely
+ 
+
+00:01:00.059 --> 00:01:01.910 align:start position:0%
+we can make the deal be extremely
+extremely<00:01:00.329><c> fast</c><00:01:00.660><c> much</c><00:01:00.989><c> less</c><00:01:01.260><c> than</c><00:01:01.410><c> a</c><00:01:01.530><c> cycle</c>
+
+00:01:01.910 --> 00:01:01.920 align:start position:0%
+extremely fast much less than a cycle
+ 
+
+00:01:01.920 --> 00:01:04.880 align:start position:0%
+extremely fast much less than a cycle
+for<00:01:02.100><c> each</c><00:01:02.129><c> translation</c><00:01:02.820><c> next</c><00:01:03.690><c> we</c><00:01:04.439><c> have</c><00:01:04.619><c> seen</c>
+
+00:01:04.880 --> 00:01:04.890 align:start position:0%
+for each translation next we have seen
+ 
+
+00:01:04.890 --> 00:01:06.830 align:start position:0%
+for each translation next we have seen
+that<00:01:05.040><c> in</c><00:01:05.220><c> a</c><00:01:05.309><c> multi-level</c><00:01:05.939><c> page</c><00:01:06.119><c> table</c><00:01:06.390><c> we</c>
+
+00:01:06.830 --> 00:01:06.840 align:start position:0%
+that in a multi-level page table we
+ 
+
+00:01:06.840 --> 00:01:08.960 align:start position:0%
+that in a multi-level page table we
+access<00:01:07.320><c> our</c><00:01:07.470><c> cache</c><00:01:07.770><c> for</c><00:01:08.280><c> each</c><00:01:08.430><c> level</c><00:01:08.670><c> of</c><00:01:08.820><c> the</c>
+
+00:01:08.960 --> 00:01:08.970 align:start position:0%
+access our cache for each level of the
+ 
+
+00:01:08.970 --> 00:01:10.760 align:start position:0%
+access our cache for each level of the
+page<00:01:09.150><c> table</c><00:01:09.540><c> because</c><00:01:09.990><c> we</c><00:01:10.140><c> need</c><00:01:10.290><c> to</c><00:01:10.439><c> look</c><00:01:10.560><c> up</c>
+
+00:01:10.760 --> 00:01:10.770 align:start position:0%
+page table because we need to look up
+ 
+
+00:01:10.770 --> 00:01:12.289 align:start position:0%
+page table because we need to look up
+all<00:01:10.950><c> those</c><00:01:11.130><c> entries</c><00:01:11.520><c> in</c><00:01:11.640><c> order</c><00:01:11.850><c> to</c><00:01:11.970><c> find</c><00:01:12.180><c> the</c>
+
+00:01:12.289 --> 00:01:12.299 align:start position:0%
+all those entries in order to find the
+ 
+
+00:01:12.299 --> 00:01:14.810 align:start position:0%
+all those entries in order to find the
+final<00:01:12.659><c> translation</c><00:01:12.930><c> in</c><00:01:13.890><c> contrast</c><00:01:14.430><c> till</c><00:01:14.670><c> the</c>
+
+00:01:14.810 --> 00:01:14.820 align:start position:0%
+final translation in contrast till the
+ 
+
+00:01:14.820 --> 00:01:16.850 align:start position:0%
+final translation in contrast till the
+only<00:01:15.180><c> stores</c><00:01:15.479><c> the</c><00:01:15.630><c> final</c><00:01:16.049><c> translation</c><00:01:16.710><c> even</c>
+
+00:01:16.850 --> 00:01:16.860 align:start position:0%
+only stores the final translation even
+ 
+
+00:01:16.860 --> 00:01:19.240 align:start position:0%
+only stores the final translation even
+if<00:01:17.850><c> we</c><00:01:17.970><c> have</c><00:01:18.119><c> a</c><00:01:18.150><c> 4</c><00:01:18.450><c> level</c><00:01:18.720><c> page</c><00:01:18.930><c> table</c>
+
+00:01:19.240 --> 00:01:19.250 align:start position:0%
+if we have a 4 level page table
+ 
+
+00:01:19.250 --> 00:01:22.820 align:start position:0%
+if we have a 4 level page table
+eventually<00:01:20.250><c> we</c><00:01:20.369><c> find</c><00:01:20.670><c> what</c><00:01:21.180><c> a</c><00:01:21.420><c> given</c><00:01:21.960><c> page</c>
+
+00:01:22.820 --> 00:01:22.830 align:start position:0%
+eventually we find what a given page
+ 
+
+00:01:22.830 --> 00:01:25.310 align:start position:0%
+eventually we find what a given page
+number<00:01:23.310><c> Maps</c><00:01:23.610><c> do</c><00:01:23.909><c> and</c><00:01:24.150><c> we</c><00:01:24.659><c> just</c><00:01:24.689><c> store</c><00:01:25.170><c> the</c>
+
+00:01:25.310 --> 00:01:25.320 align:start position:0%
+number Maps do and we just store the
+ 
+
+00:01:25.320 --> 00:01:27.859 align:start position:0%
+number Maps do and we just store the
+frame<00:01:25.560><c> number</c><00:01:25.920><c> in</c><00:01:26.009><c> the</c><00:01:26.130><c> TLB</c><00:01:26.400><c> not</c><00:01:27.299><c> the</c>
+
+00:01:27.859 --> 00:01:27.869 align:start position:0%
+frame number in the TLB not the
+ 
+
+00:01:27.869 --> 00:01:30.170 align:start position:0%
+frame number in the TLB not the
+intermediate<00:01:28.500><c> page</c><00:01:28.829><c> table</c><00:01:29.280><c> entries</c><00:01:29.670><c> that</c><00:01:29.970><c> we</c>
+
+00:01:30.170 --> 00:01:30.180 align:start position:0%
+intermediate page table entries that we
+ 
+
+00:01:30.180 --> 00:01:32.390 align:start position:0%
+intermediate page table entries that we
+have<00:01:30.329><c> been</c><00:01:30.479><c> using</c><00:01:30.720><c> to</c><00:01:31.049><c> finally</c><00:01:31.860><c> come</c><00:01:32.070><c> up</c><00:01:32.100><c> with</c>
+
+00:01:32.390 --> 00:01:32.400 align:start position:0%
+have been using to finally come up with
+ 
+
+00:01:32.400 --> 00:01:35.030 align:start position:0%
+have been using to finally come up with
+the<00:01:32.490><c> translation</c><00:01:33.110><c> so</c><00:01:34.110><c> in</c><00:01:34.229><c> a</c><00:01:34.320><c> cache</c><00:01:34.560><c> we'll</c><00:01:34.829><c> have</c>
+
+00:01:35.030 --> 00:01:35.040 align:start position:0%
+the translation so in a cache we'll have
+ 
+
+00:01:35.040 --> 00:01:37.310 align:start position:0%
+the translation so in a cache we'll have
+for<00:01:35.250><c> a</c><00:01:35.280><c> 4</c><00:01:35.579><c> level</c><00:01:35.790><c> page</c><00:01:36.090><c> table</c><00:01:36.479><c> for</c><00:01:36.509><c> accesses</c><00:01:37.290><c> to</c>
+
+00:01:37.310 --> 00:01:37.320 align:start position:0%
+for a 4 level page table for accesses to
+ 
+
+00:01:37.320 --> 00:01:40.370 align:start position:0%
+for a 4 level page table for accesses to
+do<00:01:37.500><c> the</c><00:01:37.619><c> translation</c><00:01:38.250><c> in</c><00:01:38.460><c> a</c><00:01:38.790><c> TLB</c><00:01:39.150><c> we</c><00:01:39.990><c> do</c><00:01:40.170><c> this</c>
+
+00:01:40.370 --> 00:01:40.380 align:start position:0%
+do the translation in a TLB we do this
+ 
+
+00:01:40.380 --> 00:01:43.480 align:start position:0%
+do the translation in a TLB we do this
+in<00:01:40.590><c> one</c><00:01:40.770><c> axis</c><00:01:41.250><c> so</c><00:01:42.030><c> now</c><00:01:42.240><c> a</c><00:01:42.600><c> load</c><00:01:43.049><c> or</c><00:01:43.290><c> a</c><00:01:43.320><c> store</c>
+
+00:01:43.480 --> 00:01:43.490 align:start position:0%
+in one axis so now a load or a store
+ 
+
+00:01:43.490 --> 00:01:46.310 align:start position:0%
+in one axis so now a load or a store
+just<00:01:44.490><c> needs</c><00:01:44.729><c> to</c><00:01:45.000><c> form</c><00:01:45.450><c> the</c><00:01:45.630><c> address</c><00:01:45.720><c> access</c>
+
+00:01:46.310 --> 00:01:46.320 align:start position:0%
+just needs to form the address access
+ 
+
+00:01:46.320 --> 00:01:48.679 align:start position:0%
+just needs to form the address access
+the<00:01:46.710><c> TLB</c><00:01:46.860><c> to</c><00:01:47.250><c> find</c><00:01:47.490><c> the</c><00:01:47.579><c> translation</c><00:01:47.880><c> and</c><00:01:48.420><c> then</c>
+
+00:01:48.679 --> 00:01:48.689 align:start position:0%
+the TLB to find the translation and then
+ 
+
+00:01:48.689 --> 00:01:51.620 align:start position:0%
+the TLB to find the translation and then
+access<00:01:49.020><c> the</c><00:01:49.170><c> cache</c><00:01:49.409><c> to</c><00:01:49.829><c> get</c><00:01:50.009><c> the</c><00:01:50.130><c> data</c><00:01:50.340><c> if</c><00:01:51.060><c> we</c>
+
+00:01:51.620 --> 00:01:51.630 align:start position:0%
+access the cache to get the data if we
+ 
+
+00:01:51.630 --> 00:01:53.569 align:start position:0%
+access the cache to get the data if we
+have<00:01:51.810><c> both</c><00:01:52.020><c> the</c><00:01:52.140><c> TLB</c><00:01:52.530><c> hit</c><00:01:52.560><c> and</c><00:01:52.979><c> the</c><00:01:53.100><c> cache</c><00:01:53.310><c> hit</c>
+
+00:01:53.569 --> 00:01:53.579 align:start position:0%
+have both the TLB hit and the cache hit
+ 
+
+00:01:53.579 --> 00:01:56.889 align:start position:0%
+have both the TLB hit and the cache hit
+this<00:01:54.270><c> can</c><00:01:54.540><c> be</c><00:01:54.630><c> done</c><00:01:54.840><c> in</c><00:01:55.590><c> one</c><00:01:56.040><c> or</c><00:01:56.159><c> two</c><00:01:56.310><c> cycles</c>
+
+00:01:56.889 --> 00:01:56.899 align:start position:0%
+this can be done in one or two cycles
+ 
+
+00:01:56.899 --> 00:01:59.929 align:start position:0%
+this can be done in one or two cycles
+but<00:01:57.899><c> what</c><00:01:58.170><c> if</c><00:01:58.350><c> we</c><00:01:58.500><c> have</c><00:01:58.680><c> a</c><00:01:58.710><c> TLB</c><00:01:59.070><c> miss</c><00:01:59.369><c> what</c><00:01:59.759><c> if</c>
+
+00:01:59.929 --> 00:01:59.939 align:start position:0%
+but what if we have a TLB miss what if
+ 
+
+00:01:59.939 --> 00:02:02.030 align:start position:0%
+but what if we have a TLB miss what if
+we<00:02:00.090><c> do</c><00:02:00.270><c> not</c><00:02:00.479><c> find</c><00:02:00.810><c> a</c><00:02:00.990><c> translation</c><00:02:01.530><c> in</c><00:02:01.619><c> the</c><00:02:01.740><c> TLB</c>
+
+00:02:02.030 --> 00:02:02.040 align:start position:0%
+we do not find a translation in the TLB
+ 
+
+00:02:02.040 --> 00:02:04.340 align:start position:0%
+we do not find a translation in the TLB
+in<00:02:02.399><c> that</c><00:02:02.790><c> case</c><00:02:03.060><c> we</c><00:02:03.299><c> need</c><00:02:03.329><c> to</c><00:02:03.630><c> perform</c><00:02:04.049><c> the</c>
+
+00:02:04.340 --> 00:02:04.350 align:start position:0%
+in that case we need to perform the
+ 
+
+00:02:04.350 --> 00:02:06.920 align:start position:0%
+in that case we need to perform the
+translation<00:02:04.759><c> using</c><00:02:05.759><c> the</c><00:02:05.880><c> page</c><00:02:06.090><c> table</c><00:02:06.509><c> or</c><00:02:06.689><c> page</c>
+
+00:02:06.920 --> 00:02:06.930 align:start position:0%
+translation using the page table or page
+ 
+
+00:02:06.930 --> 00:02:08.779 align:start position:0%
+translation using the page table or page
+tables<00:02:07.380><c> if</c><00:02:07.560><c> we</c><00:02:07.680><c> have</c><00:02:07.829><c> a</c><00:02:07.860><c> multiple</c><00:02:08.280><c> level</c><00:02:08.429><c> page</c>
+
+00:02:08.779 --> 00:02:08.789 align:start position:0%
+tables if we have a multiple level page
+ 
+
+00:02:08.789 --> 00:02:10.880 align:start position:0%
+tables if we have a multiple level page
+table<00:02:09.000><c> and</c><00:02:09.330><c> then</c><00:02:09.899><c> put</c><00:02:10.110><c> that</c><00:02:10.140><c> translation</c><00:02:10.800><c> in</c>
+
+00:02:10.880 --> 00:02:10.890 align:start position:0%
+table and then put that translation in
+ 
+
+00:02:10.890 --> 00:02:13.730 align:start position:0%
+table and then put that translation in
+our<00:02:11.009><c> TLB</c><00:02:11.400><c> so</c><00:02:12.090><c> that</c><00:02:12.239><c> it</c><00:02:12.360><c> can</c><00:02:12.510><c> be</c><00:02:12.629><c> used</c><00:02:12.750><c> later</c>
+
+00:02:13.730 --> 00:02:13.740 align:start position:0%
+our TLB so that it can be used later
+ 
+
+00:02:13.740 --> 00:02:16.850 align:start position:0%
+our TLB so that it can be used later
+reiax<00:02:13.950><c> is</c><00:02:14.100><c> the</c><00:02:14.190><c> same</c><00:02:14.370><c> page</c><00:02:14.580><c> again</c>
+

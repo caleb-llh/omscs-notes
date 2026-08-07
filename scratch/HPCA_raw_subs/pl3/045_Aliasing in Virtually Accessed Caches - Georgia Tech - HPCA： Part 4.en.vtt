@@ -1,0 +1,768 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.550 align:start position:0%
+ 
+we<00:00:00.179><c> have</c><00:00:00.359><c> seen</c><00:00:00.630><c> that</c><00:00:00.870><c> virtually</c><00:00:01.439><c> accessed</c>
+
+00:00:01.550 --> 00:00:01.560 align:start position:0%
+we have seen that virtually accessed
+ 
+
+00:00:01.560 --> 00:00:04.130 align:start position:0%
+we have seen that virtually accessed
+caches<00:00:02.040><c> can</c><00:00:02.490><c> overlap</c><00:00:03.300><c> the</c><00:00:03.570><c> latency</c><00:00:04.020><c> of</c><00:00:04.049><c> the</c>
+
+00:00:04.130 --> 00:00:04.140 align:start position:0%
+caches can overlap the latency of the
+ 
+
+00:00:04.140 --> 00:00:06.860 align:start position:0%
+caches can overlap the latency of the
+TLB<00:00:04.740><c> lookup</c><00:00:05.100><c> and</c><00:00:05.310><c> the</c><00:00:05.700><c> cache</c><00:00:05.910><c> look</c><00:00:06.089><c> up</c><00:00:06.330><c> however</c>
+
+00:00:06.860 --> 00:00:06.870 align:start position:0%
+TLB lookup and the cache look up however
+ 
+
+00:00:06.870 --> 00:00:09.860 align:start position:0%
+TLB lookup and the cache look up however
+virtually<00:00:07.589><c> accessed</c><00:00:07.950><c> caches</c><00:00:08.220><c> have</c><00:00:08.700><c> a</c><00:00:09.599><c> big</c>
+
+00:00:09.860 --> 00:00:09.870 align:start position:0%
+virtually accessed caches have a big
+ 
+
+00:00:09.870 --> 00:00:13.430 align:start position:0%
+virtually accessed caches have a big
+problem<00:00:10.230><c> called</c><00:00:10.769><c> aliasing</c><00:00:11.690><c> the</c><00:00:12.690><c> problem</c><00:00:13.230><c> of</c>
+
+00:00:13.430 --> 00:00:13.440 align:start position:0%
+problem called aliasing the problem of
+ 
+
+00:00:13.440 --> 00:00:16.609 align:start position:0%
+problem called aliasing the problem of
+aliasing<00:00:14.130><c> occurs</c><00:00:14.330><c> because</c><00:00:15.330><c> in</c><00:00:15.990><c> the</c><00:00:16.170><c> virtual</c>
+
+00:00:16.609 --> 00:00:16.619 align:start position:0%
+aliasing occurs because in the virtual
+ 
+
+00:00:16.619 --> 00:00:19.400 align:start position:0%
+aliasing occurs because in the virtual
+address<00:00:16.740><c> space</c><00:00:17.220><c> of</c><00:00:17.250><c> the</c><00:00:17.460><c> application</c><00:00:18.199><c> we</c><00:00:19.199><c> can</c>
+
+00:00:19.400 --> 00:00:19.410 align:start position:0%
+address space of the application we can
+ 
+
+00:00:19.410 --> 00:00:22.099 align:start position:0%
+address space of the application we can
+have<00:00:19.619><c> one</c><00:00:19.920><c> page</c><00:00:20.250><c> map</c><00:00:20.789><c> to</c><00:00:21.150><c> some</c><00:00:21.480><c> part</c><00:00:21.810><c> of</c><00:00:21.960><c> the</c>
+
+00:00:22.099 --> 00:00:22.109 align:start position:0%
+have one page map to some part of the
+ 
+
+00:00:22.109 --> 00:00:24.920 align:start position:0%
+have one page map to some part of the
+physical<00:00:22.560><c> address</c><00:00:22.650><c> space</c><00:00:23.160><c> for</c><00:00:23.810><c> example</c><00:00:24.810><c> we</c>
+
+00:00:24.920 --> 00:00:24.930 align:start position:0%
+physical address space for example we
+ 
+
+00:00:24.930 --> 00:00:27.620 align:start position:0%
+physical address space for example we
+can<00:00:25.140><c> use</c><00:00:25.350><c> the</c><00:00:25.800><c> N</c><00:00:26.099><c> map</c><00:00:26.400><c> function</c><00:00:26.910><c> in</c><00:00:27.060><c> Linux</c><00:00:27.420><c> and</c>
+
+00:00:27.620 --> 00:00:27.630 align:start position:0%
+can use the N map function in Linux and
+ 
+
+00:00:27.630 --> 00:00:30.769 align:start position:0%
+can use the N map function in Linux and
+other<00:00:28.109><c> operating</c><00:00:28.230><c> systems</c><00:00:29.039><c> to</c><00:00:29.760><c> map</c><00:00:30.000><c> part</c><00:00:30.420><c> of</c><00:00:30.630><c> a</c>
+
+00:00:30.769 --> 00:00:30.779 align:start position:0%
+other operating systems to map part of a
+ 
+
+00:00:30.779 --> 00:00:33.170 align:start position:0%
+other operating systems to map part of a
+file<00:00:31.050><c> so</c><00:00:31.529><c> that</c><00:00:31.560><c> it</c><00:00:31.830><c> appears</c><00:00:32.309><c> in</c><00:00:32.640><c> a</c><00:00:32.730><c> range</c><00:00:32.940><c> of</c>
+
+00:00:33.170 --> 00:00:33.180 align:start position:0%
+file so that it appears in a range of
+ 
+
+00:00:33.180 --> 00:00:36.080 align:start position:0%
+file so that it appears in a range of
+memory<00:00:33.540><c> that</c><00:00:33.809><c> we</c><00:00:33.960><c> can</c><00:00:34.200><c> address</c><00:00:35.059><c> the</c><00:00:36.059><c> problem</c>
+
+00:00:36.080 --> 00:00:36.090 align:start position:0%
+memory that we can address the problem
+ 
+
+00:00:36.090 --> 00:00:38.900 align:start position:0%
+memory that we can address the problem
+occurs<00:00:36.930><c> when</c><00:00:37.320><c> another</c><00:00:37.829><c> page</c><00:00:38.250><c> in</c><00:00:38.430><c> our</c><00:00:38.520><c> virtual</c>
+
+00:00:38.900 --> 00:00:38.910 align:start position:0%
+occurs when another page in our virtual
+ 
+
+00:00:38.910 --> 00:00:40.940 align:start position:0%
+occurs when another page in our virtual
+address<00:00:39.210><c> space</c><00:00:39.450><c> is</c><00:00:39.660><c> also</c><00:00:39.989><c> mapped</c><00:00:40.440><c> to</c><00:00:40.770><c> the</c><00:00:40.920><c> same</c>
+
+00:00:40.940 --> 00:00:40.950 align:start position:0%
+address space is also mapped to the same
+ 
+
+00:00:40.950 --> 00:00:44.030 align:start position:0%
+address space is also mapped to the same
+physical<00:00:41.690><c> addresses</c><00:00:42.690><c> for</c><00:00:43.290><c> example</c><00:00:43.829><c> when</c>
+
+00:00:44.030 --> 00:00:44.040 align:start position:0%
+physical addresses for example when
+ 
+
+00:00:44.040 --> 00:00:47.209 align:start position:0%
+physical addresses for example when
+doing<00:00:44.340><c> an</c><00:00:44.610><c> a</c><00:00:45.600><c> map</c><00:00:45.899><c> of</c><00:00:46.200><c> the</c><00:00:46.379><c> same</c><00:00:46.649><c> part</c><00:00:46.980><c> of</c><00:00:47.160><c> the</c>
+
+00:00:47.209 --> 00:00:47.219 align:start position:0%
+doing an a map of the same part of the
+ 
+
+00:00:47.219 --> 00:00:50.299 align:start position:0%
+doing an a map of the same part of the
+same<00:00:47.489><c> file</c><00:00:47.820><c> to</c><00:00:48.239><c> another</c><00:00:48.719><c> address</c><00:00:49.050><c> so</c><00:00:49.920><c> now</c><00:00:50.129><c> what</c>
+
+00:00:50.299 --> 00:00:50.309 align:start position:0%
+same file to another address so now what
+ 
+
+00:00:50.309 --> 00:00:53.420 align:start position:0%
+same file to another address so now what
+we<00:00:50.460><c> have</c><00:00:50.610><c> is</c><00:00:50.820><c> two</c><00:00:51.270><c> virtual</c><00:00:51.989><c> addresses</c><00:00:52.430><c> will</c>
+
+00:00:53.420 --> 00:00:53.430 align:start position:0%
+we have is two virtual addresses will
+ 
+
+00:00:53.430 --> 00:00:55.490 align:start position:0%
+we have is two virtual addresses will
+actually<00:00:53.910><c> refer</c><00:00:54.210><c> to</c><00:00:54.239><c> the</c><00:00:54.539><c> same</c><00:00:54.780><c> physical</c>
+
+00:00:55.490 --> 00:00:55.500 align:start position:0%
+actually refer to the same physical
+ 
+
+00:00:55.500 --> 00:00:58.700 align:start position:0%
+actually refer to the same physical
+location<00:00:56.149><c> to</c><00:00:57.149><c> see</c><00:00:57.360><c> why</c><00:00:57.570><c> this</c><00:00:57.629><c> is</c><00:00:58.020><c> a</c><00:00:58.050><c> problem</c><00:00:58.379><c> in</c>
+
+00:00:58.700 --> 00:00:58.710 align:start position:0%
+location to see why this is a problem in
+ 
+
+00:00:58.710 --> 00:01:00.979 align:start position:0%
+location to see why this is a problem in
+a<00:00:58.800><c> virtual</c><00:00:59.160><c> access</c><00:00:59.370><c> cache</c><00:00:59.789><c> let's</c><00:01:00.510><c> look</c><00:01:00.719><c> at</c><00:01:00.870><c> two</c>
+
+00:01:00.979 --> 00:01:00.989 align:start position:0%
+a virtual access cache let's look at two
+ 
+
+00:01:00.989 --> 00:01:02.840 align:start position:0%
+a virtual access cache let's look at two
+specific<00:01:01.199><c> addresses</c><00:01:01.980><c> so</c><00:01:02.129><c> let's</c><00:01:02.340><c> say</c><00:01:02.489><c> that</c><00:01:02.670><c> a</c>
+
+00:01:02.840 --> 00:01:02.850 align:start position:0%
+specific addresses so let's say that a
+ 
+
+00:01:02.850 --> 00:01:08.690 align:start position:0%
+specific addresses so let's say that a
+and<00:01:02.879><c> B</c><00:01:03.210><c> are</c><00:01:03.439><c> 1</c><00:01:04.439><c> 2</c><00:01:04.650><c> 3</c><00:01:04.680><c> 4</c><00:01:05.159><c> 5</c><00:01:05.460><c> 0</c><00:01:05.880><c> 0</c><00:01:06.210><c> 0</c><00:01:06.659><c> and</c><00:01:06.960><c> a</c><00:01:07.500><c> b</c><00:01:07.950><c> c</c><00:01:08.220><c> d</c><00:01:08.250><c> e</c>
+
+00:01:08.690 --> 00:01:08.700 align:start position:0%
+and B are 1 2 3 4 5 0 0 0 and a b c d e
+ 
+
+00:01:08.700 --> 00:01:12.440 align:start position:0%
+and B are 1 2 3 4 5 0 0 0 and a b c d e
+0<00:01:09.540><c> 0</c><00:01:09.840><c> 0</c><00:01:10.020><c> and</c><00:01:10.380><c> let's</c><00:01:11.100><c> say</c><00:01:11.250><c> that</c><00:01:11.280><c> we</c><00:01:11.549><c> have</c><00:01:11.729><c> a</c><00:01:11.760><c> 64</c>
+
+00:01:12.440 --> 00:01:12.450 align:start position:0%
+0 0 0 and let's say that we have a 64
+ 
+
+00:01:12.450 --> 00:01:14.750 align:start position:0%
+0 0 0 and let's say that we have a 64
+kilobyte<00:01:12.930><c> direct</c><00:01:13.380><c> mapped</c><00:01:13.680><c> cache</c><00:01:13.799><c> with</c><00:01:14.250><c> a</c><00:01:14.280><c> 16</c>
+
+00:01:14.750 --> 00:01:14.760 align:start position:0%
+kilobyte direct mapped cache with a 16
+ 
+
+00:01:14.760 --> 00:01:16.789 align:start position:0%
+kilobyte direct mapped cache with a 16
+byte<00:01:14.939><c> block</c><00:01:15.210><c> size</c><00:01:15.240><c> and</c><00:01:15.840><c> that</c><00:01:16.380><c> is</c><00:01:16.590><c> virtually</c>
+
+00:01:16.789 --> 00:01:16.799 align:start position:0%
+byte block size and that is virtually
+ 
+
+00:01:16.799 --> 00:01:19.460 align:start position:0%
+byte block size and that is virtually
+accessed<00:01:17.250><c> so</c><00:01:18.240><c> let's</c><00:01:18.450><c> say</c><00:01:18.600><c> that</c><00:01:18.630><c> this</c><00:01:18.990><c> is</c><00:01:19.259><c> our</c>
+
+00:01:19.460 --> 00:01:19.470 align:start position:0%
+accessed so let's say that this is our
+ 
+
+00:01:19.470 --> 00:01:23.780 align:start position:0%
+accessed so let's say that this is our
+64<00:01:20.189><c> kilobyte</c><00:01:20.670><c> cache</c><00:01:20.750><c> for</c><00:01:21.750><c> this</c><00:01:21.960><c> cache</c><00:01:22.520><c> we</c><00:01:23.520><c> have</c>
+
+00:01:23.780 --> 00:01:23.790 align:start position:0%
+64 kilobyte cache for this cache we have
+ 
+
+00:01:23.790 --> 00:01:27.380 align:start position:0%
+64 kilobyte cache for this cache we have
+a<00:01:24.000><c> 4</c><00:01:24.900><c> bit</c><00:01:25.200><c> offset</c><00:01:25.920><c> part</c><00:01:26.790><c> of</c><00:01:27.060><c> the</c><00:01:27.210><c> address</c>
+
+00:01:27.380 --> 00:01:27.390 align:start position:0%
+a 4 bit offset part of the address
+ 
+
+00:01:27.390 --> 00:01:31.340 align:start position:0%
+a 4 bit offset part of the address
+because<00:01:28.200><c> of</c><00:01:28.500><c> the</c><00:01:28.619><c> 16</c><00:01:29.009><c> byte</c><00:01:29.189><c> block</c><00:01:29.490><c> size</c><00:01:30.110><c> it's</c><00:01:31.110><c> a</c>
+
+00:01:31.340 --> 00:01:31.350 align:start position:0%
+because of the 16 byte block size it's a
+ 
+
+00:01:31.350 --> 00:01:35.210 align:start position:0%
+because of the 16 byte block size it's a
+64<00:01:31.979><c> kilobyte</c><00:01:32.549><c> cache</c><00:01:32.810><c> so</c><00:01:33.810><c> the</c><00:01:33.960><c> next</c><00:01:34.380><c> 12</c><00:01:34.829><c> bits</c>
+
+00:01:35.210 --> 00:01:35.220 align:start position:0%
+64 kilobyte cache so the next 12 bits
+ 
+
+00:01:35.220 --> 00:01:38.090 align:start position:0%
+64 kilobyte cache so the next 12 bits
+are<00:01:35.640><c> going</c><00:01:36.210><c> to</c><00:01:36.720><c> be</c><00:01:36.869><c> the</c><00:01:37.049><c> index</c><00:01:37.290><c> into</c><00:01:37.860><c> this</c>
+
+00:01:38.090 --> 00:01:38.100 align:start position:0%
+are going to be the index into this
+ 
+
+00:01:38.100 --> 00:01:41.660 align:start position:0%
+are going to be the index into this
+cache<00:01:38.780><c> 64</c><00:01:39.780><c> kilobytes</c><00:01:40.229><c> divided</c><00:01:40.890><c> by</c><00:01:41.009><c> 16</c><00:01:41.430><c> bytes</c>
+
+00:01:41.660 --> 00:01:41.670 align:start position:0%
+cache 64 kilobytes divided by 16 bytes
+ 
+
+00:01:41.670 --> 00:01:45.469 align:start position:0%
+cache 64 kilobytes divided by 16 bytes
+is<00:01:41.970><c> 4</c><00:01:42.810><c> kilo</c><00:01:43.140><c> entries</c><00:01:43.799><c> so</c><00:01:44.399><c> we</c><00:01:44.549><c> need</c><00:01:44.700><c> 2</c><00:01:44.909><c> to</c><00:01:45.060><c> the</c><00:01:45.180><c> 12</c>
+
+00:01:45.469 --> 00:01:45.479 align:start position:0%
+is 4 kilo entries so we need 2 to the 12
+ 
+
+00:01:45.479 --> 00:01:49.010 align:start position:0%
+is 4 kilo entries so we need 2 to the 12
+index<00:01:46.110><c> bits</c><00:01:46.259><c> to</c><00:01:46.560><c> tell</c><00:01:46.770><c> us</c><00:01:46.920><c> which</c><00:01:47.640><c> index</c><00:01:48.540><c> do</c><00:01:48.899><c> we</c>
+
+00:01:49.010 --> 00:01:49.020 align:start position:0%
+index bits to tell us which index do we
+ 
+
+00:01:49.020 --> 00:01:51.679 align:start position:0%
+index bits to tell us which index do we
+have<00:01:49.259><c> and</c><00:01:49.640><c> the</c><00:01:50.640><c> rest</c><00:01:50.850><c> of</c><00:01:51.119><c> the</c><00:01:51.240><c> bits</c><00:01:51.420><c> in</c><00:01:51.570><c> the</c>
+
+00:01:51.679 --> 00:01:51.689 align:start position:0%
+have and the rest of the bits in the
+ 
+
+00:01:51.689 --> 00:01:54.170 align:start position:0%
+have and the rest of the bits in the
+addresses<00:01:52.110><c> attacks</c><00:01:52.500><c> so</c><00:01:53.340><c> this</c><00:01:53.549><c> is</c><00:01:53.850><c> how</c><00:01:54.119><c> the</c>
+
+00:01:54.170 --> 00:01:54.180 align:start position:0%
+addresses attacks so this is how the
+ 
+
+00:01:54.180 --> 00:01:57.139 align:start position:0%
+addresses attacks so this is how the
+aliasing<00:01:54.899><c> problem</c><00:01:55.259><c> occurs</c><00:01:55.700><c> let's</c><00:01:56.700><c> say</c><00:01:56.939><c> that</c>
+
+00:01:57.139 --> 00:01:57.149 align:start position:0%
+aliasing problem occurs let's say that
+ 
+
+00:01:57.149 --> 00:02:00.520 align:start position:0%
+aliasing problem occurs let's say that
+the<00:01:57.299><c> processor</c><00:01:57.930><c> writes</c><00:01:58.290><c> a</c><00:01:58.680><c> value</c><00:01:59.460><c> of</c><00:01:59.579><c> 16</c><00:02:00.119><c> to</c><00:02:00.390><c> a</c>
+
+00:02:00.520 --> 00:02:00.530 align:start position:0%
+the processor writes a value of 16 to a
+ 
+
+00:02:00.530 --> 00:02:04.819 align:start position:0%
+the processor writes a value of 16 to a
+it<00:02:01.530><c> breaks</c><00:02:01.950><c> down</c><00:02:02.189><c> the</c><00:02:02.399><c> address</c><00:02:03.530><c> indexes</c><00:02:04.530><c> into</c>
+
+00:02:04.819 --> 00:02:04.829 align:start position:0%
+it breaks down the address indexes into
+ 
+
+00:02:04.829 --> 00:02:08.510 align:start position:0%
+it breaks down the address indexes into
+the<00:02:05.100><c> cache</c><00:02:05.659><c> using</c><00:02:06.659><c> the</c><00:02:06.780><c> index</c><00:02:07.200><c> of</c><00:02:07.380><c> hex</c><00:02:07.649><c> 500</c>
+
+00:02:08.510 --> 00:02:08.520 align:start position:0%
+the cache using the index of hex 500
+ 
+
+00:02:08.520 --> 00:02:10.820 align:start position:0%
+the cache using the index of hex 500
+let's<00:02:09.330><c> say</c><00:02:09.479><c> that</c><00:02:09.629><c> this</c><00:02:09.780><c> is</c><00:02:09.840><c> a</c><00:02:09.989><c> cache</c><00:02:10.259><c> miss</c><00:02:10.530><c> so</c>
+
+00:02:10.820 --> 00:02:10.830 align:start position:0%
+let's say that this is a cache miss so
+ 
+
+00:02:10.830 --> 00:02:13.280 align:start position:0%
+let's say that this is a cache miss so
+we<00:02:11.370><c> go</c><00:02:11.550><c> to</c><00:02:11.580><c> memory</c><00:02:11.970><c> and</c><00:02:12.300><c> from</c><00:02:12.510><c> the</c><00:02:12.720><c> physical</c>
+
+00:02:13.280 --> 00:02:13.290 align:start position:0%
+we go to memory and from the physical
+ 
+
+00:02:13.290 --> 00:02:13.850 align:start position:0%
+we go to memory and from the physical
+location
+
+00:02:13.850 --> 00:02:13.860 align:start position:0%
+location
+ 
+
+00:02:13.860 --> 00:02:16.730 align:start position:0%
+location
+where<00:02:14.040><c> this</c><00:02:14.250><c> data</c><00:02:14.490><c> is</c><00:02:14.820><c> mapping</c><00:02:15.240><c> to</c><00:02:15.450><c> we</c><00:02:15.960><c> fetch</c><00:02:16.290><c> a</c>
+
+00:02:16.730 --> 00:02:16.740 align:start position:0%
+where this data is mapping to we fetch a
+ 
+
+00:02:16.740 --> 00:02:20.810 align:start position:0%
+where this data is mapping to we fetch a
+value<00:02:17.610><c> and</c><00:02:17.880><c> let's</c><00:02:18.630><c> say</c><00:02:18.840><c> that</c><00:02:19.050><c> this</c><00:02:19.230><c> value</c><00:02:19.470><c> is</c><00:02:19.890><c> 4</c>
+
+00:02:20.810 --> 00:02:20.820 align:start position:0%
+value and let's say that this value is 4
+ 
+
+00:02:20.820 --> 00:02:24.110 align:start position:0%
+value and let's say that this value is 4
+once<00:02:21.720><c> we</c><00:02:21.900><c> fetch</c><00:02:22.230><c> the</c><00:02:22.440><c> cache</c><00:02:22.650><c> block</c><00:02:22.890><c> we</c><00:02:23.460><c> now</c><00:02:23.670><c> put</c>
+
+00:02:24.110 --> 00:02:24.120 align:start position:0%
+once we fetch the cache block we now put
+ 
+
+00:02:24.120 --> 00:02:26.810 align:start position:0%
+once we fetch the cache block we now put
+16<00:02:24.690><c> there</c><00:02:24.990><c> and</c><00:02:25.170><c> the</c><00:02:25.800><c> new</c><00:02:25.980><c> content</c><00:02:26.520><c> of</c><00:02:26.700><c> the</c>
+
+00:02:26.810 --> 00:02:26.820 align:start position:0%
+16 there and the new content of the
+ 
+
+00:02:26.820 --> 00:02:28.970 align:start position:0%
+16 there and the new content of the
+cache<00:02:27.060><c> block</c><00:02:27.300><c> is</c><00:02:27.420><c> 16</c><00:02:27.990><c> let's</c><00:02:28.500><c> say</c><00:02:28.650><c> this</c><00:02:28.770><c> is</c><00:02:28.830><c> a</c>
+
+00:02:28.970 --> 00:02:28.980 align:start position:0%
+cache block is 16 let's say this is a
+ 
+
+00:02:28.980 --> 00:02:30.980 align:start position:0%
+cache block is 16 let's say this is a
+write-back<00:02:29.460><c> cache</c><00:02:29.490><c> so</c><00:02:29.970><c> this</c><00:02:30.150><c> 16</c><00:02:30.540><c> just</c><00:02:30.780><c> stays</c>
+
+00:02:30.980 --> 00:02:30.990 align:start position:0%
+write-back cache so this 16 just stays
+ 
+
+00:02:30.990 --> 00:02:32.960 align:start position:0%
+write-back cache so this 16 just stays
+there<00:02:31.260><c> now</c><00:02:31.860><c> let's</c><00:02:32.160><c> see</c><00:02:32.280><c> what</c><00:02:32.430><c> happens</c><00:02:32.790><c> when</c><00:02:32.910><c> we</c>
+
+00:02:32.960 --> 00:02:32.970 align:start position:0%
+there now let's see what happens when we
+ 
+
+00:02:32.970 --> 00:02:35.900 align:start position:0%
+there now let's see what happens when we
+try<00:02:33.210><c> to</c><00:02:33.240><c> read</c><00:02:33.630><c> B</c><00:02:33.960><c> we</c><00:02:34.890><c> index</c><00:02:35.430><c> into</c><00:02:35.760><c> the</c><00:02:35.880><c> cache</c>
+
+00:02:35.900 --> 00:02:35.910 align:start position:0%
+try to read B we index into the cache
+ 
+
+00:02:35.910 --> 00:02:39.800 align:start position:0%
+try to read B we index into the cache
+using<00:02:36.630><c> the</c><00:02:36.750><c> index</c><00:02:37.200><c> for</c><00:02:37.410><c> B</c><00:02:37.620><c> which</c><00:02:37.980><c> is</c><00:02:38.160><c> e</c><00:02:38.400><c> 0</c><00:02:38.700><c> 0</c><00:02:38.940><c> hex</c>
+
+00:02:39.800 --> 00:02:39.810 align:start position:0%
+using the index for B which is e 0 0 hex
+ 
+
+00:02:39.810 --> 00:02:42.740 align:start position:0%
+using the index for B which is e 0 0 hex
+and<00:02:40.080><c> because</c><00:02:40.850><c> what</c><00:02:41.850><c> we</c><00:02:42.030><c> are</c><00:02:42.060><c> looking</c><00:02:42.300><c> for</c><00:02:42.450><c> is</c>
+
+00:02:42.740 --> 00:02:42.750 align:start position:0%
+and because what we are looking for is
+ 
+
+00:02:42.750 --> 00:02:46.310 align:start position:0%
+and because what we are looking for is
+not<00:02:42.780><c> here</c><00:02:43.500><c> we</c><00:02:44.160><c> go</c><00:02:44.400><c> to</c><00:02:44.459><c> memory</c><00:02:44.880><c> and</c><00:02:45.300><c> fetch</c><00:02:45.630><c> the</c>
+
+00:02:46.310 --> 00:02:46.320 align:start position:0%
+not here we go to memory and fetch the
+ 
+
+00:02:46.320 --> 00:02:48.890 align:start position:0%
+not here we go to memory and fetch the
+value<00:02:46.740><c> and</c><00:02:46.950><c> this</c><00:02:47.520><c> maps</c><00:02:47.790><c> to</c><00:02:47.970><c> the</c><00:02:48.090><c> same</c><00:02:48.330><c> physical</c>
+
+00:02:48.890 --> 00:02:48.900 align:start position:0%
+value and this maps to the same physical
+ 
+
+00:02:48.900 --> 00:02:52.640 align:start position:0%
+value and this maps to the same physical
+memory<00:02:49.170><c> location</c><00:02:49.800><c> so</c><00:02:50.580><c> we</c><00:02:50.760><c> are</c><00:02:50.820><c> going</c><00:02:51.060><c> to</c><00:02:51.180><c> get</c><00:02:51.650><c> 4</c>
+
+00:02:52.640 --> 00:02:52.650 align:start position:0%
+memory location so we are going to get 4
+ 
+
+00:02:52.650 --> 00:02:55.010 align:start position:0%
+memory location so we are going to get 4
+again<00:02:53.070><c> and</c><00:02:53.340><c> now</c><00:02:53.880><c> we</c><00:02:53.940><c> are</c><00:02:54.180><c> going</c><00:02:54.390><c> to</c><00:02:54.600><c> read</c><00:02:54.780><c> that</c>
+
+00:02:55.010 --> 00:02:55.020 align:start position:0%
+again and now we are going to read that
+ 
+
+00:02:55.020 --> 00:02:57.140 align:start position:0%
+again and now we are going to read that
+note<00:02:55.590><c> that</c><00:02:55.800><c> this</c><00:02:55.920><c> problem</c><00:02:56.280><c> is</c><00:02:56.580><c> not</c><00:02:56.640><c> just</c><00:02:57.060><c> a</c>
+
+00:02:57.140 --> 00:02:57.150 align:start position:0%
+note that this problem is not just a
+ 
+
+00:02:57.150 --> 00:02:59.449 align:start position:0%
+note that this problem is not just a
+problem<00:02:57.360><c> on</c><00:02:57.660><c> the</c><00:02:57.780><c> cache</c><00:02:57.989><c> misses</c><00:02:58.320><c> from</c><00:02:58.980><c> now</c><00:02:59.190><c> on</c>
+
+00:02:59.449 --> 00:02:59.459 align:start position:0%
+problem on the cache misses from now on
+ 
+
+00:02:59.459 --> 00:03:01.699 align:start position:0%
+problem on the cache misses from now on
+whenever<00:02:59.850><c> we</c><00:03:00.150><c> write</c><00:03:00.360><c> 2a</c><00:03:00.630><c> we</c><00:03:00.989><c> will</c><00:03:01.140><c> be</c><00:03:01.260><c> changing</c>
+
+00:03:01.699 --> 00:03:01.709 align:start position:0%
+whenever we write 2a we will be changing
+ 
+
+00:03:01.709 --> 00:03:04.130 align:start position:0%
+whenever we write 2a we will be changing
+this<00:03:01.950><c> cache</c><00:03:02.580><c> block</c><00:03:02.910><c> and</c><00:03:03.180><c> whenever</c><00:03:03.720><c> we</c><00:03:03.930><c> read</c>
+
+00:03:04.130 --> 00:03:04.140 align:start position:0%
+this cache block and whenever we read
+ 
+
+00:03:04.140 --> 00:03:05.930 align:start position:0%
+this cache block and whenever we read
+from<00:03:04.350><c> B</c><00:03:04.560><c> we</c><00:03:04.800><c> will</c><00:03:04.950><c> be</c><00:03:05.100><c> reading</c><00:03:05.430><c> this</c><00:03:05.610><c> cache</c>
+
+00:03:05.930 --> 00:03:05.940 align:start position:0%
+from B we will be reading this cache
+ 
+
+00:03:05.940 --> 00:03:08.390 align:start position:0%
+from B we will be reading this cache
+block<00:03:06.209><c> so</c><00:03:06.720><c> they</c><00:03:06.900><c> never</c><00:03:07.140><c> really</c><00:03:07.950><c> end</c><00:03:08.190><c> up</c>
+
+00:03:08.390 --> 00:03:08.400 align:start position:0%
+block so they never really end up
+ 
+
+00:03:08.400 --> 00:03:10.580 align:start position:0%
+block so they never really end up
+sharing<00:03:08.880><c> the</c><00:03:08.970><c> data</c><00:03:09.120><c> as</c><00:03:09.480><c> they</c><00:03:09.660><c> should</c><00:03:09.720><c> what</c>
+
+00:03:10.580 --> 00:03:10.590 align:start position:0%
+sharing the data as they should what
+ 
+
+00:03:10.590 --> 00:03:12.890 align:start position:0%
+sharing the data as they should what
+should<00:03:10.620><c> have</c><00:03:10.980><c> happened</c><00:03:11.010><c> is</c><00:03:11.459><c> because</c><00:03:11.820><c> a</c><00:03:12.060><c> and</c><00:03:12.630><c> B</c>
+
+00:03:12.890 --> 00:03:12.900 align:start position:0%
+should have happened is because a and B
+ 
+
+00:03:12.900 --> 00:03:15.770 align:start position:0%
+should have happened is because a and B
+are<00:03:13.140><c> really</c><00:03:13.440><c> the</c><00:03:13.560><c> same</c><00:03:13.830><c> data</c><00:03:14.390><c> when</c><00:03:15.390><c> we</c><00:03:15.420><c> write</c>
+
+00:03:15.770 --> 00:03:15.780 align:start position:0%
+are really the same data when we write
+ 
+
+00:03:15.780 --> 00:03:17.990 align:start position:0%
+are really the same data when we write
+to<00:03:15.989><c> a</c><00:03:16.020><c> and</c><00:03:16.440><c> read</c><00:03:16.709><c> B</c><00:03:16.950><c> we</c><00:03:17.190><c> should</c><00:03:17.400><c> be</c><00:03:17.550><c> getting</c><00:03:17.880><c> the</c>
+
+00:03:17.990 --> 00:03:18.000 align:start position:0%
+to a and read B we should be getting the
+ 
+
+00:03:18.000 --> 00:03:21.770 align:start position:0%
+to a and read B we should be getting the
+same<00:03:18.209><c> data</c><00:03:18.450><c> and</c><00:03:18.870><c> this</c><00:03:19.769><c> problem</c><00:03:20.570><c> results</c><00:03:21.570><c> in</c>
+
+00:03:21.770 --> 00:03:21.780 align:start position:0%
+same data and this problem results in
+ 
+
+00:03:21.780 --> 00:03:24.289 align:start position:0%
+same data and this problem results in
+incorrect<00:03:22.530><c> execution</c><00:03:23.370><c> whenever</c><00:03:23.850><c> we</c><00:03:24.090><c> have</c>
+
+00:03:24.289 --> 00:03:24.299 align:start position:0%
+incorrect execution whenever we have
+ 
+
+00:03:24.299 --> 00:03:26.870 align:start position:0%
+incorrect execution whenever we have
+such<00:03:24.750><c> a</c><00:03:24.780><c> mapping</c><00:03:25.580><c> unfortunately</c><00:03:26.580><c> such</c>
+
+00:03:26.870 --> 00:03:26.880 align:start position:0%
+such a mapping unfortunately such
+ 
+
+00:03:26.880 --> 00:03:28.970 align:start position:0%
+such a mapping unfortunately such
+mappings<00:03:27.360><c> are</c><00:03:27.510><c> perfectly</c><00:03:27.989><c> legal</c><00:03:28.260><c> to</c><00:03:28.620><c> do</c><00:03:28.769><c> in</c>
+
+00:03:28.970 --> 00:03:28.980 align:start position:0%
+mappings are perfectly legal to do in
+ 
+
+00:03:28.980 --> 00:03:31.729 align:start position:0%
+mappings are perfectly legal to do in
+most<00:03:29.130><c> operating</c><00:03:29.370><c> systems</c><00:03:30.260><c> so</c><00:03:31.260><c> virtually</c>
+
+00:03:31.729 --> 00:03:31.739 align:start position:0%
+most operating systems so virtually
+ 
+
+00:03:31.739 --> 00:03:34.610 align:start position:0%
+most operating systems so virtually
+accessed<00:03:32.070><c> caches</c><00:03:32.510><c> need</c><00:03:33.510><c> additional</c><00:03:33.930><c> support</c>
+
+00:03:34.610 --> 00:03:34.620 align:start position:0%
+accessed caches need additional support
+ 
+
+00:03:34.620 --> 00:03:37.670 align:start position:0%
+accessed caches need additional support
+for<00:03:35.340><c> this</c><00:03:35.549><c> every</c><00:03:36.540><c> time</c><00:03:36.750><c> we</c><00:03:36.900><c> write</c><00:03:37.170><c> to</c><00:03:37.470><c> any</c>
+
+00:03:37.670 --> 00:03:37.680 align:start position:0%
+for this every time we write to any
+ 
+
+00:03:37.680 --> 00:03:39.860 align:start position:0%
+for this every time we write to any
+virtual<00:03:38.160><c> location</c><00:03:38.880><c> we</c><00:03:39.150><c> would</c><00:03:39.299><c> have</c><00:03:39.510><c> to</c><00:03:39.690><c> do</c><00:03:39.840><c> a</c>
+
+00:03:39.860 --> 00:03:39.870 align:start position:0%
+virtual location we would have to do a
+ 
+
+00:03:39.870 --> 00:03:44.000 align:start position:0%
+virtual location we would have to do a
+check<00:03:40.200><c> for</c><00:03:40.830><c> aliases</c><00:03:41.670><c> or</c><00:03:42.470><c> different</c><00:03:43.470><c> versions</c>
+
+00:03:44.000 --> 00:03:44.010 align:start position:0%
+check for aliases or different versions
+ 
+
+00:03:44.010 --> 00:03:46.190 align:start position:0%
+check for aliases or different versions
+of<00:03:44.220><c> the</c><00:03:44.640><c> same</c><00:03:44.880><c> physical</c><00:03:45.450><c> data</c><00:03:45.690><c> in</c><00:03:45.870><c> the</c><00:03:45.989><c> cache</c>
+
+00:03:46.190 --> 00:03:46.200 align:start position:0%
+of the same physical data in the cache
+ 
+
+00:03:46.200 --> 00:03:48.770 align:start position:0%
+of the same physical data in the cache
+and<00:03:46.530><c> either</c><00:03:47.030><c> invalidate</c><00:03:48.030><c> them</c><00:03:48.269><c> remove</c><00:03:48.750><c> them</c>
+
+00:03:48.770 --> 00:03:48.780 align:start position:0%
+and either invalidate them remove them
+ 
+
+00:03:48.780 --> 00:03:51.410 align:start position:0%
+and either invalidate them remove them
+from<00:03:49.019><c> the</c><00:03:49.200><c> cache</c><00:03:49.380><c> or</c><00:03:49.680><c> update</c><00:03:50.220><c> them</c><00:03:50.459><c> so</c><00:03:51.180><c> that</c>
+
+00:03:51.410 --> 00:03:51.420 align:start position:0%
+from the cache or update them so that
+ 
+
+00:03:51.420 --> 00:03:54.199 align:start position:0%
+from the cache or update them so that
+they<00:03:51.959><c> would</c><00:03:52.110><c> see</c><00:03:52.320><c> the</c><00:03:52.500><c> new</c><00:03:52.620><c> value</c><00:03:53.040><c> and</c><00:03:53.190><c> this</c><00:03:54.030><c> is</c>
+
+00:03:54.199 --> 00:03:54.209 align:start position:0%
+they would see the new value and this is
+ 
+
+00:03:54.209 --> 00:03:55.850 align:start position:0%
+they would see the new value and this is
+really<00:03:54.390><c> expensive</c><00:03:54.840><c> to</c><00:03:55.170><c> do</c><00:03:55.320><c> any</c><00:03:55.500><c> kind</c><00:03:55.799><c> of</c>
+
+00:03:55.850 --> 00:03:55.860 align:start position:0%
+really expensive to do any kind of
+ 
+
+00:03:55.860 --> 00:03:57.770 align:start position:0%
+really expensive to do any kind of
+defeats<00:03:56.190><c> the</c><00:03:56.280><c> purpose</c><00:03:56.400><c> of</c><00:03:57.000><c> virtually</c>
+
+00:03:57.770 --> 00:03:57.780 align:start position:0%
+defeats the purpose of virtually
+ 
+
+00:03:57.780 --> 00:03:59.660 align:start position:0%
+defeats the purpose of virtually
+accessed<00:03:58.080><c> caches</c><00:03:58.320><c> which</c><00:03:58.680><c> are</c><00:03:58.830><c> all</c><00:03:59.010><c> about</c><00:03:59.340><c> the</c>
+
+00:03:59.660 --> 00:03:59.670 align:start position:0%
+accessed caches which are all about the
+ 
+
+00:03:59.670 --> 00:04:01.280 align:start position:0%
+accessed caches which are all about the
+latency<00:04:00.239><c> and</c><00:04:00.390><c> not</c><00:04:00.600><c> needing</c><00:04:01.019><c> to</c><00:04:01.049><c> do</c>
+
+00:04:01.280 --> 00:04:01.290 align:start position:0%
+latency and not needing to do
+ 
+
+00:04:01.290 --> 00:04:03.740 align:start position:0%
+latency and not needing to do
+translation<00:04:01.920><c> now</c><00:04:02.489><c> when</c><00:04:02.760><c> we</c><00:04:02.910><c> write</c><00:04:03.269><c> here</c><00:04:03.600><c> we</c>
+
+00:04:03.740 --> 00:04:03.750 align:start position:0%
+translation now when we write here we
+ 
+
+00:04:03.750 --> 00:04:06.710 align:start position:0%
+translation now when we write here we
+would<00:04:03.900><c> need</c><00:04:04.080><c> to</c><00:04:04.140><c> do</c><00:04:04.350><c> translation</c><00:04:04.950><c> in</c><00:04:05.820><c> order</c><00:04:06.360><c> to</c>
+
+00:04:06.710 --> 00:04:06.720 align:start position:0%
+would need to do translation in order to
+ 
+
+00:04:06.720 --> 00:04:08.990 align:start position:0%
+would need to do translation in order to
+check<00:04:06.989><c> where</c><00:04:07.799><c> else</c><00:04:08.070><c> do</c><00:04:08.370><c> we</c><00:04:08.430><c> have</c><00:04:08.519><c> the</c><00:04:08.790><c> same</c>
+
+00:04:08.990 --> 00:04:09.000 align:start position:0%
+check where else do we have the same
+ 
+
+00:04:09.000 --> 00:04:12.170 align:start position:0%
+check where else do we have the same
+happen<00:04:09.500><c> to</c><00:04:10.500><c> summarize</c><00:04:11.010><c> this</c><00:04:11.250><c> will</c><00:04:11.940><c> like</c>
+
+00:04:12.170 --> 00:04:12.180 align:start position:0%
+happen to summarize this will like
+ 
+
+00:04:12.180 --> 00:04:14.390 align:start position:0%
+happen to summarize this will like
+virtually<00:04:12.750><c> accessed</c><00:04:12.870><c> caches</c><00:04:13.380><c> because</c><00:04:14.100><c> they</c>
+
+00:04:14.390 --> 00:04:14.400 align:start position:0%
+virtually accessed caches because they
+ 
+
+00:04:14.400 --> 00:04:16.340 align:start position:0%
+virtually accessed caches because they
+allow<00:04:14.640><c> us</c><00:04:14.670><c> to</c><00:04:14.970><c> overlap</c><00:04:15.299><c> TLB</c><00:04:15.720><c> latency</c><00:04:16.200><c> with</c>
+
+00:04:16.340 --> 00:04:16.350 align:start position:0%
+allow us to overlap TLB latency with
+ 
+
+00:04:16.350 --> 00:04:19.550 align:start position:0%
+allow us to overlap TLB latency with
+cache<00:04:16.590><c> latency</c><00:04:17.220><c> but</c><00:04:18.030><c> we</c><00:04:18.690><c> cannot</c><00:04:19.019><c> use</c><00:04:19.290><c> them</c>
+
+00:04:19.550 --> 00:04:19.560 align:start position:0%
+cache latency but we cannot use them
+ 
+
+00:04:19.560 --> 00:04:21.710 align:start position:0%
+cache latency but we cannot use them
+because<00:04:20.100><c> of</c><00:04:20.340><c> the</c><00:04:20.459><c> aliasing</c><00:04:20.940><c> problem</c><00:04:21.419><c> that</c>
+
+00:04:21.710 --> 00:04:21.720 align:start position:0%
+because of the aliasing problem that
+ 
+
+00:04:21.720 --> 00:04:23.480 align:start position:0%
+because of the aliasing problem that
+seriously<00:04:22.260><c> complicates</c><00:04:22.950><c> their</c>
+
+00:04:23.480 --> 00:04:23.490 align:start position:0%
+seriously complicates their
+ 
+
+00:04:23.490 --> 00:04:26.330 align:start position:0%
+seriously complicates their
+implementation
+

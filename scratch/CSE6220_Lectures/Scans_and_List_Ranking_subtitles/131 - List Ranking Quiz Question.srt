@@ -1,0 +1,28 @@
+1
+00:00:00,330 --> 00:00:05,220
+ Suppose it were possible to formulate the list ranking problem as a scan,
+
+2
+00:00:05,220 --> 00:00:07,500
+ what values would you scan?
+
+3
+00:00:07,500 --> 00:00:09,920
+ That is, imagine you have this list and
+
+4
+00:00:09,920 --> 00:00:13,618
+ you're allowed to put any value into each of these boxes.
+
+5
+00:00:13,618 --> 00:00:17,100
+ And you want to to choose those initial values, so that if you were to do a scan
+
+6
+00:00:17,100 --> 00:00:21,610
+ on the list, you would get the ranks shown here.
+
+7
+00:00:21,610 --> 00:00:21,610
+ So here's your mission, enter the values as integers into each of these boxes.
+

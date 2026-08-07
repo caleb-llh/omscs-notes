@@ -1,0 +1,664 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.990 align:start position:0%
+ 
+It<00:00:00.200><c> turns</c><00:00:00.560><c> out</c><00:00:00.720><c> that</c><00:00:00.920><c> consistency</c><00:00:01.600><c> does</c>
+
+00:00:01.990 --> 00:00:02.000 align:start position:0%
+It turns out that consistency does
+ 
+
+00:00:02.000 --> 00:00:04.510 align:start position:0%
+It turns out that consistency does
+matter<00:00:02.560><c> and</c><00:00:02.760><c> here's</c><00:00:03.080><c> how.</c><00:00:03.720><c> Let's</c><00:00:04.000><c> say</c><00:00:04.160><c> that</c><00:00:04.360><c> in</c>
+
+00:00:04.510 --> 00:00:04.520 align:start position:0%
+matter and here's how. Let's say that in
+ 
+
+00:00:04.520 --> 00:00:07.510 align:start position:0%
+matter and here's how. Let's say that in
+program<00:00:05.040><c> order</c><00:00:05.720><c> two</c><00:00:05.920><c> cores</c><00:00:06.360><c> do</c><00:00:06.560><c> this.</c><00:00:07.360><c> The</c>
+
+00:00:07.510 --> 00:00:07.520 align:start position:0%
+program order two cores do this. The
+ 
+
+00:00:07.520 --> 00:00:10.590 align:start position:0%
+program order two cores do this. The
+first<00:00:07.920><c> core</c><00:00:08.520><c> is</c><00:00:08.720><c> going</c><00:00:08.880><c> to</c><00:00:08.960><c> store</c><00:00:09.360><c> a</c><00:00:09.520><c> one</c><00:00:10.320><c> into</c>
+
+00:00:10.590 --> 00:00:10.600 align:start position:0%
+first core is going to store a one into
+ 
+
+00:00:10.600 --> 00:00:14.270 align:start position:0%
+first core is going to store a one into
+location<00:00:11.160><c> D</c><00:00:11.880><c> and</c><00:00:12.080><c> then</c><00:00:12.280><c> store</c><00:00:13.080><c> a</c><00:00:13.280><c> one</c><00:00:13.960><c> into</c>
+
+00:00:14.270 --> 00:00:14.280 align:start position:0%
+location D and then store a one into
+ 
+
+00:00:14.280 --> 00:00:16.790 align:start position:0%
+location D and then store a one into
+location<00:00:14.840><c> F.</c><00:00:15.520><c> Let's</c><00:00:15.800><c> say</c><00:00:15.920><c> that</c><00:00:16.160><c> D</c><00:00:16.320><c> and</c><00:00:16.480><c> F</c><00:00:16.680><c> are</c>
+
+00:00:16.790 --> 00:00:16.800 align:start position:0%
+location F. Let's say that D and F are
+ 
+
+00:00:16.800 --> 00:00:20.230 align:start position:0%
+location F. Let's say that D and F are
+both<00:00:17.160><c> zero</c><00:00:17.520><c> initially.</c><00:00:18.560><c> The</c><00:00:18.720><c> second</c><00:00:19.280><c> core</c>
+
+00:00:20.230 --> 00:00:20.240 align:start position:0%
+both zero initially. The second core
+ 
+
+00:00:20.240 --> 00:00:26.230 align:start position:0%
+both zero initially. The second core
+loads<00:00:21.440><c> F</c><00:00:22.040><c> into</c><00:00:22.400><c> R1</c><00:00:23.240><c> and</c><00:00:23.480><c> then</c><00:00:23.760><c> loads</c><00:00:24.880><c> D</c><00:00:25.720><c> into</c>
+
+00:00:26.230 --> 00:00:26.240 align:start position:0%
+loads F into R1 and then loads D into
+ 
+
+00:00:26.240 --> 00:00:29.310 align:start position:0%
+loads F into R1 and then loads D into
+R2.<00:00:27.240><c> And</c><00:00:27.440><c> let's</c><00:00:27.720><c> say</c><00:00:27.920><c> that</c><00:00:28.160><c> now</c><00:00:28.400><c> we</c><00:00:28.560><c> print</c><00:00:29.200><c> the</c>
+
+00:00:29.310 --> 00:00:29.320 align:start position:0%
+R2. And let's say that now we print the
+ 
+
+00:00:29.320 --> 00:00:32.190 align:start position:0%
+R2. And let's say that now we print the
+registers<00:00:30.040><c> R1</c><00:00:30.440><c> and</c><00:00:30.600><c> R2.</c><00:00:31.440><c> Note</c><00:00:31.720><c> that</c><00:00:31.920><c> we</c><00:00:32.040><c> can</c>
+
+00:00:32.190 --> 00:00:32.200 align:start position:0%
+registers R1 and R2. Note that we can
+ 
+
+00:00:32.200 --> 00:00:33.750 align:start position:0%
+registers R1 and R2. Note that we can
+have<00:00:32.400><c> an</c><00:00:32.560><c> out</c><00:00:32.759><c> of</c><00:00:32.920><c> order</c><00:00:33.160><c> processor</c><00:00:33.560><c> that</c>
+
+00:00:33.750 --> 00:00:33.760 align:start position:0%
+have an out of order processor that
+ 
+
+00:00:33.760 --> 00:00:35.830 align:start position:0%
+have an out of order processor that
+reorders<00:00:34.280><c> loads</c><00:00:34.600><c> and</c><00:00:34.720><c> stores.</c>
+
+00:00:35.830 --> 00:00:35.840 align:start position:0%
+reorders loads and stores.
+ 
+
+00:00:35.840 --> 00:00:38.750 align:start position:0%
+reorders loads and stores.
+So<00:00:36.080><c> in</c><00:00:36.240><c> execution</c><00:00:37.080><c> order,</c><00:00:37.840><c> core</c><00:00:38.200><c> one</c><00:00:38.480><c> might</c>
+
+00:00:38.750 --> 00:00:38.760 align:start position:0%
+So in execution order, core one might
+ 
+
+00:00:38.760 --> 00:00:41.350 align:start position:0%
+So in execution order, core one might
+still<00:00:39.080><c> be</c><00:00:39.200><c> doing</c><00:00:40.200><c> the</c><00:00:40.320><c> stores</c><00:00:40.800><c> in</c><00:00:40.920><c> the</c><00:00:41.000><c> same</c>
+
+00:00:41.350 --> 00:00:41.360 align:start position:0%
+still be doing the stores in the same
+ 
+
+00:00:41.360 --> 00:00:44.830 align:start position:0%
+still be doing the stores in the same
+order,<00:00:42.120><c> but</c><00:00:42.400><c> core</c><00:00:42.680><c> two</c><00:00:43.520><c> decides</c><00:00:44.160><c> to</c><00:00:44.280><c> reorder</c>
+
+00:00:44.830 --> 00:00:44.840 align:start position:0%
+order, but core two decides to reorder
+ 
+
+00:00:44.840 --> 00:00:46.790 align:start position:0%
+order, but core two decides to reorder
+these<00:00:45.080><c> two</c><00:00:45.240><c> loads.</c><00:00:46.160><c> Note</c><00:00:46.400><c> that</c><00:00:46.600><c> in</c><00:00:46.760><c> a</c>
+
+00:00:46.790 --> 00:00:46.800 align:start position:0%
+these two loads. Note that in a
+ 
+
+00:00:46.800 --> 00:00:49.870 align:start position:0%
+these two loads. Note that in a
+uniprocessor<00:00:47.760><c> reordering</c><00:00:48.360><c> of</c><00:00:48.600><c> loads,</c>
+
+00:00:49.870 --> 00:00:49.880 align:start position:0%
+uniprocessor reordering of loads,
+ 
+
+00:00:49.880 --> 00:00:51.510 align:start position:0%
+uniprocessor reordering of loads,
+if<00:00:50.120><c> this</c><00:00:50.320><c> core</c><00:00:50.560><c> is</c><00:00:50.680><c> not</c><00:00:50.880><c> writing</c><00:00:51.240><c> to</c><00:00:51.360><c> these</c>
+
+00:00:51.510 --> 00:00:51.520 align:start position:0%
+if this core is not writing to these
+ 
+
+00:00:51.520 --> 00:00:54.070 align:start position:0%
+if this core is not writing to these
+locations,<00:00:52.080><c> is</c><00:00:52.280><c> perfectly</c><00:00:52.840><c> okay.</c><00:00:53.800><c> And</c><00:00:53.960><c> in</c>
+
+00:00:54.070 --> 00:00:54.080 align:start position:0%
+locations, is perfectly okay. And in
+ 
+
+00:00:54.080 --> 00:00:57.070 align:start position:0%
+locations, is perfectly okay. And in
+fact,<00:00:54.880><c> even</c><00:00:55.160><c> in</c><00:00:55.280><c> a</c><00:00:55.360><c> multiprocessor,</c><00:00:56.440><c> most</c><00:00:57.000><c> of</c>
+
+00:00:57.070 --> 00:00:57.080 align:start position:0%
+fact, even in a multiprocessor, most of
+ 
+
+00:00:57.080 --> 00:00:59.550 align:start position:0%
+fact, even in a multiprocessor, most of
+the<00:00:57.200><c> time</c><00:00:57.440><c> it's</c><00:00:57.640><c> okay.</c><00:00:58.560><c> Now</c><00:00:58.920><c> let's</c><00:00:59.200><c> look</c><00:00:59.400><c> at</c>
+
+00:00:59.550 --> 00:00:59.560 align:start position:0%
+the time it's okay. Now let's look at
+ 
+
+00:00:59.560 --> 00:01:02.270 align:start position:0%
+the time it's okay. Now let's look at
+what's<00:00:59.880><c> possible</c><00:01:00.440><c> to</c><00:01:00.600><c> get</c><00:01:00.920><c> in</c><00:01:01.080><c> R1</c><00:01:01.600><c> and</c><00:01:01.800><c> R2</c>
+
+00:01:02.270 --> 00:01:02.280 align:start position:0%
+what's possible to get in R1 and R2
+ 
+
+00:01:02.280 --> 00:01:05.229 align:start position:0%
+what's possible to get in R1 and R2
+after<00:01:02.600><c> this.</c><00:01:03.320><c> In</c><00:01:03.520><c> program</c><00:01:04.040><c> order,</c><00:01:04.839><c> these</c><00:01:05.120><c> two</c>
+
+00:01:05.229 --> 00:01:05.239 align:start position:0%
+after this. In program order, these two
+ 
+
+00:01:05.239 --> 00:01:08.150 align:start position:0%
+after this. In program order, these two
+loads<00:01:05.640><c> on</c><00:01:05.760><c> core</c><00:01:06.000><c> two</c><00:01:06.720><c> might</c><00:01:07.080><c> execute</c><00:01:07.640><c> before</c>
+
+00:01:08.150 --> 00:01:08.160 align:start position:0%
+loads on core two might execute before
+ 
+
+00:01:08.160 --> 00:01:11.110 align:start position:0%
+loads on core two might execute before
+these<00:01:08.400><c> two</c><00:01:08.560><c> stores</c><00:01:09.280><c> in</c><00:01:09.440><c> core</c><00:01:09.760><c> one.</c><00:01:10.440><c> So</c><00:01:10.720><c> we</c><00:01:10.880><c> can</c>
+
+00:01:11.110 --> 00:01:11.120 align:start position:0%
+these two stores in core one. So we can
+ 
+
+00:01:11.120 --> 00:01:15.990 align:start position:0%
+these two stores in core one. So we can
+get<00:01:12.080><c> R1</c><00:01:12.560><c> and</c><00:01:12.720><c> R2</c><00:01:13.120><c> are</c><00:01:13.360><c> zero.</c><00:01:14.320><c> Here,</c><00:01:15.480><c> these</c><00:01:15.840><c> two</c>
+
+00:01:15.990 --> 00:01:16.000 align:start position:0%
+get R1 and R2 are zero. Here, these two
+ 
+
+00:01:16.000 --> 00:01:17.190 align:start position:0%
+get R1 and R2 are zero. Here, these two
+loads
+
+00:01:17.190 --> 00:01:17.200 align:start position:0%
+loads
+ 
+
+00:01:17.200 --> 00:01:18.710 align:start position:0%
+loads
+in<00:01:17.400><c> core</c><00:01:17.720><c> two,</c><00:01:18.000><c> although</c><00:01:18.280><c> they've</c><00:01:18.520><c> been</c>
+
+00:01:18.710 --> 00:01:18.720 align:start position:0%
+in core two, although they've been
+ 
+
+00:01:18.720 --> 00:01:21.150 align:start position:0%
+in core two, although they've been
+reordered,<00:01:19.360><c> can</c><00:01:19.520><c> still</c><00:01:19.840><c> happen</c><00:01:20.280><c> before</c><00:01:20.880><c> core</c>
+
+00:01:21.150 --> 00:01:21.160 align:start position:0%
+reordered, can still happen before core
+ 
+
+00:01:21.160 --> 00:01:23.070 align:start position:0%
+reordered, can still happen before core
+one<00:01:21.480><c> gets</c><00:01:21.800><c> to</c><00:01:21.920><c> store.</c>
+
+00:01:23.070 --> 00:01:23.080 align:start position:0%
+one gets to store.
+ 
+
+00:01:23.080 --> 00:01:26.310 align:start position:0%
+one gets to store.
+So<00:01:23.360><c> we</c><00:01:23.520><c> can</c><00:01:23.720><c> get</c><00:01:24.640><c> the</c><00:01:24.720><c> same</c><00:01:25.040><c> thing.</c><00:01:25.880><c> These</c><00:01:26.200><c> two</c>
+
+00:01:26.310 --> 00:01:26.320 align:start position:0%
+So we can get the same thing. These two
+ 
+
+00:01:26.320 --> 00:01:29.750 align:start position:0%
+So we can get the same thing. These two
+loads<00:01:27.320><c> can</c><00:01:27.560><c> happen</c><00:01:27.920><c> after</c><00:01:28.320><c> the</c><00:01:28.480><c> two</c><00:01:28.600><c> stores.</c>
+
+00:01:29.750 --> 00:01:29.760 align:start position:0%
+loads can happen after the two stores.
+ 
+
+00:01:29.760 --> 00:01:33.150 align:start position:0%
+loads can happen after the two stores.
+So<00:01:29.960><c> we</c><00:01:30.160><c> can</c><00:01:30.520><c> get</c><00:01:31.200><c> one</c><00:01:32.200><c> in</c><00:01:32.360><c> both</c><00:01:32.640><c> registers</c>
+
+00:01:33.150 --> 00:01:33.160 align:start position:0%
+So we can get one in both registers
+ 
+
+00:01:33.160 --> 00:01:36.030 align:start position:0%
+So we can get one in both registers
+here.<00:01:33.800><c> In</c><00:01:33.960><c> execution</c><00:01:34.600><c> order,</c><00:01:35.480><c> even</c><00:01:35.800><c> if</c><00:01:35.920><c> we</c>
+
+00:01:36.030 --> 00:01:36.040 align:start position:0%
+here. In execution order, even if we
+ 
+
+00:01:36.040 --> 00:01:38.550 align:start position:0%
+here. In execution order, even if we
+reorder<00:01:36.480><c> them,</c><00:01:37.280><c> they</c><00:01:37.440><c> can</c><00:01:37.640><c> execute</c><00:01:38.120><c> after</c><00:01:38.440><c> the</c>
+
+00:01:38.550 --> 00:01:38.560 align:start position:0%
+reorder them, they can execute after the
+ 
+
+00:01:38.560 --> 00:01:41.830 align:start position:0%
+reorder them, they can execute after the
+stores,<00:01:39.520><c> so</c><00:01:39.720><c> we</c><00:01:39.880><c> can</c><00:01:40.080><c> get</c><00:01:40.880><c> one</c><00:01:41.240><c> in</c><00:01:41.400><c> both</c><00:01:41.720><c> of</c>
+
+00:01:41.830 --> 00:01:41.840 align:start position:0%
+stores, so we can get one in both of
+ 
+
+00:01:41.840 --> 00:01:45.430 align:start position:0%
+stores, so we can get one in both of
+them.<00:01:42.600><c> In</c><00:01:42.800><c> the</c><00:01:42.920><c> program</c><00:01:43.480><c> order,</c><00:01:44.320><c> if</c><00:01:44.520><c> these</c><00:01:44.880><c> two</c>
+
+00:01:45.430 --> 00:01:45.440 align:start position:0%
+them. In the program order, if these two
+ 
+
+00:01:45.440 --> 00:01:48.270 align:start position:0%
+them. In the program order, if these two
+happen<00:01:45.840><c> like</c><00:01:46.120><c> this,</c><00:01:47.280><c> in</c><00:01:47.520><c> between</c><00:01:48.000><c> the</c><00:01:48.120><c> two</c>
+
+00:01:48.270 --> 00:01:48.280 align:start position:0%
+happen like this, in between the two
+ 
+
+00:01:48.280 --> 00:01:52.630 align:start position:0%
+happen like this, in between the two
+stores,<00:01:49.400><c> we</c><00:01:49.560><c> can</c><00:01:49.760><c> get</c><00:01:50.160><c> R1</c><00:01:51.360><c> when</c><00:01:51.720><c> we</c><00:01:51.840><c> load</c><00:01:52.440><c> is</c>
+
+00:01:52.630 --> 00:01:52.640 align:start position:0%
+stores, we can get R1 when we load is
+ 
+
+00:01:52.640 --> 00:01:56.310 align:start position:0%
+stores, we can get R1 when we load is
+still<00:01:52.960><c> loading</c><00:01:53.360><c> the</c><00:01:53.520><c> zero</c><00:01:53.920><c> here,</c><00:01:54.760><c> but</c><00:01:55.080><c> R2</c>
+
+00:01:56.310 --> 00:01:56.320 align:start position:0%
+still loading the zero here, but R2
+ 
+
+00:01:56.320 --> 00:01:59.510 align:start position:0%
+still loading the zero here, but R2
+when<00:01:56.640><c> we</c><00:01:56.760><c> load</c><00:01:57.120><c> is</c><00:01:57.360><c> already</c><00:01:57.840><c> loading</c><00:01:58.320><c> the</c><00:01:58.440><c> one.</c>
+
+00:01:59.510 --> 00:01:59.520 align:start position:0%
+when we load is already loading the one.
+ 
+
+00:01:59.520 --> 00:02:02.150 align:start position:0%
+when we load is already loading the one.
+The<00:01:59.720><c> same</c><00:02:00.080><c> thing</c><00:02:00.320><c> can</c><00:02:00.520><c> happen</c><00:02:00.880><c> here.</c><00:02:01.640><c> If</c><00:02:01.840><c> these</c>
+
+00:02:02.150 --> 00:02:02.160 align:start position:0%
+The same thing can happen here. If these
+ 
+
+00:02:02.160 --> 00:02:04.469 align:start position:0%
+The same thing can happen here. If these
+two<00:02:02.320><c> loads</c><00:02:02.680><c> are</c><00:02:02.840><c> in</c><00:02:03.080><c> between</c><00:02:03.479><c> the</c><00:02:03.600><c> stores,</c>
+
+00:02:04.469 --> 00:02:04.479 align:start position:0%
+two loads are in between the stores,
+ 
+
+00:02:04.479 --> 00:02:07.870 align:start position:0%
+two loads are in between the stores,
+then<00:02:04.800><c> R1</c><00:02:05.760><c> is</c><00:02:05.920><c> going</c><00:02:06.160><c> to</c><00:02:06.240><c> be</c><00:02:06.840><c> zero</c><00:02:07.479><c> because</c><00:02:07.760><c> it</c>
+
+00:02:07.870 --> 00:02:07.880 align:start position:0%
+then R1 is going to be zero because it
+ 
+
+00:02:07.880 --> 00:02:09.469 align:start position:0%
+then R1 is going to be zero because it
+comes<00:02:08.119><c> before</c><00:02:08.520><c> this.</c>
+
+00:02:09.469 --> 00:02:09.479 align:start position:0%
+comes before this.
+ 
+
+00:02:09.479 --> 00:02:12.350 align:start position:0%
+comes before this.
+And<00:02:09.800><c> R2</c><00:02:10.640><c> is</c><00:02:10.800><c> going</c><00:02:11.080><c> to</c><00:02:11.200><c> be</c><00:02:11.360><c> one</c><00:02:11.920><c> because</c><00:02:12.240><c> it</c>
+
+00:02:12.350 --> 00:02:12.360 align:start position:0%
+And R2 is going to be one because it
+ 
+
+00:02:12.360 --> 00:02:14.430 align:start position:0%
+And R2 is going to be one because it
+happens<00:02:12.800><c> here.</c><00:02:13.560><c> And</c><00:02:13.760><c> now</c><00:02:14.000><c> it</c><00:02:14.160><c> gets</c>
+
+00:02:14.430 --> 00:02:14.440 align:start position:0%
+happens here. And now it gets
+ 
+
+00:02:14.440 --> 00:02:16.670 align:start position:0%
+happens here. And now it gets
+interesting.<00:02:15.600><c> We</c><00:02:15.760><c> have</c><00:02:15.920><c> seen</c><00:02:16.240><c> that</c><00:02:16.400><c> there</c><00:02:16.600><c> are</c>
+
+00:02:16.670 --> 00:02:16.680 align:start position:0%
+interesting. We have seen that there are
+ 
+
+00:02:16.680 --> 00:02:18.750 align:start position:0%
+interesting. We have seen that there are
+these<00:02:16.959><c> three</c><00:02:17.160><c> possibilities.</c><00:02:18.480><c> So,</c><00:02:18.640><c> the</c>
+
+00:02:18.750 --> 00:02:18.760 align:start position:0%
+these three possibilities. So, the
+ 
+
+00:02:18.760 --> 00:02:23.110 align:start position:0%
+these three possibilities. So, the
+question<00:02:19.240><c> is,</c><00:02:19.720><c> but</c><00:02:19.959><c> can</c><00:02:20.280><c> we</c><00:02:20.400><c> get</c><00:02:21.160><c> R1</c><00:02:22.320><c> to</c><00:02:22.440><c> be</c><00:02:22.600><c> one</c>
+
+00:02:23.110 --> 00:02:23.120 align:start position:0%
+question is, but can we get R1 to be one
+ 
+
+00:02:23.120 --> 00:02:26.470 align:start position:0%
+question is, but can we get R1 to be one
+while<00:02:23.440><c> R2</c><00:02:24.120><c> is</c><00:02:24.400><c> zero?</c><00:02:25.360><c> And</c><00:02:25.680><c> in</c><00:02:25.880><c> the</c><00:02:26.000><c> program</c>
+
+00:02:26.470 --> 00:02:26.480 align:start position:0%
+while R2 is zero? And in the program
+ 
+
+00:02:26.480 --> 00:02:28.350 align:start position:0%
+while R2 is zero? And in the program
+order,<00:02:26.760><c> if</c><00:02:26.880><c> we</c><00:02:27.000><c> consider</c><00:02:27.520><c> that,</c><00:02:27.840><c> it's</c><00:02:28.040><c> not</c>
+
+00:02:28.350 --> 00:02:28.360 align:start position:0%
+order, if we consider that, it's not
+ 
+
+00:02:28.360 --> 00:02:33.070 align:start position:0%
+order, if we consider that, it's not
+possible.<00:02:29.240><c> R1</c><00:02:30.480><c> being</c><00:02:31.000><c> one</c><00:02:31.880><c> means</c><00:02:32.640><c> that</c><00:02:32.880><c> when</c>
+
+00:02:33.070 --> 00:02:33.080 align:start position:0%
+possible. R1 being one means that when
+ 
+
+00:02:33.080 --> 00:02:35.510 align:start position:0%
+possible. R1 being one means that when
+we<00:02:33.240><c> read</c><00:02:33.520><c> F,</c><00:02:33.959><c> we</c><00:02:34.160><c> read</c><00:02:34.400><c> one.</c>
+
+00:02:35.510 --> 00:02:35.520 align:start position:0%
+we read F, we read one.
+ 
+
+00:02:35.520 --> 00:02:37.990 align:start position:0%
+we read F, we read one.
+That<00:02:35.880><c> means</c><00:02:36.160><c> that</c><00:02:36.320><c> this</c><00:02:36.680><c> load</c><00:02:37.120><c> has</c><00:02:37.520><c> to</c><00:02:37.640><c> come</c>
+
+00:02:37.990 --> 00:02:38.000 align:start position:0%
+That means that this load has to come
+ 
+
+00:02:38.000 --> 00:02:41.230 align:start position:0%
+That means that this load has to come
+after<00:02:38.360><c> this</c><00:02:38.600><c> store.</c><00:02:39.440><c> If</c><00:02:39.720><c> that</c><00:02:39.920><c> happens,</c>
+
+00:02:41.230 --> 00:02:41.240 align:start position:0%
+after this store. If that happens,
+ 
+
+00:02:41.240 --> 00:02:43.550 align:start position:0%
+after this store. If that happens,
+then<00:02:41.520><c> this</c><00:02:41.840><c> load</c><00:02:42.360><c> has</c><00:02:42.720><c> to</c><00:02:42.840><c> be</c><00:02:43.000><c> after</c><00:02:43.360><c> this</c>
+
+00:02:43.550 --> 00:02:43.560 align:start position:0%
+then this load has to be after this
+ 
+
+00:02:43.560 --> 00:02:44.630 align:start position:0%
+then this load has to be after this
+load,<00:02:43.800><c> too.</c>
+
+00:02:44.630 --> 00:02:44.640 align:start position:0%
+load, too.
+ 
+
+00:02:44.640 --> 00:02:47.390 align:start position:0%
+load, too.
+So,<00:02:44.880><c> pretty</c><00:02:45.160><c> much</c><00:02:46.040><c> if</c><00:02:46.320><c> we</c><00:02:46.440><c> executed</c><00:02:47.080><c> this</c>
+
+00:02:47.390 --> 00:02:47.400 align:start position:0%
+So, pretty much if we executed this
+ 
+
+00:02:47.400 --> 00:02:48.790 align:start position:0%
+So, pretty much if we executed this
+here,
+
+00:02:48.790 --> 00:02:48.800 align:start position:0%
+here,
+ 
+
+00:02:48.800 --> 00:02:52.190 align:start position:0%
+here,
+then<00:02:49.520><c> this</c><00:02:50.160><c> has</c><00:02:50.640><c> to</c><00:02:50.760><c> be</c><00:02:51.000><c> here.</c>
+
+00:02:52.190 --> 00:02:52.200 align:start position:0%
+then this has to be here.
+ 
+
+00:02:52.200 --> 00:02:54.390 align:start position:0%
+then this has to be here.
+And<00:02:52.440><c> that</c><00:02:52.760><c> means</c><00:02:53.040><c> that</c><00:02:53.320><c> if</c><00:02:53.480><c> we</c><00:02:53.600><c> read</c><00:02:53.840><c> one</c><00:02:54.080><c> from</c>
+
+00:02:54.390 --> 00:02:54.400 align:start position:0%
+And that means that if we read one from
+ 
+
+00:02:54.400 --> 00:02:57.510 align:start position:0%
+And that means that if we read one from
+F,<00:02:54.800><c> we</c><00:02:55.040><c> will</c><00:02:55.280><c> read</c><00:02:55.520><c> one</c><00:02:55.760><c> from</c><00:02:56.040><c> D,</c><00:02:56.200><c> as</c><00:02:56.360><c> well.</c><00:02:57.160><c> So,</c>
+
+00:02:57.510 --> 00:02:57.520 align:start position:0%
+F, we will read one from D, as well. So,
+ 
+
+00:02:57.520 --> 00:03:03.070 align:start position:0%
+F, we will read one from D, as well. So,
+the<00:02:57.800><c> R1</c><00:02:58.560><c> =</c><00:02:59.160><c> 1,</c><00:03:00.000><c> R2</c><00:03:00.720><c> =</c><00:03:01.239><c> 0</c><00:03:01.880><c> cannot</c><00:03:02.560><c> happen</c><00:03:02.959><c> in</c>
+
+00:03:03.070 --> 00:03:03.080 align:start position:0%
+the R1 = 1, R2 = 0 cannot happen in
+ 
+
+00:03:03.080 --> 00:03:08.870 align:start position:0%
+the R1 = 1, R2 = 0 cannot happen in
+program<00:03:03.560><c> order.</c><00:03:04.200><c> But</c><00:03:04.560><c> here,</c><00:03:05.680><c> R1</c><00:03:06.440><c> =</c><00:03:07.519><c> 1</c><00:03:08.400><c> means</c>
+
+00:03:08.870 --> 00:03:08.880 align:start position:0%
+program order. But here, R1 = 1 means
+ 
+
+00:03:08.880 --> 00:03:12.830 align:start position:0%
+program order. But here, R1 = 1 means
+that<00:03:09.200><c> this</c><00:03:09.640><c> load</c><00:03:10.600><c> needs</c><00:03:11.040><c> to</c><00:03:11.160><c> be</c><00:03:11.360><c> here.</c><00:03:12.440><c> And</c><00:03:12.680><c> we</c>
+
+00:03:12.830 --> 00:03:12.840 align:start position:0%
+that this load needs to be here. And we
+ 
+
+00:03:12.840 --> 00:03:16.390 align:start position:0%
+that this load needs to be here. And we
+can<00:03:13.320><c> get</c><00:03:13.720><c> a</c><00:03:13.800><c> zero</c><00:03:14.280><c> in</c><00:03:14.519><c> R2</c><00:03:15.200><c> if</c><00:03:15.440><c> this</c><00:03:15.800><c> load</c><00:03:16.080><c> comes</c>
+
+00:03:16.390 --> 00:03:16.400 align:start position:0%
+can get a zero in R2 if this load comes
+ 
+
+00:03:16.400 --> 00:03:18.350 align:start position:0%
+can get a zero in R2 if this load comes
+here.<00:03:16.800><c> So,</c><00:03:17.000><c> if</c><00:03:17.160><c> we</c><00:03:17.280><c> put</c><00:03:17.519><c> the</c><00:03:17.640><c> stores</c><00:03:18.120><c> in</c>
+
+00:03:18.350 --> 00:03:18.360 align:start position:0%
+here. So, if we put the stores in
+ 
+
+00:03:18.360 --> 00:03:19.949 align:start position:0%
+here. So, if we put the stores in
+between<00:03:18.680><c> the</c><00:03:18.800><c> loads</c>
+
+00:03:19.949 --> 00:03:19.959 align:start position:0%
+between the loads
+ 
+
+00:03:19.959 --> 00:03:22.270 align:start position:0%
+between the loads
+in<00:03:20.160><c> the</c><00:03:20.280><c> execution</c><00:03:20.920><c> order</c><00:03:21.200><c> like</c><00:03:21.360><c> this,</c><00:03:22.120><c> we</c>
+
+00:03:22.270 --> 00:03:22.280 align:start position:0%
+in the execution order like this, we
+ 
+
+00:03:22.280 --> 00:03:24.630 align:start position:0%
+in the execution order like this, we
+will<00:03:22.440><c> get</c><00:03:22.760><c> a</c><00:03:22.800><c> situation</c><00:03:23.760><c> that</c><00:03:24.000><c> was</c><00:03:24.239><c> not</c>
+
+00:03:24.630 --> 00:03:24.640 align:start position:0%
+will get a situation that was not
+ 
+
+00:03:24.640 --> 00:03:27.550 align:start position:0%
+will get a situation that was not
+possible<00:03:25.239><c> in</c><00:03:25.400><c> the</c><00:03:25.480><c> original</c><00:03:25.880><c> program</c><00:03:26.320><c> order.</c>
+
+00:03:27.550 --> 00:03:27.560 align:start position:0%
+possible in the original program order.
+ 
+
+00:03:27.560 --> 00:03:30.190 align:start position:0%
+possible in the original program order.
+So,<00:03:27.800><c> the</c><00:03:27.959><c> programmer</c><00:03:28.800><c> might</c><00:03:29.239><c> have</c><00:03:29.400><c> expected</c>
+
+00:03:30.190 --> 00:03:30.200 align:start position:0%
+So, the programmer might have expected
+ 
+
+00:03:30.200 --> 00:03:33.670 align:start position:0%
+So, the programmer might have expected
+that<00:03:30.440><c> this</c><00:03:30.760><c> code</c><00:03:31.120><c> can</c><00:03:31.360><c> never</c><00:03:31.840><c> result</c><00:03:32.400><c> in</c><00:03:32.560><c> this,</c>
+
+00:03:33.670 --> 00:03:33.680 align:start position:0%
+that this code can never result in this,
+ 
+
+00:03:33.680 --> 00:03:35.590 align:start position:0%
+that this code can never result in this,
+but<00:03:34.120><c> in</c><00:03:34.239><c> an</c><00:03:34.400><c> out-of-order</c><00:03:35.040><c> processor</c>
+
+00:03:35.590 --> 00:03:35.600 align:start position:0%
+but in an out-of-order processor
+ 
+
+00:03:35.600 --> 00:03:38.870 align:start position:0%
+but in an out-of-order processor
+execution<00:03:36.320><c> on</c><00:03:36.519><c> each</c><00:03:36.720><c> core,</c><00:03:37.120><c> it</c><00:03:37.360><c> can.</c><00:03:38.360><c> And</c><00:03:38.600><c> note</c>
+
+00:03:38.870 --> 00:03:38.880 align:start position:0%
+execution on each core, it can. And note
+ 
+
+00:03:38.880 --> 00:03:40.870 align:start position:0%
+execution on each core, it can. And note
+that<00:03:39.040><c> this</c><00:03:39.280><c> doesn't</c><00:03:39.640><c> violate</c><00:03:40.120><c> coherence</c><00:03:40.680><c> at</c>
+
+00:03:40.870 --> 00:03:40.880 align:start position:0%
+that this doesn't violate coherence at
+ 
+
+00:03:40.880 --> 00:03:44.470 align:start position:0%
+that this doesn't violate coherence at
+all.<00:03:41.519><c> In</c><00:03:41.760><c> all</c><00:03:42.000><c> cases,</c><00:03:43.040><c> a</c><00:03:43.160><c> load</c><00:03:43.640><c> and</c><00:03:43.760><c> a</c><00:03:43.840><c> store</c>
+
+00:03:44.470 --> 00:03:44.480 align:start position:0%
+all. In all cases, a load and a store
+ 
+
+00:03:44.480 --> 00:03:48.670 align:start position:0%
+all. In all cases, a load and a store
+obeyed<00:03:44.880><c> coherence.</c><00:03:46.200><c> But</c><00:03:46.480><c> do</c><00:03:46.720><c> we</c><00:03:47.360><c> really</c><00:03:47.880><c> care</c>
+
+00:03:48.670 --> 00:03:48.680 align:start position:0%
+obeyed coherence. But do we really care
+ 
+
+00:03:48.680 --> 00:03:51.270 align:start position:0%
+obeyed coherence. But do we really care
+about<00:03:49.040><c> that?</c><00:03:49.560><c> Sure,</c><00:03:50.080><c> for</c><00:03:50.320><c> some</c><00:03:50.640><c> obscure</c>
+
+00:03:51.270 --> 00:03:51.280 align:start position:0%
+about that? Sure, for some obscure
+ 
+
+00:03:51.280 --> 00:03:53.470 align:start position:0%
+about that? Sure, for some obscure
+orderings,<00:03:52.040><c> this</c><00:03:52.239><c> can</c><00:03:52.440><c> happen.</c><00:03:52.920><c> Do</c><00:03:53.080><c> we</c><00:03:53.200><c> really</c>
+
+00:03:53.470 --> 00:03:53.480 align:start position:0%
+orderings, this can happen. Do we really
+ 
+
+00:03:53.480 --> 00:03:55.590 align:start position:0%
+orderings, this can happen. Do we really
+care?<00:03:53.960><c> When</c><00:03:54.200><c> does</c><00:03:54.440><c> it</c><00:03:54.560><c> really</c><00:03:54.800><c> matter</c><00:03:55.360><c> that</c>
+
+00:03:55.590 --> 00:03:55.600 align:start position:0%
+care? When does it really matter that
+ 
+
+00:03:55.600 --> 00:04:00.840 align:start position:0%
+care? When does it really matter that
+this<00:03:56.560><c> doesn't</c><00:03:57.040><c> happen</c><00:03:58.080><c> and</c><00:03:58.280><c> it</c><00:03:58.400><c> does?</c>
+

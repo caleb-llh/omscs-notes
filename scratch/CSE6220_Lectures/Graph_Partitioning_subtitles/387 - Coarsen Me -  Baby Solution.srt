@@ -1,0 +1,88 @@
+1
+00:00:00,320 --> 00:00:02,680
+ Let's do the vertices first since they're easy.
+
+2
+00:00:02,680 --> 00:00:06,070
+ These two become one, and these three become one.
+
+3
+00:00:06,070 --> 00:00:10,120
+ So we should have entered a 2 in this box and a 3 in this box.
+
+4
+00:00:10,120 --> 00:00:12,470
+ For the edges here are the answers.
+
+5
+00:00:12,470 --> 00:00:17,310
+ The interesting cases are this edge, which comes from these two edges, and
+
+6
+00:00:17,310 --> 00:00:20,940
+ this edge which comes from these three edges.
+
+7
+00:00:20,940 --> 00:00:24,370
+ This one on the left is probably easy to see, because it's the simple case of,
+
+8
+00:00:24,370 --> 00:00:28,070
+ well, there are two vertices connected to the same vertex.
+
+9
+00:00:28,070 --> 00:00:30,300
+ The other case might be a little bit trickier to see, but
+
+10
+00:00:30,300 --> 00:00:32,000
+ it's the same principle.
+
+11
+00:00:32,000 --> 00:00:34,780
+ You could, for example, imagine taking these three vertices,
+
+12
+00:00:34,780 --> 00:00:36,690
+ collapsing them into a single vertex.
+
+13
+00:00:36,690 --> 00:00:37,850
+ In which case,
+
+14
+00:00:37,850 --> 00:00:41,970
+ now I have a single super vertex over here connected to these two guys.
+
+15
+00:00:41,970 --> 00:00:45,750
+ If it helps, let's take a look at an intermediate graph.
+
+16
+00:00:45,750 --> 00:00:49,440
+ So what I'm showing here is the graph you get if you first collapse these two
+
+17
+00:00:49,440 --> 00:00:52,380
+ in a super vertex, but before you collapse these three.
+
+18
+00:00:52,380 --> 00:00:57,780
+ In this case notice that these two edges would combine into this edge.
+
+19
+00:00:57,780 --> 00:01:00,030
+ So there should be a two here.
+
+20
+00:01:00,030 --> 00:01:04,150
+ I hope you can now easily see that when you collapse these three vertices,
+
+21
+00:01:04,150 --> 00:01:05,760
+ these two edges will have to combine.
+
+22
+00:01:05,760 --> 00:01:05,760
+ So that's two plus one, or three.
+

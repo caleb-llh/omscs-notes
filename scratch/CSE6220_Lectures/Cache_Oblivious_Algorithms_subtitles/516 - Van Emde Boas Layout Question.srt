@@ -1,0 +1,44 @@
+1
+00:00:00,280 --> 00:00:03,400
+ Suppose you're given this complete binary search tree.
+
+2
+00:00:03,400 --> 00:00:06,810
+ Here's what the conventional in-order ordering of the nodes would look like.
+
+3
+00:00:06,810 --> 00:00:11,360
+ The numbering serves as offsets for laying out the nodes linearly in memory.
+
+4
+00:00:11,360 --> 00:00:14,040
+ And, by the way, if this is an actual tree data structure with left and
+
+5
+00:00:14,040 --> 00:00:14,660
+ right pointers,
+
+6
+00:00:14,660 --> 00:00:18,360
+ let's assume that those pointers are stored along with the node values.
+
+7
+00:00:18,360 --> 00:00:20,000
+ But, what about a different ordering?
+
+8
+00:00:20,000 --> 00:00:22,830
+ For this quiz, I want you to generate the sequence that
+
+9
+00:00:22,830 --> 00:00:26,080
+ would result from a Van Emde Boas ordering instead.
+
+10
+00:00:26,080 --> 00:00:30,120
+ Enter the node values and the linearized array that appears below the tree.
+
+11
+00:00:30,120 --> 00:00:30,120
+ So, you'd type a, b, c, d, e, f, g, or whatever in these boxes.
+

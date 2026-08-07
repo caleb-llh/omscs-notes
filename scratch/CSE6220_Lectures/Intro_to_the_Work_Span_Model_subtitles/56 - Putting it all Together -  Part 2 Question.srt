@@ -1,0 +1,80 @@
+1
+00:00:00,500 --> 00:00:03,450
+ You should by now see that this parallelization of a matrix spectrum
+
+2
+00:00:03,450 --> 00:00:08,060
+ multiply has work that is O of n squared, and is span that is O of n.
+
+3
+00:00:08,060 --> 00:00:12,350
+ So the average available parallelism is O of n, and that seems pretty good, but
+
+4
+00:00:12,350 --> 00:00:14,670
+ I claim you can actually do better.
+
+5
+00:00:14,670 --> 00:00:17,560
+ Essentially the trick is to recognize that this innermost for
+
+6
+00:00:17,560 --> 00:00:20,410
+ loop is nothing more than a reduction.
+
+7
+00:00:20,410 --> 00:00:23,420
+ So here's some pseudo code that embodies this idea.
+
+8
+00:00:23,420 --> 00:00:25,950
+ Uses a temporary array of length n.
+
+9
+00:00:25,950 --> 00:00:29,480
+ It uses the temporary array to store the intermediate products,
+
+10
+00:00:29,480 --> 00:00:33,150
+ which are all computed in one shot using a parallel form.
+
+11
+00:00:33,150 --> 00:00:35,810
+ And then finally, we reduce the temporary array,
+
+12
+00:00:35,810 --> 00:00:38,530
+ getting a single value which we accumulated to y sub i.
+
+13
+00:00:38,530 --> 00:00:42,580
+ Now, for this to work, you're going to have to assume that this temporary array
+
+14
+00:00:42,580 --> 00:00:45,710
+ is private to each iteration of i.
+
+15
+00:00:45,710 --> 00:00:46,950
+ So that's a little bit of a problem,
+
+16
+00:00:46,950 --> 00:00:50,650
+ because there could be a blow up in intermediate storage.
+
+17
+00:00:50,650 --> 00:00:53,310
+ But for now let's just ignore that possibility.
+
+18
+00:00:53,310 --> 00:00:55,950
+ Now my question to you is which of the following options
+
+19
+00:00:55,950 --> 00:00:59,570
+ best expresses the span of this implementation?
+
+20
+00:00:59,570 --> 00:00:59,570
+ Your options are logged in, logged squared in, logged cubed in.
+

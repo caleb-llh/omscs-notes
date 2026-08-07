@@ -1,0 +1,56 @@
+1
+00:00:00,570 --> 00:00:04,430
+ Let's see how well you understand all of the ideas we've discussed so far.
+
+2
+00:00:04,430 --> 00:00:08,650
+ Here's a loop nest which implements a matrix vector multiplication.
+
+3
+00:00:08,650 --> 00:00:12,180
+ That is, suppose you're given a matrix A which is of size n by n, and
+
+4
+00:00:12,180 --> 00:00:14,630
+ two vectors, each of length n.
+
+5
+00:00:14,630 --> 00:00:19,780
+ Then this loop nest computes y = y + A times x.
+
+6
+00:00:19,780 --> 00:00:24,140
+ Now the complexity of this operation is O(n squared) since I have nested loops,
+
+7
+00:00:24,140 --> 00:00:26,540
+ each with n iterations.
+
+8
+00:00:26,540 --> 00:00:27,250
+ Here's my question.
+
+9
+00:00:27,250 --> 00:00:29,660
+ There are two for-loops.
+
+10
+00:00:29,660 --> 00:00:33,730
+ Which ones can I convert into a parallel for-loop?
+
+11
+00:00:33,730 --> 00:00:37,780
+ Your options are, you can only safely convert loop 1 or
+
+12
+00:00:37,780 --> 00:00:39,700
+ you can only convert loop 2.
+
+13
+00:00:39,700 --> 00:00:44,460
+ Or you can convert both loops or you can't convert either loop.
+
+14
+00:00:44,460 --> 00:00:44,460
+ Choose one.
+

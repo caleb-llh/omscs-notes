@@ -1,0 +1,112 @@
+1
+00:00:00,280 --> 00:00:01,839
+ Here's what I calculated.
+
+2
+00:00:01,839 --> 00:00:03,800
+ The calculation, itself, is not very interesting.
+
+3
+00:00:03,800 --> 00:00:07,030
+ It's basically just plugging and chugging numbers.
+
+4
+00:00:07,030 --> 00:00:13,990
+ In this case, n is 2^50 bytes divided by 2^8bytes per item or records.
+
+5
+00:00:13,990 --> 00:00:17,080
+ So, that's a total of 2^42 items or records.
+
+6
+00:00:17,080 --> 00:00:20,380
+ Similarly z is 2 to the 28th records and
+
+7
+00:00:20,380 --> 00:00:23,900
+ l is two to the seventh records, so plug those values in,
+
+8
+00:00:23,900 --> 00:00:27,150
+ round to three significant figures and you should get these numbers.
+
+9
+00:00:27,150 --> 00:00:29,650
+ The more interesting bits are the numerical improvements
+
+10
+00:00:29,650 --> 00:00:34,790
+ relative to the baseline of n login equals 185 terra ops.
+
+11
+00:00:34,790 --> 00:00:38,910
+ One big improvement comes from reducing n to n over l.
+
+12
+00:00:38,910 --> 00:00:42,710
+ This factor is really about ensuring that, when you make a pass over the data
+
+13
+00:00:42,710 --> 00:00:46,760
+ you do so in L size transactions, as much as possible.
+
+14
+00:00:46,760 --> 00:00:49,600
+ The other big improvement comes from going from log base 2,
+
+15
+00:00:49,600 --> 00:00:52,020
+ to log base z over l.
+
+16
+00:00:52,020 --> 00:00:55,090
+ Now, when you calculated this you may have used the following handy fact
+
+17
+00:00:55,090 --> 00:00:57,040
+ about converting logs.
+
+18
+00:00:57,040 --> 00:00:59,610
+ Log base z over L of x is
+
+19
+00:00:59,610 --> 00:01:03,610
+ log base two of x divided by log base two of z over L.
+
+20
+00:01:03,610 --> 00:01:07,600
+ This improvement involves the capacity of fast memory, z.
+
+21
+00:01:07,600 --> 00:01:11,260
+ So this win comes from ensuring that your algorithm utilizes the fast memory
+
+22
+00:01:11,260 --> 00:01:14,410
+ capacity, z, to the greatest extent possible.
+
+23
+00:01:14,410 --> 00:01:16,310
+ Okay, one last remark.
+
+24
+00:01:16,310 --> 00:01:19,320
+ Now these speedups, are notional.
+
+25
+00:01:19,320 --> 00:01:23,300
+ When we do algorithm analysis we usually do it in an asymptotic sense, and so
+
+26
+00:01:23,300 --> 00:01:25,620
+ there's always some other hidden constants.
+
+27
+00:01:25,620 --> 00:01:29,080
+ The main point is to build your intuition about how performance changes
+
+28
+00:01:29,080 --> 00:01:29,080
+ as you change the algorithm to improve with respect to L and Z
+

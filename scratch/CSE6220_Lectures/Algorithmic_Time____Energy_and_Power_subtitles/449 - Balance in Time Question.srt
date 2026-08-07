@@ -1,0 +1,152 @@
+1
+00:00:00,260 --> 00:00:02,000
+ Another important trend in systems,
+
+2
+00:00:02,000 --> 00:00:05,960
+ is the growing gap between compute speed and communication speed.
+
+3
+00:00:05,960 --> 00:00:08,360
+ Recall the basic Von Neumann architecture.
+
+4
+00:00:08,360 --> 00:00:11,860
+ It has a processor, a local fast memory, and it's connected to a large but
+
+5
+00:00:11,860 --> 00:00:13,050
+ slow memory.
+
+6
+00:00:13,050 --> 00:00:16,920
+ Now, let's say the processor can perform R operations per second.
+
+7
+00:00:16,920 --> 00:00:20,810
+ As it turns out, this rate is related to transistor density.
+
+8
+00:00:20,810 --> 00:00:23,750
+ Transistor density is basically the number of transistors that can
+
+9
+00:00:23,750 --> 00:00:25,750
+ fit in a given amount of space.
+
+10
+00:00:25,750 --> 00:00:29,340
+ Here's the classic plot of transistor density over time.
+
+11
+00:00:29,340 --> 00:00:32,200
+ Essentially this plot shows that over the last 40 years or
+
+12
+00:00:32,200 --> 00:00:35,555
+ so, the number of transistors that you can fit in a given unit of area,
+
+13
+00:00:35,555 --> 00:00:38,885
+ has increased by a factor of about a million.
+
+14
+00:00:38,885 --> 00:00:41,825
+ Now very roughly speaking, as transistors get smaller you get
+
+15
+00:00:41,825 --> 00:00:46,205
+ more of them, and the signaling time between transistors shrinks.
+
+16
+00:00:46,205 --> 00:00:48,325
+ This makes computation faster.
+
+17
+00:00:48,325 --> 00:00:51,695
+ With respect to this plot, just think of the number of operations you can do in
+
+18
+00:00:51,695 --> 00:00:54,955
+ a unit of time, as growing with transistor density.
+
+19
+00:00:54,955 --> 00:00:59,350
+ Transistor density and therefore performance has grown very, very fast.
+
+20
+00:00:59,350 --> 00:01:04,620
+ This plot suggests that performance doubles roughly every 1.9 years.
+
+21
+00:01:04,620 --> 00:01:06,580
+ The other feature of the Von Neumann system,
+
+22
+00:01:06,580 --> 00:01:09,270
+ is the slow fast memory transfer cost.
+
+23
+00:01:09,270 --> 00:01:12,320
+ Now, let's say you can move data back and forth between slow and
+
+24
+00:01:12,320 --> 00:01:14,480
+ fast memory at some rate.
+
+25
+00:01:14,480 --> 00:01:18,600
+ Let's call that rate beta, measured in units of words per unit time.
+
+26
+00:01:18,600 --> 00:01:23,030
+ Like R, beta also has a natural historical growth rate.
+
+27
+00:01:23,030 --> 00:01:27,270
+ There's a standard benchmark called stream that measures this growth.
+
+28
+00:01:27,270 --> 00:01:29,127
+ So stream measures beta, and
+
+29
+00:01:29,127 --> 00:01:33,290
+ beta has essentially doubled once every 2.9 years.
+
+30
+00:01:33,290 --> 00:01:37,070
+ Now, recall that the balance point of a Von Neumann system is the number of
+
+31
+00:01:37,070 --> 00:01:40,920
+ compute operations it can do per word of data transfer.
+
+32
+00:01:40,920 --> 00:01:43,500
+ Let's call the balance point capital B.
+
+33
+00:01:43,500 --> 00:01:46,040
+ It's defined as R divided by beta.
+
+34
+00:01:46,040 --> 00:01:46,938
+ In other words,
+
+35
+00:01:46,938 --> 00:01:50,920
+ it's the peak compute throughput divided by the peak memory bandwidth.
+
+36
+00:01:50,920 --> 00:01:52,190
+ Here's my question.
+
+37
+00:01:52,190 --> 00:01:54,670
+ What is the doubling time of B?
+
+38
+00:01:54,670 --> 00:01:54,670
+ I want you to enter your answer here in years, given to 2 significant figures.
+

@@ -1,0 +1,216 @@
+1
+00:00:00,210 --> 00:00:03,030
+ A matrix multiply is the following operation.
+
+2
+00:00:03,030 --> 00:00:08,280
+ Given two input matrices, A and B, and given a third matrix C,
+
+3
+00:00:08,280 --> 00:00:14,300
+ perform the update, A times B + C, and overwrite C.
+
+4
+00:00:14,300 --> 00:00:17,750
+ Schematically, I like to draw matrix multiplies this way.
+
+5
+00:00:17,750 --> 00:00:21,560
+ Matrix A has m rows and k columns.
+
+6
+00:00:21,560 --> 00:00:24,652
+ Matrix B has k rows and n columns, and
+
+7
+00:00:24,652 --> 00:00:30,760
+ the matrix C has m rows, same as A, and n columns, same as B.
+
+8
+00:00:30,760 --> 00:00:34,820
+ The matrix update formula may be interpreted as follows.
+
+9
+00:00:34,820 --> 00:00:37,980
+ Consider some output element Cij.
+
+10
+00:00:37,980 --> 00:00:42,220
+ This scalar update formula at the bottom tells you how to update it.
+
+11
+00:00:42,220 --> 00:00:48,010
+ Essentially, you compute a dot product between a row of a and a column of b.
+
+12
+00:00:48,010 --> 00:00:51,890
+ The dot product comes from multiplying corresponding elements of the two
+
+13
+00:00:51,890 --> 00:00:55,220
+ vectors and then accumulating them into the output.
+
+14
+00:00:55,220 --> 00:00:56,780
+ Let's look at an example.
+
+15
+00:00:56,780 --> 00:01:01,400
+ Suppose row i of A and column j of B have these values.
+
+16
+00:01:01,400 --> 00:01:05,190
+ And let's further suppose that Cij has this initial value.
+
+17
+00:01:05,190 --> 00:01:08,870
+ The dot product is the sum of the element-wise products.
+
+18
+00:01:08,870 --> 00:01:12,638
+ So in this case, we take the element-wise products 3 times 1,
+
+19
+00:01:12,638 --> 00:01:14,290
+ 4 times 2, -2 times 5.
+
+20
+00:01:14,290 --> 00:01:17,552
+ Add them all together, accumulate them with the initial value of C,
+
+21
+00:01:17,552 --> 00:01:19,940
+ which was 6, and we'd get 7.
+
+22
+00:01:19,940 --> 00:01:22,750
+ Here's what a matrix multiply looks like as pseudocode.
+
+23
+00:01:22,750 --> 00:01:24,980
+ It's just three nested loops.
+
+24
+00:01:24,980 --> 00:01:29,772
+ This form makes it easy to see that the algorithm takes time O of m times n
+
+25
+00:01:29,772 --> 00:01:30,430
+ times k.
+
+26
+00:01:30,430 --> 00:01:33,330
+ And of course, when all the dimensions are equal,
+
+27
+00:01:33,330 --> 00:01:35,240
+ that's big O of, say, n cubed.
+
+28
+00:01:35,240 --> 00:01:37,070
+ So, where's the parallelism?
+
+29
+00:01:37,070 --> 00:01:38,180
+ Both the picture and
+
+30
+00:01:38,180 --> 00:01:42,710
+ the code suggests that all the output elements are independent of one another.
+
+31
+00:01:42,710 --> 00:01:46,300
+ So, if you were to parallelize this code for a PRAM type system,
+
+32
+00:01:46,300 --> 00:01:49,350
+ the first easy thing you would do is to replace the outermost for
+
+33
+00:01:49,350 --> 00:01:51,810
+ loops with parallel for loops.
+
+34
+00:01:51,810 --> 00:01:55,710
+ In fact, that gives you another useful fact about matrix multiply.
+
+35
+00:01:55,710 --> 00:01:59,020
+ Suppose you want to compute a group of elements of C.
+
+36
+00:01:59,020 --> 00:02:03,980
+ Then you can do a group update by doing a sub matrix multiply or
+
+37
+00:02:03,980 --> 00:02:06,120
+ block matrix multiply.
+
+38
+00:02:06,120 --> 00:02:09,490
+ For example, this block would depend on this block of rows, and
+
+39
+00:02:09,490 --> 00:02:11,590
+ this block of columns.
+
+40
+00:02:11,590 --> 00:02:15,050
+ Put another way, everywhere you see a matrix element in this picture,
+
+41
+00:02:15,050 --> 00:02:19,500
+ you could instead imagine not a single element, but an entire submatrix.
+
+42
+00:02:19,500 --> 00:02:23,630
+ The computation is essentially the same with respect to blocks.
+
+43
+00:02:23,630 --> 00:02:25,900
+ Okay, back to parallelism.
+
+44
+00:02:25,900 --> 00:02:28,020
+ What about this innermost loop?
+
+45
+00:02:28,020 --> 00:02:31,080
+ I hope you recognize that it's basically a reduction.
+
+46
+00:02:31,080 --> 00:02:35,170
+ Notice that the element-wise products within the loop are independent.
+
+47
+00:02:35,170 --> 00:02:37,860
+ Once you've computed them all, you just add them all up.
+
+48
+00:02:37,860 --> 00:02:41,620
+ So we can replace the inner-most l loop with the following.
+
+49
+00:02:41,620 --> 00:02:46,400
+ So there's a temporary array, a new loop to compute the independent products, and
+
+50
+00:02:46,400 --> 00:02:48,030
+ then a reduction.
+
+51
+00:02:48,030 --> 00:02:50,660
+ Now if all the dimensions are equal to little n,
+
+52
+00:02:50,660 --> 00:02:55,490
+ then the total work is n cubed, and the span is just log n.
+
+53
+00:02:55,490 --> 00:02:59,400
+ So, I hope you find a matrix multiply to be easy to state and
+
+54
+00:02:59,400 --> 00:02:59,400
+ rich with available parallelism.
+

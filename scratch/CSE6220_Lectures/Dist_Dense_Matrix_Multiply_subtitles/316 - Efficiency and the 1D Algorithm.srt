@@ -1,0 +1,208 @@
+1
+00:00:00,400 --> 00:00:02,210
+ So there's one D block row algorithm.
+
+2
+00:00:02,210 --> 00:00:03,990
+ Is it good or bad?
+
+3
+00:00:03,990 --> 00:00:05,370
+ Start by recalling the running time.
+
+4
+00:00:05,370 --> 00:00:09,070
+ Now, it's the first algorithm we've talked about in a long lesson, so
+
+5
+00:00:09,070 --> 00:00:11,390
+ it has to be bad in some way.
+
+6
+00:00:11,390 --> 00:00:13,990
+ Let's pretend to be more analytical.
+
+7
+00:00:13,990 --> 00:00:16,460
+ Start by computing the speed up.
+
+8
+00:00:16,460 --> 00:00:19,600
+ The best sequential algorithm pays only for flops so
+
+9
+00:00:19,600 --> 00:00:23,610
+ its time is just two times tau times n cubed.
+
+10
+00:00:23,610 --> 00:00:28,000
+ Next let's plug in the parallel time for the 1D block row algorithm.
+
+11
+00:00:28,000 --> 00:00:31,430
+ Let me massage it into a different form for you.
+
+12
+00:00:31,430 --> 00:00:35,420
+ Now this form makes it easy to see how the speed up compares to our ideal,
+
+13
+00:00:35,420 --> 00:00:38,560
+ which would be something proportional to p.
+
+14
+00:00:38,560 --> 00:00:42,590
+ That is, if you want to know when the speed up divided by p is a constant.
+
+15
+00:00:42,590 --> 00:00:47,810
+ In fact, this concept of speed up divided by p has a special name.
+
+16
+00:00:47,810 --> 00:00:52,200
+ It's called parallel efficiency, which I'll denote by capital E.
+
+17
+00:00:52,200 --> 00:00:56,810
+ So a parallel system is efficient if its parallel efficiency is a constant.
+
+18
+00:00:56,810 --> 00:01:00,870
+ And higher constants are better since they correspond to higher fractions of
+
+19
+00:01:00,870 --> 00:01:02,280
+ linear speed-up.
+
+20
+00:01:02,280 --> 00:01:05,560
+ Now in order to have constant efficiency you need the denominator to
+
+21
+00:01:05,560 --> 00:01:07,310
+ be a constant.
+
+22
+00:01:07,310 --> 00:01:10,070
+ So when will the denominator approach a constant?
+
+23
+00:01:10,070 --> 00:01:13,520
+ In this case when N is big omega of P.
+
+24
+00:01:13,520 --> 00:01:16,920
+ Now think about what it means to be efficient in this sense.
+
+25
+00:01:16,920 --> 00:01:19,540
+ Let's say you want to double the number of nodes In order to solve
+
+26
+00:01:19,540 --> 00:01:21,230
+ the problem faster.
+
+27
+00:01:21,230 --> 00:01:23,950
+ Then this condition you've just arrived says you also have to
+
+28
+00:01:23,950 --> 00:01:26,190
+ double the problem dimension.
+
+29
+00:01:26,190 --> 00:01:27,960
+ But if you double the problem dimension,
+
+30
+00:01:27,960 --> 00:01:32,140
+ the size of the matrices will quadruple because they're N by N.
+
+31
+00:01:32,140 --> 00:01:36,340
+ Even worse, the number of flops will have to increase by a factor of 8.
+
+32
+00:01:36,340 --> 00:01:38,580
+ In other words, if you double the problem dimension,
+
+33
+00:01:38,580 --> 00:01:41,380
+ you have to double the amount of memory you need per node and
+
+34
+00:01:41,380 --> 00:01:43,840
+ you have to spend more time doing flops.
+
+35
+00:01:43,840 --> 00:01:46,000
+ Dang, that's huge.
+
+36
+00:01:46,000 --> 00:01:48,845
+ Yes, thank you, that's hilarious Tiny.
+
+37
+00:01:48,845 --> 00:01:52,845
+ Put another way, if you don't or can't double the dimension, then you'll
+
+38
+00:01:52,845 --> 00:01:57,845
+ quickly see diminishing returns as you increase the parallelism of the system.
+
+39
+00:01:57,845 --> 00:02:00,615
+ By the way, this function or this relationship between n and
+
+40
+00:02:00,615 --> 00:02:02,885
+ P has a special name.
+
+41
+00:02:02,885 --> 00:02:05,630
+ It's called the isoefficiency function.
+
+42
+00:02:05,630 --> 00:02:09,310
+ That is, the isoefficiency function is the function of
+
+43
+00:02:09,310 --> 00:02:14,790
+ p that n has to satisfy in order to have constant parallel efficiency.
+
+44
+00:02:14,790 --> 00:02:16,290
+ Now there's one other consideration,
+
+45
+00:02:16,290 --> 00:02:19,290
+ which is the amount of temporary storage space.
+
+46
+00:02:19,290 --> 00:02:22,750
+ Remember, you need temporary storage for these B twiddles.
+
+47
+00:02:22,750 --> 00:02:27,220
+ So, you have to store the three local matrix upper ends plus the B twiddle.
+
+48
+00:02:27,220 --> 00:02:30,420
+ That gives you four times n squared / p.
+
+49
+00:02:30,420 --> 00:02:32,250
+ Okay. So, that gives us a pretty complete
+
+50
+00:02:32,250 --> 00:02:36,070
+ analysis of the time, speed up, efficiency and
+
+51
+00:02:36,070 --> 00:02:39,680
+ storage requirements of the one D block row algorithm.
+
+52
+00:02:39,680 --> 00:02:39,680
+ Good job, you.
+

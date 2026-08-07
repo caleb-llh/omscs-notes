@@ -1,0 +1,252 @@
+1
+00:00:00,950 --> 00:00:04,720
+ An important class of distributed memory algorithmic primitives are the so-called
+
+2
+00:00:04,720 --> 00:00:06,890
+ collective operations.
+
+3
+00:00:06,890 --> 00:00:10,070
+ No, not that kind of collective.
+
+4
+00:00:10,070 --> 00:00:13,140
+ One example of a collective operation is a reduction,
+
+5
+00:00:13,140 --> 00:00:18,258
+ which in the distributed memory case, I will call all-to-one reduce.
+
+6
+00:00:18,258 --> 00:00:21,540
+ The phrase all-to-one makes it clear that all nodes participate
+
+7
+00:00:21,540 --> 00:00:24,710
+ to produce a final result on one node.
+
+8
+00:00:24,710 --> 00:00:26,450
+ Let's take an example.
+
+9
+00:00:26,450 --> 00:00:29,830
+ Consider this linear network which I've numbered from 0 to 8.
+
+10
+00:00:29,830 --> 00:00:33,490
+ These ID, numbers I'll sometimes call ranks.
+
+11
+00:00:33,490 --> 00:00:36,100
+ So, for example, the rank of this node is 4.
+
+12
+00:00:36,100 --> 00:00:40,620
+ Now suppose each node has a single value in its private memory,
+
+13
+00:00:40,620 --> 00:00:41,675
+ let's say these values.
+
+14
+00:00:41,675 --> 00:00:46,460
+ In an all-to-one reduction, you want to produce a final result which
+
+15
+00:00:46,460 --> 00:00:52,408
+ is the reduction, in this case sum of all the values on a root node.
+
+16
+00:00:52,408 --> 00:00:56,332
+ So the sum of these values it turns out is 55, and
+
+17
+00:00:56,332 --> 00:01:00,363
+ let's say we want that result to appear on node 0.
+
+18
+00:01:00,363 --> 00:01:05,120
+ Now intuitively, you expect a tree base scheme like this one to work well.
+
+19
+00:01:05,120 --> 00:01:09,510
+ It's span is logarithmic in the size of the input.
+
+20
+00:01:09,510 --> 00:01:12,250
+ In this case, there are P values.
+
+21
+00:01:12,250 --> 00:01:16,100
+ Now, this observation suggests that you'll need to perform at least log P
+
+22
+00:01:16,100 --> 00:01:18,520
+ communication steps.
+
+23
+00:01:18,520 --> 00:01:21,370
+ Now, initially, the data is distributed across all nodes,
+
+24
+00:01:21,370 --> 00:01:24,610
+ so no node can do any actual work.
+
+25
+00:01:24,610 --> 00:01:27,120
+ Therefore, you'll need to do some communication.
+
+26
+00:01:27,120 --> 00:01:28,280
+ Okay, well that's easy.
+
+27
+00:01:28,280 --> 00:01:33,640
+ Let's have all the odd number nodes send their data to their leftmost neighbor.
+
+28
+00:01:33,640 --> 00:01:37,450
+ So 1 will send to 0, 3 will send to 2, and so on.
+
+29
+00:01:37,450 --> 00:01:41,910
+ None of these sends conflict so all the sends can happen simultaneously.
+
+30
+00:01:41,910 --> 00:01:44,800
+ So this round of communication will cost you
+
+31
+00:01:44,800 --> 00:01:48,940
+ alpha + beta time since you're only sending one word.
+
+32
+00:01:48,940 --> 00:01:53,360
+ After the communication, the even ranks add the incoming value.
+
+33
+00:01:53,360 --> 00:01:56,600
+ The new state of the system then looks like this.
+
+34
+00:01:56,600 --> 00:01:57,550
+ Now in this next step,
+
+35
+00:01:57,550 --> 00:02:01,640
+ you'll notice that only even numbered ranks have values.
+
+36
+00:02:01,640 --> 00:02:04,900
+ So notice the even ranks have partial sums.
+
+37
+00:02:04,900 --> 00:02:09,110
+ So we can repeat this scheme, except this time with odd partners
+
+38
+00:02:09,110 --> 00:02:14,740
+ of the remaining set sending to the closest even partner.
+
+39
+00:02:14,740 --> 00:02:17,610
+ So we might do these sends, for example.
+
+40
+00:02:17,610 --> 00:02:19,967
+ Again, there are no conflicts in the paths so
+
+41
+00:02:19,967 --> 00:02:22,830
+ this costs us alpha + beta time.
+
+42
+00:02:22,830 --> 00:02:29,210
+ And you'll just repeat
+
+43
+00:02:29,210 --> 00:02:34,314
+ this process until
+
+44
+00:02:34,314 --> 00:02:40,983
+ a final result remains.
+
+45
+00:02:40,983 --> 00:02:44,507
+ Now, to implement this scheme, I want to point out a useful fact.
+
+46
+00:02:44,507 --> 00:02:48,910
+ Suppose we replace the ranks by their equivalent binary strings.
+
+47
+00:02:48,910 --> 00:02:53,020
+ Recall that in the first round, the odds send to the evens.
+
+48
+00:02:53,020 --> 00:02:57,807
+ Notice the odds all have a 1 in their least significant bit, and
+
+49
+00:02:57,807 --> 00:02:59,500
+ the evens all have 0.
+
+50
+00:02:59,500 --> 00:03:00,268
+ In the next round,
+
+51
+00:03:00,268 --> 00:03:04,540
+ the only participating processes have a 0 in their least significant bit.
+
+52
+00:03:04,540 --> 00:03:07,080
+ And notice what happens.
+
+53
+00:03:07,080 --> 00:03:10,000
+ Nodes with a 1 in their second bit
+
+54
+00:03:10,000 --> 00:03:13,570
+ send to nodes who have a 0 in their second bit.
+
+55
+00:03:13,570 --> 00:03:17,840
+ So again, it's basically odds to evens where you drop off the last bit.
+
+56
+00:03:17,840 --> 00:03:19,320
+ Neat.
+
+57
+00:03:19,320 --> 00:03:21,200
+ If you've heard of things like hypercubes,
+
+58
+00:03:21,200 --> 00:03:25,710
+ binary reflected Gray codes, or Hamming distances, then this bit manipulation or
+
+59
+00:03:25,710 --> 00:03:28,300
+ bitview of the world will seem very familiar.
+
+60
+00:03:28,300 --> 00:03:31,820
+ And if you aren't, we'll give you some pointers in the instructor's notes.
+
+61
+00:03:31,820 --> 00:03:34,550
+ Shave and a haircut, two bits.
+
+62
+00:03:34,550 --> 00:03:37,410
+ I don't know what that shave and a haircut two bits thing is, but
+
+63
+00:03:37,410 --> 00:03:37,410
+ I got it from somewhere.
+

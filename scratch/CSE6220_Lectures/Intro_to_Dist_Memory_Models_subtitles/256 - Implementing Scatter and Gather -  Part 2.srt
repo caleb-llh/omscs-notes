@@ -1,0 +1,152 @@
+1
+00:00:00,450 --> 00:00:03,230
+ I'm about to walk you through an efficient way to implement scatter as
+
+2
+00:00:03,230 --> 00:00:05,070
+ well as other collectives.
+
+3
+00:00:05,070 --> 00:00:07,530
+ I learned these techniques from a terrific colleague of mine,
+
+4
+00:00:07,530 --> 00:00:09,140
+ Robert Van Deguine.
+
+5
+00:00:09,140 --> 00:00:12,650
+ I can't do his presentation justice, but I'll do my best.
+
+6
+00:00:12,650 --> 00:00:15,570
+ So, here was my first implementation of scatter.
+
+7
+00:00:15,570 --> 00:00:19,480
+ It's fairly naive because the root does all the sending.
+
+8
+00:00:19,480 --> 00:00:21,738
+ That made the communication time linear in p.
+
+9
+00:00:21,738 --> 00:00:24,880
+ And that's sub-optimal.
+
+10
+00:00:24,880 --> 00:00:29,820
+ Remember that our goal was to find an alpha log p algorithm.
+
+11
+00:00:29,820 --> 00:00:31,400
+ Here's a different approach.
+
+12
+00:00:31,400 --> 00:00:33,360
+ Suppose this is the root.
+
+13
+00:00:33,360 --> 00:00:37,200
+ Let's start by logically dividing the network in two pieces.
+
+14
+00:00:37,200 --> 00:00:40,320
+ Then let's send the lower half of the data, and
+
+15
+00:00:40,320 --> 00:00:44,550
+ we'll just pick some process over here to the destination, let's say this one.
+
+16
+00:00:44,550 --> 00:00:48,500
+ So we'll pack up this half, and then we'll send it.
+
+17
+00:00:48,500 --> 00:00:51,650
+ Surprise, surprise, you are dividing and conquering.
+
+18
+00:00:51,650 --> 00:00:54,690
+ Did someone say conquering?
+
+19
+00:00:54,690 --> 00:01:09,825
+ I think you can imagine that you would continue this process.
+
+20
+00:01:09,825 --> 00:01:11,370
+ Voila.
+
+21
+00:01:11,370 --> 00:01:13,690
+ So what is the cost of this scheme?
+
+22
+00:01:13,690 --> 00:01:17,120
+ Pick any round of communication, little i.
+
+23
+00:01:17,120 --> 00:01:21,670
+ The rounds go from 1 to log p assuming p is a power of 2.
+
+24
+00:01:21,670 --> 00:01:27,870
+ Now in round i, this scheme sends a message of size n over 2 to the i.
+
+25
+00:01:27,870 --> 00:01:33,310
+ So the time for round i is alpha plus beta times n sub i.
+
+26
+00:01:33,310 --> 00:01:37,990
+ So we just need to substitute and then sum over all the rounds.
+
+27
+00:01:37,990 --> 00:01:39,080
+ Plug some stuff in.
+
+28
+00:01:39,080 --> 00:01:41,240
+ Simplify.
+
+29
+00:01:41,240 --> 00:01:44,030
+ So if you work it out, you should get something that looks like this.
+
+30
+00:01:44,030 --> 00:01:46,110
+ Notice how awesome you are.
+
+31
+00:01:46,110 --> 00:01:49,140
+ You've attained the lower bound, both with respect to latency and
+
+32
+00:01:49,140 --> 00:01:51,470
+ with respect to bandwidth.
+
+33
+00:01:51,470 --> 00:01:53,340
+ Nice job, you.
+
+34
+00:01:53,340 --> 00:01:54,270
+ In fact, at this point,
+
+35
+00:01:54,270 --> 00:01:57,700
+ I can let you teach the class while I retire to a beach community,
+
+36
+00:01:57,700 --> 00:02:03,240
+ sipping pina coladas and rolling naked in my wads of OMSCS cash.
+
+37
+00:02:03,240 --> 00:02:07,170
+ Now, since gather is a dual if scatter, running the same technique backwards,
+
+38
+00:02:07,170 --> 00:02:07,170
+ at least conceptually, gives you another good algorithm.
+

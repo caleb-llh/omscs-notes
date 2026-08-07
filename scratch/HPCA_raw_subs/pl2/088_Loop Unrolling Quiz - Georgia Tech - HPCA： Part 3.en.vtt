@@ -1,0 +1,216 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.640 align:start position:0%
+ 
+so<00:00:00.390><c> now</c><00:00:00.510><c> that</c><00:00:00.570><c> we</c><00:00:00.750><c> have</c><00:00:00.900><c> seen</c><00:00:01.050><c> an</c><00:00:01.170><c> example</c><00:00:01.290><c> of</c>
+
+00:00:01.640 --> 00:00:01.650 align:start position:0%
+so now that we have seen an example of
+ 
+
+00:00:01.650 --> 00:00:03.350 align:start position:0%
+so now that we have seen an example of
+open<00:00:01.829><c> trolling</c><00:00:02.370><c> let's</c><00:00:02.580><c> do</c><00:00:02.790><c> a</c><00:00:02.820><c> loop</c><00:00:03.120><c> unrolling</c>
+
+00:00:03.350 --> 00:00:03.360 align:start position:0%
+open trolling let's do a loop unrolling
+ 
+
+00:00:03.360 --> 00:00:05.599 align:start position:0%
+open trolling let's do a loop unrolling
+quiz<00:00:04.230><c> let's</c><00:00:04.830><c> say</c><00:00:04.980><c> we</c><00:00:05.250><c> have</c><00:00:05.430><c> the</c><00:00:05.580><c> following</c>
+
+00:00:05.599 --> 00:00:05.609 align:start position:0%
+quiz let's say we have the following
+ 
+
+00:00:05.609 --> 00:00:09.140 align:start position:0%
+quiz let's say we have the following
+loop<00:00:06.120><c> we</c><00:00:06.480><c> load</c><00:00:06.720><c> something</c><00:00:07.470><c> from</c><00:00:07.770><c> memory</c><00:00:08.150><c> we</c>
+
+00:00:09.140 --> 00:00:09.150 align:start position:0%
+loop we load something from memory we
+ 
+
+00:00:09.150 --> 00:00:12.020 align:start position:0%
+loop we load something from memory we
+add<00:00:09.330><c> it</c><00:00:09.540><c> to</c><00:00:09.570><c> some</c><00:00:10.469><c> sort</c><00:00:10.500><c> of</c><00:00:10.740><c> a</c><00:00:10.889><c> sum</c><00:00:11.099><c> in</c><00:00:11.309><c> r3</c><00:00:11.759><c> and</c>
+
+00:00:12.020 --> 00:00:12.030 align:start position:0%
+add it to some sort of a sum in r3 and
+ 
+
+00:00:12.030 --> 00:00:13.940 align:start position:0%
+add it to some sort of a sum in r3 and
+then<00:00:12.330><c> we</c><00:00:12.480><c> move</c><00:00:12.660><c> our</c><00:00:12.780><c> memory</c><00:00:13.049><c> pointer</c><00:00:13.500><c> by</c><00:00:13.679><c> 4</c>
+
+00:00:13.940 --> 00:00:13.950 align:start position:0%
+then we move our memory pointer by 4
+ 
+
+00:00:13.950 --> 00:00:16.550 align:start position:0%
+then we move our memory pointer by 4
+bytes<00:00:14.610><c> and</c><00:00:14.910><c> then</c><00:00:15.540><c> if</c><00:00:15.780><c> we</c><00:00:15.990><c> have</c><00:00:16.139><c> reached</c><00:00:16.379><c> some</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+bytes and then if we have reached some
+ 
+
+00:00:16.560 --> 00:00:18.830 align:start position:0%
+bytes and then if we have reached some
+end<00:00:16.770><c> of</c><00:00:16.920><c> an</c><00:00:17.039><c> array</c><00:00:17.160><c> then</c><00:00:17.580><c> we</c><00:00:17.730><c> exit</c><00:00:18.330><c> otherwise</c>
+
+00:00:18.830 --> 00:00:18.840 align:start position:0%
+end of an array then we exit otherwise
+ 
+
+00:00:18.840 --> 00:00:21.050 align:start position:0%
+end of an array then we exit otherwise
+we<00:00:19.380><c> loop</c><00:00:19.560><c> back</c><00:00:19.590><c> so</c><00:00:20.100><c> what</c><00:00:20.250><c> this</c><00:00:20.369><c> loop</c><00:00:20.760><c> is</c><00:00:20.910><c> really</c>
+
+00:00:21.050 --> 00:00:21.060 align:start position:0%
+we loop back so what this loop is really
+ 
+
+00:00:21.060 --> 00:00:23.359 align:start position:0%
+we loop back so what this loop is really
+doing<00:00:21.390><c> is</c><00:00:21.510><c> its</c><00:00:21.689><c> summing</c><00:00:22.199><c> up</c><00:00:22.350><c> an</c><00:00:22.560><c> array</c><00:00:22.800><c> let's</c>
+
+00:00:23.359 --> 00:00:23.369 align:start position:0%
+doing is its summing up an array let's
+ 
+
+00:00:23.369 --> 00:00:25.400 align:start position:0%
+doing is its summing up an array let's
+say<00:00:23.519><c> we</c><00:00:23.670><c> have</c><00:00:23.850><c> a</c><00:00:23.880><c> processor</c><00:00:24.449><c> that</c><00:00:24.480><c> is</c><00:00:24.840><c> in</c><00:00:25.199><c> order</c>
+
+00:00:25.400 --> 00:00:25.410 align:start position:0%
+say we have a processor that is in order
+ 
+
+00:00:25.410 --> 00:00:27.589 align:start position:0%
+say we have a processor that is in order
+and<00:00:25.590><c> executes</c><00:00:26.160><c> one</c><00:00:26.369><c> instruction</c><00:00:26.400><c> per</c><00:00:26.849><c> cycle</c><00:00:27.000><c> a</c>
+
+00:00:27.589 --> 00:00:27.599 align:start position:0%
+and executes one instruction per cycle a
+ 
+
+00:00:27.599 --> 00:00:30.589 align:start position:0%
+and executes one instruction per cycle a
+load<00:00:28.140><c> takes</c><00:00:28.470><c> 3</c><00:00:28.740><c> cycles</c><00:00:29.250><c> so</c><00:00:29.820><c> for</c><00:00:30.000><c> example</c><00:00:30.359><c> here</c>
+
+00:00:30.589 --> 00:00:30.599 align:start position:0%
+load takes 3 cycles so for example here
+ 
+
+00:00:30.599 --> 00:00:31.999 align:start position:0%
+load takes 3 cycles so for example here
+because<00:00:30.750><c> we</c><00:00:31.019><c> are</c><00:00:31.050><c> using</c><00:00:31.260><c> the</c><00:00:31.470><c> result</c><00:00:31.740><c> of</c><00:00:31.890><c> the</c>
+
+00:00:31.999 --> 00:00:32.009 align:start position:0%
+because we are using the result of the
+ 
+
+00:00:32.009 --> 00:00:34.280 align:start position:0%
+because we are using the result of the
+load<00:00:32.189><c> there</c><00:00:32.520><c> would</c><00:00:32.700><c> be</c><00:00:32.730><c> two</c><00:00:33.450><c> stall</c><00:00:33.719><c> cycles</c><00:00:34.170><c> in</c>
+
+00:00:34.280 --> 00:00:34.290 align:start position:0%
+load there would be two stall cycles in
+ 
+
+00:00:34.290 --> 00:00:37.280 align:start position:0%
+load there would be two stall cycles in
+between<00:00:34.680><c> and</c><00:00:34.980><c> add</c><00:00:35.790><c> or</c><00:00:36.030><c> add</c><00:00:36.210><c> I</c><00:00:36.390><c> take</c><00:00:36.630><c> two</c><00:00:36.840><c> cycles</c>
+
+00:00:37.280 --> 00:00:37.290 align:start position:0%
+between and add or add I take two cycles
+ 
+
+00:00:37.290 --> 00:00:39.560 align:start position:0%
+between and add or add I take two cycles
+each<00:00:37.469><c> so</c><00:00:38.399><c> for</c><00:00:38.610><c> example</c><00:00:39.000><c> between</c><00:00:39.120><c> the</c><00:00:39.329><c> add</c><00:00:39.540><c> I</c>
+
+00:00:39.560 --> 00:00:39.570 align:start position:0%
+each so for example between the add I
+ 
+
+00:00:39.570 --> 00:00:41.389 align:start position:0%
+each so for example between the add I
+and<00:00:40.020><c> the</c><00:00:40.140><c> branch</c><00:00:40.410><c> there</c><00:00:40.680><c> would</c><00:00:40.829><c> be</c><00:00:40.860><c> one</c><00:00:41.160><c> stall</c>
+
+00:00:41.389 --> 00:00:41.399 align:start position:0%
+and the branch there would be one stall
+ 
+
+00:00:41.399 --> 00:00:44.299 align:start position:0%
+and the branch there would be one stall
+cycle<00:00:41.600><c> so</c><00:00:42.600><c> the</c><00:00:42.750><c> question</c><00:00:43.110><c> for</c><00:00:43.320><c> you</c><00:00:43.440><c> is</c><00:00:43.500><c> after</c>
+
+00:00:44.299 --> 00:00:44.309 align:start position:0%
+cycle so the question for you is after
+ 
+
+00:00:44.309 --> 00:00:45.680 align:start position:0%
+cycle so the question for you is after
+scheduling<00:00:44.820><c> this</c><00:00:44.940><c> loop</c><00:00:45.180><c> but</c><00:00:45.420><c> without</c>
+
+00:00:45.680 --> 00:00:45.690 align:start position:0%
+scheduling this loop but without
+ 
+
+00:00:45.690 --> 00:00:48.139 align:start position:0%
+scheduling this loop but without
+applying<00:00:46.050><c> any</c><00:00:46.260><c> unrolling</c><00:00:46.800><c> it</c><00:00:47.100><c> takes</c><00:00:47.460><c> how</c><00:00:47.940><c> many</c>
+
+00:00:48.139 --> 00:00:48.149 align:start position:0%
+applying any unrolling it takes how many
+ 
+
+00:00:48.149 --> 00:00:49.910 align:start position:0%
+applying any unrolling it takes how many
+cycles<00:00:48.480><c> to</c><00:00:48.780><c> do</c><00:00:48.899><c> a</c><00:00:48.930><c> thousand</c><00:00:49.320><c> iterations</c><00:00:49.800><c> of</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+cycles to do a thousand iterations of
+ 
+
+00:00:49.920 --> 00:00:52.400 align:start position:0%
+cycles to do a thousand iterations of
+the<00:00:50.039><c> loop</c><00:00:50.070><c> and</c><00:00:50.460><c> then</c><00:00:51.149><c> after</c><00:00:51.629><c> unrolling</c><00:00:52.079><c> ones</c>
+
+00:00:52.400 --> 00:00:52.410 align:start position:0%
+the loop and then after unrolling ones
+ 
+
+00:00:52.410 --> 00:00:54.439 align:start position:0%
+the loop and then after unrolling ones
+meaning<00:00:52.770><c> we</c><00:00:53.340><c> do</c><00:00:53.489><c> the</c><00:00:53.640><c> work</c><00:00:53.789><c> of</c><00:00:54.030><c> two</c><00:00:54.239><c> of</c><00:00:54.329><c> these</c>
+
+00:00:54.439 --> 00:00:54.449 align:start position:0%
+meaning we do the work of two of these
+ 
+
+00:00:54.449 --> 00:00:56.660 align:start position:0%
+meaning we do the work of two of these
+iterations<00:00:54.840><c> per</c><00:00:55.170><c> new</c><00:00:55.350><c> iteration</c><00:00:55.920><c> and</c><00:00:56.070><c> then</c>
+
+00:00:56.660 --> 00:00:56.670 align:start position:0%
+iterations per new iteration and then
+ 
+
+00:00:56.670 --> 00:00:58.939 align:start position:0%
+iterations per new iteration and then
+scheduling<00:00:57.300><c> the</c><00:00:57.449><c> loop</c><00:00:57.629><c> it</c><00:00:57.989><c> takes</c><00:00:58.320><c> how</c><00:00:58.890><c> many</c>
+
+00:00:58.939 --> 00:00:58.949 align:start position:0%
+scheduling the loop it takes how many
+ 
+
+00:00:58.949 --> 00:01:02.840 align:start position:0%
+scheduling the loop it takes how many
+cycles<00:00:59.640><c> for</c><00:00:59.850><c> a</c><00:00:59.910><c> thousand</c><00:01:00.300><c> iterations</c>
+

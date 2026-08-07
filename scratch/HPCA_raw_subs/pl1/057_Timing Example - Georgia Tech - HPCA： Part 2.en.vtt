@@ -1,0 +1,856 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.790 align:start position:0%
+ 
+now<00:00:00.269><c> it</c><00:00:00.390><c> often</c><00:00:00.719><c> happens</c><00:00:01.140><c> that</c><00:00:01.230><c> when</c><00:00:01.589><c> doing</c>
+
+00:00:01.790 --> 00:00:01.800 align:start position:0%
+now it often happens that when doing
+ 
+
+00:00:01.800 --> 00:00:04.430 align:start position:0%
+now it often happens that when doing
+something<00:00:02.399><c> like</c><00:00:02.610><c> an</c><00:00:03.270><c> examine</c><00:00:03.899><c> tomasulo's</c>
+
+00:00:04.430 --> 00:00:04.440 align:start position:0%
+something like an examine tomasulo's
+ 
+
+00:00:04.440 --> 00:00:07.610 align:start position:0%
+something like an examine tomasulo's
+algorithm<00:00:04.790><c> we</c><00:00:05.790><c> just</c><00:00:06.120><c> care</c><00:00:06.569><c> for</c><00:00:06.810><c> example</c><00:00:06.899><c> like</c>
+
+00:00:07.610 --> 00:00:07.620 align:start position:0%
+algorithm we just care for example like
+ 
+
+00:00:07.620 --> 00:00:09.620 align:start position:0%
+algorithm we just care for example like
+in<00:00:07.890><c> what</c><00:00:08.099><c> cycle</c><00:00:08.550><c> something</c><00:00:08.940><c> issues</c><00:00:09.240><c> on</c><00:00:09.450><c> in</c>
+
+00:00:09.620 --> 00:00:09.630 align:start position:0%
+in what cycle something issues on in
+ 
+
+00:00:09.630 --> 00:00:11.780 align:start position:0%
+in what cycle something issues on in
+what<00:00:09.809><c> cycles</c><00:00:10.260><c> something</c><00:00:10.590><c> finishes</c><00:00:11.160><c> and</c><00:00:11.400><c> so</c><00:00:11.580><c> on</c>
+
+00:00:11.780 --> 00:00:11.790 align:start position:0%
+what cycles something finishes and so on
+ 
+
+00:00:11.790 --> 00:00:14.330 align:start position:0%
+what cycles something finishes and so on
+or<00:00:12.090><c> how</c><00:00:12.450><c> many</c><00:00:12.509><c> cycles</c><00:00:12.900><c> it</c><00:00:13.230><c> took</c><00:00:13.410><c> overall</c><00:00:13.889><c> so</c>
+
+00:00:14.330 --> 00:00:14.340 align:start position:0%
+or how many cycles it took overall so
+ 
+
+00:00:14.340 --> 00:00:15.829 align:start position:0%
+or how many cycles it took overall so
+let's<00:00:14.519><c> go</c><00:00:14.670><c> to</c><00:00:14.730><c> an</c><00:00:15.000><c> example</c><00:00:15.299><c> that</c><00:00:15.480><c> is</c><00:00:15.630><c> just</c>
+
+00:00:15.829 --> 00:00:15.839 align:start position:0%
+let's go to an example that is just
+ 
+
+00:00:15.839 --> 00:00:17.390 align:start position:0%
+let's go to an example that is just
+trying<00:00:16.109><c> to</c><00:00:16.289><c> track</c><00:00:16.529><c> the</c><00:00:16.680><c> timing</c><00:00:16.949><c> and</c><00:00:17.250><c> not</c>
+
+00:00:17.390 --> 00:00:17.400 align:start position:0%
+trying to track the timing and not
+ 
+
+00:00:17.400 --> 00:00:19.189 align:start position:0%
+trying to track the timing and not
+trying<00:00:17.670><c> to</c><00:00:17.820><c> keep</c><00:00:18.029><c> track</c><00:00:18.390><c> of</c><00:00:18.539><c> everything</c><00:00:18.930><c> in</c>
+
+00:00:19.189 --> 00:00:19.199 align:start position:0%
+trying to keep track of everything in
+ 
+
+00:00:19.199 --> 00:00:21.320 align:start position:0%
+trying to keep track of everything in
+every<00:00:19.410><c> structure</c><00:00:19.680><c> and</c><00:00:19.949><c> so</c><00:00:20.130><c> on</c><00:00:20.310><c> just</c><00:00:20.520><c> to</c><00:00:21.119><c> kind</c>
+
+00:00:21.320 --> 00:00:21.330 align:start position:0%
+every structure and so on just to kind
+ 
+
+00:00:21.330 --> 00:00:23.630 align:start position:0%
+every structure and so on just to kind
+of<00:00:21.359><c> show</c><00:00:21.510><c> you</c><00:00:21.570><c> how</c><00:00:21.750><c> to</c><00:00:21.810><c> do</c><00:00:22.050><c> these</c><00:00:22.199><c> on</c><00:00:22.380><c> exams</c><00:00:22.710><c> so</c>
+
+00:00:23.630 --> 00:00:23.640 align:start position:0%
+of show you how to do these on exams so
+ 
+
+00:00:23.640 --> 00:00:26.240 align:start position:0%
+of show you how to do these on exams so
+we<00:00:23.760><c> will</c><00:00:23.910><c> have</c><00:00:24.090><c> the</c><00:00:24.210><c> same</c><00:00:24.590><c> processor</c><00:00:25.590><c> the</c><00:00:26.039><c> same</c>
+
+00:00:26.240 --> 00:00:26.250 align:start position:0%
+we will have the same processor the same
+ 
+
+00:00:26.250 --> 00:00:28.790 align:start position:0%
+we will have the same processor the same
+instructions<00:00:26.970><c> the</c><00:00:27.750><c> same</c><00:00:27.990><c> issue</c><00:00:28.260><c> executes</c>
+
+00:00:28.790 --> 00:00:28.800 align:start position:0%
+instructions the same issue executes
+ 
+
+00:00:28.800 --> 00:00:30.259 align:start position:0%
+instructions the same issue executes
+right<00:00:29.010><c> but</c><00:00:29.310><c> we're</c><00:00:29.460><c> going</c><00:00:29.609><c> to</c><00:00:29.699><c> try</c><00:00:29.880><c> to</c><00:00:29.939><c> do</c><00:00:30.150><c> that</c>
+
+00:00:30.259 --> 00:00:30.269 align:start position:0%
+right but we're going to try to do that
+ 
+
+00:00:30.269 --> 00:00:33.500 align:start position:0%
+right but we're going to try to do that
+without<00:00:30.630><c> having</c><00:00:31.019><c> all</c><00:00:31.859><c> of</c><00:00:31.920><c> those</c><00:00:32.189><c> tables</c><00:00:32.610><c> in</c><00:00:32.790><c> so</c>
+
+00:00:33.500 --> 00:00:33.510 align:start position:0%
+without having all of those tables in so
+ 
+
+00:00:33.510 --> 00:00:36.380 align:start position:0%
+without having all of those tables in so
+let's<00:00:34.050><c> try</c><00:00:34.350><c> to</c><00:00:34.410><c> go</c><00:00:34.710><c> to</c><00:00:34.770><c> this</c><00:00:35.130><c> example</c><00:00:35.520><c> what's</c>
+
+00:00:36.380 --> 00:00:36.390 align:start position:0%
+let's try to go to this example what's
+ 
+
+00:00:36.390 --> 00:00:37.910 align:start position:0%
+let's try to go to this example what's
+going<00:00:36.630><c> to</c><00:00:36.690><c> happen</c><00:00:37.050><c> is</c><00:00:37.170><c> we</c><00:00:37.290><c> kind</c><00:00:37.500><c> of</c><00:00:37.620><c> need</c><00:00:37.800><c> to</c>
+
+00:00:37.910 --> 00:00:37.920 align:start position:0%
+going to happen is we kind of need to
+ 
+
+00:00:37.920 --> 00:00:39.560 align:start position:0%
+going to happen is we kind of need to
+know<00:00:37.950><c> how</c><00:00:38.370><c> many</c><00:00:38.430><c> reservation</c><00:00:39.090><c> stations</c><00:00:39.450><c> we</c>
+
+00:00:39.560 --> 00:00:39.570 align:start position:0%
+know how many reservation stations we
+ 
+
+00:00:39.570 --> 00:00:41.420 align:start position:0%
+know how many reservation stations we
+have<00:00:39.600><c> for</c><00:00:40.050><c> each</c><00:00:40.079><c> type</c><00:00:40.469><c> of</c><00:00:40.620><c> instructions</c><00:00:41.219><c> and</c>
+
+00:00:41.420 --> 00:00:41.430 align:start position:0%
+have for each type of instructions and
+ 
+
+00:00:41.430 --> 00:00:42.860 align:start position:0%
+have for each type of instructions and
+that's<00:00:41.850><c> the</c><00:00:42.030><c> only</c><00:00:42.210><c> thing</c><00:00:42.239><c> that</c><00:00:42.510><c> we're</c><00:00:42.660><c> kind</c><00:00:42.840><c> of</c>
+
+00:00:42.860 --> 00:00:42.870 align:start position:0%
+that's the only thing that we're kind of
+ 
+
+00:00:42.870 --> 00:00:44.869 align:start position:0%
+that's the only thing that we're kind of
+gonna<00:00:43.020><c> be</c><00:00:43.290><c> missing</c><00:00:43.800><c> a</c><00:00:43.890><c> little</c><00:00:44.040><c> bit</c><00:00:44.160><c> so</c>
+
+00:00:44.869 --> 00:00:44.879 align:start position:0%
+gonna be missing a little bit so
+ 
+
+00:00:44.879 --> 00:00:46.850 align:start position:0%
+gonna be missing a little bit so
+basically<00:00:45.270><c> in</c><00:00:45.780><c> the</c><00:00:45.960><c> first</c><00:00:46.140><c> cycle</c><00:00:46.500><c> we</c><00:00:46.530><c> know</c><00:00:46.710><c> we</c>
+
+00:00:46.850 --> 00:00:46.860 align:start position:0%
+basically in the first cycle we know we
+ 
+
+00:00:46.860 --> 00:00:48.139 align:start position:0%
+basically in the first cycle we know we
+can<00:00:47.010><c> issue</c><00:00:47.129><c> this</c><00:00:47.399><c> and</c><00:00:47.579><c> nothing</c><00:00:47.820><c> else</c><00:00:47.940><c> will</c>
+
+00:00:48.139 --> 00:00:48.149 align:start position:0%
+can issue this and nothing else will
+ 
+
+00:00:48.149 --> 00:00:50.840 align:start position:0%
+can issue this and nothing else will
+happen<00:00:48.570><c> in</c><00:00:49.469><c> the</c><00:00:49.620><c> next</c><00:00:49.770><c> cycle</c><00:00:50.010><c> we</c><00:00:50.340><c> know</c><00:00:50.489><c> we</c><00:00:50.670><c> can</c>
+
+00:00:50.840 --> 00:00:50.850 align:start position:0%
+happen in the next cycle we know we can
+ 
+
+00:00:50.850 --> 00:00:53.180 align:start position:0%
+happen in the next cycle we know we can
+execute<00:00:51.149><c> this</c><00:00:51.449><c> and</c><00:00:51.780><c> then</c><00:00:52.469><c> because</c><00:00:52.860><c> it</c><00:00:53.010><c> takes</c>
+
+00:00:53.180 --> 00:00:53.190 align:start position:0%
+execute this and then because it takes
+ 
+
+00:00:53.190 --> 00:00:54.529 align:start position:0%
+execute this and then because it takes
+three<00:00:53.399><c> cycles</c><00:00:53.760><c> we</c><00:00:53.879><c> know</c><00:00:54.030><c> that</c><00:00:54.210><c> we're</c><00:00:54.360><c> gonna</c>
+
+00:00:54.529 --> 00:00:54.539 align:start position:0%
+three cycles we know that we're gonna
+ 
+
+00:00:54.539 --> 00:00:57.709 align:start position:0%
+three cycles we know that we're gonna
+try<00:00:54.780><c> to</c><00:00:54.930><c> write</c><00:00:55.289><c> it</c><00:00:55.469><c> in</c><00:00:55.590><c> cycle</c><00:00:55.949><c> four</c><00:00:56.329><c> so</c><00:00:57.329><c> kind</c><00:00:57.600><c> of</c>
+
+00:00:57.709 --> 00:00:57.719 align:start position:0%
+try to write it in cycle four so kind of
+ 
+
+00:00:57.719 --> 00:01:00.020 align:start position:0%
+try to write it in cycle four so kind of
+marked<00:00:58.350><c> is</c><00:00:58.469><c> tentatively</c><00:00:59.010><c> now</c><00:00:59.250><c> for</c><00:00:59.460><c> cycle</c><00:00:59.789><c> four</c>
+
+00:01:00.020 --> 00:01:00.030 align:start position:0%
+marked is tentatively now for cycle four
+ 
+
+00:01:00.030 --> 00:01:02.330 align:start position:0%
+marked is tentatively now for cycle four
+in<00:01:00.510><c> the</c><00:01:00.750><c> next</c><00:01:01.350><c> cycle</c><00:01:01.469><c> we</c><00:01:01.770><c> will</c><00:01:01.949><c> be</c><00:01:02.070><c> issuing</c>
+
+00:01:02.330 --> 00:01:02.340 align:start position:0%
+in the next cycle we will be issuing
+ 
+
+00:01:02.340 --> 00:01:04.700 align:start position:0%
+in the next cycle we will be issuing
+this<00:01:02.640><c> load</c><00:01:02.940><c> here</c><00:01:03.449><c> if</c><00:01:03.840><c> we</c><00:01:04.049><c> consider</c><00:01:04.379><c> the</c><00:01:04.559><c> same</c>
+
+00:01:04.700 --> 00:01:04.710 align:start position:0%
+this load here if we consider the same
+ 
+
+00:01:04.710 --> 00:01:07.730 align:start position:0%
+this load here if we consider the same
+condition<00:01:05.250><c> that</c><00:01:05.400><c> the</c><00:01:05.700><c> load</c><00:01:06.210><c> cannot</c><00:01:06.869><c> overlap</c>
+
+00:01:07.730 --> 00:01:07.740 align:start position:0%
+condition that the load cannot overlap
+ 
+
+00:01:07.740 --> 00:01:09.469 align:start position:0%
+condition that the load cannot overlap
+with<00:01:07.950><c> another</c><00:01:08.189><c> load</c><00:01:08.460><c> and</c><00:01:08.700><c> we</c><00:01:08.880><c> know</c><00:01:09.030><c> that</c><00:01:09.240><c> in</c>
+
+00:01:09.469 --> 00:01:09.479 align:start position:0%
+with another load and we know that in
+ 
+
+00:01:09.479 --> 00:01:10.789 align:start position:0%
+with another load and we know that in
+two<00:01:09.659><c> and</c><00:01:09.810><c> three</c><00:01:09.960><c> this</c><00:01:10.080><c> is</c><00:01:10.140><c> going</c><00:01:10.470><c> to</c><00:01:10.560><c> execute</c>
+
+00:01:10.789 --> 00:01:10.799 align:start position:0%
+two and three this is going to execute
+ 
+
+00:01:10.799 --> 00:01:13.310 align:start position:0%
+two and three this is going to execute
+so<00:01:11.310><c> that</c><00:01:11.520><c> this</c><00:01:11.790><c> can</c><00:01:12.060><c> begin</c><00:01:12.330><c> execution</c><00:01:12.780><c> in</c><00:01:13.049><c> four</c>
+
+00:01:13.310 --> 00:01:13.320 align:start position:0%
+so that this can begin execution in four
+ 
+
+00:01:13.320 --> 00:01:15.620 align:start position:0%
+so that this can begin execution in four
+and<00:01:13.680><c> then</c><00:01:13.880><c> executed</c><00:01:14.880><c> five</c><00:01:15.150><c> and</c><00:01:15.420><c> try</c><00:01:15.570><c> to</c>
+
+00:01:15.620 --> 00:01:15.630 align:start position:0%
+and then executed five and try to
+ 
+
+00:01:15.630 --> 00:01:18.920 align:start position:0%
+and then executed five and try to
+broadcast<00:01:15.960><c> in</c><00:01:16.290><c> six</c><00:01:16.619><c> in</c><00:01:17.189><c> cycle</c><00:01:17.729><c> three</c><00:01:17.939><c> we're</c>
+
+00:01:18.920 --> 00:01:18.930 align:start position:0%
+broadcast in six in cycle three we're
+ 
+
+00:01:18.930 --> 00:01:22.130 align:start position:0%
+broadcast in six in cycle three we're
+gonna<00:01:19.170><c> be</c><00:01:19.590><c> issuing</c><00:01:20.369><c> this</c><00:01:20.780><c> it</c><00:01:21.780><c> uses</c><00:01:22.080><c> a</c>
+
+00:01:22.130 --> 00:01:22.140 align:start position:0%
+gonna be issuing this it uses a
+ 
+
+00:01:22.140 --> 00:01:23.600 align:start position:0%
+gonna be issuing this it uses a
+different<00:01:22.290><c> unit</c><00:01:22.770><c> so</c><00:01:22.860><c> again</c><00:01:23.189><c> you</c><00:01:23.280><c> have</c><00:01:23.460><c> to</c>
+
+00:01:23.600 --> 00:01:23.610 align:start position:0%
+different unit so again you have to
+ 
+
+00:01:23.610 --> 00:01:26.480 align:start position:0%
+different unit so again you have to
+check<00:01:23.640><c> basically</c><00:01:24.420><c> in</c><00:01:24.869><c> cycle</c><00:01:25.409><c> three</c><00:01:25.590><c> is</c><00:01:26.189><c> there</c>
+
+00:01:26.480 --> 00:01:26.490 align:start position:0%
+check basically in cycle three is there
+ 
+
+00:01:26.490 --> 00:01:28.280 align:start position:0%
+check basically in cycle three is there
+an<00:01:26.640><c> available</c><00:01:27.180><c> multiply</c><00:01:27.630><c> unit</c><00:01:27.900><c> but</c><00:01:28.020><c> kind</c><00:01:28.229><c> of</c>
+
+00:01:28.280 --> 00:01:28.290 align:start position:0%
+an available multiply unit but kind of
+ 
+
+00:01:28.290 --> 00:01:29.840 align:start position:0%
+an available multiply unit but kind of
+looking<00:01:28.590><c> at</c><00:01:28.740><c> what's</c><00:01:29.159><c> currently</c><00:01:29.520><c> using</c><00:01:29.759><c> the</c>
+
+00:01:29.840 --> 00:01:29.850 align:start position:0%
+looking at what's currently using the
+ 
+
+00:01:29.850 --> 00:01:31.490 align:start position:0%
+looking at what's currently using the
+reservation<00:01:30.299><c> stations</c><00:01:30.750><c> and</c><00:01:30.990><c> then</c><00:01:31.259><c> you</c><00:01:31.350><c> have</c>
+
+00:01:31.490 --> 00:01:31.500 align:start position:0%
+reservation stations and then you have
+ 
+
+00:01:31.500 --> 00:01:33.140 align:start position:0%
+reservation stations and then you have
+to<00:01:31.590><c> check</c><00:01:31.770><c> for</c><00:01:31.799><c> dependencies</c><00:01:32.549><c> so</c><00:01:32.579><c> for</c><00:01:32.850><c> example</c>
+
+00:01:33.140 --> 00:01:33.150 align:start position:0%
+to check for dependencies so for example
+ 
+
+00:01:33.150 --> 00:01:35.810 align:start position:0%
+to check for dependencies so for example
+this<00:01:33.240><c> is</c><00:01:33.299><c> waiting</c><00:01:33.750><c> for</c><00:01:33.930><c> F</c><00:01:34.140><c> 2</c><00:01:34.170><c> and</c><00:01:34.590><c> F</c><00:01:34.710><c> 4</c><00:01:35.070><c> F</c><00:01:35.520><c> 2</c><00:01:35.579><c> is</c>
+
+00:01:35.810 --> 00:01:35.820 align:start position:0%
+this is waiting for F 2 and F 4 F 2 is
+ 
+
+00:01:35.820 --> 00:01:38.359 align:start position:0%
+this is waiting for F 2 and F 4 F 2 is
+produced<00:01:36.180><c> by</c><00:01:36.329><c> the</c><00:01:36.390><c> second</c><00:01:36.900><c> load</c><00:01:37.049><c> so</c><00:01:37.650><c> actually</c>
+
+00:01:38.359 --> 00:01:38.369 align:start position:0%
+produced by the second load so actually
+ 
+
+00:01:38.369 --> 00:01:40.130 align:start position:0%
+produced by the second load so actually
+this<00:01:38.490><c> will</c><00:01:38.670><c> not</c><00:01:38.850><c> be</c><00:01:39.030><c> able</c><00:01:39.119><c> to</c><00:01:39.329><c> execute</c><00:01:39.720><c> until</c>
+
+00:01:40.130 --> 00:01:40.140 align:start position:0%
+this will not be able to execute until
+ 
+
+00:01:40.140 --> 00:01:43.249 align:start position:0%
+this will not be able to execute until
+cycle<00:01:40.979><c> 7</c><00:01:41.400><c> 6</c><00:01:41.820><c> here</c><00:01:42.060><c> means</c><00:01:42.390><c> that</c><00:01:42.630><c> basically</c><00:01:42.840><c> we</c>
+
+00:01:43.249 --> 00:01:43.259 align:start position:0%
+cycle 7 6 here means that basically we
+ 
+
+00:01:43.259 --> 00:01:47.030 align:start position:0%
+cycle 7 6 here means that basically we
+will<00:01:43.560><c> have</c><00:01:43.890><c> 7</c><00:01:44.369><c> and</c><00:01:44.600><c> we</c><00:01:45.600><c> can</c><00:01:45.840><c> kind</c><00:01:46.380><c> of</c><00:01:46.470><c> mark</c><00:01:46.710><c> here</c>
+
+00:01:47.030 --> 00:01:47.040 align:start position:0%
+will have 7 and we can kind of mark here
+ 
+
+00:01:47.040 --> 00:01:49.700 align:start position:0%
+will have 7 and we can kind of mark here
+that<00:01:47.280><c> our</c><00:01:47.790><c> F</c><00:01:48.000><c> 2</c><00:01:48.210><c> comes</c><00:01:48.479><c> from</c><00:01:48.689><c> instruction</c><00:01:49.530><c> 2</c>
+
+00:01:49.700 --> 00:01:49.710 align:start position:0%
+that our F 2 comes from instruction 2
+ 
+
+00:01:49.710 --> 00:01:52.069 align:start position:0%
+that our F 2 comes from instruction 2
+which<00:01:50.310><c> is</c><00:01:50.460><c> why</c><00:01:50.640><c> we</c><00:01:50.850><c> had</c><00:01:51.030><c> to</c><00:01:51.149><c> execute</c><00:01:51.420><c> only</c><00:01:51.840><c> in</c>
+
+00:01:52.069 --> 00:01:52.079 align:start position:0%
+which is why we had to execute only in
+ 
+
+00:01:52.079 --> 00:01:53.300 align:start position:0%
+which is why we had to execute only in
+the<00:01:52.170><c> cycle</c><00:01:52.470><c> that</c><00:01:52.500><c> follows</c><00:01:52.920><c> it's</c><00:01:53.100><c> right</c>
+
+00:01:53.300 --> 00:01:53.310 align:start position:0%
+the cycle that follows it's right
+ 
+
+00:01:53.310 --> 00:01:55.880 align:start position:0%
+the cycle that follows it's right
+because<00:01:53.909><c> this</c><00:01:54.180><c> is</c><00:01:54.299><c> a</c><00:01:54.329><c> multiplication</c><00:01:54.810><c> add</c><00:01:55.439><c> 10</c>
+
+00:01:55.880 --> 00:01:55.890 align:start position:0%
+because this is a multiplication add 10
+ 
+
+00:01:55.890 --> 00:01:57.590 align:start position:0%
+because this is a multiplication add 10
+cycles<00:01:56.100><c> to</c><00:01:56.369><c> that</c><00:01:56.579><c> we're</c><00:01:56.820><c> gonna</c><00:01:57.000><c> try</c><00:01:57.270><c> to</c><00:01:57.329><c> write</c>
+
+00:01:57.590 --> 00:01:57.600 align:start position:0%
+cycles to that we're gonna try to write
+ 
+
+00:01:57.600 --> 00:02:00.530 align:start position:0%
+cycles to that we're gonna try to write
+the<00:01:57.750><c> result</c><00:01:58.049><c> in</c><00:01:58.170><c> cycle</c><00:01:58.229><c> 17</c><00:01:59.100><c> the</c><00:01:59.520><c> subtract</c><00:02:00.000><c> is</c>
+
+00:02:00.530 --> 00:02:00.540 align:start position:0%
+the result in cycle 17 the subtract is
+ 
+
+00:02:00.540 --> 00:02:02.209 align:start position:0%
+the result in cycle 17 the subtract is
+gonna<00:02:00.810><c> issue</c><00:02:00.990><c> in</c><00:02:01.259><c> the</c><00:02:01.380><c> very</c><00:02:01.560><c> next</c><00:02:01.770><c> cycle</c><00:02:02.009><c> if</c>
+
+00:02:02.209 --> 00:02:02.219 align:start position:0%
+gonna issue in the very next cycle if
+ 
+
+00:02:02.219 --> 00:02:04.160 align:start position:0%
+gonna issue in the very next cycle if
+there<00:02:02.369><c> are</c><00:02:02.490><c> available</c><00:02:02.729><c> reservation</c><00:02:03.719><c> stations</c>
+
+00:02:04.160 --> 00:02:04.170 align:start position:0%
+there are available reservation stations
+ 
+
+00:02:04.170 --> 00:02:05.959 align:start position:0%
+there are available reservation stations
+because<00:02:04.560><c> so</c><00:02:04.799><c> far</c><00:02:04.950><c> we</c><00:02:05.130><c> have</c><00:02:05.280><c> used</c><00:02:05.490><c> no</c><00:02:05.700><c> add</c>
+
+00:02:05.959 --> 00:02:05.969 align:start position:0%
+because so far we have used no add
+ 
+
+00:02:05.969 --> 00:02:07.969 align:start position:0%
+because so far we have used no add
+reservation<00:02:06.630><c> stations</c><00:02:06.990><c> that's</c><00:02:07.350><c> going</c><00:02:07.590><c> to</c><00:02:07.710><c> be</c>
+
+00:02:07.969 --> 00:02:07.979 align:start position:0%
+reservation stations that's going to be
+ 
+
+00:02:07.979 --> 00:02:10.400 align:start position:0%
+reservation stations that's going to be
+able<00:02:08.069><c> to</c><00:02:08.220><c> issue</c><00:02:08.539><c> the</c><00:02:09.539><c> subtract</c><00:02:09.989><c> is</c><00:02:10.140><c> going</c><00:02:10.319><c> to</c>
+
+00:02:10.400 --> 00:02:10.410 align:start position:0%
+able to issue the subtract is going to
+ 
+
+00:02:10.410 --> 00:02:13.340 align:start position:0%
+able to issue the subtract is going to
+wait<00:02:10.560><c> for</c><00:02:10.940><c> 2</c><00:02:11.940><c> &amp;</c><00:02:12.180><c> 6</c><00:02:12.450><c> so</c>
+
+00:02:13.340 --> 00:02:13.350 align:start position:0%
+wait for 2 &amp; 6 so
+ 
+
+00:02:13.350 --> 00:02:14.840 align:start position:0%
+wait for 2 &amp; 6 so
+the<00:02:13.410><c> later</c><00:02:13.620><c> of</c><00:02:13.860><c> the</c><00:02:13.980><c> two</c><00:02:14.130><c> loads</c><00:02:14.370><c> is</c><00:02:14.550><c> really</c>
+
+00:02:14.840 --> 00:02:14.850 align:start position:0%
+the later of the two loads is really
+ 
+
+00:02:14.850 --> 00:02:17.750 align:start position:0%
+the later of the two loads is really
+when<00:02:15.060><c> we</c><00:02:15.240><c> can</c><00:02:15.450><c> start</c><00:02:15.920><c> so</c><00:02:16.920><c> we</c><00:02:17.070><c> can</c><00:02:17.250><c> start</c><00:02:17.520><c> in</c>
+
+00:02:17.750 --> 00:02:17.760 align:start position:0%
+when we can start so we can start in
+ 
+
+00:02:17.760 --> 00:02:20.150 align:start position:0%
+when we can start so we can start in
+cycle<00:02:18.150><c> seven</c><00:02:18.600><c> and</c><00:02:19.050><c> we</c><00:02:19.290><c> will</c><00:02:19.410><c> mark</c><00:02:19.650><c> here</c><00:02:19.890><c> again</c>
+
+00:02:20.150 --> 00:02:20.160 align:start position:0%
+cycle seven and we will mark here again
+ 
+
+00:02:20.160 --> 00:02:21.920 align:start position:0%
+cycle seven and we will mark here again
+that<00:02:20.370><c> you</c><00:02:20.580><c> know</c><00:02:20.640><c> we</c><00:02:20.850><c> are</c><00:02:20.970><c> waiting</c><00:02:21.270><c> kind</c><00:02:21.840><c> of</c>
+
+00:02:21.920 --> 00:02:21.930 align:start position:0%
+that you know we are waiting kind of
+ 
+
+00:02:21.930 --> 00:02:24.500 align:start position:0%
+that you know we are waiting kind of
+just<00:02:22.110><c> give</c><00:02:22.680><c> an</c><00:02:22.830><c> indication</c><00:02:23.100><c> what</c><00:02:24.090><c> was</c><00:02:24.330><c> the</c>
+
+00:02:24.500 --> 00:02:24.510 align:start position:0%
+just give an indication what was the
+ 
+
+00:02:24.510 --> 00:02:26.810 align:start position:0%
+just give an indication what was the
+delay<00:02:24.660><c> somewhere</c><00:02:25.350><c> and</c><00:02:25.590><c> then</c><00:02:26.160><c> it's</c><00:02:26.310><c> a</c><00:02:26.400><c> subtract</c>
+
+00:02:26.810 --> 00:02:26.820 align:start position:0%
+delay somewhere and then it's a subtract
+ 
+
+00:02:26.820 --> 00:02:29.120 align:start position:0%
+delay somewhere and then it's a subtract
+so<00:02:27.000><c> it's</c><00:02:27.120><c> gonna</c><00:02:27.270><c> finish</c><00:02:27.540><c> in</c><00:02:27.810><c> cycle</c><00:02:28.260><c> a</c><00:02:28.470><c> seven</c>
+
+00:02:29.120 --> 00:02:29.130 align:start position:0%
+so it's gonna finish in cycle a seven
+ 
+
+00:02:29.130 --> 00:02:29.540 align:start position:0%
+so it's gonna finish in cycle a seven
+eight
+
+00:02:29.540 --> 00:02:29.550 align:start position:0%
+eight
+ 
+
+00:02:29.550 --> 00:02:31.250 align:start position:0%
+eight
+so<00:02:29.700><c> it's</c><00:02:29.820><c> gonna</c><00:02:30.000><c> try</c><00:02:30.240><c> to</c><00:02:30.300><c> write</c><00:02:30.630><c> the</c><00:02:30.780><c> result</c><00:02:30.900><c> in</c>
+
+00:02:31.250 --> 00:02:31.260 align:start position:0%
+so it's gonna try to write the result in
+ 
+
+00:02:31.260 --> 00:02:33.860 align:start position:0%
+so it's gonna try to write the result in
+nine<00:02:31.880><c> next</c><00:02:32.880><c> we're</c><00:02:33.180><c> gonna</c><00:02:33.360><c> consider</c><00:02:33.750><c> this</c>
+
+00:02:33.860 --> 00:02:33.870 align:start position:0%
+nine next we're gonna consider this
+ 
+
+00:02:33.870 --> 00:02:39.650 align:start position:0%
+nine next we're gonna consider this
+divide<00:02:34.550><c> can</c><00:02:35.550><c> it</c><00:02:35.760><c> issue</c><00:02:36.060><c> in</c><00:02:36.450><c> cycle</c><00:02:36.890><c> five</c><00:02:38.660><c> well</c>
+
+00:02:39.650 --> 00:02:39.660 align:start position:0%
+divide can it issue in cycle five well
+ 
+
+00:02:39.660 --> 00:02:41.810 align:start position:0%
+divide can it issue in cycle five well
+yes<00:02:40.020><c> it</c><00:02:40.170><c> can</c><00:02:40.350><c> because</c><00:02:40.470><c> so</c><00:02:40.740><c> far</c><00:02:40.890><c> only</c><00:02:41.160><c> one</c><00:02:41.340><c> unit</c>
+
+00:02:41.810 --> 00:02:41.820 align:start position:0%
+yes it can because so far only one unit
+ 
+
+00:02:41.820 --> 00:02:43.760 align:start position:0%
+yes it can because so far only one unit
+is<00:02:41.940><c> used</c><00:02:42.150><c> and</c><00:02:42.300><c> we</c><00:02:42.420><c> have</c><00:02:42.570><c> two</c><00:02:42.750><c> such</c><00:02:42.990><c> only</c><00:02:43.650><c> one</c>
+
+00:02:43.760 --> 00:02:43.770 align:start position:0%
+is used and we have two such only one
+ 
+
+00:02:43.770 --> 00:02:45.050 align:start position:0%
+is used and we have two such only one
+reservation<00:02:44.070><c> station</c><00:02:44.490><c> is</c><00:02:44.550><c> used</c><00:02:44.700><c> and</c><00:02:44.820><c> we</c><00:02:44.910><c> have</c>
+
+00:02:45.050 --> 00:02:45.060 align:start position:0%
+reservation station is used and we have
+ 
+
+00:02:45.060 --> 00:02:47.000 align:start position:0%
+reservation station is used and we have
+two<00:02:45.240><c> of</c><00:02:45.390><c> them</c><00:02:45.540><c> so</c><00:02:46.110><c> the</c><00:02:46.230><c> question</c><00:02:46.530><c> is</c><00:02:46.590><c> when</c><00:02:46.770><c> can</c>
+
+00:02:47.000 --> 00:02:47.010 align:start position:0%
+two of them so the question is when can
+ 
+
+00:02:47.010 --> 00:02:50.900 align:start position:0%
+two of them so the question is when can
+it<00:02:47.070><c> execute</c><00:02:47.640><c> well</c><00:02:47.910><c> look</c><00:02:48.120><c> for</c><00:02:48.150><c> F</c><00:02:48.660><c> 0</c><00:02:49.080><c> and</c><00:02:49.170><c> F</c><00:02:49.380><c> 6</c><00:02:49.710><c> F</c><00:02:50.550><c> 0</c>
+
+00:02:50.900 --> 00:02:50.910 align:start position:0%
+it execute well look for F 0 and F 6 F 0
+ 
+
+00:02:50.910 --> 00:02:53.630 align:start position:0%
+it execute well look for F 0 and F 6 F 0
+comes<00:02:51.150><c> from</c><00:02:51.330><c> the</c><00:02:51.450><c> multiply</c><00:02:51.900><c> at</c><00:02:52.050><c> 17</c><00:02:52.680><c> F</c><00:02:52.950><c> 6</c><00:02:53.340><c> comes</c>
+
+00:02:53.630 --> 00:02:53.640 align:start position:0%
+comes from the multiply at 17 F 6 comes
+ 
+
+00:02:53.640 --> 00:02:55.880 align:start position:0%
+comes from the multiply at 17 F 6 comes
+at<00:02:53.880><c> 4</c><00:02:54.210><c> so</c><00:02:54.570><c> we</c><00:02:54.690><c> will</c><00:02:54.840><c> be</c><00:02:54.990><c> able</c><00:02:55.050><c> to</c><00:02:55.200><c> execute</c><00:02:55.560><c> in</c>
+
+00:02:55.880 --> 00:02:55.890 align:start position:0%
+at 4 so we will be able to execute in
+ 
+
+00:02:55.890 --> 00:02:58.400 align:start position:0%
+at 4 so we will be able to execute in
+cycle<00:02:56.280><c> 18</c><00:02:56.460><c> here</c><00:02:57.090><c> because</c><00:02:57.630><c> we</c><00:02:57.870><c> were</c><00:02:58.020><c> waiting</c>
+
+00:02:58.400 --> 00:02:58.410 align:start position:0%
+cycle 18 here because we were waiting
+ 
+
+00:02:58.410 --> 00:03:02.390 align:start position:0%
+cycle 18 here because we were waiting
+for<00:02:58.440><c> F</c><00:02:58.920><c> 0</c><00:02:59.340><c> like</c><00:02:59.970><c> this</c><00:03:00.000><c> and</c><00:03:00.540><c> it's</c><00:03:01.350><c> a</c><00:03:01.470><c> divide</c><00:03:01.800><c> so</c>
+
+00:03:02.390 --> 00:03:02.400 align:start position:0%
+for F 0 like this and it's a divide so
+ 
+
+00:03:02.400 --> 00:03:04.780 align:start position:0%
+for F 0 like this and it's a divide so
+it's<00:03:02.550><c> gonna</c><00:03:02.730><c> try</c><00:03:03.240><c> to</c><00:03:03.300><c> broadcast</c><00:03:03.570><c> at</c><00:03:03.870><c> cycle</c><00:03:04.200><c> 58</c>
+
+00:03:04.780 --> 00:03:04.790 align:start position:0%
+it's gonna try to broadcast at cycle 58
+ 
+
+00:03:04.790 --> 00:03:07.970 align:start position:0%
+it's gonna try to broadcast at cycle 58
+next<00:03:05.790><c> we're</c><00:03:05.910><c> going</c><00:03:06.090><c> to</c><00:03:06.150><c> consider</c><00:03:06.830><c> what's</c><00:03:07.830><c> the</c>
+
+00:03:07.970 --> 00:03:07.980 align:start position:0%
+next we're going to consider what's the
+ 
+
+00:03:07.980 --> 00:03:11.540 align:start position:0%
+next we're going to consider what's the
+next<00:03:08.340><c> issue</c><00:03:08.520><c> cycle</c><00:03:09.150><c> well</c><00:03:09.360><c> 6</c><00:03:09.930><c> this</c><00:03:10.800><c> ad</c><00:03:11.100><c> is</c><00:03:11.340><c> gonna</c>
+
+00:03:11.540 --> 00:03:11.550 align:start position:0%
+next issue cycle well 6 this ad is gonna
+ 
+
+00:03:11.550 --> 00:03:14.060 align:start position:0%
+next issue cycle well 6 this ad is gonna
+issue<00:03:11.910><c> in</c><00:03:12.150><c> 6</c><00:03:12.390><c> because</c><00:03:12.660><c> again</c><00:03:12.960><c> we</c><00:03:13.200><c> have</c><00:03:13.230><c> units</c><00:03:13.830><c> I</c>
+
+00:03:14.060 --> 00:03:14.070 align:start position:0%
+issue in 6 because again we have units I
+ 
+
+00:03:14.070 --> 00:03:17.570 align:start position:0%
+issue in 6 because again we have units I
+just<00:03:15.000><c> wanna</c><00:03:15.150><c> look</c><00:03:15.330><c> for</c><00:03:15.390><c> f8</c><00:03:16.050><c> and</c><00:03:16.320><c> f2</c><00:03:16.710><c> whichever</c>
+
+00:03:17.570 --> 00:03:17.580 align:start position:0%
+just wanna look for f8 and f2 whichever
+ 
+
+00:03:17.580 --> 00:03:22.130 align:start position:0%
+just wanna look for f8 and f2 whichever
+is<00:03:17.760><c> the</c><00:03:17.910><c> latest</c><00:03:18.330><c> to</c><00:03:19.170><c> is</c><00:03:19.320><c> at</c><00:03:19.500><c> 6</c><00:03:19.770><c> F</c><00:03:20.100><c> 8</c><00:03:20.760><c> is</c><00:03:20.940><c> 8</c><00:03:21.090><c> 9</c><00:03:21.330><c> so</c>
+
+00:03:22.130 --> 00:03:22.140 align:start position:0%
+is the latest to is at 6 F 8 is 8 9 so
+ 
+
+00:03:22.140 --> 00:03:24.500 align:start position:0%
+is the latest to is at 6 F 8 is 8 9 so
+it's<00:03:22.290><c> gonna</c><00:03:22.440><c> start</c><00:03:23.310><c> executing</c><00:03:23.790><c> in</c><00:03:23.970><c> cycle</c><00:03:24.030><c> 10</c>
+
+00:03:24.500 --> 00:03:24.510 align:start position:0%
+it's gonna start executing in cycle 10
+ 
+
+00:03:24.510 --> 00:03:26.990 align:start position:0%
+it's gonna start executing in cycle 10
+executing<00:03:25.290><c> cycle</c><00:03:25.590><c> 11</c><00:03:25.830><c> try</c><00:03:26.250><c> to</c><00:03:26.310><c> broadcast</c><00:03:26.880><c> in</c>
+
+00:03:26.990 --> 00:03:27.000 align:start position:0%
+executing cycle 11 try to broadcast in
+ 
+
+00:03:27.000 --> 00:03:30.140 align:start position:0%
+executing cycle 11 try to broadcast in
+cycle<00:03:27.180><c> 12</c><00:03:27.480><c> and</c><00:03:28.050><c> we're</c><00:03:28.770><c> going</c><00:03:28.980><c> to</c><00:03:29.040><c> mark</c><00:03:29.250><c> that</c><00:03:29.370><c> F</c>
+
+00:03:30.140 --> 00:03:30.150 align:start position:0%
+cycle 12 and we're going to mark that F
+ 
+
+00:03:30.150 --> 00:03:34.900 align:start position:0%
+cycle 12 and we're going to mark that F
+8<00:03:30.770><c> comes</c><00:03:31.770><c> from</c><00:03:32.690><c> instruction</c><00:03:33.690><c> 4</c><00:03:33.990><c> and</c><00:03:34.320><c> now</c>
+
+00:03:34.900 --> 00:03:34.910 align:start position:0%
+8 comes from instruction 4 and now
+ 
+
+00:03:34.910 --> 00:03:37.220 align:start position:0%
+8 comes from instruction 4 and now
+because<00:03:35.910><c> we've</c><00:03:36.120><c> been</c><00:03:36.240><c> kind</c><00:03:36.390><c> of</c><00:03:36.510><c> doing</c><00:03:36.960><c> this</c>
+
+00:03:37.220 --> 00:03:37.230 align:start position:0%
+because we've been kind of doing this
+ 
+
+00:03:37.230 --> 00:03:39.620 align:start position:0%
+because we've been kind of doing this
+out<00:03:37.470><c> of</c><00:03:37.650><c> order</c><00:03:37.830><c> we</c><00:03:38.130><c> have</c><00:03:38.310><c> to</c><00:03:38.340><c> check</c><00:03:38.700><c> just</c><00:03:38.970><c> are</c>
+
+00:03:39.620 --> 00:03:39.630 align:start position:0%
+out of order we have to check just are
+ 
+
+00:03:39.630 --> 00:03:41.270 align:start position:0%
+out of order we have to check just are
+there<00:03:39.960><c> any</c><00:03:40.200><c> two</c><00:03:40.500><c> instructions</c><00:03:41.070><c> that</c><00:03:41.160><c> are</c>
+
+00:03:41.270 --> 00:03:41.280 align:start position:0%
+there any two instructions that are
+ 
+
+00:03:41.280 --> 00:03:42.950 align:start position:0%
+there any two instructions that are
+actually<00:03:41.580><c> writing</c><00:03:41.820><c> in</c><00:03:42.090><c> the</c><00:03:42.180><c> same</c><00:03:42.390><c> cycle</c><00:03:42.630><c> if</c>
+
+00:03:42.950 --> 00:03:42.960 align:start position:0%
+actually writing in the same cycle if
+ 
+
+00:03:42.960 --> 00:03:44.450 align:start position:0%
+actually writing in the same cycle if
+yes<00:03:43.230><c> then</c><00:03:43.470><c> we'll</c><00:03:43.680><c> have</c><00:03:43.830><c> to</c><00:03:43.950><c> redo</c><00:03:44.280><c> this</c>
+
+00:03:44.450 --> 00:03:44.460 align:start position:0%
+yes then we'll have to redo this
+ 
+
+00:03:44.460 --> 00:03:46.340 align:start position:0%
+yes then we'll have to redo this
+basically<00:03:45.030><c> we</c><00:03:45.150><c> have</c><00:03:45.300><c> to</c><00:03:45.390><c> postpone</c><00:03:45.720><c> some</c><00:03:46.230><c> of</c>
+
+00:03:46.340 --> 00:03:46.350 align:start position:0%
+basically we have to postpone some of
+ 
+
+00:03:46.350 --> 00:03:47.960 align:start position:0%
+basically we have to postpone some of
+the<00:03:46.470><c> writes</c><00:03:46.650><c> in</c><00:03:46.830><c> order</c><00:03:47.070><c> for</c><00:03:47.520><c> that</c><00:03:47.640><c> to</c><00:03:47.700><c> happen</c>
+
+00:03:47.960 --> 00:03:47.970 align:start position:0%
+the writes in order for that to happen
+ 
+
+00:03:47.970 --> 00:03:49.520 align:start position:0%
+the writes in order for that to happen
+but<00:03:48.300><c> because</c><00:03:48.690><c> these</c><00:03:49.110><c> are</c><00:03:49.260><c> all</c><00:03:49.380><c> different</c>
+
+00:03:49.520 --> 00:03:49.530 align:start position:0%
+but because these are all different
+ 
+
+00:03:49.530 --> 00:03:51.530 align:start position:0%
+but because these are all different
+cycles<00:03:50.070><c> everything</c><00:03:50.460><c> is</c><00:03:50.580><c> fine</c><00:03:50.790><c> and</c><00:03:51.060><c> this</c>
+
+00:03:51.530 --> 00:03:51.540 align:start position:0%
+cycles everything is fine and this
+ 
+
+00:03:51.540 --> 00:03:53.990 align:start position:0%
+cycles everything is fine and this
+concludes<00:03:52.140><c> our</c><00:03:52.560><c> timing</c><00:03:53.400><c> examples</c><00:03:53.910><c> so</c>
+
+00:03:53.990 --> 00:03:54.000 align:start position:0%
+concludes our timing examples so
+ 
+
+00:03:54.000 --> 00:03:55.280 align:start position:0%
+concludes our timing examples so
+basically<00:03:54.240><c> now</c><00:03:54.420><c> we</c><00:03:54.480><c> know</c><00:03:54.660><c> in</c><00:03:54.810><c> which</c><00:03:54.990><c> cycle</c>
+
+00:03:55.280 --> 00:03:55.290 align:start position:0%
+basically now we know in which cycle
+ 
+
+00:03:55.290 --> 00:03:56.690 align:start position:0%
+basically now we know in which cycle
+each<00:03:55.410><c> instruction</c><00:03:55.800><c> executes</c><00:03:56.220><c> issues</c><00:03:56.520><c> and</c>
+
+00:03:56.690 --> 00:03:56.700 align:start position:0%
+each instruction executes issues and
+ 
+
+00:03:56.700 --> 00:03:58.990 align:start position:0%
+each instruction executes issues and
+writes<00:03:56.880><c> and</c><00:03:57.290><c> when</c><00:03:58.290><c> does</c><00:03:58.530><c> this</c><00:03:58.680><c> all</c><00:03:58.950><c> end</c>
+
+00:03:58.990 --> 00:03:59.000 align:start position:0%
+writes and when does this all end
+ 
+
+00:03:59.000 --> 00:04:01.250 align:start position:0%
+writes and when does this all end
+without<00:04:00.000><c> really</c><00:04:00.210><c> having</c><00:04:00.390><c> to</c><00:04:00.660><c> go</c><00:04:00.780><c> through</c><00:04:00.810><c> all</c>
+
+00:04:01.250 --> 00:04:01.260 align:start position:0%
+without really having to go through all
+ 
+
+00:04:01.260 --> 00:04:03.260 align:start position:0%
+without really having to go through all
+of<00:04:01.290><c> those</c><00:04:02.100><c> things</c><00:04:02.160><c> so</c><00:04:02.640><c> if</c><00:04:02.820><c> we</c><00:04:03.030><c> are</c><00:04:03.120><c> only</c>
+
+00:04:03.260 --> 00:04:03.270 align:start position:0%
+of those things so if we are only
+ 
+
+00:04:03.270 --> 00:04:05.150 align:start position:0%
+of those things so if we are only
+worried<00:04:03.900><c> about</c><00:04:03.990><c> timing</c><00:04:04.440><c> then</c><00:04:04.770><c> we</c><00:04:04.890><c> can</c><00:04:05.070><c> do</c>
+
+00:04:05.150 --> 00:04:05.160 align:start position:0%
+worried about timing then we can do
+ 
+
+00:04:05.160 --> 00:04:07.850 align:start position:0%
+worried about timing then we can do
+something<00:04:05.520><c> like</c><00:04:05.550><c> this</c>
+

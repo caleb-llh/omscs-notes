@@ -1,0 +1,36 @@
+1
+00:00:00,280 --> 00:00:01,446
+ Okay, quiz time.
+
+2
+00:00:01,446 --> 00:00:05,340
+ Recall the parallel algorithm for finding the roots of a tree.
+
+3
+00:00:05,340 --> 00:00:09,490
+ The key idea was to look for the root from all nodes, simultaneously.
+
+4
+00:00:09,490 --> 00:00:11,660
+ That's hidden in the adopt call.
+
+5
+00:00:11,660 --> 00:00:15,000
+ Now consider the following claims about this algorithm.
+
+6
+00:00:15,000 --> 00:00:18,760
+ Look at each of these claims and check off the ones that you think apply.
+
+7
+00:00:18,760 --> 00:00:20,740
+ Notice that I've left another box,
+
+8
+00:00:20,740 --> 00:00:23,370
+ in case you think of anything else you want to say.
+
+9
+00:00:23,370 --> 00:00:23,370
+ The box is just an ungraded free response.
+

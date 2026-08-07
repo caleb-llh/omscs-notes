@@ -1,0 +1,16 @@
+1
+00:00:00,260 --> 00:00:01,870
+ Here's the answer.
+
+2
+00:00:01,870 --> 00:00:05,840
+ Stick a 0 in the first node, and a 1 everywhere else.
+
+3
+00:00:05,840 --> 00:00:10,823
+ So if we scan these initial values, we'll get a 0,
+
+4
+00:00:10,823 --> 00:00:10,823
+ 0 plus 1 is 1, 1 plus 1 is 2, 2 plus 1 is 3 and so on.
+

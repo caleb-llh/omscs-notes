@@ -1,0 +1,96 @@
+1
+00:00:00,420 --> 00:00:03,450
+ Let's visit each comparator and look at the outputs.
+
+2
+00:00:03,450 --> 00:00:06,210
+ Remember that plus comparators take their inputs and
+
+3
+00:00:06,210 --> 00:00:08,860
+ produce outputs in increasing order.
+
+4
+00:00:08,860 --> 00:00:12,800
+ So for this example, 8 and 7 would become 7 and 8.
+
+5
+00:00:12,800 --> 00:00:16,100
+ Minus comparators do just the opposite.
+
+6
+00:00:16,100 --> 00:00:18,770
+ In this case the inputs are already in descending order so
+
+7
+00:00:18,770 --> 00:00:20,790
+ the outputs will be the same.
+
+8
+00:00:20,790 --> 00:00:24,630
+ Now this comparator takes 7 and 6 as its inputs.
+
+9
+00:00:24,630 --> 00:00:26,740
+ So it will flip them.
+
+10
+00:00:26,740 --> 00:00:28,480
+ Same thing happens here.
+
+11
+00:00:28,480 --> 00:00:31,400
+ Finally, you can check that this column of inputs matches this
+
+12
+00:00:31,400 --> 00:00:33,130
+ column of outputs.
+
+13
+00:00:33,130 --> 00:00:35,570
+ Now, here's a thought question for you.
+
+14
+00:00:35,570 --> 00:00:39,200
+ Suppose I change this minus comparator to a plus comparator,
+
+15
+00:00:39,200 --> 00:00:41,230
+ let's update these values.
+
+16
+00:00:41,230 --> 00:00:43,770
+ Now, let's propagate the new values.
+
+17
+00:00:43,770 --> 00:00:45,340
+ Notice what just happened.
+
+18
+00:00:45,340 --> 00:00:48,160
+ The sequence is actually already sorted at this stage.
+
+19
+00:00:48,160 --> 00:00:52,090
+ Now that would seem to suggest that these two comparators are actually
+
+20
+00:00:52,090 --> 00:00:53,590
+ unnecessary.
+
+21
+00:00:53,590 --> 00:00:55,300
+ But is that really true?
+
+22
+00:00:55,300 --> 00:00:58,210
+ That is if I eliminated these plus comparators,
+
+23
+00:00:58,210 --> 00:01:03,070
+ would the leftover circuit sort any input of four values?
+
+24
+00:01:03,070 --> 00:01:03,070
+ I'll let you ponder that one.
+

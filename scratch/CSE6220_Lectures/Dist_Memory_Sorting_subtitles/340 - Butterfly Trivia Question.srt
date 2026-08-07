@@ -1,0 +1,32 @@
+1
+00:00:00,430 --> 00:00:04,740
+ You've derived several schemes for a distributed bitonic merge.
+
+2
+00:00:04,740 --> 00:00:09,060
+ But in fact this computational pattern of a butterfly network appears in at
+
+3
+00:00:09,060 --> 00:00:12,080
+ least one other very famous algorithm.
+
+4
+00:00:12,080 --> 00:00:16,350
+ Sadly, that algorithm was lost on the way to developing this course.
+
+5
+00:00:16,350 --> 00:00:18,290
+ I wonder if you've seen it, though.
+
+6
+00:00:18,290 --> 00:00:20,490
+ Do you know what algorithm I'm talking about?
+
+7
+00:00:20,490 --> 00:00:22,940
+ If you do I want you to type its name here.
+
+8
+00:00:22,940 --> 00:00:22,940
+ If you don't then just type in a funny joke.
+

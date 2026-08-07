@@ -1,0 +1,288 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.699 align:start position:0%
+ 
+so<00:00:00.299><c> let's</c><00:00:00.510><c> see</c><00:00:00.659><c> how</c><00:00:00.870><c> we</c><00:00:00.930><c> can</c><00:00:01.170><c> implement</c><00:00:01.380><c> the</c>
+
+00:00:01.699 --> 00:00:01.709 align:start position:0%
+so let's see how we can implement the
+ 
+
+00:00:01.709 --> 00:00:05.240 align:start position:0%
+so let's see how we can implement the
+log<00:00:01.890><c> function</c><00:00:02.159><c> our</c><00:00:03.120><c> log</c><00:00:03.480><c> function</c><00:00:04.200><c> needs</c><00:00:05.130><c> to</c>
+
+00:00:05.240 --> 00:00:05.250 align:start position:0%
+log function our log function needs to
+ 
+
+00:00:05.250 --> 00:00:07.730 align:start position:0%
+log function our log function needs to
+do<00:00:05.460><c> something</c><00:00:05.940><c> like</c><00:00:06.089><c> this</c><00:00:06.299><c> we</c><00:00:07.109><c> need</c><00:00:07.290><c> some</c><00:00:07.500><c> sort</c>
+
+00:00:07.730 --> 00:00:07.740 align:start position:0%
+do something like this we need some sort
+ 
+
+00:00:07.740 --> 00:00:09.620 align:start position:0%
+do something like this we need some sort
+of<00:00:07.859><c> a</c><00:00:07.980><c> magical</c><00:00:08.490><c> lock</c><00:00:08.730><c> that</c><00:00:09.030><c> works</c><00:00:09.240><c> without</c>
+
+00:00:09.620 --> 00:00:09.630 align:start position:0%
+of a magical lock that works without
+ 
+
+00:00:09.630 --> 00:00:12.020 align:start position:0%
+of a magical lock that works without
+using<00:00:10.050><c> locks</c><00:00:10.290><c> that</c><00:00:10.980><c> protects</c><00:00:11.490><c> a</c><00:00:11.550><c> critical</c>
+
+00:00:12.020 --> 00:00:12.030 align:start position:0%
+using locks that protects a critical
+ 
+
+00:00:12.030 --> 00:00:14.150 align:start position:0%
+using locks that protects a critical
+section<00:00:12.240><c> in</c><00:00:12.630><c> which</c><00:00:12.840><c> we</c><00:00:13.380><c> check</c><00:00:13.679><c> if</c><00:00:13.860><c> the</c><00:00:13.980><c> lock</c>
+
+00:00:14.150 --> 00:00:14.160 align:start position:0%
+section in which we check if the lock
+ 
+
+00:00:14.160 --> 00:00:16.970 align:start position:0%
+section in which we check if the lock
+variable<00:00:14.340><c> is</c><00:00:14.790><c> zero</c><00:00:15.120><c> we</c><00:00:15.780><c> put</c><00:00:16.049><c> one</c><00:00:16.350><c> in</c><00:00:16.650><c> the</c><00:00:16.800><c> lock</c>
+
+00:00:16.970 --> 00:00:16.980 align:start position:0%
+variable is zero we put one in the lock
+ 
+
+00:00:16.980 --> 00:00:19.550 align:start position:0%
+variable is zero we put one in the lock
+variable<00:00:17.220><c> and</c><00:00:17.789><c> we</c><00:00:18.180><c> leave</c><00:00:18.420><c> because</c><00:00:19.080><c> we</c><00:00:19.289><c> have</c>
+
+00:00:19.550 --> 00:00:19.560 align:start position:0%
+variable and we leave because we have
+ 
+
+00:00:19.560 --> 00:00:21.470 align:start position:0%
+variable and we leave because we have
+just<00:00:19.770><c> successfully</c><00:00:20.160><c> acquired</c><00:00:20.730><c> the</c><00:00:20.880><c> lock</c><00:00:21.060><c> if</c>
+
+00:00:21.470 --> 00:00:21.480 align:start position:0%
+just successfully acquired the lock if
+ 
+
+00:00:21.480 --> 00:00:25.040 align:start position:0%
+just successfully acquired the lock if
+the<00:00:21.840><c> lock</c><00:00:22.050><c> variable</c><00:00:22.230><c> is</c><00:00:22.680><c> one</c><00:00:23.609><c> we</c><00:00:24.390><c> repeat</c><00:00:24.779><c> all</c>
+
+00:00:25.040 --> 00:00:25.050 align:start position:0%
+the lock variable is one we repeat all
+ 
+
+00:00:25.050 --> 00:00:27.920 align:start position:0%
+the lock variable is one we repeat all
+of<00:00:25.080><c> this</c><00:00:25.439><c> and</c><00:00:25.740><c> we</c><00:00:26.340><c> need</c><00:00:26.550><c> to</c><00:00:26.760><c> let</c><00:00:26.970><c> others</c><00:00:27.420><c> also</c>
+
+00:00:27.920 --> 00:00:27.930 align:start position:0%
+of this and we need to let others also
+ 
+
+00:00:27.930 --> 00:00:30.019 align:start position:0%
+of this and we need to let others also
+be<00:00:28.080><c> checking</c><00:00:28.349><c> so</c><00:00:28.920><c> really</c><00:00:29.279><c> we</c><00:00:29.400><c> need</c><00:00:29.580><c> to</c><00:00:29.609><c> insert</c>
+
+00:00:30.019 --> 00:00:30.029 align:start position:0%
+be checking so really we need to insert
+ 
+
+00:00:30.029 --> 00:00:33.950 align:start position:0%
+be checking so really we need to insert
+the<00:00:30.510><c> unlock</c><00:00:31.019><c> magic</c><00:00:31.529><c> here</c><00:00:32.309><c> and</c><00:00:32.489><c> here</c><00:00:33.329><c> so</c>
+
+00:00:33.950 --> 00:00:33.960 align:start position:0%
+the unlock magic here and here so
+ 
+
+00:00:33.960 --> 00:00:36.049 align:start position:0%
+the unlock magic here and here so
+basically<00:00:34.140><c> we're</c><00:00:34.530><c> just</c><00:00:34.559><c> trying</c><00:00:35.070><c> to</c><00:00:35.250><c> do</c><00:00:35.850><c> this</c>
+
+00:00:36.049 --> 00:00:36.059 align:start position:0%
+basically we're just trying to do this
+ 
+
+00:00:36.059 --> 00:00:39.040 align:start position:0%
+basically we're just trying to do this
+check<00:00:36.450><c> and</c><00:00:36.780><c> if</c><00:00:37.320><c> it's</c><00:00:37.559><c> zero</c><00:00:37.860><c> setting</c><00:00:38.430><c> to</c><00:00:38.760><c> one</c>
+
+00:00:39.040 --> 00:00:39.050 align:start position:0%
+check and if it's zero setting to one
+ 
+
+00:00:39.050 --> 00:00:41.420 align:start position:0%
+check and if it's zero setting to one
+atomically<00:00:40.050><c> with</c><00:00:40.320><c> each</c><00:00:40.440><c> other</c><00:00:40.649><c> using</c><00:00:41.010><c> some</c>
+
+00:00:41.420 --> 00:00:41.430 align:start position:0%
+atomically with each other using some
+ 
+
+00:00:41.430 --> 00:00:43.520 align:start position:0%
+atomically with each other using some
+sort<00:00:41.579><c> of</c><00:00:41.700><c> magic</c><00:00:42.200><c> obviously</c><00:00:43.200><c> there</c><00:00:43.350><c> is</c><00:00:43.500><c> no</c>
+
+00:00:43.520 --> 00:00:43.530 align:start position:0%
+sort of magic obviously there is no
+ 
+
+00:00:43.530 --> 00:00:46.130 align:start position:0%
+sort of magic obviously there is no
+magic<00:00:44.129><c> so</c><00:00:44.730><c> if</c><00:00:44.820><c> there</c><00:00:44.969><c> is</c><00:00:45.000><c> no</c><00:00:45.270><c> magic</c><00:00:45.719><c> what</c><00:00:45.930><c> do</c><00:00:46.050><c> we</c>
+
+00:00:46.130 --> 00:00:46.140 align:start position:0%
+magic so if there is no magic what do we
+ 
+
+00:00:46.140 --> 00:00:48.319 align:start position:0%
+magic so if there is no magic what do we
+do<00:00:46.289><c> there</c><00:00:47.039><c> are</c><00:00:47.190><c> several</c><00:00:47.430><c> ways</c><00:00:47.730><c> to</c><00:00:47.789><c> get</c><00:00:48.120><c> the</c>
+
+00:00:48.319 --> 00:00:48.329 align:start position:0%
+do there are several ways to get the
+ 
+
+00:00:48.329 --> 00:00:50.840 align:start position:0%
+do there are several ways to get the
+effect<00:00:48.690><c> that</c><00:00:48.809><c> lock</c><00:00:49.110><c> magic</c><00:00:49.530><c> would</c><00:00:49.710><c> give</c><00:00:49.860><c> us</c><00:00:50.010><c> one</c>
+
+00:00:50.840 --> 00:00:50.850 align:start position:0%
+effect that lock magic would give us one
+ 
+
+00:00:50.850 --> 00:00:52.520 align:start position:0%
+effect that lock magic would give us one
+way<00:00:51.030><c> is</c><00:00:51.090><c> to</c><00:00:51.329><c> use</c><00:00:51.360><c> what's</c><00:00:51.750><c> called</c><00:00:51.809><c> lamport's</c>
+
+00:00:52.520 --> 00:00:52.530 align:start position:0%
+way is to use what's called lamport's
+ 
+
+00:00:52.530 --> 00:00:55.220 align:start position:0%
+way is to use what's called lamport's
+bakery<00:00:52.890><c> algorithm</c><00:00:53.489><c> or</c><00:00:53.640><c> some</c><00:00:54.059><c> other</c><00:00:54.300><c> algorithm</c>
+
+00:00:55.220 --> 00:00:55.230 align:start position:0%
+bakery algorithm or some other algorithm
+ 
+
+00:00:55.230 --> 00:00:57.830 align:start position:0%
+bakery algorithm or some other algorithm
+that<00:00:55.890><c> actually</c><00:00:56.370><c> is</c><00:00:56.430><c> able</c><00:00:56.579><c> to</c><00:00:56.760><c> use</c><00:00:57.000><c> normal</c><00:00:57.360><c> load</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+that actually is able to use normal load
+ 
+
+00:00:57.840 --> 00:00:59.660 align:start position:0%
+that actually is able to use normal load
+and<00:00:58.050><c> store</c><00:00:58.199><c> instructions</c><00:00:58.379><c> to</c><00:00:59.039><c> replace</c><00:00:59.399><c> lock</c>
+
+00:00:59.660 --> 00:00:59.670 align:start position:0%
+and store instructions to replace lock
+ 
+
+00:00:59.670 --> 00:01:02.090 align:start position:0%
+and store instructions to replace lock
+magic<00:01:00.149><c> but</c><00:01:00.539><c> these</c><00:01:00.750><c> algorithms</c><00:01:01.170><c> tend</c><00:01:01.739><c> to</c><00:01:01.980><c> be</c>
+
+00:01:02.090 --> 00:01:02.100 align:start position:0%
+magic but these algorithms tend to be
+ 
+
+00:01:02.100 --> 00:01:04.759 align:start position:0%
+magic but these algorithms tend to be
+relatively<00:01:02.489><c> complicated</c><00:01:03.030><c> and</c><00:01:03.570><c> just</c><00:01:04.290><c> a</c><00:01:04.409><c> simple</c>
+
+00:01:04.759 --> 00:01:04.769 align:start position:0%
+relatively complicated and just a simple
+ 
+
+00:01:04.769 --> 00:01:06.859 align:start position:0%
+relatively complicated and just a simple
+log<00:01:04.979><c> function</c><00:01:05.519><c> would</c><00:01:05.640><c> take</c><00:01:05.909><c> tens</c><00:01:06.570><c> of</c>
+
+00:01:06.859 --> 00:01:06.869 align:start position:0%
+log function would take tens of
+ 
+
+00:01:06.869 --> 00:01:09.170 align:start position:0%
+log function would take tens of
+instructions<00:01:07.439><c> to</c><00:01:07.500><c> do</c><00:01:07.710><c> so</c><00:01:08.549><c> doing</c><00:01:08.850><c> this</c><00:01:09.000><c> is</c>
+
+00:01:09.170 --> 00:01:09.180 align:start position:0%
+instructions to do so doing this is
+ 
+
+00:01:09.180 --> 00:01:12.200 align:start position:0%
+instructions to do so doing this is
+expensive<00:01:09.930><c> it</c><00:01:10.260><c> makes</c><00:01:10.650><c> the</c><00:01:10.979><c> log</c><00:01:11.189><c> function</c><00:01:11.490><c> slow</c>
+
+00:01:12.200 --> 00:01:12.210 align:start position:0%
+expensive it makes the log function slow
+ 
+
+00:01:12.210 --> 00:01:15.260 align:start position:0%
+expensive it makes the log function slow
+the<00:01:13.020><c> other</c><00:01:13.200><c> option</c><00:01:13.799><c> is</c><00:01:13.979><c> to</c><00:01:14.250><c> use</c><00:01:14.670><c> some</c><00:01:15.000><c> sort</c><00:01:15.030><c> of</c>
+
+00:01:15.260 --> 00:01:15.270 align:start position:0%
+the other option is to use some sort of
+ 
+
+00:01:15.270 --> 00:01:16.820 align:start position:0%
+the other option is to use some sort of
+special<00:01:15.330><c> atomic</c><00:01:16.229><c> read</c><00:01:16.439><c> and</c><00:01:16.650><c> write</c>
+
+00:01:16.820 --> 00:01:16.830 align:start position:0%
+special atomic read and write
+ 
+
+00:01:16.830 --> 00:01:18.260 align:start position:0%
+special atomic read and write
+instructions<00:01:17.610><c> so</c><00:01:17.790><c> there</c><00:01:17.939><c> would</c><00:01:18.060><c> be</c><00:01:18.090><c> an</c>
+
+00:01:18.260 --> 00:01:18.270 align:start position:0%
+instructions so there would be an
+ 
+
+00:01:18.270 --> 00:01:21.080 align:start position:0%
+instructions so there would be an
+instruction<00:01:18.900><c> that</c><00:01:19.049><c> does</c><00:01:19.110><c> this</c><00:01:19.439><c> check</c><00:01:20.189><c> and</c><00:01:20.460><c> set</c>
+
+00:01:21.080 --> 00:01:21.090 align:start position:0%
+instruction that does this check and set
+ 
+
+00:01:21.090 --> 00:01:24.050 align:start position:0%
+instruction that does this check and set
+to<00:01:21.270><c> one</c><00:01:21.479><c> or</c><00:01:22.040><c> something</c><00:01:23.040><c> similar</c><00:01:23.250><c> to</c><00:01:23.460><c> that</c><00:01:23.610><c> that</c>
+
+00:01:24.050 --> 00:01:24.060 align:start position:0%
+to one or something similar to that that
+ 
+
+00:01:24.060 --> 00:01:25.940 align:start position:0%
+to one or something similar to that that
+would<00:01:24.240><c> allow</c><00:01:24.509><c> us</c><00:01:24.540><c> to</c><00:01:24.750><c> in</c><00:01:24.960><c> one</c><00:01:25.229><c> instruction</c><00:01:25.799><c> do</c>
+
+00:01:25.940 --> 00:01:25.950 align:start position:0%
+would allow us to in one instruction do
+ 
+
+00:01:25.950 --> 00:01:29.750 align:start position:0%
+would allow us to in one instruction do
+this<00:01:26.189><c> without</c><00:01:26.820><c> needing</c><00:01:27.210><c> the</c><00:01:27.330><c> magic</c>
+

@@ -1,0 +1,864 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.149 align:start position:0%
+ 
+so<00:00:00.320><c> let</c><00:00:00.560><c> us</c><00:00:00.719><c> look</c><00:00:00.960><c> now</c><00:00:01.439><c> at</c><00:00:01.600><c> the</c><00:00:01.760><c> overall</c>
+
+00:00:02.149 --> 00:00:02.159 align:start position:0%
+so let us look now at the overall
+ 
+
+00:00:02.159 --> 00:00:05.829 align:start position:0%
+so let us look now at the overall
+performance<00:00:03.439><c> and</c><00:00:03.679><c> reliability</c><00:00:04.799><c> of</c><00:00:05.040><c> a</c><00:00:05.120><c> raid</c><00:00:05.520><c> 4</c>
+
+00:00:05.829 --> 00:00:05.839 align:start position:0%
+performance and reliability of a raid 4
+ 
+
+00:00:05.839 --> 00:00:07.990 align:start position:0%
+performance and reliability of a raid 4
+array<00:00:06.560><c> for</c><00:00:06.799><c> reads</c>
+
+00:00:07.990 --> 00:00:08.000 align:start position:0%
+array for reads
+ 
+
+00:00:08.000 --> 00:00:09.350 align:start position:0%
+array for reads
+we<00:00:08.160><c> are</c><00:00:08.320><c> getting</c>
+
+00:00:09.350 --> 00:00:09.360 align:start position:0%
+we are getting
+ 
+
+00:00:09.360 --> 00:00:11.749 align:start position:0%
+we are getting
+on<00:00:09.599><c> average</c><00:00:10.080><c> the</c><00:00:10.240><c> throughput</c><00:00:10.800><c> of</c><00:00:10.960><c> n</c><00:00:11.200><c> minus</c><00:00:11.519><c> 1</c>
+
+00:00:11.749 --> 00:00:11.759 align:start position:0%
+on average the throughput of n minus 1
+ 
+
+00:00:11.759 --> 00:00:14.470 align:start position:0%
+on average the throughput of n minus 1
+disks<00:00:12.639><c> we</c><00:00:12.800><c> can</c><00:00:13.040><c> read</c><00:00:13.280><c> data</c><00:00:13.679><c> from</c><00:00:14.000><c> all</c><00:00:14.240><c> of</c><00:00:14.320><c> the</c>
+
+00:00:14.470 --> 00:00:14.480 align:start position:0%
+disks we can read data from all of the
+ 
+
+00:00:14.480 --> 00:00:17.670 align:start position:0%
+disks we can read data from all of the
+data<00:00:14.880><c> disks</c><00:00:15.759><c> but</c><00:00:16.000><c> the</c><00:00:16.160><c> parity</c><00:00:16.720><c> disk</c><00:00:17.279><c> has</c><00:00:17.520><c> no</c>
+
+00:00:17.670 --> 00:00:17.680 align:start position:0%
+data disks but the parity disk has no
+ 
+
+00:00:17.680 --> 00:00:20.070 align:start position:0%
+data disks but the parity disk has no
+useful<00:00:18.080><c> data</c><00:00:18.400><c> on</c><00:00:18.560><c> it</c><00:00:18.720><c> so</c><00:00:18.880><c> for</c><00:00:19.119><c> reads</c><00:00:19.439><c> we</c><00:00:19.760><c> don't</c>
+
+00:00:20.070 --> 00:00:20.080 align:start position:0%
+useful data on it so for reads we don't
+ 
+
+00:00:20.080 --> 00:00:21.109 align:start position:0%
+useful data on it so for reads we don't
+use<00:00:20.320><c> it</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+use it
+ 
+
+00:00:21.119 --> 00:00:22.310 align:start position:0%
+use it
+this<00:00:21.520><c> is</c>
+
+00:00:22.310 --> 00:00:22.320 align:start position:0%
+this is
+ 
+
+00:00:22.320 --> 00:00:25.029 align:start position:0%
+this is
+significantly<00:00:23.039><c> improving</c><00:00:23.439><c> read</c><00:00:23.760><c> performance</c>
+
+00:00:25.029 --> 00:00:25.039 align:start position:0%
+significantly improving read performance
+ 
+
+00:00:25.039 --> 00:00:27.269 align:start position:0%
+significantly improving read performance
+because<00:00:25.760><c> usually</c><00:00:26.160><c> we</c><00:00:26.320><c> have</c><00:00:26.640><c> more</c><00:00:26.880><c> than</c><00:00:27.039><c> just</c>
+
+00:00:27.269 --> 00:00:27.279 align:start position:0%
+because usually we have more than just
+ 
+
+00:00:27.279 --> 00:00:29.269 align:start position:0%
+because usually we have more than just
+two<00:00:27.519><c> disks</c><00:00:28.000><c> in</c><00:00:28.160><c> an</c><00:00:28.320><c> array</c><00:00:28.640><c> so</c><00:00:28.800><c> for</c><00:00:28.960><c> example</c>
+
+00:00:29.269 --> 00:00:29.279 align:start position:0%
+two disks in an array so for example
+ 
+
+00:00:29.279 --> 00:00:30.950 align:start position:0%
+two disks in an array so for example
+with<00:00:29.519><c> four</c><00:00:29.760><c> disks</c><00:00:30.160><c> we</c><00:00:30.240><c> are</c><00:00:30.320><c> really</c><00:00:30.560><c> getting</c>
+
+00:00:30.950 --> 00:00:30.960 align:start position:0%
+with four disks we are really getting
+ 
+
+00:00:30.960 --> 00:00:32.870 align:start position:0%
+with four disks we are really getting
+for<00:00:31.199><c> each</c><00:00:31.359><c> the</c><00:00:31.519><c> throughput</c><00:00:32.000><c> of</c><00:00:32.160><c> three</c><00:00:32.399><c> disks</c>
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+for each the throughput of three disks
+ 
+
+00:00:32.880 --> 00:00:34.790 align:start position:0%
+for each the throughput of three disks
+all<00:00:33.040><c> of</c><00:00:33.120><c> the</c><00:00:33.280><c> data</c><00:00:33.600><c> disks</c>
+
+00:00:34.790 --> 00:00:34.800 align:start position:0%
+all of the data disks
+ 
+
+00:00:34.800 --> 00:00:37.830 align:start position:0%
+all of the data disks
+for<00:00:35.040><c> writes</c><00:00:35.440><c> however</c><00:00:36.480><c> the</c><00:00:36.719><c> data</c><00:00:37.040><c> accesses</c><00:00:37.680><c> are</c>
+
+00:00:37.830 --> 00:00:37.840 align:start position:0%
+for writes however the data accesses are
+ 
+
+00:00:37.840 --> 00:00:41.830 align:start position:0%
+for writes however the data accesses are
+distributed<00:00:38.719><c> among</c><00:00:39.120><c> the</c><00:00:39.360><c> data</c><00:00:39.760><c> disks</c><00:00:40.640><c> however</c>
+
+00:00:41.830 --> 00:00:41.840 align:start position:0%
+distributed among the data disks however
+ 
+
+00:00:41.840 --> 00:00:45.990 align:start position:0%
+distributed among the data disks however
+every<00:00:42.320><c> write</c><00:00:42.719><c> requires</c><00:00:44.079><c> the</c><00:00:44.320><c> parity</c><00:00:44.800><c> disk</c><00:00:45.120><c> to</c>
+
+00:00:45.990 --> 00:00:46.000 align:start position:0%
+every write requires the parity disk to
+ 
+
+00:00:46.000 --> 00:00:48.069 align:start position:0%
+every write requires the parity disk to
+read<00:00:46.399><c> and</c><00:00:46.559><c> then</c><00:00:46.800><c> write</c><00:00:47.200><c> we</c><00:00:47.360><c> need</c><00:00:47.520><c> to</c><00:00:47.760><c> read</c><00:00:47.920><c> the</c>
+
+00:00:48.069 --> 00:00:48.079 align:start position:0%
+read and then write we need to read the
+ 
+
+00:00:48.079 --> 00:00:50.790 align:start position:0%
+read and then write we need to read the
+old<00:00:48.320><c> parity</c><00:00:48.960><c> updated</c><00:00:49.760><c> and</c><00:00:49.920><c> then</c><00:00:50.239><c> write</c><00:00:50.640><c> it</c>
+
+00:00:50.790 --> 00:00:50.800 align:start position:0%
+old parity updated and then write it
+ 
+
+00:00:50.800 --> 00:00:51.990 align:start position:0%
+old parity updated and then write it
+back
+
+00:00:51.990 --> 00:00:52.000 align:start position:0%
+back
+ 
+
+00:00:52.000 --> 00:00:54.470 align:start position:0%
+back
+so<00:00:52.239><c> we</c><00:00:52.399><c> are</c><00:00:52.480><c> getting</c><00:00:52.879><c> only</c><00:00:53.199><c> one</c><00:00:53.520><c> half</c><00:00:54.239><c> of</c><00:00:54.320><c> the</c>
+
+00:00:54.470 --> 00:00:54.480 align:start position:0%
+so we are getting only one half of the
+ 
+
+00:00:54.480 --> 00:00:56.869 align:start position:0%
+so we are getting only one half of the
+throughput<00:00:54.960><c> of</c><00:00:55.120><c> a</c><00:00:55.199><c> single</c><00:00:55.600><c> disk</c><00:00:56.399><c> because</c><00:00:56.719><c> the</c>
+
+00:00:56.869 --> 00:00:56.879 align:start position:0%
+throughput of a single disk because the
+ 
+
+00:00:56.879 --> 00:00:59.830 align:start position:0%
+throughput of a single disk because the
+parity<00:00:57.360><c> disk</c><00:00:57.600><c> again</c><00:00:58.079><c> needs</c><00:00:58.480><c> two</c><00:00:58.800><c> accesses</c><00:00:59.520><c> for</c>
+
+00:00:59.830 --> 00:00:59.840 align:start position:0%
+parity disk again needs two accesses for
+ 
+
+00:00:59.840 --> 00:01:01.349 align:start position:0%
+parity disk again needs two accesses for
+every<00:01:00.320><c> right</c>
+
+00:01:01.349 --> 00:01:01.359 align:start position:0%
+every right
+ 
+
+00:01:01.359 --> 00:01:03.670 align:start position:0%
+every right
+this<00:01:01.680><c> is</c><00:01:01.920><c> a</c><00:01:02.160><c> significant</c><00:01:02.719><c> disadvantage</c><00:01:03.600><c> and</c>
+
+00:01:03.670 --> 00:01:03.680 align:start position:0%
+this is a significant disadvantage and
+ 
+
+00:01:03.680 --> 00:01:05.189 align:start position:0%
+this is a significant disadvantage and
+we<00:01:03.840><c> will</c><00:01:04.000><c> see</c><00:01:04.159><c> that</c><00:01:04.320><c> this</c><00:01:04.640><c> is</c><00:01:04.799><c> really</c><00:01:05.040><c> the</c>
+
+00:01:05.189 --> 00:01:05.199 align:start position:0%
+we will see that this is really the
+ 
+
+00:01:05.199 --> 00:01:07.670 align:start position:0%
+we will see that this is really the
+primary<00:01:05.600><c> reason</c><00:01:05.920><c> why</c><00:01:06.159><c> we</c><00:01:06.240><c> need</c><00:01:06.479><c> raid</c><00:01:06.720><c> 5.</c><00:01:07.439><c> now</c>
+
+00:01:07.670 --> 00:01:07.680 align:start position:0%
+primary reason why we need raid 5. now
+ 
+
+00:01:07.680 --> 00:01:09.429 align:start position:0%
+primary reason why we need raid 5. now
+let's<00:01:07.840><c> look</c><00:01:08.080><c> at</c><00:01:08.159><c> the</c><00:01:08.320><c> reliability</c><00:01:09.040><c> what</c><00:01:09.280><c> is</c>
+
+00:01:09.429 --> 00:01:09.439 align:start position:0%
+let's look at the reliability what is
+ 
+
+00:01:09.439 --> 00:01:12.789 align:start position:0%
+let's look at the reliability what is
+the<00:01:09.600><c> mttf</c><00:01:10.240><c> of</c><00:01:10.400><c> a</c><00:01:10.560><c> raid</c><00:01:10.880><c> 4</c><00:01:11.119><c> disk</c><00:01:12.080><c> again</c><00:01:12.400><c> we</c><00:01:12.560><c> have</c>
+
+00:01:12.789 --> 00:01:12.799 align:start position:0%
+the mttf of a raid 4 disk again we have
+ 
+
+00:01:12.799 --> 00:01:14.469 align:start position:0%
+the mttf of a raid 4 disk again we have
+two<00:01:13.040><c> options</c>
+
+00:01:14.469 --> 00:01:14.479 align:start position:0%
+two options
+ 
+
+00:01:14.479 --> 00:01:17.270 align:start position:0%
+two options
+just<00:01:14.720><c> like</c><00:01:14.960><c> raid</c><00:01:15.280><c> 1</c><00:01:15.680><c> the</c><00:01:15.920><c> first</c><00:01:16.240><c> period</c><00:01:16.640><c> we</c><00:01:16.799><c> get</c>
+
+00:01:17.270 --> 00:01:17.280 align:start position:0%
+just like raid 1 the first period we get
+ 
+
+00:01:17.280 --> 00:01:20.149 align:start position:0%
+just like raid 1 the first period we get
+is<00:01:17.680><c> while</c><00:01:18.000><c> all</c><00:01:18.159><c> of</c><00:01:18.320><c> the</c><00:01:18.400><c> disks</c><00:01:18.799><c> are</c><00:01:18.880><c> working</c>
+
+00:01:20.149 --> 00:01:20.159 align:start position:0%
+is while all of the disks are working
+ 
+
+00:01:20.159 --> 00:01:22.070 align:start position:0%
+is while all of the disks are working
+the<00:01:20.400><c> time</c><00:01:20.640><c> we</c><00:01:20.720><c> have</c><00:01:20.960><c> during</c><00:01:21.280><c> that</c><00:01:21.520><c> period</c><00:01:21.920><c> is</c>
+
+00:01:22.070 --> 00:01:22.080 align:start position:0%
+the time we have during that period is
+ 
+
+00:01:22.080 --> 00:01:24.070 align:start position:0%
+the time we have during that period is
+on<00:01:22.240><c> average</c><00:01:22.640><c> mttf</c><00:01:23.200><c> of</c><00:01:23.280><c> the</c><00:01:23.439><c> single</c><00:01:23.840><c> disk</c>
+
+00:01:24.070 --> 00:01:24.080 align:start position:0%
+on average mttf of the single disk
+ 
+
+00:01:24.080 --> 00:01:27.270 align:start position:0%
+on average mttf of the single disk
+divided<00:01:24.560><c> by</c><00:01:24.880><c> n</c><00:01:25.520><c> because</c><00:01:26.000><c> that's</c><00:01:26.640><c> how</c><00:01:26.880><c> long</c><00:01:27.119><c> we</c>
+
+00:01:27.270 --> 00:01:27.280 align:start position:0%
+divided by n because that's how long we
+ 
+
+00:01:27.280 --> 00:01:30.469 align:start position:0%
+divided by n because that's how long we
+have<00:01:27.680><c> for</c><00:01:27.920><c> the</c><00:01:28.080><c> first</c><00:01:28.400><c> of</c><00:01:28.640><c> n</c><00:01:28.799><c> disks</c><00:01:29.280><c> to</c><00:01:29.520><c> fail</c>
+
+00:01:30.469 --> 00:01:30.479 align:start position:0%
+have for the first of n disks to fail
+ 
+
+00:01:30.479 --> 00:01:32.630 align:start position:0%
+have for the first of n disks to fail
+just<00:01:30.799><c> like</c><00:01:31.040><c> raid</c><00:01:31.280><c> 1</c><00:01:31.680><c> after</c><00:01:31.920><c> this</c><00:01:32.240><c> first</c>
+
+00:01:32.630 --> 00:01:32.640 align:start position:0%
+just like raid 1 after this first
+ 
+
+00:01:32.640 --> 00:01:35.510 align:start position:0%
+just like raid 1 after this first
+failure<00:01:33.040><c> we</c><00:01:33.200><c> did</c><00:01:33.439><c> not</c><00:01:33.759><c> lose</c><00:01:34.000><c> the</c><00:01:34.159><c> data</c><00:01:34.640><c> yet</c>
+
+00:01:35.510 --> 00:01:35.520 align:start position:0%
+failure we did not lose the data yet
+ 
+
+00:01:35.520 --> 00:01:37.510 align:start position:0%
+failure we did not lose the data yet
+and<00:01:35.680><c> now</c><00:01:35.840><c> we</c><00:01:36.000><c> have</c><00:01:36.240><c> two</c><00:01:36.479><c> options</c>
+
+00:01:37.510 --> 00:01:37.520 align:start position:0%
+and now we have two options
+ 
+
+00:01:37.520 --> 00:01:40.230 align:start position:0%
+and now we have two options
+if<00:01:37.680><c> we</c><00:01:37.840><c> do</c><00:01:38.079><c> no</c><00:01:38.240><c> repair</c><00:01:38.720><c> of</c><00:01:38.799><c> the</c><00:01:38.960><c> failed</c><00:01:39.280><c> disk</c>
+
+00:01:40.230 --> 00:01:40.240 align:start position:0%
+if we do no repair of the failed disk
+ 
+
+00:01:40.240 --> 00:01:42.870 align:start position:0%
+if we do no repair of the failed disk
+then<00:01:41.040><c> now</c><00:01:41.200><c> we</c><00:01:41.360><c> are</c><00:01:41.520><c> operating</c><00:01:41.920><c> with</c><00:01:42.240><c> n</c><00:01:42.560><c> minus</c>
+
+00:01:42.870 --> 00:01:42.880 align:start position:0%
+then now we are operating with n minus
+ 
+
+00:01:42.880 --> 00:01:45.030 align:start position:0%
+then now we are operating with n minus
+one<00:01:43.520><c> good</c><00:01:43.840><c> disks</c>
+
+00:01:45.030 --> 00:01:45.040 align:start position:0%
+one good disks
+ 
+
+00:01:45.040 --> 00:01:47.910 align:start position:0%
+one good disks
+if<00:01:45.200><c> we</c><00:01:45.360><c> do</c><00:01:45.600><c> no</c><00:01:45.759><c> repair</c><00:01:46.240><c> of</c><00:01:46.320><c> the</c><00:01:46.479><c> failed</c><00:01:46.880><c> disk</c>
+
+00:01:47.910 --> 00:01:47.920 align:start position:0%
+if we do no repair of the failed disk
+ 
+
+00:01:47.920 --> 00:01:50.710 align:start position:0%
+if we do no repair of the failed disk
+what<00:01:48.159><c> we</c><00:01:48.320><c> get</c><00:01:48.640><c> now</c><00:01:48.960><c> is</c><00:01:49.680><c> at</c><00:01:49.920><c> the</c><00:01:50.079><c> point</c><00:01:50.399><c> of</c><00:01:50.560><c> the</c>
+
+00:01:50.710 --> 00:01:50.720 align:start position:0%
+what we get now is at the point of the
+ 
+
+00:01:50.720 --> 00:01:52.950 align:start position:0%
+what we get now is at the point of the
+first<00:01:51.040><c> failure</c><00:01:51.520><c> we</c><00:01:51.680><c> are</c><00:01:51.840><c> left</c><00:01:52.159><c> with</c><00:01:52.320><c> the</c><00:01:52.640><c> n</c>
+
+00:01:52.950 --> 00:01:52.960 align:start position:0%
+first failure we are left with the n
+ 
+
+00:01:52.960 --> 00:01:57.270 align:start position:0%
+first failure we are left with the n
+minus<00:01:53.360><c> 1</c><00:01:53.920><c> disk</c><00:01:54.479><c> array</c><00:01:55.280><c> and</c><00:01:55.600><c> any</c><00:01:56.320><c> disk</c><00:01:56.720><c> failure</c>
+
+00:01:57.270 --> 00:01:57.280 align:start position:0%
+minus 1 disk array and any disk failure
+ 
+
+00:01:57.280 --> 00:02:00.069 align:start position:0%
+minus 1 disk array and any disk failure
+in<00:01:57.439><c> that</c><00:01:58.079><c> array</c><00:01:58.640><c> is</c><00:01:58.799><c> going</c><00:01:59.040><c> to</c><00:01:59.200><c> result</c><00:01:59.600><c> in</c><00:01:59.680><c> data</c>
+
+00:02:00.069 --> 00:02:00.079 align:start position:0%
+in that array is going to result in data
+ 
+
+00:02:00.079 --> 00:02:01.109 align:start position:0%
+in that array is going to result in data
+loss
+
+00:02:01.109 --> 00:02:01.119 align:start position:0%
+loss
+ 
+
+00:02:01.119 --> 00:02:04.310 align:start position:0%
+loss
+so<00:02:01.680><c> if</c><00:02:01.840><c> we</c><00:02:02.000><c> don't</c><00:02:02.159><c> do</c><00:02:02.399><c> repair</c><00:02:02.880><c> then</c><00:02:03.040><c> to</c><00:02:03.280><c> this</c>
+
+00:02:04.310 --> 00:02:04.320 align:start position:0%
+so if we don't do repair then to this
+ 
+
+00:02:04.320 --> 00:02:05.749 align:start position:0%
+so if we don't do repair then to this
+we<00:02:04.560><c> add</c>
+
+00:02:05.749 --> 00:02:05.759 align:start position:0%
+we add
+ 
+
+00:02:05.759 --> 00:02:07.830 align:start position:0%
+we add
+the<00:02:06.000><c> expected</c><00:02:06.640><c> time</c><00:02:07.040><c> until</c><00:02:07.280><c> the</c><00:02:07.439><c> first</c>
+
+00:02:07.830 --> 00:02:07.840 align:start position:0%
+the expected time until the first
+ 
+
+00:02:07.840 --> 00:02:10.229 align:start position:0%
+the expected time until the first
+failure<00:02:08.399><c> among</c><00:02:08.720><c> the</c><00:02:08.879><c> n</c><00:02:09.119><c> minus</c><00:02:09.440><c> 1</c><00:02:09.679><c> disks</c><00:02:10.080><c> that</c>
+
+00:02:10.229 --> 00:02:10.239 align:start position:0%
+failure among the n minus 1 disks that
+ 
+
+00:02:10.239 --> 00:02:11.670 align:start position:0%
+failure among the n minus 1 disks that
+we<00:02:10.399><c> still</c><00:02:10.640><c> have</c>
+
+00:02:11.670 --> 00:02:11.680 align:start position:0%
+we still have
+ 
+
+00:02:11.680 --> 00:02:13.589 align:start position:0%
+we still have
+this<00:02:12.080><c> plus</c><00:02:12.400><c> this</c>
+
+00:02:13.589 --> 00:02:13.599 align:start position:0%
+this plus this
+ 
+
+00:02:13.599 --> 00:02:16.390 align:start position:0%
+this plus this
+if<00:02:13.840><c> n</c><00:02:14.000><c> is</c><00:02:14.160><c> let's</c><00:02:14.400><c> say</c><00:02:14.720><c> 4</c>
+
+00:02:16.390 --> 00:02:16.400 align:start position:0%
+if n is let's say 4
+ 
+
+00:02:16.400 --> 00:02:18.869 align:start position:0%
+if n is let's say 4
+is<00:02:16.640><c> not</c><00:02:16.959><c> going</c><00:02:17.280><c> to</c><00:02:17.440><c> be</c><00:02:17.599><c> better</c><00:02:18.000><c> than</c><00:02:18.160><c> the</c><00:02:18.319><c> mttf</c>
+
+00:02:18.869 --> 00:02:18.879 align:start position:0%
+is not going to be better than the mttf
+ 
+
+00:02:18.879 --> 00:02:21.589 align:start position:0%
+is not going to be better than the mttf
+of<00:02:19.040><c> a</c><00:02:19.200><c> single</c><00:02:19.599><c> disk</c><00:02:20.239><c> so</c><00:02:20.480><c> you</c><00:02:20.640><c> don't</c><00:02:21.040><c> want</c><00:02:21.280><c> to</c>
+
+00:02:21.589 --> 00:02:21.599 align:start position:0%
+of a single disk so you don't want to
+ 
+
+00:02:21.599 --> 00:02:24.470 align:start position:0%
+of a single disk so you don't want to
+even<00:02:21.920><c> consider</c><00:02:22.720><c> using</c><00:02:23.280><c> raid</c><00:02:23.599><c> 4</c>
+
+00:02:24.470 --> 00:02:24.480 align:start position:0%
+even consider using raid 4
+ 
+
+00:02:24.480 --> 00:02:27.190 align:start position:0%
+even consider using raid 4
+unless<00:02:25.040><c> you're</c><00:02:25.280><c> going</c><00:02:25.520><c> to</c><00:02:25.680><c> do</c><00:02:25.920><c> repairs</c>
+
+00:02:27.190 --> 00:02:27.200 align:start position:0%
+unless you're going to do repairs
+ 
+
+00:02:27.200 --> 00:02:29.910 align:start position:0%
+unless you're going to do repairs
+so<00:02:27.360><c> pretty</c><00:02:27.680><c> much</c><00:02:28.080><c> you</c><00:02:28.319><c> don't</c><00:02:28.560><c> do</c><00:02:28.720><c> this</c><00:02:29.440><c> because</c>
+
+00:02:29.910 --> 00:02:29.920 align:start position:0%
+so pretty much you don't do this because
+ 
+
+00:02:29.920 --> 00:02:32.470 align:start position:0%
+so pretty much you don't do this because
+it's<00:02:30.080><c> a</c><00:02:30.160><c> bad</c><00:02:30.400><c> idea</c><00:02:31.200><c> you're</c><00:02:31.520><c> not</c><00:02:31.840><c> getting</c><00:02:32.239><c> any</c>
+
+00:02:32.470 --> 00:02:32.480 align:start position:0%
+it's a bad idea you're not getting any
+ 
+
+00:02:32.480 --> 00:02:34.790 align:start position:0%
+it's a bad idea you're not getting any
+increased<00:02:32.879><c> reliability</c><00:02:33.920><c> what</c><00:02:34.160><c> you</c><00:02:34.400><c> want</c><00:02:34.640><c> to</c>
+
+00:02:34.790 --> 00:02:34.800 align:start position:0%
+increased reliability what you want to
+ 
+
+00:02:34.800 --> 00:02:37.990 align:start position:0%
+increased reliability what you want to
+do<00:02:35.360><c> is</c><00:02:35.680><c> repair</c><00:02:36.160><c> the</c><00:02:36.319><c> failed</c><00:02:36.640><c> disk</c><00:02:37.440><c> in</c><00:02:37.680><c> which</c>
+
+00:02:37.990 --> 00:02:38.000 align:start position:0%
+do is repair the failed disk in which
+ 
+
+00:02:38.000 --> 00:02:41.990 align:start position:0%
+do is repair the failed disk in which
+case<00:02:38.800><c> the</c><00:02:39.040><c> chances</c><00:02:39.680><c> of</c><00:02:40.000><c> a</c><00:02:40.160><c> disk</c><00:02:40.720><c> failing</c>
+
+00:02:41.990 --> 00:02:42.000 align:start position:0%
+case the chances of a disk failing
+ 
+
+00:02:42.000 --> 00:02:44.869 align:start position:0%
+case the chances of a disk failing
+during<00:02:43.040><c> the</c><00:02:43.200><c> repair</c><00:02:43.680><c> period</c>
+
+00:02:44.869 --> 00:02:44.879 align:start position:0%
+during the repair period
+ 
+
+00:02:44.879 --> 00:02:47.830 align:start position:0%
+during the repair period
+is<00:02:45.040><c> the</c><00:02:45.200><c> mttf</c><00:02:45.840><c> of</c><00:02:45.920><c> what's</c><00:02:46.319><c> left</c><00:02:46.800><c> of</c><00:02:46.959><c> our</c><00:02:47.200><c> array</c>
+
+00:02:47.830 --> 00:02:47.840 align:start position:0%
+is the mttf of what's left of our array
+ 
+
+00:02:47.840 --> 00:02:50.550 align:start position:0%
+is the mttf of what's left of our array
+with<00:02:48.080><c> raid1</c><00:02:48.640><c> we</c><00:02:48.720><c> had</c><00:02:48.959><c> one</c><00:02:49.200><c> disk</c><00:02:49.599><c> left</c><00:02:50.160><c> here</c><00:02:50.480><c> we</c>
+
+00:02:50.550 --> 00:02:50.560 align:start position:0%
+with raid1 we had one disk left here we
+ 
+
+00:02:50.560 --> 00:02:53.509 align:start position:0%
+with raid1 we had one disk left here we
+have<00:02:50.800><c> n</c><00:02:51.040><c> minus</c><00:02:51.360><c> one</c><00:02:51.599><c> disk</c><00:02:51.920><c> left</c><00:02:52.160><c> so</c><00:02:52.319><c> the</c><00:02:52.480><c> mttf</c>
+
+00:02:53.509 --> 00:02:53.519 align:start position:0%
+have n minus one disk left so the mttf
+ 
+
+00:02:53.519 --> 00:02:55.589 align:start position:0%
+have n minus one disk left so the mttf
+for<00:02:53.680><c> the</c><00:02:53.840><c> remaining</c><00:02:54.319><c> disks</c><00:02:54.800><c> is</c><00:02:55.040><c> lower</c><00:02:55.440><c> than</c>
+
+00:02:55.589 --> 00:02:55.599 align:start position:0%
+for the remaining disks is lower than
+ 
+
+00:02:55.599 --> 00:02:57.750 align:start position:0%
+for the remaining disks is lower than
+for<00:02:55.840><c> one</c><00:02:56.000><c> disk</c><00:02:56.800><c> because</c><00:02:57.200><c> we</c><00:02:57.280><c> are</c><00:02:57.440><c> talking</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+for one disk because we are talking
+ 
+
+00:02:57.760 --> 00:02:58.869 align:start position:0%
+for one disk because we are talking
+about
+
+00:02:58.869 --> 00:02:58.879 align:start position:0%
+about
+ 
+
+00:02:58.879 --> 00:03:01.670 align:start position:0%
+about
+the<00:02:59.120><c> first</c><00:02:59.519><c> failure</c><00:03:00.000><c> among</c><00:03:00.319><c> the</c><00:03:00.480><c> end</c><00:03:00.640><c> disks</c><00:03:01.440><c> so</c>
+
+00:03:01.670 --> 00:03:01.680 align:start position:0%
+the first failure among the end disks so
+ 
+
+00:03:01.680 --> 00:03:03.670 align:start position:0%
+the first failure among the end disks so
+for<00:03:01.840><c> example</c><00:03:02.159><c> if</c><00:03:02.239><c> we</c><00:03:02.319><c> have</c><00:03:02.480><c> three</c><00:03:02.720><c> disks</c><00:03:03.519><c> the</c>
+
+00:03:03.670 --> 00:03:03.680 align:start position:0%
+for example if we have three disks the
+ 
+
+00:03:03.680 --> 00:03:05.910 align:start position:0%
+for example if we have three disks the
+first<00:03:04.080><c> failure</c><00:03:04.400><c> among</c><00:03:04.800><c> three</c>
+
+00:03:05.910 --> 00:03:05.920 align:start position:0%
+first failure among three
+ 
+
+00:03:05.920 --> 00:03:07.910 align:start position:0%
+first failure among three
+is<00:03:06.080><c> going</c><00:03:06.239><c> to</c><00:03:06.400><c> happen</c><00:03:06.800><c> sooner</c><00:03:07.280><c> than</c><00:03:07.440><c> the</c><00:03:07.599><c> first</c>
+
+00:03:07.910 --> 00:03:07.920 align:start position:0%
+is going to happen sooner than the first
+ 
+
+00:03:07.920 --> 00:03:10.309 align:start position:0%
+is going to happen sooner than the first
+failure<00:03:08.400><c> among</c><00:03:08.800><c> just</c><00:03:09.040><c> the</c><00:03:09.200><c> one</c><00:03:09.440><c> disk</c><00:03:10.000><c> and</c><00:03:10.080><c> then</c>
+
+00:03:10.309 --> 00:03:10.319 align:start position:0%
+failure among just the one disk and then
+ 
+
+00:03:10.319 --> 00:03:12.710 align:start position:0%
+failure among just the one disk and then
+we<00:03:10.480><c> divide</c><00:03:10.879><c> that</c><00:03:11.599><c> with</c><00:03:11.760><c> the</c><00:03:12.080><c> mean</c><00:03:12.319><c> time</c><00:03:12.560><c> to</c>
+
+00:03:12.710 --> 00:03:12.720 align:start position:0%
+we divide that with the mean time to
+ 
+
+00:03:12.720 --> 00:03:15.110 align:start position:0%
+we divide that with the mean time to
+repair<00:03:13.519><c> so</c><00:03:13.680><c> this</c><00:03:13.920><c> is</c><00:03:14.080><c> the</c><00:03:14.239><c> factor</c><00:03:14.640><c> with</c><00:03:14.879><c> which</c>
+
+00:03:15.110 --> 00:03:15.120 align:start position:0%
+repair so this is the factor with which
+ 
+
+00:03:15.120 --> 00:03:17.750 align:start position:0%
+repair so this is the factor with which
+we<00:03:15.280><c> now</c><00:03:15.519><c> multiply</c><00:03:16.239><c> our</c><00:03:16.800><c> this</c><00:03:17.040><c> is</c><00:03:17.200><c> for</c><00:03:17.440><c> how</c><00:03:17.599><c> long</c>
+
+00:03:17.750 --> 00:03:17.760 align:start position:0%
+we now multiply our this is for how long
+ 
+
+00:03:17.760 --> 00:03:20.470 align:start position:0%
+we now multiply our this is for how long
+we<00:03:17.920><c> get</c><00:03:18.159><c> a</c><00:03:18.239><c> rate</c><00:03:18.480><c> for</c><00:03:18.720><c> to</c><00:03:18.879><c> work</c><00:03:19.200><c> until</c><00:03:19.920><c> we</c><00:03:20.080><c> lose</c>
+
+00:03:20.470 --> 00:03:20.480 align:start position:0%
+we get a rate for to work until we lose
+ 
+
+00:03:20.480 --> 00:03:21.589 align:start position:0%
+we get a rate for to work until we lose
+a<00:03:20.640><c> disk</c>
+
+00:03:21.589 --> 00:03:21.599 align:start position:0%
+a disk
+ 
+
+00:03:21.599 --> 00:03:23.030 align:start position:0%
+a disk
+so<00:03:22.000><c> overall</c>
+
+00:03:23.030 --> 00:03:23.040 align:start position:0%
+so overall
+ 
+
+00:03:23.040 --> 00:03:26.309 align:start position:0%
+so overall
+the<00:03:23.280><c> mttf</c><00:03:23.920><c> of</c><00:03:24.080><c> our</c><00:03:24.159><c> raid</c><00:03:24.480><c> 4</c><00:03:24.800><c> array</c><00:03:25.599><c> is</c><00:03:25.840><c> going</c><00:03:26.159><c> to</c>
+
+00:03:26.309 --> 00:03:26.319 align:start position:0%
+the mttf of our raid 4 array is going to
+ 
+
+00:03:26.319 --> 00:03:30.309 align:start position:0%
+the mttf of our raid 4 array is going to
+be<00:03:26.959><c> the</c><00:03:27.200><c> mttf</c><00:03:27.840><c> of</c><00:03:28.000><c> one</c><00:03:28.319><c> disk</c><00:03:29.120><c> times</c><00:03:29.680><c> again</c><00:03:30.159><c> the</c>
+
+00:03:30.309 --> 00:03:30.319 align:start position:0%
+be the mttf of one disk times again the
+ 
+
+00:03:30.319 --> 00:03:32.470 align:start position:0%
+be the mttf of one disk times again the
+mttf<00:03:30.959><c> of</c><00:03:31.040><c> one</c><00:03:31.280><c> disk</c>
+
+00:03:32.470 --> 00:03:32.480 align:start position:0%
+mttf of one disk
+ 
+
+00:03:32.480 --> 00:03:36.710 align:start position:0%
+mttf of one disk
+divided<00:03:33.120><c> by</c><00:03:33.599><c> n</c><00:03:34.080><c> times</c><00:03:34.720><c> n</c><00:03:34.959><c> minus</c><00:03:35.519><c> one</c>
+
+00:03:36.710 --> 00:03:36.720 align:start position:0%
+divided by n times n minus one
+ 
+
+00:03:36.720 --> 00:03:39.190 align:start position:0%
+divided by n times n minus one
+times<00:03:37.599><c> the</c><00:03:37.840><c> mttr</c>
+
+00:03:39.190 --> 00:03:39.200 align:start position:0%
+times the mttr
+ 
+
+00:03:39.200 --> 00:03:40.710 align:start position:0%
+times the mttr
+for<00:03:39.440><c> the</c><00:03:39.599><c> disk</c>
+
+00:03:40.710 --> 00:03:40.720 align:start position:0%
+for the disk
+ 
+
+00:03:40.720 --> 00:03:42.949 align:start position:0%
+for the disk
+so<00:03:40.959><c> note</c><00:03:41.200><c> that</c><00:03:41.360><c> again</c><00:03:41.680><c> you</c><00:03:41.840><c> know</c><00:03:42.000><c> this</c><00:03:42.239><c> is</c><00:03:42.560><c> very</c>
+
+00:03:42.949 --> 00:03:42.959 align:start position:0%
+so note that again you know this is very
+ 
+
+00:03:42.959 --> 00:03:45.270 align:start position:0%
+so note that again you know this is very
+small<00:03:43.440><c> compared</c><00:03:43.840><c> to</c><00:03:44.000><c> this</c><00:03:44.480><c> so</c><00:03:44.799><c> this</c>
+
+00:03:45.270 --> 00:03:45.280 align:start position:0%
+small compared to this so this
+ 
+
+00:03:45.280 --> 00:03:48.630 align:start position:0%
+small compared to this so this
+particular<00:03:45.840><c> ratio</c><00:03:46.400><c> is</c><00:03:46.640><c> extremely</c><00:03:47.360><c> large</c>
+
+00:03:48.630 --> 00:03:48.640 align:start position:0%
+particular ratio is extremely large
+ 
+
+00:03:48.640 --> 00:03:50.390 align:start position:0%
+particular ratio is extremely large
+the<00:03:48.879><c> number</c><00:03:49.200><c> of</c><00:03:49.360><c> disks</c>
+
+00:03:50.390 --> 00:03:50.400 align:start position:0%
+the number of disks
+ 
+
+00:03:50.400 --> 00:03:51.990 align:start position:0%
+the number of disks
+is<00:03:50.560><c> let's</c><00:03:50.720><c> say</c><00:03:50.959><c> four</c><00:03:51.200><c> you</c><00:03:51.360><c> don't</c><00:03:51.440><c> want</c><00:03:51.599><c> to</c><00:03:51.760><c> have</c>
+
+00:03:51.990 --> 00:03:52.000 align:start position:0%
+is let's say four you don't want to have
+ 
+
+00:03:52.000 --> 00:03:54.390 align:start position:0%
+is let's say four you don't want to have
+too<00:03:52.159><c> many</c><00:03:52.480><c> disks</c><00:03:52.879><c> in</c><00:03:52.959><c> a</c><00:03:53.040><c> raid</c><00:03:53.360><c> 4</c><00:03:53.599><c> array</c><00:03:53.920><c> if</c><00:03:54.080><c> that</c>
+
+00:03:54.390 --> 00:03:54.400 align:start position:0%
+too many disks in a raid 4 array if that
+ 
+
+00:03:54.400 --> 00:03:56.630 align:start position:0%
+too many disks in a raid 4 array if that
+is<00:03:54.560><c> so</c><00:03:54.879><c> then</c><00:03:55.120><c> what</c><00:03:55.280><c> we</c><00:03:55.440><c> get</c><00:03:55.760><c> is</c>
+
+00:03:56.630 --> 00:03:56.640 align:start position:0%
+is so then what we get is
+ 
+
+00:03:56.640 --> 00:03:58.949 align:start position:0%
+is so then what we get is
+the<00:03:56.879><c> mttf</c><00:03:57.439><c> of</c><00:03:57.599><c> a</c><00:03:57.680><c> single</c><00:03:58.000><c> disk</c><00:03:58.319><c> that</c><00:03:58.480><c> is</c><00:03:58.560><c> fairly</c>
+
+00:03:58.949 --> 00:03:58.959 align:start position:0%
+the mttf of a single disk that is fairly
+ 
+
+00:03:58.959 --> 00:04:01.190 align:start position:0%
+the mttf of a single disk that is fairly
+large<00:03:59.680><c> multiplied</c><00:04:00.239><c> by</c><00:04:00.480><c> something</c><00:04:00.879><c> that</c><00:04:01.040><c> is</c>
+
+00:04:01.190 --> 00:04:01.200 align:start position:0%
+large multiplied by something that is
+ 
+
+00:04:01.200 --> 00:04:03.910 align:start position:0%
+large multiplied by something that is
+usually<00:04:01.599><c> in</c><00:04:01.680><c> the</c><00:04:01.920><c> thousands</c><00:04:02.400><c> of</c><00:04:02.799><c> or</c><00:04:03.040><c> more</c><00:04:03.680><c> and</c>
+
+00:04:03.910 --> 00:04:03.920 align:start position:0%
+usually in the thousands of or more and
+ 
+
+00:04:03.920 --> 00:04:05.190 align:start position:0%
+usually in the thousands of or more and
+divided
+
+00:04:05.190 --> 00:04:05.200 align:start position:0%
+divided
+ 
+
+00:04:05.200 --> 00:04:06.869 align:start position:0%
+divided
+by<00:04:05.439><c> something</c><00:04:05.760><c> that</c><00:04:06.000><c> is</c><00:04:06.159><c> usually</c><00:04:06.560><c> something</c>
+
+00:04:06.869 --> 00:04:06.879 align:start position:0%
+by something that is usually something
+ 
+
+00:04:06.879 --> 00:04:08.550 align:start position:0%
+by something that is usually something
+like<00:04:07.120><c> you</c><00:04:07.200><c> know</c><00:04:07.360><c> if</c><00:04:07.519><c> it's</c><00:04:07.760><c> four</c><00:04:08.000><c> disks</c><00:04:08.400><c> it's</c>
+
+00:04:08.550 --> 00:04:08.560 align:start position:0%
+like you know if it's four disks it's
+ 
+
+00:04:08.560 --> 00:04:10.309 align:start position:0%
+like you know if it's four disks it's
+going<00:04:08.720><c> to</c><00:04:08.799><c> be</c><00:04:08.959><c> 12.</c>
+
+00:04:10.309 --> 00:04:10.319 align:start position:0%
+going to be 12.
+ 
+
+00:04:10.319 --> 00:04:13.270 align:start position:0%
+going to be 12.
+so<00:04:10.720><c> this</c><00:04:11.040><c> mttf</c><00:04:11.680><c> of</c><00:04:11.760><c> raid4</c><00:04:12.319><c> if</c><00:04:12.480><c> we</c><00:04:12.640><c> repair</c><00:04:13.120><c> the</c>
+
+00:04:13.270 --> 00:04:13.280 align:start position:0%
+so this mttf of raid4 if we repair the
+ 
+
+00:04:13.280 --> 00:04:15.589 align:start position:0%
+so this mttf of raid4 if we repair the
+failed<00:04:13.599><c> disk</c><00:04:14.000><c> every</c><00:04:14.239><c> time</c><00:04:14.480><c> it</c><00:04:14.640><c> fails</c>
+
+00:04:15.589 --> 00:04:15.599 align:start position:0%
+failed disk every time it fails
+ 
+
+00:04:15.599 --> 00:04:18.550 align:start position:0%
+failed disk every time it fails
+we<00:04:15.840><c> get</c><00:04:16.079><c> an</c><00:04:16.239><c> mttf</c><00:04:17.040><c> that</c><00:04:17.280><c> is</c><00:04:17.440><c> still</c><00:04:17.840><c> very</c><00:04:18.239><c> very</c>
+
+00:04:18.550 --> 00:04:18.560 align:start position:0%
+we get an mttf that is still very very
+ 
+
+00:04:18.560 --> 00:04:21.199 align:start position:0%
+we get an mttf that is still very very
+large
+

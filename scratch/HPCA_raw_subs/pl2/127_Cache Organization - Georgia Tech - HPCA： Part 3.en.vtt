@@ -1,0 +1,760 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.910 align:start position:0%
+ 
+now<00:00:00.210><c> that</c><00:00:00.390><c> we</c><00:00:00.539><c> know</c><00:00:00.570><c> what</c><00:00:01.140><c> the</c><00:00:01.260><c> purpose</c><00:00:01.530><c> of</c><00:00:01.770><c> the</c>
+
+00:00:01.910 --> 00:00:01.920 align:start position:0%
+now that we know what the purpose of the
+ 
+
+00:00:01.920 --> 00:00:04.280 align:start position:0%
+now that we know what the purpose of the
+cache<00:00:02.100><c> is</c><00:00:02.370><c> and</c><00:00:02.639><c> how</c><00:00:03.210><c> big</c><00:00:03.480><c> approximately</c><00:00:04.230><c> it</c>
+
+00:00:04.280 --> 00:00:04.290 align:start position:0%
+cache is and how big approximately it
+ 
+
+00:00:04.290 --> 00:00:06.380 align:start position:0%
+cache is and how big approximately it
+needs<00:00:04.470><c> to</c><00:00:04.620><c> be</c><00:00:04.770><c> let's</c><00:00:05.520><c> look</c><00:00:05.759><c> at</c><00:00:05.940><c> how</c><00:00:06.120><c> it</c><00:00:06.270><c> is</c>
+
+00:00:06.380 --> 00:00:06.390 align:start position:0%
+needs to be let's look at how it is
+ 
+
+00:00:06.390 --> 00:00:09.080 align:start position:0%
+needs to be let's look at how it is
+organized<00:00:07.170><c> internally</c><00:00:07.649><c> the</c><00:00:08.340><c> questions</c><00:00:08.880><c> we</c>
+
+00:00:09.080 --> 00:00:09.090 align:start position:0%
+organized internally the questions we
+ 
+
+00:00:09.090 --> 00:00:11.089 align:start position:0%
+organized internally the questions we
+need<00:00:09.120><c> to</c><00:00:09.389><c> ask</c><00:00:09.599><c> ourselves</c><00:00:09.809><c> is</c><00:00:10.380><c> how</c><00:00:10.590><c> do</c><00:00:10.950><c> we</c>
+
+00:00:11.089 --> 00:00:11.099 align:start position:0%
+need to ask ourselves is how do we
+ 
+
+00:00:11.099 --> 00:00:13.520 align:start position:0%
+need to ask ourselves is how do we
+determine<00:00:11.550><c> if</c><00:00:11.880><c> we</c><00:00:12.059><c> have</c><00:00:12.090><c> a</c><00:00:12.240><c> hit</c><00:00:12.450><c> or</c><00:00:12.630><c> miss</c><00:00:12.660><c> so</c><00:00:13.380><c> we</c>
+
+00:00:13.520 --> 00:00:13.530 align:start position:0%
+determine if we have a hit or miss so we
+ 
+
+00:00:13.530 --> 00:00:15.289 align:start position:0%
+determine if we have a hit or miss so we
+need<00:00:13.679><c> to</c><00:00:13.769><c> know</c><00:00:13.920><c> what</c><00:00:14.160><c> data</c><00:00:14.370><c> do</c><00:00:14.670><c> we</c><00:00:14.790><c> have</c><00:00:15.030><c> in</c><00:00:15.179><c> the</c>
+
+00:00:15.289 --> 00:00:15.299 align:start position:0%
+need to know what data do we have in the
+ 
+
+00:00:15.299 --> 00:00:17.599 align:start position:0%
+need to know what data do we have in the
+cache<00:00:15.540><c> and</c><00:00:15.839><c> then</c><00:00:16.710><c> when</c><00:00:16.920><c> the</c><00:00:17.039><c> processor</c><00:00:17.369><c> gives</c>
+
+00:00:17.599 --> 00:00:17.609 align:start position:0%
+cache and then when the processor gives
+ 
+
+00:00:17.609 --> 00:00:18.950 align:start position:0%
+cache and then when the processor gives
+us<00:00:17.730><c> an</c><00:00:17.880><c> address</c><00:00:18.000><c> we</c><00:00:18.449><c> need</c><00:00:18.480><c> to</c><00:00:18.690><c> determine</c>
+
+00:00:18.950 --> 00:00:18.960 align:start position:0%
+us an address we need to determine
+ 
+
+00:00:18.960 --> 00:00:21.290 align:start position:0%
+us an address we need to determine
+whether<00:00:19.380><c> that</c><00:00:19.680><c> data</c><00:00:19.890><c> is</c><00:00:20.250><c> or</c><00:00:20.520><c> is</c><00:00:20.760><c> not</c><00:00:20.939><c> in</c><00:00:21.000><c> the</c>
+
+00:00:21.290 --> 00:00:21.300 align:start position:0%
+whether that data is or is not in the
+ 
+
+00:00:21.300 --> 00:00:22.640 align:start position:0%
+whether that data is or is not in the
+cache<00:00:21.510><c> and</c><00:00:21.750><c> we</c><00:00:21.840><c> need</c><00:00:22.020><c> to</c><00:00:22.199><c> do</c><00:00:22.320><c> that</c><00:00:22.500><c> very</c>
+
+00:00:22.640 --> 00:00:22.650 align:start position:0%
+cache and we need to do that very
+ 
+
+00:00:22.650 --> 00:00:25.130 align:start position:0%
+cache and we need to do that very
+quickly<00:00:22.890><c> and</c><00:00:23.310><c> the</c><00:00:23.880><c> other</c><00:00:24.060><c> important</c><00:00:24.660><c> question</c>
+
+00:00:25.130 --> 00:00:25.140 align:start position:0%
+quickly and the other important question
+ 
+
+00:00:25.140 --> 00:00:27.620 align:start position:0%
+quickly and the other important question
+is<00:00:25.619><c> how</c><00:00:25.949><c> do</c><00:00:26.010><c> we</c><00:00:26.160><c> determine</c><00:00:26.519><c> what</c><00:00:27.119><c> to</c><00:00:27.269><c> kick</c><00:00:27.449><c> out</c>
+
+00:00:27.620 --> 00:00:27.630 align:start position:0%
+is how do we determine what to kick out
+ 
+
+00:00:27.630 --> 00:00:29.900 align:start position:0%
+is how do we determine what to kick out
+from<00:00:27.869><c> the</c><00:00:28.050><c> cache</c><00:00:28.260><c> once</c><00:00:29.039><c> we</c><00:00:29.220><c> are</c><00:00:29.250><c> out</c><00:00:29.490><c> of</c><00:00:29.550><c> room</c>
+
+00:00:29.900 --> 00:00:29.910 align:start position:0%
+from the cache once we are out of room
+ 
+
+00:00:29.910 --> 00:00:31.640 align:start position:0%
+from the cache once we are out of room
+in<00:00:30.090><c> it</c><00:00:30.179><c> and</c><00:00:30.420><c> we</c><00:00:30.570><c> need</c><00:00:30.720><c> to</c><00:00:30.810><c> put</c><00:00:30.990><c> more</c><00:00:31.199><c> stuff</c><00:00:31.439><c> in</c>
+
+00:00:31.640 --> 00:00:31.650 align:start position:0%
+in it and we need to put more stuff in
+ 
+
+00:00:31.650 --> 00:00:33.560 align:start position:0%
+in it and we need to put more stuff in
+it<00:00:31.679><c> because</c><00:00:32.099><c> we</c><00:00:32.279><c> are</c><00:00:32.369><c> just</c><00:00:32.550><c> having</c><00:00:33.030><c> a</c><00:00:33.329><c> cache</c>
+
+00:00:33.560 --> 00:00:33.570 align:start position:0%
+it because we are just having a cache
+ 
+
+00:00:33.570 --> 00:00:37.430 align:start position:0%
+it because we are just having a cache
+miss<00:00:33.750><c> so</c><00:00:34.530><c> for</c><00:00:34.739><c> the</c><00:00:34.829><c> first</c><00:00:35.040><c> question</c><00:00:35.309><c> of</c><00:00:36.380><c> how</c><00:00:37.380><c> do</c>
+
+00:00:37.430 --> 00:00:37.440 align:start position:0%
+miss so for the first question of how do
+ 
+
+00:00:37.440 --> 00:00:39.139 align:start position:0%
+miss so for the first question of how do
+we<00:00:37.620><c> know</c><00:00:37.739><c> whether</c><00:00:38.129><c> we</c><00:00:38.309><c> have</c><00:00:38.340><c> a</c><00:00:38.520><c> kid</c><00:00:38.730><c> or</c><00:00:38.760><c> a</c><00:00:38.910><c> Miss</c>
+
+00:00:39.139 --> 00:00:39.149 align:start position:0%
+we know whether we have a kid or a Miss
+ 
+
+00:00:39.149 --> 00:00:43.100 align:start position:0%
+we know whether we have a kid or a Miss
+we<00:00:39.960><c> want</c><00:00:40.260><c> something</c><00:00:40.739><c> that</c><00:00:41.129><c> is</c><00:00:41.280><c> very</c><00:00:41.430><c> fast</c><00:00:42.110><c> that</c>
+
+00:00:43.100 --> 00:00:43.110 align:start position:0%
+we want something that is very fast that
+ 
+
+00:00:43.110 --> 00:00:44.810 align:start position:0%
+we want something that is very fast that
+means<00:00:43.440><c> it</c><00:00:43.649><c> needs</c><00:00:43.680><c> to</c><00:00:43.950><c> be</c><00:00:44.070><c> a</c><00:00:44.100><c> table</c><00:00:44.370><c> of</c><00:00:44.640><c> some</c>
+
+00:00:44.810 --> 00:00:44.820 align:start position:0%
+means it needs to be a table of some
+ 
+
+00:00:44.820 --> 00:00:47.450 align:start position:0%
+means it needs to be a table of some
+sort<00:00:45.149><c> that</c><00:00:45.480><c> we</c><00:00:45.629><c> can</c><00:00:45.809><c> quickly</c><00:00:46.050><c> index</c><00:00:46.920><c> with</c><00:00:47.219><c> some</c>
+
+00:00:47.450 --> 00:00:47.460 align:start position:0%
+sort that we can quickly index with some
+ 
+
+00:00:47.460 --> 00:00:50.299 align:start position:0%
+sort that we can quickly index with some
+bits<00:00:47.730><c> of</c><00:00:47.910><c> the</c><00:00:48.030><c> address</c><00:00:48.059><c> and</c><00:00:48.510><c> it</c><00:00:49.140><c> tells</c><00:00:49.350><c> us</c><00:00:49.559><c> what</c>
+
+00:00:50.299 --> 00:00:50.309 align:start position:0%
+bits of the address and it tells us what
+ 
+
+00:00:50.309 --> 00:00:52.549 align:start position:0%
+bits of the address and it tells us what
+we<00:00:50.370><c> have</c><00:00:50.670><c> in</c><00:00:50.820><c> the</c><00:00:50.940><c> cache</c><00:00:51.180><c> and</c><00:00:51.480><c> if</c><00:00:51.989><c> we</c><00:00:52.170><c> do</c><00:00:52.320><c> have</c>
+
+00:00:52.549 --> 00:00:52.559 align:start position:0%
+we have in the cache and if we do have
+ 
+
+00:00:52.559 --> 00:00:54.260 align:start position:0%
+we have in the cache and if we do have
+what<00:00:52.739><c> we</c><00:00:52.890><c> are</c><00:00:52.920><c> looking</c><00:00:53.219><c> for</c><00:00:53.489><c> then</c><00:00:53.820><c> it</c><00:00:53.940><c> gives</c><00:00:54.090><c> us</c>
+
+00:00:54.260 --> 00:00:54.270 align:start position:0%
+what we are looking for then it gives us
+ 
+
+00:00:54.270 --> 00:00:57.380 align:start position:0%
+what we are looking for then it gives us
+the<00:00:54.360><c> data</c><00:00:54.539><c> so</c><00:00:55.289><c> conceptually</c><00:00:55.820><c> the</c><00:00:56.820><c> cache</c><00:00:57.090><c> is</c><00:00:57.360><c> a</c>
+
+00:00:57.380 --> 00:00:57.390 align:start position:0%
+the data so conceptually the cache is a
+ 
+
+00:00:57.390 --> 00:01:00.590 align:start position:0%
+the data so conceptually the cache is a
+table<00:00:57.930><c> which</c><00:00:58.649><c> we</c><00:00:58.859><c> index</c><00:00:59.309><c> with</c><00:00:59.820><c> some</c><00:01:00.120><c> bits</c><00:01:00.449><c> that</c>
+
+00:01:00.590 --> 00:01:00.600 align:start position:0%
+table which we index with some bits that
+ 
+
+00:01:00.600 --> 00:01:03.950 align:start position:0%
+table which we index with some bits that
+we<00:01:00.899><c> take</c><00:01:01.109><c> from</c><00:01:01.379><c> the</c><00:01:01.530><c> address</c><00:01:01.829><c> of</c><00:01:02.039><c> the</c><00:01:02.160><c> data</c><00:01:02.960><c> so</c>
+
+00:01:03.950 --> 00:01:03.960 align:start position:0%
+we take from the address of the data so
+ 
+
+00:01:03.960 --> 00:01:06.289 align:start position:0%
+we take from the address of the data so
+some<00:01:04.260><c> stuff</c><00:01:04.589><c> here</c><00:01:04.920><c> needs</c><00:01:05.189><c> to</c><00:01:05.280><c> tell</c><00:01:05.549><c> us</c><00:01:05.580><c> whether</c>
+
+00:01:06.289 --> 00:01:06.299 align:start position:0%
+some stuff here needs to tell us whether
+ 
+
+00:01:06.299 --> 00:01:08.539 align:start position:0%
+some stuff here needs to tell us whether
+we<00:01:06.540><c> have</c><00:01:06.689><c> hit</c><00:01:06.930><c> and</c><00:01:07.200><c> the</c><00:01:07.799><c> rest</c><00:01:08.010><c> of</c><00:01:08.159><c> the</c><00:01:08.280><c> stuff</c>
+
+00:01:08.539 --> 00:01:08.549 align:start position:0%
+we have hit and the rest of the stuff
+ 
+
+00:01:08.549 --> 00:01:09.140 align:start position:0%
+we have hit and the rest of the stuff
+here
+
+00:01:09.140 --> 00:01:09.150 align:start position:0%
+here
+ 
+
+00:01:09.150 --> 00:01:11.240 align:start position:0%
+here
+is<00:01:09.360><c> the</c><00:01:09.689><c> data</c><00:01:09.900><c> we</c><00:01:10.229><c> want</c><00:01:10.260><c> if</c><00:01:10.619><c> we</c><00:01:10.770><c> do</c><00:01:10.890><c> have</c><00:01:11.100><c> the</c>
+
+00:01:11.240 --> 00:01:11.250 align:start position:0%
+is the data we want if we do have the
+ 
+
+00:01:11.250 --> 00:01:14.359 align:start position:0%
+is the data we want if we do have the
+hit<00:01:11.460><c> how</c><00:01:12.390><c> much</c><00:01:12.720><c> data</c><00:01:13.110><c> we</c><00:01:13.320><c> have</c><00:01:13.650><c> in</c><00:01:13.890><c> each</c><00:01:14.040><c> cache</c>
+
+00:01:14.359 --> 00:01:14.369 align:start position:0%
+hit how much data we have in each cache
+ 
+
+00:01:14.369 --> 00:01:17.510 align:start position:0%
+hit how much data we have in each cache
+entry<00:01:14.850><c> is</c><00:01:15.390><c> called</c><00:01:15.900><c> the</c><00:01:16.080><c> block</c><00:01:16.350><c> size</c><00:01:16.680><c> or</c><00:01:16.979><c> the</c>
+
+00:01:17.510 --> 00:01:17.520 align:start position:0%
+entry is called the block size or the
+ 
+
+00:01:17.520 --> 00:01:20.090 align:start position:0%
+entry is called the block size or the
+line<00:01:17.759><c> size</c><00:01:18.210><c> because</c><00:01:19.110><c> the</c><00:01:19.290><c> entry</c><00:01:19.740><c> in</c><00:01:19.799><c> the</c><00:01:19.920><c> cache</c>
+
+00:01:20.090 --> 00:01:20.100 align:start position:0%
+line size because the entry in the cache
+ 
+
+00:01:20.100 --> 00:01:22.249 align:start position:0%
+line size because the entry in the cache
+is<00:01:20.340><c> also</c><00:01:20.610><c> called</c><00:01:20.820><c> a</c><00:01:20.970><c> line</c><00:01:21.270><c> and</c><00:01:21.600><c> they</c><00:01:22.020><c> tell</c><00:01:22.229><c> us</c>
+
+00:01:22.249 --> 00:01:22.259 align:start position:0%
+is also called a line and they tell us
+ 
+
+00:01:22.259 --> 00:01:24.380 align:start position:0%
+is also called a line and they tell us
+how<00:01:22.710><c> many</c><00:01:22.890><c> bytes</c><00:01:23.220><c> are</c><00:01:23.610><c> in</c><00:01:23.850><c> each</c><00:01:24.060><c> of</c><00:01:24.270><c> these</c>
+
+00:01:24.380 --> 00:01:24.390 align:start position:0%
+how many bytes are in each of these
+ 
+
+00:01:24.390 --> 00:01:27.020 align:start position:0%
+how many bytes are in each of these
+entries<00:01:24.869><c> if</c><00:01:25.259><c> we</c><00:01:25.619><c> have</c><00:01:25.830><c> only</c><00:01:26.070><c> one</c><00:01:26.460><c> byte</c><00:01:26.729><c> per</c>
+
+00:01:27.020 --> 00:01:27.030 align:start position:0%
+entries if we have only one byte per
+ 
+
+00:01:27.030 --> 00:01:29.990 align:start position:0%
+entries if we have only one byte per
+entry<00:01:27.630><c> then</c><00:01:28.259><c> every</c><00:01:28.740><c> address</c><00:01:29.070><c> will</c><00:01:29.490><c> map</c><00:01:29.700><c> to</c><00:01:29.939><c> a</c>
+
+00:01:29.990 --> 00:01:30.000 align:start position:0%
+entry then every address will map to a
+ 
+
+00:01:30.000 --> 00:01:32.270 align:start position:0%
+entry then every address will map to a
+different<00:01:30.420><c> entry</c><00:01:30.840><c> if</c><00:01:31.020><c> we</c><00:01:31.560><c> have</c><00:01:31.710><c> a</c><00:01:31.740><c> block</c><00:01:31.920><c> size</c>
+
+00:01:32.270 --> 00:01:32.280 align:start position:0%
+different entry if we have a block size
+ 
+
+00:01:32.280 --> 00:01:34.520 align:start position:0%
+different entry if we have a block size
+of<00:01:32.460><c> 1</c><00:01:32.700><c> that</c><00:01:33.090><c> means</c><00:01:33.360><c> the</c><00:01:33.630><c> entry</c><00:01:34.229><c> in</c><00:01:34.290><c> the</c><00:01:34.380><c> cache</c>
+
+00:01:34.520 --> 00:01:34.530 align:start position:0%
+of 1 that means the entry in the cache
+ 
+
+00:01:34.530 --> 00:01:36.980 align:start position:0%
+of 1 that means the entry in the cache
+is<00:01:34.740><c> only</c><00:01:34.920><c> one</c><00:01:35.189><c> byte</c><00:01:35.430><c> every</c><00:01:36.390><c> single</c><00:01:36.659><c> byte</c>
+
+00:01:36.980 --> 00:01:36.990 align:start position:0%
+is only one byte every single byte
+ 
+
+00:01:36.990 --> 00:01:39.530 align:start position:0%
+is only one byte every single byte
+address<00:01:37.409><c> will</c><00:01:37.680><c> have</c><00:01:37.710><c> a</c><00:01:38.130><c> different</c><00:01:38.670><c> entry</c><00:01:39.119><c> that</c>
+
+00:01:39.530 --> 00:01:39.540 align:start position:0%
+address will have a different entry that
+ 
+
+00:01:39.540 --> 00:01:42.980 align:start position:0%
+address will have a different entry that
+creates<00:01:40.049><c> several</c><00:01:40.290><c> problems</c><00:01:40.710><c> one</c><00:01:41.640><c> usually</c><00:01:42.420><c> the</c>
+
+00:01:42.980 --> 00:01:42.990 align:start position:0%
+creates several problems one usually the
+ 
+
+00:01:42.990 --> 00:01:46.130 align:start position:0%
+creates several problems one usually the
+processor<00:01:43.560><c> can</c><00:01:43.860><c> issue</c><00:01:44.040><c> accesses</c><00:01:44.909><c> not</c><00:01:45.509><c> only</c><00:01:45.960><c> to</c>
+
+00:01:46.130 --> 00:01:46.140 align:start position:0%
+processor can issue accesses not only to
+ 
+
+00:01:46.140 --> 00:01:48.139 align:start position:0%
+processor can issue accesses not only to
+a<00:01:46.200><c> single</c><00:01:46.259><c> byte</c><00:01:46.770><c> but</c><00:01:47.100><c> also</c><00:01:47.310><c> for</c><00:01:47.579><c> example</c><00:01:47.700><c> load</c>
+
+00:01:48.139 --> 00:01:48.149 align:start position:0%
+a single byte but also for example load
+ 
+
+00:01:48.149 --> 00:01:50.240 align:start position:0%
+a single byte but also for example load
+word<00:01:48.420><c> and</c><00:01:48.630><c> store</c><00:01:48.869><c> word</c><00:01:49.140><c> will</c><00:01:49.380><c> access</c><00:01:49.799><c> a</c><00:01:49.979><c> four</c>
+
+00:01:50.240 --> 00:01:50.250 align:start position:0%
+word and store word will access a four
+ 
+
+00:01:50.250 --> 00:01:53.060 align:start position:0%
+word and store word will access a four
+byte<00:01:50.460><c> location</c><00:01:51.060><c> so</c><00:01:51.659><c> for</c><00:01:51.869><c> a</c><00:01:51.899><c> single</c><00:01:52.170><c> access</c><00:01:52.710><c> now</c>
+
+00:01:53.060 --> 00:01:53.070 align:start position:0%
+byte location so for a single access now
+ 
+
+00:01:53.070 --> 00:01:55.310 align:start position:0%
+byte location so for a single access now
+we<00:01:53.130><c> would</c><00:01:53.430><c> need</c><00:01:53.549><c> to</c><00:01:53.610><c> look</c><00:01:53.759><c> up</c><00:01:54.060><c> four</c><00:01:54.780><c> different</c>
+
+00:01:55.310 --> 00:01:55.320 align:start position:0%
+we would need to look up four different
+ 
+
+00:01:55.320 --> 00:01:57.950 align:start position:0%
+we would need to look up four different
+lines<00:01:55.770><c> in</c><00:01:55.950><c> the</c><00:01:56.100><c> cache</c><00:01:56.310><c> that</c><00:01:56.810><c> complicates</c><00:01:57.810><c> and</c>
+
+00:01:57.950 --> 00:01:57.960 align:start position:0%
+lines in the cache that complicates and
+ 
+
+00:01:57.960 --> 00:01:59.840 align:start position:0%
+lines in the cache that complicates and
+slows<00:01:58.170><c> down</c><00:01:58.200><c> the</c><00:01:58.409><c> cache</c><00:01:58.770><c> a</c><00:01:58.950><c> lot</c><00:01:59.189><c> so</c><00:01:59.729><c> we</c>
+
+00:01:59.840 --> 00:01:59.850 align:start position:0%
+slows down the cache a lot so we
+ 
+
+00:01:59.850 --> 00:02:01.730 align:start position:0%
+slows down the cache a lot so we
+definitely<00:02:00.060><c> don't</c><00:02:00.659><c> want</c><00:02:00.899><c> a</c><00:02:01.049><c> block</c><00:02:01.259><c> size</c><00:02:01.469><c> to</c><00:02:01.500><c> be</c>
+
+00:02:01.730 --> 00:02:01.740 align:start position:0%
+definitely don't want a block size to be
+ 
+
+00:02:01.740 --> 00:02:04.370 align:start position:0%
+definitely don't want a block size to be
+this<00:02:02.009><c> small</c><00:02:02.159><c> we</c><00:02:03.060><c> want</c><00:02:03.329><c> the</c><00:02:03.479><c> block</c><00:02:03.719><c> size</c><00:02:03.990><c> to</c><00:02:04.020><c> be</c>
+
+00:02:04.370 --> 00:02:04.380 align:start position:0%
+this small we want the block size to be
+ 
+
+00:02:04.380 --> 00:02:08.029 align:start position:0%
+this small we want the block size to be
+at<00:02:04.590><c> least</c><00:02:05.430><c> as</c><00:02:05.700><c> large</c><00:02:05.909><c> as</c><00:02:06.090><c> the</c><00:02:06.600><c> largest</c><00:02:07.039><c> single</c>
+
+00:02:08.029 --> 00:02:08.039 align:start position:0%
+at least as large as the largest single
+ 
+
+00:02:08.039 --> 00:02:10.449 align:start position:0%
+at least as large as the largest single
+axis<00:02:08.429><c> that</c><00:02:08.520><c> we</c><00:02:08.670><c> can</c><00:02:08.849><c> do</c><00:02:08.970><c> in</c><00:02:09.090><c> the</c><00:02:09.209><c> cache</c><00:02:09.420><c> and</c>
+
+00:02:10.449 --> 00:02:10.459 align:start position:0%
+axis that we can do in the cache and
+ 
+
+00:02:10.459 --> 00:02:12.920 align:start position:0%
+axis that we can do in the cache and
+hopefully<00:02:11.459><c> slightly</c><00:02:11.790><c> larger</c><00:02:12.120><c> than</c><00:02:12.150><c> that</c><00:02:12.450><c> just</c>
+
+00:02:12.920 --> 00:02:12.930 align:start position:0%
+hopefully slightly larger than that just
+ 
+
+00:02:12.930 --> 00:02:13.610 align:start position:0%
+hopefully slightly larger than that just
+so
+
+00:02:13.610 --> 00:02:13.620 align:start position:0%
+so
+ 
+
+00:02:13.620 --> 00:02:15.110 align:start position:0%
+so
+that<00:02:13.769><c> when</c><00:02:14.010><c> we</c><00:02:14.040><c> do</c><00:02:14.250><c> a</c><00:02:14.280><c> load</c><00:02:14.489><c> word</c><00:02:14.700><c> or</c><00:02:14.879><c> store</c>
+
+00:02:15.110 --> 00:02:15.120 align:start position:0%
+that when we do a load word or store
+ 
+
+00:02:15.120 --> 00:02:16.820 align:start position:0%
+that when we do a load word or store
+word<00:02:15.330><c> we</c><00:02:15.510><c> find</c><00:02:15.540><c> the</c><00:02:15.870><c> data</c><00:02:16.080><c> in</c><00:02:16.230><c> the</c><00:02:16.319><c> same</c><00:02:16.530><c> cache</c>
+
+00:02:16.820 --> 00:02:16.830 align:start position:0%
+word we find the data in the same cache
+ 
+
+00:02:16.830 --> 00:02:19.160 align:start position:0%
+word we find the data in the same cache
+block<00:02:16.860><c> most</c><00:02:17.400><c> of</c><00:02:17.610><c> the</c><00:02:17.730><c> time</c><00:02:17.940><c> the</c><00:02:18.659><c> next</c><00:02:19.019><c> thing</c>
+
+00:02:19.160 --> 00:02:19.170 align:start position:0%
+block most of the time the next thing
+ 
+
+00:02:19.170 --> 00:02:20.600 align:start position:0%
+block most of the time the next thing
+that<00:02:19.200><c> we</c><00:02:19.470><c> want</c><00:02:19.590><c> to</c><00:02:19.739><c> consider</c><00:02:20.099><c> when</c><00:02:20.430><c> deciding</c>
+
+00:02:20.600 --> 00:02:20.610 align:start position:0%
+that we want to consider when deciding
+ 
+
+00:02:20.610 --> 00:02:24.380 align:start position:0%
+that we want to consider when deciding
+the<00:02:21.150><c> block</c><00:02:21.390><c> size</c><00:02:21.690><c> is</c><00:02:22.099><c> spatial</c><00:02:23.099><c> locality</c><00:02:23.370><c> if</c><00:02:23.849><c> we</c>
+
+00:02:24.380 --> 00:02:24.390 align:start position:0%
+the block size is spatial locality if we
+ 
+
+00:02:24.390 --> 00:02:26.869 align:start position:0%
+the block size is spatial locality if we
+Mason<00:02:24.840><c> the</c><00:02:24.959><c> cache</c><00:02:25.200><c> on</c><00:02:25.470><c> one</c><00:02:25.680><c> axis</c><00:02:26.129><c> we</c><00:02:26.730><c> will</c>
+
+00:02:26.869 --> 00:02:26.879 align:start position:0%
+Mason the cache on one axis we will
+ 
+
+00:02:26.879 --> 00:02:29.960 align:start position:0%
+Mason the cache on one axis we will
+bring<00:02:27.120><c> in</c><00:02:27.390><c> an</c><00:02:27.569><c> entire</c><00:02:28.349><c> block</c><00:02:28.709><c> worth</c><00:02:29.400><c> of</c><00:02:29.640><c> memory</c>
+
+00:02:29.960 --> 00:02:29.970 align:start position:0%
+bring in an entire block worth of memory
+ 
+
+00:02:29.970 --> 00:02:33.229 align:start position:0%
+bring in an entire block worth of memory
+stuff<00:02:30.299><c> into</c><00:02:30.840><c> the</c><00:02:30.959><c> cache</c><00:02:31.280><c> so</c><00:02:32.280><c> if</c><00:02:32.400><c> there</c><00:02:32.579><c> is</c><00:02:32.610><c> no</c>
+
+00:02:33.229 --> 00:02:33.239 align:start position:0%
+stuff into the cache so if there is no
+ 
+
+00:02:33.239 --> 00:02:35.589 align:start position:0%
+stuff into the cache so if there is no
+spatial<00:02:33.569><c> locality</c><00:02:33.989><c> we</c><00:02:34.829><c> want</c><00:02:35.069><c> to</c><00:02:35.190><c> bring</c><00:02:35.400><c> in</c>
+
+00:02:35.589 --> 00:02:35.599 align:start position:0%
+spatial locality we want to bring in
+ 
+
+00:02:35.599 --> 00:02:38.809 align:start position:0%
+spatial locality we want to bring in
+just<00:02:36.599><c> what</c><00:02:37.349><c> we</c><00:02:37.500><c> are</c><00:02:37.560><c> currently</c><00:02:37.709><c> accessing</c><00:02:38.489><c> but</c>
+
+00:02:38.809 --> 00:02:38.819 align:start position:0%
+just what we are currently accessing but
+ 
+
+00:02:38.819 --> 00:02:41.509 align:start position:0%
+just what we are currently accessing but
+if<00:02:39.060><c> there</c><00:02:39.269><c> is</c><00:02:39.420><c> any</c><00:02:39.720><c> spatial</c><00:02:40.079><c> locality</c><00:02:40.470><c> we</c><00:02:41.280><c> want</c>
+
+00:02:41.509 --> 00:02:41.519 align:start position:0%
+if there is any spatial locality we want
+ 
+
+00:02:41.519 --> 00:02:43.789 align:start position:0%
+if there is any spatial locality we want
+to<00:02:41.640><c> bring</c><00:02:41.849><c> more</c><00:02:42.390><c> than</c><00:02:42.750><c> what</c><00:02:43.409><c> we</c><00:02:43.590><c> are</c><00:02:43.620><c> just</c>
+
+00:02:43.789 --> 00:02:43.799 align:start position:0%
+to bring more than what we are just
+ 
+
+00:02:43.799 --> 00:02:47.479 align:start position:0%
+to bring more than what we are just
+accessing<00:02:44.310><c> so</c><00:02:45.060><c> typically</c><00:02:45.780><c> block</c><00:02:46.349><c> sizes</c><00:02:46.799><c> of</c><00:02:46.950><c> 32</c>
+
+00:02:47.479 --> 00:02:47.489 align:start position:0%
+accessing so typically block sizes of 32
+ 
+
+00:02:47.489 --> 00:02:51.020 align:start position:0%
+accessing so typically block sizes of 32
+to<00:02:47.700><c> 128</c><00:02:48.239><c> bytes</c><00:02:49.019><c> work</c><00:02:49.680><c> well</c><00:02:50.010><c> both</c><00:02:50.640><c> from</c><00:02:50.910><c> the</c>
+
+00:02:51.020 --> 00:02:51.030 align:start position:0%
+to 128 bytes work well both from the
+ 
+
+00:02:51.030 --> 00:02:52.910 align:start position:0%
+to 128 bytes work well both from the
+perspective<00:02:51.180><c> of</c><00:02:51.690><c> they're</c><00:02:51.989><c> larger</c><00:02:52.530><c> than</c><00:02:52.560><c> a</c>
+
+00:02:52.910 --> 00:02:52.920 align:start position:0%
+perspective of they're larger than a
+ 
+
+00:02:52.920 --> 00:02:56.059 align:start position:0%
+perspective of they're larger than a
+typical<00:02:53.190><c> access</c><00:02:53.940><c> and</c><00:02:54.180><c> also</c><00:02:54.840><c> they</c><00:02:55.560><c> capture</c>
+
+00:02:56.059 --> 00:02:56.069 align:start position:0%
+typical access and also they capture
+ 
+
+00:02:56.069 --> 00:02:58.369 align:start position:0%
+typical access and also they capture
+much<00:02:56.549><c> of</c><00:02:56.819><c> the</c><00:02:56.910><c> spatial</c><00:02:57.299><c> locality</c><00:02:57.569><c> that</c><00:02:57.989><c> exists</c>
+
+00:02:58.369 --> 00:02:58.379 align:start position:0%
+much of the spatial locality that exists
+ 
+
+00:02:58.379 --> 00:03:01.520 align:start position:0%
+much of the spatial locality that exists
+in<00:02:58.470><c> programs</c><00:02:59.090><c> now</c><00:03:00.090><c> let's</c><00:03:00.359><c> look</c><00:03:00.569><c> at</c><00:03:00.810><c> block</c>
+
+00:03:01.520 --> 00:03:01.530 align:start position:0%
+in programs now let's look at block
+ 
+
+00:03:01.530 --> 00:03:04.220 align:start position:0%
+in programs now let's look at block
+sizes<00:03:01.829><c> of</c><00:03:02.310><c> something</c><00:03:02.730><c> like</c><00:03:02.879><c> one</c><00:03:03.060><c> kilobyte</c><00:03:03.420><c> in</c>
+
+00:03:04.220 --> 00:03:04.230 align:start position:0%
+sizes of something like one kilobyte in
+ 
+
+00:03:04.230 --> 00:03:07.190 align:start position:0%
+sizes of something like one kilobyte in
+that<00:03:04.530><c> case</c><00:03:04.859><c> what</c><00:03:05.159><c> happens</c><00:03:05.609><c> is</c><00:03:05.790><c> we</c><00:03:06.480><c> fetch</c><00:03:06.720><c> a</c><00:03:06.930><c> lot</c>
+
+00:03:07.190 --> 00:03:07.200 align:start position:0%
+that case what happens is we fetch a lot
+ 
+
+00:03:07.200 --> 00:03:09.229 align:start position:0%
+that case what happens is we fetch a lot
+of<00:03:07.530><c> data</c><00:03:07.769><c> from</c><00:03:08.069><c> memory</c><00:03:08.430><c> every</c><00:03:08.700><c> time</c><00:03:08.879><c> we</c><00:03:09.030><c> have</c><00:03:09.209><c> a</c>
+
+00:03:09.229 --> 00:03:09.239 align:start position:0%
+of data from memory every time we have a
+ 
+
+00:03:09.239 --> 00:03:11.960 align:start position:0%
+of data from memory every time we have a
+Miss<00:03:09.540><c> and</c><00:03:09.810><c> if</c><00:03:10.530><c> there</c><00:03:10.799><c> is</c><00:03:10.920><c> not</c><00:03:11.099><c> enough</c><00:03:11.370><c> locality</c>
+
+00:03:11.960 --> 00:03:11.970 align:start position:0%
+Miss and if there is not enough locality
+ 
+
+00:03:11.970 --> 00:03:14.479 align:start position:0%
+Miss and if there is not enough locality
+a<00:03:12.000><c> lot</c><00:03:12.420><c> of</c><00:03:12.720><c> the</c><00:03:12.870><c> data</c><00:03:13.109><c> will</c><00:03:13.409><c> not</c><00:03:13.560><c> be</c><00:03:13.620><c> used</c><00:03:13.950><c> so</c><00:03:14.340><c> we</c>
+
+00:03:14.479 --> 00:03:14.489 align:start position:0%
+a lot of the data will not be used so we
+ 
+
+00:03:14.489 --> 00:03:16.360 align:start position:0%
+a lot of the data will not be used so we
+are<00:03:14.579><c> occupying</c><00:03:14.790><c> space</c><00:03:15.659><c> in</c><00:03:15.900><c> our</c><00:03:16.019><c> cache</c>
+
+00:03:16.360 --> 00:03:16.370 align:start position:0%
+are occupying space in our cache
+ 
+
+00:03:16.370 --> 00:03:19.970 align:start position:0%
+are occupying space in our cache
+remember<00:03:17.370><c> that</c><00:03:17.519><c> the</c><00:03:17.609><c> cache</c><00:03:17.819><c> is</c><00:03:17.970><c> only</c><00:03:18.329><c> 16</c><00:03:18.840><c> to</c><00:03:19.440><c> 64</c>
+
+00:03:19.970 --> 00:03:19.980 align:start position:0%
+remember that the cache is only 16 to 64
+ 
+
+00:03:19.980 --> 00:03:22.909 align:start position:0%
+remember that the cache is only 16 to 64
+of<00:03:20.220><c> these</c><00:03:20.340><c> kilobytes</c><00:03:20.910><c> so</c><00:03:21.180><c> if</c><00:03:21.510><c> we</c><00:03:22.349><c> bring</c><00:03:22.590><c> in</c><00:03:22.829><c> a</c>
+
+00:03:22.909 --> 00:03:22.919 align:start position:0%
+of these kilobytes so if we bring in a
+ 
+
+00:03:22.919 --> 00:03:24.860 align:start position:0%
+of these kilobytes so if we bring in a
+block<00:03:23.160><c> like</c><00:03:23.400><c> this</c><00:03:23.430><c> we</c><00:03:24.090><c> are</c><00:03:24.150><c> consuming</c><00:03:24.690><c> a</c>
+
+00:03:24.860 --> 00:03:24.870 align:start position:0%
+block like this we are consuming a
+ 
+
+00:03:24.870 --> 00:03:27.170 align:start position:0%
+block like this we are consuming a
+significant<00:03:25.530><c> part</c><00:03:25.769><c> of</c><00:03:25.919><c> the</c><00:03:26.099><c> overall</c><00:03:26.250><c> space</c><00:03:26.940><c> in</c>
+
+00:03:27.170 --> 00:03:27.180 align:start position:0%
+significant part of the overall space in
+ 
+
+00:03:27.180 --> 00:03:30.289 align:start position:0%
+significant part of the overall space in
+the<00:03:27.269><c> cache</c><00:03:27.510><c> and</c><00:03:27.810><c> we</c><00:03:28.739><c> are</c><00:03:28.799><c> doing</c><00:03:28.980><c> it</c><00:03:29.299><c> probably</c>
+
+00:03:30.289 --> 00:03:30.299 align:start position:0%
+the cache and we are doing it probably
+ 
+
+00:03:30.299 --> 00:03:32.629 align:start position:0%
+the cache and we are doing it probably
+with<00:03:30.419><c> data</c><00:03:30.629><c> that</c><00:03:30.780><c> we</c><00:03:31.049><c> won't</c><00:03:31.260><c> use</c><00:03:31.470><c> much</c><00:03:31.769><c> so</c><00:03:32.549><c> it</c>
+
+00:03:32.629 --> 00:03:32.639 align:start position:0%
+with data that we won't use much so it
+ 
+
+00:03:32.639 --> 00:03:34.879 align:start position:0%
+with data that we won't use much so it
+turns<00:03:32.879><c> out</c><00:03:33.060><c> that</c><00:03:33.359><c> for</c><00:03:33.900><c> level</c><00:03:34.169><c> 1</c><00:03:34.349><c> cache</c><00:03:34.560><c> is</c><00:03:34.739><c> at</c>
+
+00:03:34.879 --> 00:03:34.889 align:start position:0%
+turns out that for level 1 cache is at
+ 
+
+00:03:34.889 --> 00:03:37.159 align:start position:0%
+turns out that for level 1 cache is at
+least<00:03:35.069><c> we</c><00:03:35.340><c> don't</c><00:03:35.639><c> want</c><00:03:35.940><c> the</c><00:03:36.329><c> block</c><00:03:36.569><c> size</c><00:03:36.870><c> to</c><00:03:36.900><c> be</c>
+
+00:03:37.159 --> 00:03:37.169 align:start position:0%
+least we don't want the block size to be
+ 
+
+00:03:37.169 --> 00:03:40.339 align:start position:0%
+least we don't want the block size to be
+too<00:03:37.379><c> large</c><00:03:37.560><c> so</c><00:03:37.889><c> block</c><00:03:38.579><c> sizes</c><00:03:38.879><c> of</c><00:03:39.269><c> 32</c><00:03:39.750><c> to</c><00:03:39.900><c> 128</c>
+
+00:03:40.339 --> 00:03:40.349 align:start position:0%
+too large so block sizes of 32 to 128
+ 
+
+00:03:40.349 --> 00:03:43.610 align:start position:0%
+too large so block sizes of 32 to 128
+kilobytes<00:03:41.099><c> are</c><00:03:41.370><c> a</c><00:03:41.849><c> balance</c><00:03:42.329><c> between</c><00:03:42.620><c> getting</c>
+
+00:03:43.610 --> 00:03:43.620 align:start position:0%
+kilobytes are a balance between getting
+ 
+
+00:03:43.620 --> 00:03:45.920 align:start position:0%
+kilobytes are a balance between getting
+use<00:03:43.889><c> of</c><00:03:44.160><c> spatial</c><00:03:45.060><c> locality</c><00:03:45.269><c> when</c><00:03:45.660><c> we</c><00:03:45.750><c> bring</c>
+
+00:03:45.920 --> 00:03:45.930 align:start position:0%
+use of spatial locality when we bring
+ 
+
+00:03:45.930 --> 00:03:49.280 align:start position:0%
+use of spatial locality when we bring
+stuff<00:03:46.169><c> in</c><00:03:46.430><c> versus</c><00:03:47.430><c> not</c><00:03:48.269><c> being</c><00:03:48.569><c> dependent</c><00:03:49.079><c> too</c>
+
+00:03:49.280 --> 00:03:49.290 align:start position:0%
+stuff in versus not being dependent too
+ 
+
+00:03:49.290 --> 00:03:51.379 align:start position:0%
+stuff in versus not being dependent too
+much<00:03:49.500><c> on</c><00:03:49.769><c> there</c><00:03:50.040><c> being</c><00:03:50.310><c> a</c><00:03:50.609><c> lot</c><00:03:50.970><c> of</c><00:03:51.209><c> spatial</c>
+
+00:03:51.379 --> 00:03:51.389 align:start position:0%
+much on there being a lot of spatial
+ 
+
+00:03:51.389 --> 00:03:53.030 align:start position:0%
+much on there being a lot of spatial
+locality<00:03:51.569><c> because</c><00:03:52.290><c> some</c><00:03:52.500><c> programs</c><00:03:52.919><c> don't</c>
+
+00:03:53.030 --> 00:03:53.040 align:start position:0%
+locality because some programs don't
+ 
+
+00:03:53.040 --> 00:03:56.150 align:start position:0%
+locality because some programs don't
+have<00:03:53.160><c> that</c><00:03:53.489><c> much</c><00:03:53.730><c> of</c><00:03:54.000><c> it</c>
+

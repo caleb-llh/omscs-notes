@@ -1,0 +1,480 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:01.750 align:start position:0%
+ 
+let's<00:00:00.560><c> look</c><00:00:00.719><c> at</c><00:00:00.880><c> the</c><00:00:00.960><c> solution</c><00:00:01.439><c> to</c><00:00:01.680><c> our</c>
+
+00:00:01.750 --> 00:00:01.760 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:01.760 --> 00:00:03.429 align:start position:0%
+let's look at the solution to our
+message<00:00:02.080><c> passing</c><00:00:02.480><c> versus</c><00:00:02.800><c> shared</c><00:00:03.040><c> memory</c>
+
+00:00:03.429 --> 00:00:03.439 align:start position:0%
+message passing versus shared memory
+ 
+
+00:00:03.439 --> 00:00:05.990 align:start position:0%
+message passing versus shared memory
+quiz<00:00:04.240><c> if</c><00:00:04.400><c> we</c><00:00:04.560><c> have</c><00:00:04.799><c> one</c><00:00:05.040><c> core</c><00:00:05.279><c> initializing</c><00:00:05.839><c> an</c>
+
+00:00:05.990 --> 00:00:06.000 align:start position:0%
+quiz if we have one core initializing an
+ 
+
+00:00:06.000 --> 00:00:08.470 align:start position:0%
+quiz if we have one core initializing an
+array<00:00:06.640><c> and</c><00:00:06.799><c> then</c><00:00:07.120><c> all</c><00:00:07.359><c> others</c><00:00:07.919><c> reading</c><00:00:08.320><c> the</c>
+
+00:00:08.470 --> 00:00:08.480 align:start position:0%
+array and then all others reading the
+ 
+
+00:00:08.480 --> 00:00:11.430 align:start position:0%
+array and then all others reading the
+entire<00:00:08.800><c> array</c><00:00:09.679><c> data</c><00:00:10.080><c> distribution</c><00:00:11.280><c> the</c>
+
+00:00:11.430 --> 00:00:11.440 align:start position:0%
+entire array data distribution the
+ 
+
+00:00:11.440 --> 00:00:13.190 align:start position:0%
+entire array data distribution the
+number<00:00:11.759><c> of</c><00:00:11.920><c> lines</c><00:00:12.160><c> of</c><00:00:12.320><c> code</c><00:00:12.559><c> you</c><00:00:12.639><c> need</c><00:00:12.880><c> to</c><00:00:13.040><c> do</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+number of lines of code you need to do
+ 
+
+00:00:13.200 --> 00:00:15.270 align:start position:0%
+number of lines of code you need to do
+it<00:00:13.440><c> in</c><00:00:13.679><c> message</c><00:00:14.160><c> passing</c>
+
+00:00:15.270 --> 00:00:15.280 align:start position:0%
+it in message passing
+ 
+
+00:00:15.280 --> 00:00:16.870 align:start position:0%
+it in message passing
+is<00:00:15.440><c> significant</c>
+
+00:00:16.870 --> 00:00:16.880 align:start position:0%
+is significant
+ 
+
+00:00:16.880 --> 00:00:18.790 align:start position:0%
+is significant
+the<00:00:17.039><c> number</c><00:00:17.279><c> of</c><00:00:17.520><c> lines</c><00:00:17.760><c> of</c><00:00:17.920><c> code</c><00:00:18.240><c> we</c><00:00:18.400><c> need</c><00:00:18.560><c> for</c>
+
+00:00:18.790 --> 00:00:18.800 align:start position:0%
+the number of lines of code we need for
+ 
+
+00:00:18.800 --> 00:00:20.790 align:start position:0%
+the number of lines of code we need for
+that<00:00:19.039><c> in</c><00:00:19.199><c> shared</c><00:00:19.600><c> memory</c>
+
+00:00:20.790 --> 00:00:20.800 align:start position:0%
+that in shared memory
+ 
+
+00:00:20.800 --> 00:00:23.590 align:start position:0%
+that in shared memory
+is<00:00:21.039><c> really</c><00:00:21.359><c> zero</c><00:00:21.760><c> lines</c><00:00:22.160><c> of</c><00:00:22.320><c> code</c><00:00:22.880><c> because</c>
+
+00:00:23.590 --> 00:00:23.600 align:start position:0%
+is really zero lines of code because
+ 
+
+00:00:23.600 --> 00:00:25.910 align:start position:0%
+is really zero lines of code because
+once<00:00:23.840><c> the</c><00:00:24.000><c> array</c><00:00:24.320><c> is</c><00:00:24.400><c> initialized</c><00:00:24.960><c> in</c><00:00:25.119><c> memory</c>
+
+00:00:25.910 --> 00:00:25.920 align:start position:0%
+once the array is initialized in memory
+ 
+
+00:00:25.920 --> 00:00:28.150 align:start position:0%
+once the array is initialized in memory
+others<00:00:26.400><c> can</c><00:00:26.720><c> simply</c><00:00:27.039><c> read</c><00:00:27.359><c> it</c><00:00:27.840><c> they</c><00:00:28.000><c> don't</c>
+
+00:00:28.150 --> 00:00:28.160 align:start position:0%
+others can simply read it they don't
+ 
+
+00:00:28.160 --> 00:00:29.990 align:start position:0%
+others can simply read it they don't
+need<00:00:28.400><c> to</c><00:00:28.560><c> really</c><00:00:28.800><c> distribute</c><00:00:29.279><c> the</c><00:00:29.439><c> data</c><00:00:29.760><c> in</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+need to really distribute the data in
+ 
+
+00:00:30.000 --> 00:00:33.030 align:start position:0%
+need to really distribute the data in
+any<00:00:30.160><c> way</c><00:00:30.800><c> in</c><00:00:31.039><c> contrast</c><00:00:31.519><c> in</c><00:00:31.679><c> message</c><00:00:32.079><c> passing</c>
+
+00:00:33.030 --> 00:00:33.040 align:start position:0%
+any way in contrast in message passing
+ 
+
+00:00:33.040 --> 00:00:35.110 align:start position:0%
+any way in contrast in message passing
+the<00:00:33.280><c> core</c><00:00:33.520><c> that</c><00:00:33.760><c> initializes</c><00:00:34.320><c> the</c><00:00:34.480><c> array</c><00:00:34.880><c> now</c>
+
+00:00:35.110 --> 00:00:35.120 align:start position:0%
+the core that initializes the array now
+ 
+
+00:00:35.120 --> 00:00:37.270 align:start position:0%
+the core that initializes the array now
+needs<00:00:35.360><c> to</c><00:00:35.600><c> send</c><00:00:36.000><c> it</c><00:00:36.160><c> explicitly</c><00:00:36.880><c> to</c><00:00:37.040><c> all</c><00:00:37.120><c> the</c>
+
+00:00:37.270 --> 00:00:37.280 align:start position:0%
+needs to send it explicitly to all the
+ 
+
+00:00:37.280 --> 00:00:39.910 align:start position:0%
+needs to send it explicitly to all the
+other<00:00:37.520><c> cores</c><00:00:38.399><c> and</c><00:00:38.559><c> the</c><00:00:38.800><c> other</c><00:00:39.040><c> cores</c><00:00:39.360><c> need</c><00:00:39.520><c> to</c>
+
+00:00:39.910 --> 00:00:39.920 align:start position:0%
+other cores and the other cores need to
+ 
+
+00:00:39.920 --> 00:00:41.990 align:start position:0%
+other cores and the other cores need to
+receive<00:00:40.399><c> it</c><00:00:40.559><c> explicitly</c><00:00:41.440><c> so</c><00:00:41.600><c> there</c><00:00:41.840><c> is</c>
+
+00:00:41.990 --> 00:00:42.000 align:start position:0%
+receive it explicitly so there is
+ 
+
+00:00:42.000 --> 00:00:43.270 align:start position:0%
+receive it explicitly so there is
+definitely
+
+00:00:43.270 --> 00:00:43.280 align:start position:0%
+definitely
+ 
+
+00:00:43.280 --> 00:00:45.430 align:start position:0%
+definitely
+more<00:00:43.600><c> lines</c><00:00:43.920><c> of</c><00:00:44.079><c> code</c><00:00:44.399><c> in</c><00:00:44.559><c> message</c><00:00:44.960><c> passing</c>
+
+00:00:45.430 --> 00:00:45.440 align:start position:0%
+more lines of code in message passing
+ 
+
+00:00:45.440 --> 00:00:47.190 align:start position:0%
+more lines of code in message passing
+than<00:00:45.680><c> in</c><00:00:45.760><c> shared</c><00:00:46.079><c> memory</c>
+
+00:00:47.190 --> 00:00:47.200 align:start position:0%
+than in shared memory
+ 
+
+00:00:47.200 --> 00:00:50.389 align:start position:0%
+than in shared memory
+once<00:00:47.440><c> you</c><00:00:47.680><c> have</c><00:00:48.239><c> the</c><00:00:48.399><c> data</c><00:00:48.800><c> distribution</c>
+
+00:00:50.389 --> 00:00:50.399 align:start position:0%
+once you have the data distribution
+ 
+
+00:00:50.399 --> 00:00:52.389 align:start position:0%
+once you have the data distribution
+for<00:00:50.640><c> shared</c><00:00:50.879><c> memory</c><00:00:51.680><c> you</c><00:00:51.840><c> don't</c><00:00:52.000><c> need</c><00:00:52.160><c> to</c><00:00:52.160><c> do</c>
+
+00:00:52.389 --> 00:00:52.399 align:start position:0%
+for shared memory you don't need to do
+ 
+
+00:00:52.399 --> 00:00:54.470 align:start position:0%
+for shared memory you don't need to do
+anything<00:00:52.800><c> for</c><00:00:53.039><c> it</c><00:00:53.520><c> for</c><00:00:53.680><c> message</c><00:00:54.000><c> passing</c><00:00:54.320><c> you</c>
+
+00:00:54.470 --> 00:00:54.480 align:start position:0%
+anything for it for message passing you
+ 
+
+00:00:54.480 --> 00:00:56.830 align:start position:0%
+anything for it for message passing you
+need<00:00:54.559><c> to</c><00:00:54.719><c> send</c><00:00:54.960><c> and</c><00:00:55.120><c> receive</c>
+
+00:00:56.830 --> 00:00:56.840 align:start position:0%
+need to send and receive
+ 
+
+00:00:56.840 --> 00:00:58.869 align:start position:0%
+need to send and receive
+synchronization<00:00:57.920><c> that</c><00:00:58.160><c> makes</c><00:00:58.399><c> sure</c><00:00:58.640><c> that</c><00:00:58.800><c> the</c>
+
+00:00:58.869 --> 00:00:58.879 align:start position:0%
+synchronization that makes sure that the
+ 
+
+00:00:58.879 --> 00:01:00.950 align:start position:0%
+synchronization that makes sure that the
+array<00:00:59.120><c> is</c><00:00:59.280><c> initialized</c><00:00:59.920><c> before</c><00:01:00.480><c> we</c><00:01:00.640><c> get</c><00:01:00.800><c> to</c>
+
+00:01:00.950 --> 00:01:00.960 align:start position:0%
+array is initialized before we get to
+ 
+
+00:01:00.960 --> 00:01:02.069 align:start position:0%
+array is initialized before we get to
+read<00:01:01.280><c> it</c>
+
+00:01:02.069 --> 00:01:02.079 align:start position:0%
+read it
+ 
+
+00:01:02.079 --> 00:01:04.549 align:start position:0%
+read it
+adds<00:01:02.399><c> how</c><00:01:02.640><c> many</c><00:01:02.879><c> lines</c><00:01:03.199><c> of</c><00:01:03.359><c> code</c>
+
+00:01:04.549 --> 00:01:04.559 align:start position:0%
+adds how many lines of code
+ 
+
+00:01:04.559 --> 00:01:06.789 align:start position:0%
+adds how many lines of code
+in<00:01:04.799><c> message</c><00:01:05.199><c> passing</c>
+
+00:01:06.789 --> 00:01:06.799 align:start position:0%
+in message passing
+ 
+
+00:01:06.799 --> 00:01:09.750 align:start position:0%
+in message passing
+it<00:01:07.119><c> adds</c><00:01:07.439><c> zero</c><00:01:08.000><c> lines</c><00:01:08.400><c> of</c><00:01:08.560><c> code</c><00:01:09.119><c> because</c><00:01:09.520><c> the</c>
+
+00:01:09.750 --> 00:01:09.760 align:start position:0%
+it adds zero lines of code because the
+ 
+
+00:01:09.760 --> 00:01:11.590 align:start position:0%
+it adds zero lines of code because the
+sends<00:01:10.080><c> and</c><00:01:10.320><c> receives</c>
+
+00:01:11.590 --> 00:01:11.600 align:start position:0%
+sends and receives
+ 
+
+00:01:11.600 --> 00:01:13.270 align:start position:0%
+sends and receives
+that<00:01:11.840><c> we</c><00:01:11.920><c> needed</c><00:01:12.240><c> to</c><00:01:12.320><c> do</c><00:01:12.479><c> to</c><00:01:12.640><c> distribute</c><00:01:13.119><c> the</c>
+
+00:01:13.270 --> 00:01:13.280 align:start position:0%
+that we needed to do to distribute the
+ 
+
+00:01:13.280 --> 00:01:15.270 align:start position:0%
+that we needed to do to distribute the
+data<00:01:13.680><c> already</c><00:01:14.159><c> ensure</c>
+
+00:01:15.270 --> 00:01:15.280 align:start position:0%
+data already ensure
+ 
+
+00:01:15.280 --> 00:01:17.350 align:start position:0%
+data already ensure
+that<00:01:15.840><c> until</c><00:01:16.240><c> we</c><00:01:16.400><c> receive</c><00:01:16.799><c> the</c><00:01:16.960><c> array</c><00:01:17.200><c> we</c>
+
+00:01:17.350 --> 00:01:17.360 align:start position:0%
+that until we receive the array we
+ 
+
+00:01:17.360 --> 00:01:19.590 align:start position:0%
+that until we receive the array we
+cannot<00:01:17.759><c> read</c><00:01:18.000><c> it</c><00:01:18.479><c> so</c><00:01:18.640><c> when</c><00:01:18.799><c> we</c><00:01:18.960><c> get</c><00:01:19.119><c> to</c><00:01:19.200><c> read</c><00:01:19.439><c> it</c>
+
+00:01:19.590 --> 00:01:19.600 align:start position:0%
+cannot read it so when we get to read it
+ 
+
+00:01:19.600 --> 00:01:21.830 align:start position:0%
+cannot read it so when we get to read it
+after<00:01:19.840><c> the</c><00:01:19.920><c> receive</c><00:01:20.400><c> we</c><00:01:20.640><c> know</c><00:01:21.119><c> that</c><00:01:21.520><c> it's</c><00:01:21.680><c> been</c>
+
+00:01:21.830 --> 00:01:21.840 align:start position:0%
+after the receive we know that it's been
+ 
+
+00:01:21.840 --> 00:01:23.350 align:start position:0%
+after the receive we know that it's been
+already<00:01:22.159><c> initialized</c><00:01:22.720><c> because</c><00:01:22.880><c> the</c><00:01:23.040><c> send</c>
+
+00:01:23.350 --> 00:01:23.360 align:start position:0%
+already initialized because the send
+ 
+
+00:01:23.360 --> 00:01:25.670 align:start position:0%
+already initialized because the send
+happens<00:01:23.920><c> after</c><00:01:24.159><c> the</c><00:01:24.240><c> initialization</c><00:01:25.520><c> in</c>
+
+00:01:25.670 --> 00:01:25.680 align:start position:0%
+happens after the initialization in
+ 
+
+00:01:25.680 --> 00:01:27.830 align:start position:0%
+happens after the initialization in
+shared<00:01:26.000><c> memory</c><00:01:26.479><c> however</c>
+
+00:01:27.830 --> 00:01:27.840 align:start position:0%
+shared memory however
+ 
+
+00:01:27.840 --> 00:01:29.990 align:start position:0%
+shared memory however
+while<00:01:28.000><c> the</c><00:01:28.159><c> initialization</c><00:01:28.880><c> is</c><00:01:29.119><c> happening</c>
+
+00:01:29.990 --> 00:01:30.000 align:start position:0%
+while the initialization is happening
+ 
+
+00:01:30.000 --> 00:01:31.990 align:start position:0%
+while the initialization is happening
+the<00:01:30.320><c> other</c><00:01:30.560><c> threads</c><00:01:31.200><c> could</c><00:01:31.439><c> just</c><00:01:31.680><c> begin</c>
+
+00:01:31.990 --> 00:01:32.000 align:start position:0%
+the other threads could just begin
+ 
+
+00:01:32.000 --> 00:01:33.990 align:start position:0%
+the other threads could just begin
+reading<00:01:32.400><c> it</c><00:01:32.640><c> so</c><00:01:32.799><c> we</c><00:01:33.040><c> need</c><00:01:33.200><c> to</c>
+
+00:01:33.990 --> 00:01:34.000 align:start position:0%
+reading it so we need to
+ 
+
+00:01:34.000 --> 00:01:36.550 align:start position:0%
+reading it so we need to
+add<00:01:34.320><c> some</c><00:01:34.560><c> explicit</c><00:01:35.200><c> synchronization</c><00:01:36.079><c> now</c><00:01:36.320><c> to</c>
+
+00:01:36.550 --> 00:01:36.560 align:start position:0%
+add some explicit synchronization now to
+ 
+
+00:01:36.560 --> 00:01:38.469 align:start position:0%
+add some explicit synchronization now to
+make<00:01:36.799><c> sure</c><00:01:37.040><c> that</c><00:01:37.200><c> the</c><00:01:37.360><c> readers</c><00:01:37.840><c> wait</c><00:01:38.240><c> while</c>
+
+00:01:38.469 --> 00:01:38.479 align:start position:0%
+make sure that the readers wait while
+ 
+
+00:01:38.479 --> 00:01:40.710 align:start position:0%
+make sure that the readers wait while
+the<00:01:38.560><c> initialization</c><00:01:39.280><c> is</c><00:01:39.439><c> happening</c><00:01:40.320><c> so</c><00:01:40.479><c> we</c>
+
+00:01:40.710 --> 00:01:40.720 align:start position:0%
+the initialization is happening so we
+ 
+
+00:01:40.720 --> 00:01:43.590 align:start position:0%
+the initialization is happening so we
+here<00:01:41.040><c> have</c><00:01:41.680><c> more</c><00:01:41.920><c> than</c><00:01:42.320><c> zero</c><00:01:42.640><c> lines</c><00:01:42.960><c> of</c><00:01:43.119><c> code</c>
+
+00:01:43.590 --> 00:01:43.600 align:start position:0%
+here have more than zero lines of code
+ 
+
+00:01:43.600 --> 00:01:45.990 align:start position:0%
+here have more than zero lines of code
+in<00:01:43.759><c> this</c><00:01:44.000><c> case</c><00:01:44.399><c> the</c><00:01:44.560><c> message</c><00:01:45.040><c> passing</c><00:01:45.439><c> code</c><00:01:45.759><c> is</c>
+
+00:01:45.990 --> 00:01:46.000 align:start position:0%
+in this case the message passing code is
+ 
+
+00:01:46.000 --> 00:01:48.230 align:start position:0%
+in this case the message passing code is
+simpler<00:01:46.560><c> as</c><00:01:46.720><c> far</c><00:01:46.880><c> as</c><00:01:47.040><c> synchronization</c><00:01:48.079><c> is</c>
+
+00:01:48.230 --> 00:01:48.240 align:start position:0%
+simpler as far as synchronization is
+ 
+
+00:01:48.240 --> 00:01:50.950 align:start position:0%
+simpler as far as synchronization is
+concerned<00:01:48.960><c> than</c><00:01:49.119><c> the</c><00:01:49.280><c> shared</c><00:01:49.600><c> memory</c><00:01:50.000><c> code</c>
+
+00:01:50.950 --> 00:01:50.960 align:start position:0%
+concerned than the shared memory code
+ 
+
+00:01:50.960 --> 00:01:52.630 align:start position:0%
+concerned than the shared memory code
+this<00:01:51.200><c> is</c><00:01:51.439><c> typically</c><00:01:52.000><c> going</c><00:01:52.240><c> to</c><00:01:52.320><c> be</c><00:01:52.479><c> what</c>
+
+00:01:52.630 --> 00:01:52.640 align:start position:0%
+this is typically going to be what
+ 
+
+00:01:52.640 --> 00:01:53.990 align:start position:0%
+this is typically going to be what
+happens<00:01:53.040><c> between</c><00:01:53.280><c> shared</c><00:01:53.600><c> memory</c><00:01:53.920><c> and</c>
+
+00:01:53.990 --> 00:01:54.000 align:start position:0%
+happens between shared memory and
+ 
+
+00:01:54.000 --> 00:01:56.389 align:start position:0%
+happens between shared memory and
+message<00:01:54.320><c> passing</c><00:01:55.119><c> message</c><00:01:55.520><c> passing</c><00:01:56.000><c> needs</c><00:01:56.240><c> to</c>
+
+00:01:56.389 --> 00:01:56.399 align:start position:0%
+message passing message passing needs to
+ 
+
+00:01:56.399 --> 00:01:58.789 align:start position:0%
+message passing message passing needs to
+distribute<00:01:56.880><c> data</c><00:01:57.360><c> but</c><00:01:57.680><c> in</c><00:01:57.840><c> doing</c><00:01:58.159><c> so</c><00:01:58.320><c> it</c><00:01:58.479><c> also</c>
+
+00:01:58.789 --> 00:01:58.799 align:start position:0%
+distribute data but in doing so it also
+ 
+
+00:01:58.799 --> 00:02:00.069 align:start position:0%
+distribute data but in doing so it also
+synchronizes
+
+00:02:00.069 --> 00:02:00.079 align:start position:0%
+synchronizes
+ 
+
+00:02:00.079 --> 00:02:01.910 align:start position:0%
+synchronizes
+shared<00:02:00.399><c> memory</c><00:02:00.799><c> doesn't</c><00:02:01.119><c> need</c><00:02:01.280><c> to</c><00:02:01.439><c> distribute</c>
+
+00:02:01.910 --> 00:02:01.920 align:start position:0%
+shared memory doesn't need to distribute
+ 
+
+00:02:01.920 --> 00:02:04.709 align:start position:0%
+shared memory doesn't need to distribute
+data<00:02:02.719><c> but</c><00:02:03.280><c> if</c><00:02:03.520><c> synchronization</c><00:02:04.240><c> is</c><00:02:04.320><c> needed</c>
+
+00:02:04.709 --> 00:02:04.719 align:start position:0%
+data but if synchronization is needed
+ 
+
+00:02:04.719 --> 00:02:07.030 align:start position:0%
+data but if synchronization is needed
+after<00:02:05.040><c> the</c><00:02:05.200><c> distribution</c><00:02:06.159><c> it</c><00:02:06.399><c> needs</c><00:02:06.640><c> to</c><00:02:06.799><c> add</c>
+
+00:02:07.030 --> 00:02:07.040 align:start position:0%
+after the distribution it needs to add
+ 
+
+00:02:07.040 --> 00:02:11.080 align:start position:0%
+after the distribution it needs to add
+explicit<00:02:07.520><c> code</c><00:02:07.759><c> to</c><00:02:07.920><c> do</c><00:02:08.080><c> that</c>
+

@@ -1,0 +1,20 @@
+1
+00:00:00,032 --> 00:00:02,474
+ So for this quiz, I want you to answer the question.
+
+2
+00:00:02,474 --> 00:00:05,710
+ What is the solution to this recurrence?
+
+3
+00:00:05,710 --> 00:00:07,080
+ Let's do it as multiple choice.
+
+4
+00:00:07,080 --> 00:00:08,710
+ So pick one of these.
+
+5
+00:00:08,710 --> 00:00:08,710
+ Is it constant time, log time, linear time, or (n (log n) time?
+

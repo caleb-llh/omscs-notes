@@ -1,0 +1,64 @@
+1
+00:00:00,460 --> 00:00:04,050
+ So what if you organized the reduction DAG as a tree?
+
+2
+00:00:04,050 --> 00:00:06,759
+ Now we need a specific technical assumption,
+
+3
+00:00:06,759 --> 00:00:08,710
+ which is called associativity.
+
+4
+00:00:08,710 --> 00:00:15,250
+ That is, assume that a + (b + c) = (a + b) + c.
+
+5
+00:00:15,250 --> 00:00:18,519
+ In other words, assume that you can put parenthesis wherever you want and
+
+6
+00:00:18,519 --> 00:00:21,030
+ you'll still get the same answer.
+
+7
+00:00:21,030 --> 00:00:24,970
+ Let's start by writing down the end loads, just as before.
+
+8
+00:00:24,970 --> 00:00:27,910
+ Then, let's add pairs of inputs.
+
+9
+00:00:27,910 --> 00:00:31,010
+ Then, let's add pairs of these intermediate results.
+
+10
+00:00:31,010 --> 00:00:33,368
+ And let's keep going until the final sum remains.
+
+11
+00:00:33,368 --> 00:00:38,741
+ Here's my question: if I give you a PRAM with P = n processors,
+
+12
+00:00:38,741 --> 00:00:45,170
+ what's the minimum time it could possibly take to execute this DAG?
+
+13
+00:00:45,170 --> 00:00:47,280
+ Let's do this as multiple choice.
+
+14
+00:00:47,280 --> 00:00:48,810
+ Here are your options.
+
+15
+00:00:48,810 --> 00:00:54,460
+ Constant time, log time, linear time, and log n time or n squared time.
+
+16
+00:00:54,460 --> 00:00:54,460
+ Choose one.
+

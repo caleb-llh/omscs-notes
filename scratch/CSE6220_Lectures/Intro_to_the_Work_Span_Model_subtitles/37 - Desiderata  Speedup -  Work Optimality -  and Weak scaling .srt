@@ -1,0 +1,364 @@
+1
+00:00:00,230 --> 00:00:01,220
+ Now, given a dag and
+
+2
+00:00:01,220 --> 00:00:06,640
+ a weight estimated execution time, how can I tell if the dag is good or bad?
+
+3
+00:00:06,640 --> 00:00:08,460
+ Let's derive an answer.
+
+4
+00:00:08,460 --> 00:00:11,780
+ First, we'll identify a metric of goodness, and
+
+5
+00:00:11,780 --> 00:00:14,160
+ then we will optimize the metric.
+
+6
+00:00:14,160 --> 00:00:16,595
+ Let's use speedup as our metric.
+
+7
+00:00:16,595 --> 00:00:19,450
+ Speedup is defined as the best sequential time divided by
+
+8
+00:00:19,450 --> 00:00:21,490
+ the parallel time.
+
+9
+00:00:21,490 --> 00:00:26,420
+ In terms of symbols, I'll use T* to denote the best sequential time, and
+
+10
+00:00:26,420 --> 00:00:31,410
+ of course we'll use Tp(n) to denote the parallel time, as before.
+
+11
+00:00:31,410 --> 00:00:35,380
+ Now, a quick comment about the numerator and the denominator of speedup.
+
+12
+00:00:35,380 --> 00:00:39,430
+ The denominator will, in general, depend on the work, the span, the problem size,
+
+13
+00:00:39,430 --> 00:00:41,760
+ and the number of processors.
+
+14
+00:00:41,760 --> 00:00:44,630
+ The numerator will depend essentially on the work
+
+15
+00:00:44,630 --> 00:00:47,400
+ done by the best sequential algorithm.
+
+16
+00:00:47,400 --> 00:00:51,100
+ So for notational consistency, since I'm using work in the case of the parallel
+
+17
+00:00:51,100 --> 00:00:55,860
+ algorithm, I'll use another work symbol for the sequential algorithm.
+
+18
+00:00:55,860 --> 00:00:59,170
+ The best sequential time will essentially always be equal to the best
+
+19
+00:00:59,170 --> 00:01:00,980
+ sequential work.
+
+20
+00:01:00,980 --> 00:01:04,959
+ Now, you might be wondering, why am I saying best sequential time?
+
+21
+00:01:04,959 --> 00:01:07,080
+ What's special about best?
+
+22
+00:01:07,080 --> 00:01:11,600
+ The answer, is I'm a good professor, and I want to make it hard to cheat!
+
+23
+00:01:11,600 --> 00:01:15,290
+ After all, you can always make speedup artificially large by choosing
+
+24
+00:01:15,290 --> 00:01:17,730
+ a terrible baseline.
+
+25
+00:01:17,730 --> 00:01:21,440
+ If any of you are into marketing, you know what I'm talking about.
+
+26
+00:01:21,440 --> 00:01:25,120
+ Now if I give you a PRAM with P processors then ideally,
+
+27
+00:01:25,120 --> 00:01:28,530
+ you'd like the parallel algorithm to be P times faster
+
+28
+00:01:28,530 --> 00:01:30,930
+ than the best sequential algorithm.
+
+29
+00:01:30,930 --> 00:01:33,760
+ This condition is called ideal speedup or
+
+30
+00:01:33,760 --> 00:01:38,250
+ sometimes linear speedup, linear scaling, or ideal scaling.
+
+31
+00:01:38,250 --> 00:01:43,530
+ But basically, they all say you want the speedup to be linear in p.
+
+32
+00:01:43,530 --> 00:01:46,380
+ Here I'm using big theta notation because you usually won't care about
+
+33
+00:01:46,380 --> 00:01:49,230
+ the constant factors, at least not at this pencil and
+
+34
+00:01:49,230 --> 00:01:51,870
+ paper algorithm design stage.
+
+35
+00:01:51,870 --> 00:01:52,420
+ Now essentially,
+
+36
+00:01:52,420 --> 00:01:57,170
+ what this says is if p doubles, then you want Sp to also double.
+
+37
+00:01:57,170 --> 00:02:00,587
+ Of course, that's an ideal, we might not always achieve it.
+
+38
+00:02:00,587 --> 00:02:05,410
+ Let's write speedup in terms of best sequential work and parallel time.
+
+39
+00:02:05,410 --> 00:02:08,930
+ Now, in the general case we can use Brent's Theorem to get an upper bound on
+
+40
+00:02:08,930 --> 00:02:12,530
+ time and therefore a lower bound on speedup.
+
+41
+00:02:12,530 --> 00:02:15,430
+ So let's go ahead and plug in Brent's Theorem.
+
+42
+00:02:15,430 --> 00:02:20,650
+ For notational ease, I've dropped this paren of n in the right hand side.
+
+43
+00:02:20,650 --> 00:02:23,730
+ Just remember that there's a dependence on n there.
+
+44
+00:02:23,730 --> 00:02:26,490
+ Let's do a little bit of algebra on the right hand side to get it into a form
+
+45
+00:02:26,490 --> 00:02:29,140
+ that we can analyze more easily.
+
+46
+00:02:29,140 --> 00:02:30,690
+ Okay, written in this form,
+
+47
+00:02:30,690 --> 00:02:36,180
+ you can now immediately see what has to be true in order to get ideal scaling.
+
+48
+00:02:36,180 --> 00:02:39,850
+ First notice the numerator, which has the number of processors in it.
+
+49
+00:02:39,850 --> 00:02:43,320
+ So relative to this goal, I will pay a penalty,
+
+50
+00:02:43,320 --> 00:02:45,650
+ which is determined by the denominator.
+
+51
+00:02:45,650 --> 00:02:48,570
+ In other words, if I want to get linear scaling,
+
+52
+00:02:48,570 --> 00:02:51,330
+ I need the denominator to be a constant.
+
+53
+00:02:51,330 --> 00:02:54,640
+ So what would it take for this to be true of the denominator?
+
+54
+00:02:54,640 --> 00:02:57,010
+ Let's look at each term in turn.
+
+55
+00:02:57,010 --> 00:03:01,400
+ For this term to be constant, the work of the parallel algorithm has to match
+
+56
+00:03:01,400 --> 00:03:04,140
+ the work of the best sequential algorithm.
+
+57
+00:03:04,140 --> 00:03:07,850
+ This principle is something we call work-optimality.
+
+58
+00:03:07,850 --> 00:03:11,970
+ It's a necessary condition to ensure ideal scaling.
+
+59
+00:03:11,970 --> 00:03:14,960
+ Intuitively, it prevents another form of cheating.
+
+60
+00:03:14,960 --> 00:03:18,990
+ It says that if you get a very parallel algorithm by dramatically increasing
+
+61
+00:03:18,990 --> 00:03:21,540
+ the work relative to the best sequential algorithm,
+
+62
+00:03:21,540 --> 00:03:24,150
+ then that's actually bad for speedup.
+
+63
+00:03:24,150 --> 00:03:26,760
+ Now let's look at the other term in the denominator.
+
+64
+00:03:26,760 --> 00:03:28,290
+ For this term to be constant,
+
+65
+00:03:28,290 --> 00:03:33,650
+ it essentially says that p should be proportional to W* over D.
+
+66
+00:03:33,650 --> 00:03:37,490
+ So this is similar to the idea of the average available parallelism.
+
+67
+00:03:37,490 --> 00:03:41,530
+ And the main difference is that you have a W* here instead of just W.
+
+68
+00:03:41,530 --> 00:03:44,340
+ Now there's another way to write this.
+
+69
+00:03:44,340 --> 00:03:48,020
+ This other way to write it is to say that W* divided by P has to be
+
+70
+00:03:48,020 --> 00:03:49,070
+ big omega(D).
+
+71
+00:03:49,070 --> 00:03:52,125
+ Let's think about this for a second.
+
+72
+00:03:52,125 --> 00:03:56,420
+ W* over P is basically the work per processor.
+
+73
+00:03:56,420 --> 00:04:00,580
+ This expression says that the work per processor has to grow, and
+
+74
+00:04:00,580 --> 00:04:04,200
+ in particular it has to grow proportional to the span.
+
+75
+00:04:04,200 --> 00:04:07,760
+ And the span, remember, depends on the problem size, n.
+
+76
+00:04:07,760 --> 00:04:08,350
+ So in other words,
+
+77
+00:04:08,350 --> 00:04:12,780
+ this says that the work per processor has to grow as some function of n.
+
+78
+00:04:12,780 --> 00:04:16,970
+ In the parallel computing literature, this is called weak scalability.
+
+79
+00:04:16,970 --> 00:04:21,519
+ So basically what it says is as you increase the concurrency of the machine,
+
+80
+00:04:21,519 --> 00:04:23,420
+ then if you want to get good scaling,
+
+81
+00:04:23,420 --> 00:04:25,895
+ you might need to increase the problem size.
+
+82
+00:04:25,895 --> 00:04:27,515
+ Okay, that was a little messy.
+
+83
+00:04:27,515 --> 00:04:31,780
+ Let's try to recap the algorithm design goals you just derived.
+
+84
+00:04:31,780 --> 00:04:35,980
+ So starting form speedup we set linear scaling as our goal.
+
+85
+00:04:35,980 --> 00:04:38,210
+ Now, to achieve linear scaling,
+
+86
+00:04:38,210 --> 00:04:42,950
+ you derived two fundamental principles of good parallel algorithm design.
+
+87
+00:04:42,950 --> 00:04:46,890
+ The first is work-optimality, which says that the work of the parallel algorithm
+
+88
+00:04:46,890 --> 00:04:50,520
+ should match the work of the best sequential algorithm.
+
+89
+00:04:50,520 --> 00:04:53,560
+ And the second principle is weak-scalability.
+
+90
+00:04:53,560 --> 00:04:57,130
+ In one interpretation, it basically says that the work per processor should
+
+91
+00:04:57,130 --> 00:04:57,130
+ grow as a function of n, and that function is determined by the span
+

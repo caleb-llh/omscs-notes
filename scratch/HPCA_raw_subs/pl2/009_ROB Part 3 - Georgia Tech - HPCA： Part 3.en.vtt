@@ -1,0 +1,688 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:03.309 align:start position:0%
+ 
+eventually<00:00:01.020><c> our</c><00:00:01.500><c> ad</c><00:00:01.709><c> produces</c><00:00:02.429><c> a</c><00:00:02.460><c> result</c><00:00:02.939><c> and</c>
+
+00:00:03.309 --> 00:00:03.319 align:start position:0%
+eventually our ad produces a result and
+ 
+
+00:00:03.319 --> 00:00:05.869 align:start position:0%
+eventually our ad produces a result and
+when<00:00:04.319><c> that</c><00:00:04.529><c> happens</c><00:00:05.009><c> we</c><00:00:05.130><c> will</c><00:00:05.160><c> broadcast</c><00:00:05.520><c> it</c>
+
+00:00:05.869 --> 00:00:05.879 align:start position:0%
+when that happens we will broadcast it
+ 
+
+00:00:05.879 --> 00:00:08.059 align:start position:0%
+when that happens we will broadcast it
+the<00:00:06.690><c> broadcast</c><00:00:07.259><c> of</c><00:00:07.379><c> the</c><00:00:07.529><c> result</c><00:00:07.859><c> happens</c>
+
+00:00:08.059 --> 00:00:08.069 align:start position:0%
+the broadcast of the result happens
+ 
+
+00:00:08.069 --> 00:00:10.730 align:start position:0%
+the broadcast of the result happens
+exactly<00:00:08.400><c> as</c><00:00:09.120><c> before</c><00:00:09.150><c> intimacies</c><00:00:10.019><c> algorithm</c>
+
+00:00:10.730 --> 00:00:10.740 align:start position:0%
+exactly as before intimacies algorithm
+ 
+
+00:00:10.740 --> 00:00:12.919 align:start position:0%
+exactly as before intimacies algorithm
+except<00:00:11.370><c> that</c><00:00:11.519><c> the</c><00:00:11.670><c> tag</c><00:00:11.969><c> we</c><00:00:12.269><c> carry</c><00:00:12.570><c> for</c><00:00:12.900><c> the</c>
+
+00:00:12.919 --> 00:00:12.929 align:start position:0%
+except that the tag we carry for the
+ 
+
+00:00:12.929 --> 00:00:15.890 align:start position:0%
+except that the tag we carry for the
+result<00:00:13.650><c> is</c><00:00:13.889><c> the</c><00:00:14.519><c> Rob</c><00:00:14.759><c> entry</c><00:00:15.000><c> not</c><00:00:15.719><c> the</c>
+
+00:00:15.890 --> 00:00:15.900 align:start position:0%
+result is the Rob entry not the
+ 
+
+00:00:15.900 --> 00:00:17.779 align:start position:0%
+result is the Rob entry not the
+reservation<00:00:16.379><c> station</c><00:00:16.800><c> number</c><00:00:17.100><c> because</c><00:00:17.670><c> we</c>
+
+00:00:17.779 --> 00:00:17.789 align:start position:0%
+reservation station number because we
+ 
+
+00:00:17.789 --> 00:00:19.040 align:start position:0%
+reservation station number because we
+have<00:00:17.910><c> already</c><00:00:18.060><c> freed</c><00:00:18.449><c> the</c><00:00:18.600><c> reservation</c>
+
+00:00:19.040 --> 00:00:19.050 align:start position:0%
+have already freed the reservation
+ 
+
+00:00:19.050 --> 00:00:21.529 align:start position:0%
+have already freed the reservation
+station<00:00:19.580><c> so</c><00:00:20.580><c> what</c><00:00:20.789><c> we</c><00:00:20.939><c> do</c><00:00:21.090><c> is</c><00:00:21.270><c> we</c><00:00:21.420><c> now</c>
+
+00:00:21.529 --> 00:00:21.539 align:start position:0%
+station so what we do is we now
+ 
+
+00:00:21.539 --> 00:00:24.679 align:start position:0%
+station so what we do is we now
+broadcast<00:00:22.230><c> the</c><00:00:23.189><c> tag</c><00:00:23.460><c> of</c><00:00:23.670><c> Rob</c><00:00:23.939><c> 6</c><00:00:24.269><c> with</c><00:00:24.660><c> the</c>
+
+00:00:24.679 --> 00:00:24.689 align:start position:0%
+broadcast the tag of Rob 6 with the
+ 
+
+00:00:24.689 --> 00:00:26.450 align:start position:0%
+broadcast the tag of Rob 6 with the
+value<00:00:25.230><c> let's</c><00:00:25.529><c> say</c><00:00:25.740><c> 15</c>
+
+00:00:26.450 --> 00:00:26.460 align:start position:0%
+value let's say 15
+ 
+
+00:00:26.460 --> 00:00:29.720 align:start position:0%
+value let's say 15
+just<00:00:27.330><c> like</c><00:00:27.630><c> with</c><00:00:28.260><c> tomasulo's</c><00:00:28.830><c> algorithm</c><00:00:29.130><c> this</c>
+
+00:00:29.720 --> 00:00:29.730 align:start position:0%
+just like with tomasulo's algorithm this
+ 
+
+00:00:29.730 --> 00:00:33.500 align:start position:0%
+just like with tomasulo's algorithm this
+value<00:00:30.330><c> and</c><00:00:30.570><c> the</c><00:00:31.320><c> tag</c><00:00:31.590><c> are</c><00:00:31.859><c> now</c><00:00:32.149><c> given</c><00:00:33.149><c> to</c><00:00:33.360><c> the</c>
+
+00:00:33.500 --> 00:00:33.510 align:start position:0%
+value and the tag are now given to the
+ 
+
+00:00:33.510 --> 00:00:36.170 align:start position:0%
+value and the tag are now given to the
+reservation<00:00:34.110><c> stations</c><00:00:34.649><c> and</c><00:00:34.920><c> they</c><00:00:35.790><c> normally</c>
+
+00:00:36.170 --> 00:00:36.180 align:start position:0%
+reservation stations and they normally
+ 
+
+00:00:36.180 --> 00:00:38.660 align:start position:0%
+reservation stations and they normally
+captured<00:00:37.050><c> the</c><00:00:37.170><c> result</c><00:00:37.500><c> based</c><00:00:37.829><c> on</c><00:00:38.040><c> the</c><00:00:38.160><c> tag</c><00:00:38.399><c> as</c>
+
+00:00:38.660 --> 00:00:38.670 align:start position:0%
+captured the result based on the tag as
+ 
+
+00:00:38.670 --> 00:00:41.090 align:start position:0%
+captured the result based on the tag as
+before<00:00:39.180><c> this</c><00:00:39.899><c> result</c><00:00:40.320><c> is</c><00:00:40.440><c> not</c><00:00:40.559><c> broadcast</c><00:00:41.010><c> to</c>
+
+00:00:41.090 --> 00:00:41.100 align:start position:0%
+before this result is not broadcast to
+ 
+
+00:00:41.100 --> 00:00:43.010 align:start position:0%
+before this result is not broadcast to
+the<00:00:41.190><c> reservation</c><00:00:41.670><c> stations</c><00:00:42.180><c> and</c><00:00:42.780><c> they</c>
+
+00:00:43.010 --> 00:00:43.020 align:start position:0%
+the reservation stations and they
+ 
+
+00:00:43.020 --> 00:00:45.410 align:start position:0%
+the reservation stations and they
+capture<00:00:43.559><c> this</c><00:00:44.040><c> result</c><00:00:44.489><c> even</c><00:00:44.850><c> if</c><00:00:45.030><c> they</c><00:00:45.210><c> need</c><00:00:45.390><c> it</c>
+
+00:00:45.410 --> 00:00:45.420 align:start position:0%
+capture this result even if they need it
+ 
+
+00:00:45.420 --> 00:00:48.319 align:start position:0%
+capture this result even if they need it
+and<00:00:45.719><c> those</c><00:00:46.620><c> that</c><00:00:46.649><c> need</c><00:00:47.129><c> the</c><00:00:47.789><c> result</c><00:00:48.090><c> of</c><00:00:48.210><c> this</c>
+
+00:00:48.319 --> 00:00:48.329 align:start position:0%
+and those that need the result of this
+ 
+
+00:00:48.329 --> 00:00:50.330 align:start position:0%
+and those that need the result of this
+instruction<00:00:48.899><c> will</c><00:00:49.079><c> capture</c><00:00:49.379><c> the</c><00:00:49.649><c> value</c><00:00:49.800><c> 15</c>
+
+00:00:50.330 --> 00:00:50.340 align:start position:0%
+instruction will capture the value 15
+ 
+
+00:00:50.340 --> 00:00:53.029 align:start position:0%
+instruction will capture the value 15
+just<00:00:50.730><c> like</c><00:00:51.059><c> we</c><00:00:51.719><c> did</c><00:00:51.930><c> in</c><00:00:52.199><c> tomasulo's</c><00:00:52.739><c> algorithm</c>
+
+00:00:53.029 --> 00:00:53.039 align:start position:0%
+just like we did in tomasulo's algorithm
+ 
+
+00:00:53.039 --> 00:00:56.319 align:start position:0%
+just like we did in tomasulo's algorithm
+so<00:00:53.399><c> this</c><00:00:53.579><c> is</c><00:00:53.760><c> not</c><00:00:53.940><c> changed</c><00:00:54.420><c> without</c><00:00:55.379><c> the</c><00:00:55.920><c> Rob</c>
+
+00:00:56.319 --> 00:00:56.329 align:start position:0%
+so this is not changed without the Rob
+ 
+
+00:00:56.329 --> 00:01:00.200 align:start position:0%
+so this is not changed without the Rob
+we<00:00:57.329><c> would</c><00:00:57.539><c> now</c><00:00:57.750><c> also</c><00:00:58.590><c> capture</c><00:00:59.190><c> this</c><00:00:59.340><c> result</c><00:00:59.879><c> in</c>
+
+00:01:00.200 --> 00:01:00.210 align:start position:0%
+we would now also capture this result in
+ 
+
+00:01:00.210 --> 00:01:03.349 align:start position:0%
+we would now also capture this result in
+the<00:01:00.719><c> register</c><00:01:01.410><c> and</c><00:01:01.590><c> update</c><00:01:02.550><c> the</c><00:01:02.969><c> right</c><00:01:03.149><c> to</c>
+
+00:01:03.349 --> 00:01:03.359 align:start position:0%
+the register and update the right to
+ 
+
+00:01:03.359 --> 00:01:06.590 align:start position:0%
+the register and update the right to
+point<00:01:03.600><c> to</c><00:01:03.840><c> that</c><00:01:03.989><c> register</c><00:01:04.670><c> with</c><00:01:05.670><c> the</c><00:01:05.850><c> Rob</c><00:01:06.060><c> we</c>
+
+00:01:06.590 --> 00:01:06.600 align:start position:0%
+point to that register with the Rob we
+ 
+
+00:01:06.600 --> 00:01:08.710 align:start position:0%
+point to that register with the Rob we
+don't<00:01:06.930><c> want</c><00:01:07.260><c> to</c><00:01:07.380><c> write</c><00:01:07.560><c> to</c><00:01:07.770><c> the</c><00:01:07.890><c> register</c><00:01:08.010><c> yet</c>
+
+00:01:08.710 --> 00:01:08.720 align:start position:0%
+don't want to write to the register yet
+ 
+
+00:01:08.720 --> 00:01:12.800 align:start position:0%
+don't want to write to the register yet
+so<00:01:09.720><c> we</c><00:01:09.869><c> write</c><00:01:10.140><c> to</c><00:01:10.409><c> the</c><00:01:10.560><c> Rob</c><00:01:10.799><c> instead</c><00:01:11.540><c> so</c><00:01:12.540><c> this</c>
+
+00:01:12.800 --> 00:01:12.810 align:start position:0%
+so we write to the Rob instead so this
+ 
+
+00:01:12.810 --> 00:01:15.080 align:start position:0%
+so we write to the Rob instead so this
+broadcast<00:01:13.350><c> value</c><00:01:13.680><c> now</c><00:01:13.830><c> goes</c><00:01:14.130><c> to</c><00:01:14.159><c> the</c><00:01:14.549><c> Rob</c><00:01:14.760><c> and</c>
+
+00:01:15.080 --> 00:01:15.090 align:start position:0%
+broadcast value now goes to the Rob and
+ 
+
+00:01:15.090 --> 00:01:18.859 align:start position:0%
+broadcast value now goes to the Rob and
+we<00:01:16.080><c> write</c><00:01:16.290><c> 15</c><00:01:16.920><c> here</c><00:01:17.460><c> and</c><00:01:17.720><c> mark</c><00:01:18.720><c> the</c>
+
+00:01:18.859 --> 00:01:18.869 align:start position:0%
+we write 15 here and mark the
+ 
+
+00:01:18.869 --> 00:01:22.190 align:start position:0%
+we write 15 here and mark the
+instruction<00:01:19.350><c> is</c><00:01:19.500><c> done</c><00:01:19.710><c> also</c><00:01:20.659><c> the</c><00:01:21.659><c> result</c><00:01:22.049><c> of</c>
+
+00:01:22.190 --> 00:01:22.200 align:start position:0%
+instruction is done also the result of
+ 
+
+00:01:22.200 --> 00:01:24.770 align:start position:0%
+instruction is done also the result of
+the<00:01:22.320><c> instruction</c><00:01:22.470><c> is</c><00:01:23.040><c> not</c><00:01:23.640><c> going</c><00:01:24.390><c> to</c><00:01:24.570><c> be</c><00:01:24.689><c> in</c>
+
+00:01:24.770 --> 00:01:24.780 align:start position:0%
+the instruction is not going to be in
+ 
+
+00:01:24.780 --> 00:01:26.960 align:start position:0%
+the instruction is not going to be in
+the<00:01:24.869><c> registers</c><00:01:25.350><c> so</c><00:01:25.590><c> we</c><00:01:25.710><c> do</c><00:01:25.920><c> not</c><00:01:26.159><c> update</c><00:01:26.580><c> the</c>
+
+00:01:26.960 --> 00:01:26.970 align:start position:0%
+the registers so we do not update the
+ 
+
+00:01:26.970 --> 00:01:29.330 align:start position:0%
+the registers so we do not update the
+rat<00:01:27.150><c> to</c><00:01:27.780><c> point</c><00:01:28.080><c> to</c><00:01:28.229><c> the</c><00:01:28.350><c> registers</c><00:01:28.799><c> in</c><00:01:29.009><c> fact</c>
+
+00:01:29.330 --> 00:01:29.340 align:start position:0%
+rat to point to the registers in fact
+ 
+
+00:01:29.340 --> 00:01:31.370 align:start position:0%
+rat to point to the registers in fact
+the<00:01:29.610><c> rat</c><00:01:29.820><c> is</c><00:01:30.060><c> still</c><00:01:30.329><c> pointing</c><00:01:30.780><c> to</c><00:01:30.900><c> the</c><00:01:31.020><c> correct</c>
+
+00:01:31.370 --> 00:01:31.380 align:start position:0%
+the rat is still pointing to the correct
+ 
+
+00:01:31.380 --> 00:01:33.800 align:start position:0%
+the rat is still pointing to the correct
+place<00:01:31.560><c> the</c><00:01:32.400><c> result</c><00:01:32.850><c> of</c><00:01:33.060><c> the</c><00:01:33.180><c> instruction</c><00:01:33.659><c> is</c>
+
+00:01:33.800 --> 00:01:33.810 align:start position:0%
+place the result of the instruction is
+ 
+
+00:01:33.810 --> 00:01:38.539 align:start position:0%
+place the result of the instruction is
+in<00:01:34.259><c> the</c><00:01:34.470><c> Rob</c><00:01:34.680><c> now</c><00:01:36.380><c> so</c><00:01:37.380><c> we</c><00:01:37.530><c> don't</c><00:01:37.740><c> do</c><00:01:37.979><c> this</c><00:01:38.159><c> here</c>
+
+00:01:38.539 --> 00:01:38.549 align:start position:0%
+in the Rob now so we don't do this here
+ 
+
+00:01:38.549 --> 00:01:41.149 align:start position:0%
+in the Rob now so we don't do this here
+after<00:01:39.299><c> broadcasting</c><00:01:39.900><c> its</c><00:01:40.110><c> result</c><00:01:40.530><c> the</c>
+
+00:01:41.149 --> 00:01:41.159 align:start position:0%
+after broadcasting its result the
+ 
+
+00:01:41.159 --> 00:01:42.920 align:start position:0%
+after broadcasting its result the
+instruction<00:01:41.729><c> would</c><00:01:41.880><c> be</c><00:01:42.000><c> completed</c><00:01:42.450><c> in</c>
+
+00:01:42.920 --> 00:01:42.930 align:start position:0%
+instruction would be completed in
+ 
+
+00:01:42.930 --> 00:01:46.399 align:start position:0%
+instruction would be completed in
+tomasulo's<00:01:43.560><c> algorithm</c><00:01:43.829><c> with</c><00:01:44.759><c> the</c><00:01:44.909><c> Rob</c><00:01:45.320><c> we</c><00:01:46.320><c> are</c>
+
+00:01:46.399 --> 00:01:46.409 align:start position:0%
+tomasulo's algorithm with the Rob we are
+ 
+
+00:01:46.409 --> 00:01:48.770 align:start position:0%
+tomasulo's algorithm with the Rob we are
+still<00:01:46.649><c> not</c><00:01:46.680><c> done</c><00:01:46.890><c> with</c><00:01:47.130><c> it</c><00:01:47.399><c> yes</c><00:01:48.030><c> we</c><00:01:48.600><c> have</c>
+
+00:01:48.770 --> 00:01:48.780 align:start position:0%
+still not done with it yes we have
+ 
+
+00:01:48.780 --> 00:01:50.450 align:start position:0%
+still not done with it yes we have
+computed<00:01:49.229><c> the</c><00:01:49.350><c> result</c><00:01:49.680><c> and</c><00:01:49.890><c> mark</c><00:01:50.250><c> the</c>
+
+00:01:50.450 --> 00:01:50.460 align:start position:0%
+computed the result and mark the
+ 
+
+00:01:50.460 --> 00:01:52.999 align:start position:0%
+computed the result and mark the
+computation<00:01:50.820><c> is</c><00:01:51.299><c> done</c><00:01:51.380><c> but</c><00:01:52.380><c> we</c><00:01:52.590><c> have</c><00:01:52.799><c> not</c>
+
+00:01:52.999 --> 00:01:53.009 align:start position:0%
+computation is done but we have not
+ 
+
+00:01:53.009 --> 00:01:55.510 align:start position:0%
+computation is done but we have not
+deposited<00:01:53.790><c> this</c><00:01:53.939><c> result</c><00:01:54.479><c> in</c><00:01:54.720><c> the</c><00:01:54.899><c> registers</c>
+
+00:01:55.510 --> 00:01:55.520 align:start position:0%
+deposited this result in the registers
+ 
+
+00:01:55.520 --> 00:01:58.429 align:start position:0%
+deposited this result in the registers
+for<00:01:56.520><c> that</c><00:01:56.790><c> there</c><00:01:57.180><c> is</c><00:01:57.299><c> an</c><00:01:57.420><c> additional</c><00:01:58.170><c> step</c>
+
+00:01:58.429 --> 00:01:58.439 align:start position:0%
+for that there is an additional step
+ 
+
+00:01:58.439 --> 00:02:00.859 align:start position:0%
+for that there is an additional step
+called<00:01:59.189><c> commit</c><00:01:59.670><c> to</c><00:02:00.240><c> commit</c><00:02:00.630><c> this</c><00:02:00.810><c> instruction</c>
+
+00:02:00.859 --> 00:02:00.869 align:start position:0%
+called commit to commit this instruction
+ 
+
+00:02:00.869 --> 00:02:03.679 align:start position:0%
+called commit to commit this instruction
+we<00:02:01.680><c> must</c><00:02:01.890><c> first</c><00:02:02.219><c> commit</c><00:02:02.729><c> all</c><00:02:02.969><c> of</c><00:02:03.210><c> the</c><00:02:03.329><c> previous</c>
+
+00:02:03.679 --> 00:02:03.689 align:start position:0%
+we must first commit all of the previous
+ 
+
+00:02:03.689 --> 00:02:06.649 align:start position:0%
+we must first commit all of the previous
+instructions<00:02:04.320><c> so</c><00:02:05.100><c> each</c><00:02:05.310><c> cycle</c><00:02:05.640><c> we</c><00:02:06.329><c> test</c>
+
+00:02:06.649 --> 00:02:06.659 align:start position:0%
+instructions so each cycle we test
+ 
+
+00:02:06.659 --> 00:02:08.389 align:start position:0%
+instructions so each cycle we test
+whether<00:02:06.960><c> the</c><00:02:07.290><c> next</c><00:02:07.710><c> instruction</c><00:02:08.190><c> at</c><00:02:08.310><c> the</c>
+
+00:02:08.389 --> 00:02:08.399 align:start position:0%
+whether the next instruction at the
+ 
+
+00:02:08.399 --> 00:02:11.029 align:start position:0%
+whether the next instruction at the
+commit<00:02:08.789><c> point</c><00:02:09.030><c> is</c><00:02:09.390><c> done</c><00:02:09.899><c> in</c><00:02:10.379><c> which</c><00:02:10.590><c> case</c><00:02:10.830><c> the</c>
+
+00:02:11.029 --> 00:02:11.039 align:start position:0%
+commit point is done in which case the
+ 
+
+00:02:11.039 --> 00:02:13.300 align:start position:0%
+commit point is done in which case the
+commit<00:02:11.310><c> point</c><00:02:11.550><c> can</c><00:02:12.150><c> move</c><00:02:12.360><c> on</c><00:02:12.569><c> and</c><00:02:12.900><c> commit</c>
+
+00:02:13.300 --> 00:02:13.310 align:start position:0%
+commit point can move on and commit
+ 
+
+00:02:13.310 --> 00:02:16.960 align:start position:0%
+commit point can move on and commit
+instruction<00:02:14.110><c> so</c><00:02:15.110><c> eventually</c><00:02:15.580><c> the</c><00:02:16.580><c> commit</c>
+
+00:02:16.960 --> 00:02:16.970 align:start position:0%
+instruction so eventually the commit
+ 
+
+00:02:16.970 --> 00:02:19.690 align:start position:0%
+instruction so eventually the commit
+point<00:02:17.180><c> will</c><00:02:17.480><c> reach</c><00:02:17.630><c> here</c><00:02:18.080><c> and</c><00:02:18.200><c> now</c><00:02:18.580><c> we</c><00:02:19.580><c> will</c>
+
+00:02:19.690 --> 00:02:19.700 align:start position:0%
+point will reach here and now we will
+ 
+
+00:02:19.700 --> 00:02:21.490 align:start position:0%
+point will reach here and now we will
+test<00:02:20.030><c> whether</c><00:02:20.300><c> this</c><00:02:20.630><c> instruction</c><00:02:21.230><c> is</c><00:02:21.319><c> done</c>
+
+00:02:21.490 --> 00:02:21.500 align:start position:0%
+test whether this instruction is done
+ 
+
+00:02:21.500 --> 00:02:23.500 align:start position:0%
+test whether this instruction is done
+find<00:02:21.920><c> out</c><00:02:22.130><c> that</c><00:02:22.280><c> it's</c><00:02:22.489><c> done</c><00:02:22.670><c> and</c><00:02:22.940><c> committed</c>
+
+00:02:23.500 --> 00:02:23.510 align:start position:0%
+find out that it's done and committed
+ 
+
+00:02:23.510 --> 00:02:25.780 align:start position:0%
+find out that it's done and committed
+the<00:02:23.890><c> committing</c><00:02:24.890><c> of</c><00:02:25.040><c> the</c><00:02:25.190><c> instruction</c>
+
+00:02:25.780 --> 00:02:25.790 align:start position:0%
+the committing of the instruction
+ 
+
+00:02:25.790 --> 00:02:28.630 align:start position:0%
+the committing of the instruction
+consists<00:02:26.690><c> of</c><00:02:26.780><c> actually</c><00:02:27.380><c> taking</c><00:02:27.950><c> this</c><00:02:28.099><c> value</c>
+
+00:02:28.630 --> 00:02:28.640 align:start position:0%
+consists of actually taking this value
+ 
+
+00:02:28.640 --> 00:02:31.839 align:start position:0%
+consists of actually taking this value
+15<00:02:29.209><c> and</c><00:02:29.510><c> writing</c><00:02:30.470><c> it</c><00:02:30.650><c> to</c><00:02:30.800><c> the</c><00:02:30.830><c> register</c><00:02:30.980><c> that</c>
+
+00:02:31.839 --> 00:02:31.849 align:start position:0%
+15 and writing it to the register that
+ 
+
+00:02:31.849 --> 00:02:33.280 align:start position:0%
+15 and writing it to the register that
+the<00:02:31.970><c> instruction</c><00:02:32.360><c> is</c><00:02:32.450><c> supposed</c><00:02:32.810><c> to</c><00:02:32.900><c> write</c><00:02:33.110><c> to</c>
+
+00:02:33.280 --> 00:02:33.290 align:start position:0%
+the instruction is supposed to write to
+ 
+
+00:02:33.290 --> 00:02:36.759 align:start position:0%
+the instruction is supposed to write to
+in<00:02:33.530><c> this</c><00:02:33.739><c> case</c><00:02:33.950><c> r1</c><00:02:34.489><c> so</c><00:02:35.420><c> 15</c><00:02:36.140><c> will</c><00:02:36.470><c> be</c><00:02:36.620><c> written</c>
+
+00:02:36.759 --> 00:02:36.769 align:start position:0%
+in this case r1 so 15 will be written
+ 
+
+00:02:36.769 --> 00:02:40.420 align:start position:0%
+in this case r1 so 15 will be written
+here<00:02:37.190><c> and</c><00:02:37.599><c> also</c><00:02:38.599><c> we</c><00:02:39.500><c> need</c><00:02:39.680><c> to</c><00:02:39.800><c> update</c><00:02:39.950><c> the</c><00:02:40.250><c> rat</c>
+
+00:02:40.420 --> 00:02:40.430 align:start position:0%
+here and also we need to update the rat
+ 
+
+00:02:40.430 --> 00:02:42.550 align:start position:0%
+here and also we need to update the rat
+because<00:02:40.880><c> it's</c><00:02:41.060><c> pointing</c><00:02:41.510><c> to</c><00:02:41.630><c> the</c><00:02:41.780><c> entry</c><00:02:42.050><c> rob6</c>
+
+00:02:42.550 --> 00:02:42.560 align:start position:0%
+because it's pointing to the entry rob6
+ 
+
+00:02:42.560 --> 00:02:44.979 align:start position:0%
+because it's pointing to the entry rob6
+that<00:02:43.010><c> entry</c><00:02:43.400><c> will</c><00:02:43.550><c> be</c><00:02:43.670><c> freed</c><00:02:44.030><c> after</c><00:02:44.390><c> we</c><00:02:44.690><c> commit</c>
+
+00:02:44.979 --> 00:02:44.989 align:start position:0%
+that entry will be freed after we commit
+ 
+
+00:02:44.989 --> 00:02:47.170 align:start position:0%
+that entry will be freed after we commit
+this<00:02:45.110><c> instruction</c><00:02:45.220><c> so</c><00:02:46.220><c> instead</c><00:02:46.580><c> of</c><00:02:46.640><c> pointing</c>
+
+00:02:47.170 --> 00:02:47.180 align:start position:0%
+this instruction so instead of pointing
+ 
+
+00:02:47.180 --> 00:02:51.670 align:start position:0%
+this instruction so instead of pointing
+to<00:02:47.239><c> rob6</c><00:02:47.840><c> now</c><00:02:48.500><c> we</c><00:02:49.190><c> can</c><00:02:49.400><c> point</c><00:02:49.610><c> to</c><00:02:49.760><c> r1</c><00:02:50.380><c> so</c><00:02:51.380><c> really</c>
+
+00:02:51.670 --> 00:02:51.680 align:start position:0%
+to rob6 now we can point to r1 so really
+ 
+
+00:02:51.680 --> 00:02:54.190 align:start position:0%
+to rob6 now we can point to r1 so really
+the<00:02:51.799><c> updating</c><00:02:52.370><c> of</c><00:02:52.519><c> the</c><00:02:52.549><c> rat</c><00:02:52.850><c> for</c><00:02:53.239><c> writing</c><00:02:54.080><c> to</c>
+
+00:02:54.190 --> 00:02:54.200 align:start position:0%
+the updating of the rat for writing to
+ 
+
+00:02:54.200 --> 00:02:55.930 align:start position:0%
+the updating of the rat for writing to
+the<00:02:54.350><c> register</c><00:02:54.830><c> has</c><00:02:55.220><c> moved</c><00:02:55.549><c> from</c><00:02:55.850><c> the</c>
+
+00:02:55.930 --> 00:02:55.940 align:start position:0%
+the register has moved from the
+ 
+
+00:02:55.940 --> 00:02:57.580 align:start position:0%
+the register has moved from the
+broadcast<00:02:56.510><c> time</c><00:02:56.720><c> to</c><00:02:56.930><c> the</c><00:02:57.049><c> commit</c><00:02:57.410><c> time</c>
+
+00:02:57.580 --> 00:02:57.590 align:start position:0%
+broadcast time to the commit time
+ 
+
+00:02:57.590 --> 00:02:58.990 align:start position:0%
+broadcast time to the commit time
+because<00:02:58.040><c> that's</c><00:02:58.280><c> when</c><00:02:58.640><c> we</c><00:02:58.760><c> are</c><00:02:58.790><c> actually</c>
+
+00:02:58.990 --> 00:02:59.000 align:start position:0%
+because that's when we are actually
+ 
+
+00:02:59.000 --> 00:03:01.870 align:start position:0%
+because that's when we are actually
+updating<00:02:59.569><c> the</c><00:02:59.690><c> registers</c><00:03:00.140><c> and</c><00:03:00.880><c> after</c>
+
+00:03:01.870 --> 00:03:01.880 align:start position:0%
+updating the registers and after
+ 
+
+00:03:01.880 --> 00:03:03.580 align:start position:0%
+updating the registers and after
+committing<00:03:02.209><c> this</c><00:03:02.480><c> instruction</c><00:03:03.080><c> the</c><00:03:03.290><c> commit</c>
+
+00:03:03.580 --> 00:03:03.590 align:start position:0%
+committing this instruction the commit
+ 
+
+00:03:03.590 --> 00:03:06.070 align:start position:0%
+committing this instruction the commit
+point<00:03:03.830><c> will</c><00:03:04.160><c> move</c><00:03:04.340><c> even</c><00:03:05.269><c> further</c><00:03:05.480><c> so</c><00:03:05.840><c> that</c><00:03:05.870><c> the</c>
+
+00:03:06.070 --> 00:03:06.080 align:start position:0%
+point will move even further so that the
+ 
+
+00:03:06.080 --> 00:03:07.539 align:start position:0%
+point will move even further so that the
+next<00:03:06.290><c> instruction</c><00:03:06.349><c> to</c><00:03:06.739><c> commit</c><00:03:06.980><c> will</c><00:03:07.130><c> be</c><00:03:07.250><c> here</c>
+
+00:03:07.539 --> 00:03:07.549 align:start position:0%
+next instruction to commit will be here
+ 
+
+00:03:07.549 --> 00:03:11.170 align:start position:0%
+next instruction to commit will be here
+and<00:03:08.140><c> that</c><00:03:09.140><c> completes</c><00:03:09.799><c> our</c><00:03:10.099><c> reorder</c><00:03:10.849><c> buffer</c>
+
+00:03:11.170 --> 00:03:11.180 align:start position:0%
+and that completes our reorder buffer
+ 
+
+00:03:11.180 --> 00:03:13.120 align:start position:0%
+and that completes our reorder buffer
+process<00:03:11.599><c> or</c><00:03:11.720><c> step</c><00:03:12.019><c> by</c><00:03:12.170><c> step</c><00:03:12.470><c> for</c><00:03:12.920><c> one</c>
+
+00:03:13.120 --> 00:03:13.130 align:start position:0%
+process or step by step for one
+ 
+
+00:03:13.130 --> 00:03:15.190 align:start position:0%
+process or step by step for one
+instruction<00:03:13.700><c> as</c><00:03:13.880><c> you</c><00:03:14.090><c> can</c><00:03:14.269><c> see</c><00:03:14.480><c> many</c><00:03:14.840><c> of</c><00:03:15.080><c> the</c>
+
+00:03:15.190 --> 00:03:15.200 align:start position:0%
+instruction as you can see many of the
+ 
+
+00:03:15.200 --> 00:03:17.590 align:start position:0%
+instruction as you can see many of the
+things<00:03:15.410><c> are</c><00:03:15.769><c> happening</c><00:03:16.069><c> exactly</c><00:03:16.670><c> the</c><00:03:17.150><c> same</c><00:03:17.359><c> as</c>
+
+00:03:17.590 --> 00:03:17.600 align:start position:0%
+things are happening exactly the same as
+ 
+
+00:03:17.600 --> 00:03:19.900 align:start position:0%
+things are happening exactly the same as
+in<00:03:17.780><c> tomasulo's</c><00:03:18.230><c> algorithm</c><00:03:18.609><c> some</c><00:03:19.609><c> of</c><00:03:19.790><c> the</c>
+
+00:03:19.900 --> 00:03:19.910 align:start position:0%
+in tomasulo's algorithm some of the
+ 
+
+00:03:19.910 --> 00:03:22.060 align:start position:0%
+in tomasulo's algorithm some of the
+things<00:03:20.150><c> have</c><00:03:20.420><c> changed</c><00:03:20.959><c> like</c><00:03:21.320><c> pointing</c><00:03:21.920><c> the</c>
+
+00:03:22.060 --> 00:03:22.070 align:start position:0%
+things have changed like pointing the
+ 
+
+00:03:22.070 --> 00:03:23.560 align:start position:0%
+things have changed like pointing the
+right<00:03:22.250><c> to</c><00:03:22.370><c> the</c><00:03:22.489><c> Rob</c><00:03:22.730><c> and</c><00:03:23.030><c> instead</c><00:03:23.359><c> of</c><00:03:23.480><c> the</c>
+
+00:03:23.560 --> 00:03:23.570 align:start position:0%
+right to the Rob and instead of the
+ 
+
+00:03:23.570 --> 00:03:25.900 align:start position:0%
+right to the Rob and instead of the
+reservation<00:03:23.989><c> station</c><00:03:24.470><c> writing</c><00:03:25.370><c> to</c><00:03:25.489><c> the</c><00:03:25.640><c> Rob</c>
+
+00:03:25.900 --> 00:03:25.910 align:start position:0%
+reservation station writing to the Rob
+ 
+
+00:03:25.910 --> 00:03:28.030 align:start position:0%
+reservation station writing to the Rob
+on<00:03:26.630><c> broadcast</c><00:03:27.170><c> instead</c><00:03:27.470><c> of</c><00:03:27.590><c> the</c><00:03:27.680><c> register</c>
+
+00:03:28.030 --> 00:03:28.040 align:start position:0%
+on broadcast instead of the register
+ 
+
+00:03:28.040 --> 00:03:31.150 align:start position:0%
+on broadcast instead of the register
+file<00:03:28.280><c> and</c><00:03:28.519><c> also</c><00:03:29.239><c> we</c><00:03:29.359><c> have</c><00:03:29.540><c> added</c><00:03:29.750><c> a</c><00:03:30.200><c> step</c><00:03:30.799><c> here</c>
+
+00:03:31.150 --> 00:03:31.160 align:start position:0%
+file and also we have added a step here
+ 
+
+00:03:31.160 --> 00:03:33.520 align:start position:0%
+file and also we have added a step here
+for<00:03:31.430><c> committing</c><00:03:31.970><c> all</c><00:03:32.630><c> so</c><00:03:33.019><c> we</c><00:03:33.140><c> can</c><00:03:33.290><c> free</c><00:03:33.500><c> the</c>
+
+00:03:33.520 --> 00:03:33.530 align:start position:0%
+for committing all so we can free the
+ 
+
+00:03:33.530 --> 00:03:36.400 align:start position:0%
+for committing all so we can free the
+reservation<00:03:34.130><c> station</c><00:03:34.549><c> on</c><00:03:34.730><c> this</c><00:03:35.030><c> patch</c><00:03:35.329><c> not</c><00:03:36.109><c> on</c>
+
+00:03:36.400 --> 00:03:36.410 align:start position:0%
+reservation station on this patch not on
+ 
+
+00:03:36.410 --> 00:03:39.520 align:start position:0%
+reservation station on this patch not on
+broadcast<00:03:37.010><c> and</c><00:03:37.480><c> finally</c><00:03:38.480><c> we</c><00:03:38.630><c> need</c><00:03:38.750><c> a</c><00:03:38.810><c> new</c><00:03:39.200><c> step</c>
+
+00:03:39.520 --> 00:03:39.530 align:start position:0%
+broadcast and finally we need a new step
+ 
+
+00:03:39.530 --> 00:03:43.359 align:start position:0%
+broadcast and finally we need a new step
+for<00:03:39.560><c> actually</c><00:03:40.220><c> committing</c><00:03:40.700><c> the</c><00:03:40.819><c> instruction</c>
+

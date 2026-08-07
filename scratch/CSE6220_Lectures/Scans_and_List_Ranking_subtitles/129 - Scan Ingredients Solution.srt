@@ -1,0 +1,100 @@
+1
+00:00:00,290 --> 00:00:02,390
+ Okay, here's the answer.
+
+2
+00:00:02,390 --> 00:00:04,460
+ You need to shop that op is associative.
+
+3
+00:00:04,460 --> 00:00:06,780
+ You don't need all this other stuff.
+
+4
+00:00:06,780 --> 00:00:10,850
+ In particular, associativity means that op of a, b,
+
+5
+00:00:10,850 --> 00:00:16,870
+ then op with c has to be the same as a, op with b and c.
+
+6
+00:00:16,870 --> 00:00:19,510
+ Basically you put the parenthesis where you want.
+
+7
+00:00:19,510 --> 00:00:22,810
+ So let me just quickly run through some of the other options.
+
+8
+00:00:22,810 --> 00:00:27,180
+ So the constraint of constant time only affects the work in the span of a scan,
+
+9
+00:00:27,180 --> 00:00:29,760
+ not its correctness, so this is not relevant.
+
+10
+00:00:29,760 --> 00:00:31,490
+ What about being in place?
+
+11
+00:00:31,490 --> 00:00:33,500
+ Well, our algorithm uses op as a function,
+
+12
+00:00:33,500 --> 00:00:36,110
+ so being in place doesn't matter.
+
+13
+00:00:36,110 --> 00:00:38,710
+ Now the fourth option commutativity is interesting.
+
+14
+00:00:38,710 --> 00:00:41,790
+ Like a sociativity, it's kind of rearrangement property.
+
+15
+00:00:41,790 --> 00:00:44,650
+ But actually, it's a stronger property than what we need.
+
+16
+00:00:44,650 --> 00:00:47,560
+ In fact, you should go back and look at the parallel scan, and
+
+17
+00:00:47,560 --> 00:00:51,200
+ you will observe that it always only combines consecutive values.
+
+18
+00:00:51,200 --> 00:00:53,709
+ So that means, we really only need a sociativity,
+
+19
+00:00:53,709 --> 00:00:58,240
+ It's not too hard to show that our definition of op is in fact associative.
+
+20
+00:00:58,240 --> 00:01:00,190
+ But it's mostly messy algebra.
+
+21
+00:01:00,190 --> 00:01:03,850
+ I'm super lazy so I'll leave that as an exercise to you.
+
+22
+00:01:03,850 --> 00:01:07,260
+ As an aside there's a really neat and very general framework for
+
+23
+00:01:07,260 --> 00:01:09,870
+ many other kinds of recurrences.
+
+24
+00:01:09,870 --> 00:01:13,350
+ These include things like segmented scan, which you just looked at.
+
+25
+00:01:13,350 --> 00:01:13,350
+ For moe information, please see the instructor's notes.
+

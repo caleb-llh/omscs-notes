@@ -1,0 +1,192 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.400 --> 00:00:04.390 align:start position:0%
+ 
+next<00:00:01.400><c> hit</c><00:00:01.719><c> time</c><00:00:01.920><c> is</c><00:00:02.600><c> affected</c><00:00:03.600><c> by</c><00:00:03.800><c> having</c><00:00:04.160><c> to</c>
+
+00:00:04.390 --> 00:00:04.400 align:start position:0%
+next hit time is affected by having to
+ 
+
+00:00:04.400 --> 00:00:06.309 align:start position:0%
+next hit time is affected by having to
+access<00:00:04.680><c> the</c><00:00:04.799><c> tlb</c><00:00:05.359><c> before</c><00:00:05.640><c> we</c><00:00:05.839><c> access</c><00:00:06.160><c> the</c>
+
+00:00:06.309 --> 00:00:06.319 align:start position:0%
+access the tlb before we access the
+ 
+
+00:00:06.319 --> 00:00:09.030 align:start position:0%
+access the tlb before we access the
+cache<00:00:07.279><c> remember</c><00:00:07.720><c> that</c><00:00:07.839><c> the</c><00:00:08.080><c> processor</c><00:00:08.679><c> starts</c>
+
+00:00:09.030 --> 00:00:09.040 align:start position:0%
+cache remember that the processor starts
+ 
+
+00:00:09.040 --> 00:00:12.070 align:start position:0%
+cache remember that the processor starts
+out<00:00:09.280><c> with</c><00:00:09.400><c> a</c><00:00:09.559><c> virtual</c><00:00:09.960><c> address</c><00:00:10.920><c> we</c><00:00:11.120><c> use</c><00:00:11.759><c> some</c>
+
+00:00:12.070 --> 00:00:12.080 align:start position:0%
+out with a virtual address we use some
+ 
+
+00:00:12.080 --> 00:00:14.869 align:start position:0%
+out with a virtual address we use some
+part<00:00:12.280><c> of</c><00:00:12.440><c> that</c><00:00:12.599><c> virtual</c><00:00:12.960><c> address</c><00:00:13.960><c> to</c><00:00:14.280><c> index</c>
+
+00:00:14.869 --> 00:00:14.879 align:start position:0%
+part of that virtual address to index
+ 
+
+00:00:14.879 --> 00:00:18.390 align:start position:0%
+part of that virtual address to index
+into<00:00:15.160><c> the</c><00:00:15.360><c> tlb</c><00:00:16.119><c> and</c><00:00:16.359><c> find</c><00:00:17.000><c> the</c><00:00:17.160><c> frame</c><00:00:17.560><c> number</c>
+
+00:00:18.390 --> 00:00:18.400 align:start position:0%
+into the tlb and find the frame number
+ 
+
+00:00:18.400 --> 00:00:21.470 align:start position:0%
+into the tlb and find the frame number
+we<00:00:18.680><c> then</c><00:00:19.039><c> combine</c><00:00:19.600><c> that</c><00:00:20.080><c> with</c><00:00:20.279><c> the</c><00:00:21.160><c> page</c>
+
+00:00:21.470 --> 00:00:21.480 align:start position:0%
+we then combine that with the page
+ 
+
+00:00:21.480 --> 00:00:24.710 align:start position:0%
+we then combine that with the page
+offset<00:00:22.439><c> and</c><00:00:22.680><c> now</c><00:00:23.400><c> that</c><00:00:23.599><c> we</c><00:00:23.800><c> have</c><00:00:24.080><c> the</c><00:00:24.279><c> physical</c>
+
+00:00:24.710 --> 00:00:24.720 align:start position:0%
+offset and now that we have the physical
+ 
+
+00:00:24.720 --> 00:00:26.950 align:start position:0%
+offset and now that we have the physical
+address<00:00:25.640><c> we</c><00:00:25.760><c> can</c><00:00:25.920><c> use</c><00:00:26.119><c> it</c><00:00:26.279><c> to</c><00:00:26.439><c> access</c><00:00:26.720><c> our</c>
+
+00:00:26.950 --> 00:00:26.960 align:start position:0%
+address we can use it to access our
+ 
+
+00:00:26.960 --> 00:00:30.109 align:start position:0%
+address we can use it to access our
+cache<00:00:27.679><c> and</c><00:00:27.880><c> get</c><00:00:28.039><c> the</c><00:00:28.240><c> data</c><00:00:28.560><c> from</c><00:00:28.800><c> it</c><00:00:29.359><c> so</c><00:00:29.599><c> really</c>
+
+00:00:30.109 --> 00:00:30.119 align:start position:0%
+cache and get the data from it so really
+ 
+
+00:00:30.119 --> 00:00:32.510 align:start position:0%
+cache and get the data from it so really
+if<00:00:30.279><c> the</c><00:00:30.400><c> tlb</c><00:00:30.840><c> takes</c><00:00:31.119><c> one</c><00:00:31.320><c> cycle</c><00:00:31.880><c> and</c><00:00:32.040><c> the</c><00:00:32.200><c> cache</c>
+
+00:00:32.510 --> 00:00:32.520 align:start position:0%
+if the tlb takes one cycle and the cache
+ 
+
+00:00:32.520 --> 00:00:35.310 align:start position:0%
+if the tlb takes one cycle and the cache
+takes<00:00:32.759><c> one</c><00:00:33.000><c> cycle</c><00:00:33.920><c> we</c><00:00:34.079><c> need</c><00:00:34.360><c> two</c><00:00:34.640><c> cycles</c><00:00:35.120><c> from</c>
+
+00:00:35.310 --> 00:00:35.320 align:start position:0%
+takes one cycle we need two cycles from
+ 
+
+00:00:35.320 --> 00:00:36.910 align:start position:0%
+takes one cycle we need two cycles from
+when<00:00:35.480><c> the</c><00:00:35.559><c> processor</c><00:00:35.920><c> gives</c><00:00:36.120><c> us</c><00:00:36.280><c> the</c><00:00:36.399><c> address</c>
+
+00:00:36.910 --> 00:00:36.920 align:start position:0%
+when the processor gives us the address
+ 
+
+00:00:36.920 --> 00:00:39.310 align:start position:0%
+when the processor gives us the address
+until<00:00:37.200><c> we</c><00:00:37.399><c> actually</c><00:00:37.640><c> get</c><00:00:37.800><c> the</c><00:00:38.040><c> data</c><00:00:38.800><c> because</c>
+
+00:00:39.310 --> 00:00:39.320 align:start position:0%
+until we actually get the data because
+ 
+
+00:00:39.320 --> 00:00:41.590 align:start position:0%
+until we actually get the data because
+really<00:00:39.680><c> the</c><00:00:39.840><c> tlb</c><00:00:40.480><c> access</c><00:00:40.840><c> and</c><00:00:41.000><c> the</c><00:00:41.200><c> cash</c>
+
+00:00:41.590 --> 00:00:41.600 align:start position:0%
+really the tlb access and the cash
+ 
+
+00:00:41.600 --> 00:00:43.549 align:start position:0%
+really the tlb access and the cash
+access<00:00:42.039><c> have</c><00:00:42.200><c> to</c><00:00:42.440><c> happen</c><00:00:42.840><c> one</c><00:00:43.120><c> after</c><00:00:43.399><c> the</c>
+
+00:00:43.549 --> 00:00:43.559 align:start position:0%
+access have to happen one after the
+ 
+
+00:00:43.559 --> 00:00:47.470 align:start position:0%
+access have to happen one after the
+other<00:00:44.360><c> a</c><00:00:44.680><c> cash</c><00:00:45.440><c> that</c><00:00:45.600><c> is</c><00:00:45.840><c> accessed</c><00:00:46.360><c> using</c><00:00:47.199><c> a</c>
+
+00:00:47.470 --> 00:00:47.480 align:start position:0%
+other a cash that is accessed using a
+ 
+
+00:00:47.480 --> 00:00:50.270 align:start position:0%
+other a cash that is accessed using a
+physical<00:00:48.000><c> address</c><00:00:48.640><c> is</c><00:00:48.879><c> called</c><00:00:49.440><c> a</c><00:00:49.719><c> physically</c>
+
+00:00:50.270 --> 00:00:50.280 align:start position:0%
+physical address is called a physically
+ 
+
+00:00:50.280 --> 00:00:54.270 align:start position:0%
+physical address is called a physically
+accessed<00:00:50.719><c> cache</c><00:00:51.440><c> a</c><00:00:51.760><c> physical</c><00:00:52.440><c> cache</c><00:00:53.440><c> and</c><00:00:53.640><c> also</c>
+
+00:00:54.270 --> 00:00:54.280 align:start position:0%
+accessed cache a physical cache and also
+ 
+
+00:00:54.280 --> 00:00:56.110 align:start position:0%
+accessed cache a physical cache and also
+it<00:00:54.399><c> is</c><00:00:54.559><c> called</c><00:00:54.960><c> physically</c><00:00:55.440><c> indexed</c><00:00:55.920><c> or</c>
+
+00:00:56.110 --> 00:00:56.120 align:start position:0%
+it is called physically indexed or
+ 
+
+00:00:56.120 --> 00:01:00.590 align:start position:0%
+it is called physically indexed or
+physically<00:00:56.680><c> tagged</c><00:00:57.480><c> or</c><00:00:58.239><c> P</c><00:00:59.199><c> PT</c>
+
+00:01:00.590 --> 00:01:00.600 align:start position:0%
+physically tagged or P PT
+ 
+
+00:01:00.600 --> 00:01:03.110 align:start position:0%
+physically tagged or P PT
+cash<00:01:01.519><c> the</c><00:01:01.640><c> overall</c><00:01:02.039><c> hit</c><00:01:02.280><c> latency</c><00:01:02.719><c> of</c><00:01:02.879><c> that</c>
+
+00:01:03.110 --> 00:01:03.120 align:start position:0%
+cash the overall hit latency of that
+ 
+
+00:01:03.120 --> 00:01:06.990 align:start position:0%
+cash the overall hit latency of that
+cash<00:01:03.680><c> really</c><00:01:04.000><c> is</c><00:01:04.280><c> the</c><00:01:04.479><c> tlb</c><00:01:05.280><c> hit</c><00:01:05.799><c> latency</c><00:01:06.799><c> and</c>
+
+00:01:06.990 --> 00:01:07.000 align:start position:0%
+cash really is the tlb hit latency and
+ 
+
+00:01:07.000 --> 00:01:11.320 align:start position:0%
+cash really is the tlb hit latency and
+the<00:01:07.280><c> cash</c><00:01:08.040><c> heat</c><00:01:08.320><c> latency</c>
+

@@ -1,0 +1,336 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.629 align:start position:0%
+ 
+so<00:00:00.210><c> first</c><00:00:00.480><c> let's</c><00:00:00.719><c> talk</c><00:00:00.870><c> about</c><00:00:00.930><c> performance</c>
+
+00:00:01.629 --> 00:00:01.639 align:start position:0%
+so first let's talk about performance
+ 
+
+00:00:01.639 --> 00:00:04.100 align:start position:0%
+so first let's talk about performance
+usually<00:00:02.639><c> when</c><00:00:03.000><c> we</c><00:00:03.120><c> say</c><00:00:03.300><c> performance</c><00:00:03.899><c> within</c>
+
+00:00:04.100 --> 00:00:04.110 align:start position:0%
+usually when we say performance within
+ 
+
+00:00:04.110 --> 00:00:06.710 align:start position:0%
+usually when we say performance within
+processor<00:00:04.740><c> speed</c><00:00:05.069><c> but</c><00:00:05.520><c> even</c><00:00:05.910><c> then</c><00:00:06.120><c> there</c><00:00:06.600><c> are</c>
+
+00:00:06.710 --> 00:00:06.720 align:start position:0%
+processor speed but even then there are
+ 
+
+00:00:06.720 --> 00:00:08.570 align:start position:0%
+processor speed but even then there are
+really<00:00:06.870><c> two</c><00:00:07.170><c> aspects</c><00:00:07.620><c> of</c><00:00:07.770><c> performance</c><00:00:07.950><c> that</c>
+
+00:00:08.570 --> 00:00:08.580 align:start position:0%
+really two aspects of performance that
+ 
+
+00:00:08.580 --> 00:00:10.759 align:start position:0%
+really two aspects of performance that
+are<00:00:08.610><c> not</c><00:00:08.849><c> necessarily</c><00:00:09.420><c> identical</c><00:00:10.019><c> one</c><00:00:10.590><c> is</c>
+
+00:00:10.759 --> 00:00:10.769 align:start position:0%
+are not necessarily identical one is
+ 
+
+00:00:10.769 --> 00:00:13.520 align:start position:0%
+are not necessarily identical one is
+latency<00:00:11.490><c> it's</c><00:00:12.150><c> about</c><00:00:12.450><c> how</c><00:00:12.870><c> long</c><00:00:13.049><c> does</c><00:00:13.200><c> it</c><00:00:13.259><c> take</c>
+
+00:00:13.520 --> 00:00:13.530 align:start position:0%
+latency it's about how long does it take
+ 
+
+00:00:13.530 --> 00:00:15.530 align:start position:0%
+latency it's about how long does it take
+from<00:00:13.980><c> when</c><00:00:14.130><c> we</c><00:00:14.250><c> start</c><00:00:14.580><c> something</c><00:00:14.849><c> until</c><00:00:15.360><c> it's</c>
+
+00:00:15.530 --> 00:00:15.540 align:start position:0%
+from when we start something until it's
+ 
+
+00:00:15.540 --> 00:00:15.950 align:start position:0%
+from when we start something until it's
+done
+
+00:00:15.950 --> 00:00:15.960 align:start position:0%
+done
+ 
+
+00:00:15.960 --> 00:00:18.529 align:start position:0%
+done
+the<00:00:16.440><c> other</c><00:00:16.710><c> is</c><00:00:16.949><c> throughput</c><00:00:17.490><c> which</c><00:00:18.150><c> is</c><00:00:18.330><c> how</c>
+
+00:00:18.529 --> 00:00:18.539 align:start position:0%
+the other is throughput which is how
+ 
+
+00:00:18.539 --> 00:00:21.230 align:start position:0%
+the other is throughput which is how
+many<00:00:18.750><c> things</c><00:00:18.960><c> can</c><00:00:19.260><c> we</c><00:00:19.410><c> do</c><00:00:19.560><c> per</c><00:00:19.740><c> second</c><00:00:20.189><c> and</c><00:00:20.430><c> one</c>
+
+00:00:21.230 --> 00:00:21.240 align:start position:0%
+many things can we do per second and one
+ 
+
+00:00:21.240 --> 00:00:22.970 align:start position:0%
+many things can we do per second and one
+would<00:00:21.420><c> think</c><00:00:21.449><c> the</c><00:00:21.960><c> throughput</c><00:00:22.199><c> is</c><00:00:22.529><c> really</c><00:00:22.800><c> 1</c>
+
+00:00:22.970 --> 00:00:22.980 align:start position:0%
+would think the throughput is really 1
+ 
+
+00:00:22.980 --> 00:00:25.670 align:start position:0%
+would think the throughput is really 1
+over<00:00:23.010><c> latency</c><00:00:23.910><c> so</c><00:00:24.570><c> for</c><00:00:24.779><c> example</c><00:00:25.230><c> if</c><00:00:25.320><c> it</c><00:00:25.439><c> takes</c>
+
+00:00:25.670 --> 00:00:25.680 align:start position:0%
+over latency so for example if it takes
+ 
+
+00:00:25.680 --> 00:00:28.640 align:start position:0%
+over latency so for example if it takes
+half<00:00:26.670><c> a</c><00:00:26.789><c> second</c><00:00:27.180><c> to</c><00:00:27.300><c> do</c><00:00:27.449><c> something</c><00:00:27.960><c> then</c><00:00:28.500><c> the</c>
+
+00:00:28.640 --> 00:00:28.650 align:start position:0%
+half a second to do something then the
+ 
+
+00:00:28.650 --> 00:00:30.140 align:start position:0%
+half a second to do something then the
+number<00:00:28.980><c> of</c><00:00:29.010><c> those</c><00:00:29.250><c> things</c><00:00:29.490><c> we</c><00:00:29.670><c> can</c><00:00:29.699><c> do</c><00:00:29.970><c> per</c>
+
+00:00:30.140 --> 00:00:30.150 align:start position:0%
+number of those things we can do per
+ 
+
+00:00:30.150 --> 00:00:33.709 align:start position:0%
+number of those things we can do per
+second<00:00:30.630><c> is</c><00:00:30.840><c> gonna</c><00:00:31.080><c> be</c><00:00:31.320><c> 1</c><00:00:31.529><c> over</c><00:00:31.740><c> 1/2</c><00:00:32.399><c> and</c><00:00:33.390><c> we</c><00:00:33.570><c> get</c>
+
+00:00:33.709 --> 00:00:33.719 align:start position:0%
+second is gonna be 1 over 1/2 and we get
+ 
+
+00:00:33.719 --> 00:00:36.290 align:start position:0%
+second is gonna be 1 over 1/2 and we get
+2<00:00:33.930><c> for</c><00:00:34.200><c> throughput</c><00:00:34.559><c> but</c><00:00:35.309><c> this</c><00:00:35.520><c> is</c><00:00:35.760><c> not</c><00:00:35.969><c> always</c>
+
+00:00:36.290 --> 00:00:36.300 align:start position:0%
+2 for throughput but this is not always
+ 
+
+00:00:36.300 --> 00:00:39.650 align:start position:0%
+2 for throughput but this is not always
+so<00:00:36.750><c> think</c><00:00:37.440><c> about</c><00:00:37.710><c> a</c><00:00:37.980><c> car</c><00:00:38.460><c> assembly</c><00:00:38.790><c> line</c><00:00:39.180><c> we</c>
+
+00:00:39.650 --> 00:00:39.660 align:start position:0%
+so think about a car assembly line we
+ 
+
+00:00:39.660 --> 00:00:42.560 align:start position:0%
+so think about a car assembly line we
+start<00:00:39.989><c> with</c><00:00:40.290><c> just</c><00:00:40.559><c> a</c><00:00:41.280><c> chassis</c><00:00:41.730><c> we</c><00:00:42.210><c> then</c><00:00:42.360><c> move</c>
+
+00:00:42.560 --> 00:00:42.570 align:start position:0%
+start with just a chassis we then move
+ 
+
+00:00:42.570 --> 00:00:44.630 align:start position:0%
+start with just a chassis we then move
+the<00:00:42.750><c> car</c><00:00:42.989><c> to</c><00:00:43.230><c> where</c><00:00:43.530><c> its</c><00:00:43.710><c> engine</c><00:00:44.070><c> is</c><00:00:44.190><c> gonna</c><00:00:44.370><c> be</c>
+
+00:00:44.630 --> 00:00:44.640 align:start position:0%
+the car to where its engine is gonna be
+ 
+
+00:00:44.640 --> 00:00:46.850 align:start position:0%
+the car to where its engine is gonna be
+installed<00:00:45.000><c> we</c><00:00:45.539><c> then</c><00:00:45.690><c> move</c><00:00:45.899><c> the</c><00:00:46.050><c> car</c><00:00:46.289><c> to</c><00:00:46.559><c> where</c>
+
+00:00:46.850 --> 00:00:46.860 align:start position:0%
+installed we then move the car to where
+ 
+
+00:00:46.860 --> 00:00:48.770 align:start position:0%
+installed we then move the car to where
+some<00:00:47.070><c> wheels</c><00:00:47.309><c> are</c><00:00:47.579><c> gonna</c><00:00:47.730><c> be</c><00:00:47.940><c> added</c><00:00:48.239><c> to</c><00:00:48.420><c> it</c>
+
+00:00:48.770 --> 00:00:48.780 align:start position:0%
+some wheels are gonna be added to it
+ 
+
+00:00:48.780 --> 00:00:50.869 align:start position:0%
+some wheels are gonna be added to it
+we<00:00:48.960><c> then</c><00:00:49.140><c> have</c><00:00:49.469><c> some</c><00:00:49.710><c> doors</c><00:00:49.980><c> installed</c><00:00:50.520><c> and</c>
+
+00:00:50.869 --> 00:00:50.879 align:start position:0%
+we then have some doors installed and
+ 
+
+00:00:50.879 --> 00:00:53.180 align:start position:0%
+we then have some doors installed and
+some<00:00:51.059><c> hood</c><00:00:51.300><c> put</c><00:00:51.570><c> together</c><00:00:51.750><c> and</c><00:00:52.199><c> so</c><00:00:52.379><c> on</c><00:00:52.559><c> and</c><00:00:53.010><c> now</c>
+
+00:00:53.180 --> 00:00:53.190 align:start position:0%
+some hood put together and so on and now
+ 
+
+00:00:53.190 --> 00:00:56.060 align:start position:0%
+some hood put together and so on and now
+we<00:00:53.250><c> have</c><00:00:53.520><c> a</c><00:00:53.550><c> car</c><00:00:53.850><c> so</c><00:00:54.449><c> the</c><00:00:54.600><c> latency</c><00:00:55.050><c> is</c><00:00:55.710><c> from</c>
+
+00:00:56.060 --> 00:00:56.070 align:start position:0%
+we have a car so the latency is from
+ 
+
+00:00:56.070 --> 00:00:58.369 align:start position:0%
+we have a car so the latency is from
+here<00:00:56.489><c> to</c><00:00:56.520><c> here</c><00:00:56.789><c> here's</c><00:00:57.539><c> where</c><00:00:57.780><c> we</c><00:00:57.899><c> began</c><00:00:58.199><c> the</c>
+
+00:00:58.369 --> 00:00:58.379 align:start position:0%
+here to here here's where we began the
+ 
+
+00:00:58.379 --> 00:01:00.650 align:start position:0%
+here to here here's where we began the
+car<00:00:58.649><c> here's</c><00:00:59.039><c> where</c><00:00:59.250><c> we</c><00:00:59.370><c> have</c><00:00:59.550><c> a</c><00:00:59.579><c> final</c><00:01:00.059><c> car</c><00:01:00.300><c> but</c>
+
+00:01:00.650 --> 00:01:00.660 align:start position:0%
+car here's where we have a final car but
+ 
+
+00:01:00.660 --> 00:01:03.290 align:start position:0%
+car here's where we have a final car but
+we<00:01:00.809><c> have</c><00:01:00.960><c> an</c><00:01:01.079><c> assembly</c><00:01:01.559><c> line</c><00:01:01.770><c> so</c><00:01:02.180><c> when</c><00:01:03.180><c> the</c>
+
+00:01:03.290 --> 00:01:03.300 align:start position:0%
+we have an assembly line so when the
+ 
+
+00:01:03.300 --> 00:01:05.359 align:start position:0%
+we have an assembly line so when the
+chassis<00:01:03.809><c> moves</c><00:01:04.049><c> here</c><00:01:04.350><c> for</c><00:01:04.619><c> the</c><00:01:04.739><c> engine</c><00:01:05.070><c> to</c><00:01:05.220><c> be</c>
+
+00:01:05.359 --> 00:01:05.369 align:start position:0%
+chassis moves here for the engine to be
+ 
+
+00:01:05.369 --> 00:01:07.910 align:start position:0%
+chassis moves here for the engine to be
+installed<00:01:05.790><c> the</c><00:01:06.510><c> next</c><00:01:06.689><c> chassis</c><00:01:07.290><c> gets</c><00:01:07.619><c> put</c>
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+installed the next chassis gets put
+ 
+
+00:01:07.920 --> 00:01:09.649 align:start position:0%
+installed the next chassis gets put
+together<00:01:08.100><c> when</c><00:01:08.909><c> we</c><00:01:09.030><c> have</c><00:01:09.180><c> installed</c><00:01:09.330><c> the</c>
+
+00:01:09.649 --> 00:01:09.659 align:start position:0%
+together when we have installed the
+ 
+
+00:01:09.659 --> 00:01:11.899 align:start position:0%
+together when we have installed the
+engine<00:01:09.810><c> we</c><00:01:10.439><c> move</c><00:01:10.680><c> the</c><00:01:10.830><c> car</c><00:01:11.070><c> to</c><00:01:11.280><c> the</c><00:01:11.430><c> install</c>
+
+00:01:11.899 --> 00:01:11.909 align:start position:0%
+engine we move the car to the install
+ 
+
+00:01:11.909 --> 00:01:14.810 align:start position:0%
+engine we move the car to the install
+wheel<00:01:12.150><c> station</c><00:01:12.930><c> meanwhile</c><00:01:13.890><c> the</c><00:01:14.159><c> next</c><00:01:14.460><c> car</c><00:01:14.670><c> is</c>
+
+00:01:14.810 --> 00:01:14.820 align:start position:0%
+wheel station meanwhile the next car is
+ 
+
+00:01:14.820 --> 00:01:16.580 align:start position:0%
+wheel station meanwhile the next car is
+getting<00:01:14.970><c> its</c><00:01:15.299><c> engine</c><00:01:15.659><c> installed</c><00:01:16.020><c> and</c><00:01:16.229><c> so</c><00:01:16.409><c> on</c>
+
+00:01:16.580 --> 00:01:16.590 align:start position:0%
+getting its engine installed and so on
+ 
+
+00:01:16.590 --> 00:01:18.980 align:start position:0%
+getting its engine installed and so on
+so<00:01:17.100><c> let's</c><00:01:17.340><c> say</c><00:01:17.520><c> that</c><00:01:17.549><c> the</c><00:01:17.820><c> latency</c><00:01:18.270><c> is</c><00:01:18.390><c> 4</c><00:01:18.659><c> hours</c>
+
+00:01:18.980 --> 00:01:18.990 align:start position:0%
+so let's say that the latency is 4 hours
+ 
+
+00:01:18.990 --> 00:01:21.980 align:start position:0%
+so let's say that the latency is 4 hours
+but<00:01:19.770><c> it</c><00:01:19.920><c> it</c><00:01:20.070><c> takes</c><00:01:20.310><c> something</c><00:01:21.030><c> like</c><00:01:21.210><c> 20</c><00:01:21.750><c> steps</c>
+
+00:01:21.980 --> 00:01:21.990 align:start position:0%
+but it it takes something like 20 steps
+ 
+
+00:01:21.990 --> 00:01:25.070 align:start position:0%
+but it it takes something like 20 steps
+for<00:01:22.500><c> a</c><00:01:22.530><c> car</c><00:01:22.830><c> if</c><00:01:23.310><c> each</c><00:01:23.909><c> of</c><00:01:24.090><c> these</c><00:01:24.210><c> steps</c><00:01:24.450><c> takes</c>
+
+00:01:25.070 --> 00:01:25.080 align:start position:0%
+for a car if each of these steps takes
+ 
+
+00:01:25.080 --> 00:01:27.410 align:start position:0%
+for a car if each of these steps takes
+the<00:01:25.229><c> same</c><00:01:25.439><c> amount</c><00:01:25.710><c> of</c><00:01:25.830><c> time</c><00:01:26.100><c> and</c><00:01:26.400><c> the</c><00:01:26.970><c> cars</c><00:01:27.210><c> are</c>
+
+00:01:27.410 --> 00:01:27.420 align:start position:0%
+the same amount of time and the cars are
+ 
+
+00:01:27.420 --> 00:01:30.350 align:start position:0%
+the same amount of time and the cars are
+just<00:01:27.630><c> moving</c><00:01:27.979><c> through</c><00:01:28.979><c> these</c><00:01:29.130><c> steps</c><00:01:29.400><c> then</c><00:01:30.210><c> our</c>
+
+00:01:30.350 --> 00:01:30.360 align:start position:0%
+just moving through these steps then our
+ 
+
+00:01:30.360 --> 00:01:33.469 align:start position:0%
+just moving through these steps then our
+throughput<00:01:30.689><c> is</c><00:01:31.259><c> actually</c><00:01:32.040><c> 5</c><00:01:32.640><c> cars</c><00:01:33.030><c> per</c><00:01:33.299><c> hour</c>
+
+00:01:33.469 --> 00:01:33.479 align:start position:0%
+throughput is actually 5 cars per hour
+ 
+
+00:01:33.479 --> 00:01:37.910 align:start position:0%
+throughput is actually 5 cars per hour
+not<00:01:35.090><c> 0.25</c><00:01:36.090><c> cars</c><00:01:36.479><c> per</c><00:01:36.720><c> hour</c><00:01:36.900><c> so</c><00:01:37.380><c> as</c><00:01:37.470><c> you</c><00:01:37.560><c> can</c><00:01:37.740><c> see</c>
+
+00:01:37.910 --> 00:01:37.920 align:start position:0%
+not 0.25 cars per hour so as you can see
+ 
+
+00:01:37.920 --> 00:01:39.950 align:start position:0%
+not 0.25 cars per hour so as you can see
+the<00:01:38.100><c> throughput</c><00:01:38.340><c> and</c><00:01:38.579><c> the</c><00:01:38.670><c> latency</c><00:01:39.240><c> need</c><00:01:39.720><c> not</c>
+
+00:01:39.950 --> 00:01:39.960 align:start position:0%
+the throughput and the latency need not
+ 
+
+00:01:39.960 --> 00:01:43.250 align:start position:0%
+the throughput and the latency need not
+be<00:01:40.259><c> like</c><00:01:41.040><c> this</c>
+

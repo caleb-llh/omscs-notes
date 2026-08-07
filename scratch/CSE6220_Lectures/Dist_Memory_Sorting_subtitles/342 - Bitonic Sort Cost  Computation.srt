@@ -1,0 +1,156 @@
+1
+00:00:00,510 --> 00:00:04,030
+ For completeness, I want you to work out the total overall running time of
+
+2
+00:00:04,030 --> 00:00:05,800
+ a distributed Bitonic sort.
+
+3
+00:00:05,800 --> 00:00:09,040
+ Let's start with computation and ignore communication.
+
+4
+00:00:09,040 --> 00:00:12,520
+ Here's a picture to remind you of what a whole Bitonic sort looks like in
+
+5
+00:00:12,520 --> 00:00:13,530
+ the circuit model.
+
+6
+00:00:13,530 --> 00:00:15,280
+ In this case, for an input of size 16.
+
+7
+00:00:15,280 --> 00:00:17,880
+ Now consider this first stage,
+
+8
+00:00:17,880 --> 00:00:22,400
+ you'll notice it's a bunch of Bitonic merge operations on pairs of inputs.
+
+9
+00:00:22,400 --> 00:00:27,150
+ Now what this stage will produce are Bitonic sequences of length 4.
+
+10
+00:00:27,150 --> 00:00:28,260
+ So that's stage 2.
+
+11
+00:00:28,260 --> 00:00:30,630
+ Let's look at stage 2.
+
+12
+00:00:30,630 --> 00:00:35,480
+ It similarly consists of Bitonic merge operations, this time of length 4.
+
+13
+00:00:35,480 --> 00:00:39,350
+ And of course what it produces are Bitonic sequences of length 8.
+
+14
+00:00:39,350 --> 00:00:41,800
+ And, of course, this pattern repeats.
+
+15
+00:00:41,800 --> 00:00:44,430
+ This third stage uses Bitonic merges of size 8
+
+16
+00:00:44,430 --> 00:00:46,460
+ to produce a bitonic sequence of length 16.
+
+17
+00:00:46,460 --> 00:00:48,510
+ Now, what about the last stage?
+
+18
+00:00:48,510 --> 00:00:52,670
+ The last stage is just a single Bitonic merge of length 16.
+
+19
+00:00:52,670 --> 00:00:56,110
+ What it gives you is the sorted output.
+
+20
+00:00:56,110 --> 00:00:59,430
+ Now, notice there are log n merging stages.
+
+21
+00:00:59,430 --> 00:01:01,820
+ And remember what each box looks like.
+
+22
+00:01:01,820 --> 00:01:03,540
+ So let's consider some stage K.
+
+23
+00:01:03,540 --> 00:01:05,600
+ In this case, K equals 3.
+
+24
+00:01:05,600 --> 00:01:10,500
+ It performs simultaneous merges of size 2 to the k.
+
+25
+00:01:10,500 --> 00:01:15,420
+ Now suppose there are p processes and you use a block distribution scheme.
+
+26
+00:01:15,420 --> 00:01:18,440
+ In this example, P equals 4.
+
+27
+00:01:18,440 --> 00:01:22,360
+ Each process owns n over P elements.
+
+28
+00:01:22,360 --> 00:01:27,670
+ Now the kth merging stage performs K x N over P comparisons,
+
+29
+00:01:27,670 --> 00:01:30,570
+ and if each comparison costs tao time units,
+
+30
+00:01:30,570 --> 00:01:35,210
+ then the total time to do the comparisons is tao n over P x K.
+
+31
+00:01:35,210 --> 00:01:37,590
+ That, of course, is at merging stage K.
+
+32
+00:01:37,590 --> 00:01:40,300
+ Now recal there are log and merging stages.
+
+33
+00:01:40,300 --> 00:01:43,250
+ So you need to sum this cost over all stages.
+
+34
+00:01:43,250 --> 00:01:45,590
+ And if you work it all out you should get this.
+
+35
+00:01:45,590 --> 00:01:47,460
+ This cost makes sense, right?
+
+36
+00:01:47,460 --> 00:01:50,370
+ For instance, you already knew that bitonic sorting was not work
+
+37
+00:01:50,370 --> 00:01:55,230
+ optimal by a factor of log n compared to the usual n log n comparison scheme.
+
+38
+00:01:55,230 --> 00:01:58,700
+ But at least all the comparisons are perfectly paralyzable.
+
+39
+00:01:58,700 --> 00:01:58,700
+ Hoot.
+

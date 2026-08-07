@@ -1,0 +1,28 @@
+1
+00:00:00,480 --> 00:00:01,650
+ So what's the cost of insertion?
+
+2
+00:00:01,650 --> 00:00:03,840
+ I want you to figure it out.
+
+3
+00:00:03,840 --> 00:00:05,760
+ Suppose I give you a bag B as in bravo.
+
+4
+00:00:05,760 --> 00:00:09,710
+ Let's assume that the bag has n elements in it.
+
+5
+00:00:09,710 --> 00:00:10,950
+ Here's a new element to insert.
+
+6
+00:00:10,950 --> 00:00:13,740
+ The question is, what's the cost?
+
+7
+00:00:13,740 --> 00:00:13,740
+ Is it constant time, log time, linear time, or n log n time?
+

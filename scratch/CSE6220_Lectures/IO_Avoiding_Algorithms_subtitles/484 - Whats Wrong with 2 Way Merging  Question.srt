@@ -1,0 +1,120 @@
+1
+00:00:00,500 --> 00:00:03,690
+ Doing a merge sort with 2-way Merging is pretty good in terms of
+
+2
+00:00:03,690 --> 00:00:06,300
+ the number of slow fast memory transfers.
+
+3
+00:00:06,300 --> 00:00:07,200
+ By way of reminder,
+
+4
+00:00:07,200 --> 00:00:11,770
+ that number asymptotically is n over L log based 2 of n over z.
+
+5
+00:00:11,770 --> 00:00:15,810
+ I've rewritten this in a funny way for reasons that you'll see momentarily.
+
+6
+00:00:15,810 --> 00:00:19,570
+ Now this number of transfers still falls short of what it turns out is
+
+7
+00:00:19,570 --> 00:00:20,920
+ the lower bound.
+
+8
+00:00:20,920 --> 00:00:22,940
+ And here's that lower bound now.
+
+9
+00:00:22,940 --> 00:00:26,320
+ It's n over L, log base z over L of n over L.
+
+10
+00:00:26,320 --> 00:00:30,440
+ Here is it is rewritten in terms of log base twos.
+
+11
+00:00:30,440 --> 00:00:34,790
+ So this scheme relative to this scheme is off by a little bit.
+
+12
+00:00:34,790 --> 00:00:38,560
+ That little bit is approximately log base 2 of z over L.
+
+13
+00:00:38,560 --> 00:00:40,520
+ And, in fact, it's not even a little bit.
+
+14
+00:00:40,520 --> 00:00:44,200
+ For typical adjacent levels of the memory hierarchy on a real machine like
+
+15
+00:00:44,200 --> 00:00:47,410
+ disc and main memory or main memory and the last load of cache.
+
+16
+00:00:47,410 --> 00:00:50,910
+ It might be roughly of factor of ten or as high as a factor of 100.
+
+17
+00:00:50,910 --> 00:00:52,680
+ Hence, my question for you.
+
+18
+00:00:52,680 --> 00:00:53,950
+ Why doesn't merge short,
+
+19
+00:00:53,950 --> 00:00:57,170
+ based on a 2-way merging scheme, obtain the lower bound?
+
+20
+00:00:57,170 --> 00:00:59,680
+ This question is deliberately open-ended, so
+
+21
+00:00:59,680 --> 00:01:04,090
+ there isn't necessarily a very precise single correct answer here.
+
+22
+00:01:04,090 --> 00:01:08,520
+ I'm mostly asking to force you to think about how two-way merging works.
+
+23
+00:01:08,520 --> 00:01:09,100
+ Force you?
+
+24
+00:01:09,100 --> 00:01:10,580
+ I know what you're thinking.
+
+25
+00:01:10,580 --> 00:01:11,240
+ What?
+
+26
+00:01:11,240 --> 00:01:12,460
+ Is this Russia?
+
+27
+00:01:12,460 --> 00:01:14,630
+ Are you forcing me to Gulag?
+
+28
+00:01:14,630 --> 00:01:17,140
+ And if you are Russian, I am truly sorry if I have offended you.
+
+29
+00:01:17,140 --> 00:01:21,510
+ It's just that my wife is Polish, and there's this natural distrust there.
+
+30
+00:01:21,510 --> 00:01:21,510
+ If you don't believe me, just go ask any mid 20th century European historian.
+

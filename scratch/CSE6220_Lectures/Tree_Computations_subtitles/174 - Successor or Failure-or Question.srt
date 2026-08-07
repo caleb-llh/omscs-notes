@@ -1,0 +1,28 @@
+1
+00:00:00,510 --> 00:00:03,960
+ Let's verify that you will understand the definition of successor.
+
+2
+00:00:03,960 --> 00:00:09,590
+ My question is, what is s(s(s(6,8)))?
+
+3
+00:00:09,590 --> 00:00:11,340
+ I want you to type your answer here.
+
+4
+00:00:11,340 --> 00:00:12,173
+ For example,
+
+5
+00:00:12,173 --> 00:00:16,700
+ suppose you think the answer is the edge that goes from one to four.
+
+6
+00:00:16,700 --> 00:00:19,430
+ Then you type something like this into the box.
+
+7
+00:00:19,430 --> 00:00:19,430
+ Any of these forms are acceptable.
+

@@ -1,0 +1,120 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:03.110 align:start position:0%
+ 
+in<00:00:00.400><c> fact</c><00:00:01.199><c> let's</c><00:00:01.439><c> do</c><00:00:01.680><c> a</c><00:00:01.839><c> quiz</c><00:00:02.399><c> on</c><00:00:02.639><c> moves</c><00:00:02.960><c> in</c>
+
+00:00:03.110 --> 00:00:03.120 align:start position:0%
+in fact let's do a quiz on moves in
+ 
+
+00:00:03.120 --> 00:00:05.030 align:start position:0%
+in fact let's do a quiz on moves in
+movement<00:00:03.679><c> performance</c><00:00:04.400><c> when</c><00:00:04.560><c> we</c><00:00:04.720><c> do</c><00:00:04.880><c> if</c>
+
+00:00:05.030 --> 00:00:05.040 align:start position:0%
+movement performance when we do if
+ 
+
+00:00:05.040 --> 00:00:08.310 align:start position:0%
+movement performance when we do if
+conversions<00:00:05.680><c> so</c><00:00:05.920><c> this</c><00:00:06.240><c> is</c><00:00:06.640><c> the</c><00:00:06.879><c> original</c><00:00:07.359><c> code</c>
+
+00:00:08.310 --> 00:00:08.320 align:start position:0%
+conversions so this is the original code
+ 
+
+00:00:08.320 --> 00:00:10.790 align:start position:0%
+conversions so this is the original code
+let's<00:00:08.559><c> say</c><00:00:08.800><c> that</c><00:00:08.960><c> this</c><00:00:09.200><c> branch</c><00:00:09.599><c> here</c><00:00:09.920><c> is</c><00:00:10.080><c> 50</c><00:00:10.719><c> of</c>
+
+00:00:10.790 --> 00:00:10.800 align:start position:0%
+let's say that this branch here is 50 of
+ 
+
+00:00:10.800 --> 00:00:13.190 align:start position:0%
+let's say that this branch here is 50 of
+the<00:00:10.960><c> time</c><00:00:11.280><c> taken</c><00:00:12.000><c> so</c><00:00:12.240><c> half</c><00:00:12.559><c> of</c><00:00:12.639><c> the</c><00:00:12.800><c> time</c><00:00:13.120><c> we</c>
+
+00:00:13.190 --> 00:00:13.200 align:start position:0%
+the time taken so half of the time we
+ 
+
+00:00:13.200 --> 00:00:15.190 align:start position:0%
+the time taken so half of the time we
+end<00:00:13.440><c> up</c><00:00:13.519><c> doing</c><00:00:13.759><c> this</c><00:00:14.240><c> and</c><00:00:14.400><c> half</c><00:00:14.639><c> of</c><00:00:14.799><c> the</c><00:00:14.960><c> time</c>
+
+00:00:15.190 --> 00:00:15.200 align:start position:0%
+end up doing this and half of the time
+ 
+
+00:00:15.200 --> 00:00:16.630 align:start position:0%
+end up doing this and half of the time
+we<00:00:15.360><c> end</c><00:00:15.519><c> up</c><00:00:15.599><c> doing</c><00:00:15.839><c> this</c>
+
+00:00:16.630 --> 00:00:16.640 align:start position:0%
+we end up doing this
+ 
+
+00:00:16.640 --> 00:00:18.790 align:start position:0%
+we end up doing this
+so<00:00:16.800><c> we</c><00:00:16.960><c> can</c><00:00:17.199><c> say</c><00:00:17.440><c> then</c><00:00:17.760><c> that</c><00:00:18.240><c> the</c><00:00:18.480><c> if</c>
+
+00:00:18.790 --> 00:00:18.800 align:start position:0%
+so we can say then that the if
+ 
+
+00:00:18.800 --> 00:00:21.830 align:start position:0%
+so we can say then that the if
+conversion<00:00:19.840><c> code</c><00:00:20.400><c> works</c><00:00:20.800><c> better</c><00:00:21.520><c> when</c><00:00:21.680><c> the</c>
+
+00:00:21.830 --> 00:00:21.840 align:start position:0%
+conversion code works better when the
+ 
+
+00:00:21.840 --> 00:00:23.910 align:start position:0%
+conversion code works better when the
+prediction<00:00:22.400><c> accuracy</c><00:00:22.880><c> is</c><00:00:23.039><c> below</c>
+
+00:00:23.910 --> 00:00:23.920 align:start position:0%
+prediction accuracy is below
+ 
+
+00:00:23.920 --> 00:00:26.470 align:start position:0%
+prediction accuracy is below
+what<00:00:24.720><c> assuming</c><00:00:25.439><c> a</c><00:00:25.600><c> 30</c><00:00:26.000><c> instruction</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+what assuming a 30 instruction
+ 
+
+00:00:26.480 --> 00:00:28.870 align:start position:0%
+what assuming a 30 instruction
+misprediction<00:00:27.199><c> penalty</c><00:00:27.920><c> for</c><00:00:28.080><c> this</c><00:00:28.320><c> branch</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+misprediction penalty for this branch
+ 
+
+00:00:28.880 --> 00:00:30.470 align:start position:0%
+misprediction penalty for this branch
+and<00:00:29.039><c> assuming</c><00:00:29.439><c> of</c><00:00:29.519><c> course</c><00:00:29.760><c> that</c><00:00:29.920><c> this</c><00:00:30.160><c> branch</c>
+
+00:00:30.470 --> 00:00:30.480 align:start position:0%
+and assuming of course that this branch
+ 
+
+00:00:30.480 --> 00:00:32.150 align:start position:0%
+and assuming of course that this branch
+is<00:00:30.640><c> always</c><00:00:30.880><c> perfectly</c><00:00:31.359><c> predicted</c><00:00:31.840><c> because</c>
+
+00:00:32.150 --> 00:00:32.160 align:start position:0%
+is always perfectly predicted because
+ 
+
+00:00:32.160 --> 00:00:35.320 align:start position:0%
+is always perfectly predicted because
+it's<00:00:32.320><c> easy</c>
+

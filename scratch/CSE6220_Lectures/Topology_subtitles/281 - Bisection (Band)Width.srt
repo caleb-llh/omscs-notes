@@ -1,0 +1,220 @@
+1
+00:00:00,440 --> 00:00:03,239
+ Another property of a network that you should really care about is its
+
+2
+00:00:03,239 --> 00:00:04,960
+ bisection width and
+
+3
+00:00:04,960 --> 00:00:08,189
+ there's a related concept which is the bisection bandwidth.
+
+4
+00:00:08,189 --> 00:00:10,950
+ The bisection width is the minimum number of communication
+
+5
+00:00:10,950 --> 00:00:15,830
+ links that you have to take out in order to cut the network into two equal parts.
+
+6
+00:00:15,830 --> 00:00:18,830
+ Equal is measured by the number of nodes.
+
+7
+00:00:18,830 --> 00:00:21,640
+ For simplicity, let's assume that the number of nodes is even so
+
+8
+00:00:21,640 --> 00:00:23,022
+ that bisection is well defined.
+
+9
+00:00:23,022 --> 00:00:25,747
+ Eep!
+
+10
+00:00:25,747 --> 00:00:29,661
+ For linear network, cutting this link will break the network into two
+
+11
+00:00:29,661 --> 00:00:32,320
+ approximately equal size pieces.
+
+12
+00:00:32,320 --> 00:00:35,820
+ Again equal is measured in terms of the number of nodes.
+
+13
+00:00:35,820 --> 00:00:40,460
+ In this case, you only need to break one link, so the bisection width is one.
+
+14
+00:00:40,460 --> 00:00:43,860
+ I'll denote by section widths by capital B and
+
+15
+00:00:43,860 --> 00:00:46,820
+ in general they'll be a function of the number of nodes.
+
+16
+00:00:46,820 --> 00:00:48,930
+ What's the bisection of a 2D mesh?
+
+17
+00:00:48,930 --> 00:00:52,850
+ Here's a cut that breaks the network into two equal size pieces.
+
+18
+00:00:52,850 --> 00:00:55,890
+ In this case each half has eight nodes a piece.
+
+19
+00:00:55,890 --> 00:00:58,470
+ This cut goes through four links.
+
+20
+00:00:58,470 --> 00:01:01,040
+ In fact, there is no cut with fewer than four links, so
+
+21
+00:01:01,040 --> 00:01:03,280
+ the bisection width is four.
+
+22
+00:01:03,280 --> 00:01:04,110
+ For instance,
+
+23
+00:01:04,110 --> 00:01:08,010
+ here's another cut that breaks the network into two equal sized pieces.
+
+24
+00:01:08,010 --> 00:01:10,880
+ However, this cut is not a bisection.
+
+25
+00:01:10,880 --> 00:01:15,940
+ It goes through one, two, three, four, five, six links.
+
+26
+00:01:15,940 --> 00:01:17,710
+ Now in general, a mesh with P nodes,
+
+27
+00:01:17,710 --> 00:01:20,430
+ will have a bisection width of square root of P.
+
+28
+00:01:20,430 --> 00:01:22,630
+ So, why do you care about bisection?
+
+29
+00:01:22,630 --> 00:01:26,210
+ Well, one really important communication pattern is something called an all to
+
+30
+00:01:26,210 --> 00:01:28,650
+ all personalized exchange.
+
+31
+00:01:28,650 --> 00:01:30,110
+ An all to all is a collective,
+
+32
+00:01:30,110 --> 00:01:34,600
+ where every node wants to send a piece of data to every other node.
+
+33
+00:01:34,600 --> 00:01:36,550
+ Sort of like a bunch of nodes shouting at each other.
+
+34
+00:01:36,550 --> 00:01:40,400
+ And what this means is that every node in one half of the network
+
+35
+00:01:40,400 --> 00:01:44,100
+ will want to send messages to every node in the other half of the network.
+
+36
+00:01:44,100 --> 00:01:46,840
+ So all message traffic will have to go through the bisection.
+
+37
+00:01:46,840 --> 00:01:51,570
+ Of course networks with larger bisection widths will have a better capacity for
+
+38
+00:01:51,570 --> 00:01:53,730
+ carrying all that traffic.
+
+39
+00:01:53,730 --> 00:01:55,160
+ Now, for the fully connected network,
+
+40
+00:01:55,160 --> 00:01:58,920
+ we said there were about P squared over two links in total.
+
+41
+00:01:58,920 --> 00:02:02,150
+ Remember that every node has a direct link to every other.
+
+42
+00:02:02,150 --> 00:02:05,610
+ So to cut in half, you'd have to take about half the links.
+
+43
+00:02:05,610 --> 00:02:09,020
+ That yields a bisection width of about P squared over four.
+
+44
+00:02:09,020 --> 00:02:11,750
+ Now, related to the concept of bisection width is the concept of
+
+45
+00:02:11,750 --> 00:02:13,720
+ bisection bandwidth.
+
+46
+00:02:13,720 --> 00:02:15,460
+ Let's explain this by example.
+
+47
+00:02:15,460 --> 00:02:17,290
+ Suppose you have a 2D mesh.
+
+48
+00:02:17,290 --> 00:02:23,460
+ Let's say the speed of every link is beta measured in words per unit time.
+
+49
+00:02:23,460 --> 00:02:27,190
+ If all the links have the same speed, as in this example, then the bisection
+
+50
+00:02:27,190 --> 00:02:32,240
+ bandwidth is just the product of the bisection width with the link bandwidth.
+
+51
+00:02:32,240 --> 00:02:36,090
+ In other words, the speed across the bisection is the bisection width
+
+52
+00:02:36,090 --> 00:02:38,360
+ times the speed per link.
+
+53
+00:02:38,360 --> 00:02:41,230
+ What if you have links with unequal speed?
+
+54
+00:02:41,230 --> 00:02:44,650
+ In that case, you would look for a set of links that cut the network in two and
+
+55
+00:02:44,650 --> 00:02:44,650
+ have a minimum total bandwidth.
+

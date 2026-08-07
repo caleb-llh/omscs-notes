@@ -1,0 +1,304 @@
+1
+00:00:00,390 --> 00:00:03,940
+ To design a locality aware algorithm, you need a machine model.
+
+2
+00:00:03,940 --> 00:00:07,410
+ We'll use a variation on the von Neumann architecture.
+
+3
+00:00:07,410 --> 00:00:10,043
+ Here's a picture of von Neumann from 1956.
+
+4
+00:00:10,043 --> 00:00:12,550
+ The von Neumann architecture has a processor.
+
+5
+00:00:12,550 --> 00:00:14,990
+ For the moment, assume the processor is sequential.
+
+6
+00:00:14,990 --> 00:00:17,820
+ This processor does basic computing operations.
+
+7
+00:00:17,820 --> 00:00:21,400
+ These are things like addition, subtraction, branches, and so on.
+
+8
+00:00:21,400 --> 00:00:25,230
+ Now the processor connects to a main memory, you regard this memory as being
+
+9
+00:00:25,230 --> 00:00:31,320
+ nearly infinite but really slow, hang on, I'm a coming, I'm a coming.
+
+10
+00:00:31,320 --> 00:00:32,320
+ Between the processor and
+
+11
+00:00:32,320 --> 00:00:37,030
+ the slow memory there's a fast memory, however the memory is also small.
+
+12
+00:00:37,030 --> 00:00:41,760
+ Let's denote the size of this memory by capital Z measured in words.
+
+13
+00:00:41,760 --> 00:00:45,280
+ You're probably already familiar with two-level memory hierarchies.
+
+14
+00:00:45,280 --> 00:00:46,370
+ Consider, for example,
+
+15
+00:00:46,370 --> 00:00:50,260
+ a real processor like an Intel Ivy Bridge multi-core processor.
+
+16
+00:00:50,260 --> 00:00:54,060
+ The fast memory might be, say, a last-level cache that sits between
+
+17
+00:00:54,060 --> 00:00:58,400
+ a slower main memory, not shown in the photo and the processor.
+
+18
+00:00:58,400 --> 00:01:00,120
+ Or what about this example?
+
+19
+00:01:00,120 --> 00:01:03,550
+ This is an Adapteva Parallella board which is collecting dust in my office.
+
+20
+00:01:03,550 --> 00:01:07,390
+ It's collecting dust mostly because I'm sitting around drawing cartoons instead
+
+21
+00:01:07,390 --> 00:01:09,240
+ of doing, say, real hacking.
+
+22
+00:01:09,240 --> 00:01:11,450
+ Do I even know how to program anymore?
+
+23
+00:01:11,450 --> 00:01:16,120
+ The Parallella has a slow, non-volatile SD card which acts as a disc.
+
+24
+00:01:16,120 --> 00:01:18,440
+ It also has a smaller amount of main memory.
+
+25
+00:01:18,440 --> 00:01:22,410
+ Pulling data out of main memory is a lot faster than pulling it off the SD card.
+
+26
+00:01:22,410 --> 00:01:23,700
+ Okay, where was I?
+
+27
+00:01:23,700 --> 00:01:24,470
+ Oh, right.
+
+28
+00:01:24,470 --> 00:01:27,960
+ There are two rules about how computations run in this model.
+
+29
+00:01:27,960 --> 00:01:29,120
+ Here's the first rule.
+
+30
+00:01:29,120 --> 00:01:34,700
+ The processor cannot do any operations unless the operands sit in fast memory.
+
+31
+00:01:34,700 --> 00:01:37,170
+ I'll refer to this as the local data rule.
+
+32
+00:01:37,170 --> 00:01:38,570
+ Here's the second rule.
+
+33
+00:01:38,570 --> 00:01:40,580
+ It's called the block transfer rule.
+
+34
+00:01:40,580 --> 00:01:43,670
+ It says that when data moves back and forth across this channel,
+
+35
+00:01:43,670 --> 00:01:49,070
+ between slow memory and fast memory, it does so in chunks of size L words.
+
+36
+00:01:49,070 --> 00:01:51,670
+ That is, consider the following scenario.
+
+37
+00:01:51,670 --> 00:01:55,560
+ Suppose you want to load a word at address x from main memory.
+
+38
+00:01:55,560 --> 00:01:58,290
+ The block transfer rule says you actually have to pay to move
+
+39
+00:01:58,290 --> 00:02:01,370
+ an additional L minus 1 near bywords.
+
+40
+00:02:01,370 --> 00:02:05,390
+ Now which words come with the word at x depend on how your data is
+
+41
+00:02:05,390 --> 00:02:07,620
+ aligned in slow memory.
+
+42
+00:02:07,620 --> 00:02:10,050
+ In other words, when you design an algorithm in this model,
+
+43
+00:02:10,050 --> 00:02:12,888
+ data alignment might be another issue you have to consider.
+
+44
+00:02:12,888 --> 00:02:17,560
+ Still, most real-life memory systems do block transfers.
+
+45
+00:02:17,560 --> 00:02:19,510
+ So you need to think about multi-level memories and
+
+46
+00:02:19,510 --> 00:02:23,700
+ block transfers when designing high performance algorithms, like it or not.
+
+47
+00:02:23,700 --> 00:02:27,500
+ As I've stated it, this model implies two major costs you need to think about
+
+48
+00:02:27,500 --> 00:02:29,120
+ when designing algorithms.
+
+49
+00:02:29,120 --> 00:02:32,420
+ First, how many operations does the algorithm require?
+
+50
+00:02:32,420 --> 00:02:36,400
+ In other words, what's the computational work that the processor needs to do?
+
+51
+00:02:36,400 --> 00:02:39,410
+ Just like the concept of work in the work span model for
+
+52
+00:02:39,410 --> 00:02:43,780
+ a parallel machine, the concept of work in this I/O model will generally depend
+
+53
+00:02:43,780 --> 00:02:45,580
+ on the input size n.
+
+54
+00:02:45,580 --> 00:02:47,250
+ Then there's the second cost.
+
+55
+00:02:47,250 --> 00:02:50,520
+ How many block transfers does the algorithm need to do?
+
+56
+00:02:50,520 --> 00:02:54,000
+ As you might expect, the number of transfers might depend on both the size
+
+57
+00:02:54,000 --> 00:02:57,320
+ of the fast memory as well as the block transfer size.
+
+58
+00:02:57,320 --> 00:02:59,720
+ Let's denote the number of transfers by Q, and
+
+59
+00:02:59,720 --> 00:03:02,980
+ refer to it as the algorithms I/O complexity.
+
+60
+00:03:02,980 --> 00:03:06,870
+ To make this more concrete, let me walk you through a very simple example.
+
+61
+00:03:06,870 --> 00:03:10,590
+ Suppose you want to sum the elements of an array of size n.
+
+62
+00:03:10,590 --> 00:03:14,555
+ You know the processor needs to do at least n-1 additions.
+
+63
+00:03:14,555 --> 00:03:18,060
+ Or asymptotically, that's big omega of n operations.
+
+64
+00:03:18,060 --> 00:03:19,960
+ What about memory transfers?
+
+65
+00:03:19,960 --> 00:03:24,070
+ Intuitively, you know you need to make at least one pass through the data.
+
+66
+00:03:24,070 --> 00:03:26,960
+ That suggests a natural lower bound on transfers.
+
+67
+00:03:26,960 --> 00:03:29,580
+ That's the ceiling of n divided by L.
+
+68
+00:03:29,580 --> 00:03:33,450
+ The ceiling accounts for the fact that if n is not a multiple of L,
+
+69
+00:03:33,450 --> 00:03:36,360
+ then you need to pay for a partial transfer somewhere.
+
+70
+00:03:36,360 --> 00:03:38,880
+ Now, there's another thing to notice about this expression.
+
+71
+00:03:38,880 --> 00:03:42,630
+ It does not depend on capital Z, the size of the fast memory.
+
+72
+00:03:42,630 --> 00:03:44,310
+ That makes sense, right?
+
+73
+00:03:44,310 --> 00:03:46,810
+ You only need to touch each element once.
+
+74
+00:03:46,810 --> 00:03:50,960
+ So whether the fast memory is very large or very small, it really doesn't matter.
+
+75
+00:03:50,960 --> 00:03:53,650
+ Reduction does not reuse data.
+
+76
+00:03:53,650 --> 00:03:53,650
+ And not reusing data is bad.
+

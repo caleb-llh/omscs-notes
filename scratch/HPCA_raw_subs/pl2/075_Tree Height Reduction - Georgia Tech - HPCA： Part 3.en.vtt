@@ -1,0 +1,336 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:02.470 align:start position:0%
+ 
+One<00:00:00.480><c> example</c><00:00:01.040><c> of</c><00:00:01.280><c> a</c><00:00:01.520><c> technique</c><00:00:01.839><c> to</c><00:00:02.159><c> actually</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+One example of a technique to actually
+ 
+
+00:00:02.480 --> 00:00:04.470 align:start position:0%
+One example of a technique to actually
+improve<00:00:02.720><c> the</c><00:00:02.879><c> ILP</c><00:00:03.360><c> of</c><00:00:03.520><c> the</c><00:00:03.679><c> program</c><00:00:03.919><c> is</c><00:00:04.240><c> three</c>
+
+00:00:04.470 --> 00:00:04.480 align:start position:0%
+improve the ILP of the program is three
+ 
+
+00:00:04.480 --> 00:00:06.630 align:start position:0%
+improve the ILP of the program is three
+height<00:00:04.799><c> reduction.</c><00:00:05.600><c> Let's</c><00:00:05.920><c> consider</c><00:00:06.319><c> a</c>
+
+00:00:06.630 --> 00:00:06.640 align:start position:0%
+height reduction. Let's consider a
+ 
+
+00:00:06.640 --> 00:00:08.629 align:start position:0%
+height reduction. Let's consider a
+program<00:00:06.879><c> that</c><00:00:07.120><c> looks</c><00:00:07.359><c> like</c><00:00:07.600><c> this.</c><00:00:08.240><c> Let's</c><00:00:08.480><c> say</c>
+
+00:00:08.629 --> 00:00:08.639 align:start position:0%
+program that looks like this. Let's say
+ 
+
+00:00:08.639 --> 00:00:10.230 align:start position:0%
+program that looks like this. Let's say
+that<00:00:08.880><c> we</c><00:00:09.040><c> need</c><00:00:09.200><c> a</c><00:00:09.440><c> sum</c><00:00:09.599><c> of</c><00:00:09.760><c> these</c><00:00:10.000><c> four</c>
+
+00:00:10.230 --> 00:00:10.240 align:start position:0%
+that we need a sum of these four
+ 
+
+00:00:10.240 --> 00:00:14.230 align:start position:0%
+that we need a sum of these four
+registers<00:00:10.800><c> in</c><00:00:11.160><c> R8.</c><00:00:12.160><c> One</c><00:00:12.480><c> way</c><00:00:12.639><c> to</c><00:00:12.800><c> get</c><00:00:13.040><c> that</c><00:00:14.000><c> is</c>
+
+00:00:14.230 --> 00:00:14.240 align:start position:0%
+registers in R8. One way to get that is
+ 
+
+00:00:14.240 --> 00:00:17.109 align:start position:0%
+registers in R8. One way to get that is
+to<00:00:14.400><c> add</c><00:00:14.639><c> the</c><00:00:14.880><c> first</c><00:00:15.040><c> two</c><00:00:15.280><c> numbers</c><00:00:15.839><c> into</c><00:00:16.160><c> R8</c><00:00:16.800><c> and</c>
+
+00:00:17.109 --> 00:00:17.119 align:start position:0%
+to add the first two numbers into R8 and
+ 
+
+00:00:17.119 --> 00:00:20.870 align:start position:0%
+to add the first two numbers into R8 and
+then<00:00:17.920><c> add</c><00:00:18.160><c> the</c><00:00:18.400><c> second</c><00:00:18.720><c> number</c><00:00:19.439><c> and</c><00:00:19.760><c> then</c><00:00:20.640><c> add</c>
+
+00:00:20.870 --> 00:00:20.880 align:start position:0%
+then add the second number and then add
+ 
+
+00:00:20.880 --> 00:00:22.470 align:start position:0%
+then add the second number and then add
+the<00:00:21.039><c> third</c><00:00:21.279><c> number</c><00:00:21.600><c> and</c><00:00:21.840><c> then</c><00:00:22.000><c> the</c><00:00:22.160><c> fourth</c>
+
+00:00:22.470 --> 00:00:22.480 align:start position:0%
+the third number and then the fourth
+ 
+
+00:00:22.480 --> 00:00:24.790 align:start position:0%
+the third number and then the fourth
+number.<00:00:23.199><c> However,</c><00:00:23.680><c> this</c><00:00:23.840><c> forms</c><00:00:24.160><c> a</c><00:00:24.320><c> dependence</c>
+
+00:00:24.790 --> 00:00:24.800 align:start position:0%
+number. However, this forms a dependence
+ 
+
+00:00:24.800 --> 00:00:27.269 align:start position:0%
+number. However, this forms a dependence
+chain<00:00:25.199><c> because</c><00:00:25.439><c> we</c><00:00:25.760><c> have</c><00:00:26.480><c> the</c><00:00:26.720><c> dependence</c>
+
+00:00:27.269 --> 00:00:27.279 align:start position:0%
+chain because we have the dependence
+ 
+
+00:00:27.279 --> 00:00:29.109 align:start position:0%
+chain because we have the dependence
+here<00:00:27.519><c> and</c><00:00:27.760><c> the</c><00:00:27.920><c> dependence</c><00:00:28.400><c> here.</c><00:00:28.720><c> So</c><00:00:28.960><c> really</c>
+
+00:00:29.109 --> 00:00:29.119 align:start position:0%
+here and the dependence here. So really
+ 
+
+00:00:29.119 --> 00:00:30.710 align:start position:0%
+here and the dependence here. So really
+these<00:00:29.359><c> instructions</c><00:00:29.840><c> have</c><00:00:30.000><c> to</c><00:00:30.160><c> be</c><00:00:30.320><c> done</c><00:00:30.480><c> one</c>
+
+00:00:30.710 --> 00:00:30.720 align:start position:0%
+these instructions have to be done one
+ 
+
+00:00:30.720 --> 00:00:32.790 align:start position:0%
+these instructions have to be done one
+after<00:00:30.960><c> the</c><00:00:31.199><c> other.</c><00:00:32.000><c> So</c><00:00:32.239><c> tree</c><00:00:32.480><c> height</c>
+
+00:00:32.790 --> 00:00:32.800 align:start position:0%
+after the other. So tree height
+ 
+
+00:00:32.800 --> 00:00:34.870 align:start position:0%
+after the other. So tree height
+reduction<00:00:33.200><c> works</c><00:00:33.440><c> as</c><00:00:33.680><c> follows.</c><00:00:34.160><c> The</c><00:00:34.399><c> compiler</c>
+
+00:00:34.870 --> 00:00:34.880 align:start position:0%
+reduction works as follows. The compiler
+ 
+
+00:00:34.880 --> 00:00:37.270 align:start position:0%
+reduction works as follows. The compiler
+figures<00:00:35.280><c> out</c><00:00:35.760><c> that</c><00:00:36.079><c> instead</c><00:00:36.480><c> of</c><00:00:36.640><c> adding</c><00:00:37.040><c> one</c>
+
+00:00:37.270 --> 00:00:37.280 align:start position:0%
+figures out that instead of adding one
+ 
+
+00:00:37.280 --> 00:00:39.030 align:start position:0%
+figures out that instead of adding one
+number<00:00:37.600><c> at</c><00:00:37.760><c> a</c><00:00:37.920><c> time</c><00:00:38.079><c> to</c><00:00:38.239><c> the</c><00:00:38.399><c> sum</c><00:00:38.640><c> and</c><00:00:38.800><c> thus</c>
+
+00:00:39.030 --> 00:00:39.040 align:start position:0%
+number at a time to the sum and thus
+ 
+
+00:00:39.040 --> 00:00:40.869 align:start position:0%
+number at a time to the sum and thus
+creating<00:00:39.360><c> a</c><00:00:39.520><c> chain</c><00:00:39.680><c> of</c><00:00:39.840><c> dependencies,</c><00:00:40.640><c> what</c>
+
+00:00:40.869 --> 00:00:40.879 align:start position:0%
+creating a chain of dependencies, what
+ 
+
+00:00:40.879 --> 00:00:42.389 align:start position:0%
+creating a chain of dependencies, what
+we<00:00:41.040><c> can</c><00:00:41.200><c> do</c><00:00:41.360><c> is</c><00:00:41.600><c> we</c><00:00:41.840><c> can</c><00:00:41.920><c> group</c><00:00:42.160><c> the</c>
+
+00:00:42.389 --> 00:00:42.399 align:start position:0%
+we can do is we can group the
+ 
+
+00:00:42.399 --> 00:00:45.270 align:start position:0%
+we can do is we can group the
+computation<00:00:42.879><c> this</c><00:00:43.200><c> way.</c><00:00:43.760><c> Thus</c><00:00:44.079><c> getting</c><00:00:45.040><c> we</c>
+
+00:00:45.270 --> 00:00:45.280 align:start position:0%
+computation this way. Thus getting we
+ 
+
+00:00:45.280 --> 00:00:47.350 align:start position:0%
+computation this way. Thus getting we
+first<00:00:45.520><c> add</c><00:00:45.760><c> the</c><00:00:45.920><c> first</c><00:00:46.079><c> two</c><00:00:46.320><c> numbers</c><00:00:46.640><c> and</c><00:00:46.879><c> put</c>
+
+00:00:47.350 --> 00:00:47.360 align:start position:0%
+first add the first two numbers and put
+ 
+
+00:00:47.360 --> 00:00:49.910 align:start position:0%
+first add the first two numbers and put
+that<00:00:47.680><c> in</c><00:00:48.000><c> R8.</c><00:00:48.640><c> Then</c><00:00:48.800><c> we</c><00:00:48.960><c> add</c><00:00:49.120><c> the</c><00:00:49.360><c> second</c><00:00:49.680><c> pair</c>
+
+00:00:49.910 --> 00:00:49.920 align:start position:0%
+that in R8. Then we add the second pair
+ 
+
+00:00:49.920 --> 00:00:51.750 align:start position:0%
+that in R8. Then we add the second pair
+of<00:00:50.079><c> numbers,</c><00:00:50.480><c> put</c><00:00:50.640><c> that</c><00:00:50.800><c> in</c><00:00:50.960><c> R</c><00:00:51.200><c> seven.</c><00:00:51.600><c> And</c>
+
+00:00:51.750 --> 00:00:51.760 align:start position:0%
+of numbers, put that in R seven. And
+ 
+
+00:00:51.760 --> 00:00:53.750 align:start position:0%
+of numbers, put that in R seven. And
+then<00:00:51.920><c> we</c><00:00:52.079><c> add</c><00:00:52.239><c> up</c><00:00:52.399><c> the</c><00:00:52.559><c> R8</c><00:00:52.960><c> and</c><00:00:53.120><c> R</c><00:00:53.280><c> seven</c><00:00:53.520><c> into</c>
+
+00:00:53.750 --> 00:00:53.760 align:start position:0%
+then we add up the R8 and R seven into
+ 
+
+00:00:53.760 --> 00:00:56.549 align:start position:0%
+then we add up the R8 and R seven into
+our<00:00:54.000><c> final</c><00:00:54.320><c> result</c><00:00:54.640><c> R8.</c><00:00:55.520><c> The</c><00:00:55.840><c> dependencies</c>
+
+00:00:56.549 --> 00:00:56.559 align:start position:0%
+our final result R8. The dependencies
+ 
+
+00:00:56.559 --> 00:01:00.470 align:start position:0%
+our final result R8. The dependencies
+here<00:00:56.879><c> are</c><00:00:57.520><c> this</c><00:00:58.160><c> and</c><00:00:58.600><c> this.</c><00:00:59.600><c> So</c><00:00:59.840><c> now</c><00:01:00.079><c> we</c><00:01:00.320><c> have</c>
+
+00:01:00.470 --> 00:01:00.480 align:start position:0%
+here are this and this. So now we have
+ 
+
+00:01:00.480 --> 00:01:02.150 align:start position:0%
+here are this and this. So now we have
+two<00:01:00.719><c> instructions</c><00:01:01.199><c> that</c><00:01:01.440><c> can</c><00:01:01.600><c> execute</c><00:01:01.920><c> in</c>
+
+00:01:02.150 --> 00:01:02.160 align:start position:0%
+two instructions that can execute in
+ 
+
+00:01:02.160 --> 00:01:03.430 align:start position:0%
+two instructions that can execute in
+parallel<00:01:02.559><c> with</c><00:01:02.719><c> each</c><00:01:02.879><c> other</c><00:01:03.039><c> because</c><00:01:03.280><c> they</c>
+
+00:01:03.430 --> 00:01:03.440 align:start position:0%
+parallel with each other because they
+ 
+
+00:01:03.440 --> 00:01:04.950 align:start position:0%
+parallel with each other because they
+don't<00:01:03.600><c> depend</c><00:01:03.840><c> on</c><00:01:04.000><c> each</c><00:01:04.239><c> other</c><00:01:04.479><c> and</c><00:01:04.640><c> then</c><00:01:04.799><c> a</c>
+
+00:01:04.950 --> 00:01:04.960 align:start position:0%
+don't depend on each other and then a
+ 
+
+00:01:04.960 --> 00:01:06.310 align:start position:0%
+don't depend on each other and then a
+third<00:01:05.199><c> instruction</c><00:01:05.600><c> that</c><00:01:05.760><c> does</c><00:01:05.920><c> depend</c><00:01:06.159><c> on</c>
+
+00:01:06.310 --> 00:01:06.320 align:start position:0%
+third instruction that does depend on
+ 
+
+00:01:06.320 --> 00:01:09.270 align:start position:0%
+third instruction that does depend on
+them<00:01:06.560><c> too.</c><00:01:07.280><c> So</c><00:01:07.439><c> if</c><00:01:07.760><c> this</c><00:01:08.080><c> needed</c><00:01:08.400><c> three</c><00:01:08.640><c> cycles</c>
+
+00:01:09.270 --> 00:01:09.280 align:start position:0%
+them too. So if this needed three cycles
+ 
+
+00:01:09.280 --> 00:01:11.590 align:start position:0%
+them too. So if this needed three cycles
+to<00:01:09.600><c> execute,</c><00:01:10.320><c> this</c><00:01:10.560><c> can</c><00:01:10.720><c> actually</c><00:01:10.960><c> execute</c><00:01:11.360><c> in</c>
+
+00:01:11.590 --> 00:01:11.600 align:start position:0%
+to execute, this can actually execute in
+ 
+
+00:01:11.600 --> 00:01:13.270 align:start position:0%
+to execute, this can actually execute in
+two<00:01:11.840><c> cycles</c><00:01:12.159><c> if</c><00:01:12.400><c> we</c><00:01:12.560><c> have</c><00:01:12.640><c> a</c><00:01:12.720><c> processor</c><00:01:13.119><c> that</c>
+
+00:01:13.270 --> 00:01:13.280 align:start position:0%
+two cycles if we have a processor that
+ 
+
+00:01:13.280 --> 00:01:14.550 align:start position:0%
+two cycles if we have a processor that
+can<00:01:13.360><c> do</c><00:01:13.520><c> at</c><00:01:13.520><c> least</c><00:01:13.760><c> two</c><00:01:13.920><c> instructions</c><00:01:14.320><c> per</c>
+
+00:01:14.550 --> 00:01:14.560 align:start position:0%
+can do at least two instructions per
+ 
+
+00:01:14.560 --> 00:01:16.870 align:start position:0%
+can do at least two instructions per
+cycle.<00:01:15.520><c> Three</c><00:01:15.760><c> height</c><00:01:16.080><c> reduction</c><00:01:16.479><c> cannot</c>
+
+00:01:16.870 --> 00:01:16.880 align:start position:0%
+cycle. Three height reduction cannot
+ 
+
+00:01:16.880 --> 00:01:19.910 align:start position:0%
+cycle. Three height reduction cannot
+always<00:01:17.119><c> be</c><00:01:17.360><c> done.</c><00:01:18.159><c> It</c><00:01:18.400><c> uses</c><00:01:18.799><c> associivity</c><00:01:19.600><c> of</c>
+
+00:01:19.910 --> 00:01:19.920 align:start position:0%
+always be done. It uses associivity of
+ 
+
+00:01:19.920 --> 00:01:22.630 align:start position:0%
+always be done. It uses associivity of
+the<00:01:20.479><c> addition</c><00:01:21.000><c> operation.</c><00:01:22.000><c> And</c><00:01:22.159><c> you</c><00:01:22.400><c> have</c><00:01:22.479><c> to</c>
+
+00:01:22.630 --> 00:01:22.640 align:start position:0%
+the addition operation. And you have to
+ 
+
+00:01:22.640 --> 00:01:25.950 align:start position:0%
+the addition operation. And you have to
+keep<00:01:22.880><c> in</c><00:01:23.040><c> mind</c><00:01:23.400><c> that</c><00:01:24.400><c> not</c><00:01:24.640><c> all</c><00:01:24.880><c> operations</c><00:01:25.360><c> are</c>
+
+00:01:25.950 --> 00:01:25.960 align:start position:0%
+keep in mind that not all operations are
+ 
+
+00:01:25.960 --> 00:01:28.149 align:start position:0%
+keep in mind that not all operations are
+associative.<00:01:26.960><c> So</c><00:01:27.119><c> we</c><00:01:27.360><c> have</c><00:01:27.439><c> to</c><00:01:27.600><c> be</c><00:01:27.759><c> careful.</c>
+
+00:01:28.149 --> 00:01:28.159 align:start position:0%
+associative. So we have to be careful.
+ 
+
+00:01:28.159 --> 00:01:30.870 align:start position:0%
+associative. So we have to be careful.
+We<00:01:28.320><c> can</c><00:01:28.479><c> only</c><00:01:28.799><c> do</c><00:01:28.960><c> this</c><00:01:29.840><c> when</c><00:01:30.240><c> the</c><00:01:30.479><c> final</c>
+
+00:01:30.870 --> 00:01:30.880 align:start position:0%
+We can only do this when the final
+ 
+
+00:01:30.880 --> 00:01:32.950 align:start position:0%
+We can only do this when the final
+result<00:01:31.200><c> is</c><00:01:31.439><c> the</c><00:01:31.680><c> same</c><00:01:31.920><c> as</c><00:01:32.159><c> if</c><00:01:32.320><c> we</c><00:01:32.479><c> did</c><00:01:32.720><c> things</c>
+
+00:01:32.950 --> 00:01:32.960 align:start position:0%
+result is the same as if we did things
+ 
+
+00:01:32.960 --> 00:01:37.360 align:start position:0%
+result is the same as if we did things
+in<00:01:33.200><c> the</c><00:01:33.920><c> proper</c><00:01:34.320><c> order.</c><00:01:34.640><c> Let's</c><00:01:34.960><c> say</c>
+

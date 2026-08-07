@@ -1,0 +1,52 @@
+1
+00:00:00,370 --> 00:00:03,719
+ I don't know about you, but I'm going to go with system A.
+
+2
+00:00:03,719 --> 00:00:05,900
+ I started with the definition of average power for
+
+3
+00:00:05,900 --> 00:00:09,100
+ the two systems, which is just energy divided by time.
+
+4
+00:00:09,100 --> 00:00:12,690
+ Then, I recognize that this inequality on time can be written a little
+
+5
+00:00:12,690 --> 00:00:14,000
+ bit differently.
+
+6
+00:00:14,000 --> 00:00:18,510
+ Namely, 1 over the time of A is less than 1 over the time of B.
+
+7
+00:00:18,510 --> 00:00:22,230
+ If you now compare these two relations to the definitions of power,
+
+8
+00:00:22,230 --> 00:00:26,000
+ you should see that the power of A has to be less than the power of B.
+
+9
+00:00:26,000 --> 00:00:29,360
+ You can see the same thing in the energy time phase plot.
+
+10
+00:00:29,360 --> 00:00:31,220
+ Power is energy over time, and
+
+11
+00:00:31,220 --> 00:00:35,910
+ energy over time in the plot corresponds to the slope of the lines.
+
+12
+00:00:35,910 --> 00:00:39,400
+ And since the slope of B is steeper than the slope of A,
+
+13
+00:00:39,400 --> 00:00:39,400
+ then it must use more power.
+

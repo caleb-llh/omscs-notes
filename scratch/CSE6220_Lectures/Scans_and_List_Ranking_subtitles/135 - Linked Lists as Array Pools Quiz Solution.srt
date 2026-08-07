@@ -1,0 +1,56 @@
+1
+00:00:00,250 --> 00:00:02,110
+ Here's the answer to the quiz.
+
+2
+00:00:02,110 --> 00:00:05,060
+ You can check it by walking the array pool list.
+
+3
+00:00:05,060 --> 00:00:09,420
+ The head is at position 12, and it points to 5.
+
+4
+00:00:09,420 --> 00:00:10,050
+ So let's see.
+
+5
+00:00:10,050 --> 00:00:15,100
+ The head has a value of 1 at position 12, and points to 5.
+
+6
+00:00:15,100 --> 00:00:16,120
+ Check.
+
+7
+00:00:16,120 --> 00:00:18,593
+ Now 5 has a value of 6, and points to 10.
+
+8
+00:00:18,593 --> 00:00:19,986
+ So let's see.
+
+9
+00:00:19,986 --> 00:00:23,680
+ 5 has a value 6 and points to 10.
+
+10
+00:00:23,680 --> 00:00:24,920
+ Woot.
+
+11
+00:00:24,920 --> 00:00:26,330
+ Now two of the nodes are unallocated.
+
+12
+00:00:26,330 --> 00:00:29,350
+ For those, I put question marks.
+
+13
+00:00:29,350 --> 00:00:33,380
+ I also set their next pointers to nill as instructed.
+
+14
+00:00:33,380 --> 00:00:33,380
+ And I did the same thing for the tail.
+

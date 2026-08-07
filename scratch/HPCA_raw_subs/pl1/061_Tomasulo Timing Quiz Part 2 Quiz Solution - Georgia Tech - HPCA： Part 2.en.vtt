@@ -1,0 +1,440 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:02.450 align:start position:0%
+ 
+let's<00:00:00.750><c> look</c><00:00:00.930><c> at</c><00:00:01.050><c> the</c><00:00:01.199><c> solution</c><00:00:01.860><c> to</c><00:00:02.310><c> this</c>
+
+00:00:02.450 --> 00:00:02.460 align:start position:0%
+let's look at the solution to this
+ 
+
+00:00:02.460 --> 00:00:05.869 align:start position:0%
+let's look at the solution to this
+second<00:00:03.090><c> part</c><00:00:03.480><c> of</c><00:00:03.629><c> this</c><00:00:03.840><c> quiz</c><00:00:04.460><c> which</c><00:00:05.460><c> is</c><00:00:05.490><c> about</c>
+
+00:00:05.869 --> 00:00:05.879 align:start position:0%
+second part of this quiz which is about
+ 
+
+00:00:05.879 --> 00:00:07.519 align:start position:0%
+second part of this quiz which is about
+figuring<00:00:06.210><c> out</c><00:00:06.540><c> when</c><00:00:06.990><c> do</c><00:00:07.170><c> these</c><00:00:07.350><c> two</c>
+
+00:00:07.519 --> 00:00:07.529 align:start position:0%
+figuring out when do these two
+ 
+
+00:00:07.529 --> 00:00:09.500 align:start position:0%
+figuring out when do these two
+instructions<00:00:08.069><c> issue</c><00:00:08.340><c> dispatch</c><00:00:09.090><c> and</c><00:00:09.330><c> write</c>
+
+00:00:09.500 --> 00:00:09.510 align:start position:0%
+instructions issue dispatch and write
+ 
+
+00:00:09.510 --> 00:00:12.410 align:start position:0%
+instructions issue dispatch and write
+results<00:00:10.050><c> we</c><00:00:10.980><c> first</c><00:00:11.370><c> have</c><00:00:11.639><c> to</c><00:00:11.670><c> figure</c><00:00:11.940><c> out</c><00:00:12.120><c> when</c>
+
+00:00:12.410 --> 00:00:12.420 align:start position:0%
+results we first have to figure out when
+ 
+
+00:00:12.420 --> 00:00:14.560 align:start position:0%
+results we first have to figure out when
+the<00:00:12.570><c> adhere</c><00:00:13.080><c> will</c><00:00:13.290><c> issue</c>
+
+00:00:14.560 --> 00:00:14.570 align:start position:0%
+the adhere will issue
+ 
+
+00:00:14.570 --> 00:00:17.060 align:start position:0%
+the adhere will issue
+normally<00:00:15.570><c> it</c><00:00:15.780><c> would</c><00:00:15.839><c> issue</c><00:00:16.199><c> in</c><00:00:16.410><c> cycle</c><00:00:16.800><c> five</c>
+
+00:00:17.060 --> 00:00:17.070 align:start position:0%
+normally it would issue in cycle five
+ 
+
+00:00:17.070 --> 00:00:19.279 align:start position:0%
+normally it would issue in cycle five
+assuming<00:00:17.970><c> that</c><00:00:18.210><c> the</c><00:00:18.330><c> reservation</c><00:00:18.690><c> station</c><00:00:19.199><c> is</c>
+
+00:00:19.279 --> 00:00:19.289 align:start position:0%
+assuming that the reservation station is
+ 
+
+00:00:19.289 --> 00:00:22.519 align:start position:0%
+assuming that the reservation station is
+available<00:00:20.150><c> let's</c><00:00:21.150><c> check</c><00:00:21.480><c> whether</c><00:00:22.170><c> a</c>
+
+00:00:22.519 --> 00:00:22.529 align:start position:0%
+available let's check whether a
+ 
+
+00:00:22.529 --> 00:00:24.349 align:start position:0%
+available let's check whether a
+reservation<00:00:22.890><c> station</c><00:00:23.100><c> is</c><00:00:23.519><c> available</c><00:00:23.699><c> in</c>
+
+00:00:24.349 --> 00:00:24.359 align:start position:0%
+reservation station is available in
+ 
+
+00:00:24.359 --> 00:00:27.349 align:start position:0%
+reservation station is available in
+cycle<00:00:24.810><c> five</c><00:00:25.490><c> at</c><00:00:26.490><c> this</c><00:00:26.670><c> time</c><00:00:26.910><c> we</c><00:00:27.060><c> have</c><00:00:27.240><c> already</c>
+
+00:00:27.349 --> 00:00:27.359 align:start position:0%
+cycle five at this time we have already
+ 
+
+00:00:27.359 --> 00:00:30.769 align:start position:0%
+cycle five at this time we have already
+issued<00:00:27.800><c> two</c><00:00:28.800><c> ads</c><00:00:29.010><c> so</c><00:00:29.640><c> we</c><00:00:29.670><c> have</c><00:00:29.970><c> occupied</c><00:00:30.539><c> both</c>
+
+00:00:30.769 --> 00:00:30.779 align:start position:0%
+issued two ads so we have occupied both
+ 
+
+00:00:30.779 --> 00:00:32.690 align:start position:0%
+issued two ads so we have occupied both
+of<00:00:30.990><c> the</c><00:00:31.109><c> reservation</c><00:00:31.590><c> stations</c><00:00:32.040><c> so</c><00:00:32.369><c> one</c><00:00:32.550><c> is</c>
+
+00:00:32.690 --> 00:00:32.700 align:start position:0%
+of the reservation stations so one is
+ 
+
+00:00:32.700 --> 00:00:35.090 align:start position:0%
+of the reservation stations so one is
+available<00:00:33.210><c> here</c><00:00:33.570><c> only</c><00:00:33.989><c> if</c><00:00:34.410><c> one</c><00:00:34.710><c> of</c><00:00:34.890><c> these</c><00:00:35.040><c> two</c>
+
+00:00:35.090 --> 00:00:35.100 align:start position:0%
+available here only if one of these two
+ 
+
+00:00:35.100 --> 00:00:37.940 align:start position:0%
+available here only if one of these two
+ads<00:00:35.430><c> free</c><00:00:36.000><c> is</c><00:00:36.059><c> a</c><00:00:36.180><c> reservation</c><00:00:36.630><c> station</c><00:00:36.950><c> before</c>
+
+00:00:37.940 --> 00:00:37.950 align:start position:0%
+ads free is a reservation station before
+ 
+
+00:00:37.950 --> 00:00:42.470 align:start position:0%
+ads free is a reservation station before
+a<00:00:38.640><c> cycle</c><00:00:39.600><c> five</c><00:00:40.610><c> so</c><00:00:41.610><c> reservation</c><00:00:42.090><c> station</c><00:00:42.390><c> is</c>
+
+00:00:42.470 --> 00:00:42.480 align:start position:0%
+a cycle five so reservation station is
+ 
+
+00:00:42.480 --> 00:00:44.540 align:start position:0%
+a cycle five so reservation station is
+available<00:00:42.930><c> only</c><00:00:43.050><c> if</c><00:00:43.320><c> one</c><00:00:43.559><c> of</c><00:00:43.710><c> these</c><00:00:43.829><c> two</c><00:00:43.890><c> frees</c>
+
+00:00:44.540 --> 00:00:44.550 align:start position:0%
+available only if one of these two frees
+ 
+
+00:00:44.550 --> 00:00:46.940 align:start position:0%
+available only if one of these two frees
+its<00:00:44.850><c> reservation</c><00:00:45.090><c> station</c><00:00:45.930><c> before</c><00:00:46.260><c> cycle</c>
+
+00:00:46.940 --> 00:00:46.950 align:start position:0%
+its reservation station before cycle
+ 
+
+00:00:46.950 --> 00:00:49.790 align:start position:0%
+its reservation station before cycle
+five<00:00:47.360><c> note</c><00:00:48.360><c> that</c><00:00:48.600><c> a</c><00:00:48.809><c> reservation</c><00:00:49.230><c> station</c><00:00:49.680><c> is</c>
+
+00:00:49.790 --> 00:00:49.800 align:start position:0%
+five note that a reservation station is
+ 
+
+00:00:49.800 --> 00:00:53.119 align:start position:0%
+five note that a reservation station is
+to<00:00:49.890><c> be</c><00:00:49.980><c> freed</c><00:00:50.250><c> a</c><00:00:50.430><c> cycle</c><00:00:50.969><c> earlier</c><00:00:51.710><c> than</c><00:00:52.710><c> when</c><00:00:52.980><c> we</c>
+
+00:00:53.119 --> 00:00:53.129 align:start position:0%
+to be freed a cycle earlier than when we
+ 
+
+00:00:53.129 --> 00:00:55.040 align:start position:0%
+to be freed a cycle earlier than when we
+allocated<00:00:53.670><c> so</c><00:00:53.879><c> if</c><00:00:53.969><c> we</c><00:00:54.090><c> are</c><00:00:54.149><c> going</c><00:00:54.329><c> to</c><00:00:54.449><c> use</c><00:00:54.840><c> it</c>
+
+00:00:55.040 --> 00:00:55.050 align:start position:0%
+allocated so if we are going to use it
+ 
+
+00:00:55.050 --> 00:00:56.900 align:start position:0%
+allocated so if we are going to use it
+in<00:00:55.199><c> cycle</c><00:00:55.530><c> five</c><00:00:55.739><c> it</c><00:00:55.949><c> needs</c><00:00:56.190><c> to</c><00:00:56.370><c> be</c><00:00:56.489><c> freed</c><00:00:56.730><c> in</c>
+
+00:00:56.900 --> 00:00:56.910 align:start position:0%
+in cycle five it needs to be freed in
+ 
+
+00:00:56.910 --> 00:00:59.599 align:start position:0%
+in cycle five it needs to be freed in
+cycle<00:00:57.300><c> four</c><00:00:57.949><c> unfortunately</c><00:00:58.949><c> these</c><00:00:59.219><c> two</c><00:00:59.460><c> ads</c>
+
+00:00:59.599 --> 00:00:59.609 align:start position:0%
+cycle four unfortunately these two ads
+ 
+
+00:00:59.609 --> 00:01:01.670 align:start position:0%
+cycle four unfortunately these two ads
+do<00:01:00.059><c> not</c><00:01:00.329><c> release</c><00:01:00.840><c> their</c><00:01:01.140><c> reservation</c>
+
+00:01:01.670 --> 00:01:01.680 align:start position:0%
+do not release their reservation
+ 
+
+00:01:01.680 --> 00:01:05.899 align:start position:0%
+do not release their reservation
+stations<00:01:02.100><c> until</c><00:01:02.670><c> cycles</c><00:01:03.390><c> 10</c><00:01:03.690><c> and</c><00:01:03.930><c> 12</c><00:01:04.909><c> the</c>
+
+00:01:05.899 --> 00:01:05.909 align:start position:0%
+stations until cycles 10 and 12 the
+ 
+
+00:01:05.909 --> 00:01:07.760 align:start position:0%
+stations until cycles 10 and 12 the
+first<00:01:06.270><c> one</c><00:01:06.540><c> that</c><00:01:06.659><c> becomes</c><00:01:06.990><c> available</c><00:01:07.200><c> will</c><00:01:07.650><c> be</c>
+
+00:01:07.760 --> 00:01:07.770 align:start position:0%
+first one that becomes available will be
+ 
+
+00:01:07.770 --> 00:01:11.030 align:start position:0%
+first one that becomes available will be
+freed<00:01:08.040><c> in</c><00:01:08.250><c> cycle</c><00:01:08.790><c> 10</c><00:01:09.320><c> it</c><00:01:10.320><c> cannot</c><00:01:10.740><c> be</c><00:01:10.920><c> allocated</c>
+
+00:01:11.030 --> 00:01:11.040 align:start position:0%
+freed in cycle 10 it cannot be allocated
+ 
+
+00:01:11.040 --> 00:01:15.649 align:start position:0%
+freed in cycle 10 it cannot be allocated
+to<00:01:11.580><c> this</c><00:01:12.510><c> ad</c><00:01:12.810><c> immediately</c><00:01:13.970><c> so</c><00:01:14.970><c> this</c><00:01:15.210><c> ad</c><00:01:15.420><c> can</c>
+
+00:01:15.649 --> 00:01:15.659 align:start position:0%
+to this ad immediately so this ad can
+ 
+
+00:01:15.659 --> 00:01:18.770 align:start position:0%
+to this ad immediately so this ad can
+only<00:01:16.200><c> issue</c><00:01:16.380><c> in</c><00:01:16.710><c> cycle</c><00:01:16.950><c> 11</c><00:01:17.460><c> because</c><00:01:18.210><c> it</c><00:01:18.540><c> needs</c>
+
+00:01:18.770 --> 00:01:18.780 align:start position:0%
+only issue in cycle 11 because it needs
+ 
+
+00:01:18.780 --> 00:01:22.630 align:start position:0%
+only issue in cycle 11 because it needs
+this<00:01:19.020><c> reservation</c><00:01:19.500><c> station</c><00:01:20.840><c> once</c><00:01:21.840><c> this</c><00:01:22.200><c> ad</c>
+
+00:01:22.630 --> 00:01:22.640 align:start position:0%
+this reservation station once this ad
+ 
+
+00:01:22.640 --> 00:01:26.539 align:start position:0%
+this reservation station once this ad
+issues<00:01:23.689><c> it</c><00:01:24.689><c> might</c><00:01:25.049><c> dispatch</c><00:01:25.740><c> in</c><00:01:26.009><c> cycle</c><00:01:26.040><c> 12</c>
+
+00:01:26.539 --> 00:01:26.549 align:start position:0%
+issues it might dispatch in cycle 12
+ 
+
+00:01:26.549 --> 00:01:29.120 align:start position:0%
+issues it might dispatch in cycle 12
+assuming<00:01:27.540><c> that</c><00:01:27.720><c> it</c><00:01:27.840><c> has</c><00:01:28.020><c> no</c><00:01:28.229><c> dependencies</c><00:01:28.920><c> and</c>
+
+00:01:29.120 --> 00:01:29.130 align:start position:0%
+assuming that it has no dependencies and
+ 
+
+00:01:29.130 --> 00:01:32.600 align:start position:0%
+assuming that it has no dependencies and
+indeed<00:01:29.670><c> it</c><00:01:29.970><c> doesn't</c><00:01:30.630><c> so</c><00:01:31.590><c> it</c><00:01:31.619><c> issues</c><00:01:32.130><c> in</c><00:01:32.280><c> cycle</c>
+
+00:01:32.600 --> 00:01:32.610 align:start position:0%
+indeed it doesn't so it issues in cycle
+ 
+
+00:01:32.610 --> 00:01:35.560 align:start position:0%
+indeed it doesn't so it issues in cycle
+12<00:01:32.729><c> and</c><00:01:33.210><c> then</c><00:01:33.780><c> executes</c><00:01:34.409><c> for</c><00:01:34.439><c> one</c><00:01:34.829><c> cycle</c><00:01:35.310><c> and</c>
+
+00:01:35.560 --> 00:01:35.570 align:start position:0%
+12 and then executes for one cycle and
+ 
+
+00:01:35.570 --> 00:01:40.399 align:start position:0%
+12 and then executes for one cycle and
+broadcasts<00:01:36.570><c> its</c><00:01:36.720><c> result</c><00:01:37.140><c> in</c><00:01:37.590><c> cycle</c><00:01:38.189><c> 13</c><00:01:39.409><c> the</c>
+
+00:01:40.399 --> 00:01:40.409 align:start position:0%
+broadcasts its result in cycle 13 the
+ 
+
+00:01:40.409 --> 00:01:44.530 align:start position:0%
+broadcasts its result in cycle 13 the
+next<00:01:40.890><c> ad</c><00:01:41.070><c> here</c><00:01:41.670><c> will</c><00:01:42.450><c> issue</c><00:01:42.720><c> in</c><00:01:43.560><c> cycle</c><00:01:43.860><c> 12</c>
+
+00:01:44.530 --> 00:01:44.540 align:start position:0%
+next ad here will issue in cycle 12
+ 
+
+00:01:44.540 --> 00:01:46.819 align:start position:0%
+next ad here will issue in cycle 12
+because<00:01:45.540><c> issue</c><00:01:45.720><c> needs</c><00:01:46.049><c> to</c><00:01:46.200><c> be</c><00:01:46.320><c> done</c><00:01:46.500><c> in</c><00:01:46.649><c> order</c>
+
+00:01:46.819 --> 00:01:46.829 align:start position:0%
+because issue needs to be done in order
+ 
+
+00:01:46.829 --> 00:01:49.069 align:start position:0%
+because issue needs to be done in order
+so<00:01:47.159><c> if</c><00:01:47.280><c> this</c><00:01:47.430><c> one</c><00:01:47.700><c> issues</c><00:01:48.000><c> in</c><00:01:48.149><c> cycle</c><00:01:48.509><c> 11</c><00:01:48.750><c> the</c>
+
+00:01:49.069 --> 00:01:49.079 align:start position:0%
+so if this one issues in cycle 11 the
+ 
+
+00:01:49.079 --> 00:01:50.990 align:start position:0%
+so if this one issues in cycle 11 the
+next<00:01:49.439><c> ad</c><00:01:49.560><c> in</c><00:01:49.740><c> the</c><00:01:49.829><c> program</c><00:01:50.189><c> order</c><00:01:50.369><c> will</c><00:01:50.640><c> not</c><00:01:50.820><c> be</c>
+
+00:01:50.990 --> 00:01:51.000 align:start position:0%
+next ad in the program order will not be
+ 
+
+00:01:51.000 --> 00:01:53.899 align:start position:0%
+next ad in the program order will not be
+considered<00:01:51.479><c> for</c><00:01:51.659><c> issuing</c><00:01:51.930><c> until</c><00:01:52.200><c> cycle</c><00:01:52.560><c> 12</c><00:01:52.909><c> so</c>
+
+00:01:53.899 --> 00:01:53.909 align:start position:0%
+considered for issuing until cycle 12 so
+ 
+
+00:01:53.909 --> 00:01:56.149 align:start position:0%
+considered for issuing until cycle 12 so
+we<00:01:54.030><c> will</c><00:01:54.149><c> try</c><00:01:54.299><c> it</c><00:01:54.420><c> cycle</c><00:01:54.840><c> 12</c><00:01:55.079><c> but</c><00:01:55.680><c> we</c><00:01:55.829><c> have</c><00:01:56.040><c> to</c>
+
+00:01:56.149 --> 00:01:56.159 align:start position:0%
+we will try it cycle 12 but we have to
+ 
+
+00:01:56.159 --> 00:01:58.760 align:start position:0%
+we will try it cycle 12 but we have to
+check<00:01:56.369><c> whether</c><00:01:56.820><c> a</c><00:01:57.689><c> reservation</c><00:01:58.079><c> station</c><00:01:58.649><c> is</c>
+
+00:01:58.760 --> 00:01:58.770 align:start position:0%
+check whether a reservation station is
+ 
+
+00:01:58.770 --> 00:02:01.760 align:start position:0%
+check whether a reservation station is
+available<00:01:59.250><c> this</c><00:02:00.180><c> ad</c><00:02:00.420><c> by</c><00:02:00.630><c> then</c><00:02:00.840><c> has</c><00:02:01.200><c> freed</c><00:02:01.680><c> a</c>
+
+00:02:01.760 --> 00:02:01.770 align:start position:0%
+available this ad by then has freed a
+ 
+
+00:02:01.770 --> 00:02:03.649 align:start position:0%
+available this ad by then has freed a
+reservation<00:02:02.100><c> station</c><00:02:02.340><c> but</c><00:02:02.939><c> these</c><00:02:03.210><c> two</c><00:02:03.509><c> are</c>
+
+00:02:03.649 --> 00:02:03.659 align:start position:0%
+reservation station but these two are
+ 
+
+00:02:03.659 --> 00:02:05.450 align:start position:0%
+reservation station but these two are
+still<00:02:03.899><c> holding</c><00:02:04.320><c> on</c><00:02:04.500><c> to</c><00:02:04.530><c> theirs</c><00:02:04.920><c> know</c><00:02:05.250><c> that</c>
+
+00:02:05.450 --> 00:02:05.460 align:start position:0%
+still holding on to theirs know that
+ 
+
+00:02:05.460 --> 00:02:07.730 align:start position:0%
+still holding on to theirs know that
+this<00:02:05.700><c> ad</c><00:02:06.000><c> here</c><00:02:06.390><c> is</c><00:02:06.659><c> freeing</c><00:02:07.170><c> its</c><00:02:07.500><c> reservation</c>
+
+00:02:07.730 --> 00:02:07.740 align:start position:0%
+this ad here is freeing its reservation
+ 
+
+00:02:07.740 --> 00:02:10.910 align:start position:0%
+this ad here is freeing its reservation
+station<00:02:08.489><c> in</c><00:02:08.640><c> cycle</c><00:02:09.060><c> 12</c><00:02:09.200><c> but</c><00:02:10.200><c> it</c><00:02:10.379><c> cannot</c><00:02:10.739><c> be</c>
+
+00:02:10.910 --> 00:02:10.920 align:start position:0%
+station in cycle 12 but it cannot be
+ 
+
+00:02:10.920 --> 00:02:12.979 align:start position:0%
+station in cycle 12 but it cannot be
+allocated<00:02:11.459><c> to</c><00:02:11.640><c> a</c><00:02:11.790><c> new</c><00:02:12.060><c> instruction</c><00:02:12.480><c> in</c><00:02:12.810><c> the</c>
+
+00:02:12.979 --> 00:02:12.989 align:start position:0%
+allocated to a new instruction in the
+ 
+
+00:02:12.989 --> 00:02:14.190 align:start position:0%
+allocated to a new instruction in the
+same<00:02:13.020><c> cycle</c>
+
+00:02:14.190 --> 00:02:14.200 align:start position:0%
+same cycle
+ 
+
+00:02:14.200 --> 00:02:16.680 align:start position:0%
+same cycle
+so<00:02:14.830><c> they</c><00:02:14.980><c> said</c><00:02:15.160><c> here</c><00:02:15.400><c> actually</c><00:02:15.700><c> issues</c><00:02:16.510><c> in</c>
+
+00:02:16.680 --> 00:02:16.690 align:start position:0%
+so they said here actually issues in
+ 
+
+00:02:16.690 --> 00:02:19.949 align:start position:0%
+so they said here actually issues in
+cycle<00:02:17.080><c> 13</c><00:02:17.260><c> and</c><00:02:17.830><c> then</c><00:02:18.670><c> it</c><00:02:19.060><c> doesn't</c><00:02:19.390><c> wait</c><00:02:19.720><c> for</c>
+
+00:02:19.949 --> 00:02:19.959 align:start position:0%
+cycle 13 and then it doesn't wait for
+ 
+
+00:02:19.959 --> 00:02:22.320 align:start position:0%
+cycle 13 and then it doesn't wait for
+anything<00:02:20.200><c> because</c><00:02:20.650><c> f3</c><00:02:21.130><c> and</c><00:02:21.340><c> f4</c><00:02:21.459><c> are</c><00:02:22.090><c> not</c>
+
+00:02:22.320 --> 00:02:22.330 align:start position:0%
+anything because f3 and f4 are not
+ 
+
+00:02:22.330 --> 00:02:24.990 align:start position:0%
+anything because f3 and f4 are not
+produced<00:02:22.870><c> by</c><00:02:23.080><c> previous</c><00:02:23.349><c> instructions</c><00:02:24.040><c> so</c><00:02:24.880><c> it</c>
+
+00:02:24.990 --> 00:02:25.000 align:start position:0%
+produced by previous instructions so it
+ 
+
+00:02:25.000 --> 00:02:27.630 align:start position:0%
+produced by previous instructions so it
+will<00:02:25.150><c> dispatch</c><00:02:25.540><c> in</c><00:02:25.750><c> cycle</c><00:02:25.780><c> 14</c><00:02:26.620><c> and</c><00:02:26.890><c> finally</c>
+
+00:02:27.630 --> 00:02:27.640 align:start position:0%
+will dispatch in cycle 14 and finally
+ 
+
+00:02:27.640 --> 00:02:31.709 align:start position:0%
+will dispatch in cycle 14 and finally
+write<00:02:27.970><c> its</c><00:02:28.209><c> result</c><00:02:28.420><c> in</c><00:02:28.900><c> cycle</c><00:02:29.110><c> 15</c>
+

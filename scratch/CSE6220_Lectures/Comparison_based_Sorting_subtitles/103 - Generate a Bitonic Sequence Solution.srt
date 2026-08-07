@@ -1,0 +1,120 @@
+1
+00:00:00,450 --> 00:00:01,270
+ To figure this out,
+
+2
+00:00:01,270 --> 00:00:05,270
+ let's think about what this first set of comparators is really doing.
+
+3
+00:00:05,270 --> 00:00:10,120
+ What it's really doing is creating up and down pairs.
+
+4
+00:00:10,120 --> 00:00:12,570
+ If that's the case, then what must be true?
+
+5
+00:00:12,570 --> 00:00:17,450
+ Well, the first four elements are bitonic, as are the second.
+
+6
+00:00:17,450 --> 00:00:20,290
+ Does that mean it's time for a celebratory cocktail?
+
+7
+00:00:20,290 --> 00:00:21,020
+ Not yet.
+
+8
+00:00:21,020 --> 00:00:22,820
+ Patience, my child.
+
+9
+00:00:22,820 --> 00:00:27,840
+ Now, you have two bitonic subsequences, but your goal is to get just one.
+
+10
+00:00:27,840 --> 00:00:32,130
+ So, what you need to do is to turn one of these into an increasing subsequence,
+
+11
+00:00:32,130 --> 00:00:35,330
+ and the other into a decreasing subsequence.
+
+12
+00:00:35,330 --> 00:00:37,170
+ Let's take the top half.
+
+13
+00:00:37,170 --> 00:00:40,840
+ Given a bitonic sequence, how do you get an increasing sequence?
+
+14
+00:00:40,840 --> 00:00:43,550
+ Well, the increasing sequence is sorted.
+
+15
+00:00:43,550 --> 00:00:46,740
+ So, you'd use a bitonic merge, of course.
+
+16
+00:00:46,740 --> 00:00:49,170
+ Let me fill in the circuit.
+
+17
+00:00:49,170 --> 00:00:54,420
+ This top sub circuit is just a bitonic merge network for an input of size four.
+
+18
+00:00:54,420 --> 00:00:57,140
+ The bottom one is the same, but with minus comparators, so
+
+19
+00:00:57,140 --> 00:00:59,870
+ that you get a decreasing sequence.
+
+20
+00:00:59,870 --> 00:01:02,740
+ In fact, you can view this first layer that I filled in for
+
+21
+00:01:02,740 --> 00:01:06,590
+ you as little bitonic merges of size two.
+
+22
+00:01:06,590 --> 00:01:09,890
+ And so you can verify what's happening, here's a trace.
+
+23
+00:01:09,890 --> 00:01:12,520
+ Okay, let me summarize all of this.
+
+24
+00:01:12,520 --> 00:01:15,010
+ You start with an arbitrary input.
+
+25
+00:01:15,010 --> 00:01:19,370
+ Then, you run little plus minus bitonic merges of size two.
+
+26
+00:01:19,370 --> 00:01:23,460
+ After that, you run plus minus bitonic merges of size four.
+
+27
+00:01:23,460 --> 00:01:25,740
+ And if you add larger input sequences, you would just keep going.
+
+28
+00:01:25,740 --> 00:01:29,870
+ In other words, to go from an arbitrary input to a bitonic sequence,
+
+29
+00:01:29,870 --> 00:01:33,460
+ you just run a bunch of bitonic merges of increasing size.
+
+30
+00:01:33,460 --> 00:01:33,460
+ Neat, but not on the rocks.
+

@@ -1,0 +1,80 @@
+1
+00:00:00,300 --> 00:00:04,370
+ So the correct answers are the hypercube and the fully connected network.
+
+2
+00:00:04,370 --> 00:00:07,560
+ First remember that we're assuming P=n.
+
+3
+00:00:07,560 --> 00:00:11,040
+ So for this example picture there are 16 processes.
+
+4
+00:00:11,040 --> 00:00:13,930
+ Notice that the first eight processes have to exchange data
+
+5
+00:00:13,930 --> 00:00:15,690
+ with the second eight.
+
+6
+00:00:15,690 --> 00:00:20,190
+ Therefore you need a network with a linear or better bisection width.
+
+7
+00:00:20,190 --> 00:00:20,730
+ In this case,
+
+8
+00:00:20,730 --> 00:00:24,290
+ a hypercube and fully-connected networks are really your only options.
+
+9
+00:00:24,290 --> 00:00:26,970
+ In fact, a fully connected network is probably overkill,
+
+10
+00:00:26,970 --> 00:00:29,970
+ because it has many more links than you actually need.
+
+11
+00:00:29,970 --> 00:00:32,689
+ A hypercube, on the other hand, is a pretty good fit.
+
+12
+00:00:32,689 --> 00:00:34,330
+ Can you see why?
+
+13
+00:00:34,330 --> 00:00:36,490
+ Just think about how you build hypercubes, and
+
+14
+00:00:36,490 --> 00:00:39,960
+ how that compares with the basic pattern of exchange.
+
+15
+00:00:39,960 --> 00:00:43,090
+ By the way, there's another kind of network topology called a butterfly
+
+16
+00:00:43,090 --> 00:00:44,480
+ topology.
+
+17
+00:00:44,480 --> 00:00:47,470
+ The butterfly network is exactly this picture.
+
+18
+00:00:47,470 --> 00:00:50,610
+ Butterfly networks remind me of an old joke about Europeans comparing
+
+19
+00:00:50,610 --> 00:00:54,100
+ the word butterfly in their various native tongues.
+
+20
+00:00:54,100 --> 00:00:54,100
+ What is wrong with Schmetterling?
+

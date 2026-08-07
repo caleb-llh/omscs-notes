@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.429 align:start position:0%
+ 
+let's<00:00:00.299><c> look</c><00:00:00.480><c> at</c><00:00:00.599><c> the</c><00:00:00.750><c> solution</c><00:00:00.930><c> to</c><00:00:01.410><c> our</c>
+
+00:00:01.429 --> 00:00:01.439 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:01.439 --> 00:00:03.470 align:start position:0%
+let's look at the solution to our
+virtual<00:00:01.709><c> to</c><00:00:02.040><c> physical</c><00:00:02.070><c> translation</c><00:00:02.490><c> speed</c>
+
+00:00:03.470 --> 00:00:03.480 align:start position:0%
+virtual to physical translation speed
+ 
+
+00:00:03.480 --> 00:00:06.710 align:start position:0%
+virtual to physical translation speed
+quiz<00:00:03.890><c> we</c><00:00:04.890><c> were</c><00:00:05.040><c> asked</c><00:00:05.370><c> how</c><00:00:05.670><c> many</c><00:00:05.700><c> cycles</c><00:00:06.240><c> do</c><00:00:06.600><c> we</c>
+
+00:00:06.710 --> 00:00:06.720 align:start position:0%
+quiz we were asked how many cycles do we
+ 
+
+00:00:06.720 --> 00:00:08.570 align:start position:0%
+quiz we were asked how many cycles do we
+need<00:00:06.870><c> for</c><00:00:07.200><c> a</c><00:00:07.230><c> load</c><00:00:07.500><c> instruction</c><00:00:08.099><c> if</c><00:00:08.250><c> we</c><00:00:08.429><c> use</c><00:00:08.550><c> a</c>
+
+00:00:08.570 --> 00:00:08.580 align:start position:0%
+need for a load instruction if we use a
+ 
+
+00:00:08.580 --> 00:00:11.540 align:start position:0%
+need for a load instruction if we use a
+three<00:00:08.880><c> level</c><00:00:09.179><c> page</c><00:00:09.389><c> table</c><00:00:09.740><c> we</c><00:00:10.740><c> need</c><00:00:10.920><c> one</c><00:00:11.160><c> cycle</c>
+
+00:00:11.540 --> 00:00:11.550 align:start position:0%
+three level page table we need one cycle
+ 
+
+00:00:11.550 --> 00:00:13.339 align:start position:0%
+three level page table we need one cycle
+to<00:00:11.639><c> compute</c><00:00:12.000><c> the</c><00:00:12.090><c> virtual</c><00:00:12.360><c> address</c><00:00:12.450><c> we</c><00:00:13.320><c> need</c>
+
+00:00:13.339 --> 00:00:13.349 align:start position:0%
+to compute the virtual address we need
+ 
+
+00:00:13.349 --> 00:00:16.700 align:start position:0%
+to compute the virtual address we need
+ten<00:00:14.040><c> cycles</c><00:00:14.370><c> to</c><00:00:15.120><c> access</c><00:00:15.150><c> the</c><00:00:15.870><c> outermost</c><00:00:16.260><c> page</c>
+
+00:00:16.700 --> 00:00:16.710 align:start position:0%
+ten cycles to access the outermost page
+ 
+
+00:00:16.710 --> 00:00:20.150 align:start position:0%
+ten cycles to access the outermost page
+table<00:00:17.330><c> 10</c><00:00:18.330><c> cycles</c><00:00:18.630><c> flux</c><00:00:19.170><c> is</c><00:00:19.410><c> the</c><00:00:19.439><c> next</c><00:00:19.920><c> level</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+table 10 cycles flux is the next level
+ 
+
+00:00:20.160 --> 00:00:22.550 align:start position:0%
+table 10 cycles flux is the next level
+of<00:00:20.220><c> page</c><00:00:20.460><c> table</c><00:00:20.850><c> 10</c><00:00:21.390><c> cycles</c><00:00:21.689><c> talks</c><00:00:22.230><c> is</c><00:00:22.439><c> the</c>
+
+00:00:22.550 --> 00:00:22.560 align:start position:0%
+of page table 10 cycles talks is the
+ 
+
+00:00:22.560 --> 00:00:25.279 align:start position:0%
+of page table 10 cycles talks is the
+innermost<00:00:22.920><c> page</c><00:00:23.369><c> table</c><00:00:23.820><c> because</c><00:00:24.689><c> neither</c><00:00:25.019><c> of</c>
+
+00:00:25.279 --> 00:00:25.289 align:start position:0%
+innermost page table because neither of
+ 
+
+00:00:25.289 --> 00:00:28.759 align:start position:0%
+innermost page table because neither of
+those<00:00:25.439><c> can</c><00:00:26.010><c> be</c><00:00:26.160><c> cached</c><00:00:26.460><c> plus</c><00:00:27.390><c> we</c><00:00:28.080><c> need</c><00:00:28.260><c> to</c><00:00:28.410><c> do</c>
+
+00:00:28.759 --> 00:00:28.769 align:start position:0%
+those can be cached plus we need to do
+ 
+
+00:00:28.769 --> 00:00:31.099 align:start position:0%
+those can be cached plus we need to do
+the<00:00:28.949><c> actual</c><00:00:29.310><c> cache</c><00:00:29.609><c> access</c><00:00:30.119><c> and</c><00:00:30.359><c> maybe</c><00:00:30.750><c> the</c>
+
+00:00:31.099 --> 00:00:31.109 align:start position:0%
+the actual cache access and maybe the
+ 
+
+00:00:31.109 --> 00:00:35.479 align:start position:0%
+the actual cache access and maybe the
+memory<00:00:31.439><c> so</c><00:00:31.949><c> overall</c><00:00:32.340><c> we</c><00:00:33.120><c> need</c><00:00:33.149><c> one</c><00:00:33.960><c> plus</c><00:00:34.649><c> three</c>
+
+00:00:35.479 --> 00:00:35.489 align:start position:0%
+memory so overall we need one plus three
+ 
+
+00:00:35.489 --> 00:00:38.389 align:start position:0%
+memory so overall we need one plus three
+levels<00:00:35.969><c> of</c><00:00:36.090><c> page</c><00:00:36.600><c> tables</c><00:00:37.110><c> times</c><00:00:37.980><c> memory</c>
+
+00:00:38.389 --> 00:00:38.399 align:start position:0%
+levels of page tables times memory
+ 
+
+00:00:38.399 --> 00:00:42.709 align:start position:0%
+levels of page tables times memory
+latency<00:00:39.059><c> plus</c><00:00:40.280><c> one</c><00:00:41.280><c> cycle</c><00:00:41.760><c> to</c><00:00:41.879><c> have</c><00:00:42.329><c> a</c><00:00:42.360><c> hit</c><00:00:42.690><c> in</c>
+
+00:00:42.709 --> 00:00:42.719 align:start position:0%
+latency plus one cycle to have a hit in
+ 
+
+00:00:42.719 --> 00:00:46.220 align:start position:0%
+latency plus one cycle to have a hit in
+our<00:00:42.989><c> cache</c><00:00:43.309><c> plus</c><00:00:44.309><c> ten</c><00:00:45.270><c> percent</c><00:00:45.510><c> of</c><00:00:45.899><c> the</c><00:00:46.020><c> time</c>
+
+00:00:46.220 --> 00:00:46.230 align:start position:0%
+our cache plus ten percent of the time
+ 
+
+00:00:46.230 --> 00:00:49.400 align:start position:0%
+our cache plus ten percent of the time
+we<00:00:46.739><c> have</c><00:00:46.980><c> a</c><00:00:47.219><c> miss</c><00:00:48.090><c> penalty</c><00:00:48.390><c> to</c><00:00:48.960><c> access</c><00:00:49.289><c> the</c>
+
+00:00:49.400 --> 00:00:49.410 align:start position:0%
+we have a miss penalty to access the
+ 
+
+00:00:49.410 --> 00:00:53.740 align:start position:0%
+we have a miss penalty to access the
+memory<00:00:49.680><c> this</c><00:00:50.489><c> ends</c><00:00:51.030><c> up</c><00:00:51.090><c> being</c><00:00:51.920><c> 33</c><00:00:52.920><c> cycles</c>
+
+00:00:53.740 --> 00:00:53.750 align:start position:0%
+memory this ends up being 33 cycles
+ 
+
+00:00:53.750 --> 00:00:56.810 align:start position:0%
+memory this ends up being 33 cycles
+thirty<00:00:54.750><c> of</c><00:00:54.870><c> which</c><00:00:55.110><c> are</c><00:00:55.800><c> to</c><00:00:56.129><c> access</c><00:00:56.460><c> the</c><00:00:56.579><c> page</c>
+
+00:00:56.810 --> 00:00:56.820 align:start position:0%
+thirty of which are to access the page
+ 
+
+00:00:56.820 --> 00:00:59.300 align:start position:0%
+thirty of which are to access the page
+tables
+

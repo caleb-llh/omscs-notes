@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.090 align:start position:0%
+ 
+so<00:00:00.480><c> let's</c><00:00:00.719><c> see</c><00:00:00.900><c> if</c><00:00:00.989><c> we</c><00:00:01.140><c> can</c><00:00:01.290><c> figure</c><00:00:01.500><c> out</c><00:00:01.589><c> a</c><00:00:01.890><c> raid</c>
+
+00:00:02.090 --> 00:00:02.100 align:start position:0%
+so let's see if we can figure out a raid
+ 
+
+00:00:02.100 --> 00:00:04.760 align:start position:0%
+so let's see if we can figure out a raid
+1<00:00:02.340><c> array</c><00:00:02.870><c> suppose</c><00:00:03.870><c> we</c><00:00:04.049><c> have</c><00:00:04.230><c> a</c><00:00:04.259><c> raid</c><00:00:04.529><c> 1</c><00:00:04.740><c> array</c>
+
+00:00:04.760 --> 00:00:04.770 align:start position:0%
+1 array suppose we have a raid 1 array
+ 
+
+00:00:04.770 --> 00:00:08.270 align:start position:0%
+1 array suppose we have a raid 1 array
+with<00:00:05.279><c> two</c><00:00:05.310><c> disks</c><00:00:05.970><c> and</c><00:00:06.319><c> for</c><00:00:07.319><c> a</c><00:00:07.350><c> single</c><00:00:07.649><c> disk</c><00:00:07.830><c> we</c>
+
+00:00:08.270 --> 00:00:08.280 align:start position:0%
+with two disks and for a single disk we
+ 
+
+00:00:08.280 --> 00:00:11.150 align:start position:0%
+with two disks and for a single disk we
+have<00:00:08.490><c> a</c><00:00:08.700><c> 200</c><00:00:09.330><c> gigabyte</c><00:00:09.780><c> capacity</c><00:00:10.160><c> 10</c>
+
+00:00:11.150 --> 00:00:11.160 align:start position:0%
+have a 200 gigabyte capacity 10
+ 
+
+00:00:11.160 --> 00:00:14.089 align:start position:0%
+have a 200 gigabyte capacity 10
+megabytes<00:00:11.730><c> per</c><00:00:12.059><c> second</c><00:00:12.719><c> throughput</c><00:00:12.960><c> and</c><00:00:13.410><c> the</c>
+
+00:00:14.089 --> 00:00:14.099 align:start position:0%
+megabytes per second throughput and the
+ 
+
+00:00:14.099 --> 00:00:17.450 align:start position:0%
+megabytes per second throughput and the
+MTTF<00:00:14.670><c> of</c><00:00:14.790><c> a</c><00:00:15.210><c> hundred</c><00:00:15.570><c> thousand</c><00:00:15.929><c> hours</c><00:00:16.230><c> in</c><00:00:16.470><c> that</c>
+
+00:00:17.450 --> 00:00:17.460 align:start position:0%
+MTTF of a hundred thousand hours in that
+ 
+
+00:00:17.460 --> 00:00:20.179 align:start position:0%
+MTTF of a hundred thousand hours in that
+case<00:00:17.730><c> our</c><00:00:18.000><c> two</c><00:00:18.330><c> disk</c><00:00:18.600><c> raid</c><00:00:19.020><c> 1</c><00:00:19.289><c> array</c><00:00:19.320><c> has</c><00:00:19.800><c> a</c>
+
+00:00:20.179 --> 00:00:20.189 align:start position:0%
+case our two disk raid 1 array has a
+ 
+
+00:00:20.189 --> 00:00:23.630 align:start position:0%
+case our two disk raid 1 array has a
+data<00:00:21.119><c> capacity</c><00:00:21.779><c> of</c><00:00:21.990><c> how</c><00:00:22.410><c> many</c><00:00:22.740><c> gigabytes</c><00:00:23.100><c> a</c>
+
+00:00:23.630 --> 00:00:23.640 align:start position:0%
+data capacity of how many gigabytes a
+ 
+
+00:00:23.640 --> 00:00:27.230 align:start position:0%
+data capacity of how many gigabytes a
+throughput<00:00:24.570><c> of</c><00:00:25.019><c> how</c><00:00:25.800><c> many</c><00:00:26.099><c> megabytes</c><00:00:27.029><c> per</c>
+
+00:00:27.230 --> 00:00:27.240 align:start position:0%
+throughput of how many megabytes per
+ 
+
+00:00:27.240 --> 00:00:28.040 align:start position:0%
+throughput of how many megabytes per
+second
+
+00:00:28.040 --> 00:00:28.050 align:start position:0%
+second
+ 
+
+00:00:28.050 --> 00:00:30.470 align:start position:0%
+second
+assuming<00:00:28.980><c> that</c><00:00:29.160><c> we</c><00:00:29.310><c> do</c><00:00:29.460><c> equal</c><00:00:29.910><c> numbers</c><00:00:30.269><c> of</c>
+
+00:00:30.470 --> 00:00:30.480 align:start position:0%
+assuming that we do equal numbers of
+ 
+
+00:00:30.480 --> 00:00:31.669 align:start position:0%
+assuming that we do equal numbers of
+reads<00:00:30.779><c> and</c><00:00:30.960><c> writes</c>
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+reads and writes
+ 
+
+00:00:31.679 --> 00:00:35.540 align:start position:0%
+reads and writes
+and<00:00:31.830><c> finally</c><00:00:32.820><c> our</c><00:00:33.000><c> MTTF</c><00:00:33.660><c> is</c><00:00:34.320><c> equal</c><00:00:34.829><c> to</c><00:00:35.010><c> how</c>
+
+00:00:35.540 --> 00:00:35.550 align:start position:0%
+and finally our MTTF is equal to how
+ 
+
+00:00:35.550 --> 00:00:38.840 align:start position:0%
+and finally our MTTF is equal to how
+many<00:00:35.610><c> hours</c><00:00:36.149><c> and</c><00:00:36.930><c> for</c><00:00:37.710><c> this</c><00:00:37.860><c> type</c><00:00:38.160><c> of</c><00:00:38.340><c> array</c><00:00:38.640><c> we</c>
+
+00:00:38.840 --> 00:00:38.850 align:start position:0%
+many hours and for this type of array we
+ 
+
+00:00:38.850 --> 00:00:41.270 align:start position:0%
+many hours and for this type of array we
+also<00:00:39.030><c> need</c><00:00:39.390><c> to</c><00:00:39.510><c> know</c><00:00:39.829><c> whether</c><00:00:40.829><c> we</c><00:00:41.129><c> replace</c>
+
+00:00:41.270 --> 00:00:41.280 align:start position:0%
+also need to know whether we replace
+ 
+
+00:00:41.280 --> 00:00:43.100 align:start position:0%
+also need to know whether we replace
+failed<00:00:41.940><c> disks</c><00:00:42.420><c> or</c><00:00:42.570><c> not</c>
+
+00:00:43.100 --> 00:00:43.110 align:start position:0%
+failed disks or not
+ 
+
+00:00:43.110 --> 00:00:45.860 align:start position:0%
+failed disks or not
+so<00:00:43.620><c> here</c><00:00:44.040><c> assume</c><00:00:44.610><c> that</c><00:00:44.820><c> we</c><00:00:45.000><c> do</c><00:00:45.210><c> replace</c><00:00:45.510><c> the</c>
+
+00:00:45.860 --> 00:00:45.870 align:start position:0%
+so here assume that we do replace the
+ 
+
+00:00:45.870 --> 00:00:47.959 align:start position:0%
+so here assume that we do replace the
+failed<00:00:46.110><c> disk</c><00:00:46.320><c> and</c><00:00:46.710><c> at</c><00:00:47.340><c> the</c><00:00:47.489><c> mean</c><00:00:47.670><c> time</c><00:00:47.940><c> to</c>
+
+00:00:47.959 --> 00:00:47.969 align:start position:0%
+failed disk and at the mean time to
+ 
+
+00:00:47.969 --> 00:00:50.840 align:start position:0%
+failed disk and at the mean time to
+repair<00:00:48.469><c> meaning</c><00:00:49.469><c> the</c><00:00:49.890><c> mean</c><00:00:50.070><c> time</c><00:00:50.340><c> it</c><00:00:50.489><c> takes</c><00:00:50.700><c> us</c>
+
+00:00:50.840 --> 00:00:50.850 align:start position:0%
+repair meaning the mean time it takes us
+ 
+
+00:00:50.850 --> 00:00:55.129 align:start position:0%
+repair meaning the mean time it takes us
+to<00:00:50.910><c> replace</c><00:00:51.360><c> the</c><00:00:51.600><c> failed</c><00:00:51.750><c> disk</c><00:00:51.989><c> is</c><00:00:52.260><c> 24</c><00:00:52.800><c> hours</c>
+

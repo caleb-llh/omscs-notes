@@ -1,0 +1,224 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.760 align:start position:0%
+ 
+let's<00:00:00.329><c> take</c><00:00:00.539><c> a</c><00:00:00.570><c> moment</c><00:00:00.810><c> to</c><00:00:01.050><c> check</c><00:00:01.140><c> if</c><00:00:01.620><c> we</c>
+
+00:00:01.760 --> 00:00:01.770 align:start position:0%
+let's take a moment to check if we
+ 
+
+00:00:01.770 --> 00:00:03.770 align:start position:0%
+let's take a moment to check if we
+understand<00:00:02.280><c> how</c><00:00:02.490><c> write-update</c><00:00:03.030><c> coherence</c>
+
+00:00:03.770 --> 00:00:03.780 align:start position:0%
+understand how write-update coherence
+ 
+
+00:00:03.780 --> 00:00:04.400 align:start position:0%
+understand how write-update coherence
+works
+
+00:00:04.400 --> 00:00:04.410 align:start position:0%
+works
+ 
+
+00:00:04.410 --> 00:00:08.299 align:start position:0%
+works
+suppose<00:00:05.069><c> that</c><00:00:05.100><c> the</c><00:00:05.370><c> core</c><00:00:05.670><c> has</c><00:00:06.450><c> a</c><00:00:06.810><c> single</c><00:00:07.529><c> block</c>
+
+00:00:08.299 --> 00:00:08.309 align:start position:0%
+suppose that the core has a single block
+ 
+
+00:00:08.309 --> 00:00:12.560 align:start position:0%
+suppose that the core has a single block
+cache<00:00:09.230><c> with</c><00:00:10.230><c> a</c><00:00:10.260><c> valid</c><00:00:10.769><c> bit</c><00:00:11.010><c> a</c><00:00:11.250><c> tag</c><00:00:11.820><c> and</c><00:00:12.179><c> the</c>
+
+00:00:12.560 --> 00:00:12.570 align:start position:0%
+cache with a valid bit a tag and the
+ 
+
+00:00:12.570 --> 00:00:15.379 align:start position:0%
+cache with a valid bit a tag and the
+data<00:00:12.809><c> and</c><00:00:13.320><c> suppose</c><00:00:14.250><c> that</c><00:00:14.400><c> we</c><00:00:14.519><c> have</c><00:00:14.670><c> for</c><00:00:15.059><c> such</c>
+
+00:00:15.379 --> 00:00:15.389 align:start position:0%
+data and suppose that we have for such
+ 
+
+00:00:15.389 --> 00:00:19.010 align:start position:0%
+data and suppose that we have for such
+cores<00:00:16.190><c> numbered</c><00:00:17.190><c> 0</c><00:00:17.580><c> 1</c><00:00:17.970><c> 2</c><00:00:18.359><c> &amp;</c><00:00:18.600><c> 3</c>
+
+00:00:19.010 --> 00:00:19.020 align:start position:0%
+cores numbered 0 1 2 &amp; 3
+ 
+
+00:00:19.020 --> 00:00:22.779 align:start position:0%
+cores numbered 0 1 2 &amp; 3
+suppose<00:00:19.680><c> that</c><00:00:19.920><c> core</c><00:00:20.369><c> 0</c><00:00:20.640><c> reads</c><00:00:20.970><c> from</c><00:00:21.510><c> 700</c><00:00:22.350><c> first</c>
+
+00:00:22.779 --> 00:00:22.789 align:start position:0%
+suppose that core 0 reads from 700 first
+ 
+
+00:00:22.789 --> 00:00:27.470 align:start position:0%
+suppose that core 0 reads from 700 first
+so<00:00:23.789><c> now</c><00:00:23.939><c> it</c><00:00:24.180><c> gets</c><00:00:24.590><c> the</c><00:00:25.590><c> valid</c><00:00:25.949><c> bit</c><00:00:26.099><c> to</c><00:00:26.279><c> be</c><00:00:26.430><c> 1</c><00:00:26.670><c> the</c>
+
+00:00:27.470 --> 00:00:27.480 align:start position:0%
+so now it gets the valid bit to be 1 the
+ 
+
+00:00:27.480 --> 00:00:30.620 align:start position:0%
+so now it gets the valid bit to be 1 the
+tag<00:00:27.810><c> is</c><00:00:28.140><c> 700</c><00:00:29.010><c> and</c><00:00:29.250><c> let's</c><00:00:29.939><c> say</c><00:00:30.119><c> that</c><00:00:30.269><c> the</c><00:00:30.420><c> data</c>
+
+00:00:30.620 --> 00:00:30.630 align:start position:0%
+tag is 700 and let's say that the data
+ 
+
+00:00:30.630 --> 00:00:31.930 align:start position:0%
+tag is 700 and let's say that the data
+trees<00:00:31.109><c> is</c><00:00:31.349><c> 6</c>
+
+00:00:31.930 --> 00:00:31.940 align:start position:0%
+trees is 6
+ 
+
+00:00:31.940 --> 00:00:36.080 align:start position:0%
+trees is 6
+after<00:00:32.940><c> this</c><00:00:33.200><c> core</c><00:00:34.200><c> 1</c><00:00:34.500><c> reads</c><00:00:34.890><c> the</c><00:00:35.880><c> same</c>
+
+00:00:36.080 --> 00:00:36.090 align:start position:0%
+after this core 1 reads the same
+ 
+
+00:00:36.090 --> 00:00:40.549 align:start position:0%
+after this core 1 reads the same
+location<00:00:37.010><c> then</c><00:00:38.010><c> Core</c><00:00:38.370><c> 2</c><00:00:38.610><c> writes</c><00:00:39.030><c> a</c><00:00:39.480><c> value</c><00:00:40.440><c> of</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+location then Core 2 writes a value of
+ 
+
+00:00:40.559 --> 00:00:45.260 align:start position:0%
+location then Core 2 writes a value of
+17<00:00:41.340><c> into</c><00:00:41.969><c> this</c><00:00:42.180><c> location</c><00:00:42.870><c> and</c><00:00:43.079><c> finally</c><00:00:44.270><c> core</c>
+
+00:00:45.260 --> 00:00:45.270 align:start position:0%
+17 into this location and finally core
+ 
+
+00:00:45.270 --> 00:00:48.500 align:start position:0%
+17 into this location and finally core
+tree<00:00:45.570><c> reads</c><00:00:46.200><c> from</c><00:00:46.739><c> that</c><00:00:46.920><c> location</c><00:00:47.250><c> after</c><00:00:47.670><c> all</c>
+
+00:00:48.500 --> 00:00:48.510 align:start position:0%
+tree reads from that location after all
+ 
+
+00:00:48.510 --> 00:00:52.670 align:start position:0%
+tree reads from that location after all
+this<00:00:48.750><c> in</c><00:00:49.350><c> core</c><00:00:50.010><c> 0</c><00:00:50.420><c> what</c><00:00:51.420><c> is</c><00:00:51.449><c> the</c><00:00:51.690><c> valid</c><00:00:52.289><c> bit</c><00:00:52.469><c> in</c>
+
+00:00:52.670 --> 00:00:52.680 align:start position:0%
+this in core 0 what is the valid bit in
+ 
+
+00:00:52.680 --> 00:00:56.060 align:start position:0%
+this in core 0 what is the valid bit in
+the<00:00:52.800><c> cache</c><00:00:53.070><c> the</c><00:00:53.730><c> tag</c><00:00:54.000><c> is</c><00:00:54.210><c> still</c><00:00:54.300><c> 700</c><00:00:55.260><c> and</c><00:00:55.469><c> what</c>
+
+00:00:56.060 --> 00:00:56.070 align:start position:0%
+the cache the tag is still 700 and what
+ 
+
+00:00:56.070 --> 00:00:58.639 align:start position:0%
+the cache the tag is still 700 and what
+is<00:00:56.280><c> the</c><00:00:56.460><c> data</c><00:00:56.640><c> that</c><00:00:57.030><c> we</c><00:00:57.180><c> get</c><00:00:57.390><c> and</c><00:00:57.660><c> the</c><00:00:58.379><c> same</c>
+
+00:00:58.639 --> 00:00:58.649 align:start position:0%
+is the data that we get and the same
+ 
+
+00:00:58.649 --> 00:01:00.650 align:start position:0%
+is the data that we get and the same
+four<00:00:59.010><c> cores</c><00:00:59.309><c> one</c><00:00:59.670><c> two</c><00:00:59.969><c> and</c><00:01:00.149><c> three</c>
+
+00:01:00.650 --> 00:01:00.660 align:start position:0%
+four cores one two and three
+ 
+
+00:01:00.660 --> 00:01:02.720 align:start position:0%
+four cores one two and three
+what<00:01:01.109><c> is</c><00:01:01.320><c> the</c><00:01:01.500><c> valid</c><00:01:01.859><c> bit</c><00:01:02.039><c> in</c><00:01:02.280><c> each</c><00:01:02.430><c> of</c><00:01:02.609><c> these</c>
+
+00:01:02.720 --> 00:01:02.730 align:start position:0%
+what is the valid bit in each of these
+ 
+
+00:01:02.730 --> 00:01:06.260 align:start position:0%
+what is the valid bit in each of these
+caches<00:01:03.059><c> and</c><00:01:03.539><c> what's</c><00:01:04.409><c> the</c><00:01:04.680><c> data</c><00:01:04.949><c> value</c><00:01:05.880><c> placed</c>
+
+00:01:06.260 --> 00:01:06.270 align:start position:0%
+caches and what's the data value placed
+ 
+
+00:01:06.270 --> 00:01:08.899 align:start position:0%
+caches and what's the data value placed
+here<00:01:06.600><c> you</c><00:01:07.439><c> can</c><00:01:07.650><c> use</c><00:01:07.799><c> this</c><00:01:08.040><c> as</c><00:01:08.250><c> an</c><00:01:08.400><c> example</c>
+
+00:01:08.899 --> 00:01:08.909 align:start position:0%
+here you can use this as an example
+ 
+
+00:01:08.909 --> 00:01:11.149 align:start position:0%
+here you can use this as an example
+where<00:01:09.090><c> the</c><00:01:09.240><c> valid</c><00:01:09.540><c> bit</c><00:01:09.720><c> is</c><00:01:09.750><c> either</c><00:01:10.049><c> 1</c><00:01:10.380><c> or</c><00:01:10.409><c> 0</c><00:01:10.590><c> and</c>
+
+00:01:11.149 --> 00:01:11.159 align:start position:0%
+where the valid bit is either 1 or 0 and
+ 
+
+00:01:11.159 --> 00:01:14.690 align:start position:0%
+where the valid bit is either 1 or 0 and
+the<00:01:12.150><c> data</c><00:01:12.530><c> value</c><00:01:13.530><c> in</c><00:01:13.650><c> this</c><00:01:13.860><c> case</c><00:01:14.100><c> is</c><00:01:14.280><c> 6</c>
+
+00:01:14.690 --> 00:01:14.700 align:start position:0%
+the data value in this case is 6
+ 
+
+00:01:14.700 --> 00:01:17.539 align:start position:0%
+the data value in this case is 6
+after<00:01:15.240><c> this</c><00:01:15.450><c> read</c><00:01:15.720><c> so</c><00:01:16.560><c> what's</c><00:01:16.799><c> going</c><00:01:17.070><c> on</c><00:01:17.250><c> in</c>
+
+00:01:17.539 --> 00:01:17.549 align:start position:0%
+after this read so what's going on in
+ 
+
+00:01:17.549 --> 00:01:20.300 align:start position:0%
+after this read so what's going on in
+these<00:01:17.790><c> 4</c><00:01:18.090><c> caches</c><00:01:18.659><c> after</c><00:01:19.290><c> we</c><00:01:19.439><c> do</c><00:01:19.590><c> this</c><00:01:19.770><c> sequence</c>
+
+00:01:20.300 --> 00:01:20.310 align:start position:0%
+these 4 caches after we do this sequence
+ 
+
+00:01:20.310 --> 00:01:22.580 align:start position:0%
+these 4 caches after we do this sequence
+we<00:01:20.909><c> complete</c><00:01:21.330><c> this</c><00:01:21.570><c> then</c><00:01:21.960><c> this</c><00:01:22.200><c> then</c><00:01:22.530><c> this</c>
+
+00:01:22.580 --> 00:01:22.590 align:start position:0%
+we complete this then this then this
+ 
+
+00:01:22.590 --> 00:01:25.130 align:start position:0%
+we complete this then this then this
+then<00:01:22.799><c> this</c>
+

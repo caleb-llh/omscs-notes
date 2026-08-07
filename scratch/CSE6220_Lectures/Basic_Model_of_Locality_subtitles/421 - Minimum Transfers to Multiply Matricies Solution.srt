@@ -1,0 +1,36 @@
+1
+00:00:00,310 --> 00:00:01,910
+ Here's what I was looking for.
+
+2
+00:00:01,910 --> 00:00:05,040
+ It's just the trivial lower bound of n squared over L.
+
+3
+00:00:05,040 --> 00:00:08,200
+ The n squared just counts the number of matrix elements
+
+4
+00:00:08,200 --> 00:00:12,590
+ dividing by L diverts n squared into some number of transfers.
+
+5
+00:00:12,590 --> 00:00:14,300
+ Now if you're really way ahead of the game,
+
+6
+00:00:14,300 --> 00:00:17,740
+ you might happen to know the much tighter lower bound.
+
+7
+00:00:17,740 --> 00:00:19,880
+ I would not have expected you to guess this, but
+
+8
+00:00:19,880 --> 00:00:22,340
+ if you did I am definitely impressed.
+
+9
+00:00:22,340 --> 00:00:22,340
+ Anyway, we'll hopefully get to this at some point in the near future.
+

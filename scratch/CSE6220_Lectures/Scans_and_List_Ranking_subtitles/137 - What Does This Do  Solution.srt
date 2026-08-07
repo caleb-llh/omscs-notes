@@ -1,0 +1,28 @@
+1
+00:00:00,310 --> 00:00:03,890
+ There are several possible interpretations of what foo does.
+
+2
+00:00:03,890 --> 00:00:05,990
+ Here are two things I might have said.
+
+3
+00:00:05,990 --> 00:00:08,300
+ One is that it reverses the list.
+
+4
+00:00:08,300 --> 00:00:13,735
+ The second is that it computes an array P such that the collection V,
+
+5
+00:00:13,735 --> 00:00:17,405
+ N, and P is now a doubly linked list.
+
+6
+00:00:17,405 --> 00:00:20,935
+ You can see that it iterates over the next pointers.
+
+7
+00:00:20,935 --> 00:00:20,935
+ For each next pointer, it sets the next pointer's P value to itself.
+

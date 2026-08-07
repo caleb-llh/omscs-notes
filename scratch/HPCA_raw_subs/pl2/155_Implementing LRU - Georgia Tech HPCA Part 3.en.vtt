@@ -1,0 +1,936 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.440 --> 00:00:02.070 align:start position:0%
+ 
+so<00:00:00.680><c> how</c><00:00:00.799><c> do</c><00:00:00.960><c> we</c><00:00:01.160><c> implement</c><00:00:01.640><c> the</c><00:00:01.800><c> least</c>
+
+00:00:02.070 --> 00:00:02.080 align:start position:0%
+so how do we implement the least
+ 
+
+00:00:02.080 --> 00:00:03.909 align:start position:0%
+so how do we implement the least
+recently<00:00:02.520><c> used</c><00:00:02.840><c> policy</c><00:00:03.240><c> that</c><00:00:03.399><c> works</c><00:00:03.679><c> really</c>
+
+00:00:03.909 --> 00:00:03.919 align:start position:0%
+recently used policy that works really
+ 
+
+00:00:03.919 --> 00:00:05.829 align:start position:0%
+recently used policy that works really
+well<00:00:04.240><c> and</c><00:00:04.400><c> it</c><00:00:04.520><c> works</c><00:00:04.839><c> really</c><00:00:05.080><c> well</c><00:00:05.400><c> because</c><00:00:05.640><c> it</c>
+
+00:00:05.829 --> 00:00:05.839 align:start position:0%
+well and it works really well because it
+ 
+
+00:00:05.839 --> 00:00:08.589 align:start position:0%
+well and it works really well because it
+exploits<00:00:06.359><c> locality</c><00:00:07.359><c> the</c><00:00:07.480><c> most</c><00:00:07.759><c> recently</c><00:00:08.280><c> used</c>
+
+00:00:08.589 --> 00:00:08.599 align:start position:0%
+exploits locality the most recently used
+ 
+
+00:00:08.599 --> 00:00:11.589 align:start position:0%
+exploits locality the most recently used
+thing<00:00:09.440><c> is</c><00:00:09.679><c> likely</c><00:00:10.000><c> to</c><00:00:10.160><c> be</c><00:00:10.719><c> used</c><00:00:11.120><c> very</c><00:00:11.320><c> soon</c>
+
+00:00:11.589 --> 00:00:11.599 align:start position:0%
+thing is likely to be used very soon
+ 
+
+00:00:11.599 --> 00:00:13.270 align:start position:0%
+thing is likely to be used very soon
+afterwards<00:00:12.320><c> the</c><00:00:12.480><c> thing</c><00:00:12.679><c> that</c><00:00:12.799><c> we</c><00:00:13.000><c> haven't</c>
+
+00:00:13.270 --> 00:00:13.280 align:start position:0%
+afterwards the thing that we haven't
+ 
+
+00:00:13.280 --> 00:00:15.150 align:start position:0%
+afterwards the thing that we haven't
+used<00:00:13.559><c> for</c><00:00:13.719><c> a</c><00:00:13.880><c> while</c><00:00:14.400><c> means</c><00:00:14.679><c> that</c><00:00:14.839><c> there</c><00:00:14.960><c> is</c>
+
+00:00:15.150 --> 00:00:15.160 align:start position:0%
+used for a while means that there is
+ 
+
+00:00:15.160 --> 00:00:17.590 align:start position:0%
+used for a while means that there is
+less<00:00:15.400><c> reason</c><00:00:15.679><c> for</c><00:00:16.000><c> locality</c><00:00:16.560><c> to</c><00:00:16.840><c> kind</c><00:00:16.960><c> of</c>
+
+00:00:17.590 --> 00:00:17.600 align:start position:0%
+less reason for locality to kind of
+ 
+
+00:00:17.600 --> 00:00:19.750 align:start position:0%
+less reason for locality to kind of
+cause<00:00:17.840><c> it</c><00:00:17.960><c> to</c><00:00:18.080><c> be</c><00:00:18.240><c> accessed</c><00:00:18.680><c> again</c><00:00:19.359><c> let's</c><00:00:19.560><c> say</c>
+
+00:00:19.750 --> 00:00:19.760 align:start position:0%
+cause it to be accessed again let's say
+ 
+
+00:00:19.760 --> 00:00:21.790 align:start position:0%
+cause it to be accessed again let's say
+we<00:00:19.880><c> have</c><00:00:20.080><c> a</c><00:00:20.199><c> four-way</c><00:00:20.680><c> set</c><00:00:20.920><c> assertive</c><00:00:21.480><c> cache</c>
+
+00:00:21.790 --> 00:00:21.800 align:start position:0%
+we have a four-way set assertive cache
+ 
+
+00:00:21.800 --> 00:00:23.509 align:start position:0%
+we have a four-way set assertive cache
+and<00:00:21.960><c> let's</c><00:00:22.160><c> just</c><00:00:22.359><c> track</c><00:00:22.720><c> what's</c><00:00:22.960><c> happening</c><00:00:23.320><c> in</c>
+
+00:00:23.509 --> 00:00:23.519 align:start position:0%
+and let's just track what's happening in
+ 
+
+00:00:23.519 --> 00:00:25.550 align:start position:0%
+and let's just track what's happening in
+this<00:00:23.680><c> one</c><00:00:24.000><c> set</c><00:00:24.279><c> so</c><00:00:24.480><c> there</c><00:00:24.560><c> is</c><00:00:24.760><c> four</c><00:00:25.039><c> blocks</c><00:00:25.400><c> in</c>
+
+00:00:25.550 --> 00:00:25.560 align:start position:0%
+this one set so there is four blocks in
+ 
+
+00:00:25.560 --> 00:00:27.750 align:start position:0%
+this one set so there is four blocks in
+it<00:00:26.119><c> for</c><00:00:26.359><c> each</c><00:00:26.519><c> of</c><00:00:26.679><c> these</c><00:00:26.880><c> blocks</c><00:00:27.240><c> we</c><00:00:27.359><c> keep</c><00:00:27.560><c> the</c>
+
+00:00:27.750 --> 00:00:27.760 align:start position:0%
+it for each of these blocks we keep the
+ 
+
+00:00:27.760 --> 00:00:31.029 align:start position:0%
+it for each of these blocks we keep the
+tag<00:00:28.400><c> and</c><00:00:28.560><c> the</c><00:00:28.760><c> valid</c><00:00:29.119><c> bit</c><00:00:30.279><c> and</c><00:00:30.439><c> in</c><00:00:30.560><c> order</c><00:00:30.840><c> to</c>
+
+00:00:31.029 --> 00:00:31.039 align:start position:0%
+tag and the valid bit and in order to
+ 
+
+00:00:31.039 --> 00:00:33.869 align:start position:0%
+tag and the valid bit and in order to
+track<00:00:31.480><c> which</c><00:00:31.720><c> block</c><00:00:32.200><c> was</c><00:00:32.520><c> accessed</c><00:00:32.920><c> to</c><00:00:33.160><c> when</c>
+
+00:00:33.869 --> 00:00:33.879 align:start position:0%
+track which block was accessed to when
+ 
+
+00:00:33.879 --> 00:00:36.549 align:start position:0%
+track which block was accessed to when
+we're<00:00:34.120><c> going</c><00:00:34.360><c> to</c><00:00:34.600><c> also</c><00:00:34.920><c> have</c><00:00:35.160><c> an</c><00:00:35.360><c> lru</c><00:00:36.000><c> counter</c>
+
+00:00:36.549 --> 00:00:36.559 align:start position:0%
+we're going to also have an lru counter
+ 
+
+00:00:36.559 --> 00:00:39.709 align:start position:0%
+we're going to also have an lru counter
+for<00:00:36.800><c> each</c><00:00:37.040><c> block</c><00:00:37.960><c> these</c><00:00:38.280><c> counters</c><00:00:39.280><c> take</c>
+
+00:00:39.709 --> 00:00:39.719 align:start position:0%
+for each block these counters take
+ 
+
+00:00:39.719 --> 00:00:42.470 align:start position:0%
+for each block these counters take
+values<00:00:40.719><c> that</c><00:00:40.960><c> correspond</c><00:00:41.680><c> to</c><00:00:41.840><c> the</c><00:00:42.039><c> size</c><00:00:42.280><c> of</c>
+
+00:00:42.470 --> 00:00:42.480 align:start position:0%
+values that correspond to the size of
+ 
+
+00:00:42.480 --> 00:00:44.950 align:start position:0%
+values that correspond to the size of
+the<00:00:42.640><c> set</c><00:00:43.120><c> in</c><00:00:43.320><c> this</c><00:00:43.520><c> case</c><00:00:43.840><c> 0</c><00:00:44.239><c> through</c><00:00:44.480><c> three</c>
+
+00:00:44.950 --> 00:00:44.960 align:start position:0%
+the set in this case 0 through three
+ 
+
+00:00:44.960 --> 00:00:47.670 align:start position:0%
+the set in this case 0 through three
+because<00:00:45.200><c> there</c><00:00:45.280><c> are</c><00:00:45.440><c> four</c><00:00:45.760><c> things</c><00:00:46.039><c> in</c><00:00:46.199><c> the</c><00:00:46.680><c> set</c>
+
+00:00:47.670 --> 00:00:47.680 align:start position:0%
+because there are four things in the set
+ 
+
+00:00:47.680 --> 00:00:50.590 align:start position:0%
+because there are four things in the set
+so<00:00:47.879><c> let's</c><00:00:48.160><c> initialize</c><00:00:48.800><c> them</c><00:00:48.960><c> to</c><00:00:49.239><c> 0</c><00:00:49.640><c> 1</c><00:00:50.039><c> 2</c><00:00:50.399><c> and</c>
+
+00:00:50.590 --> 00:00:50.600 align:start position:0%
+so let's initialize them to 0 1 2 and
+ 
+
+00:00:50.600 --> 00:00:52.950 align:start position:0%
+so let's initialize them to 0 1 2 and
+three<00:00:51.399><c> they</c><00:00:51.600><c> have</c><00:00:51.760><c> to</c><00:00:51.920><c> all</c><00:00:52.120><c> be</c><00:00:52.320><c> different</c><00:00:52.800><c> all</c>
+
+00:00:52.950 --> 00:00:52.960 align:start position:0%
+three they have to all be different all
+ 
+
+00:00:52.960 --> 00:00:55.150 align:start position:0%
+three they have to all be different all
+the<00:00:53.199><c> time</c><00:00:53.760><c> and</c><00:00:53.960><c> we</c><00:00:54.079><c> will</c><00:00:54.239><c> see</c><00:00:54.520><c> how</c><00:00:54.800><c> that</c><00:00:54.960><c> is</c>
+
+00:00:55.150 --> 00:00:55.160 align:start position:0%
+the time and we will see how that is
+ 
+
+00:00:55.160 --> 00:00:58.590 align:start position:0%
+the time and we will see how that is
+maintained<00:00:56.160><c> so</c><00:00:56.320><c> we</c><00:00:56.480><c> start</c><00:00:56.840><c> like</c><00:00:57.280><c> this</c><00:00:58.280><c> when</c><00:00:58.480><c> we</c>
+
+00:00:58.590 --> 00:00:58.600 align:start position:0%
+maintained so we start like this when we
+ 
+
+00:00:58.600 --> 00:01:00.830 align:start position:0%
+maintained so we start like this when we
+want<00:00:58.800><c> to</c><00:00:59.039><c> replace</c><00:00:59.519><c> something</c>
+
+00:01:00.830 --> 00:01:00.840 align:start position:0%
+want to replace something
+ 
+
+00:01:00.840 --> 00:01:03.270 align:start position:0%
+want to replace something
+we<00:01:00.960><c> will</c><00:01:01.239><c> replace</c><00:01:02.239><c> the</c><00:01:02.399><c> block</c><00:01:02.760><c> whose</c><00:01:02.960><c> counter</c>
+
+00:01:03.270 --> 00:01:03.280 align:start position:0%
+we will replace the block whose counter
+ 
+
+00:01:03.280 --> 00:01:04.869 align:start position:0%
+we will replace the block whose counter
+is<00:01:03.440><c> currently</c><00:01:03.879><c> zero</c><00:01:04.280><c> because</c><00:01:04.559><c> that's</c><00:01:04.760><c> going</c>
+
+00:01:04.869 --> 00:01:04.879 align:start position:0%
+is currently zero because that's going
+ 
+
+00:01:04.879 --> 00:01:07.390 align:start position:0%
+is currently zero because that's going
+to<00:01:05.000><c> be</c><00:01:05.159><c> the</c><00:01:05.280><c> least</c><00:01:05.560><c> recently</c><00:01:05.960><c> used</c><00:01:06.280><c> block</c><00:01:07.159><c> so</c>
+
+00:01:07.390 --> 00:01:07.400 align:start position:0%
+to be the least recently used block so
+ 
+
+00:01:07.400 --> 00:01:09.789 align:start position:0%
+to be the least recently used block so
+let's<00:01:07.600><c> say</c><00:01:07.799><c> that</c><00:01:07.960><c> we</c><00:01:08.119><c> access</c><00:01:08.400><c> some</c><00:01:08.600><c> block</c><00:01:08.880><c> a</c>
+
+00:01:09.789 --> 00:01:09.799 align:start position:0%
+let's say that we access some block a
+ 
+
+00:01:09.799 --> 00:01:11.990 align:start position:0%
+let's say that we access some block a
+and<00:01:09.960><c> we</c><00:01:10.040><c> need</c><00:01:10.240><c> to</c><00:01:10.439><c> put</c><00:01:10.600><c> it</c><00:01:10.920><c> somewhere</c><00:01:11.600><c> we</c><00:01:11.680><c> will</c>
+
+00:01:11.990 --> 00:01:12.000 align:start position:0%
+and we need to put it somewhere we will
+ 
+
+00:01:12.000 --> 00:01:15.030 align:start position:0%
+and we need to put it somewhere we will
+choose<00:01:13.000><c> the</c><00:01:13.240><c> place</c><00:01:13.720><c> with</c><00:01:13.880><c> a</c><00:01:14.040><c> zero</c><00:01:14.400><c> counter</c><00:01:14.840><c> and</c>
+
+00:01:15.030 --> 00:01:15.040 align:start position:0%
+choose the place with a zero counter and
+ 
+
+00:01:15.040 --> 00:01:18.109 align:start position:0%
+choose the place with a zero counter and
+put<00:01:15.200><c> it</c><00:01:15.439><c> there</c><00:01:16.320><c> now</c><00:01:16.600><c> that</c><00:01:16.759><c> the</c><00:01:16.920><c> block</c><00:01:17.840><c> is</c>
+
+00:01:18.109 --> 00:01:18.119 align:start position:0%
+put it there now that the block is
+ 
+
+00:01:18.119 --> 00:01:22.469 align:start position:0%
+put it there now that the block is
+placed<00:01:19.079><c> there</c><00:01:20.079><c> the</c><00:01:20.240><c> processor</c><00:01:20.720><c> accesses</c><00:01:21.479><c> it</c>
+
+00:01:22.469 --> 00:01:22.479 align:start position:0%
+placed there the processor accesses it
+ 
+
+00:01:22.479 --> 00:01:24.190 align:start position:0%
+placed there the processor accesses it
+and<00:01:22.720><c> suddenly</c><00:01:23.240><c> this</c><00:01:23.400><c> becomes</c><00:01:23.720><c> the</c><00:01:23.920><c> most</c>
+
+00:01:24.190 --> 00:01:24.200 align:start position:0%
+and suddenly this becomes the most
+ 
+
+00:01:24.200 --> 00:01:26.630 align:start position:0%
+and suddenly this becomes the most
+recently<00:01:24.640><c> used</c><00:01:24.960><c> block</c><00:01:25.600><c> so</c><00:01:25.759><c> its</c><00:01:26.000><c> counter</c><00:01:26.479><c> now</c>
+
+00:01:26.630 --> 00:01:26.640 align:start position:0%
+recently used block so its counter now
+ 
+
+00:01:26.640 --> 00:01:28.749 align:start position:0%
+recently used block so its counter now
+needs<00:01:26.880><c> to</c><00:01:27.040><c> be</c><00:01:27.200><c> three</c><00:01:27.840><c> in</c><00:01:27.960><c> order</c><00:01:28.200><c> to</c><00:01:28.360><c> make</c><00:01:28.520><c> sure</c>
+
+00:01:28.749 --> 00:01:28.759 align:start position:0%
+needs to be three in order to make sure
+ 
+
+00:01:28.759 --> 00:01:30.230 align:start position:0%
+needs to be three in order to make sure
+that<00:01:28.960><c> all</c><00:01:29.079><c> of</c><00:01:29.200><c> the</c><00:01:29.320><c> counter</c><00:01:29.640><c> still</c><00:01:30.040><c> have</c>
+
+00:01:30.230 --> 00:01:30.240 align:start position:0%
+that all of the counter still have
+ 
+
+00:01:30.240 --> 00:01:31.910 align:start position:0%
+that all of the counter still have
+different<00:01:30.560><c> values</c><00:01:31.000><c> that</c><00:01:31.119><c> means</c><00:01:31.439><c> that</c><00:01:31.640><c> all</c><00:01:31.759><c> of</c>
+
+00:01:31.910 --> 00:01:31.920 align:start position:0%
+different values that means that all of
+ 
+
+00:01:31.920 --> 00:01:33.350 align:start position:0%
+different values that means that all of
+the<00:01:32.040><c> other</c><00:01:32.280><c> counters</c><00:01:32.720><c> now</c><00:01:32.840><c> need</c><00:01:33.040><c> to</c><00:01:33.159><c> be</c>
+
+00:01:33.350 --> 00:01:33.360 align:start position:0%
+the other counters now need to be
+ 
+
+00:01:33.360 --> 00:01:36.030 align:start position:0%
+the other counters now need to be
+decremented<00:01:34.360><c> so</c><00:01:34.640><c> the</c><00:01:34.759><c> one</c><00:01:35.040><c> that</c><00:01:35.200><c> was</c><00:01:35.439><c> one</c>
+
+00:01:36.030 --> 00:01:36.040 align:start position:0%
+decremented so the one that was one
+ 
+
+00:01:36.040 --> 00:01:39.870 align:start position:0%
+decremented so the one that was one
+becomes<00:01:36.920><c> zero</c><00:01:37.920><c> two</c><00:01:38.439><c> becomes</c><00:01:38.840><c> one</c><00:01:39.360><c> and</c><00:01:39.560><c> three</c>
+
+00:01:39.870 --> 00:01:39.880 align:start position:0%
+becomes zero two becomes one and three
+ 
+
+00:01:39.880 --> 00:01:42.350 align:start position:0%
+becomes zero two becomes one and three
+becomes<00:01:40.280><c> two</c><00:01:40.880><c> and</c><00:01:41.079><c> now</c><00:01:41.680><c> let's</c><00:01:41.880><c> say</c><00:01:42.040><c> that</c><00:01:42.200><c> we</c>
+
+00:01:42.350 --> 00:01:42.360 align:start position:0%
+becomes two and now let's say that we
+ 
+
+00:01:42.360 --> 00:01:44.709 align:start position:0%
+becomes two and now let's say that we
+access<00:01:42.640><c> some</c><00:01:42.880><c> Block</c><00:01:43.159><c> B</c><00:01:43.720><c> we</c><00:01:43.920><c> put</c><00:01:44.079><c> it</c><00:01:44.360><c> here</c>
+
+00:01:44.709 --> 00:01:44.719 align:start position:0%
+access some Block B we put it here
+ 
+
+00:01:44.719 --> 00:01:47.069 align:start position:0%
+access some Block B we put it here
+because<00:01:45.079><c> the</c><00:01:45.240><c> counter</c><00:01:45.560><c> is</c><00:01:45.719><c> zero</c><00:01:46.119><c> now</c><00:01:46.439><c> here</c>
+
+00:01:47.069 --> 00:01:47.079 align:start position:0%
+because the counter is zero now here
+ 
+
+00:01:47.079 --> 00:01:49.950 align:start position:0%
+because the counter is zero now here
+when<00:01:47.280><c> B</c><00:01:47.479><c> is</c><00:01:47.719><c> accessed</c><00:01:48.399><c> after</c><00:01:48.680><c> putting</c><00:01:49.000><c> it</c><00:01:49.240><c> here</c>
+
+00:01:49.950 --> 00:01:49.960 align:start position:0%
+when B is accessed after putting it here
+ 
+
+00:01:49.960 --> 00:01:52.230 align:start position:0%
+when B is accessed after putting it here
+that<00:01:50.200><c> counter</c><00:01:50.600><c> becomes</c><00:01:51.000><c> three</c><00:01:51.840><c> this</c><00:01:51.960><c> one</c>
+
+00:01:52.230 --> 00:01:52.240 align:start position:0%
+that counter becomes three this one
+ 
+
+00:01:52.240 --> 00:01:54.830 align:start position:0%
+that counter becomes three this one
+becomes<00:01:52.600><c> two</c><00:01:53.479><c> this</c><00:01:53.640><c> one</c><00:01:53.920><c> becomes</c><00:01:54.280><c> zero</c><00:01:54.640><c> and</c>
+
+00:01:54.830 --> 00:01:54.840 align:start position:0%
+becomes two this one becomes zero and
+ 
+
+00:01:54.840 --> 00:01:57.270 align:start position:0%
+becomes two this one becomes zero and
+this<00:01:54.960><c> one</c><00:01:55.200><c> becomes</c><00:01:55.560><c> one</c><00:01:56.560><c> we</c><00:01:56.680><c> will</c><00:01:56.880><c> now</c><00:01:57.079><c> put</c>
+
+00:01:57.270 --> 00:01:57.280 align:start position:0%
+this one becomes one we will now put
+ 
+
+00:01:57.280 --> 00:01:59.830 align:start position:0%
+this one becomes one we will now put
+some<00:01:57.479><c> Block</c><00:01:57.799><c> C</c><00:01:58.240><c> here</c><00:01:59.119><c> that</c><00:01:59.280><c> becomes</c><00:01:59.640><c> three</c>
+
+00:01:59.830 --> 00:01:59.840 align:start position:0%
+some Block C here that becomes three
+ 
+
+00:01:59.840 --> 00:02:02.630 align:start position:0%
+some Block C here that becomes three
+three<00:02:00.719><c> this</c><00:02:00.960><c> becomes</c><00:02:01.320><c> two</c><00:02:01.759><c> this</c><00:02:01.960><c> becomes</c><00:02:02.320><c> one</c>
+
+00:02:02.630 --> 00:02:02.640 align:start position:0%
+three this becomes two this becomes one
+ 
+
+00:02:02.640 --> 00:02:08.510 align:start position:0%
+three this becomes two this becomes one
+this<00:02:02.840><c> becomes</c><00:02:03.560><c> Zero</c><00:02:04.560><c> D</c><00:02:05.479><c> 3</c><00:02:06.200><c> 2</c><00:02:06.880><c> 1</c><00:02:07.360><c> 0</c><00:02:08.119><c> now</c><00:02:08.280><c> we're</c>
+
+00:02:08.510 --> 00:02:08.520 align:start position:0%
+this becomes Zero D 3 2 1 0 now we're
+ 
+
+00:02:08.520 --> 00:02:10.990 align:start position:0%
+this becomes Zero D 3 2 1 0 now we're
+back<00:02:08.720><c> to</c><00:02:08.920><c> this</c><00:02:09.399><c> situation</c><00:02:10.399><c> so</c><00:02:10.599><c> I'm</c><00:02:10.720><c> going</c><00:02:10.840><c> to</c>
+
+00:02:10.990 --> 00:02:11.000 align:start position:0%
+back to this situation so I'm going to
+ 
+
+00:02:11.000 --> 00:02:15.509 align:start position:0%
+back to this situation so I'm going to
+clean<00:02:11.319><c> up</c><00:02:11.640><c> here</c><00:02:12.560><c> and</c><00:02:12.879><c> now</c><00:02:13.879><c> if</c><00:02:14.040><c> we</c><00:02:14.280><c> access</c><00:02:14.760><c> e</c>
+
+00:02:15.509 --> 00:02:15.519 align:start position:0%
+clean up here and now if we access e
+ 
+
+00:02:15.519 --> 00:02:17.350 align:start position:0%
+clean up here and now if we access e
+we're<00:02:15.840><c> going</c><00:02:15.920><c> to</c><00:02:16.120><c> find</c><00:02:16.519><c> what</c><00:02:16.680><c> was</c><00:02:16.840><c> the</c><00:02:17.000><c> least</c>
+
+00:02:17.350 --> 00:02:17.360 align:start position:0%
+we're going to find what was the least
+ 
+
+00:02:17.360 --> 00:02:20.229 align:start position:0%
+we're going to find what was the least
+recently<00:02:17.800><c> used</c><00:02:18.160><c> block</c><00:02:18.840><c> and</c><00:02:19.120><c> a</c><00:02:19.519><c> at</c><00:02:19.720><c> this</c><00:02:19.920><c> point</c>
+
+00:02:20.229 --> 00:02:20.239 align:start position:0%
+recently used block and a at this point
+ 
+
+00:02:20.239 --> 00:02:22.630 align:start position:0%
+recently used block and a at this point
+is<00:02:20.720><c> because</c><00:02:21.160><c> it's</c><00:02:21.360><c> been</c><00:02:21.680><c> accessed</c><00:02:22.160><c> the</c><00:02:22.280><c> least</c>
+
+00:02:22.630 --> 00:02:22.640 align:start position:0%
+is because it's been accessed the least
+ 
+
+00:02:22.640 --> 00:02:27.229 align:start position:0%
+is because it's been accessed the least
+recently<00:02:23.640><c> so</c><00:02:24.160><c> a</c><00:02:25.160><c> will</c><00:02:25.319><c> be</c><00:02:25.519><c> replaced</c><00:02:26.040><c> by</c><00:02:26.200><c> E</c><00:02:27.080><c> and</c>
+
+00:02:27.229 --> 00:02:27.239 align:start position:0%
+recently so a will be replaced by E and
+ 
+
+00:02:27.239 --> 00:02:30.030 align:start position:0%
+recently so a will be replaced by E and
+the<00:02:27.360><c> lru</c><00:02:27.800><c> counter</c><00:02:28.160><c> here</c><00:02:28.360><c> becomes</c><00:02:28.800><c> three</c><00:02:29.879><c> which</c>
+
+00:02:30.030 --> 00:02:30.040 align:start position:0%
+the lru counter here becomes three which
+ 
+
+00:02:30.040 --> 00:02:32.910 align:start position:0%
+the lru counter here becomes three which
+brings<00:02:30.480><c> these</c><00:02:31.080><c> one</c><00:02:31.360><c> notch</c><00:02:31.680><c> lower</c><00:02:32.319><c> so</c><00:02:32.599><c> this</c><00:02:32.720><c> is</c>
+
+00:02:32.910 --> 00:02:32.920 align:start position:0%
+brings these one notch lower so this is
+ 
+
+00:02:32.920 --> 00:02:36.630 align:start position:0%
+brings these one notch lower so this is
+the<00:02:33.480><c> state</c><00:02:33.879><c> we</c><00:02:34.080><c> have</c><00:02:34.720><c> now</c><00:02:35.000><c> let's</c><00:02:35.239><c> say</c><00:02:36.040><c> that</c><00:02:36.239><c> b</c>
+
+00:02:36.630 --> 00:02:36.640 align:start position:0%
+the state we have now let's say that b
+ 
+
+00:02:36.640 --> 00:02:38.390 align:start position:0%
+the state we have now let's say that b
+which<00:02:36.760><c> is</c><00:02:36.920><c> the</c><00:02:37.080><c> least</c><00:02:37.360><c> recently</c><00:02:37.879><c> used</c><00:02:38.120><c> block</c>
+
+00:02:38.390 --> 00:02:38.400 align:start position:0%
+which is the least recently used block
+ 
+
+00:02:38.400 --> 00:02:42.550 align:start position:0%
+which is the least recently used block
+now<00:02:38.720><c> is</c><00:02:38.959><c> re</c><00:02:39.280><c> accessed</c><00:02:40.200><c> what</c><00:02:40.400><c> happens</c><00:02:40.840><c> then</c><00:02:41.720><c> is</c>
+
+00:02:42.550 --> 00:02:42.560 align:start position:0%
+now is re accessed what happens then is
+ 
+
+00:02:42.560 --> 00:02:44.949 align:start position:0%
+now is re accessed what happens then is
+this<00:02:42.800><c> counter</c><00:02:43.200><c> needs</c><00:02:43.440><c> to</c><00:02:43.599><c> become</c><00:02:43.920><c> three</c><00:02:44.800><c> all</c>
+
+00:02:44.949 --> 00:02:44.959 align:start position:0%
+this counter needs to become three all
+ 
+
+00:02:44.959 --> 00:02:46.750 align:start position:0%
+this counter needs to become three all
+of<00:02:45.120><c> the</c><00:02:45.239><c> other</c><00:02:45.440><c> ones</c><00:02:45.800><c> now</c><00:02:45.959><c> need</c><00:02:46.120><c> to</c><00:02:46.239><c> be</c><00:02:46.360><c> changed</c>
+
+00:02:46.750 --> 00:02:46.760 align:start position:0%
+of the other ones now need to be changed
+ 
+
+00:02:46.760 --> 00:02:49.869 align:start position:0%
+of the other ones now need to be changed
+lower<00:02:47.519><c> what</c><00:02:47.760><c> happens</c><00:02:48.599><c> if</c><00:02:48.800><c> the</c><00:02:49.000><c> most</c><00:02:49.360><c> recently</c>
+
+00:02:49.869 --> 00:02:49.879 align:start position:0%
+lower what happens if the most recently
+ 
+
+00:02:49.879 --> 00:02:53.149 align:start position:0%
+lower what happens if the most recently
+block<00:02:50.280><c> let's</c><00:02:50.440><c> say</c><00:02:50.840><c> B</c><00:02:51.280><c> is</c><00:02:51.519><c> accessed</c><00:02:52.000><c> again</c><00:02:52.879><c> then</c>
+
+00:02:53.149 --> 00:02:53.159 align:start position:0%
+block let's say B is accessed again then
+ 
+
+00:02:53.159 --> 00:02:55.190 align:start position:0%
+block let's say B is accessed again then
+this<00:02:53.319><c> counter</c><00:02:53.640><c> just</c><00:02:53.879><c> stays</c><00:02:54.159><c> at</c><00:02:54.360><c> three</c><00:02:54.840><c> because</c>
+
+00:02:55.190 --> 00:02:55.200 align:start position:0%
+this counter just stays at three because
+ 
+
+00:02:55.200 --> 00:02:56.670 align:start position:0%
+this counter just stays at three because
+that<00:02:55.360><c> indicates</c><00:02:55.760><c> that</c><00:02:55.920><c> this</c><00:02:56.040><c> is</c><00:02:56.200><c> already</c><00:02:56.519><c> the</c>
+
+00:02:56.670 --> 00:02:56.680 align:start position:0%
+that indicates that this is already the
+ 
+
+00:02:56.680 --> 00:02:59.990 align:start position:0%
+that indicates that this is already the
+most<00:02:56.959><c> recently</c><00:02:57.640><c> access</c><00:02:58.040><c> block</c><00:02:58.760><c> what</c><00:02:58.959><c> happens</c>
+
+00:02:59.990 --> 00:03:00.000 align:start position:0%
+most recently access block what happens
+ 
+
+00:03:00.000 --> 00:03:03.509 align:start position:0%
+most recently access block what happens
+if<00:03:00.239><c> block</c><00:03:01.120><c> D</c><00:03:02.000><c> which</c><00:03:02.120><c> is</c><00:03:02.360><c> neither</c><00:03:02.760><c> the</c><00:03:02.920><c> most</c><00:03:03.280><c> nor</c>
+
+00:03:03.509 --> 00:03:03.519 align:start position:0%
+if block D which is neither the most nor
+ 
+
+00:03:03.519 --> 00:03:06.270 align:start position:0%
+if block D which is neither the most nor
+the<00:03:03.680><c> least</c><00:03:03.959><c> recent</c><00:03:04.440><c> is</c><00:03:04.680><c> accessed</c><00:03:05.519><c> well</c><00:03:06.000><c> this</c>
+
+00:03:06.270 --> 00:03:06.280 align:start position:0%
+the least recent is accessed well this
+ 
+
+00:03:06.280 --> 00:03:09.070 align:start position:0%
+the least recent is accessed well this
+counter<00:03:06.879><c> needs</c><00:03:07.159><c> to</c><00:03:07.319><c> become</c><00:03:07.799><c> three</c><00:03:08.640><c> and</c><00:03:08.799><c> now</c><00:03:08.959><c> we</c>
+
+00:03:09.070 --> 00:03:09.080 align:start position:0%
+counter needs to become three and now we
+ 
+
+00:03:09.080 --> 00:03:11.390 align:start position:0%
+counter needs to become three and now we
+have<00:03:09.239><c> an</c><00:03:09.400><c> interesting</c><00:03:09.879><c> situation</c><00:03:10.799><c> we</c><00:03:10.959><c> don't</c>
+
+00:03:11.390 --> 00:03:11.400 align:start position:0%
+have an interesting situation we don't
+ 
+
+00:03:11.400 --> 00:03:13.670 align:start position:0%
+have an interesting situation we don't
+just<00:03:11.920><c> lower</c><00:03:12.400><c> all</c><00:03:12.599><c> the</c><00:03:12.720><c> other</c><00:03:13.000><c> counters</c><00:03:13.440><c> a</c>
+
+00:03:13.670 --> 00:03:13.680 align:start position:0%
+just lower all the other counters a
+ 
+
+00:03:13.680 --> 00:03:16.589 align:start position:0%
+just lower all the other counters a
+notch<00:03:14.239><c> down</c><00:03:15.239><c> we</c><00:03:15.400><c> take</c><00:03:15.720><c> the</c><00:03:15.879><c> ones</c><00:03:16.159><c> that</c><00:03:16.239><c> were</c>
+
+00:03:16.589 --> 00:03:16.599 align:start position:0%
+notch down we take the ones that were
+ 
+
+00:03:16.599 --> 00:03:19.030 align:start position:0%
+notch down we take the ones that were
+above<00:03:16.959><c> the</c><00:03:17.080><c> original</c><00:03:17.599><c> value</c><00:03:17.840><c> of</c><00:03:18.000><c> this</c><00:03:18.239><c> counter</c>
+
+00:03:19.030 --> 00:03:19.040 align:start position:0%
+above the original value of this counter
+ 
+
+00:03:19.040 --> 00:03:22.110 align:start position:0%
+above the original value of this counter
+so<00:03:19.239><c> we</c><00:03:19.440><c> take</c><00:03:19.680><c> the</c><00:03:20.319><c> counter</c><00:03:20.720><c> that</c><00:03:20.840><c> is</c><00:03:21.120><c> above</c><00:03:21.480><c> one</c>
+
+00:03:22.110 --> 00:03:22.120 align:start position:0%
+so we take the counter that is above one
+ 
+
+00:03:22.120 --> 00:03:24.110 align:start position:0%
+so we take the counter that is above one
+and<00:03:22.400><c> those</c><00:03:22.680><c> are</c><00:03:22.920><c> the</c><00:03:23.040><c> ones</c><00:03:23.239><c> that</c><00:03:23.400><c> get</c><00:03:23.599><c> a</c><00:03:23.760><c> notch</c>
+
+00:03:24.110 --> 00:03:24.120 align:start position:0%
+and those are the ones that get a notch
+ 
+
+00:03:24.120 --> 00:03:27.149 align:start position:0%
+and those are the ones that get a notch
+down<00:03:24.879><c> but</c><00:03:25.040><c> the</c><00:03:25.120><c> ones</c><00:03:25.319><c> that</c><00:03:25.440><c> are</c><00:03:25.640><c> below</c><00:03:26.159><c> one</c>
+
+00:03:27.149 --> 00:03:27.159 align:start position:0%
+down but the ones that are below one
+ 
+
+00:03:27.159 --> 00:03:30.470 align:start position:0%
+down but the ones that are below one
+stay<00:03:27.560><c> the</c><00:03:27.720><c> same</c><00:03:28.560><c> that</c><00:03:28.879><c> ensures</c><00:03:29.879><c> that</c><00:03:30.120><c> the</c>
+
+00:03:30.470 --> 00:03:30.480 align:start position:0%
+stay the same that ensures that the
+ 
+
+00:03:30.480 --> 00:03:32.789 align:start position:0%
+stay the same that ensures that the
+counters<00:03:30.959><c> still</c><00:03:31.280><c> have</c><00:03:31.560><c> different</c><00:03:32.000><c> values</c>
+
+00:03:32.789 --> 00:03:32.799 align:start position:0%
+counters still have different values
+ 
+
+00:03:32.799 --> 00:03:34.429 align:start position:0%
+counters still have different values
+let's<00:03:33.000><c> do</c><00:03:33.200><c> another</c><00:03:33.480><c> one</c><00:03:33.640><c> of</c><00:03:33.840><c> those</c><00:03:34.239><c> where</c>
+
+00:03:34.429 --> 00:03:34.439 align:start position:0%
+let's do another one of those where
+ 
+
+00:03:34.439 --> 00:03:36.750 align:start position:0%
+let's do another one of those where
+let's<00:03:34.599><c> say</c><00:03:34.799><c> Block</c><00:03:35.120><c> B</c><00:03:35.840><c> that</c><00:03:36.000><c> is</c><00:03:36.239><c> almost</c><00:03:36.640><c> the</c>
+
+00:03:36.750 --> 00:03:36.760 align:start position:0%
+let's say Block B that is almost the
+ 
+
+00:03:36.760 --> 00:03:40.630 align:start position:0%
+let's say Block B that is almost the
+most<00:03:37.439><c> recently</c><00:03:38.439><c> used</c><00:03:38.799><c> block</c><00:03:39.280><c> is</c><00:03:39.519><c> accessed</c><00:03:40.439><c> in</c>
+
+00:03:40.630 --> 00:03:40.640 align:start position:0%
+most recently used block is accessed in
+ 
+
+00:03:40.640 --> 00:03:43.309 align:start position:0%
+most recently used block is accessed in
+that<00:03:40.959><c> case</c><00:03:41.959><c> this</c><00:03:42.239><c> counter</c><00:03:42.560><c> needs</c><00:03:42.799><c> to</c><00:03:42.959><c> become</c>
+
+00:03:43.309 --> 00:03:43.319 align:start position:0%
+that case this counter needs to become
+ 
+
+00:03:43.319 --> 00:03:45.429 align:start position:0%
+that case this counter needs to become
+three<00:03:44.040><c> all</c><00:03:44.280><c> counters</c><00:03:44.680><c> that</c><00:03:44.799><c> were</c><00:03:45.040><c> above</c><00:03:45.280><c> its</c>
+
+00:03:45.429 --> 00:03:45.439 align:start position:0%
+three all counters that were above its
+ 
+
+00:03:45.439 --> 00:03:47.390 align:start position:0%
+three all counters that were above its
+original<00:03:45.959><c> value</c><00:03:46.200><c> of</c><00:03:46.360><c> two</c><00:03:46.799><c> need</c><00:03:47.000><c> to</c><00:03:47.120><c> be</c>
+
+00:03:47.390 --> 00:03:47.400 align:start position:0%
+original value of two need to be
+ 
+
+00:03:47.400 --> 00:03:50.470 align:start position:0%
+original value of two need to be
+decremented<00:03:48.400><c> so</c><00:03:48.920><c> this</c><00:03:49.159><c> becomes</c><00:03:49.519><c> two</c><00:03:50.239><c> but</c>
+
+00:03:50.470 --> 00:03:50.480 align:start position:0%
+decremented so this becomes two but
+ 
+
+00:03:50.480 --> 00:03:53.190 align:start position:0%
+decremented so this becomes two but
+these<00:03:50.640><c> two</c><00:03:50.879><c> stay</c><00:03:51.200><c> the</c><00:03:51.560><c> same</c><00:03:52.560><c> because</c><00:03:52.920><c> they're</c>
+
+00:03:53.190 --> 00:03:53.200 align:start position:0%
+these two stay the same because they're
+ 
+
+00:03:53.200 --> 00:03:55.550 align:start position:0%
+these two stay the same because they're
+below<00:03:53.560><c> two</c><00:03:54.239><c> so</c><00:03:54.519><c> again</c><00:03:54.760><c> we</c><00:03:54.920><c> have</c><00:03:55.120><c> this</c>
+
+00:03:55.550 --> 00:03:55.560 align:start position:0%
+below two so again we have this
+ 
+
+00:03:55.560 --> 00:03:57.470 align:start position:0%
+below two so again we have this
+situation<00:03:56.560><c> so</c><00:03:56.760><c> now</c><00:03:56.879><c> you</c><00:03:57.000><c> know</c><00:03:57.200><c> how</c><00:03:57.319><c> to</c>
+
+00:03:57.470 --> 00:03:57.480 align:start position:0%
+situation so now you know how to
+ 
+
+00:03:57.480 --> 00:04:00.949 align:start position:0%
+situation so now you know how to
+maintain<00:03:57.799><c> the</c><00:03:57.920><c> lru</c><00:03:58.400><c> counters</c><00:03:59.200><c> properly</c>
+
+00:04:00.949 --> 00:04:00.959 align:start position:0%
+maintain the lru counters properly
+ 
+
+00:04:00.959 --> 00:04:03.750 align:start position:0%
+maintain the lru counters properly
+after<00:04:01.360><c> every</c><00:04:01.720><c> step</c><00:04:02.640><c> you</c><00:04:02.799><c> can</c>
+
+00:04:03.750 --> 00:04:03.760 align:start position:0%
+after every step you can
+ 
+
+00:04:03.760 --> 00:04:06.030 align:start position:0%
+after every step you can
+verify<00:04:04.760><c> that</c><00:04:04.920><c> the</c><00:04:05.040><c> counters</c><00:04:05.480><c> have</c><00:04:05.680><c> different</c>
+
+00:04:06.030 --> 00:04:06.040 align:start position:0%
+verify that the counters have different
+ 
+
+00:04:06.040 --> 00:04:08.589 align:start position:0%
+verify that the counters have different
+values<00:04:06.519><c> if</c><00:04:06.720><c> they</c><00:04:06.920><c> don't</c><00:04:07.920><c> then</c><00:04:08.040><c> you</c><00:04:08.280><c> probably</c>
+
+00:04:08.589 --> 00:04:08.599 align:start position:0%
+values if they don't then you probably
+ 
+
+00:04:08.599 --> 00:04:11.069 align:start position:0%
+values if they don't then you probably
+made<00:04:08.799><c> a</c><00:04:08.959><c> mistake</c><00:04:09.480><c> somewhere</c><00:04:10.480><c> so</c><00:04:10.720><c> as</c><00:04:10.840><c> you</c><00:04:10.959><c> can</c>
+
+00:04:11.069 --> 00:04:11.079 align:start position:0%
+made a mistake somewhere so as you can
+ 
+
+00:04:11.079 --> 00:04:13.630 align:start position:0%
+made a mistake somewhere so as you can
+see<00:04:11.400><c> maintaining</c><00:04:11.920><c> lru</c><00:04:12.400><c> is</c><00:04:12.560><c> relatively</c>
+
+00:04:13.630 --> 00:04:13.640 align:start position:0%
+see maintaining lru is relatively
+ 
+
+00:04:13.640 --> 00:04:16.270 align:start position:0%
+see maintaining lru is relatively
+complicated<00:04:14.640><c> for</c><00:04:14.840><c> an</c><00:04:15.000><c> nway</c><00:04:15.480><c> set</c><00:04:15.720><c> asso</c><00:04:16.079><c> of</c>
+
+00:04:16.270 --> 00:04:16.280 align:start position:0%
+complicated for an nway set asso of
+ 
+
+00:04:16.280 --> 00:04:21.229 align:start position:0%
+complicated for an nway set asso of
+cache<00:04:17.079><c> we</c><00:04:17.280><c> need</c><00:04:17.799><c> n</c><00:04:19.040><c> counters</c><00:04:20.040><c> whose</c><00:04:20.400><c> size</c><00:04:20.959><c> is</c>
+
+00:04:21.229 --> 00:04:21.239 align:start position:0%
+cache we need n counters whose size is
+ 
+
+00:04:21.239 --> 00:04:24.150 align:start position:0%
+cache we need n counters whose size is
+log<00:04:21.560><c> two</c><00:04:21.799><c> of</c><00:04:22.000><c> n</c><00:04:22.759><c> in</c><00:04:22.960><c> this</c><00:04:23.199><c> case</c><00:04:23.639><c> the</c><00:04:23.840><c> size</c><00:04:24.040><c> of</c>
+
+00:04:24.150 --> 00:04:24.160 align:start position:0%
+log two of n in this case the size of
+ 
+
+00:04:24.160 --> 00:04:28.030 align:start position:0%
+log two of n in this case the size of
+the<00:04:24.320><c> counters</c><00:04:24.720><c> is</c><00:04:24.919><c> to</c><00:04:25.280><c> bit</c><00:04:26.680><c> because</c><00:04:27.680><c> they</c><00:04:27.840><c> need</c>
+
+00:04:28.030 --> 00:04:28.040 align:start position:0%
+the counters is to bit because they need
+ 
+
+00:04:28.040 --> 00:04:30.469 align:start position:0%
+the counters is to bit because they need
+to<00:04:28.240><c> have</c><00:04:28.400><c> a</c><00:04:28.560><c> number</c><00:04:28.919><c> between</c><00:04:29.240><c> 0</c><00:04:29.720><c> and</c><00:04:29.919><c> three</c><00:04:30.280><c> to</c>
+
+00:04:30.469 --> 00:04:30.479 align:start position:0%
+to have a number between 0 and three to
+ 
+
+00:04:30.479 --> 00:04:32.830 align:start position:0%
+to have a number between 0 and three to
+tell<00:04:30.680><c> us</c><00:04:31.360><c> where</c><00:04:31.600><c> are</c><00:04:31.800><c> we</c><00:04:32.039><c> in</c><00:04:32.199><c> the</c><00:04:32.320><c> order</c><00:04:32.639><c> of</c>
+
+00:04:32.830 --> 00:04:32.840 align:start position:0%
+tell us where are we in the order of
+ 
+
+00:04:32.840 --> 00:04:35.110 align:start position:0%
+tell us where are we in the order of
+axis<00:04:33.240><c> in</c><00:04:33.440><c> this</c><00:04:33.639><c> set</c><00:04:34.120><c> so</c><00:04:34.280><c> it's</c><00:04:34.360><c> a</c><00:04:34.520><c> fourway</c><00:04:34.919><c> set</c>
+
+00:04:35.110 --> 00:04:35.120 align:start position:0%
+axis in this set so it's a fourway set
+ 
+
+00:04:35.120 --> 00:04:37.870 align:start position:0%
+axis in this set so it's a fourway set
+assive<00:04:35.639><c> cash</c><00:04:36.280><c> that</c><00:04:36.400><c> means</c><00:04:36.680><c> we</c><00:04:36.800><c> need</c><00:04:37.280><c> two</c><00:04:37.600><c> bits</c>
+
+00:04:37.870 --> 00:04:37.880 align:start position:0%
+assive cash that means we need two bits
+ 
+
+00:04:37.880 --> 00:04:40.550 align:start position:0%
+assive cash that means we need two bits
+per<00:04:38.039><c> counter</c><00:04:38.560><c> and</c><00:04:38.720><c> four</c><00:04:39.080><c> counters</c><00:04:40.080><c> so</c><00:04:40.240><c> for</c>
+
+00:04:40.550 --> 00:04:40.560 align:start position:0%
+per counter and four counters so for
+ 
+
+00:04:40.560 --> 00:04:42.270 align:start position:0%
+per counter and four counters so for
+highly<00:04:40.880><c> associative</c><00:04:41.400><c> caches</c><00:04:41.759><c> something</c><00:04:42.080><c> like</c>
+
+00:04:42.270 --> 00:04:42.280 align:start position:0%
+highly associative caches something like
+ 
+
+00:04:42.280 --> 00:04:45.390 align:start position:0%
+highly associative caches something like
+32<00:04:43.280><c> way</c><00:04:43.759><c> associative</c><00:04:44.759><c> you</c><00:04:44.919><c> would</c><00:04:45.080><c> need</c><00:04:45.240><c> to</c>
+
+00:04:45.390 --> 00:04:45.400 align:start position:0%
+32 way associative you would need to
+ 
+
+00:04:45.400 --> 00:04:48.110 align:start position:0%
+32 way associative you would need to
+have<00:04:45.759><c> five</c><00:04:46.000><c> bit</c><00:04:46.280><c> counters</c><00:04:47.080><c> and</c><00:04:47.280><c> 32</c><00:04:47.800><c> of</c><00:04:47.919><c> them</c>
+
+00:04:48.110 --> 00:04:48.120 align:start position:0%
+have five bit counters and 32 of them
+ 
+
+00:04:48.120 --> 00:04:52.629 align:start position:0%
+have five bit counters and 32 of them
+per<00:04:48.360><c> set</c><00:04:49.120><c> so</c><00:04:49.400><c> this</c><00:04:49.560><c> was</c><00:04:49.800><c> the</c><00:04:50.600><c> cost</c><00:04:51.600><c> it's</c><00:04:51.880><c> pretty</c>
+
+00:04:52.629 --> 00:04:52.639 align:start position:0%
+per set so this was the cost it's pretty
+ 
+
+00:04:52.639 --> 00:04:56.990 align:start position:0%
+per set so this was the cost it's pretty
+high<00:04:53.639><c> worse</c><00:04:54.600><c> there</c><00:04:54.759><c> is</c><00:04:54.880><c> an</c><00:04:55.120><c> energy</c><00:04:55.880><c> problem</c><00:04:56.880><c> we</c>
+
+00:04:56.990 --> 00:04:57.000 align:start position:0%
+high worse there is an energy problem we
+ 
+
+00:04:57.000 --> 00:04:59.310 align:start position:0%
+high worse there is an energy problem we
+need<00:04:57.199><c> to</c><00:04:57.440><c> modify</c><00:04:58.000><c> up</c><00:04:58.199><c> to</c><00:04:58.320><c> end</c><00:04:58.639><c> counters</c><00:04:59.120><c> on</c>
+
+00:04:59.310 --> 00:04:59.320 align:start position:0%
+need to modify up to end counters on
+ 
+
+00:04:59.320 --> 00:05:02.350 align:start position:0%
+need to modify up to end counters on
+each<00:04:59.919><c> access</c><00:05:00.919><c> even</c><00:05:01.360><c> cash</c><00:05:01.639><c> hits</c><00:05:02.000><c> that</c><00:05:02.160><c> can</c>
+
+00:05:02.350 --> 00:05:02.360 align:start position:0%
+each access even cash hits that can
+ 
+
+00:05:02.360 --> 00:05:05.230 align:start position:0%
+each access even cash hits that can
+happen<00:05:02.680><c> very</c><00:05:02.919><c> frequently</c><00:05:03.880><c> so</c><00:05:04.160><c> the</c><00:05:04.400><c> lru</c>
+
+00:05:05.230 --> 00:05:05.240 align:start position:0%
+happen very frequently so the lru
+ 
+
+00:05:05.240 --> 00:05:07.629 align:start position:0%
+happen very frequently so the lru
+approximations<00:05:06.240><c> try</c><00:05:06.520><c> to</c><00:05:06.720><c> keep</c><00:05:07.160><c> fewer</c>
+
+00:05:07.629 --> 00:05:07.639 align:start position:0%
+approximations try to keep fewer
+ 
+
+00:05:07.639 --> 00:05:10.710 align:start position:0%
+approximations try to keep fewer
+counters<00:05:08.479><c> and</c><00:05:08.639><c> do</c><00:05:08.960><c> fewer</c><00:05:09.479><c> updates</c><00:05:10.160><c> on</c><00:05:10.440><c> cash</c>
+
+00:05:10.710 --> 00:05:10.720 align:start position:0%
+counters and do fewer updates on cash
+ 
+
+00:05:10.720 --> 00:05:13.479 align:start position:0%
+counters and do fewer updates on cash
+hits
+

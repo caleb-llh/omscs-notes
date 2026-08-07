@@ -1,0 +1,552 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:02.590 align:start position:0%
+ 
+so<00:00:00.480><c> one</c><00:00:00.599><c> of</c><00:00:00.760><c> the</c><00:00:00.919><c> approaches</c><00:00:01.439><c> for</c><00:00:01.959><c> eliminating</c>
+
+00:00:02.590 --> 00:00:02.600 align:start position:0%
+so one of the approaches for eliminating
+ 
+
+00:00:02.600 --> 00:00:05.070 align:start position:0%
+so one of the approaches for eliminating
+false<00:00:02.960><c> dependencies</c><00:00:03.959><c> is</c><00:00:04.080><c> to</c><00:00:04.400><c> duplicate</c>
+
+00:00:05.070 --> 00:00:05.080 align:start position:0%
+false dependencies is to duplicate
+ 
+
+00:00:05.080 --> 00:00:07.670 align:start position:0%
+false dependencies is to duplicate
+register<00:00:05.600><c> values</c><00:00:06.560><c> let's</c><00:00:06.759><c> see</c><00:00:07.040><c> how</c><00:00:07.279><c> that</c><00:00:07.439><c> would</c>
+
+00:00:07.670 --> 00:00:07.680 align:start position:0%
+register values let's see how that would
+ 
+
+00:00:07.680 --> 00:00:09.990 align:start position:0%
+register values let's see how that would
+work<00:00:08.599><c> we</c><00:00:08.719><c> have</c><00:00:08.880><c> an</c><00:00:09.040><c> instruction</c><00:00:09.599><c> here</c><00:00:09.800><c> that</c>
+
+00:00:09.990 --> 00:00:10.000 align:start position:0%
+work we have an instruction here that
+ 
+
+00:00:10.000 --> 00:00:13.509 align:start position:0%
+work we have an instruction here that
+adds<00:00:10.320><c> R2</c><00:00:10.840><c> and</c><00:00:11.000><c> R3</c><00:00:11.360><c> and</c><00:00:11.519><c> puts</c><00:00:11.719><c> the</c><00:00:11.840><c> result</c><00:00:12.120><c> in</c><00:00:12.519><c> R1</c>
+
+00:00:13.509 --> 00:00:13.519 align:start position:0%
+adds R2 and R3 and puts the result in R1
+ 
+
+00:00:13.519 --> 00:00:17.189 align:start position:0%
+adds R2 and R3 and puts the result in R1
+then<00:00:13.719><c> we</c><00:00:13.920><c> have</c><00:00:14.280><c> R1</c><00:00:14.799><c> minus</c><00:00:15.160><c> R5</c><00:00:15.679><c> goes</c><00:00:16.000><c> into</c><00:00:16.240><c> R4</c>
+
+00:00:17.189 --> 00:00:17.199 align:start position:0%
+then we have R1 minus R5 goes into R4
+ 
+
+00:00:17.199 --> 00:00:20.429 align:start position:0%
+then we have R1 minus R5 goes into R4
+then<00:00:17.359><c> we</c><00:00:17.520><c> have</c><00:00:17.680><c> R4</c><00:00:18.119><c> +</c><00:00:18.400><c> 1</c><00:00:18.680><c> goes</c><00:00:18.880><c> into</c><00:00:19.160><c> R3</c><00:00:20.160><c> then</c><00:00:20.279><c> we</c>
+
+00:00:20.429 --> 00:00:20.439 align:start position:0%
+then we have R4 + 1 goes into R3 then we
+ 
+
+00:00:20.439 --> 00:00:24.670 align:start position:0%
+then we have R4 + 1 goes into R3 then we
+have<00:00:20.720><c> R8</c><00:00:21.279><c> -</c><00:00:21.600><c> R9</c><00:00:22.080><c> goes</c><00:00:22.279><c> into</c><00:00:22.560><c> R4</c><00:00:23.560><c> and</c><00:00:24.080><c> sometime</c>
+
+00:00:24.670 --> 00:00:24.680 align:start position:0%
+have R8 - R9 goes into R4 and sometime
+ 
+
+00:00:24.680 --> 00:00:27.870 align:start position:0%
+have R8 - R9 goes into R4 and sometime
+later<00:00:25.599><c> we</c><00:00:25.800><c> have</c><00:00:25.960><c> an</c><00:00:26.199><c> instruction</c><00:00:27.199><c> that</c><00:00:27.359><c> uses</c>
+
+00:00:27.870 --> 00:00:27.880 align:start position:0%
+later we have an instruction that uses
+ 
+
+00:00:27.880 --> 00:00:30.429 align:start position:0%
+later we have an instruction that uses
+R4<00:00:28.880><c> here</c><00:00:29.080><c> we</c><00:00:29.240><c> have</c><00:00:29.439><c> what</c><00:00:29.599><c> happens</c><00:00:30.039><c> in</c><00:00:30.199><c> some</c>
+
+00:00:30.429 --> 00:00:30.439 align:start position:0%
+R4 here we have what happens in some
+ 
+
+00:00:30.439 --> 00:00:33.030 align:start position:0%
+R4 here we have what happens in some
+cycle<00:00:30.800><c> let's</c><00:00:31.000><c> call</c><00:00:31.160><c> it</c><00:00:31.320><c> cycle</c><00:00:32.000><c> 100</c><00:00:32.599><c> and</c><00:00:32.719><c> in</c><00:00:32.880><c> the</c>
+
+00:00:33.030 --> 00:00:33.040 align:start position:0%
+cycle let's call it cycle 100 and in the
+ 
+
+00:00:33.040 --> 00:00:35.630 align:start position:0%
+cycle let's call it cycle 100 and in the
+next<00:00:33.280><c> few</c><00:00:33.640><c> cycles</c><00:00:34.640><c> and</c><00:00:34.840><c> let's</c><00:00:35.120><c> assume</c><00:00:35.440><c> that</c>
+
+00:00:35.630 --> 00:00:35.640 align:start position:0%
+next few cycles and let's assume that
+ 
+
+00:00:35.640 --> 00:00:39.350 align:start position:0%
+next few cycles and let's assume that
+cycle<00:00:36.280><c> 100</c><00:00:36.680><c> is</c><00:00:36.879><c> when</c><00:00:37.200><c> this</c><00:00:37.640><c> instruction</c><00:00:38.640><c> can</c>
+
+00:00:39.350 --> 00:00:39.360 align:start position:0%
+cycle 100 is when this instruction can
+ 
+
+00:00:39.360 --> 00:00:42.110 align:start position:0%
+cycle 100 is when this instruction can
+execute<00:00:40.360><c> now</c><00:00:40.600><c> what</c><00:00:40.800><c> happens</c><00:00:41.200><c> is</c><00:00:41.600><c> after</c><00:00:41.879><c> we</c>
+
+00:00:42.110 --> 00:00:42.120 align:start position:0%
+execute now what happens is after we
+ 
+
+00:00:42.120 --> 00:00:44.950 align:start position:0%
+execute now what happens is after we
+execute<00:00:42.600><c> this</c><00:00:43.120><c> instruction</c><00:00:44.120><c> it</c><00:00:44.280><c> can</c><00:00:44.520><c> supply</c>
+
+00:00:44.950 --> 00:00:44.960 align:start position:0%
+execute this instruction it can supply
+ 
+
+00:00:44.960 --> 00:00:48.549 align:start position:0%
+execute this instruction it can supply
+the<00:00:45.079><c> register</c><00:00:45.520><c> value</c><00:00:45.920><c> R1</c><00:00:46.920><c> through</c><00:00:47.559><c> forwarding</c>
+
+00:00:48.549 --> 00:00:48.559 align:start position:0%
+the register value R1 through forwarding
+ 
+
+00:00:48.559 --> 00:00:50.750 align:start position:0%
+the register value R1 through forwarding
+to<00:00:48.760><c> the</c><00:00:48.920><c> next</c><00:00:49.199><c> instruction</c><00:00:49.840><c> so</c><00:00:50.039><c> we</c><00:00:50.239><c> have</c><00:00:50.520><c> that</c>
+
+00:00:50.750 --> 00:00:50.760 align:start position:0%
+to the next instruction so we have that
+ 
+
+00:00:50.760 --> 00:00:53.470 align:start position:0%
+to the next instruction so we have that
+this<00:00:50.960><c> instruction</c><00:00:51.520><c> can</c><00:00:51.840><c> execute</c><00:00:52.480><c> here</c><00:00:53.320><c> and</c>
+
+00:00:53.470 --> 00:00:53.480 align:start position:0%
+this instruction can execute here and
+ 
+
+00:00:53.480 --> 00:00:56.670 align:start position:0%
+this instruction can execute here and
+then<00:00:53.640><c> R4</c><00:00:54.399><c> can</c><00:00:54.559><c> be</c><00:00:54.920><c> supplied</c><00:00:55.920><c> to</c><00:00:56.120><c> the</c><00:00:56.320><c> next</c>
+
+00:00:56.670 --> 00:00:56.680 align:start position:0%
+then R4 can be supplied to the next
+ 
+
+00:00:56.680 --> 00:01:00.189 align:start position:0%
+then R4 can be supplied to the next
+instruction<00:00:57.359><c> so</c><00:00:57.559><c> it</c><00:00:57.680><c> can</c><00:00:58.039><c> execute</c><00:00:58.760><c> here</c><00:00:59.760><c> how</c>
+
+00:01:00.189 --> 00:01:00.199 align:start position:0%
+instruction so it can execute here how
+ 
+
+00:01:00.199 --> 00:01:02.830 align:start position:0%
+instruction so it can execute here how
+however<00:01:01.199><c> this</c><00:01:01.480><c> instruction</c><00:01:02.280><c> which</c><00:01:02.399><c> is</c><00:01:02.519><c> doing</c>
+
+00:01:02.830 --> 00:01:02.840 align:start position:0%
+however this instruction which is doing
+ 
+
+00:01:02.840 --> 00:01:06.230 align:start position:0%
+however this instruction which is doing
+R8<00:01:03.359><c> minus</c><00:01:03.719><c> R9</c><00:01:04.400><c> could</c><00:01:04.720><c> actually</c><00:01:05.199><c> execute</c><00:01:05.760><c> here</c>
+
+00:01:06.230 --> 00:01:06.240 align:start position:0%
+R8 minus R9 could actually execute here
+ 
+
+00:01:06.240 --> 00:01:08.190 align:start position:0%
+R8 minus R9 could actually execute here
+so<00:01:06.439><c> the</c><00:01:06.640><c> problem</c><00:01:06.960><c> with</c><00:01:07.119><c> false</c><00:01:07.479><c> dependencies</c>
+
+00:01:08.190 --> 00:01:08.200 align:start position:0%
+so the problem with false dependencies
+ 
+
+00:01:08.200 --> 00:01:11.870 align:start position:0%
+so the problem with false dependencies
+occurs<00:01:08.680><c> in</c><00:01:08.960><c> that</c><00:01:09.439><c> R4</c><00:01:10.240><c> is</c><00:01:10.400><c> written</c><00:01:10.880><c> by</c><00:01:11.200><c> this</c><00:01:11.600><c> and</c>
+
+00:01:11.870 --> 00:01:11.880 align:start position:0%
+occurs in that R4 is written by this and
+ 
+
+00:01:11.880 --> 00:01:14.310 align:start position:0%
+occurs in that R4 is written by this and
+also<00:01:12.240><c> this</c><00:01:12.479><c> instruction</c><00:01:13.200><c> so</c><00:01:13.439><c> let's</c><00:01:13.640><c> see</c><00:01:13.920><c> which</c>
+
+00:01:14.310 --> 00:01:14.320 align:start position:0%
+also this instruction so let's see which
+ 
+
+00:01:14.320 --> 00:01:16.590 align:start position:0%
+also this instruction so let's see which
+final<00:01:14.799><c> value</c><00:01:15.119><c> of</c><00:01:15.280><c> R4</c><00:01:15.960><c> ends</c><00:01:16.159><c> up</c><00:01:16.320><c> in</c><00:01:16.439><c> the</c>
+
+00:01:16.590 --> 00:01:16.600 align:start position:0%
+final value of R4 ends up in the
+ 
+
+00:01:16.600 --> 00:01:19.070 align:start position:0%
+final value of R4 ends up in the
+register<00:01:17.360><c> so</c><00:01:17.560><c> that</c><00:01:17.720><c> it</c><00:01:17.840><c> is</c><00:01:17.960><c> used</c><00:01:18.360><c> much</c><00:01:18.560><c> later</c>
+
+00:01:19.070 --> 00:01:19.080 align:start position:0%
+register so that it is used much later
+ 
+
+00:01:19.080 --> 00:01:22.630 align:start position:0%
+register so that it is used much later
+here<00:01:19.840><c> well</c><00:01:20.720><c> if</c><00:01:20.960><c> this</c><00:01:21.119><c> is</c><00:01:21.280><c> in</c><00:01:21.560><c> execution</c><00:01:22.159><c> stage</c>
+
+00:01:22.630 --> 00:01:22.640 align:start position:0%
+here well if this is in execution stage
+ 
+
+00:01:22.640 --> 00:01:24.630 align:start position:0%
+here well if this is in execution stage
+let's<00:01:22.840><c> say</c><00:01:23.079><c> that</c><00:01:23.280><c> we</c><00:01:23.439><c> have</c><00:01:23.640><c> the</c><00:01:23.759><c> memory</c><00:01:24.280><c> stage</c>
+
+00:01:24.630 --> 00:01:24.640 align:start position:0%
+let's say that we have the memory stage
+ 
+
+00:01:24.640 --> 00:01:28.030 align:start position:0%
+let's say that we have the memory stage
+next<00:01:25.600><c> and</c><00:01:25.799><c> the</c><00:01:26.000><c> right</c><00:01:26.320><c> register</c><00:01:26.840><c> stage</c><00:01:27.200><c> next</c>
+
+00:01:28.030 --> 00:01:28.040 align:start position:0%
+next and the right register stage next
+ 
+
+00:01:28.040 --> 00:01:29.429 align:start position:0%
+next and the right register stage next
+meanwhile<00:01:28.520><c> this</c><00:01:28.680><c> instruction</c><00:01:29.079><c> goes</c><00:01:29.280><c> through</c>
+
+00:01:29.429 --> 00:01:29.439 align:start position:0%
+meanwhile this instruction goes through
+ 
+
+00:01:29.439 --> 00:01:32.429 align:start position:0%
+meanwhile this instruction goes through
+the<00:01:29.560><c> m</c><00:01:30.000><c> stage</c><00:01:30.400><c> here</c><00:01:31.119><c> and</c><00:01:31.240><c> then</c><00:01:31.439><c> write</c><00:01:31.799><c> register</c>
+
+00:01:32.429 --> 00:01:32.439 align:start position:0%
+the m stage here and then write register
+ 
+
+00:01:32.439 --> 00:01:36.950 align:start position:0%
+the m stage here and then write register
+here<00:01:33.280><c> so</c><00:01:33.640><c> as</c><00:01:33.799><c> you</c><00:01:33.960><c> can</c><00:01:34.200><c> see</c><00:01:35.200><c> we</c><00:01:35.520><c> first</c><00:01:36.360><c> write</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+here so as you can see we first write
+ 
+
+00:01:36.960 --> 00:01:40.550 align:start position:0%
+here so as you can see we first write
+this<00:01:37.360><c> R4</c><00:01:38.240><c> and</c><00:01:38.479><c> only</c><00:01:38.920><c> then</c><00:01:39.119><c> write</c><00:01:39.479><c> this</c><00:01:39.720><c> R4</c>
+
+00:01:40.550 --> 00:01:40.560 align:start position:0%
+this R4 and only then write this R4
+ 
+
+00:01:40.560 --> 00:01:43.149 align:start position:0%
+this R4 and only then write this R4
+which<00:01:40.759><c> means</c><00:01:41.680><c> that</c><00:01:41.880><c> the</c><00:01:42.119><c> final</c><00:01:42.680><c> value</c><00:01:42.960><c> of</c>
+
+00:01:43.149 --> 00:01:43.159 align:start position:0%
+which means that the final value of
+ 
+
+00:01:43.159 --> 00:01:46.109 align:start position:0%
+which means that the final value of
+register<00:01:43.920><c> R4</c><00:01:44.920><c> and</c><00:01:45.159><c> that</c><00:01:45.280><c> is</c><00:01:45.439><c> the</c><00:01:45.640><c> value</c><00:01:46.000><c> that</c>
+
+00:01:46.109 --> 00:01:46.119 align:start position:0%
+register R4 and that is the value that
+ 
+
+00:01:46.119 --> 00:01:47.990 align:start position:0%
+register R4 and that is the value that
+will<00:01:46.240><c> be</c><00:01:46.399><c> read</c><00:01:46.680><c> by</c><00:01:46.880><c> this</c><00:01:47.040><c> instruction</c><00:01:47.719><c> is</c>
+
+00:01:47.990 --> 00:01:48.000 align:start position:0%
+will be read by this instruction is
+ 
+
+00:01:48.000 --> 00:01:51.069 align:start position:0%
+will be read by this instruction is
+actually<00:01:48.360><c> going</c><00:01:48.640><c> to</c><00:01:48.920><c> come</c><00:01:49.799><c> from</c><00:01:50.280><c> this</c>
+
+00:01:51.069 --> 00:01:51.079 align:start position:0%
+actually going to come from this
+ 
+
+00:01:51.079 --> 00:01:53.910 align:start position:0%
+actually going to come from this
+instruction<00:01:52.079><c> and</c><00:01:52.479><c> that</c><00:01:52.840><c> should</c><00:01:53.119><c> not</c><00:01:53.360><c> be</c>
+
+00:01:53.910 --> 00:01:53.920 align:start position:0%
+instruction and that should not be
+ 
+
+00:01:53.920 --> 00:01:57.510 align:start position:0%
+instruction and that should not be
+happening<00:01:54.920><c> so</c><00:01:55.159><c> in</c><00:01:55.320><c> order</c><00:01:55.680><c> to</c><00:01:56.039><c> fix</c><00:01:56.439><c> this</c><00:01:57.240><c> one</c>
+
+00:01:57.510 --> 00:01:57.520 align:start position:0%
+happening so in order to fix this one
+ 
+
+00:01:57.520 --> 00:01:59.950 align:start position:0%
+happening so in order to fix this one
+way<00:01:57.759><c> is</c><00:01:57.920><c> to</c><00:01:58.240><c> again</c><00:01:58.640><c> duplicate</c><00:01:59.280><c> register</c>
+
+00:01:59.950 --> 00:01:59.960 align:start position:0%
+way is to again duplicate register
+ 
+
+00:01:59.960 --> 00:02:02.389 align:start position:0%
+way is to again duplicate register
+values<00:02:00.479><c> so</c><00:02:00.719><c> the</c><00:02:00.840><c> idea</c><00:02:01.200><c> is</c><00:02:01.399><c> that</c><00:02:01.880><c> when</c><00:02:02.159><c> this</c>
+
+00:02:02.389 --> 00:02:02.399 align:start position:0%
+values so the idea is that when this
+ 
+
+00:02:02.399 --> 00:02:04.709 align:start position:0%
+values so the idea is that when this
+instruction<00:02:02.920><c> writes</c><00:02:03.240><c> to</c><00:02:03.399><c> the</c><00:02:03.560><c> register</c><00:02:03.960><c> R4</c><00:02:04.560><c> it</c>
+
+00:02:04.709 --> 00:02:04.719 align:start position:0%
+instruction writes to the register R4 it
+ 
+
+00:02:04.719 --> 00:02:08.190 align:start position:0%
+instruction writes to the register R4 it
+writes<00:02:05.320><c> to</c><00:02:05.799><c> a</c><00:02:06.079><c> version</c><00:02:06.520><c> of</c><00:02:06.719><c> register</c><00:02:07.119><c> R4</c><00:02:08.039><c> and</c>
+
+00:02:08.190 --> 00:02:08.200 align:start position:0%
+writes to a version of register R4 and
+ 
+
+00:02:08.200 --> 00:02:10.749 align:start position:0%
+writes to a version of register R4 and
+then<00:02:08.679><c> another</c><00:02:09.160><c> value</c><00:02:09.440><c> is</c><00:02:09.560><c> stored</c><00:02:09.920><c> to</c><00:02:10.319><c> another</c>
+
+00:02:10.749 --> 00:02:10.759 align:start position:0%
+then another value is stored to another
+ 
+
+00:02:10.759 --> 00:02:13.110 align:start position:0%
+then another value is stored to another
+version<00:02:11.080><c> of</c><00:02:11.239><c> R4</c><00:02:11.840><c> but</c><00:02:12.000><c> we</c><00:02:12.200><c> remember</c><00:02:12.800><c> both</c>
+
+00:02:13.110 --> 00:02:13.120 align:start position:0%
+version of R4 but we remember both
+ 
+
+00:02:13.120 --> 00:02:14.390 align:start position:0%
+version of R4 but we remember both
+versions<00:02:13.560><c> so</c><00:02:13.760><c> that's</c><00:02:13.920><c> why</c><00:02:14.040><c> it's</c><00:02:14.160><c> called</c>
+
+00:02:14.390 --> 00:02:14.400 align:start position:0%
+versions so that's why it's called
+ 
+
+00:02:14.400 --> 00:02:16.790 align:start position:0%
+versions so that's why it's called
+duplication<00:02:15.160><c> pretty</c><00:02:15.440><c> much</c><00:02:16.080><c> we</c><00:02:16.200><c> don't</c><00:02:16.440><c> store</c>
+
+00:02:16.790 --> 00:02:16.800 align:start position:0%
+duplication pretty much we don't store
+ 
+
+00:02:16.800 --> 00:02:19.630 align:start position:0%
+duplication pretty much we don't store
+only<00:02:17.080><c> one</c><00:02:17.360><c> value</c><00:02:17.599><c> for</c><00:02:17.800><c> R4</c><00:02:18.560><c> we</c><00:02:18.680><c> store</c><00:02:19.120><c> all</c><00:02:19.400><c> the</c>
+
+00:02:19.630 --> 00:02:19.640 align:start position:0%
+only one value for R4 we store all the
+ 
+
+00:02:19.640 --> 00:02:23.830 align:start position:0%
+only one value for R4 we store all the
+possible<00:02:20.120><c> values</c><00:02:20.480><c> that</c><00:02:20.640><c> R4</c><00:02:21.319><c> had</c><00:02:22.239><c> and</c><00:02:22.480><c> then</c><00:02:23.280><c> an</c>
+
+00:02:23.830 --> 00:02:23.840 align:start position:0%
+possible values that R4 had and then an
+ 
+
+00:02:23.840 --> 00:02:26.990 align:start position:0%
+possible values that R4 had and then an
+instruction<00:02:24.840><c> that</c><00:02:25.080><c> wants</c><00:02:25.480><c> R4</c><00:02:26.360><c> will</c><00:02:26.640><c> have</c><00:02:26.800><c> to</c>
+
+00:02:26.990 --> 00:02:27.000 align:start position:0%
+instruction that wants R4 will have to
+ 
+
+00:02:27.000 --> 00:02:29.070 align:start position:0%
+instruction that wants R4 will have to
+search<00:02:27.480><c> among</c><00:02:27.879><c> all</c><00:02:28.080><c> the</c><00:02:28.280><c> possible</c><00:02:28.680><c> versions</c>
+
+00:02:29.070 --> 00:02:29.080 align:start position:0%
+search among all the possible versions
+ 
+
+00:02:29.080 --> 00:02:33.070 align:start position:0%
+search among all the possible versions
+of<00:02:29.239><c> R4</c><00:02:29.959><c> to</c><00:02:30.200><c> find</c><00:02:30.840><c> the</c><00:02:31.000><c> one</c><00:02:31.239><c> that</c><00:02:31.400><c> is</c><00:02:31.920><c> before</c><00:02:32.319><c> it</c>
+
+00:02:33.070 --> 00:02:33.080 align:start position:0%
+of R4 to find the one that is before it
+ 
+
+00:02:33.080 --> 00:02:35.550 align:start position:0%
+of R4 to find the one that is before it
+but<00:02:33.280><c> the</c><00:02:33.440><c> latest</c><00:02:34.200><c> one</c><00:02:34.519><c> before</c><00:02:34.840><c> it</c><00:02:35.040><c> so</c><00:02:35.200><c> in</c><00:02:35.360><c> this</c>
+
+00:02:35.550 --> 00:02:35.560 align:start position:0%
+but the latest one before it so in this
+ 
+
+00:02:35.560 --> 00:02:38.190 align:start position:0%
+but the latest one before it so in this
+case<00:02:35.760><c> we</c><00:02:35.840><c> will</c><00:02:36.040><c> search</c><00:02:36.280><c> for</c><00:02:36.480><c> R4</c><00:02:37.319><c> and</c><00:02:37.519><c> find</c><00:02:38.000><c> this</c>
+
+00:02:38.190 --> 00:02:38.200 align:start position:0%
+case we will search for R4 and find this
+ 
+
+00:02:38.200 --> 00:02:41.270 align:start position:0%
+case we will search for R4 and find this
+one<00:02:38.760><c> and</c><00:02:39.040><c> this</c><00:02:39.239><c> one</c><00:02:39.800><c> and</c><00:02:40.080><c> this</c><00:02:40.440><c> is</c><00:02:40.640><c> the</c><00:02:40.840><c> latest</c>
+
+00:02:41.270 --> 00:02:41.280 align:start position:0%
+one and this one and this is the latest
+ 
+
+00:02:41.280 --> 00:02:43.350 align:start position:0%
+one and this one and this is the latest
+one<00:02:41.560><c> that</c><00:02:41.680><c> we</c><00:02:41.800><c> should</c><00:02:42.000><c> be</c><00:02:42.159><c> using</c><00:02:43.120><c> that</c>
+
+00:02:43.350 --> 00:02:43.360 align:start position:0%
+one that we should be using that
+ 
+
+00:02:43.360 --> 00:02:45.910 align:start position:0%
+one that we should be using that
+requires<00:02:43.800><c> two</c><00:02:44.040><c> versions</c><00:02:44.360><c> of</c><00:02:44.560><c> R4</c><00:02:45.000><c> to</c><00:02:45.200><c> exist</c>
+
+00:02:45.910 --> 00:02:45.920 align:start position:0%
+requires two versions of R4 to exist
+ 
+
+00:02:45.920 --> 00:02:48.750 align:start position:0%
+requires two versions of R4 to exist
+meanwhile<00:02:46.480><c> this</c><00:02:46.760><c> instruction</c><00:02:47.400><c> here</c><00:02:48.280><c> when</c><00:02:48.480><c> it</c>
+
+00:02:48.750 --> 00:02:48.760 align:start position:0%
+meanwhile this instruction here when it
+ 
+
+00:02:48.760 --> 00:02:51.790 align:start position:0%
+meanwhile this instruction here when it
+executes<00:02:49.640><c> we'll</c><00:02:50.040><c> look</c><00:02:50.319><c> for</c><00:02:50.640><c> versions</c><00:02:51.000><c> of</c><00:02:51.200><c> R4</c>
+
+00:02:51.790 --> 00:02:51.800 align:start position:0%
+executes we'll look for versions of R4
+ 
+
+00:02:51.800 --> 00:02:53.750 align:start position:0%
+executes we'll look for versions of R4
+and<00:02:52.080><c> again</c><00:02:52.480><c> find</c><00:02:52.760><c> that</c><00:02:52.920><c> there</c><00:02:53.000><c> are</c><00:02:53.159><c> really</c><00:02:53.400><c> two</c>
+
+00:02:53.750 --> 00:02:53.760 align:start position:0%
+and again find that there are really two
+ 
+
+00:02:53.760 --> 00:02:57.110 align:start position:0%
+and again find that there are really two
+versions<00:02:54.760><c> that</c><00:02:55.040><c> it</c><00:02:55.280><c> might</c><00:02:55.519><c> be</c><00:02:55.800><c> using</c><00:02:56.280><c> R4</c><00:02:56.879><c> here</c>
+
+00:02:57.110 --> 00:02:57.120 align:start position:0%
+versions that it might be using R4 here
+ 
+
+00:02:57.120 --> 00:03:00.430 align:start position:0%
+versions that it might be using R4 here
+and<00:02:57.280><c> R4</c><00:02:57.879><c> here</c><00:02:58.640><c> but</c><00:02:58.920><c> because</c><00:02:59.680><c> this</c><00:02:59.879><c> this</c><00:03:00.000><c> one</c><00:03:00.200><c> is</c>
+
+00:03:00.430 --> 00:03:00.440 align:start position:0%
+and R4 here but because this this one is
+ 
+
+00:03:00.440 --> 00:03:02.589 align:start position:0%
+and R4 here but because this this one is
+coming<00:03:00.959><c> after</c><00:03:01.360><c> this</c><00:03:01.560><c> instruction</c><00:03:02.239><c> it</c><00:03:02.360><c> should</c>
+
+00:03:02.589 --> 00:03:02.599 align:start position:0%
+coming after this instruction it should
+ 
+
+00:03:02.599 --> 00:03:05.190 align:start position:0%
+coming after this instruction it should
+be<00:03:02.760><c> ignored</c><00:03:03.319><c> and</c><00:03:03.560><c> thus</c><00:03:03.760><c> we</c><00:03:03.920><c> use</c><00:03:04.239><c> this</c><00:03:04.480><c> value</c><00:03:05.000><c> so</c>
+
+00:03:05.190 --> 00:03:05.200 align:start position:0%
+be ignored and thus we use this value so
+ 
+
+00:03:05.200 --> 00:03:06.990 align:start position:0%
+be ignored and thus we use this value so
+everything<00:03:05.519><c> will</c><00:03:05.680><c> be</c><00:03:05.879><c> correct</c><00:03:06.599><c> but</c><00:03:06.799><c> it</c>
+
+00:03:06.990 --> 00:03:07.000 align:start position:0%
+everything will be correct but it
+ 
+
+00:03:07.000 --> 00:03:09.830 align:start position:0%
+everything will be correct but it
+requires<00:03:07.400><c> us</c><00:03:07.560><c> to</c><00:03:07.840><c> keep</c><00:03:08.640><c> multiple</c><00:03:09.200><c> versions</c><00:03:09.680><c> of</c>
+
+00:03:09.830 --> 00:03:09.840 align:start position:0%
+requires us to keep multiple versions of
+ 
+
+00:03:09.840 --> 00:03:11.670 align:start position:0%
+requires us to keep multiple versions of
+each<00:03:10.120><c> registers</c><00:03:11.000><c> which</c><00:03:11.120><c> is</c><00:03:11.319><c> really</c>
+
+00:03:11.670 --> 00:03:11.680 align:start position:0%
+each registers which is really
+ 
+
+00:03:11.680 --> 00:03:14.640 align:start position:0%
+each registers which is really
+complicated
+

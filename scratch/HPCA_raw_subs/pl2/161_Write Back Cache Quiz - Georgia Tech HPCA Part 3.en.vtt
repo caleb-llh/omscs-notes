@@ -1,0 +1,144 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.880 align:start position:0%
+ 
+now<00:00:00.390><c> it's</c><00:00:00.599><c> your</c><00:00:00.750><c> turn</c><00:00:00.780><c> let's</c><00:00:01.350><c> do</c><00:00:01.500><c> a</c><00:00:01.530><c> quiz</c><00:00:01.860><c> on</c>
+
+00:00:01.880 --> 00:00:01.890 align:start position:0%
+now it's your turn let's do a quiz on
+ 
+
+00:00:01.890 --> 00:00:04.519 align:start position:0%
+now it's your turn let's do a quiz on
+right<00:00:02.460><c> back</c><00:00:02.669><c> caches</c><00:00:03.210><c> suppose</c><00:00:04.170><c> we</c><00:00:04.350><c> have</c><00:00:04.500><c> a</c>
+
+00:00:04.519 --> 00:00:04.529 align:start position:0%
+right back caches suppose we have a
+ 
+
+00:00:04.529 --> 00:00:06.889 align:start position:0%
+right back caches suppose we have a
+direct<00:00:04.920><c> map</c><00:00:05.100><c> cache</c><00:00:05.130><c> and</c><00:00:05.730><c> this</c><00:00:05.850><c> is</c><00:00:06.029><c> one</c><00:00:06.330><c> entry</c>
+
+00:00:06.889 --> 00:00:06.899 align:start position:0%
+direct map cache and this is one entry
+ 
+
+00:00:06.899 --> 00:00:09.140 align:start position:0%
+direct map cache and this is one entry
+in<00:00:06.930><c> that</c><00:00:07.140><c> cache</c><00:00:07.410><c> and</c><00:00:07.799><c> all</c><00:00:08.280><c> of</c><00:00:08.429><c> the</c><00:00:08.550><c> accesses</c><00:00:08.970><c> we</c>
+
+00:00:09.140 --> 00:00:09.150 align:start position:0%
+in that cache and all of the accesses we
+ 
+
+00:00:09.150 --> 00:00:12.049 align:start position:0%
+in that cache and all of the accesses we
+will<00:00:09.300><c> do</c><00:00:09.450><c> will</c><00:00:10.170><c> map</c><00:00:10.380><c> to</c><00:00:10.410><c> that</c><00:00:10.620><c> one</c><00:00:11.010><c> entry</c><00:00:11.460><c> the</c>
+
+00:00:12.049 --> 00:00:12.059 align:start position:0%
+will do will map to that one entry the
+ 
+
+00:00:12.059 --> 00:00:14.629 align:start position:0%
+will do will map to that one entry the
+valid<00:00:12.480><c> bit</c><00:00:12.660><c> starts</c><00:00:13.049><c> out</c><00:00:13.200><c> at</c><00:00:13.380><c> zero</c><00:00:13.650><c> the</c><00:00:14.370><c> dirty</c>
+
+00:00:14.629 --> 00:00:14.639 align:start position:0%
+valid bit starts out at zero the dirty
+ 
+
+00:00:14.639 --> 00:00:17.900 align:start position:0%
+valid bit starts out at zero the dirty
+bit<00:00:14.940><c> starts</c><00:00:15.299><c> out</c><00:00:15.450><c> at</c><00:00:15.630><c> one</c><00:00:15.870><c> and</c><00:00:16.170><c> the</c><00:00:16.710><c> tag</c><00:00:16.920><c> starts</c>
+
+00:00:17.900 --> 00:00:17.910 align:start position:0%
+bit starts out at one and the tag starts
+ 
+
+00:00:17.910 --> 00:00:20.750 align:start position:0%
+bit starts out at one and the tag starts
+out<00:00:18.060><c> at</c><00:00:18.270><c> a</c><00:00:18.510><c> the</c><00:00:19.500><c> processor</c><00:00:20.130><c> does</c><00:00:20.580><c> the</c>
+
+00:00:20.750 --> 00:00:20.760 align:start position:0%
+out at a the processor does the
+ 
+
+00:00:20.760 --> 00:00:23.689 align:start position:0%
+out at a the processor does the
+following<00:00:21.180><c> sequence</c><00:00:21.600><c> of</c><00:00:21.720><c> accesses</c><00:00:22.369><c> it</c><00:00:23.369><c> reads</c>
+
+00:00:23.689 --> 00:00:23.699 align:start position:0%
+following sequence of accesses it reads
+ 
+
+00:00:23.699 --> 00:00:26.839 align:start position:0%
+following sequence of accesses it reads
+a<00:00:23.910><c> reads</c><00:00:24.240><c> be</c><00:00:24.449><c> writes</c><00:00:24.810><c> be</c><00:00:25.080><c> read</c><00:00:25.859><c> C</c><00:00:26.160><c> reads</c><00:00:26.609><c> the</c>
+
+00:00:26.839 --> 00:00:26.849 align:start position:0%
+a reads be writes be read C reads the
+ 
+
+00:00:26.849 --> 00:00:31.700 align:start position:0%
+a reads be writes be read C reads the
+writes<00:00:27.300><c> D</c><00:00:27.630><c> and</c><00:00:27.930><c> all</c><00:00:28.590><c> of</c><00:00:28.949><c> these</c><00:00:29.310><c> ABC</c><00:00:30.150><c> and</c><00:00:30.390><c> D</c><00:00:30.720><c> map</c>
+
+00:00:31.700 --> 00:00:31.710 align:start position:0%
+writes D and all of these ABC and D map
+ 
+
+00:00:31.710 --> 00:00:35.420 align:start position:0%
+writes D and all of these ABC and D map
+to<00:00:32.070><c> the</c><00:00:32.219><c> same</c><00:00:32.899><c> place</c><00:00:33.899><c> in</c><00:00:33.930><c> the</c><00:00:34.140><c> cache</c><00:00:34.430><c> the</c>
+
+00:00:35.420 --> 00:00:35.430 align:start position:0%
+to the same place in the cache the
+ 
+
+00:00:35.430 --> 00:00:38.000 align:start position:0%
+to the same place in the cache the
+question<00:00:35.850><c> for</c><00:00:36.030><c> you</c><00:00:36.180><c> is</c><00:00:36.390><c> after</c><00:00:37.110><c> these</c><00:00:37.380><c> accesses</c>
+
+00:00:38.000 --> 00:00:38.010 align:start position:0%
+question for you is after these accesses
+ 
+
+00:00:38.010 --> 00:00:41.119 align:start position:0%
+question for you is after these accesses
+what<00:00:38.760><c> is</c><00:00:38.940><c> the</c><00:00:39.090><c> new</c><00:00:39.270><c> state</c><00:00:39.570><c> of</c><00:00:39.600><c> the</c><00:00:39.809><c> cache</c><00:00:40.140><c> also</c>
+
+00:00:41.119 --> 00:00:41.129 align:start position:0%
+what is the new state of the cache also
+ 
+
+00:00:41.129 --> 00:00:43.459 align:start position:0%
+what is the new state of the cache also
+you<00:00:42.030><c> need</c><00:00:42.180><c> to</c><00:00:42.270><c> determine</c><00:00:42.420><c> how</c><00:00:42.899><c> many</c><00:00:42.960><c> cache</c>
+
+00:00:43.459 --> 00:00:43.469 align:start position:0%
+you need to determine how many cache
+ 
+
+00:00:43.469 --> 00:00:45.680 align:start position:0%
+you need to determine how many cache
+misses<00:00:43.739><c> do</c><00:00:44.010><c> we</c><00:00:44.129><c> have</c><00:00:44.370><c> in</c><00:00:44.670><c> this</c><00:00:45.180><c> sequence</c><00:00:45.539><c> of</c>
+
+00:00:45.680 --> 00:00:45.690 align:start position:0%
+misses do we have in this sequence of
+ 
+
+00:00:45.690 --> 00:00:48.229 align:start position:0%
+misses do we have in this sequence of
+accesses<00:00:45.899><c> and</c><00:00:46.469><c> how</c><00:00:47.160><c> many</c><00:00:47.430><c> write</c><00:00:47.730><c> backs</c><00:00:48.030><c> to</c>
+
+00:00:48.229 --> 00:00:48.239 align:start position:0%
+accesses and how many write backs to
+ 
+
+00:00:48.239 --> 00:00:52.820 align:start position:0%
+accesses and how many write backs to
+memory<00:00:48.629><c> will</c><00:00:49.559><c> happen</c><00:00:50.039><c> during</c><00:00:50.280><c> this</c><00:00:50.579><c> sequence</c>
+

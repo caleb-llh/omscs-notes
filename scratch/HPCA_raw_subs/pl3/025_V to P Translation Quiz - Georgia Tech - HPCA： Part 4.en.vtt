@@ -1,0 +1,128 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:01.990 align:start position:0%
+ 
+So<00:00:00.480><c> to</c><00:00:00.719><c> see</c><00:00:00.880><c> the</c><00:00:01.120><c> impact</c><00:00:01.280><c> of</c><00:00:01.520><c> virtual</c><00:00:01.760><c> to</c>
+
+00:00:01.990 --> 00:00:02.000 align:start position:0%
+So to see the impact of virtual to
+ 
+
+00:00:02.000 --> 00:00:04.390 align:start position:0%
+So to see the impact of virtual to
+physical<00:00:02.399><c> translation</c><00:00:02.879><c> on</c><00:00:03.400><c> performance,</c>
+
+00:00:04.390 --> 00:00:04.400 align:start position:0%
+physical translation on performance,
+ 
+
+00:00:04.400 --> 00:00:07.150 align:start position:0%
+physical translation on performance,
+let's<00:00:04.640><c> do</c><00:00:04.799><c> a</c><00:00:04.960><c> quiz</c><00:00:05.279><c> about</c><00:00:05.520><c> that.</c><00:00:06.240><c> In</c><00:00:06.560><c> a</c>
+
+00:00:07.150 --> 00:00:07.160 align:start position:0%
+let's do a quiz about that. In a
+ 
+
+00:00:07.160 --> 00:00:09.589 align:start position:0%
+let's do a quiz about that. In a
+processor<00:00:08.160><c> that</c><00:00:08.320><c> takes</c><00:00:08.559><c> a</c><00:00:08.800><c> single</c><00:00:09.040><c> cycle</c><00:00:09.360><c> to</c>
+
+00:00:09.589 --> 00:00:09.599 align:start position:0%
+processor that takes a single cycle to
+ 
+
+00:00:09.599 --> 00:00:11.270 align:start position:0%
+processor that takes a single cycle to
+compute<00:00:09.920><c> the</c><00:00:10.080><c> virtual</c><00:00:10.400><c> address</c><00:00:10.719><c> for</c><00:00:10.880><c> a</c><00:00:11.040><c> load</c>
+
+00:00:11.270 --> 00:00:11.280 align:start position:0%
+compute the virtual address for a load
+ 
+
+00:00:11.280 --> 00:00:13.910 align:start position:0%
+compute the virtual address for a load
+or<00:00:11.440><c> store</c><00:00:11.719><c> instruction</c><00:00:12.719><c> needs</c><00:00:13.040><c> one</c><00:00:13.280><c> cycle</c><00:00:13.679><c> to</c>
+
+00:00:13.910 --> 00:00:13.920 align:start position:0%
+or store instruction needs one cycle to
+ 
+
+00:00:13.920 --> 00:00:16.390 align:start position:0%
+or store instruction needs one cycle to
+access<00:00:14.160><c> the</c><00:00:14.400><c> cache</c><00:00:14.639><c> on</c><00:00:14.799><c> a</c><00:00:14.960><c> hit,</c><00:00:15.759><c> takes</c><00:00:16.080><c> 10</c>
+
+00:00:16.390 --> 00:00:16.400 align:start position:0%
+access the cache on a hit, takes 10
+ 
+
+00:00:16.400 --> 00:00:19.189 align:start position:0%
+access the cache on a hit, takes 10
+cycles<00:00:17.119><c> to</c><00:00:17.440><c> access</c><00:00:17.840><c> memory.</c><00:00:18.720><c> For</c><00:00:18.800><c> example,</c>
+
+00:00:19.189 --> 00:00:19.199 align:start position:0%
+cycles to access memory. For example,
+ 
+
+00:00:19.199 --> 00:00:22.310 align:start position:0%
+cycles to access memory. For example,
+when<00:00:19.359><c> we</c><00:00:19.520><c> have</c><00:00:19.600><c> a</c><00:00:19.760><c> cache</c><00:00:20.080><c> miss</c><00:00:20.960><c> has</c><00:00:21.119><c> a</c><00:00:21.359><c> 90%</c><00:00:22.080><c> hit</c>
+
+00:00:22.310 --> 00:00:22.320 align:start position:0%
+when we have a cache miss has a 90% hit
+ 
+
+00:00:22.320 --> 00:00:24.230 align:start position:0%
+when we have a cache miss has a 90% hit
+rate<00:00:22.640><c> for</c><00:00:22.960><c> data</c><00:00:23.279><c> that</c><00:00:23.519><c> it</c><00:00:23.680><c> is</c><00:00:23.840><c> trying</c><00:00:24.080><c> to</c>
+
+00:00:24.230 --> 00:00:24.240 align:start position:0%
+rate for data that it is trying to
+ 
+
+00:00:24.240 --> 00:00:26.630 align:start position:0%
+rate for data that it is trying to
+access<00:00:25.119><c> and</c><00:00:25.279><c> the</c><00:00:25.439><c> page</c><00:00:25.840><c> table</c><00:00:26.080><c> entries</c><00:00:26.480><c> that</c>
+
+00:00:26.630 --> 00:00:26.640 align:start position:0%
+access and the page table entries that
+ 
+
+00:00:26.640 --> 00:00:28.310 align:start position:0%
+access and the page table entries that
+we<00:00:26.800><c> need</c><00:00:26.880><c> to</c><00:00:27.039><c> access</c><00:00:27.519><c> cannot</c><00:00:27.840><c> be</c><00:00:28.000><c> in</c><00:00:28.160><c> the</c>
+
+00:00:28.310 --> 00:00:28.320 align:start position:0%
+we need to access cannot be in the
+ 
+
+00:00:28.320 --> 00:00:30.070 align:start position:0%
+we need to access cannot be in the
+cache.<00:00:28.800><c> So</c><00:00:29.039><c> we</c><00:00:29.199><c> need</c><00:00:29.279><c> to</c><00:00:29.439><c> access</c><00:00:29.760><c> memory</c>
+
+00:00:30.070 --> 00:00:30.080 align:start position:0%
+cache. So we need to access memory
+ 
+
+00:00:30.080 --> 00:00:32.549 align:start position:0%
+cache. So we need to access memory
+directly<00:00:30.400><c> for</c><00:00:30.720><c> them.</c><00:00:31.279><c> So</c><00:00:31.519><c> how</c><00:00:31.760><c> many</c><00:00:32.000><c> cycles</c><00:00:32.399><c> do</c>
+
+00:00:32.549 --> 00:00:32.559 align:start position:0%
+directly for them. So how many cycles do
+ 
+
+00:00:32.559 --> 00:00:34.630 align:start position:0%
+directly for them. So how many cycles do
+we<00:00:32.719><c> need</c><00:00:32.960><c> for</c><00:00:33.200><c> a</c><00:00:33.440><c> load</c><00:00:33.680><c> instruction</c><00:00:34.239><c> such</c><00:00:34.480><c> as</c>
+
+00:00:34.630 --> 00:00:34.640 align:start position:0%
+we need for a load instruction such as
+ 
+
+00:00:34.640 --> 00:00:37.360 align:start position:0%
+we need for a load instruction such as
+this?
+

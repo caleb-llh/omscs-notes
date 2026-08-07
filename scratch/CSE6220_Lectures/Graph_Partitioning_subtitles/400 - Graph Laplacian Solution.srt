@@ -1,0 +1,68 @@
+1
+00:00:00,360 --> 00:00:03,690
+ Recall our shortcut for building the Laplacian.
+
+2
+00:00:03,690 --> 00:00:07,670
+ Start by throwing out the directions on all the directed edges.
+
+3
+00:00:07,670 --> 00:00:11,790
+ The diagonals of the Laplacian are just the degrees of each vertex.
+
+4
+00:00:11,790 --> 00:00:14,788
+ So for instance vertex zero has one, two, three,
+
+5
+00:00:14,788 --> 00:00:17,550
+ four, five, six, seven incident edges.
+
+6
+00:00:17,550 --> 00:00:20,990
+ Therefore there's a seven in the zero, zero position.
+
+7
+00:00:20,990 --> 00:00:24,030
+ Now the off diagonals mark at the edges.
+
+8
+00:00:24,030 --> 00:00:29,340
+ For instance vertex zero is connected to every vertex except seven.
+
+9
+00:00:29,340 --> 00:00:33,832
+ So it has a minus one in all the positions of row zero, except for
+
+10
+00:00:33,832 --> 00:00:35,340
+ column seven.
+
+11
+00:00:35,340 --> 00:00:39,160
+ As a sanity check on the answer, you can do some simple tests.
+
+12
+00:00:39,160 --> 00:00:43,820
+ For instance, the matrix ought to be symmetric, look symmetric.
+
+13
+00:00:43,820 --> 00:00:46,460
+ Symmetry follows from the definition of the Laplacian
+
+14
+00:00:46,460 --> 00:00:49,830
+ in terms of the incidence matrix.
+
+15
+00:00:49,830 --> 00:00:51,970
+ Symmetry.
+
+16
+00:00:51,970 --> 00:00:57,240
+ Here's another sanity check, the rows and the columns should each sum to zero.
+
+17
+00:00:57,240 --> 00:00:57,240
+ So does that hold for this solution?
+

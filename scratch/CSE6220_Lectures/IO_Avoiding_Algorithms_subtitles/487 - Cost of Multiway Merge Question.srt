@@ -1,0 +1,80 @@
+1
+00:00:00,370 --> 00:00:03,430
+ Recall the merge tree for a multi-way merge.
+
+2
+00:00:03,430 --> 00:00:06,060
+ The initial input has n elements.
+
+3
+00:00:06,060 --> 00:00:06,900
+ At the very start,
+
+4
+00:00:06,900 --> 00:00:11,850
+ which is the top of this tree, the input is divided into a bunch of sorted runs.
+
+5
+00:00:11,850 --> 00:00:14,330
+ Let's say each of these runs has about z items.
+
+6
+00:00:14,330 --> 00:00:18,325
+ It would probably be some constant fraction less than one of z.
+
+7
+00:00:18,325 --> 00:00:21,760
+ It would probably be some constant fraction of z less than one, so
+
+8
+00:00:21,760 --> 00:00:25,000
+ that you can do the initial sorting step to produce the runs.
+
+9
+00:00:25,000 --> 00:00:29,270
+ Now, suppose you do k way merging as illustrated in this merge tree.
+
+10
+00:00:29,270 --> 00:00:33,100
+ The total number of comparisons it will turn out is n log n.
+
+11
+00:00:33,100 --> 00:00:36,220
+ That matches what you would expect for any comparison based sort.
+
+12
+00:00:36,220 --> 00:00:40,340
+ My question is, what about the total asymptotic memory transfers?
+
+13
+00:00:40,340 --> 00:00:43,570
+ Assume that k is some large fraction of z over L so
+
+14
+00:00:43,570 --> 00:00:46,920
+ that you can always to a k way merge in fast memory.
+
+15
+00:00:46,920 --> 00:00:50,510
+ And because I'm so nice let me give you another small hint.
+
+16
+00:00:50,510 --> 00:00:54,540
+ The maximum number of levels L in the merge tree is theta of
+
+17
+00:00:54,540 --> 00:00:57,630
+ log base z over L of n over L.
+
+18
+00:00:57,630 --> 00:00:58,700
+ Although I've given you this hint,
+
+19
+00:00:58,700 --> 00:01:01,410
+ you should probably take a moment to convince yourself that it is in
+
+20
+00:01:01,410 --> 00:01:01,410
+ fact true.
+

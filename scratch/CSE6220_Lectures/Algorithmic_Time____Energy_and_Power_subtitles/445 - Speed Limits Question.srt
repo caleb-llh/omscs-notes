@@ -1,0 +1,108 @@
+1
+00:00:00,190 --> 00:00:04,500
+ This quiz is about computational speed limits like this one, or
+
+2
+00:00:04,500 --> 00:00:06,930
+ if you prefer metric distances, this one.
+
+3
+00:00:06,930 --> 00:00:10,920
+ Start by considering a 2-D mesh of physical processors.
+
+4
+00:00:10,920 --> 00:00:14,870
+ You can, if you wish, imagine that this mesh is actually a many core processor
+
+5
+00:00:14,870 --> 00:00:18,210
+ that fits on a physical die of a certain size.
+
+6
+00:00:18,210 --> 00:00:20,640
+ Let's say that size is L by L.
+
+7
+00:00:20,640 --> 00:00:23,770
+ In this mesh every interior point is connected to its
+
+8
+00:00:23,770 --> 00:00:25,410
+ eight nearest neighbors.
+
+9
+00:00:25,410 --> 00:00:29,550
+ This means each processing unit can communicate along diagonal routes.
+
+10
+00:00:29,550 --> 00:00:32,820
+ Now consider a single operation defined as follows,
+
+11
+00:00:32,820 --> 00:00:35,660
+ it starts at the processing unit at the center.
+
+12
+00:00:35,660 --> 00:00:40,180
+ The operation then travels as a signal to a unit at one of the corners.
+
+13
+00:00:40,180 --> 00:00:44,140
+ It then turns around, making a round trip back to the center.
+
+14
+00:00:44,140 --> 00:00:46,370
+ Let's say you want to be able to do say,
+
+15
+00:00:46,370 --> 00:00:49,830
+ 3 trillion of these operations per second sequentially.
+
+16
+00:00:49,830 --> 00:00:51,860
+ So you want to do this round trip operation,
+
+17
+00:00:51,860 --> 00:00:56,350
+ center to corner to center, center to corner to center.
+
+18
+00:00:56,350 --> 00:00:59,610
+ And then do that 3 trillion times per second.
+
+19
+00:00:59,610 --> 00:01:02,750
+ And by way of reminder, a trillion is 10 to the 12th.
+
+20
+00:01:02,750 --> 00:01:04,370
+ Here is my question.
+
+21
+00:01:04,370 --> 00:01:06,590
+ If a signal travels at the speed of light,
+
+22
+00:01:06,590 --> 00:01:10,060
+ what is the maximum physical dimension of this mesh?
+
+23
+00:01:10,060 --> 00:01:12,060
+ In other words, what's the largest l can be?
+
+24
+00:01:12,060 --> 00:01:17,530
+ I want you to give your answer in micrometers, or a micron, for short.
+
+25
+00:01:17,530 --> 00:01:19,650
+ And since we're doing a back of the envelope exercise,
+
+26
+00:01:19,650 --> 00:01:22,810
+ you can round your answer to one significant figure.
+
+27
+00:01:22,810 --> 00:01:22,810
+ A handy fact is that the speed of light is about 300 million meters per second.
+

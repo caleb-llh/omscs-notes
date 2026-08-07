@@ -1,0 +1,232 @@
+1
+00:00:00,440 --> 00:00:04,740
+ Recall our basic sketch of a work optimal list ranking algorithm.
+
+2
+00:00:04,740 --> 00:00:08,060
+ The idea is to first shrink the list, then run the sub
+
+3
+00:00:08,060 --> 00:00:12,850
+ optimal list ranking algorithm, and then expand the list back to the original.
+
+4
+00:00:12,850 --> 00:00:15,200
+ The key step is shrinking the list.
+
+5
+00:00:15,200 --> 00:00:17,010
+ So how do you shrink the list?
+
+6
+00:00:17,010 --> 00:00:19,410
+ Let's use Parallel Independent Set.
+
+7
+00:00:19,410 --> 00:00:23,290
+ This process is similar to Pointer Jumping except you'll only jump over
+
+8
+00:00:23,290 --> 00:00:25,510
+ the independent set elements.
+
+9
+00:00:25,510 --> 00:00:31,150
+ Let me sketch this idea by example, first, let's maintain a list of ranks.
+
+10
+00:00:31,150 --> 00:00:34,610
+ Initially, let's assign a temporary rank of zero to the Head and
+
+11
+00:00:34,610 --> 00:00:36,630
+ one to each of the other nodes.
+
+12
+00:00:36,630 --> 00:00:40,060
+ To shrink the list, first identify an independent set.
+
+13
+00:00:40,060 --> 00:00:41,710
+ Remember the two steps.
+
+14
+00:00:41,710 --> 00:00:43,560
+ The first is flipping coins.
+
+15
+00:00:43,560 --> 00:00:45,910
+ The second is removing double heads.
+
+16
+00:00:45,910 --> 00:00:48,910
+ Here's the independent set.
+
+17
+00:00:48,910 --> 00:00:50,460
+ Now remove it.
+
+18
+00:00:50,460 --> 00:00:54,970
+ Removing it entails removing the vertices for one and eight.
+
+19
+00:00:54,970 --> 00:00:58,410
+ It also means rewiring seven to point to three.
+
+20
+00:00:58,410 --> 00:01:00,870
+ That should remind you of pointer jumping.
+
+21
+00:01:00,870 --> 00:01:04,510
+ Let's start by removing four in the four two edge.
+
+22
+00:01:04,510 --> 00:01:06,310
+ In addition to removing four,
+
+23
+00:01:06,310 --> 00:01:09,310
+ you should push it's temporary rank to the neighbor two.
+
+24
+00:01:09,310 --> 00:01:11,630
+ In this case, the temporary rank is zero,
+
+25
+00:01:11,630 --> 00:01:14,030
+ so two's rank will remain the same.
+
+26
+00:01:14,030 --> 00:01:16,870
+ Remember, that you did the same operation in pointer jumping for
+
+27
+00:01:16,870 --> 00:01:18,680
+ list ranking.
+
+28
+00:01:18,680 --> 00:01:21,130
+ So that's it for vertex four.
+
+29
+00:01:21,130 --> 00:01:22,990
+ Now, let's move to vertex one.
+
+30
+00:01:22,990 --> 00:01:26,250
+ You should push its temporary rank of one to its neighbor three.
+
+31
+00:01:26,250 --> 00:01:29,750
+ Now let's look at the jump from seven to three.
+
+32
+00:01:29,750 --> 00:01:33,120
+ Jumping means updating seven's next pointer.
+
+33
+00:01:33,120 --> 00:01:34,370
+ These are the basic steps.
+
+34
+00:01:34,370 --> 00:01:38,310
+ You do them over and over until you've removed the entire independent set.
+
+35
+00:01:38,310 --> 00:01:41,070
+ Now you might have to repeat the independent set process
+
+36
+00:01:41,070 --> 00:01:41,750
+ because remember.
+
+37
+00:01:41,750 --> 00:01:46,410
+ Your goal is to get to a list that has a size of n/log n.
+
+38
+00:01:46,410 --> 00:01:49,360
+ For example, let's say you haven't gotten there yet.
+
+39
+00:01:49,360 --> 00:01:51,430
+ So you'd flip coins again.
+
+40
+00:01:51,430 --> 00:01:54,330
+ In this case, five and seven are in the independent set so
+
+41
+00:01:54,330 --> 00:01:55,790
+ we need to remove them.
+
+42
+00:01:55,790 --> 00:01:59,490
+ Let's start with seven which requires a jump from two to three.
+
+43
+00:01:59,490 --> 00:02:01,080
+ So here's the jump.
+
+44
+00:02:01,080 --> 00:02:05,260
+ So we should also push sevens temporary rank to three, and
+
+45
+00:02:05,260 --> 00:02:08,090
+ you repeat the process for vertex five.
+
+46
+00:02:08,090 --> 00:02:11,700
+ Now let's suppose that this point the list has the right size.
+
+47
+00:02:11,700 --> 00:02:13,820
+ Then we can run list scan on it.
+
+48
+00:02:13,820 --> 00:02:16,780
+ The temporary ranks or the ranks to scan, so
+
+49
+00:02:16,780 --> 00:02:19,470
+ running the scan gives you the following result.
+
+50
+00:02:19,470 --> 00:02:22,760
+ Now let's compare these computer ranks to what they're supposed to be,
+
+51
+00:02:22,760 --> 00:02:24,890
+ based on the original lists.
+
+52
+00:02:24,890 --> 00:02:27,020
+ They're exactly what they need to be.
+
+53
+00:02:27,020 --> 00:02:29,990
+ Neat. Now what about these other ranks?
+
+54
+00:02:29,990 --> 00:02:34,020
+ You basically need to run the process that you just ran to contract the list
+
+55
+00:02:34,020 --> 00:02:35,580
+ in reverse.
+
+56
+00:02:35,580 --> 00:02:38,430
+ It's not hard, but it's a lot of bookkeeping, so for
+
+57
+00:02:38,430 --> 00:02:41,260
+ the sake of clarity, let me skip those details and
+
+58
+00:02:41,260 --> 00:02:41,260
+ refer you to the downloadable section for my detailed notes and pseudocode.
+

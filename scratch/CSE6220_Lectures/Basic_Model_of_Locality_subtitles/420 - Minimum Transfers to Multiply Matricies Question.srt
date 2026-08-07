@@ -1,0 +1,36 @@
+1
+00:00:00,380 --> 00:00:02,148
+ Lucky you, it's quiz time again.
+
+2
+00:00:02,148 --> 00:00:06,240
+ Suppose you want to do a matrix matrix multiply on a machine with a two level
+
+3
+00:00:06,240 --> 00:00:07,450
+ memory hierarchy.
+
+4
+00:00:07,450 --> 00:00:10,910
+ Let's say the matrices are all square end-by-end objects.
+
+5
+00:00:10,910 --> 00:00:13,490
+ Now if you ignore the possibility of a strassen or
+
+6
+00:00:13,490 --> 00:00:18,160
+ faster algorithm, than the work of the matrix multiply is O n cubed.
+
+7
+00:00:18,160 --> 00:00:22,260
+ My question, surprise, surprise, is what is the minimum number of transfers?
+
+8
+00:00:22,260 --> 00:00:24,760
+ I'm looking for an asymptotic lower bound.
+
+9
+00:00:24,760 --> 00:00:24,760
+ Your lower bound need not be too tight but, do try to make a reasonable guess.
+

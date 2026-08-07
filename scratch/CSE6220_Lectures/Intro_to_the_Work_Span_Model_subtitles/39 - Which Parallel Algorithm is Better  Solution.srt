@@ -1,0 +1,52 @@
+1
+00:00:00,170 --> 00:00:01,764
+ Okay, so here's my answer.
+
+2
+00:00:01,764 --> 00:00:02,809
+ It depends!
+
+3
+00:00:02,809 --> 00:00:04,365
+ Lame!
+
+4
+00:00:04,365 --> 00:00:06,339
+ What I really mean is, it depends what you want.
+
+5
+00:00:06,339 --> 00:00:08,520
+ Do you want work optimality?
+
+6
+00:00:08,520 --> 00:00:10,420
+ Do you want low-span?
+
+7
+00:00:10,420 --> 00:00:11,580
+ Do you want linear speed-up?
+
+8
+00:00:11,580 --> 00:00:13,930
+ Do you want better execution time?
+
+9
+00:00:13,930 --> 00:00:17,430
+ Depending on the metric you choose, you can derive a different response.
+
+10
+00:00:17,430 --> 00:00:19,420
+ Now there are a lot of cases to consider.
+
+11
+00:00:19,420 --> 00:00:20,780
+ I won't go through them all.
+
+12
+00:00:20,780 --> 00:00:23,750
+ Instead I'll refer you to the instructor's notes, which includes
+
+13
+00:00:23,750 --> 00:00:23,750
+ a pointer to a short reading that compares these different scenarios.
+

@@ -1,0 +1,28 @@
+1
+00:00:00,320 --> 00:00:01,819
+ So what'd you think?
+
+2
+00:00:01,819 --> 00:00:03,620
+ I thought that was a really cute algorithm.
+
+3
+00:00:03,620 --> 00:00:07,715
+ And if you know anything about binomial heats, which a lot of data structures
+
+4
+00:00:07,715 --> 00:00:11,940
+ 101 classes cover, then you might of recognized the basic idea right away.
+
+5
+00:00:11,940 --> 00:00:15,260
+ And if not, you now have a new trick for your bag.
+
+6
+00:00:15,260 --> 00:00:18,058
+ The original paper on this approach is a very nice read.
+
+7
+00:00:18,058 --> 00:00:18,058
+ So I'd also encourage you to take a look at that.
+

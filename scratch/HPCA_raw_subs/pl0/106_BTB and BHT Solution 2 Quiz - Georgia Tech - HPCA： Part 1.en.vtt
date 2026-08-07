@@ -1,0 +1,264 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.510 align:start position:0%
+ 
+let's<00:00:00.510><c> look</c><00:00:00.750><c> at</c><00:00:00.960><c> the</c><00:00:01.140><c> solution</c><00:00:01.350><c> to</c><00:00:02.040><c> our</c><00:00:02.070><c> BTB</c>
+
+00:00:02.510 --> 00:00:02.520 align:start position:0%
+let's look at the solution to our BTB
+ 
+
+00:00:02.520 --> 00:00:05.450 align:start position:0%
+let's look at the solution to our BTB
+and<00:00:02.669><c> BHT</c><00:00:02.820><c> quiz</c><00:00:03.270><c> the</c><00:00:04.259><c> question</c><00:00:04.710><c> this</c><00:00:04.920><c> time</c><00:00:05.190><c> is</c>
+
+00:00:05.450 --> 00:00:05.460 align:start position:0%
+and BHT quiz the question this time is
+ 
+
+00:00:05.460 --> 00:00:08.120 align:start position:0%
+and BHT quiz the question this time is
+which<00:00:06.000><c> BHT</c><00:00:06.420><c> entry</c><00:00:06.629><c> do</c><00:00:07.230><c> we</c><00:00:07.350><c> access</c><00:00:07.560><c> for</c><00:00:08.010><c> each</c>
+
+00:00:08.120 --> 00:00:08.130 align:start position:0%
+which BHT entry do we access for each
+ 
+
+00:00:08.130 --> 00:00:10.940 align:start position:0%
+which BHT entry do we access for each
+instruction<00:00:08.580><c> there</c><00:00:09.389><c> are</c><00:00:09.510><c> 16</c><00:00:10.050><c> entries</c><00:00:10.559><c> in</c><00:00:10.800><c> the</c>
+
+00:00:10.940 --> 00:00:10.950 align:start position:0%
+instruction there are 16 entries in the
+ 
+
+00:00:10.950 --> 00:00:14.919 align:start position:0%
+instruction there are 16 entries in the
+phd<00:00:11.550><c> and</c><00:00:11.790><c> we</c><00:00:12.480><c> said</c><00:00:12.750><c> that</c><00:00:13.590><c> we</c><00:00:13.769><c> access</c><00:00:14.130><c> the</c><00:00:14.280><c> BHT</c>
+
+00:00:14.919 --> 00:00:14.929 align:start position:0%
+phd and we said that we access the BHT
+ 
+
+00:00:14.929 --> 00:00:17.570 align:start position:0%
+phd and we said that we access the BHT
+using<00:00:15.929><c> the</c><00:00:16.109><c> lowermost</c><00:00:16.440><c> bits</c><00:00:16.920><c> of</c><00:00:17.190><c> the</c>
+
+00:00:17.570 --> 00:00:17.580 align:start position:0%
+using the lowermost bits of the
+ 
+
+00:00:17.580 --> 00:00:20.630 align:start position:0%
+using the lowermost bits of the
+instruction<00:00:17.699><c> address</c><00:00:18.949><c> that</c><00:00:19.949><c> are</c><00:00:20.160><c> not</c><00:00:20.340><c> the</c>
+
+00:00:20.630 --> 00:00:20.640 align:start position:0%
+instruction address that are not the
+ 
+
+00:00:20.640 --> 00:00:22.880 align:start position:0%
+instruction address that are not the
+same<00:00:20.910><c> for</c><00:00:21.150><c> all</c><00:00:21.330><c> instructions</c><00:00:21.930><c> in</c><00:00:22.140><c> this</c><00:00:22.619><c> case</c>
+
+00:00:22.880 --> 00:00:22.890 align:start position:0%
+same for all instructions in this case
+ 
+
+00:00:22.890 --> 00:00:26.120 align:start position:0%
+same for all instructions in this case
+our<00:00:23.269><c> instruction</c><00:00:24.269><c> address</c><00:00:24.689><c> has</c><00:00:25.500><c> the</c>
+
+00:00:26.120 --> 00:00:26.130 align:start position:0%
+our instruction address has the
+ 
+
+00:00:26.130 --> 00:00:28.220 align:start position:0%
+our instruction address has the
+following<00:00:26.340><c> bits</c><00:00:26.820><c> for</c><00:00:27.420><c> the</c><00:00:27.630><c> move</c><00:00:28.019><c> instruction</c>
+
+00:00:28.220 --> 00:00:28.230 align:start position:0%
+following bits for the move instruction
+ 
+
+00:00:28.230 --> 00:00:36.380 align:start position:0%
+following bits for the move instruction
+here<00:00:28.920><c> we</c><00:00:29.490><c> have</c><00:00:29.760><c> C</c><00:00:30.599><c> 0</c><00:00:32.600><c> 0</c><00:00:33.920><c> 0</c><00:00:34.920><c> because</c><00:00:35.460><c> every</c>
+
+00:00:36.380 --> 00:00:36.390 align:start position:0%
+here we have C 0 0 0 because every
+ 
+
+00:00:36.390 --> 00:00:38.840 align:start position:0%
+here we have C 0 0 0 because every
+instruction<00:00:36.719><c> is</c><00:00:37.020><c> 4</c><00:00:37.410><c> bytes</c><00:00:37.680><c> in</c><00:00:37.920><c> size</c><00:00:37.950><c> the</c>
+
+00:00:38.840 --> 00:00:38.850 align:start position:0%
+instruction is 4 bytes in size the
+ 
+
+00:00:38.850 --> 00:00:41.240 align:start position:0%
+instruction is 4 bytes in size the
+lowermost<00:00:39.180><c> 2</c><00:00:39.690><c> bits</c><00:00:39.989><c> are</c><00:00:40.290><c> never</c><00:00:40.559><c> changing</c><00:00:41.129><c> they</c>
+
+00:00:41.240 --> 00:00:41.250 align:start position:0%
+lowermost 2 bits are never changing they
+ 
+
+00:00:41.250 --> 00:00:42.740 align:start position:0%
+lowermost 2 bits are never changing they
+are<00:00:41.280><c> always</c><00:00:41.579><c> going</c><00:00:41.879><c> to</c><00:00:41.969><c> be</c><00:00:42.030><c> 0</c><00:00:42.360><c> for</c><00:00:42.450><c> own</c>
+
+00:00:42.740 --> 00:00:42.750 align:start position:0%
+are always going to be 0 for own
+ 
+
+00:00:42.750 --> 00:00:45.560 align:start position:0%
+are always going to be 0 for own
+instructions<00:00:43.379><c> and</c><00:00:43.620><c> now</c><00:00:44.370><c> because</c><00:00:44.730><c> we</c><00:00:44.879><c> have</c><00:00:45.059><c> 16</c>
+
+00:00:45.560 --> 00:00:45.570 align:start position:0%
+instructions and now because we have 16
+ 
+
+00:00:45.570 --> 00:00:48.860 align:start position:0%
+instructions and now because we have 16
+Bhd<00:00:46.110><c> entries</c><00:00:46.590><c> we</c><00:00:47.129><c> take</c><00:00:47.399><c> the</c><00:00:47.550><c> next</c><00:00:47.789><c> 4</c><00:00:48.270><c> bits</c><00:00:48.570><c> and</c>
+
+00:00:48.860 --> 00:00:48.870 align:start position:0%
+Bhd entries we take the next 4 bits and
+ 
+
+00:00:48.870 --> 00:00:51.650 align:start position:0%
+Bhd entries we take the next 4 bits and
+this<00:00:49.500><c> is</c><00:00:49.559><c> the</c><00:00:50.129><c> number</c><00:00:50.430><c> of</c><00:00:50.520><c> the</c><00:00:50.640><c> BHT</c><00:00:50.940><c> entry</c><00:00:51.120><c> in</c>
+
+00:00:51.650 --> 00:00:51.660 align:start position:0%
+this is the number of the BHT entry in
+ 
+
+00:00:51.660 --> 00:00:55.040 align:start position:0%
+this is the number of the BHT entry in
+this<00:00:52.230><c> case</c><00:00:52.530><c> we</c><00:00:53.250><c> are</c><00:00:53.280><c> accessing</c><00:00:53.610><c> the</c><00:00:54.090><c> BHT</c><00:00:54.870><c> entry</c>
+
+00:00:55.040 --> 00:00:55.050 align:start position:0%
+this case we are accessing the BHT entry
+ 
+
+00:00:55.050 --> 00:00:57.740 align:start position:0%
+this case we are accessing the BHT entry
+number<00:00:55.590><c> 0</c><00:00:55.770><c> now</c><00:00:56.670><c> let's</c><00:00:56.969><c> look</c><00:00:57.090><c> at</c><00:00:57.239><c> this</c><00:00:57.420><c> other</c>
+
+00:00:57.740 --> 00:00:57.750 align:start position:0%
+number 0 now let's look at this other
+ 
+
+00:00:57.750 --> 00:01:00.380 align:start position:0%
+number 0 now let's look at this other
+move<00:00:58.530><c> instruction</c><00:00:59.100><c> here</c><00:00:59.430><c> whose</c><00:00:59.730><c> address</c><00:00:59.940><c> is</c><00:01:00.059><c> C</c>
+
+00:01:00.380 --> 00:01:00.390 align:start position:0%
+move instruction here whose address is C
+ 
+
+00:01:00.390 --> 00:01:05.299 align:start position:0%
+move instruction here whose address is C
+0<00:01:00.420><c> 0</c><00:01:01.050><c> 4</c><00:01:01.410><c> C</c><00:01:02.250><c> 0</c><00:01:02.879><c> 0</c><00:01:03.390><c> are</c><00:01:03.690><c> not</c><00:01:03.960><c> changing</c><00:01:04.619><c> what</c><00:01:05.159><c> is</c>
+
+00:01:05.299 --> 00:01:05.309 align:start position:0%
+0 0 4 C 0 0 are not changing what is
+ 
+
+00:01:05.309 --> 00:01:09.679 align:start position:0%
+0 0 4 C 0 0 are not changing what is
+changing<00:01:05.790><c> is</c><00:01:05.909><c> 4</c><00:01:06.270><c> 4</c><00:01:06.990><c> in</c><00:01:07.260><c> binary</c><00:01:07.680><c> 0</c><00:01:08.100><c> 1</c><00:01:08.340><c> 0</c><00:01:08.670><c> 0</c><00:01:08.760><c> again</c>
+
+00:01:09.679 --> 00:01:09.689 align:start position:0%
+changing is 4 4 in binary 0 1 0 0 again
+ 
+
+00:01:09.689 --> 00:01:11.750 align:start position:0%
+changing is 4 4 in binary 0 1 0 0 again
+we<00:01:10.229><c> discard</c><00:01:10.710><c> these</c><00:01:10.890><c> bits</c><00:01:11.159><c> because</c><00:01:11.369><c> they</c><00:01:11.700><c> are</c>
+
+00:01:11.750 --> 00:01:11.760 align:start position:0%
+we discard these bits because they are
+ 
+
+00:01:11.760 --> 00:01:13.609 align:start position:0%
+we discard these bits because they are
+never<00:01:11.939><c> changing</c><00:01:12.450><c> among</c><00:01:12.689><c> instructions</c><00:01:13.350><c> and</c>
+
+00:01:13.609 --> 00:01:13.619 align:start position:0%
+never changing among instructions and
+ 
+
+00:01:13.619 --> 00:01:17.030 align:start position:0%
+never changing among instructions and
+this<00:01:14.189><c> is</c><00:01:14.460><c> the</c><00:01:14.610><c> number</c><00:01:14.970><c> of</c><00:01:15.150><c> the</c><00:01:15.330><c> BHT</c><00:01:15.630><c> entry</c><00:01:16.040><c> so</c>
+
+00:01:17.030 --> 00:01:17.040 align:start position:0%
+this is the number of the BHT entry so
+ 
+
+00:01:17.040 --> 00:01:19.999 align:start position:0%
+this is the number of the BHT entry so
+the<00:01:17.430><c> entry</c><00:01:18.060><c> that</c><00:01:18.180><c> we</c><00:01:18.360><c> access</c><00:01:18.659><c> here</c><00:01:18.900><c> is</c><00:01:19.170><c> 1</c><00:01:19.439><c> now</c>
+
+00:01:19.999 --> 00:01:20.009 align:start position:0%
+the entry that we access here is 1 now
+ 
+
+00:01:20.009 --> 00:01:22.700 align:start position:0%
+the entry that we access here is 1 now
+you<00:01:20.220><c> can</c><00:01:20.430><c> tell</c><00:01:20.670><c> that</c><00:01:21.090><c> for</c><00:01:21.330><c> instruction</c><00:01:21.869><c> 8</c><00:01:22.110><c> here</c>
+
+00:01:22.700 --> 00:01:22.710 align:start position:0%
+you can tell that for instruction 8 here
+ 
+
+00:01:22.710 --> 00:01:25.249 align:start position:0%
+you can tell that for instruction 8 here
+this<00:01:23.430><c> is</c><00:01:23.580><c> going</c><00:01:23.729><c> to</c><00:01:23.850><c> be</c><00:01:23.939><c> 1</c><00:01:24.180><c> 0</c><00:01:24.210><c> so</c><00:01:24.930><c> we're</c><00:01:25.080><c> going</c>
+
+00:01:25.249 --> 00:01:25.259 align:start position:0%
+this is going to be 1 0 so we're going
+ 
+
+00:01:25.259 --> 00:01:32.300 align:start position:0%
+this is going to be 1 0 so we're going
+to<00:01:25.350><c> access</c><00:01:25.710><c> the</c><00:01:25.890><c> BHT</c><00:01:26.189><c> entry</c><00:01:26.490><c> number</c><00:01:27.090><c> 2</c><00:01:28.040><c> 3</c><00:01:29.180><c> 4</c><00:01:30.229><c> 5</c><00:01:31.310><c> 6</c>
+
+00:01:32.300 --> 00:01:32.310 align:start position:0%
+to access the BHT entry number 2 3 4 5 6
+ 
+
+00:01:32.310 --> 00:01:33.469 align:start position:0%
+to access the BHT entry number 2 3 4 5 6
+&amp;<00:01:32.729><c> 7</c>
+
+00:01:33.469 --> 00:01:33.479 align:start position:0%
+&amp; 7
+ 
+
+00:01:33.479 --> 00:01:36.440 align:start position:0%
+&amp; 7
+if<00:01:34.259><c> we</c><00:01:34.530><c> reached</c><00:01:34.740><c> 15</c><00:01:35.430><c> we</c><00:01:35.729><c> would</c><00:01:35.880><c> then</c><00:01:36.030><c> wrap</c>
+
+00:01:36.440 --> 00:01:36.450 align:start position:0%
+if we reached 15 we would then wrap
+ 
+
+00:01:36.450 --> 00:01:38.300 align:start position:0%
+if we reached 15 we would then wrap
+around<00:01:36.810><c> to</c><00:01:36.900><c> 0</c><00:01:37.229><c> but</c><00:01:37.439><c> we</c><00:01:37.590><c> never</c><00:01:37.799><c> reach</c><00:01:37.979><c> it</c><00:01:38.159><c> so</c>
+
+00:01:38.300 --> 00:01:38.310 align:start position:0%
+around to 0 but we never reach it so
+ 
+
+00:01:38.310 --> 00:01:41.720 align:start position:0%
+around to 0 but we never reach it so
+this<00:01:38.460><c> is</c><00:01:38.520><c> really</c><00:01:38.880><c> what</c><00:01:39.360><c> we</c><00:01:39.540><c> get</c>
+

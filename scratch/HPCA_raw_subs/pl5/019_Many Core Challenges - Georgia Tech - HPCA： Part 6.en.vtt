@@ -1,0 +1,312 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:02.230 align:start position:0%
+ 
+so<00:00:00.560><c> in</c><00:00:00.640><c> this</c><00:00:00.960><c> lesson</c>
+
+00:00:02.230 --> 00:00:02.240 align:start position:0%
+so in this lesson
+ 
+
+00:00:02.240 --> 00:00:04.390 align:start position:0%
+so in this lesson
+we<00:00:02.399><c> will</c><00:00:02.560><c> go</c><00:00:02.800><c> through</c><00:00:03.040><c> several</c><00:00:03.679><c> challenges</c>
+
+00:00:04.390 --> 00:00:04.400 align:start position:0%
+we will go through several challenges
+ 
+
+00:00:04.400 --> 00:00:06.789 align:start position:0%
+we will go through several challenges
+that<00:00:04.640><c> a</c><00:00:04.799><c> many</c><00:00:05.279><c> core</c><00:00:05.600><c> processor</c><00:00:06.240><c> that</c><00:00:06.480><c> is</c><00:00:06.640><c> a</c>
+
+00:00:06.789 --> 00:00:06.799 align:start position:0%
+that a many core processor that is a
+ 
+
+00:00:06.799 --> 00:00:08.549 align:start position:0%
+that a many core processor that is a
+processor<00:00:07.200><c> with</c><00:00:07.440><c> a</c><00:00:07.520><c> very</c><00:00:07.759><c> large</c><00:00:08.080><c> number</c><00:00:08.400><c> of</c>
+
+00:00:08.549 --> 00:00:08.559 align:start position:0%
+processor with a very large number of
+ 
+
+00:00:08.559 --> 00:00:10.549 align:start position:0%
+processor with a very large number of
+cores<00:00:09.200><c> will</c><00:00:09.519><c> face</c>
+
+00:00:10.549 --> 00:00:10.559 align:start position:0%
+cores will face
+ 
+
+00:00:10.559 --> 00:00:12.709 align:start position:0%
+cores will face
+the<00:00:10.800><c> first</c><00:00:11.120><c> challenge</c><00:00:11.679><c> is</c><00:00:11.840><c> that</c><00:00:12.080><c> as</c><00:00:12.320><c> we</c><00:00:12.480><c> grow</c>
+
+00:00:12.709 --> 00:00:12.719 align:start position:0%
+the first challenge is that as we grow
+ 
+
+00:00:12.719 --> 00:00:14.230 align:start position:0%
+the first challenge is that as we grow
+the<00:00:12.880><c> number</c><00:00:13.120><c> of</c><00:00:13.280><c> cores</c>
+
+00:00:14.230 --> 00:00:14.240 align:start position:0%
+the number of cores
+ 
+
+00:00:14.240 --> 00:00:15.990 align:start position:0%
+the number of cores
+the<00:00:14.400><c> coherence</c><00:00:15.120><c> traffic</c><00:00:15.519><c> between</c><00:00:15.759><c> this</c>
+
+00:00:15.990 --> 00:00:16.000 align:start position:0%
+the coherence traffic between this
+ 
+
+00:00:16.000 --> 00:00:18.630 align:start position:0%
+the coherence traffic between this
+course<00:00:16.320><c> goes</c><00:00:16.640><c> up</c><00:00:17.359><c> and</c><00:00:17.600><c> that</c><00:00:17.840><c> is</c><00:00:18.000><c> because</c><00:00:18.480><c> we</c>
+
+00:00:18.630 --> 00:00:18.640 align:start position:0%
+course goes up and that is because we
+ 
+
+00:00:18.640 --> 00:00:21.109 align:start position:0%
+course goes up and that is because we
+have<00:00:18.800><c> already</c><00:00:19.199><c> seen</c><00:00:19.600><c> that</c><00:00:20.240><c> rights</c><00:00:20.640><c> to</c><00:00:20.880><c> shared</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+have already seen that rights to shared
+ 
+
+00:00:21.119 --> 00:00:24.470 align:start position:0%
+have already seen that rights to shared
+memory<00:00:21.520><c> locations</c><00:00:22.720><c> result</c><00:00:23.199><c> in</c><00:00:23.359><c> invalidations</c>
+
+00:00:24.470 --> 00:00:24.480 align:start position:0%
+memory locations result in invalidations
+ 
+
+00:00:24.480 --> 00:00:27.109 align:start position:0%
+memory locations result in invalidations
+and<00:00:24.640><c> subsequent</c><00:00:25.359><c> misses</c><00:00:25.760><c> on</c><00:00:25.840><c> those</c><00:00:26.080><c> locations</c>
+
+00:00:27.109 --> 00:00:27.119 align:start position:0%
+and subsequent misses on those locations
+ 
+
+00:00:27.119 --> 00:00:29.750 align:start position:0%
+and subsequent misses on those locations
+and<00:00:27.359><c> both</c><00:00:27.680><c> invalidations</c><00:00:28.880><c> and</c><00:00:29.119><c> the</c><00:00:29.199><c> resulting</c>
+
+00:00:29.750 --> 00:00:29.760 align:start position:0%
+and both invalidations and the resulting
+ 
+
+00:00:29.760 --> 00:00:30.710 align:start position:0%
+and both invalidations and the resulting
+misses
+
+00:00:30.710 --> 00:00:30.720 align:start position:0%
+misses
+ 
+
+00:00:30.720 --> 00:00:33.430 align:start position:0%
+misses
+go<00:00:31.119><c> onto</c><00:00:31.359><c> the</c><00:00:31.519><c> shared</c><00:00:31.840><c> bus</c><00:00:32.399><c> and</c><00:00:32.559><c> thus</c><00:00:32.960><c> add</c><00:00:33.280><c> to</c>
+
+00:00:33.430 --> 00:00:33.440 align:start position:0%
+go onto the shared bus and thus add to
+ 
+
+00:00:33.440 --> 00:00:35.190 align:start position:0%
+go onto the shared bus and thus add to
+this<00:00:33.680><c> coherent</c><00:00:34.160><c> traffic</c>
+
+00:00:35.190 --> 00:00:35.200 align:start position:0%
+this coherent traffic
+ 
+
+00:00:35.200 --> 00:00:37.350 align:start position:0%
+this coherent traffic
+as<00:00:35.360><c> we</c><00:00:35.520><c> increase</c><00:00:35.840><c> the</c><00:00:36.000><c> number</c><00:00:36.239><c> of</c><00:00:36.399><c> cores</c><00:00:37.200><c> we</c>
+
+00:00:37.350 --> 00:00:37.360 align:start position:0%
+as we increase the number of cores we
+ 
+
+00:00:37.360 --> 00:00:39.910 align:start position:0%
+as we increase the number of cores we
+get<00:00:37.600><c> more</c><00:00:37.920><c> writes</c><00:00:38.160><c> per</c><00:00:38.480><c> second</c><00:00:39.360><c> and</c><00:00:39.600><c> as</c><00:00:39.840><c> a</c>
+
+00:00:39.910 --> 00:00:39.920 align:start position:0%
+get more writes per second and as a
+ 
+
+00:00:39.920 --> 00:00:40.950 align:start position:0%
+get more writes per second and as a
+result
+
+00:00:40.950 --> 00:00:40.960 align:start position:0%
+result
+ 
+
+00:00:40.960 --> 00:00:43.670 align:start position:0%
+result
+the<00:00:41.120><c> bus</c><00:00:41.360><c> throughput</c><00:00:41.760><c> that</c><00:00:41.920><c> we</c><00:00:42.079><c> need</c><00:00:42.239><c> goes</c><00:00:42.559><c> up</c>
+
+00:00:43.670 --> 00:00:43.680 align:start position:0%
+the bus throughput that we need goes up
+ 
+
+00:00:43.680 --> 00:00:45.990 align:start position:0%
+the bus throughput that we need goes up
+until<00:00:44.079><c> it</c><00:00:44.239><c> eventually</c><00:00:45.040><c> exceeds</c><00:00:45.520><c> what</c><00:00:45.680><c> we</c><00:00:45.840><c> can</c>
+
+00:00:45.990 --> 00:00:46.000 align:start position:0%
+until it eventually exceeds what we can
+ 
+
+00:00:46.000 --> 00:00:47.430 align:start position:0%
+until it eventually exceeds what we can
+do<00:00:46.160><c> on</c><00:00:46.320><c> a</c><00:00:46.399><c> bus</c>
+
+00:00:47.430 --> 00:00:47.440 align:start position:0%
+do on a bus
+ 
+
+00:00:47.440 --> 00:00:49.350 align:start position:0%
+do on a bus
+unfortunately<00:00:48.239><c> the</c><00:00:48.399><c> bus</c>
+
+00:00:49.350 --> 00:00:49.360 align:start position:0%
+unfortunately the bus
+ 
+
+00:00:49.360 --> 00:00:51.510 align:start position:0%
+unfortunately the bus
+allows<00:00:49.760><c> us</c><00:00:49.920><c> to</c><00:00:50.160><c> only</c><00:00:50.399><c> do</c><00:00:50.559><c> one</c><00:00:50.800><c> request</c><00:00:51.280><c> at</c><00:00:51.440><c> a</c>
+
+00:00:51.510 --> 00:00:51.520 align:start position:0%
+allows us to only do one request at a
+ 
+
+00:00:51.520 --> 00:00:53.270 align:start position:0%
+allows us to only do one request at a
+time<00:00:52.160><c> in</c><00:00:52.399><c> part</c>
+
+00:00:53.270 --> 00:00:53.280 align:start position:0%
+time in part
+ 
+
+00:00:53.280 --> 00:00:55.910 align:start position:0%
+time in part
+that<00:00:53.600><c> is</c><00:00:53.760><c> needed</c><00:00:54.559><c> because</c><00:00:55.039><c> we</c><00:00:55.199><c> rely</c><00:00:55.680><c> on</c><00:00:55.760><c> the</c>
+
+00:00:55.910 --> 00:00:55.920 align:start position:0%
+that is needed because we rely on the
+ 
+
+00:00:55.920 --> 00:00:58.630 align:start position:0%
+that is needed because we rely on the
+bus<00:00:56.239><c> to</c><00:00:56.399><c> produce</c><00:00:57.199><c> the</c><00:00:57.440><c> easy</c><00:00:57.920><c> ordering</c><00:00:58.320><c> that</c><00:00:58.480><c> we</c>
+
+00:00:58.630 --> 00:00:58.640 align:start position:0%
+bus to produce the easy ordering that we
+ 
+
+00:00:58.640 --> 00:01:01.270 align:start position:0%
+bus to produce the easy ordering that we
+get<00:00:58.879><c> between</c><00:00:59.280><c> writes</c><00:00:59.600><c> to</c><00:00:59.760><c> maintain</c><00:01:00.079><c> coherence</c>
+
+00:01:01.270 --> 00:01:01.280 align:start position:0%
+get between writes to maintain coherence
+ 
+
+00:01:01.280 --> 00:01:03.430 align:start position:0%
+get between writes to maintain coherence
+but<00:01:01.520><c> that</c><00:01:01.760><c> means</c><00:01:02.079><c> that</c><00:01:02.320><c> really</c><00:01:02.879><c> the</c><00:01:03.039><c> bus</c>
+
+00:01:03.430 --> 00:01:03.440 align:start position:0%
+but that means that really the bus
+ 
+
+00:01:03.440 --> 00:01:05.990 align:start position:0%
+but that means that really the bus
+eventually<00:01:04.159><c> becomes</c><00:01:04.559><c> the</c><00:01:04.640><c> bottleneck</c>
+
+00:01:05.990 --> 00:01:06.000 align:start position:0%
+eventually becomes the bottleneck
+ 
+
+00:01:06.000 --> 00:01:07.750 align:start position:0%
+eventually becomes the bottleneck
+so<00:01:06.240><c> what</c><00:01:06.479><c> we</c><00:01:06.720><c> need</c>
+
+00:01:07.750 --> 00:01:07.760 align:start position:0%
+so what we need
+ 
+
+00:01:07.760 --> 00:01:09.510 align:start position:0%
+so what we need
+is<00:01:08.000><c> a</c><00:01:08.159><c> scalable</c>
+
+00:01:09.510 --> 00:01:09.520 align:start position:0%
+is a scalable
+ 
+
+00:01:09.520 --> 00:01:12.710 align:start position:0%
+is a scalable
+on-chip<00:01:10.000><c> network</c><00:01:10.880><c> that</c><00:01:11.119><c> allows</c><00:01:11.920><c> the</c><00:01:12.159><c> traffic</c>
+
+00:01:12.710 --> 00:01:12.720 align:start position:0%
+on-chip network that allows the traffic
+ 
+
+00:01:12.720 --> 00:01:16.230 align:start position:0%
+on-chip network that allows the traffic
+to<00:01:12.960><c> grow</c><00:01:13.760><c> as</c><00:01:13.920><c> the</c><00:01:14.080><c> number</c><00:01:14.640><c> of</c><00:01:14.960><c> course</c><00:01:15.280><c> grows</c>
+
+00:01:16.230 --> 00:01:16.240 align:start position:0%
+to grow as the number of course grows
+ 
+
+00:01:16.240 --> 00:01:18.310 align:start position:0%
+to grow as the number of course grows
+and<00:01:16.479><c> then</c><00:01:16.720><c> we</c><00:01:16.880><c> also</c><00:01:17.119><c> need</c><00:01:17.280><c> to</c><00:01:17.439><c> use</c><00:01:17.680><c> directory</c>
+
+00:01:18.310 --> 00:01:18.320 align:start position:0%
+and then we also need to use directory
+ 
+
+00:01:18.320 --> 00:01:20.149 align:start position:0%
+and then we also need to use directory
+coherence
+
+00:01:20.149 --> 00:01:20.159 align:start position:0%
+coherence
+ 
+
+00:01:20.159 --> 00:01:22.070 align:start position:0%
+coherence
+so<00:01:20.320><c> that</c><00:01:20.560><c> we</c><00:01:20.720><c> don't</c><00:01:21.040><c> rely</c>
+
+00:01:22.070 --> 00:01:22.080 align:start position:0%
+so that we don't rely
+ 
+
+00:01:22.080 --> 00:01:24.230 align:start position:0%
+so that we don't rely
+on<00:01:22.720><c> the</c><00:01:22.960><c> bus</c>
+
+00:01:24.230 --> 00:01:24.240 align:start position:0%
+on the bus
+ 
+
+00:01:24.240 --> 00:01:28.560 align:start position:0%
+on the bus
+to<00:01:24.479><c> serialize</c><00:01:25.200><c> everything</c><00:01:25.680><c> for</c><00:01:25.920><c> us</c>
+

@@ -1,0 +1,904 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:01.949 align:start position:0%
+ 
+now<00:00:00.399><c> we're</c><00:00:00.640><c> going</c><00:00:00.840><c> to</c><00:00:01.000><c> do</c><00:00:01.199><c> a</c><00:00:01.360><c> slightly</c><00:00:01.760><c> more</c>
+
+00:00:01.949 --> 00:00:01.959 align:start position:0%
+now we're going to do a slightly more
+ 
+
+00:00:01.959 --> 00:00:04.590 align:start position:0%
+now we're going to do a slightly more
+detailed<00:00:02.440><c> directory</c><00:00:03.000><c> example</c><00:00:03.919><c> to</c><00:00:04.080><c> show</c><00:00:04.400><c> how</c>
+
+00:00:04.590 --> 00:00:04.600 align:start position:0%
+detailed directory example to show how
+ 
+
+00:00:04.600 --> 00:00:06.070 align:start position:0%
+detailed directory example to show how
+the<00:00:04.799><c> directory</c><00:00:05.279><c> doesn't</c><00:00:05.640><c> become</c><00:00:05.920><c> a</c>
+
+00:00:06.070 --> 00:00:06.080 align:start position:0%
+the directory doesn't become a
+ 
+
+00:00:06.080 --> 00:00:09.629 align:start position:0%
+the directory doesn't become a
+bottleneck<00:00:07.040><c> when</c><00:00:07.240><c> a</c><00:00:07.439><c> bus</c><00:00:08.040><c> would</c><00:00:09.040><c> here</c><00:00:09.240><c> we</c><00:00:09.400><c> have</c>
+
+00:00:09.629 --> 00:00:09.639 align:start position:0%
+bottleneck when a bus would here we have
+ 
+
+00:00:09.639 --> 00:00:13.070 align:start position:0%
+bottleneck when a bus would here we have
+four<00:00:10.000><c> cores</c><00:00:10.759><c> each</c><00:00:11.080><c> with</c><00:00:11.240><c> its</c><00:00:11.440><c> own</c><00:00:11.840><c> cache</c><00:00:12.799><c> and</c>
+
+00:00:13.070 --> 00:00:13.080 align:start position:0%
+four cores each with its own cache and
+ 
+
+00:00:13.080 --> 00:00:15.590 align:start position:0%
+four cores each with its own cache and
+also<00:00:13.559><c> next</c><00:00:13.799><c> to</c><00:00:14.000><c> each</c><00:00:14.200><c> core</c><00:00:14.519><c> is</c><00:00:14.639><c> a</c><00:00:14.839><c> slice</c><00:00:15.240><c> of</c><00:00:15.400><c> the</c>
+
+00:00:15.590 --> 00:00:15.600 align:start position:0%
+also next to each core is a slice of the
+ 
+
+00:00:15.600 --> 00:00:17.830 align:start position:0%
+also next to each core is a slice of the
+directory<00:00:16.600><c> let's</c><00:00:16.800><c> assume</c><00:00:17.119><c> that</c><00:00:17.240><c> each</c><00:00:17.439><c> slice</c>
+
+00:00:17.830 --> 00:00:17.840 align:start position:0%
+directory let's assume that each slice
+ 
+
+00:00:17.840 --> 00:00:20.630 align:start position:0%
+directory let's assume that each slice
+just<00:00:18.039><c> keeps</c><00:00:18.359><c> track</c><00:00:18.640><c> of</c><00:00:18.840><c> one</c><00:00:19.119><c> block</c><00:00:20.039><c> so</c><00:00:20.279><c> this</c><00:00:20.439><c> is</c>
+
+00:00:20.630 --> 00:00:20.640 align:start position:0%
+just keeps track of one block so this is
+ 
+
+00:00:20.640 --> 00:00:22.670 align:start position:0%
+just keeps track of one block so this is
+the<00:00:21.039><c> directory</c><00:00:21.519><c> slice</c><00:00:21.920><c> where</c><00:00:22.080><c> we</c><00:00:22.279><c> keep</c><00:00:22.519><c> the</c>
+
+00:00:22.670 --> 00:00:22.680 align:start position:0%
+the directory slice where we keep the
+ 
+
+00:00:22.680 --> 00:00:26.109 align:start position:0%
+the directory slice where we keep the
+block<00:00:23.000><c> X</c><00:00:23.960><c> information</c><00:00:24.960><c> and</c><00:00:25.160><c> then</c><00:00:25.680><c> next</c><00:00:25.920><c> to</c>
+
+00:00:26.109 --> 00:00:26.119 align:start position:0%
+block X information and then next to
+ 
+
+00:00:26.119 --> 00:00:30.029 align:start position:0%
+block X information and then next to
+cach<00:00:26.400><c> one</c><00:00:26.640><c> there</c><00:00:26.760><c> is</c><00:00:26.960><c> directory</c><00:00:27.519><c> y</c><00:00:28.199><c> z</c><00:00:28.960><c> and</c><00:00:29.199><c> w</c>
+
+00:00:30.029 --> 00:00:30.039 align:start position:0%
+cach one there is directory y z and w
+ 
+
+00:00:30.039 --> 00:00:33.069 align:start position:0%
+cach one there is directory y z and w
+and<00:00:30.199><c> now</c><00:00:30.439><c> let's</c><00:00:30.720><c> assume</c><00:00:31.119><c> that</c><00:00:31.560><c> the</c><00:00:31.759><c> core</c><00:00:32.200><c> zero</c>
+
+00:00:33.069 --> 00:00:33.079 align:start position:0%
+and now let's assume that the core zero
+ 
+
+00:00:33.079 --> 00:00:36.470 align:start position:0%
+and now let's assume that the core zero
+right<00:00:33.520><c> X</c><00:00:34.399><c> at</c><00:00:34.600><c> about</c><00:00:34.920><c> the</c><00:00:35.120><c> same</c><00:00:35.480><c> time</c><00:00:36.079><c> where</c>
+
+00:00:36.470 --> 00:00:36.480 align:start position:0%
+right X at about the same time where
+ 
+
+00:00:36.480 --> 00:00:40.670 align:start position:0%
+right X at about the same time where
+core<00:00:36.840><c> one</c><00:00:37.640><c> is</c><00:00:37.960><c> trying</c><00:00:38.239><c> to</c><00:00:38.399><c> read</c><00:00:39.160><c> why</c><00:00:40.160><c> this</c><00:00:40.280><c> is</c><00:00:40.440><c> a</c>
+
+00:00:40.670 --> 00:00:40.680 align:start position:0%
+core one is trying to read why this is a
+ 
+
+00:00:40.680 --> 00:00:44.950 align:start position:0%
+core one is trying to read why this is a
+cach<00:00:41.000><c> miss</c><00:00:41.840><c> and</c><00:00:42.000><c> we</c><00:00:42.200><c> send</c><00:00:43.200><c> the</c><00:00:43.520><c> request</c><00:00:44.520><c> to</c><00:00:44.760><c> the</c>
+
+00:00:44.950 --> 00:00:44.960 align:start position:0%
+cach miss and we send the request to the
+ 
+
+00:00:44.960 --> 00:00:47.189 align:start position:0%
+cach miss and we send the request to the
+directory<00:00:45.440><c> that</c><00:00:45.559><c> is</c><00:00:45.719><c> the</c><00:00:45.960><c> home</c><00:00:46.199><c> for</c><00:00:46.559><c> X</c><00:00:46.960><c> which</c>
+
+00:00:47.189 --> 00:00:47.199 align:start position:0%
+directory that is the home for X which
+ 
+
+00:00:47.199 --> 00:00:49.510 align:start position:0%
+directory that is the home for X which
+happens<00:00:47.480><c> to</c><00:00:47.640><c> be</c><00:00:47.879><c> our</c><00:00:48.079><c> own</c><00:00:48.320><c> nearby</c><00:00:49.000><c> slice</c><00:00:49.399><c> of</c>
+
+00:00:49.510 --> 00:00:49.520 align:start position:0%
+happens to be our own nearby slice of
+ 
+
+00:00:49.520 --> 00:00:52.630 align:start position:0%
+happens to be our own nearby slice of
+the<00:00:49.719><c> directory</c><00:00:50.559><c> when</c><00:00:50.680><c> we</c><00:00:50.840><c> read</c><00:00:51.199><c> y</c><00:00:52.079><c> we</c><00:00:52.239><c> go</c><00:00:52.440><c> to</c>
+
+00:00:52.630 --> 00:00:52.640 align:start position:0%
+the directory when we read y we go to
+ 
+
+00:00:52.640 --> 00:00:56.389 align:start position:0%
+the directory when we read y we go to
+our<00:00:52.800><c> own</c><00:00:53.160><c> slice</c><00:00:54.160><c> let's</c><00:00:54.359><c> say</c><00:00:54.559><c> that</c><00:00:54.800><c> cach</c><00:00:55.399><c> 2</c><00:00:56.039><c> also</c>
+
+00:00:56.389 --> 00:00:56.399 align:start position:0%
+our own slice let's say that cach 2 also
+ 
+
+00:00:56.399 --> 00:01:00.110 align:start position:0%
+our own slice let's say that cach 2 also
+reads<00:00:57.320><c> Y</c><00:00:57.719><c> at</c><00:00:57.920><c> about</c><00:00:58.199><c> the</c><00:00:58.359><c> same</c><00:00:58.680><c> time</c><00:00:59.480><c> so</c><00:00:59.719><c> what</c>
+
+00:01:00.110 --> 00:01:00.120 align:start position:0%
+reads Y at about the same time so what
+ 
+
+00:01:00.120 --> 00:01:03.470 align:start position:0%
+reads Y at about the same time so what
+happens<00:01:00.559><c> now</c><00:01:01.280><c> is</c><00:01:01.480><c> the</c><00:01:01.719><c> right</c><00:01:02.039><c> to</c><00:01:02.320><c> X</c><00:01:03.199><c> and</c><00:01:03.359><c> the</c>
+
+00:01:03.470 --> 00:01:03.480 align:start position:0%
+happens now is the right to X and the
+ 
+
+00:01:03.480 --> 00:01:05.670 align:start position:0%
+happens now is the right to X and the
+read<00:01:03.800><c> to</c><00:01:04.040><c> Y</c><00:01:04.400><c> here</c><00:01:04.600><c> are</c><00:01:04.839><c> probably</c><00:01:05.159><c> going</c><00:01:05.280><c> to</c><00:01:05.479><c> be</c>
+
+00:01:05.670 --> 00:01:05.680 align:start position:0%
+read to Y here are probably going to be
+ 
+
+00:01:05.680 --> 00:01:07.429 align:start position:0%
+read to Y here are probably going to be
+processed<00:01:06.119><c> at</c><00:01:06.320><c> about</c><00:01:06.560><c> the</c><00:01:06.720><c> same</c><00:01:07.040><c> time</c>
+
+00:01:07.429 --> 00:01:07.439 align:start position:0%
+processed at about the same time
+ 
+
+00:01:07.439 --> 00:01:09.070 align:start position:0%
+processed at about the same time
+completely<00:01:07.960><c> independently</c><00:01:08.680><c> by</c><00:01:08.880><c> these</c>
+
+00:01:09.070 --> 00:01:09.080 align:start position:0%
+completely independently by these
+ 
+
+00:01:09.080 --> 00:01:11.270 align:start position:0%
+completely independently by these
+directories<00:01:10.040><c> meanwhile</c><00:01:10.520><c> the</c><00:01:10.640><c> read</c><00:01:10.920><c> Y</c><00:01:11.159><c> is</c>
+
+00:01:11.270 --> 00:01:11.280 align:start position:0%
+directories meanwhile the read Y is
+ 
+
+00:01:11.280 --> 00:01:12.950 align:start position:0%
+directories meanwhile the read Y is
+traveling<00:01:11.759><c> through</c><00:01:11.920><c> the</c><00:01:12.080><c> network</c><00:01:12.479><c> to</c><00:01:12.680><c> this</c>
+
+00:01:12.950 --> 00:01:12.960 align:start position:0%
+traveling through the network to this
+ 
+
+00:01:12.960 --> 00:01:15.230 align:start position:0%
+traveling through the network to this
+directory<00:01:13.960><c> in</c><00:01:14.159><c> each</c><00:01:14.320><c> of</c><00:01:14.479><c> these</c><00:01:14.680><c> directories</c>
+
+00:01:15.230 --> 00:01:15.240 align:start position:0%
+directory in each of these directories
+ 
+
+00:01:15.240 --> 00:01:18.310 align:start position:0%
+directory in each of these directories
+we<00:01:15.400><c> see</c><00:01:15.920><c> that</c><00:01:16.920><c> the</c><00:01:17.040><c> block</c><00:01:17.360><c> is</c><00:01:17.520><c> not</c><00:01:17.840><c> present</c><00:01:18.159><c> in</c>
+
+00:01:18.310 --> 00:01:18.320 align:start position:0%
+we see that the block is not present in
+ 
+
+00:01:18.320 --> 00:01:21.789 align:start position:0%
+we see that the block is not present in
+any<00:01:18.520><c> of</c><00:01:18.640><c> the</c><00:01:18.960><c> caches</c><00:01:19.960><c> so</c><00:01:20.200><c> we</c><00:01:20.439><c> allow</c><00:01:21.119><c> exclusive</c>
+
+00:01:21.789 --> 00:01:21.799 align:start position:0%
+any of the caches so we allow exclusive
+ 
+
+00:01:21.799 --> 00:01:25.310 align:start position:0%
+any of the caches so we allow exclusive
+access<00:01:22.400><c> for</c><00:01:22.600><c> the</c><00:01:22.799><c> read</c><00:01:23.799><c> and</c><00:01:24.119><c> here</c><00:01:24.400><c> of</c><00:01:24.560><c> course</c>
+
+00:01:25.310 --> 00:01:25.320 align:start position:0%
+access for the read and here of course
+ 
+
+00:01:25.320 --> 00:01:28.630 align:start position:0%
+access for the read and here of course
+the<00:01:25.479><c> block</c><00:01:25.799><c> will</c><00:01:25.960><c> be</c><00:01:26.159><c> modified</c><00:01:27.200><c> anyway</c><00:01:28.200><c> so</c>
+
+00:01:28.630 --> 00:01:28.640 align:start position:0%
+the block will be modified anyway so
+ 
+
+00:01:28.640 --> 00:01:31.789 align:start position:0%
+the block will be modified anyway so
+here<00:01:28.960><c> we</c><00:01:29.079><c> will</c><00:01:29.320><c> set</c><00:01:29.640><c> the</c><00:01:30.000><c> Dirty</c><00:01:30.400><c> Bit</c><00:01:31.240><c> And</c><00:01:31.439><c> note</c>
+
+00:01:31.789 --> 00:01:31.799 align:start position:0%
+here we will set the Dirty Bit And note
+ 
+
+00:01:31.799 --> 00:01:35.950 align:start position:0%
+here we will set the Dirty Bit And note
+that<00:01:32.000><c> block</c><00:01:32.360><c> X</c><00:01:32.720><c> is</c><00:01:32.920><c> now</c><00:01:33.360><c> in</c><00:01:33.560><c> the</c><00:01:34.119><c> cache</c><00:01:34.960><c> zero</c>
+
+00:01:35.950 --> 00:01:35.960 align:start position:0%
+that block X is now in the cache zero
+ 
+
+00:01:35.960 --> 00:01:38.030 align:start position:0%
+that block X is now in the cache zero
+and<00:01:36.240><c> here</c><00:01:36.560><c> we</c><00:01:36.680><c> will</c><00:01:36.960><c> set</c><00:01:37.240><c> the</c><00:01:37.399><c> dirty</c><00:01:37.720><c> bit</c>
+
+00:01:38.030 --> 00:01:38.040 align:start position:0%
+and here we will set the dirty bit
+ 
+
+00:01:38.040 --> 00:01:40.710 align:start position:0%
+and here we will set the dirty bit
+because<00:01:38.360><c> exclusive</c><00:01:38.840><c> can</c><00:01:39.000><c> become</c><00:01:39.399><c> dir</c><00:01:39.720><c> easily</c>
+
+00:01:40.710 --> 00:01:40.720 align:start position:0%
+because exclusive can become dir easily
+ 
+
+00:01:40.720 --> 00:01:44.270 align:start position:0%
+because exclusive can become dir easily
+and<00:01:40.920><c> set</c><00:01:41.320><c> the</c><00:01:41.520><c> presence</c><00:01:42.000><c> bit</c><00:01:42.320><c> for</c><00:01:42.680><c> cache</c><00:01:43.280><c> one</c>
+
+00:01:44.270 --> 00:01:44.280 align:start position:0%
+and set the presence bit for cache one
+ 
+
+00:01:44.280 --> 00:01:46.469 align:start position:0%
+and set the presence bit for cache one
+now<00:01:44.479><c> the</c><00:01:44.640><c> read</c><00:01:45.040><c> Y</c><00:01:45.320><c> is</c><00:01:45.520><c> traveling</c><00:01:46.040><c> to</c><00:01:46.240><c> this</c>
+
+00:01:46.469 --> 00:01:46.479 align:start position:0%
+now the read Y is traveling to this
+ 
+
+00:01:46.479 --> 00:01:49.149 align:start position:0%
+now the read Y is traveling to this
+directory<00:01:47.159><c> let's</c><00:01:47.360><c> say</c><00:01:47.560><c> that</c><00:01:47.799><c> cach</c><00:01:48.119><c> one</c><00:01:49.000><c> is</c>
+
+00:01:49.149 --> 00:01:49.159 align:start position:0%
+directory let's say that cach one is
+ 
+
+00:01:49.159 --> 00:01:51.429 align:start position:0%
+directory let's say that cach one is
+being<00:01:49.560><c> accessed</c><00:01:49.960><c> with</c><00:01:50.079><c> a</c><00:01:50.240><c> right</c><00:01:50.479><c> tox</c><00:01:51.159><c> and</c><00:01:51.320><c> it's</c>
+
+00:01:51.429 --> 00:01:51.439 align:start position:0%
+being accessed with a right tox and it's
+ 
+
+00:01:51.439 --> 00:01:53.749 align:start position:0%
+being accessed with a right tox and it's
+a<00:01:51.640><c> cach</c><00:01:51.960><c> miss</c><00:01:52.560><c> so</c><00:01:52.759><c> it</c><00:01:52.880><c> gets</c><00:01:53.119><c> sent</c><00:01:53.360><c> to</c><00:01:53.560><c> this</c>
+
+00:01:53.749 --> 00:01:53.759 align:start position:0%
+a cach miss so it gets sent to this
+ 
+
+00:01:53.759 --> 00:01:55.990 align:start position:0%
+a cach miss so it gets sent to this
+directory<00:01:54.640><c> so</c><00:01:54.880><c> this</c><00:01:55.040><c> will</c><00:01:55.280><c> probably</c><00:01:55.600><c> arrive</c>
+
+00:01:55.990 --> 00:01:56.000 align:start position:0%
+directory so this will probably arrive
+ 
+
+00:01:56.000 --> 00:01:58.749 align:start position:0%
+directory so this will probably arrive
+here<00:01:56.399><c> first</c><00:01:57.399><c> we</c><00:01:57.520><c> will</c><00:01:57.759><c> check</c><00:01:58.119><c> the</c><00:01:58.320><c> presence</c>
+
+00:01:58.749 --> 00:01:58.759 align:start position:0%
+here first we will check the presence
+ 
+
+00:01:58.759 --> 00:02:01.350 align:start position:0%
+here first we will check the presence
+vector<00:01:59.039><c> and</c><00:01:59.200><c> the</c><00:01:59.320><c> dirtiness</c><00:02:00.240><c> information</c><00:02:01.240><c> and</c>
+
+00:02:01.350 --> 00:02:01.360 align:start position:0%
+vector and the dirtiness information and
+ 
+
+00:02:01.360 --> 00:02:03.510 align:start position:0%
+vector and the dirtiness information and
+see<00:02:01.680><c> that</c><00:02:01.920><c> cach</c><00:02:02.240><c> one</c><00:02:02.600><c> is</c><00:02:02.799><c> the</c><00:02:02.920><c> one</c><00:02:03.159><c> that</c><00:02:03.360><c> has</c>
+
+00:02:03.510 --> 00:02:03.520 align:start position:0%
+see that cach one is the one that has
+ 
+
+00:02:03.520 --> 00:02:05.550 align:start position:0%
+see that cach one is the one that has
+the<00:02:03.719><c> data</c><00:02:04.320><c> and</c><00:02:04.479><c> that</c><00:02:04.600><c> it</c><00:02:04.759><c> might</c><00:02:04.960><c> be</c><00:02:05.119><c> dirty</c>
+
+00:02:05.550 --> 00:02:05.560 align:start position:0%
+the data and that it might be dirty
+ 
+
+00:02:05.560 --> 00:02:08.669 align:start position:0%
+the data and that it might be dirty
+there<00:02:06.079><c> so</c><00:02:06.280><c> we</c><00:02:06.479><c> forward</c><00:02:06.960><c> the</c><00:02:07.159><c> request</c><00:02:07.640><c> to</c><00:02:07.960><c> read</c>
+
+00:02:08.669 --> 00:02:08.679 align:start position:0%
+there so we forward the request to read
+ 
+
+00:02:08.679 --> 00:02:11.550 align:start position:0%
+there so we forward the request to read
+to<00:02:08.959><c> cach</c><00:02:09.239><c> one</c><00:02:10.080><c> cach</c><00:02:10.360><c> one</c><00:02:10.640><c> acknowledges</c><00:02:11.280><c> that</c>
+
+00:02:11.550 --> 00:02:11.560 align:start position:0%
+to cach one cach one acknowledges that
+ 
+
+00:02:11.560 --> 00:02:14.869 align:start position:0%
+to cach one cach one acknowledges that
+request<00:02:12.560><c> changes</c><00:02:13.120><c> its</c><00:02:13.360><c> state</c><00:02:13.680><c> to</c><00:02:13.879><c> Shared</c><00:02:14.640><c> we</c>
+
+00:02:14.869 --> 00:02:14.879 align:start position:0%
+request changes its state to Shared we
+ 
+
+00:02:14.879 --> 00:02:18.110 align:start position:0%
+request changes its state to Shared we
+get<00:02:15.319><c> the</c><00:02:15.560><c> response</c><00:02:16.319><c> that</c><00:02:16.480><c> doesn't</c><00:02:16.840><c> carry</c><00:02:17.239><c> data</c>
+
+00:02:18.110 --> 00:02:18.120 align:start position:0%
+get the response that doesn't carry data
+ 
+
+00:02:18.120 --> 00:02:19.869 align:start position:0%
+get the response that doesn't carry data
+so<00:02:18.360><c> now</c><00:02:18.519><c> we</c><00:02:18.640><c> know</c><00:02:18.840><c> that</c><00:02:19.000><c> the</c><00:02:19.120><c> block</c><00:02:19.400><c> was</c><00:02:19.599><c> not</c>
+
+00:02:19.869 --> 00:02:19.879 align:start position:0%
+so now we know that the block was not
+ 
+
+00:02:19.879 --> 00:02:22.350 align:start position:0%
+so now we know that the block was not
+dirty<00:02:20.280><c> and</c><00:02:20.400><c> we</c><00:02:20.519><c> change</c><00:02:20.800><c> it</c><00:02:20.879><c> to</c><00:02:21.040><c> not</c><00:02:21.280><c> dirty</c><00:02:22.160><c> we</c>
+
+00:02:22.350 --> 00:02:22.360 align:start position:0%
+dirty and we change it to not dirty we
+ 
+
+00:02:22.360 --> 00:02:25.309 align:start position:0%
+dirty and we change it to not dirty we
+then<00:02:22.959><c> get</c><00:02:23.200><c> the</c><00:02:23.440><c> data</c><00:02:23.879><c> and</c><00:02:24.120><c> forward</c><00:02:24.640><c> it</c><00:02:24.800><c> to</c><00:02:25.040><c> cach</c>
+
+00:02:25.309 --> 00:02:25.319 align:start position:0%
+then get the data and forward it to cach
+ 
+
+00:02:25.319 --> 00:02:28.229 align:start position:0%
+then get the data and forward it to cach
+two<00:02:26.040><c> and</c><00:02:26.160><c> now</c><00:02:26.360><c> we</c><00:02:26.560><c> note</c><00:02:27.080><c> also</c><00:02:27.440><c> that</c><00:02:27.640><c> cach</c><00:02:27.920><c> 2</c>
+
+00:02:28.229 --> 00:02:28.239 align:start position:0%
+two and now we note also that cach 2
+ 
+
+00:02:28.239 --> 00:02:30.750 align:start position:0%
+two and now we note also that cach 2
+might<00:02:28.480><c> have</c><00:02:28.680><c> the</c><00:02:28.879><c> data</c><00:02:29.920><c> and</c><00:02:30.000><c> the</c><00:02:30.160><c> cache</c><00:02:30.440><c> to</c>
+
+00:02:30.750 --> 00:02:30.760 align:start position:0%
+might have the data and the cache to
+ 
+
+00:02:30.760 --> 00:02:33.949 align:start position:0%
+might have the data and the cache to
+eventually<00:02:31.680><c> will</c><00:02:31.959><c> get</c><00:02:32.480><c> the</c><00:02:32.680><c> data</c><00:02:33.360><c> so</c><00:02:33.519><c> it</c><00:02:33.640><c> will</c>
+
+00:02:33.949 --> 00:02:33.959 align:start position:0%
+eventually will get the data so it will
+ 
+
+00:02:33.959 --> 00:02:37.110 align:start position:0%
+eventually will get the data so it will
+eventually<00:02:34.560><c> get</c><00:02:35.360><c> the</c><00:02:35.480><c> shared</c><00:02:36.000><c> State</c><00:02:36.800><c> and</c><00:02:37.000><c> the</c>
+
+00:02:37.110 --> 00:02:37.120 align:start position:0%
+eventually get the shared State and the
+ 
+
+00:02:37.120 --> 00:02:40.470 align:start position:0%
+eventually get the shared State and the
+block<00:02:37.560><c> y</c><00:02:38.560><c> meanwhile</c><00:02:39.120><c> the</c><00:02:39.280><c> right</c><00:02:39.560><c> X</c><00:02:39.800><c> is</c><00:02:40.000><c> getting</c>
+
+00:02:40.470 --> 00:02:40.480 align:start position:0%
+block y meanwhile the right X is getting
+ 
+
+00:02:40.480 --> 00:02:42.949 align:start position:0%
+block y meanwhile the right X is getting
+here<00:02:40.959><c> and</c><00:02:41.200><c> because</c><00:02:41.720><c> we</c><00:02:41.840><c> need</c><00:02:42.040><c> to</c><00:02:42.280><c> write</c><00:02:42.760><c> we're</c>
+
+00:02:42.949 --> 00:02:42.959 align:start position:0%
+here and because we need to write we're
+ 
+
+00:02:42.959 --> 00:02:44.990 align:start position:0%
+here and because we need to write we're
+going<00:02:43.120><c> to</c><00:02:43.519><c> send</c><00:02:43.800><c> an</c><00:02:44.000><c> invalidation</c><00:02:44.680><c> and</c><00:02:44.840><c> an</c>
+
+00:02:44.990 --> 00:02:45.000 align:start position:0%
+going to send an invalidation and an
+ 
+
+00:02:45.000 --> 00:02:48.630 align:start position:0%
+going to send an invalidation and an
+external<00:02:45.400><c> write</c><00:02:45.680><c> request</c><00:02:46.360><c> to</c><00:02:46.680><c> Cache</c><00:02:47.280><c> zero</c><00:02:48.239><c> so</c>
+
+00:02:48.630 --> 00:02:48.640 align:start position:0%
+external write request to Cache zero so
+ 
+
+00:02:48.640 --> 00:02:51.470 align:start position:0%
+external write request to Cache zero so
+here<00:02:49.000><c> the</c><00:02:49.200><c> cache</c><00:02:49.959><c> needs</c><00:02:50.239><c> to</c><00:02:50.519><c> respond</c><00:02:51.159><c> with</c><00:02:51.280><c> the</c>
+
+00:02:51.470 --> 00:02:51.480 align:start position:0%
+here the cache needs to respond with the
+ 
+
+00:02:51.480 --> 00:02:53.869 align:start position:0%
+here the cache needs to respond with the
+data<00:02:51.760><c> and</c><00:02:51.920><c> because</c><00:02:52.120><c> it's</c><00:02:52.239><c> a</c><00:02:52.440><c> right</c><00:02:52.760><c> request</c><00:02:53.680><c> it</c>
+
+00:02:53.869 --> 00:02:53.879 align:start position:0%
+data and because it's a right request it
+ 
+
+00:02:53.879 --> 00:02:56.470 align:start position:0%
+data and because it's a right request it
+sets<00:02:54.120><c> a</c><00:02:54.319><c> state</c><00:02:54.560><c> to</c><00:02:54.760><c> invalid</c><00:02:55.760><c> and</c><00:02:56.000><c> responds</c>
+
+00:02:56.470 --> 00:02:56.480 align:start position:0%
+sets a state to invalid and responds
+ 
+
+00:02:56.480 --> 00:02:59.509 align:start position:0%
+sets a state to invalid and responds
+with<00:02:56.599><c> the</c><00:02:56.800><c> data</c><00:02:57.560><c> this</c><00:02:57.680><c> is</c><00:02:57.920><c> also</c><00:02:58.280><c> a</c><00:02:58.560><c> right</c><00:02:59.319><c> so</c>
+
+00:02:59.509 --> 00:02:59.519 align:start position:0%
+with the data this is also a right so
+ 
+
+00:02:59.519 --> 00:03:01.910 align:start position:0%
+with the data this is also a right so
+the<00:02:59.599><c> block</c><00:02:59.840><c> block</c><00:03:00.040><c> will</c><00:03:00.319><c> remain</c><00:03:00.640><c> dirty</c><00:03:01.640><c> but</c>
+
+00:03:01.910 --> 00:03:01.920 align:start position:0%
+the block block will remain dirty but
+ 
+
+00:03:01.920 --> 00:03:04.789 align:start position:0%
+the block block will remain dirty but
+now<00:03:02.680><c> the</c><00:03:02.840><c> directory</c><00:03:03.400><c> knows</c><00:03:03.799><c> that</c><00:03:04.000><c> cach</c><00:03:04.280><c> Z</c><00:03:04.599><c> no</c>
+
+00:03:04.789 --> 00:03:04.799 align:start position:0%
+now the directory knows that cach Z no
+ 
+
+00:03:04.799 --> 00:03:07.070 align:start position:0%
+now the directory knows that cach Z no
+longer<00:03:05.200><c> has</c><00:03:05.360><c> the</c><00:03:05.560><c> data</c><00:03:06.080><c> and</c><00:03:06.200><c> we</c><00:03:06.360><c> send</c><00:03:06.640><c> the</c><00:03:06.799><c> data</c>
+
+00:03:07.070 --> 00:03:07.080 align:start position:0%
+longer has the data and we send the data
+ 
+
+00:03:07.080 --> 00:03:09.430 align:start position:0%
+longer has the data and we send the data
+to<00:03:07.319><c> cach</c><00:03:07.560><c> one</c><00:03:08.200><c> so</c><00:03:08.440><c> now</c><00:03:08.640><c> the</c><00:03:08.799><c> Cashman</c><00:03:09.280><c> will</c>
+
+00:03:09.430 --> 00:03:09.440 align:start position:0%
+to cach one so now the Cashman will
+ 
+
+00:03:09.440 --> 00:03:11.390 align:start position:0%
+to cach one so now the Cashman will
+eventually<00:03:09.879><c> get</c><00:03:10.080><c> the</c><00:03:10.239><c> data</c><00:03:10.480><c> in</c><00:03:10.599><c> the</c><00:03:10.760><c> modified</c>
+
+00:03:11.390 --> 00:03:11.400 align:start position:0%
+eventually get the data in the modified
+ 
+
+00:03:11.400 --> 00:03:14.869 align:start position:0%
+eventually get the data in the modified
+State<00:03:12.280><c> and</c><00:03:12.560><c> as</c><00:03:12.680><c> you</c><00:03:12.799><c> can</c><00:03:13.000><c> see</c><00:03:13.560><c> the</c><00:03:13.760><c> right</c><00:03:14.080><c> to</c><00:03:14.319><c> X</c>
+
+00:03:14.869 --> 00:03:14.879 align:start position:0%
+State and as you can see the right to X
+ 
+
+00:03:14.879 --> 00:03:17.430 align:start position:0%
+State and as you can see the right to X
+and<00:03:15.000><c> the</c><00:03:15.159><c> read</c><00:03:15.440><c> to</c><00:03:15.640><c> Y</c><00:03:16.040><c> are</c><00:03:16.280><c> largely</c><00:03:16.879><c> proceeding</c>
+
+00:03:17.430 --> 00:03:17.440 align:start position:0%
+and the read to Y are largely proceeding
+ 
+
+00:03:17.440 --> 00:03:19.350 align:start position:0%
+and the read to Y are largely proceeding
+independent<00:03:18.040><c> of</c><00:03:18.200><c> each</c><00:03:18.360><c> other</c><00:03:18.799><c> except</c><00:03:19.120><c> for</c>
+
+00:03:19.350 --> 00:03:19.360 align:start position:0%
+independent of each other except for
+ 
+
+00:03:19.360 --> 00:03:21.309 align:start position:0%
+independent of each other except for
+maybe<00:03:19.720><c> possible</c><00:03:20.120><c> connection</c><00:03:20.519><c> in</c><00:03:20.680><c> the</c><00:03:20.799><c> network</c>
+
+00:03:21.309 --> 00:03:21.319 align:start position:0%
+maybe possible connection in the network
+ 
+
+00:03:21.319 --> 00:03:23.229 align:start position:0%
+maybe possible connection in the network
+so<00:03:21.440><c> if</c><00:03:21.560><c> our</c><00:03:21.760><c> network</c><00:03:22.159><c> is</c><00:03:22.360><c> good</c><00:03:22.560><c> and</c><00:03:22.760><c> has</c><00:03:22.959><c> many</c>
+
+00:03:23.229 --> 00:03:23.239 align:start position:0%
+so if our network is good and has many
+ 
+
+00:03:23.239 --> 00:03:25.270 align:start position:0%
+so if our network is good and has many
+different<00:03:23.599><c> paths</c><00:03:24.040><c> between</c><00:03:24.319><c> these</c><00:03:24.519><c> caches</c><00:03:24.840><c> and</c>
+
+00:03:25.270 --> 00:03:25.280 align:start position:0%
+different paths between these caches and
+ 
+
+00:03:25.280 --> 00:03:27.830 align:start position:0%
+different paths between these caches and
+directories<00:03:26.280><c> then</c><00:03:26.599><c> really</c><00:03:27.280><c> there</c><00:03:27.400><c> was</c><00:03:27.599><c> no</c>
+
+00:03:27.830 --> 00:03:27.840 align:start position:0%
+directories then really there was no
+ 
+
+00:03:27.840 --> 00:03:29.550 align:start position:0%
+directories then really there was no
+point<00:03:28.080><c> where</c><00:03:28.319><c> these</c><00:03:28.560><c> requests</c><00:03:29.040><c> competed</c><00:03:29.439><c> with</c>
+
+00:03:29.550 --> 00:03:29.560 align:start position:0%
+point where these requests competed with
+ 
+
+00:03:29.560 --> 00:03:31.630 align:start position:0%
+point where these requests competed with
+each<00:03:29.840><c> other</c><00:03:30.040><c> for</c><00:03:30.200><c> anything</c><00:03:31.040><c> this</c><00:03:31.200><c> one</c><00:03:31.439><c> was</c>
+
+00:03:31.630 --> 00:03:31.640 align:start position:0%
+each other for anything this one was
+ 
+
+00:03:31.640 --> 00:03:33.470 align:start position:0%
+each other for anything this one was
+processed<00:03:32.040><c> by</c><00:03:32.239><c> this</c><00:03:32.439><c> cache</c><00:03:33.000><c> and</c><00:03:33.239><c> this</c>
+
+00:03:33.470 --> 00:03:33.480 align:start position:0%
+processed by this cache and this
+ 
+
+00:03:33.480 --> 00:03:35.750 align:start position:0%
+processed by this cache and this
+directory<00:03:34.439><c> this</c><00:03:34.560><c> one</c><00:03:34.799><c> was</c><00:03:34.959><c> processed</c><00:03:35.360><c> by</c><00:03:35.560><c> this</c>
+
+00:03:35.750 --> 00:03:35.760 align:start position:0%
+directory this one was processed by this
+ 
+
+00:03:35.760 --> 00:03:38.190 align:start position:0%
+directory this one was processed by this
+cache<00:03:36.040><c> and</c><00:03:36.239><c> this</c><00:03:36.480><c> directory</c><00:03:37.200><c> and</c><00:03:37.360><c> we</c><00:03:37.560><c> involved</c>
+
+00:03:38.190 --> 00:03:38.200 align:start position:0%
+cache and this directory and we involved
+ 
+
+00:03:38.200 --> 00:03:40.470 align:start position:0%
+cache and this directory and we involved
+other<00:03:38.480><c> caches</c><00:03:38.879><c> if</c><00:03:39.080><c> necessary</c><00:03:39.959><c> but</c><00:03:40.080><c> in</c><00:03:40.280><c> this</c>
+
+00:03:40.470 --> 00:03:40.480 align:start position:0%
+other caches if necessary but in this
+ 
+
+00:03:40.480 --> 00:03:42.910 align:start position:0%
+other caches if necessary but in this
+case<00:03:40.959><c> it</c><00:03:41.080><c> was</c><00:03:41.319><c> this</c><00:03:41.560><c> cach</c><00:03:42.120><c> so</c><00:03:42.360><c> these</c><00:03:42.560><c> requests</c>
+
+00:03:42.910 --> 00:03:42.920 align:start position:0%
+case it was this cach so these requests
+ 
+
+00:03:42.920 --> 00:03:45.509 align:start position:0%
+case it was this cach so these requests
+were<00:03:43.120><c> still</c><00:03:43.439><c> largely</c><00:03:44.120><c> independent</c><00:03:45.120><c> now</c><00:03:45.360><c> let's</c>
+
+00:03:45.509 --> 00:03:45.519 align:start position:0%
+were still largely independent now let's
+ 
+
+00:03:45.519 --> 00:03:47.830 align:start position:0%
+were still largely independent now let's
+say<00:03:45.760><c> we</c><00:03:45.879><c> want</c><00:03:46.040><c> to</c><00:03:46.239><c> write</c><00:03:46.519><c> to</c><00:03:46.840><c> Y</c><00:03:47.200><c> on</c><00:03:47.360><c> in</c><00:03:47.560><c> this</c>
+
+00:03:47.830 --> 00:03:47.840 align:start position:0%
+say we want to write to Y on in this
+ 
+
+00:03:47.840 --> 00:03:50.630 align:start position:0%
+say we want to write to Y on in this
+cache<00:03:48.680><c> this</c><00:03:49.200><c> will</c><00:03:49.360><c> be</c><00:03:49.519><c> sent</c><00:03:49.799><c> to</c><00:03:49.959><c> the</c><00:03:50.159><c> directory</c>
+
+00:03:50.630 --> 00:03:50.640 align:start position:0%
+cache this will be sent to the directory
+ 
+
+00:03:50.640 --> 00:03:53.750 align:start position:0%
+cache this will be sent to the directory
+for<00:03:51.040><c> y</c><00:03:51.840><c> so</c><00:03:52.079><c> the</c><00:03:52.239><c> message</c><00:03:52.599><c> travels</c><00:03:53.079><c> over</c><00:03:53.400><c> here</c>
+
+00:03:53.750 --> 00:03:53.760 align:start position:0%
+for y so the message travels over here
+ 
+
+00:03:53.760 --> 00:03:57.149 align:start position:0%
+for y so the message travels over here
+the<00:03:53.959><c> directory</c><00:03:54.480><c> for</c><00:03:54.799><c> y</c><00:03:55.159><c> now</c><00:03:55.360><c> sees</c><00:03:56.200><c> that</c><00:03:56.439><c> caches</c>
+
+00:03:57.149 --> 00:03:57.159 align:start position:0%
+the directory for y now sees that caches
+ 
+
+00:03:57.159 --> 00:04:00.350 align:start position:0%
+the directory for y now sees that caches
+one<00:03:57.519><c> and</c><00:03:57.760><c> two</c><00:03:58.280><c> might</c><00:03:58.560><c> have</c><00:03:58.760><c> the</c><00:03:58.959><c> data</c><00:03:59.959><c> and</c><00:04:00.159><c> that</c>
+
+00:04:00.350 --> 00:04:00.360 align:start position:0%
+one and two might have the data and that
+ 
+
+00:04:00.360 --> 00:04:02.350 align:start position:0%
+one and two might have the data and that
+none<00:04:00.599><c> of</c><00:04:00.720><c> them</c><00:04:00.879><c> are</c><00:04:01.079><c> dirty</c><00:04:01.480><c> so</c><00:04:01.599><c> it</c><00:04:01.760><c> just</c><00:04:01.920><c> sends</c>
+
+00:04:02.350 --> 00:04:02.360 align:start position:0%
+none of them are dirty so it just sends
+ 
+
+00:04:02.360 --> 00:04:06.030 align:start position:0%
+none of them are dirty so it just sends
+the<00:04:02.920><c> invalidation</c><00:04:04.040><c> request</c><00:04:05.040><c> to</c><00:04:05.319><c> caches</c><00:04:05.799><c> one</c>
+
+00:04:06.030 --> 00:04:06.040 align:start position:0%
+the invalidation request to caches one
+ 
+
+00:04:06.040 --> 00:04:08.509 align:start position:0%
+the invalidation request to caches one
+and<00:04:06.200><c> two</c><00:04:06.720><c> when</c><00:04:06.959><c> they</c><00:04:07.159><c> receive</c><00:04:07.599><c> this</c>
+
+00:04:08.509 --> 00:04:08.519 align:start position:0%
+and two when they receive this
+ 
+
+00:04:08.519 --> 00:04:12.470 align:start position:0%
+and two when they receive this
+invalidate<00:04:09.519><c> the</c><00:04:09.720><c> block</c><00:04:10.159><c> Y</c><00:04:11.079><c> and</c><00:04:11.280><c> send</c><00:04:11.680><c> back</c>
+
+00:04:12.470 --> 00:04:12.480 align:start position:0%
+invalidate the block Y and send back
+ 
+
+00:04:12.480 --> 00:04:14.789 align:start position:0%
+invalidate the block Y and send back
+responses<00:04:13.480><c> that</c><00:04:13.720><c> indicate</c><00:04:14.200><c> that</c><00:04:14.439><c> they</c><00:04:14.599><c> have</c>
+
+00:04:14.789 --> 00:04:14.799 align:start position:0%
+responses that indicate that they have
+ 
+
+00:04:14.799 --> 00:04:17.349 align:start position:0%
+responses that indicate that they have
+done<00:04:15.040><c> so</c><00:04:15.840><c> when</c><00:04:16.000><c> the</c><00:04:16.160><c> First</c><00:04:16.519><c> Response</c><00:04:16.959><c> arise</c>
+
+00:04:17.349 --> 00:04:17.359 align:start position:0%
+done so when the First Response arise
+ 
+
+00:04:17.359 --> 00:04:19.509 align:start position:0%
+done so when the First Response arise
+from<00:04:17.519><c> let's</c><00:04:17.680><c> say</c><00:04:17.919><c> cach</c><00:04:18.199><c> one</c><00:04:18.880><c> the</c><00:04:19.040><c> directory</c>
+
+00:04:19.509 --> 00:04:19.519 align:start position:0%
+from let's say cach one the directory
+ 
+
+00:04:19.519 --> 00:04:21.870 align:start position:0%
+from let's say cach one the directory
+eliminates<00:04:20.400><c> this</c><00:04:20.680><c> bit</c><00:04:21.160><c> when</c><00:04:21.280><c> the</c><00:04:21.479><c> second</c>
+
+00:04:21.870 --> 00:04:21.880 align:start position:0%
+eliminates this bit when the second
+ 
+
+00:04:21.880 --> 00:04:23.909 align:start position:0%
+eliminates this bit when the second
+response<00:04:22.320><c> comes</c><00:04:22.560><c> in</c><00:04:23.280><c> the</c><00:04:23.440><c> directory</c>
+
+00:04:23.909 --> 00:04:23.919 align:start position:0%
+response comes in the directory
+ 
+
+00:04:23.919 --> 00:04:26.350 align:start position:0%
+response comes in the directory
+eliminates<00:04:24.479><c> this</c><00:04:24.680><c> bit</c><00:04:25.600><c> now</c><00:04:25.840><c> that</c><00:04:26.000><c> we</c><00:04:26.120><c> know</c>
+
+00:04:26.350 --> 00:04:26.360 align:start position:0%
+eliminates this bit now that we know
+ 
+
+00:04:26.360 --> 00:04:28.629 align:start position:0%
+eliminates this bit now that we know
+there<00:04:26.479><c> are</c><00:04:26.639><c> no</c><00:04:26.759><c> more</c><00:04:27.120><c> remaining</c><00:04:27.479><c> sharers</c><00:04:28.479><c> we</c>
+
+00:04:28.629 --> 00:04:28.639 align:start position:0%
+there are no more remaining sharers we
+ 
+
+00:04:28.639 --> 00:04:30.830 align:start position:0%
+there are no more remaining sharers we
+can<00:04:28.800><c> send</c><00:04:29.080><c> the</c><00:04:29.280><c> data</c><00:04:29.919><c> to</c><00:04:30.120><c> the</c><00:04:30.280><c> requesting</c>
+
+00:04:30.830 --> 00:04:30.840 align:start position:0%
+can send the data to the requesting
+ 
+
+00:04:30.840 --> 00:04:33.670 align:start position:0%
+can send the data to the requesting
+writer<00:04:31.680><c> and</c><00:04:31.840><c> note</c><00:04:32.280><c> that</c><00:04:32.440><c> it's</c><00:04:32.680><c> going</c><00:04:32.800><c> to</c><00:04:33.479><c> have</c>
+
+00:04:33.670 --> 00:04:33.680 align:start position:0%
+writer and note that it's going to have
+ 
+
+00:04:33.680 --> 00:04:35.590 align:start position:0%
+writer and note that it's going to have
+the<00:04:33.840><c> block</c><00:04:34.560><c> and</c><00:04:34.720><c> that</c><00:04:34.880><c> the</c><00:04:35.000><c> block</c><00:04:35.280><c> will</c><00:04:35.400><c> be</c>
+
+00:04:35.590 --> 00:04:35.600 align:start position:0%
+the block and that the block will be
+ 
+
+00:04:35.600 --> 00:04:38.670 align:start position:0%
+the block and that the block will be
+dirty<00:04:36.560><c> so</c><00:04:36.840><c> now</c><00:04:37.080><c> we</c><00:04:37.199><c> send</c><00:04:37.479><c> the</c><00:04:37.680><c> block</c><00:04:37.960><c> over</c><00:04:38.280><c> here</c>
+
+00:04:38.670 --> 00:04:38.680 align:start position:0%
+dirty so now we send the block over here
+ 
+
+00:04:38.680 --> 00:04:41.870 align:start position:0%
+dirty so now we send the block over here
+and<00:04:38.919><c> this</c><00:04:39.759><c> block</c><00:04:40.120><c> becomes</c><00:04:40.479><c> modified</c><00:04:41.160><c> here</c><00:04:41.720><c> and</c>
+
+00:04:41.870 --> 00:04:41.880 align:start position:0%
+and this block becomes modified here and
+ 
+
+00:04:41.880 --> 00:04:44.749 align:start position:0%
+and this block becomes modified here and
+so<00:04:42.000><c> on</c><00:04:42.199><c> so</c><00:04:42.440><c> again</c><00:04:43.160><c> this</c><00:04:43.400><c> right</c><00:04:43.880><c> only</c><00:04:44.280><c> involved</c>
+
+00:04:44.749 --> 00:04:44.759 align:start position:0%
+so on so again this right only involved
+ 
+
+00:04:44.759 --> 00:04:48.310 align:start position:0%
+so on so again this right only involved
+the<00:04:44.919><c> caches</c><00:04:45.880><c> and</c><00:04:46.080><c> the</c><00:04:46.280><c> directory</c><00:04:47.080><c> entry</c><00:04:48.080><c> that</c>
+
+00:04:48.310 --> 00:04:48.320 align:start position:0%
+the caches and the directory entry that
+ 
+
+00:04:48.320 --> 00:04:50.590 align:start position:0%
+the caches and the directory entry that
+actually<00:04:48.639><c> needed</c><00:04:49.000><c> to</c><00:04:49.160><c> be</c><00:04:49.320><c> involved</c><00:04:49.960><c> for</c><00:04:50.240><c> this</c>
+
+00:04:50.590 --> 00:04:50.600 align:start position:0%
+actually needed to be involved for this
+ 
+
+00:04:50.600 --> 00:04:52.870 align:start position:0%
+actually needed to be involved for this
+block<00:04:51.600><c> this</c><00:04:51.840><c> cash</c><00:04:52.120><c> and</c><00:04:52.320><c> directory</c><00:04:52.720><c> for</c>
+
+00:04:52.870 --> 00:04:52.880 align:start position:0%
+block this cash and directory for
+ 
+
+00:04:52.880 --> 00:04:55.110 align:start position:0%
+block this cash and directory for
+example<00:04:53.199><c> were</c><00:04:53.600><c> completely</c><00:04:54.600><c> operating</c>
+
+00:04:55.110 --> 00:04:55.120 align:start position:0%
+example were completely operating
+ 
+
+00:04:55.120 --> 00:04:57.110 align:start position:0%
+example were completely operating
+independently<00:04:55.759><c> of</c><00:04:56.000><c> this</c><00:04:56.520><c> and</c><00:04:56.720><c> these</c><00:04:56.880><c> two</c>
+
+00:04:57.110 --> 00:04:57.120 align:start position:0%
+independently of this and these two
+ 
+
+00:04:57.120 --> 00:04:58.469 align:start position:0%
+independently of this and these two
+directories<00:04:57.600><c> could</c><00:04:57.720><c> have</c><00:04:57.880><c> done</c><00:04:58.120><c> something</c>
+
+00:04:58.469 --> 00:04:58.479 align:start position:0%
+directories could have done something
+ 
+
+00:04:58.479 --> 00:05:01.320 align:start position:0%
+directories could have done something
+else
+

@@ -1,0 +1,28 @@
+1
+00:00:00,210 --> 00:00:02,910
+ Let's reinforce the Loomis-Whitney Theorem.
+
+2
+00:00:02,910 --> 00:00:06,240
+ Suppose I assign you part of a matrix multiply.
+
+3
+00:00:06,240 --> 00:00:09,530
+ That is, let's say I give you a piece of A, which is 3 x 5,
+
+4
+00:00:09,530 --> 00:00:13,640
+ a piece of B which is 5 x 4, and a piece of C which is 2 x 2.
+
+5
+00:00:13,640 --> 00:00:15,700
+ Here is my question.
+
+6
+00:00:15,700 --> 00:00:20,230
+ What is the minimum and maximum number of multiplies you could possibly do?
+
+7
+00:00:20,230 --> 00:00:20,230
+ I want you to fill in these blanks with a suitable integer.
+

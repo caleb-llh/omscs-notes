@@ -1,0 +1,60 @@
+1
+00:00:00,260 --> 00:00:02,770
+ Recall the metrics of interest in the work span or
+
+2
+00:00:02,770 --> 00:00:04,640
+ the multi-threaded DAG model.
+
+3
+00:00:04,640 --> 00:00:08,630
+ There's a total number of operations for work, there's a critical path length, or
+
+4
+00:00:08,630 --> 00:00:13,590
+ span, there's the ratio of those two, or the average of available parallelism.
+
+5
+00:00:13,590 --> 00:00:16,040
+ There's execution time bounded from below and
+
+6
+00:00:16,040 --> 00:00:20,680
+ above according to Brent's theorem, and finally there's self speedup.
+
+7
+00:00:20,680 --> 00:00:24,830
+ Self speedup is relative to the same algorithm run on just one processor
+
+8
+00:00:24,830 --> 00:00:27,685
+ rather than relative to the best sequential algorithm.
+
+9
+00:00:27,685 --> 00:00:29,615
+ Lucky you, I have a question for you.
+
+10
+00:00:29,615 --> 00:00:34,295
+ Of these five measures, which one best expresses dynamic power?
+
+11
+00:00:34,295 --> 00:00:37,325
+ For the purpose of this exercise, you can ignore constant power, and
+
+12
+00:00:37,325 --> 00:00:40,337
+ you can assume a constant energy per operation.
+
+13
+00:00:40,337 --> 00:00:43,807
+ The case of variable energy per operation is also a lot of fun, but
+
+14
+00:00:43,807 --> 00:00:47,277
+ let's not consider that for the moment.
+
+15
+00:00:47,277 --> 00:00:47,277
+ Dun, dun, dun.
+

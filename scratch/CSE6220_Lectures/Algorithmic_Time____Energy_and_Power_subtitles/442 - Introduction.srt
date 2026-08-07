@@ -1,0 +1,136 @@
+1
+00:00:00,310 --> 00:00:04,570
+ At MIT in the early 1980s, a bright young iconoclast named Danny Hillis was
+
+2
+00:00:04,570 --> 00:00:06,780
+ trying to build a new super computer.
+
+3
+00:00:06,780 --> 00:00:07,970
+ He called it a connection machine.
+
+4
+00:00:07,970 --> 00:00:11,170
+ It looked something like this.
+
+5
+00:00:11,170 --> 00:00:14,900
+ You can tell it's a super computer because its covered in blinky lights.
+
+6
+00:00:14,900 --> 00:00:18,080
+ Fun fact about these lights, they would actually blink according to where
+
+7
+00:00:18,080 --> 00:00:20,910
+ communication was happening in the system.
+
+8
+00:00:20,910 --> 00:00:23,510
+ I don't know why we don't make computers anymore with blinking lights.
+
+9
+00:00:23,510 --> 00:00:25,560
+ We really should.
+
+10
+00:00:25,560 --> 00:00:29,400
+ Anyway Hillis's PhD dissertation on the connection machine is one of my
+
+11
+00:00:29,400 --> 00:00:30,980
+ all time favorites.
+
+12
+00:00:30,980 --> 00:00:34,090
+ In fact it even won the doctoral dissertation award
+
+13
+00:00:34,090 --> 00:00:36,350
+ from the association of computing machinery in 1985.
+
+14
+00:00:36,350 --> 00:00:41,450
+ That's one of the highest honors a CSPHD can receive.
+
+15
+00:00:41,450 --> 00:00:49,404
+ Now the kicker is that it won this award despite its concluding chapter.
+
+16
+00:00:49,404 --> 00:00:52,738
+ New computer architectures and their relationship to physics or
+
+17
+00:00:52,738 --> 00:00:54,465
+ why computer science is no good.
+
+18
+00:00:54,465 --> 00:00:58,951
+ [NOISE] That's right, but the best CS PhD of
+
+19
+00:00:58,951 --> 00:01:03,819
+ 1985 poo-pooed the entire discipline.
+
+20
+00:01:03,819 --> 00:01:08,290
+ Now, Hillis was critiquing parallel algorithms research of the time.
+
+21
+00:01:08,290 --> 00:01:11,220
+ He argued that, at the end of the day, an algorithm
+
+22
+00:01:11,220 --> 00:01:16,110
+ has to run on a physical machine which has to obey the laws of physics.
+
+23
+00:01:16,110 --> 00:01:18,680
+ Yet algorithms researchers were, in his opinion,
+
+24
+00:01:18,680 --> 00:01:23,650
+ abstracting away way too many details about the physical costs of computation.
+
+25
+00:01:23,650 --> 00:01:26,140
+ Now Hillis was worried about the speed of light
+
+26
+00:01:26,140 --> 00:01:29,440
+ which fundamentally limits how fast information can travel.
+
+27
+00:01:29,440 --> 00:01:33,160
+ But today you could easily imagine the melting butter experiment
+
+28
+00:01:33,160 --> 00:01:36,020
+ as a physical cost that we largely ignore.
+
+29
+00:01:36,020 --> 00:01:36,520
+ But should we?
+
+30
+00:01:36,520 --> 00:01:40,930
+ The answer Answer is a resounding, I don't know, but
+
+31
+00:01:40,930 --> 00:01:43,530
+ I do think Hillis might have been on to something.
+
+32
+00:01:43,530 --> 00:01:47,450
+ So what I want to do in this lesson is to start from this line of thinking and
+
+33
+00:01:47,450 --> 00:01:51,320
+ ask what would it mean to consider physical costs in designing
+
+34
+00:01:51,320 --> 00:01:51,320
+ an algorithm?
+

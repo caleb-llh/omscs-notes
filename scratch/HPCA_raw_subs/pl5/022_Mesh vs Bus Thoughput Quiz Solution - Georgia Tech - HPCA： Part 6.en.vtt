@@ -1,0 +1,720 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.480 --> 00:00:02.389 align:start position:0%
+ 
+so<00:00:00.640><c> let's</c><00:00:00.880><c> look</c><00:00:01.120><c> at</c><00:00:01.199><c> the</c><00:00:01.360><c> solution</c><00:00:02.000><c> to</c><00:00:02.240><c> our</c>
+
+00:00:02.389 --> 00:00:02.399 align:start position:0%
+so let's look at the solution to our
+ 
+
+00:00:02.399 --> 00:00:04.630 align:start position:0%
+so let's look at the solution to our
+mesh<00:00:02.639><c> versus</c><00:00:03.040><c> bus</c><00:00:03.280><c> throughput</c><00:00:03.760><c> quiz</c><00:00:04.319><c> where</c><00:00:04.480><c> we</c>
+
+00:00:04.630 --> 00:00:04.640 align:start position:0%
+mesh versus bus throughput quiz where we
+ 
+
+00:00:04.640 --> 00:00:06.309 align:start position:0%
+mesh versus bus throughput quiz where we
+had<00:00:04.880><c> four</c><00:00:05.200><c> cores</c>
+
+00:00:06.309 --> 00:00:06.319 align:start position:0%
+had four cores
+ 
+
+00:00:06.319 --> 00:00:08.070 align:start position:0%
+had four cores
+with<00:00:06.560><c> a</c><00:00:06.799><c> totally</c><00:00:07.279><c> random</c><00:00:07.680><c> and</c><00:00:07.839><c> even</c>
+
+00:00:08.070 --> 00:00:08.080 align:start position:0%
+with a totally random and even
+ 
+
+00:00:08.080 --> 00:00:10.709 align:start position:0%
+with a totally random and even
+distribution<00:00:08.639><c> of</c><00:00:08.720><c> traffic</c><00:00:09.200><c> among</c><00:00:09.519><c> the</c><00:00:09.679><c> cores</c>
+
+00:00:10.709 --> 00:00:10.719 align:start position:0%
+distribution of traffic among the cores
+ 
+
+00:00:10.719 --> 00:00:13.749 align:start position:0%
+distribution of traffic among the cores
+we<00:00:10.800><c> are</c><00:00:10.960><c> given</c><00:00:11.599><c> what</c><00:00:11.920><c> each</c><00:00:12.160><c> core</c><00:00:12.559><c> is</c><00:00:12.719><c> sending</c>
+
+00:00:13.749 --> 00:00:13.759 align:start position:0%
+we are given what each core is sending
+ 
+
+00:00:13.759 --> 00:00:15.910 align:start position:0%
+we are given what each core is sending
+we<00:00:13.920><c> are</c><00:00:14.080><c> getting</c><00:00:14.639><c> what</c><00:00:14.799><c> the</c><00:00:14.960><c> bus</c><00:00:15.280><c> can</c><00:00:15.440><c> do</c><00:00:15.759><c> and</c>
+
+00:00:15.910 --> 00:00:15.920 align:start position:0%
+we are getting what the bus can do and
+ 
+
+00:00:15.920 --> 00:00:18.070 align:start position:0%
+we are getting what the bus can do and
+what<00:00:16.240><c> the</c><00:00:16.400><c> link</c><00:00:16.720><c> in</c><00:00:16.880><c> a</c><00:00:16.960><c> mesh</c><00:00:17.279><c> can</c><00:00:17.440><c> do</c><00:00:17.760><c> and</c><00:00:17.920><c> now</c>
+
+00:00:18.070 --> 00:00:18.080 align:start position:0%
+what the link in a mesh can do and now
+ 
+
+00:00:18.080 --> 00:00:20.870 align:start position:0%
+what the link in a mesh can do and now
+we<00:00:18.240><c> are</c><00:00:18.400><c> asked</c><00:00:19.039><c> how</c><00:00:19.199><c> much</c><00:00:19.520><c> faster</c><00:00:20.000><c> is</c><00:00:20.240><c> it</c>
+
+00:00:20.870 --> 00:00:20.880 align:start position:0%
+we are asked how much faster is it
+ 
+
+00:00:20.880 --> 00:00:24.310 align:start position:0%
+we are asked how much faster is it
+on<00:00:21.039><c> the</c><00:00:21.199><c> bus</c><00:00:21.520><c> versus</c><00:00:22.080><c> on</c><00:00:22.160><c> the</c><00:00:22.320><c> mesh</c><00:00:23.039><c> our</c><00:00:23.359><c> bus</c>
+
+00:00:24.310 --> 00:00:24.320 align:start position:0%
+on the bus versus on the mesh our bus
+ 
+
+00:00:24.320 --> 00:00:26.790 align:start position:0%
+on the bus versus on the mesh our bus
+cannot<00:00:24.800><c> sustain</c><00:00:25.279><c> the</c><00:00:25.439><c> 40</c><00:00:25.840><c> million</c><00:00:26.240><c> messages</c>
+
+00:00:26.790 --> 00:00:26.800 align:start position:0%
+cannot sustain the 40 million messages
+ 
+
+00:00:26.800 --> 00:00:28.230 align:start position:0%
+cannot sustain the 40 million messages
+per<00:00:27.039><c> second</c>
+
+00:00:28.230 --> 00:00:28.240 align:start position:0%
+per second
+ 
+
+00:00:28.240 --> 00:00:31.029 align:start position:0%
+per second
+that<00:00:28.400><c> the</c><00:00:28.560><c> cores</c><00:00:28.880><c> are</c><00:00:29.039><c> trying</c><00:00:29.359><c> to</c><00:00:29.519><c> give</c><00:00:29.760><c> it</c>
+
+00:00:31.029 --> 00:00:31.039 align:start position:0%
+that the cores are trying to give it
+ 
+
+00:00:31.039 --> 00:00:33.350 align:start position:0%
+that the cores are trying to give it
+so<00:00:31.199><c> the</c><00:00:31.359><c> cores</c><00:00:31.760><c> are</c><00:00:31.920><c> really</c><00:00:32.719><c> going</c><00:00:32.880><c> to</c><00:00:33.040><c> slow</c>
+
+00:00:33.350 --> 00:00:33.360 align:start position:0%
+so the cores are really going to slow
+ 
+
+00:00:33.360 --> 00:00:35.510 align:start position:0%
+so the cores are really going to slow
+down<00:00:33.600><c> to</c><00:00:33.840><c> half</c><00:00:34.160><c> of</c><00:00:34.239><c> their</c><00:00:34.480><c> speed</c><00:00:35.040><c> so</c><00:00:35.200><c> that</c><00:00:35.360><c> the</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+down to half of their speed so that the
+ 
+
+00:00:35.520 --> 00:00:37.910 align:start position:0%
+down to half of their speed so that the
+bus<00:00:35.920><c> bandwidth</c><00:00:36.320><c> demand</c><00:00:37.040><c> matches</c><00:00:37.440><c> what</c><00:00:37.680><c> it</c><00:00:37.760><c> can</c>
+
+00:00:37.910 --> 00:00:37.920 align:start position:0%
+bus bandwidth demand matches what it can
+ 
+
+00:00:37.920 --> 00:00:38.950 align:start position:0%
+bus bandwidth demand matches what it can
+provide
+
+00:00:38.950 --> 00:00:38.960 align:start position:0%
+provide
+ 
+
+00:00:38.960 --> 00:00:42.630 align:start position:0%
+provide
+so<00:00:39.280><c> on</c><00:00:39.440><c> the</c><00:00:39.600><c> bus</c><00:00:40.320><c> we</c><00:00:40.559><c> get</c><00:00:41.040><c> 2x</c><00:00:41.840><c> the</c><00:00:42.000><c> execution</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+so on the bus we get 2x the execution
+ 
+
+00:00:42.640 --> 00:00:44.549 align:start position:0%
+so on the bus we get 2x the execution
+time<00:00:42.960><c> that</c><00:00:43.200><c> each</c><00:00:43.440><c> core</c><00:00:43.760><c> is</c><00:00:43.920><c> capable</c><00:00:44.399><c> of</c>
+
+00:00:44.549 --> 00:00:44.559 align:start position:0%
+time that each core is capable of
+ 
+
+00:00:44.559 --> 00:00:47.750 align:start position:0%
+time that each core is capable of
+providing<00:00:45.520><c> on</c><00:00:45.680><c> the</c><00:00:45.920><c> mesh</c><00:00:46.640><c> we</c><00:00:46.800><c> can</c><00:00:47.039><c> support</c><00:00:47.440><c> 20</c>
+
+00:00:47.750 --> 00:00:47.760 align:start position:0%
+providing on the mesh we can support 20
+ 
+
+00:00:47.760 --> 00:00:50.630 align:start position:0%
+providing on the mesh we can support 20
+million<00:00:48.079><c> messages</c><00:00:48.879><c> per</c><00:00:49.120><c> second</c><00:00:49.520><c> per</c><00:00:49.760><c> link</c>
+
+00:00:50.630 --> 00:00:50.640 align:start position:0%
+million messages per second per link
+ 
+
+00:00:50.640 --> 00:00:53.029 align:start position:0%
+million messages per second per link
+so<00:00:50.800><c> now</c><00:00:51.039><c> the</c><00:00:51.200><c> question</c><00:00:51.600><c> is</c><00:00:52.000><c> do</c><00:00:52.239><c> our</c><00:00:52.480><c> links</c><00:00:52.800><c> get</c>
+
+00:00:53.029 --> 00:00:53.039 align:start position:0%
+so now the question is do our links get
+ 
+
+00:00:53.039 --> 00:00:57.270 align:start position:0%
+so now the question is do our links get
+saturated<00:00:54.239><c> so</c><00:00:54.960><c> let's</c><00:00:55.280><c> see</c><00:00:56.000><c> what</c><00:00:56.239><c> we</c><00:00:56.480><c> get</c><00:00:57.039><c> on</c><00:00:57.199><c> a</c>
+
+00:00:57.270 --> 00:00:57.280 align:start position:0%
+saturated so let's see what we get on a
+ 
+
+00:00:57.280 --> 00:00:59.750 align:start position:0%
+saturated so let's see what we get on a
+mesh<00:00:57.600><c> like</c><00:00:57.760><c> this</c><00:00:58.079><c> in</c><00:00:58.160><c> terms</c><00:00:58.399><c> of</c><00:00:58.559><c> traffic</c><00:00:59.520><c> each</c>
+
+00:00:59.750 --> 00:00:59.760 align:start position:0%
+mesh like this in terms of traffic each
+ 
+
+00:00:59.760 --> 00:01:01.270 align:start position:0%
+mesh like this in terms of traffic each
+quarter<00:01:00.079><c> is</c><00:01:00.160><c> generating</c><00:01:00.719><c> 10</c><00:01:00.960><c> million</c>
+
+00:01:01.270 --> 00:01:01.280 align:start position:0%
+quarter is generating 10 million
+ 
+
+00:01:01.280 --> 00:01:04.149 align:start position:0%
+quarter is generating 10 million
+messages<00:01:02.160><c> 3.3</c><00:01:02.960><c> million</c><00:01:03.440><c> are</c><00:01:03.600><c> going</c><00:01:03.840><c> to</c><00:01:04.000><c> each</c>
+
+00:01:04.149 --> 00:01:04.159 align:start position:0%
+messages 3.3 million are going to each
+ 
+
+00:01:04.159 --> 00:01:05.270 align:start position:0%
+messages 3.3 million are going to each
+other<00:01:04.400><c> core</c>
+
+00:01:05.270 --> 00:01:05.280 align:start position:0%
+other core
+ 
+
+00:01:05.280 --> 00:01:08.390 align:start position:0%
+other core
+so<00:01:05.519><c> of</c><00:01:05.760><c> the</c><00:01:05.920><c> 10</c><00:01:06.240><c> million</c><00:01:06.640><c> messages</c><00:01:07.200><c> sent</c><00:01:07.520><c> here</c>
+
+00:01:08.390 --> 00:01:08.400 align:start position:0%
+so of the 10 million messages sent here
+ 
+
+00:01:08.400 --> 00:01:11.109 align:start position:0%
+so of the 10 million messages sent here
+one<00:01:08.720><c> third</c><00:01:09.040><c> are</c><00:01:09.200><c> going</c><00:01:09.760><c> to</c><00:01:09.920><c> this</c><00:01:10.240><c> score</c><00:01:10.960><c> one</c>
+
+00:01:11.109 --> 00:01:11.119 align:start position:0%
+one third are going to this score one
+ 
+
+00:01:11.119 --> 00:01:13.190 align:start position:0%
+one third are going to this score one
+third<00:01:11.439><c> are</c><00:01:11.520><c> going</c><00:01:11.760><c> through</c><00:01:12.000><c> this</c><00:01:12.320><c> link</c><00:01:13.040><c> and</c>
+
+00:01:13.190 --> 00:01:13.200 align:start position:0%
+third are going through this link and
+ 
+
+00:01:13.200 --> 00:01:15.350 align:start position:0%
+third are going through this link and
+then<00:01:13.520><c> one</c><00:01:13.760><c> third</c><00:01:14.000><c> are</c><00:01:14.159><c> going</c><00:01:14.479><c> here</c><00:01:14.960><c> let's</c><00:01:15.119><c> say</c>
+
+00:01:15.350 --> 00:01:15.360 align:start position:0%
+then one third are going here let's say
+ 
+
+00:01:15.360 --> 00:01:17.990 align:start position:0%
+then one third are going here let's say
+that<00:01:15.680><c> one</c><00:01:16.000><c> sixth</c><00:01:16.400><c> go</c><00:01:16.640><c> this</c><00:01:16.880><c> way</c><00:01:17.119><c> one</c><00:01:17.360><c> sixth</c><00:01:17.759><c> go</c>
+
+00:01:17.990 --> 00:01:18.000 align:start position:0%
+that one sixth go this way one sixth go
+ 
+
+00:01:18.000 --> 00:01:20.070 align:start position:0%
+that one sixth go this way one sixth go
+this<00:01:18.159><c> way</c><00:01:18.720><c> so</c><00:01:18.880><c> this</c><00:01:19.119><c> link</c><00:01:19.360><c> will</c><00:01:19.520><c> be</c><00:01:19.600><c> used</c><00:01:19.920><c> for</c>
+
+00:01:20.070 --> 00:01:20.080 align:start position:0%
+this way so this link will be used for
+ 
+
+00:01:20.080 --> 00:01:22.149 align:start position:0%
+this way so this link will be used for
+one<00:01:20.400><c> sixth</c><00:01:20.799><c> of</c><00:01:20.880><c> the</c><00:01:21.040><c> messages</c><00:01:21.520><c> sent</c><00:01:21.759><c> by</c><00:01:21.920><c> this</c>
+
+00:01:22.149 --> 00:01:22.159 align:start position:0%
+one sixth of the messages sent by this
+ 
+
+00:01:22.159 --> 00:01:24.710 align:start position:0%
+one sixth of the messages sent by this
+score<00:01:22.640><c> and</c><00:01:22.799><c> this</c><00:01:23.040><c> one</c><00:01:23.200><c> for</c><00:01:23.360><c> another</c><00:01:23.680><c> one</c><00:01:24.000><c> sixth</c>
+
+00:01:24.710 --> 00:01:24.720 align:start position:0%
+score and this one for another one sixth
+ 
+
+00:01:24.720 --> 00:01:27.109 align:start position:0%
+score and this one for another one sixth
+and<00:01:24.880><c> then</c><00:01:25.119><c> we</c><00:01:25.360><c> add</c><00:01:25.600><c> 1</c><00:01:25.840><c> 6</c><00:01:26.080><c> to</c><00:01:26.240><c> each</c><00:01:26.400><c> of</c><00:01:26.560><c> these</c>
+
+00:01:27.109 --> 00:01:27.119 align:start position:0%
+and then we add 1 6 to each of these
+ 
+
+00:01:27.119 --> 00:01:28.950 align:start position:0%
+and then we add 1 6 to each of these
+which<00:01:27.360><c> brings</c><00:01:27.680><c> us</c><00:01:27.840><c> to</c><00:01:28.000><c> one</c><00:01:28.240><c> half</c><00:01:28.560><c> of</c><00:01:28.720><c> 10</c>
+
+00:01:28.950 --> 00:01:28.960 align:start position:0%
+which brings us to one half of 10
+ 
+
+00:01:28.960 --> 00:01:31.270 align:start position:0%
+which brings us to one half of 10
+million<00:01:29.280><c> messages</c><00:01:30.159><c> so</c><00:01:30.400><c> now</c><00:01:30.560><c> we</c><00:01:30.720><c> are</c><00:01:30.880><c> done</c><00:01:31.119><c> with</c>
+
+00:01:31.270 --> 00:01:31.280 align:start position:0%
+million messages so now we are done with
+ 
+
+00:01:31.280 --> 00:01:33.910 align:start position:0%
+million messages so now we are done with
+this<00:01:31.520><c> score</c><00:01:32.240><c> what</c><00:01:32.479><c> happens</c><00:01:32.799><c> from</c><00:01:32.960><c> this</c><00:01:33.200><c> score</c>
+
+00:01:33.910 --> 00:01:33.920 align:start position:0%
+this score what happens from this score
+ 
+
+00:01:33.920 --> 00:01:36.469 align:start position:0%
+this score what happens from this score
+same<00:01:34.320><c> thing</c><00:01:34.960><c> this</c><00:01:35.280><c> link</c><00:01:35.520><c> gets</c><00:01:35.840><c> one</c><00:01:36.159><c> half</c><00:01:36.400><c> of</c>
+
+00:01:36.469 --> 00:01:36.479 align:start position:0%
+same thing this link gets one half of
+ 
+
+00:01:36.479 --> 00:01:38.870 align:start position:0%
+same thing this link gets one half of
+the<00:01:36.640><c> messages</c><00:01:37.520><c> one</c><00:01:37.759><c> third</c><00:01:38.000><c> are</c><00:01:38.159><c> going</c><00:01:38.479><c> here</c>
+
+00:01:38.870 --> 00:01:38.880 align:start position:0%
+the messages one third are going here
+ 
+
+00:01:38.880 --> 00:01:40.710 align:start position:0%
+the messages one third are going here
+one<00:01:39.119><c> 6</c><00:01:39.439><c> are</c><00:01:39.600><c> going</c><00:01:39.920><c> here</c>
+
+00:01:40.710 --> 00:01:40.720 align:start position:0%
+one 6 are going here
+ 
+
+00:01:40.720 --> 00:01:43.350 align:start position:0%
+one 6 are going here
+so<00:01:40.960><c> this</c><00:01:41.200><c> link</c><00:01:41.439><c> suffers</c><00:01:41.920><c> one</c><00:01:42.159><c> half</c><00:01:42.799><c> of</c><00:01:43.040><c> this</c>
+
+00:01:43.350 --> 00:01:43.360 align:start position:0%
+so this link suffers one half of this
+ 
+
+00:01:43.360 --> 00:01:46.950 align:start position:0%
+so this link suffers one half of this
+traffic<00:01:43.840><c> again</c><00:01:44.640><c> now</c><00:01:44.960><c> this</c><00:01:45.280><c> link</c><00:01:46.079><c> gets</c>
+
+00:01:46.950 --> 00:01:46.960 align:start position:0%
+traffic again now this link gets
+ 
+
+00:01:46.960 --> 00:01:49.350 align:start position:0%
+traffic again now this link gets
+one<00:01:47.200><c> half</c><00:01:47.680><c> of</c><00:01:47.840><c> the</c><00:01:48.079><c> traffic</c><00:01:48.479><c> from</c><00:01:48.640><c> this</c><00:01:48.880><c> core</c>
+
+00:01:49.350 --> 00:01:49.360 align:start position:0%
+one half of the traffic from this core
+ 
+
+00:01:49.360 --> 00:01:52.230 align:start position:0%
+one half of the traffic from this core
+and<00:01:49.680><c> these</c><00:01:50.000><c> two</c><00:01:50.159><c> links</c><00:01:50.720><c> get</c><00:01:50.960><c> one</c><00:01:51.280><c> sixth</c><00:01:51.680><c> each</c>
+
+00:01:52.230 --> 00:01:52.240 align:start position:0%
+and these two links get one sixth each
+ 
+
+00:01:52.240 --> 00:01:54.149 align:start position:0%
+and these two links get one sixth each
+and<00:01:52.320><c> now</c><00:01:52.560><c> we're</c><00:01:52.720><c> done</c><00:01:52.960><c> with</c><00:01:53.119><c> this</c><00:01:53.360><c> score</c><00:01:54.000><c> now</c>
+
+00:01:54.149 --> 00:01:54.159 align:start position:0%
+and now we're done with this score now
+ 
+
+00:01:54.159 --> 00:01:56.630 align:start position:0%
+and now we're done with this score now
+what<00:01:54.320><c> happens</c><00:01:54.640><c> when</c><00:01:54.880><c> this</c><00:01:55.200><c> score</c><00:01:55.439><c> is</c><00:01:55.600><c> sending</c>
+
+00:01:56.630 --> 00:01:56.640 align:start position:0%
+what happens when this score is sending
+ 
+
+00:01:56.640 --> 00:01:58.709 align:start position:0%
+what happens when this score is sending
+one<00:01:56.880><c> half</c><00:01:57.200><c> of</c><00:01:57.280><c> the</c><00:01:57.439><c> messages</c><00:01:57.920><c> go</c><00:01:58.079><c> this</c><00:01:58.320><c> way</c><00:01:58.479><c> one</c>
+
+00:01:58.709 --> 00:01:58.719 align:start position:0%
+one half of the messages go this way one
+ 
+
+00:01:58.719 --> 00:02:00.550 align:start position:0%
+one half of the messages go this way one
+half<00:01:58.960><c> going</c><00:01:59.280><c> go</c><00:01:59.520><c> this</c><00:01:59.759><c> way</c>
+
+00:02:00.550 --> 00:02:00.560 align:start position:0%
+half going go this way
+ 
+
+00:02:00.560 --> 00:02:03.030 align:start position:0%
+half going go this way
+one<00:02:00.880><c> sixth</c><00:02:01.360><c> of</c><00:02:01.520><c> them</c><00:02:01.759><c> go</c><00:02:01.920><c> through</c><00:02:02.159><c> this</c><00:02:02.399><c> link</c>
+
+00:02:03.030 --> 00:02:03.040 align:start position:0%
+one sixth of them go through this link
+ 
+
+00:02:03.040 --> 00:02:05.429 align:start position:0%
+one sixth of them go through this link
+and<00:02:03.280><c> one</c><00:02:03.520><c> six</c><00:02:03.840><c> go</c><00:02:04.079><c> through</c><00:02:04.320><c> this</c><00:02:04.560><c> link</c><00:02:05.280><c> done</c>
+
+00:02:05.429 --> 00:02:05.439 align:start position:0%
+and one six go through this link done
+ 
+
+00:02:05.439 --> 00:02:08.389 align:start position:0%
+and one six go through this link done
+with<00:02:05.680><c> this</c><00:02:05.840><c> score</c><00:02:06.240><c> and</c><00:02:06.479><c> finally</c><00:02:07.040><c> this</c><00:02:07.280><c> score</c>
+
+00:02:08.389 --> 00:02:08.399 align:start position:0%
+with this score and finally this score
+ 
+
+00:02:08.399 --> 00:02:11.430 align:start position:0%
+with this score and finally this score
+sends<00:02:08.640><c> messages</c><00:02:09.200><c> half</c><00:02:09.520><c> here</c><00:02:09.759><c> have</c><00:02:10.080><c> here</c>
+
+00:02:11.430 --> 00:02:11.440 align:start position:0%
+sends messages half here have here
+ 
+
+00:02:11.440 --> 00:02:13.910 align:start position:0%
+sends messages half here have here
+and<00:02:11.599><c> then</c><00:02:12.239><c> one</c><00:02:12.560><c> sixth</c><00:02:12.959><c> here</c>
+
+00:02:13.910 --> 00:02:13.920 align:start position:0%
+and then one sixth here
+ 
+
+00:02:13.920 --> 00:02:16.070 align:start position:0%
+and then one sixth here
+and<00:02:14.160><c> one</c><00:02:14.480><c> sixth</c><00:02:14.879><c> here</c><00:02:15.360><c> now</c><00:02:15.520><c> we're</c><00:02:15.760><c> done</c><00:02:15.920><c> with</c>
+
+00:02:16.070 --> 00:02:16.080 align:start position:0%
+and one sixth here now we're done with
+ 
+
+00:02:16.080 --> 00:02:17.830 align:start position:0%
+and one sixth here now we're done with
+this<00:02:16.239><c> course</c><00:02:16.480><c> so</c><00:02:16.720><c> as</c><00:02:16.879><c> you</c><00:02:17.040><c> can</c><00:02:17.200><c> see</c><00:02:17.360><c> our</c><00:02:17.520><c> links</c>
+
+00:02:17.830 --> 00:02:17.840 align:start position:0%
+this course so as you can see our links
+ 
+
+00:02:17.840 --> 00:02:20.070 align:start position:0%
+this course so as you can see our links
+are<00:02:18.000><c> actually</c><00:02:18.319><c> evenly</c><00:02:18.800><c> used</c>
+
+00:02:20.070 --> 00:02:20.080 align:start position:0%
+are actually evenly used
+ 
+
+00:02:20.080 --> 00:02:22.949 align:start position:0%
+are actually evenly used
+each<00:02:20.400><c> of</c><00:02:20.480><c> them</c><00:02:20.720><c> gets</c><00:02:21.280><c> two</c><00:02:21.520><c> times</c><00:02:21.920><c> one-half</c>
+
+00:02:22.949 --> 00:02:22.959 align:start position:0%
+each of them gets two times one-half
+ 
+
+00:02:22.959 --> 00:02:26.150 align:start position:0%
+each of them gets two times one-half
+plus<00:02:23.599><c> two-sixths</c><00:02:24.720><c> so</c><00:02:24.959><c> we</c><00:02:25.200><c> get</c>
+
+00:02:26.150 --> 00:02:26.160 align:start position:0%
+plus two-sixths so we get
+ 
+
+00:02:26.160 --> 00:02:27.990 align:start position:0%
+plus two-sixths so we get
+one<00:02:26.480><c> and</c><00:02:26.720><c> one-third</c>
+
+00:02:27.990 --> 00:02:28.000 align:start position:0%
+one and one-third
+ 
+
+00:02:28.000 --> 00:02:28.949 align:start position:0%
+one and one-third
+times
+
+00:02:28.949 --> 00:02:28.959 align:start position:0%
+times
+ 
+
+00:02:28.959 --> 00:02:31.190 align:start position:0%
+times
+the<00:02:29.200><c> traffic</c><00:02:29.599><c> generated</c><00:02:30.000><c> by</c><00:02:30.239><c> one</c><00:02:30.480><c> core</c><00:02:30.959><c> that</c>
+
+00:02:31.190 --> 00:02:31.200 align:start position:0%
+the traffic generated by one core that
+ 
+
+00:02:31.200 --> 00:02:33.430 align:start position:0%
+the traffic generated by one core that
+was<00:02:31.360><c> what</c><00:02:31.599><c> the</c><00:02:31.760><c> one-half</c><00:02:32.319><c> was</c><00:02:32.640><c> off</c><00:02:33.280><c> the</c>
+
+00:02:33.430 --> 00:02:33.440 align:start position:0%
+was what the one-half was off the
+ 
+
+00:02:33.440 --> 00:02:35.509 align:start position:0%
+was what the one-half was off the
+traffic<00:02:33.920><c> from</c><00:02:34.080><c> one</c><00:02:34.319><c> core</c><00:02:34.640><c> is</c><00:02:34.879><c> 10</c><00:02:35.120><c> million</c>
+
+00:02:35.509 --> 00:02:35.519 align:start position:0%
+traffic from one core is 10 million
+ 
+
+00:02:35.519 --> 00:02:37.589 align:start position:0%
+traffic from one core is 10 million
+messages<00:02:36.080><c> a</c><00:02:36.160><c> second</c><00:02:36.959><c> so</c><00:02:37.120><c> we're</c><00:02:37.280><c> really</c>
+
+00:02:37.589 --> 00:02:37.599 align:start position:0%
+messages a second so we're really
+ 
+
+00:02:37.599 --> 00:02:39.270 align:start position:0%
+messages a second so we're really
+getting<00:02:38.319><c> 10</c>
+
+00:02:39.270 --> 00:02:39.280 align:start position:0%
+getting 10
+ 
+
+00:02:39.280 --> 00:02:43.270 align:start position:0%
+getting 10
+plus<00:02:40.000><c> 3.3</c><00:02:41.040><c> so</c><00:02:41.200><c> this</c><00:02:41.440><c> is</c><00:02:41.760><c> 13.3</c><00:02:42.720><c> million</c><00:02:43.120><c> of</c>
+
+00:02:43.270 --> 00:02:43.280 align:start position:0%
+plus 3.3 so this is 13.3 million of
+ 
+
+00:02:43.280 --> 00:02:46.630 align:start position:0%
+plus 3.3 so this is 13.3 million of
+messages<00:02:43.920><c> per</c><00:02:44.160><c> second</c><00:02:44.879><c> which</c><00:02:45.200><c> is</c><00:02:45.920><c> available</c>
+
+00:02:46.630 --> 00:02:46.640 align:start position:0%
+messages per second which is available
+ 
+
+00:02:46.640 --> 00:02:49.350 align:start position:0%
+messages per second which is available
+on<00:02:47.120><c> our</c><00:02:47.360><c> mesh</c><00:02:47.840><c> so</c><00:02:48.080><c> the</c><00:02:48.239><c> mesh</c><00:02:48.640><c> doesn't</c><00:02:49.040><c> slow</c>
+
+00:02:49.350 --> 00:02:49.360 align:start position:0%
+on our mesh so the mesh doesn't slow
+ 
+
+00:02:49.360 --> 00:02:51.030 align:start position:0%
+on our mesh so the mesh doesn't slow
+down<00:02:49.519><c> the</c><00:02:49.760><c> processors</c>
+
+00:02:51.030 --> 00:02:51.040 align:start position:0%
+down the processors
+ 
+
+00:02:51.040 --> 00:02:53.030 align:start position:0%
+down the processors
+so<00:02:51.280><c> really</c><00:02:51.519><c> the</c><00:02:51.680><c> speed</c><00:02:52.000><c> up</c><00:02:52.160><c> of</c><00:02:52.319><c> using</c><00:02:52.560><c> the</c><00:02:52.720><c> mesh</c>
+
+00:02:53.030 --> 00:02:53.040 align:start position:0%
+so really the speed up of using the mesh
+ 
+
+00:02:53.040 --> 00:02:54.390 align:start position:0%
+so really the speed up of using the mesh
+versus<00:02:53.360><c> the</c><00:02:53.519><c> bus</c>
+
+00:02:54.390 --> 00:02:54.400 align:start position:0%
+versus the bus
+ 
+
+00:02:54.400 --> 00:02:56.949 align:start position:0%
+versus the bus
+is<00:02:54.640><c> two</c><00:02:55.200><c> because</c><00:02:55.440><c> the</c><00:02:55.599><c> bus</c><00:02:56.400><c> requires</c><00:02:56.800><c> the</c>
+
+00:02:56.949 --> 00:02:56.959 align:start position:0%
+is two because the bus requires the
+ 
+
+00:02:56.959 --> 00:02:59.509 align:start position:0%
+is two because the bus requires the
+cores<00:02:57.280><c> to</c><00:02:57.440><c> slow</c><00:02:57.760><c> down</c><00:02:58.560><c> so</c><00:02:58.800><c> that</c>
+
+00:02:59.509 --> 00:02:59.519 align:start position:0%
+cores to slow down so that
+ 
+
+00:02:59.519 --> 00:03:01.190 align:start position:0%
+cores to slow down so that
+it<00:02:59.680><c> can</c><00:02:59.920><c> support</c><00:03:00.319><c> the</c><00:03:00.480><c> traffic</c><00:03:00.800><c> that</c><00:03:00.959><c> they're</c>
+
+00:03:01.190 --> 00:03:01.200 align:start position:0%
+it can support the traffic that they're
+ 
+
+00:03:01.200 --> 00:03:02.390 align:start position:0%
+it can support the traffic that they're
+generating
+
+00:03:02.390 --> 00:03:02.400 align:start position:0%
+generating
+ 
+
+00:03:02.400 --> 00:03:04.869 align:start position:0%
+generating
+while<00:03:02.640><c> the</c><00:03:02.840><c> mesh</c><00:03:03.920><c> allows</c><00:03:04.319><c> the</c><00:03:04.480><c> cores</c><00:03:04.720><c> to</c>
+
+00:03:04.869 --> 00:03:04.879 align:start position:0%
+while the mesh allows the cores to
+ 
+
+00:03:04.879 --> 00:03:07.030 align:start position:0%
+while the mesh allows the cores to
+proceed<00:03:05.280><c> at</c><00:03:05.440><c> full</c><00:03:05.680><c> speed</c><00:03:06.080><c> at</c><00:03:06.159><c> 10</c><00:03:06.400><c> million</c>
+
+00:03:07.030 --> 00:03:07.040 align:start position:0%
+proceed at full speed at 10 million
+ 
+
+00:03:07.040 --> 00:03:09.990 align:start position:0%
+proceed at full speed at 10 million
+messages<00:03:07.440><c> per</c><00:03:07.680><c> second</c><00:03:08.480><c> and</c><00:03:09.200><c> still</c><00:03:09.519><c> has</c><00:03:09.760><c> some</c>
+
+00:03:09.990 --> 00:03:10.000 align:start position:0%
+messages per second and still has some
+ 
+
+00:03:10.000 --> 00:03:11.750 align:start position:0%
+messages per second and still has some
+traffic<00:03:10.480><c> left</c><00:03:10.879><c> over</c>
+
+00:03:11.750 --> 00:03:11.760 align:start position:0%
+traffic left over
+ 
+
+00:03:11.760 --> 00:03:14.070 align:start position:0%
+traffic left over
+if<00:03:11.920><c> we</c><00:03:12.080><c> went</c><00:03:12.319><c> to</c><00:03:12.480><c> a</c><00:03:12.560><c> larger</c><00:03:13.040><c> network</c><00:03:13.519><c> than</c><00:03:13.760><c> four</c>
+
+00:03:14.070 --> 00:03:14.080 align:start position:0%
+if we went to a larger network than four
+ 
+
+00:03:14.080 --> 00:03:15.990 align:start position:0%
+if we went to a larger network than four
+cores<00:03:14.879><c> the</c><00:03:15.120><c> bus</c><00:03:15.440><c> would</c><00:03:15.599><c> have</c><00:03:15.760><c> to</c>
+
+00:03:15.990 --> 00:03:16.000 align:start position:0%
+cores the bus would have to
+ 
+
+00:03:16.000 --> 00:03:18.710 align:start position:0%
+cores the bus would have to
+proportionally<00:03:16.800><c> slow</c><00:03:17.120><c> down</c><00:03:18.000><c> while</c><00:03:18.239><c> the</c><00:03:18.400><c> mesh</c>
+
+00:03:18.710 --> 00:03:18.720 align:start position:0%
+proportionally slow down while the mesh
+ 
+
+00:03:18.720 --> 00:03:20.790 align:start position:0%
+proportionally slow down while the mesh
+would<00:03:18.959><c> get</c><00:03:19.280><c> more</c><00:03:19.519><c> links</c>
+
+00:03:20.790 --> 00:03:20.800 align:start position:0%
+would get more links
+ 
+
+00:03:20.800 --> 00:03:23.509 align:start position:0%
+would get more links
+and<00:03:20.959><c> it</c><00:03:21.120><c> will</c><00:03:21.360><c> be</c><00:03:21.519><c> a</c><00:03:21.599><c> while</c><00:03:22.080><c> until</c><00:03:22.879><c> any</c><00:03:23.200><c> of</c><00:03:23.360><c> the</c>
+
+00:03:23.509 --> 00:03:23.519 align:start position:0%
+and it will be a while until any of the
+ 
+
+00:03:23.519 --> 00:03:26.470 align:start position:0%
+and it will be a while until any of the
+mesh<00:03:23.840><c> links</c><00:03:24.080><c> become</c><00:03:24.480><c> saturated</c><00:03:25.440><c> so</c><00:03:25.680><c> clearly</c>
+
+00:03:26.470 --> 00:03:26.480 align:start position:0%
+mesh links become saturated so clearly
+ 
+
+00:03:26.480 --> 00:03:28.949 align:start position:0%
+mesh links become saturated so clearly
+the<00:03:26.640><c> mesh</c><00:03:27.040><c> is</c><00:03:27.280><c> far</c><00:03:27.599><c> superior</c><00:03:28.159><c> to</c><00:03:28.319><c> the</c><00:03:28.400><c> bus</c><00:03:28.800><c> in</c>
+
+00:03:28.949 --> 00:03:28.959 align:start position:0%
+the mesh is far superior to the bus in
+ 
+
+00:03:28.959 --> 00:03:31.270 align:start position:0%
+the mesh is far superior to the bus in
+terms<00:03:29.280><c> of</c><00:03:29.360><c> the</c><00:03:29.599><c> traffic</c><00:03:30.080><c> it</c><00:03:30.239><c> can</c><00:03:30.480><c> support</c><00:03:31.120><c> when</c>
+
+00:03:31.270 --> 00:03:31.280 align:start position:0%
+terms of the traffic it can support when
+ 
+
+00:03:31.280 --> 00:03:34.640 align:start position:0%
+terms of the traffic it can support when
+we<00:03:31.440><c> go</c><00:03:31.599><c> to</c><00:03:31.760><c> more</c><00:03:32.080><c> course</c>
+

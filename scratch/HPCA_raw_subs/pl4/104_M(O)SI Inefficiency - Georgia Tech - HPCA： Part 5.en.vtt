@@ -1,0 +1,440 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.119 align:start position:0%
+ 
+so<00:00:00.390><c> we</c><00:00:00.539><c> have</c><00:00:00.750><c> used</c><00:00:00.989><c> the</c><00:00:01.199><c> old</c><00:00:01.439><c> state</c><00:00:01.800><c> to</c><00:00:02.040><c> avoid</c>
+
+00:00:02.119 --> 00:00:02.129 align:start position:0%
+so we have used the old state to avoid
+ 
+
+00:00:02.129 --> 00:00:04.700 align:start position:0%
+so we have used the old state to avoid
+inefficiency<00:00:03.090><c> of</c><00:00:03.240><c> the</c><00:00:03.360><c> MSI</c><00:00:03.929><c> protocol</c><00:00:04.529><c> that</c>
+
+00:00:04.700 --> 00:00:04.710 align:start position:0%
+inefficiency of the MSI protocol that
+ 
+
+00:00:04.710 --> 00:00:07.039 align:start position:0%
+inefficiency of the MSI protocol that
+had<00:00:04.920><c> to</c><00:00:05.100><c> do</c><00:00:05.279><c> with</c><00:00:05.520><c> the</c><00:00:05.670><c> memory</c><00:00:06.089><c> getting</c>
+
+00:00:07.039 --> 00:00:07.049 align:start position:0%
+had to do with the memory getting
+ 
+
+00:00:07.049 --> 00:00:09.140 align:start position:0%
+had to do with the memory getting
+unnecessary<00:00:07.770><c> accesses</c><00:00:08.370><c> that</c><00:00:08.700><c> could</c><00:00:08.970><c> be</c>
+
+00:00:09.140 --> 00:00:09.150 align:start position:0%
+unnecessary accesses that could be
+ 
+
+00:00:09.150 --> 00:00:11.150 align:start position:0%
+unnecessary accesses that could be
+satisfied<00:00:09.360><c> by</c><00:00:09.929><c> caches</c><00:00:10.410><c> that</c><00:00:10.440><c> already</c><00:00:10.889><c> have</c>
+
+00:00:11.150 --> 00:00:11.160 align:start position:0%
+satisfied by caches that already have
+ 
+
+00:00:11.160 --> 00:00:13.850 align:start position:0%
+satisfied by caches that already have
+the<00:00:11.309><c> data</c><00:00:11.519><c> there</c><00:00:12.480><c> is</c><00:00:12.540><c> another</c><00:00:13.049><c> inefficiency</c>
+
+00:00:13.850 --> 00:00:13.860 align:start position:0%
+the data there is another inefficiency
+ 
+
+00:00:13.860 --> 00:00:17.750 align:start position:0%
+the data there is another inefficiency
+that<00:00:14.070><c> both</c><00:00:14.519><c> MSI</c><00:00:15.210><c> and</c><00:00:15.509><c> MOSI</c><00:00:16.289><c> have</c><00:00:16.590><c> and</c><00:00:16.949><c> that</c>
+
+00:00:17.750 --> 00:00:17.760 align:start position:0%
+that both MSI and MOSI have and that
+ 
+
+00:00:17.760 --> 00:00:19.910 align:start position:0%
+that both MSI and MOSI have and that
+inefficiencies<00:00:18.060><c> related</c><00:00:18.960><c> to</c><00:00:19.080><c> thread</c><00:00:19.410><c> private</c>
+
+00:00:19.910 --> 00:00:19.920 align:start position:0%
+inefficiencies related to thread private
+ 
+
+00:00:19.920 --> 00:00:22.490 align:start position:0%
+inefficiencies related to thread private
+data<00:00:20.160><c> or</c><00:00:20.490><c> data</c><00:00:20.789><c> that</c><00:00:21.180><c> is</c><00:00:21.330><c> only</c><00:00:21.630><c> ever</c><00:00:21.990><c> accessed</c>
+
+00:00:22.490 --> 00:00:22.500 align:start position:0%
+data or data that is only ever accessed
+ 
+
+00:00:22.500 --> 00:00:24.650 align:start position:0%
+data or data that is only ever accessed
+by<00:00:22.650><c> a</c><00:00:22.680><c> single</c><00:00:23.130><c> thread</c><00:00:23.310><c> and</c><00:00:23.670><c> thread</c><00:00:24.240><c> private</c>
+
+00:00:24.650 --> 00:00:24.660 align:start position:0%
+by a single thread and thread private
+ 
+
+00:00:24.660 --> 00:00:26.300 align:start position:0%
+by a single thread and thread private
+data<00:00:24.840><c> is</c><00:00:24.930><c> for</c><00:00:25.109><c> example</c><00:00:25.230><c> all</c><00:00:25.590><c> data</c><00:00:26.010><c> in</c><00:00:26.189><c> a</c>
+
+00:00:26.300 --> 00:00:26.310 align:start position:0%
+data is for example all data in a
+ 
+
+00:00:26.310 --> 00:00:28.400 align:start position:0%
+data is for example all data in a
+single-threaded<00:00:26.730><c> program</c><00:00:27.029><c> will</c><00:00:27.960><c> be</c><00:00:28.140><c> thread</c>
+
+00:00:28.400 --> 00:00:28.410 align:start position:0%
+single-threaded program will be thread
+ 
+
+00:00:28.410 --> 00:00:30.410 align:start position:0%
+single-threaded program will be thread
+private<00:00:28.890><c> so</c><00:00:29.460><c> if</c><00:00:29.550><c> we</c><00:00:29.640><c> have</c><00:00:29.820><c> a</c><00:00:29.849><c> four</c><00:00:30.179><c> core</c>
+
+00:00:30.410 --> 00:00:30.420 align:start position:0%
+private so if we have a four core
+ 
+
+00:00:30.420 --> 00:00:32.749 align:start position:0%
+private so if we have a four core
+processor<00:00:31.019><c> around</c><00:00:31.650><c> for</c><00:00:31.980><c> single</c><00:00:32.520><c> threaded</c>
+
+00:00:32.749 --> 00:00:32.759 align:start position:0%
+processor around for single threaded
+ 
+
+00:00:32.759 --> 00:00:36.080 align:start position:0%
+processor around for single threaded
+programs<00:00:33.390><c> they</c><00:00:34.320><c> never</c><00:00:34.620><c> share</c><00:00:34.890><c> any</c><00:00:35.130><c> data</c><00:00:35.430><c> all</c>
+
+00:00:36.080 --> 00:00:36.090 align:start position:0%
+programs they never share any data all
+ 
+
+00:00:36.090 --> 00:00:38.389 align:start position:0%
+programs they never share any data all
+of<00:00:36.149><c> the</c><00:00:36.510><c> data</c><00:00:36.780><c> in</c><00:00:37.260><c> these</c><00:00:37.469><c> programs</c><00:00:38.010><c> is</c><00:00:38.190><c> like</c>
+
+00:00:38.389 --> 00:00:38.399 align:start position:0%
+of the data in these programs is like
+ 
+
+00:00:38.399 --> 00:00:40.610 align:start position:0%
+of the data in these programs is like
+this<00:00:38.579><c> even</c><00:00:39.420><c> when</c><00:00:39.600><c> we</c><00:00:39.719><c> have</c><00:00:39.930><c> a</c><00:00:39.960><c> parallel</c>
+
+00:00:40.610 --> 00:00:40.620 align:start position:0%
+this even when we have a parallel
+ 
+
+00:00:40.620 --> 00:00:43.850 align:start position:0%
+this even when we have a parallel
+program<00:00:40.829><c> we</c><00:00:41.550><c> still</c><00:00:41.940><c> have</c><00:00:42.239><c> data</c><00:00:42.899><c> such</c><00:00:43.469><c> as</c><00:00:43.649><c> for</c>
+
+00:00:43.850 --> 00:00:43.860 align:start position:0%
+program we still have data such as for
+ 
+
+00:00:43.860 --> 00:00:45.860 align:start position:0%
+program we still have data such as for
+example<00:00:43.890><c> the</c><00:00:44.370><c> stacks</c><00:00:44.850><c> of</c><00:00:45.180><c> the</c><00:00:45.360><c> individual</c>
+
+00:00:45.860 --> 00:00:45.870 align:start position:0%
+example the stacks of the individual
+ 
+
+00:00:45.870 --> 00:00:48.170 align:start position:0%
+example the stacks of the individual
+threads<00:00:46.170><c> that</c><00:00:46.920><c> are</c><00:00:46.980><c> still</c><00:00:47.370><c> gonna</c><00:00:47.550><c> be</c><00:00:47.670><c> accessed</c>
+
+00:00:48.170 --> 00:00:48.180 align:start position:0%
+threads that are still gonna be accessed
+ 
+
+00:00:48.180 --> 00:00:50.569 align:start position:0%
+threads that are still gonna be accessed
+only<00:00:48.539><c> by</c><00:00:48.870><c> a</c><00:00:49.020><c> single</c><00:00:49.410><c> thread</c><00:00:49.559><c> and</c><00:00:49.890><c> then</c>
+
+00:00:50.569 --> 00:00:50.579 align:start position:0%
+only by a single thread and then
+ 
+
+00:00:50.579 --> 00:00:52.880 align:start position:0%
+only by a single thread and then
+efficiency<00:00:51.270><c> occurs</c><00:00:51.719><c> when</c><00:00:52.110><c> we</c><00:00:52.260><c> read</c><00:00:52.500><c> the</c><00:00:52.680><c> data</c>
+
+00:00:52.880 --> 00:00:52.890 align:start position:0%
+efficiency occurs when we read the data
+ 
+
+00:00:52.890 --> 00:00:54.740 align:start position:0%
+efficiency occurs when we read the data
+in<00:00:53.070><c> a</c><00:00:53.129><c> thread</c><00:00:53.430><c> and</c><00:00:53.610><c> then</c><00:00:53.879><c> rewrite</c><00:00:54.210><c> it</c><00:00:54.449><c> and</c><00:00:54.629><c> this</c>
+
+00:00:54.740 --> 00:00:54.750 align:start position:0%
+in a thread and then rewrite it and this
+ 
+
+00:00:54.750 --> 00:00:56.600 align:start position:0%
+in a thread and then rewrite it and this
+is<00:00:54.899><c> really</c><00:00:55.140><c> the</c><00:00:55.289><c> only</c><00:00:55.680><c> thread</c><00:00:55.920><c> accessing</c><00:00:56.460><c> this</c>
+
+00:00:56.600 --> 00:00:56.610 align:start position:0%
+is really the only thread accessing this
+ 
+
+00:00:56.610 --> 00:01:00.920 align:start position:0%
+is really the only thread accessing this
+data<00:00:56.960><c> with</c><00:00:57.960><c> both</c><00:00:58.230><c> MSI</c><00:00:58.890><c> and</c><00:00:59.190><c> mosy</c><00:00:59.730><c> what's</c><00:01:00.660><c> going</c>
+
+00:01:00.920 --> 00:01:00.930 align:start position:0%
+data with both MSI and mosy what's going
+ 
+
+00:01:00.930 --> 00:01:04.070 align:start position:0%
+data with both MSI and mosy what's going
+to<00:01:00.989><c> happen</c><00:01:01.530><c> is</c><00:01:01.680><c> the</c><00:01:02.370><c> data</c><00:01:02.609><c> was</c><00:01:02.940><c> invalid</c><00:01:03.449><c> before</c>
+
+00:01:04.070 --> 00:01:04.080 align:start position:0%
+to happen is the data was invalid before
+ 
+
+00:01:04.080 --> 00:01:08.179 align:start position:0%
+to happen is the data was invalid before
+we<00:01:04.229><c> had</c><00:01:04.439><c> it</c><00:01:04.680><c> we</c><00:01:05.339><c> read</c><00:01:05.580><c> it</c><00:01:05.850><c> we</c><00:01:06.570><c> have</c><00:01:06.750><c> a</c><00:01:06.780><c> mess</c><00:01:07.189><c> now</c>
+
+00:01:08.179 --> 00:01:08.189 align:start position:0%
+we had it we read it we have a mess now
+ 
+
+00:01:08.189 --> 00:01:10.070 align:start position:0%
+we had it we read it we have a mess now
+we<00:01:08.250><c> get</c><00:01:08.520><c> the</c><00:01:08.640><c> data</c><00:01:08.850><c> in</c><00:01:09.060><c> the</c><00:01:09.180><c> shared</c><00:01:09.479><c> State</c>
+
+00:01:10.070 --> 00:01:10.080 align:start position:0%
+we get the data in the shared State
+ 
+
+00:01:10.080 --> 00:01:12.410 align:start position:0%
+we get the data in the shared State
+when<00:01:10.260><c> we</c><00:01:10.409><c> want</c><00:01:10.650><c> to</c><00:01:10.770><c> write</c><00:01:10.979><c> it</c><00:01:11.280><c> because</c><00:01:11.820><c> it's</c><00:01:12.270><c> a</c>
+
+00:01:12.410 --> 00:01:12.420 align:start position:0%
+when we want to write it because it's a
+ 
+
+00:01:12.420 --> 00:01:14.870 align:start position:0%
+when we want to write it because it's a
+shared<00:01:12.720><c> state</c><00:01:13.049><c> we</c><00:01:13.770><c> need</c><00:01:13.979><c> to</c><00:01:14.159><c> send</c><00:01:14.430><c> out</c><00:01:14.670><c> an</c>
+
+00:01:14.870 --> 00:01:14.880 align:start position:0%
+shared state we need to send out an
+ 
+
+00:01:14.880 --> 00:01:17.390 align:start position:0%
+shared state we need to send out an
+invalidation<00:01:15.150><c> and</c><00:01:15.960><c> then</c><00:01:16.680><c> we</c><00:01:16.860><c> have</c><00:01:17.040><c> the</c><00:01:17.189><c> Block</c>
+
+00:01:17.390 --> 00:01:17.400 align:start position:0%
+invalidation and then we have the Block
+ 
+
+00:01:17.400 --> 00:01:19.999 align:start position:0%
+invalidation and then we have the Block
+in<00:01:17.610><c> the</c><00:01:17.729><c> modified</c><00:01:18.180><c> state</c><00:01:18.210><c> and</c><00:01:18.659><c> for</c><00:01:19.409><c> every</c>
+
+00:01:19.999 --> 00:01:20.009 align:start position:0%
+in the modified state and for every
+ 
+
+00:01:20.009 --> 00:01:22.600 align:start position:0%
+in the modified state and for every
+single<00:01:20.340><c> block</c><00:01:20.700><c> of</c><00:01:20.909><c> data</c><00:01:21.090><c> we</c><00:01:21.810><c> have</c><00:01:21.840><c> to</c><00:01:22.170><c> do</c><00:01:22.320><c> this</c>
+
+00:01:22.600 --> 00:01:22.610 align:start position:0%
+single block of data we have to do this
+ 
+
+00:01:22.610 --> 00:01:26.870 align:start position:0%
+single block of data we have to do this
+in<00:01:23.610><c> contrast</c><00:01:24.150><c> if</c><00:01:24.450><c> we</c><00:01:24.570><c> had</c><00:01:24.750><c> a</c><00:01:24.780><c> uniprocessor</c><00:01:25.880><c> the</c>
+
+00:01:26.870 --> 00:01:26.880 align:start position:0%
+in contrast if we had a uniprocessor the
+ 
+
+00:01:26.880 --> 00:01:29.749 align:start position:0%
+in contrast if we had a uniprocessor the
+block<00:01:27.150><c> would</c><00:01:27.390><c> have</c><00:01:27.570><c> a</c><00:01:27.600><c> valid</c><00:01:28.020><c> bit</c><00:01:28.200><c> of</c><00:01:28.380><c> zero</c><00:01:28.759><c> we</c>
+
+00:01:29.749 --> 00:01:29.759 align:start position:0%
+block would have a valid bit of zero we
+ 
+
+00:01:29.759 --> 00:01:33.679 align:start position:0%
+block would have a valid bit of zero we
+read<00:01:30.030><c> it</c><00:01:30.299><c> we</c><00:01:31.259><c> have</c><00:01:31.470><c> a</c><00:01:31.500><c> mess</c><00:01:31.909><c> now</c><00:01:32.909><c> the</c><00:01:32.970><c> valid</c><00:01:33.509><c> bit</c>
+
+00:01:33.679 --> 00:01:33.689 align:start position:0%
+read it we have a mess now the valid bit
+ 
+
+00:01:33.689 --> 00:01:36.890 align:start position:0%
+read it we have a mess now the valid bit
+becomes<00:01:34.110><c> one</c><00:01:34.409><c> and</c><00:01:34.680><c> then</c><00:01:35.250><c> we</c><00:01:35.400><c> have</c><00:01:35.579><c> a</c><00:01:35.610><c> hit</c><00:01:35.970><c> when</c>
+
+00:01:36.890 --> 00:01:36.900 align:start position:0%
+becomes one and then we have a hit when
+ 
+
+00:01:36.900 --> 00:01:38.810 align:start position:0%
+becomes one and then we have a hit when
+we<00:01:36.930><c> write</c><00:01:37.290><c> it</c><00:01:37.530><c> and</c><00:01:37.770><c> then</c><00:01:38.040><c> we</c><00:01:38.220><c> just</c><00:01:38.430><c> change</c><00:01:38.729><c> the</c>
+
+00:01:38.810 --> 00:01:38.820 align:start position:0%
+we write it and then we just change the
+ 
+
+00:01:38.820 --> 00:01:41.899 align:start position:0%
+we write it and then we just change the
+dirty<00:01:39.119><c> bit</c><00:01:39.450><c> to</c><00:01:39.659><c> one</c><00:01:39.840><c> so</c><00:01:40.200><c> somehow</c><00:01:40.909><c> yeah</c>
+
+00:01:41.899 --> 00:01:41.909 align:start position:0%
+dirty bit to one so somehow yeah
+ 
+
+00:01:41.909 --> 00:01:44.899 align:start position:0%
+dirty bit to one so somehow yeah
+uniprocessor<00:01:42.509><c> gets</c><00:01:43.320><c> to</c><00:01:43.500><c> do</c><00:01:43.680><c> a</c><00:01:43.890><c> Miss</c><00:01:44.250><c> here</c><00:01:44.759><c> and</c>
+
+00:01:44.899 --> 00:01:44.909 align:start position:0%
+uniprocessor gets to do a Miss here and
+ 
+
+00:01:44.909 --> 00:01:50.480 align:start position:0%
+uniprocessor gets to do a Miss here and
+a<00:01:45.329><c> hit</c><00:01:45.570><c> here</c><00:01:46.020><c> whereas</c><00:01:47.180><c> to</c><00:01:48.180><c> do</c><00:01:48.390><c> msi</c><00:01:48.930><c> or</c><00:01:49.200><c> mossy</c><00:01:49.770><c> we</c>
+
+00:01:50.480 --> 00:01:50.490 align:start position:0%
+a hit here whereas to do msi or mossy we
+ 
+
+00:01:50.490 --> 00:01:52.700 align:start position:0%
+a hit here whereas to do msi or mossy we
+have<00:01:50.700><c> to</c><00:01:50.880><c> do</c><00:01:51.000><c> a</c><00:01:51.030><c> miss</c><00:01:51.420><c> followed</c><00:01:52.200><c> by</c><00:01:52.350><c> another</c>
+
+00:01:52.700 --> 00:01:52.710 align:start position:0%
+have to do a miss followed by another
+ 
+
+00:01:52.710 --> 00:01:55.550 align:start position:0%
+have to do a miss followed by another
+bus<00:01:53.130><c> request</c><00:01:53.540><c> granted</c><00:01:54.540><c> it</c><00:01:54.960><c> doesn't</c><00:01:55.259><c> care</c><00:01:55.409><c> it</c>
+
+00:01:55.550 --> 00:01:55.560 align:start position:0%
+bus request granted it doesn't care it
+ 
+
+00:01:55.560 --> 00:01:57.560 align:start position:0%
+bus request granted it doesn't care it
+data<00:01:55.799><c> but</c><00:01:56.219><c> still</c><00:01:56.520><c> we</c><00:01:56.700><c> have</c><00:01:56.909><c> to</c><00:01:57.030><c> wait</c><00:01:57.210><c> for</c><00:01:57.450><c> the</c>
+
+00:01:57.560 --> 00:01:57.570 align:start position:0%
+data but still we have to wait for the
+ 
+
+00:01:57.570 --> 00:01:59.510 align:start position:0%
+data but still we have to wait for the
+bus<00:01:57.780><c> send</c><00:01:58.200><c> something</c><00:01:58.469><c> outside</c><00:01:58.979><c> the</c><00:01:59.130><c> chip</c><00:01:59.310><c> and</c>
+
+00:01:59.510 --> 00:01:59.520 align:start position:0%
+bus send something outside the chip and
+ 
+
+00:01:59.520 --> 00:02:01.670 align:start position:0%
+bus send something outside the chip and
+so<00:01:59.700><c> on</c><00:01:59.850><c> so</c><00:02:00.299><c> this</c><00:02:00.450><c> is</c><00:02:00.509><c> still</c><00:02:00.780><c> a</c><00:02:00.810><c> lot</c><00:02:01.110><c> slower</c><00:02:01.469><c> than</c>
+
+00:02:01.670 --> 00:02:01.680 align:start position:0%
+so on so this is still a lot slower than
+ 
+
+00:02:01.680 --> 00:02:04.850 align:start position:0%
+so on so this is still a lot slower than
+just<00:02:02.159><c> a</c><00:02:02.280><c> cache</c><00:02:02.520><c> hit</c><00:02:02.549><c> and</c><00:02:03.119><c> it's</c><00:02:03.840><c> ok</c><00:02:04.259><c> to</c><00:02:04.290><c> pay</c><00:02:04.680><c> the</c>
+
+00:02:04.850 --> 00:02:04.860 align:start position:0%
+just a cache hit and it's ok to pay the
+ 
+
+00:02:04.860 --> 00:02:07.310 align:start position:0%
+just a cache hit and it's ok to pay the
+penalty<00:02:05.369><c> for</c><00:02:05.399><c> having</c><00:02:05.759><c> coherence</c><00:02:06.509><c> if</c><00:02:06.899><c> we're</c>
+
+00:02:07.310 --> 00:02:07.320 align:start position:0%
+penalty for having coherence if we're
+ 
+
+00:02:07.320 --> 00:02:08.869 align:start position:0%
+penalty for having coherence if we're
+actually<00:02:07.469><c> sharing</c><00:02:07.920><c> data</c><00:02:08.310><c> because</c><00:02:08.849><c> a</c>
+
+00:02:08.869 --> 00:02:08.879 align:start position:0%
+actually sharing data because a
+ 
+
+00:02:08.879 --> 00:02:11.360 align:start position:0%
+actually sharing data because a
+uniprocessor<00:02:09.450><c> would</c><00:02:10.080><c> not</c><00:02:10.319><c> provide</c><00:02:10.770><c> coherent</c>
+
+00:02:11.360 --> 00:02:11.370 align:start position:0%
+uniprocessor would not provide coherent
+ 
+
+00:02:11.370 --> 00:02:13.880 align:start position:0%
+uniprocessor would not provide coherent
+behavior<00:02:11.940><c> but</c><00:02:12.420><c> here</c><00:02:12.870><c> we</c><00:02:13.020><c> actually</c>
+
+00:02:13.880 --> 00:02:13.890 align:start position:0%
+behavior but here we actually
+ 
+
+00:02:13.890 --> 00:02:17.390 align:start position:0%
+behavior but here we actually
+no<00:02:14.640><c> sharing</c><00:02:15.150><c> whatsoever</c><00:02:16.019><c> so</c><00:02:16.680><c> what</c><00:02:16.859><c> we</c><00:02:17.010><c> want</c><00:02:17.250><c> to</c>
+
+00:02:17.390 --> 00:02:17.400 align:start position:0%
+no sharing whatsoever so what we want to
+ 
+
+00:02:17.400 --> 00:02:20.899 align:start position:0%
+no sharing whatsoever so what we want to
+do<00:02:17.549><c> is</c><00:02:17.790><c> avoid</c><00:02:18.299><c> this</c><00:02:19.109><c> invalidation</c><00:02:20.040><c> and</c><00:02:20.189><c> to</c><00:02:20.700><c> do</c>
+
+00:02:20.899 --> 00:02:20.909 align:start position:0%
+do is avoid this invalidation and to do
+ 
+
+00:02:20.909 --> 00:02:23.509 align:start position:0%
+do is avoid this invalidation and to do
+that<00:02:21.180><c> we</c><00:02:21.840><c> introduce</c><00:02:22.290><c> a</c><00:02:22.469><c> new</c><00:02:22.709><c> state</c><00:02:23.040><c> called</c>
+
+00:02:23.509 --> 00:02:23.519 align:start position:0%
+that we introduce a new state called
+ 
+
+00:02:23.519 --> 00:02:26.359 align:start position:0%
+that we introduce a new state called
+exclusive
+

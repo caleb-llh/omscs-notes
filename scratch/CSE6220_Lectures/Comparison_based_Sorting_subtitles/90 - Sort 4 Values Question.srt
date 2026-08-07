@@ -1,0 +1,28 @@
+1
+00:00:00,430 --> 00:00:03,230
+ Suppose you want to sort four values.
+
+2
+00:00:03,230 --> 00:00:06,140
+ I claimed that the following circuit will do it.
+
+3
+00:00:06,140 --> 00:00:09,750
+ Note that this is a minus comparator and the rest are plusses.
+
+4
+00:00:09,750 --> 00:00:11,550
+ Can you see how it works?
+
+5
+00:00:11,550 --> 00:00:13,400
+ I want you to show me.
+
+6
+00:00:13,400 --> 00:00:15,540
+ At each wire I put a box.
+
+7
+00:00:15,540 --> 00:00:15,540
+ What I want you to do is fill in the box with the value of the wire.
+

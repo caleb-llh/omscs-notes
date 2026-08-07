@@ -1,0 +1,336 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.949 align:start position:0%
+ 
+let's<00:00:00.399><c> look</c><00:00:00.560><c> at</c><00:00:00.760><c> the</c><00:00:00.919><c> answer</c><00:00:01.240><c> to</c><00:00:01.439><c> our</c><00:00:01.640><c> cache</c>
+
+00:00:01.949 --> 00:00:01.959 align:start position:0%
+let's look at the answer to our cache
+ 
+
+00:00:01.959 --> 00:00:04.430 align:start position:0%
+let's look at the answer to our cache
+quiz<00:00:02.600><c> these</c><00:00:02.840><c> three</c><00:00:03.199><c> are</c><00:00:03.439><c> very</c><00:00:03.719><c> similar</c><00:00:04.120><c> to</c><00:00:04.279><c> the</c>
+
+00:00:04.430 --> 00:00:04.440 align:start position:0%
+quiz these three are very similar to the
+ 
+
+00:00:04.440 --> 00:00:06.389 align:start position:0%
+quiz these three are very similar to the
+options<00:00:04.839><c> we</c><00:00:05.080><c> have</c><00:00:05.520><c> when</c><00:00:05.680><c> we</c><00:00:05.799><c> want</c><00:00:05.960><c> to</c><00:00:06.160><c> get</c>
+
+00:00:06.389 --> 00:00:06.399 align:start position:0%
+options we have when we want to get
+ 
+
+00:00:06.399 --> 00:00:08.549 align:start position:0%
+options we have when we want to get
+books<00:00:06.720><c> from</c><00:00:06.879><c> a</c><00:00:07.080><c> library</c><00:00:07.680><c> this</c><00:00:07.839><c> is</c><00:00:08.160><c> like</c><00:00:08.320><c> going</c>
+
+00:00:08.549 --> 00:00:08.559 align:start position:0%
+books from a library this is like going
+ 
+
+00:00:08.559 --> 00:00:10.270 align:start position:0%
+books from a library this is like going
+to<00:00:08.719><c> the</c><00:00:08.920><c> library</c><00:00:09.440><c> every</c><00:00:09.679><c> time</c><00:00:09.840><c> we</c><00:00:09.960><c> need</c><00:00:10.120><c> to</c>
+
+00:00:10.270 --> 00:00:10.280 align:start position:0%
+to the library every time we need to
+ 
+
+00:00:10.280 --> 00:00:12.270 align:start position:0%
+to the library every time we need to
+look<00:00:10.440><c> up</c><00:00:10.679><c> something</c><00:00:11.440><c> and</c><00:00:11.599><c> clearly</c><00:00:11.960><c> we</c><00:00:12.080><c> don't</c>
+
+00:00:12.270 --> 00:00:12.280 align:start position:0%
+look up something and clearly we don't
+ 
+
+00:00:12.280 --> 00:00:14.789 align:start position:0%
+look up something and clearly we don't
+want<00:00:12.480><c> to</c><00:00:12.639><c> do</c><00:00:12.920><c> that</c><00:00:13.679><c> main</c><00:00:13.920><c> memory</c><00:00:14.280><c> is</c><00:00:14.440><c> just</c><00:00:14.639><c> like</c>
+
+00:00:14.789 --> 00:00:14.799 align:start position:0%
+want to do that main memory is just like
+ 
+
+00:00:14.799 --> 00:00:18.390 align:start position:0%
+want to do that main memory is just like
+the<00:00:14.960><c> library</c><00:00:15.640><c> slow</c><00:00:16.640><c> and</c><00:00:16.880><c> very</c><00:00:17.119><c> large</c><00:00:17.920><c> so</c><00:00:18.119><c> if</c><00:00:18.240><c> we</c>
+
+00:00:18.390 --> 00:00:18.400 align:start position:0%
+the library slow and very large so if we
+ 
+
+00:00:18.400 --> 00:00:20.429 align:start position:0%
+the library slow and very large so if we
+go<00:00:18.560><c> to</c><00:00:18.720><c> the</c><00:00:18.880><c> main</c><00:00:19.119><c> memory</c><00:00:19.560><c> every</c><00:00:19.800><c> time</c><00:00:20.199><c> we're</c>
+
+00:00:20.429 --> 00:00:20.439 align:start position:0%
+go to the main memory every time we're
+ 
+
+00:00:20.439 --> 00:00:22.070 align:start position:0%
+go to the main memory every time we're
+spending<00:00:20.800><c> a</c><00:00:20.920><c> lot</c><00:00:21.080><c> of</c><00:00:21.279><c> time</c><00:00:21.480><c> just</c><00:00:21.640><c> waiting</c><00:00:21.920><c> for</c>
+
+00:00:22.070 --> 00:00:22.080 align:start position:0%
+spending a lot of time just waiting for
+ 
+
+00:00:22.080 --> 00:00:24.109 align:start position:0%
+spending a lot of time just waiting for
+the<00:00:22.199><c> main</c><00:00:22.400><c> memory</c><00:00:22.720><c> to</c><00:00:22.920><c> respond</c><00:00:23.320><c> with</c><00:00:23.519><c> data</c>
+
+00:00:24.109 --> 00:00:24.119 align:start position:0%
+the main memory to respond with data
+ 
+
+00:00:24.119 --> 00:00:25.830 align:start position:0%
+the main memory to respond with data
+having<00:00:24.400><c> the</c><00:00:24.560><c> small</c><00:00:24.960><c> memory</c><00:00:25.400><c> inside</c><00:00:25.720><c> the</c>
+
+00:00:25.830 --> 00:00:25.840 align:start position:0%
+having the small memory inside the
+ 
+
+00:00:25.840 --> 00:00:27.589 align:start position:0%
+having the small memory inside the
+processor<00:00:26.279><c> core</c><00:00:26.560><c> and</c><00:00:26.679><c> bringing</c><00:00:27.039><c> the</c><00:00:27.199><c> stuff</c><00:00:27.400><c> we</c>
+
+00:00:27.589 --> 00:00:27.599 align:start position:0%
+processor core and bringing the stuff we
+ 
+
+00:00:27.599 --> 00:00:29.990 align:start position:0%
+processor core and bringing the stuff we
+access<00:00:28.039><c> there</c><00:00:28.800><c> is</c><00:00:29.039><c> the</c><00:00:29.199><c> approach</c><00:00:29.560><c> of</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+access there is the approach of
+ 
+
+00:00:30.000 --> 00:00:31.190 align:start position:0%
+access there is the approach of
+basically
+
+00:00:31.190 --> 00:00:31.200 align:start position:0%
+basically
+ 
+
+00:00:31.200 --> 00:00:33.990 align:start position:0%
+basically
+caching<00:00:32.200><c> the</c><00:00:32.360><c> memory</c>
+
+00:00:33.990 --> 00:00:34.000 align:start position:0%
+caching the memory
+ 
+
+00:00:34.000 --> 00:00:36.630 align:start position:0%
+caching the memory
+locations<00:00:35.000><c> and</c><00:00:35.200><c> this</c><00:00:35.280><c> is</c><00:00:35.520><c> very</c><00:00:35.760><c> similar</c><00:00:36.440><c> to</c>
+
+00:00:36.630 --> 00:00:36.640 align:start position:0%
+locations and this is very similar to
+ 
+
+00:00:36.640 --> 00:00:38.709 align:start position:0%
+locations and this is very similar to
+borrowing<00:00:37.079><c> the</c><00:00:37.239><c> book</c><00:00:37.559><c> from</c><00:00:37.760><c> the</c><00:00:37.960><c> library</c><00:00:38.559><c> so</c>
+
+00:00:38.709 --> 00:00:38.719 align:start position:0%
+borrowing the book from the library so
+ 
+
+00:00:38.719 --> 00:00:40.549 align:start position:0%
+borrowing the book from the library so
+that<00:00:38.840><c> we</c><00:00:38.960><c> can</c><00:00:39.120><c> use</c><00:00:39.280><c> it</c><00:00:39.440><c> for</c><00:00:39.600><c> a</c><00:00:39.800><c> while</c><00:00:40.360><c> while</c>
+
+00:00:40.549 --> 00:00:40.559 align:start position:0%
+that we can use it for a while while
+ 
+
+00:00:40.559 --> 00:00:42.350 align:start position:0%
+that we can use it for a while while
+we're<00:00:40.800><c> interested</c><00:00:41.160><c> in</c><00:00:41.320><c> that</c><00:00:41.520><c> topic</c><00:00:41.840><c> and</c><00:00:42.000><c> then</c>
+
+00:00:42.350 --> 00:00:42.360 align:start position:0%
+we're interested in that topic and then
+ 
+
+00:00:42.360 --> 00:00:44.830 align:start position:0%
+we're interested in that topic and then
+return<00:00:42.600><c> it</c><00:00:43.399><c> and</c><00:00:43.640><c> finally</c><00:00:44.160><c> having</c><00:00:44.399><c> a</c><00:00:44.600><c> huge</c>
+
+00:00:44.830 --> 00:00:44.840 align:start position:0%
+return it and finally having a huge
+ 
+
+00:00:44.840 --> 00:00:47.229 align:start position:0%
+return it and finally having a huge
+memory<00:00:45.200><c> NEX</c><00:00:45.520><c> door</c><00:00:45.960><c> processor</c><00:00:46.960><c> and</c><00:00:47.079><c> then</c>
+
+00:00:47.229 --> 00:00:47.239 align:start position:0%
+memory NEX door processor and then
+ 
+
+00:00:47.239 --> 00:00:49.869 align:start position:0%
+memory NEX door processor and then
+bringing<00:00:47.680><c> everything</c><00:00:48.000><c> in</c><00:00:48.320><c> there</c><00:00:49.239><c> is</c><00:00:49.399><c> solving</c>
+
+00:00:49.869 --> 00:00:49.879 align:start position:0%
+bringing everything in there is solving
+ 
+
+00:00:49.879 --> 00:00:51.350 align:start position:0%
+bringing everything in there is solving
+some<00:00:50.079><c> of</c><00:00:50.239><c> the</c><00:00:50.480><c> problems</c><00:00:50.760><c> of</c><00:00:50.920><c> going</c><00:00:51.120><c> to</c><00:00:51.239><c> the</c>
+
+00:00:51.350 --> 00:00:51.360 align:start position:0%
+some of the problems of going to the
+ 
+
+00:00:51.360 --> 00:00:52.750 align:start position:0%
+some of the problems of going to the
+main<00:00:51.640><c> memory</c><00:00:52.039><c> because</c><00:00:52.199><c> this</c><00:00:52.320><c> memory</c><00:00:52.600><c> is</c>
+
+00:00:52.750 --> 00:00:52.760 align:start position:0%
+main memory because this memory is
+ 
+
+00:00:52.760 --> 00:00:54.910 align:start position:0%
+main memory because this memory is
+hopefully<00:00:53.359><c> somewhat</c><00:00:53.960><c> closer</c><00:00:54.239><c> to</c><00:00:54.399><c> our</c>
+
+00:00:54.910 --> 00:00:54.920 align:start position:0%
+hopefully somewhat closer to our
+ 
+
+00:00:54.920 --> 00:00:57.110 align:start position:0%
+hopefully somewhat closer to our
+processor<00:00:55.920><c> but</c><00:00:56.120><c> this</c><00:00:56.280><c> memory</c><00:00:56.600><c> is</c><00:00:56.719><c> still</c><00:00:56.920><c> going</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+processor but this memory is still going
+ 
+
+00:00:57.120 --> 00:01:00.270 align:start position:0%
+processor but this memory is still going
+to<00:00:57.239><c> be</c><00:00:57.399><c> large</c><00:00:57.800><c> and</c><00:00:58.000><c> thus</c><00:00:58.280><c> very</c><00:00:58.920><c> slow</c><00:01:00.000><c> so</c><00:01:00.160><c> this</c>
+
+00:01:00.270 --> 00:01:00.280 align:start position:0%
+to be large and thus very slow so this
+ 
+
+00:01:00.280 --> 00:01:01.750 align:start position:0%
+to be large and thus very slow so this
+is<00:01:00.440><c> very</c><00:01:00.680><c> similar</c><00:01:01.039><c> to</c><00:01:01.199><c> just</c><00:01:01.320><c> building</c><00:01:01.640><c> a</c>
+
+00:01:01.750 --> 00:01:01.760 align:start position:0%
+is very similar to just building a
+ 
+
+00:01:01.760 --> 00:01:03.910 align:start position:0%
+is very similar to just building a
+library<00:01:02.120><c> closer</c><00:01:02.519><c> to</c><00:01:02.719><c> home</c><00:01:03.480><c> yes</c><00:01:03.680><c> you</c><00:01:03.800><c> are</c>
+
+00:01:03.910 --> 00:01:03.920 align:start position:0%
+library closer to home yes you are
+ 
+
+00:01:03.920 --> 00:01:07.350 align:start position:0%
+library closer to home yes you are
+saving<00:01:04.400><c> some</c><00:01:04.760><c> time</c><00:01:05.320><c> on</c><00:01:05.519><c> each</c><00:01:05.880><c> access</c><00:01:06.880><c> but</c><00:01:07.119><c> most</c>
+
+00:01:07.350 --> 00:01:07.360 align:start position:0%
+saving some time on each access but most
+ 
+
+00:01:07.360 --> 00:01:09.190 align:start position:0%
+saving some time on each access but most
+of<00:01:07.479><c> the</c><00:01:07.640><c> time</c><00:01:07.880><c> that</c><00:01:08.040><c> you</c><00:01:08.159><c> spend</c><00:01:08.439><c> per</c><00:01:08.680><c> access</c><00:01:09.040><c> is</c>
+
+00:01:09.190 --> 00:01:09.200 align:start position:0%
+of the time that you spend per access is
+ 
+
+00:01:09.200 --> 00:01:11.390 align:start position:0%
+of the time that you spend per access is
+still<00:01:09.520><c> there</c><00:01:10.080><c> simply</c><00:01:10.479><c> because</c><00:01:10.759><c> it</c><00:01:10.920><c> takes</c><00:01:11.159><c> a</c>
+
+00:01:11.390 --> 00:01:11.400 align:start position:0%
+still there simply because it takes a
+ 
+
+00:01:11.400 --> 00:01:13.789 align:start position:0%
+still there simply because it takes a
+while<00:01:12.040><c> to</c><00:01:12.280><c> find</c><00:01:12.680><c> data</c><00:01:13.000><c> in</c><00:01:13.159><c> such</c><00:01:13.320><c> a</c><00:01:13.479><c> large</c>
+
+00:01:13.789 --> 00:01:13.799 align:start position:0%
+while to find data in such a large
+ 
+
+00:01:13.799 --> 00:01:16.830 align:start position:0%
+while to find data in such a large
+memory<00:01:14.560><c> so</c><00:01:14.840><c> caches</c><00:01:15.560><c> are</c><00:01:15.840><c> exploiting</c><00:01:16.439><c> spatial</c>
+
+00:01:16.830 --> 00:01:16.840 align:start position:0%
+memory so caches are exploiting spatial
+ 
+
+00:01:16.840 --> 00:01:19.910 align:start position:0%
+memory so caches are exploiting spatial
+and<00:01:17.000><c> temporal</c><00:01:17.840><c> locality</c><00:01:18.840><c> and</c><00:01:19.080><c> overcoming</c><00:01:19.680><c> the</c>
+
+00:01:19.910 --> 00:01:19.920 align:start position:0%
+and temporal locality and overcoming the
+ 
+
+00:01:19.920 --> 00:01:22.510 align:start position:0%
+and temporal locality and overcoming the
+problem<00:01:20.360><c> of</c><00:01:20.560><c> having</c><00:01:20.960><c> a</c><00:01:21.119><c> slow</c><00:01:21.479><c> and</c><00:01:21.720><c> large</c><00:01:22.000><c> main</c>
+
+00:01:22.510 --> 00:01:22.520 align:start position:0%
+problem of having a slow and large main
+ 
+
+00:01:22.520 --> 00:01:24.870 align:start position:0%
+problem of having a slow and large main
+memory<00:01:23.520><c> just</c><00:01:23.799><c> like</c><00:01:24.040><c> borrowing</c><00:01:24.439><c> books</c><00:01:24.680><c> from</c>
+
+00:01:24.870 --> 00:01:24.880 align:start position:0%
+memory just like borrowing books from
+ 
+
+00:01:24.880 --> 00:01:28.030 align:start position:0%
+memory just like borrowing books from
+the<00:01:25.040><c> library</c><00:01:25.520><c> is</c><00:01:26.520><c> exploiting</c><00:01:27.479><c> spatial</c><00:01:27.880><c> and</c>
+
+00:01:28.030 --> 00:01:28.040 align:start position:0%
+the library is exploiting spatial and
+ 
+
+00:01:28.040 --> 00:01:30.429 align:start position:0%
+the library is exploiting spatial and
+temporal<00:01:28.439><c> locality</c><00:01:29.439><c> and</c><00:01:29.600><c> over</c><00:01:30.040><c> coming</c><00:01:30.280><c> the</c>
+
+00:01:30.429 --> 00:01:30.439 align:start position:0%
+temporal locality and over coming the
+ 
+
+00:01:30.439 --> 00:01:33.350 align:start position:0%
+temporal locality and over coming the
+problem<00:01:31.200><c> of</c><00:01:31.439><c> accessing</c><00:01:31.840><c> a</c><00:01:32.000><c> huge</c><00:01:32.360><c> Library</c>
+
+00:01:33.350 --> 00:01:33.360 align:start position:0%
+problem of accessing a huge Library
+ 
+
+00:01:33.360 --> 00:01:36.240 align:start position:0%
+problem of accessing a huge Library
+slowly
+

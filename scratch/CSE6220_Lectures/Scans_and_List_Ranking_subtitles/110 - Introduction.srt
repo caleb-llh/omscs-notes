@@ -1,0 +1,164 @@
+1
+00:00:00,380 --> 00:00:03,830
+ In this lesson, I want you to think about computations that, on the surface,
+
+2
+00:00:03,830 --> 00:00:06,250
+ don't appear to have any parallelism.
+
+3
+00:00:06,250 --> 00:00:09,120
+ In the process, you'll learn what I think are some really neat tricks
+
+4
+00:00:09,120 --> 00:00:13,320
+ about how to extract parallelism when it's not obvious how to do so.
+
+5
+00:00:13,320 --> 00:00:16,930
+ As a teaser, I want you to imagine the following scenario.
+
+6
+00:00:16,930 --> 00:00:21,070
+ Suppose you're standing in an absurdly long line in a very large room.
+
+7
+00:00:21,070 --> 00:00:24,560
+ The room is completely dark, so you can't see anything.
+
+8
+00:00:24,560 --> 00:00:26,970
+ Maybe you're waiting in line at the registrar's office to pick up your
+
+9
+00:00:26,970 --> 00:00:28,700
+ OMSCS degree.
+
+10
+00:00:28,700 --> 00:00:32,689
+ You ask yourself, how many people are in front of me in this line?
+
+11
+00:00:32,689 --> 00:00:33,490
+ And, to find out,
+
+12
+00:00:33,490 --> 00:00:37,570
+ you can only talk to the person right in front of you or right behind you.
+
+13
+00:00:37,570 --> 00:00:38,800
+ That's not so hard, you say.
+
+14
+00:00:38,800 --> 00:00:41,330
+ After all you're young, smug, and smart, and
+
+15
+00:00:41,330 --> 00:00:44,960
+ you know that the first person knows that she is the first person, so
+
+16
+00:00:44,960 --> 00:00:48,740
+ she can turn to her neighbor behind her and say, hey, I'm number one.
+
+17
+00:00:48,740 --> 00:00:51,960
+ That person now knows that he must be number two.
+
+18
+00:00:51,960 --> 00:00:54,080
+ So he pays it forward or, in this case, backwards and
+
+19
+00:00:54,080 --> 00:00:58,780
+ tells his position to the next person, and it goes on and on like this.
+
+20
+00:00:58,780 --> 00:01:01,570
+ Now that's a lovely and simple solution to this problem, but
+
+21
+00:01:01,570 --> 00:01:05,269
+ suppose there are 10 million people in this line.
+
+22
+00:01:05,269 --> 00:01:08,080
+ If it takes 1 second to do an information exchange,
+
+23
+00:01:08,080 --> 00:01:12,336
+ then it's going to take about 10 million people x 1 second / 3,600 seconds
+
+24
+00:01:12,336 --> 00:01:16,070
+ per hour / 24 hours per day, or 115 days for
+
+25
+00:01:16,070 --> 00:01:22,040
+ the last person in line to learn that he or she is number 10 million.
+
+26
+00:01:22,040 --> 00:01:23,660
+ That person, in nearly four months' time,
+
+27
+00:01:23,660 --> 00:01:27,160
+ could have probably finished a whole other OMSCS degree.
+
+28
+00:01:27,160 --> 00:01:29,180
+ Now, this scenario is an analogy for
+
+29
+00:01:29,180 --> 00:01:33,130
+ a well-known problem in parallel algorithms called list ranking.
+
+30
+00:01:33,130 --> 00:01:36,710
+ You are given a singly linked list and a pointer to the head.
+
+31
+00:01:36,710 --> 00:01:40,220
+ What you want to compute is the position of every node in the list.
+
+32
+00:01:40,220 --> 00:01:44,140
+ Sequentially it's trivial to do, but if you have multiple processors,
+
+33
+00:01:44,140 --> 00:01:47,160
+ can you use parallelism to do it faster?
+
+34
+00:01:47,160 --> 00:01:48,990
+ You might want to pause the video for a second and
+
+35
+00:01:48,990 --> 00:01:53,150
+ see if you can think of a way, and unless you already know how,
+
+36
+00:01:53,150 --> 00:01:56,290
+ I bet you'll have a very hard time doing so.
+
+37
+00:01:56,290 --> 00:02:00,120
+ To get an efficient parallel scheme, what you might find is that every thing
+
+38
+00:02:00,120 --> 00:02:04,810
+ you've been told about the best way to store a linked list is completely wrong.
+
+39
+00:02:04,810 --> 00:02:09,030
+ File it under lies my other teachers told me.
+
+40
+00:02:09,030 --> 00:02:11,180
+ So, without further adieu,
+
+41
+00:02:11,180 --> 00:02:11,180
+ let's see if we can undo a couple years of bad sequential computing habits.
+

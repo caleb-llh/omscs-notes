@@ -1,0 +1,368 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.690 align:start position:0%
+ 
+so<00:00:00.570><c> let's</c><00:00:00.780><c> now</c><00:00:00.960><c> revisit</c><00:00:01.680><c> the</c><00:00:01.890><c> topic</c><00:00:02.280><c> of</c><00:00:02.429><c> cache</c>
+
+00:00:02.690 --> 00:00:02.700 align:start position:0%
+so let's now revisit the topic of cache
+ 
+
+00:00:02.700 --> 00:00:05.090 align:start position:0%
+so let's now revisit the topic of cache
+misses<00:00:03.000><c> when</c><00:00:03.689><c> we</c><00:00:03.899><c> have</c><00:00:04.110><c> coherence</c><00:00:04.680><c> going</c><00:00:04.950><c> on</c>
+
+00:00:05.090 --> 00:00:05.100 align:start position:0%
+misses when we have coherence going on
+ 
+
+00:00:05.100 --> 00:00:08.509 align:start position:0%
+misses when we have coherence going on
+we<00:00:05.790><c> have</c><00:00:06.000><c> seen</c><00:00:06.299><c> that</c><00:00:06.960><c> caches</c><00:00:07.589><c> have</c><00:00:07.890><c> three</c><00:00:08.220><c> C's</c>
+
+00:00:08.509 --> 00:00:08.519 align:start position:0%
+we have seen that caches have three C's
+ 
+
+00:00:08.519 --> 00:00:11.830 align:start position:0%
+we have seen that caches have three C's
+3<00:00:08.880><c> types</c><00:00:09.269><c> of</c><00:00:09.480><c> misses</c><00:00:10.130><c> compulsory</c><00:00:11.130><c> misses</c>
+
+00:00:11.830 --> 00:00:11.840 align:start position:0%
+3 types of misses compulsory misses
+ 
+
+00:00:11.840 --> 00:00:15.230 align:start position:0%
+3 types of misses compulsory misses
+conflict<00:00:12.840><c> misses</c><00:00:13.049><c> and</c><00:00:13.670><c> capacity</c><00:00:14.670><c> misses</c>
+
+00:00:15.230 --> 00:00:15.240 align:start position:0%
+conflict misses and capacity misses
+ 
+
+00:00:15.240 --> 00:00:17.840 align:start position:0%
+conflict misses and capacity misses
+remember<00:00:16.199><c> that</c><00:00:16.350><c> compulsory</c><00:00:17.070><c> misses</c><00:00:17.250><c> we</c><00:00:17.609><c> have</c>
+
+00:00:17.840 --> 00:00:17.850 align:start position:0%
+remember that compulsory misses we have
+ 
+
+00:00:17.850 --> 00:00:19.340 align:start position:0%
+remember that compulsory misses we have
+them<00:00:18.060><c> because</c><00:00:18.210><c> we're</c><00:00:18.570><c> accessing</c><00:00:19.080><c> the</c><00:00:19.170><c> block</c>
+
+00:00:19.340 --> 00:00:19.350 align:start position:0%
+them because we're accessing the block
+ 
+
+00:00:19.350 --> 00:00:21.470 align:start position:0%
+them because we're accessing the block
+for<00:00:19.560><c> the</c><00:00:19.680><c> first</c><00:00:19.920><c> time</c><00:00:20.160><c> so</c><00:00:20.640><c> because</c><00:00:21.029><c> it</c><00:00:21.300><c> was</c>
+
+00:00:21.470 --> 00:00:21.480 align:start position:0%
+for the first time so because it was
+ 
+
+00:00:21.480 --> 00:00:23.029 align:start position:0%
+for the first time so because it was
+never<00:00:21.689><c> in</c><00:00:21.900><c> the</c><00:00:21.990><c> cache</c><00:00:22.199><c> we</c><00:00:22.410><c> have</c><00:00:22.590><c> to</c><00:00:22.710><c> have</c><00:00:22.920><c> this</c>
+
+00:00:23.029 --> 00:00:23.039 align:start position:0%
+never in the cache we have to have this
+ 
+
+00:00:23.039 --> 00:00:25.880 align:start position:0%
+never in the cache we have to have this
+miss<00:00:23.510><c> capacity</c><00:00:24.510><c> misses</c><00:00:24.689><c> we</c><00:00:24.960><c> have</c><00:00:25.170><c> because</c><00:00:25.859><c> the</c>
+
+00:00:25.880 --> 00:00:25.890 align:start position:0%
+miss capacity misses we have because the
+ 
+
+00:00:25.890 --> 00:00:27.920 align:start position:0%
+miss capacity misses we have because the
+block<00:00:26.400><c> doesn't</c><00:00:26.670><c> fit</c><00:00:27.060><c> in</c><00:00:27.240><c> a</c><00:00:27.330><c> cache</c><00:00:27.570><c> of</c><00:00:27.750><c> this</c>
+
+00:00:27.920 --> 00:00:27.930 align:start position:0%
+block doesn't fit in a cache of this
+ 
+
+00:00:27.930 --> 00:00:31.279 align:start position:0%
+block doesn't fit in a cache of this
+size<00:00:28.199><c> and</c><00:00:28.910><c> conflict</c><00:00:29.910><c> misses</c><00:00:30.119><c> we</c><00:00:30.390><c> have</c><00:00:30.599><c> because</c>
+
+00:00:31.279 --> 00:00:31.289 align:start position:0%
+size and conflict misses we have because
+ 
+
+00:00:31.289 --> 00:00:32.510 align:start position:0%
+size and conflict misses we have because
+the<00:00:31.439><c> cache</c><00:00:31.650><c> doesn't</c><00:00:32.099><c> have</c><00:00:32.279><c> enough</c>
+
+00:00:32.510 --> 00:00:32.520 align:start position:0%
+the cache doesn't have enough
+ 
+
+00:00:32.520 --> 00:00:36.620 align:start position:0%
+the cache doesn't have enough
+associativity<00:00:33.170><c> with</c><00:00:34.170><c> coherence</c><00:00:35.239><c> another</c><00:00:36.239><c> see</c>
+
+00:00:36.620 --> 00:00:36.630 align:start position:0%
+associativity with coherence another see
+ 
+
+00:00:36.630 --> 00:00:39.440 align:start position:0%
+associativity with coherence another see
+we<00:00:37.230><c> can</c><00:00:37.469><c> now</c><00:00:37.649><c> have</c><00:00:37.950><c> a</c><00:00:37.980><c> cache</c><00:00:38.370><c> miss</c><00:00:38.640><c> caused</c><00:00:39.149><c> by</c>
+
+00:00:39.440 --> 00:00:39.450 align:start position:0%
+we can now have a cache miss caused by
+ 
+
+00:00:39.450 --> 00:00:42.229 align:start position:0%
+we can now have a cache miss caused by
+coherence<00:00:40.170><c> for</c><00:00:40.980><c> example</c><00:00:41.520><c> when</c><00:00:41.910><c> we</c><00:00:42.030><c> read</c>
+
+00:00:42.229 --> 00:00:42.239 align:start position:0%
+coherence for example when we read
+ 
+
+00:00:42.239 --> 00:00:44.600 align:start position:0%
+coherence for example when we read
+something<00:00:42.540><c> somebody</c><00:00:43.440><c> writes</c><00:00:43.739><c> it</c><00:00:43.980><c> and</c><00:00:44.219><c> we</c><00:00:44.430><c> want</c>
+
+00:00:44.600 --> 00:00:44.610 align:start position:0%
+something somebody writes it and we want
+ 
+
+00:00:44.610 --> 00:00:46.639 align:start position:0%
+something somebody writes it and we want
+to<00:00:44.700><c> read</c><00:00:44.850><c> it</c><00:00:44.969><c> again</c><00:00:45.090><c> that</c><00:00:46.020><c> would</c><00:00:46.230><c> not</c><00:00:46.440><c> be</c><00:00:46.620><c> a</c>
+
+00:00:46.639 --> 00:00:46.649 align:start position:0%
+to read it again that would not be a
+ 
+
+00:00:46.649 --> 00:00:49.639 align:start position:0%
+to read it again that would not be a
+Miss<00:00:46.860><c> except</c><00:00:47.219><c> for</c><00:00:47.399><c> coherence</c><00:00:47.969><c> so</c><00:00:48.410><c> we</c><00:00:49.410><c> call</c>
+
+00:00:49.639 --> 00:00:49.649 align:start position:0%
+Miss except for coherence so we call
+ 
+
+00:00:49.649 --> 00:00:52.310 align:start position:0%
+Miss except for coherence so we call
+this<00:00:49.829><c> type</c><00:00:50.070><c> of</c><00:00:50.100><c> a</c><00:00:50.340><c> miss</c><00:00:50.520><c> coherence</c><00:00:51.120><c> miss</c><00:00:51.329><c> so</c>
+
+00:00:52.310 --> 00:00:52.320 align:start position:0%
+this type of a miss coherence miss so
+ 
+
+00:00:52.320 --> 00:00:54.110 align:start position:0%
+this type of a miss coherence miss so
+remember<00:00:52.770><c> that</c><00:00:52.949><c> there</c><00:00:53.070><c> is</c><00:00:53.100><c> actually</c><00:00:53.489><c> forces</c>
+
+00:00:54.110 --> 00:00:54.120 align:start position:0%
+remember that there is actually forces
+ 
+
+00:00:54.120 --> 00:00:56.560 align:start position:0%
+remember that there is actually forces
+the<00:00:54.870><c> three</c><00:00:55.170><c> we</c><00:00:55.320><c> have</c><00:00:55.500><c> seen</c><00:00:55.739><c> before</c><00:00:55.890><c> and</c>
+
+00:00:56.560 --> 00:00:56.570 align:start position:0%
+the three we have seen before and
+ 
+
+00:00:56.570 --> 00:00:59.240 align:start position:0%
+the three we have seen before and
+coherence<00:00:57.570><c> miss</c><00:00:57.809><c> there</c><00:00:58.590><c> are</c><00:00:58.739><c> really</c><00:00:58.890><c> two</c>
+
+00:00:59.240 --> 00:00:59.250 align:start position:0%
+coherence miss there are really two
+ 
+
+00:00:59.250 --> 00:01:02.240 align:start position:0%
+coherence miss there are really two
+types<00:00:59.280><c> of</c><00:00:59.850><c> coherence</c><00:01:00.420><c> misses</c><00:01:00.949><c> what</c><00:01:01.949><c> we</c><00:01:02.100><c> have</c>
+
+00:01:02.240 --> 00:01:02.250 align:start position:0%
+types of coherence misses what we have
+ 
+
+00:01:02.250 --> 00:01:04.969 align:start position:0%
+types of coherence misses what we have
+seen<00:01:02.460><c> so</c><00:01:02.699><c> far</c><00:01:02.940><c> is</c><00:01:03.180><c> the</c><00:01:03.329><c> true</c><00:01:03.719><c> sharing</c><00:01:04.290><c> type</c><00:01:04.739><c> of</c>
+
+00:01:04.969 --> 00:01:04.979 align:start position:0%
+seen so far is the true sharing type of
+ 
+
+00:01:04.979 --> 00:01:07.880 align:start position:0%
+seen so far is the true sharing type of
+miss<00:01:05.420><c> which</c><00:01:06.420><c> occurs</c><00:01:06.840><c> when</c><00:01:06.960><c> different</c><00:01:07.110><c> cores</c>
+
+00:01:07.880 --> 00:01:07.890 align:start position:0%
+miss which occurs when different cores
+ 
+
+00:01:07.890 --> 00:01:11.840 align:start position:0%
+miss which occurs when different cores
+access<00:01:08.729><c> the</c><00:01:08.909><c> same</c><00:01:09.270><c> data</c><00:01:09.680><c> so</c><00:01:10.680><c> naturally</c><00:01:11.369><c> we</c>
+
+00:01:11.840 --> 00:01:11.850 align:start position:0%
+access the same data so naturally we
+ 
+
+00:01:11.850 --> 00:01:14.660 align:start position:0%
+access the same data so naturally we
+have<00:01:12.119><c> to</c><00:01:12.330><c> perform</c><00:01:12.540><c> coherence</c><00:01:13.439><c> and</c><00:01:13.650><c> thus</c><00:01:14.369><c> have</c>
+
+00:01:14.660 --> 00:01:14.670 align:start position:0%
+have to perform coherence and thus have
+ 
+
+00:01:14.670 --> 00:01:17.149 align:start position:0%
+have to perform coherence and thus have
+some<00:01:14.880><c> misses</c><00:01:15.240><c> so</c><00:01:15.720><c> for</c><00:01:15.900><c> example</c><00:01:16.320><c> if</c><00:01:16.560><c> we</c><00:01:16.740><c> read</c><00:01:16.979><c> a</c>
+
+00:01:17.149 --> 00:01:17.159 align:start position:0%
+some misses so for example if we read a
+ 
+
+00:01:17.159 --> 00:01:19.609 align:start position:0%
+some misses so for example if we read a
+and<00:01:17.400><c> then</c><00:01:17.939><c> write</c><00:01:18.210><c> a</c><00:01:18.240><c> and</c><00:01:18.689><c> then</c><00:01:18.900><c> read</c><00:01:19.110><c> a</c><00:01:19.290><c> again</c>
+
+00:01:19.609 --> 00:01:19.619 align:start position:0%
+and then write a and then read a again
+ 
+
+00:01:19.619 --> 00:01:21.890 align:start position:0%
+and then write a and then read a again
+there<00:01:20.340><c> are</c><00:01:20.460><c> some</c><00:01:20.670><c> misses</c><00:01:21.060><c> necessary</c><00:01:21.600><c> in</c><00:01:21.780><c> order</c>
+
+00:01:21.890 --> 00:01:21.900 align:start position:0%
+there are some misses necessary in order
+ 
+
+00:01:21.900 --> 00:01:23.929 align:start position:0%
+there are some misses necessary in order
+to<00:01:22.049><c> get</c><00:01:22.380><c> the</c><00:01:22.590><c> right</c><00:01:22.770><c> behavior</c><00:01:23.310><c> for</c><00:01:23.610><c> the</c><00:01:23.729><c> reads</c>
+
+00:01:23.929 --> 00:01:23.939 align:start position:0%
+to get the right behavior for the reads
+ 
+
+00:01:23.939 --> 00:01:26.749 align:start position:0%
+to get the right behavior for the reads
+but<00:01:24.689><c> these</c><00:01:24.900><c> were</c><00:01:25.080><c> all</c><00:01:25.140><c> happening</c><00:01:25.860><c> on</c><00:01:26.040><c> the</c><00:01:26.520><c> same</c>
+
+00:01:26.749 --> 00:01:26.759 align:start position:0%
+but these were all happening on the same
+ 
+
+00:01:26.759 --> 00:01:30.020 align:start position:0%
+but these were all happening on the same
+data<00:01:27.119><c> there</c><00:01:28.049><c> is</c><00:01:28.080><c> another</c><00:01:28.650><c> type</c><00:01:29.070><c> of</c><00:01:29.100><c> coherence</c>
+
+00:01:30.020 --> 00:01:30.030 align:start position:0%
+data there is another type of coherence
+ 
+
+00:01:30.030 --> 00:01:33.800 align:start position:0%
+data there is another type of coherence
+miss<00:01:30.270><c> called</c><00:01:31.259><c> false</c><00:01:31.680><c> sharing</c><00:01:32.420><c> which</c><00:01:33.420><c> occurs</c>
+
+00:01:33.800 --> 00:01:33.810 align:start position:0%
+miss called false sharing which occurs
+ 
+
+00:01:33.810 --> 00:01:36.260 align:start position:0%
+miss called false sharing which occurs
+when<00:01:34.110><c> different</c><00:01:34.140><c> cores</c><00:01:34.860><c> access</c><00:01:35.460><c> different</c>
+
+00:01:36.260 --> 00:01:36.270 align:start position:0%
+when different cores access different
+ 
+
+00:01:36.270 --> 00:01:39.020 align:start position:0%
+when different cores access different
+data<00:01:36.509><c> so</c><00:01:37.320><c> there</c><00:01:37.530><c> shouldn't</c><00:01:37.860><c> be</c><00:01:38.100><c> any</c><00:01:38.220><c> coherence</c>
+
+00:01:39.020 --> 00:01:39.030 align:start position:0%
+data so there shouldn't be any coherence
+ 
+
+00:01:39.030 --> 00:01:41.690 align:start position:0%
+data so there shouldn't be any coherence
+messages<00:01:39.689><c> because</c><00:01:40.049><c> of</c><00:01:40.200><c> that</c><00:01:40.490><c> except</c><00:01:41.490><c> that</c>
+
+00:01:41.690 --> 00:01:41.700 align:start position:0%
+messages because of that except that
+ 
+
+00:01:41.700 --> 00:01:44.050 align:start position:0%
+messages because of that except that
+these<00:01:41.880><c> data</c><00:01:42.180><c> items</c><00:01:42.420><c> are</c><00:01:42.990><c> in</c><00:01:43.290><c> the</c><00:01:43.439><c> same</c><00:01:43.740><c> block</c>
+
+00:01:44.050 --> 00:01:44.060 align:start position:0%
+these data items are in the same block
+ 
+
+00:01:44.060 --> 00:01:46.550 align:start position:0%
+these data items are in the same block
+so<00:01:45.060><c> it's</c><00:01:45.180><c> called</c><00:01:45.420><c> false</c><00:01:45.750><c> sharing</c><00:01:46.079><c> because</c>
+
+00:01:46.550 --> 00:01:46.560 align:start position:0%
+so it's called false sharing because
+ 
+
+00:01:46.560 --> 00:01:48.830 align:start position:0%
+so it's called false sharing because
+really<00:01:46.740><c> there</c><00:01:46.950><c> is</c><00:01:47.070><c> no</c><00:01:47.250><c> true</c><00:01:47.520><c> data</c><00:01:47.759><c> sharing</c><00:01:48.149><c> but</c>
+
+00:01:48.830 --> 00:01:48.840 align:start position:0%
+really there is no true data sharing but
+ 
+
+00:01:48.840 --> 00:01:51.710 align:start position:0%
+really there is no true data sharing but
+as<00:01:49.049><c> far</c><00:01:49.290><c> as</c><00:01:49.320><c> coherence</c><00:01:50.040><c> is</c><00:01:50.189><c> concerned</c><00:01:50.729><c> we</c><00:01:51.540><c> do</c>
+
+00:01:51.710 --> 00:01:51.720 align:start position:0%
+as far as coherence is concerned we do
+ 
+
+00:01:51.720 --> 00:01:53.569 align:start position:0%
+as far as coherence is concerned we do
+everything<00:01:52.020><c> at</c><00:01:52.320><c> the</c><00:01:52.350><c> ground</c><00:01:52.680><c> of</c><00:01:52.920><c> cache</c><00:01:53.189><c> blocks</c>
+
+00:01:53.569 --> 00:01:53.579 align:start position:0%
+everything at the ground of cache blocks
+ 
+
+00:01:53.579 --> 00:01:56.109 align:start position:0%
+everything at the ground of cache blocks
+so<00:01:54.270><c> two</c><00:01:54.450><c> items</c><00:01:54.810><c> being</c><00:01:55.020><c> in</c><00:01:55.200><c> the</c><00:01:55.290><c> same</c><00:01:55.530><c> block</c>
+
+00:01:56.109 --> 00:01:56.119 align:start position:0%
+so two items being in the same block
+ 
+
+00:01:56.119 --> 00:01:58.999 align:start position:0%
+so two items being in the same block
+makes<00:01:57.119><c> them</c><00:01:57.360><c> behave</c><00:01:57.509><c> like</c><00:01:57.899><c> the</c><00:01:58.079><c> same</c><00:01:58.380><c> item</c><00:01:58.829><c> as</c>
+
+00:01:58.999 --> 00:01:59.009 align:start position:0%
+makes them behave like the same item as
+ 
+
+00:01:59.009 --> 00:02:02.420 align:start position:0%
+makes them behave like the same item as
+far<00:01:59.219><c> as</c><00:01:59.340><c> coherence</c><00:01:59.820><c> is</c><00:01:59.939><c> concerned</c>
+

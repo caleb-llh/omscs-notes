@@ -1,0 +1,40 @@
+1
+00:00:00,400 --> 00:00:03,090
+ Let's quickly check that you remember the definition of power
+
+2
+00:00:03,090 --> 00:00:05,810
+ as it relates to energy and time.
+
+3
+00:00:05,810 --> 00:00:10,470
+ Consider two systems, A and B, each one is characterized by its execution
+
+4
+00:00:10,470 --> 00:00:14,740
+ time to do the same computation as well as its execution energy.
+
+5
+00:00:14,740 --> 00:00:20,900
+ Now, suppose A uses less energy than B, but B takes less time than A.
+
+6
+00:00:20,900 --> 00:00:23,900
+ If it helps, let's visualize this relationship.
+
+7
+00:00:23,900 --> 00:00:29,360
+ This is an energy time phase diagram, and here's system A and here's system B.
+
+8
+00:00:29,360 --> 00:00:33,940
+ Here's my question, which system has lower average power, A or B?
+
+9
+00:00:33,940 --> 00:00:38,150
+ If you think they have the same average power then check them both.
+
+10
+00:00:38,150 --> 00:00:38,150
+ Or if you think there's not enough information to tell, then check neither.
+

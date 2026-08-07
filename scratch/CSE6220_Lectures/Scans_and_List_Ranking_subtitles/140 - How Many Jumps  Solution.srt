@@ -1,0 +1,16 @@
+1
+00:00:00,410 --> 00:00:02,028
+ The answer is log n.
+
+2
+00:00:02,028 --> 00:00:04,606
+ The maximum list length is n nodes.
+
+3
+00:00:04,606 --> 00:00:08,820
+ And a jump step reduces the list into roughly two sub lists.
+
+4
+00:00:08,820 --> 00:00:08,820
+ Therefore should be a logarithmic number of jump steps.
+

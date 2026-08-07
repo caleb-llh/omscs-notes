@@ -1,0 +1,456 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:02.310 align:start position:0%
+ 
+let's<00:00:00.359><c> look</c><00:00:00.520><c> at</c><00:00:00.640><c> the</c><00:00:00.880><c> solution</c><00:00:01.520><c> to</c><00:00:01.719><c> our</c><00:00:01.880><c> memory</c>
+
+00:00:02.310 --> 00:00:02.320 align:start position:0%
+let's look at the solution to our memory
+ 
+
+00:00:02.320 --> 00:00:06.110 align:start position:0%
+let's look at the solution to our memory
+refresh<00:00:02.919><c> quiz</c><00:00:03.919><c> we</c><00:00:04.080><c> have</c><00:00:04.200><c> a</c><00:00:04.359><c> memory</c><00:00:04.720><c> with</c><00:00:05.120><c> 4,096</c>
+
+00:00:06.110 --> 00:00:06.120 align:start position:0%
+refresh quiz we have a memory with 4,096
+ 
+
+00:00:06.120 --> 00:00:08.870 align:start position:0%
+refresh quiz we have a memory with 4,096
+rows<00:00:06.839><c> and</c><00:00:07.040><c> this</c><00:00:07.240><c> many</c><00:00:07.520><c> columns</c><00:00:08.360><c> it</c><00:00:08.519><c> needs</c><00:00:08.760><c> to</c>
+
+00:00:08.870 --> 00:00:08.880 align:start position:0%
+rows and this many columns it needs to
+ 
+
+00:00:08.880 --> 00:00:12.030 align:start position:0%
+rows and this many columns it needs to
+be<00:00:09.040><c> refreshed</c><00:00:09.599><c> every</c><00:00:09.920><c> 500</c><00:00:10.759><c> microc</c><00:00:11.759><c> and</c><00:00:11.920><c> this</c>
+
+00:00:12.030 --> 00:00:12.040 align:start position:0%
+be refreshed every 500 microc and this
+ 
+
+00:00:12.040 --> 00:00:15.430 align:start position:0%
+be refreshed every 500 microc and this
+is<00:00:12.200><c> a</c><00:00:12.400><c> read</c><00:00:12.960><c> timing</c><00:00:13.960><c> where</c><00:00:14.719><c> these</c><00:00:14.920><c> two</c><00:00:15.120><c> steps</c>
+
+00:00:15.430 --> 00:00:15.440 align:start position:0%
+is a read timing where these two steps
+ 
+
+00:00:15.440 --> 00:00:18.870 align:start position:0%
+is a read timing where these two steps
+and<00:00:15.679><c> this</c><00:00:15.799><c> one</c><00:00:16.760><c> overlap</c><00:00:17.760><c> so</c><00:00:18.080><c> basically</c><00:00:18.720><c> it</c>
+
+00:00:18.870 --> 00:00:18.880 align:start position:0%
+and this one overlap so basically it
+ 
+
+00:00:18.880 --> 00:00:21.109 align:start position:0%
+and this one overlap so basically it
+takes<00:00:19.160><c> us</c><00:00:19.600><c> 4</c><00:00:20.160><c> +</c>
+
+00:00:21.109 --> 00:00:21.119 align:start position:0%
+takes us 4 +
+ 
+
+00:00:21.119 --> 00:00:26.710 align:start position:0%
+takes us 4 +
+10<00:00:22.119><c> plus</c><00:00:22.880><c> either</c><00:00:23.160><c> 11</c><00:00:23.720><c> or</c><00:00:24.000><c> 2</c><00:00:24.240><c> +</c><00:00:24.599><c> 4</c><00:00:25.599><c> Nan</c><00:00:26.119><c> seconds</c>
+
+00:00:26.710 --> 00:00:26.720 align:start position:0%
+10 plus either 11 or 2 + 4 Nan seconds
+ 
+
+00:00:26.720 --> 00:00:28.870 align:start position:0%
+10 plus either 11 or 2 + 4 Nan seconds
+before<00:00:27.400><c> we</c><00:00:27.599><c> complete</c><00:00:28.000><c> one</c><00:00:28.199><c> read</c><00:00:28.519><c> and</c><00:00:28.679><c> can</c>
+
+00:00:28.870 --> 00:00:28.880 align:start position:0%
+before we complete one read and can
+ 
+
+00:00:28.880 --> 00:00:31.429 align:start position:0%
+before we complete one read and can
+proceed<00:00:29.240><c> with</c><00:00:29.400><c> the</c><00:00:29.519><c> next</c><00:00:29.759><c> one</c>
+
+00:00:31.429 --> 00:00:31.439 align:start position:0%
+proceed with the next one
+ 
+
+00:00:31.439 --> 00:00:35.549 align:start position:0%
+proceed with the next one
+because<00:00:31.720><c> 2</c><00:00:31.920><c> +</c><00:00:32.160><c> 4</c><00:00:32.439><c> is</c><00:00:32.559><c> 6</c><00:00:33.200><c> and</c><00:00:33.480><c> 11</c><00:00:34.079><c> nond</c><00:00:34.800><c> is</c><00:00:34.960><c> longer</c>
+
+00:00:35.549 --> 00:00:35.559 align:start position:0%
+because 2 + 4 is 6 and 11 nond is longer
+ 
+
+00:00:35.559 --> 00:00:38.270 align:start position:0%
+because 2 + 4 is 6 and 11 nond is longer
+that<00:00:35.680><c> means</c><00:00:35.960><c> that</c><00:00:36.360><c> really</c><00:00:37.360><c> the</c><00:00:37.559><c> timing</c><00:00:37.960><c> for</c><00:00:38.120><c> a</c>
+
+00:00:38.270 --> 00:00:38.280 align:start position:0%
+that means that really the timing for a
+ 
+
+00:00:38.280 --> 00:00:40.389 align:start position:0%
+that means that really the timing for a
+read<00:00:38.559><c> will</c><00:00:38.680><c> be</c><00:00:38.840><c> to</c><00:00:39.000><c> select</c><00:00:39.399><c> the</c>
+
+00:00:40.389 --> 00:00:40.399 align:start position:0%
+read will be to select the
+ 
+
+00:00:40.399 --> 00:00:43.790 align:start position:0%
+read will be to select the
+row<00:00:41.399><c> so</c><00:00:41.559><c> we</c><00:00:41.680><c> need</c><00:00:41.840><c> to</c><00:00:42.039><c> select</c><00:00:42.360><c> a</c><00:00:42.559><c> row</c><00:00:43.360><c> get</c><00:00:43.559><c> the</c>
+
+00:00:43.790 --> 00:00:43.800 align:start position:0%
+row so we need to select a row get the
+ 
+
+00:00:43.800 --> 00:00:45.470 align:start position:0%
+row so we need to select a row get the
+values<00:00:44.160><c> from</c><00:00:44.360><c> the</c><00:00:44.520><c> row</c><00:00:44.800><c> and</c><00:00:44.920><c> then</c><00:00:45.079><c> write</c><00:00:45.320><c> the</c>
+
+00:00:45.470 --> 00:00:45.480 align:start position:0%
+values from the row and then write the
+ 
+
+00:00:45.480 --> 00:00:47.709 align:start position:0%
+values from the row and then write the
+data<00:00:45.760><c> back</c><00:00:46.320><c> during</c><00:00:46.719><c> this</c><00:00:46.920><c> time</c><00:00:47.120><c> the</c><00:00:47.239><c> row</c><00:00:47.520><c> needs</c>
+
+00:00:47.709 --> 00:00:47.719 align:start position:0%
+data back during this time the row needs
+ 
+
+00:00:47.719 --> 00:00:50.189 align:start position:0%
+data back during this time the row needs
+to<00:00:48.000><c> remain</c><00:00:48.280><c> selected</c><00:00:49.280><c> so</c><00:00:49.520><c> the</c><00:00:49.640><c> new</c><00:00:49.879><c> read</c>
+
+00:00:50.189 --> 00:00:50.199 align:start position:0%
+to remain selected so the new read
+ 
+
+00:00:50.199 --> 00:00:53.349 align:start position:0%
+to remain selected so the new read
+really<00:00:50.440><c> cannot</c><00:00:50.879><c> begin</c><00:00:51.360><c> until</c><00:00:51.800><c> 4</c><00:00:52.199><c> +</c><00:00:52.480><c> 10</c><00:00:52.719><c> +</c><00:00:53.000><c> 11</c>
+
+00:00:53.349 --> 00:00:53.359 align:start position:0%
+really cannot begin until 4 + 10 + 11
+ 
+
+00:00:53.359 --> 00:00:58.709 align:start position:0%
+really cannot begin until 4 + 10 + 11
+NCS<00:00:54.079><c> into</c><00:00:54.359><c> it</c><00:00:54.879><c> so</c><00:00:55.079><c> the</c><00:00:55.239><c> read</c><00:00:56.199><c> takes</c><00:00:56.920><c> 25</c>
+
+00:00:58.709 --> 00:00:58.719 align:start position:0%
+NCS into it so the read takes 25
+ 
+
+00:00:58.719 --> 00:01:01.590 align:start position:0%
+NCS into it so the read takes 25
+NS<00:00:59.719><c> and</c><00:01:00.079><c> that</c><00:01:00.199><c> means</c><00:01:00.440><c> we</c><00:01:00.559><c> could</c><00:01:00.719><c> be</c><00:01:00.879><c> doing</c><00:01:01.199><c> 40</c>
+
+00:01:01.590 --> 00:01:01.600 align:start position:0%
+NS and that means we could be doing 40
+ 
+
+00:01:01.600 --> 00:01:04.509 align:start position:0%
+NS and that means we could be doing 40
+million<00:01:01.960><c> reads</c><00:01:02.320><c> per</c><00:01:02.640><c> second</c><00:01:03.640><c> if</c><00:01:04.000><c> all</c><00:01:04.199><c> we</c><00:01:04.400><c> had</c>
+
+00:01:04.509 --> 00:01:04.519 align:start position:0%
+million reads per second if all we had
+ 
+
+00:01:04.519 --> 00:01:07.310 align:start position:0%
+million reads per second if all we had
+to<00:01:04.680><c> do</c><00:01:04.839><c> is</c><00:01:04.960><c> do</c><00:01:05.240><c> reads</c><00:01:06.240><c> and</c><00:01:06.520><c> this</c><00:01:06.640><c> is</c><00:01:06.880><c> where</c><00:01:07.119><c> it</c>
+
+00:01:07.310 --> 00:01:07.320 align:start position:0%
+to do is do reads and this is where it
+ 
+
+00:01:07.320 --> 00:01:10.710 align:start position:0%
+to do is do reads and this is where it
+becomes<00:01:07.640><c> tricky</c><00:01:08.640><c> because</c><00:01:09.520><c> during</c><00:01:09.920><c> a</c><00:01:10.159><c> second</c>
+
+00:01:10.710 --> 00:01:10.720 align:start position:0%
+becomes tricky because during a second
+ 
+
+00:01:10.720 --> 00:01:13.910 align:start position:0%
+becomes tricky because during a second
+we<00:01:10.880><c> need</c><00:01:11.080><c> to</c><00:01:11.240><c> do</c><00:01:11.520><c> a</c><00:01:11.720><c> number</c><00:01:12.040><c> of</c><00:01:12.759><c> refreshes</c><00:01:13.759><c> the</c>
+
+00:01:13.910 --> 00:01:13.920 align:start position:0%
+we need to do a number of refreshes the
+ 
+
+00:01:13.920 --> 00:01:17.710 align:start position:0%
+we need to do a number of refreshes the
+refresh<00:01:14.400><c> period</c><00:01:14.759><c> is</c><00:01:15.200><c> 500</c><00:01:15.960><c> microc</c><00:01:16.520><c> seconds</c><00:01:17.520><c> so</c>
+
+00:01:17.710 --> 00:01:17.720 align:start position:0%
+refresh period is 500 microc seconds so
+ 
+
+00:01:17.720 --> 00:01:20.109 align:start position:0%
+refresh period is 500 microc seconds so
+the<00:01:17.880><c> number</c><00:01:18.159><c> of</c><00:01:18.360><c> refreshes</c><00:01:18.960><c> we</c><00:01:19.119><c> have</c><00:01:19.240><c> to</c><00:01:19.400><c> do</c><00:01:19.759><c> is</c>
+
+00:01:20.109 --> 00:01:20.119 align:start position:0%
+the number of refreshes we have to do is
+ 
+
+00:01:20.119 --> 00:01:23.950 align:start position:0%
+the number of refreshes we have to do is
+2,000<00:01:21.000><c> times</c><00:01:21.439><c> per</c><00:01:21.759><c> second</c><00:01:22.759><c> we</c><00:01:22.960><c> need</c><00:01:23.200><c> to</c><00:01:23.360><c> do</c><00:01:23.680><c> a</c>
+
+00:01:23.950 --> 00:01:23.960 align:start position:0%
+2,000 times per second we need to do a
+ 
+
+00:01:23.960 --> 00:01:26.910 align:start position:0%
+2,000 times per second we need to do a
+refresh<00:01:24.560><c> of</c><00:01:24.799><c> each</c><00:01:25.040><c> of</c><00:01:25.159><c> the</c><00:01:25.320><c> rows</c><00:01:26.240><c> to</c><00:01:26.439><c> do</c><00:01:26.720><c> that</c>
+
+00:01:26.910 --> 00:01:26.920 align:start position:0%
+refresh of each of the rows to do that
+ 
+
+00:01:26.920 --> 00:01:29.350 align:start position:0%
+refresh of each of the rows to do that
+the<00:01:27.079><c> row</c><00:01:27.360><c> needs</c><00:01:27.600><c> to</c><00:01:27.720><c> be</c><00:01:27.920><c> selected</c><00:01:28.920><c> we</c><00:01:29.040><c> need</c><00:01:29.200><c> to</c>
+
+00:01:29.350 --> 00:01:29.360 align:start position:0%
+the row needs to be selected we need to
+ 
+
+00:01:29.360 --> 00:01:31.749 align:start position:0%
+the row needs to be selected we need to
+get<00:01:29.520><c> the</c><00:01:29.640><c> bit</c><00:01:30.040><c> value</c><00:01:30.360><c> and</c><00:01:30.560><c> write</c><00:01:30.799><c> it</c><00:01:31.079><c> back</c><00:01:31.600><c> so</c>
+
+00:01:31.749 --> 00:01:31.759 align:start position:0%
+get the bit value and write it back so
+ 
+
+00:01:31.759 --> 00:01:33.710 align:start position:0%
+get the bit value and write it back so
+it<00:01:31.920><c> takes</c><00:01:32.200><c> the</c><00:01:32.360><c> same</c><00:01:32.640><c> time</c><00:01:32.840><c> to</c><00:01:33.000><c> do</c><00:01:33.119><c> a</c><00:01:33.280><c> refresh</c>
+
+00:01:33.710 --> 00:01:33.720 align:start position:0%
+it takes the same time to do a refresh
+ 
+
+00:01:33.720 --> 00:01:37.270 align:start position:0%
+it takes the same time to do a refresh
+of<00:01:33.840><c> the</c><00:01:33.960><c> row</c><00:01:34.399><c> as</c><00:01:34.560><c> it</c><00:01:34.840><c> takes</c><00:01:35.240><c> to</c><00:01:35.479><c> do</c><00:01:35.640><c> a</c><00:01:36.280><c> read</c>
+
+00:01:37.270 --> 00:01:37.280 align:start position:0%
+of the row as it takes to do a read
+ 
+
+00:01:37.280 --> 00:01:38.990 align:start position:0%
+of the row as it takes to do a read
+meanwhile<00:01:37.720><c> our</c><00:01:37.920><c> memory</c><00:01:38.240><c> cannot</c><00:01:38.520><c> be</c><00:01:38.640><c> doing</c><00:01:38.840><c> the</c>
+
+00:01:38.990 --> 00:01:39.000 align:start position:0%
+meanwhile our memory cannot be doing the
+ 
+
+00:01:39.000 --> 00:01:45.190 align:start position:0%
+meanwhile our memory cannot be doing the
+read<00:01:39.880><c> so</c><00:01:40.159><c> really</c><00:01:40.479><c> we</c><00:01:40.600><c> are</c><00:01:40.960><c> spending</c><00:01:42.439><c> 2,000</c><00:01:43.439><c> *</c>
+
+00:01:45.190 --> 00:01:45.200 align:start position:0%
+read so really we are spending 2,000 *
+ 
+
+00:01:45.200 --> 00:01:50.350 align:start position:0%
+read so really we are spending 2,000 *
+496<00:01:46.200><c> time</c><00:01:46.560><c> 25</c><00:01:47.360><c> NS</c><00:01:48.200><c> on</c><00:01:48.880><c> refreshes</c><00:01:49.880><c> but</c><00:01:50.119><c> because</c>
+
+00:01:50.350 --> 00:01:50.360 align:start position:0%
+496 time 25 NS on refreshes but because
+ 
+
+00:01:50.360 --> 00:01:52.870 align:start position:0%
+496 time 25 NS on refreshes but because
+they<00:01:50.520><c> have</c><00:01:50.680><c> the</c><00:01:50.840><c> same</c><00:01:51.200><c> timing</c><00:01:51.560><c> as</c><00:01:51.759><c> reads</c><00:01:52.759><c> we</c>
+
+00:01:52.870 --> 00:01:52.880 align:start position:0%
+they have the same timing as reads we
+ 
+
+00:01:52.880 --> 00:01:54.990 align:start position:0%
+they have the same timing as reads we
+can<00:01:53.079><c> just</c><00:01:53.280><c> compute</c><00:01:53.719><c> how</c><00:01:53.960><c> many</c><00:01:54.280><c> refreshes</c><00:01:54.840><c> we</c>
+
+00:01:54.990 --> 00:01:55.000 align:start position:0%
+can just compute how many refreshes we
+ 
+
+00:01:55.000 --> 00:01:57.630 align:start position:0%
+can just compute how many refreshes we
+have<00:01:55.200><c> per</c><00:01:55.399><c> second</c><00:01:56.079><c> and</c><00:01:56.240><c> we</c><00:01:56.360><c> end</c><00:01:56.560><c> up</c><00:01:56.759><c> with</c><00:01:56.880><c> 8.1</c>
+
+00:01:57.630 --> 00:01:57.640 align:start position:0%
+have per second and we end up with 8.1
+ 
+
+00:01:57.640 --> 00:02:00.469 align:start position:0%
+have per second and we end up with 8.1
+192<00:01:58.039><c> million</c><00:01:58.439><c> refreshes</c><00:01:59.079><c> per</c><00:01:59.320><c> second</c><00:02:00.200><c> and</c>
+
+00:02:00.469 --> 00:02:00.479 align:start position:0%
+192 million refreshes per second and
+ 
+
+00:02:00.479 --> 00:02:02.510 align:start position:0%
+192 million refreshes per second and
+that<00:02:00.680><c> means</c><00:02:01.039><c> that</c><00:02:01.200><c> we</c><00:02:01.360><c> cannot</c><00:02:01.680><c> do</c><00:02:01.880><c> all</c><00:02:02.119><c> 40</c>
+
+00:02:02.510 --> 00:02:02.520 align:start position:0%
+that means that we cannot do all 40
+ 
+
+00:02:02.520 --> 00:02:06.270 align:start position:0%
+that means that we cannot do all 40
+million<00:02:02.880><c> reads</c><00:02:03.680><c> pretty</c><00:02:03.960><c> much</c><00:02:04.520><c> out</c><00:02:04.719><c> of</c><00:02:05.280><c> these</c>
+
+00:02:06.270 --> 00:02:06.280 align:start position:0%
+million reads pretty much out of these
+ 
+
+00:02:06.280 --> 00:02:08.430 align:start position:0%
+million reads pretty much out of these
+really<00:02:07.200><c> this</c><00:02:07.360><c> was</c><00:02:07.600><c> assuming</c><00:02:08.000><c> that</c><00:02:08.119><c> we</c><00:02:08.239><c> don't</c>
+
+00:02:08.430 --> 00:02:08.440 align:start position:0%
+really this was assuming that we don't
+ 
+
+00:02:08.440 --> 00:02:10.270 align:start position:0%
+really this was assuming that we don't
+do<00:02:08.599><c> refreshes</c><00:02:09.239><c> so</c><00:02:09.479><c> because</c><00:02:09.759><c> we</c><00:02:09.879><c> have</c><00:02:10.000><c> to</c><00:02:10.119><c> do</c>
+
+00:02:10.270 --> 00:02:10.280 align:start position:0%
+do refreshes so because we have to do
+ 
+
+00:02:10.280 --> 00:02:12.630 align:start position:0%
+do refreshes so because we have to do
+eight<00:02:10.479><c> and</c><00:02:10.679><c> change</c><00:02:11.000><c> million</c><00:02:11.440><c> refreshes</c><00:02:12.440><c> we</c>
+
+00:02:12.630 --> 00:02:12.640 align:start position:0%
+eight and change million refreshes we
+ 
+
+00:02:12.640 --> 00:02:16.750 align:start position:0%
+eight and change million refreshes we
+have<00:02:13.120><c> that</c><00:02:13.440><c> many</c><00:02:13.959><c> less</c><00:02:14.760><c> reads</c><00:02:15.160><c> that</c><00:02:15.319><c> we</c><00:02:15.400><c> can</c><00:02:15.760><c> do</c>
+
+00:02:16.750 --> 00:02:16.760 align:start position:0%
+have that many less reads that we can do
+ 
+
+00:02:16.760 --> 00:02:19.229 align:start position:0%
+have that many less reads that we can do
+so<00:02:17.040><c> the</c><00:02:17.239><c> overall</c><00:02:17.840><c> result</c><00:02:18.319><c> here</c><00:02:18.879><c> is</c><00:02:19.080><c> the</c>
+
+00:02:19.229 --> 00:02:19.239 align:start position:0%
+so the overall result here is the
+ 
+
+00:02:19.239 --> 00:02:21.670 align:start position:0%
+so the overall result here is the
+difference<00:02:19.640><c> between</c><00:02:19.959><c> the</c><00:02:20.080><c> two</c><00:02:20.480><c> that's</c><00:02:21.480><c> how</c>
+
+00:02:21.670 --> 00:02:21.680 align:start position:0%
+difference between the two that's how
+ 
+
+00:02:21.680 --> 00:02:24.110 align:start position:0%
+difference between the two that's how
+many<00:02:21.920><c> reads</c><00:02:22.280><c> do</c><00:02:22.400><c> we</c><00:02:22.560><c> have</c><00:02:22.800><c> left</c><00:02:23.480><c> after</c><00:02:23.760><c> we</c><00:02:23.959><c> have</c>
+
+00:02:24.110 --> 00:02:24.120 align:start position:0%
+many reads do we have left after we have
+ 
+
+00:02:24.120 --> 00:02:27.270 align:start position:0%
+many reads do we have left after we have
+spent<00:02:24.480><c> time</c><00:02:24.800><c> on</c><00:02:25.000><c> eight</c><00:02:25.360><c> and</c><00:02:25.519><c> change</c><00:02:25.959><c> million</c>
+
+00:02:27.270 --> 00:02:27.280 align:start position:0%
+spent time on eight and change million
+ 
+
+00:02:27.280 --> 00:02:29.670 align:start position:0%
+spent time on eight and change million
+refreshes<00:02:28.280><c> so</c><00:02:28.480><c> the</c><00:02:28.640><c> final</c><00:02:29.000><c> answer</c><00:02:29.400><c> here</c><00:02:29.560><c> is</c>
+
+00:02:29.670 --> 00:02:29.680 align:start position:0%
+refreshes so the final answer here is
+ 
+
+00:02:29.680 --> 00:02:32.229 align:start position:0%
+refreshes so the final answer here is
+the<00:02:30.040><c> difference</c><00:02:30.360><c> between</c><00:02:30.720><c> these</c><00:02:31.120><c> which</c><00:02:31.280><c> is</c><00:02:31.599><c> 31</c>
+
+00:02:32.229 --> 00:02:32.239 align:start position:0%
+the difference between these which is 31
+ 
+
+00:02:32.239 --> 00:02:34.589 align:start position:0%
+the difference between these which is 31
+mil
+
+00:02:34.589 --> 00:02:34.599 align:start position:0%
+mil
+ 
+
+00:02:34.599 --> 00:02:38.229 align:start position:0%
+mil
+88,000<00:02:35.599><c> reads</c><00:02:36.040><c> per</c><00:02:36.319><c> second</c><00:02:37.040><c> so</c><00:02:37.319><c> again</c><00:02:37.720><c> without</c>
+
+00:02:38.229 --> 00:02:38.239 align:start position:0%
+88,000 reads per second so again without
+ 
+
+00:02:38.239 --> 00:02:40.149 align:start position:0%
+88,000 reads per second so again without
+refreshes<00:02:38.840><c> we</c><00:02:38.959><c> would</c><00:02:39.120><c> be</c><00:02:39.239><c> able</c><00:02:39.440><c> to</c><00:02:39.560><c> do</c><00:02:39.760><c> 40</c>
+
+00:02:40.149 --> 00:02:40.159 align:start position:0%
+refreshes we would be able to do 40
+ 
+
+00:02:40.159 --> 00:02:42.309 align:start position:0%
+refreshes we would be able to do 40
+million<00:02:40.920><c> but</c><00:02:41.080><c> because</c><00:02:41.360><c> refreshes</c><00:02:41.879><c> need</c><00:02:42.080><c> to</c>
+
+00:02:42.309 --> 00:02:42.319 align:start position:0%
+million but because refreshes need to
+ 
+
+00:02:42.319 --> 00:02:45.350 align:start position:0%
+million but because refreshes need to
+happen<00:02:43.120><c> we</c><00:02:43.280><c> only</c><00:02:43.680><c> have</c><00:02:44.080><c> this</c><00:02:44.280><c> many</c><00:02:44.560><c> reads</c><00:02:45.040><c> left</c>
+
+00:02:45.350 --> 00:02:45.360 align:start position:0%
+happen we only have this many reads left
+ 
+
+00:02:45.360 --> 00:02:48.680 align:start position:0%
+happen we only have this many reads left
+in<00:02:45.480><c> a</c><00:02:45.680><c> second</c>
+

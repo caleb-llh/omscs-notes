@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:01,051
+ Here's the answer.
+
+2
+00:00:01,051 --> 00:00:04,184
+ The only place where you have consecutive heads is at the end of
+
+3
+00:00:04,184 --> 00:00:04,734
+ the list.
+
+4
+00:00:04,734 --> 00:00:08,443
+ The only tricky bit to remember is that you have to run the test for
+
+5
+00:00:08,443 --> 00:00:11,822
+ double heads at every node in the vertex simultaneously.
+
+6
+00:00:11,822 --> 00:00:15,382
+ So, both 5 and 6 will detect double heads.
+
+7
+00:00:15,382 --> 00:00:19,426
+ Therefore, both 5 and 6 will flip to tails.
+
+8
+00:00:19,426 --> 00:00:22,329
+ That leaves just three nodes with heads.
+
+9
+00:00:22,329 --> 00:00:22,329
+ Hence, the answer of 1, 4 and 8.
+

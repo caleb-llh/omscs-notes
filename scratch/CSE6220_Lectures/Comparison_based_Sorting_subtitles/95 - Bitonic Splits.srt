@@ -1,0 +1,152 @@
+1
+00:00:00,300 --> 00:00:03,040
+ Recall the definition of a Bitonic sequence.
+
+2
+00:00:03,040 --> 00:00:07,360
+ I claim that once the sequence is Bitonic, it's easy to sort.
+
+3
+00:00:07,360 --> 00:00:08,510
+ Let's see how.
+
+4
+00:00:08,510 --> 00:00:13,430
+ First, let's conceptually divide this Bitonic sequence into its two halves.
+
+5
+00:00:13,430 --> 00:00:16,329
+ That is, the half that goes up, and the half that goes down.
+
+6
+00:00:16,329 --> 00:00:19,100
+ For simplicity, let's assume that this division happens in the middle,
+
+7
+00:00:19,100 --> 00:00:21,140
+ though it doesn't have to in general.
+
+8
+00:00:21,140 --> 00:00:22,860
+ In a moment, you'll see why.
+
+9
+00:00:22,860 --> 00:00:24,570
+ Now after this logical splitting,
+
+10
+00:00:24,570 --> 00:00:29,220
+ let's pair elements of one sub-sequence with elements of the other.
+
+11
+00:00:29,220 --> 00:00:33,910
+ Let's start by pairing the first element in each sub-sequence.
+
+12
+00:00:33,910 --> 00:00:39,280
+ Then pair the second elements of each half, and so on.
+
+13
+00:00:39,280 --> 00:00:41,030
+ Now, so you can better see what just happened,
+
+14
+00:00:41,030 --> 00:00:44,360
+ let me reorganize the elements by pair.
+
+15
+00:00:44,360 --> 00:00:46,330
+ So the pairs are together now.
+
+16
+00:00:46,330 --> 00:00:48,330
+ Here's a question for you.
+
+17
+00:00:48,330 --> 00:00:52,542
+ What if for each pair you are to take, say, the smallest element?
+
+18
+00:00:52,542 --> 00:00:55,900
+ That would be the same as taking the min of each pair.
+
+19
+00:00:55,900 --> 00:00:58,270
+ What do you notice about these mins?
+
+20
+00:00:58,270 --> 00:01:02,720
+ That's right, the minimum values all form a Bitonic subsequence.
+
+21
+00:01:02,720 --> 00:01:04,900
+ What if, instead, you took the larger element of each pair?
+
+22
+00:01:04,900 --> 00:01:09,120
+ That would be the same as taking the max, and yes,
+
+23
+00:01:09,120 --> 00:01:13,820
+ again you would get another Bitonic subsequence within a circular shift.
+
+24
+00:01:13,820 --> 00:01:15,980
+ What you just did has a special name.
+
+25
+00:01:15,980 --> 00:01:18,300
+ It's called a Bitonic Split.
+
+26
+00:01:18,300 --> 00:01:22,310
+ That is, a Bitonic Split is when you pair the elements of a Bitonic
+
+27
+00:01:22,310 --> 00:01:27,300
+ input sequence, and then you apply the mins and the maxes to pairs.
+
+28
+00:01:27,300 --> 00:01:30,140
+ The result is two Bitonic subsequences.
+
+29
+00:01:30,140 --> 00:01:33,410
+ Did someone say split?
+
+30
+00:01:33,410 --> 00:01:34,900
+ It gets even better.
+
+31
+00:01:34,900 --> 00:01:37,920
+ All elements of the max subsequence are greater than or
+
+32
+00:01:37,920 --> 00:01:41,250
+ equal to all elements of the min subsequence.
+
+33
+00:01:41,250 --> 00:01:44,710
+ Naturally that suggests a divide and conquer scheme.
+
+34
+00:01:44,710 --> 00:01:48,500
+ I eat your freedom frites for petit dejeuner.
+
+35
+00:01:48,500 --> 00:01:52,172
+ I hope it's also not hard for you to see that you can split in place,
+
+36
+00:01:52,172 --> 00:01:54,990
+ that is without any extra storage.
+
+37
+00:01:54,990 --> 00:01:59,040
+ So the end result of a Bitonic Split would be two Bitonic subsequences,
+
+38
+00:01:59,040 --> 00:01:59,040
+ visually that looks like this.
+

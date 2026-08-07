@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:02.210 align:start position:0%
+ 
+we<00:00:00.690><c> have</c><00:00:00.870><c> seen</c><00:00:01.140><c> that</c><00:00:01.380><c> an</c><00:00:01.560><c> out-of-order</c>
+
+00:00:02.210 --> 00:00:02.220 align:start position:0%
+we have seen that an out-of-order
+ 
+
+00:00:02.220 --> 00:00:04.190 align:start position:0%
+we have seen that an out-of-order
+processor<00:00:02.909><c> will</c><00:00:03.149><c> track</c><00:00:03.449><c> when</c><00:00:03.840><c> one</c>
+
+00:00:04.190 --> 00:00:04.200 align:start position:0%
+processor will track when one
+ 
+
+00:00:04.200 --> 00:00:06.680 align:start position:0%
+processor will track when one
+instruction<00:00:04.890><c> uses</c><00:00:05.279><c> a</c><00:00:05.460><c> register</c><00:00:06.029><c> produced</c><00:00:06.480><c> by</c>
+
+00:00:06.680 --> 00:00:06.690 align:start position:0%
+instruction uses a register produced by
+ 
+
+00:00:06.690 --> 00:00:08.589 align:start position:0%
+instruction uses a register produced by
+another<00:00:06.810><c> but</c><00:00:07.799><c> load</c><00:00:08.040><c> and</c><00:00:08.250><c> store</c><00:00:08.519><c> instructions</c>
+
+00:00:08.589 --> 00:00:08.599 align:start position:0%
+another but load and store instructions
+ 
+
+00:00:08.599 --> 00:00:10.879 align:start position:0%
+another but load and store instructions
+can<00:00:09.599><c> access</c><00:00:10.050><c> the</c><00:00:10.200><c> same</c><00:00:10.380><c> memory</c><00:00:10.440><c> location</c>
+
+00:00:10.879 --> 00:00:10.889 align:start position:0%
+can access the same memory location
+ 
+
+00:00:10.889 --> 00:00:13.879 align:start position:0%
+can access the same memory location
+without<00:00:11.849><c> using</c><00:00:12.570><c> the</c><00:00:12.809><c> same</c><00:00:13.019><c> register</c><00:00:13.380><c> for</c><00:00:13.769><c> it</c>
+
+00:00:13.879 --> 00:00:13.889 align:start position:0%
+without using the same register for it
+ 
+
+00:00:13.889 --> 00:00:16.550 align:start position:0%
+without using the same register for it
+so<00:00:14.670><c> let's</c><00:00:14.940><c> see</c><00:00:15.120><c> how</c><00:00:15.330><c> to</c><00:00:15.389><c> do</c><00:00:15.660><c> them</c><00:00:15.900><c> correctly</c><00:00:15.929><c> in</c>
+
+00:00:16.550 --> 00:00:16.560 align:start position:0%
+so let's see how to do them correctly in
+ 
+
+00:00:16.560 --> 00:00:19.880 align:start position:0%
+so let's see how to do them correctly in
+an<00:00:16.770><c> out-of-order</c><00:00:17.220><c> processor</c>
+

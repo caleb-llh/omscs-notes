@@ -1,0 +1,28 @@
+1
+00:00:00,500 --> 00:00:04,430
+ Now here's a safe parallelization of the matrix vector multiply,
+
+2
+00:00:04,430 --> 00:00:08,590
+ that essentially just replaces for I with a parfor.
+
+3
+00:00:08,590 --> 00:00:11,130
+ We'll leave the inner most loop alone.
+
+4
+00:00:11,130 --> 00:00:13,630
+ Now the work is n squared.
+
+5
+00:00:13,630 --> 00:00:16,620
+ My question to you is, What is the span?
+
+6
+00:00:16,620 --> 00:00:21,570
+ Your choices are constant time, log time, linear time, and long n time, or
+
+7
+00:00:21,570 --> 00:00:21,570
+ n squared time.
+

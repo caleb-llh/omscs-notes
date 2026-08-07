@@ -1,0 +1,40 @@
+1
+00:00:00,510 --> 00:00:02,670
+ You can't replace for with parallel for,
+
+2
+00:00:02,670 --> 00:00:05,270
+ because these iterations are not independent.
+
+3
+00:00:05,270 --> 00:00:06,110
+ So what should you do?
+
+4
+00:00:06,110 --> 00:00:10,090
+ Now you know that a single reduction is parallelizable by using
+
+5
+00:00:10,090 --> 00:00:11,750
+ a reduction tree.
+
+6
+00:00:11,750 --> 00:00:12,990
+ So here's a thought.
+
+7
+00:00:12,990 --> 00:00:17,000
+ What if we did n completely independent parallel reductions?
+
+8
+00:00:17,000 --> 00:00:19,080
+ Here's what the code might look like.
+
+9
+00:00:19,080 --> 00:00:24,290
+ My question to you is, what is the work, and what is the span for this algorithm?
+
+10
+00:00:24,290 --> 00:00:24,290
+ Choose one option for each.
+

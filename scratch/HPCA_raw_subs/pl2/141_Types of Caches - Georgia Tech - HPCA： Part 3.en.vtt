@@ -1,0 +1,320 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.570 align:start position:0%
+ 
+there<00:00:00.359><c> are</c><00:00:00.480><c> several</c><00:00:00.810><c> types</c><00:00:01.199><c> of</c><00:00:01.439><c> caches</c><00:00:01.979><c> when</c>
+
+00:00:02.570 --> 00:00:02.580 align:start position:0%
+there are several types of caches when
+ 
+
+00:00:02.580 --> 00:00:04.640 align:start position:0%
+there are several types of caches when
+it<00:00:02.700><c> comes</c><00:00:02.939><c> to</c><00:00:03.270><c> which</c><00:00:03.570><c> blocks</c><00:00:03.899><c> can</c><00:00:04.259><c> be</c><00:00:04.290><c> placed</c>
+
+00:00:04.640 --> 00:00:04.650 align:start position:0%
+it comes to which blocks can be placed
+ 
+
+00:00:04.650 --> 00:00:08.299 align:start position:0%
+it comes to which blocks can be placed
+where<00:00:04.980><c> in</c><00:00:05.609><c> the</c><00:00:05.819><c> cache</c><00:00:06.170><c> the</c><00:00:07.170><c> cache</c><00:00:07.200><c> examples</c><00:00:08.099><c> we</c>
+
+00:00:08.299 --> 00:00:08.309 align:start position:0%
+where in the cache the cache examples we
+ 
+
+00:00:08.309 --> 00:00:10.160 align:start position:0%
+where in the cache the cache examples we
+have<00:00:08.490><c> seen</c><00:00:08.519><c> so</c><00:00:08.910><c> far</c><00:00:09.150><c> are</c><00:00:09.480><c> the</c><00:00:09.870><c> fully</c>
+
+00:00:10.160 --> 00:00:10.170 align:start position:0%
+have seen so far are the fully
+ 
+
+00:00:10.170 --> 00:00:12.830 align:start position:0%
+have seen so far are the fully
+associative<00:00:10.650><c> caches</c><00:00:11.219><c> in</c><00:00:12.059><c> this</c><00:00:12.330><c> type</c><00:00:12.570><c> of</c><00:00:12.599><c> a</c>
+
+00:00:12.830 --> 00:00:12.840 align:start position:0%
+associative caches in this type of a
+ 
+
+00:00:12.840 --> 00:00:15.379 align:start position:0%
+associative caches in this type of a
+cache<00:00:13.080><c> any</c><00:00:13.559><c> block</c><00:00:14.370><c> from</c><00:00:14.639><c> memory</c><00:00:14.790><c> can</c><00:00:15.360><c> be</c>
+
+00:00:15.379 --> 00:00:15.389 align:start position:0%
+cache any block from memory can be
+ 
+
+00:00:15.389 --> 00:00:18.500 align:start position:0%
+cache any block from memory can be
+placed<00:00:15.750><c> into</c><00:00:16.109><c> any</c><00:00:16.529><c> line</c><00:00:16.890><c> in</c><00:00:16.920><c> the</c><00:00:17.340><c> cache</c><00:00:17.580><c> so</c><00:00:18.420><c> if</c>
+
+00:00:18.500 --> 00:00:18.510 align:start position:0%
+placed into any line in the cache so if
+ 
+
+00:00:18.510 --> 00:00:23.120 align:start position:0%
+placed into any line in the cache so if
+the<00:00:18.630><c> cache</c><00:00:18.840><c> has</c><00:00:19.170><c> room</c><00:00:19.980><c> for</c><00:00:20.010><c> 16</c><00:00:20.609><c> lines</c><00:00:20.850><c> then</c><00:00:22.130><c> we</c>
+
+00:00:23.120 --> 00:00:23.130 align:start position:0%
+the cache has room for 16 lines then we
+ 
+
+00:00:23.130 --> 00:00:25.820 align:start position:0%
+the cache has room for 16 lines then we
+need<00:00:23.310><c> to</c><00:00:23.400><c> search</c><00:00:23.670><c> up</c><00:00:24.060><c> to</c><00:00:24.330><c> 16</c><00:00:24.810><c> tags</c><00:00:25.109><c> in</c><00:00:25.439><c> order</c><00:00:25.619><c> to</c>
+
+00:00:25.820 --> 00:00:25.830 align:start position:0%
+need to search up to 16 tags in order to
+ 
+
+00:00:25.830 --> 00:00:27.859 align:start position:0%
+need to search up to 16 tags in order to
+find<00:00:26.130><c> whether</c><00:00:26.699><c> the</c><00:00:27.060><c> block</c><00:00:27.420><c> we</c><00:00:27.630><c> are</c><00:00:27.689><c> looking</c>
+
+00:00:27.859 --> 00:00:27.869 align:start position:0%
+find whether the block we are looking
+ 
+
+00:00:27.869 --> 00:00:30.710 align:start position:0%
+find whether the block we are looking
+for<00:00:28.230><c> is</c><00:00:28.410><c> actually</c><00:00:28.800><c> in</c><00:00:28.980><c> the</c><00:00:29.130><c> cache</c><00:00:29.720><c> the</c>
+
+00:00:30.710 --> 00:00:30.720 align:start position:0%
+for is actually in the cache the
+ 
+
+00:00:30.720 --> 00:00:32.870 align:start position:0%
+for is actually in the cache the
+opposite<00:00:31.260><c> of</c><00:00:31.410><c> that</c><00:00:31.590><c> is</c><00:00:31.859><c> a</c><00:00:31.920><c> direct</c><00:00:32.579><c> mapped</c>
+
+00:00:32.870 --> 00:00:32.880 align:start position:0%
+opposite of that is a direct mapped
+ 
+
+00:00:32.880 --> 00:00:35.330 align:start position:0%
+opposite of that is a direct mapped
+cache<00:00:33.170><c> where</c><00:00:34.170><c> for</c><00:00:34.440><c> a</c><00:00:34.469><c> given</c><00:00:34.829><c> block</c><00:00:34.950><c> there</c><00:00:35.250><c> is</c>
+
+00:00:35.330 --> 00:00:35.340 align:start position:0%
+cache where for a given block there is
+ 
+
+00:00:35.340 --> 00:00:37.700 align:start position:0%
+cache where for a given block there is
+exactly<00:00:35.640><c> one</c><00:00:35.850><c> place</c><00:00:36.360><c> in</c><00:00:36.690><c> the</c><00:00:36.809><c> cache</c><00:00:37.079><c> where</c>
+
+00:00:37.700 --> 00:00:37.710 align:start position:0%
+exactly one place in the cache where
+ 
+
+00:00:37.710 --> 00:00:40.729 align:start position:0%
+exactly one place in the cache where
+that<00:00:37.920><c> block</c><00:00:38.129><c> can</c><00:00:38.370><c> go</c><00:00:38.579><c> that</c><00:00:39.270><c> means</c><00:00:39.540><c> that</c><00:00:39.930><c> we</c>
+
+00:00:40.729 --> 00:00:40.739 align:start position:0%
+that block can go that means that we
+ 
+
+00:00:40.739 --> 00:00:43.280 align:start position:0%
+that block can go that means that we
+only<00:00:40.980><c> need</c><00:00:41.309><c> to</c><00:00:41.430><c> check</c><00:00:41.640><c> one</c><00:00:42.420><c> line</c><00:00:42.719><c> in</c><00:00:42.930><c> the</c><00:00:43.050><c> cache</c>
+
+00:00:43.280 --> 00:00:43.290 align:start position:0%
+only need to check one line in the cache
+ 
+
+00:00:43.290 --> 00:00:45.950 align:start position:0%
+only need to check one line in the cache
+if<00:00:43.770><c> it</c><00:00:44.250><c> contains</c><00:00:44.730><c> that</c><00:00:44.940><c> block</c><00:00:45.210><c> because</c><00:00:45.750><c> that's</c>
+
+00:00:45.950 --> 00:00:45.960 align:start position:0%
+if it contains that block because that's
+ 
+
+00:00:45.960 --> 00:00:47.569 align:start position:0%
+if it contains that block because that's
+the<00:00:46.140><c> only</c><00:00:46.410><c> line</c><00:00:46.590><c> where</c><00:00:46.800><c> it</c><00:00:46.920><c> can</c><00:00:47.100><c> possibly</c><00:00:47.280><c> be</c>
+
+00:00:47.569 --> 00:00:47.579 align:start position:0%
+the only line where it can possibly be
+ 
+
+00:00:47.579 --> 00:00:49.610 align:start position:0%
+the only line where it can possibly be
+different<00:00:48.510><c> blocks</c><00:00:48.719><c> of</c><00:00:48.930><c> course</c><00:00:49.170><c> we'll</c><00:00:49.379><c> still</c>
+
+00:00:49.610 --> 00:00:49.620 align:start position:0%
+different blocks of course we'll still
+ 
+
+00:00:49.620 --> 00:00:52.189 align:start position:0%
+different blocks of course we'll still
+be<00:00:49.770><c> able</c><00:00:49.800><c> to</c><00:00:50.070><c> map</c><00:00:50.370><c> to</c><00:00:50.640><c> different</c><00:00:50.820><c> lines</c><00:00:51.270><c> but</c><00:00:51.600><c> a</c>
+
+00:00:52.189 --> 00:00:52.199 align:start position:0%
+be able to map to different lines but a
+ 
+
+00:00:52.199 --> 00:00:54.110 align:start position:0%
+be able to map to different lines but a
+particular<00:00:52.770><c> block</c><00:00:53.010><c> can</c><00:00:53.219><c> only</c><00:00:53.399><c> go</c><00:00:53.640><c> into</c><00:00:53.879><c> one</c>
+
+00:00:54.110 --> 00:00:54.120 align:start position:0%
+particular block can only go into one
+ 
+
+00:00:54.120 --> 00:00:56.000 align:start position:0%
+particular block can only go into one
+place<00:00:54.360><c> in</c><00:00:54.600><c> the</c><00:00:54.719><c> cache</c><00:00:54.899><c> and</c><00:00:55.230><c> then</c><00:00:55.829><c> of</c><00:00:55.980><c> course</c>
+
+00:00:56.000 --> 00:00:56.010 align:start position:0%
+place in the cache and then of course
+ 
+
+00:00:56.010 --> 00:00:57.920 align:start position:0%
+place in the cache and then of course
+there<00:00:56.430><c> is</c><00:00:56.520><c> the</c><00:00:56.670><c> middle</c><00:00:56.850><c> ground</c><00:00:57.180><c> between</c><00:00:57.390><c> them</c>
+
+00:00:57.920 --> 00:00:57.930 align:start position:0%
+there is the middle ground between them
+ 
+
+00:00:57.930 --> 00:01:00.520 align:start position:0%
+there is the middle ground between them
+which<00:00:58.379><c> is</c><00:00:58.559><c> called</c><00:00:58.859><c> a</c><00:00:59.039><c> set</c><00:00:59.520><c> associative</c><00:01:00.090><c> cache</c>
+
+00:01:00.520 --> 00:01:00.530 align:start position:0%
+which is called a set associative cache
+ 
+
+00:01:00.530 --> 00:01:03.560 align:start position:0%
+which is called a set associative cache
+where<00:01:01.530><c> there</c><00:01:01.739><c> are</c><00:01:01.890><c> n</c><00:01:02.039><c> lines</c><00:01:02.460><c> where</c><00:01:03.239><c> a</c><00:01:03.270><c> block</c>
+
+00:01:03.560 --> 00:01:03.570 align:start position:0%
+where there are n lines where a block
+ 
+
+00:01:03.570 --> 00:01:06.890 align:start position:0%
+where there are n lines where a block
+can<00:01:03.809><c> be</c><00:01:03.840><c> now</c><00:01:04.530><c> n</c><00:01:04.769><c> typically</c><00:01:05.700><c> will</c><00:01:05.880><c> be</c><00:01:06.030><c> larger</c>
+
+00:01:06.890 --> 00:01:06.900 align:start position:0%
+can be now n typically will be larger
+ 
+
+00:01:06.900 --> 00:01:09.590 align:start position:0%
+can be now n typically will be larger
+than<00:01:06.930><c> one</c><00:01:07.290><c> and</c><00:01:07.590><c> smaller</c><00:01:08.250><c> than</c><00:01:09.119><c> the</c><00:01:09.390><c> total</c>
+
+00:01:09.590 --> 00:01:09.600 align:start position:0%
+than one and smaller than the total
+ 
+
+00:01:09.600 --> 00:01:11.899 align:start position:0%
+than one and smaller than the total
+number<00:01:09.869><c> of</c><00:01:10.020><c> lines</c><00:01:10.320><c> in</c><00:01:10.500><c> the</c><00:01:10.619><c> cache</c><00:01:10.830><c> so</c><00:01:11.640><c> we</c><00:01:11.760><c> can</c>
+
+00:01:11.899 --> 00:01:11.909 align:start position:0%
+number of lines in the cache so we can
+ 
+
+00:01:11.909 --> 00:01:14.469 align:start position:0%
+number of lines in the cache so we can
+really<00:01:12.150><c> view</c><00:01:12.450><c> the</c><00:01:12.930><c> direct</c><00:01:13.290><c> mapped</c><00:01:13.530><c> cache</c><00:01:13.619><c> as</c><00:01:14.100><c> a</c>
+
+00:01:14.469 --> 00:01:14.479 align:start position:0%
+really view the direct mapped cache as a
+ 
+
+00:01:14.479 --> 00:01:17.660 align:start position:0%
+really view the direct mapped cache as a
+case<00:01:15.479><c> of</c><00:01:15.750><c> a</c><00:01:15.930><c> set</c><00:01:16.140><c> associative</c><00:01:16.439><c> cache</c><00:01:16.590><c> where</c><00:01:17.490><c> n</c>
+
+00:01:17.660 --> 00:01:17.670 align:start position:0%
+case of a set associative cache where n
+ 
+
+00:01:17.670 --> 00:01:19.850 align:start position:0%
+case of a set associative cache where n
+is<00:01:18.060><c> one</c><00:01:18.390><c> and</c><00:01:18.720><c> the</c><00:01:19.229><c> fully</c><00:01:19.500><c> associative</c><00:01:19.830><c> cache</c>
+
+00:01:19.850 --> 00:01:19.860 align:start position:0%
+is one and the fully associative cache
+ 
+
+00:01:19.860 --> 00:01:22.280 align:start position:0%
+is one and the fully associative cache
+is<00:01:20.700><c> an</c><00:01:20.970><c> extreme</c><00:01:21.330><c> case</c><00:01:21.479><c> of</c><00:01:21.689><c> a</c><00:01:21.780><c> set</c><00:01:21.990><c> associative</c>
+
+00:01:22.280 --> 00:01:22.290 align:start position:0%
+is an extreme case of a set associative
+ 
+
+00:01:22.290 --> 00:01:25.070 align:start position:0%
+is an extreme case of a set associative
+cache<00:01:22.439><c> where</c><00:01:23.130><c> n</c><00:01:23.369><c> is</c><00:01:23.670><c> equal</c><00:01:24.450><c> to</c><00:01:24.479><c> the</c><00:01:24.780><c> number</c><00:01:25.049><c> of</c>
+
+00:01:25.070 --> 00:01:25.080 align:start position:0%
+cache where n is equal to the number of
+ 
+
+00:01:25.080 --> 00:01:27.710 align:start position:0%
+cache where n is equal to the number of
+lines<00:01:25.409><c> in</c><00:01:25.619><c> the</c><00:01:25.650><c> cache</c><00:01:26.060><c> but</c><00:01:27.060><c> what</c><00:01:27.420><c> we</c><00:01:27.570><c> normally</c>
+
+00:01:27.710 --> 00:01:27.720 align:start position:0%
+lines in the cache but what we normally
+ 
+
+00:01:27.720 --> 00:01:30.080 align:start position:0%
+lines in the cache but what we normally
+call<00:01:28.020><c> a</c><00:01:28.290><c> set</c><00:01:28.650><c> associative</c><00:01:28.950><c> cache</c><00:01:29.100><c> has</c><00:01:29.759><c> a</c>
+
+00:01:30.080 --> 00:01:30.090 align:start position:0%
+call a set associative cache has a
+ 
+
+00:01:30.090 --> 00:01:32.090 align:start position:0%
+call a set associative cache has a
+relatively<00:01:30.540><c> small</c><00:01:31.020><c> and</c><00:01:31.290><c> compared</c><00:01:31.920><c> to</c><00:01:32.009><c> the</c>
+
+00:01:32.090 --> 00:01:32.100 align:start position:0%
+relatively small and compared to the
+ 
+
+00:01:32.100 --> 00:01:34.880 align:start position:0%
+relatively small and compared to the
+number<00:01:32.520><c> of</c><00:01:32.549><c> blocks</c><00:01:32.790><c> in</c><00:01:33.540><c> that</c><00:01:33.780><c> cache</c><00:01:34.020><c> yet</c><00:01:34.680><c> that</c>
+
+00:01:34.880 --> 00:01:34.890 align:start position:0%
+number of blocks in that cache yet that
+ 
+
+00:01:34.890 --> 00:01:38.960 align:start position:0%
+number of blocks in that cache yet that
+and<00:01:35.220><c> typically</c><00:01:36.180><c> is</c><00:01:36.360><c> 2</c><00:01:36.900><c> 4</c><00:01:37.380><c> or</c><00:01:37.409><c> 8</c><00:01:37.680><c> so</c><00:01:38.280><c> it's</c><00:01:38.430><c> larger</c>
+
+00:01:38.960 --> 00:01:38.970 align:start position:0%
+and typically is 2 4 or 8 so it's larger
+ 
+
+00:01:38.970 --> 00:01:41.899 align:start position:0%
+and typically is 2 4 or 8 so it's larger
+than<00:01:39.000><c> 1</c><00:01:39.360><c> now</c><00:01:40.170><c> let's</c><00:01:40.439><c> look</c><00:01:40.680><c> at</c><00:01:40.920><c> each</c><00:01:41.460><c> of</c><00:01:41.759><c> these</c>
+
+00:01:41.899 --> 00:01:41.909 align:start position:0%
+than 1 now let's look at each of these
+ 
+
+00:01:41.909 --> 00:01:44.600 align:start position:0%
+than 1 now let's look at each of these
+types<00:01:42.150><c> of</c><00:01:42.360><c> caches</c>
+

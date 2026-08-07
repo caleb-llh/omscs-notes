@@ -1,0 +1,560 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.280 --> 00:00:02.190 align:start position:0%
+ 
+so<00:00:00.560><c> let's</c><00:00:00.760><c> see</c><00:00:01.079><c> how</c><00:00:01.240><c> do</c><00:00:01.360><c> we</c><00:00:01.640><c> access</c><00:00:02.040><c> the</c>
+
+00:00:02.190 --> 00:00:02.200 align:start position:0%
+so let's see how do we access the
+ 
+
+00:00:02.200 --> 00:00:04.749 align:start position:0%
+so let's see how do we access the
+magnetic<00:00:02.720><c> discs</c><00:00:03.520><c> and</c><00:00:03.760><c> how</c><00:00:03.959><c> long</c><00:00:04.279><c> does</c><00:00:04.400><c> it</c><00:00:04.600><c> take</c>
+
+00:00:04.749 --> 00:00:04.759 align:start position:0%
+magnetic discs and how long does it take
+ 
+
+00:00:04.759 --> 00:00:07.070 align:start position:0%
+magnetic discs and how long does it take
+to<00:00:04.960><c> get</c><00:00:05.120><c> to</c><00:00:05.279><c> our</c><00:00:05.520><c> data</c><00:00:06.240><c> we</c><00:00:06.359><c> will</c><00:00:06.600><c> assume</c><00:00:06.960><c> that</c>
+
+00:00:07.070 --> 00:00:07.080 align:start position:0%
+to get to our data we will assume that
+ 
+
+00:00:07.080 --> 00:00:09.150 align:start position:0%
+to get to our data we will assume that
+the<00:00:07.240><c> dis</c><00:00:07.480><c> is</c><00:00:07.600><c> already</c><00:00:08.040><c> spinning</c><00:00:08.599><c> if</c><00:00:08.760><c> the</c><00:00:08.920><c> disc</c>
+
+00:00:09.150 --> 00:00:09.160 align:start position:0%
+the dis is already spinning if the disc
+ 
+
+00:00:09.160 --> 00:00:11.390 align:start position:0%
+the dis is already spinning if the disc
+is<00:00:09.360><c> not</c><00:00:09.599><c> spinning</c><00:00:10.160><c> it</c><00:00:10.320><c> takes</c><00:00:10.960><c> possibly</c>
+
+00:00:11.390 --> 00:00:11.400 align:start position:0%
+is not spinning it takes possibly
+ 
+
+00:00:11.400 --> 00:00:13.950 align:start position:0%
+is not spinning it takes possibly
+several<00:00:11.960><c> seconds</c><00:00:12.719><c> to</c><00:00:12.960><c> actually</c><00:00:13.240><c> spin</c><00:00:13.559><c> up</c><00:00:13.799><c> the</c>
+
+00:00:13.950 --> 00:00:13.960 align:start position:0%
+several seconds to actually spin up the
+ 
+
+00:00:13.960 --> 00:00:15.990 align:start position:0%
+several seconds to actually spin up the
+discs<00:00:14.519><c> so</c><00:00:14.799><c> most</c><00:00:15.000><c> of</c><00:00:15.160><c> the</c><00:00:15.360><c> time</c><00:00:15.599><c> if</c><00:00:15.719><c> you're</c>
+
+00:00:15.990 --> 00:00:16.000 align:start position:0%
+discs so most of the time if you're
+ 
+
+00:00:16.000 --> 00:00:18.070 align:start position:0%
+discs so most of the time if you're
+accessing<00:00:16.400><c> our</c><00:00:16.600><c> data</c><00:00:16.840><c> frequently</c><00:00:17.480><c> the</c><00:00:17.640><c> disc</c>
+
+00:00:18.070 --> 00:00:18.080 align:start position:0%
+accessing our data frequently the disc
+ 
+
+00:00:18.080 --> 00:00:20.310 align:start position:0%
+accessing our data frequently the disc
+would<00:00:18.320><c> just</c><00:00:18.520><c> keep</c><00:00:18.720><c> spinning</c><00:00:19.520><c> so</c><00:00:19.760><c> if</c><00:00:19.920><c> the</c><00:00:20.080><c> dis</c>
+
+00:00:20.310 --> 00:00:20.320 align:start position:0%
+would just keep spinning so if the dis
+ 
+
+00:00:20.320 --> 00:00:22.189 align:start position:0%
+would just keep spinning so if the dis
+is<00:00:20.439><c> spinning</c><00:00:21.160><c> then</c><00:00:21.359><c> the</c><00:00:21.560><c> access</c><00:00:21.920><c> time</c>
+
+00:00:22.189 --> 00:00:22.199 align:start position:0%
+is spinning then the access time
+ 
+
+00:00:22.199 --> 00:00:24.830 align:start position:0%
+is spinning then the access time
+consists<00:00:22.720><c> of</c><00:00:23.119><c> the</c><00:00:23.279><c> seek</c><00:00:23.720><c> time</c><00:00:24.320><c> which</c><00:00:24.439><c> is</c><00:00:24.599><c> the</c>
+
+00:00:24.830 --> 00:00:24.840 align:start position:0%
+consists of the seek time which is the
+ 
+
+00:00:24.840 --> 00:00:27.669 align:start position:0%
+consists of the seek time which is the
+time<00:00:25.080><c> it</c><00:00:25.240><c> takes</c><00:00:25.720><c> to</c><00:00:25.920><c> move</c><00:00:26.199><c> the</c><00:00:26.439><c> head</c><00:00:26.679><c> assembly</c>
+
+00:00:27.669 --> 00:00:27.679 align:start position:0%
+time it takes to move the head assembly
+ 
+
+00:00:27.679 --> 00:00:30.589 align:start position:0%
+time it takes to move the head assembly
+to<00:00:27.880><c> the</c><00:00:28.080><c> correct</c><00:00:28.480><c> cylinder</c><00:00:29.080><c> for</c><00:00:29.279><c> our</c><00:00:29.519><c> data</c><00:00:30.400><c> so</c>
+
+00:00:30.589 --> 00:00:30.599 align:start position:0%
+to the correct cylinder for our data so
+ 
+
+00:00:30.599 --> 00:00:33.430 align:start position:0%
+to the correct cylinder for our data so
+we<00:00:30.759><c> know</c><00:00:30.960><c> where</c><00:00:31.119><c> the</c><00:00:31.320><c> data</c><00:00:31.679><c> is</c><00:00:32.520><c> we</c><00:00:32.680><c> know</c><00:00:33.200><c> which</c>
+
+00:00:33.430 --> 00:00:33.440 align:start position:0%
+we know where the data is we know which
+ 
+
+00:00:33.440 --> 00:00:36.670 align:start position:0%
+we know where the data is we know which
+cylinder<00:00:34.040><c> which</c><00:00:34.280><c> sector</c><00:00:35.280><c> which</c><00:00:35.520><c> surface</c><00:00:36.480><c> we</c>
+
+00:00:36.670 --> 00:00:36.680 align:start position:0%
+cylinder which sector which surface we
+ 
+
+00:00:36.680 --> 00:00:38.950 align:start position:0%
+cylinder which sector which surface we
+first<00:00:37.040><c> have</c><00:00:37.160><c> to</c><00:00:37.360><c> get</c><00:00:37.559><c> the</c><00:00:37.719><c> heads</c><00:00:38.399><c> so</c><00:00:38.640><c> that</c><00:00:38.840><c> they</c>
+
+00:00:38.950 --> 00:00:38.960 align:start position:0%
+first have to get the heads so that they
+ 
+
+00:00:38.960 --> 00:00:41.910 align:start position:0%
+first have to get the heads so that they
+are<00:00:39.480><c> above</c><00:00:39.879><c> the</c><00:00:40.039><c> correct</c><00:00:40.360><c> cylinder</c><00:00:41.200><c> so</c><00:00:41.719><c> at</c>
+
+00:00:41.910 --> 00:00:41.920 align:start position:0%
+are above the correct cylinder so at
+ 
+
+00:00:41.920 --> 00:00:44.190 align:start position:0%
+are above the correct cylinder so at
+that<00:00:42.120><c> point</c><00:00:42.440><c> one</c><00:00:42.600><c> of</c><00:00:42.760><c> the</c><00:00:42.960><c> heads</c><00:00:43.680><c> will</c><00:00:43.920><c> be</c>
+
+00:00:44.190 --> 00:00:44.200 align:start position:0%
+that point one of the heads will be
+ 
+
+00:00:44.200 --> 00:00:47.549 align:start position:0%
+that point one of the heads will be
+above<00:00:44.480><c> the</c><00:00:44.640><c> track</c><00:00:45.600><c> where</c><00:00:45.840><c> our</c><00:00:46.120><c> data</c><00:00:46.399><c> really</c><00:00:46.719><c> is</c>
+
+00:00:47.549 --> 00:00:47.559 align:start position:0%
+above the track where our data really is
+ 
+
+00:00:47.559 --> 00:00:51.470 align:start position:0%
+above the track where our data really is
+next<00:00:48.399><c> there</c><00:00:48.600><c> is</c><00:00:48.840><c> the</c><00:00:49.559><c> rotational</c><00:00:50.480><c> latency</c>
+
+00:00:51.470 --> 00:00:51.480 align:start position:0%
+next there is the rotational latency
+ 
+
+00:00:51.480 --> 00:00:53.590 align:start position:0%
+next there is the rotational latency
+after<00:00:51.800><c> we</c><00:00:51.960><c> have</c><00:00:52.120><c> moved</c><00:00:52.480><c> the</c><00:00:52.680><c> heads</c><00:00:53.280><c> there's</c>
+
+00:00:53.590 --> 00:00:53.600 align:start position:0%
+after we have moved the heads there's
+ 
+
+00:00:53.600 --> 00:00:55.709 align:start position:0%
+after we have moved the heads there's
+somewhere<00:00:54.079><c> along</c><00:00:54.399><c> the</c><00:00:54.559><c> track</c><00:00:55.199><c> but</c><00:00:55.399><c> not</c>
+
+00:00:55.709 --> 00:00:55.719 align:start position:0%
+somewhere along the track but not
+ 
+
+00:00:55.719 --> 00:00:58.830 align:start position:0%
+somewhere along the track but not
+necessarily<00:00:56.559><c> and</c><00:00:56.960><c> usually</c><00:00:57.440><c> not</c><00:00:58.160><c> above</c><00:00:58.680><c> the</c>
+
+00:00:58.830 --> 00:00:58.840 align:start position:0%
+necessarily and usually not above the
+ 
+
+00:00:58.840 --> 00:01:01.670 align:start position:0%
+necessarily and usually not above the
+very<00:00:59.160><c> sector</c><00:00:59.559><c> that</c><00:00:59.680><c> we</c><00:01:00.120><c> interested</c><00:01:00.600><c> in</c><00:01:01.359><c> so</c><00:01:01.559><c> the</c>
+
+00:01:01.670 --> 00:01:01.680 align:start position:0%
+very sector that we interested in so the
+ 
+
+00:01:01.680 --> 00:01:05.630 align:start position:0%
+very sector that we interested in so the
+rotational<00:01:02.719><c> latency</c><00:01:03.719><c> is</c><00:01:03.960><c> about</c><00:01:04.600><c> waiting</c><00:01:05.400><c> for</c>
+
+00:01:05.630 --> 00:01:05.640 align:start position:0%
+rotational latency is about waiting for
+ 
+
+00:01:05.640 --> 00:01:08.390 align:start position:0%
+rotational latency is about waiting for
+the<00:01:05.840><c> start</c><00:01:06.119><c> of</c><00:01:06.280><c> our</c><00:01:06.520><c> sector</c><00:01:07.400><c> to</c><00:01:07.640><c> finally</c><00:01:08.159><c> get</c>
+
+00:01:08.390 --> 00:01:08.400 align:start position:0%
+the start of our sector to finally get
+ 
+
+00:01:08.400 --> 00:01:11.109 align:start position:0%
+the start of our sector to finally get
+under<00:01:09.200><c> the</c><00:01:09.439><c> head</c><00:01:09.840><c> that</c><00:01:09.960><c> will</c><00:01:10.119><c> read</c><00:01:10.400><c> it</c><00:01:10.840><c> not</c>
+
+00:01:11.109 --> 00:01:11.119 align:start position:0%
+under the head that will read it not
+ 
+
+00:01:11.119 --> 00:01:13.630 align:start position:0%
+under the head that will read it not
+that<00:01:11.280><c> the</c><00:01:11.520><c> head</c><00:01:12.080><c> is</c><00:01:12.320><c> actually</c><00:01:12.640><c> sitting</c><00:01:13.119><c> in</c><00:01:13.320><c> one</c>
+
+00:01:13.630 --> 00:01:13.640 align:start position:0%
+that the head is actually sitting in one
+ 
+
+00:01:13.640 --> 00:01:16.190 align:start position:0%
+that the head is actually sitting in one
+place<00:01:13.920><c> at</c><00:01:14.119><c> this</c><00:01:14.320><c> point</c><00:01:14.799><c> but</c><00:01:15.080><c> the</c><00:01:15.280><c> platter</c><00:01:16.040><c> is</c>
+
+00:01:16.190 --> 00:01:16.200 align:start position:0%
+place at this point but the platter is
+ 
+
+00:01:16.200 --> 00:01:18.670 align:start position:0%
+place at this point but the platter is
+rotating<00:01:17.200><c> so</c><00:01:17.479><c> different</c><00:01:17.840><c> parts</c><00:01:18.080><c> of</c><00:01:18.200><c> the</c><00:01:18.360><c> track</c>
+
+00:01:18.670 --> 00:01:18.680 align:start position:0%
+rotating so different parts of the track
+ 
+
+00:01:18.680 --> 00:01:20.429 align:start position:0%
+rotating so different parts of the track
+are<00:01:18.880><c> getting</c><00:01:19.200><c> under</c><00:01:19.520><c> the</c><00:01:19.759><c> head</c><00:01:20.200><c> and</c><00:01:20.320><c> the</c>
+
+00:01:20.429 --> 00:01:20.439 align:start position:0%
+are getting under the head and the
+ 
+
+00:01:20.439 --> 00:01:23.469 align:start position:0%
+are getting under the head and the
+rotational<00:01:21.040><c> latenci</c><00:01:21.479><c> is</c><00:01:21.799><c> how</c><00:01:22.040><c> long</c><00:01:22.520><c> until</c><00:01:23.320><c> the</c>
+
+00:01:23.469 --> 00:01:23.479 align:start position:0%
+rotational latenci is how long until the
+ 
+
+00:01:23.479 --> 00:01:26.550 align:start position:0%
+rotational latenci is how long until the
+beginning<00:01:23.799><c> of</c><00:01:24.079><c> our</c><00:01:24.520><c> sector</c><00:01:25.520><c> gets</c><00:01:26.000><c> under</c><00:01:26.320><c> the</c>
+
+00:01:26.550 --> 00:01:26.560 align:start position:0%
+beginning of our sector gets under the
+ 
+
+00:01:26.560 --> 00:01:29.910 align:start position:0%
+beginning of our sector gets under the
+head<00:01:27.560><c> next</c><00:01:28.159><c> we</c><00:01:28.320><c> have</c><00:01:28.479><c> the</c><00:01:28.680><c> data</c><00:01:29.000><c> read</c><00:01:29.680><c> which</c>
+
+00:01:29.910 --> 00:01:29.920 align:start position:0%
+head next we have the data read which
+ 
+
+00:01:29.920 --> 00:01:32.830 align:start position:0%
+head next we have the data read which
+which<00:01:30.079><c> is</c><00:01:30.560><c> we</c><00:01:30.759><c> read</c><00:01:31.680><c> until</c><00:01:32.200><c> the</c><00:01:32.360><c> end</c><00:01:32.560><c> of</c><00:01:32.720><c> the</c>
+
+00:01:32.830 --> 00:01:32.840 align:start position:0%
+which is we read until the end of the
+ 
+
+00:01:32.840 --> 00:01:35.469 align:start position:0%
+which is we read until the end of the
+sector<00:01:33.200><c> is</c><00:01:33.360><c> seen</c><00:01:33.680><c> by</c><00:01:33.840><c> the</c><00:01:34.040><c> head</c><00:01:35.040><c> again</c><00:01:35.320><c> the</c>
+
+00:01:35.469 --> 00:01:35.479 align:start position:0%
+sector is seen by the head again the
+ 
+
+00:01:35.479 --> 00:01:37.630 align:start position:0%
+sector is seen by the head again the
+data<00:01:35.759><c> read</c><00:01:36.119><c> really</c><00:01:36.439><c> depends</c><00:01:36.880><c> on</c><00:01:37.079><c> how</c><00:01:37.280><c> fast</c><00:01:37.520><c> the</c>
+
+00:01:37.630 --> 00:01:37.640 align:start position:0%
+data read really depends on how fast the
+ 
+
+00:01:37.640 --> 00:01:40.109 align:start position:0%
+data read really depends on how fast the
+dis<00:01:37.920><c> is</c><00:01:38.040><c> spinning</c><00:01:38.520><c> and</c><00:01:38.799><c> how</c><00:01:39.159><c> many</c><00:01:39.520><c> sectors</c><00:01:39.960><c> we</c>
+
+00:01:40.109 --> 00:01:40.119 align:start position:0%
+dis is spinning and how many sectors we
+ 
+
+00:01:40.119 --> 00:01:43.030 align:start position:0%
+dis is spinning and how many sectors we
+have<00:01:40.320><c> per</c><00:01:40.520><c> track</c><00:01:41.040><c> for</c><00:01:41.520><c> example</c><00:01:42.520><c> if</c><00:01:42.640><c> the</c><00:01:42.799><c> whole</c>
+
+00:01:43.030 --> 00:01:43.040 align:start position:0%
+have per track for example if the whole
+ 
+
+00:01:43.040 --> 00:01:45.950 align:start position:0%
+have per track for example if the whole
+track<00:01:43.320><c> is</c><00:01:43.560><c> just</c><00:01:43.759><c> one</c><00:01:44.200><c> sector</c><00:01:45.200><c> then</c><00:01:45.360><c> the</c><00:01:45.560><c> data</c>
+
+00:01:45.950 --> 00:01:45.960 align:start position:0%
+track is just one sector then the data
+ 
+
+00:01:45.960 --> 00:01:48.550 align:start position:0%
+track is just one sector then the data
+read<00:01:46.360><c> will</c><00:01:46.520><c> be</c><00:01:46.640><c> a</c><00:01:46.799><c> whole</c><00:01:47.079><c> rotation</c><00:01:47.560><c> of</c><00:01:47.719><c> the</c><00:01:47.880><c> dis</c>
+
+00:01:48.550 --> 00:01:48.560 align:start position:0%
+read will be a whole rotation of the dis
+ 
+
+00:01:48.560 --> 00:01:51.910 align:start position:0%
+read will be a whole rotation of the dis
+if<00:01:48.719><c> we</c><00:01:48.920><c> have</c><00:01:49.399><c> 10</c><00:01:49.719><c> sectors</c><00:01:50.200><c> per</c><00:01:50.600><c> track</c><00:01:51.600><c> then</c><00:01:51.759><c> the</c>
+
+00:01:51.910 --> 00:01:51.920 align:start position:0%
+if we have 10 sectors per track then the
+ 
+
+00:01:51.920 --> 00:01:54.670 align:start position:0%
+if we have 10 sectors per track then the
+data<00:01:52.280><c> read</c><00:01:52.560><c> will</c><00:01:52.680><c> be</c><00:01:52.880><c> 1/10th</c><00:01:53.360><c> of</c><00:01:53.479><c> a</c><00:01:53.680><c> rotation</c>
+
+00:01:54.670 --> 00:01:54.680 align:start position:0%
+data read will be 1/10th of a rotation
+ 
+
+00:01:54.680 --> 00:01:56.870 align:start position:0%
+data read will be 1/10th of a rotation
+then<00:01:54.840><c> there</c><00:01:54.960><c> is</c><00:01:55.119><c> some</c><00:01:55.360><c> controller</c><00:01:55.960><c> time</c><00:01:56.560><c> for</c>
+
+00:01:56.870 --> 00:01:56.880 align:start position:0%
+then there is some controller time for
+ 
+
+00:01:56.880 --> 00:01:58.510 align:start position:0%
+then there is some controller time for
+the<00:01:57.119><c> this</c><00:01:57.360><c> controller</c><00:01:57.799><c> to</c><00:01:58.000><c> actually</c><00:01:58.240><c> check</c>
+
+00:01:58.510 --> 00:01:58.520 align:start position:0%
+the this controller to actually check
+ 
+
+00:01:58.520 --> 00:02:00.709 align:start position:0%
+the this controller to actually check
+the<00:01:58.640><c> check</c><00:01:58.960><c> sum</c><00:01:59.240><c> determine</c><00:01:59.680><c> that</c><00:02:00.000><c> the</c><00:02:00.360><c> sector</c>
+
+00:02:00.709 --> 00:02:00.719 align:start position:0%
+the check sum determine that the sector
+ 
+
+00:02:00.719 --> 00:02:04.590 align:start position:0%
+the check sum determine that the sector
+is<00:02:01.000><c> okay</c><00:02:01.640><c> and</c><00:02:01.799><c> so</c><00:02:02.000><c> on</c><00:02:02.920><c> and</c><00:02:03.119><c> the</c><00:02:03.320><c> iob</c><00:02:03.719><c> bus</c><00:02:04.039><c> time</c>
+
+00:02:04.590 --> 00:02:04.600 align:start position:0%
+is okay and so on and the iob bus time
+ 
+
+00:02:04.600 --> 00:02:07.709 align:start position:0%
+is okay and so on and the iob bus time
+which<00:02:04.719><c> is</c><00:02:04.960><c> once</c><00:02:05.840><c> the</c><00:02:06.039><c> dis</c><00:02:06.360><c> drive</c><00:02:06.799><c> itself</c><00:02:07.560><c> and</c>
+
+00:02:07.709 --> 00:02:07.719 align:start position:0%
+which is once the dis drive itself and
+ 
+
+00:02:07.719 --> 00:02:09.710 align:start position:0%
+which is once the dis drive itself and
+it's<00:02:07.960><c> controller</c><00:02:08.440><c> have</c><00:02:08.679><c> the</c><00:02:08.840><c> data</c><00:02:09.319><c> how</c><00:02:09.479><c> long</c>
+
+00:02:09.710 --> 00:02:09.720 align:start position:0%
+it's controller have the data how long
+ 
+
+00:02:09.720 --> 00:02:11.830 align:start position:0%
+it's controller have the data how long
+does<00:02:09.879><c> it</c><00:02:10.080><c> take</c><00:02:10.239><c> to</c><00:02:10.520><c> actually</c><00:02:10.840><c> get</c><00:02:11.080><c> that</c><00:02:11.319><c> data</c>
+
+00:02:11.830 --> 00:02:11.840 align:start position:0%
+does it take to actually get that data
+ 
+
+00:02:11.840 --> 00:02:15.430 align:start position:0%
+does it take to actually get that data
+to<00:02:12.040><c> the</c><00:02:12.160><c> main</c><00:02:12.440><c> memory</c><00:02:13.400><c> now</c><00:02:13.599><c> note</c><00:02:14.040><c> that</c><00:02:14.440><c> unlike</c>
+
+00:02:15.430 --> 00:02:15.440 align:start position:0%
+to the main memory now note that unlike
+ 
+
+00:02:15.440 --> 00:02:18.350 align:start position:0%
+to the main memory now note that unlike
+a<00:02:15.760><c> cash</c><00:02:16.360><c> or</c><00:02:16.560><c> a</c><00:02:16.800><c> dam</c><00:02:17.480><c> where</c><00:02:17.680><c> we</c><00:02:17.840><c> could</c><00:02:18.080><c> actually</c>
+
+00:02:18.350 --> 00:02:18.360 align:start position:0%
+a cash or a dam where we could actually
+ 
+
+00:02:18.360 --> 00:02:20.830 align:start position:0%
+a cash or a dam where we could actually
+be<00:02:18.720><c> doing</c><00:02:19.080><c> multiple</c><00:02:19.640><c> axises</c><00:02:20.200><c> potentially</c><00:02:20.680><c> at</c>
+
+00:02:20.830 --> 00:02:20.840 align:start position:0%
+be doing multiple axises potentially at
+ 
+
+00:02:20.840 --> 00:02:24.110 align:start position:0%
+be doing multiple axises potentially at
+the<00:02:20.959><c> same</c><00:02:21.280><c> time</c><00:02:21.879><c> on</c><00:02:22.040><c> a</c><00:02:22.239><c> magnetic</c><00:02:22.840><c> disc</c><00:02:23.680><c> once</c><00:02:24.000><c> we</c>
+
+00:02:24.110 --> 00:02:24.120 align:start position:0%
+the same time on a magnetic disc once we
+ 
+
+00:02:24.120 --> 00:02:26.030 align:start position:0%
+the same time on a magnetic disc once we
+seek<00:02:24.440><c> to</c><00:02:24.680><c> one</c><00:02:24.920><c> track</c><00:02:25.319><c> we</c><00:02:25.440><c> cannot</c><00:02:25.720><c> really</c><00:02:25.920><c> be</c>
+
+00:02:26.030 --> 00:02:26.040 align:start position:0%
+seek to one track we cannot really be
+ 
+
+00:02:26.040 --> 00:02:28.470 align:start position:0%
+seek to one track we cannot really be
+reading<00:02:26.400><c> the</c><00:02:26.519><c> other</c><00:02:26.800><c> tracks</c><00:02:27.680><c> so</c><00:02:27.920><c> really</c><00:02:28.200><c> what</c>
+
+00:02:28.470 --> 00:02:28.480 align:start position:0%
+reading the other tracks so really what
+ 
+
+00:02:28.480 --> 00:02:31.710 align:start position:0%
+reading the other tracks so really what
+happens<00:02:29.480><c> is</c><00:02:30.040><c> accesses</c><00:02:30.519><c> to</c><00:02:30.680><c> the</c><00:02:30.879><c> disk</c><00:02:31.480><c> are</c>
+
+00:02:31.710 --> 00:02:31.720 align:start position:0%
+happens is accesses to the disk are
+ 
+
+00:02:31.720 --> 00:02:34.869 align:start position:0%
+happens is accesses to the disk are
+happening<00:02:32.120><c> one</c><00:02:32.319><c> at</c><00:02:32.480><c> a</c><00:02:32.680><c> time</c><00:02:33.200><c> we</c><00:02:33.360><c> go</c><00:02:33.519><c> to</c><00:02:33.680><c> a</c><00:02:33.879><c> track</c>
+
+00:02:34.869 --> 00:02:34.879 align:start position:0%
+happening one at a time we go to a track
+ 
+
+00:02:34.879 --> 00:02:37.390 align:start position:0%
+happening one at a time we go to a track
+possibly<00:02:35.280><c> read</c><00:02:35.640><c> several</c><00:02:36.040><c> sectors</c><00:02:37.040><c> but</c><00:02:37.239><c> we</c>
+
+00:02:37.390 --> 00:02:37.400 align:start position:0%
+possibly read several sectors but we
+ 
+
+00:02:37.400 --> 00:02:40.110 align:start position:0%
+possibly read several sectors but we
+cannot<00:02:38.160><c> access</c><00:02:38.599><c> another</c><00:02:38.959><c> track</c><00:02:39.440><c> until</c><00:02:39.800><c> we</c><00:02:39.920><c> are</c>
+
+00:02:40.110 --> 00:02:40.120 align:start position:0%
+cannot access another track until we are
+ 
+
+00:02:40.120 --> 00:02:42.910 align:start position:0%
+cannot access another track until we are
+done<00:02:40.360><c> with</c><00:02:40.560><c> this</c><00:02:40.720><c> one</c><00:02:41.040><c> and</c><00:02:41.200><c> move</c><00:02:41.879><c> to</c><00:02:42.480><c> the</c><00:02:42.680><c> next</c>
+
+00:02:42.910 --> 00:02:42.920 align:start position:0%
+done with this one and move to the next
+ 
+
+00:02:42.920 --> 00:02:45.149 align:start position:0%
+done with this one and move to the next
+track<00:02:43.680><c> so</c><00:02:43.879><c> all</c><00:02:44.040><c> of</c><00:02:44.200><c> this</c><00:02:44.360><c> is</c><00:02:44.480><c> the</c><00:02:44.599><c> latency</c><00:02:45.040><c> to</c>
+
+00:02:45.149 --> 00:02:45.159 align:start position:0%
+track so all of this is the latency to
+ 
+
+00:02:45.159 --> 00:02:48.550 align:start position:0%
+track so all of this is the latency to
+do<00:02:45.480><c> one</c><00:02:45.879><c> disk</c><00:02:46.280><c> access</c><00:02:47.000><c> and</c><00:02:47.239><c> often</c><00:02:47.560><c> times</c><00:02:48.200><c> the</c>
+
+00:02:48.550 --> 00:02:48.560 align:start position:0%
+do one disk access and often times the
+ 
+
+00:02:48.560 --> 00:02:52.030 align:start position:0%
+do one disk access and often times the
+latency<00:02:49.560><c> of</c><00:02:49.760><c> a</c><00:02:50.200><c> disk</c><00:02:50.599><c> request</c><00:02:51.280><c> made</c><00:02:51.720><c> by</c><00:02:51.879><c> the</c>
+
+00:02:52.030 --> 00:02:52.040 align:start position:0%
+latency of a disk request made by the
+ 
+
+00:02:52.040 --> 00:02:55.509 align:start position:0%
+latency of a disk request made by the
+operating<00:02:52.560><c> system</c><00:02:53.400><c> includes</c><00:02:54.080><c> this</c><00:02:54.800><c> plus</c><00:02:55.200><c> a</c>
+
+00:02:55.509 --> 00:02:55.519 align:start position:0%
+operating system includes this plus a
+ 
+
+00:02:55.519 --> 00:02:58.309 align:start position:0%
+operating system includes this plus a
+significant<00:02:56.519><c> queuing</c><00:02:57.040><c> delay</c><00:02:57.879><c> because</c><00:02:58.159><c> we</c>
+
+00:02:58.309 --> 00:02:58.319 align:start position:0%
+significant queuing delay because we
+ 
+
+00:02:58.319 --> 00:03:01.070 align:start position:0%
+significant queuing delay because we
+first<00:02:58.640><c> have</c><00:02:58.760><c> to</c><00:02:58.959><c> wait</c><00:02:59.480><c> for</c><00:03:00.159><c> previous</c><00:03:00.599><c> axis</c><00:03:00.920><c> is</c>
+
+00:03:01.070 --> 00:03:01.080 align:start position:0%
+first have to wait for previous axis is
+ 
+
+00:03:01.080 --> 00:03:03.270 align:start position:0%
+first have to wait for previous axis is
+to<00:03:01.239><c> finish</c><00:03:01.560><c> doing</c><00:03:01.920><c> this</c><00:03:02.200><c> and</c><00:03:02.360><c> only</c><00:03:02.680><c> then</c><00:03:02.879><c> our</c>
+
+00:03:03.270 --> 00:03:03.280 align:start position:0%
+to finish doing this and only then our
+ 
+
+00:03:03.280 --> 00:03:05.509 align:start position:0%
+to finish doing this and only then our
+axis<00:03:03.879><c> can</c><00:03:04.040><c> move</c><00:03:04.280><c> the</c><00:03:04.480><c> heads</c><00:03:04.840><c> to</c><00:03:05.000><c> the</c><00:03:05.159><c> correct</c>
+
+00:03:05.509 --> 00:03:05.519 align:start position:0%
+axis can move the heads to the correct
+ 
+
+00:03:05.519 --> 00:03:10.159 align:start position:0%
+axis can move the heads to the correct
+position<00:03:06.000><c> and</c><00:03:06.159><c> do</c><00:03:06.480><c> a</c><00:03:06.640><c> read</c><00:03:06.879><c> or</c><00:03:07.000><c> a</c><00:03:07.200><c> write</c>
+

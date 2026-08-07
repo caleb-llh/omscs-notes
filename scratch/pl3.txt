@@ -1,0 +1,119 @@
+001|D0feztVihSA|Introduction - Georgia Tech - Advanced Operating Systems
+002|g5vl7arCWxk|Persistence - Georgia Tech - Advanced Operating Systems
+003|Pp5Dy1u0ARs|Server Design - Georgia Tech - Advanced Operating Systems
+004|C6_32xwrn_U|RVM Primitives - Georgia Tech - Advanced Operating Systems
+005|2mxYyLnAMOU|RVM Primitives (cont) - Georgia Tech - Advanced Operating Systems
+006|8haLAnJAMeQ|How the Server Uses the Primitives - Georgia Tech - Advanced Operating Systems
+007|FKHd7_Qsv80|How the Server Uses the Primitives (cont) - Georgia Tech - Advanced Operating Systems
+008|l3VRepzjU4A|Transaction Optimizations - Georgia Tech - Advanced Operating Systems
+009|8LBTkeAsX78|Implementation - Georgia Tech - Advanced Operating Systems
+010|KsqOy4OjV58|Crash Recovery - Georgia Tech - Advanced Operating Systems
+011|5J3BdScFKec|Log Truncation - Georgia Tech - Advanced Operating Systems
+012|h6uzg0ZjS7I|Conclusion - Georgia Tech - Advanced Operating Systems
+013|h66QbjALBAM|Introduction - Georgia Tech - Advanced Operating Systems
+014|yzH3X44mYF4|System Crash - Georgia Tech - Advanced Operating Systems
+015|h9CwgxsvqS8|LRVM Revisited - Georgia Tech - Advanced Operating Systems
+016|M6zR4M0XEkw|Rio File Cache - Georgia Tech - Advanced Operating Systems
+017|JgL5czmzt0Y|Vista RVM on Top of Rio - Georgia Tech - Advanced Operating Systems
+018|7_QibILkrmk|Crash Recovery - Georgia Tech - Advanced Operating Systems
+019|B5TYjZgyRpM|Vista Simplicity - Georgia Tech - Advanced Operating Systems
+020|ssF6q_AqYMM|Conclusion - Georgia Tech - Advanced Operating Systems
+021|JzoJqM8xU-Y|Cleaning up State Orphan Processes - Georgia Tech - Advanced Operating Systems
+022|w8fIXBSjPCw|Introduction - Georgia Tech - Advanced Operating Systems
+023|4vy57_EWXHM|Quiz Introduction - Georgia Tech - Advanced Operating Systems
+024|xoQfozr0gS8|Quicksilver Quiz - Georgia Tech - Advanced Operating Systems
+025|xSfgwAwBE3g|Quicksilver Quiz Solution - Georgia Tech - Advanced Operating Systems
+026|iAQYFrOWg50|Distributed System Structure - Georgia Tech - Advanced Operating Systems
+027|btCjay4am64|Quicksilver System Architecture - Georgia Tech - Advanced Operating Systems
+028|Tp2lh5WHGEA|IPC Fundamental to System Services - Georgia Tech - Advanced Operating Systems
+029|W9Dsrau2G7A|Bundling Distributed IPC and X Actions - Georgia Tech - Advanced Operating Systems
+030|dqfDuFnkd6E|Transaction Management - Georgia Tech - Advanced Operating Systems
+031|I0s7mYaLXCg|Distributed Transaction - Georgia Tech - Advanced Operating Systems
+032|RpqXNbgjv4g|Commit Initiated by Coordinator - Georgia Tech - Advanced Operating Systems
+033|t03Nl22vtAM|Upshot of Bundling IPC and Recovery - Georgia Tech - Advanced Operating Systems
+034|CNozg_w9ByE|Implementation Notes - Georgia Tech - Advanced Operating Systems
+035|D9C-HFO-XTg|Conclusion - Georgia Tech - Advanced Operating Systems
+036|ugrB9OqLqCU|Introduction - Georgia Tech - Advanced Operating Systems
+037|cxNG4mJEL-E|Giant Scale  Services Quiz - Georgia Tech - Advanced Operating Systems
+038|cqlsOT10DoY|Giant Scale  Services Quiz Solution - Georgia Tech - Advanced Operating Systems
+039|s9y5_3XrShc|Tablet Introduction - Georgia Tech - Advanced Operating Systems
+040|j0zOzGSlg6c|Generic Service Model of Giant Scale Services - Georgia Tech - Advanced Operating Systems
+041|WjiIPTaOFmQ|Clusters as Workhorses - Georgia Tech - Advanced Operating Systems
+042|HXVVX7hQeuI|Load Management Choices - Georgia Tech - Advanced Operating Systems
+043|gZV7dkGyNFw|Load Management at Network Level - Georgia Tech - Advanced Operating Systems
+044|nSwraiJSQj8|DQ Principle - Georgia Tech - Advanced Operating Systems
+045|bWrJh3Gcv_A|DQ Principle (cont) - Georgia Tech - Advanced Operating Systems
+046|W1NmbcuomVM|Replication vs Partitioning - Georgia Tech - Advanced Operating Systems
+047|Tk7e0LMsAlI|Graceful Degradation - Georgia Tech - Advanced Operating Systems
+048|zSHzpj0dT94|Online Evolution and Growth - Georgia Tech - Advanced Operating Systems
+049|vyRAoG4hIHI|Online Evolution and Growth (cont) - Georgia Tech - Advanced Operating Systems
+050|RhRC-vnU0Mk|Conclusion - Georgia Tech - Advanced Operating Systems
+051|d61gb8yZwRM|Introduction - Georgia Tech - Advanced Operating Systems
+052|7nFBDFaiJxE|MapReduce - Georgia Tech - Advanced Operating Systems
+053|wnTG3otai30|Why MapReduce - Georgia Tech - Advanced Operating Systems
+054|F0s_UZYIkHM|Heavy Lifting Done by the Runtime - Georgia Tech - Advanced Operating Systems
+055|ZLJ7dlITMOE|Heavy Lifting Done by the Runtime (cont) - Georgia Tech - Advanced Operating Systems
+056|279iQAnQTgM|Issues to be handled by the Runtime - Georgia Tech - Advanced Operating Systems
+057|zKbMdCdSD9Q|Conclusion - Georgia Tech - Advanced Operating Systems
+058|QF_OiDuWmfY|Introduction - Georgia Tech - Advanced Operating Systems
+059|SwMGigbxG-8|CDN's Quiz - Georgia Tech - Advanced Operating Systems
+060|VGWRqNILALo|CDN's Quiz Solution - Georgia Tech - Advanced Operating Systems
+061|nCLtfUjAVD4|DHT - Georgia Tech - Advanced Operating Systems
+062|3B182oKBNSI|DHT Details - Georgia Tech - Advanced Operating Systems
+063|X2SCanLFCsc|CDN (An Overlay Network) - Georgia Tech - Advanced Operating Systems
+064|pbBcYb6kaRE|Overlay Networks in General - Georgia Tech - Advanced Operating Systems
+065|wD17zvu3fo4|DHT and CDN's - Georgia Tech - Advanced Operating Systems
+066|enAoKFrqZBs|Traditional Approach - Georgia Tech - Advanced Operating Systems
+067|AAtiDoar9DM|Greedy Approach Leads to Metadata Server Overload - Georgia Tech - Advanced Operating Systems
+068|DD1jkGdZLeo|Origin Server Overload - Georgia Tech - Advanced Operating Systems
+069|QqsGTF7x5LA|Greedy Approach Leads to  Tree Saturation - Georgia Tech - Advanced Operating Systems
+070|Jp4tZF7Op8E|Key Based Routing - Georgia Tech - Advanced Operating Systems
+071|-uFp_m0RXdE|Coral Key Based Routing - Georgia Tech - Advanced Operating Systems
+072|8AI__MdrkOM|Key Based Routing in Coral - Georgia Tech - Advanced Operating Systems
+073|2FE8PrGATo4|Coral Sloppy DHT - Georgia Tech - Advanced Operating Systems
+074|zWzW6o55hHw|Coral Sloppy DHT (cont) - Georgia Tech - Advanced Operating Systems
+075|ruP5guuua9E|Coral in Action - Georgia Tech - Advanced Operating Systems
+076|pHLrD9glT0c|Conclusion - Georgia Tech - Advanced Operating Systems
+077|QC0ofNEkOxs|Introduction - Georgia Tech - Advanced Operating Systems
+078|mpOCpjAF2zg|Sources of Latency - Georgia Tech - Advanced Operating Systems
+079|bA5JPPayB9w|Timers Available - Georgia Tech - Advanced Operating Systems
+080|8w461XDOOXA|Firm Timer Design - Georgia Tech - Advanced Operating Systems
+081|_nqlUDTjUew|Firm Timer Implementation - Georgia Tech - Advanced Operating Systems
+082|Whse_Lcd4ec|Reducing Kernel Preemption Latency - Georgia Tech - Advanced Operating Systems
+083|-p-PQKpnG9o|Conclusion - Georgia Tech - Advanced Operating Systems
+084|dd91XHNNrf0|Introduction - Georgia Tech - Advanced Operating Systems
+085|vqGjy5R7G08|Programming Paradigms - Georgia Tech - Advanced Operating Systems
+086|OxclSGFEeWk|Novel Multimedia Apps - Georgia Tech - Advanced Operating Systems
+087|ub0nKo6ah8Y|Example- Large Scale Situation Awareness - Georgia Tech - Advanced Operating Systems
+088|H02dzpkGXGU|Programming Model for Situation Awareness - Georgia Tech - Advanced Operating Systems
+089|qHWkDT6w6bs|PTS Programming Model - Georgia Tech - Advanced Operating Systems
+090|WtAZ1aBhXg0|Bundling Streams - Georgia Tech - Advanced Operating Systems
+091|BRu9aK_YUWA|Power of Simplicity - Georgia Tech - Advanced Operating Systems
+092|yFBdnbXzs0M|PTS Design Principles - Georgia Tech - Advanced Operating Systems
+093|2CQhNCJeZvw|Persistant Channel Architecture - Georgia Tech - Advanced Operating Systems
+094|seM2yG9sZas|Conclusion - Georgia Tech - Advanced Operating Systems
+095|3QlxS7t6TzI|Introduction - Georgia Tech - Advanced Operating Systems
+096|ICdbxp1Gy80|Firsts  from Computing Pioneers - Georgia Tech - Advanced Operating Systems
+097|dr8GbrWDmWc|Terminologies - Georgia Tech - Advanced Operating Systems
+098|g6W718jZvVg|Levels of Protection - Georgia Tech - Advanced Operating Systems
+099|bUc3IRrGnkg|Design Principles - Georgia Tech - Advanced Operating Systems
+100|mDCxVZsjAek|Conclusion - Georgia Tech - Advanced Operating Systems
+101|Rv7j6f2oWr0|Introduction - Georgia Tech - Advanced Operating Systems
+102|DZHnvIAMXjg|State of Computing Circa 1988 - Georgia Tech - Advanced Operating Systems
+103|aM3xH-Rg5Z0|Andrew Architecture - Georgia Tech - Advanced Operating Systems
+104|alToTFRN7fQ|Encryption Primer - Georgia Tech - Advanced Operating Systems
+105|SC8S9Ik-XXA|Private Key Encryption System in Action - Georgia Tech - Advanced Operating Systems
+106|ySneJF9bWvs|Challenges for Andrew System - Georgia Tech - Advanced Operating Systems
+107|0jV_Mxjbj-A|Andrew Solution - Georgia Tech - Advanced Operating Systems
+108|1k-vI122N-Y|Login Process - Georgia Tech - Advanced Operating Systems
+109|zP2TVUNM-XA|RPC Session Establishment - Georgia Tech - Advanced Operating Systems
+110|Lu6ExKamfqE|RPC Session Establishment (cont) - Georgia Tech - Advanced Operating Systems
+111|_uAUgllxJY0|Sequence Establishment Quiz - Georgia Tech - Advanced Operating Systems
+112|RvzncKeF6AE|Sequence Establishment Quiz Solution - Georgia Tech - Advanced Operating Systems
+113|F9x1cBym5YI|Login is a Special Case of Bind - Georgia Tech - Advanced Operating Systems
+114|Td3KfTCg58A|Putting it all together - Georgia Tech - Advanced Operating Systems
+115|TRa-9JJjEhQ|AFS Security Report Card Quiz - Georgia Tech - Advanced Operating Systems
+116|qlCgDfmIcuk|AFS Security Report Card Quiz Solution - Georgia Tech - Advanced Operating Systems
+117|XMH601pzLOo|Conclusion - Georgia Tech - Advanced Operating Systems
+118|QEYlmQjxQKk|Interview With Yousef 1 - Georgia Tech - Advanced Operating Systems
+119|5CrDE9ZwAYE|Interview With Yousef 2 - Georgia Tech - Advanced Operating Systems

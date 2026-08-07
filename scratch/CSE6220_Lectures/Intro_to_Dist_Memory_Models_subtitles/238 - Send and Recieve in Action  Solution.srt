@@ -1,0 +1,48 @@
+1
+00:00:00,490 --> 00:00:02,730
+ The answer is that the behavior is undefined.
+
+2
+00:00:02,730 --> 00:00:05,320
+ The processes don't complete.
+
+3
+00:00:05,320 --> 00:00:08,240
+ They both initiate sends and then wait for the send to complete.
+
+4
+00:00:08,240 --> 00:00:09,330
+ But remember,
+
+5
+00:00:09,330 --> 00:00:13,130
+ there's an ambiguity about what complete means in the case of a send.
+
+6
+00:00:13,130 --> 00:00:15,180
+ It might be that there's some copying going on, but
+
+7
+00:00:15,180 --> 00:00:16,890
+ it might be that the message is very large and
+
+8
+00:00:16,890 --> 00:00:19,900
+ the implementation has decided to wait for delivery.
+
+9
+00:00:19,900 --> 00:00:22,600
+ In the latter case, that's a problem because it means that
+
+10
+00:00:22,600 --> 00:00:25,830
+ neither process can ever execute its receive.
+
+11
+00:00:25,830 --> 00:00:29,450
+ The result is deadlock, each process is waiting for the other to do something,
+
+12
+00:00:29,450 --> 00:00:29,450
+ but no one does it.
+

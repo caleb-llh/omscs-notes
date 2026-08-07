@@ -1,0 +1,28 @@
+1
+00:00:00,250 --> 00:00:01,890
+ Here is the answer.
+
+2
+00:00:01,890 --> 00:00:04,600
+ Remember that the blocked binary exchange scheme only
+
+3
+00:00:04,600 --> 00:00:07,689
+ communicates during the first log P stages.
+
+4
+00:00:07,689 --> 00:00:12,060
+ And each process has to send n over P words at each stage.
+
+5
+00:00:12,060 --> 00:00:14,000
+ So that's n over P words at each stage,
+
+6
+00:00:14,000 --> 00:00:16,830
+ the cost of sending a message os size n over P.
+
+7
+00:00:16,830 --> 00:00:16,830
+ And log P stages of communication.
+

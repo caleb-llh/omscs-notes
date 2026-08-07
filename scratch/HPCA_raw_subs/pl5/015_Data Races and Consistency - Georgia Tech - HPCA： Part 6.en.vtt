@@ -1,0 +1,688 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.359 --> 00:00:03.230 align:start position:0%
+ 
+there<00:00:00.480><c> is</c><00:00:00.640><c> a</c><00:00:00.880><c> concept</c><00:00:01.280><c> of</c><00:00:01.560><c> data</c><00:00:02.040><c> rays</c><00:00:03.040><c> that</c>
+
+00:00:03.230 --> 00:00:03.240 align:start position:0%
+there is a concept of data rays that
+ 
+
+00:00:03.240 --> 00:00:05.470 align:start position:0%
+there is a concept of data rays that
+plays<00:00:03.560><c> an</c><00:00:03.800><c> important</c><00:00:04.319><c> role</c><00:00:04.520><c> in</c><00:00:04.720><c> considering</c>
+
+00:00:05.470 --> 00:00:05.480 align:start position:0%
+plays an important role in considering
+ 
+
+00:00:05.480 --> 00:00:08.310 align:start position:0%
+plays an important role in considering
+how<00:00:05.640><c> we</c><00:00:05.799><c> can</c><00:00:05.960><c> relax</c><00:00:06.480><c> consistency</c><00:00:07.439><c> a</c><00:00:07.680><c> data</c><00:00:08.040><c> race</c>
+
+00:00:08.310 --> 00:00:08.320 align:start position:0%
+how we can relax consistency a data race
+ 
+
+00:00:08.320 --> 00:00:11.709 align:start position:0%
+how we can relax consistency a data race
+occurs<00:00:09.240><c> when</c><00:00:09.440><c> there</c><00:00:09.559><c> is</c><00:00:09.679><c> a</c><00:00:09.960><c> data</c><00:00:10.719><c> dependence</c>
+
+00:00:11.709 --> 00:00:11.719 align:start position:0%
+occurs when there is a data dependence
+ 
+
+00:00:11.719 --> 00:00:13.990 align:start position:0%
+occurs when there is a data dependence
+between<00:00:12.400><c> axises</c><00:00:12.960><c> that</c><00:00:13.080><c> are</c><00:00:13.280><c> on</c><00:00:13.559><c> different</c>
+
+00:00:13.990 --> 00:00:14.000 align:start position:0%
+between axises that are on different
+ 
+
+00:00:14.000 --> 00:00:16.790 align:start position:0%
+between axises that are on different
+cores<00:00:15.000><c> and</c><00:00:15.200><c> these</c><00:00:15.440><c> axises</c><00:00:15.839><c> are</c><00:00:16.119><c> not</c><00:00:16.359><c> ordered</c>
+
+00:00:16.790 --> 00:00:16.800 align:start position:0%
+cores and these axises are not ordered
+ 
+
+00:00:16.800 --> 00:00:19.070 align:start position:0%
+cores and these axises are not ordered
+by<00:00:16.960><c> synchronization</c><00:00:17.960><c> so</c><00:00:18.119><c> for</c><00:00:18.279><c> a</c><00:00:18.439><c> data</c><00:00:18.680><c> race</c><00:00:18.920><c> to</c>
+
+00:00:19.070 --> 00:00:19.080 align:start position:0%
+by synchronization so for a data race to
+ 
+
+00:00:19.080 --> 00:00:20.590 align:start position:0%
+by synchronization so for a data race to
+occur<00:00:19.359><c> we</c><00:00:19.480><c> need</c><00:00:19.640><c> to</c><00:00:19.800><c> really</c><00:00:20.080><c> have</c><00:00:20.320><c> one</c>
+
+00:00:20.590 --> 00:00:20.600 align:start position:0%
+occur we need to really have one
+ 
+
+00:00:20.600 --> 00:00:22.630 align:start position:0%
+occur we need to really have one
+processor<00:00:21.080><c> reading</c><00:00:21.480><c> another</c><00:00:21.840><c> writing</c><00:00:22.320><c> to</c><00:00:22.480><c> the</c>
+
+00:00:22.630 --> 00:00:22.640 align:start position:0%
+processor reading another writing to the
+ 
+
+00:00:22.640 --> 00:00:25.790 align:start position:0%
+processor reading another writing to the
+same<00:00:22.920><c> variable</c><00:00:23.800><c> or</c><00:00:24.119><c> the</c><00:00:24.240><c> other</c><00:00:24.480><c> way</c><00:00:24.680><c> around</c><00:00:25.320><c> or</c>
+
+00:00:25.790 --> 00:00:25.800 align:start position:0%
+same variable or the other way around or
+ 
+
+00:00:25.800 --> 00:00:26.830 align:start position:0%
+same variable or the other way around or
+both<00:00:26.000><c> of</c><00:00:26.119><c> them</c>
+
+00:00:26.830 --> 00:00:26.840 align:start position:0%
+both of them
+ 
+
+00:00:26.840 --> 00:00:30.310 align:start position:0%
+both of them
+writing<00:00:28.039><c> and</c><00:00:29.039><c> the</c><00:00:29.240><c> axises</c><00:00:30.000><c> on</c><00:00:30.119><c> these</c>
+
+00:00:30.310 --> 00:00:30.320 align:start position:0%
+writing and the axises on these
+ 
+
+00:00:30.320 --> 00:00:32.990 align:start position:0%
+writing and the axises on these
+different<00:00:30.599><c> cores</c><00:00:31.199><c> are</c><00:00:31.439><c> not</c><00:00:31.720><c> ordered</c><00:00:32.160><c> by</c>
+
+00:00:32.990 --> 00:00:33.000 align:start position:0%
+different cores are not ordered by
+ 
+
+00:00:33.000 --> 00:00:36.270 align:start position:0%
+different cores are not ordered by
+synchronization<00:00:34.000><c> so</c><00:00:34.280><c> here's</c><00:00:34.520><c> an</c><00:00:35.120><c> example</c><00:00:36.120><c> of</c>
+
+00:00:36.270 --> 00:00:36.280 align:start position:0%
+synchronization so here's an example of
+ 
+
+00:00:36.280 --> 00:00:39.470 align:start position:0%
+synchronization so here's an example of
+a<00:00:36.440><c> data</c><00:00:36.760><c> race</c><00:00:37.360><c> a</c><00:00:37.559><c> data</c><00:00:37.960><c> race</c><00:00:38.399><c> here</c><00:00:38.879><c> exists</c>
+
+00:00:39.470 --> 00:00:39.480 align:start position:0%
+a data race a data race here exists
+ 
+
+00:00:39.480 --> 00:00:42.869 align:start position:0%
+a data race a data race here exists
+because<00:00:40.440><c> really</c><00:00:41.160><c> we</c><00:00:41.280><c> can</c><00:00:41.559><c> have</c><00:00:41.879><c> this</c><00:00:42.200><c> happen</c>
+
+00:00:42.869 --> 00:00:42.879 align:start position:0%
+because really we can have this happen
+ 
+
+00:00:42.879 --> 00:00:44.790 align:start position:0%
+because really we can have this happen
+or<00:00:43.079><c> in</c><00:00:43.239><c> another</c><00:00:43.600><c> execution</c><00:00:44.039><c> this</c><00:00:44.280><c> store</c><00:00:44.559><c> might</c>
+
+00:00:44.790 --> 00:00:44.800 align:start position:0%
+or in another execution this store might
+ 
+
+00:00:44.800 --> 00:00:48.150 align:start position:0%
+or in another execution this store might
+occur<00:00:45.120><c> before</c><00:00:45.440><c> the</c><00:00:45.600><c> load</c><00:00:46.399><c> and</c><00:00:46.640><c> thus</c><00:00:47.640><c> this</c><00:00:47.920><c> can</c>
+
+00:00:48.150 --> 00:00:48.160 align:start position:0%
+occur before the load and thus this can
+ 
+
+00:00:48.160 --> 00:00:51.389 align:start position:0%
+occur before the load and thus this can
+happen<00:00:48.520><c> too</c><00:00:49.280><c> so</c><00:00:49.559><c> this</c><00:00:49.680><c> is</c><00:00:49.840><c> a</c><00:00:50.039><c> data</c><00:00:50.399><c> RM</c><00:00:51.120><c> in</c>
+
+00:00:51.389 --> 00:00:51.399 align:start position:0%
+happen too so this is a data RM in
+ 
+
+00:00:51.399 --> 00:00:53.590 align:start position:0%
+happen too so this is a data RM in
+contrast<00:00:51.960><c> something</c><00:00:52.440><c> like</c><00:00:52.760><c> this</c><00:00:53.120><c> where</c><00:00:53.280><c> we</c><00:00:53.399><c> do</c>
+
+00:00:53.590 --> 00:00:53.600 align:start position:0%
+contrast something like this where we do
+ 
+
+00:00:53.600 --> 00:00:56.869 align:start position:0%
+contrast something like this where we do
+low<00:00:53.960><c> a</c><00:00:54.840><c> then</c><00:00:55.000><c> a</c><00:00:55.239><c> barrier</c><00:00:56.079><c> and</c><00:00:56.280><c> this</c><00:00:56.440><c> thread</c>
+
+00:00:56.869 --> 00:00:56.879 align:start position:0%
+low a then a barrier and this thread
+ 
+
+00:00:56.879 --> 00:00:59.110 align:start position:0%
+low a then a barrier and this thread
+participates<00:00:57.559><c> in</c><00:00:57.760><c> that</c><00:00:58.000><c> barrier</c><00:00:58.680><c> and</c><00:00:58.879><c> then</c>
+
+00:00:59.110 --> 00:00:59.120 align:start position:0%
+participates in that barrier and then
+ 
+
+00:00:59.120 --> 00:01:00.430 align:start position:0%
+participates in that barrier and then
+does<00:00:59.399><c> store</c><00:00:59.719><c> a</c>
+
+00:01:00.430 --> 00:01:00.440 align:start position:0%
+does store a
+ 
+
+00:01:00.440 --> 00:01:02.750 align:start position:0%
+does store a
+there<00:01:00.600><c> is</c><00:01:00.920><c> a</c><00:01:01.199><c> data</c><00:01:01.640><c> dependence</c><00:01:02.320><c> between</c>
+
+00:01:02.750 --> 00:01:02.760 align:start position:0%
+there is a data dependence between
+ 
+
+00:01:02.760 --> 00:01:05.350 align:start position:0%
+there is a data dependence between
+axises<00:01:03.559><c> but</c><00:01:03.760><c> they're</c><00:01:04.119><c> clearly</c><00:01:04.600><c> ordered</c><00:01:05.080><c> by</c>
+
+00:01:05.350 --> 00:01:05.360 align:start position:0%
+axises but they're clearly ordered by
+ 
+
+00:01:05.360 --> 00:01:07.910 align:start position:0%
+axises but they're clearly ordered by
+synchronization<00:01:06.360><c> this</c><00:01:06.640><c> one</c><00:01:07.000><c> will</c><00:01:07.400><c> happen</c>
+
+00:01:07.910 --> 00:01:07.920 align:start position:0%
+synchronization this one will happen
+ 
+
+00:01:07.920 --> 00:01:10.469 align:start position:0%
+synchronization this one will happen
+before<00:01:08.320><c> this</c><00:01:08.439><c> one</c><00:01:08.799><c> because</c><00:01:09.240><c> of</c><00:01:09.400><c> the</c><00:01:09.520><c> barrier</c>
+
+00:01:10.469 --> 00:01:10.479 align:start position:0%
+before this one because of the barrier
+ 
+
+00:01:10.479 --> 00:01:13.030 align:start position:0%
+before this one because of the barrier
+synchronization<00:01:11.479><c> so</c><00:01:11.720><c> there</c><00:01:11.880><c> is</c><00:01:12.040><c> no</c><00:01:12.280><c> data</c><00:01:12.600><c> race</c>
+
+00:01:13.030 --> 00:01:13.040 align:start position:0%
+synchronization so there is no data race
+ 
+
+00:01:13.040 --> 00:01:17.190 align:start position:0%
+synchronization so there is no data race
+here<00:01:14.200><c> conceptually</c><00:01:15.200><c> a</c><00:01:15.439><c> data</c><00:01:15.759><c> race</c><00:01:16.119><c> allows</c><00:01:16.720><c> any</c>
+
+00:01:17.190 --> 00:01:17.200 align:start position:0%
+here conceptually a data race allows any
+ 
+
+00:01:17.200 --> 00:01:19.270 align:start position:0%
+here conceptually a data race allows any
+order<00:01:17.680><c> of</c><00:01:17.840><c> these</c><00:01:18.080><c> operations</c><00:01:18.720><c> and</c><00:01:18.920><c> that</c><00:01:19.080><c> might</c>
+
+00:01:19.270 --> 00:01:19.280 align:start position:0%
+order of these operations and that might
+ 
+
+00:01:19.280 --> 00:01:20.910 align:start position:0%
+order of these operations and that might
+change<00:01:19.600><c> the</c><00:01:19.720><c> outcome</c><00:01:20.079><c> of</c><00:01:20.200><c> the</c><00:01:20.400><c> program</c>
+
+00:01:20.910 --> 00:01:20.920 align:start position:0%
+change the outcome of the program
+ 
+
+00:01:20.920 --> 00:01:22.190 align:start position:0%
+change the outcome of the program
+whereas
+
+00:01:22.190 --> 00:01:22.200 align:start position:0%
+whereas
+ 
+
+00:01:22.200 --> 00:01:25.510 align:start position:0%
+whereas
+here<00:01:23.200><c> we</c><00:01:23.400><c> know</c><00:01:23.759><c> what's</c><00:01:24.040><c> going</c><00:01:24.119><c> to</c><00:01:24.360><c> happen</c><00:01:25.360><c> then</c>
+
+00:01:25.510 --> 00:01:25.520 align:start position:0%
+here we know what's going to happen then
+ 
+
+00:01:25.520 --> 00:01:28.870 align:start position:0%
+here we know what's going to happen then
+there<00:01:25.640><c> is</c><00:01:25.759><c> a</c><00:01:26.000><c> concept</c><00:01:26.439><c> of</c><00:01:26.600><c> a</c><00:01:27.200><c> data</c><00:01:27.640><c> Ras</c><00:01:28.000><c> free</c>
+
+00:01:28.870 --> 00:01:28.880 align:start position:0%
+there is a concept of a data Ras free
+ 
+
+00:01:28.880 --> 00:01:31.469 align:start position:0%
+there is a concept of a data Ras free
+program<00:01:29.680><c> which</c><00:01:29.920><c> which</c><00:01:30.040><c> is</c><00:01:30.119><c> a</c><00:01:30.400><c> program</c><00:01:31.240><c> that</c>
+
+00:01:31.469 --> 00:01:31.479 align:start position:0%
+program which which is a program that
+ 
+
+00:01:31.479 --> 00:01:34.149 align:start position:0%
+program which which is a program that
+cannot<00:01:32.280><c> create</c><00:01:32.720><c> any</c><00:01:33.040><c> data</c><00:01:33.360><c> races</c><00:01:33.759><c> in</c><00:01:33.920><c> its</c>
+
+00:01:34.149 --> 00:01:34.159 align:start position:0%
+cannot create any data races in its
+ 
+
+00:01:34.159 --> 00:01:36.670 align:start position:0%
+cannot create any data races in its
+execution<00:01:35.000><c> pretty</c><00:01:35.280><c> much</c><00:01:35.520><c> that</c><00:01:35.759><c> program</c><00:01:36.439><c> is</c>
+
+00:01:36.670 --> 00:01:36.680 align:start position:0%
+execution pretty much that program is
+ 
+
+00:01:36.680 --> 00:01:38.910 align:start position:0%
+execution pretty much that program is
+considered<00:01:37.079><c> to</c><00:01:37.159><c> be</c><00:01:37.320><c> well</c><00:01:37.640><c> synchronized</c><00:01:38.640><c> so</c>
+
+00:01:38.910 --> 00:01:38.920 align:start position:0%
+considered to be well synchronized so
+ 
+
+00:01:38.920 --> 00:01:43.230 align:start position:0%
+considered to be well synchronized so
+that<00:01:39.399><c> any</c><00:01:40.399><c> accesses</c><00:01:40.880><c> to</c><00:01:41.159><c> data</c><00:01:42.119><c> are</c><00:01:42.560><c> correctly</c>
+
+00:01:43.230 --> 00:01:43.240 align:start position:0%
+that any accesses to data are correctly
+ 
+
+00:01:43.240 --> 00:01:45.350 align:start position:0%
+that any accesses to data are correctly
+ordered<00:01:43.680><c> by</c><00:01:43.840><c> synchronization</c><00:01:44.840><c> barriers</c>
+
+00:01:45.350 --> 00:01:45.360 align:start position:0%
+ordered by synchronization barriers
+ 
+
+00:01:45.360 --> 00:01:48.670 align:start position:0%
+ordered by synchronization barriers
+locks<00:01:45.719><c> Flags</c><00:01:46.240><c> Etc</c><00:01:47.240><c> a</c><00:01:47.479><c> key</c><00:01:47.799><c> property</c><00:01:48.200><c> of</c><00:01:48.360><c> data</c>
+
+00:01:48.670 --> 00:01:48.680 align:start position:0%
+locks Flags Etc a key property of data
+ 
+
+00:01:48.680 --> 00:01:51.630 align:start position:0%
+locks Flags Etc a key property of data
+Race<00:01:48.960><c> Free</c><00:01:49.280><c> programs</c><00:01:50.240><c> is</c><00:01:50.479><c> that</c><00:01:50.759><c> they</c><00:01:50.960><c> behave</c>
+
+00:01:51.630 --> 00:01:51.640 align:start position:0%
+Race Free programs is that they behave
+ 
+
+00:01:51.640 --> 00:01:53.389 align:start position:0%
+Race Free programs is that they behave
+exactly<00:01:52.159><c> the</c><00:01:52.280><c> same</c><00:01:52.560><c> as</c><00:01:52.719><c> they</c><00:01:52.880><c> would</c><00:01:53.079><c> in</c>
+
+00:01:53.389 --> 00:01:53.399 align:start position:0%
+exactly the same as they would in
+ 
+
+00:01:53.399 --> 00:01:56.149 align:start position:0%
+exactly the same as they would in
+sequential<00:01:54.079><c> consistency</c><00:01:55.040><c> even</c><00:01:55.560><c> if</c><00:01:55.680><c> we</c><00:01:55.880><c> run</c>
+
+00:01:56.149 --> 00:01:56.159 align:start position:0%
+sequential consistency even if we run
+ 
+
+00:01:56.159 --> 00:01:59.550 align:start position:0%
+sequential consistency even if we run
+them<00:01:56.479><c> in</c><00:01:56.840><c> any</c><00:01:57.399><c> relaxed</c><00:01:58.000><c> consistency</c><00:01:58.600><c> model</c>
+
+00:01:59.550 --> 00:01:59.560 align:start position:0%
+them in any relaxed consistency model
+ 
+
+00:01:59.560 --> 00:02:01.550 align:start position:0%
+them in any relaxed consistency model
+why<00:01:59.920><c> is</c><00:02:00.000><c> that</c><00:02:00.159><c> so</c><00:02:00.479><c> well</c><00:02:00.719><c> because</c><00:02:01.119><c> if</c><00:02:01.320><c> your</c>
+
+00:02:01.550 --> 00:02:01.560 align:start position:0%
+why is that so well because if your
+ 
+
+00:02:01.560 --> 00:02:03.709 align:start position:0%
+why is that so well because if your
+synchronization<00:02:02.360><c> is</c><00:02:02.560><c> implemented</c><00:02:03.159><c> correctly</c>
+
+00:02:03.709 --> 00:02:03.719 align:start position:0%
+synchronization is implemented correctly
+ 
+
+00:02:03.719 --> 00:02:05.990 align:start position:0%
+synchronization is implemented correctly
+then<00:02:03.840><c> your</c><00:02:04.039><c> synchronization</c><00:02:05.000><c> is</c><00:02:05.159><c> going</c><00:02:05.320><c> to</c>
+
+00:02:05.990 --> 00:02:06.000 align:start position:0%
+then your synchronization is going to
+ 
+
+00:02:06.000 --> 00:02:08.830 align:start position:0%
+then your synchronization is going to
+create<00:02:06.360><c> the</c><00:02:06.560><c> right</c><00:02:06.759><c> orderings</c><00:02:07.320><c> for</c><00:02:07.840><c> things</c>
+
+00:02:08.830 --> 00:02:08.840 align:start position:0%
+create the right orderings for things
+ 
+
+00:02:08.840 --> 00:02:11.190 align:start position:0%
+create the right orderings for things
+and<00:02:09.080><c> then</c><00:02:09.920><c> there</c><00:02:10.080><c> is</c><00:02:10.280><c> no</c>
+
+00:02:11.190 --> 00:02:11.200 align:start position:0%
+and then there is no
+ 
+
+00:02:11.200 --> 00:02:14.070 align:start position:0%
+and then there is no
+opportunity<00:02:12.200><c> for</c><00:02:12.440><c> the</c><00:02:12.920><c> reorderings</c><00:02:13.920><c> that</c>
+
+00:02:14.070 --> 00:02:14.080 align:start position:0%
+opportunity for the reorderings that
+ 
+
+00:02:14.080 --> 00:02:16.030 align:start position:0%
+opportunity for the reorderings that
+might<00:02:14.360><c> violate</c><00:02:14.760><c> sequential</c><00:02:15.239><c> consistency</c><00:02:15.879><c> so</c>
+
+00:02:16.030 --> 00:02:16.040 align:start position:0%
+might violate sequential consistency so
+ 
+
+00:02:16.040 --> 00:02:18.350 align:start position:0%
+might violate sequential consistency so
+a<00:02:16.160><c> data</c><00:02:16.440><c> race</c><00:02:16.720><c> free</c><00:02:17.040><c> program</c><00:02:17.800><c> is</c><00:02:18.040><c> actually</c>
+
+00:02:18.350 --> 00:02:18.360 align:start position:0%
+a data race free program is actually
+ 
+
+00:02:18.360 --> 00:02:20.949 align:start position:0%
+a data race free program is actually
+sequentially<00:02:19.160><c> consistent</c><00:02:20.160><c> even</c><00:02:20.440><c> if</c><00:02:20.560><c> we</c><00:02:20.720><c> run</c>
+
+00:02:20.949 --> 00:02:20.959 align:start position:0%
+sequentially consistent even if we run
+ 
+
+00:02:20.959 --> 00:02:22.869 align:start position:0%
+sequentially consistent even if we run
+it<00:02:21.519><c> on</c><00:02:21.680><c> a</c><00:02:21.800><c> machine</c><00:02:22.160><c> that</c><00:02:22.280><c> doesn't</c><00:02:22.560><c> support</c>
+
+00:02:22.869 --> 00:02:22.879 align:start position:0%
+it on a machine that doesn't support
+ 
+
+00:02:22.879 --> 00:02:26.110 align:start position:0%
+it on a machine that doesn't support
+sequential<00:02:23.360><c> consistency</c><00:02:24.200><c> as</c><00:02:24.400><c> long</c><00:02:25.319><c> as</c>
+
+00:02:26.110 --> 00:02:26.120 align:start position:0%
+sequential consistency as long as
+ 
+
+00:02:26.120 --> 00:02:28.190 align:start position:0%
+sequential consistency as long as
+synchronization<00:02:27.120><c> is</c><00:02:27.319><c> correctly</c><00:02:27.720><c> implemented</c>
+
+00:02:28.190 --> 00:02:28.200 align:start position:0%
+synchronization is correctly implemented
+ 
+
+00:02:28.200 --> 00:02:31.030 align:start position:0%
+synchronization is correctly implemented
+for<00:02:28.400><c> that</c><00:02:28.760><c> machine</c><00:02:29.840><c> but</c><00:02:30.040><c> keep</c><00:02:30.239><c> in</c><00:02:30.440><c> mind</c><00:02:30.840><c> that</c>
+
+00:02:31.030 --> 00:02:31.040 align:start position:0%
+for that machine but keep in mind that
+ 
+
+00:02:31.040 --> 00:02:32.750 align:start position:0%
+for that machine but keep in mind that
+while<00:02:31.200><c> you're</c><00:02:31.400><c> debugging</c><00:02:31.920><c> your</c><00:02:32.160><c> programs</c>
+
+00:02:32.750 --> 00:02:32.760 align:start position:0%
+while you're debugging your programs
+ 
+
+00:02:32.760 --> 00:02:35.110 align:start position:0%
+while you're debugging your programs
+even<00:02:33.040><c> if</c><00:02:33.160><c> you</c><00:02:33.360><c> intend</c><00:02:33.800><c> them</c><00:02:33.959><c> to</c><00:02:34.120><c> be</c><00:02:34.319><c> data</c><00:02:34.640><c> Race</c>
+
+00:02:35.110 --> 00:02:35.120 align:start position:0%
+even if you intend them to be data Race
+ 
+
+00:02:35.120 --> 00:02:38.550 align:start position:0%
+even if you intend them to be data Race
+Free<00:02:36.120><c> they</c><00:02:36.280><c> may</c><00:02:36.519><c> not</c><00:02:36.920><c> actually</c><00:02:37.360><c> be</c><00:02:37.680><c> data</c><00:02:38.040><c> race</c>
+
+00:02:38.550 --> 00:02:38.560 align:start position:0%
+Free they may not actually be data race
+ 
+
+00:02:38.560 --> 00:02:41.430 align:start position:0%
+Free they may not actually be data race
+free<00:02:39.560><c> in</c><00:02:39.840><c> which</c><00:02:40.120><c> case</c>
+
+00:02:41.430 --> 00:02:41.440 align:start position:0%
+free in which case
+ 
+
+00:02:41.440 --> 00:02:44.550 align:start position:0%
+free in which case
+theoretically<00:02:42.440><c> anything</c><00:02:43.000><c> can</c><00:02:43.319><c> happen</c><00:02:44.319><c> so</c>
+
+00:02:44.550 --> 00:02:44.560 align:start position:0%
+theoretically anything can happen so
+ 
+
+00:02:44.560 --> 00:02:46.190 align:start position:0%
+theoretically anything can happen so
+pretty<00:02:44.840><c> much</c><00:02:45.080><c> while</c><00:02:45.239><c> we</c><00:02:45.360><c> are</c><00:02:45.480><c> debugging</c><00:02:45.959><c> a</c>
+
+00:02:46.190 --> 00:02:46.200 align:start position:0%
+pretty much while we are debugging a
+ 
+
+00:02:46.200 --> 00:02:49.110 align:start position:0%
+pretty much while we are debugging a
+program<00:02:47.120><c> to</c><00:02:47.360><c> remove</c><00:02:47.760><c> data</c><00:02:48.080><c> races</c><00:02:48.959><c> the</c>
+
+00:02:49.110 --> 00:02:49.120 align:start position:0%
+program to remove data races the
+ 
+
+00:02:49.120 --> 00:02:50.869 align:start position:0%
+program to remove data races the
+behavior<00:02:49.519><c> of</c><00:02:49.680><c> that</c><00:02:49.879><c> program</c><00:02:50.200><c> on</c><00:02:50.360><c> a</c><00:02:50.480><c> weekly</c>
+
+00:02:50.869 --> 00:02:50.879 align:start position:0%
+behavior of that program on a weekly
+ 
+
+00:02:50.879 --> 00:02:53.910 align:start position:0%
+behavior of that program on a weekly
+consistent<00:02:51.400><c> system</c><00:02:52.280><c> might</c><00:02:52.560><c> be</c><00:02:52.879><c> very</c><00:02:53.200><c> weird</c>
+
+00:02:53.910 --> 00:02:53.920 align:start position:0%
+consistent system might be very weird
+ 
+
+00:02:53.920 --> 00:02:55.630 align:start position:0%
+consistent system might be very weird
+and<00:02:54.080><c> thus</c><00:02:54.280><c> it</c><00:02:54.440><c> makes</c><00:02:54.680><c> debugging</c><00:02:55.319><c> really</c>
+
+00:02:55.630 --> 00:02:55.640 align:start position:0%
+and thus it makes debugging really
+ 
+
+00:02:55.640 --> 00:02:57.990 align:start position:0%
+and thus it makes debugging really
+really<00:02:56.200><c> difficult</c><00:02:57.040><c> so</c><00:02:57.239><c> for</c><00:02:57.440><c> most</c><00:02:57.680><c> programs</c>
+
+00:02:57.990 --> 00:02:58.000 align:start position:0%
+really difficult so for most programs
+ 
+
+00:02:58.000 --> 00:03:00.350 align:start position:0%
+really difficult so for most programs
+that<00:02:58.159><c> are</c><00:02:58.400><c> correct</c><00:02:59.400><c> and</c><00:02:59.599><c> that</c><00:02:59.840><c> means</c><00:03:00.080><c> data</c>
+
+00:03:00.350 --> 00:03:00.360 align:start position:0%
+that are correct and that means data
+ 
+
+00:03:00.360 --> 00:03:03.110 align:start position:0%
+that are correct and that means data
+Race<00:03:00.720><c> Free</c><00:03:01.720><c> we</c><00:03:01.840><c> can</c><00:03:02.000><c> relax</c><00:03:02.440><c> the</c><00:03:02.599><c> consistency</c>
+
+00:03:03.110 --> 00:03:03.120 align:start position:0%
+Race Free we can relax the consistency
+ 
+
+00:03:03.120 --> 00:03:05.789 align:start position:0%
+Race Free we can relax the consistency
+model<00:03:03.560><c> but</c><00:03:03.720><c> for</c><00:03:03.920><c> debugging</c><00:03:04.599><c> it</c><00:03:04.879><c> really</c><00:03:05.280><c> helps</c>
+
+00:03:05.789 --> 00:03:05.799 align:start position:0%
+model but for debugging it really helps
+ 
+
+00:03:05.799 --> 00:03:07.589 align:start position:0%
+model but for debugging it really helps
+if<00:03:05.920><c> we</c><00:03:06.040><c> can</c><00:03:06.200><c> support</c><00:03:06.560><c> sequential</c>
+
+00:03:07.589 --> 00:03:07.599 align:start position:0%
+if we can support sequential
+ 
+
+00:03:07.599 --> 00:03:10.309 align:start position:0%
+if we can support sequential
+consistency<00:03:08.599><c> so</c><00:03:08.879><c> some</c><00:03:09.280><c> processors</c><00:03:10.000><c> actually</c>
+
+00:03:10.309 --> 00:03:10.319 align:start position:0%
+consistency so some processors actually
+ 
+
+00:03:10.319 --> 00:03:13.430 align:start position:0%
+consistency so some processors actually
+have<00:03:10.560><c> support</c><00:03:11.000><c> to</c><00:03:11.200><c> flip</c><00:03:11.840><c> between</c><00:03:12.840><c> sequential</c>
+
+00:03:13.430 --> 00:03:13.440 align:start position:0%
+have support to flip between sequential
+ 
+
+00:03:13.440 --> 00:03:14.949 align:start position:0%
+have support to flip between sequential
+consistency<00:03:14.000><c> or</c><00:03:14.120><c> some</c><00:03:14.319><c> more</c><00:03:14.519><c> relaxed</c>
+
+00:03:14.949 --> 00:03:14.959 align:start position:0%
+consistency or some more relaxed
+ 
+
+00:03:14.959 --> 00:03:16.390 align:start position:0%
+consistency or some more relaxed
+consistency<00:03:15.480><c> that</c><00:03:15.599><c> gives</c><00:03:15.799><c> us</c><00:03:16.000><c> better</c>
+
+00:03:16.390 --> 00:03:16.400 align:start position:0%
+consistency that gives us better
+ 
+
+00:03:16.400 --> 00:03:18.070 align:start position:0%
+consistency that gives us better
+performance<00:03:17.400><c> so</c><00:03:17.640><c> that</c><00:03:17.760><c> when</c><00:03:17.879><c> you're</c>
+
+00:03:18.070 --> 00:03:18.080 align:start position:0%
+performance so that when you're
+ 
+
+00:03:18.080 --> 00:03:20.670 align:start position:0%
+performance so that when you're
+debugging<00:03:18.920><c> you</c><00:03:19.040><c> can</c><00:03:19.200><c> use</c><00:03:19.400><c> sequential</c>
+
+00:03:20.670 --> 00:03:20.680 align:start position:0%
+debugging you can use sequential
+ 
+
+00:03:20.680 --> 00:03:23.110 align:start position:0%
+debugging you can use sequential
+consistency<00:03:21.680><c> until</c><00:03:22.159><c> you're</c><00:03:22.440><c> reasonably</c><00:03:22.879><c> sure</c>
+
+00:03:23.110 --> 00:03:23.120 align:start position:0%
+consistency until you're reasonably sure
+ 
+
+00:03:23.120 --> 00:03:24.550 align:start position:0%
+consistency until you're reasonably sure
+that<00:03:23.239><c> your</c><00:03:23.400><c> program</c><00:03:23.760><c> is</c><00:03:23.879><c> working</c><00:03:24.200><c> correctly</c>
+
+00:03:24.550 --> 00:03:24.560 align:start position:0%
+that your program is working correctly
+ 
+
+00:03:24.560 --> 00:03:27.149 align:start position:0%
+that your program is working correctly
+and<00:03:24.680><c> is</c><00:03:24.799><c> data</c><00:03:25.040><c> Ras</c><00:03:25.280><c> free</c><00:03:25.879><c> at</c><00:03:26.120><c> which</c><00:03:26.400><c> point</c><00:03:27.000><c> we</c>
+
+00:03:27.149 --> 00:03:27.159 align:start position:0%
+and is data Ras free at which point we
+ 
+
+00:03:27.159 --> 00:03:30.270 align:start position:0%
+and is data Ras free at which point we
+can<00:03:27.319><c> run</c><00:03:27.560><c> it</c><00:03:28.280><c> on</c><00:03:28.560><c> a</c><00:03:28.720><c> weaker</c><00:03:29.080><c> consistency</c><00:03:29.760><c> model</c>
+
+00:03:30.270 --> 00:03:30.280 align:start position:0%
+can run it on a weaker consistency model
+ 
+
+00:03:30.280 --> 00:03:32.429 align:start position:0%
+can run it on a weaker consistency model
+to<00:03:30.560><c> benefit</c><00:03:31.120><c> from</c><00:03:31.360><c> the</c><00:03:31.920><c> additional</c>
+
+00:03:32.429 --> 00:03:32.439 align:start position:0%
+to benefit from the additional
+ 
+
+00:03:32.439 --> 00:03:33.990 align:start position:0%
+to benefit from the additional
+reordering<00:03:33.120><c> that</c><00:03:33.280><c> the</c><00:03:33.400><c> processor</c><00:03:33.720><c> is</c><00:03:33.840><c> now</c>
+
+00:03:33.990 --> 00:03:34.000 align:start position:0%
+reordering that the processor is now
+ 
+
+00:03:34.000 --> 00:03:37.720 align:start position:0%
+reordering that the processor is now
+allowed<00:03:34.319><c> to</c><00:03:34.720><c> do</c>
+

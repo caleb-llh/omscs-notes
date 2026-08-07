@@ -1,0 +1,148 @@
+1
+00:00:00,280 --> 00:00:03,210
+ As stated in the question, there are actually multiple correct answers
+
+2
+00:00:03,210 --> 00:00:05,580
+ because of a harmless ambiguity in the algorithm.
+
+3
+00:00:05,580 --> 00:00:08,340
+ Let me give you one possible answer.
+
+4
+00:00:08,340 --> 00:00:11,320
+ It's the vertices c, d, and e.
+
+5
+00:00:11,320 --> 00:00:14,820
+ Let's see how I got that and where an ambiguity arises.
+
+6
+00:00:14,820 --> 00:00:19,000
+ Initially, the queue F contains just the source vertex S.
+
+7
+00:00:19,000 --> 00:00:24,860
+ So the first time you test whether F is non-empty, F will contain the vertex S.
+
+8
+00:00:24,860 --> 00:00:28,340
+ Now after extracting S, we visit the neighbors.
+
+9
+00:00:28,340 --> 00:00:32,460
+ In this case, the neighbors are just B, C, D and E.
+
+10
+00:00:32,460 --> 00:00:34,650
+ Notice that they're all unvisited.
+
+11
+00:00:34,650 --> 00:00:39,180
+ So the algorithm will update their distances and then insert them into F.
+
+12
+00:00:39,180 --> 00:00:43,440
+ The ambiguity is the order in which the vertices are updated and inserted.
+
+13
+00:00:43,440 --> 00:00:47,470
+ That will affect the order in which we later extract them.
+
+14
+00:00:47,470 --> 00:00:50,320
+ Now from a correctness point of view that doesn't actually matter,
+
+15
+00:00:50,320 --> 00:00:51,590
+ this ordering.
+
+16
+00:00:51,590 --> 00:00:53,960
+ Now let's just walk through an example.
+
+17
+00:00:53,960 --> 00:00:58,050
+ Suppose we really did update and insert the vertices in the order shown, b, c,
+
+18
+00:00:58,050 --> 00:00:58,570
+ d and e.
+
+19
+00:00:58,570 --> 00:01:02,920
+ And assuming F is a FIFO, first in first out queue,
+
+20
+00:01:02,920 --> 00:01:06,760
+ then the next extraction will first pull out b.
+
+21
+00:01:06,760 --> 00:01:10,670
+ Now the vertex b has just one outgoing neighbor d.
+
+22
+00:01:10,670 --> 00:01:12,150
+ D has already been visited so
+
+23
+00:01:12,150 --> 00:01:15,330
+ in this iteration of the while loop nothing else will happen.
+
+24
+00:01:15,330 --> 00:01:19,100
+ That brings us to the third execution of the while condition.
+
+25
+00:01:19,100 --> 00:01:22,330
+ In that case F contains c, d, and e.
+
+26
+00:01:22,330 --> 00:01:26,390
+ Okay so that assumes that we inserted them as b, c, d, and e and
+
+27
+00:01:26,390 --> 00:01:28,430
+ extracted b first.
+
+28
+00:01:28,430 --> 00:01:32,280
+ What if we had instead extracted c rather than b?
+
+29
+00:01:32,280 --> 00:01:34,930
+ Then you should be able to convince yourself that the contents would be
+
+30
+00:01:34,930 --> 00:01:36,640
+ this instead.
+
+31
+00:01:36,640 --> 00:01:39,690
+ It's the vertices b, d, e and a.
+
+32
+00:01:39,690 --> 00:01:44,000
+ As it turns out, this ambiguity is a feature, not a bug.
+
+33
+00:01:44,000 --> 00:01:47,850
+ We'll, in fact, exploit this ambiguity in designing a parallel algorithm,
+
+34
+00:01:47,850 --> 00:01:49,910
+ which is the reason for this quiz.
+
+35
+00:01:49,910 --> 00:01:52,190
+ That is, the quiz is not designed to torture you.
+
+36
+00:01:52,190 --> 00:01:54,730
+ It's actually designed to teach you something.
+
+37
+00:01:54,730 --> 00:01:54,730
+ Imagine that.
+

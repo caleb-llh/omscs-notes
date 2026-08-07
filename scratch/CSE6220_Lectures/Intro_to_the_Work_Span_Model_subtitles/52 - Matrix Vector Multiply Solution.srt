@@ -1,0 +1,44 @@
+1
+00:00:00,340 --> 00:00:02,930
+ So the answer is only loop 1.
+
+2
+00:00:02,930 --> 00:00:06,860
+ The iterations of the i loop are completely independent of one another,
+
+3
+00:00:06,860 --> 00:00:10,640
+ because they always update different values y sub i.
+
+4
+00:00:10,640 --> 00:00:13,350
+ Loop j however is a different story.
+
+5
+00:00:13,350 --> 00:00:15,330
+ Notice that at different values of j,
+
+6
+00:00:15,330 --> 00:00:18,560
+ we still might be updating the same location i.
+
+7
+00:00:18,560 --> 00:00:22,820
+ So different iterations of the j loop are not independent of one another.
+
+8
+00:00:22,820 --> 00:00:25,720
+ In fact, if you have a compilers background, then you know that compiler
+
+9
+00:00:25,720 --> 00:00:30,540
+ writers would like to say that the j loop carries a dependence.
+
+10
+00:00:30,540 --> 00:00:35,120
+ And the problem that you create if you try to paralyze the j loop
+
+11
+00:00:35,120 --> 00:00:35,120
+ is called a race condition.
+

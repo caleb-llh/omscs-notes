@@ -1,0 +1,128 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.090 align:start position:0%
+ 
+let's<00:00:00.269><c> take</c><00:00:00.510><c> a</c><00:00:00.539><c> minute</c><00:00:00.780><c> to</c><00:00:00.930><c> check</c><00:00:01.050><c> if</c><00:00:01.650><c> we</c>
+
+00:00:02.090 --> 00:00:02.100 align:start position:0%
+let's take a minute to check if we
+ 
+
+00:00:02.100 --> 00:00:03.470 align:start position:0%
+let's take a minute to check if we
+understood<00:00:02.520><c> the</c><00:00:02.700><c> relationship</c><00:00:03.300><c> between</c>
+
+00:00:03.470 --> 00:00:03.480 align:start position:0%
+understood the relationship between
+ 
+
+00:00:03.480 --> 00:00:06.079 align:start position:0%
+understood the relationship between
+latency<00:00:04.049><c> and</c><00:00:04.410><c> throughput</c><00:00:04.819><c> suppose</c><00:00:05.819><c> we</c><00:00:06.000><c> are</c>
+
+00:00:06.079 --> 00:00:06.089 align:start position:0%
+latency and throughput suppose we are
+ 
+
+00:00:06.089 --> 00:00:08.330 align:start position:0%
+latency and throughput suppose we are
+running<00:00:06.270><c> a</c><00:00:06.540><c> website</c><00:00:06.779><c> for</c><00:00:07.259><c> ordering</c><00:00:07.710><c> penguin</c>
+
+00:00:08.330 --> 00:00:08.340 align:start position:0%
+running a website for ordering penguin
+ 
+
+00:00:08.340 --> 00:00:11.480 align:start position:0%
+running a website for ordering penguin
+shaped<00:00:08.610><c> USB</c><00:00:09.240><c> drives</c><00:00:09.540><c> our</c><00:00:09.960><c> website</c><00:00:10.710><c> has</c><00:00:11.070><c> two</c>
+
+00:00:11.480 --> 00:00:11.490 align:start position:0%
+shaped USB drives our website has two
+ 
+
+00:00:11.490 --> 00:00:15.020 align:start position:0%
+shaped USB drives our website has two
+servers<00:00:12.179><c> and</c><00:00:12.599><c> it</c><00:00:13.049><c> works</c><00:00:13.290><c> as</c><00:00:13.559><c> follows</c><00:00:13.920><c> an</c><00:00:14.309><c> order</c>
+
+00:00:15.020 --> 00:00:15.030 align:start position:0%
+servers and it works as follows an order
+ 
+
+00:00:15.030 --> 00:00:17.150 align:start position:0%
+servers and it works as follows an order
+request<00:00:15.450><c> will</c><00:00:15.929><c> be</c><00:00:15.960><c> assigned</c><00:00:16.379><c> to</c><00:00:16.680><c> one</c><00:00:16.859><c> of</c><00:00:16.920><c> the</c>
+
+00:00:17.150 --> 00:00:17.160 align:start position:0%
+request will be assigned to one of the
+ 
+
+00:00:17.160 --> 00:00:20.150 align:start position:0%
+request will be assigned to one of the
+servers<00:00:17.580><c> very</c><00:00:17.880><c> quickly</c><00:00:18.180><c> a</c><00:00:18.449><c> server</c><00:00:19.140><c> takes</c><00:00:19.710><c> one</c>
+
+00:00:20.150 --> 00:00:20.160 align:start position:0%
+servers very quickly a server takes one
+ 
+
+00:00:20.160 --> 00:00:22.759 align:start position:0%
+servers very quickly a server takes one
+millisecond<00:00:20.970><c> to</c><00:00:21.330><c> process</c><00:00:21.810><c> a</c><00:00:22.020><c> single</c><00:00:22.560><c> order</c>
+
+00:00:22.759 --> 00:00:22.769 align:start position:0%
+millisecond to process a single order
+ 
+
+00:00:22.769 --> 00:00:25.400 align:start position:0%
+millisecond to process a single order
+and<00:00:23.130><c> a</c><00:00:23.670><c> server</c><00:00:24.029><c> cannot</c><00:00:24.510><c> do</c><00:00:24.720><c> anything</c><00:00:24.990><c> else</c>
+
+00:00:25.400 --> 00:00:25.410 align:start position:0%
+and a server cannot do anything else
+ 
+
+00:00:25.410 --> 00:00:28.609 align:start position:0%
+and a server cannot do anything else
+while<00:00:26.340><c> processing</c><00:00:27.090><c> and</c><00:00:27.300><c> order</c><00:00:27.779><c> so</c><00:00:28.500><c> the</c>
+
+00:00:28.609 --> 00:00:28.619 align:start position:0%
+while processing and order so the
+ 
+
+00:00:28.619 --> 00:00:31.099 align:start position:0%
+while processing and order so the
+question<00:00:28.980><c> for</c><00:00:29.010><c> you</c><00:00:29.310><c> is</c><00:00:29.550><c> what</c><00:00:30.539><c> does</c><00:00:30.750><c> this</c>
+
+00:00:31.099 --> 00:00:31.109 align:start position:0%
+question for you is what does this
+ 
+
+00:00:31.109 --> 00:00:34.790 align:start position:0%
+question for you is what does this
+website<00:00:31.619><c> have</c><00:00:31.890><c> for</c><00:00:32.820><c> throughput</c><00:00:33.329><c> in</c><00:00:33.800><c> orders</c>
+
+00:00:34.790 --> 00:00:34.800 align:start position:0%
+website have for throughput in orders
+ 
+
+00:00:34.800 --> 00:00:37.459 align:start position:0%
+website have for throughput in orders
+per<00:00:35.040><c> second</c><00:00:35.520><c> so</c><00:00:35.790><c> how</c><00:00:36.000><c> many</c><00:00:36.210><c> orders</c><00:00:36.540><c> per</c><00:00:36.960><c> second</c>
+
+00:00:37.459 --> 00:00:37.469 align:start position:0%
+per second so how many orders per second
+ 
+
+00:00:37.469 --> 00:00:39.590 align:start position:0%
+per second so how many orders per second
+and<00:00:37.559><c> what's</c><00:00:38.190><c> the</c><00:00:38.370><c> latency</c><00:00:38.879><c> for</c><00:00:39.059><c> orders</c><00:00:39.420><c> in</c>
+
+00:00:39.590 --> 00:00:39.600 align:start position:0%
+and what's the latency for orders in
+ 
+
+00:00:39.600 --> 00:00:43.460 align:start position:0%
+and what's the latency for orders in
+this<00:00:39.690><c> website</c><00:00:39.960><c> in</c><00:00:40.620><c> milliseconds</c>
+

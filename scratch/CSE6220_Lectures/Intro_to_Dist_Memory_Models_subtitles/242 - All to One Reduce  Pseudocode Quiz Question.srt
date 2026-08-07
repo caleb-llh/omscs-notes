@@ -1,0 +1,28 @@
+1
+00:00:00,480 --> 00:00:04,360
+ This algorithm performs an all to one reduce leaving the final result on
+
+2
+00:00:04,360 --> 00:00:05,930
+ rank zero.
+
+3
+00:00:05,930 --> 00:00:09,030
+ And it works provided P is a power of two.
+
+4
+00:00:09,030 --> 00:00:12,250
+ That seems like an annoying restriction let's see if we can get rid of it.
+
+5
+00:00:12,250 --> 00:00:15,910
+ When P is not a power of two I claim you can patch the code
+
+6
+00:00:15,910 --> 00:00:18,160
+ by inserting something here.
+
+7
+00:00:18,160 --> 00:00:18,160
+ So what I want you to do is come up with a patch and stick it in there.
+

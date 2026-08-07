@@ -1,0 +1,400 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.829 align:start position:0%
+ 
+benchmarks<00:00:00.880><c> are</c><00:00:01.040><c> very</c><00:00:01.280><c> important</c><00:00:01.680><c> to</c>
+
+00:00:01.829 --> 00:00:01.839 align:start position:0%
+benchmarks are very important to
+ 
+
+00:00:01.839 --> 00:00:04.470 align:start position:0%
+benchmarks are very important to
+computer<00:00:02.320><c> manufacturers</c><00:00:03.199><c> so</c><00:00:03.439><c> usually</c><00:00:04.240><c> there</c>
+
+00:00:04.470 --> 00:00:04.480 align:start position:0%
+computer manufacturers so usually there
+ 
+
+00:00:04.480 --> 00:00:06.309 align:start position:0%
+computer manufacturers so usually there
+are<00:00:04.560><c> standards</c><00:00:05.120><c> organizations</c><00:00:05.920><c> that</c><00:00:06.160><c> put</c>
+
+00:00:06.309 --> 00:00:06.319 align:start position:0%
+are standards organizations that put
+ 
+
+00:00:06.319 --> 00:00:08.549 align:start position:0%
+are standards organizations that put
+together<00:00:06.720><c> benchmark</c><00:00:07.200><c> suites</c><00:00:07.680><c> for</c><00:00:07.839><c> use</c><00:00:08.240><c> in</c>
+
+00:00:08.549 --> 00:00:08.559 align:start position:0%
+together benchmark suites for use in
+ 
+
+00:00:08.559 --> 00:00:11.190 align:start position:0%
+together benchmark suites for use in
+comparing<00:00:09.040><c> performance</c><00:00:09.840><c> between</c><00:00:10.240><c> machines</c>
+
+00:00:11.190 --> 00:00:11.200 align:start position:0%
+comparing performance between machines
+ 
+
+00:00:11.200 --> 00:00:13.030 align:start position:0%
+comparing performance between machines
+so<00:00:11.440><c> usually</c><00:00:12.000><c> there</c><00:00:12.240><c> is</c><00:00:12.320><c> a</c><00:00:12.400><c> benchmarking</c>
+
+00:00:13.030 --> 00:00:13.040 align:start position:0%
+so usually there is a benchmarking
+ 
+
+00:00:13.040 --> 00:00:15.190 align:start position:0%
+so usually there is a benchmarking
+organization<00:00:14.160><c> that</c><00:00:14.400><c> takes</c><00:00:14.719><c> input</c><00:00:15.040><c> from</c>
+
+00:00:15.190 --> 00:00:15.200 align:start position:0%
+organization that takes input from
+ 
+
+00:00:15.200 --> 00:00:17.590 align:start position:0%
+organization that takes input from
+manufacturers<00:00:15.920><c> of</c><00:00:16.080><c> systems</c><00:00:16.960><c> from</c><00:00:17.199><c> user</c>
+
+00:00:17.590 --> 00:00:17.600 align:start position:0%
+manufacturers of systems from user
+ 
+
+00:00:17.600 --> 00:00:20.710 align:start position:0%
+manufacturers of systems from user
+groups<00:00:18.400><c> from</c><00:00:18.640><c> experts</c><00:00:19.119><c> in</c><00:00:19.199><c> academia</c><00:00:20.240><c> and</c><00:00:20.480><c> so</c>
+
+00:00:20.710 --> 00:00:20.720 align:start position:0%
+groups from experts in academia and so
+ 
+
+00:00:20.720 --> 00:00:23.429 align:start position:0%
+groups from experts in academia and so
+on<00:00:21.359><c> and</c><00:00:21.520><c> produces</c><00:00:22.320><c> a</c><00:00:22.480><c> standard</c><00:00:22.960><c> benchmark</c>
+
+00:00:23.429 --> 00:00:23.439 align:start position:0%
+on and produces a standard benchmark
+ 
+
+00:00:23.439 --> 00:00:25.910 align:start position:0%
+on and produces a standard benchmark
+suite<00:00:24.000><c> along</c><00:00:24.320><c> with</c><00:00:24.560><c> instructions</c><00:00:25.279><c> on</c><00:00:25.519><c> how</c><00:00:25.760><c> to</c>
+
+00:00:25.910 --> 00:00:25.920 align:start position:0%
+suite along with instructions on how to
+ 
+
+00:00:25.920 --> 00:00:28.470 align:start position:0%
+suite along with instructions on how to
+produce<00:00:26.400><c> representative</c><00:00:27.119><c> measurements</c><00:00:28.240><c> so</c>
+
+00:00:28.470 --> 00:00:28.480 align:start position:0%
+produce representative measurements so
+ 
+
+00:00:28.480 --> 00:00:30.470 align:start position:0%
+produce representative measurements so
+this<00:00:28.640><c> is</c><00:00:28.800><c> how</c><00:00:28.960><c> we</c><00:00:29.039><c> got</c><00:00:29.359><c> tpc</c>
+
+00:00:30.470 --> 00:00:30.480 align:start position:0%
+this is how we got tpc
+ 
+
+00:00:30.480 --> 00:00:31.669 align:start position:0%
+this is how we got tpc
+benchmarks
+
+00:00:31.669 --> 00:00:31.679 align:start position:0%
+benchmarks
+ 
+
+00:00:31.679 --> 00:00:34.069 align:start position:0%
+benchmarks
+which<00:00:32.000><c> are</c><00:00:32.079><c> used</c><00:00:32.320><c> for</c><00:00:32.559><c> databases</c><00:00:33.360><c> web</c><00:00:33.680><c> servers</c>
+
+00:00:34.069 --> 00:00:34.079 align:start position:0%
+which are used for databases web servers
+ 
+
+00:00:34.079 --> 00:00:35.910 align:start position:0%
+which are used for databases web servers
+data<00:00:34.480><c> mining</c><00:00:34.880><c> and</c><00:00:35.040><c> other</c><00:00:35.360><c> transaction</c>
+
+00:00:35.910 --> 00:00:35.920 align:start position:0%
+data mining and other transaction
+ 
+
+00:00:35.920 --> 00:00:39.430 align:start position:0%
+data mining and other transaction
+processing<00:00:36.880><c> so-called</c><00:00:37.520><c> embassy</c><00:00:38.399><c> benchmarks</c>
+
+00:00:39.430 --> 00:00:39.440 align:start position:0%
+processing so-called embassy benchmarks
+ 
+
+00:00:39.440 --> 00:00:41.430 align:start position:0%
+processing so-called embassy benchmarks
+which<00:00:39.760><c> are</c><00:00:39.840><c> used</c><00:00:40.160><c> in</c><00:00:40.320><c> embedded</c><00:00:40.800><c> processing</c>
+
+00:00:41.430 --> 00:00:41.440 align:start position:0%
+which are used in embedded processing
+ 
+
+00:00:41.440 --> 00:00:44.069 align:start position:0%
+which are used in embedded processing
+such<00:00:41.680><c> as</c><00:00:42.079><c> cars</c><00:00:42.480><c> video</c><00:00:42.879><c> players</c><00:00:43.520><c> printers</c>
+
+00:00:44.069 --> 00:00:44.079 align:start position:0%
+such as cars video players printers
+ 
+
+00:00:44.079 --> 00:00:45.830 align:start position:0%
+such as cars video players printers
+phones<00:00:44.399><c> etc</c><00:00:44.960><c> so</c><00:00:45.120><c> if</c><00:00:45.200><c> we're</c><00:00:45.360><c> testing</c><00:00:45.760><c> a</c>
+
+00:00:45.830 --> 00:00:45.840 align:start position:0%
+phones etc so if we're testing a
+ 
+
+00:00:45.840 --> 00:00:47.830 align:start position:0%
+phones etc so if we're testing a
+processor<00:00:46.320><c> for</c><00:00:46.559><c> for</c><00:00:46.719><c> example</c><00:00:47.360><c> potentially</c>
+
+00:00:47.830 --> 00:00:47.840 align:start position:0%
+processor for for example potentially
+ 
+
+00:00:47.840 --> 00:00:49.350 align:start position:0%
+processor for for example potentially
+using<00:00:48.239><c> a</c><00:00:48.320><c> car</c>
+
+00:00:49.350 --> 00:00:49.360 align:start position:0%
+using a car
+ 
+
+00:00:49.360 --> 00:00:51.270 align:start position:0%
+using a car
+we<00:00:49.520><c> would</c><00:00:49.760><c> use</c><00:00:50.000><c> the</c><00:00:50.160><c> embassy</c><00:00:50.559><c> benchmarks</c><00:00:51.120><c> not</c>
+
+00:00:51.270 --> 00:00:51.280 align:start position:0%
+we would use the embassy benchmarks not
+ 
+
+00:00:51.280 --> 00:00:52.470 align:start position:0%
+we would use the embassy benchmarks not
+the<00:00:51.360><c> tpc</c>
+
+00:00:52.470 --> 00:00:52.480 align:start position:0%
+the tpc
+ 
+
+00:00:52.480 --> 00:00:53.990 align:start position:0%
+the tpc
+and<00:00:52.640><c> the</c><00:00:52.800><c> spec</c><00:00:53.199><c> benchmarks</c><00:00:53.680><c> which</c><00:00:53.920><c> are</c>
+
+00:00:53.990 --> 00:00:54.000 align:start position:0%
+and the spec benchmarks which are
+ 
+
+00:00:54.000 --> 00:00:55.990 align:start position:0%
+and the spec benchmarks which are
+typically<00:00:54.480><c> used</c><00:00:54.719><c> to</c><00:00:54.879><c> evaluate</c><00:00:55.440><c> engineering</c>
+
+00:00:55.990 --> 00:00:56.000 align:start position:0%
+typically used to evaluate engineering
+ 
+
+00:00:56.000 --> 00:00:58.229 align:start position:0%
+typically used to evaluate engineering
+workstations<00:00:56.879><c> and</c><00:00:57.039><c> also</c><00:00:57.360><c> raw</c><00:00:57.600><c> processors</c>
+
+00:00:58.229 --> 00:00:58.239 align:start position:0%
+workstations and also raw processors
+ 
+
+00:00:58.239 --> 00:01:00.150 align:start position:0%
+workstations and also raw processors
+because<00:00:58.559><c> these</c><00:00:58.879><c> benchmarks</c><00:00:59.600><c> unlike</c><00:01:00.000><c> the</c>
+
+00:01:00.150 --> 00:01:00.160 align:start position:0%
+because these benchmarks unlike the
+ 
+
+00:01:00.160 --> 00:01:01.430 align:start position:0%
+because these benchmarks unlike the
+other<00:01:00.480><c> two</c>
+
+00:01:01.430 --> 00:01:01.440 align:start position:0%
+other two
+ 
+
+00:01:01.440 --> 00:01:03.270 align:start position:0%
+other two
+are<00:01:01.600><c> not</c><00:01:01.840><c> very</c><00:01:02.079><c> i</c><00:01:02.320><c> o</c><00:01:02.480><c> intensive</c><00:01:02.960><c> they're</c>
+
+00:01:03.270 --> 00:01:03.280 align:start position:0%
+are not very i o intensive they're
+ 
+
+00:01:03.280 --> 00:01:04.310 align:start position:0%
+are not very i o intensive they're
+mostly
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+mostly
+ 
+
+00:01:04.320 --> 00:01:06.070 align:start position:0%
+mostly
+processor<00:01:04.879><c> oriented</c>
+
+00:01:06.070 --> 00:01:06.080 align:start position:0%
+processor oriented
+ 
+
+00:01:06.080 --> 00:01:08.070 align:start position:0%
+processor oriented
+so<00:01:06.240><c> the</c><00:01:06.400><c> spec</c><00:01:06.720><c> benchmark</c><00:01:07.200><c> suite</c><00:01:07.600><c> includes</c><00:01:08.000><c> a</c>
+
+00:01:08.070 --> 00:01:08.080 align:start position:0%
+so the spec benchmark suite includes a
+ 
+
+00:01:08.080 --> 00:01:11.750 align:start position:0%
+so the spec benchmark suite includes a
+number<00:01:08.479><c> of</c><00:01:08.640><c> applications</c><00:01:09.439><c> such</c><00:01:09.680><c> as</c><00:01:10.400><c> gcc</c>
+
+00:01:11.750 --> 00:01:11.760 align:start position:0%
+number of applications such as gcc
+ 
+
+00:01:11.760 --> 00:01:14.070 align:start position:0%
+number of applications such as gcc
+which<00:01:12.000><c> represents</c><00:01:13.119><c> software</c><00:01:13.520><c> development</c>
+
+00:01:14.070 --> 00:01:14.080 align:start position:0%
+which represents software development
+ 
+
+00:01:14.080 --> 00:01:16.469 align:start position:0%
+which represents software development
+workloads<00:01:14.880><c> like</c><00:01:15.200><c> a</c><00:01:15.280><c> compiler</c>
+
+00:01:16.469 --> 00:01:16.479 align:start position:0%
+workloads like a compiler
+ 
+
+00:01:16.479 --> 00:01:18.550 align:start position:0%
+workloads like a compiler
+several<00:01:16.880><c> applications</c><00:01:17.439><c> like</c><00:01:17.680><c> b</c><00:01:17.920><c> waves</c><00:01:18.320><c> and</c>
+
+00:01:18.550 --> 00:01:18.560 align:start position:0%
+several applications like b waves and
+ 
+
+00:01:18.560 --> 00:01:20.630 align:start position:0%
+several applications like b waves and
+lbm<00:01:19.280><c> that</c><00:01:19.520><c> are</c><00:01:19.600><c> representative</c><00:01:20.240><c> of</c><00:01:20.320><c> fluid</c>
+
+00:01:20.630 --> 00:01:20.640 align:start position:0%
+lbm that are representative of fluid
+ 
+
+00:01:20.640 --> 00:01:23.270 align:start position:0%
+lbm that are representative of fluid
+dynamics<00:01:21.200><c> workloads</c><00:01:22.240><c> perl</c>
+
+00:01:23.270 --> 00:01:23.280 align:start position:0%
+dynamics workloads perl
+ 
+
+00:01:23.280 --> 00:01:24.789 align:start position:0%
+dynamics workloads perl
+which<00:01:23.520><c> is</c><00:01:23.680><c> representative</c><00:01:24.320><c> of</c><00:01:24.400><c> string</c>
+
+00:01:24.789 --> 00:01:24.799 align:start position:0%
+which is representative of string
+ 
+
+00:01:24.799 --> 00:01:27.590 align:start position:0%
+which is representative of string
+processing<00:01:25.280><c> applications</c><00:01:26.320><c> catus</c><00:01:26.799><c> adm</c><00:01:27.439><c> this</c>
+
+00:01:27.590 --> 00:01:27.600 align:start position:0%
+processing applications catus adm this
+ 
+
+00:01:27.600 --> 00:01:29.190 align:start position:0%
+processing applications catus adm this
+is<00:01:27.759><c> a</c><00:01:27.840><c> physics</c><00:01:28.159><c> simulation</c><00:01:28.720><c> related</c><00:01:29.119><c> to</c>
+
+00:01:29.190 --> 00:01:29.200 align:start position:0%
+is a physics simulation related to
+ 
+
+00:01:29.200 --> 00:01:32.630 align:start position:0%
+is a physics simulation related to
+relativity<00:01:30.240><c> this</c><00:01:30.560><c> is</c><00:01:30.880><c> a</c><00:01:31.040><c> parser</c><00:01:31.439><c> for</c><00:01:31.680><c> xml</c>
+
+00:01:32.630 --> 00:01:32.640 align:start position:0%
+relativity this is a parser for xml
+ 
+
+00:01:32.640 --> 00:01:34.710 align:start position:0%
+relativity this is a parser for xml
+several<00:01:33.119><c> solvers</c><00:01:33.840><c> of</c><00:01:34.079><c> differential</c>
+
+00:01:34.710 --> 00:01:34.720 align:start position:0%
+several solvers of differential
+ 
+
+00:01:34.720 --> 00:01:35.990 align:start position:0%
+several solvers of differential
+equations
+
+00:01:35.990 --> 00:01:36.000 align:start position:0%
+equations
+ 
+
+00:01:36.000 --> 00:01:39.109 align:start position:0%
+equations
+b<00:01:36.240><c> zip</c><00:01:36.640><c> a</c><00:01:36.799><c> compression</c><00:01:37.360><c> application</c><00:01:38.479><c> two</c><00:01:38.720><c> game</c>
+
+00:01:39.109 --> 00:01:39.119 align:start position:0%
+b zip a compression application two game
+ 
+
+00:01:39.119 --> 00:01:42.630 align:start position:0%
+b zip a compression application two game
+ai<00:01:39.840><c> applications</c><00:01:40.880><c> and</c><00:01:41.119><c> so</c><00:01:41.360><c> on</c><00:01:41.840><c> as</c><00:01:42.000><c> you</c><00:01:42.159><c> can</c><00:01:42.320><c> see</c>
+
+00:01:42.630 --> 00:01:42.640 align:start position:0%
+ai applications and so on as you can see
+ 
+
+00:01:42.640 --> 00:01:45.030 align:start position:0%
+ai applications and so on as you can see
+the<00:01:42.799><c> spec</c><00:01:43.119><c> benchmarks</c><00:01:43.759><c> really</c><00:01:44.000><c> try</c><00:01:44.240><c> to</c><00:01:44.399><c> cover</c>
+
+00:01:45.030 --> 00:01:45.040 align:start position:0%
+the spec benchmarks really try to cover
+ 
+
+00:01:45.040 --> 00:01:46.950 align:start position:0%
+the spec benchmarks really try to cover
+a<00:01:45.200><c> variety</c><00:01:45.680><c> of</c><00:01:45.840><c> potential</c><00:01:46.320><c> uses</c><00:01:46.720><c> for</c>
+
+00:01:46.950 --> 00:01:46.960 align:start position:0%
+a variety of potential uses for
+ 
+
+00:01:46.960 --> 00:01:51.040 align:start position:0%
+a variety of potential uses for
+processors<00:01:47.600><c> and</c><00:01:47.680><c> high</c><00:01:47.840><c> performance</c><00:01:48.479><c> systems</c>
+

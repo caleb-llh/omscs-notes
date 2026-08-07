@@ -1,0 +1,308 @@
+1
+00:00:00,310 --> 00:00:01,970
+ You've been thinking about scans.
+
+2
+00:00:01,970 --> 00:00:04,970
+ So you should suspect that you can use a scan somehow,
+
+3
+00:00:04,970 --> 00:00:08,790
+ in order to address this parallel partitioning problem for quick sort.
+
+4
+00:00:08,790 --> 00:00:10,270
+ Can you see how?
+
+5
+00:00:10,270 --> 00:00:11,470
+ Here's an idea.
+
+6
+00:00:11,470 --> 00:00:15,995
+ Suppose this is our input and the pivot value is, I don't know, this three.
+
+7
+00:00:15,995 --> 00:00:19,555
+ First, why don't you compare every element to the pivot?
+
+8
+00:00:19,555 --> 00:00:21,095
+ If you have some auxiliary storage,
+
+9
+00:00:21,095 --> 00:00:25,955
+ you can do all of these comparisons and record the results entirely in parallel.
+
+10
+00:00:25,955 --> 00:00:30,016
+ For the results, you'll get a 1 if the element is less than or
+
+11
+00:00:30,016 --> 00:00:33,350
+ equal to the pivot and a 0 otherwise.
+
+12
+00:00:33,350 --> 00:00:37,510
+ Now, here, I've written the Boolean results as 0, 1 integers.
+
+13
+00:00:37,510 --> 00:00:39,150
+ Here's why.
+
+14
+00:00:39,150 --> 00:00:43,735
+ Suppose you do a scan on this array of 0, 1 values.
+
+15
+00:00:43,735 --> 00:00:45,275
+ What would you get?
+
+16
+00:00:45,275 --> 00:00:46,885
+ Here is the result.
+
+17
+00:00:46,885 --> 00:00:49,815
+ Now, I want you to notice some things about this output.
+
+18
+00:00:49,815 --> 00:00:54,275
+ First, the last element of the scan is the total number of elements that
+
+19
+00:00:54,275 --> 00:00:56,350
+ are less than or equal to the pivot.
+
+20
+00:00:56,350 --> 00:00:59,390
+ This is especially convenient, because it would allow us to, say,
+
+21
+00:00:59,390 --> 00:01:03,090
+ allocate an output array of the appropriate size.
+
+22
+00:01:03,090 --> 00:01:05,170
+ Here's something else to notice.
+
+23
+00:01:05,170 --> 00:01:08,960
+ In this output sequence, you get a little bump everywhere you encounter
+
+24
+00:01:08,960 --> 00:01:13,450
+ a new element that is less than or equal to the pivot.
+
+25
+00:01:13,450 --> 00:01:14,860
+ That's really neat.
+
+26
+00:01:14,860 --> 00:01:15,930
+ It means, for example,
+
+27
+00:01:15,930 --> 00:01:21,100
+ that the elements you want are easy to spot just by looking at the scan.
+
+28
+00:01:21,100 --> 00:01:23,470
+ You look at a value, compare it to it's previous value, and
+
+29
+00:01:23,470 --> 00:01:27,390
+ you can see right away, oh, I must have encountered a new value here.
+
+30
+00:01:27,390 --> 00:01:31,530
+ So just by inspecting the outputs, we can find the elements we want.
+
+31
+00:01:31,530 --> 00:01:33,100
+ Now, there's a much cooler thing to notice.
+
+32
+00:01:33,100 --> 00:01:39,020
+ These scan output values that I've highlighted are both unique and
+
+33
+00:01:39,020 --> 00:01:40,440
+ consecutive.
+
+34
+00:01:40,440 --> 00:01:42,120
+ So what does that mean?
+
+35
+00:01:42,120 --> 00:01:47,580
+ It means, you can use these values as indicies into the output array.
+
+36
+00:01:47,580 --> 00:01:49,500
+ Think about that for a second.
+
+37
+00:01:49,500 --> 00:01:55,460
+ You can use these scan values to do a fully parallel right with no conflicts.
+
+38
+00:01:55,460 --> 00:02:01,640
+ So for every element that I want, there is a corresponding unique integer.
+
+39
+00:02:01,640 --> 00:02:03,020
+ The integers are consecutive and
+
+40
+00:02:03,020 --> 00:02:06,620
+ they range from 1 to 5 which is the length of the output.
+
+41
+00:02:06,620 --> 00:02:09,660
+ And there is a 1 to 1 correspondence between the value I want and
+
+42
+00:02:09,660 --> 00:02:11,370
+ its output index.
+
+43
+00:02:11,370 --> 00:02:15,040
+ So let's go ahead and write those all out in parallel.
+
+44
+00:02:15,040 --> 00:02:17,130
+ Yes!
+
+45
+00:02:17,130 --> 00:02:20,370
+ Let's summarize your scanned based approach to partitioning with
+
+46
+00:02:20,370 --> 00:02:23,360
+ some pseudo code shown here.
+
+47
+00:02:23,360 --> 00:02:25,730
+ Here, we compute the flags.
+
+48
+00:02:25,730 --> 00:02:29,530
+ Here, we do a scan to get the indices.
+
+49
+00:02:29,530 --> 00:02:34,152
+ And finally, and we do this in parallel, we inspect the flags.
+
+50
+00:02:34,152 --> 00:02:37,860
+ And if a flag is set, then we can safely do this output.
+
+51
+00:02:37,860 --> 00:02:43,280
+ And luckily for us, k provides these unique, consecutive integer addresses.
+
+52
+00:02:43,280 --> 00:02:46,825
+ I hope it's easy to see that this procedure has both linear work and
+
+53
+00:02:46,825 --> 00:02:48,420
+ logarithmic span.
+
+54
+00:02:48,420 --> 00:02:52,110
+ If it isn't, do not pass go until it is.
+
+55
+00:02:52,110 --> 00:02:56,610
+ Now, this procedure of doing a flag scan followed by a write is an extremely
+
+56
+00:02:56,610 --> 00:02:58,920
+ handy primitive.
+
+57
+00:02:58,920 --> 00:03:02,700
+ So let's refactor these lines of codes into a tool that becomes a part of our
+
+58
+00:03:02,700 --> 00:03:04,750
+ algorithmic toolbox.
+
+59
+00:03:04,750 --> 00:03:06,820
+ So I've taken these lines of code that were here and
+
+60
+00:03:06,820 --> 00:03:10,830
+ I've extracted them into a general procedure called gather If.
+
+61
+00:03:10,830 --> 00:03:11,990
+ Gather If, as you can see,
+
+62
+00:03:11,990 --> 00:03:16,410
+ takes an input array a of length n along with a flag array.
+
+63
+00:03:16,410 --> 00:03:18,380
+ Then, it does the scan and finally,
+
+64
+00:03:18,380 --> 00:03:22,010
+ the parallel outputs using the flags as a guard.
+
+65
+00:03:22,010 --> 00:03:24,740
+ You can now insert this new primitive.
+
+66
+00:03:24,740 --> 00:03:29,380
+ And in fact, I want to introduce one additional notational shortcut.
+
+67
+00:03:29,380 --> 00:03:32,570
+ Rather than having to write gatherIf, if you give me an array and
+
+68
+00:03:32,570 --> 00:03:37,620
+ an array of flags then a sub f will do the gatherIf.
+
+69
+00:03:37,620 --> 00:03:40,900
+ With this new primitive, the original quick sort algorithm we had been
+
+70
+00:03:40,900 --> 00:03:44,750
+ talking about becomes easy to write in a very compact fashion.
+
+71
+00:03:44,750 --> 00:03:46,210
+ Let's take a look.
+
+72
+00:03:46,210 --> 00:03:49,062
+ Here's the original quick sort, and here's the partition step.
+
+73
+00:03:49,062 --> 00:03:52,870
+ Let's replace these with our new notation.
+
+74
+00:03:52,870 --> 00:03:55,040
+ So here, I'm computing the flags on the fly.
+
+75
+00:03:55,040 --> 00:03:59,270
+ And then I'm using them as indices into the original array to extract
+
+76
+00:03:59,270 --> 00:04:01,660
+ just the elements that I want.
+
+77
+00:04:01,660 --> 00:04:01,660
+ Cool beans!
+

@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.540 align:start position:0%
+ 
+now<00:00:00.930><c> we</c><00:00:00.989><c> know</c><00:00:01.290><c> how</c><00:00:01.500><c> virtual</c><00:00:01.949><c> memory</c><00:00:02.159><c> works</c>
+
+00:00:02.540 --> 00:00:02.550 align:start position:0%
+now we know how virtual memory works
+ 
+
+00:00:02.550 --> 00:00:04.999 align:start position:0%
+now we know how virtual memory works
+this<00:00:03.330><c> is</c><00:00:03.480><c> important</c><00:00:03.990><c> in</c><00:00:04.110><c> its</c><00:00:04.259><c> own</c><00:00:04.500><c> right</c><00:00:04.740><c> and</c>
+
+00:00:04.999 --> 00:00:05.009 align:start position:0%
+this is important in its own right and
+ 
+
+00:00:05.009 --> 00:00:07.070 align:start position:0%
+this is important in its own right and
+we<00:00:05.430><c> will</c><00:00:05.580><c> also</c><00:00:05.759><c> need</c><00:00:05.940><c> it</c><00:00:06.270><c> for</c><00:00:06.450><c> our</c><00:00:06.569><c> next</c><00:00:06.779><c> lesson</c>
+
+00:00:07.070 --> 00:00:07.080 align:start position:0%
+we will also need it for our next lesson
+ 
+
+00:00:07.080 --> 00:00:09.410 align:start position:0%
+we will also need it for our next lesson
+which<00:00:07.890><c> is</c><00:00:08.040><c> about</c><00:00:08.309><c> advanced</c><00:00:09.030><c> caching</c>
+
+00:00:09.410 --> 00:00:09.420 align:start position:0%
+which is about advanced caching
+ 
+
+00:00:09.420 --> 00:00:12.170 align:start position:0%
+which is about advanced caching
+optimizations
+

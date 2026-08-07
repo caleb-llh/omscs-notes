@@ -1,0 +1,28 @@
+1
+00:00:00,280 --> 00:00:02,210
+ Let's start with an observation.
+
+2
+00:00:02,210 --> 00:00:05,550
+ Here are the two paths that these two messages are trying to take.
+
+3
+00:00:05,550 --> 00:00:10,430
+ Notice that the paths intersect and they're going in the same direction.
+
+4
+00:00:10,430 --> 00:00:14,770
+ That means the messages will need to serialize in their bandwidth term.
+
+5
+00:00:14,770 --> 00:00:18,500
+ And since there are two such messages, we'll take bandwidth term and
+
+6
+00:00:18,500 --> 00:00:20,350
+ multiply by two.
+
+7
+00:00:20,350 --> 00:00:20,350
+ This is essentially an application of rule 5, k-way congestion.
+

@@ -1,0 +1,808 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.199 --> 00:00:02.470 align:start position:0%
+ 
+so<00:00:00.440><c> now</c><00:00:00.640><c> let's</c><00:00:00.880><c> look</c><00:00:01.040><c> at</c><00:00:01.400><c> processor</c><00:00:02.000><c> pipeline</c>
+
+00:00:02.470 --> 00:00:02.480 align:start position:0%
+so now let's look at processor pipeline
+ 
+
+00:00:02.480 --> 00:00:05.110 align:start position:0%
+so now let's look at processor pipeline
+stalls<00:00:03.080><c> and</c><00:00:03.280><c> how</c><00:00:03.560><c> they</c><00:00:03.719><c> can</c><00:00:04.000><c> happen</c><00:00:04.720><c> let's</c><00:00:04.920><c> say</c>
+
+00:00:05.110 --> 00:00:05.120 align:start position:0%
+stalls and how they can happen let's say
+ 
+
+00:00:05.120 --> 00:00:06.909 align:start position:0%
+stalls and how they can happen let's say
+we<00:00:05.240><c> have</c><00:00:05.359><c> a</c><00:00:05.560><c> five-stage</c><00:00:06.200><c> Pipeline</c><00:00:06.640><c> and</c><00:00:06.799><c> this</c>
+
+00:00:06.909 --> 00:00:06.919 align:start position:0%
+we have a five-stage Pipeline and this
+ 
+
+00:00:06.919 --> 00:00:08.910 align:start position:0%
+we have a five-stage Pipeline and this
+is<00:00:07.080><c> where</c><00:00:07.240><c> we</c><00:00:07.439><c> fetch</c><00:00:07.839><c> the</c><00:00:08.080><c> instruction</c><00:00:08.760><c> then</c>
+
+00:00:08.910 --> 00:00:08.920 align:start position:0%
+is where we fetch the instruction then
+ 
+
+00:00:08.920 --> 00:00:12.030 align:start position:0%
+is where we fetch the instruction then
+we<00:00:09.120><c> decode</c><00:00:09.719><c> it</c><00:00:09.920><c> and</c><00:00:10.080><c> read</c><00:00:10.679><c> registers</c><00:00:11.679><c> then</c><00:00:11.880><c> we</c>
+
+00:00:12.030 --> 00:00:12.040 align:start position:0%
+we decode it and read registers then we
+ 
+
+00:00:12.040 --> 00:00:14.629 align:start position:0%
+we decode it and read registers then we
+use<00:00:12.280><c> the</c><00:00:12.440><c> ALU</c><00:00:13.200><c> to</c><00:00:13.440><c> compute</c><00:00:13.799><c> the</c><00:00:14.000><c> result</c><00:00:14.320><c> of</c><00:00:14.480><c> the</c>
+
+00:00:14.629 --> 00:00:14.639 align:start position:0%
+use the ALU to compute the result of the
+ 
+
+00:00:14.639 --> 00:00:16.830 align:start position:0%
+use the ALU to compute the result of the
+instruction<00:00:15.639><c> then</c><00:00:15.759><c> we</c><00:00:16.039><c> Access</c><00:00:16.359><c> Memory</c><00:00:16.720><c> if</c>
+
+00:00:16.830 --> 00:00:16.840 align:start position:0%
+instruction then we Access Memory if
+ 
+
+00:00:16.840 --> 00:00:19.029 align:start position:0%
+instruction then we Access Memory if
+this<00:00:16.960><c> is</c><00:00:17.039><c> a</c><00:00:17.160><c> load</c><00:00:17.400><c> or</c><00:00:17.560><c> store</c><00:00:17.920><c> instruction</c><00:00:18.840><c> and</c>
+
+00:00:19.029 --> 00:00:19.039 align:start position:0%
+this is a load or store instruction and
+ 
+
+00:00:19.039 --> 00:00:20.429 align:start position:0%
+this is a load or store instruction and
+then<00:00:19.279><c> we</c><00:00:19.480><c> write</c><00:00:19.720><c> the</c><00:00:19.880><c> result</c><00:00:20.160><c> of</c><00:00:20.320><c> the</c>
+
+00:00:20.429 --> 00:00:20.439 align:start position:0%
+then we write the result of the
+ 
+
+00:00:20.439 --> 00:00:22.710 align:start position:0%
+then we write the result of the
+instruction<00:00:20.800><c> to</c><00:00:20.960><c> a</c><00:00:21.240><c> register</c><00:00:22.240><c> this</c><00:00:22.359><c> is</c><00:00:22.560><c> what</c>
+
+00:00:22.710 --> 00:00:22.720 align:start position:0%
+instruction to a register this is what
+ 
+
+00:00:22.720 --> 00:00:28.029 align:start position:0%
+instruction to a register this is what
+happens<00:00:23.039><c> in</c><00:00:23.199><c> Cycle</c><00:00:23.599><c> One</c><00:00:24.480><c> cycle</c><00:00:24.960><c> 2</c><00:00:25.960><c> cycle</c><00:00:26.400><c> 3</c><00:00:27.119><c> Etc</c>
+
+00:00:28.029 --> 00:00:28.039 align:start position:0%
+happens in Cycle One cycle 2 cycle 3 Etc
+ 
+
+00:00:28.039 --> 00:00:29.990 align:start position:0%
+happens in Cycle One cycle 2 cycle 3 Etc
+suppose<00:00:28.439><c> we</c><00:00:28.560><c> have</c><00:00:28.720><c> a</c><00:00:28.840><c> load</c><00:00:29.279><c> instruction</c><00:00:29.800><c> here</c>
+
+00:00:29.990 --> 00:00:30.000 align:start position:0%
+suppose we have a load instruction here
+ 
+
+00:00:30.000 --> 00:00:31.589 align:start position:0%
+suppose we have a load instruction here
+here<00:00:30.119><c> in</c><00:00:30.240><c> our</c><00:00:30.439><c> Pipeline</c><00:00:30.880><c> and</c><00:00:31.000><c> it's</c><00:00:31.160><c> going</c><00:00:31.359><c> to</c>
+
+00:00:31.589 --> 00:00:31.599 align:start position:0%
+here in our Pipeline and it's going to
+ 
+
+00:00:31.599 --> 00:00:34.630 align:start position:0%
+here in our Pipeline and it's going to
+load<00:00:31.880><c> into</c><00:00:32.200><c> R1</c><00:00:32.640><c> something</c><00:00:33.000><c> from</c><00:00:33.320><c> memory</c><00:00:34.320><c> while</c>
+
+00:00:34.630 --> 00:00:34.640 align:start position:0%
+load into R1 something from memory while
+ 
+
+00:00:34.640 --> 00:00:36.910 align:start position:0%
+load into R1 something from memory while
+this<00:00:34.840><c> load</c><00:00:35.200><c> is</c><00:00:35.480><c> in</c><00:00:35.600><c> the</c><00:00:35.760><c> ear</c><00:00:36.280><c> stage</c><00:00:36.640><c> here</c>
+
+00:00:36.910 --> 00:00:36.920 align:start position:0%
+this load is in the ear stage here
+ 
+
+00:00:36.920 --> 00:00:39.150 align:start position:0%
+this load is in the ear stage here
+Computing<00:00:37.440><c> the</c><00:00:37.600><c> address</c><00:00:38.320><c> so</c><00:00:38.480><c> it</c><00:00:38.719><c> hasn't</c>
+
+00:00:39.150 --> 00:00:39.160 align:start position:0%
+Computing the address so it hasn't
+ 
+
+00:00:39.160 --> 00:00:42.590 align:start position:0%
+Computing the address so it hasn't
+accessed<00:00:39.640><c> memory</c><00:00:40.120><c> yet</c><00:00:40.920><c> suppose</c><00:00:41.399><c> we</c><00:00:41.640><c> have</c><00:00:42.360><c> an</c>
+
+00:00:42.590 --> 00:00:42.600 align:start position:0%
+accessed memory yet suppose we have an
+ 
+
+00:00:42.600 --> 00:00:45.229 align:start position:0%
+accessed memory yet suppose we have an
+add<00:00:43.000><c> instruction</c><00:00:43.520><c> that</c><00:00:43.640><c> needs</c><00:00:43.879><c> to</c><00:00:44.079><c> use</c><00:00:44.480><c> the</c><00:00:44.680><c> R1</c>
+
+00:00:45.229 --> 00:00:45.239 align:start position:0%
+add instruction that needs to use the R1
+ 
+
+00:00:45.239 --> 00:00:47.150 align:start position:0%
+add instruction that needs to use the R1
+and<00:00:45.440><c> this</c><00:00:45.600><c> instruction</c><00:00:46.120><c> is</c><00:00:46.280><c> already</c><00:00:46.680><c> reading</c>
+
+00:00:47.150 --> 00:00:47.160 align:start position:0%
+and this instruction is already reading
+ 
+
+00:00:47.160 --> 00:00:49.270 align:start position:0%
+and this instruction is already reading
+registers<00:00:47.840><c> here</c><00:00:48.160><c> so</c><00:00:48.320><c> that</c><00:00:48.440><c> it</c><00:00:48.600><c> can</c><00:00:48.800><c> compute</c>
+
+00:00:49.270 --> 00:00:49.280 align:start position:0%
+registers here so that it can compute
+ 
+
+00:00:49.280 --> 00:00:52.110 align:start position:0%
+registers here so that it can compute
+the<00:00:49.440><c> result</c><00:00:49.760><c> in</c><00:00:49.920><c> the</c><00:00:50.079><c> next</c><00:00:50.440><c> stage</c><00:00:51.440><c> and</c><00:00:51.640><c> we</c><00:00:51.800><c> have</c>
+
+00:00:52.110 --> 00:00:52.120 align:start position:0%
+the result in the next stage and we have
+ 
+
+00:00:52.120 --> 00:00:54.709 align:start position:0%
+the result in the next stage and we have
+a<00:00:52.280><c> subsequent</c><00:00:52.920><c> instruction</c><00:00:53.480><c> here</c><00:00:53.760><c> let's</c><00:00:54.079><c> say</c>
+
+00:00:54.709 --> 00:00:54.719 align:start position:0%
+a subsequent instruction here let's say
+ 
+
+00:00:54.719 --> 00:00:58.630 align:start position:0%
+a subsequent instruction here let's say
+another<00:00:55.199><c> ad</c><00:00:56.160><c> that</c><00:00:56.359><c> adds</c><00:00:56.640><c> R2</c><00:00:57.320><c> to</c><00:00:57.600><c> one</c><00:00:58.120><c> and</c>
+
+00:00:58.630 --> 00:00:58.640 align:start position:0%
+another ad that adds R2 to one and
+ 
+
+00:00:58.640 --> 00:01:00.549 align:start position:0%
+another ad that adds R2 to one and
+produces<00:00:59.120><c> R3</c>
+
+00:01:00.549 --> 00:01:00.559 align:start position:0%
+produces R3
+ 
+
+00:01:00.559 --> 00:01:03.270 align:start position:0%
+produces R3
+so<00:01:00.760><c> now</c><00:01:00.960><c> the</c><00:01:01.199><c> problem</c><00:01:01.519><c> is</c><00:01:01.760><c> that</c><00:01:02.399><c> this</c><00:01:02.640><c> ad</c><00:01:03.000><c> here</c>
+
+00:01:03.270 --> 00:01:03.280 align:start position:0%
+so now the problem is that this ad here
+ 
+
+00:01:03.280 --> 00:01:05.630 align:start position:0%
+so now the problem is that this ad here
+is<00:01:03.440><c> reading</c><00:01:03.960><c> the</c><00:01:04.159><c> wrong</c><00:01:04.600><c> value</c><00:01:04.920><c> of</c><00:01:05.040><c> the</c>
+
+00:01:05.630 --> 00:01:05.640 align:start position:0%
+is reading the wrong value of the
+ 
+
+00:01:05.640 --> 00:01:09.510 align:start position:0%
+is reading the wrong value of the
+register<00:01:06.640><c> so</c><00:01:07.040><c> if</c><00:01:07.280><c> we</c><00:01:07.479><c> let</c><00:01:07.680><c> it</c><00:01:07.960><c> proceed</c><00:01:08.520><c> further</c>
+
+00:01:09.510 --> 00:01:09.520 align:start position:0%
+register so if we let it proceed further
+ 
+
+00:01:09.520 --> 00:01:11.830 align:start position:0%
+register so if we let it proceed further
+because<00:01:09.880><c> in</c><00:01:10.040><c> the</c><00:01:10.240><c> next</c><00:01:10.560><c> cycle</c><00:01:11.040><c> this</c><00:01:11.240><c> load</c><00:01:11.640><c> will</c>
+
+00:01:11.830 --> 00:01:11.840 align:start position:0%
+because in the next cycle this load will
+ 
+
+00:01:11.840 --> 00:01:14.070 align:start position:0%
+because in the next cycle this load will
+be<00:01:12.200><c> here</c><00:01:12.640><c> and</c><00:01:12.840><c> now</c><00:01:13.080><c> it's</c><00:01:13.280><c> actually</c><00:01:13.600><c> accessing</c>
+
+00:01:14.070 --> 00:01:14.080 align:start position:0%
+be here and now it's actually accessing
+ 
+
+00:01:14.080 --> 00:01:16.230 align:start position:0%
+be here and now it's actually accessing
+memory<00:01:14.560><c> but</c><00:01:14.799><c> by</c><00:01:15.000><c> then</c><00:01:15.159><c> it's</c><00:01:15.320><c> too</c><00:01:15.560><c> late</c><00:01:15.960><c> this</c>
+
+00:01:16.230 --> 00:01:16.240 align:start position:0%
+memory but by then it's too late this
+ 
+
+00:01:16.240 --> 00:01:19.149 align:start position:0%
+memory but by then it's too late this
+add<00:01:16.600><c> If</c><00:01:16.720><c> It</c><00:01:16.880><c> Moves</c><00:01:17.360><c> here</c><00:01:18.040><c> will</c><00:01:18.360><c> use</c><00:01:18.680><c> the</c><00:01:18.920><c> value</c>
+
+00:01:19.149 --> 00:01:19.159 align:start position:0%
+add If It Moves here will use the value
+ 
+
+00:01:19.159 --> 00:01:20.069 align:start position:0%
+add If It Moves here will use the value
+of
+
+00:01:20.069 --> 00:01:20.079 align:start position:0%
+of
+ 
+
+00:01:20.079 --> 00:01:23.990 align:start position:0%
+of
+R1<00:01:21.079><c> that</c><00:01:21.560><c> is</c><00:01:22.200><c> the</c><00:01:22.400><c> wrong</c><00:01:22.720><c> one</c><00:01:23.280><c> it's</c><00:01:23.479><c> the</c><00:01:23.680><c> value</c>
+
+00:01:23.990 --> 00:01:24.000 align:start position:0%
+R1 that is the wrong one it's the value
+ 
+
+00:01:24.000 --> 00:01:26.190 align:start position:0%
+R1 that is the wrong one it's the value
+of<00:01:24.119><c> the</c><00:01:24.280><c> R1</c><00:01:24.880><c> before</c><00:01:25.400><c> the</c><00:01:25.520><c> load</c><00:01:25.880><c> actually</c>
+
+00:01:26.190 --> 00:01:26.200 align:start position:0%
+of the R1 before the load actually
+ 
+
+00:01:26.200 --> 00:01:28.710 align:start position:0%
+of the R1 before the load actually
+produced<00:01:26.600><c> the</c><00:01:26.799><c> value</c><00:01:27.640><c> and</c><00:01:27.920><c> this</c><00:01:28.079><c> is</c><00:01:28.360><c> where</c><00:01:28.560><c> we</c>
+
+00:01:28.710 --> 00:01:28.720 align:start position:0%
+produced the value and this is where we
+ 
+
+00:01:28.720 --> 00:01:30.950 align:start position:0%
+produced the value and this is where we
+get<00:01:28.960><c> a</c><00:01:29.240><c> processor</c><00:01:29.600><c> store</c><00:01:29.960><c> all</c><00:01:30.400><c> pretty</c><00:01:30.720><c> much</c>
+
+00:01:30.950 --> 00:01:30.960 align:start position:0%
+get a processor store all pretty much
+ 
+
+00:01:30.960 --> 00:01:34.510 align:start position:0%
+get a processor store all pretty much
+what<00:01:31.079><c> needs</c><00:01:31.280><c> to</c><00:01:31.560><c> happen</c><00:01:31.920><c> is</c><00:01:32.640><c> the</c><00:01:33.000><c> ad</c><00:01:33.840><c> needs</c><00:01:34.159><c> to</c>
+
+00:01:34.510 --> 00:01:34.520 align:start position:0%
+what needs to happen is the ad needs to
+ 
+
+00:01:34.520 --> 00:01:37.350 align:start position:0%
+what needs to happen is the ad needs to
+stay<00:01:35.040><c> here</c><00:01:35.759><c> until</c><00:01:36.240><c> it</c><00:01:36.439><c> gets</c><00:01:36.680><c> the</c><00:01:36.920><c> correct</c>
+
+00:01:37.350 --> 00:01:37.360 align:start position:0%
+stay here until it gets the correct
+ 
+
+00:01:37.360 --> 00:01:40.670 align:start position:0%
+stay here until it gets the correct
+value<00:01:37.640><c> of</c><00:01:37.880><c> R1</c><00:01:38.360><c> from</c><00:01:38.560><c> the</c><00:01:38.880><c> load</c><00:01:39.880><c> because</c><00:01:40.240><c> the</c><00:01:40.399><c> ad</c>
+
+00:01:40.670 --> 00:01:40.680 align:start position:0%
+value of R1 from the load because the ad
+ 
+
+00:01:40.680 --> 00:01:44.109 align:start position:0%
+value of R1 from the load because the ad
+is<00:01:40.840><c> stuck</c><00:01:41.240><c> here</c><00:01:41.880><c> the</c><00:01:42.119><c> next</c><00:01:42.640><c> instruction</c><00:01:43.640><c> also</c>
+
+00:01:44.109 --> 00:01:44.119 align:start position:0%
+is stuck here the next instruction also
+ 
+
+00:01:44.119 --> 00:01:46.270 align:start position:0%
+is stuck here the next instruction also
+needs<00:01:44.360><c> to</c><00:01:44.520><c> stay</c><00:01:44.799><c> where</c><00:01:44.960><c> it</c><00:01:45.159><c> is</c><00:01:45.520><c> because</c><00:01:46.119><c> it</c>
+
+00:01:46.270 --> 00:01:46.280 align:start position:0%
+needs to stay where it is because it
+ 
+
+00:01:46.280 --> 00:01:49.510 align:start position:0%
+needs to stay where it is because it
+cannot<00:01:46.600><c> move</c><00:01:46.960><c> here</c><00:01:47.960><c> that</c><00:01:48.200><c> means</c><00:01:48.759><c> that</c><00:01:49.000><c> in</c><00:01:49.200><c> our</c>
+
+00:01:49.510 --> 00:01:49.520 align:start position:0%
+cannot move here that means that in our
+ 
+
+00:01:49.520 --> 00:01:52.429 align:start position:0%
+cannot move here that means that in our
+pipeline<00:01:50.320><c> now</c><00:01:50.560><c> we</c><00:01:50.759><c> have</c><00:01:51.000><c> a</c><00:01:51.200><c> bubble</c><00:01:52.000><c> just</c><00:01:52.280><c> like</c>
+
+00:01:52.429 --> 00:01:52.439 align:start position:0%
+pipeline now we have a bubble just like
+ 
+
+00:01:52.439 --> 00:01:55.030 align:start position:0%
+pipeline now we have a bubble just like
+we<00:01:52.600><c> did</c><00:01:52.799><c> in</c><00:01:52.920><c> the</c><00:01:53.200><c> production</c><00:01:53.680><c> line</c><00:01:54.680><c> we</c><00:01:54.799><c> can</c>
+
+00:01:55.030 --> 00:01:55.040 align:start position:0%
+we did in the production line we can
+ 
+
+00:01:55.040 --> 00:01:57.190 align:start position:0%
+we did in the production line we can
+have<00:01:55.280><c> more</c><00:01:55.560><c> than</c><00:01:55.759><c> one</c><00:01:56.000><c> bubble</c><00:01:56.479><c> because</c><00:01:56.759><c> of</c><00:01:56.960><c> a</c>
+
+00:01:57.190 --> 00:01:57.200 align:start position:0%
+have more than one bubble because of a
+ 
+
+00:01:57.200 --> 00:02:00.350 align:start position:0%
+have more than one bubble because of a
+single<00:01:58.200><c> dependence</c><00:01:58.799><c> between</c><00:01:59.119><c> instructions</c>
+
+00:02:00.350 --> 00:02:00.360 align:start position:0%
+single dependence between instructions
+ 
+
+00:02:00.360 --> 00:02:04.069 align:start position:0%
+single dependence between instructions
+so<00:02:00.560><c> in</c><00:02:00.759><c> this</c><00:02:01.079><c> example</c><00:02:02.079><c> next</c><00:02:02.479><c> cycle</c><00:02:03.479><c> the</c><00:02:03.640><c> load</c>
+
+00:02:04.069 --> 00:02:04.079 align:start position:0%
+so in this example next cycle the load
+ 
+
+00:02:04.079 --> 00:02:07.029 align:start position:0%
+so in this example next cycle the load
+has<00:02:04.280><c> loaded</c><00:02:04.799><c> the</c><00:02:04.960><c> value</c><00:02:05.240><c> from</c><00:02:05.479><c> memory</c><00:02:05.880><c> into</c><00:02:06.159><c> R1</c>
+
+00:02:07.029 --> 00:02:07.039 align:start position:0%
+has loaded the value from memory into R1
+ 
+
+00:02:07.039 --> 00:02:09.990 align:start position:0%
+has loaded the value from memory into R1
+and<00:02:07.240><c> is</c><00:02:07.439><c> now</c><00:02:07.880><c> writing</c><00:02:08.640><c> that</c><00:02:09.000><c> value</c><00:02:09.319><c> to</c><00:02:09.560><c> a</c>
+
+00:02:09.990 --> 00:02:10.000 align:start position:0%
+and is now writing that value to a
+ 
+
+00:02:10.000 --> 00:02:14.190 align:start position:0%
+and is now writing that value to a
+register<00:02:11.000><c> the</c><00:02:11.440><c> add</c><00:02:12.440><c> needs</c><00:02:12.800><c> to</c><00:02:13.440><c> repeat</c><00:02:14.000><c> the</c>
+
+00:02:14.190 --> 00:02:14.200 align:start position:0%
+register the add needs to repeat the
+ 
+
+00:02:14.200 --> 00:02:18.750 align:start position:0%
+register the add needs to repeat the
+read<00:02:14.800><c> of</c><00:02:15.160><c> R1</c><00:02:16.319><c> because</c><00:02:17.319><c> in</c><00:02:17.560><c> this</c><00:02:17.760><c> cycle</c><00:02:18.239><c> here</c><00:02:18.560><c> it</c>
+
+00:02:18.750 --> 00:02:18.760 align:start position:0%
+read of R1 because in this cycle here it
+ 
+
+00:02:18.760 --> 00:02:21.390 align:start position:0%
+read of R1 because in this cycle here it
+still<00:02:19.080><c> didn't</c><00:02:19.440><c> get</c><00:02:19.640><c> the</c><00:02:19.760><c> correct</c><00:02:20.120><c> value</c><00:02:20.360><c> of</c><00:02:20.480><c> R1</c>
+
+00:02:21.390 --> 00:02:21.400 align:start position:0%
+still didn't get the correct value of R1
+ 
+
+00:02:21.400 --> 00:02:23.430 align:start position:0%
+still didn't get the correct value of R1
+although<00:02:21.760><c> the</c><00:02:21.879><c> load</c><00:02:22.239><c> was</c><00:02:22.480><c> now</c><00:02:22.680><c> loading</c><00:02:23.239><c> that</c>
+
+00:02:23.430 --> 00:02:23.440 align:start position:0%
+although the load was now loading that
+ 
+
+00:02:23.440 --> 00:02:27.030 align:start position:0%
+although the load was now loading that
+value<00:02:23.680><c> from</c><00:02:23.959><c> memory</c><00:02:24.920><c> the</c><00:02:25.120><c> R1</c><00:02:26.080><c> was</c><00:02:26.280><c> not</c><00:02:26.519><c> written</c>
+
+00:02:27.030 --> 00:02:27.040 align:start position:0%
+value from memory the R1 was not written
+ 
+
+00:02:27.040 --> 00:02:29.910 align:start position:0%
+value from memory the R1 was not written
+yet<00:02:27.599><c> so</c><00:02:27.800><c> now</c><00:02:28.000><c> the</c><00:02:28.120><c> load</c><00:02:28.360><c> is</c><00:02:28.519><c> writing</c><00:02:29.319><c> the</c><00:02:29.480><c> add</c>
+
+00:02:29.910 --> 00:02:29.920 align:start position:0%
+yet so now the load is writing the add
+ 
+
+00:02:29.920 --> 00:02:31.430 align:start position:0%
+yet so now the load is writing the add
+repeats<00:02:30.360><c> the</c>
+
+00:02:31.430 --> 00:02:31.440 align:start position:0%
+repeats the
+ 
+
+00:02:31.440 --> 00:02:34.670 align:start position:0%
+repeats the
+read<00:02:32.440><c> and</c><00:02:32.640><c> because</c><00:02:32.959><c> the</c><00:02:33.120><c> ad</c><00:02:33.360><c> is</c><00:02:33.480><c> still</c><00:02:33.879><c> here</c>
+
+00:02:34.670 --> 00:02:34.680 align:start position:0%
+read and because the ad is still here
+ 
+
+00:02:34.680 --> 00:02:37.150 align:start position:0%
+read and because the ad is still here
+the<00:02:34.840><c> next</c><00:02:35.120><c> instruction</c><00:02:35.519><c> is</c><00:02:35.640><c> still</c><00:02:35.800><c> stuck</c><00:02:36.280><c> here</c>
+
+00:02:37.150 --> 00:02:37.160 align:start position:0%
+the next instruction is still stuck here
+ 
+
+00:02:37.160 --> 00:02:39.550 align:start position:0%
+the next instruction is still stuck here
+and<00:02:37.400><c> that</c><00:02:37.560><c> means</c><00:02:37.920><c> that</c><00:02:38.120><c> we</c><00:02:38.280><c> have</c><00:02:38.760><c> two</c><00:02:39.120><c> cycles</c>
+
+00:02:39.550 --> 00:02:39.560 align:start position:0%
+and that means that we have two cycles
+ 
+
+00:02:39.560 --> 00:02:41.949 align:start position:0%
+and that means that we have two cycles
+worth<00:02:39.800><c> of</c><00:02:39.959><c> stall</c><00:02:40.760><c> in</c><00:02:40.959><c> this</c><00:02:41.120><c> cycle</c><00:02:41.440><c> it</c><00:02:41.560><c> could</c><00:02:41.720><c> be</c>
+
+00:02:41.949 --> 00:02:41.959 align:start position:0%
+worth of stall in this cycle it could be
+ 
+
+00:02:41.959 --> 00:02:43.790 align:start position:0%
+worth of stall in this cycle it could be
+that<00:02:42.120><c> for</c><00:02:42.280><c> example</c><00:02:42.680><c> the</c><00:02:42.800><c> load</c><00:02:43.080><c> is</c><00:02:43.239><c> writing</c><00:02:43.599><c> to</c>
+
+00:02:43.790 --> 00:02:43.800 align:start position:0%
+that for example the load is writing to
+ 
+
+00:02:43.800 --> 00:02:46.229 align:start position:0%
+that for example the load is writing to
+R1<00:02:44.159><c> in</c><00:02:44.280><c> the</c><00:02:44.440><c> first</c><00:02:44.720><c> half</c><00:02:44.920><c> of</c><00:02:45.040><c> the</c><00:02:45.200><c> cycle</c><00:02:46.040><c> and</c>
+
+00:02:46.229 --> 00:02:46.239 align:start position:0%
+R1 in the first half of the cycle and
+ 
+
+00:02:46.239 --> 00:02:48.470 align:start position:0%
+R1 in the first half of the cycle and
+this<00:02:46.440><c> ad</c><00:02:46.680><c> is</c><00:02:46.800><c> reading</c><00:02:47.239><c> R1</c><00:02:47.640><c> in</c><00:02:47.760><c> the</c><00:02:47.959><c> second</c><00:02:48.319><c> half</c>
+
+00:02:48.470 --> 00:02:48.480 align:start position:0%
+this ad is reading R1 in the second half
+ 
+
+00:02:48.480 --> 00:02:51.070 align:start position:0%
+this ad is reading R1 in the second half
+of<00:02:48.599><c> the</c><00:02:48.760><c> cycle</c><00:02:49.480><c> so</c><00:02:49.760><c> next</c><00:02:50.080><c> cycle</c><00:02:50.519><c> the</c><00:02:50.680><c> ad</c><00:02:50.920><c> can</c>
+
+00:02:51.070 --> 00:02:51.080 align:start position:0%
+of the cycle so next cycle the ad can
+ 
+
+00:02:51.080 --> 00:02:54.830 align:start position:0%
+of the cycle so next cycle the ad can
+move<00:02:51.319><c> on</c><00:02:52.120><c> but</c><00:02:52.319><c> it</c><00:02:52.599><c> could</c><00:02:52.920><c> be</c><00:02:53.599><c> that</c><00:02:54.280><c> the</c><00:02:54.400><c> load</c>
+
+00:02:54.830 --> 00:02:54.840 align:start position:0%
+move on but it could be that the load
+ 
+
+00:02:54.840 --> 00:02:56.790 align:start position:0%
+move on but it could be that the load
+actually<00:02:55.080><c> takes</c><00:02:55.319><c> a</c><00:02:55.560><c> full</c><00:02:55.920><c> cycle</c><00:02:56.239><c> to</c><00:02:56.400><c> write</c><00:02:56.640><c> the</c>
+
+00:02:56.790 --> 00:02:56.800 align:start position:0%
+actually takes a full cycle to write the
+ 
+
+00:02:56.800 --> 00:02:58.149 align:start position:0%
+actually takes a full cycle to write the
+result<00:02:57.159><c> in</c><00:02:57.280><c> which</c><00:02:57.480><c> case</c><00:02:57.640><c> we</c><00:02:57.720><c> will</c><00:02:57.920><c> have</c>
+
+00:02:58.149 --> 00:02:58.159 align:start position:0%
+result in which case we will have
+ 
+
+00:02:58.159 --> 00:03:00.390 align:start position:0%
+result in which case we will have
+another<00:02:58.560><c> cycle</c><00:02:58.879><c> of</c><00:02:59.000><c> stalling</c><00:02:59.920><c> so</c><00:03:00.120><c> let's</c>
+
+00:03:00.390 --> 00:03:00.400 align:start position:0%
+another cycle of stalling so let's
+ 
+
+00:03:00.400 --> 00:03:02.350 align:start position:0%
+another cycle of stalling so let's
+suppose<00:03:00.800><c> that</c><00:03:00.959><c> we</c><00:03:01.080><c> can</c><00:03:01.239><c> do</c><00:03:01.480><c> this</c><00:03:01.680><c> that</c><00:03:01.840><c> we</c><00:03:01.959><c> can</c>
+
+00:03:02.350 --> 00:03:02.360 align:start position:0%
+suppose that we can do this that we can
+ 
+
+00:03:02.360 --> 00:03:04.630 align:start position:0%
+suppose that we can do this that we can
+write<00:03:02.760><c> R1</c><00:03:03.319><c> and</c><00:03:03.480><c> then</c><00:03:03.640><c> read</c><00:03:03.920><c> it</c><00:03:04.080><c> in</c><00:03:04.200><c> the</c><00:03:04.360><c> same</c>
+
+00:03:04.630 --> 00:03:04.640 align:start position:0%
+write R1 and then read it in the same
+ 
+
+00:03:04.640 --> 00:03:06.830 align:start position:0%
+write R1 and then read it in the same
+cycle<00:03:05.159><c> if</c><00:03:05.400><c> that</c><00:03:05.560><c> is</c><00:03:05.760><c> the</c><00:03:05.920><c> case</c><00:03:06.200><c> then</c><00:03:06.480><c> next</c>
+
+00:03:06.830 --> 00:03:06.840 align:start position:0%
+cycle if that is the case then next
+ 
+
+00:03:06.840 --> 00:03:10.550 align:start position:0%
+cycle if that is the case then next
+cycle<00:03:07.840><c> which</c><00:03:08.000><c> is</c><00:03:08.319><c> cycle</c><00:03:08.760><c> 4</c><00:03:09.760><c> we</c><00:03:09.879><c> will</c><00:03:10.159><c> have</c><00:03:10.400><c> the</c>
+
+00:03:10.550 --> 00:03:10.560 align:start position:0%
+cycle which is cycle 4 we will have the
+ 
+
+00:03:10.560 --> 00:03:12.910 align:start position:0%
+cycle which is cycle 4 we will have the
+load<00:03:10.840><c> leaves</c><00:03:11.200><c> the</c><00:03:11.440><c> pipeline</c><00:03:12.280><c> the</c><00:03:12.480><c> pipeline</c>
+
+00:03:12.910 --> 00:03:12.920 align:start position:0%
+load leaves the pipeline the pipeline
+ 
+
+00:03:12.920 --> 00:03:15.309 align:start position:0%
+load leaves the pipeline the pipeline
+bubble<00:03:13.480><c> here</c><00:03:14.080><c> moves</c><00:03:14.480><c> forward</c><00:03:14.920><c> in</c><00:03:15.120><c> the</c>
+
+00:03:15.309 --> 00:03:15.319 align:start position:0%
+bubble here moves forward in the
+ 
+
+00:03:15.319 --> 00:03:17.149 align:start position:0%
+bubble here moves forward in the
+pipeline<00:03:15.840><c> this</c><00:03:16.120><c> pipeline</c><00:03:16.480><c> bubble</c><00:03:16.840><c> moves</c>
+
+00:03:17.149 --> 00:03:17.159 align:start position:0%
+pipeline this pipeline bubble moves
+ 
+
+00:03:17.159 --> 00:03:20.270 align:start position:0%
+pipeline this pipeline bubble moves
+forward<00:03:17.519><c> in</c><00:03:17.680><c> the</c><00:03:17.920><c> pipeline</c><00:03:18.640><c> and</c><00:03:18.799><c> now</c><00:03:19.040><c> the</c><00:03:19.280><c> ad</c>
+
+00:03:20.270 --> 00:03:20.280 align:start position:0%
+forward in the pipeline and now the ad
+ 
+
+00:03:20.280 --> 00:03:22.910 align:start position:0%
+forward in the pipeline and now the ad
+finally<00:03:20.720><c> moves</c><00:03:21.040><c> on</c><00:03:21.319><c> so</c><00:03:21.519><c> the</c><00:03:21.680><c> next</c><00:03:21.959><c> instruction</c>
+
+00:03:22.910 --> 00:03:22.920 align:start position:0%
+finally moves on so the next instruction
+ 
+
+00:03:22.920 --> 00:03:25.949 align:start position:0%
+finally moves on so the next instruction
+after<00:03:23.280><c> this</c><00:03:23.519><c> add</c><00:03:24.159><c> can</c><00:03:24.360><c> move</c><00:03:24.640><c> on</c><00:03:25.440><c> we</c><00:03:25.560><c> can</c><00:03:25.720><c> fetch</c>
+
+00:03:25.949 --> 00:03:25.959 align:start position:0%
+after this add can move on we can fetch
+ 
+
+00:03:25.959 --> 00:03:28.110 align:start position:0%
+after this add can move on we can fetch
+a<00:03:26.120><c> next</c><00:03:26.400><c> instruction</c><00:03:26.840><c> and</c><00:03:27.000><c> so</c><00:03:27.159><c> on</c><00:03:27.680><c> so</c><00:03:27.879><c> as</c><00:03:28.000><c> you</c>
+
+00:03:28.110 --> 00:03:28.120 align:start position:0%
+a next instruction and so on so as you
+ 
+
+00:03:28.120 --> 00:03:31.750 align:start position:0%
+a next instruction and so on so as you
+can<00:03:28.280><c> see</c><00:03:28.640><c> here</c><00:03:29.400><c> a</c><00:03:29.799><c> processor</c><00:03:30.319><c> pipeline</c><00:03:30.760><c> stall</c>
+
+00:03:31.750 --> 00:03:31.760 align:start position:0%
+can see here a processor pipeline stall
+ 
+
+00:03:31.760 --> 00:03:34.750 align:start position:0%
+can see here a processor pipeline stall
+creates<00:03:32.120><c> a</c><00:03:32.400><c> problem</c><00:03:32.840><c> because</c><00:03:33.680><c> normally</c><00:03:34.439><c> every</c>
+
+00:03:34.750 --> 00:03:34.760 align:start position:0%
+creates a problem because normally every
+ 
+
+00:03:34.760 --> 00:03:37.110 align:start position:0%
+creates a problem because normally every
+cycle<00:03:35.159><c> after</c><00:03:35.400><c> the</c><00:03:35.560><c> load</c><00:03:35.840><c> leaves</c><00:03:36.480><c> every</c><00:03:36.760><c> cycle</c>
+
+00:03:37.110 --> 00:03:37.120 align:start position:0%
+cycle after the load leaves every cycle
+ 
+
+00:03:37.120 --> 00:03:39.390 align:start position:0%
+cycle after the load leaves every cycle
+we<00:03:37.239><c> would</c><00:03:37.400><c> have</c><00:03:37.599><c> the</c><00:03:37.799><c> next</c><00:03:38.080><c> instruction</c><00:03:38.599><c> leave</c>
+
+00:03:39.390 --> 00:03:39.400 align:start position:0%
+we would have the next instruction leave
+ 
+
+00:03:39.400 --> 00:03:42.070 align:start position:0%
+we would have the next instruction leave
+but<00:03:39.879><c> in</c><00:03:40.120><c> this</c><00:03:40.360><c> case</c><00:03:40.680><c> after</c><00:03:40.959><c> the</c><00:03:41.080><c> load</c><00:03:41.400><c> leaves</c>
+
+00:03:42.070 --> 00:03:42.080 align:start position:0%
+but in this case after the load leaves
+ 
+
+00:03:42.080 --> 00:03:45.110 align:start position:0%
+but in this case after the load leaves
+there<00:03:42.200><c> are</c><00:03:42.480><c> two</c><00:03:43.120><c> cycles</c><00:03:44.120><c> worth</c><00:03:44.439><c> of</c><00:03:44.680><c> pipeline</c>
+
+00:03:45.110 --> 00:03:45.120 align:start position:0%
+there are two cycles worth of pipeline
+ 
+
+00:03:45.120 --> 00:03:46.990 align:start position:0%
+there are two cycles worth of pipeline
+bubble<00:03:45.519><c> that</c><00:03:45.760><c> finish</c><00:03:46.239><c> before</c><00:03:46.599><c> the</c><00:03:46.760><c> next</c>
+
+00:03:46.990 --> 00:03:47.000 align:start position:0%
+bubble that finish before the next
+ 
+
+00:03:47.000 --> 00:03:49.110 align:start position:0%
+bubble that finish before the next
+instruction<00:03:47.560><c> so</c><00:03:47.879><c> really</c><00:03:48.480><c> instead</c><00:03:48.760><c> of</c><00:03:48.920><c> just</c>
+
+00:03:49.110 --> 00:03:49.120 align:start position:0%
+instruction so really instead of just
+ 
+
+00:03:49.120 --> 00:03:51.429 align:start position:0%
+instruction so really instead of just
+having<00:03:49.519><c> one</c><00:03:49.840><c> cycle</c><00:03:50.159><c> for</c><00:03:50.360><c> the</c><00:03:50.480><c> load</c><00:03:50.920><c> one</c><00:03:51.120><c> cycle</c>
+
+00:03:51.429 --> 00:03:51.439 align:start position:0%
+having one cycle for the load one cycle
+ 
+
+00:03:51.439 --> 00:03:53.630 align:start position:0%
+having one cycle for the load one cycle
+for<00:03:51.640><c> the</c><00:03:51.799><c> ad</c><00:03:52.040><c> and</c><00:03:52.159><c> so</c><00:03:52.360><c> on</c><00:03:52.560><c> to</c><00:03:52.760><c> finish</c><00:03:53.280><c> we</c><00:03:53.400><c> now</c>
+
+00:03:53.630 --> 00:03:53.640 align:start position:0%
+for the ad and so on to finish we now
+ 
+
+00:03:53.640 --> 00:03:56.270 align:start position:0%
+for the ad and so on to finish we now
+have<00:03:54.280><c> one</c><00:03:54.519><c> cycle</c><00:03:54.840><c> for</c><00:03:55.000><c> the</c><00:03:55.159><c> load</c><00:03:55.599><c> two</c><00:03:55.879><c> cycles</c>
+
+00:03:56.270 --> 00:03:56.280 align:start position:0%
+have one cycle for the load two cycles
+ 
+
+00:03:56.280 --> 00:03:58.350 align:start position:0%
+have one cycle for the load two cycles
+worth<00:03:56.519><c> of</c><00:03:56.760><c> not</c><00:03:57.000><c> finishing</c><00:03:57.560><c> anything</c><00:03:57.959><c> and</c><00:03:58.120><c> then</c>
+
+00:03:58.350 --> 00:03:58.360 align:start position:0%
+worth of not finishing anything and then
+ 
+
+00:03:58.360 --> 00:04:00.990 align:start position:0%
+worth of not finishing anything and then
+the<00:03:58.519><c> ad</c><00:03:58.720><c> and</c><00:03:58.879><c> so</c><00:03:59.079><c> on</c><00:03:59.840><c> and</c><00:04:00.079><c> that</c><00:04:00.360><c> causes</c><00:04:00.760><c> our</c>
+
+00:04:00.990 --> 00:04:01.000 align:start position:0%
+the ad and so on and that causes our
+ 
+
+00:04:01.000 --> 00:04:04.830 align:start position:0%
+the ad and so on and that causes our
+pipeline<00:04:01.879><c> to</c><00:04:02.200><c> have</c><00:04:02.439><c> a</c><00:04:02.680><c> CPI</c><00:04:03.680><c> of</c><00:04:03.879><c> more</c><00:04:04.120><c> than</c>
+
+00:04:04.830 --> 00:04:04.840 align:start position:0%
+pipeline to have a CPI of more than
+ 
+
+00:04:04.840 --> 00:04:07.390 align:start position:0%
+pipeline to have a CPI of more than
+one<00:04:05.840><c> if</c><00:04:06.000><c> we</c><00:04:06.159><c> count</c><00:04:06.400><c> these</c><00:04:06.560><c> three</c><00:04:06.760><c> instructions</c>
+
+00:04:07.390 --> 00:04:07.400 align:start position:0%
+one if we count these three instructions
+ 
+
+00:04:07.400 --> 00:04:09.710 align:start position:0%
+one if we count these three instructions
+one<00:04:07.799><c> to</c><00:04:08.120><c> three</c><00:04:08.400><c> instructions</c><00:04:09.120><c> will</c><00:04:09.360><c> finish</c>
+
+00:04:09.710 --> 00:04:09.720 align:start position:0%
+one to three instructions will finish
+ 
+
+00:04:09.720 --> 00:04:12.550 align:start position:0%
+one to three instructions will finish
+over<00:04:10.120><c> five</c><00:04:10.439><c> Cycles</c><00:04:11.280><c> three</c><00:04:11.560><c> cycles</c><00:04:11.959><c> for</c><00:04:12.239><c> them</c>
+
+00:04:12.550 --> 00:04:12.560 align:start position:0%
+over five Cycles three cycles for them
+ 
+
+00:04:12.560 --> 00:04:15.309 align:start position:0%
+over five Cycles three cycles for them
+and<00:04:12.720><c> two</c><00:04:12.920><c> cycles</c><00:04:13.280><c> for</c><00:04:13.439><c> the</c><00:04:13.599><c> bubble</c><00:04:14.480><c> so</c><00:04:14.799><c> really</c>
+
+00:04:15.309 --> 00:04:15.319 align:start position:0%
+and two cycles for the bubble so really
+ 
+
+00:04:15.319 --> 00:04:18.509 align:start position:0%
+and two cycles for the bubble so really
+our<00:04:15.560><c> CPI</c><00:04:16.079><c> is</c><00:04:16.280><c> significantly</c><00:04:17.000><c> larger</c><00:04:17.400><c> than</c><00:04:17.600><c> one</c>
+
+00:04:18.509 --> 00:04:18.519 align:start position:0%
+our CPI is significantly larger than one
+ 
+
+00:04:18.519 --> 00:04:21.629 align:start position:0%
+our CPI is significantly larger than one
+a<00:04:18.759><c> processor</c><00:04:19.359><c> pipeline</c><00:04:20.320><c> may</c><00:04:20.680><c> also</c><00:04:21.040><c> need</c><00:04:21.280><c> to</c><00:04:21.440><c> be</c>
+
+00:04:21.629 --> 00:04:21.639 align:start position:0%
+a processor pipeline may also need to be
+ 
+
+00:04:21.639 --> 00:04:23.990 align:start position:0%
+a processor pipeline may also need to be
+flushed<00:04:22.639><c> this</c><00:04:22.759><c> is</c><00:04:22.880><c> an</c><00:04:23.160><c> example</c><00:04:23.600><c> that</c><00:04:23.800><c> we</c>
+
+00:04:23.990 --> 00:04:24.000 align:start position:0%
+flushed this is an example that we
+ 
+
+00:04:24.000 --> 00:04:28.720 align:start position:0%
+flushed this is an example that we
+didn't<00:04:24.360><c> have</c><00:04:24.600><c> in</c><00:04:24.720><c> our</c><00:04:25.040><c> car</c><00:04:25.360><c> assembly</c><00:04:25.800><c> line</c>
+

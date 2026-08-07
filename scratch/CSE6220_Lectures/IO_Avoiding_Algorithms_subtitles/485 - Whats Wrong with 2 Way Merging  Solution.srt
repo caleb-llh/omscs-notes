@@ -1,0 +1,44 @@
+1
+00:00:00,470 --> 00:00:03,260
+ As I said, there's no correct answer per se.
+
+2
+00:00:03,260 --> 00:00:06,720
+ So what would I have said if I were in your shoe or pajamas or
+
+3
+00:00:06,720 --> 00:00:08,600
+ whatever it is you're wearing right now?
+
+4
+00:00:08,600 --> 00:00:09,805
+ Maybe I would've said this.
+
+5
+00:00:09,805 --> 00:00:14,800
+ Two-way merging does a lousy job of utilizing fast memory capacity.
+
+6
+00:00:14,800 --> 00:00:18,880
+ Remember, the merging procedure only works on pairs of arrays at a time,
+
+7
+00:00:18,880 --> 00:00:23,390
+ and it just needs one block of size L of fast memory per pair.
+
+8
+00:00:23,390 --> 00:00:27,010
+ So it's very sensitive to L, but it's not at all sensitive to Z.
+
+9
+00:00:27,010 --> 00:00:31,679
+ Hm, someone ought to fix that, I'm looking at you.
+
+10
+00:00:31,679 --> 00:00:33,500
+ Yes, you, I'm looking at you.
+
+11
+00:00:33,500 --> 00:00:33,500
+ Hello, it is I.
+

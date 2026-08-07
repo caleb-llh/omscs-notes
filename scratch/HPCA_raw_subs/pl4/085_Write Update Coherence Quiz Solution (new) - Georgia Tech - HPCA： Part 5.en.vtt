@@ -1,0 +1,208 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.030 --> 00:00:01.520 align:start position:0%
+ 
+let's<00:00:00.329><c> look</c><00:00:00.480><c> at</c><00:00:00.630><c> the</c><00:00:00.780><c> solution</c><00:00:00.960><c> to</c><00:00:01.500><c> our</c>
+
+00:00:01.520 --> 00:00:01.530 align:start position:0%
+let's look at the solution to our
+ 
+
+00:00:01.530 --> 00:00:04.070 align:start position:0%
+let's look at the solution to our
+write-update<00:00:02.129><c> coherence</c><00:00:02.760><c> quiz</c><00:00:03.060><c> where</c><00:00:03.899><c> what</c>
+
+00:00:04.070 --> 00:00:04.080 align:start position:0%
+write-update coherence quiz where what
+ 
+
+00:00:04.080 --> 00:00:06.710 align:start position:0%
+write-update coherence quiz where what
+we<00:00:04.200><c> had</c><00:00:04.410><c> is</c><00:00:04.730><c> for</c><00:00:05.730><c> access</c><00:00:06.150><c> is</c><00:00:06.330><c> like</c><00:00:06.509><c> this</c>
+
+00:00:06.710 --> 00:00:06.720 align:start position:0%
+we had is for access is like this
+ 
+
+00:00:06.720 --> 00:00:09.440 align:start position:0%
+we had is for access is like this
+happening<00:00:07.680><c> in</c><00:00:07.980><c> a</c><00:00:08.179><c> write-update</c>
+
+00:00:09.440 --> 00:00:09.450 align:start position:0%
+happening in a write-update
+ 
+
+00:00:09.450 --> 00:00:13.789 align:start position:0%
+happening in a write-update
+coherent<00:00:10.290><c> set</c><00:00:10.920><c> of</c><00:00:11.070><c> caches</c><00:00:12.019><c> after</c><00:00:13.019><c> the</c><00:00:13.500><c> first</c>
+
+00:00:13.789 --> 00:00:13.799 align:start position:0%
+coherent set of caches after the first
+ 
+
+00:00:13.799 --> 00:00:17.090 align:start position:0%
+coherent set of caches after the first
+read<00:00:14.130><c> completes</c><00:00:14.610><c> here</c><00:00:15.059><c> we</c><00:00:16.049><c> have</c><00:00:16.320><c> data</c><00:00:16.560><c> six</c>
+
+00:00:17.090 --> 00:00:17.100 align:start position:0%
+read completes here we have data six
+ 
+
+00:00:17.100 --> 00:00:21.859 align:start position:0%
+read completes here we have data six
+tags<00:00:18.000><c> 700</c><00:00:18.900><c> hex</c><00:00:19.170><c> and</c><00:00:19.500><c> the</c><00:00:20.039><c> valid</c><00:00:20.400><c> bit</c><00:00:20.580><c> is</c><00:00:20.609><c> 1</c><00:00:21.060><c> so</c>
+
+00:00:21.859 --> 00:00:21.869 align:start position:0%
+tags 700 hex and the valid bit is 1 so
+ 
+
+00:00:21.869 --> 00:00:24.529 align:start position:0%
+tags 700 hex and the valid bit is 1 so
+when<00:00:22.050><c> this</c><00:00:22.199><c> read</c><00:00:22.500><c> completes</c><00:00:23.039><c> we</c><00:00:23.550><c> have</c><00:00:23.820><c> a</c><00:00:24.029><c> valid</c>
+
+00:00:24.529 --> 00:00:24.539 align:start position:0%
+when this read completes we have a valid
+ 
+
+00:00:24.539 --> 00:00:28.009 align:start position:0%
+when this read completes we have a valid
+bit<00:00:24.720><c> 1</c><00:00:25.050><c> here</c><00:00:25.590><c> the</c><00:00:26.099><c> data</c><00:00:26.310><c> is</c><00:00:26.760><c> 6</c><00:00:27.180><c> and</c><00:00:27.539><c> the</c><00:00:27.630><c> tag</c><00:00:27.840><c> is</c>
+
+00:00:28.009 --> 00:00:28.019 align:start position:0%
+bit 1 here the data is 6 and the tag is
+ 
+
+00:00:28.019 --> 00:00:32.330 align:start position:0%
+bit 1 here the data is 6 and the tag is
+700<00:00:28.650><c> at</c><00:00:29.640><c> that</c><00:00:30.119><c> time</c><00:00:30.390><c> in</c><00:00:30.840><c> these</c><00:00:31.439><c> other</c><00:00:31.679><c> caches</c>
+
+00:00:32.330 --> 00:00:32.340 align:start position:0%
+700 at that time in these other caches
+ 
+
+00:00:32.340 --> 00:00:34.220 align:start position:0%
+700 at that time in these other caches
+the<00:00:32.369><c> valid</c><00:00:32.880><c> bit</c><00:00:33.059><c> is</c><00:00:33.090><c> simply</c><00:00:33.600><c> 0</c><00:00:33.840><c> because</c><00:00:34.110><c> they</c>
+
+00:00:34.220 --> 00:00:34.230 align:start position:0%
+the valid bit is simply 0 because they
+ 
+
+00:00:34.230 --> 00:00:35.959 align:start position:0%
+the valid bit is simply 0 because they
+have<00:00:34.440><c> not</c><00:00:34.620><c> accessed</c><00:00:34.920><c> anything</c><00:00:35.550><c> yet</c>
+
+00:00:35.959 --> 00:00:35.969 align:start position:0%
+have not accessed anything yet
+ 
+
+00:00:35.969 --> 00:00:39.889 align:start position:0%
+have not accessed anything yet
+when<00:00:36.750><c> core</c><00:00:37.079><c> 1</c><00:00:37.380><c> reads</c><00:00:37.760><c> it</c><00:00:38.760><c> sets</c><00:00:39.149><c> the</c><00:00:39.360><c> valid</c><00:00:39.719><c> bit</c>
+
+00:00:39.889 --> 00:00:39.899 align:start position:0%
+when core 1 reads it sets the valid bit
+ 
+
+00:00:39.899 --> 00:00:42.560 align:start position:0%
+when core 1 reads it sets the valid bit
+and<00:00:40.140><c> fetch</c><00:00:40.290><c> is</c><00:00:40.469><c> the</c><00:00:40.590><c> same</c><00:00:40.860><c> data</c><00:00:41.129><c> when</c><00:00:42.000><c> quarto</c>
+
+00:00:42.560 --> 00:00:42.570 align:start position:0%
+and fetch is the same data when quarto
+ 
+
+00:00:42.570 --> 00:00:45.950 align:start position:0%
+and fetch is the same data when quarto
+writes<00:00:42.870><c> it</c><00:00:43.710><c> broadcasts</c><00:00:44.239><c> the</c><00:00:45.239><c> value</c><00:00:45.690><c> in</c><00:00:45.809><c> the</c>
+
+00:00:45.950 --> 00:00:45.960 align:start position:0%
+writes it broadcasts the value in the
+ 
+
+00:00:45.960 --> 00:00:48.979 align:start position:0%
+writes it broadcasts the value in the
+address<00:00:46.489><c> so</c><00:00:47.489><c> these</c><00:00:47.730><c> caches</c><00:00:48.090><c> that</c><00:00:48.510><c> already</c>
+
+00:00:48.979 --> 00:00:48.989 align:start position:0%
+address so these caches that already
+ 
+
+00:00:48.989 --> 00:00:51.889 align:start position:0%
+address so these caches that already
+have<00:00:49.440><c> this</c><00:00:50.160><c> block</c><00:00:50.550><c> will</c><00:00:50.879><c> update</c><00:00:51.120><c> what</c><00:00:51.750><c> they</c>
+
+00:00:51.889 --> 00:00:51.899 align:start position:0%
+have this block will update what they
+ 
+
+00:00:51.899 --> 00:00:55.279 align:start position:0%
+have this block will update what they
+have<00:00:52.140><c> now</c><00:00:52.379><c> 217</c><00:00:53.280><c> and</c><00:00:53.610><c> now</c><00:00:54.420><c> of</c><00:00:54.570><c> course</c><00:00:54.600><c> on</c><00:00:55.020><c> core</c>
+
+00:00:55.279 --> 00:00:55.289 align:start position:0%
+have now 217 and now of course on core
+ 
+
+00:00:55.289 --> 00:00:57.650 align:start position:0%
+have now 217 and now of course on core
+to<00:00:55.590><c> this</c><00:00:55.829><c> block</c><00:00:56.129><c> starts</c><00:00:56.550><c> being</c><00:00:56.730><c> valid</c><00:00:57.239><c> and</c><00:00:57.449><c> has</c>
+
+00:00:57.650 --> 00:00:57.660 align:start position:0%
+to this block starts being valid and has
+ 
+
+00:00:57.660 --> 00:01:00.770 align:start position:0%
+to this block starts being valid and has
+a<00:00:57.690><c> value</c><00:00:57.930><c> of</c><00:00:58.170><c> 17</c><00:00:58.800><c> and</c><00:00:59.129><c> finally</c><00:01:00.000><c> when</c><00:01:00.180><c> core</c><00:01:00.480><c> tree</c>
+
+00:01:00.770 --> 00:01:00.780 align:start position:0%
+a value of 17 and finally when core tree
+ 
+
+00:01:00.780 --> 00:01:05.000 align:start position:0%
+a value of 17 and finally when core tree
+reads<00:01:01.469><c> it</c><00:01:02.430><c> also</c><00:01:02.820><c> gets</c><00:01:03.270><c> the</c><00:01:03.510><c> value</c><00:01:03.809><c> of</c><00:01:03.899><c> 17</c><00:01:04.530><c> so</c>
+
+00:01:05.000 --> 00:01:05.010 align:start position:0%
+reads it also gets the value of 17 so
+ 
+
+00:01:05.010 --> 00:01:07.429 align:start position:0%
+reads it also gets the value of 17 so
+this<00:01:05.250><c> is</c><00:01:05.519><c> the</c><00:01:05.970><c> final</c><00:01:06.479><c> state</c><00:01:06.810><c> of</c><00:01:07.049><c> the</c><00:01:07.170><c> caches</c>
+
+00:01:07.429 --> 00:01:07.439 align:start position:0%
+this is the final state of the caches
+ 
+
+00:01:07.439 --> 00:01:11.060 align:start position:0%
+this is the final state of the caches
+all<00:01:08.280><c> caches</c><00:01:08.820><c> have</c><00:01:09.060><c> the</c><00:01:09.510><c> block</c><00:01:09.720><c> and</c><00:01:09.960><c> all</c><00:01:10.530><c> caches</c>
+
+00:01:11.060 --> 00:01:11.070 align:start position:0%
+all caches have the block and all caches
+ 
+
+00:01:11.070 --> 00:01:13.580 align:start position:0%
+all caches have the block and all caches
+have<00:01:11.100><c> the</c><00:01:11.400><c> same</c><00:01:11.640><c> value</c><00:01:12.000><c> of</c><00:01:12.060><c> the</c><00:01:12.150><c> block</c><00:01:12.590><c> which</c>
+
+00:01:13.580 --> 00:01:13.590 align:start position:0%
+have the same value of the block which
+ 
+
+00:01:13.590 --> 00:01:15.620 align:start position:0%
+have the same value of the block which
+means<00:01:13.619><c> that</c><00:01:14.189><c> really</c><00:01:14.400><c> the</c><00:01:14.939><c> caches</c><00:01:15.390><c> are</c>
+
+00:01:15.620 --> 00:01:15.630 align:start position:0%
+means that really the caches are
+ 
+
+00:01:15.630 --> 00:01:18.890 align:start position:0%
+means that really the caches are
+coherent<00:01:16.259><c> for</c><00:01:16.470><c> this</c><00:01:16.650><c> block</c>
+

@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.560 --> 00:00:02.790 align:start position:0%
+ 
+in<00:00:00.800><c> this</c><00:00:01.040><c> lesson</c><00:00:01.439><c> we</c><00:00:01.600><c> learned</c><00:00:01.920><c> about</c><00:00:02.320><c> memory</c>
+
+00:00:02.790 --> 00:00:02.800 align:start position:0%
+in this lesson we learned about memory
+ 
+
+00:00:02.800 --> 00:00:05.670 align:start position:0%
+in this lesson we learned about memory
+consistency<00:00:03.919><c> which</c><00:00:04.160><c> defines</c><00:00:05.120><c> what</c><00:00:05.440><c> is</c>
+
+00:00:05.670 --> 00:00:05.680 align:start position:0%
+consistency which defines what is
+ 
+
+00:00:05.680 --> 00:00:08.150 align:start position:0%
+consistency which defines what is
+allowed<00:00:06.000><c> to</c><00:00:06.240><c> happen</c><00:00:06.960><c> when</c><00:00:07.200><c> processor</c><00:00:07.759><c> cores</c>
+
+00:00:08.150 --> 00:00:08.160 align:start position:0%
+allowed to happen when processor cores
+ 
+
+00:00:08.160 --> 00:00:10.470 align:start position:0%
+allowed to happen when processor cores
+are<00:00:08.240><c> reordering</c><00:00:08.800><c> memory</c><00:00:09.280><c> accesses</c>
+
+00:00:10.470 --> 00:00:10.480 align:start position:0%
+are reordering memory accesses
+ 
+
+00:00:10.480 --> 00:00:13.110 align:start position:0%
+are reordering memory accesses
+we<00:00:10.639><c> have</c><00:00:10.880><c> seen</c><00:00:11.120><c> that</c><00:00:11.280><c> sequential</c><00:00:12.000><c> consistency</c>
+
+00:00:13.110 --> 00:00:13.120 align:start position:0%
+we have seen that sequential consistency
+ 
+
+00:00:13.120 --> 00:00:16.630 align:start position:0%
+we have seen that sequential consistency
+gives<00:00:13.519><c> us</c><00:00:13.920><c> the</c><00:00:14.080><c> behavior</c><00:00:14.639><c> we</c><00:00:14.920><c> expect</c><00:00:16.000><c> but</c><00:00:16.400><c> that</c>
+
+00:00:16.630 --> 00:00:16.640 align:start position:0%
+gives us the behavior we expect but that
+ 
+
+00:00:16.640 --> 00:00:19.189 align:start position:0%
+gives us the behavior we expect but that
+it<00:00:16.800><c> can</c><00:00:16.960><c> limit</c><00:00:17.359><c> performance</c><00:00:18.480><c> and</c><00:00:18.800><c> we</c><00:00:18.960><c> have</c>
+
+00:00:19.189 --> 00:00:19.199 align:start position:0%
+it can limit performance and we have
+ 
+
+00:00:19.199 --> 00:00:20.790 align:start position:0%
+it can limit performance and we have
+seen<00:00:19.439><c> that</c><00:00:19.680><c> more</c><00:00:19.840><c> relaxed</c><00:00:20.400><c> memory</c>
+
+00:00:20.790 --> 00:00:20.800 align:start position:0%
+seen that more relaxed memory
+ 
+
+00:00:20.800 --> 00:00:23.109 align:start position:0%
+seen that more relaxed memory
+consistency<00:00:21.439><c> models</c><00:00:22.320><c> can</c><00:00:22.560><c> improve</c>
+
+00:00:23.109 --> 00:00:23.119 align:start position:0%
+consistency models can improve
+ 
+
+00:00:23.119 --> 00:00:26.470 align:start position:0%
+consistency models can improve
+performance<00:00:24.320><c> but</c><00:00:25.039><c> make</c><00:00:25.359><c> program</c><00:00:25.840><c> behavior</c>
+
+00:00:26.470 --> 00:00:26.480 align:start position:0%
+performance but make program behavior
+ 
+
+00:00:26.480 --> 00:00:30.599 align:start position:0%
+performance but make program behavior
+more<00:00:26.720><c> difficult</c><00:00:27.119><c> to</c><00:00:27.279><c> reason</c><00:00:27.599><c> about</c>
+
