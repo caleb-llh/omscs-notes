@@ -32,7 +32,7 @@ Act as a technical scribe. Using the provided material, generate a comprehensive
 
 
 ### Trae multi-agent prompt (Gemini 3.1 Pro Preview)
-> I want you to use an LLM sub-agent to read the transcript for all the videos in this playlist, reorganise them in a lossless way into highly readable and structured textbook-style Markdown notes, grouped by themes. Do NOT lose information in the process, and feel free to do multiple passes through the generated notes to ensure quality.
+> I want you to use an LLM sub-agent to read the transcript for all the videos in this playlist, reorganise them in a way into highly readable and structured textbook-style Markdown notes, grouped by themes. Create a new copy, do NOT lose semantic information in the process, and feel free to do multiple passes through the generated notes to ensure quality.
 
 > Group them based on the modules/lessons specified in the syllabus
 
