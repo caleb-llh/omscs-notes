@@ -122,6 +122,8 @@ In a more complex hardware organization, the bus system is divided to efficientl
   * Functions like a specialized I/O processor.
   * Responsible for controlling access to the I/O bus and scheduling devices that are competing for the CPU's attention or for memory access.
 
+![[Pasted image 20260809134054.png]]
+
 ## Platform Specifics
 While the foundational *internal organization* remains constant, the *specifics* of the hardware vary significantly from one manifestation to the next, commensurate with their intended use:
 * **Key Variables**: Computational power, memory capacity, and the number and types of I/O devices.

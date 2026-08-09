@@ -146,7 +146,7 @@ All rely on atomic operations.
 ### Remote Procedure Call (RPC)
 
 
-## Distributed File Systems
+### Distributed File Systems
 > - Files and directories often have different semantics because of different access patterns and usage scenarios. Files are typically read and written sequentially, while directories are accessed randomly to look up file names. This leads to different design considerations for caching, locking, and consistency.
 > - DFS design must consider network latency, bandwidth, fault tolerance, scalability, and consistency models.
 > - coherence focuses on a single piece of data across the system, while consistency focuses on the ordering of all memory operations across all processors
@@ -163,7 +163,7 @@ All rely on atomic operations.
 ### Datacenter Technologies
 
 
-<br></br>
+
 ---
 # Formulas
 
