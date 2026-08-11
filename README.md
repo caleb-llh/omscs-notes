@@ -38,7 +38,7 @@ Act as a technical scribe. Using the provided material, generate a comprehensive
 
 > Supplement the notes where necessary to make it more readable and friendly.
 > Examples of block comments to add:
-> background contexts, purpose (problem it is solving), connective information, intuitions, philosophy/gist, conceptual mental-models/frameworks, dichotomy/tradeoffs, hypotheticals/first-principles (what if i changed this aspect), common examples, common confusions (what it is not), etc. Do NOT lose information, only add.
+> background contexts, purpose (problem that this system is solving), connective information, intuitions, design philosophy, conceptual mental-models/frameworks, dichotomy/tradeoffs, hypotheticals/first-principles (what if i changed this aspect), common examples, common confusions (what it is not), etc. Do NOT lose information, only add.
 
 > Do a few passes to enrich and refine the notes to achieve the high readability, density and quality of information. Do NOT lose information.
 
