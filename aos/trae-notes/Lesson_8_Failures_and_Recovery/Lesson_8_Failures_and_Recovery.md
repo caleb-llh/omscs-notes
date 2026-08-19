@@ -36,6 +36,7 @@
 ## 3. Server Design with LRVM
 - **Selective Persistence:** The entire virtual address space does not need to be persistent. The developer decides which specific data structures require persistence (e.g., file system inodes).
 > **Conceptual Framework:** Not all data is created equal. Selective persistence relies on the programmer's domain knowledge to distinguish between ephemeral state (e.g., loop counters) and critical state (e.g., file metadata), optimizing overhead by only persisting what matters.
+> **Example:** In a file server design, inode data structures on the disk must be persistent. If an inode (e.g., `m1`) is mapped into a portion of the virtual address space, only the manipulation of `m1` needs to be reflected in the backing store.
 - **External Data Segments:**
   - Collections of data structures that must be persistent on disk.
   - An application can map multiple external data segments to different, non-overlapping portions of its virtual address space.
@@ -97,6 +98,7 @@ To enhance performance, LRVM provides optimization modes:
   - LRVM commits the transaction in memory but does not synchronously block to flush the redo log to disk.
   - **Trade-off:** Creates a "window of vulnerability." If the system crashes before the background flush completes, recent committed changes are lost.
   > **Tradeoff:** Using the `no_flush` option trades strict durability for significantly higher performance. You gain execution speed by avoiding synchronous disk I/O, but you risk losing the most recently committed data if the system crashes before the background flush completes.
+  > **Analogy:** Just as "shared memory systems scale really well when you don't share memory," transactional systems scale and perform really well when you don't strictly enforce the full semantic requirements of a transaction (like synchronous I/O).
 
 ## 7. Implementation Details
 - **No-Undo / Redo Value Logging:**
@@ -119,6 +121,7 @@ To enhance performance, LRVM provides optimization modes:
 ## 9. Log Truncation
 - **Problem:** As the system runs, redo logs accumulate, consuming disk space and slowing down data segment mapping.
   > **Hypothetical:** What if we never truncated the log? The system would theoretically still work and be able to recover, but the log would grow infinitely, eventually consuming all disk space. More importantly, crash recovery would take an impractically long time because the system would have to replay every single change made since the beginning of time.
+  > **Analogy:** Just as log truncation is needed in Distributed Shared Memory (DSM) systems to prevent logs from clogging physical memory, LRVM requires log truncation to prevent redo logs from clogging disk space.
 - **Solution:** Truncate the log periodically by applying the redo logs to the external data segments (similar to the crash recovery process).
 - **Parallel Processing:**
   - LRVM splits the log into **epochs** to avoid halting the system.
@@ -251,6 +254,7 @@ To enhance performance, LRVM provides optimization modes:
 ## 2. Quicksilver Overview
 - **Origin**: Developed by **IBM** starting in **1984** (early 80s). First paper published in 1988.
 - **Motivation**: Designed to address everyday computing issues like orphan windows, memory leaks, and other state left behind by failed processes. Conceived during the transition from CRT terminals connected to mainframes to office workstations (desktops).
+> **Background Context:** Quicksilver was designed and implemented in the early 80s (1984-1988), but the first paper didn't appear until 1988. This reflects a difference in old-school Industrial Research (publish when "fully cooked") vs. Academic Research (publish/shout often).
 > **Example:** An orphan window occurs when the application that created the window crashes, but the window manager doesn't know, leaving an unresponsive, unkillable window on the user's screen.
 - **Precursor**: A precursor to Quicksilver at IBM was called **925** (a pun on "9 to 5" office workstations).
 - **Historical Context**: Quicksilver's ideas predated or were concurrent with Network File System (NFS), Remote Procedure Call (RPC), the Internet, and the World Wide Web.
@@ -298,6 +302,7 @@ To enhance performance, LRVM provides optimization modes:
 
 ## 7. Distributed Transaction Trees
 - **Transaction Tree Creation**: A chain of client-server interactions leads to a transaction tree that spans multiple nodes/sites.
+  > **Example:** A client asking a window manager to paint something on the screen establishes a transaction link between those two nodes. If that client also requests a file server to open a file, another branch of the transaction tree is established. Together, these form a single transaction tree encompassing all participating nodes under the covers.
 - **Nodes in the Tree**:
   - **Owner / Coordinator**: The creator of the transaction (where the interaction originates) is the default owner and root of the tree.
   - **Participants**: Other nodes involved in the IPC chain that agree to participate in the transaction.
@@ -320,6 +325,7 @@ To enhance performance, LRVM provides optimization modes:
 ## 9. State and Log Management (Implementation Notes)
 - **Breadcrumbs/State Left Behind**: Memory allocated but not freed, file handles, communication handles, orphan windows. The transaction tree ensures these can be cleanly collected.
   > **Intuition:** When a program crashes, it often leaves a mess—like open files or half-drawn windows. Quicksilver's transaction tree acts like an automatic cleaning crew that knows exactly which mess belongs to which crashed program and sweeps it all up.
+  > **Example:** A window manager may have opened up a window on the display on behalf of a client—that window is a piece of breadcrumb. Similarly, a file server may have opened a file and kept pointers to where the client is in that file—that's another breadcrumb. If the client crashes, these specific breadcrumbs need to be cleaned up.
 - **Log Maintenance**:
   - TMs write log records to recover persistent state.
   - Logs are initially kept in memory (in-memory log segments).

@@ -41,6 +41,8 @@
 ## The Hierarchy of Computer Systems Abstractions
 A deep stack of abstractions connects user-facing applications (like Google Earth) to the fundamental physical components of a computer. 
 
+> **Example:** In an application like Google Earth, when you move your mouse from Atlanta, Georgia to Chennai, India, magic happens on the screen. Between that user action and the solid-state electronics (electrons and holes) enshrined in your computer system, there is a whole series of abstractions.
+
 > **Background Context:** This layered approach means that each level only needs to trust the guarantees of the level immediately below it. An OS developer writes code assuming the ISA works correctly, without worrying about how the control logic routes electrons through logic gates.
 
 ### Levels of the Hierarchy (Bottom to Top)
@@ -51,6 +53,7 @@ A deep stack of abstractions connects user-facing applications (like Google Eart
    - **Data Path**: Establishes communication paths between logic elements.
    - **Control Logic**: A finite state machine that controls the data path to implement the hardware's functionality.
 5. **Instruction Set Architecture (ISA)**: The crucial meeting point between hardware and software. Hardware implements the ISA contract, and software targets the ISA without caring about the underlying hardware implementation.
+   - *Example*: When you hear a promotional commercial that says "Intel Inside," it is the ISA (Instruction Set Architecture) that is being talked about.
 6. **System Software**: Includes operating systems, compilers, and runtime systems. 
    - **Compilers**: Translate high-level languages into ISA instructions.
    - **Operating System**: Provides interfaces for applications to request services, such as accessing devices or demanding memory.
@@ -103,24 +106,28 @@ Device controllers have varying capabilities depending on the speed and sophisti
 * **Slow-Speed Devices** (e.g., Keyboard, Mouse):
   * Do not typically use DMA. Instead, the CPU directly queries the device controller for new data and manually moves it into memory or processes it as needed.
 
-> **Tradeoff:** Why not use DMA for every device? While DMA saves CPU cycles by handling data transfers independently, it requires more complex and expensive hardware (DMA controllers). For slow devices like keyboards, the CPU overhead of manually moving data is so minimal that the extra hardware cost isn't justified.
-
+> **Tradeoff:** Why not use DMA for every device? While DMA saves CPU cycles by handling data transfers independently, it requires more complex and expensive hardware (DMA controllers). For slow devices like keyboards, the CPU overhead of manually moving data is so minimal that the extra hardware cost isn't justified. Setup cost is also higher for DMA compared to PIO.
+![[Pasted image 20260816215824.png]]
 ## Elaborate Organization: System Bus vs. I/O Bus
 In a more complex hardware organization, the bus system is divided to efficiently handle different bandwidth requirements:
 
 > **Conceptual Framework:** A single unified bus would quickly become a bottleneck. If the CPU had to wait for a slow hard drive to finish transmitting data on the same wires used to fetch the next instruction from RAM, performance would collapse. By creating a hierarchy of buses connected by bridges, fast components communicate unimpeded while slow components are aggregated.
 
+![[Pasted image 20260816215538.png]]
+
 * **System Bus**: 
-  * A high-speed, synchronous communication conduit directly connecting the CPU and the memory.
+  * A high-speed, **synchronous** communication conduit directly connecting the CPU and the memory.
   * Possesses a high communication bandwidth necessary to cater to all clients (the CPU itself and I/O devices) accessing memory.
   * Certain high-speed devices (like a graphics display frame buffer needing rapid, continuous screen refreshes from memory) may connect directly to the system bus.
 * **I/O Bus**: 
   * A typically lower-speed conduit primarily intended for peripheral devices to communicate with the CPU and memory.
-  * The cumulative bandwidth required on the I/O bus is less than what is available on the system bus.
+  * The cumulative bandwidth required on the I/O bus is **less than** what is available on the system bus.
 * **Bridge**: 
   * A component that connects the high-speed system bus to the lower-speed I/O bus.
   * Functions like a specialized I/O processor.
   * Responsible for controlling access to the I/O bus and scheduling devices that are competing for the CPU's attention or for memory access.
+
+
 
 ## Platform Specifics
 While the foundational *internal organization* remains constant, the *specifics* of the hardware vary significantly from one manifestation to the next, commensurate with their intended use:
@@ -139,6 +146,7 @@ While the foundational *internal organization* remains constant, the *specifics*
 *   **Nature of the OS**: 
     *   It is fundamentally a program, much like any other software (though more complex than a "Hello World" application).
     *   Learning to build one is just a matter of "climbing the programming ladder" (from simple programs to complex systems).
+        *   *Analogy*: Just like a ball player may start from T-ball to Little League to Minor League and then to the Majors, you can also do it. If you can write a "Hello World" program today, you can eventually write an entire operating system!
 
 > **Intuition:** The OS is like the government of a city. It doesn't produce any goods itself, but it provides the infrastructure (roads, police, utilities) that allows businesses (applications) to operate efficiently and safely without interfering with each other.
 
@@ -146,7 +154,7 @@ While the foundational *internal organization* remains constant, the *specifics*
     *   The OS provides well-defined APIs for accessing the hardware resources it manages.
     *   Applications request hardware resources by making API calls to the OS.
     *   The OS provides these resources as services and sends responses back to the applications.
-
+![[Pasted image 20260816220401.png]]
 ## 2. Core Functionalities of an Operating System
 
 The operating system serves several critical roles in managing a computer system:
@@ -201,7 +209,7 @@ The interaction between hardware and software is best illustrated by examining w
 The primary role of an operating system (OS) is to manage physical hardware safely and efficiently. Whether displaying graphics for a video game, playing music, or browsing the web, applications must share hardware nicely. 
 * The OS prevents resource hogging and data overwriting.
 * The OS protects applications from one another and from themselves.
-* The OS gets out of the way as quickly as possible to let applications perform their tasks.
+* The **OS gets out of the way as quickly as possible** to let applications perform their tasks.
 
 ## CPU Management and Multiplexing
 * **Apparent Parallelism:** A computer appears to run multiple applications simultaneously (email, browser, music, video) even if it only has a single CPU or core.
@@ -211,7 +219,7 @@ The primary role of an operating system (OS) is to manage physical hardware safe
 
 ## Resource Allocation and Memory Footprint
 Applications require time on the CPU, memory for instructions and data, and access to peripheral devices.
-* **OS Loader:** When an icon is clicked, the OS loader reads the disk-resident image of the application and creates a memory footprint.
+* **OS Loader:** When an icon is clicked, the OS loader reads the **disk-resident** image of the application and creates a memory footprint.
 
 > **Background Context:** Modern OSes don't load the entire program into physical RAM all at once. They use *Virtual Memory*, mapping virtual addresses to physical pages. Parts of the program are only loaded from disk into memory when they are actually needed (Demand Paging), allowing a program's virtual footprint to be larger than the available physical RAM.
 
@@ -221,7 +229,7 @@ Applications require time on the CPU, memory for instructions and data, and acce
   * **Stack:** Memory needed for making procedure calls.
   * **Heap:** Dynamic memory required during the course of execution.
 * **Dynamic Resource Requests:** Running applications can request additional resources (e.g., more memory or making a connection to a web server) via OS calls. The OS acts as a broker to fulfill these requests and allows the application to continue.
-
+![[Pasted image 20260816222737.png]]
 ## OS Overhead and Efficiency
 * **Minimal Interference:** The OS acts as a resource broker but does not arbitrarily take precious resources away from applications (e.g., an application computing prime numbers up to a billion).
 * **Administrative Overhead Analogy:** Similar to a charity where you want minimal administrative overhead, a good OS uses the minimal amount of CPU cycles and memory needed to arbitrate and provide resources safely and securely, then gets out of the way.
@@ -234,18 +242,19 @@ Applications require time on the CPU, memory for instructions and data, and acce
   * *Newspaper Analogy:* If a program is a morning newspaper lying on a table, reading it brings it to life. The user reading the sports section is one thread, while a spouse reading the business section is another thread. Both represent different lines of control through the same program.
   * *Concurrency Examples:* In a web browser, one thread might fetch a requested page from a remote server while another thread paints the screen.
   * *Conflicts:* Threads within the same program may attempt to read or update the same data structures simultaneously. The OS arbitrates these competing requests.
-
+![[Pasted image 20260816223020.png]]
 > **Intuition:** 
 > - **Program:** The recipe for a cake (static instructions).
 > - **Process:** The act of baking the cake in a kitchen (active execution with resources like bowls and oven).
 > - **Thread:** The chefs working together in that same kitchen to bake the cake.
 > 
-> **Common Confusion:** People often mix up processes and threads. A process is the execution environment and resource container (like a memory space), whereas a thread is the actual execution sequence within that process. Multiple threads share the same process resources.
+> **Common Confusion:** People often mix up processes and threads. A process is the execution environment and **resource container** (like a memory space), whereas a thread is the actual execution sequence within that process. Multiple threads share the same process resources.
 
+![[Pasted image 20260816223033.png]]
 ## Memory-Related Abstractions
-* **Address Space:** The fundamental OS abstraction for memory management. It acts as an isolated container for a program's code and data.
+* **Address Space:** The fundamental OS abstraction for memory management. It acts as an **isolated container** for a program's code and data.
 * **Protection:** Distinct address spaces prevent misbehaving programs (e.g., a web browser) from corrupting the memory of other programs (e.g., an email client).
-
+![[Pasted image 20260816223048.png]]
 > **Example:** If a program tries to access memory outside of its designated Address Space, the hardware detects the violation and traps to the OS. The OS typically responds by terminating the offending program. This is the root cause of the infamous "Segmentation Fault" or "Access Violation" error.
 
 * **Implementation:** The OS relies on underlying hardware capabilities provided by the processor architecture to implement the address space abstraction.

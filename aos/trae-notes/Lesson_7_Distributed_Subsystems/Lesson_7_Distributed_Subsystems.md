@@ -12,7 +12,8 @@
 
 ## 1. Introduction
 - **Distributed Systems Innovation:** Technological innovations in distributed systems often emerge from academia due to a lack of market or compliance pressures, leading to "out-of-the-box" thinking.
-- **Enduring Value:** The byproducts and implementation techniques of thought experiments often have a more lasting impact than the original visions (e.g., Java emerged from failed video-on-demand trials).
+- **Enduring Value:** The byproducts and implementation techniques of thought experiments often have a more lasting impact than the original visions.
+  > **Example / Analogy:** The ubiquitous yellow sticky note was a byproduct of space exploration research. Similarly, Java emerged from failed video-on-demand trials in the 90s.
   > **Background Context:** Many foundational distributed systems principles, such as virtual time or distributed consensus algorithms (like Paxos), were born out of theoretical thought experiments long before they were practically required by industry.
 - **Core Theme of Module:** Memory is a critical, precious resource. Advances in local area network (LAN) technology allow leveraging the idle physical memory of peer nodes in a cluster to overcome local memory shortages.
 - **Three Subsystems Discussed:**
@@ -179,7 +180,8 @@ Programmers explicitly write parallel code. System support comes in two main sty
 
 ### Sequential Consistency (SC) Model
 *   **Concept**: Memory accesses happen in their exact textual/program order. Individual read/write operations are atomic.
-*   **Interleaving**: The global order of accesses from multiple processors is an arbitrary interleaving (like a perfect merge-shuffle of card decks), but the individual program order is always preserved.
+*   **Interleaving**: The global order of accesses from multiple processors is an arbitrary interleaving, but the individual program order is always preserved.
+    > **Analogy:** Think of a card shark taking an n-way split of a card deck (representing memory accesses on individual processors) and doing a perfect merge-shuffle of all the splits.
 *   **The Problem with SC in Parallel Programs**:
     *   SC does not distinguish between normal data accesses and synchronization accesses.
     *   It forces coherence actions on *every* read/write access.
@@ -307,7 +309,8 @@ To avoid page-level false sharing entirely, some systems track coherence at a fi
   - **Structured DSM** remains attractive for reducing the programming burden in distributed applications.
 
 ## 5. Network File Systems (NFS)
-- **Trivia**: The first Network File System (NFS) was built by **Sun Microsystems** in **1985**.
+- **Trivia**: The first Network File System (NFS) was built by **Sun Microsystems** in **1985**. 
+  > **Analogy:** Just like the word "Xerox" is often used as a verb to denote copying, "NFS" has become a generic name to signify any file system accessed remotely.
 - **Centralized Architecture**:
   - Clients distributed over a LAN access a central file server.
   - To mitigate slow disk speeds, the server caches retrieved files in its memory.

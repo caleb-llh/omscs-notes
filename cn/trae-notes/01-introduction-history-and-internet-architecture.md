@@ -13,7 +13,6 @@ The first vision of a Network - proposed as “Galactic Network” - by J.C.R. L
 
 ### The ARPANET (1969)
 
-
 > **Key Concept:** The ARPANET was the first packet-switching network and the predecessor to the global Internet.
 
 The results of the first experiments showed that **time-shared infrastructure** was working sufficiently well at that moment. But also at the same time researchers indicated the need for **packet switching** technology. Roberts continued developing the computer network concept, which resulted in the first network which was connecting four nodes (from UCLA, Stanford Research Institute, UCSB and Univ. of Utah, respectively) into the initial ARPANET by the end of 1969.

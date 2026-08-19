@@ -1,4 +1,4 @@
-# Lesson_2_OS_Structures (Synthesized Notes)
+v# Lesson_2_OS_Structures (Synthesized Notes)
 
 # Operating System Structures
 
@@ -20,7 +20,7 @@
 
 > **Intuition:** Think of the operating system as a restaurant manager. It must coordinate the kitchen (hardware resources) to serve the customers (applications) efficiently and securely, without letting customers interfere with each other or the kitchen staff.
 
-> **Philosophy:** There is no universally "perfect" OS structure; every design is a compromise on the protection-performance-extensibility triangle. The true art of OS design lies in identifying specific workload requirements and shifting the architecture to optimize for those exact needs without compromising baseline safety.
+> **Philosophy:** There is no universally "perfect" OS structure; every design is a compromise on the **protection-performance-extensibility** triangle. The true art of OS design lies in identifying specific workload requirements and shifting the architecture to optimize for those exact needs without compromising baseline safety.
 
 > **Conceptual Framework:** The protection-performance-extensibility triangle forms a zero-sum game in classical OS design. Improving one vertex traditionally degrades at least one other.
 
@@ -37,6 +37,7 @@ Operating system structure refers to the way OS software is organized relative t
 > **Mental Model:** View OS structuring as a spectrum of "border control." On one extreme (DOS), there are no borders, allowing blazing speed but zero security. On the other extreme (Monolithic/Microkernel), there are heavy border checkpoints, providing great security but slowing down commerce (data transfer). Advanced designs like SPIN and Exokernel attempt to create secure "EZ-Pass" lanes to bypass the physical checkpoints entirely.
 
 ### 3.1 Monolithic Structure
+![[Pasted image 20260819231847.png]]
 
 > **Example:** Classic Linux or Windows kernels are primarily monolithic, though modern versions incorporate modular elements.
 
@@ -57,6 +58,7 @@ In a monolithic structure, all OS services (file system, network, scheduling, vi
 > **Real-World Impact:** The lack of extensibility in purely monolithic kernels led to the bloated size of early OS updates, where adding support for a new hardware device meant recompiling and rebooting the entire kernel.
 
 ### 3.2 DOS-like Structure
+![[Pasted image 20260819232943.png]]
 
 > **Historical Note:** The DOS architecture was entirely practical for its era. When memory was measured in kilobytes and processors lacked hardware memory protection features (like an MMU), a single address space was the only viable engineering choice.
 
@@ -68,12 +70,12 @@ Historically used in early PCs (e.g., Microsoft DOS), designed under the assumpt
   * **Extensibility:** Easy to build new versions of system services for specific application needs.
 * **Cons:** 
   * **Lack of Protection:** An errant application can easily compromise or corrupt the OS data structures, either maliciously or unintentionally.
-
+![[Pasted image 20260819234349.png]]
 ### 3.3 Microkernel-Based Structure
 
 > **Intuition:** A microkernel is like a minimalist government. It provides only the most essential services (like courts/police for IPC and protection) and delegates everything else (like education/healthcare for file systems/networking) to independent contractors (user-space servers).
 
-> **Tradeoff:** By moving OS services out of the privileged kernel and into user space, microkernels maximize extensibility and fault isolation (a crash in the file system server won't crash the whole OS). However, this sacrifices performance due to the constant context switching and IPC required to coordinate these separate servers.
+> **Tradeoff:** By moving OS services out of the privileged kernel and into user space, microkernels maximize extensibility and fault isolation (a crash in the file system server won't crash the whole OS). However, this sacrifices performance due to the **constant context switching and IPC** required to coordinate these separate servers.
 
 > **Example:** In a microkernel, a user application requesting to read a file sends a message via IPC to the File System Server, which then sends an IPC to the Disk Driver Server. The response must traverse all the way back, multiplying the context switch overhead.
 
@@ -82,15 +84,17 @@ Designed to address the need for extensibility and customization that monolithic
   * **Microkernel:** Runs in privileged mode but contains **no policies**, only basic **mechanisms** (threads, address spaces, inter-process communication (IPC)).
   * **OS Services:** Implemented as independent server processes (e.g., virtual memory, CPU scheduling, file system) running in user space on top of the microkernel.
   * Applications and server processes communicate heavily via IPC provided by the microkernel.
+![[Pasted image 20260819234240.png]]
 * **Pros:**
   * **Extensibility & Customization:** Different applications can use different server implementations (e.g., varying file systems) simultaneously. 
   * **Protection:** Strong boundaries separate applications from each other, applications from services, services from each other, and everything from the microkernel.
+![[Pasted image 20260819235604.png]]
 * **Cons:**
   * **Performance Loss:** High overhead due to frequent "border crossings" (address space switches).
     * *Explicit costs:* Time taken to switch hardware address spaces.
     * *Implicit costs:* Loss of execution locality (cache misses) when jumping between different address spaces.
     * *Data copying:* Need to copy data between user space and system space across boundaries.
-
+![[Pasted image 20260819235641.png]]
 ## 4. The Need for Customization
 
 > **Example:** A database management system (DBMS) often prefers to manage its own caching and memory replacement rather than relying on the OS's generic LRU page replacement algorithm.
@@ -100,8 +104,10 @@ Designed to address the need for extensibility and customization that monolithic
 Why avoid a "one-size-fits-all" approach? Different applications have vastly different requirements.
 * **Interactive Video Games:** Require high **responsiveness** to external events.
 * **Scientific Computing (e.g., Prime Number Generation):** Requires sustained **CPU time** (performance).
-* **Memory Management (Page Faults):** The OS typically runs a page replacement algorithm to free up frames. Because the OS cannot perfectly predict an application's memory access pattern, a generic algorithm may be inefficient. Customization allows an application to dictate a page replacement policy tailored to its specific memory access behavior. Similar customization opportunities exist in CPU scheduling and interrupt handling.
-
+* **Memory Management (Page Faults):** The OS typically runs a page replacement algorithm to free up frames. 
+  * > **Analogy:** Just as an airline overbooks its seats in the hope that some passengers won't show up, the operating system over-commits its available physical memory hoping that not all pages of a process will be needed simultaneously.
+  * Because the OS cannot perfectly predict an application's memory access pattern, a generic algorithm may be inefficient. Customization allows an application to dictate a page replacement policy tailored to its specific memory access behavior. Similar customization opportunities exist in CPU scheduling and interrupt handling.
+![[Pasted image 20260819234300.png]]
 ## 5. Summary: The OS Structure Triangle
 OS design is often a trade-off between three key attributes: **Protection**, **Performance**, and **Extensibility**.
 
@@ -110,7 +116,7 @@ OS design is often a trade-off between three key attributes: **Protection**, **P
 | **Monolithic** | Yes | Yes | No |
 | **DOS-like** | No | Yes | Yes |
 | **Microkernel** | Yes | Potential Loss | Yes |
-
+![[Pasted image 20260820000051.png]]
 * **The Ultimate Goal:** The holy grail of OS research is to reach the center of this triangle—achieving protection, high performance, and extensibility simultaneously. 
 * **Note on Microkernels:** While early microkernels suffered from performance issues due to IPC overhead, careful implementation (such as the **L3 Microkernel**) can overcome these performance bottlenecks.
 
@@ -199,6 +205,7 @@ SPIN provides interface functions (header files), while extensions implement the
 - **CPU Scheduling:** Uses a global scheduler for macro-level time allocation. 
   - **Strand:** The abstraction for the unit of scheduling. The extension defines the exact semantics of a strand (e.g., mapping to POSIX threads).
   - Events provided include block, unblock, checkpoint, and resume.
+    - *Example:* A disk interrupt handler may result in an `unblock` event being raised for a strand that was waiting for disk I/O completion.
 
 ---
 
@@ -211,6 +218,10 @@ SPIN provides interface functions (header files), while extensions implement the
 **Core Idea:** Expose hardware explicitly to library operating systems (Library OS) and decouple the **authorization** of a hardware resource from its **actual use**.
 
 ### Secure Bindings
+> **Analogy 1 (Lab Key):** Imagine a professor (Exokernel) giving a student (Library OS) a key to the research lab. The professor validates the student and hands over the key (authorization). Once inside, the professor gets out of the way while the student uses the lab's computers and resources (actual use).
+
+> **Analogy 2 (Doorman):** Exokernel acts like a doorman in an apartment building checking if a person entering is a bona fide resident. Once inside their apartment, what the resident does is their own business; the doorman doesn't care.
+
 - The Library OS requests a resource. Exokernel validates the request, binds the resource, and returns an **encrypted key (capability)**.
 - The Library OS presents this unforgeable key to the Exokernel for subsequent uses of the resource.
 - *Result:* Establishing the secure binding is a heavy-duty operation, but using the binding occurs at hardware speeds with minimal Exokernel intervention.
@@ -237,6 +248,7 @@ SPIN provides interface functions (header files), while extensions implement the
   - Exokernel maintains a **linear vector of time slots (epochs)**. Each Library OS marks its time quantums at startup.
   - Exokernel enforces bounded time for context switching. If a Library OS misbehaves (takes too long to save context), Exokernel penalizes it by taking time off its next scheduled slot.
 - **Revocation of Resources:**
+  - > **Analogy:** Similar to a student graduating and the professor asking them to return the key to the lab, Exokernel can revoke previously granted resources from a Library OS when needed.
   - Exokernel can reclaim resources via an upcall (`revoke`) providing a **repossession vector** (e.g., "taking away page frames 20 and 25").
   - The Library OS must take corrective action (e.g., stash frame contents to disk).
   - **Autosave Seeding:** A Library OS can pre-seed Exokernel with autosave instructions so Exokernel performs the cleanup (e.g., writing to disk) on its behalf during revocation.
