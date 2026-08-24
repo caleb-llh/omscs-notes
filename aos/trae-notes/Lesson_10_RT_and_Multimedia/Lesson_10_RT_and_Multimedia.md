@@ -22,6 +22,8 @@ Traditionally, general-purpose operating systems catered to throughput-oriented 
 ## Sources of Latency
 Time-sensitive applications require immediate responses to events. In a typical general-purpose OS, there are three primary sources of latency that increase the distance between **Event Happening** and **Event Activation** (the point where the app is scheduled to react):
 
+> **Example from the Raw Transcript:** Think of playing a video game and shooting at a target. You want the action to appear on the screen the instant you shoot. The problem is there are three sources of latency that can delay this time-sensitive event.
+
 > **Intuition:** Imagine ordering food at a restaurant. Timer latency is the waiter checking their watch late; kernel preemption latency is the waiter being too busy with another table to take your order; scheduler latency is the kitchen being occupied with other orders before starting yours.
 
 1. **Timer Latency:** Inaccuracy of the timing mechanism.
@@ -102,6 +104,7 @@ Once the timer event is handled, the scheduler must act fast. TS Linux addresses
 
 ### 2. Priority-Based Scheduling (Addressing Priority Inversion)
 - **The Problem (Priority Inversion):** A high-priority task ($C_1$) makes a blocking call to a low-priority server. While the server is executing, a medium-priority task ($C_2$) becomes runnable and preempts the server. Now, $C_1$ is indirectly delayed by $C_2$.
+  > **Example from the Raw Transcript:** Consider a high-priority task $C_1$ calling a window manager (low-priority server) to paint a portion of the window. If $C_1$ blocks waiting for the window manager, and a medium-priority task $C_2$ (e.g., waiting for I/O) becomes runnable, it will preempt the window manager, causing $C_1$ to be delayed even longer.
 - **The Solution (Priority Inheritance):** When $C_1$ makes a request to the server, the server's priority is boosted to match $C_1$'s priority.
 - **Benefit:** $C_2$ can no longer preempt the server, completely eliminating priority inversion.
 
@@ -158,6 +161,7 @@ By fixing the three primary sources of latency, TS Linux successfully provides Q
 
 ## The Developer's Challenge
 * **Domain Experts**: Developers of these systems are often vision researchers or domain experts who write sophisticated detection, tracking, and recognition algorithms.
+  > **Example from the Raw Transcript:** In a video analytics application, a domain expert might be looking for "Kishor's face" in every camera frame. Once detected, the system tracks him as a suspicious individual as he moves around. The tracker follows the object over time, and a recognizer identifies the specific person among multiple people to potentially raise an alarm.
 * **The Problem**: Scaling these algorithms to thousands of distributed sensors involves significant distributed systems complexity (e.g., tracking an object across multiple cameras).
 
 > **Background Context:** Vision researchers typically design algorithms in single-node environments (like MATLAB or local Python scripts) assuming a unified memory space. Forcing them to manually implement network sockets, handle packet loss, and manage distributed state synchronization massively slows down the development of actual situational awareness logic.
@@ -171,6 +175,7 @@ By fixing the three primary sources of latency, TS Linux successfully provides Q
   
 > **Conceptual Framework:** PTS elevates \"time\" from a passive metadata attribute to an active, structural addressing and routing mechanism. Data flows through the system and is queried based fundamentally on *when* it happened, rather than just *where* it is located.
 * **Graph Structure**: The computation graph resembles a Unix process-socket graph, easing the transition for socket programmers. However, channels allow **many-to-many connections** (multiple producers and consumers).
+  > **Example from the Raw Transcript:** A sequential video analytics program can be converted into a distributed PTS program by interposing named channels between computational threads. A `capture` thread captures camera images and places them into a `frames` channel. A `detector` thread gets images from the `frames` channel, processes them into `blobs` (characterizing objects), and puts them in its output channel. A `tracker` takes these blobs to track locations over time, and a `recognizer` compares them against a database to trigger alarms.
 * **Time-Sequenced Data**: Unlike standard sockets, PTS channels hold data objects that are explicitly sequenced by time.
 
 ### Key Primitives

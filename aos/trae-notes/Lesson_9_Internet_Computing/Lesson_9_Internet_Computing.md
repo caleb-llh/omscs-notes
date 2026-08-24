@@ -114,6 +114,8 @@ Administrators must choose how to distribute data across servers.
 
 - *Note:* Beyond a certain scale, systems often use both partitioning and partial/full replication to balance Harvest and Yield.
 
+> **Real-World Example:** The Inktomi (Inky) CDN server uses partial replication depending on the service type. It uses full replication for email because users expect complete Harvest, but for a web cache, it is acceptable if the data is not fully replicated (partitioning only) since partial Harvest is tolerable.
+
 ---
 
 ## 7. Graceful Degradation
@@ -140,6 +142,7 @@ Services must be continuously upgraded (hardware or software) with minimal disru
    - *Method:* Bring down all servers simultaneously, upgrade, and turn back on.
    - *Impact:* 100% loss of service during the upgrade time.
    - *Best for:* Services with predictable off-peak hours (using the diurnal server property).
+     - *Example:* Taking advantage of the diurnal server property by bringing down all servers for a Fast Reboot when it is nighttime for the target user community and they are unlikely to access the service.
 2. **Rolling Upgrade (Wave Upgrade):**
    - *Method:* Upgrade one server (or a small batch) at a time.
    - *Impact:* Service remains fully available, but the upgrade process takes a long time ($N \times \text{Upgrade Time}$). Continuous, minor DQ loss.
@@ -160,7 +163,8 @@ Services must be continuously upgraded (hardware or software) with minimal disru
 # Module 5: Big Data and MapReduce
 
 ## 1. Introduction to Big Data Systems
-* **Big Data**: Computations in giant-scale services are usually simple but operate over extremely large datasets, taking significant time to compute (e.g., searching for specific photographs across all web documents, online reservations, shopping).
+* **Big Data**: Computations in giant-scale services are usually simple but operate over extremely large datasets, taking significant time to compute.
+  * *Example:* Searching for John F. Kennedy's photographs across all documents available on the web. Other examples include online flight reservations and e-commerce shopping.
 * **Embarrassingly Parallel Computations**: Computations that require minimal synchronization or coordination among parallel threads running on different nodes.
 * **Challenges of Programming at Scale**:
   * **Parallelization**: Distributing an application across thousands of machines (e.g., 10,000 nodes).
@@ -205,6 +209,7 @@ Many processing steps in giant-scale services can be expressed as MapReduce comp
   * **Mapper**: Finds target URLs within the source page. Emits `(Target URL, Source URL)`.
   * **Reducer**: Aggregates all source URLs that link to a specific target URL. Output: `(Target URL, List of Source URLs)`.
   * **Result**: Ranks target pages based on the number of source pages linking to them.
+    * *Example:* If Kishore wants to find out how many times his webpage appears in the universe of webpages, the mappers look for occurrences of his webpage in all input webpages. The reducer then aggregates this to say "Kishore's webpage was found in this specific list of source webpages," effectively providing a rank for his webpage.
 
 > **Conceptual Framework:** The PageRank algorithm relies on the idea that a link from Page A to Page B is a "vote" for Page B's importance. MapReduce efficiently tallies these billions of distributed votes by mapping out all outgoing links and then reducing them into an aggregated score for each target page.
 
@@ -223,6 +228,7 @@ The MapReduce framework handles all the complex underlying operations (instantia
    * Buffers intermediate key-value pairs in memory.
    * Periodically writes intermediate results to `R` separate files on its local disk (one for each reducer).
    * Notifies the Master upon completion. The Master waits for all `M` mappers to finish.
+   * *Analogy:* The Master acts like the conductor of an orchestra. It starts the mapping functions, waits for all the "musicians" (workers) to finish their parts, and only when everyone has signaled completion does the conductor cue the next phase (the reduce phase).
 6. **Plumbing (Data Transfer)**: The Master orchestrates the communication paths between mappers and reducers.
 7. **Reduce Phase Execution**:
    * A reducer worker pulls its required intermediate data from the local disks of all `M` mappers via Remote Procedure Calls (RPC).
@@ -236,6 +242,7 @@ The MapReduce framework handles all the complex underlying operations (instantia
 
 ### Resource Management
 * If the number of available nodes `N` is less than `M + R`, the Master dynamically assigns new splits to workers as they complete their current tasks, ensuring load balancing.
+  * *Example:* If there are 1,000 input splits but only 100 worker nodes available, the Master initially assigns 100 splits. As each worker finishes its assigned split, the Master dynamically hands it the next available split until all 1,000 are completed.
 
 ## 5. Issues Handled by the Runtime
 The MapReduce runtime manages complex distributed system challenges behind the scenes:
@@ -245,7 +252,7 @@ The MapReduce runtime manages complex distributed system challenges behind the s
 * Maintains a **scoreboard** of which workers are assigned to which splits, tracking progress and reassigning tasks as needed.
 
 ### Fault Tolerance
-* **Straggler Handling**: If a mapper node is dead, disconnected, or unusually slow (a "straggler"), the Master will not receive a timely response.
+* **Straggler Handling**: If a mapper node is dead, disconnected, or unusually slow (a "straggler"), the Master will not receive a timely response. (Slowness can easily occur in large data centers due to generational hardware differences among the thousands of machines).
 * **Redundant Execution**: The Master will assume the node is dead and restart the map task on a different node.
 
 > **Example:** If worker node A is stuck due to a failing hard drive, the MapReduce master doesn't wait indefinitely. It simply assigns the exact same chunk of work to healthy worker node B. Whichever node finishes first (usually B) has its results used, and the other's are ignored.
@@ -282,6 +289,8 @@ The true power of MapReduce lies in its **simplicity**. Domain experts only need
 - **Value**: The **Node ID** (e.g., an IP address or virtual ID) where the content is stored.
 - **Key-Value Pair**: Links the content's unique hash to its location (e.g., `(149, 80)` where 149 is the key, 80 is the node ID).
 
+> **Example:** Suppose Kishore records a video of his India trip on his computer (Node ID 80) and wants to share it. A textual name like "Kishore's India Trip" might collide with another file. Instead, he generates a unique content hash for the video (e.g., 149). The resulting key-value pair is `(149, 80)`, allowing anyone on the network to discover that the content for key 149 is located at Node 80.
+
 > **Intuition:** A DHT is like a massive, decentralized coat check. Instead of one person holding all the tickets (a central server), everyone in the room holds a few tickets based on a mathematical rule. If you want your coat back, you use the rule to know exactly who to ask, without needing a central coordinator.
 
 - **Storage Problem**: A central name server does not scale for user-generated content.
@@ -292,6 +301,7 @@ The true power of MapReduce lies in its **simplicity**. Domain experts only need
 ### DHT Namespaces
 1. **Key Space Namespace**: Created by hashing the content (e.g., using SHA-1 to generate a 160-bit key) to ensure unique signatures without collisions.
 2. **Node Space Namespace**: Created by hashing the IP addresses of the nodes in the network (also generating a 160-bit ID).
+   * *Example:* If you and your friends form a peer-to-peer social network to share files, you would run each of your physical IP addresses through the SHA-1 algorithm to generate a unique 160-bit virtual Node ID for each person in the network.
 
 > **Background Context:** Using a consistent hashing function like SHA-1 ensures that the keys are uniformly distributed across the mathematical namespace. This prevents "hot spots" where too many keys cluster around a single node ID, ensuring an even distribution of data across the network.
 
@@ -312,6 +322,7 @@ The true power of MapReduce lies in its **simplicity**. Domain experts only need
   - A user-level routing table maps these virtual Node IDs to physical IP addresses.
   - Nodes exchange routing information with peers.
   - Sending a message may take a few hops at the virtual overlay level, but many more hops at the underlying physical network level.
+    - *Example:* Node A (ID 50) wants to send a message to Node C (ID 80). Node A doesn't know Node C's IP address, but knows Node B (ID 60) can reach Node C. Node A sends the message to Node B, who forwards it to Node C. At the user level (overlay network), this is just two hops (A → B → C). However, at the physical TCP/IP network level under the covers, traversing from A to B and then B to C might involve dozens of physical router hops.
 
 ## Traditional (Greedy) Approach to DHTs
 - **Algorithm**:
@@ -336,6 +347,7 @@ The true power of MapReduce lies in its **simplicity**. Domain experts only need
 
 ### Distance Metric
 - **XOR Distance**: The distance between two nodes is calculated using the bitwise Exclusive-OR (XOR) of their Node IDs.
+  - *Example:* If the source Node ID is 14 (binary `1110`) and the destination Node ID is 4 (binary `0100`), the XOR distance is 10 (`1010`).
 - **Why XOR?**: It is computationally much faster than subtraction and provides a symmetrical distance metric.
 
 > **Conceptual Framework:** XOR is a bitwise operation that is native to computer processors, making it incredibly fast to compute. More importantly, it satisfies the mathematical properties of a metric space (like symmetry: distance from A to B is the same as B to A), which is essential for consistent routing in a DHT.
@@ -346,6 +358,7 @@ The true power of MapReduce lies in its **simplicity**. Domain experts only need
 - **Mechanism**: 
   - A node queries a peer: "Do you know nodes that are half the distance to my target?"
   - The peer responds with the best matching nodes it knows.
+    - *Example:* If looking for a node that is distance 2 from the target, but the peer only knows nodes at distances 4, 5, and 7, it returns those closest approximations.
   - The querying node updates its routing table and proceeds.
 
 ### Handling Overload in Coral
