@@ -1,0 +1,1357 @@
+--- Paper: Graefe_1990.pdf ---
+
+Encapsulation of Parallehsm 
+in the Volcano Query Processmg System 
+G0ct.z Graefe 
+Umverslty of Colorado 
+Boulder, CO 80309-0430 
+graefe@boulder colorado edu 
+Abstract 
+Volcano 1s a new dataflow query processmg system we have developed for database systems research and educauon 
+The umform Interface between operators makes Volcano extenstble by new operators All operators are designed and coded as 
+d they were meant for a smgle-process system only 
+When attemptmg to parallelue Volcano, we had to choose between two 
+models of parallchzatlon, called here the h&t 
+and operufor models We descnbe the reasons for not choosmg the bracket 
+model. maoduce the novel operator model. and provtde detatls of Volcano’s uchunge operator that parallehzes all other opcra- 
+tors 
+It allows mtra-operator paralleltsm on parttttoned datasets and both verhcal and horuontal mtersperator parallehsm The 
+exchange operator encapsulates all parallehsm tssues and therefore makes tmplementatton of parallel database algonthms slgmfi- 
+candy easier and more robust. Included m tlus encapsulatton 1s the translation between demand-driven dataflow w&m 
+processes and data-driven datailow between processes Smce the m&ace between Volcano operators IS stmtlar to the one 
+used m “real.” commercial systems. the techniques dcscrtbed here can be used to parallehze other query processmg engmes 
+1. Introduction 
+In order to provtde a testbed for database systems 
+educatton and research, we decoded to unplement an extenst- 
+ble and modular query processmg system 
+One important 
+goal was to a&eve flextbtltty and extenstbthty without sac- 
+nficmg efftciency 
+The result is a small system, conststmg 
+of less than two dozen core modules with a total of about 
+15,000 lmes of C code 
+These modules mclude a file sys- 
+tem, buffer managemenk sortmg. topdown B*-trees. and 
+two algonthms each for natural JOUI. semt-Jotn. outer Jam, 
+anti-Jam. aggregatton. duplicate ehmmatlon, dtvtston, union. 
+mtersection, difference, antt-dtfference. and Cartesum pro- 
+duct 
+Moreover, a smgle module allows parallel processmg 
+of all algonthms listed above 
+The last module, called the exchange module, 1s the 
+focus of thts paper It was designed and unplemented after 
+most of the other query processing modules 
+The design 
+goal was to parallclize all exlstmg query processtng algo- 
+nthms 
+w1h0ut 
+modtfytng 
+thetr 
+unplementauons 
+Equtvalcntly. the goal was to allow parallcltzmg new algo- 
+nthms not yet mvented wnhout requtnng that these algo- 
+nthms be implemented with concern for parallehsm 
+ThlS 
+goal was met almost enurely, the only change to the extst- 
+mg modules concemcd device names and numbers to allow 
+honzontal partltlonmg over multtple disks. also called disk 
+stnpmg (251 
+Parallchzmg a query evaluation engme usmg an 
+operator IS a novel rdea earlier research proJecls used 
+Permw.aon to copy wthout fee all or part of this mate4 
+IO granted prowded 
+that the copa are not made or dlstnbuted for direct commeraal advantage the 
+ACM cqynght not,ce and the title of the pubbcatlon and ,ts date appear and 
+nome IS given that cqymg II by pemwsm of the Assoaatwn for Computmg 
+Machmay 
+To copy othenvlse ot- to repubbsh, req”w% a fee and/or specific 
+permlsslon 
+0 1990 ACM 089791365 %90/OCH0102 $150 
+template processes that encompass spectfic operators We 
+call the new method of parallehzmg the operator model 
+In 
+th.~s paper. we desmbe tlus new method and contrast II 
+wtth the method used m GAMMA and Bubba, which we 
+call the brucket 
+model 
+Stnce we developed, unplemented, 
+and tested the operator model wrthm the framework of the 
+Volcano system, we will describe it as reahzed m Volcano 
+Volcano was destgned to be extensible, its design and 
+tmplementatton follows many of the ideas outlmed by 
+Batoty et al for the GENESIS design [5] 
+In thts paper, 
+we do not focus on or substantiate the clatm to extenstblhty 
+and mstead refer the reader to [17], suffice it to pomt out 
+that tf new operators use and provtde Volcano’s standard 
+interface between operators, they can easily be included tn a 
+Volcano query evaluation plan and paralleltzed by the 
+exchange operator 
+Volcano’s mechantsm to synchronize mullrple opcra- 
+tars 111 complex query trees wtthm a smgle process and to 
+exchange data items between operators are very stmtlar to 
+many commerctal database systems. e g, Ingrcs and the 
+System R family of database systems Thcrcforc. It seems 
+fatrly stralghtfonvard to apply the tcchntques developed for 
+Volcano’s exchange operator and outhned m thus papr to 
+parallehze the query proccssmg engines of such systems 
+This paper 1s organized as follows 
+In the followmg 
+section, WC bncfly review prcvlous work that mflucnccd our 
+design. and mtmducc the brucker model of parallchzauon 
+In Section 3. we provtde a more dctulcd descnptlon of 
+volcano 
+The 
+operator 
+model of parallchzatlon and 
+Volcano’s ,CY&WI~C operator are descrlbcd in Sccuon 4 
+We present expcnmental performance mcasurcments m See- 
+tlon 5 &tat show the exchange operator’s low ovcrhcd 
+Section 6 conta~ a summary and our conclustons from this 
+effort. 
+102 
+
+
+2. Previous Work 
+Smcc so many different system have been developed 
+to process large dataset efficiently. we only survey the sys- 
+tems that have strongly mflucnced the design of Volcano 
+At the start III 1987. we felt that some dcclslons III 
+WISS [ 111 and GAMMA [ 121 were not optunal for perfor- 
+mance or gencrallty 
+For mstance, the dcclslons to protect 
+W&S’s butfcr space by copyang a data record m or out for 
+each request and to re-request a buffer page for every 
+record dunng a scan seemed to mfhct too much overhead’ 
+However. many of the design decisions III Volcano were 
+saongly 
+mfluenced by 
+expenences WIIJI WISS and 
+GAMMA 
+The design of the data exchange mechamsm 
+between operators, the focus of tfus paper, 1s one of the 
+few radical departures from GAMMA’s design 
+Dunng the design of the EXODUS storage manager 
+[lo], many of these tssues were revIsited 
+lAssons learned 
+and tradeoffs explored m these discussions certamly helped 
+form the ideas behmd Volcano 
+‘Ihe development of E [24] 
+utfiuenced the strong emphasu on lterators for query pro- 
+cesslng 
+The design of GENESIS (51 emphasued the 
+tmportance of a urufonn iterator mterface 
+Fmally, a number of conventional (relabonal) and 
+extensible systems have mfluenced our dealgn 
+Without 
+futther dlscusnon. we mentton Ingres [27]. System R (31, 
+Bubba [2). Starburst [26], Postgres 1281, and XPRS [29] 
+Furthermore, there has been a large amount of research and 
+development m the database machme area, such that there 
+IS an mtematlonal workshop on the topic 
+Almost ail data- 
+base machme proposals and tmplementauons uttlue parailel- 
+srn m some form 
+We certamly have learned from tJus 
+work and tried to mclude us leasons m the design and 
+unplementatlon of Volcano 
+In parttcular. we have strived 
+for sunphclty in the design, mech411LFms 
+that can support a 
+mulutude of polures, 
+and efficiency m ail detzuls 
+We 
+beheve that the query execution engme should prov& 
+mechamsms. and that the query optmuzer should mcorporate 
+and decide on pohcles 
+Indepcndcntly of our work, Tandem Computers has 
+des~grted an operator called the prwuilel 
+operator which IS 
+very smular to Volcano’s exchange operator It haa proven 
+useful III Tandem’s query execuuon engmc [14], but IS not 
+yet documented m the open hterature 
+We learned about 
+ttus operator through one of the referees Furthermore, the 
+dtstnbuted database system R* used a techmque sumlar to 
+ours to transfer data between nodes [31] 
+However, this 
+operatton was used only to effect data transfer and did not 
+support data or mtra-operator paralleltsm 
+2.1. 
+The Bracket Model of Parallelization 
+When attcmptmg to parallchze exlstmg smglc-process 
+Volcano software, we considered two paradigms or models 
+of parallchzatlon 
+The first on+ which we call the bracket 
+nwdel, has been used m a number of systems, for example 
+GAMMA [12] and Bubba [2] 
+The second one, which we 
+call the operafor 
+model. IS novel and IS described m dctal 
+tn Sectton 4 
+’ This statement only pertams to the ongmal version of 
+WISS as dcscnbcd m [ 1 I] Both decls~ons were rcconsldcred for 
+the version of WISS used m GAMMA 
+Figure 1 Bracket Model of Paralleliion. 
+In the bracket model, there 1s a genenc process tern- 
+plate that can receive and send data and can execute 
+exactly one operator at any pomt of tune 
+A schematic 
+chagnun of such a template process IS shown m Figure 1 
+wth 
+two possible operators, ~otn 
+and 
+aggregatton The 
+code that makes up the genenc template mvokes the opera- 
+tor whch then controls execution, network I/O on the 
+recewng and sendmg sides are performed as service to the 
+operator on requaf tmplemented as procedures to be called 
+by the opaator. The number of mpuu that can be acuve 
+at any point of Ume 1s llrmted to two smce there are only 
+unary and bmary operators UI most database systems The 
+operator 1s surrounded by generic tanplate code which 
+stue1d.s It from tts envuonmmt for example Ihe operator(s) 
+that poduce its mput and consume ns output. 
+One problem w& 
+the bracket model IS that each 
+locus of control needs to be created Thlz IS typically done 
+by a separate scheduler process. requulng s&ware dcvelop- 
+ment beyond the actual operators, both uuually and for each 
+extension to the set of query processing algonthms Thus. 
+the bracket model seems unsmtable for an extensible sys- 
+tem 
+In a query proceasmg system usmg the bracket 
+model, operators are coded in such a way that network Vo 
+IS theu only means of obtammg mput and dehvcnng output 
+(with the cxceplion of scan and store operators) The rea- 
+son IS that each operator ui its own locus of control and 
+network flow control must be used to coordmate muluplc 
+103 
+
+
+operators, e g , to match two operators’ speed m a 
+producer-consumer relauonsiup 
+Unfortunately. tlus also 
+means that passmg a data ttem from one operator to 
+another always mvolves expenstve utter-process cormmm~ca- 
+uon (IPC) system calls, even m the cases when an cntue 
+query 1s evaluated on a smgle machme (and could therefore 
+be evaluated wuhout IPC 1~1 a smgle process) or when data 
+do not need to be repartmoned among nodes m a network 
+An example for the latter 1s the three-way ~oln 
+query 
+“~oL”Cse!AsclB” m the W~sconsm Benchmark [6.9] whtch 
+uses the same loin attnbute for both two-way JOUIS 
+ThUS, 
+m queries wrth multtple operators (meanmg almost all 
+quenes). IPC and us overhead are mandatory rather than 
+optional 
+In most (smgle-process) query processmg engmes. 
+operators schedule each other much more efficiently by 
+means of procedure calls rather the system calls 
+The con- 
+cepts and methods needed for operators to schedule each 
+other usmg procedure calls are the sublect of the next sec- 
+uon 
+3. Volcano System Design 
+In this sectton, we provrde an overvtew of the 
+modules m Volcano 
+Volcano’s file system IS rather con- 
+venuonal 
+It mcludes a modules to manage devtces, buffer 
+pools, files. records, and B+-treea For a detaried ducus- 
+sron, we refer to [17] 
+The file system routmes are used by the query pro- 
+cessing routmes to evaluate complex query plans 
+Quenes 
+are expressed as complex algebra expresstons, the operators 
+of tlus algebra are query proceasutg aigonthms 
+All algebra 
+operators are tmplemented as lrerators, I e, they support a 
+sunpie open-next-close protocol sun&r to conventtonal ftie 
+scam 
+Associated w~tit each aigonthm 1s a state record 
+The arguments for the aigonthms are kept m the state 
+record 
+All operattons on records, e g, compansons and 
+hashmg, are performed by support 
+funcfm~~ 
+whtch are given 
+m the state records as arguments to the rterators Thus, the 
+query processing modules could be unplemented wuhout 
+knowledge or constratnt on the mtemai SUUCNre 
+of data 
+obJec& 
+In qucnes mvolvmg more than one operator (I e, 
+almost all quenes), state records are lmked together by 
+means of tnpw pomters 
+The mput potmers are also kept 
+m the state records They are pomters to a QEP StNcNre 
+that conststs of four pomters to the entry potnts of the 
+three procedures unplementmg the operator (open, next, and 
+close) and a state record 
+AU state mformatton for an 
+tterator 1s kept m IU state record, thus. an aigornhm may 
+be used multtple ttmes m a query by mcludmg more than 
+one state record m the query 
+An operator does not need 
+to know what ktnd of operator produces ns mput, and 
+whether tts mput comes from a complex query tree or from 
+a stmple file scan We call thts concept anonymous inputs 
+or streums 
+Streams are a sunpie but powerful abstractton 
+that allows combmmg any number of operators to evaluate 
+a complex query 
+Together wn.h the tterator control para- 
+digm. streams represent the most efficient executton model 
+m terms of umc (overhead for synchroruvng operators) and 
+space (number of records that must resrde tn memory at 
+any pomt of time) for smgle process query evaluatton 
+Callmg open for the top-most operator results in 
+instanhations for the associated sutc record, e g, allocatton 
+of a hash table, and m open calls for all mputs 
+In 
+thlS 
+way, all itcrators m a query are inmated rccursivcly 
+In 
+order to process the query. tte.xt for the top-most operator IS 
+called repeatedly unttl it falls wnh an end of stream mdtca- 
+tor 
+Fmally, the cfose call recurstvely “shuts down” all 
+iterators m the query 
+Ths model of query execution 
+matches very closely the one bemg mcluded m the E pro- 
+grammtng language design [24] and the aigebratc query 
+evaiuatron system of the Starburst extenstble relauonai data- 
+base system [22] 
+The tree-structured query evaluauon plan ts used to 
+execute quertes by demand-driven dataflow 
+The return 
+value of nexf is. besides a staNs value, a struct~e called 
+NEXT-RECORD that consists of a record tdenufter and a 
+record address m the buffer pool 
+Thts record 1s punted 
+(fixed) m the buffer 
+The protocol about flxmg and unflx- 
+mg records 1s as follows 
+Each record pmned m the buffer 
+IS owned by exactly one operator at any pomt m tune 
+After recetvmg a record, the operator can hold on to tt for 
+a wtule. e g , m a hash table, unfix tt, e g , when a predt- 
+cate fails, or pass it on to the next operator Complex 
+operattons like pm that create new records have to fix 
+them m the buffer before passmg them on, and have to 
+unfix their mput records 
+For mtermedtate results, Volcano uses vlrtuai devcces 
+Pages of such a device extst only m the buffer, and are 
+drscarded when unfixed. 
+Usmg thts mecharusm allows 
+aasrgnmg umque RID’s to mterrnedtate result records, and 
+aliows managmg such records m all operators as if they 
+resided on a real (dtsk) devtce 
+The operaton are not 
+affected by the ua of vntuai devtces, and can be pro- 
+grammed as rf all mput comes from a dtsk-restdent file and 
+output 1s wntten to a dtak file 
+4. The Operator 
+Model of Parallelization 
+When portmg Volcano to a multi-processor machme, 
+we felt tt destrabie to use the smgle-process query process- 
+mg code described above mt!touf any chMge The result IS 
+very clean, self-schedulmg parallel processmg We call this 
+novel approach the operator model of paralleitzmg a query 
+evaiuatron engme In thts model, ail tssues of control are 
+locahxed m one operator that uses and provtdcs the standard 
+tterator mterface to the operators above and below m a 
+query tree 
+The module responsible for parallel cxecutton and 
+synchroruzatton is called the exchange iterator m Volcano 
+Nouce that rt IS an uerator wtth open, next. and close pro- 
+cedures, therefore, it can be mscrtcd at any one place or at 
+muittple places m a complex query tree Figure 2 shows a 
+complex query executton plan that mcludcs data proccssmg 
+operators, e g file scan and lam. and exchange operators 
+Thts secuon describes how the exchange tterator 
+tmpiements verucal and honzontal parallcltsm followed by a 
+detatied example and a dtscusston of altemattve modes of 
+operation of Volcano’s exchange operator 
+4.1. Vertical Parallelism 
+The first funcuon of exchange 1s to provtdc verfccaf 
+pwaNehm or prpelmmg between processes The open pro- 
+cedure creates a new process after crcatmg a data structure 
+m shared memory called a port for synchroruzauon and data 
+104 
+
+
+PRINT 
+XCHG 
+JOIN 
+JOIN 
+XCHG 
+XCHG 
+XCHG 
+Fs 
+FS 
+FS 
+Ftgure 2 Operator Model of Paraiieltzmon 
+exchange The chtid process, created ustng the UNIX fork 
+system cali. 1s an exact dupircate of the parent process 
+The exchange operator then takes dtfferent paths m the 
+parent and child processes 
+The parent process serves as the cotwmer and the 
+child process as the producer m Volcano. The exchange 
+operator m the consumer process acts as a normal iterator. 
+the only difference from other tterators IS that tt recetves tts 
+mput via mter-process commumcatmn rather than tterator 
+(procedure) calls 
+After 
+creatmg the 
+chtld 
+process, 
+open-exchange m the consumer 1s done 
+Nexs-exchange 
+wmts for data to arrive vta the port and reNms them a 
+record at a tune 
+Close_exchangc mforms the Producer that 
+It can close. watta for an acknowiedgement, and reNma 
+The exchange operator m the producer process 
+becomes the drnter for the query tree below the exchange 
+operator ustng open, next. and close on us mput 
+The out- 
+put of m 
+IS collected m packets. wiuch are arrays of 
+NEXT-RECORD SttucNres The packet stze 1s art argument 
+m the exchange tterator’s state record. and can be set 
+between 1 and 32,000 records When a packet IS filled, tt 
+IS trtsertcd mto a lmked list ongmatmg tn the port and a 
+semaphore ts used to mform the consumer bout 
+the new 
+packet. Records m packets are fixed 
+m the shared buffer 
+and must be unfixed by a consummg operator 
+When tts mput 1s exhausted, the exchange operator m 
+the producer process marks the last packet wuh an end-of- 
+stream tag. passes tt to the consumer, and watts unul the 
+consumer allows closmg all open flies 
+Thu delay is 
+necessary m Volcano because files on vutual dcvtces must 
+not be closed before ali then records are unpmned m the 
+buffer 
+In other words. tt 1s a peculranty due to other 
+design dectstons m Volcano rather than inherent ut the 
+exchange tterator or the operator model of paraileltzauon 
+The aiert reader has noticed that the exchange module 
+uses a different dataflow paradigm than ail other operators 
+Whtle all other modules are based on demand-drnen 
+datatiow (uerators, lazy evaluauon). the producer-consumer 
+relationship of exchange uses data-driven dataflow (eager 
+evaluauon) There are two reasona for thts change m para- 
+digms 
+FUSS we mtend to use the exchange operator also 
+for hortzontal pwailelrrm. to be described below, wluch 1s 
+easier to implement with datadnven dataflow, Second, thts 
+scheme removes the need for request messages Even 
+though a scheme wtth request messages, eg, usmg a sema- 
+phore, would probably perform acceptably on a shared- 
+memory machme, we felt that tt creates unnecessary control 
+overhead and delays 
+Smce we belteve that very htgh 
+degrees of parailel~sm and very htgh-performance query 
+evaiuatton requtre a closely tted network, e g, a hypercube. 
+of shared-memory machmes, we decrded to use a paradigm 
+for data exchange that has has been proven to perform well 
+ut a shared-nothmg database maclune [G&13] 
+A run-tune switch of exchange enables flow control 
+or bock pressure using an addttmrtai semaphore If the pro- 
+ducer 1s stgruficantiy faster than the consumer. the producer 
+may pm a slgtulicant portion of the buffer, thus tmpedmg 
+overali system performance 
+If flow control IS enabled, 
+after a producer has mserted a new packet mto the port, tt 
+must request the flow control semaphore After a consumer 
+has removed 
+a packet from the pea tt releases the flow 
+control semaphore The mtttal value of the flow control 
+semaphore, eg, 4. determutes how many packets the pro- 
+ducers may get ahead of the consumers 
+Notice that flow control and demand-driven datafiow 
+are not the same One stgmiicant difference IS that flow 
+control allows some “slack” m the synchronizauon of pro- 
+ducer and consumer and therefore truly overlapped execu- 
+tton, while demanddnven dataflow 
+IS a rather ngtd stntc- 
+ture of request and delivery m which the consumer watts 
+whtle the producer works on tts next output 
+The second 
+stgmficant difference IS that data-dnven dataflow IS caSter to 
+combme effictcntiy wuh honzontal parallehsm and parutton- 
+l*g 
+4.2. 
+Horizontal 
+Parallelism 
+There are two forms of honzontal parallchsm which 
+we call bushy pwallehsm and mtra-operator parallcltsm 
+In 
+bushy paralleitsm. different CPU’s execute dtffcrcnt subtrees 
+of a complex query tree 
+Bushy parallchsm and vcrtxa! 
+paraiieitsm are forms of Wer-operator parallelism 
+Intra- 
+operator paralieltsm means that several CPU’s perform the 
+same operator on different subsets of a stored datasct or an 
+105 
+
+
+mterrnediatc result’ 
+Bushy parallelism can easily be tmplemented by 
+msertmg one or two exchange operators mto a query tree 
+For example. UI order to sort two mputs mto a mage-Jam 
+m parallel the first or both inputs are separated from the 
+merge-Join by an exchange operation’ 
+The parent process 
+turns to the second sort unmedrately after forkmg the child 
+process that will produce the first input m sorted order 
+Thus, the t%o sort operauons are workmg m parallel 
+Intra-operator parallelism requues data parttuonmg 
+Partttlonlng of stored datasets IS achieved by using muluple 
+files, preferably on dfferent devices 
+Partltlorung of mter- 
+mediate results 1s unplemented by mcludmg mulbple queues 
+III a port 
+If there are multiple consumer processes, each 
+uses ~rs own mput queue 
+The producers use a support 
+function to decide mto wtuch of the queues (or actually. 
+mto which of the packets bemg filled by the producer) an 
+output record must go 
+Usmg a support hmctlon allows 
+unplernentmg round-robm-, key-range-, or hash-partltlonmg 
+If an operator or an operator subtree 1s executed m 
+parallel by a group of processes, one of them LS designated 
+the master When a query tree 1s opened, only one process 
+1s runrung, wtuch 1s naturally the master When a master 
+forks a child process tn a producer-consumer relatlonshlp. 
+the ciuld process becomes the master w&m its group The 
+fmt action of the master producer 1s to determute how 
+many slaves are needed by callmg an appropnate support 
+function 
+If the producer operatton 1s to run m parallel, the 
+master producer forks the other producer processes 
+Gerber pointed out that such a cenaahzed scheme 1s 
+suboptunal for high degrees of parallehsm [IS] 
+When we 
+changed our uutlal unplementatlon from forlung all producer 
+processes by the master to usmg a propagatwn tree scheme, 
+we observed slgmftcant performance unpmvements In such 
+a scheme, the master forks one slave, then both fork a new 
+slave each, then all four fork a new slave each, etc 
+ThlS 
+scheme has been used very effectively for broadcast com- 
+mumcation and synchroruzauon III bmary hypercubes 
+Even after optmuzmg the forkmg scheme, its over- 
+head IS not neghgtble 
+We have considered usmg primed 
+processes, i e, processes that are always present and wut 
+for work packcls 
+Primed processes arc used m many com- 
+mercial database systems 
+Smce portable dlstnbutlon of 
+complied code (for support functions) IS not trnlal. 
+we 
+delayed this change and plan on usmg pruned processes 
+2 A fourth form of parallehsm IS mtcrquery parallehsm, 
+t e, the ability of a database management system to work on 
+several quencs concurrently In the current version. Volcano 
+does not support inter-query parallehsm A fifth and SIX&I form 
+of parallcllsm that can be used for database operations mvolve 
+hardware vector processmg [30] and p~pelmmg m the tnstructton 
+execution Smcc Volcano 1s a software architecture and follow- 
+mg the analysis m [8]. we do not consider hardware parallelism 
+further 
+’ Irt general. sorted streams can be plped dlrcctly mto the 
+JOT. 
+both in the single-process and the multi-process case 
+Volcano’s sort operator mcludes a parameter “final merge fan-m” 
+that allows sharmg the merge space by two sort operators per- 
+formmg the final merge m an mterleaved fashion as requested by 
+the merge Join operator 
+only when we move to an envuonrnent with muluple 
+shared-memory machmes’ Others have also observed the 
+htgh cost of process creation and have provided alternatives. 
+m parucular “light-weight” processes m various forms. c g . 
+m Mach [I] 
+After all producer processes are forked. they run 
+without further synchroruzauon among themselves. with two 
+excepuons First. when accessmg a shared data structure, 
+e g , the port to the consumers or a buffer table, short-term 
+locks must be acquned for the durauon of one liked-list 
+msemon Second, when a producer group 1s also a consu- 
+mer group, I e, there are at least two exchange operators 
+and three process groups mvolved m a vertical plpelme, the 
+processes that are both consumers and producers synchromze 
+twice 
+Dunng the (very short) mterval between synchrom- 
+zauons. the master of dus group creates a port which serves 
+aU processes m its group 
+When a close request IS propagated down the tree 
+and reaches the fint 
+exchange operator, the master 
+consumer’s &se-erchunge 
+procedure informs all producer 
+processu that they are allowed to close down using the 
+semaphore mentIoned above m the dlscusslon on verucal 
+paralleltsm 
+If the producer processes are also consumers, 
+the master of the process group mforms its producers, etc. 
+In Uus way, all operators are shut down m an orderly 
+fas’astuon. 
+and the enure query evaluatmn 1s self-schedulmg 
+4.3. An Example 
+Let us consider an example 
+Assume a query with 
+four operators, A, B , C. and D such that A calls B ‘s. B 
+calls C ‘s. and C calls D ‘s open, close. and nat pro- 
+cedures Now assume that this query plan 1s to be run m 
+three process groups, called A, EC. and D 
+Tlus requires 
+an exchange operator between operators A and B, say X. 
+and one between C and D. say Y 
+B and C contmue to 
+pass records via a sunple procedure caU to the C’s m 
+procedure without crossmg process boundaries 
+Assume 
+further that A runs as a smgle process, Aa while BC and 
+D run m parallel m processes 1)Ca to BC 2 and DO to D 3. 
+for a total of eight processes 
+A calls X’s open. close, and next procedures instead 
+of E’s (Figure 2a). without knowledge that a process boun- 
+dary WIU be crossed, a consequence of anonymous inputs in 
+Volcano 
+When X 1s opened it creates a port with one 
+mput queue for A0 and forks KO (Figure 2b), which in 
+tum forks BC1 and DC2 (Rgure 2c) 
+When the BC group 
+opens Y. BCo to DC2 synchroruze. and wait until the Y 
+opaator UI process SC0 has uutdl=d 
+a port with three 
+mput queues DC0 creates the port and stores its location 
+at an address known only to the BC processes Then BCO 
+to BC2 synchronize agam, and BCI and BC2 get the port 
+mformauon from its lccauon 
+Next, BCo forks Do (Figure 
+2d) which m turn forks DI to D3 (Figure 2e) 
+When the D operators have exhausted their inputs in 
+Do to Ds they return an end-o/-stream mdlcator to the 
+driver parts of Y 
+In each D process. Y flags its last 
+packets to each of the BC processes (le. a total of 3x4=12 
+flag@ packets) with an end-o/-stream tag and then waits 
+on a semaphore for permlsslon to close The copies of the 
+’ In fact. dus work IS currently under way 
+106 
+
+
+A 
+Ll 
+A 
+BCo 
+BCt 
+Bci 
+A 
+0 A 
+BCo 
+Figure 3a-c. Creating the BC processes. 
+BCo 
+Figure 3d-e. Creating the D processes. 
+A 
+CII 
+A 
+Figure 31-b. Closing all processes down. 
+A 
+b A 
+Y operator In the BC processes count the number of tagged 
+C w Y’s nut procedure wdl retum an end-of-stream mdl- 
+packets, after four tags (the number of producers or D 
+cator In effect, the end-or-stream mdzator has been pro- 
+processes). they have exhausted their mputs, and a call by 
+pagated from the D operators to the C operators In due 
+107 
+
+
+turn.. C. fl, and then the driver part of X will receive an 
+end-of-stream mdlcator 
+After recetvmg three tagged pack- 
+ets, X’s next procedure III Ao ~111 mdlcate end-of-stream to 
+A 
+When end-of-stream reaches the root operator of the 
+query, A, the query tree IS closed 
+Closmg the exchange 
+operator X mcludes releasmg the semaphore that allows the 
+BC processes to shut down (Figure 3f) 
+The X dnver m 
+each BC process closes its mput, operator B 
+B closes C. 
+and C cfoAes Y 
+Closmg Y m BC1 and BC2 IS an empty 
+operatlon 
+When the process BCo closes Lhe exchange 
+operator Y, Y permits the D processes to shut down by 
+releasmg a semaphore After the processes of the D group 
+have closed all files and deallocated all temporary data 
+structures, e g , hash tables, they m&cate the fact to Y III 
+BCo usmg another semaphore, and Y’s close procedure 
+returns to IU caller, C’s close procedure, while the D 
+processes terminate (Figure 3g) 
+When ail BC processes 
+have closed down, X’s close procedure mdlcates the fact to 
+A0 and query evaluation termmates (Figure 3h) 
+4.4. 
+Varrants of the Exchange Operator 
+There are a number of sltuatlons for whch 
+the 
+archunge operator described so far requued some modlfica- 
+nons or extensions 
+In dus section, we outlme ad&bonal 
+capablhtles unplemented m Volcano’s exchange operator 
+For some operauons. it 1s desuable to repkate or 
+broadcast a stream to all consumers For example, one of 
+the two partltlomng methods for hashdlvlslon [19] requrres 
+that the dlvlsor be replicated and used with each parufion 
+of the dividend 
+Another example is Baru’s parallel JO" 
+algorithm m which one of the two mput relations 1s not 
+moved at all wlule the other relauon Is sent through ail 
+processors [4] 
+To support these algonthms, the exchange 
+operator can be directed (by settmg a switch m the state 
+record) to send all records to aU consumers. after pmrung 
+them appropriately multiple 
+tunes 111 the buffer pool 
+Nouce that it IS not necessary to copy the records smce 
+they reside m a shared buffer pool, it 1s sufficient to pm 
+them such that each consumer can unpm them as If it were 
+the only process usmg them 
+After we implemented this 
+feature. parallehzmg our hash-dlvlslon programs usmg both 
+dtvlsor partlttomng and quotient partmorung [19] took only 
+about three hours and yleldcd not mslgruficant speedups 
+When WC unplemented and benchmarked parallel sort- 
+mg [21], WC found It useful to add two more features to 
+achange 
+First. we wanted to implement a merge network 
+111 wiuch some processors produce sorted streams merge 
+concurrently by other processors 
+Volcano’s sort lterator 
+can be used to generate a sorted stTeam A merge lterator 
+was easily dcrlved from the sort module 
+It uses a smgle 
+level merge, Instead of the cascaded merge of runs used in 
+sort. The Input of a merge iterator IS an e*chanqe 
+Dlf- 
+ferently from other operators, the merge iterator rcqulres to 
+dlstmguuh the input records by theu producer 
+As an 
+example, for a Jom operation It does not matter where the 
+mput records were created, and all inputs can bc accumu- 
+lated m a smglc Input stream For a merge operauon, 
+tt 1s 
+crucial to drstmgulsh the mput records by theu producer m 
+order to merge muluple sorted streams correctly 
+We modtficd the erchange module such that It C~II 
+keep the input records separated accordmg to theu produc- 
+as, swnched by setting an argument field m the state 
+record 
+A thud argument to text-exchange IS used to com- 
+mumcate the requued producer from the merge to the 
+exchange lterator Further modlficatlons mcluded rncrcasmg 
+the number of input buffers used by exchange. Ihc number 
+of semaphores (mcludmg for flow control) used between 
+producer and consumer part of exchunge. and tie logic for 
+end-ofistream All these modificauons were implemented in 
+such a way that they support multi-level merge trees. e g , a 
+parallel bmary merge tree as used m [7] 
+The mergmg 
+paths are selected automatrcally such that the load IS dlstrl- 
+buted as evenly as possible III each level 
+Second. we unplemented a sort algorithm that sorts 
+data randomly partltloned over multiple disks mto a range- 
+partlhoned file with sorted partmons. I e, a sorted file dls- 
+tnbuted over multiple disks 
+When using the same number 
+of processors and disks. we used two processes per CPU, 
+one to perform the file scan and partmon the records and 
+another one to sort them 
+We realized that creating and 
+runmng more processes than processors mfllcted a slgmfi- 
+cant cost, smce these processes competed for the CPU’s and 
+therefore requued operatmg system scheduling 
+While the 
+schedulmg overhead may not be too agmficant. m our 
+envuonment with a central run queue allowmg processes to 
+nugrate freely and a large cache associated with each CPU. 
+the frequent cache mlgratlon adds a sigruficant cost. 
+In order to make better use of the avalable process- 
+mg Power, we decided to reduce the number of processes 
+by half, effectively moving to one process per disk 
+This 
+requued modttlcatlons to the exchange operator Untd then. 
+the exchange operator could “hve 
+only at the top or the 
+bottom of the operator tree UI a process Since the modlti- 
+cation, the exchange operator can also be III the mlddle of 
+a process’ operator tree 
+When the exchange operator IS 
+opened, it does not fork any processes but establishes a 
+commumcatlon port for data exchange The nexf operatron 
+requests records from its input tree, possibly sendmg them 
+off to other processes m the group, unul a record for its 
+own partttmn IS found 
+ti 
+mode. of operation’ also makes now 
+control 
+obsolete A process runs a producer (and produces input 
+for the other processes) only If It does not have mput for 
+the consumer Therefore, 11 the producers are m danger of 
+overrunnmg the consumers. 
+none of the producer operators 
+gets scheduled, and the consumers consume the avalable 
+records 
+In summary, the operator model of parallel query 
+evaluauon provides for self-schcdulmg parallel query cvalua- 
+tlon m an extensible database system The most unportant 
+properues of tfus novel approach are that the new module 
+implements three forms of parallel processing WIthIn a Sm- 
+gle module, that It makes parallel query processmg entirely 
+self-schedubng. and that it did not requue arty changes in 
+the exlstmg query processmg modules. thus leveragmg sigm- 
+ticantly the time and effort spent on them and allowmg 
+easy parallel unplementatlon of new algorithms 
+s Whether exchange forks new producer processes (the ori- 
+gmal exchange design dcscr~be m SectIon 4 1) or uses the exist- 
+mg process group to execute the producer operations Is a run- 
+tune switch 
+108 
+
+
+5. 
+Overhead and Performance 
+From the begmnmg of the. Volcano pro~ec4 we were 
+very concemcd about performance and overhead 
+In thus 
+secuon. we report on expenmcntal measurements of the 
+overhead mduced by the exchange operator 
+This is not 
+meant to be an extenstve or complete analysts of the 
+operator’s performance and overhead, the purpose of ttus 
+sechon 1s to demonstrate that the overhead can be kept m 
+acceptable louts 
+We measured elapsed ttmes of a program that creates 
+records, fills them with four random integers, passes the 
+records over three process boundanes. and then unfutes the 
+records m the buffer 
+The measurements are elapsed tunes 
+on a Sequent Symmetry wnh twelve Intel 16 MHz 80386 
+CPU’s 
+This 1s a shared-memory machme with a 64 KB 
+cache for each CPU 
+Each CPU dehvers about 4 MIPS m 
+thts machme The times were measured usmg the hardware 
+nucrosecond clock avatlable on such machmes Sequent’s 
+DYNTX operatmg system provtdes exactly the same mter- 
+face as Berkeley 4 2 BSD or System V UNJX and runs 
+(I e, executes system calls) on all processors 
+Fast, we measured the program without any exchange 
+operator 
+Crcatmg 100,000 records and releastng them m 
+the buffer took 20 28 seconds Next, we measured the pro- 
+gram with the exchange operator swltched to the mode tn 
+which tt does not create new processes In other words, 
+compared to the last expertmen& we added the overhead of 
+three procedure calls for each record 
+For thts run, we 
+measured 28 00 seconds Thus, the three exchange opera- 
+tors m thts mode added (28 OOsec - 20 28sec) / 3 / 100,000 
+= 25 73psec overhead per record and exchange operator 
+When we swttched the exchange operator to create 
+new processes, thus creatmg a ptpelme of four processes, 
+we observed an elapsed tune of 16 21 seconds wtth flow 
+conaol enabled, or 16 16 seconds with flow control dts- 
+abled The fact that these hmes ars less than the tune for 
+stngle-process program execution mdtcates that data transfer 
+using the exchange operator IS very fass and that ptpeltned 
+multt-process executton 1s warranted 
+We were particularly concerned about the granulamy 
+of data exchange between processes and tts Impact on 
+Volcano’s performance In a separate experiment, we reran 
+the program multtple ttmes varytng the number of records 
+per exchange packet. Table 1 shows the performance for 
+transfernng 100,000 records from a producer process group 
+through two 
+mtcrmedtate process groups to a smgle 
+Packet Size 
+Elapsed Tune 
+(Records] 
+[Seconds] 
+1 
+176 4 
+2 
+97 6 
+5 
+45 27 
+10 
+27 67 
+20 
+20 15 
+50 
+15 71 
+100 
+13 76 
+200 
+12 87 
+250 
+1273 
+Table 1 Exchange Performance 
+consumer process 
+Each of these three groups mcluded 
+three processes, Thus, each of the producer processes created 
+33,333 records All these cxperuncnts were conducted with 
+flow 
+control enabled with 
+fhrcc 
+‘slack” packets per 
+exchange We used dtffercnt partltlonmg (hash) functions 
+for each exchange lterator to cnsurc that records were pass- 
+mg along all posslblc data paths, not only along three 
+mdepcndent ptpelmes 
+As can be seen m Table 3. the performance penalty 
+for very small packets was stgruficant 
+The elapsed tune 
+was almost cut in half when the packet size was mcreased 
+from 1 to 2 records, from 176 seconds to 98 seconds As 
+the packet stze was maeased further, the elapsed ttme 
+shrank accordmgly, to 15 71 seconds for 50 records per 
+packet and 12 73 seconds for 250 records per packet 
+It seemed reasonable to speculate that for small pack- 
+ets, most of the elapsed hme was spent on data exchange 
+To venfy Gus hypothesis, we calculated regresston and 
+conelatton coefficients of the number of data packets 
+(100,000 dlvlded over the packet size) and the elapsed 
+ttmes We found an mtercept (base ume) of 12 18 seconds, 
+a slope of 0001654 seconds per packet and a correltion 
+of more than 099 
+Constdenng that we exchanged data 
+over three process boundartes and that on two of those 
+botmdanes there were three producers and three consumers, 
+we esttmate that the overhead was 1654~s~~ / 1 667 = 
+992+tsec pa packet and process boundary 
+Two conclustons can be drawn from these expen- 
+ments Fit 
+verncal parallchsm can pay off even for very 
+sunple query plans 9 the overhead of data transfer IS small 
+Second, smce the packet stze can be set to any value. the 
+ovahead of Volcano’s exchange lterator IS neghgtble 
+6. Summary and Conclusions 
+We have described Volcano, a new query evaluauon 
+system. and how parallel query evaluation 1s encapsulated tn 
+a stngle module or operator The system is operational on 
+both angle- and multt-processor systems, and has been used 
+for a number m database query proccssmg studies [19- 
+21.231 
+Volcano utthzes dataflow tcchmques withm processes 
+as well as between processes Wtthm a process. demand- 
+dnven dataflow 1s implemented by means of tterators 
+Between pmcesses. datadnven dataflow 1s used to exchange 
+data between producers and consumers efficlcntly 
+If neces- 
+sary, Volcano’s data-driven datatlow can be augmcntcd w?th 
+flow control or back pressure 
+Honzontal pamtlontng IS 
+used both on stored and tntermedlatc datascts to allow 
+mua-operator paralleltsm 
+The design of the exchange 
+operator embodtes the parallel cxccuuon mechanism for 
+verttcal. bushy, and mtra-operator parallchsm, and It per- 
+forms the transltlons from demanddnven to data-driven 
+dataflow and back 
+Usmg an operator to encapsulate parallelism as 
+explored m the Volcano project has a number of advantages 
+over the bracket model 
+Fust. It hdcs the fact that paral- 
+leltsm IS used from all other operators Thus, other Opera- 
+tors can be unplcmented without consldcratlon for parallel- 
+1sm Second. smce the exchange operator uses the same 
+Interface to its tnput and output, tt can be placed anywhere 
+m a tree and combmed with any other operators Hence. It 
+can be used to parallchze new operators. and effccttvely 
+109 
+
+
+combmes extcnstbtltty and parallehsm 
+Thud, tt &es not 
+require a separate scheduler process smce scheduling 
+(tncludmg uuttahzatton, flow control, and final clean-up) ts 
+part of the operator and therefore performed wtthm the stan- 
+dard open-next-close tterator paradigm ti 
+rums mto an 
+advantage 111 two situauons 
+When a new operator is 
+mtegrated mto the system, the scheduler and the template 
+process would have to be modified. whtle the exchange 
+operator does not requtre any modtficatlons When the sys- 
+tem ts ported to a new envuonment. only one module 
+rqures 
+mo&ficattons, the exchange tterator, not two 
+modules, the template process and the scheduler Fourth, tt 
+does not requtre that operators 111 a parallel query evaluauon 
+system use IF’C to exchange data 
+Thus. each process can 
+execute an arbitrary subfzee of a complex query evaluanon 
+plan 
+F&h, a smgle process can have any number of 
+mputs, not Just one or two 
+Fmaily, the operator can be 
+(and has been) unplemented 111 such a way that tt can mul- 
+uplex a smgle process between a producer and a consumer 
+In some respects. it effictently 
+tmplements application- 
+spedic co-routmes or threads 
+We plan on several extensions of the exchange opera- 
+tor 
+First, we plan on extendmg our design and unplemen- 
+tatlon to support both shared and dtstnbuted memory 
+(“shared-nothmg archtecture”) and to allow combuung these 
+concepts III a closely tted network of shared-memory mulu- 
+computers while mamtauung the encapsulatmn propemes. 
+‘hs 
+rmght reqture usmg a pool of “pruned” processes and 
+mterpretmg support functtons 
+We beheve that m the long 
+run, lugh-performance database machmes. both for transac- 
+port and query processmg, wtll employ thts archttecture 
+Seoond, we plan on devtsmg a error and exceptton manage- 
+ment scheme that makes exception notlficatlon and hsndlmg 
+transparent across process and machme boundanea. Thud, 
+we plan on usmg the exchange operator to parallellze query 
+processmg tn ObJect-onented database systems [la]. 
+Jn our 
+model, a complex object IS represented m memory by a 
+pomter to the root component @mned m the buffer) WI&I 
+pomters to the sub-components (also pmned) and passed 
+between operators by passmg the root component [18] 
+Whrle the current destgn already allows passmg complex 
+obJeCts m a shared-memory envtronment, more funcuonahty 
+ts needed m a dtstrtbuted-memory system where objects 
+need to be packaged for network transfer 
+Volcano is the fust unplemented query evaluaaon 
+system that combmes extenslbllq 
+and parallelism 
+Encap- 
+sulatmg all paralleksm tssues tnrn one module was essential 
+to makmg thts combtnauon possible The encapsulauon of 
+paralleltsm m Volcano allows for new query processtng 
+algortthms to be coded for smgle-process executton but run 
+m a zllghly parallel environment without modificauons We 
+expect that dus wtll speed parallel algonthm development 
+and evaluauon slgmficantly 
+Smce the operator model of 
+parallel query processtng and Volcano’s exchange operator 
+encapsulates parallebm and both uses and provtdes an Itera- 
+tor tnterface suntlar to many exlsttng database systems, the 
+concepts explored and outlmed 111 ti 
+paper may very well 
+be useful III parallellzmg other database query processmg 
+software 
+Acknowledgements 
+A number of fnends and colleagues were great 
+sotmdmg boards durmg the destgn and unplementatlon of 
+parallehsm m Volcano, most notably Frank Symonds and 
+Leonard Shapuo 
+Jeny Borgvedt unplemented a prototype 
+tirnbuted-memory 
+exchange operator - 
+NSF supported 
+thts work with contracts IRI-8805200 and II&8912618 
+Sequent Computer Systems provided machme tune for 
+expemnents on a large machme. 
+References 
+1 
+2 
+3 
+4. 
+5 
+6. 
+7 
+8. 
+9. 
+10 
+11 
+12. 
+M 
+Accena R Baron, W. Bolosky, D Golub, R. 
+Rash~% A Tevaruan and M Young, “Mach, A New 
+Kernel Foundauon for UNIX Development”, Slunmer 
+Conference Proceedings 1986, 
+W 
+Alexander and G. Copelsnd, “PKUXSS and 
+Dataflow 
+Control 
+m 
+Dtstnbuted Data-Intensive 
+Systems”, 
+Proceedmgs of 
+the 
+ACM 
+SlGhiOD 
+Conference, mcago, IL: June 1988, 90-98 
+M M. Astrahan, M W. Blarga 
+D. D Chsmberbn, 
+K. P. Eswaran, J. N. Gray, P. P. Gtiths, 
+W. F. 
+Kmg, R. A Lone, P R. McJones, J W Mehl, G. 
+R Putzolu, I 
+L 
+Trager, B W Wade and V. 
+Watson, “System R* A Relauonal Approach to 
+Database Management”, 
+ACM 
+Tramuctwns 
+on 
+Database Systems I, 2 (June 1976), 97-137. 
+C. K. Baru, 0. Fneder, D. Kandlur and M Segal, 
+“Jam 
+on 
+a 
+Cub 
+Analyst, 
+Sunulaaon, and 
+Implementauon”, Proceedings of the Sth Intertionai 
+Workhop on Database Machmes, 1987. 
+D S. Batory, “GENESIS* A Project to Develop an 
+Extennble 
+Database 
+Managanent 
+System”, 
+Proceedmgs of the Int’l Work&p on Object-Orunted 
+Database Systems, Pacific Grove, CA, 
+September 
+1986, 207-208. 
+D. 
+Bttton, 
+D. 
+J. 
+DeWltt 
+and C. 
+Turbyfii 
+“Benchmarkmg Database Systems: A 
+Systemaac 
+Approach”, Proceedmg of the Conference on Very 
+Large Datu Bees, Florence, Italy, October-November 
+1983, 8-19 
+D. Button, H. Boral, D. J DeWltt and W. K. 
+Wtlhnson, “Parallel Algonthms for the Exccuaon of 
+Relaaonal Database Operatlona”, ACM Trumuctwm 
+on Database Systems 8, 3 (September 1983). 324-353 
+H. Boral and D. J Dewitt, “Database Machmes. An 
+Idea Whose Tune Has Passed7 A Cnque 
+of the 
+Future of Database Machmes”, Proceeding of the 
+InternatroMl 
+Workshop on 
+Database Machanes, 
+Mumch, 1983 
+H. Boral and D J DeWitS “A Methodology for 
+Database 
+System 
+Performance 
+Evaluatum”, 
+Proceeduags of 
+the ACM 
+SlG,kiOD Conference, 
+Boston, MA, June 1984, 176-185 
+M J Carey, D J Dewitt, J E Richardson and E 
+J. Sheluta, “ObJect and File Management m the 
+EXODUS Extensible Database System“, Proceedmgs 
+of the Conference on Very Loge Data Bases, Kyotn, 
+Japan, August 1986, 91-100 
+H T. Choy D J Dewitt, R H Katz and A. C. 
+w3, 
+“Design and Implementataon of the Wtsconsm 
+Storage System”, Sojiware - Practrce and Experience 
+IS, 10 (October 1985), 943-962 
+D 
+J Dewitt, 
+R H 
+Gerber, G Graefe, M 
+L. 
+Heytens, K 
+B 
+Kumar and M 
+Murahknshna, 
+110 
+
+
+13 
+14 
+15 
+16 
+17 
+18 
+19 
+20 
+21 
+22 
+23 
+24 
+25 
+26 
+“GAMMA 
+- A High Performance Dataflow Database 
+Machme”. Proceedings of the Confiuence on Very 
+L.arge Data Bases, Kyoto, Japan, August 1986. 228- 
+237 
+D J DeWltt, S Ghandeharadlzeh, D Schneider, A 
+Bncker, H 
+I 
+Hslao and R 
+Rasmussen, ‘The 
+Gamma 
+Database 
+*Machme 
+ProJect”, 
+IEEE 
+Tranwtrons 
+on Knowledge 
+and Data 
+Engtneertng 
+2, 
+1 (March 1990) 
+S Englert, J Gray, R Kocher and P Shah, “A 
+Benchmark of NonStop SQL Release 2 Demonsuatmg 
+Near-Lmear 
+Speedup 
+and 
+Scaleup on 
+Large 
+Databases”, Tandem Computer Systems Techntcal 
+Report 894 (May 1989) 
+R 
+Gerber, “Dataflow 
+Query 
+Processmg usmg 
+Mulbprocessor Hash-Partmoned Algomhms”, 
+Ph.D 
+Thests, Maduon. October 1986 
+G Graefe and D M;uer, “Query Optmuzauon m 
+ObJect-Oriented Database Systems A Prospectus”, m 
+Advances VI Object-Oriented Database Systems, voi 
+334 
+K. 
+R 
+Dltmch 
+(ednor), Spnnger-Valag, 
+Septenber 1988, 358-363 
+G. Graefe, “Volcano 
+An Extensible and Parallel 
+Dataflow 
+Query 
+Processmg System”, 
+Oregon 
+Graduate Center, Computer Scrence Techntcal Report, 
+Beaverton, OR, June 1989 
+G 
+Graefe, “Set Rocessmg and Complex ObJect 
+Assembly 
+111 Volcano 
+and the 
+REVELATION 
+ProJect”, Oregon Graduate Center, Computer Sctexe 
+Techntcai Report, Beaverton, OR, June 1989 
+G. Graefe, “Relational Dl~lsioh 
+Four Algonthms 
+and Theu Performance”, Proceedmgs of the IEEE 
+Conference on Data Engtneertng, LAX Angeles, CA, 
+February 1989, 94-101 
+G. Graefe and K Ward, “Dynarmc Query Evalua~on 
+Plans”, 
+Proceedrngs 
+of 
+the 
+ACM 
+SIGMOD 
+Co&vence, Portland, OR, May-June 1989, 358 
+G Graefe, “Parallel External Sornng m Volcano”, 
+submrtted for pubhcatton, February 1990 
+L. M Haas, W F Cody, J C Freytag, G Laps, B 
+G. Lmdsay, G. M L&man, K Ono and H Puahesh, 
+“An Extensible Processor for an Extended Relatmnal 
+Quay 
+Language”, 
+Computer Science Research 
+Report, San Jose, CA, April 1988 
+T Keller and G Graefe, “The One-to-One Match 
+Operator of the Volcano Query Processmg System”, 
+Oregon 
+Graduate 
+Center, 
+Computer 
+Saence Techrucal 
+Report, Beaverton, OR, June 1989 
+J E Richardson and .M J Carey, “Programrmng 
+Constructs for Database System Implementanon m 
+EXODUS”, 
+Proceedings of the ACM SIGMOD 
+Conference, San Francisco, CA., May 1987, 208-219 
+K 
+Salem and H Garaa-Molma, “Duk 
+Stnpmg”, 
+Proceedrngs of the IEEE 
+Conference on Data 
+Engtneerrng, Los Angeles, CA, February 1986. 336 
+P Schwarz, W Chang, J C Freytag, G L&man, J 
+McPherson, C Mohan and H Pvahesh “Extenslblllty 
+m the Starburst Database System”, Proceedmgs of 
+the Int’l 
+Workshop on Object-Onented Database 
+27 
+28. 
+29 
+30. 
+31. 
+Systems. Pa&c Grove, CA, September 1986, 85-92. 
+M Stonebraker, E. Wang. P. Kreps and G. D. Held, 
+“The Design and Implementauon of INGRES”, ACM 
+Tranmctwm on Databae Systems I, 3 (September 
+1976), 189-222 
+M. Stonebraker and L A Rowe, “‘The Desqt of 
+POSTGRES”, Proceedmgs of the ACM SIGMOD 
+Conference, Wsshmgton, DC., May 1986, 340355. 
+M 
+Stonebraker, R. Katz, D. Patterson and J 
+Ousterhout, “The Deqn of XPRS”, Proceedtngs of 
+the Conforcncc on Vq 
+Large Databases, Los 
+Angeles, CA, August 1988, 318330. 
+S. Toru, K. KoJuna Y. Kanada, A. Sakata, S. 
+Yosluztmu 
+and 
+M. 
+Takahti, 
+“Acceleratmg 
+Nonnummcal Rocessmg by an Exfmded Veotor 
+Processor”, Proceedtngs of the IEEE Coqference on 
+Data Engtneerlng, Los Angeles, CA, February 1988, 
+194-201 
+P. Wtiams, 
+D. DameIs, L. Haas, G Laps, B. 
+Lmdsay, P. Ng, R. Obermarck, P 
+Selmger, A. 
+WaLker, P WilmJ and R. Yoss “R*, An Overnew 
+of 
+the Archlrecture”, 
+m Readtngs tn Dat&e 
+System, M. Stonebrakes (&or), 
+Morgan-Kaufman, 
+San Matm. CA, 1988. 
+111 
+
+
