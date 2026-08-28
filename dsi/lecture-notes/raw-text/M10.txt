@@ -1,0 +1,2396 @@
+--- Module 10 ---
+
+Trie
+
+
+
+
+Trie
+
+
+Trie
+Patricia
+Trie
+
+
+Product Catalog Search
+// Find all Samsung Galaxy phones in the catalog
+std::vector<std::string> galaxyPhones =
+  productCatalog.startsWith("Samsung Galaxy");
+Product Name
+Relevant or not
+Samsung Galaxy S21 Ultra
+Yes
+Apple iPhone XS Max
+No
+Samsung Galaxy A55
+Yes
+Apple iPhone 12
+No
+Samsung Galaxy S27
+Yes
+
+
+Limitations of B+Tree
+[“Samsung Galaxy S21 Ultra” | .. ]
+[-|-|-]
+[[“Samsung Galaxy S21 Ultra” | .. ]| ..]
+[-|-|-]
+[[“Samsung Galaxy A55”| | “Samsung Galaxy S21 Ultra” | |.. ] ..]
+[V|V|..]
+REDUNDANT 
+KEY STORAGE 
+SPACE OVERHEAD
+SLOW SEARCH
+
+
+Trie
+ROOT
+NODE
+“Samsung Galaxy”
+“Apple iPhone”
+“A55”
+“S21 Ultra”
+“12”
+“XS Max”
+“S27”"
+Retrieval
+NO REDUNDANT 
+KEY STORAGE 
+FASTER SEARCH
+
+
+Trie
+ROOT
+NODE
+“Samsung Galaxy”
+“Apple iPhone”
+“A55”
+“S21 Ultra”
+“12”
+“XS Max”
+“S27”"
+Retrieval
+NO REDUNDANT 
+KEY STORAGE 
+FASTER SEARCH
+
+
+Patricia Trie
+Trie
+
+
+Patricia Trie
+Or Whole Strings
+Into Single Node
+Merge Single 
+Character Nodes
+Trie
+
+
+Patricia Trie
+Basic Trie
+Patricia Trie
+“
+S A M S U N G
+G A L A X Y ”
+“Samsung Galaxy”
+Or Whole Strings
+Into Single Node
+Merge Single 
+Character Nodes
+Trie
+
+
+Insertion Example: “hello”
+Root 
+Node
+
+
+Insertion Example: “hello”
+hello
+Root 
+Node
+
+
+Insertion Example: “helium”
+Root 
+Node
+
+
+Insertion Example: “helium”
+hel
+Root 
+Node
+
+
+Insertion Example: “helium”
+hel
+lo
+ium
+Root 
+Node
+Node Split
+New 
+Nodes
+
+
+Retrieval: “hello” and “helicopter”
+hel
+lo
+ium
+Root 
+Node
+
+
+Retrieval: “hello” and “helicopter”
+hel
+lo
+ium
+Root 
+Node
+Navigate Root Node to 
+Relevant Leaf Node
+
+
+Retrieval: “hello” and “helicopter”
+hel
+lo
+ium
+Root 
+Node
+Navigate Root Node to 
+Relevant Leaf Node
+Each Character
+Narrows Down Search
+
+
+france
+6
+5
+3
+1
+2
+4
+More Complex Trie with Key-Value Pairs
+alibut
+el
+n
+ro
+h
+Root 
+Node
+ium
+lo
+
+
+class PatriciaNode {
+public:
+ bool isEndOfWord;
+  int value;  
+ std::map<std::string, PatriciaNode *> children;
+ PatriciaNode() : isEndOfWord(false) {}
+};
+Patricia Trie
+
+
+class PatriciaNode {
+public:
+ bool isEndOfWord;
+  int value;  
+ std::map<std::string, PatriciaNode *> children;
+ PatriciaNode() : isEndOfWord(false) {}
+};
+Patricia Trie
+
+
+Insertion
+void insertHelper(PatriciaNode *node, const std::string &word, size_t index) {
+ // Termination case: If the whole word has been processed
+ if (index == word.length()) {
+  node->isEndOfWord = true;
+  return;
+ }
+ // Prepare the substring from the current index to the end
+ std::string remaining = word.substr(index);
+ ...
+}
+
+
+Insertion
+void insertHelper(PatriciaNode *node, const std::string &word, size_t index) {
+ // Termination case: If the whole word has been processed
+ if (index == word.length()) {
+  node->isEndOfWord = true;
+  return;
+ }
+ // Prepare the substring from the current index to the end
+ std::string remaining = word.substr(index);
+ ...
+}
+Termination Case
+
+
+Insertion
+void insertHelper(PatriciaNode *node, const std::string &word, size_t index) {
+ // Termination case: If the whole word has been processed
+ if (index == word.length()) {
+  node->isEndOfWord = true;
+  return;
+ }
+ // Prepare the substring from the current index to the end
+ std::string remaining = word.substr(index);
+ ...
+}
+Termination Case
+Stop Recursion
+
+
+Insertion
+void insertHelper(PatriciaNode *node, const std::string &word, size_t index) {
+ // Termination case: If the whole word has been processed
+ if (index == word.length()) {
+  node->isEndOfWord = true;
+  return;
+ }
+ // Prepare the substring from the current index to the end
+ std::string remaining = word.substr(index);
+ ...
+}
+Termination Case
+Stop Recursion
+Find Substring
+
+
+Insertion: Identifying Common Prefixes
+Trie
+ for (auto &child : node->children) {
+  // Calculate common prefix length
+  const std::string &key = child.first;
+  PatriciaNode *childNode = child.second;
+  size_t commonLength = 0;
+  while (commonLength < key.length() && commonLength < remaining.length() &&
+     key[commonLength] == remaining[commonLength]) {
+   commonLength++;
+  }
+  ...
+ }
+
+
+Insertion: Identifying Common Prefixes
+Common Prefix 
+Length
+Splits Nodes 
+When Necessary
+Identifies 
+Common Prefixes
+Trie
+ for (auto &child : node->children) {
+  // Calculate common prefix length
+  const std::string &key = child.first;
+  PatriciaNode *childNode = child.second;
+  size_t commonLength = 0;
+  while (commonLength < key.length() && commonLength < remaining.length() &&
+     key[commonLength] == remaining[commonLength]) {
+   commonLength++;
+  }
+  ...
+ }
+
+
+Insertion: Handling No Common Prefix
+// If no child matches the remaining part of the word
+node->children[remaining] = new PatriciaNode();
+// Recursively insert the remainder – e.g. “hello”
+insertHelper(node->children[remaining], word, word.length(), value);
+
+
+Node Splitting
+if (commonLength > 0) {
+ if (commonLength < key.length()) {
+  // Split the child's key
+  std::string newKey = key.substr(0, commonLength); // “hel”
+  std::string oldKey = key.substr(commonLength);    // “lo”
+  PatriciaNode *newChildNode = new PatriciaNode();
+  newChildNode->children[oldKey] = childNode;
+  node->children[newKey] = newChildNode;
+  node->children.erase(key);
+  childNode = newChildNode;
+ }
+  // remainder: “ium”
+ insertHelper(childNode, word, index + commonLength, value);
+ return;
+}
+
+
+Complexity Comparison of Trie and B+Tree
+L: Average length of the key
+N:  Number of keys
+Patricia Trie
+B+Tree
+Insertion Time Complexity
+O(L)
+O(log N) 
+Search Time Complexity
+O(L)
+O(log N)
+
+
+Complexity Comparison of Trie and B+Tree
+L: Average length of the key
+N:  Number of keys
+Patricia Trie
+B+Tree
+Insertion Time Complexity
+O(L)
+O(log N) 
+Search Time Complexity
+O(L)
+O(log N)
+Patricia Trie
+B+Tree
+Insertion Time Complexity
+O(L)
+O(log N) 
+Search Time Complexity
+O(L)
+O(log N)
+Space Complexity
+O(N * L)
+O(N)
+
+
+Complexity Comparison of Trie and B+Tree
+Patricia Trie
+B+Tree
+Target Use Case
+Fast prefix queries
+Fast range queries
+
+
+Complexity Comparison of Trie and B+Tree
+Patricia Trie
+B+Tree
+Target Use Case
+Fast prefix queries
+Fast range queries
+Patricia Trie
+B+Tree
+Target Use Case
+Fast prefix queries
+Fast range queries
+Memory 
+Efficiency
+Less efficient 
+with dissimilar keys
+More efficient, 
+stores many keys per node
+
+
+Complexity Comparison of Trie and B+Tree
+Patricia Trie
+B+Tree
+Target Use Case
+Fast prefix queries
+Fast range queries
+Patricia Trie
+B+Tree
+Target Use Case
+Fast prefix queries
+Fast range queries
+Memory 
+Efficiency
+Less efficient 
+with dissimilar keys
+More efficient, 
+stores many keys per node
+Patricia Trie
+B+Tree
+Target Use Case
+Fast prefix queries
+Fast range queries
+Memory 
+Efficiency
+Less efficient 
+with dissimilar keys
+More efficient, 
+stores many keys per node
+Range Queries
+Supported but not efficient
+Highly efficient
+
+
+
+
+Trie
+
+
+Trie
+Patricia
+Trie
+
+
+
+
+Inverted Index
+
+
+
+
+Inverted 
+Index
+
+
+Inverted 
+Index
+Web-Scale 
+Search
+
+
+Inverted Index
+Word
+Positions
+russia
+10, 20
+napolean
+25
+Map words to the positions in which they appear in a document. 
+
+
+Proximity Search
+Word
+Positions
+russia
+10, 20
+napoleon
+25
+distance(“russia”, “napoleon”) less than ten words
+
+
+Library Search
+Word
+Document ID, Position
+russia
+(1, 10), (1, 20)
+napoleon
+(1, 25), (2, 30), (3, 50)
+Map words to the documents in which they appear. 
+
+
+Why Inverted Index?
+Inverted 
+Index
+Internals
+
+
+Why Inverted Index?
+Inverted 
+Index
+Proximity 
+Search
+Word
+Search
+Text 
+Data
+Internals
+
+
+Why Inverted Index?
+Inverted 
+Index
+Proximity 
+Search
+Word
+Search
+Text 
+Data
+Internals
+Values are
+Doc IDs, 
+Positions
+Keys are 
+Words
+Hash Table 
+Foundation
+
+
+Structure of an Inverted Index
+std::unordered_map<
+     std::string,
+     std::unordered_map<int, std::vector<int>>
+>
+{1: {5, 20}, 2: {10}}
+Value
+“russia”
+Key
+
+
+Core Functions
+
+
+Core Functions
+
+
+Core Functions
+addDocument
+
+
+Core Functions
+addDocument
+getDocuments
+
+
+Core Functions
+addDocument
+getDocuments
+proximitySearch
+
+
+Adding Documents to the Inverted Index
+void addDocument(int docID, const std::string &content) {
+ documents.push_back(content);
+ std::vector<std::string> words = split(toLower(content));
+ for (size_t i = 0; i < words.size(); ++i) {
+  index[words[i]][docID].push_back(i);
+ }
+}
+
+
+Adding Documents to the Inverted Index
+void addDocument(int docID, const std::string &content) {
+ documents.push_back(content);
+ std::vector<std::string> words = split(toLower(content));
+ for (size_t i = 0; i < words.size(); ++i) {
+  index[words[i]][docID].push_back(i);
+ }
+}
+Convert word to 
+lowercase if 
+needed
+Map to Doc ID 
+and Word 
+Position
+Add Word to 
+unordered_map
+
+
+Retrieving Documents Containing a Term
+std::unordered_set<int> getDocuments(
+  const std::string &word) {
+ std::string lowerWord = toLower(word);
+ if (index.find(lowerWord) != index.end()) {
+  std::unordered_set<int> docIDs;
+  for (const auto &entry : index[lowerWord]) {
+   docIDs.insert(entry.first);
+  }
+  return docIDs;
+ }
+ return {};
+}
+
+
+Retrieving Documents Containing a Term
+std::unordered_set<int> getDocuments(
+  const std::string &word) {
+ std::string lowerWord = toLower(word);
+ if (index.find(lowerWord) != index.end()) {
+  std::unordered_set<int> docIDs;
+  for (const auto &entry : index[lowerWord]) {
+   docIDs.insert(entry.first);
+  }
+  return docIDs;
+ }
+ return {};
+}
+Converts input 
+word to lowercase
+
+
+Retrieving Documents Containing a Term
+std::unordered_set<int> getDocuments(
+  const std::string &word) {
+ std::string lowerWord = toLower(word);
+ if (index.find(lowerWord) != index.end()) {
+  std::unordered_set<int> docIDs;
+  for (const auto &entry : index[lowerWord]) {
+   docIDs.insert(entry.first);
+  }
+  return docIDs;
+ }
+ return {};
+}
+Converts input 
+word to lowercase
+Returns list of 
+document IDs
+
+
+Proximity Search: Finding Words Near Each Other
+std::unordered_set<int> proximitySearch(const std::string &word1, 
+                                        const std::string &word2, int k)
+{
+  … 
+   if (index.find(lowerWord1) != index.end() && index.find(lowerWord2) != index.end()) {
+  for (const auto &entry1 : index[lowerWord1]) {
+   int docID = entry1.first;
+   if (index[lowerWord2].find(docID) != index[lowerWord2].end()) {
+    const auto &positions1 = entry1.second;
+    const auto &positions2 = index[lowerWord2].at(docID);
+    for (int pos1 : positions1) { for (int pos2 : positions2) {
+      if (std::abs(pos1 - pos2) <= k) { result.insert(docID); break; }
+   }
+  …
+}
+
+
+Benefits of Inverted Index
+
+
+Benefits of Inverted Index
+Fast lookup for individual words
+Efficient
+
+
+Benefits of Inverted Index
+Fast lookup for individual words
+Efficient
+Proximity search and Boolean queries
+Complexity
+
+
+Benefits of Inverted Index
+Fast lookup for individual words
+Efficient
+Scales to large document collections
+Scalable
+Proximity search and Boolean queries
+Complexity
+
+
+Challenges with Inverted Index
+
+
+Challenges with Inverted Index
+Large 
+Storage
+Footprint
+
+
+Challenges with Inverted Index
+Large 
+Storage
+Footprint
+Compression: 
+Delta 
+Encoding
+
+
+Challenges with Inverted Index
+Large 
+Storage
+Footprint
+Compression: 
+Delta 
+Encoding
+Disk-Based 
+Storage
+Management
+
+
+Web-Scale Search
+
+
+Héctor García-Molina    Sergey Brin   Larry Page
+Stanford Digital Library Project (1995)
+
+
+Web-Scale Search
+
+
+Web-Scale Search
+Sharding
+
+
+Web-Scale Search
+Replication
+Sharding
+
+
+Web-Scale Search
+Web-Scale Inverted Index
+Replication
+Sharding
+
+
+Distributed Inverted Index
+Shards (subset of Words)
+Replicas
+Shard 1 (Words 1…100)
+Servers A, B
+Shard 2 (Words 101 … 200)
+Servers C, D
+...
+…
+Word-Based Sharding
+
+
+Document Ranking
+Documents Prioritized by 
+Relevance
+Relevant 
+Ranking
+PageRank or
+Machine Learning
+Ranking
+Algorithm
+Inverted Index
+Narrows Down
+Indexing 
+and Ranking
+
+
+Document Ranking
+Documents Prioritized by 
+Relevance
+Relevant 
+Ranking
+PageRank or
+Machine Learning
+Ranking
+Algorithm
+Inverted Index
+Narrows Down
+Indexing 
+and Ranking
+
+
+Document Ranking
+Documents Prioritized by 
+Relevance
+Relevant 
+Ranking
+PageRank or
+Machine Learning
+Ranking
+Algorithm
+Inverted Index
+Narrows Down
+Indexing 
+and Ranking
+
+
+Document Ranking
+Documents Prioritized by 
+Relevance
+Relevant 
+Ranking
+PageRank or
+Machine Learning
+Ranking
+Algorithm
+Inverted Index
+Narrows Down
+Indexing 
+and Ranking
+
+
+The Future
+Insert full-screen video descriptive of 
+the language.
+1.
+https://www.gettyimages.com/detail/video/filing-
+documents-computer-file-digitization-file-folder-stock-
+footage/2149401020?adppopup=true
+2.
+https://www.gettyimages.com/detail/video/business-
+stock-market-charts-and-data-numbers-stock-
+footage/1777547787?adppopup=true
+3.
+https://www.gettyimages.com/detail/video/values-stock-
+footage/150487436?adppopup=true
+
+
+
+
+Inverted 
+Index
+
+
+Inverted 
+Index
+Web-Scale 
+Search
+
+
+R-Tree
+
+
+
+
+R-Tree
+
+
+R-Tree
+Nearest 
+Neighbor 
+Query
+
+
+Limitations of B+Tree
+60
+50
+40
+30
+20
+100 K
+150 K
+200 K
+250 K
+300 K
+AGE
+SALARY
+Designed for Single-Dimensional Indexing
+
+
+60
+50
+40
+30
+20
+100 K
+150 K
+200 K
+250 K
+300 K
+AGE
+SALARY
+R-Tree: A Multidimensional Index
+SPATIAL CLUSTERS
+R-Tree groups multi-dimensional keys based 
+on spatial proximity 
+
+
+R-Tree: A Multidimensional Index
+60
+50
+40
+30
+20
+100 K
+150 K
+200 K
+250 K
+300 K
+AGE
+SALARY
+SPATIAL CLUSTERS
+
+
+R-Tree: A Multidimensional Index
+(Salary, Age): Point 
+60
+50
+40
+30
+20
+100 K
+150 K
+200 K
+250 K
+300 K
+AGE
+SALARY
+SPATIAL CLUSTERS
+
+
+R-Tree: A Multidimensional Index
+(Salary, Age): Point 
+Clusters: Bounding Rectangles
+60
+50
+40
+30
+20
+100 K
+150 K
+200 K
+250 K
+300 K
+AGE
+SALARY
+SPATIAL CLUSTERS
+
+
+Supported Queries
+Nearby
+Cafes
+Spatial Queries
+Nearest Neighbor Queries
+
+
+Supported Queries
+Nearby
+Cafes
+Spatial Queries
+Nearest Neighbor Queries
+
+
+Supported Queries
+Nearby
+Cafes
+Spatial Queries
+Nearest Neighbor Queries
+
+
+Key Characteristics
+AGE
+SALARY
+ROOT
+
+
+Key Characteristics
+AGE
+SALARY
+ROOT
+Balanced
+
+
+Key Characteristics
+AGE
+SALARY
+ROOT
+Balanced
+Bounding 
+Rectangle
+
+
+R-Tree Data Types
+
+
+R-Tree Data Types
+Specific
+location 
+in space
+2D coordinate
+Point
+
+
+R-Tree Data Types
+Specific
+location 
+in space
+2D coordinate
+Point
+Encloses points 
+or other 
+rectangles
+Defines a 
+bounding box
+Rectangle
+
+
+R-Tree Nodes
+
+
+R-Tree Nodes
+R-Tree 
+Node
+
+
+R-Tree Nodes
+Contains 
+Points; 
+Lowest 
+Level of Tree
+Leaf Node
+R-Tree 
+Node
+
+
+R-Tree Nodes
+Contains 
+Points; 
+Lowest 
+Level of Tree
+Leaf Node
+Contains 
+Child Nodes  
+and their 
+Bounding 
+Rectangles
+Inner Node
+R-Tree 
+Node
+
+
+R-Tree Nodes
+Contains 
+Points; 
+Lowest 
+Level of Tree
+Leaf Node
+Contains 
+Child Nodes  
+and their 
+Bounding 
+Rectangles
+Inner Node
+Top-Most 
+Inner Node;
+Entry
+Point
+Root Node
+R-Tree 
+Node
+
+
+R-Tree Structure
+
+
+R-Tree Structure
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11 R12
+R13 R14
+R15 R16
+R17 R18 R19
+
+
+(x, y) = (salary, age)
+Point
+struct Point {
+ float x, y;
+ Point(float x, float y) : x(x), y(y) {}
+};
+(salary, age)
+
+
+Rectangle
+struct Rectangle {
+ float minX, minY, maxX, maxY;
+ Rectangle(float minX, float minY, float maxX, float maxY)
+   : minX(minX), minY(minY), maxX(maxX), maxY(maxY) {}
+ bool contains(const Point &p);
+ bool intersects(const Rectangle &other) const;
+};
+Defines a bounding box using its minimum and maximum coordinates
+(minX, minY)
+(maxX, maxY)
+
+
+Rectangle: Contains
+bool contains(const Point &p) const {
+ return (p.x >= minX && p.x <= maxX 
+         && p.y >= minY && p.y <= maxY);
+}
+Check if a point lies inside the rectangle
+(minX, minY)
+(maxX, maxY)
+(x, y)
+
+
+Rectangle: Intersection
+bool intersects(const Rectangle &other) const {
+ return !(other.minX > maxX || other.maxX < minX 
+         || other.minY > maxY || other.maxY < minY);
+}
+Determine if two rectangles overlap
+
+
+Inserting Points
+
+
+Inserting Points into the R-Tree
+void insert(RTreeNode * node, const Point &point, const Rectangle &rect) {
+ … 
+  else {
+  int bestChild = chooseBestChild(node, rect);
+  insert(node->children[bestChild], point, rect);
+  node->childrenRectangles[bestChild].expand(rect);
+ }
+}
+•
+Recursively finds best child node
+•
+With least enlargement of bounding rectangle
+Inner 
+Node
+
+
+Best Child with Least Enlargement
+int chooseBestChild(RTreeNode * node, const Rectangle &rect) {
+ int bestChild = 0;
+ for (size_t i = 0; i < node->children.size(); ++i) {
+  Rectangle enlarged = node->childrenRectangles[i];
+  enlarged.expand(rect);
+  float enlargement = … 
+    if (enlargement < minEnlargement) {
+   minEnlargement = enlargement;
+   bestChild = i;
+  }
+ }
+ return bestChild;
+}
+
+
+Leaf Node Insertion
+void insert(RTreeNode * node, const Point &point, const Rectangle &rect) {
+ if (node->isLeaf) {
+  node->points.push_back(point);
+  if (node->points.size() > maxPoints) {
+   split(node); // Split the node if it exceeds max points
+  }
+ }
+ …
+}
+•
+Add point to the leaf node
+•
+Split if node exceeds maximum point capacity
+Leaf 
+Node
+
+
+SEEDS
+Quadratic Node Splitting Algorithm 
+
+
+void chooseSeeds(const std::vector<Point> &points, int &seed1, int &seed2) {
+ float maxDistance = -1;
+ for (size_t i = 0; i < points.size(); ++i) {
+  for (size_t j = i + 1; j < points.size(); ++j) {
+   float distance = std::sqrt(std::pow(points[i].x - points[j].x, 2) +
+                std::pow(points[i].y - points[j].y, 2));
+   if (distance > maxDistance) {
+    maxDistance = distance;
+    seed1 = i;
+    seed2 = j;
+   }
+  }
+ }
+}
+Quadratic Node Splitting Algorithm 
+
+
+Range & Nearest Neighbor Query
+
+
+Range Query in R-Tree
+60
+50
+40
+30
+20
+100 K
+150 K
+200 K
+250 K
+300 K
+AGE
+SALARY
+100 K < Salary < 200 K
+40 < Age < 60
+
+
+void query(RTreeNode * node, const Rectangle &rect,
+     std::vector<Point> &results) {
+ if (node->isLeaf) {
+  for (const Point &p : node->points) {
+   if (rect.contains(p)) {
+    results.push_back(p);
+   }
+  }
+ } else {
+  for (size_t i = 0; i < node->children.size(); ++i) {
+   if (rect.intersects(node->childrenRectangles[i])) {
+    query(node->children[i], rect, results);
+   }
+  }
+ }
+}
+Range Query in R-Tree
+
+
+Nearest Neighbor Query in R-Tree
+60
+50
+40
+30
+20
+100 K
+150 K
+200 K
+250 K
+300 K
+AGE
+SALARY
+Salary ~ 200 K
+Age ~ 50
+
+
+Nearest Neighbor Query: Inner Node
+void nearestNeighbor(RTreeNode * node, const Point &queryPoint, int k,
+          std::priority_queue<std::pair<float, Point>> &pq) {
+ … 
+  else {
+  std::vector<std::pair<float, R - TreeNode *>> childDistances;
+  for (size_t i = 0; i < node->children.size(); ++i) {
+   float distance = node->childrenRectangles[i].minDistance(queryPoint);
+   childDistances.push_back({distance, node->children[i]});
+  }
+  std::sort(childDistances.begin(), childDistances.end());
+  for (const auto &child : childDistances) {
+   nearestNeighbor(child.second, queryPoint, k, pq);
+  }
+ }
+}
+
+
+Nearest Neighbor Query: Leaf Node
+void nearestNeighbor(RTreeNode * node, const Point &queryPoint, int k,
+          std::priority_queue<std::pair<float, Point>> &pq) {
+ if (node->isLeaf) {
+  for (const Point &p : node->points) {
+   float distance = std::sqrt(std::pow(p.x - queryPoint.x, 2) +
+                std::pow(p.y - queryPoint.y, 2));
+   pq.push(std::make_pair(distance, p));
+   if (pq.size() > k)
+    pq.pop();
+  }
+ }
+ …
+}
+
+
+Applications
+
+
+Restaurant Search on Maps
+USER
+QUERY 
+RECTANGLE
+RESTAURANTS
+
+
+Ride Matching
+Point driver({latitude, longitude}, "DriverID");
+tree.insert(driver);
+Point riderLocation({rider_latitude, rider_longitude}, "RiderLocation");
+int k = 10; // We want the nearest drivers
+std::vector<Point> nearestDrivers = tree.nearestNeighbor(riderLocation, k);
+Latitude
+Longitude
+
+
+ND R-Tree
+Limitation of R-Tree
+R-Tree
+
+
+ND R-Tree
+Limitation of R-Tree
+Only
+2D
+Indexing
+R-Tree
+
+
+ND R-Tree
+Cannot
+Support 
+Higher
+Dimensions
+Limitation of R-Tree
+Only
+2D
+Indexing
+R-Tree
+
+
+N
+Dimensions
+ND R-Tree
+Cannot
+Support 
+Higher
+Dimensions
+Limitation of R-Tree
+Only
+2D
+Indexing
+R-Tree
+
+
+Higher
+Dimensional
+Applications
+N
+Dimensions
+ND R-Tree
+Cannot
+Support 
+Higher
+Dimensions
+Limitation of R-Tree
+Only
+2D
+Indexing
+R-Tree
+
+
+ND R-Tree
+
+
+ND R-Tree: A Multidimensional Index
+Efficiently manage data in tens of dimensions
+
+
+ND R-Tree Structure
+N-dimensional Point
+Point
+N-dimensional Rectangle
+Hyper-
+Rectangle
+Nodes
+Leaf Node
+Inner Node
+Root Node
+
+
+N-Dimensional Point
+struct Point {
+ std::vector<float> coordinates;
+ std::string label;
+};
+Example: 512-dimensional point with image features
+
+
+N-Dimensional Hyperrectangle
+struct Rectangle {
+ std::vector<float> minCoords, maxCoords;
+ bool contains(const Point &p) const;
+};
+(minX, minY)
+(maxX, maxY)
+
+
+N-Dimensional Hyperrectangle
+struct Rectangle {
+ std::vector<float> minCoords, maxCoords;
+ bool contains(const Point &p) const;
+};
+(minX, minY)
+(maxX, maxY)
+
+
+Game Engine
+Point gameObject({x, y, z}, "GameObjectID");
+tree.insert(gameObject);
+Rectangle collisionArea({minX, minY, minZ}, {maxX, maxY, maxZ});
+std::vector<Point> nearbyObjects = tree.query(collisionArea);
+
+
+Game Engine
+Point gameObject({x, y, z}, "GameObjectID");
+tree.insert(gameObject);
+Rectangle collisionArea({minX, minY, minZ}, {maxX, maxY, maxZ});
+std::vector<Point> nearbyObjects = tree.query(collisionArea);
+
+
+Challenge
+ND R-Tree
+
+
+Challenge
+Balanced
+Efficient Queries
+ND R-Tree
+
+
+Challenge
+Balanced
+Efficient Queries
+Rectangle Overlap
+Fewer Subtrees
+ND R-Tree
+
+
+
+
+R-Tree
+
+
+R-Tree
+Nearest 
+Neighbor 
+Query
+
+
+ND RTree
+
+
+
+
+NDRTree
+
+
+NDRTree
+Nearest 
+Neighbor 
+Search
+
+
+Limitations of R-Tree
+ND R-Tree
+Applications
+
+
+Extension 
+of R-Tree
+Limitations of R-Tree
+ND R-Tree
+Applications
+
+
+Supports 
+Arbitrary 
+Indexing
+Extension 
+of R-Tree
+Limitations of R-Tree
+ND R-Tree
+Applications
+
+
+Supports 
+Arbitrary 
+Indexing
+Extension 
+of R-Tree
+Limitations of R-Tree
+ND R-Tree
+Image 
+Recognition
+Applications
+
+
+Supports 
+Arbitrary 
+Indexing
+Extension 
+of R-Tree
+Limitations of R-Tree
+ND R-Tree
+Managing 
+Interaction 
+Data
+Image 
+Recognition
+Applications
+
+
+ND R-Tree: A Multidimensional Index
+
+
+ND R-Tree: A Multidimensional Index
+Efficiently Manages Data in Hundreds of Dimensions
+
+
+ND R-Tree Structure
+Coordinate Position in N-dimensional Space
+Point
+N-dimensional Shape Enclosing Points or Rectangles 
+Hyper-
+Rectangle
+R-Tree 
+Node
+
+
+ND R-Tree Structure
+Coordinate Position in N-dimensional Space
+Point
+N-dimensional Shape Enclosing Points or Rectangles 
+Hyper-
+Rectangle
+R-Tree 
+Node
+
+
+ND R-Tree Structure
+Coordinate Position in N-dimensional Space
+Point
+N-dimensional Shape Enclosing Points or Rectangles 
+Hyper-
+Rectangle
+R-Tree 
+Node
+Leaf Node
+
+
+ND R-Tree Structure
+Coordinate Position in N-dimensional Space
+Point
+N-dimensional Shape Enclosing Points or Rectangles 
+Hyper-
+Rectangle
+R-Tree 
+Node
+Leaf Node
+Inner Node
+
+
+ND R-Tree Structure
+Coordinate Position in N-dimensional Space
+Point
+N-dimensional Shape Enclosing Points or Rectangles 
+Hyper-
+Rectangle
+R-Tree 
+Node
+Leaf Node
+Inner Node
+Root Node
+
+
+• High-dimensional points (e.g., 512 dimensions).
+• Example: A feature vector representing an image with 512 dimensions, where each 
+value is a descriptor of the image content.
+Point
+struct Point {
+    std::vector<float> coordinates;
+    std::string label;
+};
+
+
+• A bounding box that represents the minimum and maximum feature values for a 
+cluster of points in a high-dimensional space.
+Rectangle
+struct Rectangle {
+    std::vector<float> minCoords, maxCoords;
+    bool contains(const Point& p) const;
+};
+
+
+• Internal nodes use bounding hyper-rectangles to efficiently index child nodes.
+Nodes
+struct RTreeNode {
+    bool isLeaf;
+    std::vector<Point> points;
+    std::vector<Rectangle> childrenRectangles;
+    std::vector<RTreeNode*> children;
+};
+
+
+• Points are inserted into the ND R-Tree by navigating down the tree to find the best-fit 
+leaf node.
+Inserting Points into the ND R-Tree
+void insert(RTreeNode* node, const Point& point, const Rectangle& rect) {
+    …
+    else {
+        int bestChild = chooseBestChild(node, rect);
+        insert(node->children[bestChild], point, rect);
+        node->childrenRectangles[bestChild].expand(rect);  // Update bounding rectangle
+    }
+}
+
+
+• Minimizes bounding hyperrectangle enlargement to maintain spatial locality.
+Best Child with Least Enlargement
+int chooseBestChild(RTreeNode* node, const Rectangle& rect) {
+    int bestChild = 0;
+    float minEnlargement = std::numeric_limits<float>::max();
+    for (size_t i = 0; i < node->children.size(); ++i) {
+        Rectangle enlarged = node->childrenRectangles[i];
+        enlarged.expand(rect);
+        float enlargement = enlarged.area() - node->childrenRectangles[i].area();
+        if (enlargement < minEnlargement) {
+            minEnlargement = enlargement;
+            bestChild = i;
+        }
+    }
+    return bestChild;
+}
+
+
+• If a node overflows, it is split using a quadratic algorithm that aims to minimize 
+bounding box overlap.
+• Quadratic Split: Selects the two most distant points (seeds) and distributes the 
+remaining entries to minimize area enlargement.
+Node Splitting in ND R-Tree
+
+
+.
+.. .
+.
+.. .
+SEEDS
+Node Splitting in ND R-Tree
+
+
+void chooseSeeds(const std::vector<Point>& points, int& seed1, 
+int& seed2) {
+    float maxDistance = -1;
+    for (size_t i = 0; i < points.size(); ++i) {
+        for (size_t j = i + 1; j < points.size(); ++j) {
+            float distance = std::sqrt(std::pow(points[i].x - points[j].x, 2) 
++
+                                       std::pow(points[i].y - points[j].y, 2));
+            if (distance > maxDistance) {
+                maxDistance = distance;
+                seed1 = i;
+                seed2 = j;
+            }
+        }
+    }
+}
+Node Splitting in ND R-Tree
+
+
+• Purpose: Finds the k nearest neighbors of a point.
+• Recursive Search Approach: Traverses nodes in increasing order of distance from 
+the query point, using a priority queue.
+Nearest Neighbor Search
+
+
+Nearest Neighbor Search (Internal Node)
+void nearestNeighbor(RTreeNode* node, const Point& queryPoint, int k,
+                     std::priority_queue<std::pair<float, Point>>& pq) {
+    if (node->isLeaf) { ..}
+    else {
+        std::vector<std::pair<float, RTreeNode*>> childDistances;
+        for (size_t i = 0; i < node->children.size(); ++i) {
+            float distance = node->childrenRectangles[i].minDistance(queryPoint);
+            childDistances.push_back(std::make_pair(distance, node->children[i]));
+        }
+        std::sort(childDistances.begin(), childDistances.end());
+        for (const auto& child : childDistances) {
+            nearestNeighbor(child.second, queryPoint, k, pq);
+        }
+    }
+}
+
+
+Nearest Neighbor Search (Leaf Node)
+void nearestNeighbor(RTreeNode* node, const Point& queryPoint, int k,
+                     std::priority_queue<std::pair<float, Point>>& pq) {
+    if (node->isLeaf) {
+        for (const Point& p : node->points) {
+            float distance = 0.0;
+            for (size_t i = 0; i < p.coordinates.size(); ++i) {
+                distance += std::pow(p.coordinates[i] - queryPoint.coordinates[i], 2);
+            }
+            distance = std::sqrt(distance);
+            pq.push(std::make_pair(distance, p));
+            if (pq.size() > static_cast<size_t>(k)) {
+                pq.pop();
+            }
+        }
+    } …
+}
+
+
+• ND R-Tree can efficiently perform multidimensional range queries, which are 
+common in high-dimensional datasets.
+• The algorithm recursively traverses nodes whose bounding rectangles intersect with 
+the query region.
+• For leaf nodes, it returns all points contained within the rectangle.
+• For internal nodes, it recursively explores child nodes that may intersect the query.
+Range Query in ND R-Tree
+
+
+Range Query in R-Tree
+void query(RTreeNode* node, const Rectangle& rect, std::vector<Point>& 
+results) {
+    if (node->isLeaf) {
+        for (const Point& p : node->points) {
+            if (rect.contains(p)) {
+                results.push_back(p);
+            }
+        }
+    } else {
+        for (size_t i = 0; i < node->children.size(); ++i) {
+            if (rect.intersects(node->childrenRectangles[i])) {
+                query(node->children[i], rect, results);
+            }
+        }
+    }
+}
+
+
+• The key difficulty of ND R-tree is to build an efficient tree that: 
+▪On one hand is balanced (so the leaf nodes are at the same height) 
+▪On the other hand the rectangles do not cover too much empty space and do not overlap too 
+much (so that during search, fewer subtrees need to be processed). 
+Challenges
+
+
+
+
+NDRTree
+
+
+NDRTree
+Nearest 
+Neighbor 
+Search
+
+
+
+
+Learned Index
+
+
+
+
+Learned Index 
+Using 
+Regression
+
+
+Learned Index 
+Using 
+Regression
+Learned Index 
+Using Neural 
+Network
+
+
+Limitations of B+Tree
+Fixed Structure
+Hierarchical nodes 
+require multiple levels 
+of traversal (log(n) 
+comparisons), leading 
+to higher CPU and 
+memory costs.
+Memory Overhead
+Each node holds 
+pointers, using 
+significant memory 
+for large datasets.
+Rigid Partitioning
+B+ Trees don’t adapt 
+to predictable key 
+patterns, which can 
+cause unnecessary 
+disk I/O and slower 
+access.
+
+
+Learned Index
+[0~1000]
+[]
+[0~250]
+[]
+[251~900]
+[]
+[901~1000]
+[]
+[50|120|200]
+[V|V|V]
+[300|400|650]
+[V|V|V] 
+[920|950|1000]
+[V|V|V] 
+Root Model
+Predict Lower-level Model
+Sub-Model
+Finer-Grained Local Data Models
+
+
+Learned Index
+
+
+Learned Index
+Root Model
+•
+Sub-Model Access
+•
+Tree Elimination
+
+
+Learned Index
+Root Model
+•
+Sub-Model Access
+•
+Tree Elimination
+Data Adaptive
+•
+Memory Usage
+•
+Faster Lookups
+
+
+History of Learned Index
+Machine Learning
+Place a video on the right half of the screen. 
+See link:
+https://v.ftcdn.net/06/14/04/53/700_F_6140
+45399_UChvaRpxL5HpChlSNXNQQKnV1Vr7K
+UUV_ST.mp4
+
+
+Reduce B+ Tree Reliance
+Predict Data Positions
+History of Learned Index
+Machine Learning
+Place a video on the right half of the screen. 
+See link:
+https://v.ftcdn.net/06/14/04/53/700_F_6140
+45399_UChvaRpxL5HpChlSNXNQQKnV1Vr7K
+UUV_ST.mp4
+
+
+History of Learned Index
+Machine Learning
+
+
+Reduce B+ Tree Reliance
+Predict Data Positions
+History of Learned Index
+Machine Learning
+
+
+Key Idea
+
+
+Key Idea
+Data Distribution 
+Awareness
+Machine 
+Learning
+Key Position 
+Mapping
+Predictive 
+Power
+Data 
+Patterns
+Learned
+Index
+
+
+B+ Tree
+Learned Index
+Structure
+More rigid and hierarchical
+Data-adaptive and predictive
+Search Cost
+Log(n) comparisons
+Direct prediction w/ neighborhood search
+Memory Usage
+High, with pointers per node
+Lower, fewer nodes needed
+B+Tree vs Learned Index
+
+
+Structure of a Learned Index
+struct Model {
+ double slope = 0.0;
+ double intercept = 0.0;
+ void train(const std::vector<int> &keys,
+      const std::vector<size_t> &positions);
+ size_t predict(int key) const;
+ void print() const;
+};
+
+
+Training Root and Sub-Models
+
+
+Training the Root and Sub-
+models
+void train(const std::vector<int> &keys, const std::vector<size_t> &positions) {
+ // Calculate mean
+ for (size_t i = 0; i < keys.size(); ++i) {
+  mean_x += keys[i];
+  mean_y += positions[i];
+ }
+ // Compute slope and intercept
+ slope = num / denom;
+ intercept = mean_y - slope * mean_x;
+}
+Root Model 
+Rough Key Mapping
+Sub Model 
+Localized Predictions
+
+
+Regression
+
+
+Regression
+position(key) =
+slope * key
++ intercept
+y(x) = m * x + b
+
+
+Training Regression Model
+position
+0
+1
+2
+3
+4
+key
+50
+100
+120
+200
+250
+y=mx + b
+
+
+Training Regression Model
+position
+0
+1
+2
+3
+4
+key
+50
+100
+120
+200
+250
+Slope-Intercept Form 
+Defines Linear 
+Relationships
+y=mx + b
+
+
+{
+ double num = 0.0, denom = 0.0;
+ for (size_t i = 0; i < keys.size(); ++i) {
+  double x_diff = keys[i] - mean_x;
+  num += x_diff * (positions[i] - mean_y);
+  denom += x_diff * x_diff;
+ }
+}
+slope = num / denom;
+intercept = mean_y - slope * mean_x;
+Training Regression Model
+
+
+{
+ double num = 0.0, denom = 0.0;
+ for (size_t i = 0; i < keys.size(); ++i) {
+  double x_diff = keys[i] - mean_x;
+  num += x_diff * (positions[i] - mean_y);
+  denom += x_diff * x_diff;
+ }
+}
+slope = num / denom;
+intercept = mean_y - slope * mean_x;
+Training Regression Model
+Mean
+Slope
+Intercept
+
+
+slope = num / denom = 500 / 20000 = 0.025
+intercept = mean_y − (slope × mean_x) = 2 − (0.025 × 150) = −1.75
+y = 0.025 × x − 1.75
+Training Regression Model
+
+
+slope = num / denom = 500 / 20000 = 0.025
+intercept = mean_y − (slope × mean_x) = 2 − (0.025 × 150) = −1.75
+y = 0.025 × x − 1.75
+Training Regression Model
+Accumulates Covariance
+
+
+slope = num / denom = 500 / 20000 = 0.025
+intercept = mean_y − (slope × mean_x) = 2 − (0.025 × 150) = −1.75
+y = 0.025 × x − 1.75
+Training Regression Model
+Accumulates Covariance
+Accumulates Variance of Keys
+
+
+position
+0
+1
+2
+3
+4
+key
+50
+100
+120
+200
+250
+y
+-0.5
+0.75
+2
+3.25
+4.5
+Training Regression Model
+y = 0.025 × x − 1.75
+
+
+Training Sub-Models
+for (int i = 0; i < num_sub_models; ++i) {
+ cluster_keys.clear();
+ cluster_positions.clear();
+ for (size_t j = start; j < end; ++j) {
+  cluster_keys.push_back(sorted_data[j].first);
+  cluster_positions.push_back(j);
+  leaves[i].push_back(sorted_data[j]);
+ }
+ sub_models[i].train(cluster_keys, cluster_positions);
+}
+
+
+Training Root and Sub-Models
+
+
+Position Prediction Process
+int sub_model_idx = root_model.predict(key);
+size_t pos = sub_models[sub_model_idx].predict(key);
+Position Prediction Process
+Hierarchical
+Key Predictive
+
+
+[0~250]
+[]
+[50|120|200]
+[V|V|V]
+Position Prediction Process
+[900~1000]
+[]
+[900|950|1000]
+[V|V|V] 
+[0~1000]
+[]
+[250~900]
+[]
+[300|400|650]
+[V|V|V] 
+Key = 650
+
+
+[0~250]
+[]
+[50|120|200]
+[V|V|V]
+Position Prediction Process
+[900~1000]
+[]
+[900|950|1000]
+[V|V|V] 
+[0~1000]
+[]
+[250~900]
+[]
+[300|400|650]
+[V|V|V] 
+Key = 650
+
+
+Using Trained Regression Model
+size_t predict(int key) const {
+ return static_cast<size_t>(std::max(0.0, slope * key + intercept));
+}
+
+
+Neighborhood Search Around Predicted Position
+int search_radius = 5;
+int start = std::max(0, int(pos) - search_radius);
+int end =
+  std::min(int(leaves[sub_model_idx].size() - 1), int(pos) + search_radius);
+for (int i = start; i < end; ++i) {
+ if (key == leaves[sub_model_idx][i].first) {
+  return leaves[sub_model_idx][i].second;
+ }
+}
+
+
+Neighborhood Search Around Predicted Position
+int search_radius = 5;
+int start = std::max(0, int(pos) - search_radius);
+int end =
+  std::min(int(leaves[sub_model_idx].size() - 1), int(pos) + search_radius);
+for (int i = start; i < end; ++i) {
+ if (key == leaves[sub_model_idx][i].first) {
+  return leaves[sub_model_idx][i].second;
+ }
+}
+
+
+Example of Neighborhood Search
+Predicted position = 10  
+ 
+Search radius = 2
+8
+9
+10
+11
+12
+3
+7
+15
+25
+32
+
+
+Practical Considerations for Neighborhood Search
+Radius Selection
+!
+
+
+Practical Considerations for Neighborhood Search
+Radius Selection
+!
+Radius Adjustment for Skewed Data
+Data Distribution Optimization
+Large Radius = Slower Search
+
+
+Testing the Learned Index
+for (auto search_key : search_keys) {
+ std::cout << "Search for key " << search_key << " : "
+      << index.search(search_key) << std::endl;
+}
+
+
+Benefits and Limitations of Learned Indexes
+Limitations
+Approximate 
+Predictions
+-
+Benefits
+Fast Lookups
++
+Efficient Memory
+Flexibility
+Inaccurate for 
+Scattered Data
+
+
+Evaluation Metrics
+
+
+Evaluation Metrics
+Lookup Speed
+Memory Usage
+Accuracy
+
+
+LEARNED INDEX USING NEURAL NETWORK
+
+
+Limitation of Learned Index Using Regression
+0
+1
+2
+3
+4
+5
+6
+7
+8
+10
+20
+45
+100
+200
+350
+600
+1000
+1500
+
+
+Non-Linearity
+
+
+Non-Linearity
+Customer 
+Behaviors
+Seasonal 
+Patterns
+Geographical 
+Distributions
+
+
+Neural Network
+Use a full-screen video of an AI neural network.
+See the video:
+https://v.ftcdn.net/03/45/31/52/700_F_345315
+215_XAM28vDcKdvy1rQuFBd7HKVlkoh0JiKg_S
+T.mp4
+
+
+Neural Network
+
+
+Abstract Model Class
+struct Model {
+ virtual ~Model() {}
+ virtual void train(const std::vector<int> &inputs,
+          const std::vector<double> &targets) = 0;
+ virtual double predict(int x) const = 0;
+ virtual void print() const = 0;
+};
+Defines a General Model Interface with Train, Predict, and Print Methods
+
+
+SimpleNeuralNetwork Class
+class SimpleNeuralNetwork : public Model {
+ std::vector<double> input_weights;
+ std::vector<double> output_weights;
+ double input_bias, output_bias;
+ int hidden_neurons;
+ // other variables and helper functions...
+};
+
+
+Simple Neural Network Structure
+ℝ=10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Input
+ℝ=1
+Output
+ℝ=1
+
+
+TRAINING THE NEURAL NETWORK
+
+
+Training the Neural Network for Learned Index
+void train(const std::vector<int> &inputs, const std::vector<double> &targets) {
+ for (int epoch = 0; epoch < epochs; ++epoch) {
+  for (size_t i = 0; i < inputs.size(); ++i) {
+   // Forward and backward pass...
+   output_bias += learning_rate * delta_output;
+   input_bias += learning_rate * delta_hidden;
+  }
+ }
+}
+
+
+Training the Neural Network for Learned Index
+
+
+Forward Pass
+Calculate Hidden 
+Layer Outputs
+Sum Outputs for 
+Prediction
+Training the Neural Network for Learned Index
+
+
+Forward Pass
+Calculate Hidden 
+Layer Outputs
+Sum Outputs for 
+Prediction
+Backward Pass
+Adjust Weights and 
+Biases
+Error and Actual 
+Differences
+Training the Neural Network for Learned Index
+
+
+Forward Pass
+Calculate Hidden 
+Layer Outputs
+Sum Outputs for 
+Prediction
+Backward Pass
+Adjust Weights and 
+Biases
+Error and Actual 
+Differences
+Epochs &
+Learning Rate
+Fine Tuned Learning 
+Rate
+Increased Accuracy
+Training the Neural Network for Learned Index
+
+
+hj = sigmoid (x · wij + bj)
+Training the Neural Network for Learned Index
+Normalize Each Key by Dividing by Maximum Key
+Each Hidden Neuron Computes Its Output Using:
+
+
+loss = ( y – yactual )2/n
+Training the Neural Network for Learned Index
+Loss
+Final Predicted Position
+y = sum ( hj · wij ) + bo
+
+
+key = 10, position = 0
+Normalize key: 10/1500 = 0.0067
+Initial weights and biases: 0.1
+h1​=sigmoid(0.0067⋅0.1+0.1) ≈ 0.525
+Repeat for each hidden neuron; Compute predicted position y
+Predicted position for key 10: 0.5
+Loss = (0.5−0)2=0.25
+Backpropagation to adjust weights and biases for improved
+Example Iteration
+
+
+Recursive Model Index
+void initModels(bool use_neural_network) {
+ if (use_neural_network) {
+  root_model = std::make_unique<SimpleNeuralNetwork>();
+  for (int i = 0; i < 4; ++i) {
+   sub_models.push_back(std::make_unique<SimpleNeuralNetwork>());
+  }
+ }
+}
+
+
+Benefits and Limitations of Neural Networks
+Benefits
+Flexibility in Capturing Non-Linear Data Patterns
+Consideration
+Tuning Required for Hidden Neuron 
+Count, Learning Rate, and Epochs
+Consideration
+Network Weights Leads to Higher 
+Memory Usage
+
+
+
+
+Learned Index 
+Using 
+Regression
+
+
+Learned Index 
+Using 
+Regression
+Learned Index 
+Using Neural 
+Network
+
+
