@@ -27,7 +27,7 @@ As the number of computers that were added to the ARPANET increased quickly, res
 
 > **Design Choice:** Open-architecture networking allowed disparate network technologies to communicate seamlessly, which became the fundamental philosophy of the modern Internet.
 
-At the same time, a DARPA team of researchers led by Bob Kahn, introduced the idea of **open-architecture networking** so that the individual networks may be independently designed and developed, in accordance with the specific environment and user requirements of that network. This led researchers to develop a new version of the NCP protocol which would eventually be called the Transmission Control Protocol / Internet Protocol (TCP/IP). Khan collaborated with Vint Cerf in Stanford and presented the original TCP paper in 1973. The first version of TCP later split its functionalities into two protocols, the simple IP which provided only for addressing and forwarding of individual packets, and the separate TCP which focused on service features such as flow control and recovery from lost packets.
+At the same time, a DARPA team of researchers led by Bob Kahn, introduced the idea of **open-architecture networking** so that the individual networks may be independently designed and developed, in accordance with the specific environment and user requirements of that network. This led researchers to develop a new version of the NCP protocol which would eventually be called the Transmission Control Protocol / Internet Protocol (TCP/IP). Khan collaborated with Vint Cerf in Stanford and presented the original TCP paper in 1973. The first version of TCP later split its functionalities into two protocols, the simple IP which provided only for **addressing and forwarding** of individual packets, and the separate TCP which focused on service features such as **flow control and recovery** from lost packets.
 
 ### The Domain Name System (DNS) (1983) and the World Wide Web (WWW) (1990)
 
@@ -66,15 +66,15 @@ The same principle of layers and functionalities is implemented with the model o
 
 The Internet architecture follows a layered model, where every layer provides some service to the layer above.
 
-The International Organization for Standardization (ISO) proposed the seven-layered OSI model shown below, which consists of the following layers: application layer, presentation layer, session layer, transport layer, network layer, data link layer, and physical layer.
+The International Organization for Standardization (ISO) proposed the **seven**-layered **OSI model** shown below, which consists of the following layers: application layer, presentation layer, session layer, transport layer, network layer, data link layer, and physical layer.
 
 ![](https://assets.omscs.io/notes/0003.png)
 
-We will see in later sections a possible explanation about why the Internet architecture came eventually to have this form. Separating the functionalities into layers offers multiple advantages. But, are there disadvantages of the layered protocol stack model? Some of the disadvantages include:
+We will see in later sections a possible explanation about why the Internet architecture came eventually to have this form. Separating the functionalities into layers offers multiple advantages. But, are there disadvantages of the layered protocol stack model? Some of the **disadvantages** include:
 
-  1. Some layers functionality depends on the information from other layers, which can violate the goal of layer separation.
-  2. One layer may duplicate lower layer functionalities. For example, the functionality of error recovery can occur in lower layers, but also on upper layers as well.
-  3. Some additional overhead that is caused by the abstraction between layers.
+  1. Some layers functionality **depends** on the information from other layers, which can violate the goal of layer separation.
+  2. One layer may **duplicate** lower layer functionalities. For example, the functionality of error recovery can occur in lower layers, but also on upper layers as well.
+  3. Some additional **overhead** that is caused by the abstraction between layers.
 
 
 
@@ -82,13 +82,13 @@ In the following sections, we will go through a brief overview of the layers, an
 
 **Note: The OSI reference model and the Internet architecture model**
 
-The Internet architecture model though has five layers. The application, presentation, and session layers are combined into a single layer, and this combined layer is called the application layer. The interface between the application layer and the transport layer are the sockets. It is up to the application developer to design the functionality of the overall application.
+The **Internet architecture model** though has **five** layers. The application, presentation, and session layers are combined into a single layer, and this combined layer is called the application layer. **The interface between the application layer and the transport layer are the sockets**. It is up to the application developer to design the functionality of the overall application.
 
 ## Application, Presentation, and Session Layers
 
 ### The Application Layer
 
-The application layer includes multiple protocols, some of the most popular ones include: 1) The HTTP protocol (web), SMTP (e-mail), 2) The FTP protocol (transfers files between two end hosts), and 3) The DNS protocol (translates domain names to IP addresses). So the services that this layer offers are multiple depending on the application that is implemented. The same is true for the interface through which it is accessed, and the protocol that is implemented. At the application layer, we refer to the packet of information as a message.
+The application layer includes multiple protocols, some of the most popular ones include: 1) The HTTP protocol (web), SMTP (e-mail), 2) The FTP protocol (transfers files between two end hosts), and 3) The DNS protocol (translates domain names to IP addresses). So the services that this layer offers are multiple **depending on the application that is implemented**. The same is true for the interface through which it is accessed, and the protocol that is implemented. At the application layer, we refer to the packet of information as a **message**.
 
 ![](https://assets.omscs.io/notes/0004.png)
 
@@ -96,7 +96,7 @@ The application layer includes multiple protocols, some of the most popular ones
 
 > **Purpose:** The presentation layer handles syntax and semantics, ensuring that data sent by one application can be correctly read by another, regardless of differences in internal data representation.
 
-The presentation layer plays the intermediate role of formatting the information that it receives from the layer below and delivering it to the application layer. For example, some functionalities of this layer are formatting a video stream or translating integers from big endian to little endian format.
+The presentation layer plays the intermediate role of formatting the information that it receives from the layer below and delivering it to the application layer. For example, some functionalities of this layer are **formatting a video stream** or **translating integers from big endian to little endian format**, **ASCII to unicode**.
 
 ![](https://assets.omscs.io/notes/0005.png)
 
@@ -104,7 +104,7 @@ The presentation layer plays the intermediate role of formatting the information
 
 > **Analogy:** Think of the session layer as a moderator in a debate, ensuring that different streams of communication (like audio and video) are kept synchronized and organized.
 
-The session layer is responsible for the mechanism that manages the different transport streams that belong to the same session between end-user application processes. For example, in the case of teleconference application, it is responsible to tie together the audio stream and the video stream.
+The session layer is responsible for the mechanism that manages the **different transport streams** that belong to the **same session** between end-user application processes. For example, in the case of teleconference application, it is responsible to tie together the audio stream and the video stream.
 
 ![](https://assets.omscs.io/notes/0006.png)
 
@@ -115,13 +115,13 @@ The session layer is responsible for the mechanism that manages the different tr
 
 > **Mental Model:** The transport layer is like a shipping company ensuring end-to-end delivery of goods, either with tracking and guaranteed delivery (TCP) or as a fast, **best-effort service** (UDP).
 
-The transport layer is responsible for the end-to-end communication between end hosts. In this layer, there are two transport protocols, namely TCP and UDP. The services that TCP offers include: a **connection-oriented service** to the applications that are running on the layer above, guaranteed delivery of the application-layer messages, flow control which in a nutshell matches the sender's and receiver's speed, and a congestion-control mechanism, so that the sender slows its transmission rate when it perceives the network to be congested. On the other hand, the UDP protocol provides a **connectionless** **best-effort service** to the applications that are running in the layer above, without reliability, flow or congestion control. At the transport layer, we refer to the packet of information as a segment.
+The transport layer is responsible for the end-to-end communication between end hosts. In this layer, there are two transport protocols, namely TCP and UDP. The services that TCP offers include: a **connection-oriented service** to the applications that are running on the layer above, guaranteed delivery of the application-layer messages, flow control which in a nutshell matches the sender's and receiver's speed, and a congestion-control mechanism, so that the sender slows its transmission rate when it perceives the network to be congested. On the other hand, the UDP protocol provides a **connectionless** **best-effort service** to the applications that are running in the layer above, without reliability, flow or congestion control. At the transport layer, we refer to the packet of information as a **segment**.
 
 ![](https://assets.omscs.io/notes/0007.png)
 
 ### The Network Layer
 
-In this layer, we refer to the packet of information as a datagram. The network layer is responsible for moving datagrams from one Internet host to another. A source Internet host sends the segment along with the destination address, from the transport layer to the network layer. The network layer is responsible to deliver the datagram to the transport layer in the destination host. The protocols in the network layer are: 1) The IP Protocol, which we often refer to as “the glue” that binds the Internet together. All Internet hosts and devices that have a network layer must run the IP protocol. The IP protocol defines a) the fields in the datagram, and b) how the source/destination hosts and the intermediate routers use these fields, so the datagrams that a source Internet host sends reach their destination. 2) The routing protocols that determine the routes that the datagrams can take between sources and destinations.
+In this layer, we refer to the packet of information as a **datagram**. The network layer is responsible for moving datagrams from one Internet host to another. A source Internet host sends the segment along with the destination address, from the transport layer to the network layer. The network layer is responsible to deliver the datagram to the transport layer in the destination host. The protocols in the network layer are: 1) The IP Protocol, which we often refer to as “the glue” that binds the Internet together. All Internet hosts and devices that have a network layer must run the IP protocol. The IP protocol defines a) the **fields in the datagram**, and b) how the source/destination hosts and the intermediate routers use these fields, so the datagrams that a source Internet host sends reach their destination. 2) The **routing protocols** that determine the routes that the datagrams can take between sources and destinations.
 
 ![](https://assets.omscs.io/notes/0008.png)
 
@@ -129,17 +129,17 @@ In this layer, we refer to the packet of information as a datagram. The network 
 
 ### The Data Link Layer
 
-In this layer, we refer to the packets of information as frames. Some example protocols in this layer include Ethernet, PPP, WiFi.
+In this layer, we refer to the packets of information as **frames**. Some example protocols in this layer include **Ethernet, PPP, WiFi**.
 
-The data link layer is responsible to move the frames from one node (host or router) to the next node. More specifically, assuming we have a sender and receiver host, the network layer will route the datagram through multiple routers across the path between the sender and the receiver. At each node across this path, the network layer passes the datagram to the data link layer, which in turn delivers the datagram to the next node. Then, at that node, the link layer passes the datagram up to the network layer.
+The data link layer is **responsible to move the frames from one node (host or router) to the next node**. More specifically, assuming we have a sender and receiver host, the network layer will route the datagram through multiple routers across the path between the sender and the receiver. At each node across this path, the network layer passes the datagram to the data link layer, which in turn delivers the datagram to the next node. Then, at that node, the link layer passes the datagram up to the network layer.
 
-The data link layer offers services that depend on the data link layer protocol that is used over the link. Some example services include reliable delivery, that covers the transmission of the data from one transmitting node, across one link, and finally to the receiving node. We note that this specific type of reliable delivery service is different from the reliable delivery service that is offered by the TCP protocol which offers reliability from the source host to the destination end host.
+The data link layer offers services that depend on the data link layer protocol that is used over the link. Some example services include **reliable** delivery, that covers the transmission of the data from one transmitting node, across one link, and finally to the receiving node. We note that this specific type of reliable delivery service is different from the reliable delivery service that is offered by the TCP protocol which offers reliability from the source host to the destination end host.
 
 ![](https://assets.omscs.io/notes/0009.png)
 
 ### The Physical Layer
 
-The physical layer facilitates the interaction with the actual hardware and is responsible to transfer bits within a frame between two nodes that are connected through a physical link. The protocols in this layer again depend on the link and on the actual transmission medium of the link. One of the main protocols in the data link layer, Ethernet, has different physical layer protocols for twisted-pair copper wire, coaxial cable, and single-mode fiber optics.
+The physical layer facilitates the interaction with the actual hardware and is responsible to **transfer bits within a frame** between two nodes that are connected through a physical link. The protocols in this layer again depend on the link and on the actual transmission medium of the link. One of the main protocols in the data link layer, Ethernet, has different physical layer protocols for twisted-pair copper wire, coaxial cable, and single-mode fiber optics.
 
 ![](https://assets.omscs.io/notes/0010.png)
 
@@ -152,32 +152,30 @@ The physical layer facilitates the interaction with the actual hardware and is r
 
 ![](https://assets.omscs.io/notes/0011.png)
 
-**Encapsulation and De-encapsulation.** The sending host sends an application layer message M to the transport layer. The transport layer receives the message, and it appends the transport layer header information (Ht). The application message along with the transport layer header is called segment (or transport-layer segment). The segment thus encapsulates the application layer message. This added information can help the receiving host to a) inform the receiver-side transport layer about which application to deliver the message up to, and b) perform error detection and determine whether bits in the message have been changed along the route.
+**Encapsulation and De-encapsulation:** The sending host sends an application layer message M to the transport layer. The transport layer receives the message, and it appends the transport layer header information (Ht). The application message along with the transport layer header is called segment (or transport-layer segment). The segment thus encapsulates the application layer message. This added information can help the receiving host to a) inform the receiver-side transport layer about **which application to deliver the message up to**, and b) perform **error detection** and determine whether bits in the message have been changed along the route.
 
-The segment is then forwarded to network layer which in turn, adds it's own network header information (Hn). The entire combination of the segment and the network header is called datagram. We say that the datagram encapsulates the segment. The header information that the network layer appends includes the source and destination addresses of the end hosts. The same process continues for the link layer which in turn it appends its own header information(Hl). The message at the link layer is called frame, which is transmitted across the physical medium. At each layer the message is a combination of two parts: a) the **payload** which is the message from the layer above, and b) the new appended header information. At the receiving end, the process is reversed, with headers being stripped off at each layer. This reverse process is known as de-encapsulation.
+The segment is then forwarded to network layer which in turn, adds it's own network header information (Hn). The entire combination of the segment and the network header is called datagram. We say that the datagram encapsulates the segment. The header information that the network layer appends includes the **source and destination addresses of the end hosts**. The same process continues for the link layer which in turn it appends its own header information(Hl). The message at the link layer is called frame, which is transmitted across the physical medium. At each layer the message is a combination of two parts: a) the **payload** which is the message from the layer above, and b) the new appended **header** information. At the receiving end, the process is reversed, with headers being stripped off at each layer. This reverse process is known as de-encapsulation.
 
-Intermediate devices and encapsulation. The path that connects the sending and the receiving hosts may include intermediate layer-3 devices, such as routers, and layer-2 devices such as switches. We will see later how switches and routers work, but for now we note that both routers and layer-2 switches implement protocol stacks similarly to end-hosts. The difference is that routers and layer-2 switches do not implement all the layers in the protocol stack; routers implement layers 1 to 3, and layer-2 switches implement layers 1 to 2. So, going back to our diagram, when the data leave the sending host and they are received by the layer-2 switch, the switch implements the same process of de-encapsulation to process the data and encapsulation to send the data forward to the next device.
+**Intermediate devices and encapsulation**: The path that connects the sending and the receiving hosts may include intermediate layer-3 devices, such as routers, and layer-2 devices such as switches. We will see later how switches and routers work, but for now we note that both routers and layer-2 switches implement protocol stacks similarly to end-hosts. The difference is that routers and layer-2 switches do not implement all the layers in the protocol stack; **routers implement layers 1 to 3**, and layer-2 **switches implement layers 1 to 2**. So, going back to our diagram, when the data leave the sending host and they are received by the layer-2 switch, the switch implements the same process of de-encapsulation to process the data and encapsulation to send the data forward to the next device.
 
-A design choice. We note again that end-hosts implement all five layers while the intermediate devices don't. This design choice ensures that the Internet architecture puts much of its complexity and intelligence at the edges of the network while keeping the core simple. Next, we will look deeper into the so-called end-to-end principle.
+**A design choice:** We note again that end-hosts implement all five layers while the intermediate devices don't. This design choice ensures that the Internet architecture puts much of its complexity and intelligence at the edges of the network while keeping the core simple. Next, we will look deeper into the so-called end-to-end principle.
 
 ## The End to End Principle
 
 > **Design Philosophy:** The End-to-End Principle is a deliberate choice to keep the network core "dumb" and fast, pushing all the complex logic (like error checking and reliability) to the "smart" edge devices. This allows the network to scale infinitely without getting bogged down by application-specific requirements.
 
 
-> **Mental Model:** The network core should remain as simple as possible (just forwarding packets), leaving the complex logic and intelligence to the end hosts at the edges of the network.
-
 The end-to-end (e2e) principle is a design choice that characterized and shaped significantly the current architecture of the Internet. The e2e principle suggests that specific application-level functions usually cannot, and preferably should not be built into the lower levels of the system at the core of the network.
 
 ![](https://assets.omscs.io/notes/0012.png)
 
-In simple terms, the e2e principle is summarized as: the network core should be simple and minimal, while the end systems should carry the intelligence. As mentioned in the seminal paper “End-to-End Arguments in System Design” by Saltzer, Reed, and Clark:
+In simple terms, the e2e principle is summarized as: **the network core should be simple and minimal, while the end systems should carry the intelligence**. As mentioned in the seminal paper “End-to-End Arguments in System Design” by Saltzer, Reed, and Clark:
 
 > “The function in question can completely and correctly be implemented only with the knowledge and help of the application standing at the endpoints of the communications system. Therefore, providing that questioned function as a feature of the communications systems itself is not possible.”
 
 The same paper reasoned that many functions can only be completely implemented at the endpoints of the network, so any attempt to build features in the network to support specific applications must be avoided, or only viewed as a tradeoff. The reason was that not all applications need the same features and network functions to support them. Thus building such functions in the network core is rarely necessary. So, systems designers should avoid building any more than the essential and commonly shared functions into the network.
 
-Many people argue that the e2e principle allowed the internet to grow rapidly, because evolving innovation took place at the network edge, in the form of numerous applications and a plethora of services, rather than in the middle of the network, which could be hard to later modify.
+Many people argue that the e2e principle allowed the internet to grow rapidly, because evolving innovation took place at the network edge, in the form of numerous applications and a plethora of services, rather than in the middle of the network, **which could be hard to later modify.**
 
 **What were the designers' original goals that led to the e2e principle?** Moving functions and services closer to the applications that use them, increases the flexibility and the autonomy of the application designer to offer these services to the needs of the specific application. Thus, the higher-level protocol layers, are more specific to an application. Whereas the lower-level protocol layers are free to organize the lower-level network resources to achieve application design goals more efficiently and independently of the specific application.
 
@@ -195,11 +193,11 @@ Despite the fact that the e2e principle offers multiple advantages to the Intern
 
 ### Examples of the E2E violation
 
-Examples include firewalls and traffic filters. The firewalls usually operated at the periphery of a network and they monitor the network traffic that is going through, to allow or drop traffic, if the traffic is flagged as malicious. Firewalls violate the e2e principle since they are intermediate devices that are operated between two end hosts and they can drop the end hosts communication.
+Examples include firewalls and traffic filters. The firewalls usually operated at the **periphery of a network** and they monitor the network traffic that is going through, to allow or drop traffic, if the traffic is flagged as malicious. Firewalls violate the e2e principle since they are intermediate devices that are **operated between two end hosts and they can drop the end hosts communication.**
 
 ![](https://assets.omscs.io/notes/0014.png)
 
-Another example of an e2e violation is the Network Address Translation (NAT) boxes. NAT boxes help us as a bandaid measure to deal with the shortage of Internet addresses. Let's see in more detail how a NAT-enabled home router operates. Let's assume we have a home network, where we have multiple devices we want to connect to the Internet. An internet service provider typically assigns a single public IP address (120.70.39.4) to the home router and specifically to the interface that is facing the public global Internet, as shown in the figure below.
+Another example of an e2e violation is the Network Address Translation (NAT) boxes. NAT boxes help us as a bandaid measure to **deal with the shortage of Internet addresses**. Let's see in more detail how a NAT-enabled home router operates. Let's assume we have a home network, where we have multiple devices we want to connect to the Internet. An internet service provider typically assigns a single public IP address (120.70.39.4) to the home router and specifically to the interface that is facing the public global Internet, as shown in the figure below.
 
 ![](https://assets.omscs.io/notes/0015.png)
 
@@ -209,7 +207,7 @@ All traffic that leaves the home router and it is destined to hosts in the publi
 
 ![](https://assets.omscs.io/notes/0016.png)
 
-The **translation table** provides a mapping between the public facing IP address/ports, and the IP addresses/ports that belong to hosts inside the private network. For example, let's assume that a host 10.0.0.1 inside the private network, uses port 3345 to send traffic to a host in the public Internet with IP address 128.119.40.186 and port 80. Then the NAT table says that packets with the source IP address of 10.0.0.1 and source port 3345, they should be rewritten to a source address 138.76.29.7 and a source port of 5001 (or any source port number that is not currently used in the NAT **translation table**). Similarly, packets with a destination IP address of 138.76.29.7 and destination port of 5001, they will be rewritten to destination IP address 10.0.0.1 and destination port 3345.
+The **translation table** provides a mapping between the **public facing IP address/ports**, and **the IP addresses/ports that belong to hosts inside the private network**. For example, let's assume that a host 10.0.0.1 inside the private network, uses port 3345 to send traffic to a host in the public Internet with IP address 128.119.40.186 and port 80. Then the NAT table says that packets with the source IP address of 10.0.0.1 and source port 3345, they should be rewritten to a source address 138.76.29.7 and a source port of 5001 (or any source port number that is not currently used in the NAT **translation table**). Similarly, packets with a destination IP address of 138.76.29.7 and destination port of 5001, they will be rewritten to destination IP address 10.0.0.1 and destination port 3345.
 
 ### Why the NAT boxes violate the e2e principle?
 
@@ -272,15 +270,15 @@ EvoArch is a discrete-time model that is executed over rounds. At each round, we
 
 
 
-The figure above shows the width of each layer we execute the EvoArch model for a network of 10 layers over multiple rounds. The main takeaway message from this figure is that the layer width decreases as we move from the bottom layer to a middle layer, around layer 5, and then it increases again as we move towards the top layer.
+The figure above shows the width of each layer we execute the EvoArch model for a network of 10 layers over multiple rounds. **The main takeaway message from this figure is that the layer width decreases as we move from the bottom layer to a middle layer, around layer 5, and then it increases again as we move towards the top layer.**
 
 ### Implications for the Internet Architecture and future Internet architecture
 
-With the help of the EvoArch model, how can we explain the survival of the TCP/IP stack given that it appeared around the 70s or 80s when the telephone network was very powerful? The EvoArch model suggests that the TCP/IP stack was not trying to compete with the telephone network services. The TCP/IP was mostly used for applications such as FTP, E-mail, and Telnet, so it managed to grow and increase its value without competing or being threatened by the telephone network, at that time that it first appeared. Later it gained even more traction, with numerous and powerful applications relying on it.
+With the help of the EvoArch model, how can we explain the survival of the TCP/IP stack given that it appeared around the 70s or 80s when the telephone network was very powerful? The EvoArch model suggests that the TCP/IP stack was not trying to compete with the telephone network services. The TCP/IP was mostly used for applications such as FTP, E-mail, and Telnet, so it managed to grow and increase its value without competing or being threatened by the telephone network, at that time that it first appeared. **Later it gained even more traction, with numerous and powerful applications relying on it.**
 
-IPv4, TCP, and UDP provide a stable framework through which there is an ever-expanding set of protocols at the lower layers (physical and data-link layers), as well as new applications and services at the higher layers. But at the same time, these same protocols have been difficult to replace or even modify significantly. EvoArch provides an explanation for this. A large birth rate at the layer above the waist can cause death for the protocols at the waist if these are not chosen as substrates by the new nodes at the higher layers. The waist of the Internet architecture is narrow, but also the next higher layer (the transport layer) is also very narrow and stable. So, the transport layer acts as an “evolutionary shield” for IPv4, because any new protocols that might appear at the transport layer are unlikely to survive the competition with TCP and UDP which already have multiple products. In other words, the stability of the two transport protocols adds to the stability of IPv4, by eliminating any potential new transport protocols, that could select a new network layer protocol instead of IPv4.
+IPv4, TCP, and UDP provide a stable framework through which there is an ever-expanding set of protocols at the lower layers (physical and data-link layers), as well as new applications and services at the higher layers. But at the same time, **these same protocols have been difficult to replace or even modify significantly**. EvoArch provides an explanation for this. **A large birth rate at the layer above the waist can cause death for the protocols at the waist if these are not chosen as substrates by the new nodes at the higher layers**. The waist of the Internet architecture is narrow, but also the next higher layer (the transport layer) is also very narrow and stable. So, the **transport layer acts as an “evolutionary shield” for IPv4**, because any new protocols that might appear at the transport layer are unlikely to survive the competition with TCP and UDP which already have multiple products. In other words, the stability of the two transport protocols adds to the stability of IPv4, by eliminating any potential new transport protocols, that could select a new network layer protocol instead of IPv4.
 
-Finally, in terms of future and entirely new Internet architectures, the EvoArch model predicts that even if these brand new architectures do not have the shape of an hourglass initially, they will probably do so as they evolve, which will lead to new ossified protocols. The model suggests that one way to proactively avoid these ossification effects, that we now experience with TCP/IP, a network architect should try to design the functionality of each layer so that the waist is wider, consisting of several protocols that offer largely non-overlapping but general services, so that they do not compete with each other.
+Finally, in terms of future and entirely new Internet architectures, the EvoArch model predicts that even if these brand new architectures do not have the shape of an hourglass initially, they will probably do so as they evolve, which will lead to new ossified protocols. The model suggests that one way to **proactively avoid these ossification effects**, that we now experience with TCP/IP, a network architect should try to design the functionality of each layer so that the waist is wider, consisting of several protocols that offer **largely non-overlapping but general services**, so that they do not compete with each other.
 
 **_What are some of the ramifications of the “hourglass shape of the internet”?_**
 
@@ -293,7 +291,9 @@ Finally, in terms of future and entirely new Internet architectures, the EvoArch
 
 ### Why a clean-slate design approach?
 
-Some of the major design principles of the current Internet architecture are layering, **packet switching**, a network of collaborating networks, intelligent end-systems as well as the end-to-end argument. Despite our initial intentions, the Internet is currently facing major challenges in multiple areas such as security, resilience and availability, scalability and management, quality of service, user experience, and economics. But what if we redesigned the Internet architecture from scratch? Many researchers believe that it is necessary, and timely, to rethink the fundamental assumptions and design decisions via a clean-slate design approach. That clean-slate approach would be based on out of the box thinking, the design of new network architectures, and experimentation to evaluate the new ideas, to improve them and also to give them a realistic chance of deployment.
+Some of the major design principles of the current Internet architecture are **layering, packet switching, a network of collaborating networks, intelligent end-systems as well as the end-to-end argument.** 
+
+Despite our initial intentions, the Internet is currently facing major challenges in multiple areas such as **security, resilience and availability, scalability and management, quality of service, user experience, and economics**. But what if we redesigned the Internet architecture from scratch? Many researchers believe that it is necessary, and timely, to rethink the fundamental assumptions and design decisions via a clean-slate design approach. That clean-slate approach would be based on out of the box thinking, the design of new network architectures, and experimentation to evaluate the new ideas, to improve them and also to give them a realistic chance of deployment.
 
 ### The clean-slate design as a process
 
@@ -301,15 +301,15 @@ An important aspect about designing new Internet architectures through a clean-s
 
 ### Redesigning the Internet architecture to optimize for control and management
 
-One research group (“4D”) for example, started from a small set of clean slate design principles different from those of the Internet today: network-level objectives, network-wide views, and direct control, with functionality in four components: the data, discovery, dissemination, and decision planes. In their work, the decision plane has a network-wide view of the topology and traffic, and exerts direct control over the operation of the data plane – radically different from today's Internet - no decision logic is hardwired in protocols distributed among the network elements. The output of the decision logic is communicated to routers/switches by the dissemination plane. Their work investigates an extreme design point where the decision logic is completely separated from distributed protocols. The 4D group argues that technology trends toward ever-more powerful, reliable, and inexpensive computing platforms make their design point attractive in practice. [Greenberg 2005]
+One research group (“4D”) for example, started from a small set of clean slate design principles different from those of the Internet today: network-level objectives, network-wide views, and direct control, with functionality in four components: the **data**, **discovery**, **dissemination**, and **decision** planes. In their work, the decision plane has a network-wide view of the topology and traffic, and exerts direct control over the operation of the data plane – radically different from today's Internet - no decision logic is hardwired in protocols distributed among the network elements. The output of the decision logic is communicated to routers/switches by the dissemination plane. Their work investigates an extreme design point where the decision logic is completely separated from distributed protocols. The 4D group argues that technology trends toward ever-more powerful, reliable, and inexpensive computing platforms make their design point attractive in practice. [Greenberg 2005]
 
 ### Redesigning the Internet architecture to offer better accountability
 
-Given the fact that IP network layer provides little to no protection against misconfiguration or malicious actions which occur frequently, Researchers proposed network “accountability” in order to establish the foundation for defenses against those behaviors. Accountability is an ability to associate each action with the responsible entity. The proposed work addressed two accountabilities, i.e., source accountability and control-plane accountability, and illustrated that both accountabilities could be improved by a network layer called Accountable Internet Protocol (AIP).
+Given the fact that IP network layer provides little to no protection against misconfiguration or malicious actions which occur frequently, Researchers proposed network “accountability” in order to establish the foundation for defenses against those behaviors. **Accountability is an ability to associate each action with the responsible entity**. The proposed work addressed two accountabilities, i.e., **source accountability** and **control-plane accountability**, and illustrated that both accountabilities could be improved by a network layer called Accountable Internet Protocol (AIP).
 
-Source accountability is the ability to trace actions to a particular end host and stop that host from misbehaving. It is necessary to describe the address format of AIP first and then illustrate how AIP improved source accountability. AIP addresses are of the form AD:EID, where AD is the identifier for the network that the host belongs to, and EID is a globally unique host identifier. For source accountability, AIP makes use of this self-certifying addressing to develop simple mechanisms that verify the source of packets and drop the packets if the sources are spoofed. In addition, AIP can throttle certain forms of unwanted traffic using a simple “shut-off message”.
+Source accountability is the ability to trace actions to a particular end host and stop that host from misbehaving. It is necessary to describe the address format of AIP first and then illustrate how AIP improved source accountability. **AIP addresses are of the form AD:EID**, where **AD** is the identifier for the **network** that the host belongs to, and **EID** is a globally unique **host** identifier. For source accountability, AIP makes use of this **self-certifying addressing** to develop simple mechanisms that verify the source of packets and drop the packets if the sources are spoofed. In addition, AIP can throttle certain forms of unwanted traffic using a simple “shut-off message”.
 
-Control-plane accountability is the ability to pinpoint and prevent attacks on routing. The proposed work suggested ways to improve control-plane accountability by providing origin authentication (ensuring that the network that appears to originate paths is indeed the correct network) and path authentication (checking the integrity of the network path) to detect misleading route advertisements.
+Control-plane accountability is the ability to pinpoint and prevent **attacks on routing**. The proposed work suggested ways to improve control-plane accountability by providing **origin authentication** (ensuring that the network that appears to originate paths is indeed the correct network) and **path authentication** (checking the integrity of the network path) to detect misleading route advertisements.
 
 ## Interconnecting Hosts and Networks
 
@@ -317,7 +317,7 @@ We have different types of devices that help to provide connectivity between hos
 
 **Repeaters and Hubs:** They operate on the physical layer (L1), as they receive and forward digital signals to connect different Ethernet segments. They provide connectivity between hosts that are directly connected (in the same network). The advantage is that they are simple and inexpensive devices, and they can be arranged in a hierarchy. Unfortunately, hosts that are connected through these devices belong to the same **collision domain**, meaning that they compete for access to the same link.
 
-**Bridges and Layer2-Switches:** These devices can enable communication between hosts that are not directly connected. They operate on the data link layer (L2) based on MAC addresses. They receive packets and they forward them to reach the appropriate destination. A limitation is the finite bandwidth of the outputs. If the arrival rate of the traffic is higher than the capacity of the outputs then packets are temporarily stored in buffers. But if the buffer space gets full, then this can lead to packet drops.
+**Bridges and Layer2-Switches:** These devices can enable communication between hosts that are not directly connected. They operate on the data link layer (L2) based on MAC addresses. They receive packets and they forward them to reach the appropriate destination. A limitation is the **finite bandwidth** of the outputs. If the arrival rate of the traffic is higher than the capacity of the outputs then packets are temporarily stored in buffers. But if the **buffer space gets full**, then this can lead to packet drops.
 
 **Routers and Layer3-Switches:** These are devices that operate on Layer 3. We will talk more about these devices and the routing protocols on the following lectures.
 
@@ -325,15 +325,16 @@ We have different types of devices that help to provide connectivity between hos
 
 
 > **Mental Model:** A learning bridge acts like an observant mail sorter, noting the return address of incoming mail to figure out which direction to send future mail for that recipient.
-A bridge is a device with multiple inputs/outputs. A bridge transfers frames from an input to one (or multiple) outputs. Though it doesn't need to forward all the frames it receives. In this topic we will talk about how a bridge learns how to perform that task.
 
-A learnings bridge learns, populates and maintains, a forwarding table. The bridge consults that table so that it only forwards frames on specific ports, rather than over all ports.
+A bridge is a device with **multiple inputs/outputs**. A bridge transfers frames from an input to one (or multiple) outputs. Though it doesn't need to forward all the frames it receives. In this topic we will talk about how a bridge learns how to perform that task.
+
+A learnings bridge learns, populates and maintains, a **forwarding table**. The bridge consults that table so that it only forwards frames on **specific ports**, rather than over all ports.
 
 For example, let's consider the topology on the following figure. When the bridge receives a frame on port 1, with source Host A and destination Host B, the bridge does not have to forward it to port 2.
 
 ![](https://assets.omscs.io/notes/0021.png)
 
-**So how does the bridge learn?** When the bridge receives any frame this is a “learning opportunity” to know which hosts are reachable through which ports. This is because the bridge can view the port over which a frame arrives and the source host. Going back to our example topology, eventually the bridge builds the following forwarding table.
+**So how does the bridge learn?** When the bridge receives any frame this is a “learning opportunity” to know which hosts are reachable through which ports. This is because the bridge can view the **port over which a frame arrives and the source host**. Going back to our example topology, eventually the bridge builds the following forwarding table.
 
 ![](https://assets.omscs.io/notes/0022.png)
 
@@ -341,13 +342,13 @@ For example, let's consider the topology on the following figure. When the bridg
 
 Unfortunately using bridges to connect LAN's fails, if the network topology results in loops (cycles). In that case, the bridges loop through packets forever!
 
-The answer to this problem is excluding links that lead to loops by running the spanning tree algorithm. Let's represent the topology of the network as a graph. The bridges are represented as nodes and the links between the bridges are represented as edges. The goal of the spanning tree algorithm is to have the bridges select which links (ports) to use for forwarding eliminating loops.
+The answer to this problem is excluding links that lead to loops by running the spanning tree algorithm. Let's represent the topology of the network as a graph. The **bridges are represented as nodes** and the links between the bridges are represented as edges. The goal of the spanning tree algorithm is to have the bridges select which links (ports) to use for forwarding eliminating loops.
 
 ![](https://assets.omscs.io/notes/0023.png)
 
 Let's take a look at how bridges run this distributed algorithm.
 
-Every node (bridge) in the graph has an ID. The bridges eventually select one bridge as the root of the topology. Let's see how this selection happens.
+Every node (bridge) in the graph has an ID. T**he bridges eventually select one bridge as the root of the topology.** Let's see how this selection happens.
 
 The algorithm runs in “rounds” and at every round each node sends to each neighbor node a configuration message with three fields: a) the sending node's ID, b) the ID of the roots as perceived by the sending node, and c) the number of hops between that (perceived) root and the sending node.
 

@@ -1,0 +1,3183 @@
+--- Module 09 ---
+
+Range Query
+
+
+
+
+Range Query
+
+
+Range Query
+Range Query 
+using 
+Hash Table
+
+
+Range Query vs Point Query
+Range Query
+Point Query
+
+
+Range Query vs Point Query
+Range Query
+Tuples where a 
+column is in a 
+Range of Values
+Point Query
+
+
+Range Query vs Point Query
+Range Query
+Tuples where a 
+column is in a 
+Range of Values
+Point Query
+Tuples where a 
+column is equal to 
+a Single Value
+
+
+Range Query vs Point Query
+Range Query
+Products priced 
+between 
+$10 and $20
+Tuples where a 
+column is in a 
+Range of Values
+Point Query
+Tuples where a 
+column is equal to 
+a Single Value
+
+
+Range Query vs Point Query
+Range Query
+Products priced 
+between 
+$10 and $20
+Tuples where a 
+column is in a 
+Range of Values
+Point Query
+Tuples where a 
+column is equal to 
+a Single Value
+Products priced
+$30
+
+
+Range Query vs Point Query
+$10
+$20
+$30
+RANGE QUERY
+POINT QUERY
+
+
+Range Query vs Point Query
+$10
+$20
+$30
+RANGE QUERY
+POINT QUERY
+All Tuples in Range
+
+
+Range Query vs Point Query
+$10
+$20
+$30
+RANGE QUERY
+POINT QUERY
+All Tuples in Range
+Specific 
+Value
+
+
+Point Query Using Hash Table Index
+std::vector<int> tuple_ids = productIndex.getValue(30);
+POINT QUERY
+Look up a key in the hash table with O(1) average complexity.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+$30
+$12
+$25
+$17
+[103,
+105]
+[104]
+[101]
+[106,
+102]
+
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+$30
+$12
+$25
+$17
+[103,
+105]
+[104]
+[101]
+[106,
+102]
+RANGE QUERY
+Point Query Using Hash Table Index
+Not ordered based on key
+Hash Table
+Iterate through entire table
+
+
+std::vector<int> rangeQuery(int lowerBound, int upperBound) const {
+ std::vector<int> results;
+ for (size_t i = 0; i < capacity; ++i) {
+  if (hashTable[i].exists && hashTable[i].key >= lowerBound &&
+    hashTable[i].key <= upperBound) {
+   results.push_back(hashTable[i].value);
+  }
+ }
+ return results;
+}
+Point Query Using Hash Table Index
+
+
+void performRangeQueryWithHashIndex(int lowerBound, int upperBound) {
+ auto results = index.rangeQuery(lowerBound, upperBound);
+ std::cout << "Found " << results.size() << " records in the range.\n";
+}
+Inefficient Range Query in BuzzDB
+buzzDB
+
+
+
+
+Range Query
+
+
+Range Query
+Range Query 
+using 
+Hash Table
+
+
+Ordered Index
+
+
+
+
+Ordered 
+Index
+
+
+Ordered 
+Index
+B+Tree 
+Data 
+Structure
+
+
+Ordered Index
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+$12
+$17
+$25
+$30
+[104]
+[106,
+102]
+[101] [103,
+105]
+RANGE QUERY [$10, $20]
+
+
+Unordered Index
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+$30
+$12
+$25
+$17
+[103,
+105]
+[104]
+[101]
+[106,
+102]
+RANGE QUERY [$10, $20]
+
+
+B+Tree Data Structure
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+ROOT NODE
+LEAF NODES
+
+
+Height of the Tree
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+Height = 2
+ROOT NODE
+LEAF NODES
+
+
+Fan-Out of the Tree
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+TREE FAN-OUT = 3
+
+
+Disk Accesses
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+
+
+Disk Accesses
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+DISK PAGE
+
+
+Disk Accesses
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+DISK PAGE
+3 DISK READS
+
+
+Values in Leaf and Inner Nodes 
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+
+
+Values in Leaf and Inner Nodes 
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+ACTUAL VALUES
+Example: [Tuple 104]
+
+
+Values in Leaf and Inner Nodes 
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+NODE POINTERS
+Example: [Page 10]
+ACTUAL VALUES
+Example: [Tuple 104]
+
+
+Keys in Leaf and Inner Nodes 
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+
+
+Keys in Leaf and Inner Nodes 
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+2 keys, 3 values
+K-1 keys, K values 
+
+
+Keys in Leaf and Inner Nodes 
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+2 keys, 3 values
+K-1 keys, K values 
+3 keys, 3 values
+K keys, K values
+
+
+Leaf Sibling Pointers for Range Queries
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+
+
+Leaf Sibling Pointers for Range Queries
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+Sibling Pointers
+in Leaf Nodes
+
+
+Fast Range Queries Using B+ Trees
+std::vector<Value> rangeQuery(const Key &lowerBound, const Key &upperBound) const {
+ // Traverse to the correct leaf node and then follow the linked leaf nodes.
+ // While traversing the leaf nodes, collect all the key-value pairs in the range
+}
+The sorted nature and linked leaf nodes allow B+ trees to execute range 
+queries by simply traversing the leaf nodes that fall within the range
+
+
+Fast Range Queries Using B+ Trees
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE: [6, 23]
+
+
+Fast Range Queries Using B+ Trees
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE: [6, 23]
+1
+
+
+Fast Range Queries Using B+ Trees
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE: [6, 23]
+1
+2
+
+
+Fast Range Queries Using B+ Trees
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE: [6, 23]
+1
+2
+3
+
+
+Fast Range Queries Using B+ Trees
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE: [6, 23]
+1
+2
+3
+4
+
+
+Fast Range Queries Using B+ Trees
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE: [6, 23]
+1
+2
+3
+4
+5
+
+
+Fast Range Queries Using B+ Trees
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE: [6, 23]
+1
+2
+3
+4
+5
+6
+
+
+
+
+Ordered 
+Index
+
+
+Ordered 
+Index
+B+Tree 
+Data 
+Structure
+
+
+B+Tree Template
+
+
+
+
+Implementing 
+B+Tree in C++
+
+
+Implementing 
+B+Tree in C++
+Templates 
+in C++
+
+
+Templates in C++
+template <typename T> T add(T a, T b) {
+    return a + b; 
+}
+
+
+Templates in C++
+template <typename T> T add(T a, T b) {
+    return a + b; 
+}
+Type Safety Ensured at Compile Time
+Functions & Classes 
+Operate with 
+Generic Types
+Enable Generic 
+Programming
+Templates
+
+
+Template Instantiation
+int result1 = add<int>(5, 3); 
+// returns 8
+std::string result3 = add<std::string>("Hello, ", "world!"); 
+// returns “Hello, world!”
+Add Function Instantiated with Different Types
+
+
+B+Tree Template in C++
+template <typename Key, typename Value> class BPlusTree {
+ struct Node; // Node definition
+ using NodePtr = std::unique_ptr<Node>;
+ // Node and Entry structures omitted for brevity
+};
+
+
+B+Tree Template in C++
+template <typename Key, typename Value> class BPlusTree {
+ struct Node; // Node definition
+ using NodePtr = std::unique_ptr<Node>;
+ // Node and Entry structures omitted for brevity
+};
+B+ Trees 
+Use C++ 
+Templates
+
+
+B+Tree Template in C++
+template <typename Key, typename Value> class BPlusTree {
+ struct Node; // Node definition
+ using NodePtr = std::unique_ptr<Node>;
+ // Node and Entry structures omitted for brevity
+};
+Support Key & 
+Value Types
+B+ Trees 
+Use C++ 
+Templates
+
+
+B+Tree Template in C++
+template <typename Key, typename Value> class BPlusTree {
+ struct Node; // Node definition
+ using NodePtr = std::unique_ptr<Node>;
+ // Node and Entry structures omitted for brevity
+};
+Support Key & 
+Value Types
+Placeholders 
+Replaced at 
+Compile Time
+B+ Trees 
+Use C++ 
+Templates
+
+
+B+Tree Template in C++
+template <typename Key, typename Value> class BPlusTree {
+ struct Node; // Node definition
+ using NodePtr = std::unique_ptr<Node>;
+ // Node and Entry structures omitted for brevity
+};
+Support Key & 
+Value Types
+Placeholders 
+Replaced at 
+Compile Time
+B+ Tree 
+Handles Any 
+Key and Value 
+Types
+B+ Trees 
+Use C++ 
+Templates
+
+
+B+Tree Template in C++
+template <typename Key, typename Value> class BPlusTree {
+ struct Node; // Node definition
+ using NodePtr = std::unique_ptr<Node>;
+ // Node and Entry structures omitted for brevity
+};
+Support Key & 
+Value Types
+Placeholders 
+Replaced at 
+Compile Time
+B+ Tree 
+Handles Any 
+Key and Value 
+Types
+Enhance Code 
+Reusability & 
+Maintainability
+B+ Trees 
+Use C++ 
+Templates
+
+
+B+Tree Template Instantiation #1
+BPlusTree<int, int> idToSalary;
+// Employee ID and salary are inserted into the tree.
+idToSalary.insertOrUpdate(1001, 50000);
+// Retrieve the salary of an employee by their ID quickly.
+int salary = idToSalary.getValue(1001);
+
+
+B+Tree Template Instantiation #1
+BPlusTree<int, int> idToSalary;
+// Employee ID and salary are inserted into the tree.
+idToSalary.insertOrUpdate(1001, 50000);
+// Retrieve the salary of an employee by their ID quickly.
+int salary = idToSalary.getValue(1001);
+Example: Employee ID (int) → Salary (int)
+
+
+B+Tree Template Instantiation #2
+BPlusTree<std::string, int> productToPrice;
+// Prices of products are stored in the B+ tree
+productToPrice.insertOrUpdate("Apple iPhone 12", 999);
+// Quickly find the price of a specific product.
+int price = productToPrice.getValue("Apple iPhone 12");
+
+
+B+Tree Template Instantiation #2
+BPlusTree<std::string, int> productToPrice;
+// Prices of products are stored in the B+ tree
+productToPrice.insertOrUpdate("Apple iPhone 12", 999);
+// Quickly find the price of a specific product.
+int price = productToPrice.getValue("Apple iPhone 12");
+Example: Product Name (string) → Price (int)
+
+
+B+Tree Template Instantiation #3
+struct TicketKey {
+ std::string eventDate;
+ int seatNumber;
+ // Overload the comparison operators for ordering in the B+ tree
+ bool operator<(const TicketKey &other) const {
+  if (eventDate == other.eventDate) {
+   return seatNumber < other.seatNumber;
+  }
+  return eventDate < other.eventDate;
+ }
+};
+
+
+B+Tree Template Instantiation #3
+struct TicketKey {
+ std::string eventDate;
+ int seatNumber;
+ // Overload the comparison operators for ordering in the B+ tree
+ bool operator<(const TicketKey &other) const {
+  if (eventDate == other.eventDate) {
+   return seatNumber < other.seatNumber;
+  }
+  return eventDate < other.eventDate;
+ }
+};
+Example: TicketKey  (user-defined type) → Name (int)
+
+
+B+Tree Template Instantiation #3
+BPlusTree<TicketKey, std::string> concertTickets;
+// When a ticket is booked, it is entered into B+ tree using its composite key.
+concertTickets.insertOrUpdate(TicketKey("2030-12-25", 101), "John Doe");
+concertTickets.insertOrUpdate(TicketKey("2030-12-25", 102), "Jane Smith");
+// Retrieve the booking information for a specific seat on a particular date.
+std::string ticketHolder =
+  concertTickets.getValue(TicketKey("2030-12-25", 101));
+std::cout << "Seat 101 is booked by: " << ticketHolder << std::endl;
+Example: TicketKey  (user-defined type) → Name (int)
+
+
+Ordered Index Class in BuzzDB
+class OrderedIndex {
+ BPlusTree<int, int> bptree;
+public:
+ void insertOrUpdate(int key, int value) { 
+      bptree.insertOrUpdate(key, value); 
+  }
+ std::vector<int> rangeQuery(int lowerBound, int upperBound) const {
+  return bptree.rangeQuery(lowerBound, upperBound);
+ }
+};
+We implement OrderedIndex class by encapsulating a BPlusTree
+
+
+
+
+Implementing 
+B+Tree in C++
+
+
+Implementing 
+B+Tree in C++
+Templates 
+in C++
+
+
+B+Tree Structure
+
+
+
+
+Node 
+Structure
+
+
+Node 
+Structure
+Insertion
+
+
+B+Tree Structure
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+INNER NODES
+LEAF NODES
+
+
+Inner Node
+[20|25]
+[Page 5| Page 10 | Page 15]
+PAGE 5
+PAGE 1
+Key
+Value
+Key < 20
+Page 5
+Key = 20 and < 25
+Page 10
+Key > 25
+Page 15
+INNER NODE
+
+
+[ 1 | 2 | 4 ]
+[Tuple 310| Tuple 102 | Tuple 115]
+Leaf Node
+PAGE 8
+LEAF NODE
+Key
+Value
+Key = 1
+Tuple 310
+Key = 2
+Tuple 102
+Key = 4
+Tuple 115
+
+
+[ “max_file_size” | “default_language” | “session_timeout” ]
+[“10 MB” | “English” | “30 minutes”]
+Key and Value Types
+PAGE 8
+LEAF NODE
+Entry
+Key
+Value
+Entry 1
+“max_file_size”
+“10 MB”
+Entry 2
+“default_language”
+“English”
+Entry 3
+“session_timeout”
+“30 minutes”
+
+
+[ “max_file_size” | “default_language” | “session_timeout” ]
+[“10 MB” | “English” | “30 minutes”]
+Key and Value Types
+PAGE 8
+LEAF NODE
+Entry
+Key
+Value
+Entry 1
+“max_file_size”
+“10 MB”
+Entry 2
+“default_language”
+“English”
+Entry 3
+“session_timeout”
+“30 minutes”
+ENTRIES
+
+
+Entry in C++
+struct Entry {
+ Key key;
+ Value value;  // Used only in leaf node entry
+ NodePtr next; // Used only in inner node entry
+ Entry(Key k, Value v) : key(k), value(v), next(nullptr) {}
+};
+
+
+B+Tree Node in C++
+struct Node {
+ bool isLeaf;
+ std::vector<Entry> entries;
+ std::unique_ptr<Node> next;
+ Node(bool leaf) : isLeaf(leaf), next(nullptr) {}
+};
+
+
+B+Tree Node in C++
+struct Node {
+ bool isLeaf;
+ std::vector<Entry> entries;
+ std::unique_ptr<Node> next;
+ Node(bool leaf) : isLeaf(leaf), next(nullptr) {}
+};
+isLeaf?
+
+
+B+Tree Node in C++
+struct Node {
+ bool isLeaf;
+ std::vector<Entry> entries;
+ std::unique_ptr<Node> next;
+ Node(bool leaf) : isLeaf(leaf), next(nullptr) {}
+};
+isLeaf?
+Vector of Entries
+
+
+B+Tree Node in C++
+struct Node {
+ bool isLeaf;
+ std::vector<Entry> entries;
+ std::unique_ptr<Node> next;
+ Node(bool leaf) : isLeaf(leaf), next(nullptr) {}
+};
+isLeaf?
+Vector of Entries
+Entry = {Key-Value}
+
+
+B+Tree Node in C++
+struct Node {
+ bool isLeaf;
+ std::vector<Entry> entries;
+ std::unique_ptr<Node> next;
+ Node(bool leaf) : isLeaf(leaf), next(nullptr) {}
+};
+isLeaf?
+Vector of Entries
+Entry = {Key-Value}
+Next Pointer
+
+
+Inserting a Key-Value Pair
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+
+
+Inserting a Key-Value Pair
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+1
+
+
+Inserting a Key-Value Pair
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+1
+2
+
+
+Inserting a Key-Value Pair
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+1
+2
+3
+22
+Z
+
+
+Inserting a Key-Value Pair
+void insertOrUpdate(const Key &key, const Value &value) {
+    insertOrUpdateInternal(key, value, root);
+}
+Insertion process is recursive 
+
+
+Recursive Descent in an Inner Node
+void insertOrUpdateInternal(const Key &key, const Value &value, NodePtr &node) {
+    …
+   else {
+      bool found = false;
+      for (auto it = node->entries.begin(); it != node->entries.end(); ++it) {
+         if (key < it->key) {
+            insertOrUpdateInternal(key, value, it->next);
+            found = true;
+            break;
+         }
+      }
+   }
+}
+Find the appropriate child node by comparing keys.
+
+
+Insertion in a Leaf Node
+void insertOrUpdateInternal(const Key &key, const Value &value, NodePtr &node) {
+    if (node->isLeaf) {
+   // Search for the key in the leaf node
+   auto it = std::find_if(node->entries.begin(), node->entries.end(),
+          [&](const Entry &entry) { return entry.key == key; });
+   // Key not found, proceed to insert in sorted order
+   auto comp = [](const Entry &entry, const Key &k) { return entry.key < k;};
+   it = std::lower_bound(node->entries.begin(), node->entries.end(), key, comp);
+   node->entries.insert(it, Entry(key, value));
+  }
+  …
+}
+If key does not exist in leaf node, insert it at the correct position to maintain sorted order.
+
+
+Binary Search using a Lambda Function
+// Key not found, proceed to insert in sorted order
+auto comp = [](const Entry &entry, const Key &k) 
+              { return entry.key < k; };
+it = std::lower_bound(node->entries.begin(), 
+                      node->entries.end(), 
+                      key, comp);
+node->entries.insert(it, Entry(key, value));
+Function
+
+
+Binary Search using a Lambda Function
+// Key not found, proceed to insert in sorted order
+auto comp = [](const Entry &entry, const Key &k) 
+              { return entry.key < k; };
+it = std::lower_bound(node->entries.begin(), 
+                      node->entries.end(), 
+                      key, comp);
+node->entries.insert(it, Entry(key, value));
+Function
+Anonymous
+
+
+Binary Search using a Lambda Function
+// Key not found, proceed to insert in sorted order
+auto comp = [](const Entry &entry, const Key &k) 
+              { return entry.key < k; };
+it = std::lower_bound(node->entries.begin(), 
+                      node->entries.end(), 
+                      key, comp);
+node->entries.insert(it, Entry(key, value));
+Function
+Anonymous
+Short Functions
+
+
+Binary Search using a Lambda Function
+// Key not found, proceed to insert in sorted order
+auto comp = [](const Entry &entry, const Key &k) 
+              { return entry.key < k; };
+it = std::lower_bound(node->entries.begin(), 
+                      node->entries.end(), 
+                      key, comp);
+node->entries.insert(it, Entry(key, value));
+Function
+Anonymous
+Short Functions
+Comparator
+
+
+Binary Search using a Lambda Function
+Function
+// Key not found, proceed to insert in sorted order
+auto comp = [](const Entry &entry, const Key &k) 
+              { return entry.key < k; };
+it = std::lower_bound(node->entries.begin(), 
+                      node->entries.end(), 
+                      key, comp);
+node->entries.insert(it, Entry(key, value));
+
+
+Binary Search using a Lambda Function
+Function
+lower_bound
+// Key not found, proceed to insert in sorted order
+auto comp = [](const Entry &entry, const Key &k) 
+              { return entry.key < k; };
+it = std::lower_bound(node->entries.begin(), 
+                      node->entries.end(), 
+                      key, comp);
+node->entries.insert(it, Entry(key, value));
+
+
+Binary Search using a Lambda Function
+Function
+lower_bound
+iterator
+// Key not found, proceed to insert in sorted order
+auto comp = [](const Entry &entry, const Key &k) 
+              { return entry.key < k; };
+it = std::lower_bound(node->entries.begin(), 
+                      node->entries.end(), 
+                      key, comp);
+node->entries.insert(it, Entry(key, value));
+
+
+Binary Search using a Lambda Function
+Function
+lower_bound
+iterator
+Sorted Order
+// Key not found, proceed to insert in sorted order
+auto comp = [](const Entry &entry, const Key &k) 
+              { return entry.key < k; };
+it = std::lower_bound(node->entries.begin(), 
+                      node->entries.end(), 
+                      key, comp);
+node->entries.insert(it, Entry(key, value));
+
+
+
+
+Node 
+Structure
+
+
+Node 
+Structure
+Insertion
+
+
+Range Query Processing
+
+
+
+
+Inefficient 
+Range Query 
+Processing
+
+
+Inefficient 
+Range Query 
+Processing
+Efficient 
+Range Query 
+Processing
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+3
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+4
+3
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+4
+5
+3
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+4
+5
+6
+3
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+4
+5
+6
+7
+3
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+4
+5
+6
+7
+3
+8
+
+
+Inefficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+4
+5
+6
+7
+3
+8
+9
+
+
+Inefficient Range Query Processing
+The rangeQuery method begins at the root and traverses down to the left-most leaf, 
+then continues horizontally through the leaves collecting all qualifying values.
+std::vector<Value> rangeQuery(const Key &lowerBound,
+               const Key &upperBound) const {
+ std::vector<Value> result;
+ // Traverse to leftmost leaf
+ while (!currentNode->isLeaf) {
+  currentNode = currentNode->entries.front().next.get();
+ }
+ // Traverse all the leaf nodes
+ while (currentNode != nullptr) {
+  // Add relevant entries within lower and upper bounds
+  currentNode = currentNode->next.get();
+ }
+}
+
+
+Efficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+
+
+Efficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+
+
+Efficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+
+
+Efficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+3
+
+
+Efficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+3
+4
+
+
+Efficient Range Query Processing
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+3
+4
+5
+
+
+Vertical Traversal to Leaf Node
+Move to appropriate child until a leaf node is reached by comparing lowerBound 
+with node key, ensuring the starting point is as close as possible to lowerBound.
+std::vector<Value> rangeQuery(const Key &lowerBound,
+               const Key &upperBound) const {
+ auto node = root;
+ while (node && !node->isLeaf) {
+  size_t i = 0;
+  while (i < node->keys.size() && lowerBound > node->keys[i]) {
+   ++i;
+  }
+  node = node->children[i];
+ }
+ …
+}
+
+
+Vertical Traversal to Leaf Node
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+
+
+Vertical Traversal to Leaf Node
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+
+
+Vertical Traversal to Leaf Node
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+
+
+Vertical Traversal to Leaf Node
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+1
+2
+3
+
+
+Horizontal Traversal Across Leaf Nodes
+Once the appropriate leaf node is reached, the function iterates only through 
+relevant nodes using the linked nature of leaf nodes in a B+Tree.
+while (node) {
+ for (size_t i = 0; i < node->keys.size(); ++i) {
+  if (node->keys[i] > upperBound)
+   return result;
+  if (node->keys[i] >= lowerBound) {
+   result.push_back(node->values[i]);
+  }
+ }
+ node = node->next;
+}
+
+
+Horizontal Traversal Across Leaf Nodes
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+
+
+Horizontal Traversal Across Leaf Nodes
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+4
+
+
+Horizontal Traversal Across Leaf Nodes
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+RANGE QUERY
+Lower Bound = 19 
+Upper Bound = 23
+4
+5
+
+
+
+
+Inefficient 
+Range Query 
+Processing
+
+
+Inefficient 
+Range Query 
+Processing
+Efficient 
+Range Query 
+Processing
+
+
+Node Split
+
+
+Separate Vectors for Keys and Values
+Node contains keys and values in separate vectors.
+template <typename Key, typename Value> class BPlusTree {
+ struct Node {
+  std::vector<Key> keys;
+  std::vector<Value> values;          // Only used in leaf nodes
+  std::vector<std::shared_ptr<Node>> children; // Only used in internal nodes
+  std::shared_ptr<Node> next = nullptr;     // Next leaf node
+  bool isLeaf = false;
+  Node(bool leaf) : isLeaf(leaf) {}
+ };
+ size_t maxKeys; // Order of the tree
+ std::shared_ptr<Node> root;
+};
+
+
+Node Split: Inserting [8, Z]
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+Max Number of 
+Keys in a Leaf Node = 3
+
+
+Node Split: Inserting [8, Z]
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+Max Number of 
+Keys in a Leaf Node = 3
+1
+
+
+Node Split: Inserting [8, Z]
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+Max Number of 
+Keys in a Leaf Node = 3
+1
+2
+
+
+Node Split: Inserting [8, Z]
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+Max Number of 
+Keys in a Leaf Node = 3
+1
+2
+3
+8
+Z
+
+
+Node Split: Inserting [8, Z]
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+[7|8|x]
+[V|Z|x]
+8
+Z
+Max Number of 
+Keys in Inner Node = 2
+x
+x
+
+
+Node Split: Inserting [8, Z]
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+[7|8|x]
+[V|Z|x]
+8
+Z
+7
+Max Number of 
+Keys in Inner Node = 2
+x
+x
+
+
+Node Split: Inserting [8, Z]
+[20|x]
+[-|-|x]
+[5|x]
+[-|-|x]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|x]
+[V|V|x]
+[7|8|x]
+[V|Z|x]
+[11|17|19]
+[V|V|V]
+[23|24|x]
+[V|V|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+[7|x]
+[-|-|x]
+Max Number of 
+Keys in Inner Node = 2
+[11|x]
+[-|-|x]
+[20|21|x]
+[V|V|x]
+[25|x]
+[-|-|x]
+
+
+if (node->keys.size() > maxKeys) {
+ splitNode(path, node);
+}
+Node Split in C++ 
+buzzDB
+
+
+if (node->keys.size() > maxKeys) {
+ splitNode(path, node);
+}
+Node Split in C++ 
+buzzDB
+Node Exceeds Capacity → Split Node
+
+
+Insertion 
+auto node = root;
+std::vector<std::shared_ptr<Node>> path; // Track the path for backtracking
+while (!node->isLeaf) {
+ path.push_back(node);
+ auto it = std::upper_bound(node->keys.begin(), node->keys.end(), key);
+ size_t index = it - node->keys.begin();
+ node = node->children[index];
+}
+
+
+Path Tracking and Backtracking 
+[20|25]
+[ | | ]
+[5|11]
+[-|-|-]
+[23|x]
+[-|-|x]
+[30|x]
+[-|-|x]
+[1|2|4]
+[V|V|V]
+[5|6|7]
+[V|V|V]
+[11|17|19]
+[V|V|V]
+[20|21|x]
+[V|V|x]
+[23|24|x]
+[-|-|x]
+[25|29|x]
+[V|V|x]
+[30|31|x]
+[V|V|x]
+X
+Y
+Z
+PATH = {X, Y, Z}
+
+
+Insertion in Leaf Node
+auto it = std::lower_bound(node->keys.begin(), node->keys.end(), key);
+if (it != node->keys.end() && *it == key) {
+ size_t pos = std::distance(node->keys.begin(), it);
+ node->values[pos] += value; // Update existing key’s value
+} 
+else {
+ size_t pos = it - node->keys.begin();
+ node->keys.insert(node->keys.begin() + pos, key);
+ node->values.insert(node->values.begin() + pos, value);
+}
+
+
+Node Splitting in Leaf Node
+if (node->isLeaf) {
+ auto newNode = std::make_shared<Node>(true); // Create a new leaf node
+ size_t mid = node->keys.size() / 2;      // Calculate the middle index
+ // Move the second half of keys and values to the new node
+ std::move(node->keys.begin() + mid, node->keys.end(),
+      std::back_inserter(newNode->keys));
+ std::move(node->values.begin() + mid, node->values.end(),
+      std::back_inserter(newNode->values));
+ newNode->next = node->next;
+ node->next = newNode;
+}
+
+
+Node Splitting in Inner Node
+else {                      // Handling internal nodes
+ auto newNode = std::make_shared<Node>(false); // Create a new internal node
+ size_t mid = node->keys.size() / 2;      // Middle index
+ Key midKey = node->keys[mid]; // Key that will move to the parent
+ // Move keys and children to the new node
+ std::move(node->keys.begin() + mid + 1, node->keys.end(),
+      std::back_inserter(newNode->keys));
+ std::move(node->children.begin() + mid + 1, node->children.end(),
+      std::back_inserter(newNode->children));
+}
+
+
+Backtracking to Parent Node
+else {
+ auto parent = path.back(); // Get the parent node
+ path.pop_back();      // Remove the last tracked node
+ size_t pos = std::distance(
+   parent->keys.begin(),
+   std::lower_bound(parent->keys.begin(), parent->keys.end(), midKey));
+ parent->keys.insert(parent->keys.begin() + pos, midKey); // Insert median key
+ parent->children.insert(parent->children.begin() + pos + 1, newNode); // Insert
+}
+
+
+Backtracking to Parent Node
+else {
+ auto parent = path.back(); // Get the parent node
+ path.pop_back();      // Remove the last tracked node
+ size_t pos = std::distance(
+   parent->keys.begin(),
+   std::lower_bound(parent->keys.begin(), parent->keys.end(), midKey));
+ parent->keys.insert(parent->keys.begin() + pos, midKey); // Insert median key
+ parent->children.insert(parent->children.begin() + pos + 1, newNode); // Insert
+}
+Determines 
+Parent Node
+Path Vector
+
+
+Backtracking to Parent Node
+else {
+ auto parent = path.back(); // Get the parent node
+ path.pop_back();      // Remove the last tracked node
+ size_t pos = std::distance(
+   parent->keys.begin(),
+   std::lower_bound(parent->keys.begin(), parent->keys.end(), midKey));
+ parent->keys.insert(parent->keys.begin() + pos, midKey); // Insert median key
+ parent->children.insert(parent->children.begin() + pos + 1, newNode); // Insert
+}
+Determines 
+Parent Node
+Path Vector
+Parent Node May 
+Exceed Capacity
+Median Key 
+Insertion
+
+
+Backtracking to Parent Node
+else {
+ auto parent = path.back(); // Get the parent node
+ path.pop_back();      // Remove the last tracked node
+ size_t pos = std::distance(
+   parent->keys.begin(),
+   std::lower_bound(parent->keys.begin(), parent->keys.end(), midKey));
+ parent->keys.insert(parent->keys.begin() + pos, midKey); // Insert median key
+ parent->children.insert(parent->children.begin() + pos + 1, newNode); // Insert
+}
+Determines 
+Parent Node
+Path Vector
+Parent Node May 
+Exceed Capacity
+Median Key 
+Insertion
+Can Travel Up to 
+Root Node
+Recursion
+
+
+Backtracking to Root Node
+if (path.empty()) {
+  // New root for the tree
+ auto newRoot = std::make_shared<Node>(false); 
+ newRoot->keys.push_back(midKey);       // Add median key
+ newRoot->children.push_back(node);    // Left child
+ newRoot->children.push_back(newNode);  // Right child
+  // Update root pointer
+ root = newRoot;          
+}
+Backtracking
+
+
+Backtracking to Root Node
+if (path.empty()) {
+  // New root for the tree
+ auto newRoot = std::make_shared<Node>(false); 
+ newRoot->keys.push_back(midKey);       // Add median key
+ newRoot->children.push_back(node);    // Left child
+ newRoot->children.push_back(newNode);  // Right child
+  // Update root pointer
+ root = newRoot;          
+}
+Backtracking
+Empty Path Vector
+
+
+Backtracking to Root Node
+if (path.empty()) {
+  // New root for the tree
+ auto newRoot = std::make_shared<Node>(false); 
+ newRoot->keys.push_back(midKey);       // Add median key
+ newRoot->children.push_back(node);    // Left child
+ newRoot->children.push_back(newNode);  // Right child
+  // Update root pointer
+ root = newRoot;          
+}
+Backtracking
+Empty Path Vector
+New Root Node
+
+
+Backtracking to Root Node
+if (path.empty()) {
+  // New root for the tree
+ auto newRoot = std::make_shared<Node>(false); 
+ newRoot->keys.push_back(midKey);       // Add median key
+ newRoot->children.push_back(node);    // Left child
+ newRoot->children.push_back(newNode);  // Right child
+  // Update root pointer
+ root = newRoot;          
+}
+Backtracking
+Empty Path Vector
+New Root Node
+Two Children
+
+
+Backtracking to Root Node
+if (path.empty()) {
+  // New root for the tree
+ auto newRoot = std::make_shared<Node>(false); 
+ newRoot->keys.push_back(midKey);       // Add median key
+ newRoot->children.push_back(node);    // Left child
+ newRoot->children.push_back(newNode);  // Right child
+  // Update root pointer
+ root = newRoot;          
+}
+Backtracking
+Empty Path Vector
+New Root Node
+Two Children
+Tree Height += 1
+
+
+Node Split
+
+
+On-Disk B+Tree
+
+
+
+
+Adaptation for 
+Disk
+
+
+Adaptation for 
+Disk
+On-Disk 
+B+ Tree
+
+
+Need for On-Disk B+Tree
+
+
+Need for On-Disk B+Tree
+Due to Disk 
+Capacity
+Can Index Large 
+Tables
+Scalability
+
+
+Need for On-Disk B+Tree
+Due to Disk 
+Capacity
+Can Index Large 
+Tables
+Scalability
+Due to Disk 
+Durability
+Index Rebuild 
+Unnecessary at 
+System Restart
+Durability
+
+
+Adaptation for Disk
+struct Node {
+ Key keys[MAX_KEYS];        // Array to store keys
+ uint32_t children[MAX_KEYS + 1]; // File offsets for child nodes
+ uint32_t next;          // File offset for the next leaf node
+ bool isLeaf;
+ int keyCount;
+};
+std::vector<uint8_t> serializeNodeToBytes(const DiskNode &node);
+void deserializeNodeFromBytes(const std::vector<uint8_t> &buffer,
+               DiskNode &node);
+
+
+Calculating Size of Node Struct
+Size of Node struct with m keys =
+  m × (size of key + size of value) + size of an extra value +
+  size of next pointer + size of isLeaf + size of keyCount =
+    m × (4 + 4) + 4 + 4 + 1 + 4 = m × 8 + 13
+
+
+Calculating Size of Node Struct
+Size of Node struct with m keys =
+  m × (size of key + size of value) + size of an extra value +
+  size of next pointer + size of isLeaf + size of keyCount =
+    m × (4 + 4) + 4 + 4 + 1 + 4 = m × 8 + 13
+Next 
+Pointer
+(file 
+offset)
+4 bytes
+Value
+(file 
+offset)
+4 bytes
+Key
+(int)
+4 bytes
+isLeaf 
+flag
+1 byte
+keyCount
+4 bytes
+
+
+Aligning Node Struct with Disk Page Size
+// 4 KB disk page size
+m × 8 + 13 <= 4096 bytes
+m ~= 510 keys
+// 16 KB disk page size
+m x 8 + 13 <= 16384 bytes 
+m ~= 2046 keys 
+SSD
+Page
+
+
+Aligning Node Struct with Disk Page Size
+// 4 KB disk page size
+m × 8 + 13 <= 4096 bytes
+m ~= 510 keys
+// 16 KB disk page size
+m x 8 + 13 <= 16384 bytes 
+m ~= 2046 keys 
+SSD
+Page
+4 kB Page
+M = 510 keys
+
+
+Aligning Node Struct with Disk Page Size
+// 4 KB disk page size
+m × 8 + 13 <= 4096 bytes
+m ~= 510 keys
+// 16 KB disk page size
+m x 8 + 13 <= 16384 bytes 
+m ~= 2046 keys 
+SSD
+Page
+4 kB Page
+M = 510 keys
+16 kB Page
+M = 2046 keys
+
+
+Capacity of a B+Tree
+
+
+Capacity of a B+Tree
+High Fan Out
+Super Short
+Really Wide
+4 kB
+Page Size
+510
+Fan Out
+3
+Levels
+510 ^ (LEVELS -1) = 510 ^ (3 -1 ) = 510 ^ 2 PAGES 
+Leaf Pages
+510 ^ (LEVELS) = 510 ^ 3 = 132 Million KEYS
+Max Keys
+510 ^ 2  PAGES * 4 KB / PAGE = 1 GB
+B+Tree File Size
+
+
+Capacity of a B+Tree (4 Levels)
+4 kB
+Page Size
+510
+Fan Out
+3
+Levels
+
+
+Capacity of a B+Tree (4 Levels)
+4 kB
+Page Size
+510
+Fan Out
+Levels
+4
+510 ^ (LEVELS -1) = 510 ^ (4 -1 ) = 510 ^ 3 PAGES 
+Leaf Pages
+510 ^ (LEVELS) = 510 ^ 4 = 67 Billion KEYS
+Max Keys
+510 ^ 3  PAGES * 4 KB / PAGE = 0.5 TB
+B+Tree File Size
+
+
+Serialization & Deserialization
+
+
+Serialization
+std::vector<uint8_t> serializeNodeToBytes(const DiskNode &node) {
+ std::vector<uint8_t> buffer;
+ // Assuming each key and offset is of fixed size, e.g., 4 bytes for int keys
+ for (const auto &key : node.keys) {
+  auto bytes = reinterpret_cast<const uint8_t *>(&key);
+  buffer.insert(buffer.end(), bytes, bytes + sizeof(Key));
+ }
+ … 
+  return buffer;
+}
+Convert an in-memory DiskNode structure to a byte stream suitable for disk
+
+
+Deserialization
+void deserializeNodeFromBytes(const std::vector<uint8_t> &buffer, DiskNode &node) {
+ size_t offset = 0;
+ // Assuming we know the number of keys and that Key is of a fixed size
+ for (int i = 0; i < node.keyCount; ++i) {
+  Key key;
+  std::memcpy(&key, buffer.data() + offset, sizeof(Key));
+  node.keys[i] = key;
+  offset += sizeof(Key);
+ }
+ …
+}
+Convert a byte stream read from disk back to an in-memory Node
+
+
+Node Storage in On-Disk File
+FILE OFFSET
+0
+NODE 1
+4 KB
+NODE 2
+12 KB
+NODE 3
+16 KB
+NODE 4
+20 KB
+NODE 5
+24 KB
+NODE 6
+30 KB
+NODE 7
+…
+…
+B+Tree
+
+
+Minimizing Disk Reads
+N 1
+N 5
+N 2
+N 9
+N 6
+N 10
+Cached 
+Nodes
+N 1
+N 2
+N 3
+N 4
+N 5
+N 6
+N 7
+N 8
+N 9
+N 10
+N 11
+B+Tree
+DRAM
+Disk
+
+
+Minimizing Disk Reads
+N 1
+N 5
+N 2
+N 9
+N 6
+N 10
+Cached 
+Nodes
+N 1
+N 2
+N 3
+N 4
+N 5
+N 6
+N 7
+N 8
+N 9
+N 10
+N 11
+B+Tree
+DRAM
+Disk
+ROOT Node
+Cached
+Cache B+Tree 
+Nodes
+Reduce Disk 
+Operations
+
+
+Node 1
+Node 5
+Node 9
+Node 10
+Node 2
+Node 3
+Node 4
+Node 6
+Node 8
+Node 7
+Node 11
+Minimizing Disk Reads: Finding a Key in Node 4
+
+
+Node 1
+Node 5
+Node 9
+Node 10
+Node 2
+Node 3
+Node 4
+Node 6
+Node 8
+Node 7
+Node 11
+Minimizing Disk Reads: Finding a Key in Node 4
+1
+2
+3
+
+
+Minimizing Disk Writes
+N 1
+N 5
+N 2
+N 9
+N 6
+N 10
+Cached 
+Nodes
+N 1
+N 2
+N 3
+N 4
+N 5
+N 6
+N 7
+N 8
+N 9
+N 10
+N 11
+B+Tree
+DRAM
+Disk
+Node evicted from buffer pool when it is full 
+Node Eviction
+
+
+Minimizing Disk Writes
+N 1
+N 5
+N 2
+N 9
+N 6
+N 10
+Cached 
+Nodes
+N 1
+N 2
+N 3
+N 4
+N 5
+N 6
+N 7
+N 8
+N 9
+N 10
+N 11
+B+Tree
+DRAM
+Disk
+Node evicted from buffer pool when it is full 
+Node Eviction
+
+
+Advantages of B+Trees on Disk
+B+Trees are designed for storage on disk
+
+
+Advantages of B+Trees on Disk
+Uniform Height
+All operations 
+need same 
+number of disk 
+reads/writes
+Short Height
+Higher-level inner 
+nodes are 
+buffered leading 
+to fewer page 
+misses
+Linked Leaves
+Range queries 
+can be processed 
+efficiently
+B+Trees are designed for storage on disk
+
+
+
+
+Adaptation for 
+Disk 
+
+
+Adaptation for 
+Disk 
+On-Disk B+ 
+Tree
+
+

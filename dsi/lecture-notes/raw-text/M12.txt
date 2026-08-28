@@ -1,0 +1,1561 @@
+--- Module 12 ---
+
+More Complex Predicate
+
+
+
+
+More Complex 
+Predicate
+
+
+More Complex 
+Predicate
+IPredicate 
+Interface
+
+
+Need for More Complex Predicate
+SELECT *
+FROM employees
+WHERE salary > 1000 AND age < 30;
+ID
+SALARY
+AGE
+1
+500
+20
+2
+1500
+20
+3
+800
+40
+4
+2000
+40
+ID
+SALARY
+AGE
+2
+1500
+20
+BASE TABLE
+FILTERED TABLE
+
+
+IPredicate Interface
+class IPredicate {
+public:
+ virtual ~IPredicate() = default;
+ virtual bool
+ check(const std::vector<std::unique_ptr<Field>> &tupleFields) const = 0;
+};
+Common interface for all predicate types
+
+
+SimplePredicate: Comparison Operator
+SALARY
+> 
+1000
+INDIRECT
+OPERAND
+COMPARISON
+OPERATOR
+DIRECT
+OPERAND
+Implements the IPredicate interface for basic comparison operations
+
+
+class SimplePredicate : public IPredicate {
+ Operand left_operand, right_operand;
+ ComparisonOperator comparison_operator;
+ bool
+ check(const std::vector<std::unique_ptr<Field>> &tupleFields) const override {
+  // Fetch fields based on operand type (DIRECT or INDIRECT)
+  // Compare fields based on the specified ComparisonOperator
+ }
+};
+SimplePredicate: Comparison Operator
+Implements the IPredicate interface for basic comparison operations
+
+
+ComplexPredicate: Logical Operator
+PREDICATE 1
+AND/OR
+PREDICATE 2
+LOGICAL
+OPERATOR
+Implements the IPredicate interface for logical operations (AND/OR)
+
+
+class ComplexPredicate : public IPredicate {
+ std::vector<std::unique_ptr<IPredicate>> predicates;
+ LogicOperator logic_operator;
+ bool
+ check(const std::vector<std::unique_ptr<Field>> &tupleFields) const override {
+  // Evaluate all contained predicates based on the logic operator (AND, OR)
+ }
+};
+ComplexPredicate: Logical Operator
+
+
+Evaluating Complex Predicate
+if (logic_operator == AND) {
+ for (const auto &pred : predicates) {
+  if (!pred->check(tupleFields)) {
+   return false; // All must pass
+    }
+ }
+ return true;
+}
+else if (logic_operator == OR) {
+ for (const auto &pred : predicates) {
+  if (pred->check(tupleFields)) {
+   return true; // Any one can pass
+  }
+  }
+ return false;
+}
+
+
+Illustrative Complex Predicate
+TUPLE [0]
+> 
+2
+TUPLE [0]
+< 
+6
+INDIRECT
+OPERAND
+COMPARISON
+OPERATOR
+DIRECT
+OPERAND
+INDIRECT
+OPERAND
+COMPARISON
+OPERATOR
+DIRECT
+OPERAND
+PREDICATE 1
+AND
+PREDICATE 2
+IPREDICATE
+OBJECT POINTER
+LOGICAL
+OPERATOR
+IPREDICATE
+OBJECT POINTER
+
+
+Illustrative Complex Predicate
+TUPLE [0]
+> 
+2
+TUPLE [0]
+< 
+6
+INDIRECT
+OPERAND
+COMPARISON
+OPERATOR
+DIRECT
+OPERAND
+INDIRECT
+OPERAND
+COMPARISON
+OPERATOR
+DIRECT
+OPERAND
+PREDICATE 1
+AND
+PREDICATE 2
+IPREDICATE
+OBJECT POINTER
+LOGICAL
+OPERATOR
+IPREDICATE
+OBJECT POINTER
+
+
+// Creating simple comparison predicates
+auto greaterThanTwo = std::make_unique<SimplePredicate>(
+   SimplePredicate::Operand(0),
+   SimplePredicate::Operand(std::make_unique<Field>(2)),
+   SimplePredicate::ComparisonOperator::GT);
+auto lessThanSix = std::make_unique<SimplePredicate>(
+   SimplePredicate::Operand(0),
+   SimplePredicate::Operand(std::make_unique<Field>(6)),
+   SimplePredicate::ComparisonOperator::LT);
+Illustrative Complex Predicate
+TUPLE [0]
+> 
+2
+TUPLE [0]
+<
+6
+INDIRECT
+OPERAND
+COMPARISON
+OPERATOR
+DIRECT
+OPERAND
+INDIRECT
+OPERAND
+COMPARISON
+OPERATOR
+DIRECT
+OPERAND
+
+
+// Combining predicates into a complex predicate with AND logic
+auto complexPredicate =
+   std::make_unique<ComplexPredicate>(ComplexPredicate::LogicOperator::AND);
+complexPredicate->addPredicate(std::move(greaterThanTwo));
+complexPredicate->addPredicate(std::move(lessThanSix));
+// Integrating ComplexPredicate with a SelectOperator for query processing
+SelectOperator selectOperator(scanOperator, std::move(complexPredicate));
+Illustrative Complex Predicate
+PREDICATE 1
+AND
+PREDICATE 2
+IPREDICATE
+OBJECT POINTER
+LOGICAL
+OPERATOR
+IPREDICATE
+OBJECT POINTER
+
+
+More Complex Predicate
+TUPLE 
+[0]
+> 
+2
+TUPLE 
+[0]
+< 
+6
+TUPLE
+[2]
+<
+TUPLE
+[1]
+PRED
+1
+AND
+PRED
+2
+PRED
+3
+OR
+PRED
+4
+
+
+
+
+More Complex 
+Predicate
+
+
+More Complex 
+Predicate
+IPredicate 
+Interface
+
+
+HASH AGGREGATION OPERATOR
+
+
+
+
+Aggregation 
+Query
+
+
+Aggregation 
+Query
+Hash 
+Aggregation 
+Operator
+
+
+Aggregation Query
+SELECT Category_ID,
+   SUM(Profit) AS Total_Profit
+FROM Sales_Data
+WHERE MONTH(DATE) = ‘JUNE’
+GROUP BY Category_ID;
+PRODUCT 
+ID
+PROFIT
+CATEGORY 
+ID
+DATE
+1
+500
+1
+May 15
+2
+1000
+1
+June 10
+3
+1000
+2
+June 20
+4
+2000
+2
+June 30
+KEY
+VALUE
+1
+1000
+2
+3000
+BASE TABLE
+HASH TABLE
+
+
+Hash Aggregation Operator
+PRODUCT 
+ID
+PROFIT
+CATEGORY 
+ID
+DATE
+1
+500
+1
+May 15
+2
+1000
+1
+June 10
+3
+1000
+2
+June 20
+4
+2000
+2
+June 30
+BASE TABLE
+KEY
+VALUE
+1
+1000
+2
+3000
+HASH TABLE
+
+
+class HashAggregationOperator : public UnaryOperator {
+private:
+ std::vector<size_t> group_by_attrs;
+ std::vector<AggrFunc> aggr_funcs;
+ std::vector<Tuple> output_tuples;
+ …
+};
+Hash Aggregation Operator
+
+
+class HashAggregationOperator : public UnaryOperator {
+private:
+ std::vector<size_t> group_by_attrs;
+ std::vector<AggrFunc> aggr_funcs;
+ std::vector<Tuple> output_tuples;
+ …
+};
+Hash Aggregation Operator
+Hash Aggregation
+Unary Operator Class
+
+
+group_by_attrs
+class HashAggregationOperator : public UnaryOperator {
+private:
+ std::vector<size_t> group_by_attrs;
+ std::vector<AggrFunc> aggr_funcs;
+ std::vector<Tuple> output_tuples;
+ …
+};
+Hash Aggregation Operator
+Hash Aggregation
+Unary Operator Class
+
+
+group_by_attrs
+class HashAggregationOperator : public UnaryOperator {
+private:
+ std::vector<size_t> group_by_attrs;
+ std::vector<AggrFunc> aggr_funcs;
+ std::vector<Tuple> output_tuples;
+ …
+};
+aggr_funcs vector
+Hash Aggregation Operator
+Hash Aggregation
+Unary Operator Class
+
+
+output_tuples
+group_by_attrs
+class HashAggregationOperator : public UnaryOperator {
+private:
+ std::vector<size_t> group_by_attrs;
+ std::vector<AggrFunc> aggr_funcs;
+ std::vector<Tuple> output_tuples;
+ …
+};
+aggr_funcs vector
+Hash Aggregation Operator
+Hash Aggregation
+Unary Operator Class
+
+
+PRODUCT 
+ID
+PROFIT
+CATEGORY 
+ID
+DATE
+1
+500
+1
+May 15
+2
+1000
+1
+June 10
+3
+1000
+2
+June 20
+4
+2000
+2
+June 30
+GROUP BY 
+ATTRS
+{3}
+AGGREGATE
+FUNCTIONS
+{SUM, 2}
+OUTPUT
+TUPLES
+{1, 1000},
+{2, 3000}
+BASE TABLE
+HASH AGGREGATION OPERATOR
+Hash Aggregation Operator
+
+
+Aggregation Logic
+void HashAggregationOperator::open() {
+ std::unordered_map<std::vector<Field>, std::vector<Field>, FieldVectorHasher>
+   hash_table;
+ // Build the hash table with the aggregate tuples
+}
+bool HashAggregationOperator::next() {
+ // Iterate over the aggregate tuples in the hash table
+}
+
+
+Aggregation Logic
+void HashAggregationOperator::open() {
+ std::unordered_map<std::vector<Field>, std::vector<Field>, FieldVectorHasher>
+   hash_table;
+ // Build the hash table with the aggregate tuples
+}
+bool HashAggregationOperator::next() {
+ // Iterate over the aggregate tuples in the hash table
+}
+
+
+Multi-Column Grouping
+SELECT Category_ID,
+   MONTH(DATE),
+   SUM(Profit) AS Total_Profit
+FROM Sales_Data
+GROUP BY Category_ID, MONTH(DATE);
+CATEGORY
+ID
+MONTH
+(DATE)
+TOTAL
+PROFIT
+1
+May
+500
+1
+June
+1000
+AGGREGATED TABLE
+BASE TABLE
+PRODUCT 
+ID
+PROFIT
+CATEGORY 
+ID
+DATE
+1
+500
+1
+May 15
+2
+1000
+1
+June 10
+3
+1000
+2
+June 20
+4
+2000
+2
+June 30
+2
+June
+3000
+
+
+Field Vector Hasher
+struct FieldVectorHasher {
+ std::size_t operator()(const std::vector<Field> &fields) const {
+  std::size_t hash = 0;
+  for (const auto &field : fields) {
+   std::hash<std::string> hasher;
+   std::size_t fieldHash = 0;
+   fieldHash = hasher(…);
+   hash ^= fieldHash + 0x9e3779b9 + (hash << 6) + (hash >> 2);
+  }
+  return hash;
+ }
+};
+
+
+Field Vector Hasher
+struct FieldVectorHasher {
+ std::size_t operator()(const std::vector<Field> &fields) const {
+  std::size_t hash = 0;
+  for (const auto &field : fields) {
+   std::hash<std::string> hasher;
+   std::size_t fieldHash = 0;
+   fieldHash = hasher(…);
+   hash ^= fieldHash + 0x9e3779b9 + (hash << 6) + (hash >> 2);
+  }
+  return hash;
+ }
+};
+Calculates 
+Hash Values
+
+
+FIELD
+OVERALL HASH VALUE
+FIELD HASH VALUE
+0
+123
+0x1f3…
+std::hash(“123”)
+“May”
+0x9e5…
+std::hash(“May”)
+Hash Aggregation Operator
+
+
+FIELD
+OVERALL HASH VALUE
+FIELD HASH VALUE
+0
+123
+0x1f3…
+std::hash(“123”)
+“May”
+0x9e5…
+std::hash(“May”)
+Hash Aggregation Operator
+
+
+FIELD
+OVERALL HASH VALUE
+FIELD HASH VALUE
+0
+123
+0x1f3…
+std::hash(“123”)
+“May”
+0x9e5…
+std::hash(“May”)
+Hash Aggregation Operator
+
+
+FIELD
+OVERALL HASH VALUE
+FIELD HASH VALUE
+0
+123
+0x1f3…
+std::hash(“123”)
+“May”
+0x9e5…
+std::hash(“May”)
+Hash Aggregation Operator
+
+
+Update Aggregate
+CATEGORY
+ID
+MONTH
+(DATE)
+TOTAL
+PROFIT
+1
+May
+500
+1
+June
+1000
+AGGREGATED TABLE
+SELECT Category_ID,
+   MONTH(DATE),
+   SUM(Profit) AS Total_Profit
+FROM Sales_Data
+GROUP BY Category_ID, MONTH(DATE);
+BASE TABLE
+PRODUCT 
+ID
+PROFIT
+CATEGORY 
+ID
+DATE
+1
+500
+1
+May 15
+2
+1000
+1
+June 10
+3
+1000
+2
+June 20
+4
+2000
+2
+June 30
+
+
+Update Aggregate
+CATEGORY
+ID
+MONTH
+(DATE)
+TOTAL
+PROFIT
+1
+May
+500
+1
+June
+1000
+AGGREGATED TABLE
+SELECT Category_ID,
+   MONTH(DATE),
+   SUM(Profit) AS Total_Profit
+FROM Sales_Data
+GROUP BY Category_ID, MONTH(DATE);
+BASE TABLE
+PRODUCT 
+ID
+PROFIT
+CATEGORY 
+ID
+DATE
+1
+500
+1
+May 15
+2
+1000
+1
+June 10
+3
+1000
+2
+June 20
+4
+2000
+2
+June 30
+2
+June
+1000
+
+
+Update Aggregate
+CATEGORY
+ID
+MONTH
+(DATE)
+TOTAL
+PROFIT
+1
+May
+500
+1
+June
+1000
+AGGREGATED TABLE
+SELECT Category_ID,
+   MONTH(DATE),
+   SUM(Profit) AS Total_Profit
+FROM Sales_Data
+GROUP BY Category_ID, MONTH(DATE);
+BASE TABLE
+PRODUCT 
+ID
+PROFIT
+CATEGORY 
+ID
+DATE
+1
+500
+1
+May 15
+2
+1000
+1
+June 10
+3
+1000
+2
+June 20
+4
+2000
+2
+June 30
+2
+June
+1000
+3000
+
+
+Field updateAggregate(const AggrFunc &aggrFunc, const Field &currentAggr,
+           const Field &newValue) {
+ // Check for type consistency
+ if (currentAggr.getType() != newValue.getType()) {
+  throw std::runtime_error("Mismatched Field types in aggregation.");
+ }
+ // Perform the specified aggregation operation
+ switch (aggrFunc.func) {
+ case AggrFuncType::SUM:
+  return Field(currentAggr.asInt() + newValue.asInt());
+  // other cases...
+ }
+}
+Update Aggregate
+
+
+Field updateAggregate(const AggrFunc &aggrFunc, const Field &currentAggr,
+           const Field &newValue) {
+ // Check for type consistency
+ if (currentAggr.getType() != newValue.getType()) {
+  throw std::runtime_error("Mismatched Field types in aggregation.");
+ }
+ // Perform the specified aggregation operation
+ switch (aggrFunc.func) {
+ case AggrFuncType::SUM:
+  return Field(currentAggr.asInt() + newValue.asInt());
+  // other cases...
+ }
+}
+Update Aggregate
+
+
+Field updateAggregate(const AggrFunc &aggrFunc, const Field &currentAggr,
+           const Field &newValue) {
+ // Check for type consistency
+ if (currentAggr.getType() != newValue.getType()) {
+  throw std::runtime_error("Mismatched Field types in aggregation.");
+ }
+ // Perform the specified aggregation operation
+ switch (aggrFunc.func) {
+ case AggrFuncType::SUM:
+  return Field(currentAggr.asInt() + newValue.asInt());
+  // other cases...
+ }
+}
+Update Aggregate
+
+
+getOutput
+for (const auto &entry : hash_table) {
+ const auto &group_keys = entry.first;
+ const auto &aggr_values = entry.second;
+ for (const auto &key : group_keys) {
+  // Add group keys to the tuple
+  output_tuple.addField(std::make_unique<Field>(key));
+ }
+ for (const auto &value : aggr_values) {
+  // Add aggregated values to the tuple
+  output_tuple.addField(std::make_unique<Field>(value));
+ }
+}
+
+
+getOutput
+for (const auto &entry : hash_table) {
+ const auto &group_keys = entry.first;
+ const auto &aggr_values = entry.second;
+ for (const auto &key : group_keys) {
+  // Add group keys to the tuple
+  output_tuple.addField(std::make_unique<Field>(key));
+ }
+ for (const auto &value : aggr_values) {
+  // Add aggregated values to the tuple
+  output_tuple.addField(std::make_unique<Field>(value));
+ }
+}
+Appends Group Keys
+
+
+getOutput
+for (const auto &entry : hash_table) {
+ const auto &group_keys = entry.first;
+ const auto &aggr_values = entry.second;
+ for (const auto &key : group_keys) {
+  // Add group keys to the tuple
+  output_tuple.addField(std::make_unique<Field>(key));
+ }
+ for (const auto &value : aggr_values) {
+  // Add aggregated values to the tuple
+  output_tuple.addField(std::make_unique<Field>(value));
+ }
+}
+and Aggregate Value
+Appends Group Keys
+
+
+Aggregate Tuples
+getOutput
+for (const auto &entry : hash_table) {
+ const auto &group_keys = entry.first;
+ const auto &aggr_values = entry.second;
+ for (const auto &key : group_keys) {
+  // Add group keys to the tuple
+  output_tuple.addField(std::make_unique<Field>(key));
+ }
+ for (const auto &value : aggr_values) {
+  // Add aggregated values to the tuple
+  output_tuple.addField(std::make_unique<Field>(value));
+ }
+}
+and Aggregate Value
+Appends Group Keys
+
+
+
+
+Hash 
+Aggregation 
+Operator
+
+
+Hash 
+Aggregation 
+Operator
+Aggregation 
+Query
+
+
+Complex Query
+
+
+
+
+Relational 
+Operator 
+Framework
+
+
+Relational 
+Operator 
+Framework
+Unix 
+Command 
+Pipeline
+
+
+Hard-Coded Query Function
+SELECT column1, SUM(column2)
+FROM tableName
+WHERE column1 > 2 AND column1 < 7
+GROUP BY column1;
+
+
+Hard-Coded Query Function
+SELECT column1, SUM(column2)
+FROM tableName
+WHERE column1 > 2 AND column1 < 7
+GROUP BY column1;
+Selects 
+Tuples 
+from 
+Table
+
+
+Hard-Coded Query Function
+SELECT column1, SUM(column2)
+FROM tableName
+WHERE column1 > 2 AND column1 < 7
+GROUP BY column1;
+Filters 
+Tuples 
+from 
+Column 1
+Selects 
+Tuples 
+from 
+Table
+
+
+Hard-Coded Query Function
+SELECT column1, SUM(column2)
+FROM tableName
+WHERE column1 > 2 AND column1 < 7
+GROUP BY column1;
+Groups 
+Filters 
+Tuples
+Filters 
+Tuples 
+from 
+Column 1
+Selects 
+Tuples 
+from 
+Table
+
+
+Hard-Coded Query Function
+SELECT column1, SUM(column2)
+FROM tableName
+WHERE column1 > 2 AND column1 < 7
+GROUP BY column1;
+Groups 
+Filters 
+Tuples
+Filters 
+Tuples 
+from 
+Column 1
+Selects 
+Tuples 
+from 
+Table
+Sums 
+Values of 
+Column 2
+
+
+int main() {
+ db.scanTableToBuildIndex();
+  …
+ int lowerBound = 2;
+ int upperBound = 7;
+ db.selectGroupBySum(lowerBound, upperBound);
+}
+Hard-Coded Query Function
+
+
+int main() {
+ db.scanTableToBuildIndex();
+  …
+ int lowerBound = 2;
+ int upperBound = 7;
+ db.selectGroupBySum(lowerBound, upperBound);
+}
+Hard-Coded Query Function
+selectGroupBySum
+
+
+int main() {
+ db.scanTableToBuildIndex();
+  …
+ int lowerBound = 2;
+ int upperBound = 7;
+ db.selectGroupBySum(lowerBound, upperBound);
+}
+Hard-Coded Query Function
+Scans Tuples & 
+Builds Index
+selectGroupBySum
+
+
+int main() {
+ db.scanTableToBuildIndex();
+  …
+ int lowerBound = 2;
+ int upperBound = 7;
+ db.selectGroupBySum(lowerBound, upperBound);
+}
+Hard-Coded Query Function
+Groups Filtered 
+Tuples
+Scans Tuples & 
+Builds Index
+selectGroupBySum
+
+
+int main() {
+ db.scanTableToBuildIndex();
+  …
+ int lowerBound = 2;
+ int upperBound = 7;
+ db.selectGroupBySum(lowerBound, upperBound);
+}
+Hard-Coded Query Function
+Sums Value of 
+Column 2
+Groups Filtered 
+Tuples
+Scans Tuples & 
+Builds Index
+selectGroupBySum
+
+
+Relational Operator-Based Query Pipeline
+Select  
+Operator
+Hash Aggregation
+Operator
+Filtered Table
+Grouped Table
+Table
+Scan 
+Operator
+
+
+Relational Operator-Based Query Pipeline
+Select  
+Operator
+Hash Aggregation
+Operator
+Filtered Table
+Grouped Table
+Table
+Scan 
+Operator
+
+
+Relational Operator-Based Query Pipeline
+Select  
+Operator
+Hash Aggregation
+Operator
+Filtered Table
+Grouped Table
+Table
+Scan 
+Operator
+
+
+Relational Operator-Based Query Pipeline
+Select  
+Operator
+Hash Aggregation
+Operator
+Filtered Table
+Grouped Table
+Table
+Scan 
+Operator
+
+
+void executeQuery() {
+ … 
+  SelectOperator selectOperator(scanOperator, std::move(complexPredicate));
+ std::vector<AggrFunc> aggrFuncs{{AggrFuncType::SUM, 1}};
+ std::vector<size_t> groupByAttrs{0};
+ HashAggregationOperator hashAggregationOperator(selectOperator, groupByAttrs,
+                         aggrFuncs);
+ hashAggregationOperator.open();
+ while (hashAggregationOperator.next()) {
+  const auto &aggregatedFields = hashAggregationOperator.getOutput();
+  // Output key and aggregated value
+ }
+ hashAggregationOperator.close();
+}
+Relational Operator-Based Query Pipeline
+
+
+void executeQuery() {
+ … 
+  SelectOperator selectOperator(scanOperator, std::move(complexPredicate));
+ std::vector<AggrFunc> aggrFuncs{{AggrFuncType::SUM, 1}};
+ std::vector<size_t> groupByAttrs{0};
+ HashAggregationOperator hashAggregationOperator(selectOperator, groupByAttrs,
+                         aggrFuncs);
+ hashAggregationOperator.open();
+ while (hashAggregationOperator.next()) {
+  const auto &aggregatedFields = hashAggregationOperator.getOutput();
+  // Output key and aggregated value
+ }
+ hashAggregationOperator.close();
+}
+Relational Operator-Based Query Pipeline
+
+
+void executeQuery() {
+ … 
+  SelectOperator selectOperator(scanOperator, std::move(complexPredicate));
+ std::vector<AggrFunc> aggrFuncs{{AggrFuncType::SUM, 1}};
+ std::vector<size_t> groupByAttrs{0};
+ HashAggregationOperator hashAggregationOperator(selectOperator, groupByAttrs,
+                         aggrFuncs);
+ hashAggregationOperator.open();
+ while (hashAggregationOperator.next()) {
+  const auto &aggregatedFields = hashAggregationOperator.getOutput();
+  // Output key and aggregated value
+ }
+ hashAggregationOperator.close();
+}
+Relational Operator-Based Query Pipeline
+
+
+void executeQuery() {
+ … 
+  SelectOperator selectOperator(scanOperator, std::move(complexPredicate));
+ std::vector<AggrFunc> aggrFuncs{{AggrFuncType::SUM, 1}};
+ std::vector<size_t> groupByAttrs{0};
+ HashAggregationOperator hashAggregationOperator(selectOperator, groupByAttrs,
+                         aggrFuncs);
+ hashAggregationOperator.open();
+ while (hashAggregationOperator.next()) {
+  const auto &aggregatedFields = hashAggregationOperator.getOutput();
+  // Output key and aggregated value
+ }
+ hashAggregationOperator.close();
+}
+Relational Operator-Based Query Pipeline
+
+
+Unix Operating System and Relational Database
+Unix Operating System
+Relational Database
+Timeline
+1970s
+1970s
+Team
+Dennis Ritchie, Ken Thompson,
+and others
+Ted Codd, System R Team, 
+and others
+Location
+AT&T Bell Labs
+IBM
+
+
+Unix Operating System and Relational Database
+Unix Operating System
+Relational Database
+Timeline
+1970s
+1970s
+Team
+Dennis Ritchie, Ken Thompson,
+and others
+Ted Codd, System R Team, 
+and others
+Location
+AT&T Bell Labs
+IBM
+
+
+Unix Operating System and Relational Database
+Unix Operating System
+Relational Database
+Timeline
+1970s
+1970s
+Team
+Dennis Ritchie, Ken Thompson,
+and others
+Ted Codd, System R Team, 
+and others
+Location
+AT&T Bell Labs
+IBM
+
+
+Unix Operating System and Relational Database
+Unix Operating System
+Relational Database
+Timeline
+1970s
+1970s
+Team
+Dennis Ritchie, Ken Thompson,
+and others
+Ted Codd, System R Team, 
+and others
+Location
+AT&T Bell Labs
+IBM
+
+
+Simplicity and Modularity
+// GREP TOOL
+grep “error” file.txt
+// SELECT OPERATOR
+SELECT *
+FROM TableName
+WHERE Message LIKE '%error%';
+Each tool should do one and only one task well
+
+
+Pipelining and Composability
+// UNIX TOOL PIPELINE
+cat file.txt | grep "error" | sort | uniq –c
+// QUERY PIPELINE
+SELECT ErrorMessage, COUNT(*) AS ErrorCount
+FROM LogTable
+WHERE ErrorMessage LIKE '%error%'
+GROUP BY ErrorMessage
+ORDER BY ErrorMessage;
+
+
+Pipelining and Composability
+// UNIX TOOL PIPELINE
+cat file.txt | grep "error" | sort | uniq –c
+// QUERY PIPELINE
+SELECT ErrorMessage, COUNT(*) AS ErrorCount
+FROM LogTable
+WHERE ErrorMessage LIKE '%error%'
+GROUP BY ErrorMessage
+ORDER BY ErrorMessage;
+
+
+Pipelining and Composability
+// UNIX TOOL PIPELINE
+cat file.txt | grep "error" | sort | uniq –c
+// QUERY PIPELINE
+SELECT ErrorMessage, COUNT(*) AS ErrorCount
+FROM LogTable
+WHERE ErrorMessage LIKE '%error%'
+GROUP BY ErrorMessage
+ORDER BY ErrorMessage;
+
+
+Pipelining and Composability
+// UNIX TOOL PIPELINE
+cat file.txt | grep "error" | sort | uniq –c
+// QUERY PIPELINE
+SELECT ErrorMessage, COUNT(*) AS ErrorCount
+FROM LogTable
+WHERE ErrorMessage LIKE '%error%'
+GROUP BY ErrorMessage
+ORDER BY ErrorMessage;
+#
+
+
+Pipelining and Composability
+// UNIX TOOL PIPELINE
+cat file.txt | grep "error" | sort | uniq –c
+// QUERY PIPELINE
+SELECT ErrorMessage, COUNT(*) AS ErrorCount
+FROM LogTable
+WHERE ErrorMessage LIKE '%error%'
+GROUP BY ErrorMessage
+ORDER BY ErrorMessage;
+#
+∃
+
+
+Standardized Interface
+Unix Tool
+Output Text File
+Input Text File
+Relational Operator
+Output Table
+Input Table
+
+
+Extensibility
+New Relational 
+Operator / Function
+New Unix Tool
+Add 
+Custom 
+Tool into 
+Existing 
+System
+Define 
+Custom 
+Operator or 
+Custom
+Function
+Extensibility
+
+
+
+
+Relational
+Operator
+Framework
+
+
+Relational
+Operator
+Framework
+Unix 
+Command 
+Pipeline
+
+
+Create Index Executor
+
+
+
+
+Data Definition 
+Language
+
+
+Data Definition 
+Language
+Create Index 
+Executor
+
+
+Data Definition Language (DDL)
+Data Manipulation Language (DML)
+Define or modify database design
+Query or modify tuples in tables 
+Create Table, Create Index, …
+Select …
+Drop Table, Drop Index, …
+Update …
+SQL
+Consists of Sub-Languages
+
+
+Data Definition Language (DDL)
+Data Manipulation Language (DML)
+Define or modify database design
+Query or modify tuples in tables 
+Create Table, Create Index, …
+Select …
+Drop Table, Drop Index, …
+Update …
+SQL
+Consists of Sub-Languages
+
+
+Data Definition Language (DDL)
+Data Manipulation Language (DML)
+Define or modify database design
+Query or modify tuples in tables 
+Create Table, Create Index, …
+Select …
+Drop Table, Drop Index, …
+Update …
+SQL
+Consists of Sub-Languages
+
+
+Data Definition Language (DDL)
+OPERATION
+OBJECT
+CREATE, ALTER, DROP
+TABLE, INDEX, VIEW, …
+
+
+Data Definition Language (DDL)
+OPERATION
+OBJECT
+CREATE, ALTER, DROP
+TABLE, INDEX, VIEW, …
+
+
+Data Definition Language (DDL)
+OPERATION
+OBJECT
+CREATE, ALTER, DROP
+TABLE, INDEX, VIEW, …
+
+
+Data Definition Language (DDL)
+OPERATION
+OBJECT
+CREATE, ALTER, DROP
+TABLE, INDEX, VIEW, …
+Primary 
+Data Structures 
+for Tuples
+Tables
+
+
+Data Definition Language (DDL)
+OPERATION
+OBJECT
+CREATE, ALTER, DROP
+TABLE, INDEX, VIEW, …
+Primary 
+Data Structures 
+for Tuples
+Tables
+Derived Data 
+Structures
+Indexes
+
+
+Data Definition Language (DDL)
+OPERATION
+OBJECT
+CREATE, ALTER, DROP
+TABLE, INDEX, VIEW, …
+Primary 
+Data Structures 
+for Tuples
+Tables
+Derived Data 
+Structures
+Indexes
+Virtual
+Tables
+Views
+
+
+Create Index Operator
+HASH INDEX
+Column Offset: 1
+KEY (SALARY)
+VALUE (EMP ID)
+4000
+1
+5000
+2, 3
+Builds index on a specific column
+EMP ID
+SALARY
+AGE
+1
+4000
+35
+2
+5000
+25
+3
+5000
+55
+
+
+void open() override {
+ input->open();
+ while (input->next()) {
+  const auto &tuple = input->getOutput();
+  int key = tuple[attributeIndex]->asInt();
+  int value = tuple[1]->asInt(); // Example uses a fixed second attribute
+  hash_index.insertOrUpdate(key, value);
+ }
+}
+Create Index Executor
+
+
+void open() override {
+ input->open();
+ while (input->next()) {
+  const auto &tuple = input->getOutput();
+  int key = tuple[attributeIndex]->asInt();
+  int value = tuple[1]->asInt(); // Example uses a fixed second attribute
+  hash_index.insertOrUpdate(key, value);
+ }
+}
+Create Index Executor
+
+
+void open() override {
+ input->open();
+ while (input->next()) {
+  const auto &tuple = input->getOutput();
+  int key = tuple[attributeIndex]->asInt();
+  int value = tuple[1]->asInt(); // Example uses a fixed second attribute
+  hash_index.insertOrUpdate(key, value);
+ }
+}
+Create Index Executor
+
+
+bool next() override {
+ // Index creation is done in open(), so nothing to do here.
+ return false;
+}
+Create Index Executor
+
+
+bool next() override {
+ // Index creation is done in open(), so nothing to do here.
+ return false;
+}
+Create Index Executor
+
+
+Accessing the Index
+const HashIndex &getIndex() const { 
+   return hash_index; 
+}
+Index accessed using getIndex()
+
+
+Create Index Operator Usage
+// We want to index on the second attribute
+CreateIndexOperator createIndexOperator(scanOperator, 1);
+createIndexOperator.open(); // Builds the index
+createIndexOperator.close();
+const auto &index = createIndexOperator.getIndex();
+index.print(); // Displays the index contents
+
+
+Create Index Operator Usage
+// We want to index on the second attribute
+CreateIndexOperator createIndexOperator(scanOperator, 1);
+createIndexOperator.open(); // Builds the index
+createIndexOperator.close();
+const auto &index = createIndexOperator.getIndex();
+index.print(); // Displays the index contents
+Scan Operator
+Create Index 
+Operator
+
+
+Create Index Operator Usage
+// We want to index on the second attribute
+CreateIndexOperator createIndexOperator(scanOperator, 1);
+createIndexOperator.open(); // Builds the index
+createIndexOperator.close();
+const auto &index = createIndexOperator.getIndex();
+index.print(); // Displays the index contents
+Scan Operator
+Create Index 
+Operator
+
+
+
+
+Data Definition 
+Language
+
+
+Data Definition 
+Language
+Create Index 
+Executor
+
+

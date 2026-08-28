@@ -1,0 +1,1942 @@
+--- Module 01 ---
+
+Design and 
+Implementation
+Database Systems
+with Professor Joy Arulraj
+
+
+Importance of Database Systems
+
+
+Banking
+Importance of Database Systems
+
+
+Banking
+Healthcare
+Importance of Database Systems
+
+
+Banking
+Healthcare
+Airlines
+Importance of Database Systems
+
+
+Banking
+Healthcare
+Airlines
+E-Commerce
+Importance of Database Systems
+
+
+Why take this course?
+
+
+Why take this course?
+Curiosity
+
+
+Why take this course?
+Curiosity
+Scalability
+
+
+Why take this course?
+Curiosity
+Scalability
+Efficiency
+
+
+Why take this course?
+Curiosity
+Scalability
+Efficiency
+Versatility
+
+
+Why take this course?
+
+
+Storage Management
+Why take this course?
+
+
+Storage Management
+Query Optimization
+Why take this course?
+
+
+Storage Management
+Query Optimization
+Index Structures
+Why take this course?
+
+
+Storage Management
+Query Optimization
+Index Structures
+SIMD Instructions
+Why take this course?
+
+
+Database System Introduction
+
+
+
+
+Illustrative 
+Database 
+Application
+
+
+Illustrative 
+Database 
+Application
+Flat-File 
+Database 
+System
+
+
+Illustrative 
+Database 
+Application
+Flat-File 
+Database 
+System
+Flat-File 
+Database 
+Limitations
+
+
+Social 
+Media 
+Analytics
+Social Media Analytics Application
+
+
+Social Trends
+Social 
+Media 
+Analytics
+Social Media Analytics Application
+
+
+Social Trends
+Sentiments
+Social 
+Media 
+Analytics
+Social Media Analytics Application
+
+
+Social Trends
+Sentiments
+Interactions
+Social 
+Media 
+Analytics
+Social Media Analytics Application
+
+
+Data
+Social Media Analytics Application
+
+
+Users.txt
+Data
+Social Media Analytics Application
+
+
+Users.txt
+Posts.txt
+Data
+Social Media Analytics Application
+
+
+Users.txt
+Posts.txt
+Interactions.txt
+Data
+Social Media Analytics Application
+
+
+Users.txt
+Users Text File
+
+
+Users.txt
+UserName,
+Location
+Timothée Chalamet,
+Paris
+Lana Condor,
+Los Angeles
+Liu Yifei,
+Beijing
+Burna Boy,
+Lagos
+Kriti Sanon,
+Mumbai
+Users Text File
+
+
+Posts.txt
+Posts Text File
+
+
+Posts.txt
+PostID, UserName,
+PostContent
+1001,
+Timothée 
+Chalamet,
+Excited to start filming my new movie!
+1002,
+Lana Condor, Had a great time at the beach today! 
+1003,
+Liu Yifei,
+Enjoying the scenery in Beijing! 
+1004,
+Burna Boy,
+Live performance tonight in Lagos! 
+1005,
+Kriti Sanon,
+Loving the vibrant energy of Mumbai! 
+Posts Text File
+
+
+Interactions.txt
+Interactions Text File
+
+
+Interactions.txt
+PostID,
+UserName,
+Reaction 
+Type,
+Comment
+1001,
+Lana Condor,
+Comment,
+Love it!
+1002,
+Liu Yifei,
+Like,
+-
+1003,
+Burna Boy
+Like,
+-
+1004,
+Kriti Sanon
+Comment, 
+Wish I could be there!
+Interactions Text File
+
+
+Flat-File Database Limitations
+
+
+Limitation #1: Data Redundancy
+
+
+PostID,
+UserName,
+PostContent
+1001,
+Timothée 
+Chalamet,
+Excited to start filming my new movie!
+1006,
+Timothée 
+Chalamet, 
+Exploring the streets of Paris! 
+1007,
+Timothée 
+Lamet, 
+Just wrapped up a day of filming 
+1008,
+Timothée 
+Chalamet, 
+Any book recommendations? 
+Limitation #1: Data Redundancy
+
+
+Limitation #2: Slow Operations
+
+
+Limitation #2: Slow Operations
+
+
+Limitation #2: Slow Operations
+
+
+Limitation #2: Slow Operations
+
+
+Limitation #2: Slow Operations
+
+
+UserName,
+Location
+Timothée Chalamet,
+Paris
+Lana Condor,
+Los Angeles
+Liu Yifei,
+Beijing
+Burna Boy,
+Lagos
+Kriti Sanon,
+Mumbai
+Limitation #3: Slow Queries
+
+
+UserName,
+Location
+Timothée Chalamet,
+Paris
+Lana Condor,
+Los Angeles
+Liu Yifei,
+Beijing
+Burna Boy,
+Lagos
+Kriti Sanon,
+Mumbai
+Limitation #3: Slow Queries
+
+
+Limitation #4: Concurrent Updates
+
+
+USER 1
+Timothée Chalamet, 
+Paris
+Limitation #4: Concurrent Updates
+
+
+USER 1
+Timothée Chalamet, 
+Paris
+USER 1
+Xavier Laurent,
+Paris
+Limitation #4: Concurrent Updates
+
+
+USER 1
+Timothée Chalamet, 
+Paris
+USER 2
+Timothée Chalamet, 
+Paris
+USER 1
+Xavier Laurent,
+Paris
+Limitation #4: Concurrent Updates
+
+
+USER 1
+Timothée Chalamet, 
+Paris
+USER 2
+Timothée Chalamet, 
+Paris
+USER 1
+Xavier Laurent,
+Paris
+USER 2
+Timothée Chalamet, 
+New York
+Limitation #4: Concurrent Updates
+
+
+USER 1
+Timothée Chalamet, 
+Paris
+USER 2
+Timothée Chalamet, 
+Paris
+USER 1
+Xavier Laurent,
+Paris
+USER 2
+Timothée Chalamet, 
+New York
+USER 2
+Xavier Laurent, 
+New York
+Limitation #4: Concurrent Updates
+
+
+UserName,
+Location,
+Country
+Timothée Chalamet,
+Paris,
+Lana Condor,
+Los Angeles,
+Liu Yifei,
+Beijing,
+Burna Boy,
+Lagos
+Kriti Sanon,
+Mumbai
+Users.txt
+Limitation #5: Handling Disk Failure
+
+
+UserName,
+Location,
+Country
+Timothée Chalamet,
+Paris,
+Lana Condor,
+Los Angeles,
+Liu Yifei,
+Beijing,
+Burna Boy,
+Lagos
+Kriti Sanon,
+Mumbai
+Users.txt
+Limitation #5: Handling Disk Failure
+France
+USA
+China
+
+
+UserName,
+Location,
+Country
+Timothée Chalamet,
+Paris,
+Lana Condor,
+Los Angeles,
+Liu Yifei,
+Beijing,
+Burna Boy,
+Lagos
+Kriti Sanon,
+Mumbai
+Users.txt
+Limitation #5: Handling Disk Failure
+France
+USA
+China
+
+
+Cached Pages
+Database
+Faster access - not durable
+Limitation #6: Memory Management
+Slower access - but durable
+DRAM
+Disk
+
+
+Limitation #7: Usability
+
+
+Limitation #7: Usability
+Custom Code
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+def get_comments_by_user(file_path, user_name): 
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+def get_comments_by_user(file_path, user_name): 
+ comments = []
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+def get_comments_by_user(file_path, user_name): 
+ comments = []
+ with open(file_path, 'r') as file:     
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+def get_comments_by_user(file_path, user_name): 
+ comments = []
+ with open(file_path, 'r') as file:     
+    for line in file:      
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+def get_comments_by_user(file_path, user_name): 
+ comments = []
+ with open(file_path, 'r') as file:     
+    for line in file:      
+     post_id, user, reaction_type, comment_text = line.strip().split(', ')
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+def get_comments_by_user(file_path, user_name): 
+ comments = []
+ with open(file_path, 'r') as file:     
+    for line in file:      
+     post_id, user, reaction_type, comment_text = line.strip().split(', ')
+     if user == user_name and reaction_type == "Comment":         
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+def get_comments_by_user(file_path, user_name): 
+ comments = []
+ with open(file_path, 'r') as file:     
+    for line in file:      
+     post_id, user, reaction_type, comment_text = line.strip().split(', ')
+     if user == user_name and reaction_type == "Comment":         
+        comments.append((post_id, comment_text))
+
+
+Limitation #7: Usability
+Custom Code
+Comments Query Code
+def get_comments_by_user(file_path, user_name): 
+ comments = []
+ with open(file_path, 'r') as file:     
+    for line in file:      
+     post_id, user, reaction_type, comment_text = line.strip().split(', ')
+     if user == user_name and reaction_type == "Comment":         
+        comments.append((post_id, comment_text))
+ return comments
+
+
+
+
+Illustrative 
+Database 
+Application
+
+
+Illustrative 
+Database 
+Application
+Flat-File 
+Database 
+System
+
+
+Illustrative 
+Database 
+Application
+Flat-File 
+Database 
+System
+Flat-File 
+Database 
+Limitations
+
+
+Relational Database
+
+
+
+
+Relational 
+Database
+
+
+Relational 
+Database
+Relational 
+Database 
+Benefits
+
+
+Ted Codd (1970)
+Relational Database
+
+
+❖Scientist at IBM
+Ted Codd (1970)
+Relational Database
+
+
+❖Simplify Data Management
+❖Scientist at IBM
+Ted Codd (1970)
+Relational Database
+
+
+❖Simplify Data Management
+❖Organize Data as Tables
+❖Scientist at IBM
+Ted Codd (1970)
+Relational Database
+
+
+Relational Database
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+
+
+Relational Database
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+
+
+Relational Database
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+
+
+Relational Database
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+
+
+Relational Database
+UserID
+UserName
+Location
+1
+Timothée Chalamet
+Paris
+2
+Lana Condor
+Los Angeles
+3
+Liu Yifei
+Beijing
+4
+Burna Boy
+Lagos
+5
+Kriti Sanon
+Mumbai
+PostID
+UserID
+PostContent
+1001
+1
+Excited to start filming my new movie!
+1002
+2
+Had a great time at the beach today! 
+1003
+3
+Enjoying the scenery in Beijing! 
+1004
+4
+Live performance tonight in Lagos! 
+1005
+5
+Loving the vibrant energy of Mumbai! 
+PostID
+UserID
+ReactionType
+Content
+1001
+2
+Comment
+Love it!
+1002
+3
+Like
+-
+1003
+4
+Like
+-
+1004
+5
+Comment 
+Wish I could be there!
+
+
+Relational Database
+UserID
+UserName
+Location
+1
+Timothée Chalamet
+Paris
+2
+Lana Condor
+Los Angeles
+3
+Liu Yifei
+Beijing
+4
+Burna Boy
+Lagos
+5
+Kriti Sanon
+Mumbai
+PostID
+UserID
+PostContent
+1001
+1
+Excited to start filming my new movie!
+1002
+2
+Had a great time at the beach today! 
+1003
+3
+Enjoying the scenery in Beijing! 
+1004
+4
+Live performance tonight in Lagos! 
+1005
+5
+Loving the vibrant energy of Mumbai! 
+PostID
+UserID
+ReactionType
+Content
+1001
+2
+Comment
+Love it!
+1002
+3
+Like
+-
+1003
+4
+Like
+-
+1004
+5
+Comment 
+Wish I could be there!
+Users
+Posts
+Interactions
+
+
+Students
+Grades
+Relational Database
+
+
+Mathematic 
+Set Theory
+Students
+Grades
+Relational Database
+
+
+Mathematic 
+Set Theory
+Data Sets 
+Relationship
+Students
+Grades
+Relational Database
+
+
+Mathematic 
+Set Theory
+Data Sets 
+Relationship
+Efficient Data 
+Set Links
+Students
+Grades
+Relational Database
+
+
+Mathematic 
+Set Theory
+Data Sets 
+Relationship
+Efficient Data 
+Set Links
+Students
+Grades
+Alice
+Bob
+Charlie
+B
+A
+C
+R={(Alice,B),(Bob,A),(Charlie,C)}
+Relational Database
+
+
+Relational Database
+
+
+Logical
+Physical
+Relational Database
+
+
+Logical
+Physical
+Relational Database
+List of Tables
+
+
+Logical
+Physical
+Relational Database
+List of Tables
+Storage 
+Formats
+Indexing Data 
+Structures
+
+
+Relational Database
+
+
+Logical Database 
+Design
+Relational Database
+Physical 
+Database Design
+
+
+Simple Query Language for 
+Complex Data Manipulation
+Logical Database 
+Design
+Relational Database
+Physical 
+Database Design
+
+
+Simple Query Language for 
+Complex Data Manipulation
+Logical Database 
+Design
+Relational Database
+Physical 
+Database Design
+Optimize Indexing for 
+Storage Hardware
+
+
+Logical Database Design: Primary Key
+UserID
+UserName
+Location
+1
+Timothée Chalamet
+Paris
+2
+Lana Condor
+Los Angeles
+3
+Liu Yifei
+Beijing
+4
+Burna Boy
+Lagos
+5
+Kriti Sanon
+Mumbai
+
+
+PostID
+UserID
+PostContent
+1001
+1
+Excited to start filming my new movie!
+1002
+2
+Had a great time at the beach today! 
+1003
+3
+Enjoying the scenery in Beijing! 
+1004
+4
+Live performance tonight in Lagos! 
+1005
+5
+Loving the vibrant energy of Mumbai! 
+UserID
+UserName
+Location
+1
+Timothée Chalamet
+Paris
+2
+Lana Condor
+Los Angeles
+3
+Liu Yifei
+Beijing
+4
+Burna Boy
+Lagos
+5
+Kriti Sanon
+Mumbai
+Logical Database Design: Foreign Key
+
+
+PostID
+UserID
+PostContent
+1001
+1
+Excited to start filming my new movie!
+1002
+2
+Had a great time at the beach today! 
+1003
+3
+Enjoying the scenery in Beijing! 
+1004
+4
+Live performance tonight in Lagos! 
+1005
+5
+Loving the vibrant energy of Mumbai! 
+UserID
+UserName
+Location
+1
+Timothée Chalamet
+Paris
+2
+Lana Condor
+Los Angeles
+3
+Liu Yifei
+Beijing
+4
+Burna Boy
+Lagos
+5
+Kriti Sanon
+Mumbai
+Logical Database Design: Foreign Key
+
+
+PostID
+UserID
+PostContent
+1001
+1
+Excited to start filming my new movie!
+1002
+2
+Had a great time at the beach today! 
+1003
+3
+Enjoying the scenery in Beijing! 
+1004
+4
+Live performance tonight in Lagos! 
+1005
+5
+Loving the vibrant energy of Mumbai! 
+UserID
+UserName
+Location
+1
+Timothée Chalamet
+Paris
+2
+Lana Condor
+Los Angeles
+3
+Liu Yifei
+Beijing
+4
+Burna Boy
+Lagos
+5
+Kriti Sanon
+Mumbai
+Logical Database Design: Foreign Key
+
+
+Referential 
+Data 
+Integrity
+PostID
+UserID
+PostContent
+1001
+1
+Excited to start filming my new movie!
+1002
+2
+Had a great time at the beach today! 
+1003
+3
+Enjoying the scenery in Beijing! 
+1004
+4
+Live performance tonight in Lagos! 
+1005
+5
+Loving the vibrant energy of Mumbai! 
+UserID
+UserName
+Location
+1
+Timothée Chalamet
+Paris
+2
+Lana Condor
+Los Angeles
+3
+Liu Yifei
+Beijing
+4
+Burna Boy
+Lagos
+5
+Kriti Sanon
+Mumbai
+Logical Database Design: Foreign Key
+
+
+Relational Database Benefits
+
+
+Benefit #1: No Data Redundancy
+UserID
+UserName
+Location
+1
+Timothée Chalamet
+Paris
+PostID
+UserID
+PostContent
+1001
+1
+Excited to start filming my new movie!
+1006
+1
+Exploring the streets of Paris!
+1007
+1
+Just wrapped up a day of filming
+1008
+1
+Any book recommendations?
+
+
+Benefit #1: No Data Redundancy
+UserID
+UserName
+Location
+1
+Timothée Chalamet
+Paris
+PostID
+UserID
+PostContent
+1001
+1
+Excited to start filming my new movie!
+1006
+1
+Exploring the streets of Paris!
+1007
+1
+Just wrapped up a day of filming
+1008
+1
+Any book recommendations?
+Sir Timothée Chalamet
+
+
+Benefit #2: Fast Operations
+
+
+Benefit #2: Fast Operations
+❖Efficient Data Deletion
+
+
+Benefit #2: Fast Operations
+❖Efficient Data Deletion
+❖User (Tuple) Removal 
+
+
+Benefit #2: Fast Operations
+❖Efficient Data Deletion
+❖User (Tuple) Removal 
+❖Fast Deletion
+
+
+Benefit #3: Fast Queries
+
+
+Benefit #3: Fast Queries
+Index Database
+
+
+Benefit #3: Fast Queries
+Index Database
+
+
+Benefit #3: Fast Queries
+Index Database
+Apps in labeled
+ folders
+
+
+Benefit #3: Fast Queries
+Index Database
+Apps in labeled
+ folders
+Location-based 
+index
+
+
+Benefit #3: Fast Queries
+UserName,
+Location
+Timothée Chalamet,
+Paris
+Lana Condor,
+Los Angeles
+Liu Yifei,
+Beijing
+Burna Boy,
+Lagos
+Kriti Sanon,
+Mumbai
+
+
+Benefit #3: Fast Queries
+UserName,
+Location
+Timothée Chalamet,
+Paris
+Lana Condor,
+Los Angeles
+Liu Yifei,
+Beijing
+Burna Boy,
+Lagos
+Kriti Sanon,
+Mumbai
+SELECT *
+FROM Users
+WHERE LOCATION = 'Mumbai';
+
+
+Benefit #4: Concurrent Updates
+
+
+Transaction 3
+Transaction 2
+Benefit #4: Concurrent Updates
+Transaction 1
+Concurrency 
+Control
+Concurrency 
+Control
+
+
+USER 1
+Xavier Laurent,
+Paris
+USER 1
+Timothée Chalamet, 
+Paris
+USER 2
+Timothée Chalamet, 
+New York
+USER 2
+Timothée Chalamet, 
+Paris
+
+
+USER 1
+Xavier Laurent,
+Paris
+USER 2
+Timothée Chalamet, 
+New York
+USER 2
+Timothée Chalamet, 
+Paris
+
+
+USER 1
+Xavier Laurent,
+Paris
+USER 2
+Timothée Chalamet, 
+New York
+
+
+USER 1
+Xavier Laurent,
+Paris
+USER 2
+Timothée Chalamet, 
+New York
+USER 2
+Xavier Laurent, 
+New York
+
+
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+Benefit #5: Handling Failures
+UserName
+Location
+Country
+
+
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+Benefit #5: Handling Failures
+UserName
+Location
+Country
+Atomic Transactions
+“All or Nothing”
+
+
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+Benefit #5: Handling Failures
+UserName
+Location
+Country
+Timothée Chalamet    Paris 
+ 
+France
+Lana Condor 
+   Los Angeles 
+USA
+Liu Lifei  
+   Beijing  
+China
+Burna Boy 
+   Lagos  
+Kriti Sanon 
+   Mumbai
+Atomic Transactions
+“All or Nothing”
+
+
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+Benefit #5: Handling Failures
+UserName
+Location
+Country
+Timothée Chalamet    Paris 
+ 
+France
+Lana Condor 
+   Los Angeles 
+USA
+Liu Lifei  
+   Beijing  
+China
+Burna Boy 
+   Lagos  
+Kriti Sanon 
+   Mumbai
+Atomic Transactions
+“All or Nothing”
+Reversion
+
+
+UserName
+Location
+Louis Garrel
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+UserName
+Location
+Country
+Timothée Chalamet       Paris
+Lana Condor    
+      Los Angeles 
+Liu Lifei 
+ 
+      Beijing 
+Burna Boy 
+ 
+      Lagos 
+Kriti Sanon 
+ 
+     Mumbai
+France
+USA
+China
+Benefit #5: Handling Failures
+
+
+UserName
+Location
+Louis Garrel
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+UserName
+Location
+Country
+Timothée Chalamet       Paris
+Lana Condor    
+      Los Angeles 
+Liu Lifei 
+ 
+      Beijing 
+Burna Boy 
+ 
+      Lagos 
+Kriti Sanon 
+ 
+     Mumbai
+Benefit #5: Handling Failures
+
+
+Benefit #6: Memory Management
+Cached Pages
+Database
+Faster access 
+- not durable
+Memory
+Disk
+Transaction Log
+Slower access 
+- but durable
+
+
+Benefit #6: Memory Management
+Cached Pages
+Database
+Faster access 
+- not durable
+Memory
+Disk
+Transaction Log
+Slower access 
+- but durable
+1
+
+
+Benefit #6: Memory Management
+Cached Pages
+Database
+Faster access 
+- not durable
+Memory
+Disk
+Transaction Log
+Slower access 
+- but durable
+1
+2
+
+
+Benefit #6: Memory Management
+Cached Pages
+Database
+Faster access 
+- not durable
+Memory
+Disk
+Transaction Log
+Slower access 
+- but durable
+1
+2
+3
+
+
+Benefit #6: Memory Management
+Cached Pages
+Database
+Faster access 
+- not durable
+Memory
+Disk
+Transaction Log
+Slower access 
+- but durable
+1
+2
+3
+4
+
+
+Benefit #6: Memory Management
+Cached Pages
+Database
+Faster access 
+- not durable
+Memory
+Disk
+Transaction Log
+Slower access 
+- but durable
+1
+2
+3
+4
+5
+
+
+Benefit #7: Usability
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+
+
+Benefit #7: Usability
+UserName
+Location
+Timothée Chalamet
+Paris
+Lana Condor
+Los Angeles
+Liu Yifei
+Beijing
+Burna Boy
+Lagos
+Kriti Sanon
+Mumbai
+
+
+Benefit #7: Usability
+SELECT PostContent, CommentText 
+FROM Posts
+JOIN Interactions ON Posts.PostID = Interactions.PostID 
+WHERE Interactions.UserName = 'Lana Condor'
+ AND Interactions.ReactionType = 'Comment';
+
+
+Benefit #7: Usability
+SELECT PostContent, CommentText 
+FROM Posts
+JOIN Interactions ON Posts.PostID = Interactions.PostID 
+WHERE Interactions.UserName = 'Lana Condor'
+ AND Interactions.ReactionType = 'Comment';
+Python, C++ = Imperative
+SQL = Declarative
+
+
+
+
+Relational 
+Database
+
+
+Relational 
+Database
+Relational 
+Database 
+Benefits
+
+
+Relational Operators
+
+
+
+
+Relational Operators
+
+
+Relational Operators
+
+
+Relations
+Relational Operators
+
+
+SELECT
+GROUP BY
+SUM
+Relational Operators
+
+
+SELECT
+GROUP BY
+SUM
+Relational Operators
+
+
+SELECT
+GROUP BY
+SUM
+Relational Operators
+
+
+SELECT
+GROUP BY
+SUM
+Relational Operators
+
+
+SELECT
+GROUP BY
+SUM
+Relational Operators
+
+
+SELECT
+GROUP 
+BY
+SUM
+Relational Operators
+
+
+SELECT (Projection Operator)
+Select specific columns from a table
+Example: Retrieve locations of all users.
+
+
+SELECT Location
+FROM Users;
+SELECT (Projection Operator)
+Select specific columns from a table
+Example: Retrieve locations of all users.
+
+
+WHERE (Selection Operator)
+Filters rows based on specified conditions
+Example: Find all interactions that are "Like" reactions.
+
+
+WHERE (Selection Operator)
+SELECT *
+FROM Interactions
+WHERE ReactionType = 'Like';
+Filters rows based on specified conditions
+Example: Find all interactions that are "Like" reactions.
+
+
+GROUP BY (Grouping Operator)
+• Groups rows of same values 
+• Used with aggregate functions like SUM
+Example: Count the number of reactions that each post received.
+γ
+
+
+GROUP BY (Grouping Operator)
+SELECT PostID,
+   COUNT(*) AS ReactionCount
+FROM Interactions
+GROUP BY PostID;
+• Groups rows of same values 
+• Used with aggregate functions like SUM
+Example: Count the number of reactions that each post received.
+γ
+
+
+SUM (Aggregation Operator)
+• Adds group values
+• Defined by GROUP BY clause
+Σ
+Example: Total number of posts made by each user, grouping the results by UserID.
+
+
+SUM (Aggregation Operator)
+SELECT UserID,
+   COUNT(PostID) AS TotalPosts
+FROM Posts
+GROUP BY UserID;
+• Adds group values
+• Defined by GROUP BY clause
+Σ
+Example: Total number of posts made by each user, grouping the results by UserID.
+
+
+JOIN (Join Operator)
+• Links rows from two different tables 
+• Combine information from both
+⨝
+Example: Engagement received by each post along with its content.
+
+
+JOIN (Join Operator)
+SELECT Posts.PostContent,
+   COUNT(Interactions.ReactionType) AS TotalInteractions
+FROM Posts
+JOIN Interactions ON Posts.PostID = Interactions.PostID
+GROUP BY Posts.PostID;
+• Links rows from two different tables 
+• Combine information from both
+⨝
+Example: Engagement received by each post along with its content.
+
+
+Relational Algebra
+
+
+Relational Algebra
+
+
+Relational Algebra
+Creating
+a Query
+Combine 
+Operators
+Theoretical 
+Foundation
+
+
+Relational Algebra
+Creating
+a Query
+Combine 
+Operators
+Theoretical 
+Foundation
+Query
+Data
+Aggregate 
+Data
+Sequence of 
+Operators
+
+
+Power of SQL
+
+
+Power of SQL
+SELECT Interactions.PostID, COUNT(*) AS TotalLikes,
+       GROUP_CONCAT(DISTINCT Users.UserID 
+                    || ' - ' || Users.Username)
+       AS UsersWhoLiked
+FROM Interactions
+JOIN Users ON Interactions.UserID = Users.UserID
+WHERE Interactions.ReactionType = 'Like'
+GROUP BY Interactions.PostID
+ORDER BY TotalLikes DESC
+LIMIT 1;
+Combine Operators
+
+
+Power of SQL
+SELECT Interactions.PostID, COUNT(*) AS TotalLikes,
+       GROUP_CONCAT(DISTINCT Users.UserID 
+                    || ' - ' || Users.Username)
+       AS UsersWhoLiked
+FROM Interactions
+JOIN Users ON Interactions.UserID = Users.UserID
+WHERE Interactions.ReactionType = 'Like'
+GROUP BY Interactions.PostID
+ORDER BY TotalLikes DESC
+LIMIT 1;
+Combine Operators
+Filter Interactions
+
+
+Power of SQL
+SELECT Interactions.PostID, COUNT(*) AS TotalLikes,
+       GROUP_CONCAT(DISTINCT Users.UserID 
+                    || ' - ' || Users.Username)
+       AS UsersWhoLiked
+FROM Interactions
+JOIN Users ON Interactions.UserID = Users.UserID
+WHERE Interactions.ReactionType = 'Like'
+GROUP BY Interactions.PostID
+ORDER BY TotalLikes DESC
+LIMIT 1;
+Combine Operators
+Filter Interactions
+Combine Tables
+
+
+Power of SQL
+SELECT Interactions.PostID, COUNT(*) AS TotalLikes,
+       GROUP_CONCAT(DISTINCT Users.UserID 
+                    || ' - ' || Users.Username)
+       AS UsersWhoLiked
+FROM Interactions
+JOIN Users ON Interactions.UserID = Users.UserID
+WHERE Interactions.ReactionType = 'Like'
+GROUP BY Interactions.PostID
+ORDER BY TotalLikes DESC
+LIMIT 1;
+Combine Operators
+Filter Interactions
+Combine Tables
+Group & Count Results
+
+
+Power of SQL
+SELECT Interactions.PostID, COUNT(*) AS TotalLikes,
+       GROUP_CONCAT(DISTINCT Users.UserID 
+                    || ' - ' || Users.Username)
+       AS UsersWhoLiked
+FROM Interactions
+JOIN Users ON Interactions.UserID = Users.UserID
+WHERE Interactions.ReactionType = 'Like'
+GROUP BY Interactions.PostID
+ORDER BY TotalLikes DESC
+LIMIT 1;
+Combine Operators
+Filter Interactions
+Combine Tables
+Group & Count Results
+Project Fields
+
+
+Power of SQL
+SELECT Interactions.PostID, COUNT(*) AS TotalLikes,
+       GROUP_CONCAT(DISTINCT Users.UserID 
+                    || ' - ' || Users.Username)
+       AS UsersWhoLiked
+FROM Interactions
+JOIN Users ON Interactions.UserID = Users.UserID
+WHERE Interactions.ReactionType = 'Like'
+GROUP BY Interactions.PostID
+ORDER BY TotalLikes DESC
+LIMIT 1;
+Combine Operators
+Filter Interactions
+Combine Tables
+Group & Count Results
+Project Fields
+Sort Posts
+
+
+Results
+Power of SQL
+SELECT Interactions.PostID, COUNT(*) AS TotalLikes,
+       GROUP_CONCAT(DISTINCT Users.UserID 
+                    || ' - ' || Users.Username)
+       AS UsersWhoLiked
+FROM Interactions
+JOIN Users ON Interactions.UserID = Users.UserID
+WHERE Interactions.ReactionType = 'Like'
+GROUP BY Interactions.PostID
+ORDER BY TotalLikes DESC
+LIMIT 1;
+Combine Operators
+Filter Interactions
+Combine Tables
+Group & Count Results
+Project Fields
+Sort Posts
+Post 1002 liked by 3 users 
+'3 - Liu Yifei,4 - Burna Boy,5 - Kriti Sanon'
+
+
+Relational Algebra
+Τ TotalLikes DESC​ 
+ (π PostID, TotalLikes, UsersWhoLiked
+  (γ COUNT(∗)→TotalLikes,
+     GROUP_CONCAT(..) →UsersWhoLiked
+   (σ ReactionType=′Like′​
+    (Interactions) ⨝ Users) 
+   )
+  )
+
+
+Relational Algebra
+Τ TotalLikes DESC​ 
+ (π PostID, TotalLikes, UsersWhoLiked
+  (γ COUNT(∗)→TotalLikes,
+     GROUP_CONCAT(..) →UsersWhoLiked
+   (σ ReactionType=′Like′​
+    (Interactions) ⨝ Users) 
+   )
+  )
+Filters Interactions
+
+
+Relational Algebra
+Τ TotalLikes DESC​ 
+ (π PostID, TotalLikes, UsersWhoLiked
+  (γ COUNT(∗)→TotalLikes,
+     GROUP_CONCAT(..) →UsersWhoLiked
+   (σ ReactionType=′Like′​
+    (Interactions) ⨝ Users) 
+   )
+  )
+Filters Interactions
+Combine Tables
+
+
+Relational Algebra
+Τ TotalLikes DESC​ 
+ (π PostID, TotalLikes, UsersWhoLiked
+  (γ COUNT(∗)→TotalLikes,
+     GROUP_CONCAT(..) →UsersWhoLiked
+   (σ ReactionType=′Like′​
+    (Interactions) ⨝ Users) 
+   )
+  )
+Filters Interactions
+Combine Tables
+Group & Aggregate
+
+
+Relational Algebra
+Τ TotalLikes DESC​ 
+ (π PostID, TotalLikes, UsersWhoLiked
+  (γ COUNT(∗)→TotalLikes,
+     GROUP_CONCAT(..) →UsersWhoLiked
+   (σ ReactionType=′Like′​
+    (Interactions) ⨝ Users) 
+   )
+  )
+Filters Interactions
+Combine Tables
+Group & Aggregate
+Project Output
+
+
+Relational Algebra
+Τ TotalLikes DESC​ 
+ (π PostID, TotalLikes, UsersWhoLiked
+  (γ COUNT(∗)→TotalLikes,
+     GROUP_CONCAT(..) →UsersWhoLiked
+   (σ ReactionType=′Like′​
+    (Interactions) ⨝ Users) 
+   )
+  )
+Filters Interactions
+Combine Tables
+Group & Aggregate
+Project Output
+Sort Posts
+
+
+
+
+Relational 
+Operators
+
+
+Relational 
+Operators
+Relational 
+Algebra
+
+

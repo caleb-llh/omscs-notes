@@ -1,0 +1,1759 @@
+--- Module 05 ---
+
+Buffer Manager
+
+
+
+
+Buffer 
+Manager
+
+
+Buffer 
+Manager
+Cache 
+Replacement 
+Policy
+
+
+DRAM vs SSD
+Device
+Latency (ns)
+Price per GB ($)
+Dynamic RAM (DRAM)
+50
+10
+Solid State Disk (SSD)
+50 * 1000
+0.1
+DRAM
+SSD
+
+
+DRAM vs SSD
+Device
+Latency (ns)
+Price per GB ($)
+Dynamic RAM (DRAM)
+50
+10
+Solid State Disk (SSD)
+50 * 1000
+0.1
+50
+DRAM
+SSD
+
+
+DRAM vs SSD
+Device
+Latency (ns)
+Price per GB ($)
+Dynamic RAM (DRAM)
+50
+10
+Solid State Disk (SSD)
+50 * 1000
+0.1
+50
+50 * 1000
+DRAM
+SSD
+
+
+DRAM vs SSD
+Device
+Latency (ns)
+Price per GB ($)
+Dynamic RAM (DRAM)
+50
+10
+Solid State Disk (SSD)
+50 * 1000
+0.1
+50
+10
+50 * 1000
+DRAM
+SSD
+
+
+DRAM vs SSD
+Device
+Latency (ns)
+Price per GB ($)
+Dynamic RAM (DRAM)
+50
+10
+Solid State Disk (SSD)
+50 * 1000
+0.1
+50
+10
+50 * 1000
+0.1
+DRAM
+SSD
+
+
+Buffer Manager
+Buffer Manager Caches frequently-
+accessed pages in DRAM
+Disk
+Memory
+Storage Manager
+Buffer Manager
+Storage Manager: low-level file I/O 
+operations 
+
+
+class BufferManager {
+private:
+ StorageManager storage_manager;
+ // LRU list to maintain the order of page usage
+ std::list<std::pair<PageID, std::unique_ptr<SlottedPage>>> lruList;
+ // Map to quickly find pages in the list
+ std::unordered_map<PageID, typename PageList::iterator> pageMap;
+public:
+ // Fetches a page with given ID, applying LRU policy for caching
+ std::unique_ptr<SlottedPage> &getPage(int page_id);
+};
+Buffer Manager
+Buffer Manager: Maintains a list of pages in 
+memory and a mapping from page IDs
+
+
+Page 7
+Page 1
+Page 6
+Page 2
+Page 2
+Page 7
+Page 1
+Page 6
+Page 5
+Page 2
+Page 7
+Page 1
+Initial State
+After Accessing
+Page 2
+After Accessing
+Page 5
+Least
+Recently Used Page
+Least
+Recently Used Page
+Page 6 Evicted
+to make space
+Least Recently Used (LRU) Policy
+
+
+class BufferManager {
+private:
+ StorageManager storage_manager;
+ // LRU list to maintain the order of page usage
+ std::list<std::pair<PageID, std::unique_ptr<SlottedPage>>> lruList;
+ // Map to quickly find pages in the list
+ std::unordered_map<PageID, typename PageList::iterator> pageMap;
+};
+Buffer Manager
+
+
+class BufferManager {
+private:
+ StorageManager storage_manager;
+ // LRU list to maintain the order of page usage
+ std::list<std::pair<PageID, std::unique_ptr<SlottedPage>>> lruList;
+ // Map to quickly find pages in the list
+ std::unordered_map<PageID, typename PageList::iterator> pageMap;
+};
+Buffer Manager
+Utilized for page 
+identification
+PageID
+
+
+class BufferManager {
+private:
+ StorageManager storage_manager;
+ // LRU list to maintain the order of page usage
+ std::list<std::pair<PageID, std::unique_ptr<SlottedPage>>> lruList;
+ // Map to quickly find pages in the list
+ std::unordered_map<PageID, typename PageList::iterator> pageMap;
+};
+Buffer Manager
+Stores currently 
+loaded pages in 
+LRU order
+Utilized for page 
+identification
+PageID
+lruList
+
+
+class BufferManager {
+private:
+ StorageManager storage_manager;
+ // LRU list to maintain the order of page usage
+ std::list<std::pair<PageID, std::unique_ptr<SlottedPage>>> lruList;
+ // Map to quickly find pages in the list
+ std::unordered_map<PageID, typename PageList::iterator> pageMap;
+};
+Buffer Manager
+mapping from 
+PageID to their 
+locations in 
+lruList
+Stores currently 
+loaded pages in 
+LRU order
+Utilized for page 
+identification
+PageID
+lruList
+pageMap
+
+
+Buffer Manager & Storage Manager
+std::unique_ptr<SlottedPage> &BufferManager::getPage(int page_id) {
+ auto it = pageMap.find(page_id);
+ if (it == pageMap.end()) {
+  // Page not in cache, load from disk
+  auto page = storage_manager.load(page_id);
+  …
+ }
+ touch(pageMap[page_id]);
+ return lruList.begin()->second;
+}
+StorageManager: Loads Page from Disk when 
+Page Not Found in Buffer Cache
+
+
+touch
+void touch(PageList::iterator it) {
+ // Move page to the front of the list, indicating recent use
+ lruList.splice(lruList.begin(), lruList, it);
+}
+• Updates a page's position in the LRU list to 
+reflect its recent access
+• Splice method in std::list is used to move the 
+page to the front of the list
+touch
+
+
+evict
+void evict() {
+  // Get iterator to the last element
+ auto last = --lruList.end(); 
+ int evictedPageId = last->first;
+ // Flush page changes to disk before eviction if necessary
+ storage_manager.flush(evictedPageId, last->second);
+ // Remove page from page map and LRU list
+ pageMap.erase(evictedPageId);
+ lruList.pop_back();
+}
+• Removes least recently used page from buffer
+•  Changes flushed to ensure no data loss
+evict
+
+
+Update LRU Cache
+(Evict some Page if Full)
+Update LRU Cache
+Load Page X from 
+Disk
+Page X in 
+Memory?
+Return Page X in 
+Memory
+Yes
+No
+Buffer Manager
+
+
+Modularity
+// BuzzDB now uses BufferManager for page operations
+void BuzzDB::insert(int key, int value) {
+ … 
+  // Interacts through BufferManager
+  auto &page = buffer_manager.getPage(page_id);
+ page->addTuple(std::move(newTuple));
+ …
+}
+•  Interacts only with BufferManager for page-related operations
+•  BuzzDB no longer accesses StorageManager
+buzzDB
+
+
+
+
+Buffer 
+Manager
+
+
+Buffer 
+Manager
+Cache 
+Replacement 
+Policy
+
+
+
+
+Cache Eviction Policies
+
+
+
+
+Policy
+Interface
+
+
+Policy
+Interface
+Policy vs
+Mechanism
+
+
+Policy Interface
+class Policy {
+public:
+ virtual void touch(PageID page_id) = 0;
+ virtual PageID evict() = 0;
+ virtual ~Policy() = default;
+};
+Allows for different interchangeable policies 
+policy interface
+Touch and Evict functions encapsulate the essence of any eviction policy
+
+
+FIFO (First-In-First-Out) Policy
+class FifoPolicy : public Policy {
+ std::queue<PageID> queue;
+public:
+ void touch(PageID page_id) override {
+  auto it = std::find(queue.begin(), queue.end(), page_id);
+  if (it == queue.end()) {
+   queue.push(page_id);
+  }
+ }
+ PageID evict() override {
+  PageID evictedPageId = queue.front();
+  queue.pop();
+  return evictedPageId;
+ }
+};
+Evicts the oldest loaded page based on its arrival time
+FIFO policy
+
+
+FIFO (First-In-First-Out) Policy
+Page 7
+Page 1
+Page 6
+Page 2
+Page 7
+Page 1
+Page 6
+Page 2
+Page 1
+Page 6
+Page 2
+Page 5
+Initial State
+After Accessing
+Page 2
+After Accessing
+Page 5
+Most
+Recently Added Page
+Most
+Recently Added Page
+Page 7 Evicted
+to make space
+May evict recently accessed pages
+FIFO policy
+
+
+LRU (Least Recently Used) Policy
+class LruPolicy : public Policy {
+ std::list<PageID> lruList;
+ std::unordered_map<PageID, std::list<PageID>::iterator> map;
+public:
+ void
+ touch(PageID page_id) override; // Detailed implementation omitted for brevity
+ PageID evict() override;     // Evicts the least recently used page
+};
+Evicts pages that have not been accessed recently
+LRU policy
+
+
+Integration into Buffer Manager
+class BufferManager {
+ std::unique_ptr<Policy> policy;
+ // Other members omitted for brevity
+public:
+ BufferManager(std::unique_ptr<Policy> policy) : policy(std::move(policy)) {}
+ // Interface methods omitted for brevity
+};
+Contains a pointer to the Policy
+Buffer Manager
+
+
+Integration into Buffer Manager
+std::unique_ptr<SlottedPage> &BufferManager::getPage(int page_id) {
+ if (it == pageMap.end()) { // Page not in memory
+  if (pageMap.size() >= MAX_PAGES_IN_MEMORY) {
+   PageID evictedPageId = policy->evict(); // Evict page
+   …
+  }
+ }
+ policy->touch(page_id); // Update policy with recent access
+ return pageMap[page_id];
+}
+Called to update the policy state
+touch method
+Evict method invoked if buffer page limit is reached
+
+
+Policy vs. Mechanism
+MECHANISM
+(How)
+POLICY
+(What)
+Cache Eviction Policy
+(LRU or FIFO etc.)
+Cache Eviction Mechanism
+(Flush page to disk)
+“what” actions should be taken
+policy
+“how” these actions are taken
+mechanism
+
+
+Policy vs. Mechanism: Index Maintenance
+MECHANISM
+(How)
+POLICY
+(What)
+Lazy vs Eager
+Index Updates
+index[key] = value
+
+
+
+
+Policy
+Interface
+
+
+Policy
+Interface
+Policy vs
+Mechanism
+
+
+
+
+TwoQ Policy
+
+
+
+
+Buffer Pool 
+Flooding
+
+
+Buffer Pool 
+Flooding
+TwoQ
+Policy
+
+
+Sequential Scan
+// Sequential scan across the sales_data table
+// Assumption: No index on sale_date column
+SELECT *
+FROM sales_data
+WHERE sale_date BETWEEN ‘2040-01-01’ AND ‘2040-01-31’;
+when a database reads every table page while processing a 
+query
+sequential scan
+
+
+Buffer Pool Flooding
+Sequential scan floods the buffer pool with 
+less important pages
+
+
+Buffer Pool Flooding
+Sequential scan floods the buffer pool with 
+less important pages
+Evicts the 
+oldest page 
+from 
+cache
+FIFO Policy
+
+
+Buffer Pool Flooding
+Sequential scan floods the buffer pool with 
+less important pages
+Evicts the 
+oldest page 
+from 
+cache
+FIFO Policy
+Evicts 
+hot pages 
+to store 
+cold pages
+LRU Policy
+
+
+FIFO: Buffer Pool Flooding
+Access Page
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue: 1
+1
+2
+2
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue: 2
+-
+1
+1
+1
+2
+3
+4
+1
+2
+5
+6
+1
+FIFO Queue: 3
+-
+-
+-
+-
+1
+2
+3
+4
+1
+2
+5
+6
+Evict Page
+1
+2
+3
+4
+1
+2
+5
+Cache Misses
+1
+2
+2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Page Access 
+Trace
+
+
+FIFO: Buffer Pool Flooding
+Access Page
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue: 1
+1
+2
+2
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue: 2
+-
+1
+1
+1
+2
+3
+4
+1
+2
+5
+6
+1
+FIFO Queue: 3
+-
+-
+-
+-
+1
+2
+3
+4
+1
+2
+5
+6
+Evict Page
+1
+2
+3
+4
+1
+2
+5
+Cache Misses
+1
+2
+2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Page Access 
+Trace
+1
+2
+1
+2
+3
+4
+1
+2
+1
+2
+5
+6
+
+
+FIFO: Buffer Pool Flooding
+Access Page
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue: 1
+1
+2
+2
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue: 2
+-
+1
+1
+1
+2
+3
+4
+1
+2
+5
+6
+1
+FIFO Queue: 3
+-
+-
+-
+-
+1
+2
+3
+4
+1
+2
+5
+6
+Evict Page
+1
+2
+3
+4
+1
+2
+5
+Cache Misses
+1
+2
+2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Page Access 
+Trace
+1
+2
+1
+2
+3
+4
+1
+2
+1
+2
+5
+6
+Buffer Pool Capacity: 3 Pages
+
+
+FIFO: Buffer Pool Flooding
+Access Page
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue: 1
+1
+2
+2
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue: 2
+-
+1
+1
+1
+2
+3
+4
+1
+2
+5
+6
+1
+FIFO Queue: 3
+-
+-
+-
+-
+1
+2
+3
+4
+1
+2
+5
+6
+Evict Page
+1
+2
+3
+4
+1
+2
+5
+Cache Misses
+1
+2
+2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Page Access 
+Trace
+1
+2
+1
+2
+3
+4
+1
+2
+1
+2
+5
+6
+Buffer Pool Capacity: 3 Pages
+FIFO evicts hot pages 1 and 2
+
+
+Access Page
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+LRU Queue: 1
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+LRU Queue: 2
+-
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+LRU Queue: 3
+-
+-
+-
+-
+1
+2
+3
+4
+1
+2
+5
+6
+Evict Page
+1
+2
+3
+4
+1
+2
+5
+Cache Misses
+1
+2
+2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Page Access 
+Trace
+LRU: Buffer Pool Flooding
+
+
+Access Page
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+LRU Queue: 1
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+LRU Queue: 2
+-
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+LRU Queue: 3
+-
+-
+-
+-
+1
+2
+3
+4
+1
+2
+5
+6
+Evict Page
+1
+2
+3
+4
+1
+2
+5
+Cache Misses
+1
+2
+2
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Page Access 
+Trace
+1
+2
+1
+2
+3
+4
+1
+2
+1
+2
+5
+6
+Buffer Pool Capacity: 3 Pages
+LRU evicts hot pages 1 and 2
+LRU: Buffer Pool Flooding
+
+
+TwoQ Policy
+• Page initially enters FIFO queue
+• Page moves to LRU queue on second access 
+page transition logic
+
+
+TwoQ Policy
+FIFO Queue
+Read-Once 
+Pages 
+Accessed 
+During 
+Sequential 
+Scan
+• Page initially enters FIFO queue
+• Page moves to LRU queue on second access 
+page transition logic
+
+
+TwoQ Policy
+FIFO Queue
+Read-Once 
+Pages 
+Accessed 
+During 
+Sequential 
+Scan
+LRU Queue
+Frequently-
+Accessed 
+Hot Pages 
+Promoted 
+to 
+LRU Queue 
+• Page initially enters FIFO queue
+• Page moves to LRU queue on second access 
+page transition logic
+
+
+void touch(PageID page_id) {
+ if (pageMap.find(page_id) != pageMap.end()) {
+  auto it = pageMap[page_id];
+  // If in FIFO and accessed again, move to LRU
+  // Otherwise, adjust position within LRU
+    // If cache is full, then evict
+  // New pages added to FIFO
+ }
+}
+TwoQ Policy: touch
+
+
+void touch(PageID page_id) {
+ if (pageMap.find(page_id) != pageMap.end()) {
+  auto it = pageMap[page_id];
+  // If in FIFO and accessed again, move to LRU
+  // Otherwise, adjust position within LRU
+    // If cache is full, then evict
+  // New pages added to FIFO
+ }
+}
+TwoQ Policy: touch
+Pages Enter FIFO Queue
+
+
+void touch(PageID page_id) {
+ if (pageMap.find(page_id) != pageMap.end()) {
+  auto it = pageMap[page_id];
+  // If in FIFO and accessed again, move to LRU
+  // Otherwise, adjust position within LRU
+    // If cache is full, then evict
+  // New pages added to FIFO
+ }
+}
+TwoQ Policy: touch
+Pages Promoted To LRU
+Pages Enter FIFO Queue
+
+
+void touch(PageID page_id) {
+ if (pageMap.find(page_id) != pageMap.end()) {
+  auto it = pageMap[page_id];
+  // If in FIFO and accessed again, move to LRU
+  // Otherwise, adjust position within LRU
+    // If cache is full, then evict
+  // New pages added to FIFO
+ }
+}
+TwoQ Policy: touch
+Page Position Updated 
+When Accessed
+Pages Promoted To LRU
+Pages Enter FIFO Queue
+
+
+void touch(PageID page_id) {
+ // If the page is already in the cache
+ if (pageMap.find(page_id) != pageMap.end()) {
+  auto it = pageMap[page_id];
+  // If it's in FIFO, move to LRU
+  if (std::find(FIFO.begin(), FIFO.end(), page_id) 
+            != FIFO.end()) {
+   FIFO.erase(it);
+   LRU.push_front(page_id);
+   pageMap[page_id] = LRU.begin();
+  }
+  ...
+}
+TwoQ Policy: touch
+
+
+void touch(PageID page_id) {
+ // If the page is already in the cache
+ if (pageMap.find(page_id) != pageMap.end()) {
+  auto it = pageMap[page_id];
+  // If it's in FIFO, move to LRU
+  if (std::find(FIFO.begin(), FIFO.end(), page_id) 
+            != FIFO.end()) {
+   FIFO.erase(it);
+   LRU.push_front(page_id);
+   pageMap[page_id] = LRU.begin();
+  }
+  ...
+}
+TwoQ Policy: touch
+Check FIFO Queue When 
+Page Accessed
+
+
+void touch(PageID page_id) {
+ // If the page is already in the cache
+ if (pageMap.find(page_id) != pageMap.end()) {
+  auto it = pageMap[page_id];
+  // If it's in FIFO, move to LRU
+  if (std::find(FIFO.begin(), FIFO.end(), page_id) 
+            != FIFO.end()) {
+   FIFO.erase(it);
+   LRU.push_front(page_id);
+   pageMap[page_id] = LRU.begin();
+  }
+  ...
+}
+TwoQ Policy: touch
+Page in FIFO Queue 
+Upgraded to LRU Queue
+Check FIFO Queue When 
+Page Accessed
+
+
+void touch(PageID page_id) {
+ // If the page is already in the cache
+ if (pageMap.find(page_id) != pageMap.end()) {
+  auto it = pageMap[page_id];
+  // If it's in FIFO, move to LRU
+  if (std::find(FIFO.begin(), FIFO.end(), page_id) 
+            != FIFO.end()) {
+   FIFO.erase(it);
+   LRU.push_front(page_id);
+   pageMap[page_id] = LRU.begin();
+  }
+  ...
+}
+TwoQ Policy: touch
+Page in LRU Queue Has 
+Higher Reuse Probability
+Page in FIFO Queue 
+Upgraded to LRU Queue
+Check FIFO Queue When 
+Page Accessed
+
+
+void touch(PageID page_id){
+  else {
+      // If it's in LRU, move to the front
+  LRU.erase(it);
+     LRU.push_front(page_id);
+     pageMap[page_id] = LRU.begin();
+  }
+  ...
+}
+TwoQ Policy: touch
+Most Recently Used Pages in 
+LRU Queue Evicted Last
+
+
+void touch(PageID page_id) {
+ ...
+ // If the page is not in the cache
+ else {
+  // If cache is full, evict
+  if (FIFO.size() + LRU.size() >= cacheSize) {
+   evict();
+  }
+  // Add page to FIFO
+  FIFO.push_back(page_id);
+  pageMap[page_id] = std::prev(FIFO.end());
+ }
+}
+TwoQ Policy: touch
+
+
+void touch(PageID page_id) {
+ ...
+ // If the page is not in the cache
+ else {
+  // If cache is full, evict
+  if (FIFO.size() + LRU.size() >= cacheSize) {
+   evict();
+  }
+  // Add page to FIFO
+  FIFO.push_back(page_id);
+  pageMap[page_id] = std::prev(FIFO.end());
+ }
+}
+TwoQ Policy: touch
+Check if Cache is Full
+
+
+void touch(PageID page_id) {
+ ...
+ // If the page is not in the cache
+ else {
+  // If cache is full, evict
+  if (FIFO.size() + LRU.size() >= cacheSize) {
+   evict();
+  }
+  // Add page to FIFO
+  FIFO.push_back(page_id);
+  pageMap[page_id] = std::prev(FIFO.end());
+ }
+}
+TwoQ Policy: touch
+Check if Cache is Full
+Sum of size of 
+FIFO and LRU Queues
+
+
+void touch(PageID page_id) {
+ ...
+ // If the page is not in the cache
+ else {
+  // If cache is full, evict
+  if (FIFO.size() + LRU.size() >= cacheSize) {
+   evict();
+  }
+  // Add page to FIFO
+  FIFO.push_back(page_id);
+  pageMap[page_id] = std::prev(FIFO.end());
+ }
+}
+TwoQ Policy: touch
+Check if Cache is Full
+Sum of size of 
+FIFO and LRU Queues
+Evict Method Triggered 
+if Cache is Full
+
+
+PageID evict() {
+ // FIFO pages are evicted first to minimize cache pollution,
+ // followed by the least recently used pages in LRU
+}
+TwoQ Policy: evict
+• Prioritizes Eviction from FIFO Queue
+• Minimizes Cache Pollution from Sequential Scans
+TwoQ evict
+
+
+PageID evict() {
+ PageID evictedPageId = INVALID_VALUE;
+ if (!FIFO.empty()) {
+  evictedPageId = FIFO.front();
+  FIFO.pop_front();
+  pageMap.erase(evictedPageId);
+ } else if (!LRU.empty()) {
+  evictedPageId = LRU.back();
+  LRU.pop_back();
+  pageMap.erase(evictedPageId);
+ }
+ return evictedPageId;
+}
+TwoQ Policy: evict
+
+
+PageID evict() {
+ PageID evictedPageId = INVALID_VALUE;
+ if (!FIFO.empty()) {
+  evictedPageId = FIFO.front();
+  FIFO.pop_front();
+  pageMap.erase(evictedPageId);
+ } else if (!LRU.empty()) {
+  evictedPageId = LRU.back();
+  LRU.pop_back();
+  pageMap.erase(evictedPageId);
+ }
+ return evictedPageId;
+}
+TwoQ Policy: evict
+FIFO 
+Eviction 
+Targets 
+Oldest Page 
+in Cache
+
+
+PageID evict() {
+ PageID evictedPageId = INVALID_VALUE;
+ if (!FIFO.empty()) {
+  evictedPageId = FIFO.front();
+  FIFO.pop_front();
+  pageMap.erase(evictedPageId);
+ } else if (!LRU.empty()) {
+  evictedPageId = LRU.back();
+  LRU.pop_back();
+  pageMap.erase(evictedPageId);
+ }
+ return evictedPageId;
+}
+TwoQ Policy: evict
+FIFO 
+Eviction 
+Targets 
+Oldest Page 
+in Cache
+Last-Used 
+Page in LRU 
+Cache 
+Evicted if 
+FIFO Cache 
+Empty
+
+
+TwoQ: No Buffer Pool Flooding
+Access Page
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue:1
+1
+2
+2
+_
+3
+4
+4
+4
+5
+6
+6
+6
+FIFO Queue:2
+-
+1
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+FIFO Queue:3
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+LRU Queue: 1
+-
+-
+1
+2
+2
+2
+1
+2
+2
+2
+1
+2
+LRU Queue: 2
+-
+-
+-
+1
+1
+1
+2
+1
+1
+1
+2
+1
+LRU Queue: 3
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Evict Page
+3
+4
+5
+Cache Misses
+1
+2
+2
+2
+3
+4
+4
+4
+5
+6
+6
+6
+TwoQ retains hot pages like 1 and 2
+
+
+TwoQ: No Buffer Pool Flooding
+Access Page
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue:1
+1
+2
+2
+_
+3
+4
+4
+4
+5
+6
+6
+6
+FIFO Queue:2
+-
+1
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+FIFO Queue:3
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+LRU Queue: 1
+-
+-
+1
+2
+2
+2
+1
+2
+2
+2
+1
+2
+LRU Queue: 2
+-
+-
+-
+1
+1
+1
+2
+1
+1
+1
+2
+1
+LRU Queue: 3
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Evict Page
+3
+4
+5
+Cache Misses
+1
+2
+2
+2
+3
+4
+4
+4
+5
+6
+6
+6
+TwoQ retains hot pages like 1 and 2
+
+
+TwoQ: No Buffer Pool Flooding
+Access Page
+1
+2
+1
+2
+3
+4
+1
+2
+5
+6
+1
+2
+FIFO Queue:1
+1
+2
+2
+_
+3
+4
+4
+4
+5
+6
+6
+6
+FIFO Queue:2
+-
+1
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+FIFO Queue:3
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+LRU Queue: 1
+-
+-
+1
+2
+2
+2
+1
+2
+2
+2
+1
+2
+LRU Queue: 2
+-
+-
+-
+1
+1
+1
+2
+1
+1
+1
+2
+1
+LRU Queue: 3
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+Evict Page
+3
+4
+5
+Cache Misses
+1
+2
+2
+2
+3
+4
+4
+4
+5
+6
+6
+6
+TwoQ retains hot pages like 1 and 2
+
+
+More Policies: LFU
+
+
+More Policies: LFU
+LFU Policy Benefits
+Keeps Frequently-Used 
+Pages in Memory 
+
+
+More Policies: LFU
+LFU Policy Benefits
+Keeps Frequently-Used 
+Pages in Memory 
+LFU Policy Limitations
+Does Not Consider Changes 
+to Recent Access Patterns
+
+
+More Policies: ARC
+
+
+More Policies: ARC
+ARC Policy Benefits
+Dynamically Balances 
+between LRU and LFU
+
+
+More Policies: ARC
+ARC Policy Benefits
+Dynamically Balances 
+between LRU and LFU
+ARC Policy Limitations
+Complex 
+Implementation
+
+
+Music Playlist + Cache Eviction Policies
+Keeps Favorites and New Discoveries
+TwoQ
+Keeps Only New Discoveries
+LRU
+
+
+
+
+Buffer Pool 
+Flooding
+
+
+Buffer Pool 
+Flooding
+TwoQ
+Policy
+
+
+
+

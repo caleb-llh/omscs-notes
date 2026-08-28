@@ -1,0 +1,1490 @@
+--- Module 06 ---
+
+Multi-Threading
+
+
+
+
+Multi-Core
+CPUs
+
+
+Multi-Core
+CPUs
+Multi-
+Threading
+In C++
+
+
+History of CPUs
+
+
+History of CPUs
+1970-1980s
+First CPUs
+Few 
+Megahertz
+1990s
+100s of 
+MHz to
+over 1 GHz
+Early 2000s
+Top-end 
+CPUs
+over 3 GHz
+Mid 2000s
+3.8 GHz
+Thermal 
+Wall
+
+
+History of CPUs
+1970-1980s
+First CPUs
+Few 
+Megahertz
+1990s
+100s of 
+MHz to
+over 1 GHz
+Early 2000s
+Top-end 
+CPUs
+over 3 GHz
+Mid 2000s
+3.8 GHz
+Thermal 
+Wall
+
+
+History of CPUs
+1970-1980s
+First CPUs
+Few 
+Megahertz
+1990s
+100s of MHz 
+to
+over 1 GHz
+Early 2000s
+Top-end 
+CPUs
+over 3 GHz
+Mid 2000s
+3.8 GHz
+Thermal 
+Wall
+
+
+History of CPUs
+1970-1980s
+First CPUs
+Few 
+Megahertz
+1990s
+100s of 
+MHz to
+over 1 GHz
+Early 2000s
+Top-end 
+CPUs
+over 3 GHz
+Mid 2000s
+3.8 GHz
+Thermal 
+Wall
+
+
+History of CPUs
+1970-1980s
+First CPUs
+Few 
+Megahertz
+1990s
+100s of 
+MHz to
+over 1 GHz
+Early 2000s
+Top-end 
+CPUs
+over 3 GHz
+Mid 2000s
+3.8 GHz
+Thermal 
+Wall
+
+
+History of CPUs
+
+
+History of CPUs
+2005
+First 2-core 
+CPUs
+Parallel 
+Processing
+
+
+History of CPUs
+2006 
+onwards
+4-core CPUs
+AMD 
+Phenom X4
+2005
+First 2-core 
+CPUs
+Parallel 
+Processing
+
+
+History of CPUs
+Today
+64-core CPUs
+AMD 
+Threadripper
+2006 
+onwards
+4-core CPUs
+AMD 
+Phenom X4
+2005
+First 2-core 
+CPUs
+Parallel 
+Processing
+
+
+Multi-Core CPUs
+
+
+Multi-Core CPUs
+Clock Speed
+Rhythm of a  
+Drumbeat
+One Beat = 
+One Instruction
+
+
+Multi-Core CPUs
+Clock Speed
+Rhythm of a  
+Drumbeat
+One Beat = 
+One Instruction
+Single-Core CPU
+Faster Drumbeat
+ Causes 
+Overheating
+
+
+Multi-Core CPUs
+Clock Speed
+Rhythm of a  
+Drumbeat
+One Beat = 
+One Instruction
+Single-Core CPU
+Faster Drumbeat
+ Causes 
+Overheating
+Multi-Core CPU
+Multiple 
+Drummers 
+Multiple Instructions 
+at the same time
+
+
+Threading
+Thread 1
+Txn 1 from User 1
+Thread 2
+Txn 2 from User 2
+
+
+Threading
+Thread 1
+Txn 1 from User 1
+Thread 2
+Txn 2 from User 2
+Thread: Series of Instructions
+
+
+Threading
+Thread 1
+Txn 1 from User 1
+Thread 2
+Txn 2 from User 2
+Thread: Series of Instructions
+Multi-Core CPUs: 
+Multiple Threads in Parallel
+
+
+Threading
+Thread 1
+Txn 1 from User 1
+Thread 2
+Txn 2 from User 2
+Thread: Series of Instructions
+Multi-Core CPUs: 
+Multiple Threads in Parallel
+
+
+Multi-Threading Example
+#include <iostream>
+#include <thread>
+#include <vector>
+int bankBalance = 1000; // Initial bank balance
+void performTransactions() {
+ for (int i = 0; i < 10000; ++i) {
+  bankBalance += 10; // Deposit
+  bankBalance -= 10; // Withdrawal
+ }
+}
+A shared bank balance variable updated by multiple 
+threads representing different transactions
+Context
+
+
+int main() {
+ std::vector<std::thread> threads;
+ for (int i = 0; i < 8; ++i) {
+  // Initiate transactions without synchronization
+  threads.emplace_back(performTransactions);
+ }
+ for (auto &thread : threads) {
+  thread.join(); // Wait for all threads to finish
+ }
+ std::cout << "Expected balance: 1000\n
+                Actual balance: " << bankBalance
+      << std::endl;
+ return 0;
+}
+Multi-Threading Example
+
+
+Need for Synchronization
+Run 1
+Expected Balance: $1000
+Actual Balance  : $910
+Run 2
+Expected Balance: $1000
+Actual Balance  : $1020
+Without synchronization, simultaneous 
+transactions lead to inaccurate balance
+Challenge
+
+
+Playground Slide Synchronization
+Playground
+Slide
+Thread 2
+Thread 1
+
+
+Playground Slide Synchronization
+Playground
+Slide
+Thread 2
+Thread 1
+
+
+Playground Slide Synchronization
+Playground
+Slide
+Thread 2
+Thread 1
+
+
+Assembly Level Explanation
+// LOAD value of bankBalance from memory to register
+MOV EAX, [bankBalance]
+//ADD 10 to increment the value in the register
+ADD EAX, 10
+//STORE the new value in register back to the memory location of bankBalance
+MOV [bankBalance], EAX
+bankBalance += 10;
+
+
+Race Condition
+Thread 1
+Thread 2
+Time
+
+
+Race Condition
+Thread 1 LOAD $1000 into a register.
+Thread 1
+Thread 2
+Time
+
+
+Race Condition
+Thread 1 LOAD $1000 into a register.
+Thread 2 also LOADs $1000 into another 
+register around the same time
+Thread 1
+Thread 2
+Time
+
+
+Race Condition
+Thread 1 LOAD $1000 into a register.
+Thread 1 ADDs $10 to its register (now 
+$1010) and STOREs it back in bankBalance.
+Thread 2 also LOADs $1000 into another 
+register around the same time
+Thread 1
+Thread 2
+Time
+
+
+Race Condition
+Thread 1 LOAD $1000 into a register.
+Thread 1 ADDs $10 to its register (now 
+$1010) and STOREs it back in bankBalance.
+Thread 2 also LOADs $1000 into another 
+register around the same time
+Thread 2, unaware that Thread 1 has 
+modified bankBalance, still has the old 
+value (1000) in its register
+Thread 1
+Thread 2
+Time
+
+
+Race Condition
+Thread 1 LOAD $1000 into a register.
+Thread 1 ADDs $10 to its register (now 
+$1010) and STOREs it back in bankBalance.
+Thread 2 also LOADs $1000 into another 
+register around the same time
+Thread 2, unaware that Thread 1 has 
+modified bankBalance, still has the old 
+value (1000) in its register
+Thread 2 also ADDs $10 and STOREs 
+$1010 back to bankBalance.
+Thread 1
+Thread 2
+Time
+
+
+Non-Atomic Load-ADD-STORE Sequence
+1
+LOAD $1000
+2
+LOAD $1000
+3
+ADD $10
+4
+STORE $1010
+5
+ADD $10
+6
+STORE $1010
+Time
+Thread 1
+Thread 2
+Intermediate
+State
+
+
+
+
+Multi-Core
+CPUs
+
+
+Multi-Core
+CPUs
+Multi-
+Threading
+In C++
+
+
+Synchronization
+
+
+
+
+Mutual
+Exclusion
+
+
+Mutual
+Exclusion
+std::mutex
+
+
+std::mutex (mutual exclusion)
+mutex
+Shared
+Variable
+Thread 1
+Thread 2
+a door lock to a room with the shared variable
+mutex
+
+
+std::mutex bankMutex;
+void performTransactions(int account) {
+ for (int i = 0; i < 10000; ++i) {
+  bankMutex.lock();  // Manually lock the mutex
+  bankBalance += 10;  // Deposit
+  bankBalance -= 10;  // Withdrawal
+  bankMutex.unlock(); // Manually unlock the mutex
+ }
+}
+std::mutex (mutual exclusion)
+Mutex manual 
+locking & 
+unlocking
+
+
+std::mutex bankMutex;
+void performTransactions(int account) {
+ for (int i = 0; i < 10000; ++i) {
+  bankMutex.lock();  // Manually lock the mutex
+  bankBalance += 10;  // Deposit
+  bankBalance -= 10;  // Withdrawal
+  bankMutex.unlock(); // Manually unlock the mutex
+ }
+}
+std::mutex (mutual exclusion)
+Transactions 
+processed 
+atomically
+Mutex manual 
+locking & 
+unlocking
+
+
+std::mutex bankMutex;
+void performTransactions(int account) {
+ for (int i = 0; i < 10000; ++i) {
+  bankMutex.lock();  // Manually lock the mutex
+  bankBalance += 10;  // Deposit
+  bankBalance -= 10;  // Withdrawal
+  bankMutex.unlock(); // Manually unlock the mutex
+ }
+}
+std::mutex (mutual exclusion)
+Prevents data 
+corruption
+Transactions 
+processed 
+atomically
+Mutex manual 
+locking & 
+unlocking
+
+
+bankMutex.lock(); // Manually lock the mutex
+// CRITICAL SECTION STARTS
+bankBalance += 10; // Deposit
+bankBalance -= 10; // Withdrawal
+// CRITICAL SECTION ENDS
+bankMutex.unlock(); // Manually unlock the mutex
+Critical Section
+•
+Operations between lock and unlock form 
+critical section
+•
+Only one thread enters the section at a 
+time
+
+
+Mutex Operations at Assembly Level
+; Locking the Mutex
+retry:
+ ; EAX is set to the expected old value (unlocked = 0)
+ MOV EAX, 0
+ ; EBX is set to the new value to store if comparison is successful (locked = 1)
+ MOV EBX, 1
+ ; Atomically compare [mutex] to 0, if equal replace [mutex] with 1
+ LOCK CMPXCHG [mutex], EBX;
+ ; Test if the original value of [mutex] (now in EBX) was 1
+ TEST EBX, EBX; 
+ ; If the mutex was already locked (EBX was 1), jump to retry
+ JNZ retry
+
+
+Mutex Operations at Assembly Level
+; Critical section to update bankBalance
+MOV EAX, [bankBalance]  ; Load bank balance
+ADD EAX, 10       ; Modify bank balance
+MOV [bankBalance], EAX  ; Store bank balance
+; Unlocking the Mutex
+MOV EBX, 0      ; Set EBX to 0, which represents the unlocked state
+MOV [mutex], EBX   ; Store 0 into the mutex, effectively unlocking it
+
+
+Mutex Prevents Data Race
+1
+LOCK mutex
+2
+LOAD $1000
+3
+ADD $10
+4
+STORE $1010
+5
+UNLOCK mutex
+6
+LOCK mutex
+7
+LOAD $1010
+8
+ADD $10
+9
+STORE $1020
+10
+UNLOCK mutex
+Thread 1
+Thread 2
+Time
+
+
+Mutex Prevents Data Race
+1
+LOCK mutex
+2
+LOAD $1000
+3
+ADD $10
+4
+STORE $1010
+5
+UNLOCK mutex
+6
+LOCK mutex
+7
+LOAD $1010
+8
+ADD $10
+9
+STORE $1020
+10
+UNLOCK mutex
+Thread 1
+Thread 2
+Time
+
+
+Mutex Prevents Data Race
+1
+LOCK mutex
+2
+LOAD $1000
+3
+ADD $10
+4
+STORE $1010
+5
+UNLOCK mutex
+6
+LOCK mutex
+7
+LOAD $1010
+8
+ADD $10
+9
+STORE $1020
+10
+UNLOCK mutex
+Thread 1
+Thread 2
+Time
+
+
+Multiple Bank Accounts
+std::mutex bankMutex;
+// Initial balances of five bank accounts
+int bankAccounts[5] = {1000, 2000, 3000, 4000, 5000}; 
+void performTransactions(int account) {
+ for (int i = 0; i < 10000; ++i) {
+  bankMutex.lock();       // Single mutex for all five accounts
+  bankAccounts[account] += 10; // Deposit
+  bankAccounts[account] -= 10; // Withdrawal
+  bankMutex.unlock();
+ }
+}
+Managing transactions across 5 bank accounts in a 
+multi-threaded application 
+
+
+Single Mutex
+Thread 1
+Thread 2
+Multiple Bank Accounts
+Account
+1
+Account
+2
+Account
+3
+Account
+4
+Account
+5
+
+
+
+
+Mutual
+Exclusion
+
+
+Mutual
+Exclusion
+std::mutex
+
+
+Fine-Grained Locking
+
+
+
+
+Fine-Grained
+Locking
+
+
+Fine-Grained
+Locking
+std::
+lock_guard
+
+
+Fine-Grained Locking
+5 separate mutexes
+Account 1
+Thread 2
+Thread 1
+Account 2
+Account 3
+Account 4
+Account 5
+Use a separate mutex for each bank account to improve concurrency
+
+
+std::mutex bankAccountMutexes[5]; // A mutex for each bank account
+int bankAccounts[5] = {1000, 2000, 3000, 4000, 5000}; // Initial balances
+void performTransactions(int account) {
+ for (int i = 0; i < 10000; ++i) {
+  bankAccountMutexes[account].lock(); // Lock only the mutex for specified account
+  bankAccounts[account] += 10; // Deposit
+  bankAccounts[account] -= 10; // Withdrawal
+  bankAccountMutexes[account].unlock(); // Unlock the mutex for the specified account
+ }
+}
+Fine-Grained Locking
+Non-conflicting transactions can run in parallel
+
+
+Manual Locking and Unlocking
+Manual mutex locking and unlocking comes with risk
+void performTransactions(int account) {
+ for (int i = 0; i < 10000; ++i) {
+  bankAccountMutexes[account].lock(); // Lock only the mutex for specified account
+  bankAccounts[account] += 10; // Deposit
+  bankAccounts[account] -= 10; // Withdrawal
+  bankAccountMutexes[account].unlock(); // Unlock the mutex for the specified account
+ }
+}
+
+
+Thread Starvation
+Mutex of Account 3
+Thread 4
+Thread 1
+
+
+Thread Starvation
+Mutex of Account 3
+Thread 4
+Thread 1
+Locked
+
+
+Thread Starvation
+Mutex of Account 3
+Thread 4
+Thread 1
+Locked
+Waiting For
+
+
+std::lock_guard
+void performTransactions(int account) {
+ for (int i = 0; i < 10000; ++i) {
+  // Automatically locks
+  std::lock_guard<std::mutex> lock(bankAccountMutexes[account]);
+  bankAccounts[account] += 10; // Deposit
+  bankAccounts[account] -= 10; // Withdrawal
+  // Mutex automatically unlocked when lock goes out of scope
+ }
+}
+A solution to avoid forgetting to unlock a mutex is to use std::lock_guard
+std::lock_guard automatically manages locking and unlocking
+
+
+RAII Principle in C++
+std::mutex myMutex;
+std::lock_guard<std::mutex> lock(myMutex); // Object created here
+another example of RAII
+std::lock_guard
+instance of std::lock_guard
+Object
+mutex
+Resource
+
+
+RAII Principle in C++
+RAII Object
+Resource Managed
+Acquisition
+Release
+std::lock_guard
+Mutex
+Locks the mutex upon 
+creation
+Automatically releases the 
+lock when object is destroyed.
+std::unique_ptr
+Dynamic memory
+Allocates memory and 
+takes ownership
+Automatically deallocates 
+memory
+std::fstream
+File handle
+Opens a file and 
+acquires the file handle
+Closes the file and releases 
+the file handle
+Automate resource management by 
+tying resource allocation to object lifespan
+
+
+
+
+Fine-Grained
+Locking
+
+
+Fine-Grained
+Locking
+std::
+lock_guard
+
+
+
+
+Database Configuration
+
+
+
+
+Database
+Configuration
+
+
+Database
+Configuration
+Configuration
+Tuning
+
+
+Database Configuration
+Parameter
+Value
+PAGE_SIZE
+1 KB
+MAX_SLOTS
+128 slots per page
+MAX_PAGES_IN_MEMORY
+10 pages
+…
+…
+
+
+PAGE_SIZE
+1KB
+PAGE
+1KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+8KB BUFFER POOL
+
+
+PAGE_SIZE
+1KB
+PAGE
+1KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+1 KB
+PAGE
+4 KB
+PAGE
+4 KB
+PAGE
+8KB BUFFER POOL
+
+
+MAX_SLOTS
+SLOT 
+1
+(8 B)
+SLOT 
+2
+(8 B)
+…
+SLOT 
+128
+(8 B)
+1KB SLOTTED PAGE
+
+
+MAX_SLOTS
+SLOT 
+1
+(8 B)
+SLOT 
+2
+(8 B)
+…
+SLOT 
+128
+(8 B)
+SLOT 
+1
+(4 B)
+SLOT 
+2
+(4 B)
+…
+SLOT 
+256
+(4 B)
+1KB SLOTTED PAGE
+
+
+MAX_PAGES_IN_MEMORY
+BUFFER POOL
+PAGE
+1
+PAGE
+2
+PAGE 
+3
+PAGE 
+4
+
+
+MAX_PAGES_IN_MEMORY
+BUFFER POOL
+PAGE
+1
+PAGE
+2
+PAGE 
+3
+PAGE 
+4
+PAGE 
+1
+PAGE 
+2
+PAGE 
+3
+PAGE 
+4
+PAGE 
+5
+PAGE 
+6
+PAGE 
+7
+PAGE 
+8
+
+
+Challenges in Configuration Tuning
+0
+1000
+2000
+3000
+4000
+5000
+6000
+1 KB
+2 KB
+4 KB
+8 KB
+16 KB
+THROUGHPUT
+(TRANSACTIONS 
+PER SECOND)
+PAGE SIZE PARAMETER
+Most parameters like PAGE_SIZE have a “sweet spot”
+
+
+Challenges in Configuration Tuning
+System Parameter
+Value
+BUFFER_POOL_SIZE
+128 MB
+System Parameter
+Value
+BUFFER_POOL_SIZE
+16 GB
+PostgreSQL’s default configuration has low buffer pool size
+
+
+Immutable vs. Mutable Parameters
+System Parameter
+Mutable or Immutable
+PAGE_SIZE
+Immutable
+BUFFER_POOL_SIZE
+Mutable
+
+
+Memory Size Throughput
+Cost
+Price-Performance
+8 GB
+100 transactions 
+per second
+$0.05 per hour $0.139 per million 
+transactions
+16 GB
+200 transactions 
+per second
+$0.15 per hour $0.208 per million
+transactions
+Cloud Database Tuning
+Cost vs Performance
+
+
+Tools for Configuration Tuning
+Parameter
+Value
+TOTAL_MEMORY
+16 GB
+NUMBER_OF_CPUS
+16
+STORAGE_TYPE
+SSD / HDD / SAN 
+APPLICATION_TYPE
+Type 1 / Type 2 / Type 3
+Automatically recommend configuration 
+based on hardware and application
+
+
+Application Type
+Performance 
+Bound by
+Database Size 
+Relative to DRAM
+Workload 
+Characteristics
+Online Transaction 
+Processing (OLTP)
+CPU- or I/O-bound
+DB slightly larger 
+than DRAM ~ 1 TB
+20-40% short transactions, some 
+long transactions and queries
+Online Analytical
+Processing (OLAP)
+I/O- or DRAM-bound
+DB much larger
+than DRAM ~ 4 TB
+Large complex reporting queries;
+Also known as data warehouse
+Web Application 
+(WEB)
+CPU-bound
+DB much smaller 
+than DRAM ~ 4 GB
+90% or more simple queries
+Database Application Type
+
+
+Reinforcement Learning for Configuration Tuning
+State
+Current settings of database parameters and the current 
+workload characteristics
+Action
+Increase or decrease the value of some parameter
+Reward
+Increase in throughput or decrease in price-performance 
+metric
+•
+Agent interacts with database by trying different configuration 
+settings
+•
+Observes the impact on performance such as throughput
+
+
+
+
+Database
+Configuration
+
+
+Database
+Configuration
+OLTP 
+and OLAP
+
+
+
+
+Database System Debugging
+
+
+
+
+Debugging
+
+
+Debugging
+Using GDB
+for
+Debugging
+
+
+Debugging
+Using GDB
+for
+Debugging
+Debugging
+Principles
+
+
+Origin of Debugging
+GRACE HOPPER
+James S. Davis
+Public domain, via Wikimedia Commons
+Log Book with Computer Bug
+National Museum of American History
+Public Domain under Creative Commons Zero (CC0) license
+
+
+Debugging in Database Systems
+Bugs
+Data Corruption
+Performance 
+Degradation
+System Crashes
+Tools
+GDB
+Print Statements
+
+
+Using GDB for Debugging
+g++ -g buzzdb.cpp -o buzzdb
+gdb ./buzzdb
+a tool to see what is going on 'inside’ the program while it 
+executes or at the moment it crashed
+GDB
+
+
+Using GDB for Debugging
+#include <iostream>
+int add(int x, int y) {
+ return x + y; // Set a breakpoint here
+}
+int main() {
+ int sum = 0;
+ for (int i = 1; i <= 10; ++i) {
+  sum = add(sum, i);
+  std::cout << "Sum: " << sum << endl;
+ }
+ return 0;
+}
+
+
+GDB Commands
+
+
+GDB Commands
+Run: 
+Starts the 
+program 
+under GDB
+
+
+GDB Commands
+Run: 
+Starts the 
+program 
+under GDB
+Next: 
+Moves 
+Execution 
+to the next 
+line
+
+
+GDB Commands
+Run: 
+Starts the 
+program 
+under GDB
+Next: 
+Moves 
+Execution 
+to the next 
+line
+Print: 
+Displays 
+values of 
+variables
+
+
+GDB Commands
+Run: 
+Starts the 
+program 
+under GDB
+Next: 
+Moves 
+Execution 
+to the next 
+line
+Print: 
+Displays 
+values of 
+variables
+Break: Set a 
+breakpoint 
+at a specific 
+line or 
+function
+
+
+GDB Commands
+
+
+GDB Commands
+Continue: 
+Continue running 
+the program until 
+the next 
+breakpoint
+
+
+GDB Commands
+Continue: 
+Continue running 
+the program until 
+the next 
+breakpoint
+Backtrace (bt): 
+Shows the 
+call stack to see 
+how the program 
+reached 
+current point
+
+
+GDB Commands
+Continue: 
+Continue running 
+the program until 
+the next 
+breakpoint
+Backtrace (bt): 
+Shows the 
+call stack to see 
+how the program 
+reached 
+current point
+Info: 
+Displays local 
+variables in the 
+current stack 
+frame
+
+
+Breakpoints and Backtrace
+
+
+Breakpoints and Backtrace
+Breakpoints: Temporarily halt the 
+program execution at a specific point
+
+
+Breakpoints and Backtrace
+Breakpoints: Temporarily halt the 
+program execution at a specific point
+Backtrace: Reveals the path taken by the 
+program to reach current execution point
+
+
+Illustrative GDB Session
+(gdb) break add
+Breakpoint 1 at 0x...: file main.cpp, line 4.
+(gdb) run
+Starting program: /a.out
+Breakpoint 1, add (x=0, y=1) at main.cpp:4
+4       return x + y;
+(gdb) info locals
+x = 0
+y = 1
+(gdb) next
+5   }
+
+
+Illustrative GDB Session
+(gdb) print x
+$1 = 0
+(gdb) print y
+$2 = 1
+(gdb) continue
+Continuing.
+Sum: 1
+(gdb) backtrace
+#0  add (x=1, y=2) at main.cpp:4
+#1  0x... in main () at main.cpp:8
+
+
+Using Print Statements for Debugging
+std::cout << "Loading page : " << page_id << std::endl;
+std::cout << "Evicting page: " << evictedPageId << std::endl;
+Print statements allow you to track 
+how your program's execution flow and 
+how variables change over time
+
+
+Overload << operator
+// Define the operator<< function
+std::ostream &operator<<(std::ostream &os, const Person &person) {
+ os << "Person[name=" << person.name << ", age=" << person.age << "]";
+ return os;
+}
+int main() {
+ Person alice("Alice", 50);
+ std::cout << alice << std::endl;
+}
+OUTPUT: Person[name = Alice, age = 50]
+Print statements allow you to track 
+how your program's execution flow and 
+how variables change over time
+
+
+Debugging Principle: Stress Testing
+constexpr size_t MAX_PAGES_IN_MEMORY = 10; // For stress testing
+BufferManager bufferManager(MAX_PAGES_IN_MEMORY);
+
+
+Debugging Principle: Stress Testing
+constexpr size_t MAX_PAGES_IN_MEMORY = 10; // For stress testing
+BufferManager bufferManager(MAX_PAGES_IN_MEMORY);
+makes it easier 
+to observe and 
+understand 
+eviction 
+decisions
+Small Buffer Pool
+
+
+Debugging Principle: Stress Testing
+constexpr size_t MAX_PAGES_IN_MEMORY = 10; // For stress testing
+BufferManager bufferManager(MAX_PAGES_IN_MEMORY);
+makes it easier 
+to observe and 
+understand 
+eviction 
+decisions
+Small Buffer Pool
+edge-cases such 
+as buffer pool 
+arise much 
+sooner
+Limited Slots
+
+
+Debugging Principle: Modular Design
+NIKLAUS WIRTH
+orcmid, CC BY 2.0
+via Wikimedia Commons
+class BufferManager {
+ StorageManager storage_manager;
+ std::unique_ptr<Policy> policy;
+ …
+};
+clear interfaces and separation of concerns
+Modularity
+
+
+Debugging Principle: Literate Programming
+/**
+* Function: readPage
+* Purpose: Reads a page from the buffer pool.
+*      If the page is not currently in memory,
+*      it loads the page from disk into the buffer pool.
+* Inputs: pageId - The ID of the page to be read
+* Outputs: A reference to a Buffer containing the page data
+* Throws: DiskIOException if the page cannot be read
+*/
+Buffer &BufferManager::readPage(PageId pageId) {
+  … 
+}
+DONALD KNUTH
+Alex Handy, CC BY-SA 2.0
+via Wikimedia Commons
+programs must be understandable by humans first. 
+documentation is an integral part of programming.
+
+
+Debugging Principle: Robustness
+// Load frame from disk into memory bool
+BufferManager::loadFrame(int frameId, int pageId) {
+ try {
+  // Call the storage manager to read data from disk into the buffer frame
+  storageManager.readPage(pageId, pool[frameId].data);
+ } catch (const DiskIOException &e) {
+  std::cerr << "Failed to load page from disk: " << e.what() << std::endl;
+  return false;
+ }
+ return true;
+}
+ensure that the system can withstand 
+failures, like failed disk I/O operations
+Robustness
+
+
+
+
+Debugging
+
+
+Debugging
+Using GDB
+for
+Debugging
+
+
+Debugging
+Using GDB
+for
+Debugging
+Debugging
+Principles
+
+
+Debugging Principles
+
+
+Debugging Principle: Stress Testing
+constexpr size_t MAX_PAGES_IN_MEMORY = 3; // For testing
+BufferManager bufferManager(MAX_PAGES_IN_MEMORY);
+
+
+Debugging Principle: Stress Testing
+constexpr size_t MAX_PAGES_IN_MEMORY = 3; // For testing
+BufferManager bufferManager(MAX_PAGES_IN_MEMORY);
+makes it easier 
+to observe and 
+understand 
+eviction 
+decisions
+Small Buffer Pool
+
+
+Debugging Principle: Stress Testing
+constexpr size_t MAX_PAGES_IN_MEMORY = 3; // For testing
+BufferManager bufferManager(MAX_PAGES_IN_MEMORY);
+makes it easier 
+to observe and 
+understand 
+eviction 
+decisions
+Small Buffer Pool
+edge-cases such 
+as buffer pool 
+arise much 
+sooner
+Limited Slots
+
+
+Debugging Principle: Modular Design
+NIKLAUS WIRTH
+orcmid, CC BY 2.0
+via Wikimedia Commons
+class BufferPool {
+    MetadataManager metadata;
+    DataManager data;
+public:
+    Buffer& getBuffer(int id) {
+        metadata.updateAccessTime(id);
+        return data.getBufferData(id);
+    }
+};
+clear interfaces and separation of concerns, such as separating 
+management of buffer metadata from the actual data storage
+Modularity
+
+
+Debugging Principle: Literate Programming
+/**
+ * Function: allocateBuffer
+ * Purpose: Allocates a buffer from the pool. 
+ *          If no buffers are available, 
+ *          it evicts the least recently used (LRU) buffer.
+ * Inputs: None
+ * Outputs: A reference to a Buffer
+ * Throws: BufferAllocationException if 
+           no buffers can be freed.
+ */
+Buffer& BufferPool::allocateBuffer() {
+   …
+}
+DONALD KNUTH
+Alex Handy, CC BY-SA 2.0
+via Wikimedia Commons
+Write programs that are understandable by humans first, 
+treating documentation as an integral part of programming.
+
+
+Debugging Principle: Robustness
+bool BufferPool::loadBuffer(int bufferId, int diskSector) {
+  try {
+   diskManager.readData(diskSector, buffers[bufferId].data);
+  } catch (const DiskIOException& e) {
+    std::cerr << "Failed to load buffer from disk: " 
+    << e.what() << std::endl;
+    return false;
+        }
+  return true;
+}
+ensuring that the system can withstand 
+failures, like failed disk I/O operations
+Robustness
+
+
