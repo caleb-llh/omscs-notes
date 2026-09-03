@@ -1,23 +1,3 @@
-
-# **Intradomain Routing**
-
-## Chapter Outline
-
-- Routing Algorithms
-- Linkstate Routing Algorithm
-- Linkstate Routing Algorithm - Example
-- Linkstate Routing Algorithm - Computational Complexity
-- **Distance Vector** Routing
-- **Distance Vector** Routing Example
-- Link Cost Changes and Failures in DV - Count to Infinity Problem
-- **Poison Reverse**
-- Distance Vector Routing Protocol Example: RIP
-- Linkstate Routing Protocol Example: OSPF
-- Processing OSPF Messages in the Router
-- **Hot Potato Routing**
-- Example Traffic Engineering Framework
-
-
 ## Routing Algorithms
 
 Let's assume that we have two hosts that have established a connection between them using TCP or UDP as we saw in the previous lecture.

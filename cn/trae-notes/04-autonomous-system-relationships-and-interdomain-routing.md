@@ -1,23 +1,4 @@
 
-# **Autonomous System** Relationship and **Interdomain Routing**
-
-## Chapter Outline
-
-- Autonomous Systems and Internet Interconnection
-- **Autonomous System** Business Relationships
-- BGP Routing Policies: Importing and Exporting Routes
-- BGP and Design Goals
-- BGP Protocol Basics
-- iBGP and eBGP
-- BGP Decision Process: Selecting Routes at a Router
-- Challenges with BGP: Scalability and Misconfigurations
-- Peering at IXPs
-- Peering at IXPs: How Does a **Route Server** Work?
-- How does a **route server** (RS) maintain multi-lateral peering sessions?
-- Remote Peering
-- BGP Configuration Verification
-
-
 ## Autonomous Systems and Internet Interconnection
 
 > **Design Philosophy:** BGP is not a performance protocol; it is a capitalism protocol. It routes traffic based on business agreements and financial incentives rather than the fastest path, illustrating how human economics inevitably shape technical architecture.

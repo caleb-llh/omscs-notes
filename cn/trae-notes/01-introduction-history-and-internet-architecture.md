@@ -350,15 +350,23 @@ Let's take a look at how bridges run this distributed algorithm.
 
 Every node (bridge) in the graph has an ID. T**he bridges eventually select one bridge as the root of the topology.** Let's see how this selection happens.
 
-The algorithm runs in “rounds” and at every round each node sends to each neighbor node a configuration message with three fields: a) the sending node's ID, b) the ID of the roots as perceived by the sending node, and c) the number of hops between that (perceived) root and the sending node.
+The algorithm runs in “rounds” and at every round each node **sends to each neighbor** node a configuration message with three fields: a) the **sending node's ID**, b) the **ID of the roots as perceived** by the sending node, and c) the **number of hops** between that (perceived) root and the sending node.
 
 At every round, each node keeps track of the best configuration message that it has received so far, and it compares that against the configuration messages it receives from neighboring nodes at that round.
 
-At the very first round of the algorithm, every node thinks that it is the root. So for a node with an ID 3 for example, the node sends a configuration message <3, 3, 0> to its neighbors. Note that the distance of the node from itself (perceived root) is 0.
+**At the very first round of the algorithm, every node thinks that it is the root**. So for a node with an ID 3 for example, the node sends a configuration message <3, 3, 0> to its neighbors. Note that the distance of the node from itself (perceived root) is 0.
 
 ![](https://assets.omscs.io/notes/0024.png)
 
-So how does a node compare two configuration messages? Between two configurations, a node selects one configuration as better if: a) The root of the configuration has a smaller ID, or if b) The roots have equal IDs, but one configuration indicates smaller distance from the root, or if c) Both roots IDs are the same and the distances are the same, then the node breaks the tie by selecting the configuration of the sending node that has with the smallest ID. In addition, a node stops sending configuration messages over a link (port), when the node receives a configuration message that indicates that it is not the root, eg when it receives a configuration message from a neighbor that: a) either closer to the root, or b) it has the same distance from the root, but it has a smaller ID.
+So how does a node compare two configuration messages? 
+Between two configurations, a node selects one configuration as better if: 
+a) The **root** of the configuration has a **smaller** ID, or if 
+b) The roots have equal IDs, but one configuration indicates **smaller distance** from the root, or if 
+c) Both roots IDs are the same and the distances are the same, then the node breaks the tie by selecting the configuration of the **sending node** that has with the **smallest** ID. 
+
+In addition, a node **stops sending configuration messages** over a link (port), when the node receives a configuration message that indicates that **it is not the root**, eg when it receives a configuration message from a neighbor that: 
+a) either closer to the root, or 
+b) it has the same distance from the root, but it has a smaller ID.
 
 ![](https://assets.omscs.io/notes/0025.png)
 
